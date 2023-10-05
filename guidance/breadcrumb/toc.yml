@@ -1,3 +1,11 @@
-- name: '<please enter product name here>'
-  tocHref: /
-  topicHref: /
+items:
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/
+  items:
+  - name: Get started
+    tocHref: /dynamics365/get-started/
+    topicHref: /dynamics365/get-started/index
+  - name: Guidance
+    tocHref: /dynamics365/guidance/
+    topicHref: /dynamics365/guidance/index
