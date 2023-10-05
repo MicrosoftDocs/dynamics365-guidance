@@ -49,12 +49,12 @@
       "ms.reviewer": "edupont",
       "permissioned-type": "public",
       "recommendations": "true",
+      "titleSuffix": "Dynamics 365",
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "searchScope": 
         ["dynamics-365-daf",
           "Dynamics 365"
-        ],
-      "titleSuffix": "Dynamics 365",
-      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+        ]
     },
     "fileMetadata": {
       "ms.subservice":{
