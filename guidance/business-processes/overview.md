@@ -13,7 +13,7 @@ ms.custom: bap-template #Required; don't change.
 
 Dynamics 365 supports many different industries and types of organizations. In this section, we provide an overview of end-to-end scenarios that organizations often look for. Dynamics 365 is a suite of applications that are designed to help organizations meet the organizational goals aligned to various business processes in specific industries.  
 
-[!INCLUDE [daf-business-process-def](../../includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts.  
+[!INCLUDE [daf-business-process-def](../includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts.  
 
 > [!TIP]
 > For an introduction to our project with the business process documentation, see [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, see [Business processes, steps, and how to find things](about-steps-navigation.md). For an overview of business terms, see [Glossary of terms in Dynamics 365 business processes](glossary.md).  

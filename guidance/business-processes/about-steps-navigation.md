@@ -16,7 +16,7 @@ This article describes terminology, concepts, and abbreviations that are used th
 
 Each business process article includes one or more tables with the steps required to configure and operate Dynamics 365. The following table is an excerpt from the table for the [Set customer credit limits](order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md#basic-credit-limit-checking) business process.  
 
-[!INCLUDE [daf-busprocess-example](../../includes/daf-busprocess-example.md)]
+[!INCLUDE [daf-busprocess-example](../includes/daf-busprocess-example.md)]
 
 The next sections further explain the columns and define the abbreviations that are used throughout the business process guide.
 
@@ -99,7 +99,7 @@ The following table shows each of the configuration stage names with the indicat
   In some cases, users might be able to change a value later, but we highly recommend that you don't change the initial configuration. Such configurations are marked with *NO* in the **Can change later** column.
 
   > [!NOTE]
-  > [!INCLUDE [daf-config-change](../../includes/daf-config-change.md)]
+  > [!INCLUDE [daf-config-change](../includes/daf-config-change.md)]
 
   > [!IMPORTANT]
   > Carefully consider the downstream impact if you decide to change any key references or identifiers on your data. Most Dynamics 365 apps have a function to rename or bulk update records. Use these functions with extreme caution.
@@ -121,7 +121,7 @@ The following table shows each of the configuration stage names with the indicat
     Indicates the values and configuration can't be added, created, or configured later without significant impact on the project and use of the existing system and processes.
 
   > [!NOTE]
-  > [!INCLUDE [daf-config-change](../../includes/daf-config-change.md)]
+  > [!INCLUDE [daf-config-change](../includes/daf-config-change.md)]
 
 ### Process types
 
@@ -229,7 +229,7 @@ After the navigation, we list the entity for importing or exporting data in eith
 
 Let's take a closer look at the example table from the start of the article.  
 
-[!INCLUDE [daf-busprocess-example](../../includes/daf-busprocess-example.md)]
+[!INCLUDE [daf-busprocess-example](../includes/daf-busprocess-example.md)]
 
 This example shows us that the process step for *credit and collections parameters* must be configured during the *Initialize* process stage. It's part of the *base* configuration stage, and it's a *configuration*. That's what we learn from the the values in the [Process stage](#process-stage-terminology) column for that row in the table. Next, we learn that it's recommended to be part of the Gold configuration, and there must be at least one such configuration. Finally, the table teaches us where to set up things, namely in the Finance app, or by using the *CustomerParameters* entity in the data management framework (DMF).
 

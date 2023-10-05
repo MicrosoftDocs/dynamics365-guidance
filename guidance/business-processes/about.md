@@ -13,7 +13,7 @@ ms.custom: bap-template #Required; don't change.
 Microsoft has established a business process catalog of standard business processes across Dynamics 365 apps and services. Read on to learn how to navigate and learn from the catalog.  
 
 > [!TIP]
-> [!INCLUDE [daf-business-process-def](../../includes/daf-business-process-def.md)]
+> [!INCLUDE [daf-business-process-def](../includes/daf-business-process-def.md)]
 
 ## What is the catalog?
 
@@ -23,7 +23,7 @@ Find the latest version of the catalog in [the Dynamics 365 Patterns & Practices
 
 ## What's in the catalog?
 
-[!INCLUDE [daf-bus-proces-catalog](../../includes/daf-bus-proces-catalog.md)]
+[!INCLUDE [daf-bus-proces-catalog](../includes/daf-bus-proces-catalog.md)]
 
 We plan to cover each level of the catalog. The result will be guidance about how to configure Dynamics 365 to meet most use cases and scenarios. Our goal is to help our customers and partners define the scope of their implementation projects. Start from our standard business processes and accelerate your success and implementation. We hope you can then focus on the processes that make your business unique. Work with your implementation partner to identify which business processes and patterns are relevant at the beginning of your project. See also the [Processes](../implementation-guide/solution-architecture-design-pillars-processes.md) solution architecture design pillar.  
 
@@ -37,7 +37,7 @@ For an overview of business terms, see [Glossary: Dynamics 365 business processe
 
 ## Get notified about changes through an RSS feed
 
-[!INCLUDE [daf-rss](../../includes/daf-rss.md)]
+[!INCLUDE [daf-rss](../includes/daf-rss.md)]
 
 ## Contribute
 
