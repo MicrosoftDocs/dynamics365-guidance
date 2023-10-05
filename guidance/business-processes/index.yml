@@ -1,0 +1,123 @@
+### YamlMime:Landing
+
+title: Overview of business processes in Dynamics 365
+summary: Learn the end-to-end scenarios and business processes that Dynamics 365 supports out-of-the-box.
+
+metadata:
+  title: Overview of business processes in Dynamics 365
+  description: Get an overview of common work scenarios that organizations often look for in business solutions. Here, we list the end-to-end scenarios that Dynamics 365 supports out-of-the-box,.
+  author: edupont04
+  ms.author: edupont
+  ms.date: 05/02/2023
+  ms.topic: landing-page # DON'T CHANGE
+  ms.custom: bap-template #Required; don't change.
+
+# Max. 12 cards, max 6 linkListTypes per card, max. 10 links per linkListType
+# linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
+
+landingContent:
+
+# Card
+  - title: Get started
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: Introduction
+        url: overview.md
+      - text: Use the business process guide
+        url: about.md
+      - text: Glossary of terms
+        url: glossary.md
+      - text: Business processes, steps, and how to find things
+        url: about-steps-navigation.md
+#    - linkListType: learn
+#      links:
+#      - text: Overview
+#        url: overview.md
+
+# Card
+  - title: End-to-end scenarios with products
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Case to resolution
+        url: case-to-resolution-introduction.md
+      #- text: Concept to market
+      #  url: TBD 
+      - text: Forecast to plan
+        url: forecast-to-plan-introduction.md
+      - text: Inventory to deliver
+        url: inventory-to-deliver-introduction.md
+      - text: Order to cash
+        url: order-to-cash-introduction.md
+      - text: Plan to produce
+        url: plan-to-produce-introduction.md
+      - text: Procure to pay
+        url: procure-to-pay-introduction.md
+      - text: Project to profit
+        url: project-to-profit-introduction.md
+      - text: Product and service lifetime management # Design to retire
+        url: product-service-lifecycle-management-introduction.md
+      - text: Prospect to quote
+        url: prospect-to-quote-introduction.md
+
+
+# Card
+  - title: End-to-end scenarios with services
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Case to resolution
+        url: case-to-resolution-introduction.md
+      - text: Plan to produce
+        url: plan-to-produce-introduction.md
+      - text: Procure to pay
+        url: procure-to-pay-introduction.md
+      - text: Project to profit
+        url: project-to-profit-introduction.md
+      - text: Prospect to quote
+        url: prospect-to-quote-introduction.md
+      - text: Service to cash
+        url: service-to-cash-introduction.md
+
+# Card
+  - title: End-to-end scenarios with human resources
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Case to resolution
+        url: case-to-resolution-introduction.md
+      - text: Forecast to plan
+        url: forecast-to-plan-introduction.md
+      - text: Hire to retire
+        url: hire-to-retire-introduction.md
+      - text: Inventory to deliver
+        url: inventory-to-deliver-introduction.md
+      - text: Plan to produce
+        url: plan-to-produce-introduction.md
+      - text: Project to profit
+        url: project-to-profit-introduction.md
+      - text: Service to cash
+        url: service-to-cash-introduction.md
+
+# Card
+  - title: End-to-end scenarios with financials
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Acquire to dispose
+        url: acquire-to-dispose-introduction.md
+      - text: Forecast to plan
+        url: forecast-to-plan-introduction.md
+      - text: Inventory to deliver
+        url: inventory-to-deliver-introduction.md
+      - text: Order to cash
+        url: order-to-cash-introduction.md
+      - text: Procure to pay
+        url: procure-to-pay-introduction.md
+      - text: Project to profit
+        url: project-to-profit-introduction.md
+      - text: Recort to report
+        url: record-to-report-introduction.md
+
+# No further cards needed. TOC handles the rest.

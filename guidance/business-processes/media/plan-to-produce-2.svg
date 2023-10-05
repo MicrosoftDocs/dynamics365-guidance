@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1566.6602"
+   height="530.9444"
+   overflow="hidden"
+   version="1.1"
+   id="svg325"
+   sodipodi:docname="plan-to-produce-2.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview327"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.53489583"
+     inkscape:cx="468.31548"
+     inkscape:cy="353.33982"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2725"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg325" />
+  <defs
+     id="defs289">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1920"
+         height="1920"
+         id="rect286" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g323"
+     transform="translate(-235.55989,-605.7254)">
+    <rect
+       x="235.55989"
+       y="605.7254"
+       width="1566.6602"
+       height="530.9444"
+       fill="#ffffff"
+       id="rect291"
+       style="stroke-width:0.475018" />
+    <path
+       d="m 321.5,872.5 c 0,-12.15 9.859,-22 22.02,-22 h 322.96 c 12.161,0 22.02,9.85 22.02,22 v 176 c 0,12.15 -9.859,22 -22.02,22 H 343.52 c -12.161,0 -22.02,-9.85 -22.02,-22 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path293" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="64px"
+       transform="translate(384.465,946)"
+       id="text295">Demand</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="64px"
+       transform="translate(380.718,1015)"
+       id="text297">planning</text>
+    <path
+       d="m 724,933 h 39 v -18 l 39,45 -39,45 v -18 h -39 z"
+       fill="#aabee6"
+       fill-rule="evenodd"
+       id="path299" />
+    <path
+       d="m 834.5,872.5 c 0,-12.15 9.832,-22 21.96,-22 h 322.08 c 12.13,0 21.96,9.85 21.96,22 v 176 c 0,12.15 -9.83,22 -21.96,22 H 856.46 c -12.128,0 -21.96,-9.85 -21.96,-22 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path301" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="64px"
+       transform="translate(921.234,946)"
+       id="text303">Supply</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="64px"
+       transform="translate(894.481,1015)"
+       id="text305">Planning</text>
+    <path
+       d="m 1237,933 h 39 v -18 l 39,45 -39,45 v -18 h -39 z"
+       fill="#aabee6"
+       fill-rule="evenodd"
+       id="path307" />
+    <path
+       d="m 1347.5,872.5 c 0,-12.15 9.83,-22 21.96,-22 h 322.08 c 12.13,0 21.96,9.85 21.96,22 v 176 c 0,12.15 -9.83,22 -21.96,22 h -322.08 c -12.13,0 -21.96,-9.85 -21.96,-22 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#770180"
+       fill-rule="evenodd"
+       id="path309" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="64px"
+       transform="translate(1375.58,946)"
+       id="text311">Production</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="64px"
+       transform="translate(1402.08,1015)"
+       id="text313">Schedule</text>
+    <rect
+       x="286"
+       y="666"
+       width="930"
+       height="426"
+       stroke="#000000"
+       stroke-width="6"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect315" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="48px"
+       transform="translate(581.689,728)"
+       id="text317">Forecast to plan</text>
+    <rect
+       x="1318"
+       y="666"
+       width="422"
+       height="426"
+       stroke="#000000"
+       stroke-width="6"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect319" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="48px"
+       transform="translate(1361.32,728)"
+       id="text321">Plan to produce</text>
+  </g>
+</svg>

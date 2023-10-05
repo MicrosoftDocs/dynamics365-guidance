@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="869.45001"
+   height="350.16565"
+   overflow="hidden"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="organizational-structure-compare.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.1789063"
+     inkscape:cx="412.24652"
+     inkscape:cy="177.28297"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2725"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg32" />
+  <g
+     id="g30"
+     transform="translate(-206.97151,-182.37244)">
+    <rect
+       x="206.97151"
+       y="182.37244"
+       width="869.45001"
+       height="350.16565"
+       fill="#ffffff"
+       id="rect2"
+       style="stroke-width:0.574761" />
+    <path
+       d="M 213,331.5 384,189 v 57 h 256 c 14.739,0 26.688,6.38 26.688,14.25 0,7.87 -11.949,14.25 -26.688,14.25 -14.739,0 -26.688,6.38 -26.688,14.25 0,7.87 11.949,14.25 26.688,14.25 H 896 V 246.002 L 1067,388.5 896,531 V 474 H 640 c -14.739,0 -26.688,-6.38 -26.688,-14.25 V 417 H 384 v 56.998 z"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="m 666.688,260.25 c 0,7.87 -11.949,14.25 -26.688,14.25 -14.739,0 -26.688,6.38 -26.688,14.25 0,7.87 11.949,14.25 26.688,14.25 h 26.688 z"
+       fill="#0060aa"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="M 213,331.5 384,189 v 57 h 256 c 14.739,0 26.688,6.38 26.688,14.25 0,7.87 -11.949,14.25 -26.688,14.25 -14.739,0 -26.688,6.38 -26.688,14.25 0,7.87 11.949,14.25 26.688,14.25 H 896 V 246.002 L 1067,388.5 896,531 V 474 H 640 c -14.739,0 -26.688,-6.38 -26.688,-14.25 V 417 H 384 v 56.998 z M 666.688,260.25 V 303 M 613.312,288.75 V 417"
+       stroke="#ffffff"
+       stroke-width="1.8"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path8" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="39px"
+       transform="translate(315.733,297)"
+       id="text10">Legal entity</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(315.733,353)"
+       id="text12">•</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(339.733,353)"
+       id="text14">USA</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(315.733,396)"
+       id="text16">•</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(339.733,396)"
+       id="text18">EUR</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="39px"
+       transform="translate(640,352)"
+       id="text20">Business unit</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(640,408)"
+       id="text22">•</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(664,408)"
+       id="text24">USA</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(640,451)"
+       id="text26">•</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(664,451)"
+       id="text28">EUR</text>
+  </g>
+</svg>
