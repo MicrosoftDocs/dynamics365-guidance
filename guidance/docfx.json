@@ -37,7 +37,7 @@
           "_repo.en-us/**"
         ]
       }
-    ],
+    ]},
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
@@ -54,7 +54,8 @@
         "**.*": [
           "dynamics-365-daf",
           "Dynamics 365"
-        ],
+        ]
+        },
         "ms.service":{
           "**.*":"dynamics-365"
         },
@@ -68,11 +69,9 @@
           "resources/**.*":"guidance",
           "roles/**.*":"guidance"
         },
-        "ms.reviewer": "edupont"
-        },
+        "ms.reviewer": "edupont",
         "titleSuffix": "Dynamics 365"
-        }
-    },
+        },
     "template": [],
     "dest": "dynamics365guidance"
 }
