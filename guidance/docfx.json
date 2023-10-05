@@ -44,34 +44,30 @@
       "brand": "dynamics",
       "breadcrumb_path": "/dynamics365/guidance/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "feedback_system": "Standard",
       "permissioned-type": "public",
       "recommendations": "true",
-      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+      "searchScope": 
+        ["dynamics-365-daf",
+          "Dynamics 365"
+        ],
+      "ms.service":"dynamics-365",
+      "ms.reviewer": "edupont",
+      "titleSuffix": "Dynamics 365"
     },
     "fileMetadata": {
-      "searchScope": {
-        "**.*": [
-          "dynamics-365-daf",
-          "Dynamics 365"
-        ]
-        },
-        "ms.service":{
-          "**.*":"dynamics-365"
-        },
-        "ms.subservice":{
-          "business-processes/**.*":"guidance",
-          "implementation-guide/**.*":"guidance",
-          "implementation-portal/**.*":"guidance",
-          "organizational-strategy/**.*":"guidance",
-          "patterns/**.*":"guidance",
-          "reference-architecture/**.*":"reference-architecture",
-          "resources/**.*":"guidance",
-          "roles/**.*":"guidance"
-        },
-        "ms.reviewer": "edupont",
-        "titleSuffix": "Dynamics 365"
-        },
+      "ms.subservice":{
+        "business-processes/**.*":"guidance",
+        "implementation-guide/**.*":"guidance",
+        "implementation-portal/**.*":"guidance",
+        "organizational-strategy/**.*":"guidance",
+        "patterns/**.*":"guidance",
+        "reference-architecture/**.*":"reference-architecture",
+        "resources/**.*":"guidance",
+        "roles/**.*":"guidance"
+        }
+      },
     "template": [],
     "dest": "dynamics365guidance"
 }
