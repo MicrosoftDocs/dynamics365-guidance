@@ -49,7 +49,7 @@ Learn more at [Manage projects](manage-projects.md).
 
 ## Nomination
 
-Here Microsoft partners can nominate projects for participation in the FastTrack program. Learn more at [Customer eligibility and partner qualifications](../../fasttrack/eligibility.md).
+Here Microsoft partners can nominate projects for participation in the FastTrack program. Learn more at [Customer eligibility and partner qualifications](/dynamics365/fasttrack/eligibility.md).
 
 ## Knowledge Articles
 
@@ -84,8 +84,8 @@ Select the name of a user to open the user profile page, where you can provide o
 ## Related resources
 
 [Dynamics 365 Implementation Portal](overview.md)  
-[FastTrack for Dynamics 365](../../fasttrack/index.md)  
+[FastTrack for Dynamics 365](/dynamics365/fasttrack/index.md)  
 [Success By Design](../implementation-guide/success-by-design.md)  
 [Success By Design training](/training/paths/use-success-design/)  
 [Dynamics 365 Implementation Guide](https://www.d365implementationguide.com/books/asvr/#p=i)  
-[Dynamics 365 documentation](../../index.yml)  
+[Dynamics 365 documentation](/dynamics365/index.yml)  

@@ -35,14 +35,14 @@ If you're a tenant administrator, you can join any project in the Implementation
 
 1. Sign in to the Implementation Portal with your work account.
 
-2. Open the onboarding wizard from the link that you received from Microsoft. [!INCLUDE [daf-implportal-preview](../../includes/daf-implportal-preview.md)]
+2. Open the onboarding wizard from the link that you received from Microsoft. [!INCLUDE [daf-implportal-preview](../includes/daf-implportal-preview.md)]
 
 3. In the list of projects that are linked to your tenant, find your project and select **Join**.
 
 ## Create a project
 
 > [!IMPORTANT]
-> Only admins can create projects in the Implementation Portal. [!INCLUDE [daf-implportal-admin-roles](../../includes/daf-implportal-admin-roles.md)]
+> Only admins can create projects in the Implementation Portal. [!INCLUDE [daf-implportal-admin-roles](../includes/daf-implportal-admin-roles.md)]
 
 For projects with finance and operations apps in scope, the FastTrack team creates a project in the portal for the initial go-live. You can [join the project](#join-a-finance-and-operations-apps-project), but you can't create one for the initial go-live. You *can* create projects for later rollouts of finance and operations apps in an implementation. To add a project to the portal, submit the project in the [https://aka.ms/D365ImplementationPortalOnboarding](https://aka.ms/D365ImplementationPortalOnboarding) form.  
 

@@ -16,7 +16,7 @@ In this set of articles, we've identified some of the patterns we've seen that a
 
 In the list below, look for a scenario that's similar to what you need and then select the pattern to learn more.
 
-We'll continue to add patterns over time in collaboration with the Dynamics 365 community. Learn more about contributions to patterns at [Contribute to Dynamics 365 guidance content](../../get-started/contribute.md#dynamics-365-guidance-content).  
+We'll continue to add patterns over time in collaboration with the Dynamics 365 community. Learn more about contributions to patterns at [Contribute to Dynamics 365 guidance content](/dynamics365/get-started/contribute.md#dynamics-365-guidance-content).  
 
 ## Established patterns
 
