@@ -22,7 +22,7 @@ The next sections further explain the columns and define the abbreviations that 
 
 ## Process step
 
-Each business process includes several steps. The first column in the table describes the *process step*. The name of the step is often the name of the form or action that needs to be taken. Choose the hyperlink in each row to navigate to the related product documentation. If the row doesn't have a hyperlink, it's probably because the capability isn't documented. If you find documentation for a step or want to contribute documentation to a step, we invite you to contribute. Learn more at [Contribute to Dynamics 365 Documentation](../../get-started/contribute.md).  
+Each business process includes several steps. The first column in the table describes the *process step*. The name of the step is often the name of the form or action that needs to be taken. Choose the hyperlink in each row to navigate to the related product documentation. If the row doesn't have a hyperlink, it's probably because the capability isn't documented. If you find documentation for a step or want to contribute documentation to a step, we invite you to contribute. Learn more at [Contribute to Dynamics 365 Documentation](/dynamics365/get-started/contribute.md).  
 
 ## Process stage terminology
 

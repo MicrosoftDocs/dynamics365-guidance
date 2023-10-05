@@ -32,7 +32,7 @@ Maybe you're an IT professional who wants to grow skills in cloud technologies. 
 
 Get the skills to build your career as a successful solutions architect with Microsoft Learn: [Browse all Microsoft Learn training paths for solution architects](/training/browse/?roles=solution-architect)  
 
-Specifically for Dynamics 365 implementations, the [FastTrack program](../../fasttrack/index.md) includes solution architects. They use the [Success by Design](../implementation-guide/success-by-design.md) framework to effectively engage with their customers and partners in a timely and consistent manner to help them successfully onboard onto the Dynamics 365 platform.  
+Specifically for Dynamics 365 implementations, the [FastTrack program](/dynamics365/fasttrack/index.md) includes solution architects. They use the [Success by Design](../implementation-guide/success-by-design.md) framework to effectively engage with their customers and partners in a timely and consistent manner to help them successfully onboard onto the Dynamics 365 platform.  
 
 ## Find training
 

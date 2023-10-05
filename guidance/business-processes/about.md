@@ -4,7 +4,7 @@ description: Learn about the business process catalog for Dynamics 365, what it 
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
-ms.date: 04/28/2023
+ms.date: 10/05/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -19,7 +19,7 @@ Microsoft has established a business process catalog of standard business proces
 
 The business process catalog is an Excel workbook that we at Microsoft use to organize and prioritize our work on the business process documentation. The format is Excel because it makes it easy to sort and filter the entries. We also believe our partners can use the Excel workbook to organize their onboarding journeys, their implementation projects, and their own business processes. Learn more about the content in the [What's in the catalog?](#whats-in-the-catalog) section.  
 
-Find the latest version of the catalog in [the Dynamics 365 Patterns & Practices GitHub repo](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/business-processes). You don't need a GitHub account to download the catalog. Learn more at [Business process contributions](../../get-started/contribute.md#business-process-contributions).  
+Find the latest version of the catalog in [the Dynamics 365 Patterns & Practices GitHub repo](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/business-processes). You don't need a GitHub account to download the catalog. Learn more at [Business process contributions](/dynamics365/get-started/contribute.md#business-process-contributions).  
 
 ## What's in the catalog?
 
@@ -41,7 +41,7 @@ For an overview of business terms, see [Glossary: Dynamics 365 business processe
 
 ## Contribute
 
-We welcome contributions to the business process documentation. Help us establish patterns, identify business processes, or provide alternatives. Learn more at [External contributions to Microsoft's documentation](../../get-started/contribute.md).  
+We welcome contributions to the business process documentation. Help us establish patterns, identify business processes, or provide alternatives. Learn more at [External contributions to Microsoft's documentation](/dynamics365/get-started/contribute.md).  
 
 ## Next steps
 

@@ -106,7 +106,7 @@ Depending on your area of interest, you can find learnings, best practices, guid
 - [European Foundation for Quality Management (EFQM)](https://efqm.org/)  
 - [eTOM Process Framework](https://www.tmforum.org/oda/business/process-framework-etom/)  
 
-And many more... If you think something is missing from the list, do let us know by [submitting feedback about this article](../../get-started/feedback.md#provide-feedback-about-the-documentation).  
+And many more... If you think something is missing from the list, do let us know by [submitting feedback about this article](/dynamics365/get-started/feedback.md#provide-feedback-about-the-documentation).  
 
 ## Next steps
 
