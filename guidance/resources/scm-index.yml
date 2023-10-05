@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Dynamics 365 Supply Chain Management implementation optimization resources
+summary: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Supply Chain Management.
+
+metadata:
+  title: Dynamics 365 Supply Chain Management implementation optimization resources
+  description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Supply Chain Management.
+  author: edupont04
+  ms.author: edupont
+  ms.date: 07/06/2023
+  ms.topic: landing-page # DON'T CHANGE
+  ms.custom: bap-template #Required; don't change.
+
+# linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
+
+landingContent:
+
+# Card
+  - title: What's new
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: What's new or changed
+        url: /dynamics365/supply-chain/get-started/whats-new-home-page
+
+# Card
+  # - title: Samples and tools
+  #   linkLists:
+  #   - linkListType: sample
+  #     links:
+  #     - text: Analytics samples
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
+  #     - text: Restrict access with Conditional access
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/CloudSecurity/ConditionalAccess
+  #     - text: Dual-write bootstrapping
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Bootstrapping
+  #     - text: Upgrade data to dual-write Party-GAB schema
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema
+
+# Card
+
+  - title: Develop the solution
+    linkLists:
+    -  linkListType: overview
+       links:
+       - text: Validate the solution
+         url: solution-component-validator.md
+       - text: Dual-write overview
+         url: /dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview
+
+# Card
+  - title: Test the solution
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Scenarios for load tests
+        url: test-load-test-scenarios.md
+
+# Card
+  - title: Migrate data
+    linkLists:
+    - linkListType: reference
+      links:
+      - text: Import customers
+        url: import-customers.md
+      - text: Import products
+        url: import-products.md
+      - text: Import sales orders
+        url: import-sales-orders.md
+      - text: Import vendor invoices
+        url: import-vendor-invoices.md
