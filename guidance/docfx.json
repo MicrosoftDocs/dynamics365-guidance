@@ -44,17 +44,17 @@
       "brand": "dynamics",
       "breadcrumb_path": "/dynamics365/guidance/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "feedback_system": "Standard",
+      "ms.service":"dynamics-365",
+      "ms.reviewer": "edupont",
       "permissioned-type": "public",
       "recommendations": "true",
       "searchScope": 
         ["dynamics-365-daf",
           "Dynamics 365"
         ],
-      "ms.service":"dynamics-365",
-      "ms.reviewer": "edupont",
-      "titleSuffix": "Dynamics 365"
+      "titleSuffix": "Dynamics 365",
+      "uhfHeaderId": "MSDocsHeader-Dynamics365"
     },
     "fileMetadata": {
       "ms.subservice":{
