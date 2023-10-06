@@ -2,7 +2,7 @@
 title: Customer eligibility and partner qualifications
 description: Customers attached to a qualified implementing partner receive FastTrack guidance based on their annual Dynamics 365 investment.
 ms.author: jedinh
-ms.date: 02/13/2023
+ms.date: 10/06/2023
 ms.topic: article
 
 ms.reviewer: edupont
@@ -43,3 +43,7 @@ To be eligible, customers must:
 Customers who do not meet both the eligibility requirements listed above are invited to take advantage of available self-guided FastTrack resources, which include [on-demand Success by Design training](/training/modules/success-by-design/), [product TechTalks](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a), and a [go-live readiness assessment](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live) for select Dynamics 365 applications.
 
 For additional details, please reach out to your partner or Microsoft account team.
+
+## Next step
+
+- [Onboard a Dynamics 365 project with or without FastTrack nomination](onboard.md)  

@@ -824,19 +824,15 @@ items:
         items:
         - name: About FastTrack
           href: fasttrack/overview.md
-        - name: Overview
-          href: fasttrack/get-started-overview.md
         - name: Eligibility and partner qualifications
           href: fasttrack/eligibility.md
-        - name: Onboard a Dynamics 365 Operations project
+        - name: Onboard an implementation project
           href: fasttrack/onboard.md
         - name: Proactive guidance for self-service engagements
           href: fasttrack/self-service-engagement.md
-        - name: Migration services
+        - name: Migration services for Dynamics CRM
           href: fasttrack/migration.md
         - name: Success by Design
-          href: fasttrack/success-by-design-overview.md
-        - name: Evolution of Success by Design
           href: implementation-guide/success-by-design-story.md
         - name: Solution Blueprint workshops
           href: fasttrack/solution-workshops.md
