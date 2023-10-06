@@ -25,7 +25,7 @@ Find the latest version of the catalog in [the Dynamics 365 Patterns & Practices
 
 [!INCLUDE [daf-bus-proces-catalog](../includes/daf-bus-proces-catalog.md)]
 
-We plan to cover each level of the catalog. The result will be guidance about how to configure Dynamics 365 to meet most use cases and scenarios. Our goal is to help our customers and partners define the scope of their implementation projects. Start from our standard business processes and accelerate your success and implementation. We hope you can then focus on the processes that make your business unique. Work with your implementation partner to identify which business processes and patterns are relevant at the beginning of your project. See also the [Processes](../implementation-guide/solution-architecture-design-pillars-processes.md) solution architecture design pillar.  
+We plan to cover each level of the catalog. The result will be guidance about how to configure Dynamics 365 to meet most use cases and scenarios. Our goal is to help our customers and partners define the scope of their implementation projects. Start from our standard business processes and accelerate your success and implementation. We hope you can then focus on the processes that make your business unique. Work with your implementation partner to identify which business processes and patterns are relevant at the beginning of your project. Also, review the [Processes](../implementation-guide/solution-architecture-design-pillars-processes.md) solution architecture design pillar.  
 
 New and updated content will publish to the Microsoft Learn site throughout 2023 and potentially beyond.  
 

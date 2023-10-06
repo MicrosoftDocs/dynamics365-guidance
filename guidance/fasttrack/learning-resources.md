@@ -1,15 +1,15 @@
 ---
-title: Learning resources
+title: Learning resources for implementers
 description: Learning resources for implementers include TechTalks, community forums, and free learning paths on Microsoft Learn.
 ms.author: jedinh
 author: renwe
-ms.date: 01/27/2023
+ms.date: 10/06/2023
 ms.topic: article
 
 ms.reviewer: edupont
 ---
 
-# Learning resources
+# Learning resources for implementers of Dynamics 365 solutions
 
 Microsoft provides self-service learning opportunities for Dynamics 365. This article points out some of the material.
 
@@ -17,11 +17,11 @@ The Microsoft FastTrack service is intended to ease your project implementation 
 
 ## Dynamics 365 Implementation Guide
 
-Based on the experience gained from thousands of real-world customer projects, the Dynamics 365 Implementation Guide represents the collective effort of the FastTrack Solution Architect team to document the time-tested [Success by Design framework](success-by-design-overview.md). The guide includes topic-specific reviews and prescriptive guidance (approaches and recommended practices) that will enable customers and partners to successfully architect, build, test, and deploy Dynamics 365 solutions.
+Based on the experience gained from thousands of real-world customer projects, the Dynamics 365 Implementation Guide represents the collective effort of the FastTrack Solution Architect team to document the time-tested [Success by Design](../implementation-guide/success-by-design.md) framework. The guide includes topic-specific reviews and prescriptive guidance (approaches and recommended practices) that will enable customers and partners to successfully architect, build, test, and deploy Dynamics 365 solutions.
 
 The guide covers the entire Dynamics 365 implementation lifecycle while addressing the mindset, questions, resources, and tools necessary for driving successful Dynamics 365 projects. It contains checklists and case studies for practical application throughout the implementation journey.
 
-[Get started with the implementation guide here](/dynamics365/guidance/implementation-guide/overview), optionally [download the guide](https://aka.ms/D365ImplementationGuide), and get started with your Dynamics 365 implementation.
+[Get started with the implementation guide here](../implementation-guide/overview.md), optionally [download the guide](https://aka.ms/D365ImplementationGuide), and get started with your Dynamics 365 implementation.
 
 ## Training
 
@@ -58,7 +58,7 @@ The FastTrack community provides a platform where customers and partners can pos
 
 ## More resources
 
-[Microsoft Dynamics 365 training overview](../get-started/training/index.md)  
-[Available certifications for different roles in Dynamics 365](/dynamics365/guidance/roles/certifications)  
-[Overview of roles in Dynamics 365](/dynamics365/guidance/roles/overview)  
-[Solution architects in Dynamics 365 implementations](/dynamics365/guidance/roles/solution-architect)  
+[Microsoft Dynamics 365 training overview](/dynamics365/get-started/training/index)  
+[Available certifications for different roles in Dynamics 365](../roles/certifications.md)  
+[Overview of roles in Dynamics 365](../roles/overview.md)  
+[Solution architects in Dynamics 365 implementations](../roles/solution-architect.md)  

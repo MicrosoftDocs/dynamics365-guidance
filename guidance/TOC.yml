@@ -826,6 +826,8 @@ items:
           href: fasttrack/overview.md
         - name: Eligibility and partner qualifications
           href: fasttrack/eligibility.md
+        - name: Learning resources
+          href: fasttrack/learning-resources.md
         - name: Onboard an implementation project
           href: fasttrack/onboard.md
         - name: Proactive guidance for self-service engagements
@@ -834,11 +836,11 @@ items:
           href: fasttrack/migration.md
         - name: Success by Design
           href: implementation-guide/success-by-design.md
-        - name: Solution Blueprint workshops
+        - name: Solution blueprint workshops
           href: fasttrack/solution-workshops.md
         - name: Implementation workshops
           href: fasttrack/implementation-workshops.md
-        - name: Go-live Readiness workshops
+        - name: Go-live readiness workshops
           href: fasttrack/go-live-workshops.md
         - name: Frequently asked questions about FastTrack
           href: fasttrack/faq.md
