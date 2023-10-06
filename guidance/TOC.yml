@@ -833,14 +833,14 @@ items:
         - name: Migration services for Dynamics CRM
           href: fasttrack/migration.md
         - name: Success by Design
-          href: implementation-guide/success-by-design-story.md
+          href: implementation-guide/success-by-design.md
         - name: Solution Blueprint workshops
           href: fasttrack/solution-workshops.md
         - name: Implementation workshops
           href: fasttrack/implementation-workshops.md
         - name: Go-live Readiness workshops
           href: fasttrack/go-live-workshops.md
-        - name: Frequently asked questions
+        - name: Frequently asked questions about FastTrack
           href: fasttrack/faq.md
 
 
