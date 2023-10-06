@@ -304,7 +304,7 @@ items:
             - name: Regression testing
               href: implementation-guide/testing-regression-tooling.md
 #            - name: Best practice - use Azure DevOps to track test cases and results
-#              href: /dynamics365/fasttrack/get-started-overview.md
+#              href: fasttrack/get-started-overview.md
         - name: Prepare
           items:
           - name: Prepare to go live
@@ -516,7 +516,7 @@ items:
         - name: Administrative process overview
           href: implementation-guide/admin-guide-overview.md
 #        - name: How to use the administrative process guide
-#          href: /dynamics365/fasttrack/get-started-overview.md?toc=/dynamics365/guidance/toc.json
+#          href: fasttrack/get-started-overview.md?toc=/dynamics365/guidance/toc.json
 # BI
         - name: Business intelligence, reporting, and analytics
           items:
@@ -822,30 +822,30 @@ items:
 # FastTrack
       - name: FastTrack for Dynamics 365
         items:
-        - name: FastTrack home page
-          href: /dynamics365/fasttrack/index.md?toc=/dynamics365/guidance/toc.json
+        - name: About FastTrack
+          href: fasttrack/overview.md
         - name: Overview
-          href: /dynamics365/fasttrack/get-started-overview.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/get-started-overview.md
         - name: Eligibility and partner qualifications
-          href: /dynamics365/fasttrack/eligibility.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/eligibility.md
         - name: Onboard a Dynamics 365 Operations project
-          href: /dynamics365/fasttrack/onboard.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/onboard.md
         - name: Proactive guidance for self-service engagements
-          href: /dynamics365/fasttrack/self-service-engagement.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/self-service-engagement.md
         - name: Migration services
-          href: /dynamics365/fasttrack/migration.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/migration.md
         - name: Success by Design
-          href: /dynamics365/fasttrack/success-by-design-overview.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/success-by-design-overview.md
         - name: Evolution of Success by Design
           href: implementation-guide/success-by-design-story.md
         - name: Solution Blueprint workshops
-          href: /dynamics365/fasttrack/solution-workshops.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/solution-workshops.md
         - name: Implementation workshops
-          href: /dynamics365/fasttrack/implementation-workshops.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/implementation-workshops.md
         - name: Go-live Readiness workshops
-          href: /dynamics365/fasttrack/go-live-workshops.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/go-live-workshops.md
         - name: Frequently asked questions
-          href: /dynamics365/fasttrack/faq.md?toc=/dynamics365/guidance/toc.json
+          href: fasttrack/faq.md
 
 
 # Product docs
