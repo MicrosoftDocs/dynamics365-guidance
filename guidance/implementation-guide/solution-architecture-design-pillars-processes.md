@@ -43,7 +43,7 @@ Process architecture includes multiple dependent activities:
 
   Defining the scope of the solution is the first step of the design. Ideally, you have a baseline process taxonomy with at least three levels of the process architecture. Start by mapping requirements against it and marking which processes are in scope. You can add to and take away processes from your initial process library.
 
-  See also the section [Key deliverables related to processes](#key-deliverables-related-to-processes)
+  Learn more in the section [Key deliverables related to processes](#key-deliverables-related-to-processes)
 
 - **Linear and cross-functional process flows**
 

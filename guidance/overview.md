@@ -4,7 +4,7 @@ description: Get an introduction to the types of guidance content, best practice
 author: edupont04
 ms.author: edupont
 ms.topic: overview
-ms.date: 10/05/2023
+ms.date: 10/06/2023
 ---
 
 # What is Dynamics 365 guidance?
@@ -86,7 +86,7 @@ Where ever you are in the guidance content, the navigation panel shows links to 
 
 [!INCLUDE [daf-rss](includes/daf-rss.md)]
 
-## See also
+## Related resources
 
 [Overview of roles in Dynamics 365](roles/overview.md)  
 [Available certifications for different roles in Dynamics 365](roles/certifications.md)  

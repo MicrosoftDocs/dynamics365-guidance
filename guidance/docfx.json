@@ -66,6 +66,9 @@
       "reference-architecture/**.*":"reference-architecture",
       "resources/**.*":"guidance",
       "roles/**.*":"guidance"
+    },
+    "ms.collection":{
+      "fasttrack/**.*":"FastTrack"
     }
   },
   "template": [],

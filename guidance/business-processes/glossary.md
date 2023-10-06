@@ -48,7 +48,7 @@ Asset appraisers are individuals who leverage their expertise to evaluate the co
 
 ### Asset
 
-An asset is something of value that an organization owns. See also [fixed asset](#fixed-asset) and [asset classification](#asset-classification).
+An asset is something of value that an organization owns. Related definitions are [fixed asset](#fixed-asset) and [asset classification](#asset-classification).
 
 ### Asset acquisition strategy 
 
@@ -380,7 +380,7 @@ A finished good is often referred to as a product. In Dynamics 365 Supply Chain 
 
 ### Fixed asset
 
-In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. See also [Asset](#asset) and [Asset classification](#asset-classification).  
+In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. Related definitions are [Asset](#asset) and [Asset classification](#asset-classification).  
 
 ### Fixed-price projects
 
