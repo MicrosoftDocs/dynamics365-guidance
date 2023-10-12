@@ -200,13 +200,20 @@ As part of development ALM, testing automation should be in place to achieve fas
 
 - Unit and component level testing using SysTest framework
 
+<!-- Regression testing refactoring
 - Automated testing using **Task recorder** and the **Regression suite automation tool** (RSAT)
+-->
+
+- Automated testing using [automation testing solutions](testing-regression-tooling.md)
 
 To keep up with innovation and constant changes in your solution, it's critical to invest and build in continuous validation. It takes different components as shown below.
 
 :::image type="content" source="media/application-lifecycle-management-automated-testing.png" alt-text="Finance and operations apps automated testing.":::
 
+<!-- Regression testing refactoring
 The RSAT significantly reduces the time and cost of UAT for finance and operations apps. RSAT lets functional super users record business tasks by using Task recorder and converting the recordings into a suite of automated tests, without having to write source code.
+-->
+The time and cost of testing can be significantly reduced through automation. Many [automation testing solutions](testing-regression-tooling.md) offer Low-Code/No-Code capabilities that empower functional super users to author test cases.
 
 Learn more at the following tutorials in the product docs:  
 
@@ -391,9 +398,14 @@ Consider using the following tools:
 
   Use [Test Studio](/powerapps/maker/canvas-apps/test-studio) to ensure the quality of your canvas apps.
 
+<!-- Regression testing refactoring
 - Easy Repro  
 
   Use [Easy Repro](https://community.dynamics.com/blogs/post/?postid=95889af6-b561-42f5-b2bd-ade35180e545) or Playwright to generate test scripts that can be used to regression test changes to your model driven apps.
+-->
+- Automated regression solutions
+
+  Use [automated regression solutions](testing-regression-tooling.md) to generate test scripts that can be used to regression test changes to your model driven apps.
 
 - Performance Insights  
 

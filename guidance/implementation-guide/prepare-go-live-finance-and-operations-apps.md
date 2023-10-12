@@ -42,7 +42,7 @@ Make sure your environments comply with the [One Version policy](/dynamics365/fi
 
 Review the [Targeted release schedule](/dynamics365/fin-ops-core/dev-itpro/get-started/public-preview-releases#targeted-release-schedule-dates-subject-to-change) article to verify that your environment version hasn't reached its end of service date. If you're about to deploy your production environment, confirm that the version complies with the release schedule. Only the most recent service updates can be selected for deployment.
 
-Conduct regression testing when you update or deploy fixes or make changes to the solution. Use the Microsoft [Regression Suite Automation Tool](https://community.dynamics.com/blogs/post/?postid=d278adc9-4d09-4fad-a485-6ab7bb0a5429) to automate a set of test cases that can help uncover any regressions due to continuous updates.
+Conduct regression testing when you update or deploy fixes or make changes to the solution. Use <!-- Regression testing refactoring> the Microsoft [Regression Suite Automation Tool](https://community.dynamics.com/blogs/post/?postid=d278adc9-4d09-4fad-a485-6ab7bb0a5429) --> [automated regression testing solutions](testing-regression-tooling.md) to automate a set of test cases that can help uncover any regressions due to continuous updates.
 
 ## Upgrades
 
