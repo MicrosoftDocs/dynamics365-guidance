@@ -32,7 +32,7 @@ The Microsoft FastTrack for Dynamics 365 team conducts a go-live readiness revie
 
 In the [Prepare phase](prepare-to-go-live.md), the code for solution functionalities should be complete, integrations with all external systems should be tested, and a high-level deployment execution plan should be in place. Solution test and acceptance activities should include validating nonfunctional requirements that stakeholders agreed to and signed off on, such as form load times, search performance, and integration performance under a realistic production load.
 
-To help with testing automation, try [Easy Repro](https://github.com/microsoft/EasyRepro), an open-source library that facilitates automated UI testing.
+To help with testing automation, <!-- Regression testing refactoring > try [Easy Repro](https://github.com/microsoft/EasyRepro), an open-source library that facilitates automated UI testing. --> use [automation testing solutions](testing-regression-tooling.md).
 
 ## Training and adoption
 

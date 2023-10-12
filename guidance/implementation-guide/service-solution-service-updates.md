@@ -190,7 +190,7 @@ We strongly recommend that you plan ahead and work the updates into your interna
 
 - **Step 2: Test**  
 
-  We recommend using a non-production environment such as your UAT instance to opt in early and apply the release. You can configure service updates through Lifecycle Services and specify how and when you receive service updates from Microsoft to your environments. As part of the configuration, define the update environment (production) and an alternate sandbox (UAT). Use the Regression Suite Automation Tool (RSAT) to perform regression testing to identify any issues. Work any fixes into your ALM cycle and deployment plans.
+  We recommend using a non-production environment such as your UAT instance to opt in early and apply the release. You can configure service updates through Lifecycle Services and specify how and when you receive service updates from Microsoft to your environments. As part of the configuration, define the update environment (production) and an alternate sandbox (UAT). Use <!-- Regression testing refactoring >the Regression Suite Automation Tool (RSAT) --> [automated regression testing solutions](testing-regression-tooling.md) to perform regression testing to identify any issues. Work any fixes into your ALM cycle and deployment plans.
 
 - **Step 3: Deploy**  
 
