@@ -41,20 +41,20 @@ landingContent:
 
 # Card
 
-  - title: Develop the solution
-    linkLists:
-    -  linkListType: overview
-       links:
-       - text: Validate the solution
-         url: solution-component-validator.md
+  # - title: Develop the solution
+  #   linkLists:
+  #   -  linkListType: overview
+  #      links:
+  #      - text: Validate the solution
+  #        url: solution-component-validator.md
 
 # Card
-  - title: Test the solution
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Scenarios for load tests
-        url: test-load-test-scenarios.md
+  # - title: Test the solution
+  #   linkLists:
+  #   - linkListType: overview
+  #     links:
+  #     - text: Scenarios for load tests
+  #       url: test-load-test-scenarios.md
 
 # Card
   - title: Migrate data

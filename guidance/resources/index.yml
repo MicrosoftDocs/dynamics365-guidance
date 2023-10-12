@@ -113,10 +113,10 @@ landingContent:
           url: import-sales-orders.md
         - text: Import vendor invoices
           url: import-vendor-invoices.md
-    - linkListType: sample
-      links:
-      - text: Solution component validation tool
-        url: solution-component-validator.md
+#    - linkListType: sample
+#      links:
+#      - text: Solution component validation tool
+#        url: solution-component-validator.md
 #      - text: Resources for analytics pipelines
 #        url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
 
@@ -137,10 +137,10 @@ landingContent:
           url: import-sales-orders.md
         - text: Import vendor invoices
           url: import-vendor-invoices.md
-    - linkListType: sample
-      links:
-      - text: Solution component validation tool
-        url: solution-component-validator.md
+#    - linkListType: sample
+#      links:
+#      - text: Solution component validation tool
+#        url: solution-component-validator.md
 #      - text: Resources for analytics pipelines
 #        url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
 

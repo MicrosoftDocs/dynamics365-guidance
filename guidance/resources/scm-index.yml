@@ -37,24 +37,24 @@ landingContent:
   #     - text: Upgrade data to dual-write Party-GAB schema
   #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema
 
-# Card
+# # Card
 
-  - title: Develop the solution
-    linkLists:
-    -  linkListType: overview
-       links:
-       - text: Validate the solution
-         url: solution-component-validator.md
-       - text: Dual-write overview
-         url: /dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview
+#   - title: Develop the solution
+#     linkLists:
+#     -  linkListType: overview
+#        links:
+#        - text: Validate the solution
+#          url: solution-component-validator.md
+#        - text: Dual-write overview
+#          url: /dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview
 
-# Card
-  - title: Test the solution
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Scenarios for load tests
-        url: test-load-test-scenarios.md
+# # Card
+#   - title: Test the solution
+#     linkLists:
+#     - linkListType: overview
+#       links:
+#       - text: Scenarios for load tests
+#         url: test-load-test-scenarios.md
 
 # Card
   - title: Migrate data
