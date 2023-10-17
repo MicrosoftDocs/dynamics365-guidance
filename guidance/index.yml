@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: Success by design
       itemType: concept
-      url: /dynamics365/fasttrack/success-by-design-overview.md?toc=/dynamics 365/guidance/toc.json
+      url: implementation-guide/success-by-design.md
     # Card
     - title: Adoption
       itemType: get-started
@@ -54,7 +54,7 @@ productDirectory:
         - text: Introduction to Success by Design
           url: implementation-guide/success-by-design.md
         - text: FastTrack for Dynamics 365
-          url: /dynamics365/fasttrack/index.md?toc=/dynamics365/guidance/toc.json
+          url: fasttrack/overview.md
 
 # processes card
     - title: End-to-end business processes

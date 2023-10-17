@@ -45,7 +45,7 @@ The **Messages** tab is located in two places:
 ## More resources
 
 [Dynamics 365 Implementation Portal](overview.md)  
-[FastTrack for Dynamics 365](/dynamics365/fasttrack/index.md)  
+[What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
 [Introduction to Dynamics 365 Implementation Guide](../implementation-guide/introduction.md)  
 [Introduction to Success by Design](../implementation-guide/success-by-design.md)  
 [Success By Design training](/training/paths/use-success-design/)
