@@ -20,6 +20,7 @@
         "SECURITY.md"
       ]
     }
+
     ],
     "resource": [
       {
@@ -27,6 +28,7 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.svg"
+
         ],
         "exclude": [
           "**/obj/**",
