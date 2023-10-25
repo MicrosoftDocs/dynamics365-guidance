@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1709.2401"
+   height="1382.678"
+   overflow="hidden"
+   version="1.1"
+   id="svg178"
+   sodipodi:docname="forecast-to-plan-process-flow.SVG"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs182" />
+  <sodipodi:namedview
+     id="namedview180"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.43177083"
+     inkscape:cx="939.15561"
+     inkscape:cy="832.61761"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg178" />
+  <g
+     id="g176"
+     transform="translate(-20.844391,-20.844391)">
+    <rect
+       x="20.844391"
+       y="20.844391"
+       width="1709.2401"
+       height="1382.678"
+       fill="#ffffff"
+       id="rect2"
+       style="stroke-width:0.800683" />
+    <path
+       d="M 31,68.5 C 31,48.3416 47.3416,32 67.5,32 h 139 c 20.158,0 36.5,16.3416 36.5,36.5 v 0 C 243,88.6584 226.658,105 206.5,105 H 67.5 C 47.3416,105 31,88.6584 31,68.5 Z"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path4" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(112.164,77)"
+       id="text6">Start</text>
+    <rect
+       x="203"
+       y="181"
+       width="212"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect8" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(244.486,223)"
+       id="text10">Product and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(272.433,252)"
+       id="text12">service</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(266.973,281)"
+       id="text14">lifecycle</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(238.913,310)"
+       id="text16">management</text>
+    <rect
+       x="1036"
+       y="545"
+       width="252"
+       height="153"
+       fill="#ffffff"
+       id="rect18" />
+    <path
+       d="m 1067.5,545 v 153 m 189,-153 v 153"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path20" />
+    <rect
+       x="1036"
+       y="545"
+       width="252"
+       height="153"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect22" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1115.86,601)"
+       id="text24">Establish</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1117.54,630)"
+       id="text26">stocking</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1122.2,659)"
+       id="text28">policies</text>
+    <rect
+       x="488"
+       y="181"
+       width="211"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect30" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(533.575,252)"
+       id="text32">Prospect to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(562.589,281)"
+       id="text34">quote</text>
+    <rect
+       x="1036"
+       y="758"
+       width="252"
+       height="153"
+       fill="#ffffff"
+       id="rect36" />
+    <path
+       d="m 1067.5,758 v 153 m 189,-153 v 153"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path38" />
+    <rect
+       x="1036"
+       y="758"
+       width="252"
+       height="153"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect40" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1118.02,829)"
+       id="text42">Forecast</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1118.36,858)"
+       id="text44">demand</text>
+    <rect
+       x="1035"
+       y="971"
+       width="252"
+       height="154"
+       fill="#ffffff"
+       id="rect46" />
+    <path
+       d="m 1066.5,971 v 154 m 189,-154 v 154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path48" />
+    <rect
+       x="1035"
+       y="971"
+       width="252"
+       height="154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect50" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1116.93,1042)"
+       id="text52">Forecast</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1126.1,1071)"
+       id="text54">supply</text>
+    <rect
+       x="1036"
+       y="1188"
+       width="252"
+       height="154"
+       fill="#ffffff"
+       id="rect56" />
+    <path
+       d="m 1067.5,1188 v 154 m 189,-154 v 154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path58" />
+    <rect
+       x="1036"
+       y="1188"
+       width="252"
+       height="154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect60" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1101.45,1274)"
+       id="text62">Plan supply</text>
+    <rect
+       x="772"
+       y="181"
+       width="211"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a6a6a6"
+       id="rect64" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(806.259,266)"
+       id="text66">Order to cash</text>
+    <rect
+       x="708"
+       y="545"
+       width="252"
+       height="154"
+       fill="#ffffff"
+       id="rect68" />
+    <path
+       d="m 739.5,545 v 154 m 189,-154 v 154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path70" />
+    <rect
+       x="708"
+       y="545"
+       width="252"
+       height="154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect72" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(799.667,573)"
+       id="text74">Define</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(788.76,602)"
+       id="text76">strategic</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(814.08,631)"
+       id="text78">and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(773.667,660)"
+       id="text80">operational</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(806.08,689)"
+       id="text82">plans</text>
+    <path
+       d="m 1398,1336 c 0,-19.88 16.12,-36 36,-36 h 140 c 19.88,0 36,16.12 36,36 v 0 c 0,19.88 -16.12,36 -36,36 h -140 c -19.88,0 -36,-16.12 -36,-36 z"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path84" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1483.91,1345)"
+       id="text86">End</text>
+    <path
+       d="m 1163,698 v 53.387 h -2 V 698 Z m 3,52.053 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path88" />
+    <path
+       d="m 1162,1124.98 0.98,56.95 -2,0.03 -0.98,-56.94 z m 3.95,55.56 -3.86,8.07 -4.14,-7.93 z"
+       fill="#0078d4"
+       id="path90" />
+    <rect
+       x="1400"
+       y="620"
+       width="211"
+       height="154"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect92" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1441.18,691)"
+       id="text94">Inventory to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1470.22,720)"
+       id="text96">deliver</text>
+    <rect
+       x="1398"
+       y="840"
+       width="212"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect98" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1464.75,910)"
+       id="text100">Case to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1451.07,939)"
+       id="text102">resolution</text>
+    <rect
+       x="1398"
+       y="1070"
+       width="212"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect104" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1452.83,1140)"
+       id="text106">Record to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1470.89,1169)"
+       id="text108">report</text>
+    <path
+       d="m 0,-1 h 697.549 c 0.553,0 1,0.447715 1,1 v 669.827 c 0,0.552 -0.447,1 -1,1 h -17.331 v -2 h 17.331 l -1,1 V 0 l 1,1 H 0 Z m 681.551,674.827 -8,-4 8,-4 z"
+       fill="#0078d4"
+       transform="matrix(0,1,1,0,834,699)"
+       id="path110" />
+    <path
+       d="m 1505,1223 v 69.98 h -2 V 1223 Z m 3,68.65 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path112" />
+    <path
+       d="m 415,257 h 66.725 v 2 H 415 Z m 65.391,-3 8,4 -8,4 z"
+       fill="#0078d4"
+       id="path114" />
+    <path
+       d="m 699,257 h 66.239 v 2 H 699 Z m 64.906,-3 8,4 -8,4 z"
+       fill="#0078d4"
+       id="path116" />
+    <rect
+       x="1400"
+       y="182"
+       width="211"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect118" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1428.8,267)"
+       id="text120">Procure to pay</text>
+    <rect
+       x="1400"
+       y="401"
+       width="211"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect122" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1468.75,472)"
+       id="text124">Plan to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1461.73,501)"
+       id="text126">produce</text>
+    <rect
+       x="203"
+       y="391"
+       width="211"
+       height="153"
+       stroke="#a6a6a6"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a6a6a6"
+       id="rect128" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(242.148,476)"
+       id="text130">Hire to retire</text>
+    <rect
+       x="1056"
+       y="181"
+       width="212"
+       height="153"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect132" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1103.78,252)"
+       id="text134">Forecast to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(1139.11,281)"
+       id="text136">plan</text>
+    <path
+       d="m 983,257 h 66.24 v 2 H 983 Z m 64.91,-3 8,4 -8,4 z"
+       fill="#0078d4"
+       id="path138" />
+    <path
+       d="m 0,-0.5 h 152.794 c 0.276,0 0.5,0.223858 0.5,0.5 v 59.6107 h -1 V 0 l 0.5,0.5 H 0 Z m 156.794,58.7774 -4,8 -4,-8 z"
+       fill="#0078d4"
+       transform="matrix(0,1,1,0,137.5,105.5)"
+       id="path140" />
+    <path
+       d="m 0,-0.5 h 362.429 c 0.276,0 0.5,0.223858 0.5,0.5 v 59.6107 h -1 V 0 l 0.5,0.5 H 0 Z m 366.429,58.7774 -4,8 -4,-8 z"
+       fill="#0078d4"
+       transform="matrix(0,1,1,0,137.5,105.5)"
+       id="path142" />
+    <path
+       d="m 0,-0.5 h 604.592 c 0.276,0 0.5,0.223858 0.5,0.5 v 209.635 l -0.5,-0.5 h 30.654 v 1 h -30.654 c -0.276,0 -0.5,-0.223 -0.5,-0.5 V 0 l 0.5,0.5 H 0 Z m 633.913,206.135 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,414.5,468.136)"
+       id="path144" />
+    <path
+       d="m 0,-0.5 h 78.1814 c 0.2762,0 0.5,0.223858 0.5,0.5 v 392.498 h -1 V 0 l 0.5,0.5 H 0 Z m 82.1814,391.665 -4,8 -4,-8 z"
+       fill="#0078d4"
+       transform="matrix(0,1,1,0,309.5,544.5)"
+       id="path146" />
+    <path
+       d="M 0.999835,-0.0181628 1.96967,53.3697 -0.0300019,53.406 -0.999835,0.0181628 Z M 4.94496,51.9821 1.09092,60.0534 -3.05372,52.1274 Z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,1162.09,911)"
+       id="path148" />
+    <path
+       d="m 0,-0.5 h 55.9316 c 0.2761,0 0.5,0.223858 0.5,0.5 v 1006.7 l -0.5,-0.5 h 49.2634 v 1 H 55.9316 c -0.2762,0 -0.5,-0.22 -0.5,-0.5 V 0 l 0.5,0.5 H 0 Z m 103.862,1003.2 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1288.5,1265.2)"
+       id="path150" />
+    <path
+       d="m 0,-0.5 h 55.9315 c 0.2761,0 0.5,0.223858 0.5,0.5 v 787.37 l -0.5,-0.5 h 49.2635 v 1 H 55.9315 c -0.2762,0 -0.5,-0.223 -0.5,-0.5 V 0 l 0.5,0.5 H 0 Z m 103.862,783.87 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1288.5,1265.87)"
+       id="path152" />
+    <path
+       d="m 0,-0.5 h 55.9313 c 0.2762,0 0.5,0.223858 0.5,0.5 v 568.04 l -0.5,-0.5 h 49.2637 v 1 H 55.9313 c -0.2761,0 -0.5,-0.224 -0.5,-0.5 V 0 l 0.5,0.5 H 0 Z m 103.862,564.54 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1288.5,1265.54)"
+       id="path154" />
+    <path
+       d="m 1163,334.5 v 203.82 h -1 V 334.5 Z m 3.5,202.487 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path156" />
+    <path
+       d="m 1162.95,334.5 v 160.132 c 0,0.276 -0.23,0.5 -0.5,0.5 H 834.5 l 0.5,-0.5 v 44.373 h -1 v -44.373 c 0,-0.276 0.224,-0.5 0.5,-0.5 h 327.95 l -0.5,0.5 V 334.5 Z m -324.45,203.172 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path158" />
+    <path
+       d="m 1506,335 v 59.373 h -2 V 335 Z m 3,58.04 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path160" />
+    <path
+       d="m 1506,554 v 59.373 h -2 V 554 Z m 3,58.04 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path162" />
+    <path
+       d="m 0,0.5 h -113.455 l 0.5,-0.5 v 887.927 l -0.5,-0.5 H -5.00643 v 1 H -113.455 c -0.276,0 -0.5,-0.224 -0.5,-0.5 V 0 c 0,-0.276142 0.224,-0.5 0.5,-0.5 H 0 Z m -6.33974,883.427 8,4 -8,4 z"
+       transform="matrix(-1,0,0,1,1612.16,258.5)"
+       id="path164" />
+    <path
+       d="m 0,0.5 h -114.016 l 0.5,-0.5 v 668.596 l -0.5,-0.5 H -5.00643 v 1 H -114.016 c -0.276,0 -0.5,-0.223 -0.5,-0.5 V 0 c 0,-0.276142 0.224,-0.5 0.5,-0.5 H 0 Z m -6.33974,664.096 8,4 -8,4 z"
+       transform="matrix(-1,0,0,1,1612.16,478.5)"
+       id="path166" />
+    <path
+       d="m 0,0.5 h -114.016 l 0.5,-0.5 v 449.266 l -0.5,-0.5 H -5.00643 v 1 H -114.016 c -0.276,0 -0.5,-0.224 -0.5,-0.5 V 0 c 0,-0.276142 0.224,-0.5 0.5,-0.5 H 0 Z m -6.33974,444.766 8,4 -8,4 z"
+       transform="matrix(-1,0,0,1,1612.16,697.5)"
+       id="path168" />
+    <path
+       d="m 0,0.5 h -58.9091 l 0.5,-0.5 v 657.991 l -0.5,-0.5 h 53.9027 v 1 h -53.9027 c -0.2761,0 -0.5,-0.224 -0.5,-0.5 V 0 c 0,-0.276142 0.2239,-0.5 0.5,-0.5 H 0 Z m -6.33974,653.491 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,1612.16,258.5)"
+       id="path170" />
+    <path
+       d="m 0,0.5 h -58.9091 l 0.5,-0.5 v 438.661 l -0.5,-0.5 h 53.9027 v 1 h -53.9027 c -0.2761,0 -0.5,-0.224 -0.5,-0.5 V 0 c 0,-0.276142 0.2239,-0.5 0.5,-0.5 H 0 Z m -6.33974,434.161 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,1612.16,478.5)"
+       id="path172" />
+    <path
+       d="m 0,0.5 h -58.9091 l 0.5,-0.5 v 219.33 l -0.5,-0.5 h 53.9027 v 1 h -53.9027 c -0.2761,0 -0.5,-0.223 -0.5,-0.5 V 0 c 0,-0.276142 0.2239,-0.5 0.5,-0.5 H 0 Z m -6.33974,214.83 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,1612.16,697.5)"
+       id="path174" />
+  </g>
+</svg>

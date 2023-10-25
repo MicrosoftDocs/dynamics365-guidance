@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1859.783"
+   height="965.7901"
+   overflow="hidden"
+   version="1.1"
+   id="svg623"
+   sodipodi:docname="forecast-to-plan-process-relationship.SVG"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs627" />
+  <sodipodi:namedview
+     id="namedview625"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.43177083"
+     inkscape:cx="922.94331"
+     inkscape:cy="566.27262"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg623" />
+  <g
+     id="g621"
+     transform="translate(-37.056694,-25.476479)">
+    <rect
+       x="37.056694"
+       y="25.476479"
+       width="1859.783"
+       height="965.7901"
+       fill="#ffffff"
+       id="rect531"
+       style="stroke-width:0.698025" />
+    <path
+       d="M 41,93.7003 C 41,61.281 67.281,35 99.7003,35 H 569.3 C 601.719,35 628,61.281 628,93.7003 V 919.3 c 0,32.419 -26.281,58.7 -58.7,58.7 H 99.7003 C 67.281,978 41,951.719 41,919.3 Z"
+       fill="#cbcbcb"
+       fill-rule="evenodd"
+       id="path533" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="87px"
+       transform="translate(150.005,154)"
+       id="text535">Upstream</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="87px"
+       transform="translate(148.992,258)"
+       id="text537">processes</text>
+    <path
+       d="m 100.5,332.2 c 0,-7.566 6.134,-13.7 13.7,-13.7 h 442.6 c 7.566,0 13.7,6.134 13.7,13.7 v 109.6 c 0,7.566 -6.134,13.7 -13.7,13.7 H 114.2 c -7.566,0 -13.7,-6.134 -13.7,-13.7 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path539" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(172.665,377)"
+       id="text541">Product and service</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(155.499,422)"
+       id="text543">lifecycle management</text>
+    <path
+       d="m 100.5,490.3 c 0,-7.622 6.178,-13.8 13.8,-13.8 h 442.4 c 7.622,0 13.8,6.178 13.8,13.8 v 110.4 c 0,7.622 -6.178,13.8 -13.8,13.8 H 114.3 c -7.622,0 -13.8,-6.178 -13.8,-13.8 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path545" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(187.832,558)"
+       id="text547">Prospect to quote</text>
+    <path
+       d="m 100.5,649.2 c 0,-7.566 6.134,-13.7 13.7,-13.7 h 442.6 c 7.566,0 13.7,6.134 13.7,13.7 v 109.6 c 0,7.566 -6.134,13.7 -13.7,13.7 H 114.2 c -7.566,0 -13.7,-6.134 -13.7,-13.7 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path549" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(220.409,716)"
+       id="text551">Order to Cash</text>
+    <path
+       d="m 100.5,807.3 c 0,-7.622 6.178,-13.8 13.8,-13.8 h 442.4 c 7.622,0 13.8,6.178 13.8,13.8 v 110.4 c 0,7.622 -6.178,13.8 -13.8,13.8 H 114.3 c -7.622,0 -13.8,-6.178 -13.8,-13.8 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path553" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(226.465,875)"
+       id="text555">Hire to Retire</text>
+    <path
+       d="M 672,93.7003 C 672,61.281 698.281,35 730.7,35 h 469.6 c 32.42,0 58.7,26.281 58.7,58.7003 V 919.3 c 0,32.419 -26.28,58.7 -58.7,58.7 H 730.7 C 698.281,978 672,951.719 672,919.3 Z"
+       fill="#cbcbcb"
+       fill-rule="evenodd"
+       id="path557" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="87px"
+       transform="translate(755.449,154)"
+       id="text559">Forecast to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="87px"
+       transform="translate(883.356,258)"
+       id="text561">plan</text>
+    <path
+       d="m 731.5,329.4 c 0,-6.02 4.88,-10.9 10.9,-10.9 h 448.2 c 6.02,0 10.9,4.88 10.9,10.9 v 87.2 c 0,6.02 -4.88,10.9 -10.9,10.9 H 742.4 c -6.02,0 -10.9,-4.88 -10.9,-10.9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path563" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(800.756,363)"
+       id="text565">Define strategic and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(823.283,408)"
+       id="text567">operational plans</text>
+    <path
+       d="m 731.5,455.4 c 0,-6.02 4.88,-10.9 10.9,-10.9 h 448.2 c 6.02,0 10.9,4.88 10.9,10.9 v 87.2 c 0,6.02 -4.88,10.9 -10.9,10.9 H 742.4 c -6.02,0 -10.9,-4.88 -10.9,-10.9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path569" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(753.189,511)"
+       id="text571">Establish stocking policies</text>
+    <path
+       d="m 731.5,581.4 c 0,-6.02 4.88,-10.9 10.9,-10.9 h 448.2 c 6.02,0 10.9,4.88 10.9,10.9 v 87.2 c 0,6.02 -4.88,10.9 -10.9,10.9 H 742.4 c -6.02,0 -10.9,-4.88 -10.9,-10.9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path573" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(802.206,615)"
+       id="text575">Forecast supply and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(898.006,660)"
+       id="text577">demand</text>
+    <path
+       d="m 731.5,707.4 c 0,-6.02 4.88,-10.9 10.9,-10.9 h 448.2 c 6.02,0 10.9,4.88 10.9,10.9 v 87.2 c 0,6.02 -4.88,10.9 -10.9,10.9 H 742.4 c -6.02,0 -10.9,-4.88 -10.9,-10.9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path579" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(820.636,741)"
+       id="text581">Forecast and plan</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(804.983,786)"
+       id="text583">intercompany trade</text>
+    <path
+       d="m 731.5,833.4 c 0,-6.02 4.88,-10.9 10.9,-10.9 h 448.2 c 6.02,0 10.9,4.88 10.9,10.9 v 87.2 c 0,6.02 -4.88,10.9 -10.9,10.9 H 742.4 c -6.02,0 -10.9,-4.88 -10.9,-10.9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path585" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(835.596,866)"
+       id="text587">Plan supply and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(848.329,911)"
+       id="text589">replenishment</text>
+    <path
+       d="M 1303,93.7003 C 1303,61.281 1329.28,35 1361.7,35 h 469.6 c 32.42,0 58.7,26.281 58.7,58.7003 V 919.3 c 0,32.419 -26.28,58.7 -58.7,58.7 h -469.6 c -32.42,0 -58.7,-26.281 -58.7,-58.7 z"
+       fill="#cbcbcb"
+       fill-rule="evenodd"
+       id="path591" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="87px"
+       transform="translate(1355.72,154)"
+       id="text593">Downstream</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="87px"
+       transform="translate(1411.08,258)"
+       id="text595">processes</text>
+    <path
+       d="m 1362.5,327.5 c 0,-4.97 4.03,-9 9,-9 h 452 c 4.97,0 9,4.03 9,9 v 72 c 0,4.971 -4.03,9 -9,9 h -452 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path597" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(1478.38,376)"
+       id="text599">Procure to Pay</text>
+    <path
+       d="m 1362.5,431.6 c 0,-5.026 4.07,-9.1 9.1,-9.1 h 451.8 c 5.03,0 9.1,4.074 9.1,9.1 v 72.8 c 0,5.026 -4.07,9.1 -9.1,9.1 h -451.8 c -5.03,0 -9.1,-4.074 -9.1,-9.1 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path601" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(1482.49,480)"
+       id="text603">Order to Cash</text>
+    <path
+       d="m 1362.5,536.5 c 0,-4.97 4.03,-9 9,-9 h 452 c 4.97,0 9,4.03 9,9 v 72 c 0,4.971 -4.03,9 -9,9 h -452 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path605" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(1466.98,585)"
+       id="text607">Plan to Produce</text>
+    <path
+       d="m 1362.5,640.6 c 0,-5.026 4.07,-9.1 9.1,-9.1 h 451.8 c 5.03,0 9.1,4.074 9.1,9.1 v 72.8 c 0,5.026 -4.07,9.1 -9.1,9.1 h -451.8 c -5.03,0 -9.1,-4.074 -9.1,-9.1 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path609" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(1436.64,689)"
+       id="text611">Inventory to deliver</text>
+    <path
+       d="m 1362.5,745.5 c 0,-4.97 4.03,-9 9,-9 h 452 c 4.97,0 9,4.03 9,9 v 72 c 0,4.971 -4.03,9 -9,9 h -452 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path613" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(1448.56,794)"
+       id="text615">Case to resolution</text>
+    <path
+       d="m 1362.5,849.6 c 0,-5.026 4.07,-9.1 9.1,-9.1 h 451.8 c 5.03,0 9.1,4.074 9.1,9.1 v 72.8 c 0,5.026 -4.07,9.1 -9.1,9.1 h -451.8 c -5.03,0 -9.1,-4.074 -9.1,-9.1 z"
+       stroke="#000000"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path617" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="37px"
+       transform="translate(1461.11,898)"
+       id="text619">Record to report</text>
+  </g>
+</svg>

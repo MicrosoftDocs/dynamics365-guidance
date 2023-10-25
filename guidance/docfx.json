@@ -1,31 +1,34 @@
 {
   "build": {
     "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices.md",
-          "SECURITY.md"
-        ]
-      }
+    {
+      "files": [
+        "**/*.md",
+        "**/*.yml"
+      ],
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**",
+        "_themes/**",
+        "_themes.pdf/**",
+        "**/docfx.json",
+        "_repo.en-us/**",
+        "README.md",
+        "LICENSE",
+        "LICENSE-CODE",
+        "ThirdPartyNotices.md",
+        "SECURITY.md"
+      ]
+    }
+
     ],
     "resource": [
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg"
+
         ],
         "exclude": [
           "**/obj/**",
@@ -37,15 +40,40 @@
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/dynamics365/guidance/breadcrumb/toc.json",
-      "feedback_system": "Standard",
-      "permissioned-type": "public"
+  "overwrite": [],
+  "externalReference": [],
+  "globalMetadata": {
+    "brand": "dynamics",
+    "breadcrumb_path": "/dynamics365/guidance/breadcrumb/toc.json",
+    "extendBreadcrumb": "true",
+    "feedback_system": "Standard",
+    "ms.service":"dynamics-365",
+    "ms.reviewer": "edupont",
+    "permissioned-type": "public",
+    "recommendations": "true",
+    "titleSuffix": "Dynamics 365",
+    "uhfHeaderId": "MSDocsHeader-Dynamics365",
+    "searchScope": 
+      ["dynamics-365-daf",
+        "Dynamics 365"
+      ]
+  },
+  "fileMetadata": {
+    "ms.subservice":{
+      "business-processes/**.*":"guidance",
+      "implementation-guide/**.*":"guidance",
+      "implementation-portal/**.*":"guidance",
+      "organizational-strategy/**.*":"guidance",
+      "patterns/**.*":"guidance",
+      "reference-architecture/**.*":"reference-architecture",
+      "resources/**.*":"guidance",
+      "roles/**.*":"guidance"
     },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "dynamics365guidance"
+    "ms.collection":{
+      "fasttrack/**.*":"FastTrack"
+    }
+  },
+  "template": [],
+  "dest": "dynamics365guidance"
   }
 }

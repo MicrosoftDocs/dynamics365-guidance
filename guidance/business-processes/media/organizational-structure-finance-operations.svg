@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="913.55865"
+   height="613.12128"
+   overflow="hidden"
+   version="1.1"
+   id="svg320"
+   sodipodi:docname="organizational-structure-finance-operations.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs324" />
+  <sodipodi:namedview
+     id="namedview322"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.1789063"
+     inkscape:cx="560.6892"
+     inkscape:cy="324.02916"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2725"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg320" />
+  <g
+     id="g318"
+     transform="translate(-58.528828,-35.626244)">
+    <rect
+       x="58.528828"
+       y="35.626244"
+       width="913.55865"
+       height="613.12128"
+       fill="#ffffff"
+       id="rect274"
+       style="stroke-width:0.779596" />
+    <path
+       d="m 74.5001,100.168 c 0,-29.6402 24.0277,-53.6679 53.6679,-53.6679 h 780.665 c 29.639,0 53.667,24.0277 53.667,53.6679 v 214.665 c 0,29.639 -24.028,53.667 -53.667,53.667 H 128.168 c -29.6402,0 -53.6679,-24.028 -53.6679,-53.667 z"
+       stroke="#0078d4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#c8d5ea"
+       fill-rule="evenodd"
+       id="path276" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(111.513,127)"
+       id="text278">Consolidation legal entity</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(111.513,287)"
+       id="text280">Legal entities</text>
+    <path
+       d="m 657.5,337.5 v 99.427 h 32.422"
+       stroke="#006cc0"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path282" />
+    <path
+       d="m 613.5,184.5 v 22.695 h 130.768 v 22.696"
+       stroke="#005ea9"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path284" />
+    <path
+       d="m 396.5,337.5 v 252.891 h 32.422"
+       stroke="#006cc0"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path286" />
+    <path
+       d="m 396.5,337.5 v 99.427 h 32.422"
+       stroke="#006cc0"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path288" />
+    <path
+       d="m 613.268,184.5 v 22.695 H 482.5 v 22.696"
+       stroke="#005ea9"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path290" />
+    <rect
+       x="505.5"
+       y="76.500099"
+       width="216"
+       height="108"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect292" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(529.065,122)"
+       id="text294">CORPORATE</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(510.258,159)"
+       id="text296">(Consolidation)</text>
+    <rect
+       x="374.5"
+       y="229.5"
+       width="216"
+       height="108"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect298" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(453.643,294)"
+       id="text300">USA</text>
+    <rect
+       x="428.5"
+       y="383.5"
+       width="216"
+       height="108"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect302" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(499.063,447)"
+       id="text304">Retail</text>
+    <rect
+       x="428.5"
+       y="536.5"
+       width="216"
+       height="108"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect306" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(437.02,601)"
+       id="text308">Manufacturing</text>
+    <rect
+       x="636.5"
+       y="229.5"
+       width="216"
+       height="108"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect310" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(716.29,294)"
+       id="text312">EUR</text>
+    <rect
+       x="690.5"
+       y="383.5"
+       width="216"
+       height="108"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect314" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="31px"
+       transform="translate(698.556,447)"
+       id="text316">Manufacturing</text>
+  </g>
+</svg>

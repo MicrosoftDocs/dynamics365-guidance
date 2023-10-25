@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1783.5249"
+   height="1458.2278"
+   overflow="hidden"
+   version="1.1"
+   id="svg190"
+   sodipodi:docname="aquire-to-dispose-retire-dispose-assets.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs194" />
+  <sodipodi:namedview
+     id="namedview192"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.53489583"
+     inkscape:cx="871.19766"
+     inkscape:cy="780.5258"
+     inkscape:window-width="2718"
+     inkscape:window-height="1835"
+     inkscape:window-x="3190"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg190" />
+  <g
+     id="g188"
+     transform="translate(-46.738071,-183.21324)">
+    <rect
+       x="46.738071"
+       y="183.21324"
+       width="1783.5249"
+       height="1458.2278"
+       fill="#ffffff"
+       id="rect2"
+       style="stroke-width:0.839945" />
+    <path
+       d="m 1193.5,1369 h 93.66 v 1 h -93.66 z m 92.33,-3.5 8,4 -8,4 z"
+       fill="#0078d4"
+       id="path4" />
+    <rect
+       x="413"
+       y="193"
+       width="1079"
+       height="1441"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#d9d9d9"
+       id="rect6" />
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(441.65,243)"
+       id="text8">Business process area</text>
+    <path
+       d="M 63,229.5 C 63,209.342 79.3416,193 99.5,193 h 138 c 20.158,0 36.5,16.342 36.5,36.5 v 0 c 0,20.158 -16.342,36.5 -36.5,36.5 H 99.5 C 79.3416,266 63,249.658 63,229.5 Z"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(141.338,240)"
+       id="text12">Start</text>
+    <rect
+       x="63"
+       y="313"
+       width="211"
+       height="121"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect14" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(107.988,368)"
+       id="text16">Acquire to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(123.708,400)"
+       id="text18">dispose</text>
+    <path
+       d="M 1,-4.48434e-6 1.00018,40.1571 h -2 L -1,4.48434e-6 Z M 4.00017,38.8237 l -3.999960026,8 -4.000039974,-8 z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,169,266)"
+       id="path20" />
+    <rect
+       x="559"
+       y="297"
+       width="370"
+       height="153"
+       stroke="#00569b"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect22" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(620.38,368)"
+       id="text24">Retire and dispose of</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(709.007,400)"
+       id="text26">assets</text>
+    <rect
+       x="559"
+       y="518"
+       width="400"
+       height="179"
+       fill="#ffffff"
+       id="rect28" />
+    <path
+       d="M 609,518 V 697 M 909,518 v 179"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path30" />
+    <rect
+       x="559"
+       y="518"
+       width="400"
+       height="179"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect32" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(661.317,585)"
+       id="text34">Define accounting</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(639.663,617)"
+       id="text36">policies for fixed asset</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(638.93,649)"
+       id="text38">retirement or disposal</text>
+    <rect
+       x="974"
+       y="1007"
+       width="304"
+       height="154"
+       fill="#ffffff"
+       id="rect40" />
+    <path
+       d="m 1012,1007 v 154 m 228,-154 v 154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path42" />
+    <rect
+       x="974"
+       y="1007"
+       width="304"
+       height="154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect44" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1065.86,1045)"
+       id="text46">Remove an</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1068.88,1077)"
+       id="text48">asset from</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1041.78,1109)"
+       id="text50">service through</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1104.68,1141)"
+       id="text52">sale</text>
+    <path
+       d="m 274,373 h 278.463 v 2 H 274 Z m 277.13,-3 8,4 -8,4 z"
+       fill="#0078d4"
+       id="path54" />
+    <rect
+       x="1561"
+       y="1180"
+       width="211"
+       height="110"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect56" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1595.03,1229)"
+       id="text58">Inventory to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1627.52,1261)"
+       id="text60">deliver</text>
+    <path
+       d="m 1216,1522.5 c 0,-20.16 16.34,-36.5 36.5,-36.5 h 138 c 20.16,0 36.5,16.34 36.5,36.5 v 0 c 0,20.16 -16.34,36.5 -36.5,36.5 h -138 c -20.16,0 -36.5,-16.34 -36.5,-36.5 z"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path62" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1299.01,1532)"
+       id="text64">End</text>
+    <path
+       d="M 0.999967,-0.00809196 1.66424,82.0791 -0.335699,82.0953 -0.999967,0.00809196 Z M 4.65335,80.7216 0.718215,88.7537 -3.34639,80.7863 Z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,754.718,700)"
+       id="path66" />
+    <path
+       d="m 756,945.988 0.639,54.032 -2,0.02 L 754,946.012 Z m 3.623,52.664 -3.905,8.048 -4.094,-7.953 z"
+       fill="#0078d4"
+       id="path68" />
+    <path
+       d="m 757,450 v 60.848 h -2 V 450 Z m 3,59.515 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path70" />
+    <path
+       d="M 1.5,-6.72652e-6 1.50018,39.3237 h -3 L -1.5,6.72652e-6 Z M 4.50017,37.8237 l -4.499960026,9 -4.500039974,-9 z"
+       fill="#0078d4"
+       transform="matrix(-1,0,0,1,169.5,266.5)"
+       id="path72" />
+    <path
+       d="m 274.5,373 h 277.63 v 3 H 274.5 Z m 276.13,-3 9,4.5 -9,4.5 z"
+       fill="#0078d4"
+       id="path74" />
+    <path
+       d="m 758,450.5 v 60.015 h -3 V 450.5 Z m 3,58.515 -4.5,9 -4.5,-9 z"
+       fill="#0078d4"
+       id="path76" />
+    <rect
+       x="974"
+       y="1234"
+       width="304"
+       height="185"
+       fill="#ffffff"
+       id="rect78" />
+    <path
+       d="m 1012,1234 v 185 m 228,-185 v 185"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path80" />
+    <rect
+       x="974"
+       y="1234"
+       width="304"
+       height="185"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect82" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1065.86,1288)"
+       id="text84">Remove an</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1068.88,1320)"
+       id="text86">asset from</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1041.78,1352)"
+       id="text88">service through</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1082.96,1384)"
+       id="text90">trade</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1140.91,1384)"
+       id="text92">-</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1149.08,1384)"
+       id="text94">in</text>
+    <rect
+       x="975"
+       y="781"
+       width="303"
+       height="154"
+       fill="#ffffff"
+       id="rect96" />
+    <path
+       d="M 1012.88,781 V 935 M 1240.12,781 V 935"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path98" />
+    <rect
+       x="975"
+       y="781"
+       width="303"
+       height="154"
+       stroke="#0078d4"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect100" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1066.45,819)"
+       id="text102">Remove an</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1069.48,851)"
+       id="text104">asset from</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1072.64,883)"
+       id="text106">service by</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1064.05,915)"
+       id="text108">scrapping it</text>
+    <rect
+       x="1567"
+       y="797"
+       width="211"
+       height="110"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect110" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1622.5,846)"
+       id="text112">Order to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1646.3,878)"
+       id="text114">cash</text>
+    <path
+       d="m 0,-1 h 394.38 c 0.552,0 1,0.447715 1,1 v 170.769 h -2 V 0 l 1,1 H 0 Z m 398.38,170.436 -4,8 -4,-8 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1278,1084.44)"
+       id="path116" />
+    <path
+       d="m 0,-1.5 h 394.38 c 0.828,0 1.5,0.671573 1.5,1.5 v 169.936 h -3 V 0 l 1.5,1.5 H 0 Z m 398.88,169.936 -4.5,9 -4.5,-9 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1278.5,1084.94)"
+       id="path118" />
+    <path
+       d="m 630.5,866 126,-80.5 126,80.5 -126,80.5 z"
+       stroke="#0078d4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path120" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(723.479,860)"
+       id="text122">Scrap</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(720.739,892)"
+       id="text124">asset?</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(785.614,984)"
+       id="text126">No</text>
+    <path
+       d="m 882,865 h 88.046 v 2 H 882 Z m 86.713,-3 8,4 -8,4 z"
+       fill="#0078d4"
+       id="path128" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(903.291,838)"
+       id="text130">Yes</text>
+    <path
+       d="m 630.5,1086 126,-80.5 126,80.5 -126,80.5 z"
+       stroke="#0078d4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path132" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(735.392,1080)"
+       id="text134">Sell</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(720.739,1112)"
+       id="text136">asset?</text>
+    <path
+       d="M 1.08163e-6,-1 90.3968,-0.999902 V 1.0001 L -1.08163e-6,1 Z M 89.0634,-3.9999 l 8,4.000004987 -8,3.999995013 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,882,1086)"
+       id="path138" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(903.291,1071)"
+       id="text140">Yes</text>
+    <path
+       d="m 755,1165.99 0.639,54.03 -2,0.02 -0.639,-54.03 z m 3.623,52.66 -3.905,8.05 -4.094,-7.95 z"
+       fill="#0078d4"
+       id="path142" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(783.576,1204)"
+       id="text144">No</text>
+    <path
+       d="m 616.5,1306 136,-80.5 136,80.5 -136,80.5 z"
+       stroke="#0078d4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path146" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(706.247,1300)"
+       id="text148">Replace</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(716.64,1332)"
+       id="text150">asset?</text>
+    <path
+       d="M 1.27964e-6,-1 75.3772,-0.999904 V 1.0001 L -1.27964e-6,1 Z M 74.0439,-3.99991 l 8,4.000014987 -8,3.999985013 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,889,1305)"
+       id="path152" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(901.448,1291)"
+       id="text154">Yes</text>
+    <path
+       d="m 0,-1 h 135.643 c 0.552,0 1,0.447715 1,1 v 457.102 h -2 V 0 l 1,1 H 0 Z m 139.643,456.769 -4,8 -4,-8 z"
+       fill="#0078d4"
+       transform="matrix(0,1,1,0,752,1386)"
+       id="path156" />
+    <path
+       d="m 0,-0.5 h 388.778 c 0.276,0 0.5,0.223858 0.5,0.5 v 44.9942 h -1 V 0 l 0.5,0.5 H 0 Z m 392.778,44.1609 -4,8 -4,-8 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1278.5,1342.16)"
+       id="path158" />
+    <path
+       d="m 0,-1.5 h 388.778 c 0.829,0 1.5,0.671573 1.5,1.5 v 44.1609 h -3 V 0 l 1.5,1.5 H 0 Z m 393.278,44.1609 -4.5,9 -4.5,-9 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1278.5,1342.16)"
+       id="path160" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(783.538,1430)"
+       id="text162">No</text>
+    <path
+       d="m 1818.37,866.5 v 656.51 c 0,0.28 -0.22,0.5 -0.5,0.5 h -383.7 v -1 h 383.7 l -0.5,0.5 V 866.5 Z m -382.87,660.51 -8,-4 8,-4 z"
+       fill="#0078d4"
+       id="path164" />
+    <path
+       d="m 1772.5,1235.5 h 43.32"
+       stroke="#0078d4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path166" />
+    <rect
+       x="1567"
+       y="575"
+       width="211"
+       height="110"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#a0a0a0"
+       id="rect168" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1615.62,624)"
+       id="text170">Record to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="27px"
+       transform="translate(1635.76,656)"
+       id="text172">report</text>
+    <path
+       d="M 0,0 37.7923,1.04987e-4"
+       stroke="#0078d4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(-1,0,0,1,1816.29,866.5)"
+       id="path174" />
+    <path
+       d="m 0,-0.5 h 247.86 c 0.276,0 0.5,0.223858 0.5,0.5 v 228.083 l -0.5,-0.5 h 34.324 v 1 H 247.86 c -0.276,0 -0.5,-0.224 -0.5,-0.5 V 0 l 0.5,0.5 H 0 Z m 280.851,224.583 8,4 -8,4 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1278.5,858.583)"
+       id="path176" />
+    <path
+       d="m 1778.5,630 h 39.08 c 0.28,0 0.5,0.224 0.5,0.5 v 240.868 h -1 V 630.5 l 0.5,0.5 h -39.08 z m 43.08,240.035 -4,8 -4,-8 z"
+       fill="#0078d4"
+       id="path178" />
+    <path
+       d="m 1819.37,866.5 v 656.51 c 0,0.83 -0.67,1.5 -1.5,1.5 H 1435 v -3 h 382.87 l -1.5,1.5 V 866.5 Z m -382.87,661.01 -9,-4.5 9,-4.5 z"
+       fill="#0078d4"
+       id="path180" />
+    <path
+       d="m 1772.5,1235.5 h 43.32"
+       stroke="#0078d4"
+       stroke-width="3"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path182" />
+    <path
+       d="m 0,-1.5 h 247.86 c 0.828,0 1.5,0.671573 1.5,1.5 v 228.083 l -1.5,-1.5 h 33.491 v 3 H 247.86 c -0.828,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 279.851,225.083 9,4.5 -9,4.5 z"
+       fill="#0078d4"
+       transform="matrix(1,0,0,-1,1278.5,858.583)"
+       id="path184" />
+    <path
+       d="m 1778.5,629 h 39.08 c 0.83,0 1.5,0.672 1.5,1.5 v 240.035 h -3 V 630.5 l 1.5,1.5 h -39.08 z m 43.58,240.035 -4.5,9 -4.5,-9 z"
+       fill="#0078d4"
+       id="path186" />
+  </g>
+</svg>
