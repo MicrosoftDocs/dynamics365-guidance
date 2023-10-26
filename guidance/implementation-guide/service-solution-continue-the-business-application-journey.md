@@ -20,15 +20,15 @@ The only way to truly understand these benefits and how to best apply them in yo
 
 Each year, Microsoft creates many events and learning opportunities to help developers, IT and business professionals, partners, and educators extend their expertise. Here are some great resources for furthering your education:
 
--   [Microsoft Events](https://www.microsoft.com/en-us/events/) consolidate links to stay up to date on upcoming events for all kinds of audiences, both business and technical focused.
+- [Microsoft Events](https://www.microsoft.com/events/) consolidate links to stay up to date on upcoming events for all kinds of audiences, both business and technical focused.
 
--   [Microsoft Business Applications Summit](https://mymbas.microsoft.com/) helps you maximize on using business applications through live and on-demand recordings and discussions.
+<!-- -   [Microsoft Business Applications Summit](https://mymbas.microsoft.com/) helps you maximize on using business applications through live and on-demand recordings and discussions. -->
 
--   [Microsoft Ignite](https://myignite.microsoft.com/home) is for anyone who is motivated to be on the frontier of innovation and tech. There are live and on-demand sessions tailored for different audiences.
+- [Microsoft Ignite](https://myignite.microsoft.com/home) is for anyone who is motivated to be on the frontier of innovation and tech. There are live and on-demand sessions tailored for different audiences.
 
--   [Experience Dynamics 365](https://experience.dynamics.com/) provides access to Dynamics 365 experts and the Insider program to participate in preview features. You can also provide feedback to Microsoft engineers and vote on new product features.
+- [Experience Dynamics 365](https://experience.dynamics.com/) provides access to Dynamics 365 experts and the Insider program to participate in preview features. You can also provide feedback to Microsoft engineers and vote on new product features.
 
--   The [Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) delivers the latest product news, announcements, events, demos, and customer success stories.
+- The [Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) delivers the latest product news, announcements, events, demos, and customer success stories.
 
 ## Next steps
 
