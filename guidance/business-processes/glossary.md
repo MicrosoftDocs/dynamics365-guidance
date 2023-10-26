@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 10/05/2023
+ms.date: 10/26/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
@@ -13,7 +13,10 @@ This article defines some of the common terms and terms that are specific to Dyn
 
 In any given industry, there are terms that are industry-specific and very familiar to people in that industry or line of business. But in many languages, there are more than one term for the same task or object. For example, are the people you do business with your *clients* or your *customers*?  Learn more in the following sections.  
 
-Use CTRL+F to search for a specific term on this page.   
+> [!TIP]
+> Use CTRL+F to search for a specific term on this page.   
+
+Find generic and specific terms across Microsoft products and languages at [Microsoft Terminology Search](https://msit.powerbi.com/view?r=eyJrIjoiODJmYjU4Y2YtM2M0ZC00YzYxLWE1YTktNzFjYmYxNTAxNjQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
 
 ## A
 
