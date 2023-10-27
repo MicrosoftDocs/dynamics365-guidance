@@ -34,15 +34,9 @@
  "
 ## Acrolinx Scorecards
  
-**The minimum Acrolinx topic score of 80 is required for all MAGIC content merged to the default branch.**
+**A minimum total score of 80 is required. The total score is an average of the subscores.**
 
-If you need a scoring exception for content in this PR, add the *Sign off* and the *Acrolinx exception* labels to the PR. The PubOps Team will review the exception request and may take one or more of the following actions:
-
-- Work with you to resolve the issues requiring the exception.
-- Escalate the exception request to the Acrolinx Review Team for review.
-- Approve the exception and work with the GitHub Admin Team to merge the PR to the default branch.
-
-For more information about the exception criteria and exception process, see [Minimum Acrolinx topic scores for publishing](https://review.docs.microsoft.com/en-us/office-authoring-guide/acrolinx-min-score?branch=master).
+For more information about the exception criteria and exception process, see [Minimum Acrolinx topic scores for publishing](https://review.learn.microsoft.com/en-us/help/platform/acrolinx-minimum-score-requirements?branch=main).
  
 Click the scorecard links for each article to review the Acrolinx feedback on grammar, spelling, punctuation, writing style, and terminology:
 
