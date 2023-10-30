@@ -3,7 +3,7 @@ title: Environment strategy
 description: Environments are containers that store, manage, and share your organization's data. They also store the data model, application metadata, process definitions, and the security constructs to control access to data and apps. The considerations in this article will guide you to define an environment approach that best meets your requirements for data access, isolation, security, governance, and scalability.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 07/04/2023
+ms.date: 10/30/2023
 ms.topic: conceptual
 
 ---
@@ -44,7 +44,7 @@ We'll explore several deployment and transition scenarios and look at the factor
 
 The tenant strategy defines the foundation that a healthy environment strategy builds on.  
 
-A tenant is a logical structure that represents your organization. Every cloud service to which an organization subscribes will be associated with the customer's tenant. A tenant isn't dedicated to a specific service; it has subscriptions for Microsoft services, such as Exchange, Dynamics 365, Power BI, and Azure. Every tenant is given a Microsoft domain, such as `yourorganization.onmicrosoft.com`, but admins can also associate their own custom domains with the tenant. You can also federate access to your tenant via your organization's on-premises Azure Active Directory (Azure AD) to enable single sign-on (SSO) across on-premises and cloud services.
+A tenant is a logical structure that represents your organization. Every cloud service to which an organization subscribes will be associated with the customer's tenant. A tenant isn't dedicated to a specific service; it has subscriptions for Microsoft services, such as Exchange, Dynamics 365, Power BI, and Azure. Every tenant is given a Microsoft domain, such as `yourorganization.onmicrosoft.com`, but admins can also associate their own custom domains with the tenant. You can also federate access to your tenant via your organization's on-premises Active Directory to enable single sign-on (SSO) across on-premises and cloud services.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 

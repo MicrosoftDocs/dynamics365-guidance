@@ -1,7 +1,7 @@
 ---
 title: Scale load tests in Dynamics 365 implementations
 description: Learn about some scaling patterns that can help maintain load tests in Dynamics 365 implementation projects.
-ms.date: 06/26/2023
+ms.date: 10/30/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: zacolson
@@ -22,7 +22,7 @@ This article describes some scaling patterns that you can use to maintain the co
 
 ## Test users
 
-When you test components of Microsoft Power Platform at a high scale, we recommend that you *scale out* the volume of traffic that virtual users generate across a collection of *test users*. A test user is an Azure Active Directory (Azure AD) user that is configured to run the virtual user traffic when you test at scale. You configure the user accounts specifically for testing purposes.
+When you test components of Microsoft Power Platform at a high scale, we recommend that you *scale out* the volume of traffic that virtual users generate across a collection of *test users*. A test user is a Microsoft Entra ID user that is configured to run the virtual user traffic when you test at scale. You configure the user accounts specifically for testing purposes.
 
 Test users must meet the following requirements:
 

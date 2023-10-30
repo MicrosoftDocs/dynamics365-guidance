@@ -85,7 +85,7 @@ Learn more at [Service the solution](service-solution.md)
 
 ## Integration with on-premises systems
 
-The cloud might be the preferred approach for new applications, but in most enterprise solutions, you could still have on-premises elements. Therefore, it's common to build integrations with these on-premises systems. It's important to establish these integration patterns in compliance with your internal security policies while allowing cloud applications to authenticate and connect to on-premises services. You often need allow-listing URLs and IP ranges on your firewall. Or you might use the Azure AD Application Proxy or an on-premises gateway that allows such integrations without having to open inbound connections into your customer's corporate network.
+The cloud might be the preferred approach for new applications, but in most enterprise solutions, you could still have on-premises elements. Therefore, it's common to build integrations with these on-premises systems. It's important to establish these integration patterns in compliance with your internal security policies while allowing cloud applications to authenticate and connect to on-premises services. You often need allow-listing URLs and IP ranges on your firewall. Or you might use the Microsoft Entra Application Proxy or an on-premises gateway that allows such integrations without having to open inbound connections into your customer's corporate network.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 

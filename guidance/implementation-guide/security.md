@@ -152,7 +152,7 @@ The following table provides links to help you respond to requests for personal 
 |--|--|
 | Power Apps | [Responding to Data Subject Rights (DSR) requests to export Power Apps customer data](/power-platform/admin/powerapps-gdpr-export-dsr) |
 | Dataverse | [Responding to Data Subject Rights (DSR) requests for Dataverse customer data](/power-platform/admin/common-data-service-gdpr-dsr-guide) |
-| Power Automate | [Respond to personal data requests (Azure AD)](/power-automate/gdpr-dsr-summary) |
+| Power Automate | [Respond to personal data requests (work or school account)](/power-automate/gdpr-dsr-summary) |
 | Microsoft Accounts (MSAs) | [Respond to personal data requests (Microsoft account)](/power-automate/gdpr-dsr-summary-msa) |
 | Dynamics 365 apps | [Dynamics 365 Data Subject Requests](/compliance/regulatory/gdpr-dsr-Dynamics365) |
 
@@ -169,7 +169,7 @@ As Microsoft's customer, you must identify which controls apply to your business
 
 Microsoft is transparent about where your data is located. You know where your data is stored, who can access it, and under what conditions. Dynamics 365 customers can specify the Azure datacenter region where their [customer data](https://www.microsoft.com/trustcenter/Privacy/How-Microsoft-defines-customer-data) is stored. Microsoft may replicate customer data to other regions available within the same geography for data durability, except in specific scenarios, including the following cases:
 
-- [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis), which may store AD data globally
+- [Microsoft Entra ID](/entra/identity/), which may store AD data globally
 
   [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
