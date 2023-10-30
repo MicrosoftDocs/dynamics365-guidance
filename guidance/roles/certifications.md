@@ -27,8 +27,8 @@ Learn new skills and boost your productivity with Microsoft Certifications. This
 
 - Dynamics 365 Customer Insights
 
-  - [Dynamics 365 Customer Insights (Data) Specialty](/certifications/customer-data-platform-specialty/)  
-  - [Dynamics 365 Customer Insights (Journeys) Functional Consultant Associate](/certifications/d365-functional-consultant-marketing/)  
+  - [Dynamics 365 Customer Insights - Data Specialty](/certifications/customer-data-platform-specialty/)  
+  - [Dynamics 365 Customer Insights - Journeys Functional Consultant Associate](/certifications/d365-functional-consultant-marketing/)  
 
 - Dynamics 365 Customer Service and Field Service
 
