@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 10/27/2023
+ms.date: 10/31/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
@@ -170,6 +170,14 @@ Typically, you define [fixed assets](#fixed-asset) as capital assets when you ho
 
 The capital asset budget helps an organization to plan the purchase of assets it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
 
+### Campaign analytics
+
+The process of evaluating data and metrics for a marketing campaign to derive performance insights and optimization opportunities.
+
+### Campaign budget
+
+The defined marketing expenditure allocated to a specific marketing campaign.  
+
 ### Cashflow statement
 
 It's one of the three key financial statements used by organizations to report cash and spending information. The cash flow statement, also called the statement of cash flows, is a financial statement that shows how cash flows in and out of a company over a specific period. A general cash flow statement may have two columns. Column one will list the name of the category of receipts and payments and column two will list the total amount in each period.
@@ -197,6 +205,10 @@ A category hierarchy refers to a way of organizing and structuring products or i
 ### Centralized resource allocation
 
 For organizations that centralize the allocation for resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, while the fulfillment of the resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
+
+### Churn
+
+When a customer ends a relationship or stops engaging with a company. CRM helps prevent churn.
 
 ### Close the deal
 
@@ -315,6 +327,22 @@ A credit note is a document that reduces the amount that a customer owes to a se
 
 A [customer credit group](/dynamics365/finance/accounts-receivable/cm-customer-credit-groups) is a group of customers that have a shared credit limit. The individual credit limit on a customer invoice account is also considered. You can select members of a customer credit group from different legal entities. When you decide how to structure your customer accounts, consider how credit limits are managed. For example, a customer account can have only one credit limit. If a customer account has many delivery addresses that each require a different credit limit, consider whether they should be separate customer accounts. Then you can use a customer credit group to create an overall credit limit across the customer's accounts.
 
+### Customer journey
+
+The end-to-end experiences and touchpoints a customer has with a brand. CRM optimizes journeys.
+
+### Customer lifetime value (CLV)
+
+The total revenue generated from a customer over the entire relationship timeline. Maximizing CLV is key.
+
+### Customer Relationship Management (CRM)
+
+Strategies and processes for managing customer interactions and data across the customer lifecycle to maximize loyalty and growth.
+
+### Customer satisfaction (CSAT)
+
+Metrics that measure a customer's happiness with a company's products, services and interactions.  
+
 ## D
 
 ### Date effectivity
@@ -358,6 +386,10 @@ Fixed asset depreciation methods and conventions are handled slightly differentl
 ### Direct expenses 
 
 Direct expenses are those that are directly tied to the project itself such as specialized software, travel and meal expenses, mileage, and per-diem. 
+
+### Discounts
+
+Percentage or dollar reductions in the quoted price. Discounts can be applied to incentivize customers.
 
 ### Dock management
 
@@ -560,7 +592,7 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 ### Lead
 
-A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet.
+A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).  
 
 ### Lead and opportunity management
 
@@ -571,6 +603,22 @@ Tracking and managing potential customers and sales opportunities throughout the
 - **Lead qualification** is the process of determining whether a lead has the potential to become a customer, based on such factors as level of interest, budget, and purchasing authority.
 
 - **Opportunity management** is the practice of guiding and nurturing qualified leads through the sales process, with the goal of converting them to customers by addressing their needs, concerns, and objections.
+
+### Lead conversion
+
+The act of transitioning a qualified lead into a sales pipeline opportunity.  
+
+### Lead enrichment
+
+The process of augmenting lead records with additional data from various sources.
+
+### Lead nurturing
+
+Ongoing communication with leads to develop awareness and interest over time.
+
+### Lead score  
+
+A numeric rating assigned to a lead to indicate sales-readiness based on engagement, profile fit, and so on.
 
 ### Lease contracts
 
@@ -652,6 +700,14 @@ A manufacturing execution system (MES) is software that supports the management 
 
 In Dynamics 365 Supply Chain Management, it's the [**Production floor execution**](/dynamics365/supply-chain/production-control/production-floor-execution-use) module, which has a touch-friendly interface you can use to start production, record progress, consume materials, request maintenance, and perform other production tasks. Dynamics 365 also has a framework for [integrating a third-party MES](/dynamics365/supply-chain/production-control/mes-integration) with the **Production** module.
 
+### Margins
+
+The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.  
+
+### Marketing campaign
+
+A strategic marketing effort across one or more channels over a period of time to promote a product, service, or brand. A *multi-channel campaign* leverages multiple channels such as email, social media, and events, to reach prospects. 
+
 ### Merchandising
 
 In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.  
@@ -680,7 +736,7 @@ The hours worked on tasks that are not directly chargeable to clients. These hou
 
 ### Opportunity
 
-An opportunity is a [lead](#lead) that's been [qualified](#lead-and-opportunity-management), or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services they're interested in, the potential revenue, and the estimated closing date.
+An opportunity is a [lead](#lead) that's been [qualified](#lead-and-opportunity-management), or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services they're interested in, the potential revenue, and the estimated closing date. Opportunities can be *scored* based on their potential, and they can be *nurtured* with ongoing communication to develop the opportunities.
 
 ### Overhead costs
 
@@ -725,6 +781,10 @@ In Dynamics 365, a product is an item or service that a business offers for sale
 - A **released product** is a product that's released for sale or production in a specific legal entity. It's created by copying the product master record and making any necessary modifications, such as changing the pricing or other attributes. Released products are used to manage product versions and track changes over time, and are linked to specific sales orders, purchase orders, and production runs.
 
 You can add products to a [product catalog](/dynamics365/sales/set-up-product-catalog-walkthrough) in Dynamics 365 Sales and [register products as inventory items](/dynamics365/business-central/inventory-how-register-new-items) in Dynamics 365 Business Central.
+
+### Product and price lists
+
+Catalogs of available products/services with assigned prices. Used to add items to quotes.  
 
 ### Product category
 
@@ -893,6 +953,14 @@ The document that outlines the scope of work, deliverables, timeline, and estima
 
 A provider is a connection point in a supply chain. In the context of Intelligent Order Management in Dynamics 365 Supply Chain Center, a provider allows integration with other systems by presenting calls between systems as actions that can trigger events that drive orchestration.
 
+## Q
+
+### Quote
+
+A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that it aligns with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.  
+
+Quotes can be *revised* , meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
+
 ## R
 
 ### Rating
@@ -997,7 +1065,7 @@ Sales planning and strategy describes the process of developing an approach and 
 
 - **Sales forecasting** is the process of predicting future sales revenue based on historical data, market trends, and other factors, to help sales teams set targets and plan their activities accordingly.
 
-- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling is offering more products or services to existing customers, while upselling is encouraging them to upgrade to a higher-priced product or service.
+- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling is offering more products or services to existing customers, while [upselling](#upsell) is encouraging them to upgrade to a higher-priced product or service.
 
 ### Sales process and stages
 
@@ -1113,6 +1181,10 @@ The **Unlimited credit limit** flag on a customer account indicates the account 
 
 Because this option circumvents the standard processes your organization uses, consider its security carefully. You might want to set up database logging to [monitor its use](order-to-cash-monitor-customer-credit-collections-overview.md).
 
+### Upsell
+
+Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).  
+
 ## V
 
 ### Variant
@@ -1120,6 +1192,10 @@ Because this option circumvents the standard processes your organization uses, c
 See [product](#product).
 
 ## W
+
+### Win/loss analysis
+
+The job of evaluating why deals were won or lost to improve the marketing process.  
 
 ### Work Breakdown Structure (WBS)
 
