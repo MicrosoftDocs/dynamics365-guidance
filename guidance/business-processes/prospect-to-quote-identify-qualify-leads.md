@@ -106,7 +106,6 @@ If you want to implement Dynamics 365 solutions to assist with your business pro
 - [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)  
 - [Manage leads](/dynamics365/sales/lead-management-overview)  
 - [Qualify and convert leads to opportunity](/dynamics365/sales/qualify-lead-convert-opportunity-sales)  
-- [Understand the sales process](/dynamics365/marketing/nurture-sales-from-lead-order-sales)  
 - [Prioritize leads through scores](/dynamics365/sales/work-predictive-lead-scoring)  
 
 - Find definitions of terminology used in content for *Identify and qualify leads* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:

@@ -135,7 +135,7 @@ In a cloud world where updates are continuous and new features are released freq
 
 When you extend Dynamics 365 apps, more maintenance requirements are added to the business solution, so it's important to understand and be aware of deprecations and roadmaps. This awareness helps to avoid building something that Microsoft later offers natively in Dynamics 365. You also avoid having to replace parts of the extended solution when Microsoft deprecates capabilities.
 
-[Keep track of release plans on Microsoft Learn](/dynamics365/release-plans/index.yml).
+[Keep track of release plans on Microsoft Learn](/dynamics365/release-plans/index).
 
 #### Supportability
 
