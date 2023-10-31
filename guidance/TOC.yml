@@ -14,6 +14,8 @@ items:
           href: /dynamics365/get-started/training/index?toc=/dynamics365/guidance/toc.json
         - name: Find certifications
           href: roles/certifications.md
+        - name: Find assessments
+          href: resources/assessments.md
         - name: Find TechTalk videos
           href: roles/techtalk-videos.md
         - name: Roles in Dynamics 365
