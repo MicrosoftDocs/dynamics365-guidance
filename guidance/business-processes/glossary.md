@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 10/26/2023
+ms.date: 10/27/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
@@ -156,6 +156,10 @@ Billing rules were used in [Dynamics AX](/dynamicsax-2012/appuser-itpro/create-b
 
 [Billing schedules](/dynamics365/finance/accounts-receivable/sb-billing-schedules) are rules that define how and when customers can be invoiced for work on a project. They're based on the terms that are specified in the project contract.
 
+### Budget forecast
+
+A budget forecast is the expected expenditure or revenue per budget line during the period that is defined on the budget line. The forecast equals the budgeted value when the budget is approved. If actual costs are more than the forecasted cost for a budget line, the forecast cost will be made equal to the actual cost.
+
 ## C
 
 ### Capital asset budget
@@ -227,6 +231,10 @@ Dynamics 365 Finance offers a couple of ways to allocate collections tasks:
 
 Material consumption refers to the use of items in a project. You can register the consumption of items in several ways. You can sell or purchase items from a project, or reserve items for a project. You can order items from the company's inventory for consumption on a project or purchase items from an external vendor. Item consumption is recorded as a posting that registers that the item was used in the project.
 
+### Correcting entry
+
+A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.  
+
 ### Cost
 
 In business and accounting, cost refers to the monetary value of resources that are consumed or sacrificed to achieve a particular objective or goal. It's the amount of money that a business spends on producing a product or providing a service. [Defining product and service costs](/dynamics365/guidance/business-processes/product-service-define-cost-overview) is essential for any organization that wants to understand and manage its finances effectively.
@@ -252,6 +260,10 @@ Dynamics 365 Finance, Supply Chain Management, and Business Central all include 
 - [Cost accounting in Finance](/dynamics365/finance/cost-accounting/cost-accounting-home-page)
 - [Cost accounting in Supply Chain Management](/dynamics365/finance/cost-accounting/cost-accounting-home-page)
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)
+
+### Cost budget
+
+A cost budget represents a point-in-time snapshot of the estimated cost for the project. All actual costs that are incurred on the project, among time, materials, and expenses are compared against the cost budget to track the costs on the project.
 
 ### Costing methodology
 
@@ -387,7 +399,9 @@ In accounting, a fixed asset is any long-term asset whose cost expiration is rec
 
 ### Fixed-price projects
 
-[Projects can be invoiced](project-to-profit-process-project-invoices-overview.md) on either a fixed-price or a [time-and-material](#time-and-material-projects) basis. With a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+Projects can be invoiced on either a fixed-price or a [time-and-material](#time-and-material-projects) basis. With a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+
+Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
 
 ### Forecast
 
@@ -822,11 +836,19 @@ A production strategy, a subset of operational strategies, refers to the approac
 
 - In an **engineer to order** strategy, the general scope of the product is defined, but the design is only finalized at the time the customer places an order. This approach is common in industries that require very custom solutions, such as construction and bespoke machinery.
 
+### Project budget
+
+A project budget is the total projected costs needed to complete a project over a defined period of time. It's used to estimate what the costs of the project will be for every phase of the project. Creating a project budget is a critical part of the project planning process. The project budget will include such things as labor costs, material procurement costs and operating costs. It's not a static document, and it can be reviewed and revived throughout the project.
+
 ### Project contract
 
 The [project contract](/dynamics365/project-operations/prod-pma/project-contracts) is a formal written agreement between an organization, the contractor, and a client, the buyer, that defines the terms and conditions of a project or business transaction. It includes details such as scope of work, deliverables, timelines, payment terms, and responsibilities of both parties.
 
 In Dynamics 365, a project that will be invoiced must be associated with a project contract. Settings for a project contract apply to all projects and subprojects that are associated with it. A project contract can specify one or more sources of funding. You can invoice one or more projects at the same time and make sure that a uniform invoicing procedure is applied for each subproject in a project structure.
+
+### Project controller
+
+The project controller works directly with the project manager to help define the project's goals and objectives. They create and maintain a project budget and schedule, analyze progress reported against the work schedules and recommend actions to improve progress.
 
 ### Project delivery
 
@@ -834,11 +856,15 @@ The phase in project management where the planned project outcomes, products, or
 
 ### Project estimate
 
-A [project estimate](project-to-profit-recognize-project-revenue.md) is a projection of the cost and schedule of work on a project. Project estimates can be binding or not.
+A project estimate is a projection of the cost and schedule of work on a project. Project estimates can be binding or not. Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
 
 ### Project manager
 
 A [project manager](#centralized-resource-allocation) is the individual responsible for planning, organizing, executing, and controlling all aspects of a project, from initiation to completion. Project managers are accountable for achieving a project's objectives within the constraints of scope, time, cost, quality, resources, and risk as defined in the [project contract](#project-contract).
+
+### Project phases
+
+The Project Management Institute (PMI) created a 5-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control and project closure.
 
 ### Project resource
 
@@ -920,6 +946,10 @@ A [resource manager](#centralized-resource-allocation), also known as a resource
 ### Resource requirement
 
 Resource requirements refer to the types and quantities of resources needed to run and complete a project within defined scope, timeline, and quality standards.
+
+### Revenue budget
+
+A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget, to track the revenue on the project.
 
 ### Risk scores
 
@@ -1055,7 +1085,7 @@ A network of organizations, resources, activities, and processes that collaborat
 
 ### Time and material projects
 
-For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be [invoiced per project](project-to-profit-process-project-invoices-overview.md) or per [project contract](#project-contract).
+For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be invoiced per project or per [project contract](#project-contract). Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
 
 ### Time entry
 
@@ -1090,6 +1120,10 @@ Because this option circumvents the standard processes your organization uses, c
 See [product](#product).
 
 ## W
+
+### Work Breakdown Structure (WBS)
+
+A Project Work Breakdown Structure (WBS) is a project management tool that adopts a step-by-step approach to complete large projects with several moving parts. It breaks down the project into smaller components, integrating scope, cost, and deliverables into a single tool. The Project Management Institute (PMI) defines WBS as "a deliverable-oriented hierarchical decomposition of the work to be executed by the project team to accomplish the project objectives and create the required deliverables." It organizes and defines the total scope of the project, with each descending level representing an increasingly detailed definition of the project work.
 
 ### Work order
 

@@ -45,6 +45,8 @@ The following diagram illustrates the *manage project opportunities* business pr
 
 :::image type="content" source="media/project-to-profit-manage-project-opportunities-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-manage-project-opportunities-flow.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
 The following steps are illustrated in the *manage project opportunities* business process flow diagram.
 
 1. Start
@@ -101,35 +103,15 @@ In Dynamics 365 Project Operations, users can set up workflows to manage project
 
 If you want to implement Dynamics 365 solutions to assist with your *manage project opportunities* business processes, use the following resources and steps to learn more. Links are added when articles become available.  
 
-1. *Manage project opportunities*  (the article you're currently reading)     
+1. Run marketing campaigns  
+2. Manage customer relationships  
+3. [Define sales strategy](prospect-to-quote-define-sales-strategy-overview.md)  
+4. Identify and qualify leads  
+5. *Manage project opportunities*  (the article you're currently reading)     
+6. Pursue opportunities  
+7. Estimate and quote sales  
 
-2. Manage project quotations
-
-3. Manage project contracts
-
-4. Govern projects
-
-5. [Manage project scope and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
-
-6. [Resource a project](project-to-profit-resource-projects.md)   
-
-7. [Deliver project work](project-to-profit-deliver-project-work.md) 
-
-8. [Manage project supply chain](project-to-profit-manage-project-supply-chain-overview.md)  
-
-9. [Capture project expenses](project-to-profit-capture-project-expenses-overview.md)
-
-10. [Process project invoices](project-to-profit-process-project-invoices-overview.md)  
-
-11. [Recognize project revenue](project-to-profit-recognize-project-revenue.md)  
-
-12. Make adjustments to project transactions
-
-13. Manage project budgets
-
-14. Monitor and analyze project performance
-
-15. Return to the overview of business process areas at [Project to profit business process areas](project-to-profit-areas.md)   
+Return to the overview of business process areas at [Prospect to quote business process areas](prospect-to-quote-areas.md).     
 
 ## Related resources
 
@@ -144,8 +126,9 @@ You can use the following resources to learn more about the *Manage project oppo
   - [Close the deal](glossary.md#close-the-deal)  
   - [Project contract](glossary.md#project-contract)  
 - [Project to profit end-to-end overview](project-to-profit-overview.md)  
+- [Govern projects](project-to-profit-govern-projects-overview.md)  
 - [Dynamics 365 Project Operations - Sales and Inception (blog post)](https://community.dynamics.com/blogs/post/?postid=3fcc054a-377e-42b4-aed5-22e0c7026a67)    
-- [Manage project opportunities](/dynamics365/project-operations/sales/manage-project-based-opportunities)  
+- [Manage project opportunities (Project Operations)](/dynamics365/project-operations/sales/manage-project-based-opportunities)  
 - [Project sales management (training)](/training/modules/get-started-project-operations/5-sales-management)  
 - [Microsoft Certified: Dynamics 365 Fundamentals (ERP)](/certifications/d365-fundamentals-finance-and-operations-apps-erp/)  
 - [Implementation strategy](../implementation-guide/implementation-strategy.md)  

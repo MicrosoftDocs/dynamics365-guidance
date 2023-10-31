@@ -4,7 +4,7 @@ description: Learn about the implementation portal and how it can help you imple
 ms.date: 03/27/2023
 ms.topic: conceptual
 author: edupont04
-ms.author: olpetrov
+ms.author: edupont
 ms.reviewer: edupont
 ms.custom: bap-template
 ---
@@ -88,4 +88,4 @@ Select the name of a user to open the user profile page, where you can provide o
 [Success By Design](../implementation-guide/success-by-design.md)  
 [Success By Design training](/training/paths/use-success-design/)  
 [Dynamics 365 Implementation Guide](https://www.d365implementationguide.com/books/asvr/#p=i)  
-[Dynamics 365 documentation](/dynamics365/index.yml)  
+[Dynamics 365 documentation](/dynamics365/index)  

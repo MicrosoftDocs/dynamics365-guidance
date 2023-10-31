@@ -33,7 +33,9 @@ The following diagram illustrates the *define a sales strategy* business process
 
 :::image type="content" source="media/prospect-to-quote-define-sales-strategy-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-define-sales-strategy-flow.svg":::
 
-The diagram shows the key steps in *defining a sales strategy*:
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
+The flow diagram shows the following key steps:
 
 1. Set sales targets
 

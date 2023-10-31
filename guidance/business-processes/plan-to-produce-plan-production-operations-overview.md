@@ -34,6 +34,10 @@ The following diagram illustrates the plan production operations business proces
 
 :::image type="content" source="media/plan-to-produce-plan-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image.":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
+The flow diagram covers the following steps.
+
 1. Start
 
     1. A parallel branch from 1. Start includes the *Plan to produce* end-to-end process.

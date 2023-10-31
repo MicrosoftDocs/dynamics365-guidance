@@ -1,20 +1,20 @@
 ﻿---
-title: Deliver project work overview
-description: Learn how you can use Dynamics 365 products to support the organization's business processes to deliver work on a project.
-ms.date: 10/02/2023
+title: Manage project delivery overview
+description: Learn how you can use Dynamics 365 products to support the organization's business processes to track that the project is worked on.
+ms.date: 10/31/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: abunduc
 # CustomerIntent: As a functional consultant, I want learn about this business process area so that the implementation runs better. 
 ---
 
-# Deliver project work overview
+# Manage project delivery overview
 
 ***Applies to: Dynamics 365 Project Operations, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Field Service, Dynamics 365 Human Resources***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes to deliver work on a project.
 
-The *deliver project work* business process area is key to capture the work that is delivered on a given project. It helps make sure that the final outcomes are provided to stakeholders, diligently and in a timely fashion. All the tasks, activities, and milestones outlined in the project plan are run and completed during this phase. Depending on the nature of the project, work might include various activities, such as the examples in the following list:
+The *manage project delivery* business process area is key to capture the work that is delivered on a given project. It helps make sure that the final outcomes are provided to stakeholders, diligently and in a timely fashion. All the tasks, activities, and milestones outlined in the project plan are run and completed during this phase. Depending on the nature of the project, work might include various activities, such as the examples in the following list:
 
 - Design  
 - Development  
@@ -26,11 +26,11 @@ We recommend that you track, record, and manage the effort invested in these act
 
 This business process area also covers the evaluation of project performance, estimation of task completion times, and identification of potential bottlenecks. Furthermore, it facilitates the assessment of resource allocation, aiding in optimizing workforce utilization and enhancing project efficiency. Through the systematic capture of project time, organizations elevate their ability to deliver projects on schedule, allocate resources effectively, and bolster overall productivity.
 
-The structure of the *deliver project work* business process is ideally defined in the early stages of project implementation. As project parameters, timelines, and resource allocation are established, outlining the *deliver project work* process ensures that accurate data collection begins from the project's inception. The process might naturally evolve as the project progresses, but it's important to lay its foundation before the project work is initiated.
+The structure of the *manage project delivery* business process is ideally defined in the early stages of project implementation. As project parameters, timelines, and resource allocation are established, outlining the *manage project delivery* process ensures that accurate data collection begins from the project's inception. The process might naturally evolve as the project progresses, but it's important to lay its foundation before the project work is initiated.
 
 ## Stakeholders 
 
-Many people across the organization should contribute to the decision-making process and design of the *deliver project work* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *manage project delivery* area. The following list provides examples of such stakeholders:
 
 - Project management stakeholders – Examples: Program managers, Portfolio managers, Project managers, and Resource managers
 
@@ -38,11 +38,14 @@ Many people across the organization should contribute to the decision-making pro
 
 - Finance department
 
-## Deliver project work process flow 
+## Manage project delivery process flow 
 
-The following diagram illustrates the *deliver project work* business process area.
+The following diagram illustrates the *manage project delivery* business process area.
 
 :::image type="content" source="media/project-to-profit-deliver-project-work-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-deliver-project-work-flow.svg":::
+
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The flow diagram covers the following steps.
 
 1. Start
 
@@ -54,7 +57,7 @@ The following diagram illustrates the *deliver project work* business process ar
 
 4. *Resource a project* business process area as an upstream process
 
-5. *Deliver project work* business process
+5. *Manage project delivery* business process
 
     1. Execute project task
 
@@ -84,9 +87,9 @@ The following diagram illustrates the *deliver project work* business process ar
 
 7. End
 
-## Deliver project work benefits
+## Manage project delivery benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *deliver project work*. The following sections outline the key benefits that an organization might monitor and measure for *deliver project work*. 
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *manage project delivery*. The following sections outline the key benefits that an organization might monitor and measure for *manage project delivery*. 
 
 ### Accurate project tracking
 
@@ -116,17 +119,18 @@ By delivering project work through Dynamics 365 Project Operations, time entry a
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Deliver project work* business processes, use the following resources and steps to learn more. Links are added when articles become available. 
+If you want to implement Dynamics 365 solutions to assist with your *manage project delivery* business processes, use the following resources and steps to learn more. Links are added when articles become available. 
 
-1. Govern projects
-2. [Resource a project](project-to-profit-resource-projects.md)  
-3. *Deliver project work* (the article you're currently reading)
-4. [Capture project expenses](project-to-profit-capture-project-expenses-overview.md)  
-5. [Manage project scope and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
+1. [Govern projects](project-to-profit-govern-projects-overview.md)  
+2. Manage project contracts
+3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
+4. *Manage project delivery* (the article you're currently reading)
+5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
 ## Related resources
 
-You can use the following resources to learn more about the *deliver project work* process in Dynamics 365.
+You can use the following resources to learn more about the *manage project delivery* process in Dynamics 365.
 
 - [Dynamics 365 Project Operations - Project Management and Time Entry (Dynamics 365 Community Blog)](https://community.dynamics.com/blogs/post/?postid=d9613dbe-cb51-4cb3-b29a-8464034d7fdb)
 - [Time overview](/dynamics365/project-operations/time/time-entry-overview)
@@ -134,7 +138,7 @@ You can use the following resources to learn more about the *deliver project wor
 
     - [Extending time entries](/dynamics365/project-operations/time/customize-weekly-time-entry-grid)
 - [Project effort tracking](/dynamics365/project-operations/project-management/project-tracking-overview)
-- Find definitions of terminology used in content for *Deliver project work* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+- Find definitions of terminology used in content for *manage project delivery* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 
   - [Project task](glossary.md#project-delivery)  
   - [Project delivery](glossary.md#project-delivery)  

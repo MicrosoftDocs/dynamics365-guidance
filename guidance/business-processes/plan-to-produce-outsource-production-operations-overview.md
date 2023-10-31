@@ -36,7 +36,9 @@ The following diagram shows the *Outsource production operations* process flow, 
 
 :::image type="content" source="media/plan-to-produce-outsource-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image." lightbox="media/plan-to-produce-outsource-production-flow.svg":::
 
-Outsource production operations process flow:
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
+The flow diagram coversn the following steps:
 
 1. Start
 

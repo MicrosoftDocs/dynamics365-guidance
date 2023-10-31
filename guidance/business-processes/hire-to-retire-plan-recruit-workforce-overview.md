@@ -25,6 +25,8 @@ The following diagram illustrates the business process area.
 
 :::image type="content" source="media/hire-to-retire-plan-recruit-business-process-area.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/hire-to-retire-plan-recruit-business-process-area.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
 The following steps are illustrated in the *Plan and recruit your workforce* flow diagram.
 
 1. Start

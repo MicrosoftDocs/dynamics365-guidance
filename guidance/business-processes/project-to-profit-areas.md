@@ -1,7 +1,7 @@
 ﻿---
 title: Project to profit business process areas
 description: Get an overview for each of the business process areas in the project to profit end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 09/25/2023
+ms.date: 10/20/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: marwalke
@@ -11,28 +11,7 @@ ms.author: marwalke
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-The *project to profit* process is broken down into overlapping business process areas to govern projects, manage project scope and schedule, and many more. The following sections describe the business process areas.
-
-## Manage project opportunities
-
-This business process area involves identifying, sizing, and evaluating potential project opportunities. It also covers determining which projects to pursue, based on their alignment with organizational goals and objectives. Also included are conducting feasibility studies, assessing project risks, and developing business cases to justify project investments.  
-
-Learn more at [Manage project opportunities overview](project-to-profit-manage-project-opportunities-overview.md). 
-
-## Manage project quotations
-
-This business process area involves creating and submitting project quotations to customers or clients. It covers tasks such as the following list:
-
-- Defining the scope of work  
-- Estimating project costs  
-- Analyzing quote profitability  
-- Creating a proposal that outlines the project deliverables, timeframe, and commercial terms  
-
-The business process area also includes iteratively revising the proposal until it's finally accepted or rejected.
-
-## Manage project contracts
-
-This business process area involves creating and managing project contracts throughout the project lifecycle. it covers developing contract templates, negotiating specific contract terms, monitoring contract compliance, managing change orders and resolving contract disputes.
+The *project to profit* end-to-end process is broken down into overlapping business process areas to govern projects, manage project scope and schedule, and many more. The following sections describe the business process areas.
 
 ## Govern projects
 
@@ -47,7 +26,29 @@ This business process area involves establishing processes and procedures to man
 
 This process area is sometimes referred to as *Project Integration Management* and unifies the other process areas in the coherent *project to profit* end-to-end process.
 
-## Manage project scope and schedule
+Learn more at [Govern projects overview](project-to-profit-govern-projects-overview.md). 
+<!-- MOVED TO P2Q ## Manage project opportunities
+
+This business process area involves identifying, sizing, and evaluating potential project opportunities. It also covers determining which projects to pursue, based on their alignment with organizational goals and objectives. Also included are conducting feasibility studies, assessing project risks, and developing business cases to justify project investments.  
+
+Learn more at [Manage project opportunities overview](project-to-profit-manage-project-opportunities-overview.md).  -->
+
+<!-- MOVED TO P2Q## Manage project quotations
+
+This business process area involves creating and submitting project quotations to customers or clients. It covers tasks such as the following list:
+
+- Defining the scope of work  
+- Estimating project costs  
+- Analyzing quote profitability  
+- Creating a proposal that outlines the project deliverables, timeframe, and commercial terms  
+
+The business process area also includes iteratively revising the proposal until it's finally accepted or rejected. -->
+
+<!-- ## Manage project contracts
+
+This business process area involves creating and managing project contracts throughout the project lifecycle. it covers developing contract templates, negotiating specific contract terms, monitoring contract compliance, managing change orders and resolving contract disputes. -->
+ 
+## Manage project resources and schedule
 
 This business process area focuses on defining and managing project scope, as well as creating and maintaining a project schedule. It covers tasks such as the following list:  
 
@@ -55,21 +56,32 @@ This business process area focuses on defining and managing project scope, as we
 - Developing a work breakdown structure  
 - Creating a project schedule that details the timeline for completing project activities  
 
-Learn more at [Manage project scope and schedule overview](project-to-profit-manage-project-scope-schedule-overview.md).  
+Learn more at [Manage project resources and schedule overview](project-to-profit-manage-project-scope-schedule-overview.md).  
+<!-- Guessing this next L2 belongs here-->
+## Manage project financials
 
-## Resource a project
+This business process area focused on managing the financial data associated with the project work. It covers tasks such as the following list:  
+
+- Review and approve project estimates  
+- Manage project budgets  
+- Create project invoices  
+- Manage and record project revenue  
+
+Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
+
+<!-- ## Resource a project
 
 This business process area focuses on ensuring that projects have the necessary resources to be completed successfully, including equipment, materials, and personnel. It involves identifying resource requirements, securing the necessary resources, and managing them throughout the project lifecycle.  
 
-Learn more at [Resource a project overview](project-to-profit-resource-projects.md).  
+Learn more at [Resource a project overview](project-to-profit-resource-projects.md).   -->
 
-## Deliver project work
+## Manage project delivery
 
 This business process area is centered on completing the work required to meet project objectives, on time and within budget. It involves planning, executing, and monitoring project tasks, as well as managing project resources and resolving any issues that arise.  
 
-Learn more at [Deliver project work overview](project-to-profit-deliver-project-work.md).  
+Learn more at [Manage project delivery overview](project-to-profit-deliver-project-work.md).  
 
-## Manage project supply chain
+<!-- ## Manage project supply chain
 
 This business process area focuses on ensuring that project teams have access to the necessary goods and services to complete projects successfully. It includes managing tasks such as the following list:  
 
@@ -79,21 +91,21 @@ This business process area focuses on ensuring that project teams have access to
 
 It also covers tracking and resolving any supply chain issues that arise.  
 
-Learn more at [Manage project supply chain overview](project-to-profit-manage-project-supply-chain-overview.md).  
+Learn more at [Manage project supply chain overview](project-to-profit-manage-project-supply-chain-overview.md).   -->
 
-## Capture project expenses
+<!-- REPLACED by Manage project financials ## Capture project expenses
 
 This business process area focuses on accurately tracking and recording project-related expenses. It involves recording project expenses and allocating their costs to specific projects.
 
-Learn more at [Capture project expenses overview](project-to-profit-capture-project-expenses-overview.md).  
+Learn more at [Capture project expenses overview](project-to-profit-capture-project-expenses-overview.md).   -->
 
-## Process project invoices
+<!-- REPLACED by Manage project financials ## Process project invoices
 
 This business process area focuses on managing the invoicing process associated with completed project work. It involves generating invoices according to contractual arrangements, tracking payments, and resolving any billing issues that arise.   
 
-Learn more at [Process project invoices overview](project-to-profit-process-project-invoices-overview.md).  
+Learn more at [Process project invoices overview](project-to-profit-process-project-invoices-overview.md).   -->
 
-## Recognize project revenue
+<!-- REPLACED by Manage project financials ## Recognize project revenue
 
 This business process area focuses on accurately recognizing revenue associated with projects. It involves tasks such as the following list:
 
@@ -101,13 +113,13 @@ This business process area focuses on accurately recognizing revenue associated 
 - Calculating revenue amounts based on completed work  
 - Recording corresponding accounting entries  
 
-Learn more at [Recognize project revenue overview](project-to-profit-recognize-project-revenue.md).  
+Learn more at [Recognize project revenue overview](project-to-profit-recognize-project-revenue.md).   -->
 
-## Make adjustments to project transactions
+<!-- REPLACED by Manage project financials ## Make adjustments to project transactions
 
 This business process area focuses on managing project-related accounting transactions and making any necessary adjustments. It involves reconciling transactions, correcting errors, and ensuring that project-related financial records are accurate and up to date.  
 
-## Manage project budgets
+## REPLACED by Manage project financials Manage project budgets
 
 This business process area involves tasks such as the following list:
 
@@ -117,9 +129,9 @@ This business process area involves tasks such as the following list:
 - Analyzing project financial performance  
 - Initiating corrective actions  
 
-It includes defining project cost elements and estimating project costs and revenues. It also covers creating a project budget with the appropriate level of detail for the expected amounts and their timing.  
+It includes defining project cost elements and estimating project costs and revenues. It also covers creating a project budget with the appropriate level of detail for the expected amounts and their timing.   -->
 
-## Manage project quality
+<!-- CUT? ## Manage project quality
 
 This business process area involves tasks such as the following list:  
 
@@ -129,7 +141,7 @@ This business process area involves tasks such as the following list:
 
 It includes developing quality plans, defining quality metrics, and conducting quality audits.
 
-## Manage project risks
+## CUT? Manage project risks
 
 This business process area involves tasks such as the following list:  
 
@@ -145,7 +157,7 @@ It also covers activities such as the following list:
 - Monitoring risk status  
 - Implementing risk responses throughout the project lifecycle  
 
-## Manage project stakeholders
+## CUT? Manage project stakeholders
 
 This business process area involves  tasks such as the following list:  
 
@@ -160,13 +172,15 @@ It also covers activities such as the following list:
 - Managing expectations  
 - Monitoring and managing engagement to ensure sufficient support for the project and adoption of its outputs  
 
-## Manage project communications
+## CUT? Manage project communications
 
 This business process area involves establishing an effective project communications approach and plan and executing it to keep stakeholders informed and engaged. It includes understanding the information needs of all stakeholders, the ongoing development of appropriate content, timely communication of it, and monitoring of its effectiveness. Collaboration platforms like Microsoft Teams, SharePoint and Viva Engage are invaluable for facilitating optimal project communications.
-
+ -->
 ## Monitor and analyze project performance
 
 This business process area focuses on monitoring project performance against its established objectives, enabling timely communication and corrective action as needed. It involves tracking qualitative and quantitative project metrics, analyzing variances, and initiating communication of the results to stakeholders. It's a key enabler of effective project governance.
+
+Learn more at [Monitor and analyze project performance overview](project-to-profit-monitor-analyze-project-performance-overview.md).  
 
 ## Next steps
 

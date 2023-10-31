@@ -4,7 +4,7 @@ description: Learn how to join or onboard a project in Dynamics 365 Implementati
 ms.date: 03/27/2023
 ms.topic: how-to
 author: edupont04
-ms.author: olpetrov
+ms.author: edupont
 ms.reviewer: edupont
 ms.custom: bap-template
 ---

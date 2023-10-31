@@ -11,7 +11,7 @@ items:
         - name: Common terms and definitions
           href: business-processes/glossary.md
         - name: Find training
-          href: /dynamics365/get-started/training/index.md?toc=/dynamics365/guidance/toc.json
+          href: /dynamics365/get-started/training/index?toc=/dynamics365/guidance/toc.json
         - name: Find certifications
           href: roles/certifications.md
         - name: Find TechTalk videos
@@ -25,7 +25,7 @@ items:
         - name: Solution architect
           href: roles/solution-architect.md
         - name: Developer
-          href: /dynamics365/get-started/developers.md?toc=/dynamics365/guidance/toc.json
+          href: /dynamics365/get-started/developers?toc=/dynamics365/guidance/toc.json
 # Implementation guide
       - name: Implementation guide
         items:
@@ -751,22 +751,28 @@ items:
             href: business-processes/project-to-profit-overview.md  
           - name: Business process areas
             href: business-processes/project-to-profit-areas.md
-          - name: Manage project opportunities
-            href: business-processes/project-to-profit-manage-project-opportunities-overview.md
-          - name: Manage project scope and schedule
+          - name: Govern projects
+            href: business-processes/project-to-profit-govern-projects-overview.md
+          # - name: Manage project opportunities
+          #   href: business-processes/project-to-profit-manage-project-opportunities-overview.md
+          - name: Manage project resources and schedule
             href: business-processes/project-to-profit-manage-project-scope-schedule-overview.md
-          - name: Resource projects
-            href: business-processes/project-to-profit-resource-projects.md
-          - name: Deliver project work
+          # - name: Resource projects
+          #   href: business-processes/project-to-profit-resource-projects.md
+          - name: Manage project delivery
             href: business-processes/project-to-profit-deliver-project-work.md
-          - name: Manage project supply chain
-            href: business-processes/project-to-profit-manage-project-supply-chain-overview.md
-          - name: Capture project expenses
-            href: business-processes/project-to-profit-capture-project-expenses-overview.md
-          - name: Process project invoices
-            href: business-processes/project-to-profit-process-project-invoices-overview.md
-          - name: Recognize project revenue
-            href: business-processes/project-to-profit-recognize-project-revenue.md
+          - name: Manage project financials
+            href: business-processes/project-to-profit-manage-project-financials-overview.md
+          - name: Monitor and analyze project performance
+            href: business-processes/project-to-profit-monitor-analyze-project-performance-overview.md
+          # - name: Manage project supply chain
+          #   href: business-processes/project-to-profit-manage-project-supply-chain-overview.md
+          # - name: Capture project expenses
+          #   href: business-processes/project-to-profit-capture-project-expenses-overview.md
+          # - name: Process project invoices
+          #   href: business-processes/project-to-profit-process-project-invoices-overview.md
+          # - name: Recognize project revenue
+          #   href: business-processes/project-to-profit-recognize-project-revenue.md
         - name: Prospect to quote
           items: 
           - name: End-to-end scenario - prospect to quote
@@ -775,6 +781,8 @@ items:
             href: business-processes/prospect-to-quote-overview.md  
           - name: Business process areas
             href: business-processes/prospect-to-quote-areas.md
+          - name: Manage project opportunities
+            href: business-processes/prospect-to-quote-manage-project-opportunities-overview.md
           - name: Define a sales strategy
             href: business-processes/prospect-to-quote-define-sales-strategy-overview.md
         - name: Record to report
@@ -852,7 +860,7 @@ items:
       - name: Product documentation
         items:
         - name: Dynamics 365 documentation hub
-          href: /dynamics365/index.yml
+          href: /dynamics365/index
         - name: Dynamics 365 Business Central
           href: /dynamics365/business-central
         - name: Dynamics 365 Commerce

@@ -35,7 +35,9 @@ Many people in an organization should contribute to the decision-making process 
 
 ## Track production costs process flow
 
-The following diagram shows the high-level flow of the *track production costs* business process area. Each solid rectangle on the diagram represents an end-to-end business process area. The subprocesses shown in the diagram are shown for the *track production costs* business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+The following diagram shows the high-level flow of the *track production costs* business process area.  
+
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-track-production-cost-flow.svg" alt-text="Flow diagram for the business process are, track production costs, which is explained in the paragraph after the image." lightbox="media/plan-to-produce-track-production-cost-flow.svg":::
 

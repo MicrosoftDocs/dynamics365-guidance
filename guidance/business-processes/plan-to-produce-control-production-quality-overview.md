@@ -39,6 +39,8 @@ The following diagram illustrates the *control production quality* business proc
 
 :::image type="content" source="media/plan-to-produce-control-production-quality-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/plan-to-produce-control-production-quality-flow.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
 1. Start
 
     1. A parallel branch from 1. Start includes the *Plan to produce* end-to-end process.

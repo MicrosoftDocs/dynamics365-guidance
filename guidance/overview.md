@@ -80,7 +80,7 @@ Microsoft FastTrack for Dynamics 365, our customer success service designed to h
 
 ## Product documentation
 
-Where ever you are in the guidance content, the navigation panel shows links to the core docs for each Dynamics 365 app or service. You can also find these links on the [Dynamic 365 documentation hub page](/dynamics365/index.yml).  
+Where ever you are in the guidance content, the navigation panel shows links to the core docs for each Dynamics 365 app or service. You can also find these links on the [Dynamic 365 documentation hub page](/dynamics365/index).  
 
 ## Get notified about changes through an RSS feed
 
@@ -91,4 +91,4 @@ Where ever you are in the guidance content, the navigation panel shows links to 
 [Overview of roles in Dynamics 365](roles/overview.md)  
 [Available certifications for different roles in Dynamics 365](roles/certifications.md)  
 [Dynamics 365 guidance documentation](index.yml)  
-[Microsoft Dynamics 365 documentation](/dynamics365/index.yml)  
+[Microsoft Dynamics 365 documentation](/dynamics365/index)  

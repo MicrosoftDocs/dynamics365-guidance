@@ -62,6 +62,10 @@ The following diagram illustrates the *categorize products and services* busines
 
 :::image type="content" source="media/product-service-lifecycle-categorize-flow.svg" alt-text="Categorize  products and services process flow that is explained in the next paragraphs" lightbox="media/product-service-lifecycle-categorize-flow.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
+The flow diagram covers the following steps.
+
 1. Start
 
 2. *Product and service lifecycle management* end-to-end process

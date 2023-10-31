@@ -25,7 +25,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url:  /dynamics365/get-started/whats-new/index.md?toc=/dynamics 365/guidance/toc.json
+      url:  /dynamics365/get-started/whats-new/index?toc=/dynamics 365/guidance/toc.json
     # Card
     - title: Success by design
       itemType: concept
@@ -33,7 +33,7 @@ highlightedContent:
     # Card
     - title: Adoption
       itemType: get-started
-      url: /dynamics365/adoption/adoption-resources.md?toc=/dynamics 365/guidance/toc.json
+      url: /dynamics365/adoption/adoption-resources?toc=/dynamics 365/guidance/toc.json
 
 # productDirectory section (optional)
 productDirectory:
@@ -534,7 +534,7 @@ additionalContent:
       # Card
       - title: Dynamics 365 documentation
         summary: Hub page with links to documentation and training for each app
-        url: /dynamics365/index.yml
+        url: /dynamics365/index
       # Card
       - title: Power Platform documentation
         summary: Analyze data, build solutions, automate processes, and create virtual agents

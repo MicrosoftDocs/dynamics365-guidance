@@ -4,7 +4,7 @@ description: Learn how to conduct project reviews in Dynamics 365 Implementation
 ms.date: 07/05/2023
 ms.topic: conceptual
 author: edupont04
-ms.author: olpetrov
+ms.author: edupont
 ms.reviewer: edupont
 ms.custom: bap-template
 ---
@@ -49,4 +49,4 @@ The **Messages** tab is located in two places:
 [Introduction to Dynamics 365 Implementation Guide](../implementation-guide/introduction.md)  
 [Introduction to Success by Design](../implementation-guide/success-by-design.md)  
 [Success By Design training](/training/paths/use-success-design/)
-[Dynamics 365 documentation](/dynamics365/index.yml)  
+[Dynamics 365 documentation](/dynamics365/index)  

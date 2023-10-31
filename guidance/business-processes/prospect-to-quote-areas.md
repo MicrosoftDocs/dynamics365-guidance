@@ -28,13 +28,28 @@ Use marketing campaigns to attract potential customers. Dynamics 365 Sales can i
 
 Find potential customers and assess their value. Dynamics 365 Sales provides tools for managing and qualifying leads, such as lead scoring and automated workflows, ensuring that your sales team focuses on the most valuable prospects. <!-- TODO: Add link  Learn more at  Business process area name link\].-->
 
+## Manage project opportunities
+
+This business process area involves identifying, sizing, and evaluating potential project opportunities. It also covers determining which projects to pursue, based on their alignment with organizational goals and objectives. Also included are conducting feasibility studies, assessing project risks, and developing business cases to justify project investments.  
+
+Learn more at [Manage project opportunities overview](prospect-to-quote-manage-project-opportunities-overview.md).
+
 ## Pursue opportunities
 
 Engage with prospects and create tailored solutions. Dynamics 365 Sales allows you to manage opportunities, track communications, and collaborate with your team on developing customized solutions to address prospect needs. <!-- TODO: Add link  Learn more at  Business process area name link\].-->
 
 ## Estimate and quote sales
 
-Create and present quotes or proposals. Dynamics 365 Sales has built-in tools for creating and managing quotes, making it easier to generate accurate and professional-looking proposals for prospects. <!-- TODO: Add link  Learn more at  Business process area name link\].-->
+This business process area involves creating and submitting project quotations to customers or clients. It covers tasks such as the following list:
+
+- Defining the scope of work  
+- Estimating project costs  
+- Analyzing quote profitability  
+- Creating a proposal that outlines the project deliverables, timeframe, and commercial terms  
+
+The business process area also includes iteratively revising the proposal until it's finally accepted or rejected.
+
+Dynamics 365 Sales has built-in tools for creating and managing quotes, making it easier to generate accurate and professional-looking proposals for prospects. <!-- TODO: Add link  Learn more at  Business process area name link\].-->
 
 ## Manage customer relationships
 

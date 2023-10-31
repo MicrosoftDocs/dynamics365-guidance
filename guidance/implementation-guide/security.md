@@ -251,7 +251,7 @@ Equipped with this information, you can be confident in the security considerati
 
 - [Encryption in the Microsoft Cloud](https://aka.ms/MCSCE)
 
-- [Get started with security for Dynamics 365 solutions](/dynamics365/get-started/security.md)  
+- [Get started with security for Dynamics 365 solutions](/dynamics365/get-started/security)  
 
 - [Security in Dataverse](/power-platform/admin/wp-security)
 
