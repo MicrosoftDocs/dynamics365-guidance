@@ -23,7 +23,7 @@ Apps and automation are becoming increasingly connected across multiple data sou
 Microsoft recommends that you create [data loss prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) to act as guardrails to help prevent users from unintentionally exposing organizational data. You can scope DLP policies at the environment level or tenant level, which provides the flexibility to craft sensible policies with the right balance between protection and productivity. For tenant-level policies, you can define the scope to be all environments, selected environments, or all environments except those you specifically exclude. You can define environment-level policies one environment at a time.
 
 > [!TIP]
-> You can manage users and licenses in both [finance and operations](/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users) apps and [customer engagement](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true) apps. You can also use [Azure Active Directory (Azure AD) groups](/power-platform/admin/manage-group-teams) to simplify user management and provision and deprovision users.
+> You can manage users and licenses in both [finance and operations](/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users) apps and [customer engagement](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true) apps. You can also use [Microsoft Entra groups](/power-platform/admin/manage-group-teams) to simplify user management and provision and deprovision users.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 

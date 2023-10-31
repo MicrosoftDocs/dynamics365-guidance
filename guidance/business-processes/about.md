@@ -19,7 +19,7 @@ Microsoft has established a business process catalog of standard business proces
 
 The business process catalog is an Excel workbook that we at Microsoft use to organize and prioritize our work on the business process documentation. The format is Excel because it makes it easy to sort and filter the entries. We also believe our partners can use the Excel workbook to organize their onboarding journeys, their implementation projects, and their own business processes. Learn more about the content in the [What's in the catalog?](#whats-in-the-catalog) section.  
 
-Download the latest version of the catalog from [https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog). We update the catalog at least four times each year. <!--You don't need a GitHub account to download the catalog.-->Learn more at [Business process contributions](/dynamics365/get-started/contribute.md#business-process-contributions).  
+Download the latest version of the catalog from [https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog). We update the catalog at least four times each year. <!--You don't need a GitHub account to download the catalog.-->Learn more at [Business process contributions](/dynamics365/get-started/contribute#business-process-contributions).  
 
 ## What's in the catalog?
 

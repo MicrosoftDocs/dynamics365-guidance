@@ -1,7 +1,7 @@
 ﻿---
 title: Define a sales strategy overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to define a sales strategy.
-ms.date: 09/05/2023
+ms.date: 10/23/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
@@ -9,7 +9,7 @@ ms.author: kowildfe
 
 # Define a sales strategy overview
 
-***Applies to: Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service***
+***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Insights (Journeys), Dynamics 365 Customer Service***
 
 This article describes how to define an effective sales strategy using Dynamics 365 products. A well-defined strategy aligns sales activities with business growth objectives.
 
@@ -33,20 +33,23 @@ The following diagram illustrates the *define a sales strategy* business process
 
 :::image type="content" source="media/prospect-to-quote-define-sales-strategy-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-define-sales-strategy-flow.svg":::
 
-The diagram shows the key steps in *defining a sales strategy*:
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
-1. Set sales targets
+The flow diagram shows the following key steps:
 
-2. Determine sales organization structure
+1. Define sales channels
 
-3. Establish incentive compensation
+2. Define sales teams
 
-4. Define sales channels
+  Parallel subprocesses:
 
-5. Design sales territories
+  1. Establish incentive compensation
 
-6. Assign account responsibility
+  2. Define sales channels
 
+3. Determine salesperson or sales taker for orders
+4. Determine sales targets
+5. Establish sales commision and incentive structures  
 
 ## Define a sales strategy benefits
 
@@ -64,31 +67,14 @@ In summary, a carefully defined sales strategy sets the foundation for sales exc
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your business processes to define a sales strategy, you can use the following resources and steps to learn more. 
+If you want to implement Dynamics 365 solutions to assist with your business processes to define a sales strategy, you can use the following resources and steps to learn more. Links are added when articles become available.
 
-Dynamics 365 Sales
-
-- [Product overview](https://dynamics.microsoft.com/en-us/sales/overview/)  
-
-- [Documentation](/dynamics365/sales/)  
-
-- [Get a trial](https://dynamics.microsoft.com/en-us/sales/)  
-
-Dynamics 365 Customer Service
-
-- [Product overview](https://dynamics.microsoft.com/en-us/customer-service/)  
-
-- [Documentation](/dynamics365/customer-service/)  
-
-- [Get a trial](https://dynamics.microsoft.com/en-us/customer-service/)  
-
-Dynamics 365 Marketing
-
-- [Product overview](https://dynamics.microsoft.com/en-us/marketing/)  
-
-- [Documentation](/dynamics365/marketing/)  
-
-- [Get a trial](https://dynamics.microsoft.com/en-us/marketing/)  
+1. *Define sales strategies*  (the article you're currently reading)   
+2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)  
+3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)  
+4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)  
+5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)  
+6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)  
 
 ## Related resources
 
@@ -103,12 +89,11 @@ You can use the following resources to learn more about the *define a sales stra
   - [Sales targets](glossary.md#sales-targets)  
   - [Sales territories](glossary.md#sales-territories)  
 
-- [Overview of Dynamics 365 Sales](https://dynamics.microsoft.com/en-us/sales/overview/)  
-
+- [Product overview of Dynamics 365 Sales](https://dynamics.microsoft.com/sales/overview/)  
+- [Product overview of Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/)  
+- [Product overview of Dynamics 365 Customer Insights (Journeys)](https://dynamics.microsoft.com/marketing/)  
 - [Understand the sales process with Dynamics 365 Sales](/dynamics365/sales/nurture-sales-from-lead-order-sales)  
-
 - [Digital selling capabilities in Sales Enterprise](/dynamics365/sales/digital-selling)  
-
 <!--link is broken [Increase sales productivity with Dynamics 365 Sales](/dynamics365/sales-enterprise/increase-sales-productivity)  -->
 - [Learn the basics of Dynamics 365 Sales](/dynamics365/sales/user-guide-learn-basics)  
 
@@ -118,8 +103,6 @@ You can use the following resources to learn more about the *define a sales stra
 
 ## Contributors
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.* 
+This article was authored by:
 
-Principal author: 
-
-- Kody Wildfeuer, FastTrack Solution Architect   
+- [Kody Wildfeuer]( https://www.linkedin.com/in/kody-wildfeuer/)  \| FastTrack Solution Architect

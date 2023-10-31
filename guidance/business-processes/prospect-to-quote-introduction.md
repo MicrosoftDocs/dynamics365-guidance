@@ -1,7 +1,7 @@
 ﻿---
 title: Prospect to quote introduction
 description: Get an introduction to the prospect to quote end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their prospect to quote processes.
-ms.date: 04/11/2023
+ms.date: 10/24/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
@@ -41,12 +41,12 @@ The *prospect to quote* business process flow is a sales process that starts wit
 6. Manage customer relationships  
 
     While customer relationship management is an ongoing activity throughout the sales cycle, it plays a role in the prospect-to-quote process, particularly in the follow-up, negotiation, and quote revision stages.
-
+<!-- Removed
 7. Analyze service operations  
 
-    This sub-process is more relevant to the broader sales and service delivery process, but insights gained from analyzing service operations can inform the solution development and proposal creation stages in the prospect-to-quote process.
+    This sub-process is more relevant to the broader sales and service delivery process, but insights gained from analyzing service operations can inform the solution development and proposal creation stages in the prospect-to-quote process. -->
 
-Every organization has variations to the prospect to quote. Here, we define the basic outline for any organization looking to implement a technology solution to support the prospect to quote.
+Every organization has variations to the *prospect to quote* end-to-end scenario. Here, we define the basic outline for any organization looking to implement a technology solution to support the *prospect to quote* business process.
 
 ## Impact on the organization
 

@@ -5,8 +5,8 @@ author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: conceptual #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 04/13/2023
+ms.collection: get-started #Required; don't change.
+ms.date: 10/27/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -22,11 +22,11 @@ The next sections further explain the columns and define the abbreviations that 
 
 ## Process step
 
-Each business process includes several steps. The first column in the table describes the *process step*. The name of the step is often the name of the form or action that needs to be taken. Choose the hyperlink in each row to navigate to the related product documentation. If the row doesn't have a hyperlink, it's probably because the capability isn't documented. If you find documentation for a step or want to contribute documentation to a step, we invite you to contribute. Learn more at [Contribute to Dynamics 365 Documentation](/dynamics365/get-started/contribute.md).  
+Each business process includes several steps. The first column in the table describes the *process step*. The name of the step is often the name of the form or action that needs to be taken. Choose the hyperlink in each row to navigate to the related product documentation. If the row doesn't have a hyperlink, it's probably because the capability isn't documented. If you find documentation for a step or want to contribute documentation to a step, we invite you to contribute. Learn more at [Contribute to Dynamics 365 Documentation](/dynamics365/get-started/contribute).  
 
 ## Process stage terminology
 
-For each process step, the table includes a column, **Process stage**. It describes *when* to complete that step in a Microsoft Business Applications implementation project. The column includes three values that are separated by semicolons as outlined in the following list:  
+For each process step, the table includes a column, **Process stage**. It describes *when* to complete that step in an implementation project with Dynamics 365 apps. The column includes three values that are separated by semicolons as outlined in the following list:  
 
 - [Project phase](#project-phase)
 - [Configuration stage name](#configuration-stage-names)  
@@ -133,7 +133,7 @@ The third value in the **Process stage** column is the *process type*. This valu
 
 - **Operational**  
 
-  Indicates the configuration or step is operational, meaning that it's part of daily, weekly, monthly, or annual business processes. The configuration or step shouldn't be conducted in a Gold environment prior to the go live. Examples include periodic batch processes, recording of transactions, posting transactions, and so on. For more information about planning environments for your implementation, see [Environment planning](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+  Indicates the configuration or step is operational, meaning that it's part of daily, weekly, monthly, or annual business processes. The configuration or step shouldn't be conducted in a Gold environment prior to the go live. Examples include periodic batch processes, recording of transactions, posting transactions, and so on. For more information about planning environments for your implementation, see [Environment planning (finance and operations apps)](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
 ## Process modifiers
 
@@ -145,7 +145,7 @@ Each process step that is described in a business process can have one or more m
 
 - **Gold**  
 
-  Indicates the configuration or step is recommended to be part of the Gold configuration. If the configuration or step is part of a subsequent phase, the step is likely part of the cutover strategy for configuration to be moved in during the go live of the subsequent phase.
+  Indicates the configuration or step is recommended to be part of the Gold configuration. The tag *Gold* is often used to describe the environment that will become the production environment at go-live, especially in projects with finance and operations apps. If the configuration or step is part of a subsequent phase, the step is likely part of the cutover strategy for configuration to be moved in during the go live of the subsequent phase.
 
 - **Continuous**  
 
@@ -175,29 +175,17 @@ Currently, business users access Dynamics 365 in the browser in different layout
 The following list shows the abbreviations that are used for each Dynamics 365 app or service and their related user interfaces.
 
 - COM = Dynamics 365 Commerce
-
 - CSB = Commerce site builder
-
 - POS = Commerce Point of Sale
-
 - CSH = Customer Service hub
-
 - FSH = Field Service hub
-
 - FIN = Dynamics 365 Finance
-
 - HR = Dynamics 365 Human Resources
-
 - PMA = Dynamics 365 Project Operations
-
 - POH = Project Operations hub
-
 - SAL = Sales hub
-
 - MKT = Dynamics 365 Marketing
-
 - SCM = Dynamics 365 Supply Chain Management
-
 - WMS = Warehouse Management System mobile device
 
 ### Administration and developer experiences abbreviations
@@ -205,17 +193,11 @@ The following list shows the abbreviations that are used for each Dynamics 365 a
 The following list shows the abbreviations for applications that are used for administrative and developer experiences to support Dynamics 365 applications.
 
 - PPAC = Power Platform Admin Center
-
 - LCS = Lifecycle services
-
 - VS = Visual Studio
-
 - ADO = Azure DevOps
-
 - AP = Azure portal
-
 - MP = Maker portal (Power Apps, Power Automate, Power Virtual Agents, AI Builder)
-
 - PP = Power Pages maker portal
 
 ### Entity

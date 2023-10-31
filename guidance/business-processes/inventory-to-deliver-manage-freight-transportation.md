@@ -31,7 +31,9 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Manage freight and transportation process flow 
 
-The following diagram shows the high-level flow of the *Manage freight and transportation* business process area. Each solid rectangle on the diagram represents an end-to-end business process (grey) or supporting business process area (blue). The subprocesses shown in the diagram are shown for the *Manage freight and transportation* business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+The following diagram shows the high-level flow of the *Manage freight and transportation* business process area.  
+
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/inventory-to-deliver-manage-freight-transport-flow.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-manage-freight-transport-flow.svg":::
 

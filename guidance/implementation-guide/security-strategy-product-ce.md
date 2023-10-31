@@ -66,7 +66,7 @@ This change will address some of the following limitations in the current model.
 
 - User-owned records follow the user to the new business unit when a user moves from one business unit to another business unit.​
 
-- When an Azure Active Directory (Azure AD) group team is used to manage user access, it can't be used across different busines units.
+- When a Microsoft Entra group team is used to manage user access, it can't be used across different busines units.
 
 - Existing business unit is focused on hierarchical organization structure that makes matrix organization data access structure challenging to implement. ​
 
@@ -95,7 +95,7 @@ Here are some best practices to work with privileged accounts and service accoun
 
 - Consider administrative user to grant access to settings and administration features but not to functionality
 
-- Learn more on [Privileged Identity Management in Azure AD](/azure/active-directory/privileged-identity-management) and [Administrative User in the Power Platform](/power-platform/admin/prevent-elevation-security-role-privilege)
+- Learn more on [Privileged Identity Management](/entra/id-governance/privileged-identity-management) and [Administrative User in the Power Platform](/power-platform/admin/prevent-elevation-security-role-privilege)
 
   [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -115,9 +115,9 @@ Multiple types of teams available are in Dataverse:
 
   You can make an owner team the owner of a record, which is a useful way to link a record to a specific business unit. Owner teams can also share records and be assigned to security roles.
 
-- Azure AD security group teams and Azure AD office group teams  
+- Microsoft Entra security group teams and office group teams  
 
-  These are special types of owner teams. Their membership can't be managed within Dynamics 365, instead they're linked to an Azure AD security group or [Microsoft 365 groups](/microsoft-365/admin/create-groups/compare-groups). If the users are appropriately licensed and part of the environment security group (optional), users who are added to the Azure AD group are automatically enabled in the system and added to the team when they connect to the environment. Using Azure AD is useful because the groups and permissions also extend to Azure AD-enabled apps outside of Dynamics 365.
+  These are special types of owner teams. Their membership can't be managed within Dynamics 365, instead they're linked to a Microsoft Entra security group or [Microsoft 365 groups](/microsoft-365/admin/create-groups/compare-groups). If the users are appropriately licensed and part of the environment security group (optional), users who are added to the Microsoft Entra group are automatically enabled in the system and added to the team when they connect to the environment. Using Microsoft Entra ID is useful because the groups and permissions also extend to Microsoft Entra-enabled apps outside of Dynamics 365.
 
   [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -167,10 +167,10 @@ You can use a [hierarchy security](/power-platform/admin/hierarchy-security) mod
 
 ## Environment security group
 
-You can [associate an Azure AD security group with a Dataverse environment to control user access](/power-platform/admin/control-user-access). Unless users have specific, highly privileged Microsoft 365 admin roles, a user in Azure AD can't access any information in Dynamics 365 even with a valid authentication and security role assigned unless they're also a member of the correct environment security group in Dynamics 365.
+You can [associate a Microsoft Entra security group with a Dataverse environment to control user access](/power-platform/admin/control-user-access). Unless users have specific, highly privileged Microsoft 365 admin roles, a user in Microsoft Entra ID can't access any information in Dynamics 365 even with a valid authentication and security role assigned unless they're also a member of the correct environment security group in Dynamics 365.
 
 > [!TIP]
-> It's a best practice to associate a security group with an environment. This prevents all the Azure AD-eligible (appropriately licensed) users from appearing as active users in the Dynamics 365 environment.
+> It's a best practice to associate a security group with an environment. This prevents all the Microsoft Entra-eligible (appropriately licensed) users from appearing as active users in the Dynamics 365 environment.
 
 ## Audit
 

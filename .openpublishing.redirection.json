@@ -1,0 +1,39 @@
+{
+  "redirections": [
+    {
+      "source_path": "dynamics365/guidance/business-processes/project-to-profit-process-project-invoices-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/project-to-profit-manage-project-supply-chain-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/prospect-to-quote-manage-project-opportunities-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/project-to-profit-process-project-invoices-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/project-to-profit-resource-projects.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/project-to-profit-capture-project-expenses-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/project-to-profit-resource-projects.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
+      "redirect_document_id": "false"
+    }
+  ]
+}

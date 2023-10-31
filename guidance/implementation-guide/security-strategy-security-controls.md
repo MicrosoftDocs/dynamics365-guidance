@@ -70,7 +70,7 @@ Your data in transit is protected in several ways. Dynamics 365 uses HTTPS encry
 
 ## Secure identity
 
-Identity and access management are critical to every organization. Azure Active Directory (Azure AD) is a complete identity and access management solution with integrated security that connects more than 425 million people to their apps, devices, and data each month. Dynamics 365 applications are safeguarded using Azure AD as a seamless identity solution.
+Identity and access management are critical to every organization. Microsoft Entra is a complete identity and access management solution with integrated security that connects more than 425 million people to their apps, devices, and data each month. Dynamics 365 applications are safeguarded using Microsoft Entra ID as a seamless identity solution.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -80,12 +80,12 @@ Learn more about [Azure security features that help with identity management](/a
 
 Authentication is the process of proving an identity. The Microsoft identity platform uses the OpenID Connect protocol for handling authentication. By default, only authenticated users can access Dynamics 365.
 
-Solutions that are implemented on Azure use Azure AD as a centralized identity provider. Dynamics 365 applications are associated with a specific instance of Azure AD, a *tenant*. To access Dynamics 365 applications, users must have an Azure AD account in the associated tenant and be provisioned into a Dynamics 365 environment with a valid license. In scenarios where an organization spans multiple Azure AD tenants, external users must be represented in the associated tenant. Those external users should be added to the tenant in Azure AD as guest users and then assigned the appropriate licenses.  
+Solutions that are implemented on Azure use Microsoft Entra as a centralized identity provider. Dynamics 365 applications are associated with a specific instance of Microsoft Entra, a *tenant*. To access Dynamics 365 applications, users must have an Microsoft Entra ID account in the associated tenant and be provisioned into a Dynamics 365 environment with a valid license. In scenarios where an organization spans multiple Microsoft Entra tenants, external users must be represented in the associated tenant. Those external users should be added to the tenant as guest users, and then assigned the appropriate licenses.  
 
 > [!NOTE]
 > Power Pages are accessible to external users either anonymously or as external users logged in to the portal through additional common identity provider options. Learn more at [What is Power Pages?](/power-pages/introduction).  
 
-Azure AD is built to work for apps in the cloud, on mobile, or on-premises, and delegating authentication and authorization to enable scenarios such as the following:
+Microsoft Entra is built to work for apps in the cloud, on mobile, or on-premises, and delegating authentication and authorization to enable scenarios such as the following:
 
 - Conditional access policies that require a user to be in a specific location
 
@@ -93,19 +93,19 @@ Azure AD is built to work for apps in the cloud, on mobile, or on-premises, and 
 
 - Single sign-on (SSO), in which a user can sign in once and then be automatically signed into all the web apps that share the same centralized directory
 
-Azure AD provides [fully secured identity federation with Active Directory on-premises](/azure/architecture/reference-architectures/identity/azure-ad). Federation with Azure AD or Microsoft 365 enables users to authenticate using on-premises credentials and access all resources in the cloud.  
+Azure provides [fully secured identity federation with Active Directory on-premises](/azure/architecture/reference-architectures/identity/azure-ad). Federation with Microsoft Entra or Microsoft 365 enables users to authenticate using on-premises credentials and access all resources in the cloud.  
 
-:::image type="content" source="media/authentication-for-online-services.png" alt-text="Azure Active Directory is built to provide authentication and authorization for PCs and devices, apps such as Microsoft 365 and Dynamics 365, other directory services, and multi-factor authentication.":::
+:::image type="content" source="media/authentication-for-online-services.png" alt-text="Microsoft Entra is built to provide authentication and authorization for PCs and devices, apps such as Microsoft 365 and Dynamics 365, other directory services, and multi-factor authentication.":::
 
 ### Authentication: Conditional access
 
-Users can access cloud applications from anywhere and from any device such as mobile phones, tablets, or laptops from the office or home. As a result, there are many scenarios in which access control decisions shouldn't be made based solely on who can access a resource—you also need to consider how a resource is accessed. With Azure AD conditional access, you can address this requirement.
+Users can access cloud applications from anywhere and from any device such as mobile phones, tablets, or laptops from the office or home. As a result, there are many scenarios in which access control decisions shouldn't be made based solely on who can access a resource—you also need to consider how a resource is accessed. With Microsoft Entra External Identities, you can address this requirement.
 
 With conditional access, you can implement automated access control decisions for accessing your cloud apps that are based on conditions.
 
 :::image type="content" source="media/conditional-access.png" alt-text="Conditional access automates decisions for allowing or blocking access to your apps based on conditions.":::
 
-Learn more about [Conditional Access in Azure Active Directory \| Microsoft Security](https://www.microsoft.com/security/business/identity-access/azure-active-directory-conditional-access)
+Learn more at [Overview of Microsoft Entra External ID](/entra/external-id/external-identities-overview).  
 
 ### Authorization
 

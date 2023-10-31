@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 10/26/2023
+ms.date: 10/31/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
@@ -156,6 +156,10 @@ Billing rules were used in [Dynamics AX](/dynamicsax-2012/appuser-itpro/create-b
 
 [Billing schedules](/dynamics365/finance/accounts-receivable/sb-billing-schedules) are rules that define how and when customers can be invoiced for work on a project. They're based on the terms that are specified in the project contract.
 
+### Budget forecast
+
+A budget forecast is the expected expenditure or revenue per budget line during the period that is defined on the budget line. The forecast equals the budgeted value when the budget is approved. If actual costs are more than the forecasted cost for a budget line, the forecast cost will be made equal to the actual cost.
+
 ## C
 
 ### Capital asset budget
@@ -165,6 +169,14 @@ Typically, you define [fixed assets](#fixed-asset) as capital assets when you ho
 ### Capital assets
 
 The capital asset budget helps an organization to plan the purchase of assets it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
+
+### Campaign analytics
+
+The process of evaluating data and metrics for a marketing campaign to derive performance insights and optimization opportunities.
+
+### Campaign budget
+
+The defined marketing expenditure allocated to a specific marketing campaign.  
 
 ### Cashflow statement
 
@@ -193,6 +205,10 @@ A category hierarchy refers to a way of organizing and structuring products or i
 ### Centralized resource allocation
 
 For organizations that centralize the allocation for resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, while the fulfillment of the resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
+
+### Churn
+
+When a customer ends a relationship or stops engaging with a company. CRM helps prevent churn.
 
 ### Close the deal
 
@@ -227,6 +243,10 @@ Dynamics 365 Finance offers a couple of ways to allocate collections tasks:
 
 Material consumption refers to the use of items in a project. You can register the consumption of items in several ways. You can sell or purchase items from a project, or reserve items for a project. You can order items from the company's inventory for consumption on a project or purchase items from an external vendor. Item consumption is recorded as a posting that registers that the item was used in the project.
 
+### Correcting entry
+
+A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.  
+
 ### Cost
 
 In business and accounting, cost refers to the monetary value of resources that are consumed or sacrificed to achieve a particular objective or goal. It's the amount of money that a business spends on producing a product or providing a service. [Defining product and service costs](/dynamics365/guidance/business-processes/product-service-define-cost-overview) is essential for any organization that wants to understand and manage its finances effectively.
@@ -252,6 +272,10 @@ Dynamics 365 Finance, Supply Chain Management, and Business Central all include 
 - [Cost accounting in Finance](/dynamics365/finance/cost-accounting/cost-accounting-home-page)
 - [Cost accounting in Supply Chain Management](/dynamics365/finance/cost-accounting/cost-accounting-home-page)
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)
+
+### Cost budget
+
+A cost budget represents a point-in-time snapshot of the estimated cost for the project. All actual costs that are incurred on the project, among time, materials, and expenses are compared against the cost budget to track the costs on the project.
 
 ### Costing methodology
 
@@ -303,6 +327,22 @@ A credit note is a document that reduces the amount that a customer owes to a se
 
 A [customer credit group](/dynamics365/finance/accounts-receivable/cm-customer-credit-groups) is a group of customers that have a shared credit limit. The individual credit limit on a customer invoice account is also considered. You can select members of a customer credit group from different legal entities. When you decide how to structure your customer accounts, consider how credit limits are managed. For example, a customer account can have only one credit limit. If a customer account has many delivery addresses that each require a different credit limit, consider whether they should be separate customer accounts. Then you can use a customer credit group to create an overall credit limit across the customer's accounts.
 
+### Customer journey
+
+The end-to-end experiences and touchpoints a customer has with a brand. CRM optimizes journeys.
+
+### Customer lifetime value (CLV)
+
+The total revenue generated from a customer over the entire relationship timeline. Maximizing CLV is key.
+
+### Customer Relationship Management (CRM)
+
+Strategies and processes for managing customer interactions and data across the customer lifecycle to maximize loyalty and growth.
+
+### Customer satisfaction (CSAT)
+
+Metrics that measure a customer's happiness with a company's products, services and interactions.  
+
 ## D
 
 ### Date effectivity
@@ -347,6 +387,10 @@ Fixed asset depreciation methods and conventions are handled slightly differentl
 
 Direct expenses are those that are directly tied to the project itself such as specialized software, travel and meal expenses, mileage, and per-diem. 
 
+### Discounts
+
+Percentage or dollar reductions in the quoted price. Discounts can be applied to incentivize customers.
+
 ### Dock management
 
 Dock management is the process of assigning loads to dock doors in a warehouse. In Dynamics 365 Supply Chain Management, you manage docks with the [driver check-in/check-out](/dynamics365/supply-chain/transportation/tasks/register-driver-check-check-out-appointment) functions.
@@ -387,7 +431,9 @@ In accounting, a fixed asset is any long-term asset whose cost expiration is rec
 
 ### Fixed-price projects
 
-[Projects can be invoiced](project-to-profit-process-project-invoices-overview.md) on either a fixed-price or a [time-and-material](#time-and-material-projects) basis. With a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+Projects can be invoiced on either a fixed-price or a [time-and-material](#time-and-material-projects) basis. With a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+
+Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
 
 ### Forecast
 
@@ -546,7 +592,7 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 ### Lead
 
-A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet.
+A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).  
 
 ### Lead and opportunity management
 
@@ -557,6 +603,22 @@ Tracking and managing potential customers and sales opportunities throughout the
 - **Lead qualification** is the process of determining whether a lead has the potential to become a customer, based on such factors as level of interest, budget, and purchasing authority.
 
 - **Opportunity management** is the practice of guiding and nurturing qualified leads through the sales process, with the goal of converting them to customers by addressing their needs, concerns, and objections.
+
+### Lead conversion
+
+The act of transitioning a qualified lead into a sales pipeline opportunity.  
+
+### Lead enrichment
+
+The process of augmenting lead records with additional data from various sources.
+
+### Lead nurturing
+
+Ongoing communication with leads to develop awareness and interest over time.
+
+### Lead score  
+
+A numeric rating assigned to a lead to indicate sales-readiness based on engagement, profile fit, and so on.
 
 ### Lease contracts
 
@@ -638,6 +700,14 @@ A manufacturing execution system (MES) is software that supports the management 
 
 In Dynamics 365 Supply Chain Management, it's the [**Production floor execution**](/dynamics365/supply-chain/production-control/production-floor-execution-use) module, which has a touch-friendly interface you can use to start production, record progress, consume materials, request maintenance, and perform other production tasks. Dynamics 365 also has a framework for [integrating a third-party MES](/dynamics365/supply-chain/production-control/mes-integration) with the **Production** module.
 
+### Margins
+
+The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.  
+
+### Marketing campaign
+
+A strategic marketing effort across one or more channels over a period of time to promote a product, service, or brand. A *multi-channel campaign* leverages multiple channels such as email, social media, and events, to reach prospects. 
+
 ### Merchandising
 
 In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.  
@@ -666,7 +736,7 @@ The hours worked on tasks that are not directly chargeable to clients. These hou
 
 ### Opportunity
 
-An opportunity is a [lead](#lead) that's been [qualified](#lead-and-opportunity-management), or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services they're interested in, the potential revenue, and the estimated closing date.
+An opportunity is a [lead](#lead) that's been [qualified](#lead-and-opportunity-management), or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services they're interested in, the potential revenue, and the estimated closing date. Opportunities can be *scored* based on their potential, and they can be *nurtured* with ongoing communication to develop the opportunities.
 
 ### Overhead costs
 
@@ -711,6 +781,10 @@ In Dynamics 365, a product is an item or service that a business offers for sale
 - A **released product** is a product that's released for sale or production in a specific legal entity. It's created by copying the product master record and making any necessary modifications, such as changing the pricing or other attributes. Released products are used to manage product versions and track changes over time, and are linked to specific sales orders, purchase orders, and production runs.
 
 You can add products to a [product catalog](/dynamics365/sales/set-up-product-catalog-walkthrough) in Dynamics 365 Sales and [register products as inventory items](/dynamics365/business-central/inventory-how-register-new-items) in Dynamics 365 Business Central.
+
+### Product and price lists
+
+Catalogs of available products/services with assigned prices. Used to add items to quotes.  
 
 ### Product category
 
@@ -822,11 +896,19 @@ A production strategy, a subset of operational strategies, refers to the approac
 
 - In an **engineer to order** strategy, the general scope of the product is defined, but the design is only finalized at the time the customer places an order. This approach is common in industries that require very custom solutions, such as construction and bespoke machinery.
 
+### Project budget
+
+A project budget is the total projected costs needed to complete a project over a defined period of time. It's used to estimate what the costs of the project will be for every phase of the project. Creating a project budget is a critical part of the project planning process. The project budget will include such things as labor costs, material procurement costs and operating costs. It's not a static document, and it can be reviewed and revived throughout the project.
+
 ### Project contract
 
 The [project contract](/dynamics365/project-operations/prod-pma/project-contracts) is a formal written agreement between an organization, the contractor, and a client, the buyer, that defines the terms and conditions of a project or business transaction. It includes details such as scope of work, deliverables, timelines, payment terms, and responsibilities of both parties.
 
 In Dynamics 365, a project that will be invoiced must be associated with a project contract. Settings for a project contract apply to all projects and subprojects that are associated with it. A project contract can specify one or more sources of funding. You can invoice one or more projects at the same time and make sure that a uniform invoicing procedure is applied for each subproject in a project structure.
+
+### Project controller
+
+The project controller works directly with the project manager to help define the project's goals and objectives. They create and maintain a project budget and schedule, analyze progress reported against the work schedules and recommend actions to improve progress.
 
 ### Project delivery
 
@@ -834,11 +916,15 @@ The phase in project management where the planned project outcomes, products, or
 
 ### Project estimate
 
-A [project estimate](project-to-profit-recognize-project-revenue.md) is a projection of the cost and schedule of work on a project. Project estimates can be binding or not.
+A project estimate is a projection of the cost and schedule of work on a project. Project estimates can be binding or not. Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
 
 ### Project manager
 
 A [project manager](#centralized-resource-allocation) is the individual responsible for planning, organizing, executing, and controlling all aspects of a project, from initiation to completion. Project managers are accountable for achieving a project's objectives within the constraints of scope, time, cost, quality, resources, and risk as defined in the [project contract](#project-contract).
+
+### Project phases
+
+The Project Management Institute (PMI) created a 5-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control and project closure.
 
 ### Project resource
 
@@ -866,6 +952,14 @@ The document that outlines the scope of work, deliverables, timeline, and estima
 ### Provider
 
 A provider is a connection point in a supply chain. In the context of Intelligent Order Management in Dynamics 365 Supply Chain Center, a provider allows integration with other systems by presenting calls between systems as actions that can trigger events that drive orchestration.
+
+## Q
+
+### Quote
+
+A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that it aligns with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.  
+
+Quotes can be *revised* , meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
 
 ## R
 
@@ -921,6 +1015,10 @@ A [resource manager](#centralized-resource-allocation), also known as a resource
 
 Resource requirements refer to the types and quantities of resources needed to run and complete a project within defined scope, timeline, and quality standards.
 
+### Revenue budget
+
+A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget, to track the revenue on the project.
+
 ### Risk scores
 
 A risk score is a measure of a customer's credit worthiness. It's used to define a customer's credit management blocking and exclusion rules. The risk score and rules that you define can be used to automatically calculate a customer's credit limit. You can also define risk assessments that can be assigned to customers based on their risk score.
@@ -967,7 +1065,7 @@ Sales planning and strategy describes the process of developing an approach and 
 
 - **Sales forecasting** is the process of predicting future sales revenue based on historical data, market trends, and other factors, to help sales teams set targets and plan their activities accordingly.
 
-- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling is offering more products or services to existing customers, while upselling is encouraging them to upgrade to a higher-priced product or service.
+- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling is offering more products or services to existing customers, while [upselling](#upsell) is encouraging them to upgrade to a higher-priced product or service.
 
 ### Sales process and stages
 
@@ -1055,7 +1153,7 @@ A network of organizations, resources, activities, and processes that collaborat
 
 ### Time and material projects
 
-For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be [invoiced per project](project-to-profit-process-project-invoices-overview.md) or per [project contract](#project-contract).
+For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be invoiced per project or per [project contract](#project-contract). Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
 
 ### Time entry
 
@@ -1083,6 +1181,10 @@ The **Unlimited credit limit** flag on a customer account indicates the account 
 
 Because this option circumvents the standard processes your organization uses, consider its security carefully. You might want to set up database logging to [monitor its use](order-to-cash-monitor-customer-credit-collections-overview.md).
 
+### Upsell
+
+Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).  
+
 ## V
 
 ### Variant
@@ -1090,6 +1192,14 @@ Because this option circumvents the standard processes your organization uses, c
 See [product](#product).
 
 ## W
+
+### Win/loss analysis
+
+The job of evaluating why deals were won or lost to improve the marketing process.  
+
+### Work Breakdown Structure (WBS)
+
+A Project Work Breakdown Structure (WBS) is a project management tool that adopts a step-by-step approach to complete large projects with several moving parts. It breaks down the project into smaller components, integrating scope, cost, and deliverables into a single tool. The Project Management Institute (PMI) defines WBS as "a deliverable-oriented hierarchical decomposition of the work to be executed by the project team to accomplish the project objectives and create the required deliverables." It organizes and defines the total scope of the project, with each descending level representing an increasingly detailed definition of the project work.
 
 ### Work order
 

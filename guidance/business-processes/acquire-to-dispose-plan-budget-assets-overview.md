@@ -50,7 +50,7 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the high-level business process flow for planning and budgeting assets.
 
-Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the plan and budget assets business process area. The diagram shows the subprocesses for this business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/acquire-to-dispose-plan-budget-assets.svg" alt-text="Flow diagram with steps for the process of maintaining assets that is further explained in the next paragraphs." lightbox="media/acquire-to-dispose-plan-budget-assets.svg":::
 

@@ -37,9 +37,11 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Run production operations process flow
 
-The following diagram shows the high-level flow of the *run production operations* business process area. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *run production operations* business process area. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *run production operations* business process area.  
 
 :::image type="content" source="media/execute-production-operations-flow.svg" alt-text="Execute production operations process flow" lightbox="media/execute-production-operations-flow.svg":::
+
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 The following steps are illustrated in the *run production operations* business process flow diagram.
 

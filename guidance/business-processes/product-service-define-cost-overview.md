@@ -83,6 +83,8 @@ The following diagram illustrates the define product and service costing busines
 
 :::image type="content" source="media/product-service-define-cost.svg" alt-text="Define product and service costing process flow that is explained in the next paragraphs." lightbox="media/product-service-define-cost.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
 1. Start
 
     Parallel branches connect to *Plan to produce* and *Procure to pay* boxes shown on the left which each connect to d. Analyze costing strategy.

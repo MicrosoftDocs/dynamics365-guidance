@@ -136,7 +136,7 @@ Reassigning a large volume of records can also take a long time and affect the s
 
 ### Maintenance overhead
 
-Plan out how to assign security roles to new users. Are you going to automate a process? For example, use Azure AD [group teams](/power-platform/admin/manage-group-teams) in Dynamics 365 to assign roles to new team members. This way, it's easier to assign license and security roles to new team members.
+Plan out how to assign security roles to new users. Are you going to automate a process? For example, use [group teams](/power-platform/admin/manage-group-teams) in Dynamics 365 to assign roles to new team members. This way, it's easier to assign license and security roles to new team members.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 

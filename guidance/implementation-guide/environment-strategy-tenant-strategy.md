@@ -9,7 +9,7 @@ ms.topic: conceptual
 
 # Tenant strategy
 
-To define the right tenant strategy for your organization, you should understand the controls that are available for each service to isolate code, configuration, data, and users. In this article, we use the term *tenant* for the organization's Azure Active Directory (Azure AD) tenant, which is a prerequisite for Dynamics 365 solutions.  
+To define the right tenant strategy for your organization, you should understand the controls that are available for each service to isolate code, configuration, data, and users. In this article, we use the term *tenant* for the organization's Microsoft Entra ID tenant, which is a prerequisite for Dynamics 365 solutions.  
 
 > [!IMPORTANT]
 > The isolation provided by services doesn't necessarily reflect the underlying infrastructure or design of a cloud service. A separate tenant doesn't mean it's a separate server farm, and having a separate environment doesn't give you a different front end.
@@ -26,7 +26,7 @@ A tenant provides the highest level of isolation for a cloud service, as it repr
 
 Using a single Microsoft tenant to represent the organization in the Microsoft cloud <!-- Missing picture (Figure 9-3) --> is a common setup. It provides unified administration for user access and licenses, enables seamless integration between services, and lets the organization share tenant resources.
 
-All Dynamics 365 and Power Platform environments will be a part of the same tenant. There could be different apps deployed in different environments, or they could have different users for each app and environment, but all would belong to the same Azure AD that is associated at the tenant level. Using the Multi-Geo setup, you could create production environments in different countries or regions to meet your compliance and application needs, but they would remain a part of the same organization-wide tenant. Sovereign cloud deployment requires a separate Azure AD and might have additional regulatory restrictions that limit your ability to create environments in different countries or regions.
+All Dynamics 365 and Power Platform environments will be a part of the same tenant. There could be different apps deployed in different environments, or they could have different users for each app and environment, but all would belong to the same Microsoft Entra ID that is associated at the tenant level. Using the Multi-Geo setup, you could create production environments in different countries or regions to meet your compliance and application needs, but they would remain a part of the same organization-wide tenant. Sovereign cloud deployment requires a separate Microsoft Entra ID and might have additional regulatory restrictions that limit your ability to create environments in different countries or regions.
 
 Let's examine some of the pros and cons for a global single-tenant setup.
 

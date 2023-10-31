@@ -39,6 +39,8 @@ Many people in an organization need to contribute to the design and definition o
 
 :::image type="content" source="media/procure-to-pay-define-procurement-catalogs-flow.svg" alt-text="Flow diagram for the business process area, define procurement catalogs, which is explained in the paragraph after the image." lightbox="media/procure-to-pay-define-procurement-catalogs-flow.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+
 The following steps are illustrated in the *define procurement catalog* business process flow diagram.
 
 1. Start

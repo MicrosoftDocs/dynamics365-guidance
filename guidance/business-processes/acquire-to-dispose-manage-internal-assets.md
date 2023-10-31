@@ -53,7 +53,7 @@ The following diagram shows the high-level business process flow for managing in
 
 :::image type="content" source="media/aquire-to-dispose-manage-internal-assets.svg" alt-text="Flow diagram with steps for the business process area that is further explained in the next paragraphs." lightbox="media/aquire-to-dispose-manage-internal-assets.svg":::
 
-Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the manage internal asset business process area. The diagram shows the subprocesses for this business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 The manage internal asset business process area flow diagram covers the following steps.
 

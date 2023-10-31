@@ -57,7 +57,7 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the high-level business process flow for maintaining and repairing internal assets. For this flow, there are several exit points from the *procure spare parts/service item* process and several entry points to the *schedule maintenance* process.
 
-Each solid gray rectangle in the diagram represents an end-to-end business process. The solid blue rectangle represents the *maintain and repair internal asset* business process area, and the diagram shows the subprocesses for this business process area. The arrows in the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/maintain-and-repair-internal-asset-flow.svg" alt-text="Flow diagram that shows steps for maintaining and repairing internal assets." lightbox="media/maintain-and-repair-internal-asset-flow.svg":::
 

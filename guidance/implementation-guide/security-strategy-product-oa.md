@@ -1,6 +1,6 @@
 ---
 title: Finance and operations apps security
-description: Finance and operations applications use Azure AD as a primary identity provider and utilizes the security capabilities of Azure in addition to extensive native security features. This section shares product-specific guidance for security measures customers should consider.
+description: Finance and operations applications use Microsoft Entra as a primary identity provider and utilizes the security capabilities of Azure in addition to extensive native security features. This section shares product-specific guidance for security measures customers should consider.
 author: riblack-microsoft
 ms.author: riblack
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.service: dynamics-365
 
 # Finance and operations apps security
 
-Finance and operations applications use Azure Active Directory (Azure AD) as the primary identity provider. The security capabilities of Azure support and extend the native security features. To access these applications, users must have a valid Azure AD account in the associated tenant and be provisioned into a Dynamics 365 environment with a valid license. Once authenticated, these applications use role-based security to authorize user access to individual elements of the applications. Additionally, you can use extensible data security policies to restrict access to a subset of data.
+Finance and operations applications use Microsoft Entra as the primary identity provider. The security capabilities of Azure support and extend the native security features. To access these applications, users must have a valid Microsoft Entra ID account in the associated tenant and be provisioned into a Dynamics 365 environment with a valid license. Once authenticated, these applications use role-based security to authorize user access to individual elements of the applications. Additionally, you can use extensible data security policies to restrict access to a subset of data.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 

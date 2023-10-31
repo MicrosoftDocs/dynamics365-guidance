@@ -14,7 +14,7 @@ ms.service: dynamics-365
 
 ## Authentication
 
-For users to access any Power Apps portal, they must exist in Dataverse as contacts. This rule applies to both internal and external users. Power Pages support Azure AD, Azure B2C, ADFS and third-party providers such as LinkedIn, Facebook, and Google. Learn more about authentication configuration details and the complete list of identity providers at [Get started with configuring your portal authentication](/powerapps/maker/portals/configure/use-simplified-authentication-configuration).
+For users to access any Power Apps portal, they must exist in Dataverse as contacts. This rule applies to both internal and external users. Power Pages support Microsoft Entra ID, Azure B2C, ADFS and third-party providers such as LinkedIn, Facebook, and Google. Learn more about authentication configuration details and the complete list of identity providers at [Get started with configuring your portal authentication](/powerapps/maker/portals/configure/use-simplified-authentication-configuration).
 
 [Configure authentication in Power Pages](/power-pages/security/configure-portal-authentication)
 
@@ -31,7 +31,7 @@ There are two common ways to control sign-ups for the Power App portals
 > 1. Azure B2C is the preferred authentication provider for portals. It separates Authentication from authorization.
 > 2. Azure B2C supports third-party authentication providers such as LinkedIn, Facebook, Google, and many more with custom policies. Use Azure B2C as a bridge to other Identity providers as it will support more options, and Microsoft won't be duplicating these investments in the portal.
 > 3. Local Authentication is deprecated but not removed yet. It cannot be extended to other systems like Azure B2C, and Microsoft is not investing in new local authentication features. Its use is limited and short-lived.
-> 4. For B2B scenarios, consider guest users with Azure AD authentication. Learn more at [What is B2B collaboration in Azure Active Directory?](/azure/active-directory/external-identities/what-is-b2b)
+> 4. For B2B scenarios, consider guest users with Microsoft Entra ID authentication. Learn more at [B2B collaboration overview](/entra/external-id/what-is-b2b)
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -61,9 +61,11 @@ Use [Portal Checker](/powerapps/maker/portals/admin/portal-checker) in your port
 
 ## Other security options
 
-- Azure AD and Azure B2C support [conditional access](/azure/active-directory/conditional-access/overview) policy. You can use conditional access to control the access to the portal.
+- [Overview of Microsoft Entra External ID](/entra/external-id/external-identities-overview)  
 
-- Power Pages allow the administrations to set up IP restrictions to the portal. [Restrict portal access by IP address - Power Apps \| Microsoft Docs](/powerapps/maker/portals/admin/ip-address-restrict)
+  You can use External Identities to control the access to the portal.
+
+- Power Pages allow the administrations to set up IP restrictions to the portal. [Restrict portal access by IP address](/powerapps/maker/portals/admin/ip-address-restrict)
 
 - Power Apps portal also allows customers to use WAF (Web Application Firewall) to enhance their perimeter security.
 
