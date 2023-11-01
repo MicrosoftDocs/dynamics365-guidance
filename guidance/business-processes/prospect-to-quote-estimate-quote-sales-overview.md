@@ -1,7 +1,7 @@
 ﻿---
 title: Estimate and quote sales overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to estimate and quote sales.
-ms.date: 10/31/2023
+ms.date: 11/01/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
@@ -35,29 +35,37 @@ The key stakeholders involved in estimating and quoting sales are:
 
 The following diagram illustrates the key steps in the *Estimate and quote sales* business process area.
 
-Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the plan and budget assets business process area. The diagram shows the subprocesses for this business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.  
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/prospect-to-quote-estimate-quote-sales-flow.svg" alt-text="Flow diagram for the business process area, estimate and quote sales, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-estimate-quote-sales-flow.svg":::
 
-The key steps are:
+The following steps are illustrated in the business process flow diagram.
 
-1. **Create Quote:** Sales reps start the process by creating a sales quotation in Dynamics 365 Sales. Key activities:
+1. Start
 
-    - Add products, services, discounts
+2. *Prospect to quote* end-to-end process
+ 
+3. *Estimate and quote sales* business process area  
 
-    - Create or select price list
+    1. *Create sales quotes*
 
-    - Enter customer and payment details (integrates with *Service to Cash* process)
+        Sales reps start the process by creating a sales quotation in Dynamics 365 Sales. Key activities:
 
-2. **Manage quotes:** Sales reps and managers then evaluate and revise quotes as needed. This involves:
+        - Add products, services, discounts
+        - Create or select price list
+        - Enter customer and payment details (integrates with *Service to Cash* process)
+    2. *Manage sales quotes*
 
-    - Closing quotes that are lost or cancelled
+        Sales reps and managers then evaluate and revise quotes as needed. This involves:
 
-    - Creating sales orders from approved quotes (hands off to *Order to Cash* process)
+        - Closing quotes that are lost or cancelled
+        - Creating sales orders from approved quotes (hands off to *Order to Cash* process)
+        - Revising quotes based on customer feedback
+4. End
 
-    - Revising quotes based on customer feedback
+There's an upstream branch to *create sales quotes* from *record revenue events*, and to *manage sales quotes* from *retrieve pricing and availability* and *convert quote to order*.  
 
-Quotes seamlessly integrate with upstream *Forecast to Plan* and downstream*Order to Cash* processes in Dynamics 365.
+There are also downstream branches to *create and manage sales*, *process inbound goods*, and *create work orders*.  
 
 ## Benefits
 
