@@ -117,13 +117,13 @@ If you want to implement Dynamics 365 solutions to assist with your business pro
   - [Lead nurturing](glossary.md#lead-nurturing)  
   - [Lead score](glossary.md#lead-score)  
 
-## Tags
+<!-- ## Tags
 
 *Products:* Dynamics 365 Customer Insights (Journeys), Dynamics 365 Sales
 
 *Industries:* Manufacturing, Retail, Financial Services, Healthcare
 
-*Roles:* Sales Manager, Sales Rep, Marketing Manager
+*Roles:* Sales Manager, Sales Rep, Marketing Manager -->
 
 ## Contributors
 

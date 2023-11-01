@@ -113,14 +113,14 @@ If you want to implement Dynamics 365 solutions to assist with your business pro
   - [Campaign budget](glossary.md#campaign-budget)  
   - [Campaign analytics](glossary.md#campaign-analytics)  
   - [Lead](glossary.md#lead)  
-
+<!-- 
 ## Tags
 
 *Products:* Dynamics 365 Customer Insights (Journeys)
 
 *Industries:* Manufacturing, Retail, Financial Services, Healthcare
 
-*Roles:* Marketing Manager, Sales Manager
+*Roles:* Marketing Manager, Sales Manager -->
 
 ## Contributors 
 

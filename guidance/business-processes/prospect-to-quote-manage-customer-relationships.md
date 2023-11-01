@@ -1,7 +1,7 @@
 ﻿---
 title: Manage customer relationships overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage customer relationships.
-ms.date: 10/31/2023
+ms.date: 11/01/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
@@ -33,37 +33,38 @@ Throughout the customer lifecycle, teams track satisfaction metrics and loyalty 
 
 ## Manage customer relationships flow
 
-The key steps in managing customer relationships:
+The following diagram illustrates the key steps in the *manage customer relationships* business process area.
 
-Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the plan and budget assets business process area. The diagram shows the subprocesses for this business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches. 
+[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/prospect-to-quote-manage-customer-relations.svg" alt-text="Flow diagram for the business process area, manage customer relationships, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-manage-customer-relations.svg":::
+:::image type="content" source="media/prospect-to-quote-manage-customer-relations.svg" alt-text="Flow diagram for the business process area, manage customer relationships, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-manage-customer-relations.svg":::
 
-The key steps, influenced by upstream processes like Forecast to Plan, and downstream processes like Order to Cash, are:
+The following steps are illustrated in the business process flow diagram.
 
-1. **Create and Classify Customer Accounts**: Start by creating customer accounts.
+1. Start
 
-    - Create and manage contacts, prospects, and customers
+2. *Prospect to quote* end-to-end process
+ 
+3. *Manage customer relationships* business process area  
 
-    - Convert a prospect to a customer
+    1. *Create and classify customer accounts*
 
-2. **Define Account Hierarchy and Relationships**: Build the account structure.
+        - Create and manage contacts, prospects, and customers
+        - Convert a prospect to a customer
+        - Create customer hierarchies  
+        - Create relationships for accounts  
+        - Assign account managers and build cross-functional teams
+    2. *Create relationships between customers*  
+    3. *Manage loyalty programs*  
 
-    - Create customer hierarchies
+        - Measure customer satisfaction and loyalty  
+        - Provide sales and service support  
+        - Develop account plans and strategic initiatives  
+        - Assist customers through their journey  
+    4. *Organize contacts in organization charts for a customer*  
+4. End
 
-    - Create relationships for accounts
-
-3. **Assign Account Managers and Build Cross-Functional Teams**: Allocate resources.
-
-    - Assign account managers
-
-    - Build cross-functional teams
-
-4. **Develop Account Plans and Strategic Initiatives**: Formulate growth strategies.
-
-5. **Provide Sales and Service Support**: Assist customers through their journey.
-
-6. **Measure Customer Satisfaction and Loyalty**: Evaluate the relationship.
+There are upstream branches to *Create and classify customer accounts* from [order to cash](order-to-cash-overview.md) and [service to cash](service-to-cash-overview.md). There are also upstream branches to *Manage loyalty programs* from [order to cash](order-to-cash-overview.md) and [service to cash](service-to-cash-overview.md). And there are upstream branches to *Organize contacts in organization charts for a customer* from [hire to retire](hire-to-retire-overview.md) and *Master data management*.  
 
 ## Benefits
 
@@ -99,7 +100,7 @@ Overall, Dynamics 365 enables organizations to maximize the potential of every c
 
 **Customer journey** - All touchpoints and interactions a customer has with a company.
 
-## Next Steps 
+## Next steps 
 
 If you want to implement Dynamics 365 solutions to assist with your business processes to anage customer relationships, you can use the following resources and steps to learn more.  
 
@@ -127,14 +128,14 @@ If you want to implement Dynamics 365 solutions to assist with your business pro
   - [Customer satisfaction (CSAT)](glossary.md#customer-satisfaction-csat)  
   - [Upsell](glossary.md#upsell)  
 
-**Tags**
+<!-- ## Tags
 
 *Products:* Dynamics 365 Sales, Dynamics 365 Customer Service
 
 *Industries:* Manufacturing, Retail, Financial Services, Healthcare
 
-*Roles:* Sales Manager, Account Manager, Service Manager
+*Roles:* Sales Manager, Account Manager, Service Manager -->
 
-**Contributors**
+## Contributors
 
 - [Kody Wildfeuer]( https://www.linkedin.com/in/kody-wildfeuer/)  \| FastTrack Solution Architect

@@ -110,14 +110,14 @@ If you want to implement Dynamics 365 solutions to assist with your business pro
   - [Churn](glossary.md#churn)  
   - [Upsell](glossary.md#upsell)  
   - [Win/loss analysis](glossary.md#winloss-analysis)  
-
+<!-- 
 ## Tags
 
 *Products:* Dynamics 365 Sales, Dynamics 365 Customer Service
 
 *Industries:* Manufacturing, Retail, Financial Services, Healthcare
 
-*Roles:* Sales Manager, Account Manager, Service Manager
+*Roles:* Sales Manager, Account Manager, Service Manager -->
 
 ## Contributors 
 
