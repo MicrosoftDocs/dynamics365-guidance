@@ -108,14 +108,14 @@ If you want to implement Dynamics 365 solutions to assist with your *estimate an
   - [Upsell](glossary.md#upsell)  
   - [Sales planning and strategy](glossary.md#sales-planning-and-strategy)  
   - [Sales process and stages](glossary.md#sales-process-and-stages)    
-
+<!-- 
 ## Tags
 
 *Products:* Dynamics 365 Sales
 
 *Industries:* Agriculture, Manufacturing, Retail, Professional Services, Public Sector
 
-*Roles:* Sales Manager, Sales Rep, Finance Manager, Operations Manage
+*Roles:* Sales Manager, Sales Rep, Finance Manager, Operations Manage -->
 
 ## Contributors
 
