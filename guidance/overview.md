@@ -4,7 +4,7 @@ description: Get an introduction to the types of guidance content, best practice
 author: edupont04
 ms.author: edupont
 ms.topic: overview
-ms.date: 10/06/2023
+ms.date: 11/02/2023
 ---
 
 # What is Dynamics 365 guidance?
@@ -80,11 +80,19 @@ Microsoft FastTrack for Dynamics 365, our customer success service designed to h
 
 ## Product documentation
 
-Where ever you are in the guidance content, the navigation panel shows links to the core docs for each Dynamics 365 app or service. You can also find these links on the [Dynamic 365 documentation hub page](/dynamics365/index).  
+Wherever you are in the guidance content, the navigation panel shows links to the core docs for each Dynamics 365 app or service. You can also find these links on the [Dynamic 365 documentation hub page](/dynamics365/index).  
 
 ## Get notified about changes through an RSS feed
 
 [!INCLUDE [daf-rss](includes/daf-rss.md)]
+
+## Tell us what you think
+
+[!INCLUDE [feedback-docs](includes/feedback-docs.md)]
+
+## Contribute
+
+Our content is available as Markdown and YAML files in [a public GitHub repo](https://github.com/MicrosoftDocs/dynamics365-guidance). A benefit of GitHub is the ability for you to contribute to the content that the Microsoft team provides. There's good advice and best practices published in the [Microsoft Learn contributor guide](/contribute/). Learn more at [Contribute to Microsoft content for Dynamics 365](/dynamics365/get-started/contribute).
 
 ## Related resources
 
