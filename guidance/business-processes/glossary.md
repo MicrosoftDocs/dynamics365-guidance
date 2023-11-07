@@ -162,14 +162,6 @@ A budget forecast is the expected expenditure or revenue per budget line during 
 
 ## C
 
-### Capital asset budget
-
-Typically, you define [fixed assets](#fixed-asset) as capital assets when you hold them for a year or longer and you assign them a [depreciation](#depreciation) profile over their life span. Capital assets are often [tangible assets](#asset-classification).
-
-### Capital assets
-
-The capital asset budget helps an organization to plan the purchase of assets it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
-
 ### Campaign analytics
 
 The process of evaluating data and metrics for a marketing campaign to derive performance insights and optimization opportunities.
@@ -177,6 +169,14 @@ The process of evaluating data and metrics for a marketing campaign to derive pe
 ### Campaign budget
 
 The defined marketing expenditure allocated to a specific marketing campaign.  
+
+### Capital asset budget
+
+Typically, you define [fixed assets](#fixed-asset) as capital assets when you hold them for a year or longer and you assign them a [depreciation](#depreciation) profile over their life span. Capital assets are often [tangible assets](#asset-classification).
+
+### Capital assets
+
+The capital asset budget helps an organization to plan the purchase of assets it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
 
 ### Cashflow statement
 
@@ -214,16 +214,6 @@ When a customer ends a relationship or stops engaging with a company. CRM helps 
 
 Closing the deal refers to the process of finalizing the agreement with a client or decision-makers after an opportunity is won. It involves confirming acceptance, negotiating terms if necessary, preparing and signing the contract, and setting up the required arrangements for the project or business.
 
-### Collections cases
-
-During collection-related activities with your customers, you may want to track the details of the work and conversations you have with your customers. In Dynamics 365, you manage the collections process with cases.
-
-For simple processes, you can use case management in Dynamics 365 Finance. In Finance, you must plan how you want to [classify the collections work](/dynamics365/finance/accounts-receivable/set-up-collections#set-up-a-collections-case-category). You can specify different approval processes for different types of cases.
-
-For more complex processes, you might want to use [case management](/dynamics365/customer-service/overview-cases) in Dynamics 365 Customer Service.
-
-You may also use a combination of both products with [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to keep case data synchronized between Finance and Customer Service.
-
 ### Collection letters or dunning notes
 
 A collection letter, or dunning note, is a document that communicates to a customer that one or more [invoices](#invoice) are past due. The document informs the customer of options to make a payment and settle the account. Some countries/regions may require collection letters to be sent prior to legal action being taken for overdue invoices.
@@ -238,6 +228,16 @@ Dynamics 365 Finance offers a couple of ways to allocate collections tasks:
 
 - A **collection pool** is a type of **customer pool**(/dynamics365/finance/accounts-receivable/set-up-collections#optional-set-up-customer-pools) that groups customers for collections. You can create as many collection pools as you need. A collection pool can be assigned to a specific [collection agent](/dynamics365/finance/accounts-receivable/set-up-collections#optional-set-up-collections-agents). A collection agent can also be linked directly to specific customers. A collection agent is an individual, either internal or external, who performs collection activities in your organization.
 - A [**collection team**](/dynamics365/finance/accounts-receivable/set-up-collections#optional-create-a-collections-team) is a group of collection agents.
+
+### Collections cases
+
+During collection-related activities with your customers, you may want to track the details of the work and conversations you have with your customers. In Dynamics 365, you manage the collections process with cases.
+
+For simple processes, you can use case management in Dynamics 365 Finance. In Finance, you must plan how you want to [classify the collections work](/dynamics365/finance/accounts-receivable/set-up-collections#set-up-a-collections-case-category). You can specify different approval processes for different types of cases.
+
+For more complex processes, you might want to use [case management](/dynamics365/customer-service/overview-cases) in Dynamics 365 Customer Service.
+
+You may also use a combination of both products with [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to keep case data synchronized between Finance and Customer Service.
 
 ### Consume materials
 
@@ -393,7 +393,7 @@ Percentage or dollar reductions in the quoted price. Discounts can be applied to
 
 ### Dock management
 
-Dock management is the process of assigning loads to dock doors in a warehouse. In Dynamics 365 Supply Chain Management, you manage docks with the [driver check-in/check-out](/dynamics365/supply-chain/transportation/tasks/register-driver-check-check-out-appointment) functions.
+Dock management is the process of assigning loads to dock doors in a warehouse. In Dynamics 365 Supply Chain Management, you manage docks by using the [driver check-in/check-out](/dynamics365/supply-chain/transportation/tasks/register-driver-check-check-out-appointment) functions.
 
 ### DUNS numbers
 
@@ -431,9 +431,9 @@ In accounting, a fixed asset is any long-term asset whose cost expiration is rec
 
 ### Fixed-price projects
 
-Projects can be invoiced on either a fixed-price or a [time-and-material](#time-and-material-projects) basis. With a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
 
-Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
+Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md). 
 
 ### Forecast
 
@@ -485,7 +485,7 @@ A [free text invoice](/dynamics365/finance/accounts-receivable/create-free-text-
 
 ### Freight reconciliation
 
-Freight reconciliation refers to comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manage the process manually](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the transportation management module in Dynamics 365 Supply Chain Management. Alternatively, set up integration with a service to manage freight reconciliation automatically.
+Freight reconciliation refers to the process of comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manage the process manually](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the **Transportation management** module in Dynamics 365 Supply Chain Management. Alternatively, you can set up integration with a service to manage freight reconciliation automatically.
 
 ### Funding source
 
@@ -626,13 +626,13 @@ A lease contract is a legal document that describes the terms under which the ow
 
 Dynamics 365 Finance offers [asset leasing](/dynamics365/finance/asset-leasing/asset-leasing-homepage) capabilities, which comply with international accounting standards (IFRS 16) and US GAAP standards (ASC 842).
 
-### Leased assets
-
-[Assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both agree to are called leased assets. They're different from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house or an apartment or a piece of equipment.
-
 ### Lease payment schedule
 
 A lease payment schedule is the predetermined timeline and structure for making lease payments under a lease agreement. It summarizes the specific amounts and timing of the payments that the lessee is obligated to pay to the lessor throughout the lease term.
+
+### Leased assets
+
+[Assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both agree to are called leased assets. They're different from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house or an apartment or a piece of equipment.
 
 ### Legal entity
 
@@ -951,7 +951,7 @@ The document that outlines the scope of work, deliverables, timeline, and estima
 
 ### Provider
 
-A provider is a connection point in a supply chain. In the context of Intelligent Order Management in Dynamics 365 Supply Chain Center, a provider allows integration with other systems by presenting calls between systems as actions that can trigger events that drive orchestration.
+A provider is a connection point in a supply chain. In the context of Intelligent Order Management in Supply Chain Center, a provider enables integration with other systems by presenting calls between systems as actions that can trigger events that drive orchestration.
 
 ## Q
 
@@ -967,11 +967,7 @@ Quotes can be *revised* , meaning that adjustments are made to a quote before fi
 
 Rating is the process of retrieving a freight charge from a carrier contract.
 
-In Dynamics 365 Supply Chain Management, the [transportation management module](/dynamics365/supply-chain/transportation/transportation-management-overview) supports freight carriers. If you use parcel carriers, you'll often need an integration project.
-
-### Routing
-
-Routing is the process of assigning a route to a [load](#load). Routes are typically configured when multiple modes of transportation are required or preferred to move goods through the supply chain; for example, by truck, rail, or ocean.
+In Dynamics 365 Supply Chain Management, the [Transportation management module](/dynamics365/supply-chain/transportation/transportation-management-overview) supports freight carriers. If you use parcel carriers, you often need an integration project.
 
 ### Raw material
 
@@ -1025,7 +1021,7 @@ A risk score is a measure of a customer's credit worthiness. It's used to define
 
 ### Routing
 
-Routing is the process of assigning a route to a load. Routes are typically configured when multiple modes of transportation are required or preferred to move goods through the supply chain. Examples include freight by truck, rail, and ocean.
+Routing is the process of assigning a route to a [load](#load). Routes are typically configured when multiple modes of transportation are required or preferred to move goods through the supply chain (for example, by truck, rail, or ocean).
 
 ## S
 
@@ -1127,7 +1123,7 @@ In business, services can play a critical role in building customer relationship
 
 ### Shipment
 
-A shipment is a delivery to a customer. If you use the packing functionality in Dynamics 365 Supply Chain Management, the shipment can cover one or more order lines or containers.
+A shipment is a delivery to a customer. If you use the packing functionality in Dynamics 365 Supply Chain Management, a shipment can cover one or more order lines or containers.
 
 ### Subassembly
 
