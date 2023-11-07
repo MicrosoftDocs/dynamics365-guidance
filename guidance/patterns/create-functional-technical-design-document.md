@@ -45,7 +45,7 @@ This pattern might not be suitable in the following scenarios:
 
 As part of the design phase of your Dynamics 365 implementation project, you must create deliverables that document the functional and technical design of your solution. These deliverables are known as *functional design documents* (FDDs) and *technical design documents* (TDDs).
 
-- A FDD describes the design from a business perspective, including business processes, use cases, and requirements. It specifies how the solution must *work*.
+- An FDD describes the design from a business perspective, including business processes, use cases, and requirements. It specifies how the solution must *work*.
 - A TDD describes the design from a technical perspective, including the architecture, data model, and system interfaces. It specifies how to *build* the solution.
 
 Both documents are critical for ensuring that your solution is designed and built in a way that meets the business needs and technical requirements. They also serve as a reference for developers, testers, and other stakeholders throughout the project lifecycle.
