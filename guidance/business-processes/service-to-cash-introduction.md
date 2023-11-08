@@ -57,7 +57,7 @@ Technology solutions that you implement to support your *service to cash* busine
 
 ## Stakeholders
 
-Many people will have to contribute to the decision-making process and design of the *service to cash* business processes in your Dynamics 365 project. The stakeholders include, but aren't limited to, the following list:
+Many people must contribute to the decision-making process and design of the *service to cash* business processes in your Dynamics 365 project. The stakeholders include, but aren't limited to, the following list:
 
 - **Customer Service stakeholders** – examples: Customer Service Agents and Managers
 
