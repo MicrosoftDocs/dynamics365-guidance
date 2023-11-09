@@ -6,6 +6,7 @@ ms.author: edupont
 ms.topic: conceptual
 ms.service: dynamics-365
 ms.reviewer: renwe
+ms.subservice: guidance
 ms.date: 10/03/2022
 ---
 
