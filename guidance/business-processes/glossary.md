@@ -79,11 +79,11 @@ Here are some examples of tangible assets and intangible assets:
 
 ### Asset decommissioning
 
-Asset decommissioning refers to the process of formally retiring and stopping the use of an asset. Organizations typically initiate decommissioning process when an asset reaches the end of its useful life or when it is no longer needed. To avoid any regulatory or compliance issues the assets should be clearly disposed of by the organization.
+Asset decommissioning refers to the process of formally retiring and stopping the use of an asset. Organizations typically initiate the decommissioning process when an asset reaches the end of its useful life or when it is no longer needed. To avoid any regulatory or compliance issues the assets should be clearly disposed of by the organization.
 
 ### Asset disposal
 
-Asset disposal refers to the process of removing assets from an organization. This includes selling, recycling or scrapping assets that have reached the end of life and no longer align with business goals or have become out-of-date due to technological advancements.
+Asset disposal refers to the process of removing assets from an organization. This includes selling, recycling, or scrapping assets that have reached the end of life and no longer align with business goals or have become out-of-date due to technological advancements.
 
 ### Asset insurance
 
@@ -93,13 +93,13 @@ Fixed asset insurance is a type of insurance that covers the physical assets of 
 
 Fixed Asset lifecycle stages are the phases that an asset typically goes through from the time it is acquired by a business until it is disposed of or retired. These stages include planning, acquisition, operation and maintenance, and disposal. Each stage has its own accounting, financial, and operational implications for the business. Understanding and managing the fixed asset lifecycle can help businesses optimize their asset performance, reduce costs, and comply with regulations.
 
-- Planning: This stage involves identifying the need for a new asset, evaluating the current assets, and determining the budget and specifications for the asset. Planning also includes forecasting the expected benefits, risks, and costs of the asset over its useful life
+- Planning: This stage involves identifying the need for a new asset, evaluating the current assets, and determining the budget and specifications for the asset. Planning also includes forecasting the expected benefits, risks, and costs of the asset over its useful life.
 
-- Acquisition: This stage involves purchasing or leasing the asset from a supplier, installing and testing the asset, and recording its initial value and depreciation method in the accounting system
+- Acquisition: This stage involves purchasing or leasing the asset from a supplier, installing and testing the asset, and recording its initial value and depreciation method in the accounting system.
 
-- Operation and Maintenance: This stage involves using the asset for its intended purpose, monitoring its performance and condition, and performing regular repairs and upgrades to keep it functional. Operation and maintenance also involve tracking the asset's location, ownership, usage, and depreciation in the accounting system
+- Operation and Maintenance: This stage involves using the asset for its intended purpose, monitoring its performance and condition, and performing regular repairs and upgrades to keep it functional. Operation and maintenance also involve tracking the asset's location, ownership, usage, and depreciation in the accounting system.
 
-- Disposal: This stage involves retiring or selling the asset when it is no longer needed or useful for the business. Disposal also involves removing the asset from the accounting system, calculating its gain or loss on disposal, and complying with any environmental or legal requirements for disposing of the asset
+- Disposal: This stage involves retiring or selling the asset when it is no longer needed or useful for the business. Disposal also involves removing the asset from the accounting system, calculating its gain or loss on disposal, and complying with any environmental or legal requirements for disposing of the asset.
 
 Also, in the asset management process, there are asset lifecycle states that can be set and tracked by users. These are used to define whether an asset is active or inactive.
 
@@ -121,11 +121,11 @@ Selling of assets that have outgrown their usefulness to the organization, to th
 
 Fixed asset tracking is the process of recording and monitoring the information of the assets owned by an organization. Some of the benefits of fixed asset tracking are:
 
-- Increased efficiency and productivity: By knowing where the assets are and how they are performing, organizations can allocate them to the right tasks and projects, avoid duplication and wastage, and plan for future needs
+- Increased efficiency and productivity: By knowing where the assets are and how they are performing, organizations can allocate them to the right tasks and projects, avoid duplication and wastage, and plan for future needs.
 
-- Reduced expenses and losses: By tracking the depreciation and maintenance of the assets, organizations can avoid overpaying taxes and insurance, reduce repair and replacement costs, and prevent theft and damage
+- Reduced expenses and losses: By tracking the depreciation and maintenance of the assets, organizations can avoid overpaying taxes and insurance, reduce repair and replacement costs, and prevent theft and damage.
 
-- Enhanced compliance and accountability: By maintaining accurate records of the assets, organizations can comply with legal and financial requirements, audit standards, and industry best practices. They can also assign responsibility and ownership to the employees who use the assets and monitor their usage
+- Enhanced compliance and accountability: By maintaining accurate records of the assets, organizations can comply with legal and financial requirements, audit standards, and industry best practices. They can also assign responsibility and ownership to the employees who use the assets and monitor their usage.
 
 ### Asset transfer
 
@@ -305,7 +305,7 @@ The following diagram illustrates the effect of the FIFO, LIFO, weighted average
 
 ### Costing sheet
 
-A [costing sheet](/dynamics365/supply-chain/cost-management/costing-sheets) is a document or tool used in [cost accounting](#cost-accounting) to calculate the total cost of a product or service. It's a comprehensive document that lists all the cost components involved in producing or providing the product or service. It typically includes all direct costs, such as labor and material, and indirect costs, such as overhead expenses.
+A [costing sheet](/dynamics365/supply-chain/cost-management/costing-sheets) is a document or tool that is used in [cost accounting](#cost-accounting) to calculate the total cost of a product or service. It's a comprehensive document that lists all the cost components that are involved in producing or providing the product or service. It typically includes all direct costs, such as labor and material, and indirect costs, such as overhead expenses.
 
 ### Costing version
 
@@ -341,7 +341,7 @@ Strategies and processes for managing customer interactions and data across the 
 
 ### Customer satisfaction (CSAT)
 
-Metrics that measure a customer's happiness with a company's products, services and interactions.  
+Metrics that measure a customer's happiness with a company's products, services, and interactions.  
 
 ## D
 
@@ -359,17 +359,17 @@ Deliverables are all outputs of your project as defined by the [scope](#scope). 
 
 ### Departments
 
-Departments are operating units that represent a functional area of a business or an organization, such as sales, accounting, or human resources. A department is used to report on functional areas, may have profit and loss responsibility, and may include a group of cost centers. Positions can be assigned to departments. Departments are often defined as part of an organizational hierarchy.
+Departments are operating units that represent a functional area of a business or an organization, such as sales, accounting, or human resources. A department is used to report on functional areas. It might have profit and loss responsibility, and it might include a group of cost centers. Positions can be assigned to departments. Departments are often defined as part of an organizational hierarchy.
 
 ### Departments, jobs, and positions
 
 [Departments, jobs, and positions](/dynamics365/human-resources/hr-personnel-departments-jobs-positions) are organizational elements that are foundational to the [*hire to retire* business process](/dynamics365/guidance/business-processes/hire-to-retire-overview).
 
-- **Departments** are operating units that represent a functional area of a business or an organization, such as sales, accounting, or human resources. A department is used to report on functional areas, may have profit and loss responsibility, and may include a group of cost centers. Positions can be assigned to departments. Departments are often defined as part of an organizational hierarchy.
+- **Departments** are operating units that represent a functional area of a business or an organization, such as sales, accounting, or human resources. A department is used to report on functional areas. It might have profit and loss responsibility, and it might include a group of cost centers. Positions can be assigned to departments. Departments are often defined as part of an organizational hierarchy.
 
-- **Jobs** are collections of tasks and responsibilities that are required of a person who performs a job. Areas of responsibility, tasks, functions, skills, education information, and certificates that are required for a job are also required for positions that are associated with a job. Before you can create jobs, you should set up some reference information, such as job titles, functions, and types. Having these default values available saves time when you add positions to the job. You can also set up eligibility that you can use to filter compensation plans to a specific job.
+- **Jobs** are collections of tasks and responsibilities that are required of a person who performs a job. Areas of responsibility, tasks, functions, skills, education information, and certificates that are required for a job are also required for positions that are associated with a job. Before you can create jobs, you should set up some reference information, such as job titles, functions, and types. Having these default values available saves you time when you add positions to the job. You can also set up eligibility and use it to filter compensation plans to a specific job.
 
-- **Positions** are individual instances of a job. Positions are an important element of the lower level of an organization hierarchy. For example, the position "Sales manager (East)" is just one of the positions that's associated with the job "Sales manager." Positions exist in a department and are assigned to workers. Every position has a length of time during which the position is effective.
+- **Positions** are individual instances of a job. Positions are an important element of the lower level of an organization hierarchy. For example, the "Sales manager (East)" position is just one of the positions that's associated with the "Sales manager" job. Positions exist in a department and are assigned to workers. Every position has a length of time that it's effective for.
 
 ### Depreciation
 
@@ -411,7 +411,7 @@ Dynamics 365 Supply Chain Management includes an [engineering change management]
 
 ### Estimation to complete
 
-Estimation to complete is an estimation of funds required to complete the remaining work of a project. The project manager will track this measure along the project that shows the remaining cost you expect in order to complete a project
+Estimation to complete is an estimation of funds required to complete the remaining work of a project. The project manager will track this measure along the project that shows the remaining cost you expect in order to complete a project.
 
 ### Expense policies
 
@@ -572,7 +572,7 @@ Organizations that use Dynamics 365 Business Central can [register new items](/d
 
 ### Jobs
 
-A job is a collection of tasks and responsibilities. In Dynamics 365, areas of responsibility, tasks, functions, skills, and educational or certification requirements for a job are also required for [positions](#positions) that are associated with a job. Before you create jobs, you should set up some reference information, such as job titles, functions, and types. Having these available saves you time when you add positions to the job. You can also set up eligibility to filter compensation plans for a specific job.
+A job is a collection of tasks and responsibilities. In Dynamics 365, areas of responsibility, tasks, functions, skills, and educational or certification requirements for a job are also required for [positions](#positions) that are associated with that job. Before you create jobs, you should set up some reference information, such as job titles, functions, and types. Having this information available saves you time when you add positions to the job. You can also set up eligibility to filter compensation plans for a specific job.
 
 ## K
 
@@ -582,11 +582,11 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 - [**Leads**](#lead) are potential customers, people who have shown interest in your products or services but haven't been [qualified](#lead-and-opportunity-management) as a viable prospect.
 
-- An [**opportunity**](#opportunity) is a qualified lead, a potential customer with a higher likelihood of making a purchase, requiring further engagement and nurturing by the sales team.
+- An [**opportunity**](#opportunity) is a qualified lead, a potential customer who has a higher likelihood of making a purchase, and who requires further engagement and nurturing by the sales team.
 
-- **Accounts** are the organizations you do business with or plan to do business with, typically representing a customer or potential customer.
+- **Accounts** are the organizations that you do business with or plan to do business with. They typically represent a customer or potential customer.
 
-- **Contacts** are the individual people associated with an account, such as decision-makers, influencers, or users of your products or services.
+- **Contacts** are the individual people who are associated with an account, such as decision-makers, influencers, or users of your products or services.
 
 ## L
 
@@ -598,9 +598,9 @@ A lead is a potential customer, a person who has shown interest in a product or 
 
 Tracking and managing potential customers and sales opportunities throughout the [sales process](#sales-process-and-stages), from initial contact to closing the deal, is called [lead and opportunity](#key-entities) management. It involves three processes:
 
-- **Lead scoring** is a system for ranking leads based on their likelihood to make a purchase, using criteria such as engagement, demographics, and behavior. Lead scores help sales teams prioritize their efforts on the most promising prospects.
+- **Lead scoring** is a system for ranking leads based on their likelihood of making a purchase. It uses criteria such as engagement, demographics, and behavior. Lead scores help sales teams prioritize their efforts on the most promising prospects.
 
-- **Lead qualification** is the process of determining whether a lead has the potential to become a customer, based on such factors as level of interest, budget, and purchasing authority.
+- **Lead qualification** is the process of determining whether a lead has the potential to become a customer. It's based on such factors as level of interest, budget, and purchasing authority.
 
 - **Opportunity management** is the practice of guiding and nurturing qualified leads through the sales process, with the goal of converting them to customers by addressing their needs, concerns, and objections.
 
@@ -762,7 +762,7 @@ Planning is the process of identifying goals and determining the actions to atta
 
 ### Positions
 
-A position is an individual instance of a [job](#jobs). Positions are an important element of the lower level of an organization hierarchy. For example, the position "Sales manager (East)" is just one of the positions that's associated with the job "Sales manager." Positions exist in a department and are assigned to workers. Every position has a length of time over which it's effective.
+A position is an individual instance of a [job](#jobs). Positions are an important element of the lower level of an organization hierarchy. For example, the "Sales manager (East)" position is just one of the positions that's associated with the "Sales manager" job. Positions exist in a department and are assigned to workers. Every position has a length of time that it's effective for.
 
 ### Pro forma invoice
 
@@ -957,9 +957,9 @@ A provider is a connection point in a supply chain. In the context of Intelligen
 
 ### Quote
 
-A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that it aligns with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.  
+A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that they align with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.  
 
-Quotes can be *revised* , meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
+Quotes can be *revised*, meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
 
 ## R
 
@@ -987,9 +987,9 @@ Repair involves restoring a broken asset to bring it to a steady operational sta
 
 ### Reporting relationships
 
-Reporting relationships define hierarchies of positions and are reflected in org charts. A reporting relationship can be used to route documents through a workflow.
+Reporting relationships define hierarchies of positions and are reflected in organizational charts. A reporting relationship can be used to route documents through a workflow.
 
-If your organization uses a matrix hierarchy or another custom hierarchy, you can set up hierarchy types in Dynamics 365 and add reporting relationships to positions for each type. For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.
+If your organization uses a matrix hierarchy or another custom hierarchy, you can set up hierarchy types in Dynamics 365 and add reporting relationships to positions for each type. For example, an employee might be a part of a project team that has an informal reporting relationship to a project supervisor.
 
 ### Requirement
 
@@ -1037,9 +1037,9 @@ Sales compensation includes commissions, bonuses, and incentives offered to moti
 
 Sales documentation and materials are resources that sales teams use during the [sales process](#sales-process-and-stages). They can include the following types of documentation:
 
-- A **quote** outlines the price and terms for products or services a customer is interested in purchasing.
+- A **quote** outlines the price and terms for products or services that a customer is interested in purchasing.
 
-- A [**sales order**](#sales-order) details the products or services a customer has agreed to purchase and includes pricing, quantities, and delivery details.
+- A [**sales order**](#sales-order) details the products or services that a customer has agreed to purchase. It includes pricing, quantities, and delivery details.
 
 - **Activities** are the tasks, appointments, phone calls, emails, and other forms of communication and interaction that are part of the sales process. They're typically used to track and manage engagement with [leads](#lead), [opportunities](#opportunity), and customers.
 
@@ -1051,27 +1051,27 @@ Sales enablement refers to training, content, tools, and coaching provided to sa
 
 ### Sales order
 
-A sales order is a document created by the seller. A sales order helps the seller keep track of the orders they fulfill and manage their resources accordingly. Typically, it's generated because of winning a sales quotation or as a response to receiving a purchase order from a buyer specifying the details about the product or service along with price, quantity, delivery date, buyer details like the shipping address, mode of payment and terms and conditions. The sales order confirmation generated from the sales order represents the commercial commitment towards a buyer. It's sent in response to the buyer's purchase order when one exists. On the buyer's side, the sales order confirmation is typically referred to as a purchase order confirmation. Learn more at [Create sales orders](/dynamics365/supply-chain/sales-marketing/tasks/create-sales-orders) in the docs for Dynamics 365 Supply Chain Management.  
+A sales order is a document created by the seller. A sales order helps the seller keep track of the orders they fulfill and manage their resources accordingly. Typically, it's generated because of winning a sales quotation or as a response to receiving a purchase order from a buyer specifying the details about the product or service along with price, quantity, delivery date, buyer details like the shipping address, mode of payment and terms and conditions. The sales order confirmation generated from the sales order represents the commercial commitment towards a buyer. It's sent in response to the buyer's purchase order when one exists. On the buyer's side, the sales order confirmation is typically referred to as a purchase order confirmation. Learn more at [Create sales orders](/dynamics365/supply-chain/sales-marketing/tasks/create-sales-orders) in the docs for Dynamics 365 Supply Chain Management.
 
 The sales order confirmation that's generated from the sales order represents the seller's commitment to a buyer. It's sent in response to the buyer's purchase order when one exists. On the buyer's side, the sales order confirmation is typically referred to as a purchase order confirmation.
 
 ### Sales planning and strategy
 
-Sales planning and strategy describes the process of developing an approach and a plan for achieving sales goals and objectives.  It includes identifying target markets, setting sales targets, and determining sales tactics and resources.
+Sales planning and strategy describes the process of developing an approach and plan for achieving sales goals and objectives. It includes identifying target markets, setting sales targets, and determining sales tactics and resources.
 
 - **Sales forecasting** is the process of predicting future sales revenue based on historical data, market trends, and other factors, to help sales teams set targets and plan their activities accordingly.
 
-- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling is offering more products or services to existing customers, while [upselling](#upsell) is encouraging them to upgrade to a higher-priced product or service.
+- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling involves offering more products or services to existing customers, whereas [upselling](#upsell) involves encouraging them to upgrade to a higher-priced product or service.
 
 ### Sales process and stages
 
 The sales process is a series of steps that a sales team follows to identify, engage, and close deals with potential customers. It includes prospecting, qualification, needs analysis, presentation, handling objections, closing, and follow-up.
 
 - A	**sales process** is a series of steps that a salesperson follows to guide a lead or prospect through the stages of becoming a customer, from initial contact to closing the sale.
-- 
-- A **sales funnel** or **sales pipeline** is a visual representation of how leads and opportunities move through each stage in the sales process.
 
-- The **sales cycle** is the time it takes for a lead to move through the sales process, from initial contact to closed sale. It can vary depending on such factors as the complexity of the product or service and the customer's decision-making process.
+- A **sales funnel** or **sales pipeline** is a visual representation of the way that leads and opportunities move through each stage in the sales process.
+
+- The **sales cycle** is the time that it takes for a lead to move through the sales process, from initial contact to a closed sale. It can vary depending on factors such as the complexity of the product or service and the customer's decision-making process.
 
 ### Sales targets
 
@@ -1085,11 +1085,11 @@ Sales territories are geographic areas or accounts assigned to salespeople. Terr
 
 Sales tools and technologies are software and hardware solutions that help sales teams manage and automate aspects of the sales process, such as managing customer relationships, generating leads, and creating sales analytics.
 
-- **Sales automation** refers to the use of software tools and technologies to automate repetitive tasks and activities in the sales process, allowing sales teams to focus on more strategic activities such as building relationships and closing deals.
+- **Sales automation** refers to the use of software tools and technologies to automate repetitive tasks and activities in the sales process, so that sales teams can focus on more strategic activities, such as building relationships and closing deals.
 
-- A **dashboard** is a visual interface that displays key performance indicators (KPIs) and other data related to the sales process, allowing sellers and managers to monitor and analyze sales activities.
+- A **dashboard** is a visual interface that displays key performance indicators (KPIs) and other data that's related to the sales process, so that sellers and managers can monitor and analyze sales activities.
 
-- **Customer relationship management** (CRM) is a system and a process for managing interactions with leads, prospects, and customers throughout the sales process, with the goal of building long-term relationships to improve customer satisfaction and increase sales.
+- **Customer relationship management** (CRM) is a system and process for managing interactions with leads, prospects, and customers throughout the sales process, with the goal of building long-term relationships to improve customer satisfaction and increase sales.
 
 ### Schedule
 
@@ -1097,11 +1097,11 @@ Schedule aims to ensure the timely completion of a project. It consists of defin
 
 ### Scope
 
-A project's scope defines the boundaries of the project. The scope is a list of specific project goals, deliverables, tasks, costs and deadlines.
+A project's scope defines the boundaries of the project. The scope is a list of specific project goals, deliverables, tasks, costs, and deadlines.
 
 ### Scrap
 
-Scrap refers to any excess or unusable material that's identified during the production process. Scrap can be raw materials, subassemblies, or even finished product that doesn't meet specifications. Typically it's disposed of, but in some cases it can be reworked or reused in the production process. For example, metal shavings from the fabrication process may be melted and worked into a new product.
+Scrap refers to any excess or unusable material that's identified during the production process. Scrap can be raw materials, subassemblies, or even finished products that don't meet specifications. Typically, it's disposed of, but in some cases it can be reworked or reused in the production process. For example, metal shavings from the fabrication process may be melted and worked into a new product.
 
 Scrap can also describe labor or other production resources that result in unusable products or otherwise don't contribute to the subassembly or finished good production. For example, if a subassembly is scrapped, the labor associated with producing that subassembly would also be considered scrapped.
 
@@ -1207,14 +1207,14 @@ You can also procure items with work orders. The procurement process typically s
 
 ### Workflow
 
-In the context of Dynamics 365, workflow commonly refers to the system capability of automating business processes, such as the routing of specific business documents such as purchase orders, expense approvals, or vendor invoices to the appropriate person or persons in the organization for approval. You can use the workflow capability in Human Resources to manage employee information and processes, and you can use the configuration of positions and reporting relationships in Human Resources to associate approval workflows with reporting hierarchies in other processes throughout the business.
+In the context of Dynamics 365, workflow commonly refers to the system capability of automating business processes, such as the routing of specific business documents (for example, purchase orders, expense approvals, or vendor invoices) to the appropriate person or persons in the organization for approval. You can use the workflow capability in Human Resources to manage employee information and processes, and you can use the configuration of positions and reporting relationships in Human Resources to associate approval workflows with reporting hierarchies in other processes throughout the business.
 
-- Identification numbers  
-- Courses  
-- Loaned items  
-- Human resources actions  
+- Identification numbers
+- Courses
+- Loaned items
+- Human resources actions
 
-When employees are hired, transferred, or terminated, the workflow can include a review process. This way, a document can be revised, or the terms of an action can be defined as part of the workflow. When the review process is completed, the document or action is completed, and the workflow moves to a final approval step.  
+When employees are hired, transferred, or terminated, the workflow can include a review process. In this way, a document can be revised, or the terms of an action can be defined as part of the workflow. When the review process is completed, the document or action is completed, and the workflow moves to a final approval step.
 
 ### Write-off
 
