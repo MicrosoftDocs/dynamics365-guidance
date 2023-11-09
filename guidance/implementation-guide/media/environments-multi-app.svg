@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="944.0954"
+   height="225.47383"
+   overflow="hidden"
+   version="1.1"
+   id="svg64"
+   sodipodi:docname="environments-multi-app.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs68" />
+  <sodipodi:namedview
+     id="namedview66"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.1789063"
+     inkscape:cx="423.27369"
+     inkscape:cy="76.341948"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2725"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg64" />
+  <g
+     id="g62"
+     transform="translate(-216.30219,-283.31345)">
+    <rect
+       x="216.30219"
+       y="283.31345"
+       width="944.0954"
+       height="225.47383"
+       fill="#ffffff"
+       id="rect2"
+       style="stroke-width:0.480601" />
+    <path
+       d="m 689.5,377.5 v 17.106 h 394.26 v 17.106"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="m 689.5,377.5 v 17.106 h 197.128 v 17.106"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="m 689.3,377.5 v 34.212"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path8" />
+    <path
+       d="m 689.628,377.5 v 17.106 H 492.5 v 17.106"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <path
+       d="m 689.756,377.5 v 17.106 H 295.5 v 17.106"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path12" />
+    <path
+       d="m 658.092,310.146 c 14.555,-17.346 40.416,-19.609 57.762,-5.054 1.829,1.534 3.52,3.225 5.054,5.054"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path14" />
+    <path
+       d="m 720.908,362.854 c -14.555,17.346 -40.416,19.609 -57.762,5.054 -1.829,-1.534 -3.52,-3.225 -5.054,-5.054"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path16" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(644.248,332)"
+       id="text18">Contoso Corp</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(610.541,349)"
+       id="text20">Production</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(685.602,349)"
+       id="text22">environment</text>
+    <path
+       d="m 264.252,425.78 c 14.66,-17.047 40.534,-19.128 57.792,-4.647 1.693,1.421 3.266,2.975 4.704,4.647"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path24" />
+    <path
+       d="m 326.748,478.22 c -14.66,17.047 -40.534,19.128 -57.792,4.647 -1.693,-1.421 -3.266,-2.975 -4.704,-4.647"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path26" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(231.482,457)"
+       id="text28">Dynamics 365 Sales</text>
+    <path
+       d="m 461.252,425.78 c 14.66,-17.047 40.534,-19.128 57.792,-4.647 1.693,1.421 3.266,2.975 4.704,4.647"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path30" />
+    <path
+       d="m 523.748,478.22 c -14.66,17.047 -40.534,19.128 -57.792,4.647 -1.693,-1.421 -3.266,-2.975 -4.704,-4.647"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path32" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(413.674,448)"
+       id="text34">Dynamics 365 Customer</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(469.214,465)"
+       id="text36">Service</text>
+    <path
+       d="m 658.252,425.78 c 14.66,-17.047 40.534,-19.128 57.792,-4.647 1.693,1.421 3.266,2.975 4.704,4.647"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path38" />
+    <path
+       d="m 720.748,478.22 c -14.66,17.047 -40.534,19.128 -57.792,4.647 -1.693,-1.421 -3.266,-2.975 -4.704,-4.647"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path40" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(610.801,448)"
+       id="text42">Dynamics 365 Customer</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(664.075,465)"
+       id="text44">Insights</text>
+    <path
+       d="m 855.975,425.967 c 14.378,-17.134 39.923,-19.369 57.058,-4.992 1.806,1.516 3.476,3.186 4.992,4.992"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path46" />
+    <path
+       d="m 918.025,478.033 c -14.378,17.134 -39.923,19.369 -57.058,4.992 -1.806,-1.516 -3.476,-3.186 -4.992,-4.992"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path48" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(823.926,448)"
+       id="text50">Dynamics 365 Field</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(863.466,465)"
+       id="text52">Service</text>
+    <path
+       d="m 1052.98,425.967 c 14.37,-17.134 39.92,-19.369 57.05,-4.992 1.81,1.516 3.48,3.186 4.99,4.992"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path54" />
+    <path
+       d="m 1115.02,478.033 c -14.37,17.134 -39.92,19.369 -57.05,4.992 -1.81,-1.516 -3.48,-3.186 -4.99,-4.992"
+       stroke="#34599c"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path56" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(1013.9,448)"
+       id="text58">Dynamics 365 Project</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(1047.61,465)"
+       id="text60">Operations</text>
+  </g>
+</svg>
