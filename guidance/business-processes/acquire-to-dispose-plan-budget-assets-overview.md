@@ -144,7 +144,7 @@ You can use the following resources to learn more about the *plan and budget ass
 - [Fixed assets home page (Finance)](/dynamics365/finance/fixed-assets/fixed-assets)
 - [Asset leasing home page (Finance)](/dynamics365/finance/asset-leasing/asset-leasing-homepage)
 - [Configure and manage fixed assets and asset leasing in Dynamics 365 Finance (training)](/training/paths/configure-manage-fixed-assets-dyn365-finance/)
-- Find definitions of terminology that is used in content for *plan and budget assets* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. Relevant terms include the following:
+- Find definitions of terminology that is used in content for *plan and budget assets* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. The glossary includes the following relevant terms:
 
     - [Asset classification](glossary.md#asset-classification)
     - [Capital assets](glossary.md#capital-assets)
