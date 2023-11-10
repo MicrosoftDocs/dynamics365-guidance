@@ -1,5 +1,5 @@
-﻿---
-title: Hire to retire business process areas
+---
+title:  Hire to retire business process areas
 description: Get an overview for each of the business process areas in the hire to retire end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 06/29/2023
 ms.topic: conceptual
@@ -59,7 +59,7 @@ Learn more at [Plan and recruit your workforce overview](hire-to-retire-plan-rec
 
 This business process area involves onboarding new employees into the company. It includes welcoming new employees, assigning them initial tasks, notifying other departments, coordinating with other departments, and completing forms and essential paperwork. The task list features available out of the box when combined with the workflow engine or Power Automate, give organizations the flexibility for users to manage their tasks in an easy and efficient manner.
 
-This business process area involves managing the entire employee lifecycle within the company after an employee or contractor is hired. It include things like updating employee records, and managing processes for employee transfer, promotion, relocation, termination, and succession planning.
+This business process area involves managing the entire employee lifecycle within the company after an employee or contractor is hired. It includes things like updating employee records, and managing processes for employee transfer, promotion, relocation, termination, and succession planning.
 
 ## Manage employee performance and growth
 
@@ -67,7 +67,7 @@ This business process area involves managing employee performance within the com
 
 This business process area involves managing employee learning and development within the company. defining employee career paths, defining and managing course offerings, defining employee learning plans, assigning courses to employees, recording course progress and results, and analyzing and reporting on employee learning. When you combine this with the LMS APIs, organization can manage and surface content to the workforce while still tracking the important details and having powerful analytics with Power BI.
 
-This business process area involves defining the skills and competencies required for each position within the company. It includes maintaining a skills and competency repository, defining the required competencies for jobs, performing skill gap analyses, and requesting resources for a project. Human Resources can easily integrate skill and competency data to other applications like Supply Chain Management, Project Operations, and Field Service to help organizations manage their field workers and more efficiently plan and schedule resources.
+This business process area involves defining the skills and competencies required for each position within the company. It includes maintaining a skills and competency repository, defining the required competencies for jobs, performing skill gap analyses, and requesting resources for a project. Human Resources can easily integrate skill and competency data into other applications like Supply Chain Management, Project Operations, and Field Service to help organizations manage their field workers and more efficiently plan and schedule resources.
 
 ## Manage occupational health and safety
 
@@ -79,13 +79,13 @@ This business process area involves managing requests from employees and manager
 
 ## Manage employee benefits and compensation
 
-This business process area involves defining and managing employee benefits within the company. It includes processes to define benefits eligibility rules/criteria, define employee benefit offerings, enroll employees in benefits, validate and approve employee benefits, send benefit enrollment details to benefit providers, and to send benefit enrollment details to payroll for deductions. It also entails processes to update the benefits, record life events, to process, validate and approve life events, to view or print employee benefits statements, and to review and analyze employee benefits.
+This business process area involves defining and managing employee benefits within the company. It includes processes to define benefits eligibility rules/criteria, define employee benefit offerings, enroll employees in benefits, validate and approve employee benefits, send benefit enrollment details to benefit providers, and send benefit enrollment details to payroll for deductions. It also entails processes to update the benefits, record life events, to process, validate and approve life events, to view or print employee benefits statements, and to review and analyze employee benefits.
 
-This business process area involves defining and managing employee compensation within the company. It includes processes to define compensation policies, perform compensation market research, establish pay for a new worker, process compensation plans, review and approve compensation, request a compensation change, and to pay for performance. It also entails processes to establish budgets for compensation, allocate compensation budget across the organization, perform mass compensation increase, review and adjust proposed compensation, approve and process adjusted compensation, and to analyze employee compensation.
+This business process area involves defining and managing employee compensation within the company. It includes processes to define compensation policies, perform compensation market research, establish pay for a new worker, process compensation plans, review and approve compensation, request a compensation change, and pay for performance. It also entails processes to establish budgets for compensation, allocate compensation budget across the organization, perform mass compensation increase, review and adjust proposed compensation, approve and process adjusted compensation, and analyze employee compensation.
 
 ## Manage employee time and attendance
 
-This business process area involves recording employee time and attendance and managing employee leave and absences within the company. It includes processes to define and manage employee time off, request, review, and approve time off, and to record employee absences. Additional processes in this area include creating, submitting, reviewing, approving, adjusting, and correcting timesheets. Depending on your business needs and industry, Dynamics 365 includes a variety of tools to help organizations manage time and leave and absence. For example, Project Operations includes advanced timesheet capabilities to track time spent by project, Supply Chain Management includes capabilities to allow organizations to track time against productions orders or directly using time clocks in the Time and attendance module, and Human Resources includes advanced capabilities to help organization manage leave and absence, time off requests, and more.
+This business process area involves recording employee time and attendance and managing employee leave and absences within the company. It includes processes to define and manage employee time off, request, review, and approve time off, and record employee absences. Additional processes in this area include creating, submitting, reviewing, approving, adjusting, and correcting timesheets. Depending on your business needs and industry, Dynamics 365 includes a variety of tools to help organizations manage time and leave and absence. For example, Project Operations includes advanced timesheet capabilities to track time spent by project, Supply Chain Management includes capabilities to allow organizations to track time against productions orders or directly using time clocks in the Time and attendance module, and Human Resources includes advanced capabilities to help organization manage leave and absence, time off requests, and more.
 
 ## Pay employees
 
@@ -93,7 +93,7 @@ This business process area involves paying employees within the company. This is
 
 ## Manage travel and expenses
 
-This business process area involves managing employee travel and expenses within the company. It includes processes to establish expense reporting policies, make a request to travel, create and submit expense reports, review, and approve expense reports, pay expense reports, audit expense reports to find anomalies, and to report and analyze on expense reports.
+This business process area involves managing employee travel and expenses within the company. It includes processes to establish expense reporting policies, make a request to travel, create and submit expense reports, review, and approve expense reports, pay expense reports, audit expense reports to find anomalies, and report and analyze expense reports.
 
 ## Next steps
 

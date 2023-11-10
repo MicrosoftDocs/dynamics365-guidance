@@ -1,5 +1,5 @@
 ﻿---
-title: Dynamics 365 Implementation Portal
+title:  Dynamics 365 Implementation Portal
 description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
 ms.date: 03/27/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ﻿---
-title: Minimal viable product strategy
+title:  Minimal viable product strategy
 description: Learn about how a minimal viable product strategy can help the  business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

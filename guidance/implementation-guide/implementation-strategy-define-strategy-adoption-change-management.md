@@ -1,5 +1,5 @@
 ﻿---
-title: Define a strategy for adoption and change management
+title:  Define a strategy for adoption and change management
 description: Find guidance for how the organization can manage the onboarding to the new business solution. Also learn how you can help the organization manage changes-
 ms.date: 04/17/2023
 ms.topic: conceptual

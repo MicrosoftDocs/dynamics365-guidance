@@ -1,5 +1,5 @@
 ﻿---
-title: Phases and increments
+title:  Phases and increments
 description: Learn about the phases and increments that can help the business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

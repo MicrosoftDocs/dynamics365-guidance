@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 FastTrack frequently asked questions
+title:  Dynamics 365 FastTrack frequently asked questions
 description: Get answers to common questions about Dynamics 365 FastTrack.
 ms.author: renwe
 ms.date: 05/19/2021

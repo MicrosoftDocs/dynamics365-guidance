@@ -1,5 +1,5 @@
 ﻿---
-title: Project organization 
+title:  Project organization 
 description: Read about best practices for how to organize the team and project for an implementation with Dynamics 365 apps.
 author: TimoGossen
 ms.author: timogoss

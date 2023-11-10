@@ -1,5 +1,5 @@
 ﻿---
-title: Establish stocking and replenishment policies overview
+title:  Establish stocking and replenishment policies overview
 description: Read about the business process area for stocking and replenishment policies in Dynamics 365.
 ms.date: 08/23/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ﻿---
-title: Manage project delivery overview
+title:  Manage project delivery overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to track that the project is worked on.
 ms.date: 10/31/2023
 ms.topic: conceptual

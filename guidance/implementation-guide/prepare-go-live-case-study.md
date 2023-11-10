@@ -1,5 +1,5 @@
 ﻿---
-title: Case study
+title:  Case study
 description: Review the readiness of a toy company to go live with Microsoft Dynamics 365 to learn the importance of the prepare phase in an implementation project.
 ms.date: 06/06/2023
 ms.topic: conceptual

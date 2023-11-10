@@ -1,5 +1,5 @@
 ﻿---
-title: Customize and extend Dynamics 365 online
+title:  Customize and extend Dynamics 365 online
 description: Learn how you can customize and extend Dynamics 365 as part of your implementation project.  
 author: taksatoms
 ms.author: tsato

@@ -1,5 +1,5 @@
 ---
-title: Order to cash end-to-end overview
+title:  Order to cash end-to-end overview
 description: Learn about the end-to-end business process, from order to cash. View a high-level flow diagram and see how it fits into Dynamics 365 solutions.
 ms.date: 07/11/2023
 ms.topic: overview

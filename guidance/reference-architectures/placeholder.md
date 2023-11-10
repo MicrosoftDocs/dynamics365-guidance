@@ -1,11 +1,12 @@
 ---
-title: Placeholder only for WAF & CAF
+title:  Placeholder only for WAF & CAF
 description: Don't use this link because it doesn't do anything here either.
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual
 ms.service: dynamics-365
 ms.reviewer: renwe
+ms.subservice: guidance
 ms.date: 10/03/2022
 ---
 

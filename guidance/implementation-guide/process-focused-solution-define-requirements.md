@@ -1,5 +1,5 @@
 ﻿---
-title: Define your requirements
+title:  Define your requirements
 description: Learn how to define your requirements to the Dynamics 365 solution and how to make it help you operate your business.
 ms.date: 03/13/2023
 ms.topic: conceptual

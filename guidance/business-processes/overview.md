@@ -1,5 +1,5 @@
 ---
-title: Business processes in Dynamics 365
+title:  Business processes in Dynamics 365
 description: Get an overview of the end-to-end scenarios that Dynamics 365 supports, and which organizations often look for.
 author: rachel-profitt
 ms.author: raprofit

@@ -1,5 +1,5 @@
 ---
-title: Manage internal assets overview
+title:  Manage internal assets overview
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage internal assets.
 ms.date: 09/08/2023
 ms.topic: conceptual

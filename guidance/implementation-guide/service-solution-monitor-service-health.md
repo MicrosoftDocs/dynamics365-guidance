@@ -1,5 +1,5 @@
 ﻿---
-title: Monitor service health
+title:  Monitor service health
 description: Learn the importance of monitoring various aspects of the health of your Dynamics 365 services to ensure a healthy system. Be proactive to address any potential issues through monitoring.
 author: taksatoms
 ms.author: tsato

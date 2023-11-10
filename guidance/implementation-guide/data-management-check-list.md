@@ -1,5 +1,5 @@
 ﻿---
-title: Data management checkList
+title:  Data management checkList
 description: View a detailed checklist on several aspects of data management. We examine the various ways that data management plays a role in the creation of an effective Dynamics 365 solution and here you can find a summary list.
 author: vaniaf
 ms.author: vaniaf

@@ -1,5 +1,5 @@
 ﻿---
-title: Product and service lifecycle management introduction
+title:  Product and service lifecycle management introduction
 description: Get an introduction to an end-to-end business process, product and service lifecycle management. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
 ms.date: 04/03/2023
 ms.topic: conceptual

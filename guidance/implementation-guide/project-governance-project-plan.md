@@ -1,5 +1,5 @@
 ﻿---
-title: Project plan
+title:  Project plan
 description: Find key areas to cover in the project plan for an implementation project with Dynamics 365 apps.
 author: TimoGossen
 ms.author: timogoss

@@ -1,5 +1,5 @@
 ---
-title: Join and onboard projects in Dynamics 365 Implementation Portal
+title:  Join and onboard projects in Dynamics 365 Implementation Portal
 description: Learn how to join or onboard a project in Dynamics 365 Implementation Portal.
 ms.date: 03/27/2023
 ms.topic: how-to

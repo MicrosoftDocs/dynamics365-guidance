@@ -1,5 +1,5 @@
 ---
-title: Delivery approach for the training plan
+title:  Delivery approach for the training plan
 description: Find guidance about how to define how you run training based on your training plan for your Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual

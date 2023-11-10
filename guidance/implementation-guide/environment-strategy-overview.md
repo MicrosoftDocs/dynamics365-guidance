@@ -1,5 +1,5 @@
 ---
-title: Environment strategy
+title:  Environment strategy
 description: Environments are containers that store, manage, and share your organization's data. They also store the data model, application metadata, process definitions, and the security constructs to control access to data and apps. The considerations in this article will guide you to define an environment approach that best meets your requirements for data access, isolation, security, governance, and scalability.
 author: abunduc-ms
 ms.author: abunduc

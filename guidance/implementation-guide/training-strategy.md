@@ -1,5 +1,5 @@
 ---
-title: Training strategy
+title:  Training strategy
 description: Learn about the creation of a training strategy to ensure the readiness of every person involved in your implementation.
 ms.date: 06/26/2023
 ms.topic: conceptual

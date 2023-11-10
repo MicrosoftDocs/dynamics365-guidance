@@ -1,5 +1,5 @@
 ---
-title: Checklist for reporting and analytics strategy
+title:  Checklist for reporting and analytics strategy
 description: Get a list of things to get done as part of your business intelligence solutions.
 author: TimoGossen
 ms.author: timogoss

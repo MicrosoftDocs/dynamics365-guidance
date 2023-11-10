@@ -1,5 +1,5 @@
 ---
-title: Extend customer engagement apps
+title:  Extend customer engagement apps
 description: Find guidance on how we can extend functionality to accommodate your organization’s specific processes and requirements, with a focus on customer engagement apps in Dynamics 365 implementation projects.
 author: abunduc-ms
 ms.author: abunduc

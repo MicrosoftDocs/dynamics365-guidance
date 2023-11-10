@@ -1,5 +1,5 @@
 ---
-title: Service the solution
+title:  Service the solution
 description: This article discusses proactively monitoring the health of your solution implementation. Get an overview of the continuous updates provided by Dynamics 365. Find best practices for working this pattern into your project plan to minimize impact to the changes in your environment. It also encourages you to build a plan for continuous education in the trends and tools related to your business applications to maximize your organization’s Dynamics 365 investment. 
 author: taksatoms
 ms.author: tsato

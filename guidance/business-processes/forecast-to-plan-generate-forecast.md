@@ -1,5 +1,5 @@
 ---
-title: Generate a forecast
+title:  Generate a forecast
 description: Read about how generate a demand forecast in Dynamics 365 Supply Chain Management
 ms.date: 08/22/2022
 ms.topic: conceptual

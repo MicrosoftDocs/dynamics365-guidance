@@ -1,5 +1,5 @@
 ﻿---
-title: Plan the tests
+title:  Plan the tests
 description: Learn how to build a test plan that accounts for scope, the right types of tests, and the most important business processes in a Dynamics 365 solution.
 ms.date: 05/17/2023
 ms.topic: conceptual

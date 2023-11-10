@@ -1,5 +1,5 @@
 ---
-title: Key factors affected by an environment strategy
+title:  Key factors affected by an environment strategy
 description: In this article, we explore the key factors directly affected by an environment strategy, including security and compliance, ALM, operations, and functional and nonfunctional aspects of the solution. Considering these key factors will help you define an environment strategy that meets the needs of your organization, and set the direction for the future growth of these applications to meet evolving business requirements.
 author: abunduc-ms
 ms.author: abunduc

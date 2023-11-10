@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support scope
+title:  Transition to support - support scope
 description: This article is illustrates the importance of defining the support scope and the different aspects involved in a support model in Dynamics 365 implementation projects.
 author: taksatoms
 ms.author: tsato

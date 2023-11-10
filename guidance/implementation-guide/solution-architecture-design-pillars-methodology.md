@@ -1,5 +1,5 @@
 ---
-title: Solution architecture design pillars methodologies
+title:  Solution architecture design pillars methodologies
 description: Learn about methodologies that you can adopt as part of your solution architecture. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
 author: edupont04
 ms.author: veneva

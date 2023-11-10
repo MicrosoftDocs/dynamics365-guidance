@@ -1,5 +1,5 @@
 ---
-title: Overview of TechTalk videos  
+title:  Overview of TechTalk videos  
 description: Review the list of recent TechTalks with the subject-matter experts from the FastTrack team for Dynamics 365.
 author: alcabral
 ms.author: edupont

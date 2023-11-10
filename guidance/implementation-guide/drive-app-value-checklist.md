@@ -1,5 +1,5 @@
 ﻿---
-title: Checklist for driving app value
+title:  Checklist for driving app value
 description: Review the checklist for how to approach a business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

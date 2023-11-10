@@ -1,9 +1,9 @@
 ---
-title: Product-specific guidance
+title:  Product-specific guidance
 description: In this article, we explore product-specific guidance for environment strategies in Dynamics 365 implementations.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 02/25/2023
+ms.date: 11/03/2023
 ms.topic: conceptual
 
 ---
@@ -140,8 +140,12 @@ Now we're going to focus on product-specific resources that apply to [Power Plat
 
 ### Environments and Dataverse in Power Platform
 
-For each [environment](/power-platform/admin/environments-overview) created under a Microsoft Entra ID tenant, its resources can only be accessed by users within that tenant. An environment is also bound to a geographic location, such as the United States. When you create an app in an environment, that app is routed only to datacenters in that geographic location. Any items that you create in that environment, including connections, gateways, and flows using [Power Automate](/power-automate/getting-started), are also bound to their environment's location. Every environment can have up to one [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) database, which provides storage for your apps.
-![Dataverse environment](media/environmentstrategy-dataverse.png)
+For each [environment](/power-platform/admin/environments-overview) created under a Microsoft Entra ID tenant, its resources can only be accessed by users within that tenant. An environment is also bound to a geographic location, such as the United States. When you create an app in an environment, that app is routed only to datacenters in that geographic location. Any items that you create in that environment, including connections, gateways, and flows using [Power Automate](/power-automate/getting-started), are also bound to their environment's location. Every environment can have one [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) database, which provides storage for your apps.  
+
+:::image type="content" source="media/environments-dataverse-tenant.svg" alt-text="Organization chart under Microsoft Entra ID tenant, Contoso Corp, with three environments that contain a Dataverse database each." lightbox="media/environments-dataverse-tenant.svg":::
+
+In this example, Contoso Corp has chosen to have a production environment for each geography where they have a legal entity. Each production environment then contains a Dataverse instance and the apps that employees of that legal entity need. User D is the only employee that has access to all three production environments.
+<!-- ![Dataverse environment](media/environmentstrategy-dataverse.png) -->
 
 ### Dynamics 365 products and Power Apps
 
@@ -167,11 +171,12 @@ There isn't a standard answer or blanket approach that will work for all apps wi
 
 ### Multiple-app environment
 
-In a multiple-app environment scenario, a single production environment is used for multiple apps. For example, the production environment might have the Dynamics 365 Marketing and Sales apps to enable collaboration between the marketing and sales teams, and facilitate a quick transfer of qualified leads to sales representatives. Similarly, having the Sales and Customer Service apps in the same environment gives the sales team insights into customer support experiences, which could affect ongoing deals.
+In a multiple-app environment scenario, a single production environment is used for multiple apps. For example, the production environment might have the Dynamics 365 Sales and Customer Insights - Journeys apps to enable collaboration between the marketing and sales teams, and facilitate a quick transfer of qualified leads to sales representatives. Similarly, having the Sales and Customer Service apps in the same environment gives the sales team insights into customer support experiences, which could affect ongoing deals.
 
-![Multiple-app environment](media/environmentstrategy-multipleappenvironment.png)
+:::image type="content" source="media/environments-multi-app.svg" alt-text="Diagram with production environment for Contoso and bubbles with the names of five Dynamics 365 apps." lightbox="media/environments-multi-app.svg":::
+<!-- ![Multiple-app environment](media/environmentstrategy-multipleappenvironment.png) -->
 
-With multiple-app deployment, the app data, security models, and data models are in a common repository, allowing the apps to reuse any integrations. The security model design will be used to limit access to data for each app, with the user experience defined by the individual app. For example, the Sales and Marketing apps might use the same lead table, but security roles and the app definition will control access to records, fields, and processes.
+With multiple-app deployment, the app data, security models, and data models are in a common repository, allowing the apps to reuse any integrations. The security model design will be used to limit access to data for each app, with the user experience defined by the individual app. For example, the Sales and Customer Insights apps might use the same lead table, but security roles and the app definition will control access to records, fields, and processes.
 
 Let's examine some of the pros and cons for the multiple-app deployment model.
 
@@ -203,7 +208,10 @@ Let's examine some of the pros and cons for the multiple-app deployment model.
 
 In a per-app deployment model, every application gets its own production environment, with a separate set of environments to support the underlying ALM and release process. There's complete isolation of the data, schema, and security model. A per-app environment might seem simpler from a deployment perspective, but it can create data silos such that one business process can't easily benefit from sharing information with another, leading to extra effort in building complex integrations.
 
-![Per-app environment](media/environmentstrategy-perappenvironment.png)
+The following diagram illustrates Contoso's choice to have three production environments and install a single Dynamics 365 app in each of them.  
+
+:::image type="content" source="media/environments-single-app.svg" alt-text="Diagram with three production environments for Contoso and a single Dynamics 365 app listed for each environment." lightbox="media/environments-single-app.svg":::
+<!-- ![Per-app environment](media/environmentstrategy-perappenvironment.png) -->
 
 Also, the security model is defined for each environment. You can't use the platform security constructs to define which data from one environment will be accessible to a user in a different environment.
 

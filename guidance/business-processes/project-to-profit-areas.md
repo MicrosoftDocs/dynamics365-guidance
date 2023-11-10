@@ -1,5 +1,5 @@
 ﻿---
-title: Project to profit business process areas
+title:  Project to profit business process areas
 description: Get an overview for each of the business process areas in the project to profit end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 10/20/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Forecast demand from multiple sources
+title:  Forecast demand from multiple sources
 description: Read about Forecast demand from multiple sources in Supply Chain
 ms.date: 08/25/2022
 ms.topic: conceptual

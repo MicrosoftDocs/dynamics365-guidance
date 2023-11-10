@@ -1,5 +1,5 @@
 ---
-title: Acquire assets overview
+title:  Acquire assets overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to acquire assets.
 ms.date: 08/31/2023
 ms.topic: conceptual

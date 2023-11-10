@@ -1,5 +1,5 @@
 ﻿---
-title: Define a strategy for deployment and release
+title:  Define a strategy for deployment and release
 description: Find guidance for how to develop a strategy for deploying your Dynamics 365 implementation.
 ms.date: 04/27/2023
 ms.topic: conceptual

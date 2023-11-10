@@ -1,5 +1,5 @@
 ---
-title: Change management checklist
+title:  Change management checklist
 description: View a detailed checklist for several aspects of change management in the creation of an effective Dynamics 365 solution.
 author: taksatoms
 ms.author: tsato

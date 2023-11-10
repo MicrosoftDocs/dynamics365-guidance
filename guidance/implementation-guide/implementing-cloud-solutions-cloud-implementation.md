@@ -1,5 +1,5 @@
 ﻿---
-title: Cloud implementation considerations
+title:  Cloud implementation considerations
 description: Learn how Dynamics 365 helps you with security, scalability, performance, data isolation, limits, and capacity before you start an implementation project.
 author: taksatoms
 ms.author: tsato

@@ -1,5 +1,5 @@
 ﻿---
-title: Guidelines for customer engagement apps
+title:  Guidelines for customer engagement apps
 description: Get recommendations and resources provided to help manage modeling, storage, migration and data archival for customer engagement apps in Dynamics 365 solutions. 
 author: vaniaf
 ms.author: vaniaf

@@ -1,5 +1,5 @@
 ﻿---
-title: Acquire to dispose introduction
+title:  Acquire to dispose introduction
 description: Get an introduction to the acquire to dispose end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their acquire to dispose processes.
 ms.date: 04/05/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Choose a design for integration
+title:  Choose a design for integration
 description: Find guidance on how to choose the right design for your Dynamics 365 apps integration strategy.
 author: abunduc-ms
 ms.author: abunduc

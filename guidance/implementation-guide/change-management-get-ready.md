@@ -1,5 +1,5 @@
 ---
-title: Get the organization ready
+title:  Get the organization ready
 description: Read about the change manager's tasks during the final stages of the Dynamics 365 implementation project. Learn how to get users and their organization ready to use the solution.
 author: taksatoms
 ms.author: tsato

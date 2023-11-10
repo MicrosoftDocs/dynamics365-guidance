@@ -1,5 +1,5 @@
 ---
-title: Extend your solution
+title:  Extend your solution
 description: Learn how to extend Dynamics 365 applications to accommodate your organization’s specific processes and requirements and understand the impact of these extensions.
 author: abunduc-ms
 ms.author: abunduc

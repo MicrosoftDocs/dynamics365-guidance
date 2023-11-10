@@ -1,5 +1,5 @@
 ﻿---
-title: Case study in driving app value
+title:  Case study in driving app value
 description: Review a case study of a business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

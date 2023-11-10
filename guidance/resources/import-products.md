@@ -1,5 +1,5 @@
 ﻿---
-title: Import products in Dynamics 365 projects
+title:  Import products in Dynamics 365 projects
 description: Learn which data entities can help you migrate data for products in Dynamics 365 implementation projects.
 ms.date: 05/02/2023
 ms.topic: conceptual

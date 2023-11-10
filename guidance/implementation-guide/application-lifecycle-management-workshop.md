@@ -1,5 +1,5 @@
 ---
-title: Application lifecycle management workshop
+title:  Application lifecycle management workshop
 description: Get more details about the Application Lifecycle Workshop with the FastTrack team.
 author: abunduc-ms
 ms.author: abunduc

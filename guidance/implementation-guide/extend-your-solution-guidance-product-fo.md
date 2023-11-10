@@ -1,5 +1,5 @@
 ---
-title: Extend finance and operations apps
+title:  Extend finance and operations apps
 description: Find guidance on how we can extend functionality to accommodate your organization’s specific processes and requirements, with a focus on Dynamics 365 finance and operations apps.
 author: abunduc-ms
 ms.author: abunduc

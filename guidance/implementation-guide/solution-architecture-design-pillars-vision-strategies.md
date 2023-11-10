@@ -1,5 +1,5 @@
 ---
-title: Solution architecture design vision and strategies
+title:  Solution architecture design vision and strategies
 description: Learn how well-defined vision and strategies will help you build the right solution. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
 author: edupont04
 ms.author: veneva

@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 implementation guidance
+title:  Dynamics 365 implementation guidance
 description: Learn about the types of guidance Microsoft provides for organizations that are implementing a Dynamics 365 solution.
 author: edupont04
 ms.author: edupont

@@ -1,5 +1,5 @@
-﻿---
-title: Inventory to deliver business process areas
+---
+title:  Inventory to deliver business process areas
 description: Get an overview for each of the business process areas in the inventory to deliver end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 07/25/2023
 ms.topic: conceptual
@@ -44,9 +44,9 @@ This process area involves picking, packing, and shipping goods to customers and
 
 ## Manage freight and transportation
 
-This process area involves managing freight and transportation activities, such as managing carriers, negotiating rates, and reconciling freight costs. It includes setting up transportation policies, managing freight contracts, and optimizing shipping processes.  
+This process area involves managing freight and transportation activities, such as managing carriers, negotiating rates, and reconciling freight costs. It includes setting up transportation policies, managing freight contracts, and optimizing shipping processes.
 
-Learn more at [Manage freight and transportation overview](inventory-to-deliver-manage-freight-transportation.md).  
+Learn more at [Manage freight and transportation overview](inventory-to-deliver-manage-freight-transportation.md).
 
 ## Control vendor managed inventory and consignment inventory
 
