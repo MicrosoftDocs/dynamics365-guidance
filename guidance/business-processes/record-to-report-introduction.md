@@ -1,5 +1,5 @@
 ﻿---
-title: Record to report introduction
+title:  Record to report introduction
 description: Get an introduction to the record to report end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their record to report processes.
 ms.date: 04/05/2023
 ms.topic: conceptual

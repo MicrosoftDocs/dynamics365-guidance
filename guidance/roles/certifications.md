@@ -1,5 +1,5 @@
 ---
-title: Available certifications for Dynamics 365 roles
+title:  Available certifications for Dynamics 365 roles
 description: Get an overview of Microsoft Certifications for Dynamics 365-specific roles across customer engagement, finance, operations, and Power Platform.
 author: edupont04
 ms.author: edupont

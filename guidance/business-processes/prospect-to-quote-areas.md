@@ -1,5 +1,5 @@
 ﻿---
-title: Prospect to quote business process areas
+title:  Prospect to quote business process areas
 description: Get an overview for each of the business process areas in the prospect to quote end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 10/31/2023
 ms.topic: conceptual

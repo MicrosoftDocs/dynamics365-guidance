@@ -1,5 +1,5 @@
 ﻿---
-title: An approach to digital transformation
+title:  An approach to digital transformation
 description: Learn how to approach a business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

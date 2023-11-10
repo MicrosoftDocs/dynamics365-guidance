@@ -1,5 +1,5 @@
 ---
-title: Introduction to the implementation tools and samples
+title:  Introduction to the implementation tools and samples
 description: Get an overview of the tools and samples Microsoft provides to help you implement solutions with Dynamics 365.
 author: edupont04
 ms.author: edupont

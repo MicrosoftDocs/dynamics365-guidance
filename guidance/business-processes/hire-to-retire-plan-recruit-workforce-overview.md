@@ -1,5 +1,5 @@
 ---
-title: Plan and recruit your workforce overview
+title:  Plan and recruit your workforce overview
 description: Read about the business process area for planning and recruiting your workforce in Dynamics 365.
 ms.date: 07/11/2023
 ms.topic: conceptual

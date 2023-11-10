@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support operations
+title:  Transition to support - support operations
 description: This article discusses strategy and consideration when transitioning into the support plan developed by the organization for Dynamics 365 implementation projects.
 author: taksatoms
 ms.author: tsato

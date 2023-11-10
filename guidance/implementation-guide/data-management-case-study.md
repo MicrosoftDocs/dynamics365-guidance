@@ -1,5 +1,5 @@
 ﻿---
-title: Data Management Case Study
+title:  Data Management Case Study
 description: This case study explores a global travel company that had their customer data divided across several applications and databases, making it difficult to maintain and use consistently. By moving to Dynamics 365, they were able to find a way to store all the customer data responsibly so that they could easily request, update, and delete it as necessary.
 author: vaniaf
 ms.author: vaniaf

@@ -1,5 +1,5 @@
 ---
-title: Track production costs overview
+title:  Track production costs overview
 description: Get an overview of the business process area for tracking production cost in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 07/25/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Define the training schedule
+title:  Define the training schedule
 description: Find guidance about how to define a schedule for the training plan in your Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual

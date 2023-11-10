@@ -1,5 +1,5 @@
 ---
-title: The data estate and data modernization
+title:  The data estate and data modernization
 description: Learn about the data estate and data modernization.
 author: TimoGossen
 ms.author: timogoss

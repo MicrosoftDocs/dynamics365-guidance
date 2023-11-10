@@ -1,5 +1,5 @@
 ﻿---
-title: Stay evergreen with Dynamics 365 online
+title:  Stay evergreen with Dynamics 365 online
 description: Learn how your solution stays always updated and with the latest security updates when it includes Dynamics 365 online.   
 author: taksatoms
 ms.author: tsato

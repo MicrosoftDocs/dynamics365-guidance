@@ -1,5 +1,5 @@
 ---
-title: ALM strategy for Dynamics 365 solutions
+title:  ALM strategy for Dynamics 365 solutions
 description: Get guidance for aspects of the application lifecycle management (ALM) strategy specific to Dynamics 365 applications.
 author: abunduc-ms
 ms.author: abunduc

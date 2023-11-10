@@ -1,5 +1,5 @@
 ---
-title: Pattern - Create a functional and technical design document
+title:  Pattern - Create a functional and technical design document
 description: Read about the template for functional and technical design documents that you can use in Dynamics 365 implementation projects.
 ms.date: 09/06/2023
 ms.topic: conceptual

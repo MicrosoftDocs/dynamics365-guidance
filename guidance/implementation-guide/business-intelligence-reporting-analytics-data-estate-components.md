@@ -1,5 +1,5 @@
 ---
-title: Components of the modern data estate
+title:  Components of the modern data estate
 description: Learn how you can integrate services from across Dynamics 365 and get consolidated reports.
 author: TimoGossen
 ms.author: timogoss

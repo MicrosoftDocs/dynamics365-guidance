@@ -1,5 +1,5 @@
 ﻿---
-title: Plan and budget assets overview
+title:  Plan and budget assets overview
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to plan and budget assets.
 ms.date: 09/08/2023
 ms.topic: conceptual

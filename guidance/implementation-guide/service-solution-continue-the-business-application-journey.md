@@ -1,5 +1,5 @@
 ﻿---
-title: Continue the business application journey
+title:  Continue the business application journey
 description: Understanding the importance of continuing to educate yourself in a SaaS platform such as Dynamics 365.  As new features and capabilities become available, use the resources available to maximize your investment in the Dynamics 365 platform. Read the case study to understand the importance of continuing to service the solution as application usage grows.
 author: taksatoms
 ms.author: tsato

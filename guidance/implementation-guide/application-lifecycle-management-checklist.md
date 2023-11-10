@@ -1,5 +1,5 @@
 ---
-title: Application lifecycle management checklist
+title:  Application lifecycle management checklist
 description: A comprehensive checklist targeting the ALM strategy.
 author: abunduc-ms
 ms.author: abunduc

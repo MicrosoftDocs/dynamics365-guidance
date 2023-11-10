@@ -1,5 +1,5 @@
 ﻿---
-title: Go live with finance and operations apps
+title:  Go live with finance and operations apps
 description: Learn how to prepare for go-live with finance and operations apps by reviewing key activities for go-live readiness, best practices, tips, and common pitfalls to ensure a successful deployment.
 ms.date: 10/02/2023
 ms.topic: conceptual

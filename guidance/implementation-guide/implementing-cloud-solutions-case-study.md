@@ -1,5 +1,5 @@
 ﻿---
-title: Case study for implementing cloud solutions
+title:  Case study for implementing cloud solutions
 description: Review a case study for cloud implementation, including customizations and operating in the cloud with Dynamics 365.  
 author: taksatoms
 ms.author: tsato

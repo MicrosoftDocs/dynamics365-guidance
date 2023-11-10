@@ -1,5 +1,5 @@
 ---
-title: Implementation strategy
+title:  Implementation strategy
 description: Find guidance on the key aspects of a well-rounded implementation strategy that delivers on the promise of digital transformation. We define business drivers and quantifiable metrics to measure a successful implementation.
 author: edupont04
 ms.author: veneva

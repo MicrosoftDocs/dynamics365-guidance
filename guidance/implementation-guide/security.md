@@ -1,5 +1,5 @@
 ---
-title: Security strategy overview
+title:  Security strategy overview
 description: Review the fundamental security principles for Dynamics 365 implementations. Read the security measures that Microsoft includes in Dynamics 365.
 author: riblack-microsoft
 ms.author: riblack

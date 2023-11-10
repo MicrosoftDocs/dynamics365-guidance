@@ -1,5 +1,5 @@
 ---
-title: Data management overview
+title:  Data management overview
 description: Learn how data governance, architecture, modeling, storage, migration, integration, and quality can help you make informed decisions. This article discusses how admins need to think about their data holistically, not just for implementation but as a long-term asset. You can improve your customer engagement, and gather real-time information about your products in the field. We examine the various ways that data management plays a role in the creation of an effective Dynamics 365 solution.
 author: vaniaf
 ms.author: vaniaf

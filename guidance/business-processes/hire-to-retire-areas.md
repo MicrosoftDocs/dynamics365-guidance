@@ -1,5 +1,5 @@
 ---
-title: Hire to retire business process areas
+title:  Hire to retire business process areas
 description: Get an overview for each of the business process areas in the hire to retire end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 06/29/2023
 ms.topic: conceptual

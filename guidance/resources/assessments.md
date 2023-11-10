@@ -1,5 +1,5 @@
 ---
-title: What are assessments for Dynamics 365 implementations?
+title:  What are assessments for Dynamics 365 implementations?
 description: Discover assessments to help implement Dynamics 365 solutions, build new capabilities, and maximize sales methods & resources with Microsoft's Assessments.
 author: edupont04
 ms.author: edupont

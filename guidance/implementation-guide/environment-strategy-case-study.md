@@ -1,5 +1,5 @@
 ---
-title: Environment strategy case study
+title:  Environment strategy case study
 description: In this article, we explore a case study that shows how a thorough environment strategy is key to the success of an implementation strategy.
 author: abunduc-ms
 ms.author: abunduc

@@ -1,5 +1,5 @@
 ---
-title: Choose a platform for integration
+title:  Choose a platform for integration
 description: Find guidance on how to choose the right platform for your Dynamics 365 apps integration strategy.
 author: abunduc-ms
 ms.author: abunduc

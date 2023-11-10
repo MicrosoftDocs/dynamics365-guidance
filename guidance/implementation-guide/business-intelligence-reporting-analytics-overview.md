@@ -1,5 +1,5 @@
 ---
-title: Business intelligence, reporting, and analytics
+title:  Business intelligence, reporting, and analytics
 description: Learn how businesses can use data to make informed decisions. We cover the evolution of business intelligence solutions, and how your organization can build a data estate based on modern components, on top of solutions that support augmented analytics and embedded intelligence. We help you define and create reporting and analytics strategies to help gain deeper insights from the data being collected.
 author: TimoGossen
 ms.author: timogoss

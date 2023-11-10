@@ -1,5 +1,5 @@
 ﻿---
-title: Acquire to dispose overview
+title:  Acquire to dispose overview
 description: Read about how Dynamics 365 supports the acquire to dispose business process.
 ms.date: 04/05/2023
 ms.topic: conceptual

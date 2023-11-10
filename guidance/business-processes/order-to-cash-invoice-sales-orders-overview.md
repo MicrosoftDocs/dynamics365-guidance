@@ -1,5 +1,5 @@
 ﻿---
-title: Invoice sales orders overview
+title:  Invoice sales orders overview
 description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing sales orders.
 ms.date: 05/31/2023
 ms.topic: overview

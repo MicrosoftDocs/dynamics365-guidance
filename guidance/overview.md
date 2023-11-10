@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 guidance overview
+title:  Dynamics 365 guidance overview
 description: Get an introduction to the types of guidance content, best practices, and recommendations Microsoft publishes for Dynamics 365.
 author: edupont04
 ms.author: edupont

@@ -1,5 +1,5 @@
 ﻿---
-title: Production environment readiness
+title:  Production environment readiness
 description: Learn how to prepare the production environment for the successful deployment of a Microsoft Dynamics 365 solution, including assigning security roles, setting configurations, and running integrations.
 ms.date: 06/06/2023
 ms.topic: conceptual

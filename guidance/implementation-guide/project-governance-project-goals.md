@@ -1,5 +1,5 @@
 ﻿---
-title: Project goals
+title:  Project goals
 description: Read about the importance of project goals in Dynamics 365 implementation projects.
 author: TimoGossen
 ms.author: timogoss

@@ -1,5 +1,5 @@
 ---
-title: What is the administration guide?
+title:  What is the administration guide?
 description: Get started with best practices for how to administer Dynamics 365 solutions. 
 author: edupont04
 ms.author: edupont

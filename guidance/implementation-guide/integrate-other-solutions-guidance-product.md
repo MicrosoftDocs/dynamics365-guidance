@@ -1,5 +1,5 @@
 ---
-title: Product-specific guidance for integration scenarios
+title:  Product-specific guidance for integration scenarios
 description: Find guidance on the aspects specific to the individual Dynamics 365 apps, in terms of integration strategy.
 author: abunduc-ms
 ms.author: abunduc

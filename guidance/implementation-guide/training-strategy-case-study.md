@@ -1,5 +1,5 @@
 ---
-title: Case study for your training strategy
+title:  Case study for your training strategy
 description: Read a case study about an organization that added a training plan to its Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual

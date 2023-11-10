@@ -1,5 +1,5 @@
 ---
-title: Define business goals for integration projects
+title:  Define business goals for integration projects
 description: Find guidance on how to define your Dynamics 365 integration strategy so that it aligns with your business goals.
 author: abunduc-ms
 ms.author: abunduc

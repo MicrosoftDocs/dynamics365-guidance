@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support models
+title:  Transition to support - support models
 description: This article is covers the different support models for a Dynamics 365 implementation and considerations when choosing a model.
 author: taksatoms
 ms.author: tsato

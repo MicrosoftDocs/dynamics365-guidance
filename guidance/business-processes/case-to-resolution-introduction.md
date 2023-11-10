@@ -1,5 +1,5 @@
 ﻿---
-title: Case to resolution introduction
+title:  Case to resolution introduction
 description: Get an introduction to an end-to-end business process, case to resolution. This article provides a high-level overview of the business process, and lists key benefits and stakeholders.
 ms.date: 04/05/2023
 ms.topic: conceptual

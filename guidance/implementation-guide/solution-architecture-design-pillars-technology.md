@@ -1,5 +1,5 @@
 ---
-title: Solution architecture design pillar technology
+title:  Solution architecture design pillar technology
 description: Learn how understanding your needs and having a vision are the most important first steps in building the right solution. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
 author: edupont04
 ms.author: veneva

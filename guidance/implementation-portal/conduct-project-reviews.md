@@ -1,5 +1,5 @@
 ﻿---
-title: Conduct project reviews
+title:  Conduct project reviews
 description: Learn how to conduct project reviews in Dynamics 365 Implementation Portal.
 ms.date: 07/05/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Design for performance
+title:  Design for performance
 description: Learn how to design for performance in Dynamics 365 projects by considering the right tool for the job, scalability, and responsiveness.
 author: TimoGossen
 ms.author: timogoss

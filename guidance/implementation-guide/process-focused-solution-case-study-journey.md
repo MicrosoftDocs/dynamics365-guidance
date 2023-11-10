@@ -1,5 +1,5 @@
 ﻿---
-title: Case study - The journey to a process-focused solution
+title:  Case study - The journey to a process-focused solution
 description: In this article, we explore a case study that shows how an organization found their way to a process-focused solution.  
 ms.date: 03/10/2023
 ms.topic: conceptual

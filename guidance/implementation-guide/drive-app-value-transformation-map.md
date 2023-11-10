@@ -1,5 +1,5 @@
 ﻿---
-title: Transformation map
+title:  Transformation map
 description: Learn about the transformation map that can help the business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

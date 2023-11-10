@@ -1,5 +1,5 @@
 ﻿---
-title: An inside look at Success by Design
+title:  An inside look at Success by Design
 description: Get an inside view at how Success by Design came about inside Microsoft, and how it's evolving.
 ms.date: 03/24/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Set customer credit limits for a group of customers pattern
+title:  Set customer credit limits for a group of customers pattern
 description: Set customer credit limits for a group of customers using Dynamics 365 to manage credit limits.
 ms.date: 02/06/2023
 ms.topic: conceptual

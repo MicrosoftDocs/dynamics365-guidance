@@ -1,5 +1,5 @@
 ﻿---
-title: Implement cloud solutions
+title:  Implement cloud solutions
 description: Find guidance on what it means to implement cloud solutions with Dynamics 365. Start the journey towards a solution that is based on Dynamics 365 online.
 author: taksatoms
 ms.author: tsato

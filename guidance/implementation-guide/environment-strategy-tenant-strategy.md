@@ -1,5 +1,5 @@
 ---
-title: Tenant strategy
+title:  Tenant strategy
 description: Get more insights into how to look at a tenant strategy, from the perspective of data isolation, application management and other factors.
 author: abunduc-ms
 ms.author: abunduc

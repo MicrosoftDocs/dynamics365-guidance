@@ -1,5 +1,5 @@
 ---
-title: Security Checklist
+title:  Security Checklist
 description: The security checklist helps organizations identify and prioritize their key requirements and implementation activities in the areas of privacy and compliance, identify and access, and application security. 
 author: riblack-microsoft
 ms.author: riblack

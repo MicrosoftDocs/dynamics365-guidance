@@ -1,5 +1,5 @@
 ---
-title: Training process and best practices
+title:  Training process and best practices
 description: Find best practices for the training strategy in Dynamics 365 implementation projects.
 ms.date: 06/20/2023
 ms.topic: conceptual
