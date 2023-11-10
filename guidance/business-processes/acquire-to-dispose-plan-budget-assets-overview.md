@@ -111,7 +111,7 @@ Planning and budgeting require evaluation of both the needs of the business and 
 
 ### Risk management
 
-Effective asset planning and budgeting enables organizations to assess potential risks, such as redundant assets, equipment failures, end-of-life software, and any noncompliant practices. This information can help them create a proactive maintenance and replacement plan that can reduce the operational risks and, in turn, optimize asset lifecycle.
+With effective planning and budgeting of assests, organizations can assess potential risks, such as redundant assets, equipment failures, end-of-life software, and any noncompliant practices. This information can help them create a proactive maintenance and replacement plan that can reduce the operational risks and, in turn, optimize asset lifecycle.
 
 ### Improved asset lease management
 
@@ -144,7 +144,7 @@ You can use the following resources to learn more about the *plan and budget ass
 - [Fixed assets home page (Finance)](/dynamics365/finance/fixed-assets/fixed-assets)
 - [Asset leasing home page (Finance)](/dynamics365/finance/asset-leasing/asset-leasing-homepage)
 - [Configure and manage fixed assets and asset leasing in Dynamics 365 Finance (training)](/training/paths/configure-manage-fixed-assets-dyn365-finance/)
-- Find definitions of terminology that is used in content for *plan and budget assets* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+- Find definitions of terminology that is used in content for *plan and budget assets* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. Relevant terms include the following:
 
     - [Asset classification](glossary.md#asset-classification)
     - [Capital assets](glossary.md#capital-assets)
