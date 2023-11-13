@@ -73,7 +73,7 @@ The longevity of the asset determines whether it's a current asset or a fixed as
 
 Here are some examples of tangible assets and intangible assets:
 
-- A physical property is typically identified as a tangible asset. Examples of tangible assets include buildings, machinery, and land. They're generally considered long-term assets in financial statements.
+- Physical property is typically identified as a tangible asset. Examples of tangible assets include buildings, machinery, and land. They're generally considered long-term assets in financial statements.
 
 - Intangible assets include items that can't be touched but that have value, such as a patent, software, and goodwill.
 
@@ -172,11 +172,11 @@ The defined marketing expenditure allocated to a specific marketing campaign.
 
 ### Capital asset budget
 
-Typically, you define [fixed assets](#fixed-asset) as capital assets when you hold them for a year or longer and you assign them a [depreciation](#depreciation) profile over their life span. Capital assets are often [tangible assets](#asset-classification).
+The capital asset budget helps an organization plan the purchase of assets that it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
 
 ### Capital assets
 
-The capital asset budget helps an organization to plan the purchase of assets it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
+Typically, you define [fixed assets](#fixed-asset) as capital assets when you hold them for a year or longer and assign them a [depreciation](#depreciation) profile over their lifespan. Capital assets are often [tangible assets](#asset-classification).
 
 ### Cashflow statement
 
@@ -381,7 +381,7 @@ Depreciation is a key accounting concept that allocates the cost of an asset ove
 
 - **Manual**: You enter the percentage depreciation for each interval in the calendar year.
 
-Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods), respectively.
+Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods).
 
 ### Direct expenses 
 
@@ -622,9 +622,9 @@ A numeric rating assigned to a lead to indicate sales-readiness based on engagem
 
 ### Lease contracts
 
-A lease contract is a legal document that describes the terms under which the owner of an asset, the lessor, agrees to let a user, the lessee, make use of the asset and which the lessee agrees to uphold.
+A lease contract is a legal document that describes the terms under which the owner of an asset (the lessor) agrees to let a user (the lessee) use the asset. The lessee, in turn, agrees to uphold the terms. 
 
-Dynamics 365 Finance offers [asset leasing](/dynamics365/finance/asset-leasing/asset-leasing-homepage) capabilities, which comply with international accounting standards (IFRS 16) and US GAAP standards (ASC 842).
+Dynamics 365 Finance offers [asset leasing](/dynamics365/finance/asset-leasing/asset-leasing-homepage) capabilities that comply with international accounting standards (IFRS 16) and US GAAP standards (ASC 842).
 
 ### Lease payment schedule
 
@@ -632,7 +632,7 @@ A lease payment schedule is the predetermined timeline and structure for making 
 
 ### Leased assets
 
-[Assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both agree to are called leased assets. They're different from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house or an apartment or a piece of equipment.
+Leased assets are [assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both parties agree to. They differ from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house, an apartment, or a piece of equipment.
 
 ### Legal entity
 
@@ -658,7 +658,7 @@ Maintenance involves procedural activities that help to extend the life of an as
 
 ### Maintenance budget
 
-The cost of maintaining assets is planned and managed with a maintenance budget. Maintenance budgets typically consider factors like the [maintenance plan](#maintenance-plan) for the asset, the location of the asset, historical data, and the cost of resources.
+The cost of maintaining assets is planned and managed by using a maintenance budget. Maintenance budgets typically consider factors such as the [maintenance plan](#maintenance-plan) for the asset, the location of the asset, historical data, and the cost of resources.
 
 ### Maintenance checklist
 
