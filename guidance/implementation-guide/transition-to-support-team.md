@@ -1,5 +1,5 @@
 ﻿---
-title:  Transition to support - the support team
+title: Transition to support - the support team
 description: This article is covers guidance for how to set up the team that handles technical support for your Dynamics 365 implementation.
 author: taksatoms
 ms.author: tsato

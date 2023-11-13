@@ -1,5 +1,5 @@
 ---
-title:  Challenges in integration projects
+title: Challenges in integration projects
 description: Find guidance on how to proactively identify and mitigate the challenges of your integration strategy in a Dynamics 365 implementation project.
 author: abunduc-ms
 ms.author: abunduc

@@ -1,5 +1,5 @@
 ﻿---
-title:  Estimate and quote sales overview
+title: Estimate and quote sales overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to estimate and quote sales.
 ms.date: 11/01/2023
 ms.topic: conceptual

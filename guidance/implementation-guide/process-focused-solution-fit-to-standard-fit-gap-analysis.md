@@ -1,5 +1,5 @@
 ﻿---
-title:  The Fit-to-standard and Fit-gap analysis 
+title: The Fit-to-standard and Fit-gap analysis 
 description: Learn how revising current processes can help organizations determine what to change, what to keep, and which new opportunities lie ahead in their Dynamics 365 implementation.  
 ms.date: 03/16/2023
 ms.topic: conceptual

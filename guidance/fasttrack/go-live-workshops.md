@@ -1,5 +1,5 @@
 ---
-title:  Go-live Readiness workshops
+title: Go-live Readiness workshops
 description: The Go-live Readiness workshop is designed to help guarantee a successful go-live of projects.
 ms.author: jedinh
 ms.date: 01/30/2023

@@ -1,5 +1,5 @@
 ﻿---
-title:  Key project areas
+title: Key project areas
 description: Read about application lifecycle management, test strategies, data migration, integration, cutover, and training strategies as key areas of project governance in Dynamics 365 implementations.
 author: TimoGossen
 ms.author: timogoss

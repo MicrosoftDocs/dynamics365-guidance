@@ -1,5 +1,5 @@
 ---
-title:  Product-specific guidance
+title: Product-specific guidance
 description: In this article, we explore product-specific guidance for environment strategies in Dynamics 365 implementations.
 author: abunduc-ms
 ms.author: abunduc

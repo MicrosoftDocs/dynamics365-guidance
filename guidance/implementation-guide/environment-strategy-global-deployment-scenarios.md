@@ -1,5 +1,5 @@
 ---
-title:  Global deployment scenarios
+title: Global deployment scenarios
 description: This section focuses on two common app-deployment models that can help you find the best option for your Dynamics 365 deployment. The article covers the tradeoffs, pros, and cons when choosing one approach over the other.
 author: abunduc-ms
 ms.author: abunduc

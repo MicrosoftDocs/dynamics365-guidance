@@ -1,5 +1,5 @@
 ﻿---
-title:  Project governance conclusions
+title: Project governance conclusions
 description: Get the main points for how to run an implementation project with Dynamics 365 apps.
 author: TimoGossen
 ms.author: timogoss

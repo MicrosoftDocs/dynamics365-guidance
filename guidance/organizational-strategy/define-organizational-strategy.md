@@ -1,5 +1,5 @@
 ---
-title:  Define the organizational structure
+title: Define the organizational structure
 description: Learn how the organizational structure determines how you can configure and deploy Dynamics 365 for business processes.
 ms.date: 10/05/2023
 ms.topic: conceptual

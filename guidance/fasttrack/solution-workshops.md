@@ -1,5 +1,5 @@
 ---
-title:  Solution Blueprint Review workshops
+title: Solution Blueprint Review workshops
 description: The Solution Blueprint Review workshop serves as the starting point of Success by Design.
 ms.author: jedinh
 ms.date: 12/18/2020

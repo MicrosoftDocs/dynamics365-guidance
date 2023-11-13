@@ -1,5 +1,5 @@
 ﻿---
-title:  Transition to support - Case study
+title: Transition to support - Case study
 description: This article provides a case study for how to transition to support at the end of an implementation of Dynamics 365.
 author: taksatoms
 ms.author: tsato

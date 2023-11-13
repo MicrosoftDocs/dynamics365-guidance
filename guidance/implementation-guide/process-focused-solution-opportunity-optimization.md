@@ -1,5 +1,5 @@
 ﻿---
-title:  Opportunity for optimization
+title: Opportunity for optimization
 description: Learn how you can fine-tune your existing business processes as part of your Dynamics 365 implementation.
 ms.date: 03/10/2023
 ms.topic: conceptual

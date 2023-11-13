@@ -1,5 +1,5 @@
 ﻿---
-title:  Checklist for project governance
+title: Checklist for project governance
 description: Checklist for project governance in Dynamics 365 implementation projects.
 author: TimoGossen
 ms.author: timogoss

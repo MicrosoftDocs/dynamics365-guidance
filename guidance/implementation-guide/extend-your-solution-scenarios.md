@@ -1,5 +1,5 @@
 ---
-title:  Scenarios for extending Dynamics 365
+title: Scenarios for extending Dynamics 365
 description: Get example scenarios for when and how to extend the standard capabilities in Dynamics 365 implementation projects.
 author: abunduc-ms
 ms.author: abunduc

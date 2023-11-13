@@ -1,5 +1,5 @@
 ---
-title:  Checklist for implementing cloud solutions
+title: Checklist for implementing cloud solutions
 description: Get a short checklist to help you prepare the Dynamics 365 implementation project.  
 author: ReneeW-CPub
 ms.author: renwe

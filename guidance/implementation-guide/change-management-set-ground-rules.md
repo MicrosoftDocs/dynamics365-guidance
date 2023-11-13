@@ -1,5 +1,5 @@
 ---
-title:  Set the ground rules
+title: Set the ground rules
 description: Find guidance for why and how to set ground rules for the Dynamics 365 implementation project.
 author: taksatoms
 ms.author: tsato

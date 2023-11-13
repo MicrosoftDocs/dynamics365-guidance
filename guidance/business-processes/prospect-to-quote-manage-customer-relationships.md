@@ -1,5 +1,5 @@
 ﻿---
-title:  Manage customer relationships overview
+title: Manage customer relationships overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage customer relationships.
 ms.date: 11/01/2023
 ms.topic: conceptual

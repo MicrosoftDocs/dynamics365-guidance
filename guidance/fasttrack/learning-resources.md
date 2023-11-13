@@ -1,5 +1,5 @@
 ---
-title:  Learning resources for implementers
+title: Learning resources for implementers
 description: Learning resources for implementers include TechTalks, community forums, and free learning paths on Microsoft Learn.
 ms.author: jedinh
 author: renwe

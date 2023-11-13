@@ -1,5 +1,5 @@
 ﻿---
-title:  Record to report business process areas
+title: Record to report business process areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 04/05/2023
 ms.topic: conceptual

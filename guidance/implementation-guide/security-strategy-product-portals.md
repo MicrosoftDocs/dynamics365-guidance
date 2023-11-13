@@ -1,5 +1,5 @@
 ---
-title:  Power Pages Security
+title: Power Pages Security
 description: Power Pages allow internal and external users access to the Dataverse. Security in Power Pages has two parts \:\ authentication and authorization.
 author: riblack-microsoft
 ms.author: riblack

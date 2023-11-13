@@ -1,5 +1,5 @@
 ﻿---
-title:  Project governance case study
+title: Project governance case study
 description: In this article, we explore a case study that shows how an organization changed their project governance in a Dynamics 365 implementation project. 
 author: TimoGossen
 ms.author: timogoss

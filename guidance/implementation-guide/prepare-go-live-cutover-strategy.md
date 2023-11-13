@@ -1,5 +1,5 @@
 ﻿---
-title:  Cutover strategy
+title: Cutover strategy
 description: Learn how to plan and execute a successful cutover to transition to a new Microsoft Dynamics 365 solution with minimal disruption.
 ms.date: 06/06/2023
 ms.topic: conceptual

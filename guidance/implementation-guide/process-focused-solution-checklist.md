@@ -1,5 +1,5 @@
 ﻿---
-title:  Checklist for process-focused solutions
+title: Checklist for process-focused solutions
 description: Checklist for process-focused solutions
 ms.date: 03/10/2023
 ms.topic: conceptual

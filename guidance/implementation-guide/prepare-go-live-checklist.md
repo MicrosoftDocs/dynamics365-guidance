@@ -1,5 +1,5 @@
 ﻿---
-title:  Go-live checklist
+title: Go-live checklist
 description: Learn how to use the go-live checklist to verify interactions between all parts of your Microsoft Dynamics 365 solution and implement with confidence.
 ms.date: 06/06/2023
 ms.topic: conceptual

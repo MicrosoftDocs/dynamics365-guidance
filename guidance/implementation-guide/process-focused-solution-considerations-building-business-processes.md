@@ -1,5 +1,5 @@
 ﻿---
-title:  Considerations for building business processes 
+title: Considerations for building business processes 
 description: Learn how having a process-focused solution view of your implementation that will bring more quality, optimization, and standardization in your business.
 ms.date: 03/16/2023
 ms.topic: conceptual

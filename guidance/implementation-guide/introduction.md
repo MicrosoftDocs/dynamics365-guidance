@@ -1,5 +1,5 @@
 ﻿---
-title:  Introduction to the implementation guide
+title: Introduction to the implementation guide
 description: Meet the Dynamics 365 implementation guide and start learning the concepts behind successful implementations.
 author: timogossen
 ms.author: timogoss

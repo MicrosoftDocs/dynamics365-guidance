@@ -1,5 +1,5 @@
 ﻿---
-title:  Guidelines for finance and operations apps and data management
+title: Guidelines for finance and operations apps and data management
 description: This chapter includes recommendations and resources provided for Operations. We examine the various data management tool sets and data maintenance cleanup schedules. 
 author: vaniaf
 ms.author: vaniaf

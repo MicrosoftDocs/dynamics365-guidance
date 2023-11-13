@@ -1,5 +1,5 @@
 ﻿---
-title:  Govern projects overview
+title: Govern projects overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to govern projects overview.
 ms.date: 10/31/2023
 ms.topic: conceptual

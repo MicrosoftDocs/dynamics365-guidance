@@ -1,5 +1,5 @@
 ﻿---
-title:  Prospect to quote introduction
+title: Prospect to quote introduction
 description: Get an introduction to the prospect to quote end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their prospect to quote processes.
 ms.date: 10/24/2023
 ms.topic: conceptual

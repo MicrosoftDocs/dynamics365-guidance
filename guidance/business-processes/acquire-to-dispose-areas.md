@@ -1,5 +1,5 @@
 ---
-title:  Acquire to dispose business process areas
+title: Acquire to dispose business process areas
 description: Get an overview for each of the business process areas in the acquire to dispose end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 09/08/2023
 ms.topic: conceptual

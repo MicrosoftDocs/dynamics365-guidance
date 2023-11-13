@@ -1,5 +1,5 @@
 ---
-title:  Change management overview
+title: Change management overview
 description: Find guidance about how change management is a fundamental part of the toolbox and mindset for Dynamics 365 implementations, just like process focus and Application Lifecycle Management (ALM). 
 author: taksatoms
 ms.author: tsato

@@ -1,5 +1,5 @@
 ﻿---
-title:  Run the tests for an implementation project
+title: Run the tests for an implementation project
 description: Find guidance for how you can run the tests you need for a Dynamics 365 implementation project.
 ms.date: 05/17/2023
 ms.topic: conceptual

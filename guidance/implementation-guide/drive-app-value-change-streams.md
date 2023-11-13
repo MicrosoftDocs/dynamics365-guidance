@@ -1,5 +1,5 @@
 ﻿---
-title:  Change streams
+title: Change streams
 description: Learn how to use change streams in a business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

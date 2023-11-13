@@ -1,5 +1,5 @@
 ﻿---
-title:  Project approach 
+title: Project approach 
 description: Find best practices for how to approach an implementation project with Dynamics 365 apps.
 author: TimoGossen
 ms.author: timogoss

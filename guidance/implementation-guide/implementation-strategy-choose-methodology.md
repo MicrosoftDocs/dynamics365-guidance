@@ -1,5 +1,5 @@
 ﻿---
-title:  Choose a methodology
+title: Choose a methodology
 description: Find guidance for how to choose the right methodology to manage the Dynamics 365 implementation project. 
 ms.date: 04/17/2023
 ms.topic: conceptual

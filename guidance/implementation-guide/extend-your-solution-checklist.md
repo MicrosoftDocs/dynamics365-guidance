@@ -1,5 +1,5 @@
 ---
-title:  Extension checklist
+title: Extension checklist
 description: Get a thorough checklist to help Dynamics 365 implementation teams with their extensibility strategy.
 author: abunduc-ms
 ms.author: abunduc

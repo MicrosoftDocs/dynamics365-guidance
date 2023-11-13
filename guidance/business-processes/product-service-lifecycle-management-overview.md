@@ -1,5 +1,5 @@
 ﻿---
-title:  Product and service lifecycle management end-to-end overview
+title: Product and service lifecycle management end-to-end overview
 description: Learn about the end-to-end business process, product and service lifecycle management. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 04/03/2023
 ms.topic: conceptual

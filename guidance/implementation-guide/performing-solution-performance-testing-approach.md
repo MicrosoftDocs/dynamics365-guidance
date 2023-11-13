@@ -1,5 +1,5 @@
 ---
-title:  Test for performance
+title: Test for performance
 description: Learn how to develop and document a performance testing strategy to model expected system usage and achieve the defined performance goals of your Dynamics 365 solutions.
 author: TimoGossen
 ms.author: timogoss

@@ -1,5 +1,5 @@
 ---
-title:  Testing strategy
+title: Testing strategy
 description: Learn how the value of having a solid testing strategy in place early on for your implementation and how to build a testing strategy that works for you. We explain the importance of testing your solution before it goes live to discover any defects in the process as early as possible, allowing time to address them.
 author: edupont04
 ms.author: veneva

@@ -1,5 +1,5 @@
 ---
-title:  Manage projects in Dynamics 365 Implementation Portal
+title: Manage projects in Dynamics 365 Implementation Portal
 description: Learn how to manage projects in Dynamics 365 Implementation Portal.
 ms.date: 03/27/2023
 ms.topic: how-to

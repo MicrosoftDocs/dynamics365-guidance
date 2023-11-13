@@ -1,5 +1,5 @@
 ---
-title:  Reporting and analytics strategy
+title: Reporting and analytics strategy
 description: Learn about how to define your reporting strategy.
 author: TimoGossen
 ms.author: timogoss

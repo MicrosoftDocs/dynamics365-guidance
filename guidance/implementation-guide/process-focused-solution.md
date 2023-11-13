@@ -1,5 +1,5 @@
 ---
-title:  Process-focused solution
+title: Process-focused solution
 description: Learn about the importance of having a process-focused approach to the implementation process. Find information on how to find opportunities for optimization, how to define the scope of the implementation with requirements, and how to create a process-centric implementation lifecycle.
 author: edupont04
 ms.author: veneva

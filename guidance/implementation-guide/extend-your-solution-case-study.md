@@ -1,5 +1,5 @@
 ---
-title:  Extension case study
+title: Extension case study
 description: Learn about a case study that walks you through a real-life example of how a Dynamics 365 customer approached the extensibility strategy.
 author: abunduc-ms
 ms.author: abunduc

@@ -1,5 +1,5 @@
 ---
-title:  Manage and report on asset financials
+title: Manage and report on asset financials
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage and report on asset financials.
 ms.date: 09/08/2023
 ms.topic: conceptual

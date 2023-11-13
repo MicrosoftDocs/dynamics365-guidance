@@ -1,5 +1,5 @@
 ﻿---
-title:  Product and service lifecycle management areas
+title: Product and service lifecycle management areas
 description: Get an overview for each area in the Product and service lifecycle management end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 08/24/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title:  What is a functional consultant in Dynamics 365?
+title: What is a functional consultant in Dynamics 365?
 description: Learn about the role of a functional consultant who helps organizations implement customer-specific solutions that include Dynamics 365.
 author: edupont04
 ms.author: edupont

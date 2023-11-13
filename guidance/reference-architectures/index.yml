@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
-title:  Dynamics 365 reference architectures
+title: Dynamics 365 reference architectures
 summary: Placeholder for future content with recommended diagrams for Dynamics 365 implementations.
 
 metadata:
-  title:  Dynamics 365 reference architectures
+  title: Dynamics 365 reference architectures
   description: Placeholder for future content with recommended diagrams for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
@@ -17,7 +17,7 @@ metadata:
 landingContent:
 
 # Card
-  - title:  Get started
+  - title: Get started
     linkLists:
     - linkListType: get-started
       links:

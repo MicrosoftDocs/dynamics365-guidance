@@ -1,5 +1,5 @@
 ﻿---
-title:  Operate in the cloud
+title: Operate in the cloud
 description: Learn how, at the end of your Dynamics 365 implementation project, the organization can effectively operate in the cloud.
 author: taksatoms
 ms.author: tsato

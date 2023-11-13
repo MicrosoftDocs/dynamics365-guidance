@@ -1,5 +1,5 @@
 ---
-title:  Manage freight and transportation overview
+title: Manage freight and transportation overview
 description: Read about the business process area for managing freight and transportation in Dynamics 365 implementations.
 ms.date: 07/13/2023
 ms.topic: conceptual

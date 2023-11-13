@@ -1,5 +1,5 @@
 ---
-title:  Simulator for Channel Integration Framework v. 2.0
+title: Simulator for Channel Integration Framework v. 2.0
 description: Learn how to simulate a digital contact center with Customer Service and Channel Integration Framework with voice channel. Get the sample solution here.
 author: edupont04
 ms.author: edupont

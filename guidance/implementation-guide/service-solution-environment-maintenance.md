@@ -1,5 +1,5 @@
 ﻿---
-title:  Environment maintenance
+title: Environment maintenance
 description: Understand the needs for Dynamics 365 environment maintenance as application usage grows to ensure that actions can be proactively taken to maintain a healthy solution.
 author: taksatoms
 ms.author: tsato

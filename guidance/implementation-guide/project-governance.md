@@ -1,5 +1,5 @@
 ﻿---
-title:  Project governance
+title: Project governance
 description: Get an overview of the importance of good project governance. We discuss recommended practices to define the different areas of project governance and assess the effectiveness of your governance.
 author: TimoGossen
 ms.author: timogoss

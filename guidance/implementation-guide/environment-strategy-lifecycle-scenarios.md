@@ -1,5 +1,5 @@
 ---
-title:  Environment lifecycle scenarios
+title: Environment lifecycle scenarios
 description: In this article, we explore the various states during an environment lifecycle, from creation until decommissioning.
 author: abunduc-ms
 ms.author: abunduc

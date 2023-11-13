@@ -1,5 +1,5 @@
 ﻿---
-title:  Plan to produce introduction
+title: Plan to produce introduction
 description: Get an introduction to the plan to produce end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their plan to produce processes.
 ms.date: 05/02/2023
 ms.topic: conceptual

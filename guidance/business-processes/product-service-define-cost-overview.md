@@ -1,5 +1,5 @@
 ﻿---
-title:  Define product and service costing overview
+title: Define product and service costing overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to set the cost the goods and services that you sell.
 ms.topic: conceptual
 author: rachelprofitt

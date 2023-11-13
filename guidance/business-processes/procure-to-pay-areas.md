@@ -1,5 +1,5 @@
 ﻿---
-title:  Procure to pay business process areas
+title: Procure to pay business process areas
 description: Get an overview for each of the business process areas in the procure to pay end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 07/17/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title:  FastTrack performance workshop
+title: FastTrack performance workshop
 description: Learn how the FastTrack performance workshop can help you prioritize and design for performance in your Dynamics 365 solutions.
 author: TimoGossen
 ms.author: timogoss

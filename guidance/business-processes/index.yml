@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
-title:  Overview of business processes in Dynamics 365
+title: Overview of business processes in Dynamics 365
 summary: Learn the end-to-end scenarios and business processes that Dynamics 365 supports out-of-the-box.
 
 metadata:
-  title:  Overview of business processes in Dynamics 365
+  title: Overview of business processes in Dynamics 365
   description: Get an overview of common work scenarios that organizations often look for in business solutions. Here, we list the end-to-end scenarios that Dynamics 365 supports out-of-the-box,.
   author: edupont04
   ms.author: edupont
@@ -18,7 +18,7 @@ metadata:
 landingContent:
 
 # Card
-  - title:  Get started
+  - title: Get started
     linkLists:
     - linkListType: get-started
       links:
@@ -36,7 +36,7 @@ landingContent:
 #        url: overview.md
 
 # Card
-  - title:  End-to-end scenarios with products
+  - title: End-to-end scenarios with products
     linkLists:
     - linkListType: overview
       links:
@@ -63,7 +63,7 @@ landingContent:
 
 
 # Card
-  - title:  End-to-end scenarios with services
+  - title: End-to-end scenarios with services
     linkLists:
     - linkListType: overview
       links:
@@ -81,7 +81,7 @@ landingContent:
         url: service-to-cash-introduction.md
 
 # Card
-  - title:  End-to-end scenarios with human resources
+  - title: End-to-end scenarios with human resources
     linkLists:
     - linkListType: overview
       links:
@@ -101,7 +101,7 @@ landingContent:
         url: service-to-cash-introduction.md
 
 # Card
-  - title:  End-to-end scenarios with financials
+  - title: End-to-end scenarios with financials
     linkLists:
     - linkListType: overview
       links:

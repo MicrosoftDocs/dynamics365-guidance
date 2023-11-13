@@ -1,5 +1,5 @@
 ﻿---
-title:  Classic structures
+title: Classic structures
 description: Read about structures that are part of successful implementation projects with Dynamics 365 apps.
 author: TimoGossen
 ms.author: timogoss

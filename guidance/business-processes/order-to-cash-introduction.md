@@ -1,5 +1,5 @@
 ---
-title:  Order to cash introduction
+title: Order to cash introduction
 description: Get an introduction to an end-to-end business process, order to cash. This article provides a high-level overview of the business process, and lists key benefits and stakeholders.
 ms.date: 03/23/2023
 ms.topic: conceptual
