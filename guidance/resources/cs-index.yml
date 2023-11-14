@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title:  Dynamics 365 Customer Service implementation optimization resources
+title: Dynamics 365 Customer Service implementation optimization resources
 summary: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Customer Service.
 
 metadata:
-  title:  Dynamics 365 Customer Service implementation optimization resources
+  title: Dynamics 365 Customer Service implementation optimization resources
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Customer Service.
   author: edupont04
   ms.author: edupont
@@ -17,7 +17,7 @@ metadata:
 landingContent:
 
 # Card
-  - title:  What's new
+  - title: What's new
     linkLists:
     - linkListType: get-started
       links:
@@ -25,7 +25,7 @@ landingContent:
         url: /dynamics365/customer-service/whats-new-customer-service
 
 # Card
-  - title:  Samples and tools
+  - title: Samples and tools
     linkLists:
     - linkListType: sample
       links:
@@ -33,7 +33,7 @@ landingContent:
           url: /digital-contact-center-platform/guidance/component-library
 
 # Card
-  - title:  Setup
+  - title: Setup
     linkLists:
     -  linkListType: overview
        links:
@@ -44,7 +44,7 @@ landingContent:
 
 # Card
 
-  - title:  Tools for development
+  - title: Tools for development
     linkLists:
     -  linkListType: overview
        links:
@@ -52,7 +52,7 @@ landingContent:
          url: solution-component-validator.md
 
 # Card
-  - title:  Tools for testing
+  - title: Tools for testing
     linkLists:
     - linkListType: overview
       links:
@@ -66,7 +66,7 @@ landingContent:
           url: test-load-test-scenarios.md
 
 # # Card
-#   - title:  Channel Integration Framework
+#   - title: Channel Integration Framework
 #     linkLists:
 #     - linkListType: how-to-guide
 #       links:
@@ -76,7 +76,7 @@ landingContent:
 #         url: cs-set-up-outbound-calls.md
 
 # Card
-  - title:  Analytics
+  - title: Analytics
     linkLists:
     - linkListType: overview
       links:
@@ -89,7 +89,7 @@ landingContent:
       - text: Application lifecycle management for custom reports
         url: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
 # Card
-  - title:  Application lifecycle management
+  - title: Application lifecycle management
     linkLists:
     - linkListType: overview
       links:

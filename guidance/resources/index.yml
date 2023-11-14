@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title:  Implementation tools and samples
+title: Implementation tools and samples
 summary: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365.
 
 metadata:
-  title:  Implementation tools and samples
+  title: Implementation tools and samples
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365.
   author: edupont04
   ms.author: edupont
@@ -17,7 +17,7 @@ metadata:
 landingContent:
 
 # Card
-  - title:  Get started
+  - title: Get started
     linkLists:
     - linkListType: get-started
       links:
@@ -35,7 +35,7 @@ landingContent:
           url: /training/paths/implement-finance-operations/
 
 # Developer Card
-  # - title:  Develop the implementation
+  # - title: Develop the implementation
   #   linkLists:
   #     - linkListType: sample
   #       links:
@@ -43,7 +43,7 @@ landingContent:
   #           url: solution-component-validator.md
 
 # Testing Card
-  # - title:  Test the implementation
+  # - title: Test the implementation
   #   linkLists:
   #   - linkListType: concept
   #     links:
@@ -56,7 +56,7 @@ landingContent:
 
 # Commerce card
 
-  # - title:  Tools and samples for Commerce
+  # - title: Tools and samples for Commerce
   #   linkLists:
   #   - linkListType: overview
   #     links:
@@ -73,7 +73,7 @@ landingContent:
 
 # CS Card
 
-  - title:  Customer Service
+  - title: Customer Service
     linkLists:
     - linkListType: overview
       links:
@@ -97,7 +97,7 @@ landingContent:
         url: solution-component-validator.md
 
 # FIN Card
-  - title:  Finance, Project Operations, Human Resources
+  - title: Finance, Project Operations, Human Resources
     linkLists:
     - linkListType: overview
       links:
@@ -121,7 +121,7 @@ landingContent:
 #        url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
 
 # SCM Card
-  - title:  Supply Chain Management
+  - title: Supply Chain Management
     linkLists:
     - linkListType: overview
       links:
@@ -145,7 +145,7 @@ landingContent:
 #        url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
 
 # Platform Card
-#   - title:  Shared resources
+#   - title: Shared resources
 #     linkLists:
 #     - linkListType: overview
 #       links:
@@ -163,7 +163,7 @@ landingContent:
 #       - text: Upgrade data to dual-write Party-GAB schema
 #         url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema
 # # CE
-#   - title:  Marketing, Sales, Customer Insights
+#   - title: Marketing, Sales, Customer Insights
 #     linkLists:
 #     - linkListType: overview
 #       links:

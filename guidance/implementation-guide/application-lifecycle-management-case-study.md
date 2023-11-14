@@ -1,5 +1,5 @@
 ---
-title:  ALM strategy case study
+title: ALM strategy case study
 description: In this article, we explore a case study that shows how a thorough ALM strategy is key to the success of an implementation strategy.
 author: abunduc-ms
 ms.author: abunduc

@@ -1,5 +1,5 @@
 ---
-title:  Environment strategy checklist
+title: Environment strategy checklist
 description: This article provides a comprehensive checklist designed to guide implementation teams through a thorough environment strategy.
 author: abunduc-ms
 ms.author: abunduc

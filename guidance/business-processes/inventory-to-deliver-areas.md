@@ -1,5 +1,5 @@
 ---
-title:  Inventory to deliver business process areas
+title: Inventory to deliver business process areas
 description: Get an overview for each of the business process areas in the inventory to deliver end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 07/25/2023
 ms.topic: conceptual
@@ -60,11 +60,11 @@ This process area involves analyzing warehouse performance to improve operationa
 
 If you want to implement Dynamics 365 solutions to assist with your *inventory to deliver* business processes, learn more at the following resources and steps.
 
-- Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+- Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+- Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
 - [Inventory to deliver introduction](inventory-to-deliver-introduction.md)
 

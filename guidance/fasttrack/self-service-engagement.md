@@ -1,5 +1,5 @@
 ---
-title:  Proactive guidance for self-service engagements
+title: Proactive guidance for self-service engagements
 description: Microsoft FastTrack provides guidance to project implementation teams via emails that contain recommended actions for each phase of a project.
 ms.author: rmanocha
 ms.date: 11/03/2021

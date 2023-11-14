@@ -1,5 +1,5 @@
 ﻿---
-title:  Upgrade from on-premises to the cloud
+title: Upgrade from on-premises to the cloud
 description: Get introduced to the key points of migrating from an on-premises solution to Dynamics 365 online.  
 author: taksatoms
 ms.author: tsato

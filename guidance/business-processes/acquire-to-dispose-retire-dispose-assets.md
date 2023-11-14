@@ -1,5 +1,5 @@
 ---
-title:  Retire and dispose of assets
+title: Retire and dispose of assets
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to retire and dispose of assets.
 ms.date: 09/08/2023
 ms.topic: conceptual

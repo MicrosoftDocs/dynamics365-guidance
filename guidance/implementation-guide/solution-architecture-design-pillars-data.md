@@ -1,5 +1,5 @@
 ---
-title:  Solution architecture design data
+title: Solution architecture design data
 description: Learn how data forms a strong pillar in your solution architecture design. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
 author: edupont04
 ms.author: veneva

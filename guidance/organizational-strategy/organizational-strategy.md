@@ -1,5 +1,5 @@
 ---
-title:  Organizational strategy overview
+title: Organizational strategy overview
 description: Read about how the organizational strategy drives how you can configure and deploy Dynamics 365.
 ms.date: 08/22/2022
 ms.topic: conceptual

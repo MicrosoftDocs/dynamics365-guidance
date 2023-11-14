@@ -1,5 +1,5 @@
 ﻿---
-title:  Run marketing campaigns overview
+title: Run marketing campaigns overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to run marketing campaigns.
 ms.date: 10/24/2023
 ms.topic: conceptual

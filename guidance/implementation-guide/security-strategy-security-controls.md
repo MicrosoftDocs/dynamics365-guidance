@@ -1,5 +1,5 @@
 ---
-title:  Security controls 
+title: Security controls 
 description: Some aspects of security are shared by both the customer and the provider. Other aspects are the responsibility of the customer, and others are the responsibility of the provider. For Dynamics 365 deployments, various core security controls are available.
 author: riblack-microsoft
 ms.author: riblack

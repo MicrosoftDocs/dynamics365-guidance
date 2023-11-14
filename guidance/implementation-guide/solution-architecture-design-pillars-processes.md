@@ -1,5 +1,5 @@
 ---
-title:  Solution architecture design processes
+title: Solution architecture design processes
 description: Learn how you can choose the right processes for an implementation project. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
 author: edupont04
 ms.author: veneva

@@ -1,5 +1,5 @@
 ---
-title:  Data architecture
+title: Data architecture
 description: This chapter describes how data architecture, modeling, storage, integration, and quality can help you make informed decisions. Learn how to improve your customer engagement, and gather real-time information about your products in the field. 
 author: vaniaf
 ms.author: vaniaf

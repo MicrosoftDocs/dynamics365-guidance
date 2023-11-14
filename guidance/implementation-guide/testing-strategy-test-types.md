@@ -1,5 +1,5 @@
 ---
-title:  Overview of types of tests
+title: Overview of types of tests
 description: Learn how you can combine the different types of tests in your  test strategy for a Dynamics 365 implementation project.
 author: edupont04
 ms.author: veneva

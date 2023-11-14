@@ -1,5 +1,5 @@
 ---
-title:  Forecast to plan end-to-end overview
+title: Forecast to plan end-to-end overview
 description:  Get an overview of the end-to-end flow and the relationship diagram for the forecast to plan business process in Dynamics 365 implementations.
 ms.date: 07/28/2023
 ms.topic: conceptual

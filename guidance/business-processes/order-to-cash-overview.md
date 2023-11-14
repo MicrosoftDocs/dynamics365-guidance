@@ -1,5 +1,5 @@
 ---
-title:  Order to cash end-to-end overview
+title: Order to cash end-to-end overview
 description: Learn about the end-to-end business process, from order to cash. View a high-level flow diagram and see how it fits into Dynamics 365 solutions.
 ms.date: 07/11/2023
 ms.topic: overview
@@ -55,7 +55,7 @@ The order to cash process has the following downstream processes:
 
 - **Procure to pay**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning purchases. When you use a direct delivery sales model, the sales order is also the trigger to initiate the purchase order with the supplier.
 
-- **Product and service lifecycle management**:  In engineer to order operational strategies, products and services are typically defined after an order is placed.
+- **Product and service lifecycle management**: In engineer to order operational strategies, products and services are typically defined after an order is placed.
 
 - **Record to report**: Processing sales orders has a financial impact on inventory, revenue, and cost of goods sold. These effects are recorded in the general ledger and reported as part of the record to report process.
 
@@ -69,7 +69,7 @@ The order to cash process interacts with the following product-specific capabili
 
 - **Call center**: Dynamics 365 Commerce includes a call center channel with capabilities to support your call center staff in taking orders, answering questions, and related tasks.
 
-- **Sales accelerator**: The sales accelerator in Dynamics 365 provides a tailored experience for sellers, which minimizes the time spent searching for the best next customer to reach out to. It's a workspace optimized with AI, which suggests activities, which guide sellers through customer interactions.
+- **Sales accelerator**: The sales accelerator in Dynamics 365 provides a tailored experience for sellers, which minimizes the time spent searching for the best next customer to reach out to. It's a workspace optimized with AI, which suggests activities to guide sellers through customer interactions.
 
 - **Demand forecasting**: Dynamics 365 Supply Chain Management supports the forecast supply and demand business process area with built-in demand forecast functionality. The demand forecasting capability uses historical demand data and Azure Machine Learning to generate a statistical forecast, which can be collaboratively reviewed and published for use in planning activities.
 
@@ -92,30 +92,30 @@ The order to cash end-to-end business process flow diagram illustrates the follo
 1. Start
 1. Order to cash
 
-   - Manage pricing and contracts
-   - Create and manage sales orders
+    - Manage pricing and contracts
+    - Create and manage sales orders
 
-     Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, Procure to pay, and Product and service lifecycle management.
+        Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, Procure to pay, and Product and service lifecycle management.
 
-   - Fulfill sales orders
+    - Fulfill sales orders
 
-     A parallel branch connects to the Inventory to deliver end-to-end business process, shown on the right side of the diagram.
+        A parallel branch connects to the Inventory to deliver end-to-end business process, shown on the right side of the diagram.
 
-   - Issue customer invoices
+    - Issue customer invoices
 
-     A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
+        A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
 
-   - Process customer rebates
+    - Process customer rebates
 
-     A parallel branch connects to the Record customer payments end-to-end business process.
+        A parallel branch connects to the Record customer payments end-to-end business process.
 
-   - Record customer payments
+    - Record customer payments
 
-     A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
+        A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
 
-   - Monitor customer credit and collections
+    - Monitor customer credit and collections
 
-     A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
+        A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
 
 1. End
 

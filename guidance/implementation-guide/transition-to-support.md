@@ -1,5 +1,5 @@
 ---
-title:  Transition to support
+title: Transition to support
 description: This article is organized to reflect the journey of preparing, defining, and operating support through the categories of support scope, support models, and support operations.
 author: taksatoms
 ms.author: tsato

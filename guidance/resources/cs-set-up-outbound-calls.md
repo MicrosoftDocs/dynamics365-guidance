@@ -1,5 +1,5 @@
 ---
-title:  Set up click-to-run outbound calls with Omnichannel
+title: Set up click-to-run outbound calls with Omnichannel
 description: Learn how to set up click-to-run outbound calls with Omnichannel for Dynamics 365 Customer Service. Find the link to get the sample solution here.
 author: rramju
 ms.author: ramara

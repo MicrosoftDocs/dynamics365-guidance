@@ -1,32 +1,48 @@
 ---
-title:   Glossary of terms in Dynamics 365 business processes
+title: Glossary of terms in Dynamics 365 business processes
 description: A glossary of terms that are good to know if you work with Dynamics 365 and you're reading the business process guidance.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 10/31/2023
+ms.date: 11/09/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
 
-This article defines some of the common terms and terms that are specific to Dynamics 365 that are used in the business process guidance on Microsoft Learn. It includes guidelines such as capitalization.  
+This article defines some of the common terms and terms that are specific to Dynamics 365 that are used in the business process guidance on Microsoft Learn. It includes guidelines such as capitalization.
 
-In any given industry, there are terms that are industry-specific and very familiar to people in that industry or line of business. But in many languages, there are more than one term for the same task or object. For example, are the people you do business with your *clients* or your *customers*?  Learn more in the following sections.  
+In any given industry, there are terms that are industry-specific and very familiar to people in that industry or line of business. But in many languages, there are more than one term for the same task or object. For example, are the people you do business with your *clients* or your *customers*? Learn more in the following sections.
 
 > [!TIP]
-> Use CTRL+F to search for a specific term on this page.   
+> Use CTRL+F to search for a specific term on this page.
 
 Find generic and specific terms across Microsoft products and languages at [Microsoft Terminology Search](https://msit.powerbi.com/view?r=eyJrIjoiODJmYjU4Y2YtM2M0ZC00YzYxLWE1YTktNzFjYmYxNTAxNjQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
 
 ## A
 
+### Account structure
+
+The term *account structure* in Dynamics 365 Finance refers to an organized list of main accounts and financial dimensions. An account structure defines the financial dimensions that are applicable to each main account. It also defines the rules that determine which combinations of main accounts and dimension values are allowed, which financial dimensions are mandatory, which are allowed to be blank, and so on. Conversely, the combinations that are not defined in the account structure are not allowed. Each ledger must have one or more account structures to define its valid main accounts and financial dimensions.
+
+### Accounting Standards Codification (ASC)
+
+The Accounting Standards Codification categorizes accounting standards into a comprehensive, consistent, and accessible framework. It is designed to make it easier for financial professionals, including accountants and auditors, to locate and apply relevant accounting rules and guidance. The ASC covers a wide range of accounting topics, including revenue recognition, financial statement presentation, leases, income taxes, and many others.
+
+The ASC is divided into various sections, each addressing specific areas of accounting. For example, ASC 606 deals with revenue recognition, ASC 842 addresses lease accounting, and ASC 740 covers income taxes. Each section includes detailed guidance, rules, and examples related to the respective accounting topic.
+
+Overall, the Accounting Standards Codification plays a crucial role in maintaining consistency and transparency in financial reporting and accounting practices in the United States. It serves as a comprehensive reference for professionals who need to interpret and apply accounting standards in their work.
+
 ### Accruals
 
 [Accruals](/dynamics365/finance/general-ledger/accruals-overview) are used in accounting to track revenue that's recognized in the period that it's earned in, not when payment is received, and to track expenses (costs) that are recognized when they occur, not when payment is made.
 
-### Acquisition cost 
+### Acquisition cost
 
 It encompasses all the expenses associated with acquiring the asset and making it ready for use in business operations. The asset acquisition cost includes both direct and indirect costs related to the purchase, delivery, and commissioning of the asset.
+
+### Advanced rule
+
+An advanced rule in Dynamics 365 Finance is a configuration that allows you to define account structure exceptions for financial dimensions that are specific to one or a few main accounts. It allows for more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. Advanced rules allow you to add additional financial dimensions that are not included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions.
 
 ### Aging periods
 
@@ -39,7 +55,7 @@ Before you can analyze your customer balances in Dynamics 365 Finance, you must 
 
 ### Amortization
 
-Unlike fixed assets, which are typically *depreciated*, intangible assets are *amortized*. Examples of intangible assets are patents, intellectual property, branding, and so on. Amortization is generally spread across the useful life of an asset in a straight line. Assets that are amortized may not have a resale value.  
+Unlike fixed assets, which are typically *depreciated*, intangible assets are *amortized*. Examples of intangible assets are patents, intellectual property, branding, and so on. Amortization is generally spread across the useful life of an asset in a straight line. Assets that are amortized may not have a resale value.
 
 ### Appointment scheduling
 
@@ -53,27 +69,27 @@ Asset appraisers are individuals who leverage their expertise to evaluate the co
 
 An asset is something of value that an organization owns. Related definitions are [fixed asset](#fixed-asset) and [asset classification](#asset-classification).
 
-### Asset acquisition strategy 
+### Asset acquisition strategy
 
 Asset acquisition strategy is the planned approach or actions that an organization implements to acquire assets to support its business objectives and improve its operations. The asset acquisition strategy includes a systematic process for identifying the types of assets needed by the organization. This can involve analyzing existing assets, conducting market research, and considering factors such as technological advancements, industry trends, and local regulatory requirements.
 
 ### Asset books
 
-Organizations use books to track an independent financial lifecycle of an asset. Books can be configured to post associated transactions to the general ledger. They are also used for tax reporting purposes. Learn more at [Set up fixed assets (Finance)](/dynamics365/finance/fixed-assets/set-up-fixed-assets#books).  
+Organizations use books to track an independent financial lifecycle of an asset. Books can be configured to post associated transactions to the general ledger. They are also used for tax reporting purposes. Learn more at [Set up fixed assets (Finance)](/dynamics365/finance/fixed-assets/set-up-fixed-assets#books).
 
 ### Asset classification
 
 Generally, you classify assets in the following buckets:
 
-- Current or fixed  
-- Tangible or intangible  
-- Operational or nonoperational  
+- Current or fixed
+- Tangible or intangible
+- Operational or nonoperational
 
 The longevity of the asset determines whether it's a current asset or a fixed asset. The form of the asset helps differentiate tangible and intangible assets. Usage often helps tag an asset as an operational asset or a nonoperational asset.
 
 Here are some examples of tangible assets and intangible assets:
 
-- A physical property is typically identified as a tangible asset. Examples of tangible assets include buildings, machinery, and land. They're generally considered long-term assets in financial statements.
+- Physical property is typically identified as a tangible asset. Examples of tangible assets include buildings, machinery, and land. They're generally considered long-term assets in financial statements.
 
 - Intangible assets include items that can't be touched but that have value, such as a patent, software, and goodwill.
 
@@ -103,11 +119,11 @@ Fixed Asset lifecycle stages are the phases that an asset typically goes through
 
 Also, in the asset management process, there are asset lifecycle states that can be set and tracked by users. These are used to define whether an asset is active or inactive.
 
-In Dynamics 365 we have states like created, active and terminated. Learn more at [Asset lifecycle states (Supply Chain Management)](/dynamics365/supply-chain/asset-management/setup-for-objects/object-stages).  
+In Dynamics 365 we have states like created, active and terminated. Learn more at [Asset lifecycle states (Supply Chain Management)](/dynamics365/supply-chain/asset-management/setup-for-objects/object-stages).
 
 ### Asset replacement 
 
-Asset replacement refers to the process of exchanging an old asset for a new one, with the value of the old asset offsetting the cost of the new acquisition.  
+Asset replacement refers to the process of exchanging an old asset for a new one, with the value of the old asset offsetting the cost of the new acquisition.
 
 ### Asset scrapping
 
@@ -137,6 +153,14 @@ An attribute is a characteristic or feature (in this case, of a product) that he
 
 Dynamics 365 Commerce and Supply Chain Management include robust product attribute capabilities. You can [define attributes](/dynamics365/commerce/attribute-attributegroups-lifecycle) for specific products, groups of products, or variants of products.
 
+### Audit trail
+
+An audit trail is a chronological record of all transactions and activities in a business solution. It provides a complete history of changes and actions, which provides transparency and accountability to all entries that are recorded in the general ledger.
+
+### Audit management
+
+Audit management involves the planning, execution, and tracking of audit activities within an organization, including internal and external audits. Business applications often have modules for audit management to streamline the audit process.
+
 ## B
 
 ### Baseline
@@ -145,7 +169,7 @@ A baseline is a fixed reference point used to compare project performance over t
 
 ### Billable hours
 
-The hours worked on tasks that can be charged to clients or customers. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).  
+The hours worked on tasks that can be charged to clients or customers. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
 
 
 ### Billing rules
@@ -168,15 +192,15 @@ The process of evaluating data and metrics for a marketing campaign to derive pe
 
 ### Campaign budget
 
-The defined marketing expenditure allocated to a specific marketing campaign.  
+The defined marketing expenditure allocated to a specific marketing campaign.
 
 ### Capital asset budget
 
-Typically, you define [fixed assets](#fixed-asset) as capital assets when you hold them for a year or longer and you assign them a [depreciation](#depreciation) profile over their life span. Capital assets are often [tangible assets](#asset-classification).
+The capital asset budget helps an organization plan the purchase of assets that it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
 
 ### Capital assets
 
-The capital asset budget helps an organization to plan the purchase of assets it needs for its business. Big investments in building large-scale property or deployment of assets are covered under this budget.
+Typically, you define [fixed assets](#fixed-asset) as capital assets when you hold them for a year or longer and assign them a [depreciation](#depreciation) profile over their lifespan. Capital assets are often [tangible assets](#asset-classification).
 
 ### Cashflow statement
 
@@ -205,6 +229,10 @@ A category hierarchy refers to a way of organizing and structuring products or i
 ### Centralized resource allocation
 
 For organizations that centralize the allocation for resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, while the fulfillment of the resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
+
+### Chart of accounts
+
+A chart of accounts defines a structured list of all the main accounts used in a ledger. Each main account has a unique code and a description, and they are organized hierarchically to reflect the company's financial structure. In Dynamics 365 Finance and in Dynamics 365 Business Central, a chart of accounts can be assigned to one or more ledgers. To use a shared chart of accounts, you can create one chart of accounts and link it to multiple ledgers.
 
 ### Churn
 
@@ -239,13 +267,25 @@ For more complex processes, you might want to use [case management](/dynamics365
 
 You may also use a combination of both products with [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to keep case data synchronized between Finance and Customer Service.
 
+### Company
+
+A company in Dynamics 365 Finance or Dynamics 365 Business Central represents an individual legal entity or business unit within an organization. Each company can have its own financial data, settings, and operations. The terms "company" and "legal entity" are used interchangeably in Dynamics 365 Finance. A company is a major data boundary in Dynamics 365 Finance where users can be assigned access to each company independently.
+
+### Compliance controls
+
+Compliance controls are policies, procedures, and security measures put in place to ensure that an organization's activities and processes adhere to regulatory requirements and standards.
+
+### Compliance reporting
+
+Compliance reporting involves the generation and submission of reports to regulatory authorities to demonstrate an organization's adherence to relevant regulations and standards. ERP systems can generate compliance reports based on stored data.
+
 ### Consume materials
 
 Material consumption refers to the use of items in a project. You can register the consumption of items in several ways. You can sell or purchase items from a project, or reserve items for a project. You can order items from the company's inventory for consumption on a project or purchase items from an external vendor. Item consumption is recorded as a posting that registers that the item was used in the project.
 
 ### Correcting entry
 
-A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.  
+A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.
 
 ### Cost
 
@@ -323,6 +363,39 @@ A credit limit is the maximum amount of money that a customer can owe you at a g
 
 A credit note is a document that reduces the amount that a customer owes to a seller. It can be created and posted against an invoice for various reasons, such as returns, discounts, or corrections.
 
+### Currency
+
+A currency represents the type of money used for financial transactions. It can be a specific country's currency (e.g., US Dollar, Euro) and is used to denote the value of financial items. Dynamics 365 Finance ships with a predefined list of all ISO currencies. Each transaction is then recorded with three different values for the currencies.
+
+- Transactions currency 
+
+  The transaction currency is the currency that a specific financial transaction is recorded in. It's the currency denomination of a particular transaction.
+
+- Accounting currency 
+
+  The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger and you can view the accounting currency amounts for all transactions in the general ledger.
+
+- Reporting currency 
+
+  The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger and you can view the reporting currency amounts on all transactions in the general ledger.
+
+### Currency conversion
+
+Currency conversion involves translating financial transactions from one currency to another based on exchange rates. When a transaction is posted in Dynamics 365 Finance, Supply Chain Management, Commerce, or Project Operations for example, the system automatically converts amounts using the specified exchange rates to ensure accurate multi-currency reporting. The system performs the conversion in real-time from the transaction currency to the accounting and reporting currencies.
+
+### Currency policies
+
+Currency policies refer to the rules and guidelines that govern how different currencies are managed within the organization. This includes decisions related to currency conversion rates, default currencies, currency revaluation, and currency-specific pricing strategies.
+
+### Currency revaluation
+
+Currency revaluation is the process of adjusting the value of assets and liabilities denominated in foreign currencies to reflect current exchange rates which helps maintain accurate financial statements. Dynamics 365 Finance supports four types of currency revaluations:
+
+-   Accounts payable – for revaluating vendor open transactions
+-   Accounts receivable – for revaluating customer open transactions
+-   Cash and bank management – for revaluating bank balances
+-   General ledger – for revaluating general ledger account balances
+
 ### Customer credit group
 
 A [customer credit group](/dynamics365/finance/accounts-receivable/cm-customer-credit-groups) is a group of customers that have a shared credit limit. The individual credit limit on a customer invoice account is also considered. You can select members of a customer credit group from different legal entities. When you decide how to structure your customer accounts, consider how credit limits are managed. For example, a customer account can have only one credit limit. If a customer account has many delivery addresses that each require a different credit limit, consider whether they should be separate customer accounts. Then you can use a customer credit group to create an overall credit limit across the customer's accounts.
@@ -341,7 +414,7 @@ Strategies and processes for managing customer interactions and data across the 
 
 ### Customer satisfaction (CSAT)
 
-Metrics that measure a customer's happiness with a company's products, services, and interactions.  
+Metrics that measure a customer's happiness with a company's products, services, and interactions.
 
 ## D
 
@@ -349,13 +422,17 @@ Metrics that measure a customer's happiness with a company's products, services,
 
 For some records, you can specify changes that take effect after a specific date. Job classification, compensation, position, and worker assignments are examples of date-effective records.
 
+### Date intervals
+
+Date intervals define specific time spans used in financial reporting and analysis. Examples include fiscal years, quarters, months, and custom date ranges that help organize and analyze financial data. In Dynamics 365 applications you can use date intervals to run a report with a dynamic date range.
+
 ### Deferrals
 
 Deferrals are used in accounting to track revenue that's received but not yet earned, also known as unearned revenue. Organizations use deferrals to recognize revenue before expenses (costs) occur. You can [recognize deferred revenue in Dynamics 365 Finance](/dynamics365/finance/accounts-receivable/revenue-recognition-recognize-deferred-revenue) and [defer revenues and expenses in Dynamics 365 Business Central](/dynamics365/business-central/finance-how-defer-revenue-expenses).
 
 ### Deliverables
 
-Deliverables are all outputs of your project as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.  
+Deliverables are all outputs of your project as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.
 
 ### Departments
 
@@ -381,11 +458,11 @@ Depreciation is a key accounting concept that allocates the cost of an asset ove
 
 - **Manual**: You enter the percentage depreciation for each interval in the calendar year.
 
-Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods), respectively.
+Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods).
 
 ### Direct expenses 
 
-Direct expenses are those that are directly tied to the project itself such as specialized software, travel and meal expenses, mileage, and per-diem. 
+Direct expenses are those that are directly tied to the project itself such as specialized software, travel and meal expenses, mileage, and per-diem.
 
 ### Discounts
 
@@ -394,6 +471,10 @@ Percentage or dollar reductions in the quoted price. Discounts can be applied to
 ### Dock management
 
 Dock management is the process of assigning loads to dock doors in a warehouse. In Dynamics 365 Supply Chain Management, you manage docks by using the [driver check-in/check-out](/dynamics365/supply-chain/transportation/tasks/register-driver-check-check-out-appointment) functions.
+
+### Dual currency
+
+Dual currency refers to the ability of Dynamics 365 Finance to manage and report financial data in two currencies simultaneously. It allows organizations to maintain records in both their accounting or base currency and a reporting or secondary currency.
 
 ### DUNS numbers
 
@@ -413,11 +494,45 @@ Dynamics 365 Supply Chain Management includes an [engineering change management]
 
 Estimation to complete is an estimation of funds required to complete the remaining work of a project. The project manager will track this measure along the project that shows the remaining cost you expect in order to complete a project.
 
+### Exchange rate
+
+An exchange rate is the value of one currency in terms of another currency. It represents the rate at which one currency can be converted into another currency and is used to perform currency conversions in financial transactions. Dynamics 365 Finance supports the ability to define an unlimited number of exchange rates which convert from one currency to another on a specific day. You can also use fixed exchange rates on a variety of transactions such as purchase orders, sales orders, and journals to force the entry to use an exchange rate you supply rather than looking it up.
+
+### Exchange rate types
+
+Exchange rate types define a group of exchange rates that are obtained for currency conversion. Common rate types include spot rates, average rates, and historical rates. Default exchange rate types can be configured on the Ledger in each legal entity in Dynamics 365 Finance. Some processes allow you to select the exchange rate type that should be used for the process instead of using the default value for the ledger.
+
 ### Expense policies
 
 An expense policy is a formal set of guidelines that clearly outlines what constitutes an approved expense and what is not. This helps employees decide what they will be able to expense on the project.
 
 ## F
+
+### Financial dimensions
+
+Financial dimensions are attributes or categorizations that you can assign to transactions and main accounts to provide additional information for reporting and analysis. Examples include departments, projects, cost centers, and locations. Dynamics 365 Finance supports up to eleven dimensions in the account structure. Dimensions are assigned to a legal entity by the account structures that are associated with the ledger. Additional financial dimensions can be added through advanced rules or you can leverage financial tags for additional attributes or categorization. Like the chart of accounts, dimensions are global and can be linked to multiple ledgers.
+
+Financial dimensions are configured and maintained in Dynamics 365 Finance, but they can be specified on transactions in Supply Chain Management, Human Resources, Project Operations, and Commerce.
+
+### Financial reporting
+
+Financial reporting involves the preparation and presentation of an organization's financial information, including income statements, balance sheets, and cash flow statements, typically following accounting standards and regulatory requirements.
+
+### Financial periods
+
+Financial periods represent specific time intervals, such as months or quarters, in which financial transactions are recorded. The opening and closing of financial periods is managed to ensure accurate reporting. You can define an unlimited number of fiscal calendars in Dynamics 365 Finance and a fiscal calendar can be used by a single ledger or shared by multiple ledgers.
+
+- Fiscal calendar  
+
+  A fiscal calendar is a predefined time structure used for organizing financial activities, reporting periods, and budgeting cycles. In Dynamics 365 Finance, it determines the start and end dates of fiscal years, quarters, and periods for financial reporting purposes. The fiscal calendar helps align financial data with an organization's specific accounting practices and business needs. A fiscal calendar may be based on a calendar year (January through December) or a dynamic range that crosses a calendar year.
+
+- Ledger calendar  
+
+  The ledger calendar contains the ledger-specific settings for the periods within the fiscal year for each ledger assigned to the fiscal calendar. Within Dynamics 365 Finance, the same period can be open for one ledger and on hold for another ledger. These controls allow you to manage the entire period, specific modules, or the users that can post to the period and module.
+
+### Financial tags
+
+Financial tags are values assigned to transactions and the corresponding accounting entries to categorize them for reporting and analysis purposes. They are an alterrnative to financial dimensions by providing additional insights into the nature of financial activities, without the structure of financial dimensions. Dynamics 365 Finance supports up to twenty user-defined tags to be used on any transactions. The values that are entered on the transactions are carried to the general ledger when each voucher is posted.
 
 ### Finished good
 
@@ -427,11 +542,11 @@ A finished good is often referred to as a product. In Dynamics 365 Supply Chain 
 
 ### Fixed asset
 
-In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. Related definitions are [Asset](#asset) and [Asset classification](#asset-classification).  
+In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. Related definitions are [Asset](#asset) and [Asset classification](#asset-classification).
 
 ### Fixed-price projects
 
-Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process (WIP) to calculate the degree of completion of a project or a group of projects.
 
 Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md). 
 
@@ -447,13 +562,13 @@ A forecast is a prediction about the future. Forecasts are expected to be incorr
 
 - **Budget forecasts** predict future business expenditures and revenue. Typically, they're based on the organization's current financial performance and where the industry is trending in the business domain.
 
-- **Position forecasts** predict expenses related to workers. They help organizations to plan for those expenses and to include them in the planning of budgets. [Position forecasting](/dynamics365/finance/budgeting/position-forecasting) uses three main components to provide accurate budget amounts for position expenses:  
+- **Position forecasts** predict expenses related to workers. They help organizations to plan for those expenses and to include them in the planning of budgets. [Position forecasting](/dynamics365/finance/budgeting/position-forecasting) uses three main components to provide accurate budget amounts for position expenses:
 
-  - Forecast position; for example, all costs that are related to a single position
+    - Forecast position; for example, all costs that are related to a single position
 
-  - Budget cost element; for example, base pay, employer-paid health insurance, and cell phone allowances
+    - Budget cost element; for example, base pay, employer-paid health insurance, and cell phone allowances
 
-  - Composition group; for example, a compensation grid of pay rates
+    - Composition group; for example, a compensation grid of pay rates
 
 - **Expense forecasts** help organizations to plan for business expenses and to determine key costs to be considered by finance stakeholders. Typically, they're based on revenue, headcount, and similar factors.
 
@@ -469,7 +584,7 @@ The mean absolute percentage error (MAPE) is an industry standard indicator that
 
 In the following diagram, the chart on the left shows the data that was used to determine the forecast model. In the chart on the right, the purple line at the top, labeled "Actual (At)," shows the actual data from the test data set. The light blue line below it, labeled "Forecast (Ft)," shows the model's prediction. The red arrows between the two lines indicate the MAPE value, a measure of how close the forecast is to the actual data&mdash;that is, how accurate the forecast model is.
 
-The equation for calculating MAPE is included at the bottom of the graphic. *A<sub>t</sub>* is the actual value and *F<sub>t</sub>* is the forecast value. The absolute value in this ratio is summed for every forecasted point in the dataset and divided by the number of fitted points *n*.
+The equation for calculating MAPE is included at the bottom of the graphic. *A<sub>t</sub>* is the actual value and *F<sub>t</sub>* is the forecast value. The absolute value in this ratio is summed for every forecasted point in the dataset and divided by the number of fitted points *n*.
 
 MAPE is expressed as a percentage, as indicated in the equation in the diagram. The lower the MAPE value is, the more accurate the forecast likely is. In general, a MAPE of 20 percent or less is considered acceptable, but 10 percent would be even better. The best MAPE value that an organization can achieve is going to be dependent on the amount of historical data and how volatile the values are.
 
@@ -485,7 +600,7 @@ A [free text invoice](/dynamics365/finance/accounts-receivable/create-free-text-
 
 ### Freight reconciliation
 
-Freight reconciliation refers to the process of comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manage the process manually](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the **Transportation management** module in Dynamics 365 Supply Chain Management. Alternatively, you can set up integration with a service to manage freight reconciliation automatically.
+Freight reconciliation is the process of comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manually manage the process](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the **Transportation management** module in Dynamics 365 Supply Chain Management. Alternatively, you can set up integration with a service to automatically manage freight reconciliation.
 
 ### Funding source
 
@@ -493,9 +608,17 @@ A funding source is the entity that [funds work on a project contract](/dynamics
 
 ## G
 
+### General ledger
+
+A general ledger (GL) is a central repository in an accounting system that contains all the financial transactions and balances of an organization. It's a fundamental part of the double-entry accounting system and serves as a record of the company's financial activities over time. The general ledger is organized into various accounts, each representing a different aspect of the organization's financial operations. In Dynamics 365 Finance, the general ledger is a module that contains all the setup, configuration, data, period closing tasks, reports, and so on that are related to the general ledger.
+
 ### Granularity attribute
 
 A granularity attribute is the unique combination of [dimension values](#forecast-dimensions) that represents the level of detail at which a [forecast](#forecast) is generated.
+
+### HIPAA (Health Insurance Portability and Accountability Act)
+
+HIPAA is a U.S. federal law that establishes data privacy and security requirements for protected health information (PHI) and governs healthcare providers' and organizations' compliance.
 
 ## I
 
@@ -508,7 +631,7 @@ Indirect costs are expenses that aren't related to production or manufacturing, 
 
 ### Indirect expenses
 
-Indirect expenses are those that are not directly tied to the project but may be distributed across multiple projects. Examples include administrative costs, support staff, rental fees, and utility costs.   
+Indirect expenses are those that are not directly tied to the project but may be distributed across multiple projects. Examples include administrative costs, support staff, rental fees, and utility costs.
 
 ### Intercompany expenses
 
@@ -519,6 +642,23 @@ A worker who is employed by one legal entity in an organization might perform wo
 Many organizations charge a fee to customers for late payment of [invoices](#invoice). An interest note is a statement of such a fee. Charging interest helps businesses offset the cost of collecting overdue invoices while encouraging customers to pay their invoices in a timely manner. Depending on the country/region and the industry, customers who don't pay for products or services they received can face legal consequences.
 
 Dynamics 365 Finance automates the [process of calculating and collecting interest](/dynamics365/finance/accounts-receivable/tasks/process-interest) on overdue payments. Organizations can use case management in Dynamics 365 Finance and Customer Service to help manage the legal escalation of overdue invoices.
+
+### International Accounting Standards Board (IASB) 
+
+The International Accounting Standards Board (IASB) is an independent, private-sector body based in London, United Kingdom. Its primary responsibility is to develop and promulgate International Financial Reporting Standards (IFRS), a set of accounting standards used by companies and organizations worldwide for the preparation and presentation of financial statements.
+
+### International Financial Reporting Standards (IFRS)
+
+IFRS is a set of accounting standards developed by the International Accounting Standards Board (IASB). These standards are widely used in Europe and many other parts of the world for the preparation and presentation of financial statements.
+
+IFRS aims to harmonize accounting practices and provide a common financial reporting framework for businesses operating in different countries. While individual European countries may have their own national accounting standards, many European Union member states have adopted IFRS for the consolidated financial statements of publicly traded companies, particularly for companies listed on European stock exchanges. This adoption of IFRS helps facilitate cross-border comparisons and international investment.
+
+> [!NOTE]
+> While IFRS is commonly used in Europe, there may still be some variations or country-specific requirements in accounting and reporting practices in individual European countries. However, for consolidated financial statements of publicly traded companies, IFRS is often the standard used for reporting.
+
+### Internal controls
+
+Internal controls are processes and mechanisms implemented within an organization to safeguard assets, ensure accurate financial reporting, and ensure compliance with policies and regulations.
 
 ### Internet of Things sensors
 
@@ -592,7 +732,7 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 ### Lead
 
-A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).  
+A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
 
 ### Lead and opportunity management
 
@@ -606,7 +746,7 @@ Tracking and managing potential customers and sales opportunities throughout the
 
 ### Lead conversion
 
-The act of transitioning a qualified lead into a sales pipeline opportunity.  
+The act of transitioning a qualified lead into a sales pipeline opportunity.
 
 ### Lead enrichment
 
@@ -616,15 +756,15 @@ The process of augmenting lead records with additional data from various sources
 
 Ongoing communication with leads to develop awareness and interest over time.
 
-### Lead score  
+### Lead score
 
 A numeric rating assigned to a lead to indicate sales-readiness based on engagement, profile fit, and so on.
 
 ### Lease contracts
 
-A lease contract is a legal document that describes the terms under which the owner of an asset, the lessor, agrees to let a user, the lessee, make use of the asset and which the lessee agrees to uphold.
+A lease contract is a legal document that describes the terms under which the owner of an asset (the lessor) agrees to let a user (the lessee) use the asset. The lessee, in turn, agrees to uphold the terms. 
 
-Dynamics 365 Finance offers [asset leasing](/dynamics365/finance/asset-leasing/asset-leasing-homepage) capabilities, which comply with international accounting standards (IFRS 16) and US GAAP standards (ASC 842).
+Dynamics 365 Finance offers [asset leasing](/dynamics365/finance/asset-leasing/asset-leasing-homepage) capabilities that comply with international accounting standards (IFRS 16) and US GAAP standards (ASC 842).
 
 ### Lease payment schedule
 
@@ -632,11 +772,18 @@ A lease payment schedule is the predetermined timeline and structure for making 
 
 ### Leased assets
 
-[Assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both agree to are called leased assets. They're different from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house or an apartment or a piece of equipment.
+Leased assets are [assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both parties agree to. They differ from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house, an apartment, or a piece of equipment.
 
 ### Legal entity
 
-A legal entity is a separate entity recognized by the law, capable of entering contracts and engaging in business activities. It typically consists of owners/shareholders, management, assets, liabilities, and a distinct legal structure.
+A legal entity is a separate entity recognized by the law, capable of entering contracts and engaging in business activities. It typically consists of owners/shareholders, management, assets, liabilities, and a distinct legal structure. 
+
+In Dynamics 365 Finance, each legal entity is associated with a separate set of financial records and settings. The term legal entity and company are used interchangeably in Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations.  
+
+
+### Ledger
+
+A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
 
 ### Lessee
 
@@ -654,21 +801,21 @@ A load is a physical shipping container, such as a truck or a trailer, that can 
 
 ### Maintenance
 
-Maintenance involves procedural activities that help to extend the life of an asset or location and avoid impairment. After assets are identified and their location and state are known, the asset maintenance team can develop a basic maintenance plan. Based on an asset's state and risk of failure, different maintenance schedules and methodologies may be deployed. The three types of maintenance are *reactive*, *preventive*, and *predictive*. Learn more at [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md).  
+Maintenance involves procedural activities that help to extend the life of an asset or location and avoid impairment. After assets are identified and their location and state are known, the asset maintenance team can develop a basic maintenance plan. Based on an asset's state and risk of failure, different maintenance schedules and methodologies may be deployed. The three types of maintenance are *reactive*, *preventive*, and *predictive*. Learn more at [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md).
 
 ### Maintenance budget
 
-The cost of maintaining assets is planned and managed with a maintenance budget. Maintenance budgets typically consider factors like the [maintenance plan](#maintenance-plan) for the asset, the location of the asset, historical data, and the cost of resources.
+The cost of maintaining assets is planned and managed by using a maintenance budget. Maintenance budgets typically consider factors such as the [maintenance plan](#maintenance-plan) for the asset, the location of the asset, historical data, and the cost of resources.
 
 ### Maintenance checklist
 
-A maintenance checklist is associated with a job or work order where the team defines activities with potential outcomes for each checklist item. The maintenance team can define checklist items by maintenance job type, and they can extend the list later. The following list shows examples of checklist items in Dynamics 365:  
+A maintenance checklist is associated with a job or work order where the team defines activities with potential outcomes for each checklist item. The maintenance team can define checklist items by maintenance job type, and they can extend the list later. The following list shows examples of checklist items in Dynamics 365:
 
-- Text  
-- Header  
-- Template  
-- Variable  
-- Measurement  
+- Text
+- Header
+- Template
+- Variable
+- Measurement
 
 ### Maintenance plan
 
@@ -676,7 +823,7 @@ A maintenance plan is a scheduled set of related inspections, calibrations, and 
 
 ### Maintenance request
 
-Without creating a work order, teams often want to notify a manager or planner that an asset might require maintenance or repair. This is where the maintenance request comes in as a note or declaration.  
+Without creating a work order, teams often want to notify a manager or planner that an asset might require maintenance or repair. This is where the maintenance request comes in as a note or declaration.
 
 The following list shows examples of maintenance requests in Dynamics 365:
 
@@ -702,7 +849,7 @@ In Dynamics 365 Supply Chain Management, it's the [**Production floor execution*
 
 ### Margins
 
-The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.  
+The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.
 
 ### Marketing campaign
 
@@ -710,7 +857,7 @@ A strategic marketing effort across one or more channels over a period of time t
 
 ### Merchandising
 
-In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.  
+In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.
 
 ### Modes of manufacturing
 
@@ -726,11 +873,15 @@ Dynamics 365 Supply Chain Management supports four high-level categories of prod
 
 - **Mixed-mode manufacturing** reflects that businesses aren't restricted to a single type of manufacturing. For example, the pharmaceutical industry commonly uses both process and project-based production. When a business uses multiple modes, it's referred to as a mixed-mode manufacturer.
 
+### Multicurrency
+
+Multicurrency refers to the ability of the system to handle transactions and financial records in multiple currencies different than the accounting or reporting currency assigned to the ledger. Dynamics 365 Finance and Dynamics 365 Business Central enables organizations to conduct business in various currencies and manage currency-related processes.
+
 ## N
 
 ### Non-billable hours
 
-The hours worked on tasks that are not directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).  
+The hours worked on tasks that are not directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
 
 ## O
 
@@ -784,21 +935,21 @@ You can add products to a [product catalog](/dynamics365/sales/set-up-product-ca
 
 ### Product and price lists
 
-Catalogs of available products/services with assigned prices. Used to add items to quotes.  
+Catalogs of available products/services with assigned prices. Used to add items to quotes.
 
 ### Product category
 
-A product category is a logical grouping of the products that a business sells, based on common characteristics, attributes, features, or usage. Product categories help both businesses and customers quickly identify and locate specific types of products within a larger inventory.  
+A product category is a logical grouping of the products that a business sells, based on common characteristics, attributes, features, or usage. Product categories help both businesses and customers quickly identify and locate specific types of products within a larger inventory.
 
-Product categories can be broad or specific, depending on the size and complexity of a business's product offering. Some businesses may have only a few product categories, while others may have dozens or even hundreds. In addition to organizing products for customers, you can use product categories to manage inventory, track sales, and analyze business performance. Ultimately, product categories enhance organization, navigation, and customer experience by providing a structured way to manage and present products.  
+Product categories can be broad or specific, depending on the size and complexity of a business's product offering. Some businesses may have only a few product categories, while others may have dozens or even hundreds. In addition to organizing products for customers, you can use product categories to manage inventory, track sales, and analyze business performance. Ultimately, product categories enhance organization, navigation, and customer experience by providing a structured way to manage and present products.
 
 For example, a clothing retailer might have product categories such as the following list:
 
-- Men's Clothing  
-- Women's Clothing  
-- Kids' Clothing  
-- Shoes  
-- Accessories  
+- Men's Clothing
+- Women's Clothing
+- Kids' Clothing
+- Shoes
+- Accessories
 
 Similarly, an online electronics store might define product categories such as the following list:
 
@@ -828,11 +979,11 @@ In Dynamics 365 Commerce and Supply Chain Management, product categories are als
 
 ### Product family
 
-In Dynamics 365 Sales, Customer Service, Field Service and Customer Insights, a [product family](/dynamics365/sales/create-product-family) is a group of similar products. You can create a hierarchy of product families to make it easier to manage products. You can use [product categories](#product-category) for the same purpose in Dynamics 365 Supply Chain Management.  
+In Dynamics 365 Sales, Customer Service, Field Service and Customer Insights, a [product family](/dynamics365/sales/create-product-family) is a group of similar products. You can create a hierarchy of product families to make it easier to manage products. You can use [product categories](#product-category) for the same purpose in Dynamics 365 Supply Chain Management.
 
 ### Product hierarchy
 
-A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products within a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This hierarchy helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).  
+A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products within a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This hierarchy helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).
 
 ### Product lifecycle management (PLM)
 
@@ -916,7 +1067,7 @@ The phase in project management where the planned project outcomes, products, or
 
 ### Project estimate
 
-A project estimate is a projection of the cost and schedule of work on a project. Project estimates can be binding or not. Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
+A project estimate is a projection of the cost and schedule of work on a project. Project estimates can be binding or not. Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).
 
 ### Project manager
 
@@ -936,7 +1087,7 @@ A specific unit of work within a project that contributes to the overall complet
 
 ### Project type
 
-In Dynamics 365, projects can be categorized as one of six types depending on the purpose of the project. Each project type is set up differently for costs and revenue recognition. The following [project types](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#create-projects) are available in Dynamics 365 solutions:  
+In Dynamics 365, projects can be categorized as one of six types depending on the purpose of the project. Each project type is set up differently for costs and revenue recognition. The following [project types](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#create-projects) are available in Dynamics 365 solutions:
 
 - Time and material
 - Fixed-price
@@ -957,7 +1108,7 @@ A provider is a connection point in a supply chain. In the context of Intelligen
 
 ### Quote
 
-A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that they align with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.  
+A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that they align with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.
 
 Quotes can be *revised*, meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
 
@@ -977,9 +1128,13 @@ Raw materials are the inputs to a production process, which are used to create s
 
 Invoice reconciliation is the process of comparing and matching supplier invoices with purchase orders and receipts to ensure accurate payment and track manufacturing costs.
 
+### Regulatory compliance
+
+Regulatory compliance encompasses adhering to laws, rules, and regulations imposed by government authorities or industry bodies that govern specific aspects of an organization's operations, such as data protection, environmental standards, or financial reporting.
+
 ### Repair
 
-Repair involves restoring a broken asset to bring it to a steady operational state. In repair of intangible assets, especially impaired software, the organization might need more resources to fix the issue, such as consultants. They might also need licenses to get access to capabilities in software. Learn more at [Maintain and repair internal assets ](acquire-to-dispose-maintain-repair-internal-asset.md).  
+Repair involves restoring a broken asset to bring it to a steady operational state. In repair of intangible assets, especially impaired software, the organization might need more resources to fix the issue, such as consultants. They might also need licenses to get access to capabilities in software. Learn more at [Maintain and repair internal assets ](acquire-to-dispose-maintain-repair-internal-asset.md).
 
 ### Replenishment
 
@@ -1091,6 +1246,10 @@ Sales tools and technologies are software and hardware solutions that help sales
 
 - **Customer relationship management** (CRM) is a system and process for managing interactions with leads, prospects, and customers throughout the sales process, with the goal of building long-term relationships to improve customer satisfaction and increase sales.
 
+### Sarbanes-Oxley Act (SOX)
+
+The Sarbanes-Oxley Act of 2002 is a U.S. federal law that sets requirements for public company boards, management, and public accounting firms regarding financial reporting and internal control practices.
+
 ### Schedule
 
 Schedule aims to ensure the timely completion of a project. It consists of defining the tasks to accomplish, the priority, the deadlines, and the sequence.
@@ -1141,19 +1300,47 @@ A subcontractor is a hired external worker who performs specialized tasks or pro
 
 In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, the term *subject* refers to a categorization or classification for labeling and organizing various records, such as cases, activities, knowledge base articles, sales literature, and products. It helps in better organizing and managing data within the system. Subjects can be organized into a subject hierarchy. This concept is like the concept of a product category and product category hierarchy. However, one key difference is that subject support not only the organization of products but other types of data. Learn more at [Define subjects to categorize cases, products, and articles](/power-platform/admin/define-subjects-categorize-cases-products-articles).
 
+### Subledger
+
+In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger account) is a component of the financial accounting system that captures transactions specific to something other than a main account before they are summarized into the general ledger. It's a way to maintain different information about financial transactions and helps in providing a clear audit trail and detailed reporting. Many modules in Dynamics 365 include subledgers that integrate directly with the general ledger in Dynamics 365 Finance to include, but not limited to the following:
+
+- **Customer** – This includes any transactions that are posted to a customer account such as sales order invoices, free text invoices, and customer payments. This is primarily related to the Accounts receivable and Sales and marketing modules.
+
+- **Vendor** – This includes any transactions that are posted to a vendor account such as vendor invoices and vendor payments. This is primarily related to the Accounts payable and Procurement and sourcing modules.
+
+- **Inventory** – This includes any receipt or issue from inventory. This only applies to products that are tangible and stocked in your inventory. This can be related to transactions that happen in the Inventory management, Warehouse management, Transportation management, Production control, Sales and marketing, and Procurement and sourcing modules.
+
+- **Project** – This includes any transactions related to a project such as the hours, expenses, fees, and invoices. This is primarily related to the Project management and accounting module.
+
+- **Bank** – This includes any deposits or withdrawals including any fees, interest and so on that are recorded in a bank account. This is related to transactions that occur in the Cash and bank management module; however, it is important to note that most transactions originate in the Accounts payable and Accounts receivable modules.
+
+- **Fixed assets** – This includes the acquisition, depreciation, write up or write, and so on related to any fixed assets. This is primarily related to transactions that are generated in the Fixed asset module; however, there are integrations with Procurement and sourcing, Accounts receivable, and Project management and accounting.
+
 ### Supply chain
 
 A network of organizations, resources, activities, and processes that collaboratively design, produce, distribute, and deliver goods or services, ensuring efficient flow from suppliers to customers while minimizing costs and maximizing customer satisfaction.
 
 ## T
 
+### Tax codes and rates
+
+Tax codes represent different types of taxes or tax categories, while tax rates specify the percentages or amounts applied to taxable transactions. Business solutions often store and manage tax codes and rates to automate tax calculations.
+
+### Tax compliance
+
+Tax compliance involves adhering to tax laws and regulations, accurately calculating and reporting taxes owed, and submitting tax returns to the relevant tax authorities on time.
+
+### Tax jurisdiction
+
+A tax jurisdiction is a geographic area, typically defined by a government authority, that has specific tax laws and regulations. Organizations must determine the appropriate tax jurisdictions for their operations to calculate and report taxes correctly.
+
 ### Time and material projects
 
-For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be invoiced per project or per [project contract](#project-contract). Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
+For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be invoiced per project or per [project contract](#project-contract). Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).
 
 ### Time entry
 
-The practice of recording and monitoring the time spent on various tasks and activities throughout the project's lifecycle. Tracking time provides a record of work hours that are invested across the various project components. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md).  
+The practice of recording and monitoring the time spent on various tasks and activities throughout the project's lifecycle. Tracking time provides a record of work hours that are invested across the various project components. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md).
 
 ### Time series forecasting
 
@@ -1179,7 +1366,7 @@ Because this option circumvents the standard processes your organization uses, c
 
 ### Upsell
 
-Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).  
+Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).
 
 ## V
 
@@ -1191,7 +1378,7 @@ See [product](#product).
 
 ### Win/loss analysis
 
-The job of evaluating why deals were won or lost to improve the marketing process.  
+The job of evaluating why deals were won or lost to improve the marketing process.
 
 ### Work Breakdown Structure (WBS)
 
@@ -1199,11 +1386,11 @@ A Project Work Breakdown Structure (WBS) is a project management tool that adopt
 
 ### Work order
 
-A work order helps organizations to understand the maintenance or repair that is needed on an asset or a functional location. The work order assigns the appropriate resources to complete the maintenance request. Jobs associated with work orders help to register consumption details.  
+A work order helps organizations to understand the maintenance or repair that is needed on an asset or a functional location. The work order assigns the appropriate resources to complete the maintenance request. Jobs associated with work orders help to register consumption details.
 
-For example, you can use a work order to schedule maintenance on a machine. You can also create a work order for inspections, corrective maintenance, and preventive maintenance. In Dynamics 365 Field Service, a work order documents the [maintenance](#maintenance) or [repair](#repair) that an [asset](#asset) or location needs. It assigns the appropriate resources to complete the request, and jobs associated with work orders help register consumption details. Learn more about the work order process in Dynamics 365 Field Service [Work order architecture](/dynamics365/field-service/field-service-architecture).  
+For example, you can use a work order to schedule maintenance on a machine. You can also create a work order for inspections, corrective maintenance, and preventive maintenance. In Dynamics 365 Field Service, a work order documents the [maintenance](#maintenance) or [repair](#repair) that an [asset](#asset) or location needs. It assigns the appropriate resources to complete the request, and jobs associated with work orders help register consumption details. Learn more about the work order process in Dynamics 365 Field Service [Work order architecture](/dynamics365/field-service/field-service-architecture).
 
-You can also procure items with work orders. The procurement process typically starts with either a purchase requisition or purchase order request. Often, companies may not have the required items to execute a work order. This is when a purchase request is triggered. You can create a related purchase order or purchase requisition for a work order job in Dynamics 365.  
+You can also procure items with work orders. The procurement process typically starts with either a purchase requisition or purchase order request. Often, companies may not have the required items to execute a work order. This is when a purchase request is triggered. You can create a related purchase order or purchase requisition for a work order job in Dynamics 365.
 
 ### Workflow
 

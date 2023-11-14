@@ -1,5 +1,5 @@
 ---
-title:  Forecast demand for multiple companies
+title: Forecast demand for multiple companies
 description: Read about Forecast demand for multiple companies in Dynamics 365 Supply Chain Management.
 ms.date: 03/14/2023
 ms.topic: conceptual

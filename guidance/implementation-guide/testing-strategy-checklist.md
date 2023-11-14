@@ -1,5 +1,5 @@
 ﻿---
-title:  Checklist for the test strategy
+title: Checklist for the test strategy
 description: Get a list of things to remember as part of the test strategy for a Dynamics 365 implementation project.
 ms.date: 05/17/2023
 ms.topic: conceptual

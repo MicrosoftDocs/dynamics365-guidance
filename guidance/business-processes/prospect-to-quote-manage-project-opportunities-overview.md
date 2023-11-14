@@ -1,5 +1,5 @@
 ﻿---
-title:  Manage project opportunities overview
+title: Manage project opportunities overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage opportunities.
 ms.date: 07/27/2023
 ms.topic: conceptual

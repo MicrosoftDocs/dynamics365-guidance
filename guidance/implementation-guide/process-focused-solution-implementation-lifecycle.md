@@ -1,5 +1,5 @@
 ﻿---
-title:  Process-centric implementation lifecycle
+title: Process-centric implementation lifecycle
 description: The Success by design framework outlines the phases of the implementation lifecycle at high level and provides an outlook on how the business processes are recurrently used across those phases, emphasizing the importance of the process-centric implementation lifecycle.
 ms.date: 03/10/2023
 ms.topic: conceptual

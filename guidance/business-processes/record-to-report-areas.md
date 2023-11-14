@@ -1,7 +1,7 @@
 ﻿---
-title:  Record to report business process areas
+title: Record to report business process areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 04/05/2023
+ms.date: 11/09/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kgiardini
@@ -13,11 +13,13 @@ ms.author: kgiardini
 
 The *record to report* process is broken down into many business process areas. The following sections describe the business process areas.
 
-## Define the ledger and currency policies
+## Define the financial structure and organizational accounting policies
 
 This business process area involves setting up the organization structure, creating and maintaining companies, and defining the chart of accounts. In Dynamics 365 Finance, legal entities are a core configuration to use any functionality. The organizational hierarchy supports flexible and date-effective configuration to match your business needs. The configuration is used throughout Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations. The chart of account is flexible and supports shared or unique charts for each ledger. This way, you gain the flexibility to meet the unique requirements of your organization across the globe.
 
 As part of the structure and configuration there's also the need to manage currencies, exchange rates, and exchange rate providers to support financial transactions and reporting. Dynamics 365 Finance includes APIs to easily import exchange rates from OANDA or another provider. With the ability to track transactions in any currency and convert them to any other currency for the ledger and a second currency for reporting in real-time. Balances throughout the system can be updated automatically using quick and easy to use tools in multiple currencies.
+
+Learn more at [Define financial structure and organizational accounting policies overview](report-to-record-define-financial-structure-organizational-accounting-policies.md).  
 
 ## Manage budgets
 
@@ -39,9 +41,9 @@ In addition to the robust budgeting capabilities of Finance, there are also budg
 
 - Dynamics 365 Supply Chain Management includes robust forecasting functionality for demand and supply that can both be converted to general ledger budgets.
 
-## Maintain and manage cash and bank transactions
+<!-- ## Maintain and manage cash and bank transactions
 
-This business process area involves managing cash and bank transactions, including bank account reconciliations, cash management, and bank statement processing. The Cash and bank management module in Dynamics 365 Finance supports various payment types and includes bank reconciliation functionality to help automate the month-end activities.
+This business process area involves managing cash and bank transactions, including bank account reconciliations, cash management, and bank statement processing. The Cash and bank management module in Dynamics 365 Finance supports various payment types and includes bank reconciliation functionality to help automate the month-end activities. -->
 
 ## Record financial transactions
 
@@ -61,7 +63,9 @@ In addition to cash flow reporting, there's a need to review financial transacti
 
 This business process area involves complying with audit and regulatory requirements, including financial reporting, tax compliance, and internal controls. It often includes managing the security of your financial records and validation of the segregation of duties. Using the *Audit workbench*, you can manage audit cases and request through the resolution process. You can also use archival features to help manage the data retention policies of your organization.
 
-It also covers the need to design and implement statutory, tax, and localization requirements, including tax reporting, VAT, and legal reporting requirements. Dynamics 365 Finance includes a wide-ranging tax engine to calculate and manage various different taxes including, but not limited to sales tax, use tax, withholding tax, value added taxes, and more. Dynamics 365 Finance includes more than 40 localizations. For a complete list of countries/regions and languages supported, see [Globalization resources](/dynamics365/fin-ops-core/dev-itpro/lcs-solutions/country-region).
+It also covers the need to design and implement statutory, tax, and localization requirements, including tax reporting, VAT, and legal reporting requirements. Dynamics 365 Finance includes a wide-ranging tax engine to calculate and manage various different taxes including, but not limited to sales tax, use tax, withholding tax, value added taxes, and more. Dynamics 365 Finance includes more than 40 localizations. Find a complete list of countries/regions and languages supported at [Globalization resources](/dynamics365/fin-ops-core/dev-itpro/lcs-solutions/country-region).  
+
+Learn more at [Comply with tax, audit, and regulatory requirements overview](record-to-report-comply-tax-audit-regulatory-requirements.md).  
 
 ## Manage fund accounting
 

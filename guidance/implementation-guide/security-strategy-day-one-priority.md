@@ -1,5 +1,5 @@
 ---
-title:  Make security a day one priority
+title: Make security a day one priority
 description: Address the importance of making security a priority from day one, with specific examples from each product that build upon the concepts discussed in the Implementation Guide.
 author: riblack-microsoft
 ms.author: riblack

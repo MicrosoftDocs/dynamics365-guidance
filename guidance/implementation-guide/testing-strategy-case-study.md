@@ -1,5 +1,5 @@
 ﻿---
-title:  Case study for tests 
+title: Case study for tests 
 description: In this article, we explore a case study that shows how an implementation team build their test plan for their Dynamics 365 solution.  
 ms.date: 05/15/2023
 ms.topic: conceptual

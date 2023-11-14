@@ -1,5 +1,5 @@
 ---
-title:  A case study for acceptably performing solutions
+title: A case study for acceptably performing solutions
 description: Learn how an organization found its way to a performance-focused Dynamics 365 solution.
 author: TimoGossen
 ms.author: timogoss

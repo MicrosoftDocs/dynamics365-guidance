@@ -1,5 +1,5 @@
 ---
-title:  Scenarios for load tests in Dynamics 365 implementation projects
+title: Scenarios for load tests in Dynamics 365 implementation projects
 description: Review the steps and patterns that simulate complex and realistic user volume in load tests for Dynamics 365 implementations.
 ms.date: 06/26/2023
 ms.topic: conceptual

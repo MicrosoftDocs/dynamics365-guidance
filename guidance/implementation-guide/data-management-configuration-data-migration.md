@@ -1,5 +1,5 @@
 ---
-title:  Configuration Data and Data Migration
+title: Configuration Data and Data Migration
 description: This article discusses how data migration can help you make informed decisions, improve your customer engagement. We examine the various ways that data management plays a role in the creation of an effective Dynamics 365 solution.
 author: vaniaf
 ms.author: vaniaf

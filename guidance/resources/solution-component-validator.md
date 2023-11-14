@@ -1,5 +1,5 @@
 ---
-title:  Solution component validation tool
+title: Solution component validation tool
 description: Learn how to add a tool to help catch development issues with solution components in Dynamics 365 implementation projects.
 author: edupont04
 ms.author: ribsingh

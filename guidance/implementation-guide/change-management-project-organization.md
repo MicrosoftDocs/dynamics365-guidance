@@ -1,5 +1,5 @@
 ---
-title:  Manage the project organization
+title: Manage the project organization
 description: Read about the change manager's tasks for managing the project organization during a Dynamics 365 implementation project. 
 author: taksatoms
 ms.author: tsato

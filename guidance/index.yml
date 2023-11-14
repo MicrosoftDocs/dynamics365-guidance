@@ -1,11 +1,11 @@
 ### YamlMime:Hub
 
-title:  Dynamics 365 guidance documentation and other resources # < 60 chars
+title: Dynamics 365 guidance documentation and other resources # < 60 chars
 summary: Find proven guidance and best practices to help you implement and manage business solutions with Dynamics 365 apps.
 brand: dynamics
 
 metadata:
-  title:  Dynamics 365 guidance documentation and other resources
+  title: Dynamics 365 guidance documentation and other resources
   description: Hub page with links to different types of guidance content and tools for Dynamics 365 implementations.
   ms.topic: hub-page # Required
   author: edupont04
@@ -20,19 +20,19 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title:  Get started
+    - title: Get started
       itemType: get-started
       url: overview.md
     # Card
-    - title:  What's new
+    - title: What's new
       itemType: whats-new
       url:  /dynamics365/get-started/whats-new/index?toc=/dynamics 365/guidance/toc.json
     # Card
-    - title:  Success by design
+    - title: Success by design
       itemType: concept
       url: implementation-guide/success-by-design.md
     # Card
-    - title:  Adoption
+    - title: Adoption
       itemType: get-started
       url: /dynamics365/adoption/adoption-resources?toc=/dynamics 365/guidance/toc.json
 
@@ -40,7 +40,7 @@ highlightedContent:
 productDirectory:
   items:
 # Get started card
-    - title:  Get started
+    - title: Get started
       # imageSrc should be square in ratio with no white space
       imageSrc: media/sample-adoption.svg
       links:
@@ -58,7 +58,7 @@ productDirectory:
           url: fasttrack/overview.md
 
 # processes card
-    - title:  End-to-end business processes
+    - title: End-to-end business processes
       imageSrc: media/sample-coe.svg
       links:
       - text: Get started
@@ -68,7 +68,7 @@ productDirectory:
       - text: Business processes, steps, and how to find things
         url: business-processes/about-steps-navigation.md
 # Implement card
-    - title:  Implement
+    - title: Implement
       # imageSrc should be square in ratio with no white space
       imageSrc: media/sample-more.svg
       links:
@@ -86,7 +86,7 @@ productDirectory:
           url: implementation-portal/overview.md
 
 # Admin Card
-    - title:  Administer
+    - title: Administer
       imageSrc: media/sample-creator.svg
       links:
       - text: Overview
@@ -103,7 +103,7 @@ productDirectory:
         url: implementation-guide/application-lifecycle-management.md
 
 # Card
-#    - title:  Reference architectures
+#    - title: Reference architectures
 #      imageSrc: media/sample-coe.svg
 #      links:
 #    - text: Overview
@@ -114,10 +114,10 @@ productDirectory:
 conceptualContent:
   sections:
 # D365ImplGuide
-  - title:  Implementation guide
+  - title: Implementation guide
     summary: Guidance to help admins prepare and manage business solutions with Dynamics 365.
     items:
-    - title:  Strategize
+    - title: Strategize
       links:
 #      - text: Start the process
 #        itemType: concept
@@ -140,7 +140,7 @@ conceptualContent:
       - text: Implementation strategy
         itemType: concept
         url: implementation-guide/implementation-strategy.md
-    - title:  Initiate
+    - title: Initiate
       links:
 #      - text: Overview
 #        itemType: concept
@@ -160,7 +160,7 @@ conceptualContent:
 #      - text: Modeled for the future
 #        itemType: concept
 #        url: placeholder.md
-    - title:  Implement
+    - title: Implement
       links:
 #      - text: Overview
 #        itemType: concept
@@ -180,7 +180,7 @@ conceptualContent:
       - text: Integrate with other solutions
         itemType: overview
         url: implementation-guide/integrate-other-solutions.md
-    - title:  Prepare
+    - title: Prepare
       links:
 #      - text: Overview
 #        itemType: concept
@@ -191,7 +191,7 @@ conceptualContent:
       - text: Training strategy
         itemType: concept
         url: implementation-guide/training-strategy.md     
-    - title:  Operate
+    - title: Operate
       links:
 #      - text: Overview
 #        itemType: concept
@@ -206,10 +206,10 @@ conceptualContent:
         itemType: concept
         url: implementation-guide/business-intelligence-reporting-analytics-overview.md
 # FIT
-  - title:  Implementation optimization resources
+  - title: Implementation optimization resources
     summary: Find links to documentation and tools to help more efficient implementation projects.
     items:
-    - title:  Get started
+    - title: Get started
       links:
           - itemType: get-started
             text: Overview
@@ -219,7 +219,7 @@ conceptualContent:
             url: resources/overview.md
 
 ## Commerce
-    # - title:  Commerce
+    # - title: Commerce
     #   links:
     #   - itemType: get-started
     #     text: Introduction
@@ -229,7 +229,7 @@ conceptualContent:
     #     url: placeholder.md
 
 ## Customer Service
-    - title:  Customer Service
+    - title: Customer Service
       links:
       - itemType: get-started
         text: Introduction
@@ -238,7 +238,7 @@ conceptualContent:
         text: Resources
         url: resources/cs-index.yml
 ## Finance
-    - title:  Finance, Project Operations, Human Resources
+    - title: Finance, Project Operations, Human Resources
       links:
       - itemType: get-started
         text: Introduction
@@ -247,7 +247,7 @@ conceptualContent:
         text: Resources
         url: resources/fin-index.yml
 # CE
-    # - title:  Marketing, Sales, Customer Insights
+    # - title: Marketing, Sales, Customer Insights
     #   links:
     #   - itemType: get-started
     #     text: Introduction
@@ -256,7 +256,7 @@ conceptualContent:
     #     text: Resources
     #     url: placeholder.md
 # Supply Chain
-    - title:  Supply Chain Management
+    - title: Supply Chain Management
       links:
       - itemType: get-started
         text: Introduction
@@ -265,7 +265,7 @@ conceptualContent:
         text: Resources
         url: resources/scm-index.yml
 # SMB
-    - title:  Business Central
+    - title: Business Central
       links:
       - itemType: get-started
         text: Introduction
@@ -274,7 +274,7 @@ conceptualContent:
         text: Resources
         url: /dynamics365/business-central/dev-itpro/administration/migrate-data
 # Cross-app + platform
-    # - title:  Shared resources
+    # - title: Shared resources
     #   links:
     #   - itemType: get-started
     #     text: Introduction
@@ -284,7 +284,7 @@ conceptualContent:
     #     url: resources/index.yml
 
 # current
-#    - title:  Migrate data
+#    - title: Migrate data
 #      links:
 #          - itemType: concept
 #            text: Introduction
@@ -302,12 +302,12 @@ conceptualContent:
 #            text: Import vendor invoices
 #            url: resources/import-vendor-invoices.md
 # 14806 dev tools
-#    - title:  Develop solutions
+#    - title: Develop solutions
 #      links:
 #      - itemType: concept
 #        text: Validate the solution components
 #        url: resources/solution-component-validator.md
-#    - title:  Test the implementation
+#    - title: Test the implementation
 #      links:
 #        - itemType: concept
 #          text: Set up test automation
@@ -320,7 +320,7 @@ conceptualContent:
 #          url: resources/cs-set-up-cif2-simulator.md
 
 # business processes section
-  - title:  Business processes
+  - title: Business processes
     summary: This section provides an overview of end-to-end business processes that Dynamics 365 supports.
     items:
     - links:
@@ -330,7 +330,7 @@ conceptualContent:
       - itemType: concept
         text: About the business process guides
         url: business-processes/about.md      
-    - title:  Acquire to dispose
+    - title: Acquire to dispose
       links:
       - text: Introduction
         itemType: overview
@@ -341,7 +341,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/acquire-to-dispose-areas.md
-    - title:  Case to resolution
+    - title: Case to resolution
       links:
       - text: Introduction
         itemType: overview
@@ -352,7 +352,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/case-to-resolution-areas.md
-    - title:  Forecast to plan
+    - title: Forecast to plan
       links:
       - text: Introduction
         itemType: overview
@@ -363,7 +363,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/forecast-to-plan-areas.md
-    - title:  Hire to retire
+    - title: Hire to retire
       links:
       - text: Introduction
         itemType: overview
@@ -374,7 +374,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/hire-to-retire-areas.md
-    - title:  Inventory to deliver
+    - title: Inventory to deliver
       links:
       - text: Introduction
         itemType: overview
@@ -385,7 +385,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/inventory-to-deliver-areas.md
-    - title:  Order to cash
+    - title: Order to cash
       links:
       - text: Introduction
         itemType: overview
@@ -396,7 +396,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/order-to-cash-areas-overview.md
-    - title:  Plan to produce
+    - title: Plan to produce
       links:
       - text: Introduction
         itemType: overview
@@ -407,7 +407,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/plan-to-produce-areas.md
-    - title:  Product and service lifecycle management
+    - title: Product and service lifecycle management
       links:
       - text: Introduction
         itemType: overview
@@ -418,7 +418,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/product-service-lifecycle-management-areas.md
-    - title:  Procure to pay
+    - title: Procure to pay
       links:
       - text: Introduction
         itemType: overview
@@ -429,7 +429,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/procure-to-pay-areas.md
-    - title:  Project to profit
+    - title: Project to profit
       links:
       - text: Introduction
         itemType: overview
@@ -440,7 +440,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/project-to-profit-areas.md
-    - title:  Prospect to quote
+    - title: Prospect to quote
       links:
       - text: Introduction
         itemType: overview
@@ -451,7 +451,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/prospect-to-quote-areas.md
-    - title:  Record to report
+    - title: Record to report
       links:
       - text: Introduction
         itemType: overview
@@ -462,7 +462,7 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/record-to-report-areas.md
-    - title:  Service to cash
+    - title: Service to cash
       links:
       - text: Introduction
         itemType: concept
@@ -475,10 +475,10 @@ conceptualContent:
         url: business-processes/service-to-cash-areas-overview.md
 
 # admin section
-#  - title:  Administration guide
+#  - title: Administration guide
 #    summary: This section provides an overview of processes that helps admins manage Dynamics 365 solutions.
 #    items:
-#    - title:  Get started
+#    - title: Get started
 #      links:
 #      - text: Administrative process overview
 #        itemType: architecture
@@ -489,7 +489,7 @@ conceptualContent:
     #   - text: Organizational strategy
     #     itemType: concept
     #     url: organizational-strategy/define-organizational-strategy.md
-    # - title:  Manage
+    # - title: Manage
     #   links:
     #   - text: Administrator experience and the Power Platform admin center
     #     itemType: concept
@@ -509,7 +509,7 @@ conceptualContent:
 #      - text: Additional developer resources
 #        itemType: concept
 #        url: placeholder.md
-    # - title:  Plan for security
+    # - title: Plan for security
     #   links:
     #   - text: Security strategy
     #     itemType: overview
@@ -529,30 +529,30 @@ conceptualContent:
 additionalContent:
   sections:
 # product docs
-  - title:  Documentation and training # < 60 chars (optional)
+  - title: Documentation and training # < 60 chars (optional)
     summary: Navigate to documentation for Dynamics 365 and Power Platform apps and components.
     items:
       # Card
-      - title:  Dynamics 365 documentation
+      - title: Dynamics 365 documentation
         summary: Hub page with links to documentation and training for each app
         url: /dynamics365/index
       # Card
-      - title:  Power Platform documentation
+      - title: Power Platform documentation
         summary: Analyze data, build solutions, automate processes, and create virtual agents
         url: /power-platform/
       # Card
-      - title:  Power Platform guidance
+      - title: Power Platform guidance
         summary: Provides information to help you create and implement the business and technology strategies necessary for your organization to succeed with Microsoft Power Platform
         url: /power-platform/guidance/
       # Card
-      - title:  Dynamics 365 training
+      - title: Dynamics 365 training
         summary: Find free e-learning content from Microsoft here
         url: /training/dynamics365/
       # Card 
-      - title:  Troubleshooting guide for Dynamics 365
+      - title: Troubleshooting guide for Dynamics 365
         summary: Landing page with links to content for troubleshooting and answers to frequently asked questions across Dynamics 365 apps
         url: /troubleshoot/dynamics-365/
       # Card
-      - title:  Privacy and personal data for Microsoft Dynamics 365 
+      - title: Privacy and personal data for Microsoft Dynamics 365 
         summary: Landing page for compliance and Dynamics 365
         url: /dynamics365/get-started/privacy/

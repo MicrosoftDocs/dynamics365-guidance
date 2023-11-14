@@ -1,5 +1,5 @@
 ---
-title:  Migrate data
+title: Migrate data
 description: You can migrate the data that you want to Dynamics 365. Here, we outline the tools and other guidance. The article is still very basic, but more content will be added throughout 2023. 
 author: edupont04
 ms.author: edupont

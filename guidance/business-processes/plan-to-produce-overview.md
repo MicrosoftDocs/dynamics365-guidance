@@ -1,5 +1,5 @@
 ﻿---
-title:  Plan to produce overview
+title: Plan to produce overview
 description: Read about how Dynamics 365 supports the plan to produce business process.
 ms.date: 05/02/2023
 ms.topic: conceptual

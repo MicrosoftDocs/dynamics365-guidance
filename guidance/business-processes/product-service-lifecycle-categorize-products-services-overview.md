@@ -1,5 +1,5 @@
 ﻿---
-title:  Categorize products and service overview
+title: Categorize products and service overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to categorize the goods and services that you sell.
 ms.date: 09/05/2023
 ms.topic: conceptual

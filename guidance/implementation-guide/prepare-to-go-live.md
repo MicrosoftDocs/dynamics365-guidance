@@ -1,5 +1,5 @@
 ---
-title:  Prepare for go-live
+title: Prepare for go-live
 description: Learn how to prepare for a successful go-live of a Microsoft Dynamics 365 solution by assessing the readiness of the people, processes, and systems for deployment.
 author: vaniusca
 ms.author: vaniaf

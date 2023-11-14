@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title:  Dynamics 365 Supply Chain Management implementation optimization resources
+title: Dynamics 365 Supply Chain Management implementation optimization resources
 summary: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Supply Chain Management.
 
 metadata:
-  title:  Dynamics 365 Supply Chain Management implementation optimization resources
+  title: Dynamics 365 Supply Chain Management implementation optimization resources
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Supply Chain Management.
   author: edupont04
   ms.author: edupont
@@ -16,7 +16,7 @@ metadata:
 landingContent:
 
 # Card
-  - title:  What's new
+  - title: What's new
     linkLists:
     - linkListType: get-started
       links:
@@ -24,7 +24,7 @@ landingContent:
         url: /dynamics365/supply-chain/get-started/whats-new-home-page
 
 # Card
-  # - title:  Samples and tools
+  # - title: Samples and tools
   #   linkLists:
   #   - linkListType: sample
   #     links:
@@ -39,7 +39,7 @@ landingContent:
 
 # # Card
 
-#   - title:  Develop the solution
+#   - title: Develop the solution
 #     linkLists:
 #     -  linkListType: overview
 #        links:
@@ -49,7 +49,7 @@ landingContent:
 #          url: /dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview
 
 # # Card
-#   - title:  Test the solution
+#   - title: Test the solution
 #     linkLists:
 #     - linkListType: overview
 #       links:
@@ -57,7 +57,7 @@ landingContent:
 #         url: test-load-test-scenarios.md
 
 # Card
-  - title:  Migrate data
+  - title: Migrate data
     linkLists:
     - linkListType: reference
       links:

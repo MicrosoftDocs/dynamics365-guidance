@@ -1,5 +1,5 @@
 ---
-title:  Service to cash introduction
+title: Service to cash introduction
 description: Get an introduction to an end-to-end business process, service to cash. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
 ms.date: 06/29/2023
 ms.topic: conceptual

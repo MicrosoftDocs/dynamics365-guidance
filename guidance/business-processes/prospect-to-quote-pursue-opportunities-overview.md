@@ -1,5 +1,5 @@
 ﻿---
-title:  Pursue opportunities overview
+title: Pursue opportunities overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to pursue opportunities.
 ms.date: 10/31/2023
 ms.topic: conceptual

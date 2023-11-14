@@ -1,5 +1,5 @@
 ﻿---
-title:  Drive expansion
+title: Drive expansion
 description: Learn how expansion can help the business-focused digital transformation.
 author: taksatoms
 ms.author: tsato

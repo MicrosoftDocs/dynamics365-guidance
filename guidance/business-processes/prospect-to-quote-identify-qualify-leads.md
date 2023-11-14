@@ -1,5 +1,5 @@
 ﻿---
-title:  Identify and qualify leads overview
+title: Identify and qualify leads overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to identify and qualify leads.
 ms.date: 10/31/2023
 ms.topic: conceptual

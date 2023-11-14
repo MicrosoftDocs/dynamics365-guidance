@@ -1,5 +1,5 @@
 ﻿---
-title:  Procure to pay introduction
+title: Procure to pay introduction
 description: Get an introduction to the procure to pay end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their plan to produce processes.
 ms.date: 04/24/2023
 ms.topic: conceptual

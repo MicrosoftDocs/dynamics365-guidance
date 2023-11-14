@@ -1,5 +1,5 @@
 ---
-title:  Prioritize performance
+title: Prioritize performance
 description: Learn how to prioritize performance early on to ensure successful Dynamics 365 implementations and user acceptance.
 author: TimoGossen
 ms.author: timogoss

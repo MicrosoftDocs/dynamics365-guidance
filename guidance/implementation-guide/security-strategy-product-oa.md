@@ -1,5 +1,5 @@
 ---
-title:  Finance and operations apps security
+title: Finance and operations apps security
 description: Finance and operations applications use Microsoft Entra as a primary identity provider and utilizes the security capabilities of Azure in addition to extensive native security features. This section shares product-specific guidance for security measures customers should consider.
 author: riblack-microsoft
 ms.author: riblack

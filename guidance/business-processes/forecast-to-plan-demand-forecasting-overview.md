@@ -1,5 +1,5 @@
 ---
-title:  Demand forecasting overview
+title: Demand forecasting overview
 description: Read about how Dynamics 365 supports the demand forecasting business process.
 ms.date: 07/06/2023
 ms.topic: conceptual
