@@ -48,11 +48,11 @@ The following diagram shows a sample of how the organizational structure for cus
 
 ## Organizational structure components
 
-The organization structure components reflect on the Dynamics 365 apps and down-stream business processes you plan to implement. However, at a minimum, you must configure at least one [legal entity](#legal-entity) to use any finance and operations apps, and at least one [business unit](#business-units) to implement any customer engagement apps. The following sections describe each component, the applications they're used with, and the major down-stream business processes they affect.
+The organization structure components reflect on the Dynamics 365 apps and downstream business processes you plan to implement. However, at a minimum, you must configure at least one [legal entity](#legal-entity) to use any finance and operations apps, and at least one [business unit](#business-units) to implement any customer engagement apps. The following sections describe each component, the applications they're used with, and the major downstream business processes they affect.
 
 ### Legal entity
 
-A legal entity is an organization that has a registered or legislated legal structure. Legal entities can enter legal contracts and are required to prepare statements that report on their performance. In finance and operations apps, [legal entities](/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity?context=%2Fdynamics365%2Fcontext%2Fsupply-chain) are required to perform any configuration and enter any transactions.  
+A legal entity is an organization that has a registered or legislated legal structure. Legal entities can enter legal contracts and are required to prepare statements that report on their performance. In finance and operations apps, [legal entities](/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity?context=%2Fdynamics365%2Fcontext%2Fsupply-chain) are required to perform any configuration and enter any transactions.
 
 > [!NOTE]
 > With each new deployment, you get a default legal entity, *DAT*. However, don't use this legal entity for production use of the system.
@@ -61,7 +61,7 @@ In finance and operations apps, two other terms and concepts are tightly related
 
 #### Company and data area ID
 
-A company is a type of legal entity and is currently the only type of legal entity you can create. In other words, the terms *legal entity* and *company* are synonymous. The ID of the legal entity is also the ID of the company. When you perform configurations and process transactions, you must specify the *company* that the transactions and configuration apply to. Most tables that store the data has a **DataAreaID** column. The data area ID is the ID of the company or legal entity. With the values in this table column, you can filter and group data throughout the system by the company or legal entity it belongs to. The exception to this rule is tables that are shared globally throughout the system. Examples of shared tables include workers, products, and chart of accounts, to name a few.
+A company is a type of legal entity and is currently the only type of legal entity you can create. In other words, the terms *legal entity* and *company* are synonymous. The ID of the legal entity is also the ID of the company. When you perform configurations and process transactions, you must specify the *company* that the transactions and configuration apply to. Most tables that store the data have a **DataAreaID** column. The data area ID is the ID of the company or legal entity. With the values in this table column, you can filter and group data throughout the system by the company or legal entity it belongs to. The exception to this rule is tables that are shared globally throughout the system. Examples of shared tables include workers, products, and chart of accounts, to name a few.
 
 Some types of transactions can cross legal entities, namely *intercompany transactions*. Dynamics 365 supports [intercompany accounting](/dynamics365/finance/general-ledger/intercompany-accounting-setup) with financial journal entries that [cross companies](/dynamics365/finance/general-ledger/example-balanced-journals-interunit-accounting). With Supply Chain Management, you can set up [intercompany trade](/dynamics365/supply-chain/sales-marketing/intercompany-trade-set-up) to handle sales, purchase, or project transactions that cross companies.
 
@@ -83,7 +83,7 @@ The types of operating units include *cost centers*, *business units*, *value st
 
 ### Teams
 
-In finance and operations apps, a team is an organizational unit where the members share a common responsibility, interest, or objective. It's important to note that Teams can't be used in organizational hierarchies.  
+In finance and operations apps, a team is an organizational unit where the members share a common responsibility, interest, or objective. It's important to note that Teams can't be used in organizational hierarchies.
 
 In customer engagement apps, a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
@@ -95,7 +95,7 @@ In customer engagement apps, a *site* is an office location or other facility wh
 
 ### Warehouses
 
-In Dynamics 365 Supply Chain Management, a warehouse is used to track inventory and manage inventory processes such as receipts, issues, transfers, and counting. Although a warehouse isn't required in solutions with Supply Chain Management, a warehouse is required to use the advanced warehouse management functionality. Most organizations that implement Supply Chain Management, create at least one warehouse.
+In Dynamics 365 Supply Chain Management, a warehouse is used to track inventory and manage inventory processes such as receipts, issues, transfers, and counting. Although a warehouse isn't required in solutions with Supply Chain Management, a warehouse is required to use the advanced warehouse management functionality. Most organizations that implement Supply Chain Management create at least one warehouse.
 
 ## Organization structure design considerations
 
@@ -105,11 +105,11 @@ Before you define the solution and design in Dynamics 365, for your organization
 
 For Dynamics 365 solutions with finance and operations apps, each legal entity is tied to one localization. The localization features of Dynamics 365 reflect the country/region that you specify as the primary address of the legal entity. You can't combine multiple countries or regions in a single legal entity in finance and operations apps.
 
-Localizations are controlled by special kernel code that checks the metadata on objects. It's deeply embedded throughout the entire solution. Although finance and operations apps are highly extensible, we recommend that you do *NOT* attempt extending the solution to support multiple localizations within a single legal entity.
+Localizations are controlled by special kernel code that checks the metadata on objects. It's deeply embedded throughout the entire solution. Although finance and operations apps are highly extensible, we recommend that you do *NOT* attempt to extend the solution to support multiple localizations within a single legal entity.
 
 ### Legally separate entities
 
-Different countries or regions may have different definitions of organizations. Generally speaking, when you have two legally separate entities, the configuration of legal entities in Dynamics 365 matches the legal or regulatory structure of your organization. We do *NOT* recommended that you create separate entities for divisions or business units that are legally the same entity. In other words, don't create a separate legal entity for each site or business unit if the sites or business units are all part of the same legal organization.
+Different countries or regions may have different definitions of organizations. Generally speaking, when you have two legally separate entities, the configuration of legal entities in Dynamics 365 matches the legal or regulatory structure of your organization. We do *NOT* recommend that you create separate entities for divisions or business units that are legally the same entity. In other words, don't create a separate legal entity for each site or business unit if the sites or business units are all part of the same legal organization.
 
 ### Tax registration IDs
 
@@ -117,20 +117,20 @@ In some countries and regions, a tax registration ID is a separate legal entity.
 
 ### Security
 
-Finance and operations apps have strict security separation between each legal entity by design of the data area ID. For example, your organization has strict security requirements between divisions or departments to separate data, and it restricts users to see data relative to their specific division or department. In such scenarios, use legal entities to represent the divisions or departments.
+Finance and operations apps have strict security separation between each legal entity by design of the data area ID. For example, your organization has strict security requirements between divisions or departments to separate data, and it restricts users to viewing data relative to their specific division or department. In such scenarios, use legal entities to represent the divisions or departments.
 
-With finance and operations apps, you can configure record or row level security by using extensible data security (XDS) policies. However, we don't recommended that you use XDS policies as a way to implement widespread row level security.
+With finance and operations apps, you can configure record or row level security by using extensible data security (XDS) policies. However, we don't recommend that you use XDS policies as a way to implement widespread row level security.
 
 With customer engagement apps, you can separate security using business units or teams. You should carefully consider your security requirements throughout the system when deciding whether to use business units, teams, or both.
 
 ### Data sharing
 
-Finance and operations apps support the sharing of data across legal entities. However, there are some limitations to using data sharing, and some other features that aren't supported when you use data sharing. When you need to separate legal entities, for example, due to localizations, consider if you can share data across legal entities. When you enable data sharing, there are also limitations to the number of legal entities and number of records that can be shared. Make sure you consider the size of your current organization and your growth over the next 5-10 years when considering using data sharing as a part of your organizational approach.  
+Finance and operations apps support the sharing of data across legal entities. However, there are some limitations to using data sharing, and some other features that aren't supported when you use data sharing. When you need to separate legal entities, for example, due to localizations, consider if you can share data across legal entities. When you enable data sharing, there are also limitations to the number of legal entities and number of records that can be shared. Make sure you consider the size of your current organization and your growth over the next 5-10 years when considering using data sharing as a part of your organizational approach.
 
 > [!IMPORTANT]
-> Data sharing isn't supported in solutions that combines finance and operations apps and customer engagement apps with Dual Write to synchronize data between the applications.
+> Data sharing isn't supported in solutions that combine finance and operations apps and customer engagement apps with dual-write to synchronize data between the applications.
 
-In other words, don't use data sharing if you have dual write requirements or may have dual write requirements in the future.
+In other words, don't use data sharing if you have dual-write requirements or may have dual-write requirements in the future.
 
 When you use separate legal entities, remember that most data is secured and separated for each legal entity. In other words, the data isn't shared by default. As a result, you may have to duplicate or share configuration across legal entities if the data is required in all legal entities. When you need different configurations or parameters between sites, or business units for example, consider if separating the legal entities by sites or business units is the best option. You must weigh the usability of having multiple entities against the configuration or business process differences that would be required when combining legal entities.
 
@@ -144,7 +144,7 @@ Remember that most pages in finance and operations apps only allow you to see or
 
 In finance and operations apps, you can share the chart of accounts and financial dimensions across legal entities by linking each ledger to the same chart of accounts. Conversely, you can also have separate charts of accounts and financial dimensions in each legal entity if necessary. When you have multiple legal entities, you can create more consolidation legal entities to combine the financial data into a single legal entity. However, it's important to note that a consolidation or elimination legal entity can't have transactions other than the consolidation performed. For example, you have a parent company that makes purchases and needs to consolidate the financials from three other companies. In this scenario, you create a separate legal entity for the sole purpose of consolidating.
 
-The default behavior of the chart of accounts in finance and operations apps is that it's a double-entry, real-time or near real-time system of accounting. What this means is that for each entry, there's an equal and opposite entry. The trial balance in finance and operations apps always sums to zero. For example, many organizations have a requirement to keep a balance sheet to balance by a division or business unit. You can use one financial dimension in the ledger configuration as a balancing financial dimension. In other words, for each entry to a specific account, the dimension value has an equal and opposite entry. If you have a requirement to maintain multiple balance sheets, we  recommended that you consider using the balancing financial dimension to meet the business requirements instead of creating a separate legal entity.
+The default behavior of the chart of accounts in finance and operations apps is that it's a double-entry, real-time or near real-time system of accounting. What this means is that for each entry, there's an equal and opposite entry. The trial balance in finance and operations apps always sums to zero. For example, many organizations have a requirement to keep a balance sheet to balance by a division or business unit. You can use one financial dimension in the ledger configuration as a balancing financial dimension. In other words, for each entry to a specific account, the dimension value has an equal and opposite entry. If you have a requirement to maintain multiple balance sheets, we recommend that you consider using the balancing financial dimension to meet the business requirements instead of creating a separate legal entity.
 
 ## Configuring the organization structure
 
@@ -162,11 +162,11 @@ There are various components that are used in the configuration of organization 
 
 ## Recommended practices
 
-When implementing your organization structure in Dynamics 365, use the following recommended practices.  
+When implementing your organization structure in Dynamics 365, use the following recommended practices.
 
-* Consider the usability of the solution  
-* Don't combine multiple countries or regions in a single legal entity  
-* Don't separate business units or divisions into separate legal entities if they aren't legally separate  
+* Consider the usability of the solution.
+* Don't combine multiple countries or regions in a single legal entity.
+* Don't separate business units or divisions into separate legal entities if they aren't legally separate.
 
 <!--## Tags
 

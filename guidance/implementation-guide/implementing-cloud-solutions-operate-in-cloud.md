@@ -1,5 +1,5 @@
-﻿---
-title: Operate in the cloud
+---
+title:  Operate in the cloud
 description: Learn how, at the end of your Dynamics 365 implementation project, the organization can effectively operate in the cloud.
 author: taksatoms
 ms.author: tsato
@@ -21,27 +21,27 @@ Microsoft provides a CoE starter toolkit that includes prebuilt processes:
 
 - Administer  
 
-  Gain insights into your Power Platform adoption
+  Gain insights into your Power Platform adoption.
 
 - Govern  
 
-  Establish audit, compliance, and archive processes
+  Establish audit, compliance, and archive processes.
 
 - Nurture  
 
-  Accelerate your adoption with a thriving community
+  Accelerate your adoption with a thriving community.
 
 - Drive innovation  
 
-  Pick the most impactful and valuable scenarios for development
+  Pick the most impactful and valuable scenarios for development.
 
 - Consistent ALM  
 
-  Apply source control strategies using GitHub
+  Apply source control strategies using GitHub.
 
 - Standards and theming  
 
-  Create, manage, and share enterprise-branded themes as well as maintain and follow organizational best practices and standards
+  Create, manage, and share enterprise-branded themes as well as maintain and follow organizational best practices and standards.
 
 > [!TIP]
 > [AppSource](https://appsource.microsoft.com/) offers a variety of ISV solutions to suit your needs. Learn more at [Establishing a Microsoft Power Platform Center of Excellence](/power-platform/guidance/adoption/coe).
@@ -75,9 +75,9 @@ Keep in mind the following best practices:
 
 ## Adopt and align to a product roadmap
 
-Your cloud solution evolves and delivers on the promise of digital transformation. It delivers new capabilities that help you stay competitive in your industry. Cloud vendors do their own research and listen to customer feedback to improve the product by adding new features. Being actively engaged in this process by giving feedback, staying abreast of the latest roadmap, and planning for upcoming changes is an effective way to operate in cloud. Also, the key stakeholders from the business need to remain engaged and stay plugged in to new features development, investments, and product direction. We recommend developing your own roadmap for business applications and aligning this to the product direction to get the most out of your investments.
+Your cloud solution evolves and delivers on the promise of digital transformation. It delivers new capabilities that help you stay competitive in your industry. Cloud vendors do their own research and listen to customer feedback to improve the product by adding new features. Being actively engaged in this process by giving feedback, staying abreast of the latest roadmap, and planning for upcoming changes is an effective way to operate in the cloud. Also, the key stakeholders from the business need to remain engaged and stay plugged in to new features development, investments, and product direction. We recommend developing your own roadmap for business applications and aligning this to the product direction to get the most out of your investments.
 
-Dynamics 365 has two [release waves](/dynamics365/release-plans/) per year in which several incremental enhancements and new capabilities are made available to customers. Adopting these mandatory changes and new features—many of which are included in existing license plans—are a fundamental aspect of operating in cloud.
+Dynamics 365 has two [release waves](/dynamics365/release-plans/) per year in which several incremental enhancements and new capabilities are made available to customers. Adopting these mandatory changes and new features—many of which are included in existing license plans—are a fundamental aspect of operating in the cloud.
 
 ## Stay engaged
 
