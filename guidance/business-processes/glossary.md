@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 10/31/2023
+ms.date: 11/09/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
@@ -20,6 +20,18 @@ Find generic and specific terms across Microsoft products and languages at [Micr
 
 ## A
 
+### Account structure
+
+The term *account structure* in Dynamics 365 Finance refers to an organized list of main accounts and financial dimensions. An account structure defines the financial dimensions that are applicable to each main account. It also defines the rules that determine which combinations of main accounts and dimension values are allowed, which financial dimensions are mandatory, which are allowed to be blank, and so on. Conversely, the combinations that are not defined in the account structure are not allowed. Each ledger must have one or more account structures to define its valid main accounts and financial dimensions.
+
+### Accounting Standards Codification (ASC)
+
+The Accounting Standards Codification categorizes accounting standards into a comprehensive, consistent, and accessible framework. It is designed to make it easier for financial professionals, including accountants and auditors, to locate and apply relevant accounting rules and guidance. The ASC covers a wide range of accounting topics, including revenue recognition, financial statement presentation, leases, income taxes, and many others.
+
+The ASC is divided into various sections, each addressing specific areas of accounting. For example, ASC 606 deals with revenue recognition, ASC 842 addresses lease accounting, and ASC 740 covers income taxes. Each section includes detailed guidance, rules, and examples related to the respective accounting topic.
+
+Overall, the Accounting Standards Codification plays a crucial role in maintaining consistency and transparency in financial reporting and accounting practices in the United States. It serves as a comprehensive reference for professionals who need to interpret and apply accounting standards in their work.
+
 ### Accruals
 
 [Accruals](/dynamics365/finance/general-ledger/accruals-overview) are used in accounting to track revenue that's recognized in the period that it's earned in, not when payment is received, and to track expenses (costs) that are recognized when they occur, not when payment is made.
@@ -27,6 +39,10 @@ Find generic and specific terms across Microsoft products and languages at [Micr
 ### Acquisition cost
 
 It encompasses all the expenses associated with acquiring the asset and making it ready for use in business operations. The asset acquisition cost includes both direct and indirect costs related to the purchase, delivery, and commissioning of the asset.
+
+### Advanced rule
+
+An advanced rule in Dynamics 365 Finance is a configuration that allows you to define account structure exceptions for financial dimensions that are specific to one or a few main accounts. It allows for more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. Advanced rules allow you to add additional financial dimensions that are not included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions.
 
 ### Aging periods
 
@@ -137,6 +153,14 @@ An attribute is a characteristic or feature (in this case, of a product) that he
 
 Dynamics 365 Commerce and Supply Chain Management include robust product attribute capabilities. You can [define attributes](/dynamics365/commerce/attribute-attributegroups-lifecycle) for specific products, groups of products, or variants of products.
 
+### Audit trail
+
+An audit trail is a chronological record of all transactions and activities in a business solution. It provides a complete history of changes and actions, which provides transparency and accountability to all entries that are recorded in the general ledger.
+
+### Audit management
+
+Audit management involves the planning, execution, and tracking of audit activities within an organization, including internal and external audits. Business applications often have modules for audit management to streamline the audit process.
+
 ## B
 
 ### Baseline
@@ -206,6 +230,10 @@ A category hierarchy refers to a way of organizing and structuring products or i
 
 For organizations that centralize the allocation for resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, while the fulfillment of the resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
 
+### Chart of accounts
+
+A chart of accounts defines a structured list of all the main accounts used in a ledger. Each main account has a unique code and a description, and they are organized hierarchically to reflect the company's financial structure. In Dynamics 365 Finance and in Dynamics 365 Business Central, a chart of accounts can be assigned to one or more ledgers. To use a shared chart of accounts, you can create one chart of accounts and link it to multiple ledgers.
+
 ### Churn
 
 When a customer ends a relationship or stops engaging with a company. CRM helps prevent churn.
@@ -238,6 +266,18 @@ For simple processes, you can use case management in Dynamics 365 Finance. In Fi
 For more complex processes, you might want to use [case management](/dynamics365/customer-service/overview-cases) in Dynamics 365 Customer Service.
 
 You may also use a combination of both products with [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to keep case data synchronized between Finance and Customer Service.
+
+### Company
+
+A company in Dynamics 365 Finance or Dynamics 365 Business Central represents an individual legal entity or business unit within an organization. Each company can have its own financial data, settings, and operations. The terms "company" and "legal entity" are used interchangeably in Dynamics 365 Finance. A company is a major data boundary in Dynamics 365 Finance where users can be assigned access to each company independently.
+
+### Compliance controls
+
+Compliance controls are policies, procedures, and security measures put in place to ensure that an organization's activities and processes adhere to regulatory requirements and standards.
+
+### Compliance reporting
+
+Compliance reporting involves the generation and submission of reports to regulatory authorities to demonstrate an organization's adherence to relevant regulations and standards. ERP systems can generate compliance reports based on stored data.
 
 ### Consume materials
 
@@ -323,6 +363,39 @@ A credit limit is the maximum amount of money that a customer can owe you at a g
 
 A credit note is a document that reduces the amount that a customer owes to a seller. It can be created and posted against an invoice for various reasons, such as returns, discounts, or corrections.
 
+### Currency
+
+A currency represents the type of money used for financial transactions. It can be a specific country's currency (e.g., US Dollar, Euro) and is used to denote the value of financial items. Dynamics 365 Finance ships with a predefined list of all ISO currencies. Each transaction is then recorded with three different values for the currencies.
+
+- Transactions currency 
+
+  The transaction currency is the currency that a specific financial transaction is recorded in. It's the currency denomination of a particular transaction.
+
+- Accounting currency 
+
+  The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger and you can view the accounting currency amounts for all transactions in the general ledger.
+
+- Reporting currency 
+
+  The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger and you can view the reporting currency amounts on all transactions in the general ledger.
+
+### Currency conversion
+
+Currency conversion involves translating financial transactions from one currency to another based on exchange rates. When a transaction is posted in Dynamics 365 Finance, Supply Chain Management, Commerce, or Project Operations for example, the system automatically converts amounts using the specified exchange rates to ensure accurate multi-currency reporting. The system performs the conversion in real-time from the transaction currency to the accounting and reporting currencies.
+
+### Currency policies
+
+Currency policies refer to the rules and guidelines that govern how different currencies are managed within the organization. This includes decisions related to currency conversion rates, default currencies, currency revaluation, and currency-specific pricing strategies.
+
+### Currency revaluation
+
+Currency revaluation is the process of adjusting the value of assets and liabilities denominated in foreign currencies to reflect current exchange rates which helps maintain accurate financial statements. Dynamics 365 Finance supports four types of currency revaluations:
+
+-   Accounts payable – for revaluating vendor open transactions
+-   Accounts receivable – for revaluating customer open transactions
+-   Cash and bank management – for revaluating bank balances
+-   General ledger – for revaluating general ledger account balances
+
 ### Customer credit group
 
 A [customer credit group](/dynamics365/finance/accounts-receivable/cm-customer-credit-groups) is a group of customers that have a shared credit limit. The individual credit limit on a customer invoice account is also considered. You can select members of a customer credit group from different legal entities. When you decide how to structure your customer accounts, consider how credit limits are managed. For example, a customer account can have only one credit limit. If a customer account has many delivery addresses that each require a different credit limit, consider whether they should be separate customer accounts. Then you can use a customer credit group to create an overall credit limit across the customer's accounts.
@@ -348,6 +421,10 @@ Metrics that measure a customer's happiness with a company's products, services,
 ### Date effectivity
 
 For some records, you can specify changes that take effect after a specific date. Job classification, compensation, position, and worker assignments are examples of date-effective records.
+
+### Date intervals
+
+Date intervals define specific time spans used in financial reporting and analysis. Examples include fiscal years, quarters, months, and custom date ranges that help organize and analyze financial data. In Dynamics 365 applications you can use date intervals to run a report with a dynamic date range.
 
 ### Deferrals
 
@@ -395,6 +472,10 @@ Percentage or dollar reductions in the quoted price. Discounts can be applied to
 
 Dock management is the process of assigning loads to dock doors in a warehouse. In Dynamics 365 Supply Chain Management, you manage docks by using the [driver check-in/check-out](/dynamics365/supply-chain/transportation/tasks/register-driver-check-check-out-appointment) functions.
 
+### Dual currency
+
+Dual currency refers to the ability of Dynamics 365 Finance to manage and report financial data in two currencies simultaneously. It allows organizations to maintain records in both their accounting or base currency and a reporting or secondary currency.
+
 ### DUNS numbers
 
 The Data Universal Number System (DUNS) identifies companies in dozens of countries/regions with a unique nine-digit number. The number is issued by Dun & Bradstreet, a provider of commercial data, analytics, and insights for businesses.
@@ -413,11 +494,45 @@ Dynamics 365 Supply Chain Management includes an [engineering change management]
 
 Estimation to complete is an estimation of funds required to complete the remaining work of a project. The project manager will track this measure along the project that shows the remaining cost you expect in order to complete a project.
 
+### Exchange rate
+
+An exchange rate is the value of one currency in terms of another currency. It represents the rate at which one currency can be converted into another currency and is used to perform currency conversions in financial transactions. Dynamics 365 Finance supports the ability to define an unlimited number of exchange rates which convert from one currency to another on a specific day. You can also use fixed exchange rates on a variety of transactions such as purchase orders, sales orders, and journals to force the entry to use an exchange rate you supply rather than looking it up.
+
+### Exchange rate types
+
+Exchange rate types define a group of exchange rates that are obtained for currency conversion. Common rate types include spot rates, average rates, and historical rates. Default exchange rate types can be configured on the Ledger in each legal entity in Dynamics 365 Finance. Some processes allow you to select the exchange rate type that should be used for the process instead of using the default value for the ledger.
+
 ### Expense policies
 
 An expense policy is a formal set of guidelines that clearly outlines what constitutes an approved expense and what is not. This helps employees decide what they will be able to expense on the project.
 
 ## F
+
+### Financial dimensions
+
+Financial dimensions are attributes or categorizations that you can assign to transactions and main accounts to provide additional information for reporting and analysis. Examples include departments, projects, cost centers, and locations. Dynamics 365 Finance supports up to eleven dimensions in the account structure. Dimensions are assigned to a legal entity by the account structures that are associated with the ledger. Additional financial dimensions can be added through advanced rules or you can leverage financial tags for additional attributes or categorization. Like the chart of accounts, dimensions are global and can be linked to multiple ledgers.
+
+Financial dimensions are configured and maintained in Dynamics 365 Finance, but they can be specified on transactions in Supply Chain Management, Human Resources, Project Operations, and Commerce.
+
+### Financial reporting
+
+Financial reporting involves the preparation and presentation of an organization's financial information, including income statements, balance sheets, and cash flow statements, typically following accounting standards and regulatory requirements.
+
+### Financial periods
+
+Financial periods represent specific time intervals, such as months or quarters, in which financial transactions are recorded. The opening and closing of financial periods is managed to ensure accurate reporting. You can define an unlimited number of fiscal calendars in Dynamics 365 Finance and a fiscal calendar can be used by a single ledger or shared by multiple ledgers.
+
+- Fiscal calendar  
+
+  A fiscal calendar is a predefined time structure used for organizing financial activities, reporting periods, and budgeting cycles. In Dynamics 365 Finance, it determines the start and end dates of fiscal years, quarters, and periods for financial reporting purposes. The fiscal calendar helps align financial data with an organization's specific accounting practices and business needs. A fiscal calendar may be based on a calendar year (January through December) or a dynamic range that crosses a calendar year.
+
+- Ledger calendar  
+
+  The ledger calendar contains the ledger-specific settings for the periods within the fiscal year for each ledger assigned to the fiscal calendar. Within Dynamics 365 Finance, the same period can be open for one ledger and on hold for another ledger. These controls allow you to manage the entire period, specific modules, or the users that can post to the period and module.
+
+### Financial tags
+
+Financial tags are values assigned to transactions and the corresponding accounting entries to categorize them for reporting and analysis purposes. They are an alterrnative to financial dimensions by providing additional insights into the nature of financial activities, without the structure of financial dimensions. Dynamics 365 Finance supports up to twenty user-defined tags to be used on any transactions. The values that are entered on the transactions are carried to the general ledger when each voucher is posted.
 
 ### Finished good
 
@@ -493,9 +608,17 @@ A funding source is the entity that [funds work on a project contract](/dynamics
 
 ## G
 
+### General ledger
+
+A general ledger (GL) is a central repository in an accounting system that contains all the financial transactions and balances of an organization. It's a fundamental part of the double-entry accounting system and serves as a record of the company's financial activities over time. The general ledger is organized into various accounts, each representing a different aspect of the organization's financial operations. In Dynamics 365 Finance, the general ledger is a module that contains all the setup, configuration, data, period closing tasks, reports, and so on that are related to the general ledger.
+
 ### Granularity attribute
 
 A granularity attribute is the unique combination of [dimension values](#forecast-dimensions) that represents the level of detail at which a [forecast](#forecast) is generated.
+
+### HIPAA (Health Insurance Portability and Accountability Act)
+
+HIPAA is a U.S. federal law that establishes data privacy and security requirements for protected health information (PHI) and governs healthcare providers' and organizations' compliance.
 
 ## I
 
@@ -519,6 +642,23 @@ A worker who is employed by one legal entity in an organization might perform wo
 Many organizations charge a fee to customers for late payment of [invoices](#invoice). An interest note is a statement of such a fee. Charging interest helps businesses offset the cost of collecting overdue invoices while encouraging customers to pay their invoices in a timely manner. Depending on the country/region and the industry, customers who don't pay for products or services they received can face legal consequences.
 
 Dynamics 365 Finance automates the [process of calculating and collecting interest](/dynamics365/finance/accounts-receivable/tasks/process-interest) on overdue payments. Organizations can use case management in Dynamics 365 Finance and Customer Service to help manage the legal escalation of overdue invoices.
+
+### International Accounting Standards Board (IASB) 
+
+The International Accounting Standards Board (IASB) is an independent, private-sector body based in London, United Kingdom. Its primary responsibility is to develop and promulgate International Financial Reporting Standards (IFRS), a set of accounting standards used by companies and organizations worldwide for the preparation and presentation of financial statements.
+
+### International Financial Reporting Standards (IFRS)
+
+IFRS is a set of accounting standards developed by the International Accounting Standards Board (IASB). These standards are widely used in Europe and many other parts of the world for the preparation and presentation of financial statements.
+
+IFRS aims to harmonize accounting practices and provide a common financial reporting framework for businesses operating in different countries. While individual European countries may have their own national accounting standards, many European Union member states have adopted IFRS for the consolidated financial statements of publicly traded companies, particularly for companies listed on European stock exchanges. This adoption of IFRS helps facilitate cross-border comparisons and international investment.
+
+> [!NOTE]
+> While IFRS is commonly used in Europe, there may still be some variations or country-specific requirements in accounting and reporting practices in individual European countries. However, for consolidated financial statements of publicly traded companies, IFRS is often the standard used for reporting.
+
+### Internal controls
+
+Internal controls are processes and mechanisms implemented within an organization to safeguard assets, ensure accurate financial reporting, and ensure compliance with policies and regulations.
 
 ### Internet of Things sensors
 
@@ -636,7 +776,14 @@ Leased assets are [assets](#asset) that a [lessor](#lessor) allows a lessee to u
 
 ### Legal entity
 
-A legal entity is a separate entity recognized by the law, capable of entering contracts and engaging in business activities. It typically consists of owners/shareholders, management, assets, liabilities, and a distinct legal structure.
+A legal entity is a separate entity recognized by the law, capable of entering contracts and engaging in business activities. It typically consists of owners/shareholders, management, assets, liabilities, and a distinct legal structure. 
+
+In Dynamics 365 Finance, each legal entity is associated with a separate set of financial records and settings. The term legal entity and company are used interchangeably in Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations.  
+
+
+### Ledger
+
+A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
 
 ### Lessee
 
@@ -725,6 +872,10 @@ Dynamics 365 Supply Chain Management supports four high-level categories of prod
 - [**Project-based manufacturing**](/dynamics365/project-operations/), also known as job shop manufacturing, refers to items that are custom-made, take a long time to make, or involve a large number of steps to produce. It allows for a more granular billing schedule than other types of production, using either predefined milestones or the passage of time. Industries that commonly use project-based manufacturing include equipment and machinery production, pharmaceuticals, and construction. Projects are also often used to track trial runs of new products and the associated research and development costs.
 
 - **Mixed-mode manufacturing** reflects that businesses aren't restricted to a single type of manufacturing. For example, the pharmaceutical industry commonly uses both process and project-based production. When a business uses multiple modes, it's referred to as a mixed-mode manufacturer.
+
+### Multicurrency
+
+Multicurrency refers to the ability of the system to handle transactions and financial records in multiple currencies different than the accounting or reporting currency assigned to the ledger. Dynamics 365 Finance and Dynamics 365 Business Central enables organizations to conduct business in various currencies and manage currency-related processes.
 
 ## N
 
@@ -977,6 +1128,10 @@ Raw materials are the inputs to a production process, which are used to create s
 
 Invoice reconciliation is the process of comparing and matching supplier invoices with purchase orders and receipts to ensure accurate payment and track manufacturing costs.
 
+### Regulatory compliance
+
+Regulatory compliance encompasses adhering to laws, rules, and regulations imposed by government authorities or industry bodies that govern specific aspects of an organization's operations, such as data protection, environmental standards, or financial reporting.
+
 ### Repair
 
 Repair involves restoring a broken asset to bring it to a steady operational state. In repair of intangible assets, especially impaired software, the organization might need more resources to fix the issue, such as consultants. They might also need licenses to get access to capabilities in software. Learn more at [Maintain and repair internal assets ](acquire-to-dispose-maintain-repair-internal-asset.md).
@@ -1091,6 +1246,10 @@ Sales tools and technologies are software and hardware solutions that help sales
 
 - **Customer relationship management** (CRM) is a system and process for managing interactions with leads, prospects, and customers throughout the sales process, with the goal of building long-term relationships to improve customer satisfaction and increase sales.
 
+### Sarbanes-Oxley Act (SOX)
+
+The Sarbanes-Oxley Act of 2002 is a U.S. federal law that sets requirements for public company boards, management, and public accounting firms regarding financial reporting and internal control practices.
+
 ### Schedule
 
 Schedule aims to ensure the timely completion of a project. It consists of defining the tasks to accomplish, the priority, the deadlines, and the sequence.
@@ -1141,11 +1300,39 @@ A subcontractor is a hired external worker who performs specialized tasks or pro
 
 In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, the term *subject* refers to a categorization or classification for labeling and organizing various records, such as cases, activities, knowledge base articles, sales literature, and products. It helps in better organizing and managing data within the system. Subjects can be organized into a subject hierarchy. This concept is like the concept of a product category and product category hierarchy. However, one key difference is that subject support not only the organization of products but other types of data. Learn more at [Define subjects to categorize cases, products, and articles](/power-platform/admin/define-subjects-categorize-cases-products-articles).
 
+### Subledger
+
+In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger account) is a component of the financial accounting system that captures transactions specific to something other than a main account before they are summarized into the general ledger. It's a way to maintain different information about financial transactions and helps in providing a clear audit trail and detailed reporting. Many modules in Dynamics 365 include subledgers that integrate directly with the general ledger in Dynamics 365 Finance to include, but not limited to the following:
+
+- **Customer** – This includes any transactions that are posted to a customer account such as sales order invoices, free text invoices, and customer payments. This is primarily related to the Accounts receivable and Sales and marketing modules.
+
+- **Vendor** – This includes any transactions that are posted to a vendor account such as vendor invoices and vendor payments. This is primarily related to the Accounts payable and Procurement and sourcing modules.
+
+- **Inventory** – This includes any receipt or issue from inventory. This only applies to products that are tangible and stocked in your inventory. This can be related to transactions that happen in the Inventory management, Warehouse management, Transportation management, Production control, Sales and marketing, and Procurement and sourcing modules.
+
+- **Project** – This includes any transactions related to a project such as the hours, expenses, fees, and invoices. This is primarily related to the Project management and accounting module.
+
+- **Bank** – This includes any deposits or withdrawals including any fees, interest and so on that are recorded in a bank account. This is related to transactions that occur in the Cash and bank management module; however, it is important to note that most transactions originate in the Accounts payable and Accounts receivable modules.
+
+- **Fixed assets** – This includes the acquisition, depreciation, write up or write, and so on related to any fixed assets. This is primarily related to transactions that are generated in the Fixed asset module; however, there are integrations with Procurement and sourcing, Accounts receivable, and Project management and accounting.
+
 ### Supply chain
 
 A network of organizations, resources, activities, and processes that collaboratively design, produce, distribute, and deliver goods or services, ensuring efficient flow from suppliers to customers while minimizing costs and maximizing customer satisfaction.
 
 ## T
+
+### Tax codes and rates
+
+Tax codes represent different types of taxes or tax categories, while tax rates specify the percentages or amounts applied to taxable transactions. Business solutions often store and manage tax codes and rates to automate tax calculations.
+
+### Tax compliance
+
+Tax compliance involves adhering to tax laws and regulations, accurately calculating and reporting taxes owed, and submitting tax returns to the relevant tax authorities on time.
+
+### Tax jurisdiction
+
+A tax jurisdiction is a geographic area, typically defined by a government authority, that has specific tax laws and regulations. Organizations must determine the appropriate tax jurisdictions for their operations to calculate and report taxes correctly.
 
 ### Time and material projects
 

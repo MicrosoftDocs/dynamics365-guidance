@@ -805,6 +805,10 @@ items:
             href: business-processes/record-to-report-overview.md
           - name: Business process areas
             href: business-processes/record-to-report-areas.md
+          - name: Define financial structure and organizational accounting policies
+            href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
+          - name: Comply with tax, audit, and regulatory requirements
+            href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
         - name: Service to cash
           items:
           - name: End-to-end scenario - service to cash

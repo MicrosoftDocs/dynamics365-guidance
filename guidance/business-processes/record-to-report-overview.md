@@ -1,7 +1,7 @@
 ﻿---
 title: Record to report end-to-end overview
 description:  Learn about the end-to-end business process, from record to report. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 05/02/2023
+ms.date: 11/10/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kgiardini
@@ -17,7 +17,7 @@ This article describes the *record to report* end-to-end business process flow a
 
 The following diagram shows the relationship of other processes and products/features for the *record to report* process. In some ways, you can think of the *record to report* process as being before and after every process of an organization. For example, you could draw a circle and put all other end to end processes inside of it. For purposes of this diagram, we have created a list of processes and ways that you can use each process in relationship to the sub processes in *record to report*.
 
-:::image type="content" source="media/record-to-report-process.png" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/record-to-report-process.png":::
+:::image type="content" source="media/record-to-report-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/record-to-report-process.svg":::
 
 The upstream processes for the *record to report* process include the following.
 
@@ -63,7 +63,7 @@ The upstream processes for the *record to report* process include the following.
 
 The *record to report* end-to-end process is broken down into the following business process areas:
 
-- Define the ledger and currency policies
+- Define financial structure and organizational accounting policies
 
 - Manage budgets
 
@@ -72,14 +72,14 @@ The *record to report* end-to-end process is broken down into the following busi
 - Record financial transactions
 
 - Close financial periods
-
-- Report and analyze financial and cash flow
+<!-- removed???
+- Report and analyze financial and cash flow -->
 
 - Comply with tax, audit, and regulatory requirements
 
 - Manage fund accounting
 
-For more information about the business process areas, see [Record to report business process areas](record-to-report-areas.md).
+Learn more at [Record to report business process areas](record-to-report-areas.md).
 
 The downstream processes for the *record to report* process include the following.
 
@@ -141,99 +141,86 @@ There are product specific capabilities offered that interact with the *record t
 
 The following diagram shows the high-level flow of the *record to report* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *record to report* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
 
-:::image type="content" source="media/record-to-report-flow.png"  lightbox="media/record-to-report-flow.png" alt-text="Prospect to quote business end-to-end process flow diagram":::
+:::image type="content" source="media/record-to-report-flow.svg"  lightbox="media/record-to-report-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
 
-The following steps are illustrated in the order to cash end-to-end business process flow diagram.
+The following steps are illustrated in the *record to report* end-to-end business process flow diagram.
 
-1. Forecast to plan
+1. [Forecast to plan](forecast-to-plan-overview.md)  
 
-2. Hire to retire
+2. [Hire to retire](hire-to-retire-overview.md)  
 
-3. Acquire to dispose
+3. [Acquire to dispose](acquire-to-dispose-overview.md)  
 
-4. Inventory to deliver
+4. [Inventory to deliver](inventory-to-deliver-overview.md)  
 
-5. Order to cash
+5. [Order to cash](order-to-cash-overview.md)  
 
-6. Plan to produce
+6. [Plan to produce](plan-to-produce-overview.md)  
 
-7. Procure to pay
+7. [Procure to pay](procure-to-pay-overview.md)  
 
-8. Project to profit
+8. [Project to profit](project-to-profit-overview.md)  
 
-9. Service to cash
+9. [Service to cash](service-to-cash-overview.md) 
 
-10. Case to resolution
+10. [Case to resolution](case-to-resolution-overview.md)  
 
 11. *Record to report*
 
     1. Parallel branches
 
-        1. Define ledger structure and currency policies
+        1. *Define the financial ledger structure and organizational accounting policies*
 
-            1. Manage budgets
+            1. *Manage budgets*
 
-        2. Comply with tax, audit, and regulatory requirement
+        2. *Comply with tax, audit, and regulatory requirements*
 
-            1. Manage fund accounting
+            1. *Manage fund accounting*
 
-    2. Record financial transactions
+    2. *Record financial transactions*
 
-    3. Maintain cash and bank management transactions
+    3. *Maintain cash and bank management transactions*
 
-    4. Close financial periods
+    4. *Close financial periods*
 
-    5. Report and analyze financials and cash flow
+    5. *Report and analyze financials and cash flow*
 
-12. Case to resolution
+12. *Case to resolution*
 
-13. Acquire to dispose
+13. *Acquire to dispose*
 
-14. Service to cash
+14. *Service to cash*
 
-15. Inventory to deliver
+15. *Inventory to deliver*
 
-16. Order to cash
+16. *Order to cash*
 
-17. Plan to produce
+17. *Plan to produce*
 
-18. Procure to pay
+18. *Procure to pay*
 
-19. Project to profit
+19. *Project to profit*
 
-20. Forecast to plan
+20. *Forecast to plan*
 
-21. Hire to retire
+21. *Hire to retire*
 
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *record to report* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an *record to report* technology solution. <!--TODO ADD LINK Learn more at \[link\].-->
+- Define the goals and objectives of implementing an *record to report* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
 
-- Define the business process scope of your project <!--TODO ADD LINK Learn more at .--> 
+- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
 
-- Get a demo of Dynamics 365 solutions for the *record to report* process. <!--TODO ADD LINK Learn more at \[link\].-->
+- Get a demo of Dynamics 365 solutions for the *record to report* process. Learn more at [Request a demo](https://dynamics.microsoft.com/)
 
-- [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
+- Sign up for a trial of Dynamics 365. Learn more at [Start a Free Trial for Microsoft Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
 
-- [Record to report business process areas](record-to-report-areas.md)
-
-<!--- Other steps here-->
-
-<!--## Related resources
+## Related resources
 
 You can use the following resources to learn more about the *record to report* process in Dynamics 365.
 
-- TechTalk link here
-
-- Docs article link here
-
-- GitHub sample link here
-
-- Other links-->
-
-<!--## Tags
-*Stakeholders:* Functional consultant, Business analyst, Accounts payable lead, Accounts receivable lead, Finance lead, Sales lead, Purchasing lead, Production lead, Supply chain lead, …
-
-*Products:* Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management
+- [Record to report business process areas](record-to-report-areas.md)  
+- [Financial reporting overview - Finance](/dynamics365/finance/general-ledger/financial-reporting-getting-started)  
+- [Financial Reports and Analytics in Business Central](/dynamics365/business-central/finance-reports)  
