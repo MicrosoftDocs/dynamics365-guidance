@@ -1,5 +1,5 @@
 ---
-title:  Glossary of terms in Dynamics 365 business processes
+title: Glossary of terms in Dynamics 365 business processes
 description: A glossary of terms that are good to know if you work with Dynamics 365 and you're reading the business process guidance.
 author: rachel-profitt
 ms.author: raprofit
@@ -9,12 +9,12 @@ ms.date: 10/31/2023
 
 # Glossary of terms in Dynamics 365 business processes
 
-This article defines some of the common terms and terms that are specific to Dynamics 365 that are used in the business process guidance on Microsoft Learn. It includes guidelines such as capitalization.  
+This article defines some of the common terms and terms that are specific to Dynamics 365 that are used in the business process guidance on Microsoft Learn. It includes guidelines such as capitalization.
 
-In any given industry, there are terms that are industry-specific and very familiar to people in that industry or line of business. But in many languages, there are more than one term for the same task or object. For example, are the people you do business with your *clients* or your *customers*?  Learn more in the following sections.  
+In any given industry, there are terms that are industry-specific and very familiar to people in that industry or line of business. But in many languages, there are more than one term for the same task or object. For example, are the people you do business with your *clients* or your *customers*? Learn more in the following sections.
 
 > [!TIP]
-> Use CTRL+F to search for a specific term on this page.   
+> Use CTRL+F to search for a specific term on this page.
 
 Find generic and specific terms across Microsoft products and languages at [Microsoft Terminology Search](https://msit.powerbi.com/view?r=eyJrIjoiODJmYjU4Y2YtM2M0ZC00YzYxLWE1YTktNzFjYmYxNTAxNjQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
 
@@ -24,7 +24,7 @@ Find generic and specific terms across Microsoft products and languages at [Micr
 
 [Accruals](/dynamics365/finance/general-ledger/accruals-overview) are used in accounting to track revenue that's recognized in the period that it's earned in, not when payment is received, and to track expenses (costs) that are recognized when they occur, not when payment is made.
 
-### Acquisition cost 
+### Acquisition cost
 
 It encompasses all the expenses associated with acquiring the asset and making it ready for use in business operations. The asset acquisition cost includes both direct and indirect costs related to the purchase, delivery, and commissioning of the asset.
 
@@ -39,7 +39,7 @@ Before you can analyze your customer balances in Dynamics 365 Finance, you must 
 
 ### Amortization
 
-Unlike fixed assets, which are typically *depreciated*, intangible assets are *amortized*. Examples of intangible assets are patents, intellectual property, branding, and so on. Amortization is generally spread across the useful life of an asset in a straight line. Assets that are amortized may not have a resale value.  
+Unlike fixed assets, which are typically *depreciated*, intangible assets are *amortized*. Examples of intangible assets are patents, intellectual property, branding, and so on. Amortization is generally spread across the useful life of an asset in a straight line. Assets that are amortized may not have a resale value.
 
 ### Appointment scheduling
 
@@ -53,21 +53,21 @@ Asset appraisers are individuals who leverage their expertise to evaluate the co
 
 An asset is something of value that an organization owns. Related definitions are [fixed asset](#fixed-asset) and [asset classification](#asset-classification).
 
-### Asset acquisition strategy 
+### Asset acquisition strategy
 
 Asset acquisition strategy is the planned approach or actions that an organization implements to acquire assets to support its business objectives and improve its operations. The asset acquisition strategy includes a systematic process for identifying the types of assets needed by the organization. This can involve analyzing existing assets, conducting market research, and considering factors such as technological advancements, industry trends, and local regulatory requirements.
 
 ### Asset books
 
-Organizations use books to track an independent financial lifecycle of an asset. Books can be configured to post associated transactions to the general ledger. They are also used for tax reporting purposes. Learn more at [Set up fixed assets (Finance)](/dynamics365/finance/fixed-assets/set-up-fixed-assets#books).  
+Organizations use books to track an independent financial lifecycle of an asset. Books can be configured to post associated transactions to the general ledger. They are also used for tax reporting purposes. Learn more at [Set up fixed assets (Finance)](/dynamics365/finance/fixed-assets/set-up-fixed-assets#books).
 
 ### Asset classification
 
 Generally, you classify assets in the following buckets:
 
-- Current or fixed  
-- Tangible or intangible  
-- Operational or nonoperational  
+- Current or fixed
+- Tangible or intangible
+- Operational or nonoperational
 
 The longevity of the asset determines whether it's a current asset or a fixed asset. The form of the asset helps differentiate tangible and intangible assets. Usage often helps tag an asset as an operational asset or a nonoperational asset.
 
@@ -103,11 +103,11 @@ Fixed Asset lifecycle stages are the phases that an asset typically goes through
 
 Also, in the asset management process, there are asset lifecycle states that can be set and tracked by users. These are used to define whether an asset is active or inactive.
 
-In Dynamics 365 we have states like created, active and terminated. Learn more at [Asset lifecycle states (Supply Chain Management)](/dynamics365/supply-chain/asset-management/setup-for-objects/object-stages).  
+In Dynamics 365 we have states like created, active and terminated. Learn more at [Asset lifecycle states (Supply Chain Management)](/dynamics365/supply-chain/asset-management/setup-for-objects/object-stages).
 
 ### Asset replacement 
 
-Asset replacement refers to the process of exchanging an old asset for a new one, with the value of the old asset offsetting the cost of the new acquisition.  
+Asset replacement refers to the process of exchanging an old asset for a new one, with the value of the old asset offsetting the cost of the new acquisition.
 
 ### Asset scrapping
 
@@ -145,7 +145,7 @@ A baseline is a fixed reference point used to compare project performance over t
 
 ### Billable hours
 
-The hours worked on tasks that can be charged to clients or customers. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).  
+The hours worked on tasks that can be charged to clients or customers. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
 
 
 ### Billing rules
@@ -168,7 +168,7 @@ The process of evaluating data and metrics for a marketing campaign to derive pe
 
 ### Campaign budget
 
-The defined marketing expenditure allocated to a specific marketing campaign.  
+The defined marketing expenditure allocated to a specific marketing campaign.
 
 ### Capital asset budget
 
@@ -245,7 +245,7 @@ Material consumption refers to the use of items in a project. You can register t
 
 ### Correcting entry
 
-A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.  
+A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.
 
 ### Cost
 
@@ -341,7 +341,7 @@ Strategies and processes for managing customer interactions and data across the 
 
 ### Customer satisfaction (CSAT)
 
-Metrics that measure a customer's happiness with a company's products, services, and interactions.  
+Metrics that measure a customer's happiness with a company's products, services, and interactions.
 
 ## D
 
@@ -355,7 +355,7 @@ Deferrals are used in accounting to track revenue that's received but not yet ea
 
 ### Deliverables
 
-Deliverables are all outputs of your project as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.  
+Deliverables are all outputs of your project as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.
 
 ### Departments
 
@@ -385,7 +385,7 @@ Fixed asset depreciation methods and conventions are handled slightly differentl
 
 ### Direct expenses 
 
-Direct expenses are those that are directly tied to the project itself such as specialized software, travel and meal expenses, mileage, and per-diem. 
+Direct expenses are those that are directly tied to the project itself such as specialized software, travel and meal expenses, mileage, and per-diem.
 
 ### Discounts
 
@@ -427,11 +427,11 @@ A finished good is often referred to as a product. In Dynamics 365 Supply Chain 
 
 ### Fixed asset
 
-In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. Related definitions are [Asset](#asset) and [Asset classification](#asset-classification).  
+In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. Related definitions are [Asset](#asset) and [Asset classification](#asset-classification).
 
 ### Fixed-price projects
 
-Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process to calculate the degree of completion of a project or a group of projects.
+Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process (WIP) to calculate the degree of completion of a project or a group of projects.
 
 Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md). 
 
@@ -447,13 +447,13 @@ A forecast is a prediction about the future. Forecasts are expected to be incorr
 
 - **Budget forecasts** predict future business expenditures and revenue. Typically, they're based on the organization's current financial performance and where the industry is trending in the business domain.
 
-- **Position forecasts** predict expenses related to workers. They help organizations to plan for those expenses and to include them in the planning of budgets. [Position forecasting](/dynamics365/finance/budgeting/position-forecasting) uses three main components to provide accurate budget amounts for position expenses:  
+- **Position forecasts** predict expenses related to workers. They help organizations to plan for those expenses and to include them in the planning of budgets. [Position forecasting](/dynamics365/finance/budgeting/position-forecasting) uses three main components to provide accurate budget amounts for position expenses:
 
-  - Forecast position; for example, all costs that are related to a single position
+    - Forecast position; for example, all costs that are related to a single position
 
-  - Budget cost element; for example, base pay, employer-paid health insurance, and cell phone allowances
+    - Budget cost element; for example, base pay, employer-paid health insurance, and cell phone allowances
 
-  - Composition group; for example, a compensation grid of pay rates
+    - Composition group; for example, a compensation grid of pay rates
 
 - **Expense forecasts** help organizations to plan for business expenses and to determine key costs to be considered by finance stakeholders. Typically, they're based on revenue, headcount, and similar factors.
 
@@ -469,7 +469,7 @@ The mean absolute percentage error (MAPE) is an industry standard indicator that
 
 In the following diagram, the chart on the left shows the data that was used to determine the forecast model. In the chart on the right, the purple line at the top, labeled "Actual (At)," shows the actual data from the test data set. The light blue line below it, labeled "Forecast (Ft)," shows the model's prediction. The red arrows between the two lines indicate the MAPE value, a measure of how close the forecast is to the actual data&mdash;that is, how accurate the forecast model is.
 
-The equation for calculating MAPE is included at the bottom of the graphic. *A<sub>t</sub>* is the actual value and *F<sub>t</sub>* is the forecast value. The absolute value in this ratio is summed for every forecasted point in the dataset and divided by the number of fitted points *n*.
+The equation for calculating MAPE is included at the bottom of the graphic. *A<sub>t</sub>* is the actual value and *F<sub>t</sub>* is the forecast value. The absolute value in this ratio is summed for every forecasted point in the dataset and divided by the number of fitted points *n*.
 
 MAPE is expressed as a percentage, as indicated in the equation in the diagram. The lower the MAPE value is, the more accurate the forecast likely is. In general, a MAPE of 20 percent or less is considered acceptable, but 10 percent would be even better. The best MAPE value that an organization can achieve is going to be dependent on the amount of historical data and how volatile the values are.
 
@@ -485,7 +485,7 @@ A [free text invoice](/dynamics365/finance/accounts-receivable/create-free-text-
 
 ### Freight reconciliation
 
-Freight reconciliation refers to the process of comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manage the process manually](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the **Transportation management** module in Dynamics 365 Supply Chain Management. Alternatively, you can set up integration with a service to manage freight reconciliation automatically.
+Freight reconciliation is the process of comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manually manage the process](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the **Transportation management** module in Dynamics 365 Supply Chain Management. Alternatively, you can set up integration with a service to automatically manage freight reconciliation.
 
 ### Funding source
 
@@ -508,7 +508,7 @@ Indirect costs are expenses that aren't related to production or manufacturing, 
 
 ### Indirect expenses
 
-Indirect expenses are those that are not directly tied to the project but may be distributed across multiple projects. Examples include administrative costs, support staff, rental fees, and utility costs.   
+Indirect expenses are those that are not directly tied to the project but may be distributed across multiple projects. Examples include administrative costs, support staff, rental fees, and utility costs.
 
 ### Intercompany expenses
 
@@ -592,7 +592,7 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 ### Lead
 
-A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).  
+A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
 
 ### Lead and opportunity management
 
@@ -606,7 +606,7 @@ Tracking and managing potential customers and sales opportunities throughout the
 
 ### Lead conversion
 
-The act of transitioning a qualified lead into a sales pipeline opportunity.  
+The act of transitioning a qualified lead into a sales pipeline opportunity.
 
 ### Lead enrichment
 
@@ -616,7 +616,7 @@ The process of augmenting lead records with additional data from various sources
 
 Ongoing communication with leads to develop awareness and interest over time.
 
-### Lead score  
+### Lead score
 
 A numeric rating assigned to a lead to indicate sales-readiness based on engagement, profile fit, and so on.
 
@@ -654,7 +654,7 @@ A load is a physical shipping container, such as a truck or a trailer, that can 
 
 ### Maintenance
 
-Maintenance involves procedural activities that help to extend the life of an asset or location and avoid impairment. After assets are identified and their location and state are known, the asset maintenance team can develop a basic maintenance plan. Based on an asset's state and risk of failure, different maintenance schedules and methodologies may be deployed. The three types of maintenance are *reactive*, *preventive*, and *predictive*. Learn more at [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md).  
+Maintenance involves procedural activities that help to extend the life of an asset or location and avoid impairment. After assets are identified and their location and state are known, the asset maintenance team can develop a basic maintenance plan. Based on an asset's state and risk of failure, different maintenance schedules and methodologies may be deployed. The three types of maintenance are *reactive*, *preventive*, and *predictive*. Learn more at [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md).
 
 ### Maintenance budget
 
@@ -662,13 +662,13 @@ The cost of maintaining assets is planned and managed by using a maintenance bud
 
 ### Maintenance checklist
 
-A maintenance checklist is associated with a job or work order where the team defines activities with potential outcomes for each checklist item. The maintenance team can define checklist items by maintenance job type, and they can extend the list later. The following list shows examples of checklist items in Dynamics 365:  
+A maintenance checklist is associated with a job or work order where the team defines activities with potential outcomes for each checklist item. The maintenance team can define checklist items by maintenance job type, and they can extend the list later. The following list shows examples of checklist items in Dynamics 365:
 
-- Text  
-- Header  
-- Template  
-- Variable  
-- Measurement  
+- Text
+- Header
+- Template
+- Variable
+- Measurement
 
 ### Maintenance plan
 
@@ -676,7 +676,7 @@ A maintenance plan is a scheduled set of related inspections, calibrations, and 
 
 ### Maintenance request
 
-Without creating a work order, teams often want to notify a manager or planner that an asset might require maintenance or repair. This is where the maintenance request comes in as a note or declaration.  
+Without creating a work order, teams often want to notify a manager or planner that an asset might require maintenance or repair. This is where the maintenance request comes in as a note or declaration.
 
 The following list shows examples of maintenance requests in Dynamics 365:
 
@@ -702,7 +702,7 @@ In Dynamics 365 Supply Chain Management, it's the [**Production floor execution*
 
 ### Margins
 
-The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.  
+The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.
 
 ### Marketing campaign
 
@@ -710,7 +710,7 @@ A strategic marketing effort across one or more channels over a period of time t
 
 ### Merchandising
 
-In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.  
+In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.
 
 ### Modes of manufacturing
 
@@ -730,7 +730,7 @@ Dynamics 365 Supply Chain Management supports four high-level categories of prod
 
 ### Non-billable hours
 
-The hours worked on tasks that are not directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).  
+The hours worked on tasks that are not directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
 
 ## O
 
@@ -784,21 +784,21 @@ You can add products to a [product catalog](/dynamics365/sales/set-up-product-ca
 
 ### Product and price lists
 
-Catalogs of available products/services with assigned prices. Used to add items to quotes.  
+Catalogs of available products/services with assigned prices. Used to add items to quotes.
 
 ### Product category
 
-A product category is a logical grouping of the products that a business sells, based on common characteristics, attributes, features, or usage. Product categories help both businesses and customers quickly identify and locate specific types of products within a larger inventory.  
+A product category is a logical grouping of the products that a business sells, based on common characteristics, attributes, features, or usage. Product categories help both businesses and customers quickly identify and locate specific types of products within a larger inventory.
 
-Product categories can be broad or specific, depending on the size and complexity of a business's product offering. Some businesses may have only a few product categories, while others may have dozens or even hundreds. In addition to organizing products for customers, you can use product categories to manage inventory, track sales, and analyze business performance. Ultimately, product categories enhance organization, navigation, and customer experience by providing a structured way to manage and present products.  
+Product categories can be broad or specific, depending on the size and complexity of a business's product offering. Some businesses may have only a few product categories, while others may have dozens or even hundreds. In addition to organizing products for customers, you can use product categories to manage inventory, track sales, and analyze business performance. Ultimately, product categories enhance organization, navigation, and customer experience by providing a structured way to manage and present products.
 
 For example, a clothing retailer might have product categories such as the following list:
 
-- Men's Clothing  
-- Women's Clothing  
-- Kids' Clothing  
-- Shoes  
-- Accessories  
+- Men's Clothing
+- Women's Clothing
+- Kids' Clothing
+- Shoes
+- Accessories
 
 Similarly, an online electronics store might define product categories such as the following list:
 
@@ -828,11 +828,11 @@ In Dynamics 365 Commerce and Supply Chain Management, product categories are als
 
 ### Product family
 
-In Dynamics 365 Sales, Customer Service, Field Service and Customer Insights, a [product family](/dynamics365/sales/create-product-family) is a group of similar products. You can create a hierarchy of product families to make it easier to manage products. You can use [product categories](#product-category) for the same purpose in Dynamics 365 Supply Chain Management.  
+In Dynamics 365 Sales, Customer Service, Field Service and Customer Insights, a [product family](/dynamics365/sales/create-product-family) is a group of similar products. You can create a hierarchy of product families to make it easier to manage products. You can use [product categories](#product-category) for the same purpose in Dynamics 365 Supply Chain Management.
 
 ### Product hierarchy
 
-A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products within a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This hierarchy helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).  
+A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products within a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This hierarchy helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).
 
 ### Product lifecycle management (PLM)
 
@@ -916,7 +916,7 @@ The phase in project management where the planned project outcomes, products, or
 
 ### Project estimate
 
-A project estimate is a projection of the cost and schedule of work on a project. Project estimates can be binding or not. Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
+A project estimate is a projection of the cost and schedule of work on a project. Project estimates can be binding or not. Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).
 
 ### Project manager
 
@@ -936,7 +936,7 @@ A specific unit of work within a project that contributes to the overall complet
 
 ### Project type
 
-In Dynamics 365, projects can be categorized as one of six types depending on the purpose of the project. Each project type is set up differently for costs and revenue recognition. The following [project types](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#create-projects) are available in Dynamics 365 solutions:  
+In Dynamics 365, projects can be categorized as one of six types depending on the purpose of the project. Each project type is set up differently for costs and revenue recognition. The following [project types](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#create-projects) are available in Dynamics 365 solutions:
 
 - Time and material
 - Fixed-price
@@ -957,7 +957,7 @@ A provider is a connection point in a supply chain. In the context of Intelligen
 
 ### Quote
 
-A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that they align with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.  
+A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that they align with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.
 
 Quotes can be *revised*, meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
 
@@ -979,7 +979,7 @@ Invoice reconciliation is the process of comparing and matching supplier invoice
 
 ### Repair
 
-Repair involves restoring a broken asset to bring it to a steady operational state. In repair of intangible assets, especially impaired software, the organization might need more resources to fix the issue, such as consultants. They might also need licenses to get access to capabilities in software. Learn more at [Maintain and repair internal assets ](acquire-to-dispose-maintain-repair-internal-asset.md).  
+Repair involves restoring a broken asset to bring it to a steady operational state. In repair of intangible assets, especially impaired software, the organization might need more resources to fix the issue, such as consultants. They might also need licenses to get access to capabilities in software. Learn more at [Maintain and repair internal assets ](acquire-to-dispose-maintain-repair-internal-asset.md).
 
 ### Replenishment
 
@@ -1149,11 +1149,11 @@ A network of organizations, resources, activities, and processes that collaborat
 
 ### Time and material projects
 
-For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be invoiced per project or per [project contract](#project-contract). Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).  
+For time and material projects, the [customer invoice](#invoice) amount is based on transaction lines that are entered on projects. Transactions can be invoiced per project or per [project contract](#project-contract). Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).
 
 ### Time entry
 
-The practice of recording and monitoring the time spent on various tasks and activities throughout the project's lifecycle. Tracking time provides a record of work hours that are invested across the various project components. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md).  
+The practice of recording and monitoring the time spent on various tasks and activities throughout the project's lifecycle. Tracking time provides a record of work hours that are invested across the various project components. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md).
 
 ### Time series forecasting
 
@@ -1179,7 +1179,7 @@ Because this option circumvents the standard processes your organization uses, c
 
 ### Upsell
 
-Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).  
+Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).
 
 ## V
 
@@ -1191,7 +1191,7 @@ See [product](#product).
 
 ### Win/loss analysis
 
-The job of evaluating why deals were won or lost to improve the marketing process.  
+The job of evaluating why deals were won or lost to improve the marketing process.
 
 ### Work Breakdown Structure (WBS)
 
@@ -1199,11 +1199,11 @@ A Project Work Breakdown Structure (WBS) is a project management tool that adopt
 
 ### Work order
 
-A work order helps organizations to understand the maintenance or repair that is needed on an asset or a functional location. The work order assigns the appropriate resources to complete the maintenance request. Jobs associated with work orders help to register consumption details.  
+A work order helps organizations to understand the maintenance or repair that is needed on an asset or a functional location. The work order assigns the appropriate resources to complete the maintenance request. Jobs associated with work orders help to register consumption details.
 
-For example, you can use a work order to schedule maintenance on a machine. You can also create a work order for inspections, corrective maintenance, and preventive maintenance. In Dynamics 365 Field Service, a work order documents the [maintenance](#maintenance) or [repair](#repair) that an [asset](#asset) or location needs. It assigns the appropriate resources to complete the request, and jobs associated with work orders help register consumption details. Learn more about the work order process in Dynamics 365 Field Service [Work order architecture](/dynamics365/field-service/field-service-architecture).  
+For example, you can use a work order to schedule maintenance on a machine. You can also create a work order for inspections, corrective maintenance, and preventive maintenance. In Dynamics 365 Field Service, a work order documents the [maintenance](#maintenance) or [repair](#repair) that an [asset](#asset) or location needs. It assigns the appropriate resources to complete the request, and jobs associated with work orders help register consumption details. Learn more about the work order process in Dynamics 365 Field Service [Work order architecture](/dynamics365/field-service/field-service-architecture).
 
-You can also procure items with work orders. The procurement process typically starts with either a purchase requisition or purchase order request. Often, companies may not have the required items to execute a work order. This is when a purchase request is triggered. You can create a related purchase order or purchase requisition for a work order job in Dynamics 365.  
+You can also procure items with work orders. The procurement process typically starts with either a purchase requisition or purchase order request. Often, companies may not have the required items to execute a work order. This is when a purchase request is triggered. You can create a related purchase order or purchase requisition for a work order job in Dynamics 365.
 
 ### Workflow
 
