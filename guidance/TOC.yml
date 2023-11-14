@@ -595,6 +595,8 @@ items:
           href: business-processes/glossary.md
         - name: Business processes, steps, and how to find things
           href: business-processes/about-steps-navigation.md
+        - name: Import the catalog
+          href: business-processes/about-import-catalog-devops.md
         - name: Acquire to dispose
           items: 
           - name: End-to-end scenario - acquire to dispose
