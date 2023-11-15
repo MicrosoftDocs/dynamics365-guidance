@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual #Required; don't change.
 ms.collection: #Required; Leave the value blank.
-ms.date: 11/14/2023
+ms.date: 11/15/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -89,6 +89,9 @@ Before you can import the project into Azure Boards, there are a few things that
 9. The file must be saved as a .CSV file to be imported into Azure DevOps.  
 
     If you added extra columns and features in the spreadsheet that you don't want to lose such as formatting or formulas, consider saving a version of the file as an .XLSX file. This version can help you avoid losing those features. However, the version you import must be the .CSV file.
+
+> [!NOTE]
+> If the version of the catalog that you are about to save contains special characters, such as **,** or **"**, remove them before you save the .CSV file. For example, the October 2023 version of the uncustomized catalog contains a pattern, *Implement "secret shopper" program*. Change that entry to *Implement secret shopper program*, and then save the .CSV file.  
 
 ## Import the file
 
