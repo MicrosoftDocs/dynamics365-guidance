@@ -3,7 +3,7 @@ title: Product-specific guidance
 description: In this article, we explore product-specific guidance for environment strategies in Dynamics 365 implementations.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 11/03/2023
+ms.date: 11/15/2023
 ms.topic: conceptual
 
 ---
@@ -61,7 +61,7 @@ For Dynamics 365 Finance, Supply Chain Management, and Commerce, all environment
 
 Typically, an implementation project has only one production environment, as such one Dynamics 365 Lifecycle Services project for each Microsoft Entra ID tenant. In rare cases, an organization may decide to have multiple production environments and have [multiple Dynamics 365 Lifecycle Services projects](/dynamics365/fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant) as a result. You'll want to have more than one Dynamics 365 Lifecycle Services project or instance when one instance doesn't meet a global implementation's requirements for data residency, latency, or data volume. Another case is when different business units are implementing the product separately as independent applications.
 
-Each Dynamics 365 Lifecycle Services project must meet the minimum licensing requirement. The project team must distribute the total licenses at the tenant level towards the individual Dynamics 365 Lifecycle Services projects, ensuring that the number of licenses assigned across all projects doesn't exceed the total license count purchased. To do so, after the allocation has been determined, open the [Subscription estimator](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator) tool for each implementation project, and edit the active subscription estimate to apply the desired license allocation for that project. Multiple Dynamics 365 Lifecycle Services projects can be created as a [self-service activity](/dynamics365/fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant?toc=/dynamics365/finance/toc.json#create-multiple-Dynamics 365 Lifecycle Services-projects).
+Each Dynamics 365 Lifecycle Services project must meet the minimum licensing requirement. The project team must distribute the total licenses at the tenant level towards the individual Dynamics 365 Lifecycle Services projects, ensuring that the number of licenses assigned across all projects doesn't exceed the total license count purchased. To do so, after the allocation has been determined, open the [Subscription estimator](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator) tool for each implementation project, and edit the active subscription estimate to apply the desired license allocation for that project. Multiple Dynamics 365 Lifecycle Services projects can be created as a [self-service activity](/dynamics365/fin-ops-core/dev-itpro/get-started/implement-multiple-projects-aad-tenant?toc=%2Fdynamics365%2Ffinance%2Ftoc.json).
 
 #### Production environment and go-live assessment
 
