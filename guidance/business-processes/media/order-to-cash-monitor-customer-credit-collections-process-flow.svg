@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="1920"
-   height="1461.4235"
+   height="1467.5754"
    overflow="hidden"
    version="1.1"
    id="svg258"
@@ -23,26 +23,26 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.43177083"
-     inkscape:cx="960"
-     inkscape:cy="573.22075"
-     inkscape:window-width="1920"
-     inkscape:window-height="1010"
-     inkscape:window-x="-6"
-     inkscape:window-y="-6"
+     inkscape:zoom="0.53489583"
+     inkscape:cx="959.06524"
+     inkscape:cy="1222.668"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2725"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg258" />
   <g
      id="g256"
-     transform="translate(0,-18.528347)">
+     transform="translate(0,-16.825706)">
     <rect
        x="0"
-       y="18.528347"
+       y="16.825706"
        width="1920"
-       height="1461.4235"
+       height="1467.5754"
        fill="#ffffff"
        id="rect2"
-       style="stroke-width:0.872444" />
+       style="stroke-width:0.874278" />
     <rect
        x="921"
        y="32"
@@ -850,6 +850,7 @@
        id="path222" />
     <path
        d="m 1105,305 v 20.007 c 0,0.552 -0.45,1 -1,1 H 953.999 l 1,-1 v 901.983 l -1,-1 h 17.334 v 2 h -17.334 c -0.552,0 -1,-0.44 -1,-1 V 325.007 c 0,-0.553 0.448,-1 1,-1 H 1104 l -1,1 V 305 Z m -135,917.99 8,4 -8,4 z"
+       fill="#0078d4"
        id="path224" />
     <path
        d="m 1230,427 h 70.55 v 2 H 1230 Z m 69.22,-3 8,4 -8,4 z"
