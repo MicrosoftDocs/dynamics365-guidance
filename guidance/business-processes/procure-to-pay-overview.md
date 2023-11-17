@@ -1,4 +1,4 @@
-﻿---
+---
 title: Procure to pay end-to-end overview
 description: Learn about the end-to-end business process, from procure to pay. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 07/17/2023
@@ -129,7 +129,7 @@ There are product-specific capabilities that interact with the *procure to pay* 
 
 - **Quality management**  
 
-  This capability in Dynamics 365 Supply Chain Management provides a framework to capture nonconforming materials through product test. Users can set the timing for when to generate a quality order for testing before materials are released for consumption. With the gathered data surrounding the item sampling or tests completed, results can assist with corrective action, should it be needed.
+  This capability in Dynamics 365 Supply Chain Management provides a framework to capture nonconforming materials through product testing. Users can set the timing for when to generate a quality order for testing before materials are released for consumption. With the gathered data surrounding the item sampling or tests completed, results can assist with corrective action, should it be needed.
 
 - **Dynamics 365 Finance Invoice Capture**  
 
@@ -182,7 +182,7 @@ The following steps are illustrated in the *procure to pay* end-to-end business 
 
         Parallel branches from this subprocess:
 
-        1.*Acquire to dispose*
+        1. *Acquire to dispose*
         2. *Plan to produce*  with a downstream process to *Inventory to deliver*  
         3. *Inventory to deliver*  with a downstream process to *Order to cash*  
         4. *Order to cash*  
