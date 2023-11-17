@@ -240,7 +240,7 @@ When a customer ends a relationship or stops engaging with a company. CRM helps 
 
 ### Close the deal
 
-Closing the deal refers to the process of finalizing the agreement with a client or decision-makers after an opportunity is won. It involves confirming acceptance, negotiating terms if necessary, preparing and signing the contract, and setting up the required arrangements for the project or business.
+Closing the deal refers to the process of finalizing the agreement with a client or decision makers after an opportunity is won. It involves confirming acceptance, negotiating terms if necessary, preparing and signing the contract, and setting up the required arrangements for the project or business.
 
 ### Collection letters or dunning notes
 
@@ -369,15 +369,15 @@ A currency represents the type of money used for financial transactions. It can 
 
 - Transactions currency 
 
-  The transaction currency is the currency that a specific financial transaction is recorded in. It's the currency denomination of a particular transaction.
+    The transaction currency is the currency that a specific financial transaction is recorded in. It's the currency denomination of a particular transaction.
 
 - Accounting currency 
 
-  The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger and you can view the accounting currency amounts for all transactions in the general ledger.
+    The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger and you can view the accounting currency amounts for all transactions in the general ledger.
 
 - Reporting currency 
 
-  The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger and you can view the reporting currency amounts on all transactions in the general ledger.
+    The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger and you can view the reporting currency amounts on all transactions in the general ledger.
 
 ### Currency conversion
 
@@ -391,10 +391,10 @@ Currency policies refer to the rules and guidelines that govern how different cu
 
 Currency revaluation is the process of adjusting the value of assets and liabilities denominated in foreign currencies to reflect current exchange rates which helps maintain accurate financial statements. Dynamics 365 Finance supports four types of currency revaluations:
 
--   Accounts payable – for revaluating vendor open transactions
--   Accounts receivable – for revaluating customer open transactions
--   Cash and bank management – for revaluating bank balances
--   General ledger – for revaluating general ledger account balances
+- Accounts payable – for revaluating vendor open transactions
+- Accounts receivable – for revaluating customer open transactions
+- Cash and bank management – for revaluating bank balances
+- General ledger – for revaluating general ledger account balances
 
 ### Customer credit group
 
@@ -520,19 +520,19 @@ Financial reporting involves the preparation and presentation of an organization
 
 ### Financial periods
 
-Financial periods represent specific time intervals, such as months or quarters, in which financial transactions are recorded. The opening and closing of financial periods is managed to ensure accurate reporting. You can define an unlimited number of fiscal calendars in Dynamics 365 Finance and a fiscal calendar can be used by a single ledger or shared by multiple ledgers.
+Financial periods represent specific time intervals, such as months or quarters, in which financial transactions are recorded. The opening and closing of financial periods are managed to ensure accurate reporting. You can define an unlimited number of fiscal calendars in Dynamics 365 Finance and a fiscal calendar can be used by a single ledger or shared by multiple ledgers.
 
-- Fiscal calendar  
+- Fiscal calendar
 
-  A fiscal calendar is a predefined time structure used for organizing financial activities, reporting periods, and budgeting cycles. In Dynamics 365 Finance, it determines the start and end dates of fiscal years, quarters, and periods for financial reporting purposes. The fiscal calendar helps align financial data with an organization's specific accounting practices and business needs. A fiscal calendar may be based on a calendar year (January through December) or a dynamic range that crosses a calendar year.
+    A fiscal calendar is a predefined time structure used for organizing financial activities, reporting periods, and budgeting cycles. In Dynamics 365 Finance, it determines the start and end dates of fiscal years, quarters, and periods for financial reporting purposes. The fiscal calendar helps align financial data with an organization's specific accounting practices and business needs. A fiscal calendar may be based on a calendar year (January through December) or a dynamic range that crosses a calendar year.
 
-- Ledger calendar  
+- Ledger calendar
 
-  The ledger calendar contains the ledger-specific settings for the periods within the fiscal year for each ledger assigned to the fiscal calendar. Within Dynamics 365 Finance, the same period can be open for one ledger and on hold for another ledger. These controls allow you to manage the entire period, specific modules, or the users that can post to the period and module.
+    The ledger calendar contains the ledger-specific settings for the periods within the fiscal year for each ledger assigned to the fiscal calendar. Within Dynamics 365 Finance, the same period can be open for one ledger and on hold for another ledger. These controls allow you to manage the entire period, specific modules, or the users that can post to the period and module.
 
 ### Financial tags
 
-Financial tags are values assigned to transactions and the corresponding accounting entries to categorize them for reporting and analysis purposes. They are an alterrnative to financial dimensions by providing additional insights into the nature of financial activities, without the structure of financial dimensions. Dynamics 365 Finance supports up to twenty user-defined tags to be used on any transactions. The values that are entered on the transactions are carried to the general ledger when each voucher is posted.
+Financial tags are values assigned to transactions and the corresponding accounting entries to categorize them for reporting and analysis purposes. They serve as an alternative to financial dimensions by providing additional insights into the nature of financial activities, without the structure of financial dimensions. Dynamics 365 Finance supports up to twenty user-defined tags to be used on any transactions. The values that are entered on the transactions are carried to the general ledger when each voucher is posted.
 
 ### Finished good
 
@@ -732,7 +732,7 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 ### Lead
 
-A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* is a lead deemed viable by marketing based on activity, demographics, and so on. A *sales-qualified lead* is a lead vetted by sales as fitting ideal customer profile and ready for contact. A *marketing-qualified lead (MQL)* is a lead determined to match target customer profile and be sales-ready based on campaign interactions. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
+A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* (MQL) is a lead that marketing has deemed viable, based on activity, demographics, and so on. It was determined to match the target customer profile and to be sales-ready, based on campaign interactions. A *sales-qualified lead* is a lead that sales has vetted and found to fit the ideal customer profile and to be ready for contact. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
 
 ### Lead and opportunity management
 
@@ -778,7 +778,7 @@ Leased assets are [assets](#asset) that a [lessor](#lessor) allows a lessee to u
 
 A legal entity is a separate entity recognized by the law, capable of entering contracts and engaging in business activities. It typically consists of owners/shareholders, management, assets, liabilities, and a distinct legal structure. 
 
-In Dynamics 365 Finance, each legal entity is associated with a separate set of financial records and settings. The term legal entity and company are used interchangeably in Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations.  
+In Dynamics 365 Finance, each legal entity is associated with a separate set of financial records and settings. The term legal entity and company are used interchangeably in Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations.
 
 
 ### Ledger
@@ -887,7 +887,7 @@ The hours worked on tasks that are not directly chargeable to clients. These hou
 
 ### Opportunity
 
-An opportunity is a [lead](#lead) that's been [qualified](#lead-and-opportunity-management), or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services they're interested in, the potential revenue, and the estimated closing date. Opportunities can be *scored* based on their potential, and they can be *nurtured* with ongoing communication to develop the opportunities.
+An opportunity is a [lead](#lead) that has been [qualified](#lead-and-opportunity-management) or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services that the customer is interested in, the potential revenue, and the estimated closing date. Opportunities can be *scored* based on their potential, and they can be *nurtured* through ongoing communication that is aimed at developing them.
 
 ### Overhead costs
 
@@ -1053,7 +1053,7 @@ A project budget is the total projected costs needed to complete a project over 
 
 ### Project contract
 
-The [project contract](/dynamics365/project-operations/prod-pma/project-contracts) is a formal written agreement between an organization, the contractor, and a client, the buyer, that defines the terms and conditions of a project or business transaction. It includes details such as scope of work, deliverables, timelines, payment terms, and responsibilities of both parties.
+The [project contract](/dynamics365/project-operations/prod-pma/project-contracts) is a formal written agreement between an organization (the contractor) and a client (the buyer) that defines the terms and conditions of a project or business transaction. It includes details such as the scope of work, deliverables, timelines, payment terms, and responsibilities of both parties.
 
 In Dynamics 365, a project that will be invoiced must be associated with a project contract. Settings for a project contract apply to all projects and subprojects that are associated with it. A project contract can specify one or more sources of funding. You can invoice one or more projects at the same time and make sure that a uniform invoicing procedure is applied for each subproject in a project structure.
 
@@ -1098,7 +1098,7 @@ In Dynamics 365, projects can be categorized as one of six types depending on th
 
 ### Proposal
 
-The document that outlines the scope of work, deliverables, timeline, and estimated cost of a project is called a proposal. A proposal is presented to the customer for review and consideration. It may be subject to negotiation before a final agreement is reached.
+The document that outlines the scope of work, deliverables, timeline, and estimated cost of a project is called a proposal. A proposal is presented to the customer for review and consideration. It might be subject to negotiation before a final agreement is reached.
 
 ### Provider
 
