@@ -82,7 +82,7 @@ Uuse the following resources to learn more about the order to cash process in Dy
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Senior Program Manager, FastTrack for Dynamics 365  
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365  
 
 <!--## Tags
 *Stakeholders*: Accounts receivable, Administrative, Customer services, Engineering, Finance, IT, Marketing, Merchandising, Operations, Production, Purchasing, Retail store operations, Sales, Service operations, Transportation, Treasury, Warehouse  

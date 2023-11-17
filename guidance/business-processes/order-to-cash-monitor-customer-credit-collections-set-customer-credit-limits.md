@@ -227,7 +227,7 @@ Use the following resources to learn more about the processes for setting custom
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Senior Program Manager, FastTrack for Dynamics 365  
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365  
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Accounts receivable lead, Finance lead, Sales lead, Operations lead
