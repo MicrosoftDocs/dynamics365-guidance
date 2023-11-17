@@ -44,7 +44,7 @@ Before you can import the project into Azure Boards, there are a few things that
 
 1. Define your project scope.  
 
-    We suggest that you use the spreadsheet as a starting point to define the scope. At the most fundamental level, delete any rows that don't apply to your project. Learn more about defining your project scope at [Process-focused solution](/dynamics365/guidance/implementation-guide/process-focused-solution).  
+    We suggest that you use the spreadsheet as a starting point to define the scope. At the most fundamental level, delete any rows that don't apply to your project. Learn more about defining your project scope at [Process-focused solution](/dynamics365/guidance/implementation-guide/process-focused-solution). 
 
 2. Create a project in the Azure DevOps Services tenant.  
 
@@ -52,13 +52,27 @@ Before you can import the project into Azure Boards, there are a few things that
 
 3. Define area paths in the  project settings.  
 
-    For each end-to-end process that is in scope, create one area path. Learn more at [Define area paths and assign to a team.](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).  
+    For each end-to-end process that is in scope, create one area path. Learn more at [Define area paths and assign to a team.](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).
 
-4. Insert any other rows required for your project.  
+4. Add custom fields as required. The template includes four custom fields. Use the following guidance to create the fields. Alternatively, delete the columns from the template. Learn more at [Add and manage fields](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true).
+   
+    1. **Business owner** – add this field as an **Identity** field so that you can select a user or person from the identity picker. Learn more at [Add an Identity field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-an-identity-field).
+
+    2. **Business process lead** – add this field as an **Identity** field so that you can select a user or person from the identity picker. Learn more at [Add an Identity field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-an-identity-field).
+
+    3. **Business outcome category** – add this field as a **Picklist** field so that users can select an option from a drop-down box. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We suggest you create three options for the list as follows:
+    
+        - **Business unit**: Use this option when the work item is for a specific business unit.
+        - **Organization**: Use this option when the work item for for the entire organization.
+        - **Process team**: Use this option when the work item is for a subset of your business unit, organization, or group of people within your organizaiton. We have used the term *Process team*, but you can use a different word if more appropriate for your project.
+
+    4. **Process sequence ID** – add this field as a custom **Text (single line)** field so that users can enter an ID for the process. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).
+
+5. Insert any other rows that your project needs.  
 
     You might need more epics, features, or user stories. Epics use the first *Title* column, features use the second *Title* column, and user stories use the third *Title* column. To establish a firm relationship between the rows, don't insert the *Next Epic* or *Feature* row until you've listed all rows that required a relationship to the last epic or feature. You might want to consider adding other work items types too such as Configuration or Workshops, for example, but the template provided doesn't include other work item types.
 
-5. Complete the other columns in the spreadsheet as required. Use the following recommendations to guide you.
+6. Complete the other columns in the spreadsheet as required. Use the following recommendations to guide you.
 
     1. **Description** – in future releases, we plan to prepopulate this column for you. Optionally, add a detailed description for your business processes before you import, or work on this description throughout the project.
 
@@ -76,17 +90,17 @@ Before you can import the project into Azure Boards, there are a few things that
 
     8. **Effort** – optionally, add a rating for the effort. For example, you might apply a high effort score to processes that require integration or modification.
 
-6. Update the **Area path** in the file.  
+7. Update the **Area path** in the file.  
 
     You must replace the value in the **Area path** column with the exact name of your project and area paths. If you create the areas paths to match the end to end process names, you just have to replace the following text *DevOps Product Catalog Working Instance* with the name of your project in your area path.
 
-7. Optionally, add more columns to the file, or remove columns that you won't use before you import. If you add custom fields to your Azure DevOps project that are mandatory, make sure you include them in the file, or the file might fail to import.
+8. Optionally, add more columns to the file, or remove columns that you won't use before you import. If you add custom fields to your Azure DevOps project that are mandatory, make sure you include them in the file, or the file might fail to import.
 
-8. Split large files for import.  
+9. Split large files for import.  
 
     Determine if you must split your file into multiple files for uploading. Azure DevOps has a limit of 1,000 rows that can be uploaded in one import. If your final file has more than 1,000 rows, split the file. It's critical that when you split the file, all epics, features, and user stories that are related to the same end-to-end process are in the same file. For example, if row 1000 is in the middle of the [*order to cash*](order-to-cash-overview.md) process after deleting and inserting any required rows, you'll want to split the file at the first row for *order to cash*. That way, you make sure that all *order to cash* processes are included, and that you can establish the relationships during the import. If you attempt to import the entire catalog, you must split the file into four parts for importing.
 
-9. The file must be saved as a .CSV file to be imported into Azure DevOps.  
+10. The file must be saved as a .CSV file to be imported into Azure DevOps.  
 
     If you added extra columns and features in the spreadsheet that you don't want to lose such as formatting or formulas, consider saving a version of the file as an .XLSX file. This version can help you avoid losing those features. However, the version you import must be the .CSV file.
 
