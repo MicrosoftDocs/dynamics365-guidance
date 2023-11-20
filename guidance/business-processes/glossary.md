@@ -1182,11 +1182,11 @@ Routing is the process of assigning a route to a [load](#load). Routes are typic
 
 ### Sales channels
 
-Sales channels are the methods used to sell products and services to customers. Examples are direct sales, partners, resellers, retail, e-commerce.
+Sales channels are the methods that are used to sell products and services to customers. Examples are direct sales, partners, resellers, retail, and e-commerce.
 
 ### Sales compensation
 
-Sales compensation includes commissions, bonuses, and incentives offered to motivate certain seller behaviors and achievements.
+Sales compensation includes commissions, bonuses, and incentives that are offered to motivate specific seller behaviors and achievements.
 
 ### Sales documentation and materials
 
@@ -1202,7 +1202,7 @@ Sales documentation and materials are resources that sales teams use during the 
 
 ### Sales enablement
 
-Sales enablement refers to training, content, tools, and coaching provided to sales teams to improve performance.
+Sales enablement refers to training, content, tools, and coaching that are provided to sales teams to improve performance.
 
 ### Sales order
 
@@ -1222,7 +1222,7 @@ Sales planning and strategy describes the process of developing an approach and 
 
 The sales process is a series of steps that a sales team follows to identify, engage, and close deals with potential customers. It includes prospecting, qualification, needs analysis, presentation, handling objections, closing, and follow-up.
 
-- A	**sales process** is a series of steps that a salesperson follows to guide a lead or prospect through the stages of becoming a customer, from initial contact to closing the sale.
+- A **sales process** is a series of steps that a salesperson follows to guide a lead or prospect through the stages of becoming a customer, from initial contact to closing the sale.
 
 - A **sales funnel** or **sales pipeline** is a visual representation of the way that leads and opportunities move through each stage in the sales process.
 
@@ -1230,11 +1230,11 @@ The sales process is a series of steps that a sales team follows to identify, en
 
 ### Sales targets
 
-Sales targets are specific measurable goals set for revenue and sales volume over a period of time. Targets are set at the company, business unit, team, and individual levels.
+Sales targets are specific measurable goals that are set for revenue and sales volume over a period of time. Targets are set at the company, business unit, team, and individual levels.
 
 ### Sales territories
 
-Sales territories are geographic areas or accounts assigned to salespeople. Territories optimize market coverage and account focus.
+Sales territories are geographic areas or accounts that are assigned to salespeople. Territories optimize market coverage and account focus.
 
 ### Sales tools and technologies
 
