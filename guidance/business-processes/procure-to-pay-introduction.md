@@ -1,4 +1,4 @@
-﻿---
+---
 title: Procure to pay introduction
 description: Get an introduction to the procure to pay end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their plan to produce processes.
 ms.date: 04/24/2023
@@ -21,7 +21,7 @@ The *procure to pay* process typically includes the following steps:
 
 1. Identify the need for goods or services  
 
-    This process conver both *indirect procurement*, where the goods or services are not related to the good or service being sold, and *direct procurement*, where demand for the goods or services exists within the production or sales processes. Dynamics 365 Supply Chain Management supports flexible procurement processes based on business needs. These processes include *request for quotations* (RFQs), *purchase requisitions*, *contracts* (purchase agreements or blanket orders), and *purchase orders* which can be planned or unplanned. Planned purchase orders can be generated automatically from supply or demand forecasts present. Learn more at [Forecast to plan introduction](forecast-to-plan-introduction.md).  
+    This process covers both *indirect procurement*, where the goods or services are not related to the good or service being sold, and *direct procurement*, where demand for the goods or services exists within the production or sales processes. Dynamics 365 Supply Chain Management supports flexible procurement processes based on business needs. These processes include *request for quotations* (RFQs), *purchase requisitions*, *contracts* (purchase agreements or blanket orders), and *purchase orders* which can be planned or unplanned. Planned purchase orders can be generated automatically from supply or demand forecasts present. Learn more at [Forecast to plan introduction](forecast-to-plan-introduction.md).  
 
 2. Supplier selection  
 
@@ -156,11 +156,10 @@ You can use the following resources to learn more about the *procure to pay* pro
 
 - [Onboard vendors](/dynamics365/supply-chain/procurement/vendor-onboarding)  
 
-Tags
 
 
 
-<!--## Tags
+<!-- ## Tags
 *Stakeholders:* Functional consultant, Buyer, Director of Procurement, Purchasing agent, Purchasing manager, Accounts payable clerk, Accounts payable manager, System administrator, Business Analyst, Director of IT, Business Systems Analyst, Controller, CFO, Accountant, or Accounting manager, Internal auditors, External auditors
 
-*Products:* Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center
+*Products:* Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center-->

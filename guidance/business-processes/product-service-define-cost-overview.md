@@ -1,4 +1,4 @@
-﻿---
+---
 title: Define product and service costing overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to set the cost the goods and services that you sell.
 ms.topic: conceptual
@@ -37,9 +37,9 @@ Overall, defining product and service costs is essential for any organization th
 
 Microsoft business applications include tools to help support organizations define product and service costs to track, report, and analyze the profitability, margins, and more. Let's look at the following examples:
 
-- Dynamics 365 Sales and Field Service include a product catalog feature that allows you to quickly define the product cost that is tracked on each transaction  
+- Dynamics 365 Sales and Field Service include a product catalog feature that allows you to quickly define the product cost that is tracked on each transaction.  
 
-- Dynamics 365 Supply Chain Management includes robust cost calculation features such as BOM and Formula cost roll-ups or calculations for produced items  
+- Dynamics 365 Supply Chain Management includes robust cost calculation features such as BOM and Formula cost roll-ups or calculations for produced items.  
 
   Supply Chain Management also supports the calculation of indirect costs, sometimes referred to as overhead costs, for purchased or produced items, and a costing sheet to analyze the breakdown of costs.  
 

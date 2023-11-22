@@ -224,7 +224,7 @@ Businesses can maintain different types of product catalogs, depending on their 
 
 ### Category hierarchy
 
-A category hierarchy refers to a way of organizing and structuring products or items into a hierarchical structure based on their characteristics, attributes, or relationships. This hierarchy allows for efficient management, classification, and navigation of products within Dynamics 365. Typically, the category hierarchy is set up and maintained in Dynamics 365 Supply Chain Management. With [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), you can then share the setup with other applications such as Dynamics 365 Sales, Customer Insights, Customer Service, or Field Service.
+A category hierarchy refers to a way of organizing and structuring products or items into a hierarchical structure, based on their characteristics, attributes, or relationships. This structure allows for efficient management, classification, and navigation of products in Dynamics 365. Typically, the category hierarchy is set up and maintained in Dynamics 365 Supply Chain Management. With [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), you can then share the setup with other applications, such as Dynamics 365 Sales, Customer Insights, Customer Service, or Field Service.
 
 ### Centralized resource allocation
 
@@ -857,7 +857,7 @@ A strategic marketing effort across one or more channels over a period of time t
 
 ### Merchandising
 
-In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance customer experience, and improve overall business performance.
+In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities that are related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance the customer experience, and improve overall business performance.
 
 ### Modes of manufacturing
 
@@ -939,9 +939,9 @@ Catalogs of available products/services with assigned prices. Used to add items 
 
 ### Product category
 
-A product category is a logical grouping of the products that a business sells, based on common characteristics, attributes, features, or usage. Product categories help both businesses and customers quickly identify and locate specific types of products within a larger inventory.
+A product category is a logical grouping of the products that a business sells, based on common characteristics, attributes, features, or usage. Product categories help both businesses and customers quickly identify and find specific types of products within a larger inventory.
 
-Product categories can be broad or specific, depending on the size and complexity of a business's product offering. Some businesses may have only a few product categories, while others may have dozens or even hundreds. In addition to organizing products for customers, you can use product categories to manage inventory, track sales, and analyze business performance. Ultimately, product categories enhance organization, navigation, and customer experience by providing a structured way to manage and present products.
+Product categories can be broad or specific, depending on the size and complexity of a business's product offering. Some businesses might have only a few product categories, whereas others might have dozens or even hundreds. In addition to using product categories to organize products for customers, you can use them to manage inventory, track sales, and analyze business performance. Ultimately, product categories enhance organization, navigation, and the customer experience by providing a structured way to manage and present products.
 
 For example, a clothing retailer might have product categories such as the following list:
 
@@ -951,39 +951,34 @@ For example, a clothing retailer might have product categories such as the follo
 - Shoes
 - Accessories
 
-Similarly, an online electronics store might define product categories such as the following list:
+An online electronics store might have product categories such as the following list:
 
 - Electronics
 
     - Smartphones
-
     - Laptops
-
     - Tablets
-
     - Wearable Devices
 
 - Accessories
 
     - Phone Cases
-
     - Laptop Bags
-
     - Screen Protectors
 
-In this scenario, *Electronics* and *Accessories* are main categories, and the subcategories provide further granularity. This hierarchy helps customers quickly locate the type of product they are interested in and aids the store's internal operations for inventory management and pricing.
+In this scenario, *Electronics* and *Accessories* are main categories, and the subcategories provide further granularity. This hierarchy helps customers quickly find the type of product that they are interested in. It also helps the store's internal operations for inventory management and pricing.
 
-The specific attributes and characteristics used to define a product category can vary based on the business's offerings and the goals of categorization. 
+The specific attributes and characteristics that are used to define a product category can vary based on the business's offerings and the goals of categorization. 
 
-In Dynamics 365 Commerce and Supply Chain Management, product categories are also known as [product hierarchies](#product-hierarchy). With the hierarchal structure of product categories, you can define a systematic and organized presentation of products, making it easier for users to work with products in various processes such as sales, marketing, inventory management, and reporting. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation). In Dynamics 365 Sales, you use [product families](#product-family) for the same purpose.
+In Dynamics 365 Commerce and Supply Chain Management, product categories are also known as [product hierarchies](#product-hierarchy). With the hierarchal structure of product categories, you can define a systematic and organized presentation of products. In this way, you make it easier for users to work with products in various processes, such as sales, marketing, inventory management, and reporting. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation). In Dynamics 365 Sales, you use [product families](#product-family) for the same purpose.
 
 ### Product family
 
-In Dynamics 365 Sales, Customer Service, Field Service and Customer Insights, a [product family](/dynamics365/sales/create-product-family) is a group of similar products. You can create a hierarchy of product families to make it easier to manage products. You can use [product categories](#product-category) for the same purpose in Dynamics 365 Supply Chain Management.
+In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, a [product family](/dynamics365/sales/create-product-family) is a group of similar products. By creating a hierarchy of product families, you make it easier to manage products. You can use [product categories](#product-category) for the same purpose in Dynamics 365 Supply Chain Management.
 
 ### Product hierarchy
 
-A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products within a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This hierarchy helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).
+A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products in a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This structure helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).
 
 ### Product lifecycle management (PLM)
 
@@ -1266,9 +1261,9 @@ Scrap can also describe labor or other production resources that result in unusa
 
 ### Segmentation
 
-Segmentation in Dynamics 365 is the practice of dividing a target audience or market into distinct and homogeneous groups based on shared characteristics, behaviors, preferences, or needs. The purpose of segmentation is to gain a deeper understanding of the diverse customer base and to tailor marketing, sales, and business strategies to effectively reach and serve each segment.
+Segmentation in Dynamics 365 is the practice of dividing a target audience or market into distinct homogeneous groups, based on shared characteristics, behaviors, preferences, or needs. The goals of segmentation are to gain a deeper understanding of the diverse customer base, and to tailor marketing, sales, and business strategies to effectively reach and serve each segment.
 
-Segmentation helps businesses recognize that not all customers are the same and that different groups have unique preferences and requirements. By identifying and understanding these segments, companies can deliver more personalized and relevant experiences, products, and messages to different customer groups. Dynamics 365 Customer Insights - Journeys supports the creation of segments to help manage customer journeys. Learn more at [Create segments and lists to establish target markets](/dynamics365/marketing/segmentation-lists-subscriptions).
+Segmentation helps businesses recognize that not all customers are the same, and that different groups have unique preferences and requirements. By identifying and understanding these segments, companies can deliver more personalized and relevant experiences, products, and messages to different customer groups. Dynamics 365 Customer Insights - Journeys supports the creation of segments to help manage customer journeys. Learn more at [Create segments and lists to establish target markets](/dynamics365/marketing/segmentation-lists-subscriptions).
 
 ### Service
 
@@ -1298,7 +1293,7 @@ A subcontractor is a hired external worker who performs specialized tasks or pro
 
 ### Subject
 
-In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, the term *subject* refers to a categorization or classification for labeling and organizing various records, such as cases, activities, knowledge base articles, sales literature, and products. It helps in better organizing and managing data within the system. Subjects can be organized into a subject hierarchy. This concept is like the concept of a product category and product category hierarchy. However, one key difference is that subject support not only the organization of products but other types of data. Learn more at [Define subjects to categorize cases, products, and articles](/power-platform/admin/define-subjects-categorize-cases-products-articles).
+In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, the term *subject* refers to a categorization or classification for labeling and organizing various records, such as cases, activities, knowledge base articles, sales literature, and products. Subjects help you better organize and manage data in the system. Subjects can be organized into a subject hierarchy. This concept resembles the concept of product categories and a product category hierarchy. However, one key difference is that subjects support the organization of not only products but also other types of data. Learn more at [Define subjects to categorize cases, products, and articles](/power-platform/admin/define-subjects-categorize-cases-products-articles).
 
 ### Subledger
 

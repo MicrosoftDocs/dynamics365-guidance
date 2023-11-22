@@ -1,4 +1,4 @@
-﻿---
+---
 title: Product and service lifecycle management end-to-end overview
 description: Learn about the end-to-end business process, product and service lifecycle management. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 04/03/2023
@@ -28,7 +28,7 @@ The upstream processes for the *product and service lifecycle management* proces
 
 - **Prospect to quote**  
 
-  In some operational strategies such as engineer to order, the *prospect to quote* process will occur prior to*product and service lifecycle management process*, since the quote is often the trigger to initiate the process.
+  In some operational strategies such as engineer to order, the *prospect to quote* process will occur prior to *product and service lifecycle management process*, since the quote is often the trigger to initiate the process.
 
 - **Order to cash**  
 
@@ -40,7 +40,7 @@ The upstream processes for the *product and service lifecycle management* proces
 
 - **Project to profit**  
 
-  In some operational strategies such as engineer to order, the project to profit process may begin before the *product and service lifecycle management process* begins. For example, the project is created and budgets are set, drawing are completed and approved, before the organization begins to setup and procure the items to make the engineered product. Additionally, when organizations use projects to manage capital projects, the project definition, budgets and so on, are typically set before the organization begins to create and procure the needed products and services.
+  In some operational strategies such as engineer to order, the project to profit process may begin before the *product and service lifecycle management process* begins. For example, the project is created and budgets are set, drawings are completed and approved, before the organization begins to set up and procure the items to make the engineered product. Additionally, when organizations use projects to manage capital projects, the project definition, budgets and so on, are typically set before the organization begins to create and procure the needed products and services.
 
 The *product and service lifecycle management* end-to-end process is broken down into the following business process areas:
 
@@ -80,7 +80,7 @@ The downstream processes for the *product and service lifecycle management* proc
 
 - **Service to cash**  
 
-  In most operational strategies, the *service to cash* process will occur after to*product and service lifecycle management process*, since the services to be offered are predetermined by the organization's sales strategy.
+  In most operational strategies, the *service to cash* process will occur after *product and service lifecycle management process*, since the services to be offered are predetermined by the organization's sales strategy.
 
 - **Plan to produce**  
 
@@ -88,7 +88,7 @@ The downstream processes for the *product and service lifecycle management* proc
 
 - **Project to profit**  
 
-  In project based organizations, the project can be integrated with the supply chain to create purchase orders or item requirements that will be shipped to the customer in a downstream process after the item is defined.
+  In project-based organizations, the project can be integrated with the supply chain to create purchase orders or item requirements that will be shipped to the customer in a downstream process after the item is defined.
 
 - **Inventory to deliver**  
 
@@ -96,7 +96,7 @@ The downstream processes for the *product and service lifecycle management* proc
 
 - **Case to resolution**  
 
-  The *case to resolution process* is downstream to the*product and service lifecycle management process* when you use cases to manage inventory issues, vendor issues, customer complaints, and so on.
+  The *case to resolution process* is downstream to the *product and service lifecycle management process* when you use cases to manage inventory issues, vendor issues, customer complaints, and so on.
 
 - **Record to report**  
 
