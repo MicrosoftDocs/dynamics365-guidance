@@ -110,7 +110,7 @@ If you want to implement Dynamics 365 solutions to help with your *track produc
 1. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
 1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
 1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
-1. Track production costs (the article you're currently reading)
+1. Track production costs (the article that you're currently reading)
 1. Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)
 
 ## Related resources

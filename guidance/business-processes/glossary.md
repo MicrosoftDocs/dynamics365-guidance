@@ -22,11 +22,11 @@ Find generic and specific terms across Microsoft products and languages at [Micr
 
 ### Account structure
 
-The term *account structure* in Dynamics 365 Finance refers to an organized list of main accounts and financial dimensions. An account structure defines the financial dimensions that are applicable to each main account. It also defines the rules that determine which combinations of main accounts and dimension values are allowed, which financial dimensions are mandatory, which are allowed to be blank, and so on. Conversely, the combinations that are not defined in the account structure are not allowed. Each ledger must have one or more account structures to define its valid main accounts and financial dimensions.
+The term *account structure* in Dynamics 365 Finance refers to an organized list of main accounts and financial dimensions. An account structure defines the financial dimensions that are applicable to each main account. It also defines the rules that determine which combinations of main accounts and dimension values are allowed, which financial dimensions are mandatory, which are allowed to be blank, and so on. Conversely, the combinations that aren't defined in the account structure aren't allowed. Each ledger must have one or more account structures to define its valid main accounts and financial dimensions.
 
 ### Accounting Standards Codification (ASC)
 
-The Accounting Standards Codification categorizes accounting standards into a comprehensive, consistent, and accessible framework. It is designed to make it easier for financial professionals, including accountants and auditors, to locate and apply relevant accounting rules and guidance. The ASC covers a wide range of accounting topics, including revenue recognition, financial statement presentation, leases, income taxes, and many others.
+The Accounting Standards Codification categorizes accounting standards into a comprehensive, consistent, and accessible framework. It's designed to make it easier for financial professionals, including accountants and auditors, to locate and apply relevant accounting rules and guidance. The ASC covers a wide range of accounting topics, including revenue recognition, financial statement presentation, leases, income taxes, and many others.
 
 The ASC is divided into various sections, each addressing specific areas of accounting. For example, ASC 606 deals with revenue recognition, ASC 842 addresses lease accounting, and ASC 740 covers income taxes. Each section includes detailed guidance, rules, and examples related to the respective accounting topic.
 
@@ -42,7 +42,7 @@ It encompasses all the expenses associated with acquiring the asset and making i
 
 ### Advanced rule
 
-An advanced rule in Dynamics 365 Finance is a configuration that allows you to define account structure exceptions for financial dimensions that are specific to one or a few main accounts. It allows for more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. Advanced rules allow you to add additional financial dimensions that are not included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions.
+An advanced rule in Dynamics 365 Finance is a configuration that allows you to define account structure exceptions for financial dimensions that are specific to one or a few main accounts. It allows for more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. Advanced rules allow you to add additional financial dimensions that aren't included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions.
 
 ### Aging periods
 
@@ -95,7 +95,7 @@ Here are some examples of tangible assets and intangible assets:
 
 ### Asset decommissioning
 
-Asset decommissioning refers to the process of formally retiring and stopping the use of an asset. Organizations typically initiate the decommissioning process when an asset reaches the end of its useful life or when it is no longer needed. To avoid any regulatory or compliance issues the assets should be clearly disposed of by the organization.
+Asset decommissioning refers to the process of formally retiring and stopping the use of an asset. Organizations typically initiate the decommissioning process when an asset reaches the end of its useful life or when it's no longer needed. To avoid any regulatory or compliance issues the assets should be clearly disposed of by the organization.
 
 ### Asset disposal
 
@@ -107,7 +107,7 @@ Fixed asset insurance is a type of insurance that covers the physical assets of 
 
 ### Asset lifecycle stages
 
-Fixed Asset lifecycle stages are the phases that an asset typically goes through from the time it is acquired by a business until it is disposed of or retired. These stages include planning, acquisition, operation and maintenance, and disposal. Each stage has its own accounting, financial, and operational implications for the business. Understanding and managing the fixed asset lifecycle can help businesses optimize their asset performance, reduce costs, and comply with regulations.
+Fixed Asset lifecycle stages are the phases that an asset typically goes through from the time it's acquired by a business until it's disposed of or retired. These stages include planning, acquisition, operation and maintenance, and disposal. Each stage has its own accounting, financial, and operational implications for the business. Understanding and managing the fixed asset lifecycle can help businesses optimize their asset performance, reduce costs, and comply with regulations.
 
 - Planning: This stage involves identifying the need for a new asset, evaluating the current assets, and determining the budget and specifications for the asset. Planning also includes forecasting the expected benefits, risks, and costs of the asset over its useful life.
 
@@ -115,7 +115,7 @@ Fixed Asset lifecycle stages are the phases that an asset typically goes through
 
 - Operation and Maintenance: This stage involves using the asset for its intended purpose, monitoring its performance and condition, and performing regular repairs and upgrades to keep it functional. Operation and maintenance also involve tracking the asset's location, ownership, usage, and depreciation in the accounting system.
 
-- Disposal: This stage involves retiring or selling the asset when it is no longer needed or useful for the business. Disposal also involves removing the asset from the accounting system, calculating its gain or loss on disposal, and complying with any environmental or legal requirements for disposing of the asset.
+- Disposal: This stage involves retiring or selling the asset when it's no longer needed or useful for the business. Disposal also involves removing the asset from the accounting system, calculating its gain or loss on disposal, and complying with any environmental or legal requirements for disposing of the asset.
 
 Also, in the asset management process, there are asset lifecycle states that can be set and tracked by users. These are used to define whether an asset is active or inactive.
 
@@ -165,7 +165,7 @@ Audit management involves the planning, execution, and tracking of audit activit
 
 ### Baseline
 
-A baseline is a fixed reference point used to compare project performance over time. Project baselines are used by project managers to understand how project scope, schedule, and cost are progressing through the completion of a project.
+A baseline is a fixed reference point that is used to compare project performance over time. Project managers use project baselines to understand how project scope, schedule, and cost are progressing through the completion of a project.
 
 ### Billable hours
 
@@ -373,11 +373,11 @@ A currency represents the type of money used for financial transactions. It can 
 
 - Accounting currency 
 
-    The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger and you can view the accounting currency amounts for all transactions in the general ledger.
+    The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger, and you can view the accounting currency amounts for all transactions in the general ledger.
 
 - Reporting currency 
 
-    The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger and you can view the reporting currency amounts on all transactions in the general ledger.
+    The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger, and you can view the reporting currency amounts on all transactions in the general ledger.
 
 ### Currency conversion
 
@@ -389,7 +389,7 @@ Currency policies refer to the rules and guidelines that govern how different cu
 
 ### Currency revaluation
 
-Currency revaluation is the process of adjusting the value of assets and liabilities denominated in foreign currencies to reflect current exchange rates which helps maintain accurate financial statements. Dynamics 365 Finance supports four types of currency revaluations:
+Currency revaluation is the process of adjusting the value of assets and liabilities denominated in foreign currencies to reflect current exchange rates, which helps maintain accurate financial statements. Dynamics 365 Finance supports four types of currency revaluations:
 
 - Accounts payable – for revaluating vendor open transactions
 - Accounts receivable – for revaluating customer open transactions
@@ -432,7 +432,7 @@ Deferrals are used in accounting to track revenue that's received but not yet ea
 
 ### Deliverables
 
-Deliverables are all outputs of your project as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.
+Deliverables are all outputs of a project, as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.
 
 ### Departments
 
@@ -492,7 +492,7 @@ Dynamics 365 Supply Chain Management includes an [engineering change management]
 
 ### Estimation to complete
 
-Estimation to complete is an estimation of funds required to complete the remaining work of a project. The project manager will track this measure along the project that shows the remaining cost you expect in order to complete a project.
+Estimation to complete is an estimation of the funds that are required to complete the remaining work of a project. The project manager tracks this measure along a project to determine the expected remaining cost of completing that project.
 
 ### Exchange rate
 
@@ -504,7 +504,7 @@ Exchange rate types define a group of exchange rates that are obtained for curre
 
 ### Expense policies
 
-An expense policy is a formal set of guidelines that clearly outlines what constitutes an approved expense and what is not. This helps employees decide what they will be able to expense on the project.
+An expense policy is a formal set of guidelines that clearly outlines what constitutes an approved expense and what doesn't. This helps employees decide what they will be able to expense on the project.
 
 ## F
 
@@ -552,7 +552,7 @@ Learn more at [Manage project financials overview](project-to-profit-manage-proj
 
 ### Forecast
 
-A forecast is a prediction about the future. Forecasts are expected to be incorrect to a certain degree, but to be useful they should be as accurate as possible. Sometimes forecasts are created based on statistical calculations. In other cases, they're manually created based on shared information; for example, information that's incorporated from a customer forecast. Companies often create different kinds of forecasts as part of their long-term planning cycles.
+A forecast is a prediction about the future. Forecasts are expected to be incorrect to a certain degree. However, to be useful, they should be as accurate as possible. Sometimes forecasts are created based on statistical calculations. In other cases, they're manually created based on shared information; for example, information that's incorporated from a customer forecast. Companies often create different kinds of forecasts as part of their long-term planning cycles.
 
 - **Supply forecasts** predict the supply or inventory that an organization expects to need during some future period. Typically, they're based on the demand forecast, current demand, or vendor contracts. Supply forecasts can be used for budgeting purposes and to compile information about expected purchases to share with suppliers. Organizations can set up [master plans with supply forecasts](/dynamics365/supply-chain/master-planning/planning-optimization/supply-forecast).
 
@@ -586,7 +586,7 @@ In the following diagram, the chart on the left shows the data that was used to 
 
 The equation for calculating MAPE is included at the bottom of the graphic. *A<sub>t</sub>* is the actual value and *F<sub>t</sub>* is the forecast value. The absolute value in this ratio is summed for every forecasted point in the dataset and divided by the number of fitted points *n*.
 
-MAPE is expressed as a percentage, as indicated in the equation in the diagram. The lower the MAPE value is, the more accurate the forecast likely is. In general, a MAPE of 20 percent or less is considered acceptable, but 10 percent would be even better. The best MAPE value that an organization can achieve is going to be dependent on the amount of historical data and how volatile the values are.
+MAPE is expressed as a percentage, as indicated in the equation in the diagram. The lower the MAPE value is, the more accurate the forecast is likely to be. In general, a MAPE of 20 percent or less is considered acceptable, but 10 percent would be even better. The best MAPE value that an organization can achieve is going to be dependent on the amount of historical data and how volatile the values are.
 
 :::image type="content" source="media/forecast-accuracy-MAPE-calculation.png" alt-text="Charts that illustrate how MAPE is calculated.":::
 
@@ -631,7 +631,7 @@ Indirect costs are expenses that aren't related to production or manufacturing, 
 
 ### Indirect expenses
 
-Indirect expenses are those that are not directly tied to the project but may be distributed across multiple projects. Examples include administrative costs, support staff, rental fees, and utility costs.
+Indirect expenses are those that aren't directly tied to the project but may be distributed across multiple projects. Examples include administrative costs, support staff, rental fees, and utility costs.
 
 ### Intercompany expenses
 
@@ -881,7 +881,7 @@ Multicurrency refers to the ability of the system to handle transactions and fin
 
 ### Non-billable hours
 
-The hours worked on tasks that are not directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
+The hours worked on tasks that aren't directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
 
 ## O
 
@@ -1012,7 +1012,7 @@ Production journals are the journals that are posted against a production or bat
 
 - **Job cards** record the start and stop times of operations in a production or batch order to calculate the actual cost of labor and machines. They can be automatically created and posted by user interactions with the production floor execution interface.
 
-- **Report as finished** records the items that are produced in a production or batch order. Information that's recorded for production orders includes the finished good or subassembly item, the quantity of finished good produced, the scrap quantity produced, and whether the production order is complete. Batch orders track the same information, and also support reporting multiple items as outputs of the production process, either co-products or by-products.
+- **Report as finished** records the items that are produced in a production or batch order. Information that's recorded for production orders includes the finished good or subassembly item, the quantity of finished good produced, the scrap quantity produced, and whether the production order is complete. Batch orders track the same information. They also support reporting multiple items as outputs of the production process, either co-products or by-products.
 
 ### Production schedule
 
@@ -1143,7 +1143,7 @@ If your organization uses a matrix hierarchy or another custom hierarchy, you ca
 
 ### Requirement
 
-Requirement is a capability that is required to be present in a product, service, or result to satisfy a business need.
+A requirement is a capability that must be present in a product, service, or result to satisfy a business need.
 
 ### Resource booking
 
@@ -1201,7 +1201,7 @@ Sales enablement refers to training, content, tools, and coaching that are provi
 
 ### Sales order
 
-A sales order is a document created by the seller. A sales order helps the seller keep track of the orders they fulfill and manage their resources accordingly. Typically, it's generated because of winning a sales quotation or as a response to receiving a purchase order from a buyer specifying the details about the product or service along with price, quantity, delivery date, buyer details like the shipping address, mode of payment and terms and conditions. The sales order confirmation generated from the sales order represents the commercial commitment towards a buyer. It's sent in response to the buyer's purchase order when one exists. On the buyer's side, the sales order confirmation is typically referred to as a purchase order confirmation. Learn more at [Create sales orders](/dynamics365/supply-chain/sales-marketing/tasks/create-sales-orders) in the docs for Dynamics 365 Supply Chain Management.
+A sales order is a document created by the seller. A sales order helps the seller keep track of the orders they fulfill and manage their resources accordingly. Typically, it's generated because of winning a sales quotation or as a response to receiving a purchase order from a buyer specifying the details about the product or service along with price, quantity, delivery date, buyer details like the shipping address, mode of payment, and terms and conditions. The sales order confirmation generated from the sales order represents the commercial commitment towards a buyer. It's sent in response to the buyer's purchase order when one exists. On the buyer's side, the sales order confirmation is typically referred to as a purchase order confirmation. Learn more at [Create sales orders](/dynamics365/supply-chain/sales-marketing/tasks/create-sales-orders) in the docs for Dynamics 365 Supply Chain Management.
 
 The sales order confirmation that's generated from the sales order represents the seller's commitment to a buyer. It's sent in response to the buyer's purchase order when one exists. On the buyer's side, the sales order confirmation is typically referred to as a purchase order confirmation.
 
@@ -1247,15 +1247,15 @@ The Sarbanes-Oxley Act of 2002 is a U.S. federal law that sets requirements for 
 
 ### Schedule
 
-Schedule aims to ensure the timely completion of a project. It consists of defining the tasks to accomplish, the priority, the deadlines, and the sequence.
+The purpose of a schedule is to ensure the timely completion of a project. It defines the tasks that must be completed, the priority, the deadlines, and the sequence.
 
 ### Scope
 
-A project's scope defines the boundaries of the project. The scope is a list of specific project goals, deliverables, tasks, costs, and deadlines.
+A project's scope defines the boundaries of the project. It's a list of specific project goals, deliverables, tasks, costs, and deadlines.
 
 ### Scrap
 
-Scrap refers to any excess or unusable material that's identified during the production process. Scrap can be raw materials, subassemblies, or even finished products that don't meet specifications. Typically, it's disposed of, but in some cases it can be reworked or reused in the production process. For example, metal shavings from the fabrication process may be melted and worked into a new product.
+Scrap refers to any excess or unusable material that's identified during the production process. Scrap can be raw materials, subassemblies, or even finished products that don't meet specifications. Typically, it's disposed of. However, in some cases, it can be reworked or reused in the production process. For example, metal shavings from the fabrication process may be melted and worked into a new product.
 
 Scrap can also describe labor or other production resources that result in unusable products or otherwise don't contribute to the subassembly or finished good production. For example, if a subassembly is scrapped, the labor associated with producing that subassembly would also be considered scrapped.
 
@@ -1297,7 +1297,7 @@ In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, t
 
 ### Subledger
 
-In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger account) is a component of the financial accounting system that captures transactions specific to something other than a main account before they are summarized into the general ledger. It's a way to maintain different information about financial transactions and helps in providing a clear audit trail and detailed reporting. Many modules in Dynamics 365 include subledgers that integrate directly with the general ledger in Dynamics 365 Finance to include, but not limited to the following:
+In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger account) is a component of the financial accounting system that captures transactions specific to something other than a main account before they are summarized into the general ledger. It's a way to maintain different information about financial transactions and helps provide a clear audit trail and detailed reporting. Many modules in Dynamics 365 include subledgers that integrate directly with the general ledger in Dynamics 365 Finance to include, but not limited to the following:
 
 - **Customer** – This includes any transactions that are posted to a customer account such as sales order invoices, free text invoices, and customer payments. This is primarily related to the Accounts receivable and Sales and marketing modules.
 
@@ -1307,7 +1307,7 @@ In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger ac
 
 - **Project** – This includes any transactions related to a project such as the hours, expenses, fees, and invoices. This is primarily related to the Project management and accounting module.
 
-- **Bank** – This includes any deposits or withdrawals including any fees, interest and so on that are recorded in a bank account. This is related to transactions that occur in the Cash and bank management module; however, it is important to note that most transactions originate in the Accounts payable and Accounts receivable modules.
+- **Bank** – This includes any deposits or withdrawals including any fees, interest and so on that are recorded in a bank account. This is related to transactions that occur in the Cash and bank management module; however, it's important to note that most transactions originate in the Accounts payable and Accounts receivable modules.
 
 - **Fixed assets** – This includes the acquisition, depreciation, write up or write, and so on related to any fixed assets. This is primarily related to transactions that are generated in the Fixed asset module; however, there are integrations with Procurement and sourcing, Accounts receivable, and Project management and accounting.
 
@@ -1343,7 +1343,7 @@ The main strategy that's used to generate forecasts in Dynamics 365 Supply Chain
 
 - A **trend** is the general direction that demand is moving in, generally either increasing or decreasing.
 
-- **Seasonality** describes the presence of recurring short-term patterns in demand. For example, demand may spike at the end of a quarter due to a push to close sales. Seasonality doesn't have to relate to specific seasons of the year, and can be related to any internal or external event.
+- **Seasonality** describes the presence of recurring short-term patterns in demand. For example, demand may spike at the end of a quarter due to a push to close sales. Seasonality doesn't have to be related to specific seasons of the year. It can be related to any internal or external event.
 
 - An **error** is an unexplained or random variation in a time series. In real life, it's impossible to create a statistical model that explains the trend and seasonality of demand with complete accuracy. Some degree of error must always be expected.
 

@@ -156,7 +156,7 @@ If you want to implement Dynamics 365 solutions to assist with your product and 
 
 3. Maintain product data
 
-4. Define product and service costing  (the article you're currently reading)    
+4. Define product and service costing (the article that you're currently reading)    
 
 5. Define product and service pricing
 

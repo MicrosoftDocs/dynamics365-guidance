@@ -1,4 +1,4 @@
-﻿---
+---
 title: Control production quality overview
 description: Get an overview of the business process area for controlling production quality in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 07/24/2023
@@ -95,11 +95,11 @@ In Dynamics 365, businesses can use [quality associations](/dynamics365/supply-c
 
 ### Increase product traceability
 
-Businesses can use tools such as [batch attributes](/dynamics365/supply-chain/production-control/batch-attributes) in Dynamics 365 to track information from quality inspections against product lots or batches throughout the production and sales process. The Operations and Quality departments can [trace items and raw materials](/dynamics365/supply-chain/inventory/trace-items-raw-materials-inventory-production-sales). This way, they can inquire on where a product came from or what it was used for, and they can find inspection results if an item is recalled, for example. [Batch dispositions](/dynamics365/supply-chain/inventory/batch-disposition-codes) can be used to view on-hand inventory that is in quarantine, off spec, or active for use in production.
+Businesses can use tools such as [batch attributes](/dynamics365/supply-chain/production-control/batch-attributes) in Dynamics 365 to track information from quality inspections against product lots or batches throughout the production and sales process. The Operations and Quality departments can [trace items and raw materials](/dynamics365/supply-chain/inventory/trace-items-raw-materials-inventory-production-sales). This way, they can inquire about where a product came from or what it was used for, and they can find inspection results if an item is recalled, for example. [Batch dispositions](/dynamics365/supply-chain/inventory/batch-disposition-codes) can be used to view on-hand inventory that is in quarantine, off spec, or active for use in production.
 
 ### Track issues and enforce corrective and preventive actions
 
-Dynamics 365 includes [case management](/dynamics365/fin-ops-core/fin-ops/organization-administration/cases?context=%2Fdynamics365%2Fcontext%2Fsupply-chain), [nonconformance tracking and reporting](/dynamics365/supply-chain/inventory/tasks/create-process-non-conformance), and corrective and preventive actions. With these capabilities, organizations can make sure that quality issues are being identified and addressed in a timely manner.
+Dynamics 365 includes [case management](/dynamics365/fin-ops-core/fin-ops/organization-administration/cases?context=%2Fdynamics365%2Fcontext%2Fsupply-chain), [nonconformance tracking and reporting](/dynamics365/supply-chain/inventory/tasks/create-process-non-conformance), and corrective and preventive actions. With these capabilities, organizations can make sure that quality issues are identified and addressed in a timely manner.
 
 ## Next steps
 
@@ -117,7 +117,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Control pro
 
 6. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
 
-7. Control production quality (the article you're currently reading)      
+7. Control production quality (the article that you're currently reading)      
 
 8. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 

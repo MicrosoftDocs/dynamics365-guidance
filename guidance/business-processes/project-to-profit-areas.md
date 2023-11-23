@@ -1,4 +1,4 @@
-﻿---
+---
 title: Project to profit business process areas
 description: Get an overview for each of the business process areas in the project to profit end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 10/20/2023
@@ -18,8 +18,8 @@ The *project to profit* end-to-end process is broken down into overlapping busin
 This business process area involves establishing processes and procedures to manage projects in a structured and consistent manner. It includes tasks such as the following list:
 
 - Developing a project charter  
-- Defining project organization structure, roles and responsibilities  
-- Establishing processes for making decisions, monitoring and controlling the delivery of project work  
+- Defining project organization structure, and roles and responsibilities  
+- Establishing processes for making decisions, and monitoring and controlling the delivery of project work  
 - Communicating with stakeholders  
 - Managing change requests  
 - Managing project knowledge  
