@@ -8,27 +8,30 @@ ms.topic: overview
 ms.custom: bap-template
 ---
 
-# Dynamics 365 implementation guidance
+# Dynamics 365 實施指南
 
-Microsoft launched the [Success by Design](success-by-design.md) framework and the [Dynamics 365 implementation guide](introduction.md) a few years ago. We're now consolidating that guidance with other Microsoft Learn content.
+Microsoft 幾年前推出了 Success by Design 框架和 Dynamics 365 實施指南。現在，我們正在將該指南與其他 Microsoft Learn 內容合併。
 
-## Online guidance
+在線指導
 
-Here on Microsoft Learn, we're gradually publishing more guidance to help our customers successfully implement solutions with Dynamics 365 apps and services. Check the [guidance hub](/dynamics365/guidance/) for new content, and use the navigation panel to find what you're looking for.
 
-- Learn about the guidance hub at [Dynamics 365 guidance overview](../overview.md).
-- Meet the [Dynamics 365 implementation guide](introduction.md).
-- Review the [solution architecture design pillars](solution-architecture-design-pillars.md).
-- Review the [environment strategy](environment-strategy-overview.md).
-- Review the [implementation strategy](implementation-strategy.md).
-- Review the [testing strategy](testing-strategy.md).
-- Learn how you can [extend your solution](extend-your-solution.md).
+## 線上指導
 
-The implementation guide represents the collective knowledge and experience of the FastTrack for Dynamics 365 team, gained over thousands of Dynamics 365 implementations. It leads program leaders, project managers, solution architects, system administrators, and business stakeholders on the Dynamics 365 implementation journey, with expert guidance, illustrative case studies, and the thinking, questions, and resources needed for a successful implementation.
+在 Microsoft Learn 上，我們將逐步發佈更多指南，以説明我們的客戶使用 Dynamics 365 應用和服務成功實施解決方案。查看 [指揮中心](/dynamics365/guidance/) 
+是否有新內容，並使用導航面板查找要查找的內容。
+-  在 [Dynamics 365 指南概述](../overview.md)中了解指導中心。
+- 查看 [Dynamics 365 實施指南](introduction.md).
+- 查看 [解決方案體系結構設計支柱](solution-architecture-design-pillars.md).
+- 查看 [環境策略](environment-strategy-overview.md).
+- 茶難 [實施策略](implementation-strategy.md).
+- 查看 [測試策略](testing-strategy.md).
+- 了解如何 [擴展解決方案](extend-your-solution.md).
 
-## Training
+實施指南代表了FastTrack for Dynamics 365 團隊在數千個 Dynamics 365 實施中獲得的集體知識和經驗。它通過專家指導、說明性案例研究以及成功實施所需的思維、問題和資源，引導專案負責人、專案經理、解決方案架構師、系統管理員和業務利益干系人進行 Dynamics 365 實施之旅。
 
-[Free online training](/training/dynamics365) is available for the various roles in an implementation project.
+## 訓練
+
+為實施專案中的各種角色提供免費 [的線上訓練](/training/dynamics365) 
 
 <!--## The book-->
 
@@ -44,14 +47,7 @@ The implementation guide represents the collective knowledge and experience of t
 
 - A case study summary (where applicable).
 
-Send an email to [d365implementguide@microsoft.com](mailto:d365implementguide@microsoft.com) and let us know what you think.-->
-
-## Next steps
-
-- Learn about [Success by Design](success-by-design.md).
-- Get started with the [Dynamics 365 implementation guide](introduction.md).
-- Review the [solution architecture design pillars](solution-architecture-design-pillars.md).
-- Review the [implementation strategy](implementation-strategy.md).
-- Review the [environment strategy](environment-strategy-overview.md).
-- Review the [testing strategy](testing-strategy.md).
-- Learn how you can [extend your solution](extend-your-solution.md).
+Send an email to [d365implementguide@microsoft.com](mailto:d365implementguide@microsoft.com) 實施政策](implementation-strategy.md).
+- 查看 [環境政策](environment-strategy-overview.md).
+- 查看 [測試策略](testing-strategy.md).
+- 了解如何 [擴展解決方案](extend-your-solution.md).
