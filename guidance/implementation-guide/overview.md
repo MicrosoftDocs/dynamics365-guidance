@@ -17,7 +17,7 @@ Microsoft launched the [Success by Design](success-by-design.md) framework and t
 Here on Microsoft Learn, we're gradually publishing more guidance to help our customers successfully implement solutions with Dynamics 365 apps and services. Check the [guidance hub](/dynamics365/guidance/) for new content, and use the navigation panel to find what you're looking for.
 
 - Learn about the guidance hub at [Dynamics 365 guidance overview](../overview.md).
-- Meet the [Dynamics 365 implementation guide](introduction.md).
+- Rwview the [Dynamics 365 implementation guide](introduction.md).
 - Review the [solution architecture design pillars](solution-architecture-design-pillars.md).
 - Review the [environment strategy](environment-strategy-overview.md).
 - Review the [implementation strategy](implementation-strategy.md).
