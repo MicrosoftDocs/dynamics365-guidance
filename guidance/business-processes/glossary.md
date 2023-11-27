@@ -169,7 +169,7 @@ A baseline is a fixed reference point that is used to compare project performanc
 
 ### Billable hours
 
-The hours worked on tasks that can be charged to clients or customers. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
+Of the hours that are worked on tasks, those hours that can be charged to clients or customers are known as billable hours. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
 
 
 ### Billing rules
@@ -510,7 +510,7 @@ An expense policy is a formal set of guidelines that clearly outlines what const
 
 ### Financial dimensions
 
-Financial dimensions are attributes or categorizations that you can assign to transactions and main accounts to provide additional information for reporting and analysis. Examples include departments, projects, cost centers, and locations. Dynamics 365 Finance supports up to eleven dimensions in the account structure. Dimensions are assigned to a legal entity by the account structures that are associated with the ledger. Additional financial dimensions can be added through advanced rules or you can leverage financial tags for additional attributes or categorization. Like the chart of accounts, dimensions are global and can be linked to multiple ledgers.
+Financial dimensions are attributes or categorizations that you can assign to transactions and main accounts to provide additional information for reporting and analysis. Examples include departments, projects, cost centers, and locations. Dynamics 365 Finance supports up to eleven dimensions in the account structure. Dimensions are assigned to a legal entity by the account structures that are associated with the ledger. Additional financial dimensions can be added through advanced rules, or you can leverage financial tags for additional attributes or categorization. Like the chart of accounts, dimensions are global and can be linked to multiple ledgers.
 
 Financial dimensions are configured and maintained in Dynamics 365 Finance, but they can be specified on transactions in Supply Chain Management, Human Resources, Project Operations, and Commerce.
 
@@ -732,7 +732,7 @@ In Dynamics 365 Customer Insights and Sales, key entities are the most important
 
 ### Lead
 
-A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* (MQL) is a lead that marketing has deemed viable, based on activity, demographics, and so on. It was determined to match the target customer profile and to be sales-ready, based on campaign interactions. A *sales-qualified lead* is a lead that sales has vetted and found to fit the ideal customer profile and to be ready for contact. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
+A lead is a potential customer, a person who has shown interest in a product or service but hasn't purchased yet. A *marketing-qualified lead* (MQL) is a lead that Marketing has deemed viable, based on activity, demographics, and so on. It was determined to match the target customer profile and to be sales-ready, based on campaign interactions. A *sales-qualified lead* is a lead that Sales has vetted and found to fit the ideal customer profile and to be ready for contact. Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
 
 ### Lead and opportunity management
 
@@ -881,7 +881,7 @@ Multicurrency refers to the ability of the system to handle transactions and fin
 
 ### Non-billable hours
 
-The hours worked on tasks that aren't directly chargeable to clients. These hours are essential for project management, internal meetings, training, and other non-client-facing activities. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
+Of the hours that are worked on tasks, those hours that aren't directly chargeable to clients are known as non-billable hours. Non-billable hours are essential for project management, internal meetings, training, and other activities that aren't client-facing. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
 
 ## O
 
@@ -992,7 +992,7 @@ PLM typically involves the following stages in the life of a product:
 
 1. **Development**: The product is developed in accordance with the design, tested, and any necessary modifications or adjustments are made.
 
-1. **Launch**: The product is introduced to the market.
+1. **Launch**: The product is introduced on the market.
 
 1. **Growth**: The product gains acceptance in the market and sales and revenue increase.
 
@@ -1058,7 +1058,7 @@ The project controller works directly with the project manager to help define th
 
 ### Project delivery
 
-The phase in project management where the planned project outcomes, products, or services are provided to stakeholders or clients according to the project's objectives and scope.
+Project delivery is the phase of project management where the planned project outcomes, products, or services are provided to stakeholders or clients according to the project's objectives and scope.
 
 ### Project estimate
 
@@ -1070,7 +1070,7 @@ A [project manager](#centralized-resource-allocation) is the individual responsi
 
 ### Project phases
 
-The Project Management Institute (PMI) created a 5-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control and project closure.
+The Project Management Institute (PMI) created a 5-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control, and project closure.
 
 ### Project resource
 
@@ -1078,7 +1078,7 @@ A project resource is an asset, material, tool, or personnel required to run and
 
 ### Project task
 
-A specific unit of work within a project that contributes to the overall completion of the project's objectives. Tasks are individual activities or assignments that need to be accomplished to move the project forward. Each task is defined by its scope, duration, resources required, and any dependencies it might have on other tasks.
+A project task is a specific unit of work in a project that contributes to the overall completion of the project's objectives. Tasks are individual activities or assignments that must be completed to move the project forward. Each task is defined by its scope, its duration, the resources that it requires, and any dependencies that it has on other tasks.
 
 ### Project type
 
@@ -1335,7 +1335,7 @@ For time and material projects, the [customer invoice](#invoice) amount is based
 
 ### Time entry
 
-The practice of recording and monitoring the time spent on various tasks and activities throughout the project's lifecycle. Tracking time provides a record of work hours that are invested across the various project components. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md).
+Time entry is the process of recording and monitoring the time that is spent on various tasks and activities throughout the project's lifecycle. Time tracking provides a record of the work hours that are spent across the various project components. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md).
 
 ### Time series forecasting
 
