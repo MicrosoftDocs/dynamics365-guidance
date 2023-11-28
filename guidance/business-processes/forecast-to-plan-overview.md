@@ -39,7 +39,7 @@ The third column in the diagram displays the downstream business processes. In o
 > [!IMPORTANT]
 > These downstream processes may have some prerequisites that are required before you can run a forecast or master plan in the system; however, the outputs of planning are generally considered to be purchases, production, and transfer orders.
 
-Optionally, integrate the *case to resolution* process into the business process when there are complex review, approval, adjustment, or request processes between the planning team in your organization and other departments. The *record to report* process is considered downstream, because there isn't any financial impact to the general ledger from generating a plan. However, once orders are confirmed and processed, there's typically a financial impact to the inventory, customer and vendor balances, for example.
+Optionally, integrate the *case to resolution* process into the business process when there are complex review, approval, adjustment, or request processes between the planning team in your organization and other departments. The *record to report* process is considered downstream, because there isn't any financial impact to the general ledger from generating a plan. However, once orders are confirmed and processed, there's typically a financial impact to the inventory, and customer and vendor balances, for example.
 
 ## Featured capabilities
 

@@ -14,27 +14,25 @@ ms.reviewer: edupont
 
 Demand forecasting is the process of predicting future demand for products and services to estimate revenue and drive strategic and operational business planning, among other activities. Demand forecasting is useful for businesses because it allows them to predict future sales demand and use that data to drive certain business decisions.
 
-When organizations have greater certainty in their expected demand, it provides them the ability to minimize buffer inventory as a result which reduces the amount of money that is tied up in on hand inventory. It can also help organizations avoid the cost of expediting procurement or production due to unexpected demand.
+When organizations have greater certainty in their expected demand, they can minimize buffer inventory as a result, which reduces the amount of money that is tied up in on hand inventory. It can also help organizations avoid the cost of expediting procurement or production due to unexpected demand.
 
 Another benefit of demand forecasting is that it can allow organizations to reduce order fulfillment lead times. In a make-to-order model, the fulfillment lead time will be constrained by the procurement and/or production lead times. If organizations use a demand forecast to drive planning processes, they can order or make longer-lead-time items in advance, reducing the amount of time from sales order entry to customer delivery. Forecasting also allows organizations to look at their holistic demand over larger periods of time which can be useful to drive global capacity planning and feed into strategic planning processes.
 
-In industries such as retail, having inventory on hand at the time an order is placed is critical.  When inventory is not available, the customer will go buy it somewhere else rather than waiting for your organization to buy or make more. An accurate demand forecast can help prevent stock-out scenarios and allow organizations to gain the revenue that they would have otherwise lost in a stockout.
+In industries such as retail, having inventory on hand at the time an order is placed is critical. When inventory is not available, the customer will go buy it somewhere else rather than waiting for your organization to buy or make more. An accurate demand forecast can help prevent stock-out scenarios and allow organizations to gain the revenue that they would have otherwise lost in a stockout.
 
-Demand forecasting is a fluid process that is often implemented in later phases or iterations of larger projects. The demand forecasting process and solution design should be reviewed on a regular basis to accomodate for the changing global supply chain.
+Demand forecasting is a fluid process that is often implemented in later phases or iterations of larger projects. The demand forecasting process and solution design should be reviewed on a regular basis to accommodate for the changing global supply chain.
 
 ## Stakeholders
 
-Many people in an organization will need to contribute to the decision-making process and design of the demand forecasting process in your Dynamics 365 project. The list includes but isn't limited to the following roles:
+Many people in an organization must contribute to the decision-making process and design of the demand forecasting process in your Dynamics 365 project. The list includes but isn't limited to the following roles:
 
-* **Finance stakeholders** – Examples: CFO, Controller, Accounting manager
-
-* **Sales stakeholders** – Examples: VP of sales, Sales Directors, General Managers
-
-* **Operations stakeholders** – Examples: COO, Warehouse managers, Production managers
+* **Finance stakeholders** – Examples: Chief Financial Officer (CFO), Controller, and Accounting manager
+* **Sales stakeholders** – Examples: Vice President (VP) of sales, Sales Directors, and General Managers
+* **Operations stakeholders** – Examples: Chief Operating Officer (COO), Warehouse managers, and Production managers
 
 ## Demand forecasting process flow
 
-The first step of the demand forecasting process is to gather historical data. This might include importing  external historical demand to supplement the demand data in Dynamics 365. The next step in the process is to generate the statistical baseline forecast with Azure Machine Learning, which will create the forecast model, and then test the Mean Absolute Percentage Error (MAPE) for the model.  
+The first step of the demand forecasting process is to gather historical data. This might include importing external historical demand to supplement the demand data in Dynamics 365. The next step in the process is to generate the statistical baseline forecast with Azure Machine Learning, which will create the forecast model, and then test the Mean Absolute Percentage Error (MAPE) for the model.
 
 Once the forecast is generated, it is reviewed in Dynamics 365 and users can update the recommended values as needed. When the forecasting values are approved, a user can authorize the forecast which publishes it to the system for use in planning and other operations. The following graphic shows the process flow described above.
 
@@ -48,28 +46,28 @@ There are many key metrics that can be used to monitor and measure the success o
 
 ## Configuring demand forecasting
 
-There are a variety of components that are used in the configuration of demand forecasting in Dynamics 365 applications. The following table shows the configurations available, and the sequence recommended for setting up the configurations. FO in the Product column indicates finance and operations apps, and CE indicates customer engagement apps. The **Req?** column indicates a *Y* for required and an *N* for not required. Use the links on the configuration component to learn more about how to configure that component.
+There are a variety of components that are used in the configuration of demand forecasting in Dynamics 365 applications. The following table shows the configurations available, and the sequence recommended for setting up the configurations. *FO* in the **Product** column indicates finance and operations apps, and *CE* indicates customer engagement apps. The **Req?** column indicates a *Y* for required and an *N* for not required. Use the links on the configuration component to learn more about how to configure that component.
 
-| Seq | Configuration component         | Req? | Product | Menu path |
-|-----|---------------------------------|----------|---------|---------------------------------------------------------------------------------------------------------------------|
-| 1 | [Demand forecasting parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup)| Y        | FO      | **Master planning &gt; Setup &gt; Demand forecasting &gt; Demand forecasting parameters** |
-| 2 | [Item allocation keys](/dynamics365/supply-chain/master-planning/demand-forecasting-setup)| Y        | FO      | **Master planning &gt; Setup &gt; Demand forecasting &gt; Item allocation keys** |
-| 3 | Forecast models | Y        | FO      | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecast models** | 
-| 4 | [Outlier removal](/dynamics365/supply-chain/master-planning/remove-historical-outliers-calculating-demand-forecast) | N        | FO      | **Master planning &gt; Setup &gt; Demand forecasting &gt; Outlier removal** |
-| 5 | Intercompany planning groups | N        | FO      | **Master planning &gt; Setup &gt; Intercompany planning groups** |
-| 6 | [Forecast plans](/dynamics365/supply-chain/master-planning/planning-optimization/demand-forecast) | Y        | FO      | **Master planning &gt; Setup &gt; Forecast plans** |
-| 7 | [Master plans](/dynamics365/supply-chain/master-planning/master-plans)        | Y        | FO      | **Master planning &gt; Setup &gt; Master plans** |
-| 8 | [Forecasting algoritm parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup) | Y        | FO      | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecasting algorithm parameters** |
-| 9 | Period allocation categories | N        | FO      | **Master planning &gt; Setup &gt; Demand forecasting &gt; Period allocation categories** |
+| Seq | Configuration component | Req? | Product | Menu path |
+|-----|-------------------------|------|---------|-----------|
+| 1 | [Demand forecasting parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup)| Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Demand forecasting parameters** |
+| 2 | [Item allocation keys](/dynamics365/supply-chain/master-planning/demand-forecasting-setup)| Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Item allocation keys** |
+| 3 | Forecast models | Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecast models** | 
+| 4 | [Outlier removal](/dynamics365/supply-chain/master-planning/remove-historical-outliers-calculating-demand-forecast) | N | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Outlier removal** |
+| 5 | Intercompany planning groups | N | FO | **Master planning &gt; Setup &gt; Intercompany planning groups** |
+| 6 | [Forecast plans](/dynamics365/supply-chain/master-planning/planning-optimization/demand-forecast) | Y | FO | **Master planning &gt; Setup &gt; Forecast plans** |
+| 7 | [Master plans](/dynamics365/supply-chain/master-planning/master-plans) | Y | FO | **Master planning &gt; Setup &gt; Master plans** |
+| 8 | [Forecasting algorithm parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup) | Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecasting algorithm parameters** |
+| 9 | Period allocation categories | N | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Period allocation categories** |
 
 ## Related resources
 
 * Find definitions of terminology used in content for *demand forecasting* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 
-  * [Time series forecasting](glossary.md#time-series-forecasting)  
-  * [Forecast accuracy](glossary.md#forecast-accuracy-mean-absolute-percentage-error-mape)  
-  * [Forecast dimensions](glossary.md#forecast-dimensions)  
-  * [Granularity attribute](glossary.md#granularity-attribute)  
+    * [Time series forecasting](glossary.md#time-series-forecasting)
+    * [Forecast accuracy](glossary.md#forecast-accuracy-mean-absolute-percentage-error-mape)
+    * [Forecast dimensions](glossary.md#forecast-dimensions)
+    * [Granularity attribute](glossary.md#granularity-attribute)
 
 <!--
 ## Demand forecasting recommended practices

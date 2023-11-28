@@ -1,4 +1,4 @@
-﻿---
+---
 title: Run production operations overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for running production operations.
 ms.date: 07/25/2023
@@ -15,7 +15,7 @@ This article describes how you can use Dynamics 365 products to support your org
 
 The *run production operations* business process area covers the activities in an organization's internal production process. Any manufacturing organization finds it critical to track and control production operations. The goal is to ensure consistent product quality and minimize production costs. *Running production operations* also requires coordination and communication between many departments, such as engineering, operations, quality, sales, planning, and procurement.
 
-The process for executing production operations varies from business to business depending on industry and product, but follows the same basic steps. At the beginning of production, materials are consumed into the process. A combination of people and tools or machines then run the specific production steps. Finally, the sub-assembly or finished good is created as the output of the process. The definition of these steps is done as part of the *Product and service lifecycle management* end-to-end business processes, and refined further in the *define production strategies* business process area.
+The process for executing production operations varies from business to business, depending on industry and product, but it follows the same basic steps. At the beginning of production, materials are consumed into the process. A combination of people and tools or machines then run the specific production steps. Finally, the sub-assembly or finished good is created as the output of the process. The definition of these steps is done as part of the *Product and service lifecycle management* end-to-end business processes and refined further in the *define production strategies* business process area.
 
 Define this business process at the beginning of an implementation of Dynamics 365 Supply Chain Management. It's a foundational process for any manufacturing company.
 
@@ -95,7 +95,7 @@ There are many key benefits to using Dynamics 365 to help the organization run t
 
 ### Increase production throughput
 
-Dynamics 365 Supply Chain Management collects and shows immediate feedback from the shop floor from workers and sensor data. This input empowers supervisors to quickly identify when different operations are delayed or deviating from the allow boundaries and take appropriate actions. With the connection between production and maintenance, workers can register production downtime immediately. Supervisors can then either reschedule remaining work to a new machine, or expedite repair on the machine. Increasing production throughput results in shorter lead times, and can also help improve the percentage of orders delivered on-time and in full (OTIF).
+Dynamics 365 Supply Chain Management collects and shows immediate feedback from the shop floor from workers and sensor data. This input empowers supervisors to quickly identify when different operations are delayed or deviate from the allowed boundaries and take appropriate actions. With the connection between production and maintenance, workers can register production downtime immediately. Supervisors can then either reschedule the remaining work to a new machine or expedite repair on the machine. Increasing production throughput results in shorter lead times and can also help improve the percentage of orders delivered on-time and in full (OTIF).
 
 ### Reduce material shortages
 
@@ -115,7 +115,7 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 
 3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)   
 
-4. Run production operations  (the article you're currently reading)        
+4. Run production operations  (the article that you're currently reading)        
 
 5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
 

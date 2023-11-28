@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prospect to quote end-to-end overview
 description:  Learn about the end-to-end business process, from prospect to quote. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 10/24/2023
@@ -73,7 +73,7 @@ The third column in the diagram displays the downstream business process includi
 
   This process is related to product availability and delivery, which can impact the accuracy of quotes and the customer relationship management.
 
-There are more capabilities in Dynamics 365 that dependend on the *prospect to quote* business process. The following list includes key examples:
+There are more capabilities in Dynamics 365 that depend on the *prospect to quote* business process. The following list includes key examples:
 
 - Lead management  
 
@@ -131,7 +131,7 @@ The following steps are illustrated in the *acquire to dispose* end-to-end busin
 
     6. Manage customer relationships
 
-        Parallel branches from this busines sprocess area are *Order to cash* and *Service to cash*.  
+        Parallel branches from this business process area are *Order to cash* and *Service to cash*.  
 
 3. End
 

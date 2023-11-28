@@ -35,13 +35,11 @@ The order to cash process has the following potential upstream processes:
 
 The order to cash end-to-end process comprises the following [business process areas](order-to-cash-areas-overview.md):
 
-- Manage pricing and contracts
+- Manage store operations
 - Create and manage sales orders
-- Trade across companies
 - Issue customer invoices
 - Record customer payments
 - Monitor customer credit and collections
-- Process customer rebates
 
 The order to cash process has the following downstream processes:
 
@@ -90,24 +88,16 @@ The following diagram shows the high-level flow of the order to cash business pr
 The order to cash end-to-end business process flow diagram illustrates the following steps:
 
 1. Start
-1. Order to cash
+2. Order to cash
 
-    - Manage pricing and contracts
+    - Manage store operations
     - Create and manage sales orders
 
-        Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, Procure to pay, and Product and service lifecycle management.
-
-    - Fulfill sales orders
-
-        A parallel branch connects to the Inventory to deliver end-to-end business process, shown on the right side of the diagram.
+        Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, and Procure to pay and Inventory to deliver which has a connection to Process outbound goods shown below the Inventory to deliver process. 
 
     - Issue customer invoices
 
         A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
-
-    - Process customer rebates
-
-        A parallel branch connects to the Record customer payments end-to-end business process.
 
     - Record customer payments
 
@@ -117,7 +107,7 @@ The order to cash end-to-end business process flow diagram illustrates the follo
 
         A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
 
-1. End
+3. End
 
 The **Start** box has the following parallel branches, shown on the left side of the diagram:
 
@@ -151,7 +141,7 @@ The **Start** box has the following parallel branches, shown on the left side of
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Senior Program Manager, FastTrack for Dynamics 365
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365
 
 <!--## Tags
 *Stakeholders*: Accounts receivable, Administrative, Customer services, Engineering, Finance, IT, Marketing, Merchandising, Operations, Production, Purchasing, Retail store operations, Sales, Service operations, Transportation, Treasury, Warehouse

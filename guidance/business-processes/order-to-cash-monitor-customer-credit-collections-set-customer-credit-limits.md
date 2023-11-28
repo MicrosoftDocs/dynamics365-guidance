@@ -70,11 +70,11 @@ The process flow diagram includes the following steps.
 
 13. Approval
 
-    1. If not approved, adjust the credit limit, alter the terms and the method of payment
+    1. If not approved, adjust the credit limit, alter the terms and the method of payment.
 
     2. If approved, go to step 14.
 
-14. The credit limit, rating, terms, and method of payment is automatically saved to the customer record
+14. The credit limit, rating, terms, and method of payment is automatically saved to the customer record.
 
 15. End
 
@@ -84,7 +84,7 @@ Steps 10-14 are in another swim lane that's dedicated to an Accounts receivable 
 
 ## Implementing credit limits for customer accounts
 
-You can define rules in Dynamics 365 Finance to automatically place orders on hold when the criteria are met. When an order is on a credit hold, the order cannot be processed further until the order is released from the hold. Dynamics 365 includes multiple ways to put an order on hold the following tables and sections describe the various configurations and operational processes that are part of setting customer credit limits in Dynamics 365 applications.  
+You can define rules in Dynamics 365 Finance to automatically place orders on hold when the criteria are met. When an order is on a credit hold, the order cannot be processed further until the order is released from the hold. Dynamics 365 includes multiple ways to put an order on hold. The following tables and sections describe the various configurations and operational processes that are part of setting customer credit limits in Dynamics 365 applications.  
 
 > [!TIP]
 > A variety of terminology and concepts are used throughout this article to describe the business process. For definitions and explanations of key terms and concepts, see [Glossary of terms in Dynamics 365 business processes](glossary.md).
@@ -155,7 +155,7 @@ Use this option when you use a call center channel with Dynamics 365 Commerce, a
 
 (Commerce – Call center)
 
-Use this option when you use a Call center channel with Dynamics 365 Commerce and need to prevent a Sales order or Free text invoice from being processed when customer balance is exceeding the limits you define. This option does not work for Project invoices, and it does not work in combination with the Credit holds option.
+Use this option when you use a Call center channel with Dynamics 365 Commerce and need to prevent a Sales order or Free text invoice from being processed when the customer balance exceeds the limits you define. This option does not work for Project invoices, and it does not work in combination with the Credit holds option.
 
 | Process step | Process stage | Process modifiers | App, navigation, and entity |
 |---|---|---|---|
@@ -227,7 +227,7 @@ Use the following resources to learn more about the processes for setting custom
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Senior Program Manager, FastTrack for Dynamics 365  
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365  
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Accounts receivable lead, Finance lead, Sales lead, Operations lead

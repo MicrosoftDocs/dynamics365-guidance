@@ -1,4 +1,4 @@
-﻿---
+---
 title: Plan production operations overview
 description: Get an overview of the business process area for planning production in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 08/23/2023
@@ -101,7 +101,7 @@ If you want to implement Dynamics 365 solutions to assist with your plan product
 
 2. Define production strategies.
 
-3. Plan production operations (the article you're currently reading)      
+3. Plan production operations (the article that you're currently reading)      
 
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
 

@@ -1,7 +1,7 @@
 ---
 title: Monitor customer credit and collections overview
 description: Learn how to use Dynamics 365 products to monitor customer credit and collections and reduce bad debt.
-ms.date: 02/06/2023
+ms.date: 11/17/2023
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -54,65 +54,65 @@ The following diagram shows the high-level flow of the *monitor customer credit 
 
 The *Monitor customer credit and collections* business process area flow diagram covers the following steps.
 
-1. Order to cash
+1. [Order to cash](order-to-cash-overview.md)
 
-2. Monitor customer credit and collection
+2. *Monitor customer credit and collection*
 
-    1. Set customer credit limits
+    1. *Set customer credit limits*
 
-        a. Update customer credit limits
-
-          The following sequence shows an alternate starting point for this step.
-
-          1. Prospect to quote
-
-          2. Create customer
-
-          3. Establish payment terms
-
-          4. Set customer credit limit
-        b. Block or close customer accounts
-
-    2. Detect fraudulent orders
+        a. *Update customer credit limits*
 
           The following sequence shows an alternate starting point for this step.
 
-          1. Order to cash
+          1. *Prospect to quote*
 
-          2. Create and manage sales orders
+          2. *Create customer*
 
-          3. Is the order fraudulent. If yes, then Detect fraudulent orders
+          3. *Establish payment terms*
 
-    3. Handle NSF payments
+          4. *Set customer credit limit*
+        b. *Block or close customer accounts*
 
-          The following sequence shows an alternate starting point for this step.
-
-          1. Order to cash
-
-          2. Record customer payments
-
-          3. Are there non-sufficient funds? If yes, then handle NSF payments
-    4. Dispute and resolve invoice discrepancies
+    2. *Detect fraudulent orders*
 
           The following sequence shows an alternate starting point for this step.
 
-          1. Order to cash
+          1. *Order to cash*
 
-          2. Issue customer invoices
+          2. *Create and manage sales orders*
 
-          3. Is the invoice disputed? If yes, then dispute and resolve invoice discrepancies
-    5. Process customer account statements
+          3. Is the order fraudulent. If yes, then *Detect fraudulent orders*.
 
-        a. Create and process collection letters
+    3. *Handle NSF payments*
 
-        b. Create and process interest notes
+          The following sequence shows an alternate starting point for this step.
+
+          1. *Order to cash*
+
+          2. *Record customer payments*
+
+          3. Are there non-sufficient funds? If yes, then *handle NSF payments*.
+    4. *Dispute and resolve invoice discrepancies*
+
+          The following sequence shows an alternate starting point for this step.
+
+          1. *Order to cash*
+
+          2. *Issue customer invoices*
+
+          3. Is the invoice disputed? If yes, then *dispute and resolve invoice discrepancies*.
+    5. *Process customer account statements*
+
+        a. *Create and process collection letters*
+
+        b. *Create and process interest notes*
 
 > [!NOTE]
 > The *Monitor customer credit and collections* business process area flow diagram shown above is described at a high level, and there may be variations in the process flow depending on your operating model and business process requirements.
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Monitor customer credit and collections* business process area, you can use the following business processes. Use the link for each business process to learn more about the business process.
+If you want to implement Dynamics 365 solutions to assist with your *Monitor customer credit and collections* business process area, you can use the following business processes. Use the link for each business process to learn more about the business process. Links are added when articles become available.
 
 1. [Monitor customer credit and collections overview](order-to-cash-monitor-customer-credit-collections-overview.md)  
 
@@ -162,7 +162,7 @@ Use the following resources to learn more about the *Monitor customer credit and
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Senior Program Manager, FastTrack for Dynamics 365  
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365  
 
 <!--## Tags
 *Industries:* All

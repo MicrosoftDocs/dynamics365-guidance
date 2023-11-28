@@ -1,4 +1,4 @@
-﻿---
+---
 title: Define procurement catalogs overview
 description: Read about how Dynamics 365 supports procurement catalogs as part of the procure to pay business process.
 ms.date: 07/17/2023
@@ -33,7 +33,7 @@ Many people in an organization need to contribute to the design and definition o
 
 - **Finance stakeholders** – examples: Controller, Chief Financial Officer (CFO), Accountant, or Accounting manager. The finance stakeholders are responsible for the financial reporting and mapping of the categories to proper tax categories and ledger accounts for example. It's important to include these stakeholders to ensure proper financial data can be gathered from the resulting transactions.
 
-- **Audit** – examples: Internal auditor, External auditor. The audit stakeholders are responsible for performing audits. Audits may cover security, data handling, to financial record keeping, and more. It's important to keep this group of stakeholders involved to ensure that any non- functional audit requirements are met in the design of the solution.
+- **Audit** – examples: Internal auditor, External auditor. The audit stakeholders are responsible for performing audits. Audits may cover security, data handling, financial record keeping, and more. It's important to keep this group of stakeholders involved to ensure that any non-functional audit requirements are met in the design of the solution.
 
 ## Define procurement catalogs process flow
 
@@ -101,7 +101,7 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 3. Define procurement catalogs  
 
-    You're in this article
+    You're in this article.
 
 4. Define policies and procedures for procurement
 
