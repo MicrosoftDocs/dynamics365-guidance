@@ -1,7 +1,7 @@
 ﻿---
 title: Manage project financials overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project financials.
-ms.date: 10/31/2023
+ms.date: 11/17/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: mibeinar
@@ -164,10 +164,10 @@ For organizations that use Dynamics 365 Project Operations and Dynamics 365 Fina
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *manage project financials* business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to assist with your *manage project financials* business processes, you can use the following resources and steps to learn more.
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)  
-2. Manage project contracts
+2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
 3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 5. *Manage project financials*. (The article you're currently reading.)

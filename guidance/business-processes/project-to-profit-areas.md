@@ -44,9 +44,11 @@ This business process area involves creating and submitting project quotations t
 
 The business process area also includes iteratively revising the proposal until it's finally accepted or rejected. -->
 
-<!-- ## Manage project contracts
+## Manage project contracts
 
-This business process area involves creating and managing project contracts throughout the project lifecycle. it covers developing contract templates, negotiating specific contract terms, monitoring contract compliance, managing change orders and resolving contract disputes. -->
+This business process area involves creating and managing project contracts throughout the project lifecycle. it covers developing contract templates, negotiating specific contract terms, monitoring contract compliance, managing change orders and resolving contract disputes.  
+
+Learn more at [Manage project contracts overview](project-to-profit-manage-project-contracts-overview.md).  
  
 ## Manage project resources and schedule
 

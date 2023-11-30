@@ -1,7 +1,7 @@
 ---
 title: Manage project resources and schedule overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing resources and schedule for projects.
-ms.date: 10/31/2023
+ms.date: 11/29/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: mbinaisse
@@ -79,8 +79,8 @@ Dynamics 365 Project Operations provides capabilities such as statements, contro
 If you want to implement Dynamics 365 solutions to help with your *Manage project resources and schedule* business processes, use the following resources and steps to learn more.
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)
-1. Manage project contracts
-1. Manage project resources and schedule (the article that you're currently reading)
+2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+1. *Manage project resources and schedule* (the article that you're currently reading)
 1. [Manage project delivery](project-to-profit-deliver-project-work.md)
 1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 1. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)

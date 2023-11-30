@@ -757,6 +757,8 @@ items:
             href: business-processes/project-to-profit-areas.md
           - name: Govern projects
             href: business-processes/project-to-profit-govern-projects-overview.md
+          - name: Manage project contracts
+            href: business-processes/project-to-profit-manage-project-contracts-overview.md
           # - name: Manage project opportunities
           #   href: business-processes/project-to-profit-manage-project-opportunities-overview.md
           - name: Manage project resources and schedule

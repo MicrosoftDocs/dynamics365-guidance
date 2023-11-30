@@ -1,7 +1,7 @@
 ﻿---
 title: Monitor and analyze project performance overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to monitor and analyze project performance overview.
-ms.date: 10/31/2023
+ms.date: 11/17/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: lalithac
@@ -116,7 +116,7 @@ With project monitoring and analytics, the project team can recognize project is
 If you want to implement Dynamics 365 solutions to assist with your *monitor and analyze project performance* business processes, you can use the following resources and steps to learn more.
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)
-2. Manage project contracts
+2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
 3. [Manage project resources and schedules](project-to-profit-manage-project-scope-schedule-overview.md)  
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
