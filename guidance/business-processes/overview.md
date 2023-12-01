@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: overview #Required; don't change.
-ms.date: 05/02/2023
+ms.date: 11/22/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -28,13 +28,13 @@ The following table provides links to the introduction, overview, and list of bu
 |--|--|--|--|
 | Acquire to dispose | [Introduction](acquire-to-dispose-introduction.md) | [End-to-end overview](acquire-to-dispose-overview.md) | [Areas](acquire-to-dispose-areas.md) |
 | Case to resolution | [Introduction](case-to-resolution-introduction.md) | [End-to-end overview](case-to-resolution-overview.md) | [Areas](case-to-resolution-areas.md) |
+|Concept to market|[Introduction](concept-to-market-introduction.md)|[End-to-end overview](concept-to-market-overview.md)|[Concept to market business process areas](concept-to-market-areas.md)|
 | Forecast to plan overview | [Introduction](forecast-to-plan-introduction.md) | [End-to-end overview](forecast-to-plan-overview.md) | [Areas](forecast-to-plan-areas.md) |
 | Hire to retire | [Introduction](hire-to-retire-introduction.md) | [End-to-end overview](hire-to-retire-overview.md) | [Areas](hire-to-retire-areas.md) |
 | Inventory to deliver | [Introduction](inventory-to-deliver-introduction.md) | [End-to-end overview](inventory-to-deliver-overview.md) | [Areas](inventory-to-deliver-areas.md) |
 | Order to cash | [Introduction](order-to-cash-introduction.md) | [End-to-end overview](order-to-cash-overview.md) | [Areas](order-to-cash-areas-overview.md) |
 | Plan to produce | [Introduction](plan-to-produce-introduction.md) | [End-to-end overview](plan-to-produce-overview.md) | [Areas](plan-to-produce-areas.md) |
 | Procure to pay | [Introduction](procure-to-pay-introduction.md) | [End-to-end overview](procure-to-pay-overview.md) | [Areas](procure-to-pay-areas.md) |
-| Product and service lifecycle management | [Introduction](product-service-lifecycle-management-introduction.md) | [End-to-end overview](product-service-lifecycle-management-overview.md) | [Areas](product-service-lifecycle-management-areas.md) |
 | Project to profit | [Introduction](project-to-profit-introduction.md) | [End-to-end overview](project-to-profit-overview.md) | [Areas](project-to-profit-areas.md) |
 | Prospect to quote | [Introduction](prospect-to-quote-introduction.md) | [End-to-end scenario](prospect-to-quote-overview.md) | [Areas](prospect-to-quote-areas.md) |
 | Record to report | [Introduction](record-to-report-introduction.md) | [End-to-end overview](record-to-report-overview.md) | [Areas](record-to-report-areas.md) |

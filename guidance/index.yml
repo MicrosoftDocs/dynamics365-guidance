@@ -352,6 +352,17 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/case-to-resolution-areas.md
+    - title: Concept to market
+      links:
+      - text: Introduction
+        itemType: overview
+        url: business-processes/concept-to-market-introduction.md
+      - text: End-to-end business process
+        itemType: concept
+        url: business-processes/concept-to-market-overview.md
+      - text: Business process areas
+        itemType: overview
+        url: business-processes/concept-to-market-areas.md
     - title: Forecast to plan
       links:
       - text: Introduction
@@ -407,17 +418,6 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/plan-to-produce-areas.md
-    - title: Product and service lifecycle management
-      links:
-      - text: Introduction
-        itemType: overview
-        url: business-processes/product-service-lifecycle-management-introduction.md
-      - text: End-to-end business process
-        itemType: concept
-        url: business-processes/product-service-lifecycle-management-overview.md
-      - text: Business process areas
-        itemType: overview
-        url: business-processes/product-service-lifecycle-management-areas.md
     - title: Procure to pay
       links:
       - text: Introduction

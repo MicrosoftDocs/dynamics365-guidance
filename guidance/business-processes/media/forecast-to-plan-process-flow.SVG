@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.43177083"
-     inkscape:cx="939.15561"
-     inkscape:cy="832.61761"
-     inkscape:window-width="1920"
-     inkscape:window-height="1010"
-     inkscape:window-x="-6"
-     inkscape:window-y="-6"
+     inkscape:cx="431.9421"
+     inkscape:cy="833.77564"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2725"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg178" />
   <g
@@ -73,26 +73,14 @@
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(244.486,223)"
-       id="text10">Product and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
        transform="translate(272.433,252)"
-       id="text12">service</text>
+       id="text12">Design</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
        transform="translate(266.973,281)"
-       id="text14">lifecycle</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(238.913,310)"
-       id="text16">management</text>
+       id="text14">to retire</text>
     <rect
        x="1036"
        y="545"

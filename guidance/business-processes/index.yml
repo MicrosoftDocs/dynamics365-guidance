@@ -42,8 +42,8 @@ landingContent:
       links:
       - text: Case to resolution
         url: case-to-resolution-introduction.md
-      #- text: Concept to market
-      #  url: TBD 
+      - text: Design to retire
+        url: design-to-retire-introduction.md
       - text: Forecast to plan
         url: forecast-to-plan-introduction.md
       - text: Inventory to deliver
@@ -56,8 +56,6 @@ landingContent:
         url: procure-to-pay-introduction.md
       - text: Project to profit
         url: project-to-profit-introduction.md
-      - text: Product and service lifetime management # Design to retire
-        url: product-service-lifecycle-management-introduction.md
       - text: Prospect to quote
         url: prospect-to-quote-introduction.md
 
@@ -69,6 +67,8 @@ landingContent:
       links:
       - text: Case to resolution
         url: case-to-resolution-introduction.md
+      - text: Concept to market
+        url: concept-to-market-introduction.md
       - text: Plan to produce
         url: plan-to-produce-introduction.md
       - text: Procure to pay

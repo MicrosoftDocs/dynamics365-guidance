@@ -20,7 +20,7 @@ The following diagram shows the relationship of other processes and products/fea
 
 :::image type="content" source="media/forecast-to-plan-process-relationship.svg" alt-text="forecast to plan process relationship diagram." lightbox="media/forecast-to-plan-process-relationship.svg":::
 
-There are several processes that often are prerequisite to the *forecast to plan* process. In most companies, the *hire to retire* process is upstream of *forecast to plan* since it will be used to define the workforce capacity that will constrain the plan. Often, organizations will complete the product and services definition in the *product and service lifecycle management* process prior to beginning the forecasting process. In some operational strategies such as *make to order* or *engineer to order*, the *prospect to quote* and *order to cash* processes occur before *forecast to plan*, since they're the trigger to initiate the process.
+There are several processes that often are prerequisite to the *forecast to plan* process. In most companies, the *hire to retire* process is upstream of *forecast to plan* since it will be used to define the workforce capacity that will constrain the plan. Often, organizations will complete the product definition in the *design to retire* process before they begin the forecasting process. In some operational strategies such as *make to order* or *engineer to order*, the *prospect to quote* and *order to cash* processes occur before *forecast to plan*, since they're the trigger to initiate the process.
 
 The second column in the diagram displays the business process areas of the *forecast to plan* process. These business process areas are:
 
@@ -67,7 +67,7 @@ There are several product capabilities in the Dynamics 365 ecosystem that suppor
 
 ## Forecast to plan business process flow
 
-The following diagram shows an example of the high-level flow of the *forecast to plan* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *forecast to plan* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows an example of the high-level flow of the *forecast to plan* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/forecast-to-plan-process-flow.png" alt-text="Flow diagram for the end-to-end business process, forecast to plan, which is explained in the paragraph after the image." lightbox="media/forecast-to-plan-process-flow.png":::
 
@@ -75,13 +75,13 @@ The example diagram above is a sample flow that is common in either make to orde
 
 1. Start
 
-2. *Product and service lifecycle management*
+2. *Design to retire* end-to-end process.
 
-3. *Prospect to quote* end-to-end process
+3. *Prospect to quote* end-to-end process.
 
 4. *Order to cash* end-to-end process.
 
-5. *Forecast to plan*
+5. *Forecast to plan* end-to-end process.
 
     1. A parallel branch links to *Define strategic and operational plans* and *Establish stocking policies*
 
@@ -91,21 +91,21 @@ The example diagram above is a sample flow that is common in either make to orde
 
     4. *Plan supply and replenishment*
 
-6. *Procure to pay*
+6. *Procure to pay* end-to-end process.
 
-    Parallel branches from this subprocess are 9. *Case to resolution* and 10. *Record to report*
+    Parallel branches from this downstream process are 9. *Case to resolution* and 10. *Record to report*
 
-7. *Plan to produce*
+7. *Plan to produce* end-to-end process.
 
-    Parallel branches from this subprocess are 9. *Case to resolution* and 10. *Record to report*
+    Parallel branches from this downstream process are 9. *Case to resolution* and 10. *Record to report*
 
-8. *Inventory to deliver*
+8. *Inventory to deliver* end-to-end process.
 
-    Parallel branches from this subprocess are 9. *Case to resolution* and 10. *Record to report*
+    Parallel branches from this downstream process are 9. *Case to resolution* and 10. *Record to report*
 
-9. *Case to resolution*
+9. *Case to resolution* end-to-end process.
 
-10. *Record to report*
+10. *Record to report* end-to-end process.
 
 11. End
 
@@ -113,7 +113,7 @@ The following steps are illustrated in the *forecast to plan* end-to-end process
 
 1. Start
 
-2. *Hire to retire*
+2. *Hire to retire* end-to-end process.
 
     1. *Forecast to plan*
 

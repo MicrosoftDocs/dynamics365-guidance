@@ -22,9 +22,13 @@ The following diagram shows the relationship of other processes and products/fea
 
 The upstream processes for the *inventory to deliver* process include the following.
 
-- **Product and service lifecycle management**  
+- **Concept to market**  
 
-  Mandatory prerequisite: An item or service needs to exist before you can begin to receive, handle inventory, or ship the product or service.
+  Mandatory prerequisite: A service must exist before you can ship the service.
+
+- **Design to retire**  
+
+  Mandatory prerequisite: An item must exist before you can begin to receive, handle inventory, or ship the product.
 
 - **Procure to pay**  
 
@@ -138,7 +142,7 @@ There are product-specific capabilities that interact with the *inventory to del
 
 ## Inventory to deliver business process flow
 
-The following diagram shows the high-level flow of the *inventory to deliver* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *inventory to deliver* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *inventory to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/inventory-to-deliver2.png"  lightbox="media/inventory-to-deliver2.png" alt-text="inventory to deliver end-to-end process flow diagram":::
 

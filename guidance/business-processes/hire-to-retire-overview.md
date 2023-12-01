@@ -1,7 +1,7 @@
 ﻿---
 title: Hire to retire end-to-end overview
 description: Learn about the end-to-end business process, from hire to retire. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 04/03/2023
+ms.date: 11/27/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
@@ -23,7 +23,7 @@ The upstream processes for the *hire to retire* process include:
 
 - **Acquire to dispose**  
 
-  Many organization have a variety of assets that are loaned to employees. In Dynamics 365 Finance, the definition of the assets must exist first, before you can loan the assets to the employees.
+  Many organizations have various assets that are loaned to employees. In Dynamics 365 Finance, the definition of the assets must exist first, before you can loan the assets to the employees.
 
 - **Case to resolution**  
 
@@ -31,37 +31,39 @@ The upstream processes for the *hire to retire* process include:
 
 - **Forecast to plan**  
 
-  The forecast to plan process includes strategic and operational planning. This is where organizations plan for the structure of the business, forecast revenue and growth and plan for staffing to support those operational goals.
+  The forecast to plan process includes strategic and operational planning. This is where organizations plan for the structure of the business, forecast revenue and growth, and plan for staffing to support those operational goals.
 
 - **Hire to retire**  
 
-  When you use advanced warehouse management with Dynamics 365 Supply Chain Management, you will need to create workers and define security access on the shop floor.
+  When you use advanced warehouse management with Dynamics 365 Supply Chain Management, you create workers, and you define security access on the shop floor.
 
-- **Order to cash:** In retail organizations, especially those with brick and mortar store fronts, the process of planning stores and staffing requirements comes prior to the actual recruitment and staffing or the stores.
+- **Order to cash:**  
+
+  In retail organizations, especially those with brick-and-mortar store fronts, the process of planning stores and staffing requirements comes before the actual recruitment and staffing of the stores.
 
 - **Plan to produce**  
 
-  In a manufacturing organization, when planning production, you need to plan for your staff and shifts that will products. The production plan is typically put in place before the workforce is hired, and put to work.
+  When a manufacturing organization plans production, they must plan for the staff and shifts that will manufacture the products. The production plan is typically put in place before the workforce is hired, and put to work.
 
 - **Procure to pay**  
 
-  In organizations that outsource work or use staffing agencies, the procurement process is upstream to the hire to retire process. The procurement process can also be used for outsourcing or using vendors to help with various aspects of the hire to retire process such as processing payroll, sourcing benefit providers, using third-party recruiters, and more.
+  In organizations that outsource work or use staffing agencies, the procurement process is upstream to the *hire to retire* process. The procurement process can also be used for outsourcing or using vendors to help with various aspects of the *hire to retire* process such as processing payroll, sourcing benefit providers, using third-party recruiters, and more.
 
-- **Product and service lifecycle management**  
+- **Concept to market**  
 
-  In service-based organizations where humans are part of the service offering, the product and service definitions must be defined before you can define the human aspect of the service. This is especially true when you use routes for production and need a human resource to be used in the production process.
+  In service-based organizations where humans are part of the service offering, you must define the services before you can define the human aspect of the service. This is especially true when you use routes for production and need a human resource to be used in the production process.
 
 - **Project to profit**  
 
-  In service-based organization, the project needs are often determined before the hire to retire process begins. The resources needs are defined by the customer needs and then the hiring or project staffing process begins.
+  In service-based organization, the project needs are often determined before the *hire to retire* process begins. The customer needs define the resources needs, and then the hiring or project staffing process begins.
 
 - **Record to report**  
 
-  Before an organization typically hires, there is a need to define a budget for employees and their related expenses. Benefits and compensation budgets are typically reviewed and approved on a minimum of an annual basis. These budgets are often done before any actual expenses or hiring can take place.
+  Before an organization typically hires, there's a need to define a budget for employees and their related expenses. Benefits and compensation budgets are typically reviewed and approved on a minimum of an annual basis. These budgets are often done before any actual expenses or hiring can take place.
 
 - **Service to cash**  
 
-  In service-based organizations, the definition of the service typically exists before you start to hire employees to perform the service. This can includes the policies, procedures, and so on that are part of the service to cash process in an organization.
+  In service-based organizations, the definition of the service typically exists before you start to hire employees to perform the service. This can includes the policies, procedures, and so on, that are part of the service to cash process in an organization.
 
 The *hire to retire* end-to-end process is broken down into the following component business process areas including:
 
@@ -87,49 +89,51 @@ The third column in the diagram displays the downstream business process includi
 
 - **Acquire to dispose**  
 
-  After you have hired workers, you can begin to loan items that are tracked in Dynamics 365 Finance to those workers in Dynamics 365 Human Resources.
+  Once you've hired workers, you can begin to loan items that are tracked in Dynamics 365 Finance to those workers in Dynamics 365 Human Resources.
 
 - **Case to resolution**  
 
-  In any organization, you can use the *case to resolution* process to handle requests or issues that are reported by workers or employees throughout the employee lifecycle. Dynamics 365 Human Resources includes case management functionality to support specific scenarios such as Family Medical Leave and Absences (FMLA) requests, safety incidents related to injury or illness, and more.
+  In any organization, you can use the *case to resolution* process to handle requests or issues that workers or employees report throughout the employee lifecycle. Dynamics 365 Human Resources includes case management functionality to support specific scenarios such as Family Medical Leave and Absences (FMLA) requests, safety incidents related to injury or illness, and more.
 
 - **Hire to retire**  
 
-  When you use advanced warehouse management with Dynamics 365 Supply Chain Management, you will need to create workers and define security access on the shop floor.
+  When you use advanced warehouse management with Dynamics 365 Supply Chain Management, you must create workers and define security access on the shop floor.
 
-- **Order to cash:** After you hire employees, retail organizations, especially those with brick and mortar store fronts, need to define the schedule, and track the time worked by the staff. Additionally, in commission-based sales organizations, the order to cash process creates the orders that are then used to calculate the amount of commission to be paid, which is then handled by the hire to retire process to pay the employees.
+- **Order to cash**  
+
+  Retail organizations, especially those with brick-and-mortar store fronts, must define the schedule, and track the time worked by the staff that they hire. Additionally, in commission-based sales organizations, the *order to cash* process creates the orders that the system then uses to calculate the amount of commission to be paid. That amount is then handled by the *hire to retire* process to pay the employees.
 
 - **Plan to produce**  
 
-  In a manufacturing organization, resources are assigned to the production orders to perform the work. Time is often tracked using the production floor execution devices which is the fed to the human resources systems to pay the workers for their time. In organizations where workers are paid based on piece-work, the quantity of items produces also feeds the hire to retire process.
+  In a manufacturing organization, resources are assigned to the production orders to perform the work. Time is often tracked using the production floor execution devices. The data is then fed to the human resources systems to pay the workers for their time. In organizations where workers are paid based on piece-work, the quantity of items produced also feeds the *hire to retire* process.
 
 - **Procure to pay**  
 
-  In organizations that outsource work or use staffing agencies, the procurement process is also downstream to the hire to retire process. The staffing agencies often need to report timesheets in order to pay the outsourced workers. There is also often times a need to train the outsourced employees or onboard them into your systems, for example, after they have been hired.
+  In organizations that outsource work or use staffing agencies, the procurement process is also downstream to the *hire to retire* process. The staffing agencies often need to report timesheets in order to pay the outsourced workers. There's also often a need to train the outsourced employees or onboard them into your systems, for example, after they were hired.
 
-- **Product and service lifecycle management**  
+- **Concept to market**  
 
-  After you have hired workers, you can link those workers to resources and services that you offer. For production and services that are skills-based, you will need to maintain the skills, certifications, and trainings for example of those workers on an ongoing basis to continue those process.
+  Once you hired the workers, you can link those workers to resources and the services that you offer. For production and services that are skills-based, you must maintain the skills, certifications, and training, for example, of those workers on an ongoing basis to continue the process.
 
 - **Project to profit**  
 
-  After workers are hired in service-based organization, the project work begins and the details are often tracked. As employees spend time and incur expenses those are tracked against the project and the employees are paid for their time and expenses through the hire to retire processes.
+  After workers are hired in service-based organization, the project work begins and the details are often tracked. When employees spend time and incur expenses, amounts are tracked against the project, and the employees are paid for their time and expenses through the *hire to retire* processes.
 
 - **Record to report**  
 
-  In any organization the hire to retire process has many downstream touchpoints. Each time an expense is incurred related to an employee those costs need to be tracked in the general ledger to create accurate financial statements. Often the employee expenses are also allocated to other business processes, for example, to production as overhead costs.
+  In any organization, the *hire to retire* process has many downstream touchpoints. Each time an expense is incurred related to an employee, the cost must be tracked in the general ledger to create accurate financial statements. Often the employee expenses are also allocated to other business processes, for example, to production as overhead costs.
 
 - **Service to cash**  
 
-  In service-based organizations, once employees are hired, the new staff starts work. In pay-for-performance based organizations, the customer satisfaction related to the work performed may impact the pay an employee receives.
+  In service-based organizations, once employees are hired, the new staff starts work. In pay-for-performance based organizations, the customer satisfaction related to the work performed can affect the pay of the employee.
 
 ## Featured capabilities
 
-There are product specific capabilities offered that interact with the hire to retire to process including, but not limited to, the following:
+There are product specific capabilities offered that interact with the *hire to retire* to process including, but not limited to, the following list:
 
 - **Audit trails**  
 
-  Dynamics 365 Human Resources includes features like position and worker actions to track changes to the data and drive customized workflows to get approval for changes all while keeping track of the original values and new values. You can also use customizable business process flows to perform periodic audits on human resources data to ensure compliance and accuracy of your HR related data.
+  Dynamics 365 Human Resources includes capabilities for position and worker actions to track changes to the data and drive customized workflows to get approval for changes, while keeping track of the original values and new values. You can also use customizable business process flows to perform periodic audits on human resources data to ensure compliance and accuracy of your HR related data.
 
 - **Date effectivity**  
 
@@ -137,7 +141,7 @@ There are product specific capabilities offered that interact with the hire to r
 
 - **Benefits management**  
 
-  You can easily manage a variety of benefits plans including employee self-service capabilities for enrolling in benefits with open enrollment. You can easily manage life-events that change benefits eligibility and easily integrate with benefit providers using the Power Platform.
+  You can easily manage various benefits plans including employee self-service capabilities for enrolling in benefits with open enrollment. You can easily manage life-events that change benefits eligibility and easily integrate with benefit providers using the Power Platform.
 
 - **Employee and manager self-service**  
 
@@ -145,11 +149,11 @@ There are product specific capabilities offered that interact with the hire to r
 
 - **Skills and competencies**  
 
-  In many organizations, especially service-based organizations, the ability to track and schedule resources based on skills and other competencies such as certifications, tests, and more is critical in the sales, production, and delivery processes. Dynamics 365 Human Resources includes robust capabilities including employee self-service to maintain information with integration to other applications such as Project Operations for services, Supply Chain Management for production, and Customer Service and Sales for daily operations.
+  In many organizations, especially service-based organizations, the ability to track and schedule resources based on skills and other competencies such as certifications, tests, and more is critical in the sales, production, and delivery processes. Dynamics 365 Human Resources includes robust capabilities such as employee self-service to maintain information with integration with other applications, such as Project Operations for services, Supply Chain Management for production, and Customer Service and Sales for daily operations.
 
 - **Leave and absence management**  
 
-  Dynamics 365 Human Resources allow employees to easily view time-off balances and submit leave requests via Microsoft Teams with integration into Outlook, and Viva Insights to make the process seamless and keep your workers productive.
+  In Dynamics 365 Human Resources, employees can easily view time-off balances and submit leave requests in Microsoft Teams with integration to Outlook. integration with Viva Insights makes the process seamless and keeps your workers productive.
 
 - **Payroll integration APIs**  
 
@@ -161,7 +165,7 @@ There are product specific capabilities offered that interact with the hire to r
 
 - **Learning management system APIs**  
 
-  Use APIs to connect to a variety of learning management (LMS) or content management systems (CMS) quickly and easily. The data easily integrates into Dynamics 3656 Human Resources for seamless employee self-service experience and reporting using Power BI.
+  Use APIs to connect to various learning management (LMS) or content management systems (CMS) quickly and easily. The data easily integrates into Dynamics 3656 Human Resources for seamless employee self-service experience and reporting using Power BI.
 
 - **Dynamics 365 Customer Voice**  
 
@@ -169,7 +173,7 @@ There are product specific capabilities offered that interact with the hire to r
 
 ## Hire to retire business process flow
 
-The following diagram shows the high-level flow of the *hire to retire* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the*hire to retire* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *hire to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/hire-to-retire-flow.png"  lightbox="media/hire-to-retire-flow.png" alt-text="inventory to deliver end-to-end process flow diagram":::
 
@@ -181,23 +185,23 @@ The following steps are illustrated in the *hire to retire* end-to-end business 
 
 3. Plan and recruit your workforce
 
-    Parallel branches connect to the following end-to-end processes shown on the right side: *Forecast to plan*, *plan to produce*, and *project to profit*.
+    Parallel branches connect to the following end-to-end processes: *Forecast to plan*, *plan to produce*, and *project to profit*.
 
 4. Onboard and manage the employee lifecycle
 
-    A parallel branch connects to Acquire to dispose end-to-end process shown on the right.
+    A parallel branch connects to the *acquire to dispose* end-to-end process.
 
     1. Manage employee performance and growth
 
-        Parallel branches connect to the following end-to-end processes shown on the right: *Case to resolution*, *order to cash*, *plan to produce*, and *project to profit*.
+        Parallel branches connect to the following end-to-end processes: *Case to resolution*, *order to cash*, *plan to produce*, and *project to profit*.
 
     2. Manage occupational health and safety
 
-        Parallel branches connect to d. Manage employee benefits and compensation and the following end-to-end processes shown on the right: *Hire to retire*, *plan to produce*, *product and service lifecycle management*, and *record to report*.
+        Parallel branches connect to d. *Manage employee benefits and compensation*, and to the following end-to-end processes: *Hire to retire*, *plan to produce*, *concept to market*, and *record to report*.
 
     3. Administer employee and manager requests
 
-        A parallel branch connects to the *case to resolution* end-to-end process shown on the right.
+        A parallel branch connects to the *case to resolution* end-to-end process.
 
     4. Manage employee benefits and compensation
 
@@ -213,55 +217,55 @@ The following steps are illustrated in the *hire to retire* end-to-end business 
 
 7. Pay employees
 
-    A parallel branch connects to the *record to report* end-to-end process on the right.
+    A parallel branch connects to the *record to report* end-to-end process.
 
 8. End
 
-Parallel branches from start, include the following end-to-end processes
+Parallel branches from Start include the following end-to-end processes:
 
-1. *Acquire to dispose*, which connects to b. Plan and recruit your workforce.
+1. *Acquire to dispose*, which connects to b. *Plan and recruit your workforce*.
 
-2. *Case to resolution*, which connect to b. Plan and recruit your workforce.
+2. *Case to resolution*, which connects to b. *Plan and recruit your workforce*.
 
-3. *Forecast to plan*, which has parallel branches to a. Define position and organizational structure and b. Plan and recruit your workforce.
+3. *Forecast to plan*, which has parallel branches to a. *Define position and organizational structure* and b. *Plan and recruit your workforce*.
 
-4. *Hire to retire*, which connects to b. Plan and recruit your workforce.
+4. *Hire to retire*, which connects to b. *Plan and recruit your workforce*.
 
-5. *Order to cash*, which connect to b. Plan and recruit your workforce.
+5. *Order to cash*, which connects to b. *Plan and recruit your workforce*.
 
-6. *Plan to produce*, which has parallel branches to b. Plan and recruit your workforce, i. Define employee skills and competencies, and ii. Manage employee learning and development.
+6. *Plan to produce*, which has parallel branches to b. *Plan and recruit your workforce*, i. *Define employee skills and competencies*, and ii. *Manage employee learning and development*.
 
-7. *Procure to pay*, which connects to b. Plan and recruit your workforce.
+7. *Procure to pay*, which connects to b. *Plan and recruit your workforce*.
 
-8. *Product and service lifecycle management*, which connects to b. Plan and recruit your workforce.
+8. *Concept to market*, which connects to b. *Plan and recruit your workforce*.
 
-9. *Record to report*, which connects to b. Plan and recruit your workforce.
+9. *Record to report*, which connects to b. *Plan and recruit your workforce*.
 
-10. *Service to cash*, which connects to b. Plan and recruit your workforce.
+10. *Service to cash*, which connects to b. *Plan and recruit your workforce*.
 
-The following end-to-end downstream processes are also depicted in the with connect to g. End:
+The following end-to-end downstream processes also connect to End:
 
-- Acquire to dispose
+- *Acquire to dispose*
 
-- Case to resolution
+- *Case to resolution*
 
-- Forecast to plan
+- *Forecast to plan*
 
-- Hire to retire
+- *Hire to retire*
 
-- Order to cash
+- *Order to cash*
 
-- Plan to produce
+- *Plan to produce*
 
-- Procure to pay
+- *Procure to pay*
 
-- Product and service lifecycle management
+- *Concept to market*
 
-- project to profit
+- *Project to profit*
 
-- Record to report
+- *Record to report*
 
-- Service to cash
+- *Service to cash*
 
 ## Next steps
 

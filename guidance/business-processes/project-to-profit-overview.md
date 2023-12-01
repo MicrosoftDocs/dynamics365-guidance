@@ -29,11 +29,11 @@ There are several processes that are often prerequisites to the *project to prof
 
   The *order to cash* process can be upstream to the *project to profit* process, if your organization sells tangible items that lead to a larger project. For example, installation or warranty that is related to a tangible product.
 
-- **Product and service lifecycle management**  
+- **Design to retire**  
 
   This process can be an upstream process in two senses.  
 
-  1. When you define the details for your project contract lines, or estimate projects, you can add items to the estimate. But first, you must configure the *product and service lifecycle management* process.  
+  1. When you define the details for your project contract lines, or estimate projects, you can add items to the estimate. But first, you must configure the *design to retire* process.  
 
   2. Product lifecycle management might initiate a project to create or revise a product.
 
@@ -83,9 +83,9 @@ The downstream processes for the project to profit process include the following
 
   In scenarios such as *engineer to order* or *build to order* manufacturing, you often manage the production of sub-assemblies or finished products as part of the project. For example, a manufacturer wins a contract to design, build, and commission custom equipment. Since the project takes months, or even years, and encompass many cost components, they manage the contract as one or more discrete projects.
 
-- **Product and service lifecycle management**  
+- **Design to retire**  
 
-  A project might be intended to create or revise products to be sold and thus provide inputs to a downstream product and service lifecycle management process.
+  A project might be intended to create or revise products to be sold and thus provide inputs to a downstream end-to-end process.
 
 - **Procure to pay**  
 
@@ -199,7 +199,7 @@ There are product-specific capabilities that interact with the *project to profi
 
 ## Project to profit business process flow
 
-The following diagram shows the high-level flow of the *project to profit* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the project to profit business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *project to profit* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/project-to-profit-process-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-process-flow.svg":::
 
@@ -239,13 +239,13 @@ The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote
 
     4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
-        Parallel branches from this subprocess are i. *Capture project expenses*, j.*Process project invoices*, and the downstream processes *Service to cash*, *Product and service lifecycle management*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
+        Parallel branches from this subprocess are i. *Capture project expenses*, j.*Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
 
     5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
     <!-- 8. Manage project supply chain
 
-        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Product and service lifecycle management*, *Order to cash*, *Plan to produce*, and *Procure to pay*
+        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*
 
     9. Capture project expenses
 

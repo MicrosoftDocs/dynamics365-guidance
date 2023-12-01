@@ -26,25 +26,25 @@ The following diagram shows the relationship of other processes to the *service 
 
 There are several processes that are often prerequisites to the *service to cash* process, including:
 
-- **Product and service lifecycle management**  
+- **Concept to market**  
 
-  When service to cash processes require consumption of products and services, the product and service lifecycle management process is a perquisite process. This way, the products and services are available to be consumed during the service to cash process.
+  When *service to cash* processes require consumption of services, the *concept to market* process is a perquisite process. This way, the services are available to be consumed during the *service to cash* process.
 
 - **Inventory to deliver**  
 
-  Many services to cash process scenarios require the consumption of on-hand inventory that must be available in warehouses for access by service personnel.
+  Many *service to cash* process scenarios require the consumption of on-hand inventory that must be available in warehouses for access by service personnel.
 
 - **Procure to pay**  
 
-  When you use Dynamics 365 to manage your procurement process, the service to cash process may require the procurement of inventory to be used in service delivery.  
+  When you use Dynamics 365 to manage your procurement process, the *service to cash* process may require the procurement of inventory to be used in service delivery.  
 
 - **Case to resolution**  
 
-  Often service requests are initiated through a customer service process before creating a work order and beginning the service to cash process.
+  Often service requests are initiated through a customer service process before creating a work order and beginning the *service to cash* process.
 
 - **Project to profit processes**  
 
-  Sometimes service requests are generated through a project to profit process when they're part of a larger ongoing project operation.
+  Sometimes service requests are generated through a *project to profit* process when they're part of a larger ongoing project operation.
 
 The second column in the diagram displays the business process areas of the *service to cash* process.
 
@@ -68,11 +68,13 @@ The business process areas are:
 
 - Analyze service operations
 
+Learn more at [Service to cash business process areas overview](service-to-cash-areas-overview.md).  
+
 The third column in the diagram displays the downstream business processes.
 
-- **Product and service lifecycle management**  
+- **Concept to market**  
 
-  When service delivery involves the use of new products and services, you may have to invoke the product and lifecycle management process as a downstream process to make sure the new items become part of the catalog.
+  When service delivery involves the use of new services, you may have to invoke the *concept to market* process as a downstream process to make sure the new items become part of the catalog.
 
 - **Inventory to deliver**  
 
@@ -118,7 +120,7 @@ There are product specific capabilities that interact with the *service to cash*
 
 ## Service to cash business process flow
 
-The following diagram shows the high-level flow of the *service to cash* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *service to cash* business process. The arrows on the diagram show the flow of the business process in an organization.
+The following diagram shows the high-level flow of the *service to cash* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/service-to-cash-process-flow.png" alt-text="end-to-end process flow diagram" lightbox="media/service-to-cash-process-flow.png":::
 

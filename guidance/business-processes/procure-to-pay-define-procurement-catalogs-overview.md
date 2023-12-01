@@ -45,33 +45,33 @@ The following steps are illustrated in the *define procurement catalog* business
 
 1. Start
 
-    Parallel branches to the *Product and service lifecycle management* and *Procure to pay* end to end processes.
+    Parallel branches to the *Design to retire* and *Procure to pay* end-to-end processes.
 
-2. Product and service lifecycle management subprocesses
+2. *Design to retire* subprocesses
 
     A parallel branch connects *Define product lines* and *Organize products* to 4. *Define procurement catalogs*
 
-3. Procure to pay
+3. *Procure to pay*
 
     A parallel branch connects *Create vendors* to 4. *Define procurement catalogs*
 
-4. Define procurement catalogs
+4. *Define procurement catalogs*
 
-    1. Create procurement catalogs
+    1. *Create procurement catalogs*
 
-    2. Assign products to catalogs
+    2. *Assign products to catalogs*
 
         Parallel process with 3. *Assign vendors to catalogs* and 4. *Assign employee access to catalogs*
 
-    3. Assign vendors to catalogs
+    3. *Assign vendors to catalogs*
 
         Parallel process with 2. *Assign products to catalogs* and 4. *Assign employee access to catalog*
 
-    4. Assign employee access to catalogs
+    4. *Assign employee access to catalogs*
 
         Parallel process with 2. *Assign products to catalogs* and 3. *Assign vendors to catalogs*
 
-    5. Configure access to external catalogs
+    5. *Configure access to external catalogs*
 
 5. End
 

@@ -29,7 +29,7 @@ The upstream process for the *procure to pay* processes are:
 
   The *Demand from sales orders* subprocess will be used during the *plan supply* subprocess to procure the requested materials or services. Tt could also include related components of an ordered finished good being produced.
 
-- **Product and service lifecycle management**  
+- **Design to retire**  
 
   This end-to-end process is a mandatory prerequisite before you can procure materials and services for your organization. It must be completed before you step into the *procure to pay* process.
 
@@ -141,7 +141,7 @@ There are product-specific capabilities that interact with the *procure to pay* 
 
 ## Procure to pay business process flow
 
-The following diagram shows the high-level flow of the *procure to pay* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the procure to pay* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *procure to pay* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/procure-to-pay-flow.png" alt-text="Flow diagram for the end-to-end business process, procure to pay, which is explained in the paragraph after the image." lightbox="media/procure-to-pay-flow.png":::
 
@@ -229,7 +229,7 @@ The following steps are illustrated in the *procure to pay* end-to-end business 
 
     Parallel branches from Start include the following list:
 
-3. *Product and service lifecycle management* connects to *Define procurement catalogs*
+3. *Design to retire* connects to *Define procurement catalogs*
 
 4. *Prospect to quote* connects to *Plan supply*
 

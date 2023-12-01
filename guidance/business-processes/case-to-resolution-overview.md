@@ -27,6 +27,14 @@ The first column of this diagram shows potential upstream processes for the *cas
 
   When cases involve operations with fixed assets or customers assets, the *acquire to dispose* process is upstream to include the process of creating the assets and log asset installations, uninstallations or replacements at owned sites or customer locations.
 
+- **Concept to market**  
+
+  Case investigations may lead to product quality reviews to diagnose service issues that must be addressed in the service development process.
+
+- **Design to retire**  
+
+  Case investigations may lead to product quality reviews to diagnose product issues that must be addressed in the product development process.
+
 - **Hire to retire**  
 
   In the *hire to retire* process, you use cases to manage employee requests, manager requests, and other back office operations, such as leave, absence, or benefits processes.
@@ -46,10 +54,6 @@ The first column of this diagram shows potential upstream processes for the *cas
 - **Procure to pay**  
 
   The *case to resolution* process can be upstream when you need to create cases related to suppliers, purchase orders, purchase requisitions, requests for quotations, and so on.
-
-- **Product and service lifecycle management**  
-
-  Case investigations may lead to product quality reviews to diagnose product or service issues that need to be addressed in product or service development process.
 
 - **Project to profit**  
 
@@ -145,7 +149,7 @@ There are product specific capabilities offered that interact with the *case to 
 
 ## Case to resolution business process flow
 
-The following diagram shows the high-level flow of the *case to resolution* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *case to resolution* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *case to resolution* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/case-to-resolution-flow.png"  lightbox="media/case-to-resolution-flow.png" alt-text="inventory to deliver end-to-end process flow diagram":::
 

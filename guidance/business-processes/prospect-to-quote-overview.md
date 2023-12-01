@@ -22,9 +22,13 @@ The following diagram shows the relationship of other processes and products/fea
 
 The prerequisites include the following end-to-end business processes.  
 
-- **Product and service lifecycle management**  
+- **Concept to market**  
 
-  *Product and service lifecycle management* can directly feed into defining a sales strategy as the nature of a product or service will guide how it's sold. This process informs the sales strategy and marketing campaigns, as it helps define the products and services to be promoted.
+  *Concept to market* can directly feed into defining a sales strategy as the nature of a service will guide how it's sold. This process informs the sales strategy and marketing campaigns, as it helps define the services to be promoted.
+
+- **Design to retire**  
+
+  *Design to retire* can directly feed into defining a sales strategy as the nature of a product will guide how it's sold. This process informs the sales strategy and marketing campaigns, as it helps define the products to be promoted.
 
 - **Forecast to plan**  
 
@@ -107,7 +111,7 @@ These features are dependent on or closely related to the *prospect to quote* bu
 
 ## Prospect to quote business process flow
 
-The following diagram shows the high-level flow of the *prospect to quote* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *prospect to quote* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *prospect to quote* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/prospect-to-quote-flow.svg"  lightbox="media/prospect-to-quote-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
 
@@ -137,7 +141,7 @@ The following steps are illustrated in the *acquire to dispose* end-to-end busin
 
 Parallel branches from Start include the following:
 
-1. *Record to report*, *Product and service lifecycle management*, and *Record to report* connect to *Define sales strategy*.  
+1. *Record to report*, *Design to retire*, and *Record to report* connect to *Define sales strategy*.  
 2. *Forecast to plan* connects to *Run marketing campaigns*.  
 3. *Project to profit* connects to *Identify and qualify leads*.  
 4. *Record to report* and *Hire to retire* connect to *Manage customer relationships*.  
