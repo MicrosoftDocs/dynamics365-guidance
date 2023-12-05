@@ -103,11 +103,11 @@ productDirectory:
         url: implementation-guide/application-lifecycle-management.md
 
 # Card
-#    - title: Reference architectures
-#      imageSrc: media/sample-coe.svg
-#      links:
-#    - text: Overview
-#      url: 
+    - title: Reference architectures
+      imageSrc: media/sample-coe.svg
+      links:
+      - text: Copilot for Customer Service architecture
+        url: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
 
 # conceptualContent section - max # subsections=3, max # cards/section=18
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
