@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 11/09/2023
+ms.date: 12/01/2023
 ---
 
 # Glossary of terms in Dynamics 365 business processes
@@ -68,6 +68,8 @@ Asset appraisers are individuals who leverage their expertise to evaluate the co
 ### Asset
 
 An asset is something of value that an organization owns. Related definitions are [fixed asset](#fixed-asset) and [asset classification](#asset-classification).
+
+In [service to cash documentation](service-to-cash-overview.md), the term covers a physical object that service can be performed on, regardless of which organization owns it.
 
 ### Asset acquisition strategy
 
@@ -1249,6 +1251,10 @@ The Sarbanes-Oxley Act of 2002 is a U.S. federal law that sets requirements for 
 
 The purpose of a schedule is to ensure the timely completion of a project. It defines the tasks that must be completed, the priority, the deadlines, and the sequence.
 
+### Scheduling parameters
+
+The term *scheduling parameters* refers to any information available in a work order that helps the dispatchers schedule the service work. Examples include estimated duration, preferred times, required service resources, priority, territory, and so on.
+
 ### Scope
 
 A project's scope defines the boundaries of the project. It's a list of specific project goals, deliverables, tasks, costs, and deadlines.
@@ -1274,6 +1280,20 @@ Services can take many forms, including professional services such as consulting
 The delivery of a service often involves a direct interaction between the service provider and the customer. Service providers must often manage the customer experience, including communication, expectations, and quality control, to ensure that the service meets or exceeds the customer's needs and expectations.
 
 In business, services can play a critical role in building customer relationships and generating revenue. By providing high-quality services and building strong customer relationships, businesses can increase customer loyalty, generate repeat business, and differentiate themselves from competitors.
+
+### Service customer
+
+The entity that a service is being performed for is the *service customer* or *service account*. It's typically the company that is financially responsible. In Dynamics 365 Field Service, you specify the service customer in the **Billing Account** field.
+
+### Service location
+
+In field service scenarios where frontline workers travel to perform service work, the service location defines that location. A service customer can have many different service locations. In Dynamics 365 Field Service, you specify the location in the **Service Location** field.
+
+### Service resource
+
+In Dynamics 365 Field Service, a service resource is a person or equipment that can be scheduled to carry out or be used in the service delivery process.
+
+In Dynamics 365 Business Central, the term covers the people that provide the service, while the term *service item* covers the items that can be serviced. Dynamics 365 Supply Chain Management, the term *service object* covers the items that can be serviced. 
 
 ### Shipment
 
@@ -1386,6 +1406,8 @@ A work order helps organizations to understand the maintenance or repair that is
 For example, you can use a work order to schedule maintenance on a machine. You can also create a work order for inspections, corrective maintenance, and preventive maintenance. In Dynamics 365 Field Service, a work order documents the [maintenance](#maintenance) or [repair](#repair) that an [asset](#asset) or location needs. It assigns the appropriate resources to complete the request, and jobs associated with work orders help register consumption details. Learn more about the work order process in Dynamics 365 Field Service [Work order architecture](/dynamics365/field-service/field-service-architecture).
 
 You can also procure items with work orders. The procurement process typically starts with either a purchase requisition or purchase order request. Often, companies may not have the required items to execute a work order. This is when a purchase request is triggered. You can create a related purchase order or purchase requisition for a work order job in Dynamics 365.
+
+In Dynamics 365 Field Service, the work order is the primary information record used to organize information for scheduling and performing service. Work order records hold the critical information to complete the services. They are used to track the progress of a job or task from start to finish, and can include information such as the job description, the parts and resources needed, and the estimated completion time. Dynamics 365 Supply Chain Management and Business Central applications use the term *service order* instead of work order.
 
 ### Workflow
 

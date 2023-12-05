@@ -845,6 +845,8 @@ items:
             href: business-processes/service-to-cash-overview.md
           - name: Business process areas
             href: business-processes/service-to-cash-areas-overview.md
+          - name: Create work orders
+            href: business-processes/service-to-cash-create-work-orders.md
 
 # Patterns
       - name: Patterns

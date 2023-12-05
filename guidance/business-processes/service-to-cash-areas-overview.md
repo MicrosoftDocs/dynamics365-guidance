@@ -1,7 +1,7 @@
 ---
 title: Service to cash business process areas
 description: Get an overview for each of the business process areas in the service to cash end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 05/01/2023
+ms.date: 12/01/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: dehardy
@@ -38,7 +38,7 @@ Service resources refer to the people, equipment, and facilities required to del
 
 The ability to effectively create and manage accounts for servicing in Dynamics 365 is core to making sure that the right information is provided for all aspects of the *service to cash* process. Through relationships between accounts and related *service to cash* data, you also gain insights into your service operations, which can improve your overall efficiency.
 
-## Asset management
+## Create and manage assets
 
 Leasing an asset within Dynamics 365 refers to the process of creating and maintaining a lease agreement for a specific asset, such as a piece of equipment, vehicle, or property. With lease management in Dynamics 365, businesses can create leases and associated assets, manage lease terms and conditions, and track payments and invoices. 
 
@@ -48,7 +48,9 @@ Work orders are used to track the progress of a job or task from start to finish
 
 To create a work order in Dynamics 365, users typically start by selecting the appropriate work order type. There are several different types of work orders, including maintenance, repair, and installation orders. Once the type of work order has been selected, users can enter the necessary details, such as the customer's name, the work order description, and the priority level.
 
-Next, users can add the necessary resources to the work order, such as labor, equipment, and materials. Dynamics 365 provides a range of tools to help users manage resources, including scheduling tools that allow users to assign resources to specific tasks and track progress in real-time.
+Next, users can add the necessary resources to the work order, such as labor, equipment, and materials. Dynamics 365 provides a range of tools to help users manage resources, including scheduling tools that allow users to assign resources to specific tasks and track progress in real-time.  
+
+Learn more at [Create work orders overview](service-to-cash-create-work-orders.md).  
 
 ## Schedule work orders
 
@@ -68,20 +70,6 @@ Once a work order has been scheduled and assigned to a technician or a team, the
 
 Once the work order is completed, the technician can close out the job. This involves updating the work order status to reflect the completion of the task, adding any notes or comments about the job, and closing out any associated purchase orders or invoices.
 
-## Issue customer invoices
-
-In Dynamics 365, the issue of customer invoices is a critical process that enables businesses to bill their customers accurately and efficiently. This process involves creating invoices based on the products or services provided to the customer and recording payment information to keep track of outstanding balances.
-
-## Record customer payments
-
-Content is on its way. Stay tuned.  
-<!-- TODO: \_A few sentences to describe the key concept of the business process area.\_ For more information, see \[Business process area name link\].-->
-
-## Monitor customer credit and collections
-
-Content is on its way. Stay tuned.  
-<!-- TODO:\_A few sentences to describe the key concept of the business process area.\_ For more information, see \[Business process area name link\].-->
-
 ## Analyze service operations
 
 Dynamics 365 also provides reporting and analytics tools that can be used to analyze work order execution data, such as task completion times, resource utilization, and cost analysis. This data can be used to optimize future work orders and improve the efficiency of the maintenance or repair process.
@@ -91,7 +79,6 @@ Dynamics 365 also provides reporting and analytics tools that can be used to ana
 If you want to implement Dynamics 365 solutions to assist with your order to cash business processes, learn more at the following resources and steps.
 
 - [Service to cash introduction](service-to-cash-introduction.md)  
-
 - [Service to cash end-to-end overview](service-to-cash-overview.md)  
 
 ## Related resources
