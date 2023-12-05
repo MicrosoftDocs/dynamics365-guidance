@@ -34,6 +34,31 @@
       "source_path": "dynamics365/guidance/business-processes/project-to-profit-resource-projects.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-management-introduction.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-management-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-management-areas.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-areas",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/product-service-define-cost-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-categorize-products-services-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-define-product-catalog-strategy-overview",
+      "redirect_document_id": "false"
     }
   ]
 }

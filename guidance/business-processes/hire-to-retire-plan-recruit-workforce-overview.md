@@ -77,7 +77,7 @@ Parallel branches from Start include the following processes:
 
 1. *Project to profit* (Resource a project) connects to *Plan and recruit your workforce* (Plan and budget headcount) and (Create and manage teams). *Create and manage teams* connects to *Manage project budgets* (*Project to profit)*.
 
-1. *Product and service lifecycle management* (Categorize products and services) connects to *Plan and recruit your workforce* (Create positions).
+1. *Concept to market* (Define service offerings and strategy) connects to *Plan and recruit your workforce* (Create positions).
 
 1. *Service to cash* (Establish servicing policies and procedures) connects to *Plan and recruit your workforce* (Create positions).
 

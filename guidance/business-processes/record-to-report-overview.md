@@ -139,7 +139,7 @@ There are product specific capabilities offered that interact with the *record t
 
 ## Record to report business process flow
 
-The following diagram shows the high-level flow of the *record to report* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the *record to report* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *record to report* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/record-to-report-flow.svg"  lightbox="media/record-to-report-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
 

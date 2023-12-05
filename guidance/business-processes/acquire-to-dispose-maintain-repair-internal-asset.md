@@ -74,7 +74,7 @@ The flow diagram for the *maintain and repair internal asset* business process a
 
             1. Yes
 
-                1. *Product and service lifecycle management*
+                1. *Design to retire*
                 1. Fetch part/service item
 
             1. No

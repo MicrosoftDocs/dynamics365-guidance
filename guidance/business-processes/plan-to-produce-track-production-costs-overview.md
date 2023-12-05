@@ -1,7 +1,7 @@
 ---
 title: Track production costs overview
 description: Get an overview of the business process area for tracking production cost in the plan to produce end-to-end business process in Dynamics 365 solutions.
-ms.date: 07/25/2023
+ms.date: 11/24/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -31,9 +31,7 @@ Many people in an organization should contribute to the decision-making process 
 
 ## Track production costs process flow
 
-The following diagram shows the high-level flow of the *track production costs* business process area.
-
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram shows the high-level flow of the *track production costs* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-track-production-cost-flow.svg" alt-text="Flow diagram for the track production costs business process area, which is explained in the next paragraphs." lightbox="media/plan-to-produce-track-production-cost-flow.svg":::
 
@@ -63,11 +61,11 @@ The following steps are illustrated in the *track production costs* business pro
 
             1. *Record costs in production* business process
 
-1. *Product and service lifecycle management* end-to-end process
+1. *Design to retire* end-to-end process
 
-    Learn more at [Product and service lifecycle management end-to-end overview](product-service-lifecycle-management-overview.md).
+    Learn more at TODOADDLINK.
 
-1. *Define product and service* costing business process area
+1. *Define product costing* business process area
 1. *Track production costs* business process area (this article)
 1. *Define production costs* business process
 1. *Estimate the cost of production* business process
@@ -104,14 +102,15 @@ Without true production cost tracking, organizations must rely on assumptions or
 
 If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
 
-1. Product and service lifecycle management: [Define product and service costing overview](product-service-define-cost-overview.md)
+1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
 1. Define production strategies
 1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
 1. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
 1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
 1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
 1. Track production costs (the article that you're currently reading)
-1. Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)
+
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)
 
 ## Related resources
 

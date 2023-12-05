@@ -29,7 +29,7 @@ The order to cash process has the following potential upstream processes:
 
 - **Plan to produce**: In some operational strategies, such as make to stock, the production order is completed before orders take place.
 
-- **Product and service lifecycle management**: In some operational strategies, such as make to stock or purchase to stock, the products and services to be sold are defined before orders are placed. This is especially true for retail organizations with a brick-and-mortar presence.
+- **Design to retire**: In some operational strategies, such as make to stock or purchase to stock, the products to be sold are defined before orders are placed. This is especially true for retail organizations with a brick-and-mortar presence.
 
 - **Prospect to quote**: In some operational strategies, such as make to order and engineer to order, the prospect to quote processes occur before order to cash, since they trigger the process.
 
@@ -53,7 +53,7 @@ The order to cash process has the following downstream processes:
 
 - **Procure to pay**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning purchases. When you use a direct delivery sales model, the sales order is also the trigger to initiate the purchase order with the supplier.
 
-- **Product and service lifecycle management**: In engineer to order operational strategies, products and services are typically defined after an order is placed.
+- **Design to retire**: In engineer-to-order operational strategies, products and services are typically defined after an order is placed.
 
 - **Record to report**: Processing sales orders has a financial impact on inventory, revenue, and cost of goods sold. These effects are recorded in the general ledger and reported as part of the record to report process.
 
@@ -81,7 +81,7 @@ The order to cash process interacts with the following product-specific capabili
 
 ## Order to cash business process flow
 
-The following diagram shows the high-level flow of the order to cash business process. Each solid rectangle in the diagram represents an end-to-end business process area. The arrows in the diagram show the flow of the business process in an organization. Subprocesses shown are for the order to cash business process. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+The following diagram shows the high-level flow of the order to cash business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/order-to-cash-process-flow.svg" alt-text="Diagram of the order to cash process flow in an organization." lightbox="media/order-to-cash-process-flow.svg":::
 
@@ -111,15 +111,15 @@ The order to cash end-to-end business process flow diagram illustrates the follo
 
 The **Start** box has the following parallel branches, shown on the left side of the diagram:
 
-- **Case to resolution**, which connects to Manage pricing and contracts and Create and manage sales orders.
+- **Case to resolution**, which connects to *Manage pricing and contracts* and *Create and manage sales orders*.
 
-- **Forecast to plan**, which connects to Create and manage sales orders.
+- **Forecast to plan**, which connects to *Create and manage sales orders*.
 
-- **Plan to produce**, which connects to Create and manage sales orders.
+- **Plan to produce**, which connects to *Create and manage sales orders*.
 
-- **Product and service lifecycle management**, which connects to Create and manage sales orders.
+- **Design to retire**, which connects to *Create and manage sales orders*.
 
-- **Prospect to quote**, which connects to Create and manage sales orders.
+- **Prospect to quote**, which connects to *Create and manage sales orders*.
 
 ## Next steps
 

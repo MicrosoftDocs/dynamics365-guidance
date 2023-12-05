@@ -1,14 +1,14 @@
 ### YamlMime:Landing
 
 title: Dynamics 365 reference architectures
-summary: Placeholder for future content with recommended diagrams for Dynamics 365 implementations.
+summary: Overview of recommended diagrams for Dynamics 365 implementations.
 
 metadata:
   title: Dynamics 365 reference architectures
-  description: Placeholder for future content with recommended diagrams for Dynamics 365 implementations.
+  description: Overview of recommended diagrams for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 03/14/2023
+  ms.date: 12/04/2023
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -21,8 +21,8 @@ landingContent:
     linkLists:
     - linkListType: get-started
       links:
-      - text: Coming soon
-        url: placeholder.md
+      - text: Copilot for Customer Service architecture
+        url: dynamics-365-customer-service-copilot-architecture.md
     - linkListType: learn
       links:
         - text: Use Success by Design for Dynamics 365 solutions

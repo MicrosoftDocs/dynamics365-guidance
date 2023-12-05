@@ -1,7 +1,7 @@
 ﻿---
 title: Plan to produce overview
-description: Read about how Dynamics 365 supports the plan to produce business process.
-ms.date: 05/02/2023
+description: Read about how Dynamics 365 supports the *plan to produce* business process.
+ms.date: 11/27/2023
 ms.topic: conceptual
 
 author: edupont04
@@ -17,19 +17,23 @@ This article describes the *plan to produce* end-to-end business process flow an
 
 ## Plan to produce process relationship
 
-The following diagram shows the relationship of other processes and products/features for the plan to produce process.
+The following diagram shows the relationship of other processes and products/features for the *plan to produce* process.
 
 :::image type="content" source="media/plan-to-produce-process.svg" lightbox="media/plan-to-produce-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
 
-The upstream processes for the plan to produce process include the following:
+The upstream processes for the *plan to produce* process include the following list:
 
 - **Acquire to dispose**  
 
-  One of the types of assets which are managed in the *acquire to dispose* process is production equipment, which is then used as part of the plan to produce process.
+  One of the types of assets that are managed in the *acquire to dispose* process is production equipment, which is then used as part of the *plan to produce* process.
+
+- **Design to retire**  
+
+  The *design to retire* process is used to define what the organization produces, and how it produces those products.
 
 - **Forecast to plan**  
 
-  In certain operational strategies, such as make to stock, you create the forecast to then create the production plan, and as well organizations use the planning process to create the initial production schedule.
+  In certain operational strategies, such as make-to-stock, you create the forecast to then create the production plan. Organizations also use the planning process to create the initial production schedule.
 
 - **Hire to retire**  
 
@@ -37,27 +41,23 @@ The upstream processes for the plan to produce process include the following:
 
 - **Inventory to deliver**  
 
-  The *inventory to deliver* business process manages movement of materials prior to use in production, including the movement of materials to the production input location.
+  The *inventory to deliver* business process manages movement of materials before production, including the movement of materials to the production input location.
 
 - **Order to cash**  
 
-  In make to order or similar operational strategies, sales orders are the trigger to begin planning for production.
+  In make-to-order and similar operational strategies, sales orders are the trigger to begin planning for production.
 
 - **Procure to pay**  
 
-  Organizations need to procure materials for use in production prior to the production process beginning.
-
-- **Product and service lifecycle management**  
-
-  The *product and service lifecycle management* process is used to define what the organization is producing and how it will be made.
+  Organizations need to procure materials for use in production before the production process beginning.
 
 - **Project to profit**  
 
-  For job shop manufacturing or engineer to order operational strategies, projects define the scope and activities that will drive the production process.
+  For job shop manufacturing or engineer-to-order operational strategies, projects define the scope and activities that drive the production process.
 
 - **Prospect to quote**  
 
-  Engineering to order scenarios will define the parameters and design for products through the quotation process which is then followed by the plan to produce process.
+  Engineering-to-order scenarios define the parameters and design for products through the quotation process that is then followed by the *plan to produce* process.
 
 - **Record to report**  
 
@@ -79,23 +79,23 @@ The second column in the diagram displays the business process areas, which are:
 
 For more information on the business process areas, see [Plan to produce business process areas](plan-to-produce-areas.md).  
 
-The third column in the diagram displays the downstream business process including the following:
+The third column in the diagram displays the downstream business process including the following list:
 
 - **Acquire to dispose**  
 
-  Production equipment will be tracked and maintained as part of the *acquire to dispose* business process.
+  Production equipment is tracked and maintained as part of the *acquire to dispose* business process.
 
 - **Case to resolution**  
 
-  The *case to* resolution process may include reporting issues and investigating production process, as well as identifying and implementing continuous improvements.
+  The *case to* resolution process can include reporting issues and investigating production process, as well as identifying and implementing continuous improvements.
 
 - **Forecast to plan**  
 
-  Based on real time production feedback, organizations will then update and rearrange their plans.
+  Based on real-time production feedback, organizations update and rearrange their plans.
 
 - **Hire to retire**  
 
-  Based on production needs, organizations will update labor schedules in the *hire to retire* process, as well as sometimes executing payroll based on piece work or hours.
+  Based on production needs, organizations update labor schedules in the *hire to retire* process, and sometimes executing payroll based on piece work or hours.
 
 - **Inventory to deliver**  
 
@@ -103,39 +103,39 @@ The third column in the diagram displays the downstream business process includi
 
 - **Order to cash**  
 
-  In make to stock operational strategies, orders are placed for finished goods after production is completed and the inventory is on-hand.
+  In make-to-stock operational strategies, orders are placed for finished goods after production is completed and the inventory is on-hand.
 
 - **Procure to pay**  
 
-  Organizations may subcontract work during or after the production process, as well as procuring materials depleted by production process.
+  Organizations can subcontract work during or after the production process. They can also procure materials that the production process depleted.
 
-- **Product and service lifecycle management**  
+- **Design to retire**  
 
   Products are often updated based on engineering changes or operator feedback from the production cycle. Initial production cycles in particular can be used to complete research and development activities for products.
 
 - **Project to profit**  
 
-  In projects-based manufacturing modes, organizations will update project status based on production activities.
+  In projects-based manufacturing modes, organizations update the project status based on production activities.
 
 - **Record to report**  
 
-  When production is completed, organizations will record production costs and analyze behaviors.
+  When production is completed, organizations record production costs and analyze behaviors.
 
 - **Service to cash**  
 
-  Often, organizations will perform aftermarket repairs on produced items.
+  Often, organizations perform aftermarket repairs on produced items.
 
 ## Featured capabilities
 
-There are product-specific capabilities that interact with the *plan to produce* to process including, but not limited to, the following:
+There are product-specific capabilities that interact with the *plan to produce* to process including, but not limited to, the following list:
 
 - **Shop floor execution**  
 
-  By using the touch-screen optimized *production floor execution* interface in Dynamics 365 Supply Chain Management, organizations can track the progress of shop floor activities, request maintenance on production equipment, and track operator time registrations.
+  The touch-screen optimized *production floor execution* interface in Dynamics 365 Supply Chain Management helps organizations can track the progress of shop floor activities, request maintenance on production equipment, and track operator time registrations.
 
 - **Visual scheduling**  
 
-  The Dynamics 365 Supply Chain Management production module includes *Gantt chart* and *lean visual scheduling capabilities*. With these capabilties, organizations can graphically view the production schedule, including operation sequences, material availability, resource capacity, and delivery date warnings.
+  The Dynamics 365 Supply Chain Management production module includes *Gantt chart* and *lean visual scheduling capabilities*. With these capabilities, organizations can graphically view the production schedule, including operation sequences, material availability, resource capacity, and delivery date warnings.
 
 - **Mixed mode manufacturing**  
 
@@ -154,7 +154,7 @@ There are product-specific capabilities that interact with the *plan to produce*
 
 - **Internet of Things (IoT) device connectivity**  
 
-  Using Dynamics 365 Sensor Data Intelligence, manufacturers can leverage IoT devices to provide real-time signals to production managers about shop floor performance, machine breakdowns, and product quality.
+  With Dynamics 365 Sensor Data Intelligence, manufacturers can use IoT devices to provide real-time signals to production managers about shop floor performance, machine breakdowns, and product quality.
 
 - **Warehouse mobile device**  
 
@@ -162,7 +162,7 @@ There are product-specific capabilities that interact with the *plan to produce*
 
 - **Maintenance management**  
 
-  The *Asset management* module in Dynamics 365 Supply Chain Management can be used to run preventive, corrective, and predictive maintenance on production equipment and other assets. It includes a mobile app which allows users to request maintenance and review and update work orders on the fly.
+  The *Asset management* module in Dynamics 365 Supply Chain Management can be used to run preventive, corrective, and predictive maintenance on production equipment and other assets. It includes a mobile app where users can request maintenance and review and update work orders on the fly.
 
 - **Mixed reality**  
 
@@ -170,7 +170,7 @@ There are product-specific capabilities that interact with the *plan to produce*
 
 - **Quality management**  
 
-  Use the quality management functionality in Dynamics 365 Supply Chain Management to define the quality tests to perform, validate results, perform corrective action and non-conformance reporting. It also supports the inventory management aspects of quality control such as quarantining materials, recognizing destructive quality tests, and selecting sample quantities from various transactions.
+  Use the quality management functionality in Dynamics 365 Supply Chain Management to define the quality tests to perform, validate results, perform corrective action and nonconformance reporting. It also supports the inventory management aspects of quality control such as quarantining materials, recognizing destructive quality tests, and selecting sample quantities from various transactions.
 
 - **Subcontracting**  
 
@@ -182,9 +182,9 @@ There are product-specific capabilities that interact with the *plan to produce*
 
 ## Plan to produce business process flow
 
-The following diagram shows the high-level flow of the *plan to produce* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The sub-processes shown in the diagram are shown for the*plan to produce* business process. The arrows on the diagram show the flow of the business process in an organization. If a sub-process can lead to more than one other sub-process, the parallel sub-processes are shown as branches.
+The following diagram shows the high-level flow of the *plan to produce* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/plan-to-produce-flow.svg"  lightbox="media/plan-to-produce-flow.svg" alt-text="Plan to produce end-to-end process flow diagram":::
+:::image type="content" source="media/plan-to-produce-flow.svg"  lightbox="media/plan-to-produce-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
 
 The following steps are illustrated in the order to cash end-to-end business process flow diagram.
 
@@ -196,31 +196,31 @@ The following steps are illustrated in the order to cash end-to-end business pro
 
     2. Plan production operations
 
-        Parallel branches from this subprocess are *acquire to dispose* and *procure to pay*
+        Parallel branches from this subprocess are *acquire to dispose* and *procure to pay*.
 
     3. Run production operations
 
-        Parallel branches from this subprocess are e. Control production quality, *forecast to plan*, *inventory to deliver*, and *project to profit*. *Inventory to deliver* has a downstream process to *order to cash* which is connected to *service to cash*.
+        Parallel branches from this subprocess are e. Control production quality, *forecast to plan*, *inventory to deliver*, and *project to profit*. *Inventory to deliver* has a downstream process to *order to cash* that connects to *service to cash*.
 
     4. Outsource production orders
 
-        Not shown on the diagram: Outsource production orders can connect to *procure to pay*
+        Not shown on the diagram: Outsource production orders can connect to *procure to pay*.
 
     5. Control production quality
 
-        Parallel branch from this subprocess is *case to resolution*
+        Parallel branch from this subprocess is *case to resolution*.
 
     6. Track production costs
 
-3. Record to Report
+3. *Record to report*
 
 4. End
 
-Parallel branches from Start include the following:
+Parallel branches from Start include the following list:
 
-1. *Product and service lifecycle management* connects to a. Define production strategies
+1. *Design to retire* connects to a. *Define production strategies*
 
-2. *Prospect to quote* connect to parallel branches of 5. *Product and service lifecycle management*, a. Define production strategies, and 7. *Project to Profit*
+2. *Prospect to quote* connect to parallel branches of 5. *Design to retire*, a. *Define production strategies*, and 7. *Project to Profit*
 
 3. *Project to profit* connects to b. Plan production operations
 
@@ -240,37 +240,37 @@ Parallel branches from Start include the following:
 
 The following end-to-end downstream processes have connections to End:  
 
-- Acquire to dispose  
-- Procure to pay  
-- Forecast to plan  
-- Order to cash  
-- Service to cash  
-- Project to profit  
-- Case to resolution  
+- *Acquire to dispose*  
+- *Procure to pay*  
+- *Forecast to plan*  
+- *Order to cash*  
+- *Service to cash*  
+- *Project to profit*  
+- *Case to resolution*  
 
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *plan to produce* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a plan to produce technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+- Define the goals and objectives of implementing a *plan to produce* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
 - Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+- Request a demo or get a free trial of Dynamics 365 solutions for the *plan to produce* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
 - Learn more about the Power Platform products at [Business Application Platform](https://powerplatform.microsoft.com/)
 
-- Get an overview of the plan to produce process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
+- Get an overview of the *plan to produce* process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
 
 ## Related resources
 
 Use the following resources to learn more about the *plan to produce* process in Dynamics 365.
 
-- TechTalk series on the plan to produce process: [Production control in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=5d421c52-1fb7-46b5-ae52-93db574cf3f6)
+- TechTalk series on the *plan to produce* process: [Production control in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=5d421c52-1fb7-46b5-ae52-93db574cf3f6)
 
-- TechTalk on Manufacturing Accounting: [Part 4: Manufacturing Accounting in D365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=3e44201b-72e9-4db2-99bb-13e03b3514ae)
+- TechTalk on Manufacturing Accounting: [Part 4: Manufacturing Accounting in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=3e44201b-72e9-4db2-99bb-13e03b3514ae)
 
-- TechTalk on Production Variance Analysis: [Part 7: Production Variance Analysis in D365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=e9612de7-2e9f-45a4-af54-81b30dc11c55)
+- TechTalk on Production Variance Analysis: [Part 7: Production Variance Analysis in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=e9612de7-2e9f-45a4-af54-81b30dc11c55)
 
 - Product documentation: [Production process overview - Supply Chain Management](/dynamics365/supply-chain/production-control/production-process-overview)
 

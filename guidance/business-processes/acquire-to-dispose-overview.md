@@ -1,7 +1,7 @@
 ﻿---
 title: Acquire to dispose overview
-description: Read about how Dynamics 365 supports the acquire to dispose business process.
-ms.date: 11/10/2023
+description: Get an introduction to an end-to-end business process, acquire to dispose. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
+ms.date: 11/28/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: archanap
@@ -16,9 +16,9 @@ This article describes the *acquire to dispose* end-to-end business process flow
 
 ## Acquire to dispose process relationship
 
-The following diagram shows the relationship of other processes and products/features for the inventory to deliver process.
+The following diagram shows the relationship of other processes and products/features for the *acquire to dispose* process.
 
-:::image type="content" source="media/acquire-to-dispose-process.png" lightbox="media/acquire-to-dispose-process.png" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/acquire-to-dispose-process.svg" lightbox="media/acquire-to-dispose-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
 
 The upstream processes for the *acquire to dispose* process include the following.
 
@@ -34,9 +34,9 @@ The upstream processes for the *acquire to dispose* process include the followin
 
   Many types of assets might require the procurement of multiple items and/or services to create a single asset that is usable by the organization. The procurement process in Dynamics 365 Supply Chain Management supports this process and the conversion to fixed assets when the items are put into service.
 
-- **Product and service lifecycle management**  
+- **Design to retire**  
 
-  Define the products or services that you must procure to either build or repair the fixed asset as part of the product and service lifecycle management in Dynamics 365 Supply Chain Management. You should consider carefully  if the materials you purchase and consume for operating or maintaining the assets are considered hazardous. The handling of hazardous materials and material safety data sheets, for example, are handled in the upstream product and service lifecycle management process.
+  Define the products that you must procure to either build or repair the fixed asset as part of the product and service lifecycle management in Dynamics 365 Supply Chain Management. You should consider carefully  if the materials you purchase and consume for operating or maintaining the assets are considered hazardous. The handling of hazardous materials and material safety data sheets, for example, are handled in the upstream process for *design to retire*.
 
 - **Project to profit**  
 
@@ -60,7 +60,7 @@ The *acquire to dispose* end-to-end process is broken down into the following bu
 
 - Retire and dispose of assets
 
-For more information about the business process areas, see [*Acquire to dispose* business process areas](acquire-to-dispose-areas.md).
+Learn more at [Acquire to dispose business process areas](acquire-to-dispose-areas.md).
 
 The downstream processes for the inventory to deliver process include the following.
 
@@ -130,9 +130,9 @@ There are product specific capabilities offered that interact with the *acquire 
 
 ## Acquire to dispose business process flow
 
-The following diagram shows the high-level flow of the *acquire to dispose* business process. Each solid rectangle on the diagram represents an end-to-end business process area. The subprocesses shown in the diagram are shown for the *acquire to dispose* business process. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+The following diagram shows the high-level flow of the *acquire to dispose* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/acquire-to-dispose-flow.png"  lightbox="media/acquire-to-dispose-flow.png" alt-text="*Acquire to dispose* business end-to-end process flow diagram":::
+:::image type="content" source="media/acquire-to-dispose-flow.svg"  lightbox="media/acquire-to-dispose-flow.svg" alt-text="*Acquire to dispose* business end-to-end process flow diagram":::
 
 The following steps are illustrated in the *acquire to dispose* end-to-end business process flow diagram.
 
@@ -140,43 +140,43 @@ The following steps are illustrated in the *acquire to dispose* end-to-end busin
 
 2. *Acquire to dispose* end-to-end process
 
-    1. Plan and budget assets
+    1. *Plan and budget assets*
 
-    2. Acquire assets
+    2. *Acquire assets*
 
-        Parallel branches from this subprocess are d. Manage and report on asset financials and [Inventory to deliver](inventory-to-deliver-overview.md).
+        Parallel branches from this subprocess are *Manage and report on asset financials* and [Inventory to deliver](inventory-to-deliver-overview.md).
 
-3. Manage internal assets
+3. *Manage internal assets*
 
-    Parallel branches from this subprocess are e. Maintain and repair internal assets and [Hire to retire](hire-to-retire-overview.md).  
+    Parallel branches from this subprocess are *Maintain and repair internal assets* and [Hire to retire](hire-to-retire-overview.md).  
 
-4. Manage and report on asset financials
+4. *Manage and report on asset financials*
 
-    Parallel branches from this subprocess are f. Retire and dispose of assets and [Record to report](record-to-report-overview.md).  
+    Parallel branches from this subprocess are *Retire and dispose of assets* and [Record to report](record-to-report-overview.md).  
 
-5. Maintain and repair internal assets
+5. *Maintain and repair internal assets*
 
-    Parallel branches from this subprocess are c. Manage internal assets, Case to resolution, Plan to produce, Procure to pay, Project to profit, Service to cash
+    Parallel branches from this subprocess are *Manage internal assets*, *Case to resolution*, *Plan to produce*, *Procure to pay*, *Project to profit*, *Service to cash*.
 
-6. Retire and dispose of assets
+6. *Retire and dispose of assets*
 
     Parallel branch from this subprocess is [Order to cash](order-to-cash-overview.md).
 
 3. End
 
-Parallel branches from Start include the following:
+Parallel branches from Start include the following processes:
 
-1. Record to report connects to a. Plan and budget assets, c. Manage internal assets and e. Maintain and repair internal assets
+1. *Record to report* connects to *Plan and budget assets*, *Manage internal assets*, and  *Maintain and repair internal assets*.
 
-2. Case to resolution connects to a. Plan and budget assets, c. Manage internal assets and e. Maintain and repair internal assets
+2. *Case to resolution* connects to *Plan and budget assets*, *Manage internal assets*, and  *Maintain and repair internal assets*.
 
-3. Forecast to plan connects to a. Plan and budget assets, c. Manage internal assets and e. Maintain and repair internal assets
+3. *Forecast to plan* connects to *Plan and budget assets*, *Manage internal assets*, and  *Maintain and repair internal assets*.
 
-4. Project to profit connects to a. Plan and budget assets, c. Manage internal assets and e. Maintain and repair internal assets
+4. *Project to profit* connects to *Plan and budget assets*, *Manage internal assets*, and  *Maintain and repair internal assets*.
 
-5. Procure to pay connects to b. Acquire assets
+5. *Procure to pay* connects to *Acquire assets*
 
-6. Product and service lifecycle management connects to e. Maintain and repair internal assets
+6. *Design to retire* connects to *Maintain and repair internal assets*
 
 The following end-to-end downstream processes have connections to End:  
 

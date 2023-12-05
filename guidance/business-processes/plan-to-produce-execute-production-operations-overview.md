@@ -15,7 +15,7 @@ This article describes how you can use Dynamics 365 products to support your org
 
 The *run production operations* business process area covers the activities in an organization's internal production process. Any manufacturing organization finds it critical to track and control production operations. The goal is to ensure consistent product quality and minimize production costs. *Running production operations* also requires coordination and communication between many departments, such as engineering, operations, quality, sales, planning, and procurement.
 
-The process for executing production operations varies from business to business, depending on industry and product, but it follows the same basic steps. At the beginning of production, materials are consumed into the process. A combination of people and tools or machines then run the specific production steps. Finally, the sub-assembly or finished good is created as the output of the process. The definition of these steps is done as part of the *Product and service lifecycle management* end-to-end business processes and refined further in the *define production strategies* business process area.
+The process for executing production operations varies from business to business, depending on industry and product, but it follows the same basic steps. At the beginning of production, materials are consumed into the process. A combination of people and tools or machines then run the specific production steps. Finally, the sub-assembly or finished good is created as the output of the process. The definition of these steps is done as part of the *Design to retire* end-to-end business processes and refined further in the *define production strategies* business process area.
 
 Define this business process at the beginning of an implementation of Dynamics 365 Supply Chain Management. It's a foundational process for any manufacturing company.
 
@@ -37,11 +37,9 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Run production operations process flow
 
-The following diagram shows the high-level flow of the *run production operations* business process area.  
+The following diagram shows the high-level flow of the *run production operations* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/execute-production-operations-flow.svg" alt-text="Execute production operations process flow" lightbox="media/execute-production-operations-flow.svg":::
-
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 The following steps are illustrated in the *run production operations* business process flow diagram.
 
@@ -110,20 +108,14 @@ Dynamics 365 Supply Chain Management connects production and quality so that qua
 If you want to implement Dynamics 365 solutions to assist with your *plan to produce* business processes, use the following resources and steps to learn more.
 
 1. *Forecast to plan*: [Plan supply and replenishment](forecast-to-plan-supply-replenishment-overview.md)  
-
-2. Define production strategies
-
+2. [Define production strategies](plan-to-produce-define-production-strategies.md)
 3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)   
-
 4. Run production operations  (the article that you're currently reading)        
-
 5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
-
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
-
 7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
-8. Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)  
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)  
 
 ## Related resources
 

@@ -625,6 +625,30 @@ items:
             href: business-processes/case-to-resolution-overview.md
           - name: Business process areas
             href: business-processes/case-to-resolution-areas.md
+        - name: Concept to market
+          items:
+          - name: End-to-end scenario - concept to market
+            href: business-processes/concept-to-market-introduction.md
+          - name: Overview
+            href: business-processes/concept-to-market-overview.md
+          - name: Business process areas
+            href: business-processes/concept-to-market-areas.md
+          - name: Define service offerings and strategy
+            href: business-processes/concept-to-market-define-service-offerings-strategy-overview.md  
+          - name: Define service costing
+            href: business-processes/concept-to-market-define-service-costing-overview.md
+        - name: Design to retire
+          items:
+          - name: End-to-end scenario - design to retire
+            href: business-processes/design-to-retire-introduction.md
+          - name: Overview
+            href: business-processes/design-to-retire-overview.md
+          - name: Business process areas
+            href: business-processes/design-to-retire-areas.md
+          - name: Define product catalog and strategy
+            href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
+          - name: Define product costing
+            href: business-processes/design-to-retire-define-product-costing-overview.md
         - name: Forecast to plan
           items:
           - name: End-to-end scenario - forecast to plan
@@ -715,6 +739,8 @@ items:
             href: business-processes/plan-to-produce-overview.md
           - name: Business process areas
             href: business-processes/plan-to-produce-areas.md
+          - name: Define production strategies
+            href: business-processes/plan-to-produce-define-production-strategies.md
           - name: Plan production operations
             href: business-processes/plan-to-produce-plan-production-operations-overview.md
           - name: Run production operations
@@ -735,18 +761,18 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
-        - name: Product and service lifecycle management
-          items:
-          - name: End-to-end scenario - product and service lifecycle management
-            href: business-processes/product-service-lifecycle-management-introduction.md
-          - name: Overview
-            href: business-processes/product-service-lifecycle-management-overview.md
-          - name: Business process areas
-            href: business-processes/product-service-lifecycle-management-areas.md
-          - name: Categorize products and services
-            href: business-processes/product-service-lifecycle-categorize-products-services-overview.md
-          - name: Define product and service costing
-            href: business-processes/product-service-define-cost-overview.md
+        # - name: Product and service lifecycle management
+        #   items:
+        #   - name: End-to-end scenario - product and service lifecycle management
+        #     href: business-processes/product-service-lifecycle-management-introduction.md
+        #   - name: Overview
+        #     href: business-processes/product-service-lifecycle-management-overview.md
+        #   - name: Business process areas
+        #     href: business-processes/product-service-lifecycle-management-areas.md
+        #   - name: Categorize products and services
+        #     href: business-processes/product-service-lifecycle-categorize-products-services-overview.md
+        #   - name: Define product and service costing
+        #     href: business-processes/product-service-define-cost-overview.md
         - name: Project to profit
           items:
           - name: End-to-end scenario - project to profit
@@ -821,6 +847,8 @@ items:
             href: business-processes/service-to-cash-overview.md
           - name: Business process areas
             href: business-processes/service-to-cash-areas-overview.md
+          - name: Create work orders
+            href: business-processes/service-to-cash-create-work-orders.md
 
 # Patterns
       - name: Patterns
@@ -847,8 +875,8 @@ items:
       - name: Reference architectures 
         href: reference-architectures/index.yml
         items:
-        - name: Coming soon
-          href: placeholder.md
+        - name: Copilot for Customer Service architecture
+          href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
 # FastTrack
       - name: FastTrack for Dynamics 365
         items:
