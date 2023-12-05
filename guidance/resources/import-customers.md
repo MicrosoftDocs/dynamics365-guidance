@@ -42,16 +42,11 @@ Use the **Customers V3** entity when any of the approximately 80 fields that are
 ## Related resources
 
 - [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions)
-
 - [Data import and export jobs overview](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job)
-
 - [Data management](../implementation-guide/data-management.md)  
-
 - [Data management checklist](../implementation-guide/data-management-check-list.md)
-
 - [Testing strategy](../implementation-guide/testing-strategy.md)  
-
-- [Testing strategy checklist](https://aka.ms/d365-checklist-testing-strategy)
+- [Testing strategy checklist](../implementation-guide/testing-strategy-checklist.md)
 
 <!--## Tags
 
