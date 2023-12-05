@@ -31,9 +31,7 @@ Many people in an organization should contribute to the decision-making process 
 
 ## Track production costs process flow
 
-The following diagram shows the high-level flow of the *track production costs* business process area.
-
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram shows the high-level flow of the *track production costs* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-track-production-cost-flow.svg" alt-text="Flow diagram for the track production costs business process area, which is explained in the next paragraphs." lightbox="media/plan-to-produce-track-production-cost-flow.svg":::
 
@@ -111,7 +109,8 @@ If you want to implement Dynamics 365 solutions to help with your *track produc
 1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
 1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
 1. Track production costs (the article that you're currently reading)
-1. Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)
+
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)
 
 ## Related resources
 

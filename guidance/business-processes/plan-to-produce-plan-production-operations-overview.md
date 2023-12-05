@@ -30,11 +30,9 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Plan production operations process flow 
 
-The following diagram illustrates the plan production operations business process area.
+The following diagram illustrates the plan production operations business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-plan-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image.":::
-
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 The flow diagram covers the following steps.
 
@@ -98,20 +96,14 @@ When organizations use the automated production planning and scheduling tools in
 If you want to implement Dynamics 365 solutions to assist with your plan production operations business processes, use the following resources and steps to learn more:
 
 1. *Forecast to plan*: [Plan supply and replenishment](forecast-to-plan-supply-replenishment-overview.md)  
-
-2. Define production strategies.
-
+2. [Define production strategies](plan-to-produce-define-production-strategies.md)
 3. Plan production operations (the article that you're currently reading)      
-
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
-
 5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
-
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
-
 7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
-8. Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).  
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).  
 
 ## Related resources
 

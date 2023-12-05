@@ -291,7 +291,7 @@ A correcting entry fixes a mistake that was posted in the accounting books. You 
 
 ### Cost
 
-In business and accounting, cost refers to the monetary value of resources that are consumed or sacrificed to achieve a particular objective or goal. It's the amount of money that a business spends on producing a product or providing a service. [Defining product and service costs](/dynamics365/guidance/business-processes/product-service-define-cost-overview) is essential for any organization that wants to understand and manage its finances effectively.
+In business and accounting, cost refers to the monetary value of resources that are consumed or sacrificed to achieve a particular objective or goal. It's the amount of money that a business spends on producing a product or providing a service. Defining the cost of products and services is essential for any organization that wants to understand and manage its finances effectively.
 
 In Dynamics 365, costs are tracked on many types of transactions, such as work orders, production orders, sales orders, and purchase orders. The cost typically comes from the product or service definition.
 

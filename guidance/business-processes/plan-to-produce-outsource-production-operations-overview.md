@@ -32,11 +32,9 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Outsource production operations process flow 
 
-The following diagram shows the *Outsource production operations* process flow, including the related business processes and the upstream and downstream activities.
+The following diagram shows the *Outsource production operations* process flow, including the related business processes and the upstream and downstream activities. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-outsource-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image." lightbox="media/plan-to-produce-outsource-production-flow.svg":::
-
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
 
 The flow diagram covers the following steps:
 
@@ -111,20 +109,14 @@ With the **subcontracting** capabilities in Dynamics 365 Supply Chain Management
 If you want to implement Dynamics 365 solutions to assist with your *Outsource production operations* business processes, use the following resources and steps to learn more:
 
 1. [Plan to produce](plan-to-produce-overview.md)  
-
-2. Define production strategies.
-
+2. [Define production strategies](plan-to-produce-define-production-strategies.md)
 3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)  
-
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
-
 5. Outsource production operations (the article that you're currently reading)      
-
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
-
 7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
-8. Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md). 
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md). 
 
 ## Related resources
 
