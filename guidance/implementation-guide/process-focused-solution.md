@@ -38,7 +38,7 @@ When discussions about the project and business processes begin with third parti
 
 ## Start with a business process future vision
 
-Creating a vision of how a business is transformed through technology makes it's easier to focus on the activities needed to achieve that goal. An understanding of how the business currently works helps establish the state that it wants to reach.
+Creating a vision of how a business is transformed through technology makes it easier to focus on the activities needed to achieve that goal. An understanding of how the business currently works helps establish the state that it wants to reach.
 
 Successful implementations start with a clear understanding of an organization's business model. It often refers to as Target operation model (TOM). That includes understanding how the organization creates value through its products and services, as well as its relationships with customers and suppliers. There are multiple business processes strategically aligned to make that business model work. Learn more about how to define a business model and the importance of connecting the business model to business processes at [Drive app value](drive-app-value.md). Business processes provide the baseline to draw the roadmap of your solution for digital transformation.
 
