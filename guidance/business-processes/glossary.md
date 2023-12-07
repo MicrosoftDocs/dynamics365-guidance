@@ -155,13 +155,13 @@ An attribute is a characteristic or feature (in this case, of a product) that he
 
 Dynamics 365 Commerce and Supply Chain Management include robust product attribute capabilities. You can [define attributes](/dynamics365/commerce/attribute-attributegroups-lifecycle) for specific products, groups of products, or variants of products.
 
-### Audit trail
-
-An audit trail is a chronological record of all transactions and activities in a business solution. It provides a complete history of changes and actions, which provides transparency and accountability to all entries that are recorded in the general ledger.
-
 ### Audit management
 
 Audit management involves the planning, execution, and tracking of audit activities within an organization, including internal and external audits. Business applications often have modules for audit management to streamline the audit process.
+
+### Audit trail
+
+An audit trail is a chronological record of all transactions and activities in a business solution. It provides a complete history of changes and actions, which provides transparency and accountability to all entries that are recorded in the general ledger.
 
 ## B
 
@@ -172,7 +172,6 @@ A baseline is a fixed reference point that is used to compare project performanc
 ### Billable hours
 
 Of the hours that are worked on tasks, those hours that can be charged to clients or customers are known as billable hours. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
-
 
 ### Billing rules
 
@@ -190,11 +189,11 @@ A budget forecast is the expected expenditure or revenue per budget line during 
 
 ### Campaign analytics
 
-The process of evaluating data and metrics for a marketing campaign to derive performance insights and optimization opportunities.
+Campaign analytics is the process of evaluating data and metrics for a marketing campaign to derive performance insights and optimization opportunities.
 
 ### Campaign budget
 
-The defined marketing expenditure allocated to a specific marketing campaign.
+A campaign budget is the defined marketing expenditure that is allocated to a specific marketing campaign.
 
 ### Capital asset budget
 
@@ -238,7 +237,7 @@ A chart of accounts defines a structured list of all the main accounts used in a
 
 ### Churn
 
-When a customer ends a relationship or stops engaging with a company. CRM helps prevent churn.
+Churn occurs when a customer ends a relationship or stops engaging with a company. Customer relationship management (CRM) helps prevent churn.
 
 ### Close the deal
 
@@ -404,19 +403,19 @@ A [customer credit group](/dynamics365/finance/accounts-receivable/cm-customer-c
 
 ### Customer journey
 
-The end-to-end experiences and touchpoints a customer has with a brand. CRM optimizes journeys.
+Customer journey refers to the end-to-end experiences and touchpoints that a customer has with a brand. Customer relationship management (CRM) optimizes journeys.
 
 ### Customer lifetime value (CLV)
 
-The total revenue generated from a customer over the entire relationship timeline. Maximizing CLV is key.
+Customer lifetime value (CLV) is the total revenue that is generated from a customer over the entire relationship timeline. Maximizing CLV is key.
 
-### Customer Relationship Management (CRM)
+### Customer relationship management (CRM)
 
-Strategies and processes for managing customer interactions and data across the customer lifecycle to maximize loyalty and growth.
+Customer relationship management (CRM) involves strategies and processes for managing customer interactions and data across the customer lifecycle to maximize loyalty and growth.
 
 ### Customer satisfaction (CSAT)
 
-Metrics that measure a customer's happiness with a company's products, services, and interactions.
+Customer satisfaction (CSAT) refers to metrics that measure a customer's happiness with a company's products, services, and interactions.
 
 ## D
 
@@ -468,7 +467,7 @@ Direct expenses are those that are directly tied to the project itself such as s
 
 ### Discounts
 
-Percentage or dollar reductions in the quoted price. Discounts can be applied to incentivize customers.
+Discounts are percentage or dollar reductions in the quoted price. Discounts can be applied to incentivize customers.
 
 ### Dock management
 
@@ -516,10 +515,6 @@ Financial dimensions are attributes or categorizations that you can assign to tr
 
 Financial dimensions are configured and maintained in Dynamics 365 Finance, but they can be specified on transactions in Supply Chain Management, Human Resources, Project Operations, and Commerce.
 
-### Financial reporting
-
-Financial reporting involves the preparation and presentation of an organization's financial information, including income statements, balance sheets, and cash flow statements, typically following accounting standards and regulatory requirements.
-
 ### Financial periods
 
 Financial periods represent specific time intervals, such as months or quarters, in which financial transactions are recorded. The opening and closing of financial periods are managed to ensure accurate reporting. You can define an unlimited number of fiscal calendars in Dynamics 365 Finance and a fiscal calendar can be used by a single ledger or shared by multiple ledgers.
@@ -531,6 +526,10 @@ Financial periods represent specific time intervals, such as months or quarters,
 - Ledger calendar
 
     The ledger calendar contains the ledger-specific settings for the periods within the fiscal year for each ledger assigned to the fiscal calendar. Within Dynamics 365 Finance, the same period can be open for one ledger and on hold for another ledger. These controls allow you to manage the entire period, specific modules, or the users that can post to the period and module.
+
+### Financial reporting
+
+Financial reporting involves the preparation and presentation of an organization's financial information, including income statements, balance sheets, and cash flow statements, typically following accounting standards and regulatory requirements.
 
 ### Financial tags
 
@@ -618,6 +617,8 @@ A general ledger (GL) is a central repository in an accounting system that conta
 
 A granularity attribute is the unique combination of [dimension values](#forecast-dimensions) that represents the level of detail at which a [forecast](#forecast) is generated.
 
+## H
+
 ### HIPAA (Health Insurance Portability and Accountability Act)
 
 HIPAA is a U.S. federal law that establishes data privacy and security requirements for protected health information (PHI) and governs healthcare providers' and organizations' compliance.
@@ -645,6 +646,10 @@ Many organizations charge a fee to customers for late payment of [invoices](#inv
 
 Dynamics 365 Finance automates the [process of calculating and collecting interest](/dynamics365/finance/accounts-receivable/tasks/process-interest) on overdue payments. Organizations can use case management in Dynamics 365 Finance and Customer Service to help manage the legal escalation of overdue invoices.
 
+### Internal controls
+
+Internal controls are processes and mechanisms implemented within an organization to safeguard assets, ensure accurate financial reporting, and ensure compliance with policies and regulations.
+
 ### International Accounting Standards Board (IASB) 
 
 The International Accounting Standards Board (IASB) is an independent, private-sector body based in London, United Kingdom. Its primary responsibility is to develop and promulgate International Financial Reporting Standards (IFRS), a set of accounting standards used by companies and organizations worldwide for the preparation and presentation of financial statements.
@@ -657,10 +662,6 @@ IFRS aims to harmonize accounting practices and provide a common financial repor
 
 > [!NOTE]
 > While IFRS is commonly used in Europe, there may still be some variations or country-specific requirements in accounting and reporting practices in individual European countries. However, for consolidated financial statements of publicly traded companies, IFRS is often the standard used for reporting.
-
-### Internal controls
-
-Internal controls are processes and mechanisms implemented within an organization to safeguard assets, ensure accurate financial reporting, and ensure compliance with policies and regulations.
 
 ### Internet of Things sensors
 
@@ -748,19 +749,19 @@ Tracking and managing potential customers and sales opportunities throughout the
 
 ### Lead conversion
 
-The act of transitioning a qualified lead into a sales pipeline opportunity.
+Lead conversion is the act of transitioning a qualified lead into a sales pipeline opportunity.
 
 ### Lead enrichment
 
-The process of augmenting lead records with additional data from various sources.
+Lead enrichment is the process of augmenting lead records with additional data from various sources.
 
 ### Lead nurturing
 
-Ongoing communication with leads to develop awareness and interest over time.
+Lead nurturing refers to ongoing communication with leads to develop awareness and interest over time.
 
 ### Lead score
 
-A numeric rating assigned to a lead to indicate sales-readiness based on engagement, profile fit, and so on.
+The lead score is a numeric rating that is assigned to a lead to indicate sales readiness. It's based on engagement, profile fit, and so on.
 
 ### Lease contracts
 
@@ -776,16 +777,15 @@ A lease payment schedule is the predetermined timeline and structure for making 
 
 Leased assets are [assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both parties agree to. They differ from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house, an apartment, or a piece of equipment.
 
+### Ledger
+
+A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
+
 ### Legal entity
 
 A legal entity is a separate entity recognized by the law, capable of entering contracts and engaging in business activities. It typically consists of owners/shareholders, management, assets, liabilities, and a distinct legal structure. 
 
 In Dynamics 365 Finance, each legal entity is associated with a separate set of financial records and settings. The term legal entity and company are used interchangeably in Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations.
-
-
-### Ledger
-
-A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
 
 ### Lessee
 
@@ -851,11 +851,11 @@ In Dynamics 365 Supply Chain Management, it's the [**Production floor execution*
 
 ### Margins
 
-The profit margin or percentage on a quoted deal. Visibility into margins allows profitable quoting.
+Margins refer to the profit margin or percentage on a quoted deal. Visibility into margins allows for profitable quoting.
 
 ### Marketing campaign
 
-A strategic marketing effort across one or more channels over a period of time to promote a product, service, or brand. A *multi-channel campaign* leverages multiple channels such as email, social media, and events, to reach prospects. 
+A marketing campaign is a strategic marketing effort across one or more channels over a period of time to promote a product, service, or brand. A *multi-channel campaign* uses multiple channels, such as email, social media, and events, to reach prospects. 
 
 ### Merchandising
 
@@ -937,7 +937,7 @@ You can add products to a [product catalog](/dynamics365/sales/set-up-product-ca
 
 ### Product and price lists
 
-Catalogs of available products/services with assigned prices. Used to add items to quotes.
+Product and price lists are catalogs of available products/services that include assigned prices. They are used to add items to quotes.
 
 ### Product category
 
@@ -1105,9 +1105,9 @@ A provider is a connection point in a supply chain. In the context of Intelligen
 
 ### Quote
 
-A document presenting a customer's potential order for products/services along with proposed prices. Quotes allow sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to make sure that they align with the business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.
+A quote is a document that presents a customer's potential order for products/services together with proposed prices. Quotes enable sales teams to provide estimates to prospects during the sales process. Quotes must be *approved* to ensure that they are aligned with business policies. Organizations typically have a process for approving a finalized quote before it's sent to the customer or prospect.
 
-Quotes can be *revised*, meaning that adjustments are made to a quote before finalizing based on the prospect's feedback. Revisions can optimize pricing.
+Quotes can be *revised*. In other words, adjustments can be made to a quote before it's finalized, based on the prospect's feedback. Revisions can optimize pricing.
 
 ## R
 
@@ -1213,7 +1213,7 @@ Sales planning and strategy describes the process of developing an approach and 
 
 - **Sales forecasting** is the process of predicting future sales revenue based on historical data, market trends, and other factors, to help sales teams set targets and plan their activities accordingly.
 
-- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value. Cross-selling involves offering more products or services to existing customers, whereas [upselling](#upsell) involves encouraging them to upgrade to a higher-priced product or service.
+- **Cross-selling** and **upselling** are sales strategies that are designed to increase revenue and customer lifetime value (CLV). Cross-selling involves offering more products or services to existing customers, whereas [upselling](#upsell) involves encouraging customers to upgrade to a higher-priced product or service.
 
 ### Sales process and stages
 
@@ -1381,7 +1381,7 @@ Because this option circumvents the standard processes your organization uses, c
 
 ### Upsell
 
-Sometimes confused with *cross-selling*, the term covers the act of selling additional or higher-value products and services to existing customers. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).
+Upselling is the act of selling additional or higher-value products and services to existing customers. It's sometimes confused with *cross-selling*. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).
 
 ## V
 
@@ -1393,7 +1393,7 @@ See [product](#product).
 
 ### Win/loss analysis
 
-The job of evaluating why deals were won or lost to improve the marketing process.
+Win/loss analysis is the process of evaluating why deals were won or lost, to improve the marketing process.
 
 ### Work Breakdown Structure (WBS)
 

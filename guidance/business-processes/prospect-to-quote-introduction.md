@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prospect to quote introduction
 description: Get an introduction to the prospect to quote end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their prospect to quote processes.
 ms.date: 10/24/2023
@@ -12,41 +12,42 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales***
 
-This article introduces the prospect to quote end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their prospect to quote processes.
+This article introduces the *prospect to quote* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their prospect to quote processes.
 
 ## Prospect to quote overview
 
 The *prospect to quote* business process flow is a sales process that starts with identifying potential customers (prospects). It ends with providing prospects with a quote for the product or service they're interested in purchasing. The following stages fit into this process:
 
-1. Define sales strategy  
+1. Define sales strategy
 
     This overarching step guides the overall sales process, including the prospect-to-quote stage. It involves setting goals, defining target markets, and creating a plan to achieve sales objectives.
 
-2. Run marketing campaigns  
+2. Run marketing campaigns
 
     Marketing campaigns play a role in lead generation and help attract potential customers. This step can be considered part of the lead generation process within the prospect-to-quote stage.
 
-3. Identify and qualify leads  
+3. Identify and qualify leads
 
     This step is essential in the prospect-to-quote process, as it involves finding potential customers and assessing their fit and potential value to the organization.
 
-4. Pursue opportunities  
+4. Pursue opportunities
 
     This step aligns with the initial contact, needs assessment, and solution development stages in the prospect-to-quote process. It involves engaging with prospects and working to create tailored solutions that meet their needs.
 
-5. Estimate and quote sales  
+5. Estimate and quote sales
 
-     This step corresponds to the proposal creation and presentation stages. It involves creating and presenting a detailed quote or proposal to the prospect.
+    This step corresponds to the proposal creation and presentation stages. It involves creating and presenting a detailed quote or proposal to the prospect.
 
-6. Manage customer relationships  
+6. Manage customer relationships
 
     While customer relationship management is an ongoing activity throughout the sales cycle, it plays a role in the prospect-to-quote process, particularly in the follow-up, negotiation, and quote revision stages.
+
 <!-- Removed
-7. Analyze service operations  
+7. Analyze service operations
 
     This sub-process is more relevant to the broader sales and service delivery process, but insights gained from analyzing service operations can inform the solution development and proposal creation stages in the prospect-to-quote process. -->
 
-Every organization has variations to the *prospect to quote* end-to-end scenario. Here, we define the basic outline for any organization looking to implement a technology solution to support the *prospect to quote* business process.
+Every organization has some variation of the *prospect to quote* end-to-end scenario. Here, we define the basic outline for any organization that is looking to implement a technology solution to support the *prospect to quote* business process.
 
 ## Impact on the organization
 
@@ -62,11 +63,11 @@ When your organization plans to implement technology solutions to assist with th
 
 ### Improved sales efficiency and effectiveness
 
-The *prospect to quote* business process helps improve sales efficiency and effectiveness. It provides a structured approach for sales teams to follow, so that resources are focused on qualified leads and minimizing wasted efforts.  
+The *prospect to quote* business process helps improve sales efficiency and effectiveness. It provides a structured approach for sales teams to follow, so that resources are focused on qualified leads and minimizing wasted efforts.
 
 ### Increased revenue growth potential
 
-The process also maximizes revenue growth potential by optimizing the sales process and ensuring that all potential customers are effectively pursued.  
+The process also maximizes revenue growth potential by optimizing the sales process and ensuring that all potential customers are effectively pursued.
 
 ### Consistent and high-quality customer experience throughout the sales process
 
@@ -78,13 +79,13 @@ If you want to implement Dynamics 365 solutions to assist with your prospect to 
 
 Below are some resources to help you learn more about Dynamics 365 Sales and its capabilities in managing the prospect-to-quote process:
 
-- [Dynamics 365 Sales Overview](https://dynamics.microsoft.com/sales/overview/)  
+- [Dynamics 365 Sales Overview](https://dynamics.microsoft.com/sales/overview/)
 
-    This official product page for Dynamics 365 Sales introduces features and capabilities.  
+    This official product page for Dynamics 365 Sales introduces features and capabilities.
 
-- [Dynamics 365 Sales](/training/dynamics365/sales/)  
+- [Dynamics 365 Sales](/training/dynamics365/sales/)
 
-    Microsoft Learn offers free online courses to help you understand learn Dynamics 365 Sales. The modules cover a range of areas, from an introduction to the platform to more advanced features.  
+    Microsoft Learn offers free online courses to help you understand learn Dynamics 365 Sales. The modules cover a range of areas, from an introduction to the platform to more advanced features.
 
 ## Related resources
 
@@ -92,15 +93,15 @@ Use the following resources to learn more about the prospect to quote process in
 
 - [Dynamics 365 Sales User Guide](/dynamics365/sales-enterprise/user-guide)
 
-    This comprehensive user guide provides step-by-step instructions on using Dynamics 365 Sales, including managing leads, opportunities, and quotes.  
+    This comprehensive user guide provides step-by-step instructions on using Dynamics 365 Sales, including managing leads, opportunities, and quotes.
 
-- [Dynamics 365 Sales Community](https://community.dynamics.com/forums/thread/?partialUrl=sales/)  
+- [Dynamics 365 Sales Community](https://community.dynamics.com/forums/thread/?partialUrl=sales/)
 
-    The Dynamics 365 Sales community is a forum where users can ask questions, share knowledge, and learn from each other's experiences with the platform.  
+    The Dynamics 365 Sales community is a forum where users can ask questions, share knowledge, and learn from each other's experiences with the platform.
 
-- Dynamics 365 Sales YouTube playlist  
+- Dynamics 365 Sales YouTube playlist
 
-   This playlist from the Dynamics 365 YouTube channel includes several videos tutorials
+    This playlist from the Dynamics 365 YouTube channel includes several videos tutorials
 
 ## Contributors
 
@@ -108,7 +109,7 @@ Use the following resources to learn more about the prospect to quote process in
 
 Principal author:
 
-- [Kody Wildfeuer](https://www.linkedin.com/in/kody-wildfeuer/) | Senior Solution Architect, FastTrack for Dynamics 365  
+- [Kody Wildfeuer](https://www.linkedin.com/in/kody-wildfeuer/) | Senior Solution Architect, FastTrack for Dynamics 365
 
 <!--## Tags
 *Stakeholders:* Sales and marketing teams, product managers, customer service representatives, and senior management
