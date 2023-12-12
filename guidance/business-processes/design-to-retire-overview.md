@@ -63,7 +63,7 @@ There are product specific capabilities offered that interact with the *design t
 
 ## Design to retire business process flow
 
-The following diagram shows the high-level flow of the *design to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *design to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/design-to-retire-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/design-to-retire-flow.svg":::
 

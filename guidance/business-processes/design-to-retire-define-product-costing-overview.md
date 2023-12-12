@@ -57,7 +57,7 @@ Overall, it's important to involve all stakeholders who have a vested interest i
 
 ## Define product costing process flow 
 
-The following diagram illustrates the *define product costing* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *define product costing* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/design-to-retire-define-product-cost.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/design-to-retire-define-product-cost.svg":::'
 

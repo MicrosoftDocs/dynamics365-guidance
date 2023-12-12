@@ -141,7 +141,7 @@ There are product-specific capabilities that interact with the *procure to pay* 
 
 ## Procure to pay business process flow
 
-The following diagram shows the high-level flow of the *procure to pay* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *procure to pay* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/procure-to-pay-flow.png" alt-text="Flow diagram for the end-to-end business process, procure to pay, which is explained in the paragraph after the image." lightbox="media/procure-to-pay-flow.png":::
 

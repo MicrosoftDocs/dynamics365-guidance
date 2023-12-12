@@ -199,7 +199,7 @@ There are product-specific capabilities that interact with the *project to profi
 
 ## Project to profit business process flow
 
-The following diagram shows the high-level flow of the *project to profit* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *project to profit* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/project-to-profit-process-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-process-flow.svg":::
 

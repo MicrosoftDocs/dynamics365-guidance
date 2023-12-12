@@ -36,7 +36,7 @@ Each solid gray rectangle in the diagram represents an end-to-end business proce
 
 :::image type="content" source="media/project-to-profit-manage-project-scope-schedule-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-manage-project-scope-schedule-flow.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 The flow diagram covers the following steps.
 

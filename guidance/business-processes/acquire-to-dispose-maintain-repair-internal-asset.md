@@ -57,7 +57,7 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the high-level business process flow for maintaining and repairing internal assets. For this flow, there are several exit points from the *procure spare parts/service item* process and several entry points to the *schedule maintenance* process.
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/maintain-and-repair-internal-asset-flow.svg" alt-text="Flow diagram that shows steps for maintaining and repairing internal assets." lightbox="media/maintain-and-repair-internal-asset-flow.svg":::
 

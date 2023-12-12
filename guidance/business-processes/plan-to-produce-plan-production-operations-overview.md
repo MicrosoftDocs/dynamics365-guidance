@@ -1,7 +1,7 @@
 ---
 title: Plan production operations overview
 description: Get an overview of the business process area for planning production in the plan to produce end-to-end business process in Dynamics 365 solutions.
-ms.date: 08/23/2023
+ms.date: 12/06/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -30,7 +30,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Plan production operations process flow 
 
-The following diagram illustrates the plan production operations business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the plan production operations business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-plan-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image.":::
 

@@ -31,7 +31,7 @@ Many people across the organization should contribute to the decision-making pro
 
 The following diagram shows the high-level flow of the *Manage freight and transportation* business process area.
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/inventory-to-deliver-manage-freight-transport-flow.svg" alt-text="Diagram that shows business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-manage-freight-transport-flow.svg":::
 

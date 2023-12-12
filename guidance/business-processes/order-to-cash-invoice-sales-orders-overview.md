@@ -43,7 +43,7 @@ The following diagram illustrates the flow of the invoice sales orders business 
 
 :::image type="content" source="media/order-to-cash-invoice-sales-orders-flow.svg" alt-text="Diagram showing the flow of the invoice sales orders business process area in an organization." lightbox="media/order-to-cash-invoice-sales-orders-flow.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 The invoice sales orders business process area flow diagram illustrates the following steps:
 

@@ -29,7 +29,7 @@ The following diagram illustrates the *define a sales strategy* business process
 
 :::image type="content" source="media/prospect-to-quote-define-sales-strategy-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-define-sales-strategy-flow.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 The business process area flow diagram covers the following steps:
 
@@ -47,20 +47,23 @@ The business process area flow diagram covers the following steps:
     2. *Define salesperson or sales taker for orders*
     3. *Determine sales targets*
     4. *Establish sales commission and incentive structures*
+
 4. End
 
 There are parallel branches to steps in this business process are from the following end-to-end scenarios:
 
 - *Hire to retire*
 
-  - *Plan and recruit workforce*
+    - *Plan and recruit workforce*
+
 - *Forecast to plan*
 
-  - *Forecast supply and demand*
+    - *Forecast supply and demand*
+
 - *Record to report*
 
-  - *Manage budgets*
-  - *Define ledger structure and currency policies*
+    - *Manage budgets*
+    - *Define ledger structure and currency policies*
 
 ## Define a sales strategy benefits
 
@@ -77,7 +80,7 @@ In summary, a carefully defined sales strategy sets the foundation for sales exc
 
 If you want to implement Dynamics 365 solutions to help with your business processes for defining a sales strategy, you can use the following resources and steps to learn more. Links are added when articles become available.
 
-1. *Define sales strategies* (the article that you're currently reading) 
+1. *Define sales strategies* (the article that you're currently reading)
 2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
 3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
 4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)

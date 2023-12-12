@@ -1,7 +1,7 @@
 ﻿---
 title: Hire to retire end-to-end overview
 description: Learn about the end-to-end business process, from hire to retire. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 11/27/2023
+ms.date: 12/12/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
@@ -17,9 +17,9 @@ This article describes the *hire to retire* end-to-end business process flow and
 
 The following diagram shows the relationship of other processes and products/features for the *hire to retire* process.
 
-:::image type="content" source="media/hire-to-retire-process.png" lightbox="media/hire-to-retire-process.png" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/hire-to-retire-relationships.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/hire-to-retire-relationships.svg":::
 
-The upstream processes for the *hire to retire* process include:
+The upstream processes for the *hire to retire* process include the following list:
 
 - **Acquire to dispose**  
 
@@ -29,11 +29,15 @@ The upstream processes for the *hire to retire* process include:
 
   Many organizations use a case management process to help track requests for the human resources department. This can also be used for IT type requests such as hardware requests for a new hire.
 
+- **Concept to market**  
+
+  In service-based organizations where humans are part of the service offering, you must define the services before you can define the human aspect of the service. This is especially true when you use routes for production and need a human resource to be used in the production process.
+
 - **Forecast to plan**  
 
   The forecast to plan process includes strategic and operational planning. This is where organizations plan for the structure of the business, forecast revenue and growth, and plan for staffing to support those operational goals.
 
-- **Hire to retire**  
+- **Inventory to deliver**  
 
   When you use advanced warehouse management with Dynamics 365 Supply Chain Management, you create workers, and you define security access on the shop floor.
 
@@ -48,10 +52,6 @@ The upstream processes for the *hire to retire* process include:
 - **Procure to pay**  
 
   In organizations that outsource work or use staffing agencies, the procurement process is upstream to the *hire to retire* process. The procurement process can also be used for outsourcing or using vendors to help with various aspects of the *hire to retire* process such as processing payroll, sourcing benefit providers, using third-party recruiters, and more.
-
-- **Concept to market**  
-
-  In service-based organizations where humans are part of the service offering, you must define the services before you can define the human aspect of the service. This is especially true when you use routes for production and need a human resource to be used in the production process.
 
 - **Project to profit**  
 
@@ -71,17 +71,16 @@ The *hire to retire* end-to-end process is broken down into the following compon
 
 - Onboard and manage the employee lifecycle
 
-- Manage employee performance and growth
-
 - Manage occupational health and safety
 
-- Administer employee and manager requests
-
-- Manage employee benefits and compensation
+- Manage employee performance and growth
 
 - Manage employee time and attendance
 
-- Pay employees  
+- Manage travel and expenses
+
+- Manage employee benefits, compensation, and payroll
+
 
 For information about the business process areas, see [Hire to retire business process areas](hire-to-retire-areas.md).
 
@@ -95,7 +94,11 @@ The third column in the diagram displays the downstream business process includi
 
   In any organization, you can use the *case to resolution* process to handle requests or issues that workers or employees report throughout the employee lifecycle. Dynamics 365 Human Resources includes case management functionality to support specific scenarios such as Family Medical Leave and Absences (FMLA) requests, safety incidents related to injury or illness, and more.
 
-- **Hire to retire**  
+- **Concept to market**  
+
+  Once you hired the workers, you can link those workers to resources and the services that you offer. For production and services that are skills-based, you must maintain the skills, certifications, and training, for example, of those workers on an ongoing basis to continue the process.
+
+- **Inventory to deliver**  
 
   When you use advanced warehouse management with Dynamics 365 Supply Chain Management, you must create workers and define security access on the shop floor.
 
@@ -110,10 +113,6 @@ The third column in the diagram displays the downstream business process includi
 - **Procure to pay**  
 
   In organizations that outsource work or use staffing agencies, the procurement process is also downstream to the *hire to retire* process. The staffing agencies often need to report timesheets in order to pay the outsourced workers. There's also often a need to train the outsourced employees or onboard them into your systems, for example, after they were hired.
-
-- **Concept to market**  
-
-  Once you hired the workers, you can link those workers to resources and the services that you offer. For production and services that are skills-based, you must maintain the skills, certifications, and training, for example, of those workers on an ongoing basis to continue the process.
 
 - **Project to profit**  
 
@@ -173,75 +172,68 @@ There are product specific capabilities offered that interact with the *hire to 
 
 ## Hire to retire business process flow
 
-The following diagram shows the high-level flow of the *hire to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *hire to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/hire-to-retire-flow.png"  lightbox="media/hire-to-retire-flow.png" alt-text="inventory to deliver end-to-end process flow diagram":::
+:::image type="content" source="media/hire-to-retire-flow.svg" alt-text="Flow diagram for the end-to-end business process that is explained in the following paragraphs." lightbox="media/hire-to-retire-flow.svg":::
 
 The following steps are illustrated in the *hire to retire* end-to-end business process flow diagram.
 
 1. Start
 
-2. Hire to retire
+2. *Hire to retire*
 
-3. Plan and recruit your workforce
+3. *Plan and recruit your workforce*
 
-    Parallel branches connect to the following end-to-end processes: *Forecast to plan*, *plan to produce*, and *project to profit*.
+    Parallel branches connect to the following end-to-end processes: *forecast to plan*, *case to resolution*, *acquire to dispose*, *plan to produce*, and *project to profit*.
 
-4. Onboard and manage the employee lifecycle
+4. *Onboard and manage the employee lifecycle*
 
-    A parallel branch connects to the *acquire to dispose* end-to-end process.
+    A parallel branch connects to the *case to resolution* and *acquire to dispose* end-to-end processes.
 
-    1. Manage employee performance and growth
+    1. *Manage employee performance and growth*
 
-        Parallel branches connect to the following end-to-end processes: *Case to resolution*, *order to cash*, *plan to produce*, and *project to profit*.
+        Unshown parallel branches connect to the following end-to-end processes: *Case to resolution*, *order to cash*, *plan to produce*, and *project to profit*.
 
-    2. Manage occupational health and safety
+    2. *Manage occupational health and safety*
 
-        Parallel branches connect to d. *Manage employee benefits and compensation*, and to the following end-to-end processes: *Hire to retire*, *plan to produce*, *concept to market*, and *record to report*.
+        Parallel branches connect to the following end-to-end processes: *design to retire*, *inventory to deliver*, *record to report*, and *project to profit*.
 
-    3. Administer employee and manager requests
+    3. *Manage employee time and attendance*
+       Parallel branches connect to 5. Manage employee benefits, compensation, and payroll and unshown connections to *order to cash*, *plan to produce*, *project to profit*, and *service to cash* end-to-end processes. 
 
-        A parallel branch connects to the *case to resolution* end-to-end process.
+    4. *Manage travel and expenses*
 
-    4. Manage employee benefits and compensation
+        Parallel branches connect to 5. Manage employee benefits, compensation, and payroll and unshown connections to *plan to produce*, *project to profit*, and *record to report*.
 
-        Parallel branches connect to 5. Pay employees and the following end-to-end processes:  *Order to cash*, *plan to produce*, *project to profit*, and *record to report*.
+5. *Manage employee benefits, compensation, and payroll*
 
-5. Manage employee time and attendance
+    Parallel branches connect to 5. Pay employees and the following end-to-end processes: *procure to pay*, *plan to produce*, *project to profit*, and *record to report*.
 
-    Parallel branches connect to 5. Pay employees and the following end-to-end processes: *plan to produce*, *project to profit*, and *record to report*.
-
-6. Manage travel and expense
-
-    Parallel branches connect to 5. Pay employees and the following end-to-end processes: Procure to pay *project to profit*, and *record to report*.
-
-7. Pay employees
-
-    A parallel branch connects to the *record to report* end-to-end process.
-
-8. End
+6. End
 
 Parallel branches from Start include the following end-to-end processes:
 
-1. *Acquire to dispose*, which connects to b. *Plan and recruit your workforce*.
+1. *Acquire to dispose*, which connects to 3. *Plan and recruit your workforce* and 4. *Onboard and manage the employee lifecycle*.
 
 2. *Case to resolution*, which connects to b. *Plan and recruit your workforce*.
 
-3. *Forecast to plan*, which has parallel branches to a. *Define position and organizational structure* and b. *Plan and recruit your workforce*.
+3. *Concept to market*, which connects to 3. *Plan and recruit your workforce*.
+ 
+4. *Forecast to plan*, which hconnects to 3. *Plan and recruit your workforce*.
 
-4. *Hire to retire*, which connects to b. *Plan and recruit your workforce*.
+5. *Inventory to deliver*, which connects to 3. *Plan and recruit your workforce*.
 
-5. *Order to cash*, which connects to b. *Plan and recruit your workforce*.
+6. *Order to cash*, which connects to 3. *Plan and recruit your workforce*.
 
-6. *Plan to produce*, which has parallel branches to b. *Plan and recruit your workforce*, i. *Define employee skills and competencies*, and ii. *Manage employee learning and development*.
+7. *Plan to produce*, which has parallel branches to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*.
 
-7. *Procure to pay*, which connects to b. *Plan and recruit your workforce*.
+8. *Procure to pay*, which has unshown parallel branches that connect to 3. *Plan and recruit your workforce* and *Manage travel and expenses*.
 
-8. *Concept to market*, which connects to b. *Plan and recruit your workforce*.
+9. *Project to profit*, which has unshown parallel branches connect to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*, and 4.iv. *Manage travel and expenses*.
 
-9. *Record to report*, which connects to b. *Plan and recruit your workforce*.
+10. *Record to report*, which connects to 3. *Plan and recruit your workforce*.
 
-10. *Service to cash*, which connects to b. *Plan and recruit your workforce*.
+11. *Service to cash*, which has unshown parallel branches connect to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*, and 4.iv. *Manage travel and expenses*.
 
 The following end-to-end downstream processes also connect to End:
 
@@ -251,7 +243,7 @@ The following end-to-end downstream processes also connect to End:
 
 - *Forecast to plan*
 
-- *Hire to retire*
+- *Inventory to deliver*
 
 - *Order to cash*
 
@@ -259,7 +251,7 @@ The following end-to-end downstream processes also connect to End:
 
 - *Procure to pay*
 
-- *Concept to market*
+- *Design to retire*
 
 - *Project to profit*
 

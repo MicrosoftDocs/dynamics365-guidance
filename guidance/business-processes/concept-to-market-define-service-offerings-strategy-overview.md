@@ -25,7 +25,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Define service offerings and strategy process flow 
 
-The following diagram illustrates the *define service offerings and strategy* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *define service offerings and strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/concept-to-market-define-service-offer-strategy-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/concept-to-market-define-service-offer-strategy-flow.svg":::
 

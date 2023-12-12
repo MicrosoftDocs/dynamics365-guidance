@@ -75,7 +75,7 @@ Given that the documentation of work order creation methods and required content
 
 ## Create work orders process flow 
 
-The following diagram illustrates the *Create work orders* business process area.
+The following diagram illustrates the *Create work orders* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/service-to-cash-graphics-create-work-orders-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/service-to-cash-graphics-create-work-orders-flow.svg":::
 

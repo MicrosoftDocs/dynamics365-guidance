@@ -35,7 +35,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Plan supply and replenishment process flow 
 
-The following diagram illustrates the *plan supply and replenishment* business process area.
+The following diagram illustrates the *plan supply and replenishment* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/forecast-to-plan-plan-supply-replenishment.SVG" alt-text="Flow diagram with steps for the process of maintaining assets that is further explained in the next paragraphs." lightbox="media/forecast-to-plan-plan-supply-replenishment.SVG":::
 

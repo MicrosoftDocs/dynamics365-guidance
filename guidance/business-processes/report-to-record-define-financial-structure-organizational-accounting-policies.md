@@ -43,7 +43,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Define financial structure and organizational accounting policies process flows
 
-The following diagram illustrates the business process flows for the *define financial structure and organizational accounting policies* area.
+The following diagram illustrates the business process flows for the *define financial structure and organizational accounting policies* area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/record-to-report-define-financial-structure-org-acc-policies.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/record-to-report-define-financial-structure-org-acc-policies.svg":::
 

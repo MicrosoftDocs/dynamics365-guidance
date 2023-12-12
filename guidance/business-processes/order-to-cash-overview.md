@@ -81,7 +81,7 @@ The order to cash process interacts with the following product-specific capabili
 
 ## Order to cash business process flow
 
-The following diagram shows the high-level flow of the order to cash business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the order to cash business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/order-to-cash-process-flow.svg" alt-text="Diagram of the order to cash process flow in an organization." lightbox="media/order-to-cash-process-flow.svg":::
 

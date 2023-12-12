@@ -1,7 +1,7 @@
 ---
 title: Run production operations overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for running production operations.
-ms.date: 07/25/2023
+ms.date: 12/06/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -37,7 +37,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Run production operations process flow
 
-The following diagram shows the high-level flow of the *run production operations* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram shows the high-level flow of the *run production operations* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/execute-production-operations-flow.svg" alt-text="Execute production operations process flow" lightbox="media/execute-production-operations-flow.svg":::
 

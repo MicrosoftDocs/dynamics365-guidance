@@ -142,7 +142,7 @@ There are product-specific capabilities that interact with the *inventory to del
 
 ## Inventory to deliver business process flow
 
-The following diagram shows the high-level flow of the *inventory to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *inventory to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/inventory-to-deliver2.png"  lightbox="media/inventory-to-deliver2.png" alt-text="inventory to deliver end-to-end process flow diagram":::
 
