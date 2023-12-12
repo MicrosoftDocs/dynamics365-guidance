@@ -36,7 +36,7 @@ In conclusion, the business process catalog offers customers and partners a valu
 > [!NOTE]
 > In this article, we assume that you use [Azure Boards](/azure/devops/boards/?view=azure-devops&preserve-view=true), and that you have downloaded the catalog.
 
-[!INCLUDE [daf-bus-proces-download](../includes/daf-bus-proces-download.md)]
+[!INCLUDE [daf-bus-proces-download](~/../shared-content/shared/guidance-includes/daf-bus-proces-download.md)]
 
 ## Before you import
 

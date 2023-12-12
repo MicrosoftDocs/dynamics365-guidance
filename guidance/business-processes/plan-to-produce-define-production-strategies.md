@@ -1,7 +1,7 @@
 ﻿---
 title: Define production strategies overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for defining production strategies.
-ms.date: 12/01/2023
+ms.date: 12/06/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -31,7 +31,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Define production strategies process flow 
 
-The following diagram illustrates the *Define production strategies* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *Define production strategies* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-define-prod-strategies.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/plan-to-produce-define-prod-strategies.svg":::
 

@@ -43,7 +43,7 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the high-level business process flow for planning and budgeting assets.
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/acquire-to-dispose-plan-budget-assets.svg" alt-text="Flow diagram with steps for the process of maintaining assets that is explained further in the next paragraphs." lightbox="media/acquire-to-dispose-plan-budget-assets.svg":::
 

@@ -48,7 +48,7 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the high-level business process flow for monitoring customer credit and collections. There are several entry points for the subprocesses described in the diagram including one from the prospect to quote end-to-end process, and several from the order to cash end-to end process.
 
-The following diagram shows the high-level flow of the *monitor customer credit and collections* business process area. Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the *monitor customer credit and collections* business process area. The diagram shows the subprocesses for this business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+The following diagram shows the high-level flow of the *monitor customer credit and collections* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/order-to-cash-monitor-customer-credit-collections-process-flow.svg" alt-text="Monitor customer credit and collections process flow." lightbox="media/order-to-cash-monitor-customer-credit-collections-process-flow.svg":::
 

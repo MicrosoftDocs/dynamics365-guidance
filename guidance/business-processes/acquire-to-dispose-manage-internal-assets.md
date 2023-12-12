@@ -53,7 +53,7 @@ The following diagram shows the high-level business process flow for managing in
 
 :::image type="content" source="media/aquire-to-dispose-manage-internal-assets.svg" alt-text="Flow diagram with steps for the business process area that is further explained in the next paragraphs." lightbox="media/aquire-to-dispose-manage-internal-assets.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 The manage internal asset business process area flow diagram covers the following steps.
 

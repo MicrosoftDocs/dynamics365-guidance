@@ -13,7 +13,7 @@ ms.custom: bap-template #Required; don't change.
 
 Dynamics 365 supports many different industries and types of organizations. In this section, we provide an overview of end-to-end scenarios that organizations often look for. Dynamics 365 is a suite of applications that are designed to help organizations meet the organizational goals aligned to various business processes in specific industries.  
 
-[!INCLUDE [daf-business-process-def](../includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts.  
+[!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts.  
 
 > [!TIP]
 > For an introduction to our project with the business process documentation, see [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, see [Business processes, steps, and how to find things](about-steps-navigation.md). For an overview of business terms, see [Glossary of terms in Dynamics 365 business processes](glossary.md).  
@@ -28,7 +28,7 @@ The following table provides links to the introduction, overview, and list of bu
 |--|--|--|--|
 | Acquire to dispose | [Introduction](acquire-to-dispose-introduction.md) | [End-to-end overview](acquire-to-dispose-overview.md) | [Areas](acquire-to-dispose-areas.md) |
 | Case to resolution | [Introduction](case-to-resolution-introduction.md) | [End-to-end overview](case-to-resolution-overview.md) | [Areas](case-to-resolution-areas.md) |
-|Concept to market|[Introduction](concept-to-market-introduction.md)|[End-to-end overview](concept-to-market-overview.md)|[Concept to market business process areas](concept-to-market-areas.md)|
+|Concept to market|[Introduction](concept-to-market-introduction.md)|[End-to-end overview](concept-to-market-overview.md)|[Areas](concept-to-market-areas.md)|
 | Forecast to plan overview | [Introduction](forecast-to-plan-introduction.md) | [End-to-end overview](forecast-to-plan-overview.md) | [Areas](forecast-to-plan-areas.md) |
 | Hire to retire | [Introduction](hire-to-retire-introduction.md) | [End-to-end overview](hire-to-retire-overview.md) | [Areas](hire-to-retire-areas.md) |
 | Inventory to deliver | [Introduction](inventory-to-deliver-introduction.md) | [End-to-end overview](inventory-to-deliver-overview.md) | [Areas](inventory-to-deliver-areas.md) |

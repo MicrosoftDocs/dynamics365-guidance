@@ -1,7 +1,7 @@
 ---
 title: Control production quality overview
 description: Get an overview of the business process area for controlling production quality in the plan to produce end-to-end business process in Dynamics 365 solutions.
-ms.date: 07/24/2023
+ms.date: 12/06/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -35,7 +35,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Control production quality process flow 
 
-The following diagram illustrates the *control production quality* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *control production quality* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-control-production-quality-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/plan-to-produce-control-production-quality-flow.svg":::
 

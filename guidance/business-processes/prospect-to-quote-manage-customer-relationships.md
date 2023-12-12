@@ -31,7 +31,7 @@ Throughout the customer lifecycle, teams track satisfaction metrics and loyalty 
 
 The following diagram illustrates the key steps in the *manage customer relationships* business process area.
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/prospect-to-quote-manage-customer-relations.svg" alt-text="Flow diagram for the manage customer relationships business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-manage-customer-relations.svg":::
 

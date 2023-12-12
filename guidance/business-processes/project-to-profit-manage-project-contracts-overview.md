@@ -54,6 +54,8 @@ These stakeholders collectively contribute to the successful execution of the pr
 
 The manage project contracts process involves gathering client requirements, estimating resources, determining costs, creating a proposal, and presenting it to the client. It aims to establish a clear scope, timeline, and budget for the project.
 
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+
 :::image type="content" source="media/project-to-profit-manage-project-contracts-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/project-to-profit-manage-project-contracts-flow.svg":::
 
 1. Start

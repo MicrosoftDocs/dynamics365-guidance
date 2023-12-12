@@ -112,7 +112,7 @@ These features are dependent on or closely related to the *prospect to quote* bu
 
 ## Prospect to quote business process flow
 
-The following diagram shows the high-level flow of the *prospect to quote* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *prospect to quote* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/prospect-to-quote-flow.svg" lightbox="media/prospect-to-quote-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
 

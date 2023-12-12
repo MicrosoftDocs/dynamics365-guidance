@@ -31,7 +31,7 @@ The following key stakeholders are involved in estimating and quoting sales:
 
 The following diagram illustrates the key steps in the *estimate and quote sales* business process area.
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/prospect-to-quote-estimate-quote-sales-flow.svg" alt-text="Flow diagram for the estimate and quote sales business process area, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-estimate-quote-sales-flow.svg":::
 

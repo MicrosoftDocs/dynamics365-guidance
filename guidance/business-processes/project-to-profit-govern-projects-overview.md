@@ -46,7 +46,7 @@ The following diagram shows the high-level business process flow for *govern pro
 
 :::image type="content" source="media/project-to-profit-govern-projects.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-govern-projects.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 The following steps are illustrated in the *govern projects* business process flow diagram.
 

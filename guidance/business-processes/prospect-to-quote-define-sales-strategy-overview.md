@@ -29,7 +29,7 @@ The following diagram illustrates the *define a sales strategy* business process
 
 :::image type="content" source="media/prospect-to-quote-define-sales-strategy-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-define-sales-strategy-flow.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)]
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 The business process area flow diagram covers the following steps:
 

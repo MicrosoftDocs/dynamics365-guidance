@@ -77,7 +77,7 @@ There are product specific capabilities offered that interact with the product a
 
 ## Concept to market business process flow
 
-The following diagram shows the high-level flow of the *concept to market* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *concept to market* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/concept-to-market-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/concept-to-market-flow.svg":::
 

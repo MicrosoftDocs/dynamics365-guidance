@@ -36,6 +36,8 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the business processes in the *establish stocking and replenishment policies* area. The flow of the diagram represents the approach that most organizations use to periodically review and refresh their stocking and replenishment policies for their entire catalog of products. However, organizations must also establish stocking and replenishment policies for new items. Alternatively, they must update their policies for specific items on an ad-hoc basis. Although the process diagram doesn't show this alternate scenario, the business processes are generally the same in both scenarios.
 
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+
 :::image type="content" source="media/forecast-to-plan-establish-stock-policies-flow.SVG" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
 
 The following steps are illustrated in the *establish stocking and replenishment policies* business process flow diagram.

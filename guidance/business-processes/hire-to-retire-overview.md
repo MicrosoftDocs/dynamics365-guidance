@@ -173,7 +173,7 @@ There are product specific capabilities offered that interact with the *hire to 
 
 ## Hire to retire business process flow
 
-The following diagram shows the high-level flow of the *hire to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](../includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *hire to retire* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/hire-to-retire-flow.png"  lightbox="media/hire-to-retire-flow.png" alt-text="inventory to deliver end-to-end process flow diagram":::
 

@@ -41,7 +41,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Comply with tax audit and regulatory requirements process flow 
 
-The following diagram illustrates the *comply with tax, audit, and regulatory requirements* business process area.
+The following diagram illustrates the *comply with tax, audit, and regulatory requirements* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/record-to-report-comply-tax-audit-reg-reqs-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/record-to-report-comply-tax-audit-reg-reqs-flow.svg":::
 

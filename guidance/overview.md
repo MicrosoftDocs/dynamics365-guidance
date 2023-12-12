@@ -23,7 +23,7 @@ Find related content at [Power Platform guidance documentation](/power-platform/
 
 ## End-to-end business processes
 
-[!INCLUDE [daf-business-process-def](includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts. Dynamics 365 is a suite of applications that are designed to help organization meet the organizational goals aligned to a variety of business processes focused on specific industries.
+[!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts. Dynamics 365 is a suite of applications that are designed to help organization meet the organizational goals aligned to a variety of business processes focused on specific industries.
 
 We've structured our business process content into four levels:
 

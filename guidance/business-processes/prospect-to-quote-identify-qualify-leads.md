@@ -1,7 +1,7 @@
 ---
 title: Identify and qualify leads overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for identifying and qualifying leads.
-ms.date: 10/31/2023
+ms.date: 12/07/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
@@ -30,7 +30,7 @@ Proactive lead management is vital for driving sales growth. Dynamics 365 enable
 
 The following diagram illustrates the *identify and qualify leads* business process area.
 
-Each solid gray rectangle in the diagram represents an end-to-end business process. The solid blue rectangle represents the *plan and budget assets* business process area. The diagram shows the subprocesses for this business process area. The arrows in the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/prospect-to-quote-identify-qualify-leads-flow.svg" alt-text="Flow diagram for the identify and qualify leads business process area, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-identify-qualify-leads-flow.svg":::
 
