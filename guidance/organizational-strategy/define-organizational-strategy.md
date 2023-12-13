@@ -65,6 +65,9 @@ A company is a type of legal entity and is currently the only type of legal enti
 
 Some types of transactions can cross legal entities, namely *intercompany transactions*. Dynamics 365 supports [intercompany accounting](/dynamics365/finance/general-ledger/intercompany-accounting-setup) with financial journal entries that [cross companies](/dynamics365/finance/general-ledger/example-balanced-journals-interunit-accounting). With Supply Chain Management, you can set up [intercompany trade](/dynamics365/supply-chain/sales-marketing/intercompany-trade-set-up) to handle sales, purchase, or project transactions that cross companies.
 
+> [!IMPORTANT]
+> When you create a legal entity the value for the ID of the legal entity becomes the ID of the company and a new Data Area ID. You cannot make changes to the unique identifier of the legal entity after the legal entity is saved. Use caution and plan carefully how you create your legal entities as a first step in any implementation. If a legal entity is created in error or needs to be modified later, there is no mechanism to edit the legal entity ID, or all the data related to that legal entity ID. You must create a new legal entity and perform any necessary configurations and data migration in the new legal entity. 
+
 ### Business units
 
 In customer engagement apps, a business unit is a logical grouping of related business activities.
