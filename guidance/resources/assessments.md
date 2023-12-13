@@ -5,7 +5,7 @@ author: edupont04
 ms.author: edupont
 ms.topic: overview
 ms.collection: get-started
-ms.date: 10/31/2023
+ms.date: 12/13/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -29,6 +29,9 @@ The following assessments can help you to skill up, build expertise and implemen
 - [Dynamics 365 finance and operations feature usage excellence](/assessments/388159e6-55f1-4287-86fa-09032f5ad812/)  
 
   This assessment takes you through product capabilities that enhance productivity, increase usability, and save time for business users.  
+- [Synapse Link and Dynamics 365 data adoption guidance](/assessments/ddc2a292-2080-4770-99a3-b3a9d284fc8b/) 
+
+  This assessment covers how to work with Dynamics 365 data in Azure Synapse Link for Dataverse. It provides guidance on how you can combine Synapse Link for Dataverse, Dynamics 365 data, and Microsoft Fabric. It includes architecture patterns, recommendations, and informative resources for Synapse Link adoption journeys.
 
 ## Capacity building
 
