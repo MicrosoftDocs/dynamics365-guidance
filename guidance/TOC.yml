@@ -875,7 +875,7 @@ items:
       - name: Reference architectures 
         href: reference-architectures/index.yml
         items:
-        - name: Copilot for Customer Service architecture
+        - name: Copilot in Customer Service architecture
           href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
 # FastTrack
       - name: FastTrack for Dynamics 365

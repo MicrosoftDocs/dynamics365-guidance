@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="1259.6421"
-   height="589.37048"
+   width="1250.3801"
+   height="567.66943"
    overflow="hidden"
    version="1.1"
-   id="svg515"
+   id="svg519"
    sodipodi:docname="architecture-copilot-dynamics365-customer-service.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -13,7 +13,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview517"
+     id="namedview521"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -22,15 +22,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.1789063"
-     inkscape:cx="639.57588"
-     inkscape:cy="305.36779"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="2725"
-     inkscape:window-y="-11"
+     inkscape:zoom="0.9453125"
+     inkscape:cx="633.65289"
+     inkscape:cy="279.80165"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg515" />
+     inkscape:current-layer="svg519" />
   <defs
      id="defs197">
     <filter
@@ -567,16 +567,16 @@
     </linearGradient>
   </defs>
   <g
-     id="g513"
-     transform="translate(0,-54.287609)">
+     id="g517"
+     transform="translate(-6.3471074,-80.396698)">
     <rect
-       x="0"
-       y="54.287609"
-       width="1259.6421"
-       height="589.37048"
+       x="6.3471074"
+       y="80.396698"
+       width="1250.3801"
+       height="567.66943"
        fill="#ffffff"
        id="rect199"
-       style="stroke-width:0.897525" />
+       style="stroke-width:0.877601" />
     <path
        d="m 310.658,236.207 129.044,69.704 -0.317,0.587 -129.043,-69.705 z m 129.613,65.844 5.138,7.322 -8.94,-0.283 z"
        fill="#4472c4"
@@ -656,14 +656,14 @@
        transform="translate(1002.75,397)"
        id="text227">OpenAI</text>
     <path
-       d="M 0.0084884,-0.333225 193.555,4.59707 193.538,5.26352 -0.0084884,0.333225 Z M 192.315,0.897628 200.21,5.10005 192.111,8.89503 Z"
+       d="M 0.00147791,-0.33333 196.879,0.53958 196.876,1.20624 -0.00147791,0.33333 Z M 195.562,-3.13296 l 7.982,4.035427 -8.018,3.964493 z"
        fill="#4472c4"
-       transform="matrix(1,0,0,-1,601.5,369.6)"
+       transform="matrix(1,0,0,-1,598.5,365.403)"
        id="path229" />
     <path
-       d="M 0.00568201,-0.333285 209.94,3.24578 209.928,3.91235 -0.00568201,0.333285 Z M 208.669,-0.443084 216.6,3.6927 208.533,7.55575 Z"
+       d="M 0.00647448,-0.33327 216.224,3.86722 216.212,4.53376 -0.00647448,0.33327 Z M 214.962,0.175341 l 7.921,4.154629 -8.076,3.84386 z"
        fill="#4472c4"
-       transform="matrix(-1,0,0,1,805.1,384.5)"
+       transform="matrix(-1,0,0,1,811.383,384.5)"
        id="path231" />
     <path
        d="m 864,374 c 0,-16.569 19.476,-30 43.5,-30 24.024,0 43.5,13.431 43.5,30 0,16.569 -19.476,30 -43.5,30 -24.024,0 -43.5,-13.431 -43.5,-30 z"
@@ -988,7 +988,7 @@
        font-weight="400"
        font-size="16px"
        transform="translate(572.957,187)"
-       id="text385">Dynamics 365 Service boundary</text>
+       id="text385">Service boundary for Dynamics 365</text>
     <text
        font-family="Calibri, Calibri_MSFontService, sans-serif"
        font-weight="400"
@@ -1265,7 +1265,7 @@
        font-family="Calibri, Calibri_MSFontService, sans-serif"
        font-weight="400"
        font-size="16px"
-       transform="translate(317.679,296)"
+       transform="translate(317.679,300)"
        id="text485">User prompts</text>
     <text
        font-family="Calibri, Calibri_MSFontService, sans-serif"
@@ -1295,7 +1295,7 @@
        font-family="Calibri, Calibri_MSFontService, sans-serif"
        font-weight="400"
        font-size="16px"
-       transform="translate(661.124,354)"
+       transform="translate(654.077,343)"
        id="text495">Modified prompt</text>
     <text
        font-family="Calibri, Calibri_MSFontService, sans-serif"
@@ -1342,13 +1342,25 @@
        font-family="Calibri, Calibri_MSFontService, sans-serif"
        font-weight="700"
        font-size="37px"
-       transform="translate(660.051,90)"
-       id="text509">Copilot for</text>
+       transform="translate(318.175,117)"
+       id="text509">Copilot</text>
     <text
        font-family="Calibri, Calibri_MSFontService, sans-serif"
        font-weight="700"
        font-size="37px"
-       transform="translate(491.411,135)"
-       id="text511">Dynamics 365 Customer Service</text>
+       transform="translate(437.842,117)"
+       id="text511">in</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="37px"
+       transform="translate(475.508,117)"
+       id="text513">Dynamics</text>
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="37px"
+       transform="translate(633.675,117)"
+       id="text515">365 Customer Service</text>
   </g>
 </svg>

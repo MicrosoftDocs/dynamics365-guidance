@@ -106,7 +106,7 @@ productDirectory:
     - title: Reference architectures
       imageSrc: media/sample-coe.svg
       links:
-      - text: Copilot for Customer Service architecture
+      - text: Copilot in Customer Service architecture
         url: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
 
 # conceptualContent section - max # subsections=3, max # cards/section=18
