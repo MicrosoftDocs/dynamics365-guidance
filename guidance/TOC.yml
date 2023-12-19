@@ -695,6 +695,8 @@ items:
             href: business-processes/inventory-to-deliver-areas.md
           - name: Manage freight and transportation
             href: business-processes/inventory-to-deliver-manage-freight-transportation.md
+          - name: Record and manage inventory costs
+            href: business-processes/inventory-to-deliver-record-manage-inventory-costs.md
         - name: Order to cash
           items:
           - name: End-to-end scenario - order to cash

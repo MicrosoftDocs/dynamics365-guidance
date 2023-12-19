@@ -1,7 +1,7 @@
 ---
 title: Manage freight and transportation overview
 description: Read about the business process area for managing freight and transportation in Dynamics 365 implementations.
-ms.date: 07/13/2023
+ms.date: 12/08/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: ngump
@@ -33,7 +33,7 @@ The following diagram shows the high-level flow of the *Manage freight and trans
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/inventory-to-deliver-manage-freight-transport-flow.svg" alt-text="Diagram that shows business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-manage-freight-transport-flow.svg":::
+:::image type="content" source="media/inventory-to-deliver-manage-freight-transportation-flow.svg" alt-text="Diagram that shows business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-manage-freight-transportation-flow.svg":::
 
 The following steps are illustrated in the *Manage freight and transportation* business process flow diagram.
 
@@ -93,12 +93,15 @@ Dynamics 365 Supply Chain Management has transportation rating and routing capab
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *Inventory to deliver* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *manage freight and transportation* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
 
-- Define the goals and objectives of implementing an *Inventory to deliver* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
-- Define the business process scope of your project. Learn more at [Process-focused solution.md](../implementation-guide/process-focused-solution.md).
-- Request a demo, or get a free trial of Dynamics 365 solutions for the *Inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
-- Get an overview of the *Inventory to deliver* process. Learn more at [Inventory to deliver overview](inventory-to-deliver-overview.md).
+1. Define and manage warehouse operations
+2. Maintain inventory levels
+3. Process inbound goods
+4. Process outbound goods
+5. Manage inventory quality
+6. Manage freight and transportation (the article that you're currently reading)  
+7. [Record and manage inventory costs](inventory-to-deliver-record-manage-inventory-costs.md) (the article that you're currently reading)  
 
 ## Related resources
 
