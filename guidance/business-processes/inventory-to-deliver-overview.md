@@ -1,7 +1,7 @@
 ﻿---
 title: Inventory to deliver end-to-end overview
 description: Learn about the end-to-end business process, from inventory to deliver. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 03/22/2023
+ms.date: 12/08/2023
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -18,7 +18,7 @@ This article provides a high-level flow diagram and an overview for each of the 
 
 The following diagram shows the relationship of other processes and products/features for the *inventory to deliver* process.
 
-:::image type="content" source="media/inventory-to-deliver1.png" lightbox="media/inventory-to-deliver1.png" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/inventory-to-deliver-relationship.svg" lightbox="media/inventory-to-deliver-relationship.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
 
 The upstream processes for the *inventory to deliver* process include the following.
 
@@ -144,7 +144,7 @@ There are product-specific capabilities that interact with the *inventory to del
 
 The following diagram shows the high-level flow of the *inventory to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/inventory-to-deliver2.png"  lightbox="media/inventory-to-deliver2.png" alt-text="inventory to deliver end-to-end process flow diagram":::
+:::image type="content" source="media/inventory-to-deliver-flow.svg"  lightbox="media/inventory-to-deliver-flow.svg" alt-text="Inventory to deliver end-to-end process flow diagram":::
 
 The following steps are illustrated in the *inventory to deliver* end-to-end business process flow diagram.
 

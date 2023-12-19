@@ -21,7 +21,7 @@ landingContent:
     linkLists:
     - linkListType: get-started
       links:
-      - text: Copilot for Customer Service architecture
+      - text: Copilot in Customer Service architecture
         url: dynamics-365-customer-service-copilot-architecture.md
     - linkListType: learn
       links:

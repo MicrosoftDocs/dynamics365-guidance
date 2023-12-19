@@ -1,16 +1,16 @@
 ---
 title: Copilot in Dynamics 365 Customer Service architecture
-description: View the architecture diagram to understand how Microsoft Copilot for Customer Service works.
+description: View the architecture diagram to understand how Copilot works in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.custom: bap-template
-ms.date: 12/05/2023
+ms.date: 12/18/2023
 ms.collection:
 ---
 
-# Copilot for Customer Service architecture
+# Copilot in Customer Service architecture
 
 The following architecture diagram provides a visual representation of how Microsoft Copilot for Customer Service works. This solution is a generalized architecture pattern, which can be used for many different scenarios and industries.  
 
@@ -75,7 +75,7 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 
 ## Next step
 
-- [Digital Contact Center Platform guidance overview](/digital-contact-center-platform/digital-contact-center-platform)  
+- [Dynamics 365 Customer Service implementation optimization resources](../resources/cs-index.yml)  
 
 
 ## Related resources

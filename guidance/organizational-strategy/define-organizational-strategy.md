@@ -1,7 +1,7 @@
 ---
 title: Define the organizational structure
 description: Learn how the organizational structure determines how you can configure and deploy Dynamics 365 for business processes.
-ms.date: 10/05/2023
+ms.date: 12/14/2023
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -64,6 +64,9 @@ In finance and operations apps, two other terms and concepts are tightly related
 A company is a type of legal entity and is currently the only type of legal entity you can create. In other words, the terms *legal entity* and *company* are synonymous. The ID of the legal entity is also the ID of the company. When you perform configurations and process transactions, you must specify the *company* that the transactions and configuration apply to. Most tables that store the data have a **DataAreaID** column. The data area ID is the ID of the company or legal entity. With the values in this table column, you can filter and group data throughout the system by the company or legal entity it belongs to. The exception to this rule is tables that are shared globally throughout the system. Examples of shared tables include workers, products, and chart of accounts, to name a few.
 
 Some types of transactions can cross legal entities, namely *intercompany transactions*. Dynamics 365 supports [intercompany accounting](/dynamics365/finance/general-ledger/intercompany-accounting-setup) with financial journal entries that [cross companies](/dynamics365/finance/general-ledger/example-balanced-journals-interunit-accounting). With Supply Chain Management, you can set up [intercompany trade](/dynamics365/supply-chain/sales-marketing/intercompany-trade-set-up) to handle sales, purchase, or project transactions that cross companies.
+
+> [!IMPORTANT]
+> When you create a legal entity, the ID of the legal entity becomes the ID of the company and a new *data area ID*. You can't change the unique identifier of the legal entity once the legal entity is saved. Use caution and plan carefully how you create your legal entities as a first step in any implementation project. If you create a legal entity in error, or you want to change it later, there's no mechanism to edit the legal entity ID, or any data that is related to that legal entity ID. You must create a new legal entity and then make any relevant configurations and data migration in the new legal entity. 
 
 ### Business units
 

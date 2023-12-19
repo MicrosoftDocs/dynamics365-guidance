@@ -15,8 +15,12 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
-  "sync_notification_subscribers": [],
+  "notification_subscribers": [
+    "edupont@microsoft.com"
+  ],
+  "sync_notification_subscribers": [
+    "edupont@microsoft.com"
+  ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365-guidance",
   "git_repository_branch_open_to_public_contributors": "main",
