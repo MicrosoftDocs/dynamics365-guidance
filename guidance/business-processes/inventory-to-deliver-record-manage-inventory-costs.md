@@ -1,7 +1,7 @@
 ﻿---
 title: Record and manage inventory costs overview
 description: Read about the business process area for recording and managing inventory costs in Dynamics 365 implementations.
-ms.date: 12/08/2023
+ms.date: 12/19/2023
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -62,7 +62,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Record and manage inventory costs process flow 
 
-The following diagram illustrates the *record and manage inventory costs* business process area. [!INCLUDE [daf-business-process-flow-def](../includes/daf-business-process-flow-def.md)] <!--[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]-->
+The following diagram illustrates the *record and manage inventory costs* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/inventory-to-deliver-record-manage-inventory-costs-flow.svg" alt-text="Diagram of business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-record-manage-inventory-costs-flow.svg":::
 
