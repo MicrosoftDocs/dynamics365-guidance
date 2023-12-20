@@ -1,7 +1,7 @@
 ﻿---
 title: Manage project financials overview
-description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project financials.
-ms.date: 11/17/2023
+description: Learn how you can use Dynamics 365 products to support your organization's business processes to manage project financials.
+ms.date: 12/20/2023
 ms.topic: conceptual
 author: edupont04
 ms.author: mibeinar
@@ -11,27 +11,33 @@ ms.author: mibeinar
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to support organization's requirements to manage project financials. <!--internal comment: This L2 is a consolidated doc of 4 L2's(Process project invoices(already published)+Recognize project revenue(already published)+Manage project budgets+Make adjustments to transactions)-->
+This article describes how you can use Dynamics 365 products to support your organization's needs for managing project financials. <!--internal comment: This L2 is a consolidated doc of 4 L2's(Process project invoices(already published)+Recognize project revenue(already published)+Manage project budgets+Make adjustments to transactions)-->
 
 ## Introduction to manage project financials
 
-The *manage project financials* business process area focuses on managing the financial data associated with the project work. It involves generating, processing, and reviewing invoices according to contractual arrangements. It also involves tracking payments, managing project budgets, adjusting project transactions, and recognizing project revenue. *Manage project financials* helps make sure the organization has correct and accurate project financial data associated with the project, which helps guarantee healthy cash flow for an organization, timely recognition of revenue, and effective planning.
+The *manage project financials* business process area focuses on managing the financial data associated with project-related activities. It involves generating, processing, and reviewing invoices according to contractual arrangements. It also involves tracking payments, managing project budgets, adjusting project transactions, and recognizing project revenue. The *manage project financials* business process ensures the accuracy of the financial data linked to the project, thereby ensuring a healthy cash flow for your organization.
 
-*Manage project financials* is an essential step in the *project to profit* end-to-end business process flow. For project-based organizations, a structured and defined approach to managing project financials is critical to prevent financial risks and payment delays. It also helps ensure control and completion of project work within the organization.
+*Manage project financials* is an essential step in the *project to profit* end-to-end business process flow. Maintaining a structured and well-defined approach to project financial management is critical to prevent financial risks and payment delays. It also helps ensure control and successful completion of project task in your organization.
 
-The *manage project financials* business process area should be defined and incorporated into the overall implementation during the plannings phase. This phase typically occurs at the beginning of a project's lifecycle and involves establishing project goals, defining project scope, and developing a detailed project plan.
+The *manage project financials* business process should be outlined and incorporated into the overall implementation during the planning phase. Typically occurring at the project's launch, this phase involves setting project goals, defining project scope, and developing a detailed project plan.
 
-## Stakeholders 
+## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the manage project invoices area. The following list provides examples of such stakeholders:
+Various individuals throughout your organization should participate in the design of the *manage project financials* business process. The following list provides examples of such stakeholders:
 
-- **Project managers** – responsible for managing project billing backlog and project budget, estimation and accruals, resource allocation and cost tracking. Depending on defined organizations' processes, project managers might also be accountable for reviewing and approving project transactions or preparing proforma invoices.
+- **Project manager**: The project manager is responsible for overseeing the entire project. The project manager has the following assigned task:
+  - overseeing the project billing backlog
+  - managing the project budget
+  - handling estimations and accruals
+  - overseeing resource allocation and cost tracking
+  
+  Depending on your organization's processes, a project manager might also be responsible for reviewing and approving project transactions or preparing proforma invoices.
 
-- **Project accountants**/**Accounts receivable clerks** – responsible for creation of complaint and accurate customer-facing invoice documents, revenue posting and review of project budget and reporting preparation (actual vs. forecasted, expenses. costs, and so on).
+- **Project accountant**/**Accounts receivable clerk**: This individual is responsible for generating precise and accurate customer-facing invoice documents, posting revenue, and reviewing the project's budget.
 
-- **Finance department** – responsible for financial supervision, financial project reporting and analysis.
+- **Finance department**: The finance department is tasked with overseeing financial matters, conducting financial project reporting and performing analysis.
 
-- **Executive leadership** – responsible for project oversight and alignment with strategic organization's goals, which helps in secure the necessary resources and funding.
+- **Executive leadership**: Executives are responsible for project oversight and ensuring alignment with the strategic goals of the organization.
 
 ## Manage project financials process flow
 
@@ -45,72 +51,76 @@ The *manage project financials* business process area flow diagram covers the fo
 
 1. Start
 
-2. *Project to profit* end-to-end process
-
-    A parallel branch to this end-to-end process is the *Record to report* end-to-end process  
+1. *Project to profit* end-to-end process
+ (A parallel branch to this process is the *Record to report* end-to-end process.)  
 
     1. *Define ledger structure and currency policies*
 
-    2. *Manage project financials*
+    1. *Manage project financials*
 
         1. Estimate project
 
-        2. Review and approve project estimates
+        1. Review and approve project estimates
 
-        3. Condition *Is approved?*
+        1. Condition *Is approved?*
 
               1. A branch for **Yes** leads to *iv. Manage project budgets*
 
-              2. A parallel branch for **No** leads to subprocess *Adjust estimate*, which connects back to *i. Estimate project*
-        <!--Downstream to this sub-process is *i.Estimate project* -->
+              1. A parallel branch for **No** leads to subprocess *Adjust estimate*, which connects back to *i. Estimate project*
+            <!--Downstream to this sub-process is *i.Estimate project* -->
 
-        4. Manage project budgets
+        1. Manage project budgets
 
-        5. Create project invoices
+        1. Create project invoices
 
-        6. Record project fees
+        1. Record project fees
 
-        7. Allocate project transactions
+        1. Allocate project transactions
 
-        8. Condition "Correction required?"
+        1. Condition "Correction required?"
 
               1. A branch for **No** leads to *ix. Manage and record project revenue*
 
-              2. A parallel branch for **Yes** leads to *Correct project transactions*
+              1. A parallel branch for **Yes** leads to *Correct project transactions*
 
-        <!-- Downstream to this sub-process is *ix. Manage and record project revenue* -->
+            <!-- Downstream to this sub-process is *ix. Manage and record project revenue* -->
 
-        9. Manage and record project revenue
+        1. Manage and record project revenue
 
-        10. Analyze project transactions
+        1. Analyze project transactions
 
-3. *Project to profit* end-to-end process
+1. *Project to profit* end-to-end process
 
     1. *Govern projects*
 
-    Parallel branches of this subprocess are the subprocesses *Manage project contracts*, *Manage project resources and schedules*, and *Manage project delivery*
+        Parallel branches of this subprocess are:
 
-    <!-- Downstream of these branches is a subprocess *b.Manage project financials* -->
+      - *Manage project contracts*
+      - *Manage project contracts*
+      - *Manage project resources and  schedules*
+      - *Manage project delivery*
 
-4. End
+        <!-- Downstream of these branches is a subprocess *b.Manage project financials* -->
+
+1. End
 
 ## Manage project financials benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the management of project financials. The following sections outline the key benefits that an organization might monitor and measure for project financials management.
+There are several factors that can be employed to monitor and measure the success of integrating technology to support the management of project financials. The following section outlines the key benefits that an organization might monitor and measure for project financials management.
 
 ### Advanced financial and resource management
 
-A project budget can be created for all types of projects. Advanced project finance management solutions improve financial and resource management for various types of your organization's projects by helping project managers identify potential project risks, such as overspending and ineffective management of costs, and take action to mitigate them. It also enables them to prioritize tasks, track project expenses and allocate resources effectively. Project budget management allows financial transparency that contributes to fact-based decision-making by providing project managers with accurate financial data and an effective way to monitor project progress.
+Advanced project finance management solutions improve financial and resource management for your organization's projects. These tools help project managers identify potential project risks, such as overspending. They also enable project managers to prioritize tasks, track project expenses and allocate resources effectively. Project budget management offers financial transparency, aiding project managers in making informed decisions based on accurate financial data.
 
 Learn more at [Configure accounting for billable projects](/dynamics365/project-operations/project-accounting/configure-accounting-billable-projects#define-project-cost-and-revenue-profiles).  
 
 ### Flexible invoice consolidation and control
 
-Leading project finance management systems allow invoice consolidation for the projects across the same project contract. Invoice control supports tracking of both invoiced and non-invoiced transactions, and analysis of those transactions against quotations for an end-to-end view of a project. This allows organizations to be more flexible in providing the most suitable and preferred billing method for the customers. In addition, an easy option to add or update details, group transactions, customize invoices and manage billing queues, ensure faster invoice processing, and helps with cash-flow management.
+Top-level project finance management systems enable the consolidation of invoices for projects across the same project contract. Invoice control helps monitor both invoiced and noninvoiced transactions. It also provides an end-to-end view of a project by analyzing such transactions against quotations. The outcome of this business process allows your organization to offer customers the most suitable and preferred billing method. In the end, a streamlined invoice control process ensures faster invoice processing and helps with cash-flow management.
 
 ### Efficient and automatic invoicing
 
-Dynamics 365 project invoicing solutions has an option for billing schedules and rules that provides flexibility for fixed-priced projects to be invoiced based on defined terms of one or more milestones. For example, the following customer billing scheduled can be set up:
+Dynamics 365 project invoicing solutions offer flexibility for fixed-priced projects. The tools allow determining invoice creation based on defined terms and milestones using billing schedules and rules. For instance, you can establish the following customer billing schedule:
 
 - 20 percent when the project contract is signed
 
@@ -126,33 +136,41 @@ For organizations that use Dynamics 365 Project Operations and Dynamics 365 Fina
 
 ### Real-time visibility of project's progress and profitability
 
-Successful project financials management relies on flexible project financial tracking for various project budgets, your planned project tasks, resources, resource units, and different types and categories of financial transactions. The visibility of overall budget based on these areas, and the ability to track, amend, and automatically match project actuals against budgeted amounts, allows you to see variants between budgeted and actual amount and take proactive actions where possible. If more budget is allocated to the project, or if the contract is updated based on spending, the project manager can revise the budget so that it reflects the new forecasts.
+Successful project financials management relies on:
+
+- flexible project financial tracking
+- planned project tasks
+- resources
+- resource units
+- different types and categories of financial transactions
+
+The overall budget's visibility enables you to identify differences between the budgeted and the actual amounts and take proactive measures when necessary. If more budget is allocated to the project, the project manager can revise the budget so that it reflects the new forecasts.
 
 Learn more at [Project management and accounting overview](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#create-projects) and [Revenue recognition overview](/dynamics365/project-operations/revenue-recognition/revenue-recognition-overview).  
 
 ### Valuable insights for future projects
 
-Leading project management solutions allow financial project forecasting and project budget amount loading from a forecast model. This feature gives flexibility to improved project budgeting and financial management based on other projects history.
+Top project management solutions enable financial project forecasting and loading project budget amounts from a forecast model. This feature provides flexibility for enhanced project budgeting and financial management, drawing insights from the history of past projects.
 
 ### Transaction adjustment
 
-Project transaction adjustment gives the possibility to correct mistakes in your financial books. Project adjustments are used, for example, to mass-update the billable status, recalculate cost after a configuration change, or update funding sources.
+Adjusting project transactions allows you to correct mistakes in your financial records. Project adjustments are used, for example, to update billable status on a large scale, recalculate cost after a configuration change, or update funding sources.
 
 ### Multiple project cost and revenue profiles and rules
 
-Dynamics 365 supports various accounting options and rules for billable projects that include time and material and fixed price transactions. Depending on the defined setup, various accounting principles are used when project transactions are journalized and then invoiced. For example, you can configure posting project cost and revenue of your short-term projects directly to the profit and loss accounts, and use work in progress (WIP) accounts for your long-term projects.
+Dynamics 365 supports various accounting options and rules for billable projects, including both time and material and fixed-price transactions. Depending on the defined setup, various accounting principles are applied when project transactions are recorded and invoiced. For example, you can set up short-term project costs and revenue to be directly recorded in profit and loss accounts, while using work in progress (WIP) accounts for long-term projects.
 
-In addition, project cost and revenue profile rules determine the project cost and revenue profile that must be used when processing any billable project transactions. You can define rules by project contract, project group, or by a specific project. Dynamics 365 always picks the rule with the highest granularity first.
+In addition, rules for project cost and revenue profiles determine the specific profiles to apply when processing billable project transactions. You can define rules by project contract, project group, or by a specific project. Dynamics 365 always picks the rule with the highest level of detail first.
 
 Learn more at [Configure accounting for billable projects](/dynamics365/project-operations/project-accounting/configure-accounting-billable-projects#define-project-cost-and-revenue-profiles).  
 
 ### Flexible revenue recognition and billing
 
-Advanced project invoicing solutions support automatic revenue estimates calculation on a period basis based on the projects forecast and actual transactions entered over the period. These calculation results can be reviewed and adjusted if needed.
+Advanced project invoicing solutions automatically calculate revenue periodically based on the forecast and actual transactions entered during that period. These calculation results can be reviewed and adjusted if needed.
 
 Learn more at [Project management and accounting overview](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#create-projects) and  [Revenue recognition overview](/dynamics365/project-operations/revenue-recognition/revenue-recognition-overview).  
 
-Subscription billing enables organizations to manage subscription revenue opportunities and recurring billing through billing schedules. An option to have a deferral schedule enables project revenue for the service to be recognized on an event-based template, or on a monthly, quarterly, yearly basis. This approach helps manage revenue for the project as it assures revenue is recognized when it's earned.
+Subscription billing enables organizations to manage subscription revenue opportunities and recurring billing using billing schedules. An option to have a deferral schedule enables project revenue for the service to be recognized either based on an event-based template, or on a monthly, quarterly, or yearly basis. This approach helps manage revenue for the project as it assures revenue is recognized when earned.
 
 Learn more at [Project deferrals](/dynamics365/finance/accounts-receivable/sb-project-deferrals).  
 
@@ -187,7 +205,7 @@ You can use the following resources to learn more about the manage project finan
   - [Funding source](glossary.md#funding-source)  
   - [Project budget](glossary.md#project-budget)  
   - [Cost budget](glossary.md#cost-budget)  
-  - [Revenue budget](glossary.md#revenue-budget)   
+  - [Revenue budget](glossary.md#revenue-budget)
   - [Budget forecast](glossary.md#budget-forecast)  
   - [Project estimate](glossary.md#project-estimate)  
   - [Correcting entry](glossary.md#correcting-entry)  
@@ -205,11 +223,11 @@ You can use the following resources to learn more about the manage project finan
 
 - [Revise a project cost budget (Project Operations)](/dynamics365/project-operations/pro/budget/revise-project-cost-budget)  
 
-- [Project adjustments (Project Operations)](/dynamics365/project-operations/project-accounting/project-adjustments) 
+- [Project adjustments (Project Operations)](/dynamics365/project-operations/project-accounting/project-adjustments)
 
 - [Create and confirm entry journals (Project Operations)](/dynamics365/project-operations/actuals/create-confirm-entry-journals)  
 
-- [Create and confirm correction journals (Project Operations)](/dynamics365/project-operations/actuals/create-confirm-correction-journals) 
+- [Create and confirm correction journals (Project Operations)](/dynamics365/project-operations/actuals/create-confirm-correction-journals)
 
 - [Project deferrals](/dynamics365/finance/accounts-receivable/sb-project-deferrals)  
 
@@ -233,7 +251,7 @@ You can use the following resources to learn more about the manage project finan
 
 ## Contributors
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+*Microsoft maintains this article and the following contributors originally wrote it.*
 
 Principal author:
 
