@@ -1,60 +1,64 @@
 ---
-title: Solution architecture design pillars
-description: This section discusses how understanding your needs and having a vision are the most important first steps in building the right solution. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
+title: Design a solution architecture that works for you
+description: Learn how to turn your vision into a blueprint for a successful solution using the solution architecture design pillars and the Success by Design framework for Dynamics 365 apps.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 06/28/2023
+ms.date: 01/08/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date:01/08/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: 
+  - AI-contribution
 ---
 
-# Solution architecture design pillars
+# Design a solution architecture that works for you
 
-You must be sure about the solution before you start building, because failure isn't an option.  
+Before you start building a solution, you need to be clear about what you want to achieve and how you'll get there. Otherwise, you might end up with a costly and ineffective outcome.
 
-You can't have a solution without first having a *vision*. When you know the answer you're looking for, then find a *solution* to get you there. But it's not always easy to know and articulate what you want, let alone identify the elements that are essential for creating a blueprint of your solution.
-
-In this article and related articles, we outline the pillars of a successful solution architecture design that will support your vision. You'll get building blocks you can use to create a coherent and satisfying outcome. Use the Success by Design framework as a structured approach for designing a solution with Dynamics 365 apps.  
+In this article and related articles, we'll show you how to use the solution architecture design pillars and the Success by Design framework to create a blueprint for a successful solution with Dynamics 365 apps.
 
 ## What are solution architecture design pillars?
 
-Most of us know what *architecture* means in the building industry. It includes the job of the architect, the scope of the work, and what's ultimately delivered. The architect starts with the project requirements and the budget, and then works on a blueprint of the design. Once the physical labor begins, the foundation is laid, the house is built, and the interior is completed. Many years of maintaining and improving the building may follow. But why and when do you need an architect to design a solution for your organization?
+Solution architecture is a systematic approach to designing a solution that meets your needs and goals. It involves identifying the essential elements of your solution and how they fit together.
 
-Let's look at how to build a new house for a dog. In most cases, it's a single-person job with a general vision of the final product. Building a doghouse is cheap, and the risk of failure is low, so a trial-and-error approach is one option.
+Think of solution architecture as a way of turning your vision into a plan. You start with a clear idea of what you want to achieve, then you map out the steps and resources you need to make it happen. Along the way, you consider and manage the risks and dependencies that might affect your solution.
 
-But what if you were asked to build something as complex as the Sydney Opera House in Australia? The approach would be different: it takes more than one person to complete the job, the design must be carefully planned, and architects, construction workers, plumbers, electricians, and decorators have to coordinate their workflow. With so many moving parts, there must be well-defined processes, an explicit design, and powerful tools. When all the right pillars are in place, the likelihood of failure is dramatically reduced.
+A solution architect is someone who guides and oversees the solution architecture process. They work with the business and IT teams to understand the requirements, scope, and budget of the project. They also create and maintain the blueprint of the solution, ensuring that it meets the quality standards and expectations of the stakeholders.
 
-Solution architecture follows a systematic approach by identifying the desired solution and the necessary building blocks, where each builds on the previous block and provides a foundation for the next block. Solution architecture breaks up the work into logical sections, and coordinates those sections, managing and mitigating the risks along the way.
+## How to design your solution architecture
 
-## Building blocks of solution architecture design
+The first step to designing your solution architecture is to define your vision. Your vision is the big picture of what you want to achieve with your solution. It should be aligned with your business strategy and goals.
 
-The journey starts with a *vision*. The vision details are articulated in a *business strategy*. To build the solution, *processes*, *people*, and *data* must be joined in a *solution architecture*. A solution strategy outlines how those elements can be addressed by using the technology of Dynamics 365 apps. Project and change methodologies, supported by governance and control methods, define the workflows and the delivery.
+The next step is to outline your business processes. Your business processes are the activities and tasks that your solution supports or enables. They should be mapped to your vision and optimized for efficiency and effectiveness.
 
-Solution architecture design incorporates the business vision and its implementation into a blueprint. The first version is created as part of the pre-sales process and forms the initial high-level understanding of what you plan to build.
+Then, you need to determine how people are connected in and around your organization. Your people are the users and stakeholders of your solution. They should be identified, engaged, and empowered by your solution.
 
-Solution architecture enables implementation of a vision, and typically begins after the business strategy has been crafted, but before the solution is built and implemented. Architecture creates a picture of the finished product and includes the specifications needed to build it.
+After that, you need to know your data. Your data is the information that your solution collects, stores, and analyzes. It should be relevant, accurate, and secure.
 
-A solution architect provides the necessary quality control by ensuring that key requirements are met, with all relevant interdependencies considered and managed. A solution architect also serves as a translator between the business and IT teams to articulate the impact of technology on the business, and vice versa.
+Finally, you need to develop a solution strategy using technology and tools. Your solution strategy is the plan that describes how you'll use Dynamics 365 apps and other technologies to build and implement your solution. It should be aligned with your solution architecture and best practices.
 
-:::image type="content" source="media/solution-architecture-pillar-vision.png" alt-text="Vision chart":::
+The following diagram summarizes the solution architecture design pillars and how they relate to your vision.
+
+:::image type="content" source="media/solution-architecture-pillar-vision.png" alt-text="Diagram of the solution architecture."
 
 ## Next steps
 
-As we’ve explained in this article, solution architecture follows a systematic approach that identifies your desired solution and the building blocks needed to construct it. Solution architecture design takes your business vision and breaks it into logical sections that become a blueprint for building your solution. Here's a list of the key steps for solution architecture design:
+Now that you have an overview of the solution architecture design pillars and how they help you create a blueprint for your solution, you can learn more about each pillar in the following articles:
 
-- Define your vision. Learn more at [Solution architecture design: Vision and strategies](solution-architecture-design-pillars-vision-strategies.md)
+- [Define your vision and strategies for your solution](solution-architecture-design-pillars-vision-strategies.md)
 
-- Create a business strategy. Learn more at [Business strategy](solution-architecture-design-pillars-vision-strategies.md#business-strategy)  
+- [Outline your business processes for your solution](solution-architecture-design-pillars-processes.md)
 
-- Outline your business processes. Learn more at [Solution architecture design: Processes](solution-architecture-design-pillars-processes.md)  
+- [Determine the people involved in and affected by your solution](solution-architecture-design-pillars-people.md)
 
-- Determine how people are connected in and around your organization. Learn more at [Solution architecture design: People](solution-architecture-design-pillars-people.md)  
+- [Know and manage your data for your solution](solution-architecture-design-pillars-data.md)
 
-- Know your data. Learn more at [Solution architecture design: Data](solution-architecture-design-pillars-data.md)
+- [Develop a solution strategy using Dynamics 365 apps and other technologies](solution-architecture-design-pillars-technology.md)
 
-- Develop a solution strategy using technology and tools. [Solution architecture design: Technology](solution-architecture-design-pillars-technology.md)  
+- [Apply project management, change management, and governance and control methodologies for your solution](solution-architecture-design-pillars-methodology.md)
 
-- Apply project management, change management, and governance and control methodologies. Learn more at [Solution architecture design: Methodologies](solution-architecture-design-pillars-methodology.md)  
-
-- Capture the functional and technical design. Learn more at [Create a functional and technical design document](../patterns/create-functional-technical-design-document.md)  
+- [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)
