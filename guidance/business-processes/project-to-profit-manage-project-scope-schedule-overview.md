@@ -13,11 +13,12 @@ ms.author: mbinaisse
 
 This article describes how you can use Dynamics 365 products to define your resources for a project and schedule your costs and revenue.
 
-Resources and the schedule are critical during the project lifecycle. The ability to track these two types of information helps you ensure that your project is in a healthy state. To get started, define a baseline at the beginning of your project. Then, during the project's lifecycle, refine that baseline through estimation to complete by adjusting the resources and schedule.
+Resources and the schedule are critical during the project lifecycle. The ability to track these two types of information helps ensure that your project is in a healthy state. To get started, define a baseline at the beginning of your project. Then, during the project's lifecycle, refine that baseline through estimation to complete by adjusting the resources and schedule.
 
-As a project manager, you first collect requirements, define the project scope, and plan the project, including all costs that are required and all revenue that is generated. After you have all these elements, you can create and define the first budget baseline that you will follow. Then, during the project lifecycle, periodically reassess the resources and schedule to ensure that they reflect changes, and validate that your project is profitable according to the baseline.
+As a project manager, you should first collect requirements, define the project scope, and plan the project, including all required costs and generated revenue.
+Once you have all these elements, you can create and define the first budget baseline to follow. During the project lifecycle, you should periodically reassess the resources and schedule to ensure they reflect changes, and validate that your project is profitable according to the baseline.
 
-This business process should be defined and incorporated into the overall implementation during the project planning phase. It's typically the first step of your project.
+This business process should be defined and incorporated into the overall implementation during the project planning phase, which is typically the first step of your project.
 
 ## Stakeholders
 
@@ -30,9 +31,9 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Manage project resources and schedule process flow
 
-The following diagram illustrates the *Manage project resources and schedule* business process area.
+The *Manage project resources and schedule* business process flow is illustrated in the following diagram.
 
-Each solid gray rectangle in the diagram represents an end-to-end business process. The solid blue rectangle represents a business process area. The diagram shows the subprocesses for this business process area. The arrows in the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+Each solid gray rectangle in the diagram represents an end-to-end business process, while the solid blue rectangle represents a business process area. The arrows show the flow of the business process in an organization, with parallel subprocesses shown as branches if a subprocess can lead to more than one other subprocess.
 
 :::image type="content" source="media/project-to-profit-manage-project-scope-schedule-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-manage-project-scope-schedule-flow.svg":::
 
@@ -96,12 +97,12 @@ You can use the following resources to learn more about the *Manage project reso
 - [TechTalk: Dynamics 365 Project Operations](https://community.dynamics.com/blogs/post/?postid=d9613dbe-cb51-4cb3-b29a-8464034d7fdb)
 - Find definitions of terminology that is used in content for *Manage project resources and schedule* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Scope](glossary.md#scope)
-    - [Deliverables](glossary.md#deliverables)
-    - [Schedule](glossary.md#schedule)
-    - [Requirement](glossary.md#requirement)
-    - [Baseline](glossary.md#baseline)
-    - [Estimation to complete](glossary.md#estimation-to-complete)
+  - [Scope](glossary.md#scope)
+  - [Deliverables](glossary.md#deliverables)
+  - [Schedule](glossary.md#schedule)
+  - [Requirement](glossary.md#requirement)
+  - [Baseline](glossary.md#baseline)
+  - [Estimation to complete](glossary.md#estimation-to-complete)
 
 <!-- ## Tags
 

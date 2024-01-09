@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inventory to deliver end-to-end overview
 description: Learn about the end-to-end business process, from inventory to deliver. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 12/08/2023
@@ -12,7 +12,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article provides a high-level flow diagram and an overview for each of the business process areas in the end-to-end business process *from inventory to deliver*. The article also describes this business process' relationship to other business processes in Dynamics 365.
+This article provides a high-level flow diagram and an overview for each of the business process areas in the end-to-end business process *from inventory to deliver*. The article also describes this business process's relationship to other business processes in Dynamics 365.
 
 ## Inventory to deliver process relationship
 
@@ -80,11 +80,11 @@ The downstream processes for the *inventory to deliver* process include the foll
 
 - **Order to cash**  
 
-  When the *inventory to deliver* process is completed as a sub process in the order to cash process, the order to cash process continues. For example, the invoicing, payment and collection of payment for the sales.
+  When the *inventory to deliver* process is completed as a sub process in the order to cash process, the order to cash process continues. For example, the invoicing, payment, and collection of payment for the sales.
 
 - **Service to cash**  
 
-  When the *inventory to deliver* process is completed as a sub process in the service to cash process, the service to cash process continues. For example, the invoicing, payment and collection of payment for the service.
+  When the *inventory to deliver* process is completed as a sub process in the service to cash process, the service to cash process continues. For example, the invoicing, payment, and collection of payment for the service.
 
 - **Plan to produce**  
 
@@ -108,7 +108,7 @@ There are product-specific capabilities that interact with the *inventory to del
 
 - **Advanced warehouse management (mobile device)**  
 
-  The *Process inbound goods* and*Process Outbound goods* business process areas can optionally use advanced warehouse management processes to automate and simplify the inventory processes on the warehouse floor using mobile devices.
+  The *Process inbound goods* and *Process Outbound goods* business process areas can optionally use advanced warehouse management processes to automate and simplify the inventory processes on the warehouse floor using mobile devices.
 
 - **Transportation management**  
 
@@ -163,7 +163,7 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
 3. Product and service lifecycle management
 
-    The diagram doesn't illustrate connections, but product and service lifecycle management are also upstream process for the *Produce to pay*, *Plan to produce*, *Order to cash*, and *Service to cash* business processes.
+    The diagram doesn't illustrate connections, but product and service lifecycle management is also an upstream process for the *Produce to pay*, *Plan to produce*, *Order to cash*, and *Service to cash* business processes.
 
 4. Procure to pay end-to-end process  
 

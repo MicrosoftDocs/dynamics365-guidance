@@ -53,6 +53,15 @@
     "recommendations": "true",
     "titleSuffix": "Dynamics 365",
     "uhfHeaderId": "MSDocsHeader-Dynamics365",
+    "contributors_to_exclude": [
+        "bishalgoswami",
+        "marycc",
+        "tinaburden",
+        "almostdunh",
+        "AshleyWoodruff",
+        "rhanajoy",
+        "christophernread"
+    ],
     "searchScope": 
       ["dynamics-365-daf",
         "Dynamics 365"
