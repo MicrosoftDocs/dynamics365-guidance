@@ -229,7 +229,7 @@ A category hierarchy refers to a way of organizing and structuring products or i
 
 ### Centralized resource allocation
 
-For organizations that centralize the allocation for resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, while the fulfillment of the resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
+For organizations that centralize the allocation of resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, whereas fulfillment of those resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
 
 ### Chart of accounts
 
@@ -1068,7 +1068,7 @@ A project estimate is a projection of the cost and schedule of work on a project
 
 ### Project manager
 
-A [project manager](#centralized-resource-allocation) is the individual responsible for planning, organizing, executing, and controlling all aspects of a project, from initiation to completion. Project managers are accountable for achieving a project's objectives within the constraints of scope, time, cost, quality, resources, and risk as defined in the [project contract](#project-contract).
+A [project manager](#centralized-resource-allocation) is the individual who is responsible for planning, organizing, executing, and controlling all aspects of a project, from initiation to completion. Project managers are accountable for achieving a project's objectives within the constraints of scope, time, cost, quality, resources, and risk as defined in the [project contract](#project-contract).
 
 ### Project phases
 
@@ -1076,7 +1076,7 @@ The Project Management Institute (PMI) created a 5-phase model that groups diffe
 
 ### Project resource
 
-A project resource is an asset, material, tool, or personnel required to run and complete a project.
+Project resources are the assets, materials, tools, or personnel that are required to run and complete a project.
 
 ### Project task
 
@@ -1149,19 +1149,19 @@ A requirement is a capability that must be present in a product, service, or res
 
 ### Resource booking
 
-Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. Bookings represent organizational concepts for teams so that they can understand how resources will be engaged across various projects. Dynamics 365 Project Operations considers bookings a project-level concept.
+Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. Bookings represent organizational concepts for teams, so that they can understand how resources will be engaged across various projects. Dynamics 365 Project Operations considers bookings a project-level concept.
 
 ### Resource characteristics
 
-Resource characteristics refer to the qualities, attributes, or traits that are associated with the resources a project uses. They help [project managers](#project-manager) assess the suitability of resources for various project tasks and activities. Understanding resource characteristics is essential for effective resource selection, allocation, and use.
+Resource characteristics refer to the qualities, attributes, or traits that are associated with the resources that a project uses. They help [project managers](#project-manager) assess the suitability of resources for various project tasks and activities. An understanding of resource characteristics is essential for effective resource selection, allocation, and use.
 
 ### Resource manager
 
-A [resource manager](#centralized-resource-allocation), also known as a resource coordinator or resource planner, is the individual responsible for managing the allocation and use of resources in an organization. Resource managers oversee the availability, deployment, and scheduling of resources to support various projects, departments, or operational activities.
+A [resource manager](#centralized-resource-allocation), also known as a resource coordinator or resource planner, is the individual who is responsible for managing the allocation and use of resources in an organization. Resource managers oversee the availability, deployment, and scheduling of resources to support various projects, departments, or operational activities.
 
 ### Resource requirement
 
-Resource requirements refer to the types and quantities of resources needed to run and complete a project within defined scope, timeline, and quality standards.
+Resource requirements refer to the types and quantities of resources that are needed to run and complete a project within defined scope, timeline, and quality standards.
 
 ### Revenue budget
 
