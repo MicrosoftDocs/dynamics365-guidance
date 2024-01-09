@@ -23,7 +23,7 @@ This process area involves managing inventory levels to meet customer demand whi
 
 ## Process inbound goods
 
-This process area involves receiving, inspecting, and processing incoming inventory. It includes tracking shipments, managing the receipt of goods, and generating put-away plans. In addition to traditional purchase order and transfer order inbound receipts, it also includes the handling of customer return orders<!--For more information, see \[Process inbound goods link\]TODO:Add link-->.
+This process area involves receiving, inspecting, and processing incoming inventory. It includes tracking shipments, managing the receipt of goods, and generating put-away plans. In addition to traditional purchase order and transfer order inbound receipts, it includes the handling of customer return orders<!--For more information, see \[Process inbound goods link\]TODO:Add link-->.
 
 ## Process outbound goods
 
@@ -31,7 +31,7 @@ This process area involves picking, packing, and shipping goods to customers and
 
 ## Manage inventory quality
 
-This process area involves managing inventory quality, including inspecting, testing, and classifying items based on quality criteria. It includes tracking quality issues, creating corrective actions, and managing non-conformities<!--For more information, see \[Manage inventory quality link\]TODO:Add link-->.
+This process area involves managing inventory quality, including inspecting, testing, and classifying items based on quality criteria. It includes tracking quality issues, creating corrective actions, and managing nonconformities<!--For more information, see \[Manage inventory quality link\]TODO:Add link-->.
 
 ## Manage freight and transportation
 
@@ -41,7 +41,7 @@ Learn more at [Manage freight and transportation overview](inventory-to-deliver-
 
 ## Record and manage inventory costs
 
-This process area involves recording and controlling costs associated with inventory management, such as procurement, transportation, warehousing, and handling costs. It includes setting up cost accounting policies, tracking expenses, and creating financial reports.  
+This process area involves recording and controlling costs that are associated with inventory management, such as procurement, transportation, warehousing, and handling costs. It includes setting up cost accounting policies, tracking expenses, and creating financial reports.
 
 Learn more at [Record and manage inventory costs overview](inventory-to-deliver-record-manage-inventory-costs.md).
 
