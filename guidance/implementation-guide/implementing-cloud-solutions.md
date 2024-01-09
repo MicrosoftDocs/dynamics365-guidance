@@ -1,44 +1,46 @@
 ﻿---
-title: Implement cloud solutions
-description: Find guidance on what it means to implement cloud solutions with Dynamics 365. Start the journey towards a solution that is based on Dynamics 365 online.
+title: How to implement Dynamics 365 cloud solutions
+description: Learn how to adopt a cloud mindset, upgrade from on-premises to online, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365.
 author: taksatoms
 ms.author: tsato
-ms.date: 05/17/2023
+ms.date: 01/05/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/08/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Implement cloud solutions with Dynamics 365
+# How to implement Dynamics 365 cloud solutions
 
-In this section of the Dynamics 365 implementation guidance, we discuss cloud implementation and considerations for upgrading from on-premises to the cloud, including customizations and operating in the cloud. We talk about why organizations must adopt a cloud mindset, especially when they’ve been running on-premises applications for years. We also explore the importance of focusing on business value, data as an asset, and automation.  
+This section of the Dynamics 365 implementation guidance helps you plan and execute your cloud implementation. You'll learn how to upgrade from on-premises to online, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365. You'll also discover why you need to adopt a cloud mindset for a successful digital transformation.
 
-*The cloud* is the constellation of connected servers, data warehouses, and associated software and services. And it's at the core of a digital transformation strategy.
+*The cloud* is a network of connected servers, data warehouses, and software and services. It's the core of a digital transformation strategy.
 
-Organizations of all sizes recognize that the cloud is the fastest way to modernize their operations to increase efficiency while better serving customers. For many organizations, the shift to the cloud simply means running their applications in a public cloud infrastructure instead of the traditional on-premises datacenter. Other organizations employ a cloud model (Software as a Service, SaaS) that uses cloud applications and an underlying cloud platform to accelerate a business focused transformation with greater agility to adapt to future changes.
+Organizations of all sizes use the cloud to modernize their operations, increase efficiency, and better serve customers. For some organizations, the shift to the cloud means running their applications in a public cloud infrastructure instead of a traditional on-premises datacenter. For others, it means using cloud applications and a cloud platform (Software as a Service, or SaaS) to transform their business with more agility and adaptability.
 
-Whatever model an organization chooses, we find that the key to success isn't just what implementation looks like. Rather, it's how leaders, architects, and organizations approach the digital transformation journey. Success in the cloud isn't just about the technology or the features available—it's about the organizational mindset. For a successful digital transformation, your organization must prepare for changes that span the entire enterprise, including organizational structure, processes, people, culture, and leadership. It's as much a leadership and change exercise as it is a technical exercise.
+Whatever model you choose, the key to success isn't just the implementation. It's how you approach the digital transformation journey. Success in the cloud isn't just about the technology or the features. It's about the organizational mindset. To transform your business, you need to prepare for changes across the entire enterprise, including structure, processes, people, culture, and leadership. It's as much a leadership and change exercise as it is a technical exercise.
 
-In this section, we provide a perspective on what to expect when implementing your cloud solution based on Dynamics 365. We introduce principles relevant to any online application. Concepts introduced here are elaborated on in other sections. We hope these principles help you set your course and guide you in your leap into the cloud.
+In this section, we give you a perspective on what to expect when you implement your cloud solution based on Dynamics 365. We introduce principles that apply to any online application. We expand on these concepts in other sections. We hope these principles help you set your course and guide you in your leap into the cloud.
 
-We start by addressing [how to develop a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md) in an organization, which is foundational to your digital transformation. Then we delve into factors to consider and understand before you shift to a shared public cloud from an [on-premises setup](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md). For example, how the shift impacts controls you have in place, and how to think differently about scalability, performance, shared resources, and more. After that, we discuss the principles around [customization and extending cloud apps](implementing-cloud-solutions-customize-extend-cloud-applications.md). Finally, we explore [the operating model](implementing-cloud-solutions-operate-in-cloud.md), always up-to date [evergreen cloud models](implementing-cloud-solutions-evergreen-cloud.md), and the options to [migrate](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md) to the Dynamics 365 cloud from on-premises.
+We start by explaining [how to develop a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md) in your organization, which is the foundation of your digital transformation. Then we explore the factors to consider and understand before you move to a shared public cloud from an [on-premises setup](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md); for example, how the move affects the controls you have, and how to think differently about things like scalability, performance, and shared resources. After that, we discuss the principles for [customizing and extending cloud apps](implementing-cloud-solutions-customize-extend-cloud-applications.md). Finally, we examine [the operating model](implementing-cloud-solutions-operate-in-cloud.md), the always up-to-date [evergreen cloud model](implementing-cloud-solutions-evergreen-cloud.md), and the options to [migrate](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md) to the Dynamics 365 cloud from on-premises.
 
-> [!NOTE]
-> Find supporting research and studies here:
->
-> McKinsey: [The keys to a successful digital transformation](https://www.mckinsey.com/business-functions/organization/our-insights/unlocking-success-in-digital-transformations) 
->
-> Smarter with Gartner: [Cloud Shift Impacts All IT Markets](https://www.gartner.com/smarterwithgartner/cloud-shift-impacts-all-it-markets/)
+Find supporting research and studies here:
 
-Embracing SaaS applications to run your business can significantly accelerate your digital transformation. But it's also important to recognize that organizational cloud maturity plays a significant role in your strategy's long-term success.
+- McKinsey: [The keys to a successful digital transformation](https://www.mckinsey.com/business-functions/organization/our-insights/unlocking-success-in-digital-transformations)
+- Smarter with Gartner: [Cloud Shift Impacts All IT Markets](https://www.gartner.com/smarterwithgartner/cloud-shift-impacts-all-it-markets/)
 
-Organizations working on their first major implementation in the cloud should expect some level of disruption to the existing ways of deploying and managing applications. We hope these articles serve as a primer for [Success by Design thinking](success-by-design.md) by setting the context for the changes you can expect and driving you towards greater cloud maturity.
+Using SaaS applications to run your business can speed up your digital transformation. But it's also important to recognize that your cloud maturity affects your strategy's long-term success. If you're working on your first major implementation in the cloud, you should expect some disruption to existing ways of deploying and managing applications. We hope these articles help you apply [Success by Design thinking](success-by-design.md) by setting the context for the changes you'll face and driving you towards higher cloud maturity.
 
 ## Next steps
 
-- Understand how to [adopt a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md)  
-- Review [cloud implementation consideration](implementing-cloud-solutions-cloud-implementation.md) for successful implementation  
+- Learn how to [adopt a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md)  
+- Review [cloud implementation considerations](implementing-cloud-solutions-cloud-implementation.md) for a successful implementation  
 - Learn how to [customize and extend cloud applications](implementing-cloud-solutions-customize-extend-cloud-applications.md)
-- Learn how to successfully [operate in the cloud](implementing-cloud-solutions-operate-in-cloud.md)  
+- Learn how to [operate in the cloud](implementing-cloud-solutions-operate-in-cloud.md)  
 - Review the [evergreen cloud](implementing-cloud-solutions-evergreen-cloud.md) approach and the model of continuous updates
-- Understand best practices to [upgrade from on-premises to the cloud](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md)  
-- Review the [checklist](implementing-cloud-solutions-checklist.md) to help with best practices in implementing cloud solutions  
-- Read the [case study](implementing-cloud-solutions-case-study.md) to see how adopting a cloud mindset and putting together proper strategy can help your organization  
+- Learn best practices to [upgrade from on-premises to the cloud](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md)  
+- Review the [checklist](implementing-cloud-solutions-checklist.md) to follow best practices for implementing cloud solutions  
+- Read a [case study](implementing-cloud-solutions-case-study.md) to see how adopting a cloud mindset and a proper strategy can help your organization
