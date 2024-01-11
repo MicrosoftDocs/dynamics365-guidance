@@ -1,142 +1,160 @@
 ﻿---
-title: Choose a methodology
-description: Find guidance for how to choose the right methodology to manage the Dynamics 365 implementation project. 
-ms.date: 04/17/2023
+title: Choose a methodology for your Dynamics 365 project
+description: Learn why a methodology matters for Dynamics 365 projects and compare the pros and cons of waterfall, agile, and hybrid models.
+ms.date: 01/11/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Choose a methodology for the Dynamics 365 implementation project
+# Choose a methodology for your Dynamics 365 project
 
-Before we discuss choosing a methodology for your Dynamics 365 project, we need to understand why a methodology is important for Dynamics 365 projects.
+A methodology is a set of steps and best practices that help you complete a project or task successfully. It tells you what to do, when to do it, and who should do it. It also helps you avoid common pitfalls and risks along the way.
 
-## Why methodology is important
+For Dynamics 365 projects, choosing a suitable methodology is crucial. It can make the difference between delivering a solution that meets your goals and expectations, or wasting time and money on a solution that doesn't work for you.
 
-A methodology is a prescriptive definition of activities to be undertaken for a given project or engagement. It describes the use of a collection of methods to achieve predictable outcomes.
+In this article, we'll explain why a methodology is important for Dynamics 365 projects and how to choose one that fits your needs.
 
-Methodology is the core of project execution that allows the team to take the right path towards:
+## Why a methodology is important
 
-- Improved consistency and predictable outcomes.
+A methodology is like a roadmap for your project. It guides you from the start to the finish, and helps you achieve predictable outcomes. A good methodology can help you:
 
-- Setting clear definitions of project phases, milestones, deliverables, and entry and exit criteria to each phase.
+- Be consistent and reliable in your work.
+- Define clear phases, milestones, deliverables, and criteria for each stage of the project.
+- Assign roles and responsibilities to your team members.
+- Reduce the risks of missing or forgetting important tasks.
+- Follow proven best practices and standards.
+- Save time and money by optimizing your resources and processes.
+- Avoid surprises and disappointments by setting realistic expectations and goals.
+- Deliver a user-centric solution that delights your customers and stakeholders.
 
-- Setting clear definitions of roles and responsibilities required for the project.
+Think of a methodology as a planned journey. To reach your destination successfully, you need to:
 
-- Reducing risks of missing critical activities required for a successful outcome.
+- **Plan ahead**: Before you start, make sure you know where you're going (project scope), what you need (resources, governance, and methodology), and how you'll track your progress (project monitoring).
 
-Following a methodology is akin to taking a planned journey. The roadmap to success involves the following actions:
+- **Know the road**: Map out the route, or solution blueprint, that shows the start and end dates for each milestone. This way, you can measure your progress, and your team knows what they need to do.
 
-- **Plan ahead**  
+- **Avoid pitfalls**: Follow the best practices and standards that minimize the chances of errors, delays, and scope creep.
 
-  Ensure you have clearly defined the destination (project scope), and have all the right tools (resources, governance, and methodology) and checklists (project monitoring) before starting this journey.
+- **Get there faster**: Use strategies that help you speed up your work and reduce costs. Plan, act, and review regularly to make sure you're on the right track.
 
-- **Know the road**  
+- **No surprises**: Satisfy your users by delivering a solution that meets their needs and preferences. Satisfy your stakeholders by delivering results on time and within budget.
 
-  Define the route, or solution blueprint, to set clear expectations on start and end dates for milestones. This way, you can meaningfully monitor progress, and the team understands what is expected from them.
+:::image type="content" source="media/impl-strategy-roadmap-to-success.png" alt-text="Illustration of the five steps on the roadmap to success: plan ahead, know the road, avoid pitfalls, get there faster, and no surprises.":::
 
-- **Avoid pitfalls**  
+Sometimes, external factors can affect your planning. You should have contingency plans to deal with unexpected situations that might be beyond your control.
 
-  Follow proven best practices to minimize risks, costs, and scope creep.
+### How to choose a methodology
 
-- **Get there faster**  
+You can use many methodologies for a Dynamics 365 project. However, they can be grouped into three main types:
 
-  Take advantage of strategies that help you save time and money. Plan, action, and regularly monitor and adjust to ensure you're taking the most efficient route to your destination.
+- **Waterfall model**: A linear and sequential approach that follows a series of phases from conception to maintenance. Each phase must be completed before moving to the next one.
 
-- **No surprise**  
+- **Agile model**: An iterative and incremental approach that uses short cycles of work, called sprints, to deliver features and feedback. Each sprint involves analysis, design, development, testing, and review. Sprints are usually fixed in duration (for example, 30 days). Agile development isn't a methodology in itself, but an umbrella term that describes several methodologies. Some of the most popular agile methodologies are Scrum, XP, DSDM, and Sure Step for Agile.
 
-  Delight users by delivering a user centric solution and business stakeholders by delivering results on-time and within budget.
+- **Hybrid model**: A combination of waterfall and agile practices that adapts to the project needs. It defines and designs the solution before starting the sprints, and uses sprints for refining, building, testing, and reviewing the solution.
 
-:::image type="content" source="media/impl-strategy-roadmap-to-success.png" alt-text="Illustrates the five steps on the roadmap to success outlined before the illustration.":::
-
-> [!NOTE]
-> Be wary of external factors that can derail the planning. Important to consider the mitigation plans to accommodate such unexpected factors that may be beyond the project team's control.
-
-### Choose an implementation methodology
-
-Let us take a look at the specific methodologies that can be used for a successful Dynamics 365 implementation.
-
-We often see three types of models used to implement Dynamics 365 Business Applications projects.
-
-- **Waterfall model**  
-
-  A delivery execution model based on a sequential series of phases that flow steadily from conception through initiation, analysis, design, development, testing, deployment, and operations, to maintenance.  
-
-- **Agile model**  
-
-  Agile development isn't a methodology in itself, but an umbrella term that describes several methodologies. Some of the industry known methodologies are Scrum, XP, DSDM, Sure Step for Agile (for Business Applications).
-
-  - **Scrum methodology**  
-
-    A delivery execution methodology based on agile principles where requirements are in flux or unknown prior to beginning a sprint. Sprints involve requirements analysis, design, build, test, and user review. Sprints are a fixed duration (such as 30 days), as illustrated below.
-
-    :::image type="content" source="media/impl-strategy-scrum.png" alt-text="A product backlog leads to a sprint backlog that leads to a sprint with 30 days of 24 hours that then generates working increments of the software.":::
-
-- **Hybrid model**  
-
-  A delivery execution model based on agile principles. You define, analyze, and prioritize requirements in the context of business processes, and you generate an overview design solution blueprint before you begin the sprints. Sprints involve refining designs, build, test, and user reviews. Sprints can be of varying durations.
+A sprint or iteration is a period of time when the team delivers a working and tested piece of software. Agile methods use the term *sprints*, while iterative methods use the term *iterations*.
 
 > [!NOTE]
-> Iteration and sprint is a timeframe in which teams deliver incremental value in the form of working tested software. Iterative approaches use the term iterations while Scrum approaches use the term sprints.
+> The Success by Design framework is a tool that supports any methodology you choose. It provides proactive guidance and predictable outcomes for your Dynamics 365 project. Learn more at [Introduction to Success by Design](success-by-design.md).
 
-> [!NOTE]
-> The Success by Design framework is methodology agnostic. It supports proactive guidance and predictable outcomes irrespective of chosen methodology. Learn more at [Introduction to Success by Design](success-by-design.md).  
-
-Now let's take a deeper look at each of these methodologies.
+Let's take a closer look at each of these methodologies and their pros and cons.
 
 ### Agile
 
-An agile implementation is an iterative approach that uses iterations or sprints.
+Agile is a flexible and collaborative way of working that responds to changing requirements and feedback. It's based on the idea that you don't need to know everything upfront, and that you can learn and improve as you go.
 
-In Dynamics 365 implementation projects, many requirements are covered by out-of-the-box capabilities. There are specific challenges and tasks that you must manage and mitigate as part of the project methodology with a backlog of user stories. You carve out plans from that backlog. With the plans, you define iterations or sprints for development and testing. Each sprint covers a number of user stories that outline the requirements.
+In Dynamics 365 projects, many requirements are covered by the out-of-the-box capabilities of the product. However, you need to address and prioritize specific challenges and tasks in a backlog of user stories. A user story is a brief description of a feature or function that the user wants or needs.
 
-Agile promotes a collaborative process between the resources that own and specify the requirements for the solution and the resources responsible for the development and rollout of the solution.
+From the backlog, you create plans for each sprint and assign user stories to them. During the sprint, you work on the user stories, and deliver a working and tested piece of software at the end. You also get feedback from the users and stakeholders, and use it to improve the next sprint.
 
-The idea is to release software faster, take early and regular feedback, adapt, and release again. This cycle continues until all the requirements are met or the backlog is cleared.
+Agile encourages a close collaboration between the people who define and own the requirements, and the people who develop and deliver the solution.
 
-An example of agile practices using the methodology prescribed by "Sure Step for Agile" is shown in the following complex diagram:
+The goal is to release software faster, get early and regular feedback, adapt, and release again. This cycle continues until all the requirements are met or the backlog is cleared.
 
-:::image type="content" source="media/impl-strategy-agile.png" alt-text="Agile preparation with stages for analysis, design, development, deployment and operation leads to agile execution with 30-day sprint cycles and daily sprint cycles.":::
+An example of agile practices using the methodology prescribed by Sure Step for Agile is shown in the following diagram:
+
+:::image type="content" source="media/impl-strategy-scrum.png" alt-text="Diagram of an agile project, in which a product backlog leads to a sprint backlog that leads to a sprint with 30 days of 24 hours that then generates working increments of the software.":::
+
+Some of the benefits of agile are:
+
+- It's flexible and adaptable to changing needs and feedback.
+- It's user-centric and focuses on delivering value and satisfaction.
+- It's fast and efficient, and reduces waste and rework.
+- It's collaborative and transparent, and fosters trust and communication.
+
+Some of the challenges of agile are:
+
+- It requires a high level of commitment and involvement from the users and stakeholders.
+- It can be difficult to estimate and plan the scope, time, and budget of the project.
+- It can be hard to maintain quality and consistency across multiple sprints and releases.
+- It can be challenging to integrate and coordinate with other teams and systems.
 
 ### Waterfall
 
-The waterfall approach to solution delivery is a sequential process. It depicts a linear flow of activities from one phase to another, and it culminates with the solution being promoted to production and then into operation.
+Waterfall is a traditional and structured way of working that follows a clear and predefined sequence of phases. It's based on the idea that you need to know everything upfront, and that you can't go back to a previous phase once you finish it.
 
-It's a traditional methodology for implementing on-premises business applications. It-s a linear, noniterative approach of implementing and delivering projects.
+It's a common methodology for implementing on-premises business applications. It's a linear and noniterative approach that delivers the project in one go.
 
-The phases, milestones, and deliverables are clearly defined, and you only move to the next phase when a prior phase is completed.
+The phases, milestones, and deliverables are clearly defined, and you only move to the next phase when you complete the previous one.
 
-In the modern cloud world, early stakeholder buy-in is critical, which requires delivering quicker results making the waterfall technique not suitable.
+In the modern cloud world, getting early and frequent stakeholder buy-in is critical, which requires delivering quick and iterative results. This makes the waterfall approach less suitable.
 
-An example of the Waterfall model as prescribed in Sure Step Methodology is depicted in the figure below.
+An example of the waterfall model as prescribed in Sure Step Methodology is shown in the following diagram:
 
-:::image type="content" source="media/impl-strategy-waterfall.png" alt-text="Table with five columns for analysis, design, develop, stabilization, and deploy, and rows for organization, solution, and technology.":::
+:::image type="content" source="media/impl-strategy-waterfall.png" alt-text="Illustration of a waterfall project as a table with five columns for analysis, design, develop, stabilization, and deploy, and rows for organization, solution, and technology.":::
+
+Some of the benefits of waterfall are:
+
+- It's simple and easy to understand and follow.
+- It's predictable and stable, and minimizes changes and risks.
+- It's well-defined and documented, and ensures quality and compliance.
+- It's manageable and measurable, and allows for clear planning and monitoring.
+
+Some of the challenges of waterfall are:
+
+- It's rigid and inflexible, and doesn't accommodate changing needs and feedback.
+- It's not user-centric and focuses on delivering specifications and requirements.
+- It's slow and costly, and increases waste and rework.
+- It's isolated and siloed, and hinders trust and communication.
 
 ### Hybrid
 
-In the current landscape of rapidly changing business needs and changing technology trends, projects commonly adopt a hybrid approach. It's a combination of waterfall and agile practices that implementation teams use to meet their project needs. This way, teams can tailor an approach for a successful implementation of Dynamics 365. The hybrid approach is our recommended approach for Dynamics 365 engagements.
+Hybrid is a tailored and balanced way of working that combines the best of waterfall and agile practices. It's based on the idea that you can adjust and customize your approach to fit your project needs and context.
 
-The figure below shows an example of a hybrid approach, based on Dynamics Sure Step 365.
+It's a popular and recommended methodology for Dynamics 365 projects. It uses a noniterative approach for the initial and final activities of the project, such as initiation, solution modeling, system integration testing, user acceptance testing, and deployment. It uses an iterative approach for the build activities of the project, such as requirement detailing, design, development, and testing.
 
-:::image type="content" source="media/impl-strategy-hybrid.png" alt-text="Process goes through stages for mobilization, initiation, solution modeling, build, solution testing, deployment, support transition, and operation.":::
+The hybrid approach helps you provide early visibility into the solution, and allows you to take corrective actions early on in the project. It uses the best of both waterfall and agile approaches, and it's a win-win for most types and sizes of projects.
 
-With this approach, we can manage initial activities such as initiation and solution modeling. It also supports final activities in a noniterative way, such as system integration tests, user acceptance tests, and the release to production. The build activities, such as requirement detailing, design, development, and testing, are completed with an iterative approach.
+In the hybrid approach, the focus is on a regular rhythm of iterative and incremental releases of software features.
 
-The hybrid approach helps provide early visibility into the solution. It allows the team to take corrective actions early on in the overall cycle. This approach is considered to use the best of both waterfall and agile approaches, and it's a win-win for most sizes of implementation.
+An example of the hybrid approach, based on Dynamics Sure Step 365, is shown in the following diagram:
 
-In the hybrid approach, the focus is on a regular cadence of iterative and incremental releases of software features.
+:::image type="content" source="media/impl-strategy-hybrid.png" alt-text="Diagram of a hybrid project, with stages for mobilization, initiation, solution modeling, build, solution testing, deployment, support transition, and operation.":::
 
-> [!NOTE]
-> We recommend that stakeholders participate in the process, especially in the business validation reviews that happen after each sprint cycle. These reviews are placed at regular intervals during the project schedule. They allow for faster valuation and better stakeholder buy-in.
+Some of the benefits of hybrid are:
 
-Through these reviews, stakeholders get an opportunity to see working software, have discussions with the team, and provide early feedback. The readiness of business processes is validated for production use by business users. They're shown the incrementally improving readiness across all the components in the system as working software, like design, data configuration, data migration, and so on.
+- It's adaptable and responsive to changing needs and feedback.
+- It's user-centric and focuses on delivering value and satisfaction.
+- It's fast and efficient, and reduces waste and rework.
+- It's collaborative and transparent, and fosters trust and communication.
 
-The idea is to get early feedback and validation from the business team on the business requirements scope and understanding. With this approach, the project can showcase working solutions faster than other methodologies, and it achieves a higher rate of implementation success.
+Some of the challenges of hybrid are:
+
+- It requires a high level of skill and experience to balance and integrate the different practices.
+- It can be complex and confusing to manage and coordinate the different phases and sprints.
+- It can be hard to maintain quality and consistency across multiple sprints and releases.
+- It can be challenging to integrate and coordinate with other teams and systems.
 
 ## Next steps
 
-Check the following articles to learn more:
-
 - [Implementation strategy](implementation-strategy.md)  
 - [Define a strategy for deployment and release](implementation-strategy-define-strategy-deployment-release.md)  
-- [Define a strategy for adoption and change management](implementation-strategy-define-strategy-adoption-change-management.md)  
+- [Define a strategy for adoption and change management](implementation-strategy-define-strategy-adoption-change-management.md)

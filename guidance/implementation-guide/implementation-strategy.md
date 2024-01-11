@@ -1,5 +1,5 @@
 ---
-title: How to plan an implementation strategy for Dynamics 365
+title: Plan an implementation strategy
 description: Learn how to define a clear and effective implementation strategy for Dynamics 365 that aligns with your vision, business drivers, success metrics, roles, budget, and methodology.
 author: edupont04
 ms.author: veneva
@@ -14,7 +14,7 @@ content_well_notification:
   - AI-contribution
 ---
 
-# How to plan an implementation strategy for Dynamics 365
+# Plan an implementation strategy
 
 If you're embarking on a digital transformation journey, implementing business applications is a key milestone for your success. To turn your vision into reality, you need an implementation strategy that acts as a framework for planning and delivering predictable outcomes. An implementation strategy defines the strategic choices and decisions you make when you design, test, deploy, and operate Dynamics 365 applications.
 
