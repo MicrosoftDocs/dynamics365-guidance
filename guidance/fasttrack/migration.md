@@ -16,7 +16,7 @@ The FastTrack Center benefit includes providing guidance with source environment
 
 > [!Note]
 > - Data migrated through the FastTrack services may be transferred to, stored, and processed anywhere that Microsoft maintains facilities (except as otherwise provided for your particular FastTrack engagement). The FastTrack services aren't designed or intended for data subject to special legal or regulatory requirements.
-> - In order to perform the migration, your source environment must be a version of Dynamics CRM 2011, Dynamics CRM 2013, Dynamics CRM 2015, or Dynamics CRM 2016, and SQL Server must be a version of SQL Server 2008, SQL Server 2012, SQL Server 2014, or SQL Server 2016, whereas Dynamics CRM and SQL Server versions must be aligned with the documented supportability statements.
+> - In order to perform the migration, your source environment must be a version of Dynamics CRM 2015, or Dynamics CRM 2016, and SQL Server must be a version of SQL Server 2008, SQL Server 2012, SQL Server 2014, or SQL Server 2016, whereas Dynamics CRM and SQL Server versions must be aligned with the documented supportability statements.
 > - Unforeseen issues (including but not limited to unreadable or corrupt items in the source environment) may prevent some items from being migrated.
 > - It is the customer's responsibility to perform the mitigation or fixing of unsupported customizations or SQL Server-level changes that might block the database migration via this method.
 
@@ -24,7 +24,7 @@ The following table describes what's expected for migration in your existing sou
 
 | Activity  | Source environment expectation |
 |----  | ---- |
-| Dynamics 365 (online) migration | Dynamics CRM (on-premises) versions supported—Dynamics CRM 2011, Dynamics CRM 2013, Dynamics CRM 2015, Dynamics CRM 2016. |
+| Dynamics 365 (online) migration | Dynamics CRM (on-premises) versions supported— Dynamics CRM 2015 and Dynamics CRM 2016. |
 |  | SQL Server versions supported—SQL Server 2008, SQL Server 2012, SQL Server 2014, SQL Server 2016. |
 |  | Dynamics CRM and SQL Server versions must be aligned with documented version supportability statements. |
 |  | SQL Server data to be in only one .mdf and one .ldf file. |
