@@ -1,36 +1,40 @@
 ﻿---
 title: Define a strategy for adoption and change management
-description: Find guidance for how the organization can manage the onboarding to the new business solution. Also learn how you can help the organization manage changes-
-ms.date: 04/17/2023
+description: Learn how to plan and execute a change management strategy that helps your organization adopt and use your new business solution effectively.
+ms.date: 01/11/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
 # Define a strategy for adoption and change management
 
-Adoption and change management planning is a critical aspect of implementation strategy. Change is never easy for any organization and requires thoughtful planning and a structured approach to achieve high adoption and usage. A change management strategy with a clear action plan ensures smooth rollouts and alignment with stakeholder and end user expectations. In the absence of a planned change management approach, many business applications tend to become purely data entry tools rather than value enhancing user centric applications.
+To implement your business solution successfully, you need to plan and manage how your organization will adopt and use it. Change is hard for any organization and requires careful planning and a structured approach. A change management strategy with a clear action plan helps you avoid common pitfalls, such as low adoption, poor usage, and misaligned expectations. Without a change management strategy, your business solution might become just a data entry tool instead of a valuable asset for your users.
 
-## Bridge the gap between business requirements and results
+## Align your business solution with your desired outcomes
 
-All too often, projects meet requirements without a true focus on adoption and business outcomes. Users experience a change in their day-to-day work as a direct result of a gap between technology solutions and business outcomes. Change management focuses on bridging this gap by effectively supporting and equipping the user community to successfully adopt the transition. You need a healthy mindset across different functions, including the project development teams, to keep the final user experience a primary design consideration.
+Sometimes, projects meet the technical requirements but fail to deliver the expected business outcomes. This happens when there's a gap between the technology solution and the user experience. Change management helps you bridge this gap by supporting and equipping your users to adopt and use the new solution effectively. You need to involve different functions, including the project development teams, to make sure the user experience is a primary design consideration.
 
-### Increase likelihood of project success
+### Boost your project success rate
 
-Since June 2014, Microsoft has licensed the [Prosci Change Management methodology and tools](https://www.prosci.com/blog/spotlight-leader-of-change-management-at-microsoft) for internal and external use.  Prosci's correlation data shows that initiatives with planned change management are six times more likely to meet objectives than projects without a formal change management strategy. The data is abundantly clear. The better we apply change management, the more likely we are to deliver on project objectives.
+Microsoft uses the [Prosci Change Management methodology and tools](https://www.prosci.com/blog/spotlight-leader-of-change-management-at-microsoft) for its own and external projects. Prosci's research shows that projects with planned change management are six times more likely to meet their objectives than projects without it. The data is clear: the better you apply change management, the more likely you are to achieve your project goals.
 
-Make your change management strategy successful by covering the following aspects:
+To make your change management strategy successful, you need to cover these aspects:
 
-- Continuous executive sponsorship  
+- Ongoing executive sponsorship  
 - Integration with the project management teams  
 - Employee engagement  
 - Frequent and open communication  
 
-<!--Learn more at [Change management](../placeholder.md).TODO: ADD LINK-->
+Learn more at [Change management](./dynamics365-guidance-pr/guidance/implementation-guide/change-management.md).
 
 ## Next steps
-
-Check the following articles to learn more:
 
 - [Implementation strategy](implementation-strategy.md)  
 - [Choose a methodology for the Dynamics 365 implementation project](implementation-strategy-choose-methodology.md)  
