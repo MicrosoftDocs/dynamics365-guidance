@@ -32,7 +32,7 @@ To make your change management strategy successful, you need to cover these aspe
 - Employee engagement  
 - Frequent and open communication  
 
-Learn more at [Change management](./dynamics365-guidance-pr/guidance/implementation-guide/change-management.md).
+Learn more at [Change management](change-management.md).
 
 ## Next steps
 
