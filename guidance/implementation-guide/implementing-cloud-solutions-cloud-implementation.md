@@ -1,115 +1,111 @@
 ﻿---
+
 title: Cloud implementation considerations
-description: Learn how Dynamics 365 helps you with security, scalability, performance, data isolation, limits, and capacity before you start an implementation project.
+description: Before you start a cloud implementation project, learn how Dynamics 365 can help you with security, scalability, performance, data isolation, limits, and capacity.
 author: taksatoms
 ms.author: tsato
-ms.date: 05/16/2023
+ms.date: 01/10/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/10/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
 # Cloud implementation considerations
 
-Implementing solutions from online apps such as Dynamics 365 can reduce management overhead and allow you to deliver business value more quickly by focusing on the application layer. Fundamental application considerations, however, still apply to online applications. Security, scalability, performance, data isolation, limits, and capacity are still critical, but could have a different approach when compared to an application deployed on-premises. This section focuses on some of these considerations for online apps.
+Cloud solutions like Dynamics 365 can help you reduce management overhead and deliver business value faster by focusing on the application layer. But you still need to consider some fundamental aspects of online applications, such as security, scalability, performance, data isolation, limits, and capacity. These aspects might differ from an on-premises deployment. This article explains some of these differences and how to plan for them.
 
 > [!TIP]
-> Dynamics 365 offers deep integration with Azure DevOps with [build tools](/power-platform/alm/devops-build-tools) to help [automate your deployment pipeline](/dynamics365/fin-ops-core/dev-itpro/dev-tools/hosted-build-automation) and effectively manage the application lifecycle.
+> Dynamics 365 integrates with Azure DevOps and [build tools](/power-platform/alm/devops-build-tools) to help you [automate your deployment pipeline](/dynamics365/fin-ops-core/dev-itpro/dev-tools/hosted-build-automation) and manage the application lifecycle effectively.
 
-:::image type="content" source="media/implementing-cloud-solutions-alm-by-devops.png" alt-text="ALM powered by Azure Devops" :::
+## Prepare for security in the cloud
 
-## Security readiness
+Security in cloud solutions is a shared responsibility between the service provider and the customer. That means your existing security policies might not suit the cloud environment. The service provider handles the back-end infrastructure and data encryption, while the customer controls access to environments and application data.
 
-The responsibility for security in cloud solutions is shared by the service provider and the customer. That means your existing security policies might not be suitable to meet the security requirement in the cloud. The service provider processes customer data and is responsible for aspects such as securing the backend infrastructure and data encryption in transit and at rest. As a data controller, the customer is still responsible for securing access to environments and application data.
+Your IT security team should understand these boundaries and meet these goals:
 
-The IT information security team should clearly understand the boundaries of these shared responsibilities to meet the following goals:
+- The service provider meets your organizational security, privacy, and compliance requirements. You should verify this before using the platform and review it regularly.
+- The security team knows how to configure and manage access to data and environments. For example, you might need to define data loss prevention policies, access control policies, and environment management policies.
+- The governance process ensures that the application-level security requirements are met. The application teams should follow the business requirements for each app deployment and check for compliance before deployment.
 
-- The service provider meets the organizational security, privacy, and compliance requirements. It's usually done in the beginning to approve the platform for use supported by a regular review or audit process to ensure continued compliance.
+For instance, the service might comply with the data processor regulations, but you still need to implement data controller processes, such as deleting personal data or managing marketing consent.
 
-- The security team is aware of the controls and configurations required to govern access to data and fulfill the customer security responsibility. Configurations might include defining the data loss prevention policies, access control policies, and environment management policy. They usually have a default setup with a process to manage deviations for specific apps.
+You should review your security policies and make sure they're cloud-ready before the app deployment cycle. You should also work closely with your cloud software as a service (SaaS) provider to meet your security needs. Microsoft publishes the details of how we secure data on the [Microsoft Trust Center](https://www.microsoft.com/trust-center). There, you can find our security and privacy policies, as well as the certificates of compliance for various standards and regulations.
 
-- The governance process makes sure the application-level security requirements are met. This is primarily managed by the application teams and driven by business requirements for each app deployment. You might have more checks before deployment to ensure compliance.
+## Scale your cloud solution
 
-A good example is compliance and privacy laws. Here, the service itself might be fully compliant from a data processor standpoint, but the customer is still responsible for implementing data controller processes, such as a "forget me" request or managing marketing consent for contacts.
+The scalability of the SaaS platform is another key factor for business applications. You want to be able to scale out and scale up to support seasonal workloads or spikes in user activity, which can affect the user experience and the effectiveness of business processes.
 
-Organizations need to review their information security policies and ensure that they're cloud ready. Doing this exercise earlier, before the app deployment cycle, will help avoid delays. It's important to closely work with your cloud SaaS service provider to ensure all your security requirements are met. Microsoft publishes the details of how this shared responsibility of securing data is fulfilled from a data processor perspective on the [Microsoft Trust Center](https://www.microsoft.com/trust-center). There, you find detailed information on our security and privacy policies, as well as the certificate of compliance for various regulatory norms and internal standards.
+The cloud scalability parameters in SaaS are different from a traditional on-premises system. Instead of adding more servers or increasing the power of machines, these parameters could be translated as available API capacity. You shouldn't assume that the cloud has infinite scale and computing power. You still need to follow the best practices for coding and design, but you might need to adapt them to the cloud. Although managing and scaling cloud services is complex, you can adjust your data storage, processing power, and networking requirements easily. In many cases, you can do this automatically or with simple configuration changes. The microservices architecture, including capacity-based routing and storage management, is transparent to Microsoft customers. The SaaS cloud lets you scale horizontally and vertically to support thousands of concurrent users. By adopting the capacity-based model for resource consumption, you can build optimized applications and plan your operating costs better.
 
-## Scalability
+## Optimize your performance
 
-The scalability of the SaaS platform is another key consideration for business applications. Being able to scale out and scale up to support seasonal workloads or spikes in user activity impact the overall user experience (both staff and customers) and effectiveness of business processes.
+Many factors can affect the performance of your application, such as network latency, user device and browser, application design, configuration, data composition, and customizations. Cloud services are scalable, have vast compute power, and are available from multiple locations. But that doesn't guarantee performance if the solution is poorly designed, or if users access the service from slow networks.
 
-The cloud scalability parameters available in SaaS differ from a traditional on-premises system. Instead of adding more servers or increasing the power of machines, these parameters could be translated as available API capacity. You also shouldn't assume that cloud means infinite scale and computing power that can process everything thrown at it. The good old coding and design best practices are still relevant, but might need to be adapted. Although managing and scaling cloud services is complex, increasing or decreasing your data storage, processing power, and networking requirements can be done seamlessly. In many cases, you can do so automatically or with simple configuration changes. This microservices architecture, including capacity-based routing to resources and storage management, is transparent to Microsoft customers. The SaaS cloud offers the flexibility to scale horizontally and vertically to support thousands of concurrent users. Embracing the capacity-based model for resource consumption in the cloud helps not only build optimized applications but also a better plan for operating cost post deployment.
+Research shows that a few milliseconds of latency can cause a significant drop in page load times. For e-commerce companies, this can mean a loss of user attention and sales revenue. Low latency isn't just good, it's crucial for your brand and reputation. The same applies to back-office business applications in the cloud. User experience and productivity can suffer in a high-latency environment.
 
-## Performance
+Your cloud applications run on hundreds of virtualized hardware pieces in Azure datacenters around the world. A critical decision you must make is which datacenter to use for your application, so that all users get a reasonable level of latency. Learn more in [Environment Strategy](environment-strategy-overview.md).
 
-Several contributing factors can impact application performance, including network latency, user device and browser, application design, configuration, data composition, and customizations. Cloud services are inherently scalable, have vast compute power, and are available from multiple locations around the world. But that doesn't necessarily guarantee performance if the solution is poorly designed, or if users access the service from environments with high network latency.
+One option for more reliable and secure networks is to use a private connection. Cloud providers offer dedicated channels, such as [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/). These connections can provide more reliability, consistent latencies, and higher security than typical Internet connections.
 
-Research shows that a few milliseconds of latency lead to a significant percentage drop-in page load times. For e-commerce companies, it might be a sizable drop in user attention and therefore sales revenue. Low latency isn't  just good, it's a critical deciding factor in an enterprise's brand and reputation. The same applies to back office business applications operating in the cloud, user experience and productivity can be impacted in a high-latency environment.
+Performance can also suffer because of a poorly designed application. Three scenarios are common:
 
-Your cloud applications are powered by hundreds of pieces of virtualized hardware running on Azure datacenters sprinkled around the world. A crucial decision you must make the datacenter to deploy your application so that all users of the application get an acceptable level of latency. Learn more at [Environment Strategy](environment-strategy-overview.md)
-
-One option for businesses looking for more network reliability and security is to use a private connection. Cloud providers offer dedicated channels, for example [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/). These connections can offer more reliability, consistent latencies, and higher security than typical connections over the internet.
-
-Performance also can suffer because of a poorly designed application. There are three typical scenarios for this issue:
-
-- You make custom code changes in Dynamics 365 online  
+- You customize Dynamics 365 with code changes  
 - You deploy custom applications in a platform as a service (PaaS) environment  
 - You deploy custom applications in an infrastructure as a service (IaaS) environment  
 
-In those cases, your team must design a high-performing application and carry out proper performance tests. Only then do you deploy to production.
+In these cases, your team should design a high-performing application and test it properly before deploying it to production.
 
-To summarize, here are key takeaways:
-
-- Performance must be a key consideration for business applications  
-- Give due attention to performance during the implementation projects  
-
-Performance not only impacts the user experience and adoption. It can directly impact business goals and key performance indicators (KPIs) of project success.
+Performance not only influences the user experience and adoption. It can also affect your business goals and key performance indicators (KPIs) of project success.
 
 > [!TIP]
 > You can test latency using the Azure Latency Test and Azure Speed Test 2.0 for each datacenter.
 
-## Isolation in the shared cloud
+## Isolate your data in the shared cloud
 
-The cloud operates on a shared common infrastructure across different businesses, which leads to economies of scale. But although the infrastructure and processing may be shared in public clouds, you have data isolation, which means one customer's data isn't shared with others. Microsoft takes security and data use policies seriously. For us, it's imperative that we maintain the highest data and security standards. Trusted third-party organizations audit and certify these standards and practices regularly. Security isn't an afterthought. It's ingrained into how we develop applications, so that the computing infrastructure is shared and other security related aspects are isolated.
+The cloud uses a shared common infrastructure across different businesses, which leads to economies of scale. But even though the infrastructure and processing might be shared in public clouds, your data is isolated, which means it's not shared with others. Microsoft takes security and data use policies seriously. We maintain the highest data and security standards, and we get them audited and certified by trusted third parties regularly. Security isn't an afterthought. It's part of how we develop applications, so that the computing infrastructure is shared and other security aspects are isolated.
 
-The other aspect of sharing resources and infrastructure in the cloud is the possibility of monopolizing resources or becoming a noisy neighbor. While rare, these cases often happen due to to poorly developed runaway code, and not due to a legitimate business use case. Automated monitoring and protection throttles are built into the Dynamics 365 platform to prevent such situations. It's important to understand and comply with these service boundaries and throttles when you design for cloud platforms. For more information, read [Priority-based throttling](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling) and [Service protection API limits](/powerapps/developer/data-platform/api-limits).
+Another aspect of sharing resources and infrastructure in the cloud is the possibility of monopolizing resources or becoming a noisy neighbor. This can happen due to poorly developed code that consumes too much resources, and not due to a valid business use case. The Dynamics 365 platform has automated monitoring and throttling mechanisms to prevent such situations. You should understand and comply with these service boundaries and throttles when you design for cloud platforms. For more information, see [Priority-based throttling](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling) and [Service protection API limits](/powerapps/developer/data-platform/api-limits).
 
-## Service protection and a capacity-based model
+## Protect your service and use a capacity-based model
 
-Service protection and limits are used in cloud services to ensure consistent availability and performance for users. The thresholds don't impact the normal user operations. They're designed to protect from random and unexpected surges in request volumes that threaten the user experience, and the availability and performance characteristics of the platform or solution. It's crucial to understand the protection limits and design for them with the appropriate patterns, especially around high-volume workloads like integrations and batch processing.
+Service protection and limits are used in cloud services to ensure consistent availability and performance for users. The thresholds don't affect the normal user operations. They're designed to protect from random and unexpected surges in request volumes that threaten the user experience, and the availability and performance of the platform or solution. You should understand the protection limits and design for them with the appropriate patterns, especially for high-volume workloads like integrations and batch processing.
 
-The cloud provides us with the scalability to deal with large workloads, but a shared public cloud doesn't mean you have unlimited capacity or computing power. In many cases, these capacity limits are enforced via licensing. You have to embrace this capacity-based model of cloud infrastructure and plan to operate within the entitlements, taking into account usage profile, data volumes, and integration patterns. Understanding these protections and service boundaries that apply to a specific service helps bring clarity on available resources. It also drives the right behavior when it comes to design and development. As a result, the solution is optimized to operate within the allocated capacity. More capacity is procured to meet the requirements in advance.
+The cloud gives you the scalability to handle large workloads, but a shared public cloud doesn't mean you have unlimited capacity or computing power. In many cases, these capacity limits are enforced via licensing. You should embrace this capacity-based model of cloud infrastructure and plan to operate within the entitlements, taking into account usage profile, data volumes, and integration patterns. Understanding these protections and service boundaries that apply to a specific service helps you clarify the available resources. It also drives the right behavior when it comes to design and development. As a result, the solution is optimized to operate within the allocated capacity. You should procure more capacity to meet your requirements in advance.
 
-Learn more at [Service the solution](service-solution.md)  
+Learn more at [Service the solution](service-solution.md).
 
 > [!TIP]
-> Plan for the daily peak and the monthly maximum order transaction volumes expected to ensure that the service is licensed to satisfactorily support the peak as well as the total maximum expected volumes. Also, plan and prioritize for integrations and Open Data Protocol (ODATA) requests based on the volumes, so they're honored and not throttled due to request limits. These checks and balances prevent overutilizing resources, preserve the system's responsiveness, and ensure consistent availability and performance for environments running Dynamics 365 apps.
+> Plan for expected daily peak and monthly maximum order transaction volumes to ensure that the service is licensed to support them. Also, plan and prioritize your integrations and Open Data Protocol (ODATA) requests based on the volumes, so they're not throttled by request limits. These checks and balances prevent overusing resources, preserve the system's responsiveness, and ensure consistent availability and performance for environments running Dynamics 365 apps.
 
-## Integration with on-premises systems
+## Integrate with on-premises systems
 
-The cloud might be the preferred approach for new applications, but in most enterprise solutions, you could still have on-premises elements. Therefore, it's common to build integrations with these on-premises systems. It's important to establish these integration patterns in compliance with your internal security policies while allowing cloud applications to authenticate and connect to on-premises services. You often need allow-listing URLs and IP ranges on your firewall. Or you might use the Microsoft Entra Application Proxy or an on-premises gateway that allows such integrations without having to open inbound connections into your customer's corporate network.
+The cloud might be the preferred option for new applications, but you might still have on-premises elements in your enterprise solution. Therefore, you might need to build integrations with these on-premises systems. You should establish these integration patterns in compliance with your internal security policies while allowing cloud applications to authenticate and connect to on-premises services. You might need to allow-list URLs and IP ranges on your firewall. Or you might use the Microsoft Entra Application Proxy or an on-premises gateway that allows such integrations without opening inbound connections into your network.
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-Even from a design standpoint, patterns that worked on-premises could be challenging in the cloud, due to latency and other security restrictions imposed. An example is the encryption of traffic leaving a customer network or routing via a peering network.
+Even from a design standpoint, patterns that worked on-premises might be challenging in the cloud, due to latency and other security restrictions. An example is the encryption of traffic leaving your network or routing via a peering network.
 
-## Cloud and edge
+## Use cloud and edge for offline scenarios
 
-The public cloud is the default and recommended choice of deployment for most Dynamics 365 customers. However, you may want to extend the cloud to unlock important capabilities for key scenarios where connectivity is an issue. Your industry may need a solution on the ground, such as brick and mortar commerce, field service, a manufacturing execution system (MES), warehouse operations, and project operations.
+The public cloud is the default and recommended choice of deployment for most Dynamics 365 customers. However, you might want to extend the cloud to support key scenarios where connectivity is an issue. Your industry might need a solution on the ground, such as retail, field service, manufacturing, warehousing, and project operations. These implementations are called *cloud and edge*, where *cloud* is the system of intelligence and *edge* is the system of record.
 
-These implementations are called cloud and edge, where cloud is the system of intelligence and edge is the system of record.
+For example, Dynamics 365 Commerce customers use the cloud and edge model. Here, the store operations run on-premises (edge), while the main instance handles centralized back-office functions like finance, data management, and analytics (cloud).
 
-For example, Dynamics 365 Commerce customers use the cloud and edge model. Here, the store operations run on-premises (edge), while the main instance handles centralized back office functions like finance, data management (such as products and customers), and analytics (cloud).
+Cloud and edge deployments provide business continuity for mission-critical functions. You can keep running operations when disconnected from the cloud. If there's a network outage, Dynamics 365 Point of Sales can operate locally and store data generated offline. When connectivity resumes, data is synchronized to the cloud. Also, when throughput is high and many processes run in parallel, user productivity might be affected. You can scale out and run manufacturing and warehouse processes in isolation to support high user productivity.
 
-Cloud and edge deployments provide business continuity for mission-critical functions like point of sales, warehousing, and manufacturing. We want you to be able to continue running operations when disconnected from the cloud. If there's a network outage, Dynamics 365 Point of Sales can sustain itself with basic operations and keep data generated locally. When connectivity resumes, data is synchronized to the cloud. Also, whenever throughput is high and more heavy processes are run in parallel, user productivity may be impacted. We want to enable you to scale out and run manufacturing and warehouse processes in isolation so high user productivity is always supported.
-
-Another reason is internet connectivity. Regions with poor internet connectivity see more occurrences of on-premises deployments. Organizations operating in such regions go with an edge model to mitigate the risk to their business from poor connectivity. They also want to maintain a stable user experience for their staff.
+Another reason for using a cloud and edge implementation is Internet connectivity. Regions with poor Internet connectivity might prefer on-premises deployments. Organizations operating in such regions use an edge model to reduce the risk to their business from poor connectivity. They also want to maintain a stable user experience for their staff.
 
 ## Next steps
 
-- Understand the importance of implementing cloud solutions reviewing the [overview](implementing-cloud-solutions.md)
-- Understand how to [adopt a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md)
+- Learn why it's important to implement cloud solutions by reviewing the [overview](implementing-cloud-solutions.md)
+- Learn how to [adopt a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md)
 - Learn how to [customize and extend cloud applications](implementing-cloud-solutions-customize-extend-cloud-applications.md)
-- Learn how to successfully [operate in the cloud](implementing-cloud-solutions-operate-in-cloud.md)
+- Learn how to [operate in the cloud](implementing-cloud-solutions-operate-in-cloud.md)
 - Review the [evergreen cloud](implementing-cloud-solutions-evergreen-cloud.md) approach and the model of continuous updates
-- Understand best practices to [upgrade from on-premises to the cloud](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md) 
-- Review the [checklist](implementing-cloud-solutions-checklist.md) to help with best practices in implementing cloud solutions
-- Read the [case study](implementing-cloud-solutions-case-study.md) to see how adopting a cloud mindset and putting together proper strategy can help your organization
+- Learn best practices to [upgrade from on-premises to the cloud](implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md)
+- Review the [checklist](implementing-cloud-solutions-checklist.md) to help you with best practices in implementing cloud solutions
+- Read the [case study](implementing-cloud-solutions-case-study.md) to see how adopting a cloud mindset and putting together a proper strategy can help your organization

@@ -1,31 +1,26 @@
 ﻿---
 title: Case study in driving app value
-description: Review a case study of a business-focused digital transformation.
+description: Learn how an accounting network used Dynamics 365 to adapt to the COVID-19 pandemic and maintain business continuity.
 author: taksatoms
 ms.author: tsato
-ms.date: 05/25/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
 # Case study in driving app value
 
-Dynamics 365 helps adapt business processes to change. Let's go through an example of how change management is key to the success of an implementation strategy.
+Dynamics 365 helps you adjust your business processes to change. Let's look at an example of how change management is key to the success of an implementation strategy.
 
-## Story
+In 2020, one of our clients, an accounting network, faced unique and unexpected challenges. The COVID-19 pandemic had disrupted face-to-face work, threatened global supply chains, and changed regulatory and political landscapes.
 
-We're back in 2020. One of our clients, an accounting network, faces unique and unexpected challenges. The COVID-19 pandemic has inhibited face-to-face work, threatened global supply chains, and shifted regulatory and political landscapes.
+To keep the business running and stay connected with customers, the company adapted its digital selling techniques with Dynamics 365. With a complete view of each profile, sales staff could work remotely without compromising the customer experience.
 
-## Case Study
+The solution also integrated with the firm's risk assessment tool to identify vulnerable areas caused by the pandemic, letting staff create proactive plans for their clients. The company keeps its business personal, up-to-date, and resilient by optimizing digital solutions in a time of uncertainty.
 
-To maintain business continuity and stay connected with customers, the company adapts their digital selling techniques with Dynamics 365. With 360-degree views into each profile, sales staff can work remotely without interrupting the customer experience.  
-
-The solution also works with the firm's risk assessment tool to identify vulnerable areas caused by the pandemic, allowing staff to create proactive plans for their clients. The company is keeping their business personal, up-to-date, and resilient by optimizing digital solutions in a time of uncertainty.
-
-This successful pivot clearly highlights the power of Dynamics 365 as an adaptable cloud platform that can not only deliver strategic solutions but also adapt to changing business needs quickly.
-
-## Next steps
-
-- Return to the overview at [Drive app value](drive-app-value.md)  
-
-- Learn how to develop a strategy at [Implementation strategy](implementation-strategy.md)  
+This successful pivot shows the power of Dynamics 365 as an adaptable cloud platform that can not only deliver strategic solutions but also adapt to changing business needs quickly.

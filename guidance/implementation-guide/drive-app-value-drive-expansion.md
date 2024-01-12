@@ -1,106 +1,103 @@
 ﻿---
-title: Drive expansion
-description: Learn how expansion can help the business-focused digital transformation.
+title: Expand your business applications
+description: Learn how to grow the usage and scope of your business applications to increase their value and impact for your organization.
 author: taksatoms
 ms.author: tsato
-ms.date: 05/21/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Drive expansion
+# Expand your business applications
 
-All the approaches and techniques we have discussed in other articles can help you create an effective digital transformation roadmap for your business application. They're relevant to the *Initiate* phase, but you can apply these methods iteratively or revisit them for further expansion. In this article, we focus on expanding the usage and scope of business applications in different areas to drive even greater business impact. We consider the impact on the following aspects:
+In previous articles, we showed you how to create a digital transformation roadmap for your business applications. You learned how to apply different approaches and techniques in the *Initiate* phase. But you can also use them later to expand your applications. In this article, we focus on how to grow the usage and scope of your business applications in various areas to achieve more business value and impact. We look at how expansion affects these aspects:
 
 - Security and compliance
-
 - Application lifecycle management (ALM)
-
 - Administration and governance
-
 - User readiness and change management
-
 - Environment strategy
-
 - Limits and capacity
-
 - Data and integrations
-
-:::image type="content" source="media/drive-app-value-drive-expansion.png" alt-text="Drive expansion" :::
 
 ## Users
 
-The most common expansion scenario for a business solution is adding more users. It might be the result of onboarding new regions or countries onto the same application. User-only expansion sounds straightforward, but you could have data migrations on a live system, security and compliance challenges based on the region, or other impacts.
+One of the most common ways to expand a business solution is to add more users. This might happen when you bring new regions or countries to the same application. Adding users might seem simple, but it can have some challenges. For example, you might need to migrate data on a live system, meet different security and compliance requirements based on the region, or deal with other impacts.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-users.png" alt-text="Users" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-users.png" alt-text="Diagram showing the impact on a business application of adding users.":::
 
 ## Mobile
 
-It can help with adoption that users have access to multiple devices with offline capabilities. In some cases, mobile access is part of the initial release, for example in warehousing systems where goods must be scanned when picked up. In other cases, it could be a subsequent update. Most out-of-the-box capabilities work in mobile apps, with more optimizations to support the move experience. Our example sales mobile application offers the core sales application features with mobile experiences for field sellers.
+Giving users access to multiple devices with offline capabilities can help with adoption. Sometimes, mobile access is part of the initial release; for instance, warehousing systems where workers need to scan goods when they pick them up. Other times, it might be a later update. Most built-in capabilities work in mobile apps, with more optimizations to support the mobile experience. For example, a sales mobile app offers the core features of the sales app with a mobile-friendly interface for field sellers.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-mobile.png" alt-text="Mobile" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-mobile.png" alt-text="Diagram showing the impact on a business application of adding mobile access.":::
 
 ## Incremental changes
 
-Incremental changes are primarily driven through the feedback and change requests from users and the business. These changes help make sure that the application meets the expectation of ongoing enhancement and continues to build on top of the initial MVP to maintain relevance. It's still important to look at these requests through the business value and transformation lens.
+Incremental changes are mainly driven by feedback and change requests from users and the business. These changes help ensure that the application meets the expectations of ongoing improvement and builds on the initial minimum viable product (MVP) to stay relevant. It's still important to evaluate these requests based on the business value and transformation goals.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-incremental-changes.png" alt-text="Incremental Changes" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-incremental-changes.png" alt-text="Diagram showing the impact on a business application of incremental changes.":::
 
 ## Feature adoption
 
-As we have seen when discussing change streams, cloud products make significant investments in researching and implementing business capabilities that their customers can easily enable. It's a key value proposition of the cloud, and can play a key role in deriving value from your investments. With continuous updates in Dynamics 365, new features are made available to customers. A key business as usual (BAU) activity is the business analysis of the new features with an analysis of the technical impact on the existing solution and customizations. This activity must be conducted in collaboration with key stakeholders. Most of these feature improvements are made available to customers with no extra cost and can help advance your application to the innovative or differentiator quadrant.
+As we discussed when talking about change streams, cloud products invest a lot in researching and implementing business capabilities that customers can easily turn on. It's a key benefit of the cloud, and it can play a major role in getting value from your investments. With continuous updates in Dynamics 365, new features are available to customers. A key business as usual activity is to analyze the new features and their technical impact on the existing solution and customizations. You must do this activity with key stakeholders. Most of these feature improvements are available to customers at no extra cost and can help move your application to the innovative or differentiator quadrant.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-feature-adoption.png" alt-text="Feature Adoption" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-feature-adoption.png" alt-text="Diagram showing the impact on a business application of feature adoption.":::
 
 ## New workloads
 
-Dynamics 365 provides several business applications that are built on the same scalable power platform. As end users adopt your application, you find more opportunities to onboard related workloads that could help eliminate data siloes by enabling stronger collaboration and data sharing. For example, to achieve seamless collaboration when you're onboarding a marketing workload in addition to sales, the sales team can get visibility into the nurture programs their customers are part of, extend invite to marketing events, and so on. Similarly, the accounts payable team could expand and move into a centralized accounts payable processing system. However, new workloads can have significant impact.
+Dynamics 365 provides several business applications that are built on the same scalable Power Platform. As users adopt your application, you might find more opportunities to add related workloads that can help eliminate data silos by enabling stronger collaboration and data sharing. For example, if you add a marketing workload to your sales app, the sales team can see which nurture programs their customers are in and invite them to marketing events. Similarly, the accounts payable team can expand and move to a centralized accounts payable processing system. However, new workloads can have a significant impact.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-new-workloads.png" alt-text="New Workloads" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-new-workloads.png" alt-text="Diagram showing the impact on a business application of new workloads.":::
 
 ## Satellite applications
 
-When deployed, your business application covers core use cases and scenarios, some of which may only be relevant to a specific team, region, or role. In such scenarios, you can deliver such targeted capabilities via a satellite application. Satellite apps are a good opportunity for user-developed apps and automations while using the data model of the core application. You could also use these applications for incubation before incorporating it in the core app. Regarding areas of impact, it's important to have strong governance around the data model and creation of more data stores, which can lead to data fragmentation.
+When you deploy your business application, it covers core use cases and scenarios. Some of them might be relevant only to a specific team, region, or role. In such cases, you can deliver those targeted capabilities through a satellite application. Satellite apps are a good opportunity for user-developed apps and automations that use the data model of the core app. You can also use these apps for testing before adding them to the core app. Regarding the areas of impact, it's important to have strong governance around the data model and avoid creating more data stores that can lead to data fragmentation.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-satellite-applications.png" alt-text="Satellite Applications" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-satellite-applications.png" alt-text="Diagram showing the impact on a business application of adding satellite apps.":::
 
 ## Integrations
 
-Integrations can play a key role in eliminating data duplication and improving data quality. Most importantly, they reduce the need for users to navigate multiple applications, which prevents context switching. The core integrations should be part of the initial phases and not be left to future expansion phases. Even the out-of-the-box integrations with existing productivity applications like Microsoft 365 can positively influence adoption and make the information seamlessly available across apps while enabling stronger collaboration. However, you need an abundance of caution. Integration can also lead to performance issues and increase the overall complexity and cost of maintenance, so using the right patterns and practices is critical.
+Integrations can play a key role in eliminating data duplication and improving data quality. Most importantly, they reduce the need for users to switch between multiple applications, which prevents context switching. The core integrations should be part of the initial phases and not left to future expansion phases. Even the built-in integrations with productivity applications like Microsoft 365 can boost adoption and make the information seamlessly available across apps while enabling stronger collaboration. However, you need to be careful. Integration can also cause performance issues and increase the overall complexity and cost of maintenance, so you need to use the right patterns and practices.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-integrations.png" alt-text="Integrations" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-integrations.png" alt-text="Diagram showing the impact on a business application of adding integrations.":::
 
 ## Aggregation
 
-Aggregation can help consolidate multiple business applications with significant overlap of data and processes into a single application. Aggregation is different from integration, it completely replaces the application and brings the core feature set into an existing application instead of exchanging or embedding information. For example, a commercial banking sales system could become an aggregator for all nonpersonal banking sales systems.
+Aggregation can help consolidate multiple business applications that have a lot of overlap in data and processes into a single application. Aggregation is different from integration. It completely replaces the application and brings the core features into an existing application instead of exchanging or embedding information. For example, a commercial banking sales system could become an aggregator for all nonpersonal banking sales systems.
 
-The cutover approach for old applications is critical; make sure to avoid parallel usage leading to fragmentation of data and other aftereffects.
+The cutover approach for old applications is critical. Make sure to avoid parallel usage that can lead to data fragmentation and other aftereffects.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-aggregation.png" alt-text="Aggregation" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-aggregation.png" alt-text="Diagram showing the impact on a business application of adding aggregation.":::
 
 ## Application standardization
 
-This model of growth is driven by creating a generic application that isn't targeted at a specific process but a host of similar processes. The application could even provide a framework that enables the business to onboard themselves. This can achieve hyper-scale, in which you can broadly t-shirt size hundreds of processes or applications that serve more than one business process.
+This type of growth is driven by creating a generic application that isn't targeted at a specific process but a host of similar processes. The application could even provide a framework that lets the business onboard itself. This can achieve hyper-scale, where you can broadly categorize hundreds of processes or applications that serve more than one business process.
 
-A general-purpose application allows scale, but can require more training and user readiness, so it must be thoughtfully done to be successful.
+A general-purpose application allows scale, but it can require more training and user readiness, so you need to do it thoughtfully to be successful.
 
-For example, consider a generic case management system that can accommodate hundreds of different case processes from different internal business functions that broadly involve similar steps. The business can create a team of resolvers, configure service-level agreements (SLAs), provide email notification templates, and create Microsoft Word or Excel templates to capture nonstandard data. But they can still use the generic application for core case management capabilities. All these actions have important considerations.
+For example, consider a generic case management system that can handle hundreds of different case processes from different internal business functions that broadly involve similar steps. The business can create a team of resolvers, configure service-level agreements (SLAs), provide email notification templates, and create Microsoft Word or Excel templates to capture nonstandard data. But they can still use the generic app for core case management capabilities. All these actions have important considerations.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-application-standardization.png" alt-text="Application Standardization" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-application-standardization.png" alt-text="Diagram showing the impact on a business application of adding app standardization.":::
 
 ## Pivot
 
-Pivots aren't necessarily expansion, but can trigger major change to an application, which could fundamentally change and further broaden its scope. For example, a targeted Power App used by a small team could go viral within an organization, and you must pivot to make it an organization-wide application.
+Pivots aren't necessarily expansion, but they can trigger major changes to an application, which could fundamentally change and broaden its scope. For example, a targeted Power Apps app used by a small team could go viral in an organization, and you need to pivot to make it an organization-wide application.
 
-:::image type="content" source="media/drive-app-value-drive-expansion-pivot.png" alt-text="Pivot" :::
+:::image type="content" source="media/drive-app-value-drive-expansion-pivot.png" alt-text="Diagram showing the impact on a business application of adding pivot.":::
 
 ## Next steps
 
-- Understand the importance of driving app value by reviewing the [overview](drive-app-value.md)
+- To understand the importance of driving app value, review the [overview](drive-app-value.md)
 - Learn how Success By Design plays a major role in defining the [approach to digital transformation](drive-app-value-approach-to-digital-transformation.md)
 - Embrace the mindset of constant change and learn about considerations for [change streams](drive-app-value-change-streams.md)
 - Understand how product features and changes align with strategy by understanding the [transformation map](drive-app-value-transformation-map.md)
 - Find out how [phases and increments](drive-app-value-phases-increments.md) play a role in driving app value
-- Understand the [minimal viable product strategy](drive-app-value-minimal-viable-product-strategy.md)
+- Understand the [minimum viable product strategy](drive-app-value-minimal-viable-product-strategy.md)
 - Review the [checklist](drive-app-value-checklist.md) for driving app value
 - Read the [case study](drive-app-value-case-study.md) to understand a real customer scenario for driving app value

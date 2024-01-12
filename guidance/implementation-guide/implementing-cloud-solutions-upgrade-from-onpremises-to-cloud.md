@@ -1,50 +1,56 @@
 ﻿---
-title: Upgrade from on-premises to the cloud
-description: Get introduced to the key points of migrating from an on-premises solution to Dynamics 365 online.  
+title: Move your business from on-premises to the cloud
+description: Learn the key points of migrating from an on-premises solution to Dynamics 365 and how it can boost your digital transformation.
 author: taksatoms
 ms.author: tsato
-ms.date: 05/17/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Upgrade from on-premises to Dynamics 365 online
+# Move your business from on-premises to the cloud
 
-Many organizations have invested in on-premises deployment of business applications. These solutions might serve the users and the business well in their current state, but keeping them on-premises might limit your opportunity for expansion. In these cases, you should explore upgrading or migrating an existing on-premises business application to the cloud. You can bring along existing business processes and data to speed up your digital transformation.
+If you have an on-premises deployment of business applications, you might be missing out on the benefits of the cloud. You can upgrade or migrate your on-premises solution to Dynamics 365&mdash;and keep your business processes and data to speed up your digital transformation.
 
-Dynamics 365 provides the tooling and support to help on-premises deployment upgrades or migrations to the cloud, subject to compatibility and security checks. This option to upgrade to the cloud also helps organizations take advantage of their existing investments in implementation, as long as the supported implementation techniques are used and compatible with the cloud. Still, everything we discuss in this section is fully applicable, including considerations, extension, and operations.
+Dynamics 365 helps you move your on-premises solution to the cloud, as long as it meets compatibility and security standards. You can also use your existing investments in implementation, if you follow supported and cloud-ready techniques. But you still need to consider the topics we discuss in this section, such as extension and operations.
 
 ## Considerations
 
-When upgrading or migrating to the cloud, consider the following items:
+Before you move to the cloud, think about these items:
 
-- Assess if the legacy system meets the requirement of the business and whether the business users like it. It's the most critical factor in deciding on the upgrade-to-cloud approach.  
+- Check whether your legacy system meets your business needs and whether your users like it. It's the most important factor in deciding how to move to the cloud.
 
-- The data model, design, and data quality should ensure that the application being upgraded becomes a stepping stone to accelerate digital transformation. The upgraded application should serve as a foundation for further growth and adoption of new capabilities in the cloud. It shouldn't stifle cloud adoption by carrying over poor design and data.
+- Make sure your data model, design, and quality are good enough to support your cloud solution. Your data should help you adopt new cloud features and grow your business. It shouldn't hold you back with poor design or quality.
 
-- Choose a cloud platform that's approved to store and process data in accordance with the organization's security policies and regulations. The patterns used for authentication and integration also need to be revisited to make sure they're cloud ready.
+- Choose a cloud platform that can store and process your data safely and legally. You might need to change how you authenticate and integrate your data to make it cloud ready.
 
-- Understand the data category, flow, transformations, location, and encryption during and post migration. The knowledge helps you navigate organizational security policies and plan your cutover.  
+- Know your data category, flow, transformations, location, and encryption before and after the migration. This helps you follow your security policies and plan your cutover.
 
-- The upgrade to the cloud can be a multi-staged process that involves stringent compatibility and validation checks. It's critical to understand the process and review the prerequisites early in the process.  
+- Moving to the cloud can take several steps and require compatibility and validation checks. Understand the process and review the prerequisites early on.
 
-- Some components in the on-premises application may need to be remediated or replaced to ensure cloud readiness. Examples to look at include deprecation, unsupported customizations, and non–cloud ready patterns that pose a security or performance risk.
+- You might need to fix or replace some components in your on-premises solution to make them work in the cloud. Look for deprecated, unsupported, or risky customizations and patterns that could affect security or performance.
 
-- Existing integration and peripheral applications require changes to ensure they work with the cloud applications.
+- You might need to update your existing integration and peripheral applications to work with the cloud solution.
 
-- Any impact on process, performance, and usability due to latency, service protection limits, or license capacity should be considered.
+- You might need to deal with some changes in process, performance, and usability due to latency, service protection limits, or license capacity.
 
-The ability to bring existing Dynamics 365 on-premises applications into the cloud with proper due diligence can be a game-changer for your digital transformation.
+Moving your existing Dynamics 365 on-premises solution to the cloud can be a great way to advance your digital transformation.
 
 > [!TIP]
-> The [Dynamics 365 Migration Program](https://dynamics.microsoft.com/migration-program/) can help you take the first step toward cloud success by migrating your on-premises solution with expert guidance from Microsoft. Learn more at the [overview of our program](/dynamics365/get-started/migration/migration-overview), or perform a [standard migration assessment](/dynamics365/get-started/migration/standard-migration-assessment). You can also [move from Dynamics AX to Dynamics 365 in the cloud](/dynamics365/get-started/migration/moving-to-the-cloud).
+> The [Dynamics 365 Migration Program](https://dynamics.microsoft.com/migration-program/) can help you move to the cloud with expert guidance from Microsoft. Learn more at the [overview of our program](/dynamics365/get-started/migration/migration-overview), or perform a [standard migration assessment](/dynamics365/get-started/migration/standard-migration-assessment). You can also [move from Dynamics AX to Dynamics 365 in the cloud](/dynamics365/get-started/migration/moving-to-the-cloud).
 
 ## Next steps
 
-- Understand the importance of implementing cloud solutions reviewing the [overview](implementing-cloud-solutions.md)
-- Understand how to [adopt a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md)
-- Review [cloud implementation consideration](implementing-cloud-solutions-cloud-implementation.md) for successful implementation 
-- Learn how to [customize and extend cloud applications](implementing-cloud-solutions-customize-extend-cloud-applications.md)
-- Learn how to successfully [operate in the cloud](implementing-cloud-solutions-operate-in-cloud.md)
-- Review the [evergreen cloud](implementing-cloud-solutions-evergreen-cloud.md) approach and the model of continuous updates
-- Review the [checklist](implementing-cloud-solutions-checklist.md) to help with best practices in implementing cloud solutions
-- Read the [case study](implementing-cloud-solutions-case-study.md) to see how adopting a cloud mindset and putting together proper strategy can help your organization
+- Read the [overview](implementing-cloud-solutions.md) to understand why cloud solutions are important for your business
+- Learn how to [adopt a cloud mindset](implementing-cloud-solutions-adopt-cloud-mindset.md) and prepare for the transition
+- Review the [cloud implementation considerations](implementing-cloud-solutions-cloud-implementation.md) for a successful project
+- Learn how to [customize and extend cloud applications](implementing-cloud-solutions-customize-extend-cloud-applications.md) to fit your needs
+- Learn how to [operate in the cloud](implementing-cloud-solutions-operate-in-cloud.md) and manage your solution
+- Learn how to [keep up with technology using Dynamics 365](implementing-cloud-solutions-evergreen-cloud.md) and benefit from continuous updates
+- Use the [checklist](implementing-cloud-solutions-checklist.md) to follow the best practices for implementing cloud solutions
+- Read the [case study](implementing-cloud-solutions-case-study.md) to see how a cloud mindset and a proper strategy can help your organization
