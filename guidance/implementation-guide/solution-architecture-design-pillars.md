@@ -50,15 +50,9 @@ The following diagram summarizes the solution architecture design pillars and ho
 Now that you have an overview of the solution architecture design pillars and how they help you create a blueprint for your solution, you can learn more about each pillar in the following articles:
 
 - [Define your vision and strategies for your solution](solution-architecture-design-pillars-vision-strategies.md)
-
 - [Outline your business processes for your solution](solution-architecture-design-pillars-processes.md)
-
 - [Determine the people involved in and affected by your solution](solution-architecture-design-pillars-people.md)
-
 - [Know and manage your data for your solution](solution-architecture-design-pillars-data.md)
-
 - [Develop a solution strategy using Dynamics 365 apps and other technologies](solution-architecture-design-pillars-technology.md)
-
 - [Apply project management, change management, and governance and control methodologies for your solution](solution-architecture-design-pillars-methodology.md)
-
 - [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)

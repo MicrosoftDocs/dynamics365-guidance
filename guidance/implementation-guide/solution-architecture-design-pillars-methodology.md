@@ -1,81 +1,73 @@
 ---
-title: Solution architecture design pillars methodologies
-description: Learn about methodologies that you can adopt as part of your solution architecture. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
+title: Use methodologies for your solution design
+description: Learn how to use the Methodologies pillar of solution design to plan, organize, communicate, and govern your project.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 06/28/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Solution architecture design: Methodologies
+# Use methodologies for your solution design
 
-A methodology is a collection of methods used to achieve predictable outcomes. Good methodology also demonstrates why things need to be done in a particular order and fashion. The Success by Design framework is a higher-level abstraction through which a range of concepts, models, techniques, and methodologies can be clarified. It can bend around any methodology, so choose the methodology that works best for you.  
+Methodologies are the methods you use to get predictable results. Good methodologies also show you why and how to do things in a certain way. The Success by Design framework is a flexible way to apply different concepts, models, techniques, and methodologies. You can use any methodology that works best for you.
 
-To achieve your solution, the workflows and delivery need to be planned, organized, communicated by various methods, including:
-
-- Project management  
-- Change management  
-
-  Learn more at [Implementation strategy](implementation-strategy.md)
-
-- Governance and control  
-
-  Learn more at [Project Governance](project-governance.md)
+To deliver your solution, you need to plan, organize, and communicate your workflows by using methods such as project management, change management, and governance and control.
 
 ## Project management
 
-There are multiple project management methodologies and approaches. The methodology that you choose for enterprise resource planning (ERP) is a topic that can generate more heat than light. Partners often rely on their own branded methodology to reassure customers about their governance. Project management approaches can be grouped into three core categories:
+There are many project management methodologies and approaches. The one you choose for your enterprise resource planning (ERP) project can make a big difference. Partners often use their own branded methodology to show their customers their governance. You can group project management approaches into three main categories:
 
 - Waterfall
-
 - Agile
-
 - Hybrid
 
-As we move increasingly toward a low-code world, there are faster deployments and fewer customizations, and your approach should match the changing world and your customers' expectations.
+As the world becomes more low-code, you can deploy faster and customize less. Your approach should match this change and your customers' expectations.
 
-Learn more about project management approaches at [Implementation strategy](implementation-strategy.md)  
+To learn more about project management approaches, see [Implementation strategy](implementation-strategy.md).
 
 ## Change management
 
-Project management (the *how*) and change management (the *who*) are both tools that support your project's benefits realization. Without a change management plan in place, your organization's objectives are at risk. To drive adoption with your end users and accelerate value realization, apply a vigorous change management approach, which is most effective when launched at the beginning of a project and integrated into your project activities.
+Project management (the *how*) and change management (the *who*) are both tools that support your project's benefits. Without a change management plan, you risk your organization's goals. To drive adoption with your users and get value faster, use a strong change management approach. It works best when you start it at the beginning of a project and integrate it into your project activities.
 
-The benefits of a solid change management approach are:
+The benefits of a solid change management approach are that:
 
 - It focuses on the people side of organizational change.
-
 - It seeks individual and organizational perspectives.
-
 - It requires action and involvement by leaders and managers throughout the organization.
 
-Learn more at [Change management overview](change-management.md)  
+To learn more, see [Change management overview](change-management.md).
 
 ## Governance
 
-The term *governance* often brings to mind just project management or possibly even stakeholder management, but such a limited view of governance may cause an organization to ignore core elements required for success.
+The term *governance* often means just project management or stakeholder management, but this view can make you miss core elements of success.
 
-:::image type="content" source="media/governancedomains.png" alt-text="governance domains" lightbox="media/governancedomains.png":::
+:::image type="content" source="media/governancedomains.png" alt-text="Table describing governance domains." lightbox="media/governancedomains.png":::
 
-Every project component contains an element of uncertainty and is based upon assumptions made before details are known or fully understood. So, if we know this, why would we expect a project manager to be solely responsible for project governance? The project manager is accountable for the project outcome, but 360-degree governance requires everyone, especially the architects and leads, to play a role.
+Every project component has some uncertainty and is based on assumptions made before you know or understand the details. So why would you expect a project manager to be the only one responsible for project governance? The project manager is accountable for the project outcome, but 360-degree governance needs everyone, especially the architects and leads, to play a role.
 
-A 360-degree governance method directly affects how well the project team performs and the ultimate result, and is executed on multiple levels:
+A 360-degree governance method affects how well the project team performs and the final result. It works on multiple levels:
 
-- A governance board or steering committee has final responsibility for meeting the project goals. It typically consists of representatives or stakeholders from each of the major participants.
+- A governance board or steering committee has the final responsibility for meeting the project goals. It usually has representatives or stakeholders from each of the main participants.
 
-- A project manager leads the team and administers project elements that include alignment, risk identification and mitigation, escalation, and cross-Microsoft collaboration.
+- A project manager leads the team and manages project elements such as alignment, risk identification and mitigation, escalation, and cross-Microsoft collaboration.
 
-- All project leaders, including the project manager, solution architect, and technical architect, closely communicate and align toward the common goal of solution deployment.
+- All project leaders, including the project manager, solution architect, and technical architect, communicate and align closely toward the common goal of solution deployment.
 
-- The technical architect leads and orchestrates the technical architecture across all application components to ensure optimal performance.
+- The technical architect leads and coordinates the technical architecture across all application components to ensure optimal performance.
 
 - The solution architect guides users toward the new vision and transformation.
 
 - The change manager ensures all internal and external communications are in place.
 
-Learn more at [Project governance for Dynamics 365 implementation projects](project-governance.md)  
+To learn more, see [Project governance for Dynamics 365 implementation projects](project-governance.md).
 
-## Next steps
+## Next step
 
-Learn more at [Implementation strategy](implementation-strategy.md) and [Project governance](project-governance.md).
+- [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)
