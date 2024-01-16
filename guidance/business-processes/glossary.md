@@ -69,7 +69,7 @@ Asset appraisers are individuals who leverage their expertise to evaluate the co
 
 An asset is something of value that an organization owns. Related definitions are [fixed asset](#fixed-asset) and [asset classification](#asset-classification).
 
-In [service to cash documentation](service-to-cash-overview.md), the term covers a physical object that service can be performed on, regardless of which organization owns it.
+In [service to cash documentation](service-to-cash-overview.md), the term covers a physical object that service can be performed on, regardless of the organization that owns it.
 
 ### Asset acquisition strategy
 
@@ -1253,7 +1253,7 @@ The purpose of a schedule is to ensure the timely completion of a project. It de
 
 ### Scheduling parameters
 
-The term *scheduling parameters* refers to any information available in a work order that helps the dispatchers schedule the service work. Examples include estimated duration, preferred times, required service resources, priority, territory, and so on.
+The term *scheduling parameters* refers to any information in a work order that helps the dispatchers schedule the service work. Examples include the estimated duration, preferred times, required service resources, priority, and territory.
 
 ### Scope
 
@@ -1283,17 +1283,17 @@ In business, services can play a critical role in building customer relationship
 
 ### Service customer
 
-The entity that a service is being performed for is the *service customer* or *service account*. It's typically the company that is financially responsible. In Dynamics 365 Field Service, you specify the service customer in the **Billing Account** field.
+The entity that a service is performed for is the *service customer* or *service account*. It's typically the company that is financially responsible. In Dynamics 365 Field Service, you specify the service customer in the **Billing Account** field.
 
 ### Service location
 
-In field service scenarios where frontline workers travel to perform service work, the service location defines that location. A service customer can have many different service locations. In Dynamics 365 Field Service, you specify the location in the **Service Location** field.
+In field service scenarios where frontline workers travel to perform service work, the service location defines the location where the work is performed. A service customer can have many service locations. In Dynamics 365 Field Service, you specify the service location in the **Service Location** field.
 
 ### Service resource
 
-In Dynamics 365 Field Service, a service resource is a person or equipment that can be scheduled to carry out or be used in the service delivery process.
+In Dynamics 365 Field Service, a service resource is a person who can be scheduled to perform the service delivery process, or equipment that can be used in that process.
 
-In Dynamics 365 Business Central, the term covers the people that provide the service, while the term *service item* covers the items that can be serviced. Dynamics 365 Supply Chain Management, the term *service object* covers the items that can be serviced. 
+In Dynamics 365 Business Central, the term *service resource* covers the people who provide the service, whereas the term *service item* covers the items that can be serviced. In Dynamics 365 Supply Chain Management, the term *service object* covers the items that can be serviced. 
 
 ### Shipment
 
@@ -1407,7 +1407,7 @@ For example, you can use a work order to schedule maintenance on a machine. You 
 
 You can also procure items with work orders. The procurement process typically starts with either a purchase requisition or purchase order request. Often, companies may not have the required items to execute a work order. This is when a purchase request is triggered. You can create a related purchase order or purchase requisition for a work order job in Dynamics 365.
 
-In Dynamics 365 Field Service, the work order is the primary information record used to organize information for scheduling and performing service. Work order records hold the critical information to complete the services. They are used to track the progress of a job or task from start to finish, and can include information such as the job description, the parts and resources needed, and the estimated completion time. Dynamics 365 Supply Chain Management and Business Central applications use the term *service order* instead of work order.
+In Dynamics 365 Field Service, the work order is the primary information record that is used to organize information for scheduling and performing service. Work order records hold the critical information that is needed to complete the services. They are used to track the progress of a job or task from start to finish, and can include information such as the job description, the parts and resources that are needed, and the estimated completion time. Dynamics 365 Supply Chain Management and Business Central applications use the term *service order* instead of *work order*.
 
 ### Workflow
 
