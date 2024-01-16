@@ -9,7 +9,7 @@ ms.author: kowildfe
 
 # Define a sales strategy overview
 
-***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Insights (Journeys), Dynamics 365 Customer Service***
+***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service***
 
 This article describes how to define an effective sales strategy by using Dynamics 365 products. A well-defined strategy aligns sales activities with business growth objectives.
 
@@ -101,7 +101,7 @@ You can use the following resources to learn more about the *define a sales stra
 
 - [Product overview of Dynamics 365 Sales](https://dynamics.microsoft.com/sales/overview/)
 - [Product overview of Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/)
-- [Product overview of Dynamics 365 Customer Insights (Journeys)](https://dynamics.microsoft.com/marketing/)
+- [Product overview of Dynamics 365 Customer Insights - Journeys](https://dynamics.microsoft.com/marketing/)
 - [Understand the sales process with Dynamics 365 Sales](/dynamics365/sales/nurture-sales-from-lead-order-sales)
 - [Digital selling capabilities in Sales Enterprise](/dynamics365/sales/digital-selling)
 <!--link is broken [Increase sales productivity with Dynamics 365 Sales](/dynamics365/sales-enterprise/increase-sales-productivity)-->

@@ -1,7 +1,7 @@
 ---
 title: Run marketing campaigns overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for running marketing campaigns.
-ms.date: 12/07/2023
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
@@ -9,17 +9,15 @@ ms.author: kowildfe
 
 # Run marketing campaigns overview
 
-***Applies to: Dynamics 365 Customer Insights (Journeys), Dynamics 365 Customer Insights (Data), Power BI***
+***Applies to: Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Insights - Data, Power BI***
 
-This article provides an overview of running marketing campaigns by using Dynamics 365 Customer Insights (Journeys) to generate quality leads and enable sales. Orchestration of multi-channel campaigns to engage prospects and move them toward purchases is fundamental for lead generation. Dynamics 365 Customer Insights (Journeys) offers tools for planning, carrying out, analyzing, and optimizing campaigns to maximize return on investment (ROI).
+This article provides an overview of running marketing campaigns by using Dynamics 365 Customer Insights - Journeys to generate quality leads and enable sales. Orchestration of multi-channel campaigns to engage prospects and move them toward purchases is fundamental for lead generation. Dynamics 365 Customer Insights - Journeys offers tools for planning, carrying out, analyzing, and optimizing campaigns to maximize return on investment (ROI).
 
-Campaign management starts by planning initiatives to support business goals. Budgets are allocated across campaigns and channels. Dynamics 365 Customer Insights helps target campaigns through unified customer profiles. Assets such as emails, landing pages, and ads are created based on campaign timelines.
+Campaign management starts by planning initiatives to support business goals. Budgets are allocated across campaigns and channels. Dynamics 365 Customer Insights helps target campaigns through unified customer profiles, contacts, and leads. Assets such as emails, text messages (SMS), landing pages, push notifications, and custom channels are created based on campaign timelines.
 
-Campaigns are carried out across channels such as email, events, and social media. Automation triggers send next steps, based on prospect behaviors and engagement. Power BI provides dashboards for analyzing the performance of campaigns as they run and identifying optimization opportunities.
+Campaigns are carried out across channels such as email, SMS, events, push notifications, and more. The sending and next steps are automated bby triggers that asre based on the the behavior and engagement of the prospects with the campaigns. Power BI provides dashboards for analyzing the performance of campaigns as they run and identifying optimization opportunities.
 
-By using Dynamics 365 Customer Insights (Journeys) capabilities for multi-channel campaign orchestration, marketers can guide prospects through personalized journeys at scale. Continuous optimization that is based on data-driven insights improves results over time. Implementation of effective marketing campaigns is essential for generating high-quality leads to feed the sales pipeline.
-
-<!--Let me know if these expanded overviews better capture the key processes, stakeholders, and value for each topic. I'm happy to refine them further as needed.-->
+With Dynamics 365 Customer Insights - Journeys, markters can create and run personalized cammpaigns across multiple channels at scale. By using data and artifical intelligence (AI) to optimize the campaigns, marketers can improve their outcomes over time. Marketers can also use lead scoring to rank and prioritize the leads based on their attributes and behaviors, and they can focus on the most qualified ones for the sales pipeline. Effective marketing campaigns are crucial for generating high quality leads that can feed the sales process. 
 
 ## Key stakeholders
 
@@ -47,7 +45,7 @@ Guided by the upstream *forecast to plan* end-to-end process, this area influenc
 1. **Define value proposition**: Understand your unique selling points.
 
     - Create and manage playbook activities.
-    - Create events and websites.
+    - Create and personalize channel content and websites.
 
 1. **Establish budgets and goals**: Allocate resources, and set objectives.
 
@@ -57,7 +55,7 @@ Guided by the upstream *forecast to plan* end-to-end process, this area influenc
 1. **Run a campaign**: Carry out your marketing strategy.
 
     - Add activities and assets.
-    - Run the campaign across channels such as email, events, and social media.
+    - Run the campaign across channels such as email,SMS, push notifications, events, and custom channels.
 
 ## Benefits
 
@@ -79,7 +77,7 @@ There are many benefits that accrue from implementing technology to support the 
 
     Sharing lead insights helps focus sales efforts.
 
-Overall, Dynamics 365 Customer Insights (Journeys) enables effective campaign orchestration to maximize results.
+Overall, Dynamics 365 Customer Insights - Journeys enables effective campaign orchestration to maximize results.
 
 ## Next steps
 
@@ -94,10 +92,13 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 ## Related resources
 
-- [Real-time journeys user guide](/dynamics365/customer-insights/journeys/real-time-marketing-user-guide)
-- [Access and interpret analytics](/dynamics365/customer-insights/journeys/real-time-marketing-analytics)
-- [Dynamics 365 Customer Insights (Journeys) product overview](https://dynamics.microsoft.com/marketing)
-- [Get a free trial](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+- [Real-time journeys user guide](/dynamics365/customer-insights/journeys/real-time-marketing-user-guide)  
+- [Plan campaigns](/dynamics365/customer-insights/journeys/real-time-marketing-overview#how-to-engage-with-customers-in-customer-insights---journeys)  
+- [Create campaigns](/dynamics365/customer-insights/journeys/real-time-marketing-use-copilot-create-journey)  
+- [Run campaigns](/dynamics365/customer-insights/journeys/real-time-marketing-segment-based-journey#publish-the-journey)  
+- [Access and interpret analytics](/dynamics365/customer-insights/journeys/real-time-marketing-analytics)  
+- [Dynamics 365 Customer Insights - Journeys product overview](https://dynamics.microsoft.com/marketing)
+- [Get a free trial](/dynamics365/customer-insights/journeys/trial-signup)
 - Find definitions of terminology that is used in content for *run marketing campaigns* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Marketing campaign](glossary.md#marketing-campaign)
@@ -108,7 +109,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 <!-- 
 ## Tags
 
-*Products:* Dynamics 365 Customer Insights (Journeys)
+*Products:* Dynamics 365 Customer Insights - Journeys
 
 *Industries:* Manufacturing, Retail, Financial Services, Healthcare
 
@@ -118,4 +119,5 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 This article was authored by:
 
-- [Kody Wildfeuer]( https://www.linkedin.com/in/kody-wildfeuer/) \| FastTrack Solution Architect
+- [Kody Wildfeuer](https://www.linkedin.com/in/kody-wildfeuer/) | FastTrack Solution Architect  
+- Jinal Makwana | FastTrack Solution Architect  
