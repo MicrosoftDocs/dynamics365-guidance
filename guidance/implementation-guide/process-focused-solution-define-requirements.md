@@ -1,45 +1,51 @@
 ﻿---
-title: Define your requirements
-description: Learn how to define your requirements to the Dynamics 365 solution and how to make it help you operate your business.
-ms.date: 03/13/2023
+title: Define your requirements for your Dynamics 365 solution
+description: Learn how to use business process mapping to create clear and accurate requirements for your Dynamics 365 solution and improve your business operations.
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
+ms.custom:
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Define your requirements
+# Define your requirements for your Dynamics 365 solution
 
-Some projects start with lists of requirements derived as a set of atomic functional requirements. Without reference to mapped and documented business processes, you risk running into issues like the ones we list here:
+Some projects start with lists of requirements that are based on isolated functional features. Without reference to mapped and documented business processes, these requirements can cause problems, such as:
 
-- Late discovery of missing process steps
+- Missing process steps that are discovered too late.
+- Misinterpretation of the requirement by parties who aren't experts in the related process.
+- Lower business engagement in the project.
+- Longer review cycles because the requirements and designs are less clear.
 
-- Misinterpretation of the requirement by parties not experts in the related process
+To avoid these problems, use business process mapping to define your requirements. Business process mapping is a method to draw the as-is processes that show how your business is running right now, and the to-be processes that show how it should work in the future. This approach emphasizes the importance of business process mapping early in the project.
 
-- Lower business engagement in the project
+After you determine what to keep, change, or add to your solution, create the list of requirements and align them to the business processes for an accurate picture. Use tools that help you track and manage the requirements.
 
-- Longer review cycles as the requirements and designs are less clear
+Typically, in a process-focused solution, after you agree on the processes, you can derive the detailed requirements and map the relevant designs. Tools in Dynamics 365 can help. For example, Azure DevOps Services can help you create and track requirements, and Dynamics 365 Lifecycle Services includes Business Process Modeler (BPM), which can help you establish and implement processes.
 
-Business process mapping helps draw the as-is processes to understand how the business is running right now, and the to-be processes to show how they should work in the future. This approach emphasizes the importance of business process mapping early in the project.
+The list of requirements is easier to create from the business process mapping and can be revised and refined iteratively.
 
-After determining what you keep or build, create the list of requirements, aligning them to the business processes for an accurate picture. You can use tools equipped for the traceability of the requirements.
+## A solution that helps you improve your business operations
 
-Typically, in a process-focused solution, once the processes have been defined and agreed upon, the detailed requirements are derived, and relevant designs are mapped. There are tools within Dynamics 365 to help with managing the requirements. For example, Azure DevOps can work to create and track requirements. Dynamics 365 Lifecycle Services also includes Business Process Modeler (BPM) that can help you establish and implement processes.
+Designing and building a solution that has a great positive impact isn't an easy task. You must consider many aspects. Everything is so connected that even a small piece can influence the whole project.
 
-The list of requirements is easier to be crafted starting from the business process mapping and can be iteratively revised and refined.
+The business process flows are the common ground where you can gather all the implementation artifacts. They keep all the solution components and phases aligned and connected. Business process flows are the main tool for communication that helps you drive changes on how your business runs and helps you minimize missing any pieces.
 
-## A solution that helps you operate your business
+Business processes are involved throughout the implementation journey and remain useful for future improvements in your business. They have a lasting impact on your business, as long as you continuously revise them to align with your business goals and vision and reflect any changes in your solution.
 
-It's not an easy task to design and build a solution that has a great positive impact. You must consider many aspects. Everything is so connected that even if you miss just a small piece, it might influence the whole project.  
-
-The business process flows are the common playground where we gather all the implementation artifacts. They keep all the solution components and phases aligned and connect the dots. Business process flows are the main instrument for communication that helps to drive changes on how the business runs and helps to minimize missing those small pieces.
-
-Business processes are involved during the entire journey of implementation and remain useful for future improvements in your business. They have a perpetual impact on your business, as long as they're continuously revised to align to the business goals and vision and any changes are reflected in the solution.
-
-By defining business process flows, you prepare a fertile ground to plant the seed for all the implementation activities. And at the end, you can harvest optimized and efficient processes, risk depletion, cost minimization, role compliance, integral solution, and a successful implementation.  
-
-Get an overview of business processes in Dynamics 365 at [Business processes in Dynamics 365](../business-processes/overview.md).  
+By defining business process flows, you prepare a solid foundation for all the implementation activities. And at the end, you can enjoy the benefits of optimized and efficient processes, reduced risks, lower costs, role compliance, an integrated solution, and a successful implementation.
 
 ## Next steps
 
-- [Checklist](process-focused-solution-checklist.md)  
+- Follow the [checklist](process-focused-solution-checklist.md) to prepare for your implementation
+- Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach
+
+### See also
+
+- [Business processes in Dynamics 365](../business-processes/overview.md)

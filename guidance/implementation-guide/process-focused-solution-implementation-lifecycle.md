@@ -1,143 +1,122 @@
 ﻿---
-title: Process-centric implementation lifecycle
-description: The Success by design framework outlines the phases of the implementation lifecycle at high level and provides an outlook on how the business processes are recurrently used across those phases, emphasizing the importance of the process-centric implementation lifecycle.
-ms.date: 03/10/2023
+title: Implement Dynamics 365 with a process-focused approach
+description: Learn how to use the Success by design framework to guide your implementation lifecycle with a process-focused approach that aligns with your business goals and outcomes.
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
+ms.custom:
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Process-centric implementation lifecycle
+# Implement Dynamics 365 with a process-focused approach
 
-The value of taking a process-focused solution doesn't end with a better definition of requirements. Adapting all the activities in the subsequent phases to be more process-based helps deliver better outcomes, regardless of underlying methodology.
+A process-focused solution helps you define, design, build, test, and support your Dynamics 365 implementation with your end-to-end business processes as the framework. Processes are the way you deliver value to your customers and achieve your business goals. By using a process-focused approach, you can create a solution that reflects and improves your business operations, regardless of the underlying methodology.
 
-At go-live, a business application such as Dynamics 365 sees system users performing tasks and activities as part of a business process. The users aren't executing on gaps, fits, or isolated requirements. Keep this point in mind when you think of the full project lifecycle. The ultimate test of the project success is when the system is in operation and the design, build, and testing actions are intermediate steps towards that goal. It's recommended to drive these phases with the end-to-end business process as the framework upon which all the related activities are planned, performed, and measured.
-
-The Success by design framework outlines the phases of the implementation lifecycle at high level and provides an outlook on how the business processes are recurrently used across those phases, emphasizing the importance of the process-centric implementation lifecycle.
+The Success by design framework outlines the phases of the implementation lifecycle and shows how to use your business processes throughout the phases to ensure a successful outcome.
 
 ## Initiate
 
-A business application implementation is essentially the delivery of a new capability for end-to-end business transactions using the application. Processes are the foundation for the **definition of the solution scope**. Processes embody many of the properties that make for a good scope definition.
+A business application implementation is essentially the delivery of a new capability for end-to-end business transactions using the application. The first step in your implementation is to define the **scope** of your solution. The scope is the set of capabilities and outcomes that you want to achieve with Dynamics 365.
 
-- Users understand business processes as they're expressed in the languages they know best.
+Your business processes describe the activities, roles, functions, data, and systems that are involved in your operations. They show the connections and dependencies between different parts of your organization. They also show the level of detail and complexity of your operations. Use your business processes to define and communicate your scope in a clear and common language.
 
+- Users understand business processes because they're expressed in the languages they know best.
 - Processes are richer in context than a requirements list.
-
 - Processes show the connections between different business units, roles, functions, task-level steps, and systems.
-
 - They're naturally hierarchical and can be expressed in different levels of detail, depending on their intended purpose.
-
 - Processes are the connectors that show the data and people feedback loop.
 
-Process architecture design steps:
+Use process mapping to create visual representations of your processes. Start by mapping your current or *as-is* processes. Map your future or *to-be* processes as well, the processes you want to use after you implement Dynamics 365. They might include changes, improvements, or innovations that you want to achieve with the new solution. Use the Dynamics 365 capabilities and features to guide your to-be process mapping.
 
-1. Process catalog and hierarchy
+Collect and organize your processes in a process catalog. The process catalog is a structured and hierarchical list of your processes. Number, label, and reference your processes in the catalog. Group your processes by business value streams, departments, roles, or functions. This helps you define the process taxonomy or structure.
 
-2. Process modeling and mapping
+The process catalog helps you:
 
-3. Process management and governance
+- Express your project goals and vision in the natural language of your business.
+- Provide a skeleton and structure for your project scope and plan.
+- Identify and highlight areas for process improvement, innovation, risks, and constraints.
+- Map your processes to the equivalent design and configuration in Dynamics 365.
+- Create a workable definition of the project that doesn't rely on individual written requirements.
 
-Processes are collected and organized in a process catalog. The business processes in the catalog are arranged in hierarchical relations and can then be numbered, labeled, and uniquely referenced. This format defines the process taxonomy. As part of the process modeling, process diagrams and flows are created. This step is often referred to as Process mapping. Process hierarchy can be also used to put in order the data structures. You'll probably want to manage the content in Azure DevOps or similar tools where you can assign various tasks such as configure, build, design, or test and to different project roles.
+Use the process catalog to work with your implementation partners and stakeholders. Use the processes to review and approve the scope and the proposed solution and to define the statement of work and the project deliverables.
 
-Business processes are usually interwoven with other business processes. These interconnected processes can span systems, and the connection can be a single endpoint or an entire subprocess performed in the external system. If the latter, it should be considered for your solution scope. Where the process is in the external system is directly relevant to the end-to-end process, include the full process in the process mapping. Not only does it help in understanding the process, but also with making better decisions on customizations and selecting ISVs (Independent Software Vendor), which are also stated in your solution scope.
-
-Using process catalog as part of the definition of the scope also helps when working with implementation partners. The process architecture expresses the ultimate outcomes for the project and having it reflected in the statement of work can help with a more comprehensive definition of the project that results in fewer change orders.
-
-Keep in mind that business processes are always subject to change. As you move forward, you're enriching the business process flows, and possibly adjusting the solution scope. A business process flowchart offers precisely that type of  the flexibility.
+Keep in mind that your processes are always subject to change. As you move forward, you might need to update, refine, or modify your processes based on new information, feedback, or requirements. Your process catalog should be flexible and adaptable to accommodate these changes.
 
 ## Implement
 
-When creating the solution blueprint, the vision of the overall solution architecture gives solidity and certainty to the project scope. It's the transition from scope as business processes to scope as. As it's expressed in business language, it helps to ensure that business users can be usefully engaged in the review and approval of the scope and proposed solution. There are often other views of the solution architecture in terms of data flow, systems landscape, and integrations.
+After you define your scope, start to design, build, and test your solution. Use your processes to guide these activities and ensure that your solution aligns with your business goals and outcomes.
 
-As part of the **design phase** in a Waterfall methodology, or during design work in sprints in an Agile methodology, breaking down the end-to-end business processes into meaningful subprocesses provides manageable, bite sized units of work. It also allows better communication of the project tasks with business users.
+During the **design** phase, use your processes to create the solution blueprint. The solution blueprint is the vision and architecture of your solution. It shows how Dynamics 365 will execute and support your processes. It also shows how your processes will interact with other systems, data, and integrations. The process catalog helps you:
 
-The specific user stories, or configurations, and build work at a task level can be related to the subprocesses so that they have the correct business context. This way, it's easier for business users to better understand the design. The business reviews and approvals of designs are meaningful.
+- Determine the sequence and priority of your design work based on the importance and interrelationship of your processes.
+- Manage the distribution and assignment of the design tasks and activities to different project roles and teams.
+- Communicate and collaborate with your business users and stakeholders using the process language and context.
+- Review and approve the design decisions and deliverables using the process outcomes and scenarios.
 
-If the business processes are collected in a structured and hierarchical process catalog, this catalog can be used for the following tasks:
+Use your processes to create the system design and configuration as well. Map them to the Dynamics 365 functions, features, and settings. Use them to identify any gaps or customizations that you might need to address.
 
-- Help more easily and logically determine the sequence of work starting with the more foundational process designs before tackling the lower-level designs.
+During the **build** phase, use your processes to configure and develop your solution. The process catalog helps you:
 
-- Help highlight the interrelationships and dependencies between the different business value streams, departments, roles, and functions. It helps with designing a more cohesive and integrated overall solution.
+- Plan and manage the configuration and development tasks and activities based on the process sequence and dependencies.
+- Understand the context and implications of any build tasks and ensure that they fit within the process flow and outcome.
+- Avoid unnecessary or disjointed customizations that might not serve the process well or might create conflicts or errors.
+- Deliver working processes in Dynamics 365 software as early as possible and test them incrementally and iteratively.
 
-- Help better manage the distribution of the actions and activities by using the sequence and interrelationship of the designs in scope.
+Use your processes to collaborate and communicate with your developers, configurators, and testers as well. Use the process language and context to explain the requirements and expectations for each build task. Use the process outcomes and scenarios to review and evaluate the build deliverables.
 
-- A process flow can directly be mapped to the system design from configuration through data setup and functional run through.
+During the **test** phase, use your processes to test and validate your solution. The process catalog helps you:
 
-- Help deliver working processes in Dynamics 365 software, by implementing processes, including end-to-end process as early as possible, and by taking a process-centric view.
+- Ensure full testing coverage and detect any missing or inadequate functions or processes.
+- Follow the process-focused path created earlier in the project and reuse the process scenarios and data.
+- Focus on evaluating the business process outcomes and measure the impact of your changes.
+- Test the end-to-end processes, which is how the system is used in production.
 
-- Help provide a better understanding of the solution by looking at the current capability of the emerging system to execute end-to-end processes.
-
-- View the system in the context of a process, reducing unnecessary customizations.
-
-- Better engage the business subject matter experts (SMEs) and business stakeholders by using the business language of processes.
-
-- More rapid delivery of working software that better reflects and makes better use of the Dynamics 365 SaaS cloud world.
-
-Deliver processes in Dynamics 365 as early as possible, taking a process-centric view. The benefits are practical and real, and often the only actual barrier to taking a process-centric view of design tends to be the legacy of previous, more technical, and custom development-centric approaches, better suited to the pre-cloud and SaaS world.
-
-Having the high-level process, you can start breaking down the end-to-end business processes into meaningful subprocesses, as shown in the Figure below.
-
-:::image type="content" source="media/process-focused-image1.png" alt-text="Illustrates different business flows that span Dynamics 365 apps across finance and operations and sales.":::
-
-A process-centric view provides an excellent basis for converting designs into software. It can help directly address the question of how to execute the business process within Dynamics 365. The **configuration and development tasks** have the background of the business process context, and don't need to be treated as an isolated delivery.
-
-This isolation is still frequently seen in projects where the development and configuration work becomes highly technical and is divorced from the business process, and may not serve the project well. Instead, when a data- and process-centric view is taken, the configuration and development tasks can be planned and managed for delivering a process embedded in Dynamics 365 software.
-
-A process-first view allows the team to collaborate more productively. The process designs, which now reflect the functions and configuration and flow within the Dynamics system, help the various teams communicate the context and better understand the delivery of any development. Compared to working from a task in DevOps, or a design document without the proper anchoring in a business process, the process background provides a better context and implications for a build task. For example, taking a process-centric view can help with the mapping of the access necessary for performing process tasks. That helps build a picture of the related security roles.
-
-A process-focused view of the emerging solution also helps avoid the dangers of a narrow "fit gap" list or Task list that can lead to disjointed point solutions. Instead, with a process-first background, there's a high probability that the tasks and activities crystallize into a coherent and well-functioning solution.
-
-The project can also use the process-focused solution to conduct reviews of the solution with the wider business to confirm that the project is delivering on expectations. These reviews are harder to do well without the supporting process definition. That's because without the processes in focus, the project can't speak the language of the business. Many organizations are expecting some degree of business process transformation as part of the implementation of Dynamics 365.
-
-The reviews of the solution, when the new processes are first explained in business process terms, helps ground the subsequent discussion of the current state in a clear, well understood business language. This significantly improves the quality and usefulness of the business review by minimizing the technical implementation jargon and instead concentrating on the "business of business."
-
-Showing incremental progress of the build and development using business process language improves the confidence of the wider business in the project. This can be key to the project's success.
-
-A project that has taken a process-centric view reaps the benefits during **testing**. Other than the necessarily narrow focus of unit testing and some non-functional tests, almost all other test types should be rooted in some form of process definition. When there's an existing set of process definitions and the associated designs, and a system with the designs implemented, there are many advantages to the testing methods.
-
-- It helps ensure full testing coverage and enables earlier detection of any missing or inadequately defined functions or processes.
-
-- The testing can more easily follow the process-focused path already created earlier in the project.
-
-- Testing has a natural focus on evaluating business process outcomes, which tends to be a closer match to the intention of the design and eventual production use.
-
-- It enables incremental testing of processes and subprocesses, which in turn helps engineer quality into the solution.
-
-- Testing end-to-end processes, which is how the system is used in production, is enabled.
-
-Overall, testing in a business application like Dynamics 365 is a natural match to a process-focused view of the solution. Having a process-centric approach throughout the lifecycle allows testing to become the natural and obvious progression of project delivery.
-
-Learn more at [Testing strategy](testing-strategy.md).
+Use your processes to collaborate and communicate with your testers, business users, and stakeholders as well. Use the process language and context to explain the test cases and criteria. Use the process outcomes and scenarios to review and approve the test results and feedback.
 
 ## Prepare
 
-**Training** to use business systems like Dynamics 365 applications is fundamentally learning how to conduct day-to-day business processes using the system. Most of the functional roles in the system interact with multiple functions and processes. Rarely do roles exist in a vacuum of their own process, but instead interact with other processes. Having business process flows defined and available in the process catalog, including flows across system roles, helps to both collate process-based training materials and guide the training.
+After you test and validate your solution, prepare for the go-live. Use your processes to guide your preparation activities, such as training, cutover, and support.
 
-During the design process, if the roles are mapped against the processes as part of the security design, they can be directly used for testing and for generating role-based training.
+For **training**, use your processes to create and deliver your training materials and sessions. The process catalog helps you:
 
-Even where some of the system roles may be specifically restricted to a specialized function in the system, there's often a need to understand the upstream and downstream processes to perform a function well, and to understand the implications of any delays or changes in the flow.
+- Collate and organize your training materials based on the process structure and hierarchy.
+- Guide your training sessions and activities based on the process flow and scenarios.
+- Train your users on how to perform their roles and tasks within the processes using Dynamics 365.
+- Increase the adoption and satisfaction of your users by using the process language and context.
 
-If whole project approach is process-focused, including the configure/build activities, then the process of generating materials for training (such as task guides for finance and operations apps and guided tasks for customer engagement apps) goes smoothly, as there's a direct correlation between the system processes and the training processes.
+Create role-based training by using your processes as well. Map your roles to your processes and security settings. Use these mappings to generate role-specific training materials and sessions.
 
-The process-based training not only helps prior to go live, it also can be used with new hires and when users change roles. It allows those new to the business to absorb the business process simultaneously while understanding how that process is performed within the system and increase adoption in the organization.
+For **cutover**, use your processes to create and execute your cutover plan. The cutover plan is the set of steps and activities that you need to perform to transition from your legacy system to Dynamics 365. The process catalog helps you:
 
-Roles can be easily defined in a business process and use the correct security roles for testing and training.
-
-:::image type="content" source="media/process-focused-image2.png" alt-text="Illustrates the create order end-to-end process across sales manager, sales clerk, warehouse worker, and accounts receivables clerk.":::
-
-A successful cutover execution often comes backed up by a detailed and well-defined **cutover plan**. The details of every step and the sequence of every activity lead to a better comprehension for the implementation team to perform the tasks that will take them to be ready for the go live.
-
-Having a process-centric view will allow you to fluently surface the tasks sequence, duration times, roles to achieve a successful cutover execution.
-
-Learn more at [Prepare for go-live](prepare-to-go-live.md).
+- Identify and sequence the cutover tasks and activities based on the process dependencies and priorities.
+- Estimate the duration and resources for each cutover task and activity based on the process complexity and scope.
+- Assign and communicate the cutover roles and responsibilities based on the process ownership and involvement.
+- Monitor and manage the cutover progress and status based on the process outcomes and milestones.
 
 ## Operate
 
-The process catalog created in the project provides more than the framework for implementation. It can also help with **supporting the solution**. The support team often have to reproduce reported functional issues so that they can investigate the root causes. A robust process-based definition of the flow allows support to recreate the steps defined by the agreed standard process flow. The visual depiction and description of the process allows the support team to speak a common language with the business user when discussing the issues.
+After you go live, use your processes to **support and maintain** your solution. The process catalog helps you:
 
-This ability to place yourself in the business process helps reduce the number of back-and-forth cycles of communication and the overall time taken to understand the issue in business terms. It increases the confidence of the user that their reporting of the issue has been understood. This reduces anxiety and improves user sentiment of the system.
+- Reproduce and investigate any reported functional issues by following the standard process flow and steps.
+- Communicate and collaborate with your users and stakeholders using the process language and context when discussing the issues and solutions.
+- Reduce the time and effort to understand and resolve the issues by using the process outcomes and scenarios.
+- Increase the confidence and satisfaction of your users by using the process feedback and improvement.
 
 ## Next steps
 
-- [Considerations for building business processes](process-focused-solution-considerations-building-business-processes.md)  
+- Review the [considerations for building business processes](process-focused-solution-considerations-building-business-processes.md)
+- Learn how to perform a [fit-to-standard and a fit-gap analysis](process-focused-solution-fit-to-standard-fit-gap-analysis.md)
+- [Define your requirements](process-focused-solution-define-requirements.md)
+- Follow the [checklist](process-focused-solution-checklist.md) to prepare for your implementation
+- Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach
+
+### See also
+
+- [Testing strategy](testing-strategy.md)
+- [Prepare for go-live](prepare-to-go-live.md)

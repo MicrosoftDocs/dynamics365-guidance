@@ -59,27 +59,10 @@ Your business processes may not be the same across your business. For example, o
 
 ## Next steps
 
-- [Find opportunities for optimization in your business processes](process-focused-solution-opportunity-optimization.md)  
-
-<!--  EDITOR'S NOTE: The following comments are from the DIY Editor - Docs v2.
-
-(I changed the title and description to make them more concise, specific, and engaging. I used the "how to" format to indicate that the article is instructional and added a benefit for the reader.)
-
-(I simplified and shortened the introduction to make it more direct and reader-friendly. I used the second person to address the reader and the active voice to emphasize the actions.)
-
-(I changed the list items to use the "how to" format and added a benefit for each item.)
-
-(I simplified and shortened the paragraph about the business processes, and added a sentence to link them to the solution architecture design pillars.)
-
-(I simplified and shortened the paragraph about the business language, and added a sentence to explain the term taxonomy.)
-
-(I simplified and shortened the paragraph about the vision, and added a sentence to link it to the target operating model.)
-
-(I simplified and shortened the paragraph about the business model, and added a sentence to link it to the drive app value article.)
-
-(I simplified and shortened the paragraph about the process state, and added a sentence to contrast the common mistake of thinking that the system defines the processes.)
-
-(I simplified and shortened the paragraph about the process variation, and added a sentence to link the project definition to the business strategy and goals.)
-
-(I changed the heading to "Next steps" to make it more consistent with other Microsoft articles. I also changed the list item to use the "how to" format and added a benefit for the article.)
- -->
+- Find [opportunities for optimization in your business processes](process-focused-solution-opportunity-optimization.md)
+- Understand the phases of the [process-focused implementation lifecycle](process-focused-solution-implementation-lifecycle.md)
+- Review the [considerations for building business processes](process-focused-solution-considerations-building-business-processes.md)
+- Learn how to perform a [fit-to-standard and a fit-gap analysis](process-focused-solution-fit-to-standard-fit-gap-analysis.md)
+- [Define your requirements](process-focused-solution-define-requirements.md)
+- Follow the [checklist](process-focused-solution-checklist.md) to prepare for your implementation
+- Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach
