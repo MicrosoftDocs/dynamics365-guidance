@@ -28,6 +28,8 @@ items:
           href: roles/solution-architect.md
         - name: Developer
           href: /dynamics365/get-started/developers?toc=/dynamics365/guidance/toc.json
+        - name: Join the community in Viva Engage
+          href: /roles/join-viva-engage.md
 # Implementation guide
       - name: Implementation guide
         items:
