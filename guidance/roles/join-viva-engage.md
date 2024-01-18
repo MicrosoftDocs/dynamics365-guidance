@@ -5,7 +5,7 @@ author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
 ms.collection: get-started #Required.
-ms.date: 01/17/2024
+ms.date: 01/18/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -27,12 +27,12 @@ Customers should join the Viva Engage **Preview Early Access** group to receive 
 
 When you're a part of the **Preview Early Access** group, the product team can onboard you to Viva Engage groups that are private and targeted a specific private feature or feature area. Approvals and onboarding for these groups are managed by the product group program managers responsible for the feature area.
 
-## How to join Viva Engage
+## How to join the Preview Early Access community
 
 - Visit the [Preview Early Access Viva Engage Community page](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=12792233) and request to join.
 - A Viva Engage administrator reviews the join request and if no concerns, approve. Our service level agreement (SLA) is 24 hours when submitted on a business day, or by end of business day on the following Monday if submitted on a weekend or company holiday.
 - When your join request is accepted, you'll receive a second email with important instructions to complete the join process; Choose the provided link to fill in a form for the creation of your profile.
-- To complete your sign-up:
+- To complete your sign-up, follow the steps in the guide as outlined in the following main steps:
 
   - Provide your *First Name*, *Last Name*, *Birthdate*, and *Job Title*. Create a strong password and agree to the network's usage policy.
   - Optionally, join additional/related groups when prompted.
@@ -50,6 +50,6 @@ Some customers in the EU are unable to join our Viva Engage network using their 
 
 For all other Viva Engage support questions, contact [Viva Engage Support](https://aka.ms/yammerhelp)
 
-## Dynamics 365 Business Central on Viva Engage
+## Related resources
 
-Learn more at [About Business Central partner community on Viva Engage](/dynamics365/business-central/dev-itpro/join-viva-engage).  
+- [About Business Central partner community on Viva Engage](/dynamics365/business-central/dev-itpro/join-viva-engage)  
