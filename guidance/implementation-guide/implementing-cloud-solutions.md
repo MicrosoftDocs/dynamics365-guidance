@@ -3,7 +3,7 @@ title: How to implement Dynamics 365 cloud solutions
 description: Learn how to adopt a cloud mindset, upgrade from on-premises to online, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365.
 author: taksatoms
 ms.author: tsato
-ms.date: 01/05/2024
+ms.date: 01/08/2024
 ms.topic: conceptual
 ms.custom:
   - ai-seo-date: 01/08/2024
@@ -19,7 +19,7 @@ This section of the Dynamics 365 implementation guidance helps you plan and exec
 
 *The cloud* is a network of connected servers, data warehouses, and software and services. It's the core of a digital transformation strategy.
 
-Organizations of all sizes use the cloud to modernize their operations, increase efficiency, and better serve customers. For some organizations, the shift to the cloud means running their applications in a public cloud infrastructure instead of a traditional on-premises datacenter. For others, it means using cloud applications and a cloud platform (Software as a Service, or SaaS) to transform their business with more agility and adaptability.
+Organizations of all sizes use the cloud to modernize their operations, increase efficiency, and better serve customers. For some organizations, the shift to the cloud means running their applications in a public cloud infrastructure instead of a traditional on-premises datacenter. For others, it means using cloud applications and a cloud platform (software as a service, or SaaS) to transform their business with more agility and adaptability.
 
 Whatever model you choose, the key to success isn't just the implementation. It's how you approach the digital transformation journey. Success in the cloud isn't just about the technology or the features. It's about the organizational mindset. To transform your business, you need to prepare for changes across the entire enterprise, including structure, processes, people, culture, and leadership. It's as much a leadership and change exercise as it is a technical exercise.
 

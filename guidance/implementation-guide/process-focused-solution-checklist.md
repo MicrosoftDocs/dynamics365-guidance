@@ -1,43 +1,43 @@
 ﻿---
 title: Checklist for process-focused solutions
-description: Checklist for process-focused solutions
-ms.date: 03/10/2023
+description: Use this checklist to make sure you follow the best practices for defining, implementing, and optimizing your business processes for your Dynamics 365 solution.
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
+ms.custom:
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
 # Checklist for process-focused solutions
 
-## Business processes focus
+## Focus on your business processes
 
-- Make sure the business process view of the organization is at the core of the definition of the project.
+- Make sure you put the business process view of your organization at the center of your project definition.
+- Clearly describe the key business processes and the personas involved in them that are in scope for your project so that everyone understands them.
+- Make sure you include business model analysis, process engineering, and standardization strategies in your project definition. This way, you can establish a strong process baseline before you start the implementation.
+- Collect your business processes in a structured and hierarchical process catalog during the requirements phase.
 
-- Clearly articulate the key business processes that are in scope and the respective personas so all parties involved in the implementation understand them.
+## Use business processes for each project phase
 
-- Make sure business model analysis, process engineering, and standardization strategies are part of the project definition. This way, you deliver a strong process baseline before implementation starts.
+- Use business processes for each phase of your project to achieve better outcomes&mdash;all phase activities are better planned, executed, and measured.
 
-- Collect the business processes in a structured and hierarchical process catalog during the requirements phase.
+## Optimize your processes
 
-## Process-centric solution
+- Look for opportunities to improve, streamline, and consolidate your processes as part of the implementation to meet your digital transformation goals and drive user adoption.
+- Make sure you complete your business process definition and include all activities and subprocesses.
+- Use the latest software as a service (SaaS) technology to increase the efficiency and effectiveness of your process optimization.
+- Make sure you prepare for the future when you map your business process to your solution by incorporating configurability by design.
 
-- Use business processes for each phase of the project to deliver better outcomes (all phase activities are better planned, performed, and measured).
+## Do fit-to-standard and fit-gap analysis
 
-## Opportunity for optimization
-
-- Explore opportunities to evolve, optimize, and consolidate your processes as part of the implementation to meet the digital transformation goals and drive user adoption.
-
-- Make sure the business process definition is complete and considers all activities and subprocesses.
-
-- Take advantage of the latest SaaS technology to drive efficiency and effectiveness for the process optimization.
-
-- Make sure future readiness when mapping your business process to the solution by incorporating configurability by design.
-
-## Fit gap analysis
-
-- Adopt a fit-to-standard approach and align to the philosophy of adopting wherever possible and adapting only where justified.
+- Use a fit-to-standard approach and follow the principle of adopting the standard processes wherever possible and adapting them only where necessary.
 
 ## Next steps
 
-- [Case study - The journey to a process-focused solution](process-focused-solution-case-study-journey.md)  
+- Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach

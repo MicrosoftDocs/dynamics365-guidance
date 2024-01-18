@@ -1,75 +1,59 @@
 ﻿---
-title: Considerations for building business processes 
-description: Learn how having a process-focused solution view of your implementation that will bring more quality, optimization, and standardization in your business.
-ms.date: 03/16/2023
+
+title: Build quality, optimized, and standardized business processes
+description: Learn how to design, build, and assess quality, optimized, and standardized business processes for your Dynamics 365 implementation.
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
+ms.custom:
+- ai-seo-date: 01/16/2024
+- ai-gen-docs-bap
+- ai-gen-title
+- ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Considerations for building business processes
+# Build quality, optimized, and standardized business processes
 
-In a nutshell, there are some recommendations to build your processes, creating a process-focused solution view of your implementation that will bring more quality, optimization, and standardization in your business.
+To create a process-focused solution for your Dynamics 365 implementation, follow these recommendations. They'll help you improve the quality, optimization, and standardization of your business processes.
 
-- Elaborate a Business Process Catalog  
+- Create a business process catalog. A business process catalog serves as a baseline for deriving more detailed business processes.
 
-  The Business Process Catalog can work as a baseline from where other more detailed business processes will be derived.
+- Define your business requirements and goals clearly. Your requirements should map to your processes, and your processes should map to your business goals.
 
-- Define clearly business requirements and goals  
+- Map the current or as-is and the desired or to-be process (if applicable). Understand how your process works today and how you want it to work in the future to meet your business goals. If you're starting from scratch, focus on designing the desired process only.
 
-  Your requirements will be mapped to processes, and processes will be mapped towards achieving the business goals.
+- Choose the appropriate level and type of business process. Depending on the purpose, the hierarchy level, and the message of your process, you can use different forms of flows to illustrate it, such as:
 
-- Map the *As-is* process and the *To-be* process (if applicable)  
-
-  It's important to have clarity on what the process is as of today and what the next level for that process should be to achieve business goals. In case there's a green field implementation project, you'll focus on drawing the to-be process only.
-
-- Define the different levels and types of business processes  
-
-  Depending on the type of process, the hierarchy level, and the message you want to convey, you can choose how to represent each as there are different forms of flows to help you illustrate your business processes, including the following flows:
-
-  - Basic Process flow
-
+  - Basic process flow
   - Cross-functional flow
-
   - Data flow
-
   - Decision flow
-
   - Workflow process
-
   - Business value process flow
-
   - Value stream map
 
-- Build the End-to-End processes  
-
-  The end-to-end process is the holistic representation of the core processes, breaking up the silos and showing the overall purpose of the business. Identify the business areas of your organization and create the end-to-end business process for each. For example:
+- Build the end-to-end processes. The end-to-end process shows the overall purpose of the business by connecting the core processes across different areas. Identify the business areas of your organization and create the end-to-end business process for each. For example:
 
   - HR: Recruit to Retire
-
   - Sales: Order to Cash
-
   - Procurement: Procure to Pay
-
   - Customer: Quote to Cash
-
   - Marketing: Market to Order
 
-- Define roles and responsibilities  
+- Define roles and responsibilities. Assign the right access and security to the users who will perform the business process tasks and activities. This will also help you estimate the number of users and licenses you need for your project budget.
 
-  Help ensure proper access and security of the users that will be executing business process tasks and activities. It will also help to measure the number of users, and the number of licenses needed to consider in project budget.
+- Determine what fits the standard and what the system gaps are. Sometimes, the current processes might not be fully covered by the new system, which can be an opportunity to find better or more optimal ways to execute them. You might need to develop more features to meet your business needs.
 
-- Determine what fits to standard and what the system gaps are  
+- Reassess your business processes. Plan to monitor and reassess your business processes during multiple iterations, for example, in every CRP (Conference Room Pilot), to verify that the information is still accurate and make any needed adjustments.
 
-  Most of the time, the current processes may not be covered in full in the new system, which isn't necessarily unfavorable. On the contrary, it could be that there are better or more optimal ways to execute them. More developments may be required to cover the business needs. Learn more at [Fit-to-standard and Fit-gap analysis](process-focused-solution-fit-to-standard-fit-gap-analysis.md).
-
-- Reassess your business processes  
-
-  You can plan to monitor and reassess your business processes during multiple iterations, for example, in every CRP (Conference Room Pilot), to verify that information is still accurate and make any needed adjustments.
-
-For inspiration, see the end-to-end business processes at [Business processes in Dynamics 365](../business-processes/overview.md).
+[Learn more about end-to-end business processes in Dynamics 365](../business-processes/overview.md).
 
 ## Next steps
 
-- [Fit-to-standard and Fit-gap analysis](process-focused-solution-fit-to-standard-fit-gap-analysis.md)  
+- Learn how to perform a [fit-to-standard and a fit-gap analysis](process-focused-solution-fit-to-standard-fit-gap-analysis.md)
+- [Define your requirements](process-focused-solution-define-requirements.md)
+- Follow the [checklist](process-focused-solution-checklist.md) to prepare for your implementation
+- Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach

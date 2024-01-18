@@ -9,7 +9,7 @@ ms.author: kowildfe
 
 # Identify and qualify leads overview
 
-Applies to: ***Dynamics 365 Sales, Dynamics 365 Customer Insights (Journeys), Dynamics 365 Customer Insights (Data), Dynamics 365 Fraud Protection***
+Applies to: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Insights - Data, Dynamics 365 Fraud Protection***
 
 This article provides an overview of using Dynamics 365 to identify and qualify leads, and therefore drive sales pipeline growth and revenue. Well-run lead management encompasses generating, nurturing, scoring, and qualifying leads to feed the sales pipeline.
 
@@ -94,7 +94,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 ## Related resources
 
-- [Product overview Dynamics 365 Customer Insights (Journeys)](https://dynamics.microsoft.com/marketing)
+- [Product overview Dynamics 365 Customer Insights - Journeys](https://dynamics.microsoft.com/marketing)
 - [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
 - [Manage leads](/dynamics365/sales/lead-management-overview)
 - [Qualify and convert leads to opportunity](/dynamics365/sales/qualify-lead-convert-opportunity-sales)
@@ -110,7 +110,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 <!-- ## Tags
 
-*Products:* Dynamics 365 Customer Insights (Journeys), Dynamics 365 Sales
+*Products:* Dynamics 365 Customer Insights - Journeys, Dynamics 365 Sales
 
 *Industries:* Manufacturing, Retail, Financial Services, Healthcare
 

@@ -10,20 +10,6 @@ ms.custom: bap-template
 
 # Introduction to the implementation guide
 
-<!-- this is for internal use ## Key objectives
-
-- Explore the opportunities presented as organizations shift into the predictive era.
-
-- Outline our vision for Dynamics 365.
-
-- Help readers understand what an investment in Dynamics 365 invites in terms of enabling holistic, unified digital transformation.
-
-## Overview
-
-Microsoft believes that every business is in the business of creating great customer experiences. To achieve that, business applications must do more than just run your back office, marketing, supply chain, or even field operations as discrete entities. Organizations need to tap into data signals from across their business and use them to drive ongoing improvements in the products, services, and experiences they intend to deliver to their customers.
-
-## Introduction-->
-
 Picture this scenario: A customer purchases a car from a dealer. One day, the car starts making strange noises. The customer calls the service center and reports a problem. A service advisor opens an application, types a few notes about the problem into a form, and schedules a repair visit. The notes on that form may be the first time in years that any data related to the customer or the vehicle has flowed into the dealer's relational database. It's only a trickle in response to a malfunction, and it stops at the source. The car's manufacturer might never see a single byte of data from the event. We call this scenario *the reactive past*: Data drips downward from applications to databases in response to external triggers.
 
 Now consider what's possible today: The same customer purchases another car from the dealer. With appropriate permissions granted by its new owner, the car provides a continuous stream of data back to both the dealer and the manufacturer, from engine operating parameters to the composition of the gases in the tailpipe. The car can report a problem before the customer is even aware of one. We call this scenario *the predictive future*: Data streams continuously, providing a rich foundation for predictions&mdash;about both products and services and the people who purchase them&mdash;that help businesses build higher-value relationships with their customers.
@@ -46,7 +32,7 @@ Our digital transformation influenced the way we run our own business&mdash;but 
 
 The opportunity that's presented in the shift from reactive to predictive&mdash;from waiting for the car to fail to knowing the car is about to fail before its owner does&mdash;is hard to overstate. For Microsoft and for our customers, every product, service, and business process is ripe for reinvention. But the reinvention requires a wholesale reimagination&mdash;a literal turning upside-down&mdash;of the systems that power the interconnected fabric of products, services, and applications.
 
-To help companies reinvent their businesses and thrive in the predictive era, Microsoft has invested in applications (like the Dynamics 365 family of products), an application platform (Microsoft Power Platform), and an infrastructure platform (Microsoft Azure). Our business applications and platforms span from enterprise and independent software vendor (ISV) developers to citizen developers. The entire Microsoft cloud comes together as a unified platform for digital transformation with consistent security, identity, and compliance boundaries.
+To help companies reinvent their businesses and thrive in the predictive era, Microsoft has invested in applications (like the Dynamics 365 family of products), an application platform (Microsoft Power Platform), and an infrastructure platform (Microsoft Azure). Our business applications and platforms span enterprise and independent software vendor (ISV) developers to citizen developers. The entire Microsoft cloud comes together as a unified platform for digital transformation with consistent security, identity, and compliance boundaries.
 
 With everything as a source of data and potential insight, our goal is simple: Help customers take the right action at the right time with the right message in the right channel to achieve the right business outcome. We call this the digital feedback loop: Organizations tap into data signals from across their business, which drive ongoing improvements in the products, services, and experiences they deliver to their customers, who respond to these improvements, fueling a self-reinforcing cycle.
 
@@ -58,7 +44,7 @@ Keep the opportunities of the predictive era in mind as we take a step back for 
 
 Fast forward to today. Few of our competitors can offer a complete cloud business solution with the breadth, depth, and level of integration with other Microsoft products that Dynamics 365 has.
 
-Dynamics 365 is a portfolio of business applications that meets organizations where they are&mdash;and invites them to digitally transform. Each app in the portfolio is designed to remove barriers and eliminate silos by working with existing systems&mdash;or the entire family of Dynamics 365 apps&mdash;to achieve outcomes you simply can't get unless every part of the business is connected seamlessly.
+Dynamics 365 is a portfolio of business applications that meets organizations where they are and invites them to digitally transform. Each app in the portfolio is designed to remove barriers and eliminate silos by working with existing systems&mdash;or the entire family of Dynamics 365 apps&mdash;to achieve outcomes you simply can't get unless every part of the business is connected seamlessly.
 
 ## Our data-first Dynamics 365 strategy
 
@@ -105,7 +91,7 @@ More to the point, we believe that there's more to being agile than adopting spr
 
 Whether you're a first-time implementer or a been-there-done-that Dynamics 365 architect, we hope you bring us along on your journey.
 
-We suggest you continue with the implementation guide. The following articles address the major subjects in the Dynamics 365 implementation lifecycle and include our point of view on solution design and much more.
+We suggest you continue with the implementation guide. The following articles address the major subjects in the Dynamics 365 implementation lifecycle and include our point of view on solution design and much more:
 
 - [Success by Design](success-by-design.md)
 - [Implement cloud solutions with Dynamics 365](implementing-cloud-solutions.md)

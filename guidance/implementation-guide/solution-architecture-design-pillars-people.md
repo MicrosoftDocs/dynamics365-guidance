@@ -1,62 +1,57 @@
 ---
-title: Solution architecture design people
-description: Learn how to include people in your solution architecture. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
+title: Include people in your solution architecture
+description: Learn how to consider people's needs and roles in your solution design.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 02/28/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Solution architecture design pillars: People
+# Include people in your solution architecture
 
-It's not every process or activity that involves a person. But there's always a step or output that involves people, whether internal (employees and contractors) or external (customers and vendors). So the solution design includes the people pillar. People shape the solution design in many ways, including these examples:
+Not every process or activity involves a person. But there's always a step or output that involves people, whether internal (employees and contractors) or external (customers and vendors). So the solution design includes the People pillar. People shape the solution design in many ways, such as:
 
 - Geographical location
-
 - Time zones
-
 - Languages
-
 - Customs
-
 - Usability
-
 - Internal and external hierarchies
-
 - Organizational structure
 
-This pillar of solution design is represented by the **organizational architecture (structure)**, which visually intersects with process architecture in **process maps**, and includes:
+This pillar of solution design is represented by the **organizational architecture (structure)**, which visually intersects with process architecture in **process maps**. It includes:
 
 - Geographical structure
-
 - Organizational groupings
-
 - Line of business
-
 - Reporting lines and reporting rollup
-
 - Security access
-
 - Segregation of duties
 
-The following illustration shows an example of a *cross-functional process flow* mapped to the business users/personas.
+The following illustration shows an example of a *cross-functional process flow* mapped to the business users or personas.
 
-:::image type="content" source="media/cross-functionalprocessflow.png" alt-text="cross-functional process flow example" lightbox="media/cross-functionalprocessflow.png":::
+:::image type="content" source="media/cross-functionalprocessflow.png" alt-text="Diagram of a cross-functional process flow." lightbox="media/cross-functionalprocessflow.png":::
 
-Once the organizational structure and process flows and maps are designed, the **list of business roles** (personas) becomes evident and can be finalized. The next step is to **map the business users to the system security roles** that will determine the security design. Learn more at [Security](security.md).
+After you design the organizational structure and process flows and maps, the **list of business roles** (personas) becomes clear and can be finalized. The next step is to **map the business users to the system security roles** that will determine the security design. Learn more at [Security](security.md).
 
 ## Dependent activities in the People pillar
 
-In addition to the key deliverables, the People pillar is followed by and works together with several other activities:
+In addition to the key deliverables, the People pillar is followed by and works with several other activities:
 
-- Change management, communication plan and management, learn more at [Implementation Strategy](implementation-strategy.md)
-
-- Training plan and management, learn more at [Training Strategy](training-strategy.md)
-
-- Testing, learn more at [Testing Strategy](testing-strategy.md)
+- [Change management and communication plan and management](implementation-strategy.md)
+- [Training plan and management](training-strategy.md)
+- [Testing](testing-strategy.md)
 
 ## Next steps
 
-Learn more about the next pillar at [Solution architecture design: Data](solution-architecture-design-pillars-data.md)  
+- [Know and manage your data for your solution](solution-architecture-design-pillars-data.md)
+- [Develop a solution strategy using Dynamics 365 apps and other technologies](solution-architecture-design-pillars-technology.md)
+- [Apply project management, change management, and governance and control methodologies for your solution](solution-architecture-design-pillars-methodology.md)
+- [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)

@@ -1,50 +1,46 @@
 ---
-title: Solution architecture design pillar technology
-description: Learn how understanding your needs and having a vision are the most important first steps in building the right solution. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
+title: Choose the right technology for your solution
+description: Learn how to use the Technology pillar of solution design to select the products and services that support your business processes and digital transformation.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 02/27/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Solution architecture design pillar: Technology
+# Choose the right technology for your solution
 
-While technology doesn't drive all the processes, it provides the backbone of products and services required to fulfill your businesses strategy. Your processes dictate which technology to use and when, and that technology will bring your digital transformation to life. For example, the Dynamics 365 Sales app provides value-added details about your organization's lead-to-opportunity pipeline. Other examples of technology that's under the hood to support users include:
+Technology is the backbone of your solution. It provides the products and services that you need to fulfill your business strategy. Your processes tell you which technology to use and when. Some examples of technology that support your users are:
 
 - Infrastructure as a service (IaaS)
-
 - Software as a service (SaaS)
-
 - Integration tools
-
 - Business intelligence tools
-
-- Azure AI
-
 - Azure Machine Learning
-
 - Data connectors
-
 - Customer portals
-
 - Mobility solutions
 
-The technology and system selection are performed during the sales process as part of the first high-level fit gap assessment. Learn more at [Drive app value](drive-app-value.md).
+You select the technology and system during the sales process as part of the first high-level fit-gap assessment. To learn more, see [Drive app value](drive-app-value.md).
 
-## Find the right balance
+## Balance your needs and options
 
-It's easy to say that technology can be used to solve any business process scenario, but technology is simply what turns the gears for your processes, people, and data. It's important to include all stakeholders in the design decisions, because processes don't always align with the technology. We call that information the *gap* in a requirement. It's where you might decide to purchase an Add-on solution or develop an extension to meet the needs of the process. Think through the different options to find the right balance for your solution, but be sure to challenge the business requirements before customizing the system. You might be surprised to find out that what seemed like a *must-have* customization is more of a *nice-to-have* feature.
+You might think that technology can solve any business problem, but technology is just what powers your processes, people, and data. You need to involve all stakeholders in the design decisions, because processes don't always match the technology. We call that the *gap* in a requirement. It's where you might decide to buy an add-on solution or develop an extension to meet the process needs. Consider the different options to find the best balance for your solution, but challenge the business requirements before customizing the system. You might find out that what seemed like a *must-have* customization is more of a *nice-to-have* feature.
 
-:::image type="content" source="media/fitgap.png" alt-text="fit -gap to gap solution process":::
+After you complete the fit-gap analysis, the gap solution design workshop helps you discuss and assess the possible solutions for the requirements. This workshop helps you analyze the gap solutions in terms of things like risk, ease of use, long-term support, and product alignment. The goal is to choose the solution that fits the process and requirements best.
 
-After the fit-gap analysis is completed, the gap solution design workshop helps to discuss and further assess the identified potential solutions to meet the requirements. This workshop provides structure to help analyze the gap solutions in terms of risk, ease of use, long term support considerations, product roadmap alignment, and so on. The purpose is to choose the solution that best fits the process and requirements.
+To learn more, see [Extend your solution](extend-your-solution.md).
 
-Learn more at [Extend your solution](extend-your-solution.md).
+To learn more about the Success by Design framework, see [Success by Design overview](success-by-design.md).
 
-Learn more about the Success by Design framework at [Success by Design overview](success-by-design.md)
+## Next steps
 
-## Next step
-
-Dig into methodologies at [Solution architecture design: Methodologies](solution-architecture-design-pillars-methodology.md)  
+- [Use Dynamics 365 apps and other technologies to develop a solution strategy](solution-architecture-design-pillars-technology.md)
+- [Apply project management, change management, and governance and control methodologies to your solution](solution-architecture-design-pillars-methodology.md)
+- [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)

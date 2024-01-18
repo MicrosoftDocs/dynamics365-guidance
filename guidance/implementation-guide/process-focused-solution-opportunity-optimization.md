@@ -1,133 +1,77 @@
 ﻿---
-title: Opportunity for optimization
-description: Learn how you can fine-tune your existing business processes as part of your Dynamics 365 implementation.
-ms.date: 03/10/2023
+title: Optimize your business processes with Dynamics 365
+description: Learn how to map, model, and standardize your current and future business processes as part of your Dynamics 365 implementation.
+ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
+ms.custom:
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Opportunity for optimization
+# Optimize your business processes with Dynamics 365
 
-It's easier to find good opportunities to optimize your process using business process mapping.
+You can use business process mapping to find and seize opportunities to optimize your existing processes when you implement Dynamics 365.
 
-## Mapping processes
+## What is business process mapping?
 
-Processes are the heart of every business. They describe how the business operates. The fact that your products or services reach your customer safely and on time is due to a series of tasks executed by different roles and different business units. Business process mapping represents these steps.
+Processes are the heart of every business. They describe how you operate and deliver value to your customers. A process is a series of tasks performed by different roles and units in your organization. Business process mapping represents these steps visually.
 
-Baseline business processes are also called *as-is processes*. The organization might have legacy processes, or maybe they have new processes engineered as part of a new solution or business model. Find tips on how to start mapping your *as-is processes* in existing templates from recognized organizations such as [American Productivity and Quality Center (APQC)](https://www.apqc.org/expertise/process-performance-management). Such information could be helpful to set the structure of your processes.
+You can start by mapping your baseline or *as-is* processes. These are the processes you currently use or plan to use in a new solution or business model. You can find tips and templates for mapping your as-is processes from recognized organizations such as [American Productivity and Quality Center (APQC)](https://www.apqc.org/expertise/process-performance-management).
 
-Regardless of where an as-is process set comes from, it's critical that they're described at the appropriate level. Keeping as-is processes at a more abstract level helps drive the scenarios in scope and enables the team to focus on the desired business outcomes. As-is processes that are detailed about how current implementations are in legacy systems introduce a risk of reimplementing the legacy system.
+The level of detail in your as-is processes depends on their importance and scope. You don't need to define every step or system in your legacy processes. Instead, focus on the end-to-end scenarios and outcomes that matter to your business. Remember, your goal is not to replicate your legacy system in Dynamics 365, but to improve and innovate your processes.
 
-Remember that the objective of as-is business process mapping isn't to define step-by-step how the solution is designed in the new solution.
+The benefits of mapping your as-is processes are:
 
-The goal of mapping the as-is business process is to:
+- You can define the scope and structure of your project in a clear and common language.
+- You can communicate your project goals and vision using processes that your stakeholders understand and recognize.
+- You can identify and highlight areas for process improvement, innovation, risks, and constraints.
+- You can map your processes to the equivalent design in Dynamics 365 and measure the impact of your changes.
+- You can create a workable definition of the project that doesn't rely on individual written requirements.
 
-- Provide structure/skeleton for the definition of the scope of the project.
+To map your processes effectively, you need the right people and tools. You need a business stakeholder who owns and leads the process in the operation. They can make the decisions about the process structure and investment. You also need one or more subject matter experts (SMEs) who know how the process works in the real world. They can provide the scenarios and variations for each process.
 
-- Express the project aims in the natural business language of processes.
+You can use any tools that help you draw and share your processes quickly and easily. For example, you can use sticky notes, pens, and whiteboards to start, and transfer the drawings and comments to more sophisticated applications later. The key is to make the process mapping interactive and visual, not a series of documents that require long approvals.
 
-- Enable a natural way to define the main end-to-end business scenarios (process variants).
+You should map your processes early in the project implementation. This helps you analyze the opportunities for improvement and create the right baseline for the project. You should also review and update your processes regularly to keep up with the changing needs of your business and the latest capabilities of the product.
 
-- Provide the best language to identify and highlight areas for process innovation and improvements, as well as risks and constraints.
+## How to model your future processes
 
-- Become the basis for mapping to the equivalent process design within the new system.
+Digital transformation is fast and dynamic. Processes that work today might not be competitive tomorrow. Technologies like the cloud, artificial intelligence, machine learning, robotic process automation, virtual reality, the Internet of Things, big data, virtual conference rooms, and many others create new possibilities and challenges.
 
-- Create a workable definition of the project that the business can directly interact with without going to the level of individually written requirements.
+When you review your processes, think about how you can use these technologies to improve your process outcomes and collaboration. You might find multiple areas in your processes that can benefit from modern options. Technology is a key differentiator. Don't fall behind your competitors who might be using these options to gain an edge.
 
-The value of having business processes mapped early is that it allows everyone to understand how the processes operate by using them as a common business language. This helps both third parties and the organization agree on processes across multiple departments and organization layers.  
+## How to standardize your processes
 
-It's essential that the right team is involved in mapping business processes to the new technology. The business stakeholder leads this team, and they're the owner of the process in the business operation. That individual is charged with making the right decisions about structure and investment in the process to achieve their goals.  
+You might also want to standardize your processes across different business units or regions. This means using the same or similar processes for the same or similar activities. Standardization can help you:
 
-The stakeholder is supported by one or more subject matter experts (SME) who are familiar with how the business process operates in the real world. These experts can provide depth around the various scenarios under which a process is executed. Their knowledge, coupled with a mindset open to new ways of working, helps drive the right conversation on process mapping.
+- Reduce costs by simplifying the processes that you need to implement, train, and maintain.
+- Compare performance and results across different groups of users who execute the same process.
+- Move resources within the organization more easily to meet changing demand.
+- Adopt best practices and share knowledge across the organization. When one process improves, everyone benefits.
 
-As an example, a company is looking to move to a B2B business model via e-commerce and seeks to deploy their telephone salespeople strictly to consumers. There may not be existing patterns within the business to replicate, so the new processes should be based on expected outcomes rather than copying legacy steps. This mindset should be applied to all processes, as the key deliverables should be the expected "business scenarios" and the desired business outcomes.
+Standardization can also make your implementation easier and faster. After the first implementation, you have a proven case of a working process within your business. The next unit to be implemented can learn from the previous experience and adopt the process with minimal changes.
 
-When reviewing new process diagrams, the team should consider the following:
+To standardize your processes, you need a good plan that aligns with your business strategy and model. You also need to consider the constraints and implications of standardization. For example:
 
-- Do the business SMEs recognize their business in the processes?
+- Standardization might benefit the organization as a whole, but might increase the workload or change the culture of a local unit.
+- Standardization might require significant change management and communication.
+- Standardization might not fit well with the industry standards or the Dynamics 365 capabilities. You might need to customize or compromise some aspects of the process.
+- Standardization might not apply to the entire process. You might need to allow some variations or exceptions for local needs or preferences.
+- Standardization might not outweigh the costs or risks of changing the process. You might need to reassess the business case and the expected outcomes.
 
-- Do they provide adequate coverage of the business activities in scope?
-
-- Do they show the key interconnections between the processes?
-
-- Do they show meaningful end-to-end business flows?
-
-- Will they represent a good level at which the project team can communicate with business stakeholders on risks, progress, decisions, and actions?
-
-- Do they illustrate processes sufficiently to identify opportunities for improvement?
-
-- Are they sufficiently well-defined to be able to be used in the next stage where the processes can be applied to drive the design in the Dynamics 365 system such that they can reflect the improvements and the project goals and vision?
-
-These process diagrams help define the baseline for the organization's current business and are a good place to start when plotting optimization objectives. They should help to identify the processes or parts of processes that aren't efficient or well understood.
-
-The key to getting the processes mapped well and quickly is to make sure that the following requirements are true:
-
-- The right people are in the room to direct the mapping.
-
-- Any mapping software or tools that help facilitate the rapid definition of the process and don't slow things down.
-
-- The level to which the process is described is directly proportional to its importance to the business. For example, once the end-to-end scope of a widely used and standard finance process is defined to a certain level it shouldn't be further broken down to step-by-step processes.
-
-- The process mapping effort is interactive, not a series of documents that go through long handoffs and approvals.
-
-- The tools for the mapping can be anything from sticky notes, Visio diagrams, or specialized process drawing software. The process maps are visual and not hidden in wordy Excel lists.
-
-This is a vital step that needs to be executed early. Plan so that processes are defined as fast as possible using the simplest tools in the workshop, like sticky notes, pens, and whiteboards. The drawings and comments can then be transferred offline to more sophisticated applications.
-
-Remember that doing this mapping at the start of the project implementation is important. It could become a fundamental part of helping the analysis of the opportunities for process improvement and creating the right baseline for the project.
-
-Mapping business process is a not one-time effort that occurs only during the initial implementation. Rather, it should be a continuous focus to ensure the processes are aligned to the evolving needs of a business and are making the best use of the latest capabilities in the product.
-
-## Modeling your solution for the future
-
-Digital transformation is fast paced. Processes that work today may not remain competitive tomorrow. Technologies like the cloud, artificial intelligence, machine learning, robotic process automation, virtual reality, the Internet of Things, big data, virtual conference rooms, and many others create possibilities that didn't exist a few years ago.
-
-When reviewing your business processes, it's important to keep in mind how innovative technologies can improve process outcomes and collaboration. Similarly, there may be multiple areas in your processes that would benefit from modern options now available. Technology is a key differentiator. Remember, chances are that your competitors may well be considering these options and looking to incorporate them.
-
-For example, the Microsoft HoloLens is being introduced to some manufacturing processes with Dynamics 365 applications. Using the HoloLens, the user can understand how to operate a machine. Or if a machine is broken, and support is on the other side of the world, virtual reality enables collaboration between the user and support to repair the machine.
-
-Or if you have a workflow with approvals that require a signature, you could use digital signature technology to drive process efficiency and reduce the time for approvals.
-
-## Standardize your system's features with a business processes approach
-
-Earlier, we discussed how a business model analysis can introduce opportunities for process reengineering and standardization.
-
-Assuming there's a good plan for process standardization grounded in the business strategy, this standardization can be aided with a new business applications system.
-
-Standardization across business units assumes that the business models are sufficiently similar and there are no local market constraints or competitive reasons for there to be differences.
-
-Various benefits can come from standardized processes assuming the business models are sufficiently similar between the business units so that the other barriers to standardization are low.
-
-- Enables reduction in cost by reducing the variations of business processes that need to be implemented, trained, and maintained.
-
-- Facilitates comparative analysis across multiple groups of users that are executing the same process.
-
-- Facilitates mobility of resources within the organization through standard processes to deal with changes in demand.
-
-- Promotes the adoption of best practices across the organizations. Optimization for anyone improves outcomes for everyone.
-
-Standardization also helps with rolling out the implementation to other business units as it reduces the time and effort compared to building a process from scratch. After the first implementation, there's a proven case of it working within the business. The next business unit to be implemented can discuss the pros and cons of the standard process with business peers.
-
-Similarly, it's important to confirm that the constraints and implications are identified and well understood prior to starting design work.
-
-- Standardization of a process can bring benefits at a group level, but may be seen as more work by a local business unit.
-
-- Standardization can require significant change management.
-
-- Is the standardization being defined at an industry level and then implemented in the system? Conflict might arise if standard processes aren't a natural fit with Dynamics 365.
-
-- Will the process be designed in Dynamics 365? And will these processes become the new standard?
-
-- Is the entire end-to-end process to be standardized or will there be areas and functions for local variations? If so, does that align with the standard capabilities in Dynamics, or could it need customizations?
-
-- Does the business case for standardization remain sufficiently strong after all the constraints and implications are balanced against the benefits?
-
-In multiple, phased rollouts, process standardization often takes the shape of a "core template" with the expectation of rolling out this "template" to subsequent business units.
-
-Creating process maps is essential to identifying the opportunities and to realizing the potential benefits outlined previously. The use of the common business language of processes is the vital mechanism that brings all of these aspects into focus.
+You can use a "core template" approach to standardize your processes. This means creating a common process design that you can apply to different units or regions with minimal adjustments. You can use your process maps to create and communicate this template.
 
 ## Next steps
 
-- [Process-centric implementation lifecycle](process-focused-solution-implementation-lifecycle.md)  
+- Understand the phases of the [process-focused implementation lifecycle](process-focused-solution-implementation-lifecycle.md)
+- Review the [considerations for building business processes](process-focused-solution-considerations-building-business-processes.md)
+- Learn how to perform a [fit-to-standard and a fit-gap analysis](process-focused-solution-fit-to-standard-fit-gap-analysis.md)
+- [Define your requirements](process-focused-solution-define-requirements.md)
+- Follow the [checklist](process-focused-solution-checklist.md) to prepare for your implementation
+- Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach

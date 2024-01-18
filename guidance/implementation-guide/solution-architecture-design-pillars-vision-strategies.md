@@ -1,90 +1,86 @@
 ---
-title: Solution architecture design vision and strategies
-description: Learn how well-defined vision and strategies will help you build the right solution. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
+title: Design a solution with a clear vision and strategy
+description: Learn how to define your vision and strategy for a solution, and how to use solution architecture design pillars to create a blueprint.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 03/01/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Solution architecture design: Vision and strategies
+# Design a solution with a clear vision and strategy
 
-Solution design starts with a vision and the business strategies and solution strategies to deliver on that vision.
+Before you design a solution, you need a vision and a strategy. Your vision is what you want to achieve, and your strategy is how you plan to get there.
 
 ## Vision
 
-A vision is the desire to achieve something, to change the present and improve the future.
+A vision is a desire to change the present and improve the future. It can come from a prediction, a challenge, or an opportunity.
 
-When an organization decides to go through a transformation, it's usually because one or more people predicted what was coming and expressed a desire for change. Or maybe a change was forced by industry disruption or regulations. Such a change could be in the form of a mission statement or a business case listing its objectives, which might include:
+When an organization decides to transform, it usually has a vision that guides its change. The vision can be expressed in a mission statement or a business case with specific objectives. For example, your vision might be to:
 
-- Modernizing legacy enterprise business applications.
+- Modernize your legacy business applications.
+- Work faster and more collaboratively.
+- Increase your profits.
+- Improve your service or product quality.
+- Enhance your user experience.
+- Empower your users to build apps that add value.
 
-- Finding unified and faster ways of working.
-
-- Earning higher profits.
-
-- Achieving better service or product quality.
-
-- Improving the user experience.
-
-- Empowering users to drive greater value by building apps.
-
-As the vision comes together, the plan for achieving it can start taking shape.
+Your vision helps you shape your plan for achieving it.
 
 ## Business strategy
 
-Every vision serves a purpose, as does every organization, and any solution needs to be aligned with this purpose. A business strategy supports your vision by answering fundamental questions, such as:
+Your business strategy supports your vision by answering key questions, such as:
 
-- **Why** are you making this change, and what are the anticipated benefits? What is the business value sought by the solution? Where do you imagine the organization will be in 5, 10, or 20 years?
+- **Why** are you making this change, and what are the expected benefits? What is the business value of your solution? Where do you see your organization in 5, 10, or 20 years?
 
-- **What** business capabilities can your organization offer with the new solution? What **business processes** can you run? What **information and data** would you like to record and report on in line with your organization's services or products?
+- **What** business capabilities can your solution offer? What **business processes** can you run? What **information and data** do you need to record and report on your services or products?
 
-- **Which** clients, customers, or **people** inside the organization will be served by the new solution, and who will be affected by it?
+- **Who** are the clients, customers, or **people** inside your organization that your solution will serve or affect?
 
-- **Would** you like to improve your current line of business or are you open to a new industry?
+- **Would** you like to improve your current line of business or explore a new industry?
 
-- **When** do you plan to have the vision materialized? What is the high-level timeline? And do you intend to deliver the solution at once or grow in stages?
+- **When** do you want to realize your vision? What is your timeline? And do you want to deliver your solution all at once or in stages?
 
-- **Where** are the regions, geographically and in terms of business functions, to which the solution will apply? Will you apply it to all or just some of them?
+- **Where** are the regions, geographically and functionally, that your solution will apply to? Will you apply it to all or some of them?
 
-- **Who** is going to plan, design, and deliver the solution? Do you have a preferred partner, or do you need to select a vendor? Who will support and maintain the solution post go-live?
+- **Who** will plan, design, and deliver your solution? Do you have a preferred partner, or do you need to select a vendor? Who will support and maintain your solution after it goes live?
 
-- **How** will you incorporate **technology** into your solution?  This question is the first step of solution design and the link to your **solution strategy**, and the business case for IT transformation.  
+- **How** will you use **technology** in your solution? This question is the first step of solution design and the link to your **solution strategy**, and the business case for IT transformation.
 
 ## Solution strategy
 
-Your solution strategy is a consolidated view and approach that defines your overall solution. A solution blueprint is a living document with several review points <!--(Figure 1-x)--> during a project's lifespan to help you identify and take necessary actions, mitigate risks, and resolve issues as they arise. In the Success by Design framework, the blueprint is considered essential for a project's success, and provides a view of the overall solution architecture and dependent technologies.
+Your solution strategy is a comprehensive view and approach that defines your overall solution. A solution blueprint is a living document that you review at several points during your project to help you identify and take actions, mitigate risks, and resolve issues as they arise. In the Success by Design framework, the blueprint is essential for your project's success, and provides a view of the overall solution architecture and the technologies it depends on.
 
-:::image type="content" source="media/sbdphases.png" alt-text="Success by Design phases" lightbox="media/sbdphases.png":::
+:::image type="content" source="media/sbdphases.png" alt-text="Diagram of Success by Design phases." lightbox="media/sbdphases.png":::
 
-The Solution Blueprint Review workshop is a mandatory part of the solution design experience, and helps you keep track of your solution design's progress to ensure that your vision and objectives are still viable. It also allows solution architects and the implementation team to review and gain an understanding of your:
+The Solution Blueprint Review workshop is a mandatory part of the solution design experience, and helps you track your solution design's progress to ensure that your vision and objectives are still viable. It also allows solution architects and the implementation team to review and understand your:
 
 - Program strategy
-
 - Test strategy
-
 - Business process strategy
-
 - Application strategy
-
 - Data strategy
-
 - Integration strategy
-
 - Intelligence strategy
-
 - Security strategy
-
 - Application lifecycle management (ALM) strategy
-
 - Environment and capacity strategy
 
-Capturing these details helps you understand the project, and validates your solution design via the complete and well-organized processes, data, and people enabled by Dynamics 365.
+Capturing these details helps you understand the project, and validates your solution design through the complete and well-organized processes, data, and people enabled by Dynamics 365.
 
-Learn more and review a list of activities in each Success by Design phase at [Introduction to Success by Design](success-by-design.md).  
+Learn more and review a list of activities in each Success by Design phase at [Introduction to Success by Design](success-by-design.md).
 
 ## Next steps
 
-Learn about the design pillars that support the vision at [Solution architecture design pillars: Processes](solution-architecture-design-pillars-processes.md), [Solution architecture design pillars: People](solution-architecture-design-pillars-people.md), and [Solution architecture design: Data](solution-architecture-design-pillars-data.md)  
+- [Outline your business processes for your solution](solution-architecture-design-pillars-processes.md)
+- [Determine the people involved in and affected by your solution](solution-architecture-design-pillars-people.md)
+- [Know and manage your data for your solution](solution-architecture-design-pillars-data.md)
+- [Develop a solution strategy using Dynamics 365 apps and other technologies](solution-architecture-design-pillars-technology.md)
+- [Apply project management, change management, and governance and control methodologies for your solution](solution-architecture-design-pillars-methodology.md)
+- [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)

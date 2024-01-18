@@ -48,7 +48,7 @@ Work orders are used to track the progress of a job or task from start to finish
 
 To create a work order in Dynamics 365, users typically start by selecting the appropriate work order type. There are several different types of work orders, including maintenance, repair, and installation orders. Once the type of work order has been selected, users can enter the necessary details, such as the customer's name, the work order description, and the priority level.
 
-Next, users can add the necessary resources to the work order, such as labor, equipment, and materials. Dynamics 365 provides a range of tools to help users manage resources, including scheduling tools that allow users to assign resources to specific tasks and track progress in real-time.  
+Next, users can add the necessary resources to the work order, such as labor, equipment, and materials. Dynamics 365 provides a range of tools to help users manage resources. For example, it provides scheduling tools that users can use to assign resources to specific tasks and track progress in real time.  
 
 Learn more at [Create work orders overview](service-to-cash-create-work-orders.md).  
 
@@ -56,7 +56,7 @@ Learn more at [Create work orders overview](service-to-cash-create-work-orders.m
 
 Dynamics 365 provides a range of tools and features to help users schedule work orders, enabling them to allocate resources effectively, ensure tasks are completed on time, and minimize downtime.
 
-To schedule work orders, users typically start by reviewing the work order backlog and identifying any high-priority tasks. They can then use the scheduling tools to assign resources to these tasks based on their availability and skill set. Users can also be helped scheduling tasks by using automated scheduling optimization capabilities.
+To schedule work orders, users typically start by reviewing the work order backlog and identifying any high-priority tasks. They can then use the scheduling tools to assign resources to these tasks based on their availability and skill set. In addition, automated scheduling optimization capabilities can help users schedule tasks.
 
 Users can also use Dynamics 365 to set up preventative maintenance schedules. This involves creating recurring work orders for tasks such as equipment inspections or regular maintenance tasks. 
 

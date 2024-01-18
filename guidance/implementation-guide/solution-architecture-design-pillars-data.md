@@ -1,54 +1,54 @@
 ---
-title: Solution architecture design data
-description: Learn how data forms a strong pillar in your solution architecture design. Using solution architecture design pillars, you can learn how to identify those needs and the elements essential to creating a blueprint of your solution.
+title: Design your data solution
+description: Learn how to use the Data pillar of solution design to plan your data strategy, architecture, migration, integration, and quality for your Dynamics 365 solution.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 03/01/2023
+ms.date: 01/11/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/11/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Solution architecture design: Data
+# Design your data solution
 
-The third pillar of solution design is *data*. A system with inaccurate, misleading, or partial data will lead to a failed implementation, so you must understand your data and how it fits into the overall solution. With the right data, you can identify actionable and analytical information that improves business intelligence. 
+Data is the third pillar of solution design. You need accurate, complete, and relevant data to build a successful solution. With the right data, you can get insights that improve your business intelligence.
 
-## Definitions
+This article explains how to plan your data strategy, architecture, migration, integration, and quality for your Dynamics 365 solution.
 
-The following terms define your data:
+## Data terms
 
-- **Master data**  
+These are the terms you need to know about your data:
 
-  This term represents static information, such as details about customers and products, that you use and exchange in your business activities.
+- **Master data**: This is the static information that you use and exchange in your business activities, such as customer and product details.
 
-- **Transactional records**  
+- **Transactional records**: These are the business information that you create, store, and report as part of your business process, such as customer payments and expense reports.
 
-  This term refers to recorded business information, such as customer payments and expense reports, that you create, store, and report as part of your business process.
+- **Documents**: These are the documents that you create as part of your business process, such as sales orders and customer invoices.
 
-- **Documents**  
+- **Reports**: These are the organized or filtered information that serve as input or output for your business activities, such as a trial balance or aged debt.
 
-  This term refers to documentation, such as sales orders and customer invoices, that you create as part of your business process.
+You must start with an understanding of how you use your data now and how you want to use it in the future. Planning your data strategy upfront also helps you scale your solution.
 
-- **Reports**  
+## Data deliverables
 
-  Reports are organized or filtered information, such as a trial balance or aged debt, serving as input or output for your business activities.
-
-At a minimum, you must start with an understanding of how your data is currently used and how it supports your future vision. Planning your data strategy upfront also allows for better scalability.  
-
-## Key deliverables
-
-The following list shows the key deliverables related to data.  
+These are the key deliverables for your data solution:
 
 - Data governance strategy  
 - Data architecture  
 - Data migration and integration strategy  
 - Data quality strategy  
 
-The world is evolving from silos of data to connected enterprise data that enables the digital feedback loop. That's why a data strategy that applies artificial intelligence and analytics to make the data actionable is so critical to the overall success of your design.
+The world is moving from isolated data to connected enterprise data that enables the digital feedback loop. That's why you need a data strategy that uses artificial intelligence and analytics to make your data actionable. This is critical for the success of your solution design.
 
-> [!NOTE]
-> See the article [Data management](data-management.md) to gain a broader understanding of the various data functions you'll need before starting a project.
+To learn more about the different data functions you need before starting a project, see [Data management](data-management.md).
 
 ## Next steps
 
-Define your solution strategy and make the right technical choices. Learn more at [Solution architecture design pillar: Technology](solution-architecture-design-pillars-technology.md)  
+- [Use Dynamics 365 apps and other technologies to develop a solution strategy](solution-architecture-design-pillars-technology.md)
+- [Apply project management, change management, and governance and control methodologies to your solution](solution-architecture-design-pillars-methodology.md)
+- [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)
