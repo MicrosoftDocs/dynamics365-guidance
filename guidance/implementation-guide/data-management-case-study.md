@@ -1,39 +1,38 @@
 ﻿---
-title: Data Management Case Study
-description: This case study explores a global travel company that had their customer data divided across several applications and databases, making it difficult to maintain and use consistently. By moving to Dynamics 365, they were able to find a way to store all the customer data responsibly so that they could easily request, update, and delete it as necessary.
+title: Case study in data management
+description: Read a case study about a global travel company that moved from a legacy system with fragmented customer data to a Dynamics 365 solution with a unified and secure data foundation.
 author: vaniaf
 ms.author: vaniaf
-ms.date: 03/01/2023
+ms.date: 01/17/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/17/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Data Management case study
+# Case study in data management
 
-This case study explores the data management choices a global travel company went through as part of migrating to Dynamics 365. Their original system had their customer data divided across several applications and databases, which made it difficult to maintain and use consistently. By moving to Dynamics 365, they found a way to store all data responsibly, so that they could easily request, update, and delete it as necessary.
+This case study shows how a global travel company improved its data management as part of migrating to Dynamics 365. Its previous system had customer data scattered across several applications and databases, which made it hard to maintain and use consistently. By moving to Dynamics 365, the company created a secure and responsible data foundation that let it easily request, update, and delete customer data as needed.
 
-## Building a rock-solid data foundation, step by step
+## The problem
 
-A global travel company with thousands of staff in the UK, Dubai, and ANZ had been a user of a legacy homegrown IT system that had expanded over the years.
+A global travel company had thousands of staff in the United Kingdom, Dubai, and Australia/New Zealand. They used a legacy homegrown IT system that had grown over the years. The system was difficult to maintain and had many issues. Customer data was split into several disconnected applications and databases. Different departments had sometimes very different views of customers, which caused confusion and poor service for customers. Call centers were always busy, and customer calls were routed from department to department because no one person knew the whole picture.
 
-The system was hard to maintain and fraught with issues as customer data was divided into several applications and databases.
+## The solution
 
-In order to target productivity, achieve compliance, and reduce costs, the business started a project to move to Dynamics 365 Finance, Supply Chain Management, and customer engagement apps.
+To increase productivity, achieve compliance, and reduce costs, the company started a project to move to Dynamics 365 Finance, Supply Chain Management, and customer engagement apps. The first phase of the project targeted the UK business and involved moving more than 150 business processes to Dynamics 365.
 
-The first phase of the project targeted the UK business and involved moving over 150 of their business processes to Dynamics 365.
+Because the travel company handled personal data, such as passport information and medical certificates, it had to comply with European data protection regulations. The team worked with an experienced system integrator. Together, they took a proactive approach to data governance and data security and mapped out the architectural blueprint of their design. They wanted to control all data outflows and inflows to ensure data consistency, integrity, and security. To get a single source of truth, they defined the apps that held the master data. A company-wide policy let every department know where to find the data and how to request, update, and delete a customer's record. They also built workflows to manage data retention responsibly, such as disposing of information when a customer requested it.
 
-Since the travel business handles personal data, including passport information and medical certificates, they must comply with the General Data Protection Regulation. The team worked with an experienced system integrator. They took a proactive approach to data governance and data security and charted out the architectural blueprint of their design. They wanted to be on top of all data outflows and inflows to make sure there's consistency, integrity, and security of data. To get one source of truth, they defined apps that held the master data. A company-wide policy formulation let every department know what to find where, and the exact process to request, update, and delete a customer's record.
+One of the senior managers said that the project helped the company become truly data driven, because it had taken a proactive approach to data governance with a design that put data at the center of every decision.
 
-They also built in workflows to manage data retention responsibly, like disposing of information when requested by a customer.
+With the first phase of the UK deployment successful, the company is now working on going live for the Dubai and ANZ businesses.
 
-The previous systems were disjointed with data existing in silos. Different departments had sometimes widely different views of customers, which caused confusion and poor service for customers. Call centers were constantly busy as a customer's call was routed from department to department as no one person knew the whole picture.
+The system integrator also recommended a way of managing configuration data for deployments. With businesses in three countries/regions, there were many common setups in the three legal entities that could be reused&mdash;but there were also differences that needed to be maintained separately. Instead of managing all this complexity manually, the system integrator had good experience using data templates and packages in Finance and Supply Chain Management. They worked with the company and came up with a configuration plan checklist that identified the specific setup requirements for each of the three businesses. This planning exercise paid off when the company discovered how smooth, quick, and error-free its subsequent deployments became.
 
-One of the senior managers remarked it helped the company to become truly data driven, because they had taken a proactive approach to data governance with a design that put data at the heart of every decision.
+As part of the project, the company also moved its historical databases from different applications to Azure Data Lake Storage, and connected with Power BI to provide analytical reporting to the users.
 
-With the first phase of the UK deployment successful, the company is now actively working on going live for Dubai and ANZ businesses.
-
-The system integrator also recommended an approach of managing configuration data for deployments. With businesses in three countries/regions, there are lots of commonalities in setups in the three legal entities that could be reused. But at the same time, there are peculiarities that need to be maintained separately. Instead of managing all this complexity manually, system integrators had good experience using data templates and packages in Finance and Supply Chain Management. They worked with the company and came up with a configuration plan checklist that identified each of the three businesses' specific setup requirements. This planning exercise paid back multi-fold when the business discovered how smooth, quick, and free of errors their subsequent deployments became.
-
-As part of the project, they also moved their historical databases of different applications to Azure Data Lake and connected with Power BI to provide analytical reporting to the end users.
-
-The company now has a unified view of their customers, which helps them provide better customer service and allows marketing efforts to be more targeted.
+The company now has a unified view of its customers, which helps it provide better customer service and allows marketing efforts to be more targeted.
