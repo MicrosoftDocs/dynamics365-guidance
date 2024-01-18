@@ -18,7 +18,7 @@ content_well_notification: AI-contribution
 ## Adopt a cloud mindset
 
 | Done? | Task |
-| :---: | :--- |
+| :---: | --- |
 | &check; | Transform your business processes with SaaS applications and features that add value right away and let you improve continuously. |
 | &check; | Don't recreate your legacy on-premises user experiences in the cloud. |
 | &check; | Make sure everyone involved, from the executive sponsor to the developers, knows the business impact of the solution. |

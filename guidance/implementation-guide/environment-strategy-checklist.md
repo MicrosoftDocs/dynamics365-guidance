@@ -1,47 +1,59 @@
 ---
-title: Environment strategy checklist
-description: This article provides a comprehensive checklist designed to guide implementation teams through a thorough environment strategy.
+title: Checklist for planning your environment strategy
+description: Review a checklist for planning your environment strategy for Dynamics 365 and organize your environments and data for a successful implementation project.
+ms.topic: conceptual
+ms.date: 01/16/2024
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 02/25/2023
-ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Environment strategy checklist
-
-Use this article to help you develop and manage your strategy for how to structure environments for a Dynamics 365 implementation project.  
+# Checklist for planning your environment strategy
 
 ## Organization environment and tenant strategy
 
-- Define environment and tenant strategies and obtain agreement for them at the program level with all key stakeholders, including business, IT, security, and compliance.
-
-- Create a strategy that considers the future growth of the solution.
-
-- Create an environment strategy that can support the application lifecycle management (ALM) processes and necessary automation.
-
-- Create an environment strategy that considers the short and long-term impact on licensing, compliance, application design, performance, scalability, maintainability, and ALM of the solution.
-
-- Create a strategy that considers the potential need for citizen development scenarios or collaborative development with both IT and business users.
-
-- Create an environment planning matrix with key considerations of the pros and cons to help plan and visualize the impact.
+| Done? | Task |
+| :---: | --- |
+| &check; | Define your environment and tenant strategies and get approval from all key stakeholders, including business, IT, security, and compliance. |
+| &check; | Consider the future growth of your solution and how it will affect your environment and tenant needs. |
+| &check; | Support your application lifecycle management (ALM) processes and automation with your environment and tenant strategy. |
+| &check; | Consider the short- and long-term impact of your environment and tenant strategy on licensing, compliance, application design, performance, scalability, maintainability, and ALM of your solution. |
+| &check; | Plan for potential citizen development scenarios or collaborative development with both IT and business users. |
+| &check; | Create an environment planning matrix with the pros and cons of your environment and tenant strategy to help you visualize the impact. |
 
 ## Environment app strategy
 
-- Create an organization environment strategy that defines the guidelines for onboarding more apps.
-
-- Assess the impact on the overall data estate. Avoid excessive fragmentation and promote reuse of existing integrations and data flows.
+| Done? | Task |
+| :---: | --- |
+| &check; | Define the guidelines for adding more apps to your organization environment. |
+| &check; | Assess the impact of adding more apps on your data estate. Avoid too much fragmentation and reuse existing integrations and data flows as much as possible. |
 
 ## Global deployment
 
-- Account for global deployment scenarios; more coordination and agreement may be required to meet regional requirements and compliance needs.
-
-- Assess the latency to choose the optimal location—global deployments are prone to network latency related performance issues.
+| Done? | Task |
+| :---: | --- |
+| &check; | Coordinate and agree on your environment and tenant strategy with your regional stakeholders. |
+| &check; | Assess the network latency and choose the optimal location for your environments and data. |
 
 ## Governance and control
 
-- Establish governance processes for provisioning, monitoring, managing the lifecycle, and decommissioning the environments early on.
+| Done? | Task |
+| :---: | --- |
+| &check; | Establish governance processes for provisioning, monitoring, managing the lifecycle, and decommissioning the environments early on. |
+| &check; | Understand and properly assign the different security roles involved in managing your environments. |
+| &check; | Use the [Center of Excellence (CoE) Starter Kit](/power-platform/guidance/coe/starter-kit) to adjust your governance and control for citizen development scenarios as needed. |
 
-- Ensure the different security personas involved in the environment management are understood and appropriately assigned.
+## Next steps
 
-- Use the CoE Starter Kit to make necessary adjustments to citizen development use cases as needed because they require further governance consideration.
+- Learn about [environment strategy](environment-strategy-overview.md)
+- Define the right [tenant strategy](environment-strategy-tenant-strategy.md)
+- Learn about the [key factors that are affected by an environment strategy](environment-strategy-key-factors-affected.md)
+- Learn about [global deployment scenarios](environment-strategy-global-deployment-scenarios.md)
+- Understand [environment lifecycle scenarios](environment-strategy-lifecycle-scenarios.md)
+- Get [product-specific guidance](environment-strategy-guidance-product.md)
+- Read a [case study](environment-strategy-case-study.md) of a company that learned the importance of a good environment strategy

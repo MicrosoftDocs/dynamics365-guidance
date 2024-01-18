@@ -1,6 +1,6 @@
 ﻿---
 title: Checklist for driving app value
-description: Review the checklist for how to approach a business-focused digital transformation.
+description: Review the checklist for how to drive app value as part of implementing a Dynamics 365 solution.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024
@@ -15,12 +15,10 @@ content_well_notification: AI-contribution
 
 # Checklist for driving app value
 
-Use this checklist to help you develop and manage your strategy for how to drive app value for a Dynamics 365 implementation project.
-
 ## Approach to digital transformation
 
 | Done? | Task |
-| ----- | ---- |
+| :-----: | ---- |
 | &check; | Understand the core business model and how the application you're developing affects the key elements of the business model. |
 | &check; | Clearly state and communicate your business transformation goals with specific measurable key performance indicators (KPIs). |
 | &check; | Make sure the implementation team understands the business processes in scope and the business teams are closely involved to optimize the process where needed. |
@@ -28,13 +26,13 @@ Use this checklist to help you develop and manage your strategy for how to drive
 ## Change stream
 
 | Done? | Task |
-| ----- | ---- |
+| :-----: | ---- |
 | &check; | Consider the various change streams that will affect the project and adjust your budget and timelines accordingly. |
 
 ## Transformation roadmap
 
 | Done? | Task |
-| ----- | ---- |
+| :-----: | ---- |
 | &check; | Create an effective minimum viable product (MVP) scope that goes beyond the bare minimum to speed up value realization. |
 | &check; | Define your transformation roadmap and structure the phases to maximize time to value and drive maximum business impact. |
 | &check; | Identify the expansion models and include them in your project phases. |
