@@ -1,138 +1,130 @@
 ---
-title: Key factors affected by an environment strategy
-description: In this article, we explore the key factors directly affected by an environment strategy, including security and compliance, ALM, operations, and functional and nonfunctional aspects of the solution. Considering these key factors will help you define an environment strategy that meets the needs of your organization, and set the direction for the future growth of these applications to meet evolving business requirements.
+title: How an environment strategy affects key factors
+description: Learn how an environment strategy affects key factors of a Dynamics 365 implementation, such as security, compliance, application design, performance, scalability, maintainability, ALM, citizen development, and future-proofing.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 04/12/2023
+ms.date: 01/16/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Key factors affected by an environment strategy
+# How an environment strategy affects key factors
 
-In this article, we explore the key factors directly affected by an environment strategy. Factors include security and compliance, application lifecycle management (ALM), operations, and functional and nonfunctional aspects of the solution. Considering these key factors will help you define an environment strategy that meets the needs of your organization, and set the direction for the future growth of these applications to meet evolving business requirements.
+You need an environment strategy to plan and manage your Dynamics 365 applications. An environment strategy helps you decide how many environments to use, what types of environments to use, and how to configure them. Your environment strategy can affect key factors such as security, compliance, application design, performance, scalability, maintainability, application lifecycle management (ALM), citizen development, and future-proofing. This article explains how these factors relate to your environment strategy and why you should consider them when designing your solution.
 
-## Compliance
+## Security and compliance
 
-Security and compliance are critical considerations for an environment strategy. Each organization must make sure that data is stored and processed in accordance with local or regional laws.
+Security and compliance are essential for any environment strategy. You must ensure that your data is stored and processed according to the laws and regulations of your location and industry. You also need to protect your data from unauthorized access, loss, or corruption.
 
-At the onset of the project, your organization must determine your environment's compliance requirements. Requirements can vary widely depending on the industry, regulations, business type, and user base. Your internal security and compliance teams will want to review and approve the strategy.
+Before you start your project, you should identify your compliance requirements and involve your security and compliance teams in the strategy review and approval. Some of the common elements that affect compliance are:
 
-The most common elements affecting compliance are:
-
-- The physical location of the environment(s), which usually determines data residency
-
-- The specific features and apps in the scope and their data-processing requirements
-
-- The encryption (at rest and in transit for confidential information)
-
+- The physical location of the environments, which usually determines data residency
+- The features and apps in the scope and their data processing requirements
+- The encryption of data at rest and in transit
 - The disaster recovery procedures to restore the service and data
-
-- The data-retention policies, and the ability to back up and restore data
-
-- The personally identifiable information (PII) standards for data protection, and ensuring the service is compliant with the regulatory requirements for the industry and region
+- The data retention policies and the ability to back up and restore data
+- The standards for protecting personal data and complying with the regulations for your industry and region
 
 ## Application design
 
-The environment strategy can affect the application design. Conversely, the needs of an application can drive the environment requirements, and it's not uncommon for IT systems within an organization to reflect the actual structure of the organization. Depending on your organization's strategy for data isolation, collaboration, and security between different departments, you could choose to have a single shared environment or create isolated environments. For example, in customer engagement apps, a bank might allow data sharing and collaboration between commercial and business banking divisions while isolating the personal banking division. This data flow reflects the bank's application design and environment strategy.
+The application design can influence and be influenced by the environment strategy. For example, you might want to separate or share data and functionality between different departments or business units, depending on your organizational structure and goals. You might also need to integrate your apps with other systems or services, which can affect the compatibility and performance of your solution.
 
-App integrations also play a key role, as multiplexing with different environments may not work. For example, a user may not be able to simultaneously sync emails to several environments.
+You should design your apps to meet the needs of your users and your business processes. You should also consider how your apps will evolve and grow over time, and how you'll manage changes and updates.
 
 ## Performance and scalability
 
-Microsoft cloud services provide a high degree of scalability and performance. Globally distributed users can experience higher latencies when accessing cloud solutions due to a range of factors. Such factors include network latency, firewalls, network traffic monitoring, organizational proxies, and routing by internet service provider (ISP). We recommend creating a latency analysis matrix for solutions that have a globally distributed user base.
+Dynamics 365 online offers high performance and scalability for your cloud solutions. However, you might experience different levels of latency depending on your environment location, user location, device, network, and other factors. Latency is the delay between a user's action and the system's response. High latency can affect the user experience and satisfaction.
+
+We recommend that you create a latency analysis matrix for your solutions that have users in different locations. A latency analysis matrix shows the expected latency for each combination of environment location, user location, device, and network. For example:
 
 | Environment location | User location | Device | Network | Latency | Bandwidth |
 | --- | --- | --- | --- | --- | --- |
 | North America (NAM) | Canada | Browser | Corporate network | 80 ms| 6.4 Mbps |
 | North America (NAM) | Amsterdam | Tablet | Corporate wi-fi | 120 ms| 8 Mbps |
 
-This exercise gives a fair idea of how the network latency will affect the user experience based on the location of your environment. This information can be used to make a balanced choice so most users have an acceptable level of latency, and application design can be optimized for users in high-latency locations. For example, using lightweight forms or reducing the number of records shown on a page can enable faster loads.
+This exercise helps you choose the best environment location for your users and optimize your application design for high-latency scenarios. For example, you can use lightweight forms or reduce the number of records on a page to improve the load time.
 
-Choose the environment types carefully, based on the workload and the capacity needed. Trial or low tier sandbox environments won't deliver the same level of performance as production environments, for example. In many cases, you'll prefer to not develop or test the solution on a trial or low tier sandboxes.
+You should also choose the right environment types for your workload and capacity needs. For example, trial or low-tier sandbox environments might not provide the same performance as production environments. You might not want to develop or test your solution in these environments.
 
-Scalability of the cloud platform is a critical consideration for business applications. In on-premises deployments, you would scale up by adding more servers or more CPU, memory, or storage capacity to existing servers. In a cloud world with elastic scale and microservice architecture, you'll replace the server with an environment, and the compute and data transfer units with the API capacity. That wording was just an analogy and not a one-to-one mapping where one environment corresponds to a server in the cloud infrastructure.  
+Scalability is the ability of your solution to handle increasing or varying demands. In the cloud, you can scale your solution by adding more environments, more API capacity, more storage, or more features. However, you should also consider the licensing and service protection limits that apply to your solution.
 
-Examples of the scalability parameters for a cloud deployment include the following list:
+Following are examples of scalability parameters for a cloud deployment:
 
 - How many parallel connections or concurrent users can you support with one application or in a single environment?
-
 - How many API calls is a user entitled to make?
-
 - What are the limits on workflow or code executions?
-
 - What is the peak transaction volume per hour?
-
 - What is the volume of imported transactions during the peak hour?
 
-The following section provides a perspective of the cloud interpretation for scale-up/ vertical and scale-out/ horizontal scalability for finance and operations apps, as well as customer engagement apps.
+The following section explains the difference between scaling up (vertical scalability) and scaling out (horizontal scalability) for finance and operations apps and customer engagement apps.
 
-### Scale-up - vertical scalability
+### Scaling up - vertical scalability
 
-Organizations commonly operate single environments supporting thousands of users and multiple applications. The environment's storage grows as more users and applications store their data. Dynamics 365 online is built on a scalable cloud infrastructure that can store terabytes of data to meet the requirements for large enterprises. However, the entitlements and licenses acquired by the organization, including service protection limits, govern the concrete requirements. The [License Guide](https://dynamics.microsoft.com/pricing/) contains up-to-date information about how to license Dynamics 365.
+Scaling up means increasing the capacity of a single environment to support more users, data, or features. For example, you can have one environment with thousands of users and multiple apps. You can also increase the storage of your environment to store terabytes of data. Dynamics 365 online has a scalable cloud infrastructure that can support large enterprises. However, you must follow the licensing and entitlement rules for Dynamics 365. [Find the latest information on how to license Dynamics 365 in the License Guide](https://dynamics.microsoft.com/pricing/).
 
-Users of customer engagement apps have a defined API entitlement based on the license type assigned. For workflow automation, you might define any number of Power Automate flows in each environment. Each flow might have thousands of steps performed per day, which can be further scaled using appropriate license types and add-ons. There are no hard limits on the number of apps in each environment, but you can't have multiple first-party apps of the same type in the same environment.
+Users of customer engagement apps have a defined API entitlement based on their license type. API calls are requests to the system to perform an action or retrieve data. For workflow automation, you can create any number of Power Automate flows in each environment. Each flow can have thousands of steps per day, which you can scale further with the appropriate license types and add-ons. There are no hard limits on the number of apps in each environment, but you can't have multiple Microsoft apps of the same type in the same environment.
 
-finance and operations apps have [priority-based throttling](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling) that prevents over-utilization of resources to preserve the system's responsiveness and ensure consistent availability and performance for the environments.
+Finance and operations apps have [priority-based throttling](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling) that prevents overuse of resources and ensures consistent availability and performance for the environments.
 
-### Scale-out - horizontal scalability
+### Scaling out - horizontal scalability
 
-With horizontal scalability, organizations can have several separate environments, with any number of Power Automate flows on the tenant. There are no native sync capabilities between environments, and you still need to take license entitlements into consideration, especially when it comes to tenant-wide storage and API entitlement.
+Scaling out means adding more environments to support more users, data, or features. For example, you can have several separate environments for different purposes or business units. You can also have multiple Power Automate flows in your tenant. A tenant is a container for your environments and data. However, you still need to consider the licensing and service protection limits that apply to your tenant, especially for storage and API capacity.
+
+There are no native sync capabilities between environments, so you need to manage the data and code transfer between them. You should also follow the best practices for data modeling and application design set by your organization.
 
 ## Maintainability
 
-Maintainability measures the ease and speed of maintaining a solution, including service updates, bug fixes, and rolling out change requests and new functionality.
+Maintainability is the ease and speed of maintaining your solution, including service updates, bug fixes, and rolling out change requests and new features. You want to keep your solution up to date and secure, as well as meet the changing needs of your users and business.
 
-If you have several applications sharing common components in the same environment, you should consider maintainability when upgrading or deploying a new release. It's also important to invest in automation testing so you can run regression tests and quickly identify any dependencies that could cause issues.
+Your environment strategy can affect your maintainability in several ways. For example, if you have multiple apps sharing common components in the same environment, you need to consider the impact of upgrading or deploying a new release on all the apps. You also need to invest in automation testing to quickly identify and resolve any issues or dependencies.
 
-The effort to maintain the solution is directly proportional to the number of environments involved. For example, testing a release wave or analyzing the impact of deprecations is easier when there's just one production environment with the Dynamics 365 Sales app and the Dynamics 365 Customer Service app, compared to a solution that uses different production environments for the Sales and Customer Service apps.
+The number of environments you have can also affect your maintainability. For example, testing a release wave or analyzing the impact of deprecations is easier when you have fewer environments to manage.
 
 ## Application lifecycle management
 
-Application lifecycle management (ALM) includes the tools and processes that manage the solution's lifecycle and can affect the long-term success of a solution. When following the ALM of a solution, consider the entire lifespan of the solution, along with maintainability and future-proofing. Changes to your environment strategy will directly affect the ALM (and vice versa), but it's important to be clear that environments aren't the repository of your code and customizations.
+Application lifecycle management (ALM) is the process of managing the development, deployment, and maintenance of your solution. ALM includes the tools and methods you use to create, test, and update your solution. ALM can affect the long-term success, maintainability, and future-proofing of your solution.
 
-Environments can be used to separate business functions or for different purposes, such as development, testing, and production. Typically, at least three environments are necessary to support a mature release-management process.
+Your environment strategy can affect your ALM and vice versa. For example, you might use different environments for different stages of your solution lifecycle, such as development, testing, and production. Typically, you need at least three environments to support a mature release-management process.
 
 ### Types of environments
 
-Production environments are meant to support the business. By default, production environments are more protected for operations that can cause disruption, such as copy and restore operations. Sandbox environments can be used to develop, test, and delete as required. The following list provides more detailed descriptions of the different purposes for each type of environment.  
+There are two main types of environments: production and sandbox. Production environments are meant to support your business operations. They have more protection and restrictions than sandbox environments. Sandbox environments are meant for development, testing, and training. You can create, delete, and restore them as needed. The following list describes the different purposes of each type of environment.
 
-- Development
+- **Development**: You use development environments to create and customize your solution. You might need one or more development environments, depending on your requirements and timeline. You should set up proper DevOps to enable smooth continuous integration and continuous delivery (CI/CD). Learn more at [Application lifecycle management](application-lifecycle-management.md).
 
-  One or more development environments are usually required, depending on the customization requirements and time available. Development environments should be set up with proper DevOps to allow for smooth CI/CD. Learn more at [Application lifecycle management](application-lifecycle-management.md).  
+- **Quality assurance (QA)**: You use QA environments to test your solution from both a functionality and deployment perspective before you move it to a user acceptance testing (UAT) environment. You should only deploy managed solutions to QA environments. You might need multiple testing environments for different purposes, such as regression testing, performance testing, and data migration testing.
 
-- Quality assurance (QA)
+- **User acceptance testing (UAT)**: You use UAT environments to let your business users test and approve your solution before you deploy it to a production environment. UAT environments are usually the first environments that business users have access to.
 
-  Allows for solution testing from both a functionality and deployment perspective before the solutions are given to the business teams in a user acceptance testing (UAT) environment. Only managed solutions should be deployed here. Depending on project requirements, there can be multiple testing environments, including regression testing, performance testing, and data-migration testing.
+- **Training**: You use training environments to train your business users on how to use your solution. Training environments let users practice in a simulated environment without affecting live data.
 
-- user acceptance testing (UAT)
-
-  Generally the first environment that business users will have access to. It will allow them to perform UAT testing before signing off deployment to production environment for go live.
-
-- Training
-
-  With a dedicated training environment, business users can practice in a simulated environment without the risk of interfering with live data.  
-
-- Production
-
-  The live system for business users.  
+- **Production**: You use production environments to run your solution for your business users. Production environments are the live systems that support your business operations.
 
 ## Citizen development
 
-Power Platform enables people who aren't professional developers to build apps and create solutions to solve their own problems. The central IT crew still has governance responsibility and creates guidelines to secure data with DLP policies. However, business users can build apps and automate their work while accessing data in a secure way. This organic growth of applications by business users facilitates digital transformation at a massive scale. Thousands of organizations have adopted this "citizen developer" philosophy to quickly roll out hundreds of apps across the organization. In this way, they get a community of engaged employees who are helping realize the vision of an agile business that can evolve to meet customer needs in days or weeks instead of months or years.
+Power Platform lets people who aren't professional developers build apps and create solutions to solve their own problems. The central IT team still has governance responsibility and creates guidelines to secure data with data loss prevention policies. However, business users can build apps and automate their work while accessing data in a secure way.
 
-For finance and operations apps, business users can take advantage of the integration with Power Platform to access a set of tools and services such as dual write, virtual entities, and business and data events. As such, the topic of citizen development should be an attention point for these implementations as well.
+This organic growth of applications by business users enables digital transformation at a large scale. Thousands of organizations have adopted this "citizen developer" approach to quickly roll out hundreds of apps across the organization. They also get a community of engaged employees who help the business evolve to meet customer needs faster and better.
 
-The environment strategy that enables this kind of organic growth will be different from a traditional IT-developed solution. It's crucial to deliver an agile and automated process where business users can request environments to enable the maker experience and connect to data in a secure way while conforming to the standards for data modeling and application design set by the organization.
+For finance and operations apps, business users can use the integration with Power Platform to access tools and services such as dual-write, virtual entities, and business and data events. You should consider citizen development for these implementations as well.
+
+Your environment strategy should support this kind of organic growth and enable the maker experience for business users. You should provide an agile and automated process for users to request environments and connect to data in a secure way while following the standards for data modeling and application design set by your organization.
 
 ## Future-proofing
 
-Future-proofing is the process of developing methods to minimize any potential negative effects in the future. It can also be referred to as resilience of the solution to future events.
+Future-proofing is the process of developing methods to minimize any potential negative effects in the future. It can also be called resilience of the solution to future events.
 
-Your environment strategy needs to take into consideration any future phases and roll-outs of the solution, and allow you to deal with changing requirements and build a solution that won't limit the business or take away necessary control. As an example, consider country/region-specific needs, as well as variations to and deviations from the standard process.
+Your environment strategy should consider any future phases and roll-outs of your solution, allow you to deal with changing requirements, and build a solution that won't limit the business or take away necessary control. For example, you should think about country- and region-specific needs, as well as variations and deviations from the standard process.
 
 ## Next steps
 
-- Review recommendations for Azure Active Directory at [Tenant strategy](environment-strategy-tenant-strategy.md)  
-- Check out the [Global deployment scenarios](environment-strategy-global-deployment-scenarios.md)  
-- Get an overview at [Environment strategy](environment-strategy-overview.md)  
+- Learn about [global deployment scenarios](environment-strategy-global-deployment-scenarios.md)
+- Learn about [environment lifecycle scenarios](environment-strategy-lifecycle-scenarios.md)
+- Get [product-specific guidance](environment-strategy-guidance-product.md)
+- Follow the [environment strategy checklist](environment-strategy-checklist.md)
+- Read a [case study](environment-strategy-case-study.md) of a company that learned the importance of a good environment strategy
