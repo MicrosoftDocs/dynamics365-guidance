@@ -1,4 +1,4 @@
-﻿---
+---
 title: Plan to produce business process areas
 description: Get an overview for each of the business process areas in the plan to produce end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 12/01/2023
@@ -17,9 +17,9 @@ The plan to produce process is broken down into business process areas for defin
 
 ## Define production strategies
 
-Defining production strategies encompasses the foundational steps to being able to execute on the rest of the plan to produce process. This may include choosing a mode of production, identifying the production resources, defining inputs and outputs of the production process, and establishing standard production operating procedures. This information will feed setup for products like bills of materials and routes, and production configurations such as capacity, lead times, and scheduling logic. 
+Definition of production strategies encompasses foundational steps that enable an organization to carry out the rest of the plan to produce process. These steps might include choosing a mode of production, identifying the production resources, defining inputs and outputs of the production process, and establishing standard production operating procedures. This information feeds the setup for products such as bills of materials (BOMs) and routes. It also feeds production configurations such as capacity, lead times, and scheduling logic. 
 
-Learn more at [Define production strategies](plan-to-produce-define-production-strategies.md).  
+Learn more at [Define production strategies](plan-to-produce-define-production-strategies.md).
 
 ## Plan production operations
 
@@ -55,7 +55,7 @@ Learn more at [Track production costs overview](plan-to-produce-track-production
 
 If you want to implement Dynamics 365 solutions to assist with your *plan to produce business processes*, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a plan to produce technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+- Define the goals and objectives for a technology solution that supports the organization's need for a plan to produce process. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
 - Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 

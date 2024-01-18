@@ -115,7 +115,7 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
 7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
-Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md)  
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).
 
 ## Related resources
 
