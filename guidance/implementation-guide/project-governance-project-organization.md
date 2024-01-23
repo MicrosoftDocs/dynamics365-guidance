@@ -1,110 +1,123 @@
 ﻿---
-title: Project organization 
-description: Read about best practices for how to organize the team and project for an implementation with Dynamics 365 apps.
+title: Organize your Dynamics 365 project team
+description: Learn how to align your project team with your business goals, assign clear roles and responsibilities, and foster collaboration and communication for a successful Dynamics 365 implementation.
 author: TimoGossen
-ms.author: timogoss
-ms.date: 06/27/2023
+ms.author: timog
+ms.date: 01/22/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/22/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Project organization in Dynamics 365 implementation projects
+# Organize your Dynamics 365 project team
 
-Projects implementing business applications tend to have common structures and roles (such as project manager, solution architect, subject matter expert, functional consultant, and technical consultant) that are recognizable across different projects. The difference in the effectiveness of project teams comes from the way in which the project organization functions in practice compared to the theoretical constructs.
+When you implement Dynamics 365 apps, you need a project team that works well together and delivers the best results for your business. A good project team has these characteristics:
 
-|Project Organization  |
-|---------|
-|- Project team aligned to business|
-|- Active and appropriate senior stakeholders|
-|- Structure promotes cross-team collaboration|
-|- Clear project leadership accountability and authority|
-|- Clear team roles and responsibilities|
-|- Roles aligned to solution and design requirements|
-|- Resources are proportional to effort and complexity|
+- It aligns with your business needs and goals.
+- It has active and engaged senior stakeholders.
+- It promotes cross-team collaboration and communication.
+- It has clear accountability and authority for project leadership.
+- It defines the roles and responsibilities of each team member.
+- It matches the skills and experience of team members with the solution complexity and design requirements.
+- It has enough resources to handle the effort and complexity of the project.
 
-When assessing your project organization, consider the questions that are asked in the following sections.
+To assess and improve your project team organization, use the questions and tips in this article.
 
-## How well is the project team aligned to the business?
+## Is your project team aligned with your business needs and goals?
 
-Teams that have good alignment between the business streams and project functional workstreams tend to have more effective and higher-velocity projects. A common model is for each key business stream to be matched with a corresponding project workstream. An experienced leader from the business stream is usually seconded to the project and takes on the role of the lead subject matter expert (SME). For larger projects, multiple SMEs may be appointed to a single workstream.
+Your project team should have a close connection with your business streams. A common model is to pair each business stream with a project workstream.
 
-The direct involvement of a business stream with the project is usually the most successful model because it engenders trust both ways, from the business to the project and vice versa. If you have multiple organizational steps between the business and the project team SMEs, the level of business ownership of the solution design diminishes, and the quality of the input from the SMEs.
+For each project workstream, you should appoint a lead subject matter expert (SME) from the corresponding business stream. The lead SME should be an experienced leader who can represent the business needs and goals in the project. For larger projects, you might need more than one SME per workstream.
 
-## Does the project organization include active and appropriate senior business stakeholders?
+By involving your business streams directly in the project, you can build trust and ownership between the business and the project team. You can also get better input and feedback from the SMEs. If you have too many layers between the business and the project team, you might lose the quality and clarity of the business requirements and expectations.
 
-Projects are far more successful when senior business stakeholders have clear roles and are active and deeply engaged in driving the project. A good sign for the project is when the senior stakeholders are:
+## Are senior business stakeholders involved in the project?
 
-- Keenly interested in the status of critical processes
+Your project will be more successful if you have senior business stakeholders who are actively involved and committed to the project. You can tell if your senior stakeholders are engaged in the project by looking at these signs:
 
-- Making a direct impact on the prioritization of tasks
+- They show interest in the status and progress of the project, especially the critical processes and issues.
+- They help prioritize the tasks and objectives of the project, and align them with the business goals and strategy.
+- They provide the necessary resources and support for the project, such as budget, time, and people.
 
-- Making the corresponding resources available.
+If your senior stakeholders are passive or distant from the project, occasionally asking "How is it going?" or "Let me know if you need something," you might face challenges and risks that could affect the project outcomes.
 
-Projects in which the senior stakeholders are more passive and just occasionally asking "How is it going?" or "Let me know if you need something" tend to have poor outcomes.
+## Does your project team collaborate and communicate well?
 
-## Does the structure promote cross-team collaboration?
+Your project team should work together as a cohesive unit, not as isolated silos. To achieve this goal, you need to create a project organization and structure that encourages cross-team collaboration and communication. You can evaluate how well your project organization and structure support cross-team collaboration by looking at these factors:
 
-Examine if the following aspects naturally generate sufficient cross-team collaboration, or if they naturally encourage silos:  
+- Project organization: How are the project workstreams and roles organized and grouped? Do they reflect the business needs and goals, or do they create artificial boundaries and divisions?
 
-- Project organization  
-- Project structure  
-- Reporting lines  
-- Team leadership and composition  
-- Communication channels  
-- team objectives  
-- Delivery approach  
+- Project structure: How are the project tasks and deliverables structured and sequenced? Do they enable the project workstreams and roles to work together effectively, or do they create dependencies and bottlenecks?
 
-Danger signs are project organization structures with the following issues:
+- Reporting lines: How are the project workstreams and roles reporting and escalating issues and decisions? Do they have clear and direct channels, or do they have to go through multiple layers and steps?
 
-- Team members performing the delivery work on the ground have to navigate multiple layers of management to overcome issues
+- Team leadership and composition: Do project workstreams and roles have competent and empowered leaders and team members, or do they have gaps and overlaps in skills and experience?
 
-- Members of workstreams rarely work with other workstreams
+- Communication channels: Do project workstreams and roles have frequent and open communication, or do they have limited and formal communication?
 
-- Responses to improvised questions on a team member's task status and issues are routed via the project manager. It also introduces mistrust within the team
+- Team objectives: How are the project workstreams and roles aligned and motivated? Do they have shared and clear objectives, or do they have conflicting and vague objectives?
 
-- Workstream communication channels are all hierarchical, with few organic, cross-workstream objectives
+- Delivery approach: How are the project workstreams and roles delivering and testing the solution? Do they have a collaborative and agile approach, or do they have a siloed and rigid approach?
 
-A good way to determine the level of cross-stream collaboration is, for example, to scrutinize how closely, and how often, the data migration workstream works with the various functional and technical workstreams' design. How closely entwined are the ongoing delivery objectives of the data migration team and those of the functional team? Do they primarily communicate hierarchically or across to their teammates in other areas? Consider looking at similar interactions across the other workstreams to determine whether the project structure and organization promotes or hinders collaboration.
+Some warning signs that your project organization and structure might hinder cross-team collaboration are:
 
-## Is accountability and authority well defined at the project leadership level?
+- Team members have to go through many layers of management to solve problems or get approvals.
+- Team members rarely work with other workstreams or roles, or only do so at the end of the project.
+- Team members have to report their status and issues through the project manager, instead of directly to their peers or stakeholders. This can create mistrust and confusion within the team.
+- Team members only communicate through hierarchical channels, such as meetings or reports, and don't have organic or informal communication.
 
-Projects where the wrong role is accountable for delivery or where the accountability is diffuse tend to have low velocity, with project decisions stagnating. Projects where the accountability is given to someone too junior in the organization to have the corresponding authority may also languish without sufficient direction and resources.
+A good way to measure the level of cross-team collaboration is to look at how closely and how often different project workstreams or roles work together on the project. For example, you can check how the data migration workstream interacts with the functional and technical workstreams on the design and delivery of the solution.
 
-## How well are the team roles and responsibilities defined?
+## Is accountability and authority clear for project leadership?
 
-Every role on the project needs to be well defined, including roles that may be part-time on the project. The critical role played by business users that aren't seconded to the project is often ill-defined. They may typically be necessary for defining a detailed process or data requirements, for approving business processes, or for preparing and performing testing. They're critical activities, and the corresponding roles should be well defined so the resources can be planned and their tasks and status are visible to the project leadership.
+Your project leadership should have clear accountability and authority for the project. Accountability means the responsibility and ownership for the project outcomes and results. Authority means the power and influence to make decisions and allocate resources for the project. Your project leadership might include the project manager, the solution architect, the technical architect, and other key roles.
 
-## How well are the team roles aligned to the solution complexity and system design requirements?
+Some common problems that can affect the accountability and authority of your project leadership are:
 
-You should conduct an honest analysis of the experience and ability of the resources in key roles when compared to the complexity of the design and its constraints. Be wary of job titles that don't match the experience and authority that normally accompany such titles.
+- The wrong role is accountable or has authority for the project. For example, a technical role might be accountable for the business outcomes, or a business role might have authority over the technical decisions.
+- The accountability or authority is diffuse or unclear. For example, multiple roles might share the accountability or authority for the project&mdash;or no one might have it.
+- The person or role who is accountable or has authority for the project is too junior or inexperienced. For example, they might not have the skills or knowledge to lead the project, or they might not have the influence or support to make decisions or allocate resources.
 
-It's important for the key roles of lead solution architect, lead technical architect, and project manager.
+## Are project team roles and responsibilities clear?
 
-## Are the levels of resources proportional to the level of effort and complexity?
+Your project team members should have well-defined roles and responsibilities that describe what each team member does, how they contribute to the project, and what the expectations and boundaries are for each team member. This includes roles that might be assigned to the project part-time or for specific, short-term tasks.
 
-By the end of the Initiate phase of the project, you should have a reasonably credible high-level solution blueprint, a reasonable estimate of the backlog and effort, and a high-level project plan. This should provide a good grounding for reviewing the level of resources planned for the key roles.
+You can assign roles and responsibilities to your project team members by following these steps:
 
-This honest review is especially recommended for the roles that are likely to be the most constrained, so that any mitigation plans can be initiated in a timely manner.
+- Identify the key project workstreams and roles that you need for your project.
 
-:::image type="content" source="media/projectgovernancefeedbackcycle.svg" alt-text="Feedback cycle":::
+- Define the scope and objectives of each project workstream and role; for example, what each workstream and role will deliver, how they'll measure their success, and how they'll interact with other workstreams and roles.
 
-During the implementation, regularly assess how the day-to-day working of the control, communication, and feedback functions are helped or hindered by the project team organization. How well does the project organization structure facilitate or constrict the undiluted and timely flow of direction, guidance, and decisions from the business to the project workstreams? In the other direction, does the structure enable or hinder the flow of accurate, actionable, and timely feedback from the workstreams to the project leadership and business stakeholders?
+- Assign the right people to each project workstream and role.
 
-A typical setback on projects is the leadership team not receiving timely and accurate feedback on project issues, therefore adding unnecessary cost and delays. This is often due to structural issues created by a project organization that doesn't help the flow of meaningful information. Projects with much hierarchical communication and reporting-line hoops to clear (especially on large projects) tend to have difficulties in surfacing accurate data promptly. This can result in project challenges stagnating for too long, which leads to delays and extra cost.
+- Communicate the roles and responsibilities to the project team members and stakeholders in a project organization chart, a project roles and responsibilities matrix, or a project team meeting.
 
-Many projects start with the ambition of some model of partnership and shared leadership with the various parties involved. The projects that better achieve this ambition are the ones that meaningfully map the commercial and partnership arrangements (or expectations if informally agreed) and their respective expertise to the project organization. Projects tend to have better success when the customer has a clear leadership (and ownership) role in the organization structure driving the overall project. Similarly, unless the customer has experience and capability in implementing business applications, having the implementation partner in a leadership (and accountability) role allows for the best mapping of leadership roles to those with the best experience. In this case, the partner provides strategic guidance on the implementation methodologies, system design, and technical procedures. Depending on the specific expertise between the customer and partners, the actual balance of responsibility lies somewhere in the spectrum of these arrangements, and the organization structure should be mapped to that agreement.
+You should also define the roles and responsibilities of the business users who aren't part of the project team, but who are involved in the project. For example, they might provide input and feedback on the business requirements, approve the business processes, or prepare and perform testing. They're critical for the project, and you should plan and manage their tasks and status.
 
-In business application projects, some critical project roles have a disproportionate impact on the success of a business application project. For most projects, the role of the solution architects and the project manager is critical to success. The project manager and solution architect roles are important both from the implementation partner and from the customer; the customer solution architect is described as the lead business SME or the business lead. Depending on which areas of your project are significant or risky, you may want to add other roles to the list of the critical project roles. You should then pay extra attention to ensure that the individuals chosen for these critical roles have the right level of experience and capability. For example, an ineffective solution architect may not be able to direct the solution design blueprint such that the different elements of the solution design come together into a coherent and efficient solution that matches the business needs.
+## Do the skills and experience of your project team members match the solution complexity and design requirements?
 
-You should also confirm that the project organization allows all roles to be successful by letting them properly assert their expertise and strongly influence the design and implementation. As a result, they deliver the full positive impact of their roles.
+Your project team members should have the skills and experience that match the complexity and design requirements of the solution.
+
+You should pay special attention to the key project roles that have a significant impact on the project's success, such as the project manager, the solution architect, and the technical architect. You should make sure that these roles have the right level of skills and experience, and that they can assert their expertise and influence the design and implementation of the solution.
+
+## Does your project team have enough resources?
+
+By the end of the **Initiate** phase of the project, you should have a reasonably credible high-level solution blueprint, a reasonable estimate of the backlog and effort, and a high-level project plan. This should provide a good grounding for reviewing the level of resources planned for the key roles.
+
+Your project team should have enough resources to handle the effort and complexity of the project. You should also consider the availability of the resources, such as the time and effort that each team member can dedicate to the project.
+
+You should review and update your resource allocation regularly, as the project might change over time. You should also monitor and track your resource utilization, as the project might face issues or delays that affect your resource consumption.
 
 ## Next steps
 
-- [Project goals](project-governance-project-goals.md)  
-- [Project approach](project-governance-project-approach.md)  
-- [Classic structures](project-governance-classic-structures.md)  
-- [Key project areas](project-governance-key-project-areas.md)  
-- [Project plan](project-governance-project-plan.md)  
-- [Conclusion](project-governance-conclusion.md)  
-- [Checklist: Project Governance](project-governance-checklist.md)  
-- [Case study](project-governance-case-study.md)  
-- [Project governance for Dynamics 365 implementation projects](project-governance.md)  
+- Learn how to choose the best [project approach](project-governance-project-approach.md) and methodology that suit your project scope, complexity, and constraints
+- Learn how to evaluate and improve the effectiveness of [classic governance structures](project-governance-classic-structures.md), such as change management, risk management, and issue management
+- Learn how to apply good governance processes to [key project areas](project-governance-key-project-areas.md)
+- Learn how to create a well-structured [project plan](project-governance-project-plan.md) that helps you track and improve your project progress and outcomes
+- [Review the main points and takeaways](project-governance-conclusion.md) from this section
+- Use the Success by Design [checklist](project-governance-checklist.md) to assess and improve your project governance model and processes
+- Read a [case study](project-governance-case-study.md) of how a customer implemented Dynamics 365 with effective project governance

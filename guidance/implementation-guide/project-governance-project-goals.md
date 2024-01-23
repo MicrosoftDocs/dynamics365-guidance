@@ -3,7 +3,7 @@ title: Project goals
 description: Read about the importance of project goals in Dynamics 365 implementation projects.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/27/2023
+ms.date: 01/22/2024
 ms.topic: conceptual
 ---
 
@@ -45,12 +45,11 @@ Once a project starts the *Implementation* phase, the necessary attention needed
 
 ## Next steps
 
-- [Project organization](project-governance-project-organization.md)  
-- [Project approach](project-governance-project-approach.md)  
-- [Classic structures](project-governance-classic-structures.md)  
-- [Key project areas](project-governance-key-project-areas.md)  
-- [Project plan](project-governance-project-plan.md)  
-- [Conclusion](project-governance-conclusion.md)  
-- [Checklist: Project Governance](project-governance-checklist.md)  
-- [Case study](project-governance-case-study.md)  
-- [Project governance for Dynamics 365 implementation projects](project-governance.md)  
+- Learn how to set up the right [project organization](project-governance-project-organization.md) and assign the roles and responsibilities that support your project efficiency and effectiveness
+- Learn how to choose the best [project approach](project-governance-project-approach.md) and methodology that suit your project scope, complexity, and constraints
+- Learn how to evaluate and improve the effectiveness of [classic governance structures](project-governance-classic-structures.md), such as change management, risk management, and issue management
+- Learn how to apply good governance processes to [key project areas](project-governance-key-project-areas.md)
+- Learn how to create a well-structured [project plan](project-governance-project-plan.md) that helps you track and improve your project progress and outcomes
+- [Review the main points and takeaways](project-governance-conclusion.md) from this section
+- Use the Success by Design [checklist](project-governance-checklist.md) to assess and improve your project governance model and processes
+- Read a [case study](project-governance-case-study.md) of how a customer implemented Dynamics 365 with effective project governance.

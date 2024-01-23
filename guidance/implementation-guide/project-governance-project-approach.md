@@ -1,109 +1,112 @@
 ﻿---
-title: Project approach 
-description: Find best practices for how to approach an implementation project with Dynamics 365 apps.
+title: How to approach a Dynamics 365 implementation project
+description: Learn how to choose and adapt a project approach that suits your Dynamics 365 implementation project and addresses the key processes and controls you need.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/27/2023
+ms.date: 01/23/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Project approach for Dynamics 365 implementation projects
 
-When we talk about project approach, we risk making it sound like it's the same as the [project implementation methodology](implementation-strategy-choose-methodology.md). It's a risk of a vacuum in the processes that must be defined outside of the implementation methodology. It's especially true if the implementation partner provides a limited, technical implementation methodology.  
+# How to approach a Dynamics 365 implementation project
+
+Your project approach is more than just your [project implementation methodology](implementation-strategy-choose-methodology.md). It's the set of processes and controls that define how you manage your project scope, resources, changes, tasks, and outcomes. Your project approach should suit the nature and needs of your Dynamics 365 implementation project. It should also address any gaps or risks in your chosen methodology.
 
 ## The customer's responsibilities
 
-If you're the customer in the implementation project, consider the wider set of processes required to define your project scope, manage your resources, and manage the changes, tasks, and processes. Prioritize areas that aren't directly covered by the partner but are necessary for every business to perform in support of a business application implementation. You should explicitly identify areas that would be the responsibility of the customer to manage. Then confirm that you have adequate definition of the approach and the right level of governance planned for each of these areas.
+If you're the customer in the implementation project, you need to consider the wider set of processes required to support your Dynamics 365 implementation. You should identify the areas that are your responsibility to manage and confirm that you have a clear approach and adequate governance for each one.
 
-The areas excluded from the implementation partner's responsibility varies. The following areas are typically involved:
+The areas that are typically excluded from the implementation partner's responsibility vary, but they often include:
 
 - Defining the scope of the project (the to-be business process and system requirements)
 
-- Managing internal project resources and liaising with wider business teams
+- Managing internal project resources and working with wider business teams
 
-- Managing the process for the proper participation of all the relevant business units and roles
+- Managing the participation of all relevant business units and roles
 
 - Managing the source data quality for data migration
 
-- Training the internal project team and the end users
+- Training the internal project team and users
 
-- Data, system, and process validation by the nonproject business users, such as user acceptance testing (UAT)
+- Validating data, system, and process by nonproject business users, such as user acceptance testing (UAT)
 
-- Security and access definition and validation
+- Defining and validating security and access
 
-- Implications on the wider IT enterprise architecture and wider business processes
+- Considering implications on the wider IT enterprise architecture and business processes
 
-- Interpreting, applying, and validating the requirements related to relevant regulatory bodies
+- Applying and validating requirements related to relevant regulatory bodies
 
-- Cutover management
+- Managing cutover
 
-- Managing the non-Dynamics 365 systems involved in system integrations
+- Managing non-Dynamics 365 systems involved in system integrations
 
-- Managing communication within the business and with customers and suppliers
+- Communicating within the business and with customers and suppliers
 
-- Budget management
+- Managing budget
 
-- Business and organizational change management
+- Managing business and organizational change
 
-- Nonfunctional requirements such as performance management, system security, and business continuity planning
+- Addressing nonfunctional requirements such as performance management, system security, and business continuity planning
 
-- Transitioning and operating the support model and other post-operational duties
+- Transitioning to an operating support model and other post-operational duties
 
-This list isn't intended as an exhaustive list. It's an indicator that the overall project approach needs to consider a wider set of functions than what may be covered by a typical implementation methodology or a commercial contract. Some projects define the overall approach in a project charter or similar document. You should examine if the project approach adequately covers the missing areas from the implementation methodology.
+This list isn't exhaustive. It's an indicator that your project approach needs to cover more functions than what a typical implementation methodology or a commercial contract might cover. Some projects define their overall approach in a project charter or similar document. You should check if your project approach covers all the areas that aren't included in your implementation methodology.
 
-## Waterfall and agile approaches
+## Waterfall versus agile approaches
 
-One of the discussions that regularly occurs about project approach is the debate on waterfall versus agile. Methodologies based on either of these principles have their advantages and disadvantages. Learn more at [Implementation strategy](implementation-strategy.md). From a project approach perspective, whichever methodology (or hybrid) you adopt, you must identify and record the specific risks that emerge from that methodology and have a mitigation plan for each one.
+One of the common debates about project approach is whether to use waterfall or agile methodologies. Both have their pros and cons. [Learn more at about implementation strategy](implementation-strategy.md). Whichever methodology (or hybrid) you choose, you should identify and record the specific risks that come with it and have a mitigation plan for each one.
 
-For example, let's say your chosen methodology doesn't include early analysis, nor a solution blueprint that reflects the whole design scope. In that case, the project may stumble from sprint to sprint, designing and redesigning the solution. Maybe you find that the designs in later sprints can't be built on the previous sprints because you didn't analyze and consider the high-level design for the whole end-to-end process. At Microsoft, we've seen projects fail because the methodology was purely agile and didn't include a solution design blueprint.
+For example, if your methodology doesn't include early analysis or a solution blueprint that reflects the whole design scope, your project might struggle, designing and redesigning the solution from sprint to sprint. You might find that the designs in later sprints can't build on the previous sprints because you didn't analyze and consider the high-level design for the whole end-to-end process. This is a risk we see in many agile projects.
 
-Similarly, if the chosen methodology is strictly linear and mostly document-based, you risk spending an enormous amount of time and effort in analysis, design, and coding phases with little exposure to the working solution and limited feedback on how the solution performs in the system. This is a risk we see in many pure waterfall projects. You need to identify such risks in your chosen methodology so you can discuss, accept, understand, and specifically address them in the project approach.
+Similarly, if your methodology is strictly linear and document-based, you might spend too much time and effort in analysis, design, and coding phases with little exposure to the working solution and feedback on how it performs in the system. This is a risk we see in many waterfall projects.
 
-## The right methodology for the specific project
+You need to identify such risks in your chosen methodology and address them in your project approach.
 
-Sometimes, people assume that a methodology that works well for a bespoke software development project also applies to a highly configurable Dynamics 365 implementation. Similarly, methodologies that suited the old world of on-premises business application implementation with long implementation durations aren't best adapted to today's more rapidly evolving cloud world.  
+## The right methodology for your project
 
-Consider the different circumstances of a modern business application implementation with Dynamics 365 online:
+Sometimes, people assume that a methodology that works well for a custom software development project also works well for a highly configurable Dynamics 365 implementation. Similarly, methodologies that suited on-premises business application implementation with long durations might not suit today's cloud world.
 
-- The implementation is for a cloud-based, packaged software application
+You should consider the different circumstances of a modern business application implementation with Dynamics 365 online:
 
-- A significant (if not a majority) of the activities aren't coding, but business process design, setup, configuration, data migration, validation, and more
+- You're implementing a cloud-based, packaged software application.
 
-- Some critical activities for a Dynamics 365 application implementation (such as extracting a fit gap report from a fit-to-standard analysis) aren't covered by more generic software development implementation methodologies
+- Most of the activities aren't coding&mdash;they're things like business process design, setup, configuration, data migration, and validation.
 
-- There's ever-increasing functionality in the Dynamics 365 business application of powerful configuration options or low-code/no-code options and the ability to use the Dynamics 365 Power Platform in citizen-developer and professional developer modes
+- Some critical activities for a Dynamics 365 implementation, such as extracting a fit gap report from a fit-to-standard analysis, aren't covered by generic software development methodologies.
 
-- A significant part of the implementation process revolves around the understanding and configuration of business processes and working closely with business users throughout the project lifecycle. The methodology must support that fact.  
+- Dynamics 365 has ever-increasing functionality with powerful configuration options or low-code/no-code options and the ability to use Power Platform in citizen-developer and professional developer modes.
 
-- Although Dynamics 365 applications provide a platform for custom development, the chosen methodology must address the fact that the development process is building on, or extending, the standard business process flows designed in the system
+- A significant part of the implementation process involves understanding and configuring business processes and working closely with business users throughout the project lifecycle. Your methodology should support that.
 
-- Dynamics 365 applications are cloud-based business applications with a regular update rhythm that you should recognize as part of the new way of working
+- Although Dynamics 365 allows custom development, your development process should build on or extend the standard business process flows designed in the system.
 
-All of these factors (and more) mean that the implementation methodology needs to be directly relevant to the nature and needs of a Dynamics 365 business application project.
+- Dynamics 365 is a cloud-based business application with regular updates that you should recognize as part of the new way of working.
 
-When looking to determine what the overall project approach should address, consider the specifics of your whole project solution build lifecycle. Make any additions, adjustments, or highlights to the standard methodology. Confirm that the key processes and controls you expect are adequately addressed as part of the governance of the project:
+All these factors (and more) mean that your implementation methodology should be relevant to your Dynamics 365 project.
 
-- Does the methodology and approach enable a good definition of the scope and a solution blueprint?
+When you determine what your project approach should address, consider all aspects of your solution build lifecycle. Make any additions, adjustments, or highlights to your standard methodology. Confirm that you have adequate coverage from your project approach for key processes and controls such as:
 
-- Is the testing strategy fit for purpose?
+- Scope definition and solution blueprint
+- Testing strategy
+- Regular and appropriate reviews by project teams and the business
+- Project status analysis and reporting
 
-- Do controls such as regular and appropriate reviews by the project team and the business exist?
+You might want to define a set of critical processes, deliverables, and controls to ensure you have proper governance for your project&mdash;just as you would for functional and technical requirements.
 
-- Is a good process for project status analysis and reporting in place?
+Once you start implementing your project, it's easy to lose sight of the governance model you agreed on at the start. You should establish regular checkpoints to compare how you're working on the project with what you planned, and take corrective actions as needed.
 
-You may want to define a set of critical processes, deliverables, and controls to ensure you have the right coverage from the project approach (just as you would for functional and technical requirements).
-
-Once you are in project implementation mode, and the focus is on day-to-day tasks, it's easy to lose sight of the ideals agreed in the governance model at the start of the project. You should establish regular checkpoints to go through the formal discipline of honestly comparing the actual ways of working on the project with the governance model and taking corrective actions as necessary.
-
-For example, analyze a random sample of how a given feature, requirement, or user story actually progressed through the lifecycle. Alternatively, trace how a scope change item was handled to resolution. Did they progress through their lifecycle as you expected, and did your governance model help deliver a fast and good quality result? Taking a (preferably independent) regular pulse of the real, practical implementation of the processes and controls helps keep the project approach relevant and reduces risk.
+For example, analyze how a feature or requirement progressed through its lifecycle or how a scope change item was handled. Did they follow the expected process and did your governance model help deliver a fast and good quality result? Taking a regular pulse of the actual implementation of the processes and controls helps keep your project approach relevant and reduces risk.
 
 ## Next steps
 
-- [Project goals](project-governance-project-goals.md)  
-- [Project organization](project-governance-project-organization.md)  
-- [Classic structures](project-governance-classic-structures.md)  
-- [Key project areas](project-governance-key-project-areas.md)  
-- [Project plan](project-governance-project-plan.md)  
-- [Conclusion](project-governance-conclusion.md)  
-- [Checklist: Project Governance](project-governance-checklist.md)  
-- [Case study](project-governance-case-study.md)  
-- [Project governance for Dynamics 365 implementation projects](project-governance.md)  
+- Learn how to evaluate and improve the effectiveness of [classic governance structures](project-governance-classic-structures.md), such as change management, risk management, and issue management
+- Learn how to apply good governance processes to [key project areas](project-governance-key-project-areas.md)
+- Learn how to create a well-structured [project plan](project-governance-project-plan.md) that helps you track and improve your project progress and outcomes
+- [Review the main points and takeaways](project-governance-conclusion.md) from this section
+- Use the Success by Design [checklist](project-governance-checklist.md) to assess and improve your project governance model and processes
+- Read a [case study](project-governance-case-study.md) of how a customer implemented Dynamics 365 with effective project governance
