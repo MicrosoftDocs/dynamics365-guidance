@@ -1,13 +1,13 @@
 ---
-title: Plan and recruit your workforce overview
+title: Use Dynamics 365 products to plan and recruit your workforce
 description: Read about the business process area for planning and recruiting your workforce in Dynamics 365.
-ms.date: 07/11/2023
+ms.date: 01/09/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
 ---
 
-# Plan and recruit your workforce overview
+# Use Dynamics 365 to plan and recruit your workforce as part of the hire to retire business process
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
@@ -31,37 +31,37 @@ The following steps are illustrated in the *Plan and recruit your workforce* flo
 
 1. Start
 
-1. Hire to retire
+1. *Hire to retire*
 
 1. *Plan and recruit your workforce*
 
     Parallel branches connect to the following end-to-end processes that are shown on the right side: *Forecast to plan*, *Project to profit*, and *Plan to produce*.
 
-1. Define department structure
+    1. *Define department structure*
 
-    A parallel branch connects to *Update department structure*.
+        A parallel branch connects to *Update department structure*.
 
-1. Create jobs
+    1. *Create jobs*
 
-    A parallel branch connects to *Manage changes to jobs*.
+        A parallel branch connects to *Manage changes to jobs*.
 
-1. Define corporate operating hours and schedule
+    1. *Define corporate operating hours and schedule*
 
-1. Plan budget & headcount
+    1. *Plan budget & headcount*
 
-    A parallel branch connects to *Manage headcount*.
+        A parallel branch connects to *Manage headcount*.
 
-1. Create positions
+    1. *Create positions*
 
-    A parallel branch connects to *Manage changes to positions*.
+        A parallel branch connects to *Manage changes to positions*.
 
-1. Create and manage teams
+    1. *Create and manage teams*
 
-1. Create and manage shifts
+    1. *Create and manage shifts*
 
-1. Recruit and hire candidates
+    1. *Recruit and hire candidates*
 
-1. Onboard and manage the employee lifecycle
+    1. *Onboard and manage the employee lifecycle*
 
 1. End
 
@@ -123,21 +123,21 @@ Effective recruiting can help an organization build a more diverse and inclusive
 
 If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
 
-1. Onboard and manage the employee lifecycle
+1. *Onboard and manage the employee lifecycle*
 
-1. Manage employee performance and growth
+1. *Manage employee performance and growth*
 
-1. Manage occupational health and safety
+1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)  
 
-1. Administer employee and manager requests
+1. *Administer employee and manager requests*
 
-1. Manage employee benefits and compensation
+1. *Manage employee benefits and compensation*
 
-1. Manage employee time and attendance
+1. *Manage employee time and attendance*
 
-1. Pay employees
+1. *Pay employees*
 
-1. Manage travel and expenses
+1. *Manage travel and expenses*
 
 ## Related resources
 

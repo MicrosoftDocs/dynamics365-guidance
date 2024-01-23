@@ -1,5 +1,5 @@
 ---
-title: Acquire assets overview
+title: Use Dynamics 365 to support your organization's business processes to acquire assets
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to acquire assets.
 ms.date: 08/31/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: sdaggubati
 
 ---
 
-# Acquire assets overview
+# Use Dynamics 365 products to support your organization's business processes to acquire assets
 
 ***This applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management*** 
 

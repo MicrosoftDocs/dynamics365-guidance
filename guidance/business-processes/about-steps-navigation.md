@@ -1,5 +1,5 @@
 ---
-title: Business processes, steps, and how to find things 
+title: Understand concepts used in the Dynamics 365 business process guide 
 description: Learn how we how to understand where to find the different pages in the Dynamics 365 apps when you go through the business process content.
 author: edupont04
 ms.author: raprofit
@@ -10,7 +10,7 @@ ms.date: 10/27/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Business processes, steps, and how to find things
+# Understand concepts and terminology used in the Dynamics 365 business process guide
 
 This article describes terminology, concepts, and abbreviations that are used throughout the [Dynamics 365 business process guide](overview.md).
 

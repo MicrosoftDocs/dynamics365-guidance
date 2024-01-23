@@ -1,5 +1,5 @@
 ---
-title: Demand forecasting overview
+title: Predict future demand for products and services with demand forecasting
 description: Read about how Dynamics 365 supports the demand forecasting business process.
 ms.date: 07/06/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ---
 
-# Demand forecasting overview
+# Predict future demand for products and services with demand forecasting to drive business decisions
 
 ***Applies to: Dynamics 365 Supply Chain Management***
 

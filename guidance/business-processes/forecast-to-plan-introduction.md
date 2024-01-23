@@ -1,5 +1,5 @@
 ﻿---
-title: Forecast to plan introduction
+title: Introduction to the forecast to plan end-to-end business processes
 description: Get an introduction to the forecast to plan end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their forecast to plan processes.
 ms.date: 07/06/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: annekrupke
 ms.reviewer: edupont
 ---
 
-# Forecast to plan introduction
+# Introduction to the forecast to plan end-to-end business processes
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

@@ -1,13 +1,13 @@
 ---
-title: Define financial structure and organizational accounting policies overview
-description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining the financial structure and organizational accounting policies.
+title: Overview of the define financial structure and organizational accounting policies business process
+description: Learn how you can use Dynamics 365 products to support the organization's business processes to define the financial structure and organizational accounting policies.
 ms.date: 11/10/2023
 ms.topic: conceptual
 author: rachelprofitt
 ms.author: raprofit
 ---
 
-# Define financial structure and organizational accounting policies overview
+# Overview of the define financial structure and organizational accounting policies business process
 
 ***Applies to: Dynamics 365 Finance***
 

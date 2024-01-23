@@ -1,5 +1,5 @@
 ﻿---
-title: Project to profit end-to-end overview
+title: Overview of the project to profit end-to-end business process flow
 description: Learn about the end-to-end business process, from project to profit. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 10/30/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: lalithac
 ---
 
-# Project to profit end-to-end overview
+# Overview of the project to profit business process flow and its relationship to other processes
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

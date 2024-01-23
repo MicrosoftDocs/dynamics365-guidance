@@ -1,5 +1,5 @@
 ﻿---
-title: Monitor and analyze project performance overview
+title: Overview of the monitor and analyze project performance business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to monitor and analyze project performance overview.
 ms.date: 11/17/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: lalithac
 ---
 
-# Monitor and analyze project performance overview
+# Monitor and evaluate project elements with the monitor and analyze project performance process area
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Project Operations***
 

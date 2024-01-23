@@ -1,5 +1,5 @@
 ---
-title: Service to cash business process areas
+title: The service to cash business process area broken down into several business process areas
 description: Get an overview for each of the business process areas in the service to cash end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 01/11/2024
 ms.topic: conceptual
@@ -12,7 +12,7 @@ content_well_notification:
 
 ---
 
-# Service to cash business process areas overview
+# The service to cash business process area broken down into several business process areas
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 

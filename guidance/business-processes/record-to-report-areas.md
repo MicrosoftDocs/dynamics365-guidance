@@ -1,5 +1,5 @@
 ﻿---
-title: Record to report business process areas
+title: The record to report process area broken down into multiple business process areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 11/09/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kgiardini
 ---
 
-# Record to report business process areas
+# The record to report process area broken down into multiple business process areas
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

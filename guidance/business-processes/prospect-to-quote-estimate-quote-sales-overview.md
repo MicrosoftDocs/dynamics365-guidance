@@ -1,5 +1,5 @@
 ---
-title: Estimate and quote sales overview
+title: Overview of the estimate and quote sales business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for estimating and quoting sales.
 ms.date: 11/01/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kowildfe
 ---
 
-# Estimate and quote sales overview
+# Help sales teams maintain profitability with the estimate and quote sales process area
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Fraud Protection***
 

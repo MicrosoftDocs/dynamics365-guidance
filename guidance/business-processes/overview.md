@@ -1,5 +1,5 @@
 ---
-title: Business processes in Dynamics 365
+title: Overview of end-to-end scenarios and business processes in Dynamics 365
 description: Get an overview of the end-to-end scenarios that Dynamics 365 supports, and which organizations often look for.
 author: rachel-profitt
 ms.author: raprofit
@@ -9,7 +9,7 @@ ms.date: 11/22/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Business processes in Dynamics 365
+# Overview of end-to-end scenarios and business processes in Dynamics 365
 
 Dynamics 365 supports many different industries and types of organizations. In this section, we provide an overview of end-to-end scenarios that organizations often look for. Dynamics 365 is a suite of applications that are designed to help organizations meet the organizational goals aligned to various business processes in specific industries.  
 

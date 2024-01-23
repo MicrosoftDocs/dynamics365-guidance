@@ -1,5 +1,5 @@
 ---
-title: Maintain and repair internal assets
+title: Support your organization’s business processes for maintaining and repairing internal assets
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to maintain and repair internal assets.
 ms.date: 08/22/2023
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.author: hputhran
 ms.custom: bap-template
 ---
 
-# Maintain and repair internal assets
+# Support your organization’s business processes to maintain and repair internal assets
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

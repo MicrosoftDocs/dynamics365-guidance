@@ -1,5 +1,5 @@
 ﻿---
-title: Case to resolution end-to-end overview
+title: Overview of care to resolution end-to-end business process flow
 description: Learn about the end-to-end business process, from case to resolution. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 04/05/2023
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.author: marcoje
 
 ---
 
-# Case to resolution end-to-end overview
+# Overview of care to resolution end-to-end business process flow
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

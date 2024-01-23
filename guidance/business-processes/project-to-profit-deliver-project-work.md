@@ -1,5 +1,5 @@
 ---
-title: Manage project delivery overview
+title: Overview of the manage project delivery business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for tracking the work that is done on a project.
 ms.date: 10/31/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: abunduc
 # CustomerIntent: As a functional consultant, I want learn about this business process area so that the implementation runs better.
 ---
 
-# Manage project delivery overview
+# Track the work delivered on a project with the manage project delivery business process area
 
 ***Applies to: Dynamics 365 Project Operations, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Field Service, Dynamics 365 Human Resources***
 

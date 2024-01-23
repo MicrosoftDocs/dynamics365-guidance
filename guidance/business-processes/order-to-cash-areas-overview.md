@@ -1,5 +1,5 @@
 ---
-title: Order to cash business process area overview
+title: Overview of the order to cash end-to-end business process
 description: Learn about the business process areas in the order to cash end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 03/16/2023
 ms.topic: overview
@@ -9,7 +9,7 @@ ms.reviewer: edupont
 ms.custom: bap-template
 ---
 
-# Order to cash business process area overview
+# Overview of the order to cash end-to-end business process broken down into multiple process areas
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, Dynamics 365 Finance***
 

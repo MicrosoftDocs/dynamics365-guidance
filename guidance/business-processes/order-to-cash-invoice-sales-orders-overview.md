@@ -1,14 +1,14 @@
 ﻿---
-title: Invoice customers overview
-description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing customers.
-ms.date: 01/11/2024
+title: Create and send invoices to customers with the invoice sales orders process area
+description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing sales orders.
+ms.date: 01/23/2024
 ms.topic: overview
 author: edupont04
 ms.author: npaldhikar
 ms.custom: bap-template
 ---
 
-# Invoice customers overview
+# Create and send invoices to customers with the invoice sales orders process area
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Finance Insights, Dynamics 365 Customer Insights***
 

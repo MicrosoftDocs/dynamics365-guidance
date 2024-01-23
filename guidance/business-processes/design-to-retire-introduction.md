@@ -1,5 +1,5 @@
 ﻿---
-title: Design to retire introduction
+title: Introduction to the design to retire end-to-end business process
 description: Get an introduction to an end-to-end business process, design to retire. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
 ms.date: 11/27/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Design to retire introduction
+# Introduction to the design to retire end-to-end business process for introducing new products
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

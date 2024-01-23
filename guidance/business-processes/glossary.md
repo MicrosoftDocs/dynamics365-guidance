@@ -1,5 +1,5 @@
 ---
-title: Glossary of terms in Dynamics 365 business processes
+title: Glossary of Dynamics 365 business processes terms
 description: A glossary of terms that are good to know if you work with Dynamics 365 and you're reading the business process guidance.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,7 +7,7 @@ ms.topic: glossary
 ms.date: 12/01/2023
 ---
 
-# Glossary of terms in Dynamics 365 business processes
+# Glossary of Dynamics 365 business processes terms
 
 This article defines some of the common terms and terms that are specific to Dynamics 365 that are used in the business process guidance on Microsoft Learn. It includes guidelines such as capitalization.
 

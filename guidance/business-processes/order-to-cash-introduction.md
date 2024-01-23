@@ -1,5 +1,5 @@
 ---
-title: Order to cash introduction
+title: Manage and optimize orders in the order to cash end-to-end business process
 description: Get an introduction to an end-to-end business process, order to cash. This article provides a high-level overview of the business process, and lists key benefits and stakeholders.
 ms.date: 03/23/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ---
-# Order to cash - introduction to the end-to-end business process
+# Manage and optimize orders in the order to cash end-to-end business process
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, Dynamics 365 Finance***
 

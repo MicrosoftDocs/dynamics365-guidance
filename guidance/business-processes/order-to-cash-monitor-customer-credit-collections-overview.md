@@ -1,5 +1,5 @@
 ---
-title: Monitor customer credit and collections overview
+title: Support your organization’s business processes for monitoring customer credit and collections
 description: Learn how to use Dynamics 365 products to monitor customer credit and collections and reduce bad debt.
 ms.date: 11/17/2023
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Monitor customer credit and collections overview
+# Support your organization’s business processes for monitoring customer credit and collections
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Project Operations, Dynamics 365 Finance Insights, Dynamics 365 Fraud Protection, Dynamics 365 Customer Insights***
 

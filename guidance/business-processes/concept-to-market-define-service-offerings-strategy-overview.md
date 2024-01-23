@@ -1,5 +1,5 @@
 ﻿---
-title: Define service offerings and strategy overview
+title: Define, categorize, and segment services in Dynamics 365 applications
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to capture a strategy for the services that you want to sell.
 ms.date: 11/24/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Define service offerings and strategy overview
+# Define, categorize, segment, and merchandise services in Dynamics 365 applications
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

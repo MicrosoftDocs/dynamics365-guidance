@@ -1,5 +1,5 @@
 ---
-title: Define a sales strategy overview
+title: Overview of the define a sales strategy business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining a sales strategy.
 ms.date: 10/23/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kowildfe
 ---
 
-# Define a sales strategy overview
+# Align sales activities with business growth objectives with the define a sales strategy process area
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service***
 

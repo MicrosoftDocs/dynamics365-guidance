@@ -1,5 +1,5 @@
 ---
-title: Identify and qualify leads overview
+title: Overview of the identify and qualify leads business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for identifying and qualifying leads.
 ms.date: 12/07/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kowildfe
 ---
 
-# Identify and qualify leads overview
+# Create well-run lead management with the identify and qualify leads business process area
 
 Applies to: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Insights - Data, Dynamics 365 Fraud Protection***
 

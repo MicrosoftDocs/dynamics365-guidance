@@ -1,5 +1,5 @@
 ---
-title: About the business process guide
+title: About the business process catalog for Dynamics 365 apps and services
 description: Learn about the business process catalog for Dynamics 365, what it is, and how to navigate and learn from the catalog.
 author: edupont04
 ms.author: edupont
@@ -8,7 +8,7 @@ ms.date: 12/04/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
-# About the business process guide
+# About and how to use the business process catalog for Dynamics 365 apps and services
 
 Microsoft has established a business process catalog of standard business processes across Dynamics 365 apps and services. Read on to learn how to navigate and learn from the catalog.  
 

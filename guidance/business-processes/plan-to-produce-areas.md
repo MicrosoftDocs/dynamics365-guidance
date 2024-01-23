@@ -1,7 +1,7 @@
 ---
-title: Plan to produce business process areas
+title: Define, plan, run, control, and track production operations with the plan to produce process
 description: Get an overview for each of the business process areas in the plan to produce end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 12/01/2023
+ms.date: 01/23/2024
 ms.topic: conceptual
 
 author: edupont04
@@ -9,7 +9,7 @@ ms.author: annekrupke
 ms.reviewer: edupont
 ---
 
-# Plan to produce business process areas
+# Define, plan, run, control, and track production operations with the plan to produce process
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Dynamics 365 Business Central, Power Apps, Power BI, Power Automate***
 

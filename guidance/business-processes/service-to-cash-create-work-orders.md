@@ -1,5 +1,5 @@
 ---
-title: Create work orders overview
+title: Overview of the create work orders business process area part of the service to cash process
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to create work orders.
 ms.date: 12/01/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: dehardy
 ---
 
-# Create work orders overview
+# Identify and document business process leading to their creation with the create work orders process
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 

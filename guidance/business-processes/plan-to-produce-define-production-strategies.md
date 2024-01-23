@@ -1,13 +1,13 @@
 ---
-title: Define production strategies overview
+title: Overview of the Define production strategies business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for defining production strategies.
-ms.date: 12/06/2023
+ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
 ---
 
-# Define production strategies overview
+# Overview of the Define production strategies process area within the Plan to produce process
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Human Resources, Dynamics 365 Supply Chain Management***
 
