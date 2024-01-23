@@ -1,18 +1,18 @@
 ﻿---
-title: Invoice sales orders overview
-description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing sales orders.
-ms.date: 05/31/2023
+title: Invoice customers overview
+description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing customers.
+ms.date: 01/11/2024
 ms.topic: overview
 author: edupont04
 ms.author: npaldhikar
 ms.custom: bap-template
 ---
 
-# Invoice sales orders overview
+# Invoice customers overview
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Finance Insights, Dynamics 365 Customer Insights***
 
-The invoice sales orders process area covers creating and sending an invoice to a customer based on a sales order or a free text invoice. Invoicing is an essential part of the order to cash process. It involves creating and sending a bill to customers for the products or services they ordered and posting it to the general ledger. The invoice process starts when a sale takes place and continues through delivery to the customer and receiving payment.
+The invoice customers process area covers creating and sending an invoice to a customer based on a sales order or a free text invoice. Invoicing is an essential part of the order to cash process. It involves creating and sending a bill to customers for the products or services they ordered and posting it to the general ledger. The invoice process starts when a sale takes place and continues through delivery to the customer and receiving payment.
 
 Dynamics 365 supports the following types of customer invoices:
 
@@ -29,7 +29,7 @@ The invoicing process is important to an organization because it affects several
 
 ## Stakeholders
 
-Many people in an organization contribute to the design of the invoice sales orders process in your Dynamics 365 project, such as:
+Many people in an organization contribute to the design of the invoice customers process in your Dynamics 365 project, such as:
 
 - **Finance stakeholders** like the CFO, controller, and accounting manager  
 
@@ -39,19 +39,19 @@ Many people in an organization contribute to the design of the invoice sales ord
 
 ## Invoice sales orders process flow
 
-The following diagram illustrates the flow of the invoice sales orders business process area in an organization.
+The following diagram illustrates the flow of the invoice customers business process area in an organization.
 
-:::image type="content" source="media/order-to-cash-invoice-sales-orders-flow.svg" alt-text="Diagram showing the flow of the invoice sales orders business process area in an organization." lightbox="media/order-to-cash-invoice-sales-orders-flow.svg":::
+:::image type="content" source="media/order-to-cash-invoice-sales-orders-flow.svg" alt-text="Diagram showing the flow of the invoice customers business process area in an organization." lightbox="media/order-to-cash-invoice-sales-orders-flow.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-The invoice sales orders business process area flow diagram illustrates the following steps:
+The invoice customers business process area flow diagram illustrates the following steps:
 
 1. Start
 
 1. Order to cash end-to-end process
 
-1. Invoice sales orders
+1. Invoice customers
 
 1. Is it a sales order invoice?
 
@@ -86,13 +86,13 @@ The invoice sales orders business process area flow diagram illustrates the foll
 
 ## Invoice sales orders benefits
 
-Organizations can recognize many benefits from the invoice sales orders process in Dynamics 365.
+Organizations can recognize many benefits from the invoice customers process in Dynamics 365.
 
 - **More transparency and control of invoices**: You can use the customer workflow feature to change specific attributes of a customer and send the changes for approval. You can use print management settings to print or email invoices after posting, or use channels such as electronic data interchange or an integration to send the invoices to your customers.
 
-- **Better visibility of invoices**: The invoice sales orders process gives you real-time tracking and reporting of invoice status, payments, and cash flow. The process helps you optimize working capital, avoid late fees, and take advantage of early payment discounts.
+- **Better visibility of invoices**: The invoice customers process gives you real-time tracking and reporting of invoice status, payments, and cash flow. The process helps you optimize working capital, avoid late fees, and take advantage of early payment discounts.
 
-- **More standardized and flexible invoice workflow**: The digital invoice sales orders process in Dynamics 365 allows you to standardize your invoicing workflow across your customer base. Through standardization, you can better recognize revenue opportunities and improve your organization's cash flow. You can import and export information about customer invoices for sales orders and customize the layout and design of the invoice document.
+- **More standardized and flexible invoice workflow**: The digital invoice customers process in Dynamics 365 allows you to standardize your invoicing workflow across your customer base. Through standardization, you can better recognize revenue opportunities and improve your organization's cash flow. You can import and export information about customer invoices for sales orders and customize the layout and design of the invoice document.
 
 - **Increased process reliability and accuracy**: You can use automated document reading to extract data from scanned or digital invoices and populate the relevant fields in Dynamics 365 Finance. This process can help you avoid duplication, mismatch, or omission of invoices. You can also use templates to create and process account assignments for recurring invoices.
 

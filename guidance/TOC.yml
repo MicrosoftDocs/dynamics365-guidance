@@ -707,7 +707,7 @@ items:
             href: business-processes/order-to-cash-overview.md  
           - name: Business process areas
             href: business-processes/order-to-cash-areas-overview.md
-          - name: Invoice sales orders
+          - name: Invoice customers
             href: business-processes/order-to-cash-invoice-sales-orders-overview.md
           - name: Monitor customer credit and collections
             items:
@@ -851,8 +851,14 @@ items:
             href: business-processes/service-to-cash-overview.md
           - name: Business process areas
             href: business-processes/service-to-cash-areas-overview.md
-          - name: Create work orders
-            href: business-processes/service-to-cash-create-work-orders.md
+          - name: Create and process service work
+            items:
+            - name: Create work orders
+              href: business-processes/service-to-cash-create-work-orders.md
+          - name: Invoice customers
+            href: business-processes/order-to-cash-invoice-sales-orders-overview.md
+          - name: Monitor customer credit and collections
+            href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
 
 # Patterns
       - name: Patterns
