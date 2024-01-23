@@ -1,49 +1,51 @@
 ---
-title: Security Checklist
-description: The security checklist helps organizations identify and prioritize their key requirements and implementation activities in the areas of privacy and compliance, identify and access, and application security. 
+title: Checklist for security
+description: Use the Success by Design security checklist to plan and prioritize your key activities for privacy and compliance, identity and access, and application security.
 author: riblack-microsoft
 ms.author: riblack
 ms.topic: conceptual 
-ms.date: 03/14/2023
+ms.date: 01/22/2024
 ms.service: dynamics-365
+ms.custom:
+  - ai-seo-date: 01/22/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Security Checklist
-
-Use the Success by Design security checklist to identify and prioritize key activities in the areas of privacy and compliance, identify and access, and application security.
+# Checklist for security
 
 ## Privacy and compliance
 
-|Done?  |Task  |
-|---------|---------|
-|&check;|Understand the responsibilities of the service provider as a data processor versus the customer responsibilities as the owner and data controller to ensure compliance on both sides.         |
-|&check;|Refer to the Dynamics 365 cloud service agreements and compliance documentation to understand the policies, procedures for handling data, disaster recovery strategy, data residency, encryption, and more.         |
+| Done? | Task |
+| :-----: | ---- |
+| &check; | Understand the responsibilities of the service provider as a data processor and the customer responsibilities as the owner and data controller. Make sure both sides comply with the relevant laws and regulations. |
+| &check; | Review the Dynamics 365 cloud service agreements and compliance documentation. Learn about the policies and procedures for handling data, disaster recovery, data residency, and encryption. |
 
 ## Identity and access
 
-|Done?  |Task  |
-|---------|---------|
-|&check;|Establish an identity management strategy covering user access, service accounts, application users, along with federation requirements for SSO and conditional access policies.|
-|&check;|Establish administrative access policies targeting different admin roles on the platform, such as service admin and global admin.|
-|&check;|Enforce relevant DLP policies and procedures to make changes or request exceptions.|
-|&check;|Have necessary controls to manage access to specific environments.|
+| Done? | Task |
+| :-----: | ---- |
+| &check; | Create an identity management strategy that covers user access, service accounts, application users, federation requirements for single sign-on, and conditional access policies. |
+| &check; | Create administrative access policies for different admin roles on the platform, such as service admin and global admin. |
+| &check; | Apply and follow the relevant data loss prevention policies and procedures to make changes or request exceptions. |
+| &check; | Have the necessary controls to manage access to specific environments. |
 
 ## Application security
 
-|Done?  |Task  |
-|---------|---------|
-|&check;|Understand the app-specific security constructs and model your security based on the native access control mechanisms rather than customizing the build.|
-|&check;|Understand that hiding information from the view doesn't necessarily remove access—there are alternate mechanisms to access and extract information.|
-|&check;|Understand the impact of losing the security context when the data is exported.|
-|&check;|Ensure the security model is optimized to perform and provides the foundation for further expansion and scale by following the security model best practices.|
-|&check;|Have a process to map changes in the organization structure to the security model in Dynamics 365. Do it cautiously in a serial way due to the downstream cascading effect.|
+| Done? | Task |
+| :-----: | ---- |
+| &check; | Understand the app-specific security features and use the native access control mechanisms instead of customizing the build. |
+| &check; | Understand that hiding information from the view doesn't remove access. There are other ways to access and extract information. |
+| &check; | Understand the impact of losing the security context when you export the data. |
+| &check; | Optimize the security model for performance and scalability by following the security model best practices. |
+| &check; | Have a process to map changes in the organization structure to the security model in Dynamics 365. Do it carefully and sequentially to avoid unwanted cascading effects. |
 
 ## Next steps
 
-Visit the next section of the Implementation Guide
-
-- [Business intelligence, reporting, and analytics](business-intelligence-reporting-analytics-overview.md)
-
-Return to learn more about Security
-
-- [Security strategy overview](security.md)
+- Learn about [security controls](security-strategy-security-controls.md) in Dynamics 365
+- Learn about [security features](security-strategy-product-ce.md) in customer engagement apps
+- Learn about [security features](security-strategy-product-portals.md) in Power Pages
+- Learn about [security features](security-strategy-product-oa.md) in finance and operations apps
+- Learn how to [make security a priority](security-strategy-day-one-priority.md) from day one

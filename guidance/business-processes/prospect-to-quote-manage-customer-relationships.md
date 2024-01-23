@@ -1,5 +1,5 @@
 ---
-title: Manage customer relationships overview
+title: Overview of the manage customer relationships business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing customer relationships.
 ms.date: 11/01/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kowildfe
 ---
 
-# Manage customer relationships overview
+# Drive loyalty and growth with the manage customer relationships business process area
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Customer Voice***
 

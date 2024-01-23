@@ -1,5 +1,5 @@
 ---
-title: Control production quality overview
+title: Overview of the Control production quality business process area
 description: Get an overview of the business process area for controlling production quality in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 12/06/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Control production quality overview
+# Overview of the Control production quality business process area within the Plan to produce process
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Supply Chain Management***
 

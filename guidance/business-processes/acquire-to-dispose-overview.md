@@ -1,5 +1,5 @@
 ﻿---
-title: Acquire to dispose overview
+title: Overview of acquire to dispose end-to-end business process flow
 description: Get an introduction to an end-to-end business process, acquire to dispose. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
 ms.date: 11/28/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: archanap
 
 ---
 
-# Acquire to dispose end-to-end overview
+# Overview of acquire to dispose end-to-end business process flow
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 

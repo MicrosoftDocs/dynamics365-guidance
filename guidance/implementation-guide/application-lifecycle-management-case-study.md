@@ -1,65 +1,58 @@
 ---
-title: ALM strategy case study
-description: In this article, we explore a case study that shows how a thorough ALM strategy is key to the success of an implementation strategy.
+title: Case study in ALM strategy
+description: Learn from a case study how a global transport systems company improved its Dynamics 365 implementation by adopting application lifecycle management (ALM) best practices.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 03/30/2023
+ms.date: 01/19/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/19/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# ALM strategy case study
+# Case study in ALM strategy
 
-Let's go through an example of how a thorough application lifecycle management (ALM) strategy is key to the success of an implementation strategy.
+This article shows how a global transport systems company improved its Dynamics 365 implementation by adopting application lifecycle management (ALM) best practices. The company learned from its mistakes and realized that a thorough ALM strategy is essential for a successful implementation.
 
-## Story
+## The challenge
 
-A global transport systems company requested a rapid prototype of their solution to get an idea of what Dynamics 365 had to offer. This prototype was an incomplete version of the solution and was later used by the implementation team to meet rapidly approaching deadlines. The result was deployment issues that stalled their go-live by 12 weeks extra. Microsoft Support worked with the company to identify the issues and their root causes. The team provided refresher training on ALM and its importance when creating an ALM strategy for the solution.
+A global transport systems company wanted to implement Dynamics 365 Sales, Customer Service, and Field Service in phases in multiple regions. It had a tight schedule to achieve a minimum viable product (MVP) go-live.
 
-## Case study
+Before the official project kickoff, the company asked its Dynamics 365 implementation partner to create a rapid prototype of the solution to give business stakeholders a taste of what Dynamics 365 could offer. The prototype team included technical salespeople and consultants who would leave the project after this "Phase 0."
 
-Global transport systems company finds ALM strategy to be a cornerstone of implementation
+The prototype team didn't focus on governance and quality. They thought that Phase 0 was just a quick demo, not a foundation for the future solution. They made several decisions that affected the application management:
 
-A global transport systems company embarked on a multiple-phase, multiple-region implementation. The solution included Dynamics 365 Sales, Customer Service, and Field Service. They had an aggressive schedule for achieving a minimum viable product (MVP) go live.
+- They staffed Phase 0 with people who wouldn't stay on the project team.
+- They developed the prototype using separate, unmanaged solutions with different publishers for each Dynamics 365 app.
+- They switched to managed solutions for test and production environments too late in the design phase. They had already deployed unmanaged solutions to these environments during Phase 0.
+- They merged the solutions for each Dynamics 365 app into a single "workstream" solution during the build phase.
+- They fixed errors too quickly during solution deployments because of pressure from project leaders. They didn't take the time to understand the root causes of the problems. This pressure also led to developers customizing directly in the test environment.
 
-To give business stakeholders a taste of the solution before the official project kickoff, the customer asked their Dynamics 365 implementation partner to lead a rapid prototyping phase, which the customer referred to as "Phase 0." The Phase 0 team included technical salespeople, and consultants who would leave when the project kicked off.
+## The consequences
 
-Considering Phase 0 to be a rapid prototype, the implementation team didn't see a need to focus on governance and quality. To meet the deadlines, the team made several quick decisions without assessing the impact on the overall application management:
+As the project team prepared for go-live on the MVP, the decisions made during Phase 0 caused deployment issues that delayed implementation of the MVP by 12 weeks. Microsoft Support investigated the issues and confirmed that there was no ALM strategy in place. They identified the key issues:
 
-- Staffing Phase 0 with resources who wouldn't remain part of the project team.
+- Unmanaged solutions caused solution-layering issues for testing and production, affecting the integrity and reliability of the environments.
+- A prototype solution used for production purposes introduced quality issues.
+- The lack of ALM practices such as DevOps caused traceability issues. Developers built functionality that didn't match the customer requirements.
+- The code quality was poor because tools such as solution checker weren't used.
+- The testing was insufficient and untraceable. Buggy code was deployed to other environments.
 
-- Developing the prototype using separate, unmanaged solutions with different publishers for Sales, Customer Service, and Field Service.
+The project team realized that they had failed to prepare for a successful implementation. They agreed to attend an ALM refresher training. They also confirmed plans that they should have made at the beginning of the project, such as an environment strategy and a solution management and ALM approach.
 
-- Pivoting to managed solutions for test and production environments too late in the design phase. Unmanaged solutions had already been built and deployed to these environments during Phase 0.
+## The solution
 
-- Merging the Sales, Customer Service, and Field Service solutions into a single "workstream" solution during the build phase of the implementation lifecycle.
+After the refresher training, the project team started with a "crawl to walk" approach. They implemented the following ALM practices with governance elements:
 
-- Resolving errors too quickly during solution deployments because of pressure from project leadership, instead of taking the time to understand each problem's root cause. (Such pressure led to developers customizing directly within the test environment.)
+- They cleaned up their production and test environments and moved from unmanaged to managed solutions.
+- They implemented a build process to deploy builds from development to test to production.
+- They established a governance process to restrict developer access to production and test environments.
+- They added a bug-triaging process that allowed the development team to troubleshoot and fix issues in development environments. They used the build process to deploy fixes in higher-tier environments.
+- They required the generation of solution checker reports.
 
-As the project team prepared for the go live, the seemingly independent decisions made during the initial phases resulted in deployment issues that eventually stalled the go live. Investigations by Microsoft Support confirmed that there was no ALM strategy in place, and identified the key issues:
+Once these practices were in place, the project team moved toward a partially automated ALM process. They set up Azure Pipelines to automate build deployments and auto-generate solution checker reports.
 
-- Unmanaged solutions caused solution-layering issues for testing and production, affecting the sanctity and integrity of the environments
-
-- A prototype solution employed for production purposes introduced quality issues
-
-- Failure to use ALM practices such as DevOps caused traceability issues and prompted developers to build functionality that wasn't aligned with customer requirements
-
-- Suboptimal code was implemented because tools such as solution checker weren't used to enforce code quality
-
-- Testing without traceability was insufficient, and buggy code was deployed to other environments
-
-As the old saying goes, "By failing to prepare, you're preparing to fail." The MVP go-live date was delayed by 12 weeks and Microsoft worked alongside the project team to determine the root cause of each issue. The team eventually acknowledged that a series of seemingly unrelated decisions affected the MVP go live, and they sent every team member working in a technical role to an ALM refresher training. The project team also confirmed plans that should have been solidified at the beginning of the project, including an environment strategy and a solution management and ALM approach.
-
-After the refresher training, the project team started with a "crawl to walk" approach. During the "crawl" stage, they implemented mandatory ALM practices with these governance elements:
-
-- Cleaning up their production and test environments, and moving from unmanaged to managed solutions
-
-- Implementing a build process to deploy builds from development to test to production
-
-- Establishing a governance process to restrict developer access to production and test environments
-
-- Adding a bug-triaging process that allowed the development team to troubleshoot and fix issues in development environments and use the build process to deploy fixes in higher-tier environments
-
-- Mandating the generation of solution checker reports
-
-Once these practices were in place, the implementation team moved toward a partially automated ALM process. Their processes included setting up Azure Pipelines to automate build deployments and auto-generate solution checker reports. As this case study illustrates, an ALM strategy is a cornerstone of the entire implementation—whether it's a fresh implementation or a rapid prototype elevated to a production-use solution.
+As this case study shows, an ALM strategy is crucial for the entire implementation&mdash;whether it's a new implementation or a prototype elevated to a solution for use in production.

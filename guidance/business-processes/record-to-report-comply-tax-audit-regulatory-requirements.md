@@ -1,13 +1,13 @@
 ---
-title: Comply with tax, audit, and regulatory requirements overview
-description: Learn how you can use Dynamics 365 products to support the organization's business processes for complying with tax, audit, and regulatory requirements.
-ms.date: 11/09/2023
+title: Ensure and optimize tax, audit, and regulatory requirements
+description: Learn how you can use Dynamics 365 products to support the organization's business processes to comply with tax, audit, and regulatory requirements.
+ms.date: 01/23/2024
 ms.topic: conceptual
 author: rachelprofitt
 ms.author: raprofit
 ---
 
-# Comply with tax, audit, and regulatory requirements overview
+# Ensure, optimize, and comply with tax, audit, and regulatory requirements
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Field Service, Dynamics 365 Fraud Protection, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales***
 

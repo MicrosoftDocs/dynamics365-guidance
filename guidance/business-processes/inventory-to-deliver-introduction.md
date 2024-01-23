@@ -1,5 +1,5 @@
 ﻿---
-title: inventory to deliver introduction
+title: Introduction to inventory to deliver business process
 description: Get an introduction to an end-to-end business process, *inventory to deliver*. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
 ms.date: 03/22/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ---
 
-# Inventory to deliver - introduction to the end-to-end business process
+# Introduction to inventory to deliver business process to manage the flow of goods
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

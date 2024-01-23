@@ -1,5 +1,5 @@
 ---
-title: Define procurement catalogs overview
+title: Overview of the define procurement catalogs business process area
 description: Read about how Dynamics 365 supports procurement catalogs as part of the procure to pay business process.
 ms.date: 07/17/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: raprofit
 ---
 
-# Define procurement catalogs overview
+# Overview of the define procurement catalogs business process area
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

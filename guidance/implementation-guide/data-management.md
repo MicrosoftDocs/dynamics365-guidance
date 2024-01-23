@@ -83,31 +83,8 @@ For an example of a proper use case, see [A Show-Don't-Tell Approach to Data Gov
 
 ## Next steps
 
-- [Review data architecture](data-management-architecture.md) and the different types of enterprise data.
-
-- [Understand configuration data and how to perform a healthy data migration](data-management-configuration-data-migration.md).
-
-- Review product-specific guidelines for data management. Learn more at [guidelines for customer engagement apps](data-management-product-specific-ce.md) and at [guidelines for finance and operations apps](data-management-product-specific-fo.md).
-
-- [Review the Data Management Success by Design checklist](data-management-check-list.md).
-
-<!--  EDITOR'S NOTE: The following comments are from the DIY Editor - Docs v2.
-
-(I changed the title and description to make them more concise, specific, and engaging. I used the "how to" format to indicate that the article is instructional and added a benefit for the reader.)
-
-(I simplified and shortened the introduction to make it more direct and reader-friendly. I used the second person to address the reader and the active voice to emphasize the actions.)
-
-(I changed the list items to use the "how to" format and added a benefit for each item.)
-
-(I simplified and shortened the paragraph about data governance, and added a sentence to explain the difference between data management and data governance.)
-
-(I simplified and shortened the paragraph about data stewardship, and added a sentence to explain the role of data steward.)
-
-(I simplified and shortened the paragraph about data quality, and added a sentence to explain the difference between data quality and data governance.)
-
-(I simplified and shortened the paragraph about master data, and added a sentence to explain the term master data management.)
-
-(I simplified and shortened the paragraph about proper use cases, and added a sentence to explain the link between use cases and data governance.)
-
-(I changed the heading to "Next steps" to make it more consistent with other Microsoft articles. I also changed the list items to use the "how to" format and added a benefit for each item.)
--->
+- [Review data architecture](data-management-architecture.md) and the different types of enterprise data
+- [Understand configuration data and how to perform a healthy data migration](data-management-configuration-data-migration.md)
+- Review product-specific guidelines for data management: [guidelines for customer engagement apps](data-management-product-specific-ce.md) and [guidelines for finance and operations apps](data-management-product-specific-fo.md)
+- [Review the Data Management Success by Design checklist](data-management-check-list.md)
+- [Read a case study in data management](data-management-case-study.md)

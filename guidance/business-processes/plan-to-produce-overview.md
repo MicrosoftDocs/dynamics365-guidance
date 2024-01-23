@@ -1,5 +1,5 @@
 ﻿---
-title: Plan to produce overview
+title: Overview of the plan to produce end-to-end business process flow
 description: Read about how Dynamics 365 supports the *plan to produce* business process.
 ms.date: 11/27/2023
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.author: annekrupke
 ms.reviewer: edupont
 ---
 
-# Plan to produce end-to-end overview
+# Overview of the plan to produce business process flow and its relationship to other processes
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Dynamics 365 Business Central, Power Apps, Power BI, Power Automate***
 

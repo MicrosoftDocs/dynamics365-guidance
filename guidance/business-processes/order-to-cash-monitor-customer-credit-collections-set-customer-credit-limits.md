@@ -1,5 +1,5 @@
 ---
-title: Set customer credit limits
+title: Manage customer account credit limits in Dynamics 365 Finance and Dynamics 365 Customer Insights
 description: Set up customer credit limits in Finance, Customer Insights, Supply Chain Management, or Commerce to control borrowing and reduce risk.
 ms.date: 02/06/2023
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Set customer credit limits
+# Manage customer account credit limits in Dynamics 365 Finance and Dynamics 365 Customer Insights
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Customer Insights, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce***
 

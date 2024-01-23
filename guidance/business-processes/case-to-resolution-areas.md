@@ -1,5 +1,5 @@
 ﻿---
-title: Case to resolution business process areas
+title: Overview of case to resolution business process areas
 description: Get an overview for each of the business process areas in thecase to resolution end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 04/04/2023
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.author: marcoje
 
 ---
 
-# Case to resolution business process areas
+# Overview of the case to resolution business process areas and their role in case performances
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

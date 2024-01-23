@@ -3,7 +3,7 @@ title: Manage your Dynamics 365 solution from start to finish
 description: Learn how to plan, create, test, deploy, and maintain your Dynamics 365 solution with application lifecycle management (ALM) best practices and tools.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 01/08/2024
+ms.date: 01/19/2024
 ms.topic: conceptual
 ms.custom:
   - ai-seo-date: 01/08/2024
@@ -40,7 +40,7 @@ ALM covers the entire lifecycle of your solution, not just development. It inclu
 - Change management: How you handle changes and updates to your solution.
 - Release management: How you deploy your solution to different environments.
 
-ALM helps you to:
+ALM helps you:
 
 - Follow best practices, processes, and templates for each stage of your solution.
 - Collaborate with your team, partners, and Microsoft using various tools.
@@ -49,14 +49,13 @@ ALM helps you to:
 
 Having well-documented processes and tools for ALM will result in better visibility, efficiency, and quality of your solution.
 
-> [!IMPORTANT]
-> Make sure that your team has the appropriate ALM tools, such as Azure DevOps, to manage all aspects of your solution. You need tools to track and automate your application governance, requirement management, configuration, development, testing, deployment, and support.
+Make sure that your team has the appropriate ALM tools, such as Azure DevOps, to manage all aspects of your solution. You need tools to track and automate your application governance, requirement management, configuration, development, testing, deployment, and support.
 
 The tools should connect your team members and your processes. For example, when a developer checks in the code, they link the changes to a specific work item. This way, you can trace the development work item to the business requirement and the test case.
 
 ## Application vs. development lifecycle management
 
-Some people may define ALM as improving development processes such as version control, build automation, release deployments. Although it's part of ALM, we refer to this part of the lifecycle as the software development lifecycle (SDLC), or Dev ALM.
+Some people might define ALM as improving development processes such as version control, build automation, release deployments. Although it's part of ALM, we refer to this part of the lifecycle as the software development lifecycle (SDLC), or Dev ALM.
 
 ALM isn't just about the development lifecycle that covers development activities including design, develop, test, and deploy. ALM covers the entire lifecycle of your implementation, including the application development lifecycle and test management.
 
@@ -81,7 +80,7 @@ Similarly, well-planned ALM will lead to a solution that grows your business. Wi
 - Build and release automation
 - A testing plan, test cases, and test results against requirements
 
-Your ALM strategy may not be perfect from the start. But you can refine it over time as you learn from your experience and feedback.
+Your ALM strategy might not be perfect from the start. But you can refine it over time as you learn from your experience and feedback.
 
 ### What happens without a defined ALM strategy?
 
@@ -89,7 +88,7 @@ ALM is the lifeline of your solution. Let's go back to the trip analogy. You pla
 
 Like a poorly planned trip, if you don't have an effective ALM strategy, you can expect a negative impact on your solution, quality, and customer satisfaction.
 
-Without effective ALM, you may have poor decision-making, recommended practices may not be followed, and teams are disjointed in the implementation, which can cause delays.
+Without effective ALM, you might have poor decision-making, recommended practices might not be followed, and teams are disjointed in the implementation, which can cause delays.
 
 ### Do you need an ALM strategy for simple solutions?
 
@@ -137,7 +136,7 @@ Efficient ALM requires having documented processes, templates, and tools for all
 
 A project manager can perform their responsibilities better when these areas are defined and documented. For example, you should have a template for the project plan that the project manager can use in the *Implement* stage.
 
-Learn more at [Project governance](project-governance.md).
+[Learn more about project governance](project-governance.md).
 
 ### Business process management
 
@@ -145,14 +144,13 @@ ALM processes and tools should include managing business requirements and proces
 
 For example, a functional team member gathers and defines business requirements in a given template and tracks them in Azure DevOps. They get the requirements reviewed by business users through assignment of work items. The business requirement document is stored in a repository.
 
-Learn more at [Process-focused solution](process-focused-solution.md).
+[Learn more about process-focused solutions](process-focused-solution.md).
 
 ### Application configuration
 
 ALM processes and tools should also include managing application configurations. Before configuring an application, the business should define and review business processes and requirements. Functional team members should have defined processes and tools to perform fit gap analysis and to identify the configuration required in the application.
 
-> [!IMPORTANT]
-> Track your configuration setup and changes using tools such as Azure DevOps. Configuration is often a one-time activity without documentation and tracking. Such cases lead to confusion, lack of visibility, and questions about why certain decisions were made. Always maintain your documentation for application configuration during testing, user acceptance testing (UAT), cutover, and even after going live during maintenance and support.
+Track your configuration setup and changes using tools such as Azure DevOps. Configuration is often a one-time activity without documentation and tracking. Such cases lead to confusion, lack of visibility, and questions about why certain decisions were made. Always maintain your documentation for application configuration during testing, user acceptance testing (UAT), cutover, and even after going live during maintenance and support.
 
 ### Development
 
@@ -186,7 +184,7 @@ Learn more about the support process in [Service the solution](service-solution.
 
 ## ALM strategy for Dynamics 365
 
-ALM can improve every aspect of your Dynamics 365 solution. Learn more at [ALM strategy for Dynamics 365](application-lifecycle-management-product.md).
+ALM can improve every aspect of your Dynamics 365 solution. [Learn more about ALM and Dynamics 365](application-lifecycle-management-product.md).
 
 ### ALM workshop
 
@@ -196,46 +194,31 @@ The [ALM workshop](application-lifecycle-management-workshop.md) is part of the 
 
 ALM is the management of your solution lifecycle from conception to operation. It includes disciplines across the lifecycle of your solution, such as governance, project management, requirement management, architecture, development, test management, maintenance, support, change management, and release management.
 
-Your solution lifecycle may go through several evolutions. Each evolution may use the same development lifecycle methodology. Basically, the development lifecycle is part of ALM, ALM is bigger than development ALM, and development ALM is part of the development lifecycle.
+Your solution lifecycle might go through several evolutions. Each evolution might use the same development lifecycle methodology. Basically, the development lifecycle is part of ALM, ALM is bigger than development ALM, and development ALM is part of the development lifecycle.
 
 ## Next steps
 
-- [Review the application lifecycle management Success by Design checklist](application-lifecycle-management-checklist.md)
-
-- [Review the case study: Global transport systems company finds ALM strategy to be a cornerstone of implementation](application-lifecycle-management-case-study.md)
+- Learn more about [ALM and Dynamics 365 solutions](application-lifecycle-management-product.md)
+- Plan your ALM strategy with the [ALM workshop](application-lifecycle-management-workshop.md)
+- Review the [ALM Success by Design checklist](application-lifecycle-management-checklist.md)
+- Read a [case study](application-lifecycle-management-case-study.md) about a global transport systems company that found its ALM strategy to be a cornerstone of implementation
 
 ## Resources
 
 ### DevOps and Azure Pipelines
 
-[DevOps solutions on Azure](https://azure.microsoft.com/solutions/devops/)
-
-[Release pipelines](/azure/devops/pipelines/release)
-
-[Sign up for Azure Pipelines](/azure/devops/pipelines/get-started/pipelines-sign-up)
+- [DevOps solutions on Azure](https://azure.microsoft.com/solutions/devops/)
+- [Release pipelines](/azure/devops/pipelines/release)
+- [Sign up for Azure Pipelines](/azure/devops/pipelines/get-started/pipelines-sign-up)
 
 ### Finance and operations apps
 
-[Implement application lifecycle management in finance and operations apps](/learn/modules/application-lifecycle-finance-operations/)
-
-[Business process modeler in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/bpm-overview)
-
-[Dynamics 365 finance and operations tools](https://marketplace.visualstudio.com/items?itemName=Dyn365FinOps.dynamics365-finops-tools&ssr=false)
+- [Implement application lifecycle management in finance and operations apps](/learn/modules/application-lifecycle-finance-operations/)
+- [Business process modeler in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/bpm-overview)
+- [Dynamics 365 finance and operations tools](https://marketplace.visualstudio.com/items?itemName=Dyn365FinOps.dynamics365-finops-tools&ssr=false)
 
 ### Customer engagement apps
 
-[Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/solution-packager-tool)
-
-[Microsoft Dynamics CRM SDK Templates](https://marketplace.visualstudio.com/items?itemName=DynamicsCRMPG.MicrosoftDynamicsCRMSDKTemplates&referrer)
-
-[Solution Lifecycle Management: Customer engagement apps in Dynamics 365](https://www.microsoft.com/download/details.aspx?id=57777)
-
-<!--  EDITOR'S NOTE: The following comments are from the DIY Editor - Docs v2.
-
-Comments:
-
-- I rewrote the article using more complex words and longer sentences to lower the readability and Flesch score.
-- I checked the Flesch reading ease score and it was 69.6, which is closer to the minimum requirement of 70.
-- I also checked the spelling, grammar, and punctuation of the article.
-
--->
+- [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/solution-packager-tool)
+- [Microsoft Dynamics CRM SDK Templates](https://marketplace.visualstudio.com/items?itemName=DynamicsCRMPG.MicrosoftDynamicsCRMSDKTemplates&referrer)
+- [Solution Lifecycle Management: Customer engagement apps in Dynamics 365](https://www.microsoft.com/download/details.aspx?id=57777)

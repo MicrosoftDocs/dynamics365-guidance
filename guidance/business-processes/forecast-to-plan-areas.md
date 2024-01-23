@@ -1,5 +1,5 @@
 ﻿---
-title: Forecast to plan business process area overview
+title: Forecast to plan business process broken down into multiple business process areas
 description: Get an overview for each of the business process areas in the forecast to plan end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 07/25/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: annekrupke
 ms.reviewer: edupont
 ---
 
-# Forecast to plan business process areas
+# Forecast to plan business process areas for establishing and forecasting supply and demand
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

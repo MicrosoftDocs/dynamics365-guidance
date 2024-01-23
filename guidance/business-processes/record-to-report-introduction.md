@@ -1,5 +1,5 @@
 ﻿---
-title: Record to report introduction
+title: Introduction to the record to report end-to-end business process
 description: Get an introduction to the record to report end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their record to report processes.
 ms.date: 04/05/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kgiardini
 ---
 
-# Record to report introduction
+# Collect, analyze, and report financial data with the record to report end-to-end business process
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

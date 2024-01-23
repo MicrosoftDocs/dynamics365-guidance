@@ -1,5 +1,5 @@
 ---
-title: Forecast to plan end-to-end overview
+title: Overview of forecast to plan end-to-end business process flow
 description:  Get an overview of the end-to-end flow and the relationship diagram for the forecast to plan business process in Dynamics 365 implementations.
 ms.date: 07/28/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: annekrupke
 ms.reviewer: edupont
 ---
 
-# Forecast to plan end-to-end overview
+# Overview of forecast to plan business process flow and relationship to other business processes
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

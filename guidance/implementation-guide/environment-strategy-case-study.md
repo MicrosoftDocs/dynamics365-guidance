@@ -1,35 +1,38 @@
 ---
-title: Environment strategy case study
-description: In this article, we explore a case study that shows how a thorough environment strategy is key to the success of an implementation strategy.
+title: Case study in environment planning
+description: Learn from a real-life example how a thorough environment strategy is essential for a successful implementation of finance and operations apps.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 02/25/2023
+ms.date: 01/16/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Environment strategy case study
+# Case study in environment planning
 
-Let's go through an example of how a thorough environment strategy is key to the success of an implementation strategy.
+Let's see how a retailer learned from its mistakes and improved its environment planning with the help of the Microsoft FastTrack team.
 
-## Story
+## The challenge
 
-A retailer was implementing finance and operations apps in a series of rollouts over eight months. They didn’t realize that the environments, services, and default capacities for their subscription license were the bare minimum to run the solution and were insufficient for what they were trying to complete. With the help of the FastTrack team’s engagement, they were able to address the actual needs for the implementation with an environment plan and were able to successfully roll out their implementation.
+A multinational retailer wanted to implement Dynamics 365 Finance, Supply Chain Management, and Commerce in several phases over eight months. It set up an implementation project with the basic environments, services, and capacities that came with its subscription license. These included the production and sandbox environments and hosted build automation services.
 
-## Case study
+However, the retailer's management team didn't realize that these resources were only enough to run the solution after it was deployed. They didn't have enough environments to do all the implementation activities they needed for their moderately complex rollout.
 
-Timely environment planning is a critical factor to success.
+## The solution
 
-A multinational retailer with stores in Southeast Asia, Australia, and New Zealand implemented the finance and operations apps like Dynamics 365 Finance, Supply Chain Management, and Commerce in a series of phased rollouts spread over eight months. They set up an implementation project with the environments, services, and default capacities included in the subscription license, mainly the production and sandbox environments and hosted build automation services.  
+The retailer engaged the FastTrack team early in the implementation process. The FastTrack team reviewed the retailer's solution blueprint and discussed the deployment plans and risks with the retailer and its partner. They realized that the retailer's environment strategy was inadequate and suggested a deep-dive workshop on environment planning.
 
-The management team wasn't clear that the project covered only the minimum needed to run the solution on an ongoing basis. The environment strategy was insufficient to complete all the implementation activities required for the moderately complex rollout.  
+In the workshop, the FastTrack team explained that environment planning isn't a one-time task. It's an ongoing activity that requires close collaboration between key stakeholders. The team needs to plan the environments according to the project schedule and the purpose of each environment. They also need to review the environment plan regularly and adjust it as needed.
 
-When the FastTrack team was engaged early in the implementation process, this issue was addressed as part of the Solution Blueprint Review (SBR). In discussions with the solution architect, the retailer and partner members of the implementation team gained a better understanding of the deployment plans and risks posed by their current environment strategy. After the review, the team agreed to conduct a deep-dive workshop on environment strategy with FastTrack.
+The retailer's project team created an environment plan that documented the different environments, their purpose, the project phase they were needed for, and how long they would be needed. They also identified key activities that might affect the environment plan, such as data migration, code deployment, and user acceptance testing. To make sure their environment plan stayed up to date, they scheduled regular reviews and updates as part of the project plan. This simple but important exercise helped the team feel confident that they understood and accounted for all the implementation requirements, and that they were ready to get the needed environments on time to meet all the milestones.
 
-In the workshop, the solution architect explained that environment planning isn't a one-time, set-it-and-forget-it event. It's a continuing activity that requires close collaboration between key stakeholders. Careful planning aligned with the project schedule ensures that the team can be productive, conduct important activities concurrently without environment contention, and achieve milestones on time, within budget, and with the desired level of quality.
+The development team also configured DevOps for multiple release branches, with a separate pipeline of sandboxes to support each go-live phase and ongoing maintenance.
 
-Next, the project team charted out an environment plan to document the different environments, their purpose, the exact project phase for which they were needed, and how long they would be needed. For example, they acquired a high-grade testing environment for three months just to conduct their performance testing. They also identified key activities that might affect the environment plan and incorporated recurring reviews of the environment plan into the project plan. This simple but important exercise helped the team feel confident that they understood and accounted for all important implementation requirements, and that they were prepared to procure the needed environments on time to reach all milestones.
+## The outcome
 
-The development team also worked on configuring DevOps for multiple release branches, with a separate pipeline of sandboxes to facilitate go-live phases and ongoing support for each one.
-
-Ultimately, this retailer successfully performed the implementation and rolled out the solution across multiple countries and regions and realized that timely environment planning was a critical factor in that success.
+The retailer successfully implemented and rolled out the finance and operations apps across multiple countries and regions. It learned that timely environment planning was a critical factor in its success.

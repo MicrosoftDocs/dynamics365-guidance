@@ -1,5 +1,5 @@
 ---
-title: Service to cash introduction
+title: Introduction to the service to cash end-to-end business process
 description: Get an introduction to an end-to-end business process, service to cash. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
 ms.date: 06/29/2023
 ms.topic: conceptual
@@ -12,7 +12,7 @@ content_well_notification:
 
 ---
 
-# Service to cash - introduction to the end-to-end business process
+# Streamline service delivery and invoicing processes with the service to cash business process
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 

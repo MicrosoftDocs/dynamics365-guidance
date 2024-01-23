@@ -1,5 +1,5 @@
 ---
-title: Forecast demand from multiple sources
+title: Configure demand forecasting for organizations with multiple sources
 description: Read about Forecast demand from multiple sources in Supply Chain
 ms.date: 08/25/2022
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ---
 
-# Forecast demand from multiple sources
+# Configure demand forecasting for organizations with multiple sources for forecasting demand history
 
 ***Applies to: Dynamics 365 Supply Chain Management***
 

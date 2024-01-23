@@ -1,5 +1,5 @@
 ---
-title: Pursue opportunities overview
+title: Overview of the pursue opportunities business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for pursuing opportunities.
 ms.date: 12/07/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: kowildfe
 ---
 
-# Pursue opportunities overview
+# Maximize the potential of every customer relationship with the pursue opportunities process area
 
 Applies to: ***Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

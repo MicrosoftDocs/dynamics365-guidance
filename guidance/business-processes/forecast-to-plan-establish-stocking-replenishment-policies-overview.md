@@ -1,5 +1,5 @@
 ---
-title: Establish stocking and replenishment policies overview
+title: Overview of the benefits and process flow of the establish stocking and replenishment policies
 description: Read about the business process area for stocking and replenishment policies in Dynamics 365.
 ms.date: 08/23/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Establish stocking and replenishment policies overview
+# Overview of the benefits and process flow of the establish stocking and replenishment policies
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

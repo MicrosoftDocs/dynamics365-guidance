@@ -1,5 +1,5 @@
 ﻿---
-title: Case to resolution introduction
+title: Help organizations manage and optimize their case to resolution end-to-end business processes
 description: Get an introduction to an end-to-end business process, case to resolution. This article provides a high-level overview of the business process, and lists key benefits and stakeholders.
 ms.date: 04/05/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: marcoje
 ---
 
-# Case to resolution introduction
+# Help organizations manage and optimize their case to resolution processes with Dynamics 365
 
 ***Applies to:  Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

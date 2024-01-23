@@ -1,5 +1,5 @@
 ---
-title: Plan and budget assets overview
+title: Support your organization’s business processes for planning and budgeting assets
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes for planning and budgeting assets.
 ms.date: 09/08/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: hputhran
 ---
 
-# Plan and budget assets overview
+# Support your organization’s business processes for planning and budgeting assets with Dynamics 365
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

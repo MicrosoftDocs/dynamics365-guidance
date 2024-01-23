@@ -1,5 +1,5 @@
 ---
-title: Project to profit introduction
+title: Help organizations manage and optimize their project to profit processes
 description: Get an introduction to the project to profit end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their project to profit processes.
 ms.date: 04/28/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: marwalke
 ms.reviewer: edupont
 ---
 
-# Project to profit - introduction to the end-to-end business process
+# Help organizations manage and optimize their project to profit processes
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
