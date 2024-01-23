@@ -1,7 +1,7 @@
 ---
 title: Use Dynamics 365 products to plan and recruit your workforce
 description: Read about the business process area for planning and recruiting your workforce in Dynamics 365.
-ms.date: 01/09/2024
+ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
@@ -121,36 +121,24 @@ Effective recruiting can help an organization build a more diverse and inclusive
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)  
 
-1. *Onboard and manage the employee lifecycle*
-
-1. *Manage employee performance and growth*
-
-1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)  
-
-1. *Administer employee and manager requests*
-
-1. *Manage employee benefits and compensation*
-
-1. *Manage employee time and attendance*
-
-1. *Pay employees*
-
-1. *Manage travel and expenses*
+1. *Plan and recruit your workforce* (the article that you're currently reading)
+2. *Onboard and manage the employee lifecycle*
+3. [*Manage occupational health and safety*](hire-to-retire-manage-occupational-health-safety.md) 
+4. *Manage employee performance and growth*
+5. *Manage employee time and attendance*
+6. [*Manage travel and expenses*](hire-to-retire-manage-travel-expenses.md)  
+7. *Manage employee benefits, compensation, and payroll*
 
 ## Related resources
 
 You can use the following resources to learn more about the *hire to retire* process in Dynamics 365.
 
 - TechTalks [HR Functional Series - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=56329c48-c155-48ed-821b-4d0eb52b2d3b)
-
 - [Get started and use functionality in Microsoft Dynamics 365 Human Resources (training)](/training/paths/get-started-use-human-resources/)
-
 - [Learn the fundamentals of Dynamics 365 Human Resources (training)](/training/paths/learn-fundamentals-microsoft-dynamics-365-human-resources/)
-
 - [Human Resources home page](/dynamics365/human-resources/)
-
 - [Microsoft Certified: Dynamics 365 Fundamentals (ERP)](/certifications/d365-fundamentals-finance-and-operations-apps-erp/)
 
 <!-- ## Tags

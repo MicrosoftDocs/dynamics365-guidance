@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 12/01/2023
+ms.date: 01/15/2024
 ---
 
 # Glossary of Dynamics 365 business processes terms
@@ -1370,6 +1370,21 @@ The main strategy that's used to generate forecasts in Dynamics 365 Supply Chain
 When the three components are added together, they can be used to predict future demand. The statistical forecasting algorithms used by Dynamics 365 and other forecasting tools calculate and combine these general components in different ways, allowing organizations to compare forecasting models and select the one that seems to predict the demand best. The following graphic illustrates the components and formula that represent time series forecasting.
 
 :::image type="content" source="media/time-series-forecasting.png" alt-text="Graphic illustrating that trend plus seasonality plus error predicts forecasts.":::
+
+### Travel and expense management (T&E)
+
+T&E is the process of managing expenses related to business travel or otherwise incurred in the process of performing job-related duties. It involves various responsibilities aimed at overseeing and optimizing spending, including tracking and analyzing expenses, creating and enforcing corporate travel and expense policies, establishing the reimbursement process, building approval processes for travel requests, aligning company goals to business travel, and measuring the return on investment for expenses incurred.
+
+### Travel and expense policy
+
+A travel and expense policy is a documented set of processes that govern how organizational money is spent on travel and other relevant expenses. A clear policy is essential for compliance and efficient use.
+
+### Travel requisition
+
+A travel requisition lists the expenses incurred for the purpose of travel. A travel requisition is submitted for review and can be used to authorize expenses. You may be required to submit a travel requisition before you incur any expense that is charged to the organization.  
+
+
+
 
 ## U
 

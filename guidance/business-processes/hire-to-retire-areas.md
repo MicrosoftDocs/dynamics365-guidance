@@ -1,7 +1,7 @@
 ---
 title: Hire to retire business process areas broken down into multiple business process areas
 description: Get an overview for each of the business process areas in the hire to retire end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 01/11/2024
+ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
@@ -19,7 +19,7 @@ The *hire to retire* process is broken down into multiple business process areas
 - [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
 - Manage employee benefits, compensation, and pay
 - Manage employee time and attendance
-- Manage travel and expenses
+- [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md) 
 
 The following sections further describe the business process areas for the hire to retire process.
 
@@ -73,7 +73,9 @@ This business process area involves paying employees within the company. This is
 
 ## Manage travel and expenses
 
-This business process area involves managing employee travel and expenses within the company. It includes processes to establish expense reporting policies, make a request to travel, create and submit expense reports, review, and approve expense reports, pay expense reports, audit expense reports to find anomalies, and report and analyze expense reports.
+This business process area involves managing employee travel and expenses within the company. It includes processes to establish expense reporting policies, make a request to travel, create and submit expense reports, review, and approve expense reports, pay expense reports, audit expense reports to find anomalies, and report and analyze expense reports.  
+
+Learn more at [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md).  
 
 ## Next steps
 
