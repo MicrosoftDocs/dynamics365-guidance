@@ -1,7 +1,7 @@
 ﻿---
 title: Concept to market business process areas
 description: Get an overview for each of the business process areas in the concept to market end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 11/22/2023
+ms.date: 01/15/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -23,7 +23,7 @@ Learn more at [Define service offerings and strategy overview](concept-to-market
 
 Every organization has a process to develop and introduce new services to the market. The process includes idea generation, concept development, product design, testing, and launch. Office 365 includes a variety of tools to help you keep organized, and Dynamics 365 Supply Chain Management includes tools to help with the business process flow of introducing new services including a configurable workflow. For more basic services, you can also design a business process flow in Dynamics 365 Sales. When you are ready to test new services and advertise new service offerings, Dynamics 365 Marketing includes a variety of tools to help you with the process. A well-managed introduction of new services can help organizations stay competitive and meet customer needs. 
 
-<!-- Learn more at TODOADDLINK[Introduce new services\]. -->
+Learn more at [Introduce new services overview](concept-to-market-introduce-new-services.md).  
 
 ## Define service costing
 
