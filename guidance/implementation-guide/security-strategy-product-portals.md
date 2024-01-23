@@ -1,76 +1,75 @@
 ---
-title: Power Pages Security
-description: Power Pages allow internal and external users access to the Dataverse. Security in Power Pages has two parts \:\ authentication and authorization.
+title: Secure your Power Pages
+description: Learn how to use authentication and authorization to protect your data and web pages in Power Pages, which let you access Dataverse data through external websites.
 author: riblack-microsoft
 ms.author: riblack
 ms.topic: conceptual
-ms.date: 03/14/2023
+ms.date: 01/19/2024
 ms.service: dynamics-365
+ms.custom:
+  - ai-seo-date: 01/29/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Power Pages Security
+# Secure your Power Pages
 
-[Power Pages](/power-pages/introduction) allow internal and external users access to the Dataverse data through external-facing websites. Portal data can be exposed anonymously or only to authenticated users. Examples of anonymous access are an unauthenticated landing page or home page. Security in Power Pages has two parts: authentication and authorization.
+[Power Pages](/power-pages/introduction) let internal and external users access Dataverse data through external-facing websites. You can expose your data to anyone&mdash;that is, to anonymous users&mdash;or only to authenticated users. For example, you can create a landing page or a home page that anyone can see, or a page that's only for users in your organization. To secure your Power Pages sites, you need to use authentication and authorization.
 
 ## Authentication
 
-For users to access any Power Apps portal, they must exist in Dataverse as contacts. This rule applies to both internal and external users. Power Pages support Microsoft Entra ID, Azure B2C, ADFS and third-party providers such as LinkedIn, Facebook, and Google. Learn more about authentication configuration details and the complete list of identity providers at [Get started with configuring your portal authentication](/powerapps/maker/portals/configure/use-simplified-authentication-configuration).
+Authentication verifies the identity of the users who access your Power Pages sites. All users, internal and external, must exist as contacts in Dataverse. Power Pages supports Microsoft Entra ID, Azure B2C, ADFS, and non-Microsoft providers such as LinkedIn, Facebook, and Google. [Learn how to configure authentication in Power Pages](/power-pages/security/configure-portal-authentication).
 
-[Configure authentication in Power Pages](/power-pages/security/configure-portal-authentication)
+Azure B2C is the preferred authentication provider for Power Pages. It separates authentication from authorization and supports non-Microsoft authentication providers such as LinkedIn, Facebook, Google, and many more with custom policies. Use Azure B2C as a bridge to other identity providers because it supports more options, and Microsoft won't duplicate these investments in Power Pages.
 
-## Sign-up
-
-There are two common ways to control sign-ups for the Power App portals
-
-- [Open Registration](/powerapps/maker/portals/configure/configure-portal-authentication#open-registration) is the least restrictive option to sign up for portal access. Configuration portal allows a user account to be registered by providing a user identity. A new contact is created in Dataverse on signup.
-
-- The alternative option is by [invitation](/powerapps/maker/portals/configure/invite-contacts). The invitation feature of portals allows you to invite contacts to your portal through automated email(s) created in your Microsoft Dataverse. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code.
-
-> [!TIP]
->
-> 1. Azure B2C is the preferred authentication provider for portals. It separates Authentication from authorization.
-> 2. Azure B2C supports third-party authentication providers such as LinkedIn, Facebook, Google, and many more with custom policies. Use Azure B2C as a bridge to other Identity providers as it will support more options, and Microsoft won't be duplicating these investments in the portal.
-> 3. Local Authentication is deprecated but not removed yet. It cannot be extended to other systems like Azure B2C, and Microsoft is not investing in new local authentication features. Its use is limited and short-lived.
-> 4. For B2B scenarios, consider guest users with Microsoft Entra ID authentication. Learn more at [B2B collaboration overview](/entra/external-id/what-is-b2b)
+For B2B scenarios, consider guest users with Microsoft Entra ID authentication. [Learn more about B2B collaboration](/entra/external-id/what-is-b2b).
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
+## Sign-up
+
+You can control how users sign up for your Power Pages sites in two common ways:
+
+- [Open registration](/powerapps/maker/portals/configure/configure-portal-authentication#open-registration) lets anyone sign up for your Power Pages site by providing a user identity. A new contact is created in Dataverse when a user signs up.
+
+- [Invitation](/powerapps/maker/portals/configure/invite-contacts) lets you invite contacts to your Power Pages through customized emails that you create in Dataverse. The contacts you invite receive an email with a link to your Power Pages site and an invitation code.
+
 ## Authorization
 
-Authorization is a control to provide access to data and web pages in the Power Apps portal. The authorization is managed through web roles.
+Authorization controls the access to data and web pages in your Power Pages sites. You manage authorization through web roles.
 
-### Web Roles
+### Web roles
 
-[Web roles](/powerapps/maker/portals/configure/create-web-roles) allow portal users to perform special actions and access protected Dataverse contents. It's similar to security roles in Dynamics CE apps. A contact can have multiple web roles
+[Web roles](/powerapps/maker/portals/configure/create-web-roles) let you assign special actions and access rights to users. They're similar to security roles in Dynamics 365 apps. A contact can have multiple web roles.
 
-A Power Apps portal website can have multiple web roles but can only have one default role for authenticated users and one for anonymous users.
+A Power Pages website can have multiple web roles, but can only have one default role for authenticated users and one for anonymous users.
 
 Web roles control the following permissions:
 
-- [Dataverse table permissions](/powerapps/maker/portals/configure/assign-entity-permissions) allow access to individual records in the Dataverse tables. It allows you to set a scope for access such as global, contact level, account level, parental level, etc. Customers can control the granular access on a record such as read, write, delete, append, and append to.
+- [Dataverse table permissions](/power-pages/security/table-permissions) let you access individual records in the Dataverse tables. You can set a scope for access, such as global, contact level, account level, and parental level. You can also control the access to a record, such as read, write, delete, and append.
 
-- [Page permissions](/powerapps/maker/portals/configure/webpage-access-control) allow access to portal webpages. For example, you can allow pages to be available anonymously for public access or restrict access to users who have specific roles.
+- [Page permissions](/power-pages/security/page-security) let you access Power Pages web pages. For example, you can make pages available to anyone or restrict access to users who have specific roles.
 
-- [Website access permissions](/powerapps/maker/portals/configure/website-access-permission) allow portal users to manage front side editing of some portal contents, such as content snippets and weblink sets.
+- [Website access permissions](/power-pages/security/website-access-permission) let Power Pages site users manage some portal contents, such as content snippets and weblink sets.
 
-:::image type="content" source="media/b2c-authentication.png" alt-text="Diagram depicting portal security using Azure B2C authentication for external users" lightbox="media/b2c-authentication.png":::
+:::image type="content" source="media/b2c-authentication.png" alt-text="Diagram showing Power Pages site security using Azure B2C authentication for external users." lightbox="media/b2c-authentication.png":::
 
-### Best Practice
-
-Use [Portal Checker](/powerapps/maker/portals/admin/portal-checker) in your portal deployments. It lists forms, entity lists, and OData feeds exposed anonymously. Make sure no data is exposed to anonymous users by mistake.
+Learn more at [Power Pages security](/power-pages/security/power-pages-security). <!--Use [Site Checker](/powerapps/maker/portals/admin/site-checker) to make sure your Power Pages sites don't expose any data to anonymous users by mistake.-->
 
 ## Other security options
 
-- [Overview of Microsoft Entra External ID](/entra/external-id/external-identities-overview)  
+In addition to authentication and authorization, you can use other security options to protect your Power Pages sites:
 
-  You can use External Identities to control the access to the portal.
+- Consider [Microsoft Entra External ID](/entra/external-id/external-identities-overview) to control access to your Power Pages sites.
 
-- Power Pages allow the administrations to set up IP restrictions to the portal. [Restrict portal access by IP address](/powerapps/maker/portals/admin/ip-address-restrict)
+- [Restrict portal access by IP address](/power-pages/admin/ip-address-restrict).
 
-- Power Apps portal also allows customers to use WAF (Web Application Firewall) to enhance their perimeter security.
+- You can use WAF (Web Application Firewall) to enhance your perimeter security.
 
 ## Next steps
 
-- Learn more about [Finance and operations apps security](security-strategy-product-oa.md)
-- Learn more about [Customer engagement apps security](security-strategy-product-ce.md)
-- [Make security a day one priority](security-strategy-day-one-priority.md)
+- Learn about [security features](security-strategy-product-oa.md) in finance and operations apps
+- Learn how to [make security a priority](security-strategy-day-one-priority.md) from day one
+- Use the Success by Design [security checklist](security-strategy-checklist.md) to help identify and prioritize key requirements and implementation activities in the areas of privacy and compliance, identity and access, and application security

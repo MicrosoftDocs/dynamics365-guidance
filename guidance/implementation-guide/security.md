@@ -16,8 +16,7 @@ content_well_notification:
 
 # Secure your Dynamics 365 data and apps
 
->"Businesses and users are going to embrace technology only if they can trust it."
-&mdash;Satya Nadella, Chief Executive Officer of Microsoft
+"Businesses and users are going to embrace technology only if they can trust it."&mdash;Satya Nadella, Chief Executive Officer of Microsoft
 
 Security is the protection of IT systems and networks from theft, damage, or disruption. Dynamics 365 is a cloud offering from Microsoft, which means that you can access Dynamics 365 data and apps that are hosted by Microsoft over the internet. In this model, you own your data, but share some control over the apps with Microsoft. So, security, compliance, privacy, and data protection are shared responsibilities between you and Microsoft.
 
@@ -49,11 +48,8 @@ Microsoft is committed to safeguarding your data, protecting your right to make 
 We apply these principles to your data:
 
 - [Security](security-strategy-security-controls.md) - We use strong security measures to safeguard your data.
-
 - [Privacy](#privacy) - We respect your right to control and decide about your data and keep it private.
-
 - [Compliance](#compliance) - We manage your data in compliance with the law and help you meet your compliance needs.
-
 - [Transparency](#transparency) - We are transparent about our cloud services and explain what we do with your data in clear, simple language.
 
 ### Security
@@ -118,13 +114,9 @@ Microsoft is responsible for the platform, including the services it offers. We 
 
 As with security and privacy, compliance with laws and regulations is a shared responsibility of cloud service providers and their customers. The Trust Center offers tools that help you comply with national, regional, and industry-specific requirements for data collection and use, and audit reports that help you verify technical compliance and control requirements.
 
-- [Compliance Manager](https://servicetrust.microsoft.com/ComplianceManager/V3)  
+- [Compliance Manager](https://servicetrust.microsoft.com/ComplianceManager/V3): A cross-Microsoft cloud services solution that helps you meet complex compliance obligations. It performs real-time risk assessment that shows your compliance posture against data protection regulations when you use Microsoft cloud services. It also gives you recommended actions and step-by-step guidance.
 
-  A cross-Microsoft cloud services solution that helps you meet complex compliance obligations. It performs real-time risk assessment that shows your compliance posture against data protection regulations when you use Microsoft cloud services. It also gives you recommended actions and step-by-step guidance.
-
-- [Service Trust Portal](https://servicetrust.microsoft.com/)  
-
-  This portal has details and documents such as whitepapers, ISO reports, and other resources that explain Microsoft's implementation of controls and processes that protect cloud services and customer data.
+- [Service Trust Portal](https://servicetrust.microsoft.com/): This portal has details and documents such as whitepapers, ISO reports, and other resources that explain Microsoft's implementation of controls and processes that protect cloud services and customer data.
 
 [Learn more about managing compliance in the cloud at Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview).  
 
@@ -218,88 +210,29 @@ With this information, you can be confident in the security of Dynamics 365 prod
 ### Compliance resources
 
 - [An Introduction to Cloud Computing for Legal and Compliance Professionals (download)](https://download.microsoft.com/download/0/D/6/0D68AE95-6414-4074-B4B8-34039831E2BF/Introduction-to-Cloud-Computing-for-Legal-and-Compliance-Professionals.pdf)
-
 - [Achieving Trust and Compliance in the Cloud](https://aka.ms/cloud-trust-compliance)
 
 ### Privacy resources
 
 - [Privacy at Microsoft](https://privacy.microsoft.com/)
-
 - [Protecting Data and Privacy in the Cloud (download)](https://download.microsoft.com/download/2/0/A/20A1529E-65CB-4266-8651-1B57B0E42DAA/Protecting-Data-and-Privacy-in-the-Cloud.pdf)
 
 ### Security resources
 
 - [Dynamics 365 Security Assessment](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=25aa47b1-c510-43f2-84de-6b78ed3b1258&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Pen%20Test%20and%20Security%20Assessments)
-
 - [Security Incident Management in Microsoft Dynamics 365 (download)](https://www.microsoft.com/download/details.aspx?id=55110)
-
 - [Encryption in the Microsoft Cloud](https://aka.ms/MCSCE)
-
 - [Get started with security for Dynamics 365 solutions](/dynamics365/get-started/security)  
-
 - [Security in Dataverse](/power-platform/admin/wp-security)
-
 - [Security architecture for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/sysadmin/security-architecture)
-
 - [Plan and implement security in finance and operations apps](/training/modules/plan-implement-security-finance-operations/)
-
 - [Review the security model for your Dynamics 365 solutions (training)](/training/modules/fast-track-security/)
-
-## Checklist
-
-Use the Success by Design [Security Checklist](security-strategy-checklist.md) to help identify and prioritize key requirements and implementation activities in the areas of privacy and compliance, identity and access, and application security.
 
 ## Next steps
 
-- [Business intelligence, reporting, and analytics](business-intelligence-reporting-analytics-overview.md)
-
-<!--  EDITOR'S NOTE: The following comments are from the DIY Editor - Docs v2.
-
- Comments:
-
-- I changed the meta title and meta description to be more concise and use keywords that users might search for.
-- I changed the heading "Security strategy overview" to "Secure your Dynamics 365 data and apps" to make it more descriptive and actionable.
-- I shortened the introduction paragraph and removed the redundant mention of Dynamics 365 as a cloud offering from Microsoft.
-- I changed the second paragraph to use bullet points instead of a table for the shared responsibility matrix, as it was easier to read and format in Markdown.
-- I changed the key objectives section to use bullet points instead of a table, as it was easier to read and format in Markdown. I also simplified the language and removed the word "article" to avoid repetition.
-- I changed the headings "Foundational principles", "Product-specific security guidance", "Make security a day one priority", and "Security anti-patterns" to "Security principles and practices", "Security for different Dynamics 365 products", "Make security a priority", and "Security mistakes to avoid", respectively, to make them more clear and consistent.
-- I changed the subheadings "Security", "Privacy", "Compliance", and "Transparency" to use sentence case, as per the Microsoft style guide.
-- I changed the word "applicable" to "apply" in the first sentence of the "Foundational principles" section, as it was simpler and more direct.
-- I changed the word "includes" to "has" in the first sentence of the "Security" subsection, as it was more accurate and avoided confusion with the word "include" used for Markdown syntax.
-- I changed the word "controls" to "features" in the second sentence of the "Security" subsection, as it was more user-friendly and consistent with the rest of the text.
-- I changed the word "available" to "core" in the third sentence of the "Security" subsection, as it was more precise and emphasized the importance of the features.
-- I changed the word "goal" to "practice" in the first bullet point of the "Transparency" subsection, as it was more accurate and consistent with the rest of the text.
-- I changed the word "goal" to "practice" in the second bullet point of the "Transparency" subsection, as it was more accurate and consistent with the rest of the text.
-- I changed the word "imposes" to "has" in the first sentence of the third paragraph of the "Transparency" subsection, as it was simpler and more direct.
-- I changed the word "described" to "explained" in the second sentence of the third paragraph of the "Transparency" subsection, as it was simpler and more direct.
-- I changed the word "promptly" to "quickly" in the third sentence of the third paragraph of the "Transparency" subsection, as it was simpler and more direct.
-- I changed the word "details" to "practices" in the first sentence of the "Product-specific security guidance" section, as it was more accurate and consistent with the rest of the text.
-- I changed the word "anti-pattern" to "mistake" in the first sentence of the "Security through obscurity" subsubsection, as it was simpler and more user-friendly.
-- I changed the word "hiding" to "hide" in the first sentence of the "Security through obscurity" subsubsection, as it was more active and direct.
-- I changed the word "accessed" to "access" in the third sentence of the "Security through obscurity" subsubsection, as it was more active and direct.
-- I changed the word "avoiding" to "avoid" in the last sentence of the "Security through obscurity" subsubsection, as it was more active and direct.
-- I changed the word "anti-pattern" to "mistake" in the first sentence of the "Credentials stored in Dynamics 365" subsubsection, as it was simpler and more user-friendly.
-- I changed the word "calls" to "call" in the first sentence of the "Credentials stored in Dynamics 365" subsubsection, as it was more active and direct.
-- I changed the word "stored" to "store" in the second sentence of the "Credentials stored in Dynamics 365" subsubsection, as it was more active and direct.
-- I changed the word "discovered" to "exposed" in the third sentence of the "Credentials stored in Dynamics 365" subsubsection, as it was more accurate and direct.
-- I changed the word "fails" to "fail" in the fourth sentence of the "Credentials stored in Dynamics 365" subsubsection, as it was more active and direct.
-- I changed the word "store" to "store any" in the last sentence of the "Credentials stored in Dynamics 365" subsubsection, as it was more specific and clear.
-- I changed the word "introduced" to "explained" in the first sentence of the "Resources" section, as it was more accurate and consistent with the rest of the text.
-- I changed the word "took" to "looked" in the second sentence of the "Resources" section, as it was simpler and more direct.
-- I changed the word "examined" to "explained" in the third sentence of the "Resources" section, as it was more accurate and consistent with the rest of the text.
-- I changed the word "citing" to "giving" in the third sentence of the "Resources" section, as it was simpler and more direct.
-- I changed the word "wrapped" to "ended" in the fourth sentence of the "Resources" section, as it was simpler and more direct.
-- I changed the word "anti-patterns" to "examples of what not to do" in the fourth sentence of the "Resources" section, as it was simpler and more user-friendly.
-- I changed the word "Equipped" to "With" in the fifth sentence of the "Resources" section, as it was simpler and more direct.
-- I changed the word "confidence" to "confident" in the fifth sentence of the "Resources" section, as it was more grammatically correct.
-- I changed the word "considerations" to "of" in the fifth sentence of the "Resources" section, as it was simpler and more direct.
-- I changed the word "capabilities" to "features" in the fifth sentence of the "Resources" section, as it was more user-friendly and consistent with the rest of the text.
-- I changed the word "implementation" to "implementation of" in the fifth sentence of the "Resources" section, as it was more specific and clear.
-- I changed the word "use" to "use the" in the last sentence of the "Resources" section, as it was more specific and clear.
-- I changed the word "checklist" to "checklist to" in the first sentence of the "Checklist" section, as it was more specific and clear.
-- I changed the word "identify" to "find out" in the first sentence of the "Checklist" section, as it was simpler and more direct.
-- I changed the word "implement" to "do" in the first sentence of the "Checklist" section, as it was simpler and more direct.
-- I added the word "the" before "implementation guide" in the first sentence of the "Next steps" section, as it was more grammatically correct.
-- I removed the word "the" before "business intelligence, reporting, and analytics" in the second sentence of the "Next steps" section, as it was unnecessary and inconsistent with the link text.
-- I removed the image that was commented out, as it was providing little value.
-- I removed the comments that were explaining the changes, as they were not part of the final text.
+- Learn about [security controls](security-strategy-security-controls.md) in Dynamics 365
+- Learn about [security features](security-strategy-product-ce.md) in customer engagement apps
+- Learn about [security features](security-strategy-product-portals.md) in Power Pages
+- Learn about [security features](security-strategy-product-oa.md) in finance and operations apps
+- Learn how to [make security a priority](security-strategy-day-one-priority.md) from day one
+- Use the Success by Design [security checklist](security-strategy-checklist.md) to help identify and prioritize key requirements and implementation activities in the areas of privacy and compliance, identity and access, and application security
