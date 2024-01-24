@@ -7,7 +7,7 @@ ms.date: 05/25/2023
 ms.topic: conceptual
 
 ---
-# Define business goals for integration projects
+# Define business goals that map to the business perspective for integration projects
 
 When you're adding an integration with another solution to a Dynamics 365 implementation project, you want to align the project with the overall direction of the business. You want to match each requirement of cross-system processes against the overall goals of the project and the business. To accomplish this, begin your integration work by defining goals that map to the business perspective.
 

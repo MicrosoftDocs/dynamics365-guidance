@@ -1,5 +1,5 @@
 ---
-title: Choose a platform for integration
+title: Choose the right platform for your Dynamics 365 apps integration strategy
 description: Find guidance on how to choose the right platform for your Dynamics 365 apps integration strategy.
 author: abunduc-ms
 ms.author: abunduc
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Choose a platform for integration
+# Choose the right platform for your Dynamics 365 apps integration strategy
 
 This article discusses what you should consider when choosing a platform and, if needed, a middleware solution to achieve the previously mentioned business goals.
 

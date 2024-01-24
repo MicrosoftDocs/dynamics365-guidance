@@ -1,6 +1,6 @@
 ﻿---
-title: Expand your business applications
-description: Learn how to grow the usage and scope of your business applications to increase their value and impact for your organization.
+title: Drive expansion of business applications to create greater business impact
+description: Learn how expansion can help the business-focused digital transformation.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Expand your business applications
+# Drive expansion of business application in business-focused digital transformations
 
 In previous articles, we showed you how to create a digital transformation roadmap for your business applications. You learned how to apply different approaches and techniques in the *Initiate* phase. But you can also use them later to expand your applications. In this article, we focus on how to grow the usage and scope of your business applications in various areas to achieve more business value and impact. We look at how expansion affects these aspects:
 

@@ -1,6 +1,6 @@
 ﻿---
-title: Drive app value
-description: Learn how to drive app value with Dynamics 365 through digital transformation and effective planning for long-term business success.
+title: Drive long-term business application value through digital transformation
+description: Find guidance on how to approach a business-focused digital transformation in Dynamics 365 implementations.
 author: taksatoms
 ms.author: tsato
 ms.date: 12/12/2023
@@ -11,7 +11,7 @@ ms.custom:
   - ai-seo-date:12/12/2023
 ---
 
-# Drive app value
+# Drive long-term business application value through digital transformation
 
 The articles in this section outline our approach to digital transformation and discuss strategies for shortening the time to value, cutting through the noise, and focusing on business outcomes with Dynamics 365.
 

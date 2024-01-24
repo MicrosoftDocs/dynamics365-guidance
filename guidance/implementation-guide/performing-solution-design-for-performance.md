@@ -1,5 +1,5 @@
 ---
-title: Design for performance
+title: Design for performance in your Dynamics 365 implementations projects
 description: Learn how to design for performance in Dynamics 365 projects by considering the right tool for the job, scalability, and responsiveness.
 author: TimoGossen
 ms.author: timogoss
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Design for performance
+# Design for performance in your Dynamics 365 implementations projects
 
 A common cause of poor performance in Dynamics 365 projects is incorrect use of the applications&mdash;in other words, uses that don't align with what the software is intended to do, usually due to poor solution design. Recall our [street design example](performing-solution.md). City planners have many ways to manage traffic. For example, they could design the streets to have 10 lanes in each direction. That would certainly meet the city's needs now and into the foreseeable future. But that approach creates complications. Does the city have land that supports that infrastructure? How easy is it for residents to cross the street? How long will a traffic light need to be red for them to cross, and how does that affect the flow of cross-traffic? Starting from the wrong approach adds complexity without necessarily solving the original problem.
 

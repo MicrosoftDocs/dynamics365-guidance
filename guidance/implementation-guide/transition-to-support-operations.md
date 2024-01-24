@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support operations
+title: Strategies to consider for support operations when transitioning to support
 description: This article discusses strategy and consideration when transitioning into the support plan developed by the organization for Dynamics 365 implementation projects.
 author: taksatoms
 ms.author: tsato
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ---
 
 
-# Support operations
+# Strategies to consider for support operations when transitioning to support
 
 The preparation and design work allows you to provide the level of support expected by the business. There are many aspects to consider when planning for the practicalities of operating the support services. Preparation for support is necessary, but not sufficient. The support team also needs to learn and practice to ensure they are ready for the extra pressures of the period immediately following a go live. The next section explores this in more detail.
 

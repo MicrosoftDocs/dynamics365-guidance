@@ -1,5 +1,5 @@
 ﻿---
-title: Service updates for Dynamics 365
+title: Overview of service updates for Dynamics 365
 description: Understand how major and minor releases and updates work for Dynamics 365. Learn the importance of best practice for readiness for new versions and updates
 author: taksatoms
 ms.author: tsato
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Service updates
+# Overview of service updates for Dynamics 365
 
 To enable businesses everywhere to accelerate their digital transformation, Microsoft continuously enhances Dynamics 365 with new capabilities. We add product enhancements and performance improvements at a rapid pace. This article provides tips to help you keep your computing environment current in a consistent, predictable, and seamless manner.  
 

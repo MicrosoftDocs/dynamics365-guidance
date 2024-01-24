@@ -1,6 +1,6 @@
 ﻿---
-title: Case study in driving app value
-description: Learn how an accounting network used Dynamics 365 to adapt to the COVID-19 pandemic and maintain business continuity.
+title: Business-focused digital transformation case study
+description: Review a case study of a business-focused digital transformation.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Case study in driving app value
+# Business-focused digital transformation case study
 
 Dynamics 365 helps you adjust your business processes to change. Let's look at an example of how change management is key to the success of an implementation strategy.
 

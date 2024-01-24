@@ -1,5 +1,5 @@
 ---
-title: Provide an overview of the solution
+title: Provide overviews of projects and solutions during Dynamics 365 implementation projects
 description: Read about the change manager's tasks for catching and providing the overview of the project and the solution during a Dynamics 365 implementation project.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/20/2023
 ms.topic: conceptual
 ---
 
-# Provide an overview of the solution
+# Provide overviews of projects and solutions during Dynamics 365 implementation projects
 
 For business application projects, it's common for the implementation project to start before [the project organization](change-management-project-organization.md) has been started. Often, [assessments](change-management-assessing-business-process-change.md) are done as part of the selection process. In addition, high-level scope, risks, and problem areas might have been identified during the sales cycle or the discovery phase of the project.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Service the solution case study
+title: Case study of monitoring and servicing Dynamics 365 solutions
 description: Learn the importance of monitoring different aspects of the health of your Dynamics 365 services to ensure a healthy system.  Being proactive to address any potential issues through monitoring.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 04/11/2023
 ms.topic: conceptual
 
 ---
-# Case study for servicing the solution
+# Case study of monitoring and servicing Dynamics 365 solutions
 
 Fruit company learns the importance of servicing the solution
 

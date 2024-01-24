@@ -1,6 +1,6 @@
 ﻿---
-title: How to adapt to change streams in your digital transformation
-description: Learn how to plan for and respond to various change streams that can affect your digital transformation with Dynamics 365, such as business, user, product, and external factors.
+title: Change streams in business-focused digital transformations
+description: Learn how to use change streams in a business-focused digital transformation.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# How to adapt to change streams in your digital transformation
+# Change streams in business-focused digital transformations to get comfortable with constant change
 
 This article explores the change streams that can affect the roadmap and scope of your planned activities. Planning for how to deal with these changes throughout the program is a key factor for success.
 

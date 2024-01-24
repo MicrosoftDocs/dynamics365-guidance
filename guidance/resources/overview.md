@@ -1,5 +1,5 @@
 ---
-title: Introduction to the implementation tools and samples
+title: Introduction to Dynamics 365 implementation tools and samples
 description: Get an overview of the tools and samples Microsoft provides to help you implement solutions with Dynamics 365.
 author: edupont04
 ms.author: edupont
@@ -9,7 +9,7 @@ ms.date: 07/11/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
-# What are the implementation tools and samples
+# Introduction to Dynamics 365 implementation tools and samples
 
 On Microsoft Learn, Microsoft publishes guidance to help implement solutions with Dynamics 365 apps. We've also started new content for tools and samples that we provide in [GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master). This article provides an overview of the tools and samples.
 

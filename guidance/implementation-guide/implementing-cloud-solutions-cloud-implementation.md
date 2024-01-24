@@ -14,7 +14,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Cloud implementation considerations
+# Cloud implementation considerations and how they apply to implementation projects
 
 Cloud solutions like Dynamics 365 can help you reduce management overhead and deliver business value faster by focusing on the application layer. But you still need to consider some fundamental aspects of online applications, such as security, scalability, performance, data isolation, limits, and capacity. These aspects might differ from an on-premises deployment. This article explains some of these differences and how to plan for them.
 

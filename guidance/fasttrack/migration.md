@@ -1,5 +1,5 @@
 ---
-title: Dynamics CRM (on-premises) to Dynamics 365 migration
+title: Guidance for Dynamics CRM (on-premises) to Dynamics 365 migration
 description: Microsoft provides guidance on migrating your Dynamics CRM (on-premises) database to Dynamics 365 and Microsoft Dataverse.
 ms.author: jedinh
 ms.date: 12/18/2020
@@ -9,7 +9,7 @@ ms.reviewer: edupont
 author: ReneeW-CPub
 ---
 
-# Dynamics CRM (on-premises) to Dynamics 365 migration
+# Guidance, tools, and documentation for Dynamics CRM (on-premises) to Dynamics 365 migration
 Microsoft provides guidance on migrating your Dynamics CRM (on-premises) database to [Dynamics 365 and Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro#dynamics-365-and-dataverse). We provide guidance in the form of tools and documentation and by performing configuration tasks where applicable and feasible. This is available for all eligible customers with Dynamics 365 services who are invited into the program.
 
 The FastTrack Center benefit includes providing guidance with source environment migration to [Dynamics 365 and Dataverse](/powerapps/maker/common-data-service/data-platform-intro#dynamics-365-and-dataverse).

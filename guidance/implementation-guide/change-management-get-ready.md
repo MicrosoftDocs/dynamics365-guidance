@@ -1,5 +1,5 @@
 ---
-title: Get the organization ready
+title: Get organizations ready after user acceptance testing
 description: Read about the change manager's tasks during the final stages of the Dynamics 365 implementation project. Learn how to get users and their organization ready to use the solution.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/19/2023
 ms.topic: conceptual
 ---
 
-# Get the organization ready
+# Get organizations ready after user acceptance testing
 
 After user acceptance testing (UAT) is completed, several activities kick in. These activities are all about getting the organizations ready for the upcoming changes. The training and communications plans are carried out, and in some cases, we do a mandatory go-live review with Microsoft.
 

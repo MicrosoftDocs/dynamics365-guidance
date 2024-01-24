@@ -1,5 +1,5 @@
 ---
-title: Choose a design for integration
+title: Choose the right design for your Dynamics 365 apps integration strategy
 description: Find guidance on how to choose the right design for your Dynamics 365 apps integration strategy.
 author: abunduc-ms
 ms.author: abunduc
@@ -7,7 +7,7 @@ ms.date: 05/25/2023
 ms.topic: conceptual
 
 ---
-# Choose a design for integration
+# Choose the right design for your Dynamics 365 apps integration strategy
 
 Many factors influence the choice of patterns for your integration. Integration scenarios can be grouped roughly into three kinds: UI, data, and process integration. While there's some degree of gray area and overlap between them, there are also some distinct characteristics and expected behaviors.
 

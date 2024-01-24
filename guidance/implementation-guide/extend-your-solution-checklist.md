@@ -1,5 +1,5 @@
 ---
-title: Extension checklist
+title: Extensibility strategy checklist
 description: Get a thorough checklist to help Dynamics 365 implementation teams with their extensibility strategy.
 author: abunduc-ms
 ms.author: abunduc
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Extension checklist
+# Extensibility strategy checklist
 
 Use this article to help you define and track your extensibility strategy.
 

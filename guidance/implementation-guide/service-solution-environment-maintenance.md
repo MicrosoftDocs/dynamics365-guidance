@@ -1,5 +1,5 @@
 ﻿---
-title: Environment maintenance
+title: Understand the needs for Dynamics 365 environment maintenance
 description: Understand the needs for Dynamics 365 environment maintenance as application usage grows to ensure that actions can be proactively taken to maintain a healthy solution.
 author: taksatoms
 ms.author: tsato
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Environment maintenance
+# Understand the needs for Dynamics 365 environment maintenance
 
 Protecting your solution and providing continuous availability of service is your primary goal as the system administrator. In a cloud environment, these maintenance jobs are automated, but it's critical for an organization to have a strategy so that these routine jobs are appropriately configured and scheduled. In some cases, you may need to perform these tasks manually but still in alignment with your overall planning and strategy.
 

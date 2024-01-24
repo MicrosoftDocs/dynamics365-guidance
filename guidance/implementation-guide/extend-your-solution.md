@@ -1,5 +1,5 @@
 ---
-title: Extend your solution
+title: Extend functionality of Dynamics 365 applications
 description: Learn how to extend Dynamics 365 applications to accommodate your organization’s specific processes and requirements and understand the impact of these extensions.
 author: abunduc-ms
 ms.author: abunduc
@@ -8,7 +8,7 @@ ms.topic: overview
 ms.custom: bap-template
 ---
 
-# Extend your solution
+# Extend functionality of your organization’s solutions to accommodate processes and requirements
 
 Business solutions offer capabilities that help to drive business value. Still, in some situations, you need to extend a solution, adjusting its off-the-shelf functionality to accommodate your organization's or industry's specific business processes. Dynamics 365 applications offer rich capabilities out of the box&mdash;including powerful options to customize and extend them when needed.
 

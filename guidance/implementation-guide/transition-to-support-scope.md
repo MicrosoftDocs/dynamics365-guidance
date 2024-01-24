@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support scope
+title: Define the support scope for support models in your Dynamics 365 implementation projects
 description: This article is illustrates the importance of defining the support scope and the different aspects involved in a support model in Dynamics 365 implementation projects.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 03/30/2023
 ms.topic: conceptual
 ---
 
-# Support scope
+# Define the support scope for support models in your Dynamics 365 implementation projects
 
 Support scope activities should be started in the Initiate phase. It may be tempting to defer defining the scope until much later in the project because it's not seen as urgent compared to getting the project off the ground and creating the system solution. However, as this article discusses, early attention to this topic enables the support team to become engaged in the project from an early stage, which pays dividends during the project lifecycle.
 

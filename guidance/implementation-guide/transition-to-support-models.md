@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support models
+title: Define the support model for your Dynamics 365 implementation projects
 description: This article is covers the different support models for a Dynamics 365 implementation and considerations when choosing a model.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 04/11/2023
 ms.topic: conceptual
 ---
 
-# Support models
+# Define the support model for your Dynamics 365 implementation projects
 
 Defining the support model is ideally started in the Implement phase so that it can be ready and exercised prior to user acceptance testing (UAT), can help with the transition during the Prepare phase, and be fully effective and working by the Operate phase.
 

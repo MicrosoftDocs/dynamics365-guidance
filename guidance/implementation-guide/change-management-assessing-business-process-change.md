@@ -1,5 +1,5 @@
 ---
-title: Assess business process changes
+title: Assess business process changes in Dynamics 365 implementation projects
 description: Find guidance about how to identify changes in a Dynamics 365 implementation project.
 author: taksatoms
 ms.author: tsato

@@ -1,5 +1,5 @@
 ﻿---
-title: Monitor service health
+title: Monitor the health of your environments to keep system performances at optimal levels
 description: Learn the importance of monitoring various aspects of the health of your Dynamics 365 services to ensure a healthy system. Be proactive to address any potential issues through monitoring.
 author: taksatoms
 ms.author: tsato
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Monitor service health
+# Monitor the health of your environments to keep system performances at optimal levels
 
 A key principle for a successful onboarding experience to Dynamics 365 is knowing the health of your environments always. Your team must be able to troubleshoot issues right away.
 

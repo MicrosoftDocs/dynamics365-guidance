@@ -1,5 +1,5 @@
 ﻿---
-title: Go live with finance and operations apps
+title: Prepare for go-live with finance and operations apps
 description: Learn how to prepare for go-live with finance and operations apps by reviewing key activities for go-live readiness, best practices, tips, and common pitfalls to ensure a successful deployment.
 ms.date: 10/02/2023
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.custom:
   - bap-template
 ---
 
-# Go live with finance and operations apps
+# Review key activities for go-live readiness with finance and operations apps
 
 Go-live is a critical milestone during an implementation project. It's the phase where you validate every plan and test.
 

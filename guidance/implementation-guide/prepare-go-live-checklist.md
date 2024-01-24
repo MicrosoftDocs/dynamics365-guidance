@@ -1,5 +1,5 @@
 ﻿---
-title: Go-live checklist
+title: Verify interactions between all parts of your Dynamics 365 solution with the go-live checklist
 description: Learn how to use the go-live checklist to verify interactions between all parts of your Microsoft Dynamics 365 solution and implement with confidence.
 ms.date: 06/06/2023
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Go-live checklist
+# Use the go-live checklist to verify interactions between all parts of your Dynamics 365 solution
 
 The go-live checklist is a list of the requirements that a Dynamics 365 implementation project needs to meet before it launches. It includes mandatory activities and recommended practices. Use it both to help your organization prepare for implementation and to assess the readiness of your solution to go live.
 

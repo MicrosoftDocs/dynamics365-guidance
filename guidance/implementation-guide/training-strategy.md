@@ -1,5 +1,5 @@
 ---
-title: Training strategy
+title: Develop your own training strategy for your Dynamics 365 implementations
 description: Learn about the creation of a training strategy to ensure the readiness of every person involved in your implementation.
 ms.date: 06/26/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: TimoGossen
 ms.author: timogoss
 ---
 
-# Training strategy
+# Develop your own training strategy for your Dynamics 365 implementations
 
 In this section, we discuss the creation of a training strategy to ensure the readiness of every person who is involved in your implementation. We review high-level objectives, identify risks that might arise during implementation, and share best practices for you to keep in mind as you develop your own training plan.
 

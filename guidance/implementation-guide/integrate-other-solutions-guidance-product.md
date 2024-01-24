@@ -12,7 +12,7 @@ ms.topic: conceptual
 
 The following sections discuss specific integration-related considerations for the different groups of apps in Dynamics 365. There are different approaches for finance and operations apps and for customer engagement apps. We also provide examples for cross-app integration between Dynamics 365 apps.
 
-## finance and operations apps
+## Finance and operations apps
 
 Many ways of integrating into and from finance and operations apps use an abstraction layer with integration and data migration capabilities that shield users, administrators, and developers from the heavily normalized database. This abstraction layer consists of data entities.
 

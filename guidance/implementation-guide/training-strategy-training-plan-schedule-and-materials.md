@@ -1,5 +1,5 @@
 ---
-title: Define the training schedule
+title: Define a schedule for the training plan in your Dynamics 365 implementation project
 description: Find guidance about how to define a schedule for the training plan in your Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: timogoss
 manager: 
 ---
 
-# Define the training schedule
+# Define a schedule for the training plan in your Dynamics 365 implementation project
 
 Successful integration of a training strategy into the main project effort requires coordination with project management resources. Your organization's training strategy doesn't exist independently of other ongoing efforts in the project. It's important that key milestones, resource requirements, dates, and tasks are acknowledged and accounted for as part of your training plan, and that they are incorporated into your overall project plan as tasks or dependencies.
 

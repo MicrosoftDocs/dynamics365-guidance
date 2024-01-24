@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - the support team
+title: Set up a technical support team for your Dynamics 365 implementation projects
 description: This article is covers guidance for how to set up the team that handles technical support for your Dynamics 365 implementation.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 04/12/2023
 ms.topic: conceptual
 ---
 
-# Transition to support - the support team
+# Set up a technical support team for your Dynamics 365 implementation projects
 
 During the *Implement* phase, you identify the [support model](transition-to-support-models.md) that your Dynamics 365 implementation project will use. Multiple operating models exist, and within each model a spectrum of sub-options. Therefore, the specific organization structure is influenced by the variant of the model that is chosen. In this section, we explore some common patterns for roles and structures.
 

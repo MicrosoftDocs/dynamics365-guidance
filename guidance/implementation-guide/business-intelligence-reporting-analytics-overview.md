@@ -1,6 +1,6 @@
 ---
-title: Use data to make smart decisions with Dynamics 365
-description: Learn how to use data to make smart decisions with Dynamics 365, including how business intelligence solutions evolved, how to build a modern data estate, and how to use reporting and analytics strategies to get deeper insights from your data.
+title: Make informed, data-based decisions with business intelligence, reporting, and analytics
+description: Learn how businesses can use data to make informed decisions. We cover the evolution of business intelligence solutions, and how your organization can build a data estate based on modern components, on top of solutions that support augmented analytics and embedded intelligence. We help you define and create reporting and analytics strategies to help gain deeper insights from the data being collected.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
@@ -14,7 +14,7 @@ content_well_notification:
   - AI-contribution
 ---
 
-# Use data to make smart decisions with Dynamics 365
+# Make informed, data-based decisions with business intelligence, reporting, and analytics
 
 In this section, we explain how to use data to make smart decisions with Dynamics 365. We explore the evolution of business intelligence solutions, how to build a modern data estate, and how to use reporting and analytics strategies to get deeper insights from your data.
 

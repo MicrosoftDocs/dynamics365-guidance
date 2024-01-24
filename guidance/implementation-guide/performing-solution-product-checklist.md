@@ -1,5 +1,5 @@
 ---
-title: Checklist for performance
+title: Checklist for Dynamics 365 implementation project performance
 description: Use this checklist to make sure your Dynamics 365 implementation projects are focused on performance.
 author: TimoGossen
 ms.author: timogoss
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: bap-template
 ---
 
-# Checklist for performance
+# Checklist for Dynamics 365 implementation project performance
 
 Use this checklist to make sure your Dynamics 365 implementation projects are focused on performance.
 

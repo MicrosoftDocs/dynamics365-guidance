@@ -1,5 +1,5 @@
 ﻿---
-title: Introduction to the implementation guide
+title: Introduction to the Dynamics 365 implementation guide
 description: Meet the Dynamics 365 implementation guide and start learning the concepts behind successful implementations.
 author: timogossen
 ms.author: timogoss
@@ -8,7 +8,7 @@ ms.topic: overview
 ms.custom: bap-template
 ---
 
-# Introduction to the implementation guide
+# Introduction to the Dynamics 365 implementation guide
 
 Picture this scenario: A customer purchases a car from a dealer. One day, the car starts making strange noises. The customer calls the service center and reports a problem. A service advisor opens an application, types a few notes about the problem into a form, and schedules a repair visit. The notes on that form may be the first time in years that any data related to the customer or the vehicle has flowed into the dealer's relational database. It's only a trickle in response to a malfunction, and it stops at the source. The car's manufacturer might never see a single byte of data from the event. We call this scenario *the reactive past*: Data drips downward from applications to databases in response to external triggers.
 

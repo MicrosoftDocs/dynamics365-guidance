@@ -1,5 +1,5 @@
 ﻿---
-title: Go live with customer engagement apps
+title: Prepare for go-live with customer engagement apps
 description: Learn how to prepare for go-live with customer engagement apps by reviewing key activities for go-live readiness, best practices, tips, and common pitfalls to ensure a successful deployment.
 ms.date: 06/06/2023
 ms.topic: conceptual
@@ -12,7 +12,8 @@ ms.custom:
   - bap-template
 ---
 
-# Go live with customer engagement apps
+# Review key activities for go-live readiness with customer engagement apps
+
 <!-- EDITOR'S NOTE: Is this article needed? Most of what it claims to cover is covered in greater detail in the general guidance for preparing to go live. Things that are covered here but not in the general guidance could easily be added there. I don't see any information that would apply more to customer engagement apps than to any other Dynamics 365 apps or cloud solutions. Also, there seems to be information in prepare-go-live-finance-and-operations-apps.md that could be useful here (or in the general guidance). -->
 Go-live is a critical milestone during a deployment. It's the phase in which every plan and test is validated.
 

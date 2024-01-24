@@ -1,5 +1,5 @@
 ---
-title: Choose a pattern for integration
+title: Choose the right pattern for your Dynamics 365 apps integration strategy
 description: Find guidance on how to choose the right integration pattern for your Dynamics 365 apps integration strategy.
 author: abunduc-ms
 ms.author: abunduc
@@ -7,7 +7,7 @@ ms.date: 05/23/2023
 ms.topic: conceptual
 
 ---
-# Choose a pattern for integration
+# Choose the right pattern for your Dynamics 365 apps integration strategy
 
 Choosing the right pattern is a critical part of successfully implementing integration between systems. When choosing an integration pattern, consider factors such as its main functionality. Also consider how it's built, including platform, language, user interface, and the connectivity type it handles. We recommend that you also consider what type of actions you need the integration to perform, such as the following list:
 

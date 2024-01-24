@@ -1,5 +1,5 @@
 ---
-title: Prioritize performance
+title: Prioritize performance to ensure success for your Dynamics 365 implementations
 description: Learn how to prioritize performance early on to ensure successful Dynamics 365 implementations and user acceptance.
 author: TimoGossen
 ms.author: timogoss
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Prioritize performance
+# Prioritize performance to ensure success for your Dynamics 365 implementations
 
 Performance issues in Dynamics 365 projects are commonly analyzed, understood, and fixed at a solution level, often against tight deadlines and high visibility. It's fair to say that the most common cause of unexpected performance issues is a failure to properly prioritize performance from the beginning of a project.
 

@@ -1,5 +1,5 @@
 ---
-title: Choose a regression testing tool
+title: Options for regression testing
 description: Learn about different tools for automating regression testing of your Dynamics 365 solution and how to evaluate them for your needs.
 author: edupont04
 ms.author: dudona
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Choose a regression testing tool
+# Options for regression testing
 
 When Microsoft updates Dynamics 365, you need to make sure that your solution still works as expected. You don't want to introduce any bugs or errors that could affect your users or customers. Microsoft does regression testing, but the data composition, specific customer configurations, and unique extensions mean customers must perform their own regression testing in their own environment.
 

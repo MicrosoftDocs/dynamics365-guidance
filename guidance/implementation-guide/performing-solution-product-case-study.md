@@ -1,5 +1,5 @@
 ---
-title: A case study for acceptably performing solutions
+title: Performance testing and optimization case study
 description: Learn how an organization found its way to a performance-focused Dynamics 365 solution.
 author: TimoGossen
 ms.author: timogoss
@@ -8,7 +8,7 @@ ms.topic: overview
 ms.custom: bap-template
 ---
 
-# A case study for acceptably performing solutions
+# Performance testing and optimization case study
 
 **A corporate travel company learns that testing is critical to measure and optimize performance**
 

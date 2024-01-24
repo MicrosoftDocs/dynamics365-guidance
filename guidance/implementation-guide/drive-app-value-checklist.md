@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Checklist for driving app value
+# Checklist for driving app value in Dynamics 365 implementation projects
 
 ## Approach to digital transformation
 

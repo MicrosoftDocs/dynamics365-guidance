@@ -1,5 +1,5 @@
 ---
-title: Prepare for go-live
+title: Prepare for go-live by getting your production environment ready and deploying your solutions
 description: Learn how to prepare for a successful go-live of a Microsoft Dynamics 365 solution by assessing the readiness of the people, processes, and systems for deployment.
 author: vaniusca
 ms.author: vaniaf
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Prepare for go-live
+# Prepare for go-live by getting your production environment ready and deploying your solutions
 
 Go-live is a critical milestone in the process of deploying a business solution to production. At go-live, all parts of the implementation project come together and are tested and validated to make sure everything works as expected, not just on their own, but as a whole. After a successful go-live, the new solution is operational.
 

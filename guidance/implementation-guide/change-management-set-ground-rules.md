@@ -1,5 +1,5 @@
 ---
-title: Set the ground rules
+title: Set the ground rules for Dynamics 365 implementation projects
 description: Find guidance for why and how to set ground rules for the Dynamics 365 implementation project.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/14/2023
 ms.topic: conceptual
 ---
 
-# Set the ground rules for the Dynamics 365 implementation project
+# Set the ground rules for Dynamics 365 implementation projects
 
 During the Implement phase of an implementation project, several project processes govern all activities. The processes are defined in the methodology and approach.
 

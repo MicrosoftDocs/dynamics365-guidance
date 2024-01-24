@@ -1,5 +1,5 @@
 ﻿---
-title: Continue the business application journey
+title: Continue your education on the business application platform
 description: Understanding the importance of continuing to educate yourself in a SaaS platform such as Dynamics 365.  As new features and capabilities become available, use the resources available to maximize your investment in the Dynamics 365 platform. Read the case study to understand the importance of continuing to service the solution as application usage grows.
 author: taksatoms
 ms.author: tsato
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Continue the business application journey
+# Continue your education on the business application platform
 
 The importance of continuing your education on the business application platform is often overlooked. In the on-premises software world, you would go live with a version of your solution and it would mostly remain the same until you decided to develop or purchase add-on functionality. As mentioned earlier in the ser vice update section, the benefit of continuous updates in Dynamics 365 is that you always have access to the newest features to help your business. This also means you have a constant stream of new and better ways to meet your business and technical objectives through your solution.
 

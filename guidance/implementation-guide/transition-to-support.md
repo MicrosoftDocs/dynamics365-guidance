@@ -1,5 +1,5 @@
 ---
-title: Transition to support
+title: Define operating support through support scope, models, and operations
 description: Learn how to prepare, define, and operate a support model for your Dynamics 365 solution.
 author: taksatoms
 ms.author: tsato
@@ -11,7 +11,7 @@ ms.custom:
   - ai-seo-date:12/11/2023
 ---
 
-# Transition to support
+# Define operating support through support scope, models, and operations
 
 Before you introduce a new system into your organization, think through all the things that influence how it transitions from being a "project" to becoming a solution that your users depend on and that needs ongoing support. In other words, think about creating a strategy to help you prepare, define, and operate a support model for your solution. Organizations that spend the time and energy to create a support strategy for their Dynamics 365 solutions tend to have happier users, higher adoption rates, and higher-quality business outcomes.
 

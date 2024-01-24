@@ -1,5 +1,5 @@
 ﻿---
-title: Production environment readiness
+title: Prepare production environments for successful deployment of Dynamics 365 solutions
 description: Learn how to prepare the production environment for the successful deployment of a Microsoft Dynamics 365 solution, including assigning security roles, setting configurations, and running integrations.
 ms.date: 06/06/2023
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Production environment readiness
+# Prepare production environments for successful deployment of your Dynamics 365 solutions
 
 It's critical to make sure the production environment is ready before your Dynamics 365 solution goes live. Your [strategy for preparing a production environment](environment-strategy-overview.md) depends on the applications in the scope of the deployment. For some applications, you can create the production environment from an initial phase without any dependencies. For other applications, you must follow a formal process to create the production environment.
 

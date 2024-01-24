@@ -1,5 +1,5 @@
 ---
-title: Integrate with other solutions
+title: Integrate your Dynamics 365 apps with other solutions
 description: Find guidance on how to integrate your Dynamics 365 apps with other solutions, including cross-app integration through Dataverse. Find a platform, design, and patterns.
 author: abunduc-ms
 ms.author: abunduc
@@ -7,7 +7,7 @@ ms.date: 05/25/2023
 ms.topic: conceptual
 ---
 
-# Integrate with other solutions
+# Integrate your Dynamics 365 apps with other solutions
 
 Dynamics 365 apps provide a rich and mature feature set across a wide variety of industries. However, you might want to extend processes or incorporate data assets from other sources. In this article, we examine how to integrate Dynamics 365 apps with other solutions, or with each other. In the related articles, we guide you through selecting a platform, design, and pattern, and discuss the challenges you might face during integration. We also provide product-specific guidance for integration with and between the Dynamics 365 apps.  
 

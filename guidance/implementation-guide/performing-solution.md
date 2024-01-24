@@ -1,5 +1,5 @@
 ---
-title: Performance overview
+title: Explore how Dynamics 365 products and tools can improve performance
 description: Understand why prioritizing performance matters to your solution and learn more about Dynamics 365 products and tools to improve performance.
 author: TimoGossen
 ms.author: timogoss
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Performance overview
+# Explore how Dynamics 365 products and tools can improve performance
 
 When a new Dynamics 365 implementation is delivered, users typically expect an improvement in system performance. Although Dynamics 365 products are scalable and powerful, achieving a high-performance solution depends on many factors, not just the platform, apps, and services that make up your solution. This section covers why prioritizing performance matters to your solution and introduces key concepts:
 

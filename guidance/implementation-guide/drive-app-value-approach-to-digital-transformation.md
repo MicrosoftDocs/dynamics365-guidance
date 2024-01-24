@@ -1,5 +1,5 @@
 ﻿---
-title: Plan your digital transformation
+title: Plan your business-focused digital transformation and drive value by expanding your solution
 description: Learn how to use the Success by Design framework to map your business model, identify triggers for change, set goals, and prioritize processes for your digital transformation with Dynamics 365.
 author: taksatoms
 ms.author: tsato
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Plan your digital transformation
+# Plan your business-focused digital transformation and drive value by expanding your solution
 
 Many articles in the Dynamics 365 guidance content talk about how to start, implement, and deploy a project using [Success by Design](success-by-design.md). Success by Design is a framework that helps you design and deliver successful business applications. But Success by Design isn't only about launching a project or achieving operational excellence. It's also about creating the right foundation for your organization to evolve your business applications and expand your digital transformation.
 

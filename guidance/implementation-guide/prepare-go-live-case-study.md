@@ -1,5 +1,5 @@
 ﻿---
-title: Case study
+title: A case study for Dynamics 365 implementation projects’ prepare phase
 description: Review the readiness of a toy company to go live with Microsoft Dynamics 365 to learn the importance of the prepare phase in an implementation project.
 ms.date: 06/06/2023
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.custom:
   - bap-template
 ---
 
-# Case study
+# A case study for the prepare phase of Dynamics 365 implementation projects
 
 **A toy company reviews its readiness to go live with a new cloud solution.**
 

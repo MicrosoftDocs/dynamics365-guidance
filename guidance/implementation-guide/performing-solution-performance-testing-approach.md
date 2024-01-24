@@ -1,5 +1,5 @@
 ---
-title: Test for performance
+title: Define performance goals for your Dynamics 365 solutions
 description: Learn how to develop and document a performance testing strategy to model expected system usage and achieve the defined performance goals of your Dynamics 365 solutions.
 author: TimoGossen
 ms.author: timogoss
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Test for performance
+# Develop performance testing strategies for your Dynamics 365 solutions
 
 The project team, business stakeholders, and users need to be confident that requirements they identified are achieved when the system is implemented. A performance testing strategy makes sure system performance is measurable and provides a clear indication of whether performance is acceptable.
 

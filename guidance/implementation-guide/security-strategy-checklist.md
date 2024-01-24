@@ -1,5 +1,5 @@
 ---
-title: Checklist for security
+title: Success by design security checklist for key activities in application security
 description: Use the Success by Design security checklist to plan and prioritize your key activities for privacy and compliance, identity and access, and application security.
 author: riblack-microsoft
 ms.author: riblack
@@ -14,7 +14,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Checklist for security
+# Success by design security checklist for key activities in application security
 
 ## Privacy and compliance
 

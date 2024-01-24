@@ -1,6 +1,6 @@
 ---
-title: Manage your data
-description: Learn how to manage your data effectively and efficiently in Dynamics 365 implementation projects using data governance and other data aspects.
+title: Manage your data in Dynamics 365 implementation projects
+description: Learn how data governance, architecture, modeling, storage, migration, integration, and quality can help you make informed decisions. This article discusses how admins need to think about their data holistically, not just for implementation but as a long-term asset. You can improve your customer engagement, and gather real-time information about your products in the field. We examine the various ways that data management plays a role in the creation of an effective Dynamics 365 solution.
 author: vaniaf
 ms.author: veneva
 ms.date: 01/08/2024
@@ -14,7 +14,7 @@ content_well_notification:
 - AI-contribution
 ---
 
-# Manage your data
+# Manage your data in Dynamics 365 implementation projects
 
 Data is everywhere, and it is one of the most valuable assets of any business. With the right data, you can make informed decisions, improve customer engagement, and gather real-time information about your products in the field.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Cutover strategy
+title: Transition to new solutions successfully with the cutover process
 description: Learn how to plan and execute a successful cutover to transition to a new Microsoft Dynamics 365 solution with minimal disruption.
 ms.date: 06/06/2023
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.custom:
   - bap-template
 ---
 
-# Cutover strategy
+# Transition to new solutions successfully with the cutover process
 
 The cutover is the last mile before going live with a new Dynamics 365 implementation. It marks the transition from the legacy system to the new solution. Cutover entails the execution of tasks that are required to successfully go live with a well-defined scope in a production environment.
 

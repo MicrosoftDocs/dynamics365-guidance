@@ -1,5 +1,5 @@
 ---
-title: Go-live Readiness workshops
+title: Go-live readiness workshops for Dynamics 365 projects
 description: The Go-live Readiness workshop is designed to help guarantee a successful go-live of projects.
 ms.author: jedinh
 ms.date: 01/30/2023
@@ -9,7 +9,7 @@ ms.reviewer: edupont
 author: ReneeW-CPub
 ---
 
-# Go-live Readiness workshop
+# Go-live readiness workshops for Dynamics 365 projects
 
 The Go-live Readiness workshop is designed to help guarantee a successful go-live for Dynamics 365 projects. This workshop covers validations necessary to ensure the solution meets the customer’s needs and expectations, both functional and nonfunctional. The focus is to ensure a smooth transition to Dynamics 365 in the available cutover window and avoid any surprises during and after go-live.
 

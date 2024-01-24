@@ -1,5 +1,5 @@
 ---
-title: Challenges in integration projects
+title: Identify and mitigate challenges in your integration projects in Dynamics 365
 description: Find guidance on how to proactively identify and mitigate the challenges of your integration strategy in a Dynamics 365 implementation project.
 author: abunduc-ms
 ms.author: abunduc
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Challenges in integration projects
+# Identify and mitigate challenges in your integration projects in Dynamics 365
 
 The diverse applications used in organizations make up the IT backbone of those companies. Organizations use applications that might be a combination of on-premises, cloud, and third parties. These applications need to communicate with each other for different business needs. Integration challenges during a project implementation can cause delays or cost increases. A key focus of any IT department is to ensure that these integrations enable business productivity and not become a blocker to business growth.
 

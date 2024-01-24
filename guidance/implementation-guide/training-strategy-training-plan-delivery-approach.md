@@ -1,5 +1,5 @@
 ---
-title: Delivery approach for the training plan
+title: Delivery approach for training plans for your Dynamics 365 implementation projects
 description: Find guidance about how to define how you run training based on your training plan for your Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: TimoGossen
 ms.author: timogoss
 ---
 
-# Delivery approach for the training plan
+# Delivery approach for training plans for your Dynamics 365 implementation projects
 
 As a subset of your training plan, your organization should create a training delivery document that contains specifics about the actual execution of training. Many of the topics in the training delivery document are covered in the overarching training plan. However, it's important to have a specific plan for training delivery, to ensure that your organization is prepared to carry out training.
 

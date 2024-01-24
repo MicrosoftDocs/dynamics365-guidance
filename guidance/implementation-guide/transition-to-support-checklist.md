@@ -1,5 +1,5 @@
 ﻿---
-title: Transition to support - support checklist
+title: Checklist for transitioning to support
 description: This article is a checklist for transitioning to support at the end of an implementation project of a business solution. 
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 03/30/2023
 ms.topic: conceptual
 ---
 
-# Transition to support checklist
+# Checklist for transitioning to support for your Dynamics 365 implementation projects
 
 ## Support scope
 

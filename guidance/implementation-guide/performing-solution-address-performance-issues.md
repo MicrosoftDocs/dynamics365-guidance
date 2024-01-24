@@ -1,5 +1,5 @@
 ---
-title: Address performance issues
+title: Address performance issues in your Dynamics 365 implementations projects
 description: Learn how to deal with performance issues in your Dynamics 365 solutions by analyzing root causes, identifying problematic customizations, and taking a risk-averse approach to optimization.
 author: TimoGossen
 ms.author: timogoss
@@ -12,7 +12,7 @@ ms.custom:
   - bap-template
 ---
 
-# Address performance issues
+# Address performance issues in your Dynamics 365 implementations projects
 
 Analyzing and mitigating specific performance problems is beyond the scope of this guidance. However, some broad considerations might help you structure an approach to resolving issues.
 

@@ -1,5 +1,5 @@
 ---
-title: Case study for your training strategy
+title: Case study for Dynamics 365 implementation project training strategies
 description: Read a case study about an organization that added a training plan to its Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: TimoGossen
 ms.author: timogoss
 ---
 
-# Case study for your training strategy
+# Case study for Dynamics 365 implementation project training strategies
 
 A midsize global fire protection company has earned a reputation for providing maintenance and service of the highest quality to its customers. During its 75-year existence, this company has built its business organically through natural growth, marketing, and geographic expansion, and also through numerous acquisitions of smaller fire protection companies. The company recently hired a new chief information officer (CIO) to replace the one who retired after 15 years in the job. The new CIO had extensive experience working with Microsoft and software as a service (SaaS) products. The CIO's immediate focus was to consolidate and modernize the applications that employees use to conduct their business.
 

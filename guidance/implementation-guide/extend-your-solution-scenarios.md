@@ -1,5 +1,5 @@
 ---
-title: Scenarios for extending Dynamics 365
+title: Scenarios for customizing and extending capabilities in Dynamics 365 implementation projects
 description: Get example scenarios for when and how to extend the standard capabilities in Dynamics 365 implementation projects.
 author: abunduc-ms
 ms.author: abunduc
@@ -8,7 +8,7 @@ ms.topic: conceptual
 
 ---
 
-# Scenarios for extending Dynamics 365
+# Scenarios for customizing and extending capabilities in Dynamics 365 implementation projects
 
 Dynamics 365 includes many capabilities. But an implementation project must fulfill an organization's requirements and extend the built-in capabilities.  
 
