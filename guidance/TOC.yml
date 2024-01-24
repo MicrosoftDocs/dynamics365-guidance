@@ -411,6 +411,8 @@ items:
             href: implementation-portal/onboard-project.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
+          - name: Project profiling
+            href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
 # 14733
