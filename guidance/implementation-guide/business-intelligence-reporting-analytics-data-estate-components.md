@@ -1,153 +1,164 @@
 ---
-title: Components of the modern data estate
-description: Learn how you can integrate services from across Dynamics 365 and get consolidated reports.
+title: How Dynamics 365 and Power Platform support your data estate
+description: Discover how you can use Dynamics 365 and Power Platform to integrate, store, analyze, and act on data from various sources.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 10/17/2022
+ms.date: 01/23/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Components of the modern data estate
 
-Dynamics 365 and the Power Platform can be an essential part of your modern data estate architecture. Your business data is securely stored within Dynamics 365 as a function of your day-to-day operations. In addition, Dynamics 365 can export data to or ingest data from various sources to be used in reporting, workflow, applications, or in any other way that is required by your business.
+# How Dynamics 365 and Power Platform support your data estate
 
-You can also generate insights and analytics from data created and managed inside each Dynamics 365 application. Apps using embedded intelligence, such as the audience insights capability inside the Dynamics 365 Customer Insights app, enrich your data and allow more informed decision-making.
+Dynamics 365 and Power Platform can help you build a modern data estate that meets your business needs. You can store and manage your business data securely within Dynamics 365 as part of your daily operations. You can also export or import data to and from various sources to create reports, workflows, apps, or other solutions.
+
+With Dynamics 365 apps, you can also generate insights and analytics from the data you create and manage. For example, you can use the audience insights feature in Dynamics 365 Customer Insights to enrich your customer data and make better decisions.
+
+In this article, we'll explore how Dynamics 365 and Power Platform work together with other technologies to create a modern data estate architecture.
 
 ## Common Data Model
 
-Dynamics 365 data estate components can ingest, store, prepare, model, and visualize data to produce insights that will support, boost, and even transform operations.  
+One of the key technologies that enables a modern data estate is Common Data Model. Common Data Model is a shared language for business and analytical applications. It provides a set of standard schemas for common concepts such as people, budgets, and campaigns. This makes it easier to share and understand data across applications and processes.
 
-<!-- <T.G. figure reference not needed (Figure 13-3)-->
+The following diagram shows how Common Data Model works as part of a modern data estate:
 
-:::image type="content" source="media/commondatamodel.png" alt-text="common data model" lightbox="media/cdmschema.png":::
+:::image type="content" source="media/commondatamodel.png" alt-text="Diagram showing Common Data Model as a component of a modern data estate." lightbox="media/cdmschema.png":::
 
-Common Data Model is one of the key technologies enabling access to many kinds of information from heterogeneous services and data stores. Learn more at [Common Data Model](/common-data-model/).  
+Common Data Model also supports extensibility. You can customize or create new schemas to fit your specific needs. [Learn more about Common Data Model](/common-data-model/).
 
-Common Data Model is a shared data language used by business and analytical applications and offers a set of standardized, extensible data schemas to enable consistency of data and its meaning across applications and business processes.
+Dynamics 365 uses [Dataverse](/power-apps/maker/data-platform/) to store and secure app data based on Common Data Model. Dataverse lets you build or extend apps using Power Apps directly against your business data.
 
-The Common Data Model specification defines out-of-the-box standard entities representing common concepts such as people, budgets, and campaigns. Having your data in a common format for entities with the relevant metadata makes it possible to build apps and services that light up based on the data. The Common Data Model format also makes it easier to consume data in the Power Platform, which uses Power BI to get insights from your data. Normalizing the data sets up your organization to better identify opportunities and puts your data in a format that could be used for future projects. Dynamics 365 uses [Dataverse](/power-apps/maker/data-platform/) to store and secure app data, based on Common Data Model. The Common Data Model structure is defined in an extensible schema. <!-- <T.G. adding graphic directly> as shown in Figure 13-4. -->Organizations can build or extend apps by using Power Apps and Dataverse directly against their business data. Learn more at [Dataverse](/power-apps/maker/data-platform/).  
+The following diagram shows an example of the structure of a Common Data Model schema.
 
-:::image type="content" source="media/cdmschema.png" alt-text="common data model schema" lightbox="media/cdmschema.png":::
+:::image type="content" source="media/cdmschema.png" alt-text="Diagram of a Common Data Model schema." lightbox="media/cdmschema.png":::
 
 ## Data unification components
 
-Services and applications that ingest data from multiple sources serve a vital role in a modern data estate. Aggregation from data stores and services provides users with business-critical information supplied in dashboards and reports. The resulting data and events can also be used to trigger workflows and act as inputs to the apps running on the Dataverse platform. Many data unification components are built into Dynamics 365 applications—and organizations can design their own integrations to fit their business needs.
+To get the most value from your data estate, you need to be able to unify data from multiple sources into a single view to produce insights that can support, improve, or transform your operations.
+
+Dynamics 365 offers several services and applications that can ingest data from various sources into Dataverse or other destinations. You can also design your own integrations.
 
 ### Customer Insights as a customer data platform
 
-[Dynamics 365 Customer Insights](/dynamics365/customer-insights/audience-insights/overview) is a real-time customer data platform that brings together transactional, behavioral, and demographics data from various sources to create a 360-degree view of your customers.
+[Dynamics 365 Customer Insights](/dynamics365/customer-insights/audience-insights/overview) is a platform that combines transactional, behavioral, and demographic data from different sources in Dataverse to create a 360-degree view of your customers.
 
-:::image type="content" source="media/customerinsightssolution.png" alt-text="customer insights solution" lightbox="media/customerinsightssolution.png":::
+The following diagram shows an example of how Customer Insights works as a customer data platform:
 
-The Customer Insights solution <!-- <T.G. adding figure on top instead (Figure 13-5)--> offers prepackaged customer-analytics capabilities such as segmentation, churn analysis, and product recommendations, with Power BI embedded for easy data exploration and visualization. It also incorporates AI and machine learning models, so data scientists can create custom models in the Azure Machine Learning platform. The addition of Azure Cognitive Services provides text, speech, image, and video analysis, and enriches data via Microsoft Graph.
+:::image type="content" source="media/customerinsightssolution.png" alt-text="Diagram of a Customer Insights solution, with data unified to generate insights that lead to actions." lightbox="media/customerinsightssolution.png":::
+
+Customer Insights also offers built-in analytics capabilities such as segmentation, churn analysis, and product recommendations. You can use Power BI to explore and visualize your customer data. You can also use Azure Machine Learning and Azure Cognitive Services to create custom models and enrich your data with AI.
 
 ## Dataverse and applications
 
-Building an app typically involves accessing data from more than one source. Although it can sometimes be done at the application level, there are cases where integrating this data into a common store creates an easier app-building experience—and a single set of logic to maintain and operate over the data. With Dataverse, data can be integrated from multiple sources into a single store and then be used in Power Apps, Power Automate, Power BI, and Power Virtual Agents, along with data that's already available from Dynamics 365 apps.
+Dataverse isn't just a data store. It's also a platform for creating applications. You can use Power Apps, Power Automate, Power BI, and Power Virtual Agents to build solutions that use your Dataverse data. You can also access data from other Dynamics 365 apps or external sources using connectors or APIs.
 
 ## Data export components
 
-A key characteristic of a data estate is the ability to export data to services as needed. Because data in the Dataverse conforms to the Common Data Model standards, businesses have the flexibility to export data from Dynamics 365 to other cloud services and applications using an industry-standard format, greatly simplifying the standardization of exported and imported data. To facilitate this business need, Dynamics 365 has several built-in export services.
+Sometimes you might need to export your data from Dynamics 365 to other services or applications for analysis, reporting, backup, or other purposes. Because data in Dataverse conforms to Common Data Model standards, Dynamics 365 offers several options for exporting your data in an easy, secure, and industry-standard way.
 
 ### Export to Azure Data Lake
 
-The [Export to Azure Data Lake](/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview) for finance and operations apps is the preferred option to continuously export data from Dynamics 365 finance and operations apps to Azure Data Lake Storage Gen2. The service supports initial and incremental writes for table data and metadata. Any data or metadata changes are automatically pushed to the Azure Data Lake without any additional action.
+The [Export to Azure Data Lake](/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview) service lets you export your Dynamics 365 finance and operations app data to Azure Data Lake Storage Gen2. This service supports initial and incremental writes for table data and metadata. Any changes in your Dynamics 365 data are automatically pushed to the Azure Data Lake without any extra steps.
 
-Azure Data Lake Storage Gen2 is the foundation for building enterprise data lakes on Azure and provides low-cost, tiered storage with high availability and disaster recovery capabilities.
+Azure Data Lake Storage Gen2 is a scalable and cost-effective storage service for big data analytics. It offers low-cost, tiered storage with high availability and disaster recovery capabilities.
 
 ### Data Export Service
 
-The [Data Export Service](/power-platform/admin/replicate-data-microsoft-azure-sql-database) replicates data from the Dataverse database to an external Azure SQL Database or an SQL Server on Azure virtual machines. This service intelligently syncs all data initially, and thereafter syncs the data on a continuous basis as delta changes occur in the system, enabling several analytics and reporting scenarios on top of Azure data and analytics services. Data Export Service reached end-of-support and end-of-life in November 2022 and was replaced by Azure Synapse Link for Dataverse.
+The [Data Export Service](/power-platform/admin/replicate-data-microsoft-azure-sql-database) replicates your Dataverse database to an external Azure SQL Database or SQL Server on Azure virtual machines. It syncs all your data initially, and then syncs any changes continuously as they occur in your system.
+
+Data Export Service reached end-of-support and end-of-life in November 2022. It was replaced by Azure Synapse Link for Dataverse.
 
 ### Azure Synapse Link for Dataverse
 
-[Azure Synapse Link for Dataverse](/powerapps/maker/data-platform/export-to-data-lake) enables our customers to get near real-time insights over their data in Microsoft Dataverse. With a few clicks, customers can bring their Dataverse data to Azure Synapse, visualize data in your Azure Synapse workspace, and rapidly start processing the data to discover insights using advanced analytics capabilities for serverless data lake exploration, code-free data integration, data flows for extract, transform, load (ETL) pipelines, and optimized Apache Spark for big data analytics. Customers can use the familiarity of T-SQL to analyze big data and gain insights from it, while optimizing their data transformation pipeline to leverage the deep integration of Azure Synapse with other Azure services such as Power BI Embedded, Azure CosmosDB, Azure Machine Learning, and Azure Cognitive Services.
+[Azure Synapse Link for Dataverse](/powerapps/maker/data-platform/export-to-data-lake) enables you to get near-real&ndash;time insights from your Dataverse data. You can easily connect your Dataverse data to Azure Synapse Analytics, a powerful cloud service that combines data warehousing, big data processing, machine learning, and business intelligence.
 
-Azure Synapse Link for Dataverse is the fastest path to success for our customers to analyze data and generate insights as our experiences are ready to run as soon as you launch your Azure Synapse workspace.
+With Azure Synapse Analytics, you can discover insights in your data using advanced analytics capabilities, like serverless data lake exploration, code-free data integration, data flows for extract, transform, load (ETL) pipelines, and optimized Apache Spark for big data analytics. You can also use Azure Machine Learning and Azure Cognitive Services to enhance your data with AI.
+
+Azure Synapse Link for Dataverse is the fastest and easiest way to analyze your data and generate insights. You don't need to move or copy your data, and you can start using your Azure Synapse workspace as soon as you create it.
 
 ### Bring your own database (BYOD)
 
-The [bring your own database (BYOD)](/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/finance/toc.json) feature lets organizations export data from the finance and operations apps into an external Azure SQL database. BYOD helps support scenarios where organizations may need to export data for unification or other purposes.
+The [bring your own database (BYOD)](/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/finance/toc.json) feature allows you to export your Dynamics 365 finance and operations app data to an external Azure SQL database. BYOD can help you integrate your data with other sources or systems for reporting or other purposes.
 
 ## Embedded intelligence
 
-Dynamics 365 apps with embedded intelligence, such as [Sales Insights](/dynamics365/ai/sales/overview) and [Customer Service Insights](/dynamics365/ai/customer-service-insights/overview), allow organizations to use AI without depending on highly skilled resources. These apps continuously analyze your data and generate insights to help you understand business relationships, evaluate activities and interactions with customers, and determine actions based on those insights.
+Some Dynamics 365 apps have embedded intelligence features that use AI to help you understand and improve your business performance. These features analyze your data and provide insights that can help you optimize your sales, customer service, marketing, or human resources processes.
 
-Unified data results in a 360-degree view of customers to ensure high-quality decision-making and predictions informed by the best, most recent data.
+For example, [Sales Insights](/dynamics365/ai/sales/overview) and [Customer Service Insights](/dynamics365/ai/customer-service-insights/overview) offer features such as conversation intelligence, predictive forecasting, sentiment analysis, and issue resolution.
+
+Embedded intelligence features use Dataverse as the source of truth for your business data and Azure Machine Learning and Azure Cognitive Services for advanced analytics and AI capabilities.
 
 ## Power Platform
 
-The [Power Platform](/power-platform/) <!-- <T.G. removing figure, adding hyperlink instead> (Figure 13-6)--> enables organizations to analyze, act on, and automate the data to digitally transform their businesses. The Power Platform today comprises four products: Power BI, Power Apps, Power Automate, and Power Virtual Agents.
+[Power Platform](/power-platform/) is a suite of no-code/low-code tools that let you analyze, automate, and build solutions using your data estate. Power Platform consists of four products: Power BI, Power Apps, Power Automate, and Microsoft Copilot Studio.
 
 ### Power BI
 
-Power BI is both part of the Power Platform and stands on its own by bridging the gap between data and decision-making. Power BI lets business analysts, IT professionals, and data scientists collaborate seamlessly, providing a single version of data truth that delivers insights across an organization. Learn more at [Power BI](/power-bi/).  
+Power BI is a business intelligence tool that helps you turn your data into insights. You can use Power BI to connect to various data sources in Dynamics 365, Azure, or elsewhere. You can also create reports and dashboards that visualize your data in interactive ways.
 
-Power BI helps you analyze your entire data estate within the Dynamics 365 or Azure platforms, or external sources. Power BI can connect individually with siloed sources to provide reporting and analytics, or it can connect with data stores within or outside of Dynamics 365. As data can come from multiple sources, organizations should analyze how Power BI will connect with those sources as a part of their data estate pre-planning.
+Power BI is integrated with Dynamics 365 apps and Dataverse. You can use embedded Power BI reports within Dynamics 365 apps or access them from the Power BI service. You can also use the Dataverse connector in Power BI Desktop to query Dataverse data directly.
 
-Making data available to all users is risky. Security in reporting and analytics should be aligned with your business solution. Be sure to have your data governance in place, and periodically review who needs access to which information. This may be a time-consuming process, but your data must be protected, secured, and only accessible to those who truly need it.
+Power BI lets you collaborate with other users across your organization. You can share reports and dashboards with others or publish them on the web. You can also use natural language queries or chatbots to get answers from your data.
+
+[Learn more about Power BI](/power-bi/).
 
 ### Power Apps, Power Automate, and Power Virtual Agents
 
-With [Power Apps](/power-apps/), you can consume, create, and complement information to contribute to scale and efficiency for the users consuming that data. Organizations can also get accurate insights by adding low-code AI tools to their process automation via Power Automate. Power Virtual Agents help you create and manage powerful chatbots without the need for code or AI expertise, and monitor and improve chatbot performance using AI and data-driven insights.
+[Power Apps](/power-apps/) lets you create custom apps that use your data estate without writing code. You can use prebuilt templates or start from scratch using a drag-and-drop interface.
+
+[Power Automate](/power-automate/) lets you create workflows that automate tasks across applications using triggers and actions. You can use prebuilt templates or design your own flows using a graphical interface.
+
+[Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) lets you create AI-powered chatbots that interact with your users using natural language. You can use a graphical interface to design your bot's conversations and logic.
+
+All Power Platform apps let you use connectors or APIs to access data from Dynamics 365 apps, Dataverse, Azure services, or other sources.
 
 ## Microsoft Azure
 
-:::image type="content" source="media/azuredatawarehousearchitecture.png" alt-text="azure data warehouse architecture" lightbox="media/azuredatawarehousearchitecture.png":::
+Azure is a cloud platform that offers a range of services and tools for building, managing, and analyzing your data estate. You can use Azure to integrate, store, process, and visualize data from Dynamics 365 apps, Dataverse, or other sources. You can also use Azure to enhance your data with machine learning and AI.
 
-With Dynamics 365 apps at the center of the data estate, Azure provides an ideal platform <!-- <T.G. figure reference not needed (Figure 13-7)--> for hosting services for business workloads, services, and applications that can easily interact with Dynamics 365 apps. Built-in services in Dynamics 365 let you export data as needed or scheduled. Power BI can aggregate information from Dynamics 365 and Azure sources into an integrated view, and Power Apps can access both Dynamics and Azure sources for low-code, custom applications designed for business use.
+The following diagram shows an example of how Azure can support your data estate architecture.
+
+:::image type="content" source="media/azuredatawarehousearchitecture.png" alt-text="Diagram of Azure data warehouse architecture." lightbox="media/azuredatawarehousearchitecture.png":::
 
 ### Azure cloud platform
 
-For data estates that include Dynamics 365 and other platforms, Azure can help with unification of data to generate insights. There are multiple options within the Azure cloud platform to ingest, store, prepare, model, and visualize data <!-- <T.G. reference not required>(Figure 13-8)-->, as well as build intelligence on top of that data—whether it's siloed or unified.  
+The Azure cloud platform offers multiple options for ingesting, storing, preparing, modeling, and visualizing data. You can also use Azure to build intelligence on top of your data, whether it's siloed or unified.
 
-:::image type="content" source="media/moderndataplatformreferencearchitecture.png" alt-text="modern data platform reference architecture" lightbox="media/moderndataplatformreferencearchitecture.png":::
+The following diagram shows an example of a modern data platform reference architecture that uses Azure services.
+
+:::image type="content" source="media/moderndataplatformreferencearchitecture.png" alt-text="Diagram of how Azure services are part of a modern data platform reference architecture." lightbox="media/moderndataplatformreferencearchitecture.png":::
 
 ### Azure Stack
 
-Azure Stack is a portfolio of products that allows you to use embedded intelligence to extend Azure services and capabilities to your environment of choice—from the datacenter to edge locations and remote offices. You can also use it to build and deploy hybrid and edge computing applications, and run them consistently across location boundaries.
+Azure Stack is a portfolio of products that lets you extend Azure services and capabilities to your own environment. You can use Azure Stack to build and deploy hybrid and edge computing applications that run consistently across different locations.
 
-### Data load, ingestion, and pipeline orchestration
-
-Azure Data Factory is a hybrid data integration service for creating, scheduling, and orchestrating ETL and extract, load, and transform (ELT) workflows. Organizations can use Azure Data Factory to combine Common Data Model data and other data sources, and process that data for unique insights. Azure Event Hubs can ingest data streams generated by a client application.
-
-### Data store
-
-Azure Blob Storage offers massively scalable object storage for any type of unstructured data—such as images, videos, audio, and documents—while Azure Data Lake Storage eliminates data silos with a single and secured storage platform.
-
-### Machine learning and AI
-
-Azure Databricks provides a cloud-hosted Apache Spark cluster where data engineers, data scientists, and business users can collaborate to train their models and get analytics.
-
-The Azure Machine Learning service gives developers and data scientists a range of productive experiences to build, train, and deploy machine learning models faster.
-
-Azure Cognitive Services puts AI within reach of every developer—without requiring machine-learning expertise. It only takes an API call to embed the ability to see, hear, speak, search, understand, and accelerate decision-making in your apps.
-
-### Model and serve
-
-Azure Analysis Services employs enterprise-grade analytics as a service (AaaS) to govern, deploy, test, and deliver business intelligence solutions.
-
-Azure Synapse Analytics is a fast, flexible, and trusted cloud data warehouse that lets you scale, compute, and store data elastically and independently with a massively parallel processing architecture. It can scale across proprietary SQL and open-source databases and manage analytics workloads to provide fast, cost-effective power over any data—whether it is structured, semi-structured, run in real time, or globally distributed.
-
-Azure Cosmos DB is a fully managed NoSQL database service for modern app development.
+- **Azure Data Factory**: A hybrid data integration service that lets you create, schedule, and orchestrate Extract, Transform, Load (ETL) and ELT workflows.
+- **Azure Event Hubs**: A big data streaming service that ingests data streams from various sources.
+- **Azure Blob Storage**: A massively scalable object storage service for any type of unstructured data.
+- **Azure Data Lake Storage Gen2**: A scalable and cost-effective storage service for big data analytics.
+- **Azure Databricks**: A cloud-hosted Apache Spark cluster where data engineers, data scientists, and business users can collaborate to train their models and get analytics.
+- **Azure Machine Learning**: A cloud service that lets you build, train, and deploy machine learning models faster and easier.
+- **Azure Cognitive Services**: A collection of AI services that let you add vision, speech, language, search, and decision capabilities to your apps.
+- **Azure Analysis Services**: An enterprise-grade analytics as a service (AaaS) that lets you govern, deploy, test, and deliver business intelligence solutions.
+- **Azure Synapse Analytics**: A powerful cloud service that combines data warehousing, big data processing, machine learning, and business intelligence.
+- **Azure Cosmos DB**: A fully managed NoSQL database service for modern app development.
 
 ## Synergy
 
-Getting maximum value from your data requires a modern data estate based on a data strategy that includes infrastructure, processes, and people.
+To get the maximum value from your data, you need a modern data estate that aligns with your data strategy. Your data strategy should include the infrastructure, processes, and people that support your data goals.
 
-Your data can flow inside a cloud solution or via synergy with other components and platforms to provide an infrastructure and processes for analyzing data and producing actionable outcomes.
+Your data can flow inside a cloud solution or across different components and platforms to provide an infrastructure and processes to analyze your data and produce actionable outcomes.
 
-People are a big part of the process, and the data journey will often start and finish with them. The insights and actionable outcomes will allow them to make better decisions—for themselves and the business.
+People are a crucial part of the data journey. The insights and actionable outcomes help them make better decisions for themselves and the business.
+
 > [!IMPORTANT]
-> Due to budget, time, or skills constraints, some organizations decide to deliver a business solution as a first step, with a plan to improve insights and analytics capabilities at some point in the future. Insights and analytics should be addressed in the early phases of a business solution, even if it doesn't yet include all scenarios. Leaving these vital elements until later can affect the business and the user experience, eventually reducing adoption, increasing costs, and giving a negative perception of the value the solution has to offer.
-<!-- T.G.<Make this part of the introduction instead>
-# Conclusion
+> Due to budget, time, or skills constraints, some organizations decide to deliver a business solution as a first step, with a plan to improve insights and analytics capabilities later. We don't recommend this approach. You should address insights and analytics in the early phases of a business solution, even if it doesn't yet include all scenarios. Leaving these vital elements until later can affect the business and the user experience, reducing adoption, increasing costs, and giving a negative perception of the value the solution has to offer.
 
-In this chapter, we discussed how organizations are becoming more competitive, expanding their global reach to attract customers, and using business intelligence solutions to make the most of their data.
+## Next steps
 
-While seeking data on how customers interact with their products and services, organizations are acting on that data to give customers access to more content, new purchasing channels, and brand options. By deeply understanding customer behavior, organizations can engage customers proactively and make predictions about their future behavior.
-
-Successful organizations will use data to empower their employees, intelligently engage their customers, transform their products and services, and optimize their operations. They'll also use data to reduce operational risks and costs, and to respond to opportunities and market changes to meet their customers' needs.
-
-Business intelligence, reporting, and analytics should not be an afterthought. Focusing on building a unified and modern data estate gives organizations access to augmented analytics and embedded intelligence solutions, which will be the differentiator in the future. By changing the ways that they use data to understand and engage with their customers, organizations can reach each customer at the right time, on the right channel, with the right message, for the right outcome.
--->
+- Use the Success by Design [checklist](business-intelligence-reporting-analytics-checklist.md) to assess and improve your reporting and analytics strategy
