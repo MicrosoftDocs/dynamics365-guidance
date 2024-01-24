@@ -1,175 +1,153 @@
 ---
-title: Testing strategy
-description: Learn how the value of having a solid testing strategy in place early on for your implementation and how to build a testing strategy that works for you. We explain the importance of testing your solution before it goes live to discover any defects in the process as early as possible, allowing time to address them.
+title: Test your Dynamics 365 solution before deployment
+description: Learn why testing your Dynamics 365 solution is essential for a successful implementation and how to create and execute a comprehensive testing strategy.
 author: edupont04
 ms.author: veneva
-ms.date: 06/21/2023
+ms.date: 01/23/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Testing strategy in Dynamics 365 implementation projects
+# Test your Dynamics 365 solution before deployment
 
-During implementation projects, a fundamental expectation is that the solution meets the business needs so that the organization can run their business successfully. A crucial process to meet this objective is to test the solution by performing multiple business execution rehearsals before the system goes into production and business operations are conducted in the system.
+When you implement a Dynamics 365 solution, you want it to meet your business needs and run smoothly. To achieve this, you need to test your solution thoroughly before you deploy it to production. Testing helps you avoid problems that could delay adoption, damage your reputation, and reduce confidence in the solution.
 
-It's imperative that proper testing of the solution is completed before deployment to production. This helps avoid costly challenges that could delay the adoption, create negative perception of the final product quality, and reduce the confidence to run the business on the new solution.
+The main goal of testing is to make sure your solution works well and supports your business operations. You want to find and fix any defects as early as possible, so you don't waste time and money later. Testing also helps you build user acceptance and trust in the solution.
 
-The overall goal of testing is to ensure the business can operate safely and efficiently. Detection of defects is important in order to ready the solution, processes, and people to operate the business in production efficiently and accurately as soon as possible. Proper testing executed at the right time allows us to detect defects in a systematic way as early as possible in this process.
-
-This article explores the following areas:
+This article covers the following topics:
 
 - The value of testing
-
 - Types of testing
+- How to define a test strategy
+- How to plan and schedule your tests
+- How to run the tests and handle the outcomes
+- How to get sign-off and approval for your solution
 
-- Defining a test strategy
+You'll also find some best practices, reference materials, and a case study to help you with your testing process.
 
-- Planning to test at the right time with clear scope
+## Why testing matters
 
-You can also find recommended practices for run the testing process, how to deal with the outcomes, and reaching the sign-off that confirms the readiness of the solution.
+Testing is a vital part of the application lifecycle management strategy. It's not a one-time activity that you do at the end of the implementation. It's a continuous cycle that supports bug fixes and feature enhancements over time. Testing starts with simple manual tests and evolves into more efficient automated tests. Your goal is to make sure that the quality of your solution meets your customer expectations.
 
-In the subsequent sections of this article, we explore the key components of a recommended test strategy.
+Testing also depends on the [methodology](implementation-strategy-choose-methodology.md) you use for your implementation. Different methodologies have different testing frequencies and approaches. For example, agile methods require more frequent and iterative testing than waterfall methods. In any case, you need a clear and consistent testing strategy to guide your testing activities and ensure readiness.
 
-Defining a comprehensive test strategy for your implementation is a combination of considering the project scope, testing planning with a test plan and test cycle schedule in combination with the phases and solution versions availability, and selecting all the relevant test types and how to execute them.
+A good testing strategy includes the following elements:
 
-- Define scope of testing based on your functional and nonfunctional business requirements
+- A clear testing scope based on your business processes and requirements
+- A comprehensive test plan with test cycles that match your solution phases and versions
+- Clear objectives, source documents, and entry/exit criteria for each test type
+- A tracking mechanism that lets you monitor progress, results, ownership, and issues for each test case
+- A process for adding or modifying test cases during each test pass
 
-- Select the required test types for your project
-
-- Create a test plan with right-sized test cycles
-
-- Execute on your test plan, document, and take action on outcomes
-
-## Focus on quality and scope
-
-Testing should be considered as a continuous activity within the application lifecycle management strategy. Not only is it critical during the implementation of the solution, but also during the Operation phase. It's a continuous cycle that supports fixes to bugs and extensions of features over time. In the beginning testing is completed manually, but over time with automation we can make the process far more efficient. Our objective is to ensure the quality of the solution continues to meet customer expectations.
-
-## The approach for testing
-
-Depending on the [methodology](implementation-strategy-choose-methodology.md) you apply, the testing frequency differs for each iteration. In all cases, you must look for a high-quality testing approach to confirm readiness.
-
-As part of your implementation methodology, you need to have a clear strategy for testing. This strategy is composed of the following items:
-
-- A clear testing scope defined by your business processes and requirements.
-
-- A comprehensive plan that brings clarity to when, why, who, how much, and where to test.
-
-- The different types of testing with clear objectives, source documents, and entry/exit criteria for each test type.
-
-- A comprehensive tracking mechanism that allows you to monitor overall progress, pass/fail rates, ownership, and issues tied to specific test cases.
-
-- A clearly defined process for adding or modifying test cases during each individual test pass.
-
-Explore each component to define the testing strategy for your Dynamics 365 implementation.
-
-## Defining the testing strategy
-
-At Microsoft, we've observed thousands of Dynamics 365 implementations. Our learning shows that the more successful implementations have a thorough definition of the test strategy, the quality, and the depth of testing. They also have the right business stakeholder involvement throughout test execution.
-
-In general, the approach of defining a good strategy doesn't change between implementations. What changes is the specific definition of the strategy framework that is applied to a specific implementation based on the particular business objectives, business constraints, and project scope and requirements. For example, the process to define the scope can be the same across projects, but the scope itself differs. Investing in a good strategy and making sure the implementation teams use it consistently increases the quality of the project outcome.
+We'll explore each of these elements in more detail later in this article.
 
 ## Testing scope
 
-The testing scope is defined early in the project after defining the solution, and it's refined as the solution blueprint takes shape. What changes throughout the project is the type of testing that comes into focus as you move through the implementation lifecycle and the ability to actually test the solution increases.
+The testing scope defines what you need to test and how you test it. It's based on your project scope, which includes your functional and nonfunctional requirements, your design specifications, your data needs, your geography, your security and regulatory policies, and your overall project goals.
 
-During the implementation, the number of test cases in the test scope keeps increasing as you progress in building the solution. After go-live, the scope focuses on maintaining the quality as you update the solution. However, testing can increase if you continue to expand.
+You should define your testing scope early in the project, after you define your solution, and refine it as your solution blueprint takes shape. Your testing scope should change as you add more test cases and increase your test coverage. You should also consider the different types of testing that you need to do at each stage of the implementation. For example, you might start with unit testing and end with user acceptance testing (UAT).
 
-Consider the testing journey as an incremental process, as illustrated in the following illustration.  
-
-:::image type="content" source="media/testing-strategy-scope.png" alt-text="Illustrates the testing strategy that is defined by processes and test cases.":::
-
-Regardless of the timeline, you need to keep two things in mind:
-
-- A clear view of the end-to-end business processes.
-
-- A clear definition of the depth and detail of the test case design, but also the variations of testing, for example edge cases and negative testing.
-
-> [!NOTE]
-> Make sure that every implementation you execute has a clear and solid testing strategy.
-
-## Project scope mapped to testing scope
-
-In order to strive towards a solid test strategy, it's crucial to map your project scope to your testing scope. It's essential to define how you test against each relevant project scope area. The following figure shows a sample of project scope areas with typical questions that can help you through this mapping exercise. For each area, you should have an idea how to test it.  
-
-:::image type="content" source="media/testing-strategy-areas.png" alt-text="Shows project scope areas across functional requirements, test scope, and nonfunctional requirements.":::
+The following table shows some examples of project scope areas and questions that can help you define your testing scope.
 
 ### Functional requirements
 
-|Area  |Questions  |
-|---------|---------|
-|Business processes  |What are the business processes in scope and how are they identified, prioritized and planned to be explicitly validated (including end-to-end) and not just as a set of fit/gap requirements?|
-|Business requirements| What are the business requirements in scope and how are they identified, prioritized, and planned to be explicitly validated?   |
-|Design requirements|How will you identify and prioritize the design requirements? How will you validate them across all the various design areas, such as functional, integrations, reporting, and so on?|
-|Data| What are the data requirements for the project, defined as key data entities for performing project transactions? These requirements impact data migration, integrations, reporting and business intelligence, and so on. How will you validate these points?|
-|Geography  |Are there specific geographical requirements (language, local market, regulations, and so on)?|
-|High risk areas|What are the business requirement areas that need special attention (for example crucial business areas, customized areas, highly regulated areas, and so on)?|
-|Security    |How are the key internal application security requirements and any external security requirements going to be validated?|
-|Regulatory requirements|How have the specific regulatory requirements both internal (organizational policies, and so on) and external (such as financial, compliance, and so on) been identified for validation?|
-|Overall project goals|How are the overall project goals or project success criteria mapped to specific requirements and how are they going to be validated?|
+| Area | Questions |
+| --- | --- |
+| Business processes | What are the business processes in scope and how do you test them end-to-end? |
+| Business requirements | What are the business requirements in scope and how do you test them? |
+| Design requirements | How do you test the design requirements for different areas, such as functionality, integration, reporting, and so on? |
+| Data | What are the data requirements for the project and how do you test them? How do you test data migration, integration, reporting, and business intelligence? |
+| Geography | How do you test the specific requirements for different languages, markets, and regulations? |
+| High risk areas | What are the high risk areas that need special attention, such as critical business areas, customized areas, highly regulated areas, and so on? How do you test them? |
+| Security | How do you test the internal and external security requirements for the solution? |
+| Regulatory requirements | How do you test the specific regulatory requirements, such as financial, compliance, and organizational policies? |
+| Overall project goals | How do you test the overall project goals or success criteria? How do you map them to specific requirements? |
 
-###  Nonfunctional requirements
+### Nonfunctional requirements
 
-|Area|Questions |
-|--|--|
-| Performance | How are key performance goals and expectations identified, prioritized, and planned to be explicitly validated? |
-| Usability | How are the usability requirements defined, prioritized, and planned to be validated? |
-| Operability | How are the requirements for the operability of the system(s) identified and validated? |
-| Maintainability | Are the maintainability requirements defined? How will they be validated? |
-| Disaster Recovery | How will the disaster recovery requirements/policies be validated? |
-| Business Continuity | How will the business continuity requirements/policies be identified, prioritized, and validated? |
+| Area | Questions |
+| --- | --- |
+| Performance | How do you test the performance goals and expectations for the solution? |
+| Usability | How do you test the usability requirements for the solution? |
+| Operability | How do you test the operability of the solution? |
+| Maintainability | How do you test the maintainability of the solution? |
+| Disaster Recovery | How do you test the disaster recovery policies for the solution? |
+| Business Continuity | How do you test the business continuity policies for the solution? |
 
-The table demonstrates that there's more to testing than simply validating if functional requirements have been satisfied. To progressively build your solution, you must determine the implementation processes and the requirements connected to each of them. Learn more at [Process-focused solution](process-focused-solution.md). As we build the solution and make it ready for validation, the scope of the testing increases as we add more test cases to reach optimum test coverage. During the project progression, we utilize different test types. From a simple unit test to end-to-end process tests used during user acceptance testing (UAT).  
+As you can see, testing is more than just checking whether the solution meets the functional requirements. You also need to test how the solution performs, how easy it is to use, how well it operates, how reliable it is, and how it supports your business continuity.
 
-> [!NOTE]
-> Never forget the initial mapping of test scope to project scope, that ensures the right test coverage and business process focus.
+Remember to always connect your test cases to the business processes that you're validating. This helps you track, report, and sign off on the readiness of the solution.
 
-Business involvement throughout solution validation provides the opportunity to build user acceptance gradually throughout the implementation and avoids identifying costly mistakes late in the process.
+## Types of testing
 
-In the context of business applications, testing isn't an artifact of the development process; it's an artifact of the business process. Functional testing should always be in the context of business processes. The overall scope of testing should include processes that are contained in the new solution, and also those processes that are upstream and downstream from the solution.
+There are many types of testing that you can use for your Dynamics 365 solution. Each type has a different purpose, scope, and method. You should select the types of tests that are relevant for your project and plan them accordingly.
 
-> [!TIP]
-> Connect the test to the process being validated. This facilitates tracking, reporting, and final sign off on readiness by the business team.
+Some of the common types of testing are:
 
-Get an overview of the different types of tests at [Test types](testing-strategy-test-types.md).  
+- Unit testing: Testing individual components or units of the solution, such as forms, fields, and workflows.
+- Integration testing: Testing how different components or systems work together, such as data flows, interfaces, and APIs.
+- System testing: Testing the functionality, performance, and usability of the entire system or solution.
+- User acceptance testing: Testing the solution from the user's perspective.
+- Regression testing: Testing the solution after changes or updates, such as bug fixes and feature enhancements.
+
+[Learn more about each type of testing](testing-strategy-test-types.md).
+
+## Test plan
+
+A test plan is a document that describes how you'll conduct your testing activities. It includes the following information:
+
+- The objectives and scope of each test cycle
+- The test cases and test scripts that you'll use for each test cycle
+- The roles and responsibilities of the test team and the stakeholders
+- The test environment and tools that you'll use for each test cycle
+- The entry and exit criteria that you'll use to start and end each test cycle
+- The schedule and duration of each test cycle
+- The risks and assumptions that affect your testing activities
+- The reporting and communication methods that you'll use for each test cycle
+
+A test plan helps you organize, coordinate, and execute your testing activities. It also helps you track and measure your testing progress and results. You should create a test plan for each test cycle and update it as needed.
+
+[Learn how to create and use a test plan](testing-strategy-planning.md).
+
+## Test execution and outcomes
+
+Once you have your test plan ready, you can start executing your tests. You should follow the steps and instructions in your test plan and use the test cases and test scripts that you prepared. You should also document and report the outcomes of your tests, such as pass/fail rates, issues, defects, and feedback.
+
+You should use a tracking tool or system to record and manage your test outcomes. This helps you monitor your testing progress and quality. It also helps you identify and prioritize the actions that you need to take to resolve any issues or defects. You should communicate and collaborate with your test team and stakeholders to ensure that your testing activities are aligned and effective.
+
+[Learn how to run your tests and handle the outcomes](testing-strategy-run-tests.md).
 
 ## Solution acceptance and operation
 
-Finally, the last test cycle takes the main objective of why you started implementing the solution to confirm the readiness to run the business using the new solution.
+The final test cycle is the one that determines whether your solution is ready to go live and support your business operations. This test cycle should confirm that your solution meets your business requirements, performs well, and works as expected. It should also confirm that your production environment is ready and that you have a mock cutover test to simulate the deployment.
 
-We described the importance of reporting the outcome of the test cycles for user acceptance test types, this report helps to determine the readiness to prepare for go live and is the foundation of the go or no-go decision by the stakeholders. The performance should be high at this point, and if not? Then the solution isn't ready.
+This test cycle should involve your business stakeholders and users, who should sign off and approve your solution. Signing off doesn't mean that your solution is perfect or bug-free. It means that your solution is good enough to operate your business safely and efficiently. You can fix any minor issues or enhancements later, without introducing unnecessary risks.
 
-This confirms the readiness of the solution but also the readiness of the production environment if you run a mock cutover test. It's important that for any final test the business team signs off and confirms they can operate the business with the new solution.
-
-Accepting the solution doesn't mean it's 100 percent free of bugs. You need to assess the value to bring a fix, at this point if the issue is low risk for the operation, it's often better to go live with known nonblocking bugs and fix them later than to introduce risk by making an unnecessary rushed fix and not having time to retest properly.
-
-From here, you move to the maintenance mode of the solution if you're implementing only one phase, or you continue adding new workloads or expanding the solution. Keep the discipline for testing and scale using the tools for automation. Testing is a continuous practice, the difference is the frequency, scope, and tools used to test.
-
-## Conclusion
-
-Testing is about quality, it's used to confirm the effectiveness of the path taken by the implementation team to solve the challenge of how to operate the business with the new solution, it confirms the initial vision by putting it into action. It's a required step in the process to implement Dynamics 365, regardless of how simple or complex your solution is, or if you're implementing standard functionality or extending or customizing it. If you run into a large number of quality related issues after you're live, it's often attributed to ineffective testing.
-
-Testing during implementation is the step that builds the trust for the business to run their operation. Always test and do so as early as possible. It's never too early to start testing.
+After you get the sign-off and approval, you can move to the deployment phase of your project. If you have only one phase, you can switch to the maintenance mode of your solution. If you have more phases, you can continue adding new workloads or expanding your solution. In either case, you should keep testing your solution regularly and use automation tools to make your testing process more efficient. Testing is a continuous practice that helps you ensure the quality and value of your solution.
 
 ## Reference material
 
+Here are some resources that can help you with your testing process:
+
 - Finance and operations apps
-
-  - [Test Strategy TechTalk](https://community.dynamics.com/blogs/post/?postid=05707484-1079-48b0-982b-88fe9215eaf1)<!--(https://community.dynamics.com/365/b/techtalks/posts/test-strategy-for-finance-and-operations-implementations-october-21-2020)-->
-  - [Performance benchmark](https://community.dynamics.com/blogs/post/?postid=fcc3526c-5f83-4645-8fa2-e01de47df387)<!--(https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-benchmark-for-dynamics-365-1-30-19)-->
-  <!-- [Performance patterns and antipatterns](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-key-patterns-and-anti-patterns-for-dynamics-365-1-15-19)-->
-  - [Performance troubleshooting tools](https://community.dynamics.com/blogs/post/?postid=037d2f4a-1745-4cfb-93e9-530741294f39)<!--(https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18)-->
-<!--  - [Performance testing approach](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018)-->
-<!--  - [Regression suite automation tool](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)-->
-
+  - [Test Strategy TechTalk](https://community.dynamics.com/blogs/post/?postid=05707484-1079-48b0-982b-88fe9215eaf1)
+  - [Performance benchmark](https://community.dynamics.com/blogs/post/?postid=fcc3526c-5f83-4645-8fa2-e01de47df387)
+  - [Performance troubleshooting tools](https://community.dynamics.com/blogs/post/?postid=037d2f4a-1745-4cfb-93e9-530741294f39)
 - Customer engagement apps
-
   - [FastTrack automated testing in a day workshop offering](https://www.microsoftevents.com/profile/web/index.cfm?PKwebID=0x1661342abcd)
   - [Automated and manual testing with Azure Test plan in Azure DevOps](https://www.youtube.com/watch?v=LF0hmSysWCg)
   - [Build end-to-end UI tests for your canvas app using Test Studio](/powerapps/maker/canvas-apps/test-studio)
-  <!--- [EasyRepro – Getting started](https://community.dynamics.com/blogs/post/?postid=95889af6-b561-42f5-b2bd-ade35180e545)
-  - [EasyRepro in 60 Seconds](http://xrmenterprise.com/2020/03/easyrepro-in-60-seconds/)-->
 
 ## Next steps
 
-- [Overview of the different types of tests](testing-strategy-test-types.md)  
-- [Plan the tests](testing-strategy-planning.md)  
+- Learn about the [different types of testing](testing-strategy-test-types.md) that you can use for your Dynamics 365 solution
+- Learn how to [create and use a test plan](testing-strategy-planning.md) for your testing activities
+- Learn how to [run your tests and handle the outcomes](testing-strategy-run-tests.md)
+- Learn how to [test your solution after changes or updates](testing-regression-tooling.md)
+- Review the Success by Design [checklist](testing-strategy-checklist.md) of the key steps and tasks for your testing process
+- Read a [case study](testing-strategy-case-study.md) of how an organization implemented a testing strategy for its Dynamics 365 solution

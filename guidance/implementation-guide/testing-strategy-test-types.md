@@ -1,279 +1,215 @@
 ---
-title: Overview of types of tests
-description: Learn how you can combine the different types of tests in your  test strategy for a Dynamics 365 implementation project.
+title: Types of tests
+description: Learn about the different types of tests that you can use for your Dynamics 365 implementation project and how to combine them in your testing strategy.
 author: edupont04
 ms.author: veneva
 ms.topic: conceptual
 ms.collection: 
-ms.date: 09/08/2023
-ms.custom: bap-template #Required; don't change.
+ms.date: 01/23/2024
+ms.custom: 
+  - bap-template
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Overview of types of tests for a Dynamics 365 implementation project
+# Types of tests
 
-In this article, we go through various types of tests  that can help you  implement Dynamics 365 in alignment with the Success by Design framework.
+Testing is a key part of implementing a Dynamics 365 solution successfully. You can use many types of tests, each with its own purpose, scope, and method. You should select the types of tests that are relevant for your project and plan them accordingly.
 
-The following list shows key test types that most Dynamics implementation projects use:
+This article explains the following types of tests that most Dynamics 365 implementation projects use:
 
-- [Unit tests](#unit-testing)
+- [Unit tests](#unit-testing): Testing individual components or units of the solution
+- [Functional tests](#functional-tests): Testing the configuration or customization of the solution
+- [Process tests](#process-testing): Testing the business processes that the solution supports
+- [End-to-end tests](#end-to-end-testing): Testing the entire solution as a whole
+- [User acceptance tests](#user-acceptance-testing): Testing the solution from the user's perspective
+- [Regression tests](#regression-testing): Testing the solution after changes or updates
+- Nonfunctional tests, including [performance tests](#performance-testing): Testing how the solution performs, operates, and maintains
+- [Mock cutover](#mock-cutover): Testing the deployment process in a production environment
 
-- [Functional tests](#functional-tests)
-
-- [Process tests](#process-testing)
-
-- [End-to-end tests](#end-to-end-testing)
-
-- [User acceptance tests](#user-acceptance-testing)
-
-- [Regression tests](#regression-testing)
-
-- Nonfunctional tests, including [performance tests](#performance-testing)
-
-- [Mock cutover](#mock-cutover)
-
-Each test type represents an incremental testing approach. Some are required for any implementation and others depend on the specific implementation circumstances including the complexity of the solution, performance, and security requirements. Some test types are especially relevant for specific stages in the implementation and others can run for the lifecycle of the solution. There are certain test cases that heavily rely on a high-quality data set and are migrated data early in the project lifecycle.
-
-> [!TIP]
-> Test types need to be planned with consideration to the complexity of the solution. Non-functional requirements like performance, and security, and should be executed during specific times throughout the implementation lifecycle.
+Each type of test represents an incremental testing approach. Some are required for any implementation and others depend on the specific implementation circumstances, such as the complexity of the solution, performance, and security requirements. Some types of test are especially relevant for specific stages in the implementation, and others can run for the lifecycle of the solution.
 
 ## Unit testing
 
-This test type focuses on individual function, code, and configuration testing. It's done by developers and is the lowest level component of the testing. In this test type, the developer verifies the requirements, validates the function, improves the code design, and finds and fixes defects.
+Unit testing is the first type of test that you do when you develop your solution. It focuses on testing individual components or units of the solution, such as forms, fields, and workflows. It's done by developers in a development environment.
 
-This testing happens in a development environment. You're expected torun unit tests during the implementation, or during any bug fixing. It's a fast, iterative process. This test type can be used with configurations, but is required if you're customizing or extending your solution and is one of the first opportunities to introduce a quality check in the solution. At this point, you should validate the performance behavior of the individual components in addition to keeping security in scope. Being diligent from the start with this test type can save you time during implementation by avoiding rework or bug fixes for issues that should be detected during this test.
+The purpose of unit testing is to verify that each component meets its requirements, functions correctly, has a good design, and doesn't have any defects. It's a fast and iterative process that helps you improve the quality of your solution from the start. You should do unit testing during the implementation or during any bug fixing.
 
-### See unit tests in action
+Unit testing is required if you're customizing or extending your solution. It's also recommended if you're configuring your solution. At this point, you should also check the performance and security of each component.
 
-Let us assume we're building a solution for a customer that ships goods and uses a specialized transportation system that is part of the final solution. For this example, we use unit testing to test specific validations during a sales order confirmation and interface with the transportation system using Power Automate. The unit tests are written and executed for each validation requirement and interface in this scenario.
+### Unit testing example
+
+Let's say you're building a solution for a customer that ships goods and uses a specialized transportation system that's part of the solution. You need to test specific validations during a sales order confirmation and connect with the transportation system using Power Automate. You write and execute unit tests for each validation requirement and interface in this scenario.
 
 ## Functional tests
 
-Functional tests can be either a manual test or an automated one. They're done by the functional consultants, subject matter experts (SMEs), or testers. The purpose of functional tests is to verify the configurations of the solution or any custom code. The primary objective is to validate the design according to the requirements. It's done in a test or developer environment during the **Implement** phase of the Success by Design framework. At this point, testing automation can also be introduced.
+Functional tests are the next type of test that you do after you develop your solution. They can be either manual or automated. They're done by functional consultants, subject matter experts (SMEs), or testers in a test or development environment.
 
-This test type is the first test to be done by consultants and customer SMEs. We recommend that consultants run the functional tests first. This way, the functionality is more stable before the business users get to see it. These SMEs often have less familiarity with the new system.  
+The purpose of functional tests is to verify that the configuration or customization of the solution matches the design specifications and meets the business requirements. It's the first type of test that involves consultants and customer SMEs. We recommend that consultants do the functional tests first, to make sure the solution is stable before the business users see it.
 
-At this point, the consultants must map the test to the requirements and processes. Test cases are detailed. The link with process is agreed upon with the business so the test case isn't focused only on the gap, but also to fit in the whole picture of the solution.
+Functional tests should be mapped to the business processes and requirements. Test cases should be detailed and linked to the process flow. The data used for testing should be realistic and reflect the customer's data.
 
-The data used to test beyond this point needs to keep evolving continuously using customer data and should reflect the reality of the operation.
+Functional testing starts during the **Implement** phase of the [Success by Design framework](success-by-design.md). This is also a good time to introduce test automation, which can help you save time and resources in future testing cycles.
 
-### See functional tests in action
+### Functional testing example
 
-Let's again pick up the example with validaiton of the sales order. Now, the functional testing of the interface with the transportation system validates the configuration and setup. You'll test customer data, products, pricing, warehouse setup, the dependencies with payment processing, and other module-related configuration and parameters.  
+Let's continue with the sales order scenario from the unit testing example. Now you need to test the configuration and setup of the interface with the transportation system. You test customer data, products, pricing, warehouse setup, payment processing, and other module-related configuration and parameters.
 
 ## Process testing
 
-The solution continues to be built, with unit testing being done by developers and functional testing by consultant and customer SMEs. The work from the development team is validated, and bugs and corrections are completed while the test is mapped to the process.
+Process testing is the type of test that connects multiple functional tests into a business process flow. It can be manual or automated. It's done by consultants who prepare and guide the test cycle, but mainly by business users, SMEs, and testers in a test environment.
 
-This is the point at which running connected test cases is ideal. The point where we raise the bar in our testing approach by connecting a collection of test cases that are all connected to our process.
+The purpose of process testing is to verify that the solution supports all the business scenarios and variations that are in scope for your project. It's an opportunity to go beyond testing individual functions or modules and test how they work together as a process. It also involves different roles and personas who hand over their outcomes from one test case to another.
 
-Process tests can be manual or automated. The business has visibility and is actively participating in this testing. It's our first opportunity to go beyond testing that focuses on just functionality or modules. This stage gives different people the opportunity to start playing an important role in the test by handing over the outcome from one test case to another. This should be your first comprehensive testing cycle, and starts during the **Implement** phase of Success by Design.
+Process testing requires role-based security to make sure each user can access and perform their tasks as expected in production. It also includes negative testing, which looks for unexpected outcomes or errors in the process.
 
-The objective is to verify that the solution allows us to operate business scenarios, and the testing needs to be done in a test environment.
+Process testing starts during the **Implement** phase of Success by Design and continues through the **Prepare** phase. It's an iterative process that helps you build user acceptance and trust in the solution.
 
-Tracking the outcome becomes more critical at this point, so bugs and other design change requests must be tracked. During this time, tracking tools like Azure DevOps become crucial as part of your application lifecycle management.
+Process testing should be tracked and reported using a tool or system, such as Azure DevOps. This helps you monitor your testing progress and quality. It also helps you identify and prioritize the actions that you need to take to resolve any issues or defects.
 
-For this test type, role security becomes crucial. We want to make sure we have the right segregation of duties and that the different personas can operate as they should when they're running the solution in production.
+### Process testing example
 
-This testing should look for unexpected outcomes of the process, commonly known as negative testing, and not just the happy path.
-
-The performance of the solution becomes more evident with this test type because more testers are involved. Now, you're also touching more areas of the solution, so there's a risk that the solution gets stressed by parallel functions. Observe the nonfunctional requirements, such as whether batch processing jobs are properly configured.
-
-### See process tests in action
-
-At this point, we know how our sales order function works. Now we want to test how the sales order works with test cases preceding and following the process. Let us call this process *prospect to cash*. We want to test the collection of money after the shipment of goods. We involve other workstreams in the implementation team that handles that part of the process. We also validate that we can generate the invoice and collect money while closing the cycle. From the business point of view, the organization will confirm they can sell, ship, invoice, and collect the money, so the process works.
+Let's build on the sales order scenario from the functional testing example. Now you want to test how the sales order works with other test cases that precede and follow the process. For example, you might test the following process: *prospect to cash*. This means you test how you generate leads, qualify prospects, create orders, ship goods, invoice customers, and collect payments. You involve other workstreams in the implementation team that handle different parts of the process. You also validate that you can generate reports and analytics for this process.
 
 ## End-to-end testing
 
-After validating all the individual processes, it's time to connect all of them and increase their complexity with new process variations. It's the first test cycle that looks like a complete operation.
+End-to-end testing is the type of test that connects all the business processes that are in scope for your project. It can be manual or automated. It's done by consultants who prepare and guide the test cycle, but mainly by business users, SMEs, and testers in an integrated test environment.
 
-You can run the end-to-end tests manually. However, automation helps you prepare for future iterations, regression testing, and system maintenance. Remember that there are continuous solution updates even after go-live.
+The purpose of end-to-end testing is to verify that the entire solution works as a whole and integrates with other systems that are part of your business operation. It's the most comprehensive type of test that simulates a real-life operation.
 
-The test is done by the functional consultants who prepared the cycle and guide the team. However, the overall cycle is mainly done by business users, SMEs, and testers.
+End-to-end testing requires a full set of migrated data from legacy systems, which might have different data patterns than demo or test data. It also requires the latest solution version and updates.
 
-The main objective of this test type is validation of all business processes in scope. Run the tests in an integrated test environment, since now the solution now connects to other systems. It's an iterative process, and a prerequisite to being able to run your user acceptance test (UAT).
+End-to-end testing starts in the **Implement** phase of Success by Design and continues through the **Prepare** phase. It's an iterative process that helps you confirm readiness for go-live.
 
-This test type starts in the **Implement** phase. It continues through the **Prepare** phase of the Success by Design framework.
+You should plan for multiple cycles of end-to-end testing. Planning only one cycle at the end of the solution build is risky, because it leaves less time to react to final fixes.
 
-It's important to plan for multiple cycles of end-to-end testing. Planning only one at the end of the build of the solution isn't recommended since it adds risks to confirming readiness by having less time to react to final fixes.
+End-to-end testing should be tracked and reported using a tool or system, such as Azure DevOps.
 
-Another important aspect is that you run this test with a full set of migrated data from legacy systems. Migrated data is likely to present data patterns that haven't been accounted for in demo or test data.
+### End-to-end testing example
 
-This test is key to validating that the entire solution works with other systems that are part of the business. It also tests the role-based access control in a real end-to-end test.
-
-> [!NOTE]
-> Plan for this test by making sure to have a full set of migrated data available for this test.
-
-### See end-to-end tests in action
-
-On previous test cycles, we were able to collect the cash from our sale. Now we want to connect other processes that depend on this one. Examples include the following list:
-
-- The accounting process to report taxes  
-- The process for updating and interacting with other systems, such as the transportation system  
-- The process for optimizing inventory and introducing new products  
-
-In this stage, we can combine different Dynamics 365 apps and see them work together.
+Let's continue with the sales order scenario from the process testing example. Now you want to test how this process works with other processes that depend on it or affect it. For example, you might test how this process connects with accounting, inventory management, product development, customer service, marketing, and other business streams. You also test how this process integrates with other systems, such as your transportation system, your customer relationship management system, and your enterprise resource planning system. In this stage, you can combine different Dynamics 365 apps and see them work together.
 
 ## User acceptance testing
 
-We're now getting ready for prime time. Our solution works in its entirety, it performs, and it's ready for final validation by the actual people that execute the business, our end users. User acceptance tests (UAT) are the final opportunity for the business to assess and determine readiness for go live.
+User acceptance testing (UAT) is the final type of test that you do before you deploy your solution to production. It's always a manual test, and it's done by business users in a dedicated and integrated test environment.
 
-This test is manually executed, never automated. It's executed with customer data, including migrated data, and with the latest solution version. This test is the closest to being like running live operations, it's an actual business operation simulation.
+The purpose of UAT is to get sign-off and approval from the business stakeholders that the solution meets their needs and expectations. It's also an opportunity to manage organizational change and to get feedback from the users who will use the solution daily.
 
-The objective is obtaining business sign-off of the solution, collecting end user feedback, helping to manage organizational change, and it's done in a dedicated and integrated test environment.
+UAT requires customer data, including migrated data, and the latest solution version and updates. It's the closest test to running live operations.
 
-UAT is done during the Prepare phase of the Success by Design framework and it happens prior to preparing for go live, which is a prerequisite to reach this milestone. Learn more at [Prepare for go-live](prepare-to-go-live.md).  
+UAT is done during the **Prepare** phase of Success by Design and it happens before the **Cutover** phase. It's a prerequisite to reach the go-live milestone. [Learn how to prepare for go-live](prepare-to-go-live.md).
 
-This test type must be run by users from the business. The implementation team is just a facilitator. The business team is the main owner of this test, failing to fully participate or test thoroughly is a risk.
+The business users who do UAT should be trained on the solution and the new processes before they start testing. This helps them avoid errors due to lack of understanding or familiarity with the new system.
 
-The business users must be trained prior to UAT, not just on the solution but also on how the pending process works once the solution is deployed to production. Failure to train the users involved in UAT may generate errors due to a lack of understanding of how familiar tasks work in the new system.
+At the end of a successful UAT, the business users should be confident and comfortable with using the new solution for their daily tasks. They should also confirm that the solution supports their business operations and goals.
 
-At the end of the successful test, the business user connects the new solution to the reality of their daily tasks. They confirm the readiness of the solution, but also their own readiness at being familiar with the new system after being trained. If successful, the new solution fulfills the business operation need.
+The final iteration of UAT requires the business to sign off and accept the solution before you move to deployment.
 
-> [!NOTE]
-> The final iteration of this test type requires the business sign off on acceptance.
+### UAT example
 
-We describe the importance of this step in later sections in this article.<!--TODO: add links-->
-
-This is one of the most important milestones in terms of testing types. This test happens at the end of the implementation and prior to the go live. It's the entry criteria to prepare for operations. UAT is an end-to-end testing approach where all the processes in scope are tested and it requires sign off on the acceptance by the business stakeholders.
-
-### Add automation
-
-User acceptance testing (UAT) can be a great opportunity to start automating tests. By recording the tests, you get repeatability on the tests. Automation sets the path for regression testing and optimization of the investments to build that automation.
-
-UAT is the last comprehensive test before going live. Every test case reflects actual tasks that business users will use the solution for. That makes UAT a good first step toward automation.
-
-### See UAT in action
-
-The business team now brings in a select group of people who run the operation. This group consists of order processors, the accounting team, the accounts receivable team, shippers, and others. The selected group of people run a real-life operation simulation. All the processes are executed in parallel and in-sync between teams. The team tests all the variations of the processes in scope.
-
-> [!NOTE]
-> You are required to plan for the UAT milestone and to have business stakeholders sign off on the acceptance of the complete, satisfactory results of this test prior to final preparations to operate (go live).
+Let's continue with the sales order scenario from the end-to-end testing example. Now you need to get approval from the business stakeholders that the solution works for them. You invite a select group of people who run the operation, such as order processors, accountants, and shippers. They run a real-life operation simulation using customer data and scenarios. They test all the processes and variations that are in scope for their roles and tasks. They also provide feedback and suggestions for improvement.
 
 ## Regression testing
 
-Now we need to look at how to scale our future testing cycles, but also to make sure prior positive test results continue as you keep evolving the solution.
+Regression testing is the type of test that you do after you make any changes or updates to your solution. It can be manual or automated. It's done by testers, developers, and users in a preproduction, test, or development environment.
 
-Regression testing repeats previously run tests. This way, you catch changes or updates to the solution, and the tests help you keep it healthy. Remember that the solution is dynamic, new capabilities are added, or new processes are required. Running regression tests manually can work, but it can be time and labor intensive. Therefore, it's also important that you consider the need to prepare to automate this type of testing as soon as possible. It's an investment that pays off with time.
+The purpose of regression testing is to make sure that your solution still performs as expected after a change, and that the changes didn't introduce any issues or defects. It's a quality check that helps you keep your solution healthy and up-to-date.
 
-The objective is to ensure the solution still performs as expected after a change and that it does so in a preproduction environment, test environment, or development environment.
+Regression testing should be done whenever you have changes in code, configuration, or data that can affect different processes or functions in your solution. It should also be done before you introduce any change to your production environment.
 
-A regression test should be conducted whenever you have changes in the code, or any configuration or new solution pattern that can impact different processes. This test type is done by testers, developers, and end users.
+Regression testing can be time-consuming and labor-intensive if you do it manually. You should consider automating this type of testing as soon as possible. It's an investment that pays off over time. [Learn more about regression testing tooling](testing-regression-tooling.md).
 
-It's important to perform this test type before change is introduced to the production environment.
+### Testing techniques for regression testing
 
-As we realize that this necessary quality gate is needed, there are tools available to help you to automate. Learn more at [What are the options for regression testing?](testing-regression-tooling.md).
+You can use several different techniques for regression testing.
 
-### Testing techniques
+You can test almost 100% of the processes. This gives you comprehensive coverage, but it's expensive to run and maintain, especially without automation.
 
-There are different techniques you can follow to run your regression test.
+You can prioritize the test based on business impact. This gives you coverage of the processes that are mission critical for the operation. It's also a more affordable approach, but it doesn't guarantee a solution that's free of regression.
 
-You can opt to test almost 100 percent of the processes. That provides you comprehensive coverage. However, it's expensive to run and maintain, especially without automation.
+You can focus on the areas that are affected by the change. This is a targeted approach that requires less effort, but it can't confirm that other areas are free of regressions.
 
-You can prioritize the test based on business impact. This technique gives you coverage of the processes that are mission critical for the operation. It's also a more affordable approach. The only risk is that you can't guarantee a solution 100 percent free of regression.
+You can combine all the previous techniques, making sure you test critical business processes and target more testing on the features that are being changed.
 
-Another technique is to focus on the areas that you expect to be impacted based on the change. This technique is targeted where the change is happening and requires less effort, but it has the limitation of not being able to confirm that you're free of regressions and the impact can't be visible on the direct change itself, but instead downstream on other processes.
+Always keep in mind that bugs discovered late in the implementation process have a lifecycle to get fixed and retested. By testing early and often, you catch those bugs sooner and avoid costly rework or delays. If you find bugs late in the process, think twice about the value of fixing them versus the risk of not being able to do proper regression testing. The fix might be more costly or risky than waiting and doing a proper regression testing or delaying the deployment.
 
-You can also combine all the previous techniques, making sure you test critical business processes, and you can target more testing on the features being changed.
+Every time you test successfully, you build trust and confidence in your solution. Every time you have a failed test or fail to test properly, you lose trust and confidence in your solution. This is especially true for regression testing, because it's the last line of defense before you deploy to production.
 
-Always keep in mind that bugs discovered late in the implementation process have a lifecycle to get fixed but also require testing. By testing, you catch those bugs early. If the bugs are detected late in the process, think twice on the value of the fix versus the risk it introduces with not being able to do proper regression testing. The fix can be more costly at that point, being so close to go live, than waiting and doing a proper regression testing or delaying the go live.
+Again, automation is key for regression testing. Your solution is alive and ever evolving, so change is constant, not just from the application updates, but from your business needs as well. Automation brings the benefits of testing faster, having better testing coverage, and providing repeatability for your tests. It also helps you reduce the cost of testing and the risk of human error.
 
-Every time you test successfully, you put money in a trust. Every time you have a failed test or fail to properly test, you deduct money from that trust leaving a debt in the solution completeness. At the end, you need to reach the end goal with the trust full of money.
+Start building your automated testing progressively, focusing first on key business processes then expanding over time. Do it as early as possible during the implementation process and always test after a change and before production deployment.
 
-Again, automation is key, and you should plan for testing automation. Your solution is alive and ever evolving so change is a constant, not just coming from the application, but from the customer business needs.
+Finally, keep in mind that finding bugs during regression testing could be due to changes in the solution design, standard product updates, or bug fixes that redefine how the solution works. These changes might require recreating or updating your test cases.
 
-Start building your automated testing progressively, focusing first on key business processes then expanding further over time. Do it as early as possible during the implementation process and always test it after a change and prior to production deployment.
+### Regression testing example
 
-Regression is important but it can be costly, especially if you don't automate in the long term. Automation brings the benefit of testing faster, having better testing coverage, and providing repeatability of the test. Automation takes as much planning as was needed for the manual testing planning, but it's a long-term investment that pays itself off with time.
-
-Finally, keep in mind that finding bugs during regression testing could be due the change of the solution design, a standard product update, or just the resolution of previous bugs redefining how the solution works, which can require recreating the test case.
-
-### See regression tests in action
-
-Microsoft has released new functionality that enriches the order processing feature in Dynamics 365 finance and operations apps. When the new update becomes available, teams can execute regression testing to key business processes connected to this new feature. Testing the order and warehouse processes following a new configuration change is done because it can impact the picking process. Once the update is done in the test environment, the team runs an automated test to confirm the solution produces the expected outcomes.
+Let's continue with the sales order scenario from the UAT example. Microsoft has released new functionality that enriches the order processing feature in Dynamics 365 finance and operations apps. When the new update becomes available, you need to do regression testing to make sure it doesn't break any of your existing processes or functions. You run an automated test for key business processes connected to the new feature to confirm the solution produces the expected outcomes.
 
 ## Performance testing
 
-Every implementation project comes with a set of nonfunctional requirements that include data, security, usability, operability, maintainability, disaster recovery, throughput, response time, and business continuity. Usability is one nonfunctional requirement that is becoming increasingly important in the world. The demographics change, and the expectations of people using your solution is ever increasing. However, performance is the most dominant requirement understated and not properly addressed as a test type in implementations projects.
+Performance testing is a type of nonfunctional test that measures how well your solution performs under different conditions and scenarios. It's done by developers, functional consultants, customer SMEs, and testers in a dedicated performance testing environment.
 
-It's key to take into consideration that successful testing isn't complete until we not only make sure we can run the business on top of the solution, but also that we can do it at scale. We're implementing Dynamics 365 both for today and for the future, and we need a solution that lasts and performs.
+The purpose of performance testing is to ensure that your solution can handle the expected operational volumes, peaks, loads, and growth of your business. It also helps you identify and optimize any bottlenecks or issues that affect your solution performance.
 
-Performance testing is required, especially if there's concern over operational volumes, peaks in transactional load, variety of high-volume integration scenarios, and so on. In this section, we focus on some of the considerations you should keep in mind for performance tests. But learn more at [A performing solution, beyond infrastructure](performing-solution.md).  
+Performance testing is required, especially if you have concerns over high-volume transactions, complex integration scenarios, or specific performance goals and expectations. It's one of the most dominant risk factors in implementation projects, because it's often overlooked or underestimated.
 
-We put special emphasis on this test type since there are many misconceptions defining whether this test needs to be executed. Our experience has shown that performance is one of the most dominant risk aspects in implementation projects, since teams often miss this test when it's needed.
+[Performance testing isn't only about infrastructure](performing-solution.md). It's also about data, code, configuration, and design. Microsoft, our partners, and our customers all play important roles in ensuring a performing solution. But we rely on the implementation teams to test and validate performance beyond infrastructure and at the right time of the implementation.
 
-In the end, a performing solution is a combination of data, code, configuration, and infrastructure. Microsoft, our partners, and our customers play important roles for this test type. But we look to the implementation teams to play their important role on validating performance beyond infrastructure and at the right time of the implementation, so plan for it.
+Performance testing should start as early as possible during the unit testing phase, so developers can influence proactive improvement of performance. It should continue throughout the implementation lifecycle, as new features or updates are added to the solution.
 
-Key people in this test are developers, functional consultants, customer SMEs, and testers.
+Performance testing needs to be planned and agreed on from the start of the implementation. It requires setting clear performance objectives and criteria, and preparing proper environment resources to run the tests.
 
-The objective of this test is to ensure the solution performs while focusing on critical processes that require scaling with load and growth. Not all the processes are involved in this test.
+Don't delay performance testing until the end of the implementation. This test can reveal important challenges that can require fundamental architectural changes or fixes. Doing it late in the implementation puts the entire solution at risk of wasting important resources or missing deadlines.
 
-This test is completed in a dedicated performance testing environment. The basic version of performance testing starts during unit testing so developers can influence proactive improvement of performance. Regular dedicated test environments can also be used depending on the load to be tested.
+It's important to mention that the infrastructure required to execute this test type, especially when you need a higher-spec environment, doesn't need to be available during all the implementation. You can bring in a needed environment or repurpose ones for other test types during the lifetime of the project. It doesn't mean you shouldn't log performance issues observed during other test types at any time.
 
-Performance testing happens as soon as the critical processes are available to be tested throughout the implementation.
+Remember, you're not just testing the standard product in this test type&mdash;you're testing the solution that you're implementing in combination with your business operation needs. Some basic implementations can justify not doing a full-blown performance test.
 
-Performance testing needs to be visible at the start of the implementation and be part of the test plan. It requires agreement on the performance test objectives, and it can require proper environment planning to provide the necessary resources.
+### Performance testing example
 
-Don't delay performance testing till the end of the implementation. This test can bring to surface important challenges that can require fundamental architectural fixes, so doing it late in the implementation puts the entire solution at risk of wasting important resources.
+Let's continue with the sales order scenario from the regression testing example. Now you want to test how your solution performs under different conditions and scenarios. For example, you might test how your solution handles:
 
-It's important to mention that the infrastructure required to execute this test type, especially when the plan requires a higher spec environment, doesn't need to be available during all the implementation. You bring them a needed environment or repurpose ones for other test types during the lifetime of the project. It doesn't mean you shouldn't log performance bugs observed during other test types at any time.
-
-Remember, you aren't just testing the standard product in this test type; you're testing the solution that you're implementing in combination with your business operation needs. Some basic implementations can justify not executing a full-blown performance test. Learn more at [A performing solution, beyond infrastructure](performing-solution.md).  
-
-### See performance tests in action
-
-In the previous example, we involved invoicing and the integration with the transportation system. Now, we'll test if we can process the operational peaks caused by the seasonality of the business. The posting of invoices is a crucial process that gives you almost real-time interaction with the transportation system according to the business needs. So we test a day in the life with relative volumes across key business processes, not just *prospect to cash*.
+- A high volume of orders during peak seasons
+- A large number of concurrent users accessing the system
+- A complex integration with your transportation system
+- A long-running batch process for invoicing
+- A slow network connection or a power outage
 
 ## Mock cutover
 
-This is a special test that's run in a special environment, the production environment.
+Mock cutover is a special type of test that simulates the deployment process in a production environment. It's done by consultants who prepare and guide the test cycle, but mainly by business users, SMEs, and testers in a production environment.
 
-It's a temporary use of the production environment to do testing activities, and it runs just before the **Cutover** phase. Learn more at [Prepare for go-live](prepare-to-go-live.md).  
+The purpose of mock cutover is to validate aspects like connectivity, stability, access, integration, security, network, and devices. It also helps you confirm the estimated times and sequence of activities for your deployment plan and make adjustments if needed.
 
-This test brings important value because it helps to validate aspects like connectivity, stability of the access by users and data, integration end points configuration, device connectivity, security, network, and many of the test cases in your processes may be environment dependent.
+Mock cutover is done just before the **Cutover** phase of Success by Design. [Learn more about preparing for go-live](prepare-to-go-live.md).
 
-During this test, you're able to validate confirmation of the estimated times between environment preparation for production for all the planned tasks during go live. It's a confirmation that all the planned activities run smoothly once you do the actual final execution.
+We recommend that you always plan for a mock cutover test. It helps you avoid surprises and risks during the actual deployment.
 
-We recommend you always plan for a mock cutover test type.
+### Mock cutover example
 
-### See mock cutovers in action
-
-Let's continue from the earlier examples in this article. The team has tested the entire solution, and they're ready to move forward. The team wants to confirm the cutover plan in terms of sequence of activities, timing, and production environment stability. They run the cutover plan by rehearsing and documenting every step so that they can tune it as needed. After the mock cutover, they find that the time to load data and sequence it conflicts with other cutover tasks. The team adjusts that sequence. then, they confirm the readiness to run the updated Cutover plan, knowing it works without surprises.
+Let's continue with the sales order scenario from the performance testing example. Now you're ready to deploy your solution to production. You want to test your cutover plan in terms of sequence of activities, timing, and production environment stability. You run the cutover plan by rehearsing and documenting every step, so you can tune it as needed. After the mock cutover, you find that the time to load data and sequence it conflicts with other cutover tasks. You adjust that sequence and confirm the readiness to run the updated cutover plan.
 
 ## Other types of testing
 
-We have described the incremental approach for testing through the different test types, scale needs, and continuous validation of the solution. But there are other types of tests that can be unique for every implementation based on the design of the solution. The following list shows examples of such test types.
+We described the incremental approach for testing through the different types of tests, scale needs, and continuous validation of the solution. But other types of tests might be needed, based on the design of the solution, such as:
 
-- **Smoke tests**  
+- **Smoke tests**: Confirming that basic functions work as expected, so that the component can continue to test further with other test types.
+- **Data acceptance tests**: Confirming that the migrated data goes into the target environment correctly and is usable for actual operation.
+- **Interface tests**: Confirming that your interfaces work as intended.
+- **Environment testing**: Confirming that the new environment is fit for the purpose.
+- **Reporting testing and business intelligence testing**: Confirming that reporting and business intelligence can be executed and operate properly with the expected outcome and performance.
+- **Device testing**: Confirming that devices such as RFID readers, scales, and other warehouse devices are operational, connect, and perform as expected.
+- **Network/infrastructure testing**: Confirming that the underlying network infrastructure, such as firewalls, Wi-Fi, and printers, are configured and working properly.
 
-  Here you test if basic functions work as expected so you can confirm the component can continue to test further with other test types.
-
-- **Data acceptance tests**  
-
-  You validate if the migrated data goes into the target environment correctly, and if it's usable for actual operation.
-
-- **Interface tests**  
-
-  Here you confirm if your interfaces can be used as intended.
-
-- **Environment testing**  
-
-  In this test type, you validate if the new environment is fit for the purpose.
-
-- **Reporting testing and business intelligence testing**  
-
-  Validates that reporting and Business Intelligence can be executed and operate properly with the expected outcome and performance.
-
-- **Device testing**  
-
-  Focused on validating devices are operational, connect, and perform as expected, for example, RFID readers, scales, and warehouse devices, and so on
-
-- **Network/infrastructure testing**  
-
-  Validation of relevant underlying networking, firewalls configuration, Wi-Fi, printers, and so on
-
-Some projects are too small to justify separate planning to run some of these types of testing. However, the concept and meaning of the tests should be folded into other types of testing.
+Some projects are too small to justify separate planning to run some of these types of tests. However, you should fold the concept and meaning of these tests into other types of testing.
 
 ## Next steps
 
-- [Plan the tests](testing-strategy-planning.md)  
-- [Run the implementation tests](testing-strategy-run-tests.md)  
+- Learn how to [create and use a test plan](testing-strategy-planning.md) for your testing activities
+- Learn how to [run your tests and handle the outcomes](testing-strategy-run-tests.md)
+- Learn how to [test your solution after changes or updates](testing-regression-tooling.md)
+- Review the Success by Design [checklist](testing-strategy-checklist.md) of the key steps and tasks for your testing process
+- Read a [case study](testing-strategy-case-study.md) of how an organization implemented a testing strategy for its Dynamics 365 solution
