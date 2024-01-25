@@ -1,41 +1,42 @@
 ---
 title: Extensibility strategy checklist
-description: Get a thorough checklist to help Dynamics 365 implementation teams with their extensibility strategy.
+description: Use this checklist to plan and track your extensibility strategy for Dynamics 365 apps.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 05/11/2023
+ms.date: 01/24/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/24/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
 # Extensibility strategy checklist
 
-Use this article to help you define and track your extensibility strategy.
-
 ## Define your extensibility strategy
 
-- Check that all requirements to extend the solution are driven by the need to empower users or bring more value to the business.
-
-- Ensure the solution doesn't mimic the ways of achieving the same results as the legacy solution or the system being replaced.
-
-- Understand the platform capabilities and use its strength to simplify and optimize the overall process to get most of the out-of-the-box experiences.
-
-- Review if the implementation project considered any independent software development organizations (ISV) before deciding to extend the solution. The AppSource marketplace contains ISV-managed solutions that may replace the need to create a custom solution.
+| Done? | Task |
+| :---: | --- |
+| &check; | Make sure that you only extend the solution when it empowers users or adds value to the business. |
+| &check; | Don't try to copy the same results as the legacy solution or the system you're replacing. |
+| &check; | Understand the platform capabilities and use them to simplify and optimize the process. Use the out-of-the-box features as much as possible. |
+| &check; | Check if there are any independent software development (ISV) organizations that can meet your needs before you decide to extend the solution. The AppSource marketplace has ISV-managed solutions that might replace the need for a custom solution. |
 
 ## Considerations
 
-- Validate that the extensions don't negatively impact the user experience, responsiveness, performance, and how the solution behaves across different devices and platforms as part of the organization test strategy.
-
-- Ensure the extensions honor the security mechanism, privacy, and compliance requirements.
-
-- Ensure extensions are scalable, tested for high volume, and capable of handling peaks like holiday seasons.
-
-- Align extensions with ALM automated processes to build and deploy them in an efficient and fast-paced manner.
-
-- Ensure code and customizations follow only the documented supported techniques, and don't use deprecated features and techniques.
+| Done? | Task |
+| :---: | --- |
+| &check; | Test how the extensions affect the user experience, responsiveness, performance, and cross-device behavior. |
+| &check; | Make sure that the extensions follow the security, privacy, and compliance requirements. |
+| &check; | Make sure that the extensions can handle high volume and peak seasons. |
+| &check; | Use ALM automated processes to build and deploy the extensions efficiently and quickly. |
+| &check; | Use only the documented supported techniques for code and customizations. Don't use deprecated features and techniques. |
 
 ## Next steps
 
-- Find product-specific guidance at [Extend finance and operations apps](extend-your-solution-guidance-product-fo.md) and [Extend customer engagement apps](extend-your-solution-guidance-product-ce.md)  
-- View the case study at [Extend your solution: Case study](extend-your-solution-case-study.md)  
-- Return to the overview at [Extend your solution](extend-your-solution.md)  
+- See how other organizations extended their Dynamics 365 apps to meet their business needs in [scenarios for extending Dynamics 365](extend-your-solution-scenarios.md).
+- Learn more about the specific considerations and best practices for [extending finance and operations apps](extend-your-solution-guidance-product-fo.md) and for [extending customer engagement apps](extend-your-solution-guidance-product-ce.md).
+- Read the [case study](extend-your-solution-case-study.md) of how a company extended its Dynamics 365 app to improve its customer service.
+- Use the Success by Design [checklist](extend-your-solution-checklist.md) to plan and implement your extensions effectively.
