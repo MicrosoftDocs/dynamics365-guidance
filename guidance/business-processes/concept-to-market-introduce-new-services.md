@@ -1,10 +1,10 @@
 ﻿---
-title: Overview of using Dynamics 365 to introduce new services to your organization
+title: Introduce new services to your organization
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to add new services to your portfolio of offerings.
 ms.topic: conceptual
 author: edupont04
 ms.author: raprofit
-ms.date: 01/17/2024
+ms.date: 01/26/2024
 ---
 
 # Overview of using Dynamics 365 to introduce new services to your organization
@@ -13,9 +13,9 @@ ms.date: 01/17/2024
 
 This article describes how organizations can use Dynamics 365 to introduce new services.
 
-The ability for an organization to create new services in their offerings plays a pivotal role in the growth and innovation of the organization. The business process area involves strategic development, launch, and integration of fresh offerings into the market, ensuring that the organization remains competitive and responsive to the evolving customers' needs. The process of introducing new offerings into the market can vary drastically from industry to industry and geography to geography, among other factors. However, one thing that is certain among all organizations, is that the process can be costly, time consuming, and has a direct impact on the organization's bottom line. For this reason, having strong technology solutions such as Dynamics 365, Microsoft 365, and the Power Platform are essential to ensure that business decision makers have the right information to make the right decisions.
+The ability for an organization to create new services in their offerings plays a pivotal role in the growth and innovation of the organization. The business process area involves strategic development, launch, and integration of fresh offerings into the market, ensuring that the organization remains competitive and responsive to the evolving needs of customers. The process of introducing new offerings into the market can vary drastically from industry to industry and geography to geography, among other factors. However, one certainty among all organizations is that the process can be costly, time consuming, and has a direct impact on the organization's bottom line. For this reason, having strong technology solutions such as Dynamics 365, Microsoft 365, and Power Platform are essential to ensure that business decision makers have the right information to make the right decisions.
 
-Organizations can diversify their portfolio, tap into new revenue streams, and strengthen market presence by introducing new services. The Dynamics 365 product suite offers various tools and products to help support this process across several industries. Here are a couple of examples:
+Organizations can diversify their portfolio, tap into new revenue streams, and strengthen market presence by introducing new services. The Dynamics 365 product suite offers various tools and products to help support this process across several industries. Here are some examples:
 
 - Dynamics 365 Field Service offers capabilities to offer many types of services to organizations.   
 - Dynamics 365 Customer Service offers capabilities to support services that are offered to customers.  
@@ -26,11 +26,11 @@ With complex support for different types of services across the portfolio, it's 
 
 When introducing new services, it's important to consider that careful execution of the market research, ideation, rigorous testing, and seamless coordination across departments is executed well. Dynamics 365 Customer Insights - Journeys offers tools to help with many steps. When you use Customer Insights with productivity tools such as Microsoft Teams, Planner, and Outlook, and Dynamics 365 Customer Voice, for example, the organization can successfully implement solutions to support the process leading to increased customer satisfaction, increased brand reputation, and sustainable growth.
 
-When organizations are looking to implement technological solutions to support the introduction of new services business process, we recommend that these activities are prioritized and planned early in the process. The service data that is captured as part of the business process is critical to many of the downstream processes. A poor implementation might cause data quality issues that can lead to other issues later in the project and in the overall business cycle. Keep in mind that service data is considered master data and should be carefully planned and integrated into all downstream business processes. If you're planning to use a non-Microsoft solution for service master data, you can integrate your solution in the first phases of your service and you can look to replace the non-Microsoft solution in a later phase. However, careful considerations for the functionality needed should be taken early in the project to avoid reworking later.
+When organizations are looking to implement technological solutions to support the introduction of new service business processes, we recommend that these activities are prioritized and planned early in the process. The service data that is captured as part of the business process is critical to many of the downstream processes. A poor implementation might cause data quality issues that can lead to other issues later in the project and in the overall business cycle. Keep in mind that service data is considered master data and should be carefully planned and integrated into all downstream business processes. If you're planning to use a non-Microsoft solution for service master data, you can integrate your solution in the first phases of your service and you can look to replace the non-Microsoft solution in a later phase. However, careful considerations for the functionality needed should be taken early in the project to avoid reworking later.
 
 ## Stakeholders 
 
-Many people across the organization should contribute to the decision-making process and design of the *Introduce new  services* business process area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Introduce new services* business process area. The following list provides examples of such stakeholders:
 
 - **Product Managers**: Lead the product development process, defining service features, specifications, and market positioning. They ensure that the new offerings align with customer needs and market trends.
 
@@ -108,14 +108,14 @@ The following diagram illustrates the Introduce new services business process ar
 
     10. *Release offerings to market*
 
-        A parallel branch connects to the *Run marketing campaigns* business process area under the *Prospect to quote* end to end process.
+        A parallel branch connects to the *Run marketing campaigns* business process area under the *Prospect to quote* end-to-end process.
 
     11. *Evaluate and monitor offering performance*
 
 5. End
 
 > [!NOTE]
-> Each of the following processes have a parallel branch that connects to End: *Maintain service data*, *Define service costing*, *Define service pricing*, *Manage vendor relationships*, and *Run marketing campaigns*.
+> Each of the following processes have a parallel branch that connects to End: <!--*Maintain service data*, -->*Define service costing*, *Manage service pricing*, *Manage vendor relationships*, and *Run marketing campaigns*.
 
 ## Introduce new services benefits
 
@@ -125,7 +125,7 @@ There are many key benefits that can be used to monitor and measure the success 
 
 With Dynamics 365 Supply Chain Management, you can efficiently capture and categorize new service ideas, ensuring no valuable concepts are overlooked and manage the entire lifecycle of introducing new services. When you use Supply Chain Management with Project Operations and Finance, you can track the costs associated with your projects to introduce new offerings giving you better visibility into the overall process and costs.
 
-Because Dynamics 356 is built on the Power Platform, you can easily connect your data to anywhere and out of the box integrations with Microsoft Teams. With Microsoft Outlook, you can streamline collaboration between teams during concept development, allowing stakeholders to refine and shape ideas into viable concepts seamlessly.
+Because Dynamics 365 is built on Power Platform, you can easily connect your data to anywhere and out-of-the-box integrations with Microsoft Teams. With Microsoft Outlook, you can streamline collaboration between teams during concept development, allowing stakeholders to refine and shape ideas into viable concepts seamlessly.
 
 Whether you want to use simple tools in the Microsoft 365 suite such as Planner or Microsoft Project, or rich integrated tools like Dynamics 365 Project Operations, you can facilitate coordinated efforts and smooth communication between the departments that are involved in introducing new services. This way, you reduce the risk of delays and miscommunication.
 
@@ -141,13 +141,13 @@ When you use Dynamics 365 Customer Insights - Journeys together with the rich pr
 
 ## Evaluate real-time service performance analytics
 
-Because Dynamics 365 is built on the Dataverse, you can effectively utilize market research insights integrated into the platform, guiding the development of offerings aligned with customer preferences and trends. When you use Dynamics 365 Customer Insights, you can funnel data from Dynamics 365 or other systems to integrate the data with Azure Synapse Link and get performance data about your services in easy-to-use Power BI dashboards.
+Because Dynamics 365 is built on Dataverse, you can effectively use market research insights integrated into the platform, guiding the development of offerings aligned with customer preferences and trends. When you use Dynamics 365 Customer Insights, you can funnel data from Dynamics 365 or other systems to integrate the data with Azure Synapse Link and get performance data about your services in easy-to-use Power BI dashboards.
 
-With Dynamics 365 Sales, Commerce, or Supply Chain Management you can evaluate real-time performance analytics on new services, enabling data-driven adjustments based on market reception. This includes optimizing resource allocation by gaining insights into resource availability, enabling effective utilization for timely development.
+With Dynamics 365 Sales, Commerce, or Supply Chain Management, you can evaluate real-time performance analytics on new services, enabling data-driven adjustments based on market reception. This includes optimizing resource allocation by gaining insights into resource availability, enabling effective utilization for timely development.
 
 ## Drive iterative improvement and satisfaction
 
-When you use Dynamics 365 Customer Voice you can intentionally collect and incorporate customer feedback directly into the development cycle, ensuring that customer input shapes enhancements and iterations.
+When you use Dynamics 365 Customer Voice, you can intentionally collect and incorporate customer feedback directly into the development cycle, ensuring that customer input shapes enhancements and iterations.
 
 When you use Dynamics 365 Customer Service, you can drive iterative improvement by refining services based on customer feedback, leading to enhanced customer satisfaction from the analytics you receive from cases and use of the knowledge base.
 
@@ -157,7 +157,7 @@ If you would like to implement Dynamics 365 solutions to assist with your introd
 
 1. [Define service offering and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
 
-2. *Introduce new services*  (the article that you're currently reading)  
+2. *Introduce new services* (the article that you're currently reading)  
 
 3. Manage service pricing
 
@@ -170,11 +170,11 @@ If you would like to implement Dynamics 365 solutions to assist with your introd
 You can use the following resources to learn more about the Introduce new services process in Dynamics 365.
 
 - [Create Item Cards for Goods or Services - Business Central](/dynamics365/business-central/inventory-how-register-new-items)
-- [Product information overview - Supply Chain Management](/dynamics365/supply-chain/pim/product-information?context=%2Fdynamics365%2Fcontext%2Fcommerce)
+- [Product information overview - Commerce](/dynamics365/supply-chain/pim/product-information?context=%2Fdynamics365%2Fcontext%2Fcommerce)
+- [Product information overview - Supply Chain Management](/dynamics365/supply-chain/pim/product-information)
 - [Overview of inventory, purchasing, and returns in Dynamics 365 Field Service](/dynamics365/field-service/inventory-purchasing-returns-overview)
 - [Project Operations for resource/non-stocked based scenarios deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
-- [Set up a product catalog Walkthrough - Sales](/dynamics365/sales/set-up-product-catalog-walkthrough)
-- [Product information overview - Supply Chain Management](/dynamics365/supply-chain/pim/product-information)
+- [Set up a product catalog - Sales](/dynamics365/sales/set-up-product-catalog-walkthrough)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate - Certifications](/credentials/certifications/d365-functional-consultant-supply-chain-management/)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Expert - Certifications](/credentials/certifications/d365-supply-chain-management-functional-consultant-expert/)
 
