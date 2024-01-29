@@ -1,143 +1,90 @@
 ---
-title: Identify and mitigate challenges in your integration projects in Dynamics 365
-description: Find guidance on how to proactively identify and mitigate the challenges of your integration strategy in a Dynamics 365 implementation project.
+title: Overcome integration challenges in Dynamics 365 projects
+description: Learn how to plan ahead for common integration challenges between on-premises and cloud apps in Dynamics 365 projects.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 05/23/2023
+ms.date: 01/26/2024
 ms.topic: conceptual
-
+ms.custom:
+   - ai-seo-date: 01/26/2024
+   - ai-gen-docs-bap
+   - ai-gen-title
+   - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Identify and mitigate challenges in your integration projects in Dynamics 365
+# Overcome integration challenges in Dynamics 365 projects
 
-The diverse applications used in organizations make up the IT backbone of those companies. Organizations use applications that might be a combination of on-premises, cloud, and third parties. These applications need to communicate with each other for different business needs. Integration challenges during a project implementation can cause delays or cost increases. A key focus of any IT department is to ensure that these integrations enable business productivity and not become a blocker to business growth.
+Many organizations use a mix of on-premises, cloud, and partner apps to run their business. These apps need to talk to each other for different purposes. But integrating them can be difficult and costly. If you don't plan well for integration challenges, you might face delays, errors, or performance issues in your Dynamics 365 projects.
 
-Integration challenges can be categorized into the following areas.
+To avoid these problems, you need to consider three main areas of integration challenges: business, technology, and project governance. In this article, we'll explain what these challenges are and how you can address them.
 
-## Business
+## Business challenges
 
-Each integration scenario has a direct impact on the application you're integrating with and on its users. Any downstream applications might also be indirectly affected. For integration to be implemented in a successful manner, address the subjects in the following subsections during the *Initiate* stage. Learn more at [Project Governance](project-governance.md).
+Integration affects not only the apps you're connecting but also their users and other downstream apps. You need to involve all the relevant stakeholders from the start of your project. You also need to align their expectations and requirements for integration scenarios.
 
-### Identification of application owners and stakeholders
+Here are some common business challenges you might encounter:
 
-Application owners need to identify downstream applications that might be impacted in an integration. However, a common scenario is to bring in these owners after the planning is complete. This often results in misaligned timelines and scope and in turn creates project delays and poor quality. Integration design needs to take every impacted application into consideration.
+- **Lack of application owners and stakeholders**. Sometimes, people who own or use other apps that depend on integration don't get involved until it's too late. This can lead to missed deadlines, scope changes, and poor quality. You need to identify and include all the affected apps in your integration design.
 
-### Alignment between business owners
+- **Misalignment between business owners**. Different business groups might have different needs and views on how to integrate their apps. If they don't agree on a common approach, you might end up with mismatched requirements, budget overruns, and accountability gaps. You need to bring the key owners together and walk them through the scenarios. You also need to explain the pros and cons of different types of integration, such as process, data, and UI integration. And you need to highlight the risks and benefits of each option.
 
-Business stakeholders have different needs for their organization's various applications. Unless there's a collective understanding of integration scenarios and approaches, requirements might be mismatched among the various owners. Common results include delayed timelines, cost overruns, and a lack of accountability. As a system integrator, consider the following items:
+- **Ambiguous and unrealistic expectations**. Sometimes, integration requirements are vague or too demanding. For example, some stakeholders might want to sync large amounts of data in real time or use Dynamics 365 as a reporting tool. These decisions can hurt the scalability and performance of your solution. You need to help them define their requirements clearly and understand the tradeoffs involved in your architecture choices.
 
-- Identify the key owners and bring them together to walk through the scenarios.
+- **Lack of business continuity planning**. Integration can also affect how your apps work if there's an outage or a disaster. For example, if your on-premises app goes down, how will it affect the data or process flow in Dynamics 365? You need to define the procedures and actions that your business group will take in such situations.
 
-- Differentiate between process, data, and UI integration to simplify and streamline the integration scope.
+- **IT-driven requirements and design**. Sometimes, integration is seen as a technical task that doesn't involve the business teams. But successful integration depends on a well-defined cross-system business process. If you don't get enough input from the business teams, you might waste time and resources on trial and error. You need to learn more about their processes and goals before you design your solution. [Learn how to create a process-focused solution](process-focused-solution.md).
 
-- Outline the impact on business groups affected by the integration.
+## Technology challenges
 
-- Highlight issues and risks in the absence of following a consistent approach.
+Many organizations have legacy apps with traditional on-premises architecture. Moving to cloud apps requires following new patterns and best practices for integration. You also need to think about the future needs of your solution, such as performance, extensibility, and maintenance.
 
-A transparent conversation enables business stakeholders to understand the underlying risks and benefits and thus build a common perspective.
+Here are some common technology challenges you might face:
 
-### Ambiguous and unrealistic expectations
+- **Inappropriate technology choice**. Some enterprises have an existing architecture that doesn't fit well with cloud patterns. Or they might choose a generic approach that doesn't suit their specific needs. This can result in inefficient or unscalable integration solutions that harm the user experience and adoption. You need to evaluate your current and future needs carefully and choose the right technology for each scenario. You also need to consider factors such as:
 
-Integration requirements can sometimes be ambiguous or incorrectly perceived as mandatory. Common examples of the latter are unnecessary synchronous integrations and replicating high transactional data volumes into your business application to make it a reporting application. Such architecture decisions can result in solutions that aren't scalable and also not performant. Encouraging and facilitating conversations to help business stakeholders define their requirements clearly and understand the necessary tradeoffs as part of the architecture decisions is a critical step in ensuring a smooth implementation.
+  - Synchronous versus asynchronous integration
+  - Single record or batch
+  - Frequency and direction of integration
+  - Message reliability and speed
+  - Data volume
+  - Time expectations
+  - Error management and retries
 
-### Lack of business continuity planning
+- **Data security risks**. Integrating on-premises apps with Dynamics 365 can raise security concerns for IT and customers. You need to protect your data from unauthorized access or exposure. You also need to comply with any regulatory requirements that apply to your industry or region. Be sure to address access control, data protection, compliance, and transparency.
 
-Business continuity is an aspect of implementing any IT project that most often is ignored. All types of integration, including cloud to cloud and on-premises to cloud, must define operating procedures that the business group will apply as a part of any availability and disaster recovery situation. For example, consider a scenario in which the on-premises application of a Dynamics 365 app is temporarily unavailable. In this scenario, the outage affects the integration components, resulting in data or process issues.
+- **Storage costs and platform limits**. Dynamics 365 and Power Platform have limits on how much data you can store and how often you can access it. These limits help protect the service quality and performance from disruptions. You need to follow these limits in your integration solution. Otherwise, you might face service throttling, errors, or increased storage costs.
 
-### IT-driven requirements and design
+- **Network latency**. Network delays can affect your integration performance, especially if you're transferring large amounts of data. You need to design your data payloads to use the network resources efficiently and avoid performance issues.
 
-Implementation teams sometimes consider integration between systems as a primarily technical exercise and overlook the critical role played by business teams. However, successful integrations between Dynamics 365 apps often depend completely on a well-defined cross-system business process, and if the specific process details and broader requirements aren't properly defined, the integration project might take longer or go through several iterations of trial and error. For more information, see [Process-focused solution](process-focused-solution.md).
+- **Anti-patterns**. Some architects don't follow the best practices for Dynamics 365 apps when they integrate them with on-premises apps. This can result in poor performance or errors. You need to avoid these common anti-patterns:
 
-## Technology
+  - Repeated connections between on-premises and cloud apps that slow down the integration. You should send data in batches instead.
 
-Most enterprises have legacy applications with traditional, on-premises architecture. The move to cloud applications requires consideration of the patterns they support and the best practices when planning for integration. A low-code/no-code pattern should now be at the forefront of any integration architecture. The implementation project includes conversations about not just the current setup but also about future planning for performance, extensibility, and maintenance plays a key role in choosing the right technology. When choosing the appropriate technology, consider the questions in the following subsections.
+  - Latency between your on-premises apps and the Dynamics 365 datacenter that affects the user experience. You should use a cloud service such as Power Automate, Azure Functions, or Azure SQL to reduce the latency impact.
 
-### Does one size truly fit all?
+  - Too much data synchronized with Dynamics 365 for reporting purposes that overloads the database. You should use a dedicated datastore for reporting purposes instead.
 
-Many enterprises have an enterprise architecture approach that might or might not be aligned with the modern approaches for cloud applications. Prior to investing in a specific approach, evaluate whether the existing architecture aligns with cloud patterns. Sometimes, a generic approach is taken; this can result in inefficiencies in integration, unscalable architecture, and poor user experience and adoption. Therefore, it's crucial to consider design paradigms such as the following:
+- **Proprietary technology**. Some customers might use partner technology that doesn't provide enough details or support for easy integration. Sometimes, these issues are discovered late in the project, causing delays and risks. You need to identify and plan for these dependencies early in the project and find alternative solutions if needed.
 
-- Definition of the integration approach based on multiple parameters
+- **Readiness**. Technology changes fast, and architects need to keep up with the latest trends and patterns. Sometimes, they might choose a familiar approach that isn't the best fit for their current or future needs. You need to assess whether you have enough resources with the right skills and expertise for your chosen technology.
 
-- Benefit of a proof of concept to determine the pros and cons of one approach over another
+## Project governance challenges
 
-- Synchronous versus asynchronous integration
+The first stage of your project should include a clear project governance model. Integration can range from simple to complex, depending on your needs and scenarios. If you don't have a good project governance plan, you might encounter gaps and issues in your project execution.
 
-- Process, UI, and data integration
+Here are some common project governance challenges you might face:
 
-- Single record or batch
+- **Impact of integration on users, processes, and reporting**. Integration can change how your users work with their apps, how your processes flow across systems, and how your data is reported and analyzed. You need to plan for change management activities, such as communication and training, to help your users adapt to the new integration solution.
 
-- Frequency and direction of the integration
+- **Performance testing**. Making your solution perform well should be one of your main design goals. This applies to both the integration layer and the app layer. You need to plan for performance testing to identify any bottlenecks or issues before you deploy your solution to users.
 
-- Message reliability and speed
+- **Development and test environments**. You need to have separate environments for all your apps where you can develop and test your integration solution thoroughly. You also need to have a plan for stub-based testing during the unit testing phase if needed.
 
-- Data volume
-
-- Time expectations (some scenarios require a batch integration to be completed during a specific time window)
-
-- Error management and retries
-
-### Will sensitive data be exposed?
-
-System integrators must understand IT and customer concerns around security, especially in the context of integrating on-premises applications with Dynamics 365 apps. Categorizing security concerns as follows aids in identifying who and what is required to help address them:
-
-- Access control
-
-- Data protection
-
-- Compliance and regulatory requirements
-
-- Transparency
-
-Learn more at [Security](security.md).
-
-### Storage costs and platform limits
-
-To ensure service quality and availability, Dynamics 365 apps and Power Platform enforces entitlement limits. These limits help protect service quality and performance from interference by noisy behavior that can create disruptions. System integrators must incorporate these limits as part of the overall architecture. If these aren't planned for, the service is throttled, resulting in failure and errors within the integration layer. Storage costs are also often ignored. Although it might not have an impact initially, over time, it can result in increased storage costs and therefore should be planned appropriately.
-
-### Connectivity
-
-Network latency can become a constraint, especially in heavy data-load scenarios. System integrators must ensure that they design payloads accordingly for the efficient use of network resources without compromising performance.
-
-### Anti-patterns
-
-Implementation architects should follow the best practices for Dynamics 365 apps. Sometimes these architects don't take cloud patterns sufficiently into account in integration scenarios with on-premises applications, resulting in poor performance. The behaviors leading to such situations are referred to as anti-patterns. Consider the following common anti-patterns:
-
-- Are there repeated connections between on-premises components and Dynamics 365 apps that influence performance? If so, consider sending data in batches.
-
-- Is there latency between a customer's on-premises applications and a Dynamics 365 datacenter? If so, consider using a cloud service such as Power Automate, Azure Functions, or Azure SQL to reduce the latency impact.
-
-- Is much data being synchronized with Dynamics 365 apps for reporting purposes? Keep in mind that the database under Dynamics 365 apps isn't intended to be a data warehouse for all of the organization's data assets. Consider using a dedicated datastore for reporting purposes.
-
-### Proprietary technology
-
-Customers might be using third-party technology within their IT landscape that doesn't provide interface details or adequate support to enable integration easily. Often such issues are identified either toward the end of design or during the development stage. This causes delays in the project timeline, burdening the customer with time constraints to mitigate such risks. System integrators must highlight such dependencies in the planning stage to ensure adequate support or an alternate approach.
-
-### Readiness
-
-With the increasing pace of transformations in the technology world, architects sometime choose an approach due more to its familiarity than its applicability. Customers and system integrators must evaluate whether to request more resources specialized in the specific technology who will be a better fit for their current and future needs.
-
-## Project governance
-
-The initial stage of a project should include a defined project governance model. Integration between on-premises and Dynamics 365 apps can range from simple to complex. The lack of well-defined project governance areas results in gaps and issues in the smooth implementation of a project.
-
-The following are common project governance concerns specifically for the integration components:
-
-- Has the impact of the integrations been identified for the end user, process, and reporting? This might require planning for change management activities, including communication and training.
-
-- Making a solution performant should be at the forefront of any design decisions made by the implementation team. This applies equally to the integration layer and the application layer. Is performance testing planned and does it cover integration components? Performance testing is another activity that tends to be considered optional. However, architects and project managers must consider embedding this in their Dynamics 365 apps implementations. This helps identify any performance bottlenecks prior to deployment for end users.
-
-- Are development and test environments available for all applications for thorough system integration testing? Is a plan for stub-based testing during the unit testing phase required?
-
-Asking these questions during the initial stages of the project enables both the implementation partner and customer to proactively identify and plan for any dependencies and risks.
-
-Learn more at [Project governance](project-governance.md)  
+By addressing these challenges early in your project, you can avoid many problems and ensure a smooth integration between your on-premises and cloud apps in Dynamics 365.
 
 ## Next steps
 
-- [Define business goals](integrate-other-solutions-business-goals.md)  
-- [Choose a platform](integrate-other-solutions-choose-platform.md)  
-- [Choose a design](integrate-other-solutions-choose-design.md)  
-- [Choose a pattern](integrate-other-solutions-choose-pattern.md)  
-- [Product-specific guidance for integration scenarios](integrate-other-solutions-guidance-product.md)  
-- [Checklist](integrate-other-solutions-checklist.md)  
-- [Case study](integrate-other-solutions-case-study.md)  
+- Learn about the aspects that are specific to each Dynamics 365 app and how to [integrate them with other solutions](integrate-other-solutions-guidance-product.md)
+- Use this Solution by Design [checklist](integrate-other-solutions-checklist.md) to make sure you've covered all the steps and considerations for your integration project
+- Read how a public sector infrastructure organization learned how to [choose the right solution for their integration project](integrate-other-solutions-case-study.md)

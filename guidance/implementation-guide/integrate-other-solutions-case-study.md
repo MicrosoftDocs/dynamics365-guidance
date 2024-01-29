@@ -1,72 +1,76 @@
 ---
-title: Integration strategy case study
-description: Learn about a case study that walks you through a real-life example of how a Dynamics 365 customer approached the integration strategy.
+title: Case study in integration strategy
+description: Learn how a public sector organization faced challenges with its initial Dynamics 365 integration architecture and how it redesigned its strategy to achieve better performance, cost savings, and data insights.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 05/23/2023
+ms.date: 01/26/2024
 ms.topic: conceptual
-
+ms.custom:
+ - ai-seo-date: 01/26/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Integration strategy case study
 
-Let's go through an example of how a public sector infrastructure organization learns how to choose the right solution for integration
+# Case study in integration strategy
 
-## Story
+This case study shows you how a public sector infrastructure service organization learned from its mistakes and adopted a better solution for integrating Dynamics 365 Customer Service with other applications.
 
-A public sector infrastructure service organization implements Dynamics 365 Customer Service. They require integration with a public-facing website, several on-premises apps, and Microsoft 365, including SharePoint Online. One of the implementation objectives is to gather insights from the data that is scattered across different business applications.
+## The challenge
 
-## Case study
+The organization wanted to use Dynamics 365 Customer Service to manage its customer interactions. It also needed to integrate it with a public-facing website, several on-premises apps, and Microsoft 365, including SharePoint Online. One of the implementation objectives was to gather insights from the data that was scattered across different business applications.
 
-The organization works with an IT vendor that has several years of experience building complex integrations using technologies such as IBM MQ and Microsoft BizTalk.
+## The initial solution
 
-They decide to keep a uniform integration architecture and proceeded with a microservices-based architecture to build small, reusable components using service endpoints to gain the following benefits:
+The organization hired an IT vendor that had experience building complex integrations using technologies such as IBM MQ and Microsoft BizTalk.
+
+The team decided to use a microservices-based architecture. This meant they would build small, reusable components that communicated through service endpoints. They hoped this would give them the following benefits:
 
 - Faster and independent development, deployment, and release cycles
-
 - Simplicity of architecture to allow decoupled and reusable components
-
 - Fault isolation
 
-The organization chooses Azure API Management to abstract their APIs and implement a secure integration layer.
+They also chose Azure API Management to manage their APIs securely.
 
-As the team started building and testing the initial components, they identified some challenges due to the architecture:
+## The problems
 
-- They experienced slow performance with batch-integration scenarios because they called the services as they would have in a point-to-point integration.
+As the team started building and testing the initial components, they ran into some problems:
 
-- They couldn't use standard functionalities that would have been available with out-of-the-box approaches such as SharePoint Online integration with Power Platform.
+- The performance was slow for batch-integration scenarios, because they called the services as if they were doing point-to-point integration.
 
-- For an aggregated view, they decide to replicate all data to Dynamics 365 Customer Service, which leads to more storage costs.
+- They couldn't use standard features that were available with out-of-the-box approaches. For example, they couldn't integrate SharePoint Online with Power Platform easily.
 
-- They encountered throttling and API limits issues, which prevented successful completion of the integration.
+- They decided to replicate all data to Dynamics 365 Customer Service for an aggregated view. This increased their storage costs.
 
-At this stage, the organization decides to reevaluate their standardized architecture principle and redefine their integration strategy. They divide their needs into two categories: batch and point-to-point synchronizations. They also adopted a "Configure-before-you-customize" approach.
+- They faced throttling and API limits issues. These prevented the integration from completing successfully.
 
-With a reasonable mapping of different integration needs to the patterns, they can redefine a suitable integration architecture for these components.
+## The revised solution
 
-For point-to-point integrations, the organization uses the previously defined microservices-based architecture and incorporated the necessary changes for aligning with Power Platform API limits.
+The organization realized that it needed to rethink its standardized architecture principle and redefine its integration strategy. The team divided the organization's needs into two categories: batch and point-to-point synchronizations. They also adopted a "configure before you customize" approach.
 
-For batch synchronizations, the organization designs the architecture to manage the overall ETL processes with the following approach:
+They mapped their different integration needs to the appropriate patterns and designed a suitable integration architecture for each component.
 
-- They extract the data from their source application by creating SQL Server Integration Services packages and storing that data in a staging database to perform all transformations.
+For point-to-point integrations, they kept the microservices-based architecture. But they made some changes to align with Power Platform API limits.
 
-- They host their staging environment in Azure SQL, within the same datacenter as the Customer Service app.
+For batch synchronizations, they designed the architecture to handle the ETL processes more efficiently. They did this by:
 
-- They send that data as batch data to the Customer Service app to reduce the number of individual connections.
+- Extracting the data from their source application using SQL Server Integration Services packages and storing the data in a staging database
 
-- They consider API and throttling limits and build retries as part of the design.
+- Hosting the staging environment in Azure SQL, in the datacenter as the Customer Service app
 
-For an aggregated view of the data, they realign their approach to use Azure Data Lake, as Microsoft recommends. The out-of-the-box Export to Azure Data Lake feature requires simple configurations to export data from the Customer Service app into Data Lake. No extra code is needed.
+- Sending the data as batch data to Customer Service to reduce the number of individual connections
 
-These changes in their overall approach provide significant benefits:
+- Considering API and throttling limits and building retries into the design
 
-- Their batch synchronization performance improves significantly, and they cut the duration of the daily sync by more than 70 percent.
+For an aggregated view of the data, they changed their approach to use Azure Data Lake Storage, as Microsoft recommends. The out-of-the-box Export to Azure Data Lake feature made this easy. They didn't need any extra code.
 
-- Their "Configure-before-you-customize" approach lets them choose out-of-the-box options to reduce development and maintenance costs.
+## The results
 
-- The retry mechanism, combined with monitoring, ensures that any failure scenarios were well handled and negative impacts on end users were avoided.
+The revised solution gave the organization significant benefits:
 
-Even though the architecture realignment resets the organization's timeline, the benefits outweigh the risk, because they can align their design with product features and the recommended practices. The organization already had a change-management plan in place to take care of stakeholder communication and alignment, and to plan training for all affected teams in a timely manner.
+- Batch synchronization performance improved greatly. The duration of the daily sync dropped by more than 70 percent.
+- The "configure before you customize" approach let the team choose out-of-the-box options. This reduced development and maintenance costs.
+- The retry mechanism, combined with monitoring, ensured that any failure scenarios were well handled. This avoided negative impacts on users.
 
-## Next steps
-
-Return to the overview at [Integrate with other solutions](integrate-other-solutions.md)  
+The organization had to reset its timeline because of the architecture realignment, but the benefits were worth it. The company could align its design with product features and best practices. It also had a change management plan in place, which helped them communicate and align with stakeholders and plan training for all affected teams.

@@ -1,153 +1,138 @@
 ---
-title: Product-specific guidance for integration scenarios
-description: Find guidance on the aspects specific to the individual Dynamics 365 apps, in terms of integration strategy.
+title: Integrate Dynamics 365 apps with other systems
+description: Learn about the different options and patterns for integrating Dynamics 365 apps with each other and with external systems, and how to choose the best one for your scenario.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 05/23/2023
+ms.date: 01/26/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/26/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Product-specific guidance for integration scenarios
+# Integrate Dynamics 365 apps with other systems
 
-The following sections discuss specific integration-related considerations for the different groups of apps in Dynamics 365. There are different approaches for finance and operations apps and for customer engagement apps. We also provide examples for cross-app integration between Dynamics 365 apps.
+To connect your Dynamics 365 apps with other apps or systems to share data, trigger actions, or enhance user experiences across different platforms, you need to know how to integrate your apps effectively. Finance and operations apps and customer engagement apps need different approaches to integration. This guide will help you understand your options and patterns for integrating Dynamics 365 apps with each other and with external systems, and how to choose the best one for your scenario.
 
 ## Finance and operations apps
 
-Many ways of integrating into and from finance and operations apps use an abstraction layer with integration and data migration capabilities that shield users, administrators, and developers from the heavily normalized database. This abstraction layer consists of data entities.
+Data entities are a key feature for integrating data with finance and operations apps. They're simplified views of the database tables that represent business concepts, such as customers or sales orders. They make it easier to develop and integrate data by hiding the complexity and logic of the normalized data model.
 
 ### Data entities
 
-In finance and operations apps, a data entity encapsulates a business concept, for example, a customer or sales order line, in a format that makes development and integration easier. It's a denormalized view where each row contains all the data from a main table and its related tables. The normalized data model behind it's a more complex view.
+Data entities are denormalized views that combine data from a main table and its related tables into one row. For example, a sales order line entity contains data from the sales order header, sales order line, inventory, and customer tables. Data entities have more than 2,000 predefined views that cover common business scenarios.
 
-Said another way, data entities provide conceptual abstraction and encapsulation, a denormalized view of what's in the underlying table schema to represent key data concepts and functionality. There are more than 2,000 out-of-the-box data entities.
+You can use data entities to integrate, import, and export data without worrying about the details of the database schema or the business rules. [Learn more about data entities](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
-Data entities help encompass all the table-related information and make the integration, import, and export of data possible without the need to pay attention to the complex normalization or business logic behind the scenes. For more information, see the [Data entities overview](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
-
-The out-of-the-box data entities are general purpose entities built to support a wide variety of features surrounding a business entity. For implementations in which a high-volume, low-latency interface is required, it's recommended to build custom data entities with the necessary targeted and specific features.
-
-You can replicate an out-of-the-box data entity and remove any fields and logic around features not used by your organization to create a highly performant interface.
+The predefined data entities are designed to support many features for each business concept. If you need a faster and simpler interface for a specific purpose, you can create your own custom data entities. You can copy an existing data entity and remove any fields or logic that you don't need to optimize its performance.
 
 ### Integration patterns for finance and operations apps
 
-The following table is a list of integration patterns with pattern descriptions, pros and cons, and use cases.
+The following table summarizes the main integration options for finance and operations apps. Each option has its benefits and drawbacks, depending on your needs and preferences.
 
-| Pattern | Mechanism | Trigger | Considerations | Use when |
+| Pattern | Description | Benefits | Drawbacks | Use when |
 |-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
-| OData | Data is exchanged synchronously, invoking actions using RESTful web services and the HTTP protocol stack.</br>All data entities are marked public, and CRUD operations are mapped. | User actions and system events. | Pros: It allows developers and service platforms to interact with data by using RESTful web services.</br>It provides a simple and uniform way to share data in a discoverable manner. It enables broad integration across products.</br>Cons: The pattern is synchronous and subject to Service Protection limitations and throttling. Cold start might be slow. | Use with messaging services and point-to-point integration.</br>Inbound (Push) or outbound (Pull) of datasets from entities when the volume and payload are relatively low. |
-| Custom Services—SOAP, REST, and JSON | A developer can create external web services by extending the application with X++. Endpoints are deployed for SOAP, REST, and JSON. | User actions and system events. | Pros: Easy for developers to add and expose service endpoints to use with integration platforms.</br>Cons: Requires ALM and SDLC for coding and deployment of extensions into finance and operations apps. The payload is low compared to other patterns. | Used when invoking an action or update, for example, invoicing a sales order or returning a specific value. We recommend using REST Custom Services in general because it's optimized for the web.</br>REST is preferred for high-volume integrations because there's reduced overhead compared to other stacks such as OData. |
-| Consuming web services | A developer can consume external web services by adding a reference in X++. | Scheduled and user initiated. Can wait for off hours or idle time. | Pros: Easy for developers to add and expose service endpoints to use with integration platforms.</br>Cons: Requires ALM and SDLC for coding and deployment of references into finance and operations apps. The payload is low. Risk of hardcoding connection strings and credentials in related code. Maintenance workloads and risks when the service is updated. | Use when consuming services from other SaaS platforms or products, for example, commodity tickers and lookups of real-time values.</br>The recommended pattern is to use Power Automate instead when possible. |
-| Data Management Framework REST Package API (asynchronous, batched, cloud, or on-premises) | The REST API helps integrate by using data packages. | Originating system users or system events. | Pros: On-premises and large-volume support. The only interface that supports change tracking.</br>Cons: Supports only data packages. | Large-volume integrations. Scheduling and transformations happen outside finance and operations apps. |
-| Recurring Data Management integration REST API (asynchronous, cloud, or on-premises) | With the Data Management REST API, you can schedule the recurring integration of files and packages. Supports SOAP and REST. | Receiving system requests based on the schedule. | Pros: On-premises and large-volume support. Supports files and packages. Supports recurrence scheduled in Finance and transformations (XSLT) if the file is in XML.</br>Cons: None. | Large-volume integrations of files and packages. Scheduling and transformations happen inside finance and operations apps. |
-| Electronic Reporting | A tool that configures formats for incoming and outgoing electronic documents in accordance with the legal requirements of countries or regions. | Data state, system, or user events. | Pros: Data extracts and imports are configurable in finance and operations apps. It supports several local government formats out of the box. It can be scheduled for recurrence.</br>Cons: Comprehensive configuration when used for messaging purposes. | Electronic reporting to regulatory authorities and similar entities. |
-| Excel and Office integration | Microsoft Office integration capabilities enable user productivity. | Data state, system, or user events. | Pros: Out-of-the-box integration (export and edit) on almost every screen in the product.</br>Cons: Performance decreases with the size of the dataset. | Extracts for unplanned reporting or calculations.</br>Fast editing of column values and entry of data from manual sources.</br>Import of journal records such as general journals, expenses, and bank statements and similar transactional data. |
-| Business events | Business events provide a mechanism that lets external systems, Power Automate, and Azure messaging services receive notifications from finance and operations apps. | User or system events. | Pros: Provides events that can be captured by Power Automate, Logic Apps, and Azure Event Grid.</br>Cons: Extensions are needed to add custom events. | To integrate with Azure Event Grid, Power Automate, or Logic Apps. To notify of events inherently driven by a single data entity, for example, an update of a document or a pass or fail of a quality order. |
-| Embedded Power Apps (UI) | finance and operations apps support integration with Power Apps. Canvas apps can be embedded into the finance and operations apps UI to augment the product's functionality seamlessly with Dataverse. | Users. | Pros: Seamlessly integrates information from Dataverse without integrating the backend. Opens opportunities for low-code/no-code options directly into the finance and operations apps UI without the need for updates and compatibility.</br>Cons: Power Apps and related artifacts aren't deployed with the build and must be configured in the environment directly. Separate ALM stories for Power Apps. | Whenever the required data exists in Dataverse and is loosely coupled with finance and operations apps.</br>Using an app embedded in the UI provides a seamless experience for users. |
-| Embedded Power BI (UI) | Seamlessly integrates Power BI reports, dashboards, and visuals with information from Dataverse or any other source, without integrating the backend. | Users. | Pros: By using graphics and visuals supported by Power BI to present data from any source, workspaces can provide highly visual and interactive experiences for users without leaving the finance and operations apps UI.</br>Cons: Power BI artifacts aren't deployed with the build and must be configured within the environment directly. Separate ALM stories for Power BI components and finance and operations apps. | Whenever reports, dashboards, or visuals exist in Power BI. |
-| IFrame (UI) | The Website Host control enables developers to embed third-party apps directly into finance and operations apps inside an IFrame. | Users. | Pros: Seamlessly integrates UI from other systems or apps without integrating the backend. Information goes directly into the finance and operations apps UI without the need for updates or compatibility.</br>Cons: External systems might have separate lifecycles, and updates to those might affect user experience with little notice. | When information from loosely coupled systems can be displayed within the finance and operations apps. The experience is enhanced if the external system supports single sign-on (SSO) and deep linking. |
+| OData | A standard protocol for accessing and manipulating data through RESTful web services. | Easy to use and widely supported by many systems and apps. Allows you to perform CRUD (create, read, update, delete) operations on data entities. | Synchronous and subject to service protection limitations and throttling. might have slow performance or cold start issues. | You need to exchange data synchronously using RESTful web services and the volume and payload are relatively low. |
+| Custom Services | A way to create and expose your own web services using X++. Supports SOAP, REST, and JSON formats. | Flexible and powerful. Allows you to invoke actions or update data using custom logic. | Requires coding and deployment of extensions. Has low payload compared to other options. | You need to invoke an action or update data using custom logic in Dynamics 365 apps from another system or app. We recommend using REST Custom Services in general because it's optimized for the web. REST is preferred for high-volume integrations because there's reduced overhead compared to other stacks such as OData. |
+| Consuming web services | A way to access and use external web services by adding a reference in X++. | Simple and convenient. Allows you to consume services from other software as a service (SaaS) platforms or products. | Requires coding and deployment of references. Has low payload. might have security or maintenance risks if connection strings or credentials are hardcoded or if the service is updated. | You need to consume services from other SaaS platforms or products, such as commodity tickers or lookups of real-time values. We recommend using Power Automate instead when possible. |
+| Data Management Framework REST Package API | A way to integrate using data packages, which are collections of data entities that can be imported or exported as a unit. Supports asynchronous, batched, cloud, or on-premises scenarios. | Suitable for large-volume integrations. Supports change tracking and on-premises scenarios. | Supports only data packages. Requires scheduling and transformation outside Dynamics 365 apps. | You need to exchange large volumes of data asynchronously using data packages and change tracking. |
+| Recurring Data Management Integration REST API | A way to schedule the recurring integration of files and packages using the Data Management REST API. Supports SOAP and REST formats, cloud, or on-premises scenarios. | Suitable for large-volume integrations of files and packages. Supports recurrence scheduling and transformations inside Dynamics 365 apps. Supports on-premises scenarios. | None | You need to exchange large volumes of files and packages asynchronously using recurrence scheduling and transformations. |
+| Electronic Reporting | A tool that configures formats for incoming and outgoing electronic documents according to the legal requirements of countries or regions. | Useful for electronic reporting to regulatory authorities and similar entities. Supports several local government formats out of the box. Can be scheduled for recurrence. | Requires comprehensive configuration when used for messaging purposes. | You need to send or receive electronic documents in specific formats according to legal requirements. |
+| Excel and Office integration | A feature that enhances user productivity by integrating with Microsoft Office applications such as Excel, Word, and Outlook. | Out-of-the-box integration on almost every screen in Dynamics 365 apps. Allows you to extract, edit, import, or export data easily. | Performance decreases with the size of the dataset. | You need to extract data from Dynamics 365 apps for unplanned reporting or calculations using Excel, or import data from manual sources using Office applications. |
+| Business events | A feature that provides a mechanism for external systems, Power Automate, and Azure messaging services to receive notifications from finance and operations apps. | Enables broad integration across products and platforms using events that capture user or system actions. | Requires extensions to add custom events. | You need to integrate with Azure Event Grid, Power Automate, or Logic Apps, or notify of events driven by a single data entity, such as an update of a document or a pass or fail of a quality order. |
+| Embedded Power Apps | A feature that supports integration with Power Apps, which are low-code or no-code apps that can use connectors from other cloud services. | Allows you to augment the functionality and user interface of finance and operations apps with data and logic from other sources. | Power Apps and related artifacts aren't deployed with the build and must be configured in the environment directly. Requires separate ALM stories for Power Apps. | You need to access data from other sources that's loosely coupled with finance and operations apps and provide a seamless user experience. |
+| Embedded Power BI | A feature that supports integration with Power BI, which is a business analytics service that provides interactive reports, dashboards, and visuals. | Allows you to enhance the user interface of finance and operations apps with graphics and visuals from any source using Power BI. | Power BI artifacts aren't deployed with the build and must be configured in the environment directly. Requires separate ALM stories for Power BI components and finance and operations apps. | You need to display reports, dashboards, or visuals from any source in finance and operations apps. |
+| IFrame | A web control that developers can use to embed non-Microsoft apps directly into finance and operations apps inside an IFrame, which is a section of a web page that displays another web page. | Allows you to integrate the user interface of other systems or apps without integrating the back end. | External systems might have separate lifecycles and updates that can affect user experience with little notice. | You need to display information from loosely coupled systems in finance and operations apps. The experience is enhanced if the external system supports single sign-on (SSO) and deep linking. |
 
 ### Priority-based throttling
 
-Service protection is important for ensuring system responsiveness, availability, and performance. In finance and operations apps, throttling enforces service protection. Throttling affects OData and custom service pattern integrations only. Administrators can configure priorities for external services (registered applications) directly in the application so that lower priority integrations are throttled before high-priority integrations.
+Throttling is a way to protect the system from being overloaded by too many requests. It limits the number of requests that can be processed at the same time. Throttling applies to OData and custom service pattern integrations only. You can set different priorities for external services (registered applications) in the app. This way, the system processes high-priority requests before low-priority ones.
 
-Learn more at [Priority-based throttling](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling)."
+[Learn more about priority-based throttling](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling).
 
-Requests that are throttled receive a response containing a retry-after value, indicating when the integrating application can attempt a retry.
+If a request is throttled, the system sends back a response with a retry-after value. This value tells the integrating app when it can try again.
 
-Microsoft Dynamics Lifecycle Services (LCS) monitors throttling activity.
+You can use Microsoft Dynamics Lifecycle Services to track the throttling activity.
 
-## Customer engagement
+## Customer engagement apps
 
-In this section, we talk about the frameworks and platforms that are avaialble in customer engagement implementations.
+In this section, we'll show you the frameworks and platforms that you can use to integrate customer engagement apps with other systems or apps.
 
 ### IFrames
 
-IFrame is a popular approach commonly used for hosting external URL-based applications. Consider using the Restrict cross-frame scripting options to ensure security.
+IFrames are web controls that let you embed external URL-based apps into customer engagement apps. They can help you display information from other sources in the user interface. Make sure to use the Restrict cross-frame scripting options to prevent security risks.
 
 ### Power Apps component framework
 
-Power Apps component framework is a modern approach for creating rich visual components that allow enhancement of the user interface of model-driven apps. It uses client frameworks such as React, and enhancements can be reused across Dynamics 365 apps. It can also pull data from an external application and display the data in a visual form.
+Power Apps component framework is a modern way to create rich visual components that enhance the user interface of model-driven apps. It uses client frameworks like React, and you can reuse the components across Dynamics 365 apps. You can also pull data from an external app and show it in a visual form.
 
 ### Canvas apps
 
-With canvas apps, citizen developers can build business apps without any code. These apps can use connectors from other cloud services and be embedded in model-driven apps to present data from other applications on the user interface.
+Canvas apps are low-code or no-code apps that you can build easily. You can use connectors from other cloud services to access data and logic from other sources. You can also embed canvas apps in model-driven apps to show data from other apps in the user interface.
 
 ### HTML web resources
 
-A precursor to Power Apps component framework, HTML web resources were commonly used to render data in a visual form, providing designers with more flexibility. They can be used to pull data into external applications using the available endpoints.
+HTML web resources are web pages that you can use to display data in a visual form. A precursor to Power Apps component framework, HTML web resources were commonly used to render data in a visual form, providing designers with more flexibility. You can use them to pull data from external apps using the available endpoints.
 
 ### Dynamics 365 Channel Integration Framework
 
-Dynamics 365 Channel Integration Framework hosts the widgets and triggers the events for scenarios such as telephony and chat integration. There are multiple versions of Channel Integration Framework for different scenarios, including multi-session and single-session needs. Channel Integration Framework also integrates channels such as voice, chat, and messaging.
+Dynamics 365 Channel Integration Framework is a feature that lets you integrate communication channels such as voice, chat, and messaging into customer engagement apps. It hosts the widgets and triggers the events for scenarios like telephony and chat integration. It has different versions for different scenarios, such as multi-session and single-session needs.
 
 ### Virtual tables
 
-Virtual tables pull data on demand from external data sources. This approach is implemented as tables within the Dataverse layer but doesn't replicate the data because the data is pulled real time on demand.
+Virtual tables are tables in Dataverse, which is the data platform behind customer engagement apps, that pull data from external data sources on demand. They don't store the data, but they show it as if it were part of Dataverse. They let you access data from external sources in real time.
 
 ### Webhooks
 
-Commonly used for near real-time integration scenarios, webhooks can be invoked to call an external application upon the trigger of a server event. When choosing between the webhooks model and the Azure Service Bus integration, consider the following items:
+Webhooks are HTTP requests that you can use to call an external app when a server event happens in customer engagement apps. They're useful for near-real-time integration scenarios. You can choose between synchronous and asynchronous steps. You can also invoke them from Power Automate or plug-ins.
 
-- Azure Service Bus works for high-scale processing and provides a full queueing mechanism if Dataverse pushes many events.
+If you need to handle many events or high-scale processing, you might want to use Azure Service Bus instead of webhooks. Azure Service Bus provides a full queueing mechanism for data exchange, but it only supports asynchronous steps.
 
-- Webhooks enable synchronous and asynchronous steps, whereas Azure Service Bus enables only asynchronous steps.
+[Learn how to use webhooks to create external handlers for server events](/power-apps/developer/data-platform/use-webhooks).
 
-- Both webhooks and Azure Service Bus can be invoked from Power Automate or plug-ins.
+## Dynamics 365 cross-app integration
 
-For more information, visit [Use Webhooks to create external handlers for server events](/power-apps/developer/data-platform/use-webhooks).
+In this section, we'll show you how to integrate two or more Dynamics 365 apps with each other. Some of the integration options and patterns we discussed earlier are specific to when you want to integrate one of the Dynamics 365 apps with a partner or custom-built system. But you might also want to integrate the customer engagement apps and finance and operations apps.
 
-### Dynamics 365 cross app integration
+When you integrate customer engagement apps and finance and operations apps, you're actually integrating finance and operations apps with Dataverse. Dataverse is the data platform behind customer engagement apps. These integration options have different characteristics, scenarios, pros, and cons.
 
-In this section, we look at the integration between two or more Dynamics 365 apps.
+### Virtual tables in finance and operations apps
 
-Some of the patterns mentioned earlier are specific to when we want to integrate one of the Dynamics 365 apps into a third-party or custom-built system.
+Virtual tables let you connect Dataverse to finance and operations apps entities as virtual tables. Virtual tables have the same full CRUD (create, read, update, delete) capabilities as the entity endpoint in the app. You can access the data in a secure and consistent way that looks and behaves like any other table in Dataverse. You can also use Power Automate to connect to other sources.
 
-Several options are available for integrating the customer engagement apps and finance and operations apps.  
-
-> [!NOTE]
-> In cross-app integration, we're actually integrating finance and operations apps with Dataverse. These options have distinct characteristics, different scenarios, and different pros and cons.
-
-#### Virtual tables in finance and operations apps
-
-The virtual table option enables you to connect Dataverse to finance and operations apps entities as virtual tables that offer the same full CRUD (create, retrieve \[or read\], update, delete) capabilities as the entity endpoint in the app. As a benefit, we can access the data in a secure and consistent way that looks and behaves the same as any other table or construct in Dataverse. We can also use Power Automate to connect to almost anything.
-
-Another benefit is that the data doesn't have to live in both Dataverse and the transactional database. But the data is still seamlessly available as tables and rows in Dataverse.
+The data doesn't have to live in both Dataverse and the transactional database, but it's still available as tables and rows in Dataverse.
 
 > [!NOTE]
-> Because Dataverse is cloud based, this direct integration option isn't available for on-premises implementations of finance and operations apps. You can use the Data Management REST API instead. For more information, read the [Finance and Operations virtual tables FAQ](/dynamics365/fin-ops-core/dev-itpro/power-platform/faq).
+> This integration option works only for cloud-based implementations of finance and operations apps. If you have an on-premises implementation, you can use the Data Management REST API instead. For more information, see the [Finance and Operations virtual tables FAQ](/dynamics365/fin-ops-core/dev-itpro/power-platform/faq).
 
-#### Dual-write
+### Dual-write
 
-The second option is dual-write integration. Dual-write also provides synchronous, real-time integration between finance and operations apps and applications in Dataverse.
+Dual-write is another integration option that provides synchronous, real-time integration between finance and operations apps and applications in Dataverse.
 
-:::image type="content" source="media/integrate-other-solutions-dual-write.png" alt-text="Dual-write" lightbox="media/integrate-other-solutions-dual-write.png":::
+You can use dual-write when you want to share data that's fundamentally the same across Dynamics 365 apps, such as customer and account, product and item, or project and task. This way, you can provide seamless integrated experiences for scenarios like product mastering, prospect to cash, or project to cash across systems.
 
-A common scenario for the dual-write option is when users of the different Dynamics 365 apps are working on data that is fundamentally the same, such as customer and account, product and item, and projects.
+When you set up dual-write for a data entity, you can use existing [table mapping templates](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/mapping-reference) for integration of entities across apps.
 
-The data is shared to provide seamless integrated experiences, for example, for product mastering, prospect to cash, and project to cash across systems. When setting up dual write for a data entity, two things are possible. First, check the [list](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/mapping-reference) of existing table mapping templates for integration of entities across apps.
+One benefit of using dual-write is that the two systems share the same dataset. Any changes in one system are instantly reflected in the other one.
 
-The benefit of using the dual-write approach is that the two applications share the same dataset, so changes in one system are seamlessly and instantly reflected in the other one.
+Another benefit is that some functionality is ready to use and easy to configure, although you can also extend it by coding. Plus, you can use all the capabilities of Power Platform for the shared datasets.
 
-Another benefit is that in some cases the functionality is out of the box and configurable with minimal effort, but it's also extendable by a developer. Additionally, the full set of capabilities of Power Platform is available for the shared datasets.
-
-Learn more about the mapping concepts and setup at [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page).
+[Learn how to set up dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page).
 
 #### Dataverse data and business events
 
-Business and data events in Dataverse allow for extending business logic and providing advanced notification capabilities through asynchronous integration across platforms and apps. Business Events can be bound to a table, an API, or a custom process action.
+Dataverse data and business events let you extend business logic and provide advanced notification capabilities through asynchronous integration across platforms and apps. You can use data events or business events depending on your needs.
 
-Data events are using the event framework and support CRUD operations as well as RetrieveMultiple, Associate and Disassociate and specialized operations and custom actions.
+Data events use the event framework and support CRUD operations as well as RetrieveMultiple, Associate, Disassociate, and specialized operations and custom actions. Business events can be bound to a table, an API, or a custom process action.
 
-The events are used for any kind of extension or integration scenario and open wide possibilities for integrating Dynamics 365 apps, plug-ins, Azure integrations, Virtual table providers, webhooks, and more. For example, the developer uses the "When an action is performed" trigger is used from Power Automate.
+You can use events for any kind of extension or integration scenario. For example, you can use them to integrate Dynamics 365 apps, plug-ins, Azure integrations, virtual table providers, and webhooks.
 
-Learn more at [Dataverse business events](/power-apps/developer/data-platform/business-events) and [Dataverse data events](/power-apps/developer/data-platform/event-framework).
+Learn how to use [Dataverse business events](/power-apps/developer/data-platform/business-events) and [Dataverse data events](/power-apps/developer/data-platform/event-framework).
 
 ## Next steps
 
-- [Define business goals](integrate-other-solutions-business-goals.md)  
-- [Choose a platform](integrate-other-solutions-choose-platform.md)  
-- [Choose a design](integrate-other-solutions-choose-design.md)  
-- [Choose a pattern](integrate-other-solutions-choose-pattern.md)  
-- [Challenges](integrate-other-solutions-challenges.md)  
-- [Checklist](integrate-other-solutions-checklist.md)  
-- [Case study](integrate-other-solutions-case-study.md)  
+- Use this Solution by Design [checklist](integrate-other-solutions-checklist.md) to make sure you've covered all the steps and considerations for your integration project
+- Read how a public sector infrastructure organization learned how to [choose the right solution for their integration project](integrate-other-solutions-case-study.md)
