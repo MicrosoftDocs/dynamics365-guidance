@@ -27,15 +27,15 @@ Implementing technology can help organizations overcome these challenges and str
 
 Many people across the organization should contribute to the decision-making process and design of the *Manage travel and expenses* area. The following list provides examples of such stakeholders:
 
-- **Management stakeholders:** Roles such as finance managers, CEOs, COOs, and various line managers are integral in creating and adjusting policies for meetings, travels, and expenses that align with business needs. Their input is essential to optimize operational efficiency and manage relationships with employees, customers, vendors, and even preferred travel vendors. Frontline supervisors can be crucial in the review and approval process of travel and expenses.
+- **Management**: Roles such as finance managers, CEOs, COOs, and various line managers are integral in creating and adjusting policies for meetings, travels, and expenses that align with business needs. Their input is essential to optimize operational efficiency and manage relationships with employees, customers, vendors, and even preferred travel vendors. Frontline supervisors can be crucial in the review and approval process of travel and expenses.
 
-- **Employees stakeholders:** Employees are stakeholders in the travel and expense process, as they incur expenses for your business and are responsible for ensuring the accuracy of their records. Clear communication and enforcement of policies are vital to their effective engagement in these processes.
+- **Employees**: Employees are stakeholders in the travel and expense process, as they incur expenses for your business and are responsible for ensuring the accuracy of their records. Clear communication and enforcement of policies are vital to their effective engagement in these processes.
 
-- **Human resource stakeholders:** HR managers and HR specialists and similar roles are crucial to involve in defining and managing travel and expense policies, ensuring alignment with HR guidelines and regulations. They play a key role in shaping policies that reflect the organization's culture and compliance requirements.
+- **Human resources**: HR managers and HR specialists and similar roles are crucial to involve in defining and managing travel and expense policies, ensuring alignment with HR guidelines and regulations. They play a key role in shaping policies that reflect the organization's culture and compliance requirements.
 
-- **Project Managers stakeholders:** In the context of Dynamics 365 Project Operations and service-based organizations, project managers play key roles by overseeing the integration of expense data with project records, and they manage any team activities that result from travel. They ensure that project schedules align with the availability of resources. They can be crucial in the review and approval process of travel and expenses.
+- **Project managers**: In the context of Dynamics 365 Project Operations and service-based organizations, project managers play key roles by overseeing the integration of expense data with project records, and they manage any team activities that result from travel. They ensure that project schedules align with the availability of resources. They can be crucial in the review and approval process of travel and expenses.
 
-- **Compliance Officers:** Compliance officers are responsible for ensuring that the organization adheres to relevant regulations and standards. They use the system to monitor and report on compliance, track regulatory changes, and make necessary adjustments to policies and procedures to maintain legal and ethical compliance.
+- **Compliance officers**: Compliance officers are responsible for ensuring that the organization adheres to relevant regulations and standards. They use the system to monitor and report on compliance, track regulatory changes, and make necessary adjustments to policies and procedures to maintain legal and ethical compliance.
 
 ## Manage travel and expenses process flow 
 
@@ -65,13 +65,13 @@ The following diagram illustrates the *Manage travel and expenses* business proc
 
         5. *Review and approve expense reports*
 
-        6. *Audit expense reports to find any anomalies*
+        6. *Audit expense reports to find anomalies*
 
         7. *Pay expense reports*
 
         8. *Report and analyze on expense reports*
 
-4. Parallel connections are shown between to downstream processes *Order to cash*, *Project to profit*, *Service to cash*, and *Record to report*.
+4. Parallel connections are shown between the downstream processes *Order to cash*, *Project to profit*, *Service to cash*, and *Record to report*.
 
 5. End
 
@@ -93,9 +93,11 @@ By keeping track of all travel-related expenses, an organization can maintain a 
 
 ### Prevent expense fraud
 
-When the organization has a well-defined travel management strategy with supporting technology, they can examine expense patterns and maintain an organized record of travel-related receipts. These steps help the organization prevent expense fraud. 
+When the organization has a well-defined travel management strategy with supporting technology, it can examine expense patterns and maintain an organized record of travel-related receipts. These steps help the organization prevent expense fraud. 
 
-Drive organizational health and business stability: T&E management can help drive organizational health and business stability by ensuring that all expenses are accurately recorded and approved. Employees can have a better experience in submitting and tracking their expenses. They can build customer relationships by traveling to meet with clients and partners.
+### Drive organizational health and business stability 
+
+T&E management can help drive organizational health and business stability by ensuring that all expenses are accurately recorded and approved. Employees can have a better experience in submitting and tracking their expenses. They can build customer relationships by traveling to meet with clients and partners.
 
 ## Next steps
 
