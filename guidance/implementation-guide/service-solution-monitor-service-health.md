@@ -1,199 +1,170 @@
 ﻿---
-title: Monitor the health of your environments to keep system performances at optimal levels
-description: Learn the importance of monitoring various aspects of the health of your Dynamics 365 services to ensure a healthy system. Be proactive to address any potential issues through monitoring.
+title: Monitor and optimize your Dynamics 365 environments
+description: Learn how to monitor your Dynamics 365 environments for optimal performance, security, cost, and supportability with Microsoft tools.
 author: taksatoms
 ms.author: tsato
-ms.date: 03/31/2023
+ms.date: 01/30/2024
 ms.topic: conceptual
-
+ms.custom:
+ - ai-seo-date: 01/30/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Monitor the health of your environments to keep system performances at optimal levels
+# Monitor and optimize your Dynamics 365 environments
 
-A key principle for a successful onboarding experience to Dynamics 365 is knowing the health of your environments always. Your team must be able to troubleshoot issues right away.
+To succeed with Dynamics 365, you need to know how healthy your environments are always. You also need to troubleshoot issues quickly and proactively.
 
-Dynamics 365 and the Power Platform have gone through rigorous testing, so why do customers need to check that it's running smoothly? It's because of each organization's unique usage patterns and the extensibility of the platform.
+You might wonder why you need to monitor your system, since Microsoft rigorously tests Dynamics 365 and Power Platform. The answer is that every implementation has unique usage patterns and customizations that can affect the system's performance, security, cost, and supportability.
 
-Just about every implementation contains customizations to their Dynamics 365 environment. It can be small changes, such as adding new fields and forms. Maybe your business requires heavy customizations with complex logic or performance-impacting integrations with other systems. Or maybe your organization has more concurrent users than the typical use case, so data management needs are also growing at a rapid pace.
+For example, you might have:
 
-Another reason to monitor your system is to understand usage patterns for better business intelligence. Through this analysis, business stakeholders can pinpoint where to invest and prioritize improvements and focus areas for training.
+- Added new fields, forms, logic, or integrations that affect performance.
+- More concurrent users or data than usual that increase storage and operational costs.
+- Regulatory or compliance requirements that affect how you handle customer data.
+- Business intelligence needs that require you to analyze usage patterns and improve processes.
 
-Microsoft highly recommends monitoring service health and provides you with the tools to do so. That way, you know when irregularities are found and action is needed.
+Microsoft provides you with various tools to monitor your system's health and alert you when something goes wrong. This article covers the key areas that you should monitor in your solution:
 
-As administrators and power users of Dynamics 365, you can focus on several key areas when monitoring usage. These areas impact performance, security, cost, and supportability, all central to keeping the system performance at optimal levels.
-
-This article addresses key areas for monitoring the solution:
-
-- Performance monitoring
-
+- Performance
 - Licensing and operational cost
-
 - Storage allocation and usage
-
 - API request and service protection
-
 - Security and privacy
-
 - User access and resource usage
-
 - Application logs and errors
-
 - Messages from Microsoft
 
-## Performance monitoring
+## Monitor performance
 
-Microsoft recommends that Dynamics 365 project teams consider adding performance testing to the project's test cycle. Performance testing is an effective way to gauge the impact that your customizations may have on the baseline Dynamics 365 solution.
+Performance is how fast your system responds to user actions. Poor performance can affect your business efficiency and user adoption.
 
-Performance testing is typically conducted in a simulated environment. It provides insight into changes in solution design or configuration prior to production rollout at scale. By conducting performance testing early, Dynamics 365 administrators have a baseline performance expectation of the new system that can be used as comparison over time.
+You should test your system's performance before you deploy it in production. You can use performance testing to measure the impact of your customizations and set a baseline for comparison.
 
-Many factors can influence how performance is affected in live production scenarios:
+You should also monitor your system's performance in production. Many factors that aren't related to the performance of the Dynamics 365 application itself can influence performance in live production scenarios:
 
-- Integrations with other production systems have fluctuating response times that are different than in the simulated tests
+- Network traffic can vary throughout the day, and remote workers who rely on individual Internet connections can have different response times.
+- Integrations with other systems might have different response times than in your test environment.
+- Workflows and back-office jobs might be running, which can stress the system.
 
-- Workflows such as back-office jobs could be running, which stresses the systems
+To monitor performance, you need to collect and analyze data from different sources. You can use tools such as:
 
-- The network traffic can vary throughout the day depending on an organization's usage patterns
+- [Lifecycle Services)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) for finance and operations apps
+- [Dataverse analytics](/power-platform/admin/analytics-common-data-service) for customer engagement apps and Dataverse
+- [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview)
 
-- For remote workers, reliance on individual internet connections could cause different outcomes for each user
+You can set up notifications to warn you when your system's performance falls below a certain range. This way, you can troubleshoot and fix issues faster.
 
-Ultimately, the responsiveness that user experience comes from a mix of multiple factors that aren't limited to the performance of the Dynamics 365 application itself.
+[Learn more about performance strategy](performing-solution.md).
 
-To understand the performance impact in these scenarios, proper end-to-end logging and collection of telemetry is required. You get a complete picture of how long each step of the pipeline takes to complete. This information can reduce the time required to triage and fix any issues.
+## Monitor licensing and operational cost
 
-As this data is collected, monitor the performance of the solution and set up notifications to warn you when performance of any aspect of the solution varies from a defined range.
+You should keep track of the licenses that you have and use so that you can plan ahead and adjust your purchasing as needed.
 
-A solution that performs poorly can affect the operational efficiency of a business and create barriers to user adoption. But you can stay ahead of such issues through proper monitoring and alerts.
+You should also keep track of the operational cost, which depends on your usage volume. Staying aware of changes in your organization's use of the system can help business and IT managers make budget decisions based on usage patterns.
 
-> [!NOTE]
-> The article [A performing solution, beyond infrastructure](performing-solution.md) covers the importance of having a performance strategy that includes elements such as defining performance requirements, establishing baseline metrics, and ongoing performance testing.
+[Review Dynamics 365 licensing requirements](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
-> [!NOTE]
-> You can use many different tools to monitor performance. For finance and operations apps, [Lifecycle Services (LCS)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) is the first place to go for performance monitoring. Also, tools such as the Optimization advisor suggest best practices for module configuration and identifies business data that is obsolete or incorrect. 
+[Manage your subscription for customer engagement apps and Power Platform in the Microsoft 365 admin center](/power-platform/admin/use-office-365-admin-center-manage-subscription).
 
-> [!NOTE]
-> For customer engagement apps and Dataverse, wide breadth of your organization's metrics is available in [Dataverse analytics](/power-platform/admin/analytics-common-data-service). With it you can gauge and monitor performance from within the Power Platform Admin center. Organizations are also encouraged to regularly use the Solution Checker to identify customization issues and get links to recommended resolutions.  
+[Stay compliant with user licensing requirements for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/sysadmin/stay-compliant-user-license-requirement).
 
-> [!NOTE]
-> You can also use extensions such as [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) to monitor applications like Dynamics 365 for custom telemetry needs.
+[View independent software vendor (ISV) license status](/dynamics365/fin-ops-core/dev-itpro/sysadmin/view-isv-license-status).
 
-## Licensing and operational cost
+## Monitor storage allocation and usage
 
-As your solution matures and new users are onboarded, it becomes more important to keep track of the licenses used. Insight on the number of available licenses will help you plan ahead and adjust your purchasing as needed.
+Storage allocation and usage are how much space you have and use for your data. You start with a minimum amount of storage space for your environment. You can add more data as your business grows.
 
-Another aspect is the operational cost. With solutions that include cloud computing, usage volume heavily impacts this expense. Staying aware of any changes in your organization's usage will help business and IT managers make key budget decisions.
+You should be aware of how much storage space you have left and how fast it grows. You can budget for extra storage or free up space by archiving or deleting data. You can also schedule and clean up data regularly.
 
-> [!NOTE]
-> [Stay compliant with user licensing requirements](/dynamics365/fin-ops-core/dev-itpro/sysadmin/stay-compliant-user-license-requirement) and view the [independent software vendor (ISV)](/dynamics365/fin-ops-core/dev-itpro/sysadmin/view-isv-license-status) license status for finance and operations apps for more information.
+Different types of data, such as transactions, files, and logs, have different allocations depending on your subscription. Some actions, such as copying and restoring environments, can also affect your storage allocation.
 
-> [!NOTE]
-> Review the [business subscriptions and billing documentation](/microsoft-365/commerce/?view=o365-worldwide&preserve-view=true) for Microsoft 365 and the [Microsoft 365 admin center to manage your subscription](/power-platform/admin/use-office-365-admin-center-manage-subscription) for customer engagement apps and Power Platform.
+[Learn about storage entitlements, segmentation, and the effect of backup and restore operations](data-management.md).
 
-> [!TIP]
-> The [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) provides details on licensing requirements.
+[Verify your Dataverse storage capacity entitlements and usage](/power-platform/admin/capacity-storage).
 
-## Storage allocation and usage
+## Monitor API request and service protection
 
-With a Dynamics 365 subscription, you start with a set minimum amount of storage space for your environment.
+One of the benefits of using a cloud solution is that it can scale up or down based on your usage. However, to ensure consistent availability and performance for everyone, Microsoft limits how much you can use the APIs that connect your solution to other systems. These limits prevent overuse of resources that can slow down or stop the system.
 
-Depending on your needs, you can add more data to suit your business size and expected growth.
+You should monitor how much you use the APIs and avoid hitting the limits. If you reach a limit, the service might throttle or block your API calls. You can see these errors in your logs when this happens.
 
-Administrators must be mindful of the amount of storage that is available for the organization's subscription as usage grows. Different data classifications (such as transactions, files, and logs) have different allocations depending on your subscription.
+You should design your system to use the APIs efficiently and set priorities for different scenarios. For example, you can:
 
-Users and integrations aren't the only cause of storage growth. Logs from system jobs, indexes created to help performance, and more application data added from new modules also contribute to storage growth. Another scenario that impacts storage allocation is in the copy and restore operations of an environment. Depending on the type of copy, the size of the database can be different. As an administrator, you need to be mindful of who can create new instances and what their true needs are to minimize impact on the storage allocation as these copies are being restored.
+- Use batch operations to group multiple requests into one.
+- Use change tracking to get only the data that has changed since the last request.
+- Use alternate keys to identify records without querying the database.
+- Use asynchronous operations to run tasks in the background without waiting for a response.
 
-Administrators should monitor the volume of storage that is currently used as well as its growth rate. This information will help you budget for any extra storage needs or look into data archiving and deletion to free up space. Scheduling and cleaning up data from time to time will help as well. Learn more at [Environment maintenance](service-solution-environment-maintenance.md).
+To monitor API request and service protection, you can use tools such as:
 
-> [!IMPORTANT]
-> Refer to the article [Data management](data-management.md) for details on storage entitlements, segmentation, and impact to allocations when backing up and restoring instances.
+- [Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) for finance and operations apps
 
-> [!NOTE]
-> For information on storage capacity for finance and operations apps, see the Dynamics 365 Licensing Guide. Note that [Dataverse storage capacity entitlements and usage changed in 2019](/power-platform/admin/capacity-storage). This resource also provides instructions on verifying your storage capacity and usage.
+    Lifecycle Services also lets you [configure priorities for integrations](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling#configure-priorities-for-integrations).
 
-## API request and service protection
+- [Dataverse analytics](/power-platform/admin/analytics-common-data-service) for customer engagement apps and Dataverse
 
-One of the advantages of choosing a cloud solution over on-premises software is that your application is scalable. Among other things, you can adjust the amount of processing and memory resources based on the usage. But to provide consistent availability and performance for everyone, Microsoft monitors and applies some limits to how APIs are used. These limits are designed to detect when client applications are making extraordinary demands on server resources.
+[Review the service protection API limits](/powerapps/developer/data-platform/api-limits) and learn how to maximize throughput.
 
-The intent is to prevent over-utilization of resources to preserve the system's responsiveness and performance for environments running Dynamics 365. When an API limit is hit, the service may be throttled or even prevent API calls from running. Error logging shows you when these limits are exceeded.
+## Monitor security and privacy
 
-As an admin, you can pull historical telemetry reports to see if any areas of the application are at risk of hitting these limits. Then, work with the implementation team to make appropriate design changes. Or better yet, use tools like Azure Application Insights to set thresholds on these API calls. This way, the admin is notified before the limit is reached, so that they can mitigate the risk of throttling or being shut down.
+You should have a security policy that defines who can access your system and what they can do with it. You should also have a compliance policy that meets any regulatory or legal requirements for your industry or region.
 
-> [!NOTE]
-> For finance and operations apps, use LCS to monitor API usage. For more information, review [priority-based throttling and how to configure priorities](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling#configure-priorities-for-integrations) for special circumstances such as integrations.
+You should monitor who is accessing your system and what they're doing with your data. As part of user management, you should also audit user actions and respond to data subject requests (DSRs).
 
-> [!NOTE]
-> For customer engagement apps, use the Dataverse analytics available in the Power Platform Admin center. Refer to the [service protection API limits](/powerapps/developer/data-platform/api-limits) and the ways to maximize throughput to avoid hitting these limits.
+For instance, when an employee changes roles or leaves the company, you need to change or remove their security role and permissions. If a vendor or consultant contract ends, you need to revoke their access to the data they were working with. And if a customer asks to access, modify, or delete their personal data, you need to comply with their request and provide reports.
 
-## Security and privacy
+[Monitor, investigate, and respond to threats with Microsoft 365 security](/microsoft-365/security/).
 
-From a security perspective, you want to prevent unwanted access to your system, applications, and data. The unified Microsoft 365 security center combines protection, detection, investigation, and response to threats for your Dynamics 365 system, all in a central portal.
+[Manage data governance, risk, and compliance in the Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center).
 
-At the solution level, you need strategic planning to create a robust security policy that can be implemented during deployment. As the administrator who services this solution, you must also monitor and act upon other aspects of security.
+[Identify and troubleshoot service issues in Microsoft 365 service health](/microsoft-365/enterprise/view-service-health).
 
-Take a scenario in which an employee changes roles or leaves the company. You need a process to change the security role and permissions for that user. When a vendor is granted access to a system as a consultant, they often continue to have access to it even when they're no longer working with the company. Microsoft recommends that you have a process to address these scenarios.
+[Learn more about security strategy and planning for Dynamics 365](security.md).
 
-"Who has access to my customer data?" may seem like a simple question, but as the number of users and system usage grows, it can be daunting to keep track. You need to be able to identify who is accessing the system and what they're doing with the data.
+## Monitor user access and resource usage
 
-Depending on the industry or the region of the organization, you may also have regulatory or compliance-related requirements. You might need to provide reports about customer data handling or delete customer data upon request.
+You should understand your users' behavior and expectations. Business sponsors want to know who is using (and not using) the system. They also want to know the frequency of business processes and use cases that are being run. Data on usage patterns gives you clear insights to user adoption, and you can take proven actions to improve it. For example, if a certain capability isn't being used much, query the users to get their feedback on it.
 
-Microsoft recommends that you have a proper auditing strategy to capture the information needed to track user actions so that you can satisfy these types of requests. Most common areas are covered by Dynamics 365. Because auditing takes up more storage and potentially impacts performance, administrators need to turn some of these capabilities on where they may not be by default.
+You can also use this information to estimate license needs. For example, you can reassign licenses from users who rarely access the system to new users.
 
-> [!TIP]
-> Refer to the article [Security](security.md) for details on security strategy and planning. Review the Microsoft security portals and admin centers overview and the Microsoft 365 compliance center overview for more details. The Microsoft 365 security center provides the ability to search through Dataverse activity logging for customer engagement apps.
+To monitor user access and resource usage, you can use tools such as:
 
-> [!NOTE]
-> Your organization may be subject to rules that give users specific rights to their personal data. You may need to respond to [data subject requests](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) (DSRs) to delete a user's personal data.
+To monitor API request and service protection, you can use tools such as:
 
-## User access and resource usage
+- [Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) for finance and operations apps
 
-For any application or solution, it's important to understand your organization's resource usage patterns. Business sponsors want to know who is using (and not using) the system. They'll also want to know the frequency of business processes and use cases that are being run.
+    Lifecycle Services also lets you [configure priorities for integrations](/dynamics365/fin-ops-core/dev-itpro/data-entities/priority-based-throttling#configure-priorities-for-integrations).
 
-Telemetry on usage patterns gives you clear insights to user adoption, and you can take proven actions to improve adoption. For example, if a certain capability isn't being used much, query the users to get their feedback on it. By using telemetry to identify the areas that are most important to the user group, the project team can work with business sponsors to prioritize features.
+- [Dataverse analytics](/power-platform/admin/analytics-common-data-service) for customer engagement apps and Dataverse
 
-> [!TIP]
-> Monitoring and Diagnostic tools in LCS provide telemetry for usage patterns for finance and operations apps.
+- [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview)
 
-> [!TIP]
-> Microsoft Dataverse analytics provides user access and usage pattern telemetry for customer engagement apps and the Power Platform.
+## Monitor application logs and errors
 
-You can also use this information when estimating license needs. For example, some licenses may be assigned to users who rarely access the system; you can reassign the licenses to someone new. Insights provided by the telemetry are readily available in Dynamics 365. Use this data to help improve business processes and allocate resources in the right areas to maximize your investment.
+You should check your system logs regularly for any issues that might affect your system's health. You should also set up alerts to notify you when something goes wrong.
 
-The platform is constantly adding functionality to the standard usage reports. If you have any gaps between your needs and these options, you can tailor tools such as Azure Application Insights to your usage pattern tracking requirements. By using reporting and analytics tools such as Power BI, organizations can create reports based on custom usage tracking needs.
+You can use tools such as:
 
-## Application logs and errors
+- [Monitoring and diagnostic tools in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) for finance and operations apps
 
-Typically, system errors are found by users who report issues through an IT service management (ITSM) process. But you may have unreported issues that can only be found in the application logs.
+- [Performance tuning](/power-platform/admin/performance-tuning-and-optimization) for customer engagement apps
 
-Turning to notifications and application logs to proactively look for entries is a good way to find trouble spots and address them before they impact users.
+- [Trace logging](/powerapps/developer/data-platform/logging-tracing) in Dataverse for plug-in error information
 
-You can use tools such as Azure Application Insights for Dynamics 365 and other applications and services that are part of the overall IT solution for your organization. Application Insights lets you collect telemetry both in and outside of Dynamics 365.
+- [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview)
 
-For example, if a user in Dynamics 365 initiates a process that calls on an integrated, but external system, Application Insights can still detect performance and exceptions at different stages of the execution pipeline. You can see these issues whether they occur at the user interface level, in Dynamics 365, or the external system. The admin monitors alerts to react quickly the moment the exceptions surface. They also have immediate access to information on the source of the issue.
+[Identify and troubleshoot service issues in Microsoft 365 service health](/microsoft-365/enterprise/view-service-health).
 
-> [!IMPORTANT]
-> Monitoring and Diagnostic tools in LCS allow administrators to monitor and query logs for issues detected in the system for finance and operations apps.
+## Monitor messages from Microsoft
 
-> [!IMPORTANT]
-> For customer engagement apps, Performance Insights in the Power Platform Admin center analyzes runtime user data and provides a prioritized list of recommendations to help improve performance of model-driven apps. [Trace logging](/powerapps/developer/data-platform/logging-tracing) in Dataverse provides plugin error information for customer engagement apps and the Power Platform.
-
-> [!TIP]
-> You can also use [Microsoft 365 service health](/microsoft-365/enterprise/view-service-health) to identify service issues, and administrators can be notified via email or through the mobile app.
-
-## Messages from Microsoft
-
-Microsoft provides ample information about the health of your service, upcoming release information, service exceptions and interruptions, and other important details. The [Microsoft 365 Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true) is the central location for technical and licensing communications with our customers. As an administrator of your solution, the message center is an important area to frequently check for new messages.
-
-Typically, organizations have multiple people who manage Microsoft services. You may want to provide appropriate team members with access to these messages.
-
-You can also configure your preferences on receiving emails. A mobile app is available to manage these communications.
-
-As we've described, it's key to know when to act by having the information needed to understand the health of your system. Multiple tools are available to monitor your solution, which can feel daunting. But with tools to alert administrators when services are running less than optimal, the task will be much more manageable.
-
-Key alerts you can receive from Microsoft include the service updates to your Dynamics 365 solution. In the next section, we discuss when and how Dynamics 365 is updated and what you can do as an administrator to take advantage of the predictable nature of the service updates.
+Messages from Microsoft give you information about the health, updates, and features of your service. You should check the [Microsoft 365 Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true) frequently for new messages. You can set your preferences to receive emails or use the mobile app. You should also give access to the message center to other team members who manage Microsoft services.
 
 ## Next steps
 
-- Understand the importance to service the solution by reviewing the [overview](service-solution.md)
-- Review how [Service Updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness  
+- Review how [service updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness
 - Learn about the importance of [environment maintenance](service-solution-environment-maintenance.md)
 - Find more resources to [continue the business application journey](service-solution-continue-the-business-application-journey.md)
 - Read the [case study](service-solution-case-study.md) to understand the impact to an organization when servicing the solution isn't top of mind

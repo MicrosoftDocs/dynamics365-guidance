@@ -49,8 +49,8 @@ Take steps to be aware of your solution's performance, be proactive in taking ac
 
 ## Next steps
 
-- Review how to [monitor the service health](service-solution-monitor-service-health.md) of your Dynamics 365 solution.
-- Review how [service updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness.
-- Learn about the importance of [environment maintenance](service-solution-environment-maintenance.md).
-- Find more resources to [continue the business application journey](service-solution-continue-the-business-application-journey.md).
-- Read the [case study](service-solution-case-study.md) to understand the impact to an organization when servicing the solution isn't top of mind.
+- Review how to [monitor the service health](service-solution-monitor-service-health.md) of your Dynamics 365 solution
+- Review how [service updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness
+- Learn about the importance of [environment maintenance](service-solution-environment-maintenance.md)
+- Find more resources to [continue the business application journey](service-solution-continue-the-business-application-journey.md)
+- Read the [case study](service-solution-case-study.md) to understand the impact to an organization when servicing the solution isn't top of mind

@@ -1,46 +1,41 @@
 ﻿---
-title: Case study of monitoring and servicing Dynamics 365 solutions
-description: Learn the importance of monitoring different aspects of the health of your Dynamics 365 services to ensure a healthy system.  Being proactive to address any potential issues through monitoring.
+
+title: Case study in monitoring and servicing Dynamics 365 solutions
+description: Learn how an agricultural business improved its warehouse operations by aligning its ISV's update schedule with Microsoft's release cadence for Dynamics 365.
 author: taksatoms
 ms.author: tsato
-ms.date: 04/11/2023
+ms.date: 01/30/2024
 ms.topic: conceptual
-
+ms.custom:
+ - ai-seo-date: 01/30/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Case study of monitoring and servicing Dynamics 365 solutions
 
-Fruit company learns the importance of servicing the solution
+# Case study in monitoring and servicing Dynamics 365 solutions
 
-## Story
+A fruit company learned how to get the most out of its Dynamics 365 solution by working with its independent software vendor (ISV) to match Microsoft's update rings.
 
-An agricultural business implemented finance and operations apps including some extensions that involved an ISV. They discovered the ISV provided updates later in the release cycle or sometimes not at all due to their own internal processes. Because of this, the organization found themselves unable to implement new features as they became available and had to manually apply Dynamics 365 updates to maintain operations properly. They were eventually able to work with their ISV to align their release schedule to Microsoft’s timeline, giving them enough time to test their solution during standard releases. Simply implementing and updating the solution wasn’t enough. Organizations must have awareness of third-party solutions that may have impact on the Dynamics 365 release cadence and how soon the updates can be applied in your environment to maximize the benefits from the latest Microsoft innovations as they become available. 
+## The challenge
 
-## Case study
+The fruit company used finance and operations apps in the cloud to manage its global distribution of fresh produce. It also used some extensions and an ISV solution that handled its warehouse operations and transportation.
 
-An agricultural business that grows fruit implemented finance and operations apps as soon as the cloud version of Dynamics 365 became available. The company has been a global leader distributing fruit across different regions, and warehouse operations and transportation are part of the company's core business.
+The company wanted to take advantage of new features that Microsoft released for Dynamics 365, such as advanced warehouse operations in the Supply Chain Management app. These features would help the organization save time, money, and resources as it expanded into new markets.
 
-Before implementing the finance and operations apps, the fruit company was using Dynamics AX 2012, and was familiar with the ALM of that on-premises enterprise resource planning (ERP) solution, but moving to the cloud required a mindset change.
+But there was a problem. The ISV didn't update its solution as fast as Microsoft did. The vendor usually waited until the last update ring or skipped some updates altogether. This meant that the fruit company couldn't apply Microsoft's updates on time or at all, because they depended on the ISV's software.
 
-Dynamics 365 has been evolving since its initial release, when the application and the platform were released as separate components. By the time continuous updates and a single, unified version became the norm for Dynamics 365, the fruit producer's operations in the cloud were mature in taking updates under this modality. The company was ready to adopt the modernized update pattern and take advantage of the continuous innovations from Microsoft. They also wanted to fulfill one of their expected returns on investment (ROIs) by entrusting Microsoft to bring new functionality, instead of developing it on their own.
+The company's project team realized that they needed to change their approach to servicing their solution. They needed to test their entire solution, including the ISV's software, in early update rings, so that they could adopt new features as soon as they were available.
 
-The fruit company's solution involved standard Dynamics 365 apps, some extensions, and an ISV. As the direct implementer of the entire solution, the ISV created a strategic partnership with the company and provided IT outsourcing services.
+## The solution
 
-In the beginning, the incentive for the company to update Dynamics 365 with new releases was the continued support from Microsoft per the software update policy. The app functioned properly and applying the releases was manageable, so the company didn't have hard requirements to stay up to date with the release cadence.
+The team talked to the company's ISV partner and explained their situation. They asked them to provide software updates earlier, so that they could align with Microsoft's release cadence for Dynamics 365.
 
-But the company noticed that while the ISV kept the solution up to date with the Dynamics 365 releases, the ISV always provided an update of their solution using Microsoft's last update ring, or missed it entirely. Because of this, the company had to apply Microsoft's updates late in the release cycle or, in some cases, not at all.
+The ISV agreed to change its update strategy and deliver software updates in sync with Microsoft's update rings. This way, the fruit company and other customers could test their whole solution when the standard release was available.
 
-To grow and distribute fruit effectively, the company relies heavily on time-sensitive warehouse operations where every hour matters as fruit is moved from the fields to climate-controlled warehouses to shipping containers that are sent worldwide as quickly as possible to avoid spoilage. They also were expanding into distribution of seasonal fruits in new markets, which made management of warehouse operations even more critical.
+By working together, the fruit company and the ISV improved their servicing of the Dynamics 365 solution. The fruit company could enjoy the latest innovations from Microsoft and optimize its warehouse operations. The ISV could increase customer satisfaction and loyalty by meeting its customers' needs and expectations.
 
-Then Microsoft notified the fruit company about new functionality for advanced warehouse operations in an upcoming release of the Supply Chain Management app. Because of the expansion of the company's operations and the complexity of their warehouse management, these new features were crucial to increasing productivity and saving time and resources while managing the expansion.
+## The lesson
 
-To adopt this new functionality, the company had to test the features in advance to align their processes. They realized that being late on updating standard features wasn't workable, and they wanted to optimize their ALM and validate their solution in early update rings. To be ready for their peak season, completion of testing was time-sensitive, and the company would only have enough time to adopt new functionality and do proper regression testing if all solution components were in place and ready. So, they asked their ISV to provide software earlier than the general availability of their new version.
-
-The challenge came when the ISV wasn't aligned to that timeline. The ISV's usual practice of adopting Dynamics 365 releases when they became generally available, in the last ring, meant the fruit company frequently was one version behind on finance and operations apps release.
-
-The ISV wanted to honor their partnership and be flexible in meeting the timing requirements for updates, but due to dependencies on their internal roadmap and ALM strategy, the ISV couldn't make the software available to meet the company's timeline. As a result, the fruit company couldn't take advantage of the Supply Chain Management app's advanced warehouse operation functionality in time for their expansion.
-
-Even though the company's ALM strategy could adapt to Dynamics 365's continuous update delivery model, reliance on the ISV's software prevented them from using the latest version of Dynamics 365.
-
-After conversations with the fruit company, the ISV agreed to align with Microsoft's update rings and give the company, and their other customers, an opportunity to test their entire solution when the standard release was available.
-
-Servicing the solution involves more than just Microsoft providing continuous updates. Microsoft customers must synchronize updates to their own extensions and any ISV solutions they're using, so they can benefit from the latest Microsoft innovations as soon as new features are available.
+Servicing your Dynamics 365 solution is more than just applying Microsoft's continuous updates. You also need to coordinate updates with your own extensions and any ISV solutions you use. This will help you benefit from the new features and functionality that Microsoft delivers for Dynamics 365.
