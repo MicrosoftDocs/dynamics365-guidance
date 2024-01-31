@@ -1,8 +1,8 @@
 ﻿---
 title: Organize your Dynamics 365 project team
-description: Learn how to align your project team with your business goals, assign clear roles and responsibilities, and foster collaboration and communication for a successful Dynamics 365 implementation.
+description: Learn how to align your project team with your business goals, and foster collaboration and communication for a successful Dynamics 365 implementation.
 author: TimoGossen
-ms.author: timog
+ms.author: timogoss
 ms.date: 01/22/2024
 ms.topic: conceptual
 ms.custom:

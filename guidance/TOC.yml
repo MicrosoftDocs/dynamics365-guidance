@@ -321,10 +321,6 @@ items:
                 href: implementation-guide/prepare-go-live-production-environment-readiness.md
               - name: Cutover strategy
                 href: implementation-guide/prepare-go-live-cutover-strategy.md
-              - name: Customer engagement apps
-                href: implementation-guide/prepare-go-live-dynamics-365-customer-engagement.md
-              - name: Finance and operations apps
-                href: implementation-guide/prepare-go-live-finance-and-operations-apps.md
               - name: Go-live checklist
                 href: implementation-guide/prepare-go-live-checklist.md
               - name: Case study

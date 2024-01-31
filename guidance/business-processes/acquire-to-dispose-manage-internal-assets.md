@@ -156,4 +156,4 @@ You can use the following resources to learn more about the *manage internal ass
 
 Principal author:
 
-- [Harshad Puthran](https://www.linkedin.com/in/harshman777/) \| FastTrack Solution Architect
+- Harshad Puthran | FastTrack Solution Architect

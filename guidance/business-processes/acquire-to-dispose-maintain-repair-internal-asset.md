@@ -166,4 +166,4 @@ You can use the following resources to learn more about the *maintain and repair
 
 Principal author:
 
-- [Harshad Puthran](https://www.linkedin.com/in/harshman777/) \| FastTrack Solution Architect
+- Harshad Puthran | FastTrack Solution Architect

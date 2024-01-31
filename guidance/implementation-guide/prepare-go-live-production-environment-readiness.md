@@ -1,42 +1,51 @@
 ﻿---
-title: Prepare production environments for successful deployment of Dynamics 365 solutions
-description: Learn how to prepare the production environment for the successful deployment of a Microsoft Dynamics 365 solution, including assigning security roles, setting configurations, and running integrations.
-ms.date: 06/06/2023
+title: Get your production environment ready for deployment
+description: Learn how to prepare your production environment for deploying Dynamics 365 solutions, including security, configuration, integration, and tuning tasks.
+ms.date: 01/31/2024
 ms.topic: conceptual
 author: vaniusca
 ms.author: vaniaf
 ms.custom:
+ - ai-seo-date: 01/30/2024
  - ai-gen-docs-bap
+ - ai-gen-title
  - ai-gen-desc
- - ai-seo-date:08/23/2023
  - bap-template
+content_well_notification: AI-contribution
 ---
 
-# Prepare production environments for successful deployment of your Dynamics 365 solutions
+# Get your production environment ready for deployment
 
-It's critical to make sure the production environment is ready before your Dynamics 365 solution goes live. Your [strategy for preparing a production environment](environment-strategy-overview.md) depends on the applications in the scope of the deployment. For some applications, you can create the production environment from an initial phase without any dependencies. For other applications, you must follow a formal process to create the production environment.
+Before you go live with your Dynamics 365 solution, you need to make sure that your production environment is set up correctly. The way you create your production environment depends on the apps you're deploying. For some apps, you can start with a basic environment and add features later. For others, you need to follow a specific process to create the environment.
 
-Regardless of how you create it, you must complete several milestones before you can deploy the production environment. These milestones help with sizing the environment and its effect on factors like the environment's performance and scalability.
+No matter how you create it, you need to complete some tasks before you can deploy your solution. These tasks help you size your environment and optimize its performance and scalability.
 
-Slightly different recommendations apply, depending on the Dynamics 365 apps that are part of the project. Review the guidance for [going live with finance and operations apps](prepare-go-live-finance-and-operations-apps.md) and for [going live with customer engagement apps](prepare-go-live-dynamics-365-customer-engagement.md).
+Different apps have different requirements and best practices for going live. Check out the guidance for [finance and operations apps](prepare-to-go-live.md#go-live-with-finance-and-operations-apps) and [customer engagement apps](prepare-to-go-live.md#go-live-with-customer-engagement-apps), respectively, at [Prepare to go live](prepare-to-go-live.md).
 
-## Readiness activities
+## What to do before deployment
 
-Establish a plan for how you'll prepare the environment for production. Planning ahead avoids last-minute issues and provides more time to make sure tasks are completed successfully. Your plan should include the following activities:
+Plan ahead how you'll get your environment ready for production. This way, you can avoid problems at the last minute and have more time to make sure that everything works well. Your plan should include the following activities:
 
-- Deploy applications and update them to the latest version.
-- Create users in the environments to which they should have access and assign security roles.
-- Assign security groups to environments and add users to them.
-- Get stakeholder sign-off on the security and compliance strategy, including penetration testing when applicable, compliance requirements, and data sovereignty requirements.
-- Tune the environment when applicable.
-- Create, import, and validate configurations.
-- Run and validate integrations.
-- Make sure specific configurations for applications are completed ahead of time, especially configurations that take a while to complete. For example, setting up an integration with an email engine such as Outlook might depend on the size of a user's mailbox, with bigger mailboxes taking longer to complete.
+- Install the apps and update them to the latest version.
 
-Finally, keep in mind that production environment readiness is also a significant dependency for other activities during the [cutover](prepare-go-live-cutover-strategy.md). For example, the final data can't be migrated and validated until there's a production environment in which to start those activities.
+- Create users in the right environments and give them security roles.
+
+- Create security groups for each environment and add users to them.
+
+- Get approval from stakeholders on the security and compliance strategy. This includes penetration testing if needed, compliance requirements, and data location requirements.
+
+- Tune the environment if needed.
+
+- Create, import, and check configurations.
+
+- Run and check integrations.
+
+- Complete any app-specific configurations that take time. For example, if you want to integrate with an email service like Outlook, it might take longer for users with large mailboxes.
+
+Remember that getting your production environment ready is also important for other activities during the [cutover](prepare-go-live-cutover-strategy.md). For example, you can't move and verify the final data until you have a production environment to do it in.
 
 ## Next steps
 
-- Review the [cutover process](prepare-go-live-cutover-strategy.md).
-- Review specific guidelines for [finance and operations apps](prepare-go-live-finance-and-operations-apps.md) and [customer engagement apps](prepare-go-live-dynamics-365-customer-engagement.md).
-- Review the [go-live checklist](prepare-go-live-checklist.md).
+- [Plan your cutover to the new solution](prepare-go-live-cutover-strategy.md)
+- Use the Success by Design [go-live checklist](prepare-go-live-checklist.md) to make sure that you don't miss any important tasks for go-live
+- Read the [case study](prepare-go-live-case-study.md) for an example of a successful go-live project
