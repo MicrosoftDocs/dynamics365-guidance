@@ -29,12 +29,69 @@ UI integrations can include elements like a commodity price ticker, inventory le
 
 Data integration occurs at the data layer, with information exchanged or shared between systems. Unlike process integration, where a process starts in one system and continues in another, data integration involves both systems working with a representation of the same data.
 
+| System 1 | | System 2 |
+|----------|-|---------|
+| UI Layer | | UI Layer
+| Process/Business logic | | Process/Business logic |
+ | | Data integration | |
+
 Scenarios for data integration include synchronizing master or transactional data that isn't central to a single business process, sharing data for calculations or references, and reflecting actions from one system in another. Examples range from synchronizing marketing assets and bank account reconciliations to updating order statuses and exchange rates.
 
 Data might originate externally or be extracted from your system for auditing or regulatory purposes. For instance, orders that are synchronized between a sales and an ERP system allow users to access accurate order status information.
 
 When designing data integration solutions, it's crucial to identify which system owns the information. Sometimes ownership is clear-cut, as when you're uploading worker data from Dynamics 365 Human Resources to Dynamics 365 Finance. The Human Resources app is the system of record. Other times, each system might own different parts of the overall entity. For example, when you integrate accounts to customers between Dynamics 365 Sales and Finance, the Sales app owns the customer name and contact information, while the Finance app owns the credit limit and payment terms.
 
+- Data is shared or exchanged between systems when needed for calculations, classifications, or references.
+
+- Data is shared or exchanged between systems so that actions that happen in one system are reflected in the other system.
+
+- Aggregate data from a system with a detailed level of data is exchanged to a system with a higher level representation of data.
+
+The following are examples of data integration:
+
+- Aggregate marketing data assets
+
+- Bank account reconciliation
+
+- Order status updates
+
+- Exchange rate updates
+
+- Postal code and city list synchronization
+
+- Accounts and customer data synchronization
+
+Keep in mind that often data doesn't originate from a system within your own organization; it can come from an external source to upload. Conversely, data might be extracted from your system to be sent to an auditor, a regulatory body, or an industry data exchange.
+
+In the next example, orders are synchronized between a Sales and an ERP system. When the order is created in Sales, the ERP system sends regular updates of the order data to Sales, which enables users to find accurate order status information.
+
+:::image type="content" source="media/integrate-other-solutions-data-integration-2.png" alt-text="Data integration example" lightbox="media/integrate-other-solutions-data-integration-2.png":::
+
+In many areas of Dynamics 365, admins or business users can switch on data integration easily. Examples include integration with Microsoft Teams, journal uploads for expenses or bank account statements, exchange rate synchronization, and features for regulatory reporting and extracts.  
+
+When designing data integration, you should consider which system is the system of record, or owner, of the information. There are scenarios in which this is clear cut. For example, when you want to upload worker data from Dynamics 365 Human Resources to Dynamics 365 Finance, the Human Resources app is the system of record.  
+
+But there are also scenarios where each system owns a separate part of the overall entity. For example, when you integrate Accounts to Customers between Dynamics 365 Sales and Dynamics 365 Finance, the Sales app is the owner of the basic information. But in this scenario, that information is just a small subset of the fields in the Customer entity in Finance.
+
+Another type of data integration, is when two systems share the data layer, so updates to one system are instantly reflected in the other system. This is possible with cross app integration with Dynamics 365 apps and Dataverse.
+
+| System 1: Sales | System 2: Enterprise Resource Planning |
+|-----------------|----------------------------------------|
+| Create order | |
+| | Ship order |
+| Look up status | |
+| | Invoice order |
+| Look up status | |
+
+<!--Unsure if this table accurately conveys the same info as the image.-->
+
+:::image type="content" source="media/integrate-other-solutions-data-sharing.png" alt-text="Data integration sharing example" lightbox="media/integrate-other-solutions-data-sharing.png":::
+
+First-party model-driven applications, such as Dynamics 365 Sales, Field Service, and custom Power Apps, all share the same data layer. That's true, even if applications are built and deployed separately.
+
+With Dataverse, you can also integrate customer engagement apps with finance and operations apps. This integration gives you a seamless experience between the Sales system and the ERP system.
+
+Systems may have separate processes and even different business logic. But if the underlying data layer is the same, the need for transfers of data, synchronization, and programming to transform the data is eliminated. This kind of integration is possible due to shared data stores, such as Dataverse, that set standards for how a certain type of data is defined in the data layer.
 Cross-app integration with Dynamics 365 apps and Dataverse allows two systems to share a data layer, instantly reflecting updates in both systems. This eliminates the need for data transfers and transformations, thanks to shared data stores, like Dataverse, that standardize how data is defined in the data layer.
 
 ## Process integration

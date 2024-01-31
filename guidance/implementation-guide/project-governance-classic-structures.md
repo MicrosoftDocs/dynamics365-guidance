@@ -23,6 +23,12 @@ In this article, we'll look at each of these common governance structures and sh
 
 Steering groups are where the project sponsor, senior business stakeholders, and project leaders meet regularly to review and direct the project. But not all steering group meetings are equally useful. Sometimes steering groups can be unclear about their purpose or rely on inaccurate or vague status reports.
 
+| Diluted purpose | Clear purpose |
+|-----------------|---------------|
+| Little understanding of project details | Understand primary function |
+| No direct engagement | Time invested |
+| Lack deep knowledge | Comprehensive knowledge |
+
 To make your steering group meetings more effective, you should:
 
 - Define a clear purpose for each meeting and stick to it.

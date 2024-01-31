@@ -41,7 +41,10 @@ The change manager should also ensure that the high-risk process and user group 
 
 Finally, it's important for the change manager to ensure that all affected user groups receive the necessary training. These user groups include external resources or business partners that might interact with the system, such as users of customer or vendor self-service portals.
 
-:::image type="content" source="media/change-management-phase-prepare.png" alt-text="Prepare phase." :::
+* Initiate
+* Implement
+* **Prepare**
+* Operate
 
 The Prepare phase is a critical phase for the project. For the change manager, it's a busy time, because we are performing many activities that we planned for during the previous phases.
 

@@ -32,7 +32,10 @@ There is one thing that can cause bottlenecks during the Prepare phase: when sup
 
 The change manager can ensure that the support organization ramps up in time to support these activities. In this way, you reduce distraction for the people who are critical for environment configuration, setup, data migration, or the upgrade processes, because they don't also have to support user testing and training activities in parallel. In fact, there are several benefits of having the support organization provide support from before the cutover through go-live. Not only does this approach give the support organization a great learning experience, but it also helps the implementing organization and its individuals feel comfortable about overall readiness.
 
-:::image type="content" source="media/change-management-phase-operate.png" alt-text="Operate phase." :::
+* Initiate
+* Implement
+* Prepare
+* **Operate**
 
 The change management activities don't end at go-live. On the contrary, now that the solution is live, the change manager should focus on reinforcing the changes that were introduced with the solution.
 

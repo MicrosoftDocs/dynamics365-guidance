@@ -21,7 +21,11 @@ We achieve a definition by looking at each business process and determining the 
 
 *An organization is upgrading to Dynamics 365 from an earlier on-premises version of Dynamics. With the implementation project, the company has set goals around reaching 95 percent inventory accuracy by the end of year 1. To help achieve this goal, advanced warehousing is introduced. As a result, the processes for receiving raw materials and shipping finished goods change significantly. For put-away and picking functions, users must now follow directives from the system on a handheld device.*
 
-:::image type="content" source="media/change-management-keychanges.png" alt-text="Key changes." :::
+|  Process |  User Group |  Change |  Impact 1-5 |
+|---|---|---|---|
+|  Receiving | Inbound Dock  |  Registration Process |  3 |
+|  Quality |  Inbound Dock |  Quarantine & Quality Control |  2 |
+|  Packing & Shipping |  Outbound Dock |  Pick by reservation as directed by device |  2 |
 
 The outcome of this exercise might be an addendum to the process diagram or catalog, where you include information about what the key changes are from a process or technology perspective, what user groups the changes affect, and how impactful the changes are.
 
@@ -29,7 +33,10 @@ In the impact assessment, you might even go deeper, and identify major gains and
 
 ## Determine what users or user groups are affected
 
-:::image type="content" source="media/change-management-roleimpact.png" alt-text="Role impact." :::
+| User Group / Role | Impact of changes |
+|-------------------|-------------------|
+|Inbound Dock | 5 |
+| Outbound Dock | 2 |
 
 After we define the key changes, the affected user groups, and the impact on them, we add up the cross-process change impact for each affected user group. We can then establish a matrix as shown in the preceding illustration.
 

@@ -55,7 +55,10 @@ In the articles in this section, we go through actionable items that help manage
 
 Through examples and clear guidance, we cover what implementation teams can do throughout the project to ensure a fast implementation, a smooth transition, great adoption, and outcomes that are in line with expectations.
 
-:::image type="content" source="media/change-management-phase-initiate.png" alt-text="Initiate phase." :::
+* **Initiate**
+* Implement
+* Prepare
+* Operate
 
 > [!NOTE]
 > In these actionable items, we refer to the person or people who are responsible for change management as the *change manager*.

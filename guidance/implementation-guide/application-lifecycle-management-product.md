@@ -188,7 +188,11 @@ Often, solution boundaries are defined based on functional needs, such as a sale
 
 Consider the following structure:
 
-:::image type="content" source="media/application-lifecycle-management-multiple-publishers.png" alt-text="Partial screenshots showing three solution components with two different publishers.":::
+| Solution | Managed Solution Publisher | Entity | Entity |
+|-|-|-|-|
+| Service (v 1.0.0.0) | Service Team (prefix: svc) | svc_X1 | svc_X2 |
+| Sales (v 1.0.0.0) | CompanyA (prefix: cpya) | cpya_Y1 | cpya_Y2
+| Core (v 1.0.0.0) | CompanyA (prefix: cpya)| Account | Contact
 
 The core solution extends the Account and Contact entities. Both the sales and service solutions depend on these components. The service solution has a unique publisher. If you want to move component `svc\_X2` to the core solution, you can't do it directly, because the service solution still references it. You also can't create an identical component in the core solution, because the different publisher would cause a conflict on import.
 
