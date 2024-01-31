@@ -1,6 +1,6 @@
 ---
 title: Explore how Dynamics 365 products and tools can improve performance
-description: Understand why prioritizing performance matters to your solution and learn more about Dynamics 365 products and tools to improve performance.
+description: Learn why prioritizing performance matters to your solution and how you can use Dynamics 365 products and tools to improve performance.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 06/19/2023
@@ -80,21 +80,15 @@ Many factors contribute to the performance of a system. It's important to unders
 
 ## Conclusion
 
-- Solution performance is critical for user adoption, customer experience, and project success and necessary for businesses to achieve their goals.
-- Clear goals and realistic expectations are vital to developing a solution that performs well.
-- Scalable solutions begin with the correct use of the right software.
-- Customizations increase the risk of performance issues, but the risks can be mitigated with the right mindset and planning.
-- Performance testing needs to be realistic to be meaningful.
-- Performance issues are complex to resolve and therefore are better avoided than fixed.
-- Good performance is part of an iterative process that involves incremental improvements throughout the solution lifecycle.
+Solution performance is essential for delivering a positive user experience and achieving business outcomes. To create a high-performing solution, you need to have clear goals, realistic expectations, and the right software. You also need to be mindful of the effect of customizations and plan ahead to avoid performance issues. Performance testing should reflect real-world scenarios and help you identify areas for improvement. Performance optimization is an ongoing process that requires continuous monitoring and refinement.
 
 ## Next steps
 
-- [Prioritize performance](performing-solution-prioritize-performance.md)
-- [Design for performance](performing-solution-design-for-performance.md)
-- [Performance testing approach](performing-solution-performance-testing-approach.md)
-- [Address performance issues](performing-solution-address-performance-issues.md)
-- [Product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md)
-- [FastTrack performance workshop](performing-solution-workshop-strategy.md)
-- [Checklist: Performance focus](performing-solution-product-checklist.md)
-- [Case study](performing-solution-product-case-study.md)
+- Learn how to [prioritize performance](performing-solution-prioritize-performance.md) in your solution development process
+- Follow the best practices to [design for performance](performing-solution-design-for-performance.md) and avoid common pitfalls
+- Understand the [performance testing approach](performing-solution-performance-testing-approach.md) and tools that you can use to measure and improve your solution performance
+- Find out how to [address performance issues](performing-solution-address-performance-issues.md) that you encounter during testing or production
+- Explore the [product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md) for different Microsoft products and services
+- Request a [FastTrack performance workshop](performing-solution-workshop-strategy.md) to get expert help and guidance on your solution performance
+- Use the [checklist: Performance focus](performing-solution-product-checklist.md) to review your solution design and implementation for performance considerations
+- Read the [case study](performing-solution-product-case-study.md) of how a customer improved their solution performance with FastTrack support

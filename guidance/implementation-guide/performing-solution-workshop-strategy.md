@@ -1,43 +1,44 @@
 ---
-title: FastTrack performance workshop
-description: Learn how the FastTrack performance workshop can help you prioritize and design for performance in your Dynamics 365 solutions.
+title: Design for performance with FastTrack
+description: Learn how the FastTrack performance workshop can help you plan, test, and optimize your Dynamics 365 solutions for speed and reliability.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/19/2023
+ms.date: 01/29/2024
 ms.topic: overview
 ms.custom:
+ - ai-seo-date: 01/29/2024
  - ai-gen-docs-bap
  - ai-gen-desc
- - ai-seo-date:08/28/2023
  - bap-template
 ---
 
-# FastTrack performance workshop
+# Design for performance with FastTrack
 
-[Microsoft FastTrack](https://dynamics.microsoft.com/en-us/fasttrack/) offers a workshop that focuses on designing your solution for performance. It covers the effect of configuration and customization on the solution's overall performance and user experience, and emphasizes the importance of performance prioritization, goals, and testing throughout the project.
+You want your Dynamics 365 solutions to run fast and smooth. That's good for you, your customers, and your project success. But how do you make sure your solution design supports your performance goals? That's where [Microsoft FastTrack](https://dynamics.microsoft.com/fasttrack/) can help.
 
-## Workshop scope
+FastTrack offers a workshop that focuses on designing your solution for performance. It helps you understand how configuration and customization affect the solution's overall performance and user experience. It also shows you how to prioritize performance activities, set performance goals, and test performance throughout the project.
 
-The workshop includes the following subjects that address how to incorporate performance activities into the overall delivery plan and allocate sufficient resources to the project:
+## What you'll learn in the workshop
 
-- Data volumes: Project workload and integration volumes to make sure expectations are within limits and aligned with intended product usage.
-- Geolocation strategy: Determine the physical locations of users and servers to identify any network-related challenges.
-- Key business scenarios: Identity the areas of the business for which performance is particularly important.
-- Extension performance: Review planned customizations to understand how implementation aligns with recommended practices.
-- User experience performance: Make sure that modifications to the user experience align with best practices.
-- Performance testing: Develop and document performance-related goals and a testing strategy to measure performance.
+The workshop covers the following topics that help you incorporate performance considerations into your delivery plan and allocate enough resources to the project:
 
-## Timing
+- Data volumes: Estimate workload and integration volumes to make sure expectations are within limits and aligned with intended product usage.
 
-We recommend that you conduct the performance workshop before solution design begins. Alternatively, do it as soon as possible after the team can provide detailed information about performance requirements and the performance testing strategy. Scheduling a workshop later in the implementation is risky because any findings and recommendations from the workshop could cause significant rework.
+- Geolocation strategy: Determine where your users and servers are located to identify any network challenges.
+
+- Key business scenarios: Identify the areas of your business that need high performance.
+
+- Extension performance: Review planned customizations to make sure they follow best practices.
+
+- User experience performance: Make sure that changes to the user interface follow best practices.
+
+- Performance testing: Develop and document performance goals and a testing strategy to measure performance.
+
+## When to schedule the workshop
+
+We recommend that you schedule the performance workshop before you start designing your solution. Or, do it as soon as you can after you have detailed information about your performance requirements and testing strategy. If you wait too long, you might have to redo some of your work based on the workshop findings and recommendations.
 
 ## Next steps
 
-- [Performance overview](performing-solution.md)
-- [Prioritize performance](performing-solution-prioritize-performance.md)
-- [Design for performance](performing-solution-design-for-performance.md)
-- [Test for performance](performing-solution-performance-testing-approach.md)
-- [Address performance issues](performing-solution-address-performance-issues.md)
-- [Product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md)
-- [Checklist: Performance focus](performing-solution-product-checklist.md)
-- [Case study](performing-solution-product-case-study.md)
+- Use the [checklist: Performance focus](performing-solution-product-checklist.md) to review your solution design and implementation for performance considerations
+- Read the [case study](performing-solution-product-case-study.md) of how a customer improved their solution performance with FastTrack support

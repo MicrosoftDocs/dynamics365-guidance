@@ -1,77 +1,110 @@
 ---
-title: Product-specific guidance for performance optimizations
-description: Learn how to optimize the performance of your Dynamics 365 solutions depending on the apps that are part of the implementation. 
+title: Product-specific guidance for optimizing performance
+description: Learn how to optimize the performance of your Dynamics 365 solutions depending on the apps that are part of the implementation.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/19/2023
+ms.date: 01/29/2024
 ms.topic: conceptual
-ms.custom: bap-template
+ms.custom:
+ - bap-template
+ - ai-seo-date: 01/29/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Product-specific guidance for performance optimizations
+# Product-specific guidance for optimizing performance
 
-This article provides guidance for optimizing the performance of your Dynamics 365 solutions depending on the apps that are part of the implementation.
+You want your Dynamics 365 solutions to run fast and smooth. That's good for you, your customers, and your project success. In this article, you'll learn how to boost the performance of your solutions based on the products you use.
 
-## Finance and operations apps
+## Make finance and operations apps faster
 
-The following recommendations can help you achieve optimal performance in your finance and operations apps solutions:
+Here are some ways to get more speed from your finance and operations apps solutions:
 
-- Use Tier-2 or higher environments based on business objectives. Don't use a Tier-1 environment. Learn more at [Cloud deployment overview](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).  
-- Keep the solution up to date with hotfixes, platform updates, and quality updates. Learn more at [Apply updates to cloud environments
-](/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system).  
-- Identify and maintain a log of performance-related risks.
-- Use [the Dynamics 365 migration framework](/dynamics365/get-started/migration/migration-overview), not OData, to import and export large volumes of data. OData isn't natively built to handle large payloads.
-- Use set-based data entities and parallelism to import and export large volumes.
-- Build your own data entities to avoid potential performance issues with standard entities, which contain columns and tables that you might not need for your implementation.
-- Configure a batch framework including batch groups, priority, and threads.
-- Define batch groups and assign a batch server to each batch group to balance batch load across Application Object Servers (AOS) servers.  
-- Design heavy batch processes to run in parallel.
-- Use preferable noncontinuous number sequences with preallocation.
-- [Clean up routines and jobs](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cleanuproutines) regularly.
-- Avoid record-by-record operations. Use set-based operations such as insert\_recordset and update\_recordset where applicable.
-- Be aware of the implications of security on performance. An administrator role, for instance, has better performance than a user with limited access. Execute performance tests with users who have appropriately configured security settings.
-- Use the *Optimization advisor* workspace to identify business processes to be optimized.
-- Be aware of *Priority-based throttling introducing service protection* settings that prevent the over-utilization of resources to preserve the system's responsiveness. These settings also make sure of consistent availability and performance for environments running finance and operations apps.
-- Configure priorities for the OData and custom service-based integrations, depending on your business-critical need for them.
+- Use Tier-2 or higher environments. Tier-1 environments are too slow. [Learn more about environments in cloud deployment](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).
 
-### Performance tools
+- Keep your solution updated with hotfixes, platform updates, and quality updates. They can fix performance issues and errors. [Learn how to apply updates to cloud environments](/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system).
 
-- Trace Parser: Diagnoses performance issues and errors and visualizes execution of X++ methods and the execution call tree.
-- Lifecycle Services Environment Monitoring: Monitors server health metrics and monitors performance using the SQL insights dashboard
-- Query Store: Reviews expensive SQL queries during defined intervals and analyzes the index used in queries
-- PerfSDK and Visual Studio load testing: Simulates single-user and multi-user loads and performs comprehensive performance benchmarking
-- Performance timer: Helps determine why a system is slow
-- Optimization advisor: Suggests best practices for module configuration and identifies obsolete or incorrect business data
+- Log any performance risks and check them often.
 
-## Customer engagement apps
+- Use [the Dynamics 365 migration framework](/dynamics365/get-started/migration/migration-overview) to import and export large datasets. OData can't handle large volumes of data well.
 
-The following recommendations can help you achieve optimal performance in your customer engagement apps solutions:
+- Use set-based data entities and parallelism to move large datasets faster.
 
-- Configure before customizing. Achieve a goal by configuring standard application components if possible. Customizations such as plug-ins and JavaScript are useful, but they can carry a performance overhead and can also make future upgrades more challenging.
-- Avoid OptionSet attributes in a Quick Find search.
-- Stay current on deprecation announcements to align with the product roadmap.
-- Reduce form load JavaScript for a better form load experience.
-- Display the minimum required number of fields required in the forms.
-- Design forms and pages to display the most important information at the top.
-- Minimize the number of controls in the command bar or ribbon.
-- Use collapsed tabs to defer loading content.
-- Avoid unsupported customizations such as direct Document Object Model manipulation.
+- Build your own data entities to avoid extra columns and tables that might slow down your solution.
 
-Use the [Solution Checker](/powerapps/maker/data-platform/use-powerapps-checker) to detect potential performance issues in code and configuration.
+- Set up a batch framework with batch groups, priority, and threads.
 
-In high-throughput scenarios, such as data migrations, follow the guidance in the [Service Protection API Limits documentation](/powerapps/developer/data-platform/api-limits#how-to-maximize-throughput) to maximize throughput.
+- Assign a batch server to each batch group to spread the load across servers.
 
-## Conclusion
+- Run heavy batch processes in parallel to save time.
 
-The articles in this section discussed why performance is expected and critical for user adoption, the customer experience, and project success. Although Dynamics 365 projects are built to perform well at scale, their flexibility means it's crucial that implementation teams consider performance as an iterative process throughout the solution lifecycle.
+- Use noncontinuous number sequences with preallocation to avoid locking issues.
 
-Performance often involves tradeoffs, so project teams need to work closely with users and business stakeholders to determine and align performance expectations.
+- Run [cleanup routines and jobs](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cleanuproutines) often to free up space and resources.
 
-Good solution performance starts with good design. Use Dynamics 365 products for their intended purposes and fully consider the performance implications of design decisions early in the process. Many performance issues occur due to poor customization, configuration, and design choices. It's important to proactively work to avoid such issues by clarifying requirements and implementing best practices.
+- Avoid record-by-record operations. Use set-based operations such as insert\_recordset and update\_recordset where you can.
 
-Performance testing is crucial to ensure performance expectations are achieved during implementation. However, performance tests are valuable only if they're meaningful and provide a clear indication of how the system performs in the real world.
+- Consider how security affects performance. For example, an administrator role performs better than a user with limited access. Test your solution with users who have realistic security settings.
 
-Performance issues are difficult to resolve and place unnecessary strain on the implementation team during the most critical points of the project. With the right prioritization and planning, performance can be baked into the implementation strategy, leading to a much more confident launch with greater project success.
+- Use the *Optimization advisor* workspace to find and fix business processes that need improvement.
+
+- Understand how *Priority-based throttling introducing service protection* settings prevent overuse of resources and ensure consistent availability and performance for your solution.
+
+- Prioritize your OData and custom service-based integrations based on your business needs.
+
+### Tools to help you diagnose and improve performance
+
+You can use these tools to find and fix performance issues in your solution:
+
+- Trace Parser: Shows the execution of X++ methods and the call tree, and helps you find performance issues and errors.
+
+- Lifecycle Services Environment Monitoring: Tracks server health metrics and SQL insights.
+
+- Query Store: Reviews expensive SQL queries over time and analyzes the indexes used in queries.
+
+- PerfSDK and Visual Studio load testing: Simulates single-user and multi-user loads and measures performance benchmarks.
+
+- Performance timer: Helps you find out what makes your system slow.
+
+- Optimization advisor: Suggests best practices for module configuration and data cleanup.
+
+## Make customer engagement apps faster
+
+Here are some ways to get more speed from your customer engagement apps solutions:
+
+- Configure before customizing. Use standard application components if you can. Customizations such as plug-ins and JavaScript can affect performance and make upgrades harder.
+
+- Avoid OptionSet attributes in Quick Find searches. They can slow down the search results.
+
+- Stay updated on deprecation announcements to align with the product roadmap.
+
+- Reduce form load JavaScript for a faster form load experience.
+
+- Display only the fields you need in the forms. Too many fields can clutter the user interface and affect performance.
+
+- Design forms and pages to show the most important information first.
+
+- Minimize the number of controls in the command bar or ribbon. Too many controls can affect performance and usability.
+
+- Use collapsed tabs to delay loading content until needed.
+
+- Avoid unsupported customizations such as direct manipulation of the Document Object Model. They can cause errors and compatibility issues.
+
+Use the [Solution Checker](/powerapps/maker/data-platform/use-powerapps-checker) to find and fix potential performance issues in your code and configuration.
+
+In high-throughput scenarios, such as data migrations, follow the guidance in the [Service Protection API Limits documentation](/powerapps/developer/data-platform/api-limits#how-to-maximize-throughput) to increase your throughput.
+
+## What's next?
+
+You've learned why performance optimization is important for your Dynamics 365 solutions and how to apply best practices based on your products. Performance is an ongoing process that requires planning, testing, and monitoring throughout the solution lifecycle. Performance involves tradeoffs, so work closely with your users and stakeholders to understand and meet their expectations.
+
+Good performance starts with good design. Use Dynamics 365 products for their intended purposes and think about the performance implications of your design choices early on. Many performance issues are caused by poor customization, configuration, and design choices. Avoid them by clarifying your requirements and following best practices.
+
+Performance testing is crucial to ensure your solution meets your performance goals during implementation. But performance tests are only useful if they reflect how your solution works in the real world.
+
+Performance issues are hard to solve and can stress your implementation team at critical moments of the project. With the right priority and planning, you can make performance part of your implementation strategy, leading to a more confident launch and greater project success.
 
 ## Related resources
 
@@ -96,11 +129,6 @@ Performance issues are difficult to resolve and place unnecessary strain on the 
 
 ## Next steps
 
-- [Performance overview](performing-solution.md)
-- [Prioritize performance](performing-solution-prioritize-performance.md)
-- [Design for performance](performing-solution-design-for-performance.md)
-- [Test for performance](performing-solution-performance-testing-approach.md)
-- [Address performance issues](performing-solution-address-performance-issues.md)
-- [FastTrack performance workshop](performing-solution-workshop-strategy.md)
-- [Checklist: Performance focus](performing-solution-product-checklist.md)
-- [Case study](performing-solution-product-case-study.md)
+- Request a [FastTrack performance workshop](performing-solution-workshop-strategy.md) to get expert help and guidance on your solution performance
+- Use the [checklist: Performance focus](performing-solution-product-checklist.md) to review your solution design and implementation for performance considerations
+- Read the [case study](performing-solution-product-case-study.md) of how a customer improved their solution performance with FastTrack support
