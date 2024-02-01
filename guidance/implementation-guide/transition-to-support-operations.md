@@ -1,96 +1,87 @@
 ﻿---
-title: Strategies to consider for support operations when transitioning to support
-description: This article discusses strategy and consideration when transitioning into the support plan developed by the organization for Dynamics 365 implementation projects.
+title: Plan your support operations
+description: Learn how to prepare and practice your support operations for Dynamics 365 projects and avoid common pitfalls during the transition from project mode to support mode.
 author: taksatoms
 ms.author: tsato
-ms.date: 03/30/2023
+ms.date: 01/31/2024
 ms.topic: conceptual
+ms.custom:
+ - ai-seo-date: 01/31/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
+# Plan your support operations
 
-# Strategies to consider for support operations when transitioning to support
-
-The preparation and design work allows you to provide the level of support expected by the business. There are many aspects to consider when planning for the practicalities of operating the support services. Preparation for support is necessary, but not sufficient. The support team also needs to learn and practice to ensure they are ready for the extra pressures of the period immediately following a go live. The next section explores this in more detail.
+To provide effective support for your Dynamics 365 solution, you need to do more than just design a support model. You also need to plan and practice how you'll operate the support services in real scenarios. This will help you ensure a smooth transition from project mode to support mode and avoid poor user experience, frustration, and delays.
 
 ## Transition
 
-Support organizations for business applications are rarely just appear fully formed on the first day of go live. You normally have a transition period from project mode to support mode. However, the transition period often starts later than it ideally should, and the quality of the transition is often not sufficient to provide the level of service that is expected. This results in poor user experience, frustration from the support team, and a drag on the project team that is called into support requests long after the transition is supposed to be complete.
+The transition from project mode to support mode isn't a one-time event. It's a gradual process that requires careful planning and coordination. You should start the transition as early as possible in the project, ideally in the **Implement** phase, and set intermediate targets for readiness throughout the project. You should also involve the support team members in the project activities, such as design, testing, training, and issue resolution. This will help them gain hands-on experience with the new system and processes.
 
-### What is a good time to start the transition?
+### When to start the transition?
 
-Learning a new business application system, even one that is as user-friendly as Dynamics 365, can take time, and actively using the system is one of the best methods. For the business process-related support roles, if the SMEs are expected to move into the support role at go live, training happens naturally as part of the project, assuming the project approach includes a significant amount of hands-on system involvement by the SMEs. It's important that the business process experts don't just become consultants to drive business requirements and have very little exposure to how the system design meets the requirements.
+The best time to start the transition depends on the size and complexity of your project, the roles and skills of your support team members, and the level of involvement of your external partner.
 
-If, however, the existing SMEs supporting the legacy system are expected to support the new system, consider formalizing their involvement in the project during the Implement phase, from the early build steps and especially in shadowing the business functional leaders at critical points in design and software playbacks.
+For example, if you have subject matter experts (SMEs) who will move into support roles at go-live, they'll naturally learn the new system as part of the project. However, if you have existing SMEs who will support the new system, you need to formalize their involvement in the project earlier and give them more exposure to the system design and functionality.
 
-Furthermore, consider involving the support business process roles in the formal testing phases as authors of some of the test cases or in conducting the testing. Other opportunities to get the team to directly experience using the new system can come from creating task recordings and task guides in Dynamics 365 Finance and Supply Chain Management applications, or other forms of training documents.
+Similarly, if you have technical roles who will handle custom code or integrations, you need to involve them in shadowing or collaborating with the project team during the build and deployment phases.
 
-You can apply a similar approach to the technical roles, they can be involved in shadowing the project team at critical points and be given project tasks to complete (under the supervision of the project team).
+### How to practice the transition?
 
-Consider setting intermediate targets for transition readiness throughout the project so it doesn't become a last-minute process. It may help to exercise the whole support organization prior to go live and to review the effectiveness of the readiness for supporting the production system. Consider using the formal support processes during the later stages of formal testing (such as UAT) to review readiness. This way, a representative sample of issues raised during this test period can be recorded, triaged, and resolved through the support organization tools and procedures. The project team will be expected to participate as resolving authorities to help train the support team and ensure that issues are addressed in a timely fashion. The learning from this type of exercise can help make the transition more effective than last-minute handover training sessions.
+One of the best ways to practice the transition is to use the formal support processes during the later stages of testing, such as user acceptance testing (UAT). This way, you can simulate real issues that might arise after go-live and use your support tools and procedures to record, triage, and resolve them. You can also involve the project team as resolving authorities to help train and supervise the support team.
 
-Most organizations run lean support teams, which doesn't offer many opportunities for the team to participate in the transition activities we described without explicitly planning these activities so that the support team gets time away from their day-to-day operational duties to participate fully during the project implementation.
+Another way to practice the transition is to create task recordings or task guides in Dynamics 365 Finance or Supply Chain Management or other forms of training documents. These can help your support team learn how to perform common tasks and troubleshoot issues in the new system.
 
-> [!TIP]
-> If the SMEs aren't being exposed regularly and extensively to the system during its build, a gap will likely appear in their understanding and ability to support, which means increased reliance on the partner functional consultants for support (and testing).
+By practicing the transition, you can identify and address any gaps or challenges in your support operations before they affect your users and business. You can also review the effectiveness of your support team and provide feedback and coaching as needed.
+
+If your SMEs don't have regular and extensive exposure to the new system during the build, they might have a knowledge gap that will make them rely more on the partner consultants for support and testing.
 
 ## Requirements management
 
-When the application is in production, it doesn't mean that the system solution can now be considered static for the next few years. The solution will need to deal with new requirements for several reasons:
+New requirements can arise from various sources, such as:
 
-- Some projects implement a minimum viable product (MVP) on their first go live with the goal to incrementally add the lower-priority requirements over time
+- Minimum viable product (MVP) or phased rollout strategies that defer some features or functions to later stages
+- Changes in connected systems or integrations in your enterprise
+- Changes in the external market or regulatory conditions
+- Incremental functional and technical updates from Microsoft or ISVs
 
-- Some projects have planned multiple rollouts that may impact the already live areas
+Your support team needs to have the resources and means to keep your solution up to date with these new requirements. They also need to have a way to capture and channel the feedback and requests from the users or stakeholders to the right parties.
 
-- Some changes to Dynamics 365 are driven by changes in connected systems in the enterprise
-
-- Businesses need to react to the changing world around them
-
-- In a modern cloud SaaS world, incremental functional and technical updates from Microsoft and ISVs help keep the customer's solution secure and updated
-
-Some organizations will continue to have a project team that is responsible for reviewing, prioritizing, and delivering the backlog, but many won't have a standing project team, or the project team will be purely focused on the next rollout.
-
-In such cases, the support organization needs to have the resources and means to keep the solution up to date for the users currently using the live system.
-
-In any case, the support teams are often at the front line of the feedback and requests for new requirements. At the very least, they need a way to capture and channel the new and emerging requirements to the right parties.
+Some organizations have a dedicated project team that handles the backlog of new requirements, but others rely on the support team or external partners to deliver them. In any case, you need to have a clear process for reviewing, prioritizing, and approving new requirements.
 
 ## Change management
 
-We saw in the previous section that the solution is unlikely to remain static for long, and the solution functionality can change because of new and backlog requirements.
+Besides new requirements, your support team might also need to deal with other types of changes in your production system, such as:
 
-However, support teams may need to accommodate other sources of change in the production system, such as the following:
-
-- Core data changes (new customers, suppliers, items as part of normal business operations)
-
-- System parameter changes (such as in response to the growing volume of data)
-
-- Configuration changes (such as in response to regulatory changes)
-
-- Approval process changes in the system (such as in response to internal policy changes)
-
+- Core data changes, such as adding new customers, suppliers, or items
+- System parameter changes, such as adjusting settings for data volume or performance
+- Configuration changes, such as modifying tax rates or currency codes
+- Approval process changes, such as changing the workflow steps or roles
 - Bug fixes
 
-Some of these changes can be made within the agreed change control process enforced and facilitated by the system itself. In other cases, proposed changes need to be reviewed, prioritized, and approved by business or IT stakeholders and any other relevant parties.
+Some of these changes can be made within the system itself following the agreed change control process. Others might require approval from business or IT stakeholders or other relevant parties.
 
-This process should be considered as part of defining the scope of the support teams' responsibilities. It should also prompt the organization to create the appropriate change management boards for changes to the system in operational mode.
+You should define the scope of the support team's responsibilities for making these changes and create the appropriate change management boards or committees for overseeing them.
 
 ## Hypercare
 
-Most projects define a short period of time after go live in which additional resources and extraordinary attention are given to supporting the business. This hypercare period is necessary to ensure that the business can operate within acceptable thresholds while addressing any initial growing pains with a new system and new business processes.
+Hypercare is a short period after go-live when you provide extra resources and attention to support your users and business processes. Hypercare helps you make sure that your business can operate smoothly while addressing any initial issues or challenges with the new system.
 
-The role of the support team during this period is critical, and it's important that the expectations are clearly set out and agreed with all parties:
+The role of the support team during hypercare is critical, and you should set clear expectations and plans with all parties involved:
 
-- Define a clear exit strategy for the end of the hypercare period based on meeting explicit criteria. For example, criteria might include no open P1 issues without an acceptable action plan, key business processes are operating at an acceptable efficiency rate, over 90 percent SLA targets being met for P1 and P2 support requests, or the support team can resolve over 95 percent of support requests without using resources reserved for hypercare only.
+- Define a clear exit strategy for the end of hypercare based on meeting specific criteria. For example, you might decide to end hypercare when there are no critical issues, the key processes are running efficiently, the service level agreements (SLAs) are met, or the support team can resolve most issues without extra help.
 
-- Decide on an end date for the hypercare period and have an action plan in place to meet the exit criteria.
+- Decide on an end date for hypercare and have an action plan to meet the exit criteria.
 
-- Define expectations and an explicit plan for the project team (and partner resources) during the hypercare period so you can get reliable help from the team. Otherwise, you may find that the project team is committed to working on the next phase of the project and will resist being drawn into support issues.
+- Define the expectations and plan for the project team and partner resources during hypercare so that you can get reliable help from them. Otherwise, they might be busy with the next phase of the project and resist being involved in support issues.
 
-- Make sure the support team gets the necessary documentation and top-up training from the project team and implementation partner during the hypercare period.
+- Make sure that the support team gets the necessary documentation and training from the project team and implementation partner during hypercare.
 
 ## Next steps
 
-- Review how to construct a strategy to help you prepare, define, and operate a support model in the section [overview](transition-to-support.md)
-- Learn about the importance of defining the [support scope](transition-to-support-scope.md)
-- Understand key aspects when deciding on [support models](transition-to-support-models.md)
-- Review the [checklist](transition-to-support-checklist.md) to help with implementing your support model
-- Read the [case study](service-solution-case-study.md) to understand the need to develop and continually audit an organization's support strategy in the cloud world
+- Learn about the roles and responsibilities of your [support team](transition-to-support-team.md)
+- Review a [checklist](transition-to-support-checklist.md) for implementing your support model
+- Read a [case study](service-solution-case-study.md) to understand why you need to develop and audit your support strategy in the cloud world
