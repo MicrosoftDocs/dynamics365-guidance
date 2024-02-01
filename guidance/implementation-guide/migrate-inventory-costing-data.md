@@ -1,5 +1,5 @@
 ---
-title: Migrate inventory costing data
+title: Migrate inventory costing data for your items when using Dynamics 365 Supply Chain Management
 description: Read about the process for migrating inventory costing data for your items when you use Dynamics 365 Supply Chain Management to manage your inventory.
 ms.date: 08/22/2022
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ---
 
-# Migrate inventory costing data
+# Migrate inventory costing data for your items when managing your inventory
 
 ***Applies to: Dynamics 365 Supply Chain Management***
 

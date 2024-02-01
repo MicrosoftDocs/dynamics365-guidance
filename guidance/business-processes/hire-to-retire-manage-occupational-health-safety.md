@@ -11,6 +11,9 @@ ms.custom:
   - ai-seo-date:01/10/2024
 ---
 
+<!-- I changed Viva Learn to Viva Learning in line 35 because that's what I find in the style guide. -->
+
+
 # Manage occupational health and safety overview
 
 ***Applies to: Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
@@ -29,9 +32,9 @@ In today's dynamic business landscape, the implementation of occupational health
 - Cost-of-care determination  
 - Safety communication  
 
-These processes collectively contribute to a safer and healthier workplace. When you use Dynamics 365 with Microsoft 365 products, such as Viva Learn or Viva Engage, you can streamline business processes and improve your overall health and safety metrics.
+These processes collectively contribute to a safer and healthier workplace. When you use Dynamics 365 with Microsoft 365 products, such as Viva Learning or Viva Engage, you can streamline business processes and improve your overall health and safety metrics.
 
-These processes serve a twofold purpose in any organization. Firstly, they ensure the well-being of employees, reducing the risk of workplace accidents and health-related issues. Secondly, they help organizations meet legal and regulatory requirements, avoid potential liabilities, and enhance their reputation as responsible corporate citizens. Dynamics 365 implementations facilitate the systematic execution of these processes, providing an efficient and centralized platform for managing safety-related data, incidents, and compliance.
+These processes serve a twofold purpose in any organization. First, they ensure the well-being of employees, reducing the risk of workplace accidents and health-related issues. Second, they help organizations meet legal and regulatory requirements, avoid potential liabilities, and enhance their reputation as responsible corporate citizens. Dynamics 365 implementations facilitate the systematic execution of these processes, providing an efficient and centralized platform for managing safety-related data, incidents, and compliance.
 
 One notable advantage of implementing occupational health and safety processes within Dynamics 365 and Microsoft 365 is their flexibility. None of these processes are mandatory prerequisites for the system's operation, allowing organizations to tailor their safety management to their specific needs and timelines. These processes can be easily integrated into the system at any stage of its operation or even incrementally added as the organization evolves. This adaptability ensures that companies can respond to changing safety requirements, growth, and new regulations without major disruptions to their operations. This way, Dynamics 365 becomes a valuable tool for long-term safety and compliance management.
 
@@ -83,9 +86,9 @@ The following diagram illustrates the *Manage occupational health and safety* bu
 
         4. *Train on safety protocols*
 
-        Each of the subprocesses here include a parallel connection to *Analyze and communicate about safety* that isn't shown on the diagram.
+        Each of the subprocesses here includes a parallel connection to *Analyze and communicate about safety* that isn't shown on the diagram.
 
-    2. *Report on injury or illness*
+    2. *Report an injury or illness*
 
         1. *Seek treatment for an injury or illness*
 
@@ -115,11 +118,11 @@ With Dynamics 365 Human Resources, organizations can create and manage comprehen
 
 ### Minimize injury and illness costs
 
-If they use Dynamics 365 Human Resources to track and manage workplace injuries and illnesses, organizations can reduce costs associated with treatment and worker compensation. The system facilitates prompt injury reporting, ensures swift medical attention, and tracks the cost of care. When you analyze this data with Power BI, KPIs like the average cost per injury/illness and the total cost of treatment can be monitored to assess cost-saving initiatives and prevention strategies.
+If organizations use Dynamics 365 Human Resources to track and manage workplace injuries and illnesses, they can reduce costs associated with treatment and worker compensation. The system facilitates prompt injury reporting, ensures swift medical attention, and tracks the cost of care. When you analyze this data with Power BI, KPIs like the average cost per injury/illness and the total cost of treatment can be monitored to assess cost-saving initiatives and prevention strategies.
 
 ### Enhance safety communication and awareness
 
-Dynamics 365 Human Resources when used with the Power Platform can serve as a centralized platform for safety communication, disseminating safety alerts, policies, and procedures. Real-time notifications and document sharing features ensure that employees stay informed through Microsoft Teams or Microsoft Outlook. When you use Dynamics 365 Human Resources with Power BI, and Microsoft Forms, you can use KPIs such as safety awareness surveys and the frequency of safety-related communications to gauge the effectiveness of safety communication efforts. When you use Dynamics 35 Supply Chain Management, you can track details such as the *Material Safety Data Sheets* (MSDS) for each product, material handling details, and other important information. When you use the *Production control* module with Dynamics 365 Supply Chain Management, you can also easily integrate Dynamics 365 Guides as an extra training tool for use in the production floor. Additionally, you can use Dynamics 365 Remote Assist with *Asset management* or Dynamics Field Service as a tool to help ensure safety in the field.
+Dynamics 365 Human Resources when used with Power Platform can serve as a centralized platform for safety communication, disseminating safety alerts, policies, and procedures. Real-time notifications and document sharing features ensure that employees stay informed through Microsoft Teams or Microsoft Outlook. When you use Dynamics 365 Human Resources with Power BI, and Microsoft Forms, you can use KPIs such as safety awareness surveys and the frequency of safety-related communications to gauge the effectiveness of safety communication efforts. When you use Dynamics 365 Supply Chain Management, you can track details such as the *Material Safety Data Sheets* (MSDS) for each product, material handling details, and other important information. When you use the *Production control* module with Dynamics 365 Supply Chain Management, you can also easily integrate Dynamics 365 Guides as an extra training tool for use in the production floor. Additionally, you can use Dynamics 365 Remote Assist with *Asset Management* or Dynamics 365 Field Service as a tool to help ensure safety in the field.
 
 ## Next steps
 
@@ -138,17 +141,11 @@ If you would like to implement Dynamics 365 solutions to assist with your Manage
 You can use the following resources to learn more about the Manage occupational health and safety process in Dynamics 365.
 
 - [Set up injury and illness information](/dynamics365/human-resources/hr-personnel-set-up-injury-illness-information)
-
 - [Maintain employee injury and illness information](/dynamics365/human-resources/hr-personnel-maintain-employee-injury-illness-information)
-
 - [Courses overview](/dynamics365/human-resources/hr-course-overview)
-
 - [Create a course](/dynamics365/human-resources/hr-learning-courses)
-
 - [Manage participants in training courses](/dynamics365/human-resources/hr-manage-part)
-
 - [Questionnaires](/dynamics365/human-resources/hr-learning-questionnaires)
-
 - [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning)
 
 <!-- ## Tags

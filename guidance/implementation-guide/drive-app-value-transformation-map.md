@@ -1,6 +1,6 @@
 ﻿---
-title: Use a transformation map
-description: Learn how to use a transformation map to you align your app features with your digital transformation goals.
+title: Visualize and communicate digital transformation goals with a transformation map
+description: Learn about the transformation map that can help the business-focused digital transformation.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Use a transformation map
+# Visualize and communicate digital transformation goals with a transformation map
 
 You learned in earlier sections of this guide that digital transformation&mdash;the process of using digital technologies to create new or modify existing business processes, products, and customer experiences&mdash;can help you improve your efficiency, agility, innovation, and competitiveness. But digital transformation isn't easy. It requires a clear vision, a strategic approach, and a constant adaptation to changing needs and expectations.
 

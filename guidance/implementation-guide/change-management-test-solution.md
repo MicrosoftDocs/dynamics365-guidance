@@ -1,5 +1,5 @@
 ---
-title: Test the solution
+title: Manage test efforts during a Dynamics 365 implementation project
 description: Read about the change manager's tasks for managing the test efforts during a Dynamics 365 implementation project.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/20/2023
 ms.topic: conceptual
 ---
 
-# Test the solution as part of change management
+# Manage test efforts during Dynamics 365 implementation projects as part of change management
 
 The article [Testing strategy](testing-strategy.md) explains solution testing in detail. For the change manager, testing is one area where the process, technology, and people angles meet up, and where setting the right expectations can make the difference between a go decision and a no-go decision.
 

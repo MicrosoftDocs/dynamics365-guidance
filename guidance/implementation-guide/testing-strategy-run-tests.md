@@ -1,106 +1,83 @@
 ﻿---
-title: Run the tests for an implementation project
-description: Find guidance for how you can run the tests you need for a Dynamics 365 implementation project.
-ms.date: 05/17/2023
+title: Run the tests for your Dynamics 365 solution
+description: Learn how to execute and track your tests throughout your Dynamics 365 implementation project.
+ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Run the tests for a Dynamics 365 implementation project
+# Run the tests for your Dynamics 365 solution
 
-In this article, we explore the minimum components you need to run the tests throughout an implementation project with Dynamics 365.
+Testing your Dynamics 365 solution helps you verify that your solution works as expected and meets the business needs. To conduct effective testing, you need to execute and track your tests according to your test plan.
 
-The prerequisites required to move to execution are having a test plan, test cases, and clear testing cycles that are defined according to the progressive readiness of the solution.
+In this article, you'll learn how to:
 
-Now we focus on the tactical components for prepping the execution, what to keep in mind to communicate the scope, and how to track the progress and outcome.
+- Communicate the test plan for each test cycle.
+- Track the progress and results of testing.
+- Handle the outcomes and feedback of testing.
 
-## Communicate the plan for the test cycle
+## Communicate the test plan for each test cycle
 
-Align the teams before they run their tests. This way, everybody stays focused on the expected outcome of the test cycle. It's especially important when you test with several people involved, like process testing or functional testing.
+Before you run your tests, you should communicate the test plan to the team involved in testing. This way, everyone knows what to expect and what to focus on during the test cycle.
 
-In your communication, you share the test plan for the test cycle. Communicate the following information to the team during testing.
+Your communication should include the following information for each test cycle:
 
-- **Test objectives**  
+- **Test objectives**: The purpose and goals of the test cycle.
+- **Scope**: The processes, requirements, and test cases that are covered by the test cycle. The scope of the test cycle should match the readiness and complexity of the solution version.
+- **Schedule**: The time frame and duration of the test cycle.
+- **Roles**: The roles and responsibilities of the testers, such as who tests what, how they report their results, who coordinates the test, and who resolves questions or issues.
+- **Resolution process**: The process and criteria for reporting and fixing bugs, issues, gaps, or opportunities that are found during the test.
+- **Progress**: The method and frequency of tracking and communicating the status of the test cycle.
+- **Resources**: The resources and tools that are needed for testing, such as the test environment and access to the apps, hardware, software, or partner systems or services.
+- **Test sequence**: The order and dependencies of the test cases, especially for process testing, end-to-end testing, or user acceptance testing.
 
-  Here you explain the purpose of the testing cycle.
+Part of a successful test cycle is to set clear expectations with the participants, so everyone stays focused on the objective. Consider the test cycle as a mini go-live for the scope in place for the cycle.
 
-- **Scope**  
+## Track the progress and results of testing
 
-  Before you start testing, you describe the scope and purpose of the testing cycle. You share the processes, requirements, and tests cases in this test cycle. Every new testing cycle requires detail on how the iteration has been designed in terms of incremental testing, and what the team must test. The scope of the test cycle is aligned to the solution version being used.
+Tracking the progress and results of testing is essential for measuring and improving the quality and performance of your solution. Tracking can help you identify and document the issues, patterns, and opportunities that emerge from your testing. It can also help you make decisions and take actions to correct or enhance your solution.
 
-- **Schedule**  
+But before reporting bugs, the tester needs to understand the scope and objective of the test. Building the solution is progressive. It's easy to report issues where the scope of the test doesn't include a solution for that and is part of future iterations.
 
-  The time expected to be used to run the test cycle.
+Tracking captures the outcome and performance of the test cycle. It's how the development team and consultants understand the quality of the test cycle. We recommend that you use Azure DevOps for this. It integrates into the entire application lifecycle. All bugs are visible to the teams that need to fix them, and you can see what is or isn't working in general.
 
-- **Roles**  
+### Track the changes in configuration
 
-  Who tests what, and how are the test cases distributed? How do they report test case execution so dependent teams can continue the testing? Who is the orchestrator of the test? Who resolves questions on test cases per area?
+Some tests might result in changes or adjustments in the configuration of your solution. These changes can affect the behavior and performance of your solution, so you should document and track them carefully. You should also make sure that these changes are reflected in your golden configurations, which are the baseline configurations that you use for testing and deployment.
 
-- **Resolution process**  
+Making configuration changes can invalidate previous test cases that depend on those changes. You should treat these changes as if they were production changes and make sure they don't negatively affect the tests that passed. You should also plan and execute regression testing to verify that the changes don't introduce new issues.
 
-  One of the objectives to test is to identify any defect in the solution. The communication plan needs to specify how those bugs are reported but also how to document the feedback from the tester.
+### Track the bugs
 
-- **Progress**  
+You should document and track every bug that you find during testing. You should provide concise and consistent documentation that follows an agreed structure. You should also include rich information such as test case and test step reference, reproduction steps, screenshots, videos, and so on. This can help the team that needs to fix the bug troubleshoot and resolve it faster and easier.
 
-  How is the progress recorded and communicated so everybody can see the current state of the testing cycle?
+You should use a centralized repository that's available to the entire project team to track bugs and issues that you find throughout the project and while performing tests. If you can't track bugs and issues through their resolution, you risk missing or forgetting them. This can lead to some issues being discovered only after you go live. Additionally, without the ability to track bugs and issues, you can't track the progression of your solution's stability.
 
-- **Resources**  
+### Distinguish bugs from gaps
 
-  The communication needs to specify where the testing happens and how to access the apps. It determines any extra equipment needed for testing, for example printers, bar scanners, network requirement, etc.
+A gap is a difference or discrepancy between the expected and actual behavior or outcome of your solution. A gap can be caused by a missing or incomplete feature, a change in the requirements, or a new opportunity for improvement. You should document and track gaps as well, but you should distinguish them from bugs. Bugs are defects that need to be fixed, while gaps are enhancements that need to be discussed and prioritized.
 
-- **Test sequence**  
+You should stick to the test case when you report bugs or gaps. If you find a gap, make sure the feedback is properly classified and funneled to the right tracking system. You don't want to lose the opportunity to capture a great idea or finding, but you also don't want to confuse it with a bug.
 
-  Especially on process test, end-to-end test, and user acceptance test types. You need define and align how the different teams interact.
+## Handle the outcomes and feedback of testing
 
-> [!TIP]
-> Part of a successful test cycle is to set the expectations with the participants, so everyone keeps the focus on the objective. Consider the test cycle like a mini go live for the scope in place for the cycle.
+Finishing the test cycle requires reporting the results and handling the outcomes and feedback of testing. You should document and track these outcomes and feedback and assign clear ownership and responsibility for them. You should also define the actions and steps needed to resolve or address them.
 
-## Track during testing
+The outcomes and feedback of testing can affect the next wave of processes or features to be introduced in future test cycles. For example, you might need to add new test cases or update existing ones. You might also need to adjust the scope of the test cycle or the schedule of the next one.
 
-Detecting bugs and properly documenting them is key. It facilitates the resolution. But before reporting bugs, the tester needs to understand the scope and objective of what the test is. Building the solution is progressive. It's easy to report issues where the scope of the test doesn't include a solution for that and is part of future iterations. Keep the focus with the team testing.
+Reporting the results can help you evaluate the performance and quality of the test cycle. It can also help you identify areas of opportunity for the implementation team, because it triggers clear actions to improve the solution. As a result, the next test cycle can provide better results.
 
-Tracking captures the outcome and performance of the test cycle; it's how the development team and consultants understand the quality of the test cycle. We recommend that you use Azure DevOps for this tracking. Azure DevOps integrates into the entire application lifecycle management. All bugs are visible to the team that needs to fix it. You can also see what is or isn't working in general.
-
-Let us explore some tactical components of the tracking of issues discovered during testing.
-
-### Keep track of changes in configuration
-
-It's likely some tests result in tuning configurations as you test. Adjustments to the solution in configurations can change the behavior of the app, and those changes can happen during tests. This brings flexibility into the resolution, but also raises the risk of the team not documenting those changes. Keep in mind that the data can be reset for the next test cycle. If you don't document and make sure those changes aren't reflected in your golden configurations, you lose the important opportunity of what you fixed during testing. In the end, you don't want to repeat the same research over and over, so document the configuration update.
-
-> [!NOTE]
-> Making configuration changes can invalidate previous test cases connected to those changes. Those changes need to be handled much like it's a production change to make sure those changes don't negatively impact tests that passed. Track and execute regression testing.
-
-### Keep record of the progress
-
-At every test cycle, you provide a scope. Depending on the type of test, you have some dependencies. The team must know when they should start testing each type of testing. A testing heatmap can help you to show the progress of testing by process, test cases, and its statuses. For example, in the scenario used to explain [the test types](testing-strategy-test-types.md), we used the analogy of testing a *prospect to cash* process.
-
-A meaningful process test type makes sure the process being tested has continuity, from the order to the invoice and shipment and later to the collection. If you're testing a sequence of processes, you don't go ahead of the game and straight to the collections part. If you do, you lose the opportunity to properly test the larger process sequence.
-
-### Keep record of the bugs
-
-Every bug identified during testing should be documented. Concise documentation that follows an agreed given structure is key. Rich documentation including test case and test step reference, repro-steps, screenshots, videos, and more builds a solid foundation to efficient troubleshooting and bug fixing.
-
-Have a centralized repository that is available to the entire project team. Use that repository to track bugs and issues that are found throughout the project and while performing tests. If you can't track bugs and issues through their resolution, you risk missing bugs and issues. Potentially, some issues aren't identified until after go live. Additionally, without the ability to track the bugs and issues there isn't an ability to track progression in the stabilization of the solution.
-
-### Bugs versus gaps
-
-One common issue during bug reporting is that we can mix up a bug with a required feature or gap. Stick to the test case, if you identify a gap, great! Just make sure the feedback is properly classified. We don't want to lose the opportunity to capture that great idea or finding, we just need to funnel it properly to the right tracking system.
-
-## Deal with the outcomes
-
-Finishing the test cycle requires reporting the results and maintaining the bugs discovered during the testing, but also funneling the feedback received. In the end, all these outcomes add onto the top of the next wave of processes or features to be introduced in future test cycles, as shown in the following illustration:  
-
-:::image type="content" source="media/testing-strategy-cycle.png" alt-text="Illustrates that the scope of a test cycle results in both failed and passed tests.":::
-
-Reporting the outcome measures the performance of the test cycle. It helps you identify areas of opportunity for the implementation team, because it triggers clear actions to improve the quality. As a result, the next test cycle provides better performance.
-
-For the next test cycle, we start over, as even passing test cases during this cycle need to be retested in the next one.
-
-> [!NOTE]
-> Software will never be 100 percent bug free. Issues identified must be clearly documented and triaged. A crucial milestone to reach is a formal business sign off on the overall pass of the final test cycle. This is a required step prior to executing cutover preparation for go live as it creates accountability on the acceptance of the solution by business.
+For the next test cycle, you should start over, because even passing test cases during this cycle need to be retested in the next one.
 
 ## Next steps
 
-- [Checklist](testing-strategy-checklist.md)  
-- [Case study](testing-strategy-case-study.md)  
+- Learn how to [test your solution after changes or updates](testing-regression-tooling.md)
+- Review the Success by Design [checklist](testing-strategy-checklist.md) of the key steps and tasks for your testing process
+- Read a [case study](testing-strategy-case-study.md) of how an organization implemented a testing strategy for its Dynamics 365 solution

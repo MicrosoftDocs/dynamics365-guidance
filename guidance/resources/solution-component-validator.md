@@ -1,5 +1,5 @@
 ---
-title: Solution component validation tool
+title: Manage solution structures for application lifecycles with the solution component validation tool
 description: Learn how to add a tool to help catch development issues with solution components in Dynamics 365 implementation projects.
 author: edupont04
 ms.author: ribsingh
@@ -10,7 +10,7 @@ ms.date: 10/23/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Solution component validation tool
+# Manage solution structures for application lifecycles with the solution component validation tool
 
 ***Applies to: Dynamics 365 with Dataverse***
 

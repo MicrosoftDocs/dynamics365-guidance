@@ -34,7 +34,7 @@ Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-q
 
 ## Manage project opportunities
 
-This business process area involves identifying, sizing, and evaluating potential project opportunities. It also covers determining which projects to pursue, based on their alignment with organizational goals and objectives. Also included are conducting feasibility studies, assessing project risks, and developing business cases to justify project investments.
+This business process area involves identifying, sizing, and evaluating potential project opportunities. It also covers determining which projects to pursue, based on their alignment with organizational goals and objectives. In addition, it includes conducting feasibility studies, assessing project risks, and developing business cases to justify project investments.
 
 Learn more at [Manage project opportunities overview](prospect-to-quote-manage-project-opportunities-overview.md).
 

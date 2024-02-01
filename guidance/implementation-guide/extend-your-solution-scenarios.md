@@ -1,82 +1,84 @@
 ---
-title: Scenarios for extending Dynamics 365
-description: Get example scenarios for when and how to extend the standard capabilities in Dynamics 365 implementation projects.
+title: Customize and extend Dynamics 365 apps
+description: Learn how to use app configurations, low-code/no-code customizations, pro dev extensions, and PaaS solutions to tailor Dynamics 365 apps to your organization's needs.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 05/11/2023
+ms.date: 01/24/2024
 ms.topic: conceptual
-
+ms.custom:
+- ai-seo-date: 01/24/2024
+- ai-gen-docs-bap
+- ai-gen-title
+- ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Scenarios for extending Dynamics 365
+# Customize and extend Dynamics 365 apps
 
-Dynamics 365 includes many capabilities. But an implementation project must fulfill an organization's requirements and extend the built-in capabilities.  
+Dynamics 365 offers many features out of the box. But sometimes you need to go beyond the standard capabilities to meet your organization's goals.
 
-Customizations and extensions to the standard Dynamics 365 apps stretch from simple setup and configuration updates to customized Platform as a Service (PaaS) solutions. In this article, we explore the levels at which customization is possible and discuss their relevance.
-
-Some organizations prefer to stay as standard as possible. That doesn't mean that they can't make simple changes with configurations or low-code/no-code customizations using modern tools. Staying standard allows for slight changes, as long as those changes don't highly impact key characteristics of a solution.
+You can customize and extend Dynamics 365 apps in different ways, from simple setup and configuration changes to advanced platform as a service (PaaS) solutions. In this article, we'll show you the levels of customization and extension you can use and when they make sense.
 
 ## App configurations
 
-Configurations are the out-of-the-box controls that allow makers and admins to tailor the app to the needs of a user. These setting changes are low effort, requiring no support from professional developers. They're a powerful way to make the application your own, for example changing a theme to reflect business branding.
+Some organizations want to stick to the standard features as much as possible. That doesn't mean they can't tweak some settings. App configuration changes are easy to make and don't require professional developers. They let you personalize the app to suit your needs, such as changing the theme to match your brand.
 
-In some cases, due diligence might be required for configurations, even though they are tested and shipped as part of the core service. Examples include security model configuration, out-of-the-box integration setup, and enabling embedded intelligence. Also consider new capabilities delivered via the service updates that might be controlled using the app settings.
+You might need to do some due diligence before changing some settings, even if they're part of the core service. For example, you might need to consider security, integration, or embedded intelligence settings. You might also need to check out new features that come with service updates.
 
-App settings are the safest and the least impactful way of tailoring the solution to your needs and should be the preferred approach before exploring another extensibility technique.
+App settings are the safest and least disruptive way to customize your app. You should always try them first before looking for other options.
 
 ## Low-code/no-code customizations
 
-A differentiator for Dynamics 365 apps and the latest generation SaaS products is the powerful customization capabilities made available through "what you see is what you get" (WYSIWYG) designers and descriptive expression-based languages. This paradigm helps significantly reduce the implementation effort and enables businesses to get more involved with design and configuration.
+One thing that sets Dynamics 365 apps apart from other software as a service (SaaS) products is the powerful customization capabilities they offer through "what you see is what you get" (WYSIWYG) designers and expression-based languages. These tools reduce the implementation effort and help you get more involved in designing and configuring your app.
 
-This low-code/no-code approach also guides makers to take advantage of the optimized patterns and best practices, avoiding the potential pitfalls and antipatterns that are observed in a complex code. Because the platform takes care of lower-level details and automatically optimizes the logic, testing is focused on functional components. The impact on performance, usage pattern and service boundaries, however, still needs to be taken into consideration.
+With low-code/no-code customizations, you can take advantage of the best practices and patterns that the platform provides. You don't have to worry about the low-level details or the potential pitfalls of complex code. The platform handles and optimizes the logic for you. You only need to focus on testing the functional components. Of course, you still need to pay attention to the effect on performance, usage, and service boundaries.
 
-Typically, customizations result in user interface modifications and changes to the field settings, security model, business processes, visualization components, and so on. Changes implemented through customizations must ensure data quality and reduce repetitive tasks. They must also adjust visualization components that determine how information is organized and displayed to the users.
+Typically, customizations let you modify the user interface and change things like field settings, the security model, business processes, and visualization components. These changes help you improve data quality and reduce repetitive tasks. They also help you adjust how information is organized and displayed to users.
 
-With customizations, applications can be tailored to more closely fit organization requirements that are specific to an industry or unique business processes, including specific functionality focused on specific roles or personas. Personalization streamlines the user experience so all users can focus on what is most important to their work.  
+With customizations, you can tailor your app to fit your industry or business processes better. You can add specific functionality for specific roles or personas. You can also streamline the user experience so everyone can focus on what matters most to their work.
 
-Low-code and no-code customizations are the preferred extensibility approach when the requirements aren't satisfied by app configuration changes.
+Low-code and no-code customizations are the best way to extend your app when changing the app settings doesn't meet your requirements.
 
 ## Extend using pro dev
 
-Over the years the low-code/no-code base configuration capabilities have advanced, reducing the dependency on professional developers for application changes. Edge cases or scenarios that can't be achieved using the configuration-based approach can still exist. In that case, the powerful custom code execution capabilities of Dynamics 365 apps can be applied.
+Over the years, low-code/no-code customizations have improved a lot, reducing the need for professional developers to make app changes. But for cases or scenarios that you can't achieve with configurations or customizations, you can use the custom code execution capabilities of Dynamics 365 apps.
 
-Dynamics 365 apps support extension programming models that enable organizations to use existing expertise within the organization for advanced scenarios. These models, depending on the specific app and functionality extended, generally support .NET based languages, Software Development Kits, and open-source libraries around JavaScript and HTML5.
+Dynamics 365 apps support extension programming models that let you use your existing skills and expertise for advanced scenarios. Depending on the app and functionality you want to extend, these models generally support .NET-based languages, software development kits (SDKs), and open-source libraries for JavaScript and HTML5.
 
-The key aspect to keep in mind when using code-based customization is to understand the extensibility framework of Dynamics 365 and only use the documented extension patterns. Use of unsupported techniques breaches the service level agreements and can have a potentially severe impact on the live service.
+The key thing to remember when using code-based extensions is to understand the extensibility framework of Dynamics 365 and only use the documented extension patterns. Don't use unsupported techniques that might break the service level agreements or have a negative impact on the service.
 
-It's important that your developer teams have the latest software development toolkits available to them. They should also know about community based third-party tools and samples. Such tools can drive productivity even when Microsoft doesn't provide direct support for them.
+It's important that your developer teams have the latest SDKs available. They should also know about community-based tools and samples that can boost their productivity, even if Microsoft doesn't support them directly.
 
 ## Extending into PaaS
 
-In some scenarios, organizations use PaaS components to extend solutions and add powerful capabilities that help address complex requirements. Dynamics 365 apps have a core design philosophy that allows our SaaS applications to be extended by using the underlying Azure capabilities. This is referred to as the no-cliffs extension approach. Businesses can start with SaaS, and then for the most complex long-tail scenarios, extend into the PaaS. Doing so alleviates the fear of being limited by the platform.
+In some scenarios, you might want to use PaaS components to extend your app and add powerful capabilities that address complex requirements. Dynamics 365 apps are designed to let you extend them by using the underlying Azure capabilities. This is called the no-cliffs extension approach. You can start with SaaS, and then for the most challenging scenarios, extend into PaaS. This way, you don't have to worry about being limited by the platform.
 
-This no-cliffs extension provides the best of both worlds. The SaaS application provides the off-the-shelf functionalities and the options and methods to extend them. The PaaS extensions further enrich the solution architecture by providing rich and powerful mechanisms that scale and allow heavy processing of operations outside of the business solution.
+This no-cliffs extension gives you the best of both worlds. The SaaS app gives you the ready-made features and the options and methods to extend them. The PaaS extensions enrich your solution architecture by providing scalable and robust mechanisms that handle heavy processing outside of your app.
 
-An example of how this approach is natively used is the Internet of Things (IoT) Intelligence add-in for Finance and Operations apps. This add-in integrates IoT signals with data in Finance and Operations apps to produce actionable insights, as the following illustration shows.
+For example, you can use IoT Intelligence add-in for Finance and Operations apps. This add-in integrates Internet of Things (IoT) signals with data in Finance and Operations apps to produce actionable insights in Power BI dashboards and automation alerts, as shown in the following diagram:
 
-:::image type="content" source="media/extend_solution_IOT.png" alt-text="IOT add-in for finance and operations apps" lightbox="media/extend_solution_IOT.png":::
+:::image type="content" source="media/extend_solution_IOT.png" alt-text="Diagram showing how IoT Intelligence add-in integrates IoT signals from Azure IoT Hub with data from Dynamics 365 Finance and Operations apps to produce insights in Power BI dashboards and reports." lightbox="media/extend_solution_IOT.png":::
 
-The same happens with Connected Field Service. Connected Field Service for IoT Central provides a direct integration between Dynamics 365 Field Service and Microsoft Azure IoT Central. It's an add-on solution that brings in Azure IoT PaaS on top of Dynamics 365 Field Service, as shown in the following illustration.
+Another example is Connected Field Service for IoT Central, which provides a direct integration between Dynamics 365 Field Service and Microsoft Azure IoT Central to monitor and manage IoT devices, as shown in the following diagram:
 
-:::image type="content" source="media/extend_solution_IOT_FieldService.png" alt-text="IOT add-in for Field Service" lightbox="media/extend_solution_IOT_FieldService.png":::
+:::image type="content" source="media/extend_solution_IOT_FieldService.png" alt-text="Diagram showing how Connected Field Service for IoT Central integrates Dynamics 365 Field Service with Azure IoT Central to monitor and manage IoT devices, trigger alerts and actions, and create work orders and service requests." lightbox="media/extend_solution_IOT_FieldService.png":::
 
-In both examples, organizations can use PaaS to further extend the solution. The same can be applied to specific organization requirements that can use PaaS features as part of the extension's architecture. This approach can be valuable because it reduces the maintenance requirements for parts of the solution compared to a fully custom-built extension.
+In both examples, you can use PaaS to further extend your app. You can do the same for your specific requirements that can use PaaS features as part of your extension architecture. This approach can be valuable because it reduces the maintenance costs and complexity of your solution compared to a fully custom-built extension.
 
-One example of this approach is when organizations use Azure Logic Apps. Logic Apps provides a serverless engine to build automated workflows to integrate apps and data between cloud services and on-premises systems. With Logic Apps, you can trigger workflows based on events or timers and apply connectors to integrate applications and facilitate business-to-business (B2B) communication. Logic Apps is integrated seamlessly with Azure Functions, as the following illustration shows.
+One example of this approach is when you use Azure Logic Apps. Logic Apps provides a serverless engine to build automated workflows to integrate apps and data between cloud services and on-premises systems. With Logic Apps, you can trigger workflows based on events or timers and use connectors to integrate applications and facilitate business-to-business communication. Logic Apps is integrated seamlessly with Azure Functions, as shown in the following diagram:
 
-:::image type="content" source="media/extend_solution_AzureLogicApps.png" alt-text="Integration pattern with Azure Logic apps and Azure Functions" lightbox="media/extend_solution_AzureLogicApps.png":::
+:::image type="content" source="media/extend_solution_AzureLogicApps.png" alt-text="Diagram showing how Azure Logic Apps and Azure Functions can be used to integrate Dynamics 365 apps with other cloud and on-premises systems, trigger workflows based on events or timers, and execute custom code in serverless functions." lightbox="media/extend_solution_AzureLogicApps.png":::
 
-Azure Functions is an event-driven serverless compute platform that can also solve complex orchestration problems. By using it, you can move some of the heavy computing processes away from Dynamics 365 apps.
+Azure Functions is an event-driven serverless compute platform that can also solve complex orchestration problems. With it, you can move some of the heavy computing processes away from Dynamics 365 apps.
 
-With Azure Functions organizations can code their own workflow definition and simplify complex, stateful coordination requirements programmatically in event-driven applications, and taking advantage of numerous native connectors.
+With Azure Functions, you can code your own workflow definition and simplify complex, stateful coordination requirements programmatically in event-driven applications. You can also take advantage of many native connectors.
 
-A multitude of examples demonstrates where PaaS can be applied to further extend the capabilities of the solution. Using a platform helps eliminate the costs and complexity of configuring and managing the required infrastructure, while empowering development teams to focus on building the apps and services that drive value.
+There are many examples of how you can use PaaS to extend the capabilities of your app. Using a platform helps you eliminate the costs and complexity of configuring and managing the infrastructure. It also lets your development teams focus on building the apps and services that add value.
 
-Read more about these extension options with Azure and the Power Platform in [Integrate with other solutions](integrate-other-solutions.md).
+[Learn more extension options with Azure and Power Platform](integrate-other-solutions.md).
 
 ## Next steps
 
-- Find product-specific guidance at [Extending finance and operations apps](extend-your-solution-guidance-product-fo.md) and [Extend customer engagement apps](extend-your-solution-guidance-product-ce.md)  
-- View the case study at [Extension case study](extend-your-solution-case-study.md)  
-- Find the checklist at [Extension checklist](extend-your-solution-checklist.md)  
-- Return to the overview at [Extend your solution](extend-your-solution.md)  
+- Learn more about the specific considerations and best practices for [extending finance and operations apps](extend-your-solution-guidance-product-fo.md) and for [extending customer engagement apps](extend-your-solution-guidance-product-ce.md)
+- Read the [case study](extend-your-solution-case-study.md) of how a company extended its Dynamics 365 app to improve its customer service
+- Use the Success by Design [checklist](extend-your-solution-checklist.md) to plan and implement your extensions effectively

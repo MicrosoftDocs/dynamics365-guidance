@@ -10,6 +10,7 @@ ms.custom: bap-template
 ---
 
 # Order to cash business process flow overview and relationships to other business processes
+
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, Dynamics 365 Finance***
 
 This article describes the order to cash end-to-end business process flow and its relationship to other business processes in Dynamics 365.

@@ -1,30 +1,40 @@
 ﻿---
-title: Continue the business application journey
-description: Understanding the importance of continuing to educate yourself in a SaaS platform such as Dynamics 365.  As new features and capabilities become available, use the resources available to maximize your investment in the Dynamics 365 platform. Read the case study to understand the importance of continuing to service the solution as application usage grows.
+
+title: Keep learning about Dynamics 365 and its benefits
+description: Learn how to stay updated on the latest features and capabilities of Dynamics 365, a cloud-based business application platform that evolves with your needs.
 author: taksatoms
 ms.author: tsato
-ms.date: 03/08/2023
+ms.date: 01/30/2024
 ms.topic: conceptual
-
+ms.custom:
+ - ai-seo-date: 01/30/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Continue the business application journey
+# Keep learning about Dynamics 365 and its benefits
 
-The importance of continuing your education on the business application platform is often overlooked. In the on-premises software world, you would go live with a version of your solution and it would mostly remain the same until you decided to develop or purchase add-on functionality. As mentioned earlier in the ser vice update section, the benefit of continuous updates in Dynamics 365 is that you always have access to the newest features to help your business. This also means you have a constant stream of new and better ways to meet your business and technical objectives through your solution.
+Dynamics 365 is a cloud-based business application platform that helps you run your organization more efficiently and effectively. Unlike on-premises software, Dynamics 365 gets continuous updates that give you access to the newest features and improvements. To make the most of your investment in Dynamics 365, you need to keep learning about how it can meet your business and technical goals.
 
-For example, let's look at integrating Dynamics 365 with external systems. It wasn't very long ago that you needed custom code modules in order to efficiently pass data to and from Dynamics 365. But with tools like Power Automate and Azure Logic Apps, you can build very powerful integrations through configuration with little to no code.
+## Why continuous learning matters
 
-Reporting is another good example. The out-of-the-box experience for reporting had limitations in Dynamics 365—you could only build reports with data stored in Dynamics 365. Now, with tools like Power BI and its capabilities to build reports from data in and outside of Dynamics 365, you have much mor e flexibility to quickly build out and embed powerful reports. Also, some advanced Azure and Microsoft 365 services coexist with Dynamics 365, and are going through the same type of evolution. Everything from business functionality to ALM build and deploy tools are constantly seeing incremental improvements.
+Continuous learning helps you:
 
-The only way to truly understand these benefits and how to best apply them in your solution for the most return on your IT investment is by continuing your education. Gain an understanding of where the business application domain is headed. Strive to understand what is in the Dynamics 365 roadmap, why it's included, and how it can make your solution and your organization more efficient and robust.
+- Discover new and better ways to use Dynamics 365 in your solution.
+- Integrate Dynamics 365 with other systems using tools like Power Automate and Azure Logic Apps.
+- Build powerful reports from data in and outside of Dynamics 365 using tools like Power BI.
+- Take advantage of advanced Azure and Microsoft 365 services that coexist with Dynamics 365.
+- Stay ahead of the curve and prepare for future changes in the business application domain.
 
-Each year, Microsoft creates many events and learning opportunities to help developers, IT and business professionals, partners, and educators extend their expertise. Here are some great resources for furthering your education:
+## How to continue your education
 
-- [Microsoft Events](https://www.microsoft.com/events/) consolidate links to stay up to date on upcoming events for all kinds of audiences, both business and technical focused.
+Microsoft offers many events and learning opportunities for different audiences, both business and technical focused. Here are some great resources for furthering your education:
 
-<!-- -   [Microsoft Business Applications Summit](https://mymbas.microsoft.com/) helps you maximize on using business applications through live and on-demand recordings and discussions. -->
+- [Microsoft Events](https://www.microsoft.com/events/) consolidates links to stay up to date on upcoming events for all kinds of audiences.
 
-- [Microsoft Ignite](https://myignite.microsoft.com/home) is for anyone who is motivated to be on the frontier of innovation and tech. There are live and on-demand sessions tailored for different audiences.
+- [Microsoft Ignite](https://myignite.microsoft.com/home) is for anyone who wants to be on the frontier of innovation and tech. Live and on-demand sessions are tailored for different audiences.
 
 - [Experience Dynamics 365](https://experience.dynamics.com/) provides access to Dynamics 365 experts and the Insider program to participate in preview features. You can also provide feedback to Microsoft engineers and vote on new product features.
 
@@ -32,8 +42,4 @@ Each year, Microsoft creates many events and learning opportunities to help deve
 
 ## Next steps
 
-- Understand the importance to service the solution by reviewing the [overview](service-solution.md)
-- Review how to best [monitor the service health](service-solution-monitor-service-health.md) of your Dynamics 365 solution
-- Review how [Service Updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness 
-- Learn about the importance of [environment maintenance](service-solution-environment-maintenance.md)
-- Read the [case study](service-solution-case-study.md) to understand the impact to an organization when servicing the solution is not top of mind
+- Read [the case study](service-solution-case-study.md) to understand how servicing your solution can make a difference for your organization

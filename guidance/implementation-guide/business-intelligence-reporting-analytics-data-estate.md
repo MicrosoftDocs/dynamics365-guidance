@@ -1,62 +1,67 @@
 ---
-title: The data estate and data modernization
-description: Learn about the data estate and data modernization.
+title: The data estate and data modernization in Dynamics 365
+description: Learn how to modernize your data estate and use the digital feedback loop to improve your reporting and analytics in Dynamics 365.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 10/17/2022
+ms.date: 01/23/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# The data estate and data modernization
 
-A data estate refers to the infrastructure that helps organizations manage all their data, regardless of where or how it is stored. The massive growth in data and the increasing need for immediate insights demand a fast, agile, accessible, secure, and highly scalable data platform.
+# The data estate and data modernization in Dynamics 365
 
-Organizations typically used legacy applications to both store data and serve as the interface for data collection. Data modernization restructures how data is collected, stored, and managed to take advantage of innovative technology, and is backed by AI and data analytics solutions that optimize the data-review process. Organizations seeking improved business performance must design and manage their data estate based on a modern platform that breaks the data silos and unleashes the data's full potential.
+Your data estate is the infrastructure that helps you manage all your data, no matter where or how it's stored. To get immediate insights from your data, you need a fast, agile, accessible, secure, and highly scalable modern data platform.
+
+Legacy applications often store data and collect it through the same interface. Data modernization changes how you collect, store, and manage data by using innovative technology. It also uses AI and data analytics solutions to optimize how you review data. To improve your business performance, you need to design and manage your data estate based on a modern platform that breaks down silos and unleashes the full potential of your data.
 
 ## Build a data strategy
 
-For business solutions to deliver the intended results, an organization's data strategy must articulate a clear vision that effectively aligns business intelligence investments with business goals to maximize impact, drive growth, and improve profitability.
+Your business solutions can only deliver the results you want if your data strategy has a clear vision that aligns your business intelligence investments with your business goals. This way, you can maximize the impact of your data, drive growth, and increase profitability.
 
-To define your data strategy, start with the business questions you need to answer to meet your organization's goal of using the data to make more effective decisions that improve the business outcome.
+To define your data strategy, start with the questions you need to answer to meet your goal of using data to make better decisions that improve your business outcomes.
 
-With customers now having access to more information and channels, an organization's data strategy should reflect the customer journey. From a data management perspective, all channels and checkpoints across the customer journey should be represented.
+Your customers have access to more information and channels than ever before. Your data strategy should reflect their journey. From a data management perspective, make sure all channels and checkpoints across the customer journey are represented.
 
-> [!TIP]
-> A common risk for businesses is the quality of their data. If data is weak, unstructured, unsecured, or difficult to use or access, additional work will be required to move, scrub, protect, and improve the quality of the data. Poor data quality also can lead to lost opportunities, failure to consistently attract customers, increased time and expense for cleaning data or processing corrections, and inaccurate or inconsistent KPI measurements.
+A common risk for businesses is poor quality of their data. If your data is weak, unstructured, unsecured, or hard to use or access, you'll need more work to move, clean, protect, and improve it. Poor quality also leads to lost opportunities, failure to attract customers consistently, more time and money spent on cleaning or correcting errors, and inaccurate or inconsistent performance measurements.
 
 ## Modernize your data estate
 
-Your data estate modernization strategy should map the current data estate, goals, business processes, and regulatory requirements to aid gap analysis of the existing and desired future state. It should identify key analytics and metrics to improve the business and effectively align business intelligence investments with business goals.
+Your strategy for modernizing your data estate should map out the current state of your estate and the goals, processes, and requirements for the future state. It should identify key analytics and metrics that will improve your business and align with your goals.
 
-Cloud-based solutions offer modern capabilities based on machine learning and AI to analyze portions of data and automate other processes, such as identifying and solving data quality issues. In terms of analysis, prebuilt models can serve the most common use cases, eliminating the need to build custom models.
+Cloud-based solutions offer modern capabilities based on machine learning and AI to analyze parts of your data and automate other processes such as solving quality issues. You can use prebuilt models for common analysis use cases instead of building custom models. Using legacy solutions can create a gap in the future. AI and machine learning solutions take a modern approach to data and analytics that grows with technology. You can add new features and capabilities in the future and avoid falling behind your competitors.
 
-> [!TIP]
-> Some organizations emphasize collecting data more than analyzing it to drive insights. It's also important to identify gaps and blockers for business objectives and outcomes, and not focus solely on the data, structure, analytics, tools, or technologies.
-
-> [!TIP]
-> Implementing or investing in sustaining legacy solutions brings the risk of a future gap. AI and machine learning solutions take a modern approach to data and analytics that grows as technology evolves, making it possible for organizations to add new features and capabilities in the future—and reduce the risk of being outperformed by competitors.
+Some organizations focus more on collecting than analyzing their information sources. It's important to identify gaps in achieving objectives rather than focusing only on the structure or tools.
 
 ## The modern data estate and the digital feedback loop
 
-[Gartner, Inc.](https://www.gartner.com/en/documents/3976035/predicts-2020-data-and-analytics-strategies-invest-influ) predicted in 2020 that investments in data and analytics strategies will critically affect businesses in the years ahead.
+[Gartner, Inc.](https://www.gartner.com/en/documents/3976035/predicts-2020-data-and-analytics-strategies-invest-influ) predicted in 2020 that investments in data and analytics strategies will affect businesses critically in the years ahead.
 
-How organizations modernize their data estate is influenced by the four data signals found in the [digital feedback loop](business-intelligence-reporting-analytics-overview.md#break-the-silos-and-use-the-digital-feedback-loop). <!-- <T.G. Reference to figure not needed, but link within section> (Figure 13-1).-->
+:::image type="content" source="media/gartnerbiandanalyticsstrategies.png" alt-text="Infographic summarizing the Gartner report on business data and analytics strategies." lightbox="media/gartnerbiandanalyticsstrategies.png":::
 
-:::image type="content" source="media/gartnerbiandanalyticsstrategies.png" alt-text="gartner bi and analytics strategies" lightbox="media/gartnerbiandanalyticsstrategies.png":::
+How you modernize your data estate depends on the four data signals in the [digital feedback loop](business-intelligence-reporting-analytics-overview.md#break-the-silos-and-use-the-digital-feedback-loop).
 
 ### Empower people
 
-To do their jobs more efficiently, employees need tools and resources, as well as timely access to information. Utilizing AI to further automate business processes contributes to better and faster results, which then empowers your people <!-- <T.G. Reference to figure not needed(Figure 13-2), added graphic on top--> to make the best decisions and deliver value to customers.
+Your employees need tools, resources, and timely access to information to do their jobs well. Using AI to automate business processes leads to better and faster results. This empowers your people to make the best decisions and deliver value to your customers.
 
 ### Engage customers
 
-Modern applications are already capable of delivering insights by using AI and data analytics to optimize business processes and shed light on customer activity. For example, Dynamics 365 apps can provide a customer service agent with insights into a customer's interests and purchasing behavior information in real time, allowing the agent to make suggestions tailored to the customer. These types of insights help businesses intelligently engage customers <!-- <T.G. Reference to figure not needed(Figure 13-2)--> to provide a superior customer service experience.
+Modern applications use AI and data analytics to optimize business processes and show you customer activity. For example, Dynamics 365 apps can give a customer service agent real-time insights into a customer's interests and buying behavior. The agent can then make personalized suggestions for the customer. These insights help you engage your customers intelligently and provide excellent service.
 
-### Transform products (and services)
+### Transform products and services
 
-Products and services have become sources of data that provide better insights into lifecycle-related information that can be used to benefit organizations and their customers. By analyzing those insights, organizations can in turn transform their products and services <!-- <T.G. Reference to figure not needed (Figure 13-2)--> to take advantage of opportunities and expand into new channels and markets. For example, a smart air conditioner that allows you to set an optimal temperature via an app can also apply what it learns about your household's daily routine to make sure the house is cool when everyone gets home. The air conditioner's manufacturer then uses data collected from all users to enhance the product's smart features, leading to a continuous improvement cycle.
+Your products and services are sources of data that give you better insights into their lifecycle information. You can use these insights to benefit your organization and your customers. By analyzing these insights, you can transform your products and services to take advantage of new opportunities, channels, or markets. For example, a smart air conditioner that lets you set an optimal temperature through an app can also learn from your daily routine to make sure the house is cool when everyone gets home. The manufacturer then uses data from all users to improve the product's smart features, creating a continuous improvement cycle.
 
 ### Optimize operations
 
-Cloud-based AI usage is an increasingly common investment area for most organizations—and not just for customer-facing technology. For example, Dynamics 365 for Field Service can use AI to anticipate hardware failures on a manufacturing floor and automatically dispatch technicians before the malfunction. Organizations that optimize their operations <!-- <T.G. Reference to figure not needed (Figure 13-2)--> with augmented analytics, AI, and embedded intelligence will be more competitive in the marketplace.
+Cloud-based AI is a common investment area for most organizations, and not just for customer-facing technology. For example, Dynamics 365 Field Service can use AI to predict hardware failures on a manufacturing floor and send technicians before the equipment breaks down. Organizations that optimize their operations with augmented analytics, AI, and embedded intelligence will be more competitive in the market.
 
+## Next steps
+
+- Explore the [components of the modern data estate](business-intelligence-reporting-analytics-data-estate-components.md), such as data sources, data integration, data storage, data processing, and data consumption
+- Use the Success by Design [checklist](business-intelligence-reporting-analytics-checklist.md) to assess and improve your reporting and analytics strategy

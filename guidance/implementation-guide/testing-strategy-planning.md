@@ -1,230 +1,172 @@
 ﻿---
-title: Plan the tests
-description: Learn how to build a test plan that accounts for scope, the right types of tests, and the most important business processes in a Dynamics 365 solution.
-ms.date: 05/17/2023
+title: Create a test plan
+description: Learn how to design a test plan for your Dynamics 365 solution that covers the scope, types, cycles, and outcomes of testing.
+ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Plan the tests in a Dynamics 365 implementation project
+# Create a test plan
 
-Planning for testing is a fundamental part of the testing strategy. This article describes the minimal components you need to define a recommended testing plan. This strategy can be used to implement almost any business application.  
+Testing is a crucial part of any Dynamics 365 implementation project. It helps you verify that your solution meets the business requirements and works as expected. To conduct effective testing, you need a test plan that defines the scope, types, cycles, and outcomes of testing. This article explains how to create a test plan that suits your project needs and follows the best practices for testing.
 
-In this article, we build provide guidance on how to build a test plan that reflects the scope of the testing that you already defined. In the related articles, you learn how to build a common understanding in the project team about different [test types](testing-strategy-test-types.md). Before you can build a test plan, you must work with the business to understand their view about which business processes and areas of test scope are risky or critical to them.
+You should start planning for testing in the **Initiate** phase of the project. You should also document your test plan and get approval from the business team before you execute it. Your test plan should align with your overall test strategy, which is based on your project scope and objectives.
 
-With this valuable information, we can determine how to build a test plan that accounts for these aspects accordingly.
+In this article, you'll learn how to:
 
-During the planning stage of the testing, you must answer and provide clarity for the following questions. They help you define and design the frequency of the testing based on the necessary iterations or test cycles to secure a high-quality solution.
+- Create a test plan that reflects the scope of testing
+- Choose the right types of tests for each phase of the project
+- Schedule the tests and test cycles
+- Define the test cases and expected outcomes
+- Align the test plan with the solution versions
+- Assign ownership and accountability for the test outcomes
+- Use the right environments for testing
+- Document and report the test results
+- Involve the right roles in testing
 
-- When do you need to start testing?
+## Define the scope of testing
 
-- How do you control the versions of the solution to be tested based on the progressive readiness of it?
+The scope of testing determines what you need to test, how deeply you need to test it, and how often you need to test it. The scope of testing depends on several factors, such as:
 
-- How do you document the outcome of the testing?
+- The complexity and size of your solution
+- The industry standards and regulations that apply to your solution
+- The internal standards and policies of your organization
+- The risk and impact of your solution on the business processes and operations
+- The feedback and expectations of the business stakeholders and users
 
-- Who participates in the testing?
+You should define the scope of testing based on the business processes and requirements that your solution covers. You should also consider the different areas of test scope, such as functionality, performance, security, usability, integration, and data migration.
 
-- Where does the testing happen in terms of environments and type?
+The scope of testing should be proportional to the business risk and impact. For example, if you're implementing a low-complexity finance solution in the private sector, you might need less testing than if you're implementing a high-complexity manufacturing solution in the pharmaceutical industry. Test plans should be more thorough and have higher test coverage for processes that are critical or risky for your business.
 
-- How is the ownership of the outcome defined?
+The scope of testing should also be flexible and adaptable to changes in the project needs and the solution design. You might need to add, remove, or modify test cases, test cycles, or test types as you discover new requirements, issues, or opportunities during the project.
 
-- How deeply will you test?
+## Choose the right types of tests
 
-- What types of testing should you run, based on the project needs and solution complexity?
+The types of tests you need to run depend on the nature and purpose of your solution. Different types of tests can help you validate different aspects of your solution, such as functionality, performance, security, usability, integration, and data migration.
 
-Answers to these questions help you plan the quality control portions of the solution. Build the plan at the start of the **Initiate** phase of the project.
+Some of the most common types of tests for Dynamics 365 solutions are:
 
-The plan for testing must be documented and signed off on by the business team prior to its execution. It's important because it leads into other types of planning, such as the environments the solution requires, which  determines where the test is done.
+- Unit testing: Testing individual components or units of code to verify that they work as intended.
+- Integration testing: Testing how different components or units of code interact with each other and with external systems or services.
+- System testing: Testing the entire system or solution as a whole to verify that it meets the functional and nonfunctional requirements.
+- User acceptance testing: Testing the solution from the perspective of the users to verify that it meets their needs and expectations.
+- Performance testing: Testing the speed, scalability, reliability, and resource consumption of the solution under different workloads and conditions.
+- Security testing: Testing the security features and controls of the solution to verify that it protects the data and resources from unauthorized access or misuse.
+- Usability testing: Testing the user interface and user experience of the solution to verify that it's easy to use, understand, and navigate.
+- Data migration testing: Testing the process and outcome of moving data from the source system to the target system to verify that the data is accurate, complete, and consistent.
 
-## Create a test plan of the right size
+You might not need to run all these types of tests for your solution. You should select the types of tests that are relevant and appropriate for your project scope and objectives. You should also consider the cost, time, and resources required for each type of test.
 
-The test plan is the blueprint for executing your tests. It establishes the guard rails to stay on track in terms of quality assurance for the solution, schedule of testing, and resources needed, and it contains the scope of the testing.
+[Learn about each type of test](testing-strategy-test-types.md).
 
-Depending on the complexity of the project, the implementation team can develop this artifact. In larger, more complex organizations, it's prepared with an independent quality assurance team to make sure that biases that the implementation team might hold don't detract from the veracity of the testing.
+## Schedule the tests and test cycles
 
-> [!NOTE]
-> The testing effort and attention of testing should be proportional to business risk and business impact.
+When should you start testing your solution? The answer is simple: as early as possible. Testing should be an integral part of your project execution from the beginning to the end. Testing early and often can help you identify and fix issues before they become costly or risky.
 
-Always create a test plan for your project regardless of if your implementation is simple, complex, or if you're implementing a standard solution or extending the solution.
+You should schedule your tests and test cycles according to the phases of the project and the readiness of the solution. A test cycle is a comprehensive testing event that covers a specific scope and version of the solution. A test cycle can also be called a conference room pilot, a testing iteration, or a testing milestone. Each test cycle should represent a mini go-live, where you rehearse the business operation with the solution.
 
-The duration of the respective test phases and iterations should be sized right. Not only solution complexity must be taken into account. Other important factors play a role here, such as industry standards, company internal standards and policies, regulatory standards for compliance and other legal aspects. For example, you're implementing a low complexity finance scope in the private sector. In this example, the testing phases have a different duration compared to an implementation of a high complexity manufacturing scope in the pharmaceutical industry. Test plans should be more intense and have higher test coverage for processes with critical importance to your business.
+You should align your test cycles with your project phases and solution versions. For example, you might run unit testing and integration testing in the **Design** phase, system testing and performance testing in the **Build** phase, user acceptance testing and security testing in the **Deploy** phase, and data migration testing and usability testing in the **Operate** phase.
 
-The test plan brings transparency and helps keep your goals and objectives on securing a quality solution. It contains important information that guides the team on how to conduct the testing. Formal test planning also serves to ensure that the team has an accurate view of the time and resources that are required to conduct testing.
+The following figure shows an example of how to schedule the most common types of tests across the different [Success by Design](success-by-design.md) implementation phases. You might need to adjust this schedule based on your project needs and solution complexity.
 
-The following figure provides an overview about high level test plan components.
+:::image type="content" source="media/testing-strategy-phases.png" alt-text="A Gantt chart or table showing the various tests running across implementation phases." lightbox="media/testing-strategy-phases.png":::
 
-:::image type="content" source="media/testing-strategy-components.png" alt-text="Shows tiles for schedule, test cycles, versions, roles, ownership, resources, and documentation.":::
+You should avoid testing too late in the project or too close to the go-live date. This can increase the risk of finding issues that are hard to fix in a short time or that affect the quality and performance of the solution. You should also avoid testing in the production environment, except for a mock cutover test before the go-live. The production environment is meant to run the real business operations, not the tests.
 
-> [!NOTE]
-> Always create a test plan at implementation and obtain sign off by business stakeholders.
+## Define the test cases and expected outcomes
 
-## Plan the right tests at the right test phases
+A test case is a set of instructions that guides the tester to execute a test and verify the expected outcome. A test case should reflect the actual business execution in the system and represent how the user operates the solution.
 
-The test phases in your test plan are closely coupled with the test types appropriate for your implementation project. Following good practice to derive your test scope from project scope, ensures your overall test strategy is consistent.
+A test case should include, at a minimum, the following elements:
 
-Test plans are living documents that keep evolving since project needs can change in terms of adding new test cycles or test types. For example,  business needs might change, or there's a need to increase the quality due to factors that were unknown at the start of the project. For the most important test types, such as user acceptance testing or performance testing, you must create specific test plans. Alternatively, keep enhancing your master test plan while always bringing enough details to provide clarity for each of them.  
+- The process and requirements that the test case covers
+- The prerequisite or entry criteria to execute the test, such as data or configuration dependencies
+- The reproduction steps to perform the test
+- The expected outcome or exit criteria to validate the test result
 
-Learn more at [Test types](testing-strategy-test-types.md).
+You should write clear and detailed test cases that help the tester confirm the outcome with certainty and repeatability. You should also design test cases for both positive and negative scenarios, that is, what should happen and what shouldn't happen.
 
-## Schedule the tests
+You can use tools like [Azure DevOps](/azure/devops/?view=azure-devops&preserve-view=true) or [Task recorder](/dynamics365/fin-ops-core/dev-itpro/user-interface/task-recorder) to create and manage your test cases. These tools can help you track and connect your test cases to your solution development lifecycle and your project scope.
 
-When should you test the solution? It's simple: Testing should start as early as possible. Your entire test strategy must be defined early on in your implementation project if you want to set up the project for success. Testing is an essential component of your overall project execution. Your testing cycles are incremental in terms of scope.
+The following figure shows an example of a test case:
 
-The following figure shows when we recommend you run the most common test types across the different [Success by Design](success-by-design.md) implementation phases. As mentioned earlier, there are factors that influence the relevance of a specific test type to your specific project phases and scope.
+:::image type="content" source="media/testing-strategy-test-case.png" alt-text="Example of a test case, showing the process to test, requirements and prerequisites, steps, data, and expected versus actual results.":::
 
-:::image type="content" source="media/testing-strategy-phases.png" alt-text="Shows the various tests running across implementation phases." lightbox="media/testing-strategy-phases.png":::
+## Align the test plan with the solution versions
 
-Don't wait too long to start testing-don't postpone the tests  until you think you have built the entire solution at the end of the implementation project. For example, it's a common pitfall to start certain test phases too close to [user acceptance testing](testing-strategy-test-types.md#user-acceptance-testing) (UAT). That might lead to late identification of a high number of bugs that can significantly undermine the business's confidence in the solution. If you test late in the project, you add risks to your implementation that you find  issues and gaps that are hard to fix in a short period of time. This becomes a constraint, especially when you have reduced time available for time sensitive projects tasks like preparing to go live. Always plan to avoid testing close to your go live date since it leaves no time to resolve issues. Poor planning or no testing can ruin a project.
+The solution version is a combination of the code, configuration, master data, and migrated data that supports the test cases. The solution version should be controlled and consistent for each test cycle. For each new test cycle, the solution version should expand in scope and complexity.
 
-## Test in cycles or iterations
+You should plan your development efforts to prepare the solution version for each test cycle. You should also coordinate with the teams and parties involved in the solution's development, such as developers, consultants, customers, Microsoft Support, or partner providers. Missing one necessary component of the solution version can cause delays or issues in the testing.
 
-Test cycles act as comprehensive testing milestones. The successful outcome of the test cycle confirms the readiness of the solution to meet the requirements of the business. There are different terms used to describe this testing event. For example *conference room pilots*, *testing iterations*, *testing cycle*, and so on. The important message here is that the testing event is comprehensive.
+You should also plan for testing environments where you can run your tests safely and effectively. You might need different environments for different types of tests, such as integration testing or performance testing. You might also need testing instances of partner systems or services that integrate with your solution. You should never use the production environment for regular testing, only for a mock cutover test before the go-live.
 
-To implement Dynamics 365, we recommended that the scope in each testing cycle is aligned to your overall test strategy. The strategy should be based on a mapping to your project scope areas, such as business processes and requirements. Test cycles by application module, or organizational department in isolation, risk losing the big picture and thereby limit the effectiveness of the test.
+## Assign ownership and accountability for the test outcomes
 
-**Every testing cycle represents a key milestone in building the solution**. Consider every test cycle to be a mini go live, where you're rehearsing the business operation at every test.
-
-## Define test cases
-
-An important part of the scope is defining the test. Proper test documentation is key, and test cases (or test scripts) are the primary artifact that achieves it. The nature of a test case varies depending on the test type. Clear and detailed test cases guide the tester to validate the expected outcomes with certainty and repeatability. They do align to the scope of the solution.
-
-Writing a good test case requires a series of tools and tasks that help you validate the outcome. Dynamics 365 provides some of the tools to build test cases faster. For example, with the [task recorder](/dynamics365/fin-ops-core/dev-itpro/user-interface/task-recorder) in finance and operations apps, you can dynamically capture the steps for a task in the app.
-
-Test cases should reflect the actual business execution in the system and represent how the end user ultimately operates the system, as illustrated in this figure:
-
-:::image type="content" source="media/testing-strategy-test-cases-components.png" alt-text="Shows that What plus Get ready plus How plus Quality check form the test case.":::
-
-Test cases should be composed of, at minimum, the following:
-
-- The process and requirements that the test case is covering.
-
-- The prerequisite, or entry, criteria to execute the test, which can be dependent on other tests or necessary data to produce the expected outcome.
-
-- The reproduction steps.
-
-- The expected outcome, or exit criteria, that helps confirm the readiness.
-
-Finally, when you design your test cases, design for what you expect to happen based on the process objective but also on what it shouldn't do. Plan for tests that can break the process. This figure depicts a sample test case:
-
-:::image type="content" source="media/testing-strategy-test-case.png" alt-text="Example of test case.":::
-
-### Use Azure DevOps
-
-[Azure DevOps](/azure/devops/?view=azure-devops&preserve-view=true) is great tool for documenting test cases and connecting them to the solution development lifecycle. When you define [test cases in Azure DevOps](/azure/devops/test/overview?view=azure-devops&preserve-view=true), you can track any bugs that are caught with specific test cases. You can both monitor the state of the solution as it rolls up to processes and process areas, and plan subsequent testing activities based on remediation of those bugs.
-
-## Align to solution versions
-
-We discussed the importance of planning the testing cycles process as part of the scope, this scope also triggers the readiness of the code and data that supports the test cases connected to those processes. After determining the planned scope of the test cycle, you should plan your development efforts to cover those processes and the readiness of the required data in terms of master data and configurations.
-
-Your solution version needs to be controlled at every test cycle so you can have a clearly defined milestone. For every new milestone, the solution keeps expanding in scope and complexity.
-
-The solution version is a combination of the version of the following components:
-
-- Code
-
-- Configuration
-
-- Master data
-
-- Migrated data
-
-Different teams need to coordinate and plan how to combine their efforts to prepare for the testing cycle.
-
-Each component of the solution version is important, and all of them need to come together as part of the solution. It's especially important with data. The earlier you bring migrated data into the mix the better. One of the most common causes of errors during the first days of operation is poorly migrated data.
-
-Align your solution version to the testing cycles and coordinate the readiness of all the dependent parties to provide their own artifacts. Missing one necessary artifact can cause delays in the implementation, introducing risk.
-
-## Define ownership
-
-Having clear expectations of who takes ownership of the testing outcome is key. Testing can result in bugs, but also it can result in discovering configuration issues, gaps, or new opportunities where improvements can be applied in future cycles or solution releases. Based on the type of outcome, we need to define who takes ownership of the fix and what test plan is needed to account for that.
+The test outcomes are the results and feedback that you get from running your tests. The test outcomes can include bugs, issues, gaps, opportunities, or improvements. Based on the type and severity of the test outcome, you need to define who takes ownership of the fix and what actions are needed to resolve it.
 
 - Bugs go back to developers for resolution.
+- Configuration issues go to consultants for adjustment.
+- Gaps go to project managers for discussion with stakeholders and the implementation team.
+- Standard product issues go to Microsoft Support or any other solution provider involved.
+- Conceptual design issues go to architects on the implementation team.
+- Process improvements go to business subject matter experts (SMEs).
 
-- Configuration issues go to the consultant connected to the test case.
+You should document and track the test outcomes and assign clear ownership and responsibility for the fixes. You should also define who is accountable for driving the resolution of the test outcomes based on the type of test. For example, unit testing outcomes are often owned by technical architects or dev leads, while user acceptance testing outcomes are often owned by customer steering groups or lead SMEs.
 
-- Gaps go to the project manager for further discussion with the stakeholders and implementation team.
+When you define your test plan, you should specify the ownership and accountability for each type of test outcome and test type.
 
-- Standard product issues go to Microsoft Support or any other third-party solution provider connected to the issue.
+## Use the right environments for testing
 
-- Conceptual design issues go to the architects on the implementation team.
+The environment where you run your tests is an important factor for the quality and performance of your solution. The environment should match the conditions and requirements of the type of test you're running. For example, you might need a sandbox environment for integration testing, a load testing environment for performance testing, or a staging environment for user acceptance testing.
 
-- Process improvements go to the business Subject Matter Experts (SMEs).
+You should plan and provision the environments you need for testing in advance. You should also ensure that the environments are isolated, secure, and consistent with the solution version. **You should never use the production environment for regular testing, only for a mock cutover test before the go-live.**
 
-Documenting the outcome of the test cycle and assigning clear ownership for the fix facilitates tracking and resolution. Plan for testing thoroughly, even if you're implementing the standard product.
+You might also need to test your solution in environments that aren't part of Dynamics 365, such as partner systems or services that integrate with your solution. You should plan for the availability and access of these testing environments and coordinate with the providers or owners of these systems or services.
 
-The right role has to take accountability for the outcomes of a given test type so that the right actions are generated and completed.
+You should also plan for the hardware and software resources that you need to emulate the real operation of your solution, such as scanners, printers, handhelds, and so on. These resource needs are dictated by the test cases and the expected user scenarios.
 
-One common pattern for implementations of standard functionality is the project team challenging the need to thoroughly test when the application hasn't been modified. The reality is that implementation teams are testing the specific business solution being implemented, not the standard software.  
+## Document and report the test results
 
-> [!NOTE]
-> You are not just testing software, you are testing the people being trained, the processes that represent the operation, the data that keeps the business alive, and finally the technology.
+Documenting and reporting the test results is essential for tracking and improving the quality and performance of your solution. The test results can help you highlight the wins, issues, patterns, and opportunities that emerge from your testing. They can also help you make decisions and take actions to correct or enhance your solution.
 
-## Assign owners to test types and outcome
+You should document and report the test results for each test case, test cycle, and test type. You should include information such as:
 
-Now we need to connect this ownership role to the test types. In other words, we must define who takes accountability to drive the resolution of the outcome derived from testing based on the test type. It's important we have clear ownership to avoid defects bouncing around with unclear roles driving the actions, even though the fix can come from different roles. As an example, unit testing outcomes are often owned by technical architects or dev leads. User acceptance testing outcomes tend to be owned by customer steering groups devolved to the lead SME or PM.
+- The test scope and objectives
+- The test date and duration
+- The test environment and version
+- The test participants and roles
+- The test steps and outcomes
+- The test issues and fixes
+- The test feedback and recommendations
 
-When you define your test plan, define ownership for the type of fixes but also who is accountable to drive the necessary actions based on the outcomes for that test type.
+You can use tools like [Azure DevOps](/azure/devops/?view=azure-devops&preserve-view=true) or [Power BI](https://powerbi.microsoft.com/) to create and manage your test documentation and reports. These tools can help you build dashboards and visualizations that can show the progress and quality of your testing.
 
-## Use the right environment for the right type of test
+## Involve the right roles in testing
 
-Where to test is dependent on the type of test being executed and this definition impacts the [environment planning](environment-strategy-overview.md). Our focus here is on the environments where you can do proper testing based on the test type.
+The roles involved in testing can vary depending on the type and scope of the test. The roles can include developers, consultants, customers, SMEs, quality assurance testers, users, or partner providers.
 
-This environment can be a different variation of a development or test environment, but it's important that you never complete or plan for regular testing in production environments.
+You should plan and allocate the resources and time required for each role to participate in testing. You should also ensure that the roles have the necessary skills, knowledge, and access to perform the tests. You should provide training and guidance to the roles as needed.
 
-Production environments are meant to run the real business operations. Doing tests, or making changes to it without being tested first, is a high risk for the stability of the solution because of the unknown variables it can bring. **The only test type that can be executed in a production environment is a mock cutover test**, and this test happens for a limited period before the solution is live.
+The involvement of the business team in testing is critical. They own the solution and they know the business processes and expectations better than anyone else. One common cause of failure is poor involvement or feedback from this group of testers.
 
-You can require testing be done in an environment different than Dynamics 365 environments, such as integrations. Plan for the availability of testing instances of third-party systems that integrate with Dynamics 365; integrations or other dependencies must be validated. This is a commonly missed opportunity during implementation.
+## Summary
 
-Plan for extra hardware required to emulate the real operation like scanners, printers, handhelds, and so on. These resource needs are dictated by the test case.
+Creating a test plan for your Dynamics 365 solution is a key step to ensure its quality and performance. A test plan helps you define and design the scope, types, cycles, and outcomes of testing. A test plan also helps you coordinate and communicate with the different roles and parties involved in testing.
 
-Plan for non-Dynamics 365 testing environments where you have a dependency in the solution that requires validation.
+Testing is an iterative and incremental process that grows as you progress in the project. Testing is also a permanent activity that continues after you go live, based on the regression testing technique you choose.
 
-Planning to document the results of your testing cycles helps to highlight the wins, but also the bugs and patterns. This report determines the next course of action and can impact future milestones. It allows stakeholders to make decisions to correct the direction if necessary.
-
-Use Azure DevOps to build dashboards that can help to report progress and quality of the testing.
-
-## Document the tests
-
-Documenting testing has two primary aspects, the test cases and tracking the outcome of the test.
-
-Having a model to document the outcome of a test case and test cycle allows the implementation team to validate the performance of the test cycle. Preparing to document and report the outcome highlights other challenges as well, though not necessarily ones connected to the test cases itself. These issues can be solution performance, connectivity issues, usability, continuity of the transaction, gaps in the product, and so on
-
-Other important benefits of documenting the outcome are that it tracks the progress of the testing and keeps the big picture in sight. It allows us to detect and build the backlog for new non-high-priority opportunities that are discovered during the testing. It can also trigger a change of the statement of work when the newly discovered requirements are critical.
-
-## The different roles involved in testing
-
-The type of testing being done determines the people involved. For example, performance testing types require more technical roles and consultants familiar with that type of testing. User acceptance testing types require business users.
-
-Testers can be developers, functional consultants, customer subject matter experts, quality assurance testers, or end users.
-
-It's important to plan for the resources required for building your solution and for the different types of tests that require special skills. Consider the volume of test cases involved and the business areas impacted so you have good representation of the business.
-
-Roles for testing are determined by who to involve in tests depending on the following variables:
-
-- Test preparation (system, data, test cases, training, and so on)
-
-- Test execution
-
-- Test administrator or manager
-
-- Test results triage
-
-- Test reporting
-
-- Test defect fixes
-
-The business team involvement during testing is critical, they own the solution and plan for enough time to allow for proper testing by the key business users. One common pattern of failure is poor involvement from this group of testers.
-
-## The bottom line on defining a test strategy
-
-Defining a test strategy for your implementation is a combination of considering the project scope, testing planning with a test plan and test cycle schedule in combination with the phases and solution versions availability, and selecting all the test types and how you execute them.
-
-Testing is iterative and incremental; it grows as you progress in the implementation and it's a permanent activity once you're live based on the regression testing technique you select.
-
-Always test under the umbrella of the processes. In the end, the processes are the language of the business and the testing is proof that the solution "can speak" that language.
+Always test your solution from the perspective of the business processes. The processes are the language of the business and the testing is the proof that your solution can speak that language.
 
 ## Next steps
 
-- [Test types](testing-strategy-test-types.md)  
-- [Run the implementation tests](testing-strategy-run-tests.md)  
+- Learn how to [run your tests and handle the outcomes](testing-strategy-run-tests.md)
+- Learn how to [test your solution after changes or updates](testing-regression-tooling.md)
+- Review the Success by Design [checklist](testing-strategy-checklist.md) of the key steps and tasks for your testing process
+- Read a [case study](testing-strategy-case-study.md) of how an organization implemented a testing strategy for its Dynamics 365 solution

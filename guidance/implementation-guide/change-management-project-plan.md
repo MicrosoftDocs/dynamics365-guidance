@@ -58,7 +58,10 @@ By aligning all parties around this review early in the project, you help ensure
 
 A key responsibility of the change manager in Dynamics 365 implementation projects is to highlight the value-add of the SBR. When this review has alignment across stakeholders, it can significantly reduce risk, speed up implementation, and improve adoption.
 
-:::image type="content" source="media/change-management-phase-implement.png" alt-text="Implement phase." :::
+* Initiate
+* **Implement**
+* Prepare
+* Operate
 
 The Implement phase is where the planning of activities is carried out into actual deliveries. The change management activities focus on the following tasks:
 

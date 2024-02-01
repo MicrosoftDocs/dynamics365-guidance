@@ -1,60 +1,63 @@
 ---
-title: Address performance issues
-description: Learn how to deal with performance issues in your Dynamics 365 solutions by analyzing root causes, identifying problematic customizations, and taking a risk-averse approach to optimization.
+title: Fix performance issues
+description: Learn how to analyze and resolve performance issues in your Dynamics 365 solutions by finding the root causes, testing your customizations, and making careful changes.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/19/2023
+ms.date: 01/29/2024
 ms.topic: conceptual
 ms.custom:
+  - ai-seo-date: 01/29/2024
   - ai-gen-docs-bap
+  - ai-gen-title
   - ai-gen-desc
-  - ai-seo-date:08/28/2023
-  - bap-template
+content_well_notification: AI-contribution
 ---
 
-# Address performance issues
+# Fix performance issues
 
-Analyzing and mitigating specific performance problems is beyond the scope of this guidance. However, some broad considerations might help you structure an approach to resolving issues.
+Performance issues can affect user satisfaction, productivity, and costs. To fix them, you need to understand what causes them and how to optimize your solution.
 
-## Root cause analysis
+In this article, you'll learn how to:
 
-When faced with a performance problem, implementation teams sometimes blame certain parts of the system or look for a magical quick fix. This approach often causes more problems than it solves. Teams might make significant changes based on instinct, which degrade performance further or cause regression bugs. It's crucial to understand the root cause of a performance issue in detail before making any changes. It's a time-consuming but necessary process to make sure any optimizations are meaningful. Ideally, the team understands the issue in enough detail to have a reasonably accurate expectation of the differences in performance prior to testing the change.
+- Find the root causes of performance issues
+- Test your customizations for performance issues
+- Make changes with caution
 
-### Expectations
+## Find the root causes of performance issues
 
-Performance issues rarely have a single cause. Suboptimal performance is commonly the result of many factors working together, so a single fix is unrealistic. Generally, mitigating a performance issue is an iterative process of applying incremental improvements.
+Don't jump to conclusions or look for quick fixes when you face a performance issue. Instead, take the time to investigate the issue in detail and find the root cause. This will help you avoid making changes that might make things worse or introduce new problems.
 
-Also, a performance issue in a Dynamics 365 solution doesn't necessarily imply a performance issue in the standard Dynamics 365 application or its underlying infrastructure. Microsoft support teams are available to help with performance issues. However, when a performance issue is isolated to a single environment, investigations typically start by examining anything unique in that environment, such as customizations, rather than the application code or infrastructure.
+To find the root cause of a performance issue, you should:
 
-### Knowledge
+- Set realistic expectations. Don't expect a single cause or a single fix. Performance issues often result from many factors working together. You might need to make several small improvements over time.
 
-Performance issues can be complex and difficult to resolve. It's vital that the implementation team has sufficient knowledge to ask the right questions and analyze issues meaningfully before the solution is deployed.
+- Use your knowledge. Performance issues can be complex and difficult to solve. You need to have enough knowledge of your solution and its components to ask the right questions and analyze the issue.
 
-Since issues can surface after go-live and expiration of any warranty period, it's crucial to transfer knowledge from the implementation team to "business as usual" teams to resolve performance issues.
+- Transfer your knowledge. Performance issues can happen after you deploy your solution or after your warranty period ends. You need to share your knowledge with other teams who will maintain or support your solution.
 
-### Problematic customizations
+## Test your customizations for performance issues
 
-To identify the source of a performance issue, we recommend that you first assess whether the issue occurs in a specific customization. Many Dynamics 365 customization options can be enabled and disabled. Strategically disabling customizations often helps identify whether the issue is related to a customization, and if so, which one is the source of the issue.
+One of the most common sources of performance issues is customization. To test whether a customization is causing a performance issue, you should:
 
-## Proceed with caution
+- Many customizations can be turned on or off. You can try turning off some customizations and see if the issue goes away or gets better. If it does, you can narrow down which customization is causing the issue.
 
-When you identify the root cause of an issue, it's important to take a risk-averse approach to optimization. Performance tweaks can involve complex code changes and have significant risk of regression issues, so it's crucial to proceed with caution.
+- Test one customization at a time. Don't test multiple customizations together. You might get mixed results and not know which customization is affecting performance. Test each customization separately and measure the effect on performance.
 
-### Cheap wins
+## Make changes with caution
 
-Identify smaller opportunities for performance gains rather than reworking large and complex areas of the system. In some situations, it might be advisable to make many low-risk tweaks. In others, it might be better to make a more complex change and manage the risk. Which approach to take depends entirely on the situation, but it's important that the team agrees on the approach and that the changes are managed carefully.
+When you find the root cause of a performance issue, you need to make some changes to optimize your solution. But you need to be careful not to introduce new issues or break something else.
 
-### One change at a time
+To make changes with caution, you should:
 
-Assess the impact of a change as soon as it's made. If multiple optimizations are made at the same time, it's impossible to understand the effect of each change after a performance test run. For example, if two changes are made, and one increases the performance by 10 percent and the other decreases it by 10 percent, the net result is no performance change. By testing the same changes individually, the team can use the performance test results to reject one change and accept the other one.
+- Look for cheap wins. Cheap wins are changes that are easy to make and have low risk of causing problems. They might not have a big impact on performance, but they can add up over time. For example, you might reduce the amount of data that you retrieve or display in your solution.
+
+- Make one change at a time. Don't make multiple changes at once. You might not know which change is improving or worsening performance. Make one change at a time and test the result before making another change.
+
+- Document your changes. Keep track of what changes you make and why. This will help you compare your results and undo any changes that don't work.
 
 ## Next steps
 
-- [Performance overview](performing-solution.md)  
-- [Prioritize performance](performing-solution-prioritize-performance.md)  
-- [Design for performance](performing-solution-design-for-performance.md)  
-- [Test for performance](performing-solution-performance-testing-approach.md)  
-- [Product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md)  
-- [FastTrack performance workshop](performing-solution-workshop-strategy.md)  
-- [Checklist: Performance focus](performing-solution-product-checklist.md)  
-- [Case study](performing-solution-product-case-study.md)  
+- Explore the [product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md) for different Microsoft products and services
+- Request a [FastTrack performance workshop](performing-solution-workshop-strategy.md) to get expert help and guidance on your solution performance
+- Use the [checklist: Performance focus](performing-solution-product-checklist.md) to review your solution design and implementation for performance considerations
+- Read the [case study](performing-solution-product-case-study.md) of how a customer improved their solution performance with FastTrack support

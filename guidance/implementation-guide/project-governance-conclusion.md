@@ -1,40 +1,58 @@
 ﻿---
-title: Project governance conclusions
+title: How to run a successful Dynamics 365 project
 description: Get the main points for how to run an implementation project with Dynamics 365 apps.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/27/2023
+ms.date: 01/23/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Project governance conclusion for Dynamics 365 implementation projects
+# How to run a successful Dynamics 365 project
 
-The primary intention at the start of this section was to provide an overview of the importance of good project governance and provide guidance on how to assess the effectiveness of your existing or proposed governance model.
+Project governance is the key to delivering a Dynamics 365 business application that meets your goals and expectations. In this article, we summarize the main points from the previous chapters of the implementation guide and show you how to assess and improve your project governance model.
 
-We then moved on to describe how many of the critical issues on a Dynamics 365 project that initially may manifest themselves as technical issues actually have their roots in failures of project governance. We also saw that the governance requirements for a Dynamics 365 business application need to address the fact that the project is essentially delivering the capability to perform business processes using the application. So, the governance model must include strategies and techniques that can help realize the project goals through the right engagement with business users and business processes.
+## What is project governance?
 
-We discussed how defining a project organization model that has an engaged leadership and facilitates rapid and accurate communication is more aware of the reality of the project. Similarly, project organizations that enable the right accountability, naturally encourage cross-collaboration, and reflect the complexity and effort of the project are much more likely to have good velocity and be successful.
+Project governance is more than a set of rules or procedures. It's a framework that guides all aspects of your project, from planning and execution to communication and collaboration. It helps you align your project with your business strategy, engage with stakeholders, manage risks, and measure progress.
 
-We also discussed how the approach is more than a technical methodology, and that the approach must be practical and tailored to the specific needs of a Dynamics 365 business application and to the customer's project and business needs and constraints.
+Project governance also helps you address the specific challenges and opportunities of a Dynamics 365 project. Unlike traditional software projects, a Dynamics 365 project involves delivering the capability to perform business processes using the application. That means you need to involve business users and processes in your governance model, as well as technical experts and tools.
 
-We showed that the mere presence of the usual governance structures doesn't assure project success. We can evaluate the effectiveness of the governance model in practical ways and with a focus on the specific needs of Dynamics 365 projects.
+## Why does project governance matter?
 
-We also brought awareness to how a governance perspective on the specific technical implementation strategies (such as test and build strategies) can help a Dynamics 365 project achieve better, faster results. We proposed that governance should be an organic part of the strategy. These strategies shouldn't be considered as being purely subject to technical oversight and control.
+Many of the critical issues on a Dynamics 365 project that seem like technical problems actually stem from failures of project governance. For example, if you don't have clear roles and responsibilities, effective communication channels, or realistic expectations, you might encounter delays, errors, conflicts, or dissatisfaction among your team or customers.
 
-Lastly, we discussed how a good project plan and planning process expose the outcomes of many these governance areas. Project planning shouldn't just be an overall status reporting tool, but be deliberately engineered to gain early and deep insights into the effectiveness of the different elements of the project work and allow rapid responses to the deficiencies.
+On the other hand, good project governance can help you achieve better results faster. It can help you:
 
-You can use the key objectives of good project governance to judge the overall suitability of a given governance model. Ideally, you should test a proposed governance model against these objectives during the Initiate phase of the project and throughout, but it's never too late.
+- Define a clear vision and scope for your project.
+- Establish an engaged leadership team that supports decision-making.
+- Create a flexible and agile approach that adapts to changing needs.
+- Foster cross-functional collaboration and feedback among stakeholders.
+- Implement best practices for testing, building, deploying, and managing your application.
 
-In summary, project governance for Dynamics 365 projects should be a framework that permeates all aspects of our projects, not just the typical areas that were historically or conventionally regarded as the domain of governance. Good project governance isn't a set of generalized bureaucratic or administrative procedures to follow, it's about creating a Dynamics 365-specific governance culture of driving the project to reliably and efficiently deliver the project goals.
+## How do you assess and improve your project governance model?
+
+You can use the Success by Design checklist to evaluate how well your current or proposed governance model meets these objectives. Ideally, you should do this during the **Initiate** phase of your project lifecycle and throughout the project stages. But it's never too late to make improvements.
+
+The checklist covers six areas of project governance:
+
+- Project organization
+- Project approach
+- Project plan
+- Test strategy
+- Build strategy
+- Deployment strategy
+
+For each area, you'll find questions that help you identify gaps or issues in your governance model. You'll also find recommendations on how to address them based on best practices for Dynamics 365 projects.
+
+You can use the checklist as a self-assessment tool or as a conversation starter with your team or customers. The goal is to create a shared understanding of what good project governance looks like for your specific situation.
 
 ## Next steps
 
-- [Project goals](project-governance-project-goals.md)  
-- [Project organization](project-governance-project-organization.md)  
-- [Project approach](project-governance-project-approach.md)  
-- [Classic structures](project-governance-classic-structures.md)  
-- [Key project areas](project-governance-key-project-areas.md)  
-- [Project plan](project-governance-project-plan.md)  
-- [Checklist: Project Governance](project-governance-checklist.md)  
-- [Case study](project-governance-case-study.md)  
-- [Project governance for Dynamics 365 implementation projects](project-governance.md)  
+- Use the Success by Design [checklist](project-governance-checklist.md) to assess and improve your project governance model and processes
+- Read a [case study](project-governance-case-study.md) of how a customer implemented Dynamics 365 with effective project governance

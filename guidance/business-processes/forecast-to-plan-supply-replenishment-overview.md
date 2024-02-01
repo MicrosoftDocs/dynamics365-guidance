@@ -137,4 +137,4 @@ Other contributors:
 - [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | FastTrack Solution Architect
 - [Rich Black](https://www.linkedin.com/in/blackrich) | FastTrack Solution Architect
 - Lalitha Chintamaneni | FastTrack Solution Architect
-- [Harshad Puthran](https://www.linkedin.com/in/harshman777/) | FastTrack Solution Architect
+- Harshad Puthran | FastTrack Solution Architect

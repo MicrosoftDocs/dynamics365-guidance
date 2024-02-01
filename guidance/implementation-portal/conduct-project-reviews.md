@@ -1,5 +1,5 @@
 ﻿---
-title: Conduct project reviews
+title: Conduct project reviews for your Dynamics 365 implementation projects
 description: Learn how to conduct project reviews in Dynamics 365 Implementation Portal.
 ms.date: 07/05/2023
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.reviewer: edupont
 ms.custom: bap-template
 ---
 
-# Conduct project reviews
+# Conduct project reviews for your Dynamics 365 implementation projects
 
 After your project is set up, you can conduct project reviews. The final project review is the FastTrack team's go-live readiness review.  
 

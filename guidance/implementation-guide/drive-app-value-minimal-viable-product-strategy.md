@@ -1,5 +1,5 @@
 ﻿---
-title: Use the minimal viable product strategy
+title: Drive feedback and iterations with a minimal viable product strategy
 description: Learn how to use the minimal viable product (MVP) strategy to build, measure, and learn from your app quickly and efficiently.
 author: taksatoms
 ms.author: tsato
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Use the minimal viable product strategy
+# Drive feedback and iterations with a minimal viable product strategy
 
 You want to transform your business process with digital technologies. But you don't want to spend a lot of time and money on building and testing your app. You want to get feedback and results as soon as possible. You want to be able to adapt and change your app based on your learning and needs.
 

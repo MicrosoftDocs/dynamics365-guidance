@@ -9,7 +9,7 @@ ms.date: 11/02/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
-# What are the TechTalk videos?
+# What are the Dynamics 365 TechTalk videos?
 
 FastTrack TechTalks focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas. This article describes the purpose of Dynamics 365 TechTalks and how to subscribe to notifications about upcoming TechTalks, find past TechTalks including recordings and other artifacts.
 

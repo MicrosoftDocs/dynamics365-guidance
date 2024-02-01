@@ -9,7 +9,7 @@ ms.reviewer: edupont
 author: ReneeW-CPub
 ---
 
-# Frequently asked questions 
+# Dynamics 365 FastTrack frequently asked questions
 
 This article answers commonly asked questions about Dynamics 365 FastTrack. 
   

@@ -1,5 +1,5 @@
 ---
-title: Manage project goals and readiness
+title: Manage project goals and readiness for change managers
 description: Read about the change manager's tasks for managing goals and readiness during a Dynamics 365 implementation project. 
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/14/2023
 ms.topic: conceptual
 ---
 
-# Manage project goals and readiness
+# Analyze alignment of organization goals through managing project goals and readiness
 
 Change managers must do an analysis of alignment with the organization's overall goals. We recommend that you do the analysis in a way that is proportional to the complexity of the project and the level of transformation in it.
 
@@ -55,7 +55,11 @@ Here are some examples of change readiness challenges *outside* the organization
 - Expectations for vendor-managed inventory and vendor self-service scenarios
 - The move from check to electronic funds transfer (EFT) payment types
 
-:::image type="content" source="media/change-management-quantitative-overview.png" alt-text="Quantitative overview." :::
+| Challenge | User Group / Area | Risk 1-5 | Mitigation Plan |
+|-----------|-------------------|----------|-----------------|
+| Adoption of new processes | Inbound Dock | 5 | Incentives, Training, Ramp approach |
+| New Pricing Structure | B2B Customers | 3 | Communication Plan, Pilot with Group Z |
+| Vendor Managed inventory | Strategic Suppliers | 2 | Early and transparent communication |
 
 The outcome of the assessments should be a quantitative overview of risk, and an assessment of this risk in terms of likely objections, concerns, obstacles, and so on. For example, a table like the one in the preceding illustration can give you an objective representation of the level of risk.
 

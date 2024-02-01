@@ -1,5 +1,5 @@
 ---
-title: What are patterns in Dynamics 365 solutions?
+title: Patterns in various scenarios in Dynamics 365 solutions
 description: Get an overview of implementation patterns, business process patterns, and other design patterns that we have identified for solutions with Dynamics 365 apps.
 author: edupont04
 ms.author: edupont

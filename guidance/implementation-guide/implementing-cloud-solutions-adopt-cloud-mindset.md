@@ -1,6 +1,6 @@
 ﻿---
-title: Adopt a cloud mindset
-description: Learn how to adopt a cloud mindset to transform your business processes, culture, and technology with Dynamics 365.
+title: Adopt a cloud mindset as part of the migration to Dynamics 365 online
+description: Find guidance on how to adopt a cloud mindset across an organization. The business value is a key driver in Dynamics 365 implementation projects.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/10/2024
@@ -13,7 +13,7 @@ ms.custom:
 content_well_notification: AI-contribution
 ---
 
-# Adopt a cloud mindset
+# Adopt a cloud mindset as part of the migration to Dynamics 365 online
 
 To succeed in your digital transformation journey, you need to embrace change as a constant. Change affects your processes, people, culture, and leadership. You also need to adopt a cloud mindset, which means thinking differently about how you design, develop, secure, and manage your applications in the cloud.
 

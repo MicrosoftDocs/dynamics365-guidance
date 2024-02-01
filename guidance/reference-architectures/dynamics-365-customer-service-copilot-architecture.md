@@ -10,7 +10,7 @@ ms.date: 12/18/2023
 ms.collection:
 ---
 
-# Copilot in Customer Service architecture
+# Copilot in Dynamics 365 Customer Service architecture
 
 The following architecture diagram provides a visual representation of how Microsoft Copilot for Customer Service works. This solution is a generalized architecture pattern, which can be used for many different scenarios and industries.  
 

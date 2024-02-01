@@ -1,5 +1,5 @@
 ---
-title: Manage the project organization
+title: Manage project organization in the governance aspect of implementation projects
 description: Read about the change manager's tasks for managing the project organization during a Dynamics 365 implementation project. 
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/19/2023
 ms.topic: conceptual
 ---
 
-# Manage the project organization
+# Manage project organization in the governance aspect of implementation projects
 
 In the article [Project governance](project-governance.md), we discuss in detail how we can approach the governance aspects of the implementation project. For change managers, there are a few other actionable items that are important in Dynamics 365 implementation projects. In this article, we go through those actionable items.
 

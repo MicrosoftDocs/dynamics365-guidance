@@ -1,5 +1,5 @@
 ---
-title: Change management overview
+title: Apply change management with effectivity and success
 description: Find guidance about how change management is a fundamental part of the toolbox and mindset for Dynamics 365 implementations, just like process focus and Application Lifecycle Management (ALM). 
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/20/2023
 ms.topic: conceptual
 ---
 
-# Change management overview
+# Understand and apply the change management discipline effectively and successfully
 
 Change management is a fundamental part of our toolbox and mindset for Dynamics 365 implementation projects, just like process focus and Application Lifecycle Management (ALM). However, we believe that change management should be applied with a sense of proportionality to the risk and complexity. Apply it in a way that is tailored both to the individual organizational reality and to the specific changes that derive from business application implementation projects.
 
@@ -55,7 +55,10 @@ In the articles in this section, we go through actionable items that help manage
 
 Through examples and clear guidance, we cover what implementation teams can do throughout the project to ensure a fast implementation, a smooth transition, great adoption, and outcomes that are in line with expectations.
 
-:::image type="content" source="media/change-management-phase-initiate.png" alt-text="Initiate phase." :::
+* **Initiate**
+* Implement
+* Prepare
+* Operate
 
 > [!NOTE]
 > In these actionable items, we refer to the person or people who are responsible for change management as the *change manager*.

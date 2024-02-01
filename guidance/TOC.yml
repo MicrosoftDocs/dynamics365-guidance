@@ -52,7 +52,7 @@ items:
 #          - name: Integrate with other solutions
 #            href: implementation-guide/integrate-other-solutions.md
 #          - name: A performing solution, beyond infrastructure
-#            href: implementation-guide/performing-solution.md 
+#            href: implementation-guide/performing-solution.md
 # Success by Design phases
         - name: Strategize
           items:
@@ -140,12 +140,12 @@ items:
             - name: Process-focused solution overview
               href: implementation-guide/process-focused-solution.md
             - name: Opportunity for optimization
-              href: implementation-guide/process-focused-solution-opportunity-optimization.md  
+              href: implementation-guide/process-focused-solution-opportunity-optimization.md
             - name: Process-centric implementation lifecycle
               href: implementation-guide/process-focused-solution-implementation-lifecycle.md
             - name: Considerations
               href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-            - name: Fit-to-standard and Fit-gap analysis 
+            - name: Fit-to-standard and Fit-gap analysis
               href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
             - name: Define your requirements
               href: implementation-guide/process-focused-solution-define-requirements.md
@@ -156,7 +156,7 @@ items:
           - name: Environment strategy
             items:
             - name: Environment strategy overview
-              href: implementation-guide/environment-strategy-overview.md  
+              href: implementation-guide/environment-strategy-overview.md
             - name: Tenant strategy
               href: implementation-guide/environment-strategy-tenant-strategy.md
             - name: Key factors affected by an environment strategy
@@ -175,10 +175,10 @@ items:
             items:
               - name: Introduction to project governance
                 href: implementation-guide/project-governance.md
-              - name: Project goals 
+              - name: Project goals
                 href: implementation-guide/project-governance-project-goals.md
               - name: Project organization
-                href: implementation-guide/project-governance-project-organization.md             
+                href: implementation-guide/project-governance-project-organization.md
               - name: Project approach
                 href: implementation-guide/project-governance-project-approach.md
               - name: Classic structures
@@ -188,7 +188,7 @@ items:
               - name: Project plan
                 href: implementation-guide/project-governance-project-plan.md
               - name: Conclusion
-                href: implementation-guide/project-governance-conclusion.md            
+                href: implementation-guide/project-governance-conclusion.md
               - name: Checklist
                 href: implementation-guide/project-governance-checklist.md
               - name: Case study
@@ -242,7 +242,7 @@ items:
           - name: A performing solution, beyond infrastructure
             items:
             - name: Performance overview
-              href: implementation-guide/performing-solution.md 
+              href: implementation-guide/performing-solution.md
             - name: Prioritize for performance
               href: implementation-guide/performing-solution-prioritize-performance.md
             - name: Design for performance
@@ -260,7 +260,7 @@ items:
             - name: Case study
               href: implementation-guide/performing-solution-product-case-study.md
           - name: Extend your solution
-            items: 
+            items:
             - name: Extend your solution - overview
               href: implementation-guide/extend-your-solution.md
             - name: Scenarios for extending Dynamics 365
@@ -303,12 +303,12 @@ items:
               href: implementation-guide/testing-strategy-planning.md
             - name: Run the tests
               href: implementation-guide/testing-strategy-run-tests.md
+            - name: Regression testing
+              href: implementation-guide/testing-regression-tooling.md
             - name: Checklist
               href: implementation-guide/testing-strategy-checklist.md
             - name: Case study
               href: implementation-guide/testing-strategy-case-study.md
-            - name: Regression testing
-              href: implementation-guide/testing-regression-tooling.md
 #            - name: Best practice - use Azure DevOps to track test cases and results
 #              href: fasttrack/get-started-overview.md
         - name: Prepare
@@ -321,10 +321,6 @@ items:
                 href: implementation-guide/prepare-go-live-production-environment-readiness.md
               - name: Cutover strategy
                 href: implementation-guide/prepare-go-live-cutover-strategy.md
-              - name: Customer engagement apps
-                href: implementation-guide/prepare-go-live-dynamics-365-customer-engagement.md
-              - name: Finance and operations apps
-                href: implementation-guide/prepare-go-live-finance-and-operations-apps.md
               - name: Go-live checklist
                 href: implementation-guide/prepare-go-live-checklist.md
               - name: Case study
@@ -334,13 +330,13 @@ items:
               - name: Introduction to the training strategy
                 href: implementation-guide/training-strategy.md
               - name: Create a training plan
-                href: implementation-guide/training-strategy-training-plan-scope-and-audience.md  
+                href: implementation-guide/training-strategy-training-plan-scope-and-audience.md
               - name: Define the training schedule
-                href: implementation-guide/training-strategy-training-plan-schedule-and-materials.md 
+                href: implementation-guide/training-strategy-training-plan-schedule-and-materials.md
               - name: Delivery approach for training
-                href: implementation-guide/training-strategy-training-plan-delivery-approach.md 
-              - name: Training process and best practices 
-                href: implementation-guide/training-strategy-process-and-best-practices.md 
+                href: implementation-guide/training-strategy-training-plan-delivery-approach.md
+              - name: Training process and best practices
+                href: implementation-guide/training-strategy-process-and-best-practices.md
               - name: Checklist
                 href: implementation-guide/training-strategy-checklist.md
               - name: Case study
@@ -411,6 +407,8 @@ items:
             href: implementation-portal/onboard-project.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
+          - name: Project profiling
+            href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
 # 14733
@@ -422,7 +420,7 @@ items:
           - name: Develop solutions
             items:
             - name: Solution component validation tool
-              href: resources/solution-component-validator.md            
+              href: resources/solution-component-validator.md
 # test tools
           - name: Test the implementation
             items:
@@ -565,7 +563,7 @@ items:
           - name: Case study
             href: implementation-guide/application-lifecycle-management-case-study.md
         - name: Service the solution
-          href: implementation-guide/service-solution.md      
+          href: implementation-guide/service-solution.md
 # Compliance
       - name: Security and compliance
         items:
@@ -573,7 +571,7 @@ items:
             href: implementation-guide/security.md
           - name: Security controls
             href: implementation-guide/security-strategy-security-controls.md
-          - name: Security in the customer engagement apps 
+          - name: Security in the customer engagement apps
             href: implementation-guide/security-strategy-product-ce.md
           - name: Security in Power Pages
             href: implementation-guide/security-strategy-product-portals.md
@@ -600,7 +598,7 @@ items:
         - name: Import the catalog
           href: business-processes/about-import-catalog-devops.md
         - name: Acquire to dispose
-          items: 
+          items:
           - name: End-to-end scenario - acquire to dispose
             href: business-processes/acquire-to-dispose-introduction.md
           - name: Overview
@@ -636,7 +634,7 @@ items:
           - name: Business process areas
             href: business-processes/concept-to-market-areas.md
           - name: Define service offerings and strategy
-            href: business-processes/concept-to-market-define-service-offerings-strategy-overview.md  
+            href: business-processes/concept-to-market-define-service-offerings-strategy-overview.md
           - name: Introduce new services
             href: business-processes/concept-to-market-introduce-new-services.md
           - name: Define service costing
@@ -680,7 +678,7 @@ items:
           - name: Plan supply and replenishment
             href: business-processes/forecast-to-plan-supply-replenishment-overview.md
         - name: Hire to retire
-          items: 
+          items:
           - name: End-to-end scenario - hire to retire
             href: business-processes/hire-to-retire-introduction.md
           - name: Overview
@@ -710,7 +708,7 @@ items:
           - name: End-to-end scenario - order to cash
             href: business-processes/order-to-cash-introduction.md
           - name: Overview
-            href: business-processes/order-to-cash-overview.md  
+            href: business-processes/order-to-cash-overview.md
           - name: Business process areas
             href: business-processes/order-to-cash-areas-overview.md
           - name: Invoice customers
@@ -720,7 +718,7 @@ items:
             - name: Monitor customer credit and collections overview
               href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
             - name: Set customer credit limits
-              href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md 
+              href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md
             - name: Pattern - Manually set customer credit limits
               href: business-processes/pattern-manually-set-check-customer-credit-limits.md
             - name: Pattern - Set customer credit limits for a group of customers
@@ -760,13 +758,13 @@ items:
           - name: Control production quality
             href: business-processes/plan-to-produce-control-production-quality-overview.md
           - name: Track production cost
-            href: business-processes/plan-to-produce-track-production-costs-overview.md  
+            href: business-processes/plan-to-produce-track-production-costs-overview.md
         - name: Procure to pay
           items:
           - name: End-to-end scenario - procure to pay
             href: business-processes/procure-to-pay-introduction.md
           - name: Overview
-            href: business-processes/procure-to-pay-overview.md  
+            href: business-processes/procure-to-pay-overview.md
           - name: Business process areas
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
@@ -788,7 +786,7 @@ items:
           - name: End-to-end scenario - project to profit
             href: business-processes/project-to-profit-introduction.md
           - name: Overview
-            href: business-processes/project-to-profit-overview.md  
+            href: business-processes/project-to-profit-overview.md
           - name: Business process areas
             href: business-processes/project-to-profit-areas.md
           - name: Govern projects
@@ -816,11 +814,11 @@ items:
           # - name: Recognize project revenue
           #   href: business-processes/project-to-profit-recognize-project-revenue.md
         - name: Prospect to quote
-          items: 
+          items:
           - name: End-to-end scenario - prospect to quote
             href: business-processes/prospect-to-quote-introduction.md
           - name: Overview
-            href: business-processes/prospect-to-quote-overview.md  
+            href: business-processes/prospect-to-quote-overview.md
           - name: Business process areas
             href: business-processes/prospect-to-quote-areas.md
           - name: Manage project opportunities
@@ -888,7 +886,7 @@ items:
 
 
 # Reference architectures
-      - name: Reference architectures 
+      - name: Reference architectures
         href: reference-architectures/index.yml
         items:
         - name: Copilot in Customer Service architecture

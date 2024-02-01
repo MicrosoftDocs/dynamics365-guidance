@@ -1,5 +1,5 @@
 ---
-title: Manage progress, obstacles, and planning
+title: Manage progress, obstacles, and planning during the implement phase
 description: Read about the change manager's tasks for managing progress and obstacles during the implementation phase of a Dynamics 365 implementation project. 
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/19/2023
 ms.topic: conceptual
 ---
 
-# Manage progress, obstacles, and planning
+# Manage progress, obstacles, and planning during the implement phase
 
 It's during the Implement phase that the implementation team and the planning are first put to the test. From a change management perspective, in addition to managing expectations, we should quantify how the sentiment of our stakeholders develops.
 
@@ -41,7 +41,10 @@ The change manager should also ensure that the high-risk process and user group 
 
 Finally, it's important for the change manager to ensure that all affected user groups receive the necessary training. These user groups include external resources or business partners that might interact with the system, such as users of customer or vendor self-service portals.
 
-:::image type="content" source="media/change-management-phase-prepare.png" alt-text="Prepare phase." :::
+* Initiate
+* Implement
+* **Prepare**
+* Operate
 
 The Prepare phase is a critical phase for the project. For the change manager, it's a busy time, because we are performing many activities that we planned for during the previous phases.
 

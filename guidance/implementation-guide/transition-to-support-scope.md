@@ -1,89 +1,95 @@
 ﻿---
-title: Transition to support - support scope
-description: This article is illustrates the importance of defining the support scope and the different aspects involved in a support model in Dynamics 365 implementation projects.
+title: Define the support scope
+description: Learn how to plan the support model for your Dynamics 365 solution.
 author: taksatoms
 ms.author: tsato
-ms.date: 03/30/2023
+ms.date: 01/31/2024
 ms.topic: conceptual
+ms.custom:
+ - ai-seo-date: 01/31/2024
+ - ai-gen-docs-bap
+ - ai-gen-title
+ - ai-gen-desc
+content_well_notification: AI-contribution
 ---
 
-# Support scope
+# Define the support scope
 
-Support scope activities should be started in the Initiate phase. It may be tempting to defer defining the scope until much later in the project because it's not seen as urgent compared to getting the project off the ground and creating the system solution. However, as this article discusses, early attention to this topic enables the support team to become engaged in the project from an early stage, which pays dividends during the project lifecycle.
+The support scope is what you support, who supports it, when they support it, and how they support it. You should start defining the support scope in the **Initiate** phase of your project. You might be tempted to delay this task until later because it seems less urgent than getting the project started and creating the system solution. But as this article explains, defining the support scope early helps you engage the support team in the project from the beginning. This pays off during the project lifecycle.
 
 ## Enterprise architecture
 
-In most organizations, the Dynamics 365 system is embedded within the wider enterprise system landscape. The Dynamics 365 application has connections to multiple systems and to underlying and coexisting technologies. When considering the strategy for defining the support model, the focus is often solely on the Dynamics 365 application architecture. It's worth accounting for the changes, constraints, procedures, and influences from the surrounding architecture on the Dynamics 365 applications, and vice versa; how will the enterprise architecture and environment be impacted by installing and operating the Dynamics 365 application?
+Your Dynamics 365 system is part of a larger enterprise system landscape. It connects to multiple systems and technologies. When you design your support model, don't focus only on the Dynamics 365 application architecture. Think about how the surrounding architecture affects the Dynamics 365 applications, and how they affect it. For example, how will installing and running the Dynamics 365 application affect the enterprise architecture and environment?
 
-Firstly, from the enterprise system architecture documents, confirm that you have identified all the various systems, software, and data that interact with Dynamics 365 applications. You should make a distinction between new systems being introduced into the enterprise architecture and those that may be influenced by the new systems.
+First, use the enterprise system architecture documents to identify all the systems, software, and data that interact with Dynamics 365 applications. Make a distinction between new systems that you're introducing into the enterprise architecture and those that might be affected by them.
 
-During the project, the new Dynamics 365 system will probably be implemented within a special sandbox (test environment) and not necessarily be subject to all the influences and rules that the production system is subject to. This also applies to the third-party test systems that are part of the middleware or integrations. For example, production environments have more limited access to the Dynamics SQL database, and the process by which custom code is promoted to production or how the Microsoft system updates are applied isn't the same. You should specifically examine the implications of the production system environment on support operations and not rely solely on the experiences of the test environment.
+During the project, you'll probably implement the new Dynamics 365 system in a special sandbox or test environment. This environment might not have all the influences and rules that apply to the production system. This also applies to partner test systems that are part of integrations. For example, production environments have more limited access to the Dynamics SQL database, and you don't apply custom code or Microsoft system updates in the same way. You should examine how the production system environment affects support operations. Don't rely only on what you learn from the test environment.
 
-Identify the specific, new, or changed support requirements impacted by the following:
+Identify any new or changed support requirements that are affected by these areas:
 
-- Enterprise-level architecture configurations in areas such as Microsoft Azure, operating systems, any existing Microsoft 365 tenants, Azure storage, and Azure Active Directory
+- Enterprise-level architecture configurations such as Microsoft Azure, operating systems, Microsoft 365 tenants, and Microsoft Entra ID
 
-- Dynamics 365 Azure environments managed by Microsoft (for example, the Dynamics 365 production environment)
+- Dynamics 365 Azure environments that are managed by Microsoft, such as production
 
-- Identity and access management systems, such as operating systems, browsers, mobile devices, and firewall configurations
+- Identity and access management systems such as operating systems, browsers, mobile devices, and firewall configurations
 
-- If this is the first significant cloud, software as a service (SaaS) system in the enterprise, the related system architecture, and servicing needs
+- If this is your first major cloud or software as a service (SaaS) system in the enterprise, the related system architecture and servicing needs
 
-- Systems to which the Dynamics 365 application interfaces directly
+- Systems that connect directly to Dynamics 365 applications
 
-- Middleware systems to which the Dynamics 365 application may connect
+- Middleware systems that Dynamics 365 applications might connect to
 
-- Any systems that will be decommissioned but have residual tasks that may need to be reabsorbed elsewhere by the support team
+- Any systems that you'll decommission but that have leftover tasks that the support team might need to take over
 
-- Any document management systems such as Microsoft SharePoint or third-party systems
+- Any document management systems such as Microsoft SharePoint or non-Microsoft systems
 
-- Any code configuration management systems such as Azure DevOps or third-party systems
+- Any code configuration management systems such as Azure DevOps or non-Microsoft systems
 
-- Reporting systems to which the Dynamics 365 application interfaces, including Azure Data Lake or data warehouse
+- Reporting systems that connect to Dynamics 365 applications, including Azure Data Lake or data warehouse
 
-The impact of, and on, the surrounding architecture can be difficult for the customer project team working on the Dynamics 365 business application to fully identify. In almost all cases, you need the enterprise architects from IT and the business to be involved in identifying the changes. Some changes may also impact the roles of individuals formally part of a support organization and those in peripheral organizations.
+The impact of and on the surrounding architecture can be hard for the customer project team working on the Dynamics 365 business application to fully identify. In most cases, you need the enterprise architects from IT and the business to help you identify the changes. Some changes might also affect the roles of people who are part of a support organization or other organizations.
 
 ## Business and IT policies
 
-All organizations need to think about how new systems will operate within the wider organization's policies and standards. When Dynamics 365 is introduced into the enterprise, it needs to follow the applicable policies already in place and may require new operating policies. In either case, you need to review the existing policies and standards to determine which policies to add, which to review and revise, and which to apply to the support model.
+All organizations need to think about how new systems will work within their policies and standards. When you introduce Dynamics 365 into your enterprise, it needs to follow existing policies and standards that apply, and you might need some new policies for it. In either case, you need to review the existing policies and standards to decide which ones to add, change, or apply to your support model.
 
-:::image type="content" source="media/transition-to-support-scope.png" alt-text="Support policies" :::
+:::image type="content" source="media/transition-to-support-scope.png" alt-text="Diagram of support policies and standards hierarchy, showing group and company policies, Dynamics 365 app policies, and Dynamics 365 security and access policies.":::
 
-In many cases, the policies apply not only to the creation of the support model and its scope of responsibility, but also to how it operates as an organization and how it addresses the lifecycle of a support request.
+In many cases, the policies apply not only to creating the support model and its scope of responsibility, but also to how it works as an organization and how it handles the lifecycle of a support request.
 
 ### Group and company policies and standards
 
-When evaluating group-level policies or standards, you may have to review the impact of business policies and procedures on various levels:
+When you evaluate group-level policies or standards, you might have to consider how business policies and procedures affect different levels:
 
-- **Contracting with and managing third-party vendors** The support model needs to include some type of contract with technology partners and with Microsoft
+- **Contracting with and managing partner vendors**: Your support model needs some kind of contract with technology partners and Microsoft.
 
-- **Operating hours** Current and future operating hours for the business can directly impact the working hours for support
+- **Operating hours**: Your current and future operating hours can affect when you need support.
 
-- **Financial period end and seasonal deadlines** This may impact the level of service expected at times when the business has critical business activities
+- **Financial period end and seasonal deadlines**: You might need a higher level of service at times when you have critical business activities.
 
-- **IT policies on change control on enterprise IT assets** This may impact the access and approval chain for changes required for the Dynamics 365 application troubleshooting or servicing (for example, creating new Azure virtual machines, copying databases between environments, and building IP allowlists)
+- **IT policies on change control on enterprise IT assets**: These policies might affect how you access and approve changes for troubleshooting or servicing Dynamics 365 applications, such as creating new Azure virtual machines, copying databases between environments, or building IP allowlists.
 
-The overall support model on Dynamics 365 business applications operates across many of the company's business processes and is therefore shaped by the relevant business policies.
+Your overall support model for Dynamics 365 business applications covers many of your business processes, so it's shaped by the relevant business policies.
 
-### Dynamics 365 application-level policies
+### Dynamics 365 app-level policies
 
-Some policies are managed in the system by the business administrators, and some may be delegated to the support team. Even if the administration of a policy is the responsibility of the business leads, the monitoring and auditing of the business process is often the support team's responsibility.
+Some policies are managed in the system by the business administrators. Some might be delegated to the support team. Even if the business leads are responsible for administering a policy, the support team might need to help with monitoring or compliance.
 
-You could set up some of these policies within the Dynamics 365 application, such as new vendor approval policies, customer credit limits, purchase order approval thresholds, and travel and expense policies. The support team may need to help provide information on compliance or enforce compliance as part of their duties.
+You can set up some of these policies within Dynamics 365 applications, such as new vendor approval policies, customer credit limits, purchase order approval thresholds, and travel and expense policies. The support team might need to help enforce these policies or monitor compliance.
 
 ### Dynamics 365 application-level security and access management
 
-Administration and review of application-level security is usually an area of responsibility of the support team. The support team needs to prepare by gaining an understanding of the Dynamics 365 role-based application security model and the related access policies.
+The support team is usually responsible for administering and reviewing application-level security. The support team needs to understand the Dynamics 365 role-based application security model and the related access policies.
 
-### Group and company-level security and access management
+### Group- and company-level security and access management
 
-In addition to the security and access policies and procedures that you need to define for Dynamics 365 applications, you may have to consider enterprise-level security policies that intersect with the application-level security requirements.
+In addition to the security and access policies and procedures that you need for Dynamics 365 applications, you might have to consider enterprise-level security policies that intersect with the application-level security requirements.
 
-In larger organizations, enterprise-level security and access management may be handled by a separate IT organization or a separate IT team. Some of the support team members will need elevated access not just at the application level, but possibly for other systems within the enterprise.
+In larger organizations, a separate IT organization or team might handle enterprise-level security and access management. Some of the support team members will need higher access not only at the application level, but also for other systems in the enterprise.
 
-The Dynamics 365 support team needs to work with these other enterprise IT and business teams to define the rules and procedures for managing some of the security topics that may impact Dynamics 365 applications:
+The Dynamics 365 support team needs to work with these other IT and business teams to define the rules and procedures for managing some of the security topics that might affect Dynamics 365 applications:
 
-- Azure Active Directory groups and identities
+- Microsoft Entra ID groups and identities
 
 - Single sign-on (SSO)
 
@@ -91,226 +97,200 @@ The Dynamics 365 support team needs to work with these other enterprise IT and b
 
 - Mobile device authentication and management
 
-- Authentication and management for custom applications working on Microsoft Dataverse (such as Power Platform apps), which requires an understanding of [Dataverse security concepts](/power-platform/admin/wp-security-cds)
+- Authentication and management for custom applications working on Microsoft Dataverse, such as Power Platform apps, which requires an understanding of [Dataverse security concepts](/power-platform/admin/wp-security-cds)
 
-- Application access for third parties (such as vendors and customers)
+- Application access for third parties such as vendors and customers
 
-- Application access for third-party partner support organizations (such as technology partners and Microsoft)
+- Application access for partner support organizations such as technology partners and Microsoft
 
 - Service account and administrator account use and management
 
 - Password renewals and security certificate rotations
 
-- Secure and encrypted communications within the enterprise and outside the enterprise (such as those involved with integrations with internal systems, or with external web services or banking systems)
+- Secure and encrypted communications within and outside the enterprise, such as those involved with integrations with internal systems or external web services or banking systems
 
-The [Microsoft Trust Center](https://www.microsoft.com/trust-center) can help your organization consider [overall security](https://www.microsoft.com/security) and [managing compliance](https://www.microsoft.com/trust-center/compliance/compliance-overview) in the cloud. Learn more at [Security Strategy](security.md).
+The [Microsoft Trust Center](https://www.microsoft.com/trust-center) can help your organization consider [overall security](https://www.microsoft.com/security) and [managing compliance](https://www.microsoft.com/trust-center/compliance/compliance-overview) in the cloud. [Learn more about security strategy](security.md).
 
 ### Data classification and retention
 
-Consider how the organization's data classification and retention policies reflect on and need to be expanded to include the new Dynamics 365 application:
+Think about how your data classification and retention policies apply to or need to include the new Dynamics 365 application:
 
-- How is the support team expected to enable and enforce these policies?
+- How will the support team enable and enforce these policies?
 
-- What is the impact on the backup, restore, and archive process?
+- How will they affect backup, restore, and archive processes?
 
-- What is the impact on creating and managing database copies?
+- How will they affect creating and managing database copies?
 
-- Do any data classification properties flow between systems, or do they need to be recreated or audited by the support team?
+- Do any data classification properties flow between systems? Or do they need to be recreated or audited by the support team?
 
 ### Regulatory compliance and policies
 
-In addition to any data retention policies, the organization's businesses may be subject to national and supranational regulations. Some may impact business processes that are expected to be assisted by the support team (such as e-invoicing and digital tax).
+Besides any data retention policies, your business might be subject to national or international regulations. Some might affect business processes that the support team needs to help with, such as e-invoicing or digital tax. The support team might need to help monitor or audit other regulations regularly or occasionally.
 
-The support team may be expected to support, monitor, and audit other regulations on a regular or ad-hoc basis, such as General Data Protection Regulation (GDPR) or Health Insurance Portability and Accountability Act (HIPAA).
+All these different areas of business and IT policies shape the nature, size, and scope of your support organization. Examining these factors early will help your team be effective from the start.
 
-All of these different areas of business and IT policies shape the nature, size, and scope of the support organization. Early examination of these factors will help the team be effective from the start.
+## Dynamics 365-specific topics
 
-## Dynamics 365-specific considerations
-
-In this section, we examine some topics specific to Dynamics 365 business applications that we should consider when designing the support model. These can be broadly grouped by operational and maintenance topics and business process topics.
+In this section, we look at some topics specific to Dynamics 365 business applications that you should consider when you design your support model. You can group these topics broadly by operational and maintenance topics and business process topics.
 
 ### Operational and maintenance topics
 
-We can further divide operational and maintenance areas into the management and support of the following:
+You can divide operational and maintenance areas into managing and supporting these areas:
 
 - Dynamics 365 environments
-
 - Integrations
-
 - System and data maintenance
-
 - Performance
 
 ### Dynamics 365 environments
 
-When Dynamics 365 is in production, various aspects involved in supporting the system environments need to be factored into the support model preparation:
+When Dynamics 365 is in production, you need to consider various aspects of supporting the system environments when you define your support scope. These include:
 
-- Maintenance and operational tasks (both scheduled and ad hoc) such as environment data refresh, database movements between environments, configuration moves, and code promotion
+- Maintenance and operational tasks (both scheduled and unplanned), such as refreshing environment data, moving databases between environments, moving configurations, and promoting code
 
 - Support organization roles and resources needed
 
 - Skills required to support the environments
 
-- Resulting budget impact
+- Budget impact
 
-Typically, you need to apply these tasks and considerations for the following environments:
+You typically need to do these tasks and consider these factors for these environments:
 
 - Dynamics 365 application support environments, which are recent copies of the production system
 
 - Test environment for testing the next versions of the application software
 
+- Test environments for integrated systems
+
 - Development environments
 
 - Any related data migration, training, or integration environments
 
-- Test environments for integrated systems
-
-This is not an exhaustive list of environments, but should help prompt the right discussions related to supporting the environments. Learn more at [Environment strategy](environment-strategy-overview.md).  
+This isn't a complete list of environments, but it should help you think about how to support them. [Learn more about environment strategies](environment-strategy-overview.md).
 
 ### Integrations
 
-In addition to defining the environments required for supported operations, it's worth delving a little deeper into the support requirements specific to managing integrations. When defining the support requirements for all the integrations, consider what areas are in scope for the support organization:
+Besides defining the environments that you need for supported operations, it's worth looking deeper into the support requirements that are specific to managing integrations. When you define the support requirements for all the integrations, consider what areas are in scope for the support organization:
 
-- Data management at either ends of the integration
-
+- Data management at both ends of the integration
 - Security of the integration services
-
 - Performance of the integration
-
 - Auditing or monitoring of the integration
-
 - General troubleshooting analysis and stopping and starting of integration services
 
-The level of skill and effort required to manage integrations depends on their complexity, criticality, and robustness. Designs of custom integrations that are tolerant of variations of data distribution and variations in volumes, are resilient to errors, and have automated self-healing mechanisms will require less support.
+The level of skill and effort that's required to manage integrations depends on their complexity, criticality, and robustness. Designs of custom integrations that can handle variations in data distribution and volume, that are resilient to errors, and that have self-healing mechanisms need less support.
 
 ### System maintenance requirements
 
-As part of the definition of the system, the definition of maintainability requirements is an area that doesn't always get the attention it deserves. This can manifest itself in unplanned activity for the support organization. So, during the Initiate phase of the project, the current support organization should look to derive the specific maintenance requirements for managing the new Dynamics 365 implementation.
+As part of defining the system, you should also define the maintainability requirements. This is an area that sometimes doesn't get enough attention, and it can result in unplanned work for the support organization. During the **Initiate** phase of your project, your current support organization should look for the specific maintenance requirements for managing the new Dynamics 365 implementation.
 
-Because Dynamics 365 applications are cloud and SaaS-based, many maintenance tasks and responsibilities that are common to on-premises solutions are now managed by Microsoft. In general, the burden of infrastructure provision and maintenance for production systems is reduced, which leaves more time to focus on managing and improving business process performance.
+Because Dynamics 365 apps are cloud- and SaaS-based, Microsoft manages many maintenance tasks and responsibilities that are common to on-premises solutions. In general, you have less work to do with infrastructure configuration and maintenance for production systems. This gives you more time to focus on managing and improving business process performance.
 
-Define the system maintenance requirements and what is within the scope of responsibilities for the support teams. Typically, these are in the following areas:
+Define the system maintenance requirements and what is within your support team's responsibilities. These are typically in these areas:
 
-- Servicing the non-production environments, which can include:
+- Servicing nonproduction environments, which can include:
 
   - Requesting and configuring new Dynamics 365 environments
-
   - Requesting and configuring database copies and restores between environments
-
   - Managing any customer-managed, cloud-hosted environments
-
-  - Performing specifically requested backups
+  - Doing backups when requested
 
 - Managing system operations, which can include:
 
   - Assigning users to security roles
-
   - Reviewing and running periodic system cleanup jobs
-
   - Managing system administration messages and notifications
-
   - Batch calendar management
-
   - System update calendar
 
 ### Data maintenance requirements
 
-Data maintenance is a significant part of operating a business system, and it's essential that the scope of data management is clearly defined for the support team. Much of the data maintenance will be the responsibility of data stewards from the operating business, but the support team may be expected to manage some critical areas.
+Data maintenance is a big part of running a business system, and it's essential that you clearly define the data management scope for your support team. Much of the data maintenance will be done by data stewards from your business, but the support team might need to manage some critical areas.
 
-Typically, in a Dynamics 365 application, a support team may be managing system administrator data, some types of primary data, security and access data, data related to periodic processes, and so on; for example, assigning a user to a security role, or adding or revising a new customer attribute.
+Typically, in a Dynamics 365 application, a support team might manage system administrator data, some types of primary data, security and access data, and data that's related to periodic processes.
 
 ### Performance management
 
-Performance management for a Dynamics 365 business application is a mix of tasks and responsibilities for Microsoft and for the customer. In this section, we consider the implications on the support model.
+Performance management for a Dynamics 365 business application is a mix of tasks and responsibilities for Microsoft and for you. In this section, we consider how this affects your support model.
 
-The support team needs to have some way to proactively monitor and respond to any questions from the users on performance. Therefore, the support team needs to be able to do the following:
+Your support team needs some way to proactively monitor and respond to performance issues that users report. Your support team needs to be able to do these things:
 
-- Understand the impact of the reported performance issue on the business
+- Understand how the performance issue affects the business
 
-- Assign the relevant priority
+- Assign the right priority
 
-- Diagnose the issue across the potential root causes from configuration, data, custom code, independent software vendor (ISV) code, standard code, and so on to determine the root cause, or to hand it off to a specialist team (internal or external) with a meaningful starting point
+- Diagnose the issue across the possible root causes to determine the root cause, or hand it off to a specialist team (internal or external) with a good starting point
 
-- Reproduce the steps and circumstances to demonstrate the performance issue (and have the necessary resources to do so)
+- Reproduce the steps and circumstances that demonstrate the performance issue, and have the necessary resources to do this
 
-- Communicate the problem to other more technical specialists and work with them to resolve the issue
+- Communicate the problem to other more technical specialists and work with them to solve it
 
-To better detect processes beginning to show poor performance, it's important to have a baseline definition of required performance for critical processes, expressed as performance goals. Having actionable performance goals enables more focused monitoring and proactive actions to identify and quickly stop any decline in performance.
+To better detect processes that start to show poor performance, it's important to have a baseline definition of required performance for critical processes, expressed as performance goals. Having actionable performance goals helps you monitor and act proactively to identify and stop any decline in performance.
 
-Because performance troubleshooting is a specialist skill, the internal support team may not have all the skills and experience to examine and correct the performance of custom development. It's also a skill that may only be needed sporadically, so you may need to consider planning for access to external teams that can use specialist performance tools, interpret the results, and decide on corrective actions.
+Because performance troubleshooting is a specialist skill, your internal support team might not have all the skills and experience to examine and fix the performance of custom development. It's also a skill that you might need only occasionally. You might need to plan for access to external teams that can use specialist performance tools, interpret the results, and decide on corrective actions.
 
 ## Business processes
 
-As a business application, supporting the users in the day-to-day processes is a key function of a Dynamics 365 support organization. The support organization is expected to provide coverage across all the key business process, or at a minimum, know where to direct questions and issues that were agreed as being outside their support scope.
+Supporting users in their daily processes is a key function of a Dynamics 365 support organization. Your support organization should provide coverage across all the key business processes&mdash;or at least, know where to direct questions and issues that are outside their support scope.
 
-Based on the definition of the key business processes in scope, consider the following for each process:
+Based on the definition of the key business processes in scope, consider these things for each process:
 
-- What is the level of expertise needed in the business process?
+- What level of expertise do you need in the business process?
 
 - What are the likely support tasks and queries related to this process?
 
-- What is the type of usage, frequency, and volume?
+- What type of usage, frequency, and volume do you have?
 
-- How critical is this business process to the business outcomes, and what degree of priority do the support issues need?
+- How critical is this business process for your business outcomes, and what degree of priority do you need for support issues?
 
-- What is the type and level of skills needed to support this process?
+- What type and level of skills do you need to support this process?
 
-- What processes require resources aggregated at a department, workstream, or value chain level?
+- What processes need resources at a department, workstream, or value chain level?
 
 - What are the interactions with other systems and communication protocols required?
 
-- Does this process require the support personnel to have specialist security or compliance training or certification?
+- Does this process require your support staff to have special security or compliance training or certification?
 
-- Do any special requirements need support services outside of the anticipated support hours (outside of business hours or during holiday periods)?
+- Do you have any special requirements for support services outside your expected support hours, that is, outside normal business hours or during holidays?
 
-An important factor when determining resources and escalation procedures is the level of ownership and responsibility that the business process leaders are expected to take from their own organization to support the day-to-day operations for their processes.
-
-These questions and more will help shape the operating model for the support team.
+An important factor when you determine resources and escalation procedures is how much ownership and responsibility your business process leaders will take from their own organization to support their daily operations.
 
 ## Business continuity
 
-Many organizations need to have a business continuity strategy and exercise regular checks of business continuity in case of a service outage. This may be required by external regulations or by internal policies. In any case, the support organization is probably expected to play a major role.
+Many organizations need a business continuity strategy and regular checks of business continuity if there's a service outage. You might need this because of external regulations or internal policies. In any case, your support organization probably needs to play a major role.
 
-Depending on the size and complexity of the system landscape and the types of service outage scenarios being exercised, this may need a significant amount of preparation, coordination, and timely communication between multiple parties.
+Depending on the size and complexity of your system landscape and the types of service outage scenarios that you're testing, you might need a lot of preparation, coordination, and timely communication between multiple parties.
 
-As part of preparing for the establishment of the support organization, you should consider the definition of the business continuity strategy and what resources, skills, and tooling are required.
+As part of preparing to set up your support organization, you should consider your business continuity strategy and what resources, skills, and tools you need.
 
-As a cloud-based SaaS service, Microsoft provides the production infrastructure, platform, and application-level business continuity services. For Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications, the operations as listed in the [Service description for finance and operations apps](https://aka.ms/D365-Cloud-Service-Operations) provide details of the services and service-level agreements (SLAs) from Microsoft and the expected responsibilities and actions from the customer. You should bear this in mind when you build your business continuity planning, which should reflect your specific systems landscape and scenarios.
-
-Of course, the Dynamics 365 business application may not be an isolated system, it may be connected to other enterprise systems, and your business continuity planning will need to consider your entire enterprise architecture when defining your strategy and the related support requirements.
+As a cloud-based SaaS service, Microsoft provides the production infrastructure, platform, and application-level business continuity services. For Dynamics 365 Finance and Dynamics 365 Supply Chain Management apps, the operations listed in the [service description for finance and operations apps](https://aka.ms/D365-Cloud-Service-Operations) provide details of the services and service-level agreements (SLAs) from Microsoft and your expected responsibilities and actions. You should keep this in mind when you build your business continuity plan. It should reflect your specific system landscape and scenarios.
 
 ### Dynamics 365 Finance and Supply Chain Management
 
-Dynamics 365 Finance and Supply Chain Management applications have specific [high availability (HA) and disaster recovery (DR)](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#availability) features for cloud deployment. To ensure service availability, all production environments are protected by using default Azure HA features. HA functionality provides ways to avoid downtime caused by the failure of a single node within a datacenter, and DR features protect against outages broadly impacting an entire datacenter. When planning support requirements and procedures, consider the implications if the disaster is severe enough for the primary production site to be forced to switch over to the secondary site and the DR features are warranted. In such extreme cases, you would experience downtime for production access while access to the secondary site is being established, and the customer team is responsible for several actions. For more information about business continuity with HA and DR, see the [Service description for Dynamics 365 finance and operations apps](https://aka.ms/D365-Cloud-Service-Operations) and [Business continuity and disaster recovery](/dynamics365/fin-ops-core/dev-itpro/sysadmin/business-continuity-disaster-recovery)
+Dynamics 365 Finance and Supply Chain Management have specific [high-availability (HA) and disaster recovery (DR)](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#availability) features for cloud deployment. To ensure service availability, all production environments are protected using default Azure HA features. HA functionality provides ways to avoid downtime caused by the failure of a single node within a datacenter. DR features protect against outages that affect an entire datacenter broadly. When you plan support requirements and procedures, consider what happens if the disaster is severe enough to force the primary production site to switch over to the secondary site and you need DR features. In these extreme cases, you'll have downtime for production access while you set up access to the secondary site, and your team is responsible for several actions. For more information about business continuity with HA and DR, see the [service description for Dynamics 365 finance and operations apps](https://aka.ms/D365-Cloud-Service-Operations) and [business continuity and disaster recovery](/dynamics365/fin-ops-core/dev-itpro/sysadmin/business-continuity-disaster-recovery).
 
-If the production system is running on the secondary site (while the primary site is being repaired), you may have restrictions (such as the inability to perform package deployments) and limitations (such as performance reduction) that the support team needs to be aware of and help mitigate to reduce the impact on the business. You may also need to apply specific setups (such as IP allowlists) to the secondary site.
+If your production system is running on the secondary site while the primary site is being repaired, you might have restrictions, such as not being able to deploy packages, or limitations, such as reduced performance, that your support team needs to know about and help reduce their impact on the business. You might also need to apply specific setups such as IP allowlists to the secondary site.
 
-In summary, you should have a business continuity plan that includes how the support team should plan, perform, and communicate during a service outage, including during a severe disaster.
+In summary, you should have a business continuity plan that includes how your support team should plan, do, and communicate during a service outage, including during a severe disaster.
 
-### Dynamics 365 customer engagement apps
+### Customer engagement apps
 
-For Dynamics 365 customer engagement apps, HA provides mechanisms that can reroute requests in case of failures, planned downtime (patching and updates), and more. On the database side (relational storage), the Recovery Time Objective (RTO) for failover is dictated by the timings from Azure SQL Database. With diverse storage, the scheme extends to other storage components. For DR, Power Platform brings the ability to fail over and fail back in seconds. You can do this at the granularity of an organization (environment). There is no data loss in the case of planned DR failovers. In the extreme circumstances of an unplanned DR, well-defined processes are applied by the administrators of the Dynamics 365 (online) datacenter to recover from a service interruption; however, the support team needs to help with any potential data loss.
+For customer engagement apps, HA provides mechanisms that can reroute requests when failures and planned downtime happen. On the database side, the Recovery Time Objective (RTO) for failover is based on the timings from Azure SQL Database. With diverse storage, the scheme extends to other storage components.
 
-## System update cycles
+For DR, Power Platform lets you fail over and fail back in seconds. No data is lost in planned DR failovers. In unplanned DR, the administrators of the Dynamics 365 datacenter apply well-defined processes to recover from a service interruption, but your support team needs to help with any potential data loss.
 
-Microsoft Dynamics 365 application updates are one of the changes that the support team probably needs to manage. From the perspective of defining the scope of responsibilities for the support organization, you must understand what is involved and plan for the updates.
+## System updates
 
-Creating a calendar for the Microsoft updates helps the support team plan for the resources and effort associated with the following:
+Dynamics 365 app updates are one of the changes that your support team might need to manage. When you define the scope of responsibilities for your support team, you must understand what system updates involve and how to plan for them.
 
-- Microsoft Dynamics 365 updates
+Creating a calendar for Microsoft updates helps your support team prepare for the resources and effort that they need for Dynamics 365 updates, independent software vendor (ISV) updates, updates for custom code, and testing, including regression testing and release management.
 
-- ISV updates
-
-- Updates for custom code
-
-- Associated testing, including any regression testing and release management
-
-We saw in the previous section that the solution is unlikely to remain static for long, and the solution functionality can change because of new and backlog requirements. For details on Microsoft system updates, refer to the article [Service the solution](service-solution.md).
+As we saw in the previous section, your solution might change often because of new and backlog requirements. [Learn more about how Microsoft system updates affect your solution](service-solution.md).
 
 ## Next steps
 
-- Review how to construct a strategy to help you prepare, define, and operate a support model in the section [overview](transition-to-support.md)
-- Understand key aspects when deciding on [support models](transition-to-support-models.md)
-- Uncover the requirements related to [support operations](transition-to-support-operations.md)
-- Review the [checklist](transition-to-support-checklist.md) to help with implementing your support model
-- Read the [case study](service-solution-case-study.md) to understand the need to develop and continually audit an organization's support strategy in the cloud world  
+- Understand key aspects when choosing [support models](transition-to-support-models.md)
+- Discover the requirements for [support operations](transition-to-support-operations.md)
+- Understand the roles and responsibilities of the [support team](transition-to-support-team.md)
+- Review a [checklist](transition-to-support-checklist.md) for implementing your support model
+- Read the [case study](service-solution-case-study.md) to understand why you need to develop and audit your support strategy in the cloud world

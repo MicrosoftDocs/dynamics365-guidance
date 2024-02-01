@@ -3,74 +3,68 @@ title: Integration strategy checklist
 description: Get a thorough checklist to help Dynamics 365 implementation teams with their integration strategy.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 05/23/2023
+ms.date: 01/26/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/26/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Integration strategy checklist
 
-Use this article to help you develop and manage your strategy for how to integrate with other solutions in a Dynamics 365 implementation project.
+# Integration strategy checklist
 
 ## Define business goals
 
-- Document and define goals and expected benefits of integration being implemented in a business-centric way.
-
-- Align the planned integration's purpose with short- and long-term organization goals.
-
-- Ensure the overview of the integration architecture, systems, and integration points is clear and understandable.
-
-- Ensure that stakeholders have a shared understanding of the purpose and scope of the integrations that are being implemented.
+| Done? | Task |
+| :---: | --- |
+| &check; | Write down the goals and benefits of the integration in a way that the business can understand. |
+| &check; | Make sure the integration supports the organization's short-term and long-term goals. |
+| &check; | Explain the integration architecture, systems, and integration points clearly and simply. |
+| &check; | Make sure that everyone involved knows the purpose and scope of the integration. |
 
 ## Choose a platform
 
-- Ensure the organization understands the concept of cloud versus on-premises platforms and the boundary between them.
-
-- Plan to use either an integration middleware or messaging service.
-
-- Ensure the integration architecture, platform, or middleware supports the expectations for monitoring, audit, notifications, and alerts.
-
-- Ensure the integration architecture supports the expected level of security, availability, and disaster recovery.
-
-- Ensure all components of the integration architecture support ALM and version control.
+| Done? | Task |
+| :---: | --- |
+| &check; | Help the organization understand the difference between cloud and on-premises platforms and where they connect. |
+| &check; | Decide whether to use an integration middleware or a messaging service. |
+| &check; | Make sure that the integration platform or middleware can monitor, audit, notify, and alert as needed. |
+| &check; | Make sure that the integration platform or middleware has the expected level of security, availability, and disaster recovery. |
+| &check; | Make sure that all parts of the integration platform or middleware can use application lifecycle management (ALM) and version control tools. |
 
 ## Choose a design
 
-- Align the designs of each integration with the overall integration architecture.
-
-- Avoid unnecessary replication and transmission of data into the solution in integration designs.
-
-- Clearly state the options and benefits of each of the following items: 
-
-  - User interface look and feel  
-  - Data  
-  - Process integration  
-  - Dataverse  
+| Done? | Task |
+| :---: | --- |
+| &check; | Make sure that each integration design fits with the overall integration architecture. |
+| &check; | Avoid sending or storing data that isn't needed in the solution. |
+| &check; | Compare and contrast the options and benefits for each of these aspects: User interface look and feel, data, process integration, and Dataverse. |
 
 ## Choose a pattern
 
-- Design integrations to favor robust, asynchronous messaging-based patterns.
-
-- Align patterns used for each integration with expectations for volumes, frequency, and service protection limitations.
-
-- Set realistic estimates of the operating costs for services, platforms, and storage involved and be aware of how scaling affects them in the future.
+| Done? | Task |
+| :---: | --- |
+| &check; | Design integrations that use reliable, asynchronous messages to exchange data. |
+| &check; | Choose a pattern that matches the expected amount, frequency, and service protection limitations of data exchange. |
+| &check; | Determine realistic estimates of how much it will cost to run the services, platforms, and storage involved and how it will change over time. |
 
 ## Project governance
 
-- Plan each integration for user and performance testing under realistic loads, as well as the end-to-end process leading up to the integration, across the system boundary, and after the point of integration.
-
-- Plan for testing the end-to-end process patterns used for each integration in line with recommendations for volumes, frequency, and service protection limitations.
-
-- Have change management activities related to integrations that reflect and support overall business goals.
-
-- Complete the impact analysis on upstream and downstream processes.
+| Done? | Task |
+| :---: | --- |
+| &check; | Plan to test each integration for user experience and performance under realistic conditions, including before, during, and after the data exchange. |
+| &check; | Plan to test the end-to-end process for each integration pattern according to the recommendations for data volume, frequency, and service protection limitations. |
+| &check; | Manage any changes that are related to integrations in a way that supports the business goals. |
+| &check; | Analyze how integrations affect other processes upstream and downstream. |
 
 ## Next steps
 
-- [Define business goals](integrate-other-solutions-business-goals.md)  
-- [Choose a platform](integrate-other-solutions-choose-platform.md)  
-- [Choose a design](integrate-other-solutions-choose-design.md)  
-- [Choose a pattern](integrate-other-solutions-choose-pattern.md)  
-- [Challenges](integrate-other-solutions-challenges.md)  
-- [Product-specific guidance for integration scenarios](integrate-other-solutions-guidance-product.md)  
-- [Checklist](integrate-other-solutions-checklist.md)  
-- [Case study](integrate-other-solutions-case-study.md)  
+- Start your integration project by [defining your business goals](integrate-other-solutions-business-goals.md) and aligning them with your cross-system requirements
+- Learn how to [choose a platform](integrate-other-solutions-choose-platform.md) that can handle the storage and transfer of large amounts of data across different systems
+- Explore the different types of integration scenarios and how to [choose a design](integrate-other-solutions-choose-design.md) that suits your needs
+- Discover the integration patterns available with Dynamics 365 apps and what factors to consider when [choosing a pattern](integrate-other-solutions-choose-pattern.md)
+- Find out what challenges you might face when integrating systems and how to overcome them with [best practices](integrate-other-solutions-challenges.md)
+- Learn about the aspects that are specific to each Dynamics 365 app and how to [integrate them with other solutions](integrate-other-solutions-guidance-product.md)
+- Read how a public sector infrastructure organization learned how to [choose the right solution for their integration project](integrate-other-solutions-case-study.md)

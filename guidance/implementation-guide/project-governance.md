@@ -1,136 +1,64 @@
 ﻿---
-title: Project governance
-description: Get an overview of the importance of good project governance. We discuss recommended practices to define the different areas of project governance and assess the effectiveness of your governance.
+title: Implement Dynamics 365 projects with effective governance
+description: Learn how to design and apply a project governance model that helps you deliver Dynamics 365 projects successfully and avoid common pitfalls.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/27/2023
+ms.date: 01/22/2024
 ms.topic: conceptual
+ms.custom:
+  - ai-seo-date: 01/22/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Project governance for Dynamics 365 implementation projects
 
-In this section, we provide an overview of the importance of good project governance in implementation projects. We discuss recommended practices to define the different areas of project governance and assess the effectiveness of your governance. We also describe in more detail some of the key areas of project governance and the specific considerations that can help stakeholders, project leaders, and implementation teams increase their chances of success.
+# Implement Dynamics 365 projects with effective governance
 
-## Objectives
+Implementing Dynamics 365 projects requires good project governance to succeed. Project governance is the framework and techniques that help you map your business goals to actions and measures, structure and plan your project, anticipate and avoid issues, detect and correct risks, and provide flexibility and agility to respond to changes.
 
-- Learn the importance of good project governance.
-- Identify your project goals.
-- Understand the implications of project organization types on project velocity and effectiveness.
-- Explore different project implementation approaches.
+In this section, we explain why project governance is important for Dynamics 365 projects and what areas you should consider when designing or reviewing your governance model. We also provide guidance and best practices for some of the key areas of project governance and how they can help you increase your chances of success.
 
-Assess the effectiveness of classic project governance processes.
+What you'll learn:
 
-Understand how to embed good governance processes into key project areas.
-
-Learn how a well-structured project plan can help monitor and improve project and governance outcomes.
+- Why project governance is important for Dynamics 365 projects
+- How to define your project goals and align them with your business objectives
+- How to choose the right project organization and roles for your project
+- How to select the best project approach and methodology for your project
+- How to assess and improve the effectiveness of your classic governance structures
+- How to embed good governance processes into key project areas such as solution design, testing, and deployment
+- How to create a well-structured project plan that helps you monitor and improve your project outcomes
 
 ## Introduction
 
-As the footprint of cloud-based solutions increases, we must work with and address different business and technology challenges. For example, most Dynamics 365 apps support or integrate with low-code/no-code technology. Also, customers have higher expectations on speed to value. The number of custom development-heavy, multi-year, big-bang projects is diminishing. Our customers look for early and incremental value, even on long-term rollouts across countries or regions. Dynamics 365 online are software as a service (SaaS) applications with regular, nonbreaking system updatesthat change the way we deliver business applications. Many of the limitations and sluggish project governance processes of multi-year, on-premises implementations shouldn't be carried into the cloud.
+Dynamics 365 projects aren't just technical projects. They are business transformation projects that directly affect and are affected by the processes and the people in your business. To implement them successfully, you need more than good software and good technical skills. You also need good governance processes that involve the business.
 
-We need to ensure that we're creating a project governance model that is fit for the world today and tomorrow. This includes considering new governance disciplines and reviewing the classic governance model for effectiveness. We must also consider that many partners, system integrators, independent software vendors (ISVs), and customers have their own approach and governance standards that they have used previously.
+Dynamics 365 projects have specific needs and challenges that require a governance model that's fit for the world today and tomorrow. For example, Dynamics 365 apps are cloud-based solutions that support or integrate with low-code/no-code technology, have regular and nonbreaking system updates, and enable faster and more incremental value delivery. These features change the way you deliver business applications and require you to rethink some of the traditional governance processes that might not be suitable for the cloud.
 
-Our objective in this chapter is to provide an overview of the importance of good project governance. We discuss recommended practices on how to define the different areas of project governance and assess the effectiveness of your governance. We also describe in more detail some of the key areas of project governance and the specific considerations that can help stakeholders, project leaders, and implementation teams increase their chances of success.
+You should define your project governance model as early as possible, preferably as part of the *Initiate* phase of your project, because it directly influences your project approach, oversight, resources, and plan. You should also review and adapt your governance model throughout your project lifecycle, considering any specific business requirements and constraints.
 
-The project governance topics discussed in this section are relevant to any implementation methodology. We focus on the underlying principles and provide guidance in a way that allows customers, partners, and others to evaluate their own approach and adjust as necessary.
+In this section, we explore the following areas of project governance that are relevant to any implementation methodology:
 
-For a successful project governance strategy, consider these main areas:  
+- **Project goals**: How to define clear and measurable goals that provide direction and focus for your project.
 
-- Project goals
-- Project organization
-- Project approach
-- Classic structures
-- Key project areas
-- Project plan
+- **Project organization**: How to set up the right project organization and assign the roles and responsibilities that support your project efficiency and effectiveness.
 
-We explore each of these areas in more detail in this section.
+- **Project approach**: How to choose the best project approach and methodology that suit your project scope, complexity, and constraints.
 
-## Objectives of project governance
+- **Classic structures**: How to evaluate and improve the effectiveness of the most common governance processes such as change management, risk management, and issue management.
 
-Your project governance should be designed to provide the framework and techniques to cover the following areas:
+- **Key project areas**: How to apply good governance processes to key project areas such as solution design, testing, and deployment that often get technical attention but lack sufficient direction, planning, and oversight.
 
-- Map business goals into actions and measures that deliver the goals
-
-- Structure, plan, and reliably, safely, and efficiently drive the project
-
-- Anticipate and avoid common issues
-
-- Detect emerging risks and divergence from the planned path and support corrective actions
-
-- Provide the right amount of flexibility and agility to respond to unexpected events and to adjust to the specific constraints of the customer's business or project
-
-:::image type="content" source="media/projectgovernance.svg" alt-text="Project governance areas":::
-
-When you design or review your project governance model, examine how well it addresses each of the criteria. Furthermore, it's worth reexamining these criteria in the specific context of the goals and constraints of your current project.
-
-In related articles, we explore what project approaches, governance models, disciplines, and techniques project teams should consider when preparing for and implementing a Dynamics 365 project. Similarly, we use Microsoft's [Success by Design framework](success-by-design.md) to highlight critical questions to consider throughout the project lifecycle to help drive success.
-
-### Why is project governance important?
-
-All system implementation projects, including Dynamics 365 applications, need good project governance to succeed. However, business application projects have specific needs and challenges, and aren't the easiest of projects to implement. Business applications directly affect and are directly affected by the processes and the people in the business. For a business application implementation to be successful, it's not sufficient to have good software and good technical skills. The project must also have good governance processes that include the business.
-
-A Dynamics 365 project needs to understand the business requirements deeply and at a domain and industry level. It also needs significant and sustained participation from business users representing many different roles, disciplines, and skills. Many, if not most business participants, may not have previous experience implementing business application or business transformation projects, let alone Dynamics 365. This puts an extra burden on ensuring that the methodology, approach, and governance models are sufficiently robust to support and drive the Dynamics 365 business application project. It also requires business users to gain sufficient knowledge of the standard capabilities of the Dynamics 365 application to better map their underlying business requirements to the out-of-the-box solution.
-
-It's worth reminding ourselves of the most common problems related to implementing business applications:
-
-- Unclear or ever-changing project scope
-
-- Late discovery of project slippage
-
-- Disputed areas of accountability or project responsibility
-
-- Low or sporadic user and business engagement
-
-- Delays to go live (often at a late stage)
-
-- Technical issues hiding underlying governance issues
-
-- Mismatched expectations between customer and partner
-
-- Stakeholders blaming each other
-
-The list is long, and you may have seen other issues, but most of these issues result in project delays, quality issues, and impact on budgets. However, the root cause of the issues tends to lie in gaps in the definition of the governance model, or in the effectiveness of operating the project governance processes. Even after the project goes live and meets most of the business requirements, if the project delivery isn't smooth, it can create stakeholder dissatisfaction and a lack of confidence in the project.
-
-In the context of the implementation lifecycle, you should define the project governance model as early as possible, and certainly as part of the *Initiate* phase of the project, because it directly influences the project approach, oversight, resources, and project plan. During the *Initiate* phase, if the customer or the partner has an underlying governance model, you should review it and adapt it for this specific project, with consideration for any specific business requirements and constraints.
-
-<!-- Next, we explore the various areas that you should think about as part of establishing your project governance model. -->
-## Project governance areas
-
-Project governance is a wide concept that can encompass multiple different practices and disciplines. Various methodologies exist in the market, including those that our partners and customers customize. Irrespective of the methodology, you should consider some fundamental principles when designing your governance, or when reviewing and revising it.
-
-Most projects have some form of governance; we're not describing setting up the common governance disciplines here. Instead, we look at the areas where we often see the need for reinforcement and expansion to drive a more reliable and successful project delivery experience:
-
-- **Project goals**  
-
-  We look at whether the goals deliver solid foundations for the implementation, are well defined, and provide the necessary direction to the project
-
-- **Project organization**  
-
-  We explore how the right project organization and related roles and responsibilities help or hinder the efficiency of the project
-
-- **Project approach**  
-
-  We examine the impact of the right methodology and the wider approach on project success
-
-- **Classic structures**  
-
-  We review how we can assess the effectiveness of the most common governance processes to ensure they don't hide the real issues and provide false reassurance
-
-- **Key project areas**  
-
-  We look at how we can improve effectiveness in areas of the project that get much technical attention, but frequently suffer from insufficient direction, planning, and oversight
-
-- **Project plan**  
-
-  We examine the critical importance of good project planning and extract some of the planning-related lessons from the previous sections
+- **Project plan**: How to create a well-structured project plan that helps you track and improve your project progress and outcomes.
 
 ## Next steps
 
-- [Project goals](project-governance-project-goals.md)  
-- [Project organization](project-governance-project-organization.md)  
-- [Project approach](project-governance-project-approach.md)  
-- [Classic structures](project-governance-classic-structures.md)  
-- [Key project areas](project-governance-key-project-areas.md)  
-- [Project plan](project-governance-project-plan.md)  
-- [Conclusion](project-governance-conclusion.md)  
-- [Checklist: Project Governance](project-governance-checklist.md)  
-- [Case study](project-governance-case-study.md)  
+- Learn how to define clear and measurable [project goals](project-governance-project-goals.md) that align with your business objectives and provide direction and focus for your project
+- Learn how to set up the right [project organization](project-governance-project-organization.md) and assign the roles and responsibilities that support your project efficiency and effectiveness
+- Learn how to choose the best [project approach](project-governance-project-approach.md) and methodology that suit your project scope, complexity, and constraints
+- Learn how to evaluate and improve the effectiveness of [classic governance structures](project-governance-classic-structures.md), such as change management, risk management, and issue management
+- Learn how to apply good governance processes to [key project areas](project-governance-key-project-areas.md)
+- Learn how to create a well-structured [project plan](project-governance-project-plan.md) that helps you track and improve your project progress and outcomes
+- [Review the main points and takeaways](project-governance-conclusion.md) from this section
+- Use the Success by Design [checklist](project-governance-checklist.md) to assess and improve your project governance model and processes
+- Read a [case study](project-governance-case-study.md) of how a customer implemented Dynamics 365 with effective project governance.

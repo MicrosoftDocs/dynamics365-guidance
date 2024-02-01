@@ -1,5 +1,5 @@
 ---
-title: Service the solution
+title: Monitor and service the health of your Dynamics 365 solution implementation
 description: Learn how to ensure the smooth operation and maintenance of your Dynamics 365 solution by monitoring service health, applying service updates, and maintaining your environment.
 author: taksatoms
 ms.author: tsato
@@ -11,7 +11,7 @@ ms.custom:
   - ai-seo-date:12/11/2023
 ---
 
-# Service the solution
+# Monitor and service the health of your Dynamics 365 solution implementation
 
 Your solution is deployed to production. Users are trained and onboarded. A support process is in place. You're done, right? Well&hellip;no. Most implementation projects focus on building and deploying the solution. What comes next is often treated like an after-thought. But it's important to have a plan for keeping your solution optimal and healthy, one that includes monitoring system health, applying service updates, and maintaining your environment. In this article, we discuss the importance of these activities and provide guidance on the best ways to manage them.
 
@@ -49,8 +49,8 @@ Take steps to be aware of your solution's performance, be proactive in taking ac
 
 ## Next steps
 
-- Review how to [monitor the service health](service-solution-monitor-service-health.md) of your Dynamics 365 solution.
-- Review how [service updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness.
-- Learn about the importance of [environment maintenance](service-solution-environment-maintenance.md).
-- Find more resources to [continue the business application journey](service-solution-continue-the-business-application-journey.md).
-- Read the [case study](service-solution-case-study.md) to understand the impact to an organization when servicing the solution isn't top of mind.
+- Review how to [monitor the service health](service-solution-monitor-service-health.md) of your Dynamics 365 solution
+- Review how [service updates](service-solution-service-updates.md) work in Dynamics 365 and best practices for readiness
+- Learn about the importance of [environment maintenance](service-solution-environment-maintenance.md)
+- Find more resources to [continue the business application journey](service-solution-continue-the-business-application-journey.md)
+- Read the [case study](service-solution-case-study.md) to understand the impact to an organization when servicing the solution isn't top of mind

@@ -1,5 +1,5 @@
 ---
-title: Manage expectations
+title: Expectation management for change managers
 description: Read about the change manager's tasks for managing expectations during a Dynamics 365 implementation project.
 author: taksatoms
 ms.author: tsato
@@ -7,7 +7,7 @@ ms.date: 06/19/2023
 ms.topic: conceptual
 ---
 
-# Managing expectations
+# Expectation management for change managers
 
 A key challenge for change managers throughout the Implement phase is management of expectations.
 

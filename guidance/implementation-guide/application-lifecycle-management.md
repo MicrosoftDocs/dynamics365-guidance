@@ -1,6 +1,6 @@
 ---
-title: Manage your Dynamics 365 solution from start to finish
-description: Learn how to plan, create, test, deploy, and maintain your Dynamics 365 solution with application lifecycle management (ALM) best practices and tools.
+title: Bring successful solutions to customers with application lifecycle management (ALM) strategies
+description: Get guidance for application lifecycle management (ALM) strategy and how end-to-end lifecycle management can provide improved visibility, automation, delivery, and future planning for your solution. We detail the steps to a successful ALM and what that looks like with Dynamics 365. We also provide information on the ALM workshop strategy.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024
@@ -14,7 +14,7 @@ content_well_notification:
   - AI-contribution
 ---
 
-# Manage your Dynamics 365 solution from start to finish
+# Bring successful solutions to customers with application lifecycle management (ALM) strategies
 
 You have an idea for a Dynamics 365 solution that can help your business grow. How can you turn your idea into a reality and make sure it works well for your customers? You can use application lifecycle management (ALM) to guide you. ALM is a way of managing your solution from conception to operation.
 

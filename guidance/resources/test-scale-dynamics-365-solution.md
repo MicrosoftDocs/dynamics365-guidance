@@ -1,5 +1,5 @@
 ﻿---
-title: Load test the Dynamics 365 solution
+title: Set up and run load tests on Dynamics 365 solutions
 description: Learn how to set up and run load tests on Dynamics 365 solutions with Azure Load Testing, using Java, Apache JMeter, and samples provided by Microsoft.
 ms.date: 06/26/2023
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.custom:
  - bap-template
 ---
 
-# Load test the Dynamics 365 solution
+# Set up and run load tests for your Dynamics 365 implementation projects
 
 ***Applies to: Dynamics 365 Customer Service***
 

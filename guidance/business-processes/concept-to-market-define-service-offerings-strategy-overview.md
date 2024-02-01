@@ -1,6 +1,6 @@
-﻿---
+---
 title: Define, categorize, and segment services in Dynamics 365 applications
-description: Learn how you can use Dynamics 365 products to support your organization's business processes to capture a strategy for the services that you want to sell.
+description: Learn how you can use Dynamics 365 products to support your organization's business processes for capturing a strategy for the services that you want to sell.
 ms.date: 11/24/2023
 ms.topic: conceptual
 author: rachel-profitt
@@ -13,60 +13,54 @@ ms.author: raprofit
 
 This article describes how to categorize and segment services in Dynamics 365 applications.
 
-All organizations group and categorize or segment their services into logical grouping for various reasons. Dynamics 365 includes several capabilities that you can consider for implementation together at the beginning of a project.  [!INCLUDE [daf-prod-serv-cat-merch-seg](../includes/daf-prod-serv-cat-merch-seg.md)]
+All organizations group and categorize or segment their services into logical grouping for various reasons. Dynamics 365 includes several capabilities that you can consider implementing together at the beginning of a project. [!INCLUDE [daf-prod-serv-cat-merch-seg](../includes/daf-prod-serv-cat-merch-seg.md)]
 
 [!INCLUDE [daf-prod-serv-considerations](../includes/daf-prod-serv-considerations.md)]
 
-## Stakeholders 
+## Stakeholders
 
 Many people across the organization should contribute to the decision-making process and design of the *categorize product and services* business process area. The following list provides examples of such stakeholders:
 
 [!INCLUDE [daf-prod-serv-stakeholders](../includes/daf-prod-serv-stakeholders.md)]
 
-## Define service offerings and strategy process flow 
+## Define service offerings and strategy process flow
 
 The following diagram illustrates the *define service offerings and strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/concept-to-market-define-service-offer-strategy-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/concept-to-market-define-service-offer-strategy-flow.svg":::
 
 1. Start
+1. [Concept to market](concept-to-market-overview.md) end-to-end process
+1. *Define service offering and strategy* business process area
+1. *Define service lines*
+1. *Define service policies*
+1. *Define service types*
+1. *Organize services*
+1. *Introduce new services* business process area
 
-2. [Concept to market](concept-to-market-overview.md) end-to-end process
-
-3. *Define service offering and strategy* business process area
-
-4. *Define service lines*
-
-5. *Define service policies*
-
-6. *Define service types*
-
-7. *Organize services*
-
-8. *Introduce new services* business process area
-
-    Parallel branches connect to each of the following end-to-end down stream processes that connect to [Record to report](record-to-report-overview.md), which also connects to End.
+    Parallel branches connect to each of the following end-to-end downstream processes that connect to [Record to report](record-to-report-overview.md), which also connects to End.
 
     1. Order to cash
-    2. Plan to produce
-    3. Procure to pay
-9. End
+    1. Plan to produce
+    1. Procure to pay
+
+1. End
 
 ## Define service offerings and strategy benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *definition of service offerings and strategies*. The following sections outline the key benefits that an organization might monitor and measure for*defining service offerings and strategies*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *define service offerings and strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure for *define service offerings and strategy*.
 
 [!INCLUDE [daf-prod-serv-benefits](../includes/daf-prod-serv-benefits.md)]
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *define service offering and strategy* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *define service offerings and strategy* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
 
-1. *Define service offerings and strategy* (the article you're currently reading)  
-2. *Introduce new services*
-3. [Define service costing](concept-to-market-define-service-costing-overview.md)  
-4. *Manage service pricing*
-5. *Manage service lifecycle*
+1. *Define service offerings and strategy* (the article that you're currently reading)
+1. *Introduce new services*
+1. [Define service costing](concept-to-market-define-service-costing-overview.md)
+1. *Manage service pricing*
+1. *Manage service lifecycle*
 
 ## Related resources
 
@@ -98,4 +92,3 @@ Principal author:
 Other Contributors:
 
 - [Michael Herold](https://linkedin.com/in/maherold) \| Microsoft Dynamics Principal Consultant
-

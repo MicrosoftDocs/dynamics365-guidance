@@ -46,9 +46,20 @@ To learn more, see [Change management overview](change-management.md).
 
 ## Governance
 
-The term *governance* often means just project management or stakeholder management, but this view can make you miss core elements of success.
+The term *governance* often means just project management or stakeholder management. The following table shows the differences between types of management and engagement:
 
-:::image type="content" source="media/governancedomains.png" alt-text="Table describing governance domains." lightbox="media/governancedomains.png":::
+| Project management | Stakeholder engagement | Solution management | Risk and issues management | Change control | Organizational change and communication |
+|--------------------|------------------------|---------------------|---------------------------|----------------|--------------------------------------|
+| Weekly status reports | Exectuive steering committee | Oversight of functional and nonfuncitonal attributes | Objective risk assessment and mitigation planning | Identification and prioritization of requirements and solution attributes | Intentional and customized communication to stakeholders |
+| Project plan and schedule | Communication and promotion | Data, integration, infrastructure, and performance | Issue identification, ownership, and resolution | Tracking and reporting via ADO | Periodic effectiveness check |
+| Resource management | Escalation of unresolved issues | Customizations and process adaptation | Prioritization and severity assessment | Organization and process changes | Solution adoption and operational transformation management |
+| Financial management | Solution decision making and collaboration | Security and compliance | Risk response management | | |
+| Risk management | Business alignment and tradeoffs | | | | |
+| Change management | | | | |
+| **Project status meetings and reports** | **Project change management** | **Architecture board** | **Project status meetings and report** | **Statement of work** | **Communication plan** |
+| **ADO (projects tools)** | **Solution management** | **Governance framework** | **ADO (project tools)** | **Project artifacts** | **Stakeholder engagement** |
+| **Governance framework** | **Organizational change management** | | | **Project status report** | **Organizational change management** |
+| | | | | **Governance framework** | |
 
 Every project component has some uncertainty and is based on assumptions made before you know or understand the details. So why would you expect a project manager to be the only one responsible for project governance? The project manager is accountable for the project outcome, but 360-degree governance needs everyone, especially the architects and leads, to play a role.
 

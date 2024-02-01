@@ -1,97 +1,117 @@
 ---
-title: Test for performance
-description: Learn how to develop and document a performance testing strategy to model expected system usage and achieve the defined performance goals of your Dynamics 365 solutions.
+title: Develop a performance testing strategy
+description: Learn how to define a performance testing strategy that simulates realistic system usage and meets your performance goals for your Dynamics 365 solutions.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 06/19/2023
+ms.date: 01/30/2024
 ms.topic: conceptual
 ms.custom:
+ - ai-seo-date: 01/29/2024
  - ai-gen-docs-bap
  - ai-gen-desc
- - ai-seo-date:08/28/2023
+ - ai-gen-title
  - bap-template
+content_well_notification: AI-contribution
 ---
 
-# Test for performance
+# Develop a performance testing strategy
 
-The project team, business stakeholders, and users need to be confident that requirements they identified are achieved when the system is implemented. A performance testing strategy makes sure system performance is measurable and provides a clear indication of whether performance is acceptable.
+Performance testing is a way to measure how well your Dynamics 365 solution works under different conditions. It helps you make sure that your solution meets the requirements of your project team, business stakeholders, and users.
 
-## What makes a performance test good?
+In this article, you'll learn how to:
 
-A common approach to performance testing is to try to push the system to the breaking point to learn whether it can handle the demand. However, this approach typically provides little value, particularly in Dynamics 365 apps. The best approach is to model or simulate the expected system usage, both peak load and day-in-the-life business scenarios, to make sure the solution can achieve its defined performance goals.
+- Define what makes a good performance test
+- Plan your performance testing scenarios and goals
+- Document your performance testing results
 
-### Realistic
+## What makes a good performance test?
 
-Be realistic. Understand the number and user personas of the people who use the system at a given time. Also define day-in-the-life activity profiles for the personas to understand the actions they perform. If the performance test incorrectly assumes that all users run the most complex processes concurrently, the projected demand is far higher than the reality. Strive to model usage accurately to get the most meaningful results from the test.
+A good performance test should simulate how users will use your solution in real life. It should also help you check whether your solution meets your performance goals.
 
-It's important to understand the difference between testing the system's functionality and testing the system as a user would use it. *Functional testing* often involves invoking specific logic and measuring the outcome, such as an API call. In contrast, *user testing* models the actual behavior of a user. Testers often create a suite of functional tests pointed at a web service, execute them with a large number of concurrent users, and call it a performance test. That approach provides misleading results. It pushes certain functionality more than the usage that's expected when the features are live, creating false performance issues. It also bypasses other functionality entirely, such as the user interface. The result is that genuine performance issues can slip through testing unidentified.
+To create a good performance test, follow these principles:
 
-Keep in mind that users' interaction with the application is fairly slow. They don't typically select buttons as quickly as they can. They take time to think between actions. You can incorporate that aspect into a performance test as a think-time variable. It varies from user to user, but an average value is sufficient to model behavior. The key point here is to develop a performance test that represents many users working concurrently and place a realistic amount of demand on the system.
+### Be realistic
 
-Developing a reliable performance test also includes realistically modeling client infrastructure. For example, there's little value in performance testing your Dynamics 365 Field Service mobile application from the office if your technicians will use it primarily in areas of poor connectivity.
+Don't try to push your solution to its breaking point. Instead, try to model the expected usage of your solution as closely as possible. To do this, you need to:
 
-The configuration of the system should also be realistic and based on the expected infrastructure and configuration of the production environment, use real security configurations for the test users, and work with the anticipated volumes of data in production.
+- Understand the number and types of users who will use your solution at the same time. Define user personas that represent different roles, locations, security configurations, data sets, and activities.
 
-### Isolated
+- Define day-in-the-life scenarios that reflect the actions that users perform on a typical day. Include peak load and normal load scenarios.
 
-A dedicated performance testing environment is recommended for two main reasons:
+- Use realistic data volumes for each scenario. Don't use more or less data than users need.
 
-- Performance test results are meaningful only if testers are aware of the activities that occur in the system during the test. A performance test is worthless if an unaccounted-for process places extra demand on the system while the test is running.
+- Use realistic client infrastructure for each scenario. For example, if your users will access your solution from mobile devices with poor connectivity, test your solution under those conditions.
 
-- It's common for performance testing to occur around the same time as user acceptance testing (UAT). Performance testing can take a substantial amount of time to execute and push the system to its limits, disrupting any manual user testing activities. A dedicated performance testing environment ensures that performance testing can happen in parallel with other testing.
+- Use realistic system configurations for each scenario. Make sure that your testing environment matches your production environment as much as possible. Use the same security settings, data sources, integrations, and reports.
 
-### Business data
+### Be isolated
 
-Key to good performance testing is using the configurations and data that will ultimately go live in production. All the data preparation activities must be ready in advance. For example, data from 100,000 customers or sales orders should be available in an import file.
+Use a dedicated environment for performance testing. This will help you avoid interference from other activities or processes that might affect your results. It will also help you avoid disrupting other testing activities, such as user acceptance testing (UAT).
 
-### Repeatable with low effort
+### Be repeatable with low effort
 
-Ideally, you execute a performance test once and use the results to make sure the criteria that are specified in the requirements are achieved. However, performance testing is rarely a one-time activity. Often, it's an iterative process. It happens for various reasons; for example, functional changes might occur during UAT that risk a change in performance. Similarly, if performance testing demonstrates an unacceptable level, you must retest the optimizations when the solution is implemented.
+You might need to run your performance test more than once. For example, you might need to test different versions of your solution, or test after making some changes or optimizations. To make this easier, you should:
 
-If a low-effort performance testing approach isn't available, it can be tempting to skip performance test iterations. But that makes it difficult to assess the effect of any changes you make between runs. Conversely, a fully automated process, potentially including environment provisioning and data setup, can be executed frequently with minimal effort, providing a clear picture of variations in performance in response to specific changes.
+- Automate your performance test as much as possible. Use tools that can run your test scenarios with a single click or on a schedule.
 
-### Functionally correct
+- Use the same data and settings for each test run. Make sure you have a consistent baseline to compare your results.
 
-A performance test result is meaningful only if the system functions correctly. It's tempting to focus on the performance metrics of successful tests. However, if errors occur, they should be corrected and the test should be executed again before any analysis is performed on the results. Deviations in behavior between test runs can significantly skew a performance test result and make any comparison meaningless.
+- Use the same tools and methods for each test run. Make sure you measure and report your results in the same way.
+
+### Be functionally correct
+
+Your performance test results are meaningful only if your solution works correctly. If any errors occur during your test, you should fix them and run the test again before analyzing the results. Otherwise, you might get inaccurate or misleading results.
 
 ### Document results
 
-The output of performance testing activities should be documented clearly so that interpretation is straightforward. The results should be mappable to performance testing criteria. The team should be able to quickly assess whether the requirements were achieved or whether there are gaps between requirements and results. It should also be possible to identify when the performance test was executed and against which version of code if applicable.
+You should document your performance test results clearly and consistently. Your documentation should show:
 
-Finally, it's important that the information in the documented report of results remains consistent with the defined template. The team might need to compare various performance test run results as changes are made.
+- Whether your solution meets your performance goals for each scenario
+- When and how you ran each test
+- What version of your solution you tested
+- Any errors or issues that occurred during the test
+- Any changes or optimizations that you made after the test
 
 ## Plan performance tests
 
-Document your performance testing strategy and include the following tasks:
+Before you run your performance tests, you should plan your testing strategy and document it. Your testing strategy should include the following elements:
 
-- Performance testing scenarios including key user activities, background or batch processes, integrations, and reports
-- Normal and peak data volumes for each scenario
-- Ideal target and maximum acceptable target response time for each scenario
-- Day-in-the-life workload to simulate in the most realistic manner, especially at peak hours
-- Data preparation activities for each scenario; for example, existing master data or transaction data in the system or creation of a file to import
-- Environment for performance testing
-- Iterations of performance testing (plan for two or more rounds)
-- Performance testing tools
-- Test results documentation tool
-- Number and profile of concurrent users, including security configurations
-- Guidelines and workflow for investigating and fixing performance issues
-- Risks such as delays and budget related to performance testing
+- Performance testing scenarios: These are the day-in-the-life scenarios that simulate how users will use your solution. You should include key user activities, background or batch processes, integrations, and reports for each scenario.
 
-We recommend investing the time and effort to automate this process as much as possible. For example, with relatively little effort, you can set up performance tests to run through Azure DevOps release pipelines, providing a way to execute test runs with a single click of a button, or automatically after a deployment. You can even run them overnight.
+- Data volumes: These are the amounts of data that users will work with in each scenario. You should include normal and peak data volumes.
+
+- Response time targets: These are the times that users expect or accept for each scenario. You should include ideal and maximum targets.
+
+- Workload: This is how many users will use your solution at the same time in each scenario. You should include normal and peak workload.
+
+- Data preparation: These are the tasks that you need to do to get the data ready for each scenario. For example, you might need to import data from a file or create data in the system.
+
+- Testing environment: This is where you'll run your performance tests. You should choose an environment that matches your production environment as closely as possible.
+
+- Testing iterations: These are how many times you'll run your performance tests. You should plan for at least two rounds of testing: one before making any changes or optimizations, and one after.
+
+- Testing tools: These are the tools that you'll use to run and monitor your performance tests. You should choose tools that can automate and measure your test scenarios.
+
+- Documentation tools: These are the tools that you'll use to document and report your performance test results. You should choose tools that can capture and display your results clearly and consistently.
+
+- User profiles: These are the types of users who will use your solution. You should define user personas that include their roles, locations, security configurations, data sets, and activities.
+
+- Investigation and fixing workflow: This is how you'll identify and resolve any performance issues that occur during your testing. You should define the guidelines and steps for troubleshooting and optimizing your solution.
+
+- Risks: These are the potential problems or challenges that might affect your performance testing. You should identify the risks and how to mitigate them. For example, you might face delays or budget constraints due to performance testing.
 
 ## Network conditions during testing
 
-Be aware of network conditions during testing. Performance tests are often conducted in isolated environments with the best network conditions, so they usually show favorable results. However, when the solution is moved to real-world use, performance issues might arise due to actual network conditions and the solution being implemented at scale.
+You should also consider the network conditions during your testing. Network conditions can affect the performance of your solution, especially if you have users or components in different parts of the world.
 
-To benchmark what's feasible for the solution when all network conditions are favorable, make sure that the performance testing environment is located in the same Azure region where you plan to deploy the production environment. minimizing testing latency can help identify potential location network issues if the test results vary with the location testing.
+To test the best possible performance of your solution, you should make sure that your testing environment is located in the same Azure region as your production environment. This will minimize the latency between your solution and your users or integrations.
+
+To test the actual performance of your solution, you should also test it under different network conditions that reflect how users will access it in real life. For example, you might need to test it with different bandwidths, latencies, or devices.
 
 ## Next steps
 
-- [Performance overview](performing-solution.md)
-- [Prioritize performance](performing-solution-prioritize-performance.md)
-- [Design for performance](performing-solution-design-for-performance.md)
-- [Address performance issues](performing-solution-address-performance-issues.md)
-- [Product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md)
-- [FastTrack performance workshop](performing-solution-workshop-strategy.md)
-- [Checklist: Performance focus](performing-solution-product-checklist.md)
-- [Case study](performing-solution-product-case-study.md)
+- Find out how to [address performance issues](performing-solution-address-performance-issues.md) that you encounter during testing or production
+- Explore the [product-specific guidance for performance optimizations](performing-solution-product-specific-guidance.md) for different Microsoft products and services
+- Request a [FastTrack performance workshop](performing-solution-workshop-strategy.md) to get expert help and guidance on your solution performance
+- Use the [checklist: Performance focus](performing-solution-product-checklist.md) to review your solution design and implementation for performance considerations
+- Read the [case study](performing-solution-product-case-study.md) of how a customer improved their solution performance with FastTrack support

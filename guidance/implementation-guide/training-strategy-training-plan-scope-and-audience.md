@@ -1,5 +1,5 @@
 ---
-title: Create a training plan
+title: Create a training plan for your Dynamics 365 implementation projects
 description: Find guidance about how to develop your own training plan for your Dynamics 365 implementation project.
 ms.date: 06/27/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: TimoGossen
 ms.author: timogoss
 ---
 
-# Create a training plan
+# Create a training plan for your Dynamics 365 implementation projects
 
 Proper training is critical to user adoption. Organizations must develop a training plan at the start of the project and engage resources from the beginning.
 

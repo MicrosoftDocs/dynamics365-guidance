@@ -1,95 +1,122 @@
 ---
-title: Reporting and analytics strategy
-description: Learn about how to define your reporting strategy.
+title: Create a reporting and analytics strategy
+description: Learn how to define and implement a reporting and analytics strategy that meets your organization's needs and goals for your Dynamics 365 implementation.
 author: TimoGossen
 ms.author: timogoss
-ms.date: 10/19/2022
+ms.date: 01/23/2024
 ms.topic: conceptual
-
+ms.custom:
+  - ai-seo-date: 01/23/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+content_well_notification: AI-contribution
 ---
-# Reporting and analytics strategy
 
-To be a market leader, an organization's products and services must evolve continuously and exceed customer expectations. The information used to improve a product or service is based on data that comes to the surface via reporting. Reporting requirements can be as simple as determining the status of an order or as complex as a cash-flow analysis for a global organization.
+# Create a reporting and analytics strategy
 
-## What is a reporting solution?
+To lead the market, you need to constantly improve your products and services based on customer feedback. You get this feedback from data that you collect and analyze through reporting. Reporting can range from simple status updates to complex financial analyses.
 
-An effective reporting solution is one of the essential elements for business success. A properly implemented reporting solution provides a competitive advantage, as users have access to the exact information they need exactly when they need it, which accelerates and improves the decision-making process.
+## What makes a good reporting solution?
 
-## Define your analytics strategy
+A good reporting solution gives you an edge over your competitors. It delivers the right information to the right people at the right time, so they can make better decisions faster.
 
-An analytics strategy determines how an organization will provide the ideal level of accurate information to users for timely decision-making.
+## Plan your analytics strategy
 
-The strategy includes a list of tools and types of reporting (such as analytics, static reports, and ad-hoc reporting), as well as how the information will be secured and shared with users. Implementation of the strategy forms a foundation for defining standards, processes, and best practices.
+Your analytics strategy defines how you'll provide accurate and timely information to your users. It includes:
 
-Your analytics strategy can help transform data collected from different processes and systems into knowledge to help you stay competitive in the market.
+- The tools and types of reporting you'll use, such as analytics, static reports, and ad-hoc reports
+- How you'll secure and share the information with your users
+- The standards, processes, and best practices you'll follow
 
-A successful strategy caters to user requirements and how those requirements must be fulfilled. For example, some business users may require printed reports, which can be sent to customers and vendors. Others may need data to be available for summarized, detailed, or ad-hoc reporting. Business management may require financial or operational reports to understand the health of the organization and determine an overall strategy. Serving such varied user needs often requires different tools to manage data coming from multiple sources. For example, financial and ad-hoc reporting requirements may rely on data extracted and stored in a staging location utilizing Microsoft Azure data services such as Azure Synapse Analytics, as well as manufacturing or sales information in Dynamics 365 apps.
+Your analytics strategy can help you turn data from different sources into insights that help you stay ahead of the market.
 
-With a centralized data and business intelligence strategy, the IT department is usually responsible for data, ETL processes, and reporting solutions. In a self-service approach, the IT team implements a data analytics platform that enables users without statistical, analytical, or data-handling expertise to access and use data. Teams should understand their organization's goals and strategy before implementing an enterprise data platform.
+Your strategy should cater to the different needs of your users. For example:
 
-Any reporting solution requires ongoing maintenance and updates as underlying system requirements and business priorities change. The project team should clearly define the delivery, maintenance, and operational responsibilities. There should also be a plan for making historical data from legacy systems available for reporting, business intelligence, or audit purposes.
+- Some users might need printed reports to send to customers or vendors.
+- Some users might need data for summary, detail, or ad-hoc reports.
+- Some managers might need financial or operational reports to monitor the health of the organization and plan its future direction.
+
+You might need different tools to manage data from multiple sources, such as Azure Synapse Analytics for financial or ad-hoc reporting, or Dynamics 365 apps for manufacturing or sales information.
+
+You should also consider who will be responsible for data, reporting solutions, and maintenance. For example, in a centralized approach, the IT department handles everything. In a self-service approach, the IT department sets up a data platform that lets users access and use data without technical skills.
+
+You should understand your organization's goals and vision before you choose a data platform.
+
+Finally, you should have a plan for how to access historical data from legacy systems for reporting, business intelligence, or audit purposes.
 
 > [!TIP]
-> Every organization needs people who understand how to  analyze and use data. Training and communication are key to ensuring that business users know how to use data and insights to optimize their work, drive efficiency, and make informed decisions. Data and analytics processes change periodically to improve how information is provided. Make sure users are aware of any upcoming change and understand how it will affect them. Constant updates without appropriate change management can confuse users, but effective change management can improve the adoption rate of analytics.
+> Data skills are essential for any organization. Make sure your users know how to use data and insights to optimize their work, drive efficiency, and make informed decisions. Communicate any changes in data processes clearly and effectively. This will help avoid confusion and increase adoption rates.
 
-## Gain deeper insights from data
+## Get deeper insights from data
 
-For most organizations, business intelligence and analytics are critical to their growth and digital transformation. With technology such as Azure Machine Learning and Adaptive Insights, organizations can gain deeper insights from their data. Having an early understanding of these technologies also can help organizations design their systems for future-state data consumption.
+Business intelligence and analytics are crucial for growth and digital transformation. With technologies like Azure Machine Learning and Adaptive Insights, you can get deeper insights from your data. You should also be aware of these technologies when you design your systems for future data needs.
 
-Public, cloud-based business intelligence solutions are a good fit for many organizations, as they are on-demand, self-service, and scalable solutions. To choose the best technology to meet requirements today and in the future, the implementation team must understand their organization's current state and the future vision for enterprise business intelligence and analytics.
+Cloud-based business intelligence solutions are a good option for many organizations. They're on-demand, self-service, and scalable. To choose the best technology for your current and future needs, you should know your organization's current state and vision for business intelligence and analytics.
 
-## Understand reporting requirements
+## Understand your reporting requirements
 
-Understanding reporting requirements is key to delivering successful reports and helping improve the entire business. Reporting requirements must be examined in the context of the business process for the purpose of the report—such as operational reporting, financial or regulatory reporting, ad-hoc inquiries, and dashboard and analytical reporting—and should not be an afterthought.
+Knowing your reporting requirements is key to creating successful reports and improving your business. You should consider the purpose of each report. For example:
 
-As part of the business requirements gathering process, organizations must address reporting requirements, and collect information about how reports will be used, such as:
+- Operational reporting supports daily activities, uses real-time data, and enables quick decisions.
+- Financial or regulatory reporting complies with laws or standards, uses predefined formats, and might involve third parties.
+- Ad-hoc inquiries answer specific questions, uses flexible data sources, and supports exploration.
+- Dashboard and analytical reporting provides an overview of performance, uses visuals and infographics, and supports insights.
 
-- Printed on paper and sent with a shipment on a truck
+You should also collect information about how your reports will be used. For example:
 
-- Used to create a pivot table in Microsoft Excel and build another report
+- Will they be printed on paper or sent electronically?
+- Will they be used to create other reports or charts?
+- Will they be submitted to government agencies or banks?
+- Will they be shared with customers or vendors?
 
-- Submitted to government agencies at the end of the year
+You should also identify any reports that require data from other sources, such as front-office apps or transportation systems. This will help you develop a data integration strategy. Data volume might affect how you design and share your reports.
 
-- Provided to a bank on a periodic basis for audit purposes
+If your reports need to be validated, you should decide how you'll generate and share them, and what data they must include.
 
-Organizations must also identify any critical reports that require data mash-up with other sources, such as front-office apps or transportation systems, to develop an appropriate data integration and solution strategy. Data volume may help determine how reports will be designed and shared with users.
+You should also consider security policies for encryption, access control, and data protection. And you should consider requirements for data retention, data residency, and personal information.
 
-If reports will be validated by a third party, organizations need to determine how reports will be generated and shared, and what data must be included in the report before it can be approved.
+### Print documents and use Word templates
 
-Requirements gathering also includes security policies—encryption, access controls, and row and column level—and requirements related to data retention, data residency, and personally identifiable information (PII).
+Some documents need to be printed in a specific format to comply with local laws. For example, you might need to submit regulatory documents to government agencies. The data for these documents usually comes from enterprise resource planning (ERP) systems.
 
-### Document printing and electronic reporting
+The [Electronic reporting](/dynamics365/fin-ops-core/dev-itpro/analytics/general-electronic-reporting?toc=/dynamics365/finance/toc.json) (ER) tool can help you meet your reporting requirements. It lets you configure different document formats without writing code. It works with text, XML, Word document, and OpenXML worksheet formats.
 
-[Document printing requirements](/dynamics365/fin-ops-core/dev-itpro/analytics/print-documents?toc=/dynamics365/finance/toc.json) are another factor to consider. To comply with local laws, businesses typically must submit regulatory and compliance documents in a pre-defined printed or electronic format provided by government agencies. The data required for these documents often resides in enterprise resource planning (ERP) systems.
+If you use customer engagement apps, you can [use Word templates](/power-platform/admin/using-word-templates-dynamics-365) to create standardized documents. With Dynamics 365 Sales, you can [print quotes](/dynamics365/sales/print-records), [create PDF files](/dynamics365/sales/create-quote-pdf), [use dashboards](/dynamics365/sales-enterprise/dashboards), [and visualize sales pipelines](/dynamics365/sales-enterprise/sales-pipeline-chart).
 
-The [Electronic reporting](/dynamics365/fin-ops-core/dev-itpro/analytics/general-electronic-reporting?toc=/dynamics365/finance/toc.json) (ER) tool can help organizations adopt new regulatory requirements and generate documents in the required format to electronically exchange information with government bodies, banks, and other parties. Targeted at business users instead of developers, the ER tool lets users configure different document formats instead of writing code, making the processes for creating and adjusting formats for electronic documents faster and easier. It works with the TEXT, XML, Microsoft Word document, and OPENXML worksheet formats, and an extension interface provides support for additional formats.
+### Manage business documents
 
-Users of the customer engagement apps can [use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). With Dynamics 365 Sales, users can [gain insights with dashboard](/dynamics365/sales/dashboards), and they can [print quotes, invoices, or other records](/dynamics365/sales/print-records) and [create PDF files from sales records](/dynamics365/sales/create-quote-pdf).
+[Business document management](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) is built on the ER framework. It lets you edit document templates using Microsoft 365 or an Office desktop app. You can change the design of business documents and add placeholders for more data without changing the source code.
 
-### Business document management
+### Create financial reports
 
-[Business document management](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) is built on top of the ER framework, and enables business users to edit document templates by using Microsoft 365 or a Microsoft Office desktop application. Edits might include changing business document designs and adding placeholders for additional data without source code changes and new deployments. No knowledge of the ER framework is required to update templates of business documents.
+Financial reporting helps finance professionals create, maintain, and view financial statements. [Financial reporting](/dynamics365/fin-ops-core/dev-itpro/analytics/financial-reporting-intro?toc=/dynamics365/finance/toc.json) in Dynamics 365 finance and operations apps supports currency translation and financial dimensions to design financial reports.
 
-### Financial reporting
+You can use the [default reports](/dynamics365/finance/general-ledger/financial-reporting-getting-started#default-reports) in Dynamics 365 Finance as they are or customize them to meet your needs. The default reports include income statements, balance sheets, and other types of financial reports.
 
-Finance and business professionals use financial reporting to create, maintain, deploy, and view financial statements. [Financial reporting](/dynamics365/fin-ops-core/dev-itpro/analytics/financial-reporting-intro?toc=/dynamics365/finance/toc.json) capabilities in Dynamics 365 finance and operations apps support currency translation and financial dimensions to efficiently design financial reports.
+### Use dashboards, charts, and analytical workspaces
 
-Financial reporting in Dynamics 365 Finance provides default financial reports that organizations can use as is or as a starting point for their financial reporting needs. In addition to traditional financial reports such as income statement and balance sheet, the app's [default reports](/dynamics365/finance/general-ledger/financial-reporting-getting-started#default-reports) include examples of the many types of financial reports you can create and customize.
+Dynamics 365 Sales uses [dashboards](/dynamics365/sales-enterprise/dashboards) to give you an overview of your sales data and team performance. You can use the [sales pipeline chart](/dynamics365/sales-enterprise/sales-pipeline-chart) to see the revenue for each stage of the sales process.
 
-### Dashboards, charts, and analytical workspaces
+Dynamics 365 Finance and Supply Chain Management use rich and interactive reports that are integrated into workspaces. You can use infographics and visuals powered by Power BI to explore the data by selecting elements on the page. You can also identify cause and effect, do simple what-if scenarios, and discover hidden trends, all without leaving the workspace.
 
-The Dynamics 365 Sales app uses [dashboards](/dynamics365/sales-enterprise/dashboards) to provide an overview of actionable business data across an organization, and give insights on sales data and team performance. Sales representatives and managers can use an out-of-the-box [sales pipeline chart](/dynamics365/sales-enterprise/sales-pipeline-chart) in Dynamics 365 Sales to visualize the revenue for an opportunity based on each pipeline phase.
-
-Dynamics 365 Finance and Supply Chain Management deliver rich and interactive reports that are seamlessly integrated into application workspaces. By using infographics and visuals supported by Microsoft Power BI, [analytical workspaces](/dynamics365/fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/finance/toc.json) let users explore the data by selecting or touching elements on the page. They also can identify cause and effect, perform simple what-if operations, and discover hidden trends—all without leaving the workspace. Power BI workspaces complement operational views with analytical insights based on near-real-time information. Power users can use web-friendly design tools to customize the analytical reports that are embedded in the application. By using the free-form canvas designer, users who are familiar with the relevant business insights that are required can help make the organization successful. Customizations that are made to the embedded analytical reports are automatically deployed by the service and made available to other users of the system. Partners and independent software vendors (ISVs) can develop the Power BI content for their solutions and embed it directly into the application.
+Power BI workspaces complement operational views with analytical insights based on near-real&ndash;time data. You can customize the embedded reports using web-friendly design tools. Your customizations are automatically deployed by the service and made available to other users. Partners can develop Power BI content for their solutions and embed it directly into the app.
 
 ## Reporting categories
 
-Reporting needs for an organization can be classified into two categories: operational reporting and business reporting.
+You can classify your reporting needs into two categories: operational reporting and business reporting.
 
 ### Operational reporting
 
-Examples of operational reporting include orders received in a day, delayed orders, and inventory adjustments in a warehouse. This kind of reporting supports the detailed, day-to-day activities of the organization. It is typically limited to a short duration, uses real-time granular data, and supports quick decision-making to improve efficiency. It also helps organizations identify their issues and achievements, as well as future strategies and actions that may affect the business. Operational reports can empower businesses to determine their next steps for improving organizational performance. Organizations can fulfill operational reporting requirements using elements such as native controls, [SSRS reports](/dynamics365/fin-ops-core/dev-itpro/analytics/ssrs-report?toc=/dynamics365/finance/toc.json), dashboards, and [business documents](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management?toc=/dynamics365/finance/toc.json).
+Operational reporting helps you run your daily operations efficiently. It shows you things like orders received, delayed orders, or inventory adjustments. It uses real-time granular data and supports quick decisions. It also helps you identify problems
+and successes, and actions that might affect your business. Operational reports can help you improve your performance and plan your next steps. You can use native controls, [SSRS reports](/dynamics365/fin-ops-core/dev-itpro/analytics/ssrs-report?toc=/dynamics365/finance/toc.json), dashboards, and [business documents](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management?toc=/dynamics365/finance/toc.json) for operational reporting.
 
 ### Business reporting
 
-Business reporting refers to reports detailing operating expenses and financial key performance indicators (KPIs) to business stakeholders so they can understand the organization's overall health and make more informed decisions. This kind of reporting delivers a view of current performance to enable the stakeholders to identify growth opportunities and areas for improvement, and track business performance against the planned goals for the organization.
+Business reporting helps you understand your organization's health and make strategic decisions. It shows you things like operating expenses or financial key performance indicators (KPIs). It gives you a view of your current performance and helps you find opportunities for growth or improvement. It also helps you track how well you're meeting your goals.
+
+## Next steps
+
+- Learn about the benefits and challenges of the [data estate and data modernization](business-intelligence-reporting-analytics-data-estate.md), and how they relate to reporting and analytics in Dynamics 365
+- Explore the [components of the modern data estate](business-intelligence-reporting-analytics-data-estate-components.md), such as data sources, data integration, data storage, data processing, and data consumption
+- Use the Success by Design [checklist](business-intelligence-reporting-analytics-checklist.md) to assess and improve your reporting and analytics strategy
