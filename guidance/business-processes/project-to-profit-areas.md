@@ -46,7 +46,7 @@ The business process area also includes iteratively revising the proposal until 
 
 ## Manage project contracts
 
-This business process area involves creating and managing project contracts throughout the project lifecycle. It covers developing contract templates, negotiating specific contract terms, monitoring contract compliance, managing change orders and resolving contract disputes.  
+This business process area involves creating and managing project contracts throughout the project lifecycle. It covers developing contract templates, negotiating specific contract terms, monitoring contract compliance, managing change orders, and resolving contract disputes.  
 
 Learn more at [Manage project contracts overview](project-to-profit-manage-project-contracts-overview.md).  
  
@@ -62,12 +62,12 @@ Learn more at [Manage project resources and schedule overview](project-to-profit
 <!-- Guessing this next L2 belongs here-->
 ## Manage project financials
 
-This business process area focuses on managing the financial data associated with the project work. It covers tasks such as the following list:
+This business process area focuses on managing the financial data that is associated with the project work. It covers tasks such as the following list:
 
-- Review and approve project estimates.
-- Manage project budgets.
-- Create project invoices.
-- Manage and record project revenue.
+- Reviewing and approving project estimates
+- Managing project budgets
+- Creating project invoices
+- Managing and recording project revenue
 
 Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).
 

@@ -17,7 +17,7 @@ This article describes how you can use Dynamics 365 products to govern your proj
 
 The *govern projects* business process area encompasses the procedures, policies, and structures that are used to manage recurring activities that deliver a particular product or service. Effective management of these processes is crucial for maintaining efficiency, improving productivity, and driving growth. In this context, Dynamics 365 plays a pivotal role. As a comprehensive business solution, it provides robust tools for project governance, so that businesses can streamline their processes, enhance collaboration, and make data-driven decisions.
 
-The process of defining, scoping, and implementing this business process area in an overall implementation with business apps is a strategic endeavor that should ideally occur during the initial stages of system planning. In this way, you gain a holistic view of the organization's processes and increase the likelihood that the solution is tailored to meet the organization's unique needs.
+The process of defining, scoping, and implementing this business process area in an overall implementation with business apps is a strategic endeavor. Ideally, it should occur during the initial stages of system planning. In this way, you gain a holistic view of the organization's processes and increase the likelihood that the solution is tailored to meet the organization's unique needs.
 
 > [!IMPORTANT]
 > Project governance is an iterative process. As the organization evolves, so should its use of Dynamics 365. Conduct regular reviews and updates to ensure that the implementation continues to provide value and meet the changing needs of the business.
@@ -70,7 +70,7 @@ The following steps are illustrated in the *govern projects* business process fl
 
 The *manage project communications*, *manage project quality*, *manage project risk*, and *manage project stakeholders* business processes are repeated as appropriate during the project.
 
-There is a parallel branch to g, *Direct and manage project work* from another [project](project-to-profit-overview.md), because the *govern projects* business process area effectively includes the following business process areas:
+There is a parallel branch to g. *Direct and manage project work* from another [project](project-to-profit-overview.md), because the *govern projects* business process area effectively includes the following business process areas:
 
 1. Manage project contracts
 1. [Manage project resources and schedules](project-to-profit-manage-project-scope-schedule-overview.md)
@@ -80,7 +80,7 @@ There is a parallel branch to g, *Direct and manage project work* from another [
 
 ## Govern projects benefits
 
-Many key benefits can be used to monitor and measure the success of implementing technology to support the *govern projects* business process area. The following sections outline the key benefits that an organization might monitor and measure for *govern projects*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *govern projects* business process area. The following sections outline the key benefits that an organization might monitor and measure for *govern projects*.
 
 ### Make it easier for finance to manage project accounting
 
@@ -103,20 +103,20 @@ Each project type is set up differently for costs and revenue recognition. The p
 
 ### Provide structure for project managers 
 
-Dynamics 365 Project Operations offers a comprehensive solution for tracking a project's Work Breakdown Structures (WBSs). In Dynamics 365 Project Operations, a WBS is a hierarchical decomposition of the total scope of work that the project team must do to fulfill project objectives and create deliverables. It provides a detailed view of the project's tasks and their size, cost, and duration.
+Dynamics 365 Project Operations offers a comprehensive solution for tracking a project's work breakdown structures (WBSs). In Dynamics 365 Project Operations, a WBS is a hierarchical decomposition of the total scope of work that the project team must do to fulfill project objectives and create deliverables. It provides a detailed view of the project's tasks and their size, cost, and duration.
 
 This functionality helps project managers get a clear understanding of the project's structure and progress. It also facilitates better [resource scheduling](project-to-profit-manage-project-scope-schedule-overview.md) and management, and enables WBS estimates to be transferred to [project forecasts](project-to-profit-deliver-project-work.md). These capabilities provide a comprehensive overview of project costs and timeline, and make Dynamics 365 Project Operations an invaluable tool for managing complex projects.
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *govern projects* business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to assist with your *govern projects* business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
 
 1. *Govern projects* (the article that you're currently reading)
-2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
-3. [Manage project resource and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
-4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
-5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
-6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+1. [Manage project resource and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
+1. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related resources
 

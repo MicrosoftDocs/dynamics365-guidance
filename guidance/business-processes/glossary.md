@@ -183,7 +183,7 @@ Billing rules were used in [Dynamics AX](/dynamicsax-2012/appuser-itpro/create-b
 
 ### Budget forecast
 
-A budget forecast is the expected expenditure or revenue per budget line during the period that is defined on the budget line. The forecast equals the budgeted value when the budget is approved. If actual costs are more than the forecasted cost for a budget line, the forecast cost will be made equal to the actual cost.
+A budget forecast is the expected expenditure or revenue per budget line during the period that is defined on the budget line. The forecast equals the budgeted value when the budget is approved. If actual costs are more than the forecasted cost for a budget line, the forecast cost is made equal to the actual cost.
 
 ## C
 
@@ -286,7 +286,7 @@ Material consumption refers to the use of items in a project. You can register t
 
 ### Correcting entry
 
-A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensures that your financial records are accurate.
+A correcting entry fixes a mistake that was posted in the accounting books. You must make correct journal entries as soon as you find an error. Correcting entries ensure that your financial records are accurate.
 
 ### Cost
 
@@ -316,7 +316,7 @@ Dynamics 365 Finance, Supply Chain Management, and Business Central all include 
 
 ### Cost budget
 
-A cost budget represents a point-in-time snapshot of the estimated cost for the project. All actual costs that are incurred on the project, among time, materials, and expenses are compared against the cost budget to track the costs on the project.
+A cost budget represents a point-in-time snapshot of the estimated cost for the project. All actual costs that are incurred on the project, among time, materials, and expenses, are compared against the cost budget to track the costs on the project.
 
 ### Costing methodology
 
@@ -1046,7 +1046,7 @@ A production strategy, a subset of operational strategies, refers to the approac
 
 ### Project budget
 
-A project budget is the total projected costs needed to complete a project over a defined period of time. It's used to estimate what the costs of the project will be for every phase of the project. Creating a project budget is a critical part of the project planning process. The project budget will include such things as labor costs, material procurement costs and operating costs. It's not a static document, and it can be reviewed and revived throughout the project.
+A project budget is the total projected costs that are needed to complete a project over a defined period of time. It's used to estimate the project costs for every phase of the project. Creation of a project budget is a critical part of the project planning process. The project budget includes such things as labor costs, material procurement costs, and operating costs. It isn't a static document but can be reviewed and revised throughout the project.
 
 ### Project contract
 
@@ -1056,7 +1056,7 @@ In Dynamics 365, a project that will be invoiced must be associated with a proje
 
 ### Project controller
 
-The project controller works directly with the project manager to help define the project's goals and objectives. They create and maintain a project budget and schedule, analyze progress reported against the work schedules and recommend actions to improve progress.
+The project controller works directly with the project manager to help define the project's goals and objectives. They create and maintain a project budget and schedule, analyze progress reported against the work schedules, and recommend actions to improve progress.
 
 ### Project delivery
 
@@ -1072,7 +1072,7 @@ A [project manager](#centralized-resource-allocation) is the individual who is r
 
 ### Project phases
 
-The Project Management Institute (PMI) created a 5-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control, and project closure.
+The Project Management Institute (PMI) created a five-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control, and project closure.
 
 ### Project resource
 
@@ -1165,7 +1165,7 @@ Resource requirements refer to the types and quantities of resources that are ne
 
 ### Revenue budget
 
-A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget, to track the revenue on the project.
+A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget to track the revenue on the project.
 
 ### Risk scores
 
@@ -1410,9 +1410,9 @@ See [product](#product).
 
 Win/loss analysis is the process of evaluating why deals were won or lost, to improve the marketing process.
 
-### Work Breakdown Structure (WBS)
+### Work breakdown structure (WBS)
 
-A Project Work Breakdown Structure (WBS) is a project management tool that adopts a step-by-step approach to complete large projects with several moving parts. It breaks down the project into smaller components, integrating scope, cost, and deliverables into a single tool. The Project Management Institute (PMI) defines WBS as "a deliverable-oriented hierarchical decomposition of the work to be executed by the project team to accomplish the project objectives and create the required deliverables." It organizes and defines the total scope of the project, with each descending level representing an increasingly detailed definition of the project work.
+A project work breakdown structure (WBS) is a project management tool that adopts a step-by-step approach to complete large projects that have several moving parts. It breaks down the project into smaller components, and integrates scope, cost, and deliverables into a single tool. The Project Management Institute (PMI) defines a WBS as "a deliverable-oriented hierarchical decomposition of the work to be executed by the project team to accomplish the project objectives and create the required deliverables." It organizes and defines the total scope of the project in such a way that each descending level represents an increasingly detailed definition of the project work.
 
 ### Work order
 

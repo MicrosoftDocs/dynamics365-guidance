@@ -1,4 +1,4 @@
-﻿---
+---
 title: Overview of the project to profit end-to-end business process flow
 description: Learn about the end-to-end business process, from project to profit. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 10/30/2023
@@ -65,23 +65,23 @@ The downstream processes for the project to profit process include the following
 
 - **Acquire to dispose**  
 
-  A primary goal of a project might be the creation of an asset with a long useful life. Maybe you must amortize the accounting value of the asset over its lifetime. When the asset enters service, the accumulated costs of the project become the acquisition value of a new fixed asset managed via the Acquire to dispose business process.
+  A primary goal of a project might be the creation of an asset that has a long useful life. You might have to amortize the accounting value of the asset over its lifetime. When the asset enters service, the accumulated costs of the project become the acquisition value of a new fixed asset that is managed via the *Acquire to dispose* business process.
 
 - **Case to resolution**  
 
-  The *case to resolution* downstream process might start after an initial sale of a product or service as part of a project. For example, a company sells a software product to implement an enterprise solution. After the project is complete, the customer experiences issues. In such cases, the *case to resolution* process can be triggered to track and manage resolution of the issue.
+  The *case to resolution* downstream process might start after an initial sale of a product or service as part of a project. For example, a company sells a software product to implement an enterprise solution. After the project is completed, the customer experiences issues. In such cases, the *case to resolution* process can be triggered to track and manage resolution of the issue.
 
 - **Inventory to deliver**  
 
-  As with the *order to cash* process, if a project includes the sale of tangible, stocked products, the normal downstream *inventory to deliver* process applies to pick, pack, and ship the product.
+  As for the *order to cash* process, if a project includes the sale of tangible, stocked products, the normal downstream *inventory to deliver* process applies to picking, packing, and shipping the product.
 
 - **Order to cash**  
 
-  *Order to cash* can be downstream to *project to profit*. Selling tangible or intangible products to customers is frequently within the scope of a project. For example, a project involves selling a software license and delivering work to implement it on behalf of a customer. For such products, the normal *order to cash* process often applies. This procces includes sales order entry, delivering the product, invoicing for it, and processing customer payment.
+  *Order to cash* can be downstream to *project to profit*. The sale of tangible or intangible products to customers is often within the scope of a project. For example, a project involves selling a software license and delivering work to implement it on behalf of a customer. For such products, the normal *order to cash* process often applies. This process includes entering sales orders, delivering the product, invoicing for it, and processing customer payments.
 
 - **Plan to produce**  
 
-  In scenarios such as *engineer to order* or *build to order* manufacturing, you often manage the production of sub-assemblies or finished products as part of the project. For example, a manufacturer wins a contract to design, build, and commission custom equipment. Since the project takes months, or even years, and encompass many cost components, they manage the contract as one or more discrete projects.
+  In scenarios such as *engineer to order* or *build to order* manufacturing, you often manage the production of subassemblies or finished products as part of the project. For example, a manufacturer wins a contract to design, build, and commission custom equipment. Because the project takes months, or even years, and encompasses many cost components, the manufacturer manages the contract as one or more discrete projects.
 
 - **Design to retire**  
 
@@ -125,7 +125,7 @@ The downstream processes for the project to profit process include the following
 
   - Generating the service report for the services provided  
 
-  - Invoicing for it  
+  - Invoicing for the service  
 
   - Processing customer payment  
 
@@ -195,7 +195,7 @@ There are product-specific capabilities that interact with the *project to profi
 
 - **Microsoft Teams**
 
-  Project teams can improve productivity, and collaborate more effectively with Microsoft Teams. The teams can communicate via chat, video, and voice. They can share files within Project Operations, and access project information directly from within Teams.  
+  Project teams can improve productivity and collaborate more effectively with Microsoft Teams. The teams can communicate via chat, video, and voice. They can share files within Project Operations, and access project information directly from within Teams.  
 
 ## Project to profit business process flow
 
@@ -205,7 +205,7 @@ The following diagram shows the high-level flow of the *project to profit* busin
 
 The following steps are illustrated in the *project to profit* end-to-end business process flow diagram.
 
-The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote*, and *Service to cash* are connected to subprocess a.*Manage project opportunities*. *Product and service lifecycle* *management* is connected to subprocess c.*Manage project contracts*.
+The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote*, and *Service to cash* are connected to subprocess a. *Manage project opportunities*. *Product and service lifecycle* *management* is connected to subprocess c. *Manage project contracts*.
 
 1. Start
 
@@ -225,9 +225,9 @@ The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote
 
         5. Manage project communications
 
-            *Manage project budgets*, *Manage project quality*, and *Manage project communications* connect to subprocess l.*Monitor and analyze project performance*.
+            *Manage project budgets*, *Manage project quality*, and *Manage project communications* connect to subprocess l. *Monitor and analyze project performance*.
 
-            *Manage project risks* connects to subprocess l.*Monitor and analyze project performance* and the downstream process *Case to Resolution*
+            *Manage project risks* connects to subprocess l. *Monitor and analyze project performance* and the downstream process *Case to Resolution*.
 
     2. Manage project contracts
 
@@ -239,29 +239,29 @@ The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote
 
     4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
-        Parallel branches from this subprocess are i. *Capture project expenses*, j.*Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
+        Parallel branches from this subprocess are i. *Capture project expenses*, j. *Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
 
     5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
     <!-- 8. Manage project supply chain
 
-        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*
+        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
 
     9. Capture project expenses
 
-        Parallel branch from this subprocess is the downstream process *Acquire to dispose*
+        Parallel branch from this subprocess is the downstream process *Acquire to dispose*.
 
     10. Process project invoices
 
-        Parallel branch from this subprocess is the downstream process *Order to cash*
+        Parallel branch from this subprocess is the downstream process *Order to cash*.
 
     11. Recognize project revenue
 
-        Parallel branch from this subprocess is the downstream process *Record to Report* -->
+        Parallel branch from this subprocess is the downstream process *Record to Report*. -->
 
     6. Monitor and analyze project performance
 
-        The downstream processes *Service to cash* and *Case to Resolution* connect to End
+        The downstream processes *Service to cash* and *Case to Resolution* connect to End.
 
 3. End
 
