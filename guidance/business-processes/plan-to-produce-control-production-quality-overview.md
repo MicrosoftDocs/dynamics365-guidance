@@ -103,13 +103,13 @@ Dynamics 365 includes [case management](/dynamics365/fin-ops-core/fin-ops/organi
 
 If you want to implement Dynamics 365 solutions to assist with your *Control production quality* business processes, use the following resources and steps to learn more:
 
-1. *Inventory to deliver*: [Manage inventory quality](inventory-to-deliver-areas.md#manage-inventory-quality)  
+1. [Manage inventory quality](inventory-to-deliver-areas.md#manage-inventory-quality)  
 2. [Plan to produce](plan-to-produce-overview.md)  
 3. [Define production strategies](plan-to-produce-define-production-strategies.md)
 4. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)  
 5. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
 6. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
-7. Control production quality (the article that you're currently reading)      
+7. *Control production quality* (the article that you're currently reading)      
 8. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
 Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).  
