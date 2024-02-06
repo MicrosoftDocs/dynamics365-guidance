@@ -3,7 +3,6 @@ title: Define, plan, run, control, and track production operations with the plan
 description: Get an overview for each of the business process areas in the plan to produce end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 01/23/2024
 ms.topic: conceptual
-
 author: edupont04
 ms.author: annekrupke
 ms.reviewer: edupont
@@ -52,6 +51,18 @@ Tracking accurate production costs helps businesses clearly understand the true 
 Learn more at [Track production costs overview](plan-to-produce-track-production-costs-overview.md).  
 
 ## Next steps
+
+If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
+
+1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
+1. [Define production strategies](plan-to-produce-define-production-strategies.md)
+1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
+1. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
+1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
+1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
+1. [Track production costs](plan-to-produce-track-production-costs-overview.md)
+
+## Learn more
 
 If you want to implement Dynamics 365 solutions to assist with your *plan to produce business processes*, use the following resources and steps to learn more.
 

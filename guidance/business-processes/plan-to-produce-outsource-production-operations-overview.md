@@ -112,7 +112,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Outsource p
 2. [Define production strategies](plan-to-produce-define-production-strategies.md)
 3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)  
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
-5. Outsource production operations (the article that you're currently reading)      
+5. *Outsource production operations* (the article that you're currently reading)      
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
 7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 

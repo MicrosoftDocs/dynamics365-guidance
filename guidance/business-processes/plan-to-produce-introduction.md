@@ -90,7 +90,7 @@ By modeling your production process in Dynamics 365 Supply Chain Management, you
 
 Dynamics 365 enables manufacturers to track quality metrics throughout the production process, from raw materials to finished goods, ensuring consistent quality and reducing the risk of defects. It provides support for standardization of testing process and automating pass/fail assessments. It also ties in to the inventory management of quarantined materials and handling non-conformances and corrective actions.
 
-## Next steps
+## Learn more
 
 If you want to implement Dynamics 365 solutions to assist with your *plan to produce* business processes, you can use the following resources and steps to learn more.
 
@@ -103,6 +103,20 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 - Learn more about the Power Platform products at [Business Application Platform](https://powerplatform.microsoft.com/)
 
 - Get an overview of the *plan to produce* process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
+
+## Next steps
+
+If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
+
+1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
+1. [Define production strategies](plan-to-produce-define-production-strategies.md)
+1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
+1. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
+1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
+1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
+1. [Track production costs](plan-to-produce-track-production-costs-overview.md)
+
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).
 
 ## Related resources
 
