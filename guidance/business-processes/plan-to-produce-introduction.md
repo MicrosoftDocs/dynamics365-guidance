@@ -1,7 +1,7 @@
 ﻿---
 title: Introduction to the plan to produce end-to-end business process
 description: Get an introduction to the plan to produce end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their plan to produce processes.
-ms.date: 05/02/2023
+ms.date: 02/06/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -20,7 +20,7 @@ The term *plan to produce* is used to describe a collection of business processe
 
 The *plan to produce* process covers several different approaches to manufacturing. For example, discrete manufacturing, process or batch manufacturing, lean manufacturing, and job-shop manufacturing. These are all considered different modes of manufacturing, but the core concepts in the business process are largely the same. <!--Learn more about how to use the Microsoft Business Applications tools for different modes of manufacturing in the business process and patterns documentation. Eva: No idea what this sentence is trying to say...-->
 
-The *plan to produce* process is highly interconnected to the other end to end business processes, such as *forecast to plan*, *procure to pay, inventory to deliver, record to report, order to cash, and acquire to dispose*. The upstream or downstream relationship of*plan to produce* to the other processes is highly dependent on each organization's chosen operational strategies. For example, *plan to produce* could be an upstream process of*order to cash* in a make to stock scenario, but would be a downstream process instead in a make to order scenario. It is also common that organizations use multiple different operational strategies when they offer different types of products, which is a scenario that is fully supported by Microsoft Business Applications.
+The *plan to produce* process is highly interconnected to the other end to end business processes, such as *forecast to plan*, *procure to pay, inventory to deliver, record to report, order to cash, and acquire to dispose*. The upstream or downstream relationship of *plan to produce* to the other processes is highly dependent on the operational strategies of each organization. For example, *plan to produce* could be an upstream process of *order to cash* in a make-to-stock scenario, but would be a downstream process instead in a make to order scenario. Organizations also often use multiple different operational strategies when they offer different types of products. This choice is fully supported by Dynamics 365.
 
 > [!NOTE]
 > It is important to note that the inventory management processes related to *plan to produce* are not included in this process definition. They are located in the *inventory to deliver* process. Learn more at [Inventory to deliver - introduction to the end-to-end business process](inventory-to-deliver-introduction.md).  
@@ -32,15 +32,15 @@ The *plan to produce* process is highly interconnected to the other end to end b
 
 ![Two boxes showing that the forecast to plan process consists of demand planning and supply planning and leads to the production schedule process in plan to produce.](media/plan-to-produce-2.svg)
 
-The high-level strategy for *plan to produce* processes should be planned at the early phases of a larger ERP implementation. The design and decisions made about this process have an impact on downstream processes including integrations, data that must be migrated, and so on. The production process is often considered business-critical scope for implementing a technology solution, but may sometimes be slated for later phases when a finance-first implementation strategy is chosen.
+The high-level strategy for *plan to produce* processes should be planned at the early phases of a larger business solution. The design and decisions made about this process have an impact on downstream processes including integrations, data that must be migrated, and so on. The production process is often considered business-critical scope for implementing a technology solution, but may sometimes be slated for later phases when a finance-first implementation strategy is chosen.
 
 Every organization has variations to the *plan to produce* process. Here, we define the basic outline for any organization looking to implement a Microsoft technology solution to support the *plan to produce* process.
 
 ## Effect
 
-The *plan to produce* business process is key to any company which produces the product that they are selling. A strong*plan to produce* process ensures that production runs efficiently within the capacity of materials and production resources to deliver products on time and at a minimized cost. Getting the*plan to produce* process right allows all other areas of the business to run smoothly and ultimately results in high customer satisfaction and brand loyalty.
+The *plan to produce* business process is key to any company that produces the product that they sell. A strong *plan to produce* process ensures that production runs efficiently within the capacity of materials and production resources to deliver products on time and at a minimized cost. Getting the *plan to produce* process right allows all other areas of the business to run smoothly and ultimately results in high customer satisfaction and brand loyalty.
 
-Microsoft Business Applications offer many tools to support the execution and control of the *plan to produce* process. The core Dynamics 365 Supply Chain Management tool tracks production data like bills of materials and routings, supports production scheduling and capacity planning, and aligns the production process with other areas of the business. Power Apps can be used to make custom, quick, low-code solutions to support some of the more unique needs in your production process. Power BI and Azure Data Lake together can provide real-time visibility into shopfloor data and metrics to ensure that operations are receiving valuable feedback to control the quality and process of production.
+Dynamics 365 includes many tools to support the execution and control of the *plan to produce* process. The core Dynamics 365 Supply Chain Management tool tracks production data like bills of materials and routings, supports production scheduling and capacity planning, and aligns the production process with other areas of the business. Power Apps can be used to make custom, quick, low-code solutions to support some of the more unique needs in your production process. Power BI and Azure Data Lake together can provide real-time visibility into shopfloor data and metrics to ensure that operations are receiving valuable feedback to control the quality and process of production.
 
 ## Stakeholders
 
@@ -68,19 +68,19 @@ When your organization plans to implement Microsoft Business Applications to ass
 
 ### Increase delivery date accuracy
 
-Using Dynamics 365 Supply Chain Management to track and control the *plan to produce* process allows the business to accurately estimate customer delivery dates. The sales order entry process can reference current production operations as well as material and resource capacity to systemically calculate a realistic date when a customer order can be shipped, which ultimately increases customer satisfaction and improves the order on time and in full (OTIF) percentage.
+Using Dynamics 365 Supply Chain Management to track and control the *plan to produce* process allows the business to accurately estimate customer delivery dates. The sales order entry process can reference current production operations and material and resource capacity to systemically calculate a realistic date when a customer order can be shipped, which ultimately increases customer satisfaction and improves the order on time and in full (OTIF) percentage.
 
 ### Improve insight into current production operations
 
-Just as important as providing realistic estimates to customers is providing accurate status updates. With the full operations traceability provided in Dynamics 365 Supply Chain Management, production supervisors and customer service representatives can quickly view the current status of shop floor operations to advise customers and internal stakeholders of order progress. Visibility into the procurement and planning operations can also provide production managers the tools they need to adjust the schedule based on supply chain disruptions or other variations.
+Providing accurate status updates is as important as providing realistic estimates to customers. With the full operations traceability provided in Dynamics 365 Supply Chain Management, production supervisors and customer service representatives can quickly view the current status of shop floor operations to advise customers and internal stakeholders of order progress. Visibility into the procurement and planning operations can also provide production managers the tools they need to adjust the schedule based on supply chain disruptions or other variations.
 
 ### Quickly and efficiently scale operations
 
-The organized and controlled approach to production data management in Dynamics 365 Supply Chain Management allows organizations to efficiently roll out new products and locations by leveraging the engineering change control tools and product templates to streamline processes. The system also supports capturing standard sets of production instructions and sharing with operators either via a printed job sheet or through the shop floor interface.
+The organized and controlled approach to production data management in Dynamics 365 Supply Chain Management allows organizations to efficiently roll out new products and locations by using the engineering change control tools and product templates to streamline processes. The system also supports capturing standard sets of production instructions and sharing with operators either via a printed job sheet or through the shop floor interface.
 
 ### Enhance control of production costs and decrease cost variances
 
-Dynamics 365 Supply Chain Management supports tracking production cost estimates and actuals for materials, labor, and overhead costs. Knowing the true cost of conversion in your production process helps ensure that you are properly setting product prices, and insights into cost variance can help identify opportunities for improving the production process.
+Dynamics 365 Supply Chain Management supports tracking production cost estimates and actuals for materials, labor, and overhead costs. Knowing the true cost of conversion in your production process helps ensure that you're properly setting product prices, and insights into cost variance can help identify opportunities for improving the production process.
 
 ### Optimize production schedule
 
@@ -90,19 +90,33 @@ By modeling your production process in Dynamics 365 Supply Chain Management, you
 
 Dynamics 365 enables manufacturers to track quality metrics throughout the production process, from raw materials to finished goods, ensuring consistent quality and reducing the risk of defects. It provides support for standardization of testing process and automating pass/fail assessments. It also ties in to the inventory management of quarantined materials and handling non-conformances and corrective actions.
 
-## Next steps
+## Learn more
 
-If you want to implement Dynamics 365 solutions to assist with your *plan to produce business processes*, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *plan to produce* business processes, you can use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a plan to produce technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+- Define the goals and objectives of implementing a *plan to produce* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
 - Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+- Request a demo or get a free trial of Dynamics 365 solutions for the *plan to produce* business process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
 - Learn more about the Power Platform products at [Business Application Platform](https://powerplatform.microsoft.com/)
 
-- Get an overview of the plan to produce process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
+- Get an overview of the *plan to produce* process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
+
+## Next steps
+
+If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
+
+1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
+1. [Define production strategies](plan-to-produce-define-production-strategies.md)
+1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
+1. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
+1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
+1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
+1. [Track production costs](plan-to-produce-track-production-costs-overview.md)
+
+Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).
 
 ## Related resources
 
@@ -110,9 +124,9 @@ You can use the following resources to learn more about the *plan to produce* pr
 
 - TechTalk series on the plan to produce process: [Production control in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=5d421c52-1fb7-46b5-ae52-93db574cf3f6)
 
-- TechTalk on Manufacturing Accounting: [Part 4: Manufacturing Accounting in D365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=3e44201b-72e9-4db2-99bb-13e03b3514ae)
+- TechTalk on Manufacturing Accounting: [Part 4: Manufacturing Accounting in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=3e44201b-72e9-4db2-99bb-13e03b3514ae)
 
-- TechTalk on Production Variance Analysis: [Part 7: Production Variance Analysis in D365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=e9612de7-2e9f-45a4-af54-81b30dc11c55)
+- TechTalk on Production Variance Analysis: [Part 7: Production Variance Analysis in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=e9612de7-2e9f-45a4-af54-81b30dc11c55)
 
 - Product documentation: [Production process overview - Supply Chain Management](/dynamics365/supply-chain/production-control/production-process-overview)
 
