@@ -1,4 +1,4 @@
-﻿---
+---
 title: Business-focused digital transformation case study
 description: Review a case study of a business-focused digital transformation.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Business-focused digital transformation case study

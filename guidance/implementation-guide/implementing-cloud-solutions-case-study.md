@@ -1,4 +1,4 @@
-﻿---
+---
 title: Learn from a cloud implementation case study
 description: Learn how a company with retail locations across Australia used a hybrid model of on-premises and cloud solutions to improve its connectivity and customer service.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Learn from a cloud implementation case study

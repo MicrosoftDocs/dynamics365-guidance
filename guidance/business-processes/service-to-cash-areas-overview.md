@@ -7,8 +7,7 @@ author: edupont04
 ms.author: dehardy
 ms.reviewer: edupont
 ms.custom: ai-gen-docs-bap
-content_well_notification: 
-  - AI-contribution
+ai-usage: ai-assisted
 
 ---
 
