@@ -1,4 +1,4 @@
-﻿---
+---
 title: Checklist for driving app value
 description: Review the checklist for how to drive app value as part of implementing a Dynamics 365 solution.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Checklist for driving app value in Dynamics 365 implementation projects

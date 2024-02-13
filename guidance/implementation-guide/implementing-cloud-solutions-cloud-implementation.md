@@ -1,4 +1,4 @@
-﻿---
+---
 
 title: Cloud implementation considerations
 description: Before you start a cloud implementation project, learn how Dynamics 365 can help you with security, scalability, performance, data isolation, limits, and capacity.
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Cloud implementation considerations and how they apply to implementation projects

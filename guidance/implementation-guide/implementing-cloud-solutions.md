@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to implement Dynamics 365 cloud solutions
 description: Learn how to adopt a cloud mindset, upgrade from on-premises to online, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # How to implement Dynamics 365 cloud solutions

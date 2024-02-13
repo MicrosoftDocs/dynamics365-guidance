@@ -1,4 +1,4 @@
-﻿---
+---
 title: Change streams in business-focused digital transformations
 description: Learn how to use change streams in a business-focused digital transformation.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Change streams in business-focused digital transformations to get comfortable with constant change

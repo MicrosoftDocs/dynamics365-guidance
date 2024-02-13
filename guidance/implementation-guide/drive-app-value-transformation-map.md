@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visualize and communicate digital transformation goals with a transformation map
 description: Learn about the transformation map that can help the business-focused digital transformation.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Visualize and communicate digital transformation goals with a transformation map
