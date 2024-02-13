@@ -1,4 +1,4 @@
-﻿---
+---
 title: Drive feedback and iterations with a minimal viable product strategy
 description: Learn how to use the minimal viable product (MVP) strategy to build, measure, and learn from your app quickly and efficiently.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Drive feedback and iterations with a minimal viable product strategy

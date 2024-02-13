@@ -1,4 +1,4 @@
-﻿---
+---
 title: Keep up with technology using Dynamics 365
 description: Learn how Dynamics 365 keeps your solution updated with the latest features and security patches without disrupting your business.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Keep up with technology using Dynamics 365

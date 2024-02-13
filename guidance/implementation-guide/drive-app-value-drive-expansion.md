@@ -1,4 +1,4 @@
-﻿---
+---
 title: Drive expansion of business applications to create greater business impact
 description: Learn how expansion can help the business-focused digital transformation.
 author: taksatoms
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Drive expansion of business application in business-focused digital transformations
