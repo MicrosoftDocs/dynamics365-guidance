@@ -12,7 +12,7 @@ ms.custom:
   - ai-gen-desc
 content_well_notification:
   - AI-contribution
-  ai-usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Make informed, data-based decisions with business intelligence, reporting, and analytics
