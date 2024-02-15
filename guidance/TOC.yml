@@ -856,9 +856,11 @@ items:
           - name: Business process areas
             href: business-processes/service-to-cash-areas-overview.md
           - name: Create and process service work
-            items:
-            - name: Create work orders
-              href: business-processes/service-to-cash-create-work-orders.md
+            # items:
+            # - name: Create work orders
+            #   href: business-processes/service-to-cash-create-work-orders.md
+            # - name: Create and process service work
+            href: business-processes/service-to-cash-create-process-service-work.md
           - name: Invoice customers
             href: business-processes/order-to-cash-invoice-sales-orders-overview.md
           - name: Monitor customer credit and collections

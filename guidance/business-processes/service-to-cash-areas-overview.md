@@ -1,7 +1,7 @@
 ---
 title: The service to cash business process area broken down into several business process areas
 description: Get an overview for each of the business process areas in the service to cash end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 01/11/2024
+ms.date: 02/02/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: dehardy
@@ -71,13 +71,14 @@ Work orders are used to track the progress of a job or task from start to finish
 To create a work order in Dynamics 365, users typically start by selecting the appropriate work order type. There are several different types of work orders, including maintenance, repair, and installation orders. Once the type of work order has been selected, users can enter the necessary details, such as the customer's name, the work order description, and the priority level.
 
 Next, users can add the necessary resources to the work order, such as labor, equipment, and materials. Dynamics 365 provides a range of tools to help users manage resources, including scheduling tools that allow users to assign resources to specific tasks and track progress in real-time.  
-
-Learn more at [Create work orders overview](service-to-cash-create-work-orders.md). 
+<!-- 
+Learn more at [Create work orders overview](service-to-cash-create-work-orders.md).  -->
 
 The execution of work orders within Dynamics 365 involves the actual completion of the tasks specified in the work order. This process typically involves multiple steps, including job assignment, tracking progress, updating status, and closing out the work order.
 
 Once a work order has been scheduled and assigned to a technician or a team, the execution process begins. The technician can access the work order details, including any instructions, checklists, or documentation needed to complete the task. They can also access any necessary tools, equipment, or materials required for the job.
 
+Learn more at [Create and process service work overview](service-to-cash-create-process-service-work.md).  
 <!-- ## Review and close work orders
 
 Once the work order is completed, the technician can close out the job. This involves updating the work order status to reflect the completion of the task, adding any notes or comments about the job, and closing out any associated purchase orders or invoices.
