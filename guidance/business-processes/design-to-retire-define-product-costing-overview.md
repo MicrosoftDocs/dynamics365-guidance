@@ -135,6 +135,7 @@ You can use the following resources to learn more about the product costing proc
 - [Design Details: Costing Methods in Dynamics 365 Business Central](/dynamics365/business-central/design-details-costing-methods)
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)
 - [Inventory costs in Business Central](/dynamics365/business-central/finance-manage-inventory-costs)
+- [Issue and settle vendor payments overview](design-to-retire-issue-and-settle-vendor-payments-overview.md)
 - Find definitions of terminology that is used in content for *define product costing* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Cost](glossary.md#cost)

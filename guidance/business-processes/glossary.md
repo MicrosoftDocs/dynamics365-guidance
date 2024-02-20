@@ -227,6 +227,10 @@ Businesses can maintain different types of product catalogs, depending on their 
 
 A category hierarchy refers to a way of organizing and structuring products or items into a hierarchical structure, based on their characteristics, attributes, or relationships. This structure allows for efficient management, classification, and navigation of products in Dynamics 365. Typically, the category hierarchy is set up and maintained in Dynamics 365 Supply Chain Management. With [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), you can then share the setup with other applications, such as Dynamics 365 Sales, Customer Insights, Customer Service, or Field Service.
 
+### Centralized payments
+
+A feature that allows organizations with multiple companies to create and manage payments by using a single company that handles all payments. This feature can help streamline the payment process by eliminating the need to enter the same payments in multiple places.
+
 ### Centralized resource allocation
 
 For organizations that centralize the allocation of resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, whereas fulfillment of those resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
@@ -861,6 +865,10 @@ A marketing campaign is a strategic marketing effort across one or more channels
 
 In Dynamics 365, merchandising is the strategic planning, management, and execution of various activities that are related to product offerings, pricing, promotions, and inventory management. The goal of merchandising in Dynamics 365 is to optimize the presentation and availability of products to drive sales, enhance the customer experience, and improve overall business performance.
 
+### Methods of payment
+
+The ways that vendors can receive payment for their goods or services. Some of the most common vendor payment methods include checks, Electronic Funds Transfers (EFT), wire transfers, credit card and more.
+
 ### Modes of manufacturing
 
 Dynamics 365 Supply Chain Management supports four high-level categories of production: discrete, process, lean, and project-based.
@@ -897,6 +905,10 @@ While all overhead costs are [indirect costs](#indirect-costs), not all indirect
 
 ## P
 
+### Payment proposal
+
+A proposal that is created to schedule and create Accounts Payable payments to suppliers.
+
 ### Per-diem
 
 Per-diem refers to the daily allowance paid to employees for expenses incurred while traveling for work. Depending upon company policy, these expenses can include lodging, meals, and other incidental expenses.
@@ -916,6 +928,10 @@ Planning is the process of identifying goals and determining the actions to atta
 ### Positions
 
 A position is an individual instance of a [job](#jobs). Positions are an important element of the lower level of an organization hierarchy. For example, the "Sales manager (East)" position is just one of the positions that's associated with the "Sales manager" job. Positions exist in a department and are assigned to workers. Every position has a length of time that it's effective for.
+
+### Prepayment
+
+A payment made by a buyer to a vendor or supplier in advance of receiving goods or services to secure their future delivery.
 
 ### Pro forma invoice
 
@@ -1093,6 +1109,10 @@ In Dynamics 365, projects can be categorized as one of six types depending on th
 - Internal
 - Time
 
+### Promissory note
+
+A promissory note is a written agreement in which the maker of the note promises to pay a certain amount at a certain time.
+
 ### Proposal
 
 The document that outlines the scope of work, deliverables, timeline, and estimated cost of a project is called a proposal. A proposal is presented to the customer for review and consideration. It might be subject to negotiation before a final agreement is reached.
@@ -1124,6 +1144,10 @@ Raw materials are the inputs to a production process, which are used to create s
 ### Reconcile invoices
 
 Invoice reconciliation is the process of comparing and matching supplier invoices with purchase orders and receipts to ensure accurate payment and track manufacturing costs.
+
+### Reconciliation
+
+In finance, reconciliation refers to the process of comparing two sets of financial records to ensure that they're accurate and in agreement. It's a crucial step in accounting that helps to identify discrepancies between two sets of records and correct them. Reconciliation can be used for various purposes, such as vendor payment reconciliation, which involves reconciling vendor payments with vendor invoices to ensure that they match. Dynamics 365 Finance provides features such as vendor payment overview, file formats for methods of payment, and configuring vendor payment formats to help with this process.
 
 ### Regulatory compliance
 
@@ -1293,7 +1317,11 @@ In field service scenarios where frontline workers travel to perform service wor
 
 In Dynamics 365 Field Service, a service resource is a person who can be scheduled to perform the service delivery process, or equipment that can be used in that process.
 
-In Dynamics 365 Business Central, the term *service resource* covers the people who provide the service, whereas the term *service item* covers the items that can be serviced. In Dynamics 365 Supply Chain Management, the term *service object* covers the items that can be serviced. 
+In Dynamics 365 Business Central, the term *service resource* covers the people who provide the service, whereas the term *service item* covers the items that can be serviced. In Dynamics 365 Supply Chain Management, the term *service object* covers the items that can be serviced.
+
+### Settlement
+
+The process of settling transactions between different document types, such as invoices, payments, credit memos, and fees.
 
 ### Shipment
 
@@ -1348,6 +1376,10 @@ Tax compliance involves adhering to tax laws and regulations, accurately calcula
 ### Tax jurisdiction
 
 A tax jurisdiction is a geographic area, typically defined by a government authority, that has specific tax laws and regulations. Organizations must determine the appropriate tax jurisdictions for their operations to calculate and report taxes correctly.
+
+### Terms of payment
+
+The terms that dictate when a vendor must be paid. These terms vary in policy and are usually included in the invoices generated by companies and sent to customers.
 
 ### Time and material projects
 
