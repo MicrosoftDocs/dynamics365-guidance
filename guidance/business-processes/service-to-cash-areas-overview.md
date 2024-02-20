@@ -1,7 +1,7 @@
 ---
 title: The service to cash business process area broken down into several business process areas
 description: Get an overview for each of the business process areas in the service to cash end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 02/02/2024
+ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: dehardy
@@ -19,7 +19,11 @@ The *service to cash* process is broken down into several business process areas
 
 ## Manage service assets
 
-Managing service assets is a process that generally involves identifying and tagging assets that support the services that your organization provides.<!-- text made up by Eva, pending L2 content-->
+Many organizations provide services for products that their customers purchase, lease from them, or from other sources and that need to be maintained and serviced regularly. These services may include installation, maintenance, repair, troubleshooting, or upgrading of the products.  
+
+To manage service assets effectively, it's vital to keep a repository of serviceable items (assets) and to track them, recording all the needed information that will be helpful during the maintenance process.  
+
+Learn more at [Manage service assets overview](service-to-cash-manage-service-assets.md).
 
 <!-- 
 ## Establish servicing policies and procedures

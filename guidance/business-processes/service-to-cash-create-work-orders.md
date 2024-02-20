@@ -147,6 +147,7 @@ You can use the following resources to learn more about the *Create work orders*
 - [Service Management - Dynamics 365 Business Central](/dynamics365/business-central/service-service)
 - [Implementation strategy](../implementation-guide/implementation-strategy.md)
 - [Process-focused solution](../implementation-guide/process-focused-solution.md)
+- [Manage service assets overview](service-to-cash-manage-service-assets.md)
 - Find definitions of terminology that is used in content for *Create work orders* process area in the [Glossary of terms in Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary) article. For example, this glossary includes the following terms:
 
     - [Work order](glossary.md#work-order)

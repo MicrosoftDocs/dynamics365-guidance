@@ -131,6 +131,7 @@ Use the following resources to learn more about the *service to cash* process in
 - [Overview of Dynamics 365 Field Service](/dynamics365/field-service/overview)
 - [Dynamics 365 Field Service: Deliver exceptional service](https://dynamics.microsoft.com/field-service/overview/)
 - [Implement Microsoft Dynamics 365 Field Service (training)](/training/paths/implementing-dyn365-field-service/)
+- [Manage service assets overview](service-to-cash-manage-service-assets.md)
 
 ## Next steps
 

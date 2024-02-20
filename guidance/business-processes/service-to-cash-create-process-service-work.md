@@ -1,7 +1,7 @@
 ﻿---
 title: Create and process service work overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for creating and processing work related to services.
-ms.date: 02/02/2024
+ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: dehardy
@@ -105,7 +105,7 @@ Accelerated cash flow and revenue recognition by invoicing customers accurately 
 
 If you want to implement Dynamics 365 solutions to assist with your *Create and process service work* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. Manage service assets
+1. [Manage service assets](service-to-cash-manage-service-assets.md)  
 2. Manage service resources
 3. *Create and process service work* (The article that you're currently reading)
 4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
