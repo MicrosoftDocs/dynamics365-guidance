@@ -163,6 +163,8 @@ Use the following resources to learn more about the service to cash process in D
 
 - [Dynamics 365 Field Service user guide](/dynamics365/field-service/user-guide)
 
+- [Manage service assets overview](service-to-cash-manage-service-assets.md)
+
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Accounts payable lead, Accounts receivable lead, Finance lead, Sales lead, Purchasing lead, Production lead, Supply chain lead
 

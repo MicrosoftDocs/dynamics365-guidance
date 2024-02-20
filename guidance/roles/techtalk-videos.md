@@ -5,7 +5,7 @@ author: alcabral
 ms.author: edupont
 ms.topic: overview #Required; don't change.
 ms.collection: get-started #Required; 
-ms.date: 11/02/2023
+ms.date: 02/16/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -20,6 +20,9 @@ Dynamics 365 TechTalks are a platform for FastTrack solution architects and engi
 TechTalks are typically a 60-minute presentation presented live in two different time zones. Anyone can register for a TechTalk to receive the link to the live session. Live TechTalks include questions and answer sessions at the end as an opportunity to get your questions answered.
 
 Each TechTalk is recorded and shared on the [Dynamics 365 Community](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a) site and the [Dynamics 365 Community](https://www.youtube.com/%40MSD365Community/featured) YouTube channel. You can download a PDF of the slides for the presentation from the [Dynamics 365 Community](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a) site.  
+
+> [!TIP]
+> We're gradually adding articles with summaries of the TechTalks here on Microsoft Learn. Get an overview at [Dynamics 365 TechTalks](../techtalks/index.yml).
 
 ## Get started
 
@@ -37,6 +40,7 @@ To see a list of upcoming TechTalks, visit our blog page at [https://aka.ms/Upco
 
 There are several ways to find past TechTalks and the related artifacts. Use one of the following techniques to find past TechTalks.
 
+- Find them on [Microsoft Learn](../techtalks/index.yml) - we're gradually adding articles with summaries of key TechTalks.
 - Visit the [FastTrack TechTalks](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a&groupid=fe7f279c-2848-4109-9139-26dad32a1ce2) page on the Dynamics 365 Community site. The TechTalks on this page are sorted from the newest to the oldest.  
 
   To navigate in the list of TechTalks, use the buttons at the bottom of the page. To view the details and find the video and Power Point presentation for a TechTalk, choose the tile for the TechTalk.  

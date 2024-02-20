@@ -4,7 +4,7 @@ description: You can migrate the data that you want to Dynamics 365. Here, we ou
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
-ms.date: 04/27/2023
+ms.date: 02/02/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -33,11 +33,8 @@ To help you migrate relevant master data and open transactions, you can use data
 - [Import products in Dynamics 365 projects](import-products.md)  
 - [Import sales orders in Dynamics 365 projects](import-sales-orders.md)  
 - [Import vendor invoices in Dynamics 365 projects](import-vendor-invoices.md)  
+- [Import general journals in Dynamics 365 projects](import-general-journals.md)
 
 ## Related content
 
 [Data management in Dynamics 365 implementation projects](../implementation-guide/data-management.md)  
-
-## Next steps
-
-[Import customers in Dynamics 365 projects](import-customers.md)  

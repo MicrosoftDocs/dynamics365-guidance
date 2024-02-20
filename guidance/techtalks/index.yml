@@ -1,0 +1,41 @@
+### YamlMime:Landing
+
+title: Dynamics 365 TechTalks
+summary: Get an overview of Dynamics 365 TechTalks and learn how to get started.
+
+metadata:
+  title: Dynamics 365 TechTalks
+  description: Get an overview of Dynamics 365 TechTalks and learn how to get started.
+  author: edupont04
+  ms.author: edupont
+  ms.date: 02/16/2024
+  ms.topic: landing-page # DON'T CHANGE
+  ms.custom: bap-template #Required; don't change.
+
+# linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
+
+landingContent:
+
+# Card
+  - title: Get started
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: Introduction to TechTalks
+        url: ../roles/techtalk-videos.md
+    #   - text: 
+    #     url: 
+    #   - text: 
+    #     url: 
+    # - linkListType: learn
+    #   links:
+    #     - text: 
+    #       url: 
+
+# Card
+  - title: Integration
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Integration with Dataverse
+          url: integration-patterns-dataverse.md

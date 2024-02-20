@@ -117,6 +117,7 @@ You can use the following resources to learn more about the *design to retire* p
 - [Set up a product catalog Walkthrough (Dynamics 365 Sales)](/dynamics365/sales/set-up-product-catalog-walkthrough)
 - [Configure and manage products and inventory in Dynamics 365 Supply Chain Management](/training/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate](/certifications/d365-functional-consultant-supply-chain-management/)
+- [Issue and settle vendor payments overview](design-to-retire-issue-and-settle-vendor-payments-overview.md)
 - Find definitions of terminology that is used in content for *design to retire* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Attribute](glossary.md#attribute)

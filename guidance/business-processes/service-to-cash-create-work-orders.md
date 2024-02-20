@@ -1,14 +1,14 @@
 ---
-title: Overview of the create work orders business process area part of the service to cash process
-description: Learn how you can use Dynamics 365 products to support the organization's business processes to create work orders.
-ms.date: 12/01/2023
+title: Deprecated business process area
+description: Deprecated article that is replaced by service-to-cash-create-process-service-work - go read that instead.
+ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: dehardy
 ---
-
-# Identify and document business process leading to their creation with the create work orders process
-
+<!-- DEPRECATED AND REPLACED BY service-to-cash-create-process-service-work.md-->
+# Deprecated business process area article
+<!--
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 
 This article describes the benefits and process flow of the *Create work orders* business process area that is part of the *Service to cash* end-to-end process. This area covers the business processes that lead to the creation of work orders. It also covers the business processes that determine the content of the work order to ensure that it has the necessary information to efficiently drive the downstream scheduling and service delivery processes.
@@ -147,6 +147,7 @@ You can use the following resources to learn more about the *Create work orders*
 - [Service Management - Dynamics 365 Business Central](/dynamics365/business-central/service-service)
 - [Implementation strategy](../implementation-guide/implementation-strategy.md)
 - [Process-focused solution](../implementation-guide/process-focused-solution.md)
+- [Manage service assets overview](service-to-cash-manage-service-assets.md)
 - Find definitions of terminology that is used in content for *Create work orders* process area in the [Glossary of terms in Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary) article. For example, this glossary includes the following terms:
 
     - [Work order](glossary.md#work-order)
@@ -171,4 +172,4 @@ Principal authors:
 
 *Stakeholders:* Customer services, Engineering, IT (Information Technology), Operations, Production, Project Management, Service operations, Transportation, Warehouse
 
-*Products:* Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management
+*Products:* Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management -->
