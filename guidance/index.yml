@@ -11,7 +11,7 @@ metadata:
   author: edupont04
   ms.author: edupont
   ms.subservice: guidance
-  ms.date: 07/06/2023
+  ms.date: 02/16/2024
   hide_bc: true
 
 # highlightedContent section (optional)
@@ -54,8 +54,10 @@ productDirectory:
           url: /training/dynamics365/
         - text: Introduction to Success by Design
           url: implementation-guide/success-by-design.md
-        - text: FastTrack for Dynamics 365
-          url: fasttrack/overview.md
+        # - text: FastTrack for Dynamics 365
+        #   url: fasttrack/overview.md
+        - text: Find TechTalk videos
+          url: roles/techtalk-videos.md
 
 # processes card
     - title: End-to-end business processes
@@ -63,7 +65,7 @@ productDirectory:
       links:
       - text: Get started
         url: business-processes/index.yml
-      - text: About the business process guides
+      - text: About and how to use the business process guides
         url: business-processes/about.md
       - text: Business processes, steps, and how to find things
         url: business-processes/about-steps-navigation.md
@@ -328,7 +330,7 @@ conceptualContent:
         text: Get started
         url: business-processes/overview.md
       - itemType: concept
-        text: About the business process guides
+        text: About and how to use the business process guides
         url: business-processes/about.md      
     - title: Acquire to dispose
       links:
@@ -534,25 +536,25 @@ additionalContent:
     items:
       # Card
       - title: Dynamics 365 documentation
-        summary: Hub page with links to documentation and training for each app
+        summary: Hub page with links to documentation and training for each app.
         url: /dynamics365/index
       # Card
       - title: Power Platform documentation
-        summary: Analyze data, build solutions, automate processes, and create virtual agents
+        summary: Analyze data, build solutions, automate processes, and create virtual agents.
         url: /power-platform/
       # Card
       - title: Power Platform guidance
-        summary: Provides information to help you create and implement the business and technology strategies necessary for your organization to succeed with Microsoft Power Platform
+        summary: Provides information to help you create and implement the business and technology strategies necessary for your organization to succeed with Microsoft Power Platform.
         url: /power-platform/guidance/
       # Card
       - title: Dynamics 365 training
-        summary: Find free e-learning content from Microsoft here
+        summary: Find free e-learning content from Microsoft here.
         url: /training/dynamics365/
       # Card 
       - title: Troubleshooting guide for Dynamics 365
-        summary: Landing page with links to content for troubleshooting and answers to frequently asked questions across Dynamics 365 apps
+        summary: Landing page with links to content for troubleshooting and answers to frequently asked questions across Dynamics 365 apps.
         url: /troubleshoot/dynamics-365/
       # Card
       - title: Privacy and personal data for Microsoft Dynamics 365 
-        summary: Landing page for compliance and Dynamics 365
+        summary: Landing page for compliance and Dynamics 365.
         url: /dynamics365/get-started/privacy/

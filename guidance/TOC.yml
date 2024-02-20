@@ -16,8 +16,8 @@ items:
           href: roles/certifications.md
         - name: Find assessments
           href: resources/assessments.md
-        - name: Find TechTalk videos
-          href: roles/techtalk-videos.md
+        # - name: Find TechTalk videos
+        #   href: roles/techtalk-videos.md
         - name: Roles in Dynamics 365
           href: roles/overview.md
         - name: Functional consultant
@@ -918,7 +918,15 @@ items:
           href: fasttrack/go-live-workshops.md
         - name: Frequently asked questions about FastTrack
           href: fasttrack/faq.md
-
+# TechTalks
+      - name: TechTalks
+        items:
+        - name: Overview
+          href: techtalks/index.yml
+        - name: Introduction
+          href: roles/techtalk-videos.md
+        - name: Integration patterns with Dataverse
+          href: techtalks/integration-patterns-dataverse.md
 
 # Product docs
       - name: Product documentation
