@@ -1,7 +1,7 @@
 ﻿---
 title: Import data for customers in Dynamics 365 projects
 description: Learn which data entities can help you migrate data for customer in Dynamics 365 implementation projects.
-ms.date: 05/02/2023
+ms.date: 02/02/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: katiehav
@@ -24,20 +24,18 @@ Use the **Customers V3** entity when any of the approximately 80 fields that are
 ## Entities
 
 - [Customer definitions](/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-definitions-customerbase?toc=/dynamics365/guidance/toc.json)  
-
 - [Customers V3](/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customers-v3-customerv3?toc=/dynamics365/guidance/toc.json)  
-
 - [Customer details V2](/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-details-v2-na?toc=/dynamics365/guidance/toc.json)  
 
 ## Next steps
 
-- [Import sales orders](import-sales-orders.md)  
+- Learn how you can use entities to import sales orders at [Import sales orders](import-sales-orders.md)  
 
-- Import customer free text invoices<!--TODO: add links-->  
+- Learn how you can use entities to import customer free text invoices<!--TODO: add links-->  
 
-- Import customer payment journals  
+- Learn how you can use entities to import customer payment journals  
 
-- Import general journals  
+- Learn how you can use entities to import general journals [Import general journals](import-general-journals.md)  
 
 ## Related resources
 

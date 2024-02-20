@@ -457,6 +457,8 @@ items:
               href: resources/migrate-data.md
             - name: Import customers with data entities
               href: resources/import-customers.md
+            - name: Import general journal entries with data entities
+              href: resources/import-general-journals.md
             - name: Import products with data entities
               href: resources/import-products.md
             - name: Import sales orders with data entities
@@ -471,6 +473,12 @@ items:
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customers-v3-customerv3?toc=/dynamics365/guidance/toc.json
               - name: Customer details V2 entity
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-details-v2-na?toc=/dynamics365/guidance/toc.json
+              - name: General journal entity
+                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal?toc=/dynamics365/guidance/toc.json
+              - name: General journal header entity
+                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal-ledgerjournalheader?toc=/dynamics365/guidance/toc.json
+              - name: General journal line entity
+                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal-ledgerjournalline?toc=/dynamics365/guidance/toc.json
               - name: Products V2 entity
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-products-v2-productsv2?toc=/dynamics365/guidance/toc.json
               - name: Released products V2 entity
