@@ -1,7 +1,7 @@
 ﻿---
 title: Create and process service work overview
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for creating and processing work related to services.
-ms.date: 02/15/2024
+ms.date: 02/21/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: dehardy
@@ -13,11 +13,11 @@ ms.author: dehardy
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for creating and processing service work.
 
-This article describes the *Create and process service work* process area within the *Service to cash* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
+It describes the *Create and process service work* process area within the *Service to cash* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
 
-Processes within this area can vary widely by organization based on industries, business models, and unique requirements, but often they follow a similar high-level lifecycle that includes, receiving service requests, scheduling service resources, conducting the service activities, and closing the service request before handing it off to other downstream process areas such as invoicing and payment collection.
+Processes within this area can vary widely by organization based on industries, business models, and unique requirements, but often they follow a similar high-level lifecycle that includes receiving service requests, scheduling service resources, conducting the service activities, and closing the service request before handing it off to other downstream process areas such as invoicing and payment collection.
 
-Given the variety, and often the complexity, of this process area, it is critical that you dedicate the appropriate number of resources and time, in the initial stages of your implementation project, to thoroughly document the processes, steps, and patterns needed to meet your organization's unique requirements.
+Given the variety, and often the complexity, of this process area, it's critical that you dedicate the appropriate number of resources and time in the initial stages of your implementation project to thoroughly document the processes, steps, and patterns needed to meet your organization's unique requirements.
 
 ## Stakeholders 
 
@@ -25,11 +25,11 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Operations** – Examples: COO 
 
-- **Field service** – Examples: Service managers, Field Supervisors, Dispatchers, Frontline Workers
+- **Field service** – Examples: service managers, field supervisors, dispatchers, frontline workers
 
-- **Customer service** – Examples: Call center manager
+- **Customer service** – Examples: call center manager
 
-- **Finance** – Examples: CFO, Controller
+- **Finance** – Examples: CFO, controller
 
 ## Create and process service work process flow 
 
@@ -39,7 +39,7 @@ The following diagram illustrates the high-level process flow for *Creating and 
 
 :::image type="content" source="media/service-to-cash-create-process-service-work-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/service-to-cash-create-process-service-work-flow.svg":::
 
-Create and process service work
+### Create and process service work
 
 The flow diagram for the create and process service work business process area covers the following steps.
 
@@ -49,15 +49,9 @@ The flow diagram for the create and process service work business process area c
 
     1. *Manage customer owned assets*
 
-       A parallel branch from this subprocess is *Hire to retire.*
+       A parallel branch from this subprocess is *Hire to retire* with the subprocess *Manage service resources* that leads to *Create and process service work*.
 
 3. *Create and process service work*
-
-4. *Hire to retire*
-
-    1. *Manage service resources*
-
-5. *Create and process service work*
 
     1. *Create service requests*
 
@@ -67,39 +61,39 @@ The flow diagram for the create and process service work business process area c
 
     4. *Review and close service requests*
 
-6. *Invoice customers*
+4. *Invoice customers*
 
-7. *Record customer payments*
+5. *Record customer payments*
 
-8. *Monitor customer credit and collections*
+6. *Monitor customer credit and collections*
 
-9. *Order to cash*
+7. *Order to cash*
 
-10. End
+8. End
 
 ### Create and process service work benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the creation and processing of work orders. The following sections outline the key benefits that an organization might monitor and measure related to the *Create and process service work* process area.
+Many key benefits can be used to monitor and measure the success of implementing technology to support the creation and processing of work orders. The following sections outline the key benefits that an organization might monitor and measure related to the *Create and process service work* process area.
 
-###  Improved customer satisfaction
+####  Improved customer satisfaction
 
-Improving customer satisfaction is the most important benefit to strive for. Using Dynamics 365 for Field Service, and Supply Chain Management, you can focus on improving customer satisfaction and retention by delivering high-quality services on time and within budget.
+Improving customer satisfaction is the most important benefit to strive for. Using Dynamics 365 Field Service and Dynamics 365 Supply Chain Management, you can focus on improving customer satisfaction and retention by delivering high-quality services on time and within budget.
 
-###  Increased operational efficiency
+####  Increased operational efficiency
 
 Increasing operational efficiency and productivity by reducing manual tasks, errors, and rework is one of the most important objectives for many customers when implementing new processes and systems within their organization.
 
-### Enhanced visibility
+#### Enhanced visibility
 
-Enhanced visibility and control over the service delivery lifecycle by tracking and managing work orders from initiation to completion.
+Enhance visibility and control over the service delivery lifecycle by tracking and managing work orders from initiation to completion.
 
-### Optimized resource utilization
+#### Optimized resource utilization
 
-Optimized resource utilization and allocation by matching the right skills and availability to the demand.
+Optimize resource utilization and allocation by matching the right skills and availability to the demand.
 
-### Accelerated cash flow
+#### Accelerated cash flow
 
-Accelerated cash flow and revenue recognition by invoicing customers accurately and promptly.
+Accelerate cash flow and revenue recognition by invoicing customers accurately and promptly.
 
 ## Next steps
 
