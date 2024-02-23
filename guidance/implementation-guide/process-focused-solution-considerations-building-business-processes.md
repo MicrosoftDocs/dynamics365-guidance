@@ -1,4 +1,4 @@
-﻿---
+---
 
 title: Build quality, optimized, and standardized business processes
 description: Learn how to design, build, and assess quality, optimized, and standardized business processes for your Dynamics 365 implementation.
@@ -13,6 +13,7 @@ ms.custom:
 - ai-gen-title
 - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Build quality, optimized, and standardized business processes

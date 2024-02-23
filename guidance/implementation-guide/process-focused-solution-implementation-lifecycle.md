@@ -1,4 +1,4 @@
-﻿---
+---
 title: Implement Dynamics 365 with a process-focused approach
 description: Learn how to use the Success by design framework to guide your implementation lifecycle with a process-focused approach that aligns with your business goals and outcomes.
 ms.date: 01/16/2024
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Implement Dynamics 365 with a process-focused approach

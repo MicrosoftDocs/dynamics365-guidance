@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-desc
 content_well_notification:
   - AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Implement a solution based on your business processes

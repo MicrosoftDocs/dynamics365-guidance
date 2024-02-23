@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-desc
 content_well_notification: 
   - AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Plan an implementation strategy
