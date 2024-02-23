@@ -12,6 +12,7 @@ ms.custom:
 - ai-gen-desc
 content_well_notification:
 - AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Manage your data in Dynamics 365 implementation projects

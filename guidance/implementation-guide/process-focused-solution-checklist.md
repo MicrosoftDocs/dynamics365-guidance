@@ -1,4 +1,4 @@
-﻿---
+---
 title: Checklist for process-focused solutions
 description: Use this checklist to make sure you follow the best practices for defining, implementing, and optimizing your business processes for your Dynamics 365 solution.
 ms.date: 01/16/2024
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Checklist for process-focused solutions

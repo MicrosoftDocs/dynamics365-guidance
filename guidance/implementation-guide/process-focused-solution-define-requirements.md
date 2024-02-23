@@ -1,4 +1,4 @@
-﻿---
+---
 title: Define your requirements for your Dynamics 365 solution
 description: Learn how to use business process mapping to create clear and accurate requirements for your Dynamics 365 solution and improve your business operations.
 ms.date: 01/16/2024
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Define your requirements for your Dynamics 365 solution
