@@ -1,4 +1,4 @@
-﻿---
+---
 title: Optimize your implementation with a fit-to-standard and fit-gap analysis
 description: Learn how to review your current processes and identify what to change, keep, or add to make the most of your Dynamics 365 implementation.
 ms.date: 01/16/2024
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Optimize your implementation with a fit-to-standard and fit-gap analysis

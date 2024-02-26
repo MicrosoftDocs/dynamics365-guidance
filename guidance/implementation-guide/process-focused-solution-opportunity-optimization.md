@@ -1,4 +1,4 @@
-﻿---
+---
 title: Optimize your business processes with Dynamics 365
 description: Learn how to map, model, and standardize your current and future business processes as part of your Dynamics 365 implementation.
 ms.date: 01/16/2024
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Optimize your business processes with Dynamics 365

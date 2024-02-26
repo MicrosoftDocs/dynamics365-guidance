@@ -1,4 +1,4 @@
-﻿---
+---
 title: Case study in process-focused solutions
 description: Read this case study to learn how a large, multinational organization changed its implementation approach and achieved better results with Dynamics 365.
 ms.date: 01/16/2024
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Case study in process-focused solutions

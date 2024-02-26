@@ -13,6 +13,7 @@ ms.custom:
   - ai-gen-desc
 content_well_notification: 
   - AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Design a solution architecture that works for you

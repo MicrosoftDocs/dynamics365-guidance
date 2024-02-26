@@ -1,4 +1,4 @@
-﻿---
+---
 title: Plan your deployment and release
 description: Learn how to plan the deployment and release of your Dynamics 365 solution, based on your business goals and needs.
 ms.date: 04/27/2023
@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
 content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Plan your deployment and release
