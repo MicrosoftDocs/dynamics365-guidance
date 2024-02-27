@@ -939,12 +939,6 @@ items:
           href: roles/techtalk-videos.md
         - name: Introduction to the Dynamics 365 guidance hub
           href: techtalks\get-started-guidance-hub.md
-        - name: Introduction to the business process catalog
-          href: techtalks\get-started-business-process-catalog.md
-        - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
-          href: techtalks\extend-supply-chain-commerce-b2b.md
-        - name: Implementation approach with agile techniques for Dynamics 365 business solutions
-          href: techtalks\implementation-approach-with-agile-techniques.md
         - name: Setup
           items:
           - name: Set up business-to-business digital selling with Dynamics 365
@@ -961,9 +955,20 @@ items:
             href: techtalks\integrate-finance-operations-overview.md
           - name: Integration patterns for Dataverse
             href: techtalks\integrate-finance-operations-dataverse.md
+          - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
+            href: techtalks\extend-supply-chain-commerce-b2b.md
+        - name: Implementation
+          items:
+          - name: Implementation approach with agile techniques
+            href: techtalks\implement-use-agile-techniques.md
         - name: Business processes
           items:
-
+          - name: Introduction to the business process catalog
+            href: techtalks\get-started-business-process-catalog.md
+        - name: What's new
+          items:
+          - name: What's new in Supply Chain Management in 2023 release wave 2
+            href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
 # Product docs
       - name: Product documentation
         items:

@@ -1,16 +1,16 @@
 ﻿---
-title: TechTalk Implementation approach with agile techniques for Dynamics 365
+title: TechTalk Implementation approach with agile techniques
 description: Learn about the differences, strengths, and limitations of utilizing waterfall and agile solutions to your Dynamics 365 projects.
 author: dereklh77
 ms.author: v-heuerderek
 ms.topic: conceptual
-ms.date: 02/21/2024
+ms.date: 02/27/2024
 ai-usage: ai-assisted
 ---
 
-# TechTalk: Implementation approach with Agile techniques for Dynamics 365 business solutions
+# TechTalk: Implementation approach with agile techniques for Dynamics 365 business solutions
 
-Discover the transformative potential of Agile techniques in Dynamics 365 implementation, a strategic approach that enhances adaptability and accelerates deployment in today's dynamic business landscape.
+Discover the transformative potential of agile techniques in Dynamics 365 implementation, a strategic approach that enhances adaptability and accelerates deployment in today's dynamic business landscape.
 
 In today's fast-paced business environment, implementing business applications rapidly and effectively is crucial. Microsoft's Dynamics 365 is a powerful suite of ERP and CRM applications that can transform business processes. However, the traditional 'waterfall' approach to implementation may not always be the best fit for every organization or project. Agile techniques offer an alternative that can lead to quicker deployment and better alignment with business needs.
 
@@ -20,7 +20,7 @@ We've based this article on [a TechTalk](https://youtu.be/K9zpwNWRqQA?si=-MaaA2L
 
 ## Agile vs. waterfall
 
-![Screenshot of the waterfall vs. agile screenshot slide, outlining limitations for waterfall and "pure" Agile.](media\implementation-approach-with-agile-techniques-2.svg)
+:::image type="content" source="media/implementation-approach-with-agile-techniques-2.svg" alt-text="Screenshot of the waterfall vs. agile screenshot slide, outlining limitations for waterfall and agile." lightbox="media/implementation-approach-with-agile-techniques-2.svg":::
 
 In a waterfall implementation, the project is meticulously planned upfront, and each phase must be completed before moving on to the next. While this method has its advantages, such as a clear structure and well-defined deliverables, it can also be inflexible and slow to respond to changes.
 
@@ -32,7 +32,7 @@ Combining Dynamics 365 implementations with agile techniques requires a strategi
 
 ### Step 1: Preparing for agile Dynamics 365 implementation
 
-![Screenshot of the high-level solution scope, approach and design presentation slide, outlining core solution blueprint and plans.](media\implementation-approach-with-agile-techniques-3.svg)
+:::image type="content" source="media/implementation-approach-with-agile-techniques-3.svg" alt-text="Screenshot of the high-level solution scope, approach and design presentation slide, outlining core solution blueprint and plans." lightbox="media/implementation-approach-with-agile-techniques-3.svg":::
 
 - **Understand business processes**: Begin with a thorough understanding of the business processes that Dynamics 365 will support. This requires close collaboration with business stakeholders to map out the processes in detail.
 
@@ -42,7 +42,7 @@ Combining Dynamics 365 implementations with agile techniques requires a strategi
 
 ### Step 2: Sprint planning
 
-![Screenshot of the planning and create / refine the intitial Macro plan presentation slide, outlining prereqs and steps.](media\implementation-approach-with-agile-techniques-4.svg)
+:::image type="content" source="media/implementation-approach-with-agile-techniques-4.svg" alt-text="Screenshot of the planning and create / refine the intitial Macro plan presentation slide, outlining prereqs and steps." lightbox="media/implementation-approach-with-agile-techniques-4.svg":::
 
 **Break down work into sprints**: Divide the implementation work into sprints, typically 2-4 weeks long, focusing on delivering a set of features at the end of each sprint.
 
@@ -52,7 +52,7 @@ Combining Dynamics 365 implementations with agile techniques requires a strategi
 
 ### Step 3: Sprint execution
 
-![Screenshot of the Sprinting presentation slide outline the steps and goal of sprint executions.](media\implementation-approach-with-agile-techniques-5.svg)
+:::image type="content" source="media/implementation-approach-with-agile-techniques-5.svg" alt-text="Screenshot of the Sprinting presentation slide outline the steps and goal of sprints." lightbox="media/implementation-approach-with-agile-techniques-5.svg":::
 
 **Daily stand-ups**: Hold daily stand-up meetings to discuss progress, identify any blockers, and adjust plans as necessary.
 
@@ -62,7 +62,7 @@ Combining Dynamics 365 implementations with agile techniques requires a strategi
 
 ### Step 4: Review and retrospectives
 
-![Screenshot of the Conference Room Pilot presentation slide, outlining the prereqs, steps, and goals of the review.](media\implementation-approach-with-agile-techniques-6.svg)
+:::image type="content" source="media/implementation-approach-with-agile-techniques-6.svg" alt-text="Screenshot of the Conference Room Pilot presentation slide, outlining the prereqs, steps, and goals of the review." lightbox="media/implementation-approach-with-agile-techniques-6.svg":::
 
 **Sprint review**: At the end of each sprint, hold a review meeting with stakeholders to demonstrate the completed features and gather feedback.
 
@@ -70,7 +70,7 @@ Combining Dynamics 365 implementations with agile techniques requires a strategi
 
 ### Step 5: Release and iterate
 
-![Screenshot of the Monitoring, reporting, and adjusting presentation slide, outlining the prereqs steps, and goal of the step.](media\implementation-approach-with-agile-techniques-7.svg)
+:::image type="content" source="media/implementation-approach-with-agile-techniques-7.svg" alt-text="Screenshot of the Monitoring, reporting, and adjusting presentation slide, outlining the prereqs steps, and goal of the step." lightbox="media/implementation-approach-with-agile-techniques-7.svg":::
 
 **Prepare for release**: Once a set of features is ready, prepare for the release by conducting end-to-end testing and user training.
 
@@ -96,7 +96,7 @@ You can use the following resources to learn more about Dynamics 365.
 
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
 - ["Agile Methodology": Agile Alliance](https://www.agilealliance.org/agile101/)
-- ["Dynamics 365 Implementation Guide": Microsoft Docs](/dynamics365/)
+- [Dynamics 365 Implementation Guide](/dynamics365/)
 - [Agile Project Management with Dynamics 365: Dynamics Community Blog](https://community.dynamics.com/)
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/) 
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)  
