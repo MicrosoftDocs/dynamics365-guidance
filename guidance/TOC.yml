@@ -965,10 +965,12 @@ items:
           items:
           - name: Introduction to the business process catalog
             href: techtalks\get-started-business-process-catalog.md
-        - name: What's new
+        - name: Supply Chain Management
           items:
           - name: What's new in Supply Chain Management in 2023 release wave 2
             href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
+          - name: Demand Planning for Dynamics 365 Supply Chain Management
+            href: techtalks\supply-chain-demand-planning-introduction.md
 # Product docs
       - name: Product documentation
         items:
