@@ -937,8 +937,32 @@ items:
           href: techtalks/index.yml
         - name: Introduction
           href: roles/techtalk-videos.md
-        - name: Integration patterns with Dataverse
-          href: techtalks/integration-patterns-dataverse.md
+        - name: Introduction to the Dynamics 365 guidance hub
+          href: techtalks\get-started-guidance-hub.md
+        - name: Introduction to the business process catalog
+          href: techtalks\get-started-business-process-catalog.md
+        - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
+          href: techtalks\extend-supply-chain-commerce-b2b.md
+        - name: Implementation approach with agile techniques for Dynamics 365 business solutions
+          href: techtalks\implementation-approach-with-agile-techniques.md
+        - name: Setup
+          items:
+          - name: Set up business-to-business digital selling with Dynamics 365
+            href: techtalks\set-up-dynamics-365-digital-selling.md
+          - name: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
+            href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
+        - name: Performance
+          items:
+          - name: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
+            href: techtalks\implement-supply-chain-warehouse-performance-testing.md
+        - name: Integration
+          items:
+          - name: Integration patterns for Dynamics 365 finance and operations applications
+            href: techtalks\integrate-finance-operations-overview.md
+          - name: Integration patterns for Dataverse
+            href: techtalks\integrate-finance-operations-dataverse.md
+        - name: Business processes
+          items:
 
 # Product docs
       - name: Product documentation

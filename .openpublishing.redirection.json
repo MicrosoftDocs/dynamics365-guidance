@@ -69,6 +69,11 @@
       "source_path": "dynamics365/guidance/implementation-guide/prepare-go-live-finance-and-operations-apps.md",
       "redirect_url": "/dynamics365/guidance/implementation-guide/prepare-to-go-live",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/techtalks/integration-patterns-dataverse.md",
+      "redirect_url": "/dynamics365/guidance/techtalks/integrate-finance-operations-dataverse",
+      "redirect_document_id": "false"
     }
   ]
 }
