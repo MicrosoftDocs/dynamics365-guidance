@@ -47,7 +47,7 @@
     "breadcrumb_path": "/dynamics365/guidance/breadcrumb/toc.json",
     "extendBreadcrumb": "true",
     "feedback_system": "Standard",
-    "feedback_product_url": "https://experience.dynamics.com/ideas/categories/",
+    "feedback_product_url": "https://experience.dynamics.com/ideas/",
     "feedback_help_link_url": "https://learn.microsoft.com/dynamics365/get-started/support",
     "feedback_help_link_type": "get-product-support",
     "ms.service":"dynamics-365",
