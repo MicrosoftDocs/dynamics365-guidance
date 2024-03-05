@@ -9,7 +9,7 @@ ms.author: raprofit
 
 # Overview of the design to retire process areas bring services to market and introduce new products
 
-***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Insights, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
+***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 The *design to retire* process is broken down into business process areas for categorizing products, introducing new products, maintaining product data, organizing and assigning product attributes and catalogs, designing and configuring manufactured products, controlling product engineering changes, defining product costing, managing product pricing, managing product assortments and catalogs, and managing product lifecycle. The following sections further describe these business process areas.
 
@@ -54,6 +54,7 @@ If you want to implement Dynamics 365 solutions to assist with your *design to r
 - [Design to retire introduction](design-to-retire-introduction.md)
 - [Design to retire end-to-end overview](design-to-retire-overview.md)
 - [Introduce new products overview](design-to-retire-introduce-new-products-overview.md)
+- [Manage product pricing overview](design-to-retire-manage-product-pricing-overview.md)
 
 ## Related resources
 
