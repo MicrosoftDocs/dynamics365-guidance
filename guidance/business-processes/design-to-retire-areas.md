@@ -53,6 +53,7 @@ If you want to implement Dynamics 365 solutions to assist with your *design to r
 
 - [Design to retire introduction](design-to-retire-introduction.md)
 - [Design to retire end-to-end overview](design-to-retire-overview.md)
+- [Introduce new products overview](design-to-retire-introduce-new-products-overview.md)
 
 ## Related resources
 

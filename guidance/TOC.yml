@@ -665,6 +665,8 @@ items:
             href: business-processes/design-to-retire-define-product-costing-overview.md
           - name: Issue and settle vendor payments overview
             href: business-processes\design-to-retire-issue-and-settle-vendor-payments-overview.md
+          - name: Introduce new products overview
+            href: business-processes\design-to-retire-introduce-new-products-overview.md
         - name: Forecast to plan
           items:
           - name: End-to-end scenario - forecast to plan
