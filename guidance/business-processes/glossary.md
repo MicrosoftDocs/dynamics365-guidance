@@ -1436,6 +1436,22 @@ Upselling is the act of selling additional or higher-value products and services
 
 See [product](#product).
 
+### Vendor
+
+In Dynamics 365 Supply Chain Management, a vendor is an external entity that supplies goods or services to your organization. When you create a vendor account, you enter information about the vendor. This information is used to automatically enter data in documents and to track activity that involves the vendor.
+
+### Vendor account number
+
+In Dynamics 365 Supply Chain Management, the vendor account number is a unique identifier for a vendor. You can set up account numbers so that they're generated automatically when you create a vendor. Alternatively, configure a number sequence so that account numbers are entered manually.
+
+### Vendor bank accounts
+
+If you must make payments to a vendor bank account, you can enter information about the vendor's bank and bank accounts on the **Vendor bank accounts** page. You can also enter information about validation and payments for the bank account. For example, you can add prenotes to vendor bank accounts. You can then use these prenotes to verify the accuracy of account data, such as routing numbers and account numbers. You must specify a default account for payments to the vendor. However, when you make an actual payment, you can change this account to one of the vendor's other accounts.
+
+### Vendor collaboration portal
+
+With the **Vendor collaboration** module in Dynamics 365 Supply Chain Management, vendors can work with purchase orders, invoices, and also place bids on request for quotations and consignment inventory information. The vendor collaboration module shows a limited set of information about purchase orders, invoices, and consignment stock to external vendor users.
+
 ## W
 
 ### Win/loss analysis

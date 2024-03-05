@@ -779,6 +779,8 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
+          - name: Manage vendor relationships overview
+            href: business-processes\procure-to-pay-manage-vendor-relationships-overview.md
         # - name: Product and service lifecycle management
         #   items:
         #   - name: End-to-end scenario - product and service lifecycle management
