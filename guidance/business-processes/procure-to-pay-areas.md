@@ -69,6 +69,8 @@ If you want to implement Dynamics 365 solutions to assist with your procure to p
 
 - [Plan supply and replenishment business process area](forecast-to-plan-areas.md#plan-supply-and-replenishment)  
 
+- [Process vendor invoices overview](procure-to-pay-process-vendor-invoices-overview.md)
+
 ## Related resources
 
 You can use the following resources to learn more about the *procure to pay* process in Dynamics 365.
