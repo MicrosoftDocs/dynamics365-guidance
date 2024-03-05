@@ -105,7 +105,7 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 4. Define policies and procedures for procurement
 
-5. Procure materials and services
+5. [Procure materials and services](procure-to-pay-procure-materials-services-overview.md)
 
 6. Process vendor invoices
 

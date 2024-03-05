@@ -787,6 +787,8 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
+          - name: Procure materials and services overview
+            href: business-processes/procure-to-pay-procure-materials-services-overview.md
           - name: Process vendor rebates and incentives overview
             href: business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md
           - name: Process vendor invoices overview
