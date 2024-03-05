@@ -49,7 +49,7 @@ Learn more at [Manage product pricing overview](design-to-retire-manage-product-
 
 ## Manage product lifecycle
 
-This business process area involves managing the entire lifecycle of a product, from ideation to retirement. Management of the product lifecycle involves making strategic decisions about product development, pricing, and marketing, to help ensure that the product remains profitable and relevant to the market. <!-- Learn more at TODOADDLINK[Manage product lifecycle\].-->
+This business process area involves managing the entire lifecycle of a product, from ideation to retirement. Management of the product lifecycle involves making strategic decisions about product development, pricing, and marketing, to help ensure that the product remains profitable and relevant to the market.  
 
 Learn more at [Manage product lifecycle overview](design-to-retire-manage-product-lifecycle-overview.md).
 

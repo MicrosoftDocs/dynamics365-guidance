@@ -76,10 +76,10 @@ There are many key benefits that can be used to monitor and measure the success 
 If you want to implement Dynamics 365 solutions to help with your *define product catalog and strategy* business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
 
 1. *Define product catalog and strategy* (the article that you're currently reading)
-2. Introduce new products
+2. [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
 3. [Manage product costing](design-to-retire-define-product-costing-overview.md)
-4. Define product pricing
-5. Manage product lifecycle
+4. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
+5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
 ## Related resources
 

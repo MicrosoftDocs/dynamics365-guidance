@@ -4,7 +4,7 @@ description: Learn about the introduce new products business process including l
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 02/27/2024
+ms.date: 03/05/2024
 ---
 
 # Introduce new products overview
@@ -170,11 +170,11 @@ When you use Dynamics 365 Customer Service, you can drive iterative improvement 
 
 If you want to implement Dynamics 365 solutions to assist with your *introduce new products* business processes, you can use the following resources and steps to learn more.
 
-- [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
-- *Introduce new products* (the article you're currently reading)
-- [Define product costing overview](design-to-retire-define-product-costing-overview.md)
-- *Manage product pricing*
-- *Manage product lifecycle*
+1. [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
+2. *Introduce new products* (the article you're currently reading)
+3. [Define product costing overview](design-to-retire-define-product-costing-overview.md)
+4. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
+5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
 ## Related resources
 

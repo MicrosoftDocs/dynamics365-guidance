@@ -108,7 +108,7 @@ If you would like to implement Dynamics 365 solutions to assist with your proces
 - [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
 - *Procure materials and services*
 - [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
-- *Issue and settle vendor payments*
+- [Issue and settle vendor payments](design-to-retire-issue-and-settle-vendor-payments-overview.md)  
 - *Process vendor rebates and incentives* (the article you're currently reading)
 
 ## Related resources
