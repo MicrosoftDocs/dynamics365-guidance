@@ -169,6 +169,18 @@ An audit trail is a chronological record of all transactions and activities in a
 
 A baseline is a fixed reference point that is used to compare project performance over time. Project managers use project baselines to understand how project scope, schedule, and cost are progressing through the completion of a project.
 
+### Batch order
+
+A batch order is a type of production order in Dynamics 365 that is designed for process manufacturing. It's used in conjunction with formulas to manage the creation of specific quantities of products, often in discrete batches. Batch orders streamline the production process in industries where precise control over ingredient proportions and production conditions is critical.
+
+### Bill of materials
+
+A bill of materials (BOM) is a comprehensive list that outlines the components, raw materials, and subassemblies that are required to manufacture a finished product. When you manage product lifecycles in Dynamics 365, the BOM serves as a foundational document that facilitates accurate planning, cost estimation, and production execution. The term *BOM* is generally used in the discrete manufacturing industry.
+
+In Dynamics 365 Supply Chain Management, the term *BOM* is used for the list of items that are required to produce a semi-finished or finished product. Although this term is sometimes used interchangeably with the term *formula*, the two terms have two separate meanings and separate functionality.
+
+In Dynamics 365 Business Central, the term *assembly BOM* covers scenarios where you structure parent items that must be assembled from components with little to no resource use. The term *production BOM* covers items that consist of different components and subassemblies and are produced at a work or machine center. Learn more at [Work with Bills of Material](/dynamics365/business-central/inventory-how-work-boms).
+
 ### Billable hours
 
 Of the hours that are worked on tasks, those hours that can be charged to clients or customers are known as billable hours. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
@@ -287,6 +299,10 @@ Compliance reporting involves the generation and submission of reports to regula
 ### Consume materials
 
 Material consumption refers to the use of items in a project. You can register the consumption of items in several ways. You can sell or purchase items from a project, or reserve items for a project. You can order items from the company's inventory for consumption on a project or purchase items from an external vendor. Item consumption is recorded as a posting that registers that the item was used in the project.
+
+### Co-products and by-products
+
+In process manufacturing, co-products and by-products are additional terms that are associated with formulas and batch orders. Co-products are multiple products that are produced simultaneously in a single production process. By-products are secondary products that are obtained incidentally during the production of the primary item. Dynamics 365 Supply Chain Management accommodates these complexities in process manufacturing.
 
 ### Correcting entry
 
@@ -615,6 +631,10 @@ MAPE is expressed as a percentage, as indicated in the equation in the diagram. 
 
 The attributes that are included when Azure Machine Learning generates a forecast are called dimensions. **Company**, **Site**, and **Allocation key** are mandatory dimensions. If a more detailed forecast is required, the model can include the dimensions **Country/region**, **State**, **Customer group**, **Customer account**, **Warehouse**, **Inventory status**, and **Item number and dimensions**.
 
+### Formula
+
+In the context of process manufacturing in Dynamics 365, a formula is an industry-specific equivalent to a bill of materials (BOM). It defines the precise combination and proportions of ingredients or components that are required to produce a batch of a specific product. Formulas are used with batch orders. They provide detailed instructions for producing items in industries such as chemicals, pharmaceuticals, and food processing.
+
 ### Free text invoice
 
 A [free text invoice](/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) is an [invoice](#invoice) that isn't based on a sales order. Instead, you create a free text invoice manually. You can't enter an item number on this kind of invoice, but it can include free-text descriptions, sales amounts, and sales tax if appropriate. Assign a main account for each invoice line. To distribute the amounts to multiple ledger accounts, select the **Distribute amounts** action on the invoice. The customer balance is posted to the summary account from the posting profile that's used for the invoice.
@@ -708,6 +728,10 @@ The following inventory dimensions are most often used in Dynamics 365:
 - **Serial number**: A unique number that identifies individual items in a batch or shipment
 
 - [**Product dimension**](/dynamics365/supply-chain/pim/product-dimensions): A customizable attribute for categorizing inventory items by size, color, style, and so on
+
+### Inventory turnover
+
+Inventory turnover is a key performance indicator (KPI) that measures the number of times that inventory is sold or used during a specific period. In the context of product lifecycle management in Dynamics 365, an understanding of inventory turnover helps optimize stock levels, reduce holding costs, and ensure efficient supply chain operations.
 
 ### Invoice
 
@@ -1046,6 +1070,10 @@ In Dynamics 365 Sales, Customer Service, Field Service, and Customer Insights, a
 
 A product hierarchy, also known as a product classification or product taxonomy, is a structured system for organizing and categorizing products in a business or organization. It involves creating a hierarchical structure that groups products based on common attributes, characteristics, features, or relationships. This structure helps businesses manage and present their products in a more organized and understandable manner. Learn more at [Create a hierarchy of product classification in Supply Chain Management](/dynamics365/supply-chain/pim/tasks/create-hierarchy-product-classification) and [Manage product categories and products in Commerce](/dynamics365/commerce/category-management-product-creation).
 
+### Product information management (PIM)
+
+Product information management (PIM) is a discipline that involves centralizing and managing all product-related information across an organization. It encompasses the creation, enrichment, and distribution of consistent and accurate product data. In Dynamics 365, the PIM module facilitates this process and ensures uniform and efficient management of product information.
+
 ### Product lifecycle management (PLM)
 
 [Product lifecycle management](/dynamics365/supply-chain/pim/product-lifecycle) (PLM) is the process that an organization uses to manage a product from its initial design and development through its retirement and disposal. The goal of PLM is to increase the efficiency of the product development process, reduce time to market, and improve product quality and profitability by managing and organizing all product-related information in a central location. Product-related information includes specifications, engineering designs, bills of materials or formulas, production schedules, and supply chains.
@@ -1205,6 +1233,10 @@ In Dynamics 365 Supply Chain Management, the [Transportation management module](
 ### Raw material
 
 Raw materials are the inputs to a production process, which are used to create subassemblies and finished goods. Raw materials are commonly referred to as components, ingredients, or bulk materials.
+
+### Recipe management
+
+Recipe management is a term that is used in process manufacturing that focuses on creating and maintaining detailed recipes. In Dynamics 365 Supply Chain Management, these recipes are referred to as *formulas*. Recipe management involves specifying the exact quantities, units of measure, and processing instructions for each ingredient. It helps ensure consistent product quality and compliance with industry regulations.
 
 ### Rebate
 
@@ -1476,6 +1508,10 @@ In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger ac
 
 A network of organizations, resources, activities, and processes that collaboratively design, produce, distribute, and deliver goods or services, ensuring efficient flow from suppliers to customers while minimizing costs and maximizing customer satisfaction.
 
+### Supply chain visibility
+
+Supply chain visibility is the ability to monitor and track the movement of products, components, and information throughout the supply chain. In Dynamics 365, achieving supply chain visibility enhances decision-making by providing real-time insights into inventory levels, order status, and production progress.
+
 ## T
 
 ### Tax codes and rates
@@ -1617,6 +1653,12 @@ A working time calendar in Dynamics 365 Human Resources shows the days and hours
 ### Write-off
 
 Writing off an asset refers to removing it from the balance sheet when its value has been fully depreciated, or it no longer holds any financial value.
+
+## Y
+
+### Yield
+
+In the context of process manufacturing in Dynamics 365, the term *yield* refers to the quantity of a finished product that is obtained from a specific batch or production run. It's a crucial metric for evaluating production efficiency and determining the actual output in comparison to the expected output that is specified in the formula.
 
 ## Next steps
 
