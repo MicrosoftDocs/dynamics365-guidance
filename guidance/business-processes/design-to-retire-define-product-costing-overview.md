@@ -115,10 +115,10 @@ Dynamics 365 provides advanced reporting and analytics capabilities that are bui
 If you want to implement Dynamics 365 solutions to assist with your product costing business processes, you can use the following resources and steps to learn more.
 
 1. [Define product catalog and strategy](design-to-retire-define-product-catalog-strategy-overview.md)
-1. Introduce new products
+1. [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
 1. *Define product costing* (the article that you're currently reading)
-1. Manage product pricing
-1. Manage product lifecycle
+1. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
+1. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
 ## Related resources
 

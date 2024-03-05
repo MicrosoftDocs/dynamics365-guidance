@@ -8,7 +8,7 @@ metadata:
   description: Get an overview of Dynamics 365 TechTalks and learn how to get started.
   author: edupont04
   ms.author: edupont
-  ms.date: 02/16/2024
+  ms.date: 02/27/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -23,6 +23,10 @@ landingContent:
       links:
       - text: Introduction to TechTalks
         url: ../roles/techtalk-videos.md
+      - text: Introduction to the Dynamics 365 guidance hub
+        url: get-started-guidance-hub.md
+      - text: Introduction to the business process catalog
+        url: get-started-business-process-catalog.md
     #   - text: 
     #     url: 
     #   - text: 
@@ -31,11 +35,41 @@ landingContent:
     #   links:
     #     - text: 
     #       url: 
+        
+# Card
+  - title: Set up
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Set up business-to-business digital selling with Dynamics 365
+          url: set-up-dynamics-365-digital-selling.md
+        - text: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
+          url: set-up-supply-chain-inventory-onhand-mobile-app.md
 
 # Card
-  - title: Integration
+  - title: Performance-tune
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
+          url: implement-supply-chain-warehouse-performance-testing.md
+
+# Card
+  - title: Integrate
     linkLists:
     - linkListType: overview
       links:
-        - text: Integration with Dataverse
-          url: integration-patterns-dataverse.md
+        - text: Integration patterns for Dataverse
+          url: integrate-finance-operations-dataverse.md
+        - text: Integration patterns for Dynamics 365 finance and operations applications
+          url: integrate-finance-operations-overview.md
+
+# Card
+  - title: Implement
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Implement using agile techiques
+          url: implement-use-agile-techniques.md
+        - text: Implement warehouse performance testing
+          url: implement-supply-chain-warehouse-performance-testing.md

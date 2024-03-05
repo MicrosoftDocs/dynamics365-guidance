@@ -9,7 +9,7 @@ ms.author: raprofit
 
 # Overview of the design to retire process areas bring services to market and introduce new products
 
-***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Insights, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
+***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 The *design to retire* process is broken down into business process areas for categorizing products, introducing new products, maintaining product data, organizing and assigning product attributes and catalogs, designing and configuring manufactured products, controlling product engineering changes, defining product costing, managing product pricing, managing product assortments and catalogs, and managing product lifecycle. The following sections further describe these business process areas.
 
@@ -23,6 +23,8 @@ In addition, this business process area involves defining and managing product a
 
 Finally, this business process area involves organizing and assigning product attributes such as color, size, style, and configuration to products. Dynamics 365 Supply Chain Management also supports unlimited custom-defined attributes that can be used for reporting and analysis. They can also be shown in the point of sale (POS) or website when you use Dynamics 365 Supply Chain Management together with Commerce. Additionally, you can create catalogs to group related products together. When products are organized in this way, customers can more easily find products, and organizations can more easily manage and analyze their product data. <!-- Learn more at TODOADDLINK[Organize and assign product attributes and catalogs\]. -->
 
+Learn more at [Categorize, segment, and merchandise products and services by using Dynamics 365 applications](design-to-retire-define-product-catalog-strategy-overview.md).  
+
 ## Introduce new products
 
 Every organization has a process for developing and introducing new products to the market. The process includes idea generation, concept development, product design, testing, and launch. Office 365 includes a variety of tools to help you remain organized, and Dynamics 365 Supply Chain Management includes tools, such as a configurable workflow, to help with the business process flow of introducing new products. For more basic products, you can also design a business process flow in Dynamics 365 Sales. When you're ready to test new products and advertise them, Dynamics 365 Customer Insights includes a variety of tools to help with the process. A well-managed introduction of new products can help organizations remain competitive and meet customer needs.
@@ -31,7 +33,7 @@ Organizations that design or manufacture products have additional processes. Dyn
 
 This business process area involves controlling changes that are made to product designs and configurations, to ensure that the changes are properly documented, approved, and communicated to all relevant stakeholders. Dynamics 365 Supply Chain Management includes a robust **Engineering change management** module to help organizations manage product changes. Effective change control can help organizations minimize the risk of product defects and improve product quality.
 
-<!-- Learn more at TODOADDLINK[Introduce new products\]. -->
+Learn more at [Introduce new products overview](design-to-retire-introduce-new-products-overview.md).  
 
 ## Define product costing
 
@@ -43,9 +45,13 @@ Learn more at [Define product costing overview](design-to-retire-define-product-
 
 After you define costs, you can start to manage and define product prices, based on factors such as cost, competition, and customer demand. Effective pricing strategies can help organizations improve profitability and maintain a competitive advantage. Dynamics 365 Sales includes basic sales pricing functionality. Dynamics 365 Supply Chain Management has a pricing engine that includes trade agreements, price lists, customer loyalty programs, promotions, and discounts to help determine the best price. <!-- Learn more at TODOADDLINK[Manage product pricing\].-->
 
+Learn more at [Manage product pricing overview](design-to-retire-manage-product-pricing-overview.md).  
+
 ## Manage product lifecycle
 
-This business process area involves managing the entire lifecycle of a product, from ideation to retirement. Management of the product lifecycle involves making strategic decisions about product development, pricing, and marketing, to help ensure that the product remains profitable and relevant to the market. <!-- Learn more at TODOADDLINK[Manage product lifecycle\].-->
+This business process area involves managing the entire lifecycle of a product, from ideation to retirement. Management of the product lifecycle involves making strategic decisions about product development, pricing, and marketing, to help ensure that the product remains profitable and relevant to the market.  
+
+Learn more at [Manage product lifecycle overview](design-to-retire-manage-product-lifecycle-overview.md).
 
 ## Next steps
 

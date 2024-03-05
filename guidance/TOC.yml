@@ -647,6 +647,10 @@ items:
             href: business-processes/concept-to-market-introduce-new-services.md
           - name: Define service costing
             href: business-processes/concept-to-market-define-service-costing-overview.md
+          - name: Manage service lifecycle overview
+            href: business-processes/concept-to-market-manage-service-lifecycle-overview.md
+          - name: Manage service pricing overview
+            href: business-processes/concept-to-market-manage-service-pricing-overview.md
         - name: Design to retire
           items:
           - name: End-to-end scenario - design to retire
@@ -657,8 +661,14 @@ items:
             href: business-processes/design-to-retire-areas.md
           - name: Define product catalog and strategy
             href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
+          - name: Introduce new products overview
+            href: business-processes/design-to-retire-introduce-new-products-overview.md
           - name: Define product costing
             href: business-processes/design-to-retire-define-product-costing-overview.md
+          - name: Manage product pricing overview
+            href: business-processes/design-to-retire-manage-product-pricing-overview.md
+          - name: Manage product lifecycle overview
+            href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
           - name: Issue and settle vendor payments overview
             href: business-processes\design-to-retire-issue-and-settle-vendor-payments-overview.md
         - name: Forecast to plan
@@ -701,6 +711,8 @@ items:
             href: business-processes/hire-to-retire-manage-travel-expenses.md
           - name: Manage occupational health and safety
             href: business-processes/hire-to-retire-manage-occupational-health-safety.md
+          - name: Manage employee time and attendance overview
+            href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
         - name: Inventory to deliver
           items:
           - name: End-to-end scenario - inventory to deliver
@@ -779,6 +791,14 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
+          - name: Procure materials and services overview
+            href: business-processes/procure-to-pay-procure-materials-services-overview.md
+          - name: Process vendor rebates and incentives overview
+            href: business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md
+          - name: Process vendor invoices overview
+            href: business-processes/procure-to-pay-process-vendor-invoices-overview.md
+          - name: Manage vendor relationships overview
+            href: business-processes/procure-to-pay-manage-vendor-relationships-overview.md
         # - name: Product and service lifecycle management
         #   items:
         #   - name: End-to-end scenario - product and service lifecycle management
@@ -937,9 +957,40 @@ items:
           href: techtalks/index.yml
         - name: Introduction
           href: roles/techtalk-videos.md
-        - name: Integration patterns with Dataverse
-          href: techtalks/integration-patterns-dataverse.md
-
+        - name: Introduction to the Dynamics 365 guidance hub
+          href: techtalks\get-started-guidance-hub.md
+        - name: Setup
+          items:
+          - name: Set up business-to-business digital selling with Dynamics 365
+            href: techtalks\set-up-dynamics-365-digital-selling.md
+          - name: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
+            href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
+        - name: Performance
+          items:
+          - name: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
+            href: techtalks\implement-supply-chain-warehouse-performance-testing.md
+        - name: Integration
+          items:
+          - name: Integration patterns for Dynamics 365 finance and operations applications
+            href: techtalks\integrate-finance-operations-overview.md
+          - name: Integration patterns for Dataverse
+            href: techtalks\integrate-finance-operations-dataverse.md
+          - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
+            href: techtalks\extend-supply-chain-commerce-b2b.md
+        - name: Implementation
+          items:
+          - name: Implementation approach with agile techniques
+            href: techtalks\implement-use-agile-techniques.md
+        - name: Business processes
+          items:
+          - name: Introduction to the business process catalog
+            href: techtalks\get-started-business-process-catalog.md
+        - name: Supply Chain Management
+          items:
+          - name: What's new in Supply Chain Management in 2023 release wave 2
+            href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
+          - name: Demand Planning for Dynamics 365 Supply Chain Management
+            href: techtalks\supply-chain-demand-planning-introduction.md
 # Product docs
       - name: Product documentation
         items:
