@@ -647,6 +647,8 @@ items:
             href: business-processes/concept-to-market-introduce-new-services.md
           - name: Define service costing
             href: business-processes/concept-to-market-define-service-costing-overview.md
+          - name: Manage service pricing overview
+            href: business-processes/concept-to-market-manage-service-pricing-overview.md
         - name: Design to retire
           items:
           - name: End-to-end scenario - design to retire
@@ -701,6 +703,8 @@ items:
             href: business-processes/hire-to-retire-manage-travel-expenses.md
           - name: Manage occupational health and safety
             href: business-processes/hire-to-retire-manage-occupational-health-safety.md
+          - name: Manage employee time and attendance overview
+            href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
         - name: Inventory to deliver
           items:
           - name: End-to-end scenario - inventory to deliver
@@ -779,6 +783,8 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
+          - name: Process vendor rebates and incentives overview
+            href: business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md
           - name: Process vendor invoices overview
             href: business-processes/procure-to-pay-process-vendor-invoices-overview.md
           - name: Manage vendor relationships overview

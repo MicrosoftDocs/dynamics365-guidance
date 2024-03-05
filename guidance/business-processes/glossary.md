@@ -471,7 +471,15 @@ Direct expenses are those that are directly tied to the project itself such as s
 
 ### Discounts
 
-Discounts are percentage or dollar reductions in the quoted price. Discounts can be applied to incentivize customers.
+A discount is a term used to encompass the concept of reduction in the standard price offered to customers or received from vendors under specific conditions. Various types of discounts, such as percentage discounts, fixed amount discounts, or tiered discounts, can be configured when you use Dynamics 365 applications. Dynamics 365 provides a flexible framework for managing discounts, allowing organizations to tailor their pricing strategies to meet diverse customer needs and market conditions.
+
+### Discount concurrency
+
+Discount concurrency in Dynamics 365 Commerce refers to the capability to apply multiple discounts simultaneously to a transaction. This concept allows organizations to implement complex pricing strategies by combining various discounts, such as volume discounts and promotional discounts, ensuring flexibility and granularity in discount application.
+
+### Discount eligibility
+
+Discount eligibility refers to the criteria and conditions that determine whether a customer qualifies for a discount on services. In Dynamics 365 for managing pricing, discount eligibility is often configured based on factors such as customer loyalty, volume of products or services, or specific promotional campaigns. Establishing clear rules for discount eligibility ensures consistency and transparency in applying discounts to different customer segments.
 
 ### Dock management
 
@@ -488,6 +496,10 @@ The Data Universal Number System (DUNS) identifies companies in dozens of countr
 You can specify the DUNS number on a customer record in Dynamics 365 Finance. You can use APIs provided with Finance to build integrations with Dun & Bradstreet for your specific business requirements. If you use Dynamics 365 Customer Insights, you can [enrich company profiles with Dun & Bradstreet data](/dynamics365/customer-insights/enrichment-dnb) using a native integration.
 
 ## E
+
+### Eligibility criteria
+
+Eligibility criteria refer to the specific conditions or requirements that must be met for a transaction or activity to qualify for a vendor rebate. In Dynamics 365, configuring eligibility criteria is essential to precisely define the circumstances under which incentives will be applied, ensuring accuracy and alignment with business objectives.
 
 ### Engineering change management (ECM)
 
@@ -553,7 +565,11 @@ In accounting, a fixed asset is any long-term asset whose cost expiration is rec
 
 Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process (WIP) to calculate the degree of completion of a project or a group of projects.
 
-Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md). 
+Learn more at [Manage project financials overview](project-to-profit-manage-project-financials-overview.md).
+
+### Flex groups
+
+Flexible working hours let companies minimize payments for overtime by offering workers extra time off during periods when the workload is low. This feature is relevant, for example, in segments that experience seasonal changes in workload. In Dynamics 365 Supply Chain Management flexible working hours are supported with a concept called Flex groups. One or more Flex groups can be created and assigned to different workers to allow for flexible time calculations. Learn more at [Flex groups](/dynamics365/supply-chain/production-control/time-attendance-flex-groups).
 
 ### Forecast
 
@@ -628,6 +644,10 @@ A granularity attribute is the unique combination of [dimension values](#forecas
 HIPAA is a U.S. federal law that establishes data privacy and security requirements for protected health information (PHI) and governs healthcare providers' and organizations' compliance.
 
 ## I
+
+### Incentive programs
+
+In the context of vendor rebates and incentives, incentive programs are structured schemes or agreements established between the organization and vendors. These programs outline the terms, conditions, and criteria for providing incentives, such as volume-based discounts or promotional offerings. Dynamics 365 allows users to define and manage these programs to optimize collaboration with vendors.
 
 ### Index revaluation
 Organizations use indexation to adjust multiple fixed asset values. Revaluation of fixed assets can consist of appreciations, write-downs, or adjustments in value of assets. Some companies may revalue assets more often than others. The purpose of revaluation is to accurately reflect the fair market price of the asset.
@@ -781,6 +801,14 @@ A lease payment schedule is the predetermined timeline and structure for making 
 
 Leased assets are [assets](#asset) that a [lessor](#lessor) allows a lessee to use according to terms that both parties agree to. They differ from owned assets in that the user doesn't purchase the asset outright but is merely "renting" it. A leased asset can be a house, an apartment, or a piece of equipment.
 
+### Leave and absence plan
+
+When you use Dynamics 365 Human Resources you must create a leave and absence plan for each type of leave you offer. Leave and absence plans can accrue at different frequencies, such as annually, monthly, or semimonthly. You can also define a plan as a grant, where a single accrual occurs on a specific date. Learn more at [Create a leave and absence plan](/dynamics365/human-resources/hr-leave-and-absence-plans).
+
+### Leave and absence types
+
+Leave types in Dynamics 365 Human Resources define the types of absences that employees can report. You can tailor leave types according to the needs of your organization. Learn more at [Configure leave and absence types](/dynamics365/human-resources/hr-leave-and-absence-types).
+
 ### Ledger
 
 A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
@@ -855,7 +883,7 @@ In Dynamics 365 Supply Chain Management, it's the [**Production floor execution*
 
 ### Margins
 
-Margins refer to the profit margin or percentage on a quoted deal. Visibility into margins allows for profitable quoting.
+Margins represent the difference between the cost of providing a service and its selling price. Dynamics 365 provides tools for managing pricing, and Dynamics 365 Supply Chain Management includes tools specifically for monitoring margins known as margin alerts. This is crucial process for many organizations seeking to assess the profitability of products or services. The platform provides tools to analyze and optimize margins, ensuring that pricing strategies align with financial objectives while maintaining competitive market positions.
 
 ### Marketing campaign
 
@@ -932,6 +960,26 @@ A position is an individual instance of a [job](#jobs). Positions are an importa
 ### Prepayment
 
 A payment made by a buyer to a vendor or supplier in advance of receiving goods or services to secure their future delivery.
+
+### Price adjustments
+
+Price adjustments in Dynamics 365 involve modifying service prices based on various factors such as market conditions, customer relationships, or changes in costs. These adjustments provide organizations with the flexibility to adapt pricing strategies dynamically. Dynamics 365 Commerce allows for the automated application of price adjustments and approval processes for price adjustment, streamlining the process and ensuring accuracy.
+
+### Price attributes
+
+Price attributes refer to specific characteristics or parameters that influence the determination of service prices in Dynamics 365 Supply Chain Management and Commerce. These attributes may include features, customization options, or delivery specifications, for example. Leveraging price attributes allows organizations to create nuanced and customer-centric pricing structures, tailoring products and services to meet diverse client needs.
+
+### Price components
+
+Price components in Dynamics 365 Supply Chain Management and Commerce represent the individual elements that contribute to the overall product or service price. These components can include direct costs, overhead, and profit margins, for example. By breaking down prices into components, organizations gain visibility into the factors influencing pricing decisions, facilitating precise control and analysis of pricing structures.
+
+### Pricing agreement
+
+A pricing agreement in Dynamics 365 represents a formal arrangement between a service provider and a customer regarding the pricing of services. This agreement outlines the terms, conditions, and agreed-upon pricing structures for a specified period. The flexibility of pricing agreements allows organizations to tailor their offerings to meet the unique needs of individual clients, fostering long-term relationships and ensuring clarity in service pricing.
+
+### Pricing management
+
+Pricing management involves the comprehensive control and oversight of an organization's pricing strategies. In Dynamics 365, pricing management includes tasks such as setting service fees, product prices, defining discount structures, and optimizing overall pricing strategies. Effectively managing pricing is crucial for achieving profitability, competitiveness, and alignment with organizational goals.
 
 ### Pro forma invoice
 
@@ -1113,6 +1161,10 @@ In Dynamics 365, projects can be categorized as one of six types depending on th
 
 A promissory note is a written agreement in which the maker of the note promises to pay a certain amount at a certain time.
 
+### Promotional pricing
+
+Promotional pricing involves the strategic use of temporary discounts or special offers to stimulate sales and attract customers. In Dynamics 365 Supply Chain Management and Commerce, organizations can set up promotional pricing for specific products or services or during designated time periods. This concept is crucial for marketing initiatives, allowing businesses to create targeted promotions that align with their overall pricing strategy and boost customer engagement.
+
 ### Proposal
 
 The document that outlines the scope of work, deliverables, timeline, and estimated cost of a project is called a proposal. A proposal is presented to the customer for review and consideration. It might be subject to negotiation before a final agreement is reached.
@@ -1120,6 +1172,10 @@ The document that outlines the scope of work, deliverables, timeline, and estima
 ### Provider
 
 A provider is a connection point in a supply chain. In the context of Intelligent Order Management in Supply Chain Center, a provider enables integration with other systems by presenting calls between systems as actions that can trigger events that drive orchestration.
+
+### Purchase agreement
+
+A purchase agreement in Dynamics 365 Supply Chain Management governs the terms of procurement between a buyer and a supplier. This agreement encompasses pricing, quantity, delivery schedules, and other relevant terms. Purchase agreements contribute to efficient procurement processes by establishing clear expectations and terms for the acquisition of goods and services. Sometimes these are referred to as blanket orders.
 
 ## Q
 
@@ -1141,6 +1197,30 @@ In Dynamics 365 Supply Chain Management, the [Transportation management module](
 
 Raw materials are the inputs to a production process, which are used to create subassemblies and finished goods. Raw materials are commonly referred to as components, ingredients, or bulk materials.
 
+### Rebate
+
+A rebate is a trade discount or allowance that a supplier uses as incentives to encourage an increase in sales. They are sometimes referred to as supplier incentives, vendor incentives, channel incentives, special pricing agreements, bonuses, and retroactive discounts.
+
+### Rebate accruals
+
+A rebate accrual In Dynamics 365 is the process of calculating the amount that will be earned on each product by the completion of the trading period and recording the estimated amount in the general ledger on the balance sheet. This accrual is automatically reversed once the actual rebate is earned and moved and posted into the appropriate account in the general ledger.
+
+### Rebate agreement
+
+In Dynamics 365 Supply Chain Management, a vendor rebate agreement is a record of a contract with a vendor that specifies the negotiated terms and conditions under which the company qualifies for a monetary reward in return for achieving preset purchase targets.
+
+### Rebate claim
+
+When purchase orders are placed with a vendor that the company has a rebate agreement with, Dynamics 365 Supply Chain Management automatically identifies any future vendor credit payments. If the purchase orders qualify for a rebate, a rebate claim is generated for every order line as soon as a purchase invoice has been posted. This record that is generated is referred to as a rebate claim.
+
+### Rebate generation
+
+Rebate generation in Dynamics 365 involves the automated calculation and creation of rebate transactions based on predefined criteria. The system streamlines this process, reducing manual effort and minimizing errors. Rebate generation is a critical step for accurately tracking and accounting for incentive-related transactions.
+
+### Rebate processing
+
+Rebate processing encompasses the execution of approved incentive transactions in Dynamics 365. This involves validating and applying rebates to relevant financial records, ensuring that calculated incentives are accurately reflected in the organization's financial data. Efficient rebate processing contributes to financial accuracy and transparency.
+
 ### Reconcile invoices
 
 Invoice reconciliation is the process of comparing and matching supplier invoices with purchase orders and receipts to ensure accurate payment and track manufacturing costs.
@@ -1148,6 +1228,14 @@ Invoice reconciliation is the process of comparing and matching supplier invoice
 ### Reconciliation
 
 In finance, reconciliation refers to the process of comparing two sets of financial records to ensure that they're accurate and in agreement. It's a crucial step in accounting that helps to identify discrepancies between two sets of records and correct them. Reconciliation can be used for various purposes, such as vendor payment reconciliation, which involves reconciling vendor payments with vendor invoices to ensure that they match. Dynamics 365 Finance provides features such as vendor payment overview, file formats for methods of payment, and configuring vendor payment formats to help with this process.
+
+### Registrations
+
+The term registration is used in Dynamics 365 applications in several different contexts. One example is inventory registration and another is a time registration. In the example of inventory registration, the termed registered is used to indicate that product has been received physically in the warehouse, but it is not yet put away. Learn more at, [Register items enabled for warehouse management processes using an item arrival journal](/dynamics365/supply-chain/warehousing/tasks/register-items-advanced-warehousing).
+
+In the context of time registration, it refers to an entry that can be performed in one of several modules to report how much time has been consumed performing a specific task. Learn more at [Time and attendance registration overview](/dynamics365/supply-chain/production-control/time-attendance-registrations#registrations).
+
+When you use Dynamics 365 Supply Chain Management for production on the shop flow you can leverage manufacturing execution functionality to register time against production. [Registration for manufacturing execution](/dynamics365/supply-chain/production-control/registration-manufacturing-execution).
 
 ### Regulatory compliance
 
@@ -1200,6 +1288,10 @@ A risk score is a measure of a customer's credit worthiness. It's used to define
 Routing is the process of assigning a route to a [load](#load). Routes are typically configured when multiple modes of transportation are required or preferred to move goods through the supply chain (for example, by truck, rail, or ocean).
 
 ## S
+
+### Sales agreement
+
+A sales agreement outlines the terms and conditions of a sale between a seller and a buyer. In Dynamics 365 Supply Chain Management, sales agreements play a crucial role in defining pricing structures, delivery schedules, and payment terms. These agreements provide a legal framework for the sales process, ensuring clarity and compliance with established terms. Sometimes these are referred to as blanket orders.
 
 ### Sales channels
 
@@ -1309,9 +1401,17 @@ In business, services can play a critical role in building customer relationship
 
 The entity that a service is performed for is the *service customer* or *service account*. It's typically the company that is financially responsible. In Dynamics 365 Field Service, you specify the service customer in the **Billing Account** field.
 
+### Service fees
+
+Service fees encompass the charges associated with specific services offered by an organization. In Dynamics 365 this process involves defining and maintaining service fees involve setting the cost structures for different types of services. This includes considerations such as material costs, labor, and overhead. Clear and accurate service fee management is essential for establishing competitive yet profitable pricing.
+
 ### Service location
 
 In field service scenarios where frontline workers travel to perform service work, the service location defines the location where the work is performed. A service customer can have many service locations. In Dynamics 365 Field Service, you specify the service location in the **Service Location** field.
+
+### Service pricing optimization
+
+Service pricing optimization is the ongoing process of refining and improving pricing strategies to align with organizational goals and market dynamics. In Dynamics 365, this involves leveraging analytics, market insights, and customer feedback to make informed adjustments to service pricing. Continuous optimization ensures that service pricing remains competitive, maximizes profitability, and adapts to changing business environments.
 
 ### Service resource
 
@@ -1381,6 +1481,11 @@ A tax jurisdiction is a geographic area, typically defined by a government autho
 
 The terms that dictate when a vendor must be paid. These terms vary in policy and are usually included in the invoices generated by companies and sent to customers.
 
+### Time and attendance
+
+Time and attendance is a module available with Dynamics 365 Supply Chain Management that allows organizations to register, calculate, and approve the time worked. It integrates closely with the Production control and Project management and accounting modules.
+
+[Time and attendance registration overview](/dynamics365/supply-chain/production-control/time-attendance-registrations)
 ### Three-way matching
 
 Three-way matching matches the unit price and the net amount with the purchase order, and the quantity with the product receipt.
@@ -1406,6 +1511,10 @@ The main strategy that's used to generate forecasts in Dynamics 365 Supply Chain
 When the three components are added together, they can be used to predict future demand. The statistical forecasting algorithms used by Dynamics 365 and other forecasting tools calculate and combine these general components in different ways, allowing organizations to compare forecasting models and select the one that seems to predict the demand best. The following graphic illustrates the components and formula that represent time series forecasting.
 
 :::image type="content" source="media/time-series-forecasting.png" alt-text="Graphic illustrating that trend plus seasonality plus error predicts forecasts.":::
+
+### Trade agreement
+
+A trade agreement in Dynamics 365 Supply Chain Management refers to a negotiated arrangement between a company and its business partners (customers or vendors), often involving discounts, pricing structures, and terms for the exchange of goods and services. Trade agreements streamline the pricing process, providing a framework for consistent and mutually beneficial transactions between parties.
 
 ### Travel and expense management (T&E)
 
@@ -1487,6 +1596,10 @@ In the context of Dynamics 365, workflow commonly refers to the system capabilit
 - Human resources actions
 
 When employees are hired, transferred, or terminated, the workflow can include a review process. In this way, a document can be revised, or the terms of an action can be defined as part of the workflow. When the review process is completed, the document or action is completed, and the workflow moves to a final approval step.
+
+### Working time calendar
+
+A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization. When an employee submits a time-off request, they don't have to worry about holidays and closures. You can also create working time calendars to assign to resources for production, vendors, customers, and more to help with logistics of your supply chain with Dynamics 365 Supply Chain Management. Learn more at [Create a working time calendar](/dynamics365/human-resources/hr-leave-and-absence-working-time-calendar)
 
 ### Write-off
 
