@@ -49,6 +49,7 @@ If you want to implement Dynamics 365 solutions to assist with your *concept to 
 
 - [Concept to market introduction](concept-to-market-introduction.md)
 - [Concept to market end-to-end overview](concept-to-market-overview.md)
+- [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md)
 
 ## Related resources
 
