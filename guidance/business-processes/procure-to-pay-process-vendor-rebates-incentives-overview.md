@@ -19,19 +19,19 @@ The vendor rebate process encompasses several key business processes within Dyna
 
 The system further enables users to analyze rebate performance comprehensively, providing valuable insights into the effectiveness of incentive programs. Through this integrated suite of functionalities, Dynamics 365 ensures that organizations can navigate the complexities of vendor rebate management with precision and effectiveness. The calculation of vendor rebates is determined retrospectively, taking into account both the purchase amount and volume. Furthermore, these rebates are then applied to the respective purchases.
 
-The functionality for rebate management is flexible and can be added at any time even after you're live on Dynamics 365. When you're implementing the functionality for vendor rebates and incentives, it's ok to leave this functionality to a later phase or sprint in an agile approach. The setup and configuration of your products and base pricing along with the general procurement process should be in place before starting the process for rebates and incentives.
+The functionality for rebate management is flexible and can be added at any time even after you're live on Dynamics 365. When you're implementing the functionality for vendor rebates and incentives, it's OK to leave this functionality to a later phase or sprint in an agile approach. The setup and configuration of your products and base pricing along with the general procurement process should be in place before starting the process for rebates and incentives.
 
 ## Stakeholders
 
 Many people across the organization should contribute to the decision-making process and design of the *process vendor rebates and incentives* business process area. The following list provides examples of such stakeholders:
 
-- **Finance team stakeholders** include accounts payable specialists, financial analysts, controllers, and CFOs. These finance team stakeholders play a crucial role in designing and configuring the vendor rebate approval process, defining rebate programs, and analyzing rebate performance. Their expertise ensures the financial accuracy and viability of the incentive programs.
+- **Finance team stakeholders** include accounts payable specialists, financial analysts, controllers, and chief financial officers (CFOs). These finance team stakeholders play a crucial role in designing and configuring the vendor rebate approval process, defining rebate programs, and analyzing rebate performance. Their expertise ensures the financial accuracy and viability of the incentive programs.
 
 - **Sales and procurement stakeholders** include sales representatives, procurement managers, and category managers. Sales and procurement stakeholders are essential in configuring rebate eligibility and generating vendor rebates. Their input is vital for aligning incentive programs with sales targets and procurement strategies.
 
 - **Supply chain management stakeholders** include supply chain managers, inventory planners, and logistics coordinators. Stakeholders from the supply chain management team contribute to the configuration of vendor rebate approval processes, ensuring alignment with supply chain operations, and optimizing the logistics of rebate-related transactions.
 
-- **Executive leadership stakeholders** include chief executive officers (CEOs), chief operating officer (COOs), and the chief financial officer (CFOs). Executive leaders should be engaged in high-level decision-making and approval processes, providing strategic direction and oversight to ensure that vendor rebate and incentive programs align with organizational goals and objectives.
+- **Executive leadership stakeholders** include chief executive officers (CEOs), chief operating officers (COOs), and CFOs. Executive leaders should be engaged in high-level decision-making and approval processes, providing strategic direction and oversight to ensure that vendor rebate and incentive programs align with organizational goals and objectives.
 
 ## Process vendor rebates and incentives process flow
 
@@ -43,11 +43,11 @@ The following diagram illustrates the process vendor rebates and incentives busi
 
 1. Start
 
-    1. A parallel branch from Start includes the *Concept to market* end to end process
+    1. A parallel branch from Start includes the *Concept to market* end-to-end process
 
-    1. A parallel branch from Start includes the *Design to retire* end to end process
+    1. A parallel branch from Start includes the *Design to retire* end-to-end process
 
-2. *Procure to pay* end to end process
+2. *Procure to pay* end-to-end process
 
     1. *Configure vendor rebate approval* business process
 
@@ -59,27 +59,27 @@ The following diagram illustrates the process vendor rebates and incentives busi
 
 6. *Generate vendor rebates* business process
 
-7. *Inventory to deliver* end to end process
+7. *Inventory to deliver* end-to-end process
 
 8. *Process vendor rebates* business process
 
-9. *Review rebate transactions* end to end process
+9. *Review rebate transactions* end-to-end process
 
-10. *Analyze rebate transactions* end to end process
+10. *Analyze rebate transactions* end-to-end process
 
-11. *Record to report* end to end process
+11. *Record to report* end-to-end process
 
 12. End
 
 ## Process vendor rebates and incentives benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the process vendor rebates and incentives processes. The following sections outline the key benefits that an organization might monitor and measure for processing vendor rebates and incentives.
+Many key benefits can be used to monitor and measure the success of implementing technology to support the process vendor rebates and incentives processes. The following sections outline the key benefits that an organization might monitor and measure for processing vendor rebates and incentives.
 
 ### Streamlined rebate approval process
 
 Dynamics 365 Supply Chain Management facilitates a seamless vendor rebate approval process, reducing the time and effort required for authorizing incentives. The system allows for the configuration of automated workflows, ensuring swift approvals and minimizing delays. This streamlined process not only enhances operational efficiency but also contributes to a more agile business environment.
 
-Key Performance Indicators (KPIs) to measure this benefit include average approval time and the percentage reduction in manual intervention, providing management with valuable insights into process optimization.
+Key performance indicators (KPIs) to measure this benefit include average approval time and the percentage reduction in manual intervention, providing management with valuable insights into process optimization.
 
 ### Enhanced financial visibility and control
 
@@ -89,9 +89,9 @@ KPIs such as rebate accuracy, financial forecasting accuracy, and reduction in f
 
 ### Improved collaboration across departments
 
-Dynamics 365's integrated platform fosters improved collaboration among various departments involved in vendor rebate processes. Sales, procurement, finance, and supply chain teams can seamlessly share information and insights, promoting cross-functional synergy.
+The integrated platform of Dynamics 365 fosters improved collaboration among various departments involved in vendor rebate processes. Sales, procurement, finance, and supply chain teams can seamlessly share information and insights, promoting cross-functional synergy.
 
-KPIs such as the reduction in communication gaps and the percentage increase in interdepartmental collaboration measure the success of this benefit. Enhanced collaboration ensures that all stakeholders work cohesively towards common goals, optimizing the overall efficiency of rebate management.
+KPIs such as the reduction in communication gaps and the percentage increase in interdepartmental collaboration measure the success of this benefit. Enhanced collaboration ensures that all stakeholders work cohesively toward common goals, optimizing the overall efficiency of rebate management.
 
 ### Accelerated rebate processing
 
@@ -121,15 +121,16 @@ You can use the following resources to learn more about the process vendor rebat
 
 - [Configure and use agreements in Dynamics 365 Supply Chain Management](/training/modules/configure-use-agreements-dyn365-supply-chain-mgmt/)
 
-- Find definitions of terminology used in content for *run production operations* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
-    - [Eligibility criteria](glossary.md#eligibility-criteria)
-    - [Incentive programs](glossary.md#incentive-programs)
-    - [Rebate](glossary.md#rebate)
-    - [Rebate accruals](glossary.md#rebate-accruals)
-    - [Rebate agreement](glossary.md#rebate-agreement)
-    - [Rebate claim](glossary.md#rebate-claim)
-    - [Rebate generation](glossary.md#rebate-generation)
-    - [Rebate processing](glossary.md#rebate-processing)
+Find definitions of terminology used in content for *run production operations* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+
+- [Eligibility criteria](glossary.md#eligibility-criteria)
+- [Incentive programs](glossary.md#incentive-programs)
+- [Rebate](glossary.md#rebate)
+- [Rebate accruals](glossary.md#rebate-accruals)
+- [Rebate agreement](glossary.md#rebate-agreement)
+- [Rebate claim](glossary.md#rebate-claim)
+- [Rebate generation](glossary.md#rebate-generation)
+- [Rebate processing](glossary.md#rebate-processing)
 
 <!--## Tags
 

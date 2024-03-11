@@ -13,13 +13,13 @@ ms.date: 02/28/2024
 
 This article describes how organizations can manage employee time and attendance including leave and absence, timesheets, shift, and time clocks using Dynamics 365 products.
 
-Managing employee time and attendance is a critical aspect of organizational efficiency, playing a pivotal role in ensuring optimal workforce productivity and compliance. In today's dynamic business environment, the use of Dynamics 365 products, such as Human Resources, Project Operations, Field Service, and Supply Chain Management, can help organizations streamlines these crucial processes. These tools enable an interconnected approach to time and attendance management including leave and absence management, fostering a more cohesive and efficient work environment.
+Managing employee time and attendance is a critical aspect of organizational efficiency, playing a pivotal role in ensuring optimal workforce productivity and compliance. In today's dynamic business environment, the use of Dynamics 365 products, such as Human Resources, Project Operations, Field Service, and Supply Chain Management, can help organizations streamline these crucial processes. These tools enable an interconnected approach to time and attendance management including leave and absence management, fostering a more cohesive and efficient work environment.
 
 The process of managing employee time and attendance encompasses several key business processes that are supported by Dynamics 365. Organizations typically start by defining and managing time and attendance policies to align with their specific requirements. Dynamics 365 Human Resources supports flexible configuration for leave and absence policies and plans including sick time, paid time off, selling or borrowing leave, and the leave accrual process.
 
-In addition, you can use Dynamics 365 Human Resources to record employee absences and facilitating the request for time off are seamlessly integrated into the employee self-service experience. While Dynamics 365 Commerce supports the ability to create and managing shifts.
+In addition, you can use Dynamics 365 Human Resources to record employee absences and facilitate requests for time off, all seamlessly integrated into the employee self-service experience. In addition, Dynamics 365 Commerce supports the ability to create and managing shifts.
 
-Depending on your industry and time reporting needs, Dynamics 365 allows employees to create and submit timesheets. This includes time clocks functionality with Dynamics 365 Commerce, Human Resources, and Supply Chain Management. For more complex manufacturing environments, you can use job card terminals on the production floor or the *Time and attendance* module in Dynamics 365 Supply Chain Management providing a comprehensive overview of their work hours and production completed. Supervisors can then efficiently review and approve timesheets, ensuring accuracy and compliance.
+Depending on your industry and time-reporting needs, Dynamics 365 allows employees to create and submit timesheets. This includes time clocks functionality with Dynamics 365 Commerce, Human Resources, and Supply Chain Management. For more complex manufacturing environments, you can use job card terminals on the production floor or the *Time and attendance* module in Dynamics 365 Supply Chain Management, providing a comprehensive overview of their work hours and production completed. Supervisors can then efficiently review and approve timesheets, ensuring accuracy and compliance.
 
 When you use Dynamics 365 Field Service or Project Operations, you can record time against specific work orders or projects for detailed time reporting that can be easily allocated to the right financial resources for billing, cost recognition, and revenue recognition. The flexibility of the Dynamics 365 platform also allows for easy adjustments and corrections to timesheets, ensuring that the time and attendance data remains accurate and reflective of the dynamic nature of business operations.
 
@@ -51,37 +51,37 @@ The following diagram illustrates the *Record time and attendance and manage lea
 
 2. *Hire to retire*
 
-  The upstream processes *Order to cash*, *Plan to produce*, *Project to profit*, and *Service to cash* all connect directly to *Create and submit timesheets*.
+   The upstream processes *Order to cash*, *Plan to produce*, *Project to profit*, and *Service to cash* all connect directly to *Create and submit timesheets*.
 
 3. *Onboard and manage the employee lifecycle*
 
 4. *Manage employee time and attendance*
 
-    1. *Define and manage time and attendance policies*
+   1. *Define and manage time and attendance policies*
 
-    1. *Record employee absences*
+   1. *Record employee absences*
 
-    1. *Request time off*
+   1. *Request time off*
 
-    1. *Manage time off requests*
+   1. *Manage time off requests*
 
-    1. Create and submit timesheets*  
+   1. *Create and submit timesheets*  
         
-       A parallel branch connects to downstream processes including *Order to cash*, *Plan to produce*, *Project to profit*, *Service to cash*, and *Record to report*, all of which have a connection to End.
+      A parallel branch connects to downstream processes including *Order to cash*, *Plan to produce*, *Project to profit*, *Service to cash*, and *Record to report*, all of which have a connection to End.
 
-    1. *Review and approve timesheets*
+   1. *Review and approve timesheets*
 
-    1. *Adjust and correct timesheets*
+   1. *Adjust and correct timesheets*
 
 5. End
 
 ## Manage employee time and attendance benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *manage employee time and attendance*. The following sections outline the key benefits that an organization might monitor and measure for *manage employee time and attendance*.
+Many key benefits can be used to monitor and measure the success of implementing technology to support the *manage employee time and attendance*. The following sections outline the key benefits that an organization might monitor and measure for *manage employee time and attendance*.
 
 ### Improved workforce efficiency
 
-When you use Dynamics 365 for managing employee time and attendance organizations can significantly enhance workforce efficiency by automating and streamlining critical processes. The system's integration with Human Resources, Project Operations, Field Service, Supply Chain Management, and Finance helps to ensure a seamless flow of data across the organization. With features such as automated timesheet creation, accurate recording of employee absences, and efficient shift management, organizations can experience a substantial reduction in manual workload and administrative overhead.
+When organizations use Dynamics 365 for managing employee time and attendance, they can significantly enhance workforce efficiency by automating and streamlining critical processes. The system's integration with Human Resources, Project Operations, Field Service, Supply Chain Management, and Finance helps to ensure a seamless flow of data across the organization. With features such as automated timesheet creation, accurate recording of employee absences, and efficient shift management, organizations can experience a substantial reduction in manual workload and administrative overhead.
 
 This efficiency improvement can be measured through KPIs such as a decrease in time spent on manual data entry and an increase in the accuracy of attendance records, leading to more productive and focused HR and operational teams.
 
@@ -93,7 +93,7 @@ This transparency enables data-driven decision-making, leading to more informed 
 
 ### Enhanced compliance and accuracy
 
-By utilizing Dynamics 365 for time and attendance management and leave and absence management, organizations can achieve higher levels of compliance and accuracy in workforce data. The system's ability to define and enforce time and attendance policies ensures adherence to regulatory requirements and internal guidelines. Features such as automated timesheet reviews and approvals contribute to accuracy by minimizing errors in recorded work hours.
+By using Dynamics 365 for time and attendance management and leave and absence management, organizations can achieve higher levels of compliance and accuracy in workforce data. The system's ability to define and enforce time and attendance policies ensures adherence to regulatory requirements and internal guidelines. Features such as automated timesheet reviews and approvals contribute to accuracy by minimizing errors in recorded work hours.
 
 KPIs for measuring this benefit include a reduction in payroll errors, decreased instances of non-compliance with labor regulations, and improved audit readiness, showcasing the system's commitment to maintaining data integrity and legal compliance.
 
@@ -125,21 +125,22 @@ If you would like to implement Dynamics 365 solutions to assist with your *manag
 
 You can use the following resources to learn more about the *manage employee time and attendance* process in Dynamics 365.
 
-- [Leave and absence overview- Human Resources](/dynamics365/human-resources/hr-leave-and-absence-overview)
+- [Leave and absence overview - Human Resources](/dynamics365/human-resources/hr-leave-and-absence-overview)
 
 - [Time and attendance registration overview - Supply Chain Management](/dynamics365/supply-chain/production-control/time-attendance-registrations)
 
--   [What's changed in Dynamics 365 Human Resources \| March 29, 2023 TechTalk](https://community.dynamics.com/blogs/post/?postid=d252ab73-58df-4132-8409-2d8247f37090)
+- [What's changed in Dynamics 365 Human Resources \| March 29, 2023 TechTalk](https://community.dynamics.com/blogs/post/?postid=d252ab73-58df-4132-8409-2d8247f37090)
 
 - [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning)
 
-- Find definitions of terminology used in content for *manage employee time and attendance* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
-    - [Flex groups](glossary.md#flex-groups)
-    - [Leave and absence plan](glossary.md#leave-and-absence-plan)
-    - [Leave and absence types](glossary.md#leave-and-absence-types)
-    - [Time and attendance](glossary.md#time-and-attendance)
-    - [Registrations](glossary.md#registrations)
-    - [Working time calendar](glossary.md#working-time-calendar)
+Find definitions of terminology used in content for *manage employee time and attendance* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+
+- [Flex groups](glossary.md#flex-groups)
+- [Leave and absence plan](glossary.md#leave-and-absence-plan)
+- [Leave and absence types](glossary.md#leave-and-absence-types)
+- [Time and attendance](glossary.md#time-and-attendance)
+- [Registrations](glossary.md#registrations)
+- [Working time calendar](glossary.md#working-time-calendar)
 
 <!--## Tags
 
