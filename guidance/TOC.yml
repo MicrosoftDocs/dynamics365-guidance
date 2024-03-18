@@ -887,6 +887,8 @@ items:
             href: business-processes/service-to-cash-areas-overview.md
           - name: Manage service assets overview
             href: business-processes/service-to-cash-manage-service-assets.md
+          - name: Manage service resources overview
+            href: business-processes/service-to-cash-manage-service-resources.md
           - name: Create and process service work
             # items:
             # - name: Create work orders
