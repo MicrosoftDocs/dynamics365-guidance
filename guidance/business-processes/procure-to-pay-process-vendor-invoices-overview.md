@@ -112,7 +112,7 @@ If you want to implement Dynamics 365 solutions to assist with your process vend
 - *Procure materials and services*
 - *Receive materials and services*
 - *Process vendor invoices* (the article that you're reading)
-- [Issue and settle vendor payments](design-to-retire-issue-and-settle-vendor-payments-overview.md)  
+- [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
 - *Manage vendor debits and chargebacks*
 - *Create and process promissory notes*
 - [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)

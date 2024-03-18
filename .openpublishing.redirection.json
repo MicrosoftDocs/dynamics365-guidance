@@ -74,6 +74,12 @@
       "source_path": "dynamics365/guidance/techtalks/integration-patterns-dataverse.md",
       "redirect_url": "/dynamics365/guidance/techtalks/integrate-finance-operations-dataverse",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/design-to-retire-issue-and-settle-vendor-payments-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/procure-to-pay-issue-and-settle-vendor-payments-overview",
+      "redirect_document_id": "false"
     }
+
   ]
 }

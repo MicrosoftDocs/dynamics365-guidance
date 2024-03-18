@@ -48,35 +48,35 @@ The following diagram illustrates the *manage vendor relationships* business pro
 
 The process has these steps:
 
-- Start
+1. Start
 
-- *Procure to pay* end-to-end process
+1. *Procure to pay* end-to-end process
 
-- *Manage vendor relationships* business process area
+1. *Manage vendor relationships* business process area
 
-  - Is it a new vendor?
+   1. Is it a new vendor?
 
-    - *Yes* leads to *Identify prospective vendor*
+      1. *Yes* leads to *Identify prospective vendor*
 
-    - *No* leads to *Manage and update vendor*
+      1. *No* leads to *Manage and update vendor*
 
-  - *Identify prospective vendor* business process: Search for and choose vendors that meet your criteria.
+    1. *Identify prospective vendor* business process: Search for and choose vendors that meet your criteria.
 
-  - *Create vendor* business process: Approve and create a vendor record in the system for the selected vendor.
+    1. *Create vendor* business process: Approve and create a vendor record in the system for the selected vendor.
 
-  - *Manage and update vendor* business process: Make changes to the vendor record as needed, such as changing bank accounts or payment terms.
+    1. *Manage and update vendor* business process: Make changes to the vendor record as needed, such as changing bank accounts or payment terms.
 
-- *Procure material and service* business process area
+1. *Procure material and service* business process area
 
-- *Receive material and service* business process area
+1. *Receive material and service* business process area
 
-- *Process vendor invoice* business process area
+1. *Process vendor invoice* business process area
 
-- *Issue and settle vendor payments* business process area
+1. *Issue and settle vendor payments* business process area
 
-- *Evaluate vendor performance* business process: Use the data from the previous steps to assess how well the vendor meets your expectations. This helps you make better decisions for future procurement and align your interests with the vendor.
+1. *Evaluate vendor performance* business process: Use the data from the previous steps to assess how well the vendor meets your expectations. This helps you make better decisions for future procurement and align your interests with the vendor.
 
-- End
+1. End
 
 ### Benefits
 
@@ -96,31 +96,31 @@ The *manage vendor relationships* business process area can help you:
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to support your *manage vendor relationships* business processes, use these resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to support your *manage vendor relationships* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- Manage vendor relationships (the article that you're reading)
+1. *Manage vendor relationships* (the article that you're reading)
 
-- Develop a sourcing strategy
+2. *Develop a sourcing strategy*
 
-- [Define a procurement catalog](procure-to-pay-define-procurement-catalogs-overview.md)
+3. [Define a procurement catalog](procure-to-pay-define-procurement-catalogs-overview.md)
 
-- Define policies and procedures for procurement
+4. *Define policies and procedures for procurement*
 
-- Procure materials and services
+5. *Procure materials and services*
 
-- Receive materials and services
+6. *Receive materials and services*
 
-- [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
+7. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
 
-- [Issue and settle vendor payments](design-to-retire-issue-and-settle-vendor-payments-overview.md)  
+8. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
-- Manage vendor debits and chargebacks
+9. *Manage vendor debits and chargebacks*
 
-- Create and process promissory notes
+10. *Create and process promissory notes*
 
-- [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
+11. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
 
-- Analyze vendor performance
+12. *Analyze vendor performance*
 
 ## Related resources
 

@@ -3,7 +3,7 @@ title: Procure materials and services overview
 description: Learn about the procure materials and services business process, including information about stakeholders and the business process flow.
 author: akbism
 ms.author: kumaramar
-ms.date: 02/29/2024
+ms.date: 03/13/2024
 ms.topic: conceptual
 ---
 
@@ -53,82 +53,82 @@ The following diagram illustrates the *procure materials and services* business 
 
 The flow diagram covers the following steps.
 
-- Start
+1. Start
 
-    - A parallel branch from Start includes the *Acquire to dispose* end-to-end process.
+    1. A parallel branch from Start includes the *Acquire to dispose* end-to-end process.
 
-        - *Acquire assets* business process area
+        1. *Acquire assets* business process area
 
-            - *Procure materials and services* business process area
+            1. *Procure materials and services* business process area
 
-    - A parallel branch from Start includes the *Forecast to plan* end-to-end process.
+    1. A parallel branch from Start includes the *Forecast to plan* end-to-end process.
 
-        - *Plan supply and replenishment* business process area
+        1. *Plan supply and replenishment* business process area
 
-            - *Create purchase order* business process
+            1. *Create purchase order* business process
 
-    - A parallel branch from Start includes the *Plan to Produce* end-to-end process.
+    1. A parallel branch from Start includes the *Plan to Produce* end-to-end process.
 
-        - *Outsource production order* business process area
+        1. *Outsource production order* business process area
 
-            - *Procure materials and services* business process area
+            1. *Procure materials and services* business process area
 
-    - A parallel branch from Start includes the *Order to cash* end-to-end process.
+    1. A parallel branch from Start includes the *Order to cash* end-to-end process.
 
-        - *Create and manage sales order* business process area
+        1. *Create and manage sales order* business process area
 
-            - *Create purchase order* business process
+            1. *Create purchase order* business process
 
-    - A parallel branch from Start includes the *Project to Profit* end-to-end process.
+    1. A parallel branch from Start includes the *Project to Profit* end-to-end process.
 
-        - *Manage project delivery* business process area
+        1. *Manage project delivery* business process area
 
-            - *Procure materials and services* business process area
+            1. *Procure materials and services* business process area
 
-    - A parallel branch from Start includes the *Invent to delivery* end-to-end process.
+    1. A parallel branch from Start includes the *Invent to delivery* end-to-end process.
 
-        - *Process inbound goods* business process area
+        1. *Process inbound goods* business process area
 
-            - Return?
+            1. Return?
 
-                - "No" leads to End.
-                - "Yes" leads to the *Return items to vendors* business process.
+                1. "No" leads to End.
+                1. "Yes" leads to the *Return items to vendors* business process.
 
-        - *Process outbound goods* business process area
+        1. *Process outbound goods* business process area
 
-            - End
+            1. End
 
-- *Procure to pay* end-to-end process
-- *Procure materials and services* business process area
+1. *Procure to pay* end-to-end process
+1. *Procure materials and services* business process area
 
-    - A parallel branch from *Procure materials and services* includes the *Create purchase requisitions* business process.
+    1. A parallel branch from *Procure materials and services* includes the *Create purchase requisitions* business process.
 
-        - *Is RFQ needed?*
+        1. *Is RFQ needed?*
 
-            - "Yes" leads to the *Create request for quotations (RFQ)* business process.
-            - "No" leads to the *Create purchase order* business process.
+            1. "Yes" leads to the *Create request for quotations (RFQ)* business process.
+            1. "No" leads to the *Create purchase order* business process.
 
-    - A parallel branch from *Procure materials and services* includes the *Create request for quotations (RFQ)* business process.
-    - A parallel branch from *Procure materials and services* includes the *Create volume or quantity purchase agreements (blanket orders)* business process.
+    1. A parallel branch from *Procure materials and services* includes the *Create request for quotations (RFQ)* business process.
+    1. A parallel branch from *Procure materials and services* includes the *Create volume or quantity purchase agreements (blanket orders)* business process.
 
-- *Create purchase requisitions* business process
-- *Create request for quotations (RFQ)* business process
-- *Create volume or quantity purchase agreements (blanket orders)* business process
-- *Create purchase order* business process
+1. *Create purchase requisitions* business process
+1. *Create request for quotations (RFQ)* business process
+1. *Create volume or quantity purchase agreements (blanket orders)* business process
+1. *Create purchase order* business process
 
-    - A parallel branch from *Create purchase order* includes the *Confirm and send purchase order to the vendor* business process.
-    - A parallel branch from *Create purchase order* includes the *Return items to vendors* business process.
+    1. A parallel branch from *Create purchase order* includes the *Confirm and send purchase order to the vendor* business process.
+    1. A parallel branch from *Create purchase order* includes the *Return items to vendors* business process.
 
-- *Confirm and send purchase order to the vendor* business process
-- *Update purchase order* business process
+1. *Confirm and send purchase order to the vendor* business process
+1. *Update purchase order* business process
 
-    - *Process inbound goods* business process area
+    1. *Process inbound goods* business process area
 
-- *Return items to vendors* business process
+1. *Return items to vendors* business process
 
-    - *Process outbound goods* business process area
+    1. *Process outbound goods* business process area
 
-- End
+1. End
 
 ## Procure materials and services benefits
 
@@ -165,7 +165,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *procu
 - [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
 - *Procure materials and services* (the article that you're currently reading)
 - [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
-- [Issue and settle vendor payments](design-to-retire-issue-and-settle-vendor-payments-overview.md)  
+- [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
 - [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
 
 ## Related resources

@@ -92,7 +92,7 @@ You can use the following resources to learn more about the *define product cata
 - [Classify a product using category hierarchies](/dynamics365/supply-chain/pim/tasks/classify-product-category-hierarchies)
 - [Create a new product hierarchy](/dynamics365/commerce/create-product-hierarchy)
 - [Categorize items (Business Central)](/dynamics365/business-central/inventory-how-categorize-items)
-- [Issue and settle vendor payments overview](design-to-retire-issue-and-settle-vendor-payments-overview.md)
+- [Issue and settle vendor payments overview](procure-to-pay-issue-and-settle-vendor-payments-overview.md)
 - Find definitions of terminology that is used in content for *define product catalog and strategy* in the [Glossary of terms in Dynamics 365 business processes](glossary.md). For example, this glossary includes the following terms:
 
     - [Category hierarchy](glossary.md#category-hierarchy)
