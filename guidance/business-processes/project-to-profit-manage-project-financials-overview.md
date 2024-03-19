@@ -170,11 +170,16 @@ For organizations that use Dynamics 365 Project Operations and Dynamics 365 Fina
 If you want to implement Dynamics 365 solutions to assist with your *manage project financials* business processes, you can use the following resources and steps to learn more.
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)
-1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
-1. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
-1. [Manage project delivery](project-to-profit-deliver-project-work.md)
-1. *Manage project financials* (the article that you're currently reading)
-1. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+
+2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+
+3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
+
+4. [Manage project delivery](project-to-profit-deliver-project-work.md)
+
+5. *Manage project financials* (the article that you're currently reading)
+
+6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related resources
 

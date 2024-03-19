@@ -168,27 +168,27 @@ Use this option when you use a Call center channel with Dynamics 365 Commerce an
 
 ## Next steps
 
-After you have completed the basic setup and configuration for setting customer credit limits in Dynamics 365, consider the following other steps and actions to take.
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. Set customer credit limits <-- You are currently on this step.
+1. Set customer credit limits (The article that you're currently reading)
 
-2. Update customer credit limits
+2. *Update customer credit limits*
 
-3. Block or close customer accounts
+3. *Block or close customer accounts*
 
-4. Handle non-sufficient fund (NSF) payments from customers
+4. *Handle non-sufficient fund (NSF) payments from customers*
 
-5. Process customer account statements
+5. *Process customer account statements*
 
-6. Dispute and resolve invoice discrepancies
+6. *Dispute and resolve invoice discrepancies*
 
-7. Process and write-off bad debts
+7. *Process and write-off bad debts*
 
-8. Create and process interest notes
+8. *Create and process interest notes*
 
-9. Create and process collection letters
+9. *Create and process collection letters*
 
-10. Detect fraudulent orders
+10. *Detect fraudulent orders*
 
 ## Related patterns
 

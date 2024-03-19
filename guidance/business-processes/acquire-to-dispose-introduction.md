@@ -79,13 +79,13 @@ Dynamics 365 provides a centralized system for managing all financial aspects of
 
 If you want to implement Dynamics 365 solutions to assist with the *acquire to dispose* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an *acquire to dispose* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing an *acquire to dispose* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
 
-- Get a demo of Dynamics 365 solutions for the *acquire to dispose* process. For more information, see [Request a demo](https://dynamics.microsoft.com/)
+3. Get a demo of Dynamics 365 solutions for the *acquire to dispose* process. For more information, see [Request a demo](https://dynamics.microsoft.com/)
 
-- Sign up for a trial of Dynamics 365. For more information, see [Start a Free Trial for Microsoft Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+4. Sign up for a trial of Dynamics 365. For more information, see [Start a Free Trial for Microsoft Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
 
 ## Related resources
 

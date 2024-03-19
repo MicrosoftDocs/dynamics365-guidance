@@ -111,15 +111,21 @@ KPIs for this benefit include a decrease in labor costs related to manual admini
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *manage employee time and attendance* business processes, you can use the following resources and steps to learn more.
+If you would like to implement Dynamics 365 solutions to assist with your *manage employee time and attendance* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-- *Onboard and manage the employee lifecycle*
-- *Manage occupational health and safety*
-- *Manage employee performance and growth*
-- *Manage employee time and attendance* (the article you're reading right now)
-- *Manage travel and expenses*
-- *Manage employee benefits, compensation, and payroll*
+1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
+
+2. *Onboard and manage the employee lifecycle*
+
+3. *Manage occupational health and safety*
+
+4. *Manage employee performance and growth*
+
+5. *Manage employee time and attendance* (the article you're reading right now)
+
+6. *Manage travel and expenses*
+
+7. *Manage employee benefits, compensation, and payroll*
 
 ## Related resources
 

@@ -4,7 +4,7 @@ description: Learn how to use Dynamics 365 to support your organization's busine
 author: Pjagotra
 ms.author: pjagotra
 ms.topic: conceptual
-ms.date: 02/26/2024
+ms.date: 03/18/2024
 ai-usage: ai-assisted
 ---
 
@@ -96,7 +96,7 @@ The *manage vendor relationships* business process area can help you:
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to support your *manage vendor relationships* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to support your *manage vendor relationships* business processes, use these resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. *Manage vendor relationships* (the article that you're reading)
 
@@ -160,7 +160,7 @@ You can use the following resources to learn more about the *manage vendor relat
 
 Principal author:
 
-- [**Praveen Jagotra**](https://www.linkedin.com/in/praveen-jagotra/) \| Senior Solutions Architect, FastTrack for Dynamics 365
+- [**Praveen Jagotra**](https://www.linkedin.com/in/praveen-jagotra) \| Senior Solutions Architect, FastTrack for Dynamics 365
 
 Other contributors:
 

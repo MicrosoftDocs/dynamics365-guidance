@@ -76,10 +76,13 @@ Overall, the *design to retire* process can provide significant benefits to orga
 
 If you want to implement Dynamics 365 solutions to assist with your *design to retire* business processes, you can use the following resources and steps to learn more.
 
-- Define the goals and objectives for a technology solution that supports the organization's need for a *design to retire* process. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
-- Request a demo or get a free trial of Dynamics 365 solutions for the *design to retire* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
-- Get an overview of the *design to retire* process. Learn more at [design to retire overview](design-to-retire-overview.md).
+1. Define the goals and objectives for a technology solution that supports the organization's need for a *design to retire* process. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *design to retire* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+
+4. Get an overview of the *design to retire* process. Learn more at [design to retire overview](design-to-retire-overview.md).
 
 ## Related resources
 

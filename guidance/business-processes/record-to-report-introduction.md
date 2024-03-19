@@ -116,15 +116,15 @@ Overall, implementing Dynamics 365 to support the R2R process can provide signif
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *record to report* business processes, you can use the following resources and steps to learn more.
+If you would like to implement Dynamics 365 solutions to assist with your *record to report* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a *record to report* technology solution. <!-- TODO ADD LINK Learn more at \[link\].-->
+1. Define the goals and objectives of implementing a *record to report* technology solution* <!-- TODO ADD LINK Learn more at \[link\].-->
 
-- Define the business process scope of your project. <!-- TODO ADD LINK Learn more at \[link\].-->
+2. *Define the business process scope of your project* <!-- TODO ADD LINK Learn more at \[link\].-->
 
-- Get a demo of Dynamics 365 solutions for the order to cash process. <!-- TODO ADD LINK Learn more at \[link\].-->
+3. *Get a demo of Dynamics 365 solutions for the order to cash process* <!-- TODO ADD LINK Learn more at \[link\].-->
 
-- [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
+4. [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
 
 <!--- Other steps here-->
 

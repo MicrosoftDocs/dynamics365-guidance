@@ -240,8 +240,9 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
 If you want to implement Dynamics 365 solutions to assist with your *inventory to deliver* business processes, learn more at the following resources and steps.
 
-[Inventory to deliver - introduction to the end-to-end business process](inventory-to-deliver-introduction.md)  
-[Inventory to deliver business process areas](inventory-to-deliver-areas.md)
+1. [Inventory to deliver - introduction to the end-to-end business process](inventory-to-deliver-introduction.md)  
+
+2. [Inventory to deliver business process areas](inventory-to-deliver-areas.md)
 
 ## Related resources
 

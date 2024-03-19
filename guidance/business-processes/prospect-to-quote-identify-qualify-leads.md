@@ -86,11 +86,16 @@ Overall, Dynamics 365 provides robust tools for maximizing leads and pipeline gr
 If you want to implement Dynamics 365 solutions to help with your business processes for identifying and qualifying leads, you can use the following resources and steps to learn more.
 
 1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
-1. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-1. *Identify and qualify leads* (the article that you're currently reading)
-1. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
-1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
-1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+
+2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
+
+3. *Identify and qualify leads* (the article that you're currently reading)
+
+4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
+
+5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
+
+6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
 
 ## Related resources
 

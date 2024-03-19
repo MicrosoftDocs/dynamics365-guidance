@@ -125,7 +125,7 @@ Retiring outdated or nonfunctioning assets allows organizations to replace them 
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *retire and dispose of assets* business processes, you can use the following resources and steps to learn more.  
+If you would like to implement Dynamics 365 solutions to assist with your *retire and dispose of assets* business processes, you can use the following resources and steps to learn more.
 
 1. [Plan and budget assets](acquire-to-dispose-plan-budget-assets-overview.md)  
 

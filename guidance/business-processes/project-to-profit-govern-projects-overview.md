@@ -109,14 +109,19 @@ This functionality helps project managers get a clear understanding of the proje
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *govern projects* business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to assist with your *govern projects* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. *Govern projects* (the article that you're currently reading)
-1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
-1. [Manage project resource and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
-1. [Manage project delivery](project-to-profit-deliver-project-work.md)
-1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
-1. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+
+2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+
+3. [Manage project resource and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
+
+4. [Manage project delivery](project-to-profit-deliver-project-work.md)
+
+5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
+
+6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related resources
 

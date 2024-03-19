@@ -129,11 +129,17 @@ Dynamics 365 Human Resources when used with Power Platform can serve as a centra
 If you would like to implement Dynamics 365 solutions to assist with your Manage occupational health and safety business processes, you can use the following resources and steps to learn more. (Links are added later, when the articles are ready.)
 
 1. [*Plan and recruit your workforce*](hire-to-retire-plan-recruit-workforce-overview.md)
+
 2. *Onboard and manage the employee lifecycle*
+
 3. *Manage occupational health and safety* (the article that you're currently reading)
+
 4. *Manage employee performance and growth*
+
 5. *Manage employee time and attendance*
+
 6. [*Manage travel and expenses*](hire-to-retire-manage-travel-expenses.md)  
+
 7. *Manage employee benefits, compensation, and payroll*
 
 ## Related resources

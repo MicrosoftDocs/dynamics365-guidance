@@ -108,10 +108,10 @@ Learn more at [Monitor customer credit and collections overview](order-to-cash-m
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your order to cash business processes, learn more at the following resources:
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, learn more at the following resources:
 
-- [Service to cash introduction](service-to-cash-introduction.md)  
-- [Service to cash end-to-end overview](service-to-cash-overview.md)  
+1. [Service to cash introduction](service-to-cash-introduction.md)  
+2. [Service to cash end-to-end overview](service-to-cash-overview.md)  
 
 ## Related resources
 

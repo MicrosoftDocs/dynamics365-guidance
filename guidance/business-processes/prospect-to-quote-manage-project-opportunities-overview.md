@@ -88,15 +88,21 @@ In Dynamics 365 Project Operations, users can set up workflows to manage project
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *Manage project opportunities* business processes, use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to help with your *Manage project opportunities* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. Run marketing campaigns
-1. Manage customer relationships
-1. [Define sales strategy](prospect-to-quote-define-sales-strategy-overview.md)
-1. Identify and qualify leads
-1. *Manage project opportunities* (the article that you're currently reading)
-1. Pursue opportunities
-1. Estimate and quote sales
+1. *Run marketing campaigns*
+
+2. *Manage customer relationships*
+
+3. [Define sales strategy](prospect-to-quote-define-sales-strategy-overview.md)
+
+4. *Identify and qualify leads*
+
+5. *Manage project opportunities* (the article that you're currently reading)
+
+6. *Pursue opportunities*
+
+7. *Estimate and quote sales*
 
 Return to the overview of business process areas at [Prospect to quote business process areas](prospect-to-quote-areas.md).
 

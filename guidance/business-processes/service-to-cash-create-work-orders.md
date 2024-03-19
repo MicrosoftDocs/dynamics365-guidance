@@ -128,12 +128,16 @@ When accurate and complete data is captured about the work that must be performe
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *Create work order* processes, you can use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to help with your *Create work order* processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. *Create work orders* (the article that you're currently reading)
+
 2. *Schedule work orders*
+
 3. *Perform service work*
+
 4. *Review and close work orders*
+
 5. *Analyze service operations*
 
 ## Related resources

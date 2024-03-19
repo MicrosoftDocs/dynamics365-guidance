@@ -129,13 +129,19 @@ Implementation of Dynamics 365 business applications can lead to improved profit
 
 If you want to implement Dynamics 365 solutions to assist with your *record and manage inventory costs* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
 
-1. Define and manage warehouse operations
-2. Maintain inventory levels
-3. Process inbound goods
-4. Process outbound goods
-5. Manage inventory quality
+1. *Define and manage warehouse operations*
+
+2. *Maintain inventory levels*
+
+3. *Process inbound goods*
+
+4. *Process outbound goods*
+
+5. *Manage inventory quality*
+
 6. [Manage freight and transportation](inventory-to-deliver-manage-freight-transportation.md)
-7. Record and manage inventory costs (the article that you're currently reading)
+
+7. *Record and manage inventory costs* (the article that you're currently reading)
 
 ## Related resources
 

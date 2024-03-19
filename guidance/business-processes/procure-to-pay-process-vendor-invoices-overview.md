@@ -4,7 +4,7 @@ description: Learn about the process vendor invoices business process, including
 author: meneksesaygili
 ms.author: msaygili
 ms.topic: conceptual
-ms.date: 02/27/2024
+ms.date: 03/18/2024
 ---
 
 # Process vendor invoices overview
@@ -105,18 +105,30 @@ Processing vendor invoices gives users direct control over each step of the proc
 
 If you want to implement Dynamics 365 solutions to assist with your process vendor invoices business processes, you can use the following resources and steps to learn more. (Links are added later, when the articles are ready.)
 
-- [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)
-- *Develop a sourcing strategy*
-- [Define a procurement catalog](procure-to-pay-define-procurement-catalogs-overview.md)
-- *Define policies and procedures for procurement*
-- *Procure materials and services*
-- *Receive materials and services*
-- *Process vendor invoices* (the article that you're reading)
-- [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
-- *Manage vendor debits and chargebacks*
-- *Create and process promissory notes*
-- [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)
-- *Analyze vendor performance*
+1. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)
+
+2. *Develop a sourcing strategy*
+
+3. [Define a procurement catalog](procure-to-pay-define-procurement-catalogs-overview.md)
+
+4. *Define policies and procedures for procurement*
+
+5. *Procure materials and services*
+
+6. *Receive materials and services*
+
+7. *Process vendor invoices* (the article that you're reading)
+
+8. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+
+9. *Manage vendor debits and chargebacks*
+
+10. *Create and process promissory notes*
+
+11. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)
+
+12. *Analyze vendor performance*
+
 <!-- Orignal list from contributor
 - Set up vendor invoice policies
 
@@ -182,4 +194,4 @@ You can use the following resources to learn more about the process vendor invoi
 
 Principal author:
 
-- [Menekse Saygili](https://www.linkedin.com/in/fmsaygili/) \| Senior Program Manager
+- [Menekse Saygili](https://www.linkedin.com/in/fmsaygili) \| Senior Program Manager

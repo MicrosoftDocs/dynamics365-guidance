@@ -75,14 +75,19 @@ Overall, Dynamics 365 enables organizations to maximize the potential of every c
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your business processes for pursuing opportunities, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your business processes for pursuing opportunities, use the following resources and steps to learn more.
 
 1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
-1. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-1. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
-1. *Pursue opportunities* (the article that you're currently reading)
-1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
-1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+
+2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
+
+3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
+
+4. *Pursue opportunities* (the article that you're currently reading)
+
+5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
+
+6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
 
 ## Related resources
 

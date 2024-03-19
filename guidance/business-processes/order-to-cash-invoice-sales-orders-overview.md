@@ -98,15 +98,17 @@ Organizations can recognize many benefits from the invoice customers process in 
 
 ## Next steps
 
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more.
+
 1. Define the goals and objectives of [implementing an order to cash technology solution](../implementation-guide/implementation-strategy.md).
 
-1. Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
+2. Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
 
-1. [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/) or get a free trial of Dynamics 365 solutions for the order to cash process.
+3. [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/) or get a free trial of Dynamics 365 solutions for the order to cash process.
 
-1. Learn more about the [Microsoft Power Platform](https://powerplatform.microsoft.com/).
+4. Learn more about the [Microsoft Power Platform](https://powerplatform.microsoft.com/).
 
-1. Get an [overview of the order to cash process](order-to-cash-overview.md).
+5. Get an [overview of the order to cash process](order-to-cash-overview.md).
 
 ## Related resources
 

@@ -124,11 +124,17 @@ Effective recruiting can help an organization build a more diverse and inclusive
 If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)  
 
 1. *Plan and recruit your workforce* (the article that you're currently reading)
+
 2. *Onboard and manage the employee lifecycle*
+
 3. [*Manage occupational health and safety*](hire-to-retire-manage-occupational-health-safety.md) 
+
 4. *Manage employee performance and growth*
+
 5. *Manage employee time and attendance*
+
 6. [*Manage travel and expenses*](hire-to-retire-manage-travel-expenses.md)  
+
 7. *Manage employee benefits, compensation, and payroll*
 
 ## Related resources

@@ -86,13 +86,13 @@ Dynamics 365 provides real-time visibility into inventory levels and demand fore
 
 If you want to implement Dynamics 365 solutions to assist with your *inventory to deliver* business processes, learn more at the following resources and steps.
 
-- Define the goals and objectives of implementing an *inventory to deliver* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing an *inventory to deliver* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an overview of the *inventory to deliver* process. Learnsupply more at [Inventory to deliver overview](inventory-to-deliver-overview.md).
+4. Get an overview of the *inventory to deliver* process. Learnsupply more at [Inventory to deliver overview](inventory-to-deliver-overview.md).
 
 ## Related resources
 

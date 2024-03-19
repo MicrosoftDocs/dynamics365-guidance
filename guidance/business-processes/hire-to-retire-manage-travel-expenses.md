@@ -101,14 +101,20 @@ T&E management can help drive organizational health and business stability by en
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Manage travel and expenses* business processes, you can use the following resources and steps to learn more. Links are added when articles are ready.
+If you want to implement Dynamics 365 solutions to assist with your *Manage travel and expenses* business processes, you can use the following resources and steps to learn more. (Links are added, when articles are ready.)
 
-1. [*Plan and recruit your workforce*](/dynamics365/guidance/business-processes/hire-to-retire-plan-recruit-workforce-overview)
+1. [*Plan and recruit your workforce*](hire-to-retire-plan-recruit-workforce-overview.md)
+
 2. *Onboard and manage the employee lifecycle*
+
 3. [*Manage occupational health and safety*](hire-to-retire-manage-occupational-health-safety.md)
+
 4. *Manage employee performance and growth*
+
 5. *Manage employee time and attendance*
+
 6. *Manage travel and expenses* (the article that you're currently reading)
+
 7. *Manage employee benefits, compensation, and payroll*
 
 ## Related resources

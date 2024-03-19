@@ -112,27 +112,27 @@ The *Monitor customer credit and collections* business process area flow diagram
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Monitor customer credit and collections* business process area, you can use the following business processes. Use the link for each business process to learn more about the business process. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to assist with your *Monitor customer credit and collections* business process area, you can use the following business processes. use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Monitor customer credit and collections overview](order-to-cash-monitor-customer-credit-collections-overview.md)  
 
-2. Update customer credit limits
+2. *Update customer credit limits*
 
-3. Block or close customer accounts
+3. *Block or close customer accounts*
 
-4. Handle non-sufficient fund (NSF) payments from customers
+4. *Handle non-sufficient fund (NSF) payments from customers*
 
-5. Process customer account statements
+5. *Process customer account statements*
 
-6. Dispute and resolve invoice discrepancies
+6. *Dispute and resolve invoice discrepancies*
 
-7. Process and write-off bad debts
+7. *Process and write-off bad debts*
 
-8. Create and process interest notes
+8. *Create and process interest notes*
 
-9. Create and process collection letters
+9. *Create and process collection letters*
 
-10. Detect fraudulent orders
+10. *Detect fraudulent orders*
 
 ## Related resources
 

@@ -153,31 +153,31 @@ Learn more at [Settlement overview](/dynamics365/finance/cash-bank-management/se
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your Manage travel and expenses business processes, you can use the following resources and steps to learn more. Links are added when articles are ready.
+If you want to implement Dynamics 365 solutions to assist with your Manage travel and expenses business processes, use the following resources and steps to learn more. (Links are added, when articles are ready.)
 
-- Manage vendor relationships
+1. *Manage vendor relationships*
 
-- Develop sourcing strategies
+2. *Develop sourcing strategies*
 
-- Define procurement catalogs
+3. *Define procurement catalogs*
 
-- Define policies and procedures for procurement
+4. *Define policies and procedures for procurement*
 
-- Plan supply
+5. *Plan supply*
 
-- Procure materials and services
+6. *Procure materials and services*
 
-- Process vendor invoices
+7. *Process vendor invoices*
 
-- *Issue and settle vendor payments* (the article that you're currently reading)
+8. *Issue and settle vendor payments* (the article that you're currently reading)
 
-- Manage vendor debits and chargebacks
+9. *Manage vendor debits and chargebacks*
 
-- Create and process promissory notes
+10. *Create and process promissory notes*
 
-- Process vendor rebates and incentives
+11. *Process vendor rebates and incentives*
 
-- Analyze vendor performance
+12. *Analyze vendor performance*
 
 ## Related resources
 

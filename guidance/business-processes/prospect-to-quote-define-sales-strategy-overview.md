@@ -78,13 +78,18 @@ In summary, a carefully defined sales strategy sets the foundation for sales exc
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your business processes for defining a sales strategy, you can use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to help with your *define sales strategies* business process, you can use the following resources and steps to learn more. (Links are added, when articles become available.)
 
 1. *Define sales strategies* (the article that you're currently reading)
+
 2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
+
 3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
+
 4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
+
 5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
+
 6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
 
 ## Related resources

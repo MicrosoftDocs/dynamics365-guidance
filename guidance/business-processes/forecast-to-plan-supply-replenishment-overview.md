@@ -102,10 +102,14 @@ Because planning in Dynamics 365 is fast, you can plan as often as needed during
 If you want to implement Dynamics 365 solutions to help with your *plan supply and replenishment* business processes, use the following resources and steps to learn more.
 
 1. [Define strategic and operational plans](forecast-to-plan-areas.md#define-strategic-and-operational-plans)
-1. [Establish stocking and replenishment policies overview](forecast-to-plan-establish-stocking-replenishment-policies-overview.md)
-1. [Forecast supply and demand](forecast-to-plan-demand-forecasting-overview.md)
-1. [Forecast and plan for intercompany trade](forecast-to-plan-areas.md#forecast-and-plan-for-intercompany-trade)
-1. Plan supply and replenishment (the article that you're currently reading)
+
+2. [Establish stocking and replenishment policies overview](forecast-to-plan-establish-stocking-replenishment-policies-overview.md)
+
+3. [Forecast supply and demand](forecast-to-plan-demand-forecasting-overview.md)
+
+4. [Forecast and plan for intercompany trade](forecast-to-plan-areas.md#forecast-and-plan-for-intercompany-trade)
+
+5. *Plan supply and replenishment* (the article that you're currently reading)
 
 ## Related resources
 

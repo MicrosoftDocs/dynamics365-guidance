@@ -123,13 +123,15 @@ The **Start** box has the following parallel branches, shown on the left side of
 
 ## Next steps
 
-- Define the goals and objectives of [implementing an order to cash technology solution](../implementation-guide/implementation-strategy.md).
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
+1. Define the goals and objectives of [implementing an order to cash technology solution](../implementation-guide/implementation-strategy.md).
 
-- [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/) or get a free trial of Microsoft Business Applications solutions for the order to cash process.
+2. Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
 
-- [Get an overview of the order to cash business process areas](order-to-cash-areas-overview.md).
+3. [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/) or get a free trial of Microsoft Business Applications solutions for the order to cash process.
+
+4. [Get an overview of the order to cash business process areas](order-to-cash-areas-overview.md).
 
 ## Related resources
 

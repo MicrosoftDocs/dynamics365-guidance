@@ -75,17 +75,11 @@ Finally, the process provides a consistent and high-quality customer experience 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your prospect to quote business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *prospect to quote* business processes, use the following resources and steps to learn more.
 
-Below are some resources to help you learn more about Dynamics 365 Sales and its capabilities in managing the prospect-to-quote process:
+1. [Dynamics 365 Sales Overview](https://dynamics.microsoft.com/sales/overview/)
 
-- [Dynamics 365 Sales Overview](https://dynamics.microsoft.com/sales/overview/)
-
-    This official product page for Dynamics 365 Sales introduces features and capabilities.
-
-- [Dynamics 365 Sales](/training/dynamics365/sales/)
-
-    Microsoft Learn offers free online courses to help you understand learn Dynamics 365 Sales. The modules cover a range of areas, from an introduction to the platform to more advanced features.
+2. [Dynamics 365 Sales](/training/dynamics365/sales/)
 
 ## Related resources
 

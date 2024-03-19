@@ -111,13 +111,17 @@ This interoperability leads to streamlined processes, reduced manual effort in d
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *manage service lifecycle* business processes, you can use the following resources and steps to learn more.
+If you would like to implement Dynamics 365 solutions to assist with your *manage service lifecycle* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- [Define service offering and strategy](/dynamics365/guidance/business-processes/concept-to-market-define-service-offerings-strategy-overview)
-- [Introduce new services](/dynamics365/guidance/business-processes/concept-to-market-introduce-new-services)
-- Manage service pricing
-- [Define service costing](/dynamics365/guidance/business-processes/concept-to-market-define-service-costing-overview)
-- Manage service lifecycle (the article that you're currently reading)
+1. [Define service offering and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
+
+2. [Introduce new services](concept-to-market-introduce-new-services.md)
+
+3. *Manage service pricing*
+
+4. [Define service costing](concept-to-market-define-service-costing-overview.md)
+
+5. *Manage service lifecycle* (the article you're currently reading).
 
 ## Related resources
 

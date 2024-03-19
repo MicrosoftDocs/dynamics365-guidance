@@ -95,10 +95,13 @@ Parallel branches from Start connect to the following end-to-end processes, all 
 
 If you want to implement Dynamics 365 solutions to assist with your *concept to market* business processes, you can use the following resources and steps to learn more.
 
-- Define the goals and objectives for a technology solution that supports the organization's need for a service lifecycle management process. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
-- Request a demo or get a free trial of Dynamics 365 solutions for the product and service lifecycle management process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
-- Get an overview of the product and service lifecycle management process. Learn more at [Concept to market business process areas](concept-to-market-areas.md).
+1. Define the goals and objectives for a technology solution that supports the organization's need for a service lifecycle management process. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+
+3. Request a demo or get a free trial of Dynamics 365 solutions for the product and service lifecycle management process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+
+4. Get an overview of the product and service lifecycle management process. Learn more at [Concept to market business process areas](concept-to-market-areas.md).
 
 ## Related resources
 

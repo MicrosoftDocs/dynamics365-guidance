@@ -137,13 +137,13 @@ Use the following resources to learn more about the *service to cash* process in
 
 If you want to implement Dynamics 365 solutions to assist with your *service to cash* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an o to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md)
+1. Define the goals and objectives of implementing an o to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md)
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+3. Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)
 
-- Get an overview of the order to cash process at [Service to cash overview](service-to-cash-overview.md)
+4. Get an overview of the order to cash process at [Service to cash overview](service-to-cash-overview.md)
 
 <!--## Tags
 *Stakeholders:* Customer Service Agents, Customer Service Managers, Service Coordinators, Service Managers, Dispatchers, Frontline Workers, Supervisors, COO (Chief Operations Officer), VP (Vice President) of Operations, Operations Manager, Planning manager, Purchasing Supervisor, Receiving Clerk, Warehouse personnel, Warehouse manager, Production manager, Production scheduler, CFO (Chief Financial Officer), Controller, Finance director, Accounts receivable, Credit and collections, CPO (Chief People Officer), Director of Human Resources, Human Resources manager, Recruiter, Internal auditors, External auditors

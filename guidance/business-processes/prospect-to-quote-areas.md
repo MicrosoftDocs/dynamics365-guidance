@@ -62,11 +62,11 @@ Gain insights from service delivery to improve future sales efforts. While Dynam
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your order to cash business processes, learn more at the following resources and steps.
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, learn more at the following resources and steps.
 
-- [Prospect to quote introduction](prospect-to-quote-introduction.md)
+1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
 
-- [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
+2. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
 
 ## Related resources
 

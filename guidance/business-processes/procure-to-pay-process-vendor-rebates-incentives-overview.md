@@ -4,7 +4,7 @@ description: Learn about the process vendor rebates and incentives business proc
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 02/28/2024
+ms.date: 03/18/2024
 ---
 
 # Process vendor rebates and incentives overview
@@ -101,15 +101,21 @@ KPIs such as rebate processing time and the percentage reduction in manual error
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your processing vendor rebates and incentives business processes, you can use the following resources and steps to learn more.
+If you would like to implement Dynamics 365 solutions to assist with your *processing vendor rebates and incentives* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- *Define procurement and sourcing strategies*
-- [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
-- [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
-- *Procure materials and services*
-- [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
-- [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
-- *Process vendor rebates and incentives* (the article you're currently reading)
+1. *Define procurement and sourcing strategies*
+
+2. [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
+
+3. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
+
+4. *Procure materials and services*
+
+5. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
+
+6. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+
+7. *Process vendor rebates and incentives* (the article you're currently reading)
 
 ## Related resources
 
@@ -150,4 +156,4 @@ Principal author:
 
 Other contributors:
 
-- [Menekse Saygili](https://www.linkedin.com/in/fmsaygili/) \| Senior Program Manager
+- [Menekse Saygili](https://www.linkedin.com/in/fmsaygili) \| Senior Program Manager

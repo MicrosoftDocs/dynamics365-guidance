@@ -3,7 +3,7 @@ title: Procure materials and services overview
 description: Learn about the procure materials and services business process, including information about stakeholders and the business process flow.
 author: akbism
 ms.author: kumaramar
-ms.date: 03/13/2024
+ms.date: 03/18/2024
 ms.topic: conceptual
 ---
 
@@ -158,15 +158,21 @@ Whenever an approved purchase order is confirmed, it creates a confirmation jour
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *procure materials and services* business processes, you can use the following resources and steps to learn more.
+If you would like to implement Dynamics 365 solutions to assist with your *procure materials and services* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- *Define procurement and sourcing strategies*
-- [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
-- [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
-- *Procure materials and services* (the article that you're currently reading)
-- [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
-- [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
-- [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
+1. *Define procurement and sourcing strategies*
+
+2. [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
+
+3. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
+
+4. *Procure materials and services* (the article that you're currently reading)
+
+5. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
+
+6. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+
+7. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
 
 ## Related resources
 

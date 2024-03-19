@@ -93,31 +93,29 @@ When you can organize and group similar items in categories within the procureme
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *define procurement catalogs* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *define procurement catalogs* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)
 
-2. Develop sourcing strategies
+2. *Develop sourcing strategies*
 
-3. Define procurement catalogs  
+3. *Define procurement catalogs* (The article you're currently reading.)
 
-    You're in this article.
-
-4. Define policies and procedures for procurement
+4. *Define policies and procedures for procurement*
 
 5. [Procure materials and services](procure-to-pay-procure-materials-services-overview.md)
 
-6. Process vendor invoices
+6. *Process vendor invoices*
 
-7. Issue and settle vendor payments
+7. *Issue and settle vendor payments*
 
-8. Manage vendor debits and chargebacks
+8. *Manage vendor debits and chargebacks*
 
-9. Create and process promissory notes
+9. *Create and process promissory notes*
 
-10. Process vendor rebates and incentives
+10. *Process vendor rebates and incentives*
 
-11. Analyze vendor performance
+11. *Analyze vendor performance*
 
 ## Related resources
 

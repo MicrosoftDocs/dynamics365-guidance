@@ -55,10 +55,11 @@ Learn more at [Manage product lifecycle overview](design-to-retire-manage-produc
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *design to retire* business processes, learn more at the following resources and steps.
+If you want to implement Dynamics 365 solutions to assist with your *design to retire* business processes, use the following resources and steps to learn more.
 
-- [Design to retire introduction](design-to-retire-introduction.md)
-- [Design to retire end-to-end overview](design-to-retire-overview.md)
+1. [Design to retire introduction](design-to-retire-introduction.md)
+
+2. [Design to retire end-to-end overview](design-to-retire-overview.md)
 
 ## Related resources
 

@@ -144,11 +144,15 @@ KPIs such as decision cycle times and the accuracy of decision outcomes reflect 
 
 If you would like to implement Dynamics 365 solutions to assist with your *manage product lifecycle* business processes, you can use the following resources and steps to learn more.
 
-- [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
-- [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
-- [Manage product pricing](design-to-retire-manage-product-pricing-overview.md)  
-- [Define product costing overview](design-to-retire-define-product-costing-overview.md)
-- *Manage product lifecycle* (the article that you're currently reading)
+1. [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
+
+2. [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
+
+3. [Manage product pricing](design-to-retire-manage-product-pricing-overview.md)  
+
+4. [Define product costing overview](design-to-retire-define-product-costing-overview.md)
+
+5. *Manage product lifecycle* (the article that you're currently reading).
 
 ## Related resources
 

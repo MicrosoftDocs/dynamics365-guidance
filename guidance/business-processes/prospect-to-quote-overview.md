@@ -144,17 +144,17 @@ Parallel branches from Start include the following:
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *prospect to quote* business processes, learn more at the following resources and steps.
+If you want to implement Dynamics 365 solutions to assist with your *prospect to quote* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a prospect to quote technology solution. Learn more at [Solution architecture design: Vision and strategies](../implementation-guide/solution-architecture-design-pillars-vision-strategies.md)
+1. Define the goals and objectives of implementing a prospect to quote technology solution. Learn more at [Solution architecture design: Vision and strategies](../implementation-guide/solution-architecture-design-pillars-vision-strategies.md)
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
 
 <!-- Get a demo of Dynamics 365 solutions for the order to cash process.TODO: add link For more information, see \[link\].-->
 
-- [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+3. [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
 
-- [Prospect to quote business process areas](prospect-to-quote-areas.md)
+4. [Prospect to quote business process areas](prospect-to-quote-areas.md)
 
 ## Related resources
 

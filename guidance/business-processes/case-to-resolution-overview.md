@@ -215,15 +215,15 @@ Each of the end-to-end processes a-j have parallel branches connecting 7. Manage
 
 If you would like to implement Dynamics 365 solutions to assist with your *case to resolution* business processes, you can use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an *case to resolution* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing an *case to resolution* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Microsoft Business Applications solutions for the *case to resolution* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Microsoft Business Applications solutions for the *case to resolution* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an introduction of the **case to resolution** business process. Learn more at [*Case to resolution* introduction](case-to-resolution-introduction.md).
+4. Get an introduction of the **case to resolution** business process. Learn more at [*Case to resolution* introduction](case-to-resolution-introduction.md).
 
-- Get an overview of the **case to resolution** business process areas. Learn more at [*Case to resolution* business process areas](case-to-resolution-areas.md)
+5. Get an overview of the **case to resolution** business process areas. Learn more at [*Case to resolution* business process areas](case-to-resolution-areas.md)
 
 ## Related resources
 
