@@ -27,11 +27,22 @@ landingContent:
 # Card
   - title: Samples and tools
     linkLists:
+    - linkListType: overview
+      links:
+        - text: Overview
+          url: component-library.md
     - linkListType: sample
       links:
-        - text: Sample library
-          url: /digital-contact-center-platform/guidance/component-library
-
+        - text: Channel-based presence
+          url: cs-channel-based-presence.md
+        - text: Set up agent capacity
+          url: cs-route-release-capacity-in-ur.md
+        - text: DTMF aggregation by Bot Framework skills
+          url: copilot-studio-bot-framework-composer-skill.md
+        - text: AgentScript and macro samples
+          url: cs-agent-script-macro-sample.md
+        - text: Deflect cases with artificial intelligence
+          url: cs-ai-case-deflection.md
 # Card
   - title: Setup
     linkLists:

@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365.
   author: edupont04
   ms.author: edupont
-  ms.date: 07/06/2023
+  ms.date: 02/14/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -23,6 +23,8 @@ landingContent:
       links:
       - text: Introduction
         url: overview.md
+      - text: Implementation Portal
+        url: ../implementation-portal/overview.md
       - text: Dynamics 365 implementation guide
         url: ../implementation-guide/overview.md
     - linkListType: sample
@@ -33,6 +35,65 @@ landingContent:
       links:
         - text: Implement finance and operations apps
           url: /training/paths/implement-finance-operations/
+
+# Card 
+#   - title: Reference architectures
+#     linkLists:
+#       - linkListType: architecture
+#         links:
+#           - text: Omnichannel digital messaging, AI-powered chatbots, and voice with Dynamics 365 and Microsoft-supplied PSTN 
+#             url: dynamics-365-customer-service-omnichannel-pstn-msft-cs1p.md
+#           - text: Omnichannel digital messaging with AI-powered chatbots and no support for voice
+#             url: dynamics-365-customer-service-omnichannel-digital-messaging-csdm.md
+#           - text: Omnichannel digital messaging with Dynamics 365 Customer Service and third-party PSTN
+#             url: dynamics-365-customer-service-omnichannel-pstn-3rdparty-cs3p.md
+#           - text: Omnichannel digital messaging with third-party voice service and Dynamics 365 Customer Service
+#             url: dynamics-365-customer-service-omnichannel-digital-messaging-3rdparty-ccaas-voice-csdm3p.md
+#           - text: Nuance IVR and Gatekeeper plus Dynamics 365 digital messaging
+#             url: dynamics-365-customer-service-omnichannel-digital-messaging-nuance-ivr-csdmn.md
+#           - text: Nuance plus third-party CCaaS provider and Dynamics 365 Customer Service
+#             url: dynamics-365-customer-service-nuance-ivr-3rdparty-ccaas-csn3pcc.md
+#           - text: Dynamics 365 Customer Service plus third-party CCaaS provider
+#             url: dynamics-365-customer-service-3rdparty-ccaas-cs3pcc.md
+#           - text: Nuance plus third-party CCaaS provider
+#             url: dynamics-365-customer-service-nuance-3rdparty-ccaas-3ccncs.md
+#           - text: Teams plus third-party CCaaS provider
+#             url: 3rdparty-ccaas-teams-optional-3pcct.md
+#           - text: Service customers with Microsoft Teams only
+#             url: microsoft-teams-mst.md
+# # Card
+  - title: Analytics
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Configure analytics and insights dashboards
+        url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh
+      - text: Get started with analytics for Omnichannel
+        url: analytics-get-started.md
+      - text: Overview of capabilities for analytics
+        url: analytics-capabilities.md
+      - text: Application lifecycle management for custom reports
+        url: analytics-alm-custom-reports.md
+# Card
+  - title: Sample tools and scripts
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Overview
+          url: component-library.md
+        - text: Load test the solution
+          url: test-scale-dynamics-365-solution.md
+        - text: Set up test automation with Playwright
+          url: test-automation-setup.md
+        - text: Scale load tests
+          url: test-load-tests-scaling.md
+        - text: Scenarios for load tests
+          url: test-load-test-scenarios.md
+        - text: Simulator for Channel Integration Framework 2.0
+          url: cs-set-up-cif2-simulator.md
+        - text: Set up click-to-run outbound calls
+          url: cs-set-up-outbound-calls.md
+
 
 # Developer Card
   # - title: Develop the implementation
@@ -79,6 +140,8 @@ landingContent:
       links:
       - text: Overview
         url: cs-index.yml
+      - text: Samples and tools
+        url: component-library.md
     - linkListType: concept
       links:
         - text: Set up test automation

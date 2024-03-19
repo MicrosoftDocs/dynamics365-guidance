@@ -416,6 +416,41 @@ items:
           items:
           - name: Overview
             href: resources/cs-index.yml
+# Sample and tools
+          - name: Samples and tools
+            items:
+              - name: Samples and tools overview
+                href: resources/component-library.md
+              - name: Unified routing
+                items:
+                - name: Channel-based presence
+                  href: resources/cs-channel-based-presence.md
+                - name: Set up agent capacity for custom entities
+                  href: resources/cs-route-release-capacity-in-ur.md
+              - name: Omnichannel
+                items:
+                - name: Custom record identification rule
+                  href: resources/cs-omnichannel-custom-record-identification-rule.md
+                - name: Sample context parsing
+                  href: resources/cs-omnichannel-sample-context-parsing.md
+                - name: LiveChat widget customization samples
+                  href: resources/cs-omnichannel-live-chat-widget-samples.md
+                - name: AgentScript and macro samples
+                  href: resources/cs-agent-script-macro-sample.md
+              - name: Artificial Intelligence
+                items:
+                - name: Deflect cases with artificial intelligence
+                  href: resources/cs-ai-case-deflection.md
+                - name: Summarize Dynamics 365 Knowledge Base articles with ChatGPT
+                  href: resources/ai-summarize-knowledge-base-articles.md
+              - name: Copilot Studio
+                items:
+                - name: DTMF aggregation by Bot Framework skills
+                  href: resources/copilot-studio-bot-framework-composer-skill.md
+                - name: Multilanguage voice bot
+                  href: resources/copilot-studio-multilanguage-bot.md
+                - name: Play secured audio file
+                  href: resources/copilot-studio-play-audio-file.md
 # 14806 dev tools
           - name: Develop solutions
             items:
@@ -441,11 +476,11 @@ items:
           - name: Add analytics
             items:
               - name: Get started with analytics for Omnichannel
-                href: /digital-contact-center-platform/guidance/analytics-get-started
+                href: resources/analytics-get-started.md
               - name: Overview of capabilities for analytics
-                href: /digital-contact-center-platform/guidance/analytics-capabilities
+                href: resources/analytics-capabilities.md
               - name: Application lifecycle management for custom reports
-                href: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
+                href: resources/analytics-alm-custom-reports.md
 # FnO
         - name: Finance and operations apps
           items:
@@ -918,15 +953,16 @@ items:
         - name: Create a functional and technical design document
           href: patterns/create-functional-technical-design-document.md
 
-
-
-
 # Reference architectures
       - name: Reference architectures
         href: reference-architectures/index.yml
         items:
         - name: Copilot in Customer Service architecture
           href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+# DCCP
+        - name: Digital contact centers with Dynamics 365 Customer Service
+          href: /digital-contact-center-platform/guidance/reference-architecture-overview
+
 # FastTrack
       - name: FastTrack for Dynamics 365
         items:
