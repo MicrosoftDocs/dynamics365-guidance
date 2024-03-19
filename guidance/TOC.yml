@@ -411,6 +411,8 @@ items:
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Copilot in Implementation Portal
+            href: implementation-portal/implementation-copilot.md
 # 14733
         - name: Customer Service
           items:
