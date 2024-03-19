@@ -93,17 +93,17 @@ Dynamics 365 together with Power BI and Azure Data Lake with Azure Synapse provi
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- Define the goals and objectives of implementing a *hire to retire* technology solution. Learn more at Implementation strategy.
+1. Define the goals and objectives of implementing a *hire to retire* technology solution. Learn more at Implementation strategy.
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or a free trial of Dynamics 365 solutions for the *hire to retire* process. For more information, see [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or a free trial of Dynamics 365 solutions for the *hire to retire* process. For more information, see [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an overview of the *hire to retire* process. Learn more at [Hire to retire end-to-end overview](hire-to-retire-overview.md)
+4. Get an overview of the *hire to retire* process. Learn more at [Hire to retire end-to-end overview](hire-to-retire-overview.md)
 
-- Learn more about [Hire to retire business process areas](hire-to-retire-areas.md)
+5. Learn more about [Hire to retire business process areas](hire-to-retire-areas.md)
 
 ## Related resources
 

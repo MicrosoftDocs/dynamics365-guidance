@@ -97,13 +97,18 @@ Accelerate cash flow and revenue recognition by invoicing customers accurately a
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Create and process service work* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Create and process service work* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Manage service assets](service-to-cash-manage-service-assets.md)  
-2. Manage service resources
+
+2. *Manage service resources*
+
 3. *Create and process service work* (The article that you're currently reading)
+
 4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
-5. Record customer payments
+
+5. *Record customer payments*
+
 6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
 
 ## Related resources
@@ -116,7 +121,7 @@ You can use the following resources to learn more about the *Create and process 
 - [Dynamics 365 Field Service Community Forum](https://community.dynamics.com/365/fieldservice/f/dynamics-365-for-field-service-forum)
 - [Dynamics 365 Field Service Blog Posts](https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-field-service/?sort-by=newest-oldest&date=any&s=)
 - [Dynamics 365 Field Service Functional Consultant Certification](/credentials/certifications/exams/mb-240/)
-- Find definitions of terminology that is used in content for *Create and process service work* process area in the [Glossary of terms in Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary) article. For example, this glossary includes the following terms:
+- Find definitions of terminology that is used in content for *Create and process service work* process area in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Work order](glossary.md#work-order)
     - [Service customer](glossary.md#service-customer)

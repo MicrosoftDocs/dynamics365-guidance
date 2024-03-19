@@ -81,15 +81,15 @@ Learn more at [Manage travel and expenses](hire-to-retire-manage-travel-expenses
 
 If you want to implement Dynamics 365 solutions to assist with your hire to retire business processes, learn more at the following resources and steps.
 
-- Define the goals and objectives of implementing a *hire to retire* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing a *hire to retire* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or a free trial of Dynamics 365 solutions for the *hire to retire* process. For more information, see [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or a free trial of Dynamics 365 solutions for the *hire to retire* process. For more information, see [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Review the [Hire to retire end-to-end overview](hire-to-retire-overview.md)  
+4. Review the [Hire to retire end-to-end overview](hire-to-retire-overview.md)  
 
-- Get an overview of the *hire to retire* process. Learn more at [Hire to retire end-to-end overview](hire-to-retire-overview.md)
+5. Get an overview of the *hire to retire* process. Learn more at [Hire to retire end-to-end overview](hire-to-retire-overview.md)
 
 ## Related resources
 

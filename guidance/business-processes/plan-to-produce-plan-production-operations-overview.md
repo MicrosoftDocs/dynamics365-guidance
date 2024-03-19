@@ -96,11 +96,17 @@ When organizations use the automated production planning and scheduling tools in
 If you want to implement Dynamics 365 solutions to assist with your plan production operations business processes, use the following resources and steps to learn more:
 
 1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
+
 2. [Define production strategies](plan-to-produce-define-production-strategies.md)
+
 3. *Plan production operations* (the article that you're currently reading)      
+
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
+
 5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
+
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
+
 7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
 Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).  

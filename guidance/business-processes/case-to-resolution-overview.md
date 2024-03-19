@@ -1,15 +1,13 @@
 ﻿---
-title: Overview of care to resolution end-to-end business process flow
+title: Overview of case to resolution end-to-end business process flow
 description: Learn about the end-to-end business process, from case to resolution. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 04/05/2023
+ms.date: 03/13/2024
 ms.topic: conceptual
-
 author: edupont04
 ms.author: marcoje
-
 ---
 
-# Overview of care to resolution end-to-end business process flow
+# Overview of case to resolution end-to-end business process flow
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
@@ -61,7 +59,7 @@ The first column of this diagram shows potential upstream processes for the *cas
 
 - **Record to report**  
 
-  Case management can be a critical tools in coordinating resolutions and refund for example, with many other business processes.
+  Case management can be a critical tool in coordinating resolutions and refund for example, with many other business processes.
 
 - **Service to cash**  
 
@@ -89,7 +87,7 @@ The second column in the graphic shows the business process areas that are part 
 
 - Process product recalls
 
-The third and last column in the diagram displays the downstream business process including the following the same list that is shown in column one for the upstream processes. This is because there is a lot of flexibility in the process flow your organization can use to manage requests and issues. In some cases, the case may be a prerequisite for completing another process, in others, the case might happen after another process is already complete.
+The third and last column in the diagram displays the downstream business process including the following the same list that is shown in column one for the upstream processes. This is because there's much flexibility in the process flow your organization can use to manage requests and issues. In some cases, the case may be a prerequisite for completing another process, in others, the case might happen after another process is already complete.
 
 ## Featured capabilities
 
@@ -105,7 +103,7 @@ There are product specific capabilities offered that interact with the *case to 
 
 - **Knowledge Base management**  
 
-  A robust knowledge base authoring, curation and publishing tool which can also be configured to crawl external knowledge bases created in content services like SharePoint.
+  A robust knowledge base authoring, curation, and publishing tool, which can also be configured to crawl external knowledge bases created in content services like SharePoint.
 
 - **Smart Assist Bot**  
 
@@ -217,15 +215,15 @@ Each of the end-to-end processes a-j have parallel branches connecting 7. Manage
 
 If you would like to implement Dynamics 365 solutions to assist with your *case to resolution* business processes, you can use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an *case to resolution* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing an *case to resolution* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Microsoft Business Applications solutions for the *case to resolution* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Microsoft Business Applications solutions for the *case to resolution* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an introduction of the **case to resolution** business process. Learn more at [*Case to resolution* introduction](case-to-resolution-introduction.md).
+4. Get an introduction of the **case to resolution** business process. Learn more at [*Case to resolution* introduction](case-to-resolution-introduction.md).
 
-- Get an overview of the **case to resolution** business process areas. Learn more at [*Case to resolution* business process areas](case-to-resolution-areas.md)
+5. Get an overview of the **case to resolution** business process areas. Learn more at [*Case to resolution* business process areas](case-to-resolution-areas.md)
 
 ## Related resources
 

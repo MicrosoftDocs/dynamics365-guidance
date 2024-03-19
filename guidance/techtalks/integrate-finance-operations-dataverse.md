@@ -11,7 +11,7 @@ ai-usage: ai-assisted
 
 # TechTalk: Integration patterns for Dataverse
 
-In the realm of modern enterprise solutions, Dataverse stands out as a robust and scalable data service, crucial within Microsoft's Power Platform. This article delves into the various facets of integrating Dataverse, with a particular focus on its interoperability with Dynamics 365, offering an extensive exploration of its capabilities and integration techniques.
+In the realm of modern enterprise solutions, Dataverse stands out as a robust and scalable data service, crucial within Microsoft Power Platform. This article delves into the various facets of integrating Dataverse, with a particular focus on its interoperability with Dynamics 365, offering an extensive exploration of its capabilities and integration techniques.
 
 We've based the article on [a TechTalk](https://youtu.be/CFG1EpPuFRs?si=i22wsPZuGTAHAMIz) that you can find online in the Dynamics 365 channel on YouTube.  
 
@@ -35,9 +35,9 @@ Integrating Dynamics 365 with Dataverse brings about a unified data platform, wh
 
 The following illustration provides insights into inbound integration where you import data to Dataverse.
 
-:::image type="content" source="media/integration-patterns-dataverse2.svg" alt-text="Three tiles for different approaches, Dataverse API, Dataverse components, and UI integration." lightbox="media/integration-patterns-dataverse2.svg":::
+:::image type="content" source="media/integration-patterns-dataverse2.svg" alt-text="Three tiles for different approaches, Dataverse API, Dataverse connectors, and UI integration." lightbox="media/integration-patterns-dataverse2.svg":::
 
-Inbound integration is primarily concerned with the process of importing data into Dataverse. This can be achieved through direct API interactions, utilizing Organization Service and Web API to facilitate programmatic data import. Alternatively, businesses can leverage Power Automate and Logic Apps, which offer a more streamlined approach to data import, requiring minimal coding effort thanks to their pre-built connectors.
+Inbound integration is primarily concerned with the process of importing data into Dataverse. This can be achieved through direct API interactions, using Organization Service and Web API to facilitate programmatic data import. Alternatively, businesses can leverage Power Automate and Azure Logic Apps, which offer a more streamlined approach to data import, requiring minimal coding effort thanks to their prebuilt connectors.
 
 The following illustration provides insights into outbound integration where you export data from Dataverse.
 
@@ -47,7 +47,7 @@ Outbound integration focuses on exporting data from Dataverse. This can involve 
 
 ## Implementation strategies
 
-You can choose between different implmenetation strategies as outlined in this section.
+You can choose between different implementation strategies as outlined in this section.
 
 - Set up APIs
 
@@ -55,17 +55,17 @@ You can choose between different implmenetation strategies as outlined in this s
 
 - Automating with Power Automate
 
-  The following illustration compares Power Automate with logic apps.
+  The following illustration compares Power Automate with Logic Apps.
 
-  :::image type="content" source="media/integration-patterns-dataverse4.svg" alt-text="Two cards that compare Power Automate with logic apps." lightbox="media/integration-patterns-dataverse4.svg":::
+  :::image type="content" source="media/integration-patterns-dataverse4.svg" alt-text="Two cards that compare Power Automate with Logic Apps." lightbox="media/integration-patterns-dataverse4.svg":::
 
   Power Automate serves as an effective tool for automating data import processes. Creating flows in Power Automate should be approached with a detailed understanding of the tool, ensuring that the automation is efficient and free from errors. It's also important to adhere to best practices in automation to maintain data integrity and streamline operations.
 
 - Use Azure functions for data export
 
-  The following illustration provides insights into using Azure Synapse Links for Dataverse.
+  The following illustration provides insights into using Azure Synapse Link for Dataverse.
 
-  :::image type="content" source="media/integration-patterns-dataverse5.svg" alt-text="Illustrate Azure Synapse Link for Dataverse." lightbox="media/integration-patterns-dataverse5.svg":::
+  :::image type="content" source="media/integration-patterns-dataverse5.svg" alt-text="Illustration of Azure Synapse Link for Dataverse." lightbox="media/integration-patterns-dataverse5.svg":::
 
   Using Azure Functions for data export is a powerful strategy. It involves understanding the integration techniques specific to Azure and applying them to ensure robust data export. Emphasizing security and scalability in this context is crucial, particularly for handling large datasets and maintaining data integrity.
 
@@ -79,7 +79,7 @@ Security is paramount in any data integration strategy. Ensuring data security w
 
 ## Conclusion
 
-Integrating Dataverse effectively is key for businesses utilizing Microsoft's ecosystem. This guide provides a thorough exploration of Dataverse integration patterns, aiming to ensure robust, scalable, and secure data management across applications. For ongoing learning and support, Microsoft's official documentation and community forums are invaluable resources.
+Integrating Dataverse effectively is key for businesses using Microsoft's ecosystem. This guide provides a thorough exploration of Dataverse integration patterns, aiming to ensure robust, scalable, and secure data management across applications. For ongoing learning and support, Microsoft's official documentation and community forums are invaluable resources.
 
 ## Related resources
 

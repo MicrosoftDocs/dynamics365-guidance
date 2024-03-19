@@ -102,13 +102,13 @@ Dynamics 365 can help optimize the use of production resources by providing real
 
 If you want to implement Dynamics 365 solutions to assist with your *forecast to plan* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a *forecast to plan* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing a *forecast to plan* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the *forecast to plan* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *forecast to plan* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an overview of the *forecast to plan* process. Learn more at [Forecast to plan overview](forecast-to-plan-overview.md).
+4. Get an overview of the *forecast to plan* process. Learn more at [Forecast to plan overview](forecast-to-plan-overview.md).
 
 ## Related resources
 

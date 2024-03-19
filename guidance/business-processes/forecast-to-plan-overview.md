@@ -125,13 +125,13 @@ The following steps are illustrated in the *forecast to plan* end-to-end process
 
 If you want to implement Dynamics 365 solutions to assist with your *forecast to plan* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an overview of the *forecast to plan* business process areas. Learn more at [Forecast to plan business process areas](forecast-to-plan-areas.md).
+4. Get an overview of the *forecast to plan* business process areas. Learn more at [Forecast to plan business process areas](forecast-to-plan-areas.md).
 
 ## Related resources
 

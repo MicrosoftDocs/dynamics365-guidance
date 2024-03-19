@@ -43,78 +43,78 @@ The *issue and settle vendor payments* process area flow diagram cover the follo
 
 - *Start*
 
-- *Design to retire end-to-end process*
+- *Procure to pay* end-to-end process
     
-    Parallel branches to this end-to-end process are the *Procure to Pay* end-to-end process, *Inventory to Deliver* end-to-end process, and *Concept to market* end-to-end processes*
+    Parallel branches to this end-to-end process are the *Design to retire* end-to-end process, *Inventory to Deliver* end-to-end process, and *Concept to market* end-to-end process.
 
-    - Introduce new products and services
+    - *Define policies and procedures for procurement*
 
-    - Procure materials and services
+    - *Manage vendor relationship*
 
-    - Process inbound goods
+    - *Procure materials and services*
 
-    - Process vendor invoices
+    - *Process inbound goods*
 
-    - Issue and settle vendor payments
+    - *Process vendor invoices*
 
-        - Condition "Does cash discount apply?"
+    - *Issue and settle vendor payments*
 
-           - A parallel branch for **Yes** leads to subprocess *ii.Configure and apply cash discounts*
+        - Condition *Does cash discount apply?*
 
-            - A parallel branch for **No** leads to condition *ii."Is pre-payment?"*
+           - A parallel branch for **Yes** leads to the subprocess *Configure and apply cash discounts*
 
-        - Configure and apply cash discounts
+            - A parallel branch for **No** leads to the condition *Is pre-payment?*
 
-        - Condition "Is pre-payment?"
+        - *Configure and apply cash discounts*
 
-            - A parallel branch for **Yes** leads to subprocess *iv.Generate and post prepayments*
+        - Condition *Is pre-payment?*
 
-             Downstream to this subprocess is a subprocess *Record financial transactions* which connects to an end-to-end business process*Record to Report*
+            - A parallel branch for **Yes** leads to the subprocess *Generate and post prepayments*
 
-            - A parallel branch for **No** leads to subprocess *v.Generate and post payments*
+             Downstream to this subprocess is a subprocess *Record financial transactions* that connects to the end-to-end business process *Record to Report*
 
-                Downstream to this subprocess is a subprocess *Record financial transactions* which connects to an end-to-end business process*Record to Report*
+            - A parallel branch for **No** leads to the subprocess *Generate and post payments*
 
-        - Generate and post prepayments
+                Downstream to this subprocess is a subprocess *Record financial transactions* that connects to an end-to-end business process *Record to Report*
 
-        - Generate and post payments
+        - *Generate and post prepayments*
 
-        - Condition "Does promissory notes apply?"
+        - *Generate and post payments*
 
-            - A parallel branch for **Yes** leads to subprocess *Generate and process promissory notes*
-            - A parallel branch for **No** leads to condition *Settle vendor transactions*
+        - Condition *Does promissory notes apply?*
 
-        - Generate and process promissory notes
+            - A parallel branch for **Yes** leads to the subprocess *Generate and process promissory notes*
+            - A parallel branch for **No** leads to the condition *Settle vendor transactions*
 
-        - Settle vendor transactions
+        - *Generate and process promissory notes*
 
-        - Condition "Has payment been canceled?"
+        - *Settle vendor transactions*
 
-            - A parallel branch for **Yes** leads to subprocess *Cancel a vendor payment*
+        - Condition *Has payment been canceled?*
+
+            - A parallel branch for **Yes** leads to the subprocess *Cancel a vendor payment*
 
             - A parallel branch for **Yes** leads to *End*
 
-        - Cancel a vendor payment
+        - *Cancel a vendor payment*
 
-- *Procure to Pay end-to-end process*
+- *Design to retire* end-to-end process
 
-    - Define policies and procedures for procurement
+    - *Introduce new products and services*
 
-    - Manage vendor relationship
+      This process connects to the subprocess *Procure materials and services*
 
-      This subprocess connects to a subprocess *Procure materials and services*
+- *Inventory to deliver* end-to-end process
 
-- *Inventory to Deliver end-to-end process*
+    - *Process inbound goods*
 
-    - Process inbound goods
-
-    - Process vendor invoices
+    - *Process vendor invoices*
 
       Downstream of this subprocess is a subprocess *Issue and settle vendor payments*
 
 - *Concept to market end-to-end process*
 
-    - Introduce new services
+    - *Introduce new services*
 
        This subprocess connects to a subprocess *Procure materials and services*
 
@@ -153,31 +153,31 @@ Learn more at [Settlement overview](/dynamics365/finance/cash-bank-management/se
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your Manage travel and expenses business processes, you can use the following resources and steps to learn more. Links are added when articles are ready.
+If you want to implement Dynamics 365 solutions to assist with your Manage travel and expenses business processes, use the following resources and steps to learn more. (Links are added, when articles are ready.)
 
-- Manage vendor relationships
+1. *Manage vendor relationships*
 
-- Develop sourcing strategies
+2. *Develop sourcing strategies*
 
-- Define procurement catalogs
+3. *Define procurement catalogs*
 
-- Define policies and procedures for procurement
+4. *Define policies and procedures for procurement*
 
-- Plan supply
+5. *Plan supply*
 
-- Procure materials and services
+6. *Procure materials and services*
 
-- Process vendor invoices
+7. *Process vendor invoices*
 
-- *Issue and settle vendor payments* (the article that you're currently reading)
+8. *Issue and settle vendor payments* (the article that you're currently reading)
 
-- Manage vendor debits and chargebacks
+9. *Manage vendor debits and chargebacks*
 
-- Create and process promissory notes
+10. *Create and process promissory notes*
 
-- Process vendor rebates and incentives
+11. *Process vendor rebates and incentives*
 
-- Analyze vendor performance
+12. *Analyze vendor performance*
 
 ## Related resources
 

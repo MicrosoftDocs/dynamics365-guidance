@@ -114,13 +114,18 @@ In conclusion, Incorporating technology into project contract management optimiz
 
 ## Next steps
 
-For the next steps in modernizing your project contract management processes, you can use the capabilities of Dynamics 365 Project Management. You can use the following resources and steps to learn more.  
+If you want to implement Dynamics 365 solutions to assist with your *project to profit* business processes, use the following resources and steps to learn more.
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)
+
 2. *Manage project contracts*. (The article you're currently reading.)
+
 3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
+
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
+
 5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+
 6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
 ## Related resources

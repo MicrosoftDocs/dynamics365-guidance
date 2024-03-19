@@ -61,17 +61,17 @@ This business process area involves analyzing vendor performance by measuring ke
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your procure to pay business processes, learn more at the following resources and steps.
+If you want to implement Dynamics 365 solutions to assist with your *procure to pay* business processes, learn more at the following resources and steps.
 
-- [Procure to pay - introduction to the end-to-end business process](procure-to-pay-introduction.md)
+1. [Procure to pay - introduction to the end-to-end business process](procure-to-pay-introduction.md)
 
-- [Procure to pay end-to-end overview](procure-to-pay-overview.md)  
+2. [Procure to pay end-to-end overview](procure-to-pay-overview.md)  
 
-- [Plan supply and replenishment business process area](forecast-to-plan-areas.md#plan-supply-and-replenishment)
+3. [Plan supply and replenishment business process area](forecast-to-plan-areas.md#plan-supply-and-replenishment)
 
-- [Procure materials and services overview](procure-to-pay-procure-materials-services-overview.md)
+4. [Procure materials and services overview](procure-to-pay-procure-materials-services-overview.md)
 
-- [Process vendor invoices overview](procure-to-pay-process-vendor-invoices-overview.md)
+5. [Process vendor invoices overview](procure-to-pay-process-vendor-invoices-overview.md)
 
 ## Related resources
 

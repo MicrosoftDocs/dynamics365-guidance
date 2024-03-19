@@ -252,12 +252,18 @@ The following end-to-end downstream processes have connections to End:
 If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
 
 1. *Define product costing overview* (the article that you're currently reading)
-1. [Define production strategies](plan-to-produce-define-production-strategies.md)
-1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
-1. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
-1. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
-1. [Control production quality](plan-to-produce-control-production-quality-overview.md)
-1. [Track production costs](plan-to-produce-track-production-costs-overview.md)
+
+2. [Define production strategies](plan-to-produce-define-production-strategies.md)
+
+3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
+
+4. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
+
+5. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
+
+6. [Control production quality](plan-to-produce-control-production-quality-overview.md)
+
+7. [Track production costs](plan-to-produce-track-production-costs-overview.md)
 
 Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).
 

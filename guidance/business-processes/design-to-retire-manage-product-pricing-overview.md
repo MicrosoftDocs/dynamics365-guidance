@@ -117,11 +117,15 @@ KPIs such as cross-channel pricing uniformity, the impact of pricing on customer
 
 If you would like to implement Dynamics 365 solutions to assist with your *manage product pricing* business processes, you can use the following resources and steps to learn more.
 
-- [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
-- [Introduce new products](design-to-retire-introduce-new-products-overview.md)
-- *Manage product pricing* (the article that you're currently reading).
-- [Define product costing overview](design-to-retire-define-product-costing-overview.md)
-- [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
+1. [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
+
+2. [Introduce new products](design-to-retire-introduce-new-products-overview.md)
+
+3. *Manage product pricing* (the article that you're currently reading).
+
+4. [Define product costing overview](design-to-retire-define-product-costing-overview.md)
+
+5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
 ## Related resources
 

@@ -115,10 +115,14 @@ Dynamics 365 provides advanced reporting and analytics capabilities that are bui
 If you want to implement Dynamics 365 solutions to assist with your product costing business processes, you can use the following resources and steps to learn more.
 
 1. [Define product catalog and strategy](design-to-retire-define-product-catalog-strategy-overview.md)
-1. [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
-1. *Define product costing* (the article that you're currently reading)
-1. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
-1. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
+
+2. [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
+
+3. *Define product costing* (the article that you're currently reading)
+
+4. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
+
+5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
 ## Related resources
 
@@ -135,7 +139,7 @@ You can use the following resources to learn more about the product costing proc
 - [Design Details: Costing Methods in Dynamics 365 Business Central](/dynamics365/business-central/design-details-costing-methods)
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)
 - [Inventory costs in Business Central](/dynamics365/business-central/finance-manage-inventory-costs)
-- [Issue and settle vendor payments overview](design-to-retire-issue-and-settle-vendor-payments-overview.md)
+- [Issue and settle vendor payments overview](procure-to-pay-issue-and-settle-vendor-payments-overview.md)
 - Find definitions of terminology that is used in content for *define product costing* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Cost](glossary.md#cost)

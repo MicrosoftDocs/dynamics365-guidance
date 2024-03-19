@@ -95,15 +95,21 @@ For multinational organizations, Dynamics 365 can handle the complexities of com
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your tax, audit, and regulatory compliance business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to assist with your *record to report* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Define financial structure and organizational policies](report-to-record-define-financial-structure-organizational-accounting-policies.md)
+
 2. *Comply with tax, audit, and regulatory requirements* (the article that you're currently reading)
-3. Manage fund accounting
-4. Manage budgets
-5. Record financial transactions
-6. Close financial periods
-7. Report and analyze financials and cash flow
+
+3. *Manage fund accounting*
+
+4. *Manage budgets*
+
+5. *Record financial transactions*
+
+6. *Close financial periods*
+
+7. *Report and analyze financials and cash flow*
 
 ## Related resources
 

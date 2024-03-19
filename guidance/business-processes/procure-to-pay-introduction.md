@@ -132,13 +132,13 @@ As organizations grow and their procurement needs increase, Dynamics 365 is a sc
 
 If you want to implement Dynamics 365 solutions to assist with your *procure to pay* business processes, use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing a *procure to pay* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing a *procure to pay* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the *procure to pay* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *procure to pay* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-- Get an overview of the *procure to pay* process at [Procure to pay end-to-end overview](procure-to-pay-overview.md)  
+4. Get an overview of the *procure to pay* process at [Procure to pay end-to-end overview](procure-to-pay-overview.md)  
 
 ## Related resources
 

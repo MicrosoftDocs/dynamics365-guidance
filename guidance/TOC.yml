@@ -411,11 +411,48 @@ items:
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Copilot in Implementation Portal
+            href: implementation-portal/implementation-copilot.md
 # 14733
         - name: Customer Service
           items:
           - name: Overview
             href: resources/cs-index.yml
+# Sample and tools
+          - name: Samples and tools
+            items:
+              - name: Samples and tools overview
+                href: resources/component-library.md
+              - name: Unified routing
+                items:
+                - name: Channel-based presence
+                  href: resources/cs-channel-based-presence.md
+                - name: Set up agent capacity for custom entities
+                  href: resources/cs-route-release-capacity-in-ur.md
+              - name: Omnichannel
+                items:
+                - name: Custom record identification rule
+                  href: resources/cs-omnichannel-custom-record-identification-rule.md
+                - name: Sample context parsing
+                  href: resources/cs-omnichannel-sample-context-parsing.md
+                - name: LiveChat widget customization samples
+                  href: resources/cs-omnichannel-live-chat-widget-samples.md
+                - name: AgentScript and macro samples
+                  href: resources/cs-agent-script-macro-sample.md
+              - name: Artificial Intelligence
+                items:
+                - name: Deflect cases with artificial intelligence
+                  href: resources/cs-ai-case-deflection.md
+                - name: Summarize Dynamics 365 Knowledge Base articles with ChatGPT
+                  href: resources/ai-summarize-knowledge-base-articles.md
+              - name: Copilot Studio
+                items:
+                - name: DTMF aggregation by Bot Framework skills
+                  href: resources/copilot-studio-bot-framework-composer-skill.md
+                - name: Multilanguage voice bot
+                  href: resources/copilot-studio-multilanguage-bot.md
+                - name: Play secured audio file
+                  href: resources/copilot-studio-play-audio-file.md
 # 14806 dev tools
           - name: Develop solutions
             items:
@@ -441,11 +478,11 @@ items:
           - name: Add analytics
             items:
               - name: Get started with analytics for Omnichannel
-                href: /digital-contact-center-platform/guidance/analytics-get-started
+                href: resources/analytics-get-started.md
               - name: Overview of capabilities for analytics
-                href: /digital-contact-center-platform/guidance/analytics-capabilities
+                href: resources/analytics-capabilities.md
               - name: Application lifecycle management for custom reports
-                href: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
+                href: resources/analytics-alm-custom-reports.md
 # FnO
         - name: Finance and operations apps
           items:
@@ -669,8 +706,6 @@ items:
             href: business-processes/design-to-retire-manage-product-pricing-overview.md
           - name: Manage product lifecycle overview
             href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
-          - name: Issue and settle vendor payments overview
-            href: business-processes\design-to-retire-issue-and-settle-vendor-payments-overview.md
         - name: Forecast to plan
           items:
           - name: End-to-end scenario - forecast to plan
@@ -791,14 +826,16 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
-          - name: Procure materials and services overview
-            href: business-processes/procure-to-pay-procure-materials-services-overview.md
-          - name: Process vendor rebates and incentives overview
-            href: business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md
-          - name: Process vendor invoices overview
-            href: business-processes/procure-to-pay-process-vendor-invoices-overview.md
           - name: Manage vendor relationships overview
             href: business-processes/procure-to-pay-manage-vendor-relationships-overview.md
+          - name: Procure materials and services overview
+            href: business-processes/procure-to-pay-procure-materials-services-overview.md
+          - name: Process vendor invoices overview
+            href: business-processes/procure-to-pay-process-vendor-invoices-overview.md
+          - name: Issue and settle vendor payments overview
+            href: business-processes\procure-to-pay-issue-and-settle-vendor-payments-overview.md
+          - name: Process vendor rebates and incentives overview
+            href: business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md
         # - name: Product and service lifecycle management
         #   items:
         #   - name: End-to-end scenario - product and service lifecycle management
@@ -887,6 +924,8 @@ items:
             href: business-processes/service-to-cash-areas-overview.md
           - name: Manage service assets overview
             href: business-processes/service-to-cash-manage-service-assets.md
+          - name: Manage service resources overview
+            href: business-processes/service-to-cash-manage-service-resources.md
           - name: Create and process service work
             # items:
             # - name: Create work orders
@@ -916,15 +955,16 @@ items:
         - name: Create a functional and technical design document
           href: patterns/create-functional-technical-design-document.md
 
-
-
-
 # Reference architectures
       - name: Reference architectures
         href: reference-architectures/index.yml
         items:
         - name: Copilot in Customer Service architecture
           href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+# DCCP
+        - name: Digital contact centers with Dynamics 365 Customer Service
+          href: /digital-contact-center-platform/guidance/reference-architecture-overview
+
 # FastTrack
       - name: FastTrack for Dynamics 365
         items:

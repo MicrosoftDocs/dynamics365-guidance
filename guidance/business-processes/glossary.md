@@ -300,6 +300,10 @@ Compliance reporting involves the generation and submission of reports to regula
 
 Material consumption refers to the use of items in a project. You can register the consumption of items in several ways. You can sell or purchase items from a project, or reserve items for a project. You can order items from the company's inventory for consumption on a project or purchase items from an external vendor. Item consumption is recorded as a posting that registers that the item was used in the project.
 
+### Contractor
+
+Contractors are third-party, or external, service resources that may be used in the service delivery process but are not directly employed by the servicing organization.
+
 ### Co-products and by-products
 
 In process manufacturing, co-products and by-products are additional terms that are associated with formulas and batch orders. Co-products are multiple products that are produced simultaneously in a single production process. By-products are secondary products that are obtained incidentally during the production of the primary item. Dynamics 365 Supply Chain Management accommodates these complexities in process manufacturing.
@@ -1308,9 +1312,17 @@ A requirement is a capability that must be present in a product, service, or res
 
 Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. Bookings represent organizational concepts for teams, so that they can understand how resources will be engaged across various projects. Dynamics 365 Project Operations considers bookings a project-level concept.
 
+### Resource capacity
+
+Resource capacity refers to the amount of time that a resource has available to perform service work. Generally, it is the resource work hours less the time that they are already booked to perform service work.
+
 ### Resource characteristics
 
 Resource characteristics refer to the qualities, attributes, or traits that are associated with the resources that a project uses. They help [project managers](#project-manager) assess the suitability of resources for various project tasks and activities. An understanding of resource characteristics is essential for effective resource selection, allocation, and use.
+
+### Resource costs
+
+The cost of a resource typically refers to the amount a resource is being paid for their time while performing service work.
 
 ### Resource manager
 
@@ -1319,6 +1331,10 @@ A [resource manager](#centralized-resource-allocation), also known as a resource
 ### Resource requirement
 
 Resource requirements refer to the types and quantities of resources that are needed to run and complete a project within defined scope, timeline, and quality standards.
+
+### Resource work hours
+
+Works hours define the days, and times, that a service resource is available to be scheduled to perform service work.
 
 ### Revenue budget
 

@@ -104,11 +104,16 @@ Project monitoring and analytics help the project team recognize project issues 
 If you want to implement Dynamics 365 solutions to assist with your *monitor and analyze project performance* business processes, you can use the following resources and steps to learn more.
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)
-1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
-1. [Manage project resources and schedules](project-to-profit-manage-project-scope-schedule-overview.md)
-1. [Manage project delivery](project-to-profit-deliver-project-work.md)
-1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
-1. *Monitor and analyze project performance* (the article that you're currently reading)
+
+2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+
+3. [Manage project resources and schedules](project-to-profit-manage-project-scope-schedule-overview.md)
+
+4. [Manage project delivery](project-to-profit-deliver-project-work.md)
+
+5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
+
+6. *Monitor and analyze project performance* (the article that you're currently reading)
 
 ## Related resources
 

@@ -42,19 +42,19 @@ Collecting payments is critical to maintain a positive cash flow. In B2B sales m
 
 ## Next steps
 
-<!--TODO ADD LINKS
-- [Manage store operations](../placeholder.md)
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-- [Create and manage sales orders](../placeholder.md)
+1. *Manage store operations*
 
-- [Trade across companies](../placeholder.md)
+2. *Create and manage sales orders*
 
-- [Issue customer invoices](order-to-cash-invoice-sales-orders-overview.md)
+3. *Trade across companies*
 
-- [Record customer payments](../placeholder.md)-->
+4. *Issue customer invoices*
 
-- [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
-<!--
+5. Record customer payments*
+
+6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
 
 ## Related resources
 

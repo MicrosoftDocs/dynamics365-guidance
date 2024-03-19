@@ -47,9 +47,11 @@ This business process area involves managing the entire lifecycle of a service, 
 
 If you want to implement Dynamics 365 solutions to assist with your *concept to market* business processes, learn more at the following resources and steps.
 
-- [Concept to market introduction](concept-to-market-introduction.md)
-- [Concept to market end-to-end overview](concept-to-market-overview.md)
-- [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md)
+1. [Concept to market introduction](concept-to-market-introduction.md)
+
+2. [Concept to market end-to-end overview](concept-to-market-overview.md)
+
+3. [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md)
 
 ## Related resources
 

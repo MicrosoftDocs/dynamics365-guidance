@@ -269,11 +269,11 @@ The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote
 
 If you want to implement Dynamics 365 solutions to assist with your *project to profit* business processes, use the following resources and steps to learn more.
 
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)  
+1. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)  
 
-- Request a demo or get a free trial of Dynamics 365 solutions for *the project to profit* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
+2. Request a demo or get a free trial of Dynamics 365 solutions for *the project to profit* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
 
-- Get an overview of each end-to-end business process area at [Project to profit business process areas overview](project-to-profit-areas.md).  
+3. Get an overview of each end-to-end business process area at [Project to profit business process areas overview](project-to-profit-areas.md).  
 
 ## Related resources
 

@@ -65,10 +65,13 @@ Because Dynamics 365 is built on Azure and the Power Platform, you can use tools
 
 If you want to implement Dynamics 365 solutions to assist with your *order to cash business processes*, you can use the following resources and steps to learn more.
 
-- Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
-- Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
-- Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
-- Get an overview of the order to cash process. Learn more at [Order to cash overview](order-to-cash-overview.md).
+1. Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
+
+2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
+
+3. Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+
+4. Get an overview of the order to cash process. Learn more at [Order to cash overview](order-to-cash-overview.md).
 
 ## Related resources
 

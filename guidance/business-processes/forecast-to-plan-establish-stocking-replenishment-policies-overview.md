@@ -93,10 +93,14 @@ When the right amount of inventory is on hand for key items, customer orders can
 If you want to implement solutions with Dynamics 365 to help with your *forecast to plan* business processes, use the following resources and steps to learn more.
 
 1. [Define strategic and operational plans](forecast-to-plan-areas.md#define-strategic-and-operational-plans)
-1. Establish stocking and replenishment policies (the article that you're currently reading)
-1. [Forecast supply and demand](forecast-to-plan-demand-forecasting-overview.md)
-1. [Forecast and plan for intercompany trade](forecast-to-plan-areas.md#forecast-and-plan-for-intercompany-trade)
-1. [Plan supply and replenishment](forecast-to-plan-areas.md#plan-supply-and-replenishment)
+
+2. *Establish stocking and replenishment policies* (the article that you're currently reading)
+
+3. [Forecast supply and demand](forecast-to-plan-demand-forecasting-overview.md)
+
+4. [Forecast and plan for intercompany trade](forecast-to-plan-areas.md#forecast-and-plan-for-intercompany-trade)
+
+5. [Plan supply and replenishment](forecast-to-plan-areas.md#plan-supply-and-replenishment)
 
 ## Related resources
 

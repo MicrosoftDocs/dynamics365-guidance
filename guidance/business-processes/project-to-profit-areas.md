@@ -188,8 +188,9 @@ Learn more at [Monitor and analyze project performance overview](project-to-prof
 
 If you want to implement Dynamics 365 solutions to assist with your *project to profit* business processes, learn more at the following resources and steps.
 
-- [Project to profit introduction](project-to-profit-introduction.md)
-- [Project to profit end-to-end overview](project-to-profit-overview.md)
+1. [Project to profit introduction](project-to-profit-introduction.md)
+
+2. [Project to profit end-to-end overview](project-to-profit-overview.md)
 
 ## Related resources
 
