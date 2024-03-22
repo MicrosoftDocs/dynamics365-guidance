@@ -145,13 +145,13 @@ You can use the following resources to learn more about the tax, audit, and regu
     - [Tax jurisdiction](glossary.md#tax-jurisdiction)
     - [Tax codes and rates](glossary.md#tax-codes-and-rates)
 
-## Tags
+<!-- ## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Wholesale Trade (50-51), Retail Trade (52-59), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
 
 *Stakeholders:* Accounts payable, Accounts receivable, Audit, Customer services, Finance, Human Resources, IT, Production, Project Management, Purchasing, Treasury
 
-*Products:* Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Project Operations
+*Products:* Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Project Operations -->
 
 ## Contributors
 

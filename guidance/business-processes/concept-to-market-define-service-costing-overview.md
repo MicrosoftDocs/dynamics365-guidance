@@ -125,13 +125,13 @@ You can use the following resources to learn more about the service costing proc
 - [Cost Accounting Series - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=9f267e7f-a1a3-4d29-8f0f-f755c22c4ca5)
 - [Inventory Costing in Dynamics 365 Supply Chain Management TechTalk Series - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=a1955d50-c26c-4563-b42c-b1af2261ae6f)
 
-## Tags
+<!-- ## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Wholesale Trade (50-51), Retail Trade (52-59), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
 
 *Stakeholders:* Accounts payable, Accounts receivable, Administrative, Audit, Engineering, Finance, Operations, Production, Project Management, Purchasing, Sales, Service operations, Transportation
 
-*Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center
+*Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center -->
 
 ## Contributors
 

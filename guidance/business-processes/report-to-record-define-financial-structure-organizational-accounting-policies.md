@@ -167,13 +167,13 @@ You can use the following resources to learn more about the *define financial st
     - [Ledger](glossary.md#ledger)
     - [Subledger](glossary.md#subledger)
 
-## Tags
+<!-- ## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Wholesale Trade (50-51), Retail Trade (52-59), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
 
 *Stakeholders:* Audit, Finance, Operations
 
-*Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management
+*Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management -->
 
 ## Contributors
 
