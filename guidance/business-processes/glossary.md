@@ -185,6 +185,12 @@ In Dynamics 365 Business Central, the term *assembly BOM* covers scenarios where
 
 Of the hours that are worked on tasks, those hours that can be charged to clients or customers are known as billable hours. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
 
+### Billing classifications
+Billing classifications are used to group similar free text invoices for processing and viewing. This helps to classify the type of invoices and helps in better segregation of various accounts receivable processes like collection letter generation, customer ageing data storage, ageing reports etc. A billing classification can include many billing codes, but each billing code can be assigned to only one billing classification.
+
+### Billing codes
+Billing codes are attached to a billing classification and is intended to predefine and default a number of fields on the free text invoice like invoice line description, main account and financial dimensions combination (accounting distribution), sales tax/GST, custom fields etc. Generally, the default values from the billing code can be changed on the free text invoice. However, the billing codes can be configured to prevent changes to certain default values.
+
 ### Billing rules
 
 Billing rules were used in [Dynamics AX](/dynamicsax-2012/appuser-itpro/create-billing-rules). In Dynamics 365, they're replaced by [billing schedules](#billing-schedules).
