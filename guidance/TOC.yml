@@ -642,6 +642,8 @@ items:
           href: business-processes/about-steps-navigation.md
         - name: Import the catalog
           href: business-processes/about-import-catalog-devops.md
+        - name: Standardize business processes during a Dynamics 365 implementation
+          href: business-processes/standardize-business-processes.md
         - name: Acquire to dispose
           items:
           - name: End-to-end scenario - acquire to dispose
@@ -662,6 +664,16 @@ items:
             href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
           - name: Retire or dispose of assets
             href: business-processes/acquire-to-dispose-retire-dispose-assets.md
+        - name: Administer to operate
+          items:
+          - name: Administer to operate introduction
+            href: business-processes/administer-to-operate-introduction.md
+          - name: Administer to operate end-to-end overview
+            href: business-processes/administer-to-operate-overview.md
+          - name: Train users and increase adoption overview
+            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
+          - name: Define business continuity plan overview
+            href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
         - name: Case to resolution
           items:
           - name: End-to-end scenario - case to resolution
@@ -748,6 +760,12 @@ items:
             href: business-processes/hire-to-retire-manage-occupational-health-safety.md
           - name: Manage employee time and attendance overview
             href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
+          - name: Manage worker compensation, benefits, and payroll
+            href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+          - name: Manage employee performance and growth
+            href: business-processes/hire-to-retire-manage-employee-performance-growth.md
+          - name: Onboard and manage the employee lifecycle
+            href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
         - name: Inventory to deliver
           items:
           - name: End-to-end scenario - inventory to deliver
@@ -826,6 +844,8 @@ items:
             href: business-processes/procure-to-pay-areas.md
           - name: Define procurement catalogs
             href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
+          - name: Define procurement and sourcing strategy overview
+            href: business-processes/procure-to-pay-define-procurement-sourcing-strategy-overview.md
           - name: Manage vendor relationships overview
             href: business-processes/procure-to-pay-manage-vendor-relationships-overview.md
           - name: Procure materials and services overview
@@ -936,6 +956,8 @@ items:
             href: business-processes/order-to-cash-invoice-sales-orders-overview.md
           - name: Monitor customer credit and collections
             href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
+        - name: Introduction to process maturity
+          href: business-processes/process-maturity-introduction.md
 
 # Patterns
       - name: Patterns

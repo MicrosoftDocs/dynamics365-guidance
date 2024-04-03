@@ -130,17 +130,17 @@ If you would like to implement Dynamics 365 solutions to assist with your Manage
 
 1. [*Plan and recruit your workforce*](hire-to-retire-plan-recruit-workforce-overview.md)
 
-2. *Onboard and manage the employee lifecycle*
+2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
 
 3. *Manage occupational health and safety* (the article that you're currently reading)
 
-4. *Manage employee performance and growth*
+4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
 
-5. *Manage employee time and attendance*
+5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
 
-6. [*Manage travel and expenses*](hire-to-retire-manage-travel-expenses.md)  
+6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)  
 
-7. *Manage employee benefits, compensation, and payroll*
+7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
 
 ## Related resources
 

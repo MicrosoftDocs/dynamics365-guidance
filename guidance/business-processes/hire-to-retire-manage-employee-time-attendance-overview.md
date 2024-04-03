@@ -41,7 +41,7 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Manage employee time and attendance process flow
 
-The following diagram illustrates the *Record time and attendance and manage leave and absences* business process area.
+The following diagram illustrates the *Record time and attendance and manage leave and absences* business process area. 
 
 :::image type="content" source="media\hire-to-retire-manage-employee-time-attendance-overview.svg" alt-text="Diagram of the record time and attendance and manage leave and absence business process area, showing the connections between business process areas." lightbox="media\hire-to-retire-manage-employee-time-attendance-overview.svg":::
 
@@ -115,17 +115,17 @@ If you would like to implement Dynamics 365 solutions to assist with your *manag
 
 1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
 
-2. *Onboard and manage the employee lifecycle*
+2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
 
-3. *Manage occupational health and safety*
+3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
 
-4. *Manage employee performance and growth*
+4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
 
 5. *Manage employee time and attendance* (the article you're reading right now)
 
-6. *Manage travel and expenses*
+6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)  
 
-7. *Manage employee benefits, compensation, and payroll*
+7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
 
 ## Related resources
 

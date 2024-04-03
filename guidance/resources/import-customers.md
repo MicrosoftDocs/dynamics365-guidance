@@ -24,7 +24,9 @@ Use the **Customers V3** entity when any of the approximately 80 fields that are
 ## Entities
 
 - [Customer definitions](/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-definitions-customerbase?toc=/dynamics365/guidance/toc.json)  
+
 - [Customers V3](/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customers-v3-customerv3?toc=/dynamics365/guidance/toc.json)  
+
 - [Customer details V2](/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-details-v2-na?toc=/dynamics365/guidance/toc.json)  
 
 ## Next steps
