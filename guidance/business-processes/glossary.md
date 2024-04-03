@@ -40,6 +40,14 @@ Overall, the Accounting Standards Codification plays a crucial role in maintaini
 
 It encompasses all the expenses associated with acquiring the asset and making it ready for use in business operations. The asset acquisition cost includes both direct and indirect costs related to the purchase, delivery, and commissioning of the asset.
 
+### Administer system features
+
+System features are the backbone of Dynamics 365 functionality. Administering these features involves fine-tuning configurations, ensuring optimal alignment with evolving business processes in addition to staying up to date with Microsoft release notes and configuring new features from feature management workspace will help ensuring Dynamics 365 is optimized for your business needs. with Power Apps and customizations of Dynamics 365, administrators can tailor the system to the organization's specific requirements. This way, Dynamics 365 remains a tailored and dynamic solution that adapts seamlessly to evolving business processes.
+
+### Adoption
+
+The process of integrating a technology solution Dynamics 365 into the daily operations of an organization, ensuring widespread and effective use by users to achieve business objectives.
+
 ### Advanced rule
 
 An advanced rule in Dynamics 365 Finance is a configuration that allows you to define account structure exceptions for financial dimensions that are specific to one or a few main accounts. It allows for more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. Advanced rules allow you to add additional financial dimensions that aren't included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions.
@@ -197,6 +205,14 @@ Billing rules were used in [Dynamics AX](/dynamicsax-2012/appuser-itpro/create-b
 
 A budget forecast is the expected expenditure or revenue per budget line during the period that is defined on the budget line. The forecast equals the budgeted value when the budget is approved. If actual costs are more than the forecasted cost for a budget line, the forecast cost is made equal to the actual cost.
 
+### Business Continuity Plan
+
+A comprehensive document outlining strategies and procedures for maintaining essential business functions during and after disruptions.
+
+### Business Impact Analysis (BIA)
+
+A systematic process for assessing the potential impact of disruptions on critical business functions, helping prioritize recovery efforts.
+
 ## C
 
 ### Campaign analytics
@@ -247,6 +263,26 @@ A feature that allows organizations with multiple companies to create and manage
 
 For organizations that centralize the allocation of resources to projects, [project managers](#project-manager) define [resource requirements](#resource-requirement) at the project level, whereas fulfillment of those resource requirements is delegated to a [resource manager](#resource-manager). Project managers can accept or reject resources that the resource manager proposes.
 
+### Change agent
+
+Individuals or teams responsible for driving and facilitating change within the organization. Change agents play a key role in promoting adoption and managing change effectively.
+
+### Change impact assessment
+
+A systematic evaluation of how changes, such as the introduction of Dynamics 365, will impact processes, roles, and the overall structure of the organization.
+
+### Change management
+
+A structured approach to transitioning individuals, teams, and organizations from their current state to a desired future state, mitigating resistance to change during Dynamics 365 implementation.
+
+### Change readiness
+
+The state of organizational preparedness for change, assessing factors such as employee mindset, skills, and resources to gauge the likelihood of successful Dynamics 365 adoption.
+
+### Change resistance
+
+Opposition or reluctance to the changes introduced by Dynamics 365. Understanding and addressing resistance is crucial for successful adoption.
+
 ### Chart of accounts
 
 A chart of accounts defines a structured list of all the main accounts used in a ledger. Each main account has a unique code and a description, and they are organized hierarchically to reflect the company's financial structure. In Dynamics 365 Finance and in Dynamics 365 Business Central, a chart of accounts can be assigned to one or more ledgers. To use a shared chart of accounts, you can create one chart of accounts and link it to multiple ledgers.
@@ -287,6 +323,14 @@ You may also use a combination of both products with [dual-write](/dynamics365/f
 ### Company
 
 A company in Dynamics 365 Finance or Dynamics 365 Business Central represents an individual legal entity or business unit within an organization. Each company can have its own financial data, settings, and operations. The terms "company" and "legal entity" are used interchangeably in Dynamics 365 Finance. A company is a major data boundary in Dynamics 365 Finance where users can be assigned access to each company independently.
+
+### Competency
+
+Competencies in Dynamics 365 refer to the combination of skills, knowledge, and attributes that employees need to perform their roles effectively. The system enables organizations to define and assess competencies for various job positions. Competency management ensures that employees possess the necessary qualities to meet job requirements and align with organizational goals.
+
+### Competency analysis
+
+Competency analysis refers to the process of evaluating and assessing the skills, knowledge, and abilities that employees possess in relation to their job roles. In the context of Dynamics 365 for managing employee performance and growth, competency analysis involves identifying the specific competencies required for various positions within the organization. This analysis aids in defining clear job expectations, aligning employee skills with organizational goals, and facilitating targeted learning and development initiatives.
 
 ### Compliance controls
 
@@ -455,6 +499,10 @@ Date intervals define specific time spans used in financial reporting and analys
 
 Deferrals are used in accounting to track revenue that's received but not yet earned, also known as unearned revenue. Organizations use deferrals to recognize revenue before expenses (costs) occur. You can [recognize deferred revenue in Dynamics 365 Finance](/dynamics365/finance/accounts-receivable/revenue-recognition-recognize-deferred-revenue) and [defer revenues and expenses in Dynamics 365 Business Central](/dynamics365/business-central/finance-how-defer-revenue-expenses).
 
+### Define business continuity plan
+
+Crafting a robust business continuity plan ensures that organizations can weather disruptions effectively, safeguarding critical operations and data integrity in the face of unforeseen events. The process of defining a Business Continuity Plan (BCP) under *administer to operate* involves establishing a comprehensive strategy to ensure the organization's resilience in the face of disruptions. Dynamics 365 facilitates this process by providing tools for data backup, disaster recovery, and failover mechanisms. Through features like Azure Site Recovery and Azure Backup, organizations can define and implement robust BCPs, ensuring the continuity of critical operations during unforeseen events.
+
 ### Deliverables
 
 Deliverables are all outputs of a project, as defined by the [scope](#scope). Deliverables can be a product, a service, or a capability.
@@ -484,6 +532,10 @@ Depreciation is a key accounting concept that allocates the cost of an asset ove
 - **Manual**: You enter the percentage depreciation for each interval in the calendar year.
 
 Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods).
+
+### Disaster Recovery Plan (DRP)
+
+A detailed plan focused on recovering critical systems and data in the aftermath of a disaster.
 
 ### Direct expenses 
 
@@ -515,11 +567,23 @@ The Data Universal Number System (DUNS) identifies companies in dozens of countr
 
 You can specify the DUNS number on a customer record in Dynamics 365 Finance. You can use APIs provided with Finance to build integrations with Dun & Bradstreet for your specific business requirements. If you use Dynamics 365 Customer Insights, you can [enrich company profiles with Dun & Bradstreet data](/dynamics365/customer-insights/enrichment-dnb) using a native integration.
 
+### Dynamics 365 Implementation Guide
+
+A comprehensive resource providing guidance on planning, configuring, and deploying Dynamics 365, including insights into best practices for training, adoption, and change management. Learn more at [Dynamics 365 implementation guide](../implementation-guide/overview.md)
+
 ## E
 
 ### Eligibility criteria
 
 Eligibility criteria refer to the specific conditions or requirements that must be met for a transaction or activity to qualify for a vendor rebate. In Dynamics 365, configuring eligibility criteria is essential to precisely define the circumstances under which incentives will be applied, ensuring accuracy and alignment with business objectives.
+
+### Employee succession planning
+
+Employee succession planning is a strategic process that involves identifying and developing potential candidates to fill key roles within the organization in the future. This proactive approach ensures a smooth transition in leadership positions and critical roles, minimizing disruptions to business operations. In the context of Dynamics 365, succession planning involves creating talent pools, assessing employee readiness, and implementing development plans to groom individuals for future responsibilities.
+
+### End-user training
+
+Training programs designed for individuals who will use Dynamics 365 in their daily tasks, ensuring they acquire the necessary skills to navigate the system and perform their roles effectively.
 
 ### Engineering change management (ECM)
 
@@ -538,6 +602,10 @@ An exchange rate is the value of one currency in terms of another currency. It r
 ### Exchange rate types
 
 Exchange rate types define a group of exchange rates that are obtained for currency conversion. Common rate types include spot rates, average rates, and historical rates. Default exchange rate types can be configured on the Ledger in each legal entity in Dynamics 365 Finance. Some processes allow you to select the exchange rate type that should be used for the process instead of using the default value for the ledger.
+
+### Executive sponsorship
+
+Leadership support and involvement from top-level executives in driving the Dynamics 365 implementation, emphasizing the importance of training and adoption throughout the organization.
 
 ### Expense policies
 
@@ -657,11 +725,23 @@ A funding source is the entity that [funds work on a project contract](/dynamics
 
 A general ledger (GL) is a central repository in an accounting system that contains all the financial transactions and balances of an organization. It's a fundamental part of the double-entry accounting system and serves as a record of the company's financial activities over time. The general ledger is organized into various accounts, each representing a different aspect of the organization's financial operations. In Dynamics 365 Finance, the general ledger is a module that contains all the setup, configuration, data, period closing tasks, reports, and so on that are related to the general ledger.
 
+### Goal
+
+In the context of Dynamics 365, a goal represents a specific, measurable, and time-bound objective set for an individual or team within the organization. Goals align with broader organizational objectives and contribute to the overall success of the business. Dynamics 365 allows for the creation, tracking, and monitoring of goals, providing a structured approach to goal management and fostering a results-oriented culture.
+
+### Goal alignment
+
+Goal alignment in the context of employee performance management refers to the process of ensuring that individual and team goals are directly connected to the broader organizational objectives. This concept involves cascading organizational goals down to individual employees, creating a cohesive framework where every employee's efforts contribute to the achievement of overarching business goals. Goal alignment enhances organizational focus, efficiency, and the overall impact of employee contributions.
+
 ### Granularity attribute
 
 A granularity attribute is the unique combination of [dimension values](#forecast-dimensions) that represents the level of detail at which a [forecast](#forecast) is generated.
 
 ## H
+
+### High Availability (HA)
+
+A measure of a system's ability to remain operational and accessible with minimal downtime, often achieved through redundancy and failover mechanisms.
 
 ### HIPAA (Health Insurance Portability and Accountability Act)
 
@@ -672,6 +752,10 @@ HIPAA is a U.S. federal law that establishes data privacy and security requireme
 ### Incentive programs
 
 In the context of vendor rebates and incentives, incentive programs are structured schemes or agreements established between the organization and vendors. These programs outline the terms, conditions, and criteria for providing incentives, such as volume-based discounts or promotional offerings. Dynamics 365 allows users to define and manage these programs to optimize collaboration with vendors.
+
+### Incident response
+
+Coordinated actions taken to manage and mitigate the impact of incidents, often guided by the Business Continuity Plan.
 
 ### Index revaluation
 Organizations use indexation to adjust multiple fixed asset values. Revaluation of fixed assets can consist of appreciations, write-downs, or adjustments in value of assets. Some companies may revalue assets more often than others. The purpose of revaluation is to accurately reflect the fair market price of the asset.
@@ -815,6 +899,10 @@ Lead nurturing refers to ongoing communication with leads to develop awareness a
 
 The lead score is a numeric rating that is assigned to a lead to indicate sales readiness. It's based on engagement, profile fit, and so on.
 
+### Learning path
+
+A learning path in outlines a structured and personalized journey for an employee's skill development and career growth. It involves a sequence of courses, training modules, and experiences designed to enhance specific competencies and align with career goals. Learning paths support employees in acquiring new skills, staying current with industry trends, and progressing along defined career trajectories. The system facilitates the tracking of individual learning paths, providing insights for both employees and managers to monitor progress and make informed decisions.
+
 ### Lease contracts
 
 A lease contract is a legal document that describes the terms under which the owner of an asset (the lessor) agrees to let a user (the lessee) use the asset. The lessee, in turn, agrees to uphold the terms. 
@@ -899,6 +987,35 @@ The following list shows examples of maintenance requests in Dynamics 365:
 
 A maintenance schedule consists of all the maintenance plans, rounds, and requests that an organization expects to be covered. It details which people do which maintenance tasks and in what time frame. The schedule can require maintenance tasks to occur at repeating intervals, or that they must come from a work order. An organization can calculate budget costs on maintenance schedule line items.
 
+### Manage background jobs
+
+Efficient management of background jobs contributes to streamlined operations. This business process area involves overseeing and optimizing background processes to maintain system efficiency. Dynamics 365's Power Automate and Dynamics 365 finance and operations apps batch jobs features enable administrators to automate and manage these background tasks. This process contributes to streamlined operations and improved system efficiency.
+
+### Manage data synchronization
+Effective data synchronization is vital for maintaining consistency across the Dynamics 365 ecosystem. Manage data synchronization involves managing data synchronization processes to uphold data integrity. Dynamics 365's data integration features include features like Dual Write and Virtual Entities, and developers can leverage the Power Platform's data connectors and Azure services to synchronize data seamlessly between different systems and applications. This process ensures that data across the organization remains accurate, up-to-date, and aligned with business processes.
+
+### Manage licensing and entitlements
+
+The meticulous management of licensing and entitlements is central to optimizing resource allocation, ensuring that the organization's Dynamics 365 investment aligns seamlessly with user needs and business requirements. Efficiently managing licensing and entitlements is crucial for optimizing resource allocation and ensuring compliance.
+
+Dynamics 365 offers License Management tools that allow organizations to oversee user licenses, track entitlements, and align them with business needs. This process ensures that the organization's investment in Dynamics 365 aligns with user requirements while maintaining compliance with licensing agreements.
+
+### Manage notifications and alerts
+
+Timely awareness of system events is crucial. This business process area includes the management of notifications and alerts to keep stakeholders informed and responsive to critical updates. Dynamics 365 provides features like Power Automate and Power Apps to configure and manage notifications based on predefined triggers. Dynamics 365 finance and operations apps also include an in app alert feature that can be easily integrated with Power Automate. These processes ensure that administrators are promptly alerted to potential issues, enabling proactive responses and issue resolution.
+
+### Manage system access and security
+
+Central to the *administer to operate* framework is the careful management of system access and security. This encompasses the establishment and enforcement of robust user roles, permissions, and security protocols. The process of managing system access and security is critical for safeguarding sensitive data within Dynamics 365. Role-based access control (RBAC), Azure Active Directory integration, and Multi-Factor Authentication (MFA) are integral features that Dynamics 365 provides for securing Dynamics 365 solutions. 
+
+Including a regular user security review including Lifecycle Service and Power Platform Admin Center will ensure that the proper access is maintained. This process ensures that only authorized individuals have access to specific functionalities, maintaining the confidentiality and integrity of organizational data.
+
+### Manage system compliance
+
+Ensuring compliance with regulatory standards and internal policies is paramount in any technology implementation. Managing system compliance includes processes to manage system compliance, safeguarding organizations against risks. The platform provides features like Compliance Manager and Azure Policy integration to assist organizations in monitoring and enforcing compliance. 
+
+Additionally, Dynamics 365 finance and operations apps includes the Audit workbench module and built in audit logs for Dynamics 365 Finance. These process when carefully implemented help to safeguard against risks and ensures that the organization operates within legal and regulatory frameworks.
+
 ### Mandatory credit limit
 
 The **Mandatory credit limit** flag on a customer account forces the use of the account's [**Credit limit**](#credit-limit), whether or not the customer is in a [credit limit group](#customer-credit-group). If the value of **Credit limit** is set to 0.00 and the **Mandatory credit limit** flag is set to Yes, the customer effectively has a credit limit of 0.00, and all orders are placed on [credit hold](#credit-hold).
@@ -925,6 +1042,10 @@ In Dynamics 365, merchandising is the strategic planning, management, and execut
 
 The ways that vendors can receive payment for their goods or services. Some of the most common vendor payment methods include checks, Electronic Funds Transfers (EFT), wire transfers, credit card and more.
 
+### Microsoft Learn
+
+An online learning platform provided by Microsoft, offering a variety of modules, tutorials, and hands-on labs specifically tailored to Dynamics 365 for user education.
+
 ### Modes of manufacturing
 
 Dynamics 365 Supply Chain Management supports four high-level categories of production: discrete, process, lean, and project-based.
@@ -938,6 +1059,12 @@ Dynamics 365 Supply Chain Management supports four high-level categories of prod
 - [**Project-based manufacturing**](/dynamics365/project-operations/), also known as job shop manufacturing, refers to items that are custom-made, take a long time to make, or involve a large number of steps to produce. It allows for a more granular billing schedule than other types of production, using either predefined milestones or the passage of time. Industries that commonly use project-based manufacturing include equipment and machinery production, pharmaceuticals, and construction. Projects are also often used to track trial runs of new products and the associated research and development costs.
 
 - **Mixed-mode manufacturing** reflects that businesses aren't restricted to a single type of manufacturing. For example, the pharmaceutical industry commonly uses both process and project-based production. When a business uses multiple modes, it's referred to as a mixed-mode manufacturer.
+
+### Monitor systems, environments, and capacity
+
+Continuous monitoring of system performance, environments, and capacity is imperative. *Administer to operate* focuses on proactive measures to identify and address potential bottlenecks, ensuring optimal system performance. This business process area is essential for proactive issue identification and optimal performance.
+
+Dynamics 365 provides monitoring and diagnostic tools such as Azure Monitor and Application Insights. This process ensures that administrators can track system performance, identify potential bottlenecks, and optimize capacity to deliver a seamless user experience.
 
 ### Multicurrency
 
@@ -955,6 +1082,10 @@ Of the hours that are worked on tasks, those hours that aren't directly chargeab
 
 An opportunity is a [lead](#lead) that has been [qualified](#lead-and-opportunity-management) or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services that the customer is interested in, the potential revenue, and the estimated closing date. Opportunities can be *scored* based on their potential, and they can be *nurtured* through ongoing communication that is aimed at developing them.
 
+### Outsourcing
+
+The use of an outside vendor to assist with the production of a semi-finished or finished good. This may be used to support internal capacity issues or used to help with the overall cost reduction of the requested item.
+
 ### Overhead costs
 
 While all overhead costs are [indirect costs](#indirect-costs), not all indirect costs are overhead costs. Overhead costs specifically refer to indirect costs that are related to production or manufacturing activities, such as rent for the production facility, maintenance and repairs of production equipment, and the salaries of production supervisors.
@@ -968,6 +1099,18 @@ A proposal that is created to schedule and create Accounts Payable payments to s
 ### Per-diem
 
 Per-diem refers to the daily allowance paid to employees for expenses incurred while traveling for work. Depending upon company policy, these expenses can include lodging, meals, and other incidental expenses.
+
+### Performance appraisal
+
+Performance appraisal in Dynamics 365 involves the systematic evaluation of an employee's job performance against predefined criteria and objectives. This process typically includes setting performance goals, conducting regular assessments, providing feedback, and documenting achievements. Dynamics 365 streamlines the performance appraisal process, making it more transparent, data-driven, and conducive to fostering continuous improvement and employee development.
+
+### Performance plan
+
+A performance plan in Dynamics 365 outlines specific objectives, goals, and expectations for an employee's job performance. This plan serves as a roadmap for individuals, providing clear guidance on what is expected in terms of tasks, projects, and skill development. It facilitates goal setting, aligns individual efforts with organizational objectives, and serves as a basis for performance appraisals.
+
+### Performance review
+
+A performance review within Dynamics 365 is a systematic assessment of an employee's job performance over a specific period. It involves evaluating accomplishments, areas for improvement, and alignment with performance goals. Dynamics 365 facilitates a streamlined and transparent performance review process, enhancing communication between managers and employees and providing valuable insights for continuous development.
 
 ### Planning
 
@@ -1201,6 +1344,12 @@ Promotional pricing involves the strategic use of temporary discounts or special
 
 The document that outlines the scope of work, deliverables, timeline, and estimated cost of a project is called a proposal. A proposal is presented to the customer for review and consideration. It might be subject to negotiation before a final agreement is reached.
 
+### PROSCI
+
+PROSCI stands for "Professional Counselling Services Institute," and it is also the name of a company that specializes in change management. However, when people refer to "PROSCI" in the context of change management methodologies, they are often referring to the Prosci ADKAR® Model, which is a popular and widely used framework for managing the people side of change within organizations.
+
+The ADKAR® Model focuses on the five key elements of successful change: Awareness, Desire, Knowledge, Ability, and Reinforcement. This model helps organizations understand and address the individual and organizational factors that influence successful change initiatives, including those related to technology implementations like Dynamics 365.
+
 ### Provider
 
 A provider is a connection point in a supply chain. In the context of Intelligent Order Management in Supply Chain Center, a provider enables integration with other systems by presenting calls between systems as actions that can trigger events that drive orchestration.
@@ -1219,6 +1368,10 @@ A purchase order (PO) serves as a formal document that a buyer issues to a selle
 A purchase requisition (PR) serves as a formal request for the procurement of goods or services within an organization. It's an internal document that initiates the procurement process. A purchase requisition is typically generated by a department or individual within the organization when there is a need for new supplies, equipment, or services. Purchase requisitions play a crucial role in the procurement process by facilitating a standardized, controlled, and transparent workflow from the request stage to purchase order creation. They contribute to better financial management, accountability, and efficiency in an organization's procurement activities.
 
 ## Q
+
+### Questionnaire
+
+In Dynamics 365, a questionnaire is a tool used to gather feedback and insights from employees, managers, or other stakeholders. Questionnaires can be employed for various purposes, including performance reviews, employee engagement surveys, and competency assessments. Dynamics 365 integrates with tools like Customer Voice to facilitate the creation and distribution of questionnaires, streamlining the feedback collection process.
 
 ### Quote
 
@@ -1274,6 +1427,14 @@ Invoice reconciliation is the process of comparing and matching supplier invoice
 
 In finance, reconciliation refers to the process of comparing two sets of financial records to ensure that they're accurate and in agreement. It's a crucial step in accounting that helps to identify discrepancies between two sets of records and correct them. Reconciliation can be used for various purposes, such as vendor payment reconciliation, which involves reconciling vendor payments with vendor invoices to ensure that they match. Dynamics 365 Finance provides features such as vendor payment overview, file formats for methods of payment, and configuring vendor payment formats to help with this process.
 
+### Recovery Point Objective (RPO)
+
+The maximum tolerable amount of data loss measured in time, indicating the point in time to which systems and data must be recovered after an incident.
+
+### Recovery Time Objective (RTO)
+
+The targeted duration within which systems, applications, and services must be restored after a disruption to meet business continuity goals.
+
 ### Registrations
 
 The term registration is used in Dynamics 365 applications in several different contexts. One example is inventory registration and another is a time registration. In the example of inventory registration, the termed registered is used to indicate that product has been received physically in the warehouse, but it is not yet put away. Learn more at, [Register items enabled for warehouse management processes using an item arrival journal](/dynamics365/supply-chain/warehousing/tasks/register-items-advanced-warehousing).
@@ -1308,6 +1469,10 @@ A request for quotation (RFQ) serves as a formal document that a buyer issues to
 
 A requirement is a capability that must be present in a product, service, or result to satisfy a business need.
 
+### Resource
+
+In the context of employee management and growth processes in Dynamics 365, a resource refers to an individual or asset within the organization. Resources can be employees, equipment, or any entity contributing to the achievement of organizational goals. Dynamics 365 integrates with other Microsoft solutions like Field Service, Project Operations, and Supply Chain Management to optimize resource allocation and enhance overall operational efficiency.
+
 ### Resource booking
 
 Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. Bookings represent organizational concepts for teams, so that they can understand how resources will be engaged across various projects. Dynamics 365 Project Operations considers bookings a project-level concept.
@@ -1339,6 +1504,10 @@ Works hours define the days, and times, that a service resource is available to 
 ### Revenue budget
 
 A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget to track the revenue on the project.
+
+### Risk management
+
+The systematic identification, assessment, and mitigation of potential risks that could disrupt business operations.
 
 ### Risk scores
 
@@ -1466,6 +1635,10 @@ The entity that a service is performed for is the *service customer* or *service
 
 Service fees encompass the charges associated with specific services offered by an organization. In Dynamics 365 this process involves defining and maintaining service fees involve setting the cost structures for different types of services. This includes considerations such as material costs, labor, and overhead. Clear and accurate service fee management is essential for establishing competitive yet profitable pricing.
 
+### Service Level Agreement (SLA)
+
+A contractual agreement specifying the level of service, performance, and availability guaranteed by a service provider, such as Microsoft for Dynamics 365.
+
 ### Service location
 
 In field service scenarios where frontline workers travel to perform service work, the service location defines the location where the work is performed. A service customer can have many service locations. In Dynamics 365 Field Service, you specify the service location in the **Service Location** field.
@@ -1487,6 +1660,22 @@ The process of settling transactions between different document types, such as i
 ### Shipment
 
 A shipment is a delivery to a customer. If you use the packing functionality in Dynamics 365 Supply Chain Management, a shipment can cover one or more order lines or containers.
+
+### Simulation testing
+
+The process of conducting realistic scenarios to simulate disruptions and test the effectiveness of the Business Continuity Plan.
+
+### Skill gap analysis
+
+Skill gap analysis within Dynamics 365 is the process of identifying the disparity between the skills employees currently possess and the skills required for their roles or future responsibilities. By conducting a skill gap analysis, organizations can pinpoint areas where additional training or development is needed, enabling targeted interventions to bridge these gaps. This approach ensures that employees are equipped with the right skills to meet evolving job demands and contribute effectively to organizational success.
+
+### Skills
+
+Skills in Dynamics 365 represent the specific abilities, knowledge, and proficiencies that employees possess. The system allows organizations to define and track individual skills, ensuring a comprehensive understanding of the workforce's capabilities. This information is crucial for competency analysis, skill gap identification, and targeted learning and development initiatives.
+
+### Strategic planning
+
+The process of defining organizational goals and priorities, influencing the establishment of Business Continuity Objectives.
 
 ### Subassembly
 
@@ -1520,6 +1709,10 @@ In Dynamics 365 Finance, a subledger (also known as a subaccount or subledger ac
 
 - **Fixed assets** – This includes the acquisition, depreciation, write up or write, and so on related to any fixed assets. This is primarily related to transactions that are generated in the Fixed asset module; however, there are integrations with Procurement and sourcing, Accounts receivable, and Project management and accounting.
 
+### Success by Design framework
+
+A [framework within the Dynamics 365 Implementation Guide](../implementation-guide/success-by-design.md) that provides guidance on aligning technology solutions with business goals, emphasizing training, and adoption as critical components.
+
 ### Supply chain
 
 A network of organizations, resources, activities, and processes that collaboratively design, produce, distribute, and deliver goods or services, ensuring efficient flow from suppliers to customers while minimizing costs and maximizing customer satisfaction.
@@ -1527,6 +1720,16 @@ A network of organizations, resources, activities, and processes that collaborat
 ### Supply chain visibility
 
 Supply chain visibility is the ability to monitor and track the movement of products, components, and information throughout the supply chain. In Dynamics 365, achieving supply chain visibility enhances decision-making by providing real-time insights into inventory levels, order status, and production progress.
+
+### Support systems
+
+*Administer to operate* extends beyond proactive measures to encompass responsive support. This involves addressing user queries, troubleshooting issues, and providing ongoing assistance to maintain a resilient Dynamics 365 environment.
+
+Supporting Systems is an integral aspect of administering to operating any technology solution. The process involves responsive assistance for users and efficient issue resolution. Dynamics 365 offers tools like the Power Platform's Power Virtual Agents for building intelligent chatbots and the Dynamics 365 Support Hub for comprehensive support resources. This process ensures that users receive timely assistance, queries are addressed efficiently, and issues are resolved promptly, contributing to a resilient and smoothly functioning Dynamics 365 environment.
+
+### System uptime
+
+The measure of the time during which a system or service is operational and available for use, often monitored to ensure adherence to SLAs.
 
 ## T
 
@@ -1581,6 +1784,12 @@ When the three components are added together, they can be used to predict future
 
 A trade agreement in Dynamics 365 Supply Chain Management refers to a negotiated arrangement between a company and its business partners (customers or vendors), often involving discounts, pricing structures, and terms for the exchange of goods and services. Trade agreements streamline the pricing process, providing a framework for consistent and mutually beneficial transactions between parties.
 
+### Train users and increase adoption
+
+Driving user adoption is a key aspect of ongoing success. *Administer to operate* includes efforts to train users effectively, enhancing their proficiency with Dynamics 365 and promoting widespread adoption. Training users and increasing adoption is a key focus within *administer to operate*, emphasizing the importance of user proficiency and widespread platform adoption.
+
+Dynamics 365 Human Resources includes features to help facilitate user training and onboarding. These processes help ensure that users are equipped with the skills needed to maximize their productivity within Dynamics 365, ultimately driving increased adoption across the organization.
+
 ### Travel and expense management (T&E)
 
 T&E is the process of managing expenses related to business travel or otherwise incurred in the process of performing job-related duties. It involves various responsibilities aimed at overseeing and optimizing spending, including tracking and analyzing expenses, creating and enforcing corporate travel and expense policies, establishing the reimbursement process, building approval processes for travel requests, aligning company goals to business travel, and measuring the return on investment for expenses incurred.
@@ -1609,6 +1818,92 @@ Because this option circumvents the standard processes your organization uses, c
 
 Upselling is the act of selling additional or higher-value products and services to existing customers. It's sometimes confused with *cross-selling*. Learn more at [Sales planning and strategy](#sales-planning-and-strategy).
 
+### Uptake software releases
+
+Staying current with software releases is essential for leveraging new features and improvements. *Administer to operate* facilitates the smooth uptake of software releases, ensuring organizations benefit from the latest advancements.
+
+The *Uptaking software releases* business process area involves seamlessly adopting new features and improvements within Dynamics 365. The platform's continuous updates and releases provide organizations with the latest advancements. Dynamics 365 provides a dedicated Power Platform environment for testing and validating these releases before deployment, ensuring a smooth uptake without disrupting ongoing operations.
+
+### User adoption metrics
+
+User adoption metrics are key performance indicators (KPIs) used to measure the success and effectiveness of user adoption efforts in a technology implementation, such as Dynamics 365. These metrics provide insights into how well users are engaging with the system and whether the organization is achieving its adoption goals. Here are some examples of user adoption metrics:
+
+- Logins and Active Users
+
+    - Metric: Number of logins and active users within a specific time period.
+
+    - Significance: Indicates the frequency of user interactions with Dynamics 365, reflecting the overall engagement level.
+
+- Feature Utilization
+
+    - Metric: Percentage of users actively utilizing specific features or modules within Dynamics 365.
+
+    - Significance: Helps identify which functionalities are most and least used, guiding targeted training efforts.
+
+- Completion of Training Modules
+
+    - Metric: Percentage of users who have completed assigned training modules.
+
+    - Significance: Measures the effectiveness of training programs and identifies areas that may require additional support or resources.
+
+- Survey Feedback
+
+    - Metric: Scores and feedback collected from users through surveys.
+
+    - Significance: Provides qualitative insights into user satisfaction, understanding, and perceived value of Dynamics 365.
+
+- Task Completion Rates
+
+    - Metric: Percentage of successfully completed tasks within Dynamics 365.
+
+    - Significance: Indicates how well users can perform their roles using the system, reflecting overall proficiency.
+
+- Error Rates
+
+    - Metric: Frequency of errors or issues encountered by users during system use.
+
+    - Significance: High error rates may indicate challenges in user adoption and potential areas for improvement or additional training.
+
+- User Support Requests
+
+    - Metric: Number and type of support requests submitted by users.
+
+    - Significance: Identifies common pain points and areas where users may need additional assistance or training.
+
+- Time to Competency
+
+    - Metric: Average time it takes for users to become proficient in using Dynamics 365.
+
+    - Significance: Measures the efficiency of the onboarding and training processes.
+
+- User Engagement with Communication
+
+    - Metric: Interaction rates with communication channels related to Dynamics 365 (e.g., emails, newsletters).
+
+    - Significance:\*Assesses the effectiveness of communication strategies and the level of interest among users.
+
+- Data Accuracy and Completeness
+
+    - Metric: Accuracy and completeness of data entered by users into Dynamics 365.
+
+    - Significance: Reflects the quality of data input and adherence to data management practices.
+
+- Mobile Access and Usage
+
+    - Metric: Percentage of users accessing Dynamics 365 via mobile devices.
+
+    - Significance: Indicates the flexibility of user access and responsiveness to the needs of a mobile workforce.
+
+- Integration with Other Systems
+
+    - Metric: Successful integration and usage of Dynamics 365 with other relevant systems.
+
+    - Significance: Assesses the interoperability of Dynamics 365 within the broader technology landscape.
+
+### User feedback loop
+
+A continuous process of gathering feedback from users regarding their experiences with Dynamics 365, enabling organizations to make timely adjustments and improvements to enhance adoption.
+
 ## V
 
 ### Variant
@@ -1630,6 +1925,10 @@ If you must make payments to a vendor bank account, you can enter information ab
 ### Vendor collaboration portal
 
 With the **Vendor collaboration** module in Dynamics 365 Supply Chain Management, vendors can work with purchase orders, invoices, and also place bids on request for quotations and consignment inventory information. The vendor collaboration module shows a limited set of information about purchase orders, invoices, and consignment stock to external vendor users.
+
+### Viva Learn
+
+A [learning and development platform integrated with Microsoft Viva](/viva), offering personalized and interactive learning experiences for a variety of technology and soft skill development including the use and implementation of Dynamics 365.
 
 ## W
 
