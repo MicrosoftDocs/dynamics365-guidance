@@ -642,8 +642,10 @@ items:
           href: business-processes/about-steps-navigation.md
         - name: Import the catalog
           href: business-processes/about-import-catalog-devops.md
-        - name: Standardize business processes during a Dynamics 365 implementation
+        - name: Standardize business processes during an implementation
           href: business-processes/standardize-business-processes.md
+        - name: Introduction to process maturity
+          href: business-processes/process-maturity-introduction.md          
         - name: Acquire to dispose
           items:
           - name: End-to-end scenario - acquire to dispose
@@ -956,8 +958,6 @@ items:
             href: business-processes/order-to-cash-invoice-sales-orders-overview.md
           - name: Monitor customer credit and collections
             href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-        - name: Introduction to process maturity
-          href: business-processes/process-maturity-introduction.md
 
 # Patterns
       - name: Patterns
