@@ -42,6 +42,9 @@ Each article, be it for an end-to-end scenario or a pattern, includes a diagram 
 
 Find the source files at [https://aka.ms/businessprocessflow](https://aka.ms/businessprocessflow).
 
+> [!NOTE]
+> When navigating to the preceding link, the .pptx files can't be viewed in GitHub. However, you can download the files by navigating the file's page on GitHub, then selecting the "Download raw file" option.
+
 ## Get notified about changes through an RSS feed
 
 [!INCLUDE [daf-rss](../includes/daf-rss.md)]
