@@ -1,134 +1,89 @@
 ﻿---
 title: Manage service resources overview
-description: Learn about the Manage service resources business process area, including learning about its various stakeholders and features.
+description: Learn what the Manage service resources business process area is, who the stakeholders are, and what the benefits are of using Dynamics 365 to support it.
 author: Dean-Hardy
 ms.author: dehardy
 ms.topic: conceptual
-ms.date: 03/13/2024
+ms.date: 04/03/2024
+ai.usage: ai-assisted
 ---
 
 # Manage service resources overview
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
-The *Manage service resources* area is part of the *Service to cash* end-to-end business process. It explains the area, provides a list of the benefits of using Dynamics 365 to support the process area, and lists the subprocesses within the area.
+The *Manage service resources* area is part of the *Service to cash* end-to-end business process. This article tells you what this area is about, why you should use Dynamics 365 to support it, and what subprocesses it includes.
 
-Within the *Service to cash* end-to-end business process, resources refer to objects that can be scheduled as part of service delivery. The most common schedulable resources are people. However, resources can also refer to other objects such as equipment, facilities, or anything else with capacity limits that must be accounted for in scheduling service delivery activities.
+In the *Service to cash* end-to-end business process, resources are things that you can schedule for service delivery. The most common resources are people. But resources can also be other things like equipment, facilities, or anything else that has limited capacity and needs to be scheduled for service delivery.
 
-The *Manage service resources* business process area includes the activities needed to set up and maintain the organization's resources. Since resources are needed in the service delivery process, they must be set up in the application before deployment. Plan to identify and define resources during the implementation's discovery and planning stage to ensure you appropriately document your requirements for managing service resources.
+The *Manage service resources* business process area covers the tasks you need to do to set up and maintain your resources. You need resources for service delivery, so you must set them up in the app before you deploy it. Plan to identify and define your resources when you discover and plan your implementation. This way, you can document your requirements for managing service resources.
 
-Service resources normally require frequent updates, so it's important to recognize that resources must be maintained in the application as part of the ongoing administration and management responsibilities. Plan to assign these responsibilities as part of the initial implementation.
+You usually need to update your service resources often, so remember that you must maintain them in the app as part of your regular administration and management tasks. Plan to assign these tasks as part of your initial implementation.
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *Manage service resources* area. The following list provides examples of such stakeholders:
+Many people in your organization should help with the decision-making and design of the *Manage service resources* area. Here are some examples of such people:
 
-- **Operations stakeholders** – Examples: COO
+- **Operations stakeholders** such as the COO
+- **Field service stakeholders** such as service managers, service supervisors, and dispatchers
+- **Billing and account management stakeholders** such as the Director of Finance
 
-- **Field service stakeholders** – Examples: Service managers, Service supervisors, Dispatchers
+## Manage service resources process flow
 
-- **Billing & Account management stakeholders** – Examples: Director of Finance
-
-## Manage service resources process flow 
-
-The following diagram illustrates the *Manage service resources* business process area.
+The following diagram shows the *Manage service resources* business process area.
 
 :::image type="content" source="media\service-to-cash-manage-service-resources-1.svg" alt-text="Diagram of the Manage service resources business process area, showing the connection between various business process areas.":::
 
-The flow diagram for the manage service resources business process area covers the following steps. 
+The flow diagram for the manage service resources business process area has these steps:
 
 1. Start
-
-2. *Hire to retire*
-
-    1. Onboard and manage the employee lifecycle
-
-        1. Hire employees
-
-            In a parallel branch from Onboard and manage the employee lifecycle
-
-        2. Hire contractors
-
-            In a parallel branch from start
-
-3. *Service to cash*
-
-4. *Manage service resources*
-
-    1. Set up and maintain service resources
-
-    2. Manage resource capacity
-
-    3. Track resource costs
-
-5. End
+1. *Hire to retire*
+    - Onboard and manage the employee lifecycle
+        - Hire employees (in a parallel branch from the Onboard and manage employee lifecycle)
+        - Hire contractors (in a parallel branch from Start)
+1. *Service to cash*
+1. *Manage service resources*
+    - Set up and maintain service resources
+    - Manage resource capacity
+    - Track resource costs
+1. End
 
 ## Manage service resources benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Manage service resources* business process. The following sections outline the key benefits that an organization might monitor and measure for Manage service resources.
+Use the following key benefits to check and measure how well you implement technology to support the *Manage service resources* business process.
 
 ### Optimized resource utilization
 
-By effectively managing service resources, organizations can ensure that the right resources are available at the right time, which can help optimize resource utilization and reduce costs.
+By managing your service resources well, you can make sure that you have the right resources at the right time. This can help you use your resources well and cut costs.
 
 ### Improved service delivery
 
-By having the right resources available at the right time, organizations can improve their service delivery and ensure that customer needs are met in a timely and efficient manner.
+By having the right resources at the right time, you can improve your service delivery and meet your customer needs quickly and efficiently.
 
 ### Increased visibility
 
-By having a centralized view of service resources, organizations can gain increased visibility into their resource utilization and identify areas for improvement.
+By having a central view of your service resources, you can see how well you use your resources and find areas to improve.
 
 ### Enhanced collaboration
 
-By having a centralized view of service resources, organizations can enhance collaboration between different teams and departments, which can help improve service delivery and reduce response times.
+By having a central view of your service resources, you can work better with different teams and departments. This can help you improve your service delivery and reduce response times.
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *Manage service resources* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Manage service resources* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Manage service assets](service-to-cash-manage-service-assets.md)
-
-2. *Manage service resources* (The article that you're currently reading)
-
+2. Manage service resources (the article that you're currently reading)
 3. [Create and process service work](service-to-cash-create-process-service-work.md)
-
-4. [Invoice](order-to-cash-invoice-sales-orders-overview.md) customers overview
-
+4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
 5. *Record customer payments*
-
 6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
 
 ## Related resources
 
-You can use the following resources to learn more about the Manage service resources process in Dynamics 365.
-
-- [Dynamics 365 Field Service Product information](https://www.microsoft.com/dynamics-365/products/field-service)
-
-- [Dynamics 365 Field Service Documentation](/dynamics365/field-service/finance-operations-integration)
-
-- [Dynamics 365 Field Service Learning Paths](/training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path)
-
-- [Dynamics 365 Field Service Community Forum](https://community.dynamics.com/365/fieldservice/f/dynamics-365-for-field-service-forum)
-
-- [Dynamics 365 Field Service Blog Posts](https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-field-service/?sort-by=newest-oldest&date=any&s=)
-
+- [Dynamics 365 Field Service product information](https://www.microsoft.com/dynamics-365/products/field-service)
+- [Dynamics 365 Field Service documentation](/dynamics365/field-service/finance-operations-integration)
+- [Dynamics 365 Field Service learning paths](/training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path)
+- [Dynamics 365 Field Service community forum](https://community.dynamics.com/365/fieldservice/f/dynamics-365-for-field-service-forum)
+- [Dynamics 365 Field Service blog](https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-field-service/?sort-by=newest-oldest&date=any&s=)
 - [Dynamics 365 Field Service Functional Consultant Certification](/credentials/certifications/exams/mb-240/)
-
-<!--
-
-## Tags
-
-*Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Real Estate (60-67), Services (70-89), Public Administration (91-99)
-
-*Stakeholders:* Customer services, Engineering, IT (Information Technology), Operations, Production, Project Management, Service operations, Transportation, Warehouse
-
-*Products:* Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management -->
-
-## Contributors
-
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
-
-Principal author:
-
-- [Dean Hardy](https://www.linkedin.com/in/deanhardy/) \| Dynamics 365 FastTrack Solution Architect
