@@ -43,7 +43,7 @@ The following stakeholders from an organization are typically involved with the 
 
 - **Security and compliance stakeholders** include security officers and compliance analysts. These stakeholders are responsible for managing system access and ensuring adherence to regulatory standards. They oversee user roles, permissions, and security protocols to safeguard sensitive data and maintain compliance with industry regulations.
 
-- **Training and adoption facilitators** include training managers and adoption specialists. Training and adoption facilitators are instrumental in driving user proficiency and widespread adoption of Dynamics 365. Training managers develop and implement training programs, while adoption specialists work to ensure users embrace and effectively utilize the system, maximizing its potential impact.
+- **Training and adoption facilitators** include training managers and adoption specialists. Training and adoption facilitators are instrumental in driving user proficiency and widespread adoption of Dynamics 365. Training managers develop and implement training programs, while adoption specialists work to ensure users embrace and effectively use the system, maximizing its potential impact.
 
 - **IT support stakeholders** include IT support specialists and monitoring analysts. IT support teams are crucial for ensuring the continuous health and performance of Dynamics 365. IT support specialists address user queries and troubleshoot issues, while monitoring analysts proactively monitor systems, environments, and capacity to identify and resolve potential bottlenecks.
 

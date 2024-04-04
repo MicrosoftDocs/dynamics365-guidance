@@ -106,7 +106,7 @@ There are product specific capabilities offered that interact with the *acquire 
 
 - **Fixed assets**  
 
-  Fixed assets in Dynamics 365 Finance can be utilized to set up and enter acquisition information for fixed assets, and then manage the assets by depreciating them and setting a capitalization threshold to determine depreciation. You can calculate adjustments to the fixed assets, and also dispose them. When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.
+  Fixed assets in Dynamics 365 Finance can be used to set up and enter acquisition information for fixed assets, and then manage the assets by depreciating them and setting a capitalization threshold to determine depreciation. You can calculate adjustments to the fixed assets, and also dispose them. When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.
 
 - **Asset leasing**  
 

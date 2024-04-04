@@ -941,7 +941,7 @@ A lessee is an individual or entity that has a lease agreement with a lessor to 
 
 ### Lessor
 
-A lessor is an individual or entity that owns an asset and grants the right to use or lease that asset to another party in exchange for rental payments. In leasing agreements, the lessor is the party that maintains ownership of the asset while allowing the lessee to utilize it for an agreed duration.
+A lessor is an individual or entity that owns an asset and grants the right to use or lease that asset to another party in exchange for rental payments. In leasing agreements, the lessor is the party that maintains ownership of the asset while allowing the lessee to use it for an agreed duration.
 
 ### Load
 

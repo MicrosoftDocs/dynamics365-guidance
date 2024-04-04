@@ -105,7 +105,7 @@ There are many key benefits that can be used to monitor and measure the success 
 
 ### Optimized system utilization
 
-By investing in comprehensive training and adoption strategies for Dynamics 365, organizations ensure that users fully utilize the features and capabilities of the system. This optimization leads to increased efficiency and productivity across various business processes. When organizations use the FastTrack for Dynamics 365 Success by Design framework to help implement their solutions, many tools and tips are included to help ensure successful training and adoption of the solution.
+By investing in comprehensive training and adoption strategies for Dynamics 365, organizations ensure that users fully use the features and capabilities of the system. This optimization leads to increased efficiency and productivity across various business processes. When organizations use the FastTrack for Dynamics 365 Success by Design framework to help implement their solutions, many tools and tips are included to help ensure successful training and adoption of the solution.
 
 ### Faster time-to-value
 

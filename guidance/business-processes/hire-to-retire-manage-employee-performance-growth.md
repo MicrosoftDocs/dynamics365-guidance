@@ -106,7 +106,7 @@ Dynamics 365 Human Resources offers comprehensive visibility into employee perfo
 
 Dynamics 365 Human Resources enhances the organization's ability to align individual and team goals with broader strategic objectives, and this data can be integrated with Viva Goals for broad easy to use goal management. This feature allows for the creation, tracking, and monitoring of goals at various levels, manage pay rates associated with compensation ensuring that all employee's efforts contribute directly to the overall success of the organization.
 
-Management can utilize KPIs related to goal achievement, alignment rates, and goal completion timelines to measure the effectiveness of goal-setting strategies and the organization's progress toward its overarching objectives.
+Management can use KPIs related to goal achievement, alignment rates, and goal completion timelines to measure the effectiveness of goal-setting strategies and the organization's progress toward its overarching objectives.
 
 ### Enhanced employee engagement and feedback management
 
