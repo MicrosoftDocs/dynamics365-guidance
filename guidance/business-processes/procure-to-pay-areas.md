@@ -21,7 +21,7 @@ In Dynamics 365, you can configure products to determine the sourcing method for
 
 ## Define procurement catalogs
 
-The business process area that defines procurement catalogs, empowers organizations to configure internal and external catalogs for use in the procure-to-pay process. These catalogs, including items and services, can be organized and added, facilitating their utilization during the procurement process. Furthermore, categories outlined within the catalogs can be used within purchase requisition and purchase order without necessitating item or service code.
+The business process area that defines procurement catalogs, empowers organizations to configure internal and external catalogs for use in the procure-to-pay process. These catalogs, including items and services, can be organized and added, facilitating their use during the procurement process. Furthermore, categories outlined within the catalogs can be used within purchase requisition and purchase order without necessitating item or service code.
 
 Once configured, these catalogs and their categories can be used to enforce access restrictions, ensuring that designated personnel have appropriate access to specific categories. Access control is administered through purchasing policies within Dynamics 365 Supply Chain Management.
 

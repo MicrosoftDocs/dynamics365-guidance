@@ -129,7 +129,7 @@ Dynamics 365's collaborative features enable seamless communication and coordina
 
 ### Enhanced plan effectiveness through continuous improvement
 
-By utilizing Dynamics 365 and Azure for business continuity planning, organizations benefit from data-driven insights and analytics. This enables continuous improvement of the plans based on real-world testing outcomes, evolving risks, and technological advancements. Plan effectiveness is measured by regularly assessing and updating plans, incorporating lessons learned from testing, and ensuring that the plans evolve in alignment with the organization's changing landscape.
+By using Dynamics 365 and Azure for business continuity planning, organizations benefit from data-driven insights and analytics. This enables continuous improvement of the plans based on real-world testing outcomes, evolving risks, and technological advancements. Plan effectiveness is measured by regularly assessing and updating plans, incorporating lessons learned from testing, and ensuring that the plans evolve in alignment with the organization's changing landscape.
 
 These benefits highlight the synergy between Dynamics 365, Azure, and effective business continuity planning, emphasizing the tangible advantages of using Microsoft's cloud services for a resilient and responsive organizational infrastructure.
 

@@ -52,7 +52,7 @@ The flow diagram for the manage service resources business process area has thes
 
 Use the following key benefits to check and measure how well you implement technology to support the *Manage service resources* business process.
 
-### Optimized resource utilization
+### Optimized resource use
 
 By managing your service resources well, you can make sure that you have the right resources at the right time. This can help you use your resources well and cut costs.
 

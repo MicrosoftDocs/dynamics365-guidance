@@ -158,7 +158,7 @@ When you use Dynamics 365 Marketing together with the rich product management fe
 
 Because Dynamics 365 is built on the Dataverse, you can effectively use market research insights integrated into the platform, guiding the development of offerings aligned with customer preferences and trends. When you use Dynamics 365 Customer Insights, you can funnel data from Dynamics 365 or third-party systems to integrate the data with Azure Synapse Link and get performance data about your products in easy-to-use Power BI dashboards.
 
-With Dynamics 365 Sales, Commerce, or Supply Chain Management you can evaluate real-time performance analytics on new products, enabling data-driven adjustments based on market reception. This includes optimizing resource allocation by gaining insights into resource availability, enabling effective utilization for timely development.
+With Dynamics 365 Sales, Commerce, or Supply Chain Management you can evaluate real-time performance analytics on new products, enabling data-driven adjustments based on market reception. This includes optimizing resource allocation by gaining insights into resource availability, enabling effective application for timely development.
 
 ## Drive iterative improvement and satisfaction
 

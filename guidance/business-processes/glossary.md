@@ -1834,9 +1834,9 @@ User adoption metrics are key performance indicators (KPIs) used to measure the 
 
     - Significance: Indicates the frequency of user interactions with Dynamics 365, reflecting the overall engagement level.
 
-- Feature Utilization
+- Feature use
 
-    - Metric: Percentage of users actively utilizing specific features or modules within Dynamics 365.
+    - Metric: Percentage of users actively using specific features or modules within Dynamics 365.
 
     - Significance: Helps identify which functionalities are most and least used, guiding targeted training efforts.
 

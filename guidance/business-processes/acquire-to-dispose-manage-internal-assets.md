@@ -97,7 +97,7 @@ Here are some ways to achieve operational efficiency:
 
 - Maintaining and repairing fixed assets regularly to prevent breakdowns, malfunctions, and safety hazards that can disrupt operations and cause losses
 
-- Optimizing the utilization and allocation of fixed assets to avoid idle capacity, overstocking, or underutilization that can affect profitability and cash flow
+- Optimizing the application and allocation of fixed assets to avoid idle capacity, overstocking, or underuse that can affect profitability and cash flow
 
 - Implementing asset management systems and practices that can track, monitor, and evaluate the performance, condition, and value of fixed assets and provide insights for improvement
 

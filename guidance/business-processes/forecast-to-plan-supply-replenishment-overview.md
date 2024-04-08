@@ -83,7 +83,7 @@ Constant monitoring and adjustment of the baseline plan helps ensure optimal lev
 
 ### Maximize resources and capacity
 
-Through shifting workloads and task timeframes in manufacturing environments, Dynamics 365 Supply Chain Management enables organizations to effectively plan and optimize the use of their resources. The plans include equipment, machinery, labor, and other production assets. By analyzing production schedules, demand forecasts, and resource availability, Dynamics 365 Supply Chain Management helps organizations efficiently allocate resources. Therefore, it ensures optimal utilization and reduces idle time.
+Through shifting workloads and task timeframes in manufacturing environments, Dynamics 365 Supply Chain Management enables organizations to effectively plan and optimize the use of their resources. The plans include equipment, machinery, labor, and other production assets. By analyzing production schedules, demand forecasts, and resource availability, Dynamics 365 Supply Chain Management helps organizations efficiently allocate resources. Therefore, it ensures optimal use and reduces idle time.
 
 ### Optimize inventory spend
 
