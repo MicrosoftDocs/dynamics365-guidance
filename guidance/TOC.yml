@@ -645,7 +645,7 @@ items:
         - name: Standardize business processes during an implementation
           href: business-processes/standardize-business-processes.md
         - name: Introduction to process maturity
-          href: business-processes/process-maturity-introduction.md          
+          href: business-processes/process-maturity-introduction.md
         - name: Acquire to dispose
           items:
           - name: End-to-end scenario - acquire to dispose
@@ -668,9 +668,9 @@ items:
             href: business-processes/acquire-to-dispose-retire-dispose-assets.md
         - name: Administer to operate
           items:
-          - name: Administer to operate introduction
+          - name: End-to-end scenario - administer to operate
             href: business-processes/administer-to-operate-introduction.md
-          - name: Administer to operate end-to-end overview
+          - name: Overview
             href: business-processes/administer-to-operate-overview.md
           - name: Train users and increase adoption overview
             href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
