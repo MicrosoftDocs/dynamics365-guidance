@@ -27,7 +27,7 @@ Every organization has variations to the *acquire to dispose* process. Here, we
 
 ## Effect
 
-Implementing technology solutions to support the *acquire to dispose* process can have a significant impact on a business. By using a centralized platform like Dynamics 365, businesses can improve the visibility and control they have over their assets, resulting in improved decision-making and resource utilization. With better tracking and management of assets, organizations can minimize downtime, reduce maintenance costs, and extend the useful life of their assets, which can ultimately lead to cost savings and increased profitability. In addition, using technology solutions to support the *acquire to dispose* process can also help ensure compliance with regulatory requirements and reduce the risk of errors or omissions in asset management.
+Implementing technology solutions to support the *acquire to dispose* process can have a significant impact on a business. By using a centralized platform like Dynamics 365, businesses can improve the visibility and control they have over their assets, resulting in improved decision-making and resource use. With better tracking and management of assets, organizations can minimize downtime, reduce maintenance costs, and extend the useful life of their assets, which can ultimately lead to cost savings and increased profitability. In addition, using technology solutions to support the *acquire to dispose* process can also help ensure compliance with regulatory requirements and reduce the risk of errors or omissions in asset management.
 
 ## Stakeholders
 
@@ -39,7 +39,7 @@ The stakeholders involved in implementing technology solutions to support the *a
 
 - Finance department - responsible for tracking asset costs and depreciation
 
-- Operations department - responsible for utilizing assets to support business operations
+- Operations department - responsible for using assets to support business operations
 
 - Human resources department – responsible for hiring and training users who will be operating the assets
 
@@ -57,7 +57,7 @@ When your organization plans to implement technology solutions to assist with th
 
 ### Improved asset tracking
 
-Dynamics 365 allows organizations to track their assets throughout the entire lifecycle, from acquisition to disposal. This helps organizations to ensure that their assets are properly managed and maintained, reducing the risk of lost or stolen assets and improving overall asset utilization.
+Dynamics 365 allows organizations to track their assets throughout the entire lifecycle, from acquisition to disposal. This helps organizations to ensure that their assets are properly managed and maintained, reducing the risk of lost or stolen assets and improving overall asset use.
 
 ### Accurate asset valuation
 

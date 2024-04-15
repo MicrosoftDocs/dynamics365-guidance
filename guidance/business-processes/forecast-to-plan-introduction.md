@@ -96,7 +96,7 @@ Dynamics 365 can increase accuracy of customer order delivery dates by using the
 
 ### Optimize operations
 
-Dynamics 365 can help optimize the use of production resources by providing real-time visibility into inventory levels, demand forecasting, and production capacity. By using this data, organizations can optimize their production schedules, ensuring that resources are utilized efficiently and that production runs are scheduled to meet customer demand. Additionally, Dynamic 365 Supply Chain Management supports the production scheduling process, considering factors such as lead times, machine capacity, and labor availability to create optimal production schedules. This enables organizations to reduce downtime, increase throughput, and improve overall efficiency, all while ensuring that customer demand is met in a timely and cost-effective manner.
+Dynamics 365 can help optimize the use of production resources by providing real-time visibility into inventory levels, demand forecasting, and production capacity. By using this data, organizations can optimize their production schedules, ensuring that resources are used efficiently and that production runs are scheduled to meet customer demand. Additionally, Dynamic 365 Supply Chain Management supports the production scheduling process, considering factors such as lead times, machine capacity, and labor availability to create optimal production schedules. This enables organizations to reduce downtime, increase throughput, and improve overall efficiency, all while ensuring that customer demand is met in a timely and cost-effective manner.
 
 ## Next steps
 

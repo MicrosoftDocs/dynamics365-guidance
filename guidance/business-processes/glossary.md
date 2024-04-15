@@ -941,7 +941,7 @@ A lessee is an individual or entity that has a lease agreement with a lessor to 
 
 ### Lessor
 
-A lessor is an individual or entity that owns an asset and grants the right to use or lease that asset to another party in exchange for rental payments. In leasing agreements, the lessor is the party that maintains ownership of the asset while allowing the lessee to utilize it for an agreed duration.
+A lessor is an individual or entity that owns an asset and grants the right to use or lease that asset to another party in exchange for rental payments. In leasing agreements, the lessor is the party that maintains ownership of the asset while allowing the lessee to use it for an agreed duration.
 
 ### Load
 
@@ -1834,9 +1834,9 @@ User adoption metrics are key performance indicators (KPIs) used to measure the 
 
     - Significance: Indicates the frequency of user interactions with Dynamics 365, reflecting the overall engagement level.
 
-- Feature Utilization
+- Feature use
 
-    - Metric: Percentage of users actively utilizing specific features or modules within Dynamics 365.
+    - Metric: Percentage of users actively using specific features or modules within Dynamics 365.
 
     - Significance: Helps identify which functionalities are most and least used, guiding targeted training efforts.
 

@@ -109,9 +109,9 @@ There are many key benefits that can be used to monitor and measure the success 
 
 Implementation of Dynamics 365 Supply Chain Management enhances cost accuracy and transparency throughout the inventory management process. By streamlining cost accounting, the system reduces the likelihood of human error and provides real-time visibility into cost data. You can dynamically control which transactions are posted to the general ledger when you use Dynamics 365 Finance with Supply Chain Management. The system keeps the inventory subledger in balance with the general ledger in Finance in real time. This benefit enables organizations to make informed decisions, minimize cost discrepancies, and maintain financial accuracy.
 
-### Optimize cost allocation and resource utilization
+### Optimize cost allocation and resource use
 
-Dynamics 365 enables organizations to optimize cost allocation and resource utilization. This benefit applies especially to product-centric organizations that use Dynamics 365 Supply Chain Management and service-centric organizations that use Dynamics 365 Project Operations. Through features such as cost accounting allocation rules, the system ensures that indirect costs are accurately distributed. Therefore, it helps reduce waste and improve resource allocation. This optimization helps businesses operate more efficiently, maintain competitiveness, and improve profitability.
+Dynamics 365 enables organizations to optimize cost allocation and resource use. This benefit applies especially to product-centric organizations that use Dynamics 365 Supply Chain Management and service-centric organizations that use Dynamics 365 Project Operations. Through features such as cost accounting allocation rules, the system ensures that indirect costs are accurately distributed. Therefore, it helps reduce waste and improve resource allocation. This optimization helps businesses operate more efficiently, maintain competitiveness, and improve profitability.
 
 ### Enhance data-driven decision-making
 

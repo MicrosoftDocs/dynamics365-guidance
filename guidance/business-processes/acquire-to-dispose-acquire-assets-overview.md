@@ -18,7 +18,7 @@ This article describes how you can use Dynamics 365 products to support your org
 
 In the rapidly evolving business environment of today, organizations must effectively manage their assets to optimize operations, improve decision-making, and to thrive and remain competitive all while balancing their financial resources.
 
-The acquire assets functionality plays a vital role in facilitating the acquisition, monitoring, and utilization of assets throughout their lifecycle.
+The acquire assets functionality plays a vital role in facilitating the acquisition, monitoring, and use of assets throughout their lifecycle.
 
 Asset data is often maintained in worksheets and is typically configured after the general ledger setup is completed in Dynamics 365. A lot of organizations start late with data migration of data that is related to fixed asset or asset management. They often realize that there are gaps when the balance or transaction type of data is brought into the business solution. We recommend that you start the fixed asset migration early in the project to pressure-test the data and the processes that the business team follows.
 
@@ -52,7 +52,7 @@ To navigate the intricacies of asset management successfully, many people in an 
 
 - **Executive leadership** - responsible for determining types of assets needed and ensuring alignment with strategic goals.
 
-- **Operations department** - responsible for utilizing and maintaining the acquired or leased assets effectively and providing inputs on operational requirements, performance expectations, and maintenance needs of the assets.
+- **Operations department** - responsible for using and maintaining the acquired or leased assets effectively and providing inputs on operational requirements, performance expectations, and maintenance needs of the assets.
 
 - **IT department** - responsible for maintaining and testing technology solutions.
 
@@ -60,7 +60,7 @@ To navigate the intricacies of asset management successfully, many people in an 
 
 - **Lessor** (the leasing party) – responsible for leasing assets to the lessee and maintaining the assets.
 
-- **Lessee** (the current organization, business, or party) – responsible for utilizing the assets, making lease payments as per contract.
+- **Lessee** (the current organization, business, or party) – responsible for using the assets, making lease payments as per contract.
 
 ## Acquire assets process flow
 
@@ -144,7 +144,7 @@ Acquiring assets that align with operational needs and requirements can signific
 
 ### Improved decision-making
 
-Asset acquisition with well-defined monitoring, tracking, and maintenance provides organizations with access to accurate and real-time data about their asset portfolio. This data enables informed decision-making regarding maintenance, replacements, or upgrades. Timely insights into asset performance, costs, and utilization and synchronized information flow across different departments enhance efficiency, accuracy. The insights help organizations make strategic choices that maximize asset value and contribute to long-term sustainability.
+Asset acquisition with well-defined monitoring, tracking, and maintenance provides organizations with access to accurate and real-time data about their asset portfolio. This data enables informed decision-making regarding maintenance, replacements, or upgrades. Timely insights into asset performance, costs, and application and synchronized information flow across different departments enhance efficiency, accuracy. The insights help organizations make strategic choices that maximize asset value and contribute to long-term sustainability.
 
 ### Improved financial health
 

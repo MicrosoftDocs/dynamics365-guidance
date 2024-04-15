@@ -87,9 +87,9 @@ Increasing operational efficiency and productivity by reducing manual tasks, err
 
 Enhance visibility and control over the service delivery lifecycle by tracking and managing work orders from initiation to completion.
 
-#### Optimized resource utilization
+#### Optimized resource use
 
-Optimize resource utilization and allocation by matching the right skills and availability to the demand.
+Optimize resource use and allocation by matching the right skills and availability to the demand.
 
 #### Accelerated cash flow
 
