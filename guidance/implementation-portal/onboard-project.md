@@ -1,46 +1,43 @@
 ﻿---
-title: Onboarding wizard
-description: Learn about the onboarding wizard and its capabilities including creating new projects, joining existing projects, and adding and removing users to projects. 
+title: Add or join a project in the Implementation Portal
+description: Learn how to use the onboarding wizard to create projects, join projects, and add and remove users from projects. 
 author: dereklh77
 ms.author: goantu
 ms.topic: how-to
 ms.date: 04/11/2024
 ---
 
-# Onboarding wizard
+# Add or join a project in the Implementation Portal
 
-This article describes how you can onboard a project in the Dynamics 365 Implementation Portal by following the steps in the onboarding guide. The onboarding guide provides an easy way to add an implementation project to the portal in real time, so that you can receive implementation guidance and create reviews. The following main sections take you through the steps of the onboarding guide.
+This article shows you how to use the onboarding guide to add or join a project in the Dynamics 365 Implementation Portal. The onboarding guide makes it easy to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details.
 
 ## Project overview
 
-The first main step in the Onboarding Wizard is to submit the basic details of the project.
+The first step in the onboarding wizard is to provide the basic details of your project.
 
 1. Specify your role.
 
-    - **Partner** - Choose this option if you're a partner and you're onboarding the project on behalf of your customer.
-    - **Customer** - Choose this option if you don't have an implementation partner, or if you're running the implementation project as a customer of Microsoft.
+    - **Partner**: Choose this option if you're a partner and you're onboarding the project for your customer.
 
-2. Specify the type and the ID of the Microsoft Entra tenant that this implementation project is for.
+    - **Customer**: Choose this option if you don't have an implementation partner, or if you're running the implementation project as a customer of Microsoft.
+
+2. Specify the type and the ID of the Microsoft Entra tenant that your implementation project is for.
 
     | Type | Description|
     |------|------------|
-    | My Tenant | Select this option if you're logged into your implementation project as your tenant. The Tenant ID is displayed in the **Your Tenant ID** field. |
-    | Different Tenant | Select this option if you're creating a project on a different tenant than the one you're currently logged into.
+    | **My Tenant**| Select this option if you're signed in to your implementation project as your tenant. The tenant ID appears in the **Your Tenant ID** field. |
+    | **Different Tenant** |Select this option if you're creating a project in a different tenant than the one you're signed in to.|
 
-    > [!TIP]
-    > For projects with finance and operations apps, you can find the tenant ID in Lifecycle Services. Learn more at [Subscriptions, LCS projects, and Azure Active Directory tenants FAQ](/dynamics365/fin-ops-core/dev-itpro/get-started/subscription-overview#how-can-i-find-the-tenant-name-and-tenant-id-within-lcs). You can also get this information from the Azure portal. Learn more at [Get subscription and tenant IDs in the Azure portal](/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant).
-    >
-    > Make sure that you are signed into the tenant that you want to retrieve the ID for.
+    For projects with finance and operations apps, you can [find the tenant ID in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/get-started/subscription-overview#how-can-i-find-the-tenant-name-and-tenant-id-within-lcs). You can also [find the tenant ID in the Azure portal](/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant). Make sure that you're signed in to the tenant that you want to get the ID for.
 
 3. Specify the purpose of the project.
 
-
     | Type | Description |
     |------|-------------|
-    | Test/trial/training | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
-    | Partner implementation | Choose this option if your project is being implemented by a partner organization.|
-    | Customer implementation | Choose this option if your project is being implemented by you as a customer and you do no have a partner involved.|
-
+    | **Test/trial/training** | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
+    | **Partner implementation** | Choose this option if your project is being implemented for the partner organization.|
+    | **Customer implementation** | Choose this option if your project is being implemented by you as a customer and you do no have a partner involved.|
+    
     > [!NOTE]
     > If you are a partner who's creating the implementation project on behalf of their customer, choose the *Partner implementation* option.
 
@@ -48,9 +45,9 @@ The first main step in the Onboarding Wizard is to submit the basic details of t
 
     | Type | Description |
     |------|-------------|
-    | New project | Select this option if this is a new implementation.|
-    | New workload on existing project | Select this option if you're implementing a new workload on an existing project.|
-
+    | **New project** | Select this option if this is a new implementation.|
+    | **New workload on existing project** | Select this option if you're implementing a new workload on an existing project.|
+    
     If there's already a project that has gone live, and you are adding another app to the existing implementation, choose the *New workload on existing project* option.
 
 5. Is this a Dynamics 365 finance and operations apps implementation?
@@ -58,7 +55,7 @@ The first main step in the Onboarding Wizard is to submit the basic details of t
     - Select **No** if you don't have any finance and operation apps in scope (such as Finance, Commerce, Supply Chain Management, or Human Resources).
     - Select **Yes** if you have one or more finance and operation apps in scope.
 
-    Selecting *Yes* in the above option loads the *Finance and Operations LCS Project* section. If you select *No*, move forward to step 7.
+    Selecting **Yes** in the above option loads the *finance and operations Lifecycle Services Project* section. If you select **No**, move forward to step 7.
 
 6. Finance and LCS Project - For the initial rollout of the implementation project with finance and operations apps in scope, when a project is created in LCS, the FastTrack team automatically creates a project in the portal and customers and partners can join them. It's not required to create the project again if it already exists. 
 
@@ -74,7 +71,7 @@ The first main step in the Onboarding Wizard is to submit the basic details of t
 
 ## Existing projects
 
-This page displays the existing projects based on the Tenant ID and LCS ID, if provided. This page is divided into two sections.
+This page displays the existing projects based on the tenant ID and Lifecycle Services ID, if provided. This page is divided into two sections.
 
 ### View existing projects
 
@@ -82,7 +79,7 @@ This section displays the list existing implementation projects that you're alre
 
 ### Join existing project
 
-This section is displayed only if you select **Yes** for Finance and Operations and provided a valid Lifecycle Services ID. There are two conditions that are validated:  
+This section only appears if you selectwed **Yes** for finance and operations and provided a valid Lifecycle Services ID. There are two conditions that are validated:  
 
 1. If the logged-in user ID (UPN) is a project user in the given Lifecycle Services instance.
 
@@ -132,7 +129,7 @@ If your implementation portal project doesn't exist and/or if you want to create
 ### Consent for data sharing
 
 > [!NOTE]
-> This section loads only if you have selected **Different Tenant** as the tenant type at the start of the onboarding guide, and it's **not** a test/trial/training project. As part of data privacy principles, we need consent from two customer contacts who are active users of the project's tenant.
+> This section loads only if you have selected **Different Tenant** as the tenant type at the start of the onboarding guide, and it's **not** a test/trial/training project. As part of data privacy principles, we need consent from two customer contacts who are active users of the project's tenant. Learn more at [Data sharing consent](data-sharing-consent.md).
 
 There are two fields for this section and accepts one email/field in the format `name@company.com`.
 
@@ -140,13 +137,13 @@ There are two fields for this section and accepts one email/field in the format 
 
 2. Target Tenant Reviewer 2 Email
 
-After providing the email addresses, select the **Click here to confirm the emails provided are real organization users from the company that owns the target tenant, not out-sourced users** field. Learn more at [Data sharing consent](data-sharing-consent.md).
+After providing the email addresses, select the **Click here to confirm the emails provided are real organization users from the company that owns the target tenant, not out-sourced users** field.  
 
 Once the details are entered, choose the **Create Project** button.
 
 > [!NOTE]
-> When you choose the **Create Project** button, an email is sent to both target tenant reviewers for them to approve the project access along with the direct link and other details. While the project is created in the background, the details such as the name of the customer tenant and telemetry insights will not be resolved until the customer tenant reviewers approve the access. The person that creates the project will be able to cancel the request and change approver emails from the **Admin &gt; Data Consent** option page after the project has been created.
+> When you choose the **Create Project** button, an email is sent to both target tenant reviewers for them to approve the project access along with the direct link and other details. While the project is created in the background, the details such as the name of the customer tenant and telemetry insights will not be resolved until the customer tenant reviewers approve the access. The person that creates the project can cancel the request and change approver emails from the **Data Consent** page after the project has been created. Learn more at [Data sharing consent](data-sharing-consent.md).
 
 ## Feedback or questions?
 
-Send your feedback/queries to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).
+Send your feedback or questions to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).

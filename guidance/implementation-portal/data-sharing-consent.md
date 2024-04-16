@@ -1,13 +1,14 @@
 ---
-title: Data sharing consent
-description: Learn about the various approval statuses for data sharing consent and what features become unavailable users do not consent to data sharing.
+title: Give or get consent for data sharing in your project
+description: Find out how to give or get consent for data sharing in a Dynamics 365 implementation project and what features depend on it.
 author: dereklh77
 ms.author: goantu
 ms.topic: how-to
 ms.date: 04/16/2024
+ai-usage: ai-assisted
 ---
 
-# Data sharing consent
+# Give or get consent for data sharing in your project
 
 In this article, we introduce you to the process of approving data sharing in a Dynamics 365 implementation project. Based on Microsoft's [Privacy policy](https://privacy.microsoft.com/privacystatement), we require two contacts from our customer's organization to approve the implementation project's access to their organization's tenant. This allows partners to access information such as customer name and telemetry insights and ensures compliance with data protection regulations, building trust with customers.
 
