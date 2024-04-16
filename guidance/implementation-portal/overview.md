@@ -13,9 +13,6 @@ ms.custom: bap-template
 
 [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal) helps you implement solutions with Dynamics 365 successfully based on the [Success By Design](../implementation-guide/success-by-design.md) framework. The implementation portal provides tools to help you manage project data, project users, create reviews, and update project profiles. You also have access to implementation guidance that is tailored specifically to your project.  
 
-> [!NOTE]
-> New capabilities are added throughout 2023 release wave 1. Learn more in [the release plans](/dynamics365/release-plan/2023wave1/fasttrack-implementation-portal).
-
 The Implementation Portal navigation panel includes the following links:
 
 * Engagements
@@ -23,9 +20,14 @@ The Implementation Portal navigation panel includes the following links:
   * Home
   * Projects
   * Create/Join project
-  * Migrations
+  * Nomination (GCC)
   * Nomination
 
+* Telemetry Insights
+  * Setup Telemetry
+  * Telemetry Recommendations
+  * Data Consent
+   
 * Help & Support
 
   * Knowledge Articles
@@ -47,9 +49,18 @@ The **Projects** area in the Implementation Portal shows all projects that you h
 
 Learn more at [Manage projects](manage-projects.md).
 
+## Create/Join Project
+The onboarding wizard makes it easy to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details. 
+
+Learn More at [Onboarding Wizard](onboard-project.md)
+
 ## Nomination
 
 Here Microsoft partners can nominate projects for participation in the FastTrack program. Learn more at [Customer eligibility and partner qualifications](../fasttrack/eligibility.md).
+
+## Telemetry Insights
+
+Telemetry insights detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention. Learn more at [Set up Telemetry Insights](telemetry-insights.md) 
 
 ## Knowledge Articles
 
