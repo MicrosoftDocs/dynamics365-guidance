@@ -1,5 +1,5 @@
 ﻿---
-title: Add or join a project in the Implementation Portal
+title: Create or Join a project in the Implementation Portal
 description: Learn how to use the onboarding wizard to create projects, join projects, and add and remove users from projects. 
 author: dereklh77
 ms.author: goantu
@@ -7,9 +7,9 @@ ms.topic: how-to
 ms.date: 04/11/2024
 ---
 
-# Add or join a project in the Implementation Portal
+# Create or Join a project in the Implementation Portal
 
-This article shows you how to use the onboarding guide to add or join a project in the Dynamics 365 Implementation Portal. The onboarding guide makes it easy to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details.
+This article shows you how to use the onboarding wizard to create or join a project in the Dynamics 365 Implementation Portal. The onboarding wizard makes it easier to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details.
 
 ## Project overview
 
@@ -129,7 +129,7 @@ If your implementation portal project doesn't exist and/or if you want to create
 ### Consent for data sharing
 
 > [!NOTE]
-> This section loads only if you have selected **Different Tenant** as the tenant type at the start of the onboarding guide, and it's **not** a test/trial/training project. As part of data privacy principles, we need consent from two customer contacts who are active users of the project's tenant. Learn more at [Data sharing consent](data-sharing-consent.md).
+> This section loads only if you have selected **Different Tenant** as the tenant type at the start of the onboarding wizard, and it's **not** a test/trial/training project. As part of data privacy principles, we need consent from two customer contacts who are active users of the project's tenant. Learn more at [Data sharing consent](data-sharing-consent.md).
 
 There are two fields for this section and accepts one email/field in the format `name@company.com`.
 
@@ -144,6 +144,10 @@ Once the details are entered, choose the **Create Project** button.
 > [!NOTE]
 > When you choose the **Create Project** button, an email is sent to both target tenant reviewers for them to approve the project access along with the direct link and other details. While the project is created in the background, the details such as the name of the customer tenant and telemetry insights will not be resolved until the customer tenant reviewers approve the access. The person that creates the project can cancel the request and change approver emails from the **Data Consent** page after the project has been created. Learn more at [Data sharing consent](data-sharing-consent.md).
 
+## Next Steps
+- [Manage Project](manage-projects.md)
+
 ## Feedback or questions?
 
 Send your feedback or questions to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).
+
