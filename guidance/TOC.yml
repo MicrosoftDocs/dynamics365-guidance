@@ -407,6 +407,8 @@ items:
             href: implementation-portal/onboard-project.md
           - name: Data sharing consent
             href: implementation-portal/data-sharing-consent.md
+          - name: Set up telemetry insights
+            href: implementation-portal/telemetry-insights.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
           - name: Project profiling
@@ -415,10 +417,6 @@ items:
             href: implementation-portal/conduct-project-reviews.md
           - name: Copilot in Implementation Portal
             href: implementation-portal/implementation-copilot.md
-          - name: Set up telemetry insights
-            href: implementation-portal/telemetry-insights.md
-          - name: Data consent for telemetry insights
-            href: implementation-portal/telemetry-data-consent.md
 # 14733
         - name: Customer Service
           items:

@@ -4,14 +4,14 @@ description: Learn how to set up and use telemetry insights, including overviews
 author: dereklh77
 ms.author: meesposi
 ms.topic: article
-ms.date: 04/04/2024
+ms.date: 04/16/2024
 ---
 
 # Telemetry insights overview (preview)
 <!--[This article is prerelease documentation and is subject to change.]-->
 
 > [!IMPORTANT]
-> Telemetry insights in the Dynamics 365 Implementation Portal are in public preview. Capabilities that are in preview aren’t meant for production use and can have limited functionality. These features are available before an official release so that our customers can get early access and provide feedback.
+> Telemetry insights in the Dynamics 365 Implementation Portal are in public preview. Capabilities that are in preview aren't meant for production use and can have limited functionality. These features are available before an official release so that our customers can get early access and provide feedback.
 > By accessing or using telemetry insights, you accept the [Microsoft Preview Terms of Service](https://go.microsoft.com/fwlink/?linkid=2242556).
 
 **Telemetry insights** detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention.
@@ -93,3 +93,9 @@ The results are grouped by **result** and **environment**.
 Choose the **Ideas** button to provide feedback on the telemetry insights. Alternatively, provide feedback on specific results by choosing the thumbs up or thumbs down buttons.
 
 You can apply filters to narrow down results by tenant, environment, and purpose. Search locates result names and descriptions.  
+
+## Related resources
+
+- [Data sharing consent](data-sharing-consent.md)  
+- [Manage projects in Dynamics 365 Implementation Portal](manage-projects.md)  
+- [Dynamics 365 Implementation Portal](overview.md)  
