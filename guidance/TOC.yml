@@ -942,6 +942,14 @@ items:
             href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
           - name: Comply with tax, audit, and regulatory requirements
             href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
+          - name: Manage fund accounting overview
+            href: business-processes/record-to-report-manage-fund-accounting.md
+          - name: Manage budgets overview
+            href: business-processes/record-to-report-manage-budgets.md
+          - name: Close financial periods overview
+            href: business-processes/record-to-report-close-financial-periods.md
+          - name: Record financial transactions overview
+            href: business-processes/record-to-report-record-financial-transactions.md
         - name: Service to cash
           items:
           - name: End-to-end scenario - service to cash
@@ -952,8 +960,12 @@ items:
             href: business-processes/service-to-cash-areas-overview.md
           - name: Manage service assets overview
             href: business-processes/service-to-cash-manage-service-assets.md
+          - name: Schedule service work overview
+            href: business-processes/service-to-cash-schedule-service-work.md
           - name: Manage service resources overview
             href: business-processes/service-to-cash-manage-service-resources.md
+          - name: Perform service work
+            href: business-processes/service-to-cash-perform-service-work.md
           - name: Create and process service work
             # items:
             # - name: Create work orders

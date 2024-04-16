@@ -61,6 +61,18 @@ Before you can analyze your customer balances in Dynamics 365 Finance, you must 
 > [!IMPORTANT]
 > After you define aging periods, Dynamics 365 Finance requires you to run a periodic process to place customer balances into the correct periods for analyzing. Run the [Aging snapshot process](/dynamics365/finance/accounts-receivable/set-up-collections#create-an-aging-snapshot). In most organizations, this process is run once per day as part of a batch operation.
 
+### Allocations
+
+Allocations involve the systematic distribution of costs across different segments or departments within an organization. This process ensures that expenses are appropriately distributed, providing a more granular view of how costs impact various areas of the business.
+
+Dynamics 365 Finance supports several types of allocations including but not limited to the following:
+
+-   Ledger allocations – allocations that are defined directly on a main account and distributes amounts across financial dimensions.
+
+-   Allocation rules – rules that are defined for both a source account with financial dimensions and target accounts with financial dimensions. The rules are run as a periodic process, typically once per ledger period.
+
+-   Budget allocations – allocations that can be defined to spread a budget amount over a period of time or across main accounts and financial dimensions.
+
 ### Amortization
 
 Unlike fixed assets, which are typically *depreciated*, intangible assets are *amortized*. Examples of intangible assets are patents, intellectual property, branding, and so on. Amortization is generally spread across the useful life of an asset in a straight line. Assets that are amortized may not have a resale value.
@@ -72,6 +84,10 @@ Appointment scheduling is the process of blocking time for drivers to drop off a
 ### Appraisers
 
 Asset appraisers are individuals who leverage their expertise to evaluate the condition, usability, and market demand for these assets in their current state. They are usually involved in assessing the potential financial return or salvage value of assets that an organization is planning to retire, sell, scrap, or otherwise remove from its inventory.
+
+### Appropriations
+
+In the public sector, budget appropriation refers to the legal process by which a legislative body, such as a city council or Congress, allocates funds for specific purposes.
 
 ### Asset
 
@@ -201,9 +217,33 @@ Billing rules were used in [Dynamics AX](/dynamicsax-2012/appuser-itpro/create-b
 
 [Billing schedules](/dynamics365/finance/accounts-receivable/sb-billing-schedules) are rules that define how and when customers can be invoiced for work on a project. They're based on the terms that are specified in the project contract.
 
+### Budget control
+
+In Dynamics 365 Finance, budget control is a set of configurations that allow organizations to closely monitor and control spend by providing warnings or errors when specific criteria is met. This functionality allows organizations to more closely plan, measure, manage and forecast its financial resources throughout the year. Learn more at [Budget control overview](/dynamics365/finance/budgeting/budget-control-overview-configuration).
+
+### Budget cycle
+
+A budget cycle is a configurable time period in which you can control and monitor the budget amounts. Budget cycles are used in both Budget control and Budget planning in Dynamics 365 Finance.
+
 ### Budget forecast
 
 A budget forecast is the expected expenditure or revenue per budget line during the period that is defined on the budget line. The forecast equals the budgeted value when the budget is approved. If actual costs are more than the forecasted cost for a budget line, the forecast cost is made equal to the actual cost.
+
+### Budget plan
+
+In Dynamics 365 Finance, a budget plan is the outcome of the process of determining what the budget should be for a period of time. The budget plan only becomes final once it is approved and converted from a plan into an actual budget. Learn more at [Budget planning overview](/dynamics365/finance/budgeting/budget-planning-overview-configuration).
+
+### Budget plan scenario
+
+Budget plan scenarios, sometimes referred to as scenario planning, in Dynamics 365 Finance enables organizations to create multiple budgets based on different assumptions and variables. This feature supports better decision-making by evaluating the potential impact of various scenarios on financial outcomes.
+
+### Budget register entry
+
+In Dynamics 365 Finance, the budget register entry is the equivalent to a journal entry for budget amounts. Budget registers have headers and lines much like a general journal or other types of journals in the system; however, budget register entries do not post to the general ledger. Budget register entries also have different fields, rules, and logic to help with the management of budgeting tasks.
+
+### Budget variance
+
+Budget variance refers to the difference between the budgeted amount and the actual amount spent. In Dynamics 365, monitoring budget variances helps organizations identify discrepancies and adjust future budget plans accordingly.
 
 ### Business Continuity Plan
 
@@ -294,6 +334,18 @@ Churn occurs when a customer ends a relationship or stops engaging with a compan
 ### Close the deal
 
 Closing the deal refers to the process of finalizing the agreement with a client or decision makers after an opportunity is won. It involves confirming acceptance, negotiating terms if necessary, preparing and signing the contract, and setting up the required arrangements for the project or business.
+
+### Closing entries
+
+Closing entries in Dynamics 365 Finance are the automated journal entries made at the end of a financial period to transfer the balances of temporary accounts (such as revenue and expense accounts) to permanent accounts (such as retained earnings). This process resets the accounts for the next reporting cycle.
+
+### Closing sheet
+
+The closing sheet in Dynamics 365 is a summarized document that includes the final balances of various accounts and financial indicators after the financial period closure. It provides a snapshot of the financial status at the end of the reporting cycle. Users with proper security can make adjustments to how the balances will be transferred to the opening balances for the next period prior to posting.
+
+### Collaborative budgeting
+
+Collaborative budgeting in Dynamics 365 involves the collective contribution of stakeholders to the budgeting process. This fosters collaboration among budget owners, finance leaders, and departmental managers, ensuring a more comprehensive and accurate budget.
 
 ### Collection letters or dunning notes
 
@@ -581,6 +633,10 @@ Eligibility criteria refer to the specific conditions or requirements that must 
 
 Employee succession planning is a strategic process that involves identifying and developing potential candidates to fill key roles within the organization in the future. This proactive approach ensures a smooth transition in leadership positions and critical roles, minimizing disruptions to business operations. In the context of Dynamics 365, succession planning involves creating talent pools, assessing employee readiness, and implementing development plans to groom individuals for future responsibilities.
 
+### Encumbrance accounting
+
+Encumbrance accounting, also referred to as commitment accounting, is a type of accounting that involves setting aside funds for future expenses.
+
 ### End-user training
 
 Training programs designed for individuals who will use Dynamics 365 in their daily tasks, ensuring they acquire the necessary skills to navigate the system and perform their roles effectively.
@@ -634,6 +690,10 @@ Financial periods represent specific time intervals, such as months or quarters,
 ### Financial reporting
 
 Financial reporting involves the preparation and presentation of an organization's financial information, including income statements, balance sheets, and cash flow statements, typically following accounting standards and regulatory requirements.
+
+### Financial statements
+
+Financial statements include the balance sheet, income statement, and cash flow statement, summarizing an organization's financial performance. Dynamics 365 Finance and Business Central help organizations make sure that these statements are accurate and reflective of the closed financial period.
 
 ### Financial tags
 
@@ -715,9 +775,17 @@ A [free text invoice](/dynamics365/finance/accounts-receivable/create-free-text-
 
 Freight reconciliation is the process of comparing and reconciling freight bills (estimated charges) with carrier invoices (actual charges). You can [manually manage the process](/dynamics365/supply-chain/transportation/tasks/set-up-automatic-freight-reconciliation) in the **Transportation management** module in Dynamics 365 Supply Chain Management. Alternatively, you can set up integration with a service to automatically manage freight reconciliation.
 
+### Frontline worker
+
+The term *frontline worker* refers to employees who directly interact with customers, clients, or business users in various industries or sectors. Frontline workers are often at the forefront of delivering products, services, or support to customers, and they play a vital role in representing the organization and maintaining customer satisfaction.
+
 ### Funding source
 
 A funding source is the entity that [funds work on a project contract](/dynamics365/project-operations/prod-pma/project-contracts#funding-for-project-contracts). This entity can be an internal organization or an external invoice account (customer or grant).
+
+### Funds
+
+A self-balancing set of financial books that is used to control and monitor the planned use of resources, often in compliance with legal and administrative requirements.
 
 ## G
 
@@ -757,7 +825,12 @@ In the context of vendor rebates and incentives, incentive programs are structur
 
 Coordinated actions taken to manage and mitigate the impact of incidents, often guided by the Business Continuity Plan.
 
+### Income statement
+
+The income statement, also known as the profit and loss statement, details an organization's revenues, expenses, and profits or losses over a specific period. It plays a crucial role in financial reporting and decision-making.
+
 ### Index revaluation
+
 Organizations use indexation to adjust multiple fixed asset values. Revaluation of fixed assets can consist of appreciations, write-downs, or adjustments in value of assets. Some companies may revalue assets more often than others. The purpose of revaluation is to accurately reflect the fair market price of the asset.
 
 ### Indirect costs
@@ -853,6 +926,16 @@ Organizations that use Dynamics 365 Business Central can [register new items](/d
 
 A job is a collection of tasks and responsibilities. In Dynamics 365, areas of responsibility, tasks, functions, skills, and educational or certification requirements for a job are also required for [positions](#positions) that are associated with that job. Before you create jobs, you should set up some reference information, such as job titles, functions, and types. Having this information available saves you time when you add positions to the job. You can also set up eligibility to filter compensation plans for a specific job.
 
+### Journal
+
+The term *journal* is used throughout Dynamics 365 for many types of transactions. Journals can be used to post transactions into ledgers and subledgers. In Dynamics 365 Finance, Supply Chain Management, Project Operations, Commerce, and Business Central, journals always have a header and line. The header defines the type of transaction, such as counting journal to count inventory items, or a general journal batch to record financial transactions in the general ledger. The lines of the journal define the details of the transactions, including the amounts, and so on. For example, a counting journal includes lines for each item that is being counted in the inventory, and it has fields to indicate which location is being counted. The quantity fields indicate how many items are counted, and the system automatically records the cost adjustment of the counted inventory up or down based on the number of items counted. Similarly, a general journal has lines for each account and financial dimension combination being posted to which columns for the debit and credit amounts.
+
+Learn more at [Work with general journals - Business Central](/dynamics365/business-central/ui-work-general-journals) and [General journal postings - Finance](/dynamics365/finance/general-ledger/general-journal-processing), respectively.
+
+### Journal entries
+
+Journal entries are the primary means of recording financial transactions in Dynamics 365. These entries capture the movement of money, assets, or liabilities and serve as the foundation for maintaining accurate and up-to-date financial records.
+
 ## K
 
 ### Key entities
@@ -928,6 +1011,10 @@ Leave types in Dynamics 365 Human Resources define the types of absences that em
 ### Ledger
 
 A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
+
+### Ledger postings
+
+Ledger postings involve the process of updating the general ledger with transactional data. In Dynamics 365 Finance, this ensures that all financial activities are accurately reflected in the central accounting system, providing a consolidated view of an organization's financial health.
 
 ### Legal entity
 
@@ -1078,6 +1165,10 @@ Of the hours that are worked on tasks, those hours that aren't directly chargeab
 
 ## O
 
+### Opening balances
+
+Opening balances refer to the initial account balances at the start of a new financial period. Dynamics 365 assists in carrying forward the relevant data and balances from the closed period to set the foundation for the upcoming reporting cycle.
+
 ### Opportunity
 
 An opportunity is a [lead](#lead) that has been [qualified](#lead-and-opportunity-management) or determined to have the potential to generate revenue. In Dynamics 365, an opportunity typically includes a description of the customer's requirements, the products or services that the customer is interested in, the potential revenue, and the estimated closing date. Opportunities can be *scored* based on their potential, and they can be *nurtured* through ongoing communication that is aimed at developing them.
@@ -1127,6 +1218,14 @@ Planning is the process of identifying goals and determining the actions to atta
 ### Positions
 
 A position is an individual instance of a [job](#jobs). Positions are an important element of the lower level of an organization hierarchy. For example, the "Sales manager (East)" position is just one of the positions that's associated with the "Sales manager" job. Positions exist in a department and are assigned to workers. Every position has a length of time that it's effective for.
+
+### Posting definition
+
+Posting definitions are used to classify main accounts and financial dimensions on accounting entries. They can be used instead of posting profiles for supported posting types and documents.
+
+### Pre-encumbrance accounting
+
+Pre-encumbrance accounting refers to the process of earmarking funds for future anticipated expenses that might not otherwise be encumbered.
 
 ### Prepayment
 
@@ -1391,10 +1490,6 @@ In Dynamics 365 Supply Chain Management, the [Transportation management module](
 
 Raw materials are the inputs to a production process, which are used to create subassemblies and finished goods. Raw materials are commonly referred to as components, ingredients, or bulk materials.
 
-### Recipe management
-
-Recipe management is a term that is used in process manufacturing that focuses on creating and maintaining detailed recipes. In Dynamics 365 Supply Chain Management, these recipes are referred to as *formulas*. Recipe management involves specifying the exact quantities, units of measure, and processing instructions for each ingredient. It helps ensure consistent product quality and compliance with industry regulations.
-
 ### Rebate
 
 A rebate is a trade discount or allowance that a supplier uses as incentives to encourage an increase in sales. They are sometimes referred to as supplier incentives, vendor incentives, channel incentives, special pricing agreements, bonuses, and retroactive discounts.
@@ -1418,6 +1513,10 @@ Rebate generation in Dynamics 365 involves the automated calculation and creatio
 ### Rebate processing
 
 Rebate processing encompasses the execution of approved incentive transactions in Dynamics 365. This involves validating and applying rebates to relevant financial records, ensuring that calculated incentives are accurately reflected in the organization's financial data. Efficient rebate processing contributes to financial accuracy and transparency.
+
+### Recipe management
+
+Recipe management is a term that is used in process manufacturing that focuses on creating and maintaining detailed recipes. In Dynamics 365 Supply Chain Management, these recipes are referred to as *formulas*. Recipe management involves specifying the exact quantities, units of measure, and processing instructions for each ingredient. It helps ensure consistent product quality and compliance with industry regulations.
 
 ### Reconcile invoices
 
@@ -1497,6 +1596,10 @@ A [resource manager](#centralized-resource-allocation), also known as a resource
 
 Resource requirements refer to the types and quantities of resources that are needed to run and complete a project within defined scope, timeline, and quality standards.
 
+### Resource schedule optimization
+
+Resource schedule optimization refers to the process of maximizing the efficiency and effectiveness of resource allocation and scheduling. It involves using advanced algorithms and techniques to analyze various factors and constraints, such as resource availability, skills, location, and task requirements, to generate optimal schedules.
+
 ### Resource work hours
 
 Works hours define the days, and times, that a service resource is available to be scheduled to perform service work.
@@ -1512,6 +1615,10 @@ The systematic identification, assessment, and mitigation of potential risks tha
 ### Risk scores
 
 A risk score is a measure of a customer's credit worthiness. It's used to define a customer's credit management blocking and exclusion rules. The risk score and rules that you define can be used to automatically calculate a customer's credit limit. You can also define risk assessments that can be assigned to customers based on their risk score.
+
+### Roll forward
+
+Rolling forward in Dynamics 365 involves carrying forward specific data, such as account balances or budget figures, from the closed financial period to the beginning of the next period. This ensures a smooth transition and continuity in financial reporting.
 
 ### Routing
 
@@ -1653,6 +1760,10 @@ In Dynamics 365 Field Service, a service resource is a person who can be schedul
 
 In Dynamics 365 Business Central, the term *service resource* covers the people who provide the service, whereas the term *service item* covers the items that can be serviced. In Dynamics 365 Supply Chain Management, the term *service object* covers the items that can be serviced.
 
+### Service territory
+
+A specific geographic area or region where a company or organization provides its products, services, or support to customers. It represents the designated area in which the company operates and delivers its offerings.
+
 ### Settlement
 
 The process of settling transactions between different document types, such as invoices, payments, credit memos, and fees.
@@ -1672,6 +1783,10 @@ Skill gap analysis within Dynamics 365 is the process of identifying the dispari
 ### Skills
 
 Skills in Dynamics 365 represent the specific abilities, knowledge, and proficiencies that employees possess. The system allows organizations to define and track individual skills, ensuring a comprehensive understanding of the workforce's capabilities. This information is crucial for competency analysis, skill gap identification, and targeted learning and development initiatives.
+
+### Source document
+
+An original record that evidences the occurrence of one or more economic, resource flow, and accounting events. A source document is entered into a system that records, classifies, tracks, and reports on the economic resources exchanged or committed at the time of the event. Examples of source documents in Dynamics 365 Finance include purchase requisitions, purchase orders, and sales orders.
 
 ### Strategic planning
 
@@ -1800,7 +1915,11 @@ A travel and expense policy is a documented set of processes that govern how org
 
 ### Travel requisition
 
-A travel requisition lists the expenses incurred for the purpose of travel. A travel requisition is submitted for review and can be used to authorize expenses. You may be required to submit a travel requisition before you incur any expense that is charged to the organization.  
+A travel requisition lists the expenses incurred for the purpose of travel. A travel requisition is submitted for review and can be used to authorize expenses. You may be required to submit a travel requisition before you incur any expense that is charged to the organization.
+
+### Trial balance
+
+The trial balance in Dynamics 365 is a summary of all the account balances in the general ledger, serving as a preliminary step in the financial period closure process. It helps identify errors and ensure that debits equal credits before finalizing the closure. The Trial balance in Dynamics 365 Finance can be printed as a report, viewed with a real-time inquiry screen or generated as a financial statement.
 
 ### Two-way matching
 
@@ -1971,9 +2090,19 @@ Writing off an asset refers to removing it from the balance sheet when its value
 
 ## Y
 
+### Year-end closing
+
+Year-end closing in Dynamics 365 marks the completion of the financial reporting cycle for a fiscal year. This involves finalizing financial statements, making necessary adjustments, and preparing for the start of the next fiscal year.
+
 ### Yield
 
 In the context of process manufacturing in Dynamics 365, the term *yield* refers to the quantity of a finished product that is obtained from a specific batch or production run. It's a crucial metric for evaluating production efficiency and determining the actual output in comparison to the expected output that is specified in the formula.
+
+## Z
+
+### Zero-based budgeting
+
+Zero-based budgeting in Dynamics 365 involves building budgets from scratch, requiring justification for each expense. This approach encourages a thorough evaluation of budget needs and aligns expenses with organizational priorities.
 
 ## Next steps
 
