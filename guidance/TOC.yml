@@ -1071,6 +1071,8 @@ items:
             href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
           - name: Demand Planning for Dynamics 365 Supply Chain Management
             href: techtalks\supply-chain-demand-planning-introduction.md
+          - name: Introducing attribute-based omnichannel product and inventory search
+            href: techtalks/attribute-based-omnichannel-product-inventory-search.md
 # Product docs
       - name: Product documentation
         items:
