@@ -88,7 +88,7 @@ Once the work order is completed, the technician can close out the job. This inv
 
 ## Analyze service operations
 
-Dynamics 365 also provides reporting and analytics tools that can be used to analyze work order execution data, such as task completion times, resource utilization, and cost analysis. This data can be used to optimize future work orders and improve the efficiency of the maintenance or repair process. -->
+Dynamics 365 also provides reporting and analytics tools that can be used to analyze work order execution data, such as task completion times, resource use, and cost analysis. This data can be used to optimize future work orders and improve the efficiency of the maintenance or repair process. -->
 
 ## Invoice customers
 

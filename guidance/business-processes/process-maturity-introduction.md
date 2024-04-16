@@ -26,7 +26,7 @@ You can use different standard models to assess your process maturity level accu
 
 - **Six Sigma**: Six Sigma emphasizes process improvement by reducing defects and variations, enhancing efficiency and customer satisfaction.
 
-- **ITIL (Information Technology Infrastructure Library)**: ITIL offers best practices for IT service management, helping organizations align IT services with business needs, improve service quality, and optimize resource utilization.
+- **ITIL (Information Technology Infrastructure Library)**: ITIL offers best practices for IT service management, helping organizations align IT services with business needs, improve service quality, and optimize resource use.
 
 We recommend that you evaluate your process maturity at the start of your project and repeat the evaluation at key milestones or regular intervals to track your progress. Gartner and Forrester also have self-assessments that you can use to measure your process maturity.
 

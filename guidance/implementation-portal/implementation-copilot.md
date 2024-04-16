@@ -1,42 +1,39 @@
 ---
-title: Copilot in Implementation Portal
-description: Learn about how you can use Copilot in the Dynamics 365 Implementation Portal to find documentation and guidance for Microsoft products.
+title: Use Copilot to find guidance in the Implementation Portal
+description: Discover how Copilot can help you access documentation and other resources for your Dynamics 365 and Power Platform projects in the Implementation Portal.
 author: dereklh77
 ms.author: goantu
 ms.topic: conceptual
 ms.date: 03/19/2024
+ai-usage: ai-assisted
 ---
 
-# Copilot in Implementation Portal
+# Use Copilot to find guidance in the Implementation Portal
 
-This article introduces you to Copilot in the [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal). This Copilot helps you find documentation and other guidance for your implementation project. 
+Copilot is powered by [Microsoft Copilot](/copilot/overview), a technology that understands natural language and provides relevant answers. Copilot in the [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal) helps you find documentation and guidance for your Dynamics 365 and Power Platform implementation projects.
 
-## Interact 
+## How to use Copilot
 
-Find the icon to launch Copilot in the bottom right corner of any page in the [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal).
+To launch Copilot, look for the icon in the bottom right corner of any page in the [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal).
 
-> [!TIP]
-> Copilot in the Implementation Portal uses the [Microsoft Copilot](/copilot/overview) technology.
+## What you can ask Copilot
 
-## Use cases
+Copilot in the Implementation Portal helps you find documentation and guidance about our products. It covers all the product documentation for Dynamics 365 and Power Platform, as well as Success by Design and other implementation guidance content.
 
-The first version of Copilot in the Implementation Portal assists users in finding documentation and guidance about our products. For now, it includes all the product documentation for Dynamics 365 and Power Platform and Success by Design and other implementation guidance content.
+For instance, try asking Copilot, "What's new in October 2024 for sales?"
 
-> [!TIP]
-> Try out Copilot by asking the question *"What's new in October 2024 for sales?"*.
+We'll add more information to help you with your projects and related tasks in future updates to the Implementation Portal.
 
-We'll add more assistance with projects and other related activities in later updates to the Implementation Portal.
+### Disclaimer
 
-### Disclaimer 
+Microsoft is committed to ethical and responsible AI development. We want our bots to be trustworthy and respectful of your privacy, autonomy, and dignity. We follow rigorous ethical standards and processes to design and operate our bots. We're also transparent and open with you about how our bots work and how we use your data. We'll keep working to create a safe and secure environment for you and our bots.
 
-Microsoft is committed to ethical and responsible AI development. We strive to ensure that our AI bots are built with trust and respect for the user in mind. We have implemented rigorous ethical standards and processes to ensure that our AI bots are designed and operated in a manner that respects user privacy, autonomy, and dignity. We're also committed to transparency and open communication with our users to build trust and ensure that our AI bots are used responsibly. We'll continue to strive to build a safe and secure environment for our users and our AI bots.
+[Learn more about how Copilot protects your privacy](/copilot/privacy-and-protections).
 
-Learn more at [Privacy and protections](/copilot/privacy-and-protections) in the docs for Microsoft Copilot.
+## Feedback or questions?
 
-## Feedback/Questions?
+Email us at [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com) with any feedback or questions.
 
-Email your feedback/queries to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).
+### See also
 
-## Related resources
-
-- [Dynamics 365 Implementation Portal](overview.md)
+- [Dynamics 365 Implementation Portal overview](overview.md)

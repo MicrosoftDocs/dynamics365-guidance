@@ -1,17 +1,16 @@
 ---
-title: Dynamics 365 FastTrack frequently asked questions
-description: Get answers to common questions about Dynamics 365 FastTrack.
-ms.author: renwe
-ms.date: 05/19/2021
-ms.topic: article
-
-ms.reviewer: edupont
+title: Dynamics 365 FastTrack FAQ
+description: Access answers to common questions about Dynamics 365 FastTrack, including questions relating to participation cost, requirements, and engagement length.
 author: ReneeW-CPub
+ms.author: renwe
+ms.topic: article
+ms.date: 05/19/2021
+ms.reviewer: edupont
 ---
 
-# Dynamics 365 FastTrack frequently asked questions
+# Dynamics 365 FastTrack FAQ
 
-This article answers commonly asked questions about Dynamics 365 FastTrack. 
+This Frequently Asked Questions (FAQ) article is for end users, to explain aspects of Dynamics 365 FastTrack.
   
 ## What is the cost to participate?
 
@@ -23,7 +22,7 @@ You'll need to meet the [eligibility criteria](eligibility.md) and be nominated 
 
 ## How is the program delivered, and what is the standard engagement length?
 
-The program is delivered jointly by Microsoft engineering and a qualified implementation partner. Using a framework called Success by Design, the program provides prescriptive guidance, workshops, and readiness reviews for designing, building, and deploying a Dynamics 365 solution. The engagement time is generally 9 to 18 months but varies based on your needs.
+The program is delivered jointly by Microsoft engineering and a qualified implementation partner. Using a framework called Success by Design, the program provides prescriptive guidance, workshops, and readiness reviews for designing, building, and deploying a Dynamics 365 solution. The engagement time is generally 9 to 18 months, but varies based on your needs.
 
 ## In which markets and languages is it available?
 

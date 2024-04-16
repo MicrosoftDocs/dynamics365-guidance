@@ -99,7 +99,7 @@ The AR features contribute to operational efficiency and flexibility. The result
 
 ### Data-driven decision making
 
-Dynamics 365 equips organizations with powerful analytics and reporting tools that contribute to data-driven decision making. Through comprehensive dashboards and customizable reports, management gains insights into key metrics such as service performance, customer feedback, and resource utilization.
+Dynamics 365 equips organizations with powerful analytics and reporting tools that contribute to data-driven decision making. Through comprehensive dashboards and customizable reports, management gains insights into key metrics such as service performance, customer feedback, and resource use.
 
 As a result, the organization can make informed decisions, identify trends, optimize service processes, and continuously improve the overall service lifecycle.
 

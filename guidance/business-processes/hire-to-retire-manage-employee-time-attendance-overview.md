@@ -87,7 +87,7 @@ This efficiency improvement can be measured through KPIs such as a decrease in t
 
 ### Real-time visibility and decision-making for operations
 
-Dynamics 365 provides real-time visibility into employee time and attendance data, empowering decision-makers with actionable insights. The system's robust reporting and analytics tools allow HR managers and supervisors to track key performance indicators (KPIs) such as attendance patterns, overtime trends, and project resource utilization.
+Dynamics 365 provides real-time visibility into employee time and attendance data, empowering decision-makers with actionable insights. The system's robust reporting and analytics tools allow HR managers and supervisors to track key performance indicators (KPIs) such as attendance patterns, overtime trends, and project resource use.
 
 This transparency enables data-driven decision-making, leading to more informed workforce management strategies. Organizations can apply these insights to optimize staffing levels, identify training needs, and proactively address attendance issues, resulting in improved overall workforce performance and strategic planning.
 

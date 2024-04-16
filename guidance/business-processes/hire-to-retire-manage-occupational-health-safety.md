@@ -48,7 +48,7 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Training Coordinators**: Training coordinators are responsible for designing and delivering safety training programs. They work closely with the system to ensure that employees receive adequate training on safety protocols and procedures. Their role is to keep the workforce informed and prepared to prevent accidents and respond to safety incidents.
 
-- **Safety Auditors**: Safety auditors conduct routine assessments of safety conditions and practices within the organization. They utilize the system to collect and analyze safety data, identify areas of improvement, and make recommendations for enhancing safety measures and compliance. Their role is essential in maintaining a proactive approach to safety.
+- **Safety Auditors**: Safety auditors conduct routine assessments of safety conditions and practices within the organization. They use the system to collect and analyze safety data, identify areas of improvement, and make recommendations for enhancing safety measures and compliance. Their role is essential in maintaining a proactive approach to safety.
 
 - **Occupational Health Professionals**: Occupational health professionals, including nurses, physicians, or other medical experts, play a critical role in assessing and treating workplace injuries and illnesses. They use the system to report, track, and manage health-related incidents, ensuring that employees receive prompt and appropriate care.
 

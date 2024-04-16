@@ -24,7 +24,7 @@ The *manage project delivery* business process area is key to tracking the work 
 
 We recommend that you use a structured approach to track, record, and manage the effort that team members and resources invest in these activities. In this way, you gain valuable insights into how the project is progressing and how project objectives are being met.
 
-This business process area also covers the evaluation of project performance, estimation of task completion times, and identification of potential bottlenecks. In addition, it facilitates the assessment of resource allocation, and therefore helps optimize workforce utilization and enhance project efficiency. Through the systematic capture of project time, organizations enhance their ability to deliver projects on schedule, allocate resources effectively, and boost overall productivity.
+This business process area also covers the evaluation of project performance, estimation of task completion times, and identification of potential bottlenecks. In addition, it facilitates the assessment of resource allocation, and therefore helps optimize workforce use and enhance project efficiency. Through the systematic capture of project time, organizations enhance their ability to deliver projects on schedule, allocate resources effectively, and boost overall productivity.
 
 Ideally, the structure of the *manage project delivery* business process is defined during the early stages of project implementation. By outlining the *manage project delivery* process as project parameters, timelines, and resource allocation are being established, you ensure that accurate data collection begins from the project's inception. Although the process might naturally evolve as the project progresses, it's important to lay its foundation before the project work begins.
 
@@ -88,7 +88,7 @@ In Dynamics 365 Project Operations, you can track, with a high degree of precisi
 
 ### Optimized resource allocation
 
-By aligning project time data with resource availability, managers can ensure that resources are efficiently allocated. Therefore, they can prevent overbooking and underutilization.
+By aligning project time data with resource availability, managers can ensure that resources are efficiently allocated. Therefore, they can prevent overbooking and underuse.
 
 ### Accurate cost estimation and budget management
 

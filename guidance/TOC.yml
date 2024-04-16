@@ -403,8 +403,12 @@ items:
             href: implementation-portal/overview.md
           - name: Sign in
             href: implementation-portal/sign-up.md
-          - name: Onboard projects
+          - name: Onboarding wizard
             href: implementation-portal/onboard-project.md
+          - name: Data sharing consent
+            href: implementation-portal/data-sharing-consent.md
+          - name: Set up telemetry insights
+            href: implementation-portal/telemetry-insights.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
           - name: Project profiling
@@ -936,6 +940,14 @@ items:
             href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
           - name: Comply with tax, audit, and regulatory requirements
             href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
+          - name: Manage fund accounting overview
+            href: business-processes/record-to-report-manage-fund-accounting.md
+          - name: Manage budgets overview
+            href: business-processes/record-to-report-manage-budgets.md
+          - name: Close financial periods overview
+            href: business-processes/record-to-report-close-financial-periods.md
+          - name: Record financial transactions overview
+            href: business-processes/record-to-report-record-financial-transactions.md
         - name: Service to cash
           items:
           - name: End-to-end scenario - service to cash
@@ -946,8 +958,12 @@ items:
             href: business-processes/service-to-cash-areas-overview.md
           - name: Manage service assets overview
             href: business-processes/service-to-cash-manage-service-assets.md
+          - name: Schedule service work overview
+            href: business-processes/service-to-cash-schedule-service-work.md
           - name: Manage service resources overview
             href: business-processes/service-to-cash-manage-service-resources.md
+          - name: Perform service work
+            href: business-processes/service-to-cash-perform-service-work.md
           - name: Create and process service work
             # items:
             # - name: Create work orders
@@ -1053,6 +1069,8 @@ items:
             href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
           - name: Demand Planning for Dynamics 365 Supply Chain Management
             href: techtalks\supply-chain-demand-planning-introduction.md
+          - name: Introducing attribute-based omnichannel product and inventory search
+            href: techtalks/attribute-based-omnichannel-product-inventory-search.md
 # Product docs
       - name: Product documentation
         items:

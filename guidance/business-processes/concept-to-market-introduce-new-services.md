@@ -143,7 +143,7 @@ When you use Dynamics 365 Customer Insights - Journeys together with the rich pr
 
 Because Dynamics 365 is built on Dataverse, you can effectively use market research insights integrated into the platform, guiding the development of offerings aligned with customer preferences and trends. When you use Dynamics 365 Customer Insights, you can funnel data from Dynamics 365 or other systems to integrate the data with Azure Synapse Link and get performance data about your services in easy-to-use Power BI dashboards.
 
-With Dynamics 365 Sales, Commerce, or Supply Chain Management, you can evaluate real-time performance analytics on new services, enabling data-driven adjustments based on market reception. This includes optimizing resource allocation by gaining insights into resource availability, enabling effective utilization for timely development.
+With Dynamics 365 Sales, Commerce, or Supply Chain Management, you can evaluate real-time performance analytics on new services, enabling data-driven adjustments based on market reception. This includes optimizing resource allocation by gaining insights into resource availability, enabling effective use for timely development.
 
 ## Drive iterative improvement and satisfaction
 
