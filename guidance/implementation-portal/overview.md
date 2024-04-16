@@ -74,7 +74,8 @@ Select the name of a user to open the user profile page, where you can provide o
 ## Next steps
 
 * [Sign up for Dynamics 365 Implementation Portal](sign-up.md)
-* [Onboard projects to the Implementation Portal](onboard-project.md)
+* [Onboarding Wizard](onboard-project.md)
+* [Data sharing consent](data-sharing-consent.md)
 * [Manage projects](manage-projects.md)
 * [Manage project profiles](manage-projects.md#project-profile)
 * [Manage project users](manage-projects.md#project-users)  

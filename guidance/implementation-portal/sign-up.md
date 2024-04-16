@@ -27,4 +27,5 @@ Select ***your name*** > **Profile** in the upper-right corner of the window to 
 
 ## Next steps
 
-[Join or onboard a project](onboard-project.md). [!INCLUDE [daf-implportal-preview](../includes/daf-implportal-preview.md)]
+- [Onboarding Wizard](onboard-project.md)
+- [Data sharing consent](data-sharing-consent.md)

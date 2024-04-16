@@ -403,8 +403,10 @@ items:
             href: implementation-portal/overview.md
           - name: Sign in
             href: implementation-portal/sign-up.md
-          - name: Onboard projects
+          - name: Onboarding wizard
             href: implementation-portal/onboard-project.md
+          - name: Data sharing consent
+            href: implementation-portal/data-sharing-consent.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
           - name: Project profiling
