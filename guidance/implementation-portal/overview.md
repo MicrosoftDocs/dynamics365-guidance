@@ -1,7 +1,7 @@
 ﻿---
 title: Dynamics 365 Implementation Portal
 description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
-ms.date: 03/27/2023
+ms.date: 04/17/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -24,10 +24,10 @@ The Implementation Portal navigation panel includes the following links:
   * Nomination
 
 * Telemetry Insights
-  * Setup Telemetry
-  * Telemetry Recommendations
-  * Data Consent
-   
+  * Set up telemetry
+  * Telemetry recommendations
+  * Data consent
+
 * Help & Support
 
   * Knowledge Articles
@@ -49,10 +49,11 @@ The **Projects** area in the Implementation Portal shows all projects that you h
 
 Learn more at [Manage projects](manage-projects.md).
 
-## Create/Join Project
-The onboarding wizard makes it easy to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details. 
+## Create or join a project
 
-Learn More at [Onboarding Wizard](onboard-project.md)
+The onboarding wizard makes it easy to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details.  
+
+Learn more at [Onboarding Wizard](onboard-project.md).
 
 ## Nomination
 
@@ -60,11 +61,11 @@ Here Microsoft partners can nominate projects for participation in the FastTrack
 
 ## Telemetry Insights
 
-Telemetry insights detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention. Learn more at [Set up Telemetry Insights](telemetry-insights.md) 
+Telemetry detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention. Learn more at [Set up Telemetry Insights](telemetry-insights.md).  
 
 ## Knowledge Articles
 
-Knowledge articles are scenario-based recommendations based on thousands of Dynamics 365 implementation projects that the FastTrack team has engaged with. Use the filters to select categories and articles to get recommendations for. Articles may have more than one scenario and corresponding recommendations.  
+Knowledge articles are scenario-based recommendations based on thousands of Dynamics 365 implementation projects that the FastTrack team has engaged with. Use the filters to select categories and articles to get recommendations for. Articles can have more than one scenario and corresponding recommendations.  
 
 ## Help
 
@@ -89,9 +90,10 @@ Select the name of a user to open the user profile page, where you can provide o
 * [Data sharing consent](data-sharing-consent.md)
 * [Manage projects](manage-projects.md)
 * [Manage project profiles](manage-projects.md#project-profile)
-* [Manage project users](manage-projects.md#project-users)  
+* [Manage project users](manage-projects.md#admin)  
 * [Implementation guidance](manage-projects.md#implementation-guidance)
 * [Conduct project reviews](conduct-project-reviews.md)  
+* [Telemetry insights overview (preview)](telemetry-insights.md)  
 
 ## Related resources
 
