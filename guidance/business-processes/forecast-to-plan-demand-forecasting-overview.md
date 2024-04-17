@@ -1,7 +1,7 @@
 ---
 title: Predict future demand for products and services with demand forecasting
 description: Read about how Dynamics 365 supports the demand forecasting business process.
-ms.date: 07/06/2023
+ms.date: 04/17/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -26,9 +26,9 @@ Demand forecasting is a fluid process that is often implemented in later phases 
 
 Many people in an organization must contribute to the decision-making process and design of the demand forecasting process in your Dynamics 365 project. The list includes but isn't limited to the following roles:
 
-* **Finance stakeholders** – Examples: Chief Financial Officer (CFO), Controller, and Accounting manager
-* **Sales stakeholders** – Examples: Vice President (VP) of sales, Sales Directors, and General Managers
-* **Operations stakeholders** – Examples: Chief Operating Officer (COO), Warehouse managers, and Production managers
+- **Finance stakeholders** – Examples: Chief Financial Officer (CFO), Controller, and Accounting manager
+- **Sales stakeholders** – Examples: Vice President (VP) of sales, Sales Directors, and General Managers
+- **Operations stakeholders** – Examples: Chief Operating Officer (COO), Warehouse managers, and Production managers
 
 ## Demand forecasting process flow
 
@@ -52,9 +52,9 @@ There are a variety of components that are used in the configuration of demand f
 |-----|-------------------------|------|---------|-----------|
 | 1 | [Demand forecasting parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup)| Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Demand forecasting parameters** |
 | 2 | [Item allocation keys](/dynamics365/supply-chain/master-planning/demand-forecasting-setup)| Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Item allocation keys** |
-| 3 | Forecast models | Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecast models** | 
+| 3 | Forecast models | Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecast models** |
 | 4 | [Outlier removal](/dynamics365/supply-chain/master-planning/remove-historical-outliers-calculating-demand-forecast) | N | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Outlier removal** |
-| 5 | Intercompany planning groups | N | FO | **Master planning &gt; Setup &gt; Intercompany planning groups** |
+| 5 | [Intercompany planning groups](/dynamics365/supply-chain/demand-planning/intercompany-planning-groups-demand-forecasting) | N | FO | **Master planning &gt; Setup &gt; Intercompany planning groups** |
 | 6 | [Forecast plans](/dynamics365/supply-chain/master-planning/planning-optimization/demand-forecast) | Y | FO | **Master planning &gt; Setup &gt; Forecast plans** |
 | 7 | [Master plans](/dynamics365/supply-chain/master-planning/master-plans) | Y | FO | **Master planning &gt; Setup &gt; Master plans** |
 | 8 | [Forecasting algorithm parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup) | Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecasting algorithm parameters** |
@@ -62,12 +62,12 @@ There are a variety of components that are used in the configuration of demand f
 
 ## Related resources
 
-* Find definitions of terminology used in content for *demand forecasting* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+- Find definitions of terminology used in content for *demand forecasting* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 
-    * [Time series forecasting](glossary.md#time-series-forecasting)
-    * [Forecast accuracy](glossary.md#forecast-accuracy-mean-absolute-percentage-error-mape)
-    * [Forecast dimensions](glossary.md#forecast-dimensions)
-    * [Granularity attribute](glossary.md#granularity-attribute)
+  - [Time series forecasting](glossary.md#time-series-forecasting)
+  - [Forecast accuracy](glossary.md#forecast-accuracy-mean-absolute-percentage-error-mape)
+  - [Forecast dimensions](glossary.md#forecast-dimensions)
+  - [Granularity attribute](glossary.md#granularity-attribute)
 
 <!--
 ## Demand forecasting recommended practices
