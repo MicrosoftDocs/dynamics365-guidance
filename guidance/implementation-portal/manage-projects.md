@@ -11,45 +11,35 @@ ms.custom: bap-template
 
 # Manage projects in Dynamics 365 Implementation Portal
 
-> [!IMPORTANT]
-> Onboarding new projects to the Implementation Portal is currently in pre-release format. If you want to onboard a new project to Dynamics 365 Implementation Portal, fill in this form: [https://aka.ms/D365ImplementationPortalOnboarding](https://aka.ms/D365ImplementationPortalOnboarding).  
+Following capabilities are available to manage your newly created/existing projects.
 
-If you already have a project in the Implementation Portal, you'll see the new capabilities in the portal starting in April 2023. The new capabilities include the following list:
->
-> * Manage project details
-> * Manage project users
-> * Profile projects by selecting products, features, and other characteristics
-> * View  implementation guidance tailored for your project profile
+* Manage project details
+* Manage project users
+* Profile projects by selecting products, features, and other characteristics
+* View  implementation guidance tailored for your project profile
+* View Telemetry Insights (if applicable/available)
 
+To do this, follow the steps given below.
 1. Sign in to the [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal) using your work account or personal Microsoft account.
+2. In the left side panel, select **Projects**.
+3. Select the project you want to manage.
 
-1. In the left side panel, select **Projects**.
-
-1. Select the project you want to manage.
-
-## Project details
+## Project Summary
 
 The **Summary** tab on the project page is where you can:
 
 * View and update key details like the project name, implementation partner, project phase, products in scope, and the country/region where the implementation team is located.
 
-* Create project reviews or open an active project review. This feature isn't available to all projects yet.
+> [!NOTE]
+> There are some fields such as LCS Go-Live date and LCS ID (for Finance and Operations projects), Tenant ID (for all projects) which are non-editable and are linked to the project in backend.
+> - If you want to edit the LCS Go-Live date, please update it in the LCS milestone under "Deploy" methodology Go-Live date. Please refer to [Milestones](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs#milestones) to update the Milestone dates. Once you update the Go-Live date in LCS, it will be reflected in the Implementation Portal within a day.
+> - If you want to update any other non-editable fields in the Project details, please reach ftd365ip-support@microsoft.com 
+  
+
+* Create project reviews or open an active project review. (This feature isn't available to all projects yet. Refer [Conduct Project Reviews](conduct-project-reviews.md) for more details)
 
 * View implementation guidance that's tailored for your project based on the project profile.
-
-## Project users
-
-The **Project user** tab on the project page lists the *project users*, people who are part of the project, and *project admins*, people who have administrative access to the project.
-
-Project admins can perform the following actions:
-
-* Select **Add new user** to join a project user to the project.
-
-* Select **Add new admin user** join a project admin to the project.
-
-* Select **Delete** (the trashcan icon on the user card) to remove a user or admin from the project.
-
-* Select **Set as admin** to make a project user an admin.
+* View Telemetry Insights if it's enabled/approved for your project.
 
 ## Project profile
 
@@ -93,6 +83,31 @@ The **Implementation guidance** tab includes the following capabilities:
 * The **Search** field searches across all generated guidance using keywords you enter.
 
 * Select guidance by type, including TechTalks, training materials, case studies, and platform-level guidance.
+
+## Telemetry Insights
+This tab is visible for all projects created via the Onboarding Wizard. Telemetry insights detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Learn more - (Telemetry Insights Overview)[telemetry-insights.md)
+
+## Admin
+
+The **Admin** tab on the project page has the following sections
+
+1. **Project Users** - This section displays the following set of users.
+   
+   |Type|Description|
+   |----|----|
+   |Project Users|Users who are part of the project and can view/edit the details of the Project|
+   |Project Admins|Users who have administrative access to perform actions such as Add/Remove users and admins from the project|
+   
+Project admins can perform the following actions:
+
+* Select **Add new user** to join a project user to the project.
+* Select **Add new admin user** join a project admin to the project.
+* Select **Delete** (the trashcan icon on the user card) to remove a user or admin from the project.
+* Select **Set as admin** to make a project user an admin.
+
+2. **Data Consent** - This section displays the Data Sharing Consent provided by the Customer Tenant users (if applicable) for the given project. Please refer to [Data Consent](data-sharing-consent.md) for more details.
+
+3. **Center of Excellence Users** - This section is displayed only if the logged in user is part of the Center of Excellence (CoE) Partner team as part of the Partner Portfolio engagement. This section displays other CoE users who are part of the project.
 
 ## Next steps
 
