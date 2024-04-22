@@ -11,7 +11,7 @@ ms.date: 04/16/2024
 <!--[This article is prerelease documentation and is subject to change.]-->
 
 > [!IMPORTANT]
-> Telemetry insights in the Dynamics 365 Implementation Portal are in public preview. Capabilities that are in preview aren't meant for production use and can have limited functionality. These features are available before an official release so that our customers can get early access and provide feedback.
+> Telemetry insights in the Dynamics 365 Implementation Portal is in public preview. Capabilities that are in preview aren't meant for production use and can have limited functionality. These features are available before an official release so that our customers can get early access and provide feedback.
 > By accessing or using telemetry insights, you accept the [Microsoft Preview Terms of Service](https://go.microsoft.com/fwlink/?linkid=2242556).
 
 **Telemetry insights** detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention.
@@ -33,34 +33,39 @@ The first step in the **Set up telemetry** guide is to submit the basic details 
 
 2. Specify the type and the ID of the Microsoft Entra tenant that this request is for.
 
-    | Role | Description |
+    | Tenant | Description |
     |------|-------------|
     | My Tenant | Select this option if you're switching on telemetry for an environment on your tenant. The Tenant ID is displayed in the **Your Tenant ID** field. |
     | Different Tenant | Select this option if you're switching on telemetry for a different tenant than the one you're currently logged into. |
 
-    > [!TIP]
-   > For projects with finance and operations apps, you can find the Tenant ID in Lifecycle Services. Learn more at [Subscriptions, LCS projects, and Azure Active Directory tenants FAQ](/dynamics365/fin-ops-core/dev-itpro/get-started/subscription-overview#how-can-i-find-the-tenant-name-and-tenant-id-within-lcs). You can also get this information from the Azure portal. Learn more at [Get subscription and tenant IDs in the Azure portal](/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant).
-
-    Make sure that you're signed into the tenant that you want to retrieve the ID for.
+> [!TIP]
+   > For projects with finance and operations apps, you can find the Tenant ID in Lifecycle Services. Learn more at [Subscriptions, LCS projects, and Azure Active Directory tenants FAQ](/dynamics365/fin-ops-core/dev-itpro/get-started/subscription-overview#how-can-i-find-the-tenant-name-and-tenant-id-within-lcs). You can also get this information from the Azure portal. Learn more at [Get subscription and tenant IDs in the Azure portal](/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant). Make sure that you're signed into the tenant that you want to retrieve the ID for.
 
 3. Specify the environment and date information, including an environment ID.
 
-    > [!TIP]
+> [!TIP]
    > Find the IDs of the environment and organization  in the Power Platform admin center or Lifecycle Services. Learn more at [Find your environment and organization ID and name - Power Platform](/power-platform/admin/determine-org-id-name).
 
 4. Specify the purpose of the environment.
 
-    | Role | Description |
+    | Environment Purpose | Description |
     |------|-------------|
     | Production | An environment used for live business operations.|
     | UAT | An environment used for standard acceptance testing.|
     | Sandbox | An environment used for preproduction testing.|
     | Performance | An environment used for performance testing.|
     | Dev | An environment used for development.|
+   
 
-5. If the specified environment is associated with a project in the Implementation Portal with all necessary data consent approved, the project defaults.
+5. Specify the start date and end date for the period that you want telemetry insights to be visible. Consider a minimum timespan of 7 days or more to get daily updates during the specified time period.  
+   
+6. If the specified tenant is associated with an existing Dynamics 365 Implementation Portal project, you're asked to associate this request with the correct existing project from a drop-down list. You don't need a project to set up telemetry insights for production environments.
+> [!NOTE]
+> You must have a project to switch on telemetry insights for all non-production environments. If a project does not exist, create one with the onboarding wizard. Learn more at [Dynamics 365 Implementation Portal Onboarding Wizard](/dynamics365/guidance/implementation-portal/onboard-project). If a project does exist, but you do not have access, you're asked to contact the project admin for access.
+>
 
-6. Specify the start date and end date for the period that you want telemetry insights to be visible.
+
+ 
 
 ## Consent for data sharing
 
@@ -81,6 +86,9 @@ After providing the email addresses, select the **Click here to confirm the emai
 ## Telemetry recommendations
 
 The **Telemetry recommendations** page displays various results for all environments that have been configured and approved for telemetry insights.
+
+> [!NOTE]
+> Once you've completed the setup of telemetry, results start showing up, based on the purpose of environment. Recommendations for production environments show up about 15 minutes later. Recommendations for non-production environments start showing up about 24 hours after you completed the setup.
 
 The results are grouped by **result** and **environment**. 
 
