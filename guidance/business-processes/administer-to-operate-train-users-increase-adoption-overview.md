@@ -1,131 +1,130 @@
 ﻿---
 title: Train users and increase adoption overview
-description: Learn about the Train users and increase adoption business process, including learning about available tools, stakeholder types, and the connection between business processes.
+description: Learn why training users is vital for successful adoption of Dynamics 365 and explore the tools, processes, stakeholders, and benefits of effective training strategies.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: overview
 ms.date: 03/19/2024
+ai-usage: ai-assisted
 ---
 
 # Train users and increase adoption overview
 
 ***Applies to: Dynamics 365, Viva Learn***
 
-This article describes the importance and tools available for training users and increasing adoption when implementing Dynamics 365 products.
+This article explains why training your users is key to getting them to adopt your Dynamics 365 solutions and what tools can help you.
 
-Implementing a technology project, especially one as robust as Dynamics 365, demands more than just the deployment of cutting-edge software. A key determinant of success lies in the proficiency and engagement of the users involved. This is where the crucial aspects of training and adoption come into play.
+When you implement a technology project like Dynamics 365, you need more than just great software. You also need users who can use it well and embrace it. That's where training and adoption come in.
 
-Effective training not only empowers users to harness the full potential of Dynamics 365 but also plays a pivotal role in the overall success of the project. When users are proficient in using the tools at their disposal, they can contribute significantly to streamlined business processes and increased productivity.
+Training helps users unlock the full potential of Dynamics 365. It gives them the skills and confidence they need to work smarter and faster.
 
-Adoption, on the other hand, is the bridge that connects technology implementation to tangible business outcomes. It ensures that the tools introduced become an integral part of daily operations rather than mere additions to the digital landscape.
+Adoption connects technology implementation to business outcomes. It makes sure that the new tools become part of the daily work, not just extra features.
 
-There are various tools available to help organizations who are implementing Dynamics 365 to assist with the training and adoption process.
+You can use various tools to train your users and increase adoption of Dynamics 365.
 
-- **Microsoft Learn**: Microsoft Learn stands as a cornerstone for training resources. It offers a diverse range of modules, tutorials, and hands-on labs tailored to Dynamics 365. This platform provides a structured learning path for users, enabling them to grasp the intricacies of the software at their own pace. Access training at [Dynamics 365 on Microsoft Learn](/training/dynamics365/).
+- **Microsoft Learn**: Microsoft Learn is a rich source of training resources. It has modules, tutorials, and hands-on labs for Dynamics 365. Users can follow a structured learning path and learn at their own pace. Find training at [Dynamics 365 on Microsoft Learn](/training/dynamics365/).
 
-- **Viva Learn**: Viva Learn, with its focus on learning and development, complements Dynamics 365 implementation seamlessly. Its interactive and personalized approach ensures that users not only acquire the necessary skills but also stay engaged throughout the learning process. Learn more at [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning).
+- **Viva Learn**: Viva Learn focuses on learning and development. It works well with Dynamics 365 implementation. It offers an interactive and personalized learning experience that helps users stay engaged and motivated throughout the learning process. Learn more at [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning).
 
-- **Product documentation**: Comprehensive product documentation serves as a valuable reference point. It acts as a go-to resource for users seeking detailed insights into the functionalities of Dynamics 365. Accessible and well-organized documentation contributes significantly to user self-sufficiency. Access product documentation at [Dynamics 365 documentation](/dynamics365/).
+- **Product documentation**: Product documentation is a useful reference tool. It has detailed information about the features and functions of Dynamics 365. Users can find answers to their questions quickly and easily. Find product documentation at [Dynamics 365 documentation](/dynamics365/).
 
-- **Change management and adoption tools**: Beyond specific learning platforms, incorporating robust change management and adoption tools is essential. These tools facilitate a smooth transition, addressing any resistance to change and ensuring that the new processes seamlessly integrate into the existing workflow. Find adoption resources at [Get ready to adopt Dynamics 365 apps](/dynamics365/adoption/).
+- **Change management and adoption tools**: Besides learning platforms, you also need strong change management and adoption tools. These tools help you make a smooth transition to the new system. They address any resistance to change and ensure that the new processes fit well with the existing workflow. Find adoption resources at [Get ready to adopt Dynamics 365 apps](/dynamics365/adoption/).
 
-- **Guidance from Dynamics 365 Implementation Guide and Success by Design**: In the Dynamics 365 Implementation Guide, organizations can find invaluable advice on crafting effective training plans and executing seamless change management. The Success by Design framework, embedded within the guide, offers a structured approach to implementation, emphasizing the importance of aligning technology solutions with business goals. Find the Dynamics 365 Implementation guide at [Dynamics 365 implementation guidance](../implementation-guide/overview.md).
+- **Guidance from the Dynamics 365 Implementation Guide and Success by Design**: The Dynamics 365 Implementation Guide gives you valuable tips on how to plan and deliver effective training programs and manage change successfully. The Success by Design framework, part of the guide, shows you how to align your technology solutions with your business goals. Find the Dynamics 365 Implementation guide at [Dynamics 365 implementation guidance](../implementation-guide/overview.md).
 
-- **Continuous training and evolution**: It's essential to recognize that training, change management, and adoption aren't isolated events. They're ongoing processes woven into the fabric of organizational evolution. As Dynamics 365 evolves, so should the skills and practices of its users. Regularly revisiting training plans and adapting change management strategies ensures that the organization remains agile in the face of technological advancements. See the roadmap at [Release plans for Dynamics 365, Power Platform, and Cloud for Industry](/dynamics365/release-plans/) or use the Release planner to help get organized for [upcoming software releases](https://releaseplans.microsoft.com).
+- **Continuous training and evolution**: Training, change management, and adoption aren't one-time events. They're ongoing processes that support your organizational growth. As Dynamics 365 evolves, so should your users' skills and practices. Review your training plans and change management strategies regularly to keep up with the latest technology updates. See the roadmap at [Release plans for Dynamics 365, Power Platform, and Cloud for Industry](/dynamics365/release-plans/) or use the Release Planner to get ready for [upcoming software releases](https://releaseplans.microsoft.com).
 
-Training and adoption aren't just procedural checkboxes in a project plan; they're the linchpin for realizing the true potential of Dynamics 365. Organizations acheive successful technology adoptions by using tools like Microsoft Learn, Viva Learn, and comprehensive documentation. These adoptions are done quickly and confidently when guided by the Dynamics 365 Implementation Guide and the Success by Design framework.
+Training and adoption aren't just steps in a project plan. They're the key to realizing the true potential of Dynamics 365. You can achieve successful technology adoption by using tools like Microsoft Learn, Viva Learn, and product documentation. You can also adopt new features quickly and confidently with the guidance of the Dynamics 365 Implementation Guide and the Success by Design framework.
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *train users and increase adoption* business process area. The following list provides examples of such stakeholders:
+Many people in your organization should be involved in the decision-making and design of the *train users and increase adoption* business process area. Here are some examples of such stakeholders:
 
-- **Learning and development stakeholders** include learning and development managers, training specialists, and instructional designers. This team is responsible for crafting comprehensive training programs, designing learning materials, and conducting workshops to ensure users are proficient in Dynamics 365.
+- **Learning and development stakeholders** include learning and development managers, training specialists, and instructional designers. They create comprehensive training programs, design learning materials, and run workshops to make sure that users are proficient in Dynamics 365.
 
-- **IT stakeholders** include IT managers, system administrators, and technical support specialists. The IT department ensures the technical infrastructure supports training initiatives, provides technical support during implementation, and collaborates with the learning and development team on technical training needs.
+- **IT stakeholders** include IT managers, system administrators, and technical support specialists. They make sure the technical infrastructure supports the training initiatives, provide technical support during implementation, and work with the learning and development team on technical training needs.
 
-- **Change management stakeholders** include change management consultants, change analysts, and organizational change leads. This team develops change management strategies, communicates changes effectively, and assesses the impact on user behavior, addressing resistance to new processes.
+- **Change management stakeholders** include change management consultants, change analysts, and organizational change leads. They develop change management strategies, communicate changes effectively, and assess the impact on user behavior. They also address any resistance to new processes.
 
-- **Human resources stakeholders** include HR managers, talent development specialists, and employee relations coordinators. HR aligns training with organizational goals, facilitates communication, and monitors employee feedback and performance post-implementation.
+- **Human resources stakeholders** include HR managers, talent development specialists, and employee relations coordinators. They align training with organizational goals, facilitate communication, and monitor employee feedback and performance after implementation.
 
-- **End users**. These representatives provide insights on training needs, participate in pilot programs, and advocate for the benefits of Dynamics 365 within their respective teams.
+- **End users**. They provide insights on training needs, participate in pilot programs, and promote the benefits of Dynamics 365 within their teams.
 
-- **Executive leadership** includes the Chief Executive Officer (CEO), Chief Information Officer (CIO), and Chief Operations Officer (COO). Executive leadership provides strategic direction, allocates resources and budget, and reinforces the importance of adoption, ensuring alignment with organizational objectives.
+- **Executive leadership** includes the Chief Executive Officer (CEO), Chief Information Officer (CIO), and Chief Operations Officer (COO). They provide strategic direction, allocate resources and budget, and reinforce the importance of adoption. They also ensure alignment with organizational objectives.
 
 ## Train users and increase adoption process flow
 
 The following diagram illustrates the *train users and increase adoption* business process area.
 
-:::image type="content" source="media\administer-to-operate-train-users-increase-adoption-overview-1.svg" alt-text="Diagram of the train users and increase adoption business process area, showing the connection between the processes with the administer to operate business area.":::
+:::image type="content" source="media\administer-to-operate-train-users-increase-adoption-overview-1.svg" alt-text="Diagram of the train users and increase adoption process area.":::
 
 1. Start
 
     Parallel branches from Start include:
-    
+
     1. *Forecast to plan* and *Hire to retire* shown on the left side of the graphic
-    1. Below *Forecast to plan* is a connection to *Define strategic and operational plan* business process area, which connects to *Identify training needs*
-    1. Below *Hire to retire* is a connection to *Onboard and manage the employee lifecycle*, which connects to *Manage employee performance and growth* business process area
+    1. Below *Forecast to plan* is a connection to *Define strategic and operational plan* process area, which connects to *Identify training needs*
+    1. Below *Hire to retire* is a connection to *Onboard and manage the employee lifecycle*, which connects to *Manage employee performance and growth* process area
     1. *Onboard and manage the employee lifecycle* has a parallel connection to *Conduct training*
     1. *Manage employee performance and growth* has parallel connections to *Conduct training* and *Provide ongoing (training) support*
 
-2. *Administer to operate*
+1. *Administer to operate*
 
-3. *Manage system access and security*
+1. *Manage system access and security*
 
-    A parallel branch connects to *Uptake software releases* and *Support systems business* process areas. Each of these business process areas connect to *Identify training needs*
+    A parallel branch connects to *Uptake software releases* and *Support systems* process areas. Each of these process areas connect to *Identify training needs*
 
-4. *Train users and increase adoption*
+1. *Train users and increase adoption*
 
-5. *Identify training needs*
+1. *Identify training needs*
 
-6. *Develop training materials*
+1. *Develop training materials*
 
-7. *Plan training delivery*
+1. *Plan training delivery*
 
-8. *Conduct training*
+1. *Conduct training*
 
     A parallel branch connects to the downstream process for *Onboard and manage the employee lifecycle* shown under the *Hire to retire* end-to-end process
 
-9. *Provide ongoing (training) support*
+1. *Provide ongoing (training) support*
 
-10. *Measure training and adoption success*
+1. *Measure training and adoption success*
 
-    A parallel branch connects to the downstream process for *Manage employee performance and growth*, which is shown below the *Hire to retire* end-to-end process and the *Onboard and manage the employee lifecycle* business process area.
+    A parallel branch connects to the downstream process for *Manage employee performance and growth*, which is shown below the *Hire to retire* end-to-end process and the *Onboard and manage the employee lifecycle* process area.
 
-11. *Refine training programs*
+1. *Refine training programs*
 
-    Parallel branches connect to *Monitor systems, environments, and capacity*, *Manage system compliance*, and *Support systems*, which are connected sequentially under the *Administer to operate* downstream end-to-end business process shown on the right. Additionally, parallel branches connect to *Onboard and manage the employee lifecycle* and *Manage employee performance and growth*, which are shown under the *Hire to retire* end-to-end business process shown on the right.
+    Parallel branches connect to *Monitor systems, environments, and capacity*, *Manage system compliance*, and *Support systems*, which are connected sequentially under the *Administer to operate* downstream end-to-end process. Additionally, parallel branches connect to *Onboard and manage the employee lifecycle* and *Manage employee performance and growth*, which are shown under the *Hire to retire* end-to-end process.
 
-12. End
+1. End
 
-The following business process areas shown on the rights side of the graphic include parallel connections to End: *Monitor systems, environments, and capacity*, *Manage system compliance*, *Support systems*, *Onboard and manage the employee lifecycle*, and *Manage employee performance and growth*.
+The following business process areas shown on the right side of the graphic include parallel connections to End: *Monitor systems, environments, and capacity*, *Manage system compliance*, *Support systems*, *Onboard and manage the employee lifecycle*, and *Manage employee performance and growth*.
 
 ## Train users and increase adoption benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *train users and increase adoption* business processes. The following sections outline the key benefits that an organization might monitor and measure for *training users and increasing adoption*.
+Training users and increasing adoption of Dynamics 365 can bring many benefits to your organization. You can monitor and measure these benefits to evaluate your success. Here are some key benefits of effective training strategies:
 
 ### Optimized system application
 
-By investing in comprehensive training and adoption strategies for Dynamics 365, organizations ensure that users fully use the features and capabilities of the system. This optimization leads to increased efficiency and productivity across various business processes. When organizations use the FastTrack for Dynamics 365 Success by Design framework to help implement their solutions, many tools and tips are included to help ensure successful training and adoption of the solution.
+When you invest in comprehensive training and adoption strategies for Dynamics 365, you make sure that users fully use the features and capabilities of the system. This optimization leads to increased efficiency and productivity across various business processes. When you use the FastTrack for Dynamics 365 Success by Design framework to help implement your solutions, you get many tools and tips to help ensure successful training and adoption.
 
 ### Faster time-to-value
 
-Effective training and adoption accelerate the integration of Dynamics 365 into daily operations, resulting in a faster time-to-value for the organization. Users become proficient quickly, allowing the business to reap the benefits of the technology sooner.
+Effective training and adoption speed up the integration of Dynamics 365 into daily operations, resulting in a faster time-to-value for your organization. Users become proficient quickly, allowing you to enjoy the benefits of the technology sooner.
 
 ### Adaptability to evolving business needs
 
-Continuous training and adoption efforts make the organization more adaptable to changing business needs. As Dynamics 365 evolves, well-trained users can easily embrace new features and functionalities, ensuring the system remains aligned with organizational goals. With in-application help features, copilots, and online documentation of new features and business processes, organizations can uptake new features and train users with confidence.
+Continuous training and adoption efforts make your organization more adaptable to changing business needs. As Dynamics 365 evolves, well-trained users can easily embrace new features and functionalities, ensuring the system remains aligned with your organizational goals. With in-application help features, copilots, and online documentation of new features and business processes, you can adopt new features and train users with confidence.
 
 ### Streamlined change management
 
-Organizations choosing Dynamics 365 benefit from a streamlined change management process. Our roadmap and feature management capabilities make it even easier for organizations to uptake change and new releases. When organizations use these tools together with proactive training and adoption strategies ease the transition, minimizing resistance to change and ensuring a smoother integration into existing workflows.
+When you choose Dynamics 365, you benefit from a streamlined change management process. Our roadmap and feature management capabilities make it easier for you to adopt change and new releases. When you use these tools together with proactive training and adoption strategies, you ease the transition, minimize resistance to change, and ensure a smoother integration into existing workflows.
 
-In summary, investing in training users and increasing adoption when implementing Dynamics 365 brings about a multitude of benefits, ranging from optimized system applications to a competitive edge in the market. These advantages contribute to the long-term success of the organization's technology strategy.
+In summary, investing in training users and increasing adoption when you implement Dynamics 365 brings many benefits, from optimized system application to a competitive edge in the market. These benefits contribute to the long-term success of your technology strategy.
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
-
-1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
+1. [Define a business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
 
 2. *Manage licensing and entitlements*
 
@@ -133,7 +132,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *admin
 
 4. *Manage system access and security*
 
-5. *Train users and increase adoption* (you're currently on this step.)
+5. *Train users and increase adoption* (this step)
 
 6. *Monitor systems, environments, and capacity*
 
@@ -151,13 +150,11 @@ If you would like to implement Dynamics 365 solutions to assist with your *admin
 
 ## Related resources
 
-You can use the following resources to learn more about the resources to help you train users and increase adoption with Dynamics 365.
-
 - [Adoption resources (contains video)](/dynamics365/adoption/adoption-resources)
 
-- [Dynamics 365 Adoption guide](/dynamics365/adoption/adoption-guide)
+- [Dynamics 365 adoption guide](/dynamics365/adoption/adoption-guide)
 
-- [Dynamics 365 Adoption workbook overview](/dynamics365/adoption/adoption-workbook-overview)
+- [Dynamics 365 adoption workbook overview](/dynamics365/adoption/adoption-workbook-overview)
 
 - [Adoption checklist](/dynamics365/adoption/adoption-checklist)
 
