@@ -445,9 +445,9 @@ items:
                   href: resources/cs-agent-script-macro-sample.md
               - name: Artificial Intelligence
                 items:
-                - name: Deflect cases with artificial intelligence
+                - name: Route or deflect cases with artificial intelligence
                   href: resources/cs-ai-case-deflection.md
-                - name: Summarize Dynamics 365 Knowledge Base articles with ChatGPT
+                - name: Summarize KB articles with GPT
                   href: resources/ai-summarize-knowledge-base-articles.md
               - name: Copilot Studio
                 items:
@@ -457,6 +457,19 @@ items:
                   href: resources/copilot-studio-multilanguage-bot.md
                 - name: Play secured audio file
                   href: resources/copilot-studio-play-audio-file.md
+                - name: Application insights with Microsoft Copilot Studio
+                  href: resources/copilot-studio-appinsights.md
+              - name: Automation
+                items:
+                - name: Automate agent tasks
+                  href: resources/cs-pad-automation.md
+              - name: Channel Integration Framework 2.0
+                items:
+                - name: Set up the simulator for Channel Integration Framework v. 2.0
+                  href: resources/cs-set-up-cif2-simulator.md
+                - name: Set up click-to-run outbound calls
+                  href: resources/cs-set-up-outbound-calls.md
+  
 # 14806 dev tools
           - name: Develop solutions
             items:
@@ -474,10 +487,6 @@ items:
             - name: Scenarios for load tests
               href: resources/test-load-test-scenarios.md
 # 14804
-            - name: Simulator for Channel Integration Framework 2.0
-              href: resources/cs-set-up-cif2-simulator.md
-            - name: Set up click-to-run outbound calls
-              href: resources/cs-set-up-outbound-calls.md
 # 15071 analytics
           - name: Add analytics
             items:

@@ -105,6 +105,37 @@ The following sections outline the content of the collection. Each section inclu
 
     Learn more at [Play secure audio file from Copilot Studio](copilot-studio-play-audio-file.md).
 
+- AppInsights for Copilot Studio
+   
+    This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in Azure Application Insights.In addition to the native analytics features within Microsoft Copilot Studio, you can send telemetry data to Application Insights.
+
+    Learn more at [Copilot Studio Application Insights Telemetry](copilot-studio-appinsights.md)
+
+### Channel Integration Framework 2.0
+
+- CIF simulator
+
+    The simulator is just a collection of samples that we built using the Channel Integration Framework.
+
+    Learn more at [CIF 2.0 stimulator](cs-set-up-cif2-simulator.md)
+
+
+- Set up Click to Outbound call
+
+    This article outlines the steps to use a custom control so that users can make outbound calls from a Customer Interaction Center (CIF) provider in Omnichannel for Dynamics 365 Customer Service. The sample solution is a resource that helps optimize the Dynamics 365 implementation. It includes a custom control that provides the capability to format a phone number and initiate an outbound call from a text or phone number field.
+
+    Learn more at [Set up outbound call](cs-set-up-outbound-calls.md)
+
+
+
+### Automation
+
+- Automate agent tasks with Power Automate Desktop
+
+    This sample shows how to run a Power Automate Desktop Flow from Customer Service Workspace to automate tasks on a Customer Service Representative's workstation.
+
+    Learn more at [Automate agent tasks with Power Automate Desktop](cs-pad-automation.md). 
+
 ## Related resources
 
 - [Dynamics365 Customer Service](/dynamics365/customer-service/)

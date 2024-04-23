@@ -89,7 +89,7 @@ These cases are based on the out-of-the-box forms. We recommend you run the test
 
 For end-to-end tests, `testDir` must be `./tests-e2e`. For unit tests, `testDir` must be `./tests`.
 
-By default, the sample project points to the end-to-end tests folder `./tests-e2e`. The following instructions are for executing the end-to-end tests from the UI using VS Code. To execute unit tests, change the setting `testDir` in the `playwright.config.ts` file to `./tests`.
+By default, the sample project points to the end-to-end tests folder `./tests-e2e`. The following instructions are for executing the end-to-end tests from the UI using VS Code. To run unit tests, change the setting `testDir` in the `playwright.config.ts` file to `./tests`.
 
 ### Run end-to-end tests from VS Code
 

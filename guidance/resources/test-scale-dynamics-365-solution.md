@@ -64,9 +64,9 @@ On the **Parameters** tab, you can add the following information:
 
 - Enter any environment variables to be passed into the test from Azure Load Testing to JMeter user-defined variables (System.getenv); for example, a host name, URL, or parameters passed in through CI/CD automation.
 
-- Enter any secrets to be passed into the test from Azure Load Testing. Secrets might be used in a test that executes against an API or function that requires authentication.
+- Enter any secrets to be passed into the test from Azure Load Testing. Secrets might be used in a test that runs against an API or function that requires authentication.
 
-- Enter any certificates to be passed into the test from Azure Load Testing. Certificates might be used in a test that executes against a secure endpoint.
+- Enter any certificates to be passed into the test from Azure Load Testing. Certificates might be used in a test that runs against a secure endpoint.
 
 Azure Load Testing integrates with Azure Key Vault. We recommend you store secrets and certificates there.
 
