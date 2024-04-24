@@ -35,11 +35,11 @@ The first step in the onboarding wizard is to provide the basic details of your 
     | Type | Description |
     |------|-------------|
     | **Test/trial/training** | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
-    | **Partner implementation** | Choose this option if your project is being implemented for the partner organization.|
-    | **Customer implementation** | Choose this option if your project is being implemented by you as a customer and you do no have a partner involved.|
+    | **Partner implementation** | Choose this option if your project is being implemented for a Partner organization (partner implementing the project for their own organization).|
+    | **Customer implementation** | Choose this option if your project is being implemented by the Partner for a Customer Organization (or) if the customer is implementing it without having a partner involved.|
 
     > [!NOTE]
-    > If you are a partner who's creating the implementation project on behalf of their customer, choose the *Partner implementation* option.
+    > If you are a partner who's creating the implementation project on behalf of their customer, choose the *Customer implementation* option.
 
 4. Select the type of project.
 
