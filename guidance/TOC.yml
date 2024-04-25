@@ -547,6 +547,13 @@ items:
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
               - name: Vendor invoice line charges entity
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
+# Migrate from on-premises to online
+      - name: Migrate from on-premises to online
+        items:
+        - name: Migrate from Dynamics
+          href: migrate/overview.md
+        - name: Dynamics CRM on-premises to Dynamics 365 online migration process overview
+          href: migrate/opol-crm-migration-high-level-overview.md
 
 # data migration
 #        - name: Migrate data
