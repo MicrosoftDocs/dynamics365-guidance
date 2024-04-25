@@ -1009,6 +1009,21 @@ items:
         - name: Create a functional and technical design document
           href: patterns/create-functional-technical-design-document.md
 
+
+# Develop
+      - name: Development guides
+        items:
+        - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
+          href: develop/introduction-customer-engagement-ui-ux-design-guide.md
+        - name: Key UI/UX design principles
+          href: develop/ui-ux-design-principles.md
+        - name: UI/UX component details for model-driven apps
+          href: develop/ui-ux-component-details-model-driven-apps.md
+        - name: UI/UX component details for canvas apps
+          href: develop/ui-ux-component-details-canvas-apps.md
+        - name: UI/UX component details for tests and user feedback
+          href: develop/ui-ux-component-details-testing-feedback.md
+
 # Reference architectures
       - name: Reference architectures
         href: reference-architectures/index.yml
