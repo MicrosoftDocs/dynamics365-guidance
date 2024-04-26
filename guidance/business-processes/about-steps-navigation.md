@@ -6,7 +6,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: conceptual #Required; don't change.
 ms.collection: get-started #Required; don't change.
-ms.date: 10/27/2023
+ms.date: 04/26/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -178,11 +178,13 @@ The following list shows the abbreviations that are used for each Dynamics 365 a
 - CSB = Commerce site builder
 - POS = Commerce Point of Sale
 - CSH = Customer Service hub
-- FSH = Field Service hub
 - FIN = Dynamics 365 Finance
+- FS = Dynamics 365 Field Service
+- FSM = Field Service mobile app
 - HR = Dynamics 365 Human Resources
 - PMA = Dynamics 365 Project Operations
 - POH = Project Operations hub
+- RS: Resource scheduling app
 - SAL = Sales hub
 - MKT = Dynamics 365 Marketing
 - SCM = Dynamics 365 Supply Chain Management
@@ -215,6 +217,6 @@ Let's take a closer look at the example table from the start of the article.
 
 This example shows us that the process step for *credit and collections parameters* must be configured during the *Initialize* process stage. It's part of the *base* configuration stage, and it's a *configuration*. That's what we learn from the the values in the [Process stage](#process-stage-terminology) column for that row in the table. Next, we learn that it's recommended to be part of the Gold configuration, and there must be at least one such configuration. Finally, the table teaches us where to set up things, namely in the Finance app, or by using the *CustomerParameters* entity in the data management framework (DMF).
 
-## Next steps
+## Next step
 
 Learn about the business process guide at [About the business process guide](about.md)  
