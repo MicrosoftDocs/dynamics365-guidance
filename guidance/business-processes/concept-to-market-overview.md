@@ -1,6 +1,6 @@
 ---
 title: Concept to market end-to-end business process flow overview
-description: Learn about the end-to-end business process, concept to market. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the concept to market end-to-end business process, including a flow diagram and describes the relationship with other processes.
 ms.date: 11/23/2023
 ms.topic: conceptual
 author: rachel-profitt

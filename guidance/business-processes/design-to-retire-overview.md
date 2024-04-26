@@ -1,6 +1,6 @@
 ---
 title: Overview of the design to retire end-to-end business process flow
-description: Learn about the end-to-end business process, design to retire. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the design to retire end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 11/27/2023
 ms.topic: conceptual
 author: rachel-profitt

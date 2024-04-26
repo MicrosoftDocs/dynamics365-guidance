@@ -1,6 +1,6 @@
 ---
 title: Extensibility strategy checklist
-description: Use this checklist to plan and track your extensibility strategy for Dynamics 365 apps.
+description: Use this checklist to plan and track your extensibility strategy for Dynamics 365 apps, including sections for defining strategies and considerations.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024

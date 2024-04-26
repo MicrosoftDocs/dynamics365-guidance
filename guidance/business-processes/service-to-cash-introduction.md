@@ -1,6 +1,6 @@
 ---
 title: Introduction to the service to cash end-to-end business process
-description: Get an introduction to an end-to-end business process, service to cash. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
+description: Get introduced to the service to cash end-to-end business process with an overview of the business process, key benefits, and stakeholders.
 ms.date: 06/29/2023
 ms.topic: conceptual
 author: edupont04

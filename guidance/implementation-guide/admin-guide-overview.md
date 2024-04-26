@@ -1,6 +1,6 @@
 ---
 title: What is the administration guide?
-description: Get started with best practices for how to administer Dynamics 365 solutions. 
+description: Learn about the administration guide through insights and best practices for data management, report and business intelligence, and other administrative tasks.
 author: edupont04
 ms.author: edupont
 ms.topic: overview #Required; don't change.

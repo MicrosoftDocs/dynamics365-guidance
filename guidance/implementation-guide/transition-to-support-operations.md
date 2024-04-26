@@ -1,6 +1,6 @@
 ﻿---
 title: Plan your support operations
-description: Learn how to prepare and practice your support operations for Dynamics 365 projects and avoid common pitfalls during the transition from project mode to support mode.
+description: Learn how to prepare your support operations for Dynamics 365 projects and avoid common pitfalls during the transition from project mode to support mode.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/31/2024

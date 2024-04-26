@@ -1,6 +1,6 @@
 ---
 title: Checklist for reporting and analytics
-description: Use this checklist to plan and execute a reporting and analytics strategy for your Dynamics 365 project that aligns with your business goals, data sources, and user needs.
+description: Use this checklist to plan and execute a reporting and analytics strategy for your Dynamics 365 project that aligns with your business goals and user needs.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024

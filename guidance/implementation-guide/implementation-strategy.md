@@ -1,6 +1,6 @@
 ---
 title: Plan an implementation strategy
-description: Learn how to define a clear and effective implementation strategy for Dynamics 365 that aligns with your vision, business drivers, success metrics, roles, budget, and methodology.
+description: Learn how to define a clear and effective implementation strategy for Dynamics 365 that aligns with your vision, business drivers, roles, budget, and methodology.
 author: edupont04
 ms.author: veneva
 ms.date: 01/05/2024

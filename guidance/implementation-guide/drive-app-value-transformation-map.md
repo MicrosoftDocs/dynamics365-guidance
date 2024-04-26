@@ -1,6 +1,6 @@
 ---
 title: Visualize and communicate digital transformation goals with a transformation map
-description: Learn about the transformation map that can help the business-focused digital transformation.
+description: Learn about how to visualize and communicate goals with the transformation map that can help the business-focused digital transformation.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024

@@ -1,6 +1,6 @@
 ﻿---
 title: Overview of acquire to dispose end-to-end business process flow
-description: Get an introduction to an end-to-end business process, acquire to dispose. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
+description: Learn about the acquire to dispose end-to-end business process with a high-level overview of the business process, key benefits, and stakeholders.
 ms.date: 11/28/2023
 ms.topic: conceptual
 author: edupont04

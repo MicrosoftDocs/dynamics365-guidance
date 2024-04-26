@@ -1,6 +1,6 @@
 ---
 title: Overview of the service to cash end-to-end business process flow
-description: Learn about the end-to-end business process, from service to cash. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the service to cash end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 03/24/2023
 ms.topic: conceptual
 author: edupont04

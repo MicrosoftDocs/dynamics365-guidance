@@ -1,6 +1,6 @@
 ﻿---
 title: Govern key project areas
-description: Learn how to apply good governance processes to key project areas of Dynamics 365 implementations, such as application lifecycle management, test strategies, data migration, integration, cutover, and training strategies.
+description: Learn how to apply good governance processes to key project areas of Dynamics 365 implementations, such as application lifecycle management and training strategies.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024

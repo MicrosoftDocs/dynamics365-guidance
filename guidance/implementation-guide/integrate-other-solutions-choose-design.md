@@ -1,6 +1,6 @@
 ---
 title: Choose the right design for your Dynamics 365 apps integration
-description: Learn how to choose the best design for your Dynamics 365 apps integration strategy.
+description: Learn how to choose the best design for your Dynamics 365 apps integration strategy, including outlines on UI integration and integration frameworks.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/25/2024
@@ -31,9 +31,9 @@ Data integration occurs at the data layer, with information exchanged or shared 
 
 | System 1 | | System 2 |
 |----------|-|---------|
-| UI Layer | | UI Layer
+| UI Layer | | UI Layer |
 | Process/Business logic | | Process/Business logic |
- | | Data integration | |
+| | Data integration | |
 
 Scenarios for data integration include synchronizing master or transactional data that isn't central to a single business process, sharing data for calculations or references, and reflecting actions from one system in another. Examples range from synchronizing marketing assets and bank account reconciliations to updating order statuses and exchange rates.
 

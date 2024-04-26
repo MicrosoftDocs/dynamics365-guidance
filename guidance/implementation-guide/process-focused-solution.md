@@ -1,6 +1,6 @@
 ---
 title: Implement a solution based on your business processes
-description: Learn why a process-focused approach is crucial for a successful Dynamics 365 implementation and how to use business process mapping and management to define and optimize your solution.
+description: Learn why a process-focused approach is crucial for a successful Dynamics 365 implementation and how to use business process mapping to optimize your solution.
 author: edupont04
 ms.author: veneva
 ms.date: 01/08/2024

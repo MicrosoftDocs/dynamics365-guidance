@@ -1,6 +1,6 @@
 ---
 title: Concept to market end-to-end business process for managing service lifecycles
-description: Get an introduction to an end-to-end business process, concept to market. This article provides a high-level overview of the business process, and lists key benefits and stakeholders.
+description: Get introduced to the concept to market end-to-end business process, including an overview of the business process, key benefits, and stakeholders.
 ms.date: 11/23/2023
 ms.topic: conceptual
 author: rachel-profitt

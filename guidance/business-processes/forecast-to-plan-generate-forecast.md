@@ -1,6 +1,6 @@
 ---
 title: Generate a forecast for future demand for products and services with demand forecasting
-description: Read about how generate a demand forecast in Dynamics 365 Supply Chain Management
+description: Learn about how generate a demand forecast in Dynamics 365 Supply Chain Management for future demand for products and services.
 ms.date: 08/22/2022
 ms.topic: conceptual
 author: rachel-profitt

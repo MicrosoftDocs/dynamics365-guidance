@@ -1,6 +1,6 @@
 ﻿---
 title: Introduction to inventory to deliver business process
-description: Get an introduction to an end-to-end business process, *inventory to deliver*. This article provides a high-level overview of the business process, and lists key benefits and stakeholders. 
+description: Get introduced to the inventory to deliver end-to-end business process with an overview of the business process, key benefits, and stakeholders.
 ms.date: 03/22/2023
 ms.topic: conceptual
 author: rachel-profitt

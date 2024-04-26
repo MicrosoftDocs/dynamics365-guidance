@@ -1,6 +1,6 @@
 ---
 title: Get product-specific guidance for your Dynamics 365 environment strategy
-description: Learn about the product-specific resources and considerations that apply to your environment strategy for Dynamics 365 finance and operations apps, customer engagement apps, and Power Platform.
+description: Learn about the product-specific resources and considerations that apply to your environment strategy for Dynamics 365 finance and operations apps.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/16/2024

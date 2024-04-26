@@ -1,6 +1,6 @@
 ﻿---
 title: Sign in to Dynamics 365 Implementation Portal
-description: Learn how to sign up and sign in to Dynamics 365 Implementation Portal.
+description: Learn how to sign up and sign in to Dynamics 365 Implementation Portal with a work account or a personal Microsoft account.
 ms.date: 03/27/2023
 ms.topic: how-to
 author: edupont04

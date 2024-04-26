@@ -1,6 +1,6 @@
 ---
 title: Overview of inventory to deliver end-to-end business process
-description: Learn about the end-to-end business process, from inventory to deliver. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the inventory to deliver end-to-end business process with a flow diagram and understand the relationship with other processes in Dynamics 365 solutions.
 ms.date: 12/08/2023
 ms.topic: conceptual
 author: rachel-profitt

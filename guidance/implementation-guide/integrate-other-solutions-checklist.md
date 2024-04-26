@@ -1,6 +1,6 @@
 ---
 title: Integration strategy checklist
-description: Get a thorough checklist to help Dynamics 365 implementation teams with their integration strategy.
+description: Get a thorough checklist to help Dynamics 365 implementation teams with their integration strategy, including checklists on defining goals and choosing a platform.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/26/2024

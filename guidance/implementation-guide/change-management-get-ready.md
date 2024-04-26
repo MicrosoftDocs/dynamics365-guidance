@@ -1,6 +1,6 @@
 ---
 title: Get organizations ready after user acceptance testing
-description: Read about the change manager's tasks during the final stages of the Dynamics 365 implementation project. Learn how to get users and their organization ready to use the solution.
+description: Read about the change manager's tasks during the final stages of the Dynamics 365 implementation project. Learn how to get organizations ready to use the solution.
 author: taksatoms
 ms.author: tsato
 ms.date: 06/19/2023

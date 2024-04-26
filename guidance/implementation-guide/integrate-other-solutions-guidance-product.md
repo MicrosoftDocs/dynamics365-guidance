@@ -1,6 +1,6 @@
 ---
 title: Integrate Dynamics 365 apps with other systems
-description: Learn about the different options and patterns for integrating Dynamics 365 apps with each other and with external systems, and how to choose the best one for your scenario.
+description: Learn about the different options and patterns for integrating Dynamics 365 apps with other systems, and how to choose the best one for your scenario.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/26/2024

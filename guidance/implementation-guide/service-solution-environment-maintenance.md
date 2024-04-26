@@ -1,6 +1,6 @@
 ﻿---
 title: Best practices for Dynamics 365 environment maintenance
-description: Learn how to plan and execute maintenance tasks for your Dynamics 365 environment, such as managing user access, security roles, data backup, restore, archiving, and deletion.
+description: Learn how to plan and execute maintenance tasks for your Dynamics 365 environment, such as managing user access, security roles, archiving, and deletion.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/30/2024

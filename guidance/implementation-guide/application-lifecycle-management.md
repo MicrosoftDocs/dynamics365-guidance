@@ -1,6 +1,6 @@
 ---
 title: Bring successful solutions to customers with application lifecycle management (ALM) strategies
-description: Get guidance for application lifecycle management (ALM) strategy and how end-to-end lifecycle management can provide improved visibility, automation, delivery, and future planning for your solution. We detail the steps to a successful ALM and what that looks like with Dynamics 365. We also provide information on the ALM workshop strategy.
+description: Get guidance for application lifecycle management (ALM) strategy and how end-to-end lifecycle management can improve your solution.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024

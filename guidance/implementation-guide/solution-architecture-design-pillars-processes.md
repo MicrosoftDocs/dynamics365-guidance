@@ -1,6 +1,6 @@
 ---
 title: Choose the right processes for your solution
-description: Learn how to define and improve your business processes for a successful solution.
+description: Learn how to define and improve your business processes for a successful solution, including an overview on dependent activities in the Processes pillar.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont

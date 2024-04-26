@@ -1,6 +1,6 @@
 ---
 title: Introduction to the design to retire end-to-end business process
-description: Get an introduction to an end-to-end business process, design to retire. This article provides a high-level overview of the business process, and lists key benefits and stakeholders.
+description: Get introduced to the design to retire end-to-end business process with an overview of the business process, key benefits, and stakeholders.
 ms.date: 11/27/2023
 ms.topic: conceptual
 author: rachel-profitt

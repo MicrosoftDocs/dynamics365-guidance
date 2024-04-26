@@ -1,6 +1,6 @@
 ﻿---
 title: Train users and increase adoption overview
-description: Learn why training users is vital for successful adoption of Dynamics 365 and explore the tools, processes, stakeholders, and benefits of effective training strategies.
+description: Learn why training users is vital for successful adoption of Dynamics 365 and explore the tools, processes, and benefits of effective training strategies.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: overview

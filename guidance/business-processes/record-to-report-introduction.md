@@ -1,6 +1,6 @@
 ﻿---
 title: Introduction to the record to report end-to-end business process
-description: Get an introduction to the record to report end-to-end business process. Learn how Dynamics 365 apps can help organizations manage and optimize their record to report processes.
+description: Get introduced to the record to report end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their record to report processes.
 ms.date: 04/05/2023
 ms.topic: conceptual
 author: edupont04

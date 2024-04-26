@@ -1,6 +1,6 @@
 ﻿---
 title: Overview of the record to report end-to-end business process
-description:  Learn about the end-to-end business process, from record to report. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the record to report end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
 ms.date: 11/10/2023
 ms.topic: conceptual
 author: edupont04

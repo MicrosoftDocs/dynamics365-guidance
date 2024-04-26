@@ -1,6 +1,6 @@
 ﻿---
 title: Define the support scope
-description: Learn how to plan the support model for your Dynamics 365 solution.
+description: Learn how to plan the support model for your Dynamics 365 solution, including overviews on enterprise achitecture and business and IT policies.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/31/2024

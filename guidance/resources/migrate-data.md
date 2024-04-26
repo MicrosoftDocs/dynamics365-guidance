@@ -1,6 +1,6 @@
 ---
 title: Migrate data as part of Dynamics 365 implementation projects
-description: You can migrate the data that you want to Dynamics 365. Here, we outline the tools and other guidance. The article is still very basic, but more content will be added throughout 2023. 
+description: Learn about how to migrate congiguration data and migrated data to Dynamics 365, including resources about finance and operations apps.
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.

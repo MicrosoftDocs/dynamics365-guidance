@@ -1,6 +1,6 @@
 ---
 title: Integrate your Dynamics 365 apps with other solutions
-description: Learn how to integrate your Dynamics 365 apps with other solutions, such as Dataverse, Power Platform, and Azure, with tips on choosing a platform, design, and pattern for your integration project.
+description: Learn how to integrate your Dynamics 365 apps with other solutions, with tips on choosing a platform, design, and pattern for your integration project.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024

@@ -1,6 +1,6 @@
 ---
 title: Plan your business-focused digital transformation and drive value by expanding your solution
-description: Learn how to use the Success by Design framework to map your business model, identify triggers for change, set goals, and prioritize processes for your digital transformation with Dynamics 365.
+description: Learn how to use the Success by Design framework to map your business model, set goals, and prioritize processes for your digital transformation with Dynamics 365.
 author: taksatoms
 ms.author: tsato
 ms.date: 01/11/2024

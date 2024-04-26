@@ -1,6 +1,6 @@
 ---
 title: Use Dynamics 365 products to plan and recruit your workforce
-description: Read about the business process area for planning and recruiting your workforce in Dynamics 365.
+description: Read about the business process area for planning and recruiting your workforce in Dynamics 365, including types of stakeholders and benefits.
 ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04

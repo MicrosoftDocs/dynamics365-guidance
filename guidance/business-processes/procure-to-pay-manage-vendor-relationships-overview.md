@@ -1,6 +1,6 @@
 ﻿---
 title: Manage vendor relationships overview
-description: Learn how to use Dynamics 365 to support your organization's business processes for managing vendors, including improving vendor performance and reducing procurement costs.
+description: Learn how to use Dynamics 365 to support your organization's business processes for managing vendors, including improving vendor performance.
 author: Pjagotra
 ms.author: pjagotra
 ms.topic: conceptual

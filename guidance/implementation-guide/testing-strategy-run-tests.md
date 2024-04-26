@@ -1,6 +1,6 @@
 ﻿---
 title: Run the tests for your Dynamics 365 solution
-description: Learn how to execute and track your tests throughout your Dynamics 365 implementation project.
+description: Learn how to execute and track your tests throughout your Dynamics 365 implementation project, including an outline on communicating test plans for test cycles.
 ms.date: 01/23/2024
 ms.topic: conceptual
 author: edupont04
