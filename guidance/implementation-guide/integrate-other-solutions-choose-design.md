@@ -29,7 +29,7 @@ UI integrations can include elements like a commodity price ticker, inventory le
 
 Data integration occurs at the data layer, with information exchanged or shared between systems. Unlike process integration, where a process starts in one system and continues in another, data integration involves both systems working with a representation of the same data.
 
-| System 1 | | System 2 |
+| System 1 |- | System 2 |
 |----------|-|---------|
 | UI Layer | | UI Layer |
 | Process/Business logic | | Process/Business logic |

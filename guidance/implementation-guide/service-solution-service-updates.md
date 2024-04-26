@@ -3,7 +3,7 @@ title: Stay current with Dynamics 365 service updates
 description: Learn about the types, cadence, and benefits of service updates for Dynamics 365, and how to plan, test, and deploy them in your environment.
 author: taksatoms
 ms.author: tsato
-ms.date: 01/30/2024
+ms.date: 04/26/2024
 ms.topic: conceptual
 ms.custom:
  - ai-seo-date: 01/30/2024
@@ -207,7 +207,7 @@ The following diagram shows two release waves, with public preview and early acc
 
 We recommend that you opt in early to test and apply the release. The releases are production-ready and fully supported even before the GA date. Activation for major updates is automatic through safe deployment processes for the region where your Dynamics 365 instance is, on the deployment dates specified for the region.
 
-Some Dynamics 365 apps have a different cadence from the major releases. For example, [Dynamics 365 Customer Insights - Journeys](/dynamics365/customer-insights/journeys/whats-new-marketing) has monthly updates. [Apps from AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365) might also have a different release cadence. Check with the vendor for any non-Microsoft apps you use.
+Some Dynamics 365 apps have a different cadence from the major releases. For example, [Dynamics 365 Customer Insights - Journeys](/dynamics365/customer-insights/journeys/whats-new-marketing) has monthly updates. [Apps from AppSource](https://appsource.microsoft.com/?product=dynamics-365) might also have a different release cadence. Check with the vendor for any non-Microsoft apps you use.
 
 ### Release readiness for customer engagement apps and Power Platform
 
