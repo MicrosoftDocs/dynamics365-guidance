@@ -43,11 +43,11 @@ A good MVP has the following characteristics:
 - It tests the hypothesis of a specific feature or solution delivering the expected business outcome and adjusts based on the results.
 - It creates the foundation for long-term success by supporting a "building block" mindset in which you keep adding without disrupting previous steps. For more information about the architectural skills to realize this approach, read the article [Solution architecture design pillars](solution-architecture-design-pillars.md).
 
-:::image type="content" source="media/drive-app-value-characteristics-mvp.png" alt-text="Diagram showing the characteristics of a good MVP.":::
+:::image type="content" source="media/drive-app-value-characteristics-mvp.png" alt-text="Diagram showing the characteristics of a good MVP." lightbox="media/drive-app-value-characteristics-mvp.png":::
 
 The MVP strategy works well for new implementations, but you can also use it for existing apps that are being replaced or migrated to another platform. You should consider the existing functionality to ensure parity, but you shouldn't try to mimic or replicate the experiences of the old app. You should focus your MVP strategy on delivering the most value to the business sooner without limiting the scope to essentials. An MVP with a broad scope that takes years to deliver is not an MVP.
 
-:::image type="content" source="media/drive-app-value-mvp-scope.png" alt-text="Diagram showing the scope of an MVP.":::
+:::image type="content" source="media/drive-app-value-mvp-scope.png" alt-text="Diagram showing the scope of an MVP." lightbox="media/drive-app-value-mvp-scope.png":::
 
 ## Next steps
 

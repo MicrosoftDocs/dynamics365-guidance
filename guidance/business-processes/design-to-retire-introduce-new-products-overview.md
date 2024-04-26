@@ -63,7 +63,7 @@ Many people across the organization should contribute to the decision-making pro
 
 The following diagram illustrates the Introduce new products business process area.
 
-:::image type="content" source="media\design-to-retire-introduce-new-products-overview.svg" alt-text="Diagram of the introduce new products process flow, connecting various business process areas.":::
+:::image type="content" source="media\design-to-retire-introduce-new-products-overview.svg" alt-text="Diagram of the introduce new products process flow, connecting various business process areas." lightbox="media\design-to-retire-introduce-new-products-overview.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 

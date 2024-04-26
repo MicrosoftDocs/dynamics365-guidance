@@ -36,7 +36,7 @@ The first step of the demand forecasting process is to gather historical data. T
 
 Once the forecast is generated, it is reviewed in Dynamics 365 and users can update the recommended values as needed. When the forecasting values are approved, a user can authorize the forecast which publishes it to the system for use in planning and other operations. The following graphic shows the process flow described above.
 
-:::image type="content" source="media/Generate-forecast-process.png" alt-text="Flow diagram with steps for the process of generating forecasts.":::
+:::image type="content" source="media/Generate-forecast-process.png" alt-text="Flow diagram with steps for the process of generating forecasts." lightbox="media/Generate-forecast-process.png":::
 
 <!--## Demand forecasting key metrics
 

@@ -44,7 +44,7 @@ You can choose from three main types of support models:
 
 You can also define different levels of support based on the complexity of the issues and the roles involved. The following diagram shows an example of how you can structure your support levels:
 
-:::image type="content" source="media/transition-to-support-models.png" alt-text="Diagram showing five levels of support, from first level (super users) to fifth level (Microsoft or ISV support).":::
+:::image type="content" source="media/transition-to-support-models.png" alt-text="Diagram showing five levels of support, from first level (super users) to fifth level (Microsoft or ISV support)." lightbox="media/transition-to-support-models.png":::
 
 ### First level
 

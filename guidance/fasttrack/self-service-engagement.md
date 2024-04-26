@@ -27,7 +27,7 @@ Use the feedback link that is present in each email.
 
 ## What emails will you receive?
 
-![The initiate, implement, prepare, and operate phases](media/proactive-guidance-phases.png "The initiate, implement, prepare, and operate phases")
+:::image type="content" source="media/proactive-guidance-phases.png" alt-text="The initiate, implement, prepare, and operate phases." lightbox="media/proactive-guidance-phases.png":::
 
 Our proactive guidance covers the phases described here.
 

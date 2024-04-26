@@ -141,7 +141,7 @@ There are product specific capabilities offered that interact with the *record t
 
 The following diagram shows the high-level flow of the *record to report* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/record-to-report-flow.svg"  lightbox="media/record-to-report-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
+:::image type="content" source="media/record-to-report-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/record-to-report-flow.svg":::
 
 The following steps are illustrated in the *record to report* end-to-end business process flow diagram.
 

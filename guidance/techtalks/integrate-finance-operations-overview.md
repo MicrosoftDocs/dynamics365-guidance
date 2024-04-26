@@ -18,19 +18,19 @@ We've based this article on [a TechTalk](https://youtu.be/tUMEZlEKjEQ?si=v2IXcIM
 
 ## Exploring synchronous integrations
 
-![A visual overview for integration components, showing the map of finance and operations Apps and Dataverse options.](media\integration-patterns-dynamics365-finance-operations-2.svg)
+:::image type="content" source="media\integration-patterns-dynamics365-finance-operations-2.svg" alt-text="A visual overview for integration components, showing the map of finance and operations Apps and Dataverse options." lightbox="media\integration-patterns-dynamics365-finance-operations-2.svg":::
 
 In the realm of Dynamics 365, synchronous integrations stand out for their ability to provide real-time data exchanges. Key to these integrations is the OData RESTful Web Service, widely used for standard integrations such as the Excel Add-in. This service functions as an abstraction layer, enabling Create, Read, Update, Delete operations, and business logic actions. Alongside this, Custom Services play a crucial role, particularly in transitioning from older Dynamics versions. These services, available in SOAP/XML and RESTful/JSON formats, cater to the need for real-time data interaction.
 
 ## The world of asynchronous integrations
 
-![A spreadsheet and diagram that outlines D M F package A P I s, including the process for importing A P I s.](media\integration-patterns-dynamics365-finance-operations-3.svg)
+:::image type="content" source="media\integration-patterns-dynamics365-finance-operations-3.svg" alt-text="A spreadsheet and diagram that outlines D M F package A P I s, including the process for importing A P I s." lightbox="media\integration-patterns-dynamics365-finance-operations-3.svg":::
 
 Asynchronous integrations in Dynamics 365 cater to scenarios where immediate response isn't critical, mainly handling large data volumes. The Data Management Framework (DMF) within these applications offers robust tools for both data import and export. This framework supports various data formats and protocols, making it a versatile choice for asynchronous data handling. Complementing the DMF is the Events Framework, which enables applications to react to various triggers through business and data events. This framework is integral in orchestrating efficient integration across various business processes.
 
 ## Hybrid solutions and advanced services
 
-![A description and illustration for Azure Synapse Link and finance and operations applications.](media\integration-patterns-dynamics365-finance-operations-4.svg)
+:::image type="content" source="media\integration-patterns-dynamics365-finance-operations-4.svg" alt-text="A description and illustration for Azure Synapse Link and finance and operations applications." lightbox="media\integration-patterns-dynamics365-finance-operations-4.svg":::
 
 Beyond the standard integration patterns, Dynamics 365 finance and operations also embrace hybrid solutions. These solutions blend the functionalities of on-premises systems with cloud capabilities, offering a comprehensive approach to modern business needs. Furthermore, advanced services like Azure Synapse Link enhance the integration capabilities, especially in areas such as analytics and data warehousing. Such services are instrumental in facilitating a seamless flow of information across different platforms and systems.
 

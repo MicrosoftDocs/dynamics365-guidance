@@ -36,7 +36,7 @@ To help companies reinvent their businesses and thrive in the predictive era, Mi
 
 With everything as a source of data and potential insight, our goal is simple: Help customers take the right action at the right time with the right message in the right channel to achieve the right business outcome. We call this the digital feedback loop: Organizations tap into data signals from across their business, which drive ongoing improvements in the products, services, and experiences they deliver to their customers, who respond to these improvements, fueling a self-reinforcing cycle.
 
-:::image type="content" source="media/digitalfeedbackloop.png" alt-text="Diagram illustrating the digital feedback loop with data and AI in the middle and spin-offs for 'empower people,' 'transform products,' 'optimize operations,' and 'engage customers.'":::
+:::image type="content" source="media/digitalfeedbackloop.png" alt-text="Diagram illustrating the digital feedback loop with data and AI in the middle and spin-offs for 'empower people,' 'transform products,' 'optimize operations,' and 'engage customers.'" lightbox="media/digitalfeedbackloop.png":::
 
 ## Dynamics 365: Cloud-based apps for holistic, unified digital transformation
 

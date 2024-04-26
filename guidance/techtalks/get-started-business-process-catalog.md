@@ -12,7 +12,7 @@ ai-usage: ai-assisted
 
 Welcome to a comprehensive exploration of the business process catalog. This guide is designed to provide an in-depth understanding of the catalog, particularly focusing on how you can use the catalog for a Dynamics 365 implementation project.
 
-![Screenshot of the Why are business process important? presentation slide, outlining six key points.](media\introduction-to-the-business-process-catalog-part-2-2.svg)
+:::image type="content" source="media\introduction-to-the-business-process-catalog-part-2-2.svg" alt-text="Screenshot of the Why are business process important? presentation slide, outlining six key points." lightbox="media\introduction-to-the-business-process-catalog-part-2-2.svg":::
 
 The business process catalog serves as a critical tool for organizations aiming to enhance their processes through Dynamics 365. It presents a systematically organized collection of business processes, emphasizing various aspects such as efficiency, productivity, consistency, quality, cost reduction, risk management, scalability, and data-driven decision-making.
 
@@ -22,7 +22,7 @@ We've based this article on [a TechTalk](https://youtu.be/qQEXxr6i6Tc?si=_aEnV-n
 
 ## Understanding the catalog's structure
 
-![Screenshot of the business process catalog presentation slide, outlining objectives, sessions, contributors, and more.](media\introduction-to-the-business-process-catalog-part-2-3.svg)
+:::image type="content" source="media\introduction-to-the-business-process-catalog-part-2-3.svg" alt-text="Screenshot of the business process catalog presentation slide, outlining objectives, sessions, contributors, and more." lightbox="media\introduction-to-the-business-process-catalog-part-2-3.svg":::
 
 The catalog is structured to provide an exhaustive view of business operations, categorizing them into 15 end-to-end processes. Each of these processes is further subdivided into specific areas and individual processes, thus offering a detailed and organized approach.
 
@@ -38,7 +38,7 @@ The catalog is structured to provide an exhaustive view of business operations, 
 
 ## Utilizing the catalog for maximum benefit
 
-![Screenshot of the What does the catalog contain? presntation slide, containing the work item type, business processes, sequence, and state categories.](media\introduction-to-the-business-process-catalog-part-2-4.svg)
+:::image type="content" source="media\introduction-to-the-business-process-catalog-part-2-4.svg" alt-text="Screenshot of the What does the catalog contain? presntation slide, containing the work item type, business processes, sequence, and state categories." lightbox="media\introduction-to-the-business-process-catalog-part-2-4.svg":::
 
 Accessing and using the catalog is straightforward. It's available in formats like Excel and CSV, making it versatile for different user preferences. Download the catalog at [https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog)
 

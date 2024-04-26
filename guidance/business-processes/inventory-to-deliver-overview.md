@@ -16,9 +16,9 @@ This article provides a high-level flow diagram and an overview for each of the 
 
 ## Inventory to deliver process relationship
 
-The following diagram shows the relationship of other processes and products/features for the *inventory to deliver* process.
+The following diagram shows the relationship of other processes and products/features for the *inventory to deliver* process. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/inventory-to-deliver-relationship.svg" lightbox="media/inventory-to-deliver-relationship.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/inventory-to-deliver-relationship.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-relationship.svg":::
 
 The upstream processes for the *inventory to deliver* process include the following.
 
@@ -144,7 +144,7 @@ There are product-specific capabilities that interact with the *inventory to del
 
 The following diagram shows the high-level flow of the *inventory to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/inventory-to-deliver-flow.svg"  lightbox="media/inventory-to-deliver-flow.svg" alt-text="Inventory to deliver end-to-end process flow diagram":::
+:::image type="content" source="media/inventory-to-deliver-flow.svg" alt-text="Inventory to deliver end-to-end process flow diagram" lightbox="media/inventory-to-deliver-flow.svg":::
 
 The following steps are illustrated in the *inventory to deliver* end-to-end business process flow diagram.
 

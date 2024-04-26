@@ -97,7 +97,7 @@ You can use tools like [Azure DevOps](/azure/devops/?view=azure-devops&preserve-
 
 The following figure shows an example of a test case:
 
-:::image type="content" source="media/testing-strategy-test-case.png" alt-text="Example of a test case, showing the process to test, requirements and prerequisites, steps, data, and expected versus actual results.":::
+:::image type="content" source="media/testing-strategy-test-case.png" alt-text="Example of a test case, showing the process to test, requirements and prerequisites, steps, data, and expected versus actual results." lightbox="media/testing-strategy-test-case.png":::
 
 ## Align the test plan with the solution versions
 

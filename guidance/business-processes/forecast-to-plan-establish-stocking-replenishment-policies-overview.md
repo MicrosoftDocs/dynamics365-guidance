@@ -38,7 +38,7 @@ The following diagram shows the business processes in the *establish stocking an
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/forecast-to-plan-establish-stock-policies-flow.SVG" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/forecast-to-plan-establish-stock-policies-flow.SVG" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/forecast-to-plan-establish-stock-policies-flow.SVG":::
 
 The following steps are illustrated in the *establish stocking and replenishment policies* business process flow diagram.
 

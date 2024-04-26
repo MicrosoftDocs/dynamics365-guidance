@@ -52,13 +52,13 @@ By using this approach, you can benefit from:
 
 The benefits of staying within the standard product wherever possible are clear. Implementations that follow this approach, often called vanilla implementations, adopt the Dynamics 365 system with its standard configuration.
 
-:::image type="content" source="media/process-focused-image3.png" alt-text="Diagram of an example of an end-to-end process for purchasing.":::
+:::image type="content" source="media/process-focused-image3.png" alt-text="Diagram of an example of an end-to-end process for purchasing." lightbox="media/process-focused-image3.png":::
 
 ## Fit-gap analysis
 
 Fit-gap analysis is a method to identify the gaps between your business needs and the standard processes in Dynamics 365. It helps you decide how to fill those gaps with customizations or extensions. You should do a fit-gap analysis after you complete the fit-to-standard analysis and configuration.
 
-:::image type="content" source="media/process-focused-image4.png" alt-text="Diagram of an example of a gap in an end-to-end process for receiving a purchase order.":::
+:::image type="content" source="media/process-focused-image4.png" alt-text="Diagram of an example of a gap in an end-to-end process for receiving a purchase order." lightbox="media/process-focused-image4.png":::
 
 In some cases, you might have specialized or innovative processes that aren't part of the standard solution, but that add business value and give you a competitive edge in the market. In these cases, you might want to customize or extend your solution to meet your needs.
 
@@ -77,7 +77,7 @@ Another way to fill the gaps in your solution is to buy a solution from a partne
 
 ISV solutions tend to focus on more specialized or industry-specific processes that add value to your business. They also have expertise and experience in the vertical industry processes they cover. You can find many ISV solutions in the marketplace that work with Dynamics 365.
 
-:::image type="content" source="media/process-focused-image5.png" alt-text="Diagram of an example of an ISV solution that adds taxes to an end-to-end purchase order process.":::
+:::image type="content" source="media/process-focused-image5.png" alt-text="Diagram of an example of an ISV solution that adds taxes to an end-to-end purchase order process." lightbox="media/process-focused-image5.png":::
 
 Dynamics 365 is designed to meet standard business processes, but it also has the flexibility to customize and integrate external applications. You can use a combination of standard, customized, and partner solutions to build an optimal solution for your needs. Using the business process catalog and maps can help you communicate and collaborate with your project team, implementation partner, citizen developers, professional developers, and ISV vendors.
 

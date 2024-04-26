@@ -132,7 +132,7 @@ There are product specific capabilities offered that interact with the *acquire 
 
 The following diagram shows the high-level flow of the *acquire to dispose* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/acquire-to-dispose-flow.svg"  lightbox="media/acquire-to-dispose-flow.svg" alt-text="*Acquire to dispose* business end-to-end process flow diagram":::
+:::image type="content" source="media/acquire-to-dispose-flow.svg" alt-text="*Acquire to dispose* business end-to-end process flow diagram" lightbox="media/acquire-to-dispose-flow.svg":::
 
 The following steps are illustrated in the *acquire to dispose* end-to-end business process flow diagram.
 

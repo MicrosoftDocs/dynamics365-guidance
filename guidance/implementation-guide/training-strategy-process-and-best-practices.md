@@ -118,7 +118,7 @@ The [Dynamics 365 documentation on Microsoft Learn](/dynamics365/) is the primar
 
 In the Dynamics 365 client, new users can enter the Help system to read articles that are pulled from the [Dynamics 365 part of Microsoft Learn](/dynamics365/). In addition, they can find task guides from the Business process modeler (BPM) in Microsoft Dynamics Lifecycle Services. Help is contextualized to the page that the user is on. For example, if a user is on a sales order page and wants to know how to create sales orders, the Help system shows the Microsoft Learn articles and task guides that are related to sales orders.
 
-:::image type="content" source="media/training-help-pane-ops-help.png" alt-text="Help pane.":::
+:::image type="content" source="media/training-help-pane-ops-help.png" alt-text="Help pane." lightbox="media/training-help-pane-ops-help.png":::
 
 ### Task guides
 
@@ -126,13 +126,13 @@ Task recorder and task guides are useful help and training features. You can use
 
 A task guide is a controlled, guided, interactive experience that leads you through the steps of a task or business process. You can open (or play) a task guide from the Help pane. When you select a task guide, the Help pane shows the step-by-step instructions for the task.
 
-:::image type="content" source="media/training-task-guide-ops.png" alt-text="Task guide steps in the Help pane.":::
+:::image type="content" source="media/training-task-guide-ops.png" alt-text="Task guide steps in the Help pane." lightbox="media/training-task-guide-ops.png":::
 
 Localized task guides are available, and you can create custom task guides. The data that you enter in the system is saved in the environment.
 
 To begin the guided, interactive experience, select **Start Task guide** at the bottom of the Help pane. A black pointer shows you where to go first. Follow the instructions that appear in the UI, and enter data as directed.
 
-:::image type="content" source="media/training-task-guide-step-1-ops.png" alt-text="Step in the guided, interactive experience.":::
+:::image type="content" source="media/training-task-guide-step-1-ops.png" alt-text="Step in the guided, interactive experience." lightbox="media/training-task-guide-step-1-ops.png":::
 
 > [!NOTE]
 > As you're choosing the appropriate tier for the environment, consider the number of concurrent users of the training environment. Don't automatically select the default tier 2 environment if the volume of expected users exceeds the recommended volume for the tier. Learn more about the different environment tiers in [Selecting the right environment for your organization](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#selecting-the-correct-tier-2-or-higher-environment).

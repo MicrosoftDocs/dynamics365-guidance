@@ -57,7 +57,7 @@ Process architecture includes several dependent activities:
 
   As part of the process, data goes in as input exchanged between people and applications, and data goes out as output in the form of documents, analysis, and reports.
 
-  :::image type="content" source="media/solution-architecture-design-bubbles.png" alt-text="Diagram showing four interlocking circles to illustrate the idea that solution design (the center circle) encompasses people, data, processes.":::
+  :::image type="content" source="media/solution-architecture-design-bubbles.png" alt-text="Diagram showing four interlocking circles to illustrate the idea that solution design (the center circle) encompasses people, data, processes." lightbox="media/solution-architecture-design-bubbles.png":::
 
 - **Test management**: After the solution is designed and developed, the process architecture establishes a baseline for testing. When you test every process, you ensure that every requirement is addressed and the solution is appropriate. Learn more at [Testing strategy](testing-strategy.md).
 
@@ -67,11 +67,11 @@ Process architecture includes several dependent activities:
 
 **Process architecture map**: A visual presentation of your business processes.
 
-  :::image type="content" source="media/processarchitecturemap.png" alt-text="Diagram of a process architecture map in the form of a simplified Kanban board.":::
+  :::image type="content" source="media/processarchitecturemap.png" alt-text="Diagram of a process architecture map in the form of a simplified Kanban board." lightbox="media/processarchitecturemap.png":::
 
 **Process catalog or inventory and taxonomy**: A sequenced list of the processes, uploaded to Microsoft Dynamics Lifecycle Services (LCS) and synchronized with Azure DevOps Services.
 
-  :::image type="content" source="media/spreadsheet.png" alt-text="A table with no content provided as an example of a process catalog or inventory and taxonomy.":::
+  :::image type="content" source="media/spreadsheet.png" alt-text="A table with no content provided as an example of a process catalog or inventory and taxonomy." lightbox="media/spreadsheet.png":::
 
 **Linear and cross-functional process flows**: These flows show the input, output, and activities at process and subprocess levels to help you figure out how to change a process to meet requirements. You can add details such as assumptions, metrics, timelines, and costs.
 
@@ -85,11 +85,11 @@ Process architecture includes several dependent activities:
 
 **Requirements traceability matrix**: Links requirements throughout the validation process, and is a key deliverable for requirements management.
 
-  :::image type="content" source="media/rtm.png" alt-text="Two overlapping tables with no content, and an arrow pointing from the bottom table to the top table, illustrating a simplified requirements traceability matrix.":::
+  :::image type="content" source="media/rtm.png" alt-text="Two overlapping tables with no content, and an arrow pointing from the bottom table to the top table, illustrating a simplified requirements traceability matrix." lightbox="media/rtm.png":::
 
 **Fit gap assessment**: At this point, you mark which requirements and respective processes the system will address, and which ones require customization.
 
-  :::image type="content" source="media/spreadsheet.png" alt-text="A table with no content provided as an example of a fit gap assessment.":::
+  :::image type="content" source="media/spreadsheet.png" alt-text="A table with no content provided as an example of a fit gap assessment." lightbox="media/spreadsheet.png":::
 
 ## Next steps
 

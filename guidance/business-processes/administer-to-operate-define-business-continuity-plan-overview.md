@@ -58,6 +58,8 @@ The following diagram shows the *Define business continuity plan* process area.
 
 :::image type="content" source="media\administer-to-operate-define-business-continuity-plan-overview-1.svg" alt-text="Diagram of the define business continuity plan business process area, showing the connection between business processes under Administer to operate." lightbox="media\administer-to-operate-define-business-continuity-plan-overview-1.svg":::
 
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+
 1. Start
 
     A parallel branch from Start connects to the *Forecast to plan* end-to-end process, which connects to *Define strategic and operational plans*, which also connects to *Define business continuity objectives*.

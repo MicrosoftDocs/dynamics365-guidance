@@ -22,7 +22,7 @@ The Dynamics 365 guidance hub is your gateway to a wealth of Dynamics 365 resour
 
 ## Key features of the Dynamics 365 guidance hub
 
-![Screenshot of the What can you find there? presentation slide, outlining new resource and existing resources.](media\introduction-to-the-business-process-catalog-part-1-2.svg)
+:::image type="content" source="media\introduction-to-the-business-process-catalog-part-1-2.svg" alt-text="Screenshot of the What can you find there? presentation slide, outlining new resource and existing resources." lightbox="media\introduction-to-the-business-process-catalog-part-1-2.svg":::
 
 The guidance hub is equipped with a plethora of resources, including:
 
@@ -40,7 +40,7 @@ The hub's interface is user-friendly and intuitive, allowing easy navigation. Yo
 
 ## Engaging with the community
 
-![Screenshot of the Give feedback and make edits presentation slide, outlining process for providing feedback and edits.](media\introduction-to-the-business-process-catalog-part-1-3.svg)
+:::image type="content" source="media\introduction-to-the-business-process-catalog-part-1-3.svg" alt-text="Screenshot of the Give feedback and make edits presentation slide, outlining process for providing feedback and edits." lightbox="media\introduction-to-the-business-process-catalog-part-1-3.svg":::
 
 The Dynamics 365 community is encouraged to participate in the enrichment of the guidance hub. This includes:
 

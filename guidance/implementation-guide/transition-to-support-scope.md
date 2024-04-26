@@ -53,7 +53,7 @@ The impact of and on the surrounding architecture can be hard for the customer p
 
 All organizations need to think about how new systems will work within their policies and standards. When you introduce Dynamics 365 into your enterprise, it needs to follow existing policies and standards that apply, and you might need some new policies for it. In either case, you need to review the existing policies and standards to decide which ones to add, change, or apply to your support model.
 
-:::image type="content" source="media/transition-to-support-scope.png" alt-text="Diagram of support policies and standards hierarchy, showing group and company policies, Dynamics 365 app policies, and Dynamics 365 security and access policies.":::
+:::image type="content" source="media/transition-to-support-scope.png" alt-text="Diagram of support policies and standards hierarchy, showing group and company policies, Dynamics 365 app policies, and Dynamics 365 security and access policies." lightbox="media/transition-to-support-scope.png":::
 
 In many cases, the policies apply not only to creating the support model and its scope of responsibility, but also to how it works as an organization and how it handles the lifecycle of a support request.
 

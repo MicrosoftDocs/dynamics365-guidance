@@ -42,7 +42,7 @@ Many people across the organization should contribute to the decision-making pro
 
 The following diagram illustrates the *manage employee performance and growth* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\hire-to-retire-manage-employee-performance-growth-1.svg" alt-text="Diagram of the map of the manage employee performance and growth business process area, connecting various business processes.":::
+:::image type="content" source="media\hire-to-retire-manage-employee-performance-growth-1.svg" alt-text="Diagram of the map of the Manage employee performance and growth business process area, connecting various business processes." lightbox="media\hire-to-retire-manage-employee-performance-growth-1.svg":::
 
 1. Start
 2. *Hire to retire*

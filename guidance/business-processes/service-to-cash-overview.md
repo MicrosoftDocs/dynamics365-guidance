@@ -19,7 +19,7 @@ This article describes the *service to cash* end-to-end business process flow an
 
 ## Service to cash process relationship
 
-The following diagram shows the relationship of other processes to the *service to cash process*.
+The following diagram shows the relationship of other processes to the *service to cash process*. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/service-to-cash-relationship.png" alt-text="forecast to plan process relationship diagram." lightbox="media/service-to-cash-relationship.png":::
 

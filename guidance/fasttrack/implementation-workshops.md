@@ -13,8 +13,7 @@ author: ReneeW-CPub
 
 Implementation workshops provide timely guidance across the functional, technical, and implementation aspects of the solution.
 
-![Components of the implementation workshop.](media/strategy1.png "Components of the implementation workshop")
-
+:::image type="content" source="media/strategy1.png" alt-text="Components of the implementation workshop." lightbox="media/strategy1.png":::
 
 ## Data migration strategy
 Best practices to avoid data migration performance issues, understanding of business goals, and awareness on realistic throughput.

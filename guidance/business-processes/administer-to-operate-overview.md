@@ -49,7 +49,7 @@ The third column in the diagram displays the downstream business process includi
 
 The following diagram shows the high-level flow of the *administer to operate* business process. The diagram includes a Start and Stop oval at the top and bottom respectively. Around the outside of the graphic are the 14 end-to-end processes arranged alphabetically. Directly below the start box, is the *administer to operate* end-to-end process and all of the business process areas are shown below in the blue boxes. Two large blue arrows are shown around the outside of the business process areas to indicate the processes are cyclical. All 14 end-to-end processes are upstream to *administer to operate* because these business processes inform the decision to implement a new technology solution. All 14 end-to-end processes are downstream to *administer to operate* because the technology supports those processes.
 
-:::image type="content" source="media\administer-to-operate-overview-2.svg" alt-text="Diagram of the Administer to operate's contained business processes, with arrows connecting the Administer to operate process and the end of the process.":::
+:::image type="content" source="media\administer-to-operate-overview-2.svg" alt-text="Diagram of the Administer to operate's contained business processes, with arrows connecting the Administer to operate process and the end of the process." lightbox ="media\administer-to-operate-overview-2.svg":::
 
 ## Next steps
 

@@ -37,7 +37,7 @@ There's collaboration with multiple departments in an organization when defining
 
 ## Define procurement and sourcing strategy process flow 
 
-The following diagram illustrates the *define procurement and sourcing strategy* business process area. The solid blue rectangle represents the business process area. The diagram shows the subprocesses for the business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
+The following diagram illustrates the *define procurement and sourcing strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media\procure-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the define procurement and sourcing strategy business process area, showing the connection between the Procure to pay business processes." lightbox="media\procure-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
 

@@ -130,7 +130,7 @@ Deployment rings are a technique that's used to reduce any risk associated with 
 
 As Dynamics 365 updates are created each month, they move through a series of rings. Each ring provides wider exposure and usage and validation through system telemetry, as shown in the following diagram:
 
-:::image type="content" source="media/deploymentpracticefno.png" alt-text="Diagram of deployment rings for Dynamics 365 finance and operations apps updates, from Microsoft Internal to General Availability." :::
+:::image type="content" source="media/deploymentpracticefno.png" alt-text="Diagram of deployment rings for Dynamics 365 finance and operations apps updates, from Microsoft Internal to General Availability." lightbox="media/deploymentpracticefno.png":::
 
 The GA update benefits from extensive Microsoft testing and validation through each of the previous rings.
 
@@ -177,7 +177,7 @@ When Microsoft rolls out major and minor releases, Dynamics 365 follows a series
 
 For customer engagement apps and Power Platform releases and updates, we use a station-based deployment plan, as shown in the following diagram:
 
-:::image type="content" source="media/deploymentpracticece.png" alt-text="Diagram of deployment stations for customer engagement app and Power Platform updates, from Station 1 to Station 6.":::
+:::image type="content" source="media/deploymentpracticece.png" alt-text="Diagram of deployment stations for customer engagement app and Power Platform updates, from Station 1 to Station 6." lightbox="media/deploymentpracticece.png":::
 
 After thorough internal integration tests and validations, customer engagement apps and Power Platform updates are rolled out to Station 1. This first release station includes select customers and production-like environments. This is set up for early validation testing of the service update before it's rolled out to customer production environments. Based on the pass rate of the first release, the service update is rolled out to the customer environments in Stations 2&ndash;6.
 
@@ -203,7 +203,7 @@ Customers get two major updates per year, in the April and October GA releases. 
 
 The following diagram shows two release waves, with public preview and early access available two months before the GA date:
 
-:::image type="content" source="media/cereleasecadence.png" alt-text="Diagram showing the release cadence for customer engagement apps and Power Platform updates." :::
+:::image type="content" source="media/cereleasecadence.png" alt-text="Diagram showing the release cadence for customer engagement apps and Power Platform updates." lightbox="media/cereleasecadence.png":::
 
 We recommend that you opt in early to test and apply the release. The releases are production-ready and fully supported even before the GA date. Activation for major updates is automatic through safe deployment processes for the region where your Dynamics 365 instance is, on the deployment dates specified for the region.
 

@@ -30,9 +30,9 @@ Many people in your organization should help with the decision-making and design
 
 ## Manage service resources process flow
 
-The following diagram shows the *Manage service resources* business process area.
+The following diagram shows the *Manage service resources* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\service-to-cash-manage-service-resources-1.svg" alt-text="Diagram of the Manage service resources business process area, showing the connection between various business process areas.":::
+:::image type="content" source="media\service-to-cash-manage-service-resources-1.svg" alt-text="Diagram of the Manage service resources business process area, showing the connection between various business process areas." lightbox="media\service-to-cash-manage-service-resources-1.svg":::
 
 The flow diagram for the manage service resources business process area has these steps:
 

@@ -16,9 +16,9 @@ This article describes the *plan to produce* end-to-end business process flow an
 
 ## Plan to produce process relationship
 
-The following diagram shows the relationship of other processes and products/features for the *plan to produce* process.
+The following diagram shows the relationship of other processes and products/features for the *plan to produce* process. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/plan-to-produce-process.svg" lightbox="media/plan-to-produce-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/plan-to-produce-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/plan-to-produce-process.svg":::
 
 The upstream processes for the *plan to produce* process include the following list:
 

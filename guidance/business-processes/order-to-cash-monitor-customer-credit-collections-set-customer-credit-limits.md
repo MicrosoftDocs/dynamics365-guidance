@@ -35,9 +35,9 @@ Many people in an organization should contribute to the decision-making process 
 
 ## Set customer credit limits process flow
 
-The following diagram illustrates the business process.
+The following diagram illustrates the business process. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/order-to-cash-set-customer-credit-limits-process-flow.svg" alt-text="Set customer credit limit process flow diagram.":::
+:::image type="content" source="media/order-to-cash-set-customer-credit-limits-process-flow.svg" alt-text="Set customer credit limit process flow diagram." lightbox="media/order-to-cash-set-customer-credit-limits-process-flow.svg":::
 
 The process flow diagram includes the following steps.
 

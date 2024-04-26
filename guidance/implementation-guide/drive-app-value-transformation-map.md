@@ -22,7 +22,7 @@ One of the challenges of digital transformation is to prioritize and communicate
 
 A transformation map can help you with these questions. It's a tool that shows how your app features and changes relate to your transformation objectives and your competitive advantage.
 
-:::image type="content" source="media/drive-app-value-transformation-map.png" alt-text="A transformation map with four quadrants: essential, differentiator, innovator, and ahead of time." :::
+:::image type="content" source="media/drive-app-value-transformation-map.png" alt-text="A transformation map with four quadrants: essential, differentiator, innovator, and ahead of time." lightbox="media/drive-app-value-transformation-map.png":::
 
 You can customize the four quadrants of the transformation map to match your own goals and ambitions for your process, or use the template we provide here. Plot all the features, changes, and cloud product capabilities on the map. This way, you can assess the current state and the desired state of your business process implementation.
 

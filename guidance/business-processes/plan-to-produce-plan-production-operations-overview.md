@@ -32,7 +32,7 @@ Many people across the organization should contribute to the decision-making pro
 
 The following diagram illustrates the plan production operations business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/plan-to-produce-plan-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image.":::
+:::image type="content" source="media/plan-to-produce-plan-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image." lightbox="media/plan-to-produce-plan-production-flow.svg":::
 
 The flow diagram covers the following steps.
 
