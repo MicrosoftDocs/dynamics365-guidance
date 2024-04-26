@@ -29,3 +29,4 @@ The Solution Blueprint Review workshop covers the following topics:
 
 Solution architects, functional leads, and technical leads are required to attend these workshops. Key stakeholders from the customer and partner teams are recommended to attend.
 
+Learn more at [Design a solution architecture that works for you](../implementation-guide/solution-architecture-design-pillars.md)

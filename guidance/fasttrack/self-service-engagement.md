@@ -11,7 +11,7 @@ author: ReneeW-CPub
 
 # Proactive guidance for self-service engagements
 
-One of the core goals of Microsoft FastTrack for Dynamics 365 finance and operations apps teams is to enable project teams to run implementations successfully and have a smooth launch. With this goal in mind, we provide proactive implementation guidance to the implementation team via emails. These emails contain core recommended guidance on the activities that take place typically in the current phase of your project. Proactive guidance emails will be sent to self-service project team members. 
+One of the core goals of Microsoft FastTrack for Dynamics 365 finance and operations apps teams is to enable project teams to run implementations successfully and have a smooth launch. With this goal in mind, we provide proactive implementation guidance to the implementation team via emails. These emails contain core recommended guidance on the activities that take place typically in the current phase of your project. Proactive guidance emails are sent to self-service project team members. 
 
 ## Who will receive these emails? 
 
@@ -32,18 +32,21 @@ Use the feedback link that is present in each email.
 Our proactive guidance covers the phases described here.
 
 ### Initiate
+
 This phase comprises the period that starts with Lifecycle Services project creation until Lifecycle Services project onboarding is finalized. 
 
 - **FastTrack project onboarding follow-ups**: Onboarding follow-ups relate to two emails that are only triggered in case:
  
-  - Lifecycle Services onboarding is not completed in the first 7 days after Lifecycle Services project creation. 
-  - Lifecycle Services onboarding is still not completed 14 days after Lifecycle Services project creation (final reminder).  
+  - Lifecycle Services onboarding isn't completed in the first seven days after Lifecycle Services project creation. 
+  - Lifecycle Services onboarding is still not completed 14 days after Lifecycle Services project creation (final reminder).
+  
+  Learn more at [Implement Dynamics 365 projects with effective governance](../implementation-guide/project-governance.md).
 
 ### Implement
 
 This phase comprises the period that starts right after project onboarding is finalized (initiate phase) and lasts until the project goes live (operate phase). In implement phase emails, we provide most FastTrack recommendations for the success of your implementation.
 
-- **Analysis**: This phase is generally the starting point of the project, when the team is understanding or defining business processes and evaluating the features or processes available in the product out of the box. The analysis phase email is sent 7 days after your project onboarding is completed. It covers these topics: 
+- **Analysis**: This phase is generally the starting point of the project, when the team is understanding or defining business processes and evaluating the features or processes available in the product out of the box. The analysis phase email is sent seven days after your project onboarding is completed. It covers these topics: 
   - Where to learn about the product 
   - Business Process Modeler (BPM) and Azure DevOps
   - How to collaborate with FastTrack 
