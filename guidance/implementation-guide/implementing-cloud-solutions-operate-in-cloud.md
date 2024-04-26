@@ -1,5 +1,5 @@
 ---
-title:  Operate in the cloud with Dynamics 365
+title: Operate in the cloud with Dynamics 365
 description: Learn how to run your business smoothly and efficiently in the cloud and take advantage of service updates and enhancements.
 author: taksatoms
 ms.author: tsato

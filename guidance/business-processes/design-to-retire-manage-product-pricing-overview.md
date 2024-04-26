@@ -1,5 +1,5 @@
 ﻿---
-title: Manage product pricing overview
+title: Manage and define product pricing overview
 description: Learn about the manage product pricing business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit

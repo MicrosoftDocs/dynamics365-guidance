@@ -1,5 +1,5 @@
 ﻿---
-title: Create a test plan
+title: Create a test plan for your implementation projects
 description: Learn how to design a test plan for your Dynamics 365 solution that covers the scope, types, cycles, and outcomes of testing.
 ms.date: 01/23/2024
 ms.topic: conceptual

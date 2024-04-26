@@ -1,5 +1,5 @@
 ---
-title: Introduction to Success by Design 
+title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
 ms.date: 03/24/2023
 ms.topic: conceptual

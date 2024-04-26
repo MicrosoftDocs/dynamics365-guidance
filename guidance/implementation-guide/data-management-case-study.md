@@ -1,5 +1,5 @@
 ﻿---
-title: Case study in data management
+title: Case study in data management for Dynamics 365 solution
 description: Read a case study about a travel company that moved from a system with fragmented customer data to a Dynamics 365 solution with a unified, secure data foundation.
 author: vaniaf
 ms.author: vaniaf

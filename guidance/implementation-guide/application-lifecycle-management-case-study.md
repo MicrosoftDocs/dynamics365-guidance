@@ -1,5 +1,5 @@
 ---
-title: Case study in ALM strategy
+title: Case study in application lifecycle management strategy
 description: Learn from a case study how a transport systems company improved its Dynamics 365 implementation by adopting application lifecycle management (ALM) best practices.
 author: abunduc-ms
 ms.author: abunduc

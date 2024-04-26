@@ -1,5 +1,5 @@
 ---
-title: The prospect to quote process broken down into business process areas
+title: The prospect to quote process broken down into process areas
 description: Get an overview for each of the business process areas in the prospect to quote end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 10/31/2023
 ms.topic: conceptual

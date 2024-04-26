@@ -1,5 +1,5 @@
 ---
-title: Support your organization’s business processes for monitoring customer credit and collections
+title: Support your organization’s business processes for collections
 description: Learn how to use Dynamics 365 products to monitor customer credit and collections and reduce bad debt.
 ms.date: 11/17/2023
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Create a training plan for your Dynamics 365 implementation projects
+title: Create a training plan for your implementation projects
 description: Find guidance about how to develop your own training plan for your Dynamics 365 implementation project.
 ms.date: 06/27/2023
 ms.topic: conceptual

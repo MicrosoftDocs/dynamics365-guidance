@@ -1,5 +1,5 @@
 ---
-title: Help organizations manage and optimize their project to profit processes
+title: Help organizations manage their project to profit processes
 description: Get introduced to the project to profit end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their project to profit processes.
 ms.date: 04/28/2023
 ms.topic: conceptual
@@ -20,7 +20,7 @@ The *project to profit* process can be used in any project-oriented business. Th
 
 For example, in consulting services, a project typically includes business analysis, to identify areas where the client business can improve customer experience, streamline operations, increase revenue by expanding services or entering new markets, or meet other client goals.  
 
-Next, the consultant designs a solution based on the customer’s requirements gathered during business analysis. Realizing the design might include expanding service offerings, redesigning a business process, defining a strategy for entering new markets, implementing a supporting technology or system, and so on. And prior to profitably executing such a project, a consulting firm needs to identify appropriate opportunities in its market and close corresponding sales of the project services it will deliver.  
+Next, the consultant designs a solution based on the customer's requirements gathered during business analysis. Realizing the design might include expanding service offerings, redesigning a business process, defining a strategy for entering new markets, implementing a supporting technology or system, and so on. And prior to profitably executing such a project, a consulting firm needs to identify appropriate opportunities in its market and close corresponding sales of the project services it will deliver.  
 
 Dynamics 365 includes tools to help project-oriented organizations manage leads, opportunities, the quoting and contracting process, and detailed planning for projects. By using work breakdown structures, organizations can easily define the scope and tasks that need to be completed for a given project. These tools are tightly integrated in Dynamics 365 Project Operations with Project for the Web and our Unified Resource Scheduling.  
 
@@ -90,7 +90,7 @@ By analyzing their business processes and designing solutions that meet customer
 
 ### Better resource management
 
-The *project to profit* process enables project-oriented organizations to optimize their use of resources, including staff, time, and materials. This can lead to increased productivity, reduced waste, and better resource allocation. Dynamics 365 Project Operations provides powerful capabilities for estimating projects’ demand for resources, finding optimal ways to satisfy it, and then managing the assigned resources’ schedules across projects.
+The *project to profit* process enables project-oriented organizations to optimize their use of resources, including staff, time, and materials. This can lead to increased productivity, reduced waste, and better resource allocation. Dynamics 365 Project Operations provides powerful capabilities for estimating projects' demand for resources, finding optimal ways to satisfy it, and then managing the assigned resources' schedules across projects.
 
 ### Enhanced competitive position
 

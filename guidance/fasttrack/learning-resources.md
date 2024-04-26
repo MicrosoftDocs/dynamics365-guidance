@@ -1,5 +1,5 @@
 ---
-title: Self-service learning opportunities and resources for implementers of Dynamics 365 solutions
+title: Self-service learning opportunities and resources
 description: Learning resources for implementers include TechTalks, community forums, and free learning paths on Microsoft Learn.
 ms.author: jedinh
 author: renwe

@@ -1,5 +1,5 @@
 ---
-title: Manage recurring activities that deliver products with the govern projects business process area
+title: Manage recurring activities with the govern projects area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for governing projects.
 ms.date: 11/29/2023
 ms.topic: conceptual

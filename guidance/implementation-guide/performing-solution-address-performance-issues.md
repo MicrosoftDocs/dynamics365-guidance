@@ -1,5 +1,5 @@
 ---
-title: Fix performance issues
+title: Fix performance issues in your solutions
 description: Learn how to analyze and resolve performance issues in your Dynamics 365 solutions by finding the root causes and making careful changes.
 author: TimoGossen
 ms.author: timogoss

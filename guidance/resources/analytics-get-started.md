@@ -1,5 +1,5 @@
 ---
-title: Get started with analytics
+title: Get started with analytics for call centers
 description: Explore how to start using analytics with Dynamics 365 Digital Contact Center Platform by creating a company-wide reporting plan and doing a fit-gap analysis.
 titleSuffix: DCCP #testing
 ms.date: 09/05/2023

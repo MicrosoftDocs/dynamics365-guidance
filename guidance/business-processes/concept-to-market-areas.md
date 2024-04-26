@@ -1,5 +1,5 @@
 ---
-title: Introduce, define, and manage services through concept to market business process areas
+title: Introduce services through concept to market areas
 description: Get an overview for each of the business process areas in the concept to market end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 01/15/2024
 ms.topic: conceptual

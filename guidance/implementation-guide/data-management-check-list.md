@@ -1,5 +1,5 @@
 ﻿---
-title: Checklist for data management
+title: Checklist for data management and governance
 description: Review a detailed checklist for managing data as part of implementing a Dynamics 365 solution, including an overview on data governance and archhitecture.
 author: vaniaf
 ms.author: vaniaf

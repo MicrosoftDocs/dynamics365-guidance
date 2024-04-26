@@ -1,5 +1,5 @@
 ---
-title: Manage service lifecycle overview
+title: Manage service lifecycle overview for Dynamics 365 products
 description: Learn about the manage service lifecycle business process, including information about the types of stakeholders and the process flow.
 author: rachel-profitt
 ms.author: raprofit

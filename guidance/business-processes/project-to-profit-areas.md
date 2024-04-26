@@ -1,5 +1,5 @@
 ---
-title: Govern projects and manage scope with the project to profit end-to-end business process area
+title: Govern projects with the project to profit business process area
 description: Get an overview for each of the business process areas in the project to profit end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 10/20/2023
 ms.topic: conceptual

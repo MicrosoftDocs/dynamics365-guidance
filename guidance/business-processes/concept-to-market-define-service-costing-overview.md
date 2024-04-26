@@ -1,5 +1,5 @@
 ---
-title: Define service costing overview and relation to other business processes
+title: Define service costing overview and relation to other processes
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to set the cost of the services that you sell.
 ms.date: 11/24/2023
 ms.topic: conceptual

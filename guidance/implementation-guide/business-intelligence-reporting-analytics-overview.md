@@ -1,5 +1,5 @@
 ---
-title: Make informed, data-based decisions with business intelligence, reporting, and analytics
+title: Make informed decisions with business intelligence
 description: Learn how businesses can use data to make informed decisions, including outlines on key objectives and the importance of business data.
 author: TimoGossen
 ms.author: timogoss

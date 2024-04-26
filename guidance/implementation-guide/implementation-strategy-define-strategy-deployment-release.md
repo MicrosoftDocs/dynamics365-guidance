@@ -1,5 +1,5 @@
 ---
-title: Plan your deployment and release
+title: Plan your solution deployment and release
 description: Learn how to plan the deployment and release of your Dynamics 365 solution, based on your business goals and needs.
 ms.date: 04/27/2023
 ms.topic: conceptual

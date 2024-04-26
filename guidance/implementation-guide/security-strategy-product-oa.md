@@ -1,5 +1,5 @@
 ---
-title: Secure finance and operations apps
+title: Security capabilities for finance and operations apps
 description: Learn how to use Microsoft Entra, role-based security, segregation of duties, and database logging to protect your data in finance and operations apps.
 author: riblack-microsoft
 ms.author: riblack

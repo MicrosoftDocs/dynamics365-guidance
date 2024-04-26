@@ -1,5 +1,5 @@
 ---
-title: Configure demand forecasting for organizations with multiple legal entities
+title: Configure demand forecasting for organizations
 description: Read about Forecast demand for multiple companies in Dynamics 365 Supply Chain Management, including overviews on the context, problem, and solution.
 ms.date: 03/14/2023
 ms.topic: conceptual

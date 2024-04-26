@@ -1,5 +1,5 @@
 ﻿---
-title: Schedule service work overview
+title: Schedule service work business process overview
 description: Learn about the benefits and process flow for the scheduling service requests business process within the service to cash process area.
 author: nucruz
 ms.author: nucruz

@@ -1,5 +1,5 @@
 ---
-title: Define, plan, run, control, and track production operations with the plan to produce process
+title: Define production operations with the plan to produce process
 description: Get an overview for each of the business process areas in the plan to produce end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 01/23/2024
 ms.topic: conceptual

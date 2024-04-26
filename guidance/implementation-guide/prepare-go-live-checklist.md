@@ -1,5 +1,5 @@
 ﻿---
-title: Use the go-live checklist to make sure your solution is ready for go-live
+title: Use the go-live checklist to make sure your solution is ready
 description: Learn how to use the go-live checklist to ensure that your Microsoft Dynamics 365 solution meets your business needs and works as expected before you launch it.
 ms.date: 01/30/2024
 ms.topic: conceptual

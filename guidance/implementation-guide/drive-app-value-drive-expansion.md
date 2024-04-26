@@ -1,5 +1,5 @@
 ---
-title: Drive expansion of business applications to create greater business impact
+title: Drive expansion of applications in digital transformations
 description: Learn how expansion can help the business-focused digital transformation, including overviews on incremental changes and feature adoption.
 author: taksatoms
 ms.author: tsato

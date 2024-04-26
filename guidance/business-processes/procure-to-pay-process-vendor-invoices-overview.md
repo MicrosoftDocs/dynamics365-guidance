@@ -1,5 +1,5 @@
 ﻿---
-title: Process vendor invoices overview
+title: Process vendor invoices business process area overview
 description: Learn about the process vendor invoices business process, including learning about the types of stakeholders and process flow.
 author: meneksesaygili
 ms.author: msaygili

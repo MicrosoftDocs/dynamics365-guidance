@@ -1,5 +1,5 @@
 ---
-title: Play secure audio file from Copilot Studio 
+title: Play secure audio file from Copilot Studio
 description: Learn about the sample solution so that you can play secure audio files from Copilot Studio classic.
 ms.date: 03/14/2024
 ms.topic: conceptual

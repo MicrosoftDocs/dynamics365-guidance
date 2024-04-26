@@ -1,5 +1,5 @@
 ﻿---
-title: Close financial periods overview
+title: Overview for closing financial periods
 description: Learn about the process around closing financial periods, including descriptions of stakeholders and a diagram of the process flow.
 author: rachel-profitt
 ms.author: raprofit

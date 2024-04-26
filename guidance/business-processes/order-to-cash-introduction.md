@@ -1,5 +1,5 @@
 ---
-title: Manage and optimize orders in the order to cash end-to-end business process
+title: Manage orders in the order to cash end-to-end business process
 description: Get introduced to the order to cash end-to-end business process with an overview of the business process, key benefits, and stakeholders.
 ms.date: 03/23/2023
 ms.topic: conceptual
@@ -15,7 +15,7 @@ This article introduces the order to cash end-to-end business process. It outlin
 
 ## Order to cash overview
 
-The *order to cash* business process flow is a standard term used to describe the entirety of an organization’s sales order process. The process is sometimes referred to as O2C or OTC. Generally speaking, the *order to cash* business process includes everything that happens in an organization from a customer places an order until the payment is received and settled with the invoice.  
+The *order to cash* business process flow is a standard term used to describe the entirety of an organization's sales order process. The process is sometimes referred to as O2C or OTC. Generally speaking, the *order to cash* business process includes everything that happens in an organization from a customer places an order until the payment is received and settled with the invoice.  
 
 > [!IMPORTANT]
 > The process defined here does not include the process for marketing to prospective customers, tracking leads and opportunities and the creation of quotes. <!--For more information about these processes, see [Prospect to quote overview](../placeholder.md).-->  

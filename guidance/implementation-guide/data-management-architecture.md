@@ -1,5 +1,5 @@
 ---
-title: Manage your data effectively with the right architecture and modeling
+title: Manage your data effectively with the right architecture
 description: Learn how to design, store, integrate, and maintain your data to support your business goals and strategies.
 author: vaniaf
 ms.author: vaniaf

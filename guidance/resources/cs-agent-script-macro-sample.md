@@ -1,5 +1,5 @@
 ---
-title: AgentScript and Macro samples
+title: AgentScript and Macro samples and types of agent scripts
 description: Learn about Microsoft's samples implementations of AgentScript and Macro that you can use to customize your Dynamics 365 Customer Service solution.
 titleSuffix: Customer Service samples and tools 
 ms.date: 03/14/2024

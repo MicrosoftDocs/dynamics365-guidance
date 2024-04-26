@@ -1,5 +1,5 @@
 ﻿---
-title: Drive long-term business application value through digital transformation
+title: Drive application value through digital transformation
 description: Find guidance on how to approach a business-focused digital transformation in Dynamics 365 implementations.
 author: taksatoms
 ms.author: tsato

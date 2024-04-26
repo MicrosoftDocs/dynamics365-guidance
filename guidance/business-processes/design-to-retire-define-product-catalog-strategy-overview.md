@@ -1,5 +1,5 @@
 ---
-title: Categorize, segment, and merchandise products and services through Dynamics 365
+title: Categorize products and services through Dynamics 365
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for capturing a strategy for the products that you want to sell.
 ms.date: 11/24/2023
 ms.topic: conceptual

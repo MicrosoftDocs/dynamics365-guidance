@@ -1,5 +1,5 @@
 ﻿---
-title: Case study in testing strategy
+title: Case study in testing strategy for Dynamics 365 projects
 description: Read a real-life story of how an implementation team learned the hard way why testing is essential for a successful Dynamics 365 project.
 ms.date: 01/23/2024
 ms.topic: conceptual

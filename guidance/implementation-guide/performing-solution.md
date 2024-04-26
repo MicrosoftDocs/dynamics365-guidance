@@ -1,5 +1,5 @@
 ---
-title: Explore how Dynamics 365 products and tools can improve performance
+title: Explore how Dynamics 365 products can improve performance
 description: Learn why prioritizing performance matters to your solution and how you can use Dynamics 365 products and tools to improve performance.
 author: TimoGossen
 ms.author: timogoss

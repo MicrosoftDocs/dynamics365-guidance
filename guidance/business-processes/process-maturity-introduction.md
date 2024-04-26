@@ -1,5 +1,5 @@
 ﻿---
-title: Process maturity overview
+title: Process maturity introduction and overview
 description: Learn what process maturity is, how to measure it, and how to create a process management team to improve it when implementing Microsoft business applications.
 author: rachel-profitt
 ms.author: raprofit
@@ -77,7 +77,7 @@ Create a process management team when you implement Dynamics 365 to help ensure 
 ## Related resources
 
 - [Capability maturity model integration (CMMI)](https://cmmiinstitute.com/)
-- [IT Infrastructure Library (ITIL)](https://www.peoplecert.org/ITIL-4)
+<!-- the following link appears to be outdated - [IT Infrastructure Library (ITIL)](https://www.peoplecert.org/ITIL-4) -->
 - [Process Maturity Framework (PMF)](https://www.pmi.org/learning/library/pm-maturity-industry-wide-assessment-9000)
 - [Gartner's IT Score](https://www.gartner.com/en/information-technology/insights/gartner-it-score)
 - [Forrester's BPM Maturity Assessment Framework](https://www.forrester.com/report/introducing-forresters-bpm-maturity-assessment-framework/RES57488)

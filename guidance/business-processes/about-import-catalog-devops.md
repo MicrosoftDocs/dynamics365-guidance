@@ -1,5 +1,5 @@
 ---
-title: Import the business process catalog into Azure DevOps to manage Dynamics 365 projects
+title: Import the business process catalog into Azure DevOps
 description: Read how you can use Microsoft's business process catalog to build an implementation project in Azure DevOps.
 author: rachel-profitt
 ms.author: raprofit

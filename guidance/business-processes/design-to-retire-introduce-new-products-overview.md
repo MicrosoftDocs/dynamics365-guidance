@@ -1,5 +1,5 @@
 ﻿---
-title: Introduce new products overview
+title: Introduce new products and benefits overview
 description: Learn about the introduce new products business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
