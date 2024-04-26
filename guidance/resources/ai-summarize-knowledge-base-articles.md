@@ -12,7 +12,7 @@ ms.custom:
 # CustomerIntent: As an admin, I want to provide a summary of Knowledge article to agents or clients.
 ---
 
-# Summarize Dynamics 365 Knowledge Base articles with ChatGPT for efficient customer support  
+# Summarize Knowledge Base articles with GPT for efficient customer support  
 
 ***Applies to: Dynamics 365 Customer Service***
 

@@ -1,5 +1,5 @@
 ---
-title: Types of tests
+title: Types of tests that implementation projects use
 description: Learn about the different types of tests that you can use for your Dynamics 365 implementation project and how to combine them in your testing strategy.
 author: edupont04
 ms.author: veneva

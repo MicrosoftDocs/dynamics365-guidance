@@ -1,7 +1,7 @@
 ---
-title: Overview of the manage freight and transportation business process area
+title: Manage freight and transportation process area overview
 description: Read about the business process area for managing freight and transportation in Dynamics 365 implementations.
-ms.date: 12/08/2023
+ms.date: 04/26/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: ngump
@@ -15,7 +15,7 @@ This article describes the *Manage freight and transportation* business process 
 
 The *Manage freight and transportation* business process area encompasses the activities that are done in an organization's transportation management process. All distribution organizations must be able to track and manage transportation costs and operations so that they can optimize this critical part of the supply chain. Meeting this goal requires cross-organization collaboration among departments such as Logistics, Procurement, Planning, Sales, and Operations.
 
-The exact process for the *Manage freight and transportation* area varies from business to business and depends on the industry. However, the basic steps are the same: The need for transportation is identified. Identification of this need triggers planning activities, including rating and routing operations. Dock appointments can then be scheduled for pickup and/or delivery, and necessary logistics paperwork can be generated. After transportation is completed, freight invoices can be processed and reconciled against estimates. The definition of these steps is done as part of the *Inventory to deliver* end-to-end business processes and refined in the *Define and manage warehouse operations* business process area.
+The exact process for the *Manage freight and transportation* area varies from business to business and depends on the industry. However, the basic steps are the same: The need for transportation is identified. Identification of this need triggers planning activities, including operations for rating and routing. Dock appointments can then be scheduled for pickup and/or delivery, and necessary logistics paperwork can be generated. After transportation is completed, freight invoices can be processed and reconciled against estimates. The definition of these steps is done as part of the *Inventory to deliver* end-to-end business processes and refined in the *Define and manage warehouse operations* business process area.
 
 It's essential that you define and establish the business process for *Managing freight and transportation* when you first begin to implement Dynamics 365 Supply Chain Management. This process is a fundamental element for any distribution company, because it forms the backbone of efficient supply chain operations.
 
@@ -89,11 +89,11 @@ Transportation is integrated with other business processes in Dynamics 365 Suppl
 
 ### Optimized fulfillment strategies
 
-Dynamics 365 Supply Chain Management has transportation rating and routing capabilities. Similarly, [Intelligent Order Management](/dynamics365/intelligent-order-management/welcome-to-iom) in Supply Chain Center provides order orchestration capabilities that extend beyond the distribution warehouse. It connects multiple supply chain providers, from manufacturers to retailers to third-party logistics companies. Therefore, organizations can optimize their fulfillment operations, and this optimization then leads to faster delivery and increased customer satisfaction.
+Dynamics 365 Supply Chain Management has transportation rating and routing capabilities. Similarly, [Intelligent Order Management](/dynamics365/intelligent-order-management/welcome-to-iom) in Supply Chain Center provides order orchestration capabilities that extend beyond the distribution warehouse. It connects multiple supply chain providers, from manufacturers to retailers to logistics companies. Therefore, organizations can optimize their fulfillment operations, and this optimization then leads to faster delivery and increased customer satisfaction.
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *manage freight and transportation* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *manage freight and transportation* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. *Define and manage warehouse operations*
 
@@ -127,14 +127,14 @@ You can use the following resources to learn more about the *Manage freight and 
 - [Dynamics 365 Supply Chain Management Forum](https://community.dynamics.com/forums/thread/?discussionforumid=bd2c77d7-890b-4a36-87a4-8afbddbca6a6)
 - Find definitions of terminology that is used in content for *Manage freight and transportation* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Load](glossary.md#load)
-    - [Shipment](glossary.md#shipment)
-    - [Rating](glossary.md#rating)
-    - [Routing](glossary.md#routing)
-    - [Dock management](glossary.md#dock-management)
-    - [Appointment scheduling](glossary.md#appointment-scheduling)
-    - [Freight reconciliation](glossary.md#freight-reconciliation)
-    - [Provider](glossary.md#provider)
+  - [Load](glossary.md#load)
+  - [Shipment](glossary.md#shipment)
+  - [Rating](glossary.md#rating)
+  - [Routing](glossary.md#routing)
+  - [Dock management](glossary.md#dock-management)
+  - [Appointment scheduling](glossary.md#appointment-scheduling)
+  - [Freight reconciliation](glossary.md#freight-reconciliation)
+  - [Provider](glossary.md#provider)
 
 <!-- ## Tags
 

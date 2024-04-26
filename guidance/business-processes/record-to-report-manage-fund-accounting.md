@@ -1,5 +1,5 @@
 ﻿---
-title: Manage fund accounting overview
+title: Manage fund accounting overview for Dynamics 365 products
 description: Learn about using your Dynamics 365 products to manage fund accounting, with a guide on how to use these products for efficient financial management.
 author: lifiatamara-ms
 ms.author: lifiatamara

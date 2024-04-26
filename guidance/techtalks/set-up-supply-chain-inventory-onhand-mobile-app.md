@@ -1,5 +1,5 @@
 ﻿---
-title: TechTalk Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
+title: Inventory On-hand app in Dynamics 365 Supply Chain Management
 description: Learn how the Inventory On-hand mobile app allows businesses to interact with their inventory data and manage stock levels.
 author: dereklh77
 ms.author: v-heuerderek
@@ -20,7 +20,7 @@ We've based this article on [a TechTalk](https://youtu.be/3Q-QU9rAj78?si=l1qda7j
 
 The Dynamics 365 Supply Chain Management ecosystem has been enriched with a significant addition - the Inventory On-hand Mobile App. This app revolutionizes how businesses interact with their inventory data, offering real-time insights and unparalleled flexibility in managing stock levels. It's not just an app; it's a gateway to optimizing your inventory management with the power of Dynamics 365.
 
-![Screenshot of the Introduction to Inventory On-hand Mobile app presentation slide, outlining how you can view and manage inventory on the app.](media\inventory-on-hand-mobile-management-2.svg)
+:::image type="content" source="media\inventory-on-hand-mobile-management-2.svg" alt-text="Screenshot of the Introduction to Inventory On-hand Mobile app presentation slide, outlining how you can view and manage inventory on the app." lightbox="media\inventory-on-hand-mobile-management-2.svg":::
 
 ## Key features and enhancements
 
@@ -34,7 +34,7 @@ The Inventory On-hand mobile app brings a suite of new functionalities designed 
 
 ## Streamlining setup and integration
 
-![Screenshot of the Install the mobile app in Databerse for your company presentation slide.](media\inventory-on-hand-mobile-management-3.svg)
+:::image type="content" source="media\inventory-on-hand-mobile-management-3.svg" alt-text="Screenshot of the Install the mobile app in Databerse for your company presentation slide." lightbox="media\inventory-on-hand-mobile-management-3.svg":::
 
 Integrating the Inventory On-hand mobile app into your Dynamics 365 environment is a seamless process, thanks to its built-in compatibility with the Dataverse. Users can effortlessly install the app from AppSource, ensuring a smooth synchronization with their existing data in Dynamics 365. This integration not only enhances the user experience but also maintains the integrity and security of inventory data across the platform.
 

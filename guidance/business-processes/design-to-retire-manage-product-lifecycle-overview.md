@@ -1,5 +1,5 @@
 ---
-title: Manage product lifecycle overview
+title: Manage and define product lifecycle overview
 description: Learn about the manage product lifecycle business process, including information about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit 

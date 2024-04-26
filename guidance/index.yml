@@ -285,6 +285,22 @@ conceptualContent:
     #     text: Resources
     #     url: resources/index.yml
 
+# design
+
+    - title: Design and develop
+      links:
+      - itemType: get-started
+        text: Introduction
+        url: develop/introduction-customer-engagement-ui-ux-design-guide.md
+      - itemType: get-started
+        text: Design principles
+        url: develop/ui-ux-design-principles.md
+      - itemType: get-started
+        text: Design components
+        url: develop/ui-ux-component-details-model-driven-apps.md
+      - itemType: get-started
+        text: Testing and getting user feedback
+        url: develop/ui-ux-component-details-testing-feedback.md
 # current
 #    - title: Migrate data
 #      links:

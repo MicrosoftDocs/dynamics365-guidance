@@ -1,5 +1,5 @@
 ---
-title: Support your organization’s business processes for managing internal assets
+title: Support your organization’s management of internal assets
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage internal assets.
 ms.date: 09/08/2023
 ms.topic: conceptual

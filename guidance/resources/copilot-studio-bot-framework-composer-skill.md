@@ -1,5 +1,5 @@
 ﻿---
-title: Add DTMF aggregation to Copilot Studio classic 
+title: Add DTMF aggregation to Copilot Studio classic
 description: Learn about the sample solution to add DTMF aggregation to Copilot Studio for voice support by using Bot Framework skills.
 ms.date: 03/15/2024
 ms.topic: conceptual
@@ -92,6 +92,6 @@ Inserting the Skill Manifest URL you got after the skill publishing.
 
 ## Test your skill
 
-You're now ready to interact with the bot on the test canvas. The skill should be executed as a step just like any other dialog step in the bot.
+You're now ready to interact with the bot on the test canvas. Run the skill as a step just like any other dialog step in the bot.
 
 :::image type="content" source="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-8.png" alt-text="Screenshot of the test bot in design mode with the decision flow chart." lightbox="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-8.png":::

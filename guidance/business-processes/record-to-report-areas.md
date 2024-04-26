@@ -1,5 +1,5 @@
 ﻿---
-title: The record to report process area broken down into multiple business process areas
+title: Record to report process area broken down into multiple areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 11/09/2023
 ms.topic: conceptual

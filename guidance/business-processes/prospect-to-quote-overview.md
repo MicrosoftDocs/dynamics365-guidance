@@ -1,6 +1,6 @@
 ---
-title: Overview of the prospect to quote end-to-end business process flow
-description: Learn about the end-to-end business process, from prospect to quote. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+title: Prospect to quote end-to-end business process flow overview
+description: Learn about the prospect to quote end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
 ms.date: 10/24/2023
 ms.topic: conceptual
 author: edupont04
@@ -18,7 +18,7 @@ This article describes the *prospect to quote* end-to-end business process flow 
 
 The following diagram shows the relationship of other processes and products/features for the *prospect to quote* process.
 
-:::image type="content" source="media/prospect-to-quote-process.svg" lightbox="media/prospect-to-quote-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/prospect-to-quote-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/prospect-to-quote-process.svg":::
 
 The prerequisites include the following end-to-end business processes:
 
@@ -114,7 +114,7 @@ These features are dependent on or closely related to the *prospect to quote* bu
 
 The following diagram shows the high-level flow of the *prospect to quote* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/prospect-to-quote-flow.svg" lightbox="media/prospect-to-quote-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
+:::image type="content" source="media/prospect-to-quote-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-flow.svg":::
 
 The following steps are illustrated in the *prospect to quote* end-to-end business process flow diagram.
 

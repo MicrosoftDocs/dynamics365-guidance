@@ -1,5 +1,5 @@
 ---
-title: Deprecated business process area
+title: Deprecated business process area (deprecated)
 description: Deprecated article that is replaced by service-to-cash-create-process-service-work - go read that instead.
 ms.date: 02/15/2024
 ms.topic: conceptual

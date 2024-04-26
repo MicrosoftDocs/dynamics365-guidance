@@ -1,5 +1,5 @@
 ---
-title: Manage solution structures for application lifecycles with the solution component validation tool
+title: Manage solution structures for application lifecycles
 description: Learn how to add a tool to help catch development issues with solution components in Dynamics 365 implementation projects.
 author: edupont04
 ms.author: ribsingh

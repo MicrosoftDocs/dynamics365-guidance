@@ -1,5 +1,5 @@
 ---
-title: Overview of the outsource production operations business process area
+title: Overview of the outsource production operations area
 description: Get an overview of the business process area for outsourcing production operations in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 12/06/2023
 ms.topic: conceptual

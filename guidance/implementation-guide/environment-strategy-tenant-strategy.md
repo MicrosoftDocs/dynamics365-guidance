@@ -25,7 +25,7 @@ A tenant strategy is a plan for how you use your Microsoft Entra ID tenant to or
 
 Different services might have different isolation approaches. For example, as shown in the following diagram, you can have different subscriptions in Azure within the same tenant, and each subscription can host different applications and have a different set of users. Dynamics 365 and Microsoft Power Platform have environments that isolate data and manage user access.
 
-:::image type="content" source="media/environmentstrategy-tenantstrategy.png" alt-text="Diagram of Dynamics 365, Power Platform, Microsoft 365, and Azure subscriptions distributed within a tenant.":::
+:::image type="content" source="media/environmentstrategy-tenantstrategy.png" alt-text="Diagram of Dynamics 365, Power Platform, Microsoft 365, and Azure subscriptions distributed within a tenant." lightbox="media/environmentstrategy-tenantstrategy.png":::
 
 A tenant provides the highest level of isolation for a cloud service, as it never shares resources or licenses with other tenants. A tenant is meant to represent an organization and not a department or business unit. However, in some cases, subsidiaries can share a tenant with the parent organization, depending on the organization structure, and the tenant model can mirror that structure.
 

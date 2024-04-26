@@ -1,6 +1,6 @@
 ---
 title: Include people in your solution architecture
-description: Learn how to consider people's needs and roles in your solution design.
+description: Learn how to consider people's needs and roles in your solution design, including an overview on dependent activities in the People pillar.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont

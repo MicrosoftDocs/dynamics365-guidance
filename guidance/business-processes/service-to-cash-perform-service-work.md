@@ -1,5 +1,5 @@
 ﻿---
-title: Perform service work
+title: Setup and considerations for performing service work
 description: Learn about how to set up and configure for performing service work in Dynamics 365 apps, including types of stakeholders and a business process map.
 author: jasondpms
 ms.author: jaduples

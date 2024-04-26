@@ -1,5 +1,5 @@
 ﻿---
-title: Manage service assets overview
+title: Overview for managing service assets for Dynamics 365 products
 description: Learn about how to support your organization's business processes for managing service assets in your Dynamics 365 products.
 author: SabrinaDiBartolomeo
 ms.author: sabrinadi

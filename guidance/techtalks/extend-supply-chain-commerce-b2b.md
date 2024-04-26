@@ -1,5 +1,5 @@
 ﻿---
-title: TechTalk Extend Dynamics 365 Supply Chain Management with Dynamics 365 Commerce
+title: Extend Dynamics 365 Supply Chain Management
 description: Learn about how businesses can extend Dynamics 365 Supply Chain Management with Dynamics 365 Commerce to enhance their business to business (B2B) digital selling.
 author: dereklh77
 ms.author: v-heuerderek
@@ -18,19 +18,19 @@ We've based this article on [a TechTalk](https://youtu.be/GDTL4PUGD00?si=IyTvAdh
 
 ## Harnessing Dynamics 365 Supply Chain Management in B2B digital commerce
 
-![Screenshot of the conceptual architecture presentation slide that highlights the fiannce, supply chain mannagement, commerce, and channels options.](media\extend-dynamics-365-scm-in-b2b-digital-commerce-2.svg)
+:::image type="content" source="media\extend-dynamics-365-scm-in-b2b-digital-commerce-2.svg" alt-text="Screenshot of the conceptual architecture presentation slide that highlights the fiannce, supply chain mannagement, commerce, and channels options." lightbox="media\extend-dynamics-365-scm-in-b2b-digital-commerce-2.svg":::
 
 Dynamics 365 Supply Chain Management acts as the backbone of the digital selling experience, integrating seamlessly with Dynamics 365 Commerce. This integration facilitates a robust platform for businesses to manage their supply chain while offering a streamlined, AI-enhanced digital selling interface to their B2B customers. The synergy between Supply Chain Management and Commerce creates a dynamic ecosystem, enabling businesses to manage inventory, process orders, and analyze data in real-time, all within a unified system.
 
 ## AI-driven insights and personalization
 
-![Screnshot of the B 2 B E commerce capabilities presentation slide, showing six capabilities that interconnect.](media\extend-dynamics-365-scm-in-b2b-digital-commerce-3.svg)
+:::image type="content" source="media\extend-dynamics-365-scm-in-b2b-digital-commerce-3.svg" alt-text="Screenshot of the B 2 B E commerce capabilities presentation slide, showing six capabilities that interconnect." lightbox="media\extend-dynamics-365-scm-in-b2b-digital-commerce-3.svg":::
 
 The integration of AI in Dynamics 365 Commerce provides businesses with valuable insights into customer behavior, preferences, and purchasing patterns. These insights empower businesses to personalize the B2B buying experience, tailoring product recommendations, pricing, and promotions to meet the unique needs of each business customer. AI algorithms also help in forecasting demand, optimizing inventory levels, and enhancing the overall efficiency of the supply chain.
 
 ## Streamlining the B2B buying experience
 
-![Screenshot of the inventory visibility presentation slide, showing how the Inventory Visibility Service is connected to different applications.](media\extend-dynamics-365-scm-in-b2b-digital-commerce-4.svg)
+:::image type="content" source="media\extend-dynamics-365-scm-in-b2b-digital-commerce-4.svg" alt-text="Screenshot of the inventory visibility presentation slide, showing how the Inventory Visibility Service is connected to different applications." lightbox="media\extend-dynamics-365-scm-in-b2b-digital-commerce-4.svg":::
 
 Dynamics 365 Commerce elevates the B2B buying experience by offering a user-friendly interface, complete with customizable dashboards, easy navigation, and real-time access to product information and availability. The platform supports various transaction types, including bulk orders and complex pricing structures, making it adaptable to the diverse requirements of B2B transactions.
 

@@ -1,6 +1,6 @@
 ---
-title: Design your data solution
-description: Learn how to use the Data pillar of solution design to plan your data strategy, architecture, migration, integration, and quality for your Dynamics 365 solution.
+title: Design your data solution for your Dynamics 365 solutions
+description: Learn how to use the Data pillar of solution design to plan your data strategy, architecture, integration, and quality for your Dynamics 365 solution.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont

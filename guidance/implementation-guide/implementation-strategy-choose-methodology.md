@@ -47,7 +47,7 @@ Think of a methodology as a planned journey. To reach your destination successfu
 
 - **No surprises**: Satisfy your users by delivering a solution that meets their needs and preferences. Satisfy your stakeholders by delivering results on time and within budget.
 
-:::image type="content" source="media/impl-strategy-roadmap-to-success.png" alt-text="Illustration of the five steps on the roadmap to success: plan ahead, know the road, avoid pitfalls, get there faster, and no surprises.":::
+:::image type="content" source="media/impl-strategy-roadmap-to-success.png" alt-text="Illustration of the five steps on the roadmap to success: plan ahead, know the road, avoid pitfalls, get there faster, and no surprises." lightbox="media/impl-strategy-roadmap-to-success.png":::
 
 Sometimes, external factors can affect your planning. You should have contingency plans to deal with unexpected situations that might be beyond your control.
 
@@ -82,7 +82,7 @@ The goal is to release software faster, get early and regular feedback, adapt, a
 
 An example of agile practices using the methodology prescribed by Sure Step for Agile is shown in the following diagram:
 
-:::image type="content" source="media/impl-strategy-scrum.png" alt-text="Diagram of an agile project, in which a product backlog leads to a sprint backlog that leads to a sprint with 30 days of 24 hours that then generates working increments of the software.":::
+:::image type="content" source="media/impl-strategy-scrum.png" alt-text="Diagram of an agile project, in which a product backlog leads to a sprint backlog that leads to a sprint with 30 days of 24 hours that then generates working increments of the software." lightbox="media/impl-strategy-scrum.png":::
 
 Some of the benefits of agile are:
 
@@ -110,7 +110,7 @@ In the modern cloud world, getting early and frequent stakeholder buy-in is crit
 
 An example of the waterfall model as prescribed in Sure Step Methodology is shown in the following diagram:
 
-:::image type="content" source="media/impl-strategy-waterfall.png" alt-text="Illustration of a waterfall project as a table with five columns for analysis, design, develop, stabilization, and deploy, and rows for organization, solution, and technology.":::
+:::image type="content" source="media/impl-strategy-waterfall.png" alt-text="Illustration of a waterfall project as a table with five columns for analysis, design, develop, stabilization, and deploy, and rows for organization, solution, and technology." lightbox="media/impl-strategy-waterfall.png":::
 
 Some of the benefits of waterfall are:
 
@@ -138,7 +138,7 @@ In the hybrid approach, the focus is on a regular rhythm of iterative and increm
 
 An example of the hybrid approach, based on Dynamics Sure Step 365, is shown in the following diagram:
 
-:::image type="content" source="media/impl-strategy-hybrid.png" alt-text="Diagram of a hybrid project, with stages for mobilization, initiation, solution modeling, build, solution testing, deployment, support transition, and operation.":::
+:::image type="content" source="media/impl-strategy-hybrid.png" alt-text="Diagram of a hybrid project, with stages for mobilization, initiation, solution modeling, build, solution testing, deployment, support transition, and operation." lightbox="media/impl-strategy-hybrid.png":::
 
 Some of the benefits of hybrid are:
 

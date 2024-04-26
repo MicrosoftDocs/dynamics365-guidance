@@ -1,5 +1,5 @@
 ﻿---
-title: Manage service pricing overview
+title: Manage service pricing overview for Dynamics 365 projects
 description: Learn about the manage service pricing business process, including learning about the various stakeholders and business process flow.
 author: rachel-profitt
 ms.author: raprofit

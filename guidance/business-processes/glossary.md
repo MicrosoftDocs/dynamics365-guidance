@@ -757,7 +757,7 @@ The equation for calculating MAPE is included at the bottom of the graphic. *A<s
 
 MAPE is expressed as a percentage, as indicated in the equation in the diagram. The lower the MAPE value is, the more accurate the forecast is likely to be. In general, a MAPE of 20 percent or less is considered acceptable, but 10 percent would be even better. The best MAPE value that an organization can achieve is going to be dependent on the amount of historical data and how volatile the values are.
 
-:::image type="content" source="media/forecast-accuracy-MAPE-calculation.png" alt-text="Charts that illustrate how MAPE is calculated.":::
+:::image type="content" source="media/forecast-accuracy-MAPE-calculation.png" alt-text="Charts that illustrate how MAPE is calculated." lightbox="media/forecast-accuracy-MAPE-calculation.png":::
 
 ### Forecast dimensions
 
@@ -1893,7 +1893,7 @@ The main strategy that's used to generate forecasts in Dynamics 365 Supply Chain
 
 When the three components are added together, they can be used to predict future demand. The statistical forecasting algorithms used by Dynamics 365 and other forecasting tools calculate and combine these general components in different ways, allowing organizations to compare forecasting models and select the one that seems to predict the demand best. The following graphic illustrates the components and formula that represent time series forecasting.
 
-:::image type="content" source="media/time-series-forecasting.png" alt-text="Graphic illustrating that trend plus seasonality plus error predicts forecasts.":::
+:::image type="content" source="media/time-series-forecasting.png" alt-text="Graphic illustrating that trend plus seasonality plus error predicts forecasts." lightbox="media/time-series-forecasting.png":::
 
 ### Trade agreement
 

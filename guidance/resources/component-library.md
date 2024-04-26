@@ -1,5 +1,5 @@
 ---
-title: Sample library for Customer Service 
+title: Sample library for Customer Service
 description: Read about the library of sample components in GitHub that can help customers and partners to create and deploy solutions in a fast and easy way.
 ms.date: 03/15/2024
 ms.topic: conceptual
@@ -104,6 +104,37 @@ The following sections outline the content of the collection. Each section inclu
     This sample shows how to play audio files saved in secure data storage. With Bot Framework Composer and Azure Blob Storage, we can secure a custom audio clip and play it in a custom copilot.  
 
     Learn more at [Play secure audio file from Copilot Studio](copilot-studio-play-audio-file.md).
+
+- AppInsights for Copilot Studio
+   
+    This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in Azure Application Insights.In addition to the native analytics features within Microsoft Copilot Studio, you can send telemetry data to Application Insights.
+
+    Learn more at [Copilot Studio Application Insights Telemetry](copilot-studio-appinsights.md)
+
+### Channel Integration Framework 2.0
+
+- CIF simulator
+
+    The simulator is just a collection of samples that we built using the Channel Integration Framework.
+
+    Learn more at [CIF 2.0 stimulator](cs-set-up-cif2-simulator.md)
+
+
+- Set up Click to Outbound call
+
+    This article outlines the steps to use a custom control so that users can make outbound calls from a Customer Interaction Center (CIF) provider in Omnichannel for Dynamics 365 Customer Service. The sample solution is a resource that helps optimize the Dynamics 365 implementation. It includes a custom control that provides the capability to format a phone number and initiate an outbound call from a text or phone number field.
+
+    Learn more at [Set up outbound call](cs-set-up-outbound-calls.md)
+
+
+
+### Automation
+
+- Automate agent tasks with Power Automate Desktop
+
+    This sample shows how to run a Power Automate Desktop Flow from Customer Service Workspace to automate tasks on a Customer Service Representative's workstation.
+
+    Learn more at [Automate agent tasks with Power Automate Desktop](cs-pad-automation.md). 
 
 ## Related resources
 

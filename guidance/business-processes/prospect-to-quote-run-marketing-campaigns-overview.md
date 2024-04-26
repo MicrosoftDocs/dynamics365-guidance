@@ -15,9 +15,9 @@ This article provides an overview of running marketing campaigns by using Dynami
 
 Campaign management starts by planning initiatives to support business goals. Budgets are allocated across campaigns and channels. Dynamics 365 Customer Insights helps target campaigns through unified customer profiles, contacts, and leads. Assets such as emails, text messages (SMS), landing pages, push notifications, and custom channels are created based on campaign timelines.
 
-Campaigns are carried out across channels such as email, SMS, events, push notifications, and more. The sending and next steps are automated bby triggers that asre based on the the behavior and engagement of the prospects with the campaigns. Power BI provides dashboards for analyzing the performance of campaigns as they run and identifying optimization opportunities.
+Campaigns are carried out across channels such as email, SMS, events, push notifications, and more. The sending and next steps are automated by triggers that are based on the behavior and engagement of the prospects with the campaigns. Power BI provides dashboards for analyzing the performance of campaigns as they run and identifying optimization opportunities.
 
-With Dynamics 365 Customer Insights - Journeys, markters can create and run personalized cammpaigns across multiple channels at scale. By using data and artifical intelligence (AI) to optimize the campaigns, marketers can improve their outcomes over time. Marketers can also use lead scoring to rank and prioritize the leads based on their attributes and behaviors, and they can focus on the most qualified ones for the sales pipeline. Effective marketing campaigns are crucial for generating high quality leads that can feed the sales process. 
+With Dynamics 365 Customer Insights - Journeys, markets can create and run personalized campaigns across multiple channels at scale. By using data and artificial intelligence (AI) to optimize the campaigns, marketers can improve their outcomes over time. Marketers can also use lead scoring to rank and prioritize the leads based on their attributes and behaviors, and they can focus on the most qualified ones for the sales pipeline. Effective marketing campaigns are crucial for generating high quality leads that can feed the sales process. 
 
 ## Key stakeholders
 
@@ -55,7 +55,7 @@ Guided by the upstream *forecast to plan* end-to-end process, this area influenc
 1. **Run a campaign**: Carry out your marketing strategy.
 
     - Add activities and assets.
-    - Run the campaign across channels such as email,SMS, push notifications, events, and custom channels.
+    - Run the campaign across channels such as email, SMS, push notifications, events, and custom channels.
 
 ## Benefits
 

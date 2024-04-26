@@ -1,5 +1,5 @@
 ﻿---
-title: Manage budgets overview
+title: Budget management feature overview
 description: Learn about how you can use the budget management features of Dynamics 365 to support your budgeting process, including definitions for stakeholders.
 author: rachel-profitt
 ms.author: raprofit

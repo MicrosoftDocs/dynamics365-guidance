@@ -1,7 +1,7 @@
 ﻿---
 
-title: Create a project plan
-description: Learn how to create a well-structured project plan for your Dynamics 365 implementation that covers all the critical areas, is actionable, accurate, realistic, and clear, and provides a feedback loop for improvement.
+title: Create a project plan for your Dynamics 365 implementations
+description: Learn how to create a well-structured project plan for your Dynamics 365 implementation that covers all the critical areas provides a feedback loop for improvement.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024

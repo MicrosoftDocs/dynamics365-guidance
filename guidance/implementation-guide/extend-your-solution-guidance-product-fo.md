@@ -1,6 +1,6 @@
 ---
 title: Extend Dynamics 365 finance and operations apps
-description: Learn how to use the extensibility model, the development architecture, the cross-app integration options, and the advanced practices and tools for extending Dynamics 365 finance and operations apps.
+description: Learn how to use the extensibility model, the development architecture, and the advanced tools for extending Dynamics 365 finance and operations apps.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024

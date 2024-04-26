@@ -1,7 +1,7 @@
 ---
 title: Route or deflect cases using AI Builder
 description: Find resources to help you configure your Dynamics 365 Customer Service solution to route or deflect cases using AI Builder.
-ms.date: 03/14/2024
+ms.date: 04/23/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: viange
@@ -92,23 +92,25 @@ Adding AI Builder actions to the routing flow, we can analyze the original text 
 
 ## Adding AI Builder actions in routing flows
 
-To demonstrate this approach, we'll use two of the prebuilt AI Builder models. Learn more about them in the following articles.
+To demonstrate this approach, we'll start by preparing a custom GPT prompt in Power Platform's AI Prompt section:
 
-- [Language detection](/ai-builder/flow-language-detection)
-- [Category extraction](/ai-builder/prebuilt-category-classification-pwr-automate)
+:::image type="content" source="media/AICaseDeflection/AIBuilder_menu1.png" alt-text="Screen of the custom prompt editor in Power Platform." lightbox="media/AICaseDeflection/AIBuilder_menu1.png":::
 
-> [!NOTE]
-> Prebuilt models are a great way to start with AI Builder. However, to fit your organization's requirements, you may want to consider the creation of a custom model, to define custom categories and train the model with the history of real customer interactions.
+:::image type="content" source="media/AICaseDeflection/AIBuilder_prompt1.png" alt-text="Screen of the custom prompt editor in Power Platform with detailed prompt." lightbox="media/AICaseDeflection/AIBuilder_prompt1.png":::
 
-Our flow will be integrated with the following logic:
+The flexibility of the GPT prompt will let us define that we want to process an input text and ask to categorize the text in one of our predefined categories. We can also specify that we want a text field contaning a reason to justify the assigned category. To complete the prompt we ask to extract additional information from the text. We can also indicate that we want the output formatted as JSON and include an example of the desired data structure.
 
-- Detect the language used by the customer in the original email
+We can test our prompt directly from the editor, by providing a sample input text to observe a preview of the output. This allows for some fine-tuning before saving the finalized prompt.
+
+We're now ready to use the newly created prompt in our existing ARC flows, to implement the following logic:
+
+- Process the text of the incoming email
 - Identify the category of the request
 - Store the extracted information in the new case
 
-When looking at what these models declare as output, we notice that we'll receive a *string* value for both Language/Classification, along with a Confidence score, which is a *float*. We therefore need to define some new columns in the case table, to store these values after we invoke the AI model:
+Before proceeding, we need to define some new columns in the case table, to store the values returned by the AI model:
 
-:::image type="content" source="media/AICaseDeflection/columns.png" alt-text="Screenshot of a list of A I models, showing the display name, name, and data type fields." lightbox="media/AICaseDeflection/columns.png":::
+:::image type="content" source="media/AICaseDeflection/D365_columns1.png" alt-text="Screenshot of a list of custom Dataverse columns." lightbox="media/AICaseDeflection/D365_columns1.png":::
 
 It's also a good idea to add these new columns to the case form, so we'll be able to see their values during our test later.
 
@@ -116,49 +118,25 @@ Now that the data model is ready, we can start editing the flow in Power Automat
 
 :::image type="content" source="media/AICaseDeflection/powerautomate2.png" alt-text="Diagram of the Power Automate flow, with the cursor highlighting the Insert a new step option." lightbox="media/AICaseDeflection/powerautomate2.png":::
 
-The first step we're adding is the language detection. To do that, we filter the available operations by selecting AI Builder:
+When adding the new step, we start by selecting the AI Builder connector to filter available actions, and then select the action "Create text with GPT using a prompt":
 
-:::image type="content" source="media/AICaseDeflection/powerautomate3.png" alt-text="Screenshot of the Choose an operation screen showing various filter operations." lightbox="media/AICaseDeflection/powerautomate3.png":::
-Then we search for the desired action:
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_add1.png" alt-text="Screenshot of Power Automate AI Builder connector." lightbox="media/AICaseDeflection/PowerAutomate_add1.png":::
 
-:::image type="content" source="media/AICaseDeflection/powerautomate4.png" alt-text="Screenshot of the term language being entered in the search field and showing results in the Action tab." lightbox="media/AICaseDeflection/powerautomate4.png":::
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_add2.png" alt-text="Screenshot of Power Automate AI Builder actions." lightbox="media/AICaseDeflection/PowerAutomate_add2.png":::
 
-The step is added to our flow, and we just need to set the email description as the input parameter:
+In the configuration of the new step, we need to select our previously saved custom prompt, and pass the Description value from the incoming email as the input parameter:
 
-:::image type="content" source="media/AICaseDeflection/powerautomate5.png" alt-text="Screenshot of the Detect the language being used in text pane, showing the Description entry in the Text field." lightbox="media/AICaseDeflection/powerautomate5.png":::
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_add3.png" alt-text="Screenshot of Power Automate AI Builder step." lightbox="media/AICaseDeflection/PowerAutomate_add3.png":::
 
-We'll now define variables to store the outputs of the language detection:
+Since we instructed the prompt to return a JSON output, we add an additional step to process the JSON which will allow us to work with specific fields. To do so, we leverage the native "Parse JSON" action, and provide a sample of the expected JSON to generate the corresponding schema:
 
-:::image type="content" source="media/AICaseDeflection/powerautomate6.png" alt-text="Diagram showing the flow from between initialize language value variable and initialize language score variable operations." lightbox="media/AICaseDeflection/powerautomate6.png":::
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_add4.png" alt-text="Screenshot of Power Automate Parse JSON step." lightbox="media/AICaseDeflection/PowerAutomate_add4.png":::
 
-Since the result of the language detection is potentially an array, we process all results with a "for each" step, to find the result with best confidence score:
+Finally, we can use the extracted values in the existing step that will create the new case:
 
-:::image type="content" source="media/AICaseDeflection/powerautomate7.png" alt-text="Screenshot of the Check all detected languages pane, with the results entry being a selected output." lightbox="media/AICaseDeflection/powerautomate7.png":::
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_add5.png" alt-text="Screenshot of Power Automate create record step." lightbox="media/AICaseDeflection/PowerAutomate_add5.png":::
 
-:::image type="content" source="media/AICaseDeflection/powerautomate8.png" alt-text="Screenshot of the Check for better Language Score pane, showing customizable fields to create conditions for the pane." lightbox="media/AICaseDeflection/powerautomate8.png":::
-
-:::image type="content" source="media/AICaseDeflection/powerautomate9.png" alt-text="Screenshot of the If yes pane, showing the underlying Set Language Value and Set Language Score variables." lightbox="media/AICaseDeflection/powerautomate9.png":::
-
-This is a demonstration of how we can process multiple results from any model. You could decide, for example,  to store all results in a related table for further use.
-
-Another approach would be to always get the first element from the results by using the *first(...)* expression, directly in variable initialization or even during case creation. 
-
-> [!NOTE]
-> Please always check the definition of the model you choose, to understand how the output is structured and what's the best way to read result values.
-
-Once we have the language detection set, we can repeat the same with the category classification. Note that in this case we also have to provide a language code as input, so we can reuse the output from the previous model:
-
-:::image type="content" source="media/AICaseDeflection/powerautomate10.png" alt-text="Screenshot of the Classify text into categories with the standard model pane, showing the Language and Text fields." lightbox="media/AICaseDeflection/powerautomate10.png":::
-
-We'll read the outputs of the category classification model in the same way we did before for language detection.
-
-After that, we're ready to infer these values during case creation, by editing the "Create a record" step:
-
-:::image type="content" source="media/AICaseDeflection/powerautomate11.png" alt-text="Screenshot of the banner reading Create a record(don't rename this step)." lightbox="media/AICaseDeflection/powerautomate11.png":::
-
-:::image type="content" source="media/AICaseDeflection/powerautomate12.png" alt-text="Screenshot of the A I Category, A I Category Confidence, A I Language, and A I Language Confidence fields." lightbox="media/AICaseDeflection/powerautomate12.png":::
-
-With these changes, the ARC flow always transforms a new email. Our logic will execute and the new case columns will fill with the results from AI Builder models.
+With these changes, the ARC flow will perform the expected logic to transform an incoming email into a new case, but at the same time it will enrich the case with the results from the AI action.
 
 ## Testing the process
 
@@ -176,19 +154,50 @@ Let's check our Power Automate flow and we'll see it was correctly triggered:
 
 :::image type="content" source="media/AICaseDeflection/flowrun.png" alt-text="Screenshot of the 28-day run history pane, showing the Start, Duration, and Status fields." lightbox="media/AICaseDeflection/flowrun.png":::
 
-If we open the details of this execution, we can check the results of the language detection and category extraction models:
+If we open the details of this execution, we can check the results of the GPT prompt:
 
-:::image type="content" source="media/AICaseDeflection/languageoutput.png" alt-text="Screenshot of the Outputs extendable pane, showing code that reveals the status of the language detection model." lightbox="media/AICaseDeflection/languageoutput.png":::
-
-:::image type="content" source="media/AICaseDeflection/categoryoutput.png" alt-text="Screenshot of the Outputs extendable pane, showing code that reveals the status of the category extraction model." lightbox="media/AICaseDeflection/categoryoutput.png":::
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_output1.png" alt-text="Screenshot of the Outputs extendable pane, showing code that reveals the status of the GPT prompt." lightbox="media/AICaseDeflection/PowerAutomate_output1.png":::
 
 Finally, going back into Customer Service to see the generated case, we can see the values stored in the record:
 
-:::image type="content" source="media/AICaseDeflection/case.png" alt-text="Screenshot of the A I Prediction pane, showing the A I Language, A I Language Confidence, A I Category, and A I Category confidence fields." lightbox="media/AICaseDeflection/case.png":::
+:::image type="content" source="media/AICaseDeflection/D365_output1.png" alt-text="Screenshot of the case form in Dynamics 365, showing the AI fields being populated." lightbox="media/AICaseDeflection/D365_output1.png":::
 
 With these values, we can enter the configuration of the workstream, and define new routing rules to divert the case to a specific queue, basing on the predicted category:
 
-:::image type="content" source="media/AICaseDeflection/routingrule.png" alt-text="Screenshot of the Conditions pane, showing customizable fields to configure a workstream and define routing rules." lightbox="media/AICaseDeflection/routingrule.png":::
+:::image type="content" source="media/AICaseDeflection/D365_routing1.png" alt-text="Screenshot of the Conditions pane, showing customizable fields to configure a workstream and define routing rules." lightbox="media/AICaseDeflection/D365_routing1.png":::
+
+Even if you don't feel like implementing complete automation in your routing rules yet, and prefer to let your agents analyze incoming emails, by providing a suggested category and a simple explanation, you can greatly reduce their effort during the triage phase.
+
+## Working with custom categories
+
+In the previous example we provided a static list of categories in the definition of our prompt. But what if we want to define and maintain the categories in a Dataverse table? Let's say for example that we created an Email Category table, to list the caetgory values, and insert a description of the category:
+
+:::image type="content" source="media/AICaseDeflection/EmailCategory_data1.png" alt-text="Screenshot of the Email Category table in Dataverse." lightbox="media/AICaseDeflection/EmailCategory_data1.png":::
+
+The GPT prompt editor allows us to perform grounding on Dataverse data, so we can edit our prompt to add a reference to our Email Category table, specify that the incoming text has to be matched with the category description and that we want the corresponding category name in return:
+
+:::image type="content" source="media/AICaseDeflection/AIBuilder_prompt2.png" alt-text="Screenshot of the GPT prompt editor with Dataverse grounding." lightbox="media/AICaseDeflection/AIBuilder_prompt2.png":::
+
+The results of this prompt will be very similar to what we obtained previously, but this time if we need to update the list of our categories, we can simply change the records in Dataverse and no change is required to the prompt definition.
+
+This approach also allows us to build some kind of fine-tuning and continuous improvement process. In this example, we have users check the results of the automated email categorization, and confirm or change the assigned category. For that purpose, we implement a flow with steps as in the following list:
+
+- Add in the case two columns, one for AI Category and one for Confirmed Category
+- Let predefined user roles double-check the category assigned by the AI
+- Users can confirm whether the assign category is correct, or select a different one
+- Periodically extract all the records where Confirmed Category is differebt from AI Category
+- Analyze the list of records to understand what they have in common and why they were assigned a wrong category
+- Improve the descriptions of the affected categories to improve the accuracy of the AI model
+
+With a process such as this example, you can incrementally increase the accuracy of your flow, without the need of any change to your implemented solution. You could even try to use a GPT prompt to generate category descriptions starting from past resolved cases.
+
+## Dataverse AI Functions
+
+Another option you can evaluate, is the use of [Dataverse AI Functions](/power-platform/power-fx/reference/function-ai) instead of the GPT prompt:
+
+:::image type="content" source="media/AICaseDeflection/PowerAutomate_aifunction1.png" alt-text="Screenshot of Dataverse AI Functions in Power Automate." lightbox="media/AICaseDeflection/PowerAutomate_aifunction1.png":::
+
+These functions are exposed as any other unbound action. You can easily run them not only from your Power Automate flow, but also in low-code plugins. While offering a bit less flexibility because you can't formulate your own custom prompt, they represent a very simple way to perform some AI actions in your solution.
 
 ## Summary
 
@@ -200,4 +209,4 @@ We could, for example,  implement a flow recognizing customers requesting instru
 
 Again, we could implement a flow to detect a customer asking for the status of a shipment. The flow could extract the unique number of the shipment, call an external API to check the status, and provide an answer to the customer automatically, resolving the case without human intervention.
 
-With the announcement of exciting [new Open AI capabilities in AI Builder](/ai-builder/prebuilt-azure-openai), it is possible to implement many more scenarios.
+With the flexibility of the GPT prompts, and all the tools offered by AI Builder and Azure Open AI, you can build exciting solutions that work seamlessly in your Power Platform environment.

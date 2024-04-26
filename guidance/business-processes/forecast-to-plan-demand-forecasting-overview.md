@@ -1,7 +1,7 @@
 ---
-title: Predict future demand for products and services with demand forecasting
-description: Read about how Dynamics 365 supports the demand forecasting business process.
-ms.date: 04/17/2024
+title: Predict future demand for products with demand forecasting
+description: Learn about how Dynamics 365 supports the demand forecasting business process, including the types of stakeholders and configuring demand forecasting.
+ms.date: 04/26/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -16,11 +16,11 @@ Demand forecasting is the process of predicting future demand for products and s
 
 When organizations have greater certainty in their expected demand, they can minimize buffer inventory as a result, which reduces the amount of money that is tied up in on hand inventory. It can also help organizations avoid the cost of expediting procurement or production due to unexpected demand.
 
-Another benefit of demand forecasting is that it can allow organizations to reduce order fulfillment lead times. In a make-to-order model, the fulfillment lead time will be constrained by the procurement and/or production lead times. If organizations use a demand forecast to drive planning processes, they can order or make longer-lead-time items in advance, reducing the amount of time from sales order entry to customer delivery. Forecasting also allows organizations to look at their holistic demand over larger periods of time which can be useful to drive global capacity planning and feed into strategic planning processes.
+Another benefit of demand forecasting is that it can allow organizations to reduce order fulfillment lead times. In a make-to-order model, the procurement and/or production lead times constrain the fulfillment lead time. If organizations use a demand forecast to drive planning processes, they can order or make longer-lead-time items in advance, reducing the amount of time from sales order entry to customer delivery. Forecasting also allows organizations to look at their holistic demand over larger periods of time, which can be useful to drive global capacity planning and feed into strategic planning processes.
 
-In industries such as retail, having inventory on hand at the time an order is placed is critical. When inventory is not available, the customer will go buy it somewhere else rather than waiting for your organization to buy or make more. An accurate demand forecast can help prevent stock-out scenarios and allow organizations to gain the revenue that they would have otherwise lost in a stockout.
+In industries such as retail, it's critical to have inventory on hand at the time an order is placed. When inventory isn't available, the customer buys it somewhere else rather than waiting for your organization to buy or make more. An accurate demand forecast can help prevent stock-out scenarios and allow organizations to gain the revenue that they would otherwise lose in a stockout.
 
-Demand forecasting is a fluid process that is often implemented in later phases or iterations of larger projects. The demand forecasting process and solution design should be reviewed on a regular basis to accommodate for the changing global supply chain.
+Demand forecasting is a fluid process that is often implemented in later phases or iterations of larger projects. The demand forecasting process and solution design should be reviewed regularly to accommodate for the changing global supply chain.
 
 ## Stakeholders
 
@@ -34,9 +34,9 @@ Many people in an organization must contribute to the decision-making process an
 
 The first step of the demand forecasting process is to gather historical data. This might include importing external historical demand to supplement the demand data in Dynamics 365. The next step in the process is to generate the statistical baseline forecast with Azure Machine Learning, which will create the forecast model, and then test the Mean Absolute Percentage Error (MAPE) for the model.
 
-Once the forecast is generated, it is reviewed in Dynamics 365 and users can update the recommended values as needed. When the forecasting values are approved, a user can authorize the forecast which publishes it to the system for use in planning and other operations. The following graphic shows the process flow described above.
+Once the forecast is generated, it's reviewed in Dynamics 365 and users can update the recommended values as needed. When the forecasting values are approved, a user can authorize the forecast that publishes it to the system for use in planning and other operations. The following graphic shows the process flow described earlier in this article.
 
-:::image type="content" source="media/Generate-forecast-process.png" alt-text="Flow diagram with steps for the process of generating forecasts.":::
+:::image type="content" source="media/Generate-forecast-process.png" alt-text="Flow diagram with steps for the process of generating forecasts." lightbox="media/Generate-forecast-process.png":::
 
 <!--## Demand forecasting key metrics
 
@@ -46,7 +46,7 @@ There are many key metrics that can be used to monitor and measure the success o
 
 ## Configuring demand forecasting
 
-There are a variety of components that are used in the configuration of demand forecasting in Dynamics 365 applications. The following table shows the configurations available, and the sequence recommended for setting up the configurations. *FO* in the **Product** column indicates finance and operations apps, and *CE* indicates customer engagement apps. The **Req?** column indicates a *Y* for required and an *N* for not required. Use the links on the configuration component to learn more about how to configure that component.
+There are various components that are used in the configuration of demand forecasting in Dynamics 365 applications. The following table shows the configurations available, and the sequence recommended for setting up the configurations. *FO* in the **Product** column indicates finance and operations apps, and *CE* indicates customer engagement apps. The **Req?** column indicates a *Y* for required and an *N* for not required. Use the links on the configuration component to learn more about how to configure that component.
 
 | Seq | Configuration component | Req? | Product | Menu path |
 |-----|-------------------------|------|---------|-----------|

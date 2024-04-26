@@ -1,6 +1,6 @@
 ﻿---
 title: Train users and increase adoption overview
-description: Learn why training users is vital for successful adoption of Dynamics 365 and explore the tools, processes, stakeholders, and benefits of effective training strategies.
+description: Learn why training users is vital for successful adoption of Dynamics 365 and explore the tools, processes, and benefits of effective training strategies.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: overview
@@ -56,7 +56,9 @@ Many people in your organization should be involved in the decision-making and d
 
 The following diagram illustrates the *train users and increase adoption* business process area.
 
-:::image type="content" source="media\administer-to-operate-train-users-increase-adoption-overview-1.svg" alt-text="Diagram of the train users and increase adoption process area.":::
+:::image type="content" source="media\administer-to-operate-train-users-increase-adoption-overview-1.svg" alt-text="Diagram of the train users and increase adoption business process area, showing the connection between the processes with the administer to operate business area." lightbox="media\administer-to-operate-train-users-increase-adoption-overview-1.svg":::
+
+[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 1. Start
 

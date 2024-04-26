@@ -1,6 +1,6 @@
 ---
 title: Set the ground rules for Dynamics 365 implementation projects
-description: Find guidance for why and how to set ground rules for the Dynamics 365 implementation project.
+description: Find guidance for why and how to set ground rules for the Dynamics 365 implementation project, including an outline on teaching the methodology.
 author: taksatoms
 ms.author: tsato
 ms.date: 06/14/2023

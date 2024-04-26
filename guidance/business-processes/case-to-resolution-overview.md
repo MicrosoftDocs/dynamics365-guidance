@@ -1,6 +1,6 @@
 ﻿---
 title: Overview of case to resolution end-to-end business process flow
-description: Learn about the end-to-end business process, from case to resolution. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the case to resolution end-to-end business flow with a diagram that describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 03/13/2024
 ms.topic: conceptual
 author: edupont04
@@ -17,7 +17,7 @@ This article describes the *case to resolution* end-to-end business process flow
 
 The following diagram shows the relationship of other processes and products/features for the *case to resolution* process.
 
-:::image type="content" source="media/case-to-resolution-process.png" lightbox="media/case-to-resolution-process.png" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs.":::
+:::image type="content" source="media/case-to-resolution-process.png" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/case-to-resolution-process.png":::
 
 The first column of this diagram shows potential upstream processes for the *case to resolution* process including the following:
 
@@ -149,7 +149,7 @@ There are product specific capabilities offered that interact with the *case to 
 
 The following diagram shows the high-level flow of the *case to resolution* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/case-to-resolution-flow.png"  lightbox="media/case-to-resolution-flow.png" alt-text="inventory to deliver end-to-end process flow diagram":::
+:::image type="content" source="media/case-to-resolution-flow.png" alt-text="inventory to deliver end-to-end process flow diagram" lightbox="media/case-to-resolution-flow.png":::
 
 The following steps are illustrated in the *case to resolution* end-to-end business process flow diagram.
 

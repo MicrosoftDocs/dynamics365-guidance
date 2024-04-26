@@ -1,6 +1,6 @@
 ---
-title: Configure demand forecasting for organizations with multiple legal entities
-description: Read about Forecast demand for multiple companies in Dynamics 365 Supply Chain Management.
+title: Configure demand forecasting for organizations
+description: Read about Forecast demand for multiple companies in Dynamics 365 Supply Chain Management, including overviews on the context, problem, and solution.
 ms.date: 03/14/2023
 ms.topic: conceptual
 author: rachel-profitt
@@ -18,7 +18,7 @@ This article describes design considerations and patterns to configure demand fo
 
 Many organizations are composed of multiple legal entities that engage in intercompany buying and selling activities. When the demand forecasting process runs, the demand expected for buying entities should be included as part of the demand forecasted by the selling entities. The figure below shows an example where there are three legal entities, where Company A sells to Company B and Company C. In this scenario, Company A's demand forecast should include expected sales to Company B, Company C, and any external customers of Company A.
 
-:::image type="content" source="media/intercompany-planning-group-relationship.png" alt-text="Intercompany planning group relationship":::
+:::image type="content" source="media/intercompany-planning-group-relationship.png" alt-text="Intercompany planning group relationship" lightbox="media/intercompany-planning-group-relationship.png":::
 
 ## Solution: Implement intercompany planning groups
 

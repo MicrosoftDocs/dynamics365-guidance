@@ -1,5 +1,5 @@
 ﻿---
-title: TechTalk What's new in Supply Chain Management 2023 wave 2
+title: What's new in Supply Chain Management 2023 wave 2
 description: Learn about what updates and features are included in 2023 release wave 2 for Dynamics 365 Supply Chain Management, including outlining various enhancements.
 author: dereklh77
 ms.author: v-heuerderek

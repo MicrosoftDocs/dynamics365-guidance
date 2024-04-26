@@ -1,5 +1,5 @@
 ---
-title: Options for regression testing
+title: Options for regression testing for Dynamics 365 solutions
 description: Learn about different tools for automating regression testing of your Dynamics 365 solution and how to evaluate them for your needs.
 author: edupont04
 ms.author: dudona

@@ -1,5 +1,5 @@
 ﻿---
-title: Create a test plan
+title: Create a test plan for your implementation projects
 description: Learn how to design a test plan for your Dynamics 365 solution that covers the scope, types, cycles, and outcomes of testing.
 ms.date: 01/23/2024
 ms.topic: conceptual
@@ -97,7 +97,7 @@ You can use tools like [Azure DevOps](/azure/devops/?view=azure-devops&preserve-
 
 The following figure shows an example of a test case:
 
-:::image type="content" source="media/testing-strategy-test-case.png" alt-text="Example of a test case, showing the process to test, requirements and prerequisites, steps, data, and expected versus actual results.":::
+:::image type="content" source="media/testing-strategy-test-case.png" alt-text="Example of a test case, showing the process to test, requirements and prerequisites, steps, data, and expected versus actual results." lightbox="media/testing-strategy-test-case.png":::
 
 ## Align the test plan with the solution versions
 

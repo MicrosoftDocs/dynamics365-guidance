@@ -1,5 +1,5 @@
 ---
-title: Define service costing overview and relation to other business processes
+title: Define service costing overview and relation to other processes
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to set the cost of the services that you sell.
 ms.date: 11/24/2023
 ms.topic: conceptual
@@ -47,7 +47,7 @@ The following diagram illustrates the *define service costing* business process 
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/concept-to-market-define-service-costing-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs.":::
+:::image type="content" source="media/concept-to-market-define-service-costing-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/concept-to-market-define-service-costing-flow.svg":::
 
 1. Start
 

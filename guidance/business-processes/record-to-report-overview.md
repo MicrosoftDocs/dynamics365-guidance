@@ -1,6 +1,6 @@
 ﻿---
 title: Overview of the record to report end-to-end business process
-description:  Learn about the end-to-end business process, from record to report. This article provides a high-level flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+description: Learn about the record to report end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
 ms.date: 11/10/2023
 ms.topic: conceptual
 author: edupont04
@@ -141,7 +141,7 @@ There are product specific capabilities offered that interact with the *record t
 
 The following diagram shows the high-level flow of the *record to report* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/record-to-report-flow.svg"  lightbox="media/record-to-report-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
+:::image type="content" source="media/record-to-report-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image." lightbox="media/record-to-report-flow.svg":::
 
 The following steps are illustrated in the *record to report* end-to-end business process flow diagram.
 

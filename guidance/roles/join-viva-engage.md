@@ -1,5 +1,5 @@
 ---
-title: About the Dynamics 365 partner community on Viva Engage (formerly Yammer)
+title: About the Dynamics 365 partner community on Viva Engage
 description: Join the Viva Engage Preview Early Access group to get updates and interact with the product team and other customers.
 author: edupont04
 ms.author: edupont

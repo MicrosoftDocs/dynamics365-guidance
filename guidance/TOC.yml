@@ -445,9 +445,9 @@ items:
                   href: resources/cs-agent-script-macro-sample.md
               - name: Artificial Intelligence
                 items:
-                - name: Deflect cases with artificial intelligence
+                - name: Route or deflect cases with artificial intelligence
                   href: resources/cs-ai-case-deflection.md
-                - name: Summarize Dynamics 365 Knowledge Base articles with ChatGPT
+                - name: Summarize KB articles with GPT
                   href: resources/ai-summarize-knowledge-base-articles.md
               - name: Copilot Studio
                 items:
@@ -457,6 +457,19 @@ items:
                   href: resources/copilot-studio-multilanguage-bot.md
                 - name: Play secured audio file
                   href: resources/copilot-studio-play-audio-file.md
+                - name: Application insights with Microsoft Copilot Studio
+                  href: resources/copilot-studio-appinsights.md
+              - name: Automation
+                items:
+                - name: Automate agent tasks
+                  href: resources/cs-pad-automation.md
+              - name: Channel Integration Framework 2.0
+                items:
+                - name: Set up the simulator for Channel Integration Framework v. 2.0
+                  href: resources/cs-set-up-cif2-simulator.md
+                - name: Set up click-to-run outbound calls
+                  href: resources/cs-set-up-outbound-calls.md
+  
 # 14806 dev tools
           - name: Develop solutions
             items:
@@ -474,10 +487,6 @@ items:
             - name: Scenarios for load tests
               href: resources/test-load-test-scenarios.md
 # 14804
-            - name: Simulator for Channel Integration Framework 2.0
-              href: resources/cs-set-up-cif2-simulator.md
-            - name: Set up click-to-run outbound calls
-              href: resources/cs-set-up-outbound-calls.md
 # 15071 analytics
           - name: Add analytics
             items:
@@ -538,6 +547,13 @@ items:
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
               - name: Vendor invoice line charges entity
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
+# Migrate from on-premises to online
+      - name: Migrate from on-premises to online
+        items:
+        - name: Migrate from Dynamics
+          href: migrate/overview.md
+        - name: Dynamics CRM on-premises to Dynamics 365 online migration process overview
+          href: migrate/opol-crm-migration-high-level-overview.md
 
 # data migration
 #        - name: Migrate data
@@ -958,18 +974,16 @@ items:
             href: business-processes/service-to-cash-areas-overview.md
           - name: Manage service assets overview
             href: business-processes/service-to-cash-manage-service-assets.md
-          - name: Schedule service work overview
-            href: business-processes/service-to-cash-schedule-service-work.md
           - name: Manage service resources overview
             href: business-processes/service-to-cash-manage-service-resources.md
-          - name: Perform service work
-            href: business-processes/service-to-cash-perform-service-work.md
           - name: Create and process service work
-            # items:
-            # - name: Create work orders
-            #   href: business-processes/service-to-cash-create-work-orders.md
-            # - name: Create and process service work
-            href: business-processes/service-to-cash-create-process-service-work.md
+            items:
+            - name: Create and process service work
+              href: business-processes/service-to-cash-create-process-service-work.md
+            - name: Schedule service work overview
+              href: business-processes/service-to-cash-schedule-service-work.md
+            - name: Perform service work
+              href: business-processes/service-to-cash-perform-service-work.md
           - name: Invoice customers
             href: business-processes/order-to-cash-invoice-sales-orders-overview.md
           - name: Monitor customer credit and collections
@@ -992,6 +1006,21 @@ items:
           href: implementation-guide/migrate-inventory-costing-data.md
         - name: Create a functional and technical design document
           href: patterns/create-functional-technical-design-document.md
+
+
+# Develop
+      - name: Development guides
+        items:
+        - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
+          href: develop/introduction-customer-engagement-ui-ux-design-guide.md
+        - name: Key UI/UX design principles
+          href: develop/ui-ux-design-principles.md
+        - name: UI/UX component details for model-driven apps
+          href: develop/ui-ux-component-details-model-driven-apps.md
+        - name: UI/UX component details for canvas apps
+          href: develop/ui-ux-component-details-canvas-apps.md
+        - name: UI/UX component details for tests and user feedback
+          href: develop/ui-ux-component-details-testing-feedback.md
 
 # Reference architectures
       - name: Reference architectures

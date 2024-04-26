@@ -1,6 +1,6 @@
 ---
 title: Solution Blueprint Review workshops
-description: The Solution Blueprint Review workshop serves as the starting point of Success by Design.
+description: Learn about the Solution Blueprint Review workshop, which sets the stage for the FastTrack engagement and serves as the starting point of Success by Design.
 ms.author: jedinh
 ms.date: 12/18/2020
 ms.topic: article
@@ -29,3 +29,4 @@ The Solution Blueprint Review workshop covers the following topics:
 
 Solution architects, functional leads, and technical leads are required to attend these workshops. Key stakeholders from the customer and partner teams are recommended to attend.
 
+Learn more at [Design a solution architecture that works for you](../implementation-guide/solution-architecture-design-pillars.md)

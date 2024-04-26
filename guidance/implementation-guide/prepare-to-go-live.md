@@ -1,5 +1,5 @@
 ---
-title: Prepare to go live
+title: Prepare your production environment to go live
 description: Learn how to prepare your production environment, deploy your solution, and avoid issues when your Dynamics 365 projects go live.
 author: vaniusca
 ms.author: vaniaf

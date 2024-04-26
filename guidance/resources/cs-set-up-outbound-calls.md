@@ -39,7 +39,7 @@ With the custom control, users can conveniently format phone numbers and initiat
     1. Point to the **Outbound Dialer Control** control, and add it to the field properties.
     1. In the **Field Properties** pane, on the **Controls** tab, select the **Outbound Dialer Control** control, and then configure the relevant settings. The following screenshot shows an example of the settings that you can configure.
 
-        :::image type="content" source="../media/outbound-calls-add-control.png" alt-text="Screenshot that show the settings for the custom control on the Controls tab of the Field Properties pane.":::
+        :::image type="content" source="../media/outbound-calls-add-control.png" alt-text="Screenshot that show the settings for the custom control on the Controls tab of the Field Properties pane." lightbox="../media/outbound-calls-add-control.png":::
 
         For example, specify whether the control validates phone numbers. In addition, select whether the control is available only on phones and tablets, or whether it's also available in browsers.
 

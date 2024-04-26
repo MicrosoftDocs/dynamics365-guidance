@@ -33,11 +33,9 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Issue and settle vendor payments process flow
 
-The following diagram illustrates the *issue and settle vendor payments* business process area.
+The following diagram illustrates the *issue and settle vendor payments* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the plan and budget assets business process area. The diagram shows the subprocesses for this business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
-
-![Flow diagram with steps for the process that is explained further in the next paragraphs.](media/design-to-retire-issue-and-settle-vendor-business-process-area-map.svg)
+:::image type="content" source="media/design-to-retire-issue-and-settle-vendor-business-process-area-map.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/design-to-retire-issue-and-settle-vendor-business-process-area-map.svg":::
 
 The *issue and settle vendor payments* process area flow diagram cover the following steps:
 

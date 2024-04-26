@@ -62,7 +62,7 @@ Learn more about [environment strategy](environment-strategy-overview.md) and [a
 
 Storage capacity is a standard calculation in Power Platform that the system administrator can manage easily. Use the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) to monitor storage and consumption. In the Power Platform admin center, go to **Resources** > **Capacity**, and then choose **Dataverse** for more details about environment capacity limits.
 
-:::image type="content" source="media/datamanagement_ppac.png" alt-text="Screenshot of the Capacity page in the Power Platform admin center.":::
+:::image type="content" source="media/datamanagement_ppac.png" alt-text="Screenshot of the Capacity page in the Power Platform admin center." lightbox="media/datamanagement_ppac.png":::
 
 ### Understand storage limits
 

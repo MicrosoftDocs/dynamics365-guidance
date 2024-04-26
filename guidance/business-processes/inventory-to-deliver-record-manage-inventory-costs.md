@@ -1,5 +1,5 @@
 ---
-title: Record and manage inventory costs overview for technology implementation
+title: Manage inventory costs overview for technology implementation
 description: Read about the business process area for recording and managing inventory costs in Dynamics 365 implementations.
 ms.date: 12/19/2023
 ms.topic: conceptual

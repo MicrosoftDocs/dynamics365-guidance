@@ -1,6 +1,6 @@
 ---
 title: Bring successful solutions to customers with application lifecycle management (ALM) strategies
-description: Get guidance for application lifecycle management (ALM) strategy and how end-to-end lifecycle management can provide improved visibility, automation, delivery, and future planning for your solution. We detail the steps to a successful ALM and what that looks like with Dynamics 365. We also provide information on the ALM workshop strategy.
+description: Get guidance for application lifecycle management (ALM) strategy and how end-to-end lifecycle management can improve your solution.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024
@@ -25,7 +25,7 @@ ALM is a way of managing your solution from the start to the end. It starts when
 
 The following diagram shows the stages of your solution, which could include one or more Dynamics 365 apps such as Finance, Supply Chain Management, Sales, Field Service, or Commerce.
 
-:::image type="content" source="media/application-lifecycle-management-overview.png" alt-text="Wheel of ALM processes from planning to writing your business needs, designing the solution, configuring based on your needs, creating, testing, deploying, and maintaining the solution.":::
+:::image type="content" source="media/application-lifecycle-management-overview.svg" alt-text="Wheel of ALM processes from planning to writing your business needs, designing the solution, configuring based on your needs, creating, testing, deploying, and maintaining the solution." lightbox="media/application-lifecycle-management-overview.svg":::
 
 ALM covers the entire lifecycle of your solution, not just development. It includes:
 
@@ -62,7 +62,7 @@ ALM isn't just about the development lifecycle that covers development activitie
 
 When you start your Dynamics 365 solution, you begin the application lifecycle: from the project's *Initiate* stage to the *Implement* stage, *Prepare* stage, and finally the *Operate* stage.
 
-:::image type="content" source="media/application-lifecycle-management-project-phases.png" alt-text="ALM in project stages.":::
+:::image type="content" source="media/application-lifecycle-management-project-phases.svg" alt-text="ALM in project stages." lightbox="media/application-lifecycle-management-project-phases.svg":::
 
 Throughout the project lifecycle, you work with different teams, manage project activities, define and map business processes, configure and develop your solution, test and deploy your code, and maintain your solution in production.
 
@@ -169,7 +169,7 @@ Finally, use build definitions and pipelines for automation and to identify and 
 
 The following example of a CI/CD approach has a centralized version control in place, a build agent using build definitions, and release pipelines to push code to a sandbox or other environments. In this scenario, Dev A develops Solution A and Dev B develops Solution B. Dev A gets Solution B (Dev B's code) using version control after a successful build automation. When the build is successful, the code is released to the sandbox environment using the release pipelines. After successful testing, the code is released to the production environment.
 
-:::image type="content" source="media/application-lifecycle-management-cicd.png" alt-text="Example of ALM CI/CD.":::
+:::image type="content" source="media/application-lifecycle-management-cicd.svg" alt-text="Example of ALM CI/CD." lightbox="media/application-lifecycle-management-cicd.svg":::
 
 ### Testing
 

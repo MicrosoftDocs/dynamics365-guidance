@@ -1,6 +1,6 @@
 ﻿---
 title: Onboard and manage the employee lifecycle
-description: Discover how the Onboard and manage the employee lifecycle business process can help you optimize onboarding new employees, manage employee records and performance, and foster a positive and productive work environment.
+description: Discover how the Onboard and manage the employee lifecycle business process can help you optimize onboarding new employees and foster a productive work environment.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual

@@ -18,7 +18,7 @@ We've based this article on [a TechTalk](https://www.youtube.com/embed/3fTK02OKS
 
 ## Integrating data seamlessly
 
-![Graphic that shows the planning phase of the classic supply chain pipeline structure, with a focus on suppliers, manufacturer, distribution center, and customer.](media\demand-planning-dynamics-365-scm-2.svg)
+:::image type="content" source="media\demand-planning-dynamics-365-scm-2.svg" alt-text="Graphic that shows the planning phase of the classic supply chain pipeline structure, with a focus on suppliers, manufacturer, distribution center, and customer." lightbox="media\demand-planning-dynamics-365-scm-2.svg":::
 
 ## Data import and transformation
 
@@ -32,7 +32,7 @@ A notable feature is the ability to create relationships between various data ta
 
 ## Advanced forecasting capabilities
 
-![A graphic showing the forecasting workflow, detailing Anima, E T S, Prophet, Best fit, and Custom Azure M L.](media\demand-planning-dynamics-365-scm-3.svg)
+:::image type="content" source="media\demand-planning-dynamics-365-scm-3.svg" alt-text="A graphic showing the forecasting workflow, detailing Anima, E T S, Prophet, Best fit, and Custom Azure M L." lightbox="media\demand-planning-dynamics-365-scm-3.svg":::
 
 ## Utilizing various forecasting models
 

@@ -35,11 +35,8 @@ The first step in the onboarding wizard is to provide the basic details of your 
     | Type | Description |
     |------|-------------|
     | **Test/trial/training** | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
-    | **Partner implementation** | Choose this option if your project is being implemented for the partner organization.|
-    | **Customer implementation** | Choose this option if your project is being implemented by you as a customer and you do no have a partner involved.|
-
-    > [!NOTE]
-    > If you are a partner who's creating the implementation project on behalf of their customer, choose the *Partner implementation* option.
+    | **Partner implementation** | Choose this option if your project is being implemented for a Microsoft partner, such as when you implement Dynamics 365 for your own organization as a Microsoft partner.|
+    | **Customer implementation** | Choose this option if your project is being implemented by a Microsoft partner for a customer, or if you're a customer of Microsoft and implementing Dynamics 365 without a Microsoft partner.|
 
 4. Select the type of project.
 

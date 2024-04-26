@@ -1,6 +1,6 @@
 ---
 title: Choose a global deployment model for Dynamics 365
-description: Learn how to choose between a global single-environment or a global multiple-environment deployment model for your Dynamics 365 solution, and understand the benefits and challenges of each option.
+description: Learn how to choose between a global single-environment or a global multiple-environment deployment model for your Dynamics 365 solution.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/16/2024

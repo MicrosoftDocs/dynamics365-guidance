@@ -1,5 +1,5 @@
 ---
-title: Extend Dynamics 365 apps without compromising performance or security
+title: Extend Dynamics 365 apps without compromising performance
 description: Learn how to customize Dynamics 365 apps to fit your business needs and avoid common pitfalls of extending cloud solutions.
 author: abunduc-ms
 ms.author: abunduc

@@ -1,5 +1,5 @@
 ---
-title: Delivery approach for training plans for your Dynamics 365 implementation projects
+title: Delivery approach for training plans for implementation projects
 description: Find guidance about how to define how you run training based on your training plan for your Dynamics 365 implementation project.
 ms.date: 06/26/2023
 ms.topic: conceptual
@@ -35,7 +35,7 @@ We believe that it's never too early to start training super users and trainers.
 
 The following image is a high-level sample schedule that shows training sessions for each important group that must be trained, alongside key relevant project milestones.
 
-:::image type="content" source="media/training-plan-schedule.png" alt-text="Sample training plan schedule.":::
+:::image type="content" source="media/training-plan-schedule.png" alt-text="Sample training plan schedule." lightbox="media/training-plan-schedule.png":::
 
 Trainers and project team members should be aware of how the size of the organization affects training. Larger organizations that have more users are likely to require multiple personas and more business use cases. Especially if these larger organizations are international companies or companies that have numerous locations, they might require different training sessions and venues, and training sessions might have to occur at different times during the project. In these cases, it's important not only to make sure that training materials are available in multiple languages, but also to employ multiple trainers or multilingual trainers.
 
@@ -86,7 +86,7 @@ As we discuss in the article [Define the training schedule](training-strategy-tr
 
 Your training plan and project plan should also include *dependencies*, which can be represented in a process workflow. They effectively show that specific tasks or activities must occur before others as part of your training strategy.
 
-:::image type="content" source="media/training-documentation.png" alt-text="Training documentation creation sample process workflow.":::
+:::image type="content" source="media/training-documentation.png" alt-text="Training documentation creation sample process workflow." lightbox="media/training-documentation.png":::
 
 The tree in the preceding image is an example of a straightforward dependency list for creating a specific type of training document. Your plan probably contains more complex dependencies that might rely on multiple, unrelated project tasks. Define and organize these dependencies at the start of a project. You can then reduce the amount of time that your trainers or other project members must wait for required tasks to be completed by scheduling upstream project tasks specifically to minimize this downtime. This task must be done in coordination with the broader project team and project schedule.
 

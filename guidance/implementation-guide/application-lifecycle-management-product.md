@@ -72,7 +72,7 @@ The development phase of ALM involves writing, testing, and merging source code 
 
 The following diagram illustrates the finance and operations app development lifecycle, with developer, build, testing, and production environments, and Azure DevOps and Lifecycle Services as the tools for ALM:
 
-:::image type="content" source="media/application-lifecycle-management-fo-development-lifecycle.png" alt-text="Diagram of the finance and operations apps development lifecycle." lightbox="media/application-lifecycle-management-fo-development-lifecycle.png":::
+:::image type="content" source="media/application-lifecycle-management-fo-development-lifecycle.svg" alt-text="Diagram of the finance and operations apps development lifecycle." lightbox="media/application-lifecycle-management-fo-development-lifecycle.svg":::
 
 ### Version control
 
@@ -95,7 +95,7 @@ Version control is the process of storing and maintaining source code for your c
 
 The following figure illustrates a recommended branching strategy, with a branch for each release, a development branch, and a code upgrade branch all branching from the main branch:
 
-:::image type="content" source="media/application-lifecycle-management-fo-branching.png" alt-text="Diagram of finance and operations apps branching.":::
+:::image type="content" source="media/application-lifecycle-management-fo-branching.svg" alt-text="Diagram of finance and operations apps branching." lightbox="media/application-lifecycle-management-fo-branching.svg":::
 
 [Learn more about developing and customizing apps](/dynamics365/fin-ops-core/dev-itpro/dev-tools/developer-home-page).
 
@@ -237,7 +237,7 @@ Layering occurs on import of solutions when a specific component is affected by 
 
 In the following example, the column length was originally 1,024. When Managed Solution A was imported, the column was truncated to 128. After importing Managed solution B, the column was increased to 4,096. The unmanaged solution layer was then updated to 65,536, which is what the user experiences.
 
-:::image type="content" source="media/application-lifecycle-management-ce-solution-layering.png" alt-text="Illustration of the effect of solution layering.":::
+:::image type="content" source="media/application-lifecycle-management-ce-solution-layering.svg" alt-text="Illustration of the effect of solution layering." lightbox="media/application-lifecycle-management-ce-solution-layering.svg":::
 
 The example is only meant as an illustration that column lengths shouldn't be changed frequently in the solutions, because it can cause data to be truncated. Also, the unmanaged layer shouldn't be directly updated. Managed solutions should be deployed instead.
 
@@ -251,17 +251,17 @@ The number of solutions that are used to deliver an app affects the number of Dy
 
 Consider the scenario where an app consists of a single solution. Version 1 of the app is implemented and released to production, as shown in the following illustration.
 
-:::image type="content" source="media/application-lifecycle-management-ce-solution-release1.png" alt-text="Illustration of Solution A version 1 released as a managed solution from a development environment to production.":::
+:::image type="content" source="media/application-lifecycle-management-ce-solution-release1.svg" alt-text="Illustration of Solution A version 1 released as a managed solution from a development environment to production." lightbox="media/application-lifecycle-management-ce-solution-release1.svg":::
 
 The development environment is preserved to support any necessary patching of the live app. In parallel, another development environment is required to start work on version 2 of the app. Patches to version 1 are incorporated with enhancements for version 2 by propagating as unmanaged changes between development environments, as shown in the following illustration.
 
-:::image type="content" source="media/application-lifecycle-management-ce-solution-release2.png" alt-text="Illustration of Solution A version 1 and version 2 released to production.":::
+:::image type="content" source="media/application-lifecycle-management-ce-solution-release2.svg" alt-text="Illustration of Solution A version 1 and version 2 released to production." lightbox="media/application-lifecycle-management-ce-solution-release2.svg":::
 
 When version 2 of the app is complete and released to production, the development environments are rotated. Dev\_2 is preserved to support any necessary patching of the live app and Dev\_1 is recycled to start work on version 3 of the app in parallel.
 
 Let's expand the scenario to consider an app that consists of two solutions, one dependent on the other. In this case, you'll need four development environments. For example, you have a core solution, with a regional variant solution dependent on the core solution. The previous single solution example showed that two development environments are required to maintain version 1 of the core solution in production, while version 2 is being implemented in parallel. Since the regional solution has a dependency on the core solution, a third environment is required to support the dependency by importing the managed version of the core solution, as shown in the following illustration.
 
-:::image type="content" source="media/application-lifecycle-management-ce-solution-release3.png" alt-text="Illustration of the release of a solution with dependencies.":::
+:::image type="content" source="media/application-lifecycle-management-ce-solution-release3.svg" alt-text="Illustration of the release of a solution with dependencies." lightbox="media/application-lifecycle-management-ce-solution-release3.svg":::
 
 Finally, the regional variations might be implemented on a different timeline than the core solution. This introduces a need for a fourth environment to support version 2 of the regional solution to be implemented while version 1 is maintained in live use.
 

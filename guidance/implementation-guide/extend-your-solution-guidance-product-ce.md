@@ -1,5 +1,5 @@
 ---
-title: Extend customer engagement apps
+title: Extend customer engagement apps when implementing solutions
 description: Learn how to use Power Apps, tools, and best practices to make customer engagement apps in Dynamics 365 work better for your needs.
 author: abunduc-ms
 ms.author: abunduc

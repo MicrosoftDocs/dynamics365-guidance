@@ -1,5 +1,5 @@
 ---
-title: The inventory to deliver process is broken down into managing, handling, and delivering inventory
+title: Manage inventory with the inventory to deliver business process
 description: Get an overview for each of the business process areas in the inventory to deliver end-to-end business process in Dynamics 365 solutions.
 ms.date: 12/08/2023
 ms.topic: conceptual

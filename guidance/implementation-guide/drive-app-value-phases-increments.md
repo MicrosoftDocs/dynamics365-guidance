@@ -20,11 +20,11 @@ You want to deliver value to your business and users through digital transformat
 
 You might think that you should start with the essential and basic features in the first phase of your solution and add the more innovative and differentiating features in later phases. But this approach has some risks. If the most valuable parts of the transformation are planned for later, you risk stakeholders losing interest, or poor user perception of the system, which is hard to correct. You might miss the opportunity to transform your business process and gain a competitive edge. And you might find that the features that were differentiators before are now essential because of changes in your industry and market.
 
-:::image type="content" source="media/drive-app-value-phases-increments.png" alt-text="Diagram showing four phases of digital transformation with features from different quadrants of the transformation map." :::
+:::image type="content" source="media/drive-app-value-phases-increments.png" alt-text="Diagram showing four phases of digital transformation with features from different quadrants of the transformation map." lightbox="media/drive-app-value-phases-increments.png":::
 
 A better approach is to plan your phases so that you can include features from different quadrants of the transformation map. You want to deliver a holistic solution that has the key process elements, integrations, and reporting that create value. You also want to look for quick wins: the latest Dynamics 365 features that you can easily adopt with little effort to bring innovation and differentiation to your app.
 
-:::image type="content" source="media/drive-app-value-key-process-elements.png" alt-text="Diagram showing the key process elements of a digital transformation solution: app features, integrations, and reporting." :::
+:::image type="content" source="media/drive-app-value-key-process-elements.png" alt-text="Diagram showing the key process elements of a digital transformation solution: app features, integrations, and reporting." lightbox="media/drive-app-value-key-process-elements.png":::
 
 Digital transformation isn't only about process and technology. It's also about people. You need to engage your users and stakeholders throughout your program. You need to generate excitement and curiosity, but most importantly, feedback. Think of a TV series that shows teasers at the end of each episode or season to attract viewers back to the show. Do the same for your digital transformation story by delivering value beyond the essentials in each phase so your customers come back for more.
 

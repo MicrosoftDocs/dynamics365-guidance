@@ -1,5 +1,5 @@
 ---
-title: Introduction to Success by Design 
+title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
 ms.date: 03/24/2023
 ms.topic: conceptual
@@ -87,7 +87,7 @@ For interested customers, Microsoft recommends that project leaders team up with
 
 Success by Design maps the Dynamic 365 implementation lifecycle into four methodology-agnostic phases: Initiate, Implement, Prepare, and Operate. In this section and the following sections, we outline the Success by Design phases, their relationship to Success by Design reviews, and the desired outputs and outcomes.
 
-![Four bubbles to represent the four phases, Initiate, Implement, Prepare, Operate.](media/success-by-design-phases.png)
+:::image type="content" source="media/success-by-design-phases.png" alt-text="Four bubbles to represent the four phases, Initiate, Implement, Prepare, Operate." lightbox="media/success-by-design-phases.png":::
 
 In the **Initiate phase**, the project team is in discovery mode, gathering and validating business requirements, finalizing the high-level solution approach, making inroads to define all in-scope workstreams, and updating the project plan to reflect these updates. When the project team has produced the high-level solution design and the related project workstreams are more or less defined, Success by Design begins with the Solution Blueprint Review. Learn more in the section [Success by Design reviews](#success-by-design-reviews).  
 
@@ -107,7 +107,7 @@ The **Solution Blueprint Review** serves as the starting point of Success by Des
 
 The figure below illustrates that Success by Design reviews aren't to be conducted as abstract exercises separated from the project. Rather, the scheduling and implementation of each review relies on the availability of key project artifacts and the readiness of the project team to discuss them.
 
-![Diagram with outputs for each Success by Design phase.](media/success-by-design-outputs.png)
+:::image type="content" source="media/success-by-design-outputs.png" alt-text="Diagram with outputs for each Success by Design phase." lightbox="media/success-by-design-outputs.png":::
 
 > [!NOTE]
 > Other implementation articles address elements of Success by Design, but for the most comprehensive coverage of Success by Design framework, please refer to the [Success by Design training](/learn/modules/success-by-design/) on Microsoft Learn. Taken together, the guidance in the Methodology guide, used alongside the Success by Design framework, should equip project teams for better, more successful project outcomes.
@@ -130,7 +130,7 @@ The primary review outputs fall into two related categories: findings and recomm
 
 Findings should include as much detail as possible and be matched to known patterns. Findings matched to known patterns often yield insights that lead to recommendations or actions necessary to resolve the issues identified.
 
-![Three boxes with arrows to illustrate that findings are matched to known patterns that then lead to recommendations.](media/success-by-design-findings.png)
+:::image type="content" source="media/success-by-design-findings.png" alt-text="Three boxes with arrows to illustrate that findings are matched to known patterns that then lead to recommendations." lightbox="media/success-by-design-findings.png":::
 
 To better illustrate this point, consider this customer example:
 
@@ -155,7 +155,7 @@ The architect's findings are summarized as follows:
 
 The architect's findings and recommendations are based on careful review that calls out the lack of solution performance testing as a risk, which the project team must address to avoid downstream impact on the project.
 
-![Extends previous illustration with success measures for the recommendations that are based on review and findings. The success measures are risks, assertions, and issues.](media/success-by-design-measures.png)
+:::image type="content" source="media/success-by-design-measures.png" alt-text="Extends previous illustration with success measures for the recommendations that are based on review and findings. The success measures are risks, assertions, and issues." lightbox="media/success-by-design-measures.png":::
 
 In Success by Design, findings link observations to known patterns that invite actions necessary to address project risks and issues.
 
@@ -169,7 +169,7 @@ By its very nature, Success by Design is a project specific endeavor. For anyone
 
 Success by Design empowers project teams to track the health of projects across seven categories and over 30 success measures. The figure below highlights these categories and related success measures.
 
-![Illustrates how you can track success measures across architecture, key areas, implementation, product features, fit for purpose, project governance, competency, and support.](media/success-by-design-tracking-measures.png)
+:::image type="content" source="media/success-by-design-tracking-measures.png" alt-text="Illustrates how you can track success measures across architecture, key areas, implementation, product features, fit for purpose, project governance, competency, and support." lightbox="media/success-by-design-tracking-measures.png":::
 
 Tracking success measures is simple: After a Success by Design review or other compelling project event, your FastTrack Solution Architect or partner architect will access Microsoft's Success by Design tooling and update the relevant success measures for the project. Success measure updates are either red, yellow, or green, and include project-related details relevant to the success measure.
 

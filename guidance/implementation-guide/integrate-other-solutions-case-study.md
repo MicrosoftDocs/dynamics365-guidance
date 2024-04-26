@@ -1,6 +1,6 @@
 ---
 title: Case study in integration strategy
-description: Learn how a public sector organization faced challenges with its initial Dynamics 365 integration architecture and how it redesigned its strategy to achieve better performance, cost savings, and data insights.
+description: Learn how a public sector organization faced challenges with its initial Dynamics 365 integration architecture and how it redesigned its strategy.
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/26/2024

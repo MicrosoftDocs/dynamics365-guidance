@@ -1,5 +1,5 @@
 ---
-title: Overview of end-to-end scenarios and business processes in Dynamics 365
+title: Overview of end-to-end business processes in Dynamics 365
 description: Get an overview of the end-to-end scenarios that Dynamics 365 supports, and which organizations often look for.
 author: rachel-profitt
 ms.author: raprofit
@@ -27,8 +27,10 @@ The following table provides links to the introduction, overview, and list of bu
 | End to end scenario | Introduction | Overview | Business process areas |
 |--|--|--|--|
 | Acquire to dispose | [Introduction](acquire-to-dispose-introduction.md) | [End-to-end overview](acquire-to-dispose-overview.md) | [Areas](acquire-to-dispose-areas.md) |
+| Administer to operate | [Introduction](administer-to-operate-introduction.md) | [End-to-end overview](administer-to-operate-overview.md) |<!-- No Areas article for this process currently. --> |
 | Case to resolution | [Introduction](case-to-resolution-introduction.md) | [End-to-end overview](case-to-resolution-overview.md) | [Areas](case-to-resolution-areas.md) |
-|Concept to market|[Introduction](concept-to-market-introduction.md)|[End-to-end overview](concept-to-market-overview.md)|[Areas](concept-to-market-areas.md)|
+| Concept to market | [Introduction](concept-to-market-introduction.md) | [End-to-end overview](concept-to-market-overview.md) | [Areas](concept-to-market-areas.md) |
+| Design to retire | [Introduction](design-to-retire-introduction.md) | [End-to-end overview](design-to-retire-overview.md) | [Areas](design-to-retire-areas.md) |
 | Forecast to plan overview | [Introduction](forecast-to-plan-introduction.md) | [End-to-end overview](forecast-to-plan-overview.md) | [Areas](forecast-to-plan-areas.md) |
 | Hire to retire | [Introduction](hire-to-retire-introduction.md) | [End-to-end overview](hire-to-retire-overview.md) | [Areas](hire-to-retire-areas.md) |
 | Inventory to deliver | [Introduction](inventory-to-deliver-introduction.md) | [End-to-end overview](inventory-to-deliver-overview.md) | [Areas](inventory-to-deliver-areas.md) |

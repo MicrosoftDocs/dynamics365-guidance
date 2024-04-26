@@ -1,6 +1,6 @@
 ---
 title: Design a solution architecture that works for you
-description: Learn how to turn your vision into a blueprint for a successful solution using the solution architecture design pillars and the Success by Design framework for Dynamics 365 apps.
+description: Learn how to turn your vision into a blueprint for a successful solution using the solution architecture design pillars and the Success by Design framework.
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
@@ -44,7 +44,7 @@ Finally, you need to develop a solution strategy using technology and tools. You
 
 The following diagram summarizes the solution architecture design pillars and how they relate to your vision.
 
-:::image type="content" source="media/solution-architecture-pillar-vision.png" alt-text="Diagram of the solution architecture."
+:::image type="content" source="media/solution-architecture-pillar-vision.png" alt-text="Diagram of the solution architecture." lightbox="media/solution-architecture-pillar-vision.png":::
 
 ## Next steps
 

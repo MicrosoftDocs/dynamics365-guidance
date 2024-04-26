@@ -42,7 +42,7 @@ Microsoft designs, builds, and operates datacenters that strictly control physic
 - Seismic bracing, round-the-clock security staff, and backup power in the buildings
 - Cameras, alarms, and two-factor access control systems in the computer rooms
 
-:::image type="content" source="media/datacenter-security.png" alt-text="Illustration of state-of-the-art physical datacenter security features for perimeter, building, and computer rooms.":::
+:::image type="content" source="media/datacenter-security.png" alt-text="Illustration of state-of-the-art physical datacenter security features for perimeter, building, and computer rooms." lightbox="media/datacenter-security.png":::
 
 [Learn more about datacenter security](/compliance/assurance/assurance-datacenter-security).
 
@@ -68,7 +68,7 @@ Data is one of your most valuable and irreplaceable assets, and encryption is th
 
 At a minimum, Dynamics 365 environment databases use SQL TDE (Transparent Data Encryption, compliant with FIPS 140-2) to encrypt and decrypt the data and log files in real time. This provides data encryption at rest.
 
-:::image type="content" source="media/database-encryption.png" alt-text="Illustration of features of full database encryption using SQL Transparent Database Encryption.":::
+:::image type="content" source="media/database-encryption.png" alt-text="Illustration of features of full database encryption using SQL Transparent Database Encryption." lightbox="media/database-encryption.png":::
 
 By default, Microsoft stores and manages the database encryption keys for your Dynamics 365 deployments. Finance and operations apps use server-side encryption with service-managed keys. Microsoft handles all aspects of key management, such as key issuance, rotation, and backup.
 
@@ -78,7 +78,7 @@ For customer engagement apps, you can choose to manage the database encryption k
 
 Your data in transit is protected in several ways. Dynamics 365 uses HTTPS encryption to secure the traffic between Dynamics 365 and users. Azure protects data in transit to or from external components, and data in transit internally, such as between two virtual networks. Azure uses industry-standard transport protocols such as TLS between user devices and Microsoft datacenters, and within datacenters themselves.
 
-:::image type="content" source="media/encryption-in-transit.png" alt-text="Illustration of how data is protected in transit between a user and the service, between datacenters, and by end-to-end encryption of communications between users.":::
+:::image type="content" source="media/encryption-in-transit.png" alt-text="Illustration of how data is protected in transit between a user and the service, between datacenters, and by end-to-end encryption of communications between users." lightbox="media/encryption-in-transit.png":::
 
 ## Secure identity
 
@@ -105,13 +105,13 @@ Microsoft Entra works for apps in the cloud, on mobile, or on-premises. It deleg
 
 Azure provides [fully secured identity federation with Active Directory on-premises](/azure/architecture/reference-architectures/identity/azure-ad). Federation with Microsoft Entra or Microsoft 365 lets users authenticate using their on-premises credentials and access all resources in the cloud.
 
-:::image type="content" source="media/authentication-for-online-services.png" alt-text="Diagram illustrating how Microsoft Entra provides authentication and authorization for PCs and devices, apps such as Microsoft 365 and Dynamics 365, other directory services, and multifactor authentication.":::
+:::image type="content" source="media/authentication-for-online-services.png" alt-text="Diagram illustrating how Microsoft Entra provides authentication and authorization for PCs and devices, apps such as Microsoft 365 and Dynamics 365, other directory services, and multifactor authentication." lightbox="media/authentication-for-online-services.png":::
 
 ### Authentication for conditional access
 
 Users can access cloud applications from anywhere and from any device, such as mobile phones, tablets, or laptops from the office or home. As a result, access control decisions shouldn't be based only on who can access a resource. You also need to consider how a resource is accessed. Microsoft Entra External Identities addresses this requirement by providing conditional access policies. With conditional access, you can implement automated access control decisions for accessing your cloud apps that are based on conditions.
 
-:::image type="content" source="media/conditional-access.png" alt-text="Illustration of how conditional access automates decisions for allowing or blocking access to your apps based on conditions.":::
+:::image type="content" source="media/conditional-access.png" alt-text="Illustration of how conditional access automates decisions for allowing or blocking access to your apps based on conditions." lightbox="media/conditional-access.png":::
 
 [Learn more about Microsoft Entra External ID](/entra/external-id/external-identities-overview).
 
@@ -141,7 +141,7 @@ As a customer, you're responsible for:
 
 Most Dynamics 365 implementations have integrations with a range of Azure services, on-premises systems, and cloud systems.
 
-:::image type="content" source="media/common-integrations.png" alt-text="Illustration of Dynamics 365 implementations integrated with various cloud systems, on-premises systems, and a range of Azure services.":::
+:::image type="content" source="media/common-integrations.png" alt-text="Illustration of Dynamics 365 implementations integrated with various cloud systems, on-premises systems, and a range of Azure services." lightbox="media/common-integrations.png":::
 
 Consider the out-of-the-box integrations before building custom solutions. The native integration with other Microsoft services is a tried, tested, and recommended approach. Some examples of native integration options available in Dynamics 365 include:
 

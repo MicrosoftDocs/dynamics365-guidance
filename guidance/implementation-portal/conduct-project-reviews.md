@@ -1,6 +1,6 @@
 ﻿---
-title: Conduct project reviews for your Dynamics 365 implementation projects
-description: Learn how to conduct project reviews in Dynamics 365 Implementation Portal.
+title: Conduct project reviews for your implementation projects
+description: Learn how to conduct project reviews in Dynamics 365 Implementation Portal, including overviews on review statuses and messages.
 ms.date: 07/05/2023
 ms.topic: conceptual
 author: edupont04

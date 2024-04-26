@@ -43,6 +43,10 @@ landingContent:
           url: cs-agent-script-macro-sample.md
         - text: Deflect cases with artificial intelligence
           url: cs-ai-case-deflection.md
+        - text: Automate agent tasks
+          url: cs-pad-automation.md
+        - text: Appinsights for Copilot Studio
+          url: copilot-studio-appinsights.md
 # Card
   - title: Setup
     linkLists:

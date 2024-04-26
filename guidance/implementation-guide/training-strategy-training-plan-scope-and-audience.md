@@ -1,5 +1,5 @@
 ---
-title: Create a training plan for your Dynamics 365 implementation projects
+title: Create a training plan for your implementation projects
 description: Find guidance about how to develop your own training plan for your Dynamics 365 implementation project.
 ms.date: 06/27/2023
 ms.topic: conceptual
@@ -13,7 +13,7 @@ Proper training is critical to user adoption. Organizations must develop a train
 
 It's important to remember that managing a training plan is an iterative process. As you progress in the project and learn more about your business requirements and training needs, you might have to update your plan.<!-- [This sample training plan charter](https://community.dynamics.com/cfs-filesystemfile/__key/communityserver-components-sitefiles/TechTalk+Presentation+Files/Part-2-_2D00_Training-Plan-Charter-Template-DYN840PAL.dotx?_=637360611901424624) gives you something to start with. TODO: FIX BROKEN LINK-->
 
-:::image type="content" source="media/training-plan-elements.png" alt-text="Training plan elements.":::
+:::image type="content" source="media/training-plan-elements.png" alt-text="Training plan elements." lightbox="media/training-plan-elements.png":::
 
 We recommend putting together a training plan that, at a high level, consists of at least the following elements:
 
@@ -103,7 +103,7 @@ System users are the people who use the system daily and drive direct business v
 
 As part of your training plan, be sure to identify each business role that must use your solution differently and requires training. This process is related to, but distinct from, the process of creating groups of users based on security role. Some personas might have identical security roles in Dynamics 365 but different job functions. These groups of users use your solution differently and require different training.
 
-:::image type="content" source="media/training-personas.png" alt-text="Training personas.":::
+:::image type="content" source="media/training-personas.png" alt-text="Training personas." lightbox="media/training-personas.png":::
 
 For example, your organization determines that the access that salespeople and sales team leaders require in your system is similar enough to warrant identical security roles. Nevertheless, it's important that these groups of users are treated distinctly during this portion of your training strategy, and that each group receives correct training. Salespeople must be trained more on the "doing" functions of your solution, such as creating records, updating records, and sending emails. Although sales team leaders might work on similar tasks to salespeople, and they might require some or all of the same training, they also need other types of training, such as reviewing and approving records, and creating and viewing charts and dashboards.
 

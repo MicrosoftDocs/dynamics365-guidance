@@ -1,5 +1,5 @@
 ---
-title: Overview of the manage project resources and schedule business process area
+title: Manage project resources and schedule process area overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing resources and schedule for projects.
 ms.date: 11/29/2023
 ms.topic: conceptual

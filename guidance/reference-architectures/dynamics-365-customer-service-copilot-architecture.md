@@ -1,6 +1,6 @@
 ---
 title: Copilot in Dynamics 365 Customer Service architecture
-description: View the architecture diagram to understand how Copilot works in Dynamics 365 Customer Service.
+description: View the architecture diagram to understand how Copilot works in Dynamics 365 Customer Service, including overviews on dataflows and components.
 author: neeranelli
 ms.author: nenellim
 ms.topic: conceptual
