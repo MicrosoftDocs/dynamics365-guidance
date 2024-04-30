@@ -1,7 +1,7 @@
 ---
 title: Optimize your implementation with a fit-to-standard and fit-gap analysis
 description: Learn how to review your current processes and identify what to change, keep, or add to make the most of your Dynamics 365 implementation.
-ms.date: 01/16/2024
+ms.date: 04/30/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
@@ -37,9 +37,17 @@ Fit-to-standard analysis is a method to compare your current processes with the 
 
 We recommend that you start with fit-to-standard analysis for every project. Here are the steps to follow:
 
-- Create a business process catalog. This is a list of the processes that you want to configure and use in Dynamics 365. You should create this catalog in the early stages of the project to define the scope of your solution.
-- Use the business process catalog to guide your fit-to-standard analysis. Work iteratively through the processes, starting with the high-level core processes and then moving to the more detailed subprocesses and variants. Evaluate how well they fit your business needs and expectations within the system.
-- Configure the system to match the processes in the catalog. You don't need to configure everything perfectly at first, but you should have a good, high-level understanding of how the processes can be implemented in Dynamics 365. This helps you create the solution blueprint and set the right culture of "adopt wherever possible, adapt only where justified."
+1. **Create a business process catalog**
+    
+    This is a list of the processes that you want to configure and use in Dynamics 365. You should create this catalog in the early stages of the project to define the scope of your solution.
+
+2. **Use the business process catalog to guide your fit-to-standard analysis**
+    
+    Work iteratively through the processes, starting with the high-level core processes and then moving to the more detailed subprocesses and variants. Evaluate how well they fit your business needs and expectations within the system.
+
+3. **Configure the system to match the processes in the catalog**
+    
+    You don't need to configure everything perfectly at first, but you should have a good, high-level understanding of how the processes can be implemented in Dynamics 365. This helps you create the solution blueprint and set the right culture of "adopt wherever possible, adapt only where justified."
 
 By using this approach, you can benefit from:
 
