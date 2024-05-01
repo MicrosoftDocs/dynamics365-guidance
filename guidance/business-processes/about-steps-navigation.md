@@ -6,7 +6,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: conceptual #Required; don't change.
 ms.collection: get-started #Required; don't change.
-ms.date: 10/27/2023
+ms.date: 04/26/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -165,7 +165,12 @@ This article describes the abbreviations we use to describe where to do somethin
 
 ### Application interfaces
 
-Currently, business users access Dynamics 365 in the browser in different layouts, depending on the specific app. The customer engagement apps use the Unified Interface, and the finance and operations apps use a native layout. Learn more at [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface) and at [Navigation concepts for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/user-interface/page-navigation). A full learning course is available at [Navigate finance and operations apps](/training/modules/navigate-finance-operations/).
+Currently, business users access Dynamics 365 in the browser in different layouts, depending on the specific app. The customer engagement apps use the Unified Interface, and the finance and operations apps use a native layout, as does the Business Central app. Learn more at the following resources:
+
+- [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface)  
+- [Navigation concepts for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/user-interface/page-navigation)  
+  - A full learning course is available at [Navigate finance and operations apps](/training/modules/navigate-finance-operations/).
+- [Work with Business Central](/dynamics365/business-central/ui-work-product)  
 
 > [!TIP]
 > When you use the business process articles, note which app and where in that app to find the different tasks. If you can't see or navigate to a path, make sure you are in the right app, and that you have the relevant permissions. If the problem persists, work with your system admin. They can help you find out if you have the right licenses and permissions.
@@ -174,17 +179,20 @@ Currently, business users access Dynamics 365 in the browser in different layout
 
 The following list shows the abbreviations that are used for each Dynamics 365 app or service and their related user interfaces.
 
+- BC = Dynamics 365 Business Central
 - COM = Dynamics 365 Commerce
 - CSB = Commerce site builder
 - POS = Commerce Point of Sale
 - CSH = Customer Service hub
-- FSH = Field Service hub
 - FIN = Dynamics 365 Finance
+- FS = Dynamics 365 Field Service
+- FSM = Field Service mobile app
 - HR = Dynamics 365 Human Resources
 - PMA = Dynamics 365 Project Operations
 - POH = Project Operations hub
-- SAL = Sales hub
-- MKT = Dynamics 365 Marketing
+- RS = Resource scheduling app
+- MKT = Dynamics 365 Marketing (now Dynamics 365 Customer Insights - Journeys)
+- SAL = Dynamics 365 Sales
 - SCM = Dynamics 365 Supply Chain Management
 - WMS = Warehouse Management System mobile device
 
@@ -215,6 +223,6 @@ Let's take a closer look at the example table from the start of the article.
 
 This example shows us that the process step for *credit and collections parameters* must be configured during the *Initialize* process stage. It's part of the *base* configuration stage, and it's a *configuration*. That's what we learn from the the values in the [Process stage](#process-stage-terminology) column for that row in the table. Next, we learn that it's recommended to be part of the Gold configuration, and there must be at least one such configuration. Finally, the table teaches us where to set up things, namely in the Finance app, or by using the *CustomerParameters* entity in the data management framework (DMF).
 
-## Next steps
+## Next step
 
 Learn about the business process guide at [About the business process guide](about.md)  
