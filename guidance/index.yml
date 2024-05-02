@@ -87,6 +87,18 @@ productDirectory:
         - text: Implementation Portal
           url: implementation-portal/overview.md
 
+# Migrate card
+    - title: Migrate
+      # imageSrc should be square in ratio with no white space
+      imageSrc: media/sample-more.svg
+      links:
+        - text: Overview
+          url: migrate/overview.md
+        - text: Migrate from Dynamics CRM (on-premises)
+          url: migrate/opol-crm-migration-high-level-overview.md
+        - text: AIM migration program
+          url: /dynamics365/get-started/aim-migration/migration-overview
+
 # Admin Card
     - title: Administer
       imageSrc: media/sample-creator.svg
