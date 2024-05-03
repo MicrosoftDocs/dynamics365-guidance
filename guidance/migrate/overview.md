@@ -5,7 +5,7 @@ author: edupont04
 ms.author: edupont
 ms.topic: overview #Required; don't change.
 ms.collection: #Required; Leave the value blank.
-ms.date: 04/16/2024
+ms.date: 05/03/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -21,11 +21,11 @@ Dynamics 365 finance and operations apps provide an upgrade path that customers 
 
 Learn more at [Upgrade from AX 2012 to finance and operations](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/upgrade-overview-2012) and [AX 2009 upgrade - Use the Data migration tool to migrate from Dynamics AX 2009 to finance and operations](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/data-migration-tool).  
 
-## Migrate from Dynamics CRM
+## Migrate from Dynamics CRM (on-premises)
 
 Microsoft provides guidance on migrating your Dynamics CRM (on-premises) database to Dynamics 365 and Microsoft Dataverse.  
 
-Learn more at [Dynamics CRM to Dynamics 365 online migration process overview](opol-crm-migration-high-level-overview.md).  
+Learn more at [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](opol-crm-migration-high-level-overview.md).  
 
 ## Migrate from Dynamics GP
 
@@ -39,6 +39,6 @@ You can upgrade to Business Central online from supported versions of Dynamics N
 
 Learn more at [Migrate Dynamics NAV to Business Central online](/dynamics365/business-central/dev-itpro/administration/migrate-nav).  
 
-## Next steps
+## Related resources
 
 - [Product and Services Lifecycle Information](/lifecycle/products/?products=dynamics)  
