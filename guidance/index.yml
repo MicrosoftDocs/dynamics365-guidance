@@ -90,14 +90,14 @@ productDirectory:
 # Migrate card
     - title: Migrate
       # imageSrc should be square in ratio with no white space
-      imageSrc: media/sample-more.svg
+      imageSrc: media/sample-adoption.svg
       links:
         - text: Overview
           url: migrate/overview.md
         - text: Migrate from Dynamics CRM (on-premises)
           url: migrate/opol-crm-migration-high-level-overview.md
         - text: AIM migration program
-          url: /dynamics365/get-started/aim-migration/migration-overview
+          url: migrate/aim-migration-overview.md
 
 # Admin Card
     - title: Administer

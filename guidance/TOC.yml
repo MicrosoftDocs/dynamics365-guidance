@@ -552,8 +552,20 @@ items:
         items:
         - name: Migrate from Dynamics
           href: migrate/overview.md
-        - name: Dynamics CRM on-premises to Dynamics 365 online migration process overview
+        - name: Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
           href: migrate/opol-crm-migration-high-level-overview.md
+        - name: AIM program
+          items:
+          - name: Overview of the AIM migration program for on-premises solutions
+            href: migrate/aim-migration-overview.md
+          - name: Solution-specific insights
+            href: migrate/aim-solution-insights.md
+          - name: AIM assessment
+            href: migrate/aim-assessment.md
+          - name: AIM program FAQ
+            href: migrate/aim-faq.md
+          - name: Customer stories
+            href: migrate/aim-customer-stories.md 
 
 # data migration
 #        - name: Migrate data
