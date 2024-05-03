@@ -10,6 +10,7 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:04/23/2024
   - O25-Service
+# CustomerIntent: As a user I want to learn something.
 ---
 # Application insights telemetry with Microsoft Copilot Studio
 
