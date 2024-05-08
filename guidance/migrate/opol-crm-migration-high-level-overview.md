@@ -4,7 +4,7 @@ description: Learn about the migration process from Dynamics CRM to Dynamics 365
 author: dereklh77
 ms.author: ratrtile
 ms.topic: article
-ms.date: 05/02/2024
+ms.date: 05/08/2024
 ---
 
 # Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
@@ -52,3 +52,5 @@ You can find detailed information on the OP2OL migration process in our comprehe
 ## Related resources
 
 - [What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
+- [On-premises to online migration - Dynamics 365 blog](https://community.dynamics.com/blogs/post/?postid=d6f2297c-5f43-405e-9471-63d8fbe88118)  
+- [On-premises to online migration - Part 2 - Dynamics 365 blog](https://community.dynamics.com/blogs/post/?postid=9a71e640-9d17-ee11-8f6e-000d3a4e9eae)  
