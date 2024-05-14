@@ -1,5 +1,5 @@
 ---
-title: Overview of the naes of user profiles and roles in Dynamics 365
+title: Overview of the names of user profiles and roles in Dynamics 365
 description: Get an overview of the names of user profiles and other roles that are often used in content for Dynamics 365.
 author: edupont04
 ms.author: edupont
