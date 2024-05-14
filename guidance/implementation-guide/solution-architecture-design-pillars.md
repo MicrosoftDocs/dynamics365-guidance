@@ -44,7 +44,7 @@ Finally, you need to develop a solution strategy using technology and tools. You
 
 The following diagram summarizes the solution architecture design pillars and how they relate to your vision.
 
-:::image type="content" source="media/solution-architecture-pillar-vision.png" alt-text="Diagram of the solution architecture." lightbox="media/solution-architecture-pillar-vision.png":::
+:::image type="content" source="media/solution-architecture-pillar-vision.svg" alt-text="Diagram of the solution architecture." lightbox="media/solution-architecture-pillar-vision.svg":::
 
 ## Next steps
 
