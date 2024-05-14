@@ -1010,6 +1010,8 @@ items:
             href: business-processes/order-to-cash-invoice-sales-orders-overview.md
           - name: Monitor customer credit and collections
             href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
+          - name: Review and close service requests
+            href: business-processes/service-to-cash-review-close-service-requests.md
 
 # Patterns
       - name: Patterns
