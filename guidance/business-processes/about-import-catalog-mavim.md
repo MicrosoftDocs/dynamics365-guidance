@@ -4,7 +4,7 @@ description: Learn how you can use Microsoft's business process catalog in Mavim
 author: dereklh77
 ms.author: v-heuerderek
 ms.topic: article
-ms.date: 05/01/2024
+ms.date: 05/13/2024
 ---
 
 # Import the business process catalog in Mavim using a Power Automate flow
@@ -68,17 +68,17 @@ Before you import the catalog to the Mavim platform, there are a few things that
 
     You need to configure the following fields before you import the business process catalog in Mavim:
 
-    - Create a FieldSet in Mavim called "BPC attributes."
+    - Create a FieldSet in Mavim with the name **BPC attributes**.
 
-    - Create a Field in this FieldSet called "Sequence ID" (Field type: Text).
+    - Create a field in this FieldSet with the name **Sequence ID** (Field type: Text).
 
-    - Create a root structure topic to import the level 1, 2 and 3 process levels of the catalog in. (a logical name for this topic would be "Dynamics 365 business process catalog").
+    - Create a root structure topic to import the level 1, 2 and 3 process levels of the catalog in. A logical name for this topic might be *Dynamics 365 business process catalog*.
 
-    - Make sure to assign the created FieldSet to this root topic and let it inherit to the entire branch below this root topic.
+    - Make sure to assign the new FieldSet to this root topic and let it inherit to the entire branch below this root topic.
 
     - Create a root structure topic to import the level 4 patterns (a logical name for this topic would be "Patterns"). For future additions, an extra topic "Dynamics 365 Related categories" is added to accommodate other related categories.
 
-    - Make sure to assign the created FieldSet "BPC attributes" to this 'patterns' root topic.
+    - Make sure to assign the new FieldSet **BPC attributes** to this 'patterns' root topic.
 
 :::image type="content" source="media/about-import-catalog-mavim-process-catalog.svg" alt-text="Screenshot showing the file path for Dynamics 365 business process catalog." lightbox="media/about-import-catalog-mavim-process-catalog.svg":::
 
@@ -86,15 +86,15 @@ The Mavim Academy accompanies the Mavim Platform. You must follow the level 1 an
 
 ## Importing the business process catalog in Mavim
 
-1. Run the Power Automate flow 'Import the business process catalog into Mavim'.
+1. Run the Power Automate flow *Import the business process catalog into Mavim*.
 
     Before you run the Power Automate flow, make a couple of adjustments.
 
     1. Edit the Power Automate flow. Learn more at [Edit a solution-aware cloud flow](/power-automate/edit-solution-aware-flow).
-    
+
     2. Adjust the "Initialize varMavimDatabaseID." Put in the unique ID of your Mavim database, which is found in the URL when you open the Mavim Improve website.
 
-    3. In Mavim Improve, open the root topic "Dynamics 365 business process catalog" and locate its unique topic ID in the URL. Put this ID in the action called "Initialize varMavimStartTopic."
+    3. In Mavim Improve, open the root topic *Dynamics 365 business process catalog*, and locate its unique topic ID in the URL. Put this ID in the action with the name **Initialize varMavimStartTopic**.
 
     4. In Mavim Improve, open the root topic "Patterns" and locate its unique ID in the URL. Put this ID in the action called "Initialize varPatternsStartTopic."
 

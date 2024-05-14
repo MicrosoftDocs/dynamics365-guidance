@@ -668,24 +668,24 @@ items:
         items:
         - name: Business process documentation
           href: business-processes/index.yml
-        - name: Introduction
-          href: business-processes/overview.md
-        - name: Use the business process guide
-          href: business-processes/about.md
-        - name: Glossary of terms
-          href: business-processes/glossary.md
-        - name: Business processes, steps, and how to find things
-          href: business-processes/about-steps-navigation.md
-        - name: Import the catalog
+        - name: Get started
           items:
+          - name: Introduction
+            href: business-processes/overview.md
+          - name: Use the business process guide
+            href: business-processes/about.md
+          - name: Glossary of terms
+            href: business-processes/glossary.md
+          - name: Business processes, steps, and how to find things
+            href: business-processes/about-steps-navigation.md
+          - name: Introduction to process maturity
+            href: business-processes/process-maturity-introduction.md
+          - name: Standardize business processes during an implementation
+            href: business-processes/standardize-business-processes.md
           - name: Import the catalog to Azure DevOps
             href: business-processes/about-import-catalog-devops.md
           - name: Import the catalog to Mavim
             href: business-processes/about-import-catalog-mavim.md
-        - name: Standardize business processes during an implementation
-          href: business-processes/standardize-business-processes.md
-        - name: Introduction to process maturity
-          href: business-processes/process-maturity-introduction.md
         - name: Acquire to dispose
           items:
           - name: End-to-end scenario - acquire to dispose
@@ -712,9 +712,9 @@ items:
             href: business-processes/administer-to-operate-introduction.md
           - name: Overview
             href: business-processes/administer-to-operate-overview.md
-          - name: Train users and increase adoption overview
+          - name: Train users and increase adoption
             href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
-          - name: Define business continuity plan overview
+          - name: Define business continuity plan
             href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
         - name: Case to resolution
           items:
