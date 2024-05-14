@@ -13,11 +13,14 @@ ms.custom:
 # CustomerIntent: As an admin, I want to track how our copilot is used.
 ---
 
+<!-- If application insights in the title refers to the feature, then it should be capitalized. -->
+
+
 # Application insights telemetry with Microsoft Copilot Studio
 
 ***Applies to: Dynamics 365 Customer Service***
 
-This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview).
+This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in [Application Insights](/azure/azure-monitor/app/app-insights-overview).
 
 In addition to the native analytics features within Microsoft Copilot Studio, you can send telemetry data to Application Insights. Telemetry offers insights into your bot by tracking the following data:
 
@@ -27,7 +30,7 @@ In addition to the native analytics features within Microsoft Copilot Studio, yo
 
 ## Prerequisites
 
-To use app insights, you must have a Copilot Studio instance that's connected to an Azure app service. You also must have access to the app service's app insights resource in the Azure portal. You can find the app insights resource name and key in the agent's settings page under **Analytics**. Learn more about how to connect Copilot Studio to App Insights at [Capture telemetry with Application Insights](/microsoft-copilot-studio/advanced-bot-framework-composer-capture-telemetry?tabs=webApp#connect-your-microsoft-copilot-studio-bot-to-application-insights).
+To use Application Insights, you must have a Copilot Studio instance that's connected to an Azure app service. You also must have access to the app service's app insights resource in the Azure portal. You can find the app insights resource name and key in the agent's settings page under **Analytics**. Learn more about how to connect Copilot Studio to Application Insights at [Connect your Microsoft Copilot Studio bot to Application Insights](/microsoft-copilot-studio/advanced-bot-framework-composer-capture-telemetry?tabs=webApp#connect-your-microsoft-copilot-studio-bot-to-application-insights).
 
 ## Kusto query samples and explanations
 
@@ -98,8 +101,8 @@ Explanation:
 
 - Data filtering:
 
-  - **where timestamp > queryStartDate**: Filters events to include only events that occurr after the start date.
-  - **where timestamp < queryEndDate**: Further filters events to include only evetns that occurr before the end date.
+  - **where timestamp > queryStartDate**: Filters events to include only events that occur after the start date.
+  - **where timestamp < queryEndDate**: Further filters events to include only events that occur before the end date.
 
 - Data summarization:
 
@@ -109,7 +112,7 @@ Explanation:
 
   - **render timechart**: Renders the summarized data as a time chart, allowing visualization of user-bot communication trends over time.
 
-This query helps analyze and visualize the number of distinct users communicating with the bot over the past 14 days, providing insights into user engagement and interaction patterns.
+  This query helps analyze and visualize the number of distinct users communicating with the bot over the past 14 days, providing insights into user engagement and interaction patterns.
 
 ## Query that excludes canvas test conversations from telemetry
 
@@ -148,7 +151,7 @@ This query transforms the customEvents data by performing several operations:
 
 - Ordering the events by timestamp in ascending order and within each timestamp by session ID.
 - Calculating the time difference between consecutive events within the same session.
-- Extracting various custom dimensions such as Kind, TopicName, Text, errorCodeText, etc.
+- Extracting various custom dimensions such as Kind, TopicName, Text, and errorCodeText.
 - Splitting TopicName and TopicId into arrays of words and determining the number of words.
 - Determining topics based on the number of words.
 - Converting certain dimensions to string format.
@@ -227,17 +230,17 @@ Explanation:
 
 | Field | Description | Sample values |
 |:-|:-|:-|
-| type | Type of activity | Message,ConversationUpdate,event,invoke |
+| type | Type of activity | Message, ConversationUpdate, event, invoke |
 | channelId | Channel Identifier | emulator, directline, msteams, webchat |
 | from Name | Username from Client | John Doe, Steve Smith |
-| receipentid | Receipent Identifier |  |
-| receipentName | Receipent name | John Doe, Steve Smith |
+| recipientid | Recipient Identifier |  |
+| recipientName | Recipient name | John Doe, Steve Smith |
 | Text | Text in Message | Store hours |
 | designmode | Conversation happened within the test canvas | True/false |
-| timestamp | Time the Conversation occured | 2023-12-12T01:15:53.0372788Z |
+| timestamp | Time the Conversation occurred | 2023-12-12T01:15:53.0372788Z |
 | name | Bot Event | Topic Start, BotMessageReceived, Bot MessageSend, Action, TopEnd, Custom Telemetry |
 | Topics | Triggered Topic | ConversationStart, Greeting |
-| Kind | Actions that happened within the topic trigger. It shows value wherever it's applicable | Question, SetVariable, SerachandSummarizeContent |
+| Kind | Actions that happened within the topic trigger. It shows value wherever it's applicable | Question, SetVariable, SearchandSummarizeContent |
 | Session\_id | Unique ID for Bot session |  |
 | Event group | Groups the Actions within Topic | TopicStart\_Greetings, Other, TopicEnd\_Greetings. It can be customized. |
 | TimeDifference | Time taken to run each action. Represented in milliseconds. ||
@@ -282,12 +285,12 @@ rawData
 
 Explanation:
 
-- The query starts by organizing the **customEvents** data**,** sorting it by timestamp in ascending order and then by session ID.
-- It extracts necessary fields like **TopicName, Text, and errorCodeText** from the **customDimensions** property**.**
-- The **errorCodeText** is obtained by finding the substring between "Error code:" and "Conversation ID:" within the **Text.**
-- After preparing the data, it filters the **rawData** to include only rows where the **Text** contains "Error Code:" and the name is "BotMessageSend"**.**
-- It then summarizes the count of occurrences for each unique **errorCodeText.**
-- Finally, the summarized data is visualized as a column chart.**
+- The query starts by organizing the **customEvents** data, sorting it by timestamp in ascending order and then by session ID.
+- It extracts necessary fields like **TopicName**, **Text**, and **errorCodeText** from the **customDimensions** property.
+- The **errorCodeText** is obtained by finding the substring between "Error code:" and "Conversation ID:" within the **Text**.
+- After preparing the data, it filters the **rawData** to include only rows where the **Text** contains "Error Code:" and the name is "BotMessageSend".
+- It then summarizes the count of occurrences for each unique **errorCodeText**.
+- Finally, the summarized data is visualized as a column chart.
 
 ## Telemetry on Generative Answers
 
