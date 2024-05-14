@@ -1,10 +1,11 @@
 ---
 title: Live chat widgetcustomization samples
 description: Learn about the sample implementations that you can use to customize live chat widgets for Omnichannel for Dynamics 365 Customer Service.
-ms.date: 01/25/2024
-ms.topic: conceptual
 author: edupont04
 ms.author: viange
+ms.topic: conceptual
+ms.date: 01/25/2024
+ms.custom: O25-Service
 ---
 
 # Live chat widget customization samples

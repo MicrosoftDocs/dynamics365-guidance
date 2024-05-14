@@ -5,11 +5,11 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual #Required; don't change.
 ms.collection: #Required; Leave the value blank.
-ms.date: 11/15/2023
+ms.date: 05/13/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Use the business process catalog as a template to import into a project in Azure DevOps Services
+# Use the business process catalog as a template in Azure DevOps Services
 
 This article describes how you can use Microsoft's business process catalog as a template that you import into a project in Azure DevOps Services to manage your Dynamics 365 implementation project.
 
@@ -61,7 +61,9 @@ Before you can import the project into Azure Boards, there are a few things that
        - **Risk**
        - **Effort**
        - **Business value**
-       - **Time-sensitivity** 
+       - **Time Criticality**
+
+           This is the name of a field in the current version of the catalog. If you prefer to use another term to indicate time-sensitivity, you must also change the name of the relevant column in the catalog before you import the entries.  
        - **Microsoft Learn URL**
 
            This is a custom field with values provided in the template.
@@ -77,9 +79,9 @@ Before you can import the project into Azure Boards, there are a few things that
        - **Included in entity**
 
            This is a custom field with values provided in the template.
-       - **Module/Functionality**
+       - **Module** or **Functionality**
 
-           This is a custom field with values provided in the template.
+           Both names are equally valid. The current version of the catalog uses **Module** to describe a group of product capabilities, such as *Fixed assets*.
        - **Priority**
        - **Risk**
        - **Effort**

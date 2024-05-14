@@ -1,7 +1,6 @@
 ---
 title: ALM for analytics on data model customizations
 description: Migrate custom reports with minimal manual involvement by using application lifecycle management (ALM) for Digital Contact Centers.
-titleSuffix: DCCP #testing
 ms.date: 03/15/2024
 ms.topic: conceptual
 author: edupont04
@@ -11,6 +10,7 @@ ms.custom:
   - ai-gen-title
   - ai-seo-date:08/29/2023
   - ai-gen-desc
+  - O25-Service
 # CustomerIntent: As a user I want to learn something.
 ---
 

@@ -1,10 +1,11 @@
 ﻿---
 title: Add DTMF aggregation to Copilot Studio classic
 description: Learn about the sample solution to add DTMF aggregation to Copilot Studio for voice support by using Bot Framework skills.
-ms.date: 03/15/2024
-ms.topic: conceptual
 author: edupont04
 ms.author: viange
+ms.topic: conceptual
+ms.date: 03/15/2024
+ms.custom: O25-Service
 ---
 
 # Using Bot Framework Composer skill to add DTMF aggregation to Copilot Studio classic for voice support

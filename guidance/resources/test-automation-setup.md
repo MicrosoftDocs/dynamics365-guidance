@@ -1,15 +1,16 @@
 ﻿---
 title: Set up test automation with Playwright
 description: Learn how to set up automated end-to-end testing with Playwright for Microsoft Dynamics 365 Customer Service projects.
-ms.date: 06/07/2023
-ms.topic: how-to
 author: edupont04
 ms.author: darent
+ms.topic: how-to
+ms.date: 06/07/2023
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
  - ai-seo-date:08/23/2023
  - bap-template
+ - O25-Service
 ---
 
 # Set up test automation with Playwright

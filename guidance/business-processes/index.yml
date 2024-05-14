@@ -30,6 +30,16 @@ landingContent:
         url: glossary.md
       - text: Business processes, steps, and how to find things
         url: about-steps-navigation.md
+    - linkListType: concept
+      links:
+      - text: Introduction to process maturity
+        url: process-maturity-introduction.md
+      - text: Standardize business processes
+        url: standardize-business-processes.md
+      - text: Import the catalog to Azure DevOps
+        url: about-import-catalog-devops.md
+      - text: Import the catalog to Mavim
+        url: about-import-catalog-mavim.md
 #    - linkListType: learn
 #      links:
 #      - text: Overview

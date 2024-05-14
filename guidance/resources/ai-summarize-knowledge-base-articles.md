@@ -1,14 +1,15 @@
 ---
 title: Summarize Dynamics 365 Knowledge Base articles with ChatGPT
 description: Sample implementation to summarize Dynamics 365 Knowledge Base articles with ChatGPT from Copilot Studio.
-ms.date: 03/15/2024
-ms.topic: conceptual
 author: edupont04
 ms.author: viange
+ms.topic: conceptual
+ms.date: 03/15/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:3/12/2024
+  - O25-Service
 # CustomerIntent: As an admin, I want to provide a summary of Knowledge article to agents or clients.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Sample library for Customer Service
-description: Read about the library of sample components in GitHub that can help customers and partners to create and deploy solutions in a fast and easy way.
+description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions quickly and easily.
 ms.date: 03/15/2024
 ms.topic: conceptual
 author: edupont04
@@ -11,12 +11,12 @@ ms.author: viange
 
 ***Applies to: Dynamics 365 Customer Service***
 
-This collection of sample code, components (solutions), and documents has been created to help Customer Service projects with various tasks like: customization, configuration, and operation of the platform. The goal of the library is to offer reusable and easy-to-follow resources for Customer Service developers and users.  
+This collection of sample code, components (solutions), and documents has been created to help your Customer Service projects with tasks such as customization, configuration, and operation of the platform. The library offers reusable and easy-to-follow resources for Customer Service developers and users.  
 
 Some of the components are hosted in the GitHub repo [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary). You can contribute to this project by reporting issues, suggesting features, or submitting pull requests.
 
 > [!IMPORTANT]
-> Sample codes, components (solutions), and documents created by the community aren't supported by Microsoft. If you have questions or issues with community tools, contact the publisher of them.
+> Sample codes, components (solutions), and documents created by the community aren't supported by Microsoft. If you have questions or issues with community tools, contact the tool's publisher.
 
 ## Areas
 
@@ -28,13 +28,11 @@ The following sections outline the content of the collection. Each section inclu
 
     A core feature of this scenario is the flexibility of channel presence management for agents. Depending on the volume and urgency of different types of customer inquiries, agents can adjust the flow of incoming channel requests to suit their preferences and availability. For instance, an agent can pause the incoming calls channel if they want to focus on chats or cases, or the other way around. This way, agents can optimize their productivity and customer satisfaction.
 
-    This sample approach is to use a channel-centric solution by setting up a separate Advanced Queue for each relevant channel. This allows for the use of the native Assignment MethodAssignment Ruleset functionality and reduces latency between Agent Channel selection and assignments. Learn more at [Overview of unified routing](/dynamics365/customer-service/overview-unified-routing).  
-
-    Learn more at [Channel-based presence](cs-channel-based-presence.md).
+    This sample approach is to use a channel-centric solution by setting up a separate Advanced Queue for each relevant channel. This allows for the use of the native Assignment MethodAssignment Ruleset functionality and reduces latency between Agent Channel selection and assignments. Learn more at [Overview of unified routing](/dynamics365/customer-service/overview-unified-routing) and [Channel-based presence](cs-channel-based-presence.md).
 
 - Set up agent capacity for custom entities
 
-    In Dynamics 365 Customer Service, you can configure capacity-based routing for entities to supplement the case (incident) entity. Learn more at [Set up agent capacity for custom entities](cs-route-release-capacity-in-ur.md), where we provide two approaches one no-code and one low-code to perform the before mentioned actions.
+    In Dynamics 365 Customer Service, you can configure capacity-based routing for entities to supplement the case (incident) entity. Learn more at [Set up agent capacity for custom entities](cs-route-release-capacity-in-ur.md), where we provide two approaches—one no-code and one low-code—to perform the previously mentioned actions.
 
 ### Omnichannel
 
@@ -47,13 +45,14 @@ The following sections outline the content of the collection. Each section inclu
 - Sample context parsing in JavaScript
 
     Context variables play a crucial role in optimizing customer service workflows and enhancing agent productivity. They provide essential context for effective communication and decision-making.  
+
     If you're working with web resources, you can access context variables from custom JavaScript code. This allows you to enhance the user experience by dynamically adjusting behavior based on the context.  
 
     Learn more at [JavaScript Sample Context parsing](cs-omnichannel-sample-context-parsing.md).
 
 - LiveChat Widget customization samples
 
-    This is a collection of Ready-to-use JavaScript code examples for customizing the Omnichannel LiveChat Widget.  
+    This is a collection of ready-to-use JavaScript code examples for customizing the Omnichannel LiveChat Widget.  
 
     Learn more at [LiveChat Widget customization samples](cs-omnichannel-live-chat-widget-samples.md).
 
@@ -71,7 +70,7 @@ The following sections outline the content of the collection. Each section inclu
 
     Human intervention is required for proper categorization. The case would need to be re-assigned to the right owner. The customer might want to implement a custom AI model before engaging Unified Routing.
 
-    This content describes a proposal approach by using ARC rules, and AI Builder.  
+    This content describes a proposal approach by using ARC rules and AI Builder.  
 
     Learn more at [Route or deflect cases using AI Builder](cs-ai-case-deflection.md).
 
@@ -95,7 +94,7 @@ The following sections outline the content of the collection. Each section inclu
 
 - Multilingual voice bot in Microsoft Copilot Studio
 
-    This sample solution contains a Copilot Studio bot that was implemented based on the guidance at [Set up a multilingual bot in Microsoft Copilot Studio](/dynamics365/customer-service/set-up-multilingual-pva-bot).
+    This sample solution contains a Copilot Studio bot that was implemented based on the guidance at [Set up a multilingual bot to use in voice channel](/dynamics365/customer-service/set-up-multilingual-pva-bot).
 
     Learn more at [Set up a multilingual bot in Copilot Studio for contact center](copilot-studio-multilanguage-bot.md).
 
@@ -105,34 +104,34 @@ The following sections outline the content of the collection. Each section inclu
 
     Learn more at [Play secure audio file from Copilot Studio](copilot-studio-play-audio-file.md).
 
-- AppInsights for Copilot Studio
+- Application Insights for Copilot Studio
    
-    This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in Azure Application Insights.In addition to the native analytics features within Microsoft Copilot Studio, you can send telemetry data to Application Insights.
+    This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in Application Insights. In addition to the native analytics features within Microsoft Copilot Studio, you can send telemetry data to Application Insights.
 
-    Learn more at [Copilot Studio Application Insights Telemetry](copilot-studio-appinsights.md)
+    Learn more at [Copilot Studio Application Insights Telemetry](copilot-studio-appinsights.md).
 
-### Channel Integration Framework 2.0
+### Dynamics 365 Channel Integration Framework 2.0
 
 - CIF simulator
 
-    The simulator is just a collection of samples that we built using the Channel Integration Framework.
+    The simulator is a collection of samples that we built using Dynamics 365 Channel Integration Framework.
 
-    Learn more at [CIF 2.0 stimulator](cs-set-up-cif2-simulator.md)
+    Learn more at [Simulator for Channel Integration Framework v. 2.0 ](cs-set-up-cif2-simulator.md).
 
 
 - Set up Click to Outbound call
 
-    This article outlines the steps to use a custom control so that users can make outbound calls from a Customer Interaction Center (CIF) provider in Omnichannel for Dynamics 365 Customer Service. The sample solution is a resource that helps optimize the Dynamics 365 implementation. It includes a custom control that provides the capability to format a phone number and initiate an outbound call from a text or phone number field.
+    This article outlines the steps to use a custom control so that users can make outbound calls from a Customer Interaction Center (CIF) provider in Omnichannel for Customer Service. The sample solution is a resource that helps optimize the Dynamics 365 implementation. It includes a custom control that provides the capability to format a phone number and initiate an outbound call from a text or phone number field.
 
-    Learn more at [Set up outbound call](cs-set-up-outbound-calls.md)
+    Learn more at [Set up outbound call](cs-set-up-outbound-calls.md).
 
 
 
 ### Automation
 
-- Automate agent tasks with Power Automate Desktop
+- Automate agent tasks with Power Automate
 
-    This sample shows how to run a Power Automate Desktop Flow from Customer Service Workspace to automate tasks on a Customer Service Representative's workstation.
+    This sample shows how to run a Power Automate desktop flow from Customer Service workspace to automate tasks on a customer service representative's workstation.
 
     Learn more at [Automate agent tasks with Power Automate Desktop](cs-pad-automation.md). 
 

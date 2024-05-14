@@ -35,7 +35,7 @@ There are separate entities for importing general journals with the data managem
 - [Importing vouchers by using the General journal entity](/dynamics365/fin-ops-core/fin-ops/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/guidance/toc.json)
 - [Financial tags](/dynamics365/finance/general-ledger/financial-tag?toc=/dynamics365/guidance/toc.json)
 - [Financial journal posting performance](/dynamics365/finance/general-ledger/posting-performance?toc=/dynamics365/guidance/toc.json)
-- [Journal posting failure because of imbalance](/dynamics365/finance/general-ledger/posting-fail-imbalance?toc=/dynamics365/guidance/toc.json)
+- [Journal posting failure because of imbalance](/dynamics365/finance/general-ledger/posting-fail-imbalance)
 - [Data import and export jobs overview](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/guidance/toc.json)
 
 

@@ -3,11 +3,13 @@ title: Manage solution structures for application lifecycles
 description: Learn how to add a tool to help catch development issues with solution components in Dynamics 365 implementation projects.
 author: edupont04
 ms.author: ribsingh
-ms.reviewer: edupont
-ms.topic: how-to #Required; don't change.
-ms.collection: #Required; don't change, leave the value blank. 
+ms.topic: how-to
 ms.date: 02/14/2024
-ms.custom: bap-template #Required; don't change.
+ms.custom: 
+    - bap-template
+    - O25-Service
+ms.reviewer: edupont
+ms.collection: #Required; don't change, leave the value blank. 
 ---
 
 # Manage solution structures for application lifecycles with the solution component validation tool

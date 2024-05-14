@@ -1,15 +1,16 @@
 ﻿---
 title: Set up and run load tests on Dynamics 365 solutions
 description: Learn how to set up and run load tests on Dynamics 365 solutions with Azure Load Testing, using Java, Apache JMeter, and samples provided by Microsoft.
-ms.date: 06/26/2023
-ms.topic: how-to
 author: edupont04
 ms.author: darent
+ms.topic: how-to
+ms.date: 06/26/2023
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
  - ai-seo-date:08/23/2023
  - bap-template
+ - O25-Service
 ---
 
 # Set up and run load tests for your Dynamics 365 implementation projects
@@ -91,6 +92,10 @@ On the **Monitoring** tab, you can add the following information:
 ### Run the test
 
 After the validation has passed on the **Review + create** tab, you can run the load test. If you selected **Run test after create**, the test runs automatically.
+
+### Continuous performance and stability validation
+ 
+You can automate a load test in Azure Load Testing for [CI/CD pipelines](/azure/load-testing/how-to-configure-load-test-cicd). Automate a load test to continuously validate your application performance and stability under load, or run tests for multiple scenarios at the same time. Configure Azure Pipelines, GitHub Actions, or other CI tools to invoke an existing test in Azure Load Testing.
 
 ## JMeter distributed testing
 
