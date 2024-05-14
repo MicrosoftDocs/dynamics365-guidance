@@ -832,10 +832,12 @@ items:
               href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
             - name: Set customer credit limits
               href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md
-            - name: Pattern - Manually set customer credit limits
-              href: business-processes/pattern-manually-set-check-customer-credit-limits.md
-            - name: Pattern - Set customer credit limits for a group of customers
-              href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
+            - name: Customer credit limit patterns
+              items:
+              - name: Manually set, define, and check customer credit limit patterns
+                href: business-processes/pattern-manually-set-check-customer-credit-limits.md
+              - name: Manually set, define, and check credit limit patterns for a group of customers
+                href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
 #          - name: Plan supply
 #            items:
 #            - name: Supply forecasting overview
