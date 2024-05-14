@@ -1,10 +1,10 @@
 ﻿---
 title: Application insights telemetry with Microsoft Copilot Studio
 description: Discover how to use Kusto queries in the Azure portal to analyze and manipulate telemetry data from Application Insights for performance and usage of your bot.
-ms.date: 05/03/2024
-ms.topic: conceptual
 author: rramju
 ms.author: ramara
+ms.topic: conceptual
+ms.date: 05/03/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

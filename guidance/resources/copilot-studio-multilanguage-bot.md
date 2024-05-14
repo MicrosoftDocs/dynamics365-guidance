@@ -1,10 +1,11 @@
 ---
 title: Set up a multilingual bot in Copilot Studio
 description: Learn about the sample solution that can help you set up a multilingual bot in Copilot Studio classic for your contact center.
-ms.date: 03/14/2024
-ms.topic: conceptual
 author: edupont04
 ms.author: viange
+ms.topic: conceptual
+ms.date: 03/14/2024
+ms.custom: O25-Service
 ---
 
 # Set up a multilingual bot in Copilot Studio for contact center  

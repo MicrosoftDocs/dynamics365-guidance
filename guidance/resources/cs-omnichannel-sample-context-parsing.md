@@ -1,10 +1,11 @@
 ---
 title: Sample context parsing with JavaScript
 description: Learn about the sample implementation to access context variables from JavaScript web resources in a Dynamics 365 Customer Service implementation.
-ms.date: 03/13/2024
-ms.topic: conceptual
 author: edupont04
 ms.author: viange
+ms.topic: conceptual
+ms.date: 03/13/2024
+ms.custom: O25-Service
 ---
 
 # Sample context parsing with JavaScript in a Dynamics 365 Customer Service implementation

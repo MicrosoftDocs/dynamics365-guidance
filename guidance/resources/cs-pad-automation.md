@@ -1,14 +1,15 @@
 ﻿---
 title: Automate agent tasks with Power Automate Desktop
 description: Create automated tasks using Power Automate Desktop to integrate Customer Service Workspace with desktop applications.
-ms.date: 04/23/2024
-ms.topic: conceptual
 author: jowells
 ms.author: jowells
+ms.topic: conceptual
+ms.date: 04/23/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:3/28/2024
+  - O25-Service
 # CustomerIntent: Create automated tasks using Power Automate Desktop to integrate Customer Service Workspace with desktop applications
 ---
 

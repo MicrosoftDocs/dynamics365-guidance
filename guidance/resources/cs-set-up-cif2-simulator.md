@@ -4,9 +4,11 @@ description: Learn how to simulate a digital contact center with Customer Servic
 author: edupont04
 ms.author: edupont
 ms.topic: how-to #Required; don't change.
-ms.collection: 
 ms.date: 06/13/2023
-ms.custom: bap-template #Required; don't change.
+ms.custom: 
+    - bap-template
+    - O25-Service
+ms.collection: 
 ---
 
 # Simulator for Channel Integration Framework v. 2.0 and Dynamics 365 Customer Service

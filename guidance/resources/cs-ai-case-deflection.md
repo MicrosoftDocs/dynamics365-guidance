@@ -1,14 +1,15 @@
 ---
 title: Route or deflect cases using AI Builder
 description: Find resources to help you configure your Dynamics 365 Customer Service solution to route or deflect cases using AI Builder.
-ms.date: 04/23/2024
-ms.topic: conceptual
 author: edupont04
 ms.author: viange
+ms.topic: conceptual
+ms.date: 04/23/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:3/12/2024
+  - O25-Service
 # CustomerIntent: As an agent, I want to set my presence on every channel type.
 ---
 

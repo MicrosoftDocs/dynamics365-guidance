@@ -1,10 +1,11 @@
 ---
 title: Scale load tests with in Dynamics 365 implementations
 description: Learn about some scaling patterns that can help maintain load tests in Dynamics 365 implementation projects.
-ms.date: 10/30/2023
-ms.topic: conceptual
 author: edupont04
 ms.author: zacolson
+ms.topic: conceptual
+ms.date: 10/30/2023
+ms.custom: O25-Service
 ---
 
 # Scale load tests with horizontal scaling and vertical scaling in Dynamics 365 implementations
