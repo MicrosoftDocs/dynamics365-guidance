@@ -46,88 +46,50 @@ landingContent:
 #        url: overview.md
 
 # Card
-  - title: End-to-end scenarios with products
+  - title: Primary processes
     linkLists:
     - linkListType: overview
       links:
-      - text: Case to resolution
-        url: case-to-resolution-introduction.md
-      - text: Design to retire
-        url: design-to-retire-introduction.md
-      - text: Forecast to plan
-        url: forecast-to-plan-introduction.md
-      - text: Inventory to deliver
-        url: inventory-to-deliver-introduction.md
+      - text: Prospect to quote
+        url: prospect-to-quote-introduction.md
       - text: Order to cash
         url: order-to-cash-introduction.md
+      - text: Service to cash
+        url: service-to-cash-introduction.md
       - text: Plan to produce
         url: plan-to-produce-introduction.md
       - text: Procure to pay
         url: procure-to-pay-introduction.md
       - text: Project to profit
         url: project-to-profit-introduction.md
-      - text: Prospect to quote
-        url: prospect-to-quote-introduction.md
-
-
-# Card
-  - title: End-to-end scenarios with services
-    linkLists:
-    - linkListType: overview
-      links:
       - text: Case to resolution
         url: case-to-resolution-introduction.md
-      - text: Concept to market
-        url: concept-to-market-introduction.md
-      - text: Plan to produce
-        url: plan-to-produce-introduction.md
-      - text: Procure to pay
-        url: procure-to-pay-introduction.md
-      - text: Project to profit
-        url: project-to-profit-introduction.md
-      - text: Prospect to quote
-        url: prospect-to-quote-introduction.md
-      - text: Service to cash
-        url: service-to-cash-introduction.md
+
 
 # Card
-  - title: End-to-end scenarios with human resources
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Case to resolution
-        url: case-to-resolution-introduction.md
-      - text: Forecast to plan
-        url: forecast-to-plan-introduction.md
-      - text: Hire to retire
-        url: hire-to-retire-introduction.md
-      - text: Inventory to deliver
-        url: inventory-to-deliver-introduction.md
-      - text: Plan to produce
-        url: plan-to-produce-introduction.md
-      - text: Project to profit
-        url: project-to-profit-introduction.md
-      - text: Service to cash
-        url: service-to-cash-introduction.md
-
-# Card
-  - title: End-to-end scenarios with financials
+  - title: Processes to manage work
     linkLists:
     - linkListType: overview
       links:
       - text: Acquire to dispose
         url: acquire-to-dispose-introduction.md
+      - text: Concept to market
+        url: concept-to-market-introduction.md
+      - text: Design to retire
+        url: design-to-retire-introduction.md
       - text: Forecast to plan
         url: forecast-to-plan-introduction.md
+
+# Card
+  - title: Processes to support work
+    linkLists:
+    - linkListType: overview
+      links:
       - text: Inventory to deliver
         url: inventory-to-deliver-introduction.md
-      - text: Order to cash
-        url: order-to-cash-introduction.md
-      - text: Procure to pay
-        url: procure-to-pay-introduction.md
-      - text: Project to profit
-        url: project-to-profit-introduction.md
       - text: Record to report
         url: record-to-report-introduction.md
-
-# No further cards needed. TOC handles the rest.
+      - text: Hire to retire
+        url: hire-to-retire-introduction.md
+      - text: Administer to operate
+        url: administer-to-operate-introduction.md

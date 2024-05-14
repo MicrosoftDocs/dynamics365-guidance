@@ -28,7 +28,7 @@ Here are some ways to get more speed from your finance and operations apps solut
 
 - Log any performance risks and check them often.
 
-- Use [the Dynamics 365 migration framework](/dynamics365/get-started/migration/migration-overview) to import and export large datasets. OData can't handle large volumes of data well.
+- Use the Dynamics 365 migration framework to import and export large datasets. OData can't handle large volumes of data well. Learn more at [Migrate to Dynamics 365 online from Dynamics on-premises products](../migrate/overview.md).
 
 - Use set-based data entities and parallelism to move large datasets faster.
 

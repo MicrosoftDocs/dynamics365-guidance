@@ -62,7 +62,7 @@ You might need to split an environment if you transition to a multiple-environme
 
 Many organizations with on-premises infrastructure are now considering a move to the cloud because of the evolving needs of businesses and the potential and benefits of the cloud. Such a move involves creating new cloud environments, running a cloud-compatibility assessment, moving the solution components and data, and redesigning parts of the solution to take advantage of the latest cloud features.
 
-To help speed up this process, Dynamics 365 services offer a "lift and shift" solution to move data into the cloud. It's fast and cost-effective, but by moving a legacy solution into the cloud, you might miss an opportunity to optimize your processes. [Learn more about the Dynamics 365 migration program for on-premises solutions](/dynamics365/get-started/migration/migration-overview).
+To help speed up this process, Dynamics 365 services offer a "lift and shift" solution to move data into the cloud. It's fast and cost-effective, but by moving a legacy solution into the cloud, you might miss an opportunity to optimize your processes. Learn more at [Migrate to Dynamics 365 online from Dynamics on-premises products](../migrate/overview.md).
 
 ## Administration mode
 

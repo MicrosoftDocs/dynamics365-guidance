@@ -134,7 +134,9 @@ In this article, we discussed concepts related to environment strategy that don'
 
 ## On-premises to online migration services
 
-The [Dynamics 365 migration program](/dynamics365/get-started/migration/migration-overview) helps on-premises customers simplify and accelerate their move to the cloud. The migration program offers access to a dedicated team of migration advisors, no-charge migration assessments, pricing offers, and tools such as a [CRM platform assessment](/dynamics365/get-started/migration/assessment-tool).
+The Dynamics 365 migration program helps on-premises customers simplify and accelerate their move to the cloud. The migration program offers access to a dedicated team of migration advisors, no-charge migration assessments, pricing offers, and tools such as a [CRM platform assessment](/dynamics365/get-started/migration/assessment-tool).
+
+Learn more at [Migrate to Dynamics 365 online from Dynamics on-premises products](../migrate/overview.md).
 
 ## Conclusion
 

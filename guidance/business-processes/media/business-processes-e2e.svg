@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="969.72101"
+   height="471.6181"
+   overflow="hidden"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="business-processes-e2e.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs27" />
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5203125"
+     inkscape:cx="601.11593"
+     inkscape:cy="276.35462"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <g
+     id="g27"
+     transform="translate(-38.884068,-83.71978)">
+    <rect
+       x="38.884068"
+       y="83.71978"
+       width="969.72101"
+       height="471.6181"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.704446" />
+    <path
+       d="M 41.5001,299.5 H 182.5 l 35,35 -35,35 H 41.5001 l 35,-35 z"
+       stroke="#3d67b1"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path1" />
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(91.615,330)"
+       id="text1">Prospect to</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(110.415,349)"
+       id="text2">quote</text>
+    <path
+       d="m 199.5,299.5 h 140 l 35,35 -35,35 h -140 l 35,-35 z"
+       stroke="#3d67b1"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path2" />
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(241.594,320)"
+       id="text3">Order to cash</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(249.428,339)"
+       id="text4">/ Service to</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(273.114,358)"
+       id="text5">cash</text>
+    <path
+       d="m 357.5,299.5 h 140 l 35,35 -35,35 h -140 l 35,-35 z"
+       stroke="#3d67b1"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path5" />
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(422.337,330)"
+       id="text6">Plan to</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(417.697,349)"
+       id="text7">produce</text>
+    <path
+       d="m 515.5,299.5 h 140 l 35,35 -35,35 h -140 l 35,-35 z"
+       stroke="#3d67b1"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path7" />
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(568.417,330)"
+       id="text8">Procure to</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(591.783,349)"
+       id="text9">pay</text>
+    <path
+       d="m 672.5,299.5 h 141 l 35,35 -35,35 h -141 l 35,-35 z"
+       stroke="#3d67b1"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path9" />
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(728.903,330)"
+       id="text10">Project to</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(743.496,349)"
+       id="text11">profit</text>
+    <path
+       d="m 830.5,299.5 h 141 l 35,35 -35,35 h -141 l 35,-35 z"
+       stroke="#3d67b1"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path11" />
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(894.052,330)"
+       id="text12">Case to</text>
+    <text
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(885.565,349)"
+       id="text13">resolution</text>
+    <path
+       d="m 186.5,410.5 h 147.166 l 14.834,14.834 v 74.166 0 H 201.334 L 186.5,484.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path13" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(224.912,451)"
+       id="text14">Inventory to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(244.019,470)"
+       id="text15">deliver</text>
+    <path
+       d="m 362.5,410.5 h 146.166 l 14.834,14.834 v 74.166 0 H 377.334 L 362.5,484.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path15" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(385.797,461)"
+       id="text16">Record to report</text>
+    <path
+       d="m 537.5,410.5 h 147.166 l 14.834,14.834 v 74.166 0 H 552.334 L 537.5,484.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path16" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(575.044,461)"
+       id="text17">Hire to retire</text>
+    <path
+       d="m 713.5,410.5 h 147.166 l 14.834,14.834 v 74.166 0 H 728.334 L 713.5,484.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path17" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(747.922,451)"
+       id="text18">Administer to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(767.522,470)"
+       id="text19">operate</text>
+    <path
+       d="m 186.5,136.5 h 147.166 l 14.834,14.834 v 74.166 0 H 201.334 L 186.5,210.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path19" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(203.063,187)"
+       id="text20">Acquire to dispose</text>
+    <path
+       d="m 362.5,136.5 h 146.166 l 14.834,14.834 v 74.166 0 H 377.334 L 362.5,210.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path20" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(404.423,177)"
+       id="text21">Concept to</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(418.77,196)"
+       id="text22">market</text>
+    <path
+       d="m 537.5,136.5 h 147.166 l 14.834,14.834 v 74.166 0 H 552.334 L 537.5,210.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path22" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(565.521,187)"
+       id="text23">Design to retire</text>
+    <path
+       d="m 713.5,136.5 h 147.166 l 14.834,14.834 v 74.166 0 H 728.334 L 713.5,210.666 Z"
+       stroke="#172c51"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path23" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semilight', 'Segoe UI Semilight_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="16px"
+       transform="translate(739.382,187)"
+       id="text24">Forecast to plan</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(427.146,122)"
+       id="text25">Processes to manage work</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(443.741,528)"
+       id="text26">Processes to support work</text>
+    <rect
+       x="145.5"
+       y="87.500099"
+       width="753"
+       height="155"
+       stroke="#44546a"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect26" />
+    <rect
+       x="147.5"
+       y="394.5"
+       width="753"
+       height="156"
+       stroke="#44546a"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect27" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(451.287,280)"
+       id="text27">Primary processes</text>
+  </g>
+</svg>

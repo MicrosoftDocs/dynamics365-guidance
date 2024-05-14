@@ -43,7 +43,7 @@ Before you move to the cloud, think about these items:
 Moving your existing Dynamics 365 on-premises solution to the cloud can be a great way to advance your digital transformation.
 
 > [!TIP]
-> The [Dynamics 365 Migration Program](https://dynamics.microsoft.com/migration-program/) can help you move to the cloud with expert guidance from Microsoft. Learn more at the [overview of our program](/dynamics365/get-started/migration/migration-overview), or perform a [standard migration assessment](/dynamics365/get-started/migration/standard-migration-assessment). You can also [move from Dynamics AX to Dynamics 365 in the cloud](/dynamics365/get-started/migration/moving-to-the-cloud).
+> The [Dynamics 365 Migration Program](https://dynamics.microsoft.com/migration-program/) can help you move to the cloud with expert guidance from Microsoft. Learn more at [Migrate to Dynamics 365 online from Dynamics on-premises products](../migrate/overview.md), or perform a [standard migration assessment](../migrate/aim-assessment.md). <!--You can also [move from Dynamics AX to Dynamics 365 in the cloud](/dynamics365/get-started/migration/moving-to-the-cloud).-->
 
 ## Next steps
 

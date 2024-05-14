@@ -82,7 +82,7 @@ In finance and operations apps, business units are a type of operating unit. Lea
 
 In finance and operations apps, an [operating unit](/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit?context=%2Fdynamics365%2Fcontext%2Ffinance) is an organization that is used to divide the control of economic resources and operational processes in a business. People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.
 
-The types of operating units include *cost centers*, *business units*, *value streams*, *departments*, and *commerce channels*. Although operating units are optional in finance and operations apps, they're commonly used as [financial dimensions](/dynamics365/finance/general-ledger/set-up-balance-dimensions).
+The types of operating units include *cost centers*, *business units*, *value streams*, *departments*, and *commerce channels*. Although operating units are optional in finance and operations apps, they're commonly used as [financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions).
 
 ### Teams
 
