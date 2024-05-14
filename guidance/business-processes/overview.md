@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: overview #Required; don't change.
-ms.date: 11/22/2023
+ms.date: 05/14/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -22,15 +22,19 @@ Dynamics 365 supports many different industries and types of organizations. In t
 
 <!--Find links to each end-to-end scenario and it's related articles at [Overview of business processes in Dynamics 365](index.yml). -->
 
+The business process catalog lists end-to-end processes that are commonly used to manage work within an organization or support work within the organization. But most end-to-end scenarios are primary processes within the organization to procure, produce, sell, and drive revenue. The following diagram illustrates the three groups of end-to-end scenarios:
+
+:::image type="content" source="media/business-processes-e2e.svg" alt-text="Diagram with primary processes, supporting processes, and processes to manage work." lightbox="media/business-processes-e2e.svg":::
+
 The following table provides links to the introduction, overview, and list of business process areas for each end-to-end scenario that we've documented.
 
 | End to end scenario | Introduction | Overview | Business process areas |
 |--|--|--|--|
 | Acquire to dispose | [Introduction](acquire-to-dispose-introduction.md) | [End-to-end overview](acquire-to-dispose-overview.md) | [Areas](acquire-to-dispose-areas.md) |
-| Administer to operate | [Introduction](administer-to-operate-introduction.md) | [End-to-end overview](administer-to-operate-overview.md) |<!-- No Areas article for this process currently. --> |
+|Administer to operate | [Introduction](administer-to-operate-introduction.md) | [End-to-end overview](administer-to-operate-overview.md) | [Areas](administer-to-operate-areas.md) |
 | Case to resolution | [Introduction](case-to-resolution-introduction.md) | [End-to-end overview](case-to-resolution-overview.md) | [Areas](case-to-resolution-areas.md) |
-| Concept to market | [Introduction](concept-to-market-introduction.md) | [End-to-end overview](concept-to-market-overview.md) | [Areas](concept-to-market-areas.md) |
-| Design to retire | [Introduction](design-to-retire-introduction.md) | [End-to-end overview](design-to-retire-overview.md) | [Areas](design-to-retire-areas.md) |
+|Concept to market|[Introduction](concept-to-market-introduction.md)|[End-to-end overview](concept-to-market-overview.md)|[Areas](concept-to-market-areas.md)|
+| Design to retire overview | [Introduction](design-to-retire-introduction.md) | [End-to-end overview](design-to-retire-overview.md) | [Areas](design-to-retire-areas.md) |
 | Forecast to plan overview | [Introduction](forecast-to-plan-introduction.md) | [End-to-end overview](forecast-to-plan-overview.md) | [Areas](forecast-to-plan-areas.md) |
 | Hire to retire | [Introduction](hire-to-retire-introduction.md) | [End-to-end overview](hire-to-retire-overview.md) | [Areas](hire-to-retire-areas.md) |
 | Inventory to deliver | [Introduction](inventory-to-deliver-introduction.md) | [End-to-end overview](inventory-to-deliver-overview.md) | [Areas](inventory-to-deliver-areas.md) |

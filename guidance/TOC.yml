@@ -686,6 +686,8 @@ items:
             href: business-processes/about-import-catalog-devops.md
           - name: Import the catalog to Mavim
             href: business-processes/about-import-catalog-mavim.md
+          # - name: KPI
+          #   href: business-processes/about-kpi.md 
         - name: Acquire to dispose
           items:
           - name: End-to-end scenario - acquire to dispose
