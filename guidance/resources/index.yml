@@ -93,6 +93,13 @@ landingContent:
           url: cs-set-up-cif2-simulator.md
         - text: Set up click-to-run outbound calls
           url: cs-set-up-outbound-calls.md
+# Card
+  - title: Administration
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Storage capacity enforcement module for Power Platform CoE Starter Kit
+          url: center-of-excellence-storage-capacity-enforcement.md
 
 
 # Developer Card

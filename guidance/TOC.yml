@@ -396,6 +396,10 @@ items:
           href: resources/index.yml
         - name: Introduction
           href: resources/overview.md
+        - name: Administration
+          items:
+          - name: Storage capacity enforcement module for Power Platform CoE Starter Kit
+            href: resources\center-of-excellence-storage-capacity-enforcement.md
 #FTIP
         - name: Implementation Portal
           items:
