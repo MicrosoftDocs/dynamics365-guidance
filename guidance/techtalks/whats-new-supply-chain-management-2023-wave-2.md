@@ -12,7 +12,7 @@ ai-usage: ai-assisted
 
 The landscape of supply chain management (SCM) is constantly evolving, driven by technological advancements and changing market demands. The Dynamics 365 Supply Chain Management Wave 2, 2023 Edition, brings a suite of updates and features that promise to significantly enhance the efficiency and capabilities of supply chain management systems. This article provides an in-depth look at these developments and their implications for businesses.
 
-We've based this article on [a TechTalk](https://www.youtube.com/embed/eVnl2zzVWPQ?si=ktOeERhNsaq1v6QD) that you can find online in the Dynamics 365 channel on YouTube.
+We based this article on [a TechTalk](https://www.youtube.com/embed/eVnl2zzVWPQ?si=ktOeERhNsaq1v6QD) that you can find online in the Dynamics 365 channel on YouTube.
 
 :::image type="content" source="media\whats-new-supply-chain-management-2023-wave-2.svg" alt-text="PowerPoint thumbnail for 'What's New in SCM - Wave 2 2023 Edition TechTalk' presented by Nicole Gump and Hiren Naik." link="https://www.youtube.com/embed/eVnl2zzVWPQ?si=ktOeERhNsaq1v6QD":::
 
