@@ -82,12 +82,11 @@ The following prerequisites must be deployed and configured before deploying the
 - Azure subscription
 
     - Create an [Azure Automation account](/azure/automation/quickstarts/create-azure-automation-account-portal). We recommend creating the Automation account in the same region as your CoE Starter Kit Dataverse environment.
-
-### Example
-
-The following image illustrates the information you see when you select a storage account:
-
-:::image type="content" source="media\center-of-excellence-storage-capacity-enforcement-1.svg" alt-text="Screenshot of the New Link section, with the Your environment is located in: U S Gov Central being highlighted." lightbox="media\center-of-excellence-storage-capacity-enforcement-1.svg":::
+    - Note: To determine which region your environment is hosted in, you can use the [Synapse Link for Dataverse](/power-apps/maker/data-platform/azure-synapse-link-synapse#connect-dataverse-to-synapse-workspace) setup wizard which provides this information on the initial setup page. Please note that you don’t have to complete Synapse Link for Dataverse setup and can close the wizard once you’ve identified the region. This step is just to get the region/datacenter details.
+    Example
+    The following image illustrates the information you see when you select a storage account:
+    
+    :::image type="content" source="media\center-of-excellence-storage-capacity-enforcement-1.svg" alt-text="Screenshot of the New Link section, with the Your environment is located in: U S Gov Central being highlighted." lightbox="media\center-of-excellence-storage-capacity-enforcement-1.svg":::
 
 ## Solution download
 
