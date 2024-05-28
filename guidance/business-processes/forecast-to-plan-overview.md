@@ -34,7 +34,7 @@ The second column in the diagram displays the business process areas of the *for
 
 - Define strategic and operational plans
 
-The third column in the diagram displays the downstream business processes. In operational strategies such as make to stock, *order to cash* would be a downstream process from *forecast to plan*, since in this case a forecast would be used to drive inventory replenishment prior to an order being placed. Other processes that are more typically downstream processes of *forecast to plan* are *plan to produce*, *procure to pay*, *inventory to deliver*, *record to report*, and *case to resolution*.  
+The third column in the diagram displays the downstream business processes. In operational strategies such as make to stock, *order to cash* would be a downstream process from *forecast to plan*, since in this case a forecast would be used to drive inventory replenishment prior to an order being placed. Other processes that are more typically downstream processes of *forecast to plan* are *plan to produce*, *source to pay*, *inventory to deliver*, *record to report*, and *case to resolution*.  
 
 > [!IMPORTANT]
 > These downstream processes may have some prerequisites that are required before you can run a forecast or master plan in the system; however, the outputs of planning are generally considered to be purchases, production, and transfer orders.
@@ -91,7 +91,7 @@ The example diagram above is a sample flow that is common in either make to orde
 
     4. *Plan supply and replenishment*
 
-6. *Procure to pay* end-to-end process.
+6. *Source to pay* end-to-end process.
 
     Parallel branches from this downstream process are 9. *Case to resolution* and 10. *Record to report*
 

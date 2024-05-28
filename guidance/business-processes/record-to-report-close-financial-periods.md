@@ -43,7 +43,7 @@ The following diagram illustrates the *Financial period close* business process 
 
 1. Start
 
-    Parallel branches from start connect to *Acquire to dispose*, *Inventory to deliver*, *Order to cash*, *Plan to produce*, *Procure to pay*, *Project to profit*, and *Service to cash* end-to-end processes shown on the right, which all have a connect to 3. *Close financial periods*.
+    Parallel branches from start connect to *Acquire to dispose*, *Inventory to deliver*, *Order to cash*, *Plan to produce*, *Source to pay*, *Project to profit*, and *Service to cash* end-to-end processes shown on the right, which all have a connect to 3. *Close financial periods*.
 
 2. *Record to report*
 

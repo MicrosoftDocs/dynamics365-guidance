@@ -38,7 +38,7 @@ Learn more about the business process areas at [Design to retire business proces
 
 The downstream processes for the *design to retire* end-to-end process include the following.
 
-- **Procure to pay**: Typically, products are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the products that must be purchased are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a product definition is created. In these cases, the *procure to pay* process is upstream instead of downstream.
+- **Source to pay**: Typically, products are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the products that must be purchased are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a product definition is created. In these cases, the *Source to pay* process is upstream instead of downstream.
 - **Prospect to quote**: In operational strategies such as make to stock, the *prospect to quote* process occurs after a product mix is determined in the *design to retire* process.
 - **Order to cash**: In operational strategies such as make to stock, or in brick-and-mortar commerce scenarios, the *order to cash* process occurs after a product mix is determined in the *design to retire* process.
 - **Plan to produce**: Except in operational strategies for make to order and engineer to order, the production process typically occurs after the *design to retire* process is completed. Nevertheless, because there are often updates throughout the production process, the process can be both upstream and downstream.
@@ -79,7 +79,7 @@ The following steps are illustrated in the *design to retire* end-to-end busines
 
 1. *Manage product lifecycle*
 
-    1. *Procure to pay*
+    1. *Source to pay*
     1. *Prospect to quote*
     1. *Order to cash*
     1. *Plan to produce*
@@ -88,7 +88,7 @@ The following steps are illustrated in the *design to retire* end-to-end busines
 
 1. End
 
-Parallel branches from 5.a. *Procure to pay*, 5.b. *Prospect to quote*, 5.c. *Order to cash*, and 5.d. *Plan to produce* connect to *Inventory to deliver*, which connects to *Record to report* and then to 6. End.
+Parallel branches from 5.a. *Source to pay*, 5.b. *Prospect to quote*, 5.c. *Order to cash*, and 5.d. *Plan to produce* connect to *Inventory to deliver*, which connects to *Record to report* and then to 6. End.
 
 Parallel branches connect from Start to each of the following upstream end-to-end processes, all of which connect to 4. *Introduce new products*.
 
@@ -120,7 +120,7 @@ You can use the following resources to learn more about the *design to retire* p
 - [Set up a product catalog Walkthrough (Dynamics 365 Sales)](/dynamics365/sales/set-up-product-catalog-walkthrough)
 - [Configure and manage products and inventory in Dynamics 365 Supply Chain Management](/training/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate](/certifications/d365-functional-consultant-supply-chain-management/)
-- [Issue and settle vendor payments overview](procure-to-pay-issue-and-settle-vendor-payments-overview.md)
+- [Issue and settle vendor payments overview](source-to-pay-issue-and-settle-vendor-payments-overview.md)
 - Find definitions of terminology that is used in content for *design to retire* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Attribute](glossary.md#attribute)

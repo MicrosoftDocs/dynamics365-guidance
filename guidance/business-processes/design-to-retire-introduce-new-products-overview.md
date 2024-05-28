@@ -69,7 +69,7 @@ The following diagram illustrates the Introduce new products business process ar
 
 1. Start
 
-  Parallel branches connect to the end-to-end processes *Plan to produce* and *Procure to pay* that each connect to the *Prototype and test offerings* business process.
+  Parallel branches connect to the end-to-end processes *Plan to produce* and *Source to pay* that each connect to the *Prototype and test offerings* business process.
 
 2. *Design to retire*
 

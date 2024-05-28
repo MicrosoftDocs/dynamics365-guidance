@@ -12,9 +12,9 @@ ai-usage: ai-assisted
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
-This article explains how to use the *manage vendor relationships* business process in Dynamics 365 Commerce, Finance, Project Operations, and Supply Chain Management. This process is part of the *procure to pay* end-to-end process. It helps you find, select, and evaluate vendors for your business needs.
+This article explains how to use the *manage vendor relationships* business process in Dynamics 365 Commerce, Finance, Project Operations, and Supply Chain Management. This process is part of the *Source to pay* end-to-end process. It helps you find, select, and evaluate vendors for your business needs.
 
-The *manage vendor relationships* business process area is an essential part of the *procure to pay* process in Dynamics 365 Supply Chain Management. Dynamics 365 includes a comprehensive set of capabilities to help you streamline vendor management. You can use it to:
+The *manage vendor relationships* business process area is an essential part of the *Source to pay* process in Dynamics 365 Supply Chain Management. Dynamics 365 includes a comprehensive set of capabilities to help you streamline vendor management. You can use it to:
 
 - Search for potential vendors based on product type, location, price, and other criteria.
 
@@ -44,13 +44,13 @@ The stakeholders in the *manage vendor relationships* business process area are 
 
 The following diagram illustrates the *manage vendor relationships* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\procure-to-pay-manage-vendor-relationships-overview.svg" alt-text="Diagram showing the procure to pay business process area, connecting procure to pay to manage vendor relationships." lightbox="media\procure-to-pay-manage-vendor-relationships-overview.svg":::
+:::image type="content" source="media\source-to-pay-manage-vendor-relationships-overview.svg" alt-text="Diagram showing the source to pay business process area, connecting source to pay to manage vendor relationships." lightbox="media\source-to-pay-manage-vendor-relationships-overview.svg":::
 
 The process has these steps:
 
 1. Start
 
-1. *Procure to pay* end-to-end process
+1. *Source to pay* end-to-end process
 
 1. *Manage vendor relationships* business process area
 
@@ -102,7 +102,7 @@ If you want to implement Dynamics 365 solutions to support your *manage vendor r
 
 2. *Develop a sourcing strategy*
 
-3. [Define a procurement catalog](procure-to-pay-define-procurement-catalogs-overview.md)
+3. [Define a procurement catalog](source-to-pay-define-procurement-catalogs-overview.md)
 
 4. *Define policies and procedures for procurement*
 
@@ -110,15 +110,15 @@ If you want to implement Dynamics 365 solutions to support your *manage vendor r
 
 6. *Receive materials and services*
 
-7. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
+7. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
 
-8. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+8. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
 9. *Manage vendor debits and chargebacks*
 
 10. *Create and process promissory notes*
 
-11. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
+11. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
 
 12. *Analyze vendor performance*
 

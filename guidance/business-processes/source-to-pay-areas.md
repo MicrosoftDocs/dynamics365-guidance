@@ -1,17 +1,17 @@
 ﻿---
-title: Procure to pay business process areas
-description: Learn about the procure to pay business process area and get introduced to the various functions of the business process.
+title: Source to pay business process areas
+description: Learn about the source to pay business process area and get introduced to the various functions of the business process.
 author: AdiVijayashankar
 ms.author: advijaya
 ms.topic: conceptual
 ms.date: 03/20/2024
 ---
 
-# Procure to pay business process areas
+# Source to pay business process areas
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-The *procure to pay* process is broken down into multiple business process areas. The following sections further describe the business process areas.
+The *source to pay* process is broken down into multiple business process areas. The following sections further describe the business process areas.
 
 ## Develop procurement and sourcing strategies
 
@@ -21,7 +21,7 @@ In Dynamics 365, you can configure products to determine the sourcing method for
 
 ## Define procurement catalogs
 
-The business process area that defines procurement catalogs, empowers organizations to configure internal and external catalogs for use in the procure-to-pay process. These catalogs, including items and services, can be organized and added, facilitating their use during the procurement process. Furthermore, categories outlined within the catalogs can be used within purchase requisition and purchase order without necessitating item or service code.
+The business process area that defines procurement catalogs, empowers organizations to configure internal and external catalogs for use in the source-to-pay process. These catalogs, including items and services, can be organized and added, facilitating their use during the procurement process. Furthermore, categories outlined within the catalogs can be used within purchase requisition and purchase order without necessitating item or service code.
 
 Once configured, these catalogs and their categories can be used to enforce access restrictions, ensuring that designated personnel have appropriate access to specific categories. Access control is administered through purchasing policies within Dynamics 365 Supply Chain Management.
 
@@ -45,7 +45,7 @@ You can also generate a prepayment invoice for advance vendor payment prior to t
 
 This business process area involves paying vendors according to the agreed-upon payment terms and ensuring that payments are made accurately and on time. This includes applying cash discounts, generating, and posting prepayments and payments, settling vendor transactions, and canceling a vendor payment. Using the invoice payment proposal feature within Dynamics 365, invoices can be settled manually or via automation. It also supports various payment formats including, but not limited to, checks, electronic payments such as ACH, NACHA, Wires, and BAC, and credit cards, among others. The process includes communication with financial institutions and the generation of files or documents to be sent to the vendor via mail or electronically. Additionally, this business process area also supports the creation and processing of promissory notes.
 
-Learn more at [Procure to pay end-to-end overview](procure-to-pay-overview.md).
+Learn more at [Source to pay end-to-end overview](source-to-pay-overview.md).
 
 ## Process vendor rebates and incentives
 
@@ -53,29 +53,29 @@ This business process area involves managing and tracking rebates and incentives
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *procure to pay* business processes, learn more at the following resources and steps. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *source to pay* business processes, learn more at the following resources and steps. (Links are added, when the articles are ready.)
 
-1. [Procure to pay - introduction to the end-to-end business process](procure-to-pay-introduction.md)
+1. [Source to pay - introduction to the end-to-end business process](source-to-pay-introduction.md)
 
-2. [Procure to pay end-to-end overview](procure-to-pay-overview.md)
+2. [Source to pay end-to-end overview](source-to-pay-overview.md)
 
 3. *Define procurement and sourcing strategies*
 
-4. [Define procurement catalogs overview](procure-to-pay-define-procurement-catalogs-overview.md)
+4. [Define procurement catalogs overview](source-to-pay-define-procurement-catalogs-overview.md)
 
-5. [Manage vendor relationships overview](procure-to-pay-manage-vendor-relationships-overview.md)
+5. [Manage vendor relationships overview](source-to-pay-manage-vendor-relationships-overview.md)
 
-6. [Procure materials and services overview](procure-to-pay-procure-materials-services-overview.md)
+6. [Procure materials and services overview](source-to-pay-procure-materials-services-overview.md)
 
-7. [Process vendor invoices overview](procure-to-pay-process-vendor-invoices-overview.md)
+7. [Process vendor invoices overview](source-to-pay-process-vendor-invoices-overview.md)
 
-8. [Issue and settle vendor payments overview](procure-to-pay-issue-and-settle-vendor-payments-overview.md)
+8. [Issue and settle vendor payments overview](source-to-pay-issue-and-settle-vendor-payments-overview.md)
 
-9. [Process vendor rebates and incentives overview](procure-to-pay-process-vendor-rebates-incentives-overview.md)
+9. [Process vendor rebates and incentives overview](source-to-pay-process-vendor-rebates-incentives-overview.md)
 
 ## Related resources
 
-You can use the following resources to learn more about the *procure to pay* process in Dynamics 365.
+You can use the following resources to learn more about the *source to pay* process in Dynamics 365.
 
 - [Procurement and sourcing overview](/dynamics365/supply-chain/procurement/procurement-sourcing-overview) 
 

@@ -56,7 +56,7 @@ The following steps are illustrated in the *establish stocking and replenishment
         1. Define production strategies
         1. Define production planning policies
 
-    1. *Procure to pay*
+    1. *Source to pay*
 
         1. Develop sourcing strategies
         1. Define procurement planning policies

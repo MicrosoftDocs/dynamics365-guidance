@@ -4,7 +4,7 @@ description: Learn about the storage capacity enforcement solution used as a set
 author: dereklh77
 ms.author: reedw
 ms.topic: article
-ms.date: 05/05/2024
+ms.date: 05/21/2024
 ---
 
 # Storage capacity enforcement module for Power Platform Center of Excellence Starter Kit
@@ -52,14 +52,14 @@ The following reporting and audit components are included and provide visibility
 
 - **Environments with no storage capacity limits** – Environments that don't have any storage capacity limits currently defined.
 
-    > [!NOTE]
+   > [!NOTE]
    > Environments in this scenario will not be assessed or enforced since there are no storage capacity limits configured
 
 - **Environments without environment owner** – The solution uses the CoE Starter Kit "environment owner" field for sending notifications. If an environment owner isn't defined for an environment, notifications are only sent to the CoE Admin email.
 
-#### Disabled environments \| Storage Capacity Enforcement Power BI
+#### Environments in Power BI
 
-More pages added to the existing CoE Power BI dashboard providing details on disabled environments, including the following list:
+The solution adds pages to the existing CoE Power BI dashboard that provide details on disabled environments, including the following list:
 
 - Total number of environments that are switched off
 
@@ -73,7 +73,7 @@ More pages added to the existing CoE Power BI dashboard providing details on dis
 
 ## Prerequisites
 
-The following prerequisites must be deployed and configured before deploying the Storage Capacity Enforcement solution.
+The following prerequisites must be deployed and configured before you can deploy the Storage Capacity Enforcement solution.
 
 - Install the [CoE Starter Kit: Core Components solution](/power-platform/guidance/coe/setup-core-components).
 
@@ -81,13 +81,14 @@ The following prerequisites must be deployed and configured before deploying the
 
 - Azure subscription
 
-    - Create an [Azure Automation account](/azure/automation/quickstarts/create-azure-automation-account-portal). We recommend creating the Automation account in the same region as your CoE Starter Kit Dataverse environment.
+    Create an [Azure Automation account](/azure/automation/quickstarts/create-azure-automation-account-portal). We recommend creating the Automation account in the same region as your CoE Starter Kit Dataverse environment.  
 
-### Example
+    > [!TIP]
+    > You can learn which region your environment is hosted in by suing the [Synapse Link for Dataverse](/power-apps/maker/data-platform/azure-synapse-link-synapse#connect-dataverse-to-synapse-workspace) guide. The guide provides this information on the initial setup page. You don't have to complete the setup, and you can close the wizard once you've identified the region. This step is just to get the information about region and datacenter.
 
-The following image illustrates the information you see when you select a storage account:
+    The following image illustrates the information you see when you select a storage account:
 
-:::image type="content" source="media\center-of-excellence-storage-capacity-enforcement-1.svg" alt-text="Screenshot of the New Link section, with the Your environment is located in: U S Gov Central being highlighted." lightbox="media\center-of-excellence-storage-capacity-enforcement-1.svg":::
+    :::image type="content" source="media\center-of-excellence-storage-capacity-enforcement-1.svg" alt-text="Screenshot of the New Link section, with the Your environment is located in: U S Gov Central is highlighted." lightbox="media\center-of-excellence-storage-capacity-enforcement-1.svg":::
 
 ## Solution download
 

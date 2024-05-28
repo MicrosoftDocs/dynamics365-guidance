@@ -1,25 +1,25 @@
 ﻿---
-title: Procure to pay end-to-end overview
-description: Learn about the end-to-end business process, procure to pay. Get a flow diagram that describes the relationship with other processes in Dynamics 365 solutions.
+title: Source to pay end-to-end overview
+description: Learn about the end-to-end business process, source to pay. Get a flow diagram that describes the relationship with other processes in Dynamics 365 solutions.
 author: AdiVijayashankar
 ms.author: advijaya
 ms.topic: conceptual
 ms.date: 04/03/2024
 ---
 
-# Procure to pay end-to-end overview
+# Source to pay end-to-end overview
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article describes the procure to pay end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
+This article describes the *Source to pay* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
-## Procure to pay process relationship
+## Source to pay process relationship
 
-The following diagram shows the relationship of other processes for the *procure to pay* process.
+The following diagram shows the relationship of other processes for the *Source to pay* process.
 
-:::image type="content" source="media/procure-to-pay-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/procure-to-pay-process.svg":::
+:::image type="content" source="media/source-to-pay-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/source-to-pay-process.svg":::
 
-The upstream process for the *procure to pay* processes are:
+The upstream process for the *Source to pay* processes are:
 
 - **Concept to market**  
 
@@ -27,7 +27,7 @@ The upstream process for the *procure to pay* processes are:
 
 - **Design to retire**  
 
-  This end-to-end process, which covers the process of creating new tangible products, is required to determine which products should be procured in the procure to pay process by the organization.
+  This end-to-end process, which covers the process of creating new tangible products, is required to determine which products should be procured in the *Source to pay* process by the organization.
 
 - **Forecast to plan**  
 
@@ -39,7 +39,7 @@ The upstream process for the *procure to pay* processes are:
 
 - **Project to profit**  
 
-  Materials and services included to support an ongoing project will require a procurement process to be initiated by the procure to pay process.
+  Materials and services included to support an ongoing project will require a procurement process to be initiated by the *Source to pay* process.
 
 - **Acquire to dispose**  
 
@@ -53,7 +53,7 @@ The upstream process for the *procure to pay* processes are:
 
   Organizations need to procure materials or services to support internal and external activities such as maintenance, installation, or warranty services.
 
-The *procure to pay* end-to-end process is broken down into the following component business process areas:
+The *Source to pay* end-to-end process is broken down into the following component business process areas:
 
 - *Develop procurement and sourcing strategies*
 
@@ -69,7 +69,7 @@ The *procure to pay* end-to-end process is broken down into the following compon
 
 - *Process vendor rebates and incentives*
 
-Learn more at [Procure to pay business process areas](procure-to-pay-areas.md).
+Learn more at [Source to pay business process areas](source-to-pay-areas.md).
 
 The following list displays the downstream business processes:
 
@@ -107,7 +107,7 @@ The following list displays the downstream business processes:
 
 ### Featured capabilities
 
-There are product-specific capabilities that interact with the procure to pay processing including, but not limited to:
+There are product-specific capabilities that interact with the *Source to pay* processing including, but not limited to:
 
 - **Vendor collaboration**  
 
@@ -137,17 +137,17 @@ There are product-specific capabilities that interact with the procure to pay pr
 
   During the materials receipt process in the Inventory to deliver end-to-end scenario, you can use warehouse management processes to automate and simplify the inventory processes on the warehouse floor with mobile devices.
 
-## Procure to pay business process flow
+## Source to pay business process flow
 
-The following diagram shows the high-level flow of the *procure to pay* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *Source to pay* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media\procure-to-pay-flow.svg" alt-text="Diagram of the procure to pay business process area map, showing the connections between various business processes." lightbox="media\procure-to-pay-flow.svg":::
+:::image type="content" source="media\source-to-pay-flow.svg" alt-text="Diagram of the source to pay business process area map, showing the connections between various business processes." lightbox="media\source-to-pay-flow.svg":::
 
-The following steps are illustrated in the *procure to pay* end-to-end business process flow diagram.
+The following steps are illustrated in the *Source to pay* end-to-end business process flow diagram.
 
 1. Start
 
-2. *Procure to pay* end-to-end process
+2. *Source to pay* end-to-end process
 
     1. Parallel subprocesses include the following:
 
@@ -201,19 +201,19 @@ Parallel branches from Start include the following list:
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *procure to pay* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *Source to pay* business processes, use the following resources and steps to learn more.
 
-1. Define the goals and objectives of implementing a procure to pay technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing a *Source to pay* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-3. Request a demo or get a free trial of Dynamics 365 solutions for the procure to pay process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *Source to pay* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-4. [Procure to pay business process areas](procure-to-pay-areas.md)
+4. [Source to pay business process areas](source-to-pay-areas.md)
 
 ## Related resources
 
-You can use the following resources to learn more about the procure to pay process in Dynamics 365.
+You can use the following resources to learn more about the *Source to pay* process in Dynamics 365.
 
 - [Procurement and sourcing overview](/dynamics365/supply-chain/procurement/procurement-sourcing-overview) 
 

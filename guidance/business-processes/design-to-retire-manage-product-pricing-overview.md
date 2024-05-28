@@ -21,7 +21,7 @@ The process of managing product pricing involves a series of interconnected busi
 
 Simultaneously, defining product costing becomes paramount for maintaining profitability. The holistic approach extends to managing the entire product lifecycle, from introduction to retirement, ensuring continuous refinement and strategic adaptation. This integrated process within Dynamics 365 empowers organizations to navigate the complexities of product pricing with agility and foresight, contributing to sustained success.
 
-In an organization focused on products, especially when downstream processes such as procure to pay, prospect to quote, order to cash, plan to produce, project to profit, case to resolution, service to cash, and/or record to report are part of the Dynamics 365 implementation, early consideration of business processes related to managing product pricing is essential.
+In an organization focused on products, especially when downstream processes such as source to pay, prospect to quote, order to cash, plan to produce, project to profit, case to resolution, service to cash, and/or record to report are part of the Dynamics 365 implementation, early consideration of business processes related to managing product pricing is essential.
 
 The data and output of these processes impact various downstream operations and defining them early in the project ensures overall project success. If Dynamics 365 won't serve as the system of record for product data, integrations to the designated system should be considered early in the planning phase.
 
@@ -63,7 +63,7 @@ The following diagram illustrates the *manage product pricing* business process 
 
 7. *Create and maintain product pricing agreements*
 
-    Parallel branches connect to *Manage vendor relationships*, which is under *Procure to pay* and *Manage customer relationships*, which is under *Prospect to quote*
+    Parallel branches connect to *Manage vendor relationships*, which is under *Source to pay* and *Manage customer relationships*, which is under *Prospect to quote*
 
 8. *Create and maintain product promotional pricing and discounts*
 

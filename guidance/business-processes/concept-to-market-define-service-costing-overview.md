@@ -51,7 +51,7 @@ The following diagram illustrates the *define service costing* business process 
 
 1. Start
 
-    Parallel branches connect to [Procure to pay](procure-to-pay-overview.md) processes, each of which connects to c. *Analyze costing strategy*.
+    Parallel branches connect to [Source to pay](source-to-pay-overview.md) processes, each of which connects to c. *Analyze costing strategy*.
 
 1. [Concept to market](concept-to-market-overview.md)
 
@@ -65,13 +65,13 @@ The following diagram illustrates the *define service costing* business process 
 
     1. *Maintain service costs*
 
-        Parallel branches connect to *Order to cash* and *Procure to pay*.
+        Parallel branches connect to *Order to cash* and *Source to pay*.
 
     1. *Analyze service costs*
 
 1. [Record to report](record-to-report-overview.md)
 
-    Each of the following downstream end-to-end processes connects to the *Record to report* box: *Service to cash*, *Order to cash*, and *Procure to pay*.
+    Each of the following downstream end-to-end processes connects to the *Record to report* box: *Service to cash*, *Order to cash*, and *Source to pay*.
 
 1. End
 

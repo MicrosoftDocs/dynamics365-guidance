@@ -66,7 +66,7 @@ The following diagram illustrates the Introduce new services business process ar
 
 1. Start
 
-    Parallel branches connect to *Plan to produce* and *Procure to pay* that both connect to *Prototype and test offerings*.
+    Parallel branches connect to *Plan to produce* and *Source to pay* that both connect to *Prototype and test offerings*.
 
 2. *Concept to market*
 
@@ -90,7 +90,7 @@ The following diagram illustrates the Introduce new services business process ar
         2. *Manage service pricing*
         3. *Prospect to quote*
 
-        A parallel branch connects to the business process area under *Procure to pay*:
+        A parallel branch connects to the business process area under *Source to pay*:
 
         1. *Manage vendor relationships*
 

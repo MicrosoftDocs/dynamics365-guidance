@@ -19,7 +19,7 @@ This article introduces the *inventory to deliver* end-to-end business process. 
 The *inventory to deliver* business process involves managing the flow of goods from receipt into a warehouse or distribution center through to delivery to the customer. This end-to-end process includes receipt of goods, quality management, inventory management, inventory costing, order fulfillment, and shipping.
 
 > [!IMPORTANT]
-> The process defined here doesn't include the procurement process, which involves purchasing raw materials or finished goods from suppliers. It only includes the receipt of goods in the warehouse. <!--TODO: Add link to Learn more at Procure to pay introduction-->
+> The process defined here doesn't include the procurement process, which involves purchasing raw materials or finished goods from suppliers. It only includes the receipt of goods in the warehouse. <!--TODO: Add link to Learn more at Source to pay introduction-->
 >
 > The process also doesn't include production, which involves converting raw materials into sub-assemblies or finished goods. This process does include the issuing of raw materials into production and the receipt of finished goods into inventory. <!--TODO: Add link to Learn more at Plan to produce introduction-->
 

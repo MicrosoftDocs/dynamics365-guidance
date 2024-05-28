@@ -30,7 +30,7 @@ The upstream processes for the *acquire to dispose* process include the followin
 
   The forecasting process is upstream from the *acquire to dispose* process because a detailed plan for the required inventory and assets is typically defined before an organization starts to purchase the materials and assets. This is especially true for production operations where expensive machinery or equipment is used in the production process. Most organizations have detailed and stringent processes for making capital investments into new buildings or equipment to support operations.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   Many types of assets might require the procurement of multiple items and/or services to create a single asset that is usable by the organization. The procurement process in Dynamics 365 Supply Chain Management supports this process and the conversion to fixed assets when the items are put into service.
 
@@ -84,7 +84,7 @@ The downstream processes for the inventory to deliver process include the follow
 
   When you purchase manufacturing equipment, for example, the assets will begin to be used in the production process after they're put into service. Dynamics 365 Supply Chain Management allows you to configure the resources to be used in routes and track the machine usage throughout the production lifecycle.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   After fixed assets are put into service, you might begin to perform maintenance or purchase consumables for the assets. Additionally, you might make leasehold improvements that require materials or services to be purchased. These purchases can be tracked against the fixed asset as asset additions.
 
@@ -156,7 +156,7 @@ The following steps are illustrated in the *acquire to dispose* end-to-end busin
 
 5. *Maintain and repair internal assets*
 
-    Parallel branches from this subprocess are *Manage internal assets*, *Case to resolution*, *Plan to produce*, *Procure to pay*, *Project to profit*, *Service to cash*.
+    Parallel branches from this subprocess are *Manage internal assets*, *Case to resolution*, *Plan to produce*, *Source to pay*, *Project to profit*, *Service to cash*.
 
 6. *Retire and dispose of assets*
 
@@ -174,7 +174,7 @@ Parallel branches from Start include the following processes:
 
 4. *Project to profit* connects to *Plan and budget assets*, *Manage internal assets*, and  *Maintain and repair internal assets*.
 
-5. *Procure to pay* connects to *Acquire assets*
+5. *Source to pay* connects to *Acquire assets*
 
 6. *Design to retire* connects to *Maintain and repair internal assets*
 
@@ -184,7 +184,7 @@ The following end-to-end downstream processes have connections to End:
 - Inventory to deliver  
 - Case to resolution  
 - Plan to produce  
-- Procure to pay  
+- Source to pay  
 - Project to profit  
 - Service to cash  
 - Record to report  

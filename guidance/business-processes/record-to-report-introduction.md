@@ -42,7 +42,7 @@ The R2R process typically includes several key sub-processes such as:
 Overall, the R2R process is a critical business process that helps organizations make sure of the accuracy and completeness of their financial statements. It's essential for making informed business decisions and meeting regulatory requirements.
 
 > [!IMPORTANT]
-> The process defined here does not include other business processes such as procure to pay, order to cash, plan to produce, and payroll processing, which are typically performed by other departments such as procurement, sales, manufacturing, and human resources. For more information about these processes, see Order to cash introduction, Procure to pay introduction, Plan to produce introduction, and Hire to retire introduction.
+> The process defined here does not include other business processes such as source to pay, order to cash, plan to produce, and payroll processing, which are typically performed by other departments such as procurement, sales, manufacturing, and human resources. For more information about these processes, see Order to cash introduction, Source to pay introduction, Plan to produce introduction, and Hire to retire introduction.
 
 Every organization has variations to the record to report process. Here, we define the basic outline for any organization looking to implement a technology solution to support the record to report.
 

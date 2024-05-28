@@ -11,7 +11,7 @@ ms.date: 03/19/2024
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article describes the *Define procurement and sourcing strategy* business process area within the *Procure to pay* end-to-end process. Sourcing and procurement strategies are outlined for both materials and services that are needed within your organization. During this process, the sourcing or procurement teams collaborate with several different departments focusing on three primary areas: price/cost, lead time, and quality.
+This article describes the *Define procurement and sourcing strategy* business process area within the *Source to pay* end-to-end process. Sourcing and procurement strategies are outlined for both materials and services that are needed within your organization. During this process, the sourcing or procurement teams collaborate with several different departments focusing on three primary areas: price/cost, lead time, and quality.
 
 This business process area mainly covers:
 
@@ -39,11 +39,11 @@ There's collaboration with multiple departments in an organization when defining
 
 The following diagram illustrates the *define procurement and sourcing strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\procure-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the define procurement and sourcing strategy business process area, showing the connection between the Procure to pay business processes." lightbox="media\procure-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
+:::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the define procurement and sourcing strategy business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
 
 1. Start
 
-2. *Procure to pay* end-to-end process
+2. *Source to pay* end-to-end process
 
 3. *Define procurement and sourcing strategy* business process area
 
@@ -103,17 +103,17 @@ If you would like to implement Dynamics 365 solutions to assist with the *define
 
 1. *Define procurement and sourcing strategies* (The article you're currently reading)
 
-2. [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
+2. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)
 
-3. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)
+3. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
 
-4. [Procure materials and services](procure-to-pay-procure-materials-services-overview.md)
+4. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)
 
-5. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)
+5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)
 
-6. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)
+6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)
 
-7. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)
+7. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)
 
 ## Related resources
 

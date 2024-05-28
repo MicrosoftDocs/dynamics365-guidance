@@ -87,9 +87,9 @@ The downstream processes for the project to profit process include the following
 
   A project might be intended to create or revise products to be sold and thus provide inputs to a downstream end-to-end process.
 
-- **Procure to pay**  
+- **Source to pay**  
 
-  The *procure to pay* process involves purchasing goods and services and making payments for them. In most organizations, the procurement of various materials and equipment is necessary to complete a project. If you plan to use Dynamics 365 Project Operations to support your organization, make sure you configure the *procure to pay* process for tasks such as the following list:
+  The *Source to pay* process involves purchasing goods and services and making payments for them. In most organizations, the procurement of various materials and equipment is necessary to complete a project. If you plan to use Dynamics 365 Project Operations to support your organization, make sure you configure the *Source to pay* process for tasks such as the following list:
 
   - Create purchase requisitions  
 
@@ -239,13 +239,13 @@ The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote
 
     4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
-        Parallel branches from this subprocess are i. *Capture project expenses*, j. *Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
+        Parallel branches from this subprocess are i. *Capture project expenses*, j. *Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Source to pay*.
 
     5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
     <!-- 8. Manage project supply chain
 
-        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Procure to pay*.
+        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Source to pay*.
 
     9. Capture project expenses
 

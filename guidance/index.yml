@@ -448,17 +448,17 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/plan-to-produce-areas.md
-    - title: Procure to pay
+    - title: Source to pay
       links:
       - text: Introduction
         itemType: overview
-        url: business-processes/procure-to-pay-introduction.md
+        url: business-processes/source-to-pay-introduction.md
       - text: End-to-end business process
         itemType: concept
-        url: business-processes/procure-to-pay-overview.md
+        url: business-processes/source-to-pay-overview.md
       - text: Business process areas
         itemType: overview
-        url: business-processes/procure-to-pay-areas.md
+        url: business-processes/source-to-pay-areas.md
     - title: Project to profit
       links:
       - text: Introduction

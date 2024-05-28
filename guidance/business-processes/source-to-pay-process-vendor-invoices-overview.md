@@ -11,7 +11,7 @@ ms.date: 03/18/2024
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Intelligent Order Management, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management<!--, Microsoft Supply Chain Center-->***
 
-This article describes the *process vendor invoices* business process area within the *Procure to pay* end to end process. This process area includes the processes for setting the vendor invoice matching policies of how invoicing performs and is accounted for.
+This article describes the *process vendor invoices* business process area within the *Source to pay* end to end process. This process area includes the processes for setting the vendor invoice matching policies of how invoicing performs and is accounted for.
 
 A **vendor invoice** is generated upon receiving products or services as per a purchase order. It consists of a header and item or service lines, marking the last step in the purchase process. Some invoices may not correspond to purchase orders, like ongoing service bills. There are various methods to enter vendor invoices, including, vendor invoice approval journal, vendor invoice journal for non-purchase order invoices, and using the vendor invoice pool for expense accrual.
 
@@ -35,7 +35,7 @@ As policies and procedures are outlined within the procurement area, there is al
 
 The following diagram illustrates the *process vendor invoices business* process area.
 
-:::image type="content" source="media\procure-to-pay-process-vendor-invoices-overview.svg" alt-text="Diagram of the process vendor invoices process flow, showing the connections within the business process area." lightbox="media\procure-to-pay-process-vendor-invoices-overview.svg":::
+:::image type="content" source="media\source-to-pay-process-vendor-invoices-overview.svg" alt-text="Diagram of the process vendor invoices process flow, showing the connections within the business process area." lightbox="media\source-to-pay-process-vendor-invoices-overview.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
@@ -59,7 +59,7 @@ The following diagram illustrates the *process vendor invoices business* process
 
             - *Receive invoices* business process
 
-- *Procure to pay* end to end process
+- *Source to pay* end to end process
 
 - Check if there's any *pre-payment* business process
 
@@ -105,11 +105,11 @@ Processing vendor invoices gives users direct control over each step of the proc
 
 If you want to implement Dynamics 365 solutions to assist with your process vendor invoices business processes, you can use the following resources and steps to learn more. (Links are added later, when the articles are ready.)
 
-1. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)
+1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
 
 2. *Develop a sourcing strategy*
 
-3. [Define a procurement catalog](procure-to-pay-define-procurement-catalogs-overview.md)
+3. [Define a procurement catalog](source-to-pay-define-procurement-catalogs-overview.md)
 
 4. *Define policies and procedures for procurement*
 
@@ -119,13 +119,13 @@ If you want to implement Dynamics 365 solutions to assist with your process vend
 
 7. *Process vendor invoices* (the article that you're reading)
 
-8. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+8. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
 9. *Manage vendor debits and chargebacks*
 
 10. *Create and process promissory notes*
 
-11. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)
+11. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)
 
 12. *Analyze vendor performance*
 

@@ -49,9 +49,9 @@ The upstream processes for the *record to report* process include the following.
   
   This process involves planning and executing production processes. Before the *record to report* process, the organization needs to have a manufacturing process in place to plan and run production processes. Production, batch, and kanban orders in Dynamics 365 Supply Chain Management are designed to post to the general ledger automatically when you pick, report as finished, and end the orders, for example.
 
-- **Procure to pay**:  
+- **Source to pay**:  
 
-    This process involves managing the procure-to-pay cycle, including procurement, invoicing, and payments. Before the *record to report* process, procurement and invoice management should be established to support the *record to report* process. Purchase orders in Dynamics 365 Supply Chain Management are designed to post to the general ledger automatically when you receive or invoice the order. You can also optionally configure purchase requisitions to post pre-encumbrances, and purchase order confirmations to post encumbrances automatically into the general ledger.
+    This process involves managing the source-to-pay cycle, including procurement, invoicing, and payments. Before the *record to report* process, procurement and invoice management should be established to support the *record to report* process. Purchase orders in Dynamics 365 Supply Chain Management are designed to post to the general ledger automatically when you receive or invoice the order. You can also optionally configure purchase requisitions to post pre-encumbrances, and purchase order confirmations to post encumbrances automatically into the general ledger.
 
 - **Project to profit**:  
 
@@ -111,9 +111,9 @@ The downstream processes for the *record to report* process include the followin
 
     Plan to produce is a downstream process that involves converting production plans into actual production activities. After the *record to report* end-to-end process, the organization needs to manage production activities, monitor production progress, and track production costs.
 
-- **Procure to pay**:  
+- **Source to pay**:  
 
-    Procure to pay is another downstream process that involves managing the complete procurement lifecycle from requisition to payment. After the *record to report* end-to-end process, the organization needs to manage procurement activities, receive goods and services, process vendor invoices, and manage accounts payable.
+    Source to pay is another downstream process that involves managing the complete procurement lifecycle from requisition to payment. After the *record to report* end-to-end process, the organization needs to manage procurement activities, receive goods and services, process vendor invoices, and manage accounts payable.
 
 - **Project to profit**:  
 
@@ -157,7 +157,7 @@ The following steps are illustrated in the *record to report* end-to-end busines
 
 6. [Plan to produce](plan-to-produce-overview.md)  
 
-7. [Procure to pay](procure-to-pay-overview.md)  
+7. [Source to pay](source-to-pay-overview.md)  
 
 8. [Project to profit](project-to-profit-overview.md)  
 
@@ -197,7 +197,7 @@ The following steps are illustrated in the *record to report* end-to-end busines
 
 17. *Plan to produce*
 
-18. *Procure to pay*
+18. *Source to pay*
 
 19. *Project to profit*
 

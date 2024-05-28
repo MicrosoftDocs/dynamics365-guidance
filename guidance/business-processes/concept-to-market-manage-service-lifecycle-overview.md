@@ -48,7 +48,7 @@ The following diagram illustrates the *manage service lifecycle* business proces
 
 1. Start
 
-    Parallel branches from Start include the following, all of which connect to *Analyze service performance*: *Case to resolution*, *Service to cash*, *Order to cash*, *Procure to pay*, and *Project to profit*.
+    Parallel branches from Start include the following, all of which connect to *Analyze service performance*: *Case to resolution*, *Service to cash*, *Order to cash*, *Source to pay*, and *Project to profit*.
 
 1. *Concept to market*
 1. *Introduce new services*
@@ -69,7 +69,7 @@ The following diagram illustrates the *manage service lifecycle* business proces
 1. End
 
 > [!NOTE]
-> There are unshown connections from *Optimize services* and *Update service details*, each of which connects to the following end-to-end processes on the right: *Project to profit*, *Service to cash*, *Order to cash*, and *Procure to pay*. Each of these end-to-end processes has a connection to End. Additionally, *Manage services pricing* and *Define service costs* have connections to each of the end-to-end processes.
+> There are unshown connections from *Optimize services* and *Update service details*, each of which connects to the following end-to-end processes on the right: *Project to profit*, *Service to cash*, *Order to cash*, and *Source to pay*. Each of these end-to-end processes has a connection to End. Additionally, *Manage services pricing* and *Define service costs* have connections to each of the end-to-end processes.
 
 ## Manage service lifecycle benefits
 

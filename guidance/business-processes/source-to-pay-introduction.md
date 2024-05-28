@@ -7,17 +7,17 @@ author: edupont04
 ms.author: raprofit
 ---
 
-# Help organizations manage and optimize the procure to pay business processes
+# Help organizations manage and optimize the source to pay business processes
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article introduces the *procure to pay* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize the *procure to pay* processes.
+This article introduces the *Source to pay* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize the *Source to pay* processes.
 
-## Procure to pay overview
+## Source to pay overview
 
-The *procure to pay* process (also known as *purchase to pay*) is a term used to describe the entire process of purchasing goods or services from a supplier and paying for them. The process includes all the steps from the initial procurement request to the final payment to the supplier.
+The *Source to pay* process (also known as *purchase to pay*) is a term used to describe the entire process of purchasing goods or services from a supplier and paying for them. The process includes all the steps from the initial procurement request to the final payment to the supplier.
 
-The *procure to pay* process typically includes the following steps:
+The *Source to pay* process typically includes the following steps:
 
 1. Identify the need for goods or services  
 
@@ -49,20 +49,20 @@ The *procure to pay* process typically includes the following steps:
 
 8. Reporting
 
-    Financial and operational report analysis help keep track of performance of the *procure to pay* process. You can include supply risk analysis, purchase order backorders, vendor performance, and spend analysis.  
+    Financial and operational report analysis help keep track of performance of the *Source to pay* process. You can include supply risk analysis, purchase order backorders, vendor performance, and spend analysis.  
 
-The *procure to pay* process is a crucial aspect of business operations, and efficient execution can result in cost savings, increased transparency, and better supplier relationships.
+The *Source to pay* process is a crucial aspect of business operations, and efficient execution can result in cost savings, increased transparency, and better supplier relationships.
 
 > [!IMPORTANT]
 > The process defined here does not include the goods receipt process. Learn more at [Inventory to deliver](inventory-to-deliver-introduction.md).
 
-Every organization has variations to procure to pay. Here, we define the basic outline for any organization looking to implement a technology solution to support the procure to pay process.
+Every organization has variations to *Source to pay*. Here, we define the basic outline for any organization looking to implement a technology solution to support the *Source to pay* process.
 
 ## Impact
 
-The purpose of the *procure to pay* end-to-end process is to manage the acquisition of goods and services from suppliers in a structured, efficient, and transparent way. It's an important end-to-end process that can help organizations obtain the goods and services they need at the best possible price, with the right quality, in a timely manner, and in compliance with regulatory and internal policies.
+The purpose of the *Source to pay* end-to-end process is to manage the acquisition of goods and services from suppliers in a structured, efficient, and transparent way. It's an important end-to-end process that can help organizations obtain the goods and services they need at the best possible price, with the right quality, in a timely manner, and in compliance with regulatory and internal policies.
 
-A poorly designed or executed *procure to pay* process can negatively impact an organization in several ways, such as:
+A poorly designed or executed *Source to pay* process can negatively impact an organization in several ways, such as:
 
 - Poor management of procurement processes can result in higher costs due to inefficient processes, errors, duplicate payments, late payments, or disputes with suppliers.
 
@@ -76,11 +76,11 @@ A poorly designed or executed *procure to pay* process can negatively impact an 
 
 - Poor procurement practices can damage an organization's reputation and credibility, particularly if there are allegations of corruption or unethical behavior.
 
-In conclusion, the *procure to pay* process is critical to an organization's success. It's essential to have an efficient and effective *procure to pay* process in place to mitigate these risks and optimize the benefits of procurement activities.
+In conclusion, the *Source to pay* process is critical to an organization's success. It's essential to have an efficient and effective *Source to pay* process in place to mitigate these risks and optimize the benefits of procurement activities.
 
 ## Stakeholders
 
-Implementing a technology solution such as Dynamics 365 to support the *procure to pay* end-to-end processes involves a range of stakeholders from various departments and levels of the organization. Here are some of the typical stakeholders involved:
+Implementing a technology solution such as Dynamics 365 to support the *Source to pay* end-to-end processes involves a range of stakeholders from various departments and levels of the organization. Here are some of the typical stakeholders involved:
 
 - **Procurement stakeholders** - examples: Buyer, Director of Procurement, Purchasing agent, Purchasing manager
 
@@ -94,15 +94,15 @@ Implementing a technology solution such as Dynamics 365 to support the *procure 
 
 - **Vendors** - Vendors are the external stakeholders who supply goods and services to the organization and will interact with the system to receive new purchase orders and submit invoices to receive payments.
 
-Successful implementation of Dynamics 365 to support *procure to pay* processes requires collaboration and coordination between these stakeholders. It's essential to involve all stakeholders early in the project planning phase and communicate regularly throughout the implementation process.
+Successful implementation of Dynamics 365 to support *Source to pay* processes requires collaboration and coordination between these stakeholders. It's essential to involve all stakeholders early in the project planning phase and communicate regularly throughout the implementation process.
 
-## Procure to pay benefits
+## Source to pay benefits
 
-When your organization plans to implement technology solutions to assist with the *procure to pay* process, there are several benefits the solution can help provide. These key benefits should be used to determine if the solution is a good fit for your business and to drive the specific business requirements for implementing the solution. As a side effect, these benefits can be used to create a baseline for your goals and objectives for the project so that you can measure the success of implementing solutions to meet those business requirements.
+When your organization plans to implement technology solutions to assist with the *Source to pay* process, there are several benefits the solution can help provide. These key benefits should be used to determine if the solution is a good fit for your business and to drive the specific business requirements for implementing the solution. As a side effect, these benefits can be used to create a baseline for your goals and objectives for the project so that you can measure the success of implementing solutions to meet those business requirements.
 
 ## Increased efficiency
 
-Dynamics 365 can automate and streamline many aspects of the *procure to pay* end-to-end process. This way, organizations can reduce the time and effort required to complete tasks, such as creating purchase orders, receiving goods, and processing invoices. Dynamics 365 Supply Chain Management includes various tools including a robust workflow engine to help you streamline the procurement process, reduce data entry errors, and enforce and validate your procurement policies. Dynamics 365 Finance includes invoice automation, payment automation, and other tools to help make the invoice and payment processes more efficient while remaining compliant with tools like the Audit workbench.
+Dynamics 365 can automate and streamline many aspects of the *Source to pay* end-to-end process. This way, organizations can reduce the time and effort required to complete tasks, such as creating purchase orders, receiving goods, and processing invoices. Dynamics 365 Supply Chain Management includes various tools including a robust workflow engine to help you streamline the procurement process, reduce data entry errors, and enforce and validate your procurement policies. Dynamics 365 Finance includes invoice automation, payment automation, and other tools to help make the invoice and payment processes more efficient while remaining compliant with tools like the Audit workbench.
 
 ## Improved accuracy
 
@@ -130,19 +130,19 @@ As organizations grow and their procurement needs increase, Dynamics 365 is a sc
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *procure to pay* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *Source to pay* business processes, use the following resources and steps to learn more.
 
-1. Define the goals and objectives of implementing a *procure to pay* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
+1. Define the goals and objectives of implementing a *Source to pay* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-3. Request a demo or get a free trial of Dynamics 365 solutions for the *procure to pay* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *Source to pay* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-4. Get an overview of the *procure to pay* process at [Procure to pay end-to-end overview](procure-to-pay-overview.md)  
+4. Get an overview of the *Source to pay* process at [Source to pay end-to-end overview](source-to-pay-overview.md)  
 
 ## Related resources
 
-You can use the following resources to learn more about the *procure to pay* process in Dynamics 365.
+You can use the following resources to learn more about the *Source to pay* process in Dynamics 365.
 
 - [Procurement and sourcing overview](/dynamics365/supply-chain/procurement/procurement-sourcing-overview)
 

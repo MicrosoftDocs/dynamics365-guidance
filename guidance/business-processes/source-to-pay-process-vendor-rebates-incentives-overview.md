@@ -37,7 +37,7 @@ Many people across the organization should contribute to the decision-making pro
 
 The following diagram illustrates the process vendor rebates and incentives business process area.
 
-:::image type="content" source="media\procure-to-pay-process-vendor-rebates-incentives-overview.svg" alt-text="Diagram of the process vendor rebates and incentives business process flow, showing the connections between the various business process areas." lightbox= "media\procure-to-pay-process-vendor-rebates-incentives-overview.svg":::
+:::image type="content" source="media\source-to-pay-process-vendor-rebates-incentives-overview.svg" alt-text="Diagram of the process vendor rebates and incentives business process flow, showing the connections between the various business process areas." lightbox= "media\source-to-pay-process-vendor-rebates-incentives-overview.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
@@ -47,7 +47,7 @@ The following diagram illustrates the process vendor rebates and incentives busi
 
     1. A parallel branch from Start includes the *Design to retire* end-to-end process
 
-2. *Procure to pay* end-to-end process
+2. *Source to pay* end-to-end process
 
     1. *Configure vendor rebate approval* business process
 
@@ -105,15 +105,15 @@ If you would like to implement Dynamics 365 solutions to assist with your *proce
 
 1. *Define procurement and sourcing strategies*
 
-2. [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
+2. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)
 
-3. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
+3. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)  
 
 4. *Procure materials and services*
 
-5. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
+5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
 
-6. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
 7. *Process vendor rebates and incentives* (the article you're currently reading)
 

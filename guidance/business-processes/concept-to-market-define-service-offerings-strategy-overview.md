@@ -43,7 +43,7 @@ The following diagram illustrates the business process area *define service offe
 
     1. Order to cash
     1. Plan to produce
-    1. Procure to pay
+    1. Source to pay
     1. Inventory to deliver
 
 1. End

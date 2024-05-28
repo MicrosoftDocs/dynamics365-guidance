@@ -51,7 +51,7 @@ The order to cash process has the following downstream processes:
 
 - **Plan to produce**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning production.
 
-- **Procure to pay**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning purchases. When you use a direct delivery sales model, the sales order is also the trigger to initiate the purchase order with the supplier.
+- **Source to pay**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning purchases. When you use a direct delivery sales model, the sales order is also the trigger to initiate the purchase order with the supplier.
 
 - **Design to retire**: In engineer-to-order operational strategies, products and services are typically defined after an order is placed.
 
@@ -93,7 +93,7 @@ The order to cash end-to-end business process flow diagram illustrates the follo
     - Manage store operations
     - Create and manage sales orders
 
-        Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, and Procure to pay and Inventory to deliver which has a connection to Process outbound goods shown below the Inventory to deliver process. 
+        Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, and Source to pay and Inventory to deliver which has a connection to Process outbound goods shown below the Inventory to deliver process. 
 
     - Issue customer invoices
 
