@@ -40,7 +40,7 @@ The flow diagram covers the following steps:
 
 1. Start
 
-    1. A parallel branch from 1. Start includes the *Procure to pay* end-to-end process.
+    1. A parallel branch from 1. Start includes the *Source to pay* end-to-end process.
 
         1. *Procure materials and services* business process area
 

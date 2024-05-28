@@ -49,7 +49,7 @@ The first column of this diagram shows potential upstream processes for the *cas
 
   You can use case management with production orders to help manage your production process.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   The *case to resolution* process can be upstream when you need to create cases related to suppliers, purchase orders, purchase requisitions, requests for quotations, and so on.
 
@@ -189,7 +189,7 @@ Start has parallel branches to each of the following end-to-end processes (shown
 
 3. Product and service lifecycle management
 
-4. Procure to pay
+4. Source to pay
 
 5. Plan to produce
 
@@ -205,7 +205,7 @@ Start has parallel branches to each of the following end-to-end processes (shown
 
 Each of these boxes has a branch that connects to 6. Create a case.  
 
-Procure to pay, Plan to produce, and Order to cash each have a parallel branch connecting to Inventory to deliver, which also connects to 6. Create a case.
+Source to pay, Plan to produce, and Order to cash each have a parallel branch connecting to Inventory to deliver, which also connects to 6. Create a case.
 
 Create a case has parallel branches to each of the end-to-end processes a-j (shown on the right side of the diagram)
 

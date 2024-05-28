@@ -13,7 +13,7 @@ ms.topic: conceptual
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for procuring materials and services.
 
-The procurement of materials and services within the *procure to pay* business process focuses on efficiently meeting the organization's needs by acquiring essential materials or services. It covers the activities that are required to raise the order to the external vendor. The goals are to ensure the availability of materials and services for the organization, and to efficiently manage inventory levels and cost.
+The procurement of materials and services within the *Source to pay* business process focuses on efficiently meeting the organization's needs by acquiring essential materials or services. It covers the activities that are required to raise the order to the external vendor. The goals are to ensure the availability of materials and services for the organization, and to efficiently manage inventory levels and cost.
 
 Procurement of materials and services requires coordination and communication between many departments, such as engineering, operations, quality sales, planning, and production.
 
@@ -47,7 +47,7 @@ Many people across the organization should contribute to the business process fo
 
 The following diagram illustrates the *procure materials and services* business process area. 
 
-:::image type="content" source="media\procure-to-pay-procure-materials-services.svg" alt-text="Diagram of the procure to pay procure materials and services process flow." lightbox="media\procure-to-pay-procure-materials-services.svg":::
+:::image type="content" source="media\source-to-pay-procure-materials-services.svg" alt-text="Diagram of the source to pay procure materials and services process flow." lightbox="media\source-to-pay-procure-materials-services.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
@@ -98,7 +98,7 @@ The flow diagram covers the following steps.
 
             1. End
 
-1. *Procure to pay* end-to-end process
+1. *Source to pay* end-to-end process
 1. *Procure materials and services* business process area
 
     1. A parallel branch from *Procure materials and services* includes the *Create purchase requisitions* business process.
@@ -162,17 +162,17 @@ If you would like to implement Dynamics 365 solutions to assist with your *procu
 
 1. *Define procurement and sourcing strategies*
 
-2. [Define procurement catalogs](procure-to-pay-define-procurement-catalogs-overview.md)
+2. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)
 
-3. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)  
+3. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)  
 
 4. *Procure materials and services* (the article that you're currently reading)
 
-5. [Process vendor invoices](procure-to-pay-process-vendor-invoices-overview.md)  
+5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
 
-6. [Issue and settle vendor payments](procure-to-pay-issue-and-settle-vendor-payments-overview.md)  
+6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
-7. [Process vendor rebates and incentives](procure-to-pay-process-vendor-rebates-incentives-overview.md)  
+7. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
 
 ## Related resources
 

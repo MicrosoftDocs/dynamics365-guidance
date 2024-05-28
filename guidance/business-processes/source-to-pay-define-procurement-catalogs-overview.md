@@ -13,7 +13,7 @@ ms.author: raprofit
 
 This article describes the *define procurement catalogs* business process area. It explains the benefits of using Dynamics 365 to support the business process area.
 
-The business process area *defining procurement catalogs* gives organizations the ability to configure internal catalogs and external catalogs for use in the *procure to pay* process. Items and services can be organized and added to catalogs to be used during purchase requisition and purchase order creation. Alternatively, categories outlined within the catalogs can be used at the purchase requisition and purchase order levels where an item or service number doesn't exist. Business users can then indicate details about the purchase without needing the item in master data when appropriate.
+The business process area *defining procurement catalogs* gives organizations the ability to configure internal catalogs and external catalogs for use in the *source to pay* process. Items and services can be organized and added to catalogs to be used during purchase requisition and purchase order creation. Alternatively, categories outlined within the catalogs can be used at the purchase requisition and purchase order levels where an item or service number doesn't exist. Business users can then indicate details about the purchase without needing the item in master data when appropriate.
 
 The initial procurement catalog structure is usually defined at the start of an implementation project. However, the catalog hierarchy gives you the flexibility to add new categories or modify categories when appropriate to meet your business needs. For example, when you have new product launches, new product lines, or when changes occur and products are phased in or out.
 
@@ -37,7 +37,7 @@ Many people in an organization need to contribute to the design and definition o
 
 ## Define procurement catalogs process flow
 
-:::image type="content" source="media/procure-to-pay-define-procurement-catalogs-flow.svg" alt-text="Flow diagram for the business process area, define procurement catalogs, which is explained in the paragraph after the image." lightbox="media/procure-to-pay-define-procurement-catalogs-flow.svg":::
+:::image type="content" source="media/source-to-pay-define-procurement-catalogs-flow.svg" alt-text="Flow diagram for the business process area, define procurement catalogs, which is explained in the paragraph after the image." lightbox="media/source-to-pay-define-procurement-catalogs-flow.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
@@ -45,13 +45,13 @@ The following steps are illustrated in the *define procurement catalog* business
 
 1. Start
 
-    Parallel branches to the *Design to retire* and *Procure to pay* end-to-end processes.
+    Parallel branches to the *Design to retire* and *Source to pay* end-to-end processes.
 
 2. *Design to retire* subprocesses
 
     A parallel branch connects *Define product lines* and *Organize products* to 4. *Define procurement catalogs*
 
-3. *Procure to pay*
+3. *Source to pay*
 
     A parallel branch connects *Create vendors* to 4. *Define procurement catalogs*
 
@@ -95,7 +95,7 @@ When you can organize and group similar items in categories within the procureme
 
 If you want to implement Dynamics 365 solutions to assist with your *define procurement catalogs* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. [Manage vendor relationships](procure-to-pay-manage-vendor-relationships-overview.md)
+1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
 
 2. *Develop sourcing strategies*
 
@@ -103,7 +103,7 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 4. *Define policies and procedures for procurement*
 
-5. [Procure materials and services](procure-to-pay-procure-materials-services-overview.md)
+5. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)
 
 6. *Process vendor invoices*
 

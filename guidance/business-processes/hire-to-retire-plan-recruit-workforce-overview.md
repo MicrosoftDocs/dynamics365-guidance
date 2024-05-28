@@ -85,7 +85,7 @@ Parallel branches from Start include the following processes:
 
 1. *Plan to produce* (Plan production operations) connects to *Plan and recruit your workforce* (Create and manage shifts). *Create and manage shifts* connects to *Define production strategies* (*Plan to produce*).
 
-1. *Procure to pay* (Procure materials and services) connects to *Plan and recruit your workforce* (Recruit and hire).
+1. *Source to pay* (Procure materials and services) connects to *Plan and recruit your workforce* (Recruit and hire).
 
 The following end-to-end downstream processes that are also depicted in the diagram have connections to End:
 

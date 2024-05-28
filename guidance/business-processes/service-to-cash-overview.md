@@ -83,9 +83,9 @@ The third column in the diagram displays the downstream business processes.
 
   In some business operations, more service needs are discovered during service delivery, which may lead to an order to cash process.
 
-- **Procure to pay**  
+- **Source to pay**  
 
-  When inventory items are needed for the completion of a service, and aren't currently available in stock, the procure to pay process may need to be invoked to acquire the inventory.
+  When inventory items are needed for the completion of a service, and aren't currently available in stock, the source to pay process may need to be invoked to acquire the inventory.
 
 - **Case to resolution**  
 

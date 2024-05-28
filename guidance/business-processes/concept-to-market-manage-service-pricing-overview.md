@@ -23,7 +23,7 @@ Service pricing agreements further solidify the foundation, fostering transparen
 
 Regular reviews of service pricing and discount agreements become a cornerstone in the lifecycle of the services you offer and purchase, allowing organizations to refine their strategies and stay ahead in the ever-evolving business landscape. This holistic approach to service pricing within Dynamics 365 not only streamlines processes but also empowers organizations to navigate the complexities of the market with agility and foresight.
 
-In a service-based organization, where you'll be using any of the downstream processes in the Dynamics 365 implementation such as procure to pay, prospect to quote, order to cash, plan to produce, project to profit, case to resolution, service to cash, or record to report, it's essential to ensure that the business processes related to managing the pricing of those services are considered early in the project.
+In a service-based organization, where you'll be using any of the downstream processes in the Dynamics 365 implementation such as source to pay, prospect to quote, order to cash, plan to produce, project to profit, case to resolution, service to cash, or record to report, it's essential to ensure that the business processes related to managing the pricing of those services are considered early in the project.
 
 The data and output of these business processes affect many other downstream processes and ensuring these are defined early in the project ensures project success. If Dynamics 365 won't be used to master the service data, integrations to the system of record should be considered early.
 
@@ -65,7 +65,7 @@ The following diagram illustrates the *Manage service pricing* business process 
 
 7. *Create and maintain service pricing agreements*
 
-   Parallel branches connect to *Manage vendor relationships*, which is under *Procure to pay* and *Manage customer relationships*, which is under *Prospect to quote*
+   Parallel branches connect to *Manage vendor relationships*, which is under *Source to pay* and *Manage customer relationships*, which is under *Prospect to quote*
 
 8. *Create and maintain service promotional pricing and discounts*
 

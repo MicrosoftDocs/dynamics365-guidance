@@ -3,7 +3,7 @@ title: Issue and settle vendor payments overview
 description: Learn about the issue and settle vendor payments business process area, including the issue and settle vendor payments process flow.
 author: music727
 ms.author: mibeinar
-ms.date: 02/12/2024
+ms.date: 05/28/2024
 ms.topic: overview
 ---
 
@@ -17,7 +17,7 @@ This article describes how you can use Dynamics 365 products to support the orga
 
 The *issue and settle vendor payments* business process area focuses on paying vendors according to the agreed-upon payment terms, ensuring that payments are made accurately and on time, and settling them against invoices either manually or through an automated process.
 
-*Issue and settle vendor payments* is an essential step in the *procure to pay* end-to-end business process flow. A structured and defined approach to issuing and settling vendor payments is critical. It helps avoid financial risks and payment delays, and ensures financial stability in your organization.
+*Issue and settle vendor payments* is an essential step in the *Source to pay* end-to-end business process flow and structured and defined approach to issuing and settling vendor payments is critical to prevent financial risks and payment delays and ensure financial stability within your organization.
 
 The *issue and settle vendor payments* business process area should be defined and incorporated into the overall implementation during the plannings phase. This phase typically occurs at the beginning of a project's lifecycle. It involves establishing project goals, defining project scope, and developing a detailed project plan.
 
@@ -38,9 +38,10 @@ The following diagram illustrates the *issue and settle vendor payments* busines
 The *issue and settle vendor payments* process area flow diagram covers the following steps:
 
 - *Start*
-- *Procure to pay* end-to-end process
 
-    Parallel branches to this end-to-end process are the *Design to retire* end-to-end process, the *Inventory to Deliver* end-to-end process, and the *Concept to market* end-to-end process.
+- *Source to pay* end-to-end process
+    
+    Parallel branches to this end-to-end process are the *Design to retire* end-to-end process, *Inventory to Deliver* end-to-end process, and *Concept to market* end-to-end process.
 
     - *Define policies and procedures for procurement*
     - *Manage vendor relationship*
@@ -155,7 +156,7 @@ If you want to implement Dynamics 365 solutions to assist with your *issue and s
 
 You can use the following resources to learn more about the *issue and settle vendor payments* process in Dynamics 365.
 
-- [Procure to Pay Overview in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=f67e343b-ed36-ee11-bdf4-00224827eb85)
+- [Source to Pay Overview in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=f67e343b-ed36-ee11-bdf4-00224827eb85)
 - [Vendor payment overview](/dynamics365/finance/cash-bank-management/tasks/vendor-payment-overview)
 - [Vendor payments workspace](/dynamics365/finance/accounts-payable/vendor-payments-workspace)
 - [Automate vendor payment proposals](/dynamics365/finance/accounts-payable/automate-vendor-payment-proposal)

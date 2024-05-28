@@ -37,7 +37,7 @@ The *concept to market* end-to-end process is broken down into the following bus
 
 The downstream processes for the *concept to market* end-to-end process include the following.
 
-- **Procure to pay**: Typically, services are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the services that will be outsourced are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a service definition is created. In these cases, the *procure to pay* process is upstream instead of downstream.
+- **Source to pay**: Typically, services are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the services that will be outsourced are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a service definition is created. In these cases, the *Source to pay* process is upstream instead of downstream.
 - **Prospect to quote**: In operational strategies such as make to stock, the *prospect to quote* process occurs after a service offering mix is determined in the *concept to market* process.
 - **Order to cash**: In operational strategies such as make to stock, or in brick-and-mortar commerce scenarios, the *order to cash* process occurs after a service offering mix is determined in the *concept to market* process.
 - **Service to cash**: In most operational strategies, the *service to cash* process occurs after the *concept to market* process, because the services that will be offered are predetermined by the organization's sales strategy.
@@ -73,7 +73,7 @@ The following steps are illustrated in the *concept to market* end-to-end busine
 
 1. *Manage service lifecycle*
 
-    1. [Procure to pay](procure-to-pay-overview.md)
+    1. [Source to pay](source-to-pay-overview.md)
     1. [Prospect to quote](prospect-to-quote-overview.md)
     1. [Order to cash](order-to-cash-overview.md)
     1. [Plan to produce](plan-to-produce-overview.md)

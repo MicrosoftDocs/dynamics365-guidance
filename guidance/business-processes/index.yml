@@ -58,13 +58,12 @@ landingContent:
         url: service-to-cash-introduction.md
       - text: Plan to produce
         url: plan-to-produce-introduction.md
-      - text: Procure to pay
-        url: procure-to-pay-introduction.md
+      - text: Source to pay
+        url: source-to-pay-introduction.md
       - text: Project to profit
         url: project-to-profit-introduction.md
       - text: Case to resolution
         url: case-to-resolution-introduction.md
-
 
 # Card
   - title: Processes to manage work

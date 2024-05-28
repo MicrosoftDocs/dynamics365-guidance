@@ -70,7 +70,7 @@ The following diagram illustrates the *Manage worker compensation, benefits, and
 
 7. *Manage occupational health and safety*
 
-8. *Procure to pay*
+8. *Source to pay*
 
 9. *Record to report*
 

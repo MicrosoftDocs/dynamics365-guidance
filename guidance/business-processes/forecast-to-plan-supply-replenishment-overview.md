@@ -45,7 +45,7 @@ The following diagram illustrates the *plan supply and replenishment* business p
 
     - *Inventory to deliver* connects to *Maintain inventory levels*, which connects to 4, *Plan supply and replenishment*.
     - *Plan to produce* connects to *Run production operations*, which connects to ii, *Plan production*.
-    - *Procure to pay* connects to *Procure materials and services*, which connects to iii, *Plan purchases*.
+    - *Source to pay* connects to *Procure materials and services*, which connects to iii, *Plan purchases*.
 
 1. *Forecast to plan*
 1. *Establish stocking and replenishment policies*

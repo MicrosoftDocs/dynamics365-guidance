@@ -49,7 +49,7 @@ The upstream processes for the *hire to retire* process include the following li
 
   When a manufacturing organization plans production, they must plan for the staff and shifts that will manufacture the products. The production plan is typically put in place before the workforce is hired, and put to work.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   In organizations that outsource work or use staffing agencies, the procurement process is upstream to the *hire to retire* process. The procurement process can also be used for outsourcing or using vendors to help with various aspects of the *hire to retire* process such as processing payroll, sourcing benefit providers, using third-party recruiters, and more.
 
@@ -110,7 +110,7 @@ The third column in the diagram displays the downstream business process includi
 
   In a manufacturing organization, resources are assigned to the production orders to perform the work. Time is often tracked using the production floor execution devices. The data is then fed to the human resources systems to pay the workers for their time. In organizations where workers are paid based on piece-work, the quantity of items produced also feeds the *hire to retire* process.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   In organizations that outsource work or use staffing agencies, the procurement process is also downstream to the *hire to retire* process. The staffing agencies often need to report timesheets in order to pay the outsourced workers. There's also often a need to train the outsourced employees or onboard them into your systems, for example, after they were hired.
 
@@ -207,7 +207,7 @@ The following steps are illustrated in the *hire to retire* end-to-end business 
 
 5. *Manage employee benefits, compensation, and payroll*
 
-    Parallel branches connect to 5. Pay employees and the following end-to-end processes: *procure to pay*, *plan to produce*, *project to profit*, and *record to report*.
+    Parallel branches connect to 5. Pay employees and the following end-to-end processes: *source to pay*, *plan to produce*, *project to profit*, and *record to report*.
 
 6. End
 
@@ -227,7 +227,7 @@ Parallel branches from Start include the following end-to-end processes:
 
 7. *Plan to produce*, which has parallel branches to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*.
 
-8. *Procure to pay*, which has unshown parallel branches that connect to 3. *Plan and recruit your workforce* and *Manage travel and expenses*.
+8. *Source to pay*, which has unshown parallel branches that connect to 3. *Plan and recruit your workforce* and *Manage travel and expenses*.
 
 9. *Project to profit*, which has unshown parallel branches connect to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*, and 4.iv. *Manage travel and expenses*.
 
@@ -249,7 +249,7 @@ The following end-to-end downstream processes also connect to End:
 
 - *Plan to produce*
 
-- *Procure to pay*
+- *Source to pay*
 
 - *Design to retire*
 

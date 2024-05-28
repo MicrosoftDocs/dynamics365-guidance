@@ -83,7 +83,7 @@ The flow diagram for the *maintain and repair internal asset* business process a
 
                     1. Yes
 
-                        1. *Procure to Pay*
+                        1. *Source to Pay*
                         1. Create/Process purchase requisition and purchase order
 
                     1. No

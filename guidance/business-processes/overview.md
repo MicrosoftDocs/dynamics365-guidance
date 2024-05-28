@@ -40,7 +40,7 @@ The following table provides links to the introduction, overview, and list of bu
 | Inventory to deliver | [Introduction](inventory-to-deliver-introduction.md) | [End-to-end overview](inventory-to-deliver-overview.md) | [Areas](inventory-to-deliver-areas.md) |
 | Order to cash | [Introduction](order-to-cash-introduction.md) | [End-to-end overview](order-to-cash-overview.md) | [Areas](order-to-cash-areas-overview.md) |
 | Plan to produce | [Introduction](plan-to-produce-introduction.md) | [End-to-end overview](plan-to-produce-overview.md) | [Areas](plan-to-produce-areas.md) |
-| Procure to pay | [Introduction](procure-to-pay-introduction.md) | [End-to-end overview](procure-to-pay-overview.md) | [Areas](procure-to-pay-areas.md) |
+| Source to pay | [Introduction](source-to-pay-introduction.md) | [End-to-end overview](source-to-pay-overview.md) | [Areas](source-to-pay-areas.md) |
 | Project to profit | [Introduction](project-to-profit-introduction.md) | [End-to-end overview](project-to-profit-overview.md) | [Areas](project-to-profit-areas.md) |
 | Prospect to quote | [Introduction](prospect-to-quote-introduction.md) | [End-to-end scenario](prospect-to-quote-overview.md) | [Areas](prospect-to-quote-areas.md) |
 | Record to report | [Introduction](record-to-report-introduction.md) | [End-to-end overview](record-to-report-overview.md) | [Areas](record-to-report-areas.md) |

@@ -880,28 +880,28 @@ items:
             href: business-processes/plan-to-produce-control-production-quality-overview.md
           - name: Track production cost
             href: business-processes/plan-to-produce-track-production-costs-overview.md
-        - name: Procure to pay
+        - name: Source to pay
           items:
-          - name: End-to-end scenario - procure to pay
-            href: business-processes/procure-to-pay-introduction.md
+          - name: End-to-end scenario - source to pay
+            href: business-processes/source-to-pay-introduction.md
           - name: Overview
-            href: business-processes/procure-to-pay-overview.md
+            href: business-processes/source-to-pay-overview.md
           - name: Business process areas
-            href: business-processes/procure-to-pay-areas.md
+            href: business-processes/source-to-pay-areas.md
           - name: Define procurement catalogs
-            href: business-processes/procure-to-pay-define-procurement-catalogs-overview.md
+            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
           - name: Define procurement and sourcing strategy overview
-            href: business-processes/procure-to-pay-define-procurement-sourcing-strategy-overview.md
+            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
           - name: Manage vendor relationships overview
-            href: business-processes/procure-to-pay-manage-vendor-relationships-overview.md
+            href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
           - name: Procure materials and services overview
-            href: business-processes/procure-to-pay-procure-materials-services-overview.md
+            href: business-processes/source-to-pay-procure-materials-services-overview.md
           - name: Process vendor invoices overview
-            href: business-processes/procure-to-pay-process-vendor-invoices-overview.md
+            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
           - name: Issue and settle vendor payments overview
-            href: business-processes\procure-to-pay-issue-and-settle-vendor-payments-overview.md
+            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
           - name: Process vendor rebates and incentives overview
-            href: business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md
+            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
         # - name: Product and service lifecycle management
         #   items:
         #   - name: End-to-end scenario - product and service lifecycle management

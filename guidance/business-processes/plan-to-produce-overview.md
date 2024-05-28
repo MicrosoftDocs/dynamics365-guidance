@@ -46,7 +46,7 @@ The upstream processes for the *plan to produce* process include the following l
 
   In make-to-order and similar operational strategies, sales orders are the trigger to begin planning for production.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   Organizations need to procure materials for use in production before the production process beginning.
 
@@ -104,7 +104,7 @@ The third column in the diagram displays the downstream business process includi
 
   In make-to-stock operational strategies, orders are placed for finished goods after production is completed and the inventory is on-hand.
 
-- **Procure to pay**  
+- **Source to pay**  
 
   Organizations can subcontract work during or after the production process. They can also procure materials that the production process depleted.
 
@@ -195,7 +195,7 @@ The following steps are illustrated in the order to cash end-to-end business pro
 
     2. Plan production operations
 
-        Parallel branches from this subprocess are *acquire to dispose* and *procure to pay*.
+        Parallel branches from this subprocess are *acquire to dispose* and *Source to pay*.
 
     3. Run production operations
 
@@ -203,7 +203,7 @@ The following steps are illustrated in the order to cash end-to-end business pro
 
     4. Outsource production orders
 
-        Not shown on the diagram: Outsource production orders can connect to *procure to pay*.
+        Not shown on the diagram: Outsource production orders can connect to *Source to pay*.
 
     5. Control production quality
 
@@ -227,9 +227,9 @@ Parallel branches from Start include the following list:
 
 5. *Inventory to deliver* connects to c. Run production operations
 
-6. *Procure to pay* connects to c. Run production operations and d. Outsource production orders
+6. *Source to pay* connects to c. Run production operations and d. Outsource production orders
 
-7. *Forecast to plan* connects to 10. *Procure to pay* and c. Run production operations
+7. *Forecast to plan* connects to 10. *Source to pay* and c. Run production operations
 
 8. *Order to cash* connects to 11. *Forecast to plan* and b. Plan production operations
 
@@ -240,7 +240,7 @@ Parallel branches from Start include the following list:
 The following end-to-end downstream processes have connections to End:  
 
 - *Acquire to dispose*  
-- *Procure to pay*  
+- *Source to pay*  
 - *Forecast to plan*  
 - *Order to cash*  
 - *Service to cash*  

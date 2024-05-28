@@ -30,9 +30,9 @@ The upstream processes for the *inventory to deliver* process include the follow
 
   Mandatory prerequisite: An item must exist before you can begin to receive, handle inventory, or ship the product.
 
-- **Procure to pay**  
+- **Source to pay**  
 
-  When you use Dynamics 365 to manage your procurement process, the *inventory to deliver* process requires a purchase order to exist to receive the inventory. There are also downstream processes that happen after the *inventory to deliver* process is complete, such as the *procure to pay* process.
+  When you use Dynamics 365 to manage your procurement process, the *inventory to deliver* process requires a purchase order to exist to receive the inventory. There are also downstream processes that happen after the *inventory to deliver* process is complete, such as the *Source to pay* process.
 
 - **Order to cash**  
 
@@ -74,9 +74,9 @@ The *inventory to deliver* end-to-end process is broken down into the following 
 
 The downstream processes for the *inventory to deliver* process include the following.
 
-- **Procure to pay**  
+- **Source to pay**  
 
-  When the *inventory to deliver* process is completed as a sub process in the procure to pay process, the procure to pay process continues. For example, the invoicing and payment for the purchases.
+  When the *inventory to deliver* process is completed as a sub process in the *Source to pay* process, the *Source to pay* process continues. For example, the invoicing and payment for the purchases.
 
 - **Order to cash**  
 
@@ -159,13 +159,13 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
 2. Project to profit end-to-end process  
 
-    Parallel branches from *Project to profit* connect to *Procure to pay*, *Plan to produce*, *Order to cash*, and *Service to cash*.
+    Parallel branches from *Project to profit* connect to *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to cash*.
 
 3. Product and service lifecycle management
 
     The diagram doesn't illustrate connections, but product and service lifecycle management is also an upstream process for the *Produce to pay*, *Plan to produce*, *Order to cash*, and *Service to cash* business processes.
 
-4. Procure to pay end-to-end process  
+4. Source to pay end-to-end process  
 
     1. Manage inbound freight and transportation
 

@@ -67,7 +67,7 @@ The following diagram illustrates the *manage product lifecycle* business proces
     1. *Order to cash*, which connects to *Analyze product margins*
     1. *Inventory to deliver*, which has parallel branches that connect to *Determine inventory removal* and *Restrict item use*
     1. *Plan to produce*, which has parallel branches that connect to *Determine inventory removal*, *Restrict item use*, and *Define product engineering policies*
-    1. *Procure to pay*, which connects to *Define product engineering policies*
+    1. *Source to pay*, which connects to *Define product engineering policies*
 
 1. *Design to retire*
 

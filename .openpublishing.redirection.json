@@ -79,7 +79,51 @@
       "source_path": "dynamics365/guidance/business-processes/design-to-retire-issue-and-settle-vendor-payments-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/procure-to-pay-issue-and-settle-vendor-payments-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-introduction.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-define-procurement-catalogs-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-define-procurement-catalogs-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-define-procurement-sourcing-strategy-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-define-procurement-sourcing-strategy-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-manage-vendor-relationships-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-manage-vendor-relationships-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-procure-materials-services-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-procure-materials-services-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-process-vendor-invoices-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-process-vendor-invoices-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-issue-and-settle-vendor-payments-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-issue-and-settle-vendor-payments-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-process-vendor-rebates-incentives-overview",
+      "redirect_document_id": "false"
     }
-
   ]
 }

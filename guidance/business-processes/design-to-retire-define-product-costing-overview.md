@@ -53,7 +53,7 @@ The following diagram illustrates the *define product costing* business process 
 
 1. Start
 
-    Parallel branches connect to the *Plan to produce* and *Procure to pay* end-to-end processes, each of which connects to d. *Analyze product costing strategy*.
+    Parallel branches connect to the *Plan to produce* and *Source to pay* end-to-end processes, each of which connects to d. *Analyze product costing strategy*.
 
 1. *Design to retire*
 
@@ -67,11 +67,11 @@ The following diagram illustrates the *define product costing* business process 
 
     1. *Set costing standards*
 
-        Parallel branches connect to *Order to cash*, *Plan to produce*, *Procure to pay*, and *Inventory to deliver*.
+        Parallel branches connect to *Order to cash*, *Plan to produce*, *Source to pay*, and *Inventory to deliver*.
 
     1. *Maintain costing standards*
 
-        Parallel branches connect to *Plan to produce*, *Procure to pay*, and *Inventory to deliver*.
+        Parallel branches connect to *Plan to produce*, *Source to pay*, and *Inventory to deliver*.
 
     1. *Analyze product costing strategy*
 
@@ -81,7 +81,7 @@ The following diagram illustrates the *define product costing* business process 
 
     - *Order to cash*
     - *Plan to produce*
-    - *Procure to pay*
+    - *Source to pay*
     - *Inventory to deliver*
 
 1. End
@@ -139,7 +139,7 @@ You can use the following resources to learn more about the product costing proc
 - [Design Details: Costing Methods in Dynamics 365 Business Central](/dynamics365/business-central/design-details-costing-methods)
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)
 - [Inventory costs in Business Central](/dynamics365/business-central/finance-manage-inventory-costs)
-- [Issue and settle vendor payments overview](procure-to-pay-issue-and-settle-vendor-payments-overview.md)
+- [Issue and settle vendor payments overview](source-to-pay-issue-and-settle-vendor-payments-overview.md)
 - Find definitions of terminology that is used in content for *define product costing* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Cost](glossary.md#cost)

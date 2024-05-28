@@ -64,7 +64,7 @@ To navigate the intricacies of asset management successfully, many people in an 
 
 ## Acquire assets process flow
 
-The following diagram shows the high-level business process flow for acquiring assets. There are several entry points for the subprocesses described in the diagram including one from the [procure to pay](procure-to-pay-overview.md) end-to-end process, and one from the [project to profit](project-to-profit-overview.md) end-to-end process. Multiple exit points have been defined from the subprocesses described in the diagram, which include one to the plan to produce end-to-end process, the inventory to deliver end-to-end process and to the record to report end-to-end business process.
+The following diagram shows the high-level business process flow for acquiring assets. There are several entry points for the subprocesses described in the diagram including one from the [source to pay](source-to-pay-overview.md) end-to-end process, and one from the [project to profit](project-to-profit-overview.md) end-to-end process. Multiple exit points have been defined from the subprocesses described in the diagram, which include one to the plan to produce end-to-end process, the inventory to deliver end-to-end process and to the record to report end-to-end business process.
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
@@ -84,9 +84,9 @@ The acquire assets business process area flow diagram covers the following steps
 
         The following sequences show alternate starting points for this step.
 
-        1. *Procure to Pay* to *Source Assets*
+        1. *Source to Pay* to *Source Assets*
 
-            1. *Procure to Pay*
+            1. *Source to Pay*
 
             2. *Determine preferred and approved vendors*
 
