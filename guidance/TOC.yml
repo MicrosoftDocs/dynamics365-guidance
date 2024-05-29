@@ -1054,6 +1054,8 @@ items:
         items:
         - name: Copilot in Customer Service architecture
           href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+        - name: Dynamics 365 for travel and hospitality
+          href: reference-architectures/dynamics-365-travel-hospitality.md
 # DCCP
         - name: Digital contact centers with Dynamics 365 Customer Service
           href: /digital-contact-center-platform/guidance/reference-architecture-overview

@@ -23,6 +23,8 @@ landingContent:
       links:
       - text: Copilot in Customer Service architecture
         url: dynamics-365-customer-service-copilot-architecture.md
+      - text: Dynamics 365 for travel and hospitality
+        url: dynamics-365-travel-hospitality.md
     - linkListType: learn
       links:
         - text: Use Success by Design for Dynamics 365 solutions
