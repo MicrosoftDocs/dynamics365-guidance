@@ -11,27 +11,29 @@ ms.date: 05/22/2024
 
 ***Applies to:*** ***Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dataverse***
 
-This solution integrates Dataverse, Azure Functions, Azure Service Bus, Azure Key Vault, and Azure App Insights to establish a robust mechanism for transmitting messages/data from Dataverse to other applications using the [Saga pattern](/azure/architecture/reference-architectures/saga/saga).
+This solution integrates Dataverse, Azure Functions, Azure Service Bus, Azure Key Vault, and Application Insights to establish a robust mechanism for transmitting messages/data from Dataverse to other applications using the [Saga pattern](/azure/architecture/reference-architectures/saga/saga).
 
 In its basic configuration, the Saga pattern facilitates the creation of one interface for data exchange from Dataverse to a non-Microsoft service. The Saga pattern ensures message replays, monitoring, and error management with minimal effect on Dataverse performance. In more intricate setups, it enables the simulation of distributed transactions across multiple systems.
 
 ## Introduction
 
-Dynamics 365 applications are invariably integrated with other business applications, necessitating the exchange of data or events between them. This process often demands a high level of integrity and consistency. The Saga pattern represents a state-of-the-art approach to managing such scenarios, particularly when multiple target systems are involved. This document outlines the implementation of the Saga pattern, specifically when the Dataverse serves as the source or when the application is built upon the Dataverse.
+Dynamics 365 applications are invariably integrated with other business applications, necessitating the exchange of data or events between them. This process often demands a high level of integrity and consistency. The Saga pattern represents a state-of-the-art approach to managing such scenarios, particularly when multiple target systems are involved. This document outlines the implementation of the Saga pattern, specifically when Dataverse serves as the source or when the application is built upon Dataverse.
 
 ## Architecture
 
-The following diagrams illustrate the architecture for the solution. The first one is the simplest case with only one non-Microsoft service and no compensation transaction. The second one is more comprehensive with multiple non-Microsoft services and compensation transactions.
+The following diagrams illustrate the architecture for the solution. The first one is the simplest case with only one non-Microsoft service and no compensation transaction. The second is more comprehensive with multiple non-Microsoft services and compensation transactions.
 
-:::image type="content" source="../media/saga-pattern-dataverse-1.svg" alt-text="Diagram showing the connection between Dataverse, Service Bus, Azure Function, non-Microsoft services, and Azure Key Vaults." lightbox="../media/saga-pattern-dataverse-1.svg":::
+:::image type="content" source="../media/saga-pattern-dataverse-1.svg" alt-text="Diagram showing the connection between Dataverse, Service Bus, Azure Functions, non-Microsoft services, and Azure Key Vault." lightbox="../media/saga-pattern-dataverse-1.svg":::
 
 Figure 1 Saga in its simplest form: only one target non-Microsoft service and no compensation transaction. In this case, it allows synchronization of data from Dataverse to the non-Microsoft service with high availability, automatic replays, and resilience.
 
-:::image type="content" source="../media/saga-pattern-dataverse-2.svg" alt-text="Diagram showing three integrations, showing fatal errors occurring during the Azure Functions in the main transactions." lightbox="../media/saga-pattern-dataverse-2.svg":::
+:::image type="content" source="../media/saga-pattern-dataverse-2.svg" alt-text="Diagram of three integrations, showing fatal errors occurring during the Azure Functions in the main transactions." lightbox="../media/saga-pattern-dataverse-2.svg":::
 
-Figure 2 Saga with multiple chained non-Microsoft services and compensation transactions. In this case, it allows synchronization of data from Dataverse to multiple non-Microsoft services, in a specific order. If a fatal error occurs in one of the services, a compensation is started and executed in reverse order of the main transaction.
+Figure 2 Saga with multiple chained non-Microsoft services and compensation transactions. In this case, it allows synchronization of data from Dataverse to multiple non-Microsoft services, in a specific order. If a fatal error occurs in one of the services, a compensation is started and run in reverse order of the main transaction.
 
 <!-- NOTE: Not sure how to implement the downloadable link to the PowerPoint from the task. --- Download a PowerPoint file with this architecture. \[Add link to a downloadable PowerPoint with the diagram.\] -->
+
+
 
 ## Dataflow
 
@@ -127,7 +129,7 @@ The cost depends on the number of non-Microsoft systems, on the number of exchan
 
 You must allocate:
 
-- An environemtn with Dataverse or Dynamics 365  
+- An environment with Dataverse or Dynamics 365  
 
 - One [Application Insights](https://azure.microsoft.com/pricing/details/monitor/)
 
