@@ -202,7 +202,7 @@ The function should:
 
 All your components should log events into Application Insights so that you're able to monitor the whole system.
 
-So, you must:
+To do this:
 
 1. Set up Azure Monitor following this [Getting Started](/power-platform/admin/analyze-telemetry) guide.
 
