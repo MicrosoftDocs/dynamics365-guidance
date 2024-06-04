@@ -585,6 +585,10 @@ Depreciation is a key accounting concept that allocates the cost of an asset ove
 
 Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods).
 
+### Digital Contact Center Platform (DCCP)
+
+Microsoft Digital Contact Center Platform (DCCP) is a comprehensive but flexible solution for contact centers. DCCP uses AI and deep analytics to anticipate customer requests, predict intent, and provide rapid resolution. It also empowers agents to serve your customers by bringing the right information, people, and insights directly into the flow of work.
+
 ### Disaster Recovery Plan (DRP)
 
 A detailed plan focused on recovering critical systems and data in the aftermath of a disaster.
