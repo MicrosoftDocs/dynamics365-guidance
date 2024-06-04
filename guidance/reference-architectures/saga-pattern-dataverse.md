@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/22/2024
 ---
 
-<!-- This article refers at times to "Azure Function." I changed those to "Azure function app" based on this entry in the style guide: To refer to something built using Functions or in a generic reference, use lowercase function app. https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=40746   -->
+<!-- This article refers at times to "an Azure Function." I changed those to "Azure function app" based on this entry in the style guide: To refer to something built using Functions or in a generic reference, use lowercase function app. https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=40746   -->
 
 
 # Saga pattern with Dataverse or Dynamics 365
