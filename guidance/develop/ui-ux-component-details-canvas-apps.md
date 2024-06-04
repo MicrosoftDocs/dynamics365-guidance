@@ -1,234 +1,93 @@
 ---
-title: UI/UX component details for canvas apps
-description: Learn about components that constitute the layout of canvas apps, including outlines of component purposes, design considerations, and best practices.
+title: UI/UX design components for Power Apps canvas apps
+description: Discover how to use screens, controls, and other components to create user-friendly and responsive layouts for your Power Apps canvas apps.
 author: dereklh77
 ms.author: riasif
-ms.topic: article
-ms.date: 04/12/2024
+ms.topic: conceptual
+ms.date: 06/03/2024
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+  - ai-seo-date: 05/29/2024
+ai-usage: ai-assisted
 ---
 
-# UI/UX component details for canvas apps
+# UI/UX design components for Power Apps canvas apps
 
-In this article, we dive into the various components that constitute the layout of canvas apps and explore their purposes, design considerations, and best practices.
+This article discusses the components that you can use to design the layout of your canvas apps in Power Apps. You'll learn about their purposes, design considerations, and best practices.
 
-## Overview
+You can build a canvas app in Power Apps quickly and easily from one of these options:
 
-One of the quickest and easiest ways to build a canvas app is to automatically generate an app from simply describing the app to existing UI designs and driving it from data that already exists:
+- **Existing data.** Use tables in Dataverse, upload data from an Excel file, or use external data in SharePoint or SQL. Learn more in [Create a canvas app with data from Microsoft Dataverse](/power-apps/maker/canvas-apps/data-platform-create-app).
 
-- **Existing data**: This can be existing tables in Dataverse or uploaded from an excel file or using external data in SharePoint or SQL. Learn more with [Create a canvas app with data from Microsoft Dataverse](/power-apps/maker/canvas-apps/data-platform-create-app).
+- **A template.** Use a ready-made business app template or customize it to fit your requirements. Learn more in [Create a canvas app from a template](/power-apps/maker/canvas-apps/get-started-test-drive).
 
-- **Existing template**: There's a large library of full-functional business app templates, which can be used as is or customized to fit requirements. Learn more with [Create a canvas app from a template](/power-apps/maker/canvas-apps/get-started-test-drive).
+- **Copilot.** Describe what you want your app to do and the data that it needs, and the AI designs the app. Learn more in [Copilot in Power Apps overview](/power-apps/maker/canvas-apps/ai-overview).
 
-- **AI Copilot**: Describe what the application should, including the data behind and the AI that designs the app. Learn more with [AI Copilot overview](/power-apps/maker/canvas-apps/ai-overview).
+- **Express design.** Transform an image or a Figma design into an app. Learn more in [Express design](/power-apps/maker/canvas-apps/express-design).
 
-- **Express design**: Using an Image or a Figma design to instantly transform the visual design into an app. Learn more with [Express design](/power-apps/maker/canvas-apps/express-design).
+- **Page designs.** Choose from a set of initial page designs or start with a blank canvas.
 
-- **Page designs**: Choose from an existing set of initial page designs or a blank canvas.
+The best option for you depends on several factors:
 
-There's no right or wrong decision when choosing a starting point for a canvas app as this will depend on several factors:
+- The purpose of your app and the type and availability of data sources that your app uses.
 
-- The purpose of the app and the availability/type of data sources that the app uses.
+- The level of customization and control that you need over the UI/UX and the functionality of your app.
 
-- The level of customization and control that the maker needs over the UI/UX, and functionality required in the app.
+- The amount of time and effort that you're willing to invest in the app development process.
 
-- The amount of time and effort that the maker is willing to invest in the app development process.
+- Your knowledge and skills in UI/UX design and app development.
 
-- The existing knowledge and skills of the maker in UI/UX design and app development.
+With Power Apps, you can quickly create a working version of your app that lets users experience the actual app early in the development process. The best practice is to produce a minimum viable product and then iterate new versions with more features. Learn more in [Planning a Power Apps project](/power-apps/guidance/planning/introduction).
 
-With Power Apps, makers can quickly create a usable version of the app that allows users to experience the actual working app early in the develop process, which means the best practice is to produce a minimal viable product and quick iterate new versions with more features. Learn more at [Introduction to Planning a Power Apps project](/power-apps/guidance/planning/introduction).
+## Screens
 
-:::image type="content" source="media\ui-ux-component-details-2.svg" alt-text="Diagram showing the Agile V 2 development pipeline, showing the connection between Design, First M V P, Version 2, 3, 4, and 5." lightbox="media\ui-ux-component-details-2.svg":::
+A screen in a canvas app is the area where you add [controls](#controls) and navigation elements to create a user experience. When you add a new screen, you can choose from various screen layouts and templates. Learn more in [Add a screen](/power-apps/maker/canvas-apps/add-screen-context-variables).
 
-### Screens
+Most users use canvas apps on devices with different sizes and shapes, so you need to create apps with a responsive layout. This means that the controls can adjust to different devices or window sizes, making the user experience more natural. To design a responsive layout, you need to turn off the **Scale to fit** setting in your app and design your app for changing screen sizes and orientations. Learn more in [Building responsive canvas apps](/power-apps/maker/canvas-apps/build-responsive-apps) and [Create responsive layouts in canvas apps](/power-apps/maker/canvas-apps/create-responsive-layout).
 
-A screen in a canvas app is the area where you can add your controls (like buttons, labels, etc.). Through navigation, you can also build a user experience to various features and data. When you add a new screen, there are various screen layouts and templates to choose from. Learn more at [Add a screen to a canvas app and navigate between screens](/power-apps/maker/canvas-apps/add-screen-context-variables).
+When you design the screens in your canvas apps, follow these best practices:
 
-Most users use canvas apps on devices with different form factors, which means it's necessary to create apps with a responsive layout. This means that the controls can respond to different devices or window sizes, making the user experience feel more natural. This means that the **Scale to fit** setting in the app should be turned off and the application should be designed for changing screen sizes and orientations. Learn more about building responsive applications at [Building responsive canvas apps](/power-apps/maker/canvas-apps/build-responsive-apps) and [Create responsive layouts in canvas apps](/power-apps/maker/canvas-apps/create-responsive-layout).
+- **Minimize the number of screens.** Keeping the number of screens low reduces the overall size of your app. This is especially important for users with older devices or users in areas where there's high latency or low bandwidth. Be sure to delete any screens that you don't use in your app.
 
-When considering the screens in canvas apps, it's best practice to:
+- **Consider splitting apps with multiple personas.** For example, having both admin and client screens in the same app not only increases the app's size but also its complexity. Consider splitting them into separate apps to improve performance, allow multiple makers to work on the apps at the same time, and reduce testing when you make changes to your apps.
 
-- **Minimize the number of screens**: Keeping the number of screens to a minimum reduces the overall footprint of the app. This is especially important for users with older devices, or users in locales where there's a higher latency or reduced bandwidth. Be sure to delete any screens that aren't used in the app.
+- **Give screens descriptive names.** Your screen names should reflect the purpose of the screen in your app and use plain language and spaces. Don't use abbreviations. Screen names are read aloud by screen readers for users who have vision accessibility needs. We recommend that screen names end with the word *Screen*, so the context is clear when the name is announced.
 
-- **Consider splitting apps with multiple personas**: For example, having both admin and client screens in the same app won't only increase the app size and but also its complexity. Consider splitting these into individuals' apps as this will improve performance, allow multiple makers to work on the apps simultaneously, and reduce regression testing when making app changes.
+- **Use hidden screens when needed.** Hidden screens are part of many apps because they provide a quick place for makers to capture important information without letting users change anything. They're hidden from your app's users but not from its makers. It's common to add hidden screens for documentation for makers or as a template to maintain consistency for the look and branding of your controls.
 
-- **Screen names**: These shouldn't only reflect the purpose of the screen in the app but should use plain language and include spaces. Don't use abbreviations as these are read aloud by screen readers for users who have vision accessibility needs. We recommend that they end with the word *Screen*, so the context is understood when the name is announced.
+- **Maintain consistent navigation between screens.** The key to effective navigation in canvas apps is to make sure that it's intuitive, responsive, and consistent across all screens. Consistent, intuitive navigation enhances the user experience and makes your app more efficient and user-friendly. Make sure that your app has the same navigation on each screen, such as next and back buttons in the header or footer.
 
-- **Hidden screens**: Hidden screens are a part of many apps because they provide a quick place for developers to capture important information without allowing users to change anything. They're hidden from your app's users but not from the makers. It's common to add hidden screens for documentation for makers or as a template to maintain consistency for look and branding for controls.
+## Controls
 
-- **Maintain consistent navigation between screens**: The key to effective navigation in canvas apps is to ensure that it's intuitive, responsive, and consistent across all screens. This enhances the user experience and makes your app more efficient and user-friendly. Therefore, ensure apps have the same navigation on each screen, such as providing next and back buttons in the header or footer.
+Controls in Power Apps are essential for building interactive and user-friendly apps. They let users interact with your app and perform various actions, such as entering data, navigating through your app, and triggering specific functions.
 
-### Controls
-
-Controls in Power Apps are essential for building interactive and user-friendly applications. They allow users to interact with the app and perform various actions, such as inputting data, navigating through the app, and triggering specific functions. As part of the continuous update and improvements a new set of modern controls are being released based on the Microsoft Fluent 2 design system, proving a more cohesive and visually appealing experience for end-users. We recommend that makers make use of newer controls when building the apps as they provide many benefits:
+As part of Microsoft's commitment to continuous improvement, we're releasing a new set of modern controls that are based on the Microsoft Fluent 2 design system. The new controls provide a more cohesive and visually appealing experience for users. We recommend that you use the newer controls when you build your apps because they provide many benefits:
 
 - **Improved accessibility and usability**: Modern controls are designed with a focus on accessibility and usability, making them highly functional and intuitive to use.
 
-- **Performance**: Modern controls are built for performance, not only ensuring faster and more fluid app experiences for users but also quicker and simpler for makers to configure.
+- **Performance**: Modern controls are built for performance, ensuring faster and smoother app experiences for users and quicker and simpler configuration for makers.
 
-- **Modern theming system**: Modern controls include a new modern theming system that allows an app's look and feel to be modified from a central place.
+- **Modern theming system**: Modern controls include a new modern theming system that lets you modify your app's look and feel from a central place.
 
-- **Composite controls**: These controls combine multiple basic controls into one, providing more complex interactions out of the box that reduce the number of controls needed in an app.
+- **Composite controls**: Some of the new controls combine multiple basic controls into one, providing more complex interactions out of the box that reduce the number of controls needed in your app.
 
-At the time of writing, not all of the modern controls are generally available and transitioned over the coming year. Learn more about modern controls at [Recap of modern controls evolution in 2023 and a glimpse into 2024 innovations](https://powerapps.microsoft.com/blog/recap-of-modern-controls-evolution-in-2023-and-a-glimpse-into-2024-innovations/).
+At the time of writing, some of the modern controls are still rolling out. Learn more in [Recap of modern controls evolution in 2023 and a glimpse into 2024 innovations](https://powerapps.microsoft.com/blog/recap-of-modern-controls-evolution-in-2023-and-a-glimpse-into-2024-innovations/).
 
-For a full list of all of the modern controls, see [Overview of modern controls and theming in canvas apps](/power-apps/maker/canvas-apps/controls/modern-controls/overview-modern-controls).
+View the full list of modern controls in [Modern controls and properties in canvas apps](/power-apps/maker/canvas-apps/controls/modern-controls/modern-controls-reference).
 
 For a full list of all the existing controls, see [Controls and properties in canvas apps](/power-apps/maker/canvas-apps/reference-properties).
 
-There are two more controls that can be added to enhance canvas Apps:
+There are two more controls that you can add to enhance your canvas apps:
 
-- **Chatbot control**: Allows a maker to embed a published Copilot Studio chatbot's into canvas apps. This can assist end-users with various requests from providing simple answers to common questions to resolving issues requiring complex conversations. Learn more at [Add Chatbot control to your canvas app](/power-apps/maker/canvas-apps/add-ai-chatbot).
+- **Chatbot control**: The Chatbot control lets you embed a published Copilot Studio chatbot into your canvas apps. The chatbot can help users with various requests, from providing simple answers to common questions to resolving issues that require complex conversations. Learn more in [Add Chatbot control to your canvas app](/power-apps/maker/canvas-apps/add-ai-chatbot).
 
-- **Copilot control**: The Copilot control is a next-generation AI assistant that makers can add to their canvas apps for end-users. This AI-powered experience allows app users to get insights about the data in their apps through conversation in natural language. Learn more at [Add Copilot control for canvas app users](/power-apps/maker/canvas-apps/add-ai-copilot).
+- **Copilot control**: The Copilot control is a next-generation AI assistant that you can add to your canvas apps. It's an AI-powered experience that lets app users get insights about the data in the apps through conversation in natural language. Learn more in [Add Copilot control for canvas app users](/power-apps/maker/canvas-apps/add-ai-copilot).
 
 ## Related resources
 
-- [UI/UX component details for tests and user feedback](ui-ux-component-details-testing-feedback.md)  
-- [UI/UX component details for model-driven apps](ui-ux-component-details-model-driven-apps.md)  
-- [Key UI/UX design principles](ui-ux-design-principles.md)  
-- [Introduction to UI/UX design for customer engagement apps](introduction-customer-engagement-ui-ux-design-guide.md)  
-
-<!--
-
-## Conclusion
-
-In conclusion, this document has provided a comprehensive overview of UI/UX design principles specific to Power Apps here are the key takeaways:
-
-1\. **Consistency**: Maintain uniformity in design elements, ensuring a cohesive and familiar user experience.
-
-2\. **Simplicity**: Keep the interface clean and straightforward to enhance usability.
-
-3\. **User-Centricity**: Prioritize user needs and preferences to create an interface aligned with user workflows.
-
-4\. **Efficiency**: Streamline workflows and optimize data entry processes to improve productivity.
-
-5\. **Accessibility**: Ensure the interface is accessible to users with diverse needs for inclusivity and compliance.
-
-6\. **Feedback and Guidance**: Collect user feedback and provide context-aware guidance for continuous improvement.
-
-7\. **Scalability**: Design with future growth and changes in mind to adapt to evolving business requirements.
-
-8\. **Usability Testing**: Conduct usability tests and gather feedback to refine the user experience over time.
-
-Remember that UI/UX design is an ongoing process, and the pursuit of excellence in user experience is a continuous journey. By applying these principles, seeking user input, and staying informed about the latest design trends and technologies, you can ensure that your interface remains user-centric and optimally efficient. -->
-
-<!-- # References
-
-For ongoing learning and adherence to design principles, consider the following resources:
-
-Explore Microsoft's official learning platform for a wide range of tutorials and courses on Power Platform, Power Apps CE and UX design.
-
-<https://learn.microsoft.com>
-
-User Feedback Platforms: Implement feedback collection systems like Microsoft Forms (https://forms.microsoft.com/) or UserVoice https://www.uservoice.com/ to gather insights directly from users.
-
-[App design best practices checklist (PowerApps) - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/developer/appsource/appendix-app-design-best-practices-checklist)
-
-Modern UI:
-
-[Use modern themes - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/modern-theme-overrides)
-
-[Modern, refreshed look for model-driven apps is generally available (GA) \| Microsoft Power Apps](https://powerapps.microsoft.com/en-us/blog/modern-refreshed-look-for-model-driven-apps-is-generally-available-ga/)
-
-Controls and Theming:
-
-[Modern theming - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/controls/modern-controls/modern-theming)
-
-[Theming components - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/guidance/coe/theming-components)
-
-[Theming - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/guidance/creator-kit/theme)
-
-Responsive Design
-
-[Add a screen to a canvas app and navigate between screens - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/add-screen-context-variables)
-
-[Building responsive canvas apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/build-responsive-apps)
-
-[Create responsive layouts in canvas apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/create-responsive-layout)
-
-Controls
-
-[Modern controls and properties in canvas apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/controls/modern-controls/modern-controls-reference)
-
-[Controls and properties in canvas apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/reference-properties)
-
-Accessibility
-
-[Create accessible canvas apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/accessible-apps)
-
-[Review a canvas app for accessibility in Power Apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/accessibility-checker)
-
-[Dynamics 365 accessibility and ADA compliance - Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/get-started/accessibility/)
-
-Coding Standards
-
-[PowerApps Canvas App Coding Standards](https://powerapps.microsoft.com/en-us/blog/powerapps-canvas-app-coding-standards-and-guidelines/)
-
-Error Handling
-
-[Column data types in Microsoft Dataverse (contains video) - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/types-of-fields)
-
-[Create and edit columns for Microsoft Dataverse using Power Apps solution explorer - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-field-solution-explorer#column-requirement-options)
-
-[Apply business logic using client scripting in model-driven apps using JavaScript - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting)
-
-[Error, IfError, IsError, and IsBlankOrError functions - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-iferror)
-
-User Support
-
-[Create custom help pages - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-custom-help-pages)
-
-Application Insights
-
-[Application Insights overview - Azure Monitor \| Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
-
-[Trace function - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-trace) [Analyze system-generated logs using Application Insights - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/application-insights#create-custom-trace-events) [Write Telemetry to your Application Insights resource using ILogger (Microsoft Dataverse) - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/application-insights-ilogger)
-
-[Export data to Application Insights - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/set-up-export-application-insights)
-
-[Analyze model-driven apps and Dataverse telemetry with Application Insights - Power Platform \| Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/analyze-telemetry)
-
-Navigation Bar customization:
-
-[Customize SiteMaps (Developer Guide for Dynamics 365 Customer Engagement) \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/customize-dev/customize-sitemaps?view=op-9-1) 
-
-[Use keyboard shortcuts in Power Apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/user/keyboard-shortcuts)
-
-PowerBI dashboards integration
-
-[Embed a Power BI report in a model-driven app main form - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/embed-powerbi-report-in-system-form)
-
-[Create or edit a Power BI embedded system dashboard - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-powerbi-embedded-page)
-
-[Add or edit Power BI visualizations on your dashboard - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/user/add-powerbi-dashboards)
-
-Permissions
-
-[Use record-based security to control access to records (Developer Guide for Dynamics 365 Customer Engagement) \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/security-dev/use-record-based-security-control-access-records?view=op-9-1)
-
-[Field level security \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/admin/field-level-security?view=op-9-1)
-
-Performance
-
-[Interact with HTTP and HTTPS resources asynchronously - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously)
-
-Component details
-
-[Advanced find - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/user/advanced-find)
-
-[Use Advanced Find search in Dynamics 365 Customer Engagement (on-premises) \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search?view=op-9-1)
-
-[Customize the command bar - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/use-command-designer)
-
-[Customize commands and the ribbon (model-driven apps) - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/customize-commands-ribbon)
-
-[Ribbons available in model-driven apps - Power Apps \| Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/ribbons-available)
-
-Designing business processes
-
-Business process flow table metadata - Power Apps \| Microsoft Docs [https://docs.microsoft.com/powerapps/developer/common-data-service/business-process-flows-table-metadata](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/business-process-flows-table-metadata)
-
-Create a branching business process flow - Power Apps \| Microsoft Docs [https://docs.microsoft.com/powerapps/developer/model-driven-apps/create-business-process-flows](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/create-business-process-flows)
-
-Configure security roles for business process flows - Power Apps \| Microsoft Docs [https://docs.microsoft.com/powerapps/developer/model-driven-apps/configure-security-business-process-flows](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/configure-security-business-process-flows)
--->
+- [UI/UX design components for model-driven apps](ui-ux-component-details-model-driven-apps.md)
+- [UI/UX design components for tests and user feedback](ui-ux-component-details-testing-feedback.md)
+- [Key UI/UX design principles](ui-ux-design-principles.md)
+- [Introduction to UI/UX design for customer engagement apps](introduction-customer-engagement-ui-ux-design-guide.md)
