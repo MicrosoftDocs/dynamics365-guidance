@@ -3,7 +3,7 @@ title: Monitor and optimize your Dynamics 365 environments
 description: Learn how to monitor your Dynamics 365 environments for optimal performance, security, cost, and supportability with Microsoft tools.
 author: taksatoms
 ms.author: tsato
-ms.date: 01/30/2024
+ms.date: 06/05/2024
 ms.topic: conceptual
 ms.custom:
  - ai-seo-date: 01/30/2024
@@ -55,9 +55,7 @@ To monitor performance, you need to collect and analyze data from different sour
 - [Dataverse analytics](/power-platform/admin/analytics-common-data-service) for customer engagement apps and Dataverse
 - [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview)
 
-You can set up notifications to warn you when your system's performance falls below a certain range. This way, you can troubleshoot and fix issues faster.
-
-[Learn more about performance strategy](performing-solution.md).
+You can set up notifications to warn you when your system's performance falls below a certain range. This way, you can troubleshoot and fix issues faster. [Learn more about performance strategy](performing-solution.md).
 
 ## Monitor licensing and operational cost
 
@@ -65,13 +63,17 @@ You should keep track of the licenses that you have and use so that you can plan
 
 You should also keep track of the operational cost, which depends on your usage volume. Staying aware of changes in your organization's use of the system can help business and IT managers make budget decisions based on usage patterns.
 
-[Review Dynamics 365 licensing requirements](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+### Related resources
 
-[Manage your subscription for customer engagement apps and Power Platform in the Microsoft 365 admin center](/power-platform/admin/use-office-365-admin-center-manage-subscription).
+Learn more about monitor licensing and operational costs with the following resources:
 
-[Stay compliant with user licensing requirements for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/sysadmin/stay-compliant-user-license-requirement).
+- [Review Dynamics 365 licensing requirements](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)
 
-[View independent software vendor (ISV) license status](/dynamics365/fin-ops-core/dev-itpro/sysadmin/view-isv-license-status).
+- [Manage your subscription for customer engagement apps and Power Platform in the Microsoft 365 admin center](/power-platform/admin/use-office-365-admin-center-manage-subscription)
+
+- [Stay compliant with user licensing requirements for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/sysadmin/stay-compliant-user-license-requirement)
+
+- [View independent software vendor (ISV) license status](/dynamics365/fin-ops-core/dev-itpro/sysadmin/view-isv-license-status)
 
 ## Monitor storage allocation and usage
 
@@ -81,9 +83,13 @@ You should be aware of how much storage space you have left and how fast it grow
 
 Different types of data, such as transactions, files, and logs, have different allocations depending on your subscription. Some actions, such as copying and restoring environments, can also affect your storage allocation.
 
-[Learn about storage entitlements, segmentation, and the effect of backup and restore operations](data-management.md).
+### Related resources
 
-[Verify your Dataverse storage capacity entitlements and usage](/power-platform/admin/capacity-storage).
+Learn more about monitoring storage allocation with the following resources:
+
+- [Understand and apply the change management discipline effectively and successfully](data-management.md)
+
+- [Verify your Dataverse storage capacity entitlements and usage](/power-platform/admin/capacity-storage)
 
 ## Monitor API request and service protection
 
@@ -116,21 +122,23 @@ You should monitor who is accessing your system and what they're doing with your
 
 For instance, when an employee changes roles or leaves the company, you need to change or remove their security role and permissions. If a vendor or consultant contract ends, you need to revoke their access to the data they were working with. And if a customer asks to access, modify, or delete their personal data, you need to comply with their request and provide reports.
 
-[Monitor, investigate, and respond to threats with Microsoft 365 security](/microsoft-365/security/).
+### Related resources
 
-[Manage data governance, risk, and compliance in the Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center).
+Learn more about monitor security and privacy with the following resources:
 
-[Identify and troubleshoot service issues in Microsoft 365 service health](/microsoft-365/enterprise/view-service-health).
+- [Monitor, investigate, and respond to threats with Microsoft 365 security](/microsoft-365/security/).
 
-[Learn more about security strategy and planning for Dynamics 365](security.md).
+- [Manage data governance, risk, and compliance in the Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center).
+
+- [Identify and troubleshoot service issues in Microsoft 365 service health](/microsoft-365/enterprise/view-service-health).
+
+- [Learn more about security strategy and planning for Dynamics 365](security.md).
 
 ## Monitor user access and resource usage
 
 You should understand your users' behavior and expectations. Business sponsors want to know who is using (and not using) the system. They also want to know the frequency of business processes and use cases that are being run. Data on usage patterns gives you clear insights to user adoption, and you can take proven actions to improve it. For example, if a certain capability isn't being used much, query the users to get their feedback on it.
 
 You can also use this information to estimate license needs. For example, you can reassign licenses from users who rarely access the system to new users.
-
-To monitor user access and resource usage, you can use tools such as:
 
 To monitor API request and service protection, you can use tools such as:
 
@@ -156,7 +164,7 @@ You can use tools such as:
 
 - [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview)
 
-[Identify and troubleshoot service issues in Microsoft 365 service health](/microsoft-365/enterprise/view-service-health).
+- [Identify and troubleshoot service issues in Microsoft 365 service health](/microsoft-365/enterprise/view-service-health).
 
 ## Monitor messages from Microsoft
 
