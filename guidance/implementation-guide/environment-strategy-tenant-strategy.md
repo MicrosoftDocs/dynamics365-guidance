@@ -53,7 +53,7 @@ Pros of a global single-tenant setup:
 
 Cons of a global single-tenant setup:
 
-- A tenant can only be associated with a single Microsoft Entra ID forest. If you have independent subsidiaries that use a separate Microsoft Entra ID forest, you can't add them to that tenant, but you can use alternatives such as Azure business-to-business (B2B) for guest-user access.
+- A tenant can only be associated with a single Microsoft Entra ID. If you have independent subsidiaries that use a separate Microsoft Entra ID, you can't add them to that tenant, but you can use alternatives such as Azure business-to-business (B2B) for guest-user access.
 
 - All environments, including the production environment, are governed by the same policies at the tenant level. Creating exceptions for trying out new services or testing might require you to go through multiple information security steps. For example, a proof of concept or pilot that requires a different Microsoft Entra ID conditional access policy will attract scrutiny from security.
 
