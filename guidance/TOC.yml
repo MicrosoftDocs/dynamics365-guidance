@@ -1054,7 +1054,9 @@ items:
         items:
         - name: Copilot in Customer Service architecture
           href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
-        - name: Saga Pattern with Dataverse or Dynamics 365
+        - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
+          href: reference-architectures/scheduled-data-exports-from-dynamics-365-ce-to-csv.md
+        - name: Saga pattern with Dataverse or Dynamics 365
           href: reference-architectures/saga-pattern-dataverse.md
         - name: Dynamics 365 for travel and hospitality
           href: reference-architectures/dynamics-365-travel-hospitality.md
