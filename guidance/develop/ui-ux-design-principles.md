@@ -237,7 +237,7 @@ Learn more:
 
 ## Related resources
 
-- [UI/UX design components for model-driven apps](ui-ux-component-details-model-driven-apps.md)
-- [UI/UX design components for canvas apps](ui-ux-component-details-canvas-apps.md)
-- [Tests and user feedback in UI/UX design](tests-and-user-feedback-in-ui-ux-design.md)
-- [Introduction to UI/UX design for customer engagement apps](introduction-customer-engagement-ui-ux-design-guide.md)
+- [UI/UX design components for model-driven apps](ui-ux-component-details-model-driven-apps.md)  
+- [UI/UX design components for canvas apps](ui-ux-component-details-canvas-apps.md)  
+- [Tests and user feedback in UI/UX design](ui-ux-component-details-testing-feedback.md)  
+- [Introduction to UI/UX design for customer engagement apps](introduction-customer-engagement-ui-ux-design-guide.md)  
