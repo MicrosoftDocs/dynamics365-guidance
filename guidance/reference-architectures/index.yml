@@ -23,6 +23,12 @@ landingContent:
       links:
       - text: Copilot in Customer Service architecture
         url: dynamics-365-customer-service-copilot-architecture.md
+      - text: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
+        url: dynamics-365-ce-scheduled-data-exports-csv.md
+      - text: Saga pattern with Dataverse or Dynamics 365
+        url: saga-pattern-dataverse.md
+      - text: Dynamics 365 for travel and hospitality
+        url: dynamics-365-travel-hospitality.md
     - linkListType: learn
       links:
         - text: Use Success by Design for Dynamics 365 solutions

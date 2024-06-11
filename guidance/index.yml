@@ -122,6 +122,12 @@ productDirectory:
       links:
       - text: Copilot in Customer Service architecture
         url: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+      - text: Saga pattern with Dataverse or Dynamics 365
+        url: reference-architectures/saga-pattern-dataverse.md
+      - text: Dynamics 365 for travel and hospitality
+        url: reference-architectures/dynamics-365-travel-hospitality.md
+      - text: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
+        url: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
 
 # conceptualContent section - max # subsections=3, max # cards/section=18
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
