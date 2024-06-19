@@ -8,6 +8,8 @@ items:
         items:
         - name: Overview
           href: overview.md
+        - name: Copilot experiences in Dynamics 365
+          href: /dynamics365/copilot/index?toc=/dynamics365/guidance/toc.json
         - name: Common terms and definitions
           href: business-processes/glossary.md
         - name: Find training

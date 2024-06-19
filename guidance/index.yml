@@ -39,25 +39,23 @@ highlightedContent:
 # productDirectory section (optional)
 productDirectory:
   items:
-# Get started card
+# Get started card - max 6 links per card
     - title: Get started
       # imageSrc should be square in ratio with no white space
       imageSrc: media/sample-adoption.svg
       links:
         - text: Introduction to guidance
           url: overview.md
-        - text: Glossary of terms in business processes
-          url: business-processes/glossary.md
         - text: Roles in Dynamics 365
           url: roles/overview.md
         - text: Find training
           url: /training/dynamics365/
         - text: Introduction to Success by Design
           url: implementation-guide/success-by-design.md
-        # - text: FastTrack for Dynamics 365
-        #   url: fasttrack/overview.md
         - text: Find TechTalk videos
           url: roles/techtalk-videos.md
+        - text: Copilot experiences in Dynamics 365
+          url: /dynamics365/copilot/
 
 # processes card
     - title: End-to-end business processes
@@ -69,6 +67,8 @@ productDirectory:
         url: business-processes/about.md
       - text: Business processes, steps, and how to find things
         url: business-processes/about-steps-navigation.md
+      - text: Glossary of terms in business processes
+        url: business-processes/glossary.md
 # Implement card
     - title: Implement
       # imageSrc should be square in ratio with no white space
