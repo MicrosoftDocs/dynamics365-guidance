@@ -125,6 +125,14 @@ The following sections outline the content of the collection. Each section inclu
 
     Learn more at [Set up outbound call](cs-set-up-outbound-calls.md).
 
+- Sample Adaptor for Channel Integration Framework
+
+    This article outlines guide on configuring and setting up an adaptor for Channel Integration Framework to receive notifications from external applications.
+
+    The sample adaptor included in this guide demonstrates how an external application can notify a user about incoming notifications using the Channel Integration Framework API V2.0. By showcasing the adaptor code as a sample, this document offers insights into integrating an existing application seamlessly with the Channel Integration Framework, making it easier for developers to understand a one of the patterns to integrate with Channel Integration Framework. 
+
+    Learn more at [Sample Adaptor](cs-set-up-cif2-sampleadaptor.md).
+
 
 
 ### Automation

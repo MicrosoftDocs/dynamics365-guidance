@@ -4,7 +4,7 @@ description: Learn how to simulate a digital contact center with Customer Servic
 author: edupont04
 ms.author: edupont
 ms.topic: how-to #Required; don't change.
-ms.date: 06/13/2023
+ms.date: 06/14/2024
 ms.custom: 
     - bap-template
     - O25-Service
@@ -18,7 +18,7 @@ ms.collection:
 This article outlines the required steps to configure and simulate a digital contact center with the Customer Service workspace and Channel Integration Framework v2.0 with voice channel. The sample simulator is a resource to help optimize the Dynamics 365 implementation and Channel Integration Framework version 2.0 experiences. Use the Channel Integration Framework simulator solution to test and learn the work processes before you go live in production.
 
 > [!NOTE]
-> The simulator is just a collection of samples that we built using the Channel Integration Framework. There is no direct integration with a third-party phone provider in this sample solution.
+> The simulator is a collection of samples that we built using the Channel Integration Framework. There is no direct integration with a third-party phone provider in this sample solution.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ This article outlines the required steps to configure and simulate a digital con
 
 1. Download the package at [Channel Integration Framework Simulator](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Simulator/Solutions)  
 
-    Extract the files, and then open the *Solution Channel Integration Framework simulator Solution* in Power Apps. Learn more about how to import solutions at [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).  
+    Extract the files, and then open the *Solution Channel Integration Framework simulator solution* in Power Apps. Learn more about how to import solutions at [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).  
 
 2. Choose a default account and contact
 

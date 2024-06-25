@@ -143,15 +143,15 @@ If you want to implement Dynamics 365 solutions to assist with your *administer 
 - *Define business continuity plan* (The article you're currently reading.)
 - *Manage licensing and entitlements*
 - *Administer system features*
-- *Manage system access and security*
+- [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
 - [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)
 - *Monitor systems, environments, and capacity*
 - *Manage background jobs*
 - *Manage notifications alerts*
 - *Uptake software releases*
-- *Manage data synchronization*
-- *Manage system compliance*
-- *Support systems* 
+- [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)  
+- [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+- [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related resources
 

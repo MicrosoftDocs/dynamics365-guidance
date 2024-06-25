@@ -8,6 +8,8 @@ items:
         items:
         - name: Overview
           href: overview.md
+        - name: Copilot experiences in Dynamics 365
+          href: /dynamics365/copilot/index?toc=/dynamics365/guidance/toc.json
         - name: Common terms and definitions
           href: business-processes/glossary.md
         - name: Find training
@@ -473,6 +475,8 @@ items:
                   href: resources/cs-set-up-cif2-simulator.md
                 - name: Set up click-to-run outbound calls
                   href: resources/cs-set-up-outbound-calls.md
+                - name: Sample Adaptor for Channel Integration Framework
+                  href: resources/cs-set-up-cif2-sampleadaptor.md
   
 # 14806 dev tools
           - name: Develop solutions
@@ -718,6 +722,14 @@ items:
             href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
           - name: Define business continuity plan
             href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
+          - name: Manage system compliance overview
+            href: business-processes\administer-to-operate-manage-system-compliance.md
+          - name: Manage system access and security overview
+            href: business-processes\administer-to-operate-manage-system-access-security.md
+          - name: Manage data synchronization overview
+            href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+          - name: Process vendor invoices business process area overview
+            href: business-processes\administer-to-operate-support-systems-overview.md
         - name: Case to resolution
           items:
           - name: End-to-end scenario - case to resolution
