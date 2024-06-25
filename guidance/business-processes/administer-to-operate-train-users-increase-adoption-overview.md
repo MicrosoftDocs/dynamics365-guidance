@@ -4,7 +4,7 @@ description: Learn why training users is vital for successful adoption of Dynami
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: overview
-ms.date: 03/19/2024
+ms.date: 06/25/2024
 ai-usage: ai-assisted
 ---
 
@@ -132,9 +132,9 @@ In summary, investing in training users and increasing adoption when you impleme
 
 3. *Administer system features*
 
-4. *Manage system access and security*
+4. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
 
-5. *Train users and increase adoption* (this step)
+5. *Train users and increase adoption* (the article you're currently reading)
 
 6. *Monitor systems, environments, and capacity*
 
@@ -144,11 +144,11 @@ In summary, investing in training users and increasing adoption when you impleme
 
 9. *Uptake software releases*
 
-10. *Manage data synchronization*
+10. [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)  
 
-11. *Manage system compliance*
+11. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
 
-12. *Support systems*
+12. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related resources
 
