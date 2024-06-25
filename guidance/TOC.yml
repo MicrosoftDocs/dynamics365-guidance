@@ -894,28 +894,6 @@ items:
             href: business-processes/plan-to-produce-control-production-quality-overview.md
           - name: Track production cost
             href: business-processes/plan-to-produce-track-production-costs-overview.md
-        - name: Source to pay
-          items:
-          - name: End-to-end scenario - source to pay
-            href: business-processes/source-to-pay-introduction.md
-          - name: Overview
-            href: business-processes/source-to-pay-overview.md
-          - name: Business process areas
-            href: business-processes/source-to-pay-areas.md
-          - name: Define procurement catalogs
-            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-          - name: Define procurement and sourcing strategy overview
-            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
-          - name: Manage vendor relationships overview
-            href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-          - name: Procure materials and services overview
-            href: business-processes/source-to-pay-procure-materials-services-overview.md
-          - name: Process vendor invoices overview
-            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
-          - name: Issue and settle vendor payments overview
-            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
-          - name: Process vendor rebates and incentives overview
-            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
         # - name: Product and service lifecycle management
         #   items:
         #   - name: End-to-end scenario - product and service lifecycle management
@@ -1028,6 +1006,28 @@ items:
             href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
           - name: Review and close service requests
             href: business-processes/service-to-cash-review-close-service-requests.md
+        - name: Source to pay
+          items:
+          - name: End-to-end scenario - source to pay
+            href: business-processes/source-to-pay-introduction.md
+          - name: Overview
+            href: business-processes/source-to-pay-overview.md
+          - name: Business process areas
+            href: business-processes/source-to-pay-areas.md
+          - name: Define procurement catalogs
+            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+          - name: Define procurement and sourcing strategy overview
+            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
+          - name: Manage vendor relationships overview
+            href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
+          - name: Procure materials and services overview
+            href: business-processes/source-to-pay-procure-materials-services-overview.md
+          - name: Process vendor invoices overview
+            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
+          - name: Issue and settle vendor payments overview
+            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+          - name: Process vendor rebates and incentives overview
+            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
 
 # Patterns
       - name: Patterns
