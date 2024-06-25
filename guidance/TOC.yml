@@ -475,6 +475,8 @@ items:
                   href: resources/cs-set-up-cif2-simulator.md
                 - name: Set up click-to-run outbound calls
                   href: resources/cs-set-up-outbound-calls.md
+                - name: Sample Adaptor for Channel Integration Framework
+                  href: resources/cs-set-up-cif2-sampleadaptor.md
   
 # 14806 dev tools
           - name: Develop solutions

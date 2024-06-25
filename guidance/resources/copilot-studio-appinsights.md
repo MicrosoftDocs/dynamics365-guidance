@@ -49,11 +49,8 @@ Learn more about how to use Kusto queries at [Kusto Query Language (KQL) overvie
 
 ```kql
 requests
-
 | where timestamp > ago(30d)
-
 | summarize sessions = dcount(session\_Id), messages = count() by bin(timestamp, 1d)
-
 | render timechart
 ```
 
@@ -69,21 +66,13 @@ Explanation:
 // Define query parameters
 
 let queryStartDate = ago(14d);  // Start date for the query (14 days ago)
-
 let queryEndDate = now();        // End date for the query (current time)
-
 let groupByInterval = 1d;        // Interval for grouping data (1 day)
-
 // Retrieve custom events data
-
 customEvents
-
 | where timestamp > queryStartDate  // Filter events after the start date
-
 | where timestamp < queryEndDate    // Filter events before the end date
-
 | summarize uc = dcount(user\_Id) by bin(timestamp, groupByInterval)  // Count distinct user IDs per time interval
-
 | render timechart  // Visualize the summarized data as a time chart
 ```
 
@@ -122,12 +111,8 @@ This query retrieves telemetry data while excluding canvas test conversations, p
 // Retrieve custom events data and exclude canvas test conversations
 
 customEvents
-
-| extend isDesignMode = customDimensions['designMode']
-
+| extend isDesignMode = customDimensions['DesignMode']
 | where isDesignMode == "False"  // Exclude canvas test conversations
-
-| format content
 ```
 
 Explanation:
@@ -162,67 +147,27 @@ The final result is projected with selected fields and stored in rawData.
 
 ```kql
 let rawData = customEvents
-
-| order by timestamp asc , session\_Id
-
-| extend TimeDifference = iif(row\_number() > 1 and session\_Id == prev(session\_Id), (timestamp - prev(timestamp))/1ms, (timestamp-timestamp)/1ms)//1ms
-
+| order by timestamp asc , session_Id
+| extend TimeDifference = iif(row_number() > 1 and session_Id == prev(session_Id), (timestamp - prev(timestamp))/1ms, (timestamp-timestamp)/1ms)//1ms
 | extend Kind=customDimensions["Kind"]
-
 | extend TopicName=customDimensions["TopicName"]
-
 | extend Text = customDimensions["text"]
-
 |extend errorCodeIndex = indexof(customDimensions["text"], "Error code:")
-
 |extend conversationIdIndex = indexof(customDimensions["text"], "Conversation ID:")
-
 | extend errorCodeText = substring(customDimensions["text"], errorCodeIndex + strlen("Error code:"), conversationIdIndex - (errorCodeIndex + strlen("Error code:")))
-
 | extend Words = split(customDimensions["TopicName"], ".") // Split the string into an array of words
-
-| extend TopicIdWords = split(customDimensions["TopicId"], ".") 
-
-| extend NumWords = array\_length(Words) // Get the number of words in the array
-
-| extend Topics = case (array\_length(Words) == 1, TopicIdWords[2],Words[2])
-
+| extend TopicIdWords = split(customDimensions["TopicId"], ".")
+| extend NumWords = array__length(Words) // Get the number of words in the array
+| extend Topics = case (array_length(Words) == 1, TopicIdWords[2],Words[2])
 | extend channelId = tostring(customDimensions['channelId'])
-
 | extend fromId = customDimensions['fromId']
-
 | extend fromName = customDimensions['fromName']
-
 | extend recipientId = customDimensions['recipientId']
-
 | extend typetext = tostring(customDimensions['type'])
-
 | extend EventGroupcounter = iif(name == "TopicStart", 1, iif(name == "TopicEnd", 0, 0))
-
-| extend EventGroup = 
-
-`    `case(
-
-`        `name == "TopicStart", 
-
-`        `strcat("TopicStart\_", Topics),
-
-`        `case(
-
-`            `name == "TopicEnd", 
-
-`            `strcat("TopicEnd\_", Topics),
-
-`            `"Other"
-
-`        `)
-
-`    `)
-
-| extend RowId =   row\_cumsum(EventGroupcounter)
-
-| project timestamp, name, tostring (Topics),Kind,Text, errorCodeText, session\_Id, customDimensions,  EventGroup,TimeDifference;
-
+| extend EventGroup = case(name == "TopicStart", strcat("TopicStart_", Topics),case(name == "TopicEnd", strcat("TopicEnd_", Topics),"Other"))
+| extend RowId =   row_cumsum(EventGroupcounter)
+| project timestamp, name, tostring (Topics),Kind,Text, errorCodeText, session_Id, customDimensions,  EventGroup,TimeDifference;
 rawData
 ```
 
@@ -251,35 +196,20 @@ This query pipeline effectively filters and analyzes error occurrences within th
 
 ```kql
 let rawData = customEvents
-
-| order by timestamp asc , session\_Id
-
+| order by timestamp asc , session_Id
 | extend TopicName=customDimensions["TopicName"]
-
 | extend Text = customDimensions["text"]
-
 | extend errorCodeIndex = indexof(customDimensions["text"], "Error code:")
-
 | extend conversationIdIndex = indexof(customDimensions["text"], "Conversation ID:")
-
 | extend errorCodeText = substring(customDimensions["text"], errorCodeIndex + strlen("Error code:"), conversationIdIndex - (errorCodeIndex + strlen("Error code:")))
-
 | extend Words = split(customDimensions["TopicName"], ".") // Split the string into an array of words
-
 | extend TopicIdWords = split(customDimensions["TopicId"], ".") 
-
 | extend NumWords = array\_length(Words) // Get the number of words in the array
-
 | extend TN = case (array\_length(Words) == 1, TopicIdWords[2], Words[2])
-
-| project timestamp, name, tostring(TN), Text, errorCodeText, session\_Id, customDimensions;
-
+| project timestamp, name, tostring(TN), Text, errorCodeText, session_Id, customDimensions;
 rawData
-
 | where Text contains "Error Code:" and name == "BotMessageSend"
-
 | summarize errortype = count() by errorCodeText
-
 | render columnchart
 ```
 
@@ -298,29 +228,17 @@ This query is designed to retrieve and structure event data related to generativ
 
 ```kql
 customEvents
-
 | where name == "GenerativeAnswers"
-
 // | where cloud\_RoleInstance == "MS Learn Chatbot" // Bot Name
-
 | extend cd = todynamic(customDimensions)
-
 | extend conversationId = tostring(cd.conversationId)
-
 | extend topic = tostring(cd.TopicName)
-
 | extend message = tostring(cd.Message)
-
 | extend result = tostring(cd.Result)
-
 | extend SerializedData = tostring(cd.SerializedData)
-
 | extend Summary = tostring(cd.Summary)
-
-| extend feedback = tostring(todynamic(replace\_string(SerializedData,"$","")).value)
-
-| project cloud\_RoleInstance, name, timestamp, conversationId, topic, message, result, feedback, Summary
-
+| extend feedback = tostring(todynamic(replace_string(SerializedData,"$","")).value)
+| project cloud_RoleInstance, name, timestamp, conversationId, topic, message, result, feedback, Summary
 | order by timestamp desc
 ```
 

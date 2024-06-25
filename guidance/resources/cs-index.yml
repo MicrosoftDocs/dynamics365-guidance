@@ -55,7 +55,9 @@ landingContent:
        - text: Set up the simulator for Channel Integration Framework v. 2.0
          url: cs-set-up-cif2-simulator.md
        - text: Set up click-to-run outbound calls
-         url: cs-set-up-outbound-calls.md        
+         url: cs-set-up-outbound-calls.md  
+       - text: Sample Adaptor for Channel Integration Frameowrk
+         url: cs-set-up-cif2-sampleadaptor.md
 
 # Card
 
