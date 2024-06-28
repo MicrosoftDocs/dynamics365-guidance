@@ -25,9 +25,9 @@ Many tools can be used to monitor and analyze an issue with Dynamics 365 apps an
 
 Implementation of environment monitoring can significantly increase proactive detection of issues in a customer's environment. Dynamics 365 and associated admin centers provide comprehensive monitoring capabilities, including performance metrics, health checks, and alerts.
 
-By continuously monitoring environment health and analyzing telemetry data, teams detect anomalies, identify potential issues, and take proactive measures to prevent downtime or performance degradation. Through real-time insights and automated alerting, monitored environments empower organizations to address issues before they escalate. Therefore, it helps ensure optimal performance and reliability of Dynamics 365 apps.
+By continuously monitoring environment health and analyzing telemetry data, teams detect anomalies, identify potential issues, and take proactive measures to prevent downtime or performance degradation. Through real-time insights and automated alerting, monitored environments empower organizations to address issues before they escalate. Therefore, they help ensure optimal performance and reliability of Dynamics 365 apps.
 
-Learn more at [Monitoring and diagnostics tools in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) and [Managed Environments overview](/power-platform/admin/managed-environment-overview), respectively.
+Learn more at [Monitoring and diagnostics tools in Lifecycle Services (LCS)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics) and [Managed Environments overview](/power-platform/admin/managed-environment-overview), respectively.
 
 ## Decrease resolution time with Application Insights
 
@@ -131,7 +131,7 @@ These benefits highlight the synergy between Dynamics 365, Azure, and effective 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your administer to operate business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
 1. *Manage licensing and entitlements*
@@ -155,7 +155,7 @@ You can use the following resources to learn more about the *support systems* pr
 - [Monitoring and diagnostics tools in Lifecycle Services (LCS)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics)
 - [Use Azure Data Explorer to query raw information logs](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/azure-data-explorer)
 - [Analyze model-driven apps and Dataverse telemetry with Application Insights](/power-platform/admin/analyze-telemetry)
-- [Azure status](https://azure.status.microsoft/en-us/status)
+- [Azure status](https://azure.status.microsoft/status)
 - [Environment Telemetry in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)
 
 <!--## Tags
