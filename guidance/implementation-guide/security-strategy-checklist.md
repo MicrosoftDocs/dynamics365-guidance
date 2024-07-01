@@ -28,7 +28,7 @@ content_well_notification: AI-contribution
 | Done? | Task |
 | :-----: | ---- |
 | &check; | Create an identity management strategy that covers user access, service accounts, application users, federation requirements for single sign-on, and conditional access policies. |
-| &check; | Create administrative access policies for different admin roles on the platform, such as service admin and global admin. |
+| &check; | Create administrative access policies for different admin roles on the platform, such as service admin and Microsoft 365 admin. |
 | &check; | Apply and follow the relevant data loss prevention policies and procedures to make changes or request exceptions. |
 | &check; | Have the necessary controls to manage access to specific environments. |
 
