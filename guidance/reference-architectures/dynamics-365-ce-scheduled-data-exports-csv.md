@@ -23,7 +23,7 @@ Solution architects are key stakeholders for Dynamics 365, the external system, 
 
 ## Architecture
 
-The following diagram illustrates the architecture for the solution.
+[!INCLUDE [daf-mag-diagram](../includes/daf-mag-diagram.md)]
 
 :::image type="content" source="../media/scheduled-data-exports-from-dynamics-365-ce-to-csv.svg" alt-text="Diagram showing the connection between Data Lake Storage and Synapse S Q L serverless storage." lightbox="../media/scheduled-data-exports-from-dynamics-365-ce-to-csv.svg":::
 
@@ -214,4 +214,4 @@ If there are no related patterns at time of publishing, this section can be comm
 
 Principal author:
 
-- Tycho Bom (https://www.linkedin.com/in/tychobom/) \| Freelance Microsoft Dynamics 365 Solution Architect
+- Tycho Bom [https://www.linkedin.com/in/tychobom](https://www.linkedin.com/in/tychobom/) \| Freelance Microsoft Dynamics 365 Solution Architect

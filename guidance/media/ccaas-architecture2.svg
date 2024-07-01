@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="720"
+   overflow="hidden"
+   version="1.1"
+   id="svg111"
+   sodipodi:docname="Slide2.SVG"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview111"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3367188"
+     inkscape:cx="640"
+     inkscape:cy="360.12036"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg111" />
+  <defs
+     id="defs14">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="361950"
+         height="371475"
+         id="rect1" />
+    </clipPath>
+    <image
+       width="128"
+       height="128"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img1" />
+    <clipPath
+       id="clip2">
+      <path
+         d="M150894 150894 512844 150894 512844 512844 150894 512844Z"
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         id="path1" />
+    </clipPath>
+    <clipPath
+       id="clip3">
+      <rect
+         x="280"
+         y="162"
+         width="43"
+         height="44"
+         id="rect2" />
+    </clipPath>
+    <clipPath
+       id="clip4">
+      <rect
+         x="280"
+         y="162"
+         width="43"
+         height="44"
+         id="rect3" />
+    </clipPath>
+    <clipPath
+       id="clip5">
+      <rect
+         x="280"
+         y="162"
+         width="43"
+         height="44"
+         id="rect4" />
+    </clipPath>
+    <linearGradient
+       x1="18.5426"
+       y1="5.91489"
+       x2="18.5426"
+       y2="36.7674"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad"
+       id="fill6">
+      <stop
+         offset="0"
+         stop-color="#A67AF4"
+         id="stop4" />
+      <stop
+         offset="0.002"
+         stop-color="#A67AF4"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#773ADC"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       x1="33.2677"
+       y1="17.6204"
+       x2="33.2677"
+       y2="37.0851"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad"
+       id="fill7">
+      <stop
+         offset="0"
+         stop-color="#C3F1FF"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#50E6FF"
+         id="stop8" />
+    </linearGradient>
+    <image
+       width="42"
+       height="56"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img8" />
+    <clipPath
+       id="clip9">
+      <rect
+         x="0"
+         y="0"
+         width="192881"
+         height="257175"
+         id="rect8" />
+    </clipPath>
+    <clipPath
+       id="clip10">
+      <rect
+         x="0"
+         y="2.32831e-10"
+         width="304800"
+         height="314325"
+         id="rect9" />
+    </clipPath>
+    <image
+       width="34"
+       height="35"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img11" />
+    <clipPath
+       id="clip12">
+      <rect
+         x="0"
+         y="0"
+         width="304800"
+         height="313765"
+         id="rect10" />
+    </clipPath>
+    <clipPath
+       id="clip13">
+      <rect
+         x="0"
+         y="0"
+         width="409575"
+         height="371475"
+         id="rect11" />
+    </clipPath>
+    <image
+       width="64"
+       height="64"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img14" />
+    <clipPath
+       id="clip15">
+      <path
+         d="M92152.3 111887 501727 111887 501727 481993 92152.3 481993Z"
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         id="path11" />
+    </clipPath>
+    <image
+       width="32"
+       height="32"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATbSURBVFhH7ZVbTBxlFID7wAMxDTNoTZrGKCamGu4UCgtRQUDuV5smpmlSKJRairUUtCDQRUCL0BYTTWx80sSkGh8ol3a57lLAUuiFKvikhidr6gO77ABTdmb/4/ln/mGHZXfYN33oSb6cc36S+c75d9jd9TT+8+BLFq+FvrMIOoi+50sXCIL5Vwgt+QV5CHzxPIXwRQ+AL7xP+MJ7wBfcRebgxePzYsoXq2b2+J0DJZJOSjOyAKEoDkUpT6XFDxGUFj1AKRMW3iVMSvj8WcLn3YF9R+aI6ZITUnrWwHRl/RhTGAdfunhakeOWKqqUR6myqbZlEZXSTVGIm2pSPm8GuQ3PF09BUpcDkq+sQgpiuiyIpi5HJtMYB17xReV6Val6tUX3qRC3xU0L1etVpPkeKZf7M/A507CnaIrEtz+G5MtUrOOSICR3C5FMYxwo7d2UFmjXO0uliCLFjRUp4XKngcuZAi57CvhsK8S2/IUyKvRBt7CU2Ln2AtMYRKotmC+cs/H5dNM76vXmzgDHNvVIJ5FbwGUhb4+RiPo/IalbQFZ9YlKyMB9ufrybmfzHM3mze7m8md+53NuEp9KcacJ7pITLmkCxDcVWwmWOkf3Vv0Fil6CQpLC6WWvnWp//zbrFbIMgpvIfXLYtDDd9xOXoNlWlwGVS8ThwGaPwcvk9SPwcBUbQATCnf7UGDbcINE6Sr5nGOLgMWxqXZRXVTal4TAXFXPoI7Ds8CQc7BYVElv31b/SswtkRmcpxCDc0TMhNTGMcuzOsxVzmqIRSEpI+Qrj0YQh5a4jsLbFC/KcOSLjoRAQlH1SgtYpaO8GEN1BjkeD8hFsFB1Ahh5jGOFDYgEBImoWEpN2E57ItENf6DyR8hnIKHUKrvXp6ExXXXfARijU+tLE8IYv1Nimw74iQtBs9IamD8GzmIEQ3PcLtnVtBmYJWY6YDHP1xA+pR6As6SL1VttcOia8wjUGk2oK4N3sHwmv/gPiOla1y5EAHZnquZOzx7NB3ItRZ3VA3jtDsh3Pj8gKz+I9UMwTFdqxYqOgAihTavbKO3Kvr9MFQi3Kaz2FWa0/WqA1kgLg2Z3ccijSoNK7N0+vJ+HINzuAbXzvmhrPbkHVgPxrARxDX6jwfS2UBkNzlhJohGT4Y1eP22Z8ZkcSa0R1ewmjzckHsJyuwFYdXr2LqdEJVvwvex+3pDWzHvbUf3niXaXxHjNmeFtNqF2NaHaAn1qun0O3Le11QMywHRLXF1cw0vuNVsz0s+oL97xgzCjQ0oVdPBzrywwacxqsPhJoht/FX8X6zc09Ui2Mp+oIDcAiEZm8856XfinDKIitUM9Ra2uy1M8RyzAbBTLU9XjIvBUe1LNuiW+yAQyBa1oFS7Tzv6hqcuinDe5tIunpbP28opxHZZB+IasaHG0GHwJzaI8DJGxIiQ5WS1VrN+lr5+9JJixjGNL4jstnejgPAjqD89W4nVPZLcGJQQ1ZyFYUKWa/iEqr6n7zGNL4jstFeF/ExPpxBa63Xaq1PaHNAGb7xlSipHJB8cmKzdolVfWIO0/iP8IZlUZUsQ0Qj5kbM2+pl/BV0wNGfXFCBD6/AG9iJyr6NMqYwjvAG+zUcAhRQ6qkZWNPrP/z9Eyjvk7ZwXIfn3CWVXd/hf/1p/H9i165/AVx4VQyEOFFtAAAAAElFTkSuQmCC"
+       preserveAspectRatio="none"
+       id="img16" />
+    <clipPath
+       id="clip17">
+      <rect
+         x="0"
+         y="0"
+         width="257175"
+         height="257175"
+         id="rect12" />
+    </clipPath>
+    <image
+       width="32"
+       height="32"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVaSURBVFhHtdfnc1RVGMdx/gD33tgb9t6xgwVBUGwwo9hAJSBNpVuoAQKBiEhXBCvIIiAvBLEiNYQSSG9ks9kkS5IxQEJ6dm/ePI+/55xzw4bJzM644c585+ZN5nN+J3eYoVtXPFVbbW/V1jhW/RzHlVviuGKLTRWbba7YjJ/RiU1oo+01v9K1TySs8M3AN0lAfzJtjOMgMr/Stc9ZGAkaAQsa3Ghz0GtzOTK/0rWPvmJcdzsMUFAX3mAT4rIfbTK/0rUPQDIoqbwANaxQE5euP0834F41ULXUTdAyoGXr47h0nc2BH87TAdTiDThAxGKslRRcCljwwPfn6QARa0kWK3SdTQpVcJzCS76L4RtoPT7I21o4iFsLBqKXuCX/RW7Je4Fa8p7n5twB3JLzLDej6l09uASYu9iFEfu/jeUABQOpNT8Czn0ePUeCNmc/g/pzc1Y/bsp8mrNXW4IqWFDE/m9sLv46hj9Bh8U5A3QaJoGbATdl9EV9OHOVpdYK6sKqtbEcAHALrrp9cVZ/asrqR7LYhZvSn+LGY705cyUO4MJrbRLYt8amojWxHEAvpsirFrgxvQ81CpzemxuPPoEe54wVllrr07DGv7K5aHUMBzgXlsWASRYL3AC4Ie0x1IvTl1kuzC58fLVNx7+0/v9HqODMvmatXPWTSMONAh/phXpy/eFH+dhS6xwYb1T4RQw3oBdjbcRVq8VHepLADYDrDz3C9Qcf4qNLcADBNUomLlgV5QBOVbK3rSqZ26oWcltlEjuV89E8dioSqa1yDt6zUQK3+kbKYmo43JNksQvXH3yQ61Mf4LTFHgUWrrKoEGjBShXlr4jy70Bb1QJAScA16lTMRQIn4D2LnRMz0Qx2gtPUVUfCdYDrDtzPdSk9OO0zC/hZuGCFzfn4MPOXR/kGsBZQIsA5eGPtiQRBScPT0TTgU9EnQB/G2o5wXcp9fGb/PXxkkQewpeHlAtuct0xnqM4fsxbQLIPOwBtwcCoJ6gQ/Rh+yUz5Fw6mAD7jwvXxm392qw58CNbgL5y21ORffhqE6fzQsVzwd4Nm1TvlHSMNO+SQOl01U8BkNk6xW+N47uXbPHXwoWWAV5S5FgHOX2JzzebQDBNVajcpawOHyKRQun8xO2SQ0Efh4DpeOM4sFvotcuHbP7Vy7+zY+tNAjsEaXWCRwzmIpykfoorIWMLDJam24dAI5Cv4AvY/eE5hrNUy1uzVcs+tWrvnnFj6YhAOYxYApG3g2PkzJUJ0/7tpw2SRSsF5LgMkxcDgwBo3usLhWwTdzzc6bVKnz9eJ2eJHFWaooH6FGJwAcj8a1rw0HxpLATmAUfh7J4ZJ3uSZicc1OjZ/++wY+/df1nDrP0xHGR5kp4dswVOePRs01B8ZyKDAG8GgOlYwiQcMlI9BwFK9hs9qFVX9eyymJHgJMCk62SOCMhRahaAdQa5HAWFui12o4nsP+Yegd9Daf3nkjASYNX8enAJ/64xrUnVPmetRaA3PGAhXJ21CdP1gbAY+gkH84iucQ0BBQgUPFQzlcPMQsjoB/746u5pO/XcX7Z3s0bPD0JIukY/Oj/EvYvtaPa/YPI1kbKhb0LaBD8X4T79c55HtNYHIXu/DJHVeo9iV4OB2LgbKgqnkWH0WG6vwJ++OBDlNrBZW1IawVOOTTcMj3Khosi0nDV5ILn/z1Mq7efinvnYUDaJwBazxRZ6jOH6wloJJB34iAB3Oo6BX0sgqwbsfl7XD19ku4etvFvHemJxImhc+1OG1OtD9B8RBvyOfCZm3RYHLRyASuduFtGv73l4vQhbxnhkejKE3DutkXnPPf827d/gO5au7boFeTpwAAAABJRU5ErkJggg=="
+       preserveAspectRatio="none"
+       id="img18" />
+    <clipPath
+       id="clip19">
+      <rect
+         x="0"
+         y="0"
+         width="257175"
+         height="257175"
+         id="rect13" />
+    </clipPath>
+    <image
+       width="32"
+       height="32"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img20" />
+    <clipPath
+       id="clip21">
+      <rect
+         x="0"
+         y="0"
+         width="257175"
+         height="257175"
+         id="rect14" />
+    </clipPath>
+  </defs>
+  <g
+     id="g111">
+    <rect
+       x="0"
+       y="0"
+       width="1280"
+       height="720"
+       fill="#FFFFFF"
+       id="rect15" />
+    <text
+       fill="#0070C0"
+       font-family="Segoe Sans Display Semibold,Segoe Sans Display Semibold_MSFontService,sans-serif"
+       font-weight="600"
+       font-size="32"
+       transform="translate(41.7246 44)"
+       id="text15"
+       style="-inkscape-font-specification:'Segoe Sans Display Semibold, Segoe Sans Display Semibold_MSFontService, sans-serif, Normal';font-family:'Segoe Sans Display Semibold', 'Segoe Sans Display Semibold_MSFontService', sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:32px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0070c0"><tspan
+         sodipodi:role="line"
+         id="tspan111">Dynamics 365 Customer Service Enterprise with existing CCaaS</tspan></text>
+    <rect
+       x="377.5"
+       y="277.5"
+       width="113"
+       height="126"
+       stroke="#0F9ED5"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#D9F2D0"
+       id="rect17" />
+    <rect
+       x="502"
+       y="168"
+       width="486"
+       height="279"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#FFFFFF"
+       id="rect18" />
+    <rect
+       x="988"
+       y="169"
+       width="259"
+       height="214"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#FFFFFF"
+       id="rect19" />
+    <rect
+       x="216"
+       y="581"
+       width="1033"
+       height="55"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#F2F2F2"
+       id="rect20" />
+    <path
+       d="M452.861 321.372C452.372 320.876 451.578 320.876 451.089 321.372 450.599 321.867 450.599 322.671 451.089 323.167L457.721 329.884 447.062 329.884C443.602 329.884 440.797 332.726 440.797 336.23L440.797 341.308C440.797 343.411 439.114 345.115 437.037 345.115L436.933 345.115C436.337 341.514 433.244 338.769 429.519 338.769 425.366 338.769 422 342.179 422 346.385 422 350.591 425.366 354 429.519 354 433.244 354 436.337 351.256 436.933 347.654L437.037 347.654C440.498 347.654 443.303 344.813 443.303 341.308L443.303 336.23C443.303 334.128 444.986 332.423 447.062 332.423L457.721 332.423 451.089 339.141C450.599 339.636 450.599 340.44 451.089 340.936 451.578 341.431 452.372 341.431 452.861 340.936L461.633 332.051C461.868 331.813 462 331.49 462 331.154 462 330.817 461.868 330.494 461.633 330.256L452.861 321.372Z"
+       fill="#0078D4"
+       fill-rule="evenodd"
+       id="path20" />
+    <rect
+       x="237"
+       y="306"
+       width="130"
+       height="185"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#D9F2D0"
+       id="rect21" />
+    <rect
+       x="98"
+       y="137"
+       width="102"
+       height="405"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#D9F2D0"
+       id="rect22" />
+    <rect
+       x="238"
+       y="150"
+       width="130"
+       height="90"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#D9F2D0"
+       id="rect23" />
+    <path
+       d="M131.5 186C131.5 177.992 137.992 171.5 146 171.5 154.008 171.5 160.5 177.992 160.5 186 160.5 194.008 154.008 200.5 146 200.5 137.992 200.5 131.5 194.008 131.5 186Z"
+       stroke="#0078D4"
+       stroke-width="2.66667"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#FFFFFF"
+       fill-rule="evenodd"
+       id="path23" />
+    <path
+       d="M150.124 191.875C143.575 192 138.133 187.125 138 180.958 138 180.958 138.133 179.708 139.681 178.5 140.389 178 140.92 178.125 141.363 178.583 143.221 180.208 143.221 180.208 143.221 180.208 143.664 180.667 143.619 181.375 143.133 181.792 142.381 182.375 142.381 182.375 142.381 182.375 141.894 182.792 141.894 183.5 142.336 183.958 146.54 187.958 146.54 187.958 146.54 187.958 146.982 188.375 147.735 188.417 148.221 188 149.062 187.125 149.062 187.125 149.062 187.125 149.504 186.708 150.257 186.75 150.699 187.208 152.558 188.833 152.558 188.833 152.558 188.833 153 189.292 152.911 189.917 152.513 190.417 151.363 191.75 150.124 191.875 150.124 191.875Z"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path24" />
+    <path
+       d="M134.5 352.5C134.5 344.216 141.216 337.5 149.5 337.5 157.784 337.5 164.5 344.216 164.5 352.5 164.5 360.784 157.784 367.5 149.5 367.5 141.216 367.5 134.5 360.784 134.5 352.5Z"
+       stroke="#0078D4"
+       stroke-width="2.66667"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#FFFFFF"
+       fill-rule="evenodd"
+       id="path25" />
+    <path
+       d="M151.309 349.537 151.309 353.2 144.704 353.2 142.296 355.789 142.296 353.2 141 353.2 141 346 151.309 346 151.309 349.537M145.753 353.2 145.753 355.474 152.296 355.474 154.704 358 154.704 355.474 156 355.474 156 348.274 151.309 348.274"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path26" />
+    <path
+       d="M129.5 241.5C129.5 232.111 137.111 224.5 146.5 224.5 155.889 224.5 163.5 232.111 163.5 241.5 163.5 250.889 155.889 258.5 146.5 258.5 137.111 258.5 129.5 250.889 129.5 241.5Z"
+       stroke="#0078D4"
+       stroke-width="2.66667"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#FFFFFF"
+       fill-rule="evenodd"
+       id="path27" />
+    <path
+       d="M151.333 251C140.667 251 140.667 251 140.667 251 140.299 251 140 250.701 140 250.333 140 231.667 140 231.667 140 231.667 140 231.299 140.299 231 140.667 231 151.333 231 151.333 231 151.333 231 151.701 231 152 231.299 152 231.667 152 250.333 152 250.333 152 250.333 152 250.701 151.701 251 151.333 251ZM144.667 248.333C147.333 248.333 147.333 248.333 147.333 248.333"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path28" />
+    <g
+       clip-path="url(#clip0)"
+       transform="matrix(0.000104987 0 0 0.000104987 131 471)"
+       id="g29">
+      <g
+         clip-path="url(#clip2)"
+         transform="matrix(1 0 0 1.02632 -150894 -154865)"
+         id="g28">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(5185.46 5185.46)"
+           id="use28" />
+      </g>
+    </g>
+    <path
+       d="M139.667 286C137.642 286 136 287.88 136 290.2L136 290.623 147 297.408 158 290.623 158 290.2C158 287.88 156.358 286 154.333 286L139.667 286ZM158 293.008 147.435 299.525C147.163 299.692 146.837 299.692 146.566 299.525L136 293.008 136 302.8C136 305.12 137.642 307 139.667 307L154.333 307C156.358 307 158 305.12 158 302.8L158 293.008Z"
+       fill="#0078D4"
+       fill-rule="evenodd"
+       id="path29" />
+    <path
+       d="M155.032 422.991C156.627 422.991 157.919 424.166 157.919 425.615L157.918 427.057C158.11 430.339 155.425 432 150.606 432 145.808 432 143.073 430.366 143.073 427.114L143.073 425.615C143.073 424.166 144.365 422.991 145.96 422.991L155.032 422.991ZM136.887 415.495 144.105 415.495C143.97 415.974 143.898 416.476 143.898 416.994 143.898 418.666 144.651 420.179 145.866 421.267L146.133 421.493 145.96 421.492C145.463 421.492 144.984 421.564 144.537 421.699 143.11 422.127 141.997 423.181 141.59 424.503L141.533 424.504C136.735 424.504 134 422.87 134 419.618L134 418.118C134 416.669 135.292 415.495 136.887 415.495ZM164.105 415.495C165.7 415.495 166.992 416.669 166.992 418.118L166.99 419.561C167.183 422.843 164.498 424.504 159.679 424.504L159.402 424.501C159.007 423.221 157.95 422.192 156.588 421.741 156.2 421.612 155.787 421.53 155.357 421.502L155.032 421.492 154.859 421.493C156.23 420.394 157.095 418.786 157.095 416.994 157.095 416.476 157.022 415.974 156.887 415.495L164.105 415.495ZM150.496 412.496C153.229 412.496 155.445 414.51 155.445 416.994 155.445 419.478 153.229 421.492 150.496 421.492 147.763 421.492 145.547 419.478 145.547 416.994 145.547 414.51 147.763 412.496 150.496 412.496ZM141.423 405C144.156 405 146.372 407.014 146.372 409.498 146.372 411.982 144.156 413.996 141.423 413.996 138.69 413.996 136.474 411.982 136.474 409.498 136.474 407.014 138.69 405 141.423 405ZM159.569 405C162.302 405 164.518 407.014 164.518 409.498 164.518 411.982 162.302 413.996 159.569 413.996 156.836 413.996 154.62 411.982 154.62 409.498 154.62 407.014 156.836 405 159.569 405Z"
+       fill="#0078D4"
+       fill-rule="evenodd"
+       id="path30" />
+    <g
+       clip-path="url(#clip3)"
+       id="g36">
+      <g
+         clip-path="url(#clip4)"
+         id="g35">
+        <g
+           clip-path="url(#clip5)"
+           id="g34">
+          <path
+             d="M2.15 5.91489 34.9327 5.91489C36.035 5.83799 36.9939 6.66256 37.0827 7.76389L37.0827 30.186C36.9912 31.2861 36.034 32.1093 34.9327 32.035L21.5167 32.035C21.4396 32.0352 21.3641 32.0575 21.2993 32.0995L14.4169 36.6384C14.1031 36.8797 13.6532 36.8207 13.412 36.5068 13.3321 36.4028 13.2822 36.2791 13.2679 36.1487L13.2679 32.3432C13.2526 32.1599 13.0931 32.0226 12.9096 32.035L2.15 32.035C1.0482 32.1105 0.0902059 31.2868-5.69556e-08 30.186L0 7.76389C0.0914452 6.66383 1.04864 5.84064 2.15 5.91489Z"
+             fill="url(#fill6)"
+             transform="matrix(1 0 0 1.02326 280 162)"
+             id="path31" />
+          <path
+             d="M26.3518 15.9124C27.7042 15.9124 28.8004 17.0087 28.8004 18.361 28.8004 19.7133 27.7042 20.8096 26.3518 20.8096 24.9995 20.8096 23.9032 19.7133 23.9032 18.361 23.9032 17.0087 24.9995 15.9124 26.3518 15.9124ZM16.0939 18.3944C16.1005 19.7467 17.2022 20.8377 18.5545 20.8311 19.9068 20.8245 20.9977 19.7229 20.9911 18.3706 20.9845 17.0229 19.8902 15.9339 18.5426 15.9339 17.1902 15.9339 16.0939 17.0301 16.0939 18.3825 16.0939 18.3865 16.0939 18.3905 16.0939 18.3944ZM8.28228 18.3944C8.28887 19.7467 9.39048 20.8377 10.7428 20.8311 12.0951 20.8245 13.186 19.7229 13.1795 18.3706 13.1729 17.0229 12.0786 15.9339 10.7309 15.9339 9.37856 15.9339 8.28225 17.0301 8.28225 18.3825 8.28225 18.3865 8.28225 18.3905 8.28228 18.3944Z"
+             fill="#FFFFFF"
+             fill-opacity="0.8"
+             transform="matrix(1 0 0 1.02326 280 162)"
+             id="path32" />
+          <path
+             d="M43 27.3528C43 32.7278 38.6427 37.0851 33.2677 37.0851 27.8926 37.0851 23.5353 32.7278 23.5353 27.3528 23.5353 21.9778 27.8926 17.6204 33.2677 17.6204 38.6427 17.6204 43 21.9778 43 27.3528Z"
+             fill="url(#fill7)"
+             transform="matrix(1 0 0 1.02326 280 162)"
+             id="path33" />
+          <path
+             d="M38.614 32.5797 37.3312 30.6351C37.1264 30.3145 36.7069 30.2096 36.3756 30.3962L35.4559 30.8907C35.2751 30.9887 35.0512 30.9555 34.9064 30.8095 34.2997 30.2008 33.7488 29.5388 33.2605 28.8315L32.5247 27.5821C32.1614 26.8026 31.8694 25.9921 31.6528 25.1598 31.6045 24.961 31.6881 24.7537 31.8606 24.6438L32.7517 24.1015C33.0711 23.909 33.1893 23.5039 33.024 23.1698L32.0111 21.0796C31.8482 20.7522 31.4559 20.612 31.1224 20.7618 30.2338 21.2755 29.5689 22.1028 29.2591 23.0814 28.4182 25.0284 29.928 27.3193 31.0436 29.2687L31.0556 29.2687C32.1712 31.218 33.3871 33.6786 35.4893 33.9413 36.4903 34.1695 37.5402 34.0142 38.4324 33.5066 38.7346 33.298 38.8151 32.8866 38.614 32.5797Z"
+             fill="#0078D4"
+             transform="matrix(1 0 0 1.02326 280 162)"
+             id="path34" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="M251.5 408C251.5 396.126 260.678 386.5 272 386.5 283.322 386.5 292.5 396.126 292.5 408 292.5 419.874 283.322 429.5 272 429.5 260.678 429.5 251.5 419.874 251.5 408Z"
+       stroke="#0078D4"
+       stroke-width="2.66667"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#FFFFFF"
+       fill-rule="evenodd"
+       id="path36" />
+    <path
+       d="M267.996 409.537 267.996 413.2 260.951 413.2 258.383 415.789 258.383 413.2 257 413.2 257 406 267.996 406 267.996 409.537M262.07 413.2 262.07 415.474 269.049 415.474 271.617 418 271.617 415.474 273 415.474 273 408.274 267.996 408.274"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path37" />
+    <path
+       d="M252.5 461.5C252.5 449.902 262.35 440.5 274.5 440.5 286.65 440.5 296.5 449.902 296.5 461.5 296.5 473.098 286.65 482.5 274.5 482.5 262.35 482.5 252.5 473.098 252.5 461.5Z"
+       stroke="#0078D4"
+       stroke-width="2.66667"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#FFFFFF"
+       fill-rule="evenodd"
+       id="path38" />
+    <path
+       d="M271.124 471.875C264.575 472 259.133 467.125 259 460.958 259 460.958 259.133 459.708 260.681 458.5 261.389 458 261.92 458.125 262.363 458.583 264.221 460.208 264.221 460.208 264.221 460.208 264.664 460.667 264.619 461.375 264.133 461.792 263.381 462.375 263.381 462.375 263.381 462.375 262.894 462.792 262.894 463.5 263.336 463.958 267.54 467.958 267.54 467.958 267.54 467.958 267.982 468.375 268.735 468.417 269.221 468 270.062 467.125 270.062 467.125 270.062 467.125 270.504 466.708 271.257 466.75 271.699 467.208 273.558 468.833 273.558 468.833 273.558 468.833 274 469.292 273.911 469.917 273.513 470.417 272.363 471.75 271.124 471.875 271.124 471.875Z"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path39" />
+    <path
+       d="M275.082 400.139C275.082 401.622 275.082 401.622 275.082 401.622M280.918 400.139C280.918 401.622 280.918 401.622 280.918 401.622M270 400.139C270 403.104 270 403.104 270 403.104M286 400.139C286 403.104 286 403.104 286 403.104M278 393.01C278 396.432 278 396.432 278 396.432M276.541 408.293C276.541 412 276.541 412 276.541 412 280.556 408.293 280.556 408.293 280.556 408.293 283.835 408.293 283.835 408.293 283.835 408.293 284.64 408.293 285.294 407.629 285.294 406.811 285.294 397.915 285.294 397.915 285.294 397.915 285.294 397.097 284.64 396.432 283.835 396.432 272.165 396.432 272.165 396.432 272.165 396.432 271.36 396.432 270.706 397.097 270.706 397.915 270.706 406.811 270.706 406.811 270.706 406.811 270.706 407.629 271.36 408.293 272.165 408.293L276.541 408.293ZM278 391C277.463 391 277.031 391.439 277.031 391.984 277.031 392.53 277.463 392.969 278 392.969 278.537 392.969 278.969 392.53 278.969 391.984 278.969 391.439 278.537 391 278 391ZM274.353 403.792C276.366 405.838 279.634 405.838 281.647 403.792"
+       stroke="#000000"
+       stroke-width="1.66667"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path40" />
+    <path
+       d="M275.765 453.269C275.765 454.61 275.765 454.61 275.765 454.61M281.235 453.269C281.235 454.61 281.235 454.61 281.235 454.61M271 453.269C271 455.951 271 455.951 271 455.951M286 453.269C286 455.951 286 455.951 286 455.951M278.5 446.819C278.5 449.915 278.5 449.915 278.5 449.915M277.132 460.646C277.132 464 277.132 464 277.132 464 280.896 460.646 280.896 460.646 280.896 460.646 283.97 460.646 283.97 460.646 283.97 460.646 284.725 460.646 285.338 460.045 285.338 459.305 285.338 451.256 285.338 451.256 285.338 451.256 285.338 450.516 284.725 449.915 283.97 449.915 273.03 449.915 273.03 449.915 273.03 449.915 272.275 449.915 271.662 450.516 271.662 451.256 271.662 459.305 271.662 459.305 271.662 459.305 271.662 460.045 272.275 460.646 273.03 460.646L277.132 460.646ZM278.5 445C277.997 445 277.592 445.397 277.592 445.891 277.592 446.384 277.997 446.781 278.5 446.781 279.003 446.781 279.408 446.384 279.408 445.891 279.408 445.397 279.003 445 278.5 445ZM275.081 456.574C276.968 458.425 280.032 458.425 281.919 456.574"
+       stroke="#000000"
+       stroke-width="1.66667"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path41" />
+    <rect
+       x="640"
+       y="665"
+       width="299"
+       height="46"
+       fill="#C1E5F5"
+       id="rect41" />
+    <g
+       transform="matrix(0.000104987 0 0 0.000104987 652 676)"
+       id="g42">
+      <g
+         clip-path="url(#clip9)"
+         transform="scale(1.03704 1)"
+         id="g41">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img8"
+           transform="scale(4592.41 4592.41)"
+           id="use41" />
+      </g>
+    </g>
+    <rect
+       x="737"
+       y="361"
+       width="226"
+       height="79"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#C1E5F5"
+       id="rect42" />
+    <rect
+       x="735"
+       y="177"
+       width="225"
+       height="92"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#C1E5F5"
+       id="rect43" />
+    <rect
+       x="859"
+       y="458"
+       width="338"
+       height="50"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#E8E8E8"
+       id="rect44" />
+    <path
+       d="M20.5001 94.5001 1252.38 94.5002"
+       stroke="#7F7F7F"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path44" />
+    <path
+       d="M42.5001 654.5 1261.99 654.5"
+       stroke="#7F7F7F"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path45" />
+    <path
+       d="M72 127.5C72 120.044 78.0442 114 85.5 114 92.9558 114 99 120.044 99 127.5 99 134.956 92.9558 141 85.5 141 78.0442 141 72 134.956 72 127.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path46" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(78.8544 135)"
+       id="text46">1</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(108.371 130)"
+       id="text47">Customers</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(134.716 217)"
+       id="text48">Voice</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(135.295 274)"
+       id="text49">SMS</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(134.264 329)"
+       id="text50">Email</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(125.84 385)"
+       id="text51">Web Chat</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(135.257 451)"
+       id="text52">Social</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(134.6 524)"
+       id="text53">Teams</text>
+    <path
+       d="M175.675 179.059 232.368 179.564 232.35 181.564 175.657 181.059ZM176.964 184.071 169 180 177.035 176.071ZM231.062 176.552 239.026 180.623 230.99 184.552Z"
+       fill="#156082"
+       id="path53" />
+    <path
+       d="M180.667 233 231.818 233 231.818 235 180.667 235ZM182 238 174 234 182 230ZM230.484 230 238.484 234 230.484 238Z"
+       fill="#156082"
+       id="path54" />
+    <path
+       d="M245 162.5C245 155.044 251.044 149 258.5 149 265.956 149 272 155.044 272 162.5 272 169.956 265.956 176 258.5 176 251.044 176 245 169.956 245 162.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path55" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(251.927 170)"
+       id="text55">2</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(266.842 213)"
+       id="text56">Voice Carrier /</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(269.589 226)"
+       id="text57">Calling Plans</text>
+    <path
+       d="M397 406.5C397 399.044 403.044 393 410.5 393 417.956 393 424 399.044 424 406.5 424 413.956 417.956 420 410.5 420 403.044 420 397 413.956 397 406.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path57" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(403.626 414)"
+       id="text58">3</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(397.819 255)"
+       id="text59">Routing</text>
+    <path
+       d="M244 331.5C244 324.044 250.044 318 257.5 318 264.956 318 271 324.044 271 331.5 271 338.956 264.956 345 257.5 345 250.044 345 244 338.956 244 331.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path59" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(250.878 340)"
+       id="text60">4</text>
+    <rect
+       x="235.5"
+       y="264.5"
+       width="129"
+       height="29"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       id="rect60" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(244.852 284)"
+       id="text61">Self Service</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(311.185 413)"
+       id="text62">Chatbots</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(311.185 455)"
+       id="text63">Voicebots</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(311.185 468)"
+       id="text64">(IVR)</text>
+    <path
+       d="M659 142.5C659 135.044 665.044 129 672.5 129 679.956 129 686 135.044 686 142.5 686 149.956 679.956 156 672.5 156 665.044 156 659 149.956 659 142.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path64" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(665.643 150)"
+       id="text65">4</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(511.125 130)"
+       id="text66">Agent</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(556.532 130)"
+       id="text67">Experience</text>
+    <rect
+       x="513.5"
+       y="174.5"
+       width="203"
+       height="46"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#D9F2D0"
+       id="rect67" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(523.032 193)"
+       id="text68">Bot Handoff to Agent with</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(523.032 210)"
+       id="text69">Full Context</text>
+    <rect
+       x="514.5"
+       y="227.5"
+       width="203"
+       height="42"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#C1E5F5"
+       id="rect69" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(523.532 245)"
+       id="text70">Standalone Desktop</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="12"
+       transform="translate(523.532 260)"
+       id="text71">Customer Service Workspace</text>
+    <rect
+       x="512.5"
+       y="276.5"
+       width="209"
+       height="27"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#C1E5F5"
+       id="rect71" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(521.757 295)"
+       id="text72">Case Management</text>
+    <rect
+       x="512.5"
+       y="311.5"
+       width="209"
+       height="63"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#C1E5F5"
+       id="rect72" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(521.757 330)"
+       id="text73">Knowledge “Chat” based on</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(521.757 347)"
+       id="text74">Semantic Indexing of multiple</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(521.757 365)"
+       id="text75">sources</text>
+    <path
+       d="M931 180.5C931 173.044 937.044 167 944.5 167 951.956 167 958 173.044 958 180.5 958 187.956 951.956 194 944.5 194 937.044 194 931 187.956 931 180.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path75" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(938.535 188)"
+       id="text76">5</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(798.12 200)"
+       id="text77"
+       style="-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-family:Aptos, Aptos_MSFontService, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:15px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan112">Copilot</tspan></text>
+    <g
+       clip-path="url(#clip10)"
+       transform="matrix(0.000104987 0 0 0.000104987 741 182)"
+       id="g78">
+      <g
+         clip-path="url(#clip12)"
+         transform="matrix(1 0 0 1.00179 -0.5 -0.125)"
+         id="g77">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img11"
+           transform="scale(8964.71 8964.71)"
+           id="use77" />
+      </g>
+    </g>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(750.223 229)"
+       id="text78">Case and Conversation Summary,</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(750.223 242)"
+       id="text79">Suggest Case Summary to Knowledge,</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(750.223 254)"
+       id="text80">Timeline Highlights, Plugins and more</text>
+    <rect
+       x="735.5"
+       y="273.5"
+       width="225"
+       height="46"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#D9F2D0"
+       id="rect80" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(744.218 292)"
+       id="text81">Real</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(772.385 292)"
+       id="text82">-</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(777.385 292)"
+       id="text83">Time Transcription and</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(744.218 309)"
+       id="text84">Translation, Sentiment Analysis</text>
+    <rect
+       x="735.5"
+       y="326.5"
+       width="226"
+       height="27"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#C1E5F5"
+       id="rect84" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(744.901 344)"
+       id="text85">AI Suggested Next Steps</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(843.657 392)"
+       id="text86">Collaborate</text>
+    <g
+       clip-path="url(#clip13)"
+       transform="matrix(0.000104987 0 0 0.000104987 752 366)"
+       id="g87">
+      <g
+         clip-path="url(#clip15)"
+         transform="matrix(1 0 0 1.0037 -92153 -112301)"
+         id="g86">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img14"
+           transform="scale(9279.37 9279.37)"
+           id="use86" />
+      </g>
+    </g>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(753.484 415)"
+       id="text87">Consult/Transfer an expert over VoIP,</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="11"
+       transform="translate(753.484 428)"
+       id="text88">Jon a Teams call and more</text>
+    <path
+       d="M1149 134.5C1149 127.044 1155.04 121 1162.5 121 1169.96 121 1176 127.044 1176 134.5 1176 141.956 1169.96 148 1162.5 148 1155.04 148 1149 141.956 1149 134.5Z"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#156082"
+       fill-rule="evenodd"
+       id="path88" />
+    <text
+       fill="#FFFFFF"
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="24"
+       transform="translate(1156.57 142)"
+       id="text89">6</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(988.739 135)"
+       id="text90">Contact Center</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="700"
+       font-size="16"
+       transform="translate(988.739 154)"
+       id="text91">Supervisor / Manager</text>
+    <rect
+       x="992.5"
+       y="179.5"
+       width="249"
+       height="45"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#D9F2D0"
+       id="rect91" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1001.84 198)"
+       id="text92"
+       style="-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-family:Aptos, Aptos_MSFontService, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:15px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan113">Real</tspan></text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1030 198)"
+       id="text93">-</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1035 198)"
+       id="text94">Time Monitoring / Analytics</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1001.84 215)"
+       id="text95"
+       style="-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-family:Aptos, Aptos_MSFontService, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:15px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan114">including “Whisper” and Barge-in</tspan></text>
+    <rect
+       x="993.5"
+       y="231.5"
+       width="249"
+       height="28"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#D9F2D0"
+       id="rect97" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1002.91 250)"
+       id="text98">Forecasting</text>
+    <rect
+       x="991.5"
+       y="266.5"
+       width="249"
+       height="27"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#D9F2D0"
+       id="rect98" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1001.09 285)"
+       id="text99">Scheduling</text>
+    <rect
+       x="991.5"
+       y="300.5"
+       width="248"
+       height="28"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#D9F2D0"
+       id="rect99" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="15"
+       transform="translate(1001.09 319)"
+       id="text100">Gen AI suggestions for optimization</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="15px"
+       id="text101"
+       x="899.46429"
+       y="486.71616">Power Platform</text>
+    <rect
+       x="1042"
+       y="468"
+       width="27"
+       height="27"
+       fill="#A6CAEC"
+       id="rect101" />
+    <g
+       transform="matrix(0.000104987 0 0 0.000104987 1042 468)"
+       id="g102">
+      <g
+         clip-path="url(#clip17)"
+         id="g101">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img16"
+           transform="scale(8036.72 8036.72)"
+           id="use101" />
+      </g>
+    </g>
+    <rect
+       x="1083"
+       y="467"
+       width="27"
+       height="27"
+       fill="#A6CAEC"
+       id="rect102" />
+    <g
+       transform="matrix(0.000104987 0 0 0.000104987 1083 467)"
+       id="g104">
+      <g
+         clip-path="url(#clip19)"
+         id="g103">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img18"
+           transform="scale(8036.72 8036.72)"
+           id="use102" />
+      </g>
+    </g>
+    <rect
+       x="1124"
+       y="468"
+       width="27"
+       height="27"
+       fill="#A6CAEC"
+       id="rect104" />
+    <g
+       transform="matrix(0.000104987 0 0 0.000104987 1124 468)"
+       id="g106">
+      <g
+         clip-path="url(#clip21)"
+         id="g105">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img20"
+           transform="scale(8036.72 8036.72)"
+           id="use104" />
+      </g>
+    </g>
+    <rect
+       x="418"
+       y="521"
+       width="816"
+       height="55"
+       stroke="#042433"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#F2F2F2"
+       id="rect106" />
+    <text
+       font-family="Segoe UI Semibold,Segoe UI Semibold_MSFontService,sans-serif"
+       font-weight="600"
+       font-size="16"
+       transform="translate(753.283 555)"
+       id="text106">Microsoft Dataverse</text>
+    <text
+       font-family="Segoe UI Semibold,Segoe UI Semibold_MSFontService,sans-serif"
+       font-weight="600"
+       font-size="16"
+       transform="translate(636.371 613)"
+       id="text107">Microsoft Azure</text>
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="12"
+       id="text108"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="676.76074"
+       y="692.99567"><tspan
+         sodipodi:role="line"
+         id="tspan115"
+         x="676.76074"
+         y="692.99567">Dynamics 365 Customer Service Enterprise</tspan></text>
+    <rect
+       x="970.56769"
+       y="666.00433"
+       width="299"
+       height="45"
+       fill="#d9f2d0"
+       id="rect109" />
+    <text
+       font-family="Aptos,Aptos_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(977.543 697)"
+       id="text110"
+       style="-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-family:Aptos, Aptos_MSFontService, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14.6667px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan116">Sourced via customer’s existing CCaaS</tspan></text>
+  </g>
+</svg>

@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended diagrams for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 12/04/2023
+  ms.date: 06/27/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -21,8 +21,6 @@ landingContent:
     linkLists:
     - linkListType: get-started
       links:
-      - text: Copilot in Customer Service architecture
-        url: dynamics-365-customer-service-copilot-architecture.md
       - text: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
         url: dynamics-365-ce-scheduled-data-exports-csv.md
       - text: Saga pattern with Dataverse or Dynamics 365
@@ -33,3 +31,45 @@ landingContent:
       links:
         - text: Use Success by Design for Dynamics 365 solutions
           url: /training/paths/use-success-design/
+
+# Card - Customer Service
+
+  - title: Customer Service
+    linkLists:
+    - linkListType: architecture
+      links:
+      - text: Copilot in Customer Service architecture
+        url: dynamics-365-customer-service-copilot-architecture.md
+
+# Card originally for DCCP
+
+  - title: Digital contact centers
+    linkLists:
+      - linkListType: architecture
+        links:
+        - text: Introduction to digital contact centers
+          url: contact-center-overview.md
+        - text: Dynamics 365 Customer Service Premium for CCaaS and CRM
+          url: contact-center-dynamics-365-customer-service-premium.md
+        - text: Dynamics 365 Customer Service Enterprise with existing CCaaS
+          url: contact-center-dynamics-365-customer-service-enterprise.md
+        - text: Dynamics 365 Contact Center with existing CRM
+          url: contact-center-existing-crm-dynamics-365-contact-center.md
+        - text: Copilot for Service and Copilot Studio with existing CCaaS and CRM
+          url: contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
+          # - text: Omnichannel digital messaging, AI-powered chatbots, and voice with Dynamics 365 and Microsoft-supplied PSTN 
+          #   url: dynamics-365-customer-service-omnichannel-pstn-msft-cs1p.md
+          # - text: Omnichannel digital messaging with AI-powered chatbots and no support for voice
+          #   url: dynamics-365-customer-service-omnichannel-digital-messaging-csdm.md
+          # - text: Omnichannel digital messaging with Dynamics 365 Customer Service and third-party PSTN
+          #   url: dynamics-365-customer-service-omnichannel-pstn-3rdparty-cs3p.md
+          # - text: Omnichannel digital messaging with third-party voice service and Dynamics 365 Customer Service
+          #   url: dynamics-365-customer-service-omnichannel-digital-messaging-3rdparty-ccaas-voice-csdm3p.md
+          # - text: Nuance IVR and Gatekeeper plus Dynamics 365 digital messaging
+          #   url: dynamics-365-customer-service-omnichannel-digital-messaging-nuance-ivr-csdmn.md
+          # - text: Nuance plus third-party CCaaS provider and Dynamics 365 Customer Service
+          #   url: dynamics-365-customer-service-nuance-ivr-3rdparty-ccaas-csn3pcc.md
+          # - text: Dynamics 365 Customer Service plus third-party CCaaS provider
+          #   url: dynamics-365-customer-service-3rdparty-ccaas-cs3pcc.md
+          # - text: Nuance plus third-party CCaaS provider
+          #   url: dynamics-365-customer-service-nuance-3rdparty-ccaas-3ccncs.md

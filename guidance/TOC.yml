@@ -1074,9 +1074,18 @@ items:
           href: reference-architectures/saga-pattern-dataverse.md
         - name: Dynamics 365 for travel and hospitality
           href: reference-architectures/dynamics-365-travel-hospitality.md
-# DCCP
-        - name: Digital contact centers with Dynamics 365 Customer Service
-          href: /digital-contact-center-platform/guidance/reference-architecture-overview
+        - name: Contact centers
+          items:
+          - name: Digital contact centers with Dynamics 365
+            href: reference-architectures/contact-center-overview.md
+          - name: Contact center using Dynamics 365 Customer Service Premium
+            href: reference-architectures/contact-center-dynamics-365-customer-service-premium.md
+          - name: Contact center using Dynamics 365 Customer Service Enterprise
+            href: reference-architectures/contact-center-dynamics-365-customer-service-enterprise.md
+          - name: Contact center with Dynamics 365 Contact Center and existing CRM
+            href: reference-architectures/contact-center-existing-crm-dynamics-365-contact-center.md
+          - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
+            href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
 
 # FastTrack
       - name: FastTrack for Dynamics 365
