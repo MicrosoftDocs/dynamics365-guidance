@@ -48,7 +48,7 @@ In guidance content, you will also find articles, such as business processes, th
 | Customer service stakeholders | Call center manager, Customer service manager, Case managers |
 | Field service stakeholders | Field supervisors, Fleet managers |
 | IT stakeholders | CIO, Director IT, ERP Manager, Technology managers |
-| Administrative stakeholders | System admin, Global admin |
+| Administrative stakeholders | System admin, Microsoft 365 admin |
 
 ## Related resources
 
