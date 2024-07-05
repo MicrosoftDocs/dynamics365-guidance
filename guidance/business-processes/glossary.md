@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 01/15/2024
+ms.date: 07/05/2024
 ---
 
 # Glossary of Dynamics 365 business processes terms
@@ -208,6 +208,18 @@ In Dynamics 365 Business Central, the term *assembly BOM* covers scenarios where
 ### Billable hours
 
 Of the hours that are worked on tasks, those hours that can be charged to clients or customers are known as billable hours. Billable hours are often used for invoicing purposes and are directly related to revenue generation. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Non-billable hours](#non-billable-hours).
+
+### Billing classifications
+
+Billing classifications are used to group similar free text invoices for processing and viewing. This helps to classify the type of invoices and helps in better segregation of various accounts receivable processes like collection letter generation, customer ageing data storage, ageing reports, and so on. A billing classification can include many billing codes, but each billing code can be assigned to only one billing classification.
+
+Learn more at [Billing classifications and billing codes in the public sector](/dynamics365/finance/public-sector/billing-classifications-billing-codes-public-sector).
+
+### Billing codes
+
+Billing codes are attached to a billing classification and is intended to predefine and default a number of fields on the free text invoice like invoice line description, main account and financial dimensions combination (accounting distribution), sales tax/GST, custom fields, and so on. Generally, the default values from the billing code can be changed on the free text invoice. However, the billing codes can be configured to prevent changes to certain default values.
+
+Learn more at [Billing classifications and billing codes in the public sector](/dynamics365/finance/public-sector/billing-classifications-billing-codes-public-sector).
 
 ### Billing rules
 
