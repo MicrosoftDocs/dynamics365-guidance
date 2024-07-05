@@ -12,7 +12,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article introduces the *inventory to deliver* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *inventory to deliver* processes.
+This article introduces the *inventory to deliver* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *inventory to deliver* processes. This end-to-end business process has the number *60* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Inventory to deliver overview
 

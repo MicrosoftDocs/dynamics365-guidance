@@ -11,7 +11,7 @@ ms.author: raprofit
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article introduces the *concept to market* end-to-end business process for managing the lifecycle of services. It outlines how Dynamics 365 products can help service-based organizations manage and optimize their service lifecycle management processes.
+This article introduces the *concept to market* end-to-end business process for managing the lifecycle of services. It outlines how Dynamics 365 products can help service-based organizations manage and optimize their service lifecycle management processes. This end-to-end business process has the number *30* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Concept to market management overview
 

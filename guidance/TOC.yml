@@ -694,7 +694,7 @@ items:
           #   href: business-processes/about-kpi.md 
         - name: Acquire to dispose
           items:
-          - name: End-to-end scenario - acquire to dispose
+          - name: End-to-end scenario - acquire to dispose (ID 10)
             href: business-processes/acquire-to-dispose-introduction.md
           - name: Overview
             href: business-processes/acquire-to-dispose-overview.md
@@ -712,29 +712,9 @@ items:
             href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
           - name: Retire or dispose of assets
             href: business-processes/acquire-to-dispose-retire-dispose-assets.md
-        - name: Administer to operate
-          items:
-          - name: End-to-end scenario - administer to operate
-            href: business-processes/administer-to-operate-introduction.md
-          - name: Overview
-            href: business-processes/administer-to-operate-overview.md
-          - name: Business process areas
-            href: business-processes/administer-to-operate-areas.md
-          - name: Train users and increase adoption
-            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
-          - name: Define business continuity plan
-            href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
-          - name: Manage system compliance overview
-            href: business-processes\administer-to-operate-manage-system-compliance.md
-          - name: Manage system access and security overview
-            href: business-processes\administer-to-operate-manage-system-access-security.md
-          - name: Manage data synchronization overview
-            href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
-          - name: Define support systems overview
-            href: business-processes\administer-to-operate-support-systems-overview.md
         - name: Case to resolution
           items:
-          - name: End-to-end scenario - case to resolution
+          - name: End-to-end scenario - case to resolution (ID 20)
             href: business-processes/case-to-resolution-introduction.md
           - name: Overview
             href: business-processes/case-to-resolution-overview.md
@@ -742,7 +722,7 @@ items:
             href: business-processes/case-to-resolution-areas.md
         - name: Concept to market
           items:
-          - name: End-to-end scenario - concept to market
+          - name: End-to-end scenario - concept to market (ID 30)
             href: business-processes/concept-to-market-introduction.md
           - name: Overview
             href: business-processes/concept-to-market-overview.md
@@ -760,7 +740,7 @@ items:
             href: business-processes/concept-to-market-manage-service-pricing-overview.md
         - name: Design to retire
           items:
-          - name: End-to-end scenario - design to retire
+          - name: End-to-end scenario - design to retire (ID 40)
             href: business-processes/design-to-retire-introduction.md
           - name: Overview
             href: business-processes/design-to-retire-overview.md
@@ -778,7 +758,7 @@ items:
             href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
         - name: Forecast to plan
           items:
-          - name: End-to-end scenario - forecast to plan
+          - name: End-to-end scenario - forecast to plan (ID 50)
             href: business-processes/forecast-to-plan-introduction.md
           - name: Overview
             href: business-processes/forecast-to-plan-overview.md
@@ -804,7 +784,7 @@ items:
             href: business-processes/forecast-to-plan-supply-replenishment-overview.md
         - name: Hire to retire
           items:
-          - name: End-to-end scenario - hire to retire
+          - name: End-to-end scenario - hire to retire (ID 55)
             href: business-processes/hire-to-retire-introduction.md
           - name: Overview
             href: business-processes/hire-to-retire-overview.md
@@ -826,7 +806,7 @@ items:
             href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
         - name: Inventory to deliver
           items:
-          - name: End-to-end scenario - inventory to deliver
+          - name: End-to-end scenario - inventory to deliver (ID 60)
             href: business-processes/inventory-to-deliver-introduction.md
           - name: Overview
             href: business-processes/inventory-to-deliver-overview.md
@@ -838,7 +818,7 @@ items:
             href: business-processes/inventory-to-deliver-record-manage-inventory-costs.md
         - name: Order to cash
           items:
-          - name: End-to-end scenario - order to cash
+          - name: End-to-end scenario - order to cash (ID 65)
             href: business-processes/order-to-cash-introduction.md
           - name: Overview
             href: business-processes/order-to-cash-overview.md
@@ -876,7 +856,7 @@ items:
 #              href: placeholder.md
         - name: Plan to produce
           items:
-          - name: End-to-end scenario - plan to produce
+          - name: End-to-end scenario - plan to produce (ID 70)
             href: business-processes/plan-to-produce-introduction.md
           - name: Overview
             href: business-processes/plan-to-produce-overview.md
@@ -894,21 +874,31 @@ items:
             href: business-processes/plan-to-produce-control-production-quality-overview.md
           - name: Track production cost
             href: business-processes/plan-to-produce-track-production-costs-overview.md
-        # - name: Product and service lifecycle management
-        #   items:
-        #   - name: End-to-end scenario - product and service lifecycle management
-        #     href: business-processes/product-service-lifecycle-management-introduction.md
-        #   - name: Overview
-        #     href: business-processes/product-service-lifecycle-management-overview.md
-        #   - name: Business process areas
-        #     href: business-processes/product-service-lifecycle-management-areas.md
-        #   - name: Categorize products and services
-        #     href: business-processes/product-service-lifecycle-categorize-products-services-overview.md
-        #   - name: Define product and service costing
-        #     href: business-processes/product-service-define-cost-overview.md
+        - name: Source to pay
+          items:
+          - name: End-to-end scenario - source to pay (ID 75)
+            href: business-processes/source-to-pay-introduction.md
+          - name: Overview
+            href: business-processes/source-to-pay-overview.md
+          - name: Business process areas
+            href: business-processes/source-to-pay-areas.md
+          - name: Define procurement catalogs
+            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+          - name: Define procurement and sourcing strategy overview
+            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
+          - name: Manage vendor relationships overview
+            href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
+          - name: Procure materials and services overview
+            href: business-processes/source-to-pay-procure-materials-services-overview.md
+          - name: Process vendor invoices overview
+            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
+          - name: Issue and settle vendor payments overview
+            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+          - name: Process vendor rebates and incentives overview
+            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
         - name: Project to profit
           items:
-          - name: End-to-end scenario - project to profit
+          - name: End-to-end scenario - project to profit (ID 80)
             href: business-processes/project-to-profit-introduction.md
           - name: Overview
             href: business-processes/project-to-profit-overview.md
@@ -940,7 +930,7 @@ items:
           #   href: business-processes/project-to-profit-recognize-project-revenue.md
         - name: Prospect to quote
           items:
-          - name: End-to-end scenario - prospect to quote
+          - name: End-to-end scenario - prospect to quote (ID 85)
             href: business-processes/prospect-to-quote-introduction.md
           - name: Overview
             href: business-processes/prospect-to-quote-overview.md
@@ -962,7 +952,7 @@ items:
             href: business-processes/prospect-to-quote-manage-customer-relationships.md
         - name: Record to report
           items:
-          - name: End-to-end scenario - record to report
+          - name: End-to-end scenario - record to report (ID 90)
             href: business-processes/record-to-report-introduction.md
           - name: Overview
             href: business-processes/record-to-report-overview.md
@@ -982,7 +972,7 @@ items:
             href: business-processes/record-to-report-record-financial-transactions.md
         - name: Service to cash
           items:
-          - name: End-to-end scenario - service to cash
+          - name: End-to-end scenario - service to cash (ID 95)
             href: business-processes/service-to-cash-introduction.md
           - name: Overview
             href: business-processes/service-to-cash-overview.md
@@ -1006,28 +996,26 @@ items:
             href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
           - name: Review and close service requests
             href: business-processes/service-to-cash-review-close-service-requests.md
-        - name: Source to pay
+        - name: Administer to operate
           items:
-          - name: End-to-end scenario - source to pay
-            href: business-processes/source-to-pay-introduction.md
+          - name: End-to-end scenario - administer to operate (ID 99)
+            href: business-processes/administer-to-operate-introduction.md
           - name: Overview
-            href: business-processes/source-to-pay-overview.md
+            href: business-processes/administer-to-operate-overview.md
           - name: Business process areas
-            href: business-processes/source-to-pay-areas.md
-          - name: Define procurement catalogs
-            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-          - name: Define procurement and sourcing strategy overview
-            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
-          - name: Manage vendor relationships overview
-            href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-          - name: Procure materials and services overview
-            href: business-processes/source-to-pay-procure-materials-services-overview.md
-          - name: Process vendor invoices overview
-            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
-          - name: Issue and settle vendor payments overview
-            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
-          - name: Process vendor rebates and incentives overview
-            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
+            href: business-processes/administer-to-operate-areas.md
+          - name: Train users and increase adoption
+            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
+          - name: Define business continuity plan
+            href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
+          - name: Manage system compliance overview
+            href: business-processes\administer-to-operate-manage-system-compliance.md
+          - name: Manage system access and security overview
+            href: business-processes\administer-to-operate-manage-system-access-security.md
+          - name: Manage data synchronization overview
+            href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+          - name: Define support systems overview
+            href: business-processes\administer-to-operate-support-systems-overview.md
 
 # Patterns
       - name: Patterns

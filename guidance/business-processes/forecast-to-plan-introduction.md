@@ -12,7 +12,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article introduces the *forecast to plan* end-to-end business process. It outlines how Dynamics 365 apps can help organizations manage and optimize their *forecast to plan* processes.
+This article introduces the *forecast to plan* end-to-end business process. It outlines how Dynamics 365 apps can help organizations manage and optimize their *forecast to plan* processes. This end-to-end business process has the number *50* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Forecast to plan overview
 

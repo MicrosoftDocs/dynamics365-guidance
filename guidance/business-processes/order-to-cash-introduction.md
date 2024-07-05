@@ -11,7 +11,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, Dynamics 365 Finance***
 
-This article introduces the order to cash end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their order to cash processes.
+This article introduces the *order to cash* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their order to cash processes. This end-to-end business process has the number *65* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Order to cash overview
 

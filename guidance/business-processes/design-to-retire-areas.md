@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Overview of the design to retire process areas bring services to market and introduce new products
+# Overview of the design to retire process areas for introducing new products
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
@@ -58,8 +58,8 @@ Learn more at [Manage product lifecycle overview](design-to-retire-manage-produc
 If you want to implement Dynamics 365 solutions to assist with your *design to retire* business processes, use the following resources and steps to learn more.
 
 1. [Design to retire introduction](design-to-retire-introduction.md)
-
 2. [Design to retire end-to-end overview](design-to-retire-overview.md)
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related resources
 

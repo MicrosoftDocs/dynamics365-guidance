@@ -11,7 +11,7 @@ ms.author: raprofit
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article introduces the *Source to pay* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize the *Source to pay* processes.
+This article introduces the *Source to pay* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize the *Source to pay* processes. This end-to-end business process has the number *75* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Source to pay overview
 

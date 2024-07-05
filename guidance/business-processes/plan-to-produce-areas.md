@@ -54,19 +54,9 @@ Learn more at [Track production costs overview](plan-to-produce-track-production
 
 If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
 
-1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
-
-2. [Define production strategies](plan-to-produce-define-production-strategies.md)
-
-3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
-
-4. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
-
-5. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
-
-6. [Control production quality](plan-to-produce-control-production-quality-overview.md)
-
-7. [Track production costs](plan-to-produce-track-production-costs-overview.md)
+1. [Help organizations manage and optimize their plan to produce processes](plan-to-produce-introduction.md)  
+2. [Plan to produce overview](plan-to-produce-overview.md)  
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Learn more
 
@@ -79,8 +69,6 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 - Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
 - Learn more about the Power Platform products at [Business Application Platform](https://powerplatform.microsoft.com/)
-
-- Get an overview of the plan to produce process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
 
 ## Related resources
 

@@ -59,8 +59,8 @@ Learn more at [Forecast demand for multiple companies](forecast-to-plan-manage-i
 If you want to implement Dynamics 365 solutions to assist with your order to cash business processes, learn more at the following resources and steps.
 
 1. [Forecast to plan introduction](forecast-to-plan-introduction.md)
-
 2. [Forecast to plan end-to-end overview](forecast-to-plan-overview.md)
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related resources
 

@@ -76,8 +76,8 @@ In most public sector organizations, there's a requirement to track, manage, and
 If you want to implement Dynamics 365 solutions to assist with your *record to report* business processes, use the following resources and steps to learn more.
 
 1. [Record to report introduction](record-to-report-introduction.md)
-
 2. [Record to report end-to-end overview](record-to-report-overview.md)
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 <!--## Related resources
 

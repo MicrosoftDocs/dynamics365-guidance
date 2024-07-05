@@ -12,7 +12,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales***
 
-This article introduces the *prospect to quote* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their prospect to quote processes.
+This article introduces the *prospect to quote* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their prospect to quote processes. This end-to-end business process has the number *85* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Prospect to quote overview
 
