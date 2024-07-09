@@ -1,8 +1,7 @@
 ---
 title: Get started with analytics for call centers
-description: Explore how to start using analytics with Dynamics 365 Digital Contact Center Platform by creating a company-wide reporting plan and doing a fit-gap analysis.
-titleSuffix: DCCP #testing
-ms.date: 09/05/2023
+description: Explore how to start using analytics with Dynamics 365 by creating a company-wide reporting plan and doing a fit-gap analysis.
+ms.date: 07/08/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: ashrafomar
@@ -14,11 +13,11 @@ ms.custom:
 # CustomerIntent: As a user I want to learn something.
 ---
 
-# Get started with analytics for call centers on Digital Contact Center Platform
+# Get started with analytics for digital call centers
 
-***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights***
+***Applies to: Dynamics 365 Contact Center, Dynamics 365 Customer Service***
 
-This article describes how to start to use analytics with call centers that are based on Digital Contact Center Platform. It highlights the need to create a company-wide reporting plan and do a fit-gap analysis before implementation is started.
+This article describes how to start to use analytics with call centers that are based on Dynamics 365. It highlights the need to create a company-wide reporting plan and do a fit-gap analysis before implementation is started.
 
 ## Build your reporting strategy
 
@@ -50,22 +49,22 @@ Here are some examples that can help you measure the effectiveness and efficienc
 
 ## Fit-gap analysis for out-of-box reports and dashboards
 
-Do a detailed fit-gap analysis at an early stage of the implementation. Digital Contact Center Platform provides a wide range of information through out-of-box capabilities in Omnichannel for Dynamics 365 Customer Service. However, the fit-gap analysis is essential. It helps identify major gaps in reporting capabilities at the beginning of the project. In this way, the project team can explore alternative solutions, such as workarounds or extension of out-of-box features through customization.
+Do a detailed fit-gap analysis at an early stage of the implementation. Omnichannel for Dynamics 365 Customer Service provides a wide range of information through out-of-box capabilities. However, the fit-gap analysis is essential. It helps identify major gaps in reporting capabilities at the beginning of the project. In this way, the project team can explore alternative solutions, such as workarounds or extension of out-of-box features through customization.
 
-By identifying the reporting gaps during the early stages, the team can better plan and list all the capabilities and costs that are needed to achieve the organization's Digital Contact Center Platform analytics goals. By proactively addressing these gaps, you can ensure a smoother implementation and customization process.
+By identifying the reporting gaps during the early stages, the team can better plan and list all the capabilities and costs that are needed to achieve the organization's analytics goals. By proactively addressing these gaps, you can ensure a smoother implementation and customization process.
 
 ## Related resources
 
 The following resources can help you learn more about the built-in analytics capabilities of Omnichannel for Dynamics 365 Customer Service.
 
 - Get started with analytics (the current article)
-- [Overview of capabilities for analytics in Digital Contact Center Platform](analytics-capabilities.md)
+- [Overview of capabilities for analytics in Dynamics 365 Customer Service](analytics-capabilities.md)
 - [Use the out-of-the-box data model in your custom reports](/dynamics365/customer-service/use-datamodel)
 - [Application lifecycle management for analytics on data model customizations](analytics-alm-custom-reports.md)
 
 ## Next step
 
-- [Overview of capabilities for analytics in Digital Contact Center Platform](analytics-capabilities.md)
+- [Overview of capabilities for analytics](analytics-capabilities.md)
 
 <!--
 ## Tags

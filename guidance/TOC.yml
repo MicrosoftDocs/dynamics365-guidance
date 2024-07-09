@@ -504,6 +504,19 @@ items:
                 href: resources/analytics-capabilities.md
               - name: Application lifecycle management for custom reports
                 href: resources/analytics-alm-custom-reports.md
+
+# Field Service
+
+        - name: Field Service
+          items:
+            - name: Tools and samples for Field Service
+              href: resources/fs-index.yml
+            - name: Samples and tools overview
+              href: resources/fs-component-library.md
+            - name: Add crew information to resource cells
+              href: resources/fs-resource-cell-template.md
+            - name: Customize the template for bookings
+              href: resources/fs-booking-template.md
 # FnO
         - name: Finance and operations apps
           items:

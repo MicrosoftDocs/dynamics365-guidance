@@ -259,6 +259,17 @@ conceptualContent:
       - itemType: get-started
         text: Resources
         url: resources/cs-index.yml
+
+## Field Service
+    - title: Field Service
+      links:
+      - itemType: get-started
+        text: Introduction
+        url: /dynamics365/field-service/
+      - itemType: get-started
+        text: Resources
+        url: resources/fs-index.yml
+
 ## Finance
     - title: Finance, Project Operations, Human Resources
       links:
