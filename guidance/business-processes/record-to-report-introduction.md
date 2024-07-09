@@ -11,7 +11,7 @@ ms.author: kgiardini
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article introduces the *record to report* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *record to report* processes.
+This article introduces the *record to report* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *record to report* processes. This end-to-end business process has the number *90* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Record to report overview
 

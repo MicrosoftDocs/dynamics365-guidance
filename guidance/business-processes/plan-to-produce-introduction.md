@@ -12,7 +12,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Dynamics 365 Business Central, Power Apps, Power BI, Power Automate***
 
-This article introduces the *plan to produce* end-to-end business process. It outlines how Microsoft Business Applications can help organizations manage and optimize their *plan to produce* processes.
+This article introduces the *plan to produce* end-to-end business process. It outlines how Microsoft Business Applications can help organizations manage and optimize their *plan to produce* processes. This end-to-end business process has the number *70* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Plan to produce overview
 

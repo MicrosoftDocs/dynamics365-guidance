@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
-This article introduces the *service to cash* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *service to cash* processes.
+This article introduces the *service to cash* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *service to cash* processes. This end-to-end business process has the number *95* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Service to cash overview
 

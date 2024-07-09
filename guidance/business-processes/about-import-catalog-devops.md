@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual #Required; don't change.
 ms.collection: #Required; Leave the value blank.
-ms.date: 05/13/2024
+ms.date: 07/08/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -101,9 +101,9 @@ Before you can import the project into Azure Boards, there are a few things that
 
     - **Process sequence ID**: Add this field as a custom **Text (single line)** field, so that users can enter an ID for the process. We recommend you add owners to all your work items types. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).
     - **Microsoft Learn URL**: Add this field as a custom **Rich-text, HTML** field, so that you can add a clickable link into the field. We recommend you add owners to all your work items types. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-rich-text-html-field).
-    - **Menu Path**: Add this field as a custom **Text (single line)** field, so that users can enter a menu path to navigate to the configuration in Dynamics 365. We recommend you add this field to the custom work items type for Configuration Deliverables. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).  
-    - **Included in entity**: Add this field as a custom **Text (single line)** field, so that you can indicate if the configuration is included in a data entity by entering the name of the data entity. We recommend you add this field to the custom work items type for Configuration Deliverables. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).   
-    - **Module/Functionality**: Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add this field to the custom work items type for Configuration Deliverables. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following options for the list:
+    - **Menu Path**: Add this field as a custom **Text (single line)** field, so that users can enter a menu path to navigate to the configuration in Dynamics 365. We recommend you add this field to the custom work items type for configuration deliverables. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).  
+    - **Included in entity**: Add this field as a custom **Text (single line)** field, so that you can indicate if the configuration is included in a data entity by entering the name of the data entity. We recommend you add this field to the custom work items type for configuration deliverables. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).  
+    - **Module/Functionality**: Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add this field to the custom work items type for configuration deliverables. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following options for the list:
 
         - Accounts payables
         - Accounts receivables
@@ -127,16 +127,19 @@ Before you can import the project into Azure Boards, there are a few things that
         - Procurement and sourcing
         - Product information management
         - Production control
-        - Project management & accounting
+        - Project management and accounting
         - Questionnaire
         - Retail
-        - Sales & marketing
-        - Service Management
+        - Sales and marketing
+        - Service management
         - System settings
         - Tax
         - Time and attendance
-        - Transportation Management
-        - Warehouse Management
+        - Transportation management
+        - Warehouse management
+
+        > [!TIP]
+        > These names are based on common names for various departments or roles or functional areas in business apps. They partially overlap with the names of modules in Dynamics 365 but are not necessarily identical with the names of modules.
 
 6. Insert any other rows that your project requires.
 

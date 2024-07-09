@@ -16,6 +16,7 @@ ms.custom: bap-template
 The order to cash end-to-end business process is broken down into multiple business process areas that are shown as subprocesses in [the flow diagram](order-to-cash-overview.md#order-to-cash-business-process-flow). The following sections describe these business process areas.
 
 ## Manage store operations
+
 In organizations that have a brick and mortar retail store operations, you will need to manage the operations and setup of those stores before you can start selling products. Dynamics 365 Commerce includes functionality to help retailers manage thier day-to-day store operations including processes such as setting up the stores devices and hardware, managing the store staff and thier shifts, preparing the retail store for sales, and managing cash in the retail store. <!--Learn more at TODO ADD LINK [Manage store operations](../placeholder.md).-->
 
 ## Create and manage sales orders
@@ -42,19 +43,11 @@ Collecting payments is critical to maintain a positive cash flow. In B2B sales m
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more.
 
-1. *Manage store operations*
-
-2. *Create and manage sales orders*
-
-3. *Trade across companies*
-
-4. *Issue customer invoices*
-
-5. Record customer payments*
-
-6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
+1. [Manage and optimize orders in the order to cash end-to-end business process](order-to-cash-introduction.md)  
+2. [Order to cash business process flow overview and relationships to other business processes](order-to-cash-overview.md)  
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related resources
 

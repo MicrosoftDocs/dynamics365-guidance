@@ -60,8 +60,8 @@ This business process area involves managing product recalls, including logging 
 If you want to implement Dynamics 365 solutions to assist with your *case to resolution* business processes, learn more at the following resources and steps.
 
 1. [Case to resolution introduction](case-to-resolution-introduction.md)
-
 2. [Case to resolution end-to-end overview](case-to-resolution-overview.md)
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related resources
 

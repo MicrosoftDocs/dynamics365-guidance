@@ -1,7 +1,6 @@
 ---
 title: Overview of capabilities for analytics
-description: Read how analytics for Digital Contact Center Platform provide vital insights. Make data-driven decisions based on historical and real-time analytics.
-titleSuffix: DCCP #testing
+description: Read how analytics for Dynamics 365 Customer Service provide vital insights. Make data-driven decisions based on historical and real-time analytics.
 ms.date: 08/30/2023
 ms.topic: conceptual
 author: edupont04
@@ -13,11 +12,11 @@ ms.custom:
 # CustomerIntent: As a user I want to learn something.
 ---
 
-# Overview of capabilities for analytics in Digital Contact Center Platform
+# Overview of capabilities for analytics in Dynamics 365 Customer Service
 
-***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights***
+***Applies to: Dynamics 365 Customer Service***
 
-The article discusses how analytics for Digital Contact Center Platform provide vital insights to contact centers. It covers agent productivity, customer satisfaction, and operational efficiency. Digital Contact Center Platform offers both historical and real-time analytics to enable quick performance assessments, data-driven decisions, and immediate adjustments.
+The article discusses how analytics for Dynamics 365 Customer Service provide vital insights to contact centers. It covers agent productivity, customer satisfaction, and operational efficiency. Dynamics 365 Customer Service offers both historical and real-time analytics to enable quick performance assessments, data-driven decisions, and immediate adjustments.
 
 ## Get insights
 
@@ -69,7 +68,7 @@ Both types of analytics have their benefits. Historical analytics provide insigh
 
 The following resources can help you learn more about the built-in analytics capabilities of Omnichannel for Dynamics 365 Customer Service.
 
-- [Get started with analytics for call centers on Digital Contact Center Platform](analytics-get-started.md)
+- [Get started with analytics](analytics-get-started.md)
 - Overview of capabilities for analytics (the current article)
 - [Use the out-of-the-box data model in your custom reports](/dynamics365/customer-service/use-datamodel)
 - [Application lifecycle management for analytics on data model customizations](analytics-alm-custom-reports.md)

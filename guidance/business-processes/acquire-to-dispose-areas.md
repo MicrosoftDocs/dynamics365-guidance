@@ -68,6 +68,8 @@ If you want to implement Dynamics 365 solutions to assist with the *acquire to d
 
 4. Sign up for a trial of Dynamics 365. For more information, see [Start a Free Trial for Microsoft Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
 
+5. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
+
 ## Related resources
 
 You can use the following resources to learn more about the *acquire to dispose* process in Dynamics 365.

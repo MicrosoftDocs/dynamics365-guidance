@@ -12,7 +12,7 @@ ms.author: archanap
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
-This article introduces the *acquire to dispose* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *acquire to dispose* processes.
+This article introduces the *acquire to dispose* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *acquire to dispose* processes. This end-to-end business process has the number *10* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Acquire to dispose overview
 

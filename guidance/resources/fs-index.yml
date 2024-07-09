@@ -1,0 +1,75 @@
+### YamlMime:Landing
+title: Dynamics 365 Field Service implementation optimization resources
+summary: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Field Service.
+
+metadata:
+  title: Dynamics 365 Field Service implementation optimization resources
+  description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Field Service.
+  author: edupont04
+  ms.author: edupont
+  ms.date: 06/26/2024
+  ms.topic: landing-page # DON'T CHANGE
+  ms.custom:
+    - bap-template
+    - O25-FieldService
+
+# Max. 12 cards, max 6 linkListTypes per card, max. 10 links per linkListType
+# linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
+
+landingContent:
+
+# Card
+  - title: What's new
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: Release plans
+        url: /dynamics365/field-service/version-history
+
+# Card
+  - title: Samples and tools
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Overview
+          url: fs-component-library.md
+    - linkListType: sample
+      links:
+        - text: Add crew information to resource cells
+          url: fs-resource-cell-template.md
+        - text: Customize the template for bookings
+          url: fs-booking-template.md
+
+# card
+
+  # - title: Analytics
+  #   linkLists:
+  #   -  linkListType: overview
+  #      links:
+  #      - text: Field Service mobile performance
+  #        url: TBD
+  #      - text: Field Service mobile synchronization
+  #        url:   TBD
+
+# Card
+
+  - title: Tools for development
+    linkLists:
+    -  linkListType: overview
+       links:
+       - text: Validate the solution
+         url: solution-component-validator.md
+
+# Card
+  - title: Tools for testing
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Load test the solution
+          url: test-scale-dynamics-365-solution.md
+        - text: Set up test automation with Playwright
+          url: test-automation-setup.md
+        - text: Scale load tests
+          url: test-load-tests-scaling.md
+        - text: Scenarios for load tests
+          url: test-load-test-scenarios.md

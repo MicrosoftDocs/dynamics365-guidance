@@ -4,11 +4,11 @@ description: Learn about the business process catalog for Dynamics 365, what it 
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
-ms.date: 12/04/2023
+ms.date: 07/09/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
-# About and how to use the business process catalog for Dynamics 365 apps and services
+# About the business process catalog for Dynamics 365 apps and services
 
 Microsoft has established a business process catalog of standard business processes across Dynamics 365 apps and services. Read on to learn how to navigate and learn from the catalog.  
 
@@ -18,6 +18,8 @@ Microsoft has established a business process catalog of standard business proces
 ## What is the catalog?
 
 The business process catalog is an Excel workbook that we at Microsoft use to organize and prioritize our work on the business process documentation. The format is Excel because it makes it easy to sort and filter the entries. We also believe our partners can use the Excel workbook to organize their onboarding journeys, their implementation projects, and their own business processes. Learn more about the content in the [What's in the catalog?](#whats-in-the-catalog) section.  
+
+[!INCLUDE [daf-catalog-ids](../includes/daf-catalog-ids.md)] Learn more in the [Catalog IDs](#catalog-ids) section.
 
 Download the latest version of the catalog from [https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog). We update the catalog at least four times each year. Learn more at [Business process contributions](/dynamics365/get-started/contribute#business-process-contributions).  
 
@@ -45,6 +47,21 @@ Find the source files at [https://aka.ms/businessprocessflow](https://aka.ms/bus
 > [!NOTE]
 > When navigating to the preceding link, the .pptx files can't be viewed in GitHub. However, you can download the files by navigating the file's page on GitHub, then selecting the "Download raw file" option.
 
+## Catalog IDs
+
+[!INCLUDE [daf-catalog-ids](../includes/daf-catalog-ids.md)]
+
+But when you download the business process catalog, you'll find each entry assigned a unique ID. The IDs start with a number for each end-to-end scenario. Each level below the end-to-end scenario has an ID that starts with the ID of each parent entry.  
+
+For example, let's look at the *administer to operate* end-to-end scenario. The following table provides a quick introduction to how IDs are generated based on four entries in the business process catalog from May 2024.
+
+|Level  |ID  |Description  |
+|---------|---------|---------|
+|End-to-end scenario | 99 | ID for the end-to-end scenario, *administer to operate*. |
+|Business process areas overview |99.10 |ID for the business process area *Define business continuity plan* that is part of the *administer to operate* end-to-end scenario. |
+|Business process |99.10.010  |ID for the business process *Define business continuity objectives* that is part of the *Define business continuity plan* business process area. |
+|Pattern |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
+
 ## Get notified about changes through an RSS feed
 
 [!INCLUDE [daf-rss](../includes/daf-rss.md)]
@@ -60,6 +77,11 @@ Optionally, add your LinkedIn profile so that you can be listed as the original 
 
 Learn more at [External contributions to Microsoft's documentation](/dynamics365/get-started/contribute).  
 
-## Next steps
+## Related resources
 
-Get an overview of the end-to-end scenarios at [Business processes in Dynamics 365](overview.md)  
+- [Understand concepts and terminology used in the Dynamics 365 business process guide](about-steps-navigation.md)  
+- [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md)  
+- [Import the business process catalog in Mavim using a Power Automate flow](about-import-catalog-mavim.md)  
+- [Process maturity overview](process-maturity-introduction.md)  
+- [Standardize business processes during a Dynamics 365 implementation](standardize-business-processes.md)  
+- [Overview of end-to-end scenarios and business processes in Dynamics 365](overview.md)  

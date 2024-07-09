@@ -53,25 +53,11 @@ This business process area involves managing and tracking rebates and incentives
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *source to pay* business processes, learn more at the following resources and steps. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *source to pay* business processes, learn more at the following resources and steps.
 
 1. [Source to pay - introduction to the end-to-end business process](source-to-pay-introduction.md)
-
 2. [Source to pay end-to-end overview](source-to-pay-overview.md)
-
-3. *Define procurement and sourcing strategies*
-
-4. [Define procurement catalogs overview](source-to-pay-define-procurement-catalogs-overview.md)
-
-5. [Manage vendor relationships overview](source-to-pay-manage-vendor-relationships-overview.md)
-
-6. [Procure materials and services overview](source-to-pay-procure-materials-services-overview.md)
-
-7. [Process vendor invoices overview](source-to-pay-process-vendor-invoices-overview.md)
-
-8. [Issue and settle vendor payments overview](source-to-pay-issue-and-settle-vendor-payments-overview.md)
-
-9. [Process vendor rebates and incentives overview](source-to-pay-process-vendor-rebates-incentives-overview.md)
+3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related resources
 

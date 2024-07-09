@@ -12,7 +12,7 @@ ms.reviewer: edupont
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article introduces the *project to profit* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *project to profit* processes.
+This article introduces the *project to profit* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *project to profit* processes. This end-to-end business process has the number *80* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Project to profit overview
 

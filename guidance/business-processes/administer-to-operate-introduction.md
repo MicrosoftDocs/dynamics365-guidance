@@ -12,7 +12,7 @@ ai-usage: ai-assisted
 
 ***Applies to: Dynamics 365***
 
-This article explains the *administer to operate* end-to-end business process. You'll learn how Dynamics 365 products can help you manage and optimize your Dynamics 365 solutions.
+This article explains the *administer to operate* end-to-end business process. You'll learn how Dynamics 365 products can help you manage and optimize your Dynamics 365 solutions. This end-to-end business process has the number *99* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Administer to operate overview
 

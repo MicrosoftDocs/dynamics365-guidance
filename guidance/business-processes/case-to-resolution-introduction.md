@@ -11,7 +11,7 @@ ms.author: marcoje
 
 ***Applies to:  Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article introduces the *case to resolution* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *case to resolution* processes.
+This article introduces the *case to resolution* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *case to resolution* processes. This end-to-end business process has the number *20* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
 ## Case to resolution overview
 
