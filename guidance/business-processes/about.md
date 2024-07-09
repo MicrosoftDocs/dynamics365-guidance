@@ -4,7 +4,7 @@ description: Learn about the business process catalog for Dynamics 365, what it 
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
-ms.date: 07/05/2024
+ms.date: 07/09/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -58,9 +58,9 @@ For example, let's look at the *administer to operate* end-to-end scenario. The 
 |Level  |ID  |Description  |
 |---------|---------|---------|
 |End-to-end scenario | 99 | ID for the end-to-end scenario, *administer to operate*. |
-|Business process areas overview |99.10 |ID for the business process area *Define business continuity plan*. |
-|Business process |99.10.010  |ID for the business process area *Define business continuity objectives*. |
-|Pattern |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO*. |
+|Business process areas overview |99.10 |ID for the business process area *Define business continuity plan* that is part of the *administer to operate* end-to-end scenario. |
+|Business process |99.10.010  |ID for the business process *Define business continuity objectives* that is part of the *Define business continuity plan* business process area. |
+|Pattern |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
 
 ## Get notified about changes through an RSS feed
 
