@@ -51,6 +51,7 @@
     "feedback_help_link_url": "https://learn.microsoft.com/dynamics365/get-started/support",
     "feedback_help_link_type": "get-product-support",
     "ms.service":"dynamics-365",
+    "ms.subservice":"guidance",
     "ms.reviewer": "edupont",
     "permissioned-type": "public",
     "recommendations": "true",
@@ -74,15 +75,7 @@
   },
   "fileMetadata": {
     "ms.subservice":{
-      "business-processes/**.*":"guidance",
-      "fasttrack/**.*":"guidance",
-      "implementation-guide/**.*":"guidance",
-      "implementation-portal/**.*":"guidance",
-      "organizational-strategy/**.*":"guidance",
-      "patterns/**.*":"guidance",
       "reference-architecture/**.*":"reference-architecture",
-      "resources/**.*":"guidance",
-      "roles/**.*":"guidance"
     },
     "ms.collection":{
       "fasttrack/**.*":"FastTrack"
