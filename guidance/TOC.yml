@@ -151,6 +151,10 @@ items:
               href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
             - name: Define your requirements
               href: implementation-guide/process-focused-solution-define-requirements.md
+            - name: Introduction to process maturity
+              href: business-processes/process-maturity-introduction.md
+            - name: Standardize business processes during an implementation
+              href: business-processes/standardize-business-processes.md  
             - name: Checklist for process-focused solutions
               href: implementation-guide/process-focused-solution-checklist.md
             - name: Case study
@@ -695,6 +699,18 @@ items:
             href: business-processes/glossary.md
           - name: Business processes, steps, and how to find things
             href: business-processes/about-steps-navigation.md
+          - name: Process-focused solution overview
+            href: implementation-guide/process-focused-solution.md
+          - name: Opportunity for optimization
+            href: implementation-guide/process-focused-solution-opportunity-optimization.md
+          - name: Process-centric implementation lifecycle
+            href: implementation-guide/process-focused-solution-implementation-lifecycle.md
+          - name: Considerations
+            href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
+          - name: Fit-to-standard and Fit-gap analysis
+            href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
+          - name: Define your requirements
+            href: implementation-guide/process-focused-solution-define-requirements.md
           - name: Introduction to process maturity
             href: business-processes/process-maturity-introduction.md
           - name: Standardize business processes during an implementation
@@ -703,6 +719,8 @@ items:
             href: business-processes/about-import-catalog-devops.md
           - name: Import the catalog to Mavim
             href: business-processes/about-import-catalog-mavim.md
+          - name: Business processes for the manufacturing industry
+            href: business-processes/about-industry-manufacturing.md
           # - name: KPI
           #   href: business-processes/about-kpi.md 
         - name: Acquire to dispose

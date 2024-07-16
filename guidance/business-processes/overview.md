@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: overview #Required; don't change.
-ms.date: 07/05/2024
+ms.date: 07/10/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -16,7 +16,9 @@ Dynamics 365 supports many different industries and types of organizations. In t
 [!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts.  
 
 > [!TIP]
-> For an introduction to our project with the business process documentation, see [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, see [Business processes, steps, and how to find things](about-steps-navigation.md). For an overview of business terms, see [Glossary of terms in Dynamics 365 business processes](glossary.md).  
+> For an introduction to our project with the business process documentation, see [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, see [Business processes, steps, and how to find things](about-steps-navigation.md). For an overview of business terms, see [Glossary of terms in Dynamics 365 business processes](glossary.md).
+
+[!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
 ## Overview
 

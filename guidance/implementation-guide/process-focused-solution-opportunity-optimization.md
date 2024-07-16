@@ -4,7 +4,7 @@ description: Learn how to map, model, and standardize your current and future bu
 ms.date: 01/16/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: veneva
+ms.author: raprofit
 ms.reviewer: edupont
 ms.custom:
   - ai-seo-date: 01/16/2024
@@ -23,9 +23,11 @@ You can use business process mapping to find and seize opportunities to optimize
 
 Processes are the heart of every business. They describe how you operate and deliver value to your customers. A process is a series of tasks performed by different roles and units in your organization. Business process mapping represents these steps visually.
 
-You can start by mapping your baseline or *as-is* processes. These are the processes you currently use or plan to use in a new solution or business model. You can find tips and templates for mapping your as-is processes from recognized organizations such as [American Productivity and Quality Center (APQC)](https://www.apqc.org/expertise/process-performance-management).
+You can start by mapping your baseline or *as-is* processes. These are the processes you currently use or plan to use in a new solution or business model. Microsoft has developed the business process catalog and made it available as a starting point for organizations implementing business solutions with Dynamics 365. [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)] You can find additional tips and templates for mapping your as-is processes from recognized organizations such as [American Productivity and Quality Center (APQC)](https://www.apqc.org/expertise/process-performance-management).  
 
 The level of detail in your as-is processes depends on their importance and scope. You don't need to define every step or system in your legacy processes. Instead, focus on the end-to-end scenarios and outcomes that matter to your business. Remember, your goal is not to replicate your legacy system in Dynamics 365, but to improve and innovate your processes.
+
+## Benefits of process mapping
 
 The benefits of mapping your as-is processes are:
 
@@ -35,11 +37,15 @@ The benefits of mapping your as-is processes are:
 - You can map your processes to the equivalent design in Dynamics 365 and measure the impact of your changes.
 - You can create a workable definition of the project that doesn't rely on individual written requirements.
 
-To map your processes effectively, you need the right people and tools. You need a business stakeholder who owns and leads the process in the operation. They can make the decisions about the process structure and investment. You also need one or more subject matter experts (SMEs) who know how the process works in the real world. They can provide the scenarios and variations for each process.
+## How to map processes
 
-You can use any tools that help you draw and share your processes quickly and easily. For example, you can use sticky notes, pens, and whiteboards to start, and transfer the drawings and comments to more sophisticated applications later. The key is to make the process mapping interactive and visual, not a series of documents that require long approvals.
+To map your processes effectively, you need the right people and tools. You need a business stakeholder who owns and leads the process in the operation. They can make the decisions about the process structure and investment. You also need one or more subject matter experts (SMEs) who know how the process works in the real world. They can provide the scenarios and variations for each process. When you use the business process catalog, we recommend that you assign a business stakeholder and a SME to each of the end-to-end, business process area, and business processes in the catalog at a minimum. Each of the end-to-end articles and business process area articles in the business process guides include a section that describes the typical stakeholders. Use these as a starting point to make sure you engage the right people in your organization.  
 
-You should map your processes early in the project implementation. This helps you analyze the opportunities for improvement and create the right baseline for the project. You should also review and update your processes regularly to keep up with the changing needs of your business and the latest capabilities of the product.
+You can use any tools that help you draw and share your processes quickly and easily. For example, you can use sticky notes, pens, and whiteboards to start, and transfer the drawings and comments to more sophisticated applications later. The key is to make the process mapping interactive and visual, not a series of documents that require long approvals. The business processes that are documented in the business process guide include flow diagrams that are created using Microsoft Visio. You can leverage these diagrams as a starting point for documenting your business processes and identifying where there may be differences. The diagrams that are published in the business process guides are available for download at [https://aka.ms/businessprocessflow](https://aka.ms/businessprocessflow). New diagrams are uploaded about four times per year.
+
+Mapping your processes should begin before a decision to purchase a new technology solution or at the latest during the pre-sales phase to establish a basic business process scope. If you are already live with your technology solution, we recommend that you document the processes as they are implemented and keep the documentation up to date. This foundational step allows you to analyze opportunities for improvement and set a clear baseline for your project or future goals and projects. The process documentation should evolve continuously throughout implementation and beyond, adapting to changing business needs and leveraging the capabilities of the product.
+
+To implement effective business process governance, leverage the business process catalog. Use it as a central repository to document, manage, and govern your business processes. Establish guidelines for process documentation, approval workflows, and regular reviews to ensure alignment with organizational goals and continuous improvement.  
 
 ## How to model your future processes
 
@@ -66,7 +72,7 @@ To standardize your processes, you need a good plan that aligns with your busine
 - Standardization might not apply to the entire process. You might need to allow some variations or exceptions for local needs or preferences.
 - Standardization might not outweigh the costs or risks of changing the process. You might need to reassess the business case and the expected outcomes.
 
-You can use a "core template" approach to standardize your processes. This means creating a common process design that you can apply to different units or regions with minimal adjustments. You can use your process maps to create and communicate this template.
+You can use a "core template" approach to standardize your processes. This means creating a common process design that you can apply to different units or regions with minimal adjustments. You can use your process maps to create and communicate this template. Learn more at [Standardize business processes](../business-processes/standardize-business-processes.md).
 
 ## Next steps
 
