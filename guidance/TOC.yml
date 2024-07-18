@@ -797,7 +797,7 @@ items:
             href: business-processes/forecast-to-plan-areas.md
           - name: Establish stocking and replenishment policies
             href: business-processes/forecast-to-plan-establish-stocking-replenishment-policies-overview.md
-          - name: Forecast demand
+          - name: Forecast supply and demand
             items:
             - name: Demand forecasting overview
               href: business-processes/forecast-to-plan-demand-forecasting-overview.md
