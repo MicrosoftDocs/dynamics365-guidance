@@ -24,10 +24,10 @@ The following sections outline the content of the collection. Each section inclu
 
 ### The schedule board in Field Service
 
-- Add crew information to the resource cell template
+- Add crew information to the resource cell template.
 
   A core element in this scenario is the flexibility to format the resource card shown on the schedule board. This sample shows how you can add crew membership information to the resource card. Learn more at [Add crew information to resource cells](fs-resource-cell-template.md). For an introduction to the area, go to [Customize the schedule board with a custom resource attribute](/dynamics365/field-service/extend-schedule-board-custom-resource-attribute).
-- Customize the template for bookings
+- Customize the template for bookings.
 
   A core element in this scenario is the flexibility to format the booking slot shown on the schedule board. We show an example of how you can add a custom icon to the booking template based on the work order incident type. Learn more at [Customize the template for bookings](fs-booking-template.md). For an introduction to the area, go to [Edit schedule board booking templates](/dynamics365/field-service/booking-template).
 

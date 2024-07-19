@@ -1,6 +1,6 @@
-﻿---
+---
 title: Add crew information to resource cells
-description: Get sample code to help you customize information and how it shows in the schedule board in Dynamics 365 Field Service.
+description: Get sample code to help you customize information and how it looks in the schedule board in Dynamics 365 Field Service.
 ms.date: 07/08/2024
 ms.topic: conceptual
 author: edupont04
@@ -11,7 +11,7 @@ ms.author: jwride
 
 ***Applies to: Dynamics 365 Field Service***
 
-The schedule board is a key tool for dispatchers that want to book and manage frontline workers and other resources in Dynamics 365 Field Service. It can be extended and customized to address business-specific use cases. This article explains how to customize the schedule board to show additional information for each resource.
+The schedule board is a key tool for dispatchers who want to book and manage frontline workers and other resources in Dynamics 365 Field Service. It can be extended and customized to address business-specific use cases. This article explains how to customize the schedule board to show additional information for each resource.
 
 In this sample template, the resource card shows if the resource is a member of a specific crew by showing the crew's name. If a resource is a member of more than one crew, it shows instead the number of crews that they're a member of. The sample solution also considers the schedule board date range while evaluating crew membership for the resources.
 
@@ -26,7 +26,7 @@ In this sample template, the resource card shows if the resource is a member of 
 
 - Understand *handlebar expressions* since that helps you understand how the sample code works. You can find many references and tutorials online if needed, including one in the [Related resources](#related-resources) section.
 
-- Understand FetchXml to query data and Unified FetchXml (UFX) queries (FetchXml + XPath) to dynamically query data to extend the schedule board and schedule assistant. The [Related resources](#related-resources) section has links related to FetchXML and UFX.
+- Understand FetchXML to query data and Unified FetchXML (UFX) queries (FetchXML + XPath) to dynamically query data to extend the schedule board and schedule assistant. The [Related resources](#related-resources) section has links related to FetchXML and UFX.
 
 ## Use case
 
@@ -47,9 +47,9 @@ To show information on the resource card relating to crew membership, you must f
 
 To insert the code:
 
-1. In the schedule board, navigate to [scheduler settings](/dynamics365/field-service/schedule-board-tab-settings), choose the link to open **All board settings**, and then, on the **Other** tab, choose the [Retrieve resource query](/dynamics365/field-service/schedule-board-tab-settings#retrieve-resources-query) field.
+1. In the schedule board, navigate to [scheduler settings](/dynamics365/field-service/schedule-board-tab-settings), choose the link to open **All board settings**, and then, on the **Other** tab, choose the [Retrieve resources query](/dynamics365/field-service/schedule-board-tab-settings#retrieve-resources-query) field.
 
-2. Open the default query that is already specified in the **Retrieve resource query** field by choosing the pencil icon, and then copy the contents of the query.
+2. Open the default query that is already specified in the **Retrieve resources query** field by choosing the pencil icon, and then copy the contents of the query.
 
 3. Create a new query template using the copied code as a base.
 
@@ -99,17 +99,17 @@ To insert the code:
 
 #### What this code does
 
-- Get crew count
+- Get crew count.
 
   The CrewCount UFX joins the **Resource** table with the `bookableresourcegroup` entity that defines a crew, and it retrieves the number of crews associated with that resource through an aggregate `countcolumn`.
 
   > [!NOTE]
-  > The crews retrieved are filtered to only include the crews that the resource is a member between the start and end date as defined on the schedule board's time window. (with the code `$input/ScheduleBoard/StartDate` and `$input/ScheduleBoard/EndDate`, respectively).
+  > The crews retrieved are filtered to only include the crews that the resource is a member of between the start and end date as defined on the schedule board's time window (with the code `$input/ScheduleBoard/StartDate` and `$input/ScheduleBoard/EndDate`, respectively).
 
   > [!IMPORTANT]
   > The resource card may not automatically update when start and end dates change, so it might be necessary for users to refresh the board to see potential changes when the dates are changed.
 
-- Get crew name
+- Get crew name.
 
   Another join of the requirement to the `bookableresource` in the UFX retrieves the name of the crew name associated with a resource.
 
@@ -121,7 +121,7 @@ To insert the code:
 
   - *singleCrew* is true if the bookable resource belongs to only one crew within the time window.
 
-  - *MultipleCrews* is true if the bookable resource belongs to only one crew within the time window.
+  - *MultipleCrews* is true if the bookable resource belongs to more than one crew within the time window.
 
 ### Step 2: Modify the resource cell template
 
