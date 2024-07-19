@@ -1,4 +1,4 @@
-﻿---
+---
 title: Overview of administer to operate business process areas
 description: Get an overview for each of the business process areas in the administer to operate end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 03/19/2024
@@ -38,7 +38,7 @@ This business process area helps make sure that Dynamics 365 is optimized for yo
 
 Central to the *administer to operate* framework is the careful management of system access and security. This area encompasses the establishment and enforcement of robust user roles, permissions, and security protocols. The process of managing system access and security is critical for safeguarding sensitive data within Dynamics 365. Role-based access control, Microsoft Entra ID, and multifactor authentication (MFA) are integral features that Dynamics 365 provides for securing solutions. A regular user security review that includes Lifecycle Service and the Power Platform admin center helps make sure that the proper access is maintained. This process ensures that only authorized individuals have access to specific functionalities, maintaining the confidentiality and integrity of organizational data.  
 
-Learn more at [Manage system access and security](administer-to-operate-manage-system-access-security.md).  
+Learn more at [Manage system access and security overview](administer-to-operate-manage-system-access-security.md).  
 
 ## Train users and increase adoption
 
@@ -56,7 +56,7 @@ Efficient management of background jobs contributes to streamlined operations. T
 
 ## Manage notifications and alerts
 
-Timely awareness of system events is crucial. This business process area includes the management of notifications and alerts to keep stakeholders informed and responsive to critical updates. Dynamics 365 provides features like Power Automate and Power Apps to configure and manage notifications based on predefined triggers. Dynamics 365 finance and operations apps also include an in app alert feature that can be easily integrated with Power Automate. These processes ensure that administrators are promptly alerted to potential issues, enabling proactive responses and issue resolution.  
+Timely awareness of system events is crucial. This business process area includes the management of notifications and alerts to keep stakeholders informed and responsive to critical updates. Dynamics 365 provides features like Power Automate and Power Apps to configure and manage notifications based on predefined triggers. Dynamics 365 finance and operations apps also include an in-app alert feature that can be easily integrated with Power Automate. These processes ensure that administrators are promptly alerted to potential issues, enabling proactive responses and issue resolution.  
 
 ## Uptake software releases
 
@@ -72,7 +72,7 @@ Learn more at [Manage data synchronization overview](administer-to-operate-manag
 
 ## Manage system compliance
 
-Ensuring compliance with regulatory standards and internal policies is paramount in any technology implementation. Managing system compliance includes processes to manage system compliance, safeguarding organizations against risks. The platform provides features like Compliance Manager and Azure Policy integration to assist organizations in monitoring and enforcing compliance. Additionally, Dynamics 365 finance and operations apps includes the Audit workbench module and built-in audit logs for Dynamics 365 Finance. When you implement these processes carefully, they help safeguard against risks and ensures that the organization operates within legal and regulatory frameworks.  
+Ensuring compliance with regulatory standards and internal policies is paramount in any technology implementation. Managing system compliance includes processes to manage system compliance, safeguarding organizations against risks. The platform provides features like Compliance Manager and Azure Policy integration to assist organizations in monitoring and enforcing compliance. Additionally, Dynamics 365 finance and operations apps include the Audit workbench module and built-in audit logs for Dynamics 365 Finance. When you implement these processes carefully, they help safeguard against risks and ensure that the organization operates within legal and regulatory frameworks.  
 
 ## Support systems
 
@@ -109,8 +109,6 @@ You can use the following resources to learn more about the *administer to opera
 ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
-
-Principal author:
 
 Principal author:
 

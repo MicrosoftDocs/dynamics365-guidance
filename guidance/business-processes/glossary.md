@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 07/05/2024
+ms.date: 07/19/2024
 ---
 
 # Glossary of Dynamics 365 business processes terms
@@ -725,6 +725,10 @@ A finished good is often referred to as a product. In Dynamics 365 Supply Chain 
 
 In accounting, a fixed asset is any long-term asset whose cost expiration is recognized over more than one year. Related definitions are [Asset](#asset) and [Asset classification](#asset-classification).
 
+A fixed asset, also known as a capital asset, is a tangible piece of property, plant, or equipment (PP&E) that you own or manage with the expectation that it will continue to help generate income. An asset is fixed when it's an item that your business won't consume, sell, or convert to cash within the next calendar year. Fixed assets are different than current assets, which are in cash or slated to be converted to cash within the next 12 months. Fixed assets also differ from your inventory, because inventory is typically consumed within a short time.
+
+Learn about fixed assets in Dynamics 365 Business Central at [Manage fixed assets](/dynamics365/business-central/fa-manage). Learn about fixed assets in Dynamics 365 Finance at [Fixed assets home](/dynamics365/finance/fixed-assets/fixed-assets).
+
 ### Fixed-price projects
 
 Projects can be invoiced on either a fixed-price basis or a [time-and-material](#time-and-material-projects) basis. For a fixed-price project, the customer invoice amount is based on [billing schedules](#billing-schedules). Fixed-price projects can be invoiced per project or per project contract. Revenue for a fixed-price project can be calculated and posted throughout the project by using the completed percentage method. Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method. Companies can often benefit from using the value of the work in process (WIP) to calculate the degree of completion of a project or a group of projects.
@@ -930,11 +934,11 @@ Invoice payment terms are the conditions that specify when and how a customer sh
 
 ### Item
 
-In the context of inventory management, an item is a specific tangible product or component that a business tracks as part of its inventory. An item can be a physical product that's sold to customers, such as a piece of clothing or a computer, or it can be a raw material or component that's used to manufacture products.
+In the context of inventory management, an item is a specific tangible product or component that a business tracks as part of its inventory. An item can be a physical product that the organization sells to customers, such as a piece of clothing or a computer, or it can be a raw material or component that the organization uses to manufacture physical products.
 
-An item is typically assigned a unique identifier, such as a SKU (stockkeeping unit) or part number, which is used to track inventory levels and sales activity. Organizations also store [information about items](/dynamics365/supply-chain/pim/product-information) like description, cost, price, and supplier.
+An item is typically assigned a unique identifier, such as a SKU (stockkeeping unit) or part number, which is used to track inventory levels and sales activity. In Dynamics 365 Supply Chain Management, organizations also store information about items, such as a description, cost, price, and supplier. Learn more at [Product information overview](/dynamics365/supply-chain/pim/product-information).
 
-Organizations that use Dynamics 365 Business Central can [register new items](/dynamics365/business-central/inventory-how-register-new-items).
+In Dynamics 365 Business Central, you can register items that are either tangible or intangible. Learn more at [Register new items](/dynamics365/business-central/inventory-how-register-new-items).
 
 ## J
 
@@ -1461,9 +1465,9 @@ The document that outlines the scope of work, deliverables, timeline, and estima
 
 ### PROSCI
 
-PROSCI stands for "Professional Counselling Services Institute," and it is also the name of a company that specializes in change management. However, when people refer to "PROSCI" in the context of change management methodologies, they are often referring to the Prosci ADKAR® Model, which is a popular and widely used framework for managing the people side of change within organizations.
+PROSCI stands for "Professional Counselling Services Institute," and it is also the name of a company that specializes in change management. However, when people refer to "PROSCI" in the context of change management methodologies, they are often referring to the Prosci ADKAR&reg; Model, which is a popular and widely used framework for managing the people side of change within organizations.
 
-The ADKAR® Model focuses on the five key elements of successful change: Awareness, Desire, Knowledge, Ability, and Reinforcement. This model helps organizations understand and address the individual and organizational factors that influence successful change initiatives, including those related to technology implementations like Dynamics 365.
+The ADKAR&reg; Model focuses on the five key elements of successful change: Awareness, Desire, Knowledge, Ability, and Reinforcement. This model helps organizations understand and address the individual and organizational factors that influence successful change initiatives, including those related to technology implementations like Dynamics 365.
 
 ### Provider
 

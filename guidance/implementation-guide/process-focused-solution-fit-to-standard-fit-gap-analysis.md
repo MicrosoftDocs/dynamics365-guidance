@@ -4,7 +4,7 @@ description: Learn how to review your current processes and identify what to cha
 ms.date: 04/30/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: veneva
+ms.author: raprofit
 ms.reviewer: edupont
 ms.custom:
   - ai-seo-date: 01/16/2024
@@ -37,16 +37,16 @@ Fit-to-standard analysis is a method to compare your current processes with the 
 
 We recommend that you start with fit-to-standard analysis for every project. Here are the steps to follow:
 
-1. **Create a business process catalog**
-    
-    This is a list of the processes that you want to configure and use in Dynamics 365. You should create this catalog in the early stages of the project to define the scope of your solution.
+1. **Download the business process catalog**
+
+    This is a list of standard business processes that are supported by Dynamics 365. Identify which business processes are applicable to your business, and which processes you want to configure and use in Dynamics 365. You should create this catalog in the early stages of the project to define the scope of your solution. [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
 2. **Use the business process catalog to guide your fit-to-standard analysis**
-    
-    Work iteratively through the processes, starting with the high-level core processes and then moving to the more detailed subprocesses and variants. Evaluate how well they fit your business needs and expectations within the system.
+
+    Work iteratively through the processes, starting with the high-level core processes and then moving to the more detailed subprocesses and variants. Evaluate how well they fit your business needs and expectations within the system. We recommend that you do these in workshops organized by the level 2 business process areas (Epic work item types) in the business process catalog. Keep in mind that you may need more than one workshop for your organization for some business process areas. For example, if your organization has two lines of business you and therefore two separate sales organizations, you may need to conduct the *Order to cash* workshop twice.  
 
 3. **Configure the system to match the processes in the catalog**
-    
+
     You don't need to configure everything perfectly at first, but you should have a good, high-level understanding of how the processes can be implemented in Dynamics 365. This helps you create the solution blueprint and set the right culture of "adopt wherever possible, adapt only where justified."
 
 By using this approach, you can benefit from:

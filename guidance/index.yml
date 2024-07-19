@@ -11,7 +11,7 @@ metadata:
   author: edupont04
   ms.author: edupont
   ms.subservice: guidance
-  ms.date: 02/16/2024
+  ms.date: 07/15/2024
   hide_bc: true
 
 # highlightedContent section (optional)
@@ -412,6 +412,17 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/concept-to-market-areas.md
+    - title: Design to retire
+      links:
+      - text: Introduction
+        itemType: overview
+        url: business-processes/design-to-retire-introduction.md
+      - text: End-to-end business process
+        itemType: concept
+        url: business-processes/design-to-retire-overview.md
+      - text: Business process areas
+        itemType: overview
+        url: business-processes/design-to-retire-areas.md
     - title: Forecast to plan
       links:
       - text: Introduction
@@ -522,6 +533,17 @@ conceptualContent:
       - text: Business process areas
         itemType: overview
         url: business-processes/service-to-cash-areas-overview.md
+    - title: Administer to operate
+      links:
+      - text: Introduction
+        itemType: overview
+        url: business-processes/administer-to-operate-introduction.md
+      - text: End-to-end business process
+        itemType: concept
+        url: business-processes/administer-to-operate-overview.md
+      - text: Business process areas
+        itemType: overview
+        url: business-processes/administer-to-operate-areas.md
 
 # admin section
 #  - title: Administration guide

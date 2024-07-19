@@ -4,7 +4,7 @@ description: Learn about the business process catalog for Dynamics 365, what it 
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
-ms.date: 07/09/2024
+ms.date: 07/11/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -21,7 +21,7 @@ The business process catalog is an Excel workbook that we at Microsoft use to or
 
 [!INCLUDE [daf-catalog-ids](../includes/daf-catalog-ids.md)] Learn more in the [Catalog IDs](#catalog-ids) section.
 
-Download the latest version of the catalog from [https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog). We update the catalog at least four times each year. Learn more at [Business process contributions](/dynamics365/get-started/contribute#business-process-contributions).  
+[!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
 ## What's in the catalog?
 
@@ -45,7 +45,7 @@ Each article, be it for an end-to-end scenario or a pattern, includes a diagram 
 Find the source files at [https://aka.ms/businessprocessflow](https://aka.ms/businessprocessflow).
 
 > [!NOTE]
-> When navigating to the preceding link, the .pptx files can't be viewed in GitHub. However, you can download the files by navigating the file's page on GitHub, then selecting the "Download raw file" option.
+> When you navigate to the specified link, you can't view the .pptx files in GitHub. Instead, you can download the files by opening the file's page on GitHub, then selecting the **Download raw file** option.
 
 ## Catalog IDs
 
@@ -61,6 +61,12 @@ For example, let's look at the *administer to operate* end-to-end scenario. The 
 |Business process areas overview |99.10 |ID for the business process area *Define business continuity plan* that is part of the *administer to operate* end-to-end scenario. |
 |Business process |99.10.010  |ID for the business process *Define business continuity objectives* that is part of the *Define business continuity plan* business process area. |
 |Pattern |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
+
+The IDs of the end-to-end scenarios are similar to the Standard Industrial Classification (SIC) codes that the U.S. government assigns to business establishments to identify the primary business of the establishment. The first two digits of a SIC code defines the major industry group that a business belongs to. Learn more at [What is a SIC Code?](https://siccode.com/page/what-is-a-sic-code).
+
+For industries across the world, the International Standard Industrial Classification of All Economic Activities (ISIC) is the international reference classification of productive activities. It provides a set of activity categories that can be utilized for the collection and reporting of statistics according to such activities. Learn more at [Department of Economic and Social Affairs at United Nations](https://unstats.un.org/unsd/classifications/Econ/isic).
+
+But an end-to-end scenario can apply to businesses across two or more industries. So the IDs are not the same as SIC or ISIC codes. It's the system of hierarchies of unique IDs that we have loosely based on the ISIC and SIC categories. The only exception is the *Administer to operate* end-to-end scenario that got its ID 99 from the SIC code for *Administration of Nonclassifiable Establishments*.  
 
 ## Get notified about changes through an RSS feed
 
