@@ -4,7 +4,7 @@ description: Discover how the Onboard and manage the employee lifecycle business
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 03/20/2024
+ms.date: 07/18/2024
 ai-usage: ai-assisted
 ---
 
@@ -42,7 +42,7 @@ Each of these stakeholders contributes specialized expertise to the successful o
 
 The following diagram illustrates the *onboard and manage the employee lifecycle* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\hire-to-retire-onboard-manage-employee-lifecycle-1.svg" alt-text="Diagram of the onboard and manage employee lifecycle business process area, connecting various business processes within the hire to retire area." lightbox="media\hire-to-retire-onboard-manage-employee-lifecycle-1.svg":::
+:::image type="content" source="media\hire-to-retire-onboard-manage-employee-lifecycle.svg" alt-text="Diagram of the onboard and manage employee lifecycle business process area, connecting various business processes within the hire to retire area." lightbox="media\hire-to-retire-onboard-manage-employee-lifecycle.svg":::
 
 1. Start
 2. *Hire to retire*
@@ -88,6 +88,8 @@ By analyzing onboarding data, you can identify trends and patterns that inform c
 
 1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
 1. *Onboard and manage the employee lifecycle* (the article you're currently reading)
+    1. [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
+    1. [Update employee records](hire-to-retire-update-employee-records.md)  
 1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
 1. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
 1. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
