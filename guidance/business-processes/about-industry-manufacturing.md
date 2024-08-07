@@ -13,10 +13,10 @@ ms.custom: bap-template #Required; don't change.
 
 If your organization is in the manufacturing industry, meaning that you produce physical goods of some sort, Dynamics 365 can help you manage your business. In this article, we will list the business processes that Dynamics 365 supports that are relevant for your industry.  
 
-We group the lists under the end-to-end scenarios that the business processes support. Get an overview of the end-to-end scenarios at [Overview of end-to-end scenarios and business processes in Dynamics 365](overview.md).  
+We group the lists under the end-to-end scenarios that the business processes support. Learn more at [Overview of end-to-end scenarios and business processes in Dynamics 365](overview.md).  
 
 > [!IMPORTANT]
-> This article is in public preview as a prototype since there are very, very few L3 articles published yet. Let us know if you think the format works - and if it doesn't work for you, tell us why! Learn more at [Tell us what you think](../overview.md#tell-us-what-you-think).
+> This article is in public preview as a prototype since there are still few level 3 articles published at the Dynamics 365 guidance hub. Let us know if you think the format works - and if it doesn't work for you, tell us why! Learn more at [Tell us what you think](../overview.md#tell-us-what-you-think).
 
 ## Concept to market
 
@@ -31,7 +31,7 @@ The following list shows the business processes (L3) that apply to this industry
 
 ## Forecast to plan
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *forecast to plan*. Learn more at [Forecast to plan overview](forecast-to-plan-overview.md).  
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *forecast to plan*. Learn more at [Forecast to plan overview](forecast-to-plan-overview.md). Links will be added when the articles become available.  
 <!-- 
 -    -->
 
