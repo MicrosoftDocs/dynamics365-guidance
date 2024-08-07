@@ -154,7 +154,7 @@ If you want to implement Dynamics 365 solutions to assist with your *manage and 
 6. [Retire and dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
 
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *manage and report on asset financials* process in Dynamics 365.
 

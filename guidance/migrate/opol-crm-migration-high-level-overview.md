@@ -49,7 +49,7 @@ The technical migration orchestration is carried out through the tooling hosted 
 
 You can find detailed information on the OP2OL migration process in our comprehensive whitepaper that you download at [https://aka.ms/op2olwhitepaper](https://aka.ms/op2olwhitepaper). This technical document outlines the prerequisites and provides a step-by-step guide to the migration process.
 
-## Related resources
+## Related information
 
 - [What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
 - [On-premises to online migration - Dynamics 365 blog](https://community.dynamics.com/blogs/post/?postid=d6f2297c-5f43-405e-9471-63d8fbe88118)  

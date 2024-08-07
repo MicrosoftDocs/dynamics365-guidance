@@ -110,7 +110,7 @@ If you want to implement Dynamics 365 solutions to assist with your *forecast t
 
 4. Get an overview of the *forecast to plan* process. Learn more at [Forecast to plan overview](forecast-to-plan-overview.md).
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *forecast to plan process* in Dynamics 365.
 

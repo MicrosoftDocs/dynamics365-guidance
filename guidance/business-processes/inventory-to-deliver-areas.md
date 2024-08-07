@@ -56,7 +56,7 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 5. [Inventory to deliver end-to-end overview](inventory-to-deliver-overview.md)
 6. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *inventory to deliver* process in Dynamics 365.
 

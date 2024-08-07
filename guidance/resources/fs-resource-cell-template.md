@@ -159,7 +159,7 @@ This also demonstrates the supported use of style sheets to make adjustments suc
 
 You can also add a custom web resource and use an image in place of Font Awesome icons used in this example.
 
-## Related resources
+## Related information
 
 - [Set up bookable resources](/dynamics365/field-service/set-up-bookable-resources)
 

@@ -79,7 +79,7 @@ Learn new skills and boost your productivity with Microsoft Certifications. This
   - [Power Automate RPA Developer Associate](/certifications/power-automate-rpa-developer-associate)  
   - Dynamics 365 Business Central Developer (coming in January 2024)  
 
-## Related resources
+## Related information
 
 - [Overview of roles in Dynamics 365](overview.md)  
 - [Dynamics 365 guidance documentation](../index.yml)  

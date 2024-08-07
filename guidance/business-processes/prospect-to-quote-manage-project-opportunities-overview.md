@@ -106,7 +106,7 @@ If you want to implement Dynamics 365 solutions to help with your *Manage projec
 
 Return to the overview of business process areas at [Prospect to quote business process areas](prospect-to-quote-areas.md).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Manage project opportunities* process in Dynamics 365.
 

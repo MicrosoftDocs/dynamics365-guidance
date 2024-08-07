@@ -128,7 +128,7 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 
 6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to explore more about the *manage project contracts* business process area in Dynamics 365.
 

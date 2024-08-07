@@ -139,7 +139,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *retir
 
 6. *Retire and dispose of assets*. (The article you're currently reading.)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *retire and dispose of assets* process in Dynamics 365.
 

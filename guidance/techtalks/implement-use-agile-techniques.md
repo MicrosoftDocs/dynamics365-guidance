@@ -90,7 +90,7 @@ Combining Dynamics 365 implementations with agile techniques requires a strategi
 
 Implementing Dynamics 365 using agile techniques can offer significant benefits, including increased flexibility, improved stakeholder engagement, and faster delivery of business value. By following the steps outlined above and being prepared to face the associated challenges head-on, organizations can achieve a successful and agile Dynamics 365 implementation.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

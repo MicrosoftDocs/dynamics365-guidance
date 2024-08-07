@@ -281,7 +281,7 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 
 - Get an overview of the *plan to produce* process. Learn more at [Plan to produce overview](plan-to-produce-overview.md).
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *plan to produce* process in Dynamics 365.
 

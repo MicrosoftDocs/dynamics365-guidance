@@ -150,7 +150,7 @@ In summary, investing in training users and increasing adoption when you impleme
 
 12. [Support systems](administer-to-operate-support-systems-overview.md)  
 
-## Related resources
+## Related information
 
 - [Adoption resources (contains video)](/dynamics365/adoption/adoption-resources)
 

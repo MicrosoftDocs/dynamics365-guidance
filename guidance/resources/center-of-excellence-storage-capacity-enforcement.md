@@ -94,7 +94,7 @@ The following prerequisites must be deployed and configured before you can deplo
 
 Download the storage capacity enforcement solution [on GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/coe-starter-kit-extensions).
 
-## Related resources
+## Related information
 
 - [Center of Excellence (CoE) overview - Power Platform](/power-platform/guidance/coe/overview)
 

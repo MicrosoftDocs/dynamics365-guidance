@@ -72,7 +72,7 @@ The article [UI/UX component details for canvas apps](ui-ux-component-details-ca
 
 The article [UI/UX component details for tests and user feedback](ui-ux-component-details-testing-feedback.md) provides an overview of how to conduct usability tests and gather valuable feedback from users. This section explains the iterative design process that ensures continuous improvement based on user insights.
 
-## Related resources
+## Related information
 
 - [Key UI/UX design principles](ui-ux-design-principles.md)
 - [UI/UX component details for model-driven apps](ui-ux-component-details-model-driven-apps.md)

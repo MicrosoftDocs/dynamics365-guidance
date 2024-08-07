@@ -143,7 +143,7 @@ The following sections outline the content of the collection. Each section inclu
 
     Learn more at [Automate agent tasks with Power Automate Desktop](cs-pad-automation.md). 
 
-## Related resources
+## Related information
 
 - [Dynamics365 Customer Service](/dynamics365/customer-service/)
 - [Unified Routing](/dynamics365/customer-service/administer/overview-unified-routing)

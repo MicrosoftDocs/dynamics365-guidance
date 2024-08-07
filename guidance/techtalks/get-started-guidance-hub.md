@@ -76,7 +76,7 @@ The Dynamics 365 guidance hub can be used to accomplish various aspects of your 
 
 The Dynamics 365 guidance hub, with its rich resources and community-driven approach, offers a pathway to successful Dynamics 365 navigation and implementation. Embrace this hub to unlock the full potential of Dynamics 365 in your business operations.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

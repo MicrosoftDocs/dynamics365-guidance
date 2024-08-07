@@ -88,7 +88,7 @@ If you want to implement Dynamics 365 solutions to assist with your hire to reti
 5. Get an overview of the *hire to retire* process at [Hire to retire end-to-end overview](hire-to-retire-overview.md)
 6. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *hire to retire* process in Dynamics 365.
 

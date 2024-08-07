@@ -73,7 +73,7 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 4. Get an overview of the order to cash process. Learn more at [Order to cash overview](order-to-cash-overview.md).
 
-## Related resources
+## Related information
 
 Uuse the following resources to learn more about the order to cash process in Dynamics 365.  
 

@@ -127,7 +127,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *closi
 
 7. *Report and analyze financials and cash flow*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the close financial period process in Dynamics 365.
 

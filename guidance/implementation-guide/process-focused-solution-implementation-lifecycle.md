@@ -136,7 +136,7 @@ After you go live, use your processes to **support and maintain** your solution.
 - Prepare for your implementation by follow the [checklist](process-focused-solution-checklist.md)  
 - Read a [case study](process-focused-solution-case-study-journey.md) about a company that implemented Dynamics 365 using a process-focused approach
 
-### Related resources
+### Related information
 
 - [Testing strategy](testing-strategy.md)
 - [Prepare for go-live](prepare-to-go-live.md)

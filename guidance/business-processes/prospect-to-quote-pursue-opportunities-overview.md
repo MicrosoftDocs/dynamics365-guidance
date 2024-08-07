@@ -89,7 +89,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
 
-## Related resources
+## Related information
 
 - [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
 - [Create or edit opportunities](/dynamics365/sales/create-edit-opportunity-sales)

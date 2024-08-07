@@ -61,7 +61,7 @@ This architecture supports the broadest possible contact center scenarios. With 
 
 In this Dynamics 365 Contact Center architecture, we **do not** assume that the solution uses the core capabilities of Microsoft Azure.
 
-## Related resources
+## Related information
 
 - [Introduction to reference architectures for digital contact centers](contact-center-overview.md)  
 - [Dynamics 365 Contact Center documentation](/dynamics365/contact-center/)  

@@ -181,7 +181,7 @@ If you want to implement Dynamics 365 solutions to assist with your *manage proj
 
 6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *manage project financials* process in Dynamics 365.
 

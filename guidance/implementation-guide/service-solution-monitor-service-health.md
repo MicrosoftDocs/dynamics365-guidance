@@ -63,7 +63,7 @@ You should keep track of the licenses that you have and use so that you can plan
 
 You should also keep track of the operational cost, which depends on your usage volume. Staying aware of changes in your organization's use of the system can help business and IT managers make budget decisions based on usage patterns.
 
-### Related resources
+### Related information
 
 Learn more about monitor licensing and operational costs with the following resources:
 
@@ -83,7 +83,7 @@ You should be aware of how much storage space you have left and how fast it grow
 
 Different types of data, such as transactions, files, and logs, have different allocations depending on your subscription. Some actions, such as copying and restoring environments, can also affect your storage allocation.
 
-### Related resources
+### Related information
 
 Learn more about monitoring storage allocation with the following resources:
 
@@ -122,7 +122,7 @@ You should monitor who is accessing your system and what they're doing with your
 
 For instance, when an employee changes roles or leaves the company, you need to change or remove their security role and permissions. If a vendor or consultant contract ends, you need to revoke their access to the data they were working with. And if a customer asks to access, modify, or delete their personal data, you need to comply with their request and provide reports.
 
-### Related resources
+### Related information
 
 Learn more about monitor security and privacy with the following resources:
 

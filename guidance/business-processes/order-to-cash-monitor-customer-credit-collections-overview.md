@@ -134,7 +134,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Monitor cus
 
 10. *Detect fraudulent orders*
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *Monitor customer credit and collections* process in Dynamics 365.
 

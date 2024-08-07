@@ -153,7 +153,7 @@ If you want to implement Dynamics 365 solutions to assist with your *administer 
 - [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
 - [Support systems](administer-to-operate-support-systems-overview.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about business continuity.
 

@@ -693,7 +693,7 @@ items:
           items:
           - name: Introduction
             href: business-processes/overview.md
-          - name: Use the business process guide
+          - name: About the business process guide
             href: business-processes/about.md
           - name: Glossary of terms
             href: business-processes/glossary.md
@@ -711,7 +711,7 @@ items:
             href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
           - name: Define your requirements
             href: implementation-guide/process-focused-solution-define-requirements.md
-          - name: Introduction to process maturity
+          - name: Process maturity overview
             href: business-processes/process-maturity-introduction.md
           - name: Standardize business processes during an implementation
             href: business-processes/standardize-business-processes.md

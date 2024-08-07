@@ -142,7 +142,7 @@ If you would like to implement Dynamics 365 solutions to assist with your Manage
 
 7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the Manage occupational health and safety process in Dynamics 365.
 

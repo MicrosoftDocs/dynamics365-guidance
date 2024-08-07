@@ -140,7 +140,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Source to p
 
 4. Get an overview of the *Source to pay* process at [Source to pay end-to-end overview](source-to-pay-overview.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Source to pay* process in Dynamics 365.
 

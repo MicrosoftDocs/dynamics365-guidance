@@ -62,7 +62,7 @@ The Dynamics 365 Supply Chain Management Wave 2, 2023 Edition, represents a sign
 
 For businesses that are seeking to take advantage of these new capabilities, the Dynamics 365 Supply Chain Management official documentation and the Dynamics 365 Community forums are excellent resources for more detailed information about the updates. These resources offer comprehensive insights, guides, and discussions to help users maximize the benefits of the latest supply chain management trends and technologies.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

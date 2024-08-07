@@ -225,7 +225,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *case 
 
 5. Get an overview of the **case to resolution** business process areas. Learn more at [*Case to resolution* business process areas](case-to-resolution-areas.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *case to resolution* process in Dynamics 365.
 

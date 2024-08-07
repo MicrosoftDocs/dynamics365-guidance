@@ -50,6 +50,6 @@ Some customers in the EU are unable to join our Viva Engage network using their 
 
 For all other Viva Engage support questions, contact [Viva Engage Support](https://aka.ms/yammerhelp)
 
-## Related resources
+## Related information
 
 - [About Business Central partner community on Viva Engage](/dynamics365/business-central/dev-itpro/join-viva-engage)  

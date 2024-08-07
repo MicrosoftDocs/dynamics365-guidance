@@ -60,7 +60,7 @@ The business process catalog isn't static; it undergoes regular updates to stay 
 
 The TechTalk business process catalog emerges as an indispensable tool for organizations utilizing Dynamics 365. Its meticulous structuring, user-friendly navigation, and comprehensive coverage of business processes make it an essential resource for streamlining operations and driving efficiency across various organizational functions.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

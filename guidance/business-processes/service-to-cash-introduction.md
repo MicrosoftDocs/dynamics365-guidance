@@ -124,7 +124,7 @@ By automating the *service to cash* process flow, businesses can more quickly an
 
 Overall, the *service to cash* process flow is a critical aspect of any business and can help improve financial performance, customer satisfaction, and overall efficiency.
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *service to cash* process in Dynamics 365.
 

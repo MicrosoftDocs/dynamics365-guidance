@@ -136,7 +136,7 @@ If you want to implement Dynamics 365 solutions to help with your *maintain and 
 5. **Maintain and repair internal assets**. (The article you are currently reading.)
 6. Retire and dispose of assets  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *maintain and repair internal asset* process in Dynamics 365.
 

@@ -145,7 +145,7 @@ Dynamics 365 has product-specific tools to help with user training for the custo
 
 Dynamics 365 lets you create guided help pages that provide in-product assistance to your users. This assistance can be customized to your application and user base, and can include text, links, images, and video links. Learn more in [Custom help panes and learning path](/powerapps/maker/data-platform/create-custom-help-pages#custom-help-panes-and-learning-path).
 
-## Related resources
+## Related information
 
 <!--- [Training plan template](https://community.dynamics.com/cfs-filesystemfile/__key/communityserver-components-sitefiles/TechTalk+Presentation+Files/Part-2-_2D00_Training-Plan-Template-DYN840PAL.xltx?_=637360611268049897) TODO:fix broken link-->
 

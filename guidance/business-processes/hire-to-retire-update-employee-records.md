@@ -158,7 +158,7 @@ The following patterns are available to help guide your implementation of the *u
 
 - Request to recruit for a new position
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Update employee records* process in Dynamics 365:
 

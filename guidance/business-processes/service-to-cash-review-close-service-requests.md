@@ -94,7 +94,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Review and 
 
 5. *Review and close service requests* (The article you're currently reading)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the reviewing and close work orders process in Dynamics 365.
 

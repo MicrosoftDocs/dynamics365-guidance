@@ -197,7 +197,7 @@ The following patterns are available to help guide your implementation of the se
 - [Manually set customer credit limits](pattern-manually-set-check-customer-credit-limits.md)
 - [Set customer credit limits for a group of customers](pattern-set-customer-credit-limits-for-group-of-customers.md)
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the processes for setting customer credit limits in Dynamics 365.
 

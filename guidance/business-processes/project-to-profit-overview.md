@@ -275,7 +275,7 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 
 3. Get an overview of each end-to-end business process area at [Project to profit business process areas overview](project-to-profit-areas.md).  
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the project to profit process in Dynamics 365.  
 

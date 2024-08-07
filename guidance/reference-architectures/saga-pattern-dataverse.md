@@ -224,7 +224,7 @@ The following patterns are available to help guide your implementation of the Sa
 
 - [Retry pattern](/azure/architecture/patterns/retry) describes how to define and implement retry strategies.
 
-## Related resources
+## Related information
 
 You can use the following resource to learn more about the integration of Dynamics 365 with Azure:
 

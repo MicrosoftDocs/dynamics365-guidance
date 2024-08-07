@@ -36,7 +36,7 @@ You can onboard your organization as self-service in Lifecycle Services if you'r
 
 After the Implementation project workspace is provisioned in Lifecycle Services, the Microsoft FastTrack team will monitor your onboarding progress. If project onboarding isn't completed within a few weeks after creating a Lifecycle Services implementation project, a reminder will be sent to the project team. It's important that the project onboarding in Lifecycle Services is completed with the most accurate date, and that the email addresses listed in the setup are monitored. Learn more at [Project onboarding](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding) in the Lifecycle Services content.
 
-## Related resources
+## Related information
 
 - [Customer eligibility and partner qualifications](eligibility.md)  
 - [Proactive guidance for self-service engagements](self-service-engagement.md)  

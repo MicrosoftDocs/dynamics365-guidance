@@ -154,7 +154,7 @@ If you want to implement Dynamics 365 solutions to assist with your *service to 
 
 4. Get an overview of each end-to-end business process area at [Service to cash business process areas overview](service-to-cash-areas-overview.md).  
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the service to cash process in Dynamics 365.
 

@@ -78,7 +78,7 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 - [Dynamics 365 Customer Service implementation optimization resources](../resources/cs-index.yml)  
 
 
-## Related resources
+## Related information
 
 Review the following related architecture guides, solutions, and other guidance content:
 

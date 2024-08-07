@@ -61,7 +61,7 @@ In this scenario, you retain your existing solution for customer relationship ma
 
 [!INCLUDE [daf-azure](../includes/daf-azure.md)]
 
-## Related resources
+## Related information
 
 - [Introduction to reference architectures for digital contact centers](contact-center-overview.md)  
 - [Dynamics 365 Contact Center documentation](/dynamics365/contact-center/)  

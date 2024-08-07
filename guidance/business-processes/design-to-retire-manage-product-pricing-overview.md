@@ -127,7 +127,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *manag
 
 5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *manage product pricing* processes in Dynamics 365.
 

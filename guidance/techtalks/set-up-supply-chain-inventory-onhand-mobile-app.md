@@ -54,7 +54,7 @@ As we look to the future, the continuous evolution of the app promises to delive
 
 For a deep dive into utilizing the Inventory On-hand mobile app to its full potential, visit the official [Dynamics 365 Supply Chain Management documentation](/dynamics365/supply-chain). Here, you'll find comprehensive guides, tutorials, and resources designed to maximize the value of this innovative app in your inventory management strategy.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

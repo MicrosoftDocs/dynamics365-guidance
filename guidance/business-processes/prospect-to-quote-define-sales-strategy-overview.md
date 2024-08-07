@@ -92,7 +92,7 @@ If you want to implement Dynamics 365 solutions to help with your *define sales 
 
 6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *define a sales strategy* process in Dynamics 365.
 

@@ -66,7 +66,7 @@ Maintaining the Dynamics 365 platform is vital for its optimal performance. Regu
 
 When a business sets up and uses Dynamics 365 in an effective way, they can significantly enhance their digital commerce efficiency and customer satisfaction. The platform's comprehensive suite of tools and features, when used to their full potential, can revolutionize a company's digital B2B selling capabilities.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

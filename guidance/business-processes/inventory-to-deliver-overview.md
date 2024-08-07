@@ -244,7 +244,7 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 
 2. [Inventory to deliver business process areas](inventory-to-deliver-areas.md)
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *inventory to deliver* process in Dynamics 365.
 

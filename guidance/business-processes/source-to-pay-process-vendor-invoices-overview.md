@@ -164,7 +164,7 @@ If you want to implement Dynamics 365 solutions to assist with your process vend
 
 - Vendor open transactions report-->
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the process vendor invoices process in Dynamics 365.
 

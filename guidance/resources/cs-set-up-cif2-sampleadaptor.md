@@ -151,7 +151,7 @@ The *signalRadaptor.js* JavaScript file sets up a SignalR client for communicati
 - **SignalR connection management**: Includes functions to start and manage the SignalR connection. Examples include `startConnection`, which initiates the connection, and `connectToSignalR`, which manages the negotiation process with Azure Functions and connects to the SignalR hub.
 - **Message handling**: Defines methods to manage the sending of messages to the server (`acknowledgeMessageReceived`) and registration of the client with the server (`registerClient`).
 
-## Related resources
+## Related information
 
 - [Quickstart: Create an app showing GitHub star count with Azure Functions and SignalR Service via C#](/azure/azure-signalr/signalr-quickstart-azure-functions-csharp?tabs=in-process)
 - [Introduction to the voice channel](/dynamics365/customer-service/voice-channel)

@@ -60,7 +60,7 @@ Various resources are available to help users maximize the potential of this app
 
 The new demand planning capabilities in Dynamics 365 Supply Chain Management represent a significant advancement in supply chain forecasting and management. Thanks to its comprehensive process, which ranges from data integration to practical application, together with upcoming enhancements, this tool is poised to become a cornerstone in modern supply chain operations.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

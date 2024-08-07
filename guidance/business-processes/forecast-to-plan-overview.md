@@ -133,7 +133,7 @@ If you want to implement Dynamics 365 solutions to assist with your *forecast to
 
 4. Get an overview of the *forecast to plan* business process areas. Learn more at [Forecast to plan business process areas](forecast-to-plan-areas.md).
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *forecast to plan* process in Dynamics 365.
 

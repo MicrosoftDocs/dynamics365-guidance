@@ -122,7 +122,7 @@ If you would like to implement Dynamics 365 solutions to assist with managing wo
 
 7. *Manage employee benefits, compensation, and payroll* (the article you're currently reading).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about manage worker compensation, benefits, and payroll processes within Dynamics 365 Human Resources.
 

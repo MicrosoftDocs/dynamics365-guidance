@@ -1,10 +1,10 @@
 ﻿---
-title: Process maturity introduction and overview
-description: Learn what process maturity is, how to measure it, and how to create a process management team to improve it when implementing Microsoft business applications.
+title: Process maturity overview
+description: Learn what process maturity is, how to measure it, and how to create a process management team to improve it during implementation projects with Dynamics 365.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 04/03/2024
+ms.date: 08/07/2024
 ai-usage: ai-assisted
 ---
 
@@ -14,7 +14,7 @@ ai-usage: ai-assisted
 
 Process maturity is the degree of sophistication, consistency, and efficiency of an organization's processes. It affects how well an organization can manage its processes to achieve strategic goals and deliver quality products or services, and includes concepts such as change management, continuous improvement, and process improvement. A mature process is predictable, controlled, and continuously improved, allowing the organization to optimize its operations and enhance its competitive edge. Microsoft business applications help organizations digitally transform their business processes. To get the most out of these solutions, organizations need to ensure that they have effective process governance, change management, and process management in place.
 
-This article explains what process maturity is and how you can measure it using various models. It also describes how you can create a process management team to improve your process maturity level when implementing Microsoft business applications.
+This article explains what process maturity is and how you can measure it using various models. It also describes how you can create a process management team to improve your process maturity level in implementation projects with Dynamics 365.
 
 ## How to measure process maturity
 
@@ -44,9 +44,9 @@ A process management team is a dedicated group of people within an organization 
 
 - **Increased adoption**: By simplifying processes and improving communication, the team can facilitate the adoption of new technology solutions like Dynamics 365.
 
-When implementing Dynamics 365 or Power Platform solutions, we recommend that you consider the benefits of creating a process management team. If you have a small organization where a fully dedicated team isn't feasible, you can also create champions or virtual teams to drive process improvement in key areas of your business that align with your project goals.
+In implementation projects with Dynamics 365 or Power Platform, we recommend that you consider the benefits of creating a process management team. If you have a small organization where a fully dedicated team isn't feasible, you can also create champions or virtual teams to drive process improvement in key areas of your business that align with your project goals.
 
-## How to create a process management team
+## Create a process management team
 
 When you create a process management team within your organization, follow these tips:
 
@@ -74,7 +74,7 @@ Business processes play a pivotal role in maximizing the benefits of technology 
 
 Create a process management team when you implement Dynamics 365 to help ensure the implementation is successful while also creating a culture of continuous improvement and optimized processes.
 
-## Related resources
+## Related information
 
 - [Capability maturity model integration (CMMI)](https://cmmiinstitute.com/)
 <!-- the following link appears to be outdated - [IT Infrastructure Library (ITIL)](https://www.peoplecert.org/ITIL-4) -->
@@ -87,7 +87,6 @@ Create a process management team when you implement Dynamics 365 to help ensure 
 - [https://aka.ms/businessprocesscatalogtemplates](https://aka.ms/businessprocesscatalogtemplates)
 - [https://aka.ms/businessprocesscatalogsubmit](https://aka.ms/businessprocesscatalogsubmit)
 - [https://aka.ms/businessprocessflow](https://aka.ms/businessprocessflow)
-
 
 ## Contributors
 

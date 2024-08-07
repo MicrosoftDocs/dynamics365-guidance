@@ -183,7 +183,7 @@ The following patterns are available to help guide your implementation of the *o
 
 - Welcome new employees
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *onboard new hires* and other processes in Dynamics 365 Human Resources:
 

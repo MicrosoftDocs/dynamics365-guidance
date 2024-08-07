@@ -184,7 +184,7 @@ You should now have a working export to CSV. You can schedule the export to run 
 
 The serverless SQL pool may need time to warm up if you haven't used it for a while. As a result, it can happen that the first time you run a query, you'll receive an error message saying that the SQL pool is warming up. To properly handle this scenario, make sure that you enable retries in Azure Data Factory in steps where you're querying the database. Once the SQL pool is warmed up, all subsequent queries usually succeed immediately.
 
-## Related resources
+## Related information
 
 - For more information about Dynamics 365, see [Dynamics 365 on Microsoft Learn](/training/dynamics365).
 

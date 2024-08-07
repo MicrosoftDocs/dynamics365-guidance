@@ -192,7 +192,7 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 2. [Project to profit end-to-end overview](project-to-profit-overview.md)
 3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *project to profit* process in Dynamics 365.
 

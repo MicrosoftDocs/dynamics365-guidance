@@ -39,7 +39,7 @@ To create both the shared product and releasing the product to a specific legal 
 
 - Released engineering products creation V2  
 
-## Related resources
+## Related information
 
 - [Product data entities](/dynamics365/supply-chain/pim/data-entities)
 

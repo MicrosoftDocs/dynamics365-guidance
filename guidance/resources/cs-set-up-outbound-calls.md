@@ -59,7 +59,7 @@ The following screenshot shows the control that renders a phone symbol for a con
 
 :::image type="content" source="../media/outbound-calls-use-control.png" alt-text="Screenshot that shows the Contact form with a phone symbol next to the Mobile Phone field.":::
 
-## Related resources
+## Related information
 
 - [Create and build a code component](/power-apps/developer/component-framework/create-custom-controls-using-pcf)
 - [Package a code component](/power-apps/developer/component-framework/import-custom-controls)

@@ -83,7 +83,7 @@ Consider the following points when deciding how to implement this pattern:
 
   You can specify a currency exchange rate type to be used for calculating customer balances in multiple currencies. Consider how the exchange rate will be managed and maintained. In most cases, for the most accurate balance calculations, consider using the same currency exchange rate type that you select in the Ledger for default transactions.
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the processes for setting customer credit limits in Dynamics 365.
 

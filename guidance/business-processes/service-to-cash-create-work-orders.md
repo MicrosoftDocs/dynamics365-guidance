@@ -140,7 +140,7 @@ If you want to implement Dynamics 365 solutions to help with your *Create work o
 
 5. *Analyze service operations*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Create work orders* process in Dynamics 365.
 

@@ -39,7 +39,7 @@ Use the **Customers V3** entity when any of the approximately 80 fields that are
 
 - Learn how you can use entities to import general journals [Import general journals](import-general-journals.md)  
 
-## Related resources
+## Related information
 
 - [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions)
 - [Data import and export jobs overview](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job)

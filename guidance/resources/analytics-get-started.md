@@ -53,7 +53,7 @@ Do a detailed fit-gap analysis at an early stage of the implementation. Omnichan
 
 By identifying the reporting gaps during the early stages, the team can better plan and list all the capabilities and costs that are needed to achieve the organization's analytics goals. By proactively addressing these gaps, you can ensure a smoother implementation and customization process.
 
-## Related resources
+## Related information
 
 The following resources can help you learn more about the built-in analytics capabilities of Omnichannel for Dynamics 365 Customer Service.
 

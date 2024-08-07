@@ -38,7 +38,7 @@ Beyond the standard integration patterns, Dynamics 365 finance and operations al
 
 The integration patterns within Dynamics 365 finance and operations are a testament to the application's versatility and capability to address specific business needs. From facilitating real-time interactions to managing extensive data sets, these patterns ensure a seamless and efficient operational workflow. For those seeking in-depth guidance and insights, the Dynamics 365 TechTalk community page serves as a valuable resource, complete with detailed explanations and demonstrations.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

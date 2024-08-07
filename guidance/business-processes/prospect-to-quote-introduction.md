@@ -81,7 +81,7 @@ If you want to implement Dynamics 365 solutions to assist with your *prospect to
 
 2. [Dynamics 365 Sales](/training/dynamics365/sales/)
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the prospect to quote process in Dynamics 365.
 

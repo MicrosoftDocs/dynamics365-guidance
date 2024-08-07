@@ -110,7 +110,7 @@ Step #3 in this list is where your business process specifics can add complexity
 
 Your business process dictates the triggers for assignment and closure and should be accounted for in either the flow or the plug-in code to accommodate your requirements.
 
-## Related resources
+## Related information
 
 - [Unified Routing](/dynamics365/customer-service/administer/overview-unified-routing)
 - [Release capacity for agents](/dynamics365/customer-service/administer/capacity-profiles?tabs=customerserviceadmincenter#release-capacity-for-agents)

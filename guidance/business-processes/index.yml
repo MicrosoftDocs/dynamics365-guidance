@@ -24,7 +24,7 @@ landingContent:
       links:
       - text: Introduction
         url: overview.md
-      - text: Use the business process guide
+      - text: About the business process guide
         url: about.md
       - text: Glossary of terms
         url: glossary.md
@@ -32,7 +32,7 @@ landingContent:
         url: about-steps-navigation.md
     - linkListType: concept
       links:
-      - text: Introduction to process maturity
+      - text: Process maturity overview
         url: process-maturity-introduction.md
       - text: Standardize business processes
         url: standardize-business-processes.md

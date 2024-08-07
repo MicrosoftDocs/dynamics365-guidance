@@ -53,7 +53,7 @@ In this scenario, you retain your contact center as a service (CCaaS) solution a
 
 In this Dynamics 365 Contact Center architecture, we **do not** assume that the solution uses the core capabilities of Microsoft Azure.
 
-## Related resources
+## Related information
 
 - [Welcome to Dynamics 365 Customer Service](/dynamics365/customer-service/implement/overview)  
 - [Get started with Customer Service workspace](/dynamics365/customer-service/implement/csw-overview)  

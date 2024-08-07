@@ -105,7 +105,7 @@ If you want to implement Dynamics 365 solutions to assist with your *hire to ret
 
 5. Learn more about [Hire to retire business process areas](hire-to-retire-areas.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *hire to retire* process in Dynamics 365.
 

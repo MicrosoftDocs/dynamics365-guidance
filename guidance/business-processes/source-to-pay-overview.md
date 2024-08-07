@@ -211,7 +211,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Source to 
 
 4. [Source to pay business process areas](source-to-pay-areas.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Source to pay* process in Dynamics 365.
 

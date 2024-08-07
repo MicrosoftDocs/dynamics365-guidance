@@ -116,7 +116,7 @@ The best practice is to activate any integration that is involved in the user sc
 
 Also consider the fact that you're working with test data. Be cautious about sending load test data to production integration endpoints. For example, think carefully before you send load test emails to customers, validate fake addresses, or send text messages to real customers during a load test.
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about test configuration and engagement channels in Dynamics 365:
 

@@ -180,7 +180,7 @@ If you want to implement Dynamics 365 solutions to assist with your *introduce n
 
 5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the Introduce new products process in Dynamics 365.
 

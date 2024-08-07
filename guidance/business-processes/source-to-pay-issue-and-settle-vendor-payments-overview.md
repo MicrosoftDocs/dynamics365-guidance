@@ -152,7 +152,7 @@ If you want to implement Dynamics 365 solutions to assist with your *issue and s
 1. *Process vendor rebates and incentives*
 1. *Analyze vendor performance*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *issue and settle vendor payments* process in Dynamics 365.
 
