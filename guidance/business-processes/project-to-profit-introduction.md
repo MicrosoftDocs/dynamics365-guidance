@@ -110,7 +110,7 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 
 3. Get an overview of the *project to profit* process. Learn more at [Project to profit end-to-end overview](project-to-profit-overview.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *project to profit* process in Dynamics 365.
 

@@ -130,7 +130,7 @@ After you have completed the setup and configuration for the *schedule service w
 
 2. *Review and close service requests*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Schedule work orders* process in Dynamics 365.
 

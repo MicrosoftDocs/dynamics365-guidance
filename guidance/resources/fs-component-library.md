@@ -39,7 +39,7 @@ Here in the Dynamics 365 guidance hub, we provide articles based on samples and 
 
 Learn more at [Set up test automation with Playwright](test-automation-setup.md).  
 
-## Related resources
+## Related information
 
 - [Use the schedule board in Field Service](/dynamics365/field-service/work-with-schedule-board)  
 - [Universal Resource Scheduling for Dynamics 365 Field Service overview](/dynamics365/field-service/universal-resource-scheduling-for-field-service)  

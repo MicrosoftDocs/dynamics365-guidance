@@ -4,7 +4,7 @@ description: Learn about the business process areas that make up the service to 
 ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ms.reviewer: edupont
 ms.custom: ai-gen-docs-bap
 ai-usage: ai-assisted
@@ -114,7 +114,7 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 2. [Service to cash end-to-end overview](service-to-cash-overview.md)  
 3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the *service to cash* process in Dynamics 365.
 

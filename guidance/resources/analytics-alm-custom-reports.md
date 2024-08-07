@@ -372,7 +372,7 @@ steps:
       Update-DVReportReferences -pbiAccessToken $PBIAccessToken -dvAuthResponseObject $CRMAccessToken -workspaceId $workspaceId -dataVerseURL $PowerPlatformEnvironmentUrl  -featureId $featureId
 ```
 
-## Related resources
+## Related information
 
 The following resources can help you learn more about the built-in analytics capabilities of Omnichannel for Dynamics 365 Customer Service.
 

@@ -124,7 +124,7 @@ If you want to implement Dynamics 365 solutions to help with your *track produc
 
 Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *plan to produce* process in Dynamics 365.
 

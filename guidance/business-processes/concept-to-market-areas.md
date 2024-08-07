@@ -52,7 +52,7 @@ If you want to implement Dynamics 365 solutions to assist with your *concept to 
 3. [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md)
 4. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *concept to market* process in Dynamics 365.
 

@@ -137,7 +137,7 @@ If you want to implement Dynamics 365 solutions to assist with your *hire to ret
 
 7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *hire to retire* process in Dynamics 365.
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: Add crew information to resource cells
 description: Get sample code to help you customize information and how it looks in the schedule board in Dynamics 365 Field Service.
-ms.date: 07/08/2024
+ms.date: 08/07/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: jwride
@@ -22,11 +22,11 @@ In this sample template, the resource card shows if the resource is a member of 
 
 - Prepare the environment.
 
-  You must create your resources and crews and ensure membership of resources within those crews is configured for this customization to work. Find links to articles that can help you set up resources or crews in the [Related resources](#related-resources) section.
+  You must create your resources and crews and ensure membership of resources within those crews is configured for this customization to work. Find links to articles that can help you set up resources or crews in the [Related information](#related-information) section.
 
-- Understand *handlebar expressions* since that helps you understand how the sample code works. You can find many references and tutorials online if needed, including one in the [Related resources](#related-resources) section.
+- Understand *handlebar expressions* since that helps you understand how the sample code works. You can find many references and tutorials online if needed, including one in the [Related information](#related-information) section.
 
-- Understand FetchXML to query data and Unified FetchXML (UFX) queries (FetchXML + XPath) to dynamically query data to extend the schedule board and schedule assistant. The [Related resources](#related-resources) section has links related to FetchXML and UFX.
+- Understand FetchXML to query data and Unified FetchXML (UFX) queries (FetchXML + XPath) to dynamically query data to extend the schedule board and schedule assistant. The [Related information](#related-information) section has links related to FetchXML and UFX.
 
 ## Use case
 
@@ -159,7 +159,7 @@ This also demonstrates the supported use of style sheets to make adjustments suc
 
 You can also add a custom web resource and use an image in place of Font Awesome icons used in this example.
 
-## Related resources
+## Related information
 
 - [Set up bookable resources](/dynamics365/field-service/set-up-bookable-resources)
 

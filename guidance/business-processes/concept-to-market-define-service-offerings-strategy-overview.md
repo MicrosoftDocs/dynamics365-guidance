@@ -68,7 +68,7 @@ If you want to implement Dynamics 365 solutions to assist with your *define serv
 
 5. [Manage service lifecycle](concept-to-market-manage-service-lifecycle-overview.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *define service offerings and strategy* business process area in Dynamics 365.
 

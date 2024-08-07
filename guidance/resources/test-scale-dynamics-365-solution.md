@@ -111,7 +111,7 @@ Use distributed testing in any of the following situations:
 - You want to simulate a higher volume of users.
 - Local CPU and memory resources are limited.
 
-## Related resources
+## Related information
 
 - [Scale load tests in Dynamics 365 implementations](test-load-tests-scaling.md)
 - [Key concepts for new Azure Load Testing users](/azure/load-testing/concept-load-testing-concepts)

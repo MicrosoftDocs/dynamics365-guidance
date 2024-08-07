@@ -165,7 +165,7 @@ If you would like to implement Dynamics 365 solutions to assist with your introd
 
 5. Manage service lifecycle
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the Introduce new services process in Dynamics 365.
 

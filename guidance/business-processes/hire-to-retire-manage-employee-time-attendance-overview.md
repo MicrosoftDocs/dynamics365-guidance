@@ -127,7 +127,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *manag
 
 7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *manage employee time and attendance* process in Dynamics 365.
 

@@ -39,6 +39,6 @@ You can upgrade to Business Central online from supported versions of Dynamics N
 
 Learn more at [Migrate Dynamics NAV to Business Central online](/dynamics365/business-central/dev-itpro/administration/migrate-nav).  
 
-## Related resources
+## Related information
 
 - [Product and Services Lifecycle Information](/lifecycle/products/?products=dynamics)  

@@ -108,7 +108,7 @@ By default, the VS Code test runner runs your tests in Chromium-based browsers. 
 
 A checkmark next to a file in the Test Explorer indicates the test ran successfully.
 
-## Related resources
+## Related information
 
 - [Playwright overview](https://playwright.dev/docs/intro)
 

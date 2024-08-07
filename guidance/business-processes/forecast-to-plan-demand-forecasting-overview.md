@@ -60,7 +60,7 @@ There are various components that are used in the configuration of demand foreca
 | 8 | [Forecasting algorithm parameters](/dynamics365/supply-chain/master-planning/demand-forecasting-setup) | Y | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Forecasting algorithm parameters** |
 | 9 | Period allocation categories | N | FO | **Master planning &gt; Setup &gt; Demand forecasting &gt; Period allocation categories** |
 
-## Related resources
+## Related information
 
 - Find definitions of terminology used in content for *demand forecasting* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 

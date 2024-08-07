@@ -83,7 +83,7 @@ Optionally, add your LinkedIn profile so that you can be listed as the original 
 
 Learn more at [External contributions to Microsoft's documentation](/dynamics365/get-started/contribute).  
 
-## Related resources
+## Related information
 
 - [Understand concepts and terminology used in the Dynamics 365 business process guide](about-steps-navigation.md)  
 - [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md)  

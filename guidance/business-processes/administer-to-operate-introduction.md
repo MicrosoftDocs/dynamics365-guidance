@@ -78,7 +78,7 @@ Engaging these stakeholders ensures a holistic approach to *administer to operat
 
 - [Get an overview of the *administer to operate* process](administer-to-operate-overview.md).
 
-### Related resources
+### Related information
 
 - [What is the administration guide?](../implementation-guide/admin-guide-overview.md)
 - [Service the solution](../implementation-guide/service-solution.md)

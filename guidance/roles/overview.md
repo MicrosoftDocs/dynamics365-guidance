@@ -50,7 +50,7 @@ In guidance content, you will also find articles, such as business processes, th
 | IT stakeholders | CIO, Director IT, ERP Manager, Technology managers |
 | Administrative stakeholders | System admin, Microsoft 365 admin |
 
-## Related resources
+## Related information
 
 [Available certifications for different roles in Dynamics 365](certifications.md)  
 [Solution architects in Dynamics 365](solution-architect.md)  

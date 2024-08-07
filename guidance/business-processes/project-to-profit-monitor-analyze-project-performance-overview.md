@@ -115,7 +115,7 @@ If you want to implement Dynamics 365 solutions to assist with your *monitor and
 
 6. *Monitor and analyze project performance* (the article that you're currently reading)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *monitor and analyze project performance* process in Dynamics 365.
 

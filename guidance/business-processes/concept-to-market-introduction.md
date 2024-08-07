@@ -79,7 +79,7 @@ If you want to implement Dynamics 365 solutions to assist with your *concept to 
 
 4. Get an overview of the product and service lifecycle management process. Learn more at [concept to market overview](concept-to-market-overview.md).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the product and service lifecycle management process in Dynamics 365.
 

@@ -102,7 +102,7 @@ If you want to implement solutions with Dynamics 365 to help with your *forecas
 
 5. [Plan supply and replenishment](forecast-to-plan-areas.md#plan-supply-and-replenishment)
 
-## Related resources
+## Related information
 
 The following resources can help you learn more about the *establish stocking and replenishment policies* process area in Dynamics 365.
 

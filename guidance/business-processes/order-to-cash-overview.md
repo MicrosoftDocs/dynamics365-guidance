@@ -133,7 +133,7 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 4. [Get an overview of the order to cash business process areas](order-to-cash-areas-overview.md).
 
-## Related resources
+## Related information
 
 - [Configure and manage the order to cash process in Dynamics 365 Supply Chain Management (online training)](/training/modules/configure-manage-order-cash-dyn365-supply-chain-mgmt)
 

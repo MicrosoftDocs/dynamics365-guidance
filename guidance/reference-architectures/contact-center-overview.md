@@ -46,7 +46,7 @@ If you want to retain your existing CRM and CCaaS solutions but improve or add c
 
 - View the reference architecture with Copilot for Service and Microsoft Copilot Studio on existing CCaaS and CRM. -->
 
-## Related resources
+## Related information
 
 - [Dynamics 365 Contact Center documentation](/dynamics365/contact-center/)  
 - [Dynamics 365 guidance documentation](/dynamics365/guidance/)  

@@ -115,7 +115,7 @@ If you would like to implement Dynamics 365 solutions to assist with the *define
 
 7. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *define procurement and sourcing strategy* business process in Dynamics 365.
 

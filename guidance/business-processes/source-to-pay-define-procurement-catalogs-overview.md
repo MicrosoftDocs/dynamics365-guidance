@@ -117,7 +117,7 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 11. *Analyze vendor performance*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *define procurement catalogs* process in Dynamics 365.
 

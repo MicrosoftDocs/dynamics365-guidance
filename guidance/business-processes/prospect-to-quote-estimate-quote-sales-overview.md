@@ -101,7 +101,7 @@ If you want to implement Dynamics 365 solutions to help with your *estimate and 
 
 6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
 
-## Related resources
+## Related information
 
 - [Manage quote, order, and invoice](/dynamics365/sales/sales-transactions)
 - [Create or edit quotes](/dynamics365/sales/create-edit-quote-sales)

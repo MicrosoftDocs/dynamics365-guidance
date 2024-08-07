@@ -43,7 +43,7 @@ After conducting usability tests and gathering feedback, refine your app's UI to
 
 By embracing an iterative design approach that's driven by testing and user feedback, you continuously improve the app. Continuous improvement ensures that the app evolves to meet changing user needs and remains competitive in the dynamic business environment.
 
-## Related resources
+## Related information
 
 - [UI/UX design components for model-driven apps](ui-ux-component-details-model-driven-apps.md)
 - [UI/UX design components for canvas apps](ui-ux-component-details-canvas-apps.md)

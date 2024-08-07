@@ -2,7 +2,7 @@
 title: Performance testing in Dynamics 365 Supply Chain Management
 description: Learn about JMeter and warehouse app Task Validation and how they can enhance the performance of your Dynamics 365 Supply Chain Management projects.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted
@@ -60,7 +60,7 @@ Performance testing using JMeter and the warehouse app task validation framework
 
 For further reading and detailed guides on configuring JMeter for Dynamics 365 Supply Chain Management, refer to the official [JMeter documentation](https://jmeter.apache.org) and the [Dynamics 365 Supply Chain Management user guides and tutorials](/dynamics365/supply-chain/).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

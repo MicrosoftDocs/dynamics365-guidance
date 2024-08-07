@@ -128,7 +128,7 @@ If you want to implement Dynamics 365 solutions to assist with your *manage syst
 1. *Manage system compliance* (the article that you're currently reading)
 1. [Support systems](administer-to-operate-support-systems-overview.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *manage system compliance* process in Dynamics 365.
 

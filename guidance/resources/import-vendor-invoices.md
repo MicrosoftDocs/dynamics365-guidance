@@ -35,7 +35,7 @@ Vendor invoices can also have charges and attachments that must be imported. The
 
 - Import vendor payments<!--TODO: add links-->  
 
-## Related resources
+## Related information
 
 - [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions)
 

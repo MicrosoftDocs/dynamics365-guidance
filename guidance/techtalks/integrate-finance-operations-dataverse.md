@@ -81,7 +81,7 @@ Security is paramount in any data integration strategy. Ensuring data security w
 
 Integrating Dataverse effectively is key for businesses using Microsoft's ecosystem. This guide provides a thorough exploration of Dataverse integration patterns, aiming to ensure robust, scalable, and secure data management across applications. For ongoing learning and support, Microsoft's official documentation and community forums are invaluable resources.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

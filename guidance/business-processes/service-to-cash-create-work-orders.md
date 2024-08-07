@@ -4,7 +4,7 @@ description: Deprecated article that is replaced by service-to-cash-create-proce
 ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ---
 <!-- DEPRECATED AND REPLACED BY service-to-cash-create-process-service-work.md-->
 # Deprecated business process area article
@@ -140,7 +140,7 @@ If you want to implement Dynamics 365 solutions to help with your *Create work o
 
 5. *Analyze service operations*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Create work orders* process in Dynamics 365.
 

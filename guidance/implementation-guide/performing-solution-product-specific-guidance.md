@@ -106,7 +106,7 @@ Performance testing is crucial to ensure your solution meets your performance go
 
 Performance issues are hard to solve and can stress your implementation team at critical moments of the project. With the right priority and planning, you can make performance part of your implementation strategy, leading to a more confident launch and greater project success.
 
-## Related resources
+## Related information
 
 - [Monitoring and diagnostics tools in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics)
 - [Performance troubleshooting using tools in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/performancetroubleshooting)

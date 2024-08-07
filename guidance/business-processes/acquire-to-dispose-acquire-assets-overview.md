@@ -168,7 +168,7 @@ If you would like to implement Dynamics 365 solutions to assist with your acquir
 5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)  
 6. Retire and dispose of assets
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *acquire assets* process in Dynamics 365.
 

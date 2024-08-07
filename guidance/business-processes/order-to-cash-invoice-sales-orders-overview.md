@@ -110,7 +110,7 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 5. Get an [overview of the order to cash process](order-to-cash-overview.md).
 
-## Related resources
+## Related information
 
 - [Create a customer invoice](/dynamics365/finance/accounts-receivable/configure-customer-invoices)
 

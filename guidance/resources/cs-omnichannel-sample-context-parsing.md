@@ -41,6 +41,6 @@ Another useful method is [Microsoft.Omnichannel.getConversationId()](/dynamics36
     Microsoft.Omnichannel.getConversationId();
 ```
 
-## Related resources
+## Related information
 
 - [App profile manager JavaScript API](/dynamics365/app-profile-manager/reference/microsoft-apm)

@@ -38,7 +38,7 @@ For one item, a company might have different types of forecasts, such as the sta
 
 Create forecast models, set up integrations to load forecasts to unique forecast models for that integration, create business rules for when different forecast models should be used for other types of forecasts.
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about demand forecasting in Dynamics 365 Supply Chain Management.
 

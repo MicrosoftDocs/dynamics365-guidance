@@ -2,7 +2,7 @@
 title: Import the business process catalog in Mavim using a Power Automate flow
 description: Learn how you can use Microsoft's business process catalog in Mavim, an independent software vendor found on the Azure Marketplace.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: article
 ms.date: 05/13/2024
 ---

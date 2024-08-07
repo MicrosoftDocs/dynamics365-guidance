@@ -693,7 +693,7 @@ items:
           items:
           - name: Introduction
             href: business-processes/overview.md
-          - name: Use the business process guide
+          - name: About the business process guide
             href: business-processes/about.md
           - name: Glossary of terms
             href: business-processes/glossary.md
@@ -711,7 +711,7 @@ items:
             href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
           - name: Define your requirements
             href: implementation-guide/process-focused-solution-define-requirements.md
-          - name: Introduction to process maturity
+          - name: Process maturity overview
             href: business-processes/process-maturity-introduction.md
           - name: Standardize business processes during an implementation
             href: business-processes/standardize-business-processes.md
@@ -823,18 +823,24 @@ items:
             href: business-processes/hire-to-retire-areas.md
           - name: Plan and recruit your workforce
             href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
-          - name: Manage travel and expenses
-            href: business-processes/hire-to-retire-manage-travel-expenses.md
-          - name: Manage occupational health and safety
-            href: business-processes/hire-to-retire-manage-occupational-health-safety.md
-          - name: Manage employee time and attendance overview
-            href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
-          - name: Manage worker compensation, benefits, and payroll
-            href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+          - name: Onboard and manage the employee lifecycle
+            items:
+            - name: Onboard and manage the employee lifecycle
+              href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
+            - name: Onboard new hires
+              href: business-processes/hire-to-retire-onboard-new-hires.md
+            - name: Update employee records
+              href: business-processes/hire-to-retire-update-employee-records.md
           - name: Manage employee performance and growth
             href: business-processes/hire-to-retire-manage-employee-performance-growth.md
-          - name: Onboard and manage the employee lifecycle
-            href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
+          - name: Manage occupational health and safety
+            href: business-processes/hire-to-retire-manage-occupational-health-safety.md
+          - name: Manage worker compensation, benefits, and payroll
+            href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+          - name: Manage employee time and attendance overview
+            href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
+          - name: Manage travel and expenses
+            href: business-processes/hire-to-retire-manage-travel-expenses.md
         - name: Inventory to deliver
           items:
           - name: End-to-end scenario - inventory to deliver (ID 60)

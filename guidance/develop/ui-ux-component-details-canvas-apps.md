@@ -85,7 +85,7 @@ There are two more controls that you can add to enhance your canvas apps:
 
 - **Copilot control**: The Copilot control is a next-generation AI assistant that you can add to your canvas apps. It's an AI-powered experience that lets app users get insights about the data in the apps through conversation in natural language. Learn more in [Add Copilot control for canvas app users](/power-apps/maker/canvas-apps/add-ai-copilot).
 
-## Related resources
+## Related information
 
 - [UI/UX design components for model-driven apps](ui-ux-component-details-model-driven-apps.md)
 - [UI/UX design components for tests and user feedback](ui-ux-component-details-testing-feedback.md)

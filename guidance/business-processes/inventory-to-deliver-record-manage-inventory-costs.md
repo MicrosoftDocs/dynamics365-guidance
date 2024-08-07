@@ -143,7 +143,7 @@ If you want to implement Dynamics 365 solutions to assist with your *record and 
 
 7. *Record and manage inventory costs* (the article that you're currently reading)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *record and manage inventory costs* processes in Dynamics 365.
 

@@ -53,7 +53,7 @@ This architecture retains your existing solution for customer relationship manag
 
 In this Dynamics 365 Contact Center architecture, we **do not** assume that the solution uses the core capabilities of Microsoft Azure.
 
-## Related resources
+## Related information
 
 - [Introduction to reference architectures for digital contact centers](contact-center-overview.md)  
 - [Dynamics 365 Contact Center documentation](/dynamics365/contact-center/)  

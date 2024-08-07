@@ -113,7 +113,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Manage trav
 6. *Manage travel and expenses* (the article that you're currently reading)
 7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Manage travel and expenses* process in Dynamics 365.
 

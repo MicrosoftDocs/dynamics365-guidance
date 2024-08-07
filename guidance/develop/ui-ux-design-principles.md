@@ -235,7 +235,7 @@ Learn more:
 - [Microsoft Accessibility](https://www.microsoft.com/accessibility/)
 - [Web Content Accessibility Guidelines (WCAG) 2 requirements](https://www.w3.org/WAI/WCAG21/quickref/)
 
-## Related resources
+## Related information
 
 - [UI/UX design components for model-driven apps](ui-ux-component-details-model-driven-apps.md)  
 - [UI/UX design components for canvas apps](ui-ux-component-details-canvas-apps.md)  

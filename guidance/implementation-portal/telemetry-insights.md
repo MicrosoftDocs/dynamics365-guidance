@@ -98,7 +98,7 @@ Choose the **Ideas** button to provide feedback on the telemetry insights. Alter
 
 You can apply filters to narrow down results by tenant, environment, and purpose. Search can locate result names and descriptions.  
 
-## Related resources
+## Related information
 
 - [Data sharing consent](data-sharing-consent.md)  
 - [Manage projects in Dynamics 365 Implementation Portal](manage-projects.md)  

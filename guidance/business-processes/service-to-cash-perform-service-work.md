@@ -209,7 +209,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Perform ser
 
 5. *Review and close service requests*
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Perform service work* process in Dynamics 365.
 

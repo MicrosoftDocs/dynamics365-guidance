@@ -137,7 +137,7 @@ If you want to implement Dynamics 365 solutions to help with your *plan and budg
 5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)
 6. [Retire and dispose of assets](acquire-to-dispose-retire-dispose-assets.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *plan and budget assets* process in Dynamics 365.
 

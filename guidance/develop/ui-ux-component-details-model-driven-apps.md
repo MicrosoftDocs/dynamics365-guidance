@@ -275,7 +275,7 @@ Here are some best practices for designing effective business process flows in m
 
 - **Take advantage of user roles and security.** Configure business process flows to align with user roles and security settings. You can control which users or teams have access to specific business process flows, ensuring that the process guidance is relevant to their roles.
 
-## Related resources
+## Related information
 
 - [UI/UX design components for canvas apps](ui-ux-component-details-model-driven-apps.md)
 - [UI/UX design components for tests and user feedback](ui-ux-component-details-testing-feedback.md)

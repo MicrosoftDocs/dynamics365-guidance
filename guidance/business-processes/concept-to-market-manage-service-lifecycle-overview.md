@@ -123,7 +123,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *manag
 
 5. *Manage service lifecycle* (the article you're currently reading).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *manage service lifecycle* processes in Dynamics 365.
 

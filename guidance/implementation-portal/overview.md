@@ -95,7 +95,7 @@ Select the name of a user to open the user profile page, where you can provide o
 * [Conduct project reviews](conduct-project-reviews.md)  
 * [Telemetry insights overview (preview)](telemetry-insights.md)  
 
-## Related resources
+## Related information
 
 [Dynamics 365 Implementation Portal](overview.md)  
 [What is FastTrack for Dynamics 365?](../fasttrack/overview.md)

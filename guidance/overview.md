@@ -94,7 +94,7 @@ Wherever you are in the guidance content, the navigation panel shows links to th
 
 Our content is available as Markdown and YAML files in [a public GitHub repo](https://github.com/MicrosoftDocs/dynamics365-guidance). A benefit of GitHub is the ability for you to contribute to the content that the Microsoft team provides. There's good advice and best practices published in the [Microsoft Learn contributor guide](/contribute/). Learn more at [Contribute to Microsoft content for Dynamics 365](/dynamics365/get-started/contribute).
 
-## Related resources
+## Related information
 
 [Overview of roles in Dynamics 365](roles/overview.md)  
 [Available certifications for different roles in Dynamics 365](roles/certifications.md)  

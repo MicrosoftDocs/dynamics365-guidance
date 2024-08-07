@@ -2,7 +2,7 @@
 title: Set up business-to-business digital selling with Dynamics 365
 description: Learn about the intricacies of setting and harnessing Dynamics 365 to enhance your B2B commerce capabilities, including deploying the Commerce Scale Unit.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted
@@ -66,7 +66,7 @@ Maintaining the Dynamics 365 platform is vital for its optimal performance. Regu
 
 When a business sets up and uses Dynamics 365 in an effective way, they can significantly enhance their digital commerce efficiency and customer satisfaction. The platform's comprehensive suite of tools and features, when used to their full potential, can revolutionize a company's digital B2B selling capabilities.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

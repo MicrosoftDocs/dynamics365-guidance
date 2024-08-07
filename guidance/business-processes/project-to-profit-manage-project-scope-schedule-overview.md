@@ -93,7 +93,7 @@ If you want to implement Dynamics 365 solutions to help with your *Manage projec
 
 Return to the overview of business process areas at [Project to profit business process areas](project-to-profit-areas.md).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Manage project resources and schedule* process in Dynamics 365.
 

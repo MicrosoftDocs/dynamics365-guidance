@@ -66,7 +66,7 @@ The following screenshot shows the fire icon populated from an incident type usi
 > [!TIP]
 > Custom HTML is sanitized automatically, so unsupported code might get stripped out. You can receive an error message if your customization results in sanitization. Update the code to remove any unsupported code, and then save again.
 
-## Related resources
+## Related information
 
 - [Edit schedule board booking templates](/dynamics365/field-service/booking-template)
 

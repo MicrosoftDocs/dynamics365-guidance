@@ -123,7 +123,7 @@ If you want to implement Dynamics 365 solutions to assist with your *govern proj
 
 6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *govern projects* process in Dynamics 365.
 

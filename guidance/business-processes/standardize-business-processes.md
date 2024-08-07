@@ -148,7 +148,7 @@ Here are some of our recommendations to consider when undertaking the standardiz
 
 - Implement mechanisms for continuous improvement to refine standardized processes over time. Regular reviews and feedback loops help identify areas for optimization and ensure that processes remain aligned with organizational goals.
 
-## Recommended resources
+## Related information
 
 - [TechTalk Series: Training Plans and Content for your Finance & Operations Project (dynamics.com)](https://community.dynamics.com/blogs/post/?postid=e2cd9833-8635-46a9-a8a3-1df7e870b8f7)
 

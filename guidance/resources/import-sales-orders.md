@@ -36,7 +36,7 @@ You must first create the headers of sales orders before you import the lines. S
 
 - Import customer payments<!--TODO: add links-->  
 
-## Related resources
+## Related information
 
 - [Create sales orders](/dynamics365/supply-chain/sales-marketing/tasks/create-sales-orders)
 

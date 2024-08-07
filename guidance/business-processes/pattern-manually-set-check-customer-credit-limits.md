@@ -97,7 +97,7 @@ Consider the following points when deciding how to implement this pattern:
 
   To prevent a document from posting, set the **Message when exceeding credit limit** field to *Error*. For example, the field is set to *Warning*, and a customer exceeds their credit limit. In this case, when you generate a packing slip for a customer, the user receives a warning that the credit limit is exceeded. However, the packing slip is still generated. If you do not have a manual process and training in place for your users, the product might still be shipped to your customer, increasing your risk for an unpaid balance.
 
-## Related resources
+## Related information
 
 Use the following resources to learn more about the processes for setting customer credit limits in Dynamics 365.
 

@@ -18,7 +18,7 @@ Get the samples from the GitHub repo at [LCW customization samples](https://aka.
 
 You can copy the collection of JavaScript code snippets and apply them to modify the live chat widgets.  
 
-## Related resources
+## Related information
 
 - [Develop a custom live chat widget](/dynamics365/customer-service/develop/develop-live-chat-widget)
 - [Live chat SDK Reference](/dynamics365/customer-service/develop/omnichannel-reference)

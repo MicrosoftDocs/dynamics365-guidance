@@ -2,7 +2,7 @@
 title: Overview for managing service resources
 description: Learn what the Manage service resources business process area is, who the stakeholders are, and what the benefits are of using Dynamics 365 to support it.
 author: Dean-Hardy
-ms.author: dehardy
+ms.author: DeanHardy
 ms.topic: conceptual
 ms.date: 04/03/2024
 ai.usage: ai-assisted
@@ -79,7 +79,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Manage serv
 5. *Record customer payments*
 6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
 
-## Related resources
+## Related information
 
 - [Dynamics 365 Field Service product information](https://www.microsoft.com/dynamics-365/products/field-service)
 - [Dynamics 365 Field Service documentation](/dynamics365/field-service/finance-operations-integration)

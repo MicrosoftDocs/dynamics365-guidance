@@ -109,7 +109,7 @@ If you want to implement Dynamics 365 solutions to assist with your *design to r
 
 4. Get an overview of the *design to retire* process. Learn more at [Design to retire business process areas](design-to-retire-areas.md).
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *design to retire* process in Dynamics 365.
 

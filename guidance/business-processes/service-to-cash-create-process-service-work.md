@@ -4,7 +4,7 @@ description: Learn how you can use Dynamics 365 products to support your organiz
 ms.date: 02/21/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ---
 
 # Create and process service work overview
@@ -111,7 +111,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Create and 
 
 6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Create and process service work* process in Dynamics 365.
 

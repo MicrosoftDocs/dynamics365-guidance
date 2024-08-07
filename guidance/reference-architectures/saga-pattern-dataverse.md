@@ -2,7 +2,7 @@
 title: Saga pattern with Dataverse or Dynamics 365
 description: Learn about establishing a robust mechanism for transmitting data from Dataverse to other applications using the Saga pattern, with an outline on architecture.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: article
 ms.date: 05/22/2024
 ---
@@ -224,7 +224,7 @@ The following patterns are available to help guide your implementation of the Sa
 
 - [Retry pattern](/azure/architecture/patterns/retry) describes how to define and implement retry strategies.
 
-## Related resources
+## Related information
 
 You can use the following resource to learn more about the integration of Dynamics 365 with Azure:
 

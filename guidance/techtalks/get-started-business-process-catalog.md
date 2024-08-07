@@ -2,7 +2,7 @@
 title: TechTalk Introduction to the business process catalog
 description: Learn about the business process catalog and why and how business processes can improve your organization's efficency, productivity, risk management, and more.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted
@@ -60,7 +60,7 @@ The business process catalog isn't static; it undergoes regular updates to stay 
 
 The TechTalk business process catalog emerges as an indispensable tool for organizations utilizing Dynamics 365. Its meticulous structuring, user-friendly navigation, and comprehensive coverage of business processes make it an essential resource for streamlining operations and driving efficiency across various organizational functions.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

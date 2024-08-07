@@ -109,7 +109,7 @@ If you want to implement Dynamics 365 solutions to assist with your *manage frei
 
 7. [Record and manage inventory costs](inventory-to-deliver-record-manage-inventory-costs.md)
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about the *Manage freight and transportation* business process area in Dynamics 365.
 

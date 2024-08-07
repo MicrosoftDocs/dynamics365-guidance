@@ -2,7 +2,7 @@
 title: TechTalk Introduction to the Dynamics 365 guidance hub
 description: Learn about the Dynamics 365 guidance hub, its key features, how to navigate it, and how to use it to communicate with the community.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted
@@ -76,7 +76,7 @@ The Dynamics 365 guidance hub can be used to accomplish various aspects of your 
 
 The Dynamics 365 guidance hub, with its rich resources and community-driven approach, offers a pathway to successful Dynamics 365 navigation and implementation. Embrace this hub to unlock the full potential of Dynamics 365 in your business operations.
 
-## Related resources
+## Related information
 
 You can use the following resources to learn more about Dynamics 365.
 

@@ -64,7 +64,7 @@ The following table compares the advantages of analytics that are based on histo
 
 Both types of analytics have their benefits. Historical analytics provide insights into past performance for the purpose of long-term improvements. Real-time analytics help you make immediate adjustments to optimize ongoing operations. By using both types of analytics, contact centers can make data-driven decisions to improve overall performance.
 
-## Related resources
+## Related information
 
 The following resources can help you learn more about the built-in analytics capabilities of Omnichannel for Dynamics 365 Customer Service.
 

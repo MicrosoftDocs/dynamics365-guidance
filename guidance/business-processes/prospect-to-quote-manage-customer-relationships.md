@@ -111,7 +111,7 @@ If you want to implement Dynamics 365 solutions to help with your *prospect to q
 
 6. *Manage customer relationships* (the article that you're currently reading)
 
-## Related resources
+## Related information
 
 - [Dynamics 365 Customer Service product overview](https://dynamics.microsoft.com/customer-service)
 - [Dynamics 365 Sales product overview](https://dynamics.microsoft.com/sales)
