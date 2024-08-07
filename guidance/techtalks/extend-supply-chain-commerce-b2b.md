@@ -2,7 +2,7 @@
 title: Extend Dynamics 365 Supply Chain Management
 description: Learn about how businesses can extend Dynamics 365 Supply Chain Management with Dynamics 365 Commerce to enhance their business to business (B2B) digital selling.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted

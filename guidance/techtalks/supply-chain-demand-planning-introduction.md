@@ -3,7 +3,7 @@ title: Demand planning for Supply Chain Management
 description: Learn about the importance of demand planning for Dynamics 365 Supply Chain Management and the flexibility it brings to supply chain operations.
 ms.topic: conceptual
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.date: 02/27/2024
 ai-usage: ai-assisted
 ---

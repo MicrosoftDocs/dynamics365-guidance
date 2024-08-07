@@ -38,9 +38,9 @@ When you're a part of the **Preview Early Access** group, the product team can o
   - Optionally, join additional/related groups when prompted.
   - Optionally, upload a profile image, or skip this step.
 
-When you have filled in the relevant fields in the guide, you should see the **Preview Early Access** and **All Company** groups automatically listed in the left-side sidebar in your browser. You're now a member of the Preview Early Access Viva Engage community and can begin collaborating right away.
+When you have filled in the relevant fields in the guide, you should see the **Preview Early Access** and **All Company** groups automatically listed in the left-side sidebar in your browser. You're now a member of the *Preview Early Access Viva Engage* community and can begin collaborating right away.
 
-As an orientation and welcome to the community, read the group's Info page - it's a panel in the right-side sidebar in your browser.
+As an orientation and welcome to the community, read the group's *Info* page - it's a panel in the right-side sidebar in your browser.
 
 ## Known issue for EU customers
 
@@ -48,7 +48,7 @@ Some customers in the EU are unable to join our Viva Engage network using their 
 
 ## Viva Engage Support
 
-For all other Viva Engage support questions, contact [Viva Engage Support](https://aka.ms/yammerhelp)
+For all other Viva Engage support questions, contact [Viva Engage Support](https://aka.ms/yammerhelp) (requires signing in). Get started at [Viva Engage help & learning](https://answers.microsoft.com/msoffice/forum/all/yammer-support-options/2bdde618-2e1a-4983-9651-4a56f26e8e38).  
 
 ## Related information
 

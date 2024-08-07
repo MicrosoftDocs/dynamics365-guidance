@@ -4,7 +4,7 @@ description: Learn about the service to cash end-to-end business process with a 
 ms.date: 03/24/2023
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ms.reviewer: edupont
 ms.custom: ai-gen-docs-bap
 ai-usage: ai-assisted

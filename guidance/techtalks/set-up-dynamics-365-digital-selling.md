@@ -2,7 +2,7 @@
 title: Set up business-to-business digital selling with Dynamics 365
 description: Learn about the intricacies of setting and harnessing Dynamics 365 to enhance your B2B commerce capabilities, including deploying the Commerce Scale Unit.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted

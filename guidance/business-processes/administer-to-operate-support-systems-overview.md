@@ -4,7 +4,7 @@ description: Learn about support systems, including outlines of how they help in
 ms.topic: article
 author: hasaid
 ms.author: hasaid
-ms.date: 06/25/2024
+ms.date: 08/07/2024
 ---
 
 # Define support systems overview
@@ -153,7 +153,7 @@ You can use the following resources to learn more about the *support systems* pr
 - [Get support for your Dynamics 365 product](/dynamics365/get-started/support)
 - [Help us help you](/dynamics365/get-started/support/support-scope)
 - [Monitoring and diagnostics tools in Lifecycle Services (LCS)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics)
-- [Use Azure Data Explorer to query raw information logs](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/azure-data-explorer)
+- [Monitoring and telemetry using Application Insights](/dynamics365/fin-ops-core/dev-itpro/sysadmin/monitoring-and-telemetry-appinsights)
 - [Analyze model-driven apps and Dataverse telemetry with Application Insights](/power-platform/admin/analyze-telemetry)
 - [Azure status](https://azure.status.microsoft/status)
 - [Environment Telemetry in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)

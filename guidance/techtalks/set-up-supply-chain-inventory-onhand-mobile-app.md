@@ -2,7 +2,7 @@
 title: Inventory On-hand app in Dynamics 365 Supply Chain Management
 description: Learn how the Inventory On-hand mobile app allows businesses to interact with their inventory data and manage stock levels.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted

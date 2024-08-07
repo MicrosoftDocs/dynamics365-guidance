@@ -2,7 +2,7 @@
 title: TechTalk Introduction to the business process catalog
 description: Learn about the business process catalog and why and how business processes can improve your organization's efficency, productivity, risk management, and more.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: conceptual
 ms.date: 02/21/2024
 ai-usage: ai-assisted

@@ -2,7 +2,7 @@
 title: Introducing attribute-based omnichannel product
 description: Learn about attribute-based omnichannel product and inventory search with Copilot. The TechTalk also covers security aspects and customization.
 author: dereklh77
-ms.author: v-heuerderek
+ms.author: edupont
 ms.topic: article
 ms.date: 04/16/2024
 ai-usage: ai-assisted

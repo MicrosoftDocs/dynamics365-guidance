@@ -4,7 +4,7 @@ description: Learn about the business process areas that make up the service to 
 ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ms.reviewer: edupont
 ms.custom: ai-gen-docs-bap
 ai-usage: ai-assisted

@@ -4,7 +4,7 @@ description: Learn how you can use Dynamics 365 products to support your organiz
 ms.date: 02/21/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ---
 
 # Create and process service work overview

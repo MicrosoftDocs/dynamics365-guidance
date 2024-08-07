@@ -4,7 +4,7 @@ description: Deprecated article that is replaced by service-to-cash-create-proce
 ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
-ms.author: dehardy
+ms.author: DeanHardy
 ---
 <!-- DEPRECATED AND REPLACED BY service-to-cash-create-process-service-work.md-->
 # Deprecated business process area article
