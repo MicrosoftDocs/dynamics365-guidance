@@ -5,7 +5,7 @@ author: edupont04
 ms.author: edupont
 ms.topic: overview #Required; don't change.
 ms.collection: #Required, don't remove the attribute, but leave the value blank.
-ms.date: 07/16/2024
+ms.date: 08/07/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -20,43 +20,43 @@ We group the lists under the end-to-end scenarios that the business processes su
 
 ## Concept to market
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Concept to market end-to-end overview](concept-to-market-overview.md). Links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *concept to market*. Learn more at [Concept to market end-to-end overview](concept-to-market-overview.md). Links will be added when the articles become available.
 
 <!-- -  -->
 ## Design to retire
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Design to-retire end-to-end overview](design-to-retire-overview.md). Links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *design to retire*. Learn more at [Design to-retire end-to-end overview](design-to-retire-overview.md). Links will be added when the articles become available.
 
 <!-- -   -->
 
 ## Forecast to plan
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Overview of forecast to plan business process flow and relationship to other business processes](forecast-to-plan-overview.md).  
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *forecast to plan*. Learn more at [Forecast to plan overview](forecast-to-plan-overview.md).  
 <!-- 
 -    -->
 
 ## Hire to retire
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Overview of the hire to retire business process flow and its relationship to other processes](hire-to-retire-overview.md). Links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *hire to retire*. Learn more at [Hire to retire overview](hire-to-retire-overview.md). Links will be added when the articles become available.
 <!-- 
 -   -->
 
 ## Inventory to deliver
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Overview of inventory to deliver business process and relationship to other business processes](inventory-to-deliver-overview.md). Links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *inventory to deliver*. Learn more at [Inventory to deliver overview](inventory-to-deliver-overview.md). Links will be added when the articles become available.
 
 ## Order to cash
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Order to cash business process flow overview and relationships to other business processes](order-to-cash-overview.md). More links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *order to cash*. Learn more at [Order to cash overview](order-to-cash-overview.md). More links will be added when the articles become available.
 
 - [Manage customer account credit limits in Dynamics 365 Finance and Dynamics 365 Customer Insights](order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md)  
 
 ## Plan to produce
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Overview of the plan to produce business process flow and its relationship to other processes](plan-to-produce-overview.md).  Links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *plan to produce*. Learn more at [Plan to produce overview](plan-to-produce-overview.md).  Links will be added when the articles become available.
 
 ## Administer to operate
 
-The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario [Administer to operate end-to-end overview](administer-to-operate-overview.md). Links will be added when the articles become available.
+The following list shows the business processes (L3) that apply to this industry under the end-to-end scenario *administer to operate*. Learn more at [Administer to operate overview](administer-to-operate-overview.md). Links will be added when the articles become available.
 
 <!-- -  -->
