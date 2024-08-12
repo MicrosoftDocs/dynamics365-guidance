@@ -139,18 +139,18 @@ Learn more at [Settlement overview](/dynamics365/finance/cash-bank-management/se
 
 If you want to implement Dynamics 365 solutions to assist with your *issue and settle vendor payments* business processes, use the following resources and steps to learn more. (Links are added when articles are ready.)
 
-1. *Manage vendor relationships*
-1. *Develop sourcing strategies*
-1. *Define procurement catalogs*
-1. *Define policies and procedures for procurement*
-1. *Plan supply*
-1. *Procure materials and services*
-1. *Process vendor invoices*
-1. *Issue and settle vendor payments* (the article that you're currently reading)
-1. *Manage vendor debits and chargebacks*
-1. *Create and process promissory notes*
-1. *Process vendor rebates and incentives*
-1. *Analyze vendor performance*
+1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)  
+2. *Develop sourcing strategies*
+3. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
+4. *Define policies and procedures for procurement*
+5. *Plan supply*
+6. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)  
+7. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
+8. *Issue and settle vendor payments* (the article that you're currently reading)
+9. *Manage vendor debits and chargebacks*
+10. *Create and process promissory notes*
+11. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
+12. *Analyze vendor performance*
 
 ## Related information
 

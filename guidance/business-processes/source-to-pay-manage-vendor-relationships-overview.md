@@ -4,7 +4,7 @@ description: Learn how to use Dynamics 365 to support your organization's busine
 author: Pjagotra
 ms.author: pjagotra
 ms.topic: conceptual
-ms.date: 03/18/2024
+ms.date: 08/12/2024
 ai-usage: ai-assisted
 ---
 
@@ -106,7 +106,7 @@ If you want to implement Dynamics 365 solutions to support your *manage vendor r
 
 4. *Define policies and procedures for procurement*
 
-5. *Procure materials and services*
+5. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)  
 
 6. *Receive materials and services*
 
