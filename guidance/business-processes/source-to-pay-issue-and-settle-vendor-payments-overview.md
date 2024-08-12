@@ -3,7 +3,7 @@ title: Issue and settle vendor payments overview
 description: Learn about the issue and settle vendor payments business process area, including the issue and settle vendor payments process flow.
 author: music727
 ms.author: mibeinar
-ms.date: 05/28/2024
+ms.date: 08/12/2024
 ms.topic: overview
 ---
 
@@ -33,73 +33,73 @@ Many people across the organization should contribute to the decision-making pro
 
 The following diagram illustrates the *issue and settle vendor payments* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/design-to-retire-issue-and-settle-vendor-business-process-area-map.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/design-to-retire-issue-and-settle-vendor-business-process-area-map.svg":::
+:::image type="content" source="media/source-to-pay-issue-settle-vendor-payments-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/source-to-pay-issue-settle-vendor-payments-flow.svg":::
 
 The *issue and settle vendor payments* process area flow diagram covers the following steps:
 
 - *Start*
 
 - *Source to pay* end-to-end process
-    
-    Parallel branches to this end-to-end process are the *Design to retire* end-to-end process, *Inventory to Deliver* end-to-end process, and *Concept to market* end-to-end process.
 
-    - *Define policies and procedures for procurement*
-    - *Manage vendor relationship*
-    - *Procure materials and services*
-    - *Process inbound goods*
-    - *Process vendor invoices*
-    - *Issue and settle vendor payments*
+  Parallel branches to this end-to-end process are the *Design to retire* end-to-end process, *Inventory to Deliver* end-to-end process, and *Concept to market* end-to-end process.
 
-        - *Does cash discount apply?* condition
+  - *Define policies and procedures for procurement*
+  - *Manage vendor relationship*
+  - *Procure materials and services*
+  - *Process inbound goods*
+  - *Process vendor invoices*
+  - *Issue and settle vendor payments*
 
-            - A parallel branch for **Yes** leads to the *Configure and apply cash discounts* subprocess.
-            - A parallel branch for **No** leads to the *Is pre-payment?* condition.
+    - *Does cash discount apply?* condition
 
-        - *Configure and apply cash discounts*
-        - *Is pre-payment?* condition
+      - A parallel branch for **Yes** leads to the *Configure and apply cash discounts* subprocess.
+      - A parallel branch for **No** leads to the *Is pre-payment?* condition.
 
-            - A parallel branch for **Yes** leads to the *Generate and post prepayments* subprocess.
+    - *Configure and apply cash discounts*
+    - *Is pre-payment?* condition
 
-                Downstream to this subprocess is a *Record financial transactions* subprocess that connects to the *Record to Report* end-to-end business process.
+      - A parallel branch for **Yes** leads to the *Generate and post prepayments* subprocess.
 
-            - A parallel branch for **No** leads to the *Generate and post payments* subprocess.
+        Downstream to this subprocess is a *Record financial transactions* subprocess that connects to the *Record to Report* end-to-end business process.
 
-                Downstream to this subprocess is a *Record financial transactions* subprocess that connects to a *Record to Report* end-to-end business process.
+      - A parallel branch for **No** leads to the *Generate and post payments* subprocess.
 
-        - *Generate and post prepayments*
-        - *Generate and post payments*
-        - *Does promissory notes apply?* condition
+        Downstream to this subprocess is a *Record financial transactions* subprocess that connects to a *Record to Report* end-to-end business process.
 
-            - A parallel branch for **Yes** leads to the *Generate and process promissory notes* subprocess.
-            - A parallel branch for **No** leads to the *Settle vendor transactions* condition.
+    - *Generate and post prepayments*
+    - *Generate and post payments*
+    - *Does promissory notes apply?* condition
 
-        - *Generate and process promissory notes*
-        - *Settle vendor transactions*
-        - *Has payment been canceled?* condition
+      - A parallel branch for **Yes** leads to the *Generate and process promissory notes* subprocess.
+      - A parallel branch for **No** leads to the *Settle vendor transactions* condition.
 
-            - A parallel branch for **Yes** leads to the *Cancel a vendor payment* subprocess.
-            - A parallel branch for **Yes** leads to *End*.
+    - *Generate and process promissory notes*
+    - *Settle vendor transactions*
+    - *Has payment been canceled?* condition
 
-        - *Cancel a vendor payment*
+      - A parallel branch for **Yes** leads to the *Cancel a vendor payment* subprocess.
+      - A parallel branch for **Yes** leads to *End*.
+
+    - *Cancel a vendor payment*
 
 - *Design to retire* end-to-end process
 
-    - *Introduce new products and services*
+  - *Introduce new products and services*
 
-        This process connects to the *Procure materials and services* subprocess.
+    This process connects to the *Procure materials and services* subprocess.
 
 - *Inventory to deliver* end-to-end process
 
-    - *Process inbound goods*
-    - *Process vendor invoices*
+  - *Process inbound goods*
+  - *Process vendor invoices*
 
-        Downstream to this subprocess is an *Issue and settle vendor payments* subprocess.
+    Downstream to this subprocess is an *Issue and settle vendor payments* subprocess.
 
 - *Concept to market* end-to-end process
 
-    - *Introduce new services*
+  - *Introduce new services*
 
-        This subprocess connects to a *Procure materials and services* subprocess.
+    This subprocess connects to a *Procure materials and services* subprocess.
 
 - *End*
 
