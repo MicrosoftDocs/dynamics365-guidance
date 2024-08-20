@@ -1,7 +1,7 @@
 ---
 title: Overview of the define procurement catalogs business process area
 description: Read about how Dynamics 365 supports procurement catalogs as part of the procure to pay business process.
-ms.date: 07/17/2023
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: raprofit
@@ -105,15 +105,15 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 5. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)
 
-6. *Process vendor invoices*
+6. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
 
-7. *Issue and settle vendor payments*
+7. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
 8. *Manage vendor debits and chargebacks*
 
 9. *Create and process promissory notes*
 
-10. *Process vendor rebates and incentives*
+10. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
 
 11. *Analyze vendor performance*
 

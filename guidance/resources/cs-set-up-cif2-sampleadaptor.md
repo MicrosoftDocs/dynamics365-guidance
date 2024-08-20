@@ -4,7 +4,7 @@ description: Learn how to set up the sample adaptor for Channel Integration Fram
 author: rramju
 ms.author: ramara
 ms.topic: how-to #Required; don't change.
-ms.date: 06/14/2024
+ms.date: 08/08/2024
 ms.custom: 
     - bap-template
     - O25-Service
@@ -30,10 +30,10 @@ The sample adaptor that this article describes shows how an external application
 - [Dynamics 365 Channel Integration Framework](/dynamics365/channel-integration-framework/v2/administer/system-requirements-channel-integration-framework-v2)
 - Azure components:
 
-    - [Quickstart: Register an application with the Microsoft identity platform](/entra/identity-platform/quickstart-register-app)
-    - [Azure Functions overview](/azure/azure-functions/functions-overview?pivots=programming-language-csharp)
-    - [What is Azure Table storage?](/azure/storage/tables/table-storage-overview)
-    - [Real-time apps with Azure SignalR Service and Azure Functions](/azure/azure-signalr/signalr-concept-azure-functions)
+  - [Quickstart: Register an application with the Microsoft identity platform](/entra/identity-platform/quickstart-register-app)
+  - [Azure Functions overview](/azure/azure-functions/functions-overview?pivots=programming-language-csharp)
+  - [What is Azure Table storage?](/azure/storage/tables/table-storage-overview)
+  - [Real-time apps with Azure SignalR Service and Azure Functions](/azure/azure-signalr/signalr-concept-azure-functions)
 
 ## Architecture
 
@@ -54,44 +54,48 @@ The user's active connection is stored in Azure Storage by using the interface t
 ## Deployment and configuration steps
 
 1. Create an Azure app registration. Learn more in [Quickstart: Register an application with the Microsoft identity platform](/entra/identity-platform/quickstart-register-app).
-1. After the app registration is created, update the redirection URL with the Azure Functions URL. In addition, under **Select the tokens you would like to be issued by the authorization endpoint**, select the **Access tokens** and **ID tokens** checkboxes as shown in the following screenshot.
+2. After the app registration is created, update the redirection URL with the Azure Functions URL.  
 
-    :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-3.png" alt-text="Screenshot that shows the Access tokens and ID tokens checkboxes selected." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-3.png":::
+    Also, under the text **Select the tokens you would like to be issued by the authorization endpoint**, select the **Access tokens** and **ID tokens** fields as shown in the following screenshot.
 
-    Learn more in [Quickstart: Configure an application to expose a web API](/entra/identity-platform/quickstart-configure-app-expose-web-apis). The following screenshot shows an example of an edited API scope.
+    :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-3.png" alt-text="Screenshot that shows that the user entered a checkmark in the Access tokens and ID tokens fields." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-3.png":::
+
+    Learn more in [Quickstart: Configure an application to expose a web API](/entra/identity-platform/quickstart-configure-app-expose-web-apis). The following screenshot shows an example of an edited API scope with a fictitious app ID.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-4.png" alt-text="Screenshot that shows the API scope being edited in the Edit a scope dialog box." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-4.png":::
 
-1. Add API permissions by searching for the preceding API scope.
+3. Add API permissions by searching for the preceding API scope.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-5.png" alt-text="Screenshot that shows API permissions being added in the Request API Permissions dialog box." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-5.png":::
 
-1. Create a SignalR resource in Azure. Learn more in [Create an Azure SignalR resource](/azure/azure-signalr/signalr-quickstart-dotnet-core#create-an-azure-signalr-resource).
-1. Select your SignalR Service resource, select **Settings**, and change the setting to **Serverless**.
+4. Create a SignalR resource in Azure. Learn more in [Create an Azure SignalR resource](/azure/azure-signalr/signalr-quickstart-dotnet-core#create-an-azure-signalr-resource).
+5. Choose your SignalR Service resource, choose the **Settings** menu item, and change the resource's**Service Mode** setting to **Serverless**.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-6.png" alt-text="Screenshot that shows the SignalR Service resource configured as Serverless." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-6.png":::
 
-1. Select your SignalR Service resource, and add cross-origin resource sharing (CORS) in SignalR Service. For this sample, all origins are allowed. However, you can configure specific URLs.
+6. Choose your SignalR Service resource, and add cross-origin resource sharing (CORS) in the SignalR service. For this sample, all origins are allowed. However, you can configure specific URLs.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-7.png" alt-text="Screenshot that shows origins added for CORS." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-7.png":::
 
-1. Select your SignalR Service resource, select **Identity**, and enable a SignalR Service system-assigned managed identity.
+7. Choose your SignalR Service resource, choose the **Identity** menu item, and then, on the **System assigned** tab, switch on a system-assigned managed identity.
 
-    :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-8.png" alt-text="Screenshot that shows a system-assigned managed identity enabled." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-8.png":::
+    :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-8.png" alt-text="Screenshot that shows a system-assigned managed identity switched on." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-8.png":::
 
-1. Create table storage in Azure. Learn more in [Quickstart: Create a table in the Azure portal](/azure/storage/tables/table-storage-quickstart-portal). You must update the storage connection information and table name in the Azure Functions configuration.
-1. Get the [Deploy Azure Functions sample code](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Code/SignalRCIFAdaptor) on GitHub.
-1. Enable authentication in Azure Functions. Add the identity provider that you specified as part of app registration in the earlier step.
+8. Add table storage in Azure. Learn more in [Quickstart: Create a table in the Azure portal](/azure/storage/tables/table-storage-quickstart-portal).  
+
+    You must update the storage connection information and table name in the Azure Functions configuration.
+9. Get the **Deploy Azure Functions** sample code from GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Code/SignalRCIFAdaptor).
+10. Enable authentication in Azure Functions. Add the identity provider that you specified as part of app registration in the earlier step.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-9.png" alt-text="Screenshot that shows the Azure Functions authentication settings." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-9.png":::
 
-1. In the Azure portal, update the configuration of Azure Functions.
+11. In the Azure portal, update the configuration of Azure Functions.
 
     | Configuration key | Description | Sample value |
     |---|---|---|
     | ApiScope | The API permission that was provided for the app registration. You created it as part of app registration. | Example: *functionuser* |
     | APPLICATIONINSIGHTS_CONNECTION_STRING | The connection string of Application Insights for Azure Functions. | |
-    | Authority | The URL for Active Directory authentication with tenant id. | |
+    | Authority | The URL for Active Directory authentication with tenant ID. | |
     | AzureAd:ClientId | The client ID value from the app registration. | |
     | AzureAd:ClientSecret | The client secret from the app registration. | |
     | AzureAd:TenantId | The tenant ID from the app registration. | |
@@ -100,7 +104,9 @@ The user's active connection is stored in Azure Storage by using the interface t
     | HubName | The SignalR hub name. | Example: *myhub* |
     | StorageUserTable | The table name of the storage container. | Example: *ConnectionEntity* |
 
-1. Update upstream settings in SignalR. Learn more in [Upstream endpoints in Azure SignalR Service](/azure/azure-signalr/concept-upstream). The following screenshot shows the Azure Functions URL `<your Azure Functions URL>/runtime/webhooks/signalr?code=<your API key>`.
+12. Update upstream settings in SignalR. Learn more in [Upstream endpoints in Azure SignalR Service](/azure/azure-signalr/concept-upstream).  
+
+    The following screenshot shows the Azure Functions URL `<your Azure Functions URL>/runtime/webhooks/signalr?code=<your API key>`.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-11.png" alt-text="Screenshot that shows the upstream settings updated with the Azure Functions URL in SignalR." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-11.png":::
 
@@ -108,8 +114,8 @@ The user's active connection is stored in Azure Storage by using the interface t
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-10.png" alt-text="Screenshot that shows the Azure Functions system keys for SignalR." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-10.png":::
 
-1. Download the package from the [Solutions folder](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Solutions) on GitHub.
-1. When you import the solution, update the environment variables.
+13. Download the package from the [Solutions](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Solutions) folder in the [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Asset](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Asset) GitHub repo.
+14. When you import the solution, update the environment variables as outlined in the following table.
 
     | Name | Value |
     |---|---|
@@ -125,7 +131,7 @@ The user's active connection is stored in Azure Storage by using the interface t
 
 ### Methods used in Azure Functions
 
-The following table outlines the mthods that are used in the Azure Function code in the eariler section.
+The following table outlines the methods that are used in the Azure Functions code in the earlier section.
 
 | Function name | Description | Trigger | Authorization | Parameters | Returns |
 |---|---|---|---|---|---|
@@ -155,7 +161,8 @@ The *signalRadaptor.js* JavaScript file sets up a SignalR client for communicati
 
 - [Quickstart: Create an app showing GitHub star count with Azure Functions and SignalR Service via C#](/azure/azure-signalr/signalr-quickstart-azure-functions-csharp?tabs=in-process)
 - [Introduction to the voice channel](/dynamics365/customer-service/voice-channel)
-- [What is Digital Contact Center Platform?](/digital-contact-center-platform/)
+- [Dynamics 365 Contact Center documentation](/dynamics365/contact-center/)  
+- [Dynamics 365 Customer Service documentation](/dynamics365/customer-service/)  
 
 <!--## Next steps-->
 

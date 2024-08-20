@@ -4,7 +4,7 @@ description: Learn how to simulate a digital contact center with Customer Servic
 author: edupont04
 ms.author: edupont
 ms.topic: how-to #Required; don't change.
-ms.date: 06/14/2024
+ms.date: 08/08/2024
 ms.custom: 
     - bap-template
     - O25-Service
@@ -35,10 +35,10 @@ This article outlines the required steps to configure and simulate a digital con
 
     The simulator has the following defaults:
 
-    |Type | Name | ID |
-    |--|--|--|
-    |Account | A Datum Corporation | a16b3f4b-1be7-e611-8101-e0071b6af231 |
-    |Contact | Abraham McCormick | 25a17064-1ae7-e611-80f4-e0071b661f01 |
+    |Type | Name |
+    |--|--|
+    |Account | A Datum Corporation |
+    |Contact | Abraham McCormick |
 
     If you want or have to choose another default account for your environment, select it, choose **Email a link**, and then choose the relevant name and ID. Use the same steps to choose a default contact. Then, change the HTML page to reflect the chosen default account and contact. Learn more at [View, compose and respond to email](/power-apps/user/view-compose-email?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context) in the Customer Service docs.  
 3. Open the imported solution, and then, from the list of objects, choose the object of type *HTML Web Resource*  
