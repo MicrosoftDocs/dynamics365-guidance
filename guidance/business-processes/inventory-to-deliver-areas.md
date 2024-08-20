@@ -1,13 +1,13 @@
 ---
-title: Manage inventory with the inventory to deliver business process
+title: Overview of the inventory to deliver business process areas
 description: Get an overview for each of the business process areas in the inventory to deliver end-to-end business process in Dynamics 365 solutions.
-ms.date: 12/08/2023
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Manage, handle, and deliver inventory with the inventory to deliver business process areas
+# Overview of the inventory to deliver business process areas for managing, handling, and delivering inventory
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
@@ -15,33 +15,35 @@ The *inventory to deliver* process is broken down into business process areas fo
 
 ## Define and manage warehouse operations
 
-This process area involves defining and managing warehouse operations, including the setup of warehouses, locations, and zones. It also includes managing the resources required for warehouse operations, such as workers, equipment, and tools<!--For more information, see \[Define and manage warehouse operations link\]TODO:Add link-->.
+This area involves defining and managing warehouse operations, including the setup of warehouses, locations, and zones. It also includes managing the resources required for warehouse operations, such as workers, equipment, and tools.
+
+Learn more at [Define and manage warehouse operations strategy and policies overview](inventory-to-deliver-define-manage-warehouse-operations-overview.md).  
 
 ## Maintain inventory levels
 
-This process area involves managing inventory levels to meet customer demand while minimizing stockouts and overstocks. It includes setting up inventory policies, monitoring stock levels, and creating replenishment plans. This process also includes the management of inventory movements within the warehouse, adjustments for gains and losses of inventory, and cycle counting process as well<!--For more information, see \[Maintain inventory levels link\]TODO:Add link-->.
+This area involves managing inventory levels to meet customer demand while minimizing stockouts and overstocks. It includes setting up inventory policies, monitoring stock levels, and creating replenishment plans. This process also includes the management of inventory movements within the warehouse, adjustments for gains and losses of inventory, and cycle counting process as well<!--For more information, see \[Maintain inventory levels link\]TODO:Add link-->.
 
 ## Process inbound goods
 
-This process area involves receiving, inspecting, and processing incoming inventory. It includes tracking shipments, managing the receipt of goods, and generating put-away plans. In addition to traditional purchase order and transfer order inbound receipts, it includes the handling of customer return orders<!--For more information, see \[Process inbound goods link\]TODO:Add link-->.
+This area involves receiving, inspecting, and processing incoming inventory. It includes tracking shipments, managing the receipt of goods, and generating put-away plans. In addition to traditional purchase order and transfer order inbound receipts, it includes the handling of customer return orders<!--For more information, see \[Process inbound goods link\]TODO:Add link-->.
 
 ## Process outbound goods
 
-This process area involves picking, packing, and shipping goods to customers and other warehouses. It includes generating picking lists, packing slips, and shipping labels, and managing the shipment of goods. In addition to traditional sales order and transfer order outbound shipments, it also includes the handling of vendor returns and cross docking opportunities from production orders<!--For more information, see \[Process outbound goods link\]TODO:Add link-->.
+This area involves picking, packing, and shipping goods to customers and other warehouses. It includes generating picking lists, packing slips, and shipping labels, and managing the shipment of goods. In addition to traditional sales order and transfer order outbound shipments, it also includes the handling of vendor returns and cross docking opportunities from production orders<!--For more information, see \[Process outbound goods link\]TODO:Add link-->.
 
 ## Manage inventory quality
 
-This process area involves managing inventory quality, including inspecting, testing, and classifying items based on quality criteria. It includes tracking quality issues, creating corrective actions, and managing nonconformities<!--For more information, see \[Manage inventory quality link\]TODO:Add link-->.
+This area involves managing inventory quality, including inspecting, testing, and classifying items based on quality criteria. It includes tracking quality issues, creating corrective actions, and managing nonconformities<!--For more information, see \[Manage inventory quality link\]TODO:Add link-->.
 
 ## Manage freight and transportation
 
-This process area involves managing freight and transportation activities, such as managing carriers, negotiating rates, and reconciling freight costs. It includes setting up transportation policies, managing freight contracts, and optimizing shipping processes.
+This area involves managing freight and transportation activities, such as managing carriers, negotiating rates, and reconciling freight costs. It includes setting up transportation policies, managing freight contracts, and optimizing shipping processes.
 
 Learn more at [Manage freight and transportation overview](inventory-to-deliver-manage-freight-transportation.md).
 
 ## Record and manage inventory costs
 
-This process area involves recording and controlling costs that are associated with inventory management, such as procurement, transportation, warehousing, and handling costs. It includes setting up cost accounting policies, tracking expenses, and creating financial reports.
+This area involves recording and controlling costs that are associated with inventory management, such as procurement, transportation, warehousing, and handling costs. It includes setting up cost accounting policies, tracking expenses, and creating financial reports.
 
 Learn more at [Record and manage inventory costs overview](inventory-to-deliver-record-manage-inventory-costs.md).
 

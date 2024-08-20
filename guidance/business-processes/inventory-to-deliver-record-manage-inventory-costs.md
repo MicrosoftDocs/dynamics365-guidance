@@ -1,7 +1,7 @@
 ---
 title: Manage inventory costs overview for technology implementation
 description: Read about the business process area for recording and managing inventory costs in Dynamics 365 implementations.
-ms.date: 12/19/2023
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -129,7 +129,7 @@ Implementation of Dynamics 365 business applications can lead to improved profit
 
 If you want to implement Dynamics 365 solutions to assist with your *record and manage inventory costs* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
 
-1. *Define and manage warehouse operations*
+1. [Define and manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
 
 2. *Maintain inventory levels*
 
@@ -160,12 +160,12 @@ You can use the following resources to learn more about the *record and manage i
 - [Inventory costs in Business Central](/dynamics365/business-central/finance-manage-inventory-costs)
 - Find definitions of terminology that is used in content for inventory costing in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Cost](glossary.md#cost)
-    - [Cost accounting](glossary.md#cost-accounting)
-    - [Costing methodology](glossary.md#costing-methodology)
-    - [Costing sheet](glossary.md#costing-sheet)
-    - [Costing version](glossary.md#costing-version)
-    - [Overhead costs](glossary.md#overhead-costs)
+  - [Cost](glossary.md#cost)
+  - [Cost accounting](glossary.md#cost-accounting)
+  - [Costing methodology](glossary.md#costing-methodology)
+  - [Costing sheet](glossary.md#costing-sheet)
+  - [Costing version](glossary.md#costing-version)
+  - [Overhead costs](glossary.md#overhead-costs)
 
 <!-- ## Tags
 

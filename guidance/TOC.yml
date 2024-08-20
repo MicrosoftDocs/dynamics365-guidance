@@ -849,6 +849,8 @@ items:
             href: business-processes/inventory-to-deliver-overview.md
           - name: Business process areas
             href: business-processes/inventory-to-deliver-areas.md
+          - name: Define and manage warehouse operations
+            href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
           - name: Manage freight and transportation
             href: business-processes/inventory-to-deliver-manage-freight-transportation.md
           - name: Record and manage inventory costs

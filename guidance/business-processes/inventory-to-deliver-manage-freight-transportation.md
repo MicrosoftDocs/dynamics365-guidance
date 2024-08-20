@@ -1,7 +1,7 @@
 ---
 title: Manage freight and transportation process area overview
 description: Read about the business process area for managing freight and transportation in Dynamics 365 implementations.
-ms.date: 04/26/2024
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: ngump
@@ -95,7 +95,7 @@ Dynamics 365 Supply Chain Management has transportation rating and routing capab
 
 If you want to implement Dynamics 365 solutions to assist with your *manage freight and transportation* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. *Define and manage warehouse operations*
+1. [Define and manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
 
 2. *Maintain inventory levels*
 
@@ -117,8 +117,8 @@ You can use the following resources to learn more about the *Manage freight and 
 - [Transportation Management Configuration Deep-Dive (Rating & Routing)](https://community.dynamics.com/blogs/post/?postid=10103d2b-afe2-4ed3-85b0-95adf9708fd5)
 - [TechTalk on Parcel Carrier Integration in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=4eea123c-c220-4b93-8273-514fdb1e6997)
 
-    - Supporting product documentation: [Small parcel shipping](/dynamics365/supply-chain/warehousing/small-parcel-shipping)
-    - Supporting GitHub assets: [Dynamics-365-FastTrack-Implementation-Assets/SCM/SPS](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM/SPS)
+  - Supporting product documentation: [Small parcel shipping](/dynamics365/supply-chain/warehousing/small-parcel-shipping)
+  - Supporting GitHub assets: [Dynamics-365-FastTrack-Implementation-Assets/SCM/SPS](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM/SPS)
 
 - [Transportation Management Configuration Deep-Dive on Freight Reconciliation](https://community.dynamics.com/blogs/post/?postid=f513292c-1c2a-4f5f-8423-eb3cf5b8db39)
 - Product documentation: [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)
