@@ -104,4 +104,8 @@ Overall, managing your ALM process across several tenants adds unnecessary compl
 - Understand [environment lifecycle scenarios](environment-strategy-lifecycle-scenarios.md)
 - Get [product-specific guidance](environment-strategy-guidance-product.md)
 - Follow the [environment strategy checklist](environment-strategy-checklist.md)
-- Read a [case study](environment-strategy-case-study.md) of a company that learned the importance of a good environment strategy
+- Read a [case study](environment-strategy-case-study.md) of a company that learned the importance of a good environment strategy  
+
+## Related information
+
+- [Understanding the infrastructure of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  

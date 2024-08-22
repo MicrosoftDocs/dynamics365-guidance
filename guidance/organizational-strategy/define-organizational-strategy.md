@@ -1,7 +1,7 @@
 ---
 title: Define the organizational structure in Dynamics 365
 description: Learn how the organizational structure determines how you can configure and deploy Dynamics 365 for business processes.
-ms.date: 12/14/2023
+ms.date: 08/22/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -170,6 +170,11 @@ When implementing your organization structure in Dynamics 365, use the following
 * Consider the usability of the solution.
 * Don't combine multiple countries or regions in a single legal entity.
 * Don't separate business units or divisions into separate legal entities if they aren't legally separate.
+
+## Related information
+
+* [Understanding the infrastructure of Business Central online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+* [Production and sandbox environments in Business Central online](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 
 <!--## Tags
 
