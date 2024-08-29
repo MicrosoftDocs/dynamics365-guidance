@@ -1,5 +1,5 @@
 ---
-title: Overview of the inventory to deliver business process areas
+title: Overview of the inventory to deliver business process areas for managing, handling, and delivering inventory
 description: Get an overview for each of the business process areas in the inventory to deliver end-to-end business process in Dynamics 365 solutions.
 ms.date: 08/12/2024
 ms.topic: conceptual
@@ -15,25 +15,25 @@ The *inventory to deliver* process is broken down into business process areas fo
 
 ## Define and manage warehouse operations
 
-This area involves defining and managing warehouse operations, including the setup of warehouses, locations, and zones. It also includes managing the resources required for warehouse operations, such as workers, equipment, and tools.
+This area involves defining and managing warehouse operations, including the setup of warehouses, locations, and zones. It also includes managing the resources that are required for warehouse operations, such as workers, equipment, and tools.
 
-Learn more at [Define and manage warehouse operations strategy and policies overview](inventory-to-deliver-define-manage-warehouse-operations-overview.md).  
+Learn more at [Define and manage warehouse operations strategy and policies overview](inventory-to-deliver-define-manage-warehouse-operations-overview.md).
 
 ## Maintain inventory levels
 
-This area involves managing inventory levels to meet customer demand while minimizing stockouts and overstocks. It includes setting up inventory policies, monitoring stock levels, and creating replenishment plans. This process also includes the management of inventory movements within the warehouse, adjustments for gains and losses of inventory, and cycle counting process as well<!--For more information, see \[Maintain inventory levels link\]TODO:Add link-->.
+This area involves managing inventory levels to meet customer demand while minimizing stockouts and overstocks. It includes setting up inventory policies, monitoring stock levels, and creating replenishment plans. It also includes the management of inventory movements within the warehouse, adjustments for gains and losses of inventory, and the cycle counting process.<!--Learn more at \[Maintain inventory levels link\]TODO:Add link-->
 
 ## Process inbound goods
 
-This area involves receiving, inspecting, and processing incoming inventory. It includes tracking shipments, managing the receipt of goods, and generating put-away plans. In addition to traditional purchase order and transfer order inbound receipts, it includes the handling of customer return orders<!--For more information, see \[Process inbound goods link\]TODO:Add link-->.
+This area involves receiving, inspecting, and processing incoming inventory. It includes tracking shipments, managing the receipt of goods, and generating put-away plans. In addition to traditional purchase order and transfer order inbound receipts, it includes the handling of customer return orders.<!--Learn more at \[Process inbound goods link\]TODO:Add link-->
 
 ## Process outbound goods
 
-This area involves picking, packing, and shipping goods to customers and other warehouses. It includes generating picking lists, packing slips, and shipping labels, and managing the shipment of goods. In addition to traditional sales order and transfer order outbound shipments, it also includes the handling of vendor returns and cross docking opportunities from production orders<!--For more information, see \[Process outbound goods link\]TODO:Add link-->.
+This area involves picking, packing, and shipping goods to customers and other warehouses. It includes generating picking lists, packing slips, and shipping labels, and managing the shipment of goods. In addition to traditional sales order and transfer order outbound shipments, it includes the handling of vendor returns and cross-docking opportunities from production orders.<!--Learn more at \[Process outbound goods link\]TODO:Add link-->
 
 ## Manage inventory quality
 
-This area involves managing inventory quality, including inspecting, testing, and classifying items based on quality criteria. It includes tracking quality issues, creating corrective actions, and managing nonconformities<!--For more information, see \[Manage inventory quality link\]TODO:Add link-->.
+This area involves managing inventory quality, including inspecting, testing, and classifying items based on quality criteria. It includes tracking quality issues, creating corrective actions, and managing nonconformities.<!--Learn more at \[Manage inventory quality link\]TODO:Add link-->
 
 ## Manage freight and transportation
 
@@ -54,9 +54,9 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 1. Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 3. Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
-4. [Inventory to deliver introduction](inventory-to-deliver-introduction.md)
-5. [Inventory to deliver end-to-end overview](inventory-to-deliver-overview.md)
-6. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
+4. [Inventory to deliver introduction](inventory-to-deliver-introduction.md).
+5. [Inventory to deliver end-to-end overview](inventory-to-deliver-overview.md).
+6. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md).
 
 ## Related information
 
