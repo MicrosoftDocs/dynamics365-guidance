@@ -40,10 +40,12 @@ landingContent:
         url: about-import-catalog-devops.md
       - text: Import the catalog to Mavim
         url: about-import-catalog-mavim.md
-#    - linkListType: learn
-#      links:
-#      - text: Overview
-#        url: overview.md
+    - linkListType: whats-new
+      links:
+      - text: What's new or changed in the business process catalog
+        url: about-whats-new.md
+      - text: August 2024
+        url: about-whats-new-2024-august.md
 
 # Card
   - title: Primary processes
