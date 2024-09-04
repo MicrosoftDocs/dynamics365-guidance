@@ -4,15 +4,12 @@ description: Learn about establishing a robust mechanism for transmitting data f
 author: dereklh77
 ms.author: edupont
 ms.topic: article
-ms.date: 05/22/2024
+ms.date: 09/04/2024
 ---
-
-<!-- This article refers at times to "an Azure Function." I changed those to "Azure function app" based on this entry in the style guide: To refer to something built using Functions or in a generic reference, use lowercase function app. https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=40746   -->
-
 
 # Saga pattern with Dataverse or Dynamics 365
 
-***Applies to:*** ***Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dataverse***
+***Applies to:*** ***Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Sales, Dataverse***
 
 This solution integrates Dataverse, Azure Functions, Azure Service Bus, Azure Key Vault, and Application Insights to establish a robust mechanism for transmitting messages/data from Dataverse to other applications using the [Saga pattern](/azure/architecture/reference-architectures/saga/saga).
 
@@ -26,15 +23,15 @@ Dynamics 365 applications are invariably integrated with other business applicat
 
 The following diagrams illustrate the architecture for the solution. The first one is the simplest case with only one non-Microsoft service and no compensation transaction. The second is more comprehensive with multiple non-Microsoft services and compensation transactions.
 
-:::image type="content" source="../media/saga-pattern-dataverse-1.svg" alt-text="Diagram showing the connection between Dataverse, Service Bus, Azure Functions, non-Microsoft services, and Azure Key Vault." lightbox="../media/saga-pattern-dataverse-1.svg":::
+:::image type="content" source="../media/saga-pattern-dataverse-dynamics-365-architecture-simple.svg" alt-text="Diagram showing the connection between Dataverse, Service Bus, Azure Functions, non-Microsoft services, and Azure Key Vault." lightbox="../media/saga-pattern-dataverse-dynamics-365-architecture-simple.svg":::
 
-Figure 1 Saga in its simplest form: only one target non-Microsoft service and no compensation transaction. In this case, it allows synchronization of data from Dataverse to the non-Microsoft service with high availability, automatic replays, and resilience.
+This architecture shows the Saga design pattern in its simplest form with only one target non-Microsoft service and no compensation transaction. In this case, it allows synchronization of data from Dataverse to the non-Microsoft service with high availability, automatic replays, and resilience.
 
-:::image type="content" source="../media/saga-pattern-dataverse-2.svg" alt-text="Diagram of three integrations, showing fatal errors occurring during the Azure Functions in the main transactions." lightbox="../media/saga-pattern-dataverse-2.svg":::
+:::image type="content" source="../media/saga-pattern-dataverse-dynamics-365-architecture-complex.svg" alt-text="Diagram of three integrations, showing fatal errors occurring during the Azure Functions in the main transactions." lightbox="../media/saga-pattern-dataverse-dynamics-365-architecture-complex.svg":::
 
-Figure 2 Saga with multiple chained non-Microsoft services and compensation transactions. In this case, it allows synchronization of data from Dataverse to multiple non-Microsoft services, in a specific order. If a fatal error occurs in one of the services, a compensation is started and run in reverse order of the main transaction.
+This architecture shows the Saga design pattern with multiple chained non-Microsoft services and compensation transactions. In this case, it allows synchronization of data from Dataverse to multiple non-Microsoft services, in a specific order. If a fatal error occurs in one of the services, a compensation is started and run in reverse order of the main transaction.
 
-<!-- NOTE: Not sure how to implement the downloadable link to the PowerPoint from the task. --- Download a PowerPoint file with this architecture. \[Add link to a downloadable PowerPoint with the diagram.\] -->
+[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/saga-pattern-with-dataverse-or-dynamics-365.ppt) with these architectures. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 
@@ -84,13 +81,13 @@ The proposed architecture is designed to address the following scenarios:
 
 - Exporting data from Dataverse to multiple non-Microsoft systems with reliability and consistency:
 
-    - Ensures reliability and consistency across multiple non-Microsoft systems.
+  - Ensures reliability and consistency across multiple non-Microsoft systems.
 
-    - If given a transient error on one system, the transaction for that system is retried independently.
+  - If given a transient error on one system, the transaction for that system is retried independently.
 
-    - If an error persists, a compensating transaction can be initiated on preceding systems.
+  - If an error persists, a compensating transaction can be initiated on preceding systems.
 
-    - The compensating transaction has the capability to roll back transactions or update specific statuses.
+  - The compensating transaction has the capability to roll back transactions or update specific statuses.
 
 This architecture aims to provide a robust and dependable framework for data exportation from Dataverse to external systems, ensuring seamless operations even in the face of temporary disruptions or errors.
 
@@ -114,7 +111,7 @@ These considerations help implement a solution that includes Dynamics 365. Learn
 
 Consider the following points when implementing the Saga pattern:
 
-- It's adapted for complex workflows or for huge volumetry.
+- It's adapted for complex workflows or for huge volume.
 
 - For each system, you must think about the retry strategy (how many times do we retry, time between each retry) and about the compensation transaction (what do we do if the transaction with other systems fails).
 

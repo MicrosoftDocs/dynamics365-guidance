@@ -521,6 +521,8 @@ items:
               href: resources/fs-resource-cell-template.md
             - name: Customize the template for bookings
               href: resources/fs-booking-template.md
+            - name: Field mapping for the schedule board settings
+              href: resources/fs-schedule-board-settings-field-mapping.md
 # FnO
         - name: Finance and operations apps
           items:
