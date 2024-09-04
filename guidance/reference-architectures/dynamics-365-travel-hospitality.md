@@ -4,7 +4,7 @@ description: Learn about building a business platform for travel and hospitality
 author: dereklh77
 ms.author: edupont
 ms.topic: article
-ms.date: 05/22/2024
+ms.date: 09/04/2024
 ---
 
 # Dynamics 365 for travel and hospitality
@@ -33,7 +33,7 @@ The following diagram illustrates the application architecture for the solution:
 
 :::image type="content" source="../media/dynamics-365-travel-hospitality-2.svg" alt-text="Diagram showing the connection between Power Pages, Dynamics 365, Power BI, and content management and delivery." lightbox="../media/dynamics-365-travel-hospitality-2.svg":::
 
-[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/ref-arch/architectures/reference-architecture-dynamics-365-travel-hospitality.pptx) with these architectures. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
+[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/reference-architecture-dynamics-365-travel-hospitality.pptx) with these architectures. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 

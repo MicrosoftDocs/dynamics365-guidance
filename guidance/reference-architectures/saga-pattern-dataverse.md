@@ -31,7 +31,7 @@ This architecture shows the Saga design pattern in its simplest form with only o
 
 This architecture shows the Saga design pattern with multiple chained non-Microsoft services and compensation transactions. In this case, it allows synchronization of data from Dataverse to multiple non-Microsoft services, in a specific order. If a fatal error occurs in one of the services, a compensation is started and run in reverse order of the main transaction.
 
-<!-- NOTE: Not sure how to implement the downloadable link to the PowerPoint from the task. --- Download a PowerPoint file with this architecture. \[Add link to a downloadable PowerPoint with the diagram.\] -->
+[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/saga-pattern-with-dataverse-or-dynamics-365.ppt) with these architectures. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 
