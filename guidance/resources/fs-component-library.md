@@ -1,7 +1,7 @@
 ---
 title: Sample library for Field Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 07/08/2024
+ms.date: 09/04/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: erdipple
@@ -30,6 +30,9 @@ The following sections outline the content of the collection. Each section inclu
 - Customize the template for bookings.
 
   A core element in this scenario is the flexibility to format the booking slot shown on the schedule board. We show an example of how you can add a custom icon to the booking template based on the work order incident type. Learn more at [Customize the template for bookings](fs-booking-template.md). For an introduction to the area, go to [Edit schedule board booking templates](/dynamics365/field-service/booking-template).
+- Field mapping for the schedule board settings
+
+   Each field in the board settings maps to a particular column in the schedule board settings record for the relevant section. This information can be useful if you have to troubleshoot something about the schedule boards. Learn more at [Field mapping for schedule board settings in Dynamics 365 Field Service](fs-schedule-board-settings-field-mapping.md).
 
 ## Test the solution
 

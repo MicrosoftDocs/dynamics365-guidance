@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field mapping for schedule board settings in Dynamics 365 Field Service
 description: Understand field mapping for schedule board settings in Field Service to enhance ALM practices and troubleshoot issues effectively.
 ms.date: 09/03/2024
@@ -16,7 +16,7 @@ ms.custom:
 
 Universal Resource Scheduling for Dynamics 365 Field Service includes a schedule board with settings that let you define the layout and functions of schedule board tabs and the schedule board in general. Learn more at [Schedule board settings](/dynamics365/field-service/schedule-board-tab-settings#board-settings). Each schedule board that a user creates saves to a record in the **Schedule Board Settings** table (`msdyn_scheduleboardsetting`) in the underlying platform. Each field in the board settings maps to a particular column in the schedule board settings record for the relevant section.
 
-Currently, schedule board settings aren't solution-specific. When you understand how these settings are mapped in the schedule board settings table, you can develop mature [application lifecycle management (ALM) practices](/power-platform/alm/) for solutions with Dynamics 365 Field Service. For example, you can incorporate promotion and modification of schedule board tabs from one environment to the next in your ALM pipelines. Knowledge of these mappings also helps you troubleshoot and resolve issues in schedule boards.
+Schedule board settings aren't solution-specific. When you understand how these settings are mapped in the schedule board settings table, you can develop mature [application lifecycle management (ALM) practices](/power-platform/alm/) for solutions with Dynamics 365 Field Service. For example, you can incorporate promotion and modification of schedule board tabs from one environment to the next in your ALM pipelines. Knowledge of these mappings also helps you troubleshoot and resolve issues in schedule boards.
 
 > [!NOTE]
 > Some board settings map to a specific column in the [ScheduleBoardSettings](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/projectcommon/scheduling/scheduleboardsetting) table while other board settings map to JSON attributes in the [`msdyn_settings`](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/projectcommon/scheduling/scheduleboardsetting#settings) column.
@@ -34,7 +34,7 @@ The following table shows where the underlying platform stores the values of the
 
 ## Map section
 
-The following table shows where the underlying platform stores the values of the different fields in the **Map** section. Learn more at [Map section](/dynamics365/field-service/schedule-board-tab-settings#map-section)
+The following table shows where the underlying platform stores the values of the different fields in the **Map** section. Learn more at [Map section](/dynamics365/field-service/schedule-board-tab-settings#map-section).
 
 <!-- ![A screenshot of a computer Description automatically generated](media/image2.png) -->
 
@@ -48,7 +48,7 @@ The following table shows where the underlying platform stores the values of the
 
 ## Custom web resource section
 
-The following table shows where the underlying platform stores the values of the different fields in the **Custom web resource** section. Learn more at [Custom web resource](/dynamics365/field-service/schedule-board-tab-settings#custom-web-resource)
+The following table shows where the underlying platform stores the values of the different fields in the **Custom web resource** section. Learn more at [Custom web resource](/dynamics365/field-service/schedule-board-tab-settings#custom-web-resource).
 
 <!-- ![A screenshot of a computer Description automatically generated](media/image3.png) -->
 
@@ -140,7 +140,7 @@ The fields on this page all map to the `SlotMetadataCollection` attribute in the
 
 ## Requirement panels section
 
-The following table shows where the underlying platform stores the values of the different fields in the **Requirement panels** section. Learn more at [Requirement panels](/dynamics365/field-service/schedule-board-tab-settings#requirement-panels)
+The following table shows where the underlying platform stores the values of the different fields in the **Requirement panels** section. Learn more at [Requirement panels](/dynamics365/field-service/schedule-board-tab-settings#requirement-panels).
 
 <!-- ![A screenshot of a computer Description automatically generated](media/image8.png) -->
 
@@ -158,7 +158,7 @@ For all fields on the **Requirement panels** tab, `UnscheduledTabs` is a collect
 
 <!-- ![](media/image9.png) -->
 
-The following table shows where the underlying platform stores the values of the different fields in the **Board view settings** panel. Learn more at  [Board view settings](/dynamics365/field-service/schedule-board-tab-settings#board-view-settings)
+The following table shows where the underlying platform stores the values of the different fields in the **Board view settings** panel. Learn more at  [Board view settings](/dynamics365/field-service/schedule-board-tab-settings#board-view-settings).
 
 <!-- ![A screenshot of a computer Description automatically generated](media/image10.png) -->
 
@@ -166,8 +166,8 @@ The following table shows where the underlying platform stores the values of the
 |---------|---------|--|--|
 |Time zone |`msdyn_settings` | `TimeOffsetSetting`|The `TimeOffsetSetting` JSON attribute in the `msdyn_settings` column references the [`timezonedefinition`](/power-apps/developer/data-platform/reference/entities/timezonedefinition) table. The `timezonedefinition` table has the same IDs per time zone in each environment by design.|
 |Working time (start) | `msdyn_settings`| `WorkHours`:`start`|  |
-|Working time (end) | `msdyn_settings`| `WorkHours`:`end`. | Working time values are stored in the `start` and `end` JSON attributes as 24-hour integer values. For example, it's *9*, not *9 AM*, and *17* rather than *5 PM*. You can only see the working time selectors when you view the hourly time scale. The values only apply to that time scale.|
-|Working days | `msdyn_settings`| `WorkDays`.| In the `msdyn_settings` JSON, working days show as a collection of named days with Boolean attribute values. Working days are days that are set to `true`. You can only see the working days selectors when you view the hourly time scale. The values only apply to that time scale.|
+|Working time (end) | `msdyn_settings`| `WorkHours`:`end` | Working time values are stored in the `start` and `end` JSON attributes as 24-hour integer values. For example, it's *9*, not *9 AM*, and *17* rather than *5 PM*. You can only see the working time selectors when you view the hourly time scale. The values only apply to that time scale.|
+|Working days | `msdyn_settings`| `WorkDays`| In the `msdyn_settings` JSON, working days show as a collection of named days with Boolean attribute values. Working days are days that are set to `true`. You can only see the working days selectors when you view the hourly time scale. The values only apply to that time scale.|
 |Time resolution | `msdyn_settings`| `TimeResolution`|  |
 |Row height | `msdyn_settings`| `viewModeSpecific:x:RowHeight`| Row height for the **Board view settings** pane is stored in the appropriate `viewModeSpecific` `RowHeight` attribute depending on the current [time scale](/dynamics365/field-service/work-with-schedule-board#time-scale) being viewed. The `x` in the attribute column for this row represents *hourAndDay* for hourly, *dayAndWeek* for daily, *weekAndMonth* for weekly, and *monthAndYear* for monthly.|
 |Show canceled | `msdyn_settings`| `hideCancelled`| The `hideCancelled` JSON attribute only shows in the `msdyn_settings` JSON if the **Show canceled** field isn't selected, and it has an integer value of 1. If the **Show canceled** field is selected, there's no `hideCancelled` JSON attribute enumerated in `msdyn_settings`.|
@@ -187,7 +187,7 @@ The following table shows where the underlying platform stores the values of the
 
 <!-- ![A screenshot of a computer Description automatically generated](media/image12.png) -->
 
-The **Save as default** button collects all the current values in the **Resource filters** fields and save them to a JSON payload in the `msdyn_filtervalues` column on the `msdyn_scheduleboardsettings` record. The **Characteristics** – **Rating**, **Roles**, **Territories**, **Organizational Units**, **Teams**, and **Business Units** fields on the filter pane save as individual collections of lookup field references per field. The **Resource Types** and **Pool Types** multi-select fields save as individual collections of option set references. Each individual collection is defined in the JSON with the appropriate name as is shown in the UI.
+The **Save as default** button collects all the current values in the **Resource filters** fields and saves them to a JSON payload in the `msdyn_filtervalues` column on the `msdyn_scheduleboardsettings` record. The **Characteristics** – **Rating**, **Roles**, **Territories**, **Organizational Units**, **Teams**, and **Business Units** fields on the filter pane save as individual collections of lookup field references per field. The **Resource Types** and **Pool Types** multi-select fields save as individual collections of option set references. Each individual collection is defined in the JSON with the appropriate name as is shown in the user interface.
 
 ## Schedule board settings column reference
 
@@ -257,7 +257,7 @@ The following sample illustrates the data types for each column in the `msdyn_sc
       <field displayname="Share Type" name="msdyn_sharetype" type="optionsetvalue" customfield="true" />
       <field displayname="Status" name="statecode" type="state" />
       <field displayname="Status Reason" name="statuscode" type="status" />
-      <field displayname="Tab name." name="msdyn_tabname" type="string" customfield="true" />
+      <field displayname="Tab name" name="msdyn_tabname" type="string" customfield="true" />
       <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
       <field displayname="Unit Details View (Deprecated)" name="msdyn_schedulerbusinessunitdetailsview" type="string" customfield="true" />
       <field displayname="Unscheduled View (Deprecated)" name="msdyn_unscheduledviewid" type="string" customfield="true" />
