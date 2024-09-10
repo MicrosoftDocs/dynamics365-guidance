@@ -67,7 +67,7 @@ Before you can import the project into Azure Boards, there are a few things that
        - **Microsoft Learn URL**
 
            This is a custom field with values provided in the template.
-   - **Configuration deliverable**: Create a new work item type, **Configuration deliverable**, to store each configuration in the template. Configuration deliverables represent setup or configuration that is required in Dynamics 365 to support one or more processes. We recommend that you document the details of each configuration throughout your project. The default configurations provided in the template guide you to the configurations that are required for each business process. More information is included on each configuration to help you understand what the configuration is used for. We recommend you add the following fields ot the layout of the customer work item:
+   - **Configuration deliverable**: Create a new work item type, **Configuration deliverable**, to store each configuration in the template. Configuration deliverables represent setup or configuration that is required in Dynamics 365 to support one or more processes. We recommend that you document the details of each configuration throughout your project. The default configurations provided in the template guide you to the configurations that are required for each business process. More information is included on each configuration to help you understand what the configuration is used for. We recommend you add the following fields to the layout of the customer work item:
 
        - **Description**
        - **Process sequence ID**
@@ -100,7 +100,7 @@ Before you can import the project into Azure Boards, there are a few things that
 
 6. Add custom fields as required. The template includes four custom fields. Use the following guidance to create the fields. Alternatively, delete the columns from the template. Learn more at [Add and manage fields](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true).
 
-    - **Catalog status**: Add this field as a **Picklist** field, so that you can track the status of the row in the Microsoft Business Process Catalog when new versions are released. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+    - **Catalog status**: Add this field as a **Picklist** field, so that you can track the status of the row in the Microsoft Business Process Catalog when new versions are released. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following four options for the list:
         - **New**
         - **Published**
         - **Updated**
