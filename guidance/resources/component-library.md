@@ -1,7 +1,7 @@
 ---
 title: Sample library for Customer Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions quickly and easily.
-ms.date: 03/15/2024
+ms.date: 09/04/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: viange
@@ -81,6 +81,11 @@ The following sections outline the content of the collection. Each section inclu
     By integrating ChatGPT with Copilot Studio, the gap is bridged. This way, knowledge articles are summarized directly within the chat conversation.  
 
     Learn more at [Summarize Dynamics 365 Knowledge Base with ChatGPT for efficient customer support](ai-summarize-knowledge-base-articles.md).
+- Copilot onboarding guide for digital contact centers
+
+  The onboarding guide describes best practices, strategies, and key milestones to ensure a successful deployment process. Use this guide to evaluate your current operations and create a plan to smoothly integrate Copilot capabilities in your digital contact center.  
+
+  Learn more at [Copilot onboarding guide for digital contact centers](cs-contact-center-copilot-onboarding-guide.md).  
 
 ### Microsoft Copilot Studio
 
@@ -105,7 +110,7 @@ The following sections outline the content of the collection. Each section inclu
     Learn more at [Play secure audio file from Copilot Studio](copilot-studio-play-audio-file.md).
 
 - Application Insights for Copilot Studio
-   
+
     This article discusses how you can capture telemetry data from your Microsoft Copilot Studio bot for use in Application Insights. In addition to the native analytics features within Microsoft Copilot Studio, you can send telemetry data to Application Insights.
 
     Learn more at [Copilot Studio Application Insights Telemetry](copilot-studio-appinsights.md).
@@ -117,7 +122,6 @@ The following sections outline the content of the collection. Each section inclu
     The simulator is a collection of samples that we built using Dynamics 365 Channel Integration Framework.
 
     Learn more at [Simulator for Channel Integration Framework v. 2.0 ](cs-set-up-cif2-simulator.md).
-
 
 - Set up Click to Outbound call
 
@@ -132,8 +136,6 @@ The following sections outline the content of the collection. Each section inclu
     The sample adaptor included in this guide demonstrates how an external application can notify a user about incoming notifications using the Channel Integration Framework API V2.0. By showcasing the adaptor code as a sample, this document offers insights into integrating an existing application seamlessly with the Channel Integration Framework, making it easier for developers to understand a one of the patterns to integrate with Channel Integration Framework. 
 
     Learn more at [Sample Adaptor](cs-set-up-cif2-sampleadaptor.md).
-
-
 
 ### Automation
 
