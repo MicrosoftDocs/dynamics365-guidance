@@ -1,0 +1,47 @@
+<svg id="ICONS-64x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #3a96dd;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #3a96dd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <title>i_customer-engagement</title>
+  <g>
+    <g>
+      <circle class="cls-1" cx="22.34" cy="24.86" r="4.96"/>
+      <path class="cls-1" d="M14.41,37.76a7.94,7.94,0,1,1,15.88,0"/>
+    </g>
+    <g>
+      <circle class="cls-1" cx="41.2" cy="24.86" r="4.96"/>
+      <path class="cls-1" d="M33.26,37.76a7.94,7.94,0,1,1,15.88,0"/>
+    </g>
+    <g>
+      <circle class="cls-1" cx="31.27" cy="33.85" r="6.75"/>
+      <path class="cls-1" d="M20,51.4A11,11,0,0,1,31.27,40.6,11,11,0,0,1,42.52,51.4"/>
+    </g>
+  </g>
+  <path class="cls-2" d="M32,0A32,32,0,1,0,64,32,32,32,0,0,0,32,0Zm0,53.12A21.12,21.12,0,1,1,53.12,32,21.14,21.14,0,0,1,32,53.12Z"/>
+  <g>
+    <path class="cls-3" d="M36,5.81a26.51,26.51,0,1,1-5.61-.26"/>
+    <polygon class="cls-4" points="26.21 12.09 25.11 11.12 29.87 5.72 24.13 1.37 25.01 0.2 32 5.5 26.21 12.09"/>
+  </g>
+</svg>
