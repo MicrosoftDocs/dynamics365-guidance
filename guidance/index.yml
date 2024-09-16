@@ -11,7 +11,7 @@ metadata:
   author: edupont04
   ms.author: edupont
   ms.subservice: guidance
-  ms.date: 07/15/2024
+  ms.date: 09/16/2024
   hide_bc: true
 
 # highlightedContent section (optional)
@@ -32,9 +32,9 @@ highlightedContent:
       itemType: concept
       url: implementation-guide/success-by-design.md
     # Card
-    - title: Adoption
-      itemType: get-started
-      url: /dynamics365/adoption/adoption-resources?toc=/dynamics 365/guidance/toc.json
+    - title: Resources
+      itemType: reference
+      url: resources/index.yml
 
 # productDirectory section (optional)
 productDirectory:
@@ -42,7 +42,7 @@ productDirectory:
 # Get started card - max 6 links per card
     - title: Get started
       # imageSrc should be square in ratio with no white space
-      imageSrc: media/sample-adoption.svg
+      imageSrc: media/i-get-started.svg
       links:
         - text: Introduction to guidance
           url: overview.md
@@ -59,7 +59,7 @@ productDirectory:
 
 # processes card
     - title: End-to-end business processes
-      imageSrc: media/sample-coe.svg
+      imageSrc: media/i-customer-engagement.svg
       links:
       - text: Get started
         url: business-processes/index.yml
@@ -72,7 +72,7 @@ productDirectory:
 # Implement card
     - title: Implement
       # imageSrc should be square in ratio with no white space
-      imageSrc: media/sample-more.svg
+      imageSrc: media/i-tools.svg
       links:
         - text: Overview
           url: implementation-guide/overview.md
@@ -90,7 +90,7 @@ productDirectory:
 # Migrate card
     - title: Migrate
       # imageSrc should be square in ratio with no white space
-      imageSrc: media/sample-adoption.svg
+      imageSrc: media/i-config-tools.svg
       links:
         - text: Overview
           url: migrate/overview.md
@@ -101,7 +101,7 @@ productDirectory:
 
 # Admin Card
     - title: Administer
-      imageSrc: media/sample-creator.svg
+      imageSrc: media/i-setup.svg
       links:
       - text: Overview
         url: implementation-guide/admin-guide-overview.md
@@ -118,7 +118,7 @@ productDirectory:
 
 # Card
     - title: Reference architectures
-      imageSrc: media/sample-coe.svg
+      imageSrc: media/i-architecture.svg
       links:
       - text: Copilot in Customer Service architecture
         url: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
