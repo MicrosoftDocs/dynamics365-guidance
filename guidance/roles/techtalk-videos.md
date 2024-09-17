@@ -5,7 +5,7 @@ author: alcabral
 ms.author: edupont
 ms.topic: overview #Required; don't change.
 ms.collection: get-started #Required; 
-ms.date: 02/16/2024
+ms.date: 09/17/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -40,7 +40,7 @@ To see a list of upcoming TechTalks, visit our blog page at [https://aka.ms/Upco
 
 There are several ways to find past TechTalks and the related artifacts. Use one of the following techniques to find past TechTalks.
 
-- Find them on [Microsoft Learn](../techtalks/index.yml) - we're gradually adding articles with summaries of key TechTalks.
+- Find them here on [Microsoft Learn](../techtalks/index.yml) - we're gradually adding articles with summaries of key TechTalks.
 - Visit the [FastTrack TechTalks](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a&groupid=fe7f279c-2848-4109-9139-26dad32a1ce2) page on the Dynamics 365 Community site. The TechTalks on this page are sorted from the newest to the oldest.  
 
   To navigate in the list of TechTalks, use the buttons at the bottom of the page. To view the details and find the video and Power Point presentation for a TechTalk, choose the tile for the TechTalk.  
@@ -50,6 +50,6 @@ There are several ways to find past TechTalks and the related artifacts. Use one
 
 Your feedback is important to us. At the end of each TechTalk, we post a link to a survey to provide feedback about that specific TechTalk. If you have general feedback about TechTalks or suggestions for subjects on new TechTalks, tell us in the form at [https://aka.ms/TechTalkFeedback](https://aka.ms/TechTalkFeedback) and give us your feedback.  
 
-## Next steps
+## Related information
 
 Get an overview of roles in Dynamics 365 at [Overview of roles in Dynamics 365](overview.md).  

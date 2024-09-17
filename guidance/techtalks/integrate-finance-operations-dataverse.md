@@ -1,91 +1,106 @@
 ﻿---
 title: TechTalk Integration patterns for Dataverse
-description: Summary of TechTalk video that talks about the various facets of integrating Dataverse with a particular focus on its interoperability with Dynamics 365.
+description: Summary of TechTalk video that talks about the various facets of integrating Dataverse and Dynamics 365 finance and operations apps.
 ms.topic: conceptual
 author: edupont04
 ms.author: raprofit
-ms.date: 02/20/2024
+ms.date: 09/12/2024
 ai-usage: ai-assisted
 # CustomerIntent: As a partner, I want to learn if I should watch the recording.
 ---
 
 # TechTalk: Integration patterns for Dataverse
 
-In the realm of modern enterprise solutions, Dataverse stands out as a robust and scalable data service, crucial within Microsoft Power Platform. This article delves into the various facets of integrating Dataverse, with a particular focus on its interoperability with Dynamics 365, offering an extensive exploration of its capabilities and integration techniques.
+In this article, we explore the various patterns and tools available for both inbound and outbound data integrations within Dataverse, examining the best practices and considerations for each.
 
-We've based the article on [a TechTalk](https://youtu.be/CFG1EpPuFRs?si=i22wsPZuGTAHAMIz) that you can find online in the Dynamics 365 channel on YouTube.  
+We based the article on [a TechTalk](https://youtu.be/CFG1EpPuFRs?si=6MbkBCzjlBVubtT) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/integration-patterns-dataverse-intro.svg" alt-text="Introductory slide from the TechTalk presented by Corina Balan and Michele Mazzucco from the FastTrack team." link="https://youtu.be/CFG1EpPuFRs?si=i22wsPZuGTAHAMIz":::
+:::image type="content" source="media/integration-patterns-dataverse-slide.svg" alt-text="Introductory slide from the TechTalk presented by Corina Balan and Michele Mazzucco from the FastTrack team." link="https://youtu.be/CFG1EpPuFRs?si=6MbkBCzjlBVubtT":::
 
 <!-- > [!VIDEO https://www.youtube.com/embed/CFG1EpPuFRs?si=CTxwasdR8jWT6SLD] -->
 
-## Understand Dataverse
+## Overview
 
-The following illustration provides insights into Dynamics 365 integration with Dataverse.
+Dataverse is a key component of the Power Platform that provides extensive capabilities for integrating data from various sources, enabling a seamless flow of information across systems. Understanding the different integration patterns available within Dataverse is crucial for designing effective and efficient solutions, particularly when integrating with external systems or applications.
 
-:::image type="content" source="media/integration-patterns-dataverse1.svg" alt-text="Diagram that shows Dynamics 365 and Dataverse components." lightbox="media/integration-patterns-dataverse1.svg":::
+The following illustration shows the architecture for integrating Dynamics 365 finance and operations apps with Dataverse. It shows various components such as Event Grid, Service Bus, Azure Function, and Power Automate that facilitate integration. The diagram highlights data flow between Finance and Operations Apps and Dataverse using tools like Dual Write, OData/Web API, and Business Events. Different integration types, including near real-time, asynchronous, and synchronous, are indicated, along with their associated processes like electronic reporting and invoice capture. This overview illustrates the comprehensive integration setup between systems, ensuring seamless data exchange and process synchronization.
 
-Dataverse represents a pivotal innovation in Microsoft's service offerings, designed as a cloud-based, low-code data platform. Its primary function is to store and manage data for business applications. The platform is not just a data repository; it's a comprehensive solution that supports complex data modeling, allows for the incorporation of business logic, and facilitates a wide range of process capabilities.
+:::image type="content" source="media/integration-patterns-dataverse-overview.svg" alt-text="Diagram that shows Dynamics 365 and Dataverse components." lightbox="media/integration-patterns-dataverse-overview.svg":::
 
-The integration of Dynamics 365 with Dataverse marks a transformative step for businesses deeply ingrained in Microsoft's ecosystem. This integration facilitates a seamless flow of data across various business applications, thereby enhancing operational efficiency and enriching the decision-making process.
+## Inbound integration - bringing data into Dataverse
 
-Integrating Dynamics 365 with Dataverse brings about a unified data platform, which is crucial for centralizing data across various Microsoft applications. It also leads to enhanced data management capabilities, allowing businesses to handle large datasets more effectively. Additionally, this integration offers scalability and flexibility, ensuring that businesses can meet their growing data needs without compromising on performance.
+When integrating data into Dataverse from external sources, several approaches can be considered, depending on the specific requirements of the project. The most direct approach is to write custom code to interact with Dataverse's API. Developers have two primary options here:
 
-## Core integration patterns
+1. **Organization service**  
 
-The following illustration provides insights into inbound integration where you import data to Dataverse.
+   This service defines all operations supported by the platform as messages, accessible via .NET code through the provided SDK.
 
-:::image type="content" source="media/integration-patterns-dataverse2.svg" alt-text="Three tiles for different approaches, Dataverse API, Dataverse connectors, and UI integration." lightbox="media/integration-patterns-dataverse2.svg":::
+2. **Web API**  
 
-Inbound integration is primarily concerned with the process of importing data into Dataverse. This can be achieved through direct API interactions, using Organization Service and Web API to facilitate programmatic data import. Alternatively, businesses can leverage Power Automate and Azure Logic Apps, which offer a more streamlined approach to data import, requiring minimal coding effort thanks to their prebuilt connectors.
+    This RESTful service exposes the same operations, which can be consumed via HTTP methods, using OData for defining functions and actions.
 
-The following illustration provides insights into outbound integration where you export data from Dataverse.
+Alternatively, you can implement a low-code/no-code approach using components in the Power Platform or Azure. Tools such as **Power Automate** and **Logic Apps** offer extensive integration capabilities through pre-built connectors, allowing data to flow into Dataverse with minimal custom coding.
 
-:::image type="content" source="media/integration-patterns-dataverse3.svg" alt-text="Three tiles for different approaches, event-driven through Dataverse, event-driven with schedule, and batch." lightbox="media/integration-patterns-dataverse3.svg":::
+**Power Automate** is useful for orchestration of events and is included in many Power Platform and Dynamics 365 offerings. **Logic Apps**, while similar in functionality, is more suited for professional development and is deployed as an Azure resource, offering greater control and flexibility.
 
-Outbound integration focuses on exporting data from Dataverse. This can involve the creation of custom APIs tailored for efficient and secure data export. Another significant method is data synchronization with Azure Services, which takes advantage of Azure's robust infrastructure for better data management.
+For scenarios where data doesn't need to be physically imported into Dataverse, real-time data embedding via **virtual tables** or custom UI components can be an effective strategy. This approach allows external data to be accessed on demand without the overhead of continuous data importation.
 
-## Implementation strategies
+The following image outlines three key methods for integrating data into Dataverse. These include using **Dataverse APIs** like the Organization Service and Web API for development and operations, **Dataverse connectors** such as Power Automate and Logic Apps for low-code/no-code integration, and **UI integration** methods like Virtual Tables and Custom Controls for embedding external data and customizing the user interface. The options offer flexibility in how data is integrated and managed within Dataverse.
 
-You can choose between different implementation strategies as outlined in this section.
+:::image type="content" source="media/integration-patterns-dataverse-inbound.svg" alt-text="Outlines three key methods for integrating data into Dataverse as described before the image." lightbox="media/integration-patterns-dataverse-inbound.svg":::
 
-- Set up APIs
+## Outbound integration - exporting data from Dataverse
 
-  When you set up APIs for importing data into Dataverse, it's crucial to follow detailed steps that ensure the APIs are configured correctly and securely. On the export side, creating APIs that cater to the specific needs of data export is essential, and these should be designed with a focus on efficiency and security.
+Outbound integrations in Dataverse involve sending data from Dataverse to external systems. Outbound integration are useful when events in Dataverse must trigger actions in other systems. There are several tools and methods available for this scenario:
 
-- Automating with Power Automate
+1. **Plugins**  
 
-  The following illustration compares Power Automate with Logic Apps.
+    Plugins can call external web services or post runtime context to Azure services like Service Bus or Event Hubs, providing a robust mechanism for extending Dataverse's capabilities.
 
-  :::image type="content" source="media/integration-patterns-dataverse4.svg" alt-text="Two cards that compare Power Automate with Logic Apps." lightbox="media/integration-patterns-dataverse4.svg":::
+2. **Webhooks**  
 
-  Power Automate serves as an effective tool for automating data import processes. Creating flows in Power Automate should be approached with a detailed understanding of the tool, ensuring that the automation is efficient and free from errors. It's also important to adhere to best practices in automation to maintain data integrity and streamline operations.
+   A lightweight HTTP pattern, webhooks allow for real-time, event-driven integration with external systems. They're useful for scenarios where low latency is required and the external system can handle a high volume of messages.
 
-- Use Azure functions for data export
+3. **Azure Synapse Link for Dataverse**  
 
-  The following illustration provides insights into using Azure Synapse Link for Dataverse.
+   This service is ideal for integration scenarios with batch data, allowing for the continuous export of data from Dataverse to Azure Synapse Analytics and Azure Data Lake Storage. This is beneficial for analytics, business intelligence, and machine learning applications.
 
-  :::image type="content" source="media/integration-patterns-dataverse5.svg" alt-text="Illustration of Azure Synapse Link for Dataverse." lightbox="media/integration-patterns-dataverse5.svg":::
+The following image outlines methods for exporting data from Dataverse. It includes event-driven integration using plug-ins, webhooks, and business events; scheduled integration via Power Automate and Logic Apps; and batch processes like Azure Synapse Link for continuous data export and change tracking for delta updates. These approaches offer flexible ways to manage data flow from Dataverse to other systems.
 
-  Using Azure Functions for data export is a powerful strategy. It involves understanding the integration techniques specific to Azure and applying them to ensure robust data export. Emphasizing security and scalability in this context is crucial, particularly for handling large datasets and maintaining data integrity.
+:::image type="content" source="media/integration-patterns-dataverse-outbound.svg" alt-text="Outlines methods for exporting data from Dataverse as described before the image." lightbox="media/integration-patterns-dataverse-outbound.svg":::
 
-## Data modeling and management
+**Dataverse Business Events** also offer a powerful mechanism for asynchronous integration, enabling developers to respond to specific events in Dataverse without the need for continuous polling or complex custom logic.
 
-Data modeling in Dataverse involves techniques for creating efficient and functional data structures. Additionally, embedding business logic within Dataverse enhances data processing capabilities, making it a more powerful tool for business applications.
+## Best practices and considerations
 
-## Security considerations
+When deciding on the best integration pattern, several factors should be considered, including the complexity of the integration, the volume of data, the need for real-time processing, and the existing infrastructure.
 
-Security is paramount in any data integration strategy. Ensuring data security within Dataverse involves understanding and implementing best practices to protect data. Additionally, compliance with relevant regulations and laws is crucial for legal and ethical data handling.
+- **Custom code versus low-code**  
 
-## Conclusion
+   Evaluate whether custom development is necessary or if a low-code solution via Power Automate or Logic Apps will suffice. Custom code offers greater flexibility but comes with increased complexity and maintenance requirements.
 
-Integrating Dataverse effectively is key for businesses using Microsoft's ecosystem. This guide provides a thorough exploration of Dataverse integration patterns, aiming to ensure robust, scalable, and secure data management across applications. For ongoing learning and support, Microsoft's official documentation and community forums are invaluable resources.
+- **Security and compliance**  
 
-## Related information
+   Ensure that data handling complies with security policies, particularly when dealing with sensitive information. Using managed identities and secure configurations can help mitigate security risks.
+
+- **Scalability**  
+
+   Consider the scalability of the solution, particularly in scenarios involving large volumes of data or high-frequency transactions. Azure services like Service Bus provide robust mechanisms for scaling integrations.
+
+- **Performance**  
+
+   For real-time integrations, consider the latency of the chosen approach. Synchronous operations, while immediate, may introduce performance bottlenecks if not carefully managed.
+
+For those looking to implement or optimize Dataverse integrations, understanding these patterns and tools is essential. By carefully selecting the right approach for your specific needs, you can ensure that your integration solutions are both effective and scalable, supporting your broader business goals.
+
+Learn more at [What is Microsoft Dataverse?](/power-apps/maker/data-platform/data-platform-intro).
+
+This article has provided a high-level overview of the key integration patterns available for Dataverse, with practical insights into when and how to use them. Whether you're a developer looking to implement complex integrations or a business analyst seeking to streamline data flows, these patterns serve as a valuable guide in your Dataverse journey.
+
+### Related resources
 
 You can use the following resources to learn more about Dynamics 365.
 
-- [Microsoft Documentation on Dataverse](/power-apps/maker/data-platform/)  
-- [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)  
-- [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/) 
-- [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)  
+- [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
+- [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)
+- [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)

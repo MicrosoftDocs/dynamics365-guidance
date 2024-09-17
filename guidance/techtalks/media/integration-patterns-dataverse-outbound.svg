@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1126.683"
+   height="638.62408"
+   overflow="hidden"
+   version="1.1"
+   id="svg67"
+   sodipodi:docname="integration-patterns-dataverse-outbound.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs67" />
+  <sodipodi:namedview
+     id="namedview67"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="2.54375"
+     inkscape:cx="588.50123"
+     inkscape:cy="328.45209"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg67">
+    <sodipodi:guide
+       position="537.00246,696.8059"
+       orientation="0,-1"
+       id="guide67"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="g67"
+     transform="matrix(0.97884248,0,0,1,-63.510787,0)">
+    <rect
+       x="64.864868"
+       y="0"
+       width="1126.683"
+       height="638.62408"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.883593" />
+    <text
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="48px"
+       transform="translate(300.167,95)"
+       id="text1">Dataverse outbound integration</text>
+    <path
+       d="m 69,180 h 341 v 65 H 69 Z"
+       stroke="#f9f9f9"
+       stroke-width="1.8"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       stroke-opacity="0.501961"
+       fill="#770180"
+       fill-rule="evenodd"
+       id="path1" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(109.202,207)"
+       id="text2">Event driven via Dataverse</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(156.095,232)"
+       id="text3">event framework</text>
+    <path
+       d="M 69,245 H 410 V 637 H 69 Z"
+       fill="#eae4dc"
+       fill-rule="evenodd"
+       fill-opacity="0.501961"
+       id="path3" />
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(78.8534,274)"
+       id="text4">Plug</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(127.02,274)"
+       id="text5">-</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(136.187,274)"
+       id="text6">ins</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(172.52,274)"
+       id="text7">–</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(190.02,274)"
+       id="text8">integrate with</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(78.8534,299)"
+       id="text9">external web services and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(78.8534,323)"
+       id="text10">Azure Services.</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(78.8534,380)"
+       id="text11">Webhooks</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(197.58,380)"
+       id="text12">–</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(215.08,380)"
+       id="text13">HTTP pattern,</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(78.8534,405)"
+       id="text14">posts execution context to web</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(78.8534,429)"
+       id="text15">service.</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(78.8534,487)"
+       id="text16">Business</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(175.853,487)"
+       id="text17">e</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(188.187,487)"
+       id="text18">vents</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(251.467,487)"
+       id="text19">–</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(268.967,487)"
+       id="text20">use for</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(78.8534,511)"
+       id="text21">internal or external events to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(78.8534,535)"
+       id="text22">notify publishers.</text>
+    <path
+       d="m 458,180 h 341 v 65 H 458 Z"
+       stroke="#f9f9f9"
+       stroke-width="1.8"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       stroke-opacity="0.501961"
+       fill="#770180"
+       fill-rule="evenodd"
+       id="path22" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(477.131,207)"
+       id="text23">Event driven &amp; scheduled with</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(521.331,232)"
+       id="text24">Dataverse connectors</text>
+    <path
+       d="M 459,245 H 800 V 637 H 459 Z"
+       fill="#eae4dc"
+       fill-rule="evenodd"
+       fill-opacity="0.501961"
+       id="path24" />
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(468.23,274)"
+       id="text25">Power Automate</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(653.603,274)"
+       id="text26">–</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(671.103,274)"
+       id="text27">SaaS</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,299)"
+       id="text28">automation for low</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(659.55,299)"
+       id="text29">-</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(668.55,299)"
+       id="text30">code/no</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(752.55,299)"
+       id="text31">-</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,323)"
+       id="text32">code integration with</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(687.716,323)"
+       id="text33">3</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(699.883,323)"
+       id="text34">rd party</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,348)"
+       id="text35">apps using</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(582.563,348)"
+       id="text36">1000</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(631.23,348)"
+       id="text37">+ prebuilt</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,372)"
+       id="text38">connectors or custom</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,397)"
+       id="text39">connectors</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(584.703,397)"
+       id="text40">for cloud and on</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(750.87,397)"
+       id="text41">-</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,421)"
+       id="text42">premises connectivity.</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(468.23,478)"
+       id="text43">Logic Apps</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(591.73,478)"
+       id="text44">–</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(609.23,478)"
+       id="text45">iPaaS automation</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,503)"
+       id="text46">for advanced integration to</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,527)"
+       id="text47">automate complex business</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,552)"
+       id="text48">processes. Tight integration</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,576)"
+       id="text49">with Azure. Benefit from the</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,601)"
+       id="text50">same connectors ecosystem as</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(468.23,625)"
+       id="text51">Power Automate.</text>
+    <path
+       d="m 847,181 h 341 v 65 H 847 Z"
+       stroke="#f9f9f9"
+       stroke-width="1.8"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       stroke-opacity="0.501961"
+       fill="#770180"
+       fill-rule="evenodd"
+       id="path51" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(990.15,220)"
+       id="text52">Batch</text>
+    <path
+       d="m 847,245 h 341 V 633 H 847 Z"
+       fill="#eae4dc"
+       fill-rule="evenodd"
+       fill-opacity="0.501961"
+       id="path52" />
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(856.692,274)"
+       id="text53">Azure Synapse Link for</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(856.692,299)"
+       id="text54">Dataverse</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(968.772,299)"
+       id="text55">–</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(986.272,299)"
+       id="text56">continuously</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(856.692,323)"
+       id="text57">export Dataverse data for</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(856.692,348)"
+       id="text58">reporting and analytics use</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(856.692,372)"
+       id="text59">cases.</text>
+    <path
+       d="m 72,106 h 1136 c 4.42,0 8,3.582 8,8 v 40 H 64 v -40 c 0,-4.418 3.5817,-8 8,-8 z"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path59" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="37px"
+       transform="translate(405.527,151)"
+       id="text60">Endpoints</text>
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="37px"
+       transform="translate(577.787,151)"
+       id="text61">and common tools</text>
+    <path
+       d="M 76.5001,346.5 H 357.369"
+       stroke="#770180"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path61" />
+    <path
+       d="M 76.5001,454.5 H 357.369"
+       stroke="#770180"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path62" />
+    <path
+       d="m 856.5,396.5 h 280.87"
+       stroke="#770180"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path63" />
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(856.411,441)"
+       id="text63">Change tracking</text>
+    <text
+       fill="#0078d4"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="23px"
+       transform="translate(1036.74,441)"
+       id="text64">-</text>
+    <text
+       fill="#161616"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(1052.24,441)"
+       id="text65">a set of</text>
+    <text
+       fill="#161616"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(856.411,468)"
+       id="text66">delta changes is returned by</text>
+    <text
+       fill="#161616"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="23px"
+       transform="translate(856.411,495)"
+       id="text67">Dataverse for a table.</text>
+    <path
+       d="M 471.5,441.5 H 752.369"
+       stroke="#770180"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path67" />
+  </g>
+</svg>

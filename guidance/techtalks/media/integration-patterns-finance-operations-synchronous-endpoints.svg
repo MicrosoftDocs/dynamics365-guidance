@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1194.6929"
+   height="664.57001"
+   overflow="hidden"
+   version="1.1"
+   id="svg87"
+   sodipodi:docname="integration-patterns-finance-operations-synchronous-endpoints.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview87"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.54375"
+     inkscape:cx="575.92138"
+     inkscape:cy="307.22359"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg87" />
+  <defs
+     id="defs4">
+    <filter
+       id="fx0"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer1">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR1" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG1" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB1" />
+        <feFuncA
+           type="linear"
+           slope="0.25098"
+           intercept="0"
+           id="feFuncA1" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="6.66667 6.66667"
+         id="feGaussianBlur1" />
+    </filter>
+    <filter
+       id="fx1"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer2">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR2" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG2" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB2" />
+        <feFuncA
+           type="linear"
+           slope="0.25098"
+           intercept="0"
+           id="feFuncA2" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="6.66667 6.66667"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       id="fx2"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer3">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR3" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG3" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB3" />
+        <feFuncA
+           type="linear"
+           slope="0.25098"
+           intercept="0"
+           id="feFuncA3" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="6.66667 6.66667"
+         id="feGaussianBlur3" />
+    </filter>
+    <filter
+       id="fx3"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer4">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR4" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG4" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB4" />
+        <feFuncA
+           type="linear"
+           slope="0.25098"
+           intercept="0"
+           id="feFuncA4" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="6.66667 6.66667"
+         id="feGaussianBlur4" />
+    </filter>
+  </defs>
+  <g
+     id="g87"
+     transform="translate(-64.078621,-52.678131)">
+    <rect
+       x="64.078621"
+       y="52.678131"
+       width="1194.6929"
+       height="664.57001"
+       fill="#ffffff"
+       id="rect4"
+       style="stroke-width:0.928169" />
+    <g
+       filter="url(#fx0)"
+       transform="translate(663,424)"
+       id="g5">
+      <g
+         id="g4">
+        <path
+           d="m 20.7141,43.5979 c 0,-12.6384 10.2454,-22.8838 22.8837,-22.8838 H 573.83 c 12.639,0 22.884,10.2454 22.884,22.8838 V 266.83 c 0,12.639 -10.245,22.884 -22.884,22.884 H 43.5978 c -12.6383,0 -22.8837,-10.245 -22.8837,-22.884 z"
+           fill="#f4f3f5"
+           fill-rule="evenodd"
+           id="path4" />
+      </g>
+    </g>
+    <path
+       d="M 679,462.884 C 679,450.245 689.245,440 701.884,440 h 530.236 c 12.63,0 22.88,10.245 22.88,22.884 V 686.116 C 1255,698.755 1244.75,709 1232.12,709 H 701.884 C 689.245,709 679,698.755 679,686.116 Z"
+       fill="#f4f3f5"
+       fill-rule="evenodd"
+       id="path5" />
+    <text
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="43px"
+       transform="translate(420.273,90)"
+       id="text5">Synchronous endpoints</text>
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="27px"
+       transform="translate(453.167,128)"
+       id="text6">OData and custom services</text>
+    <path
+       d="M 0,0 488.859,2.95948"
+       stroke="#bfbfbf"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,701.5,487.46)"
+       id="path6" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="16px"
+       transform="translate(758.867,523)"
+       id="text7">Latency &amp; Performance</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14px"
+       transform="translate(758.867,540)"
+       id="text8">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(779.134,540)"
+       id="text9">Synchronous endpoints are designed for low latency and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(779.134,559)"
+       id="text10">low/medium volume.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14px"
+       transform="translate(758.867,586)"
+       id="text11">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(779.134,586)"
+       id="text12">OData and custom service have shared service protection limits.</text>
+    <path
+       d="m 729.961,523.858 c -1.082,1.153 -2.84,1.153 -3.922,0 -1.217,-1.025 -1.217,-2.691 0,-3.716 1.082,-1.025 2.84,-1.153 3.922,0 1.217,1.025 1.217,2.691 0,3.716 z M 727.932,504 C 717.52,504 709,512.071 709,522.064 709,531.929 717.52,540 727.932,540 738.48,540 747,531.929 747,522.064 747,512.071 738.48,504 727.932,504 Z m 10.008,26.904 c 2.298,-2.306 3.651,-5.381 3.651,-8.84 0,-1.665 -0.271,-3.203 -0.812,-4.612 m -8.249,-7.687 c -1.487,-0.384 -2.975,-0.64 -4.598,-0.64 -7.437,0 -13.523,5.765 -13.523,12.939 0,3.459 1.353,6.534 3.651,8.84 m 19.609,-18.064 c -7.438,7.046 -7.438,7.046 -7.438,7.046"
+       stroke="#770180"
+       stroke-width="1.66667"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path12" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="16px"
+       transform="translate(758.072,619)"
+       id="text13">Security</text>
+    <text
+       fill="#161616"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(761.187,638)"
+       id="text14">•</text>
+    <text
+       fill="#161616"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(780.054,638)"
+       id="text15">Standard security stack applies. No direct access to the database.</text>
+    <path
+       d="m 743.151,636.732 c -2.072,1.536 -4.721,2.414 -7.599,2.414 -6.91,0 -12.552,-5.378 -12.552,-12.073 0,-6.695 5.642,-12.073 12.552,-12.073 7.024,0 12.666,5.378 12.666,12.073 0,1.317 -0.23,2.525 -0.576,3.622 C 761,643.317 761,643.317 761,643.317 c 0,7.683 0,7.683 0,7.683 -7.6,0 -7.6,0 -7.6,0 0,-4.939 0,-4.939 0,-4.939 -4.952,0 -4.952,0 -4.952,0 0,-4.829 0,-4.829 0,-4.829 -5.297,0 -5.297,0 -5.297,0 z m -11.399,-11.744 c 0.921,0 1.727,-0.769 1.727,-1.647 0,-0.987 -0.806,-1.756 -1.727,-1.756 -1.037,0 -1.843,0.769 -1.843,1.756 0,0.878 0.806,1.647 1.843,1.647 z"
+       stroke="#770180"
+       stroke-width="1.66667"
+       stroke-linecap="square"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path15" />
+    <g
+       filter="url(#fx1)"
+       transform="translate(55,134)"
+       id="g17">
+      <g
+         id="g16">
+        <path
+           d="m 20.714,43.853 c 0,-12.7793 10.3597,-23.1389 23.1389,-23.1389 H 573.575 c 12.779,0 23.139,10.3596 23.139,23.1389 v 225.722 c 0,12.779 -10.36,23.139 -23.139,23.139 H 43.8529 c -12.7792,0 -23.1389,-10.36 -23.1389,-23.139 z"
+           fill="#f4f3f5"
+           fill-rule="evenodd"
+           id="path16" />
+      </g>
+    </g>
+    <path
+       d="M 71,173.139 C 71,160.36 81.3596,150 94.1389,150 H 623.861 C 636.64,150 647,160.36 647,173.139 V 398.861 C 647,411.64 636.64,422 623.861,422 H 94.1389 C 81.3596,422 71,411.64 71,398.861 Z"
+       fill="#f4f3f5"
+       fill-rule="evenodd"
+       id="path17" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(90.262,181)"
+       id="text17">OData</text>
+    <path
+       d="M 91.5001,199.5 H 628.238"
+       stroke="#bfbfbf"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path18" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(120.598,274)"
+       id="text18">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,274)"
+       id="text19">RESTful web services</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(120.598,293)"
+       id="text20">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,293)"
+       id="text21">Based</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(185.798,293)"
+       id="text22">on data entities where</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(346.418,293)"
+       id="text23">IsPublic</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(404.252,293)"
+       id="text24">is set to Yes, as many are by</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,312)"
+       id="text25">default.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(120.598,331)"
+       id="text26">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,331)"
+       id="text27">Available</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(206.678,331)"
+       id="text28">operations</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(286.178,331)"
+       id="text29">CRUD</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(327.678,331)"
+       id="text30">-</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(334.012,331)"
+       id="text31">A</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(348.678,331)"
+       id="text32">(POST,</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(398.172,331)"
+       id="text33">GET,</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(432.532,331)"
+       id="text34">PATCH,</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(486.098,331)"
+       id="text35">DELETE)</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(546.798,331)"
+       id="text36">and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,350)"
+       id="text37">custom</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(195.505,350)"
+       id="text38">actions</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(249.838,350)"
+       id="text39">(POST)</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(120.598,370)"
+       id="text40">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,370)"
+       id="text41">Underlying integration technology for modern clients, such as</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,389)"
+       id="text42">mobile, web, Excel, Power BI.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(120.598,408)"
+       id="text43">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(139.465,408)"
+       id="text44">Only</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(176.298,408)"
+       id="text45">supports the HTTPS</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(320.065,408)"
+       id="text46">protocol.</text>
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(129.006,234)"
+       id="text47">Characteristics</text>
+    <path
+       d="m 98.5455,208.9 c 0,-2.153 1.7715,-3.9 3.9545,-3.9 2.183,0 3.955,1.747 3.955,3.9 0,1.3 0,1.3 0,1.3 5.272,0 5.272,0 5.272,0 0,5.2 0,5.2 0,5.2 -18.4543,0 -18.4543,0 -18.4543,0 0,-5.2 0,-5.2 0,-5.2 5.2728,0 5.2728,0 5.2728,0 z m -5.2728,1.3 C 88,210.2 88,210.2 88,210.2 c 0,33.8 0,33.8 0,33.8 29,0 29,0 29,0 0,-33.8 0,-33.8 0,-33.8 -5.273,0 -5.273,0 -5.273,0 m 1.318,13 c -10.545,0 -10.545,0 -10.545,0 m 10.545,7.8 c -10.545,0 -10.545,0 -10.545,0 m 10.545,7.8 c -10.545,0 -10.545,0 -10.545,0 m -9.2273,-18.2 c 2.6364,2.6 2.6364,2.6 2.6364,2.6 3.9545,-3.9 3.9545,-3.9 3.9545,-3.9 m -6.5909,9.1 c 2.6364,2.6 2.6364,2.6 2.6364,2.6 3.9545,-3.9 3.9545,-3.9 3.9545,-3.9 m -6.5909,9.1 c 2.6364,2.6 2.6364,2.6 2.6364,2.6 3.9545,-3.9 3.9545,-3.9 3.9545,-3.9"
+       stroke="#770180"
+       stroke-width="1.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path47" />
+    <g
+       filter="url(#fx2)"
+       transform="translate(57,427)"
+       id="g49">
+      <g
+         id="g48">
+        <path
+           d="m 20.714,43.0878 c 0,-12.3567 10.0171,-22.3737 22.3737,-22.3737 H 573.34 c 12.357,0 22.374,10.017 22.374,22.3737 V 261.34 c 0,12.357 -10.017,22.374 -22.374,22.374 H 43.0877 c -12.3566,0 -22.3737,-10.017 -22.3737,-22.374 z"
+           fill="#f4f3f5"
+           fill-rule="evenodd"
+           id="path48" />
+      </g>
+    </g>
+    <path
+       d="M 73,465.374 C 73,453.017 83.017,443 95.3737,443 H 625.626 C 637.983,443 648,453.017 648,465.374 V 683.626 C 648,695.983 637.983,706 625.626,706 H 95.3737 C 83.017,706 73,695.983 73,683.626 Z"
+       fill="#f4f3f5"
+       fill-rule="evenodd"
+       id="path49" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(90.262,471)"
+       id="text49">Metadata service</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(122.469,558)"
+       id="text50">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(141.336,558)"
+       id="text51">Read</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(176.389,558)"
+       id="text52">-</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(187.056,558)"
+       id="text53">only, RESTful.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(122.469,577)"
+       id="text54">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(141.336,577)"
+       id="text55">Labels:</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(141.336,596)"
+       id="text56">https://[baseURI]/Metadata/Labels(Id=‘@SYS333000’,Language=‘</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(589.756,596)"
+       id="text57">en</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(606.589,596)"
+       id="text58">-</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(141.336,615)"
+       id="text59">us’)</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(122.469,634)"
+       id="text60">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(141.336,634)"
+       id="text61">Data</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(178.669,634)"
+       id="text62">entities:</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(237.669,634)"
+       id="text63">https://[baseURI]/Metadata/DataEntities</text>
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(130.877,518)"
+       id="text64">Characteristics</text>
+    <path
+       d="m 91.1238,529.941 c 0,0 0,-0.113 0,-0.113 -2.7238,-0.337 -4.7143,-2.698 -4.7143,-5.621 0,-0.45 0,-0.787 0.1048,-1.237 C 85.0476,521.621 84,519.598 84,517.237 c 0,-2.474 1.1524,-4.722 2.9333,-6.071 -0.3143,-0.9 -0.5238,-1.799 -0.5238,-2.699 0,-3.147 1.9905,-5.621 4.7143,-6.295 0,0 0,0 0,-0.113 0,-2.81 2.0952,-5.059 4.7143,-5.059 2.619,0 4.7139,2.249 4.7139,5.059 0,27.882 0,27.882 0,27.882 m 9.429,0 c 0,0 0,-0.113 0,-0.113 2.619,-0.337 4.714,-2.698 4.714,-5.621 0,-0.45 -0.105,-0.787 -0.105,-1.237 1.467,-1.349 2.41,-3.372 2.41,-5.733 0,-2.474 -1.152,-4.722 -2.933,-6.071 0.419,-0.9 0.628,-1.799 0.628,-2.699 0,-3.147 -2.095,-5.621 -4.714,-6.295 0,0 0,0 0,-0.113 0,-2.81 -2.095,-5.059 -4.714,-5.059 -2.619,0 -4.715,2.249 -4.715,5.059 0,27.882 0,27.882 0,27.882 m -9.4282,0 c 2.3048,0 2.3048,0 2.3048,0 m 14.1424,0 c 2.41,0 2.41,0 2.41,0 M 89.8667,517.237 c 1.2571,0 1.2571,0 1.2571,0 1.2572,0 2.3048,1.124 2.3048,2.586 0,0 0,0 0,0 0,1.349 1.0476,2.473 2.4095,2.473 4.7139,0 4.7139,0 4.7139,0 4.715,0 4.715,0 4.715,0 1.257,0 2.304,-1.124 2.304,-2.473 0,0 0,0 0,0 0,-1.462 1.048,-2.586 2.41,-2.586 1.152,0 1.152,0 1.152,0 M 92.2762,507.118 c 1.1524,0 1.1524,0 1.1524,0 1.3619,0 2.4095,1.125 2.4095,2.586 0,0 0,0 0,0 0,1.349 1.0476,2.473 2.3048,2.473 4.7141,0 4.7141,0 4.7141,0 1.362,0 2.41,-1.124 2.41,-2.473 0,0 0,0 0,0 0,-1.461 1.047,-2.586 2.304,-2.586 1.153,0 1.153,0 1.153,0 M 86.5143,522.97 c 1.2571,1.237 2.8286,1.912 4.6095,1.912 m 18.8572,0 c 1.781,0 3.352,-0.675 4.609,-1.912 M 86.9333,511.166 c 4.7143,0 4.7143,0 4.7143,0 m 17.8094,0 c 4.714,0 4.714,0 4.714,0 m -23.0472,-9.107 c 3.4571,0 3.4571,0 3.4571,0 m 15.4001,0 c -3.562,0 -3.562,0 -3.562,0 m -8.2761,27.882 c 4.7141,0 4.7141,0 4.7141,0 m -11.7332,0 c 0,1.236 0,1.236 0,1.236 0,2.137 1.5714,3.823 3.4571,3.823 3.562,0 3.562,0 3.562,0 1.3619,0 2.4091,-1.124 2.4091,-2.586 0,-2.473 0,-2.473 0,-2.473 m 0,0 c 0,2.473 0,2.473 0,2.473 0,1.462 1.048,2.586 2.305,2.586 3.562,0 3.562,0 3.562,0 1.991,0 3.562,-1.686 3.562,-3.823 0,-1.236 0,-1.236 0,-1.236"
+       stroke="#770180"
+       stroke-width="1.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path64" />
+    <path
+       d="M 90.5001,487.5 H 627.238"
+       stroke="#bfbfbf"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path65" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(700.879,466)"
+       id="text65">Common remarks</text>
+    <g
+       filter="url(#fx3)"
+       transform="translate(663,140)"
+       id="g67">
+      <g
+         id="g66">
+        <path
+           d="m 20.7141,43.853 c 0,-12.7793 10.3596,-23.1389 23.1388,-23.1389 H 573.575 c 12.779,0 23.139,10.3596 23.139,23.1389 v 225.722 c 0,12.779 -10.36,23.139 -23.139,23.139 H 43.8529 c -12.7792,0 -23.1388,-10.36 -23.1388,-23.139 z"
+           fill="#f4f3f5"
+           fill-rule="evenodd"
+           id="path66" />
+      </g>
+    </g>
+    <path
+       d="M 679,179.139 C 679,166.36 689.36,156 702.139,156 h 529.721 c 12.78,0 23.14,10.36 23.14,23.139 V 404.861 C 1255,417.64 1244.64,428 1231.86,428 H 702.139 C 689.36,428 679,417.64 679,404.861 Z"
+       fill="#f4f3f5"
+       fill-rule="evenodd"
+       id="path67" />
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(698.448,185)"
+       id="text67">Custom services</text>
+    <path
+       d="m 699.5,203.5 h 536.74"
+       stroke="#bfbfbf"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path68" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(728.784,278)"
+       id="text68">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(747.651,278)"
+       id="text69">SOAP (strongly types WSDL contract) and RESTful JSON available.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(728.784,297)"
+       id="text70">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(747.651,297)"
+       id="text71">Not</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(778.818,297)"
+       id="text72">based</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(825.104,297)"
+       id="text73">on</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(847.771,297)"
+       id="text74">data</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(883.438,297)"
+       id="text75">entities.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(728.784,316)"
+       id="text76">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(747.651,316)"
+       id="text77">Expose X++ methods as service operations, data contract classes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(747.651,335)"
+       id="text78">for composite types.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(728.784,354)"
+       id="text79">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(747.651,354)"
+       id="text80">Deployed</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(819.404,354)"
+       id="text81">through</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(880.358,354)"
+       id="text82">service</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(933.164,354)"
+       id="text83">groups,</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(990.284,354)"
+       id="text84">endpoints.</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(728.784,374)"
+       id="text85">•</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(747.651,374)"
+       id="text86">Only support the HTTPS protocol.</text>
+    <text
+       fill="#770180"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(737.192,238)"
+       id="text87">Characteristics</text>
+    <path
+       d="m 707.182,213.8 c 0,-2.098 1.71,-3.8 3.818,-3.8 2.108,0 3.818,1.702 3.818,3.8 0,1.267 0,1.267 0,1.267 5.091,0 5.091,0 5.091,0 0,5.066 0,5.066 0,5.066 -17.818,0 -17.818,0 -17.818,0 0,-5.066 0,-5.066 0,-5.066 5.091,0 5.091,0 5.091,0 z m -5.091,1.267 c -5.091,0 -5.091,0 -5.091,0 0,32.933 0,32.933 0,32.933 28,0 28,0 28,0 0,-32.933 0,-32.933 0,-32.933 -5.091,0 -5.091,0 -5.091,0 m 1.273,12.666 c -10.182,0 -10.182,0 -10.182,0 m 10.182,7.6 c -10.182,0 -10.182,0 -10.182,0 m 10.182,7.6 c -10.182,0 -10.182,0 -10.182,0 M 702.091,225.2 c 2.545,2.533 2.545,2.533 2.545,2.533 3.819,-3.8 3.819,-3.8 3.819,-3.8 m -6.364,8.867 c 2.545,2.533 2.545,2.533 2.545,2.533 3.819,-3.8 3.819,-3.8 3.819,-3.8 m -6.364,8.867 c 2.545,2.533 2.545,2.533 2.545,2.533 3.819,-3.8 3.819,-3.8 3.819,-3.8"
+       stroke="#770180"
+       stroke-width="1.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path87" />
+  </g>
+</svg>

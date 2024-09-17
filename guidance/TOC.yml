@@ -1165,16 +1165,14 @@ items:
           href: roles/techtalk-videos.md
         - name: Introduction to the Dynamics 365 guidance hub
           href: techtalks\get-started-guidance-hub.md
-        - name: Setup
+        - name: Implementation
           items:
-          - name: Set up business-to-business digital selling with Dynamics 365
-            href: techtalks\set-up-dynamics-365-digital-selling.md
-          - name: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
-            href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
-        - name: Performance
-          items:
-          - name: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
-            href: techtalks\implement-supply-chain-warehouse-performance-testing.md
+          - name: Implementation approach with agile techniques
+            href: techtalks\implement-use-agile-techniques.md
+          - name: Modernizing the admin experience for finance and operations apps
+            href: techtalks\finance-operations-unified-admin-experience.md
+        # - name: Performance
+        #   items:
         - name: Integration
           items:
           - name: Integration patterns for Dynamics 365 finance and operations applications
@@ -1183,22 +1181,52 @@ items:
             href: techtalks\integrate-finance-operations-dataverse.md
           - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
             href: techtalks\extend-supply-chain-commerce-b2b.md
-        - name: Implementation
-          items:
-          - name: Implementation approach with agile techniques
-            href: techtalks\implement-use-agile-techniques.md
         - name: Business processes
           items:
           - name: Introduction to the business process catalog
             href: techtalks\get-started-business-process-catalog.md
+          - name: Manage project scope and estimates with the business process catalog
+            href: techtalks\get-started-business-process-catalog-manage-project-scope-estimation.md
+        - name: Finance
+          items:
+          - name: Copilot capabilities in Finance
+            href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+          - name: Microsoft Copilot for Finance
+            href: techtalks\microsoft-copilot-finance.md
+          - name: The source to pay business process
+            href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+          - name: Business performance analytics in Dynamics 365 Finance
+            href: techtalks\finance-bpa-overview.md
+          - name: Performance test the user interface with JMeter in Dynamics 365 Finance
+            href: techtalks\finance-operations-ui-performance-test-jmeter.md
+        - name: Human Resources
+          items:
+          - name: Human Resources infrastructure merge
+            href: techtalks\human-resources-infrastructure-merge.md
         - name: Supply Chain Management
           items:
+          - name: Copilot capabilities in Supply Chain Management
+            href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+          - name: The source to pay business process
+            href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+          - name: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
+            href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
+          - name: Cloud label printing for Supply Chain Management
+            href: techtalks\supply-chain-cloud-label-printing.md
           - name: What's new in Supply Chain Management in 2023 release wave 2
             href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
-          - name: Demand Planning for Dynamics 365 Supply Chain Management
+          - name: Demand planning for Dynamics 365 Supply Chain Management
             href: techtalks\supply-chain-demand-planning-introduction.md
           - name: Introducing attribute-based omnichannel product and inventory search
-            href: techtalks/attribute-based-omnichannel-product-inventory-search.md
+            href: techtalks\attribute-based-omnichannel-product-inventory-search.md
+          - name: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
+            href: techtalks\implement-supply-chain-warehouse-performance-testing.md
+          - name: Performance test the user interface with JMeter in Dynamics 365 Supply Chain Management
+            href: techtalks\finance-operations-ui-performance-test-jmeter.md
+        - name: Digital selling
+          items:
+          - name: Set up business-to-business digital selling with Dynamics 365
+            href: techtalks\set-up-dynamics-365-digital-selling.md
 # Product docs
       - name: Product documentation
         items:
