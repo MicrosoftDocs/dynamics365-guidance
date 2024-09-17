@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="923.83289"
+   height="444.02948"
+   overflow="hidden"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="TechTalk-videos-articles.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.54375"
+     inkscape:cx="429.28747"
+     inkscape:cy="285.60197"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <g
+     id="g15"
+     transform="translate(-210.71252,-74.299751)">
+    <rect
+       x="210.71252"
+       y="74.299751"
+       width="923.83289"
+       height="444.02948"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.667162" />
+    <path
+       d="M 282,186 H 842.001 V 76 L 1062,296 842.001,516 V 406 H 282 Z"
+       fill="#d6cbd8"
+       fill-rule="evenodd"
+       id="path1" />
+    <path
+       d="m 214.5,237.834 c 0,-16.201 13.133,-29.334 29.334,-29.334 h 117.332 c 16.201,0 29.334,13.133 29.334,29.334 v 117.332 c 0,16.201 -13.133,29.334 -29.334,29.334 H 243.834 c -16.201,0 -29.334,-13.133 -29.334,-29.334 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#770180"
+       fill-rule="evenodd"
+       id="path2" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(241.375,272)"
+       id="text2">Migration</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(244.029,306)"
+       id="text3">approach</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(248.035,340)"
+       id="text4">and plan</text>
+    <path
+       d="m 399.5,237.834 c 0,-16.201 13.133,-29.334 29.334,-29.334 h 117.332 c 16.201,0 29.334,13.133 29.334,29.334 v 117.332 c 0,16.201 -13.133,29.334 -29.334,29.334 H 428.834 c -16.201,0 -29.334,-13.133 -29.334,-29.334 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#49048e"
+       fill-rule="evenodd"
+       id="path4" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(441.15,272)"
+       id="text5">Design,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(436.376,306)"
+       id="text6">prepare,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(424.556,340)"
+       id="text7">customize</text>
+    <path
+       d="m 584.5,237.834 c 0,-16.201 13.133,-29.334 29.334,-29.334 h 117.332 c 16.201,0 29.334,13.133 29.334,29.334 v 117.332 c 0,16.201 -13.133,29.334 -29.334,29.334 H 613.834 c -16.201,0 -29.334,-13.133 -29.334,-29.334 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#13089c"
+       fill-rule="evenodd"
+       id="path7" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(620.801,288)"
+       id="text8">Test and</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(638.234,322)"
+       id="text9">verify</text>
+    <path
+       d="m 769.5,237.834 c 0,-16.201 13.133,-29.334 29.334,-29.334 h 117.332 c 16.201,0 29.334,13.133 29.334,29.334 v 117.332 c 0,16.201 -13.133,29.334 -29.334,29.334 H 798.834 c -16.201,0 -29.334,-13.133 -29.334,-29.334 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0d45a8"
+       fill-rule="evenodd"
+       id="path9" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(805.888,272)"
+       id="text10">Analyze</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(901.668,272)"
+       id="text11">,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(801.775,306)"
+       id="text12">enhance,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(802.055,340)"
+       id="text13">fine tune</text>
+    <path
+       d="m 954.5,237.834 c 0,-16.201 13.133,-29.334 29.334,-29.334 h 117.336 c 16.2,0 29.33,13.133 29.33,29.334 v 117.332 c 0,16.201 -13.13,29.334 -29.33,29.334 H 983.834 c -16.201,0 -29.334,-13.133 -29.334,-29.334 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#1392b4"
+       fill-rule="evenodd"
+       id="path13" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(973.686,288)"
+       id="text14">Merge into</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="28px"
+       transform="translate(973.792,322)"
+       id="text15">production</text>
+  </g>
+</svg>

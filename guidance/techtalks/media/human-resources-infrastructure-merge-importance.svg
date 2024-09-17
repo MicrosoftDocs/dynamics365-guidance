@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="849.14001"
+   height="552.5307"
+   overflow="hidden"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="TechTalk-videos-articles.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.54375"
+     inkscape:cx="424.96314"
+     inkscape:cy="276.5602"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <g
+     id="g9"
+     transform="translate(-215.03685,-83.341522)">
+    <rect
+       x="215.03685"
+       y="83.341522"
+       width="849.14001"
+       height="552.5307"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.713505" />
+    <path
+       d="m 224.322,89.6774 c 149.571,149.5706 149.571,392.0726 0,541.6436 l -1.604,-1.603 c 148.686,-148.685 148.686,-389.751 0,-538.4365 z"
+       stroke="#005ea9"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path1" />
+    <rect
+       x="267.5"
+       y="111.5"
+       width="792"
+       height="71"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect2" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(323.309,140)"
+       id="text2">Decide if you want to maintain two environments or merge them</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(323.309,170)"
+       id="text3">into one.</text>
+    <path
+       d="m 222.5,147 c 0,-24.577 19.923,-44.5 44.5,-44.5 24.577,0 44.5,19.923 44.5,44.5 0,24.577 -19.923,44.5 -44.5,44.5 -24.577,0 -44.5,-19.923 -44.5,-44.5 z"
+       stroke="#0078d4"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path3" />
+    <rect
+       x="318.5"
+       y="218.5"
+       width="741"
+       height="71"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect3" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(374.282,247)"
+       id="text4">No hard deadline for a merge since it’s optional for all</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(374.282,277)"
+       id="text5">organizations.</text>
+    <path
+       d="m 273.5,254 c 0,-24.577 19.923,-44.5 44.5,-44.5 24.577,0 44.5,19.923 44.5,44.5 0,24.577 -19.923,44.5 -44.5,44.5 -24.577,0 -44.5,-19.923 -44.5,-44.5 z"
+       stroke="#0078d4"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path5" />
+    <rect
+       x="333.5"
+       y="324.5"
+       width="726"
+       height="72"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect5" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(389.926,369)"
+       id="text6">No extra tools are required.</text>
+    <path
+       d="m 289.5,360.5 c 0,-24.3 19.923,-44 44.5,-44 24.577,0 44.5,19.7 44.5,44 0,24.301 -19.923,44 -44.5,44 -24.577,0 -44.5,-19.699 -44.5,-44 z"
+       stroke="#0078d4"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path6" />
+    <rect
+       x="318.5"
+       y="431.5"
+       width="741"
+       height="71"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect6" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(374.282,460)"
+       id="text7">Think of it as any data migration process with a complete</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(374.282,490)"
+       id="text8">cycle of testing.</text>
+    <path
+       d="m 273.5,467 c 0,-24.577 19.923,-44.5 44.5,-44.5 24.577,0 44.5,19.923 44.5,44.5 0,24.577 -19.923,44.5 -44.5,44.5 -24.577,0 -44.5,-19.923 -44.5,-44.5 z"
+       stroke="#0078d4"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path8" />
+    <rect
+       x="267.5"
+       y="538.5"
+       width="792"
+       height="71"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0078d4"
+       id="rect8" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="25px"
+       transform="translate(323.309,582)"
+       id="text9">No license impact.</text>
+    <path
+       d="m 222.5,574 c 0,-24.577 19.923,-44.5 44.5,-44.5 24.577,0 44.5,19.923 44.5,44.5 0,24.577 -19.923,44.5 -44.5,44.5 -24.577,0 -44.5,-19.923 -44.5,-44.5 z"
+       stroke="#0078d4"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path9" />
+  </g>
+</svg>

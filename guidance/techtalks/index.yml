@@ -35,7 +35,18 @@ landingContent:
     #   links:
     #     - text: 
     #       url: 
-        
+
+# Card
+
+  - title: Copilot and generative AI
+    linkLists:
+    - linkListType: whats-new
+      links:
+      - text: Microsoft Copilot for Finance
+        url: microsoft-copilot-finance.md
+      - text: Copilot capabilities in Finance and Supply Chain Management
+        url: dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+      
 # Card
   - title: Set up
     linkLists:
@@ -45,14 +56,18 @@ landingContent:
           url: set-up-dynamics-365-digital-selling.md
         - text: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
           url: set-up-supply-chain-inventory-onhand-mobile-app.md
+        - text: Cloud label printing for Supply Chain Management
+          url: supply-chain-cloud-label-printing.md
 
 # Card
   - title: Performance-tune
     linkLists:
     - linkListType: concept
       links:
-        - text: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
-          url: implement-supply-chain-warehouse-performance-testing.md
+      - text:  Performance test the user interface with JMeter in Dynamics 365 finance and operations app
+        url: finance-operations-ui-performance-test-jmeter.md
+      - text: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
+        url: implement-supply-chain-warehouse-performance-testing.md
 
 # Card
   - title: Integrate
@@ -63,13 +78,37 @@ landingContent:
           url: integrate-finance-operations-dataverse.md
         - text: Integration patterns for Dynamics 365 finance and operations applications
           url: integrate-finance-operations-overview.md
+        - text: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
+          url: extend-supply-chain-commerce-b2b.md
+        - text: Human Resources infrastructure merge
+          url: human-resources-infrastructure-merge.md
 
 # Card
   - title: Implement
     linkLists:
     - linkListType: concept
       links:
-        - text: Implement using agile techiques
+        - text: Use the business process catalog to manage the project
+          url: get-started-business-process-catalog-manage-project-scope-estimation.md
+        - text: Implement using agile techniques
           url: implement-use-agile-techniques.md
         - text: Implement warehouse performance testing
           url: implement-supply-chain-warehouse-performance-testing.md
+
+# Card
+  - title: Business processes
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Introduction to the business process catalog
+          url: get-started-business-process-catalog.md
+        - text: Use the business process catalog to manage the project
+          url: get-started-business-process-catalog-manage-project-scope-estimation.md
+        - text: The source to pay business process in Finance and Supply Chain Management
+          url: dynamics-365-finance-supply-chain-management-source-to-pay.md
+        - text: Business performance analytics with Finance
+          url: finance-bpa-overview.md
+        - text: Demand planning in Supply Chain Management
+          url: supply-chain-demand-planning-introduction.md
+        - text: Attribute-based omnichannel product and inventory search
+          url: attribute-based-omnichannel-product-inventory-search.md
