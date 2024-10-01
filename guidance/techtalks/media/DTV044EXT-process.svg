@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1104.1108"
+   height="232.24017"
+   overflow="hidden"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="DTV044EXT-process.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.6765625"
+     inkscape:cx="529.88453"
+     inkscape:cy="76.859122"
+     inkscape:window-width="2776"
+     inkscape:window-height="2041"
+     inkscape:window-x="3929"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <g
+     id="g12"
+     transform="translate(-110.8545,-283.78754)">
+    <rect
+       x="110.8545"
+       y="283.78754"
+       width="1104.1108"
+       height="232.24017"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.527477" />
+    <path
+       d="m 996.5,405 c 0,-58.818 47.68,-106.5 106.5,-106.5 58.82,0 106.5,47.682 106.5,106.5 0,58.818 -47.68,106.5 -106.5,106.5 -58.82,0 -106.5,-47.682 -106.5,-106.5 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#770180"
+       fill-rule="evenodd"
+       id="path1" />
+    <path
+       d="m 1003.5,405 c 0,-54.952 44.55,-99.5 99.5,-99.5 54.95,0 99.5,44.548 99.5,99.5 0,54.952 -44.55,99.5 -99.5,99.5 -54.95,0 -99.5,-44.548 -99.5,-99.5 z"
+       stroke="#770180"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       fill-opacity="0.901961"
+       id="path2" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(1043.56,399)"
+       id="text2">Monitor and</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(1075.15,425)"
+       id="text3">adapt</text>
+    <path
+       d="m 806.558,329.105 c 41.594,-41.594 109.03,-41.594 150.624,0 25.103,25.104 50.208,50.208 75.308,75.312 -25.1,25.104 -50.205,50.207 -75.308,75.311 -41.594,41.594 -109.03,41.594 -150.624,0 -41.593,-41.593 -41.593,-109.03 0,-150.623 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#49048e"
+       fill-rule="evenodd"
+       id="path3" />
+    <path
+       d="m 783.5,405 c 0,-54.952 44.324,-99.5 99,-99.5 54.676,0 99,44.548 99,99.5 0,54.952 -44.324,99.5 -99,99.5 -54.676,0 -99,-44.548 -99,-99.5 z"
+       stroke="#49048e"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       fill-opacity="0.901961"
+       id="path4" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(816.64,399)"
+       id="text4">Communicate</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(834.66,425)"
+       id="text5">effectively</text>
+    <path
+       d="m 586.49,329.105 c 41.594,-41.594 109.03,-41.594 150.624,0 25.104,25.104 50.208,50.208 75.311,75.312 -25.103,25.104 -50.207,50.207 -75.311,75.311 -41.594,41.594 -109.03,41.594 -150.624,0 -41.593,-41.593 -41.593,-109.03 0,-150.623 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#13089c"
+       fill-rule="evenodd"
+       id="path5" />
+    <path
+       d="m 562.5,405 c 0,-54.952 44.548,-99.5 99.5,-99.5 54.952,0 99.5,44.548 99.5,99.5 0,54.952 -44.548,99.5 -99.5,99.5 -54.952,0 -99.5,-44.548 -99.5,-99.5 z"
+       stroke="#13089c"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       fill-opacity="0.901961"
+       id="path6" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(594.535,399)"
+       id="text6">Customize the</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(611.622,425)"
+       id="text7">framework</text>
+    <path
+       d="m 366.309,329.105 c 41.594,-41.594 109.03,-41.594 150.624,0 25.103,25.104 50.207,50.208 75.311,75.312 -25.104,25.104 -50.208,50.207 -75.311,75.311 -41.594,41.594 -109.03,41.594 -150.624,0 -41.593,-41.593 -41.593,-109.03 0,-150.623 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#0d45a8"
+       fill-rule="evenodd"
+       id="path7" />
+    <path
+       d="m 342.5,405 c 0,-54.952 44.548,-99.5 99.5,-99.5 54.952,0 99.5,44.548 99.5,99.5 0,54.952 -44.548,99.5 -99.5,99.5 -54.952,0 -99.5,-44.548 -99.5,-99.5 z"
+       stroke="#0d45a8"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       fill-opacity="0.901961"
+       id="path8" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(406.738,399)"
+       id="text8">Engage</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(382.464,425)"
+       id="text9">stakeholders</text>
+    <path
+       d="m 146.128,329.105 c 41.594,-41.594 109.03,-41.594 150.623,0 25.104,25.104 50.208,50.208 75.312,75.312 -25.104,25.104 -50.208,50.207 -75.312,75.311 -41.593,41.594 -109.029,41.594 -150.623,0 -41.593,-41.593 -41.593,-109.03 0,-150.623 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#1392b4"
+       fill-rule="evenodd"
+       id="path9" />
+    <path
+       d="m 122.5,405 c 0,-54.952 44.548,-99.5 99.5,-99.5 54.952,0 99.5,44.548 99.5,99.5 0,54.952 -44.548,99.5 -99.5,99.5 -54.952,0 -99.5,-44.548 -99.5,-99.5 z"
+       stroke="#1392b4"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       fill-opacity="0.901961"
+       id="path10" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(200.19,386)"
+       id="text10">Gain</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(172.91,412)"
+       id="text11">leadership</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(184.57,437)"
+       id="text12">support</text>
+  </g>
+</svg>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1263.7413"
+   height="669.74597"
+   overflow="hidden"
+   version="1.1"
+   id="svg50"
+   sodipodi:docname="DTV044EXT-bpm.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs50" />
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.6765625"
+     inkscape:cx="632.6097"
+     inkscape:cy="310.39261"
+     inkscape:window-width="1350"
+     inkscape:window-height="1032"
+     inkscape:window-x="-2"
+     inkscape:window-y="62"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg50" />
+  <g
+     id="g50"
+     transform="translate(-7.3903003,-50.25404)">
+    <rect
+       x="7.3903003"
+       y="50.25404"
+       width="1263.7413"
+       height="669.74597"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.958325" />
+    <path
+       d="m 137.5,223 c 0,-54.952 44.548,-99.5 99.5,-99.5 54.952,0 99.5,44.548 99.5,99.5 0,54.952 -44.548,99.5 -99.5,99.5 -54.952,0 -99.5,-44.548 -99.5,-99.5 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#770180"
+       fill-rule="evenodd"
+       fill-opacity="0.501961"
+       id="path1" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="20px"
+       transform="translate(192.951,210)"
+       id="text1">Definition</text>
+    <path
+       d="m 208.5,348 c 0,-54.952 44.548,-99.5 99.5,-99.5 54.952,0 99.5,44.548 99.5,99.5 0,54.952 -44.548,99.5 -99.5,99.5 -54.952,0 -99.5,-44.548 -99.5,-99.5 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#13089c"
+       fill-rule="evenodd"
+       fill-opacity="0.501961"
+       id="path2" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="20px"
+       transform="translate(269.783,361)"
+       id="text2">Improvement</text>
+    <path
+       d="m 65.5001,348 c 0,-54.952 44.5479,-99.5 99.4999,-99.5 54.952,0 99.5,44.548 99.5,99.5 0,54.952 -44.548,99.5 -99.5,99.5 -54.952,0 -99.4999,-44.548 -99.4999,-99.5 z"
+       stroke="#ffffff"
+       stroke-width="1.13333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#1392b4"
+       fill-rule="evenodd"
+       fill-opacity="0.501961"
+       id="path3" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="20px"
+       transform="translate(84.5093,361)"
+       id="text3">Management</text>
+    <text
+       fill="#a6a6a6"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="11px"
+       transform="translate(15.2661,702)"
+       id="text4">The BPM Association www.abpmp.org</text>
+    <text
+       fill="#a6a6a6"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="11px"
+       transform="translate(15.2661,715)"
+       id="text5">The BPM Institute www.bpmi.org</text>
+    <path
+       d="M 578,227 V 425.5 L 515.5,488 453,425.5 V 227 Z"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path5" />
+    <rect
+       x="453"
+       y="227"
+       width="125"
+       height="130"
+       fill="#0078d4"
+       id="rect5" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="24px"
+       transform="translate(468.059,300)"
+       id="text6">Discover</text>
+    <path
+       d="M 715,227 V 425.5 L 652.5,488 590,425.5 V 227 Z"
+       fill="#ffb900"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path6" />
+    <rect
+       x="590"
+       y="227"
+       width="125"
+       height="130"
+       fill="#ffb900"
+       id="rect6" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="24px"
+       transform="translate(617.492,300)"
+       id="text7">Assess</text>
+    <path
+       d="M 853,227 V 425.5 L 790.5,488 728,425.5 V 227 Z"
+       fill="#1392b4"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path7" />
+    <rect
+       x="728"
+       y="227"
+       width="125"
+       height="130"
+       fill="#1392b4"
+       id="rect7" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="24px"
+       transform="translate(754.789,300)"
+       id="text8">Model</text>
+    <path
+       d="M 990,227 V 425.5 L 927.5,488 865,425.5 V 227 Z"
+       fill="#107c10"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path8" />
+    <rect
+       x="865"
+       y="227"
+       width="125"
+       height="130"
+       fill="#107c10"
+       id="rect8" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="24px"
+       transform="translate(884.169,300)"
+       id="text9">Analyze</text>
+    <path
+       d="M 1127,227 V 425.5 L 1064.5,488 1002,425.5 V 227 Z"
+       fill="#ffb900"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path9" />
+    <rect
+       x="1002"
+       y="227"
+       width="125"
+       height="130"
+       fill="#ffb900"
+       id="rect9" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="24px"
+       transform="translate(1027.05,300)"
+       id="text10">Design</text>
+    <path
+       d="M 1264,227 V 425.5 L 1201.5,488 1139,425.5 V 227 Z"
+       fill="#5c2d91"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path10" />
+    <rect
+       x="1139"
+       y="227"
+       width="125"
+       height="130"
+       fill="#5c2d91"
+       id="rect10" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="24px"
+       transform="translate(1156.85,300)"
+       id="text11">Manage</text>
+    <g
+       id="g13">
+      <g
+         id="g12">
+        <g
+           id="g11">
+          <path
+             d="M 83.7188,74.025 71.4792,61.7854 C 69.8146,60.1208 67.5625,59.5333 65.4083,59.925 L 61.1,55.6167 c 3.8188,-4.8959 6.0708,-11.1625 6.0708,-17.8209 0,-16.1562 -13.2187,-29.37497 -29.375,-29.37497 -16.1562,0 -29.37497,13.21877 -29.37497,29.37497 0,16.1563 13.21877,29.375 29.37497,29.375 6.6584,0 12.8271,-2.252 17.8209,-6.0708 l 4.3083,4.3083 c -0.3917,2.1542 0.1958,4.4063 1.8604,6.0709 L 74.025,83.7188 c 1.3708,1.3708 3.1333,2.0562 4.8958,2.0562 1.7625,0 3.525,-0.6854 4.8959,-2.0562 2.5458,-2.7417 2.5458,-7.05 -0.0979,-9.6938 z M 37.6979,61.1979 c -12.925,0 -23.5,-10.575 -23.5,-23.5 0,-12.925 10.575,-23.5 23.5,-23.5 12.925,0 23.5,10.575 23.5,23.5 0,12.925 -10.575,23.5 -23.5,23.5 z"
+             fill="#0078d7"
+             transform="matrix(1,0,0,1.04255,468,353)"
+             id="path11" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g16">
+      <g
+         id="g15">
+        <g
+           id="g14">
+          <path
+             d="m 42.1042,73.4375 h -0.2938 c -1.2729,-0.0979 -2.35,-1.0771 -2.6437,-2.35 L 32.4104,35.25 28.2,47.9792 c -0.3917,1.175 -1.4688,1.9583 -2.7417,1.9583 H 7.83333 v -5.875 H 23.3042 l 7.1479,-21.4437 c 0.3917,-1.273 1.6646,-2.0563 2.9375,-1.9584 1.2729,0.0979 2.4479,1.0771 2.6437,2.35 l 6.8542,36.7188 9.9875,-26.4375 c 0.4896,-1.175 1.5667,-1.9584 2.8396,-1.8605 1.2729,0.098 2.35,0.8813 2.7417,2.1542 l 5.5812,18.3104 6.2667,-6.8541 c 0.5875,-0.5875 1.3708,-0.9792 2.1541,-0.9792 h 13.7084 v 5.875 H 73.7313 l -8.9105,9.7917 c -0.6854,0.7833 -1.7625,1.0771 -2.8395,0.8812 -1.0771,-0.1958 -1.8605,-0.9791 -2.1542,-2.0562 L 55.4208,43.475 44.8458,71.5771 c -0.3916,1.0771 -1.5666,1.8604 -2.7416,1.8604 z"
+             fill="#b4009e"
+             transform="matrix(1,0,0,1.04255,606,353)"
+             id="path13" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g21">
+      <g
+         id="g20">
+        <g
+           id="g19">
+          <path
+             d="M 74.4167,74.4167 H 25.4583 V 19.5833 H 74.4167 Z M 19.5833,13.7083 v 5.875 h -1.2729 c -1.5666,0.098 -2.6437,1.3709 -2.6437,2.9375 -0.0979,1.5667 1.0771,2.8396 2.6437,2.9375 h 1.2729 v 3.9167 h -1.2729 c -1.6646,0 -2.9375,1.2729 -2.9375,2.9375 0,1.6646 1.2729,2.9375 2.9375,2.9375 h 1.2729 v 3.9167 h -1.2729 c -1.6646,0 -2.9375,1.2729 -2.9375,2.9375 0,1.6646 1.2729,2.9375 2.9375,2.9375 h 1.2729 v 3.9166 h -1.2729 c -1.6646,0 -2.9375,1.273 -2.9375,2.9375 0,1.6646 1.2729,2.9375 2.9375,2.9375 h 1.2729 V 58.75 h -1.2729 c -1.6646,0 -2.9375,1.2729 -2.9375,2.9375 0,1.6646 1.2729,2.9375 2.9375,2.9375 h 1.2729 v 3.9167 h -1.2729 c -1.6646,0 -2.9375,1.2729 -2.9375,2.9375 0,1.6645 1.2729,2.9375 2.9375,2.9375 h 1.2729 v 5.875 H 80.2917 V 13.7083 Z"
+             fill="#ffb900"
+             transform="matrix(1,0,0,1.04255,1018,353)"
+             id="path16" />
+          <path
+             d="m 39.1667,56.7917 c 2.1541,0 3.9166,1.7625 3.9166,3.9166 0,2.1542 -1.7625,3.9167 -3.9166,3.9167 -2.1542,0 -3.9167,-1.7625 -3.9167,-3.9167 0,-2.1541 1.7625,-3.9166 3.9167,-3.9166 z m 0,11.75 c 3.9166,0 7.2458,-2.9375 7.7354,-6.8542 0.4896,-3.9167 -1.9583,-7.5396 -5.7771,-8.5187 v -2.2521 c 0,-1.0771 0.8813,-1.9584 1.9583,-1.9584 h 13.7084 c 3.2312,0 5.875,-2.6437 5.875,-5.875 V 32.1167 l 2.5458,2.5458 c 0.7833,0.7833 1.9583,0.7833 2.7417,0 0.7833,-0.7833 0.7833,-1.9583 0,-2.7417 l -5.875,-5.875 c -0.3917,-0.3916 -0.8813,-0.5875 -1.3709,-0.5875 -0.4895,0 -0.9791,0.1959 -1.3708,0.5875 l -5.875,5.875 c -0.7833,0.7834 -0.7833,1.9584 0,2.7417 0.7833,0.7833 1.9583,0.7833 2.7417,0 L 58.75,32.1167 v 10.9666 c 0,1.0771 -0.8812,1.9584 -1.9583,1.9584 H 43.0833 c -3.2312,0 -5.875,2.6437 -5.875,5.875 v 2.2521 c -3.8187,0.9791 -6.2666,4.7 -5.7771,8.5187 0.4896,3.9167 3.8188,6.8542 7.7355,6.8542 z"
+             fill="#ffb900"
+             transform="matrix(1,0,0,1.04255,1018,353)"
+             id="path17" />
+          <path
+             d="m 67.9542,53.4625 c -0.3917,-0.3917 -0.8813,-0.5875 -1.3709,-0.5875 -0.4895,0 -0.9791,0.1958 -1.3708,0.5875 l -4.5042,4.5042 -4.5041,-4.5042 c -0.7834,-0.7833 -1.9584,-0.7833 -2.7417,0 -0.7833,0.7833 -0.7833,1.9583 0,2.7417 l 4.5042,4.5041 -4.5042,4.5042 c -0.7833,0.7833 -0.7833,1.9583 0,2.7417 0.7833,0.7833 1.9583,0.7833 2.7417,0 l 4.5041,-4.5042 4.5042,4.5042 c 0.7833,0.7833 1.9583,0.7833 2.7417,0 0.7833,-0.7834 0.7833,-1.9584 0,-2.7417 L 63.45,60.7083 67.9542,56.2042 c 0.7833,-0.7834 0.7833,-1.9584 0,-2.7417 z"
+             fill="#ffb900"
+             transform="matrix(1,0,0,1.04255,1018,353)"
+             id="path18" />
+          <path
+             d="m 31.9208,40.5375 c 0.3917,0.3917 0.8813,0.5875 1.3709,0.5875 0.4895,0 0.9791,-0.1958 1.3708,-0.5875 l 4.5042,-4.5042 4.5041,4.5042 c 0.7834,0.7833 1.9584,0.7833 2.7417,0 0.7833,-0.7833 0.7833,-1.9583 0,-2.7417 l -4.5042,-4.5041 4.5042,-4.5042 c 0.7833,-0.7833 0.7833,-1.9583 0,-2.7417 -0.7833,-0.7833 -1.9583,-0.7833 -2.7417,0 L 39.1667,30.55 34.6625,26.0458 c -0.7833,-0.7833 -1.9583,-0.7833 -2.7417,0 -0.7833,0.7834 -0.7833,1.9584 0,2.7417 l 4.5042,4.5042 -4.5042,4.5041 c -0.7833,0.7834 -0.7833,1.9584 0,2.7417 z"
+             fill="#ffb900"
+             transform="matrix(1,0,0,1.04255,1018,353)"
+             id="path19" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g24">
+      <g
+         id="g23">
+        <g
+           id="g22">
+          <path
+             d="m 47,58.75 c -6.4625,0 -11.75,-5.2875 -11.75,-11.75 0,-6.4625 5.2875,-11.75 11.75,-11.75 6.4625,0 11.75,5.2875 11.75,11.75 0,6.4625 -5.2875,11.75 -11.75,11.75 z M 73.4375,39.6562 C 72.85,37.5021 71.9688,35.4458 70.8917,33.5854 l 2.4479,-7.3437 -5.5813,-5.5813 -7.3437,2.4479 C 58.4563,22.0312 56.4,21.15 54.2458,20.5625 l -3.3291,-6.8542 h -7.8334 l -3.4271,6.8542 c -2.1541,0.5875 -4.2104,1.4687 -6.0708,2.5458 l -7.3437,-2.4479 -5.5813,5.5813 2.4479,7.3437 C 22.0312,35.5438 21.15,37.6 20.5625,39.7542 l -6.8542,3.3291 v 7.8334 l 6.8542,3.4271 c 0.5875,2.1541 1.4687,4.2104 2.5458,6.0708 l -2.4479,7.3437 5.5813,5.5813 7.3437,-2.4479 c 1.9584,1.0771 4.0146,1.9583 6.1688,2.5458 l 3.427,6.8542 h 7.8334 l 3.4271,-6.8542 c 2.1541,-0.5875 4.2104,-1.4687 6.0708,-2.5458 l 7.3438,2.4479 5.5812,-5.5813 -2.4479,-7.3437 c 1.0771,-1.9583 1.9583,-4.0146 2.5458,-6.1688 l 6.8542,-3.427 v -7.8334 z"
+             fill="#00bcf2"
+             transform="matrix(1,0,0,1.04255,743,353)"
+             id="path21" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g29">
+      <g
+         id="g28">
+        <g
+           id="g27">
+          <path
+             d="m 26.7582,62.1102 h 17.5784 v 3.9063 H 26.7582 Z"
+             fill="#107c10"
+             transform="matrix(0.916496,0.400044,-0.379633,0.96577,908.001,343.894)"
+             id="path24" />
+          <path
+             d="m 57.1562,42.625 c 0,2.1401 -1.7348,3.875 -3.875,3.875 -2.1401,0 -3.875,-1.7349 -3.875,-3.875 0,-2.1401 1.7349,-3.875 3.875,-3.875 2.1402,0 3.875,1.7349 3.875,3.875 z"
+             fill="#107c10"
+             transform="matrix(1,0,0,1.05376,881,353)"
+             id="path25" />
+          <path
+             d="m 57.1562,42.625 c 0,2.1401 -1.7348,3.875 -3.875,3.875 -2.1401,0 -3.875,-1.7349 -3.875,-3.875 0,-2.1401 1.7349,-3.875 3.875,-3.875 2.1402,0 3.875,1.7349 3.875,3.875 z"
+             fill="#107c10"
+             transform="matrix(1,0,0,1.05376,881,353)"
+             id="path26" />
+          <path
+             d="m 55.2188,79.4375 c 7.0718,-5.3281 11.625,-13.7562 11.625,-23.25 0,-9.7844 -4.9407,-18.5031 -12.4,-23.7344 L 62.2906,13.5625 59.5781,12.4969 61.7094,7.26562 56.3813,5.0375 54.25,10.2688 51.5375,9.20312 35.1656,48.6313 v 0 c -0.775,1.9375 -0.4844,4.1656 0.775,5.7156 l -1.0656,2.5187 5.3281,2.2282 1.0656,-2.5188 c 2.0344,-0.2906 3.7782,-1.55 4.6501,-3.4875 v 0 l 1.0656,-2.7125 h 13.2719 c 0.4843,1.8406 0.7749,3.7781 0.7749,5.8125 0,12.7875 -10.4624,23.25 -23.25,23.25 H 19.375 v 5.8125 1.9375 h 54.25 V 85.25 79.4375 Z m -1.9376,-31 c -3.1968,0 -5.8124,-2.6156 -5.8124,-5.8125 0,-3.1969 2.6156,-5.8125 5.8124,-5.8125 3.1969,0 5.8126,2.6156 5.8126,5.8125 0,3.1969 -2.6157,5.8125 -5.8126,5.8125 z"
+             fill="#107c10"
+             transform="matrix(1,0,0,1.05376,881,353)"
+             id="path27" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g34">
+      <g
+         id="g33">
+        <g
+           id="g32">
+          <path
+             d="M 59.0259,35.8438 H 32.3563 l -6.7038,11.625 h 40.0772 z"
+             fill="#5c2d91"
+             transform="matrix(1,0,0,1.05376,1155,353)"
+             id="path29" />
+          <path
+             d="M 45.6862,12.7487 34.5941,31.9688 h 22.194 z"
+             fill="#5c2d91"
+             transform="matrix(1,0,0,1.05376,1155,353)"
+             id="path30" />
+          <path
+             d="M 67.9675,51.3438 H 23.4147 l -6.7134,11.625 h 57.9796 z"
+             fill="#5c2d91"
+             transform="matrix(1,0,0,1.05376,1155,353)"
+             id="path31" />
+          <path
+             d="M 76.9188,66.8438 H 14.4634 L 7.75,78.4688 h 75.8822 z"
+             fill="#5c2d91"
+             transform="matrix(1,0,0,1.05376,1155,353)"
+             id="path32" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="m 453,198 h 811.2"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path34" />
+    <rect
+       x="709"
+       y="182"
+       width="299"
+       height="24"
+       fill="#ffffff"
+       id="rect34" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(719.55,200)"
+       id="text34">Stages of the BPM framework</text>
+    <g
+       id="g38">
+      <g
+         id="g37">
+        <g
+           id="g36">
+          <path
+             d="m 52.5,13.125 c 0.0021,-2.5371 -2.0529,-4.59546 -4.5899,-4.59756 -2.5371,-0.0021 -4.5955,2.05286 -4.5976,4.58996 -0.0013,1.5548 0.784,3.0048 2.0869,3.8532 L 42,26.9062 v 0 c -0.9382,-10e-4 -1.8543,0.2853 -2.625,0.8204 l -6.8512,-5.1385 c 0.8785,-2.3801 -0.3387,-5.0217 -2.7188,-5.9003 -2.38,-0.8785 -5.0217,0.3386 -5.9002,2.7187 -0.7333,1.9862 -0.014,4.2162 1.7415,5.3997 L 21.2691,38.7188 H 21 c -2.5371,-0.0061 -4.5986,2.0457 -4.6046,4.5827 -0.0061,2.5371 2.0457,4.5987 4.5827,4.6047 2.5371,0.0061 4.5987,-2.0457 4.6047,-4.5828 0.0035,-1.4536 -0.6813,-2.8231 -1.8462,-3.6925 l 4.4165,-14.0371 h 0.0657 c 0.9834,-0.0019 1.9403,-0.3193 2.7299,-0.9057 l 6.7922,5.086 c -0.2185,0.5492 -0.332,1.1347 -0.3347,1.7259 -9e-4,2.5371 2.055,4.5945 4.592,4.5955 2.5371,10e-4 4.5946,-2.0549 4.5956,-4.5919 5e-4,-1.5485 -0.7791,-2.9932 -2.0738,-3.8427 l 3.3862,-9.9421 c 2.5371,0 4.5938,-2.0567 4.5938,-4.5938 z"
+             fill="#00188f"
+             transform="matrix(1,0,0,1.03175,499,508)"
+             id="path35" />
+          <path
+             d="M 13.125,8.53125 H 9.1875 V 54.4688 H 54.4688 V 50.5312 H 13.125 Z"
+             fill="#00188f"
+             transform="matrix(1,0,0,1.03175,499,508)"
+             id="path36" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g42">
+      <g
+         id="g41">
+        <g
+           id="g40">
+          <path
+             d="M 30.1875,6.5625 C 17.0625,7.21875 6.5625,18.2437 6.5625,31.5 c 0,13.7812 11.1563,24.9375 24.9375,24.9375 6.2344,0 12.075,-2.2313 16.6688,-6.4313 L 30.1875,32.025 Z"
+             fill="#00188f"
+             transform="matrix(1,0,0,1.03175,1155,508)"
+             id="path38" />
+          <path
+             d="m 32.8125,6.5625 v 23.625 H 56.3719 C 55.7156,17.3906 45.5438,7.21875 32.8125,6.5625 Z"
+             fill="#00188f"
+             transform="matrix(1,0,0,1.03175,1155,508)"
+             id="path39" />
+          <path
+             d="m 34.65,32.8125 15.3562,15.3563 c 3.8719,-4.2657 6.1032,-9.6469 6.3657,-15.3563 z"
+             fill="#00188f"
+             transform="matrix(1,0,0,1.03175,1155,508)"
+             id="path40" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="M 453,512.667 C 453,505.119 459.119,499 466.667,499 h 783.663 c 7.55,0 13.67,6.119 13.67,13.667 v 54.666 c 0,7.548 -6.12,13.667 -13.67,13.667 H 466.667 C 459.119,581 453,574.881 453,567.333 Z"
+       stroke="#00188f"
+       stroke-width="2"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#00188f"
+       fill-rule="evenodd"
+       fill-opacity="0.25098"
+       id="path42" />
+    <text
+       fill="#00188f"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="32px"
+       transform="translate(630.57,550)"
+       id="text42">Process Measurement &amp; Metrics</text>
+    <text
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="48px"
+       transform="translate(61.7599,95)"
+       id="text43">Business Process Management (BPM) framework</text>
+    <text
+       font-family="Wingdings, Wingdings_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="32px"
+       transform="translate(58.7291,568)"
+       id="text44"></text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="32px"
+       transform="translate(94.7291,568)"
+       id="text45">Drive business results</text>
+    <text
+       font-family="Wingdings, Wingdings_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="32px"
+       transform="translate(58.7291,607)"
+       id="text46"></text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="32px"
+       transform="translate(94.7291,607)"
+       id="text47">Create customer value</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(587.697,630)"
+       id="text48">BPM is more than just a set of tools … it is the deliberate,</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(677.197,659)"
+       id="text49">structured, and collaborative alignment</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-style="italic"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(668.183,688)"
+       id="text50">of business processes to business strategy</text>
+    <path
+       d="m 200,490.5 h 20 V 454 h 40 v 36.5 h 20 L 240,527 Z"
+       fill="#0078d4"
+       fill-rule="evenodd"
+       id="path50" />
+  </g>
+</svg>

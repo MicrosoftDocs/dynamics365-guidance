@@ -8,7 +8,7 @@ metadata:
   description: Get an overview of Dynamics 365 TechTalks and learn how to get started.
   author: edupont04
   ms.author: edupont
-  ms.date: 02/27/2024
+  ms.date: 09/30/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -84,6 +84,20 @@ landingContent:
           url: human-resources-infrastructure-merge.md
 
 # Card
+  - title: Analyze
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Transition to using Synapse Link
+          url: dataverse-synapse-link-dynamics-365-transition.md
+        - text: Architecture patterns for virtual data warehousing
+          url: dataverse-synapse-link-dynamics-365-architecture-patterns.md
+        - text: Cloud data warehousing with Synapse Link for Dataverse
+          url: dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md          
+        - text: Dynamics 365 data in lake house architecture with Synapse Link for Dataverse
+          url: dataverse-synapse-link-dynamics-365-lake-house.md
+
+# Card
   - title: Implement
     linkLists:
     - linkListType: concept
@@ -94,6 +108,10 @@ landingContent:
           url: implement-use-agile-techniques.md
         - text: Implement warehouse performance testing
           url: implement-supply-chain-warehouse-performance-testing.md
+        - text: Conduct process-centric discovery
+          url: get-started-conduct-process-centric-discovery.md
+        - text: Conduct process governance
+          url: get-started-conduct-process-governance.md
 
 # Card
   - title: Business processes
