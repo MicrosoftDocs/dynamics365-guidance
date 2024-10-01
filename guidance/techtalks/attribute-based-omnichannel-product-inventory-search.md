@@ -12,9 +12,9 @@ ai-usage: ai-assisted
 
 In the realm of inventory management, the present is buzzing with innovation, thanks to the latest enhancements in Dynamics 365 Supply Chain Management (SCM). These updates are set to redefine how businesses manage their vast product catalogs and real-time inventory, making operations smoother and more efficient.
 
-We've based this article on [a TechTalk](https://youtu.be/FsaS0YcODzQ?si=MJmcEIQUm_C_h-wz) that you can find online in the Dynamics 365 channel on YouTube.
+We've based this article on [a TechTalk](https://youtu.be/FsaS0YcODzQ) that you can find online in the Dynamics 365 channel on YouTube.
 
-:::image type="content" source="media\extend-supply-chain-commerce-b2b-4.svg" alt-text="Thumbnail of the Attribute-based omnichannel product and inventory search video on the Microsoft Dynamics 365 YouTube channel." link="https://youtu.be/FsaS0YcODzQ?si=MJmcEIQUm_C_h-wz":::
+:::image type="content" source="media\extend-supply-chain-commerce-b2b-4.svg" alt-text="Thumbnail of the Attribute-based omnichannel product and inventory search video on the Microsoft Dynamics 365 YouTube channel." link="https://youtu.be/FsaS0YcODzQ":::
 
 The highlight of the current technological leap is the attribute-based omnichannel product and inventory search. This feature is tailored to address the intricate challenges businesses encounter when navigating through extensive product ranges. By enabling searches based on specific product attributes, this tool significantly simplifies the process of pinpointing desired products within a sprawling inventory landscape.
 

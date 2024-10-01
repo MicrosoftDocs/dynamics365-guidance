@@ -1,10 +1,10 @@
 ﻿---
 title: TechTalk Implementation approach with agile techniques
-description: Summary of TechTalk video that talks about the differences, strengths, and limitations of utilizing waterfall and agile solutions to your Dynamics 365 projects.
+description: Summary of TechTalk video that talks about the differences, strengths, and limitations of using waterfall and agile solutions to your Dynamics 365 projects.
 author: dereklh77
 ms.author: edupont
 ms.topic: conceptual
-ms.date: 02/27/2024
+ms.date: 09/20/2024
 ai-usage: ai-assisted
 ---
 
@@ -12,9 +12,9 @@ ai-usage: ai-assisted
 
 Discover the transformative potential of agile techniques in Dynamics 365 implementation, a strategic approach that enhances adaptability and accelerates deployment in today's dynamic business landscape.
 
-In today's fast-paced business environment, implementing business applications rapidly and effectively is crucial. Microsoft's Dynamics 365 is a powerful suite of ERP and CRM applications that can transform business processes. However, the traditional 'waterfall' approach to implementation may not always be the best fit for every organization or project. Agile techniques offer an alternative that can lead to quicker deployment and better alignment with business needs.
+In today's fast-paced business environment, implementing business applications rapidly and effectively is crucial. Dynamics 365 is a powerful suite of business applications that can transform business processes. However, the traditional waterfall approach to implementation may not always be the best fit for every organization or project. Agile techniques offer an alternative that can lead to quicker deployment and better alignment with business needs.
 
-We've based this article on [a TechTalk](https://youtu.be/K9zpwNWRqQA?si=-MaaA2LVfO1mprCc) that you can find online in the Dynamics 365 channel on YouTube.
+We based this article on [a TechTalk](https://youtu.be/K9zpwNWRqQA?si=-MaaA2LVfO1mprCc) that you can find online in the Dynamics 365 channel on YouTube.
 
 :::image type="content" source="media\implementation-approach-with-agile-techniques-1.svg" alt-text="Thumbnail of the Implementation approach with agile techniques presentation slide." link="https://youtu.be/K9zpwNWRqQA?si=-MaaA2LVfO1mprCc":::
 

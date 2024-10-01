@@ -13,9 +13,9 @@ ai-usage: ai-assisted
 
 In this article, we explore the various patterns and tools available for both inbound and outbound data integrations within Dataverse, examining the best practices and considerations for each.
 
-We based the article on [a TechTalk](https://youtu.be/CFG1EpPuFRs?si=6MbkBCzjlBVubtT) that you can find online in the Dynamics 365 channel on YouTube.  
+We based the article on [a TechTalk](https://youtu.be/CFG1EpPuFRs) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/integration-patterns-dataverse-slide.svg" alt-text="Introductory slide from the TechTalk presented by Corina Balan and Michele Mazzucco from the FastTrack team." link="https://youtu.be/CFG1EpPuFRs?si=6MbkBCzjlBVubtT":::
+:::image type="content" source="media/integration-patterns-dataverse-slide.svg" alt-text="Introductory slide from the TechTalk presented by Corina Balan and Michele Mazzucco from the FastTrack team." link="https://youtu.be/CFG1EpPuFRs":::
 
 <!-- > [!VIDEO https://www.youtube.com/embed/CFG1EpPuFRs?si=CTxwasdR8jWT6SLD] -->
 

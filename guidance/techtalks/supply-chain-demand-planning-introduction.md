@@ -12,9 +12,9 @@ ai-usage: ai-assisted
 
 In the dynamic world of supply chain management (SCM), it's crucial to stay ahead in forecasting and demand planning. The introduction of advanced demand planning capabilities in Dynamics 365 Supply Chain Management is set to revolutionize this domain. These recently announced capabilities, which are currently in public preview, bring a new level of precision and flexibility to supply chain operations.
 
-We based this article on [a TechTalk](https://www.youtube.com/embed/3fTK02OKS\_o?si=P3Wpbp-ZDfhk2iyV) that you can find online in the Dynamics 365 channel on YouTube.
+We based this article on [a TechTalk](https://youtu.be/3fTK02OKS) that you can find online in the Dynamics 365 channel on YouTube.
 
-:::image type="content" source="media\demand-planning-dynamics-365-scm-1.svg" alt-text="PowerPoint thumbnail for the 'Demand Planning for S C M (public preview)' presentation by Beatriz Nebot Gracia and Erol Celebic." link="https://www.youtube.com/embed/3fTK02OKS\_o?si=P3Wpbp-ZDfhk2iyV":::
+:::image type="content" source="media\demand-planning-dynamics-365-scm-1.svg" alt-text="PowerPoint thumbnail for the 'Demand Planning for S C M (public preview)' presentation by Beatriz Nebot Gracia and Erol Celebic." link="https://youtu.be/3fTK02OKS":::
 
 ## Seamless data integration
 

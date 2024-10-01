@@ -1167,6 +1167,10 @@ items:
           href: techtalks\get-started-guidance-hub.md
         - name: Implementation
           items:
+          - name: Conduct process-centric discovery
+            href: techtalks\get-started-conduct-process-centric-discovery.md
+          - name: Process governance
+            href: techtalks\get-started-conduct-process-governance.md
           - name: Implementation approach with agile techniques
             href: techtalks\implement-use-agile-techniques.md
           - name: Modernizing the admin experience for finance and operations apps
@@ -1181,12 +1185,24 @@ items:
             href: techtalks\integrate-finance-operations-dataverse.md
           - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
             href: techtalks\extend-supply-chain-commerce-b2b.md
+          - name: Transition to using Synapse Link for Dataverse
+            href: techtalks/dataverse-synapse-link-dynamics-365-transition.md
+          - name: Architecture patterns for virtual data warehousing
+            href: techtalks/dataverse-synapse-link-dynamics-365-architecture-patterns.md
+          - name: Cloud data warehousing for Dynamics 365 data
+            href: techtalks/dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md
+          - name: Dynamics 365 data in lake house architecture
+            href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
         - name: Business processes
           items:
           - name: Introduction to the business process catalog
             href: techtalks\get-started-business-process-catalog.md
           - name: Manage project scope and estimates with the business process catalog
             href: techtalks\get-started-business-process-catalog-manage-project-scope-estimation.md
+          - name: Author business processes
+            href: techtalks\get-started-business-process-catalog-authoring.md
+          - name: Author patterns for business processes
+            href: techtalks\get-started-business-process-catalog-authoring-patterns.md
         - name: Finance
           items:
           - name: Copilot capabilities in Finance

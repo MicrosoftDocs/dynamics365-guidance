@@ -4,7 +4,7 @@ description: Summary of TechTalk video that talks about the business process cat
 author: dereklh77
 ms.author: edupont
 ms.topic: conceptual
-ms.date: 09/16/2024
+ms.date: 09/20/2024
 ai-usage: ai-assisted
 ---
 
@@ -16,11 +16,11 @@ We based this article on [a TechTalk](https://youtu.be/qQEXxr6i6Tc?si=xr6WWlXCUS
 
 :::image type="content" source="media\introduction-to-the-business-process-catalog-part-2-1.svg" alt-text="Thumbnail of the TechTalk Series: business process catalog and Guidance presentation slide." link="https://youtu.be/qQEXxr6i6Tc?si=xr6WWlXCUSfSOB7B":::
 
-The business process catalog serves as a critical tool for organizations that aim to enhance their processes through Dynamics 365.  
+The business process catalog serves as a critical tool for organizations that aim to enhance their processes through Dynamics 365. [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
 ## What are business processes?
 
-Business processes are a series of structured activities and tasks that organizations employ to achieve specific goals. These processes are vital across all industries and provide a blueprint for efficiency, consistency, cost reduction, risk management, scalability, and data-driven decision-making.
+[!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] These processes are vital across all industries and provide a blueprint for efficiency, consistency, cost reduction, risk management, scalability, and data-driven decision-making.
 
 :::image type="content" source="media\introduction-to-the-business-process-catalog-part-2-2.svg" alt-text="Screenshot of a slide with the six key points called out before the image." lightbox="media\introduction-to-the-business-process-catalog-part-2-2.svg":::
 
@@ -44,7 +44,7 @@ The catalog is now available in the public domain and consists of 15 end-to-end 
 
 ## Access and use the business process catalog
 
-You can download the business process catalog in Excel and CSV formats, with the latter designed for easy import into Azure DevOps. This flexibility allows organizations to integrate the catalog into their existing project management tools, facilitating process scoping and estimation. Download the catalog at [https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog).  
+You can download the business process catalog in Excel and CSV formats, with the latter designed for easy import into Azure DevOps. This flexibility allows organizations to integrate the catalog into their existing project management tools, facilitating process scoping and estimation. [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
 :::image type="content" source="media\introduction-to-the-business-process-catalog-part-2-4.svg" alt-text="Screenshot of a slide that maps work item types to business processes, with other columns for sequence and state categories." lightbox="media\introduction-to-the-business-process-catalog-part-2-4.svg":::
 
@@ -66,6 +66,8 @@ You can use the following resources to learn more about Dynamics 365.
 
 - [TechTalk: Use the business process catalog to manage project scope and estimation](get-started-business-process-catalog-manage-project-scope-estimation.md)  
 - [TechTalk: Introduction to the Dynamics 365 guidance hub](get-started-guidance-hub.md)
+- [TechTalk: Conduct process-centric discovery](get-started-conduct-process-centric-discovery.md)  
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)  
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)  
-- [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ) 
+- [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)  
+- [Download the catalog at https://aka.ms/BusinessProcessCatalog](https://aka.ms/BusinessProcessCatalog)  

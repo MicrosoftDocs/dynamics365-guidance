@@ -14,7 +14,7 @@ In this article, we explore the Dynamics 365 guidance hub, a centralized platfor
 
 We based this article on [a TechTalk](https://youtu.be/NwiNJSbSmh8?si=F-IL4kxfBJhUNN_y) that you can find online in the Dynamics 365 channel on YouTube.
 
-:::image type="content" source="media\introduction-to-the-business-process-catalog-part-1-1.svg" alt-text="Thumbnail of the TechTalk Series: Business Process Catalog and Guidance Part 1 presentation slide." link="https://youtu.be/NwiNJSbSmh8?si=F-IL4kxfBJhUNN_y":::
+:::image type="content" source="media\introduction-to-the-business-process-catalog-part-1-1.svg" alt-text="Thumbnail of the TechTalk Series: Business Process Catalog and Guidance Part 1 presentation slide." link="https://youtu.be/NwiNJSbSmh8":::
 
 ## Introduction to Dynamics 365 guidance hub
 
