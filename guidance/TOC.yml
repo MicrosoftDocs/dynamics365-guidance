@@ -1159,40 +1159,12 @@ items:
 # TechTalks
       - name: TechTalks
         items:
-        - name: Overview
+        - name: Overview of TechTalk articles
           href: techtalks/index.yml
         - name: Introduction
           href: roles/techtalk-videos.md
         - name: Introduction to the Dynamics 365 guidance hub
           href: techtalks\get-started-guidance-hub.md
-        - name: Implementation
-          items:
-          - name: Conduct process-centric discovery
-            href: techtalks\get-started-conduct-process-centric-discovery.md
-          - name: Process governance
-            href: techtalks\get-started-conduct-process-governance.md
-          - name: Implementation approach with agile techniques
-            href: techtalks\implement-use-agile-techniques.md
-          - name: Modernizing the admin experience for finance and operations apps
-            href: techtalks\finance-operations-unified-admin-experience.md
-        # - name: Performance
-        #   items:
-        - name: Integration
-          items:
-          - name: Integration patterns for Dynamics 365 finance and operations applications
-            href: techtalks\integrate-finance-operations-overview.md
-          - name: Integration patterns for Dataverse
-            href: techtalks\integrate-finance-operations-dataverse.md
-          - name: Extend Dynamics 365 Supply Chain Management for an AI-powered B2B digital selling experience with Dynamics 365 Commerce
-            href: techtalks\extend-supply-chain-commerce-b2b.md
-          - name: Transition to using Synapse Link for Dataverse
-            href: techtalks/dataverse-synapse-link-dynamics-365-transition.md
-          - name: Architecture patterns for virtual data warehousing
-            href: techtalks/dataverse-synapse-link-dynamics-365-architecture-patterns.md
-          - name: Cloud data warehousing for Dynamics 365 data
-            href: techtalks/dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md
-          - name: Dynamics 365 data in lake house architecture
-            href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
         - name: Business processes
           items:
           - name: Introduction to the business process catalog
@@ -1209,12 +1181,26 @@ items:
             href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
           - name: Microsoft Copilot for Finance
             href: techtalks\microsoft-copilot-finance.md
+          - name: Extending Copilot in finance and operations apps
+            href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
           - name: The source to pay business process
             href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
           - name: Business performance analytics in Dynamics 365 Finance
             href: techtalks\finance-bpa-overview.md
           - name: Performance test the user interface with JMeter in Dynamics 365 Finance
             href: techtalks\finance-operations-ui-performance-test-jmeter.md
+          - name: Tax calculation updates in 2024
+            href: techtalks\finance-tax-updates-2024.md
+          - name: Advanced bank reconciliation
+            href: techtalks\finance-advanced-bank-reconciliation-enhancements.md
+          - name: Invoice capture features and functionality
+            href: techtalks\finance-invoice-capture-ga-features-functionality.md  
+          - name: Subscription billing and deferral schedules
+            href: techtalks\finance-subscription-billing-deferral-schedules-project-management-accounting.md        
+          - name: Migrate to subscription billing
+            href: techtalks\finance-subscription-billing-migrate.md  
+          - name: Regulatory Configuration Service moved to Globalization Studio workspace
+            href: techtalks\finance-globalization-studio-regulatory-configuration-service.md
         - name: Human Resources
           items:
           - name: Human Resources infrastructure merge
@@ -1223,10 +1209,16 @@ items:
           items:
           - name: Copilot capabilities in Supply Chain Management
             href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+          - name: Extending Copilot in finance and operations apps
+            href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
           - name: The source to pay business process
             href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+          - name: The procure to pay business process
+            href: techtalks\supply-chain-procure-to-pay-overview.md 
           - name: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
             href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
+          - name: Warehouse management only mode
+            href: techtalks/supply-chain-management-warehouse-management-only-mode.md
           - name: Cloud label printing for Supply Chain Management
             href: techtalks\supply-chain-cloud-label-printing.md
           - name: What's new in Supply Chain Management in 2023 release wave 2
@@ -1243,6 +1235,48 @@ items:
           items:
           - name: Set up business-to-business digital selling with Dynamics 365
             href: techtalks\set-up-dynamics-365-digital-selling.md
+          - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 1 
+            href: techtalks\extend-supply-chain-commerce-b2b.md
+          - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 2 
+            href: techtalks\extend-supply-chain-commerce-b2b-part2.md
+        - name: Implementation
+          items:
+          - name: Conduct process-centric discovery
+            href: techtalks\get-started-conduct-process-centric-discovery.md
+          - name: Process governance
+            href: techtalks\get-started-conduct-process-governance.md
+          - name: Implementation approach with agile techniques
+            href: techtalks\implement-use-agile-techniques.md
+          - name: Optimize the experience in Dynamics 365 apps
+            href: techtalks\implement-optimize-experience.md
+          - name: Modernizing the admin experience for finance and operations apps
+            href: techtalks\finance-operations-unified-admin-experience.md
+          - name: Service, support, and maintain Dynamics 365 apps
+            href: techtalks\service-support-maintain-dynamics-365-apps.md
+          - name: Automated regression testing with Leapwork
+            href: techtalks\dynamics-365-automated-regression-testing-leapwork.md
+        # - name: Performance
+        #   items:
+        - name: Integration
+          items:
+          - name: General guidance for integrating Dynamics 365 apps
+            href: techtalks\integrate-general-guidance.md
+          - name: Integration patterns for Dynamics 365 finance and operations applications
+            href: techtalks\integrate-finance-operations-overview.md
+          - name: Integration patterns for Dataverse
+            href: techtalks\integrate-finance-operations-dataverse.md
+          - name: Transition to using Synapse Link for Dataverse
+            href: techtalks/dataverse-synapse-link-dynamics-365-transition.md
+          - name: Architecture patterns for virtual data warehousing
+            href: techtalks/dataverse-synapse-link-dynamics-365-architecture-patterns.md
+          - name: Cloud data warehousing for Dynamics 365 data
+            href: techtalks/dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md
+          - name: Dynamics 365 data in lake house architecture
+            href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
+        - name: Development
+          items:
+          - name: Unified developer experience for Dynamics 365 finance and operations apps
+            href: techtalks\unified-developer-experience.md
 # Product docs
       - name: Product documentation
         items:

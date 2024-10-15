@@ -4,12 +4,12 @@ description: Learn how you can use Microsoft's business process catalog in Mavim
 author: dereklh77
 ms.author: edupont
 ms.topic: article
-ms.date: 05/13/2024
+ms.date: 10/15/2024
 ---
 
 # Import the business process catalog in Mavim using a Power Automate flow
 
-This article describes how to use Microsoft's business process catalog in the platform Mavim, an independent software vendor. Find the Mavim solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com/nl-nl/marketplace/apps/mavimbv1671629332610.mavim_bpm?tab=Overview).
+This article describes how to use Microsoft's business process catalog in the platform Mavim, an independent software vendor. Find the Mavim solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/mavimbv1671629332610.mavim_bpm?tab=Overview).
 
 The business process catalog defines workflows, protocols, and procedures as a base line for process-driven Dynamics 365 implementations. However, capturing and managing such a vast array of business processes manually often leads to issues. Such issues might include inefficiencies, inconsistencies, and difficulties in maintaining alignment with organizational goals and standards. Traditional methods often lack integration, version control, and collaboration capabilities. Keeping documentation up to date and accessible to relevant stakeholders is challenging as a result.
 
@@ -164,9 +164,6 @@ Based on the sequence ID, existing processes and patterns are updated. Currently
 ## Recommended resources
 
 - [Mavim.com](https://www.mavim.com/)
-
-- [Application Implementation Management – roll out faster, smoother, and in complete control (mavim.com)](https://www.mavim.com/what-we-do/application-implementation-management)
-
+- [Application Implementation Management (mavim.com)](https://www.mavim.com/application-implementation-management)
 - [Business Process Management For A Dynamics 365 Implementation: Beyond Diagnostics (blog.mavim.com)](https://blog.mavim.com/business-process-management-for-a-dynamics-365-implementation-beyond-diagnostics)
-
-- [Mavim opens up to the Microsoft Power Platform to facilitate hyper automation (blog.mavim.com)](https://blog.mavim.com/mavim-opens-up-to-the-microsoft-power-platform-to-facilitate-hyperautomation)
+- [Mavim opens up to the Microsoft Power Platform to facilitate hyper automation (blog.mavim.com)](https://blog.mavim.com/mavim-opens-up-to-the-microsoft-power-platform-to-facilitate-hyperautomation)  

@@ -4,7 +4,7 @@ description: Summary of TechTalk video that talks about the diverse integration 
 author: dereklh77
 ms.author: edupont
 ms.topic: conceptual
-ms.date: 09/12/2024
+ms.date: 10/10/2024
 ai-usage: ai-assisted
 ---
 
@@ -14,7 +14,7 @@ Are you embarking on a journey through the intricate world of Dynamics 365 finan
 
 We based this article on [a TechTalk](https://youtu.be/tUMEZlEKjEQ?si=Txz75IE8g0TJsyAo) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\integration-patterns-dynamics365-finance-operations-1.svg" alt-text="Thumbnail of the Integration Patterns for finance and operations applications presentation." link="https://youtu.be/tUMEZlEKjEQ?si=Txz75IE8g0TJsyAo":::
+:::image type="content" source="media\integration-patterns-dynamics365-finance-operations-1.svg" alt-text="Thumbnail of the Integration Patterns for finance and operations applications presentation." link="https://youtu.be/tUMEZlEKjEQ":::
 
 In the dynamic world of business software, integrating various applications is crucial for optimizing workflows, improving efficiency, and maintaining data consistency. The Dynamics 365 finance and operations apps offer robust integration capabilities that allow businesses to connect their operations seamlessly across different platforms. This article explores the integration patterns available in Dynamics 365 finance and operations apps, providing a comprehensive overview of the options and methods that can be employed.
 
@@ -116,6 +116,7 @@ The integration patterns within Dynamics 365 finance and operations are a testam
 
 You can use the following resources to learn more about Dynamics 365.
 
+- [TechTalk: General guidance for integrating Dynamics 365 apps](integrate-general-guidance.md)  
 - [TechTalk: Integration patterns for Dataverse](integrate-finance-operations-dataverse.md)  
 - [TechTalk: Set up business-to-business digital selling with Dynamics 365](set-up-dynamics-365-digital-selling.md)
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)  

@@ -4,7 +4,7 @@ description: Summary of TechTalk video that talks about the various facets of in
 ms.topic: conceptual
 author: edupont04
 ms.author: raprofit
-ms.date: 09/12/2024
+ms.date: 10/10/2024
 ai-usage: ai-assisted
 # CustomerIntent: As a partner, I want to learn if I should watch the recording.
 ---
@@ -23,9 +23,11 @@ We based the article on [a TechTalk](https://youtu.be/CFG1EpPuFRs) that you can 
 
 Dataverse is a key component of the Power Platform that provides extensive capabilities for integrating data from various sources, enabling a seamless flow of information across systems. Understanding the different integration patterns available within Dataverse is crucial for designing effective and efficient solutions, particularly when integrating with external systems or applications.
 
-The following illustration shows the architecture for integrating Dynamics 365 finance and operations apps with Dataverse. It shows various components such as Event Grid, Service Bus, Azure Function, and Power Automate that facilitate integration. The diagram highlights data flow between Finance and Operations Apps and Dataverse using tools like Dual Write, OData/Web API, and Business Events. Different integration types, including near real-time, asynchronous, and synchronous, are indicated, along with their associated processes like electronic reporting and invoice capture. This overview illustrates the comprehensive integration setup between systems, ensuring seamless data exchange and process synchronization.
+The following illustration shows the architecture for integrating Dynamics 365 finance and operations apps with Dataverse. It shows various components such as Event Grid, Service Bus, Azure Function, and Power Automate that facilitate integration. The diagram highlights data flow between finance and operations apps and Dataverse using tools like Dual Write, OData/Web API, and Business Events. Different integration types, including near real-time, asynchronous, and synchronous, are indicated, along with their associated processes like electronic reporting and invoice capture. This overview illustrates the comprehensive integration setup between systems, ensuring seamless data exchange and process synchronization.
 
 :::image type="content" source="media/integration-patterns-dataverse-overview.svg" alt-text="Diagram that shows Dynamics 365 and Dataverse components." lightbox="media/integration-patterns-dataverse-overview.svg":::
+
+The rest of this article digs into the integration mechanisms and Dataverse as indicated by the red squiggly line in the diagram.
 
 ## Inbound integration - bringing data into Dataverse
 
@@ -101,6 +103,8 @@ This article has provided a high-level overview of the key integration patterns 
 
 You can use the following resources to learn more about Dynamics 365.
 
+- [TechTalk: General guidance for integrating Dynamics 365 apps](integrate-general-guidance.md)  
+- [TechTalk: Integration patterns for Dynamics 365 finance and operations applications](integrate-finance-operations-overview.md)  
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)
