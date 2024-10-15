@@ -4,13 +4,13 @@ description: Summary of TechTalk video that talks about attribute-based omnichan
 author: dereklh77
 ms.author: edupont
 ms.topic: article
-ms.date: 04/16/2024
+ms.date: 10/15/2024
 ai-usage: ai-assisted
 ---
 
 # TechTalk: Introducing attribute-based omnichannel product and inventory search 
 
-In the realm of inventory management, the present is buzzing with innovation, thanks to the latest enhancements in Dynamics 365 Supply Chain Management (SCM). These updates are set to redefine how businesses manage their vast product catalogs and real-time inventory, making operations smoother and more efficient.
+In the realm of inventory management, the present is buzzing with innovation, thanks to the latest enhancements in Dynamics 365 Supply Chain Management. These updates are set to redefine how businesses manage their vast product catalogs and real-time inventory, making operations smoother and more efficient.
 
 We've based this article on [a TechTalk](https://youtu.be/FsaS0YcODzQ) that you can find online in the Dynamics 365 channel on YouTube.
 
@@ -44,14 +44,11 @@ The future of inventory management is set on a path of continuous innovation, wi
 
 The latest updates to Dynamics 365 Supply Chain Management mark a significant advancement in inventory management technology. With attribute-based searches and natural language processing, businesses are empowered with more intuitive and efficient tools for managing inventory. As inventory management continues to evolve, Dynamics 365 Supply Chain Management remains a pivotal force in driving efficiencies and supporting business growth.
 
-For businesses looking to use these new features, Microsoft's official documentation offers comprehensive guidance on integrating these advancements into existing SCM operations. Accessing detailed information and resources can ensure a smooth transition and maximize the benefits of these innovative features.
+For businesses looking to use these new features, Microsoft's documentation offers comprehensive guidance on integrating these advancements into existing operations. Accessing detailed information and resources can ensure a smooth transition and maximize the benefits of these innovative features.
 
-## Relevant sources:
+## Related information
 
-- Dynamics 365 Supply Chain Management official page: [Dynamics 365 Supply Chain Management](https://www.microsoft.com/dynamics-365/products/supply-chain-management)
-
-- Microsoft Docs for Dynamics 365 SCM: [Microsoft Docs - Dynamics 365 SCM](/dynamics365/supply-chain/)
-
-- Power Apps documentation: [Power Apps official documentation](/power-apps/)
-
-- Dataverse information: [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro)
+- [Microsoft documentation for Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/)  
+- [Dynamics 365 Supply Chain Management official page](https://www.microsoft.com/dynamics-365/products/supply-chain-management)
+- [Power Apps documentation](/power-apps/)  
+- [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro)  

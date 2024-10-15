@@ -8,7 +8,7 @@ metadata:
   description: Get an overview of Dynamics 365 TechTalks and learn how to get started.
   author: edupont04
   ms.author: edupont
-  ms.date: 09/30/2024
+  ms.date: 10/15/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -27,8 +27,8 @@ landingContent:
         url: get-started-guidance-hub.md
       - text: Introduction to the business process catalog
         url: get-started-business-process-catalog.md
-    #   - text: 
-    #     url: 
+      - text: Unified developer experience
+        url: unified-developer-experience.md
     #   - text: 
     #     url: 
     # - linkListType: learn
@@ -46,6 +46,9 @@ landingContent:
         url: microsoft-copilot-finance.md
       - text: Copilot capabilities in Finance and Supply Chain Management
         url: dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+      - text: Extending Copilot in finance and operations apps
+        url: dynamics-365-finance-operations-apps-copilot-extend.md
+
       
 # Card
   - title: Set up
@@ -74,6 +77,8 @@ landingContent:
     linkLists:
     - linkListType: overview
       links:
+        - text: General guidance for integrating Dynamics 365 apps
+          url: integrate-general-guidance.md
         - text: Integration patterns for Dataverse
           url: integrate-finance-operations-dataverse.md
         - text: Integration patterns for Dynamics 365 finance and operations applications
@@ -82,6 +87,8 @@ landingContent:
           url: extend-supply-chain-commerce-b2b.md
         - text: Human Resources infrastructure merge
           url: human-resources-infrastructure-merge.md
+        - text: Tax calculation updates in 2024
+          url: finance-tax-updates-2024.md
 
 # Card
   - title: Analyze
@@ -106,27 +113,61 @@ landingContent:
           url: get-started-business-process-catalog-manage-project-scope-estimation.md
         - text: Implement using agile techniques
           url: implement-use-agile-techniques.md
+        - text: Optimize the experience in Dynamics 365 apps
+          url: implement-optimize-experience.md
         - text: Implement warehouse performance testing
           url: implement-supply-chain-warehouse-performance-testing.md
         - text: Conduct process-centric discovery
           url: get-started-conduct-process-centric-discovery.md
         - text: Conduct process governance
           url: get-started-conduct-process-governance.md
+        - text: Service, support, and maintain Dynamics 365 apps
+          url: service-support-maintain-dynamics-365-apps.md
+        - text: Automated regression testing with Leapwork
+          url: dynamics-365-automated-regression-testing-leapwork.md
+        - text: Warehouse management only mode
+          url: supply-chain-management-warehouse-management-only-mode.md
+        - text: Regulatory Configuration Service moved to Globalization Studio workspace
+          url: finance-globalization-studio-regulatory-configuration-service.md
+
+# # Card
+#   - title: Business process catalog
+#     linkLists:
+#     - linkListType: concept
+#       links:
+#         - text: Introduction to the business process catalog
+#           url: get-started-business-process-catalog.md
+#         - text: Use the business process catalog to manage the project
+#           url: get-started-business-process-catalog-manage-project-scope-estimation.md
 
 # Card
-  - title: Business processes
+  - title: Business processes in Finance
     linkLists:
     - linkListType: concept
       links:
-        - text: Introduction to the business process catalog
-          url: get-started-business-process-catalog.md
-        - text: Use the business process catalog to manage the project
-          url: get-started-business-process-catalog-manage-project-scope-estimation.md
-        - text: The source to pay business process in Finance and Supply Chain Management
+        - text: The source to pay business process
           url: dynamics-365-finance-supply-chain-management-source-to-pay.md
-        - text: Business performance analytics with Finance
+        - text: Business performance analytics
           url: finance-bpa-overview.md
-        - text: Demand planning in Supply Chain Management
+        - text: Advanced bank reconciliation
+          url: finance-advanced-bank-reconciliation-enhancements.md 
+        - text: Invoice capture features and functionality
+          url: finance-invoice-capture-ga-features-functionality.md
+        - text: Subscription billing and deferral schedules
+          url: finance-subscription-billing-deferral-schedules-project-management-accounting.md
+        - text: Migrate to subscription billing
+          url: finance-subscription-billing-migrate.md
+
+# Card
+  - title: Business processes in Supply Chain Management
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: The source to pay business process
+          url: dynamics-365-finance-supply-chain-management-source-to-pay.md
+        - text: The procure to pay business process
+          url: supply-chain-procure-to-pay-overview.md
+        - text: Demand planning
           url: supply-chain-demand-planning-introduction.md
         - text: Attribute-based omnichannel product and inventory search
           url: attribute-based-omnichannel-product-inventory-search.md
