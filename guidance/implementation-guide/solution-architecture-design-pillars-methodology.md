@@ -51,7 +51,7 @@ The term *governance* often means just project management or stakeholder managem
 
 | Project management | Stakeholder engagement | Solution management | Risk and issues management | Change control | Organizational change and communication |
 |--------------------|------------------------|---------------------|---------------------------|----------------|--------------------------------------|
-| Weekly status reports | Exectuive steering committee | Oversight of functional and nonfuncitonal attributes | Objective risk assessment and mitigation planning | Identification and prioritization of requirements and solution attributes | Intentional and customized communication to stakeholders |
+| Weekly status reports | Executive steering committee | Oversight of functional and nonfuncitonal attributes | Objective risk assessment and mitigation planning | Identification and prioritization of requirements and solution attributes | Intentional and customized communication to stakeholders |
 | Project plan and schedule | Communication and promotion | Data, integration, infrastructure, and performance | Issue identification, ownership, and resolution | Tracking and reporting via ADO | Periodic effectiveness check |
 | Resource management | Escalation of unresolved issues | Customizations and process adaptation | Prioritization and severity assessment | Organization and process changes | Solution adoption and operational transformation management |
 | Financial management | Solution decision making and collaboration | Security and compliance | Risk response management | | |
