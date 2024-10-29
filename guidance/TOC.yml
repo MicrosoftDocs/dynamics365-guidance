@@ -415,6 +415,8 @@ items:
             href: implementation-portal/sign-up.md
           - name: Onboarding wizard
             href: implementation-portal/onboard-project.md
+          - name: Nominate for FastTrack
+            href: implementation-portal/nominations.md
           - name: Data sharing consent
             href: implementation-portal/data-sharing-consent.md
           - name: Set up telemetry insights
@@ -530,6 +532,8 @@ items:
               href: resources/fs-resource-cell-template.md
             - name: Customize the template for bookings
               href: resources/fs-booking-template.md
+            - name: Schedule board settings management control
+              href: resources/fs-schedule-board-settings-management-control.md
             - name: Field mapping for the schedule board settings
               href: resources/fs-schedule-board-settings-field-mapping.md
 # FnO

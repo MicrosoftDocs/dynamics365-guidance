@@ -1,31 +1,49 @@
 ---
 title: Give or get consent for data sharing in your project
 description: Find out how to give or get consent for data sharing in a Dynamics 365 implementation project and what features depend on it.
-author: dereklh77
+author: edupont04
 ms.author: goantu
 ms.topic: how-to
-ms.date: 04/16/2024
+ms.date: 10/28/2024
 ai-usage: ai-assisted
 ---
 
 # Give or get consent for data sharing in your project
 
-In this article, we introduce you to the process of approving data sharing in a Dynamics 365 implementation project. Based on Microsoft's [Privacy policy](https://privacy.microsoft.com/privacystatement), we require two contacts from our customer's organization to approve the implementation project's access to their organization's tenant. This allows partners to access information such as customer name and telemetry insights and ensures compliance with data protection regulations, building trust with customers.
+In this article, we introduce you to the process of approving data sharing in a Dynamics 365 implementation project. Based on Microsoft's [Privacy policy](https://privacy.microsoft.com/privacystatement), we require two contacts from the customer's organization to approve the implementation project's access to their organization's tenant. This allows partners to access information such as customer name and telemetry insights and ensures compliance with data protection regulations, building trust with customers.
 
 After creating a project in the Implementation Portal, an **Admin** tab appears on the project page. This tab displays the consent status for the project from the reviewers.  
 
 Similarly, when you set up [a telemetry request](telemetry-insights.md) in the **Set up telemetry** guide, you see all requests on the **Data Consent** page.  
 
+## Process
+
+When you create a new implementation project with [the onboarding wizard](onboard-project.md), or you [set up a telemetry request](telemetry-insights.md), there's an option to specify the tenant that you want to associate the project or telemetry request with, the current tenant or a different tenant. If you choose the option **Different Tenant**, then data consent is required.
+
+For both scenarios, Microsoft requires two contact email addresses from the customer organization as reviewers to trigger the consent process. The email addresses must belong
+to the specified tenant. Once you provide the details and choose the **Submit** button, an review email is sent to both reviewers.  
+
+### Email sent for approving data consent
+
+The sender of the email is `ftdyn365@microsoft.com`, and the subject is *Dynamics 365 Implementation Portal - Review access*. The body of the email specifies the name of the implementation project and the tenant ID, and it provides context for the request. The email has a link that opens the **Project Admin** tab in the Dynamics 365 Imlementation Portal where the reviewers can then reviewing the request and take the next step.
+
 ## Approval status
 
-The following table describes the status options of a data sharing request.
+On the approval page, the reviwers can choose to approve or reject the request.
 
-| **Data Consent Status** | **What it indicates** |
+![Screenshot of the Data Consent tab for an implementation project that's pending approval or rejecting of the data sharing consent request.](./media/DataConsentApproval.png)
+
+The following table describes the status options of a data sharing request that other project users or admins see.
+
+| **Data consent status** | **What it indicates** |
 |-------------------------|-------------------------|
 | **Not Applicable** | Data consent policy doesn't apply to this project because the project is created on the same tenant of user. |
 | **Pending** | The request for consent is pending with either one or both reviewers. |
 | **Not Allowed** | The request was rejected by the reviewers and canceled. You must submit a new request. |
 | **Allowed** | The request has been approved by both reviewers. |
+
+> [!NOTE]
+> Both reviewers must approve the request for the data consent process to be complete. If the reviewers didn't receive the email, they can go to the **Admin > Data Consent** tab of the project in the Implmentation Portal where they might see the approval options available. If there are still issues in approving the requests, please email [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).
 
 ## Admin tasks related to data consent requests
 
@@ -43,7 +61,7 @@ If a project admin wants to cancel the data consent, they can do so from the **D
 
 2. Choose the **Admin** section, and then choose the **Data Consent** tab.
 
-3. Choose the **Cancel** option. This cancels the consent. It also makes the reviewer fields editable.
+3. Choose the **Cancel** option. This cancels the consent. It also makes the reviewer fields editable to modify the Reviewer contacts.
 
 ### Edit or change data consent reviewers
 
@@ -54,7 +72,7 @@ You can change the data consent reviewer emails in the **Data consent** view wit
 2. Choose the checkbox to confirm that the user belongs to the target tenant, and then choose the **Update** action.
 
 This sends an email to the newly added user for approval. The project admin can update the reviewer emails as required.
-
+ 
 ### Approve and reject data sharing consent
 
 Reviewers receive an email to approve the request based on the following actions:

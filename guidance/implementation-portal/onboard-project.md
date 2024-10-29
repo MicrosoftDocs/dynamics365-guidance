@@ -34,27 +34,29 @@ The first step in the onboarding wizard is to provide the basic details of your 
 
     | Type | Description |
     |------|-------------|
-    | **Test/trial/training** | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
+    | **Customer implementation** | Choose this option if your implementation project is being implemented by a Microsoft partner for a customer, or if you're a customer of Microsoft and implementing Dynamics 365 without a Microsoft partner.|
     | **Partner implementation** | Choose this option if your project is being implemented for a Microsoft partner, such as when you implement Dynamics 365 for your own organization as a Microsoft partner.|
-    | **Customer implementation** | Choose this option if your project is being implemented by a Microsoft partner for a customer, or if you're a customer of Microsoft and implementing Dynamics 365 without a Microsoft partner.|
+   | **Pre-sales**| Choose this option if the project is being created as part of the pre-sales phase.|
+    | **Test/trial/training** | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
 
-4. Select the type of project.
+
+5. Select the type of project.
 
     | Type | Description |
     |------|-------------|
     | **New project** | Select this option if this is a new implementation.|
-    | **New workload on existing project** | Select this option if you're implementing a new workload on an existing project.|
+    | **New workload on existing project** | Select this option if you're implementing a new workload on an existing project. If there's already a project that has gone live, and you're adding another app to the existing implementation, choose the *New workload on existing project* option.|
+   | **Cloud Migration for Dynamics 365 CE only**| Select this option if the project is for a cloud migration project for a Dynamics 365 Customer Engagement (on-premises) solution.|
+    
 
-    If there's already a project that has gone live, and you're adding another app to the existing implementation, choose the *New workload on existing project* option.
-
-5. Is it a Dynamics 365 finance and operations apps implementation?
+6. Is it a Dynamics 365 finance and operations apps implementation?
 
     - Select **No** if you don't have any finance and operation apps in scope (such as Finance, Commerce, Supply Chain Management, or Human Resources).
     - Select **Yes** if you have one or more finance and operation apps in scope.
 
     Selecting **Yes** in the above option loads the *finance and operations Lifecycle Services Project* section. If you select **No**, move forward to step 7.
 
-6. Finance and LCS Project - For the initial rollout of the implementation project with finance and operations apps in scope, when a project is created in Lifecycle Services, the FastTrack team automatically creates a project in the portal and customers and partners can join them. It's not required to create the project again if it already exists.  
+7. Finance and LCS Project - For the initial rollout of the implementation project with finance and operations apps in scope, when a project is created in Lifecycle Services, the FastTrack team automatically creates a project in the portal and customers and partners can join them. It's not required to create the project again if it already exists.  
 
     | Type | Description |
     |------|-------------|
@@ -64,7 +66,7 @@ The first step in the onboarding wizard is to provide the basic details of your 
     > [!NOTE]
     > Existing project users in Lifecycle Services can join the related project in the Implementation Portal (if one exists). If you are not a project user in Lifecycle Services, then the related implementation project will not show up in the next screen. You will need someone with the necessary permissions to add you in LCS before you can join the project in this portal.
 
-7. Choose the **Next** button to proceed to the **Existing Projects** page.
+8. Choose the **Next** button to proceed to the **Existing Projects** page.
 
 ## Existing projects
 
@@ -92,33 +94,39 @@ If your implementation portal project doesn't exist and/or if you want to create
 
 ### Project details
 
-1. **Project name** - Provide a descriptive name that reflects components such as the customer's project name, deployment region, and main apps that are in scope.
+The following table describes the available fields on this tab.  
 
-2. **Products in-scope for this project** - Select all products and apps that are in scope for the implementation. The implementation guidance in the portal populates depending on the products selected here.
+|Field|Description|
+|-|-|
+|**Project name**|Provide a descriptive name that reflects components such as the customer's project name, deployment region, and main apps that are in scope.|
+|**Products in-scope for this project**|Select all products and apps that are in scope for the implementation. The implementation guidance in the portal populates depending on the products selected here.|
+|**Implementation team country**|Select the country where the bulk of the implementation team is located. This helps us scope the project.|
+|**Estimate go-live date**|Select the planned/best estimate of the go-live date. This date should be a future date and can't be in the past.|
+|**Select current project phase**|The project phase follows [Success By Design phases](../implementation-guide/success-by-design.md#success-by-design-phases). Once the project is created, this field isn't editable for finance and operation apps' implementation project but would be editable for all other projects.|
 
-3. **Implementation team country** - Select the country where the bulk of the implementation team is located. This helps us scope the project.
-
-4. **Estimate go-live date** - Select the planned/best estimate of the go-live date. This date should be a future date and can't be in the past.
-
-    > [!NOTE]
-    > If required, you will be able to update all the above details in the portal after the project gets created using the "View/Edit Project Details" option.
-
-5. **Select current project phase** - The project phase follows [Success By Design phases](/dynamics365/guidance/implementation-guide/success-by-design#success-by-design-phases). Once the project is created, this field isn't editable for finance and operation apps' implementation project but would be editable for all other projects.
-
+> [!NOTE]
+> If required, you can update all the above details in the portal after the project gets created using the **View/Edit Project Details** option.
+    
 ### Project users and admins
 
-1. **Email address of additional project user** - Enter email address of another user in the format `name@company.com`. This user is added as a project user in the newly created project.
+The following table describes the available fields on this tab.  
 
-2. **Email address of additional project admin** - Enter email address of another user in the format `name@company.com`. This user is as a project admin in the newly created project in addition to the user creating the project. This is to ensure that there's coverage for the admin activities.
+|Field|Description|
+|-|-|
+|**Email address of additional project user**|Enter email address of another user in the format `name@company.com`. This user is added as a project user in the newly created project.|
+|**Email address of additional project admin**|Enter email address of another user in the format `name@company.com`. This user is as a project admin in the newly created project in addition to the user creating the project. This is to ensure that there's coverage for the admin activities.|
 
 > [!NOTE]
 > You (or any Project Admin) will be able to add/remove users from the project using the Admin tab &gt; Project Users page once the project gets created.
 
 ### Partner details
 
-1. **Do you have an implementation partner?** - Toggle this option to *No* if you don't have any implementation partner. Marking this as *Yes* will make the next field mandatory.
+The following table describes the available fields on this tab.  
 
-2. **MPN ID of the implementation partner** - Specify the MPN ID of the partner who's implementing the project. This ID is linked to the project.
+|Field|Description|
+|-|-|
+|**Do you have an implementation partner?**|Toggle this option to *No* if you don't have any implementation partner. Marking this as *Yes* will make the next field mandatory.|
+|**MPN ID of the implementation partner**|Specify the MPN ID of the partner who's implementing the project. This ID is linked to the project.|
 
 > [!NOTE]
 > Both fields can be edited once the project has been created via the **View/Edit Project Details** option. The **Do you have an Implementation Partner?** toggle is not visible if you are a partner, or if you are creating the project as a partner and the MPN ID is a mandatory field in these scenarios.

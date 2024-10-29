@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Service, support, and maintain Dynamics 365 apps 
 description: Summary of TechTalk video that talks about how to manage and maintain the Dynamics 365 apps in your business solution.
-ms.date: 10/08/2024
+ms.date: 10/18/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -55,7 +55,7 @@ The following image shows a flowchart depicting the process of adjusting Applica
 
 :::image type="content" source="media/DTT029EXT2-adjust-alm.svg" alt-text="Screenshot of a slide with a flowchart depicting the process of adjusting Application Lifecycle Management A L M for emergency situations." lightbox="media/DTT029EXT2-adjust-alm.svg":::
 
-As more Dynamics 365 apps run on Dataverse, it's essential to use tools like the Power Platform admin center for monitoring, especially for environments with dual-write enabled. This ensures a smooth flow of data between finance and operations apps and Power Platform, minimizing any disruptions in functionality.
+As more Dynamics 365 apps run on Dataverse, it's essential to use tools such as the Power Platform admin center to monitor telemetry, especially for environments with dual-write enabled. The use of telemetry helps a smooth flow of data between finance and operations apps and Power Platform, minimizing any disruptions in functionality.
 
 Learn more about monitoring and maintaining systems in the [Power Platform admin documentation](/power-platform/admin).
 
@@ -77,6 +77,11 @@ Learn more at the [Dynamics 365 community](https://community.dynamics.com/) webs
 
 You can use the following resources to learn more about Dynamics 365.
 
+- [Service description for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/get-started/service-description#service-activity-responsibilities)
+- [Understanding the infrastructure of Business Central online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+- [Technical support for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support)  
+- [Get Help + Support in Power Platform admin center](/power-platform/admin/get-help-support)  
+- [Support for Microsoft Power Platform and Dynamics 365 apps](/power-platform/admin/support-overview)  
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)
