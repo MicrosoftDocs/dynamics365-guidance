@@ -536,6 +536,8 @@ items:
               href: resources/fs-schedule-board-settings-management-control.md
             - name: Field mapping for the schedule board settings
               href: resources/fs-schedule-board-settings-field-mapping.md
+            - name: Set up Azure Pipelines to deploy Field Service
+              href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
 # FnO
         - name: Finance and operations apps
           items:
