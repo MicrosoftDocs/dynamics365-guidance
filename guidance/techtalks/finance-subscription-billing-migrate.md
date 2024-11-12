@@ -14,7 +14,7 @@ Migrating from traditional *revenue recognition* to *subscription billing* is a 
 
 We based this article on [a TechTalk](https://youtu.be/ISj9xncsfqE) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV008EXT-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/ISj9xncsfqE":::
+:::image type="content" source="media/finance-subscription-billing-migrate-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/ISj9xncsfqE":::
 
 > [!IMPORTANT]
 > The *revenue recognition* module is deprecated in Dynamics 365 Finance and replaced by the *subscription billing* functionality. The shift offers better flexibility and greater accuracy in handling recurring revenue streams, ultimately allowing businesses to align their financials with modern-day service delivery models. Learn more at [Features removed or deprecated in the Finance 10.0.30 release](/dynamics365/finance/get-started/removed-deprecated-features-finance#features-removed-or-deprecated-in-the-finance-10030-release).  
@@ -25,7 +25,7 @@ Revenue recognition is a critical function in traditional financial setups, wher
 
 The **Revenue recognition convention** determines the dates that are set on the revenue schedule for the invoice. In contrast, with *subscription billing*, the deferral start date is determined based on the **Revenue and expense deferral** parameter, **Default deferral start date**. The following image aims to explain how the start dates for recognizing revenue and deferring expenses are set. The table highlights the flexibility in setting these parameters based on the revenue and expense deferral parameter **Default deferral start date**.
 
-:::image type="content" source="media/DTV008EXT-compare.svg" alt-text="Image shows a table with two columns. The first column lists actual start date, first day of month/period, mid-month split, and end of month/period. The second column shows when deferral can start, including the transaction date, beginning of the current month, rule of 15, and beginning of the next month." lightbox="media/DTV008EXT-compare.svg":::
+:::image type="content" source="media/finance-subscription-billing-migrate-compare.svg" alt-text="Image shows a table with two columns. The first column lists actual start date, first day of month/period, mid-month split, and end of month/period. The second column shows when deferral can start, including the transaction date, beginning of the current month, rule of 15, and beginning of the next month." lightbox="media/finance-subscription-billing-migrate-compare.svg":::
 
 ## Configuration and mapping entities
 

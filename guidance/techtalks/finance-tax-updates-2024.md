@@ -14,7 +14,7 @@ Tax calculation services continue to evolve in 2024, especially in Dynamics 365 
 
 We based this article on [a TechTalk](https://youtu.be/0VFeRi_S8r0) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV038EXT-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/0VFeRi_S8r0":::
+:::image type="content" source="media/finance-updates-2024-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/0VFeRi_S8r0":::
 
 ## New capabilities in 2024
 
@@ -36,7 +36,7 @@ For enterprise customers operating in diverse tax jurisdictions, managing variou
 
 The following image is based on a slide that provides an overview of the Universal Tax Rate API. It outlines how this API, an extension of the existing Tax Calculation feature in Microsoft Dynamics 365 applications, connects to external tax services under a unified framework.  
 
-:::image type="content" source="media/DTV038EXT-universal-tax-rate-api.png" alt-text="The image includes three sections: an explanation of the Universal Tax Rate API, its business values, and a diagram illustrating the API's interaction between Microsoft business applications and external tax services. The diagram features flow arrows for API requests and returns that connect elements labeled as Microsoft business applications, Globalization Studio workspace, and external tax services with components like Tax Solution and Tax Rate Setup." lightbox="media/DTV038EXT-universal-tax-rate-api.png":::
+:::image type="content" source="media/finance-updates-2024-universal-tax-rate-api.png" alt-text="The image includes three sections: an explanation of the Universal Tax Rate API, its business values, and a diagram illustrating the API's interaction between Microsoft business applications and external tax services. The diagram features flow arrows for API requests and returns that connect elements labeled as Microsoft business applications, Globalization Studio workspace, and external tax services with components like Tax Solution and Tax Rate Setup." lightbox="media/finance-updates-2024-universal-tax-rate-api.png":::
 
 The API framework provides a seamless connection between Dynamics 365 and external tax providers, helping reduce the complexity of managing multiple tax rates and ensuring up-to-date compliance. When businesses use this integration, they can streamline their tax operations, minimizing the need for constant manual updates.
 
@@ -56,7 +56,7 @@ The 2024 update also introduces a significant change with the unification of the
 
 The following image is based on a slide that illustrates the evolution of the tax calculation architecture for a financial system.  
 
-:::image type="content" source="media/DTV038EXT-tax-calculation-unification.png" alt-text="The image shows two diagrams side by side to indicate a transition from an older system to a newer one. The text after the image explains further details." lightbox="media/DTV038EXT-tax-calculation-unification.png":::
+:::image type="content" source="media/finance-updates-2024-tax-calculation-unification.png" alt-text="The image shows two diagrams side by side to indicate a transition from an older system to a newer one. The text after the image explains further details." lightbox="media/finance-updates-2024-tax-calculation-unification.png":::
 
 In the image, the left diagram displays components such as the *Regulatory Configuration Service*, *Global Repository*, and external tax rate APIs that link to a central **Tax Calculation** module, which then connects to modules for **India GTE** and **Transaction Operations** in Dynamics 365 Finance. The right diagram refines this architecture by integrating these components into a more streamlined setup where the **Globalization Studio** workspace and **Dataverse Repository** are more centrally connected to the **Tax Calculation**, which still oversees **India GTE** and **Transaction Operations**. This visual representation highlights the system's strategic shift towards greater integration and simplification in handling tax calculations across different regions and platforms.
 

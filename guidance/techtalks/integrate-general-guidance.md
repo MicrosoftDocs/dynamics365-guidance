@@ -14,7 +14,7 @@ Integrating Dynamics 365 apps with external platforms is now essential for many 
 
 We based this article on [a TechTalk](https://youtu.be/EoQ1kyiRVFA) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/dtv010-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/EoQ1kyiRVFA":::
+:::image type="content" source="media/integrate-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/EoQ1kyiRVFA":::
 
 > [!TIP]
 > The TechTalk session was about finance and operations apps, but this article reflects that the general guidance applies to all solutions with Dynamics 365 apps.
@@ -25,7 +25,7 @@ Dynamics 365 and Dataverse offer a wide range of integration capabilities, and u
 
 The following illustration shows the architecture for integrating Dynamics 365 finance and operations apps with Dataverse. It shows various components such as Event Grid, Service Bus, Azure Function, and Power Automate that facilitate integration. The diagram highlights data flow between finance and operations apps and Dataverse using tools such as *Dual Write*, *OData*/*Web API*, and *business events*. Different integration types, including near real-time, asynchronous, and synchronous, are indicated, along with their associated processes like electronic reporting and invoice capture. This overview illustrates the comprehensive integration setup between systems, ensuring seamless data exchange and process synchronization.
 
-:::image type="content" source="media/dtv010-integration-overview.svg" alt-text="Diagram that shows Dynamics 365 and Dataverse components." lightbox="media/dtv010-integration-overview.svg":::
+:::image type="content" source="media/integrate-integration-overview.svg" alt-text="Diagram that shows Dynamics 365 and Dataverse components." lightbox="media/integrate-integration-overview.svg":::
 
 When you design an integration strategy, you must consider several fundamental elements. First, understand that you can categorize integration based on whether the data flow is *inbound* or *outbound*. *Inbound* means that external systems send data to Dynamics 365. *Outbound* means Dynamics 365 sends data to external systems. Integrations can also be synchronous, occurring in real-time, or asynchronous, where data is exchanged with a delay.
 
@@ -47,7 +47,7 @@ One popular approach to integration in Dynamics 365 is using predefined patterns
 
 The following image illustrates the fundamental principles of integration of five key elements that guide effective system integration strategy.  
 
-:::image type="content" source="media/dtv010-fundamental-principles.svg" alt-text="Screenshot of a slide with a linear sequence of the five principles where each is represented by a circle with a distinct icon inside." lightbox="media/dtv010-fundamental-principles.svg":::
+:::image type="content" source="media/integrate-fundamental-principles.svg" alt-text="Screenshot of a slide with a linear sequence of the five principles where each is represented by a circle with a distinct icon inside." lightbox="media/integrate-fundamental-principles.svg":::
 
 These are just a few examples of the many patterns available, each of which can be adapted to specific needs, whether it's high-volume data transfers or maintaining data consistency in real-time.
 
@@ -69,7 +69,7 @@ One of the common challenges with system integration is maintaining scalability 
 
 The following image illustrates the key considerations for scaling in system integration.
 
-:::image type="content" source="media/dtv010-scale.svg" alt-text="Screenshot of a slide called Scale with five text boxes under the heading Build for growth." lightbox="media/dtv010-scale.svg":::
+:::image type="content" source="media/integrate-scale.svg" alt-text="Screenshot of a slide called Scale with five text boxes under the heading Build for growth." lightbox="media/integrate-scale.svg":::
 
 The first area focuses on the need for *scalability and expansion* with an emphasis on the importance of designing systems that can grow. The second box advises *building for long-term growth* by considering the impact of other requirements and the effort needed for future extensibility. The third box highlights the importance of assessing the effects and timing of *updates* to maintain system relevance and efficiency. The fourth box suggests that you choose components that support *Application Lifecycle Management* (ALM) with tools such as Azure DevOps. ALM helps you ensure integration compatibility and operational continuity. The fifth and final box recommends that you apply *parallelism* to address latency issues and maximize service limits  optimizing performance and resource utilization across integrated systems.
 

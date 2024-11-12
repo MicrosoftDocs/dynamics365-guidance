@@ -14,7 +14,7 @@ As the digital landscape continues to advance, automation is essential for busin
 
 We based this article on [a TechTalk](https://youtu.be/YEF3NAHnQsU) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV012EXT-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/YEF3NAHnQsU":::
+:::image type="content" source="media/finance-invoice-capture-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/YEF3NAHnQsU":::
 
 ## Invoice capture in Dynamics 365 Finance
 
@@ -22,7 +22,7 @@ Invoice capture in Dynamics 365 Finance aims to automate the process of receivin
 
 The following image depicts the invoice automation process flow for accounts payable.  
 
-:::image type="content" source="media/DTV012EXT-ap-invoice-automation.svg" alt-text="Screenshot of a slide with three main stages: Capture, Process, and Pay." lightbox="media/DTV012EXT-ap-invoice-automation.svg":::
+:::image type="content" source="media/finance-invoice-capture-ap-invoice-automation.svg" alt-text="Screenshot of a slide with three main stages: Capture, Process, and Pay." lightbox="media/finance-invoice-capture-ap-invoice-automation.svg":::
 
 In the *Capture* stage, invoices can be received through electronic means, manual input, batch import, or invoice capture. The *Process* stage involves tasks such as applying prepayment, receipt matching, invoice validation, workflow approval, and posting. Finally, the *Pay* stage ends with a proposal for automatic payment. Channels for receiving invoices include file servers, email (Microsoft 365 Outlook), and APIs.  
 
@@ -34,7 +34,7 @@ The GA release of Dynamics 365's invoice capture solution introduces several enh
 
 The following image outlines the process of invoice processing with the invoice capture capability in detail, highlighting both touchless and manual intervention workflows.
 
-:::image type="content" source="media/DTV012EXT-process-invoice.svg" alt-text="Screenshot of a slide with arrows to indicate a flow." lightbox="media/DTV012EXT-process-invoice.svg":::
+:::image type="content" source="media/finance-invoice-capture-process-invoice.svg" alt-text="Screenshot of a slide with arrows to indicate a flow." lightbox="media/finance-invoice-capture-process-invoice.svg":::
 
 The flow begins with an invoice being captured and classified. The *touchless* process involves *derivation* that determines details such as the legal entity, vendor account, invoice type, stock item, service item, procurement category, currency code, and purchase order. It also includes *validation*, meaning checking the required fields  to make sure there are no confidence score errors, validating the currency code, and checking for consistency with the purchase order. If manual intervention is required, the invoice is reviewed and corrected before being finalized. Once complete, the invoice is transferred asynchronously or synchronized for further processing.
 
@@ -62,7 +62,7 @@ Deploying the invoice capture solution in Dynamics 365 is straightforward, but t
 
 The following image illustrates requirements for deployment and configuration, specifically for preparing environments in Dynamics 365 Finance and the integration with Power Platform.
 
-:::image type="content" source="media/DTV012EXT-deploy-config.svg" alt-text="Screenshot of a slide with two screenshots that show the versions of finance and operations apps and how the configuration looks in Power Platform admin center." lightbox="media/DTV012EXT-deploy-config.svg":::
+:::image type="content" source="media/finance-invoice-capture-deploy-config.svg" alt-text="Screenshot of a slide with two screenshots that show the versions of finance and operations apps and how the configuration looks in Power Platform admin center." lightbox="media/finance-invoice-capture-deploy-config.svg":::
 
 The configuration process includes defining legal entities, vendor synchronization settings, and framework mappings for invoice posting. Users can also create custom channels to receive invoices from different sources and assign legal entities to each channel. Additionally, the GA release introduces options for managing attachments and filtering nonrelevant documents, further optimizing the invoice capture process.
 

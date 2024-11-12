@@ -14,7 +14,7 @@ In today's rapidly evolving technological landscape, businesses are constantly s
 
 We based this article on [a TechTalk](https://youtu.be/OuEZ1rXkpYYr) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV055EXT-UnifiedDevelopmentExperience-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/OuEZ1rXkpYY":::
+:::image type="content" source="media/UnifiedDevelopmentExperience-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/OuEZ1rXkpYY":::
 
 > [!TIP]
 > This TechTalk targets X++ developers that have worked with Dynamics 365 Finance, Supply Chain Management, and related apps. It doesn't apply to Dynamics 365 Business Central developers.
@@ -31,7 +31,7 @@ One of the key goals of UDE is to simplify the development process by bringing t
 
 The following image is based on a slide from the presentation in the TechTalk and had the title *Reducing Developer Friction*. It shows a visual breakdown of tools and applications available for developers in customer engagement apps and finance and operations apps, excluding Dynamics 365 Business Central.  
 
-:::image type="content" source="media/DTV055EXTUnifiedDevelopmentExperience1.png" alt-text="Screenshot of a slide with a diagram with rows as described in the text after the image." lightbox="media/DTV055EXTUnifiedDevelopmentExperience1.png":::
+:::image type="content" source="media/UnifiedDevelopmentExperience1.png" alt-text="Screenshot of a slide with a diagram with rows as described in the text after the image." lightbox="media/UnifiedDevelopmentExperience1.png":::
 
 The slide is divided into four rows. The top row has the caption **Pro Developers** and shows icons for *Visual Studio*, *Power Platform CLI*, and *ALM Developer tools*. The second row has the caption  **Dynamics 365** and shows icons for the Sales, Customer Insights (then branded as Marketing), Customer Service, Supply Chain Management, and Finance apps. The third row has the caption **Power Platform** with icons for Power Apps, Power Automate, Copilot Studio (then represented by Power Virtual Agents), Power Pages, and Power BI. This third row has a subrow that is dedicated to Dataverse, which supports data management and integration across these platforms. The overall message from this part of the presentation is about unifying tools to simplify the developer experience across Dynamics 365 finance and operations apps and the customer engagement apps.
 
@@ -43,7 +43,7 @@ One of the most significant improvements brought by UDE is the increase in devel
 
 The following image is a screenshot of another slide from the presentation.
 
-:::image type="content" source="media/DTV055EXTUnifiedDevelopmentExperience2.png" alt-text="Screenshot of a slide with six blocks with text that is repeated in the text after the image." lightbox="media/DTV055EXTUnifiedDevelopmentExperience2.png":::
+:::image type="content" source="media/UnifiedDevelopmentExperience2.png" alt-text="Screenshot of a slide with six blocks with text that is repeated in the text after the image." lightbox="media/UnifiedDevelopmentExperience2.png":::
 
 This image is divided into six blocks in two rows, each highlighting a specific benefit of a unified development experience. The top row contains three blocks with the following text:
 

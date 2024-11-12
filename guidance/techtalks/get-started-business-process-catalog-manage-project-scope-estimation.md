@@ -14,11 +14,11 @@ Managing project scope and estimation in a Dynamics 365 implementation is essent
 
 We based the article on a TechTalk that you can find online in the Dynamics 365 channel on YouTube.
 
-:::image type="content" source="media/DTV028EXT-slide.svg" alt-text="Thumbnail of the presentation slide TechTalk Series: Use the business process catalog to manage project scope and estimation." link="https://youtu.be/kaTuaomje74?si=Pd2AQwsLi-lY55uR":::
+:::image type="content" source="media/bpc-manage-project-scope-slide.svg" alt-text="Thumbnail of the presentation slide TechTalk Series: Use the business process catalog to manage project scope and estimation." link="https://youtu.be/kaTuaomje74?si=Pd2AQwsLi-lY55uR":::
 
 The following image illustrates the different ways that you can use the business process catalog as part of managing the implementation project.
 
-:::image type="content" source="media/DTV028EXT-ways.svg" alt-text="A slide that lists how the catalog can accelerate sales as described after the image." lightbox="media/DTV028EXT-ways.svg":::
+:::image type="content" source="media/bpc-manage-project-scope-ways.svg" alt-text="A slide that lists how the catalog can accelerate sales as described after the image." lightbox="media/bpc-manage-project-scope-ways.svg":::
 
 As the illustration shows, you can use the business process catalog to accelerate sales. You can enhance the efforts in demos and presales. You can also  model processes by importing them into a business process modeling tool and then estimate efforts, define the scope, analyze fit and gaps, and create a project plan. Finally, you can  manage the project by importing data into a project management tool. This flow helps streamline and optimize different stages of business process management.  
 
@@ -28,7 +28,7 @@ In any Dynamics 365 implementation, aligning the estimation process with the bus
 
 The following image outlines the key steps to ensure business goals align with processes. It starts with understanding and clearly defining overarching business goals. Then you map these goals to specific business processes, and that helps ensure that each process directly aligns with the goals. The image emphasizes the importance of setting measurable objectives for each goal and discusses how alignment guarantees that every business process contributes to achieving the overarching business objectives.
 
-:::image type="content" source="media/DTV028EXT-align.svg" alt-text=" The image emphasizes the importance of setting measurable objectives for each goal and discusses how alignment guarantees that every business process contributes to achieving the overarching business objectives." lightbox="media/DTV028EXT-align.svg":::
+:::image type="content" source="media/bpc-manage-project-scope-align.svg" alt-text=" The image emphasizes the importance of setting measurable objectives for each goal and discusses how alignment guarantees that every business process contributes to achieving the overarching business objectives." lightbox="media/bpc-manage-project-scope-align.svg":::
 
 ## Benefits of accurate scope and estimation processes
 
@@ -54,7 +54,7 @@ The process of analyzing current business processes, often referred to as discov
 
 The following image highlights key risks to avoid when defining the scope of a project. We advise against simply replicating current processes without considering future needs. The image shows the danger of failing to reevaluate and optimize processes when you transition to a new system, and it emphasizes the importance of focusing on long-term success by seizing opportunities for process improvement. Lastly, it stresses the need to align processes with overarching business goals rather than being limited by the current system's constraints.
 
-:::image type="content" source="media/DTV028EXT-pitfalls.svg" alt-text="The image shows the pitfalls in scope definition as described before the image." lightbox="media/DTV028EXT-pitfalls.svg":::
+:::image type="content" source="media/bpc-manage-project-scope-pitfalls.svg" alt-text="The image shows the pitfalls in scope definition as described before the image." lightbox="media/bpc-manage-project-scope-pitfalls.svg":::
 
 ## Identify dependencies and interactions
 
@@ -72,7 +72,7 @@ Documenting the business scope is critical, whether using the catalog or not. Th
 
 When estimating the project scope, it's important to consider various factors, including workshops, work breakdown structures, integrations, data migrations, and potential gaps. Workshops should be clearly defined in collaboration with stakeholders, ensuring that the right people are involved at each stage of the project. The work breakdown structure provides a detailed list of tasks and configurations that need to be completed, helping to ensure that the project is manageable and achievable.
 
-:::image type="content" source="media/DTV028EXT-estimate.svg" alt-text="Illustrates the steps in estimating a project as described in text." lightbox="media/DTV028EXT-estimate.svg":::
+:::image type="content" source="media/bpc-manage-project-scope-estimate.svg" alt-text="Illustrates the steps in estimating a project as described in text." lightbox="media/bpc-manage-project-scope-estimate.svg":::
 
 ## Integrations, data migrations, and gap sizing
 
@@ -92,7 +92,7 @@ Using the business process catalog to manage project scope and estimation is a c
 
 The following image illustrates the recommended mapping between components of the business process catalog and Azure DevOps. It shows how end-to-end business processes correspond to area paths, business process areas to workshops, and business processes to epics. Additionally, patterns or scenarios in the catalog are mapped to user stories within Azure DevOps. This mapping helps align business process management with project management tasks in Azure DevOps for streamlined operations.
 
-:::image type="content" source="media/DTV028EXT-map.svg" alt-text="Illustrates the mapping between components in the catalog and work item types in Azure DevOps Services." lightbox="media/DTV028EXT-map.svg":::
+:::image type="content" source="media/bpc-manage-project-scope-map.svg" alt-text="Illustrates the mapping between components in the catalog and work item types in Azure DevOps Services." lightbox="media/bpc-manage-project-scope-map.svg":::
 
 ## Related information
 

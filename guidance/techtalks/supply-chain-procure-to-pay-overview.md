@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Procure to pay in Dynamics 365 Supply Chain Management 
 description: Summary of TechTalk video that talks about how Supply Chain Management supports the business processes that are part of the procure-to-pay end-to-end process.
-ms.date: 10/15/2024
+ms.date: 11/07/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -14,7 +14,7 @@ In today's fast-paced business environment, procurement plays a critical role in
 
 We based this article on [a TechTalk](https://youtu.be/BUN861PBA6Q) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV004-p2p-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/BUN861PBA6Q":::
+:::image type="content" source="media/scm-p2p-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/BUN861PBA6Q":::
 
 > [!TIP]
 > This TechTalk predates the TechTalk [Overview of the source to pay business process in Dynamics 365 Finance and Dynamics 365 Supply Chain Management](dynamics-365-finance-supply-chain-management-source-to-pay.md). For an all-up overview of the end-to-end business processes, go to the [Source to pay end-to-end overview](../business-processes/source-to-pay-overview.md) article in the business process documentation.
@@ -25,7 +25,7 @@ Procurement refers to the strategic process of obtaining goods, materials, or se
 
 The following image provides a flowchart illustrating the procure to pay business process areas. For a more current overview, go to [Source to pay end-to-end overview](../business-processes/source-to-pay-overview.md).
 
-:::image type="content" source="media/DTV004-p2p-processes.png" alt-text="Image of a flow chart that goes from managing vendor relationships, followed by developing a sourcing strategy, defining a procurement catalogue, setting procurement policies and procedures, procuring material and services, and then receiving those materials and services. The chart then details the payment processes: processing vendor invoices, issuing and settling vendor payments, managing vendor debits and chargebacks, creating and processing promissory notes, processing vendor rebates and incentives, and analyzing vendor performance. Each stage is represented by a simple icon and flows logically from start to finish to describe the procurement cycle comprehensively." lightbox="media/DTV004-p2p-related-processes.png":::
+:::image type="content" source="media/scm-p2p-processes.png" alt-text="Image of a flow chart that goes from managing vendor relationships, followed by developing a sourcing strategy, defining a procurement catalogue, setting procurement policies and procedures, procuring material and services, and then receiving those materials and services. The chart then details the payment processes: processing vendor invoices, issuing and settling vendor payments, managing vendor debits and chargebacks, creating and processing promissory notes, processing vendor rebates and incentives, and analyzing vendor performance. Each stage is represented by a simple icon and flows logically from start to finish to describe the procurement cycle comprehensively." lightbox="media/scm-p2p-related-processes.png":::
 
 **Procure to Pay (P2P)** is an essential process that documents this entire journey—from identifying the need to making the final payment. It's not just a single function but a collaboration between different departments, such as procurement, accounts payable, and operations. Each has a role in ensuring that purchases are appropriately sourced, approved, and paid for.
 
@@ -55,7 +55,7 @@ By automating these steps, Dynamics 365 allows businesses to minimize errors, en
 
 The following image illustrates how the procure to pay business process relates to other business processes. Learn more at [Source to pay end-to-end overview](../business-processes/source-to-pay-overview.md).  
 
-:::image type="content" source="media/DTV004-p2p-related-processes.png" alt-text="The image depicts a diagram illustrating the connection of the Procure to Pay process to other business processes within an organization. It shows various interconnected circles labeled with different processes." lightbox="media/DTV004-p2p-related-processes.png":::
+:::image type="content" source="media/scm-p2p-related-processes.png" alt-text="The image depicts a diagram illustrating the connection of the Procure to Pay process to other business processes within an organization. It shows various interconnected circles labeled with different processes." lightbox="media/scm-p2p-related-processes.png":::
 
 ### Managing vendor relationships
 

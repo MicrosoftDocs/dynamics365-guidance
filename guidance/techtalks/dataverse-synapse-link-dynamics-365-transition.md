@@ -14,7 +14,7 @@ In the ever-evolving world of data management, businesses increasingly rely on s
 
 We based this article on [a TechTalk](https://youtu.be/j-Ef0XwgsmE) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV020EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/j-Ef0XwgsmE":::
+:::image type="content" source="media\dataverse-synapse-link-dynamics-365-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/j-Ef0XwgsmE":::
 
 ## Understanding Synapse Link for Dataverse
 
@@ -36,11 +36,7 @@ Moreover, Synapse Link integrates seamlessly with Microsoft Fabric, enabling low
 
 The following image shows how Synapse Link for Dataverse enables organizations that use Dynamics 365 and Power Apps to integrate sales, customer service, field service, marketing, finance, and operations data into Azure Synapse. Once the initial seeding of data is completed, incremental updates will continually run to enable analytics on the most recent and relevant version of the data.
 
-:::image type="content" source="media/DTV020EXT-synapse-link-dataverse-dynamics365.svg" alt-text="Image based on a presentation slide." lightbox="media/DTV020EXT-synapse-link-dataverse-dynamics365.svg":::
-
-<!-- :::image type="content" source="media/DTV020EXT-dataverse.svg" alt-text="tekst" lightbox="media/DTV020EXT-dataverse.svg":::
-
-The image describes Dataverse as a low-code platform for building apps within the Dynamics 365 and Power Platform ecosystems. It highlights Dataverse's role in managing data and logic, supporting apps and services such as Dynamics 365, Power BI, Power Apps, and Power Automate. The image outlines different functionalities, including business logic, integration, data storage, and security. It also  showcases the platform's comprehensive capabilities for application development and data management. -->
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-overview.svg" alt-text="Image based on a presentation slide." lightbox="media/dataverse-synapse-link-dynamics-365-overview.svg":::
 
 ## Planning your transition
 
@@ -50,7 +46,7 @@ For those not yet live with Export to Azure Data Lake, adopting Synapse Link fro
 
 The following image presents an overview of Synapse Link for Dataverse. It emphasizes how you can export Dataverse data into Synapse for analytics with a single step. The integration includes continuous replication of both standard and custom tables to Azure Synapse Analytics and is now compatible with Dynamics 365 finance and operations apps.
 
-:::image type="content" source="media/DTV020EXT-dataverse-synapse-link.svg" alt-text="Screenshot of slide with Dataverse connected with Synapse for enhanced analytics." lightbox="media/DTV020EXT-dataverse-synapse-link.svg":::
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-dataverse-synapse-link.svg" alt-text="Screenshot of slide with Dataverse connected with Synapse for enhanced analytics." lightbox="media/dataverse-synapse-link-dynamics-365-dataverse-synapse-link.svg":::
 
 ## Conclusion
 

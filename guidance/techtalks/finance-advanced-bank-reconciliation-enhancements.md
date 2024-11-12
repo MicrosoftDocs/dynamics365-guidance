@@ -14,7 +14,7 @@ In today's fast-paced financial world, businesses need reliable, efficient tools
 
 We based this article on [a TechTalk](https://youtu.be/gBdnfxUNcOw) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV039EXT-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/0VFeRi_S8r0":::
+:::image type="content" source="media/finance-adv-bank-rec-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/0VFeRi_S8r0":::
 
 ## Overview of advanced bank reconciliation
 
@@ -31,7 +31,7 @@ Each stage comes with specific tools and enhancements that allow users to handle
 
 The following image provides an overview of the advanced bank reconciliation process in Dynamics 365 Finance. It describes the end to end workflow for reconciling bank statements with company records.
 
-:::image type="content" source="media/DTV039EXT-adv-bank-rec-overview.png" alt-text="A screenshot of a slide form the presentation that we explain after the image." lightbox="media/DTV039EXT-adv-bank-rec-overview.png":::
+:::image type="content" source="media/finance-adv-bank-rec-overview.png" alt-text="A screenshot of a slide form the presentation that we explain after the image." lightbox="media/finance-adv-bank-rec-overview.png":::
 
 The image visualizes the advanced bank reconciliation process in four main steps:  
 
@@ -63,7 +63,7 @@ Once bank statements are imported, the system runs an automatic matching engine 
 
 The following image details three main activities within the automatic bank reconciliation feature of Dynamics 365 Finance. The first panel, **Match with company transactions**, lists the capabilities of matching individual or multiple bank statement lines with company transactions. The second panel, **Post new entries**, describes how to generate different types of journals and manage customer invoices. The third panel, **Clear errors**, explains procedures for clearing reversal transactions in company accounts and bank statements.
 
-:::image type="content" source="media/DTV039EXT-adv-bank-rec-auto-match.png" alt-text="The image shows three boxes with bulleted text for the automatic bank reconciliation feature of Dynamics 365 Finance." lightbox="media/DTV039EXT-adv-bank-rec-auto-match.png":::
+:::image type="content" source="media/finance-adv-bank-rec-auto-match.png" alt-text="The image shows three boxes with bulleted text for the automatic bank reconciliation feature of Dynamics 365 Finance." lightbox="media/finance-adv-bank-rec-auto-match.png":::
 
 The following list contains the text that's show in the image for better accessibility.  
 
@@ -97,7 +97,7 @@ Despite the robust automatic matching capabilities, there are scenarios where ma
 
 The following image outlines four key areas of matching:  
 
-:::image type="content" source="media/DTV039EXT-adv-bank-rec-manual-match.png" alt-text="Screenshot of slide with four boxes, each with a bulleted list and a screenshot of Dynamics 365 Finance." lightbox="media/DTV039EXT-adv-bank-rec-manual-match.png":::
+:::image type="content" source="media/finance-adv-bank-rec-manual-match.png" alt-text="Screenshot of slide with four boxes, each with a bulleted list and a screenshot of Dynamics 365 Finance." lightbox="media/finance-adv-bank-rec-manual-match.png":::
 
 The following list contains the text that's show in the image for better accessibility.  
 

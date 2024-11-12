@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Cloud data warehousing with Dynamics 365 data
 description: Summary of TechTalk video that talks about cloud data warehousing and integration of Dynamics 365 data with Azure Synapse Link for Dataverse.
-ms.date: 10/01/2024
+ms.date: 11/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -10,11 +10,11 @@ ai-usage: ai-assisted
 
 # TechTalk: Cloud data warehousing for Dynamics 365 data with Azure Synapse Link for Dataverse
 
-In the rapidly evolving world of cloud data warehousing, Azure Synapse Link for Dataverse emerged as a powerful tool for businesses seeking seamless integration and incremental data ingestion. This article delves into the key aspects of transitioning from traditional data export methods to using Synapse Link, a platform designed to enhance cloud data warehousing by simplifying data handling and improving performance.
+In the rapidly evolving world of cloud data warehousing, Azure Synapse Link for Dataverse emerged as a powerful tool for businesses seeking seamless integration and incremental data ingestion. This article delves into the key aspects the transition to Synapse Link from traditional data export methods. Azure Synapse Link for Dataverse enables you to get near real-time insights over your data in Microsoft Dataverse.  
 
 We based this article on [a TechTalk](https://youtu.be/tsgj1wDb7-k) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV022EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/tsgj1wDb7-k":::
+:::image type="content" source="media\dataverse-synapse-link-dynamics-365-data-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/tsgj1wDb7-k":::
 
 ## Understanding the transition to Synapse Link
 
@@ -24,7 +24,7 @@ The transition from Export to Data Lake to Synapse Link is a key step in the uni
 
 The following image is based on a slide for Synapse Link for Dataverse to integrate all Dynamics 365 data for analytics. On the left in the image, the Dataverse logo represents the data source. An arrow points to a container symbolizing Synapse Link  which integrates data from Dataverse. In the middle, the Synapse Analytics logo emphasizes the role of Synapse in processing and managing data. To the right, the Power BI logo highlights its role in visualizing and storytelling with the integrated data. The text below the image describes this as an evolution and unification across Dynamics products for analytics.
 
-:::image type="content" source="media/DTV022EXT-dynamics365-data-analytics.svg" alt-text="Diagram with explanation after the image." lightbox="media/DTV022EXT-dynamics365-data-analytics.svg":::
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-data-analytics.svg" alt-text="Diagram with explanation after the image." lightbox="media/dataverse-synapse-link-dynamics-365-data-analytics.svg":::
 
 The benefits of upgrading to Synapse Link include reduced complexity, cost reduction, and enhanced capabilities for data innovation. With the general availability of Microsoft Fabric, combining Synapse Analytics, Power BI, and other services into a single cloud offering, businesses stand to gain from more streamlined data operations and advanced reporting capabilities.
 
@@ -32,7 +32,7 @@ The benefits of upgrading to Synapse Link include reduced complexity, cost reduc
 
 One of the critical differences between the older data export methods and Synapse Link is the way incremental data is handled. Traditional methods required manual setup of pipelines for data ingestion, which could be complex and resource-intensive. Synapse Link, however, automates much of this process, allowing users to focus more on building efficient pipelines rather than managing intricate schema definitions.
 
-The integration of Synapse Link also removes the need for the CDM utility, which was previously necessary to define database schema within Synapse. This way, businesses spend less time on setup and more time on data analysis and integration.
+The integration of Synapse Link also removes the need for the utilities that you used before to define database schema within Synapse. This way, businesses spend less time on setup and more time on data analysis and integration.
 
 ## Incremental data ingestion
 
@@ -44,11 +44,11 @@ In Synapse Link, the data is automatically ingested into folders within a storag
 
 Synapse Link for Dataverse supports various cloud data warehousing options, including Azure SQL Database and Synapse Dedicated Pool, allowing businesses to choose the architecture that best suits their needs. Whether a business operates primarily in the cloud or has an on-premises data warehouse, Synapse Link provides a robust solution for integrating and managing data across different platforms.
 
-The following image is based on a slide for option four of exporting Dynamics 365 data to Synapse Link or a data lake with AzureSQL, SQL Server, Synapse data warehouse, or a non-Microsoft system.
+The following image is based on a slide for option four of exporting Dynamics 365 data through Synapse Link to data lakes.
 
-:::image type="content" source="media/DTV022EXT-data-export-sql.svg" alt-text="Diagram with explanation immediately after the image." lightbox="media/DTV022EXT-data-export-sql.svg":::
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-data-export-sql.svg" alt-text="Diagram with explanation immediately after the image." lightbox="media/dataverse-synapse-link-dynamics-365-data-export-sql.svg":::
 
-This image illustrates the integration of data from Dataverse and Dynamics 365 finance and operations apps into Synapse using Synapse Link. On the left, Dataverse and Dynamics 365 feed entities and tables into Synapse Link. This data is processed through Synapse Serverless and Pipelines into an Azure Data Lake, where the data is stored as CSV and metadata in JSON format. From there, the data flows into Azure SQL, SQL Managed Instance, or SQL Server for further use, including integration with Power BI for data visualization. Another path shows how the data from Dataverse and Dynamics 365.
+This image illustrates the integration of data from Dataverse and Dynamics 365 finance and operations apps into Synapse using Synapse Link. On the left, Dataverse and Dynamics 365 feed entities and tables into Synapse Link. This data is processed through Synapse Serverless and Pipelines into an Azure Data Lake, where the data is stored as CSV and metadata in JSON format. From there, the data flows into Azure SQL, SQL Managed Instance, or SQL Server for further use, including integration with Power BI for data visualization. 
 
 With the flexibility to integrate with external applications via T-SQL, Synapse Link simplifies the process of moving data between systems. This way, businesses can maintain their existing pipelines while benefiting from the improvements brought by Synapse Link.
 
@@ -80,7 +80,7 @@ Microsoft Fabric represents the next step in cloud data warehousing and analytic
 
 ## Conclusion
 
-The shift to Synapse Link for Dataverse is a crucial evolution in cloud data warehousing, offering businesses a more streamlined, efficient, and cost-effective way to manage and integrate their data. With features like incremental data ingestion, data virtualization, and integration with Microsoft Fabric, Synapse Link simplifies the transition to the cloud while maintaining compatibility with existing data pipelines.
+The shift to Synapse Link for Dataverse is a crucial evolution in cloud data warehousing. Businesses now have a more streamlined, efficient, and cost-effective way to manage and integrate their data. Synapse Link has features such as incremental data ingestion, data virtualization, and integration with Microsoft Fabric. With these features, Synapse Link simplifies the transition to the cloud while maintaining compatibility with existing data pipelines.
 
 For businesses looking to stay ahead in the world of cloud data warehousing, transitioning to Synapse Link is not just an option—it's a necessity. As more enterprises move their data operations to the cloud, the benefits of Synapse Link become even more apparent, driving innovation and efficiency across industries.
 
@@ -89,21 +89,12 @@ For businesses looking to stay ahead in the world of cloud data warehousing, tra
 You can use the following resources to learn more about Dynamics 365.
 
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
-
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)
-
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)
-
 - [Synapse Link documentation](/powerapps/maker/data-platform/export-to-data-lake)  
-
 - [Create an Azure Synapse Link for Dataverse with your Azure Synapse Workspace - Power Apps](/power-apps/maker/data-platform/azure-synapse-link-synapse)
-
 - [Export Microsoft Dataverse data in Delta Lake format - Power Apps](/power-apps/maker/data-platform/azure-synapse-link-delta-lake)
-
 - [Choose finance and operations data in Azure Synapse Link for Dataverse - Power Apps](/power-apps/maker/data-platform/azure-synapse-link-select-fno-data)
-
 - [Use managed identities for Azure with your Azure data lake storage - Power Apps](/power-apps/maker/data-platform/azure-synapse-link-msi)
-
 - [Link your Dataverse environment to Microsoft Fabric and unlock deep insights - Power Apps](/power-apps/maker/data-platform/azure-synapse-link-view-in-fabric)
-
 - [Microsoft Fabric documentation](/fabric/)
