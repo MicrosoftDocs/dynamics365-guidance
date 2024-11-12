@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Introduction to process governance
 description: Summary of TechTalk video that talks about how you can implement process governance in a Dynamics 365 implementation project.
-ms.date: 09/23/2024
+ms.date: 11/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -10,15 +10,15 @@ ai-usage: ai-assisted
 
 # TechTalk: Introduction to process governance
 
-Process governance is a crucial aspect of business operations, ensuring that organizational processes are designed, executed, and monitored effectively. In this segment of our series on the Business Process Catalogue, we delve into the principles and practices of process governance, a framework that is vital for organizations, especially when implementing technology solutions like Dynamics 365.
+Process governance is a crucial aspect of business operations, ensuring that organizational processes are designed, executed, and monitored effectively. In this segment of the series about the business process catalog, we delve into the principles and practices of process governance. We give you a framework that can be vital for organizations, especially when they implement technology solutions like Dynamics 365.  
 
 We based this article on [a TechTalk](https://youtu.be/gfOD5Jj2xAM) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV044EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/gfOD5Jj2xAM":::
+:::image type="content" source="media\process-governance-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/gfOD5Jj2xAM":::
 
 The following image is a screenshot of the business process management (BPM) framework that the TechTalk presents. It emphasizes that BPM is about aligning business processes with the strategy to drive business results and create customer value. And it integrates aspects such as definition  management and improvement of processes.  
 
-:::image type="content" source="media/DTV044EXT-bpm.svg" alt-text="The image presents the BPM framework with the stages Discover, Assess, Model, Analyze, Design, and Manage." lightbox="media/DTV044EXT-bpm.svg":::
+:::image type="content" source="media/process-governance-bpm.svg" alt-text="The image presents the BPM framework with the stages Discover, Assess, Model, Analyze, Design, and Manage." lightbox="media/process-governance-bpm.svg":::
 
 ## Understanding process governance
 
@@ -30,13 +30,13 @@ Process governance involves establishing policies, procedures, and controls to e
 
 3. **Controls** are mechanisms that help organizations monitor, evaluate, and enforce compliance with these policies and procedures.
 
-This framework is particularly important in technology implementations, where the impact on an organization can be significant. By standardizing processes and eliminating redundancies, process governance helps streamline operations, improve productivity, and ensure compliance with regulatory requirements.
+This framework is important in technology implementations, where the impact on an organization can be significant. By standardizing processes and eliminating redundancies, process governance helps streamline operations, improve productivity, and ensure compliance with regulatory requirements.
 
 ### Establish a framework for process governance
 
-Setting up a process governance framework involves several critical steps, starting with understanding the organization's current state and defining a roadmap for improvement. The Business Process Management (BPM) framework offers a methodology for defining, managing, and improving a company's end-to-end business processes, which is an essential part of establishing a process governance framework.
+Setting up a process governance framework involves several critical steps, starting with understanding the organization's current state and defining a roadmap for improvement. The Business Process Management (BPM) framework offers a methodology for defining, managing, and improving a company's end-to-end business processes. It's an essential part of establishing a process governance framework to have clearly defined end-to-end business processes.
 
-:::image type="content" source="media/DTV044EXT-process.svg" alt-text="Screenshot of a slide that we describe after the image." lightbox="media/DTV044EXT-process.svg":::
+:::image type="content" source="media/process-governance-process.svg" alt-text="Screenshot of a slide that we describe after the image." lightbox="media/process-governance-process.svg":::
 
 The image outlines a five step process to implement process governance:
 
@@ -62,7 +62,7 @@ The BPM framework typically includes six stages: **Discover**, **Assess**, **Mod
 
 4. **Analyze phase**  
 
-    During analysis, organizations identify issues and opportunities for improvement, focusing on areas like outdated policies, ineffective controls, workflow barriers, and low customer satisfaction.
+    During analysis, organizations identify issues and opportunities for improvement. They can focus on areas such as outdated policies, ineffective controls, workflow barriers, and low customer satisfaction.
 
 5. **Design phase**  
 
@@ -98,7 +98,7 @@ Implementing a process governance framework requires careful planning and execut
 
 The following image illustrates a maturity model:
 
-:::image type="content" source="media/DTV044EXT-sample.svg" alt-text="Example of a maturity model with five stages that we explain after the image. " lightbox="media/DTV044EXT-sample.svg":::
+:::image type="content" source="media/process-governance-sample.svg" alt-text="Example of a maturity model with five stages that we explain after the image. " lightbox="media/process-governance-sample.svg":::
 
 The sample model has five stages:
 

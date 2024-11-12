@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Service, support, and maintain Dynamics 365 apps 
 description: Summary of TechTalk video that talks about how to manage and maintain the Dynamics 365 apps in your business solution.
-ms.date: 10/18/2024
+ms.date: 11/07/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -14,7 +14,7 @@ The management of the Dynamics 365 apps that are part of a business solution is 
 
 We based this article on [a TechTalk](https://youtu.be/VBvdj7yd_7c) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTT029EXT2-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/VBvdj7yd_7c":::
+:::image type="content" source="media/service-support-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/VBvdj7yd_7c":::
 
 > [!TIP]
 > The TechTalk session was about finance and operations apps, but this article reflects that the general guidance applies to all solutions with Dynamics 365 apps.
@@ -25,7 +25,7 @@ Servicing Dynamics 365 involves ensuring that the infrastructure, platform, and 
 
 The following image outlines the service activity responsibilities within a business solution. It has several segments managed by Microsoft and its implementation partners.
 
-:::image type="content" source="media/DTT029EXT2-responsibilities.svg" alt-text="Screenshot of a slide with a picture of a circular diagram that is divided into three main segments of ownership that are explained after the image." lightbox="media/DTT029EXT2-responsibilities.svg":::
+:::image type="content" source="media/service-support-responsibilities.svg" alt-text="Screenshot of a slide with a picture of a circular diagram that is divided into three main segments of ownership that are explained after the image." lightbox="media/service-support-responsibilities.svg":::
 
 Microsoft is responsible for the infrastructure and the application platform with the standard capabilities. Microsoft's customer, meaning the organization that owns the solution, and their implementation partner must manage business processes, including and test thoroughly before deploying new updates. This shared responsibility ensures that both sides can work together to keep systems healthy.
 
@@ -53,7 +53,7 @@ It's equally important to ensure regular data maintenance. Microsoft provides bu
 
 The following image shows a flowchart depicting the process of adjusting Application Lifecycle Management (ALM)  for emergency patching.
 
-:::image type="content" source="media/DTT029EXT2-adjust-alm.svg" alt-text="Screenshot of a slide with a flowchart depicting the process of adjusting Application Lifecycle Management A L M for emergency situations." lightbox="media/DTT029EXT2-adjust-alm.svg":::
+:::image type="content" source="media/service-support-adjust-alm.svg" alt-text="Screenshot of a slide with a flowchart depicting the process of adjusting Application Lifecycle Management A L M for emergency situations." lightbox="media/service-support-adjust-alm.svg":::
 
 As more Dynamics 365 apps run on Dataverse, it's essential to use tools such as the Power Platform admin center to monitor telemetry, especially for environments with dual-write enabled. The use of telemetry helps a smooth flow of data between finance and operations apps and Power Platform, minimizing any disruptions in functionality.
 

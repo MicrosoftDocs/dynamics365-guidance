@@ -3,7 +3,7 @@ title: Self-service learning opportunities and resources
 description: Learning resources for implementers include TechTalks, community forums, and free learning paths on Microsoft Learn.
 ms.author: jedinh
 author: renwe
-ms.date: 10/06/2023
+ms.date: 11/08/2024
 ms.topic: article
 
 ms.reviewer: edupont
@@ -37,7 +37,7 @@ The following table lists some of the learning paths that can help you drive suc
 > | Learning path     | Description      |
 > |  ---    | ---      |
 > |  [Use Success by Design for Dynamics 365 solutions](/training/paths/use-success-design/?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.use-success-design) | FastTrack for Dynamics 365 is designed to help customers and partners achieve a successful deployment of Dynamics 365 solutions. To deliver this service, solution architects should use Success by Design. This learning path discusses Success by Design concepts. |
-> |  [Architect solutions for Dynamics 365 and Microsoft Power Platform](/training/paths/become-solution-architect/)    |   A Solution Architect is responsible for the successful design, implementation, deployment, and adoption of an overall solution. A Solution Architect ensures that the solution meets the customer’s needs now and in the future.|
+> |  [Architect solutions for Dynamics 365 and Microsoft Power Platform](/training/paths/become-solution-architect/)    |   A Solution Architect is responsible for the successful design, implementation, deployment, and adoption of an overall solution. A Solution Architect ensures that the solution meets the customer's needs now and in the future.|
 > | [Dynamics 365 solution architecture best practices](/training/paths/dynamics-365-solution-architecture-best-practices/)     |  This learning path helps customer/partner solution architects to adopt the best practices and avoid common pitfalls during the implementation.  |
 > |[Implement finance and operations apps](/training/paths/implement-finance-operations/)|Learn the most important elements and the best practices to implement finance and operations apps successfully. From the first step where you are planning and designing your project methodology, the use of FastTrack services, the development strategy, data management and more, to the best ways for maintaining and monitoring your operations after Go-live.|  
 
@@ -45,9 +45,11 @@ Find a full list of Dynamics 365 learning paths at [Microsoft Learn training for
 
 ## TechTalks
 
-TechTalks focus on empowering customers and partners by providing technical depth and best practices that are specific to the subject areas covered. These talks often provide an overview of available tooling and features. TechTalks are delivered in the form of live webcasts that include a question and answer (Q&A) session at the end. They can also be accessed on-demand and are publicly available. To view all TechTalks and sign up for future talks, see [Microsoft Dynamics 365 FastTrack Tech Talks](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a).
+TechTalks focus on empowering customers and partners by providing technical depth and best practices that are specific to the subject areas covered. These talks often provide an overview of available tooling and features. TechTalks are delivered in the form of live webcasts that include a question and answer (Q&A) session at the end. They can also be accessed on-demand and are publicly available.  
 
-TechTalks provide a basic understanding that will increase the value and efficiency of the workshops that are offered. The FastTrack team will guide you to relevant TechTalks that will help you prepare for specific workshops. For a complete inventory of all recorded TechTalks that are available to stream or download, see [FastTrack TechTalks](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a).
+TechTalks provide a basic understanding that will increase the value and efficiency of the workshops that are offered. The FastTrack team will guide you to relevant TechTalks that will help you prepare for specific workshops.  
+
+Learn more at [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md).  
 
 <!--* [Dynamics 365 Customer Service, Field Service, Marketing and Sales TechTalks](https://community.dynamics.com/365/b/techtalks?tagsToFilter=Customer%20Engagement)
 * [Dynamics 365 Commerce, Finance, Project Operations, and Supply Chain Management TechTalks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations)-->

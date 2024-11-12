@@ -10,15 +10,15 @@ ai-usage: ai-assisted
 
 # TechTalk: Architecture patterns for virtual data warehousing with Dynamics 365 data in Azure Synapse Link
 
-As organizations continue to evolve their data strategies, the integration of Dynamics 365 with Azure Synapse Link for Dataverse is becoming increasingly significant. This integration offers a powerful way to manage and analyze data, providing seamless transitions from traditional methods like Export to Data Lake to the more sophisticated Synapse Link. In this discussion, we delve into the architecture patterns and the concept of virtual data warehousing within this context. This TechTalk offers insights into how businesses can use these technologies for enhanced data management and cost efficiency.
+As organizations continue to evolve their data strategies, the integration of Dynamics 365 with Azure Synapse Link for Dataverse is becoming increasingly significant. This integration offers a powerful way to manage and analyze data, providing seamless transitions from traditional methods like *Export to Data Lake* to the more sophisticated Synapse Link. In this discussion, we delve into the architecture patterns and the concept of virtual data warehousing within this context. This TechTalk offers insights into how businesses can use these technologies for enhanced data management and cost efficiency.
 
 We based this article on [a TechTalk](https://youtu.be/sLjww7Q--7Q) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV020EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/sLjww7Q--7Q":::
+:::image type="content" source="media\dataverse-synapse-link-dynamics-365-arch-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/sLjww7Q--7Q":::
 
 The following image provides an overview of common analytics architecture patterns, Virtual Data Warehousing, Lakehouse, Cloud Data Warehousing, and Integration using TransactSQL. Each pattern is briefly described  focusing on how data is read  transformed and ingested within different warehousing solutions.
 
-:::image type="content" source="media/DTV021EXT-analytics-architecture-patterns.svg" alt-text="overview of common analytics architecture patterns  which include Virtual Data Warehousing, Lakehouse, Cloud Data Warehousing, and Integration using T SQL." lightbox="media/DTV021EXT-analytics-architecture-patterns.svg":::
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-arch-analytics-architecture-patterns.svg" alt-text="overview of common analytics architecture patterns  which include Virtual Data Warehousing, Lakehouse, Cloud Data Warehousing, and Integration using T SQL." lightbox="media/dataverse-synapse-link-dynamics-365-arch-analytics-architecture-patterns.svg":::
 
 ## The evolution from Export to Data Lake to Synapse Link
 
@@ -34,7 +34,7 @@ In this TechTalk, we show two architecture patterns for virtual data warehousing
 
 First the new pattern. The following image shows an example of virtual data warehousing with Synapse Link with Synapse Spark and Synapse Serverless.
 
-:::image type="content" source="media/DTV021EXT-synapse-link.svg" alt-text="tekst" lightbox="media/DTV021EXT-synapse-link.svg":::
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-arch-synapse-link.svg" alt-text="tekst" lightbox="media/dataverse-synapse-link-dynamics-365-arch-synapse-link.svg":::
 
 This image illustrates the new pattern for virtual data warehousing. The pattern uses Synapse Link for direct integration for Dynamics 365 finance and operations apps. The data flows into Synapse Serverless and can be imported into Power BI. The new pattern simplifies the process by eliminating the data lake intermediary.
 
@@ -42,7 +42,7 @@ In the current architecture, data is exported to the Data Lake in Delta format v
 
 The following image shows the older architecture for virtual data warehousing with Synapse Link and Export to data lake with Synapse Serverless.
 
-:::image type="content" source="media/DTV021EXT-synapse-data-lake.svg" alt-text="Diagram with two separate data flows that are described after the image." lightbox="media/DTV021EXT-synapse-data-lake.svg":::
+:::image type="content" source="media/dataverse-synapse-link-dynamics-365-arch-synapse-data-lake.svg" alt-text="Diagram with two separate data flows that are described after the image." lightbox="media/dataverse-synapse-link-dynamics-365-arch-synapse-data-lake.svg":::
 
 This image describes a virtual data warehousing pattern using Synapse Link with Synapse Spark and Serverless  It shows data flowing from Dataverse through Synapse Link. Another flow uses Export to data lake from Dynamics 365 finance and operations apps. Both data flows land in Synapse where Delta/Parquet storage is used with Synapse Spark and Serverless SQL. The data model is then made available for import into Power BI for analysis.
 

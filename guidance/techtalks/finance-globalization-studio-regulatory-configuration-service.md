@@ -14,7 +14,7 @@ The evolution of enterprise software often involves significant shifts in how se
 
 We based this article on [a TechTalk](https://youtu.be/g7krfDHH_x8) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV042EXT-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/g7krfDHH_x8":::
+:::image type="content" source="media/finance-globalization-studio-rcs-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/g7krfDHH_x8":::
 
 ## The purpose of RCS and its integration
 
@@ -24,7 +24,7 @@ The primary goal of merging RCS into the Globalization Studio workspace is to si
 
 The following image compares the experiences with Regulatory Configuration Service and Dynamics 365 Finance, respectively, regarding electronic invoicing.
 
-:::image type="content" source="media/DTV042EXT-changes-electronic-invoicing.png" alt-text="Image with a flowchart layout with two main columns labeled RCS and Dynamics 365. Each column lists related components such as service environments, users, number sequences, Key Vault parameters, and globalization features for RCS, and electronic documents, features, electronic invoicing, and integration channels for Dynamics 365." lightbox="media/DTV042EXT-changes-electronic-invoicing.png":::
+:::image type="content" source="media/finance-globalization-studio-rcs-changes-electronic-invoicing.png" alt-text="Image with a flowchart layout with two main columns labeled RCS and Dynamics 365. Each column lists related components such as service environments, users, number sequences, Key Vault parameters, and globalization features for RCS, and electronic documents, features, electronic invoicing, and integration channels for Dynamics 365." lightbox="media/finance-globalization-studio-rcs-changes-electronic-invoicing.png":::
 
 ## Key changes
 

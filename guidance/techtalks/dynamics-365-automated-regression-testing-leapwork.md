@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Dynamics 365 automated regression testing with Leapwork
 description: Summary of TechTalk video that talks about how to use Leapwork for automated regression testing in solutions with Dynamics 365 apps and services.
-ms.date: 10/09/2024
+ms.date: 11/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -14,13 +14,13 @@ As businesses continue to accelerate their digital transformation, regression te
 
 We based this article on [a TechTalk](https://youtu.be/Mmhf9nNP2Jc?si=1qYT-LB5zS-m4-33) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV006EXT2-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/Mmhf9nNP2Jc":::
+:::image type="content" source="media/automate-regression-testing-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/Mmhf9nNP2Jc":::
 
 ## The importance of regression testing in Dynamics 365
 
 Regression testing is crucial for ensuring that software performs as expected after changes such as new features, bug fixes, or system updates are implemented. Regression testing is especially important in Dynamics 365, where businesses rely on the platform for their daily operations. Regression testing helps to identify new bugs, preserve current functionality, and maintain overall system quality. It offers users the confidence that their solution remains stable, reliable, and user-friendly across various environments.
 
-With Microsoft's *One Version* strategy, which brings environments to the latest available versions of Dynamics 365, automated regression testing is even more critical. One Version allows for predictable updates, continuous deployment of new features, and backward compatibility. However, with these frequent updates comes the risk of disrupting existing workflows. Automated regression testing helps mitigate these risks by catching potential issues early, ensuring the integrity of the system is maintained.
+With Microsoft's *One Version* strategy, which brings environments to the latest available versions of Dynamics 365, automated regression testing is even more critical. One Version allows for predictable updates, continuous deployment of new features, and backward compatibility. However, the frequent updates also risk disrupting existing workflows. Automated regression testing helps mitigate these risks by catching potential issues early, ensuring the integrity of the system is maintained.
 
 ## Automation is the key to efficient regression testing
 
@@ -28,7 +28,7 @@ While manual regression testing remains effective, it can be time-consuming and 
 
 The following image displays an infographic emphasizing the importance of automation in testing within Microsoft environments.
 
-:::image type="content" source="media/DTV006EXT2-why-automation.svg" alt-text="Screenshot of a slide with a circle of icons for Dynamics 365 apps on the left. On the right, text boxes outline the benefits of automated testing, highlighting faster release cycles  increased testing coverage, cost efficiency, and early detection of bugs." lightbox="media/DTV006EXT2-why-automation.svg":::
+:::image type="content" source="media/automate-regression-testing-why-automation.svg" alt-text="Screenshot of a slide with a circle of icons for Dynamics 365 apps on the left. On the right, text boxes outline the benefits of automated testing, highlighting faster release cycles  increased testing coverage, cost efficiency, and early detection of bugs." lightbox="media/automate-regression-testing-why-automation.svg":::
 
 Automated regression testing facilitates faster and more reliable product updates and enhancements. As a result, you optimize the operational efficiency and reduce errors.  
 
@@ -40,9 +40,9 @@ Leapwork is a low-code/no-code automation tool that simplifies the process of cr
 
 The following image illustrates support for automated testing across a wide range of software platforms that might be part of a business solution.  
 
-:::image type="content" source="media/DTV006EXT2-platforms.svg" alt-text="Screenshot of a slide with a flowchart that shows steps such as starting Dynamics 365, extracting sales orders, creating and validating orders. Icons for each platform enhance understanding of which software systems can be integrated and tested using automated tools." lightbox="media/DTV006EXT2-platforms.svg":::
+:::image type="content" source="media/automate-regression-testing-platforms.svg" alt-text="Screenshot of a slide with a flowchart that shows steps such as starting Dynamics 365, extracting sales orders, creating and validating orders. Icons for each platform enhance understanding of which software systems can be integrated and tested using automated tools." lightbox="media/automate-regression-testing-platforms.svg":::
 
-One of Leapwork's standout features is its ability to support a wide range of platforms, not just limited to Dynamics 365 but also covering other Microsoft products and non-Microsoft applications. This flexibility makes it an ideal choice for businesses that operate across various systems and need a comprehensive regression testing solution.
+One of Leapwork's standout features is its ability to support a wide range of platforms, including Dynamics 365 and other Microsoft products, as well as non-Microsoft applications. This flexibility makes it an ideal choice for businesses that operate across various systems and need a comprehensive regression testing solution.
 
 ## Architecture and integration
 
@@ -74,7 +74,7 @@ Leapwork also offers scalability through its ability to run tests in parallel ac
 
 Automated regression testing is a vital component of any modern Dynamics 365 implementation, and Leapwork provides a comprehensive solution to meet the needs of businesses with complex systems and frequent updates. Its ease of use, broad platform support, and integration capabilities make it an ideal choice for companies looking to improve their testing processes and reduce the time spent on manual testing.
 
-For businesses aiming to accelerate their release cycles and ensure the stability of their Dynamics 365 systems, Leapwork offers a powerful and flexible tool that can integrate seamlessly into existing workflows. To learn more about Leapwork and its capabilities, visit their official documentation and explore how it can transform your approach to automated testing.
+For a business that aims to accelerate their release cycles and ensure the stability of their Dynamics 365 solution, Leapwork is a powerful and flexible tool that can integrate with existing workflows. To learn more about Leapwork and its capabilities, visit their official documentation and explore how it can transform your approach to automated testing.
 
 For further guidance on testing strategies and implementing Dynamics 365 successfully, Microsoft's FastTrack Implementation Guide offers comprehensive best practices.
 

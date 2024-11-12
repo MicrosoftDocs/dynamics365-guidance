@@ -14,7 +14,7 @@ The landscape of project management and accounting evolved dramatically with the
 
 We based this article on [a TechTalk](https://youtu.be/OoHaQ-v23Ks) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV007EXT-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/OoHaQ-v23Ks":::
+:::image type="content" source="media/finance-subscription-billing-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/OoHaQ-v23Ks":::
 
 ## Introduction to subscription billing
 
@@ -40,7 +40,7 @@ Let's consider a typical scenario where subscription billing is applied within a
 
 The following image is a screenshot from Dynamics 365 Finance and shows the setup of project groups for handling deferred cost and revenue.
 
-:::image type="content" source="media/DTV007-set-up-posting-project-groups.png" alt-text="Image shows a page in Dynamics 365 Finance with a list of project groups and the project group T M Defer selected with options for posting costs and revenue  highlighted." lightbox="media/DTV007-set-up-posting-project-groups.png":::
+:::image type="content" source="media/finance-subscription-billing-set-up-posting-project-groups.png" alt-text="Image shows a page in Dynamics 365 Finance with a list of project groups and the project group T M Defer selected with options for posting costs and revenue  highlighted." lightbox="media/finance-subscription-billing-set-up-posting-project-groups.png":::
 
 This setup is intended for project management and accounting configurations in Dynamics 365. The process involves creating a billing schedule, specifying the billing frequency (in this case, quarterly), and generating invoices automatically at the start of each quarter. Once the billing schedule is in place, businesses can use the invoice generation tool to post invoices automatically. This process links the invoice to the project, ensuring accurate tracking of billing and project progress.
 
@@ -54,7 +54,7 @@ Subscription billing in Dynamics 365 offers various features that enhance projec
 
 The following image is a screenshot from Dynamics 365 Finance with the *project billing schedule* interface. Highlighted in red are the actions for adding a new subscription billing to the selected project, and to navigate to all registered subscription billing projects.  
 
-:::image type="content" source="media/DTV007-set-up-project-billing schedule.png" alt-text="Image shows a page in Dynamics 365 Finance with a list of projects. In the ribbon at the top of the page, two actions are highlighted with red boxes and the text Subscription billing." lightbox="media/DTV007-set-up-project-billing schedule.png":::
+:::image type="content" source="media/finance-subscription-billing-set-up-project-billing schedule.png" alt-text="Image shows a page in Dynamics 365 Finance with a list of projects. In the ribbon at the top of the page, two actions are highlighted with red boxes and the text Subscription billing." lightbox="media/finance-subscription-billing-set-up-project-billing schedule.png":::
 
 Businesses can also benefit from automated invoicing, where sales orders linked to projects are invoiced automatically, reducing manual intervention and errors. The module also integrates seamlessly with existing project management tools, ensuring that both project and financial teams have access to up-to-date information on billing, revenue recognition, and project status.
 

@@ -14,7 +14,7 @@ In today's rapidly evolving business landscape, it's more important than ever to
 
 We based this article on [a TechTalk](https://youtu.be/a8-2pUBjuCU?si=uwefzMVMpg7MKPmQ) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV030EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/a8-2pUBjuCU?si=uwefzMVMpg7MKPmQ":::
+:::image type="content" source="media\bpc-patterns-author-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/a8-2pUBjuCU?si=uwefzMVMpg7MKPmQ":::
 
 ## What are business process patterns?
 
