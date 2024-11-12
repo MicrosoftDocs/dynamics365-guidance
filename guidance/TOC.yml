@@ -536,6 +536,10 @@ items:
               href: resources/fs-schedule-board-settings-management-control.md
             - name: Field mapping for the schedule board settings
               href: resources/fs-schedule-board-settings-field-mapping.md
+            - name: Transport summary configurations across environments
+              href: resources/fs-transport-summary-configuration.md
+            - name: Set up Azure Pipelines to deploy Field Service
+              href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
 # FnO
         - name: Finance and operations apps
           items:
@@ -1209,6 +1213,12 @@ items:
           items:
           - name: Human Resources infrastructure merge
             href: techtalks\human-resources-infrastructure-merge.md
+        - name: Project Operations
+          items:
+          - name: Project management and time entry
+            href: techtalks\project-operations-project-management-time-entry.md
+          - name: Sales and inception
+            href: techtalks\project-operations-sales-inception.md
         - name: Supply Chain Management
           items:
           - name: Copilot capabilities in Supply Chain Management
@@ -1217,24 +1227,28 @@ items:
             href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
           - name: The source to pay business process
             href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
-          - name: The procure to pay business process
-            href: techtalks\supply-chain-procure-to-pay-overview.md 
-          - name: Inventory On-hand mobile app in Dynamics 365 Supply Chain Management
+          # - name: The procure to pay business process
+          #   href: techtalks\supply-chain-procure-to-pay-overview.md 
+          - name: Inventory On-hand mobile app
             href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
           - name: Warehouse management only mode
             href: techtalks/supply-chain-management-warehouse-management-only-mode.md
-          - name: Cloud label printing for Supply Chain Management
+          - name: Cloud label printing
             href: techtalks\supply-chain-cloud-label-printing.md
-          - name: What's new in Supply Chain Management in 2023 release wave 2
-            href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
           - name: Demand planning for Dynamics 365 Supply Chain Management
             href: techtalks\supply-chain-demand-planning-introduction.md
           - name: Introducing attribute-based omnichannel product and inventory search
             href: techtalks\attribute-based-omnichannel-product-inventory-search.md
-          - name: Performance testing using JMeter and warehouse app task validation framework in Dynamics 365 Supply Chain Management
+          - name: Pricing management
+            href: techtalks\supply-chain-pricing-management.md
+          - name: Advanced export control
+            href: techtalks\supply-chain-advanced-export-control.md
+          - name: Performance testing using JMeter and warehouse app task validation framework
             href: techtalks\implement-supply-chain-warehouse-performance-testing.md
-          - name: Performance test the user interface with JMeter in Dynamics 365 Supply Chain Management
+          - name: Performance test the user interface with JMeter
             href: techtalks\finance-operations-ui-performance-test-jmeter.md
+          - name: What's new in Supply Chain Management in 2023 release wave 2
+            href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
         - name: Digital selling
           items:
           - name: Set up business-to-business digital selling with Dynamics 365
@@ -1245,6 +1259,8 @@ items:
             href: techtalks\extend-supply-chain-commerce-b2b-part2.md
         - name: Implementation
           items:
+          - name: Solution blueprint reviews
+            href: techtalks\implement-solution-blueprint-review-fasttrack-dynamics-365.md
           - name: Conduct process-centric discovery
             href: techtalks\get-started-conduct-process-centric-discovery.md
           - name: Process governance
@@ -1259,6 +1275,8 @@ items:
             href: techtalks\service-support-maintain-dynamics-365-apps.md
           - name: Automated regression testing with Leapwork
             href: techtalks\dynamics-365-automated-regression-testing-leapwork.md
+          - name: Performance improvements for continuous number sequences
+            href: techtalks\finance-operations-continuous-number-sequence-performance-improvements.md
         # - name: Performance
         #   items:
         - name: Integration
@@ -1277,6 +1295,8 @@ items:
             href: techtalks/dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md
           - name: Dynamics 365 data in lake house architecture
             href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
+          - name: Dynamics 365 Payment Connector for Adyen
+            href: techtalks\adyen-payment-connector-dynamics-365.md
         - name: Development
           items:
           - name: Unified developer experience for Dynamics 365 finance and operations apps

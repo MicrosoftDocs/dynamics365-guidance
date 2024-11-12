@@ -14,7 +14,7 @@ In the sixth installment of our Business Process TechTalk series, we delve into 
 
 We based this article on [a TechTalk](https://youtu.be/JQOFtQwLfbI) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV043EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/JQOFtQwLfbI":::
+:::image type="content" source="media\bpc-process-centric-discovery-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/JQOFtQwLfbI":::
 
 ## Understand the discovery process
 
@@ -36,7 +36,7 @@ Discovery isn't a one-size-fits-all approach. Depending on the project's stage a
 
 The following image compares what the seller and the customer might care about during the process.
 
-:::image type="content" source="media/DTV043EXT-goals.svg" alt-text="Screenshot of a slide that compares four goals of the seller to seven goals of the customer." lightbox="media/DTV043EXT-goals.svg":::
+:::image type="content" source="media/bpc-process-centric-discovery-goals.svg" alt-text="Screenshot of a slide that compares four goals of the seller to seven goals of the customer." lightbox="media/bpc-process-centric-discovery-goals.svg":::
 
 In this example, the seller's goals include business outcomes, stakeholder buy-in, revenue impact, and building a pipeline. The customer's concerns are business outcomes, business value, success for people and the business unit, serving customers, creating value over competition, understanding how technology helps them, and maximizing value from their technology investment. An arrow between the two sides shows the connection between the seller.
 
@@ -74,7 +74,7 @@ The ultimate goal of process-centric discovery is to capture and qualify busines
 
 In the early stages of discovery, particularly during presales, storytelling plays a crucial role. By crafting a compelling narrative around the business process, you can help stakeholders visualize the end-to-end process and how the proposed solution fits into their operations. This narrative approach is less about demonstrating every technical detail and more about showing the solution's potential impact on the business.
 
-:::image type="content" source="media/DTV043EXT-heat-map.svg" alt-text="Screenshot of slide that categorizes various business processes into stages." lightbox="media/DTV043EXT-heat-map.svg":::
+:::image type="content" source="media/bpc-process-centric-discovery-heat-map.svg" alt-text="Screenshot of slide that categorizes various business processes into stages." lightbox="media/bpc-process-centric-discovery-heat-map.svg":::
 
 The image shows a heat map example of a business process catalog status. It categorizes various business processes into stages, such as *Design to retire*, *Hire to retire*, *Inventory to deliver*, *Order to cash*, and *Record to report*. Each stage contains specific tasks, such as *Define product catalog and strategy*, *Plan and recruit your workforce*, and *Maintain inventory levels*. The illustration uses color-coded symbols to indicate the status:
 
@@ -105,7 +105,7 @@ Various tools and techniques can aid in the discovery process, helping to visual
 
 Using standardized shapes, colors, and symbols in your process mapping can help create a clear and consistent visual representation of the process. This standardization is crucial for ensuring that all stakeholders can easily understand and contribute to the discussion.
 
-:::image type="content" source="media/DTV043EXT-discovery-process.svg" alt-text="Screenshot of a slide with a flowchart depicting the key steps involved." lightbox="media/DTV043EXT-discovery-process.svg":::
+:::image type="content" source="media/bpc-process-centric-discovery-discovery-process.svg" alt-text="Screenshot of a slide with a flowchart depicting the key steps involved." lightbox="media/bpc-process-centric-discovery-discovery-process.svg":::
 
 Another important technique is to involve all relevant stakeholders in the process mapping. By including everyone who plays a role in the business process, you can ensure that all perspectives are considered, leading to a solution that's more comprehensive and effective.
 

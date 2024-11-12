@@ -1,7 +1,7 @@
 ﻿---
 title: Overview of the source to pay business process in Dynamics 365 Finance and Supply Chain Management
 description: Find a TechTalk that described how Dynamics 365 Finance and Dynamics 365 Supply Chain Management support the source-to-pay business process.
-ms.date: 09/11/2024
+ms.date: 11/04/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -26,7 +26,7 @@ The following image illustrates a circular flow diagram with eight icons that re
 
 Sourcing is the initial phase of this process, where vendors are identified, evaluated, and selected based on criteria such as cost, quality, and availability. Effective sourcing is crucial because it directly impacts the quality of the products or services acquired and the overall efficiency of the supply chain. Procurement, in contrast, refers to the broader process that includes sourcing but also encompasses the entire acquisition cycle—right from identifying the need for goods or services to the payment of invoices.
 
-Learn more about procurement and sourcing in Dynamics 365 and how important the *source to pay* process is to supply chain management at[Procurement and sourcing overview](/dynamics365/supply-chain/procurement/procurement-sourcing-overview).
+Learn more about procurement and sourcing in Dynamics 365 and how important the *source to pay* process is to supply chain management at [Procurement and sourcing overview](/dynamics365/supply-chain/procurement/procurement-sourcing-overview).
 
 ## Procurement types and benefits
 
@@ -92,7 +92,7 @@ Learn more in the [documentation on vendor rebates in Supply Chain Management](/
 
 ## Conclusion
 
-The *source to pay* process in Dynamics 365 Finance & Supply Chain Management offers a comprehensive approach to managing procurement activities, from sourcing to payment. By integrating technology solutions into this process, organizations can achieve significant improvements in efficiency, accuracy, and visibility, leading to better supplier relationships, cost savings, and enhanced compliance. Effective management of the *source to pay* process is essential for maintaining a smooth and efficient supply chain, ensuring that the organization can meet its operational objectives and achieve its strategic goals.
+The *source to pay* process in Dynamics 365 Finance and Supply Chain Management offers a comprehensive approach to managing procurement activities, from sourcing to payment. By integrating technology solutions into this process, organizations can achieve significant improvements in efficiency, accuracy, and visibility, leading to better supplier relationships, cost savings, and enhanced compliance. Effective management of the *source to pay* process is essential for maintaining a smooth and efficient supply chain, ensuring that the organization can meet its operational objectives and achieve its strategic goals.
 
 For more comprehensive information and resources, Microsoft's [official Dynamics 365 page](https://dynamics.microsoft.com/) is a valuable resource.
 
@@ -101,27 +101,15 @@ For more comprehensive information and resources, Microsoft's [official Dynamics
 You can use the following resources to learn more about Dynamics 365.
 
 - [Help organizations manage the source to pay business processes](../business-processes/source-to-pay-introduction.md)
-
 - [Source to pay end-to-end overview](../business-processes/source-to-pay-overview.md)
-
 - [Source to pay business process areas](../business-processes/source-to-pay-areas.md)
-
 - [Review and accept changes to confirmed purchase orders - Supply Chain Management](/dynamics365/supply-chain/procurement/purchase-order-changes-after-confirmation)
-
 - [Get started with Invoice Capture for Dynamics 365 Finance \| December 12 & 14, 2022](https://community.dynamics.com/blogs/post/?postid=c07e4d10-30f5-42ea-b297-e2b314ea1788)
-
 - [Punch Out \| September 21, 2017 (dynamics.com)](https://community.dynamics.com/blogs/post/?postid=18e84290-87cc-448e-9c46-664a2e48abdd)
-
 - [Procurement and sourcing home page - Supply Chain Management](/dynamics365/supply-chain/procurement/procurement-sourcing)
-
 - [Accounts payable home page - Finance](/dynamics365/finance/accounts-payable/accounts-payable)
-
 - [(973) Viva Engage : Dynamics 365 and Power Platform Preview Programs : D365 Procurement and Sourcing : Conversations (yammer.com)](https://www.yammer.com/dynamicsaxfeedbackprograms/?show_login=true#/threads/inGroup?type=in_group&feedId=69010219008&view=all)
-
 - [(973) Viva Engage : Dynamics 365 and Power Platform Preview Programs : Invoice Capture for Dynamics 365 Finance : New Conversations (yammer.com)](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=84296204288)
-
-- [What are the Dynamics 365 TechTalk videos?](/dynamics365/guidance/roles/techtalk-videos)
-
+- [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)
-
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)

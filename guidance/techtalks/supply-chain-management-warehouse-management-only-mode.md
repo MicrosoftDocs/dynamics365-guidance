@@ -16,7 +16,7 @@ In this TechTalk, we delved into the *Warehouse management only mode* and explor
 
 We based this article on [a TechTalk](https://youtu.be/uOURvwXwY-E) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV013-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/uOURvwXwY-E":::
+:::image type="content" source="media/scm-warehouse-only-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/uOURvwXwY-E":::
 
 ## What is Warehouse management only mode?
 
@@ -24,7 +24,7 @@ We based this article on [a TechTalk](https://youtu.be/uOURvwXwY-E) that you can
 
 The following image is an infographic that showcases the warehouse management capabilities of a business app, such as Dynamics 365 Supply Chain Management.  
 
-:::image type="content" source="media/DTV013-warehouse-management-capabilities.png" alt-text="Screenshot of slide with boxes that call out rule engine, integrated processes, scanning, material handling, carrier integration, embedded analytics, continuous updates." lightbox="media/DTV013-warehouse-management-capabilities.png":::
+:::image type="content" source="media/scm-warehouse-only-warehouse-management-capabilities.png" alt-text="Screenshot of slide with boxes that call out rule engine, integrated processes, scanning, material handling, carrier integration, embedded analytics, continuous updates." lightbox="media/scm-warehouse-only-warehouse-management-capabilities.png":::
 
 The visualization calls out various integrated features, including the following list:
 
@@ -44,7 +44,7 @@ One of the primary advantages of *Warehouse management only mode* is its ability
 
 The following image outlines the integration between various systems and processes within a warehouse setting.  
 
-:::image type="content" source="media/DTV013-flow.png" alt-text="The image shows a flowchart detailing the dataflow for Warehouse Management Only Mode in any ERP system. A tile with the warehouse capabilities from Dynamics 365 is in the middle and connects with arrows to and from Dynamics 365 ERP, other ERP, and other integrations." lightbox="media/DTV013-flow.png":::
+:::image type="content" source="media/scm-warehouse-only-flow.png" alt-text="The image shows a flowchart detailing the dataflow for Warehouse Management Only Mode in any ERP system. A tile with the warehouse capabilities from Dynamics 365 is in the middle and connects with arrows to and from Dynamics 365 ERP, other ERP, and other integrations." lightbox="media/scm-warehouse-only-flow.png":::
 
 The warehouse capabilities from Dynamics 365 Supply Chain Management serve as the nexus for multiple flows:  
 
@@ -80,7 +80,7 @@ Several core features make *Warehouse management only mode* a powerful tool for 
 
 The following image is a high level integration architecture diagram showcasing the flow and processing of data within a complex ERP system for warehouse management.
 
-:::image type="content" source="media/DTV013-architecture.png" alt-text="Two main tiles, where the bottom one shows warehouse management operating in a standalone mode with components like Warehouse Execution, Shipment Orders, and Message Processing directly interacting. The top tiles shows a managed data lake that acts as a central hub. This hub connects to various components including shipment order events and message entities. To the left, data flows in from external integrations, such as Dynamics 365 Business Central, Oracle, SAP, and FedEx, connecting via direct APIs to the system." lightbox="media/DTV013-architecture.png":::
+:::image type="content" source="media/scm-warehouse-only-architecture.png" alt-text="Two main tiles, where the bottom one shows warehouse management operating in a standalone mode with components like Warehouse Execution, Shipment Orders, and Message Processing directly interacting. The top tiles shows a managed data lake that acts as a central hub. This hub connects to various components including shipment order events and message entities. To the left, data flows in from external integrations, such as Dynamics 365 Business Central, Oracle, SAP, and FedEx, connecting via direct APIs to the system." lightbox="media/scm-warehouse-only-architecture.png":::
 
 Additionally, the system offers sophisticated validation processes for order messages, ensuring that inbound and outbound shipments are handled accurately and efficiently. Users can also configure their mobile devices to manage warehouse tasks, such as receiving, shipping, and inventory management, directly from the *Warehouse app*.
 

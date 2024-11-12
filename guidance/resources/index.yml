@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365.
   author: edupont04
   ms.author: edupont
-  ms.date: 09/04/2024
+  ms.date: 11/11/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -36,109 +36,6 @@ landingContent:
         - text: Implement finance and operations apps
           url: /training/paths/implement-finance-operations/
 
-# Card
-  - title: Administration
-    linkLists:
-    - linkListType: overview
-      links:
-        - text: Storage capacity enforcement module for Power Platform CoE Starter Kit
-          url: center-of-excellence-storage-capacity-enforcement.md
-
-
-# Developer Card
-  # - title: Develop the implementation
-  #   linkLists:
-  #     - linkListType: sample
-  #       links:
-  #         - text: Solution component validation tool
-  #           url: solution-component-validator.md
-
-
-# Commerce card
-
-  # - title: Tools and samples for Commerce
-  #   linkLists:
-  #   - linkListType: overview
-  #     links:
-  #     - text: Overview
-  #       url: ../placeholder.md
-  #   - linkListType: sample
-  #     links:
-  #     - text: POS load test sample
-  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommercePerfTestSample/AzureLoadTest
-  #     - text: Storefront E2E functional test sample
-  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/EcommerceE2ETestSample
-  #     - text: Negative Inventory check
-  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/NegativeInventoryCheck
-
-# CS Card
-
-  - title: Customer Service
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Overview
-        url: cs-index.yml
-      - text: Samples and tools
-        url: component-library.md
-    - linkListType: concept
-      links:
-        - text: Set up test automation with Playwright
-          url: test-automation-setup.md
-        - text: Load-test the solution
-          url: test-scale-dynamics-365-solution.md
-        - text: Learn with the simulator for Channel Integration Framework v. 2.0
-          url: cs-set-up-cif2-simulator.md
-    - linkListType: overview
-      links:
-        - text: Configure analytics and insights dashboards
-          url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh
-        - text: Get started with analytics for Omnichannel
-          url: analytics-get-started.md
-        - text: Overview of capabilities for analytics
-          url: analytics-capabilities.md
-        - text: Application lifecycle management for custom reports
-          url: analytics-alm-custom-reports.md
-    - linkListType: deploy
-      links:
-        - text: Implement Copilot in digital contact centers
-          url: cs-contact-center-copilot-onboarding-guide.md
-        - text: Set up your tools and infrastructure for using Copilot in your contact center
-          url: cs-contact-center-copilot-setup.md
-        - text: Onboard your users to use Copilot in your contact center
-          url: cs-contact-center-copilot-onboard-users.md
-    - linkListType: sample
-      links:
-      - text: Solution component validation tool
-        url: solution-component-validator.md
-
-# FS card
-
-  - title: Field Service
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Overview
-        url: fs-index.yml
-      - text: Samples and tools
-        url: fs-component-library.md
-    - linkListType: concept
-      links:
-      - text: Template for resource cells
-        url: fs-resource-cell-template.md
-      - text: Template for bookings
-        url: fs-booking-template.md
-      - text: Set up test automation with Playwright
-        url: test-automation-setup.md
-      - text: Load-test the solution
-        url: test-scale-dynamics-365-solution.md
-      - text: Scale load tests
-        url: test-load-tests-scaling.md
-    - linkListType: reference
-      links:
-      - text: Field mapping for the schedule board settings
-        url: fs-schedule-board-settings-field-mapping.md
-
 # FIN Card
   - title: Finance, Project Operations, Human Resources
     linkLists:
@@ -162,6 +59,42 @@ landingContent:
 #        url: solution-component-validator.md
 #      - text: Resources for analytics pipelines
 #        url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
+
+# Admin Card
+  - title: Administration
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Storage capacity enforcement module for Power Platform CoE Starter Kit
+          url: center-of-excellence-storage-capacity-enforcement.md
+# FS card
+
+  - title: Field Service
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Overview
+        url: fs-index.yml
+      - text: Samples and tools
+        url: fs-component-library.md
+    - linkListType: concept
+      links:
+      - text: Template for resource cells
+        url: fs-resource-cell-template.md
+      - text: Template for bookings
+        url: fs-booking-template.md
+      - text: Set up test automation with Playwright
+        url: test-automation-setup.md
+      - text: Load-test the solution
+        url: test-scale-dynamics-365-solution.md
+      - text: Scale load tests
+        url: test-load-tests-scaling.md
+      - text: Transport summary configurations across environments
+        url: fs-transport-summary-configuration.md
+    - linkListType: reference
+      links:
+      - text: Field mapping for the schedule board settings
+        url: fs-schedule-board-settings-field-mapping.md
 
 # SCM Card
   - title: Supply Chain Management
@@ -187,6 +120,57 @@ landingContent:
 #      - text: Resources for analytics pipelines
 #        url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Analytics
 
+
+# CS Card
+
+  - title: Customer Service
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Overview
+        url: cs-index.yml
+      - text: Samples and tools
+        url: component-library.md
+    - linkListType: concept
+      links:
+        - text: Learn with the simulator for Channel Integration Framework v. 2.0
+          url: cs-set-up-cif2-simulator.md
+        - text: Overview of capabilities for analytics
+          url: analytics-capabilities.md
+        - text: Application lifecycle management for custom reports
+          url: analytics-alm-custom-reports.md
+    - linkListType: how-to-guide
+      links:
+        - text: Configure analytics and insights dashboards
+          url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh
+        - text: Get started with analytics for Omnichannel
+          url: analytics-get-started.md
+        - text: Set up test automation with Playwright
+          url: test-automation-setup.md
+        - text: Load-test the solution
+          url: test-scale-dynamics-365-solution.md
+    - linkListType: deploy
+      links:
+        - text: Implement Copilot in digital contact centers
+          url: cs-contact-center-copilot-onboarding-guide.md
+        - text: Set up your tools and infrastructure for using Copilot in your contact center
+          url: cs-contact-center-copilot-setup.md
+        - text: Onboard your users to use Copilot in your contact center
+          url: cs-contact-center-copilot-onboard-users.md
+    - linkListType: sample
+      links:
+      - text: Solution component validation tool
+        url: solution-component-validator.md
+
+
+# Developer Card
+  # - title: Develop the implementation
+  #   linkLists:
+  #     - linkListType: sample
+  #       links:
+  #         - text: Solution component validation tool
+  #           url: solution-component-validator.md
+
 # Platform Card
 #   - title: Shared resources
 #     linkLists:
@@ -205,4 +189,20 @@ landingContent:
 #         url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Bootstrapping
 #       - text: Upgrade data to dual-write Party-GAB schema
 #         url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema
+# Commerce card
+
+  # - title: Tools and samples for Commerce
+  #   linkLists:
+  #   - linkListType: overview
+  #     links:
+  #     - text: Overview
+  #       url: ../placeholder.md
+  #   - linkListType: sample
+  #     links:
+  #     - text: POS load test sample
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommercePerfTestSample/AzureLoadTest
+  #     - text: Storefront E2E functional test sample
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/EcommerceE2ETestSample
+  #     - text: Negative Inventory check
+  #       url: https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/NegativeInventoryCheck
 

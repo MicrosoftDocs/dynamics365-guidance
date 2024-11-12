@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Extending Copilot in Dynamics 365 finance and operations apps
 description:  Summary of TechTalk video that talks about extending the capabilities of Copilot to meet diverse business needs and provide more tailored solutions for customers and partners.
-ms.date: 10/03/2024
+ms.date: 11/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -14,15 +14,15 @@ As artificial intelligence continues to reshape industries and workflows, Micros
 
 We based this article on [a TechTalk](https://youtu.be/hc8dl5-v_Ro?si=Zs2vBU1fHXJsjFjr) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV041EXT-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/hc8dl5-v_Ro":::
+:::image type="content" source="media/fin-ops-copilot-extend-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/hc8dl5-v_Ro":::
 
 ## The shift to AI-driven interactions
 
 With the rise of large language models (LLMs) and the increasing reliance on AI-driven technologies like GPT (Generative Pretrained Transformer), the way we interact with enterprise resource planning (ERP) systems is rapidly changing. The introduction of Copilot in Dynamics 365 represents a fundamental shift in how users can engage with business applications through natural language, moving beyond traditional user interfaces to conversational AI. Copilot serves as an intelligent guide, making the system more accessible by providing natural language assistance for tasks, insights, and automation.
 
-The following image explains how AI-powered assistance helps business professionals in their work. AI capabilities can help by generating ideas and content faster, performing and automating tasks, and providing insights and next best actions, all through natural language. It highlights the key differentiators of Dynamics 365 Copilot, including its GPT-powered capabilities for every job role, integration with Dynamics 365, use of Azure OpenAI Service, focus on responsible AI practices, and secure handling of enterprise data. The right side of the image shows diverse business professionals working in various settings, including offices, industrial environments, and collaborative spaces.
+The following image explains how AI-powered assistance helps business professionals in their work. AI capabilities can help by generating ideas and content faster, and perform and automate tasks. AI can provide insights and next best actions, all through natural language. The key differentiators of Dynamics 365 Copilot include its GPT-powered capabilities for every job role, integration with Dynamics 365, use of Azure OpenAI Service, focus on responsible AI practices, and secure handling of enterprise data.
 
-:::image type="content" source="media/DTV041EXT-1.png" alt-text="Screenshot of a slide with pictures to the right and text to the left that is repeated in the text before the image." lightbox="media/DTV041EXT-1.png":::
+:::image type="content" source="media/fin-ops-copilot-extend-1.png" alt-text="Screenshot of a slide with pictures on the right side and text on the left side that is repeated in the text before the image. The right side of the image shows diverse business professionals working in various settings, including offices, industrial environments, and collaborative spaces." lightbox="media/fin-ops-copilot-extend-1.png":::
 
 The goal of this initiative is clear: to enhance user experiences by integrating AI deeply into the fabric of the application, enabling more efficient workflows, from generating ideas to automating tasks, all while maintaining the highest security standards.
 
@@ -66,7 +66,7 @@ To fully understand how Copilot works and how to extend it, it's essential to br
 
 The following image illustrates the architecture and components of Dynamics 365 Copilot for finance and operations apps  It highlights how different layers interact. At the top, the *Finance and operations apps* section includes X++ execution and ad-hoc query execution. That box connects to the *App Copilot* section that is responsible for running client actions. The middle layer involves Dataverse where Copilot handles data and connectors, as well as AI logic for Dataverse search and questions and answers (Q&A). The *Microsoft Copilot Studio* section manages AI orchestration, conversation history, memory, and context for the Copilot, with data grounding and plugin execution at the base.
 
-:::image type="content" source="media/DTV041EXT-2.png" alt-text="Screenshot of a slide with four boxes with text that is repeated in the text before the image." lightbox="media/DTV041EXT-2.png":::
+:::image type="content" source="media/fin-ops-copilot-extend-2.png" alt-text="Screenshot of a slide with four boxes with text that is repeated in the text before the image." lightbox="media/fin-ops-copilot-extend-2.png":::
 
 At the heart of this extensibility is **Copilot Studio**, where developers can add plugins that teach Copilot how to perform specific tasks. For example, if you want Copilot to summarize text, retrieve customer balances, or execute workflows, a corresponding plugin can be added within Copilot Studio to enable that functionality.
 
@@ -90,7 +90,7 @@ While much of Copilot's extensibility relies on low-code solutions, more advance
 
 The following image is from a slide with the title **Client actions**. The left section shows a visual interface from Microsoft Copilot Studio with an event activity box where an action is named and assigned a color selection input. Below that, a message box includes a prewritten text message that uses the selected color as part of the response. On the right side, there's a block of code in X++, the programming language used in Dynamics 365 finance and operations apps. The sample code shows how to implement client actions in code, including logic for fetching user information and applying the selected color theme to a user's session.
 
-:::image type="content" source="media/DTV041EXT-3.png" alt-text="Screenshot of a slide with a screenshot and a code sample that is described in the text before the image." lightbox="media/DTV041EXT-3.png":::
+:::image type="content" source="media/fin-ops-copilot-extend-3.png" alt-text="Screenshot of a slide with a screenshot and a code sample that is described in the text before the image." lightbox="media/fin-ops-copilot-extend-3.png":::
 
 With the ability to invoke X++ code, users can execute client actions, run workflows, and access business-critical data—all through simple conversational inputs. This brings an unprecedented level of automation and intelligence to Dynamics 365, making it an even more valuable tool for organizations looking to streamline their finance operations.
 

@@ -14,7 +14,7 @@ This article guides you through the process of creating, submitting, and refinin
 
 We based this article on [a TechTalk](https://youtu.be/96LNvI0ZrZ8?si=1XPMxMQNTi4O3tE9) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media\DTV030EXT-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/q96LNvI0ZrZ8?si=1XPMxMQNTi4O3tE9":::
+:::image type="content" source="media\bpc-author-slide.svg" alt-text="Thumbnail of the presentation slide." link="https://youtu.be/q96LNvI0ZrZ8?si=1XPMxMQNTi4O3tE9":::
 
 ## Understanding business processes
 
@@ -72,7 +72,7 @@ One of the key elements of a business process article is the process flow diagra
 
 The following image illustrates an example:
 
-:::image type="content" source="media/DTV029EXT-process-flow.svg" alt-text="A process flow diagram explained in text after the image." lightbox="media/DTV029EXT-process-flow.svg":::
+:::image type="content" source="media/bpc-author-process-flow.svg" alt-text="A process flow diagram explained in text after the image." lightbox="media/bpc-author-process-flow.svg":::
 
 The process flow for setting customer credit limits starts with creating a customer, followed by requesting financial statements and other relevant data. It involves gathering credit ratings and payment terms, reviewing these terms, and submitting proposed changes. The flow includes decision points, such as approval of credit limits, and ends with saving the credit details to the customer record. This process involves both manual and automated steps, engaging roles like accounts receivable clerks and managers.
 

@@ -1,7 +1,7 @@
 ﻿---
 title: TechTalk Optimize the experience in Dynamics 365 
 description: Summary of TechTalk video that talks about how to design the optimal user experiences in solutions with Dynamics 365 apps, using Dynamics 365 Finance or Dynamics 365 Supply Chain Management as examples.
-ms.date: 10/10/2024
+ms.date: 11/07/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -14,7 +14,7 @@ In today's fast-paced business environment, efficiency and user experience are p
 
 We based this article on [a TechTalk](https://youtu.be/5qechZ8ytpY) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTT106EXT2-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/5qechZ8ytpY":::
+:::image type="content" source="media/impl-opti-exp-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/5qechZ8ytpY":::
 
 > [!TIP]
 > The TechTalk session was about finance and operations apps, but this article reflects that the general guidance applies to all solutions with Dynamics 365 apps.
@@ -31,7 +31,7 @@ In the world of business applications, user expectations change drastically. In 
 
 The following image presents the *consumer-grade product experience framework*, which is a decision-making tool for building successful human-centered products.
 
-:::image type="content" source="media/DTT106EXT2-framework.png" alt-text="Screenshot of a slide with four boxes with text that we repeat below the image. On top of the four boxes is a heart shape with the words Customer Love." lightbox="media/DTT106EXT2-framework.png":::
+:::image type="content" source="media/impl-opti-exp-framework.png" alt-text="Screenshot of a slide with four boxes with text that we repeat below the image. On top of the four boxes is a heart shape with the words Customer Love." lightbox="media/impl-opti-exp-framework.png":::
 
 The conceptual framework consists of four main elements:  
 
@@ -68,9 +68,9 @@ One of the most effective ways to personalize Dynamics 365 is by optimizing it f
 
 The following two images are screenshots of slides in the presentation to illustrate how you optimize design for a role. This setup is aimed at streamlining user interactions and enhancing productivity by ensuring that a dashboard effectively supports the specific needs and actions associated with different job roles.
 
-:::image type="content" source="media/DTT106EXT2-optimize-task.png" alt-text="The image outlines a four step process aimed at improving job-specific workflows. The steps are: Identify jobs to be done - Highlighting the preliminary step of defining tasks required for specific roles. Design a workspace for each job - Illustrating the customization of workspaces tailored to each identified job to enhance efficiency. Create filtered views for each list - Describing the creation of streamlined views that focus on relevant data for each job. Create optimized task views for each form - Depicting the final step of refining the user interface for each task to facilitate easier completion of work. To the right, icons to illustrate different tasks." lightbox="media/DTT106EXT2-optimize-task.png":::
+:::image type="content" source="media/impl-opti-exp-task.png" alt-text="The image outlines a four step process aimed at improving job-specific workflows. The steps are: Identify jobs to be done - Highlighting the preliminary step of defining tasks required for specific roles. Design a workspace for each job - Illustrating the customization of workspaces tailored to each identified job to enhance efficiency. Create filtered views for each list - Describing the creation of streamlined views that focus on relevant data for each job. Create optimized task views for each form - Depicting the final step of refining the user interface for each task to facilitate easier completion of work. To the right, icons to illustrate different tasks." lightbox="media/impl-opti-exp-task.png":::
 
-:::image type="content" source="media/DTT106EXT2-optimize-dashboard.png" alt-text="The image illustrates step 5 in a workflow optimization series that focuses on the customization of a dashboard. It displays a schematic view where a central dashboard, highlighted at the top of the image, feeds information into various task-oriented interfaces. Lines connect the dashboard to each of these task views, symbolizing the flow of information and how the dashboard controls or influences the content and layout of the individual task views." lightbox="media/DTT106EXT2-optimize-dashboard.png":::
+:::image type="content" source="media/impl-opti-exp-dashboard.png" alt-text="The image illustrates step 5 in a workflow optimization series that focuses on the customization of a dashboard. It displays a schematic view where a central dashboard, highlighted at the top of the image, feeds information into various task-oriented interfaces. Lines connect the dashboard to each of these task views, symbolizing the flow of information and how the dashboard controls or influences the content and layout of the individual task views." lightbox="media/impl-opti-exp-dashboard.png":::
 
 For example, an accounts payable clerk should see a dashboard with only the workspaces they need, without distractions from other areas of the system. These workspaces should include tiles that give a quick overview of outstanding tasks, such as invoices to be processed or payments to be approved. When organizations tailor the experience to the role, they can improve efficiency and satisfaction, reducing the likelihood of errors and frustration.
 

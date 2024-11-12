@@ -14,7 +14,7 @@ The digital transformation in B2B commerce is revolutionizing the way manufactur
 
 We based this article on [a TechTalk](https://youtu.be/GDTL4PUGD00) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/DTV007EXT-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/GDTL4PUGD00":::
+:::image type="content" source="media/scm-commerce-B2B-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/GDTL4PUGD00":::
 
 ## The shift toward business-to-business digital commerce
 
@@ -34,7 +34,7 @@ A key feature of the Dynamics 365 Commerce B2B solution is its ability to provid
 
 The following image illustrates interesting numbers for three aspects of the B2B e-commerce scene in the age of the self-driven B2B buyer.
 
-:::image type="content" source="media/DTV018EXT-B2B-buyer.png" alt-text="Image is a screenshot of a slide with dark blue background and the title Age of the self driven B2B buyer. It shows the number 99% for self-serve B2B buying, 43% for preference for self-serve purchase, and 83% for B2B buyers have consumer-grade expectations." lightbox="media/DTV018EXT-B2B-buyer.png":::
+:::image type="content" source="media/scm-commerce-B2B-buyer.png" alt-text="Image is a screenshot of a slide with dark blue background and the title Age of the self driven B2B buyer. It shows the number 99% for self-serve B2B buying, 43% for preference for self-serve purchase, and 83% for B2B buyers have consumer-grade expectations." lightbox="media/scm-commerce-B2B-buyer.png":::
 
 Dynamics 365 supports several ordering methods, such as bulk orders, matrix ordering for products with multiple variants, and order templates for frequently purchased items. This flexibility allows businesses to cater to the unique needs of B2B buyers, who often require large quantities of products or have complex purchasing workflows.
 
@@ -54,7 +54,7 @@ The following image illustrates key statistics for three major points illustrati
 2. Only 32% of a seller's time is spent on selling activities, with the rest consumed by using an array of tools to close deals.  
 3. Sellers spend between 17 to 33 hours on average just to create and configure quotes, instead of engaging directly in sales.
 
-:::image type="content" source="media/DTV018EXT-B2B-seller.png" alt-text="The image is a screenshot of a slide with dark blue background and the title Sellers need to do more with less, but. A cheerful seller's portrait reinforces the theme of striving for efficiency within the sales force." lightbox="media/DTV018EXT-B2B-seller.png":::
+:::image type="content" source="media/scm-commerce-B2B-seller.png" alt-text="The image is a screenshot of a slide with dark blue background and the title Sellers need to do more with less, but. A cheerful seller's portrait reinforces the theme of striving for efficiency within the sales force." lightbox="media/scm-commerce-B2B-seller.png":::
 
 By integrating inventory data from distributors, manufacturers gain greater visibility into demand at the local level, allowing them to proactively manage stock levels and avoid missed sales opportunities. This indirect selling model helps businesses expand their reach, improve customer satisfaction, and optimize their supply chain.
 
