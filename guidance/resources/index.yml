@@ -89,6 +89,8 @@ landingContent:
         url: test-scale-dynamics-365-solution.md
       - text: Scale load tests
         url: test-load-tests-scaling.md
+      - text: Transport summary configurations across environments
+        url: fs-transport-summary-configuration.md
     - linkListType: reference
       links:
       - text: Field mapping for the schedule board settings
