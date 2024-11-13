@@ -99,7 +99,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 ## Related information
 
-- [Superdrive your lead generation](https://youtu.be/zzK0GTPD4u4)
+- [Superdrive your lead generation (video)](https://youtu.be/zzK0GTPD4u4)
 - [Product overview Dynamics 365 Customer Insights - Journeys](https://dynamics.microsoft.com/marketing)
 - [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
 - [Manage leads](/dynamics365/sales/lead-management-overview)
