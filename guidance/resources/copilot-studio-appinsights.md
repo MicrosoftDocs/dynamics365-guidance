@@ -1,10 +1,10 @@
 ﻿---
-title: Application insights telemetry with Microsoft Copilot Studio
+title: Application Insights telemetry with Microsoft Copilot Studio
 description: Discover how to use Kusto queries in the Azure portal to analyze and manipulate telemetry data from Application Insights for performance and usage of your bot.
 author: rramju
 ms.author: ramara
 ms.topic: conceptual
-ms.date: 05/03/2024
+ms.date: 11/19/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -15,8 +15,7 @@ ms.custom:
 
 <!-- If application insights in the title refers to the feature, then it should be capitalized. -->
 
-
-# Application insights telemetry with Microsoft Copilot Studio
+# Application Insights telemetry with Microsoft Copilot Studio
 
 ***Applies to: Dynamics 365 Customer Service***
 
@@ -47,7 +46,7 @@ Learn more about how to use Kusto queries at [Kusto Query Language (KQL) overvie
 
 ### Analyzing sessions and messages counts per day over the last 30 days to track engagement and workload trends
 
-```kql
+```kusto
 requests
 | where timestamp > ago(30d)
 | summarize sessions = dcount(session\_Id), messages = count() by bin(timestamp, 1d)
@@ -62,7 +61,7 @@ Explanation:
 
 ## Query for Distinct User Communication Over Time
 
-```kql
+```kusto
 // Define query parameters
 
 let queryStartDate = ago(14d);  // Start date for the query (14 days ago)
@@ -107,7 +106,7 @@ Explanation:
 
 This query retrieves telemetry data while excluding canvas test conversations, providing cleaner data for analysis without including test data.
 
-```kql
+```kusto
 // Retrieve custom events data and exclude canvas test conversations
 
 customEvents
@@ -145,7 +144,7 @@ This query transforms the customEvents data by performing several operations:
 
 The final result is projected with selected fields and stored in rawData.
 
-```kql
+```kusto
 let rawData = customEvents
 | order by timestamp asc , session_Id
 | extend TimeDifference = iif(row_number() > 1 and session_Id == prev(session_Id), (timestamp - prev(timestamp))/1ms, (timestamp-timestamp)/1ms)//1ms
@@ -194,7 +193,7 @@ Explanation:
 
 This query pipeline effectively filters and analyzes error occurrences within the **customEvents** data, providing insights into the distribution of error types. The column chart visualization aids in quickly understanding the relative frequencies of different error codes, allowing for targeted investigation and resolution of issues.
 
-```kql
+```kusto
 let rawData = customEvents
 | order by timestamp asc , session_Id
 | extend TopicName=customDimensions["TopicName"]
@@ -226,7 +225,7 @@ Explanation:
 
 This query is designed to retrieve and structure event data related to generative answers. It extracts various properties from the customDimensions field and presents them in a structured format for analysis or further processing. By focusing on events with the name *GenerativeAnswers*, the query provides insights into interactions and outcomes of generative answer processes.
 
-```kql
+```kusto
 customEvents
 | where name == "GenerativeAnswers"
 // | where cloud\_RoleInstance == "MS Learn Chatbot" // Bot Name
