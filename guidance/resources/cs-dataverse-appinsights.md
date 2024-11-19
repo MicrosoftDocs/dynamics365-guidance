@@ -365,7 +365,7 @@ dependencies
 
 This query is valuable for improving the reliability and performance of your application. It identifies and addresses the plugins that are most prone to failure. It returns the following data:
 
-|Field |Description|
+|Data |Description|
 |--|-|
 |Plugin Types with the Most Failures | The query identifies the top 10 plugins with the highest number of failed executions. |
 |Number of Requests, Passes, and Failures| For each of the top 10 plugins, the query shows the total number of executions, the number of successful executions, and the number of failed executions.|
@@ -394,6 +394,10 @@ This command parses the customDimensions field into a JSON object, making it eas
 
 In this step, the query selects and renames relevant fields.
 
+```kusto
+| project timestamp, success, correlationId = cd.correlationId, typeName = cd.pluginType
+```
+
 |Field |Description|
 |--|-|
 |timestamp | The time when the plugin execution occurred. |
@@ -401,13 +405,13 @@ In this step, the query selects and renames relevant fields.
 |correlationId | A unique identifier to correlate plugin executions. |
 |typeName | The type or name of the plugin, extracted from the custom dimensions. |
 
-```kusto
-| project timestamp, success, correlationId = cd.correlationId, typeName = cd.pluginType
-```
-
 ### Summarize plugin execution data
 
 This summarization step calculates key metrics for each plugin type.
+
+```kusto
+| summarize NumberofRequest = count(), Passed = dcountif(timestamp, success == "True"), Failed = dcountif(timestamp, success == "False") by tostring(typeName)
+```
 
 |Field |Description|
 |--|-|
@@ -416,10 +420,6 @@ This summarization step calculates key metrics for each plugin type.
 |Failed|The number of failed executions.|
 
 The results are grouped by `typeName`, which represents the plugin's type or name.  
-
-```kusto
-| summarize NumberofRequest = count(), Passed = dcountif(timestamp, success == "True"), Failed = dcountif(timestamp, success == "False") by tostring(typeName)
-```
 
 ### Order and limit the results
 
@@ -490,14 +490,14 @@ These lines filter out Microsoft out-of-the-box plugins and focus on custom plug
 
 This summarization step calculates several metrics by depth, plugin name, and weekly time bins:
 
-|Field |Description|
-|--|-|
-|count()|The total number of plugin executions for each depth and name.|
-|P95 and P95s|The 95th percentile of the execution duration, giving insight into the longer execution times.|
-
 ```kusto
 | summarize count(), (P95)=percentiles(duration,95), (P95s)=percentile(toint(duration),95) by depth, name, bin(timestamp, 7d)
 ```
+
+|Parameter |Description|
+|--|-|
+|count()|The total number of plugin executions for each depth and name.|
+|P95 and P95s|The 95th percentile of the execution duration, giving insight into the longer execution times.|
 
 ### Order and filter the results
 
