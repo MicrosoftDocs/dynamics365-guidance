@@ -115,6 +115,14 @@ The following sections outline the content of the collection. Each section inclu
 
     Learn more at [Copilot Studio Application Insights Telemetry](copilot-studio-appinsights.md).
 
+### Application Insights
+
+- AppInsights telemetry with Microsoft Dataverse
+
+    This article discusses how you can capture telemetry data for Microsoft Dataverse.  
+    
+    Learn more at [Application Insights telemetry with Microsoft Dataverse](cs-dataverse-appinsights.md)
+
 ### Dynamics 365 Channel Integration Framework 2.0
 
 - CIF simulator

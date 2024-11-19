@@ -471,6 +471,10 @@ items:
                   href: resources/copilot-studio-play-audio-file.md
                 - name: Application insights with Microsoft Copilot Studio
                   href: resources/copilot-studio-appinsights.md
+              - name: Application Insights
+                items:
+                - name: Telemetry with Microsoft Dataverse
+                  href: resources/cs-dataverse-appinsights.md
               - name: Automation
                 items:
                 - name: Automate agent tasks
