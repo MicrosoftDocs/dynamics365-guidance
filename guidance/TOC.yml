@@ -469,12 +469,6 @@ items:
                   href: resources/copilot-studio-multilanguage-bot.md
                 - name: Play secured audio file
                   href: resources/copilot-studio-play-audio-file.md
-                - name: Application insights with Microsoft Copilot Studio
-                  href: resources/copilot-studio-appinsights.md
-              - name: Application Insights
-                items:
-                - name: Telemetry with Microsoft Dataverse
-                  href: resources/cs-dataverse-appinsights.md
               - name: Automation
                 items:
                 - name: Automate agent tasks
@@ -523,6 +517,10 @@ items:
                 href: resources/analytics-capabilities.md
               - name: Application lifecycle management for custom reports
                 href: resources/analytics-alm-custom-reports.md
+              - name: Application insights with Microsoft Copilot Studio
+                href: resources/copilot-studio-appinsights.md
+              - name: Application Insights with Microsoft Dataverse
+                href: resources/cs-dataverse-appinsights.md
 
 # Field Service
 

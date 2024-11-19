@@ -1,36 +1,33 @@
 ---
 title: Application Insights telemetry with Microsoft Dataverse
-description: Discover how to use Kusto queries in the Azure portal to analyze and manipulate telemetry data from Application Insights in solutions with Dataverse, including solutions with Dynamics 365 Customer Service.
-author: vinage
+description: Discover how to use Kusto queries in the Azure portal to analyze and manipulate telemetry data from Application Insights in solutions with Dataverse.
+author: viange
 ms.author: viange
 ms.topic: conceptual
-ms.date: 11/18/2024
+ms.date: 11/19/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date: 11/18/2024
+  - ai-seo-date: 11/19/2024
   - O25-Service
 # CustomerIntent: As an admin, I want to track how Dynamics 365 Customer Service is used.
 ---
 
-<!-- If application insights in the title refers to the feature, then it should be capitalized. -->
-
-
 # Application Insights telemetry with Microsoft Dataverse
 
-***Applies to: Dynamics 365 Customer Service***
+***Applies to|Dynamics 365 Customer Service***
 
-This article discusses how you can capture telemetry data for Microsoft Dataverse. Telemetry events for Dataverse provide performance data on various operations, such as API incoming calls, plug-in execution, and SDK calls. These events help monitor and analyze performance and failures, offering insights for troubleshooting and optimization. Key metrics include execution time, request counts, and success rates. Telemetry data supports both real-time and historical analytics, aiding in proactive system health monitoring and performance improvement.  
+This article discusses how you can capture telemetry data from your Microsoft Dataverse environment for use in [Application Insights](/azure/azure-monitor/app/app-insights-overview). Telemetry events for Dataverse provide performance data on various operations, such as API incoming calls, plug-in execution, and SDK calls. These events help monitor and analyze performance and failures, offering insights for troubleshooting and optimization. Key metrics include execution time, request counts, and success rates. Telemetry data supports both real-time and historical analytics, aiding in proactive system health monitoring and performance improvement.  
 
 ## Prerequisites
 
 - Azure subscription  
 - Application Insights environment
 
-  You must have the relevant permissions with one of the following roles: *Contributor*, *Writer*, or *Admin*    
+  You must have the relevant permissions with one of the following roles|*Contributor*, *Writer*, or *Admin*  
 - Dataverse environment  
 
-  If you have an environment with Dynamics 365 Customer Service, that evironment includes Dataverse, Power Platform, and an Azure subscription.      
+  If you have an environment with Dynamics 365 Customer Service, that environment includes Dataverse, Power Platform, and an Azure subscription.  
 
 ## Kusto query samples and explanations
 
@@ -43,11 +40,11 @@ You can use Kusto queries to answer various questions about your agent's perform
 - How often do users escalate to a human agent?
 - What are the common errors or issues that the agent encounters?
 
-Learn more about how to use Kusto queries at [Kusto Query Language (KQL) overview](/azure/data-explorer/kusto/query/).
+Learn more at [Kusto Query Language (KQL) overview](/azure/data-explorer/kusto/query/).
 
 ## Top plugins with high execution time query
 
-The following query is designed to identify plugins with high execution times. It allows you to pinpoint potential performance bottlenecks. It filters out-of-the-box plugins and focuses on custom plugins that are taking longer to execute.   
+The following query is designed to identify plugins with high execution times. It allows you to pinpoint potential performance bottlenecks. It filters out-of-the-box plugins and focuses on custom plugins that are taking longer to execute.  
 
 ```kusto
 dependencies
@@ -69,14 +66,17 @@ dependencies
 | project Namespace, ExecutionCount, AvgExecutionTime, percentile_executionTimeInMS_50, ExecutionTimeinMS_90, Depth
 | order by ExecutionTimeinMS_90 desc
 ```
-This query helps you identify plugins that may be causing performance issues due to high execution times, enabling you to focus on optimizing them. It returns the following data:
 
-- Namespace: The name of the plugin.
-- Execution Count: The total number of times the plugin has been executed.
-- Average Execution Time: The average time taken by the plugin to execute.
-- Median Execution Time: The 50th percentile (median) execution time.
-- 90th Percentile Execution Time: The 90th percentile execution time, showing the upper range of execution times.
-- Depth: The maximum depth of execution for the plugin.
+This query helps you identify plugins that might cause performance issues due to high execution times so that you can focus on optimizing them. It returns the following data:
+
+|Field |Description|
+|--|-|
+|Namespace|The name of the plugin. |
+|Execution Count|The total number of times the plugin has run.|
+|Average Execution Time|The average time taken by the plugin to run. |
+|Median Execution Time|The 50th percentile (median) execution time. |
+|90th Percentile Execution Time|The 90th percentile execution time, showing the upper range of execution times. |
+|Depth|The maximum depth of execution for the plugin. |
 
 The following subsections provide a detailed explanation of what each part of the query does.
 
@@ -89,6 +89,7 @@ dependencies
 | where type == 'Plugin'
 | where name !startswith 'Microsoft'
 ```
+
 ### Extract and convert execution time
 
 These lines convert the execution duration to a double and extract custom dimensions and depth for each plugin execution, considering only successful executions.  
@@ -168,10 +169,12 @@ pageViews
 
 This query helps you monitor and optimize form load performance, ensuring a smoother user experience. It returns the following data:
 
--	Cold and Warm Load Counts: The number of times forms are loaded cold (first load) versus warm (subsequent loads).  
--	Load Time Averages and Maximums: Average and maximum load times for both cold and warm loads, helping you identify any performance outliers.  
--	Percentile Load Times: The 50th and 90th percentile load times give you an idea of the typical and worst-case load times.  
--	Entity-Specific Analysis: The results are grouped by entityName, allowing you to pinpoint which entities might be experiencing slower load times.  
+|Field |Description|
+|--|-|
+|Cold and Warm Load Counts|The number of times forms are loaded cold (first load) versus warm (subsequent loads).|
+|Load Time Averages and Maximums|Average and maximum load times for both cold and warm loads, helping you identify any performance outliers.|
+|Percentile Load Times|The 50th and 90th percentile load times give you an idea of the typical and worst-case load times.|
+|Entity-Specific Analysis|The results are grouped by entityName, allowing you to pinpoint which entities might be experiencing slower load times.|
 
 The following subsections provide a detailed explanation of what each part of the query does.
 
@@ -193,7 +196,7 @@ This filter ensures that the query only considers page views related to the **Ed
 
 ### Simplify the load type
 
-This line simplifies the `loadType` field, categorizing it into two types: cold loads (0) and warm loads (1).
+This line simplifies the `loadType` field, categorizing it into two types|cold loads (0) and warm loads (1).
 
 ```kusto
 | extend LoadTypeSimple = iif(toint(cd.loadType) == 0, 0, 1)
@@ -217,13 +220,7 @@ This step projects only the relevant fields (LoadTypeSimple, duration, and entit
 
 ### Summarize data
 
-This summarization step calculates various metrics by `entityName`:  
-
--	ColdCount and WarmCount: The count of cold and warm loads.  
--	TotalCount: The total count of form loads.  
--	AvgColdLoad and AvgWarmLoad: The average load times for cold and warm loads, rounded to the nearest integer.  
--	MaxColdLoad and MaxWarmLoad: The maximum load times for cold and warm loads.  
--	P50FormLoad and P90FormLoad: The 50th and 90th percentile load times, providing insights into the median and upper range of load times.
+This summarization step calculates various metrics by `entityName`.
 
 ```kusto
 | summarize ColdCount=countif(LoadTypeSimple==0),
@@ -236,6 +233,14 @@ This summarization step calculates various metrics by `entityName`:
        P50FormLoad=percentile(duration, 50),
        P90FormLoad=percentile(duration, 90) by entityName
 ```
+
+|Field |Description|
+|--|-|
+|ColdCount and WarmCount|The count of cold and warm loads.|
+|TotalCount|The total count of form loads.|
+|AvgColdLoad and AvgWarmLoad|The average load times for cold and warm loads, rounded to the nearest integer.|
+|MaxColdLoad and MaxWarmLoad|The maximum load times for cold and warm loads.|
+|P50FormLoad and P90FormLoad|The 50th and 90th percentile load times, providing insights into the median and upper range of load time.|
 
 ### Order by total count
 
@@ -271,12 +276,13 @@ by
     COUNTRY
 ```
 
-
 The query returns the following data:
 
-- User and Location-Based Analysis: The query breaks down performance metrics by user ID and country/region, allowing you to see how network performance varies across different users and locations.
-- Throughput Metrics: The query provides insights into the minimum, maximum, and average throughput experienced by users, helping you identify regions or users that may be facing network performance issues.
-- Custom Dimensions: By projecting fields like `APPMODULE`, `PAGENAME`, and `ENTITYNAME`, you can further analyze which specific parts of your application may be contributing to performance issues in different locations.
+|Field |Description|
+|--|-|
+|User and Location-Based Analysis|The query breaks down performance metrics by user ID and country/region, allowing you to see how network performance varies across different users and locations.|
+|Throughput Metrics|The query provides insights into the minimum, maximum, and average throughput experienced by users, helping you identify regions or users that might face network performance issues.|
+|Custom Dimensions|By projecting fields like `APPMODULE`, `PAGENAME`, and `ENTITYNAME`, you can further analyze which specific parts of your application contribute to performance issues in different locations.|
 
 The following subsections provide a detailed explanation of what each part of the query does.
 
@@ -301,13 +307,16 @@ This line parses the `customDimensions` field into a JSON object, allowing for e
 ### Project the relevant fields
 
 This step selects and renames relevant fields from the data:
-- USERID: The user’s ID.
-- COUNTRY: The country or region of the client.
-- APPMODULE: The specific application module being used.
-- PAGENAME: The name of the page being accessed.
-- ENTITYNAME: The name of the entity being interacted with.
-- LATENCY: The latency of the network connection (specific to warm connections).
-- THROUGHPUT: The throughput of the network connection (specific to warm connections).
+
+|Field |Description|
+|--|-|
+|USERID | The user's ID. |
+|COUNTRY|The country or region of the client.|
+|APPMODULE | The specific application module being used. |
+|PAGENAME | The name of the page being accessed. |
+|ENTITYNAME | The name of the entity being interacted with. |
+|LATENCY | The latency of the network connection (specific to warm connections). |
+|THROUGHPUT | The throughput of the network connection (specific to warm connections). |
 
 ```kusto
 | project
@@ -323,9 +332,12 @@ This step selects and renames relevant fields from the data:
 ### Summarize the network performance metrics
 
 This summarization step calculates key metrics by `USERID` and `COUNTRY`:
-- min(todouble(THROUGHPUT)): The minimum throughput value for the user's sessions.
-- max(todouble(THROUGHPUT)): The maximum throughput value for the user's sessions.
-- avg(todouble(THROUGHPUT)): The average throughput value for the user's sessions.
+
+|Field |Description|
+|--|-|
+|min(todouble(THROUGHPUT)) | The minimum throughput value for the user's sessions. |
+|max(todouble(THROUGHPUT)) | The maximum throughput value for the user's sessions.|
+|avg(todouble(THROUGHPUT)) | The average throughput value for the user's sessions. |
 
 ```kusto
 | summarize
@@ -351,11 +363,13 @@ dependencies
 | limit 10
 ```
 
-This query is valuable for improving the reliability and performance of your application by identifying and addressing the plugins that are most prone to failure. It returns the following data:
+This query is valuable for improving the reliability and performance of your application. It identifies and addresses the plugins that are most prone to failure. It returns the following data:
 
-- Plugin Types with the Most Failures: The query identifies the top 10 plugins with the highest number of failed executions.  
-- Number of Requests, Passes, and Failures: For each of the top 10 plugins, the query shows the total number of executions, the number of successful executions, and the number of failed executions.   
-- Focus on Troubleshooting: By highlighting the plugins with the most failures, this query helps you prioritize which plugins need immediate attention for troubleshooting and optimization.  
+|Field |Description|
+|--|-|
+|Plugin Types with the Most Failures | The query identifies the top 10 plugins with the highest number of failed executions. |
+|Number of Requests, Passes, and Failures| For each of the top 10 plugins, the query shows the total number of executions, the number of successful executions, and the number of failed executions.|
+|Focus on Troubleshooting | The query highlights the plugins with the most failures so that you can prioritize which plugins need immediate attention for troubleshooting and optimization. |
 
 The following subsections provide a detailed explanation of what each part of the query does.
 
@@ -378,11 +392,14 @@ This command parses the customDimensions field into a JSON object, making it eas
 
 ### Project the relevant fields
 
-In this step, the query selects and renames relevant fields:  
--	timestamp: The time when the plugin execution occurred.  
--	success: Indicates whether the plugin execution was successful or not.  
--	correlationId: A unique identifier to correlate plugin executions.  
--	typeName: The type or name of the plugin, extracted from the custom dimensions.  
+In this step, the query selects and renames relevant fields.
+
+|Field |Description|
+|--|-|
+|timestamp | The time when the plugin execution occurred. |
+|success| Indicates whether the plugin execution was successful or not.|
+|correlationId | A unique identifier to correlate plugin executions. |
+|typeName | The type or name of the plugin, extracted from the custom dimensions. |
 
 ```kusto
 | project timestamp, success, correlationId = cd.correlationId, typeName = cd.pluginType
@@ -390,12 +407,15 @@ In this step, the query selects and renames relevant fields:
 
 ### Summarize plugin execution data
 
-This summarization step calculates key metrics for each plugin type:  
+This summarization step calculates key metrics for each plugin type.
 
--	NumberofRequest: The total number of requests (executions) for the plugin.  
--	Passed: The number of successful executions.  
-- Failed: The number of failed executions.  
-The results are grouped by typeName, which represents the plugin type or name.  
+|Field |Description|
+|--|-|
+|NumberofRequest|The total number of requests (executions) for the plugin.|
+|Passed|The number of successful executions.|
+|Failed|The number of failed executions.|
+
+The results are grouped by `typeName`, which represents the plugin's type or name.  
 
 ```kusto
 | summarize NumberofRequest = count(), Passed = dcountif(timestamp, success == "True"), Failed = dcountif(timestamp, success == "False") by tostring(typeName)
@@ -403,7 +423,7 @@ The results are grouped by typeName, which represents the plugin type or name.
 
 ### Order and limit the results
 
-Finally, the query orders the results by the number of failed executions in descending order and limits the output to the top 10 plugins with the most failures. This focuses the analysis on the most problematic plugins.
+Finally, the query orders the results by the number of failed executions in descending order and limits the output to the top 10 plugins with the most failures. This way, your analysis can focus on the most problematic plugins.
 
 ```kusto
 | order by Failed desc
@@ -412,7 +432,7 @@ Finally, the query orders the results by the number of failed executions in desc
 
 ## Plugins with depth greater than two
 
-This query is designed to identify plugins that are executed with a depth greater than 2, which could indicate potential performance issues or complex plugin chains. The depth of a plugin execution refers to how many layers deep the plugin is in the execution chain. By focusing on plugins with higher depths, this query helps you understand and optimize complex plugin executions.
+This query is designed to identify plugins that are executed with a depth greater than two, which could indicate potential performance issues or complex plugin chains. The depth of a plugin execution refers to how many layers deep the plugin is in the execution chain. The query focuses on plugins with higher depths to help you understand and optimize complex plugin executions.
 
 ```kusto
 dependencies
@@ -431,9 +451,11 @@ dependencies
 
 This query is valuable for understanding and optimizing the performance of plugins with deep execution chains, helping you identify and address potential bottlenecks in your application. It returns the following data:
 
-- Plugins with High Execution Depth: The query identifies plugins that are executed with a depth greater than 2, which can indicate complex or potentially problematic plugin chains.  
-- Execution Metrics: It shows the total number of executions and the 95th percentile of execution duration, which helps identify plugins that might be causing performance issues.  
-- Maximum Depth by Plugin: By summarizing the maximum depth of execution for each plugin, the query highlights the most complex plugin executions in your system.  
+|Field |Description|
+|--|-|
+|Plugins with High Execution Depth|The query identifies plugins that are executed with a depth greater than two, which can indicate complex or potentially problematic plugin chains.|
+|Execution Metrics|It shows the total number of executions and the 95th percentile of execution duration, which helps identify plugins that might be causing performance issues.|
+|Maximum Depth by Plugin|The query summarizes the maximum depth of execution for each plugin and highlights the most complex plugin executions in your system.|
 
 The following subsections provide a detailed explanation of what each part of the query does.
 
@@ -468,8 +490,10 @@ These lines filter out Microsoft out-of-the-box plugins and focus on custom plug
 
 This summarization step calculates several metrics by depth, plugin name, and weekly time bins:
 
-- count(): The total number of plugin executions for each depth and name.  
-- P95 and P95s: The 95th percentile of the execution duration, giving insight into the longer execution times.  
+|Field |Description|
+|--|-|
+|count()|The total number of plugin executions for each depth and name.|
+|P95 and P95s|The 95th percentile of the execution duration, giving insight into the longer execution times.|
 
 ```kusto
 | summarize count(), (P95)=percentiles(duration,95), (P95s)=percentile(toint(duration),95) by depth, name, bin(timestamp, 7d)
@@ -498,13 +522,15 @@ Finally, the query projects key fields such as plugin name, depth, and 95th perc
 
 In addition to using Kusto queries directly within the Azure portal, you can use Azure Data Explorer Dashboards to visualize the results of these queries and create interactive, real-time reports. It's a powerful way to monitor and analyze the telemetry data from your Dynamics 365 Customer Service environment at a glance. We created a dashboard that you can directly import into your Azure Data Explorer environment.  
 
-The dashboard file and the instructions to link it to your ApplicationInsights subscription are in the GitHub repo at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/Dataverse).
+The dashboard file and the instructions to link it to your ApplicationInsights subscription are in the GitHub repo at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/Dataverse).  
+
+The following image illustrates the layout of the dashboard based on sample data.
 
 :::image type="content" source="media/cs-dataverse-appinsights/Dashboard.png" alt-text="Screenshot of the Azure Data Expleror sample Dashboard." lightbox="media/cs-dataverse-appinsights/Dashboard.png":::
 
 With Azure Data Explorer dashboards, you can create interactive filters. You can filter by date ranges, specific regions, or even plugin names, so that you can explore data relevant to your specific needs.  
 
-Once your dashboard is ready, you can take the following steps:  
+Once your dashboard is ready, you can take the following steps| 
 
 - Share the dashboard with anyone in your organization by granting them access to view or edit the dashboard in Azure Data Explorer.  
 - Alternatively, embed the dashboard into your own portal or website using the embedding features provided by Azure.  
