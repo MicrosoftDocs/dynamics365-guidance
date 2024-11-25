@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: overview #Required; don't change.
-ms.date: 07/10/2024
+ms.date: 11/22/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -54,4 +54,4 @@ In the table, the *Catalog ID* column specifies the unique ID of the end-to-end 
 
 Drill into each business process area to learn more about it. Navigate the content through links in the different articles, or use the navigation panel to the left (or in the top right corner if you're on a mobile device).  
 
-If you see a placeholder rather than an actual article, it's because more content is coming. Learn more at [About the business process guide](about.md).  
+If you see a placeholder rather than an actual article, it's because more content is coming. Learn more at [About the business process catalog](about.md).  

@@ -714,9 +714,9 @@ items:
           href: business-processes/index.yml
         - name: Get started
           items:
-          - name: Introduction
+          - name: Overview of end-to-end scenarios
             href: business-processes/overview.md
-          - name: About the business process guide
+          - name: About the business process catalog
             href: business-processes/about.md
           - name: Glossary of terms
             href: business-processes/glossary.md
@@ -850,10 +850,16 @@ items:
             items:
             - name: Onboard and manage the employee lifecycle
               href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
+            - name: Hire new employees
+              href: business-processes/hire-to-retire-onboard-hire-employees.md
             - name: Onboard new hires
               href: business-processes/hire-to-retire-onboard-new-hires.md
             - name: Update employee records
               href: business-processes/hire-to-retire-update-employee-records.md
+            - name: Transfer employees
+              href: business-processes/hire-to-retire-onboard-transfer-employees.md
+            - name: Terminate employee
+              href: business-processes/hire-to-retire-onboard-terminate-employment.md
           - name: Manage employee performance and growth
             href: business-processes/hire-to-retire-manage-employee-performance-growth.md
           - name: Manage occupational health and safety

@@ -1,10 +1,10 @@
 ---
 title: About the business process catalog for Dynamics 365 apps
-description: Learn about the business process catalog for Dynamics 365, what it is, and how to navigate and learn from the catalog.
+description: Learn about the business process catalog for Dynamics 365, what it is, how to navigate in it, and what you can learn from the catalog.
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual #Required; don't change.
-ms.date: 07/11/2024
+ms.date: 11/22/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -40,12 +40,12 @@ The business process articles contain abbreviations that you won't see anywhere 
 
 ## Business process flow diagrams
 
-Each article, be it for an end-to-end scenario or a pattern, includes a diagram that shows how that business process fits into the work of a typical organization. We share the diagrams as PowerPoint presentations in a GitHub repo so that each organization can choose to download a flow diagram and customize it to fit their particular workflow.  
+Each article, be it for an end-to-end scenario or a pattern, includes a diagram that shows how that business process fits into the work of a typical organization. We share the diagrams as Visio files or PowerPoint presentations in a GitHub repo so that each organization can choose to download a flow diagram and customize it to fit their particular workflow.  
 
 Find the source files at [https://aka.ms/businessprocessflow](https://aka.ms/businessprocessflow).
 
 > [!NOTE]
-> When you navigate to the specified link, you can't view the .pptx files in GitHub. Instead, you can download the files by opening the file's page on GitHub, then selecting the **Download raw file** option.
+> When you navigate to the specified link, you can't view the .vsdx or .pptx files in GitHub. Instead, you can download the files by opening the file's page on GitHub, then selecting the **View raw** or **Download raw file** option.
 
 ## Catalog IDs
 

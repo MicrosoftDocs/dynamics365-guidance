@@ -4,7 +4,7 @@ description: Discover how the Onboard and manage the employee lifecycle business
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 07/18/2024
+ms.date: 11/19/2024
 ai-usage: ai-assisted
 ---
 
@@ -42,27 +42,26 @@ Each of these stakeholders contributes specialized expertise to the successful o
 
 The following diagram illustrates the *onboard and manage the employee lifecycle* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
+> [!IMPORTANT]
+> The diagram doesn't reflect the latest version of the business process catalog. While we wait for an updated diagram, the list after the image reflects the latest version.
+
 :::image type="content" source="media\hire-to-retire-onboard-manage-employee-lifecycle.svg" alt-text="Diagram of the onboard and manage employee lifecycle business process area, connecting various business processes within the hire to retire area." lightbox="media\hire-to-retire-onboard-manage-employee-lifecycle.svg":::
 
 1. Start
 2. *Hire to retire*
 3. *Plan and recruit your workforce*
 4. *Onboard and manage the employee lifecycle*
-    1. *Enter worker details*
-        1. *Maintain worker details*
-    2. *Create an onboard checklist*
-        1. *Assign onboarding checklist to worker*
-    3. *Assign position*
-        1. *Manage worker position assignment*
-    4. *Manage compensation and benefits*
-        1. *Maintain compensation and benefits*
-    5. *Manage employee performance and growth*
-        1. *Maintain employee performance and growth*
-    6. *Enroll leave plans*
-        1. *Manage leave enrollment and balances*
-
-        > [!NOTE]
-        > Not shown are connections to End from *Assign onboarding checklist to worker*, *Manage worker position assignments*, and *Manage leave enrollment and balances*.
+    1. *Hire employees*  
+    2. *Onboard new hires*  
+    3. *Update employee records*  
+    4. *Create and manage teams*
+    5. *Communicate issue and changes with HR*
+    6. *Transfer employees*  
+    7. *Generate employment verification letters*
+    8. *Employee relocation*
+    9. *Terminate employee*
+        <!-- > [!NOTE]
+        > Not shown are connections to End from *Assign onboarding checklist to worker*, *Manage worker position assignments*, and *Manage leave enrollment and balances*. -->
 
 5. *Manage employee time and attendance*
 6. *Manage travel and expenses*
@@ -86,15 +85,24 @@ By analyzing onboarding data, you can identify trends and patterns that inform c
 
 ## Next steps
 
+If you want to implement Dynamics 365 solutions to assist with your *Onboard and manage employee lifecycle* business process area, you can use the following business processes. Use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+
 1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-1. *Onboard and manage the employee lifecycle* (the article you're currently reading)
-    1. [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
-    1. [Update employee records](hire-to-retire-update-employee-records.md)  
-1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-1. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-1. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-1. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
-1. [Manage employee benefits, compensation, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)
+2. *Onboard and manage the employee lifecycle* (the article you're currently reading)
+    1. [Hire employees](hire-to-retire-onboard-hire-employees.md)  
+    2. [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
+    3. [Update employee records](hire-to-retire-update-employee-records.md)  
+    4. Create and manage teams
+    5. Communicate issue and changes with HR
+    6. [Transfer employees](hire-to-retire-onboard-transfer-employees.md)  
+    7. Generate employment verification letters
+    8. Employee relocation
+    9. [Terminate employee](hire-to-retire-onboard-terminate-employment.md)  
+3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
+4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
+7. [Manage employee benefits, compensation, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)
 
 ### See also
 
