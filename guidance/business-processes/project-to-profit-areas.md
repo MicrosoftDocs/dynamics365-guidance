@@ -1,13 +1,13 @@
 ---
-title: Govern projects with the project to profit business process area
-description: Get an overview for each of the business process areas in the project to profit end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 10/20/2023
+title: Overview of the Project to profit business process areas
+description: Get an overview for each of the business process areas in the Project to profit end-to-end business process flow in Dynamics 365 solutions. Learn how you can govern projects and manage scope with Dynamics 365.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: marwalke
 ---
 
-# Govern projects and manage scope with the project to profit business process area
+# Overview of the Project to profit business process areas
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

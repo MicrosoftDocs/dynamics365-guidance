@@ -1,14 +1,14 @@
 ---
-title: Define production operations with the plan to produce process
-description: Get an overview for each of the business process areas in the plan to produce end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 01/23/2024
+title: overview of the Plan to produce business process areas
+description: Get an overview for each of the business process areas in the Plan to produce end-to-end business process flow in Dynamics 365 solutions. Learn how you can define, plan, run, control, and track production operations with Dynamics 365.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
 ms.reviewer: edupont
 ---
 
-# Define, plan, run, control, and track production operations with the plan to produce process
+# Overview of the Plan to produce business process areas
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Dynamics 365 Business Central, Power Apps, Power BI, Power Automate***
 
@@ -16,7 +16,7 @@ The plan to produce process is broken down into business process areas for defin
 
 ## Define production strategies
 
-Definition of production strategies encompasses foundational steps that enable an organization to carry out the rest of the plan to produce process. These steps might include choosing a mode of production, identifying the production resources, defining inputs and outputs of the production process, and establishing standard production operating procedures. This information feeds the setup for products such as bills of materials (BOMs) and routes. It also feeds production configurations such as capacity, lead times, and scheduling logic. 
+Definition of production strategies encompasses foundational steps that enable an organization to carry out the rest of the plan to produce process. These steps might include choosing a mode of production, identifying the production resources, defining inputs and outputs of the production process, and establishing standard production operating procedures. This information feeds the setup for products such as bills of materials (BOMs) and routes. It also feeds production configurations such as capacity, lead times, and scheduling logic.  
 
 Learn more at [Define production strategies](plan-to-produce-define-production-strategies.md).
 

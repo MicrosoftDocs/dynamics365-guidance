@@ -1,18 +1,18 @@
 ---
-title: The prospect to quote process broken down into process areas
+title: Overview of the Prospect to quote business process areas
 description: Get an overview for each of the business process areas in the prospect to quote end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 10/31/2023
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
 ms.reviewer: edupont
 ---
 
-# The prospect to quote process broken down into business process areas
+# Overview of the Prospect to quote business process areas
 
-***Applies to: Dynamics 365***, ***Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales***
+***Applies to: Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales***
 
-The prospect to quote process is broken down into business process areas. The following sections further describe the business process areas.
+The *Prospect to quote* process is broken down into business process areas. The following sections further describe the business process areas.
 
 ## Define sales strategy
 
@@ -62,7 +62,7 @@ Gain insights from service delivery to improve future sales efforts. While Dynam
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, learn more at the following resources and steps.
+If you want to implement Dynamics 365 solutions to assist with your *Prospect to quote* business processes, learn more at the following resources and steps.
 
 1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
 2. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)

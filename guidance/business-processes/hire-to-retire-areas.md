@@ -1,13 +1,13 @@
 ---
-title: Hire to retire process areas broken down into multiple areas
+title: Overview of Hire to retire business process areas
 description: Get an overview for each of the business process areas in the hire to retire end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 01/23/2024
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
 ---
 
-# Hire to retire business process areas broken down into multiple business process areas
+# Overview of Hire to retire business process areas
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
