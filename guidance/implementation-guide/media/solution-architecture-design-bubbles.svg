@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="514.26703"
+   height="471.47263"
+   overflow="hidden"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="solution-architecture-design-bubbles.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3820312"
+     inkscape:cx="81.233191"
+     inkscape:cy="281.90226"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <g
+     id="g8"
+     transform="translate(-558.76678,-78.084618)">
+    <rect
+       x="558.76678"
+       y="78.084618"
+       width="514.26703"
+       height="471.47263"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.512922" />
+    <path
+       d="m 716,183 c 0,-55.228 44.772,-100 100,-100 55.228,0 100,44.772 100,100 0,55.228 -44.772,100 -100,100 -55.228,0 -100,-44.772 -100,-100 z"
+       fill="#ffb900"
+       fill-rule="evenodd"
+       id="path1" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(784.508,190)"
+       id="text1">People</text>
+    <path
+       d="m 942.795,247.181 13.272,22.988 11.704,-6.757 -15.987,39.882 -42.532,-6.096 11.704,-6.757 -13.273,-22.989 z"
+       fill="#ffb900"
+       fill-rule="evenodd"
+       id="path2" />
+    <path
+       d="m 866,443 c 0,-55.228 44.995,-100 100.5,-100 55.5,0 100.5,44.772 100.5,100 0,55.228 -45,100 -100.5,100 C 910.995,543 866,498.228 866,443 Z"
+       fill="#eb7501"
+       fill-rule="evenodd"
+       id="path3" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(921.078,450)"
+       id="text3">Processes</text>
+    <path
+       d="M 843,495.4 H 816.5 V 509 L 790,475 816.5,441 v 13.6 H 843 Z"
+       fill="#eb7501"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="m 566,443 c 0,-55.228 44.772,-100 100,-100 55.228,0 100,44.772 100,100 0,55.228 -44.772,100 -100,100 -55.228,0 -100,-44.772 -100,-100 z"
+       fill="#d83b01"
+       fill-rule="evenodd"
+       id="path5" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(644.204,450)"
+       id="text5">Data</text>
+    <path
+       d="m 657.064,293.893 13.273,-22.988 -11.704,-6.757 42.531,-6.096 15.987,39.881 -11.703,-6.757 -13.273,22.989 z"
+       fill="#d83b01"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="m 717,345.5 c 0,-51.086 44.548,-92.5 99.5,-92.5 54.952,0 99.5,41.414 99.5,92.5 0,51.086 -44.548,92.5 -99.5,92.5 -54.952,0 -99.5,-41.414 -99.5,-92.5 z"
+       fill-rule="evenodd"
+       id="path7" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(777.425,336)"
+       id="text7">Solution</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(785.171,361)"
+       id="text8">design</text>
+  </g>
+</svg>

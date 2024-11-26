@@ -1,12 +1,12 @@
 ---
-title: Update employee records 
+title: Overview of the Update employee records business process 
 description: Discover how the Update employee records business process can help you optimize and foster a productive work environment.
-ms.date: 07/18/2024
+ms.date: 11/19/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
 ---
-# Update employee records
+# Overview of the Update employee records business process
 
 ***Applies to: Dynamics 365 Human Resources***
 
@@ -108,7 +108,7 @@ If you want to implement Dynamics 365 solutions to assist with your *update empl
 
 2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)  
 
-    - Hire an employee
+    - [Hire an employee](hire-to-retire-onboard-hire-employees.md)  
 
     - [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
 
@@ -118,13 +118,13 @@ If you want to implement Dynamics 365 solutions to assist with your *update empl
 
     - Communicate issue and changes with HR
 
-    - Transfer employee
+    - [Transfer employee](hire-to-retire-onboard-transfer-employees.md)  
 
     - Generate employment verification letters
 
     - Employee relocation
 
-    - Terminate employee
+    - [Terminate employee](hire-to-retire-onboard-terminate-employment.md)  
 
 3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)  
 

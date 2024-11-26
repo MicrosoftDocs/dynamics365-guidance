@@ -1,14 +1,14 @@
 ---
-title: Overview of acquire to dispose business process areas
-description: Get an overview for each of the business process areas in the acquire to dispose end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 09/08/2023
+title: Overview of the Acquire to dispose business process areas
+description: Get an overview for each of the business process areas in the Acquire to dispose end-to-end business process in Dynamics 365 solutions.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: archanap
 
 ---
 
-# Overview of acquire to dispose business process areas
+# Overview of the Acquire to dispose business process areas
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 

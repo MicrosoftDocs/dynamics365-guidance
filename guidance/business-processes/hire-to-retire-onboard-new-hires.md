@@ -1,12 +1,12 @@
----
-title: Onboard new hires
+﻿---
+title: Overview of the Onboard new hires business process
 description: Discover how the Onboard new hires business process can help you optimize onboarding new employees and foster a productive work environment.
-ms.date: 07/19/2024
+ms.date: 11/19/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
 ---
-# Onboard new hires
+# Overview of the Onboard new hires business process
 
 ***Applies to: Dynamics 365 Human Resources***
 
@@ -74,7 +74,7 @@ The following list describes the stakeholders in the *Onboard new hires* busines
 
 3. **Process the onboarding**
 
-   All the checklist tasks that were triggered must be actioned upon by the relevant stakeholders across the organization to be completed.
+   All the checklist tasks that were triggered must be acted upon by the relevant stakeholders across the organization to be completed.
 
 4. **Manage the onboarding process**
 
@@ -139,7 +139,7 @@ If you want to implement Dynamics 365 solutions to assist with your *onboard new
 
 2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)  
 
-    - Hire an employee
+    - [Hire an employee](hire-to-retire-onboard-hire-employees.md)  
 
     - *Onboard new hires* (the article you're currently reading)
 
@@ -149,13 +149,13 @@ If you want to implement Dynamics 365 solutions to assist with your *onboard new
 
     - Communicate issue and changes with HR
 
-    - Transfer employee
+    - [Transfer employee](hire-to-retire-onboard-transfer-employees.md)  
 
     - Generate employment verification letters
 
     - Employee relocation
 
-    - Terminate employee
+    - [Terminate employee](hire-to-retire-onboard-terminate-employment.md)
 
 3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)  
 
@@ -188,6 +188,7 @@ The following patterns are available to help guide your implementation of the *o
 You can use the following resources to learn more about the *onboard new hires* and other processes in Dynamics 365 Human Resources:
 
 - [Organize your workforce by using departments, jobs, and positions](/dynamics365/human-resources/hr-personnel-departments-jobs-positions)  
+- [Personnel management workspace](/dynamics365/human-resources/hr-personnel-personnel-management-workspace)  
 - [Human Resources overview](/dynamics365/human-resources/hr-admin-overview)
 - [Dynamics 365 Human Resources documentation](/dynamics365/human-resources/)  
 <!-- 

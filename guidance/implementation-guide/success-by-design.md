@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
-ms.date: 03/24/2023
+ms.date: 11/21/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
@@ -89,11 +89,19 @@ Success by Design maps the Dynamic 365 implementation lifecycle into four method
 
 :::image type="content" source="media/success-by-design-phases.png" alt-text="Four bubbles to represent the four phases, Initiate, Implement, Prepare, Operate." lightbox="media/success-by-design-phases.png":::
 
+### Initiate
+
 In the **Initiate phase**, the project team is in discovery mode, gathering and validating business requirements, finalizing the high-level solution approach, making inroads to define all in-scope workstreams, and updating the project plan to reflect these updates. When the project team has produced the high-level solution design and the related project workstreams are more or less defined, Success by Design begins with the Solution Blueprint Review. Learn more in the section [Success by Design reviews](#success-by-design-reviews).  
+
+### Implement
 
 In the **Implement phase**, the project team is focused on building the solution per the agreed upon solution design and scope. This phases introduces *Implementation Reviews* that come from the findings and recommendations of the Solution Blueprint Review. As we learn in the section [Success by Design reviews](#success-by-design-reviews) section, Implementation Reviews help you more deeply address questions related to the specific aspects of the solution design (data model, security, and integration) and implementation practices (ALM, testing strategy). Implementation Reviews are meant to fully address the risks identified during or after the Solution Blueprint Review but before the solution build is too far along.
 
+### Prepare
+
 By the **Prepare phase**, the solution has been built and tested and the project team is preparing for the final round of user acceptance testing (UAT) and training. Additionally, all necessary customer approvals have been granted, information security reviews completed, the cutover plan defined (including go/no-go criteria), mock go-lives scheduled, the support model ready, and the deployment runbook completed with tasks, owners, durations, and dependencies defined. At this point, the project team uses the Success by Design Go live Readiness Review to identify any remaining gaps or issues.
+
+### Operate
 
 In the **Operate phase**, the customer solution is live. The goal of this phase is stabilization and a shift in focus towards functionality and enhancements that are earmarked for the next phase of the project.
 
@@ -185,19 +193,21 @@ Considering the pace of cloud solutions and the investment that organizations ma
 
 Microsoft believes that every business is in the business of creating great customer experiences. To achieve that, business applications must do more than just separately run your back office, marketing, supply chain, or even field operations. They must give you the agility to remove every barrier in your way. When this happens, business applications become more than just operational solutions. They become resilient solutions that enable the digital feedback loop and adapt to customer demands, delivering stronger, more engaging experiences around the products you make and services you provide.
 
-> [!NOTE]
-> If you're using Success by Design in your Dynamics 365 implementation project, we want to hear from you! To share your Success by Design feedback and experiences, reach out to us at [successbydesign@microsoft.com](mailto:successbydesign@microsoft.com).
+<!-- > [!NOTE]
+> If you're using Success by Design in your Dynamics 365 implementation project, we want to hear from you! To share your Success by Design feedback and experiences, reach out to us at [successbydesign@microsoft.com](mailto:successbydesign@microsoft.com). -->
 
 ## Success by Design evolution
 
-From the moment that FastTrack for Dynamics 365 was born, Microsoft began to ask itself: How can we change the FastTrack approach so that our solution architects can address technical and project risks of a project before they manifest as problems impacting our customer’s investment in Dynamics 365? Our internal process evolve, team members learn and share their knowledge, and Success by Design evolves over time. Get [an inside look](success-by-design-story.md) into how we developed the Success by Design framework.  
+From the moment that FastTrack for Dynamics 365 was born, Microsoft began to ask itself: How can we change the FastTrack approach so that our solution architects can address technical and project risks of a project before they manifest as problems impacting our customer's investment in Dynamics 365? Our internal process evolve, team members learn and share their knowledge, and Success by Design evolves over time. Get [an inside look](success-by-design-story.md) into how we developed the Success by Design framework. Otherwise, check the links in the next section. 
 
 ## Next steps
 
-- [Implementing cloud solutions](implementing-cloud-solutions.md)  
+- [Implement cloud solutions](implementing-cloud-solutions.md)  
 - [Drive app value](drive-app-value.md)  
 - [Implementation strategy](implementation-strategy.md)  
 - [Solution architecture design pillars](solution-architecture-design-pillars.md)  
 - [Process-focused solution](process-focused-solution.md)  
 - [Project governance](project-governance.md)  
-- [Testing strategy](testing-strategy.md)  
+- [Define the organizational structure in Dynamics 365](../organizational-strategy/define-organizational-strategy.md)  
+- [Bring successful solutions to customers with application lifecycle management (ALM) strategies](application-lifecycle-management.md)  
+- [Test your Dynamics 365 solution before deployment](testing-strategy.md)  

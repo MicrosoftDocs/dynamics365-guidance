@@ -1,13 +1,13 @@
 ---
-title: Overview of the design to retire process areas
-description: Get an overview for each of the business process areas in the design to retire end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 11/24/2023
+title: Overview of the Design to retire process areas
+description: Get an overview for each of the business process areas in the Design to retire end-to-end business process flow in Dynamics 365 solutions.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Overview of the design to retire process areas for introducing new products
+# Overview of the Design to retire process areas for introducing new products
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
