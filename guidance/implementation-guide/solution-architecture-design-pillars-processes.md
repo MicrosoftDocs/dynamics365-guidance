@@ -4,7 +4,7 @@ description: Learn how to define and improve your business processes for a succe
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
-ms.date: 01/11/2024
+ms.date: 11/21/2024
 ms.topic: conceptual
 ms.custom:
   - ai-seo-date: 01/11/2024
@@ -57,7 +57,7 @@ Process architecture includes several dependent activities:
 
   As part of the process, data goes in as input exchanged between people and applications, and data goes out as output in the form of documents, analysis, and reports.
 
-  :::image type="content" source="media/solution-architecture-design-bubbles.png" alt-text="Diagram showing four interlocking circles to illustrate the idea that solution design (the center circle) encompasses people, data, processes." lightbox="media/solution-architecture-design-bubbles.png":::
+  :::image type="content" source="media/solution-architecture-design-bubbles.svg" alt-text="Diagram showing four interlocking circles to illustrate the idea that solution design (the center circle) encompasses people, data, processes." lightbox="media/solution-architecture-design-bubbles.svg":::
 
 - **Test management**: After the solution is designed and developed, the process architecture establishes a baseline for testing. When you test every process, you ensure that every requirement is addressed and the solution is appropriate. Learn more at [Testing strategy](testing-strategy.md).
 
@@ -65,29 +65,45 @@ Process architecture includes several dependent activities:
 
 ## Key deliverables related to processes
 
-**Process architecture map**: A visual presentation of your business processes.
+This section outlines and illustrates the key deliverables.
+
+- *Process architecture map*
+
+  The process architecture map is a visual presentation of your business processes as illustrated in the following image.
 
   :::image type="content" source="media/processarchitecturemap.png" alt-text="Diagram of a process architecture map in the form of a simplified Kanban board." lightbox="media/processarchitecturemap.png":::
 
-**Process catalog or inventory and taxonomy**: A sequenced list of the processes, uploaded to Microsoft Dynamics Lifecycle Services (LCS) and synchronized with Azure DevOps Services.
+- *Process catalog* or *inventory and taxonomy*  
+
+  The process catalog or inventory and taxonomy is a sequenced list of the processes, based on [the business process catalog](../business-processes/about.md) that you customize for the project and import into Azure DevOps Services or similar tools.
 
   :::image type="content" source="media/spreadsheet.png" alt-text="A table with no content provided as an example of a process catalog or inventory and taxonomy." lightbox="media/spreadsheet.png":::
 
-**Linear and cross-functional process flows**: These flows show the input, output, and activities at process and subprocess levels to help you figure out how to change a process to meet requirements. You can add details such as assumptions, metrics, timelines, and costs.
+- *Linear and cross-functional process flows*  
 
-- Linear flow**
+  These flows show the input, output, and activities at process and subprocess levels to help you figure out how to change a process to meet requirements. You can add details such as assumptions, metrics, timelines, and costs.
 
-  :::image type="content" source="media/linearflow.png" alt-text="Flowchart showing a linear flow." lightbox="media/linearflow.png":::
+  - Linear flows
 
-- Process flow**
+    The first image shows a simplified linear flow from concept to market. The second image shows a linear flow for the product ideation phase.
 
-  :::image type="content" source="media/processflows.png" alt-text="Simplified diagram of a process flow." lightbox="media/processflows.png":::
+    :::image type="content" source="media/solution-architecture-linear-flow.svg" alt-text="Flowchart that shows a linear flow from left to right." lightbox="media/solution-architecture-linear-flow.svg":::
 
-**Requirements traceability matrix**: Links requirements throughout the validation process, and is a key deliverable for requirements management.
+    :::image type="content" source="media/solution-architecture-linear-flow-ideation.svg" alt-text="Flowchart that shows a linear flow from left to right with the product ideation phase." lightbox="media/solution-architecture-linear-flow-ideation.svg":::
+
+  - Process flow
+
+    :::image type="content" source="media/solution-architecture-process-flow.svg" alt-text="Simplified diagram of a process flow." lightbox="media/solution-architecture-process-flow.svg":::
+
+- *Requirements traceability matrix*  
+
+  The traceability matrix links requirements throughout the validation process, and is a key deliverable for requirements management.
 
   :::image type="content" source="media/rtm.png" alt-text="Two overlapping tables with no content, and an arrow pointing from the bottom table to the top table, illustrating a simplified requirements traceability matrix." lightbox="media/rtm.png":::
 
-**Fit gap assessment**: At this point, you mark which requirements and respective processes the system will address, and which ones require customization.
+- *Fit gap assessment*  
+
+  At this point, you mark which requirements and respective processes the system will address, and which ones require customization.
 
   :::image type="content" source="media/spreadsheet.png" alt-text="A table with no content provided as an example of a fit gap assessment." lightbox="media/spreadsheet.png":::
 
@@ -98,3 +114,4 @@ Process architecture includes several dependent activities:
 - [Develop a solution strategy using Dynamics 365 apps and other technologies](solution-architecture-design-pillars-technology.md)
 - [Apply project management, change management, and governance and control methodologies for your solution](solution-architecture-design-pillars-methodology.md)
 - [Create a functional and technical design document for your solution](../patterns/create-functional-technical-design-document.md)
+- [About the business process catalog for Dynamics 365 apps and services](../business-processes/about.md)  
