@@ -1,20 +1,20 @@
 ---
-title: Hire to retire process areas broken down into multiple areas
+title: Overview of Hire to retire business process areas
 description: Get an overview for each of the business process areas in the hire to retire end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 01/23/2024
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: riblack
 ---
 
-# Hire to retire business process areas broken down into multiple business process areas
+# Overview of Hire to retire business process areas
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
 The *hire to retire* process is broken down into multiple business process areas. They're shown as sub-processes in the diagram in the article [Hire to retire end-to-end overview](hire-to-retire-overview.md), and we list them here:
 
 - [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)  
-- Onboard and manage the employee lifecycle
+- [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)  
 - Manage employee performance and growth
 - [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
 - Manage employee benefits, compensation, and pay
@@ -38,6 +38,8 @@ Learn more at [Plan and recruit your workforce overview](hire-to-retire-plan-rec
 This business process area involves onboarding new employees into the company. It includes welcoming new employees, assigning them initial tasks, notifying other departments, coordinating with other departments, and completing forms and essential paperwork. The task list features available out of the box when combined with the workflow engine or Power Automate, give organizations the flexibility for users to manage their tasks in an easy and efficient manner.
 
 This business process area involves managing the entire employee lifecycle within the company after an employee or contractor is hired. It includes things like updating employee records, and managing processes for employee transfer, promotion, relocation, termination, and succession planning.
+
+Learn more at link [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md).  
 
 ## Manage employee performance and growth
 

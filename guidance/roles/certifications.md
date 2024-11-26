@@ -4,7 +4,7 @@ description: Get an overview of Microsoft Credentials for different roles across
 author: edupont04
 ms.author: edupont
 ms.topic: overview
-ms.date: 08/20/2024
+ms.date: 11/18/2024
 ---
 
 # Microsoft Credentials for different roles in Dynamics 365
@@ -51,8 +51,9 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
 
 ## Solution architects
 
-- [Dynamics 365 Finance and Operations Apps Solution Architect Expert](/credentials/certifications/power-platform-solution-architect-expert/)  
+- [Dynamics 365 Finance and Operations Apps Solution Architect Expert](/credentials/certifications/d365-finance-and-operations-apps-solution-architect-expert/)  
 - [Power Platform Solution Architect Expert](/credentials/certifications/power-platform-solution-architect-expert/)  
+- [Dynamics 365 Business Central Developer Associate](/credentials/certifications/d365-business-central-developer-associate/)  
 
 ## Business owners and business users  
 

@@ -15,7 +15,7 @@ ms.custom:
 
 # Application Insights telemetry with Microsoft Dataverse
 
-***Applies to|Dynamics 365 Customer Service***
+***Applies to: Dynamics 365 Customer Service***
 
 This article discusses how you can capture telemetry data from your Microsoft Dataverse environment for use in [Application Insights](/azure/azure-monitor/app/app-insights-overview). Telemetry events for Dataverse provide performance data on various operations, such as API incoming calls, plug-in execution, and SDK calls. These events help monitor and analyze performance and failures, offering insights for troubleshooting and optimization. Key metrics include execution time, request counts, and success rates. Telemetry data supports both real-time and historical analytics, aiding in proactive system health monitoring and performance improvement.  
 
@@ -24,7 +24,7 @@ This article discusses how you can capture telemetry data from your Microsoft Da
 - Azure subscription  
 - Application Insights environment
 
-  You must have the relevant permissions with one of the following roles|*Contributor*, *Writer*, or *Admin*  
+  You must have the relevant permissions with one of the following roles: *Contributor*, *Writer*, or *Admin*  
 - Dataverse environment  
 
   If you have an environment with Dynamics 365 Customer Service, that environment includes Dataverse, Power Platform, and an Azure subscription.  

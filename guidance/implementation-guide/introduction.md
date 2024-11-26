@@ -3,7 +3,7 @@ title: Introduction to the Dynamics 365 implementation guide
 description: Meet the Dynamics 365 implementation guide and start learning the concepts behind successful implementations.
 author: timogossen
 ms.author: timogoss
-ms.date: 08/14/2024
+ms.date: 11/21/2024
 ms.topic: overview
 ms.custom: bap-template
 ---
@@ -22,7 +22,7 @@ In the predictive era, the new paradigm is that everything is a source of data a
 
 For companies that "grew up" in the predictive era, that paradigm is second nature. But for organizations with longer histories, it can be difficult to embrace the change. It requires a complete transformation of their capabilities and processes.
 
-At Microsoft, that kind of change isn't just a "what if." We've been pursuing our own transformation and faced many of the same challenges. The way we build products is at the heart of our transformation. Instead of the multiyear development cycle of traditional, on-premises products, we now deliver Dynamics 365 as a service that continuously gets better and is always up to date. It allows us to capture rich data about bugs and usage to inform ongoing feature development.
+At Microsoft, that kind of change isn't just a *what if*. We've been pursuing our own transformation and faced many of the same challenges. The way we build products is at the heart of our transformation. Instead of the multiyear development cycle of traditional, on-premises products, we now deliver Dynamics 365 as a service that continuously gets better and is always up to date. It allows us to capture rich data about bugs and usage to inform ongoing feature development.
 
 Our digital transformation influenced the way we run our own business&mdash;but it also influences how we think about success for our customers. Our vision is *to empower every person and every organization on the planet to achieve more*. Harnessing data to help you predict the future and intelligently guide your actions represents a core capability that invites organizations to achieve more by innovating everywhere.
 
@@ -38,7 +38,7 @@ With everything as a source of data and potential insight, our goal is simple: H
 
 :::image type="content" source="media/digitalfeedbackloop.png" alt-text="Diagram illustrating the digital feedback loop with data and AI in the middle and spin-offs for 'empower people,' 'transform products,' 'optimize operations,' and 'engage customers.'" lightbox="media/digitalfeedbackloop.png":::
 
-## Dynamics 365: Cloud-based apps for holistic, unified digital transformation
+## Cloud-based apps for holistic, unified digital transformation
 
 Keep the opportunities of the predictive era in mind as we take a step back for a moment. Looking back, it's clear that our company-wide push into the cloud set in motion the trajectory of what we know today as Dynamics 365. But our journey to the cloud started with our Dynamics CRM, Dynamics AX, and Dynamics NAV business applications. Those standalone Dynamics apps became the cloud-based Dynamics 365 business apps and platform. Dynamics 365 tells a powerful story as cloud-based business applications and a unified platform for digital transformation that cover the front office, the back office, and beyond.
 
@@ -46,7 +46,7 @@ Fast forward to today. Few of our competitors can offer a complete cloud busines
 
 Dynamics 365 is a portfolio of business applications that meets organizations where they are and invites them to digitally transform. Each app in the portfolio is designed to remove barriers and eliminate silos by working with existing systems&mdash;or the entire family of Dynamics 365 apps&mdash;to achieve outcomes you simply can't get unless every part of the business is connected seamlessly.
 
-## Our data-first Dynamics 365 strategy
+## Our data-first strategy for Dynamics 365
 
 Whether your business already uses Dynamics 365 or is still thinking about it, understanding our vision for the Dynamics 365 family helps you see the full potential of your investment.
 

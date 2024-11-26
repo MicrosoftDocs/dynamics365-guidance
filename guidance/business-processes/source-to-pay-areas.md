@@ -1,13 +1,13 @@
 ﻿---
-title: Source to pay business process areas
+title: Overview of the Source to pay business process areas
 description: Learn about the source to pay business process area and get introduced to the various functions of the business process.
 author: AdiVijayashankar
 ms.author: advijaya
 ms.topic: conceptual
-ms.date: 08/12/2024
+ms.date: 11/25/2024
 ---
 
-# Source to pay business process areas
+# Overview of the Source to pay business process areas
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

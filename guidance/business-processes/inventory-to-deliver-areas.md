@@ -1,13 +1,13 @@
 ---
-title: Overview of the inventory to deliver business process areas for managing, handling, and delivering inventory
-description: Get an overview for each of the business process areas in the inventory to deliver end-to-end business process in Dynamics 365 solutions.
-ms.date: 08/12/2024
+title: Overview of the Inventory to deliver business process areas
+description: Get an overview for each of the business process areas in the Inventory to deliver end-to-end business process for managing, handling, and delivering inventory in Dynamics 365 solutions.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Overview of the inventory to deliver business process areas for managing, handling, and delivering inventory
+# Overview of the Inventory to deliver business process areas
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

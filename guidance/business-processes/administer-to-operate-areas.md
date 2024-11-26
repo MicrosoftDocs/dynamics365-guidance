@@ -1,14 +1,14 @@
 ---
-title: Overview of administer to operate business process areas
-description: Get an overview for each of the business process areas in the administer to operate end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 03/19/2024
+title: Overview of the Administer to operate business process areas
+description: Get an overview for each of the business process areas in the Administer to operate end-to-end business process flow in Dynamics 365 solutions.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
 
 ---
 
-# Overview of the administer to operate business process areas
+# Overview of the Administer to operate business process areas
 
 ***Applies to: Dynamics 365***
 

@@ -1,7 +1,7 @@
 ---
-title: Overview of service to cash business process areas
-description: Learn about the business process areas that make up the service to cash end-to-end flow in Dynamics 365 solutions.
-ms.date: 02/15/2024
+title: Overview of the Service to cash business process areas
+description: Learn about the business process areas that make up the Service to cash end-to-end flow in Dynamics 365 solutions.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: DeanHardy
@@ -10,7 +10,7 @@ ms.custom: ai-gen-docs-bap
 ai-usage: ai-assisted
 ---
 
-# Overview of service to cash business process areas
+# Overview of the Service to cash business process areas
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
@@ -108,7 +108,7 @@ Learn more at [Monitor customer credit and collections overview](order-to-cash-m
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, learn more at the following resources:
+If you want to implement Dynamics 365 solutions to assist with your *Service to cash* business processes, learn more at the following resources:
 
 1. [Service to cash introduction](service-to-cash-introduction.md)  
 2. [Service to cash end-to-end overview](service-to-cash-overview.md)  

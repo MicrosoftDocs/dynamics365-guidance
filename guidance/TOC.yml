@@ -469,6 +469,12 @@ items:
                   href: resources/copilot-studio-multilanguage-bot.md
                 - name: Play secured audio file
                   href: resources/copilot-studio-play-audio-file.md
+              - name: Application Insights
+                items:
+                - name: Application Insights telemetry with Microsoft Dataverse
+                  href: resources/cs-dataverse-appinsights.md
+                - name: Application Insights telemetry with Microsoft Copilot Studio
+                  href: resources/copilot-studio-appinsights.md
               - name: Automation
                 items:
                 - name: Automate agent tasks
@@ -517,10 +523,6 @@ items:
                 href: resources/analytics-capabilities.md
               - name: Application lifecycle management for custom reports
                 href: resources/analytics-alm-custom-reports.md
-              - name: Application insights with Microsoft Copilot Studio
-                href: resources/copilot-studio-appinsights.md
-              - name: Application Insights with Microsoft Dataverse
-                href: resources/cs-dataverse-appinsights.md
 
 # Field Service
 
@@ -712,9 +714,9 @@ items:
           href: business-processes/index.yml
         - name: Get started
           items:
-          - name: Introduction
+          - name: Overview of end-to-end scenarios
             href: business-processes/overview.md
-          - name: About the business process guide
+          - name: About the business process catalog
             href: business-processes/about.md
           - name: Glossary of terms
             href: business-processes/glossary.md
@@ -848,10 +850,16 @@ items:
             items:
             - name: Onboard and manage the employee lifecycle
               href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
+            - name: Hire new employees
+              href: business-processes/hire-to-retire-onboard-hire-employees.md
             - name: Onboard new hires
               href: business-processes/hire-to-retire-onboard-new-hires.md
             - name: Update employee records
               href: business-processes/hire-to-retire-update-employee-records.md
+            - name: Transfer employees
+              href: business-processes/hire-to-retire-onboard-transfer-employees.md
+            - name: Terminate employee
+              href: business-processes/hire-to-retire-onboard-terminate-employment.md
           - name: Manage employee performance and growth
             href: business-processes/hire-to-retire-manage-employee-performance-growth.md
           - name: Manage occupational health and safety

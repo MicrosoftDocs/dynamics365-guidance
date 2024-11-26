@@ -1,13 +1,13 @@
 ---
-title: Introduce services through concept to market areas
-description: Get an overview for each of the business process areas in the concept to market end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 01/15/2024
+title: Overview of the Concept to market areas
+description: Get an overview for each of the business process areas in the concept to market end-to-end business process flow in Dynamics 365 solutions. Learn how you can introduce, define, and manage services in Dynamics 365.
+ms.date: 11/25/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Introduce, define, and manage services through concept to market business process areas
+# Overview of the Concept to market business process areas
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
