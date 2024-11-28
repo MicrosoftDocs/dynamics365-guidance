@@ -1,0 +1,144 @@
+### YamlMime:Landing
+title: ISV tools and resources
+summary: Find tools and guidance to help you build Dynamics 365 and Power Platform customizations as an independent software vendor (ISV).
+
+metadata:
+  title: Tools and resources for independent software vendors (ISVs)
+  description: Find tools and guidance to help you build apps and services with Dynamics 365 and Power Platform.
+  author: edupont04
+  ms.author: edupont
+  ms.date: 11/25/2024
+  ms.topic: landing-page # DON'T CHANGE
+  ms.subservice: guidance
+  ms.service: dynamics-365
+  ms.custom: bap-template #Required; don't change.
+
+# Max. 12 cards, max 6 linkListTypes per card, max. 10 links per linkListType
+# linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
+
+landingContent:
+
+# Get started card
+  - title: Implement cloud solutions with Dynamics 365
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: Implement cloud solutions
+        url: ../implementation-guide/implementing-cloud-solutions.md
+      - text: Adopt a cloud mindset
+        url: ../implementation-guide/implementing-cloud-solutions-adopt-cloud-mindset.md
+      - text: Considerations
+        url: ../implementation-guide/implementing-cloud-solutions-cloud-implementation.md
+      - text: Customize and extend Dynamics 365
+        url: ../implementation-guide/implementing-cloud-solutions-customize-extend-cloud-applications.md
+      - text: Operate in the cloud
+        url: ../implementation-guide/implementing-cloud-solutions-operate-in-cloud.md
+      - text: Stay evergreen
+        url: ../implementation-guide/implementing-cloud-solutions-evergreen-cloud.md
+      - text: Migrate from on-premises to the cloud
+        url: ../implementation-guide/implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md
+    - linkListType: reference
+      links:
+      - text: Checklist
+        url: ../implementation-guide/implementing-cloud-solutions-checklist.md
+      - text: Case study
+        url: ../implementation-guide/implementing-cloud-solutions-case-study.md
+      
+# Card
+  - title: Extend Dynamics 365
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Extend Dynamics 365 apps
+          url: ../implementation-guide/extend-your-solution.md
+        - text: Scenarios
+          url: ../implementation-guide/extend-your-solution-scenarios.md
+        - text: Extend finance and operations apps
+          url: ../implementation-guide/extend-your-solution-guidance-product-fo.md
+        - text: Extend customer engagement apps
+          url: ../implementation-guide/extend-your-solution-guidance-product-fo.md
+    - linkListType: reference
+      links:
+      - text: Checklist
+        url: ../implementation-guide/extend-your-solution-checklist.md
+      - text: Case study
+        url: ../implementation-guide/extend-your-solution-case-study.md
+ 
+# Card
+  - title: Integrate with other solutions
+    linkLists:
+    - linkListType: concept
+      links:
+      - text: Integration overview
+        url: ../implementation-guide/integrate-other-solutions.md
+      - text: Choose a platform
+        url: ../implementation-guide/integrate-other-solutions-choose-platform.md
+      - text: Choose a design
+        url: ../implementation-guide/integrate-other-solutions-choose-design.md
+      - text: Choose a pattern
+        url: ../implementation-guide/integrate-other-solutions-choose-pattern.md
+      - text: Challenges
+        url: ../implementation-guide/integrate-other-solutions-challenges.md
+      - text: Product-specific guidance
+        url: ../implementation-guide/integrate-other-solutions-guidance-product.md
+    - linkListType: reference
+      links:
+      - text: Options for regression testing
+        url: ../implementation-guide/testing-regression-tooling.md
+# Card
+
+  - title: Data management architecture
+    linkLists:
+    - linkListType: architecture
+      links:
+      - text: Manage data
+        url: ../implementation-guide/data-management.md
+
+# Card
+
+  - title: Process-focused solutions
+    linkLists:
+    - linkListType: concept
+      links:
+      - text: Process-focused solutions overview
+        url: ../implementation-guide/process-focused-solution.md
+      - text: Optimize your business processes with Dynamics 365
+        url: ../implementation-guide/process-focused-solution-opportunity-optimization.md
+      - text: Implement Dynamics 365 with a process-focused approach
+        url: ../implementation-guide/process-focused-solution-implementation-lifecycle.md
+      - text: Build quality, optimized, and standardized business processes
+        url: ../implementation-guide/process-focused-solution-considerations-building-business-processes.md
+      - text: Define your requirements
+        url: ../implementation-guide/process-focused-solution-define-requirements.md
+      - text: Standardize business processes with Dynamics 365
+        url: ../business-processes/standardize-business-processes.md
+    - linkListType: reference
+      links:
+      - text: Case study
+        url: ../implementation-guide/process-focused-solution-case-study-journey.md
+
+# Card
+  - title: Service your solution
+    linkLists:
+    - linkListType: concept
+      links:
+      - text: Servicing overview
+        url: ../implementation-guide/service-solution.md
+      - text: Keep learning
+        url: ../implementation-guide/service-solution-continue-the-business-application-journey.md
+    - linkListType: reference
+      links:
+      - text: Case study
+        url: ../implementation-guide/service-solution-case-study.md
+
+# Card
+  - title: Other resources
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: App advisor
+        url: https://www.microsoft.com/isv/app-advisor?msockid=1a95380df93760002c642c69f88d61df
+      - text: Partner hub
+        url: https://partner.microsoft.com
+      - text: Apply for ISV success
+        url: https://www.microsoft.com/isv/enroll/signup
