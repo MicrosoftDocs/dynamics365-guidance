@@ -595,49 +595,12 @@ items:
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
               - name: Vendor invoice line charges entity
                 href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
-# Migrate from on-premises to online
-      - name: Migrate from on-premises to online
+
+# ISV
+      - name: Independent software vendor (ISV) guidance
         items:
-        - name: Migrate from Dynamics
-          href: migrate/overview.md
-        - name: Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
-          href: migrate/opol-crm-migration-high-level-overview.md
-        - name: AIM program
-          items:
-          - name: Overview of the AIM migration program for on-premises solutions
-            href: migrate/aim-migration-overview.md
-          - name: Solution-specific insights
-            href: migrate/aim-solution-insights.md
-          - name: AIM assessment
-            href: migrate/aim-assessment.md
-          - name: AIM program FAQ
-            href: migrate/aim-faq.md
-          - name: Customer stories
-            href: migrate/aim-customer-stories.md 
-
-# data migration
-#        - name: Migrate data
-#          items:
-#            - name: Migrate data
-#              href: resources/migrate-data.md
-            # - name: Import customers with data entities
-            #   href: resources/import-customers.md
-            # - name: Import products with data entities
-            #   href: resources/import-products.md
-            # - name: Import sales orders with data entities
-            #   href: resources/import-sales-orders.md
-            # - name: Import vendor invoices with data entities
-            #   href: resources/import-vendor-invoices.md
-
-# Architecture
-#      - name: Architecture guide
-#        items:
-
-# Solution architecture
-#        - name: Solution architectures
-#          items:
-#          - name: Solution architecture design pillars
-#            href: implementation-guide/solution-architecture-design-pillars.md
+        - name: ISV tools and resources overview
+          href: isv/index.yml
 
 # Admin guide
       - name: Administration guide
@@ -689,23 +652,6 @@ items:
             href: implementation-guide/application-lifecycle-management-case-study.md
         - name: Service the solution
           href: implementation-guide/service-solution.md
-# Compliance
-      - name: Security and compliance
-        items:
-          - name: Security strategy
-            href: implementation-guide/security.md
-          - name: Security controls
-            href: implementation-guide/security-strategy-security-controls.md
-          - name: Security in the customer engagement apps
-            href: implementation-guide/security-strategy-product-ce.md
-          - name: Security in Power Pages
-            href: implementation-guide/security-strategy-product-portals.md
-          - name: Security in finance and operations apps
-            href: implementation-guide/security-strategy-product-oa.md
-          - name: Day one priorities
-            href: implementation-guide/security-strategy-day-one-priority.md
-          - name: Checklist
-            href: implementation-guide/security-strategy-checklist.md
 
 # Business processes
       - name: End-to-end business processes
@@ -1084,13 +1030,16 @@ items:
             href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
           - name: Define support systems overview
             href: business-processes\administer-to-operate-support-systems-overview.md
-# What's new
+# BP What's new
         - name: What's new or changed
           items:
           - name: What's new or changed in the business process catalog
             href: business-processes/about-whats-new.md
+          - name: What's new or changed in the November 2024 version
+            href: business-processes/about-whats-new-2024-november.md
           - name: What's new or changed in the August 2024 version
             href: business-processes/about-whats-new-2024-august.md
+
 # Patterns
       - name: Patterns
         items:
@@ -1108,21 +1057,6 @@ items:
           href: implementation-guide/migrate-inventory-costing-data.md
         - name: Create a functional and technical design document
           href: patterns/create-functional-technical-design-document.md
-
-
-# Develop
-      - name: Development guides
-        items:
-        - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
-          href: develop/introduction-customer-engagement-ui-ux-design-guide.md
-        - name: Key UI/UX design principles
-          href: develop/ui-ux-design-principles.md
-        - name: UI/UX component details for model-driven apps
-          href: develop/ui-ux-component-details-model-driven-apps.md
-        - name: UI/UX component details for canvas apps
-          href: develop/ui-ux-component-details-canvas-apps.md
-        - name: UI/UX component details for tests and user feedback
-          href: develop/ui-ux-component-details-testing-feedback.md
 
 # Reference architectures
       - name: Reference architectures
@@ -1148,6 +1082,81 @@ items:
             href: reference-architectures/contact-center-existing-crm-dynamics-365-contact-center.md
           - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
             href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
+# Compliance
+      - name: Security and compliance
+        items:
+          - name: Security strategy
+            href: implementation-guide/security.md
+          - name: Security controls
+            href: implementation-guide/security-strategy-security-controls.md
+          - name: Security in the customer engagement apps
+            href: implementation-guide/security-strategy-product-ce.md
+          - name: Security in Power Pages
+            href: implementation-guide/security-strategy-product-portals.md
+          - name: Security in finance and operations apps
+            href: implementation-guide/security-strategy-product-oa.md
+          - name: Day one priorities
+            href: implementation-guide/security-strategy-day-one-priority.md
+          - name: Checklist
+            href: implementation-guide/security-strategy-checklist.md
+
+# Migrate from on-premises to online
+      - name: Migration from on-premises to online
+        items:
+        - name: Migrate from Dynamics
+          href: migrate/overview.md
+        - name: Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
+          href: migrate/opol-crm-migration-high-level-overview.md
+        - name: AIM program
+          items:
+          - name: Overview of the AIM migration program for on-premises solutions
+            href: migrate/aim-migration-overview.md
+          - name: Solution-specific insights
+            href: migrate/aim-solution-insights.md
+          - name: AIM assessment
+            href: migrate/aim-assessment.md
+          - name: AIM program FAQ
+            href: migrate/aim-faq.md
+          - name: Customer stories
+            href: migrate/aim-customer-stories.md 
+
+# data migration
+#        - name: Migrate data
+#          items:
+#            - name: Migrate data
+#              href: resources/migrate-data.md
+            # - name: Import customers with data entities
+            #   href: resources/import-customers.md
+            # - name: Import products with data entities
+            #   href: resources/import-products.md
+            # - name: Import sales orders with data entities
+            #   href: resources/import-sales-orders.md
+            # - name: Import vendor invoices with data entities
+            #   href: resources/import-vendor-invoices.md
+
+# Develop
+      - name: Development guides
+        items:
+        - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
+          href: develop/introduction-customer-engagement-ui-ux-design-guide.md
+        - name: Key UI/UX design principles
+          href: develop/ui-ux-design-principles.md
+        - name: UI/UX component details for model-driven apps
+          href: develop/ui-ux-component-details-model-driven-apps.md
+        - name: UI/UX component details for canvas apps
+          href: develop/ui-ux-component-details-canvas-apps.md
+        - name: UI/UX component details for tests and user feedback
+          href: develop/ui-ux-component-details-testing-feedback.md
+
+# Architecture
+#      - name: Architecture guide
+#        items:
+
+# Solution architecture
+#        - name: Solution architectures
+#          items:
+#          - name: Solution architecture design pillars
+#            href: implementation-guide/solution-architecture-design-pillars.md
 
 # FastTrack
       - name: FastTrack for Dynamics 365
