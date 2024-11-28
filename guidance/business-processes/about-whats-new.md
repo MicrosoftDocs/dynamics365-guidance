@@ -4,7 +4,7 @@ title: What's new or changed in the business process catalog
 description: This article points to articles that describe the new and changed entries in the business process catalog for implementations with Dynamics 365 apps.
 author: edupont04
 ms.author: edupont
-ms.date: 08/29/2024
+ms.date: 11/28/2024
 ms.custom: bap-template #Required; don't change.
 ms.topic: whats-new #Required; don't change.
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
@@ -20,6 +20,7 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Deprecation announced | Removed| Learn more |
 |---------|-------------|---|
+|November 2024||[What's new or changed in the business process catalog November 2024](about-whats-new-2024-november.md)|
 | August 2024 |   |[What's new or changed in the business process catalog August 2024](about-whats-new-2024-august.md)|
 
 ## Get the latest version
