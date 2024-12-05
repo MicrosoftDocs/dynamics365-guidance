@@ -21,7 +21,7 @@ For customer voice solutions, if the organization wants to play their custom aud
 
  ### Prerequisites
 
- - Valid Azure subscription.
+ - Active Azure subscription.
  - An Azure storage account. Learn more in [Create an Azure storage account](/azure/storage/common/storage-account-create).
 
  ### Upload audio files in Azure Blob Storage
@@ -44,7 +44,7 @@ For customer voice solutions, if the organization wants to play their custom aud
 
    1. Select the voice bot to which you want to add the audio file as a latency message.
    1. Perform the steps in [add a latency message for long running operations](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations).
-   1. In the message box, specify the SSML tag, `<audio src=""/>` and paste the BLOB SAS URL you have copied from the Azure portal as the value of the src attribute. For example, `<audio src="https://<storageaccount>.blob.core.windows.net/$web/<audiofile>?<SAS token>"/>`. Learn more in [Format speech synthesis with SSML](https://learn.microsoft.com/en-us/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml).
+   1. In the message box, specify the SSML tag, `<audio src=""/>` and paste the BLOB SAS URL you have copied from the Azure portal as the value of the src attribute. For example, `<audio src="https://<storageaccount>.blob.core.windows.net/$web/<audiofile>?<SAS token>"/>`. Learn more in [Format speech synthesis with SSML](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml).
    1. Save and publish the bot.
    
 ## [Classic bot](#tab/classicbot)
@@ -77,7 +77,7 @@ For customer voice solutions, if the organization wants to play their custom aud
 
    2. Leave the **Enable public access from all networks** selected
 
-     :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-2.png" alt-text="Screenshot of the Create a storage account screen with the Networking tab and Enable public access option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-2.png":::
+    :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-2.png" alt-text="Screenshot of the Create a storage account screen with the Networking tab and Enable public access option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-2.png":::
 
  4. Once created, create a blob storage container under **Containers**
 
