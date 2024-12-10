@@ -1,27 +1,31 @@
 ﻿---
-title: Define procurement and sourcing strategy overview
-description: Learn about the Define procurement and sourcing strategy business process area, including learning about various stakeholder types.
+title: Develop a procurement and sourcing strategy overview
+description: Learn about the Develop a procurement and sourcing strategy business process area, including learning about various stakeholder types.
 author: Pjagotra
 ms.author: pjagotra
 ms.topic: conceptual
-ms.date: 03/19/2024
+ms.date: 12/10/2024
 ---
 
-# Define procurement and sourcing strategy overview
+# Develop a procurement and sourcing strategy overview
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article describes the *Define procurement and sourcing strategy* business process area within the *Source to pay* end-to-end process. Sourcing and procurement strategies are outlined for both materials and services that are needed within your organization. During this process, the sourcing or procurement teams collaborate with several different departments focusing on three primary areas: price/cost, lead time, and quality.
+This article describes the *Develop a procurement and sourcing strategy* business process area within the *Source to pay* end-to-end process. Sourcing and procurement strategies are outlined for both materials and services that are needed within your organization. During this process, the sourcing or procurement teams collaborate with several different departments focusing on three primary areas: 
 
-This business process area mainly covers:
+- Price and cost  
+- Lead time  
+- Quality  
 
-- Defining procurement process to outline overall procurement strategy for both material and services that are needed within your organization
+This business process area mainly covers the following processes:
 
-- Defining procurement and sourcing policies to reduce financial risk that organization is taking and ensure compliance requirements are met and proper approvals are completed before any procurement transactions can be processed
+- Defining a procurement process to outline overall procurement strategy for both material and services that are needed within your organization
+
+- Defining procurement and sourcing policies to reduce the financial risk that the organization is taking. This area helps make sure that the compliance requirements are met, and that proper approvals are completed before any procurement transactions can be processed
 
 - Creating and updating pricing contracts after vendor evaluation and selection, and analyzing product proposals.
 
-Developing procurement and sourcing strategies is a critical step at the beginning of your implementation. However, this will continue to be refined over time as your business and operations change and evolve to support your organization's goals and objectives. It's important to continually evaluate all procurement and sourcing strategies to ensure you're receiving the best pricing, lead time, and quality for your products and services.
+It's a critical step at the beginning of your implementation to define the strategies for procurement and sourcing. However, the strategies develop and refine over time as your business and operations change and evolve to support your organization's goals and objectives. It's important to continually evaluate all procurement and sourcing strategies to ensure you're receiving the best pricing, lead time, and quality for your products and services.
 
 ## Stakeholders
 
@@ -35,47 +39,41 @@ There's collaboration with multiple departments in an organization when defining
 
 - **Accounts payable stakeholders**: Responsible for invoice generation, approval of invoices, and matching invoices.
 
-## Define procurement and sourcing strategy process flow 
+## Process flow
 
-The following diagram illustrates the *define procurement and sourcing strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *Develop a procurement and sourcing strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the define procurement and sourcing strategy business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
+:::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
+
+> [!IMPORTANT]
+> The diagram is not yet updated. But the following text is updated.
 
 1. Start
 
 2. *Source to pay* end-to-end process
 
-3. *Define procurement and sourcing strategy* business process area
+3. *Develop a procurement and sourcing strategy* business process area
 
-    1. Define procurement and sourcing policies
+    1. *Develop procurement catalogs*
+    2. *Develop supplier segments*
+    3. *Develop procurement policies*
+    4. *Develop accounts payable policies*
+    5. *Develop spend strategy*  
+    6. *Analyze sourcing market*  
 
-    2. Define procurement process
+4. *Manage supplier relationships* business process area
 
-    3. Analyze product proposals
+5. *Source and contract goods and services* business process area
 
-    4. Is it an existing vendor pricing contract:
+6. *Procure goods and services* business process area
 
-        1. *Yes* leads to *update vendor pricing contract*
+7. *Manage accounts payable* business process area
 
-        2. *No* leads to *create vendor pricing contract*
+8. End
 
-4. *Define procurement catalog* business process area
+## Benefits
 
-5. *Manage vendor relationships* business process area
-
-6. *Procure material and services* business process area
-
-7. *Process vendor invoices business* process area
-
-8. *Issue and settle vendor payments* business process area
-
-9. *Process vendor rebates and incentives* business process area
-
-10. End
-
-## Define procurement and sourcing strategy benefits
-
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the define procurement and sourcing strategy business process area. The following sections outline the key benefits that an organization might monitor and measure when developing sourcing strategies.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *define a procurement and sourcing strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure when developing sourcing strategies.
 
 ### Improved compliance
 
@@ -99,25 +97,23 @@ While strategic sourcing isn't a required approach when developing your sourcing
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with the *define procurement and sourcing strategy* business process, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with the *Develop a procurement and sourcing strategy* business process, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. *Define procurement and sourcing strategies* (The article you're currently reading)
+1. *Develop a procurement and sourcing strategies* (The article you're currently reading)
 
-2. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)
+2. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
 
-3. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
+3. *Source and contract goods and services*  
 
-4. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)
+4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
 
 5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)
 
-6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)
-
-7. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)
+6. *Manage accounts payable*
 
 ## Related information
 
-You can use the following resources to learn more about the *define procurement and sourcing strategy* business process in Dynamics 365.
+You can use the following resources to learn more about the *Develop a procurement and sourcing strategy* business process in Dynamics 365.
 
 - [Procurement and sourcing overview - Supply Chain Management](/dynamics365/supply-chain/procurement/procurement-sourcing-overview)
 

@@ -1,23 +1,23 @@
 ---
-title: Procure materials and services overview
-description: Learn about the procure materials and services business process, including information about stakeholders and the business process flow.
+title: Procure goods and services overview
+description: Learn about the procure goods and services business process, including information about stakeholders and the business process flow.
 author: akbism
 ms.author: kumaramar
-ms.date: 03/18/2024
+ms.date: 12/10/2024
 ms.topic: conceptual
 ---
 
-# Procure materials and services overview
+# Procure goods and services overview
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to support your organization's business processes for procuring materials and services.
+This article describes how you can use Dynamics 365 products to support your organization's business processes for procuring goods and services.
 
-The procurement of materials and services within the *Source to pay* business process focuses on efficiently meeting the organization's needs by acquiring essential materials or services. It covers the activities that are required to raise the order to the external vendor. The goals are to ensure the availability of materials and services for the organization, and to efficiently manage inventory levels and cost.
+The procurement of goods and services within the *Source to pay* business process focuses on efficiently meeting the organization's needs by acquiring essential goods or services. It covers the activities that are required to raise the order to the external vendor. The goals are to ensure the availability of goods and services for the organization, and to efficiently manage inventory levels and cost.
 
-Procurement of materials and services requires coordination and communication between many departments, such as engineering, operations, quality sales, planning, and production.
+Procurement of goods and services requires coordination and communication between many departments, such as engineering, operations, quality sales, planning, and production.
 
-Dynamics 365 Supply Chain Management has extensive capabilities for sourcing and procuring materials and services. These capabilities ensure that projects and processes can proceed efficiently and successfully in the business process for procuring materials and services.
+Dynamics 365 Supply Chain Management has extensive capabilities for sourcing and procuring goods and services. These capabilities ensure that projects and processes can proceed efficiently and successfully in the business process for procuring goods and services.
 
 To initiate the procurement process, a **purchase requisition** (PR) is created that identifies internal needs.
 
@@ -35,104 +35,50 @@ Define this business process at the beginning of the implementation of Dynamics 
 
 ## Stakeholders
 
-Many people across the organization should contribute to the business process for procuring materials and services. The list includes but isn't limited to:
+Many people across the organization should contribute to the business process for procuring goods and services. The list includes but isn't limited to:
 
-- **Procurement stakeholders**, such as buying agents, purchasing agents, and purchasing managers. These stakeholders are directly involved in the *procure materials and services* business process area.
+- **Procurement stakeholders**, such as buying agents, purchasing agents, and purchasing managers. These stakeholders are directly involved in the *procure goods and services* business process area.
 - **Production stakeholders**, such as production supervisors, production managers, and material managers. These stakeholders ensure that inventory is available for production processes.
-- **Retail stakeholders**, such as retail store managers. These stakeholders monitor the supply of materials to ensure store operations.
+- **Retail stakeholders**, such as retail store managers. These stakeholders monitor the supply of goods to ensure store operations.
 - **Project stakeholders**, such as project managers and project assistants. These stakeholders ensure the availability of services and goods for their respective projects.
 - **Finance stakeholders**, such as accounts payable clerks, budget managers, treasurers, and accountants. These stakeholders closely monitor the process of procuring material and services, so that they can plan their activities that are related to accounts payable.
 
-## Procure materials and services process flow
+## Procure goods and services process flow
 
-The following diagram illustrates the *procure materials and services* business process area. 
+The following diagram illustrates the *procure goods and services* business process area. 
 
-:::image type="content" source="media\source-to-pay-procure-materials-services.svg" alt-text="Diagram of the source to pay procure materials and services process flow." lightbox="media\source-to-pay-procure-materials-services.svg":::
+:::image type="content" source="media\source-to-pay-procure-materials-services.svg" alt-text="Diagram of the source to pay procure goods and services process flow." lightbox="media\source-to-pay-procure-materials-services.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+
+> [!IMPORTANT]
+> The diagram is not yet updated. But the following text is updated.
 
 The flow diagram covers the following steps.
 
 1. Start
 
-    1. A parallel branch from Start includes the *Acquire to dispose* end-to-end process.
+2. *Source to pay* end-to-end process
 
-        1. *Acquire assets* business process area
+3. *Procure goods and services* business process area
 
-            1. *Procure materials and services* business process area
+    1. *Raise purchase requisitions*
+    2. *Issue purchase order*
+    3. *Manage open purchases*
+    4. *Issue blanket purchase orders*  
+    5. *Return goods to suppliers*  
+    6. *Consolidate requisitions*  
+    7. *Analyze supply purchase plan*
 
-    1. A parallel branch from Start includes the *Forecast to plan* end-to-end process.
+4. *Manage accounts payable* business process area
 
-        1. *Plan supply and replenishment* business process area
+5. *Analyze procurement and sourcing* business process area
 
-            1. *Create purchase order* business process
+6. End
 
-    1. A parallel branch from Start includes the *Plan to Produce* end-to-end process.
+## Procure goods and services benefits
 
-        1. *Outsource production order* business process area
-
-            1. *Procure materials and services* business process area
-
-    1. A parallel branch from Start includes the *Order to cash* end-to-end process.
-
-        1. *Create and manage sales order* business process area
-
-            1. *Create purchase order* business process
-
-    1. A parallel branch from Start includes the *Project to Profit* end-to-end process.
-
-        1. *Manage project delivery* business process area
-
-            1. *Procure materials and services* business process area
-
-    1. A parallel branch from Start includes the *Invent to delivery* end-to-end process.
-
-        1. *Process inbound goods* business process area
-
-            1. Return?
-
-                1. "No" leads to End.
-                1. "Yes" leads to the *Return items to vendors* business process.
-
-        1. *Process outbound goods* business process area
-
-            1. End
-
-1. *Source to pay* end-to-end process
-1. *Procure materials and services* business process area
-
-    1. A parallel branch from *Procure materials and services* includes the *Create purchase requisitions* business process.
-
-        1. *Is RFQ needed?*
-
-            1. "Yes" leads to the *Create request for quotations (RFQ)* business process.
-            1. "No" leads to the *Create purchase order* business process.
-
-    1. A parallel branch from *Procure materials and services* includes the *Create request for quotations (RFQ)* business process.
-    1. A parallel branch from *Procure materials and services* includes the *Create volume or quantity purchase agreements (blanket orders)* business process.
-
-1. *Create purchase requisitions* business process
-1. *Create request for quotations (RFQ)* business process
-1. *Create volume or quantity purchase agreements (blanket orders)* business process
-1. *Create purchase order* business process
-
-    1. A parallel branch from *Create purchase order* includes the *Confirm and send purchase order to the vendor* business process.
-    1. A parallel branch from *Create purchase order* includes the *Return items to vendors* business process.
-
-1. *Confirm and send purchase order to the vendor* business process
-1. *Update purchase order* business process
-
-    1. *Process inbound goods* business process area
-
-1. *Return items to vendors* business process
-
-    1. *Process outbound goods* business process area
-
-1. End
-
-## Procure materials and services benefits
-
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *procure materials and services* business process area. The following sections outline the key benefits that an organization might monitor and measure for *procure materials and services*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *procure goods and services* business process area. The following sections outline the key benefits that an organization might monitor and measure for *procure goods and services*.
 
 ### Improved procurement and sourcing accuracy
 
@@ -140,7 +86,7 @@ Accurate identification of direct and indirect procurement needs is the first, c
 
 ### Efficient processing of purchase orders
 
-A well-defined purchase order processing system helps an organization save time, money, and resources when it procures materials and services. It also helps improve the quality and compliance of the products and services, and provides useful data and insights for optimization.
+A well-defined purchase order processing system helps an organization save time, money, and resources when it procures goods and services. It also helps improve the quality and compliance of the products and services, and provides useful data and insights for optimization.
 
 In Dynamics 365 Supply Chain Management, the purchase order processing capability is well integrated with inventory and finance processes. It serves as one of the key capabilities for conducting an efficient, streamlined, and end-to-end procurement process.
 
@@ -148,7 +94,7 @@ In Dynamics 365 Supply Chain Management, the purchase order processing capabilit
 
 Procurement and sourcing workflows in Dynamics 365 Supply Chain Management help automate the approval process for various documents and ensure consistent and efficient processes. You can track the status and performance of each workflow and manage your tasks from a centralized work list.
 
-To manage the processes that are related to procuring materials and services, you can use a workflow framework that is extended for purchase requisition, purchase agreement, and purchase order processes.
+To manage the processes that are related to procuring goods and services, you can use a workflow framework that is extended for purchase requisition, purchase agreement, and purchase order processes.
 
 ### Enhanced compliance
 
@@ -158,25 +104,23 @@ Whenever an approved purchase order is confirmed, it creates a confirmation jour
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *procure materials and services* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *procure goods and services* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. *Define procurement and sourcing strategies*
 
-2. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)
+2. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)  
 
-3. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)  
+3. *Manage supplier relationships*
 
-4. *Procure materials and services* (the article that you're currently reading)
+4. *Procure goods and services* (the article that you're currently reading)
 
-5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
+5. [Manage accounts payable](source-to-pay-process-vendor-invoices-overview.md)  
 
-6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
-
-7. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
+6. *Analyze procurement and sourcing*  
 
 ## Related information
 
-You can use the following resources to learn more about the *procure materials and services* process in Dynamics 365.
+You can use the following resources to learn more about the *procure goods and services* process in Dynamics 365.
 
 - [Purchase requisition overview](/dynamics365/supply-chain/procurement/purchase-requisitions-overview)
 - [Purchase requisition workflow](/dynamics365/supply-chain/procurement/purchase-requisitions-workflow)
@@ -186,12 +130,12 @@ You can use the following resources to learn more about the *procure materials a
 - [Purchase agreements](/dynamics365/supply-chain/procurement/purchase-agreements)
 - [Vendor collaboration portal](/dynamics365/supply-chain/procurement/vendor-collaboration-work-external-vendors)
 - [Create a purchase return order](/dynamics365/supply-chain/procurement/tasks/create-purchase-return-order)
-- Find definitions of terminology that's used in content for *procure materials and services* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
+- Find definitions of terminology that's used in content for *procure goods and services* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Purchase agreement](glossary.md#purchase-agreement)
-    - [Purchase order](glossary.md#purchase-order)
-    - [Purchase requisition](glossary.md#purchase-requisition)
-    - [Request for quotation](glossary.md#request-for-quotation)
+  - [Purchase agreement](glossary.md#purchase-agreement)
+  - [Purchase order](glossary.md#purchase-order)
+  - [Purchase requisition](glossary.md#purchase-requisition)
+  - [Request for quotation](glossary.md#request-for-quotation)
 
 <!-- ## Tags
 

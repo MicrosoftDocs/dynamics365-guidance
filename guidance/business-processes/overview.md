@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: overview #Required; don't change.
-ms.date: 11/22/2024
+ms.date: 12/02/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -16,7 +16,7 @@ Dynamics 365 supports many different industries and types of organizations. In t
 [!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] In our articles, we illustrate this sequence of steps in flowcharts.  
 
 > [!TIP]
-> For an introduction to our project with the business process documentation, see [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, see [Business processes, steps, and how to find things](about-steps-navigation.md). For an overview of business terms, see [Glossary of terms in Dynamics 365 business processes](glossary.md).
+> Get an introduction to our project with the business process documentation at [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, go to [Business processes, steps, and how to find things](about-steps-navigation.md). Find an overview of business terms at [Glossary of terms in Dynamics 365 business processes](glossary.md).
 
 [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
@@ -27,6 +27,9 @@ Dynamics 365 supports many different industries and types of organizations. In t
 The business process catalog lists end-to-end processes that are commonly used to manage work within an organization or support work within the organization. But most end-to-end scenarios are primary processes within the organization to procure, produce, sell, and drive revenue. The following diagram illustrates the three groups of end-to-end scenarios:
 
 :::image type="content" source="media/business-processes-e2e.svg" alt-text="Diagram with primary processes, supporting processes, and processes to manage work." lightbox="media/business-processes-e2e.svg":::
+
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 The following table provides links to the introduction, overview, and list of business process areas for each end-to-end scenario that we've documented.
 
