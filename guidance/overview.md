@@ -4,7 +4,7 @@ description: Get an introduction to the types of guidance content, best practice
 author: edupont04
 ms.author: edupont
 ms.topic: overview
-ms.date: 11/02/2023
+ms.date: 12/02/2024
 ---
 
 # What is Dynamics 365 guidance?
@@ -36,18 +36,13 @@ Learn more at [About the business process guide](business-processes/about.md).
 
 ## Implementation guide
 
-This section contains guidance for how to implement solutions that include Dynamics 365. The original *Dynamics 365 Implementation Guide* introduced the term *Success by Design* with the four stages:
+This section contains guidance for how to implement solutions that include Dynamics 365. The original *Dynamics 365 Implementation Guide* introduced the term *Success by Design* with four stages. But we've added an earlier stage to the list so that there are now five stages:
 
+- *Strategize*
 - *Initiate*
 - *Implement*
 - *Prepare*
 - *Operate*
-
-The new guide adds an earlier stage to that list:
-
-- *Strategize*
-
-    All implementations should have a well-rounded implementation strategy that delivers on the promise of digital transformation. The section also covers the environment strategy, and the organizational strategy.
 
 Learn more at [Introduction to Dynamics 365 Implementation Guide](implementation-guide/introduction.md).
 
@@ -72,7 +67,7 @@ This section is still pretty slim, but we expect to publish some of the patterns
 
 ## Reference architectures
 
-This section is still empty, but we hope to build a library of reference architectures to help our customer and admins get deployments and integrations right.
+The first reference architectures are already there, and we hope to build a library of reference architectures to help our customer and admins get deployments and integrations right.  
 
 ## FastTrack
 
@@ -99,4 +94,5 @@ Our content is available as Markdown and YAML files in [a public GitHub repo](ht
 [Overview of roles in Dynamics 365](roles/overview.md)  
 [Available certifications for different roles in Dynamics 365](roles/certifications.md)  
 [Dynamics 365 guidance documentation](index.yml)  
+[Find your way in Dynamics 365](/dynamics365/get-started/navigate)  
 [Microsoft Dynamics 365 documentation](/dynamics365/index)

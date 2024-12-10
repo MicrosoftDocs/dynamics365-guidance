@@ -1,19 +1,19 @@
 ---
-title: Overview of the define procurement catalogs business process area
-description: Read about how Dynamics 365 supports procurement catalogs as part of the procure to pay business process.
-ms.date: 08/12/2024
+title: Overview of the define procurement catalogs business process
+description: Read about how Dynamics 365 supports procurement catalogs as part of the Define procurement and sourcing strategy business process area.
+ms.date: 12/10/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: raprofit
 ---
 
-# Overview of the define procurement catalogs business process area
+# Overview of the define procurement catalogs business process
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-This article describes the *define procurement catalogs* business process area. It explains the benefits of using Dynamics 365 to support the business process area.
+This article describes the *define procurement catalogs* business process that is the first business process under the *Define procurement and sourcing strategy* business process area. It explains the benefits of using Dynamics 365 to support the business process.
 
-The business process area *defining procurement catalogs* gives organizations the ability to configure internal catalogs and external catalogs for use in the *source to pay* process. Items and services can be organized and added to catalogs to be used during purchase requisition and purchase order creation. Alternatively, categories outlined within the catalogs can be used at the purchase requisition and purchase order levels where an item or service number doesn't exist. Business users can then indicate details about the purchase without needing the item in master data when appropriate.
+The business process*defining procurement catalogs* gives organizations the ability to configure internal catalogs and external catalogs for use in the *source to pay* process. Items and services can be organized and added to catalogs to be used during purchase requisition and purchase order creation. Alternatively, categories outlined within the catalogs can be used at the purchase requisition and purchase order levels where an item or service number doesn't exist. Business users can then indicate details about the purchase without needing the item in master data when appropriate.
 
 The initial procurement catalog structure is usually defined at the start of an implementation project. However, the catalog hierarchy gives you the flexibility to add new categories or modify categories when appropriate to meet your business needs. For example, when you have new product launches, new product lines, or when changes occur and products are phased in or out.
 
@@ -37,11 +37,9 @@ Many people in an organization need to contribute to the design and definition o
 
 ## Define procurement catalogs process flow
 
-:::image type="content" source="media/source-to-pay-define-procurement-catalogs-flow.svg" alt-text="Flow diagram for the business process area, define procurement catalogs, which is explained in the paragraph after the image." lightbox="media/source-to-pay-define-procurement-catalogs-flow.svg":::
+:::image type="content" source="media/source-to-pay-define-procurement-catalogs.svg" alt-text="Flow diagram for the business process, define procurement catalogs." lightbox="media/source-to-pay-define-procurement-catalogs.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
-
-The following steps are illustrated in the *define procurement catalog* business process flow diagram.
+<!-- The following steps are illustrated in the *define procurement catalog* business process flow diagram.
 
 1. Start
 
@@ -73,7 +71,7 @@ The following steps are illustrated in the *define procurement catalog* business
 
     5. *Configure access to external catalogs*
 
-5. End
+5. End -->
 
 ## Define procurement catalogs benefits
 
@@ -97,25 +95,25 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
 
-2. *Develop sourcing strategies*
+2. [Develop sourcing strategies](source-to-pay-define-procurement-sourcing-strategy-overview.md)
 
 3. *Define procurement catalogs* (The article you're currently reading.)
 
-4. *Define policies and procedures for procurement*
+4. *Define procurement policies*
 
-5. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)
+5. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
 
-6. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
+6. [Process supplier invoices](source-to-pay-process-vendor-invoices-overview.md)  
 
-7. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
+7. [Issue and settle supplier payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
 8. *Manage vendor debits and chargebacks*
 
 9. *Create and process promissory notes*
 
-10. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
+10. [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
 
-11. *Analyze vendor performance*
+11. *Analyze procurement and sourcing*
 
 ## Related information
 
