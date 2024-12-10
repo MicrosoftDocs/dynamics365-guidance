@@ -712,6 +712,8 @@ items:
             href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
           - name: Retire or dispose of assets
             href: business-processes/acquire-to-dispose-retire-dispose-assets.md
+          - name: Implementation workshops for acquire to dispose processes
+            href: business-processes/acquire-to-dispose-workshops.md
         - name: Case to resolution
           items:
           - name: End-to-end scenario - case to resolution (ID 20)
@@ -896,20 +898,24 @@ items:
             href: business-processes/source-to-pay-overview.md
           - name: Business process areas
             href: business-processes/source-to-pay-areas.md
-          - name: Define procurement catalogs
-            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-          - name: Define procurement and sourcing strategy overview
-            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
-          - name: Manage vendor relationships overview
+          - name: Develop a procurement and sourcing strategy
+            items:
+            - name: Develop procurement and sourcing strategy overview
+              href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
+            - name: Define procurement catalogs
+              href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+          - name: Manage supplier relationships overview
             href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-          - name: Procure materials and services overview
+          - name: Procure goods and services overview
             href: business-processes/source-to-pay-procure-materials-services-overview.md
-          - name: Process vendor invoices overview
-            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
-          - name: Issue and settle vendor payments overview
-            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
-          - name: Process vendor rebates and incentives overview
-            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
+          - name: Manage accounts payable
+            items:
+            - name: Manage accounts payable overview
+              href: business-processes/source-to-pay-process-vendor-invoices-overview.md
+            - name: Issue and settle supplier payments
+              href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+            - name: Process supplier rebates and incentives
+              href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
         - name: Project to profit
           items:
           - name: End-to-end scenario - project to profit (ID 80)
@@ -1018,16 +1024,18 @@ items:
             href: business-processes/administer-to-operate-overview.md
           - name: Business process areas
             href: business-processes/administer-to-operate-areas.md
-          - name: Train users and increase adoption
-            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
+          - name: Implement solutions
+            href: business-processes/administer-to-operate-implement-solutions.md
           - name: Define business continuity plan
             href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
-          - name: Manage system compliance overview
-            href: business-processes\administer-to-operate-manage-system-compliance.md
           - name: Manage system access and security overview
             href: business-processes\administer-to-operate-manage-system-access-security.md
+          - name: Train users and increase adoption
+            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
           - name: Manage data synchronization overview
             href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+          - name: Manage system compliance overview
+            href: business-processes\administer-to-operate-manage-system-compliance.md
           - name: Define support systems overview
             href: business-processes\administer-to-operate-support-systems-overview.md
 # BP What's new

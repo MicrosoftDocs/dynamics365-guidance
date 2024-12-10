@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
-ms.date: 11/21/2024
+ms.date: 12/02/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: veneva
@@ -26,7 +26,7 @@ This article focuses on the fundamentals and practice of Success by Design and i
 
 As demand for Dynamics 365 cloud services increased across the enterprise, Microsoft identified the clear need to change the way we thought about evolving our services and our responsibility to customers and partners. We recognized that it wasn't enough to design a platform containing a set of features. We needed to also understand what it takes to deliver a fully functioning, end-to-end solution that runs the mission-critical processes of our customers' businesses. From this need, Success by Design was born.
 
-**Microsoft believes that customer success is the precursor to every Dynamics 365 product development decision.** As a result, questions fundamental to product development now challenge our engineers at every step of the process:
+Microsoft believes that customer success is the precursor to every Dynamics 365 product development decision. As a result, questions fundamental to product development now challenge our engineers at every step of the process:
 
 - In what way must each product feature be delivered to ensure customer success?
 
@@ -86,12 +86,16 @@ For interested customers, Microsoft recommends that project leaders team up with
 ## Success by Design phases
 
 Success by Design maps the Dynamic 365 implementation lifecycle into four methodology-agnostic phases: Initiate, Implement, Prepare, and Operate. In this section and the following sections, we outline the Success by Design phases, their relationship to Success by Design reviews, and the desired outputs and outcomes.
+<!--  Commenting out until we can have an illustration with the 5 stages.
+:::image type="content" source="media/success-by-design-phases.png" alt-text="Four bubbles to represent the four phases, Initiate, Implement, Prepare, Operate." lightbox="media/success-by-design-phases.png"::: -->
 
-:::image type="content" source="media/success-by-design-phases.png" alt-text="Four bubbles to represent the four phases, Initiate, Implement, Prepare, Operate." lightbox="media/success-by-design-phases.png":::
+## Strategize
+
+In the **Strategize phase**, the project team is in discovery mode, gathering and validating business requirements, finalizing the high-level solution approach. All implementations should have a well-rounded implementation strategy that delivers on the promise of digital transformation. The section also covers the environment strategy, and the organizational strategy.
 
 ### Initiate
 
-In the **Initiate phase**, the project team is in discovery mode, gathering and validating business requirements, finalizing the high-level solution approach, making inroads to define all in-scope workstreams, and updating the project plan to reflect these updates. When the project team has produced the high-level solution design and the related project workstreams are more or less defined, Success by Design begins with the Solution Blueprint Review. Learn more in the section [Success by Design reviews](#success-by-design-reviews).  
+In the **Initiate phase**, the project team makes inroads to define all in-scope workstreams, and updating the project plan to reflect these updates. When the project team has produced the high-level solution design (in the *Strategize** phase) and the related project workstreams are more or less defined, Success by Design begins with the *Solution Blueprint Review*. Learn more in the section [Success by Design reviews](#success-by-design-reviews).  
 
 ### Implement
 
@@ -113,7 +117,10 @@ Each review raises questions that serve as points of reflection that project tea
 
 The **Solution Blueprint Review** serves as the starting point of Success by Design. We suggest the Solution Blueprint Review to be a mandatory review for the project because findings that come from it lead to **Implementation Reviews**, which offer project teams the opportunity to drill down into topic-specific areas where deeper dives are deemed necessary for further understanding project and solution risk. Finally, the **Go live Readiness Review**, which we also suggest as a mandatory review, is the last stop for assessing any remaining risks before go live.
 
-The figure below illustrates that Success by Design reviews aren't to be conducted as abstract exercises separated from the project. Rather, the scheduling and implementation of each review relies on the availability of key project artifacts and the readiness of the project team to discuss them.
+The following image illustrates that Success by Design reviews aren't to be conducted as abstract exercises separated from the project. Rather, the scheduling and implementation of each review relies on the availability of key project artifacts and the readiness of the project team to discuss them.
+
+> [!TIP]
+> The image predates the change to Success by Design that added an earlier stage with some of the elements from the *Initiate* phase. Read the image so that the *Initiate* column covers the *Strategize* and *Initiate* phases.
 
 :::image type="content" source="media/success-by-design-outputs.png" alt-text="Diagram with outputs for each Success by Design phase." lightbox="media/success-by-design-outputs.png":::
 
@@ -193,12 +200,9 @@ Considering the pace of cloud solutions and the investment that organizations ma
 
 Microsoft believes that every business is in the business of creating great customer experiences. To achieve that, business applications must do more than just separately run your back office, marketing, supply chain, or even field operations. They must give you the agility to remove every barrier in your way. When this happens, business applications become more than just operational solutions. They become resilient solutions that enable the digital feedback loop and adapt to customer demands, delivering stronger, more engaging experiences around the products you make and services you provide.
 
-<!-- > [!NOTE]
-> If you're using Success by Design in your Dynamics 365 implementation project, we want to hear from you! To share your Success by Design feedback and experiences, reach out to us at [successbydesign@microsoft.com](mailto:successbydesign@microsoft.com). -->
-
 ## Success by Design evolution
 
-From the moment that FastTrack for Dynamics 365 was born, Microsoft began to ask itself: How can we change the FastTrack approach so that our solution architects can address technical and project risks of a project before they manifest as problems impacting our customer's investment in Dynamics 365? Our internal process evolve, team members learn and share their knowledge, and Success by Design evolves over time. Get [an inside look](success-by-design-story.md) into how we developed the Success by Design framework. Otherwise, check the links in the next section. 
+From the moment that FastTrack for Dynamics 365 was born, Microsoft began to ask itself: How can we change the FastTrack approach so that our solution architects can address technical and project risks of a project before they manifest as problems impacting our customer's investment in Dynamics 365? Our internal process evolve, team members learn and share their knowledge, and Success by Design evolves over time. Get [an inside look](success-by-design-story.md) into how we developed the Success by Design framework. Otherwise, check the links in the next section.  
 
 ## Next steps
 
