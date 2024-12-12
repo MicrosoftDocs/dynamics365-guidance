@@ -9,7 +9,7 @@ ms.reviewer: edupont
 ---
 # Manage and optimize orders in the order to cash end-to-end business process
 
-***Applies to: Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, Dynamics 365 Finance***
+***Applies to: Dynamics 365 Business Cental, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 This article introduces the *order to cash* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their order to cash processes. This end-to-end business process has the number *65* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
@@ -18,9 +18,9 @@ This article introduces the *order to cash* end-to-end business process. It outl
 The *order to cash* business process flow is a standard term used to describe the entirety of an organization's sales order process. The process is sometimes referred to as O2C or OTC. Generally speaking, the *order to cash* business process includes everything that happens in an organization from a customer places an order until the payment is received and settled with the invoice.  
 
 > [!IMPORTANT]
-> The process defined here does not include the process for marketing to prospective customers, tracking leads and opportunities and the creation of quotes. <!--For more information about these processes, see [Prospect to quote overview](../placeholder.md).-->  
+> The process defined here does not include the process for marketing to prospective customers, tracking leads and opportunities and the creation of quotes. Learn more at [Prospect to quote overview](prospect-to-quote-overview.md).
 
-Also note that the order to cash process described here does not include order fulfillment process. The process of fulfilling orders is described in the inventory to deliver process. <!--Learn more at [Inventory to deliver overview](../placeholder.md). --> 
+Also note that the order to cash process described here does not include order fulfillment process. The process of fulfilling orders is described in the inventory to deliver process. Learn more at [Inventory to deliver overview](inventory-to-deliver-overview.md).
 
 Every organization has variations to the *order to cash* business process. Here, we define the basic outline for any organization looking to implement a technology solution to support the *order to cash* business process.  
 
@@ -59,7 +59,7 @@ When you can use technology to help your sales process, the customer experience 
 
 ### Monitor and analyze sales
 
-Because Dynamics 365 is built on Azure and the Power Platform, you can use tools that are built into the application and the technology stack to meet your organizational reporting and analytics requirements. The *Record to Report end-to-end business process* describes these capabilities in more detail. <!--Learn more at [Record to report overview](../placeholder.md).--> We have various tools available to help you report on and analyze your data. Learn more at [Business intelligence, reporting, and analytics](../implementation-guide/business-intelligence-reporting-analytics-overview.md).  
+Because Dynamics 365 is built on Azure and the Power Platform, you can use tools that are built into the application and the technology stack to meet your organizational reporting and analytics requirements. The *Record to Report end-to-end business process* describes these capabilities in more detail. Learn more at [Record to report end-to-end overview](record-to-report-overview.md). We have various tools available to help you report on and analyze your data. Learn more at [Business intelligence, reporting, and analytics](../implementation-guide/business-intelligence-reporting-analytics-overview.md).  
 
 ## Next steps
 
@@ -75,9 +75,12 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 ## Related information
 
-Uuse the following resources to learn more about the order to cash process in Dynamics 365.  
+Use the following resources to learn more about the order to cash process in Dynamics 365.  
 
 - [Configure and manage the order to cash process in Dynamics 365 Supply Chain Management (online training)](/training/modules/configure-manage-order-cash-dyn365-supply-chain-mgmt/)  
+
+> [!TIP]
+> Dynamics 365 Business Central also supports the *order to cash* end-to-end scenario but relies on third-party apps for the full capabilities. Learn more at [Sales overview](/dynamics365/business-central/sales-manage-sales).
 
 ## Contributors
 

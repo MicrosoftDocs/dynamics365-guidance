@@ -10,7 +10,7 @@ ms.reviewer: edupont
 
 # Introduction to inventory to deliver business process to manage the flow of goods
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 This article introduces the *inventory to deliver* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *inventory to deliver* processes. This end-to-end business process has the number *60* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
@@ -19,9 +19,9 @@ This article introduces the *inventory to deliver* end-to-end business process. 
 The *inventory to deliver* business process involves managing the flow of goods from receipt into a warehouse or distribution center through to delivery to the customer. This end-to-end process includes receipt of goods, quality management, inventory management, inventory costing, order fulfillment, and shipping.
 
 > [!IMPORTANT]
-> The process defined here doesn't include the procurement process, which involves purchasing raw materials or finished goods from suppliers. It only includes the receipt of goods in the warehouse. <!--TODO: Add link to Learn more at Source to pay introduction-->
+> The process defined here doesn't include the procurement process, which involves purchasing raw materials or finished goods from suppliers. It only includes the receipt of goods in the warehouse. Learn more at [Help organizations manage and optimize the source to pay business processes](source-to-pay-introduction.md).
 >
-> The process also doesn't include production, which involves converting raw materials into sub-assemblies or finished goods. This process does include the issuing of raw materials into production and the receipt of finished goods into inventory. <!--TODO: Add link to Learn more at Plan to produce introduction-->
+> The process also doesn't include production, which involves converting raw materials into sub-assemblies or finished goods. This process does include the issuing of raw materials into production and the receipt of finished goods into inventory. Learn more at [Help organizations manage and optimize their plan to produce processes](plan-to-produce-introduction.md).
 
 Every organization has variations to the *inventory to deliver* process. Here, we define the basic outline for any organization looking to implement a technology solution to support their *inventory to deliver* business processes.
 
@@ -70,9 +70,9 @@ By accurately forecasting demand and automating inventory management with Dynami
 A well-defined *inventory to deliver* process, supported by Dynamics 365, can improve cash flow in several ways.  
 
 1. By optimizing inventory levels, organizations can reduce the amount of cash tied up in excess inventory. Better inventory management helps make sure they have the right amount of inventory on hand to meet demand while minimizing the amount of capital required to maintain that inventory.  
-1. By streamlining warehouse and transportation operations with the Dynamics 365 Warehouse management and Transportation management modules, companies can reduce lead times and improve order fulfillment, which can lead to faster payment and improved cash flow.  
-1. Dynamics 365 can provide real-time visibility into inventory levels and order status, enabling organizations to make informed decisions that improve cash flow. The system can also automate invoice generation and payment tracking, reducing administrative time and increasing efficiency. Overall, a well-executed *inventory to deliver* process supported by Dynamics 365 can help organizations optimize inventory and order fulfillment, leading to improved cash flow and financial performance.  
-1. Dynamics 365 Finance also includes a robust cash flow forecasting feature that uses artificial intelligence to provide real-time visibility into the cash flow for an organization to monitor the cash flow across the organization that integrates seamlessly with Dynamics 365 Supply Chain Management.
+2. By streamlining warehouse and transportation operations with the Dynamics 365 Warehouse management and Transportation management modules, companies can reduce lead times and improve order fulfillment, which can lead to faster payment and improved cash flow.  
+3. Dynamics 365 can provide real-time visibility into inventory levels and order status, enabling organizations to make informed decisions that improve cash flow. The system can also automate invoice generation and payment tracking, reducing administrative time and increasing efficiency. Overall, a well-executed *inventory to deliver* process supported by Dynamics 365 can help organizations optimize inventory and order fulfillment, leading to improved cash flow and financial performance.  
+4. Dynamics 365 Finance also includes a robust cash flow forecasting feature that uses artificial intelligence to provide real-time visibility into the cash flow for an organization to monitor the cash flow across the organization that integrates seamlessly with Dynamics 365 Supply Chain Management. Similarly, you can analyze your organization's cash flow in Dynamics 365 Business Central.
 
 ### Increased overall business performance
 
@@ -92,20 +92,18 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 
 3. Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
 
-4. Get an overview of the *inventory to deliver* process. Learnsupply more at [Inventory to deliver overview](inventory-to-deliver-overview.md).
+4. Get an overview of the *inventory to deliver* process. Learns more at [Inventory to deliver overview](inventory-to-deliver-overview.md).
 
 ## Related information
 
 Use the following resources to learn more about the *inventory to deliver* process in Dynamics 365.
 
 - [TechTalk Series: Warehouse & Transportation Management in Dynamics 365 Supply Chain Management - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=4b4d8aa8-2922-4fe8-b93f-a404cb59e5d4)  
-
 - [Inventory management overview](/dynamics365/supply-chain/inventory/inventory-home-page)  
-
 - [Warehouse management overview](/dynamics365/supply-chain/warehousing/warehouse-management-overview)  
-
 - [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)  
-
+- [Manage inventory in Business Central](/dynamics365/business-central/inventory-manage-inventory)  
+- [Cash flow overview](/dynamics365/business-central/finance-cash-flow-overview)  
 - [Dynamics-365-FastTrack-Implementation-Assets/SCM in GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM)  
 
 <!--## Tags
