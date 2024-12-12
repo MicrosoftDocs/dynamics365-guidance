@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory to deliver end-to-end business process
 description: Learn about the inventory to deliver end-to-end business process with a flow diagram and understand the relationship with other processes in Dynamics 365 solutions.
-ms.date: 12/08/2023
+ms.date: 12/12/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -10,7 +10,7 @@ ms.reviewer: edupont
 
 # Overview of inventory to deliver business process and relationship to other business processes
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 This article provides a high-level flow diagram and an overview for each of the business process areas in the end-to-end business process *from inventory to deliver*. The article also describes this business process's relationship to other business processes in Dynamics 365.
 
@@ -104,7 +104,7 @@ The downstream processes for the *inventory to deliver* process include the foll
 
 ## Featured capabilities
 
-There are product-specific capabilities that interact with the *inventory to deliver* to process including, but not limited to, the following:
+There are product-specific capabilities that interact with the *inventory to deliver* to process including, but not limited to, the following list:
 
 - **Advanced warehouse management (mobile device)**  
 
@@ -120,11 +120,11 @@ There are product-specific capabilities that interact with the *inventory to del
 
 - **Cost accounting**  
 
-  When you have complex requirements for managing the cost of your products or produced items, you can use the Cost accounting module in Dynamics 365 Supply Chain Management to keep a set of books that help you monitor and control your inventory costs closely.
+  When you have complex requirements for managing the cost of your products or produced items, you can use the *Cost accounting* module in Dynamics 365 Supply Chain Management to keep a set of books that help you monitor and control your inventory costs closely. For solutions with Dynamics 365 Business Central, the *Cost accounting* module there also helps you understand the costs of running the business.
 
 - **Global inventory accounting add-in**  
 
-  The Global inventory accounting add-in, which is part of Dynamics 365 Supply Chain Management, allows organizations to track the value of inventory in multiple ways. For example: multiple currencies, multiple costing methodologies, or multiple accounting standards such as IFRC or GAAP.
+  With the *Global inventory accounting* add-in for Dynamics 365 Supply Chain Management, organizations can track the value of inventory in multiple ways. For example: multiple currencies, multiple costing methodologies, or multiple accounting standards such as IFRC or GAAP.
 
 - **Production floor execution**  
 
@@ -249,13 +249,11 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 Use the following resources to learn more about the *inventory to deliver* process in Dynamics 365.
 
 - [TechTalk Series: Warehouse & Transportation Management in Dynamics 365 Supply Chain Management - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=4b4d8aa8-2922-4fe8-b93f-a404cb59e5d4)
-
 - [Inventory management overview](/dynamics365/supply-chain/inventory/inventory-home-page)
-
 - [Warehouse management overview](/dynamics365/supply-chain/warehousing/warehouse-management-overview)
-
 - [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)
-
+- [Manage inventory in Business Central](/dynamics365/business-central/inventory-manage-inventory)  
+- [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)  
 - [Dynamics-365-FastTrack-Implementation-Assets/SCM in GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM)
 
 <!--## Tags
