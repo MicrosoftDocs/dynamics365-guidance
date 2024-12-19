@@ -65,20 +65,18 @@ The following diagram illustrates the *record and manage inventory costs* busine
     1. *Inventory to deliver*
 
         1. *Maintain inventory levels*
-        2. *Process inbound goods*
-        3. *Process outbound goods*
 
-        Each of these business process areas has parallel processes that connect to each of the following processes:
+        This business process area has parallel processes that connect to each of the following processes:
 
         1. *Process source data for cost accounting*
-        2. *Analyze cost transactions*
+        2. *Analyze transaction costs*
 
-2. *Design to retire*
+    2. *Design to retire*
 
-    1. *Introduce new products*
-    2. *Define product pricing*
+        1. *Introduce new products*
+        2. *Define product pricing*
 
-3. *Record and manage inventory costs*
+2. *Record and manage inventory costs*
 
     A parallel branch connects from 3. *Record and manage inventory costs* to 4. *Analyze transaction costs*.
 
@@ -90,16 +88,16 @@ The following diagram illustrates the *record and manage inventory costs* busine
     6. *Define cost accounting allocation rules*
     7. *Analyze cost accounting data*
 
-    A parallel branch connects to 6. End.
+        A parallel branch connects to 6. End.
 
-4. *Analyze transaction costs*
+    8. *Analyze transaction costs*
 
-    1. *Adjust available inventory costs*
-    2. *Review and adjust product base costs*
+        1. *Adjust on-hand inventory costs*
+        2. *Review and adjust product base costs*
 
-5. *Finalize inventory costs*
-6. *Record to report*
-7. End
+    9. *Finalize inventory costs*
+3. *Record to report*
+4. End
 
 ## Record and manage inventory costs benefits
 
@@ -130,18 +128,11 @@ Implementation of Dynamics 365 business applications can lead to improved profit
 If you want to implement Dynamics 365 solutions to assist with your *record and manage inventory costs* business processes, you can use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)
 
 1. [Define and manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
-
-2. *Maintain inventory levels*
-
-3. *Process inbound goods*
-
-4. *Process outbound goods*
-
-5. *Manage inventory quality*
-
-6. [Manage freight and transportation](inventory-to-deliver-manage-freight-transportation.md)
-
-7. *Record and manage inventory costs* (the article that you're currently reading)
+2. [Maintain inventory levels](inventory-to-deliver-maintain-inventory-levels-overview.md)
+3. *Manage inventory quality*
+4. [Manage freight and transportation](inventory-to-deliver-manage-freight-transportation.md)
+5. *Record and manage inventory costs* (the article that you're currently reading)
+6. *Analyze warehouse operations*
 
 ## Related information
 

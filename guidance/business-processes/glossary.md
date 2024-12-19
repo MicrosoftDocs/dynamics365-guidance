@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 07/19/2024
+ms.date: 12/11/2024
 ---
 
 # Glossary of Dynamics 365 business processes terms
@@ -892,6 +892,10 @@ IFRS aims to harmonize accounting practices and provide a common financial repor
 
 The Internet of Things (IoT) is a system of devices that connect and exchange data through a communication network. Sensors on or in the connected devices relay data&mdash;like an internal temperature or the number of items that pass by a point on a production line&mdash;to a monitoring system. Dynamics 365 Supply Chain Management supports connection with IoT sensors through the [**Sensor Data Intelligence Add-In**](/dynamics365/supply-chain/sensor-data-intelligence/sdi-home-page).
 
+### Inventory cycle count
+
+An **inventory cycle count** is a process of regularly counting a portion of the inventory in a warehouse or storage location, rather than conducting a full physical inventory count. This allows businesses to maintain accurate inventory records and identify discrepancies or issues in a timely manner. Cycle counts are typically performed on a regular schedule, such as daily, weekly, or monthly, and can be focused on high-value or fast-moving items, or conducted randomly. Effective cycle counting can help reduce the risk of stockouts and overstocks, improve inventory accuracy, and streamline inventory management.
+
 ### Inventory dimensions
 
 The attributes that Dynamics 365 Supply Chain Management uses to categorize, track, and manage the movement of items in inventory are called inventory dimensions. Organizations can use them to track inventory levels more accurately and efficiently, helping reduce waste and spoilage and optimize inventory levels to meet customer demand.
@@ -910,6 +914,22 @@ The following inventory dimensions are most often used in Dynamics 365:
 
 - [**Product dimension**](/dynamics365/supply-chain/pim/product-dimensions): A customizable attribute for categorizing inventory items by size, color, style, and so on
 
+### Inventory movements
+
+Inventory movements is a generic term used to refer to the movement of inventory. It includes recording key information about the inventory transfer, such as SKU, quantity being transferred, status, and category. In Dynamics 365 Supply Chain Management, a movement journal can be used to add or remove inventory, move inventory from one location or another. Once key difference between the inventory movement journal and other types of inventory journals that can be used to update inventory, is that the movement journal lines can have a specific general ledger main account specified. This allows you to adjust the financial value of inventory as well as the physical value of the inventory.
+
+### Inventory transfers
+
+Inventory transfers refers to the process of moving items from one warehouse to another. It involves several steps, including planning the transfer, creating an inventory movement request, delivering items, receiving items, and putting them away. In Dynamics 365 Supply Chain Management (SCM), inventory transfers refers to the immediate movement of material between different inventory dimensions. SCM supports two types of inventory transfers.
+
+- **Transfer journals**  
+
+  In-transit inventory isn't tracked, this type of journal can be used to quickly move inventory between locations, warehouses, or even to correct another inventory dimension such as size, color, style, configuration, batch or serial number of the inventory.
+
+- **Transfer orders**  
+
+  In transit inventory is tracked in a "virtual transit warehouse". Transfer orders have headers and lines, can have charges added for freight and handling, and use a picking, shipping, and receiving process to track the issue and receipt of inventory from one physical location to another.
+ 
 ### Inventory turnover
 
 Inventory turnover is a key performance indicator (KPI) that measures the number of times that inventory is sold or used during a specific period. In the context of product lifecycle management in Dynamics 365, an understanding of inventory turnover helps optimize stock levels, reduce holding costs, and ensure efficient supply chain operations.
@@ -1196,6 +1216,10 @@ An opportunity is a [lead](#lead) that has been [qualified](#lead-and-opportunit
 ### Outsourcing
 
 The use of an outside vendor to assist with the production of a semi-finished or finished good. This may be used to support internal capacity issues or used to help with the overall cost reduction of the requested item.
+
+### Overstock
+
+A product **overstock** refers to a situation where a business has more inventory of a particular product than it can sell or use.  
 
 ### Overhead costs
 
@@ -1807,6 +1831,10 @@ Skills in Dynamics 365 represent the specific abilities, knowledge, and proficie
 ### Source document
 
 An original record that evidences the occurrence of one or more economic, resource flow, and accounting events. A source document is entered into a system that records, classifies, tracks, and reports on the economic resources exchanged or committed at the time of the event. Examples of source documents in Dynamics 365 Finance include purchase requisitions, purchase orders, and sales orders.
+
+### Stockout
+
+A **stockout** is a situation where an item is out of stock and unavailable for sale or fulfillment.
 
 ### Strategic planning
 

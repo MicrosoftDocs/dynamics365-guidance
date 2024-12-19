@@ -69,15 +69,15 @@ These configurations are designed to guide customers and partners to the correct
 
 We're excited to announce the availability of new process flow diagrams for Level 3 processes. These diagrams are generated with the help of AI and are available for download in our GitHub repository at [https://aka.ms/businessprocessflow](https://aka.ms/businessprocesscatalog). We created these new BPMN 2.0 cross-functional flow diagrams for the following areas:
 
-- Acquire to dispose
+- *Acquire to dispose*
 
-- Case to resolution
+- *Case to resolution*
 
-- Inventory to deliver
+- *Inventory to deliver*
 
-- Plan to produce
+- *Plan to produce*
 
-- Source to pay
+- *Source to pay*
 
 This release includes more than 200 Level 3 process flows, which are basic and can be used for any system an organization uses. We recommend using these diagrams to help accelerate the discovery process when implementing new technology solutions such as Dynamics 365. These diagrams are intended to be used as a starting point and customized for each organization.
 
@@ -97,7 +97,7 @@ The flow diagrams are created using the Excel to Visio connector. Both the Excel
 
 These steps help you efficiently update and customize the process flow diagrams using the Excel to Visio connector. Learn more at [Refresh imported data](https://support.microsoft.com/office/refresh-imported-data-ab3668a1-873d-4109-8fa2-532670bc01e2)
 
-## New forecast to plan end-to-end process
+## New end-to-end process for Forecast to plan
 
 The entire *forecast to plan* process is deprecated and replaced with new, updated processes. The first version of the *forecast to plan* end-to-end process primarily focused on supply chain planning. We designed the new processes to provide a more comprehensive approach to business planning and strategy. The following list shows a summary of the new process areas:
 
@@ -118,7 +118,7 @@ These updates reflect a transition from specific tasks in supply chain managemen
 > [!IMPORTANT]
 > The November 2024 changes in the business process catalog don't show up in the articles here in the guidance hub yet. We hope to update all diagrams and articles early in 2025.
 
-## Improvements to inventory to deliver processes
+## Improvements to Inventory to deliver processes
 
 We made several updates to the *inventory to deliver* processes to enhance efficiency and clarity. Here are the key changes:
 
