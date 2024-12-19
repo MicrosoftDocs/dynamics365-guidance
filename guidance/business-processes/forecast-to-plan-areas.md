@@ -1,7 +1,7 @@
 ﻿---
 title: Overview of the Forecast to plan business process areas
 description: Get an overview for each of the business process areas in the Forecast to plan end-to-end business process flow in Dynamics 365 solutions. Learn how you can establish and forecast supply and demand in Dynamics 365.
-ms.date: 11/25/2024
+ms.date: 12/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -36,7 +36,7 @@ Forecasting demand means predicting how much a product or item customers will de
 
 Forecasting supply means predicting how much of a product or item will be available from suppliers or within the organization over a specific period. By forecasting supply, organizations can ensure that they have enough inventory on hand to meet customer needs without overstocking or experiencing stockouts. In Dynamics 365 Supply Chain Management, supply forecasting involves analyzing historical data on supplier performance, lead times, and inventory levels to create a forecast of future supply for each item or product. This data is used to create a supply plan that includes expected supply, safety stock levels, and lead times for replenishment. Dynamics 365 also provides tools for monitoring actual supply in real-time and adjusting the supply plan as needed based on changes in supplier performance or market conditions. By accurately forecasting supply, organizations can optimize their inventory levels, reduce stockouts, and improve customer satisfaction while minimizing inventory carrying costs.
 
-Learn more at [Demand forecasting overview](forecast-to-plan-demand-forecasting-overview.md). It's not an introduction to the *forecast supply and demand* business process area but an article about  business process that is part of the area.  
+Learn more at [Demand forecasting overview](forecast-to-plan-demand-forecasting-overview.md). It's an introduction to  a business process that is part of the *forecast supply and demand* business process area.  
 
 ## Plan supply and replenishment
 
@@ -75,6 +75,9 @@ Use the following resources to learn more about the *forecast to plan* process i
 - [TechTalk Series: Planning Optimization](https://community.dynamics.com/blogs/post/?postid=c5f1bffe-a521-4904-aa69-4e40f7336fd7)
 
 - [TechTalk Series: Demand Forecasting with Azure Machine](https://community.dynamics.com/blogs/post/?postid=be5e2cbb-373f-4167-9e57-8ccb97f97b84)
+
+> [!TIP]
+> Dynamics 365 Business Central also supports the *forecast to plan* end-to-end scenario but relies on third-party apps for the full capabilities. Learn more at [Planning](/dynamics365/business-central/production-planning) and [Create a demand forecast](/dynamics365/business-central/production-how-to-create-a-forecast).
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Planning stakeholders, Procurement stakeholders, Sales stakeholders, Production stakeholders, Inventory stakeholders
