@@ -413,20 +413,22 @@ items:
             href: implementation-portal/overview.md
           - name: Sign in
             href: implementation-portal/sign-up.md
-          - name: Onboarding wizard
+          - name: Create or join a project
             href: implementation-portal/onboard-project.md
           - name: Nominate for FastTrack
             href: implementation-portal/nominations.md
-          - name: Data sharing consent
+          - name: Consent to data sharing
             href: implementation-portal/data-sharing-consent.md
-          - name: Set up telemetry insights
-            href: implementation-portal/telemetry-insights.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
           - name: Project profiling
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Analyze with telemetry insights
+            href: implementation-portal/telemetry-insights.md
+          - name: Set up telemetry insights
+            href: implementation-portal/telemetry-insights-set-up.md
           - name: Copilot in Implementation Portal
             href: implementation-portal/implementation-copilot.md
 # 14733
