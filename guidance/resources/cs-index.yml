@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Customer Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 11/19/2024
+  ms.date: 12/13/2024
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -47,7 +47,7 @@ landingContent:
           url: cs-pad-automation.md
         - text: Application Insights for Copilot Studio
           url: copilot-studio-appinsights.md
-# Card
+# Setup Card
   - title: Setup
     linkLists:
     -  linkListType: overview
@@ -59,7 +59,19 @@ landingContent:
        - text: Sample Adaptor for Channel Integration Frameowrk
          url: cs-set-up-cif2-sampleadaptor.md
 
-# Card
+# AI Card
+  - title: Copilot and generative AI
+    linkLists:
+    - linkListType: deploy
+      links:
+        - text: Implement Copilot in digital contact centers
+          url: cs-contact-center-copilot-onboarding-guide.md
+        - text: Set up your tools and infrastructure for using Copilot in your contact center
+          url: cs-contact-center-copilot-setup.md
+        - text: Onboard your users to use Copilot in your contact center
+          url: cs-contact-center-copilot-onboard-users.md
+
+# Dev Card
 
   - title: Tools for development
     linkLists:
@@ -68,7 +80,21 @@ landingContent:
        - text: Validate the solution
          url: solution-component-validator.md
 
-# Card
+# Analytics Card
+  - title: Analytics
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Configure analytics and insights dashboards
+        url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh?branch=main
+      - text: Get started with analytics for Omnichannel
+        url: /digital-contact-center-platform/guidance/analytics-get-started
+      - text: Overview of capabilities for analytics
+        url: /digital-contact-center-platform/guidance/analytics-capabilities
+      - text: Application lifecycle management for custom reports
+        url: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
+
+# Testing Card
   - title: Tools for testing
     linkLists:
     - linkListType: overview
@@ -92,20 +118,7 @@ landingContent:
 #       - text: Set up click-to-run outbound calls
 #         url: cs-set-up-outbound-calls.md
 
-# Card
-  - title: Analytics
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Configure analytics and insights dashboards
-        url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh?branch=main
-      - text: Get started with analytics for Omnichannel
-        url: /digital-contact-center-platform/guidance/analytics-get-started
-      - text: Overview of capabilities for analytics
-        url: /digital-contact-center-platform/guidance/analytics-capabilities
-      - text: Application lifecycle management for custom reports
-        url: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
-# Card
+# ALM card
   - title: Application lifecycle management
     linkLists:
     - linkListType: overview
@@ -114,14 +127,3 @@ landingContent:
         url: ../implementation-guide/application-lifecycle-management.md
       - text: Application lifecycle management for custom reports
         url: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
-# Card
-  - title: Copilot in contact centers
-    linkLists:
-    - linkListType: deploy
-      links:
-        - text: Implement Copilot in digital contact centers
-          url: cs-contact-center-copilot-onboarding-guide.md
-        - text: Set up your tools and infrastructure for using Copilot in your contact center
-          url: cs-contact-center-copilot-setup.md
-        - text: Onboard your users to use Copilot in your contact center
-          url: cs-contact-center-copilot-onboard-users.md
