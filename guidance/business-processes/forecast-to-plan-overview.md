@@ -1,7 +1,7 @@
 ---
 title: Overview of forecast to plan end-to-end business process flow
-description:  Get an overview of the end-to-end flow and the relationship diagram for the forecast to plan business process in Dynamics 365 implementations.
-ms.date: 07/28/2023
+description: Get an overview of the end-to-end flow and the relationship diagram for the forecast to plan business process in Dynamics 365 implementations.
+ms.date: 12/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -10,7 +10,7 @@ ms.reviewer: edupont
 
 # Overview of forecast to plan business process flow and relationship to other business processes
 
-***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 This article describes the *forecast to plan* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
@@ -64,6 +64,9 @@ There are several product capabilities in the Dynamics 365 ecosystem that suppor
 - **Restock recommendations**  
 
   [Restock recommendations](/supply-chain-platform/supply-chain-center/use/restock-recommendations) is another module in Microsoft Supply Chain Center that takes demand and inventory data and proposes recommendations to help organization meet their target service levels.
+
+> [!TIP]
+> Dynamics 365 Business Central also supports the *forecast to plan* end-to-end scenario but relies on third-party apps for the full capabilities. Learn more at [Planning](/dynamics365/business-central/production-planning) and [Create a demand forecast](/dynamics365/business-central/production-how-to-create-a-forecast).
 
 ## Forecast to plan business process flow
 

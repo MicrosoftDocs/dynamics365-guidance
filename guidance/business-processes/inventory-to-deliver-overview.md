@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory to deliver end-to-end business process
 description: Learn about the inventory to deliver end-to-end business process with a flow diagram and understand the relationship with other processes in Dynamics 365 solutions.
-ms.date: 12/08/2023
+ms.date: 12/16/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -10,9 +10,12 @@ ms.reviewer: edupont
 
 # Overview of inventory to deliver business process and relationship to other business processes
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 This article provides a high-level flow diagram and an overview for each of the business process areas in the end-to-end business process *from inventory to deliver*. The article also describes this business process's relationship to other business processes in Dynamics 365.
+
+> [!NOTE]
+> We're in process of updating the article based on the November 2024 version of the business process catalog.
 
 ## Inventory to deliver process relationship
 
@@ -21,10 +24,10 @@ The following diagram shows the relationship of other processes and products/fea
 :::image type="content" source="media/inventory-to-deliver-relationship.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-relationship.svg":::
 
 The upstream processes for the *inventory to deliver* process include the following.
-
+<!-- 
 - **Concept to market**  
 
-  Mandatory prerequisite: A service must exist before you can ship the service.
+  Mandatory prerequisite: A service must exist before you can ship the service. -->
 
 - **Design to retire**  
 
@@ -40,7 +43,7 @@ The upstream processes for the *inventory to deliver* process include the follow
 
 - **Service to cash**  
 
-  When you use Dynamics 365 to manage your service process, the *inventory to deliver* process includes outbound handling, for example: loading spare parts into a delivery truck.
+  When you use Dynamics 365 to manage your service process, the *inventory to deliver* process includes handling outbound goods, such as loading spare parts into a delivery truck.
 
 - **Plan to produce**  
 
@@ -52,24 +55,14 @@ The upstream processes for the *inventory to deliver* process include the follow
 
 The *inventory to deliver* end-to-end process is broken down into the following business process areas:
 
-- Define and manage warehouse operations
-
+- Manage warehouse operations
 - Process inbound goods
-
 - Manage inventory quality
-
 - Maintain inventory levels
-
 - Manage inventory costs
-
 - Record and control costs
-
 - Process outbound goods
-
 - Manage freight and transportation
-
-- Control vendor managed inventory and consignment inventory
-
 - Analyze warehouse performance
 
 The downstream processes for the *inventory to deliver* process include the following.
@@ -104,7 +97,7 @@ The downstream processes for the *inventory to deliver* process include the foll
 
 ## Featured capabilities
 
-There are product-specific capabilities that interact with the *inventory to deliver* to process including, but not limited to, the following:
+There are product-specific capabilities that interact with the *inventory to deliver* to process including, but not limited to, the following list:
 
 - **Advanced warehouse management (mobile device)**  
 
@@ -120,11 +113,11 @@ There are product-specific capabilities that interact with the *inventory to del
 
 - **Cost accounting**  
 
-  When you have complex requirements for managing the cost of your products or produced items, you can use the Cost accounting module in Dynamics 365 Supply Chain Management to keep a set of books that help you monitor and control your inventory costs closely.
+  When you have complex requirements for managing the cost of your products or produced items, you can use the *Cost accounting* module in Dynamics 365 Supply Chain Management to keep a set of books that help you monitor and control your inventory costs closely. For solutions with Dynamics 365 Business Central, the *Cost accounting* module there also helps you understand the costs of running the business.
 
 - **Global inventory accounting add-in**  
 
-  The Global inventory accounting add-in, which is part of Dynamics 365 Supply Chain Management, allows organizations to track the value of inventory in multiple ways. For example: multiple currencies, multiple costing methodologies, or multiple accounting standards such as IFRC or GAAP.
+  With the *Global inventory accounting* add-in for Dynamics 365 Supply Chain Management, organizations can track the value of inventory in multiple ways. For example: multiple currencies, multiple costing methodologies, or multiple accounting standards such as IFRC or GAAP.
 
 - **Production floor execution**  
 
@@ -148,52 +141,52 @@ The following diagram shows the high-level flow of the *inventory to deliver* bu
 
 The following steps are illustrated in the *inventory to deliver* end-to-end business process flow diagram.
 
-1. *inventory to deliver* end-to-end process  
+1. *Inventory to deliver* end-to-end process  
 
-    1. Define and manage warehouse operations
-    2. Manage inventory quality
-    3. Manage inventory costs
-    4. Record and control costs
-    5. Report to report
+    1. *Manage warehouse operations*
+    2. *Manage inventory quality*
+    3. *Manage inventory costs*
+    4. *Record and control costs*
+    5. *Report to report*
     6. End
 
-2. Project to profit end-to-end process  
+2. *Project to profit* end-to-end process  
 
     Parallel branches from *Project to profit* connect to *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to cash*.
 
-3. Product and service lifecycle management
+3. *Design to retire* end-to-end process
 
-    The diagram doesn't illustrate connections, but product and service lifecycle management is also an upstream process for the *Produce to pay*, *Plan to produce*, *Order to cash*, and *Service to cash* business processes.
+    The diagram doesn't illustrate connections, but *Design to retire* is also an upstream process for the *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to cash* business processes.
 
-4. Source to pay end-to-end process  
+4. *Source to pay* end-to-end process  
 
-    1. Manage inbound freight and transportation
+    1. *Manage freight and transportation*
 
-        1. Process inbound goods
+        1. *Process inbound goods*
 
-        2. Control vendor management inventory
+        2. *Track supplier managed inventory and consignment inventory*
 
-    2. Manage inventory quality
+    2. *Manage inventory quality*
 
-    3. Manage inventory costs
+    3. *Manage inventory costs*
 
-    4. Record and control costs
+    4. *Record and control costs*
 
-    5. Record to report
+    5. *Record to report*
 
     6. End
 
-5. Plan to produce end-to-end process  
+5. *Plan to produce* end-to-end process  
 
-    1. Process inbound goods
+    1. *Process inbound goods*
 
-    2. Process outbound goods
+    2. *Process outbound goods*
 
-    3. Manage outbound freight and transportation
+    3. *Manage freight and transportation*
 
-    4. Manage inventory quality
+    4. *Manage inventory quality*
 
-    5. Manage inventory costs
+    5. *Manage inventory costs*
 
     6. Record and control costs
 
@@ -201,38 +194,38 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
     8. End
 
-6. Order to cash end-to-end process  
+6. *Order to cash* end-to-end process  
 
-    1. Process outbound goods
+    1. *Process outbound goods*
 
-    2. Manage outbound freight and transportation
+    2. *Manage outbound freight and transportation*
 
-    3. Manage inventory quality
+    3. *Manage inventory quality*
 
-    4. Manage inventory costs
+    4. *Manage inventory costs*
 
-    5. Record and control costs
+    5. *Record and control costs*
 
-    6. Record to report
+    6. *Record to report*
 
     7. End
 
-7. Service to cash end-to-end process  
+7. *Service to cash* end-to-end process  
 
-    1. Process outbound goods
+    1. *Process outbound goods*
 
-    2. Manage outbound freight and transportation
+    2. *Manage outbound freight and transportation*
 
-    3. Manage inventory quality
+    3. *Manage inventory quality*
 
         A parallel branch from this subprocess is *Case to resolution*, which connects to *End*.
 
-    4. Manage inventory costs
+    4. *Manage inventory costs*
 
         A parallel branch from this subprocess is *Record to Report*, which connects to *End*.
-    5. Record and control costs
+    5. *Record and control costs*
 
-    6. Record to report
+    6. *Record to report*
 
     7. End
 
@@ -249,13 +242,11 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 Use the following resources to learn more about the *inventory to deliver* process in Dynamics 365.
 
 - [TechTalk Series: Warehouse & Transportation Management in Dynamics 365 Supply Chain Management - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=4b4d8aa8-2922-4fe8-b93f-a404cb59e5d4)
-
 - [Inventory management overview](/dynamics365/supply-chain/inventory/inventory-home-page)
-
 - [Warehouse management overview](/dynamics365/supply-chain/warehousing/warehouse-management-overview)
-
 - [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)
-
+- [Manage inventory in Business Central](/dynamics365/business-central/inventory-manage-inventory)  
+- [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)  
 - [Dynamics-365-FastTrack-Implementation-Assets/SCM in GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM)
 
 <!--## Tags

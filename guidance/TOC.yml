@@ -413,20 +413,22 @@ items:
             href: implementation-portal/overview.md
           - name: Sign in
             href: implementation-portal/sign-up.md
-          - name: Onboarding wizard
+          - name: Create or join a project
             href: implementation-portal/onboard-project.md
           - name: Nominate for FastTrack
             href: implementation-portal/nominations.md
-          - name: Data sharing consent
+          - name: Consent to data sharing
             href: implementation-portal/data-sharing-consent.md
-          - name: Set up telemetry insights
-            href: implementation-portal/telemetry-insights.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
           - name: Project profiling
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Analyze with telemetry insights
+            href: implementation-portal/telemetry-insights.md
+          - name: Set up telemetry insights
+            href: implementation-portal/telemetry-insights-set-up.md
           - name: Copilot in Implementation Portal
             href: implementation-portal/implementation-copilot.md
 # 14733
@@ -532,20 +534,28 @@ items:
               href: resources/fs-index.yml
             - name: Samples and tools overview
               href: resources/fs-component-library.md
-            - name: Add crew information to resource cells
-              href: resources/fs-resource-cell-template.md
-            - name: Customize the template for bookings
-              href: resources/fs-booking-template.md
-            - name: Schedule board settings management control
-              href: resources/fs-schedule-board-settings-management-control.md
-            - name: Field mapping for the schedule board settings
-              href: resources/fs-schedule-board-settings-field-mapping.md
-            - name: Transport summary configurations across environments
-              href: resources/fs-transport-summary-configuration.md
-            - name: Set up Azure Pipelines to deploy Field Service
-              href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
-            - name: Sample telemetry dashboard for mobile app offline profile usage
-              href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
+            - name: Deploy and configure
+              items:
+              - name: Set up Azure Pipelines to deploy Field Service
+                href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
+              - name: Transport summary configurations across environments
+                href: resources/fs-transport-summary-configuration.md
+              - name: Use Copilot to create sample data for Field Service
+                href: resources/fs-copilot-import-sample-data.md
+            - name: Configure the schedule board
+              items:
+              - name: Add crew information to resource cells
+                href: resources/fs-resource-cell-template.md
+              - name: Customize the template for bookings
+                href: resources/fs-booking-template.md
+              - name: Schedule board settings management control
+                href: resources/fs-schedule-board-settings-management-control.md
+              - name: Field mapping for the schedule board settings
+                href: resources/fs-schedule-board-settings-field-mapping.md
+            - name: Add analytics
+              items:
+              - name: Sample telemetry dashboard for mobile app offline profile usage
+                href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
 # FnO
         - name: Finance and operations apps
           items:
@@ -828,8 +838,10 @@ items:
             href: business-processes/inventory-to-deliver-overview.md
           - name: Business process areas
             href: business-processes/inventory-to-deliver-areas.md
-          - name: Define and manage warehouse operations
+          - name: Manage warehouse operations
             href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
+          - name: Maintain inventory levels
+            href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
           - name: Manage freight and transportation
             href: business-processes/inventory-to-deliver-manage-freight-transportation.md
           - name: Record and manage inventory costs

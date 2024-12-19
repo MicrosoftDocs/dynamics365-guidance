@@ -1,14 +1,14 @@
 ---
-title: Give or get consent for data sharing in your project
+title: Give or get consent to data sharing in your project
 description: Find out how to give or get consent for data sharing in a Dynamics 365 implementation project and what features depend on it.
 author: edupont04
 ms.author: goantu
 ms.topic: how-to
-ms.date: 10/28/2024
+ms.date: 12/19/2024
 ai-usage: ai-assisted
 ---
 
-# Give or get consent for data sharing in your project
+# Give or get consent to data sharing in your project
 
 In this article, we introduce you to the process of approving data sharing in a Dynamics 365 implementation project. Based on Microsoft's [Privacy policy](https://privacy.microsoft.com/privacystatement), we require two contacts from the customer's organization to approve the implementation project's access to their organization's tenant. This allows partners to access information such as customer name and telemetry insights and ensures compliance with data protection regulations, building trust with customers.
 
@@ -18,18 +18,25 @@ Similarly, when you set up [a telemetry request](telemetry-insights.md) in the *
 
 ## Process
 
-When you create a new implementation project with [the onboarding wizard](onboard-project.md), or you [set up a telemetry request](telemetry-insights.md), there's an option to specify the tenant that you want to associate the project or telemetry request with, the current tenant or a different tenant. If you choose the option **Different Tenant**, then data consent is required.
+When you create a new implementation project with [the onboarding wizard](onboard-project.md), or you [set up a telemetry request](telemetry-insights.md), there's an option to specify the tenant that you want to associate the project or telemetry request with, the current tenant or a different tenant. If you choose the option **Different Tenant**, then you must request consent to sharing data.
 
-For both scenarios, Microsoft requires two contact email addresses from the customer organization as reviewers to trigger the consent process. The email addresses must belong
-to the specified tenant. Once you provide the details and choose the **Submit** button, an review email is sent to both reviewers.  
+### Request consent
 
-### Email sent for approving data consent
+Both when you create a new project and when you set up telemetry, a new section, **Consent for data sharing**, appears if you choose the option **Different Tenant**.  
 
-The sender of the email is `ftdyn365@microsoft.com`, and the subject is *Dynamics 365 Implementation Portal - Review access*. The body of the email specifies the name of the implementation project and the tenant ID, and it provides context for the request. The email has a link that opens the **Project Admin** tab in the Dynamics 365 Imlementation Portal where the reviewers can then reviewing the request and take the next step.
+For both scenarios, Microsoft requires two contact email addresses from the customer organization as reviewers to trigger the consent process. The email addresses must belong to the specified tenant and have the format `name@company.com`.  
+
+Provide the two email addresses, select the **Click here to confirm the emails provided are real organization users from the company that owns the target tenant, not out-sourced users** field, and then choose the **Submit** action.
+
+An email is sent to both target tenant reviewers for them to approve your access along with the link and other details.  
+
+### Email sent for approving consent
+
+The sender of the email is `ftdyn365@microsoft.com`, and the subject is *Dynamics 365 Implementation Portal - Review access*. The body of the email specifies the name of the implementation project and the tenant ID, and it provides context for the request. The email has a link that opens the **Project Admin** tab in the Dynamics 365 Implementation Portal. Here, the reviewers can then review the request and take the next step.
 
 ## Approval status
 
-On the approval page, the reviwers can choose to approve or reject the request.
+On the approval page, the reviewers can choose to approve or reject the request.
 
 ![Screenshot of the Data Consent tab for an implementation project that's pending approval or rejecting of the data sharing consent request.](./media/DataConsentApproval.png)
 
@@ -43,7 +50,7 @@ The following table describes the status options of a data sharing request that 
 | **Allowed** | The request has been approved by both reviewers. |
 
 > [!NOTE]
-> Both reviewers must approve the request for the data consent process to be complete. If the reviewers didn't receive the email, they can go to the **Admin > Data Consent** tab of the project in the Implmentation Portal where they might see the approval options available. If there are still issues in approving the requests, please email [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).
+> Both reviewers must approve the request for the data consent process to be complete. If the reviewers didn't receive the email, they can go to the **Admin > Data Consent** tab of the project in the Implementation Portal where they might see the approval options available. If there are still issues in approving the requests, please email [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).
 
 ## Admin tasks related to data consent requests
 
@@ -72,7 +79,7 @@ You can change the data consent reviewer emails in the **Data consent** view wit
 2. Choose the checkbox to confirm that the user belongs to the target tenant, and then choose the **Update** action.
 
 This sends an email to the newly added user for approval. The project admin can update the reviewer emails as required.
- 
+
 ### Approve and reject data sharing consent
 
 Reviewers receive an email to approve the request based on the following actions:
@@ -93,3 +100,8 @@ As of March 2024:
 ## Feedback or questions?
 
 Email your feedback or questions to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com).  
+
+## Relation information
+
+- [Create or join a project in the Implementation Portal](onboard-project.md)  
+- [Telemetry insights overview (preview)](telemetry-insights.md)  

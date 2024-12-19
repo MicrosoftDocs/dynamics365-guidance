@@ -1,7 +1,7 @@
 ---
 title: Overview of the Inventory to deliver business process areas
 description: Get an overview for each of the business process areas in the Inventory to deliver end-to-end business process for managing, handling, and delivering inventory in Dynamics 365 solutions.
-ms.date: 11/25/2024
+ms.date: 12/16/2024
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -9,19 +9,21 @@ ms.author: raprofit
 
 # Overview of the Inventory to deliver business process areas
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 The *inventory to deliver* process is broken down into business process areas for managing the complete process of inventory to be received, handled, and delivered. The following sections further describe the business process areas.
 
-## Define and manage warehouse operations
+## Manage warehouse operations
 
 This area involves defining and managing warehouse operations, including the setup of warehouses, locations, and zones. It also includes managing the resources that are required for warehouse operations, such as workers, equipment, and tools.
 
-Learn more at [Define and manage warehouse operations strategy and policies overview](inventory-to-deliver-define-manage-warehouse-operations-overview.md).
+Learn more at [Manage warehouse operations strategy and policies overview](inventory-to-deliver-define-manage-warehouse-operations-overview.md).
 
 ## Maintain inventory levels
 
-This area involves managing inventory levels to meet customer demand while minimizing stockouts and overstocks. It includes setting up inventory policies, monitoring stock levels, and creating replenishment plans. It also includes the management of inventory movements within the warehouse, adjustments for gains and losses of inventory, and the cycle counting process.<!--Learn more at \[Maintain inventory levels link\]TODO:Add link-->
+This area involves managing inventory levels to meet customer demand while minimizing stockouts and overstocks. It includes setting up inventory policies, monitoring stock levels, and creating replenishment plans. It also includes the management of inventory movements within the warehouse, adjustments for gains and losses of inventory, and the cycle counting process.
+
+Learn more at [Maintain inventory levels overview](inventory-to-deliver-maintain-inventory-levels-overview.md).
 
 ## Process inbound goods
 
@@ -65,7 +67,9 @@ Use the following resources to learn more about the *inventory to deliver* proce
 - [TechTalk Series: Warehouse & Transportation Management in Dynamics 365 Supply Chain Management - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=4b4d8aa8-2922-4fe8-b93f-a404cb59e5d4)
 - [Inventory management overview](/dynamics365/supply-chain/inventory/inventory-home-page)
 - [Warehouse management overview](/dynamics365/supply-chain/warehousing/warehouse-management-overview)
-- [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)
+- [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)  
+- [Manage inventory in Business Central](/dynamics365/business-central/inventory-manage-inventory)  
+- [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)  
 - [Dynamics-365-FastTrack-Implementation-Assets/SCM in GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM)
 
 <!--## Tags
