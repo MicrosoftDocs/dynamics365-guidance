@@ -1205,6 +1205,8 @@ items:
           href: fasttrack/go-live-workshops.md
         - name: Frequently asked questions about FastTrack
           href: fasttrack/faq.md
+        - name: FastTrack Recognized Solution Architect
+          href: fasttrack/instruction-guide-fasttrack-recognized-solution-architect.md
 # TechTalks
       - name: TechTalks
         items:

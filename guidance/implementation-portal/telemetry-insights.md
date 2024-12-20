@@ -4,7 +4,7 @@ description: Learn how to use telemetry insights to analyze the performance of a
 author: dereklh77
 ms.author: meesposi
 ms.topic: conceptual
-ms.date: 12/18/2024
+ms.date: 12/20/2024
 ---
 # Telemetry insights overview (preview)
 <!--[This article is prerelease documentation and is subject to change.]-->
@@ -25,10 +25,11 @@ The following table describes some of the most popular performance-related rules
 |--|--|
 |*Identify Percentage of Slow Network Users* |This rule evaluates the overall percentage of users experiencing slow network performance.|
 | *Identification of Network Latency and Throughput by Country*| This rule identifies the count of users and their associated bandwidth and latency for network connections. |
-| *Evaluate Timeouts from Async Ribbon Rule Evaluations*|This rule identifies all method names where the **Ribbon Rule Evaluation** code either fails to resolve or times out.  When promises in the **Ribbon Rule Evaluation** code are not properly resolved or rejected, the calling code continues to wait, leading to a timeout and adversely affecting form load times. |
+|*Evaluate Sync Call Impact*|This rule detects the impact of sync calls on all form loads.|
 | *Identify the source of OnLoad Sync calls*  |This rule identifies the origins of synchronous calls triggered by form onload scripts. |
-| *Identify the source of Role calls* |This rule identifies the origin of synchronous calls made specifically to retrieve the assigned roles for a user. |
-| *Identify Save Form call on Loading of Form* |This rule identifies and quantifies form loads affected by the unnecessary triggering of a 'Save' operation during the form load process. |
+| *Evaluate Timeouts from Async Ribbon Rule Evaluations*|This rule identifies all method names where the **Ribbon Rule Evaluation** code fails to resolve or results in a timeout.<!--When promises in the **Ribbon Rule Evaluation** code are not properly resolved or rejected, the calling code continues to wait, leading to a timeout and adversely affecting form load times.--> |
+|*Identify the source of Role calls* |This rule identifies the origin of synchronous calls made specifically to retrieve the assigned roles for a user. |
+|*Identify Save Form call on Loading of Form* |This rule identifies and quantifies form loads affected by the unnecessary triggering of a *Save* operation during the form load process. |
 
 > [!TIP]
 > The Dynamics 365 Implementation Portal includes a page with the number of active rules and some info about the rules.
