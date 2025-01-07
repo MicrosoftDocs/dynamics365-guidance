@@ -139,19 +139,19 @@ items:
                 href: patterns/create-functional-technical-design-document.md
           - name: Process-focused solution
             items:
-            - name: Process-focused solution overview
+            - name: Implement based on business processes
               href: implementation-guide/process-focused-solution.md
-            - name: Opportunity for optimization
+            - name: Optimize business processes
               href: implementation-guide/process-focused-solution-opportunity-optimization.md
-            - name: Process-centric implementation lifecycle
+            - name: Base the implementation lifecycle on processes
               href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-            - name: Considerations
+            - name: Build quality with optimized and standardized business processes
               href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-            - name: Fit-to-standard and Fit-gap analysis
+            - name: Do fit-to-standard and fit-gap analysis
               href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
             - name: Define your requirements
               href: implementation-guide/process-focused-solution-define-requirements.md
-            - name: Introduction to process maturity
+            - name: Learn about process maturity
               href: business-processes/process-maturity-introduction.md
             - name: Standardize business processes during an implementation
               href: business-processes/standardize-business-processes.md  
