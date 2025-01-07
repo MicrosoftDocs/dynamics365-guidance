@@ -1,9 +1,9 @@
 ---
-title: How to implement Dynamics 365 cloud solutions
-description: Learn how to adopt a cloud mindset, upgrade from on-premises to online, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365.
+title: Implement cloud solutions
+description: Learn how to adopt a cloud mindset, migrate from on-premises to online deployments, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365.
 author: taksatoms
 ms.author: tsato
-ms.date: 01/08/2024
+ms.date: 01/06/2025
 ms.topic: conceptual
 ms.custom:
   - ai-seo-date: 01/08/2024
@@ -14,7 +14,7 @@ content_well_notification: AI-contribution
 ai-usage: ai-assisted
 ---
 
-# How to implement Dynamics 365 cloud solutions
+# Implement cloud solutions with Dynamics 365
 
 This section of the Dynamics 365 implementation guidance helps you plan and execute your cloud implementation. You'll learn how to upgrade from on-premises to online, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365. You'll also discover why you need to adopt a cloud mindset for a successful digital transformation.
 
@@ -22,7 +22,7 @@ This section of the Dynamics 365 implementation guidance helps you plan and exec
 
 Organizations of all sizes use the cloud to modernize their operations, increase efficiency, and better serve customers. For some organizations, the shift to the cloud means running their applications in a public cloud infrastructure instead of a traditional on-premises datacenter. For others, it means using cloud applications and a cloud platform (software as a service, or SaaS) to transform their business with more agility and adaptability.
 
-Whatever model you choose, the key to success isn't just the implementation. It's how you approach the digital transformation journey. Success in the cloud isn't just about the technology or the features. It's about the organizational mindset. To transform your business, you need to prepare for changes across the entire enterprise, including structure, processes, people, culture, and leadership. It's as much a leadership and change exercise as it is a technical exercise.
+Whatever model you choose, the key to success isn't just the implementation. It's how you approach the digital transformation journey. Success in the cloud isn't just about the technology or the features. It's about the organizational mindset. To transform your business, you must prepare for changes across the entire enterprise, including structure, processes, people, culture, and leadership. It's as much a leadership and change exercise as it is a technical exercise.
 
 In this section, we give you a perspective on what to expect when you implement your cloud solution based on Dynamics 365. We introduce principles that apply to any online application. We expand on these concepts in other sections. We hope these principles help you set your course and guide you in your leap into the cloud.
 

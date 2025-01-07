@@ -3,7 +3,7 @@ title: Test your Dynamics 365 solution before deployment
 description: Learn why testing your Dynamics 365 solution is essential for a successful implementation and how to create and execute a comprehensive testing strategy.
 author: edupont04
 ms.author: veneva
-ms.date: 01/23/2024
+ms.date: 01/07/2025
 ms.topic: conceptual
 ms.custom:
   - ai-seo-date: 01/23/2024
@@ -137,11 +137,13 @@ Here are some resources that can help you with your testing process:
 - Finance and operations apps
   - [Test Strategy TechTalk](https://community.dynamics.com/blogs/post/?postid=05707484-1079-48b0-982b-88fe9215eaf1)
   - [Performance benchmark](https://community.dynamics.com/blogs/post/?postid=fcc3526c-5f83-4645-8fa2-e01de47df387)
-  - [Performance troubleshooting tools](https://community.dynamics.com/blogs/post/?postid=037d2f4a-1745-4cfb-93e9-530741294f39)
+  - [Performance troubleshooting tools](https://community.dynamics.com/blogs/post/?postid=037d2f4a-1745-4cfb-93e9-530741294f39)  
 - Customer engagement apps
   - [FastTrack automated testing in a day workshop offering](https://www.microsoftevents.com/profile/web/index.cfm?PKwebID=0x1661342abcd)
   - [Automated and manual testing with Azure Test plan in Azure DevOps](https://www.youtube.com/watch?v=LF0hmSysWCg)
-  - [Build end-to-end UI tests for your canvas app using Test Studio](/powerapps/maker/canvas-apps/test-studio)
+  - [Build end-to-end UI tests for your canvas app using Test Studio](/powerapps/maker/canvas-apps/test-studio)  
+- Dynamics 365 Business Central apps
+  - [Testing the application](/dynamics365/business-central/dev-itpro/developer/devenv-testing-application)  
 
 ## Next steps
 
