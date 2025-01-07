@@ -1,13 +1,13 @@
 ### YamlMime:Landing
 title: ISV tools and resources
-summary: Find tools and guidance to help you build Dynamics 365 and Power Platform customizations as an independent software vendor (ISV).
+summary: Find tools and guidance to help you build solutions with Dynamics 365 and Power Platform as an independent software vendor (ISV).
 
 metadata:
   title: Tools and resources for independent software vendors (ISVs)
   description: Find tools and guidance to help you build apps and services with Dynamics 365 and Power Platform.
   author: edupont04
   ms.author: edupont
-  ms.date: 11/25/2024
+  ms.date: 01/07/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.subservice: guidance
   ms.service: dynamics-365
@@ -44,7 +44,7 @@ landingContent:
       - text: Case study
         url: ../implementation-guide/implementing-cloud-solutions-case-study.md
       
-# Card
+# Card extend your solution
   - title: Extend Dynamics 365
     linkLists:
     - linkListType: concept
@@ -64,7 +64,7 @@ landingContent:
       - text: Case study
         url: ../implementation-guide/extend-your-solution-case-study.md
  
-# Card
+# Card integrate with other solutions
   - title: Integrate with other solutions
     linkLists:
     - linkListType: concept
@@ -85,7 +85,7 @@ landingContent:
       links:
       - text: Options for regression testing
         url: ../implementation-guide/testing-regression-tooling.md
-# Card
+# Card data management architecture
 
   - title: Data management architecture
     linkLists:
@@ -94,17 +94,35 @@ landingContent:
       - text: Manage data
         url: ../implementation-guide/data-management.md
 
-# Card
+# Card strategies
+  - title: Implementation strategies
+    linkLists:
+    - linkListType: concept
+      links:
+      - text: Plan an implementation strategy
+        url: ../implementation-guide/implementation-strategy.md
+      - text: Choose a methodology
+        url: ../implementation-guide/implementation-strategy-choose-methodology.md
+      - text: Define a strategy for adoption and change management
+        url: ../implementation-guide/implementation-strategy-define-strategy-adoption-change-management.md
+      - text: Test your Dynamics 365 solution before deployment
+        url: ../implementation-guide/testing-strategy.md
+    - linkListType: reference
+      links:
+      - text: Options for regression testing
+        url: ../implementation-guide/testing-regression-tooling.md
+
+# Card process-focused solutions
 
   - title: Process-focused solutions
     linkLists:
     - linkListType: concept
       links:
-      - text: Process-focused solutions overview
+      - text: Implement based on business processes
         url: ../implementation-guide/process-focused-solution.md
-      - text: Optimize your business processes with Dynamics 365
+      - text: Optimize your business processes
         url: ../implementation-guide/process-focused-solution-opportunity-optimization.md
-      - text: Implement Dynamics 365 with a process-focused approach
+      - text: Base the implementation lifecycle on processes
         url: ../implementation-guide/process-focused-solution-implementation-lifecycle.md
       - text: Build quality, optimized, and standardized business processes
         url: ../implementation-guide/process-focused-solution-considerations-building-business-processes.md
@@ -117,7 +135,47 @@ landingContent:
       - text: Case study
         url: ../implementation-guide/process-focused-solution-case-study-journey.md
 
-# Card
+# Card project governance
+  - title: Project governance
+    linkLists:
+    - linkListType: concept
+      links:
+      - text: Implement Dynamics 365 projects with effective governance
+        url: ../implementation-guide/project-governance.md
+      - text: Use classic project governance structures
+        url: ../implementation-guide/project-governance-classic-structures.md
+      - text: How to run a successful Dynamics 365 project
+        url: ../implementation-guide/project-governance-conclusion.md
+    - linkListType: reference
+      links:
+      - text: Checklist for project governance
+        url: ../implementation-guide/project-governance-checklist.md
+
+# Card change mangagement
+  - title: Change management
+    linkLists:
+    - linkListType: concept
+      links:
+      - text: Understand and apply the change management discipline effectively and successfully
+        url: ../implementation-guide/change-management.md
+      - text: Analyze alignment of organization goals through managing project goals and readiness
+        url: ../implementation-guide/change-management-project-goals-readiness.md
+      - text: Provide and overview of the solution
+        url: ../implementation-guide/change-management-solution-overiew.md
+      - text: Manage changes in the project plan
+        url: ../implementation-guide/change-management-project-plan.md
+      - text: Expectation management for change managers
+        url: ../implementation-guide/change-management-manage-expectations.md
+      - text: Manage test efforts as part of change management
+        url: ../implementation-guide/change-management-test-solution.md
+      - text: Manage changes during transition and handover
+        url: ../implementation-guide/change-management-transition-handover.md
+    - linkListType: reference
+      links:
+      - text: Change management checklist
+        url: ../implementation-guide/change-management-checklist.md
+
+# Card service
   - title: Service your solution
     linkLists:
     - linkListType: concept
@@ -140,5 +198,9 @@ landingContent:
         url: https://www.microsoft.com/isv/app-advisor?msockid=1a95380df93760002c642c69f88d61df
       - text: Partner hub
         url: https://partner.microsoft.com
+      - text: ISV Success for business applications
+        url: https://dynamicspartners.transform.microsoft.com/program/isv-success
+      - text: ISV Success program
+        url: https://www.microsoft.com/isv/
       - text: Apply for ISV success
         url: https://www.microsoft.com/isv/enroll/signup
