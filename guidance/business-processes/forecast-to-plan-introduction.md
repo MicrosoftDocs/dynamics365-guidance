@@ -1,7 +1,7 @@
 ﻿---
 title: Introduction to the forecast to plan business processes
 description: Get introduced to the forecast to plan end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their forecast to plan processes.
-ms.date: 07/06/2023
+ms.date: 12/12/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: annekrupke
@@ -10,7 +10,7 @@ ms.reviewer: edupont
 
 # Introduction to the forecast to plan end-to-end business processes
 
-***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 This article introduces the *forecast to plan* end-to-end business process. It outlines how Dynamics 365 apps can help organizations manage and optimize their *forecast to plan* processes. This end-to-end business process has the number *50* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
@@ -62,23 +62,23 @@ When your organization plans to implement Dynamics 365 to assist with the *forec
 
 Dynamics 365 can help organizations prevent stock outs by providing real-time visibility into inventory levels, demand forecasts, and supply chain risks. Here are some ways in which Dynamics 365 can help prevent stock outs:
 
-- Demand Forecasting
+- Demand forecasting
 
   Dynamics 365 Supply Chain Management can analyze historical data and trends using Azure Machine Learning to automatically generate a demand forecast. This capability helps organizations to make planning decisions that ensure inventory is on-hand when it's needed for production, sales, or transfer activities.
 
-- Inventory Management  
+- Inventory management  
 
   With Dynamics 365 Supply Chain Management, organizations manage their inventory levels effectively by setting up minimum, reorder point, and maximum stock levels. This setup helps make sure that replenishment supply is triggered in time to meet expected demand. It also supports prioritization of replenishment based on the likelihood of stocking out.
 
-- Supply Chain Visibility  
+- Supply chain visibility  
 
   Microsoft Supply Chain Center provides real-time visibility into the entire supply chain, enabling organizations to monitor supplier performance and respond to any issues that may impact inventory levels. It also supports deeper vendor and customer collaboration and transfer of information.
 
-- Automated Replenishment  
+- Automated replenishment  
 
   Dynamics 365 Commerce and Dynamics 365 Supply Chain Management can automate the replenishment process by generating replenishment orders and sending them to suppliers when inventory levels fall below the minimum threshold. This helps to ensure optimal inventory levels.
 
-- Collaboration and Communication  
+- Collaboration and communication  
 
   Together applications such as Microsoft 365, Microsoft Teams, and Dynamics 365 provide collaboration and communication tools that enable organizations to communicate with suppliers and other stakeholders in real-time. This helps to ensure that everyone is on the same page and can respond quickly to any issues that may impact inventory levels.
 
@@ -123,6 +123,9 @@ Use the following resources to learn more about the *forecast to plan process* i
 - [TechTalk Series: Planning Optimization](https://community.dynamics.com/blogs/post/?postid=c5f1bffe-a521-4904-aa69-4e40f7336fd7)
 
 - [TechTalk Series: Demand Forecasting with Azure Machine Learning](https://community.dynamics.com/blogs/post/?postid=be5e2cbb-373f-4167-9e57-8ccb97f97b84)
+
+> [!TIP]
+> Dynamics 365 Business Central also supports the *forecast to plan* end-to-end scenario but relies on third-party apps for the full capabilities. Learn more at [Planning](/dynamics365/business-central/production-planning) and [Create a demand forecast](/dynamics365/business-central/production-how-to-create-a-forecast).
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Planning stakeholders, Procurement stakeholders, Sales stakeholders, Production stakeholders, Inventory stakeholders

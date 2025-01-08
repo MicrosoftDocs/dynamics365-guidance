@@ -1,17 +1,20 @@
 ﻿---
-title: Process vendor rebates and incentives overview
-description: Learn about the process vendor rebates and incentives business process, including learning about the various stakeholders and business process flow.
+title: Process supplier rebates and incentives
+description: Learn about the process supplier rebates and incentives business process, including learning about the various stakeholders and business process flow.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 03/18/2024
+ms.date: 12/10/2024
 ---
 
-# Process vendor rebates and incentives overview
+# Process supplier rebates and incentives
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
 This article describes how you can use Dynamics 365 products to support the process for managing supplier or vendor rebates or other incentives in your supply chain.
+
+> [!NOTE]
+> In the first versions of the business process catalog, this article represented a business process area, but it is now a business process under *Manage accounts payable*. We're in process of updating the article based on the November 2024 version.
 
 Processing vendor rebates and incentives is a crucial aspect of financial management within an organization, playing a pivotal role in optimizing revenue and strengthening vendor relationships. In the realm of Dynamics 365, particularly Finance and Supply Chain Management, this process is seamlessly integrated, offering a comprehensive solution for managing rebate-related transactions. The cohesive ecosystem of Dynamics 365 ensures that businesses can efficiently configure and execute vendor rebate processes, fostering a streamlined and transparent approach.
 
@@ -23,7 +26,7 @@ The functionality for rebate management is flexible and can be added at any time
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *process vendor rebates and incentives* business process area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *process supplier rebates and incentives* business process area. The following list provides examples of such stakeholders:
 
 - **Finance team stakeholders** include accounts payable specialists, financial analysts, controllers, and chief financial officers (CFOs). These finance team stakeholders play a crucial role in designing and configuring the vendor rebate approval process, defining rebate programs, and analyzing rebate performance. Their expertise ensures the financial accuracy and viability of the incentive programs.
 
@@ -33,14 +36,13 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Executive leadership stakeholders** include chief executive officers (CEOs), chief operating officers (COOs), and CFOs. Executive leaders should be engaged in high-level decision-making and approval processes, providing strategic direction and oversight to ensure that vendor rebate and incentive programs align with organizational goals and objectives.
 
-## Process vendor rebates and incentives process flow
+## Process supplier rebates and incentives process flow
 
-The following diagram illustrates the process vendor rebates and incentives business process area.
+The following diagram illustrates the *process supplier rebates and incentives* business process.
 
-:::image type="content" source="media\source-to-pay-process-vendor-rebates-incentives-overview.svg" alt-text="Diagram of the process vendor rebates and incentives business process flow, showing the connections between the various business process areas." lightbox= "media\source-to-pay-process-vendor-rebates-incentives-overview.svg":::
+:::image type="content" source="media\source-to-pay-process-supplier-rebates-incentives.svg" alt-text="Diagram of the process supplier rebates and incentives business process flow, showing the connections between the different stages." lightbox= "media\source-to-pay-process-supplier-rebates-incentives.svg":::
 
-[!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
-
+<!-- 
 1. Start
 
     1. A parallel branch from Start includes the *Concept to market* end-to-end process
@@ -69,11 +71,11 @@ The following diagram illustrates the process vendor rebates and incentives busi
 
 11. *Record to report* end-to-end process
 
-12. End
+12. End -->
 
-## Process vendor rebates and incentives benefits
+## Process supplier rebates and incentives benefits
 
-Many key benefits can be used to monitor and measure the success of implementing technology to support the process vendor rebates and incentives processes. The following sections outline the key benefits that an organization might monitor and measure for processing vendor rebates and incentives.
+Many key benefits can be used to monitor and measure the success of implementing technology to support the process supplier rebates and incentives processes. The following sections outline the key benefits that an organization might monitor and measure for processing vendor rebates and incentives.
 
 ### Streamlined rebate approval process
 
@@ -101,7 +103,7 @@ KPIs such as rebate processing time and the percentage reduction in manual error
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *processing vendor rebates and incentives* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *processing supplier rebates and incentives* business process, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. *Define procurement and sourcing strategies*
 
@@ -115,11 +117,11 @@ If you would like to implement Dynamics 365 solutions to assist with your *proce
 
 6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
-7. *Process vendor rebates and incentives* (the article you're currently reading)
+7. *Process supplier rebates and incentives* (the article you're currently reading)
 
 ## Related information
 
-You can use the following resources to learn more about the process vendor rebates and incentives processes in Dynamics 365.
+You can use the following resources to learn more about the *process supplier rebates and incentives* business process in Dynamics 365.
 
 - [Vendor rebates](/dynamics365/supply-chain/procurement/vendor-rebates)
 

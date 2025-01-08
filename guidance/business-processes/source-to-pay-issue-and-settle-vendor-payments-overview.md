@@ -1,29 +1,32 @@
 ---
-title: Issue and settle vendor payments overview
-description: Learn about the issue and settle vendor payments business process area, including the issue and settle vendor payments process flow.
+title: Issue and settle supplier payments
+description: Learn about the issue and settle supplier payments business process area, including the process flow.
 author: music727
 ms.author: mibeinar
-ms.date: 08/12/2024
+ms.date: 12/10/2024
 ms.topic: overview
 ---
 
-# Issue and settle vendor payments overview
+# Issue and settle supplier payments
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to support the organization's requirements to issue and settle vendor payments.
+This article describes how you can use Dynamics 365 products to support the organization's requirements to issue and settle payments to your suppliers.  
 
-## Introduction to issue and settle vendor payments
+> [!NOTE]
+> In the first versions of the business process catalog, this article represented a business process area, but it is now a business process under *Manage accounts payable*. We're in process of updating the article based on the November 2024 version.
 
-The *issue and settle vendor payments* business process area focuses on paying vendors according to the agreed-upon payment terms, ensuring that payments are made accurately and on time, and settling them against invoices either manually or through an automated process.
+## Introduction to issue and settle supplier payments
+
+The *issue and settle vendor payments* business process focuses on paying vendors according to the agreed-upon payment terms, ensuring that payments are made accurately and on time, and settling them against invoices either manually or through an automated process.
 
 *Issue and settle vendor payments* is an essential step in the *Source to pay* end-to-end business process flow and structured and defined approach to issuing and settling vendor payments is critical to prevent financial risks and payment delays and ensure financial stability within your organization.
 
-The *issue and settle vendor payments* business process area should be defined and incorporated into the overall implementation during the plannings phase. This phase typically occurs at the beginning of a project's lifecycle. It involves establishing project goals, defining project scope, and developing a detailed project plan.
+The *issue and settle vendor payments* business process should be defined and incorporated into the overall implementation during the plannings phase. This phase typically occurs at the beginning of a project's lifecycle. It involves establishing project goals, defining project scope, and developing a detailed project plan.
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *issue and settle vendor payments* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *issue and settle vendor payments* business process. The following list provides examples of such stakeholders:
 
 - **Accounts payable clerks** – Responsible for processing accounts and incoming payments in compliance with financial policies and procedures. Accounts payable clerks are also responsible for verifying, classifying, and recording accounts payable data, and for preparing bills, invoices, and bank deposits. They might also be responsible for reconciling the accounts payable ledger to ensure that all bills and payments are accounted for and correctly posted. They might also verify and investigate any discrepancies by reconciling vendor accounts and monthly vendor statements.
 - **Finance department** – Responsible for financial supervision, financial reporting, and analysis.
@@ -31,11 +34,11 @@ Many people across the organization should contribute to the decision-making pro
 
 ## Issue and settle vendor payments process flow
 
-The following diagram illustrates the *issue and settle vendor payments* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *issue and settle vendor payments* business process.
 
-:::image type="content" source="media/source-to-pay-issue-settle-vendor-payments-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/source-to-pay-issue-settle-vendor-payments-flow.svg":::
+:::image type="content" source="media/source-to-pay-issue-settle-supplier-payments.svg" alt-text="Flow diagram with steps for the process." lightbox="media/source-to-pay-issue-settle-supplier-payments.svg":::
 
-The *issue and settle vendor payments* process area flow diagram covers the following steps:
+<!-- The *issue and settle vendor payments* process area flow diagram covers the following steps:
 
 - *Start*
 
@@ -101,13 +104,13 @@ The *issue and settle vendor payments* process area flow diagram covers the foll
 
     This subprocess connects to a *Procure materials and services* subprocess.
 
-- *End*
+- *End* -->
 
-## Issue and settle vendor payments benefits
+## Issue and settle supplier payments benefits
 
 There are many key benefits that can be used to monitor and measure the success of implementing technology to support the issuing and settling of vendor payments. The following sections outline the key benefits that an organization might monitor and measure for this process.
 
-### Automated vendor payment proposal
+### Automated supplier payment proposal
 
 In Dynamics 365 Finance, you can use vendor payment proposals to settle invoices either manually or through an automated process. Organizations that pay vendors on a recurring schedule can automate the process of generating vendor payment proposals by specifying criteria and a scheduled time.
 
@@ -139,24 +142,24 @@ Learn more at [Settlement overview](/dynamics365/finance/cash-bank-management/se
 
 If you want to implement Dynamics 365 solutions to assist with your *issue and settle vendor payments* business processes, use the following resources and steps to learn more. (Links are added when articles are ready.)
 
-1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)  
+1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)  
 2. *Develop sourcing strategies*
 3. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
 4. *Define policies and procedures for procurement*
 5. *Plan supply*
 6. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)  
-7. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
-8. *Issue and settle vendor payments* (the article that you're currently reading)
+7. [Process supplier invoices](source-to-pay-process-vendor-invoices-overview.md)  
+8. *Issue and settle supplier payments* (the article that you're currently reading)
 9. *Manage vendor debits and chargebacks*
 10. *Create and process promissory notes*
-11. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
+11. [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
 12. *Analyze vendor performance*
 
 ## Related information
 
-You can use the following resources to learn more about the *issue and settle vendor payments* process in Dynamics 365.
+You can use the following resources to learn more about the *issue and settle supplier payments* process in Dynamics 365.
 
-- [Source to Pay Overview in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=f67e343b-ed36-ee11-bdf4-00224827eb85)
+- [Source to Pay Overview in Dynamics 365 Supply Chain Management blog post](https://community.dynamics.com/blogs/post/?postid=f67e343b-ed36-ee11-bdf4-00224827eb85)
 - [Vendor payment overview](/dynamics365/finance/cash-bank-management/tasks/vendor-payment-overview)
 - [Vendor payments workspace](/dynamics365/finance/accounts-payable/vendor-payments-workspace)
 - [Automate vendor payment proposals](/dynamics365/finance/accounts-payable/automate-vendor-payment-proposal)

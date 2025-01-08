@@ -1,130 +1,122 @@
 ﻿---
-title: Manage vendor relationships overview
-description: Learn how to use Dynamics 365 to support your organization's business processes for managing vendors, including improving vendor performance.
+title: Manage supplier relationships overview
+description: Learn how to use Dynamics 365 to support your organization's business processes for managing suppliers, including improving supplier performance.
 author: Pjagotra
 ms.author: pjagotra
 ms.topic: conceptual
-ms.date: 08/12/2024
+ms.date: 12/10/2024
 ai-usage: ai-assisted
 ---
 
-# Manage vendor relationships overview
+# Manage supplier relationships overview
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
-This article explains how to use the *manage vendor relationships* business process in Dynamics 365 Commerce, Finance, Project Operations, and Supply Chain Management. This process is part of the *Source to pay* end-to-end process. It helps you find, select, and evaluate vendors for your business needs.
+This article explains how to use the *manage supplier relationships* business process area in Dynamics 365 Commerce, Finance, Project Operations, and Supply Chain Management. This process is part of the *Source to pay* end-to-end process. It helps you find, select, and evaluate suppliers for your business needs.
 
-The *manage vendor relationships* business process area is an essential part of the *Source to pay* process in Dynamics 365 Supply Chain Management. Dynamics 365 includes a comprehensive set of capabilities to help you streamline vendor management. You can use it to:
+The *manage supplier relationships* business process area is an essential part of the *Source to pay* process in Dynamics 365 Supply Chain Management. Dynamics 365 includes a comprehensive set of capabilities to help you streamline supplier management. You can use it to:
 
-- Search for potential vendors based on product type, location, price, and other criteria.
+- Search for potential suppliers based on product type, location, price, and other criteria.
 
-- Approve qualified vendors and create vendor records with all the relevant information.
+- Approve qualified suppliers and create supplier records with all the relevant information.
 
-- Update vendor records as needed, such as changing bank accounts or payment terms.
+- Update supplier records as needed, such as changing bank accounts or payment terms.
 
-- Monitor vendor performance using various metrics, such as delivery time, quality, and compliance.
+- Monitor supplier performance using various metrics, such as delivery time, quality, and compliance.
 
-- Collaborate with vendors through a centralized platform that shows purchase orders, invoices, and consignment stock.
+- Collaborate with suppliers through a centralized platform that shows purchase orders, invoices, and consignment stock.
 
-The *manage vendor relationships* business process area helps you optimize your supply chain operations and achieve better business outcomes. You should implement it at the start of your Dynamics 365 Supply Chain Management implementation. It's a foundational process for any organization.
+The *manage supplier relationships* business process area helps you optimize your supply chain operations and achieve better business outcomes. You should implement it at the start of your Dynamics 365 Supply Chain Management implementation. It's a foundational process for any organization.
 
 ## Stakeholders
 
-The stakeholders in the *manage vendor relationships* business process area are those who manage vendor relationships, identify and select eligible vendors, monitor vendor performance, and maintain communication with vendors. They can include the following roles:
+The stakeholders in the *manage supplier relationships* business process area are those who manage supplier relationships, identify and select eligible suppliers, monitor supplier performance, and maintain communication with suppliers. They can include the following roles:
 
-- **Procurement roles** such as buyer, purchasing agent, purchasing manager, and vendor account manager. They're responsible for finding vendors, selecting qualified vendors, approving and creating vendor records in the system, requesting materials or services to be purchased, and managing vendor collaboration.
+- **Procurement roles** such as buyer, purchasing agent, purchasing manager, and supplier account manager. They're responsible for finding suppliers, selecting qualified suppliers, approving and creating supplier records in the system, requesting materials or services to be purchased, and managing supplier collaboration.
 
-- **Accounts payable roles** such as accounts payable payment clerk. They're responsible for setting up the payment details for vendors, such as payment terms and method of payment.
+- **Accounts payable roles** such as accounts payable payment clerk. They're responsible for setting up the payment details for suppliers, such as payment terms and method of payment.
 
-- **Operations roles** such as director of operations, COO, VP of operations, operations manager, and operations analyst. They might be responsible for approving vendor selection and creation, and for reporting and analyzing data related to vendor performance and procurement.
+- **Operations roles** such as director of operations, COO, VP of operations, operations manager, and operations analyst. They might be responsible for approving supplier selection and creation, and for reporting and analyzing data related to supplier performance and procurement.
 
-- **Finance roles** such as finance controller, CFO, accountant, accounting supervisor, and accounting manager. They might be responsible for updating and approving changes to vendor records, such as mapping vendors to the correct vendor group and tax group.
+- **Finance roles** such as finance controller, CFO, accountant, accounting supervisor, and accounting manager. They might be responsible for updating and approving changes to supplier records, such as mapping suppliers to the correct supplier group and tax group.
 
-## Manage vendor relationships process flow
+## Manage supplier relationships process flow
 
-The following diagram illustrates the *manage vendor relationships* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *manage supplier relationships* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\source-to-pay-manage-vendor-relationships-overview.svg" alt-text="Diagram showing the source to pay business process area, connecting source to pay to manage vendor relationships." lightbox="media\source-to-pay-manage-vendor-relationships-overview.svg":::
+:::image type="content" source="media\source-to-pay-manage-supplier-relationships-overview.svg" alt-text="Diagram showing the business process area of managing supplier relationships." lightbox="media\source-to-pay-manage-supplier-relationships-overview.svg":::
+
+> [!IMPORTANT]
+> The diagram is not yet updated. But the following text is updated.
 
 The process has these steps:
 
 1. Start
 
-1. *Source to pay* end-to-end process
+2. *Source to pay* end-to-end process
 
-1. *Manage vendor relationships* business process area
+3. *Manage supplier relationships* business process area
 
-   1. Is it a new vendor?
+    - *Discover suppliers*
+    - *Onboard new suppliers*
+    - *Manage active suppliers*
+    - *Evaluate supplier performance*
+    - *Track supplier certifications and compliance*
+    - *Manage supplier risk*
+    - *Manage supplier contracts*
+    - *Manage supplier pricing*
 
-      1. *Yes* leads to *Identify prospective vendor*
+4. *Source and contract goods and services* business process area  
 
-      1. *No* leads to *Manage and update vendor*
+5. *Procure goods and service* business process area
 
-    1. *Identify prospective vendor* business process: Search for and choose vendors that meet your criteria.
+6. *Manage accounts payable*
 
-    1. *Create vendor* business process: Approve and create a vendor record in the system for the selected vendor.
+7. *Analyze procurement and sourcing* business process  
 
-    1. *Manage and update vendor* business process: Make changes to the vendor record as needed, such as changing bank accounts or payment terms.
+    Use the data from the previous steps to assess how well the supplier meets your expectations. This helps you make better decisions for future procurement and align your interests with the supplier.
 
-1. *Procure material and service* business process area
-
-1. *Receive material and service* business process area
-
-1. *Process vendor invoice* business process area
-
-1. *Issue and settle vendor payments* business process area
-
-1. *Evaluate vendor performance* business process: Use the data from the previous steps to assess how well the vendor meets your expectations. This helps you make better decisions for future procurement and align your interests with the vendor.
-
-1. End
+8. End
 
 ### Benefits
 
-The *manage vendor relationships* business process area can help you:
+The *manage supplier relationships* business process area can help you:
 
-- **Reduce costs** by improving efficiency, accuracy, and transparency in your procurement activities. You can shorten processing times, negotiate better prices with vendors, and lower accounting expenses. You can also get better terms and conditions, service levels, and discounts from vendors who value your relationship.
+- **Reduce costs** by improving efficiency, accuracy, and transparency in your procurement activities. You can shorten processing times, negotiate better prices with suppliers, and lower accounting expenses. You can also get better terms and conditions, service levels, and discounts from suppliers who value your relationship.
 
-- **Improve planning** by gaining insights into your vendors' operations, such as lead times, production capacity, and potential bottlenecks. You can use this information to plan your inventory management and production scheduling. You can also respond more effectively to unexpected situations, such as a surge in demand or a disruption in the supply chain.
+- **Improve planning** by gaining insights into your suppliers' operations, such as lead times, production capacity, and potential bottlenecks. You can use this information to plan your inventory management and production scheduling. You can also respond more effectively to unexpected situations, such as a surge in demand or a disruption in the supply chain.
 
 - **Streamline procurement** by having a centralized view of all your purchasing activities. You can monitor them in real-time, identify bottlenecks, and make data-driven decisions.
 
-- **Enhance vendor relationships** by communicating effectively with your vendors. You can keep them updated about your changing needs and situations. They're more likely to keep you informed about theirs. They're also more likely to be responsive to your requests, both expected and unexpected. You can use the **Vendor Collaboration** module in Dynamics 365 Supply Chain Management to share information about purchase orders, invoices, and consignment stock with external vendors.
+- **Enhance supplier relationships** by communicating effectively with your suppliers. You can keep them updated about your changing needs and situations. They're more likely to keep you informed about theirs. They're also more likely to be responsive to your requests, both expected and unexpected. You can use the **Vendor Collaboration** module in Dynamics 365 Supply Chain Management to share information about purchase orders, invoices, and consignment stock with external suppliers.
 
-- **Reduce risks** by working closely with your vendors. They're more likely to be transparent about their own risks and proactive in implementing risk mitigation strategies. They're also more likely to meet their contractual obligations, reducing the risk of delays or quality issues.
+- **Reduce risks** by working closely with your suppliers. They're more likely to be transparent about their own risks and proactive in implementing risk mitigation strategies. They're also more likely to meet their contractual obligations, reducing the risk of delays or quality issues.
 
-- **Evaluate vendor performance and compliance** by using a consistent and methodical approach to assess your vendors. You can use the vendor evaluation functionality in Dynamics 365 Supply Chain Management to manually evaluate vendors based on various criteria. You can also use Key Performance Indicators (KPIs) to develop strategies for increasing sales, reducing inefficiencies, and increasing revenue. Additionally, you can ensure adherence to procurement policies, minimize the likelihood of fraudulent or corrupt activities, and maintain a record for regulatory compliance purposes.
+- **Evaluate supplier performance and compliance** by using a consistent and methodical approach to assess your suppliers. You can use the supplier evaluation functionality in Dynamics 365 Supply Chain Management to manually evaluate suppliers based on various criteria. You can also use Key Performance Indicators (KPIs) to develop strategies for increasing sales, reducing inefficiencies, and increasing revenue. Additionally, you can ensure adherence to procurement policies, minimize the likelihood of fraudulent or corrupt activities, and maintain a record for regulatory compliance purposes.
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to support your *manage vendor relationships* business processes, use these resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to support your *manage supplier relationships* business processes, use these resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. *Manage vendor relationships* (the article that you're reading)
+1. *Manage supplier relationships* (the article that you're reading)
 
-2. *Develop a sourcing strategy*
+2. [Develop a sourcing strategy](source-to-pay-define-procurement-sourcing-strategy-overview.md)  
 
 3. [Define a procurement catalog](source-to-pay-define-procurement-catalogs-overview.md)
 
-4. *Define policies and procedures for procurement*
+4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)  
 
-5. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)  
+5. [Process supplier invoices](source-to-pay-process-vendor-invoices-overview.md)  
 
-6. *Receive materials and services*
+6. [Issue and settle supplier payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 
-7. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
+7. [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
 
-8. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
-
-9. *Manage vendor debits and chargebacks*
-
-10. *Create and process promissory notes*
-
-11. [Process vendor rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
-
-12. *Analyze vendor performance*
+8. *Analyze supplier performance*
 
 ## Related information
 
-You can use the following resources to learn more about the *manage vendor relationships* process in Dynamics 365.
+You can use the following resources to learn more about the *manage supplier relationships* process in Dynamics 365.
 
 - [Set up vendor accounts - Supply Chain Management](/dynamics365/supply-chain/procurement/set-up-vendor-accounts)
 
@@ -134,7 +126,7 @@ You can use the following resources to learn more about the *manage vendor relat
 
 - [Configure and manage vendor collaboration in Dynamics 365 Supply Chain Management](/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/)
 
-- [Evaluate a vendor and put a vendor on hold - Training](/training/modules/configure-perform-procure-purchase-dyn365-supply-chain-mgmt/5-put-on-hold?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.configure-manage-procurement-vendors-d365-finance-ops)
+- [Evaluate a vendor and put a supplier on hold - Training](/training/modules/configure-perform-procure-purchase-dyn365-supply-chain-mgmt/5-put-on-hold?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.configure-manage-procurement-suppliers-d365-finance-ops)
 
 - [Supply risk assessment overview - Supply Chain Management](/dynamics365/supply-chain/procurement/supply-risk-assessment-overview)
 

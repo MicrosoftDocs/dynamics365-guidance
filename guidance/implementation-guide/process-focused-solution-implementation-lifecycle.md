@@ -1,7 +1,7 @@
 ---
-title: Implement Dynamics 365 with a process-focused approach
-description: Learn how to use the Success by design framework to guide your implementation lifecycle with a process-focused approach.
-ms.date: 07/10/2024
+title: Base the implementation lifecycle on processes
+description: Learn how to use the Success by design framework to make your implementation lifecycle process-centric by focusing on business processes.
+ms.date: 01/07/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: raprofit
@@ -15,7 +15,7 @@ content_well_notification: AI-contribution
 ai-usage: ai-assisted
 ---
 
-# Implement Dynamics 365 with a process-focused approach
+# Base the implementation lifecycle on your business processes
 
 A process-focused solution helps you define, design, build, test, and support your Dynamics 365 implementation with your end-to-end business processes as the framework. Processes are the way you deliver value to your customers and achieve your business goals. By using a process-focused approach, you can create a solution that reflects and improves your business operations, regardless of the underlying methodology.
 
@@ -23,7 +23,7 @@ The [Success by design](success-by-design.md) framework outlines the phases of t
 
 ## Initiate
 
-A business application implementation is essentially the delivery of a new capability for end-to-end business transactions using the application. The first step in your implementation is to define the **scope** of your solution. The scope is the set of capabilities and outcomes that you want to achieve with Dynamics 365.
+A business application implementation is essentially the delivery of a new capability for end-to-end business transactions using the application. The first step in your implementation is to define the *scope* of your solution. The scope is the set of capabilities and outcomes that you want to achieve with Dynamics 365.
 
 Your business processes describe the activities, roles, functions, data, and systems that are involved in your operations. They show the connections and dependencies between different parts of your organization. They also show the level of detail and complexity of your operations. Use your business processes to define and communicate your scope in a clear and common language.
 
@@ -138,5 +138,6 @@ After you go live, use your processes to **support and maintain** your solution.
 
 ### Related information
 
-- [Testing strategy](testing-strategy.md)
+- [Test your Dynamics 365 solution before deployment](testing-strategy.md)
 - [Prepare for go-live](prepare-to-go-live.md)
+- [Standardize business processes during an implementation](../business-processes/standardize-business-processes.md)  

@@ -1,7 +1,7 @@
 ---
 title: Manage freight and transportation process area overview
 description: Read about the business process area for managing freight and transportation in Dynamics 365 implementations.
-ms.date: 08/12/2024
+ms.date: 12/16/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: ngump
@@ -38,76 +38,76 @@ The following diagram shows the high-level flow of the *Manage freight and trans
 The following steps are illustrated in the *Manage freight and transportation* business process flow diagram.
 
 1. Start
-1. A parallel branch from the *Inventory to deliver* end-to-end business process includes:
+2. A parallel branch from the *Inventory to deliver* end-to-end business process includes:
 
     1. *Define and manage warehouse operations*
 
         1. A parallel branch to *Process inbound goods* and *Process outbound goods*
 
-    1. *Control vendor managed inventory and consignment inventory*
+    2. *Control vendor managed inventory and consignment inventory*
 
-1. *Manage freight and transportation*
+3. *Manage freight and transportation*
 
-    1. Plan transportation loads
-    1. Decision point: Is routing required?
+    1. *Plan transportation loads*
+    2. Decision point: Is routing required?
 
-        1. If yes, Route transportation loads
-        1. If no, decision point
+        1. If yes, *Route transportation loads*
+        2. If no, decision point
 
-    1. Decision point: Is rating required?
+    3. Decision point: Is rating required?
 
-        1. If yes, Rate transportation loads
-        1. If no, decision point
+        1. If yes, *Rate transportation loads*
+        2. If no, decision point
 
-    1. Decision point: Is dock management required?
+    4. Decision point: *Is dock management required?*
 
-        1. If yes, Schedule dock appointments
-        1. If no, Print shipping documentation
+        1. If yes, *Schedule dock appointments*
+        2. If no, *Print shipping documentation*
 
             1. End
 
-    1. Process freight invoice
-    1. Reconcile freight
+    5. *Process freight invoice*
+    6. *Reconcile freight*
 
-1. *Manage inventory costs*
+4. *Manage inventory costs*
 
     1. A parallel branch to *Record and control costs* and the *Record to report* end-to-end business process
 
-1. End
+5. End
 
 ## Benefits
 
-This section outlines the key benefits that organizations can use to monitor and measure the success of implementing technology to support the *Manage freight and transportation* business process area.
+This section outlines the key benefits that organizations can use to monitor and measure the success of implementing technology to support this business process area.
 
 ### Reduced transportation costs
 
-Organizations can use Dynamics 365 Supply Chain Management and Supply Chain Center to maintain freight carrier contact rates. They can search for the lowest costs, even across multiple modes of transport for a specific route. Other transportation management capabilities help increase the use of load capacity. In return, organizations can reduce their costs by minimizing the number of shipments that are required. Organization can also use freight reconciliation to track and approve discrepancies between their estimates and carrier invoices.
+Organizations can use Dynamics 365 Supply Chain Management to maintain freight carrier contact rates. They can search for the lowest costs, even across multiple modes of transport for a specific route. Other transportation management capabilities help increase the use of load capacity. In return, organizations can reduce their costs by minimizing the number of shipments that are required. Organization can also use freight reconciliation to track and approve discrepancies between their estimates and carrier invoices.
 
 ### Improved operational efficiency
 
-Transportation is integrated with other business processes in Dynamics 365 Supply Chain Management. Warehouse managers can schedule dock appointments for carrier pickup and/or drop-off, based on bay door vacancy, anticipated loading times, and equipment availability. This integration helps minimize driver wait time, mitigate potential fees for delays, and ensure that warehouse operations don't become bottlenecks in the overall supply chain.
+Transportation is integrated with other business processes in Dynamics 365 Supply Chain Management. Warehouse managers can schedule dock appointments for events and deciding factors such as the following list:
+
+- Carrier pickup and/or drop-off  
+- Bay door vacancy  
+- Anticipated loading times  
+- Availability of equipment  
+
+This integration helps minimize driver wait time, mitigate potential fees for delays, and ensure that warehouse operations don't become bottlenecks in the overall supply chain.
 
 ### Optimized fulfillment strategies
 
-Dynamics 365 Supply Chain Management has transportation rating and routing capabilities. Similarly, [Intelligent Order Management](/dynamics365/intelligent-order-management/welcome-to-iom) in Supply Chain Center provides order orchestration capabilities that extend beyond the distribution warehouse. It connects multiple supply chain providers, from manufacturers to retailers to logistics companies. Therefore, organizations can optimize their fulfillment operations, and this optimization then leads to faster delivery and increased customer satisfaction.
+Dynamics 365 Supply Chain Management has transportation rating and routing capabilities. Similarly, [Intelligent Order Management](/dynamics365/intelligent-order-management/welcome-to-iom) provides order orchestration capabilities that extend beyond the distribution warehouse. It connects multiple supply chain providers, from manufacturers to retailers to logistics companies. Therefore, organizations can optimize their fulfillment operations, and this optimization then leads to faster delivery and increased customer satisfaction.
 
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *manage freight and transportation* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
 1. [Define and manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
-
-2. *Maintain inventory levels*
-
-3. *Process inbound goods*
-
-4. *Process outbound goods*
-
-5. *Manage inventory quality*
-
-6. *Manage freight and transportation* (the article that you're currently reading)
-
-7. [Record and manage inventory costs](inventory-to-deliver-record-manage-inventory-costs.md)
+2. [Maintain inventory levels](inventory-to-deliver-maintain-inventory-levels-overview.md)
+3. *Manage inventory quality*
+4. *Manage freight and transportation* (the article that you're currently reading)
+5. [Record and manage inventory costs](inventory-to-deliver-record-manage-inventory-costs.md)
+6. *Analyze warehouse operations*
 
 ## Related information
 

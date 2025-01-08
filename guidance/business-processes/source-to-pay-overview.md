@@ -4,7 +4,7 @@ description: Learn about the end-to-end business process, source to pay. Get a f
 author: AdiVijayashankar
 ms.author: advijaya
 ms.topic: conceptual
-ms.date: 04/03/2024
+ms.date: 12/03/2024
 ---
 
 # Source to pay end-to-end overview
@@ -12,6 +12,9 @@ ms.date: 04/03/2024
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
 This article describes the *Source to pay* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
+
+> [!NOTE]
+> We're in process of updating the article based on the November 2024 version of the business process catalog.
 
 ## Source to pay process relationship
 

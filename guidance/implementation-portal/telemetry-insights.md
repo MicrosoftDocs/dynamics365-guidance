@@ -1,10 +1,10 @@
 ﻿---
 title: Telemetry insights overview (preview) 
-description: Learn how to set up and use telemetry insights, including overviews on feature details, requesting access and data consent.
+description: Learn how to use telemetry insights to analyze the performance of a project in the Dynamics 365 Implementation Portal. This article provides an overview on capabilities and rules.
 author: dereklh77
 ms.author: meesposi
-ms.topic: article
-ms.date: 04/16/2024
+ms.topic: conceptual
+ms.date: 12/20/2024
 ---
 # Telemetry insights overview (preview)
 <!--[This article is prerelease documentation and is subject to change.]-->
@@ -13,71 +13,26 @@ ms.date: 04/16/2024
 > Telemetry insights in the Dynamics 365 Implementation Portal is in public preview. Capabilities that are in preview aren't meant for production use and can have limited functionality. These features are available before an official release so that our customers can get early access and provide feedback.
 > By accessing or using telemetry insights, you accept the [Microsoft Preview Terms of Service](https://go.microsoft.com/fwlink/?linkid=2242556).
 
-**Telemetry insights** detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention.
+**Telemetry insights** detects optimization opportunities and provides actionable guidance based on usage patterns in environments. Results surface with severity indicators as they require attention.
 
-You can enable telemetry insights yourself with the **Set up telemetry** guide.
+Learn how to set up telemetry insights at [Set up telemetry insights (preview)](telemetry-insights-set-up.md).  
 
-## Set up telemetry
+## Performance-related rules
 
-Switch on telemetry by choosing the **New Telemetry Request** action on the **Active Telemetry Requests** page. The **Active Telemetry Requests** page shows the environments where **Telemetry Recommendations** are currently visible or pending approval. It also shows their associated tenant ID, project ID (if applicable), and respective start and end dates. 
+The following table describes some of the most popular performance-related rules. They're designed to enhance your environment's efficiency.
 
-The first step in the **Set up telemetry** guide is to submit the basic details of the environment.
+| Rule Name | Description |
+|--|--|
+|*Identify Percentage of Slow Network Users* |This rule evaluates the overall percentage of users experiencing slow network performance.|
+| *Identification of Network Latency and Throughput by Country*| This rule identifies the count of users and their associated bandwidth and latency for network connections. |
+|*Evaluate Sync Call Impact*|This rule detects the impact of sync calls on all form loads.|
+| *Identify the source of OnLoad Sync calls*  |This rule identifies the origins of synchronous calls triggered by form onload scripts. |
+| *Evaluate Timeouts from Async Ribbon Rule Evaluations*|This rule identifies all method names where the **Ribbon Rule Evaluation** code fails to resolve or results in a timeout.<!--When promises in the **Ribbon Rule Evaluation** code are not properly resolved or rejected, the calling code continues to wait, leading to a timeout and adversely affecting form load times.--> |
+|*Identify the source of Role calls* |This rule identifies the origin of synchronous calls made specifically to retrieve the assigned roles for a user. |
+|*Identify Save Form call on Loading of Form* |This rule identifies and quantifies form loads affected by the unnecessary triggering of a *Save* operation during the form load process. |
 
-1. Specify your role.
-
-    | Role | Description |
-    |------|-------------|
-    | Partner | Choose this option if you're a partner and you want to view telemetry for your customer's environment.
-    | Customer | Choose this option if you're a customer of Microsoft and you want to view telemetry for your environment.
-
-2. Specify the type and the ID of the Microsoft Entra tenant that this request is for.
-
-    | Tenant | Description |
-    |------|-------------|
-    | My Tenant | Select this option if you're switching on telemetry for an environment on your tenant. The Tenant ID is displayed in the **Your Tenant ID** field. |
-    | Different Tenant | Select this option if you're switching on telemetry for a different tenant than the one you're currently signed into. |
-
-   > [!TIP]
-   > For projects with finance and operations apps, you can find the Tenant ID in Dynamics 365 Lifecycle Services. Learn more at [Subscriptions, LCS projects, and Azure Active Directory tenants FAQ](/dynamics365/fin-ops-core/dev-itpro/get-started/subscription-overview#how-can-i-find-the-tenant-name-and-tenant-id-within-lcs). You can also get this information from the Azure portal. Learn more at [Get subscription and tenant IDs in the Azure portal](/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant). Make sure that you're signed into the tenant that you want to retrieve the ID for.
-
-3. Specify the environment and date information, including an environment ID.
-
-   > [!TIP]
-   > Find the IDs of the environment and organization in the Power Platform admin center or Lifecycle Services. Learn more at [Find your environment and organization ID and name - Power Platform](/power-platform/admin/determine-org-id-name).
-
-4. Specify the purpose of the environment.
-
-    | Environment Purpose | Description |
-    |------|-------------|
-    | Production | An environment used for live business operations.|
-    | UAT | An environment used for standard acceptance testing.|
-    | Sandbox | An environment used for preproduction testing.|
-    | Performance | An environment used for performance testing.|
-    | Dev | An environment used for development.|
-   
-
-5. Specify the start date and end date for the period that you want telemetry insights to be visible. Consider a minimum timespan of 7 days or more to get daily updates during the specified time period.  
-   
-6. If the specified tenant is associated with an existing Dynamics 365 Implementation Portal project, you're asked to associate this request with the correct existing project from a dropdown list. You don't need a project to set up telemetry insights for production environments.
- 
-> [!NOTE]
-> You must have a project to switch on telemetry insights for all nonproduction environments. If a project does not exist, create one with the onboarding wizard. Learn more at [Dynamics 365 Implementation Portal Onboarding Wizard](/dynamics365/guidance/implementation-portal/onboard-project). If a project does exist, but you do not have access, you're asked to contact the project admin for access.
-
-## Consent for data sharing
-
-> [!NOTE]
-> This section loads only if you selected **Different Tenant** as your role. As part of data privacy principles, we need consent from two user contacts from the target tenant who are part of the environment's tenant.
-
-There are two fields for this section, and each accepts one email address in the format `name@company.com`.
-
-1. Target Tenant Reviewer 1 Email
-
-2. Target Tenant Reviewer 2 Email
-
-After providing the email addresses, select the **Click here to confirm the emails provided are real Organization users from the company that owns target tenant, not out-sourced users** field, and then choose the **Submit** action.
-
-> [!NOTE]
-> An email is sent to both target tenant reviewers for them to approve the user's access along with the link and other details. While the telemetry request will be created, the telemetry will not be resolved until the customer tenant reviewers approve the access. You'll be able to cancel the request and change approver emails from the **Telemetry Insights & Data Consent** option page after the request has been created.
+> [!TIP]
+> The Dynamics 365 Implementation Portal includes a page with the number of active rules and some info about the rules.
 
 ## Telemetry recommendations
 
@@ -86,7 +41,7 @@ The **Telemetry recommendations** page displays various results for all environm
 > [!NOTE]
 > Once you've completed the setup of telemetry, results start showing up, based on the purpose of the environment. Recommendations for production environments show up about 15 minutes later. Recommendations for nonproduction environments start showing up about 24 hours after you completed the setup.
 
-The results are grouped by **result** and **environment**. 
+The results are grouped by **result** and **environment**.  
 
 | Column | Description |
 |------|-------------|
@@ -100,6 +55,10 @@ You can apply filters to narrow down results by tenant, environment, and purpose
 
 ## Related information
 
-- [Data sharing consent](data-sharing-consent.md)  
+- [Give or get consent to data sharing](data-sharing-consent.md)  
 - [Manage projects in Dynamics 365 Implementation Portal](manage-projects.md)  
 - [Dynamics 365 Implementation Portal](overview.md)  
+- [Overview of capabilities for analytics in Dynamics 365 Customer Service](../resources/analytics-capabilities.md)  
+- [Application lifecycle management for analytics on data model customizations](../resources/analytics-alm-custom-reports.md)  
+- [Monitor and optimize your Dynamics 365 environments](../implementation-guide/service-solution-monitor-service-health.md)  
+- [Create or join a project in the Implementation Portal](onboard-project.md)  

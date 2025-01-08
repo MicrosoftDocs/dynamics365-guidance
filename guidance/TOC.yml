@@ -139,19 +139,19 @@ items:
                 href: patterns/create-functional-technical-design-document.md
           - name: Process-focused solution
             items:
-            - name: Process-focused solution overview
+            - name: Implement based on business processes
               href: implementation-guide/process-focused-solution.md
-            - name: Opportunity for optimization
+            - name: Optimize business processes
               href: implementation-guide/process-focused-solution-opportunity-optimization.md
-            - name: Process-centric implementation lifecycle
+            - name: Base the implementation lifecycle on processes
               href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-            - name: Considerations
+            - name: Build quality with optimized and standardized business processes
               href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-            - name: Fit-to-standard and Fit-gap analysis
+            - name: Do fit-to-standard and fit-gap analysis
               href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
             - name: Define your requirements
               href: implementation-guide/process-focused-solution-define-requirements.md
-            - name: Introduction to process maturity
+            - name: Learn about process maturity
               href: business-processes/process-maturity-introduction.md
             - name: Standardize business processes during an implementation
               href: business-processes/standardize-business-processes.md  
@@ -413,20 +413,22 @@ items:
             href: implementation-portal/overview.md
           - name: Sign in
             href: implementation-portal/sign-up.md
-          - name: Onboarding wizard
+          - name: Create or join a project
             href: implementation-portal/onboard-project.md
           - name: Nominate for FastTrack
             href: implementation-portal/nominations.md
-          - name: Data sharing consent
+          - name: Consent to data sharing
             href: implementation-portal/data-sharing-consent.md
-          - name: Set up telemetry insights
-            href: implementation-portal/telemetry-insights.md
           - name: Manage projects
             href: implementation-portal/manage-projects.md
           - name: Project profiling
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Analyze with telemetry insights
+            href: implementation-portal/telemetry-insights.md
+          - name: Set up telemetry insights
+            href: implementation-portal/telemetry-insights-set-up.md
           - name: Copilot in Implementation Portal
             href: implementation-portal/implementation-copilot.md
 # 14733
@@ -532,18 +534,28 @@ items:
               href: resources/fs-index.yml
             - name: Samples and tools overview
               href: resources/fs-component-library.md
-            - name: Add crew information to resource cells
-              href: resources/fs-resource-cell-template.md
-            - name: Customize the template for bookings
-              href: resources/fs-booking-template.md
-            - name: Schedule board settings management control
-              href: resources/fs-schedule-board-settings-management-control.md
-            - name: Field mapping for the schedule board settings
-              href: resources/fs-schedule-board-settings-field-mapping.md
-            - name: Transport summary configurations across environments
-              href: resources/fs-transport-summary-configuration.md
-            - name: Set up Azure Pipelines to deploy Field Service
-              href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
+            - name: Deploy and configure
+              items:
+              - name: Set up Azure Pipelines to deploy Field Service
+                href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
+              - name: Transport summary configurations across environments
+                href: resources/fs-transport-summary-configuration.md
+              - name: Use Copilot to create sample data for Field Service
+                href: resources/fs-copilot-import-sample-data.md
+            - name: Configure the schedule board
+              items:
+              - name: Add crew information to resource cells
+                href: resources/fs-resource-cell-template.md
+              - name: Customize the template for bookings
+                href: resources/fs-booking-template.md
+              - name: Schedule board settings management control
+                href: resources/fs-schedule-board-settings-management-control.md
+              - name: Field mapping for the schedule board settings
+                href: resources/fs-schedule-board-settings-field-mapping.md
+            - name: Add analytics
+              items:
+              - name: Sample telemetry dashboard for mobile app offline profile usage
+                href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
 # FnO
         - name: Finance and operations apps
           items:
@@ -712,6 +724,8 @@ items:
             href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
           - name: Retire or dispose of assets
             href: business-processes/acquire-to-dispose-retire-dispose-assets.md
+          - name: Implementation workshops for acquire to dispose processes
+            href: business-processes/acquire-to-dispose-workshops.md
         - name: Case to resolution
           items:
           - name: End-to-end scenario - case to resolution (ID 20)
@@ -824,8 +838,10 @@ items:
             href: business-processes/inventory-to-deliver-overview.md
           - name: Business process areas
             href: business-processes/inventory-to-deliver-areas.md
-          - name: Define and manage warehouse operations
+          - name: Manage warehouse operations
             href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
+          - name: Maintain inventory levels
+            href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
           - name: Manage freight and transportation
             href: business-processes/inventory-to-deliver-manage-freight-transportation.md
           - name: Record and manage inventory costs
@@ -896,20 +912,24 @@ items:
             href: business-processes/source-to-pay-overview.md
           - name: Business process areas
             href: business-processes/source-to-pay-areas.md
-          - name: Define procurement catalogs
-            href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-          - name: Define procurement and sourcing strategy overview
-            href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
-          - name: Manage vendor relationships overview
+          - name: Develop a procurement and sourcing strategy
+            items:
+            - name: Develop procurement and sourcing strategy overview
+              href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
+            - name: Define procurement catalogs
+              href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+          - name: Manage supplier relationships overview
             href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-          - name: Procure materials and services overview
+          - name: Procure goods and services overview
             href: business-processes/source-to-pay-procure-materials-services-overview.md
-          - name: Process vendor invoices overview
-            href: business-processes/source-to-pay-process-vendor-invoices-overview.md
-          - name: Issue and settle vendor payments overview
-            href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
-          - name: Process vendor rebates and incentives overview
-            href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
+          - name: Manage accounts payable
+            items:
+            - name: Manage accounts payable overview
+              href: business-processes/source-to-pay-process-vendor-invoices-overview.md
+            - name: Issue and settle supplier payments
+              href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+            - name: Process supplier rebates and incentives
+              href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
         - name: Project to profit
           items:
           - name: End-to-end scenario - project to profit (ID 80)
@@ -1018,16 +1038,18 @@ items:
             href: business-processes/administer-to-operate-overview.md
           - name: Business process areas
             href: business-processes/administer-to-operate-areas.md
-          - name: Train users and increase adoption
-            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
+          - name: Implement solutions
+            href: business-processes/administer-to-operate-implement-solutions.md
           - name: Define business continuity plan
             href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
-          - name: Manage system compliance overview
-            href: business-processes\administer-to-operate-manage-system-compliance.md
           - name: Manage system access and security overview
             href: business-processes\administer-to-operate-manage-system-access-security.md
+          - name: Train users and increase adoption
+            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
           - name: Manage data synchronization overview
             href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+          - name: Manage system compliance overview
+            href: business-processes\administer-to-operate-manage-system-compliance.md
           - name: Define support systems overview
             href: business-processes\administer-to-operate-support-systems-overview.md
 # BP What's new
@@ -1183,6 +1205,8 @@ items:
           href: fasttrack/go-live-workshops.md
         - name: Frequently asked questions about FastTrack
           href: fasttrack/faq.md
+        - name: FastTrack Recognized Solution Architect
+          href: fasttrack/instruction-guide-fasttrack-recognized-solution-architect.md
 # TechTalks
       - name: TechTalks
         items:

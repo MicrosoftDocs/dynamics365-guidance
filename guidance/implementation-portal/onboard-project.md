@@ -4,7 +4,7 @@ description: Learn how to use the onboarding wizard to create projects, join pro
 author: dereklh77
 ms.author: goantu
 ms.topic: how-to
-ms.date: 04/17/2024
+ms.date: 12/19/2024
 ---
 
 # Create or join a project in the Implementation Portal
@@ -30,33 +30,33 @@ The first step in the onboarding wizard is to provide the basic details of your 
 
     For projects with finance and operations apps, you can [find the tenant ID in Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/get-started/subscription-overview#how-can-i-find-the-tenant-name-and-tenant-id-within-lcs). You can also [find the tenant ID in the Azure portal](/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant). Make sure that you're signed in to the tenant that you want to get the ID for.
 
+    [!INCLUDE [impl-portal-data-sharing-consent-link](../includes/impl-portal-data-sharing-consent-link.md)]
+
 3. Specify the purpose of the project.
 
     | Type | Description |
     |------|-------------|
-    | **Customer implementation** | Choose this option if your implementation project is being implemented by a Microsoft partner for a customer, or if you're a customer of Microsoft and implementing Dynamics 365 without a Microsoft partner.|
+    | **Customer implementation** | Choose this option if you're a Microsoft partner that implements the implementation project for a customer. Also choose this option if you're a customer of Microsoft, and you implement Dynamics 365 without a Microsoft partner.|
     | **Partner implementation** | Choose this option if your project is being implemented for a Microsoft partner, such as when you implement Dynamics 365 for your own organization as a Microsoft partner.|
    | **Pre-sales**| Choose this option if the project is being created as part of the pre-sales phase.|
     | **Test/trial/training** | Choose this option if your implementation project is created as a trial, for testing, or for training purposes.|
 
-
-5. Select the type of project.
+4. Select the type of project.
 
     | Type | Description |
     |------|-------------|
-    | **New project** | Select this option if this is a new implementation.|
-    | **New workload on existing project** | Select this option if you're implementing a new workload on an existing project. If there's already a project that has gone live, and you're adding another app to the existing implementation, choose the *New workload on existing project* option.|
+    | **New project** | Select this option if it's a new implementation.|
+    | **New workload on existing project** | Select this option if you're implementing a new workload on an existing project. If there's already a project that is live in production, and you're adding another app to the existing implementation, choose the *New workload on existing project* option.|
    | **Cloud Migration for Dynamics 365 CE only**| Select this option if the project is for a cloud migration project for a Dynamics 365 Customer Engagement (on-premises) solution.|
-    
 
-6. Is it a Dynamics 365 finance and operations apps implementation?
+5. Is it a Dynamics 365 finance and operations apps implementation?
 
     - Select **No** if you don't have any finance and operation apps in scope (such as Finance, Commerce, Supply Chain Management, or Human Resources).
     - Select **Yes** if you have one or more finance and operation apps in scope.
 
-    Selecting **Yes** in the above option loads the *finance and operations Lifecycle Services Project* section. If you select **No**, move forward to step 7.
+    If you select **Yes**, a new section appears, the *Finance and Operations Lifecycle Services Project* section. If you select **No**, move forward to step 7.
 
-7. Finance and LCS Project - For the initial rollout of the implementation project with finance and operations apps in scope, when a project is created in Lifecycle Services, the FastTrack team automatically creates a project in the portal and customers and partners can join them. It's not required to create the project again if it already exists.  
+6. *Finance and Operations LCS Project* - For the initial rollout of an implementation project with finance and operations apps in scope, a project is created in Dynamics 365 Lifecycle Services. In the background, the FastTrack team automatically creates a project in the Dynamics 365 Implementation Portal, and customers and partners can join that project. Don't create the project again if it already exists.  
 
     | Type | Description |
     |------|-------------|
@@ -64,9 +64,9 @@ The first step in the onboarding wizard is to provide the basic details of your 
     | LCS Project ID | Provide the Lifecycle Services project ID related to this implementation project. If you proceed to create a new project, this Lifecycle Services ID is linked to the newly created project.|
 
     > [!NOTE]
-    > Existing project users in Lifecycle Services can join the related project in the Implementation Portal (if one exists). If you are not a project user in Lifecycle Services, then the related implementation project will not show up in the next screen. You will need someone with the necessary permissions to add you in LCS before you can join the project in this portal.
+    > Existing project users in Dynamics 365 Lifecycle Services can join the related project in the Implementation Portal (if one exists). If you are not a project user in Dynamics 365 Lifecycle Services, then the related implementation project will not show up in the next screen. You will need someone with the necessary permissions to add you in LCS before you can join the project in this portal.
 
-8. Choose the **Next** button to proceed to the **Existing Projects** page.
+7. Choose the **Next** button to proceed to the **Existing Projects** page.
 
 ## Existing projects
 
@@ -86,7 +86,7 @@ This section only appears if you chose **Yes** for finance and operations and pr
 
 If both conditions are met, then the projects are displayed with a **Join Project** button. Select the button to add users to the project and open the Project Summary screen.
 
-If you're not a project user in the given Lifecycle Services ID and a related project exists, then the project details isn't visible. You must reach out to someone with relevant access to add you to Lifecycle Services and revisit the onboarding wizard to join the implementation project.
+If you're not a project user in the given Lifecycle Services ID and a related project exists, then the project details aren't visible. You must reach out to someone with relevant access to add you to Lifecycle Services and revisit the onboarding wizard to join the implementation project.
 
 ## Create new project
 
@@ -100,13 +100,13 @@ The following table describes the available fields on this tab.
 |-|-|
 |**Project name**|Provide a descriptive name that reflects components such as the customer's project name, deployment region, and main apps that are in scope.|
 |**Products in-scope for this project**|Select all products and apps that are in scope for the implementation. The implementation guidance in the portal populates depending on the products selected here.|
-|**Implementation team country**|Select the country where the bulk of the implementation team is located. This helps us scope the project.|
+|**Implementation team country**|Select the country or region where the bulk of the implementation team is located. This information helps the FastTrack team scope the project.|
 |**Estimate go-live date**|Select the planned/best estimate of the go-live date. This date should be a future date and can't be in the past.|
 |**Select current project phase**|The project phase follows [Success By Design phases](../implementation-guide/success-by-design.md#success-by-design-phases). Once the project is created, this field isn't editable for finance and operation apps' implementation project but would be editable for all other projects.|
 
 > [!NOTE]
 > If required, you can update all the above details in the portal after the project gets created using the **View/Edit Project Details** option.
-    
+
 ### Project users and admins
 
 The following table describes the available fields on this tab.  
@@ -125,7 +125,7 @@ The following table describes the available fields on this tab.
 
 |Field|Description|
 |-|-|
-|**Do you have an implementation partner?**|Toggle this option to *No* if you don't have any implementation partner. Marking this as *Yes* will make the next field mandatory.|
+|**Do you have an implementation partner?**|Toggle this option to *No* if you don't have any implementation partner. If you choose *Yes*, the next field becomes mandatory.|
 |**MPN ID of the implementation partner**|Specify the MPN ID of the partner who's implementing the project. This ID is linked to the project.|
 
 > [!NOTE]
@@ -133,21 +133,11 @@ The following table describes the available fields on this tab.
 
 ### Consent for data sharing
 
-> [!NOTE]
-> This section loads only if you have selected **Different Tenant** as the tenant type at the start of the onboarding wizard, and it's **not** a test/trial/training project. As part of data privacy principles, we need consent from two customer contacts who are active users of the project's tenant. Learn more at [Data sharing consent](data-sharing-consent.md).
+[!INCLUDE [impl-portal-data-sharing-consent-note](../includes/impl-portal-data-sharing-consent-note.md)]
 
-There are two fields for this section and accepts one email/field in the format `name@company.com`.
+## Create project
 
-1. Target Tenant Reviewer 1 Email
-
-2. Target Tenant Reviewer 2 Email
-
-After providing the email addresses, select the **Click here to confirm the emails provided are real organization users from the company that owns the target tenant, not out-sourced users** field.  
-
-Once the details are entered, choose the **Create Project** button.
-
-> [!NOTE]
-> When you choose the **Create Project** button, an email is sent to both target tenant reviewers for them to approve the project access along with the direct link and other details. While the project is created in the background, the details such as the name of the customer tenant and telemetry insights will not be resolved until the customer tenant reviewers approve the access. The person that creates the project can cancel the request and change approver emails from the **Data Consent** page after the project has been created. Learn more at [Data sharing consent](data-sharing-consent.md).
+Once the details are entered, choose the **Create Project** button. If you requested consent to data sharing, an email is sent to both target tenant reviewers for them to approve the project access along with the direct link and other details. The project is created. However, details such as the name of the customer tenant and telemetry insights won't be resolved until the customer tenant reviewers approve the access. The person that creates the project can cancel the request and change approver emails from the **Data Consent** page after the project is created. Learn more at [Give or get consent to data sharing](data-sharing-consent.md).
 
 ## Next step
 

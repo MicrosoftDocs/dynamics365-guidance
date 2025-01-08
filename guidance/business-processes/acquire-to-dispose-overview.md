@@ -1,7 +1,7 @@
 ﻿---
 title: Overview of acquire to dispose end-to-end business process flow
 description: Learn about the acquire to dispose end-to-end business process with a high-level overview of the business process, key benefits, and stakeholders.
-ms.date: 11/28/2023
+ms.date: 11/29/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: archanap
@@ -13,6 +13,9 @@ ms.author: archanap
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
 This article describes the *acquire to dispose* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
+
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 ## Acquire to dispose process relationship
 
@@ -48,25 +51,22 @@ The upstream processes for the *acquire to dispose* process include the followin
 
 The *acquire to dispose* end-to-end process is broken down into the following business process areas:
 
+- Define asset strategy and policies
 - Plan and budget assets
-
 - Acquire assets
-
 - Manage internal assets
-
 - Manage and report on asset financials
-
 - Maintain and repair internal assets
-
 - Retire and dispose of assets
+- Analyze assets
 
-Learn more at [Acquire to dispose business process areas](acquire-to-dispose-areas.md).
+Learn more at [Acquire to dispose business process areas](acquire-to-dispose-areas.md). [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 The downstream processes for the inventory to deliver process include the following.
 
 - **Case to resolution**  
 
-  After an asset is installed and being tracked in the system, you might use cases to track and report issues, or initiate requests for maintenance, asset replacement or leasehold improvements. The Case management process or Dynamics 365 Customer Service can help you internally monitor the requests and follow through issues to resolution.
+  After an asset is installed and being tracked in the system, you might use cases to track and report issues, or initiate requests for maintenance, asset replacement or leasehold improvements. The[ Case management process](/dynamics365/customer-service/use/customer-service-hub-user-guide-create-a-case) in Dynamics 365 Customer Service can help you internally monitor the requests and follow through issues to resolution.
 
 - **Hire to retire**  
 
@@ -82,7 +82,7 @@ The downstream processes for the inventory to deliver process include the follow
 
 - **Plan to produce**  
 
-  When you purchase manufacturing equipment, for example, the assets will begin to be used in the production process after they're put into service. Dynamics 365 Supply Chain Management allows you to configure the resources to be used in routes and track the machine usage throughout the production lifecycle.
+  When you purchase manufacturing equipment, for example, the assets will begin to be used in the production process after they're put into service. In Dynamics 365 Supply Chain Management, you can configure the resources to be used in routes and track the machine usage throughout the production lifecycle.
 
 - **Source to pay**  
 
@@ -106,7 +106,7 @@ There are product specific capabilities offered that interact with the *acquire 
 
 - **Fixed assets**  
 
-  Fixed assets in Dynamics 365 Finance can be used to set up and enter acquisition information for fixed assets, and then manage the assets by depreciating them and setting a capitalization threshold to determine depreciation. You can calculate adjustments to the fixed assets, and also dispose them. When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.
+  In Dynamics 365 Finance and Dynamics 365 Business Central, you can set up and enter acquisition information for fixed assets, and then manage the assets by depreciating them and setting a capitalization threshold to determine depreciation. You can calculate adjustments to the fixed assets, and also dispose them. When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.
 
 - **Asset leasing**  
 
