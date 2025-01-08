@@ -72,7 +72,7 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
    
     1. Uncheck **Allow enabling public access on individual containers**  to ensure only URLs with secure access tokens are allowed.
 
-      :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-1.png" alt-text="Screenshot of the Create a storage account screen, with the Advanced tab and Allow enablic public access option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-1.png":::
+       :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-1.png" alt-text="Screenshot of the Create a storage account screen, with the Advanced tab and Allow enablic public access option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-1.png":::
 
     2. Make sure the **Enable public access from all networks** checkbox is selected.
 
@@ -119,7 +119,7 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
 
  8. Select the audio option, and then paste your secure URL generated in the [Create storage account and secure audio files](#create-storage-account-and-secure-audio-files) section in the URL tag.
 
-   :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-7.png" alt-text="Screenshot of a text input field, with the text U R L being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-7.png":::
+    :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-7.png" alt-text="Screenshot of a text input field, with the text U R L being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-7.png":::
 
  9. Save and publish your Copilot Studio classic bot.
 
