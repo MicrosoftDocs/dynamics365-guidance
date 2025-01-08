@@ -44,7 +44,7 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
   Navigate to Copilot Studio and perform the following steps:
 
    1. Select the voice bot to which you want to add the audio file as a latency message.
-   1. Perform the steps in [add a latency message for long running operations](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations).
+   1. [Add a latency message for long running operations](/microsoft-copilot-studio/voice-configuration#add-a-latency-message-for-long-running-operations).
    1. In the message box, specify the SSML tag, `<audio src=""/>` and paste the BLOB SAS URL you have copied from the Azure portal as the value of the src attribute. For example, `<audio src="https://<storageaccount>.blob.core.windows.net/$web/<audiofile>?<SAS token>"/>`. Learn more in [Format speech synthesis with SSML](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml).
    1. Save and publish the bot.
    
