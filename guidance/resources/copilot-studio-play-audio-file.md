@@ -61,7 +61,7 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
 
  ### Solution
 
- - Utilize Azure Blob storage to host audio files for playback through SSML
+ - Utilize Azure Blob storage to host audio files for playback through SSML.
  - Encode the URLs such that they meet content security scan requirements for Microsoft systems.
 
  ### Steps to Create Storage Account and secure audio file:
