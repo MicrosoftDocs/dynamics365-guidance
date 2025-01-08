@@ -78,7 +78,7 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
 
    2. Leave the **Enable public access from all networks** selected
 
-    :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-2.png" alt-text="Screenshot of the Create a storage account screen with the Networking tab and Enable public access option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-2.png":::
+   :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-2.png" alt-text="Screenshot of the Create a storage account screen with the Networking tab and Enable public access option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-2.png":::
 
  4. Once created, create a blob storage container under **Containers**
 
