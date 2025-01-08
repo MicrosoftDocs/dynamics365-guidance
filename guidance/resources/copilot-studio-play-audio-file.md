@@ -14,7 +14,7 @@ ms.custom: O25-Service
 
 [!INCLUDE[pva-rebrand](../includes/pva-rebrand.md)]
 
-For customer voice solutions, if the organization wants to play their custom audio clips that they play through their Interactive Voice Response (IVR), they must use secure storage.
+For customer voice solutions, if you want to play a custom audio clip through Interactive Voice Response (IVR), then you must use secure storage.
 
 
 ## [Enhanced voice bot](#tab/enhancedvoicebot)
