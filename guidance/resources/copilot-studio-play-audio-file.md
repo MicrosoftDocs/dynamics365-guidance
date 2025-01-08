@@ -19,6 +19,7 @@ For customer voice solutions, if the organization wants to play their custom aud
 
 ## [Enhanced voice bot](#tab/enhancedvoicebot)
 
+To add a custom audio clip to your enhanced voice bot, perform the following steps.
  ### Prerequisites
 
  - Active Azure subscription.
@@ -50,7 +51,7 @@ For customer voice solutions, if the organization wants to play their custom aud
 ## [Classic bot](#tab/classicbot)
 
 
- This can be achieved with Azure Blob Storage but by default, Azure Blob storage URLs contain values that are filtered out by security scanning code when passed between systems.
+ For classic bots, you can add audio files using Azure Blob Storage. By default, Azure Blob storage URLs contain values that are filtered out by security scanning code when passed between systems.
 
  ### Prerequisites
   - Have a custom Copilot Studio classic Bot, such as [Sample Copilot Studio classic Bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/PVA/PlayAudioFile/sampleartifacts/PlaySecureAudioFilefromPVA_1_0_0_1.zip)
