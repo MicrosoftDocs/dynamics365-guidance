@@ -4,7 +4,7 @@ description: Learn about the sample solution so that you can play secure audio f
 author: edupont04
 ms.author: viange
 ms.topic: conceptual
-ms.date: 03/14/2024
+ms.date: 01/08/2025
 ms.custom: O25-Service
 ---
 
