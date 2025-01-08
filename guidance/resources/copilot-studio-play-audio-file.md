@@ -34,7 +34,7 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
    1. Select $web and upload your audio files. 
    1. To secure the storage folder, perform the following steps:
        -  Assign a [Storage Blob Data Reader](/azure/role-based-access-control/built-in-roles/storage#storage-blob-data-reader) role to Copilot Studio app registration or the specific user/group that needs access. Learn more in [Assign a storage blob data role](/azure/storage/blobs/storage-auth-abac-portal#step-3-assign-a-storage-blob-data-role).
-       - Navigate to the container where you've uploaded the file, select the required audio file,and then select **Shared access tokens**. Specify the required permissions, start and expiry dates.
+       - Navigate to the container where you've uploaded the file, select the required audio file, and then select **Shared access tokens**. Specify the required permissions, start and expiry dates.
         > [!TIP]
         > The audio file won't play post the expiry date. Make sure to specify this date accordingly.
        - Select **Generate SAS token and URL**. Copy the value in BLOB SAS URL.
