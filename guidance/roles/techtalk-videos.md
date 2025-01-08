@@ -28,7 +28,7 @@ Each TechTalk is recorded and shared on the [Dynamics 365 Community](https://com
 
 The following video introduces the FastTrack TechTalks.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1drsW]
+> [!VIDEO 40c3dd7e-3d44-4e64-b9d4-ebca24a5fcef]
 
 ## Subscribe to upcoming TechTalks
 
