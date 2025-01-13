@@ -1,10 +1,10 @@
 ---
 title: Options for regression testing for Dynamics 365 solutions
-description: Learn about different tools for automating regression testing of your Dynamics 365 solution and how to evaluate them for your needs.
+description: Learn about some of the tools that you can use for automating regression testing of your Dynamics 365 solution and how to evaluate them for your needs.
 author: edupont04
 ms.author: dudona
 ms.topic: conceptual
-ms.date: 01/23/2024
+ms.date: 01/13/2025
 ms.custom:
 - ai-seo-date: 01/23/2024
 - ai-gen-docs-bap
@@ -27,14 +27,31 @@ The following table shows some of the tools that you can use for regression test
 
 Learn more about each tool:
 
-- [TheTestMart](https://appsource.microsoft.com/en-US/product/dynamics-365-for-operations/360testinglimited1633924951153.the-test-mart?tab=Overview)
-- [Leapwork Test Automation](https://azuremarketplace.microsoft.com/marketplace/apps/leapwork1651672519978.leapwork_azure?tab=Overview)
-- [Microsoft Regression suite automation tool (RSAT)](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)
-- [Microsoft Easy Repro](https://github.com/microsoft/EasyRepro)
-- [Microsoft Playwright](https://github.com/microsoft/playwright)
-- [Selenium](https://www.selenium.dev/)
-- [Tricentis Tosca](https://azuremarketplace.microsoft.com/marketplace/apps/tricentis.testing_sap_automation_oracle_devops?tab=Overview)
-- [Executive Automats 365](https://appsource.microsoft.com/en-US/product/SaaS/xplus_sa.xpl_executiveautomats)
+- [TheTestMart](https://appsource.microsoft.com/en-US/product/dynamics-365-for-operations/360testinglimited1633924951153.the-test-mart?tab=Overview)  
+
+  TheTestMart is a cloud-based code-free test automation platform that focuses on scaling up automation coverage and productivity across  core business platforms by applying command-driven techniques.  
+- [Leapwork Test Automation](https://azuremarketplace.microsoft.com/marketplace/apps/leapwork1651672519978.leapwork_azure?tab=Overview)  
+
+  Leapwork Test Automation automates testing across Dynamics 365, Azure, or Power Platform along with the rest of the tech stack. Build, maintain, and scale automation faster with its AI-powered visual test automation platform.  
+
+- [Microsoft Regression suite automation tool (RSAT)](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)  
+
+  Microsoft RSAT significantly reduces the time and cost of user acceptance testing (UAT) of finance and operations apps. RSAT is fully integrated with Microsoft Azure DevOps for test execution, reporting, and investigation.  
+- [Microsoft Easy Repro](https://github.com/microsoft/EasyRepro)  
+
+  Microsoft EasyRepro is a library with tools to facilitate automated UI testing for projects with Dynamics 365 Online version 9.0 or 9.2. These APIs provide an easy to use set of commands that make setting up UI testing quick and easy.  
+- [Microsoft Playwright](https://github.com/microsoft/playwright)  
+
+  Microsoft Playwright is a framework for web testing and automation. It allows testing Chromium, Firefox, and WebKit with a single API. Playwright is built to enable cross-browser web automation.  
+- [Selenium](https://www.selenium.dev/)  
+
+  Selenium is an umbrella project for a range of tools and libraries that enable and support the automation of web browsers. Primarily used for front-end testing of websites, it's a browser user agent library.  
+- [Tricentis Tosca](https://azuremarketplace.microsoft.com/marketplace/apps/tricentis.testing_sap_automation_oracle_devops?tab=Overview)  
+
+  Tricentis Tosca helps enterprises plan, construct, stabilize, and execute resilient automated regression tests for Microsoft Dynamics 365 apps.  
+- [Executive Automats 365](https://appsource.microsoft.com/en-US/product/SaaS/xplus_sa.xpl_executiveautomats)  
+
+  Executive Automats 365 allows you to significantly shorten the test procedure and increase its accuracy. Executive Automats offers fully repeatable, customizable, 100% codeless, and cross-platform testing that translates into tangible benefits for the company.  
 
 ## Consider the costs and benefits of each tool
 
@@ -55,7 +72,7 @@ Every organization has a unique environment and profile. That's why Microsoft do
 
 If you have any suggestions or corrections for this article or the list of tools, let us know at `RTChartFeedback@microsoft.com`.
 
-We can't reply to all messages, but we appreciate your feedback and we'll try to review it as soon as possible.
+We can't reply to all messages, but we appreciate your feedback, and we'll review it as soon as possible.
 
 ## Next steps
 
