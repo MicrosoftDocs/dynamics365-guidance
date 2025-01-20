@@ -145,7 +145,7 @@ You can use the following resources to learn more about the *run production oper
 
 - Define the business process scope of your project. Learn more at [Process-focused solution.md](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+- Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).
 
 - Find definitions of terminology used in content for *run production operations* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 

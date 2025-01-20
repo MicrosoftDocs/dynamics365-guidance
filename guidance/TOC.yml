@@ -764,13 +764,13 @@ items:
             href: business-processes/design-to-retire-areas.md
           - name: Define product catalog and strategy
             href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
-          - name: Introduce new products overview
+          - name: Introduce new products
             href: business-processes/design-to-retire-introduce-new-products-overview.md
-          - name: Define product costing
-            href: business-processes/design-to-retire-define-product-costing-overview.md
           - name: Manage product pricing overview
             href: business-processes/design-to-retire-manage-product-pricing-overview.md
-          - name: Manage product lifecycle overview
+          - name: Define product costing
+            href: business-processes/design-to-retire-define-product-costing-overview.md
+          - name: Manage product lifecycle
             href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
         - name: Forecast to plan
           items:
@@ -846,8 +846,8 @@ items:
             href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
           - name: Manage freight and transportation
             href: business-processes/inventory-to-deliver-manage-freight-transportation.md
-          - name: Record and manage inventory costs
-            href: business-processes/inventory-to-deliver-record-manage-inventory-costs.md
+          # - name: Record and manage inventory costs
+          #   href: business-processes/inventory-to-deliver-record-manage-inventory-costs.md
         - name: Order to cash
           items:
           - name: End-to-end scenario - order to cash (ID 65)

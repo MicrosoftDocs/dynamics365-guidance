@@ -1,7 +1,7 @@
 ---
 title: Project to profit end-to-end business process flow overview
-description: Learn about the project to profitend-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 10/30/2023
+description: Learn about the project to profit end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+ms.date: 01/20/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: lalithac
@@ -12,6 +12,9 @@ ms.author: lalithac
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 This article describes the project to profit end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
+
+> [!NOTE]
+> The changes from the August and November 2024 versions of the business process catalog are slowly making their way to the articles here in the guidance hub. We hope to update all diagrams and articles early in 2025.
 
 ## Project to profit process relationship
 
@@ -205,37 +208,32 @@ The following diagram shows the high-level flow of the *project to profit* busin
 
 The following steps are illustrated in the *project to profit* end-to-end business process flow diagram.
 
-The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote*, and *Service to cash* are connected to subprocess a. *Manage project opportunities*. *Product and service lifecycle* *management* is connected to subprocess c. *Manage project contracts*.
 
 1. Start
 
-2. Project to profit end-to-end process
+2. *Project to profit* end-to-end process
 
     <!-- 1. Manage project opportunities -->
     <!-- 2. Manage project quotations -->
     1. [Govern projects](project-to-profit-govern-projects-overview.md)  
 
-        1. Manage project stakeholders
+        1. *Manage project stakeholders*
 
-        2. Manage project budgets
+        2. *Manage project budgets*
 
-        3. Manage project risks
+        3. *Manage project risks*
 
-        4. Manage project quality
+        4. *Manage project quality*
 
-        5. Manage project communications
+        5. *Manage project communications*
 
             *Manage project budgets*, *Manage project quality*, and *Manage project communications* connect to subprocess l. *Monitor and analyze project performance*.
 
             *Manage project risks* connects to subprocess l. *Monitor and analyze project performance* and the downstream process *Case to Resolution*.
 
-    2. Manage project contracts
+    2. *Manage project contracts*
 
     3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
-
-    <!-- 6. Resource a project
-
-        Parallel branch from this subprocess is l. *Monitor and analyze project performance* -->
 
     4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
@@ -243,27 +241,13 @@ The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote
 
     5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
-    <!-- 8. Manage project supply chain
-
-        Parallel branches from this subprocess are the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Source to pay*.
-
-    9. Capture project expenses
-
-        Parallel branch from this subprocess is the downstream process *Acquire to dispose*.
-
-    10. Process project invoices
-
-        Parallel branch from this subprocess is the downstream process *Order to cash*.
-
-    11. Recognize project revenue
-
-        Parallel branch from this subprocess is the downstream process *Record to Report*. -->
-
-    6. Monitor and analyze project performance
-
-        The downstream processes *Service to cash* and *Case to Resolution* connect to End.
+    6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
 3. End
+
+The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote*, and *Service to cash* connect to the subprocess *Manage project opportunities*. *Design to retire* connects to the subprocess *Manage project contracts*.
+
+The downstream processes *Service to cash* and *Case to Resolution* connect to End.
 
 ## Next steps
 
@@ -271,7 +255,7 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 
 1. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)  
 
-2. Request a demo or get a free trial of Dynamics 365 solutions for *the project to profit* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
+2. Request a demo or get a free trial of Dynamics 365 solutions for *the project to profit* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial)  
 
 3. Get an overview of each end-to-end business process area at [Project to profit business process areas overview](project-to-profit-areas.md).  
 

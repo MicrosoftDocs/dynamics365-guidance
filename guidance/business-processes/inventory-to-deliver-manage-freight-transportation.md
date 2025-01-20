@@ -102,12 +102,11 @@ Dynamics 365 Supply Chain Management has transportation rating and routing capab
 
 If you want to implement Dynamics 365 solutions to assist with your *manage freight and transportation* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
 
-1. [Define and manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
+1. [Manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
 2. [Maintain inventory levels](inventory-to-deliver-maintain-inventory-levels-overview.md)
 3. *Manage inventory quality*
 4. *Manage freight and transportation* (the article that you're currently reading)
-5. [Record and manage inventory costs](inventory-to-deliver-record-manage-inventory-costs.md)
-6. *Analyze warehouse operations*
+5. *Analyze warehouse operations*
 
 ## Related information
 

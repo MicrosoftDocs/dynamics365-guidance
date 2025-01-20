@@ -75,7 +75,7 @@ If you want to implement Dynamics 365 solutions to assist with your *concept to 
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-3. Request a demo or get a free trial of Dynamics 365 solutions for the product and service lifecycle management process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the product and service lifecycle management process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).
 
 4. Get an overview of the product and service lifecycle management process. Learn more at [concept to market overview](concept-to-market-overview.md).
 

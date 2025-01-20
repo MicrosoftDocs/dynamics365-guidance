@@ -106,7 +106,7 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 
 1. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
 
-2. Request a demo or get a free trial of Dynamics 365 solutions for the *project to profit* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).  
+2. Request a demo or get a free trial of Dynamics 365 solutions for the *project to profit* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
 
 3. Get an overview of the *project to profit* process. Learn more at [Project to profit end-to-end overview](project-to-profit-overview.md)  
 

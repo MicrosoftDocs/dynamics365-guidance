@@ -127,7 +127,7 @@ You can use the following resources to learn more about the *Manage project oppo
 - [Microsoft Certified: Dynamics 365 Fundamentals (ERP)](/certifications/d365-fundamentals-finance-and-operations-apps-erp/)
 - [Implementation strategy](../implementation-guide/implementation-strategy.md)
 - [Process-focused solution](../implementation-guide/process-focused-solution.md)
-- [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+- [Request a demo](https://www.microsoft.com/dynamics-365/free-trial)
 <!--## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Wholesale Trade (50-51), Retail Trade (52-59), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)

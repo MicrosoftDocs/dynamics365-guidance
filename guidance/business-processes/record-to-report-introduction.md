@@ -124,7 +124,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *recor
 
 3. *Get a demo of Dynamics 365 solutions for the order to cash process* <!-- TODO ADD LINK Learn more at \[link\].-->
 
-4. [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)  
+4. [Sign up for a trial of Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial)  
 
 <!--- Other steps here-->
 
