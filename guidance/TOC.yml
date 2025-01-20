@@ -563,6 +563,8 @@ items:
               href: resources/fin-index.yml
             - name: Resources for Supply Chain Management
               href: resources/scm-index.yml
+            - name: Monitoring and analyzing telemetry
+              href: /dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/?toc=/dynamics365/guidance/toc.json
             - name: Migrate data
               href: resources/migrate-data.md
             - name: Import customers with data entities
