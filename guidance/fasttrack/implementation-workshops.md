@@ -1,7 +1,7 @@
 ---
 title: Overview for implementation workshops to provide guidance
 description: Implementation workshops provide timely guidance across the functional, technical, and implementation aspects of the solution.
-ms.author: jedinh
+ms.author: edupont # was jedinh
 ms.date: 05/19/2021
 ms.topic: article
 

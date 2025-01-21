@@ -1,7 +1,7 @@
 ﻿---
 title: Maintain inventory levels overview
 description: Read about the business process area for managing inventory levels in Dynamics 365 implementations.
-ms.date: 12/16/2024
+ms.date: 01/16/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -44,13 +44,13 @@ The following diagram illustrates the *maintain inventory levels* business proce
 
 All activities in this process flow are mutually exclusive, and you can run them in no particular order. To effectively track inventory levels, the following business processes are highly recommended. (Links are added, when the articles are ready.)
 
-1. *Track supplier-managed inventory and consigned inventory*
-2. *Process inventory movements*
-3. *Track customer-managed inventory and consigned inventory*
-4. *Count inventory*
-5. *Adjust inventory levels*
-6. *Transfer inventory between sites*
-7. *Analyze inventory levels*
+1. *Track supplier-managed and consigned inventory*
+2. *Track customer-managed and consigned inventory*
+3. *Process inventory movements*
+4. *Stage  inventory*
+5. *Count inventory*
+6. *Analyze inventory levels*
+7. *Adjust inventory levels*
 
 ## Benefits
 

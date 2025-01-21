@@ -1,7 +1,7 @@
 ﻿---
-title: Dynamics 365 Implementation Portal
+title: What is the Dynamics 365 Implementation Portal?
 description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
-ms.date: 04/17/2024
+ms.date: 01/21/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: edupont
@@ -9,7 +9,7 @@ ms.reviewer: edupont
 ms.custom: bap-template
 ---
 
-# Dynamics 365 Implementation Portal
+# What is the Dynamics 365 Implementation Portal?
 
 [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal) helps you implement solutions with Dynamics 365 successfully based on the [Success By Design](../implementation-guide/success-by-design.md) framework. The implementation portal provides tools to help you manage project data, project users, create reviews, and update project profiles. You also have access to implementation guidance that is tailored specifically to your project.  
 

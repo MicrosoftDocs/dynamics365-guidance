@@ -4,7 +4,7 @@ description: Discover how the Onboard and manage the employee lifecycle business
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 11/19/2024
+ms.date: 01/17/2025
 ai-usage: ai-assisted
 ---
 
@@ -92,11 +92,11 @@ If you want to implement Dynamics 365 solutions to assist with your *Onboard and
     1. [Hire employees](hire-to-retire-onboard-hire-employees.md)  
     2. [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
     3. [Update employee records](hire-to-retire-update-employee-records.md)  
-    4. Create and manage teams
-    5. Communicate issue and changes with HR
+    4. *Create and manage teams*
+    5. *Communicate issue and changes with HR*
     6. [Transfer employees](hire-to-retire-onboard-transfer-employees.md)  
-    7. Generate employment verification letters
-    8. Employee relocation
+    7. *Generate employment verification letters*
+    8. *Employee relocation*
     9. [Terminate employee](hire-to-retire-onboard-terminate-employment.md)  
 3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
 4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)

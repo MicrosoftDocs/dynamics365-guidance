@@ -74,7 +74,7 @@ Engaging these stakeholders ensures a holistic approach to *administer to operat
 
 - [Define the business process scope of your project](../implementation-guide/implementation-strategy.md).
 
-- [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/) or get a free trial of Dynamics 365 solutions for the *administer to operate* process.
+- [Request a demo](https://www.microsoft.com/dynamics-365/free-trial) or get a free trial of Dynamics 365 solutions for the *administer to operate* process.
 
 - [Get an overview of the *administer to operate* process](administer-to-operate-overview.md).
 

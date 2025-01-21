@@ -2,7 +2,7 @@
 title: Dynamics CRM (on-premises) to Dynamics 365 migration
 description: Microsoft provides guidance on migrating your Dynamics CRM (on-premises) database to Dynamics 365 and Microsoft Dataverse.
 author: ReneeW-CPub
-ms.author: jedinh
+ms.author: edupont # was jedinh
 ms.topic: article
 ms.date: 11/06/2024
 ms.reviewer: edupont

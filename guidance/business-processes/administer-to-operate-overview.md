@@ -59,7 +59,7 @@ If you want to implement Dynamics 365 solutions to assist with your business pr
 
 - Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the *Source to pay* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+- Request a demo or get a free trial of Dynamics 365 solutions for the *Source to pay* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial)
 
 - Get an introduction of the *administer to operate* process at [administer to operate introduction](administer-to-operate-introduction.md).
 

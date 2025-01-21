@@ -4,7 +4,7 @@ description: Learn about the introduce new products business process including l
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: conceptual
-ms.date: 03/05/2024
+ms.date: 01/07/2025
 ---
 
 # Introduce new products overview
@@ -69,7 +69,7 @@ The following diagram illustrates the Introduce new products business process ar
 
 1. Start
 
-  Parallel branches connect to the end-to-end processes *Plan to produce* and *Source to pay* that each connect to the *Prototype and test offerings* business process.
+    Parallel branches connect to the end-to-end processes *Plan to produce* and *Source to pay* that each connect to the *Prototype and test products for validation* business process.
 
 2. *Design to retire*
 
@@ -78,57 +78,38 @@ The following diagram illustrates the Introduce new products business process ar
 4. *Introduce new products*
 
     1. *Define product design policies*
+    2. *Generate product ideas and concepts*
+    3. *Assess feasibility and viability of new products*
+    4. *Define product requirements*
+    5. *Enrich product with details*
+    6. *Plan implementation of new products*
 
-    1. *Generate offering ideas and concepts*
+        1. *Is manufactured?*
 
-    1. *Assess offering feasibility and viability of new products*
+            The *Yes* branch connects to *Is discrete?*, where the *Yes* branch connects to *Design discrete manufacturing products*, and the *No* branch connects to *Design process manufacturing products*. Both subprocesses then connect to *Define production process*.
 
-    1. *Define product requirements*
+            The *No* branch connects to *Prototype and test for validation*
+        2. *Design discrete manufacturing products*
+        3. *Design process manufacturing products*
+    7. *Define production process*
+    8. *Prototype and test products for validation*
+    9. *Ensure regulatory compliance of offerings*
+    10. *Prepare for launch and distribution of products*
+    11. *Ensure regulatory compliance of new products*
+    12. *Secure final offering design approval*
 
-    1. *Enrich product with details*
+        1. *Is approved?*
 
-    1. *Plan implementation of new products*
-
-    1. *Prototype and test offerings*
-
-    1. *Is manufactured?*
-
-        1. The Yes branch connects to *Is discrete?*
-
-            1. The Yes branch connects to *Design discrete manufacturing products*
-
-            1. The No branch connects to *Design process manufacturing products*
-
-            1. *Define production process*
-
-        1. The No branch connects to *Prototype and test for validation*
-
-    1. *Ensure regulatory compliance of offerings*
-
-    1. *Prepare for launch and distribution of products*
-
-    1. *Ensure regulatory compliance of new products*
-
-    1. *Secure final offering design approval*
-
-    1. *Is approved?*
-
-        1. The Yes branch connects to *Prepare for launch and distribution of products*
-
-        1. The No branch connects to *Release products to market*
-
-        1. *Run marketing campaigns*
-
+            The *Yes* branch connects to *Release products to market*. The *No* branch connects back to *Prepare for launch and distribution of products*.
+    13. *Release products to market*
 5. End
 
 > [!NOTE]
 > Each of the processes have a parallel branch that connects to *Define product costing*, *Manage product pricing*, *Manage product lifecycle*, and *Run marketing campaigns*.
-
-> [!NOTE]
-> Each of the subprocesses have unshown connections with an annotation for "1" to the *Define product costing* and *Manage product pricing* under *Design to retire* on the right side: *Enrich products with details*, *Plan implementation of new products*, *Design process manufacturing products*, *Design discrete manufacturing products*, and *Define production process*.
-
-> [!NOTE]
-> Each of the subprocesses have unshown connections with an annotation for "2" to the *Manage product lifecycle* business process area shown on the right under *Design to retire*: *Prototype and test for validation*, *Prepare for launch and distribution of new products*, *Ensure regulatory compliance of new products*, *Secure final product design approval*, and *Release products to markets*.
+>
+> Each of the subprocesses with the annotation **1** connect to the *Define product costing* and *Manage product pricing* under *Design to retire* on the right side: *Enrich products with details*, *Plan implementation of new products*, *Design process manufacturing products*, *Design discrete manufacturing products*, and *Define production process*.
+>
+> Each of the subprocesses with the annotation **2** connect to the *Manage product lifecycle* business process area shown on the right under *Design to retire*: *Prototype and test for validation*, *Prepare for launch and distribution of new products*, *Ensure regulatory compliance of new products*, *Secure final product design approval*, and *Release products to markets*.
 
 ## Introduce new products benefits
 
@@ -170,11 +151,11 @@ When you use Dynamics 365 Customer Service, you can drive iterative improvement 
 
 If you want to implement Dynamics 365 solutions to assist with your *introduce new products* business processes, you can use the following resources and steps to learn more.
 
-1. [Define product catalog and strategy overview](design-to-retire-define-product-catalog-strategy-overview.md)
+1. [Define product catalog and strategy](design-to-retire-define-product-catalog-strategy-overview.md)
 
 2. *Introduce new products* (the article you're currently reading)
 
-3. [Define product costing overview](design-to-retire-define-product-costing-overview.md)
+3. [Define product costing](design-to-retire-define-product-costing-overview.md)
 
 4. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
 

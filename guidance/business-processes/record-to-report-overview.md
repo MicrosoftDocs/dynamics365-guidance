@@ -215,7 +215,7 @@ If you want to implement Dynamics 365 solutions to assist with your *record to r
 
 3. Get a demo of Dynamics 365 solutions for the *record to report* process. Learn more at [Request a demo](https://dynamics.microsoft.com/)
 
-4. Sign up for a trial of Dynamics 365. Learn more at [Start a Free Trial for Microsoft Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+4. Sign up for a trial of Dynamics 365. Learn more at [Start a Free Trial for Microsoft Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial)
 
 ## Related information
 

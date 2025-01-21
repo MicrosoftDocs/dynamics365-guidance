@@ -150,7 +150,7 @@ If you want to implement Dynamics 365 solutions to assist with your *service to 
 1. Define the goals and objectives of implementing a service to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
-3. Request a demo or get a free trial of Dynamics 365 solutions for the *service to cash* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).  
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *service to cash* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
 
 4. Get an overview of each end-to-end business process area at [Service to cash business process areas overview](service-to-cash-areas-overview.md).  
 

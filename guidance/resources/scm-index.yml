@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Supply Chain Management.
   author: edupont04
   ms.author: edupont
-  ms.date: 07/06/2023
+  ms.date: 01/20/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -69,3 +69,11 @@ landingContent:
         url: import-sales-orders.md
       - text: Import vendor invoices
         url: import-vendor-invoices.md
+
+# Telemetry card
+  - title: Analyze telemetry
+    linkLists:
+    - linkListType: overview
+      links:
+      - text: Monitoring and analyzing telemetry
+        url: /dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/?toc=/dynamics365/guidance/toc.json

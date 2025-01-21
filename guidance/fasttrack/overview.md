@@ -2,7 +2,7 @@
 title: About Microsoft FastTrack for Dynamics 365
 description: FastTrack for Dynamics 365 is an onboarding program run by the product engineering team that offers best practices, tools, resources, and expert advice.
 author: ReneeW-CPub
-ms.author: jedinh
+ms.author: edupont # was jedinh
 ms.topic: overview #Required; don't change.
 ms.collection: get-started #Required; don't change.
 ms.date: 10/06/2023

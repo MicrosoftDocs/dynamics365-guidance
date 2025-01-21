@@ -1,7 +1,7 @@
 ---
 title: Overview of the Design to retire process areas
 description: Get an overview for each of the business process areas in the Design to retire end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 11/25/2024
+ms.date: 01/07/2025
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -23,7 +23,7 @@ In addition, this business process area involves defining and managing product a
 
 Finally, this business process area involves organizing and assigning product attributes such as color, size, style, and configuration to products. Dynamics 365 Supply Chain Management also supports unlimited custom-defined attributes that can be used for reporting and analysis. They can also be shown in the point of sale (POS) or website when you use Dynamics 365 Supply Chain Management together with Commerce. Additionally, you can create catalogs to group related products together. When products are organized in this way, customers can more easily find products, and organizations can more easily manage and analyze their product data. <!-- Learn more at TODOADDLINK[Organize and assign product attributes and catalogs\]. -->
 
-Learn more at [Categorize, segment, and merchandise products and services by using Dynamics 365 applications](design-to-retire-define-product-catalog-strategy-overview.md).  
+Learn more at [Define product catalog and strategy](design-to-retire-define-product-catalog-strategy-overview.md).  
 
 ## Introduce new products
 
@@ -35,17 +35,17 @@ This business process area involves controlling changes that are made to product
 
 Learn more at [Introduce new products overview](design-to-retire-introduce-new-products-overview.md).  
 
+## Manage product pricing
+
+After you define costs, you can start to manage and define product prices, based on factors such as cost, competition, and customer demand. Effective pricing strategies can help organizations improve profitability and maintain a competitive advantage. Dynamics 365 Sales includes basic sales pricing functionality. Dynamics 365 Supply Chain Management has a pricing engine that includes trade agreements, price lists, customer loyalty programs, promotions, and discounts to help determine the best price.  
+
+Learn more at [Manage product pricing overview](design-to-retire-manage-product-pricing-overview.md).  
+
 ## Define product costing
 
 All organizations must analyze and define the costs that are associated with manufacturing and delivering products. These costs include direct material costs, direct labor costs, and overhead costs. Dynamics 365 Sales includes functionality for assigning basic costs to products. Dynamics 365 Supply Chain Management includes more robust costing capabilities. Examples include multiple costing methodologies, such as last in, first out (LIFO), first in, first out (FIFO), standard, and average costing, and cost calculations and roll-ups for manufactured or purchased products, including indirect cost calculations for overheads. An understanding of product costs is essential for setting prices and making informed business decisions.
 
 Learn more at [Define product costing overview](design-to-retire-define-product-costing-overview.md).
-
-## Manage product pricing
-
-After you define costs, you can start to manage and define product prices, based on factors such as cost, competition, and customer demand. Effective pricing strategies can help organizations improve profitability and maintain a competitive advantage. Dynamics 365 Sales includes basic sales pricing functionality. Dynamics 365 Supply Chain Management has a pricing engine that includes trade agreements, price lists, customer loyalty programs, promotions, and discounts to help determine the best price. <!-- Learn more at TODOADDLINK[Manage product pricing\].-->
-
-Learn more at [Manage product pricing overview](design-to-retire-manage-product-pricing-overview.md).  
 
 ## Manage product lifecycle
 

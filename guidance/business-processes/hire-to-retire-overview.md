@@ -267,7 +267,7 @@ If you want to implement Dynamics 365 solutions to assist with your *hire to ret
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-3. Request a demo or a free trial of Dynamics 365 solutions for the *hire to retire* process. For more information, see [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or a free trial of Dynamics 365 solutions for the *hire to retire* process. For more information, see [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).
 
 4. Review the [Hire to retire introduction](hire-to-retire-introduction.md)  
 

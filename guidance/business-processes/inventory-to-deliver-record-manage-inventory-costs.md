@@ -1,15 +1,17 @@
 ---
 title: Manage inventory costs overview for technology implementation
 description: Read about the business process area for recording and managing inventory costs in Dynamics 365 implementations.
-ms.date: 08/12/2024
+ms.date: 01/16/2025
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
+ROBOTS: NOINDEX
 ---
 
 # Record and manage inventory costs overview for technology implementation
 
-***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
+This level 2 business process area was deprecated in the November 2024 version of the business process catalog. Learn more at [What's new or changed in the business process catalog November 2024](about-whats-new-2024-november.md).  
+<!-- ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 This article describes how organizations can use Dynamics 365 to record and manage inventory costs in a technology implementation.
 
@@ -156,7 +158,7 @@ You can use the following resources to learn more about the *record and manage i
   - [Costing methodology](glossary.md#costing-methodology)
   - [Costing sheet](glossary.md#costing-sheet)
   - [Costing version](glossary.md#costing-version)
-  - [Overhead costs](glossary.md#overhead-costs)
+  - [Overhead costs](glossary.md#overhead-costs) -->
 
 <!-- ## Tags
 
@@ -166,10 +168,10 @@ You can use the following resources to learn more about the *record and manage i
 
 *Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management -->
 
-## Contributors
+<!-- ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager Microsoft
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager Microsoft -->
