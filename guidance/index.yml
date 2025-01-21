@@ -255,7 +255,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/customer-service/overview
+        url: /dynamics365/customer-service/overview?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/cs-index.yml
@@ -265,7 +265,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/field-service/
+        url: /dynamics365/field-service/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/fs-index.yml
@@ -275,7 +275,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/finance/
+        url: /dynamics365/finance/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/fin-index.yml
@@ -293,7 +293,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/supply-chain/
+        url: /dynamics365/supply-chain/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/scm-index.yml
@@ -302,10 +302,10 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/business-central/dev-itpro/
+        url: /dynamics365/business-central/dev-itpro/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
-        url: /dynamics365/business-central/dev-itpro/administration/migrate-data
+        url: /dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics 365/guidance/toc.json
 # Cross-app + platform
     # - title: Shared resources
     #   links:
