@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory to deliver end-to-end business process
 description: Learn about the inventory to deliver end-to-end business process with a flow diagram and understand the relationship with other processes in Dynamics 365 solutions.
-ms.date: 12/16/2024
+ms.date: 01/20/2025
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -14,8 +14,8 @@ ms.reviewer: edupont
 
 This article provides a high-level flow diagram and an overview for each of the business process areas in the end-to-end business process *from inventory to deliver*. The article also describes this business process's relationship to other business processes in Dynamics 365.
 
-> [!NOTE]
-> We're in process of updating the article based on the November 2024 version of the business process catalog.
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 ## Inventory to deliver process relationship
 
@@ -56,14 +56,15 @@ The upstream processes for the *inventory to deliver* process include the follow
 The *inventory to deliver* end-to-end process is broken down into the following business process areas:
 
 - Manage warehouse operations
-- Process inbound goods
-- Manage inventory quality
 - Maintain inventory levels
+- Process inbound goods
 - Manage inventory costs
-- Record and control costs
 - Process outbound goods
+- Manage inventory quality
 - Manage freight and transportation
 - Analyze warehouse performance
+
+Learn more at [Overview of the Inventory to deliver business process areas](inventory-to-deliver-areas.md).  
 
 The downstream processes for the *inventory to deliver* process include the following.
 
@@ -144,11 +145,12 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 1. *Inventory to deliver* end-to-end process  
 
     1. *Manage warehouse operations*
-    2. *Manage inventory quality*
-    3. *Manage inventory costs*
-    4. *Record and control costs*
-    5. *Report to report*
-    6. End
+    2. *Maintain inventory levels*  
+    3. *Process inbound goods*  
+    4. *Process outbound goods*  
+    5. *Manage inventory quality*  
+    6. *Manage freight and transportation*  
+    7. *Analyze warehouse operations*  
 
 2. *Project to profit* end-to-end process  
 
@@ -227,7 +229,7 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
     6. *Record to report*
 
-    7. End
+8. End
 
 ## Next steps
 

@@ -6,7 +6,7 @@
    version="1.1"
    id="svg696"
    sodipodi:docname="design-to-retire-define-product-cost.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,11 +24,11 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.53489583"
-     inkscape:cx="865.58909"
-     inkscape:cy="897.37098"
+     inkscape:cx="866.52386"
+     inkscape:cy="896.43623"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
-     inkscape:window-x="2725"
+     inkscape:window-x="2869"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg696" />
@@ -462,7 +462,10 @@
        font-weight="400"
        font-size="21px"
        transform="translate(1467.65,863)"
-       id="text622">Procure to pay</text>
+       id="text622"
+       style="-inkscape-font-specification:'Segoe UI, Segoe UI_MSFontService, sans-serif, Normal';font-family:'Segoe UI', 'Segoe UI_MSFontService', sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan2">Source to pay</tspan></text>
     <rect
        x="1430"
        y="998"
@@ -542,7 +545,10 @@
        font-weight="400"
        font-size="21px"
        transform="translate(170.594,1159)"
-       id="text642">Procure to pay</text>
+       id="text642"
+       style="-inkscape-font-specification:'Segoe UI, Segoe UI_MSFontService, sans-serif, Normal';font-family:'Segoe UI', 'Segoe UI_MSFontService', sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan1">Source to pay</tspan></text>
     <path
        d="m 345.5,950 h 203.346 c 0.828,0 1.5,0.672 1.5,1.5 v 104.04 l -1.5,-1.5 h 195.845 v 3 H 548.846 c -0.829,0 -1.5,-0.67 -1.5,-1.5 V 951.5 l 1.5,1.5 H 345.5 Z m 397.691,101.04 9,4.5 -9,4.5 z"
        fill="#0078d4"

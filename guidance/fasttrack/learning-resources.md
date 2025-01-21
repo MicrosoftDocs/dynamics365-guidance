@@ -1,7 +1,7 @@
 ---
 title: Self-service learning opportunities and resources
 description: Learning resources for implementers include TechTalks, community forums, and free learning paths on Microsoft Learn.
-ms.author: jedinh
+ms.author: edupont # was jedinh
 author: renwe
 ms.date: 11/08/2024
 ms.topic: article

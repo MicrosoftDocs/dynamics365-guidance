@@ -1,13 +1,13 @@
 ---
-title: Overview of the define a sales strategy business process area
-description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining a sales strategy.
-ms.date: 10/23/2023
+title: Define a sales strategy and policies
+description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining a sales strategy and policies to align sales activities with business growth objectives.
+ms.date: 01/17/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: kowildfe
 ---
 
-# Align sales activities with business growth objectives with the define a sales strategy process area
+# Define a sales strategy and policies business process area
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service***
 
@@ -31,6 +31,9 @@ The following diagram illustrates the *define a sales strategy* business process
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
+> [!IMPORTANT]
+> The diagram is not yet updated. But the following text is updated.
+
 The business process area flow diagram covers the following steps:
 
 1. Start
@@ -38,15 +41,10 @@ The business process area flow diagram covers the following steps:
 3. *Define a sales strategy*
 
     1. *Define sales channels*
-
-        Parallel subprocesses:
-
-        1. *Define sales team*
-        2. *Define and manage sales territories*
-
-    2. *Define salesperson or sales taker for orders*
+    2. *Define sales team*
     3. *Determine sales targets*
     4. *Establish sales commission and incentive structures*
+    5. *Define sales process*  
 
 4. End
 
@@ -54,16 +52,16 @@ There are parallel branches to steps in this business process are from the follo
 
 - *Hire to retire*
 
-    - *Plan and recruit workforce*
+  - *Plan and recruit workforce*
 
 - *Forecast to plan*
 
-    - *Forecast supply and demand*
+  - *Forecast supply and demand*
 
 - *Record to report*
 
-    - *Manage budgets*
-    - *Define ledger structure and currency policies*
+  - *Manage budgets*
+  - *Define ledger structure and currency policies*
 
 ## Define a sales strategy benefits
 
@@ -80,17 +78,13 @@ In summary, a carefully defined sales strategy sets the foundation for sales exc
 
 If you want to implement Dynamics 365 solutions to help with your *define sales strategies* business process, you can use the following resources and steps to learn more. (Links are added, when articles become available.)
 
-1. *Define sales strategies* (the article that you're currently reading)
-
-2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-
-3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
-
-4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
-
-5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
-
-6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+1. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)  
+1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+1. *Define sales strategies* (the article that you're currently reading)  
+1. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
+1. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
+1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
+1. *Manage project opportunities*  
 
 ## Related information
 

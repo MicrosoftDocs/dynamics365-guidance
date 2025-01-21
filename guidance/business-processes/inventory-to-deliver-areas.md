@@ -1,7 +1,7 @@
 ---
 title: Overview of the Inventory to deliver business process areas
 description: Get an overview for each of the business process areas in the Inventory to deliver end-to-end business process for managing, handling, and delivering inventory in Dynamics 365 solutions.
-ms.date: 12/16/2024
+ms.date: 01/16/2025
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -15,9 +15,9 @@ The *inventory to deliver* process is broken down into business process areas fo
 
 ## Manage warehouse operations
 
-This area involves defining and managing warehouse operations, including the setup of warehouses, locations, and zones. It also includes managing the resources that are required for warehouse operations, such as workers, equipment, and tools.
+This area involves defining and managing warehouse operations strategy and policies, including the setup of warehouses, locations, and zones. It also includes managing the resources that are required for warehouse operations, such as workers, equipment, and tools.
 
-Learn more at [Manage warehouse operations strategy and policies overview](inventory-to-deliver-define-manage-warehouse-operations-overview.md).
+Learn more at [Manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md).
 
 ## Maintain inventory levels
 
@@ -43,11 +43,15 @@ This area involves managing freight and transportation activities, such as manag
 
 Learn more at [Manage freight and transportation overview](inventory-to-deliver-manage-freight-transportation.md).
 
-## Record and manage inventory costs
+<!-- ## Record and manage inventory costs
 
 This area involves recording and controlling costs that are associated with inventory management, such as procurement, transportation, warehousing, and handling costs. It includes setting up cost accounting policies, tracking expenses, and creating financial reports.
 
-Learn more at [Record and manage inventory costs overview](inventory-to-deliver-record-manage-inventory-costs.md).
+Learn more at [Record and manage inventory costs overview](inventory-to-deliver-record-manage-inventory-costs.md). -->
+
+## Analyze warehouse operations
+
+This area involves defining the key performance indicators (KPIs) for the management of the warehouse, measuring the performance of the warehouse, and analyzing and reporting on inventory.
 
 ## Next steps
 
@@ -55,7 +59,7 @@ If you want to implement Dynamics 365 solutions to assist with your *inventory t
 
 1. Define the goals and objectives of implementing an order to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
-3. Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *inventory to deliver* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).
 4. [Inventory to deliver introduction](inventory-to-deliver-introduction.md).
 5. [Inventory to deliver end-to-end overview](inventory-to-deliver-overview.md).
 6. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md).

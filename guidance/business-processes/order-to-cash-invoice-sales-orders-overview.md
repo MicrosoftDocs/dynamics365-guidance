@@ -104,7 +104,7 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 2. Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
 
-3. [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/) or get a free trial of Dynamics 365 solutions for the order to cash process.
+3. [Request a demo](https://www.microsoft.com/dynamics-365/free-trial) or get a free trial of Dynamics 365 solutions for the order to cash process.
 
 4. Learn more about the [Microsoft Power Platform](https://powerplatform.microsoft.com/).
 

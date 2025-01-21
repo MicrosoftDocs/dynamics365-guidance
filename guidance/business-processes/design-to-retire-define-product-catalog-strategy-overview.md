@@ -1,13 +1,13 @@
 ---
-title: Categorize products and services through Dynamics 365
-description: Learn how you can use Dynamics 365 products to support your organization's business processes for capturing a strategy for the products that you want to sell.
-ms.date: 11/24/2023
+title: Define product catalog and strategy
+description: Learn how you can use Dynamics 365 products to support your organization's business processes for categorizing, segmenting, and merchandising products and services. Learn how you can capture a strategy for the products that you want to sell.
+ms.date: 01/07/2025
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Categorize, segment, and merchandise products and services by using Dynamics 365 applications
+# Define your product catalog and strategy in Dynamics 365
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

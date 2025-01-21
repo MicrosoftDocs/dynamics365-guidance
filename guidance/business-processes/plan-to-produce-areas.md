@@ -66,7 +66,7 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 
 - Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-- Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+- Request a demo or get a free trial of Dynamics 365 solutions for the plan to produce process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).
 
 - Learn more about the Power Platform products at [Business Application Platform](https://powerplatform.microsoft.com/)
 

@@ -1,14 +1,14 @@
 ---
-title: Dynamics 365 implementation guidance
-description: Learn about the types of guidance Microsoft provides for organizations that are implementing a Dynamics 365 solution.
+title: What is the Dynamics 365 implementation guide?
+description: Get an overview of the guidance Microsoft provides for organizations that are implementing a Dynamics 365 solution.
 author: edupont04
 ms.author: edupont
-ms.date: 08/14/2024
+ms.date: 01/21/2025
 ms.topic: overview
 ms.custom: bap-template
 ---
 
-# Dynamics 365 implementation guidance
+# What is the Dynamics 365 implementation guide?
 
 This section contains guidance for how to implement solutions that include Dynamics 365 apps and services. The *Success by Design* framework can help you prepare for and run even complex implementation projects. This article provides an overview of the available implementation guidance.  
 
@@ -23,14 +23,6 @@ The Dynamics 365 implementation guide follows the structure of [Success by Desig
 - *Implement*
 - *Prepare*
 - *Operate*
-
-<!-- 
-- Meet the [Dynamics 365 implementation guide](introduction.md).
-- Review the [solution architecture design pillars](solution-architecture-design-pillars.md).
-- Review the [environment strategy](environment-strategy-overview.md).
-- Review the [implementation strategy](implementation-strategy.md).
-- Review the [testing strategy](testing-strategy.md).
-- Learn how you can [extend your solution](extend-your-solution.md). -->
 
 The implementation guide represents the collective knowledge and experience of the FastTrack for Dynamics 365 team, gained over thousands of Dynamics 365 implementations. Here, program leaders, project managers, solution architects, system administrators, and business stakeholders on the Dynamics 365 implementation journey find expert guidance. We provide illustrative case studies, and the thinking, questions, and resources you need for a successful implementation.
 

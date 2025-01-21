@@ -152,7 +152,7 @@ If you want to implement Dynamics 365 solutions to assist with your *prospect to
 
 <!-- Get a demo of Dynamics 365 solutions for the order to cash process.TODO: add link For more information, see \[link\].-->
 
-3. [Sign up for a trial of Dynamics 365](https://dynamics.microsoft.com/dynamics-365-free-trial/)
+3. [Sign up for a trial of Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial)
 
 4. [Prospect to quote business process areas](prospect-to-quote-areas.md)
 

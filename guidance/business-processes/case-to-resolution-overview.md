@@ -219,7 +219,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *case 
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).
 
-3. Request a demo or get a free trial of Microsoft Business Applications solutions for the *case to resolution* process. Learn more at [Request a demo](https://dynamics.microsoft.com/dynamics-365-free-trial/).
+3. Request a demo or get a free trial of Microsoft Business Applications solutions for the *case to resolution* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).
 
 4. Get an introduction of the **case to resolution** business process. Learn more at [*Case to resolution* introduction](case-to-resolution-introduction.md).
 

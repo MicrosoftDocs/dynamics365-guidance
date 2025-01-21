@@ -11,7 +11,7 @@ metadata:
   author: edupont04
   ms.author: edupont
   ms.subservice: guidance
-  ms.date: 09/16/2024
+  ms.date: 01/21/2025
   hide_bc: true
 
 # highlightedContent section (optional)
@@ -20,7 +20,7 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title: Get started
+    - title: What is Dynamics 365 guidance?
       itemType: get-started
       url: overview.md
     # Card
@@ -33,7 +33,7 @@ highlightedContent:
       url: implementation-guide/success-by-design.md
     # Card
     - title: Resources
-      itemType: reference
+      itemType: sample
       url: resources/index.yml
 
 # productDirectory section (optional)
@@ -44,7 +44,7 @@ productDirectory:
       # imageSrc should be square in ratio with no white space
       imageSrc: media/i-get-started.svg
       links:
-        - text: Introduction to guidance
+        - text: What is Dynamics 365 guidance?
           url: overview.md
         - text: Roles in Dynamics 365
           url: roles/overview.md
@@ -74,30 +74,18 @@ productDirectory:
       # imageSrc should be square in ratio with no white space
       imageSrc: media/i-tools.svg
       links:
-        - text: Overview
+        - text: What is the Dynamics 365 implementation guide?
           url: implementation-guide/overview.md
         - text: Introduction to the implementation guide
           url: implementation-guide/introduction.md
-        - text: Tools and resources
-          url: resources/index.yml
         - text: Learn about Success by Design
           url: implementation-guide/success-by-design.md
         - text: Implement cloud solutions
           url: implementation-guide/implementing-cloud-solutions.md
-        - text: Implementation Portal
+        - text: Tools and resources
+          url: resources/index.yml
+        - text: What is the Implementation Portal?
           url: implementation-portal/overview.md
-
-# Migrate card
-    - title: Migrate
-      # imageSrc should be square in ratio with no white space
-      imageSrc: media/i-config-tools.svg
-      links:
-        - text: Overview
-          url: migrate/overview.md
-        - text: Migrate from Dynamics CRM (on-premises)
-          url: migrate/opol-crm-migration-high-level-overview.md
-        - text: AIM migration program
-          url: migrate/aim-migration-overview.md
 
 # Admin Card
     - title: Administer
@@ -115,6 +103,18 @@ productDirectory:
         url: implementation-guide/data-management.md
       - text: Application life management
         url: implementation-guide/application-lifecycle-management.md
+
+# Migrate card
+    - title: Migrate
+      # imageSrc should be square in ratio with no white space
+      imageSrc: media/i-config-tools.svg
+      links:
+        - text: Overview
+          url: migrate/overview.md
+        - text: Migrate from Dynamics CRM (on-premises)
+          url: migrate/opol-crm-migration-high-level-overview.md
+        - text: AIM migration program
+          url: migrate/aim-migration-overview.md
 
 # Card
     - title: Reference architectures
@@ -255,7 +255,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/customer-service/overview
+        url: /dynamics365/customer-service/overview?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/cs-index.yml
@@ -265,7 +265,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/field-service/
+        url: /dynamics365/field-service/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/fs-index.yml
@@ -275,7 +275,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/finance/
+        url: /dynamics365/finance/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/fin-index.yml
@@ -293,7 +293,7 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/supply-chain/
+        url: /dynamics365/supply-chain/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
         url: resources/scm-index.yml
@@ -302,10 +302,10 @@ conceptualContent:
       links:
       - itemType: get-started
         text: Introduction
-        url: /dynamics365/business-central/dev-itpro/
+        url: /dynamics365/business-central/dev-itpro/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
-        url: /dynamics365/business-central/dev-itpro/administration/migrate-data
+        url: /dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics 365/guidance/toc.json
 # Cross-app + platform
     # - title: Shared resources
     #   links:

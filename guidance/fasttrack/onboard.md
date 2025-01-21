@@ -1,7 +1,7 @@
 ---
 title: Onboard a Dynamics 365 project with or without FastTrack
 description: Read how to onboard to Dynamics 365 with or without the assistance of the FastTrack team to help with the implementation.
-ms.author: jedinh
+ms.author: edupont # was jedinh
 ms.date: 10/06/2023
 ms.topic: conceptual
 author: ReneeW-CPub
@@ -22,7 +22,7 @@ Microsoft makes the following requirements to onboard an organization:
 - All implementation partners must have the *Cloud Business Applications* silver or gold competency.
 - All implementation partners must complete the Success by Design training before project initiation.
 
-### Exception process
+## Exception process
 
 FastTrack exceptions must be granted by the regional leadership team. To request an exception, please reach out to your Microsoft contact for review.
 
@@ -30,7 +30,7 @@ FastTrack exceptions must be granted by the regional leadership team. To request
 
 For customers not nominated to FastTrack, light-touch implementation guidance is available at [Dynamics 365 implementation guidance](../implementation-guide/overview.md).  
 
-### Implementation project
+## Implementation project
 
 You can onboard your organization as self-service in Lifecycle Services if you're not nominated for FastTrack. Learn more at [LCS workspace for the current versions of the finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs#lcs-workspace-for-the-current-versions-of-the-finance-and-operations-apps) in the Lifecycle Services content.  
 
