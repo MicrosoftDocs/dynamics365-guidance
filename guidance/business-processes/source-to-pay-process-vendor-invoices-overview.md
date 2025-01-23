@@ -43,7 +43,7 @@ The following diagram illustrates the *manage the accounts payable* business pro
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)] -->
 
 > [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated.
+> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 1. Start
 2. *Source to pay* end-to-end process

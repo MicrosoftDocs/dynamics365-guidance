@@ -32,7 +32,7 @@ The following diagram illustrates the *develop production strategies* business p
 :::image type="content" source="media/plan-to-produce-define-prod-strategies.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/plan-to-produce-define-prod-strategies.svg":::
 
 > [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated.
+> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 1. Start
 

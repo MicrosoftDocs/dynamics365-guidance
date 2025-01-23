@@ -46,7 +46,7 @@ The following diagram illustrates the *Develop a procurement and sourcing strate
 :::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
 
 > [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated.
+> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 1. Start
 
