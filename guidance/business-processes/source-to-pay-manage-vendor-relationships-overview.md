@@ -47,7 +47,7 @@ The following diagram illustrates the *manage supplier relationships* business p
 :::image type="content" source="media\source-to-pay-manage-supplier-relationships-overview.svg" alt-text="Diagram showing the business process area of managing supplier relationships." lightbox="media\source-to-pay-manage-supplier-relationships-overview.svg":::
 
 > [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated.
+> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 The process has these steps:
 
