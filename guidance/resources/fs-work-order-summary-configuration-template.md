@@ -17,7 +17,7 @@ Find the source files in the GitHub repo at [https://aka.ms/wosummaryconfigurati
 
 > [!WARNING]
 > We assume that all the tables and columns selected in the Field Service summary configuration template are available in the target environment with the same schema names. If there are any changes or differences, then the work order summary configuration will be corrupted.
-> We recommend that you first try to import the configuration in a copy of the production environment.
+> We recommend that you first try to import the configuration in a copy of the development environment.
 
 
 ## Tables and columns of the template
