@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Field Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 12/13/2024
+  ms.date: 01/24/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom:
     - bap-template
@@ -64,7 +64,11 @@ landingContent:
     - linkListType: how-to-guide
       links:
         - text: Transport summary configurations across environments
-          url: fs-transport-summary-configuration.md 
+          url: fs-transport-summary-configuration.md
+    - linkListType: reference
+      links:
+        - text: Work order summary configuration template
+          url: fs-work-order-summary-configuration-template.md
 # card
 
   - title: Analytics
@@ -96,6 +100,13 @@ landingContent:
        - text: Validate the solution
          url: solution-component-validator.md
 
+
+  - title: Copilot and generative AI
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: Transport summary configurations across environments
+          url: fs-transport-summary-configuration.md 
 
 # # Card
 #   - title: Application lifecycle management
