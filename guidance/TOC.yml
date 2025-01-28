@@ -542,6 +542,8 @@ items:
                 href: resources/fs-transport-summary-configuration.md
               - name: Use Copilot to create sample data for Field Service
                 href: resources/fs-copilot-import-sample-data.md
+              - name: Work order summary configuration template
+                href: resources/fs-work-order-summary-configuration-template.md
             - name: Configure the schedule board
               items:
               - name: Add crew information to resource cells
