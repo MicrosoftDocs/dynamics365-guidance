@@ -31,6 +31,7 @@ ai-usage: ai-assisted
 | Done? | Task |
 | :---: | --- |
 | &check; | Use business processes for each phase of your project to achieve better outcomes&mdash;all phase activities are better planned, executed, and measured.
+| &check; | Create a project profile with business process scope in the Dynamics 365 Implementation Portal. Learn more at [Project profile](../implementation-portal/project-profiling.md)
 
 ## Optimize your processes
 
