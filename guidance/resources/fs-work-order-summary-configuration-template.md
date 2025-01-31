@@ -68,12 +68,13 @@ To import the template *FSSummaryConfigurationData.zip*, you can use the **Confi
 
 ## Import the template with Power Platform build tools
 
-Microsoft Power Platform Build Tools for Azure DevOps include the Power Platform Import Data task, which can be used by specifying:
+Microsoft Power Platform Build Tools for Azure DevOps includes the Power Platform Import Data task, which can be used by specifying:
 
-- Environment: \<*target environment for importing the configuration*\>
+- Service Connection: \<*of target environment for importing the configuration*\>
+- Environment: $(BuildTools.EnvironmentUrl)
 - Data file or folder: \<*file path*\>\FSSummaryConfigurationData.zip
 
-Learn more at [Move configuration data across environments and organizations with the Configuration Migration tool](/power-platform/admin/manage-configuration-data).
+Learn more at [Microsoft Power Platform Build Tools tasks](/power-platform/alm/devops-build-tool-tasks?#import-dataverse-data).
 
 ### Import with Microsoft Power Platform CLI
 
@@ -83,6 +84,8 @@ Here is an example of how to import the template using Microsoft Power Platform 
 pac auth create --environment <target environment for importing the configuration (ID, url, unique name, or partial name) ex. contosotest>
 pac data import --data <file path ex. C:\FSSummaryConfigurationData.zip>
 ```
+
+Learn more at [Microsoft Power Platform CLI Command Groups](/power-platform/developer/cli/reference/data).
 
 ### Import with a YAML pipeline
 
