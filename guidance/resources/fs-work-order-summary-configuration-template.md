@@ -94,7 +94,7 @@ Here is an example of how to import the template using YAML pipeline after you h
 ```yml
 steps:
 - task: microsoft-IsvExpTools.PowerPlatform-BuildTools.import-data.PowerPlatformImportData@2
-  displayName: 'Power Platform Import Data '
+  displayName: 'Power Platform Import Data'
   inputs:
     authenticationType: PowerPlatformSPN
     PowerPlatformSPN: <Service connection of the target environment for importing the configuration name ex. contosotest>
