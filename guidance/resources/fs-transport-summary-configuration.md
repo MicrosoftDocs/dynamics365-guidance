@@ -1,7 +1,7 @@
 ---
 title: Transport summary configuration across environments
 description: Learn how to migrate Copilot summary configuration between environments with Dynamics 365 Field Service.
-ms.date: 11/07/2024
+ms.date: 02/03/2025
 ms.topic: reference
 author: SabrinaDiBartolomeo
 ms.author: sabrinadi
@@ -17,7 +17,7 @@ This article provides information on how to transport both summary configuration
 
 > [!IMPORTANT]
 >
-> When exporting and importing the data, we assume that all the tables and columns selected in the Field Service summary configuration are available in both environments with the same schema names. If there are any changes or differences, then the FS Summary Configuration will be corrupted.
+> When exporting and importing the data, we assume that all the tables and columns selected in the Field Service summary configuration are available in both environments with the same schema names. If there are any changes or differences, then the FS Summary Configuration will be corrupted. Import the exported data in a pre-production environment (preferably a mirror image of the production environment) to ensure that the data import results are as you intended.
 
 ## Use the Configuration Migration tool
 
@@ -57,6 +57,49 @@ This article provides information on how to transport both summary configuration
 1. Once complete, select **Exit** to close the tool.
 
 The summaries are now copied to the target environment and the content is available for use.
+
+## Power Platform build tools
+
+Microsoft Power Platform Build Tools for Azure DevOps includes tasks, includiong the following list:
+
+- Power Platform Export Data  
+
+  When you use this task, you must specify the following settings:
+
+  - Service Connection: \<*of source environment for exporting the configuration*\>
+  - Environment:  $(BuildTools.EnvironmentUrl)
+  - Schema File: \<*file path of XML Schema (ex. $(Build.SourcesDirectory)\data\FSSummaryConfigurationSCHEMA.xml)*\>
+  - Data file or folder: \<*file path of ZIP data (ex. $(Build.SourcesDirectory)\data\FSSummaryConfigurationData.zip)*\>
+
+- Power Platform Import Data task  
+
+  When you use this task, you must specify the following settings:
+
+  - Service Connection: \<*of target environment for importing the configuration*\>
+  - Environment: $(BuildTools.EnvironmentUrl)
+  - Data file or folder: \<*file path of ZIP data (ex. $(Build.ArtifactStagingDirectory)\$(SolutionName).zip)*\>
+
+Learn more at [Microsoft Power Platform Build Tools tasks](/power-platform/alm/devops-build-tool-tasks).
+
+## Microsoft Power Platform CLI
+
+Microsoft Power Platform CLI includes the pac data Command Group to export and import data from Dataverse: 
+
+The following example illustrates how to export data.
+
+```
+pac auth create --environment <source environment for exporting the configuration (ID, url, unique name, or partial name) ex. contosotest>
+pac data export --schemaFile <file path of XML Schema ex. C:\FSSummaryConfigurationSCHEMA.xml> --dataFile <file path of ZIP data ex. C:\FSSummaryConfigurationData.zip>
+```
+
+The following example illustrates how to import data.
+
+```
+pac auth create --environment <target environment for importing the configuration (ID, url, unique name, or partial name) ex. contosotest>
+pac data import --data <file path ex. C:\FSSummaryConfigurationData.zip>
+```
+
+Learn more at [Microsoft Power Platform CLI Command Groups](/power-platform/developer/cli/reference/data).
 
 ## Related resources
 

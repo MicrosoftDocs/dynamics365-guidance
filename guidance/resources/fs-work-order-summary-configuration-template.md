@@ -68,12 +68,13 @@ To import the template *FSSummaryConfigurationData.zip*, you can use the **Confi
 
 ## Import the template with Power Platform build tools
 
-Microsoft Power Platform Build Tools for Azure DevOps include the Power Platform Import Data task, which can be used by specifying:
+Microsoft Power Platform Build Tools for Azure DevOps includes the Power Platform Import Data task, which can be used by specifying:
 
-- Environment: \<*target environment for importing the configuration*\>
+- Service Connection: \<*of target environment for importing the configuration*\>
+- Environment: $(BuildTools.EnvironmentUrl)
 - Data file or folder: \<*file path*\>\FSSummaryConfigurationData.zip
 
-Learn more at [Move configuration data across environments and organizations with the Configuration Migration tool](/power-platform/admin/manage-configuration-data).
+Learn more at [Microsoft Power Platform Build Tools tasks](/power-platform/alm/devops-build-tool-tasks?#import-dataverse-data).
 
 ### Import with Microsoft Power Platform CLI
 
@@ -84,6 +85,8 @@ pac auth create --environment <target environment for importing the configuratio
 pac data import --data <file path ex. C:\FSSummaryConfigurationData.zip>
 ```
 
+Learn more at [Microsoft Power Platform CLI Command Groups](/power-platform/developer/cli/reference/data).
+
 ### Import with a YAML pipeline
 
 Here is an example of how to import the template using YAML pipeline after you have downloaded the file *FSSummaryConfigurationData.zip* at [https://aka.ms/wosummaryconfigurationtemplate](https://aka.ms/wosummaryconfigurationtemplate):
@@ -91,7 +94,7 @@ Here is an example of how to import the template using YAML pipeline after you h
 ```yml
 steps:
 - task: microsoft-IsvExpTools.PowerPlatform-BuildTools.import-data.PowerPlatformImportData@2
-  displayName: 'Power Platform Import Data '
+  displayName: 'Power Platform Import Data'
   inputs:
     authenticationType: PowerPlatformSPN
     PowerPlatformSPN: <Service connection of the target environment for importing the configuration name ex. contosotest>

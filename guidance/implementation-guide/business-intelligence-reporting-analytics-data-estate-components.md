@@ -55,7 +55,7 @@ Customer Insights also offers built-in analytics capabilities such as segmentati
 
 ## Dataverse and applications
 
-Dataverse isn't just a data store. It's also a platform for creating applications. You can use Power Apps, Power Automate, Power BI, and Power Virtual Agents to build solutions that use your Dataverse data. You can also access data from other Dynamics 365 apps or external sources using connectors or APIs.
+Dataverse isn't just a data store. It's also a platform for creating applications. You can use Power Apps, Power Automate, Power BI, and Copilot Studio to build solutions that use your Dataverse data. You can also access data from other Dynamics 365 apps or external sources using connectors or APIs.
 
 ## Data export components
 
@@ -107,7 +107,7 @@ Power BI lets you collaborate with other users across your organization. You can
 
 [Learn more about Power BI](/power-bi/).
 
-### Power Apps, Power Automate, and Power Virtual Agents
+### Power Apps, Power Automate, and Copilot Studio
 
 [Power Apps](/power-apps/) lets you create custom apps that use your data estate without writing code. You can use prebuilt templates or start from scratch using a drag-and-drop interface.
 
