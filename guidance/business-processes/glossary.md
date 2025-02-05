@@ -1888,7 +1888,7 @@ Supply chain visibility is the ability to monitor and track the movement of prod
 
 *Administer to operate* extends beyond proactive measures to encompass responsive support. This involves addressing user queries, troubleshooting issues, and providing ongoing assistance to maintain a resilient Dynamics 365 environment.
 
-Supporting Systems is an integral aspect of administering to operating any technology solution. The process involves responsive assistance for users and efficient issue resolution. Dynamics 365 offers tools like the Power Platform's Power Virtual Agents for building intelligent chatbots and the Dynamics 365 Support Hub for comprehensive support resources. This process ensures that users receive timely assistance, queries are addressed efficiently, and issues are resolved promptly, contributing to a resilient and smoothly functioning Dynamics 365 environment.
+Supporting Systems is an integral aspect of administering to operating any technology solution. The process involves responsive assistance for users and efficient issue resolution. Dynamics 365 offers tools like the Copilot Studio for building intelligent chatbots and the Dynamics 365 Support Hub for comprehensive support resources. This process ensures that users receive timely assistance, queries are addressed efficiently, and issues are resolved promptly, contributing to a resilient and smoothly functioning Dynamics 365 environment.
 
 ### System uptime
 

@@ -6,7 +6,7 @@ ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: conceptual #Required; don't change.
 ms.collection: get-started #Required; don't change.
-ms.date: 04/26/2024
+ms.date: 02/04/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -183,6 +183,7 @@ The following list shows the abbreviations that are used for each Dynamics 365 a
 - COM = Dynamics 365 Commerce
 - CSB = Commerce site builder
 - POS = Commerce Point of Sale
+- CIJ = Dynamics 365 Customer Insights - Journeys
 - CSH = Customer Service hub
 - FIN = Dynamics 365 Finance
 - FS = Dynamics 365 Field Service
@@ -205,7 +206,7 @@ The following list shows the abbreviations for applications that are used for ad
 - VS = Visual Studio
 - ADO = Azure DevOps
 - AP = Azure portal
-- MP = Maker portal (Power Apps, Power Automate, Power Virtual Agents, AI Builder)
+- MP = Maker portal (Power Apps, Power Automate, AI Builder)
 - PP = Power Pages maker portal
 
 ### Entity

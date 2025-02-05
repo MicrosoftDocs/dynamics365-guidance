@@ -133,7 +133,7 @@ There are product specific capabilities offered that interact with the *case to 
 
   Provides an end-to-end survey management tool that can be used in multiple scenarios including post-case customer satisfaction surveys.
 
-- **Power Virtual Agents and Azure Bots**  
+- **Agents and Azure Bots**  
 
   Automates routine tasks, allows for self-service options, and frees up support agents to focus on more complex cases.
 

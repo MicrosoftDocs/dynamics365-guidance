@@ -21,7 +21,7 @@ ms.custom:
 
 In today's fast-paced world, customers expect quick and efficient solutions to their queries. Integrating a knowledge base search into your bots can provide customers with self-service options, allowing them to find the information they need quickly and easily.  
 
-In our [blog post](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/07/empower-self-service-by-adding-knowledge-base-search-to-your-bots), we discussed the benefits of knowledge base integration and provided step-by-step instructions for adding this feature to your bots using Power Virtual Agents.  
+In our [blog post](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/07/empower-self-service-by-adding-knowledge-base-search-to-your-bots), we discussed the benefits of knowledge base integration and provided step-by-step instructions for adding this feature to your bots using Copilot Studio.  
 
 In this article, we take things a step further and explore how you can integrate the knowledge base from Dynamics 365 with ChatGPT for even more efficient and effective summarization. By combining the power of Dynamics 365's knowledge base with ChatGPT's natural language processing capabilities, you can provide customers with even more accurate and personalized responses to their queries.  
 
@@ -39,7 +39,7 @@ The action's output is the result of the knowledge base search. The value is sto
 
 In this example, we'll demonstrate how to use an HTTP action to process text received from the PVA bot and invoke ChatGPT's API for article summarization. The result of the action is then returned to the PVA bot.  
 
-:::image type="content" source="media/SummarizeArticleChatGPT/ai-summarize-knowledge-base-articles-2.png" alt-text="Screenshot of the Summarize Text using Chat G P T screen, showing the connection between Power Virtual Agents to Input Text." lightbox="media/SummarizeArticleChatGPT/ai-summarize-knowledge-base-articles-2.png":::
+:::image type="content" source="media/SummarizeArticleChatGPT/ai-summarize-knowledge-base-articles-2.png" alt-text="Screenshot of the Summarize Text using Chat G P T screen, showing the connection between Copilot Studio to Input Text." lightbox="media/SummarizeArticleChatGPT/ai-summarize-knowledge-base-articles-2.png":::
 
 The following are the specifics of the HTTP action required to invoke ChatGPT's API. To use this action, you must obtain your own secret from the OpenAI portal and substitute the value of the "Authorization" header with "Bearer (replace with the actual token)". Use the following URL to go to [OpenAI portal](https://platform.openai.com/docs/api-reference) and select view API keys and follow the steps to obtain and key.
 

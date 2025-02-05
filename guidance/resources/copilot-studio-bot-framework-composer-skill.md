@@ -4,7 +4,7 @@ description: Learn about the sample solution to add DTMF aggregation to Copilot 
 author: edupont04
 ms.author: viange
 ms.topic: conceptual
-ms.date: 03/15/2024
+ms.date: 02/05/2025
 ms.custom: O25-Service
 ---
 
@@ -36,7 +36,7 @@ The intent of this article is to provide a sample code of the custom skill that 
 
 Find the sample code at [Bot Framework Skill](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/aggregateDTMFSkill.zip). The ZIP file contains a sample Bot Framework Skill project.  
 
-Find another sample at [Copilot Studio classic bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/AggregateDTMF_1_0_0_0.zip). This ZIP file contains the PowerApps solution that contains the Power Virtual Agents bot.  
+Find another sample at [Copilot Studio classic bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/AggregateDTMF_1_0_0_0.zip). This ZIP file contains the PowerApps solution that contains the bot.  
 
 > [!IMPORTANT]
 > Sample codes, components (solutions), and documents created by the community are not supported by Microsoft.
@@ -57,8 +57,8 @@ As soon as the solution is imported, you can open the Copilot Studio classic bot
 
 :::image type="content" source="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-4.png" alt-text="Screenshot of the Aggregate D T M F screen, which shows a list of objects for the Open Skill Project." lightbox="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-4.png":::
 
-From the bot you need to take the Bot ID that will be used in the Skill publishing step.
- 
+From the bot, you must take the Bot ID that will be used in the Skill publishing step.
+
 :::image type="content" source="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-5.png" alt-text="Screenshot of the Add a Skill screen containing the Your bot I D and Skill manifest U R L fields." lightbox="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-5.png":::
 
 Assuming you have the items listed in the requirements above, our basic flow is to open the sample project with Bot Framework Composer; author a basic skill; and then publish the skill to Azure.  
@@ -67,7 +67,7 @@ First, open Composer and open the Skill Sample project.
 
 :::image type="content" source="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-2.png" alt-text="Screenshot of the Select a Bot pane, showing a list of available bots, with Name, Date modified, and Edit columns." lightbox="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-2.png":::
 
-After this, you'll be taken to the composer authoring canvas, which is similar to that in Power Virtual Agents. In this sample, the Telephony Package extension is used. From the left nav of the Composer UI, choose **Package Manager**, and from within that UI go to Installed tab.  
+After this, you'll be taken to the composer authoring canvas, which is similar to that in Copilot Studio. In this sample, the Telephony Package extension is used. From the left nav of the Composer UI, choose **Package Manager**, and from within that UI go to Installed tab.  
 
 :::image type="content" source="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-3.png" alt-text="Screenshot of the Package Manager screen, showing available options under the Installed tab." lightbox="media/aggregateDTMFSkill/copilot-studio-bot-framework-composer-skill-3.png":::
 
