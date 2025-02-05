@@ -26,7 +26,7 @@ Jump to the [Find training](#find-training) section to find the right training m
 
 Watch this video to get an introduction to relevant material from a person who is a successful functional consultant with experience from many Dynamics 365 implementations.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5cjeF]
+> [!VIDEO 4a2cd15f-02bf-45c7-b989-f0951dff3c5d]
 
 ## Find training
 

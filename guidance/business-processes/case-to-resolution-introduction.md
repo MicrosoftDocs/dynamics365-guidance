@@ -61,7 +61,7 @@ Dynamics 365 can help ensure that customer conversations lead to cases being res
 
 ### Increased operational efficiency
 
-Dynamics 365 can streamline and automate many of the steps in the *case to resolution* process. Power Virtual Agents or Azure Bots can engage in the conversation and serve customers and employees with information and self-service transactions. When a bot can't address customer need, conversation is escalated to agents equipped with Customer Service Workspace, which provides agents with a Knowledge Base and a set of AI tools to understand and address customer needs. Dynamics 365 Customer Service or Dynamics 365 Supply Chain Management supports the required tasks of the case management process, such as logging cases, routing them to the appropriate teams or individuals, and tracking progress, leading to greater efficiency.
+Dynamics 365 can streamline and automate many of the steps in the *case to resolution* process. Agents or Azure Bots can engage in the conversation and serve customers and employees with information and self-service transactions. When a bot can't address customer need, conversation is escalated to agents equipped with Customer Service Workspace, which provides agents with a Knowledge Base and a set of AI tools to understand and address customer needs. Dynamics 365 Customer Service or Dynamics 365 Supply Chain Management supports the required tasks of the case management process, such as logging cases, routing them to the appropriate teams or individuals, and tracking progress, leading to greater efficiency.
 
 ### Enhanced data analysis and insights
 
