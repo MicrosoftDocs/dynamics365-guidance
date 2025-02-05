@@ -22,8 +22,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.3820312"
-     inkscape:cx="611.45294"
-     inkscape:cy="344.03411"
+     inkscape:cx="611.45295"
+     inkscape:cy="344.03412"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="2869"
@@ -1438,7 +1438,10 @@
        font-weight="400"
        font-size="13px"
        transform="translate(926.06,493)"
-       id="text215">No</text>
+       id="text215"
+       style="-inkscape-font-specification:'Segoe UI, Segoe UI_MSFontService, sans-serif, Normal';font-family:'Segoe UI', 'Segoe UI_MSFontService', sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan1">Option</tspan></text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
