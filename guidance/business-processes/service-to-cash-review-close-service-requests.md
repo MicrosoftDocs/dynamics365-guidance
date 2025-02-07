@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/14/2024
 ---
 
-# Review and close service requests
+# The business process Review and close service requests within the Service to cash end-to-end scenario
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 

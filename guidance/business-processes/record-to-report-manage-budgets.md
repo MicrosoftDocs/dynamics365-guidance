@@ -1,5 +1,5 @@
 ﻿---
-title: Budget management feature overview
+title: Overview of the Manage budgets business process area
 description: Learn about how you can use the budget management features of Dynamics 365 to support your budgeting process, including definitions for stakeholders.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 04/08/2024
 ---
 
-# Manage budgets overview
+# Overview of the Manage budgets business process area within the Record to report end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

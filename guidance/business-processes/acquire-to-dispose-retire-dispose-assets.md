@@ -1,5 +1,5 @@
 ---
-title: Support your organization’s processes for retiring assets
+title: Overview of the Retire and dispose of assets business process area
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to retire and dispose of assets.
 ms.date: 09/08/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: hputhran
 
 ---
 
-# Support your organization’s business processes to retire and dispose of assets with Dynamics 365
+# Overview of the Retire and dispose of assets business process area within the Acquire to dispose end-to-end scenario
 
 ***This applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

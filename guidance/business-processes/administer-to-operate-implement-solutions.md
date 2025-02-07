@@ -4,7 +4,7 @@ description: Get an overview of how the business process catalog maps to the imp
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual
-ms.date: 11/29/2024
+ms.date: 02/06/2025
 ---
 
 # Implement solutions overview

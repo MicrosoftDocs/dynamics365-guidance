@@ -1,14 +1,14 @@
 ---
-title: Support your organization’s maintaining of internal assets
+title: Overview of the Maintain and repair internal assets business process area
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to maintain and repair internal assets.
-ms.date: 08/22/2023
+ms.date: 02/06/2025
 ms.topic: overview
 author: edupont04
 ms.author: hputhran
 ms.custom: bap-template
 ---
 
-# Support your organization’s business processes to maintain and repair internal assets
+# Overview of the Maintain and repair internal assets business process area within the Acquire to dispose end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
@@ -20,7 +20,7 @@ In many organizations, the terms *maintenance* and *repair* are used interchange
 
 There are three main types of maintenance tasks:
 
-- **Reactive** 
+- **Reactive**  
 
     *Reactive maintenance* involves repairing an asset that has broken down or experienced a failure, typically one that isn't critical for business. If the maintenance strategy isn't effectively planned for the appropriate assets, reactive maintenance can lead to unexpected downtime and higher costs.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Manage and define product pricing overview
+title: Overview the Manage and define product pricing business process area
 description: Learn about the manage product pricing business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.date: 03/05/2024
 ---
 
-# Manage product pricing overview
+# Overview of the Manage product pricing business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

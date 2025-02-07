@@ -6,11 +6,11 @@ ms.topic: conceptual
 author: edupont04
 ms.author: edupont
 ---
-# Overview of the Onboard new hires business process
+# Overview of the Onboard new hires business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
-*Onboard new hires* is a business process for  human resources that focuses on giving a positive and empowering start for new employees joining the organization. At the same time, *onboard new hires* helps the organization streamline their steps to successfully onboard an employee.
+*Onboard new hires* is a business process for human resources that focuses on giving a positive and empowering start for new employees joining the organization. At the same time, *onboard new hires* helps the organization streamline their steps to successfully onboard an employee.
 
 In Dynamics 365 Human Resources, you manage the onboarding process primarily in the [Task management](/dynamics365/human-resources/hr-task-mgmt) workspace. Task management lets you create tasks that must be completed to hire (onboard), terminate (offboard), and transfer (transition) employees.
 

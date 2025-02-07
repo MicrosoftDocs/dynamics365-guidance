@@ -1,5 +1,5 @@
 ---
-title: Support your organization’s business processes for running production operations
+title: Overview of the Run production operations business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for running production operations.
 ms.date: 12/06/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Support your organization’s business processes for running production operations
+# Overview of the Run production operations business process area within the Plan to produce end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Power Apps, Power Platform, Power BI***
 

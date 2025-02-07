@@ -1,5 +1,5 @@
 ﻿---
-title: Manage worker compensation, benefits, and payroll
+title: Overview of the Manage worker compensation, benefits, and payroll business process area
 description: Learn about the manage worker compensation, benefits, and payroll business process, including learn about the process' stakeholders and benefits.
 author: rachel-profitt
 ms.author: raprofit
@@ -8,15 +8,15 @@ ms.date: 03/19/2024
 ai-usage: ai-assisted
 ---
 
-# Manage worker compensation, benefits, and payroll
+# Overview of the Manage worker compensation, benefits, and payroll business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
-This article describes the end-to-end business process to streamline worker compensation, benefits, and payroll, ultimately enhancing overall workforce engagement.
+This article describes the business process area for *managing worker compensation, benefits, and payroll*, ultimately enhancing overall workforce engagement.
 
 In today's competitive business landscape, attracting, retaining, and developing a top-performing workforce is essential for organizational success. Effective management of worker compensation, benefits, and payroll is a critical component of this strategy. It ensures that employees are compensated fairly and receive the benefits they deserve while also streamlining administrative processes and reducing costs. Dynamics 365 provides a comprehensive set of tools to streamline and enhance various aspects of worker compensation, benefits, and payroll management, from creating customized compensation plans including employee's performance rating and managing benefit enrollments to processing payroll accurately and efficiently.
 
-Managing worker compensation, benefits, and payroll processes serves two crucial purposes in any organization. Firstly, they ensure the accurate and timely payment of employee wages, benefits, and compensation, maintaining employee satisfaction and reducing financial risks. Secondly, they help organizations comply with labor laws and regulations, minimize legal liabilities, and promote a transparent and compliant workplace culture. Dynamics 365 implementations streamline and enhance these processes, providing a centralized platform for managing employee compensation, benefits, and payroll data securely and efficiently.
+*Managing worker compensation, benefits, and payroll* processes serves two crucial purposes in any organization. Firstly, they ensure the accurate and timely payment of employee wages, benefits, and compensation, maintaining employee satisfaction and reducing financial risks. Secondly, they help organizations comply with labor laws and regulations, minimize legal liabilities, and promote a transparent and compliant workplace culture. Dynamics 365 implementations streamline and enhance these processes, providing a centralized platform for managing employee compensation, benefits, and payroll data securely and efficiently.
 
 ## Stakeholders
 
@@ -54,19 +54,19 @@ The following diagram illustrates the *Manage worker compensation, benefits, and
 
 6. *Manage worker compensation, benefits, and payroll*
 
-    1. Define compensation policies and strategy
+    1. *Define compensation policies and strategy*
 
-    2. Process compensation and changes
+    2. *Process compensation and changes*
 
-    3. Mark workers as ready to pay
+    3. *Mark workers as ready to pay*
 
-    4. Define worker benefits offerings and strategy
+    4. *Define worker benefits offerings and strategy*
 
-    5. Enroll employees in benefits
+    5. *Enroll employees in benefits*
 
-    6. Record life events
+    6. *Record life events*
 
-    7. Analyze benefits, compensation, and payroll information
+    7. *Analyze benefits, compensation, and payroll information*
 
 7. *Manage occupational health and safety*
 
@@ -82,7 +82,7 @@ The following sections outline the crucial benefits that an organization can mon
 
 ### Streamlined processes and reduced errors
 
-Dynamics 365 offers a unified platform that streamlines worker compensation, benefits, and payroll processes, fostering efficiency and accuracy. Customizable templates and checklists enable HR teams to guide employees through various procedures seamlessly, from paperwork to benefits enrollment.
+Dynamics 365 includes capabilities that can help organizations streamline worker compensation, benefits, and payroll processes, fostering efficiency and accuracy. Customizable templates and checklists enable HR teams to guide employees through various procedures seamlessly, from paperwork to benefits enrollment.
 
 Interactive onboarding portals can be developed with Power Apps or Power Pages, providing employees with a self-service portal for accessing crucial information and managing their accounts. Automated workflows using Power Automate can trigger alerts and notifications, ensuring timely completion of tasks and reducing the likelihood of errors.
 

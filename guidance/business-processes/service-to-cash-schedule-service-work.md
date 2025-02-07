@@ -1,5 +1,5 @@
 ﻿---
-title: Schedule service work business process overview
+title: Schedule service work
 description: Learn about the benefits and process flow for the scheduling service requests business process within the service to cash process area.
 author: nucruz
 ms.author: nucruz
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 04/08/2024
 ---
 
-# Schedule service work overview
+# The business process Schedule service work
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 

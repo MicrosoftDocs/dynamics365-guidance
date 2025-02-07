@@ -1,5 +1,5 @@
 ﻿---
-title: Create and process service work overview
+title: Overview of the Create and process service work business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for creating and processing work related to services.
 ms.date: 02/21/2024
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: DeanHardy
 ---
 
-# Create and process service work overview
+# Overview of the Create and process service work business process area within the Service to cash end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 

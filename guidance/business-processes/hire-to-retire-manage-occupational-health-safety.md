@@ -1,5 +1,5 @@
 ﻿---
-title: Manage occupational health and safety business process area
+title: Overview of the Manage occupational health and safety business process area
 description: Streamline and enhance safety management processes with Dynamics 365 implementations, improving workplace safety and compliance.
 ms.date: 01/23/2024
 ms.topic: conceptual
@@ -11,10 +11,7 @@ ms.custom:
   - ai-seo-date:01/10/2024
 ---
 
-<!-- I changed Viva Learn to Viva Learning in line 35 because that's what I find in the style guide. -->
-
-
-# Manage occupational health and safety overview
+# Overview of the Manage occupational health and safety business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 

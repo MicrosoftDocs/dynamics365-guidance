@@ -1,14 +1,14 @@
 ﻿---
-title: Overview for managing service resources
+title: Overview of the Manage service resources business process area
 description: Learn what the Manage service resources business process area is, who the stakeholders are, and what the benefits are of using Dynamics 365 to support it.
 author: Dean-Hardy
 ms.author: DeanHardy
 ms.topic: conceptual
-ms.date: 04/03/2024
+ms.date: 02/07/2025
 ai.usage: ai-assisted
 ---
 
-# Manage service resources overview
+# Overview of the Manage service resources business process area within the Service to cash end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 

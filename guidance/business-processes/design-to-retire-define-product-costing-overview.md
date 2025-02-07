@@ -1,5 +1,5 @@
 ---
-title: Overview of business process for product costing through Dynamics 365
+title: Overview of the Define product costing business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to set the cost the goods that you sell.
 ms.date: 11/24/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Business process for product costing and how it relates to other processes with Dynamics 365
+# Overview of the Define product costing business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

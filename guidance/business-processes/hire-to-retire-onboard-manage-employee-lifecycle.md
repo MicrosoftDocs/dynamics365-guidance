@@ -1,5 +1,5 @@
 ﻿---
-title: Onboard and manage the employee lifecycle
+title: Overview of the Onboard and manage the employee lifecycle business process area
 description: Discover how the Onboard and manage the employee lifecycle business process can help you optimize onboarding new employees and foster a productive work environment.
 author: rachel-profitt
 ms.author: raprofit
@@ -8,7 +8,7 @@ ms.date: 01/17/2025
 ai-usage: ai-assisted
 ---
 
-# Onboard and manage the employee lifecycle
+# Overview of the Onboard and manage the employee lifecycle within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 

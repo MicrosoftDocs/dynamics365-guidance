@@ -1,5 +1,5 @@
 ﻿---
-title: Manage service pricing overview for Dynamics 365 projects
+title: Overview of the Manage service pricing business process area
 description: Learn about the manage service pricing business process, including learning about the various stakeholders and business process flow.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,15 +7,13 @@ ms.topic: conceptual
 ms.date: 02/28/2024
 ---
 
-<!-- In line 16, consider changing "you" to "they" - the voice is unclear. In line 18, could you lose the words "synergistically" and "holistic" to make the sentence less jargony? In line 92, I changed "gleam" to "glean" because that seemed to be the correct word. -->
-
-# Manage service pricing overview
+# Overview of the Manage service pricing business process area within the Concept to market end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes how service-based organizations can use Dynamics 365 to manage the prices and discounts that are offered to customers for the services you sell, and how organizations that purchase services from a service provider can manage the pricing and contracts with those service providers.
+This article describes how service-based organizations can use Dynamics 365 to manage the prices and discounts that are offered to customers for the services they sell, and how organizations that purchase services from a service provider can manage the pricing and contracts with those service providers.
 
-Managing service pricing is a crucial aspect of organizational success, playing a pivotal role in ensuring profitability and maintaining a competitive edge. In the realm of Dynamics 365, the interconnected suite of products (including Dynamics 365 Sales, Field Service, Project Operations, and Supply Chain Management) provides a comprehensive framework for optimizing service pricing strategies. These tools synergistically contribute to the holistic management of service pricing, addressing various facets of the business processes involved.
+Managing service pricing is a crucial aspect of organizational success and plays a pivotal role in ensuring profitability and maintaining a competitive edge. Dynamics 365 is a suite of interconnected products that provides a comprehensive framework for optimizing service pricing strategies.
 
 The management of service pricing encompasses a series of essential business processes. First, organizations need to meticulously determine service prices and eligibility for discounts, tailoring their offerings to market demands and competitive landscapes. Simultaneously, the creation and maintenance of service fees become paramount, requiring a fine-tuned approach to align pricing structures with value propositions.
 

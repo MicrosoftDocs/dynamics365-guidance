@@ -1,5 +1,5 @@
 ---
-title: Manage warehouse operations
+title: Overview of the Manage warehouse operations business process area
 description: Read about the business process area for managing the strategies and policies for the warehouse operations in Dynamics 365 implementations.
 ms.date: 01/16/2025
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: raprofit
 ai-usage: ai-assisted
 ---
 
-# Manage warehouse operations
+# Overview of the Manage warehouse operations business process area within the Inventory to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

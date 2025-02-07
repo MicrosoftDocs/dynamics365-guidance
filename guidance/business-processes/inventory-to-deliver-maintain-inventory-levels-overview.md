@@ -1,5 +1,5 @@
 ﻿---
-title: Maintain inventory levels overview
+title: Overview of the Maintain inventory levels business process area
 description: Read about the business process area for managing inventory levels in Dynamics 365 implementations.
 ms.date: 01/16/2025
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.custom:
 ai-usage: ai-assisted
 ---
 
-# Maintain inventory levels overview
+# Overview of the Maintain inventory levels business process area within the Inventory to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Supply Chain Management, Dynamics 365 Business Central***
 

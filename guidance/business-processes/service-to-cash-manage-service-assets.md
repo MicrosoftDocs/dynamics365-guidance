@@ -1,5 +1,5 @@
 ﻿---
-title: Overview for managing service assets for Dynamics 365 products
+title: Overview of the Manage service assets business process area
 description: Learn about how to support your organization's business processes for managing service assets in your Dynamics 365 products.
 author: SabrinaDiBartolomeo
 ms.author: sabrinadi
@@ -7,7 +7,7 @@ ms.date: 02/15/2024
 ms.topic: overview
 ---
 
-# Manage service assets overview
+# Overview of the Manage service assets business process area within the Service to cash end-to-end scenario
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

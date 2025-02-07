@@ -1,13 +1,13 @@
 ﻿---
-title: Overview for closing financial periods
-description: Learn about the process around closing financial periods, including descriptions of stakeholders and a diagram of the process flow.
+title: Overview of the Close financial periods business process area
+description: Learn about the processes around closing financial periods, including descriptions of stakeholders and a diagram of the process flow.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: article
 ms.date: 04/08/2024
 ---
 
-# Close financial periods overview
+# Overview of the Close financial periods business process area within the Record to report end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 

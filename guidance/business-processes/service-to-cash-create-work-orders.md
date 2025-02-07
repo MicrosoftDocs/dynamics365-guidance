@@ -5,6 +5,7 @@ ms.date: 02/15/2024
 ms.topic: conceptual
 author: edupont04
 ms.author: DeanHardy
+ROBOTS: NOINDEX/NOFOLLOW
 ---
 <!-- DEPRECATED AND REPLACED BY service-to-cash-create-process-service-work.md-->
 # Deprecated business process area article
