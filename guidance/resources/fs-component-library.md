@@ -42,13 +42,13 @@ The following sections outline the content of the collection. Each section inclu
 
 - Solution component validation tool
 
-  Solution management is the core design tenet of any Dynamics 365 implementation with Dataverse. You can manage solution structures for application lifecycles with the solution component validation tool.  
+  Solution management is the core design tenet of any Dynamics 365 implementation with Dataverse. You can manage solution structures for application lifecycles with the solution component validation tool.
 
-  Learn more at [Validate the solution](solution-component-validator.md).
+  Learn more at [Manage solution structures for application lifecycles with the solution component validation tool](solution-component-validator.md).
 
 ### Test the solution
 
-Automated end-to-end testing is an important part of Dynamics 365 implementation projects. Automation helps you test code quickly by replicating the business process flows so that you can deploy it faster with high confidence.  
+Automated end-to-end testing is an important part of Dynamics 365 implementation projects. Automation helps you test code quickly by replicating the business process flows so that you can deploy it faster with high confidence.
 
 Here in the Dynamics 365 guidance hub, we provide articles based on samples and tools that we developed for implementation projects with Dynamics 365 Customer Service. But you can use the same tools and samples to test implementation projects with Dynamics 365 Field Service.
 
@@ -58,13 +58,13 @@ Learn more at [Set up test automation with Playwright](test-automation-setup.md)
 
 - Application lifecycle management
 
-  Good practices and clever tools for application lifecycle management (ALM) can help you manage your solution with Dynamics 365 Field Service. For example, Universal Resource Scheduling for Dynamics 365 Field Service includes a schedule board with settings that let you define the layout and functions of schedule board tabs and the schedule board in general. Learn more at [Field mapping for the schedule board settings](fs-schedule-board-settings-field-mapping.md).
+  Good practices and clever tools for application lifecycle management (ALM) can help you manage your solution with Dynamics 365 Field Service. For example, Universal Resource Scheduling for Dynamics 365 Field Service includes a schedule board. Through settings, you can define the layout and functions of schedule board tabs and the schedule board in general. Learn more at [Field mapping for schedule board settings in Dynamics 365 Field Service](fs-schedule-board-settings-field-mapping.md).
 
-  You can also use Azure services to help you maintain the solution over time. Learn more at [Set up Azure Pipelines to deploy Field Service](fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md).
+  You can also use Azure services to help you maintain the solution over time. Learn more at [Set up Azure Pipelines for deploying Field Service and other Dataverse solutions](fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md).
 
 - Use Copilot to create sample data for Field Service
 
-  You can use Copilot to generate sample data that you then import into a demonstration environment so that you can show prospects the capabilities of Dynamics 365 Field Service.
+  You can use Copilot to generate sample data that you then import into a demonstration environment. In this way, you can show prospects the capabilities of Dynamics 365 Field Service.
 
   Learn more at [Use Copilot to create sample data for Field Service](fs-copilot-import-sample-data.md).
 
