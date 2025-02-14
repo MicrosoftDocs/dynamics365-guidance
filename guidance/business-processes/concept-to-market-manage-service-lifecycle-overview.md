@@ -1,5 +1,5 @@
 ---
-title: Manage service lifecycle overview for Dynamics 365 products
+title: Overview of the Manage service lifecycle business process area
 description: Learn about the manage service lifecycle business process, including information about the types of stakeholders and the process flow.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.date: 02/27/2024
 ---
 
-# Manage service lifecycle overview
+# Overview of the Manage service lifecycle business process area within the Concept to market end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

@@ -69,6 +69,8 @@ productDirectory:
         url: business-processes/about-steps-navigation.md
       - text: Glossary of terms in business processes
         url: business-processes/glossary.md
+      - text: What's new in the business process catalog
+        url: business-processes/about-whats-new.md  
 # Implement card
     - title: Implement
       # imageSrc should be square in ratio with no white space

@@ -1,5 +1,5 @@
 ---
-title: Define service offerings and strategy
+title: Overview of Define service offerings and strategy
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for capturing a strategy for the services that you want to sell.
 ms.date: 03/19/2024
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Define service offerings and strategy in Dynamics 365
+# Overview of the Define service offerings and strategy business process area within the Concept to market end-to-end scenario
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

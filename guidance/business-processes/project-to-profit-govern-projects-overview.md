@@ -1,5 +1,5 @@
 ---
-title: Manage recurring activities with the govern projects area
+title: Overview of the Govern projects business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for governing projects.
 ms.date: 11/29/2023
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: edupont04
 ms.author: lifiatamara
 ---
 
-# Manage recurring activities that deliver products with the govern projects business process area
+# Overview of the Govern projects business process area within the Project to profit end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations***
 

@@ -7,7 +7,7 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Overview of the Control production quality business process area within the Plan to produce process
+# Overview of the Control production quality business process area within the Plan to produce end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Supply Chain Management***
 

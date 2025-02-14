@@ -7,7 +7,7 @@ author: edupont04
 ms.author: edupont
 ---
 
-# Overview of the Transfer employees business process
+# Overview of the Transfer employees business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 

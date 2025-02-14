@@ -7,7 +7,7 @@ author: edupont04
 ms.author: edupont
 ---
 
-# Overview of the Terminate employee business process
+# Overview of the Terminate employee business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 

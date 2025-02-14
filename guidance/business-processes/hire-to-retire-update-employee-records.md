@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: edupont04
 ms.author: edupont
 ---
-# Overview of the Update employee records business process
+# Overview of the Update employee records business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 

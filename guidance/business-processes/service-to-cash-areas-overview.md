@@ -1,6 +1,6 @@
 ---
-title: Overview of the Service to cash business process areas
-description: Learn about the business process areas that make up the Service to cash end-to-end flow in Dynamics 365 solutions.
+title: Overview of the Service to deliver business process areas
+description: Learn about the business process areas that make up the Service to deliver end-to-end flow in Dynamics 365 solutions.
 ms.date: 11/25/2024
 ms.topic: conceptual
 author: edupont04
@@ -10,11 +10,14 @@ ms.custom: ai-gen-docs-bap
 ai-usage: ai-assisted
 ---
 
-# Overview of the Service to cash business process areas
+# Overview of the Service to deliver business process areas
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
-The *service to cash* process is broken down into several business process areas. In this article, you'll learn about the business process areas that make up the service to cash flow in Dynamics 365 solutions.
+The *service to deliver* process is broken down into several business process areas. In this article, you'll learn about the business process areas that make up the service to deliver flow in Dynamics 365 solutions.
+
+> [!IMPORTANT]
+> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 ## Manage service assets
 
@@ -43,7 +46,7 @@ Service resources refer to the people, equipment, and facilities that you need t
 
 <!-- ### Create and manage accounts for servicing
 
-The ability to effectively create and manage accounts for servicing in Dynamics 365 is core to making sure that the right information is provided for all aspects of the *service to cash* process. Through relationships between accounts and related *service to cash* data, you also gain insights into your service operations, which can improve your overall efficiency. -->
+The ability to effectively create and manage accounts for servicing in Dynamics 365 is core to making sure that the right information is provided for all aspects of the *service to deliver* process. Through relationships between accounts and related *service to deliver* data, you also gain insights into your service operations, which can improve your overall efficiency. -->
 
 <!-- ## Create and manage assets
 
@@ -108,15 +111,15 @@ Learn more at [Monitor customer credit and collections overview](order-to-cash-m
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Service to cash* business processes, learn more at the following resources:
+If you want to implement Dynamics 365 solutions to assist with your *Service to deliver* business processes, learn more at the following resources:
 
-1. [Service to cash introduction](service-to-cash-introduction.md)  
-2. [Service to cash end-to-end overview](service-to-cash-overview.md)  
+1. [Service to deliver introduction](service-to-cash-introduction.md)  
+2. [Service to deliver end-to-end overview](service-to-cash-overview.md)  
 3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related information
 
-Use the following resources to learn more about the *service to cash* process in Dynamics 365.
+Use the following resources to learn more about the *service to deliver* process in Dynamics 365.
 
 - [Overview of Dynamics 365 Field Service](/dynamics365/field-service/overview)
 

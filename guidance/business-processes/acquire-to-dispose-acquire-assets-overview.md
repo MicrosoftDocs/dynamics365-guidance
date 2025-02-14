@@ -1,16 +1,16 @@
 ---
-title: Use Dynamics 365 to support your organization to acquire assets
+title: Overview of the Acquire assets business process
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to acquire assets.
-ms.date: 08/31/2023
+ms.date: 02/06/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: sdaggubati
 
 ---
 
-# Use Dynamics 365 products to support your organization's business processes to acquire assets
+# Overview of the Acquire assets business process within the Acquire to dispose end-to-end scenario
 
-***This applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management*** 
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes to acquire assets.
 
@@ -18,7 +18,7 @@ This article describes how you can use Dynamics 365 products to support your org
 
 In the rapidly evolving business environment of today, organizations must effectively manage their assets to optimize operations, improve decision-making, and to thrive and remain competitive all while balancing their financial resources.
 
-The acquire assets functionality plays a vital role in facilitating the acquisition, monitoring, and use of assets throughout their lifecycle.
+The *acquire assets* functionality plays a vital role in facilitating the acquisition, monitoring, and use of assets throughout their lifecycle.
 
 Asset data is often maintained in worksheets and is typically configured after the general ledger setup is completed in Dynamics 365. A lot of organizations start late with data migration of data that is related to fixed asset or asset management. They often realize that there are gaps when the balance or transaction type of data is brought into the business solution. We recommend that you start the fixed asset migration early in the project to pressure-test the data and the processes that the business team follows.
 
@@ -28,19 +28,19 @@ Here are some common methods to acquire assets in Dynamics 365 Finance and Suppl
 
 1. **Procurement and sourcing**: With [procurement and sourcing](/dynamics365/supply-chain/procurement/procurement-sourcing) in Dynamics 365 Supply Chain Management, organizations can source assets from suppliers. This supports a supplier bidding process for supplier selection, negotiation, and purchase agreement creation. Users can use these features to acquire assets from approved suppliers through:
 
-    1. Purchase orders
+    1. *Purchase orders*
 
-    2. Purchase requisition
+    2. *Purchase requisition*
 
 2. **Fixed assets**: With the [fixed assets](/dynamics365/finance/fixed-assets/fixed-assets) module, organizations can manage their fixed assets throughout their lifecycle, which includes acquiring assets through one of the following means:
 
-    1. Asset creation
+    1. *Asset creation*
 
-    2. Asset acquisition journal
+    2. *Asset acquisition journal*
 
-    3. Asset transfer
+    3. *Asset transfer*
 
-You can also acquire and manage fixed assets in Dynamics 365 Business Central. Learn more at [Acquire Fixed Assets](/dynamics365/business-central/fa-how-acquire).   
+You can also acquire and manage fixed assets in Dynamics 365 Business Central. Learn more at [Acquire Fixed Assets](/dynamics365/business-central/fa-how-acquire).  
 
 ## Acquire assets stakeholders
 
@@ -72,7 +72,7 @@ The first step in acquiring asset business process flow is to identify the need 
 
 :::image type="content" source="media/acquire-to-dispose-acquire-assets.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/acquire-to-dispose-acquire-assets.svg":::
 
-The acquire assets business process area flow diagram covers the following steps.
+The *acquire assets* business process area flow diagram covers the following steps.
 
 1. Start
 
@@ -94,9 +94,9 @@ The acquire assets business process area flow diagram covers the following steps
 
         2. *Project to profit* to *Source assets*
 
-            1. Project to profit
+            1. *Project to profit*
 
-            2. Project elimination
+            2. *Project elimination*
 
     2. *Receive assets*
 
@@ -134,7 +134,7 @@ The following end-to-end downstream processes have connections to End: [Inventor
 
 ## Acquire assets benefits
 
-The acquire assets business process brings several benefits to an organization contributing to its operational efficiency, financial flexibility, risk mitigation, and overall performance.
+The *acquire assets* business process brings several benefits to an organization contributing to its operational efficiency, financial flexibility, risk mitigation, and overall performance.
 
 The following sections outline the key benefits for an organization through asset acquisition and asset leasing:
 
@@ -163,10 +163,10 @@ If you would like to implement Dynamics 365 solutions to assist with your acquir
 
 1. [Plan and budget assets](acquire-to-dispose-plan-budget-assets-overview.md)  
 2. Acquire assets. (The article you're currently reading.)
-3. Manage internal assets
-4. Manage and report on asset financials
+3. *Manage internal assets*
+4. *Manage and report on asset financials*
 5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)  
-6. Retire and dispose of assets
+6. *Retire and dispose of assets*
 
 ## Related information
 
