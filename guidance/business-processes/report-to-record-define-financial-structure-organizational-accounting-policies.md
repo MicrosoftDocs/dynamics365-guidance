@@ -1,7 +1,7 @@
 ---
 title: Overview of the define financial structure business process
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to define the financial structure policies.
-ms.date: 11/10/2023
+ms.date: 02/07/2025
 ms.topic: conceptual
 author: rachelprofitt
 ms.author: raprofit

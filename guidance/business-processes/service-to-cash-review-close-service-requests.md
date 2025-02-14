@@ -7,11 +7,14 @@ ms.topic: article
 ms.date: 05/14/2024
 ---
 
-# Review and close service requests
+# The business process Review and close service requests within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
 In this article, we explain how to set up, configure, and design the *Review and close service requests* business process in Dynamics 365 Field Service. Service supervisors manage this process. It starts when a frontline worker completes the service work, and the bookings are closed. This usually marks the end of the lifecycle for a given service request in the *Create and process service requests* process area. After this process, service requests move to the *Invoice customers* business process area.
+
+> [!IMPORTANT]
+> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 This business process covers the following list of tasks:
 

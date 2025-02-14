@@ -1,7 +1,7 @@
 ---
-title: Overview of the service to cash end-to-end business process flow
-description: Learn about the service to cash end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 03/24/2023
+title: Overview of the service to deliver end-to-end business process flow
+description: Learn about the service to deliver end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
+ms.date: 02/14/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: DeanHardy
@@ -11,41 +11,44 @@ ai-usage: ai-assisted
 
 ---
 
-# Overview of the service to cash end-to-end process flow and its relationship to other processes
+# Overview of the service to deliver end-to-end process flow and its relationship to other processes
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Customer Service, Dynamics 365 Remote Assist Dynamics 365 Guides, Dynamics 365 Connected Spaces***
 
-This article describes the *service to cash* end-to-end business process flow and its relationship to other business processes that can be used within Microsoft business applications.
+This article describes the *service to deliver* end-to-end business process flow and its relationship to other business processes that can be used within Microsoft business applications.
 
-## Service to cash process relationship
+> [!IMPORTANT]
+> This end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
-The following diagram shows the relationship of other processes to the *service to cash process*. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+## Service to deliver process relationship
+
+The following diagram shows the relationship of other processes to the *service to deliver process*. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/service-to-cash-relationship.png" alt-text="forecast to plan process relationship diagram." lightbox="media/service-to-cash-relationship.png":::
 
-There are several processes that are often prerequisites to the *service to cash* process, including:
+There are several processes that are often prerequisites to the *service to deliver* process, including:
 
 - **Concept to market**  
 
-  When *service to cash* processes require consumption of services, the *concept to market* process is a perquisite process. This way, the services are available to be consumed during the *service to cash* process.
+  When *service to deliver* processes require consumption of services, the *concept to market* process is a perquisite process. This way, the services are available to be consumed during the *service to deliver* process.
 
 - **Inventory to deliver**  
 
-  Many *service to cash* process scenarios require the consumption of on-hand inventory that must be available in warehouses for access by service personnel.
+  Many *service to deliver* process scenarios require the consumption of on-hand inventory that must be available in warehouses for access by service personnel.
 
 - **Procure to pay**  
 
-  When you use Dynamics 365 to manage your procurement process, the *service to cash* process may require the procurement of inventory to be used in service delivery.  
+  When you use Dynamics 365 to manage your procurement process, the *service to deliver* process may require the procurement of inventory to be used in service delivery.  
 
 - **Case to resolution**  
 
-  Often service requests are initiated through a customer service process before creating a work order and beginning the *service to cash* process.
+  Often service requests are initiated through a customer service process before creating a work order and beginning the *service to deliver* process.
 
 - **Project to profit processes**  
 
   Sometimes service requests are generated through a *project to profit* process when they're part of a larger ongoing project operation.
 
-The second column in the diagram displays the business process areas of the *service to cash* process.
+The second column in the diagram displays the business process areas of the *service to deliver* process.
 
 The business process areas are:
 
@@ -89,11 +92,11 @@ The third column in the diagram displays the downstream business processes.
 
 - **Case to resolution**  
 
-  when the service to cash was initiated through a customer service process, the case to resolution process may be invoked again once the service work is complete.
+  when the service to deliver was initiated through a customer service process, the case to resolution process may be invoked again once the service work is complete.
 
 - **Project to profit**  
 
-  When a work order is completes in the service to cash process, it may be used to update projects I the project to profit process.
+  When a work order is completes in the service to deliver process, it may be used to update projects I the project to profit process.
 
 - **Record to report**  
 
@@ -101,7 +104,7 @@ The third column in the diagram displays the downstream business processes.
 
 ## Featured capabilities
 
-There are product specific capabilities that interact with the *service to cash* process including, but not limited to, the following list:
+There are product specific capabilities that interact with the *service to deliver* process including, but not limited to, the following list:
 
 - **Dynamics 365 Resource schedule optimization**  
 
@@ -119,11 +122,11 @@ There are product specific capabilities that interact with the *service to cash*
 
 ## Service to cash business process flow
 
-The following diagram shows the high-level flow of the *service to cash* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
+The following diagram shows the high-level flow of the *service to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
 :::image type="content" source="media/service-to-cash-process-flow.png" alt-text="end-to-end process flow diagram" lightbox="media/service-to-cash-process-flow.png":::
 
-The following steps are illustrated in the service to cash end-to-end business process flow diagram.
+The following steps are illustrated in the service to deliver end-to-end business process flow diagram.
 
 1. Establish servicing policies and procedures
 
@@ -145,18 +148,18 @@ The following steps are illustrated in the service to cash end-to-end business p
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *service to cash* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *service to deliver* business processes, use the following resources and steps to learn more.
 
-1. Define the goals and objectives of implementing a service to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
+1. Define the goals and objectives of implementing a service to deliver technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
-3. Request a demo or get a free trial of Dynamics 365 solutions for the *service to cash* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *service to deliver* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
 
 4. Get an overview of each end-to-end business process area at [Service to cash business process areas overview](service-to-cash-areas-overview.md).  
 
 ## Related information
 
-Use the following resources to learn more about the service to cash process in Dynamics 365.
+Use the following resources to learn more about the service to deliver process in Dynamics 365.
 
 - [Overview of Dynamics 365 Field Service](/dynamics365/field-service/overview)
 

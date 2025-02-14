@@ -1,5 +1,5 @@
 ﻿---
-title: Manage employee time and attendance overview
+title: Overview of the Manage employee time and attendance overview business process area
 description: Learn about the manage employee time and attendance business process, including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.date: 02/28/2024
 ---
 
-# Manage employee time and attendance overview
+# Overview of the Manage employee time and attendance overview business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes how organizations can manage employee time and attendance including leave and absence, timesheets, shift, and time clocks using Dynamics 365 products.
+This article describes how organizations can *manage employee time and attendance* including leave and absence, timesheets, shift, and time clocks using Dynamics 365 products.
 
-Managing employee time and attendance is a critical aspect of organizational efficiency, playing a pivotal role in ensuring optimal workforce productivity and compliance. In today's dynamic business environment, the use of Dynamics 365 products, such as Human Resources, Project Operations, Field Service, and Supply Chain Management, can help organizations streamline these crucial processes. These tools enable an interconnected approach to time and attendance management including leave and absence management, fostering a more cohesive and efficient work environment.
+*Managing employee time and attendance* is a critical aspect of organizational efficiency, playing a pivotal role in ensuring optimal workforce productivity and compliance. In today's dynamic business environment, the use of Dynamics 365 products, such as Human Resources, Project Operations, Field Service, and Supply Chain Management, can help organizations streamline these crucial processes. These tools enable an interconnected approach to time and attendance management including leave and absence management, fostering a more cohesive and efficient work environment.
 
 The process of managing employee time and attendance encompasses several key business processes that are supported by Dynamics 365. Organizations typically start by defining and managing time and attendance policies to align with their specific requirements. Dynamics 365 Human Resources supports flexible configuration for leave and absence policies and plans including sick time, paid time off, selling or borrowing leave, and the leave accrual process.
 

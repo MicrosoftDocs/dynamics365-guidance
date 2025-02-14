@@ -1,5 +1,5 @@
 ---
-title: Manage and define product lifecycle overview
+title: Overview of the Manage and define product lifecycle business process area
 description: Learn about the manage product lifecycle business process, including information about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit 
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.date: 02/27/2024
 ---
 
-# Manage product lifecycle overview
+# Overview of the Manage product lifecycle business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 

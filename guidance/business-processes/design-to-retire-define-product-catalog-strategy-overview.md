@@ -1,5 +1,5 @@
 ---
-title: Define product catalog and strategy
+title: Overview of the Define product catalog and strategy business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for categorizing, segmenting, and merchandising products and services. Learn how you can capture a strategy for the products that you want to sell.
 ms.date: 01/07/2025
 ms.topic: conceptual
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Define your product catalog and strategy in Dynamics 365
+# Overview of the Define product catalog and strategy business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

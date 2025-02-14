@@ -1,6 +1,6 @@
 ---
-title: Introduction to the service to cash end-to-end business process
-description: Get introduced to the service to cash end-to-end business process with an overview of the business process, key benefits, and stakeholders.
+title: Introduction to the service to deliver end-to-end scenario
+description: Get introduced to the service to deliver end-to-end business process scenario with an overview of the business process, key benefits, and stakeholders.
 ms.date: 06/29/2023
 ms.topic: conceptual
 author: edupont04
@@ -11,19 +11,22 @@ ai-usage: ai-assisted
 
 ---
 
-# Streamline service delivery and invoicing processes with the service to cash business process
+# Streamline service delivery and invoicing processes with the service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
-This article introduces the *service to cash* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *service to cash* processes. This end-to-end business process has the number *95* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
+This article introduces the *service to deliver* end-to-end business process. It outlines how Dynamics 365 products can help organizations manage and optimize their *service to deliver* processes. This end-to-end business process has the number *95* in the business process catalog. Learn more at [About the business process catalog for Dynamics 365 apps](about.md).
 
-## Service to cash overview
+> [!IMPORTANT]
+> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
-*Service to cash* is a set of integrated capabilities in Dynamics 365 that helps organizations streamline their service delivery and invoicing processes. It enables businesses to manage their customer service interactions and turn them into revenue-generating opportunities.
+## Service to deliver overview
 
-With *service to cash*, organizations can automate their service request handling, create service agreements with customers, manage their resources, track their time and expenses, and generate invoices for services rendered. This automation helps them reduce manual effort, minimize errors, and improve billing accuracy.
+*Service to deliver* is a set of integrated capabilities in Dynamics 365 that helps organizations streamline their service delivery and invoicing processes. It enables businesses to manage their customer service interactions and turn them into revenue-generating opportunities.
 
-Some of the key features of *service to cash* for Dynamics 365 include:
+With *service to deliver*, organizations can automate their service request handling, create service agreements with customers, manage their resources, track their time and expenses, and generate invoices for services rendered. This automation helps them reduce manual effort, minimize errors, and improve billing accuracy.
+
+Some of the key features of *service to deliver* for Dynamics 365 include:
 
 - **Service Management**
 
@@ -41,22 +44,22 @@ Some of the key features of *service to cash* for Dynamics 365 include:
 
     Provides insights into service performance and profitability to help organizations make informed decisions.
 
-Overall, *service to cash* for Dynamics 365 can help organizations improve their service delivery, increase customer satisfaction, and generate more revenue.
+Overall, *service to deliver* for Dynamics 365 can help organizations improve their service delivery, increase customer satisfaction, and generate more revenue.
 
 <!-- [!IMPORTANT]
 > The process defined here does not include … . For more information about these processes, see \[Link goes here\].-->
 
-Every organization has variations of the *service to cash* process. Here, we define the basic outline for any organization that is looking to implement a technological solution to support the *service to cash* business process.
+Every organization has variations of the *service to deliver* process. Here, we define the basic outline for any organization that is looking to implement a technological solution to support the *service to deliver* business process.
 
 ## Impact on the organization
 
-The *service to cash* business process is important for all organizations because it directly affects your customer service experiences. It touches work order management, scheduling, workforce planning, service delivery, inventory management practices, and cashflow.
+The *service to deliver* business process is important for all organizations because it directly affects your customer service experiences. It touches work order management, scheduling, workforce planning, service delivery, inventory management practices, and cashflow.
 
-Technology solutions that you implement to support your *service to cash* business process should be flexible enough to enable your organization to grow and adjust as both the market and supply chain evolve. A periodic review of your *service to cash* business processes can ensure that your technology is aligned with your business goals and objectives.
+Technology solutions that you implement to support your *service to deliver* business process should be flexible enough to enable your organization to grow and adjust as both the market and supply chain evolve. A periodic review of your *service to deliver* business processes can ensure that your technology is aligned with your business goals and objectives.
 
 ## Stakeholders
 
-Many people must contribute to the decision-making process and design of the *service to cash* business processes in your Dynamics 365 project. The stakeholders include, but aren't limited to, the following list:
+Many people must contribute to the decision-making process and design of the *service to deliver* business processes in your Dynamics 365 project. The stakeholders include, but aren't limited to, the following list:
 
 - **Customer Service stakeholders** – examples: Customer Service Agents and Managers
 
@@ -76,11 +79,11 @@ Many people must contribute to the decision-making process and design of the *se
 
 ## Service to cash benefits
 
-The solution can help provide several benefits if your organization wants to find a technology solution to assist with the *service to cash* process. Use these key benefits to determine whether the solution is a good fit for your business and drive the specific business requirements for implementing the solution. As a side effect, the benefits can serve as a baseline for your goals and objectives for the project. Therefore, you can use them to measure the success of implementing solutions to meet those business requirements.
+The solution can help provide several benefits if your organization wants to find a technology solution to assist with the *service to deliver* process. Use these key benefits to determine whether the solution is a good fit for your business and drive the specific business requirements for implementing the solution. As a side effect, the benefits can serve as a baseline for your goals and objectives for the project. Therefore, you can use them to measure the success of implementing solutions to meet those business requirements.
 
 ### Improved service delivery
 
-With *service to cash*, organizations can automate their service request handling and manage their resources more efficiently. The result is faster and more reliable service delivery.
+With *service to deliver*, organizations can automate their service request handling and manage their resources more efficiently. The result is faster and more reliable service delivery.
 
 ### Improved customer experience
 
@@ -88,7 +91,7 @@ Dynamics 365 provides a 360-degree view of customers. Therefore, it helps provid
 
 ### Increased revenue
 
-Dynamics 365 helps organizations manage the entire *service to cash* process, from initial the service request through final payment. This end-to-end process management can result in improved revenue and profitability.
+Dynamics 365 helps organizations manage the entire *service to deliver* process, from initial the service request through final payment. This end-to-end process management can result in improved revenue and profitability.
 
 ### Reduced costs
 
@@ -96,37 +99,37 @@ Dynamics 365 eliminates manual processes, reduces errors, and streamlines workfl
 
 ### Greater visibility
 
-Dynamics 365 provides real-time visibility into the *service to cash* process, so that organizations can track and monitor the status of service requests, invoices, and payments.
+Dynamics 365 provides real-time visibility into the *service to deliver* process, so that organizations can track and monitor the status of service requests, invoices, and payments.
 
 ### Enhanced collaboration
 
-Dynamics 365 supports collaboration between different departments that are involved in the *service to cash* process, such as sales, service, and finance teams. The results are better communication and improved outcomes.
+Dynamics 365 supports collaboration between different departments that are involved in the *service to deliver* process, such as sales, service, and finance teams. The results are better communication and improved outcomes.
 
 ## Increased efficiency
 
-By automating the *service to cash* process flow, businesses can streamline their operations and reduce manual errors. In return, the organization gains increased efficiency, reduced costs, and faster turnaround times.
+By automating the *service to deliver* process flow, businesses can streamline their operations and reduce manual errors. In return, the organization gains increased efficiency, reduced costs, and faster turnaround times.
 
 ### Improved cash flow
 
-The *service to cash* process flow ensures that invoices are quickly sent and payments are promptly received. This flow helps improve cash flow, which is critical for the financial health of any business.
+The *service to deliver* process flow ensures that invoices are quickly sent and payments are promptly received. This flow helps improve cash flow, which is critical for the financial health of any business.
 
 ### Better customer satisfaction
 
-A smooth and efficient *service to cash* process flow ensures that customers receive their products and services in a timely manner and can easily pay for them. The likely result is improved customer satisfaction and loyalty.
+A smooth and efficient *service to deliver* process flow ensures that customers receive their products and services in a timely manner and can easily pay for them. The likely result is improved customer satisfaction and loyalty.
 
 ### Enhanced data management
 
-The *service to cash* process flow generates lots of data that can be used to gain insights into the performance of the business. This data can be used to identify areas of improvement, make better business decisions, and monitor progress over time.
+The *service to deliver* process flow generates lots of data that can be used to gain insights into the performance of the business. This data can be used to identify areas of improvement, make better business decisions, and monitor progress over time.
 
 ### Improved financial reporting
 
-By automating the *service to cash* process flow, businesses can more quickly and easily generate accurate financial reports. The organization can then make better financial decisions and more effectively comply with regulatory requirements.
+By automating the *service to deliver* process flow, businesses can more quickly and easily generate accurate financial reports. The organization can then make better financial decisions and more effectively comply with regulatory requirements.
 
-Overall, the *service to cash* process flow is a critical aspect of any business and can help improve financial performance, customer satisfaction, and overall efficiency.
+Overall, the *service to deliver* process flow is a critical aspect of any business and can help improve financial performance, customer satisfaction, and overall efficiency.
 
 ## Related information
 
-Use the following resources to learn more about the *service to cash* process in Dynamics 365.
+Use the following resources to learn more about the *service to deliver* process in Dynamics 365.
 
 - [Overview of Dynamics 365 Field Service](/dynamics365/field-service/overview)
 - [Dynamics 365 Field Service: Deliver exceptional service](https://dynamics.microsoft.com/field-service/overview/)
@@ -135,7 +138,7 @@ Use the following resources to learn more about the *service to cash* process in
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *service to cash* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *service to deliver* business processes, use the following resources and steps to learn more.
 
 1. Define the goals and objectives of implementing an o to cash technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md)
 

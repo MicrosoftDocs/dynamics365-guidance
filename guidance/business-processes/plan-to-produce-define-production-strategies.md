@@ -7,7 +7,7 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Overview of the Develop production strategies process area within the Plan to produce process
+# Overview of the Develop production strategies business process area within the Plan to produce end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Human Resources, Dynamics 365 Supply Chain Management***
 

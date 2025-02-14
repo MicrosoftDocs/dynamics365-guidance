@@ -1,5 +1,5 @@
 ﻿---
-title: Introduce new products and benefits overview
+title: Overview of the Introduce new products business process area
 description: Learn about the introduce new products business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
@@ -7,11 +7,11 @@ ms.topic: conceptual
 ms.date: 01/07/2025
 ---
 
-# Introduce new products overview
+# Overview of the Introduce new products business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes how organizations can use Dynamics 365 to introduce new products.
+This article describes how organizations can use Dynamics 365 to *introduce new products*.
 
 The ability for an organization to create new products in their offerings plays a pivotal role in the growth and innovation of the organization. The business process area involves strategic development, launch and integration of fresh offerings into the market, ensuring that the organization remains competitive and responsive to the evolving customers' needs.
 
@@ -59,9 +59,9 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Project manager**: Oversee the entire project, coordinate between different teams, manage timelines, budgets, and resources, and ensure successful project execution.
 
-## Introduce new products process flow 
+## Introduce new products process flow
 
-The following diagram illustrates the Introduce new products business process area.
+The following diagram illustrates the *Introduce new products* business process area.
 
 :::image type="content" source="media\design-to-retire-introduce-new-products-overview.svg" alt-text="Diagram of the introduce new products process flow, connecting various business process areas." lightbox="media\design-to-retire-introduce-new-products-overview.svg":::
 
@@ -104,16 +104,15 @@ The following diagram illustrates the Introduce new products business process ar
     13. *Release products to market*
 5. End
 
-> [!NOTE]
-> Each of the processes have a parallel branch that connects to *Define product costing*, *Manage product pricing*, *Manage product lifecycle*, and *Run marketing campaigns*.
->
-> Each of the subprocesses with the annotation **1** connect to the *Define product costing* and *Manage product pricing* under *Design to retire* on the right side: *Enrich products with details*, *Plan implementation of new products*, *Design process manufacturing products*, *Design discrete manufacturing products*, and *Define production process*.
->
-> Each of the subprocesses with the annotation **2** connect to the *Manage product lifecycle* business process area shown on the right under *Design to retire*: *Prototype and test for validation*, *Prepare for launch and distribution of new products*, *Ensure regulatory compliance of new products*, *Secure final product design approval*, and *Release products to markets*.
+Each of the processes have a parallel branch that connects to *Define product costing*, *Manage product pricing*, *Manage product lifecycle*, and *Run marketing campaigns*.
+
+Each of the subprocesses with the annotation **1** connect to the *Define product costing* and *Manage product pricing* under *Design to retire* on the right side: *Enrich products with details*, *Plan implementation of new products*, *Design process manufacturing products*, *Design discrete manufacturing products*, and *Define production process*.
+
+Each of the subprocesses with the annotation **2** connect to the *Manage product lifecycle* business process area shown on the right under *Design to retire*: *Prototype and test for validation*, *Prepare for launch and distribution of new products*, *Ensure regulatory compliance of new products*, *Secure final product design approval*, and *Release products to markets*.
 
 ## Introduce new products benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the business processes for introducing new products. The following sections outline the key benefits that an organization might monitor and measure for introducing new products.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the business processes for *introducing new products*. The following sections outline the key benefits that an organization might monitor and measure for *introducing new products*.
 
 ### Streamline collaboration and concept development
 

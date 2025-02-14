@@ -1,5 +1,5 @@
 ﻿---
-title: Manage employee performance and growth
+title: Overview of the Manage employee performance and growth business process area
 description: Learn how the manage employee performance and growth business process helps with learning, skills tracking and development, goal setting, and performance reviews.
 author: rachel-profitt
 ms.author: raprofit
@@ -8,15 +8,15 @@ ms.date: 03/20/2024
 ai-usage: ai-assisted
 ---
 
-# Manage employee performance and growth
+# Overview of the Manage employee performance and growth business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article explains how to use the end-to-end business process *manage employee performance and growth* to help with employee learning, skills tracking and development, goal setting, and performance reviews.
+This article explains how the business processes in the *manage employee performance and growth* area help with employee learning, skills tracking and development, goal setting, and performance reviews.
 
 Managing employee performance and growth is essential for any organization that wants to foster a motivated and skilled workforce. In today's dynamic business landscape, you can use Dynamics 365 to streamline this process.
 
-Dynamics 365 Human Resources and Customer Voice work together to provide a comprehensive solution. You can use Dynamics 365 Human Resources to define performance and review processes, competency requirements, career paths, and learning plans. You can also use Customer Voice to gather valuable feedback that contributes to a holistic view of employee performance. This integration helps you align your workforce strategies with real-time insights, ensuring a more effective approach to employee development.
+Dynamics 365 Human Resources and Customer Voice work together to provide a comprehensive solution. You can use Dynamics 365 Human Resources to define performance and review processes, competency requirements, career paths, and learning plans. You can use Customer Voice to gather valuable feedback that contributes to a holistic view of employee performance. This integration helps you align your workforce strategies with real-time insights, ensuring a more effective approach to employee development.
 
 When you use Dynamics 365 Human Resources with other apps such as Project Operations, Supply Chain Management, or Field Service, you can manage the skills required for different types of work such as project work, production work, or field work. When you use Dynamics 365 Human Resources with Commerce, you can manage the shifts and training for the frontline workforce in brick-and-mortar or call center stores. You can also use Dynamics 365 Guides to provide augmented reality training and upskilling for employees. And you can use Dynamics 365 Remote Assist to help field workers in their work or monitor their skills. Finally, you can use Dynamics 365 Customer Service to monitor calls and customer service quality.
 

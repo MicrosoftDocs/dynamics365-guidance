@@ -1,5 +1,5 @@
 ﻿---
-title: Introduce new services to your organization
+title: Overview of the Introduce new services business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to add new services to your portfolio of offerings.
 ms.topic: conceptual
 author: edupont04
@@ -7,7 +7,7 @@ ms.author: raprofit
 ms.date: 01/26/2024
 ---
 
-# Overview of using Dynamics 365 to introduce new services to your organization
+# Overview the Introduce new services business process area within the Concept to market end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 

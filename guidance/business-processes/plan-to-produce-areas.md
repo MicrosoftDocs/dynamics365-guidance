@@ -1,5 +1,5 @@
 ---
-title: overview of the Plan to produce business process areas
+title: Overview of the Plan to produce business process areas
 description: Get an overview for each of the business process areas in the Plan to produce end-to-end business process flow in Dynamics 365 solutions. Learn how you can define, plan, run, control, and track production operations with Dynamics 365.
 ms.date: 11/25/2024
 ms.topic: conceptual
