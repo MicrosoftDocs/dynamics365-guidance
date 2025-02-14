@@ -18,10 +18,11 @@ This article points to articles that describe the new and changed entries in the
 
 Learn more about what's new or changed in recent releases in the links in the following table.
 
-| Deprecation announced | Removed| Learn more |
+| Catalog announced | Learn more |
 |---------|-------------|---|
-|November 2024||[What's new or changed in the business process catalog November 2024](about-whats-new-2024-november.md)|
-| August 2024 |   |[What's new or changed in the business process catalog August 2024](about-whats-new-2024-august.md)|
+| February 2025 |[What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md)|
+| November 2024|[What's new or changed in the business process catalog November 2024](about-whats-new-2024-november.md)|
+| August 2024 |[What's new or changed in the business process catalog August 2024](about-whats-new-2024-august.md)|
 
 ## Get the latest version
 

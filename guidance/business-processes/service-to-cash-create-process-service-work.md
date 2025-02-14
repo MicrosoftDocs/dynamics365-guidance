@@ -13,13 +13,16 @@ ms.author: DeanHardy
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for creating and processing service work.
 
-It describes the *Create and process service work* process area within the *Service to cash* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
+It describes the *Create and process service work* process area within the *Service to deliver* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
+
+> [!IMPORTANT]
+> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 Processes within this area can vary widely by organization based on industries, business models, and unique requirements, but often they follow a similar high-level lifecycle that includes receiving service requests, scheduling service resources, conducting the service activities, and closing the service request before handing it off to other downstream process areas such as invoicing and payment collection.
 
 Given the variety, and often the complexity, of this process area, it's critical that you dedicate the appropriate number of resources and time in the initial stages of your implementation project to thoroughly document the processes, steps, and patterns needed to meet your organization's unique requirements.
 
-## Stakeholders 
+## Stakeholders
 
 Many people across the organization should contribute to the decision-making process and design of the *Create and process service work* area. The following list provides examples of such stakeholders:
 

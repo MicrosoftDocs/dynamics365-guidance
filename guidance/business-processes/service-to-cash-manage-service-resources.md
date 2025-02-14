@@ -8,13 +8,16 @@ ms.date: 02/07/2025
 ai.usage: ai-assisted
 ---
 
-# Overview of the Manage service resources business process area within the Service to cash end-to-end scenario
+# Overview of the Manage service resources business process area within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
-The *Manage service resources* area is part of the *Service to cash* end-to-end business process. This article tells you what this area is about, why you should use Dynamics 365 to support it, and what subprocesses it includes.
+The *Manage service resources* area is part of the *Service to deliver* end-to-end business process. This article tells you what this area is about, why you should use Dynamics 365 to support it, and what subprocesses it includes.
 
-In the *Service to cash* end-to-end business process, resources are things that you can schedule for service delivery. The most common resources are people. But resources can also be other things like equipment, facilities, or anything else that has limited capacity and needs to be scheduled for service delivery.
+> [!IMPORTANT]
+> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+
+In the *Service to deliver* end-to-end business process, resources are things that you can schedule for service delivery. The most common resources are people. But resources can also be other things like equipment, facilities, or anything else that has limited capacity and needs to be scheduled for service delivery.
 
 The *Manage service resources* business process area covers the tasks you need to do to set up and maintain your resources. You need resources for service delivery, so you must set them up in the app before you deploy it. Plan to identify and define your resources when you discover and plan your implementation. This way, you can document your requirements for managing service resources.
 
@@ -41,7 +44,7 @@ The flow diagram for the manage service resources business process area has thes
     - Onboard and manage the employee lifecycle
         - Hire employees (in a parallel branch from the Onboard and manage employee lifecycle)
         - Hire contractors (in a parallel branch from Start)
-1. *Service to cash*
+1. *Service to deliver*
 1. *Manage service resources*
     - Set up and maintain service resources
     - Manage resource capacity
