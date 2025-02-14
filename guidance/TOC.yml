@@ -998,16 +998,16 @@ items:
             href: business-processes/record-to-report-areas.md
           - name: Define financial structure and organizational accounting policies
             href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
+          - name: Manage budgets overview
+            href: business-processes/record-to-report-manage-budgets.md
+          - name: Record financial transactions overview
+            href: business-processes/record-to-report-record-financial-transactions.md
+          - name: Close financial periods overview
+            href: business-processes/record-to-report-close-financial-periods.md
           - name: Comply with tax, audit, and regulatory requirements
             href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
           - name: Manage fund accounting overview
             href: business-processes/record-to-report-manage-fund-accounting.md
-          - name: Manage budgets overview
-            href: business-processes/record-to-report-manage-budgets.md
-          - name: Close financial periods overview
-            href: business-processes/record-to-report-close-financial-periods.md
-          - name: Record financial transactions overview
-            href: business-processes/record-to-report-record-financial-transactions.md
         - name: Service to cash
           items:
           - name: End-to-end scenario - service to cash (ID 95)
