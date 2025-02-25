@@ -37,6 +37,8 @@ landingContent:
         url: ../implementation-guide/implementing-cloud-solutions-evergreen-cloud.md
       - text: Migrate from on-premises to the cloud
         url: ../implementation-guide/implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md
+      - text: Request discounted Dynamics 365 partner sandbox licensing
+        url: https://experience.dynamics.com/requestlicense/
     - linkListType: reference
       links:
       - text: Checklist
