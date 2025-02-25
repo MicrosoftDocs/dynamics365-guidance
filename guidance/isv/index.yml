@@ -65,6 +65,12 @@ landingContent:
           url: ../implementation-guide/extend-your-solution-guidance-product-fo.md
         - text: Extend customer engagement apps
           url: ../implementation-guide/extend-your-solution-guidance-product-fo.md
+        - text: Add licensing information to your Dataverse solution
+          url: /power-platform/developer/appsource/appendix-add-license-information-to-your-solution&toc=/dynamics 365/guidance/toc.json
+        - text: ISV app license management for Dynamics 365 apps on Dataverse and Power Apps
+          url: /partner-center/marketplace-offers/isv-app-license&toc=/dynamics 365/guidance/toc.json
+        - text: The SMB opportunity for app publishers
+          url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher&toc=/dynamics 365/guidance/toc.json
     - linkListType: architecture
       links:
       - text: Manage data
