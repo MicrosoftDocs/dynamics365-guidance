@@ -66,19 +66,19 @@ The Environment and Capacity Strategy includes several important aspects. Enviro
 
 Follow these steps to create and conduct the Solution Blueprint Review via the Dynamics 365 Implementation Portal.
 
-1.Login to the Dynamics 365 Implementation portal: https://experience.dynamics.com/ftimplementationportal/
+1. Login to the Dynamics 365 Implementation portal: https://experience.dynamics.com/ftimplementationportal/
 
-2.Navigate to the Projects section and select the project you would like to conduct an SBR for.
+2. Navigate to the Projects section and select the project you would like to conduct an SBR for.
 
-3.On Summary tab, choose Reviews and click the + Created New Review option (Note: Please note that this option would be displayed only for projects that are under active FastTrack engagement) sign to create a new review. Provide a name for the Solution Blueprint Review. Confirm that the Project Name auto-populates.
+3. On Summary tab, choose Reviews and click the + Created New Review option (Note: Please note that this option would be displayed only for projects that are under active FastTrack engagement) sign to create a new review. Provide a name for the Solution Blueprint Review. Confirm that the Project Name auto-populates.
 
-4.In the Review section, select the “Solution Blueprint Review Workshop” from the lookup Field and click Save.
+4. In the Review section, select the “Solution Blueprint Review Workshop” from the lookup Field and click Save.
 
-5.Launch the newly created review and follow the instructions displayed in the UI.
+5. Launch the newly created review and follow the instructions displayed in the UI.
 
-6.Click Next to proceed.
+6. Click Next to proceed.
 
-7.Select products that are in scope for the project.
+7. Select products that are in scope for the project.
 
 ## Detailed Steps Within the Review
 When you select products, only questions related to those selected products will appear. Similarly, if you exclude products, questions related solely to those excluded products won’t appear. Questions that apply to more than one product will appear as long as one of the applicable products is selected. Make sure the relevant products are included for the review. Once done, click 'Next' to proceed."
