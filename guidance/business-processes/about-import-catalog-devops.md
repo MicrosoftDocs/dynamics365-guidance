@@ -165,7 +165,19 @@ Before you can import the project into Azure Boards, there are a few things that
       > [!TIP]
       > These names are based on common names for various departments or roles or functional areas in business apps. They partially overlap with the names of modules in Dynamics 365 but are not necessarily identical with the names of modules.
 
-5. Add custom fields as required. The templates include custom fields that are optional - you don't necessarily need them on your work items, but here we list some of them. If you don't want to use the fields, delete the columns from the templates. Learn more at [Add and manage fields](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true).
+    - **Work Shop Assumptions**  
+
+      Add this field as a custom **Text (multiple lines)** field, so that users can enter or view a detailed description with rich text about the assumptions for the workshop. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).
+
+    - **Agenda**  
+
+      Add this field as a custom **Text (multiple lines)** field, so that users can enter or view a detailed agenda for the workshop. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).
+
+    - **Key questions**  
+
+      Add this field as a custom **Text (multiple lines)** field, so that users can enter or view a list of questions to use to help aide the discussion during the workshop. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).
+
+5. Add custom fields as required. The templates include custom fields that are optional - you don't necessarily need them on your work items, but here we list some of them. If you don't want to use the fields, delete the columns from the templates. The catalog includes several status fields that can be optionally setup, but we recommend that you delete these columns prior to importing as they are just informational. Learn more at [Add and manage fields](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true).
 
     - **Catalog status**  
 
