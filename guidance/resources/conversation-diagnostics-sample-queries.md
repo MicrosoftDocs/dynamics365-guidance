@@ -149,7 +149,7 @@ The following image illustrates the layout of the dashboard based on sample data
 
 :::image type="content" source="media/conversation-diagnostics/Dashboard.png" alt-text="Screenshot of the Azure Data Expleror sample Dashboard." lightbox="media/cs-dataverse-appinsights/Dashboard.png":::
 
-Once your dashboard is ready, you can take the following steps| 
+Once your dashboard is ready, you can take the following steps  
 
 - Share the dashboard with anyone in your organization by granting them access to view or edit the dashboard in Azure Data Explorer.  
 - Alternatively, embed the dashboard into your own portal or website using the embedding features provided by Azure.  
