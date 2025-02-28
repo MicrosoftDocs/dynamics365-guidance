@@ -20,7 +20,7 @@ Learn about the queries that you can use to retrieve the diagnostics data for un
 
 ## Fallback queues
 
-**Purpose**: Diagnose number of work items routed to fallback queues.
+**Purpose**: Diagnose number of work items routed to fallback queues.  
 
 **Query**
 
@@ -41,7 +41,7 @@ Traces
 
 ## Overflow handling
 
-**Purpose**: Diagnose number of work items where overflow is trigger.
+**Purpose**: Diagnose number of work items where overflow is trigger.  
 
 **Query**
 
@@ -57,7 +57,7 @@ Traces
 ```
 ## Representatives who reject new assignments 
  
-**Purpose**: Diagnose customer service representatives (service representatives or representatives) who reject new assignments (by conversationId).
+**Purpose**: Diagnose customer service representatives (service representatives or representatives) who reject new assignments (by conversationId).  
 
 **Query**
 
@@ -79,7 +79,7 @@ Traces
 | project conversationId, rejectionCount, agentRejectionDetails  
 ```
 
-**Purpose**: Diagnose representatives who reject new assignments (by representatives).
+**Purpose**: Diagnose representatives who reject new assignments (by representatives).  
 
 **Query**
 
@@ -102,7 +102,8 @@ Traces
 ```
 ## Representative assignment took longer than two minutes
 
-**Purpose**: Diagnose conversations where representative assignment took longer than two minutes.
+**Purpose**: Diagnose conversations where representative assignment took longer than two minutes.  
+
 **Query**
 
 ```kusto
