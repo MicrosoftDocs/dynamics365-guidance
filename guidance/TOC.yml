@@ -489,6 +489,10 @@ items:
                   href: resources/cs-set-up-outbound-calls.md
                 - name: Set up the sample adaptor for Channel Integration Framework
                   href: resources/cs-set-up-cif2-sampleadaptor.md
+            - name: Unified Service Desk
+                items:
+                - name: Transition to Customer Service Worspace
+                  href: resources/cs-usd-migration-guide.md
 # Copilot in digital contact centers
           - name: Implement Copilot in digital contact centers
             items:
