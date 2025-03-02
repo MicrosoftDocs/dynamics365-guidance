@@ -1,13 +1,15 @@
 ---
 title: Unified Service Desk Migration Guide
-description: Provides a structured approach for transitioning from Unified Service Desk (USD) to the Customer Service Workspace (CSW) in Dynamics 365 Customer Service: edupont04
-ms.author: edupont
+description: Provides a structured approach for transitioning from Unified Service Desk (USD) to the Customer Service Workspace (CSW) in Dynamics 365.
+author: avi-k-mishra
+ms.author: avinam
 ms.topic: how-to #Required; don't change.
 ms.date: 03/03/2025
 ms.custom: 
     - bap-template
     - O25-Service
-ms.collection: 
+ms.reviewer: edupont
+ms.collection: #Required; don't change.
 ---
 
 # Transitioning from Unified Service Desk (USD)
