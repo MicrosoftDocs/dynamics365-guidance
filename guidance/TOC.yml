@@ -473,6 +473,8 @@ items:
                   href: resources/copilot-studio-play-audio-file.md
               - name: Application Insights
                 items:
+                - name: Sample queries for conversation diagnostics
+                  href: resources/conversation-diagnostics-sample-queries.md
                 - name: Application Insights telemetry with Microsoft Dataverse
                   href: resources/cs-dataverse-appinsights.md
                 - name: Application Insights telemetry with Microsoft Copilot Studio
