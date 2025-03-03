@@ -8,11 +8,8 @@ ms.topic: conceptual
 ms.collection:
 ms.date: 03/03/2025
 ms.custom:
-  - ai-gen-docs-bap
-  - ai-gen-desc
-  - ai-seo-date:02/28/2025
+  - bap-template
   - O25-Service
-# CustomerIntent: As an admin, I want to track how our copilot is used.
 ---
 
 # Sample queries and dashboards in conversation diagnostics (preview)
