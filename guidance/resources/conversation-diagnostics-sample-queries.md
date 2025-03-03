@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 02/28/2025
+ms.date: 03/03/2025
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -139,9 +139,9 @@ latestRTQsBeforeAgentAccept
 | project conversationId, assignmentTime  
 ```
 
-## Using Azure Data Explorer dashboards with Application Insights queries
+## Use Azure Data Explorer dashboards with Application Insights queries
 
-In addition to using Kusto queries directly within the Azure portal, you can use Azure Data Explorer Dashboards to visualize the results of these queries and create interactive, real-time reports. It's a powerful way to monitor and analyze the telemetry data from your Dynamics 365 Customer Service, Contact Center environment at a glance. We created a dashboard that you can directly import into your Azure Data Explorer environment.  
+Apart from using Kusto queries directly within the Azure portal, you can use Azure Data Explorer Dashboards to visualize the results of these queries and create interactive, real-time reports. It's a powerful way to monitor and analyze the telemetry data from your Dynamics 365 Customer Service, Contact Center environment at a glance. We created a dashboard that you can directly import into your Azure Data Explorer environment.  
 
 The dashboard file and the instructions to link it to your ApplicationInsights subscription are in the GitHub repo at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/ConversationDiagnostics).  
 
@@ -149,12 +149,12 @@ The following image illustrates the layout of the dashboard based on sample data
 
 :::image type="content" source="media/conversation-diagnostics/Dashboard.png" alt-text="Screenshot of the Azure Data Expleror sample Dashboard." lightbox="media/cs-dataverse-appinsights/Dashboard.png":::
 
-Once your dashboard is ready, you can take the following steps  
+After your dashboard is ready, you can do one of the following:
 
 - Share the dashboard with anyone in your organization by granting them access to view or edit the dashboard in Azure Data Explorer.  
 - Alternatively, embed the dashboard into your own portal or website using the embedding features provided by Azure.  
 
-By integrating your telemetry data into an Azure Data Explorer dashboard, you can continuously monitor your Dynamics 365 Customer Service, Contact Center environments.
+By integrating your analytics and insights data into an Azure Data Explorer dashboard, you can continuously monitor your Dynamics 365 Customer Service and Dynamics 365 Contact Center environments.
 
 
 ### Related information
