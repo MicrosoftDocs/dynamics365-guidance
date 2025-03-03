@@ -13,7 +13,7 @@ You can enable telemetry insights yourself with the **Set up telemetry** guide i
 
 > [!IMPORTANT]
 > Telemetry insights in the Dynamics 365 Implementation Portal is in public preview. Capabilities that are in preview aren't meant for production use and can have limited functionality. These features are available before an official release so that our customers can get early access and provide feedback.
-> By accessing or using telemetry insights, you accept the [Microsoft Preview Terms of Service](https://go.microsoft.com/fwlink/?linkid=2242556).
+
 
 ## Set up telemetry
 

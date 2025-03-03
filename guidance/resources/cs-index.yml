@@ -47,6 +47,8 @@ landingContent:
           url: cs-pad-automation.md
         - text: Application Insights for Copilot Studio
           url: copilot-studio-appinsights.md
+        - text: Sample queries for conversation diagnostics
+          url: conversation-diagnostics-sample-queries.md  
 # Setup Card
   - title: Setup
     linkLists:
