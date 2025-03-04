@@ -41,6 +41,8 @@ landingContent:
           url: fs-booking-template.md
         - text: Schedule board settings management control
           url: fs-schedule-board-settings-management-control.md
+        - text: Implementing SLAs for Work Orders
+          url: fs-implementing-sla-work-order.md
 
 # setup card
   - title: Setup

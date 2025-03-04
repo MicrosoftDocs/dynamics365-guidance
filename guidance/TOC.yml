@@ -546,6 +546,8 @@ items:
                 href: resources/fs-copilot-import-sample-data.md
               - name: Work order summary configuration template
                 href: resources/fs-work-order-summary-configuration-template.md
+              - name: Implement service level agreements for work orders
+                href: resources/fs-implementing-sla-work-order.md
             - name: Configure the schedule board
               items:
               - name: Add crew information to resource cells
