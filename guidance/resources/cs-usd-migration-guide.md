@@ -23,7 +23,7 @@ This article details the necessary steps and component mapping between Unified S
 
 ## Unified Service Desk Depreciation
 
-On April 1, 2026, we are deprecating the [Microsoft Dynamics 365 Unified Service Desk (USD) with CRM Online application](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/). Its end of support date will be June 30, 2028. We are encouraging customers to use this extended deprecation period to transition to the [Customer Service Workspace](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter)
+On April 1, 2026, we are deprecating the [Microsoft Dynamics 365 Unified Service Desk (USD) with CRM Online application](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/). Its end of support date will be June 30, 2028. We are encouraging customers to use this extended deprecation period to transition to the [Customer Service Workspace](/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter)
 
 Timeline
 -	**Deprecation announced in January 2025** : Date of communication to affected customers and partners we are planning to deprecate the Unified Service Desk
@@ -47,7 +47,7 @@ Customer Service workspace provides modern customer service experience that opti
 
 - Access to both USD and CSW environments
 - Familiarity of both USD and CSW
-- For more information about licensing and system requirements, refer to [Customer Service workspace system requirements](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/customer-service-workspace-system-requirements).
+- For more information about licensing and system requirements, refer to [Customer Service workspace system requirements](/dynamics365/customer-service/implement/customer-service-workspace-system-requirements).
 
 ## Transition Guidance
 The migration from the Unified Service Desk (USD) to Customer Service Workspace (CSW) involves five key steps:
@@ -84,22 +84,22 @@ This section provides a detailed component mapping between Unified Service Desk 
 ## Search
 Entity searches are FetchXML definitions that query Microsoft Dataverse web services to return data. You can also use replacement parameters within the FetchXML queries in an entity search.
 
-- [Search data using entity searches in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/search-data-entity-searches?view=dynamics-usd-4.2)
+- [Search data using entity searches in Unified Service Desk](/dynamics365/unified-service-desk/search-data-entity-searches?view=dynamics-usd-4.2)
 
 **CSW equivalent**
 
 With Dataverse search, the search box is always available at the top of every page in your app. You can start a new search and quickly find the information that you're looking for.
 Out of the box features which can be leveraged to replace custom search implementation -
-- [Dataverse Search](https://learn.microsoft.com/en-us/power-apps/user/relevance-search)
-- [Quick Find](https://learn.microsoft.com/en-us/power-apps/user/quick-find)
+- [Dataverse Search](/power-apps/user/relevance-search)
+- [Quick Find](/power-apps/user/quick-find)
 
 ## Hosted Controls
 The hosted control concept is central to the Unified Service Desk implementation, and is the primary element used for building agent applications using Unified Service Desk. A hosted control in Unified Service Desk is a .NET component or a model-driven app/external webpage that is hosted within an agent application.
 
 For example, a **CRM Page** type of hosted control is used to display a model-driven apps page in your agent application and a **Standard Web Application** type of hosted control is used of external web pages.
 
-- [Unified Service Desk Hosted Controls](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/unified-service-desk-hosted-controls?view=dynamics-usd-4.2)
-- [Manage application tab templates](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/application-tab-templates)
+- [Unified Service Desk Hosted Controls](/dynamics365/unified-service-desk/unified-service-desk-hosted-controls?view=dynamics-usd-4.2)
+- [Manage application tab templates](dynamics365/customer-service/administer/application-tab-templates)
 
 **USD to CSW equivalent**
 | USD Component | CSW Equivalent | Purpose |
@@ -111,8 +111,8 @@ For example, a **CRM Page** type of hosted control is used to display a model-dr
 ## Custom Hosted Control
 You can develop custom Unified Service Desk hosted controls if you have a special requirement that isn’t addressed by the predefined hosted control types. Microsoft Dataverse provides a Visual Studio template for creating a custom Unified Service Desk hosted control. The template provides basic code as comments to help you get started quickly with creating a custom hosted control.
 
-- [Use custom hosted control in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/use-custom-hosted-control-unified-service-desk?view=dynamics-usd-4.2)
-- [Converge model-driven and canvas apps using the custom page](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-app-page-overview)
+- [Use custom hosted control in Unified Service Desk](/dynamics365/unified-service-desk/use-custom-hosted-control-unified-service-desk?view=dynamics-usd-4.2)
+- [Converge model-driven and canvas apps using the custom page](/power-apps/maker/model-driven-apps/model-app-page-overview)
 
 **USD to CSW equivalent**
 | USD Component | CSW Equivalent | Purpose |
@@ -123,9 +123,9 @@ You can develop custom Unified Service Desk hosted controls if you have a specia
 ## CCA Hosted Control
 A Customer Care Accelerator (CCA) hosted application hosted control enables you to host an external application or web application in Unified Service Desk and interact with it by using the UII adapters.
 
-- [UII Adapters](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/uii-adapters?view=dynamics-usd-4.2)
-- [CCA Hosted Application hosted control](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/cca-hosted-application-hosted-control?view=dynamics-usd-4.2#create-a-cca-hosted-application-hosted-control)
-- [Converge model-driven and canvas apps using the custom page](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-app-page-overview)
+- [UII Adapters](/dynamics365/unified-service-desk/uii-adapters?view=dynamics-usd-4.2)
+- [CCA Hosted Application hosted control](/dynamics365/unified-service-desk/cca-hosted-application-hosted-control?view=dynamics-usd-4.2#create-a-cca-hosted-application-hosted-control)
+- [Converge model-driven and canvas apps using the custom page](/power-apps/maker/model-driven-apps/model-app-page-overview)
 
 **USD to CSW equivalent**
 | USD Component         | CSW | Purpose |
@@ -136,8 +136,8 @@ A Customer Care Accelerator (CCA) hosted application hosted control enables you 
 ## Agent Scripts
 Agent scripting in Unified Service Desk provides guidance to agents about what they should say on calls or what they should type on chat conversations. It includes a script that can use values from any loaded entity on the agent application, hosted control, or the Unified Service Desk context (using replacement parameters).
 
-- [Guide customer interactions with agent scripts in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/guide-customer-interactions-agent-scripts?view=dynamics-usd-4.2)
-- [Manage agent scripts](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/agent-scripts)
+- [Guide customer interactions with agent scripts in Unified Service Desk](/dynamics365/unified-service-desk/guide-customer-interactions-agent-scripts?view=dynamics-usd-4.2)
+- [Manage agent scripts](/dynamics365/customer-service/administer/agent-scripts)
 
 **USD to CSW equivalent**
 | USD Component         | CSW | Purpose |
@@ -152,8 +152,8 @@ Agent scripting in Unified Service Desk provides guidance to agents about what t
 ## Scriptlets
 Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter. Sometimes the system generated replacement parameters contain the proper data needed for these functions but might not contain the data in the desired format.
 
-- [Execute scripts using scriptlets in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk?view=dynamics-usd-4.2)
-- [Apply business logic using client scripting in model-driven apps using JavaScript](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting)
+- [Execute scripts using scriptlets in Unified Service Desk](/dynamics365/unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk?view=dynamics-usd-4.2)
+- [Apply business logic using client scripting in model-driven apps using JavaScript](/power-apps/developer/model-driven-apps/client-scripting)
 
 **USD to CSW equivalent**
 | USD Component            | CSW Equivalent            |
@@ -167,8 +167,8 @@ Scriptlets are snippets of JavaScript that are executed when using a special syn
 ## Session Management
 Whenever you search for customer information in Unified Service Desk, the system fetches the information from Microsoft Dataverse, and stores it in a session. Each session in the Unified Service Desk client is displayed in a tab in the main screen, and you can identify a session using the session name displayed on the tab.
 
-- [Session management in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/session-management-unified-service-desk?view=dynamics-usd-4.2)
-- [Manage session templates](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/session-templates)
+- [Session management in Unified Service Desk](/dynamics365/unified-service-desk/session-management-unified-service-desk?view=dynamics-usd-4.2)
+- [Manage session templates](/dynamics365/customer-service/administer/session-templates)
 
 **USD to CSW equivalent**
 | USD Component         | CSW | Purpose |
@@ -180,8 +180,8 @@ Whenever you search for customer information in Unified Service Desk, the system
 ## Toolbars
 You can configure toolbars in Unified Service Desk to create or manage buttons in an existing toolbar, or create new toolbars altogether.
 
-- [Execute scripts using scriptlets in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk?view=dynamics-usd-4.2)
-- [Customize commands and the ribbon](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/customize-commands-ribbon)
+- [Execute scripts using scriptlets in Unified Service Desk](/dynamics365/unified-service-desk/execute-scripts-using-scriptlets-unified-service-desk?view=dynamics-usd-4.2)
+- [Customize commands and the ribbon](/power-apps/developer/model-driven-apps/customize-commands-ribbon)
 
 **USD to CSW equivalent**
 | USD Component         | CSW | Purpose |
@@ -194,8 +194,8 @@ You can configure toolbars in Unified Service Desk to create or manage buttons i
 ## Windows Navigation Rule
 Window navigation rules define the interaction between various controls in Unified Service Desk. You can use the rules to define the location of the sessions or the model-driven app pages to appear in the Unified Service Desk client application when invoked from a hosted control or an entity search.
 
-- [Use window navigation rules in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/use-window-navigation-rules-unified-service-desk?view=dynamics-usd-4.2)
-- [Customer Service workspace sessions and tabs](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter#customer-service-workspace-sessions-and-tabs)
+- [Use window navigation rules in Unified Service Desk](/dynamics365/unified-service-desk/use-window-navigation-rules-unified-service-desk?view=dynamics-usd-4.2)
+- [Customer Service workspace sessions and tabs](/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter#customer-service-workspace-sessions-and-tabs)
 
 **USD to CSW equivalent**
 | USD Component         | CSW | Purpose |
@@ -205,8 +205,8 @@ Window navigation rules define the interaction between various controls in Unifi
 ## KM Control
 Use the KM Control type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications.
 
-- [KM Control in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/km-control-hosted-control?view=dynamics-usd-4.2#create-a-km-control-hosted-control)
-- [Set up knowledge management](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management)
+- [KM Control in Unified Service Desk](/dynamics365/unified-service-desk/km-control-hosted-control?view=dynamics-usd-4.2#create-a-km-control-hosted-control)
+- [Set up knowledge management](/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management)
 
 **USD to CSW equivalent**
 | USD Component         | CSW | Purpose |
@@ -216,9 +216,9 @@ Use the KM Control type of hosted control to display knowledge base articles in 
 ## Popup Notification
 Use the Popup Notification hosted control type to display notifications in Unified Service Desk.
 
-- [Popup Notification in Unified Service Desk](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/popup-notification-hosted-control?view=dynamics-usd-4.2)
-- [Send in-app notification](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi)
-- [Add Global Notification](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/xrm-app/addglobalnotification)
+- [Popup Notification in Unified Service Desk](/dynamics365/unified-service-desk/popup-notification-hosted-control?view=dynamics-usd-4.2)
+- [Send in-app notification](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi)
+- [Add Global Notification](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-app/addglobalnotification)
 
 **USD to CSW equivalent**
 | USD Component | CSW Equivalent | Purpose |
@@ -228,8 +228,8 @@ Use the Popup Notification hosted control type to display notifications in Unifi
 ## Telephony integration
 To integrate Unified Service Desk with your computer telephony integration (CTI) system, use a CTI adapter. The User Interface Integration (UII)CTI framework has components that you can use to build a CTI adapter.
 
-- [Integrate Unified Service Desk with CTI systems using CTI adapters](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/integrate-cti-systems-cti-adapters?view=dynamics-usd-4.2)
-- [Dynamics 365 Channel Integration Framework 2.0](https://learn.microsoft.com/en-us/dynamics365/channel-integration-framework/v2/administer/overview-channel-integration-framework)
+- [Integrate Unified Service Desk with CTI systems using CTI adapters](/dynamics365/unified-service-desk/integrate-cti-systems-cti-adapters?view=dynamics-usd-4.2)
+- [Dynamics 365 Channel Integration Framework 2.0](/dynamics365/channel-integration-framework/v2/administer/overview-channel-integration-framework)
 
 **USD to CSW equivalent**
 | USD Component            | CSW Equivalent | Purpose |
@@ -240,15 +240,26 @@ To integrate Unified Service Desk with your computer telephony integration (CTI)
 ## Listener Hosted Control
 Use the Listener Hosted Control type of hosted control, introduced in Unified Service Desk 2.0, to configure a custom listener for your auditing, diagnostic, and trace logs.
 
-- [Listener Hosted Control](https://learn.microsoft.com/en-us/dynamics365/unified-service-desk/listener-hosted-control-hosted-control?view=dynamics-usd-4.2)
-- [Overview of integration with Application Insights](https://learn.microsoft.com/en-us/power-platform/admin/overview-integration-application-insights)
+- [Listener Hosted Control](/dynamics365/unified-service-desk/listener-hosted-control-hosted-control?view=dynamics-usd-4.2)
+- [Overview of integration with Application Insights](/power-platform/admin/overview-integration-application-insights)
 
 **USD to CSW equivalent**
 | USD Component  | CSW Equivalent | Purpose |
 |---------------------------------|--------------------------------------|---------|
 | Listener Hosted Control        | Azure App Insights                 | All the custom logging done in the Listener assembly should be replaced by App Insights logging. |
 
+## Unified Service Configuration
+Unified Service Desk configuration is a great way to filter things that you want your agents to see without having to manage their security roles. Agents can see only those Unified Service Desk components in the Unified Service Desk client application that are added in a configuration assigned to them.
+
+- [Unified Service Desk configuration](/dynamics365/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration?view=dynamics-usd-4.2)
+- [Agent experience profiles](/dynamics365/customer-service/administer/overview)
+
+**USD to CSW equivalent**
+| USD Component  | CSW Equivalent | Purpose |
+|---------------------------------|--------------------------------------|---------|
+| Unified Service Desk Configuration        | Agent Experience Profiles                 | Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom app. |
+
 ## Learn more
 
-- [Welcome to Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview)  
-- [Get started with Customer Service workspace](https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter)
+- [Welcome to Dynamics 365 Customer Service](/dynamics365/customer-service/implement/overview)  
+- [Get started with Customer Service workspace](/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter)
