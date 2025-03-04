@@ -27,7 +27,7 @@ On April 1, 2026, we are deprecating the [Microsoft Dynamics 365 Unified Service
 
 Timeline
 -	**Deprecation announced in January 2025** : Date of communication to affected customers and partners we are planning to deprecate the Unified Service Desk
--	**Deprecated in April 2006** : Date after which we are no longer going to invest in Unified Service Desk
+-	**Deprecated in April 2026** : Date after which we are no longer going to invest in Unified Service Desk
 -	**End of Service in April 2027** : Date after which we are no longer going to support Unified Service Desk
 -	**End of Support in June 2028** : Date the Unified Service Desk is going to be taken out of service
 
