@@ -149,6 +149,8 @@ landingContent:
           url: test-automation-setup.md
         - text: Load-test the solution
           url: test-scale-dynamics-365-solution.md
+        - text: Transitioning from Unified Service Desk (USD) to Customer Service Workspace (CSW)
+          url: cs-usd-migration-guide.md
     - linkListType: deploy
       links:
         - text: Implement Copilot in digital contact centers
