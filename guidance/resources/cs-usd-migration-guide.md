@@ -19,7 +19,7 @@ ms.collection: #Required; don't change.
 This article details the necessary steps and component mapping between Unified Service Desk (USD) and Customer Service Workspace (CSW) to assist with the migration process.
 
 > [!NOTE]
-> There may be entirely different scenarios in Unified Service Desk (USD) that do not have a direct mapping to any component in Customer Service Workspace (CSW). However, an alternative approach can be designed to implement the business flow by leveraging the platform's capabilities.
+> This document provides guidance on migrating from Unified Service Desk (USD) to Customer Service Workspace (CSW). For scenarios without a direct mapping in CSW, follow the patterns outlined below or leverage Dynamics 365 capabilities to implement the required business flow.
 
 ## Unified Service Desk Depreciation
 
