@@ -60,7 +60,8 @@ landingContent:
          url: cs-set-up-outbound-calls.md  
        - text: Sample Adaptor for Channel Integration Frameowrk
          url: cs-set-up-cif2-sampleadaptor.md
-
+       - text: Transitioning from Unified Service Desk (USD) to Customer Service Workspace (CSW)
+         url: cs-usd-migration-guide.md   
 # AI Card
   - title: Copilot and generative AI
     linkLists:
