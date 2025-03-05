@@ -7,7 +7,7 @@ metadata:
   description: Find tools and guidance to help you build apps and services with Dynamics 365 and Power Platform.
   author: edupont04
   ms.author: edupont
-  ms.date: 01/07/2025
+  ms.date: 02/25/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.subservice: guidance
   ms.service: dynamics-365
@@ -37,13 +37,23 @@ landingContent:
         url: ../implementation-guide/implementing-cloud-solutions-evergreen-cloud.md
       - text: Migrate from on-premises to the cloud
         url: ../implementation-guide/implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md
+      - text: Request discounted Dynamics 365 partner sandbox licensing
+        url: https://experience.dynamics.com/requestlicense/
     - linkListType: reference
       links:
       - text: Checklist
         url: ../implementation-guide/implementing-cloud-solutions-checklist.md
       - text: Case study
         url: ../implementation-guide/implementing-cloud-solutions-case-study.md
-      
+
+# Card AI
+  - title: Copilot and AI
+    linkLists:
+    - linkListType: get-started
+      links:
+      - text: Copilot for software companies
+        url: /collections/penzt16genw8jx
+
 # Card extend your solution
   - title: Extend Dynamics 365
     linkLists:
@@ -57,6 +67,16 @@ landingContent:
           url: ../implementation-guide/extend-your-solution-guidance-product-fo.md
         - text: Extend customer engagement apps
           url: ../implementation-guide/extend-your-solution-guidance-product-fo.md
+        - text: Add licensing information to your Dataverse solution
+          url: /power-platform/developer/appsource/appendix-add-license-information-to-your-solution&toc=/dynamics365/guidance/toc.json
+        - text: ISV app license management for Dynamics 365 apps on Dataverse and Power Apps
+          url: /partner-center/marketplace-offers/isv-app-license&toc=/dynamics365/guidance/toc.json
+        - text: The SMB opportunity for app publishers
+          url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher&toc=/dynamics365/guidance/toc.json
+    - linkListType: architecture
+      links:
+      - text: Manage data
+        url: ../implementation-guide/data-management.md
     - linkListType: reference
       links:
       - text: Checklist
@@ -85,14 +105,6 @@ landingContent:
       links:
       - text: Options for regression testing
         url: ../implementation-guide/testing-regression-tooling.md
-# Card data management architecture
-
-  - title: Data management architecture
-    linkLists:
-    - linkListType: architecture
-      links:
-      - text: Manage data
-        url: ../implementation-guide/data-management.md
 
 # Card strategies
   - title: Implementation strategies
@@ -151,7 +163,7 @@ landingContent:
       - text: Checklist for project governance
         url: ../implementation-guide/project-governance-checklist.md
 
-# Card change mangagement
+# Card change management
   - title: Change management
     linkLists:
     - linkListType: concept
