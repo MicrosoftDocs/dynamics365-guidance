@@ -4,7 +4,7 @@ description: Discover how to enhance user experiences in Dynamics 365 model-driv
 author: dereklh77
 ms.author: riasif
 ms.topic: conceptual
-ms.date: 05/29/2024
+ms.date: 03/03/2025
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
@@ -71,6 +71,10 @@ The article [UI/UX component details for canvas apps](ui-ux-component-details-ca
 ## Testing and user feedback
 
 The article [UI/UX component details for tests and user feedback](ui-ux-component-details-testing-feedback.md) provides an overview of how to conduct usability tests and gather valuable feedback from users. This section explains the iterative design process that ensures continuous improvement based on user insights.
+
+## Dynamics 365 Sales
+
+The article [UI/UX guidance for implementations with Dynamics 365 Sales](ui-ux-guidance-sales-implementations.md) provides guidance based on the Dynamics 365 Sales app. The article helps you design a user experience with or without customizations for a better user adoption of your solution.
 
 ## Related information
 
