@@ -425,6 +425,8 @@ items:
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Conduct Solution BluePrint Review Workshop
+            href: implementation-portal/conduct-solution-blueprint-review-workshop.md
           - name: Analyze with telemetry insights
             href: implementation-portal/telemetry-insights.md
           - name: Set up telemetry insights
