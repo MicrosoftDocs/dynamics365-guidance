@@ -59,7 +59,7 @@ Now you're ready to enable the **Work Order** table for SLA.
 1. In the **Work Order** table properties section, select **Properties**.
 2. In the **Edit table** dialog box, expand the **Advanced options** section.
 3. Go to the **Make this table an option when** section, and then select the **Setting up service level agreements** checkbox.
-3. Go to the **Make this table an option when** section, and then select the **Setting up service-level agreements** checkbox.
+4.	**Save** and in the Work Order table properties section, select **Advanced > Publish table**.
 
 ## Example 1: Configure work order resolution service-level agreement
 
@@ -78,7 +78,7 @@ To get started with creating the SLA, follow these steps:
 > [!TIP]
 > You can use the **Description** field to outline the specific requirements.
 
-Now create three SLA items for the three values of the work order priority that we established: High, Medium, and Low.
+Now create three SLA items for the three values of the work order priority: High, Medium, and Low.
 
 ### Create an SLA item for high priority work orders
 
@@ -92,7 +92,7 @@ Now create three SLA items for the three values of the work order priority that 
     |**Allow Custom Time Calculation**|**No**|
 
 3. In the **New SLA Item** form, open the KPI lookup, and then select **+ New SLA KPI**.
-4. In the **Quick Create: SLA KPI** form, Fill in the fields as outlined in the following table.
+4. In the **Quick Create: SLA KPI** form, fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -105,17 +105,9 @@ Now create three SLA items for the three values of the work order priority that 
 
 The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI** field of the **New SLA Item** form. You can reuse it for the SLA items for medium and low priority work orders created next.
 
-6. In the **Applicable When** section, select **+ Add > Add row**, and then enter the following condition:
+6. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals High**.
 
-    |Field|Value|
-    |-|-|
-    |**Priority (Work Order)**|**High**|
-
-7. In the **Success Conditions** section, select **+ Add > Add row**, and then enter the following condition:
-
-    |Field|Value|
-    |-|-|
-    |**System Status (Work Order)**|**Completed**|
+7. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
 
 8. In the **Warn and Fail Duration** section, enter the following conditions:
 
@@ -138,17 +130,9 @@ The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI*
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-3. In the **Applicable When** section, select **+ Add > Add row**, and then enter the following condition:
+3. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Medium**.
 
-    |Field|Value|
-    |-|-|
-    |**Priority (Work Order)**|**Medium**|
-
-4. In the **Success Conditions** section, select **+ Add > Add row**, and then enter the following condition:
-
-    |Field|Value|
-    |-|-|
-    |**System Status (Work Order)**|**Completed**|
+4. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
 
 5. In the **Warn and Fail Duration** section, enter the following conditions:
 
@@ -171,17 +155,9 @@ The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI*
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-3. In the **Applicable When** section, select **+ Add > Add row**, and then enter the following condition:
+3. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Low**.
 
-    |Field|Value|
-    |-|-|
-    |**Priority (Work Order)**|**Low**|
-
-4. In the **Success Conditions** section, select **+ Add > Add row**, and then enter the following condition:
-
-    |Field|Value|
-    |-|-|
-    |**System Status (Work Order)**|**Completed**|
+4. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
 
 5. In the **Warn and Fail Duration** section, enter the following conditions:
 
@@ -233,7 +209,7 @@ Observe the following:
 - The Work Order Resolution SLA is automatically applied.
 - In the SLA subgrid, you'll see the Status as **In Progress**, and the **Failure Time** indicating the deadline by which the Work Order must be completed.
 
-<!--:::image type="content" source="media/fs-implementing-sla-work-order1.png" alt-text="Screenshot of Work Order resolution SLA high priority." lightbox="media/fs-implementing-sla-work-order1.png":::-->
+:::image type="content" source="media/fs-implementing-sla-work-order1.svg" alt-text="Screenshot of Work Order resolution SLA high priority." lightbox="media/fs-implementing-sla-work-order1.svg":::
 
 If you later discover that the Work Order should have a Low priority, update the priority and save it again.
 
@@ -242,7 +218,7 @@ You'll observe the following actions:
 - The previous SLA Item Instance has been canceled, and a new Instance has been created and is now in progress.
 - The new Failure Time has been recalculated based on the newly selected Priority.
 - This information can also be added to the [Configurable Work Order summary](/dynamics365/field-service/work-order-recap).
-<!--:::image type="content" source="media/fs-implementing-sla-work-order2.png" alt-text="Screenshot of Work Order resolution SLA low priority with Copilot summary." lightbox="media/fs-implementing-sla-work-order2.png":::-->
+:::image type="content" source="media/fs-implementing-sla-work-order2.svg" alt-text="Screenshot of Work Order resolution SLA low priority with Copilot summary." lightbox="media/fs-implementing-sla-work-order2.svg":::
 
 ## Example 2: Configure work order arrival time service-level agreement
 
@@ -295,17 +271,9 @@ Let's now create three SLA items for the three values of priority: High, Medium,
 
     This new created **Work Order Arrival Time SLA KPI** is now visible in the **KPI** field of the **New SLA Item** form. You can reuse it for the SLA items for medium and low priority work orders that we create next.  
 
-1. In the **Applicable When** section, select **+ Add > Add row**, and then enter the following condition:
+1. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals High**.
 
-    |Field|Value|
-    |-|-|
-    |**Priority (Work Order)**|**High**|
-
-1. In the **Success Conditions** section, select **+ Add > Add row**, and then enter the following condition:
-
-    |Field|Value|
-    |-|-|
-    |**System Status (Work Order)**|**Completed**|
+1. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **First Arrived On (Work Order) Contains data**.
 
 1. In the **Warn and Fail Duration** section, enter the following conditions:
 
@@ -328,17 +296,9 @@ Let's now create three SLA items for the three values of priority: High, Medium,
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-1. In the **Applicable When** section, select **+ Add > Add row**, and then enter the following condition:
+1. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Medium**.
 
-    |Field|Value|
-    |-|-|
-    |**Priority (Work Order)**|**Medium**|
-
-1. In the **Success Conditions** section, select **+ Add > Add row**, and then enter the following condition:
-
-    |Field|Value|
-    |-|-|
-    |**First Arrived On (Work Order)**|**Contains data**|
+1. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **First Arrived On (Work Order) Contains data**.
 
 1. In the **Warn and Fail Duration** section, enter the following conditions:
 
@@ -361,17 +321,9 @@ Let's now create three SLA items for the three values of priority: High, Medium,
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-1. In the **Applicable When** section, select **+ Add > Add row**, and then enter the following condition:
+1. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Low**.
 
-    |Field|Value|
-    |-|-|
-    |**Priority (Work Order)**|**Low**|
-
-1. In the **Success Conditions** section, select **+ Add > Add row**, and then enter the following condition:
-
-    |Field|Value|
-    |-|-|
-    |**First Arrived On (Work Order)**|**Contains data**|
+1. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **First Arrived On (Work Order) Contains data**.
 
 1. In the **Warn and Fail Duration** section, enter the following conditions:
 
@@ -410,7 +362,7 @@ You should observe the following activities:
 - In the SLA subgrid, you'll see the status as **In Progress**, and the **Failure Time** indicating the deadline for the technician's arrival.
 - The **Promised window** was set accordingly due to a Field Service setting, **Field Service SLA Configuration**. This setting is on by default in all Field Service environments.
 
-<!-- :::image type="content" source="media/fs-implementing-sla-work-order3.png" alt-text="Screenshot of Work Order arrival time SLA high priority with Copilot summary." lightbox="media/fs-implementing-sla-work-order3.png"::: -->
+:::image type="content" source="media/fs-implementing-sla-work-order3.svg" alt-text="Screenshot of Work Order arrival time SLA high priority with Copilot summary." lightbox="media/fs-implementing-sla-work-order3.svg":::
 
 > [!TIP]
 > Users can choose a different SLA after one has been set. Many organizations don't have a default SLA. Instead, they decide based on specific criteria whether to use the resolution service-level agreement or the arrival time service-level agreement each time. In this example, you can modify it from the UI since the SLA field is visible and editable in the form. However, as mentioned earlier, you ca also modify it using other techniques, set the SLA field as  read-only or not visible, and thereby prevent manual changes to the SLA field.
@@ -424,7 +376,7 @@ To ensure SLAs are tracked correctly, combine the business hour schedule with a 
 For example, if the team has an SLA to complete work orders within four business hours, adding a holiday schedule to the service calendar ensures that holiday closures don't affect the SLA.
 
 > [!WARNING]
-> Set up business hour schedules and holiday calendars directly in the development environment. Then export these records and import them and the SLAs into the production environment. However, this is only possible if the **Enable calendar export and import** setting is manually set to **Yes** in both the development and target environments. Enable this setting in the Power Platform Environment Settings app by navigating to Business > Service Management > Service configuration settings.
+> Set up business hour schedules and holiday calendars directly in the development environment. When exporting the solution, all SLA-related components and their dependencies, including linked schedules and calendars, will also be exported. However, this is *only* possible if the **Enable calendar export and import** setting is manually set to **Yes** in both the development and target environments. Enable this setting in the Power Platform Environment Settings app by navigating to Business > Service Management > Service configuration settings.
 
 To create a holiday calendar record, open the **Power Platform Environment Settings** app, and select **Business > Service Management > Holiday schedule**. Learn more at [Create and manage holiday schedules](/dynamics365/customer-service/administer/set-up-holiday-schedule).
 
@@ -446,7 +398,7 @@ Next, export SLAs from the development environment and import them with a manage
 
 After the import, the SLA's state in the target system changes from **Active** to **Draft**. However, you can restore the same *isdefault* and *statecode* values of the development environment using a flow. Below is an example of a Power Automate flow created in the development environment, outside of any solution, that queries these values from development and then connects to a specific target environment to perform an update. This update creates active layers for the SLA records and isn't supported if you have enabled the **Block Unmanaged Customizations** option in the target environment.
 
-:::image type="content" source="media/fs-implementing-sla-work-order4.png" alt-text="Screenshot of a Power Automate flow." lightbox="media/fs-implementing-sla-work-order4.png":::
+:::image type="content" source="media/fs-implementing-sla-work-order4.svg" alt-text="Screenshot of a Power Automate flow." lightbox="media/fs-implementing-sla-work-order4.svg":::
 
 ## Related resources
 

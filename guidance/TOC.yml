@@ -425,6 +425,8 @@ items:
             href: implementation-portal/project-profiling.md
           - name: Conduct project reviews
             href: implementation-portal/conduct-project-reviews.md
+          - name: Conduct Solution BluePrint Review Workshop
+            href: implementation-portal/conduct-solution-blueprint-review-workshop.md
           - name: Analyze with telemetry insights
             href: implementation-portal/telemetry-insights.md
           - name: Set up telemetry insights
@@ -1179,6 +1181,14 @@ items:
           href: develop/ui-ux-component-details-canvas-apps.md
         - name: UI/UX component details for tests and user feedback
           href: develop/ui-ux-component-details-testing-feedback.md
+        - name: Dynamics 365 Sales
+          items:
+          - name: UI/UX design principles for Dynamics 365 Sales
+            href: develop/ui-ux-guidance-sales-implementations.md
+          - name: Sales personas
+            href: develop/ui-ux-guidance-sales-personas.md
+          - name: UI/UX components for Sales
+            href: develop/ui-ux-guidance-sales-components.md
 
 # Architecture
 #      - name: Architecture guide
