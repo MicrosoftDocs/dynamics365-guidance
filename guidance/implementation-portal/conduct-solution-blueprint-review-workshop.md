@@ -144,7 +144,6 @@ When you select products, only questions related to those selected products appe
 In a solution blueprint review, depending on the selected scope, there might be 10 or more strategic topics, each serving as a fundamental area of focus. Within each strategic topic, there are several review items that break down the topic into more specific areas for evaluation. Each review item is further divided into multiple questions designed to explore critical aspects in greater detail.
 
 The responses to these questions are documented and referred to as findings, which provide insights into the current state, gaps, or opportunities within the solution.
-
 These findings are then carefully analyzed and mapped to relevant scenarios, which represent specific use cases, challenges, or contexts that the solution must address. Based on these scenarios, tailored recommendations are developed to address the identified issues, improve the solution, or align it more closely with strategic goals.
 
 Additionally, these recommendations can be further supplemented with detailed guidance, actionable steps, or best practices to provide more comprehensive and practical support for implementation. This layered approach ensures a thorough and structured evaluation, enabling stakeholders to make informed decisions and improvements to the solution.
@@ -175,3 +174,4 @@ Once you complete the **Review Details** tab, select the **Generate Document** a
 - [What is the Dynamics 365 Implementation Portal?](overview.md)  
 - [Introduction to Dynamics 365 implementation tools and samples](../resources/overview.md)  
 - [Introduction to the Dynamics 365 implementation guide](../implementation-guide/introduction.md)
+
