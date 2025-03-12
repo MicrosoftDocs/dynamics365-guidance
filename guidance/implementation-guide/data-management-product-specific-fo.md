@@ -22,6 +22,11 @@ Storing data requires space and resources. You don't need to keep all the data t
 
 Dynamics 365 Finance, Supply Chain Management, and Commerce have cleanup routines that you can use to remove unnecessary data. Before you run these routines, make sure that you don't need the data for your business processes. Always test each routine in a test environment before you run it in production. [Learn more about cleanup routines in Dynamics 365 finance and operations apps](/archive/blogs/axsa/cleanup-routines-in-dynamics-365-for-finance-and-operations).
 
+Explore the potential of creating a sandbox cleanup routine using the resources available in the Dynamics 365 FastTrack Implementation Assets repository. The Storage Management section provides valuable scripts and guidelines for managing sandbox data cleanup, which can be adapted to maintain a clean and efficient sandbox environment.
+
+For more details, visit the [Storage Management documentation](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets).
+
+
 ### Best practices for handling personal data
 
 - Don't store personal data in Dynamics 365 finance and operations apps unless you need it.
