@@ -144,7 +144,7 @@ The dashboard file and the instructions to link it to your ApplicationInsights s
 
 The following image illustrates the layout of the dashboard based on sample data.
 
-:::image type="content" source="media/conversation-diagnostics/Dashboard.png" alt-text="Screenshot of the Azure Data Expleror sample Dashboard." lightbox="media/conversation-diagnostics/Dashboard.png":::
+:::image type="content" source="media/conversation-diagnostics/Dashboard.png" alt-text="Screenshot of the Azure Data Explorer sample Dashboard." lightbox="media/conversation-diagnostics/Dashboard.png":::
 
 After your dashboard is ready, you can do one of the following:
 
