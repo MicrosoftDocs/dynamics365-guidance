@@ -536,34 +536,43 @@ items:
           items:
             - name: Resources for Field Service
               href: resources/fs-index.yml
-            - name: Samples and tools overview
-              href: resources/fs-component-library.md
-            - name: Deploy and configure
+            - name: Samples and tools
+              items:
+              - name: Samples and tools overview
+                href: resources/fs-component-library.md
+              - name: Schedule board
+                items:
+                - name: Add crew information to resource cells
+                  href: resources/fs-resource-cell-template.md
+                - name: Customize the template for bookings
+                  href: resources/fs-booking-template.md
+                - name: Schedule board settings management control
+                  href: resources/fs-schedule-board-settings-management-control.md
+                - name: Field mapping for the schedule board settings
+                  href: resources/fs-schedule-board-settings-field-mapping.md
+              - name: Work orders
+                items:
+                - name: Work order summary configuration template
+                  href: resources/fs-work-order-summary-configuration-template.md
+                - name: Transport summary configurations across environments
+                  href: resources/fs-transport-summary-configuration.md
+              - name: Copilot Studio
+                items:
+                - name: Build an agent in Copilot Studio to create sample data
+                  href: resources/fs-use-copilot-studio-create-sample-data.md
+                - name: Use Copilot to create sample data for Field Service
+                  href: resources/fs-copilot-import-sample-data.md
+            - name: Develop solutions
               items:
               - name: Set up Azure Pipelines to deploy Field Service
                 href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
-              - name: Transport summary configurations across environments
-                href: resources/fs-transport-summary-configuration.md
-              - name: Use Copilot to create sample data for Field Service
-                href: resources/fs-copilot-import-sample-data.md
-              - name: Work order summary configuration template
-                href: resources/fs-work-order-summary-configuration-template.md
-              - name: Implement service level agreements for work orders
-                href: resources/fs-implementing-sla-work-order.md
-            - name: Configure the schedule board
-              items:
-              - name: Add crew information to resource cells
-                href: resources/fs-resource-cell-template.md
-              - name: Customize the template for bookings
-                href: resources/fs-booking-template.md
-              - name: Schedule board settings management control
-                href: resources/fs-schedule-board-settings-management-control.md
-              - name: Field mapping for the schedule board settings
-                href: resources/fs-schedule-board-settings-field-mapping.md
             - name: Add analytics
               items:
               - name: Sample telemetry dashboard for mobile app offline profile usage
                 href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
+              - name: Implement service level agreements for work orders
+                href: resources/fs-implementing-sla-work-order.md
+
 # FnO
         - name: Finance and operations apps
           items:

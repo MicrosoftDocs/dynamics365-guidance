@@ -61,6 +61,8 @@ landingContent:
       links:
         - text: Use Copilot to create sample data
           url: fs-copilot-import-sample-data.md
+        - text: Create sample data with Copilot Studio agent
+          url: fs-use-copilot-studio-create-sample-data.md
     - linkListType: how-to-guide
       links:
         - text: Transport summary configurations across environments
