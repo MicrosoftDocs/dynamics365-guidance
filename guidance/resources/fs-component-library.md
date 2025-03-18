@@ -1,7 +1,7 @@
 ---
 title: Sample library for Field Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 12/13/2024
+ms.date: 03/14/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: erdipple
@@ -21,6 +21,12 @@ This collection of sample code, components (solutions), and documents can help y
 ## Areas
 
 The following sections outline the content of the collection. Each section includes links to the corresponding articles and samples.
+
+### Use Copilot to create sample data for Field Service
+
+  You can use Copilot to generate sample data that you then import into a demonstration environment. In this way, you can show prospects the capabilities of Dynamics 365 Field Service.
+
+  Learn more at [Use Copilot to create sample data for Field Service](fs-copilot-import-sample-data.md) and [Build a Copilot agent to create sample data in Dynamics 365](fs-use-copilot-studio-create-sample-data.md).
 
 ### Configure the schedule board in Field Service
 
@@ -62,11 +68,7 @@ Learn more at [Set up test automation with Playwright](test-automation-setup.md)
 
   You can also use Azure services to help you maintain the solution over time. Learn more at [Set up Azure Pipelines for deploying Field Service and other Dataverse solutions](fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md).
 
-- Use Copilot to create sample data for Field Service
 
-  You can use Copilot to generate sample data that you then import into a demonstration environment. In this way, you can show prospects the capabilities of Dynamics 365 Field Service.
-
-  Learn more at [Use Copilot to create sample data for Field Service](fs-copilot-import-sample-data.md).
 
 ## Related information
 
