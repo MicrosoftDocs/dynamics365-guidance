@@ -1,20 +1,23 @@
 ---
 title: What are assessments for Dynamics 365 implementations?
-description: Discover assessments to help implement Dynamics 365 solutions, build new capabilities, and maximize sales methods & resources with Microsoft's Assessments.
+description: An article that may one day again list assessments to help implement Dynamics 365 solutions, build new capabilities, and maximize sales methods & resources with Microsoft's Assessments.
 author: edupont04
 ms.author: edupont
 ms.topic: overview
 ms.collection: get-started
-ms.date: 12/13/2023
+ms.date: 03/20/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/20/2023
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # What are assessments for Dynamics 365 implementations?
 
+This article is currently not available. Find self-service questionnaires and assessments for your implementation project at [Microsoft Assessments](/assessments/).  
+<!-- 
 The following self-service assessments offer personalized guidance and connect users to specific learning resources on Microsoft Learn content, Tech Talks, training bootcamps, GitHub, blogs, and more. They provide curated direction on various tasks, including presales enablement, adoption of new features, implementation best practices, upskilling consultants on specific features, discovering productivity features for end-users, and creating new solutions.  
 
 Assessments can help you implement solutions with Dynamics 365 apps in an online topology. In this article, we add links to relevant assessments. Find more assessments at [Microsoft Assessments](/assessments/).  
@@ -56,4 +59,4 @@ The following assessments can help sales and technical presales teams determine 
 
 ## Next steps
 
-[Introduction to the implementation guide](../implementation-guide/introduction.md)  
+[Introduction to the implementation guide](../implementation-guide/introduction.md)   -->
