@@ -49,18 +49,6 @@ landingContent:
           url: copilot-studio-appinsights.md
         - text: Sample queries for conversation diagnostics
           url: conversation-diagnostics-sample-queries.md  
-# Setup Card
-  - title: Setup
-    linkLists:
-    -  linkListType: overview
-       links:
-       - text: Set up the simulator for Channel Integration Framework v. 2.0
-         url: cs-set-up-cif2-simulator.md
-       - text: Set up click-to-run outbound calls
-         url: cs-set-up-outbound-calls.md  
-       - text: Sample Adaptor for Channel Integration Frameowrk
-         url: cs-set-up-cif2-sampleadaptor.md
-
 # AI Card
   - title: Copilot and generative AI
     linkLists:
@@ -72,7 +60,26 @@ landingContent:
           url: cs-contact-center-copilot-setup.md
         - text: Onboard your users to use Copilot in your contact center
           url: cs-contact-center-copilot-onboard-users.md
-
+# Setup Card
+  - title: Setup
+    linkLists:
+    -  linkListType: overview
+       links:
+       - text: Set up the simulator for Channel Integration Framework v. 2.0
+         url: cs-set-up-cif2-simulator.md
+       - text: Set up click-to-run outbound calls
+         url: cs-set-up-outbound-calls.md  
+       - text: Sample Adaptor for Channel Integration Framework
+         url: cs-set-up-cif2-sampleadaptor.md
+# USD Card
+  - title: Unified Service Desk
+    linkLists:
+    - linkListType: overview
+      links:
+        - text: Transition to Customer Service workspace
+          url: cs-usd-migration-guide.md
+        - text: Map components from Unified Service Desk to Customer Service workspace
+          url: cs-usd-migration-guide-map-components.md
 # Dev Card
 
   - title: Tools for development

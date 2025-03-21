@@ -492,7 +492,7 @@ items:
                 - name: Set up click-to-run outbound calls
                   href: resources/cs-set-up-outbound-calls.md
                 - name: Set up the sample adaptor for Channel Integration Framework
-                  href: resources/cs-set-up-cif2-sampleadaptor.md
+                  href: resources/cs-set-up-cif2-sampleadaptor.md                 
 # Copilot in digital contact centers
           - name: Implement Copilot in digital contact centers
             items:
@@ -502,6 +502,13 @@ items:
               href: resources/cs-contact-center-copilot-setup.md
             - name: Onboard your users to use Copilot in your contact center
               href: resources/cs-contact-center-copilot-onboard-users.md              
+# USD Transition
+          - name: Migrate from Unified Service Desk
+            items:
+            - name: Transition to Customer Service workspace
+              href: resources/cs-usd-migration-guide.md
+            - name: Map components from Unified Service Desk to Customer Service workspace
+              href: resources/cs-usd-migration-guide-map-components.md
             
 # 14806 dev tools
           - name: Develop solutions
