@@ -51,12 +51,10 @@ In your development environment, you probably already added the **Work Order** t
 > [!TIP]
 > Learn more at [How to add an existing component to a solution](/power-apps/maker/data-platform/create-solution#add-an-existing-component-to-a-solution). 
 
-Now you're ready to enable the **Work Order** table for SLA.
+Now you're ready to enable the **Work Order** table for SLA. Go to [Enable SLA functionality for Field Service](/dynamics365/field-service/sla-work-orders#enable-sla-functionality-for-field-service).
 
 > [!IMPORTANT]
 > This option can't be switched off once it's switched on.
-
-Go to [Enable SLA functionality for Field Service](/dynamics365/field-service/sla-work-orders#enable-sla-functionality-for-field-service).
 
 ## Example 1: Configure work order resolution service-level agreement
 
@@ -66,7 +64,7 @@ As a first example, let's create a service level agreement that defines the reso
 - **Medium priority**: Must be completed within 7 days.
 - **Low priority**: Must be completed within 15 days.
 
-1. Create an SLA with *Work Order Resolution SLA* as the name and *Work Order* as the value of the **Primary entity** field. Go to [Create an SLA](/dynamics365/field-service/sla-work-orders#create-an-sla).
+1. Create an SLA with *Work Order Resolution SLA* as the name and *Work Order* as the value of the **Primary entity** field. For more information, go to [Create an SLA](/dynamics365/field-service/sla-work-orders#create-an-sla).
 2. Create three SLA items for the three values of the work order priority: High, Medium, and Low.
 
 ### Create an SLA item for high priority work orders
@@ -180,7 +178,7 @@ You can have multiple service-level agreements active, but only one can be set a
 1. Save and publish your changes.
 
 > [!TIP]
-> If you came to this spot from the section under Example 2, then once you complete the four steps here, then jump back to the [Test the work order arrival time service-level agreement](#test-the-work-order-arrival-time-service-level-agreement) section and carry on with Example 2.
+> If you came to this spot from the section under Example 2, then once you complete the steps here, then jump back to the [Test the work order arrival time service-level agreement](#test-the-work-order-arrival-time-service-level-agreement) section and carry on with Example 2.
 
 ### Test the work order resolution service-level agreement
 
@@ -210,7 +208,7 @@ Let's look at another example. To ensure urgent repairs receive prompt attention
 - **Medium priority**: The technician should arrive within 1 day.
 - **Low priority**: The technician should arrive within 2 days. 
 
-1. Create an SLA with *Work Order Arrival Time SLA* as the name and *Work Order* as the value of the **Primary entity** field. Go to [Create an SLA](/dynamics365/field-service/sla-work-orders#create-an-sla).
+1. Create an SLA with *Work Order Arrival Time SLA* as the name and *Work Order* as the value of the **Primary entity** field. For more information, go to [Create an SLA](/dynamics365/field-service/sla-work-orders#create-an-sla).
 1. Create three SLA items for the three values of the work order priority: High, Medium, and Low.
 
 ### Create an SLA item for arrival time on high priority work orders
