@@ -14,7 +14,7 @@ ms.custom:
 This article provides examples of how you can use service level agreements (SLA) in the context of a work order. The article includes steps for how to create the sample SLA. It also delves into application lifecycle management for SLAs, outlining the steps to configure SLAs in a development environment, integrate the configuration into a solution, and deploy it to a target environment.
 
 > [!NOTE]
-> This article references the documentation related to SLAs in Dynamics 365 Field Service. Since SLAs can be applied to any SLA-enabled entity record, including custom tables, this information is also relevant beyond the context where the SLA was first implemented.
+> This article references the documentation related to [SLAs in Dynamics 365 Field Service](/dynamics365/field-service/sla-work-orders). Since SLAs can be applied to any SLA-enabled entity record, including custom tables, this information is also relevant beyond the context where the SLA was first implemented.
 
 ## Introduction
 
@@ -56,10 +56,7 @@ Now you're ready to enable the **Work Order** table for SLA.
 > [!IMPORTANT]
 > This option can't be switched off once it's switched on.
 
-1. In the **Work Order** table properties section, select **Properties**.
-2. In the **Edit table** dialog box, expand the **Advanced options** section.
-3. Go to the **Make this table an option when** section, and then select the **Setting up service level agreements** checkbox.
-4.	**Save** and in the Work Order table properties section, select **Advanced > Publish table**.
+Go to [Enable SLA functionality for Field Service](/dynamics365/field-service/sla-work-orders#enable-sla-functionality-for-field-service).
 
 ## Example 1: Configure work order resolution service-level agreement
 
@@ -69,21 +66,12 @@ As a first example, let's create a service level agreement that defines the reso
 - **Medium priority**: Must be completed within 7 days.
 - **Low priority**: Must be completed within 15 days.
 
-To get started with creating the SLA, follow these steps:
-
-1. Open the **Power Platform Environment Settings** app, and then in the **Business** area, select **Service Management > Service level agreement**.
-2. Create an SLA record (**+ New**)
-3. In the **New SLA form**, enter *Work Order Resolution SLA* as the name, select *Work Order* as the value of the **Primary entity** field, and then select **Save**.
-
-> [!TIP]
-> You can use the **Description** field to outline the specific requirements.
-
-Now create three SLA items for the three values of the work order priority: High, Medium, and Low.
+1. Create an SLA with *Work Order Resolution SLA* as the name and *Work Order* as the value of the **Primary entity** field. Go to [Create an SLA](/dynamics365/field-service/sla-work-orders#create-an-sla).
+2. Create three SLA items for the three values of the work order priority: High, Medium, and Low.
 
 ### Create an SLA item for high priority work orders
 
-1. In the **SLA Form**, **SLA Item** section, select **+ New SLA Item** 
-2. Fill in the fields as outlined in the following table.
+1. Create an SLA item. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -91,8 +79,7 @@ Now create three SLA items for the three values of the work order priority: High
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-3. In the **New SLA Item** form, open the KPI lookup, and then select **+ New SLA KPI**.
-4. In the **Quick Create: SLA KPI** form, fill in the fields as outlined in the following table.
+1. Create a New SLA KPI. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -101,27 +88,26 @@ Now create three SLA items for the three values of the work order priority: High
     |**KPI Field**|Work Order Resolution KPI|
     |**Applicable From**|Created On|
 
-5. Save and close the form.
+1. Save and close the form.
 
-The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI** field of the **New SLA Item** form. You can reuse it for the SLA items for medium and low priority work orders created next.
+   The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI** field of the **New SLA Item** form. You can reuse it for the SLA items for medium and low priority work orders created next.
 
-6. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals High**.
+1. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals High**.
 
-7. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
+1. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
 
-8. In the **Warn and Fail Duration** section, enter the following conditions:
+1. In the **Warn and Fail Duration** section, enter the following conditions:
 
     |Field|Value|
     |-|-|
     |**Warn After**|1 day|
     |**Failure After**|2 days|
 
-9. Save and close the form.
+1. Save and close the form.
 
 ### Create an SLA item for medium priority work orders
 
-1. In the **SLA Form**, **SLA Item** section, select **+ New SLA Item** 
-2. Fill in the fields as outlined in the following table.
+1. Create an SLA item. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -130,23 +116,22 @@ The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI*
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-3. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Medium**.
+1. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Medium**.
 
-4. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
+1. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
 
-5. In the **Warn and Fail Duration** section, enter the following conditions:
+1. In the **Warn and Fail Duration** section, enter the following conditions:
 
     |Field|Value|
     |-|-|
     |**Warn After**|4 days|
     |**Failure After**|7 days|
 
-6. Save and close the form.
+1. Save and close the form.
 
 ### Create an SLA item for low priority work orders
 
-1. In the **SLA Form**, **SLA Item** section, select **+ New SLA Item** 
-2. Fill in the fields as outlined in the following table.
+1. Create an SLA item. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -155,18 +140,18 @@ The newly created **Work Order Resolution SLA KPI** is now visible in the **KPI*
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-3. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Low**.
+1. In the **Applicable When** section, select **+ Add > Add row**, and enter the condition **Priority (Work Order) Equals Low**.
 
-4. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
+1. In the **Success Conditions** section, select **+ Add > Add row**, and enter the condition **System Status (Work Order) Equals Completed**.
 
-5. In the **Warn and Fail Duration** section, enter the following conditions:
+1. In the **Warn and Fail Duration** section, enter the following conditions:
 
     |Field|Value|
     |-|-|
     |**Warn After**|10 days|
     |**Failure After**|15 days|
 
-6. Save and close the form.
+1. Save and close the form.
 
 > [!NOTE]
 > Ignore Business Hours for now.
@@ -184,18 +169,15 @@ You can have multiple service-level agreements active, but only one can be set a
 
 ### Add SLA information to the Work Order form
 
-Before testing the SLA, let's update the **Work Order** form to display the service level agreements.
-
-1. Open the solution you'll use to transport your customizations, and then open and edit the **Work Order** form.
-2. In the **Table columns**, search for the column **SLA**, and then add it to the form.
-3. Add a **new section** to the form and include a **new Subgrid**:
+1. Before testing the SLA, [update the **Work Order** form to display the service level agreements](/dynamics365/field-service/sla-work-orders#add-the-sla-field-to-the-work-order-form). 
+1. Add a **new section** to the form and include a **new Subgrid**:
 
     |Field|Value|
     |-|-|
     |**Table**| *SLA KPI Instances (Regarding)*|
     |**Default view**| *SLA KPI Instances List View*|
 
-4. Save and publish your changes.
+1. Save and publish your changes.
 
 > [!TIP]
 > If you came to this spot from the section under Example 2, then once you complete the four steps here, then jump back to the [Test the work order arrival time service-level agreement](#test-the-work-order-arrival-time-service-level-agreement) section and carry on with Example 2.
@@ -228,28 +210,12 @@ Let's look at another example. To ensure urgent repairs receive prompt attention
 - **Medium priority**: The technician should arrive within 1 day.
 - **Low priority**: The technician should arrive within 2 days. 
 
-To get started with creating the SLA, follow these steps:
-
-1. Open the **Power Platform Environment Settings** app, and then in the **Business** area, select **Service Management > Service level agreement**.
-1. Create an SLA record (**+ New**).
-1. Fill in the fields as outlined in the following table.
-
-    |Field|Value|
-    |-|-|
-    |**Name**|*Work Order Arrival Time SLA*|
-    |**Primary entity**|**Work Order**|
-
-1. Save your changes.
-
-> [!TIP]
-> You can use the **Description** field to outline the specific requirements.
-
-Let's now create three SLA items for the three values of priority: High, Medium, and Low.
+1. Create an SLA with *Work Order Arrival Time SLA* as the name and *Work Order* as the value of the **Primary entity** field. Go to [Create an SLA](/dynamics365/field-service/sla-work-orders#create-an-sla).
+1. Create three SLA items for the three values of the work order priority: High, Medium, and Low.
 
 ### Create an SLA item for arrival time on high priority work orders
 
-1. In the **SLA Form**, **SLA Item** section, select **+ New SLA Item**.
-1. Fill in the fields as outlined in the following table.
+1. Create an SLA item. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -257,8 +223,7 @@ Let's now create three SLA items for the three values of priority: High, Medium,
     |**Allow Pause and Resume**|**No**|
     |**Allow Custom Time Calculation**|**No**|
 
-1. In the **New SLA Item** form, open the KPI lookup, and then select **+ New SLA KPI**.
-1. In the **Quick Create: SLA KPI** form, fill in the fields as outlined in the following table.
+1. Create a New SLA KPI. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -286,8 +251,7 @@ Let's now create three SLA items for the three values of priority: High, Medium,
 
 ### Create an SLA item for arrival time on medium priority work orders
 
-1. In the **SLA Form**, **SLA Item** section, select **+ New SLA Item**.
-1. Fill in the fields as outlined in the following table.
+1. Create an SLA item. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
@@ -311,8 +275,7 @@ Let's now create three SLA items for the three values of priority: High, Medium,
 
 ### Create an SLA item for arrival time on low priority work orders
 
-1. In the **SLA Form**, **SLA Item** section, select **+ New SLA Item**.
-1. Fill in the fields as outlined in the following table.
+1. Create an SLA item. Fill in the fields as outlined in the following table.
 
     |Field|Value|
     |-|-|
