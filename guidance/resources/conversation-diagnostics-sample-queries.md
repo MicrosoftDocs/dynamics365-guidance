@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 03/27/2025
 ms.custom:
   - bap-template
   - O25-Service
@@ -142,9 +142,26 @@ Apart from using Kusto queries directly within the Azure portal, you can use Azu
 
 The dashboard file and the instructions to link it to your ApplicationInsights subscription are in the GitHub repo at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/ConversationDiagnostics).  
 
-The following image illustrates the layout of the dashboard based on sample data.
+The dashboard includes the **Conversation diagnostics** page and the **Unified routing diagnostics** page as outlined in the following list:
+ 
+- **Conversation diagnostics page**: This page displays diagnostics for a range of scenarios, including the following list:
+    - Conversation state flow for different conversation IDs.
+    - Fallback queue routing.
+    - Conversations that triggered overflow.
+    - Conversations rejected by multiple agents.
+    - Top Agent IDs with high reject count.
+    - Conversations where agent assignment took more than two minutes.
+    - Conversations where agent handle time was more than five minutes.
 
-:::image type="content" source="media/conversation-diagnostics/Dashboard.png" alt-text="Screenshot of the Azure Data Explorer sample Dashboard." lightbox="media/conversation-diagnostics/Dashboard.png":::
+The following image illustrates the layout of the page based on sample data.
+
+   :::image type="content" source="media/conversation-diagnostics/Dashboard.png" alt-text="Screenshot of the Azure Data Explorer sample Dashboard." lightbox="media/conversation-diagnostics/Dashboard.png":::
+
+- **Unified routing diagnostics page**: This page displays diagnostics for a range of scenarios over time. You can select a work item, and then, through the context menu, you can set a cross-filter option for all tiles to load the diagnostics data for the work item.
+
+The following image illustrates the layout of the page based on sample data.
+
+   :::image type="content" source="media/conversation-diagnostics/unified-routing-dashboard.png" alt-text="Screenshot of the work items in unified routing in the Azure Data Explorer sample dashboard." lightbox="media/conversation-diagnostics/unified-routing-dashboard.png":::
 
 After your dashboard is ready, you can do one of the following:
 
