@@ -73,7 +73,7 @@ Organizations that model their production resources and capacity in Dynamics 365
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *develop production strategies* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *develop production strategies* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Plan to produce](plan-to-produce-overview.md)
 2. *Develop production strategies* (the article that you're currently reading)

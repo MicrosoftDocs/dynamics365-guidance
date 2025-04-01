@@ -104,7 +104,7 @@ Whenever an approved purchase order is confirmed, it creates a confirmation jour
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *procure goods and services* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *procure goods and services* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Define procurement and sourcing strategies*
 

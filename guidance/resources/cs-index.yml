@@ -60,6 +60,8 @@ landingContent:
           url: cs-contact-center-copilot-setup.md
         - text: Onboard your users to use Copilot in your contact center
           url: cs-contact-center-copilot-onboard-users.md
+        - text: Better interpretation of alphanumeric values with generative AI
+          url: cs-mcs-alphanumentity.md
 # Setup Card
   - title: Setup
     linkLists:

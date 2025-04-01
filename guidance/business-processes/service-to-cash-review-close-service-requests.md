@@ -85,7 +85,7 @@ The following section shows the configurations available, and the sequence recom
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Review and close service requests* processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Review and close service requests* processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Define service policies*
 

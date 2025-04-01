@@ -81,7 +81,7 @@ Overall, Dynamics 365 Customer Insights - Journeys enables effective campaign or
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *prospect to quote* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to help with your *prospect to quote* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
 

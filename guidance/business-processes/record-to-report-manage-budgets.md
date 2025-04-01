@@ -81,7 +81,7 @@ KPIs include the frequency of real-time budget updates and the percentage increa
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *Manage budget* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *Manage budget* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define ledger structure and organizational accounting policies](/dynamics365/guidance/business-processes/report-to-record-define-financial-structure-organizational-accounting-policies)
 

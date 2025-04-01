@@ -96,7 +96,7 @@ The *manage supplier relationships* business process area can help you:
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to support your *manage supplier relationships* business processes, use these resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to support your *manage supplier relationships* business processes, use these resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Manage supplier relationships* (the article that you're reading)
 

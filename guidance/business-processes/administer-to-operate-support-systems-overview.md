@@ -131,7 +131,7 @@ These benefits highlight the synergy between Dynamics 365, Azure, and effective 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
 1. *Manage licensing and entitlements*

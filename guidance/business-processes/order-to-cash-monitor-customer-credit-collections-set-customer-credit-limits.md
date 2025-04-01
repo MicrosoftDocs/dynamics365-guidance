@@ -168,7 +168,7 @@ Use this option when you use a Call center channel with Dynamics 365 Commerce an
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. Set customer credit limits (The article that you're currently reading)
 

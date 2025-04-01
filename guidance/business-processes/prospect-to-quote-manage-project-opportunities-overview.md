@@ -88,7 +88,7 @@ In Dynamics 365 Project Operations, users can set up workflows to manage project
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *Manage project opportunities* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to help with your *Manage project opportunities* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Run marketing campaigns*
 

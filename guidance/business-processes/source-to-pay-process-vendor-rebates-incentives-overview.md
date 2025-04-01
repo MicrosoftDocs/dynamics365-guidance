@@ -103,7 +103,7 @@ KPIs such as rebate processing time and the percentage reduction in manual error
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *processing supplier rebates and incentives* business process, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *processing supplier rebates and incentives* business process, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Define procurement and sourcing strategies*
 

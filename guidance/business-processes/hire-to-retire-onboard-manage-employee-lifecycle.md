@@ -85,7 +85,7 @@ By analyzing onboarding data, you can identify trends and patterns that inform c
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Onboard and manage employee lifecycle* business process area, you can use the following business processes. Use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Onboard and manage employee lifecycle* business process area, you can use the following business processes. Use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
 2. *Onboard and manage the employee lifecycle* (the article you're currently reading)

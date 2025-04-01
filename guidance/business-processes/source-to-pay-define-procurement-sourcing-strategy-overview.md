@@ -97,7 +97,7 @@ While strategic sourcing isn't a required approach when developing your sourcing
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with the *Develop a procurement and sourcing strategy* business process, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with the *Develop a procurement and sourcing strategy* business process, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Develop a procurement and sourcing strategies* (The article you're currently reading)
 

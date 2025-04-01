@@ -106,7 +106,7 @@ By implementing Dynamics 365, organizations can reap the benefits of streamlined
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with managing worker compensation, benefits, and payroll, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with managing worker compensation, benefits, and payroll, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
 

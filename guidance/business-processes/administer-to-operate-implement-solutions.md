@@ -4,7 +4,7 @@ description: Get an overview of how the business process catalog maps to the imp
 author: edupont04
 ms.author: edupont
 ms.topic: conceptual
-ms.date: 02/06/2025
+ms.date: 03/25/2025
 ---
 
 # Implement solutions overview
@@ -25,29 +25,27 @@ The Dynamics 365 implementation guide follows the structure of [Success by Desig
 
 The *Implement solutions* business process area is part of the *implement* stage. But it covers tasks across all five stages. The following table provides links to the different sections of the implementation guide and other articles in the Dynamics 365 guidance hub.
 
-| Task                                             | Learn more |
-|--------------------------------------------------|-------------|
-| Implement cloud solutions                        | ../implementation-guide/implementing-cloud-solutions.md |
-| Drive app value                                  | ../implementation-guide/drive-app-value.md|
-| Define implementation strategy                   | ../implementation-guide/ implementation-strategy.md|
-| Create solution blueprint                        |  ../implementation-guide/solution-architecture-design-pillars.md|
-| Implement process governance                     |  ../implementation-guide/project-governance.md|
-| Define environment strategy                      |  ../implementation-guide/environment-strategy-overview.md|
-| Implement project governance approach            |  ../implementation-guide/project-governance.md|
-| Manage organizational change                     |  ../implementation-guide/change-management.md |
-| Manage data                                      |  ../implementation-guide/data-management.md |
-| Implement application lifecycle management (ALM) strategies | ../implementation-guide/application-lifecycle-management.md|
-| Define security approach                         | ../implementation-guide/security.md|
-| Define business intelligence, reporting, and analytics strategy |../implementation-guide/business-intelligence-reporting-analytics-reporting-analytics-strategy.md|
-| Define testing approach                          | ../implementation-guide/testing-strategy.md|
-| Define extensions approach                       | ..//implementation-guide/extend-your-solution.md |
-| Define integration strategy                      | ../implementation-guide/integrate-other-solutions.md |
-| Define performance strategy                      | ../implementation-guide/performing-solution.md|
-| Prepare to go live                               | ../implementation-guide/prepare-to-go-live.md|
+- [Implement cloud solutions](../implementation-guide/implementing-cloud-solutions.md)  
+- [Drive app value]( ../implementation-guide/drive-app-value.md)  
+- [Define implementation strategy](../implementation-guide/implementation-strategy.md)  
+- [Create solution blueprint]( ../implementation-guide/solution-architecture-design-pillars.md)  
+- [Implement process governance](../implementation-guide/project-governance.md)  
+- [Define environment strategy](../implementation-guide/environment-strategy-overview.md)  
+- [Implement project governance approach](../implementation-guide/project-governance.md)  
+- [Manage organizational change](../implementation-guide/change-management.md)  
+- [Manage data](../implementation-guide/data-management.md)  
+- [Implement application lifecycle management (ALM) strategies](../implementation-guide/application-lifecycle-management.md)  
+- [Define security approach]( ../implementation-guide/security.md)  
+- [Define business intelligence, reporting, and analytics strategy](../implementation-guide/business-intelligence-reporting-analytics-reporting-analytics-strategy.md)  
+- [Define testing approach](../implementation-guide/testing-strategy.md)  
+- [Define extensions approach](..//implementation-guide/extend-your-solution.md)  
+- [Define integration strategy](../implementation-guide/integrate-other-solutions.md)  
+- [Define performance strategy](../implementation-guide/performing-solution.md)  
+- [Prepare to go live](../implementation-guide/prepare-to-go-live.md)  
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 - *Implement solutions* (The article you're currently reading.)
 - *[Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
