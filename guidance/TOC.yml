@@ -1070,6 +1070,8 @@ items:
             href: business-processes/administer-to-operate-implement-solutions.md
           - name: Define business continuity plan
             href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
+          - name: Administer system features
+            href: business-processes/administer-to-operate-administer-system-features.md
           - name: Manage system access and security overview
             href: business-processes\administer-to-operate-manage-system-access-security.md
           - name: Train users and increase adoption

@@ -1,7 +1,7 @@
 ---
 title: Overview of the Administer to operate business process areas
 description: Get an overview for each of the business process areas in the Administer to operate end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 11/25/2024
+ms.date: 03/25/2025
 ms.topic: conceptual
 author: rachel-profitt
 ms.author: raprofit
@@ -13,6 +13,18 @@ ms.author: raprofit
 ***Applies to: Dynamics 365***
 
 The *administer to operate* process is broken down into many business process areas. The following sections further describe the business process areas.
+
+## Implement solutions
+
+This area pulls the Dynamics 365 implementation guide into the context of business processes. The Dynamics 365 implementation guide follows the structure of Success by Design with five stages:
+
+- Strategize
+- Initiate
+- Implement
+- Prepare
+- Operate
+
+Learn more at [Implement solutions overview](administer-to-operate-implement-solutions.md).  
 
 ## Define business continuity plan
 

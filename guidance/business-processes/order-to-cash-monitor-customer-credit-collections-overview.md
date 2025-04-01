@@ -112,7 +112,7 @@ The *Monitor customer credit and collections* business process area flow diagram
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Monitor customer credit and collections* business process area, you can use the following business processes. use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Monitor customer credit and collections* business process area, you can use the following business processes. use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Monitor customer credit and collections overview](order-to-cash-monitor-customer-credit-collections-overview.md)  
 

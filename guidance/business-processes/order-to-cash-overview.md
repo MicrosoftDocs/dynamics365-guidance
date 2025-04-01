@@ -123,7 +123,7 @@ The **Start** box has the following parallel branches, shown on the left side of
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. Define the goals and objectives of [implementing an order to cash technology solution](../implementation-guide/implementation-strategy.md).
 

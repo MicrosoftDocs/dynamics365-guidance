@@ -109,7 +109,7 @@ This functionality helps project managers get a clear understanding of the proje
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *govern projects* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *govern projects* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Govern projects* (the article that you're currently reading)
 

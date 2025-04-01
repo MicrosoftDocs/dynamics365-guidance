@@ -154,7 +154,7 @@ By enhancing compliance, Dynamics 365 not only helps organizations avoid penalti
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Manage fund accounting* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Manage fund accounting* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define ledger structure and organizational accounting policies](/dynamics365/guidance/business-processes/report-to-record-define-financial-structure-organizational-accounting-policies)
 1. [Manage budgets](record-to-report-manage-budgets.md)

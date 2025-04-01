@@ -111,7 +111,7 @@ KPIs such as the rate of pricing strategy optimization and the impact on profit 
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *manage service pricing* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *manage service pricing* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define service offering and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
 

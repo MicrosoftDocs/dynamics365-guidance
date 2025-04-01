@@ -101,7 +101,7 @@ Dynamics 365 provides advanced reporting and analytics capabilities that are bui
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your service costing business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your service costing business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define service offerings and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
 

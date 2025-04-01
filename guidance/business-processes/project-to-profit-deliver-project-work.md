@@ -110,7 +110,7 @@ The delivery of project work through Dynamics 365 Project Operations streamlines
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *manage project delivery* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to help with your *manage project delivery* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Govern projects](project-to-profit-govern-projects-overview.md)
 

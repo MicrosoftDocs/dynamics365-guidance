@@ -127,7 +127,7 @@ The following sections link to articles for Dynamics 365 Field Service. Dynamics
 
 ## Next steps
 
-After you have completed the setup and configuration for the *schedule service work* process in Dynamics 365, consider the following steps and actions to take. (Links are added, when the articles are ready.)
+After you have completed the setup and configuration for the *schedule service work* process in Dynamics 365, consider the following steps and actions to take. (Links are added when the articles are ready.)
 
 1. [Perform Service Work](service-to-cash-perform-service-work.md)
 

@@ -42,7 +42,7 @@ The following diagram illustrates the *maintain inventory levels* business proce
 
 :::image type="content" source="media/inventory-to-deliver-maintain-inventory-levels-flow.svg" alt-text="Diagram that shows business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/inventory-to-deliver-maintain-inventory-levels-flow.svg":::
 
-All activities in this process flow are mutually exclusive, and you can run them in no particular order. To effectively track inventory levels, the following business processes are highly recommended. (Links are added, when the articles are ready.)
+All activities in this process flow are mutually exclusive, and you can run them in no particular order. To effectively track inventory levels, the following business processes are highly recommended. (Links are added when the articles are ready.)
 
 1. *Track supplier-managed and consigned inventory*
 2. *Track customer-managed and consigned inventory*
@@ -70,7 +70,7 @@ Having repeatable business processes, with the ability for supervisor oversight,
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *maintain inventory levels* business processes, you can use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *maintain inventory levels* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
 2. *Maintain inventory levels* (the article that you're currently reading.)

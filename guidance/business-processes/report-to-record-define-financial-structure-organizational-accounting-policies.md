@@ -110,7 +110,7 @@ Dynamics 365 automates and standardizes processes that are related to currency a
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *define financial structure and organizational accounting policies* business process area, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *define financial structure and organizational accounting policies* business process area, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Define financial structure and organizational accounting policies* (the article that you're currently reading)
 

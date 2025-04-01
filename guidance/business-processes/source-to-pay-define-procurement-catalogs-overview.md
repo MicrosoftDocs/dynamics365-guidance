@@ -91,7 +91,7 @@ When you can organize and group similar items in categories within the procureme
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *define procurement catalogs* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *define procurement catalogs* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
 

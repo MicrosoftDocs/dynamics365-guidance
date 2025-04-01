@@ -100,7 +100,7 @@ Accelerate cash flow and revenue recognition by invoicing customers accurately a
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Create and process service work* business processes, use the following resources and steps to learn more. (Links are added, when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Create and process service work* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Manage service assets](service-to-cash-manage-service-assets.md)  
 
