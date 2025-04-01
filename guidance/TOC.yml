@@ -473,6 +473,8 @@ items:
                   href: resources/copilot-studio-multilanguage-bot.md
                 - name: Play secured audio file
                   href: resources/copilot-studio-play-audio-file.md
+                - name: Better interpretation of alphanumeric values with generative AI
+                  href: resources/cs-mcs-alphanumentity.md    
               - name: Application Insights
                 items:
                 - name: Sample queries for conversation diagnostics
