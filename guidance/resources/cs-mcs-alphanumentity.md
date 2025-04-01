@@ -63,6 +63,8 @@ Due to recognition errors, the transcript in Copilot Studio might not recognize 
 
 > *here it's a as in alpha ***d*** as bravo twenty two charlie y t for toronto*
 
+In this example, the letter *b* is not recognized, and the transcript lists it as the letter *d* instead.
+
 ## Address the challenges with generative AI prompts
 
 Generative AI can resolve such a mix of different spelling modalities, ambiguities, and errors producing the correct result. The key is to design an appropriate prompt describing the context and the processing steps to correct and to interpret the user sentence transcription as a car plate. We want a structured response so we can provide instruction to return the alphanumeric code of the car plate in a specific field. Let's name the new field **PlateCode**.
@@ -101,7 +103,7 @@ In the **Prompt design** window, you can specify if you want the output in text 
 
 :::image type="content" source="media/cs-mcs-alphanum/Prompt-output.png" alt-text="Screenshot of Prompt output." lightbox="media/cs-mcs-alphanum/Prompt-output.png":::
 
-You can also specify the model in the Prompt settings. We're using the default model, AI-4o mini, as the following screenshot illustrates:
+You can also specify the model in the Prompt settings. We're using the default model, GPT-4o mini, as the following screenshot illustrates:
 
 :::image type="content" source="media/cs-mcs-alphanum/Prompt-GPT-Model.png" alt-text="Screenshot of Prompt GPT Model." lightbox="media/cs-mcs-alphanum/Prompt-GPT-Model.png":::
 
@@ -127,7 +129,7 @@ Return only the fields one per line.
 
    :::image type="content" source="media/cs-mcs-alphanum/MCS-Prompt.png" alt-text="Screenshot of Copilot Studio Agent Prompt Action Node.":::
 
-   Open and edit the prompt as shown in the image. In the prompt settings, set the output format of the prompt to *Json*, temperature to *0* and model to *AI-4o*. The output of this action is stored in a ResponseRecord variable which structuredOutput inner Json has these fields:  
+   Open and edit the prompt as shown in the image. In the prompt settings, set the output format of the prompt to *Json*, temperature to *0* and model to *GPT-4o*. The output of this action is stored in a ResponseRecord variable which structuredOutput inner Json has these fields:  
 
    ```json
    {
@@ -175,4 +177,15 @@ The following capabilities for managing customer conversations were adopted:
 
 - [Use your prompt actions in Copilot Studio](/ai-builder/use-a-custom-prompt-in-mcs)
 - [Use prompts to make your agent perform specific tasks](/microsoft-copilot-studio/nlu-prompt-node)
-- [Dynamics 365 Customer Service implementation optimization resources](cs-index.yml)
+- [Dynamics 365 Customer Service implementation optimization resources](cs-index.yml)  
+
+## Contributors
+
+*This article is maintained by Microsoft. It was originally written by the following contributors.*
+
+Principal authors:
+
+- Vince Angeloni | FastTrack Solution Architect
+- Paolo Baggia | Project Management Manager
+- Flavio Tonelli | Data Scientist
+- Sheyla Militello | UX Designer
