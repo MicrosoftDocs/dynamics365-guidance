@@ -149,6 +149,8 @@ landingContent:
           url: test-automation-setup.md
         - text: Load-test the solution
           url: test-scale-dynamics-365-solution.md
+        - text: Cross-environment collaboration with Copilot in Dynamics 365
+          url: ai-powered-cross-environment-collaboration.md
     - linkListType: deploy
       links:
         - text: Implement Copilot in digital contact centers
