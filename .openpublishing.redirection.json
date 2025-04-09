@@ -127,12 +127,12 @@
     },
     {
       "source_path": "guidance/business-processes/inventory-to-deliver-record-manage-inventory-costs.md",
-      "redirect_url": "../../dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview",
+      "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "guidance/business-processes/service-to-cash-create-work-orders.md",
-      "redirect_url": "../../dynamics365/guidance/business-processes/service-to-cash-create-process-service-work",
+      "redirect_url": "/dynamics365/guidance/business-processes/service-to-cash-create-process-service-work",
       "redirect_document_id": false
     }
   ]
