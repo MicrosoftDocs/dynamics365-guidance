@@ -124,6 +124,11 @@
       "source_path": "dynamics365/guidance/business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-process-vendor-rebates-incentives-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "guidance/business-processes/inventory-to-deliver-record-manage-inventory-costs.md",
+      "redirect_url": "../../dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview",
+      "redirect_document_id": false
     }
   ]
 }
