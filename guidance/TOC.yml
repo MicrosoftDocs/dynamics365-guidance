@@ -514,6 +514,8 @@ items:
               href: resources/cs-usd-migration-guide.md
             - name: Map components from Unified Service Desk to Customer Service workspace
               href: resources/cs-usd-migration-guide-map-components.md
+            - name: Frequently Asked Questions (FAQ)
+              href: resources/cs-usd-migration-faq.md
             
 # 14806 dev tools
           - name: Develop solutions
