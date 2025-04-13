@@ -16,7 +16,7 @@ ms.reviewer: edupont
 
 # FAQ on migration from Unified Service Desk(USD) to Customer Service Workspace (CSW)
 
-Below are commonly asked questions from implementation teams and stakeholders:
+Below are some of the most commonly asked questions from implementation teams and stakeholders during migratioin from USD to CSW:
   
 ## How to show external web application in CSW?
 
