@@ -62,9 +62,8 @@ The first step in the **Set up telemetry** guide is to submit the basic details 
 
 ## Viewing results and recommendations
 
-The telemetry request is now created. If you set up Telemetry insights for your own tenant, expect to see results based on the type of environment or org enrolled.
+The telemetry request is now created and the results will be available within 24 hours. If you set up Telemetry insights for your own tenant, expect to see results based on the type of environment or org enrolled. 
 
-If the setup is for a non-production environment, the results are available after 24 hours. If the setup is for a production environment, the results are available within 1 hour.
 ## Consent for data sharing
 
 [!INCLUDE [impl-portal-data-sharing-consent-note](../includes/impl-portal-data-sharing-consent-note.md)]
