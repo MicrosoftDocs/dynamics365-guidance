@@ -498,7 +498,7 @@ A credit note is a document that reduces the amount that a customer owes to a se
 
 ### Currency
 
-A currency represents the type of money used for financial transactions. It can be a specific country's currency (e.g., US Dollar, Euro) and is used to denote the value of financial items. Dynamics 365 Finance ships with a predefined list of all ISO currencies. Each transaction is then recorded with three different values for the currencies.
+A currency represents the type of money used for financial transactions. It can be a specific country's/region's currency (e.g., US Dollar, Euro) and is used to denote the value of financial items. Dynamics 365 Finance ships with a predefined list of all ISO currencies. Each transaction is then recorded with three different values for the currencies.
 
 - Transactions currency 
 
@@ -883,10 +883,10 @@ The International Accounting Standards Board (IASB) is an independent, private-s
 
 IFRS is a set of accounting standards developed by the International Accounting Standards Board (IASB). These standards are widely used in Europe and many other parts of the world for the preparation and presentation of financial statements.
 
-IFRS aims to harmonize accounting practices and provide a common financial reporting framework for businesses operating in different countries. While individual European countries may have their own national accounting standards, many European Union member states have adopted IFRS for the consolidated financial statements of publicly traded companies, particularly for companies listed on European stock exchanges. This adoption of IFRS helps facilitate cross-border comparisons and international investment.
+IFRS aims to harmonize accounting practices and provide a common financial reporting framework for businesses operating in different countries/regions. While individual European countries/regions may have their own national accounting standards, many European Union member states have adopted IFRS for the consolidated financial statements of publicly traded companies, particularly for companies listed on European stock exchanges. This adoption of IFRS helps facilitate cross-border comparisons and international investment.
 
 > [!NOTE]
-> While IFRS is commonly used in Europe, there may still be some variations or country-specific requirements in accounting and reporting practices in individual European countries. However, for consolidated financial statements of publicly traded companies, IFRS is often the standard used for reporting.
+> While IFRS is commonly used in Europe, there may still be some variations or country/region specific requirements in accounting and reporting practices in individual European countries/regions. However, for consolidated financial statements of publicly traded companies, IFRS is often the standard used for reporting.
 
 ### Internet of Things sensors
 
