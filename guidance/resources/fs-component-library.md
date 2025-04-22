@@ -22,7 +22,7 @@ This collection of sample code, components (solutions), and documents can help y
 
 The following sections outline the content of the collection. Each section includes links to the corresponding articles and samples.
 
-### Schedule Board
+### Schedule board
 
 - Add crew information to the resource cell template.
 
