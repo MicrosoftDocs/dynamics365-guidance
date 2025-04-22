@@ -2,7 +2,7 @@
 title: Change implementation and management case study
 description: Read a case study that takes you through a real-life example of how one Dynamics 365 customer approached change management.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/19/2023
 ms.topic: conceptual
 ---

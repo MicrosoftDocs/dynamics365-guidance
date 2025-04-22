@@ -2,7 +2,7 @@
 title: Manage progress and planning during the implement phase
 description: Read about the change manager's tasks for managing progress and obstacles during the implementation phase of a Dynamics 365 implementation project. 
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/19/2023
 ms.topic: conceptual
 ---

@@ -2,7 +2,7 @@
 title: Keep up with technology using Dynamics 365
 description: Learn how Dynamics 365 keeps your solution updated with the latest features and security patches without disrupting your business.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

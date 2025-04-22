@@ -3,7 +3,7 @@
 title: Case study in monitoring and servicing Dynamics 365 solutions
 description: Learn how an agricultural business improved its warehouse operations by aligning its ISV's update schedule with Microsoft's release cadence for Dynamics 365.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/30/2024
 ms.topic: conceptual
 ms.custom:

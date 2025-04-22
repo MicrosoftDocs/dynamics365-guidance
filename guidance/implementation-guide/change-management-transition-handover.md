@@ -2,7 +2,7 @@
 title: Manage changes during transition and handover
 description: Read about the change manager's tasks for the transition to support during a Dynamics 365 implementation project.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/20/2023
 ms.topic: conceptual
 ---

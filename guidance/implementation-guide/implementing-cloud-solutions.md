@@ -2,7 +2,7 @@
 title: Implement cloud solutions
 description: Learn how to adopt a cloud mindset, migrate from on-premises to online deployments, customize and extend cloud apps, and operate in the evergreen cloud with Dynamics 365.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/06/2025
 ms.topic: conceptual
 ms.custom:

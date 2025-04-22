@@ -1,7 +1,7 @@
 ﻿---
 title: Overview of the Manage project contract business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project contracts.
-ms.date: 11/17/2023
+ms.date: 04/16/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: lalithac
@@ -60,37 +60,23 @@ The manage project contracts process involves gathering client requirements, est
 
 1. Start
 
-2. *Prospect to quote end-to-end process*
+1. *Manage project contracts*
 
-    A parallel branch of this end-to-end process is the *Project to profit* end-to-end process
+1. *Create project contract*
 
-1. *Create project quote*
+1. [*Estimate project contracts* ](project-to-profit-estimate-project-contracts.md)  
 
-2. *Manage project contracts*
+1. [*Negotiate project contracts*](project-to-profit-negotiate-project-contracts.md)  
 
-3. *Create project contract*
+1. *Finalize project contracts*
 
-    A parallel branch goes towards a downstream *project to profit* business process area, *Manage project resources and schedules*.
+1. *Maintain project contracts*
 
-4. *Define project pricing*
+1. *Process project change requests*
 
-    A parallel branch goes towards a downstream *project to profit* business process area, *Manage project financials*.
+1. *Define project stakeholders*
 
-5. *Define project billing terms*
-
-    A parallel branch goes towards a downstream *project to profit* business process area, *Manage project delivery*.
-
-6. *Define funding source*
-
-    A parallel branch goes towards a downstream *project to profit* business process area, *Manage project financials*
-
-3. *Project to profit* end-to-end process
-
-    1. [Govern projects](project-to-profit-govern-projects-overview.md)
-
-        Downstream of this process is 2.b *Manage project contracts*
-
-4. End
+1. End
 
 ## Manage project contract benefits
 
@@ -116,17 +102,17 @@ In conclusion, Incorporating technology into project contract management optimiz
 
 If you want to implement Dynamics 365 solutions to assist with your *project to profit* business processes, use the following resources and steps to learn more.
 
-1. [Govern projects](project-to-profit-govern-projects-overview.md)
+1. [Develop project strategy](project-to-profit-govern-projects-overview.md)
 
 2. *Manage project contracts*. (The article you're currently reading.)
 
-3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)  
+3. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
 
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
 5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
 
-6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
+6. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
 ## Related information
 

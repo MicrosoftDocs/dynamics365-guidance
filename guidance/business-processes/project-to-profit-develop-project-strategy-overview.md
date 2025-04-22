@@ -1,21 +1,21 @@
 ---
-title: Overview of the Govern projects business process area
+title: Overview of the Develop project strategy business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for governing projects.
-ms.date: 11/29/2023
+ms.date: 04/22/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: lifiatamara
 ---
 
-# Overview of the Govern projects business process area within the Project to profit end-to-end scenario
+# Overview of the Develop project strategy business process area within the Project to profit end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations***
 
-This article describes how you can use Dynamics 365 products to govern your projects.
+This article represents a business process area that replaces another that was deprecated. We're still in process of updating the article.
 
-## Introduction to govern projects
+## Introduction to Develop project strategy
 
-The *govern projects* business process area encompasses the procedures, policies, and structures that are used to manage recurring activities that deliver a particular product or service. Effective management of these processes is crucial for maintaining efficiency, improving productivity, and driving growth. In this context, Dynamics 365 plays a pivotal role. As a comprehensive business solution, it provides robust tools for project governance, so that businesses can streamline their processes, enhance collaboration, and make data-driven decisions.
+The *Develop project strategy* business process area encompasses the procedures, policies, and structures that are used to manage recurring activities that deliver a particular product or service. Effective management of these processes is crucial for maintaining efficiency, improving productivity, and driving growth. In this context, Dynamics 365 plays a pivotal role. As a comprehensive business solution, it provides robust tools for project governance, so that businesses can streamline their processes, enhance collaboration, and make data-driven decisions.
 
 The process of defining, scoping, and implementing this business process area in an overall implementation with business apps is a strategic endeavor. Ideally, it should occur during the initial stages of system planning. In this way, you gain a holistic view of the organization's processes and increase the likelihood that the solution is tailored to meet the organization's unique needs.
 
@@ -34,53 +34,53 @@ Many people across the organization should contribute to the decision-making pro
 - Steering committee
 - End users
 
-## Govern projects process flow
+## Develop project strategy process flow
 
 The Project Management Institute (PMI) created a five-phase model that groups different activities throughout the project management lifecycle. The five phases are project initiation, project planning, project execution, project monitoring & control, and project closure.
 
 Each phase of the project lifecycle consists of specific project objectives and defines results, deliverables, and milestones. Project lifecycle management gives the project team a shared vocabulary for communicating project progress. As a result, they have better control over the projects that they govern. Although the Project Management Body of Knowledge (PMBOK) recommends assigning project phases according to a project's lifecycle, organizations can follow their own system, depending on their industry, policies, and other relevant factors.
 
-The *govern projects* business process area is aligned with the five-phase project management lifecycle. It's included in other business processes under the [project to profit end-to-end business process](project-to-profit-overview.md).
+The *Develop project strategy* business process area is aligned with the five-phase project management lifecycle. It's included in other business processes under the [project to profit end-to-end business process](project-to-profit-overview.md).
 
-The following diagram shows the high-level business process flow for *govern projects*.
+The following diagram shows the high-level business process flow for *Develop project strategy*.
 
 :::image type="content" source="media/project-to-profit-govern-projects.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-govern-projects.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-The following steps are illustrated in the *govern projects* business process flow diagram.
+The following steps are illustrated in the *Develop project strategy* business process flow diagram.
 
 1. Start
 1. *Prospect to quote* end-to-end process
 1. *Create project quote* business process area
-1. *Project to profit* end-to-end process 
-1. *Govern projects* business process area
+1. *Project to profit* end-to-end process  
+1. *Develop project strategy* business process area
 
-    1. Develop project charter
-    1. Develop project management plan
-    1. Manage project communications
-    1. Manage project quality
-    1. Manage project risks
-    1. Manage project stakeholders
-    1. Direct and manage project work
-    1. Manage project knowledge and documents
-    1. Close project or phase
+    1. *Develop project charter*
+    1. *Develop project management plan*
+    1. *Manage project communications*
+    1. *Manage project quality*
+    1. *Manage project risks*
+    1. *Manage project stakeholders*
+    1. *Direct and manage project work*
+    1. *Manage project knowledge and documents*
+    1. *Close project or phase*
 
 1. End
 
 The *manage project communications*, *manage project quality*, *manage project risk*, and *manage project stakeholders* business processes are repeated as appropriate during the project.
 
-There is a parallel branch to g. *Direct and manage project work* from another [project](project-to-profit-overview.md), because the *govern projects* business process area effectively includes the following business process areas:
+There is a parallel branch to g. *Direct and manage project work* from another [project](project-to-profit-overview.md), because the *Develop project strategy* business process area effectively includes the following business process areas:
 
-1. Manage project contracts
-1. [Manage project resources and schedules](project-to-profit-manage-project-scope-schedule-overview.md)
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)
 1. [Manage project delivery](project-to-profit-deliver-project-work.md)
 1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
-1. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
-## Govern projects benefits
+## Develop project strategy benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *govern projects* business process area. The following sections outline the key benefits that an organization might monitor and measure for *govern projects*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Develop project strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Develop project strategy*.
 
 ### Make it easier for finance to manage project accounting
 
@@ -109,38 +109,38 @@ This functionality helps project managers get a clear understanding of the proje
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *govern projects* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Develop project strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Govern projects* (the article that you're currently reading)
+1. *Develop project strategy* (the article that you're currently reading)
 
 2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
 
-3. [Manage project resource and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
+3. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)
 
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)
 
 5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
-6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+6. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related information
 
-You can use the following resources to learn more about the *govern projects* process in Dynamics 365.
+You can use the following resources to learn more about the *Develop project strategy* process in Dynamics 365.
 
 - [TechTalk: Dynamics 365 Project Operations series](https://community.dynamics.com/blogs/post/?postid=a18d2afb-428f-420d-829b-2fd5820132a6)
 - [Project management overview](/dynamics365/project-operations/project-management/project-management-overview)
 - [Project Operations learning paths](/training/browse/?expanded=dynamics-365&products=dynamics-project-operations&resource_type=learning%20path)
-- Find definitions of terminology that is used in content for *govern projects* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
+- Find definitions of terminology that is used in content for *Develop project strategy* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Project phases](glossary.md#project-phases)
-    - [Work breakdown structure](glossary.md#work-breakdown-structure-wbs) (WBS)
-    - [Scope](glossary.md#scope)
-    - [Deliverables](glossary.md#deliverables)
-    - [Schedule](glossary.md#schedule)
-    - [Project contract](glossary.md#schedule)
-    - [Project type](glossary.md#schedule)
-    - [Project manager](glossary.md#schedule)
-    - [Project resource](glossary.md#schedule)
+  - [Project phases](glossary.md#project-phases)
+  - [Work breakdown structure](glossary.md#work-breakdown-structure-wbs) (WBS)
+  - [Scope](glossary.md#scope)
+  - [Deliverables](glossary.md#deliverables)
+  - [Schedule](glossary.md#schedule)
+  - [Project contract](glossary.md#schedule)
+  - [Project type](glossary.md#schedule)
+  - [Project manager](glossary.md#schedule)
+  - [Project resource](glossary.md#schedule)
 
 <!-- ## Tags
 
@@ -160,4 +160,4 @@ Principal author:
 
 Other contributors:
 
-- Lalitha Chintamaneni \| Fast Track Solution Architect
+- Lalitha Chintamaneni \| Fast Track Solution Architect 

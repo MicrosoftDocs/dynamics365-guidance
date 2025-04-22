@@ -2,7 +2,7 @@
 title: Stay current with Dynamics 365 service updates
 description: Learn about the types, cadence, and benefits of service updates for Dynamics 365, and how to plan, test, and deploy them in your environment.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 11/12/2024
 ms.topic: conceptual
 ms.custom:

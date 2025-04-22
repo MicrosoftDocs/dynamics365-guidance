@@ -2,7 +2,7 @@
 title: Checklist for transitioning to support
 description: This article is a checklist for transitioning to support at the end of an implementation project of a business solution. 
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/31/2024
 ms.topic: conceptual
 ms.custom:

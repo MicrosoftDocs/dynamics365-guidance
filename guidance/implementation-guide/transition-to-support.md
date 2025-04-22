@@ -2,7 +2,7 @@
 title: Create a support strategy for your Dynamics 365 solution
 description: Learn how to plan, design, and run a support model for your Dynamics 365 solution by defining the scope, team, processes, and tools.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/31/2024
 ms.topic: conceptual
 ms.custom:

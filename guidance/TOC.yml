@@ -3,1143 +3,1047 @@ items:
     items:
       - name: Dynamics 365 guidance documentation
         href: index.yml
-# Get started
       - name: Get started
         items:
-        - name: Overview
-          href: overview.md
-        - name: Copilot experiences in Dynamics 365
-          href: /dynamics365/copilot/index?toc=/dynamics365/guidance/toc.json
-        - name: Common terms and definitions
-          href: business-processes/glossary.md
-        - name: Find training
-          href: /dynamics365/get-started/training/index?toc=/dynamics365/guidance/toc.json
-        - name: Find Microsoft Credentials
-          href: roles/certifications.md
-        # - name: Find assessments
-        #   href: resources/assessments.md
-        # - name: Find TechTalk videos
-        #   href: roles/techtalk-videos.md
-        - name: Roles in Dynamics 365
-          href: roles/overview.md
-        - name: Functional consultant
-          href: roles/functional-consultant.md
-        # - name: Finance and operations consultants
-        #   href: roles/fin-ops-fundamentals.md
-        - name: Solution architect
-          href: roles/solution-architect.md
-        - name: Developer
-          href: /dynamics365/get-started/developers?toc=/dynamics365/guidance/toc.json
-        - name: Join the community in Viva Engage
-          href: roles/join-viva-engage.md
-# Implementation guide
+          - name: Overview
+            href: overview.md
+          - name: Copilot experiences in Dynamics 365
+            href: /dynamics365/copilot/index?toc=/dynamics365/guidance/toc.json
+          - name: Common terms and definitions
+            href: business-processes/glossary.md
+          - name: Find training
+            href: /dynamics365/get-started/training/index?toc=/dynamics365/guidance/toc.json
+          - name: Find Microsoft Credentials
+            href: roles/certifications.md
+          - name: Roles in Dynamics 365
+            href: roles/overview.md
+          - name: Functional consultant
+            href: roles/functional-consultant.md
+          - name: Solution architect
+            href: roles/solution-architect.md
+          - name: Developer
+            href: /dynamics365/get-started/developers?toc=/dynamics365/guidance/toc.json
+          - name: Join the community in Viva Engage
+            href: roles/join-viva-engage.md
       - name: Implementation guide
         items:
-        - name: Overview
-          href: implementation-guide/overview.md
-        - name: Introduction to the implementation guide
-          href: implementation-guide/introduction.md
-        - name: Introduction to Success by Design
-          href: implementation-guide/success-by-design.md
-#          - name: Drive app value
-#            href: implementation-guide/drive-app-value.md
-#          - name: Implementing cloud solutions
-#            href: implementation-guide/implementing-cloud-solutions.md
-#          - name: Implementation strategy
-#            href: implementation-guide/implementation-strategy.md
-    #      - name: Data management
-    #        href: implementation-guide/data-management.md
-#          - name: Application lifecycle management
-#            href: implementation-guide/application-lifecycle-management.md
-#          - name: Integrate with other solutions
-#            href: implementation-guide/integrate-other-solutions.md
-#          - name: A performing solution, beyond infrastructure
-#            href: implementation-guide/performing-solution.md
-# Success by Design phases
-        - name: Strategize
-          items:
-          - name: Implement cloud solutions
-#            href: implementation-guide/implementing-cloud-solutions.md
+          - name: Overview
+            href: implementation-guide/overview.md
+          - name: Introduction to the implementation guide
+            href: implementation-guide/introduction.md
+          - name: Introduction to Success by Design
+            href: implementation-guide/success-by-design.md
+          - name: Strategize
             items:
-            - name: Implement cloud solutions with Dynamics 365
-              href: implementation-guide/implementing-cloud-solutions.md
-            - name: Adopt a cloud mindset
-              href: implementation-guide/implementing-cloud-solutions-adopt-cloud-mindset.md
-            - name: Cloud implementation considerations
-              href: implementation-guide/implementing-cloud-solutions-cloud-implementation.md
-            - name: Customize and extend cloud solutions
-              href: implementation-guide/implementing-cloud-solutions-customize-extend-cloud-applications.md
-            - name: Operate in the cloud
-              href: implementation-guide/implementing-cloud-solutions-operate-in-cloud.md
-            - name: Stay evergreen
-              href: implementation-guide/implementing-cloud-solutions-evergreen-cloud.md
-            - name: Migrate from on-premises
-              href: implementation-guide/implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md
-            - name: Checklist
-              href: implementation-guide/implementing-cloud-solutions-checklist.md
-            - name: Case study
-              href: implementation-guide/implementing-cloud-solutions-case-study.md
-          - name: Drive app value
+              - name: Implement cloud solutions
+                items:
+                  - name: Implement cloud solutions with Dynamics 365
+                    href: implementation-guide/implementing-cloud-solutions.md
+                  - name: Adopt a cloud mindset
+                    href: implementation-guide/implementing-cloud-solutions-adopt-cloud-mindset.md
+                  - name: Cloud implementation considerations
+                    href: implementation-guide/implementing-cloud-solutions-cloud-implementation.md
+                  - name: Customize and extend cloud solutions
+                    href: implementation-guide/implementing-cloud-solutions-customize-extend-cloud-applications.md
+                  - name: Operate in the cloud
+                    href: implementation-guide/implementing-cloud-solutions-operate-in-cloud.md
+                  - name: Stay evergreen
+                    href: implementation-guide/implementing-cloud-solutions-evergreen-cloud.md
+                  - name: Migrate from on-premises
+                    href: implementation-guide/implementing-cloud-solutions-upgrade-from-onpremises-to-cloud.md
+                  - name: Checklist
+                    href: implementation-guide/implementing-cloud-solutions-checklist.md
+                  - name: Case study
+                    href: implementation-guide/implementing-cloud-solutions-case-study.md
+              - name: Drive app value
+                items:
+                  - name: Overview
+                    href: implementation-guide/drive-app-value.md
+                  - name: Approach to digital transformation
+                    href: implementation-guide/drive-app-value-approach-to-digital-transformation.md
+                  - name: Embrace the mindset of constant change
+                    href: implementation-guide/drive-app-value-change-streams.md
+                  - name: Understand the transformation map
+                    href: implementation-guide/drive-app-value-transformation-map.md
+                  - name: Phases and increments
+                    href: implementation-guide/drive-app-value-phases-increments.md
+                  - name: Minimal viable product strategy
+                    href: implementation-guide/drive-app-value-minimal-viable-product-strategy.md
+                  - name: Drive expansion
+                    href: implementation-guide/drive-app-value-drive-expansion.md
+                  - name: Checklist
+                    href: implementation-guide/drive-app-value-checklist.md
+                  - name: Case study
+                    href: implementation-guide/drive-app-value-case-study.md
+              - name: Implementation strategy
+                items:
+                  - name: Implementation strategy overview
+                    href: implementation-guide/implementation-strategy.md
+                  - name: Choose a methodology
+                    href: implementation-guide/implementation-strategy-choose-methodology.md
+                  - name: Define a strategy for deployment and release
+                    href: implementation-guide/implementation-strategy-define-strategy-deployment-release.md
+                  - name: Define a strategy for adoption and change management
+                    href: implementation-guide/implementation-strategy-define-strategy-adoption-change-management.md
+          - name: Initiate
             items:
-            - name: Overview
-              href: implementation-guide/drive-app-value.md
-            - name: Approach to digital transformation
-              href: implementation-guide/drive-app-value-approach-to-digital-transformation.md
-            - name: Embrace the mindset of constant change
-              href: implementation-guide/drive-app-value-change-streams.md
-            - name: Understand the transformation map
-              href: implementation-guide/drive-app-value-transformation-map.md
-            - name: Phases and increments
-              href: implementation-guide/drive-app-value-phases-increments.md
-            - name: Minimal viable product strategy
-              href: implementation-guide/drive-app-value-minimal-viable-product-strategy.md
-            - name: Drive expansion
-              href: implementation-guide/drive-app-value-drive-expansion.md
-            - name: Checklist
-              href: implementation-guide/drive-app-value-checklist.md
-            - name: Case study
-              href: implementation-guide/drive-app-value-case-study.md
-          - name: Implementation strategy
+              - name: Solution architecture design pillars
+                items:
+                  - name: Introduction to solution architecture
+                    href: implementation-guide/solution-architecture-design-pillars.md
+                  - name: Vision and strategies
+                    href: implementation-guide/solution-architecture-design-pillars-vision-strategies.md
+                  - name: Processes
+                    href: implementation-guide/solution-architecture-design-pillars-processes.md
+                  - name: People
+                    href: implementation-guide/solution-architecture-design-pillars-people.md
+                  - name: Data
+                    href: implementation-guide/solution-architecture-design-pillars-data.md
+                  - name: Technologies
+                    href: implementation-guide/solution-architecture-design-pillars-technology.md
+                  - name: Methodologies
+                    href: implementation-guide/solution-architecture-design-pillars-methodology.md
+                  - name: Create a functional and technical design document
+                    href: patterns/create-functional-technical-design-document.md
+              - name: Process-focused solution
+                items:
+                  - name: Implement based on business processes
+                    href: implementation-guide/process-focused-solution.md
+                  - name: Optimize business processes
+                    href: implementation-guide/process-focused-solution-opportunity-optimization.md
+                  - name: Base the implementation lifecycle on processes
+                    href: implementation-guide/process-focused-solution-implementation-lifecycle.md
+                  - name: Build quality with optimized and standardized business processes
+                    href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
+                  - name: Do fit-to-standard and fit-gap analysis
+                    href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
+                  - name: Define your requirements
+                    href: implementation-guide/process-focused-solution-define-requirements.md
+                  - name: Learn about process maturity
+                    href: business-processes/process-maturity-introduction.md
+                  - name: Standardize business processes during an implementation
+                    href: business-processes/standardize-business-processes.md
+                  - name: Checklist for process-focused solutions
+                    href: implementation-guide/process-focused-solution-checklist.md
+                  - name: Case study
+                    href: implementation-guide/process-focused-solution-case-study-journey.md
+              - name: Environment strategy
+                items:
+                  - name: Environment strategy overview
+                    href: implementation-guide/environment-strategy-overview.md
+                  - name: Tenant strategy
+                    href: implementation-guide/environment-strategy-tenant-strategy.md
+                  - name: Key factors affected by an environment strategy
+                    href: implementation-guide/environment-strategy-key-factors-affected.md
+                  - name: Global deployment scenarios
+                    href: implementation-guide/environment-strategy-global-deployment-scenarios.md
+                  - name: Environment lifecycle scenarios
+                    href: implementation-guide/environment-strategy-lifecycle-scenarios.md
+                  - name: Product-specific guidance
+                    href: implementation-guide/environment-strategy-guidance-product.md
+                  - name: Environment strategy checklist
+                    href: implementation-guide/environment-strategy-checklist.md
+                  - name: Environment strategy case study
+                    href: implementation-guide/environment-strategy-case-study.md
+              - name: Project governance
+                items:
+                  - name: Introduction to project governance
+                    href: implementation-guide/project-governance.md
+                  - name: Project goals
+                    href: implementation-guide/project-governance-project-goals.md
+                  - name: Project organization
+                    href: implementation-guide/project-governance-project-organization.md
+                  - name: Project approach
+                    href: implementation-guide/project-governance-project-approach.md
+                  - name: Classic structures
+                    href: implementation-guide/project-governance-classic-structures.md
+                  - name: Key project areas
+                    href: implementation-guide/project-governance-key-project-areas.md
+                  - name: Project plan
+                    href: implementation-guide/project-governance-project-plan.md
+                  - name: Conclusion
+                    href: implementation-guide/project-governance-conclusion.md
+                  - name: Checklist
+                    href: implementation-guide/project-governance-checklist.md
+                  - name: Case study
+                    href: implementation-guide/project-governance-case-study.md
+              - name: Manage change
+                items:
+                  - name: Change management overview
+                    href: implementation-guide/change-management.md
+                  - name: Assess business process changes
+                    href: implementation-guide/change-management-assessing-business-process-change.md
+                  - name: Manage project goals and readiness
+                    href: implementation-guide/change-management-project-goals-readiness.md
+                  - name: Manage the project organization
+                    href: implementation-guide/change-management-project-organization.md
+                  - name: Provide an overview of the solution
+                    href: implementation-guide/change-management-solution-overiew.md
+                  - name: Manage changes in the project plan
+                    href: implementation-guide/change-management-project-plan.md
+                  - name: Set the ground rules
+                    href: implementation-guide/change-management-set-ground-rules.md
+                  - name: Managing expectations
+                    href: implementation-guide/change-management-manage-expectations.md
+                  - name: Manage progress, obstacles, and planning
+                    href: implementation-guide/change-management-progress-obstacles-planning.md
+                  - name: Test the solution
+                    href: implementation-guide/change-management-test-solution.md
+                  - name: Get the organization ready
+                    href: implementation-guide/change-management-get-ready.md
+                  - name: Manage changes during transition and handover
+                    href: implementation-guide/change-management-transition-handover.md
+                  - name: Checklist
+                    href: implementation-guide/change-management-checklist.md
+                  - name: Case study
+                    href: implementation-guide/change-management-case-study.md
+              - name: Define the organizational structure of the business
+                href: organizational-strategy/define-organizational-strategy.md
+          - name: Implement
             items:
-            - name: Implementation strategy overview
-              href: implementation-guide/implementation-strategy.md
-            - name: Choose a methodology
-              href: implementation-guide/implementation-strategy-choose-methodology.md
-            - name: Define a strategy for deployment and release
-              href: implementation-guide/implementation-strategy-define-strategy-deployment-release.md
-            - name: Define a strategy for adoption and change management
-              href: implementation-guide/implementation-strategy-define-strategy-adoption-change-management.md
-#          - name: Organizational strategy
-#            items:
-#            - name: Define the organizational structure
-#              href: organizational-strategy/define-organizational-strategy.md
-#            - name: Planning multiple legal entities
-#              href: organizational-strategy/define-organizational-strategy.md
-#            - name: Planning legal entities in multiple geographies
-#              href: organizational-strategy/define-organizational-strategy.md
-        - name: Initiate
-          items:
-          - name: Solution architecture design pillars
+              - name: Application lifecycle management
+                items:
+                  - name: Application lifecycle management overview
+                    href: implementation-guide/application-lifecycle-management.md
+                  - name: ALM strategy for Dynamics 365 solutions
+                    href: implementation-guide/application-lifecycle-management-product.md
+                  - name: ALM workshop
+                    href: implementation-guide/application-lifecycle-management-workshop.md
+                  - name: Checklist
+                    href: implementation-guide/application-lifecycle-management-checklist.md
+                  - name: Case study
+                    href: implementation-guide/application-lifecycle-management-case-study.md
+              - name: A performing solution, beyond infrastructure
+                items:
+                  - name: Performance overview
+                    href: implementation-guide/performing-solution.md
+                  - name: Prioritize for performance
+                    href: implementation-guide/performing-solution-prioritize-performance.md
+                  - name: Design for performance
+                    href: implementation-guide/performing-solution-design-for-performance.md
+                  - name: Test for performance
+                    href: implementation-guide/performing-solution-performance-testing-approach.md
+                  - name: Address performance issues
+                    href: implementation-guide/performing-solution-address-performance-issues.md
+                  - name: Product-specific guidance
+                    href: implementation-guide/performing-solution-product-specific-guidance.md
+                  - name: FastTrack performance workshop
+                    href: implementation-guide/performing-solution-workshop-strategy.md
+                  - name: Checklist
+                    href: implementation-guide/performing-solution-product-checklist.md
+                  - name: Case study
+                    href: implementation-guide/performing-solution-product-case-study.md
+              - name: Extend your solution
+                items:
+                  - name: Extend your solution - overview
+                    href: implementation-guide/extend-your-solution.md
+                  - name: Scenarios for extending Dynamics 365
+                    href: implementation-guide/extend-your-solution-scenarios.md
+                  - name: Extend finance and operations apps
+                    href: implementation-guide/extend-your-solution-guidance-product-fo.md
+                  - name: Extend customer engagement apps
+                    href: implementation-guide/extend-your-solution-guidance-product-ce.md
+                  - name: Extension checklist
+                    href: implementation-guide/extend-your-solution-checklist.md
+                  - name: Extension case study
+                    href: implementation-guide/extend-your-solution-case-study.md
+              - name: Integrate with other solutions
+                items:
+                  - name: Integrate with other solutions - overview
+                    href: implementation-guide/integrate-other-solutions.md
+                  - name: Define business goals
+                    href: implementation-guide/integrate-other-solutions-business-goals.md
+                  - name: Choose a platform
+                    href: implementation-guide/integrate-other-solutions-choose-platform.md
+                  - name: Choose a design
+                    href: implementation-guide/integrate-other-solutions-choose-design.md
+                  - name: Choose a pattern
+                    href: implementation-guide/integrate-other-solutions-choose-pattern.md
+                  - name: Challenges
+                    href: implementation-guide/integrate-other-solutions-challenges.md
+                  - name: Product-specific guidance
+                    href: implementation-guide/integrate-other-solutions-guidance-product.md
+                  - name: Checklist
+                    href: implementation-guide/integrate-other-solutions-checklist.md
+                  - name: Case study
+                    href: implementation-guide/integrate-other-solutions-case-study.md
+              - name: Testing strategy
+                items:
+                  - name: Testing strategy overview
+                    href: implementation-guide/testing-strategy.md
+                  - name: Types of tests
+                    href: implementation-guide/testing-strategy-test-types.md
+                  - name: Build the test plan
+                    href: implementation-guide/testing-strategy-planning.md
+                  - name: Run the tests
+                    href: implementation-guide/testing-strategy-run-tests.md
+                  - name: Regression testing
+                    href: implementation-guide/testing-regression-tooling.md
+                  - name: Checklist
+                    href: implementation-guide/testing-strategy-checklist.md
+                  - name: Case study
+                    href: implementation-guide/testing-strategy-case-study.md
+          - name: Prepare
             items:
-              - name: Introduction to solution architecture
-                href: implementation-guide/solution-architecture-design-pillars.md
-              - name: Vision and strategies
-                href: implementation-guide/solution-architecture-design-pillars-vision-strategies.md
-              - name: Processes
-                href: implementation-guide/solution-architecture-design-pillars-processes.md
-              - name: People
-                href: implementation-guide/solution-architecture-design-pillars-people.md
-              - name: Data
-                href: implementation-guide/solution-architecture-design-pillars-data.md
-              - name: Technologies
-                href: implementation-guide/solution-architecture-design-pillars-technology.md
-              - name: Methodologies
-                href: implementation-guide/solution-architecture-design-pillars-methodology.md
-              - name: Create a functional and technical design document
-                href: patterns/create-functional-technical-design-document.md
-          - name: Process-focused solution
+              - name: Prepare to go live
+                items:
+                  - name: Prepare for go-live
+                    href: implementation-guide/prepare-to-go-live.md
+                  - name: Production environment readiness
+                    href: implementation-guide/prepare-go-live-production-environment-readiness.md
+                  - name: Cutover strategy
+                    href: implementation-guide/prepare-go-live-cutover-strategy.md
+                  - name: Go-live checklist
+                    href: implementation-guide/prepare-go-live-checklist.md
+                  - name: Case study
+                    href: implementation-guide/prepare-go-live-case-study.md
+              - name: Training strategy
+                items:
+                  - name: Introduction to the training strategy
+                    href: implementation-guide/training-strategy.md
+                  - name: Create a training plan
+                    href: implementation-guide/training-strategy-training-plan-scope-and-audience.md
+                  - name: Define the training schedule
+                    href: implementation-guide/training-strategy-training-plan-schedule-and-materials.md
+                  - name: Delivery approach for training
+                    href: implementation-guide/training-strategy-training-plan-delivery-approach.md
+                  - name: Training process and best practices
+                    href: implementation-guide/training-strategy-process-and-best-practices.md
+                  - name: Checklist
+                    href: implementation-guide/training-strategy-checklist.md
+                  - name: Case study
+                    href: implementation-guide/training-strategy-case-study.md
+          - name: Operate
             items:
-            - name: Implement based on business processes
-              href: implementation-guide/process-focused-solution.md
-            - name: Optimize business processes
-              href: implementation-guide/process-focused-solution-opportunity-optimization.md
-            - name: Base the implementation lifecycle on processes
-              href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-            - name: Build quality with optimized and standardized business processes
-              href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-            - name: Do fit-to-standard and fit-gap analysis
-              href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
-            - name: Define your requirements
-              href: implementation-guide/process-focused-solution-define-requirements.md
-            - name: Learn about process maturity
-              href: business-processes/process-maturity-introduction.md
-            - name: Standardize business processes during an implementation
-              href: business-processes/standardize-business-processes.md  
-            - name: Checklist for process-focused solutions
-              href: implementation-guide/process-focused-solution-checklist.md
-            - name: Case study
-              href: implementation-guide/process-focused-solution-case-study-journey.md
-          - name: Environment strategy
-            items:
-            - name: Environment strategy overview
-              href: implementation-guide/environment-strategy-overview.md
-            - name: Tenant strategy
-              href: implementation-guide/environment-strategy-tenant-strategy.md
-            - name: Key factors affected by an environment strategy
-              href: implementation-guide/environment-strategy-key-factors-affected.md
-            - name: Global deployment scenarios
-              href: implementation-guide/environment-strategy-global-deployment-scenarios.md
-            - name: Environment lifecycle scenarios
-              href: implementation-guide/environment-strategy-lifecycle-scenarios.md
-            - name: Product-specific guidance
-              href: implementation-guide/environment-strategy-guidance-product.md
-            - name: Environment strategy checklist
-              href: implementation-guide/environment-strategy-checklist.md
-            - name: Environment strategy case study
-              href: implementation-guide/environment-strategy-case-study.md
-          - name: Project governance
-            items:
-              - name: Introduction to project governance
-                href: implementation-guide/project-governance.md
-              - name: Project goals
-                href: implementation-guide/project-governance-project-goals.md
-              - name: Project organization
-                href: implementation-guide/project-governance-project-organization.md
-              - name: Project approach
-                href: implementation-guide/project-governance-project-approach.md
-              - name: Classic structures
-                href: implementation-guide/project-governance-classic-structures.md
-              - name: Key project areas
-                href: implementation-guide/project-governance-key-project-areas.md
-              - name: Project plan
-                href: implementation-guide/project-governance-project-plan.md
-              - name: Conclusion
-                href: implementation-guide/project-governance-conclusion.md
-              - name: Checklist
-                href: implementation-guide/project-governance-checklist.md
-              - name: Case study
-                href: implementation-guide/project-governance-case-study.md
-          - name: Manage change
-            items:
-            - name: Change management overview
-              href: implementation-guide/change-management.md
-            - name: Assess business process changes
-              href: implementation-guide/change-management-assessing-business-process-change.md
-            - name: Manage project goals and readiness
-              href: implementation-guide/change-management-project-goals-readiness.md
-            - name: Manage the project organization
-              href: implementation-guide/change-management-project-organization.md
-            - name: Provide an overview of the solution
-              href: implementation-guide/change-management-solution-overiew.md
-            - name: Manage changes in the project plan
-              href: implementation-guide/change-management-project-plan.md
-            - name: Set the ground rules
-              href: implementation-guide/change-management-set-ground-rules.md
-            - name: Managing expectations
-              href: implementation-guide/change-management-manage-expectations.md
-            - name: Manage progress, obstacles, and planning
-              href: implementation-guide/change-management-progress-obstacles-planning.md
-            - name: Test the solution
-              href: implementation-guide/change-management-test-solution.md
-            - name: Get the organization ready
-              href: implementation-guide/change-management-get-ready.md
-            - name: Manage changes during transition and handover
-              href: implementation-guide/change-management-transition-handover.md
-            - name: Checklist
-              href: implementation-guide/change-management-checklist.md
-            - name: Case study
-              href: implementation-guide/change-management-case-study.md
-          - name: Define the organizational structure of the business
-            href: organizational-strategy/define-organizational-strategy.md
-        - name: Implement
-          items:
-          - name: Application lifecycle management
-            items:
-            - name: Application lifecycle management overview
-              href: implementation-guide/application-lifecycle-management.md
-            - name: ALM strategy for Dynamics 365 solutions
-              href: implementation-guide/application-lifecycle-management-product.md
-            - name: ALM workshop
-              href: implementation-guide/application-lifecycle-management-workshop.md
-            - name: Checklist
-              href: implementation-guide/application-lifecycle-management-checklist.md
-            - name: Case study
-              href: implementation-guide/application-lifecycle-management-case-study.md
-          - name: A performing solution, beyond infrastructure
-            items:
-            - name: Performance overview
-              href: implementation-guide/performing-solution.md
-            - name: Prioritize for performance
-              href: implementation-guide/performing-solution-prioritize-performance.md
-            - name: Design for performance
-              href: implementation-guide/performing-solution-design-for-performance.md
-            - name: Test for performance
-              href: implementation-guide/performing-solution-performance-testing-approach.md
-            - name: Address performance issues
-              href: implementation-guide/performing-solution-address-performance-issues.md
-            - name: Product-specific guidance
-              href: implementation-guide/performing-solution-product-specific-guidance.md
-            - name: FastTrack performance workshop
-              href: implementation-guide/performing-solution-workshop-strategy.md
-            - name: Checklist
-              href: implementation-guide/performing-solution-product-checklist.md
-            - name: Case study
-              href: implementation-guide/performing-solution-product-case-study.md
-          - name: Extend your solution
-            items:
-            - name: Extend your solution - overview
-              href: implementation-guide/extend-your-solution.md
-            - name: Scenarios for extending Dynamics 365
-              href: implementation-guide/extend-your-solution-scenarios.md
-            - name: Extend finance and operations apps
-              href: implementation-guide/extend-your-solution-guidance-product-fo.md
-            - name: Extend customer engagement apps
-              href: implementation-guide/extend-your-solution-guidance-product-ce.md
-            - name: Extension checklist
-              href: implementation-guide/extend-your-solution-checklist.md
-            - name: Extension case study
-              href: implementation-guide/extend-your-solution-case-study.md
-          - name: Integrate with other solutions
-            items:
-            - name: Integrate with other solutions - overview
-              href: implementation-guide/integrate-other-solutions.md
-            - name: Define business goals
-              href: implementation-guide/integrate-other-solutions-business-goals.md
-            - name: Choose a platform
-              href: implementation-guide/integrate-other-solutions-choose-platform.md
-            - name: Choose a design
-              href: implementation-guide/integrate-other-solutions-choose-design.md
-            - name: Choose a pattern
-              href: implementation-guide/integrate-other-solutions-choose-pattern.md
-            - name: Challenges
-              href: implementation-guide/integrate-other-solutions-challenges.md
-            - name: Product-specific guidance
-              href: implementation-guide/integrate-other-solutions-guidance-product.md
-            - name: Checklist
-              href: implementation-guide/integrate-other-solutions-checklist.md
-            - name: Case study
-              href: implementation-guide/integrate-other-solutions-case-study.md
-          - name: Testing strategy
-            items:
-            - name: Testing strategy overview
-              href: implementation-guide/testing-strategy.md
-            - name: Types of tests
-              href: implementation-guide/testing-strategy-test-types.md
-            - name: Build the test plan
-              href: implementation-guide/testing-strategy-planning.md
-            - name: Run the tests
-              href: implementation-guide/testing-strategy-run-tests.md
-            - name: Regression testing
-              href: implementation-guide/testing-regression-tooling.md
-            - name: Checklist
-              href: implementation-guide/testing-strategy-checklist.md
-            - name: Case study
-              href: implementation-guide/testing-strategy-case-study.md
-#            - name: Best practice - use Azure DevOps to track test cases and results
-#              href: fasttrack/get-started-overview.md
-        - name: Prepare
-          items:
-          - name: Prepare to go live
-            items:
-              - name: Prepare for go-live
-                href: implementation-guide/prepare-to-go-live.md
-              - name: Production environment readiness
-                href: implementation-guide/prepare-go-live-production-environment-readiness.md
-              - name: Cutover strategy
-                href: implementation-guide/prepare-go-live-cutover-strategy.md
-              - name: Go-live checklist
-                href: implementation-guide/prepare-go-live-checklist.md
-              - name: Case study
-                href: implementation-guide/prepare-go-live-case-study.md
-          - name: Training strategy
-            items:
-              - name: Introduction to the training strategy
-                href: implementation-guide/training-strategy.md
-              - name: Create a training plan
-                href: implementation-guide/training-strategy-training-plan-scope-and-audience.md
-              - name: Define the training schedule
-                href: implementation-guide/training-strategy-training-plan-schedule-and-materials.md
-              - name: Delivery approach for training
-                href: implementation-guide/training-strategy-training-plan-delivery-approach.md
-              - name: Training process and best practices
-                href: implementation-guide/training-strategy-process-and-best-practices.md
-              - name: Checklist
-                href: implementation-guide/training-strategy-checklist.md
-              - name: Case study
-                href: implementation-guide/training-strategy-case-study.md
-        - name: Operate
-          items:
-          - name: Service the solution
-            items:
-              - name: Service the solution - Overview
-                href: implementation-guide/service-solution.md
-              - name: Monitor service health
-                href: implementation-guide/service-solution-monitor-service-health.md
-              - name: Manage service updates
-                href: implementation-guide/service-solution-service-updates.md
-              - name: Maintain environments
-                href: implementation-guide/service-solution-environment-maintenance.md
-              - name: Continue the business application journey
-                href: implementation-guide/service-solution-continue-the-business-application-journey.md
-              - name: Case study
-                href: implementation-guide/service-solution-case-study.md
-          - name: Transition to support
-            items:
-            - name: Transition to support - Overview
-              href: implementation-guide/transition-to-support.md
-            - name: Support scope
-              href: implementation-guide/transition-to-support-scope.md
-            - name: Support operations
-              href: implementation-guide/transition-to-support-operations.md
-            - name: Support models
-              href: implementation-guide/transition-to-support-models.md
-            - name: Support organization
-              href: implementation-guide/transition-to-support-team.md
-            - name: Checklist
-              href: implementation-guide/transition-to-support-checklist.md
-            - name: Case study
-              href: implementation-guide/transition-to-support-case-study.md
-          - name: Manage data
-            items:
-            - name: Overview of data management
-              href: implementation-guide/data-management.md
-            - name: Architecture
-              href: implementation-guide/data-management-architecture.md
-            - name: Configuration data and data migration
-              href: implementation-guide/data-management-configuration-data-migration.md
-            - name: Guidance for customer engagement apps
-              href: implementation-guide/data-management-product-specific-ce.md
-            - name: Guidance for finance and operations apps
-              href: implementation-guide/data-management-product-specific-fo.md
-            - name: Checklist
-              href: implementation-guide/data-management-check-list.md
-            - name: Case study
-              href: implementation-guide/data-management-case-study.md
-# FIT
+              - name: Service the solution
+                items:
+                  - name: Service the solution - Overview
+                    href: implementation-guide/service-solution.md
+                  - name: Monitor service health
+                    href: implementation-guide/service-solution-monitor-service-health.md
+                  - name: Manage service updates
+                    href: implementation-guide/service-solution-service-updates.md
+                  - name: Maintain environments
+                    href: implementation-guide/service-solution-environment-maintenance.md
+                  - name: Continue the business application journey
+                    href: implementation-guide/service-solution-continue-the-business-application-journey.md
+                  - name: Case study
+                    href: implementation-guide/service-solution-case-study.md
+              - name: Transition to support
+                items:
+                  - name: Transition to support - Overview
+                    href: implementation-guide/transition-to-support.md
+                  - name: Support scope
+                    href: implementation-guide/transition-to-support-scope.md
+                  - name: Support operations
+                    href: implementation-guide/transition-to-support-operations.md
+                  - name: Support models
+                    href: implementation-guide/transition-to-support-models.md
+                  - name: Support organization
+                    href: implementation-guide/transition-to-support-team.md
+                  - name: Checklist
+                    href: implementation-guide/transition-to-support-checklist.md
+                  - name: Case study
+                    href: implementation-guide/transition-to-support-case-study.md
+              - name: Manage data
+                items:
+                  - name: Overview of data management
+                    href: implementation-guide/data-management.md
+                  - name: Architecture
+                    href: implementation-guide/data-management-architecture.md
+                  - name: Configuration data and data migration
+                    href: implementation-guide/data-management-configuration-data-migration.md
+                  - name: Guidance for customer engagement apps
+                    href: implementation-guide/data-management-product-specific-ce.md
+                  - name: Guidance for finance and operations apps
+                    href: implementation-guide/data-management-product-specific-fo.md
+                  - name: Checklist
+                    href: implementation-guide/data-management-check-list.md
+                  - name: Case study
+                    href: implementation-guide/data-management-case-study.md
       - name: Implementation tools and samples
         items:
-        - name: Overview
-          href: resources/index.yml
-        - name: Introduction
-          href: resources/overview.md
-        - name: Administration
-          items:
-          - name: Storage capacity enforcement module for Power Platform CoE Starter Kit
-            href: resources\center-of-excellence-storage-capacity-enforcement.md
-#FTIP
-        - name: Implementation Portal
-          items:
-          - name: Dynamics 365 Implementation Portal
-            href: implementation-portal/overview.md
-          - name: Sign in
-            href: implementation-portal/sign-up.md
-          - name: Create or join a project
-            href: implementation-portal/onboard-project.md
-          - name: Nominate for FastTrack
-            href: implementation-portal/nominations.md
-          - name: Consent to data sharing
-            href: implementation-portal/data-sharing-consent.md
-          - name: Manage projects
-            href: implementation-portal/manage-projects.md
-          - name: Project profiling
-            href: implementation-portal/project-profiling.md
-          - name: Conduct project reviews
-            href: implementation-portal/conduct-project-reviews.md
-          - name: Conduct Solution BluePrint Review Workshop
-            href: implementation-portal/conduct-solution-blueprint-review-workshop.md
-          - name: Analyze with telemetry insights
-            href: implementation-portal/telemetry-insights.md
-          - name: Set up telemetry insights
-            href: implementation-portal/telemetry-insights-set-up.md
-          - name: Copilot in Implementation Portal
-            href: implementation-portal/implementation-copilot.md
-
-# 14733
-        - name: Customer Service
-          items:
-          - name: Resources for Customer Service
-            href: resources/cs-index.yml
-# Sample and tools
-          - name: Samples and tools
+          - name: Overview
+            href: resources/index.yml
+          - name: Introduction
+            href: resources/overview.md
+          - name: Administration
             items:
-              - name: Samples and tools overview
-                href: resources/component-library.md
-              - name: Unified routing
-                items:
-                - name: Channel-based presence
-                  href: resources/cs-channel-based-presence.md
-                - name: Set up agent capacity for custom entities
-                  href: resources/cs-route-release-capacity-in-ur.md
-              - name: Omnichannel
-                items:
-                - name: Custom record identification rule
-                  href: resources/cs-omnichannel-custom-record-identification-rule.md
-                - name: Sample context parsing
-                  href: resources/cs-omnichannel-sample-context-parsing.md
-                - name: LiveChat widget customization samples
-                  href: resources/cs-omnichannel-live-chat-widget-samples.md
-                - name: AgentScript and macro samples
-                  href: resources/cs-agent-script-macro-sample.md
-              - name: Artificial intelligence
-                items:
-                - name: Route or deflect cases with artificial intelligence
-                  href: resources/cs-ai-case-deflection.md
-                - name: Summarize KB articles with GPT
-                  href: resources/ai-summarize-knowledge-base-articles.md
-                - name: Cross-environment collaboration with Copilot
-                  href: resources/ai-powered-cross-environment-collaboration.md
-              - name: Copilot Studio
-                items:
-                - name: DTMF aggregation by Bot Framework skills
-                  href: resources/copilot-studio-bot-framework-composer-skill.md
-                - name: Multilanguage voice bot
-                  href: resources/copilot-studio-multilanguage-bot.md
-                - name: Play secured audio file
-                  href: resources/copilot-studio-play-audio-file.md
-                - name: Better interpretation of alphanumeric values with generative AI
-                  href: resources/cs-mcs-alphanumentity.md    
-              - name: Application Insights
-                items:
-                - name: Sample queries for conversation diagnostics
-                  href: resources/conversation-diagnostics-sample-queries.md
-                - name: Application Insights telemetry with Microsoft Dataverse
-                  href: resources/cs-dataverse-appinsights.md
-                - name: Application Insights telemetry with Microsoft Copilot Studio
-                  href: resources/copilot-studio-appinsights.md
-              - name: Automation
-                items:
-                - name: Automate agent tasks
-                  href: resources/cs-pad-automation.md
-              - name: Channel Integration Framework 2.0
-                items:
-                - name: Set up the simulator for Channel Integration Framework v. 2.0
-                  href: resources/cs-set-up-cif2-simulator.md
-                - name: Set up click-to-run outbound calls
-                  href: resources/cs-set-up-outbound-calls.md
-                - name: Set up the sample adaptor for Channel Integration Framework
-                  href: resources/cs-set-up-cif2-sampleadaptor.md                 
-# Copilot in digital contact centers
-          - name: Implement Copilot in digital contact centers
+              - name: Storage capacity enforcement module for Power Platform CoE Starter Kit
+                href: resources\center-of-excellence-storage-capacity-enforcement.md
+          - name: Implementation Portal
             items:
-            - name: Copilot onboarding guide for digital contact centers
-              href: resources/cs-contact-center-copilot-onboarding-guide.md
-            - name: Set up your tools and infrastructure for using Copilot in your contact center
-              href: resources/cs-contact-center-copilot-setup.md
-            - name: Onboard your users to use Copilot in your contact center
-              href: resources/cs-contact-center-copilot-onboard-users.md              
-# USD Transition
-          - name: Migrate from Unified Service Desk
+              - name: Dynamics 365 Implementation Portal
+                href: implementation-portal/overview.md
+              - name: Sign in
+                href: implementation-portal/sign-up.md
+              - name: Create or join a project
+                href: implementation-portal/onboard-project.md
+              - name: Nominate for FastTrack
+                href: implementation-portal/nominations.md
+              - name: Consent to data sharing
+                href: implementation-portal/data-sharing-consent.md
+              - name: Manage projects
+                href: implementation-portal/manage-projects.md
+              - name: Project profiling
+                href: implementation-portal/project-profiling.md
+              - name: Conduct project reviews
+                href: implementation-portal/conduct-project-reviews.md
+              - name: Conduct Solution BluePrint Review Workshop
+                href: implementation-portal/conduct-solution-blueprint-review-workshop.md
+              - name: Analyze with telemetry insights
+                href: implementation-portal/telemetry-insights.md
+              - name: Set up telemetry insights
+                href: implementation-portal/telemetry-insights-set-up.md
+              - name: Copilot in Implementation Portal
+                href: implementation-portal/implementation-copilot.md
+          - name: Customer Service
             items:
-            - name: Transition to Customer Service workspace
-              href: resources/cs-usd-migration-guide.md
-            - name: Map components from Unified Service Desk to Customer Service workspace
-              href: resources/cs-usd-migration-guide-map-components.md
-            
-# 14806 dev tools
-          - name: Develop solutions
-            items:
-            - name: Solution component validation tool
-              href: resources/solution-component-validator.md
-# test tools
-          - name: Test the implementation
-            items:
-            - name: Set up test automation with Playwright
-              href: resources/test-automation-setup.md
-            - name: Load test the solution
-              href: resources/test-scale-dynamics-365-solution.md
-            - name: Scale load tests
-              href: resources/test-load-tests-scaling.md
-            - name: Scenarios for load tests
-              href: resources/test-load-test-scenarios.md
-# 14804
-# 15071 analytics
-          - name: Add analytics
-            items:
-              - name: Get started with analytics for Omnichannel
-                href: resources/analytics-get-started.md
-              - name: Overview of capabilities for analytics
-                href: resources/analytics-capabilities.md
-              - name: Application lifecycle management for custom reports
-                href: resources/analytics-alm-custom-reports.md
-
-# Field Service
-
-        - name: Field Service
-          items:
-            - name: Resources for Field Service
-              href: resources/fs-index.yml
-            - name: Samples and tools
-              items:
-              - name: Samples and tools overview
-                href: resources/fs-component-library.md
-              - name: Schedule board
+              - name: Resources for Customer Service
+                href: resources/cs-index.yml
+              - name: Samples and tools
                 items:
-                - name: Add crew information to resource cells
-                  href: resources/fs-resource-cell-template.md
-                - name: Customize the template for bookings
-                  href: resources/fs-booking-template.md
-                - name: Schedule board settings management control
-                  href: resources/fs-schedule-board-settings-management-control.md
-                - name: Field mapping for the schedule board settings
-                  href: resources/fs-schedule-board-settings-field-mapping.md
-              - name: Work orders
+                  - name: Samples and tools overview
+                    href: resources/component-library.md
+                  - name: Unified routing
+                    items:
+                      - name: Channel-based presence
+                        href: resources/cs-channel-based-presence.md
+                      - name: Set up agent capacity for custom entities
+                        href: resources/cs-route-release-capacity-in-ur.md
+                  - name: Omnichannel
+                    items:
+                      - name: Custom record identification rule
+                        href: resources/cs-omnichannel-custom-record-identification-rule.md
+                      - name: Sample context parsing
+                        href: resources/cs-omnichannel-sample-context-parsing.md
+                      - name: LiveChat widget customization samples
+                        href: resources/cs-omnichannel-live-chat-widget-samples.md
+                      - name: AgentScript and macro samples
+                        href: resources/cs-agent-script-macro-sample.md
+                  - name: Artificial intelligence
+                    items:
+                      - name: Route or deflect cases with artificial intelligence
+                        href: resources/cs-ai-case-deflection.md
+                      - name: Summarize KB articles with GPT
+                        href: resources/ai-summarize-knowledge-base-articles.md
+                      - name: Cross-environment collaboration with Copilot
+                        href: resources/ai-powered-cross-environment-collaboration.md
+                  - name: Copilot Studio
+                    items:
+                      - name: DTMF aggregation by Bot Framework skills
+                        href: resources/copilot-studio-bot-framework-composer-skill.md
+                      - name: Multilanguage voice bot
+                        href: resources/copilot-studio-multilanguage-bot.md
+                      - name: Play secured audio file
+                        href: resources/copilot-studio-play-audio-file.md
+                      - name: Better interpretation of alphanumeric values with generative AI
+                        href: resources/cs-mcs-alphanumentity.md
+                  - name: Application Insights
+                    items:
+                      - name: Sample queries for conversation diagnostics
+                        href: resources/conversation-diagnostics-sample-queries.md
+                      - name: Application Insights telemetry with Microsoft Dataverse
+                        href: resources/cs-dataverse-appinsights.md
+                      - name: Application Insights telemetry with Microsoft Copilot Studio
+                        href: resources/copilot-studio-appinsights.md
+                  - name: Automation
+                    items:
+                      - name: Automate agent tasks
+                        href: resources/cs-pad-automation.md
+                  - name: Channel Integration Framework 2.0
+                    items:
+                      - name: Set up the simulator for Channel Integration Framework v. 2.0
+                        href: resources/cs-set-up-cif2-simulator.md
+                      - name: Set up click-to-run outbound calls
+                        href: resources/cs-set-up-outbound-calls.md
+                      - name: Set up the sample adaptor for Channel Integration Framework
+                        href: resources/cs-set-up-cif2-sampleadaptor.md
+              - name: Implement Copilot in digital contact centers
                 items:
-                - name: Work order summary configuration template
-                  href: resources/fs-work-order-summary-configuration-template.md
-                - name: Transport summary configurations across environments
-                  href: resources/fs-transport-summary-configuration.md
-              - name: Copilot Studio
+                  - name: Copilot onboarding guide for digital contact centers
+                    href: resources/cs-contact-center-copilot-onboarding-guide.md
+                  - name: Set up your tools and infrastructure for using Copilot in your contact center
+                    href: resources/cs-contact-center-copilot-setup.md
+                  - name: Onboard your users to use Copilot in your contact center
+                    href: resources/cs-contact-center-copilot-onboard-users.md
+              - name: Migrate from Unified Service Desk
                 items:
-                - name: Build an agent in Copilot Studio to create sample data
-                  href: resources/fs-use-copilot-studio-create-sample-data.md
-                - name: Use Copilot to create sample data for Field Service
-                  href: resources/fs-copilot-import-sample-data.md
-            - name: Develop solutions
-              items:
-              - name: Set up Azure Pipelines to deploy Field Service
-                href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
-            - name: Add analytics
-              items:
-              - name: Sample telemetry dashboard for mobile app offline profile usage
-                href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
-              - name: Implement service level agreements for work orders
-                href: resources/fs-implementing-sla-work-order.md
-
-# FnO
-        - name: Finance and operations apps
-          items:
-            - name: Resources for Finance, Project Operations, Human Resources
-              href: resources/fin-index.yml
-            - name: Resources for Supply Chain Management
-              href: resources/scm-index.yml
-            - name: Monitoring and analyzing telemetry
-              href: /dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/?toc=/dynamics365/guidance/toc.json
-            - name: Migrate data
-              href: resources/migrate-data.md
-            - name: Import customers with data entities
-              href: resources/import-customers.md
-            - name: Import general journal entries with data entities
-              href: resources/import-general-journals.md
-            - name: Import products with data entities
-              href: resources/import-products.md
-            - name: Import sales orders with data entities
-              href: resources/import-sales-orders.md
-            - name: Import vendor invoices with data entities
-              href: resources/import-vendor-invoices.md
-            - name: Data entities
-              items:
-              - name: Customer definitions entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-definitions-customerbase?toc=/dynamics365/guidance/toc.json
-              - name: Customers V3 entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customers-v3-customerv3?toc=/dynamics365/guidance/toc.json
-              - name: Customer details V2 entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-details-v2-na?toc=/dynamics365/guidance/toc.json
-              - name: General journal entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal?toc=/dynamics365/guidance/toc.json
-              - name: General journal header entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal-ledgerjournalheader?toc=/dynamics365/guidance/toc.json
-              - name: General journal line entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal-ledgerjournalline?toc=/dynamics365/guidance/toc.json
-              - name: Products V2 entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-products-v2-productsv2?toc=/dynamics365/guidance/toc.json
-              - name: Released products V2 entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-released-products-v2-releasedproductv2?toc=/dynamics365/guidance/toc.json
-              - name: Sales order headers V2
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-sales-order-headers-v2-salesorderheaderv2?toc=/dynamics365/guidance/toc.json
-              - name: Sales order lines V2
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-sales-order-lines-v2-salesorderline?toc=/dynamics365/guidance/toc.json
-              - name: Vendor invoice header entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-header-vendorinvoiceheader?toc=/dynamics365/guidance/toc.json
-              - name: Vendor invoice line entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-vendorinvoiceline?toc=/dynamics365/guidance/toc.json
-              - name: Vendor invoice document attachment V2 entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-document-attachment-v2-vendorinvoicedocumentattachment?toc=/dynamics365/guidance/toc.json
-              - name: Vendor invoice charges entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
-              - name: Vendor invoice line charges entity
-                href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
-
-# ISV
+                  - name: Transition to Customer Service workspace
+                    href: resources/cs-usd-migration-guide.md
+                  - name: Map components from Unified Service Desk to Customer Service workspace
+                    href: resources/cs-usd-migration-guide-map-components.md
+              - name: Develop solutions
+                items:
+                  - name: Solution component validation tool
+                    href: resources/solution-component-validator.md
+              - name: Test the implementation
+                items:
+                  - name: Set up test automation with Playwright
+                    href: resources/test-automation-setup.md
+                  - name: Load test the solution
+                    href: resources/test-scale-dynamics-365-solution.md
+                  - name: Scale load tests
+                    href: resources/test-load-tests-scaling.md
+                  - name: Scenarios for load tests
+                    href: resources/test-load-test-scenarios.md
+              - name: Add analytics
+                items:
+                  - name: Get started with analytics for Omnichannel
+                    href: resources/analytics-get-started.md
+                  - name: Overview of capabilities for analytics
+                    href: resources/analytics-capabilities.md
+                  - name: Application lifecycle management for custom reports
+                    href: resources/analytics-alm-custom-reports.md
+          - name: Field Service
+            items:
+              - name: Resources for Field Service
+                href: resources/fs-index.yml
+              - name: Samples and tools
+                items:
+                  - name: Samples and tools overview
+                    href: resources/fs-component-library.md
+                  - name: Schedule board
+                    items:
+                      - name: Add crew information to resource cells
+                        href: resources/fs-resource-cell-template.md
+                      - name: Customize the template for bookings
+                        href: resources/fs-booking-template.md
+                      - name: Schedule board settings management control
+                        href: resources/fs-schedule-board-settings-management-control.md
+                      - name: Field mapping for the schedule board settings
+                        href: resources/fs-schedule-board-settings-field-mapping.md
+                  - name: Work orders
+                    items:
+                      - name: Work order summary configuration template
+                        href: resources/fs-work-order-summary-configuration-template.md
+                      - name: Transport summary configurations across environments
+                        href: resources/fs-transport-summary-configuration.md
+                  - name: Copilot Studio
+                    items:
+                      - name: Build an agent in Copilot Studio to create sample data
+                        href: resources/fs-use-copilot-studio-create-sample-data.md
+                      - name: Use Copilot to create sample data for Field Service
+                        href: resources/fs-copilot-import-sample-data.md
+              - name: Develop solutions
+                items:
+                  - name: Set up Azure Pipelines to deploy Field Service
+                    href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
+              - name: Add analytics
+                items:
+                  - name: Sample telemetry dashboard for mobile app offline profile usage
+                    href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
+                  - name: Implement service level agreements for work orders
+                    href: resources/fs-implementing-sla-work-order.md
+          - name: Finance and operations apps
+            items:
+              - name: Resources for Finance, Project Operations, Human Resources
+                href: resources/fin-index.yml
+              - name: Resources for Supply Chain Management
+                href: resources/scm-index.yml
+              - name: Monitoring and analyzing telemetry
+                href: /dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/?toc=/dynamics365/guidance/toc.json
+              - name: Migrate data
+                href: resources/migrate-data.md
+              - name: Import customers with data entities
+                href: resources/import-customers.md
+              - name: Import general journal entries with data entities
+                href: resources/import-general-journals.md
+              - name: Import products with data entities
+                href: resources/import-products.md
+              - name: Import sales orders with data entities
+                href: resources/import-sales-orders.md
+              - name: Import vendor invoices with data entities
+                href: resources/import-vendor-invoices.md
+              - name: Data entities
+                items:
+                  - name: Customer definitions entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-definitions-customerbase?toc=/dynamics365/guidance/toc.json
+                  - name: Customers V3 entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customers-v3-customerv3?toc=/dynamics365/guidance/toc.json
+                  - name: Customer details V2 entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-customer-details-v2-na?toc=/dynamics365/guidance/toc.json
+                  - name: General journal entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal?toc=/dynamics365/guidance/toc.json
+                  - name: General journal header entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal-ledgerjournalheader?toc=/dynamics365/guidance/toc.json
+                  - name: General journal line entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-general-journal-ledgerjournalline?toc=/dynamics365/guidance/toc.json
+                  - name: Products V2 entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-products-v2-productsv2?toc=/dynamics365/guidance/toc.json
+                  - name: Released products V2 entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-released-products-v2-releasedproductv2?toc=/dynamics365/guidance/toc.json
+                  - name: Sales order headers V2
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-sales-order-headers-v2-salesorderheaderv2?toc=/dynamics365/guidance/toc.json
+                  - name: Sales order lines V2
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-sales-order-lines-v2-salesorderline?toc=/dynamics365/guidance/toc.json
+                  - name: Vendor invoice header entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-header-vendorinvoiceheader?toc=/dynamics365/guidance/toc.json
+                  - name: Vendor invoice line entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-vendorinvoiceline?toc=/dynamics365/guidance/toc.json
+                  - name: Vendor invoice document attachment V2 entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-document-attachment-v2-vendorinvoicedocumentattachment?toc=/dynamics365/guidance/toc.json
+                  - name: Vendor invoice charges entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
+                  - name: Vendor invoice line charges entity
+                    href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
       - name: Independent software vendor (ISV) guidance
         items:
-        - name: ISV tools and resources overview
-          href: isv/index.yml
-
-# Admin guide
+          - name: ISV tools and resources overview
+            href: isv/index.yml
       - name: Administration guide
         items:
-        - name: Administrative process overview
-          href: implementation-guide/admin-guide-overview.md
-#        - name: How to use the administrative process guide
-#          href: fasttrack/get-started-overview.md?toc=/dynamics365/guidance/toc.json
-# BI
-        - name: Business intelligence, reporting, and analytics
-          items:
-            - name: Overview
-              href: implementation-guide/business-intelligence-reporting-analytics-overview.md
-            - name: Reporting and analytics strategy
-              href: implementation-guide/business-intelligence-reporting-analytics-reporting-analytics-strategy.md
-            - name: The data estate and data modernization
-              href: implementation-guide/business-intelligence-reporting-analytics-data-estate.md
-            - name: Components of the modern data estate
-              href: implementation-guide/business-intelligence-reporting-analytics-data-estate-components.md
-            - name: Checklist
-              href: implementation-guide/business-intelligence-reporting-analytics-checklist.md
-        - name: Data management
-          items:
-            - name: Overview
-              href: implementation-guide/data-management.md
-            - name: Architecture
-              href: implementation-guide/data-management-architecture.md
-            - name: Configuration data and data migration
-              href: implementation-guide/data-management-configuration-data-migration.md
-            - name: Guidance for customer engagement apps
-              href: implementation-guide/data-management-product-specific-ce.md
-            - name: Guidance for finance and operations apps
-              href: implementation-guide/data-management-product-specific-fo.md
-            - name: Checklist
-              href: implementation-guide/data-management-check-list.md
-            - name: Case study
-              href: implementation-guide/data-management-case-study.md
-        - name: Application lifecycle management
-          items:
-          - name: Overview
-            href: implementation-guide/application-lifecycle-management.md
-          - name: ALM strategy for Dynamics 365 solutions
-            href: implementation-guide/application-lifecycle-management-product.md
-          - name: Application lifecycle management workshops
-            href: implementation-guide/application-lifecycle-management-workshop.md
-          - name: Checklist
-            href: implementation-guide/application-lifecycle-management-checklist.md
-          - name: Case study
-            href: implementation-guide/application-lifecycle-management-case-study.md
-        - name: Service the solution
-          href: implementation-guide/service-solution.md
-
-# Business processes
+          - name: Administrative process overview
+            href: implementation-guide/admin-guide-overview.md
+          - name: Business intelligence, reporting, and analytics
+            items:
+              - name: Overview
+                href: implementation-guide/business-intelligence-reporting-analytics-overview.md
+              - name: Reporting and analytics strategy
+                href: implementation-guide/business-intelligence-reporting-analytics-reporting-analytics-strategy.md
+              - name: The data estate and data modernization
+                href: implementation-guide/business-intelligence-reporting-analytics-data-estate.md
+              - name: Components of the modern data estate
+                href: implementation-guide/business-intelligence-reporting-analytics-data-estate-components.md
+              - name: Checklist
+                href: implementation-guide/business-intelligence-reporting-analytics-checklist.md
+          - name: Data management
+            items:
+              - name: Overview
+                href: implementation-guide/data-management.md
+              - name: Architecture
+                href: implementation-guide/data-management-architecture.md
+              - name: Configuration data and data migration
+                href: implementation-guide/data-management-configuration-data-migration.md
+              - name: Guidance for customer engagement apps
+                href: implementation-guide/data-management-product-specific-ce.md
+              - name: Guidance for finance and operations apps
+                href: implementation-guide/data-management-product-specific-fo.md
+              - name: Checklist
+                href: implementation-guide/data-management-check-list.md
+              - name: Case study
+                href: implementation-guide/data-management-case-study.md
+          - name: Application lifecycle management
+            items:
+              - name: Overview
+                href: implementation-guide/application-lifecycle-management.md
+              - name: ALM strategy for Dynamics 365 solutions
+                href: implementation-guide/application-lifecycle-management-product.md
+              - name: Application lifecycle management workshops
+                href: implementation-guide/application-lifecycle-management-workshop.md
+              - name: Checklist
+                href: implementation-guide/application-lifecycle-management-checklist.md
+              - name: Case study
+                href: implementation-guide/application-lifecycle-management-case-study.md
+          - name: Service the solution
+            href: implementation-guide/service-solution.md
       - name: End-to-end business processes
         items:
-        - name: Business process documentation
-          href: business-processes/index.yml
-        - name: Get started
-          items:
-          - name: Overview of end-to-end scenarios
-            href: business-processes/overview.md
-          - name: About the business process catalog
-            href: business-processes/about.md
-          - name: Glossary of terms
-            href: business-processes/glossary.md
-          - name: Business processes, steps, and how to find things
-            href: business-processes/about-steps-navigation.md
-          - name: Process-focused solution overview
-            href: implementation-guide/process-focused-solution.md
-          - name: Opportunity for optimization
-            href: implementation-guide/process-focused-solution-opportunity-optimization.md
-          - name: Process-centric implementation lifecycle
-            href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-          - name: Considerations
-            href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-          - name: Fit-to-standard and Fit-gap analysis
-            href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
-          - name: Define your requirements
-            href: implementation-guide/process-focused-solution-define-requirements.md
-          - name: Process maturity overview
-            href: business-processes/process-maturity-introduction.md
-          - name: Standardize business processes during an implementation
-            href: business-processes/standardize-business-processes.md
-          - name: Import the catalog to Azure DevOps
-            href: business-processes/about-import-catalog-devops.md
-          - name: Import the catalog to Mavim
-            href: business-processes/about-import-catalog-mavim.md
-          - name: Business processes for the manufacturing industry
-            href: business-processes/about-industry-manufacturing.md
-          # - name: KPI
-          #   href: business-processes/about-kpi.md 
-        - name: Acquire to dispose
-          items:
-          - name: End-to-end scenario - acquire to dispose (ID 10)
-            href: business-processes/acquire-to-dispose-introduction.md
-          - name: Overview
-            href: business-processes/acquire-to-dispose-overview.md
-          - name: Business process areas
-            href: business-processes/acquire-to-dispose-areas.md
-          - name: Plan and budget assets
-            href: business-processes/acquire-to-dispose-plan-budget-assets-overview.md
-          - name: Acquire assets
-            href: business-processes/acquire-to-dispose-acquire-assets-overview.md
-          - name: Manage internal assets
-            href: business-processes/acquire-to-dispose-manage-internal-assets.md
-          - name: Manage and report on asset financials
-            href: business-processes/aquire-to-dispose-manage-report-asset-financials.md
-          - name: Maintain and repair internal assets
-            href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
-          - name: Retire or dispose of assets
-            href: business-processes/acquire-to-dispose-retire-dispose-assets.md
-          - name: Implementation workshops for acquire to dispose processes
-            href: business-processes/acquire-to-dispose-workshops.md
-        - name: Case to resolution
-          items:
-          - name: End-to-end scenario - case to resolution (ID 20)
-            href: business-processes/case-to-resolution-introduction.md
-          - name: Overview
-            href: business-processes/case-to-resolution-overview.md
-          - name: Business process areas
-            href: business-processes/case-to-resolution-areas.md
-        - name: Concept to market
-          items:
-          - name: End-to-end scenario - concept to market (ID 30)
-            href: business-processes/concept-to-market-introduction.md
-          - name: Overview
-            href: business-processes/concept-to-market-overview.md
-          - name: Business process areas
-            href: business-processes/concept-to-market-areas.md
-          - name: Define service offerings and strategy
-            href: business-processes/concept-to-market-define-service-offerings-strategy-overview.md
-          - name: Introduce new services
-            href: business-processes/concept-to-market-introduce-new-services.md
-          - name: Define service costing
-            href: business-processes/concept-to-market-define-service-costing-overview.md
-          - name: Manage service lifecycle overview
-            href: business-processes/concept-to-market-manage-service-lifecycle-overview.md
-          - name: Manage service pricing overview
-            href: business-processes/concept-to-market-manage-service-pricing-overview.md
-        - name: Design to retire
-          items:
-          - name: End-to-end scenario - design to retire (ID 40)
-            href: business-processes/design-to-retire-introduction.md
-          - name: Overview
-            href: business-processes/design-to-retire-overview.md
-          - name: Business process areas
-            href: business-processes/design-to-retire-areas.md
-          - name: Define product catalog and strategy
-            href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
-          - name: Introduce new products
-            href: business-processes/design-to-retire-introduce-new-products-overview.md
-          - name: Manage product pricing overview
-            href: business-processes/design-to-retire-manage-product-pricing-overview.md
-          - name: Define product costing
-            href: business-processes/design-to-retire-define-product-costing-overview.md
-          - name: Manage product lifecycle
-            href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
-        - name: Forecast to plan
-          items:
-          - name: End-to-end scenario - forecast to plan (ID 50)
-            href: business-processes/forecast-to-plan-introduction.md
-          - name: Overview
-            href: business-processes/forecast-to-plan-overview.md
-          - name: Business process areas
-            href: business-processes/forecast-to-plan-areas.md
-          - name: Establish stocking and replenishment policies
-            href: business-processes/forecast-to-plan-establish-stocking-replenishment-policies-overview.md
-          - name: Forecast supply and demand
+          - name: Business process documentation
+            href: business-processes/index.yml
+          - name: Get started
             items:
-            - name: Demand forecasting overview
-              href: business-processes/forecast-to-plan-demand-forecasting-overview.md
-            - name: Demand forecasting patterns
-              items:
-#              - name: Establish statistical forecasting parameter values
-#                href: placeholder.md
-#              - name: Define item allocation keys
-#                href: placeholder.md
-              - name: Manage a multi-company forecast
-                href: business-processes/forecast-to-plan-manage-intercompany-forecast.md
-              - name: Using multiple sources for forecasting
-                href: business-processes/forecast-to-plan-multiple-forecasting-sources.md
-          - name: Plan supply and replenishment
-            href: business-processes/forecast-to-plan-supply-replenishment-overview.md
-        - name: Hire to retire
-          items:
-          - name: End-to-end scenario - hire to retire (ID 55)
-            href: business-processes/hire-to-retire-introduction.md
-          - name: Overview
-            href: business-processes/hire-to-retire-overview.md
-          - name: Business process areas
-            href: business-processes/hire-to-retire-areas.md
-          - name: Plan and recruit your workforce
-            href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
-          - name: Onboard and manage the employee lifecycle
+              - name: Overview of end-to-end scenarios
+                href: business-processes/overview.md
+              - name: About the business process catalog
+                href: business-processes/about.md
+              - name: Glossary of terms
+                href: business-processes/glossary.md
+              - name: Business processes, steps, and how to find things
+                href: business-processes/about-steps-navigation.md
+              - name: Process-focused solution overview
+                href: implementation-guide/process-focused-solution.md
+              - name: Opportunity for optimization
+                href: implementation-guide/process-focused-solution-opportunity-optimization.md
+              - name: Process-centric implementation lifecycle
+                href: implementation-guide/process-focused-solution-implementation-lifecycle.md
+              - name: Considerations
+                href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
+              - name: Fit-to-standard and Fit-gap analysis
+                href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
+              - name: Define your requirements
+                href: implementation-guide/process-focused-solution-define-requirements.md
+              - name: Process maturity overview
+                href: business-processes/process-maturity-introduction.md
+              - name: Standardize business processes during an implementation
+                href: business-processes/standardize-business-processes.md
+              - name: Import the catalog to Azure DevOps
+                href: business-processes/about-import-catalog-devops.md
+              - name: Import the catalog to Mavim
+                href: business-processes/about-import-catalog-mavim.md
+              - name: Business processes for the manufacturing industry
+                href: business-processes/about-industry-manufacturing.md
+          - name: Acquire to dispose
             items:
-            - name: Onboard and manage the employee lifecycle
-              href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
-            - name: Hire new employees
-              href: business-processes/hire-to-retire-onboard-hire-employees.md
-            - name: Onboard new hires
-              href: business-processes/hire-to-retire-onboard-new-hires.md
-            - name: Update employee records
-              href: business-processes/hire-to-retire-update-employee-records.md
-            - name: Transfer employees
-              href: business-processes/hire-to-retire-onboard-transfer-employees.md
-            - name: Terminate employee
-              href: business-processes/hire-to-retire-onboard-terminate-employment.md
-          - name: Manage employee performance and growth
-            href: business-processes/hire-to-retire-manage-employee-performance-growth.md
-          - name: Manage occupational health and safety
-            href: business-processes/hire-to-retire-manage-occupational-health-safety.md
-          - name: Manage worker compensation, benefits, and payroll
-            href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
-          - name: Manage employee time and attendance overview
-            href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
-          - name: Manage travel and expenses
-            href: business-processes/hire-to-retire-manage-travel-expenses.md
-        - name: Inventory to deliver
-          items:
-          - name: End-to-end scenario - inventory to deliver (ID 60)
-            href: business-processes/inventory-to-deliver-introduction.md
-          - name: Overview
-            href: business-processes/inventory-to-deliver-overview.md
-          - name: Business process areas
-            href: business-processes/inventory-to-deliver-areas.md
-          - name: Manage warehouse operations
-            href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
-          - name: Maintain inventory levels
-            href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
-          - name: Manage freight and transportation
-            href: business-processes/inventory-to-deliver-manage-freight-transportation.md
-          # - name: Record and manage inventory costs
-          #   href: business-processes/inventory-to-deliver-record-manage-inventory-costs.md
-        - name: Order to cash
-          items:
-          - name: End-to-end scenario - order to cash (ID 65)
-            href: business-processes/order-to-cash-introduction.md
-          - name: Overview
-            href: business-processes/order-to-cash-overview.md
-          - name: Business process areas
-            href: business-processes/order-to-cash-areas-overview.md
-          - name: Invoice customers
-            href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-          - name: Monitor customer credit and collections
+              - name: End-to-end scenario - acquire to dispose (ID 10)
+                href: business-processes/acquire-to-dispose-introduction.md
+              - name: Overview
+                href: business-processes/acquire-to-dispose-overview.md
+              - name: Business process areas
+                href: business-processes/acquire-to-dispose-areas.md
+              - name: Plan and budget assets
+                href: business-processes/acquire-to-dispose-plan-budget-assets-overview.md
+              - name: Acquire assets
+                href: business-processes/acquire-to-dispose-acquire-assets-overview.md
+              - name: Manage internal assets
+                href: business-processes/acquire-to-dispose-manage-internal-assets.md
+              - name: Manage and report on asset financials
+                href: business-processes/aquire-to-dispose-manage-report-asset-financials.md
+              - name: Maintain and repair internal assets
+                href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
+              - name: Retire or dispose of assets
+                href: business-processes/acquire-to-dispose-retire-dispose-assets.md
+              - name: Implementation workshops for acquire to dispose processes
+                href: business-processes/acquire-to-dispose-workshops.md
+          - name: Case to resolution
             items:
-            - name: Monitor customer credit and collections overview
-              href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-            - name: Set customer credit limits
-              href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md
-            - name: Customer credit limit patterns
-              items:
-              - name: Manually set, define, and check customer credit limit patterns
-                href: business-processes/pattern-manually-set-check-customer-credit-limits.md
-              - name: Manually set, define, and check credit limit patterns for a group of customers
-                href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
-#          - name: Plan supply
-#            items:
-#            - name: Supply forecasting overview
-#              href: placeholder.md
-#            - name: Define master plans
-#              href: placeholder.md
-#            - name: Define forecast plans
-#              href: placeholder.md
-#            - name: Define item coverage
-#              href: placeholder.md
-#            - name: Plan demand across legal entities
-#              href: placeholder.md
-#          - name: Plan strategic and operational business strategies
-#            items:
-#            - name: Strategic and operations planning overview
-#              href: placeholder.md
-        - name: Plan to produce
-          items:
-          - name: End-to-end scenario - plan to produce (ID 70)
-            href: business-processes/plan-to-produce-introduction.md
-          - name: Overview
-            href: business-processes/plan-to-produce-overview.md
-          - name: Business process areas
-            href: business-processes/plan-to-produce-areas.md
-          - name: Define production strategies
-            href: business-processes/plan-to-produce-define-production-strategies.md
-          - name: Plan production operations
-            href: business-processes/plan-to-produce-plan-production-operations-overview.md
-          - name: Run production operations
-            href: business-processes/plan-to-produce-execute-production-operations-overview.md
-          - name: Outsource production operations
-            href: business-processes/plan-to-produce-outsource-production-operations-overview.md
-          - name: Control production quality
-            href: business-processes/plan-to-produce-control-production-quality-overview.md
-          - name: Track production cost
-            href: business-processes/plan-to-produce-track-production-costs-overview.md
-        - name: Source to pay
-          items:
-          - name: End-to-end scenario - source to pay (ID 75)
-            href: business-processes/source-to-pay-introduction.md
-          - name: Overview
-            href: business-processes/source-to-pay-overview.md
-          - name: Business process areas
-            href: business-processes/source-to-pay-areas.md
-          - name: Develop a procurement and sourcing strategy
+              - name: End-to-end scenario - case to resolution (ID 20)
+                href: business-processes/case-to-resolution-introduction.md
+              - name: Overview
+                href: business-processes/case-to-resolution-overview.md
+              - name: Business process areas
+                href: business-processes/case-to-resolution-areas.md
+          - name: Concept to market
             items:
-            - name: Develop procurement and sourcing strategy overview
-              href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
-            - name: Define procurement catalogs
-              href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-          - name: Manage supplier relationships overview
-            href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-          - name: Procure goods and services overview
-            href: business-processes/source-to-pay-procure-materials-services-overview.md
-          - name: Manage accounts payable
+              - name: End-to-end scenario - concept to market (ID 30)
+                href: business-processes/concept-to-market-introduction.md
+              - name: Overview
+                href: business-processes/concept-to-market-overview.md
+              - name: Business process areas
+                href: business-processes/concept-to-market-areas.md
+              - name: Define service offerings and strategy
+                href: business-processes/concept-to-market-define-service-offerings-strategy-overview.md
+              - name: Introduce new services
+                href: business-processes/concept-to-market-introduce-new-services.md
+              - name: Define service costing
+                href: business-processes/concept-to-market-define-service-costing-overview.md
+              - name: Manage service lifecycle overview
+                href: business-processes/concept-to-market-manage-service-lifecycle-overview.md
+              - name: Manage service pricing overview
+                href: business-processes/concept-to-market-manage-service-pricing-overview.md
+          - name: Design to retire
             items:
-            - name: Manage accounts payable overview
-              href: business-processes/source-to-pay-process-vendor-invoices-overview.md
-            - name: Issue and settle supplier payments
-              href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
-            - name: Process supplier rebates and incentives
-              href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
-        - name: Project to profit
-          items:
-          - name: End-to-end scenario - project to profit (ID 80)
-            href: business-processes/project-to-profit-introduction.md
-          - name: Overview
-            href: business-processes/project-to-profit-overview.md
-          - name: Business process areas
-            href: business-processes/project-to-profit-areas.md
-          - name: Govern projects
-            href: business-processes/project-to-profit-govern-projects-overview.md
-          - name: Manage project contracts
-            href: business-processes/project-to-profit-manage-project-contracts-overview.md
-          # - name: Manage project opportunities
-          #   href: business-processes/project-to-profit-manage-project-opportunities-overview.md
-          - name: Manage project resources and schedule
-            href: business-processes/project-to-profit-manage-project-scope-schedule-overview.md
-          # - name: Resource projects
-          #   href: business-processes/project-to-profit-resource-projects.md
-          - name: Manage project delivery
-            href: business-processes/project-to-profit-deliver-project-work.md
-          - name: Manage project financials
-            href: business-processes/project-to-profit-manage-project-financials-overview.md
-          - name: Monitor and analyze project performance
-            href: business-processes/project-to-profit-monitor-analyze-project-performance-overview.md
-          # - name: Manage project supply chain
-          #   href: business-processes/project-to-profit-manage-project-supply-chain-overview.md
-          # - name: Capture project expenses
-          #   href: business-processes/project-to-profit-capture-project-expenses-overview.md
-          # - name: Process project invoices
-          #   href: business-processes/project-to-profit-process-project-invoices-overview.md
-          # - name: Recognize project revenue
-          #   href: business-processes/project-to-profit-recognize-project-revenue.md
-        - name: Prospect to quote
-          items:
-          - name: End-to-end scenario - prospect to quote (ID 85)
-            href: business-processes/prospect-to-quote-introduction.md
-          - name: Overview
-            href: business-processes/prospect-to-quote-overview.md
-          - name: Business process areas
-            href: business-processes/prospect-to-quote-areas.md
-          - name: Manage project opportunities
-            href: business-processes/prospect-to-quote-manage-project-opportunities-overview.md
-          - name: Define a sales strategy
-            href: business-processes/prospect-to-quote-define-sales-strategy-overview.md
-          - name: Run marketing campaigns
-            href: business-processes/prospect-to-quote-run-marketing-campaigns-overview.md
-          - name: Identify and qualify leads
-            href: business-processes/prospect-to-quote-identify-qualify-leads.md
-          - name: Pursue opportunities
-            href: business-processes/prospect-to-quote-pursue-opportunities-overview.md
-          - name: Estimate and quote sales
-            href: business-processes/prospect-to-quote-estimate-quote-sales-overview.md
-          - name: Manage customer relationships
-            href: business-processes/prospect-to-quote-manage-customer-relationships.md
-        - name: Record to report
-          items:
-          - name: End-to-end scenario - record to report (ID 90)
-            href: business-processes/record-to-report-introduction.md
-          - name: Overview
-            href: business-processes/record-to-report-overview.md
-          - name: Business process areas
-            href: business-processes/record-to-report-areas.md
-          - name: Define financial structure and organizational accounting policies
-            href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
-          - name: Manage budgets overview
-            href: business-processes/record-to-report-manage-budgets.md
-          - name: Record financial transactions overview
-            href: business-processes/record-to-report-record-financial-transactions.md
-          - name: Close financial periods overview
-            href: business-processes/record-to-report-close-financial-periods.md
-          - name: Comply with tax, audit, and regulatory requirements
-            href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
-          - name: Manage fund accounting overview
-            href: business-processes/record-to-report-manage-fund-accounting.md
-        - name: Service to cash
-          items:
-          - name: End-to-end scenario - service to cash (ID 95)
-            href: business-processes/service-to-cash-introduction.md
-          - name: Overview
-            href: business-processes/service-to-cash-overview.md
-          - name: Business process areas
-            href: business-processes/service-to-cash-areas-overview.md
-          - name: Manage service assets overview
-            href: business-processes/service-to-cash-manage-service-assets.md
-          - name: Manage service resources overview
-            href: business-processes/service-to-cash-manage-service-resources.md
-          - name: Create and process service work
+              - name: End-to-end scenario - design to retire (ID 40)
+                href: business-processes/design-to-retire-introduction.md
+              - name: Overview
+                href: business-processes/design-to-retire-overview.md
+              - name: Business process areas
+                href: business-processes/design-to-retire-areas.md
+              - name: Define product catalog and strategy
+                href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
+              - name: Introduce new products
+                href: business-processes/design-to-retire-introduce-new-products-overview.md
+              - name: Manage product pricing overview
+                href: business-processes/design-to-retire-manage-product-pricing-overview.md
+              - name: Define product costing
+                href: business-processes/design-to-retire-define-product-costing-overview.md
+              - name: Manage product lifecycle
+                href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
+          - name: Forecast to plan
             items:
-            - name: Create and process service work
-              href: business-processes/service-to-cash-create-process-service-work.md
-            - name: Schedule service work overview
-              href: business-processes/service-to-cash-schedule-service-work.md
-            - name: Perform service work
-              href: business-processes/service-to-cash-perform-service-work.md
-          - name: Invoice customers
-            href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-          - name: Monitor customer credit and collections
-            href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-          - name: Review and close service requests
-            href: business-processes/service-to-cash-review-close-service-requests.md
-        - name: Administer to operate
-          items:
-          - name: End-to-end scenario - administer to operate (ID 99)
-            href: business-processes/administer-to-operate-introduction.md
-          - name: Overview
-            href: business-processes/administer-to-operate-overview.md
-          - name: Business process areas
-            href: business-processes/administer-to-operate-areas.md
-          - name: Implement solutions
-            href: business-processes/administer-to-operate-implement-solutions.md
-          - name: Define business continuity plan
-            href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
-          - name: Administer system features
-            href: business-processes/administer-to-operate-administer-system-features.md
-          - name: Manage system access and security overview
-            href: business-processes\administer-to-operate-manage-system-access-security.md
-          - name: Train users and increase adoption
-            href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
-          - name: Manage data synchronization overview
-            href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
-          - name: Manage system compliance overview
-            href: business-processes\administer-to-operate-manage-system-compliance.md
-          - name: Define support systems overview
-            href: business-processes\administer-to-operate-support-systems-overview.md
-# BP What's new
-        - name: What's new or changed
-          items:
-          - name: What's new or changed in the business process catalog
-            href: business-processes/about-whats-new.md
-          - name: What's new or changed in the February 2025 version
-            href: business-processes/about-whats-new-2025-february.md
-          - name: What's new or changed in the November 2024 version
-            href: business-processes/about-whats-new-2024-november.md
-          - name: What's new or changed in the August 2024 version
-            href: business-processes/about-whats-new-2024-august.md
-
-# Patterns
+              - name: End-to-end scenario - forecast to plan (ID 50)
+                href: business-processes/forecast-to-plan-introduction.md
+              - name: Overview
+                href: business-processes/forecast-to-plan-overview.md
+              - name: Business process areas
+                href: business-processes/forecast-to-plan-areas.md
+              - name: Establish stocking and replenishment policies
+                href: business-processes/forecast-to-plan-establish-stocking-replenishment-policies-overview.md
+              - name: Forecast supply and demand
+                items:
+                  - name: Demand forecasting overview
+                    href: business-processes/forecast-to-plan-demand-forecasting-overview.md
+                  - name: Demand forecasting patterns
+                    items:
+                      - name: Manage a multi-company forecast
+                        href: business-processes/forecast-to-plan-manage-intercompany-forecast.md
+                      - name: Using multiple sources for forecasting
+                        href: business-processes/forecast-to-plan-multiple-forecasting-sources.md
+              - name: Plan supply and replenishment
+                href: business-processes/forecast-to-plan-supply-replenishment-overview.md
+          - name: Hire to retire
+            items:
+              - name: End-to-end scenario - hire to retire (ID 55)
+                href: business-processes/hire-to-retire-introduction.md
+              - name: Overview
+                href: business-processes/hire-to-retire-overview.md
+              - name: Business process areas
+                href: business-processes/hire-to-retire-areas.md
+              - name: Plan and recruit your workforce
+                href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
+              - name: Onboard and manage the employee lifecycle
+                items:
+                  - name: Onboard and manage the employee lifecycle
+                    href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
+                  - name: Hire new employees
+                    href: business-processes/hire-to-retire-onboard-hire-employees.md
+                  - name: Onboard new hires
+                    href: business-processes/hire-to-retire-onboard-new-hires.md
+                  - name: Update employee records
+                    href: business-processes/hire-to-retire-update-employee-records.md
+                  - name: Transfer employees
+                    href: business-processes/hire-to-retire-onboard-transfer-employees.md
+                  - name: Terminate employee
+                    href: business-processes/hire-to-retire-onboard-terminate-employment.md
+              - name: Manage employee performance and growth
+                href: business-processes/hire-to-retire-manage-employee-performance-growth.md
+              - name: Manage occupational health and safety
+                href: business-processes/hire-to-retire-manage-occupational-health-safety.md
+              - name: Manage worker compensation, benefits, and payroll
+                href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+              - name: Manage employee time and attendance overview
+                href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
+              - name: Manage travel and expenses
+                href: business-processes/hire-to-retire-manage-travel-expenses.md
+          - name: Inventory to deliver
+            items:
+              - name: End-to-end scenario - inventory to deliver (ID 60)
+                href: business-processes/inventory-to-deliver-introduction.md
+              - name: Overview
+                href: business-processes/inventory-to-deliver-overview.md
+              - name: Business process areas
+                href: business-processes/inventory-to-deliver-areas.md
+              - name: Manage warehouse operations
+                href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
+              - name: Maintain inventory levels
+                href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
+              - name: Manage freight and transportation
+                href: business-processes/inventory-to-deliver-manage-freight-transportation.md
+          - name: Order to cash
+            items:
+              - name: End-to-end scenario - order to cash (ID 65)
+                href: business-processes/order-to-cash-introduction.md
+              - name: Overview
+                href: business-processes/order-to-cash-overview.md
+              - name: Business process areas
+                href: business-processes/order-to-cash-areas-overview.md
+              - name: Invoice customers
+                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
+              - name: Monitor customer credit and collections
+                items:
+                  - name: Monitor customer credit and collections overview
+                    href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
+                  - name: Set customer credit limits
+                    href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md
+                  - name: Customer credit limit patterns
+                    items:
+                      - name: Manually set, define, and check customer credit limit patterns
+                        href: business-processes/pattern-manually-set-check-customer-credit-limits.md
+                      - name: Manually set, define, and check credit limit patterns for a group of customers
+                        href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
+          - name: Plan to produce
+            items:
+              - name: End-to-end scenario - plan to produce (ID 70)
+                href: business-processes/plan-to-produce-introduction.md
+              - name: Overview
+                href: business-processes/plan-to-produce-overview.md
+              - name: Business process areas
+                href: business-processes/plan-to-produce-areas.md
+              - name: Define production strategies
+                href: business-processes/plan-to-produce-define-production-strategies.md
+              - name: Plan production operations
+                href: business-processes/plan-to-produce-plan-production-operations-overview.md
+              - name: Run production operations
+                href: business-processes/plan-to-produce-execute-production-operations-overview.md
+              - name: Outsource production operations
+                href: business-processes/plan-to-produce-outsource-production-operations-overview.md
+              - name: Control production quality
+                href: business-processes/plan-to-produce-control-production-quality-overview.md
+              - name: Track production cost
+                href: business-processes/plan-to-produce-track-production-costs-overview.md
+          - name: Source to pay
+            items:
+              - name: End-to-end scenario - source to pay (ID 75)
+                href: business-processes/source-to-pay-introduction.md
+              - name: Overview
+                href: business-processes/source-to-pay-overview.md
+              - name: Business process areas
+                href: business-processes/source-to-pay-areas.md
+              - name: Develop a procurement and sourcing strategy
+                items:
+                  - name: Develop procurement and sourcing strategy overview
+                    href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
+                  - name: Define procurement catalogs
+                    href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+              - name: Manage supplier relationships overview
+                href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
+              - name: Procure goods and services overview
+                href: business-processes/source-to-pay-procure-materials-services-overview.md
+              - name: Manage accounts payable
+                items:
+                  - name: Manage accounts payable overview
+                    href: business-processes/source-to-pay-process-vendor-invoices-overview.md
+                  - name: Issue and settle supplier payments
+                    href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+                  - name: Process supplier rebates and incentives
+                    href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
+          - name: Project to profit
+            items:
+              - name: End-to-end scenario - project to profit (ID 80)
+                href: business-processes/project-to-profit-introduction.md
+              - name: Overview
+                href: business-processes/project-to-profit-overview.md
+              - name: Business process areas
+                href: business-processes/project-to-profit-areas.md
+              - name: Develop project strategy
+                href: business-processes/project-to-profit-develop-project-strategy-overview.md
+              - name: Manage project contracts
+                items:
+                  - name: Manage project contracts overview
+                    href: business-processes/project-to-profit-manage-project-contracts-overview.md
+                  - name: Estimate project contracts
+                    href: business-processes/project-to-profit-estimate-project-contracts.md
+                  - name: Negotiate project contracts
+                    href: business-processes/project-to-profit-negotiate-project-contracts.md
+              - name: Plan projects
+                href: business-processes/project-to-profit-plan-projects-overview.md
+              - name: Manage project delivery
+                href: business-processes/project-to-profit-deliver-project-work.md
+              - name: Manage project financials
+                items:
+                  - name: Manage project financials overview
+                    href: business-processes/project-to-profit-manage-project-financials-overview.md
+                  - name: Recognize project revenue
+                    href: business-processes/project-to-profit-recognize-project-revenue.md
+              - name: Analyze project performance
+                href: business-processes/project-to-profit-monitor-analyze-project-performance-overview.md
+          - name: Prospect to quote
+            items:
+              - name: End-to-end scenario - prospect to quote (ID 85)
+                href: business-processes/prospect-to-quote-introduction.md
+              - name: Overview
+                href: business-processes/prospect-to-quote-overview.md
+              - name: Business process areas
+                href: business-processes/prospect-to-quote-areas.md
+              - name: Manage project opportunities
+                href: business-processes/prospect-to-quote-manage-project-opportunities-overview.md
+              - name: Define a sales strategy
+                href: business-processes/prospect-to-quote-define-sales-strategy-overview.md
+              - name: Run marketing campaigns
+                href: business-processes/prospect-to-quote-run-marketing-campaigns-overview.md
+              - name: Identify and qualify leads
+                href: business-processes/prospect-to-quote-identify-qualify-leads.md
+              - name: Pursue opportunities
+                href: business-processes/prospect-to-quote-pursue-opportunities-overview.md
+              - name: Estimate and quote sales
+                href: business-processes/prospect-to-quote-estimate-quote-sales-overview.md
+              - name: Manage customer relationships
+                href: business-processes/prospect-to-quote-manage-customer-relationships.md
+          - name: Record to report
+            items:
+              - name: End-to-end scenario - record to report (ID 90)
+                href: business-processes/record-to-report-introduction.md
+              - name: Overview
+                href: business-processes/record-to-report-overview.md
+              - name: Business process areas
+                href: business-processes/record-to-report-areas.md
+              - name: Define financial structure and organizational accounting policies
+                href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
+              - name: Manage budgets overview
+                href: business-processes/record-to-report-manage-budgets.md
+              - name: Record financial transactions overview
+                href: business-processes/record-to-report-record-financial-transactions.md
+              - name: Close financial periods overview
+                href: business-processes/record-to-report-close-financial-periods.md
+              - name: Comply with tax, audit, and regulatory requirements
+                href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
+              - name: Manage fund accounting overview
+                href: business-processes/record-to-report-manage-fund-accounting.md
+          - name: Service to cash
+            items:
+              - name: End-to-end scenario - service to cash (ID 95)
+                href: business-processes/service-to-cash-introduction.md
+              - name: Overview
+                href: business-processes/service-to-cash-overview.md
+              - name: Business process areas
+                href: business-processes/service-to-cash-areas-overview.md
+              - name: Manage service assets overview
+                href: business-processes/service-to-cash-manage-service-assets.md
+              - name: Manage service resources overview
+                href: business-processes/service-to-cash-manage-service-resources.md
+              - name: Create and process service work
+                items:
+                  - name: Create and process service work
+                    href: business-processes/service-to-cash-create-process-service-work.md
+                  - name: Schedule service work overview
+                    href: business-processes/service-to-cash-schedule-service-work.md
+                  - name: Perform service work
+                    href: business-processes/service-to-cash-perform-service-work.md
+              - name: Invoice customers
+                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
+              - name: Monitor customer credit and collections
+                href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
+              - name: Review and close service requests
+                href: business-processes/service-to-cash-review-close-service-requests.md
+          - name: Administer to operate
+            items:
+              - name: End-to-end scenario - administer to operate (ID 99)
+                href: business-processes/administer-to-operate-introduction.md
+              - name: Overview
+                href: business-processes/administer-to-operate-overview.md
+              - name: Business process areas
+                href: business-processes/administer-to-operate-areas.md
+              - name: Implement solutions
+                href: business-processes/administer-to-operate-implement-solutions.md
+              - name: Define business continuity plan
+                href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
+              - name: Administer system features
+                href: business-processes/administer-to-operate-administer-system-features.md
+              - name: Manage system access and security overview
+                href: business-processes\administer-to-operate-manage-system-access-security.md
+              - name: Train users and increase adoption
+                href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
+              - name: Manage data synchronization overview
+                href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+              - name: Manage system compliance overview
+                href: business-processes\administer-to-operate-manage-system-compliance.md
+              - name: Define support systems overview
+                href: business-processes\administer-to-operate-support-systems-overview.md
+          - name: What's new or changed
+            items:
+              - name: What's new or changed in the business process catalog
+                href: business-processes/about-whats-new.md
+              - name: What's new or changed in the February 2025 version
+                href: business-processes/about-whats-new-2025-february.md
+              - name: What's new or changed in the November 2024 version
+                href: business-processes/about-whats-new-2024-november.md
+              - name: What's new or changed in the August 2024 version
+                href: business-processes/about-whats-new-2024-august.md
       - name: Patterns
         items:
-        - name: Overview
-          href: patterns/overview.md
-        - name: Manually set customer credit limits
-          href: business-processes/pattern-manually-set-check-customer-credit-limits.md
-        - name: Set customer credit limits
-          href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
-#       - name: Migrate beginning general ledger balances
-#         href: placeholder.md
-#       - name: Add a financial dimension backed by an entity
-#         href: placeholder.md
-        - name: Migrate inventory costing data
-          href: implementation-guide/migrate-inventory-costing-data.md
-        - name: Create a functional and technical design document
-          href: patterns/create-functional-technical-design-document.md
-
-# Reference architectures
+          - name: Overview
+            href: patterns/overview.md
+          - name: Manually set customer credit limits
+            href: business-processes/pattern-manually-set-check-customer-credit-limits.md
+          - name: Set customer credit limits
+            href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
+          - name: Migrate inventory costing data
+            href: implementation-guide/migrate-inventory-costing-data.md
+          - name: Create a functional and technical design document
+            href: patterns/create-functional-technical-design-document.md
       - name: Reference architectures
         href: reference-architectures/index.yml
         items:
-        - name: Copilot in Customer Service architecture
-          href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
-        - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
-          href: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
-        - name: Saga pattern with Dataverse or Dynamics 365
-          href: reference-architectures/saga-pattern-dataverse.md
-        - name: Dynamics 365 for travel and hospitality
-          href: reference-architectures/dynamics-365-travel-hospitality.md
-        - name: Contact centers
-          items:
-          - name: Digital contact centers with Dynamics 365
-            href: reference-architectures/contact-center-overview.md
-          - name: Contact center using Dynamics 365 Customer Service Premium
-            href: reference-architectures/contact-center-dynamics-365-customer-service-premium.md
-          - name: Contact center using Dynamics 365 Customer Service Enterprise
-            href: reference-architectures/contact-center-dynamics-365-customer-service-enterprise.md
-          - name: Contact center with Dynamics 365 Contact Center and existing CRM
-            href: reference-architectures/contact-center-existing-crm-dynamics-365-contact-center.md
-          - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
-            href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
-# Compliance
+          - name: Copilot in Customer Service architecture
+            href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+          - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
+            href: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
+          - name: Saga pattern with Dataverse or Dynamics 365
+            href: reference-architectures/saga-pattern-dataverse.md
+          - name: Dynamics 365 for travel and hospitality
+            href: reference-architectures/dynamics-365-travel-hospitality.md
+          - name: Contact centers
+            items:
+              - name: Digital contact centers with Dynamics 365
+                href: reference-architectures/contact-center-overview.md
+              - name: Contact center using Dynamics 365 Customer Service Premium
+                href: reference-architectures/contact-center-dynamics-365-customer-service-premium.md
+              - name: Contact center using Dynamics 365 Customer Service Enterprise
+                href: reference-architectures/contact-center-dynamics-365-customer-service-enterprise.md
+              - name: Contact center with Dynamics 365 Contact Center and existing CRM
+                href: reference-architectures/contact-center-existing-crm-dynamics-365-contact-center.md
+              - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
+                href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
       - name: Security and compliance
         items:
           - name: Security strategy
@@ -1156,269 +1060,233 @@ items:
             href: implementation-guide/security-strategy-day-one-priority.md
           - name: Checklist
             href: implementation-guide/security-strategy-checklist.md
-
-# Migrate from on-premises to online
       - name: Migration from on-premises to online
         items:
-        - name: Migrate from Dynamics
-          href: migrate/overview.md
-        - name: Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
-          href: migrate/opol-crm-migration-high-level-overview.md
-        - name: AIM program
-          items:
-          - name: Overview of the AIM migration program for on-premises solutions
-            href: migrate/aim-migration-overview.md
-          - name: Solution-specific insights
-            href: migrate/aim-solution-insights.md
-          - name: AIM assessment
-            href: migrate/aim-assessment.md
-          - name: AIM program FAQ
-            href: migrate/aim-faq.md
-          - name: Customer stories
-            href: migrate/aim-customer-stories.md 
-
-# data migration
-#        - name: Migrate data
-#          items:
-#            - name: Migrate data
-#              href: resources/migrate-data.md
-            # - name: Import customers with data entities
-            #   href: resources/import-customers.md
-            # - name: Import products with data entities
-            #   href: resources/import-products.md
-            # - name: Import sales orders with data entities
-            #   href: resources/import-sales-orders.md
-            # - name: Import vendor invoices with data entities
-            #   href: resources/import-vendor-invoices.md
-
-# Develop
+          - name: Migrate from Dynamics
+            href: migrate/overview.md
+          - name: Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
+            href: migrate/opol-crm-migration-high-level-overview.md
+          - name: AIM program
+            items:
+              - name: Overview of the AIM migration program for on-premises solutions
+                href: migrate/aim-migration-overview.md
+              - name: Solution-specific insights
+                href: migrate/aim-solution-insights.md
+              - name: AIM assessment
+                href: migrate/aim-assessment.md
+              - name: AIM program FAQ
+                href: migrate/aim-faq.md
+              - name: Customer stories
+                href: migrate/aim-customer-stories.md
       - name: Development guides
         items:
-        - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
-          href: develop/introduction-customer-engagement-ui-ux-design-guide.md
-        - name: Key UI/UX design principles
-          href: develop/ui-ux-design-principles.md
-        - name: UI/UX component details for model-driven apps
-          href: develop/ui-ux-component-details-model-driven-apps.md
-        - name: UI/UX component details for canvas apps
-          href: develop/ui-ux-component-details-canvas-apps.md
-        - name: UI/UX component details for tests and user feedback
-          href: develop/ui-ux-component-details-testing-feedback.md
-        - name: Dynamics 365 Sales
-          items:
-          - name: UI/UX design principles for Dynamics 365 Sales
-            href: develop/ui-ux-guidance-sales-implementations.md
-          - name: Sales personas
-            href: develop/ui-ux-guidance-sales-personas.md
-          - name: UI/UX components for Sales
-            href: develop/ui-ux-guidance-sales-components.md
-
-# Architecture
-#      - name: Architecture guide
-#        items:
-
-# Solution architecture
-#        - name: Solution architectures
-#          items:
-#          - name: Solution architecture design pillars
-#            href: implementation-guide/solution-architecture-design-pillars.md
-
-# FastTrack
+          - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
+            href: develop/introduction-customer-engagement-ui-ux-design-guide.md
+          - name: Key UI/UX design principles
+            href: develop/ui-ux-design-principles.md
+          - name: UI/UX component details for model-driven apps
+            href: develop/ui-ux-component-details-model-driven-apps.md
+          - name: UI/UX component details for canvas apps
+            href: develop/ui-ux-component-details-canvas-apps.md
+          - name: UI/UX component details for tests and user feedback
+            href: develop/ui-ux-component-details-testing-feedback.md
+          - name: Dynamics 365 Sales
+            items:
+              - name: UI/UX design principles for Dynamics 365 Sales
+                href: develop/ui-ux-guidance-sales-implementations.md
+              - name: Sales personas
+                href: develop/ui-ux-guidance-sales-personas.md
+              - name: UI/UX components for Sales
+                href: develop/ui-ux-guidance-sales-components.md
       - name: FastTrack for Dynamics 365
         items:
-        - name: About FastTrack
-          href: fasttrack/overview.md
-        - name: Eligibility and partner qualifications
-          href: fasttrack/eligibility.md
-        - name: Learning resources
-          href: fasttrack/learning-resources.md
-        - name: Onboard an implementation project
-          href: fasttrack/onboard.md
-        - name: Proactive guidance for self-service engagements
-          href: fasttrack/self-service-engagement.md
-        - name: Migration services for Dynamics CRM
-          href: fasttrack/migration.md
-        - name: Success by Design
-          href: implementation-guide/success-by-design.md
-        - name: Solution blueprint workshops
-          href: fasttrack/solution-workshops.md
-        - name: Implementation workshops
-          href: fasttrack/implementation-workshops.md
-        - name: Go-live readiness workshops
-          href: fasttrack/go-live-workshops.md
-        - name: Frequently asked questions about FastTrack
-          href: fasttrack/faq.md
-        - name: FastTrack Recognized Solution Architect
-          href: fasttrack/instruction-guide-fasttrack-recognized-solution-architect.md
-# TechTalks
+          - name: About FastTrack
+            href: fasttrack/overview.md
+          - name: Eligibility and partner qualifications
+            href: fasttrack/eligibility.md
+          - name: Learning resources
+            href: fasttrack/learning-resources.md
+          - name: Onboard an implementation project
+            href: fasttrack/onboard.md
+          - name: Proactive guidance for self-service engagements
+            href: fasttrack/self-service-engagement.md
+          - name: Migration services for Dynamics CRM
+            href: fasttrack/migration.md
+          - name: Success by Design
+            href: implementation-guide/success-by-design.md
+          - name: Solution blueprint workshops
+            href: fasttrack/solution-workshops.md
+          - name: Implementation workshops
+            href: fasttrack/implementation-workshops.md
+          - name: Go-live readiness workshops
+            href: fasttrack/go-live-workshops.md
+          - name: Frequently asked questions about FastTrack
+            href: fasttrack/faq.md
+          - name: FastTrack Recognized Solution Architect
+            href: fasttrack/instruction-guide-fasttrack-recognized-solution-architect.md
       - name: TechTalks
         items:
-        - name: Overview of TechTalk articles
-          href: techtalks/index.yml
-        - name: Introduction
-          href: roles/techtalk-videos.md
-        - name: Introduction to the Dynamics 365 guidance hub
-          href: techtalks\get-started-guidance-hub.md
-        - name: Business processes
-          items:
-          - name: Introduction to the business process catalog
-            href: techtalks\get-started-business-process-catalog.md
-          - name: Manage project scope and estimates with the business process catalog
-            href: techtalks\get-started-business-process-catalog-manage-project-scope-estimation.md
-          - name: Author business processes
-            href: techtalks\get-started-business-process-catalog-authoring.md
-          - name: Author patterns for business processes
-            href: techtalks\get-started-business-process-catalog-authoring-patterns.md
-        - name: Finance
-          items:
-          - name: Copilot capabilities in Finance
-            href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
-          - name: Microsoft Copilot for Finance
-            href: techtalks\microsoft-copilot-finance.md
-          - name: Extending Copilot in finance and operations apps
-            href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
-          - name: The source to pay business process
-            href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
-          - name: Business performance analytics in Dynamics 365 Finance
-            href: techtalks\finance-bpa-overview.md
-          - name: Performance test the user interface with JMeter in Dynamics 365 Finance
-            href: techtalks\finance-operations-ui-performance-test-jmeter.md
-          - name: Tax calculation updates in 2024
-            href: techtalks\finance-tax-updates-2024.md
-          - name: Advanced bank reconciliation
-            href: techtalks\finance-advanced-bank-reconciliation-enhancements.md
-          - name: Invoice capture features and functionality
-            href: techtalks\finance-invoice-capture-ga-features-functionality.md  
-          - name: Subscription billing and deferral schedules
-            href: techtalks\finance-subscription-billing-deferral-schedules-project-management-accounting.md        
-          - name: Migrate to subscription billing
-            href: techtalks\finance-subscription-billing-migrate.md  
-          - name: Regulatory Configuration Service moved to Globalization Studio workspace
-            href: techtalks\finance-globalization-studio-regulatory-configuration-service.md
-        - name: Human Resources
-          items:
-          - name: Human Resources infrastructure merge
-            href: techtalks\human-resources-infrastructure-merge.md
-        - name: Project Operations
-          items:
-          - name: Project management and time entry
-            href: techtalks\project-operations-project-management-time-entry.md
-          - name: Sales and inception
-            href: techtalks\project-operations-sales-inception.md
-        - name: Supply Chain Management
-          items:
-          - name: Copilot capabilities in Supply Chain Management
-            href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
-          - name: Extending Copilot in finance and operations apps
-            href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
-          - name: The source to pay business process
-            href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
-          # - name: The procure to pay business process
-          #   href: techtalks\supply-chain-procure-to-pay-overview.md 
-          - name: Inventory On-hand mobile app
-            href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
-          - name: Warehouse management only mode
-            href: techtalks/supply-chain-management-warehouse-management-only-mode.md
-          - name: Cloud label printing
-            href: techtalks\supply-chain-cloud-label-printing.md
-          - name: Demand planning for Dynamics 365 Supply Chain Management
-            href: techtalks\supply-chain-demand-planning-introduction.md
-          - name: Introducing attribute-based omnichannel product and inventory search
-            href: techtalks\attribute-based-omnichannel-product-inventory-search.md
-          - name: Pricing management
-            href: techtalks\supply-chain-pricing-management.md
-          - name: Advanced export control
-            href: techtalks\supply-chain-advanced-export-control.md
-          - name: Performance testing using JMeter and warehouse app task validation framework
-            href: techtalks\implement-supply-chain-warehouse-performance-testing.md
-          - name: Performance test the user interface with JMeter
-            href: techtalks\finance-operations-ui-performance-test-jmeter.md
-          - name: What's new in Supply Chain Management in 2023 release wave 2
-            href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
-        - name: Digital selling
-          items:
-          - name: Set up business-to-business digital selling with Dynamics 365
-            href: techtalks\set-up-dynamics-365-digital-selling.md
-          - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 1 
-            href: techtalks\extend-supply-chain-commerce-b2b.md
-          - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 2 
-            href: techtalks\extend-supply-chain-commerce-b2b-part2.md
-        - name: Implementation
-          items:
-          - name: Solution blueprint reviews
-            href: techtalks\implement-solution-blueprint-review-fasttrack-dynamics-365.md
-          - name: Conduct process-centric discovery
-            href: techtalks\get-started-conduct-process-centric-discovery.md
-          - name: Process governance
-            href: techtalks\get-started-conduct-process-governance.md
-          - name: Implementation approach with agile techniques
-            href: techtalks\implement-use-agile-techniques.md
-          - name: Optimize the experience in Dynamics 365 apps
-            href: techtalks\implement-optimize-experience.md
-          - name: Modernizing the admin experience for finance and operations apps
-            href: techtalks\finance-operations-unified-admin-experience.md
-          - name: Service, support, and maintain Dynamics 365 apps
-            href: techtalks\service-support-maintain-dynamics-365-apps.md
-          - name: Automated regression testing with Leapwork
-            href: techtalks\dynamics-365-automated-regression-testing-leapwork.md
-          - name: Performance improvements for continuous number sequences
-            href: techtalks\finance-operations-continuous-number-sequence-performance-improvements.md
-        # - name: Performance
-        #   items:
-        - name: Integration
-          items:
-          - name: General guidance for integrating Dynamics 365 apps
-            href: techtalks\integrate-general-guidance.md
-          - name: Integration patterns for Dynamics 365 finance and operations applications
-            href: techtalks\integrate-finance-operations-overview.md
-          - name: Integration patterns for Dataverse
-            href: techtalks\integrate-finance-operations-dataverse.md
-          - name: Transition to using Synapse Link for Dataverse
-            href: techtalks/dataverse-synapse-link-dynamics-365-transition.md
-          - name: Architecture patterns for virtual data warehousing
-            href: techtalks/dataverse-synapse-link-dynamics-365-architecture-patterns.md
-          - name: Cloud data warehousing for Dynamics 365 data
-            href: techtalks/dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md
-          - name: Dynamics 365 data in lake house architecture
-            href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
-          - name: Dynamics 365 Payment Connector for Adyen
-            href: techtalks\adyen-payment-connector-dynamics-365.md
-        - name: Development
-          items:
-          - name: Unified developer experience for Dynamics 365 finance and operations apps
-            href: techtalks\unified-developer-experience.md
-# Product docs
+          - name: Overview of TechTalk articles
+            href: techtalks/index.yml
+          - name: Introduction
+            href: roles/techtalk-videos.md
+          - name: Introduction to the Dynamics 365 guidance hub
+            href: techtalks\get-started-guidance-hub.md
+          - name: Business processes
+            items:
+              - name: Introduction to the business process catalog
+                href: techtalks\get-started-business-process-catalog.md
+              - name: Manage project scope and estimates with the business process catalog
+                href: techtalks\get-started-business-process-catalog-manage-project-scope-estimation.md
+              - name: Author business processes
+                href: techtalks\get-started-business-process-catalog-authoring.md
+              - name: Author patterns for business processes
+                href: techtalks\get-started-business-process-catalog-authoring-patterns.md
+          - name: Finance
+            items:
+              - name: Copilot capabilities in Finance
+                href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+              - name: Microsoft Copilot for Finance
+                href: techtalks\microsoft-copilot-finance.md
+              - name: Extending Copilot in finance and operations apps
+                href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
+              - name: The source to pay business process
+                href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+              - name: Business performance analytics in Dynamics 365 Finance
+                href: techtalks\finance-bpa-overview.md
+              - name: Performance test the user interface with JMeter in Dynamics 365 Finance
+                href: techtalks\finance-operations-ui-performance-test-jmeter.md
+              - name: Tax calculation updates in 2024
+                href: techtalks\finance-tax-updates-2024.md
+              - name: Advanced bank reconciliation
+                href: techtalks\finance-advanced-bank-reconciliation-enhancements.md
+              - name: Invoice capture features and functionality
+                href: techtalks\finance-invoice-capture-ga-features-functionality.md
+              - name: Subscription billing and deferral schedules
+                href: techtalks\finance-subscription-billing-deferral-schedules-project-management-accounting.md
+              - name: Migrate to subscription billing
+                href: techtalks\finance-subscription-billing-migrate.md
+              - name: Regulatory Configuration Service moved to Globalization Studio workspace
+                href: techtalks\finance-globalization-studio-regulatory-configuration-service.md
+          - name: Human Resources
+            items:
+              - name: Human Resources infrastructure merge
+                href: techtalks\human-resources-infrastructure-merge.md
+          - name: Project Operations
+            items:
+              - name: Project management and time entry
+                href: techtalks\project-operations-project-management-time-entry.md
+              - name: Sales and inception
+                href: techtalks\project-operations-sales-inception.md
+          - name: Supply Chain Management
+            items:
+              - name: Copilot capabilities in Supply Chain Management
+                href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+              - name: Extending Copilot in finance and operations apps
+                href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
+              - name: The source to pay business process
+                href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+              - name: Inventory On-hand mobile app
+                href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
+              - name: Warehouse management only mode
+                href: techtalks/supply-chain-management-warehouse-management-only-mode.md
+              - name: Cloud label printing
+                href: techtalks\supply-chain-cloud-label-printing.md
+              - name: Demand planning for Dynamics 365 Supply Chain Management
+                href: techtalks\supply-chain-demand-planning-introduction.md
+              - name: Introducing attribute-based omnichannel product and inventory search
+                href: techtalks\attribute-based-omnichannel-product-inventory-search.md
+              - name: Pricing management
+                href: techtalks\supply-chain-pricing-management.md
+              - name: Advanced export control
+                href: techtalks\supply-chain-advanced-export-control.md
+              - name: Performance testing using JMeter and warehouse app task validation framework
+                href: techtalks\implement-supply-chain-warehouse-performance-testing.md
+              - name: Performance test the user interface with JMeter
+                href: techtalks\finance-operations-ui-performance-test-jmeter.md
+              - name: What's new in Supply Chain Management in 2023 release wave 2
+                href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
+          - name: Digital selling
+            items:
+              - name: Set up business-to-business digital selling with Dynamics 365
+                href: techtalks\set-up-dynamics-365-digital-selling.md
+              - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 1
+                href: techtalks\extend-supply-chain-commerce-b2b.md
+              - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 2
+                href: techtalks\extend-supply-chain-commerce-b2b-part2.md
+          - name: Implementation
+            items:
+              - name: Solution blueprint reviews
+                href: techtalks\implement-solution-blueprint-review-fasttrack-dynamics-365.md
+              - name: Conduct process-centric discovery
+                href: techtalks\get-started-conduct-process-centric-discovery.md
+              - name: Process governance
+                href: techtalks\get-started-conduct-process-governance.md
+              - name: Implementation approach with agile techniques
+                href: techtalks\implement-use-agile-techniques.md
+              - name: Optimize the experience in Dynamics 365 apps
+                href: techtalks\implement-optimize-experience.md
+              - name: Modernizing the admin experience for finance and operations apps
+                href: techtalks\finance-operations-unified-admin-experience.md
+              - name: Service, support, and maintain Dynamics 365 apps
+                href: techtalks\service-support-maintain-dynamics-365-apps.md
+              - name: Automated regression testing with Leapwork
+                href: techtalks\dynamics-365-automated-regression-testing-leapwork.md
+              - name: Performance improvements for continuous number sequences
+                href: techtalks\finance-operations-continuous-number-sequence-performance-improvements.md
+          - name: Integration
+            items:
+              - name: General guidance for integrating Dynamics 365 apps
+                href: techtalks\integrate-general-guidance.md
+              - name: Integration patterns for Dynamics 365 finance and operations applications
+                href: techtalks\integrate-finance-operations-overview.md
+              - name: Integration patterns for Dataverse
+                href: techtalks\integrate-finance-operations-dataverse.md
+              - name: Transition to using Synapse Link for Dataverse
+                href: techtalks/dataverse-synapse-link-dynamics-365-transition.md
+              - name: Architecture patterns for virtual data warehousing
+                href: techtalks/dataverse-synapse-link-dynamics-365-architecture-patterns.md
+              - name: Cloud data warehousing for Dynamics 365 data
+                href: techtalks/dataverse-synapse-link-dynamics-365-cloud-data-warehouse.md
+              - name: Dynamics 365 data in lake house architecture
+                href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
+              - name: Dynamics 365 Payment Connector for Adyen
+                href: techtalks\adyen-payment-connector-dynamics-365.md
+          - name: Development
+            items:
+              - name: Unified developer experience for Dynamics 365 finance and operations apps
+                href: techtalks\unified-developer-experience.md
       - name: Product documentation
         items:
-        - name: Dynamics 365 documentation hub
-          href: /dynamics365/index
-        - name: Dynamics 365 Business Central
-          href: /dynamics365/business-central
-        - name: Dynamics 365 Commerce
-          href: /dynamics365/commerce
-        - name: Dynamics 365 Customer Insights
-          href: /dynamics365/customer-insights
-        - name: Dynamics 365 Customer Service
-          href: /dynamics365/customer-service
-        - name: Dynamics 365 Customer Voice
-          href: /dynamics365/customer-voice/help-hub
-        - name: Dynamics 365 Field Service
-          href: /dynamics365/field-service/user-guide
-        - name: Dynamics 365 Finance
-          href: /dynamics365/finance
-        - name: Dynamics 365 Fraud Protection
-          href: /dynamics365/fraud-protection
-        - name: Dynamics 365 Guides
-          href: /dynamics365/mixed-reality/guides
-        - name: Dynamics 365 Human Resources
-          href: /dynamics365/human-resources
-        - name: Dynamics 365 Intelligent Order Management
-          href: /dynamics365/intelligent-order-management
-        - name: Dynamics 365 Project Operations
-          href: /dynamics365/project-operations
-        - name: Dynamics 365 Remote Assist
-          href: /dynamics365/mixed-reality/remote-assist/ra-overview
-        - name: Dynamics 365 Sales
-          href: /dynamics365/sales/help-hub
-        - name: Dynamics 365 Supply Chain Management
-          href: /dynamics365/supply-chain
+          - name: Dynamics 365 documentation hub
+            href: /dynamics365/index
+          - name: Dynamics 365 Business Central
+            href: /dynamics365/business-central
+          - name: Dynamics 365 Commerce
+            href: /dynamics365/commerce
+          - name: Dynamics 365 Customer Insights
+            href: /dynamics365/customer-insights
+          - name: Dynamics 365 Customer Service
+            href: /dynamics365/customer-service
+          - name: Dynamics 365 Customer Voice
+            href: /dynamics365/customer-voice/help-hub
+          - name: Dynamics 365 Field Service
+            href: /dynamics365/field-service/user-guide
+          - name: Dynamics 365 Finance
+            href: /dynamics365/finance
+          - name: Dynamics 365 Fraud Protection
+            href: /dynamics365/fraud-protection
+          - name: Dynamics 365 Guides
+            href: /dynamics365/mixed-reality/guides
+          - name: Dynamics 365 Human Resources
+            href: /dynamics365/human-resources
+          - name: Dynamics 365 Intelligent Order Management
+            href: /dynamics365/intelligent-order-management
+          - name: Dynamics 365 Project Operations
+            href: /dynamics365/project-operations
+          - name: Dynamics 365 Remote Assist
+            href: /dynamics365/mixed-reality/remote-assist/ra-overview
+          - name: Dynamics 365 Sales
+            href: /dynamics365/sales/help-hub
+          - name: Dynamics 365 Supply Chain Management
+            href: /dynamics365/supply-chain

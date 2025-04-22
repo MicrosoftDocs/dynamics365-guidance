@@ -215,7 +215,7 @@ The following steps are illustrated in the *project to profit* end-to-end busine
 
     <!-- 1. Manage project opportunities -->
     <!-- 2. Manage project quotations -->
-    1. [Govern projects](project-to-profit-govern-projects-overview.md)  
+    1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)  
 
         1. *Manage project stakeholders*
 
@@ -233,8 +233,7 @@ The following steps are illustrated in the *project to profit* end-to-end busine
 
     2. *Manage project contracts*
 
-    3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
-
+    3. [Plan projects](project-to-profit-plan-projects-overview.md)
     4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
         Parallel branches from this subprocess are i. *Capture project expenses*, j. *Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Source to pay*.

@@ -1,569 +1,480 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="1551.704"
-   height="1138.5394"
-   overflow="hidden"
+   viewBox="58 58 513 693"
+   xml:space="preserve"
+   color-interpolation-filters="sRGB"
+   class="st10"
    version="1.1"
-   id="svg152"
+   id="svg42"
    sodipodi:docname="project-to-profit-manage-project-contracts-flow.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs156" />
-  <sodipodi:namedview
-     id="namedview154"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.53489583"
-     inkscape:cx="925.41383"
-     inkscape:cy="938.50049"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="2725"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg152" />
-  <g
-     id="g150"
-     transform="translate(-33.651413,-20.564753)">
-    <rect
-       x="33.651413"
-       y="20.564753"
-       width="1551.704"
-       height="1138.5394"
-       fill="#ffffff"
-       id="rect2"
-       style="stroke-width:0.692273" />
-    <rect
-       x="585"
-       y="83"
-       width="649"
-       height="1065"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#d9d9d9"
-       id="rect4" />
-    <text
-       fill="#0078d4"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="700"
-       font-size="27px"
-       transform="translate(613.775,132)"
-       id="text6">Business process area</text>
-    <path
-       d="M 48,68.5 C 48,48.3416 64.3416,32 84.5,32 h 138 c 20.158,0 36.5,16.3416 36.5,36.5 v 0 C 259,88.6584 242.658,105 222.5,105 H 84.5 C 64.3416,105 48,88.6584 48,68.5 Z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path8" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(137.155,75)"
-       id="text10">Start</text>
-    <path
-       d="M 1,-2.18567e-6 1.00009,41.3675 h -2 L -1,2.18567e-6 Z M 4.00009,40.0341 l -3.999985013,8 -4.000014987,-8 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,154,105)"
-       id="path12" />
-    <rect
-       x="617"
-       y="161"
-       width="195"
-       height="133"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect14" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(658.966,224)"
-       id="text16">Manage project</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(682.106,243)"
-       id="text18">contracts</text>
-    <rect
-       x="862"
-       y="153"
-       width="251"
-       height="153"
-       fill="#ffffff"
-       id="rect20" />
-    <path
-       d="M 893.375,153 V 306 M 1081.62,153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path22" />
-    <rect
-       x="862"
-       y="153"
-       width="251"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect24" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(938.288,226)"
-       id="text26">Create project</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(955.341,245)"
-       id="text28">contracts</text>
-    <path
-       d="m 883,1092.5 c 0,-20.16 16.342,-36.5 36.5,-36.5 h 138 c 20.16,0 36.5,16.34 36.5,36.5 v 0 c 0,20.16 -16.34,36.5 -36.5,36.5 h -138 c -20.158,0 -36.5,-16.34 -36.5,-36.5 z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path30" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(974.928,1099)"
-       id="text32">End</text>
-    <rect
-       x="862"
-       y="582"
-       width="252"
-       height="153"
-       fill="#ffffff"
-       id="rect34" />
-    <path
-       d="m 893.5,582 v 153 m 189,-153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path36" />
-    <rect
-       x="862"
-       y="582"
-       width="252"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect38" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(938.785,656)"
-       id="text40">Define project</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(943.938,675)"
-       id="text42">billing Terms</text>
-    <path
-       d="m 812.5,227 h 42.399 v 1 H 812.5 Z m 41.066,-3.5 8,4 -8,4 z"
-       fill="#0078d4"
-       id="path44" />
-    <rect
-       x="48"
-       y="153"
-       width="221"
-       height="152"
-       stroke="#000000"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect46" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(95.495,235)"
-       id="text48">Prospect to quote</text>
-    <rect
-       x="861"
-       y="394"
-       width="252"
-       height="153"
-       fill="#ffffff"
-       id="rect50" />
-    <path
-       d="m 892.5,394 v 153 m 189,-153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path52" />
-    <rect
-       x="861"
-       y="394"
-       width="252"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect54" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(935.285,467)"
-       id="text56">Define project</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(962.765,486)"
-       id="text58">pricing</text>
-    <path
-       d="M 0.499985,-0.00380586 1.11591,80.9115 0.115937,80.9191 -0.499985,0.00380586 Z M 4.60566,79.5515 0.666667,87.5817 -3.39411,79.6124 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,988.167,306.5)"
-       id="path60" />
-    <path
-       d="m 1113.5,230 h 176.53 c 0.27,0 0.5,0.224 0.5,0.5 v 210.671 l -0.5,-0.5 h 73.86 v 1 h -73.86 c -0.28,0 -0.5,-0.224 -0.5,-0.5 V 230.5 l 0.5,0.5 H 1113.5 Z m 249.06,207.171 8,4 -8,4 z"
-       fill="#0078d4"
-       id="path62" />
-    <rect
-       x="862"
-       y="790"
-       width="252"
-       height="134"
-       fill="#ffffff"
-       id="rect64" />
-    <path
-       d="m 893.5,790 v 134 m 189,-134 v 134"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path66" />
-    <rect
-       x="862"
-       y="790"
-       width="252"
-       height="134"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect68" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(935.845,854)"
-       id="text70">Define funding</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(965.205,873)"
-       id="text72">source</text>
-    <path
-       d="m 988,547.481 1.08,28.374 -1,0.038 -1.08,-28.374 z m 4.526,26.908 -3.693,8.147 -4.301,-7.842 z"
-       fill="#0078d4"
-       id="path74" />
-    <path
-       d="m 989,735.5 v 47.931 h -1 V 735.5 Z m 3.5,46.598 -4,8 -4,-8 z"
-       fill="#0078d4"
-       id="path76" />
-    <path
-       d="m 989,924.5 v 125.64 h -1 V 924.5 Z m 3.5,124.3 -4,8 -4,-8 z"
-       fill="#0078d4"
-       id="path78" />
-    <rect
-       x="53"
-       y="432"
-       width="211"
-       height="133"
-       stroke="#000000"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect80" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(103.432,505)"
-       id="text82">Project to profit</text>
-    <rect
-       x="320"
-       y="162"
-       width="196"
-       height="133"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect84" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(368.524,225)"
-       id="text86">Create project</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(397.064,244)"
-       id="text88">quote</text>
-    <rect
-       x="320"
-       y="436"
-       width="196"
-       height="125"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect90" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(362.417,505)"
-       id="text92">Govern</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(417.457,505)"
-       id="text94">projects</text>
-    <path
-       d="M 0.00611072,-0.499963 44.2599,0.0409232 44.2477,1.04085 -0.00611072,0.499963 Z M 42.9695,-3.47511 50.92,0.622362 42.8717,4.52429 Z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,269.5,229.122)"
-       id="path96" />
-    <path
-       d="M 9.43507e-7,-0.5 48.9699,-0.499908 v 1 L -9.43507e-7,0.5 Z M 47.6365,-3.99991 l 8,4.000014987 -8,3.999985013 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,264.5,498.5)"
-       id="path98" />
-    <rect
-       x="1362"
-       y="173"
-       width="212"
-       height="133"
-       stroke="#000000"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect100" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1413.08,246)"
-       id="text102">Project to profit</text>
-    <rect
-       x="1370"
-       y="374"
-       width="196"
-       height="133"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect104" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1412.68,427)"
-       id="text106">Manage project</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1419.29,446)"
-       id="text108">resources and</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1433.57,465)"
-       id="text110">schedules</text>
-    <rect
-       x="1370"
-       y="594"
-       width="196"
-       height="133"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect112" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1412.68,658)"
-       id="text114">Manage project</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1440.47,677)"
-       id="text116">delivery</text>
-    <rect
-       x="1371"
-       y="790"
-       width="196"
-       height="133"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect118" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1413.44,854)"
-       id="text120">Manage project</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1436.33,873)"
-       id="text122">financials</text>
-    <rect
-       x="1370"
-       y="970"
-       width="196"
-       height="133"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect124" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1424.22,1023)"
-       id="text126">Monitor and</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1415.26,1042)"
-       id="text128">analyze project</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="16px"
-       transform="translate(1423.1,1061)"
-       id="text130">performance</text>
-    <path
-       d="m 1469,306.5 v 60.823 h -1 V 306.5 Z m 3.5,59.49 -4,8 -4,-8 z"
-       fill="#0078d4"
-       id="path132" />
-    <path
-       d="m 1469,507.5 v 80.952 h -1 V 507.5 Z m 3.5,79.619 -4,8 -4,-8 z"
-       fill="#0078d4"
-       id="path134" />
-    <path
-       d="m 1470,698.5 v 85.54 h -1 V 698.5 Z m 3.5,84.207 -4,8 -4,-8 z"
-       fill="#0078d4"
-       id="path136" />
-    <path
-       d="m 1476,894.5 v 68.982 h -1 V 894.5 Z m 3.5,67.649 -4,8 -4,-8 z"
-       fill="#0078d4"
-       id="path138" />
-    <path
-       d="m 1113.5,470 h 179.43 c 0.28,0 0.5,0.224 0.5,0.5 v 386.373 l -0.5,-0.5 h 71.72 v 1 h -71.72 c -0.27,0 -0.5,-0.224 -0.5,-0.5 V 470.5 l 0.5,0.5 H 1113.5 Z m 249.81,382.873 8,4 -8,4 z"
-       fill="#0078d4"
-       id="path140" />
-    <path
-       d="m 1114.5,857 h 128.24 c 0.28,0 0.5,0.224 0.5,0.5 v 0 l -0.5,-0.5 h 121.57 v 1 h -121.57 c -0.28,0 -0.5,-0.224 -0.5,-0.5 v 0 l 0.5,0.5 H 1114.5 Z m 248.48,-3.5 8,4 -8,4 z"
-       fill="#0078d4"
-       id="path142" />
-    <path
-       d="m 1114.5,659 249.06,2.106 -0.01,1 L 1114.5,660 Z m 247.76,-1.405 7.96,4.067 -8.03,3.932 z"
-       fill="#0078d4"
-       id="path144" />
-    <path
-       d="M 0.00380775,-0.499985 94.2752,0.217959 94.2676,1.21793 -0.00380775,0.499985 Z M 92.9685,-3.29209 100.938,0.768714 92.9076,4.70767 Z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,516.5,228.269)"
-       id="path146" />
-    <path
-       d="m 0,-0.5 h 50.4689 c 0.2762,0 0.5,0.223858 0.5,0.5 v 271.139 l -0.5,-0.5 h 43.8023 v 1 H 50.4689 c -0.2761,0 -0.5,-0.223 -0.5,-0.5 V 0 l 0.5,0.5 H 0 Z m 92.9378,267.639 8.0002,4 -8.0002,4 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,516.5,498.639)"
-       id="path148" />
-  </g>
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview42"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="2.3045915"
+   inkscape:cx="256.66154"
+   inkscape:cy="346.48223"
+   inkscape:window-width="3840"
+   inkscape:window-height="2054"
+   inkscape:window-x="2869"
+   inkscape:window-y="-11"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg42" />
+	<style
+   type="text/css"
+   id="style1"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st5 {font-size:1em}
+		.st6 {fill:#ffffff}
+		.st7 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {marker-end:url(#mrkr13-44);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style
+   id="style2"> a { pointer-events: none; } </style><style
+   id="style3">a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs
+   id="Markers">
+		<g
+   id="lend13">
+			<path
+   d="M 3 1 L 0 0 L 3 -1 L 3 1 "
+   style="stroke:none"
+   id="path3" />
+		</g>
+		<marker
+   id="mrkr13-44"
+   class="st9"
+   refX="-13.08"
+   orient="auto"
+   markerUnits="strokeWidth"
+   overflow="visible">
+			<use
+   xlink:href="#lend13"
+   transform="scale(-4.36,-4.36) "
+   id="use3" />
+		</marker>
+	</defs>
+	<g
+   id="g42"
+   transform="translate(-1.3017491,-1.7356655)">
+		
+		<g
+   id="shape1-1"
+   transform="translate(58.5,-684)">
+			
+			<desc
+   id="desc3">Start</desc>
+			<path
+   d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
+   class="st1"
+   id="path4" />
+			<text
+   x="31.01"
+   y="777.59998"
+   class="st2"
+   id="text4">Start</text>
+		</g>
+		<a
+   id="71006187-b922-4a59-a188-f05290af177a"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzMzMXY0MDYxJywxMjIxOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape2-4"
+   transform="translate(234,-670.5)">
+				
+				<desc
+   id="desc4">80.20 Manage project contracts</desc>
+				<rect
+   x="0"
+   y="729"
+   width="126"
+   height="63"
+   class="st3"
+   id="rect4" />
+				<text
+   x="9.3900003"
+   y="756.90002"
+   class="st4"
+   id="text5">80.20 Manage project <tspan
+   x="40.279999"
+   dy="1.2em"
+   class="st5"
+   id="tspan4">contracts</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="609880e5-8ea3-4f2b-b4ce-ec84a9038f7f"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzMzMnY0MDYxJywxMjIxOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape3-8"
+   transform="translate(234,-580.5)">
+				
+				<desc
+   id="desc5">80.20.010 Estimate project contracts</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path5" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path6" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path7" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path8" />
+				<text
+   x="16"
+   y="756.90002"
+   class="st2"
+   id="text8">80.20.010 Estimate <tspan
+   x="21.540001"
+   dy="1.2em"
+   class="st5"
+   id="tspan8">project contracts</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="6c3956a5-d181-4d02-9912-953a9d206f23"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzMzNXY0MDYxJywxMjIyMCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape4-15"
+   transform="translate(234,-490.5)">
+				
+				<desc
+   id="desc8">80.20.040 Negotiate project contracts</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path9" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path10" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path11" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path12" />
+				<text
+   x="13.22"
+   y="756.90002"
+   class="st2"
+   id="text12">80.20.040 Negotiate <tspan
+   x="21.540001"
+   dy="1.2em"
+   class="st5"
+   id="tspan12">project contracts</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="40aa4293-c2df-4455-b97c-4e883f992ebd"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxMDUzMzh2NDA2MScsMTIyMjEsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape5-22"
+   transform="translate(234,-400.5)">
+				
+				<desc
+   id="desc12">80.20.050 Finalize project contracts</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path13" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path14" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path15" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path16" />
+				<text
+   x="19.059999"
+   y="756.90002"
+   class="st2"
+   id="text16">80.20.050 Finalize <tspan
+   x="21.540001"
+   dy="1.2em"
+   class="st5"
+   id="tspan16">project contracts</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="0b4327db-963b-4487-928e-a76aad556f49"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxMDUzMzh2NDA2MScsMTIyMjEsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape6-29"
+   transform="translate(234,-310.5)">
+				
+				<desc
+   id="desc16">80.20.050 Finalize project contracts</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path17" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path18" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path19" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path20" />
+				<text
+   x="19.059999"
+   y="756.90002"
+   class="st2"
+   id="text20">80.20.050 Finalize <tspan
+   x="21.540001"
+   dy="1.2em"
+   class="st5"
+   id="tspan20">project contracts</tspan>				</text>
+			</g>
+		</a>
+		<g
+   id="shape7-36"
+   transform="translate(486,-54)">
+			
+			<desc
+   id="desc20">End</desc>
+			<path
+   d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
+   class="st1"
+   id="path21" />
+			<text
+   x="33.52"
+   y="777.59998"
+   class="st2"
+   id="text21">End</text>
+		</g>
+		<g
+   id="shape8-39"
+   transform="translate(288,-670.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path22" />
+		</g>
+		<g
+   id="shape9-45"
+   transform="translate(144,-693)">
+			
+			<path
+   d="M 0,783 H 80.19"
+   class="st8"
+   id="path23" />
+		</g>
+		<g
+   id="shape10-50"
+   transform="translate(288,-580.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path24" />
+		</g>
+		<g
+   id="shape11-55"
+   transform="translate(288,-490.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path25" />
+		</g>
+		<g
+   id="shape12-60"
+   transform="translate(288,-400.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path26" />
+		</g>
+		<g
+   id="shape13-65"
+   transform="translate(360,-63)">
+			
+			<path
+   d="M 0,783 H 116.19"
+   class="st8"
+   id="path27" />
+		</g>
+		<a
+   id="8a5eb7a4-eac8-40d6-b6c2-e62477c94bd5"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxMDUzMzl2NDA2MScsMTIyMjIsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape14-70"
+   transform="translate(234,-220.5)">
+				
+				<desc
+   id="desc27">80.20.060 Maintain project contracts</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path28" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path29" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path30" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path31" />
+				<text
+   x="15.38"
+   y="756.90002"
+   class="st2"
+   id="text31">80.20.060 Maintain <tspan
+   x="21.540001"
+   dy="1.2em"
+   class="st5"
+   id="tspan31">project contracts</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="64113695-1baf-4ad6-92f1-6d74311fbc68"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxMDUzNDB2NDA2MScsMTIyMjMsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape15-77"
+   transform="translate(234,-130.5)">
+				
+				<desc
+   id="desc31">80.20.100 Process project change requests</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path32" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path33" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path34" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path35" />
+				<text
+   x="18.76"
+   y="749.70001"
+   class="st2"
+   id="text36">80.20.100 Process <tspan
+   x="26.74"
+   dy="1.2em"
+   class="st5"
+   id="tspan35">project change </tspan>					 <tspan
+   x="41.93"
+   dy="1.2em"
+   class="st5"
+   id="tspan36">requests</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="ddbd42ea-331e-40b2-b22e-ec5fbb263c2c"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxMDUzNDF2NDA2MScsMTIyMjQsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape16-85"
+   transform="translate(234,-40.5)">
+				
+				<desc
+   id="desc36">80.20.200 Define project stakeholders</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st6"
+   id="path36" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st7"
+   id="path37" />
+				<path
+   d="M 9,792 V 729"
+   class="st7"
+   id="path38" />
+				<path
+   d="M 117,792 V 729"
+   class="st7"
+   id="path39" />
+				<text
+   x="21.299999"
+   y="756.90002"
+   class="st2"
+   id="text39">80.20.200 Define <tspan
+   x="13.05"
+   dy="1.2em"
+   class="st5"
+   id="tspan39">project stakeholders</tspan>				</text>
+			</g>
+		</a>
+		<g
+   id="shape17-92"
+   transform="translate(288,-310.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path40" />
+		</g>
+		<g
+   id="shape18-97"
+   transform="translate(288,-220.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path41" />
+		</g>
+		<g
+   id="shape19-102"
+   transform="translate(288,-130.5)">
+			
+			<path
+   d="m 9,792 v 17.19"
+   class="st8"
+   id="path42" />
+		</g>
+	</g>
 </svg>

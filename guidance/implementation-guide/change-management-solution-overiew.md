@@ -2,7 +2,7 @@
 title: Provide overviews of projects and solutions during projects
 description: Read about the change manager's tasks for catching and providing the overview of the project and the solution during a Dynamics 365 implementation project.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/20/2023
 ms.topic: conceptual
 ---

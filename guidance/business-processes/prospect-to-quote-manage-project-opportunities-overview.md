@@ -120,7 +120,7 @@ You can use the following resources to learn more about the *Manage project oppo
     - [Project contract](glossary.md#project-contract)
 
 - [Project to profit end-to-end overview](project-to-profit-overview.md)
-- [Govern projects](project-to-profit-govern-projects-overview.md)
+- [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)
 - [Dynamics 365 Project Operations - Sales and Inception (blog post)](https://community.dynamics.com/blogs/post/?postid=3fcc054a-377e-42b4-aed5-22e0c7026a67)
 - [Manage project opportunities (Project Operations)](/dynamics365/project-operations/sales/manage-project-based-opportunities)
 - [Project sales management (training)](/training/modules/get-started-project-operations/5-sales-management)

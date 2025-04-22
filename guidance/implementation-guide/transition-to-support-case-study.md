@@ -2,7 +2,7 @@
 title: Case study in transitioning to support
 description: Read a case study in how to transition to support at the end of an implementation of Dynamics 365 and learn about key takeaways.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/31/2024
 ms.topic: conceptual
 ms.custom:

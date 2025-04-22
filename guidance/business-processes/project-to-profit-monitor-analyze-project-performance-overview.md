@@ -1,21 +1,21 @@
 ---
-title: Overview of the Monitor and analyze project performance business process area
+title: Overview of the Analyze project performance business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for monitoring and analyzing project performance.
-ms.date: 11/17/2023
+ms.date: 04/15/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: lalithac
 ---
 
-# Overview of the Monitor and analyze project performance business process area within the Project to profit end-to-end scenario
+# Overview of the Analyze project performance business process area within the Project to profit end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Project Operations***
 
-This article describes how you can use Dynamics 365 products to support organization's requirements to monitor and analyze project performance.
+This article describes how you can use Dynamics 365 products to support organization's requirements to Analyze project performance. The business process area has been renamed, and we're still in process of updating the article.
 
-## Introduction to monitor and analyze project performance
+## Introduction to Analyze project performance
 
-The *monitor and analyze project performance* business process area focuses on systematically monitoring, assessing, and evaluating various project elements, including the following list:
+The *Analyze project performance* business process area focuses on systematically monitoring, assessing, and evaluating various project elements, including the following list:
 
 - How much of the project scope is already delivered?
 - What remains?
@@ -29,22 +29,22 @@ The process of monitoring and analyzing project performance should be establishe
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *monitor and analyze project performance* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Analyze project performance* area. The following list provides examples of such stakeholders:
 
 - **Project managers**: Responsible for monitoring project progress.
 - **Steering committee**: Responsible for making decisions based on an analysis of project performance.
 - **Project sponsor**: Responsible for reviewing the reports and assessing their effect.
 - **Finance controller**: Responsible for project budgeting, costing, and analysis of financial data.
 
-## Monitor and analyze project performance process flow 
+## Analyze project performance process flow 
 
-The following diagram illustrates the *monitor and analyze project performance* business process area.
+The following diagram illustrates the *Analyze project performance* business process area.
 
 :::image type="content" source="media/project-to-profit-monitor-analyze-project-performance-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-monitor-analyze-project-performance-flow.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-The *monitor and analyze project performance* business process area flow diagram covers the following steps.
+The *Analyze project performance* business process area flow diagram covers the following steps.
 
 1. Start
 1. *Project to profit* end-to-end process
@@ -55,7 +55,7 @@ The *monitor and analyze project performance* business process area flow diagram
 
         Parallel branches of this subprocess are the *Manage project contracts*, *Manage project resources and schedules*, *Manage project delivery*, and *Manage project financials* subprocesses.
 
-    1. *Monitor and analyze project performance*
+    1. *Analyze project performance*
 
         1. Define project metrics
         1. Define baseline for project metrics
@@ -81,9 +81,9 @@ The *monitor and analyze project performance* business process area flow diagram
 
 1. End
 
-## Monitor and analyze project performance benefits
+## Analyze project performance benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *monitor and analyze project performance* business process area. The following sections outline the key benefits that an organization might monitor and measure for *monitor and analyze project performance*. 
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Analyze project performance* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Analyze project performance*. 
 
 ### Intelligent project analytics
 
@@ -101,23 +101,23 @@ Project monitoring and analytics help the project team recognize project issues 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *monitor and analyze project performance* business processes, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *Analyze project performance* business processes, you can use the following resources and steps to learn more.
 
-1. [Govern projects](project-to-profit-govern-projects-overview.md)
+1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)
 
 2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
 
-3. [Manage project resources and schedules](project-to-profit-manage-project-scope-schedule-overview.md)
+3. [Plan projects](project-to-profit-plan-projects-overview.md)
 
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)
 
 5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
-6. *Monitor and analyze project performance* (the article that you're currently reading)
+6. *Analyze project performance* (the article that you're currently reading)
 
 ## Related information
 
-You can use the following resources to learn more about the *monitor and analyze project performance* process in Dynamics 365.
+You can use the following resources to learn more about the *Analyze project performance* process in Dynamics 365.
 
 - [Project management and accounting overview](/dynamics365/project-operations/prod-pma/overview-project-management-accounting#analyze-the-project)
 - [Microsoft Dynamics 365 Project Operations Overview Video](https://community.dynamics.com/videos/post/?postid=86ea94cd-2914-ee11-8f6e-00224827eb85)

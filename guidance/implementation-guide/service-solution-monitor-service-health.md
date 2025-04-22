@@ -2,7 +2,7 @@
 title: Monitor and optimize your Dynamics 365 environments
 description: Learn how to monitor your Dynamics 365 environments for optimal performance, security, cost, and supportability with Microsoft tools.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/05/2024
 ms.topic: conceptual
 ms.custom:
