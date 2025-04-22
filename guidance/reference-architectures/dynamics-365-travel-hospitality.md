@@ -74,7 +74,7 @@ The following list outlines the components of the architecture:
 
 - The Travel and Hospitality platform is a product repository and CPQ tool to browse for available stays offerings. This platform produces, administers, distributes, and manages offers on every distribution channel.
 
-- The data quality management platform helps agents and customers input correct data. This platform creates partnerships with post offices from the countries where the company operates to get a correct address validation.
+- The data quality management platform helps agents and customers input correct data. This platform creates partnerships with post offices from the countries/regions where the company operates to get a correct address validation.
 
 - The contact management and delivery platform builds and serves landing pages, event pages, subscription centers, and other websites.
 
