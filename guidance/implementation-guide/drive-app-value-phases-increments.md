@@ -2,7 +2,7 @@
 title: Plan phases and increments for digital transformation
 description: Phases and increments are the steps of your digital transformation program. Learn how to plan them to deliver value, engage stakeholders, and adopt new features.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

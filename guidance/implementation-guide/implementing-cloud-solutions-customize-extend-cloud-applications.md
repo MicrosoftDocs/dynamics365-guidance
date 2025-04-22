@@ -2,7 +2,7 @@
 title: Customize and extend Dynamics 365 online
 description: Learn how to tailor Dynamics 365 to your business needs and take advantage of the underlying platform capabilities.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

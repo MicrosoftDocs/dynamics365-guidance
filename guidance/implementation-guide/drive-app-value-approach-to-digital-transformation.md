@@ -2,7 +2,7 @@
 title: Plan your digital transformation by expanding your solution
 description: Learn how to use the Success by Design framework to map your business model, set goals, and prioritize processes for your digital transformation with Dynamics 365.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

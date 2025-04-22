@@ -2,7 +2,7 @@
 title: Manage project goals and readiness for change managers
 description: Read about the change manager's tasks for managing goals and readiness during a Dynamics 365 implementation project. 
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/14/2023
 ms.topic: conceptual
 ---

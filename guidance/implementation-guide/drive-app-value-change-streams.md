@@ -2,7 +2,7 @@
 title: Change streams in business-focused digital transformations
 description: Learn how to use change streams in a business-focused digital transformation, including overviews on business changes and user changes.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

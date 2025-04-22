@@ -2,7 +2,7 @@
 title: Learn from a cloud implementation case study
 description: Learn how a company with retail locations across Australia used a hybrid model of on-premises and cloud solutions to improve its connectivity and customer service.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

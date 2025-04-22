@@ -2,7 +2,7 @@
 title: Move your business from on-premises to the cloud
 description: Learn the key points of migrating from an on-premises solution to Dynamics 365 and how it can boost your digital transformation.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

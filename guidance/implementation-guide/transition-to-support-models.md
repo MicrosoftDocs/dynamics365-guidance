@@ -2,7 +2,7 @@
 title: Choose a support model for your Dynamics 365 solutions
 description: Learn about the options and factors to consider when you choose a support model for your Dynamics 365 implementation projects.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/31/2024
 ms.topic: conceptual
 ms.custom:

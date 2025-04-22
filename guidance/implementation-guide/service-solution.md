@@ -2,7 +2,7 @@
 title: Monitor the health of your Dynamics 365 solution implementation
 description: Learn how to ensure the smooth operation and maintenance of your Dynamics 365 solution by monitoring service health and maintaining your environment.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 03/30/2023
 ms.topic: conceptual
 ms.custom:

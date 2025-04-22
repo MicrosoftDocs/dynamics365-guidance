@@ -2,7 +2,7 @@
 title: Manage project organization in the governance aspect
 description: Read about the change manager's tasks for managing the project organization during a Dynamics 365 implementation project. 
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/19/2023
 ms.topic: conceptual
 ---

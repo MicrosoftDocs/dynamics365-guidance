@@ -2,7 +2,7 @@
 title: Checklist for driving app value for digital transformations
 description: Review the checklist for how to drive app value as part of implementing a Dynamics 365 solution, including tables for various approaches.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

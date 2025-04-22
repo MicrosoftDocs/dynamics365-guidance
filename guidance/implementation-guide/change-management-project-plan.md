@@ -2,7 +2,7 @@
 title: Manage changes in the project plan
 description: Read about how the change manager can manage changes in the project plan for a Dynamics 365 implementation project. 
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/14/2023
 ms.topic: conceptual
 ---

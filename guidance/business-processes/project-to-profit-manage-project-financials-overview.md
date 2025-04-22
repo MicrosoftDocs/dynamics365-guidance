@@ -1,7 +1,7 @@
 ---
 title: Overview of the Manage project financials business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for managing project financials.
-ms.date: 12/20/2023
+ms.date: 04/15/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: mibeinar
@@ -27,10 +27,10 @@ Various individuals throughout your organization should participate in the desig
 
 - **Project manager**: The project manager is responsible for overseeing the entire project. The project manager has the following assigned tasks:
 
-    - Overseeing the project billing backlog
-    - Managing the project budget
-    - Handling estimations and accruals
-    - Overseeing resource allocation and cost tracking
+  - Overseeing the project billing backlog
+  - Managing the project budget
+  - Handling estimations and accruals
+  - Overseeing resource allocation and cost tracking
 
     Depending on your organization's processes, a project manager might also be responsible for reviewing and approving project transactions or preparing proforma invoices.
 
@@ -49,48 +49,13 @@ The following diagram illustrates the *manage project financials* business proce
 The *manage project financials* business process area flow diagram covers the following steps.
 
 1. Start
-1. *Project to profit* end-to-end process
+1. *Manage project financials*  
 
-    (A parallel branch of this process is the *Record to report* end-to-end process.)
-
-    1. *Define ledger structure and currency policies*
-    1. *Manage project financials*
-
-        1. Estimate project
-        1. Review and approve project estimates
-        1. Condition *Is approved?*
-
-            1. A branch for **Yes** leads to iv. *Manage project budgets*.
-            1. A parallel branch for **No** leads to the *Adjust estimate* subprocess, which connects back to i. *Estimate project*.
-
-            <!--Downstream to this subprocess is i. *Estimate project*. -->
-
-        1. Manage project budgets
-        1. Create project invoices
-        1. Record project fees
-        1. Allocate project transactions
-        1. Condition *Correction required?*
-
-            1. A branch for **No** leads to ix. *Manage and record project revenue*.
-            1. A parallel branch for **Yes** leads to *Correct project transactions*.
-
-            <!-- Downstream to this subprocess is ix. *Manage and record project revenue*. -->
-
-        1. Manage and record project revenue
-        1. Analyze project transactions
-
-1. *Project to profit* end-to-end process
-
-    1. *Govern projects*
-
-        Parallel branches of this subprocess are:
-
-        - *Manage project contracts*
-        - *Manage project contracts*
-        - *Manage project resources and schedules*
-        - *Manage project delivery*
-
-        <!-- Downstream to these branches is a subprocess b. *Manage project financials*. -->
+    1. *Correct project transactions*  
+    1. *Convert projects to fixed assets*  
+    1. *Invoice project milestones*  
+    1. *Invoice project transportations*  
+    1. *Recognize project revenue*  
 
 1. End
 
@@ -169,17 +134,19 @@ For organizations that use Dynamics 365 Project Operations and Dynamics 365 Fina
 
 If you want to implement Dynamics 365 solutions to assist with your *manage project financials* business processes, you can use the following resources and steps to learn more.
 
-1. [Govern projects](project-to-profit-govern-projects-overview.md)
+<!-- 1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md) -->
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)   
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)
+1. *Manage project financials* (the article that you're currently reading)
 
-2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+    1. *Correct project transactions*
+    1. *Convert projects to fixed assets*
+    1. *Invoice project milestones*
+    1. *Invoice project transactions*
+    1. [Recognize project revenue](project-to-profit-recognize-project-revenue.md)  
 
-3. [Manage project resources and schedule](project-to-profit-manage-project-scope-schedule-overview.md)
-
-4. [Manage project delivery](project-to-profit-deliver-project-work.md)
-
-5. *Manage project financials* (the article that you're currently reading)
-
-6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related information
 
@@ -187,20 +154,20 @@ You can use the following resources to learn more about the *manage project fina
 
 - Find definitions of terminology that is used in content for *manage project financials* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Project manager](glossary.md#project-manager)
-    - [Project controller](glossary.md#project-controller)
-    - [Project type](glossary.md#project-type)
-    - [Fixed-price projects](glossary.md#fixed-price-projects)
-    - [Project contract](glossary.md#project-contract)
-    - [Billing rules](glossary.md#billing-rules)
-    - [Billing schedules](glossary.md#billing-schedules)
-    - [Funding source](glossary.md#funding-source)
-    - [Project budget](glossary.md#project-budget)
-    - [Cost budget](glossary.md#cost-budget)
-    - [Revenue budget](glossary.md#revenue-budget)
-    - [Budget forecast](glossary.md#budget-forecast)
-    - [Project estimate](glossary.md#project-estimate)
-    - [Correcting entry](glossary.md#correcting-entry)
+  - [Project manager](glossary.md#project-manager)
+  - [Project controller](glossary.md#project-controller)
+  - [Project type](glossary.md#project-type)
+  - [Fixed-price projects](glossary.md#fixed-price-projects)
+  - [Project contract](glossary.md#project-contract)
+  - [Billing rules](glossary.md#billing-rules)
+  - [Billing schedules](glossary.md#billing-schedules)
+  - [Funding source](glossary.md#funding-source)
+  - [Project budget](glossary.md#project-budget)
+  - [Cost budget](glossary.md#cost-budget)
+  - [Revenue budget](glossary.md#revenue-budget)
+  - [Budget forecast](glossary.md#budget-forecast)
+  - [Project estimate](glossary.md#project-estimate)
+  - [Correcting entry](glossary.md#correcting-entry)
 
 - [Dynamics 365 Project Operations - Billing and Invoicing \| August 9-10, 2022 - Microsoft Dynamics Blog](https://community.dynamics.com/blogs/post/?postid=92cfddc1-1dcd-4431-b11a-bac737a9f45e)
 - [Project invoicing (Finance)](/dynamics365/finance/accounts-payable/project-invoicing)

@@ -2,7 +2,7 @@
 title: Drive feedback with a minimal viable product strategy
 description: Learn how to use the minimal viable product (MVP) strategy to build, measure, and learn from your app quickly and efficiently.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

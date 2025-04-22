@@ -2,7 +2,7 @@
 title: Adopt a cloud mindset as part a Dynamics 365 migration
 description: Find guidance on how to adopt a cloud mindset across an organization. The business value is a key driver in Dynamics 365 implementation projects.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/10/2024
 ms.topic: conceptual
 ms.custom:

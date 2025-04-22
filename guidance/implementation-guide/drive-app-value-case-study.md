@@ -2,7 +2,7 @@
 title: Business-focused digital transformation case study
 description: Review a case study of an accounting network adapting its digital selling techniques with Dynamics 365 and undergoing a business-focused digital transformation.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 01/11/2024
 ms.topic: conceptual
 ms.custom:

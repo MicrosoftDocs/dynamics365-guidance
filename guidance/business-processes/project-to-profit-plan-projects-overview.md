@@ -1,15 +1,17 @@
 ---
-title: Overview of the Manage project resources and schedule process area
+title: Overview of the Plan projects process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing resources and schedule for projects.
-ms.date: 11/29/2023
+ms.date: 04/15/2025
 ms.topic: conceptual
 author: edupont04
 ms.author: mbinaisse
 ---
 
-# Overview of the Manage project resources business process area within the Project to profit end-to-end scenario
+# Overview of the Plan projects business process area within the Project to profit end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations***
+
+This article represents a business process area that replaces another that was deprecated. We're still in process of updating the article.
 
 This article describes how you can use Dynamics 365 products to define your resources for a project and schedule your costs and revenue.
 
@@ -22,16 +24,16 @@ This business process should be defined and incorporated into the overall implem
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *Manage project resources and schedule* business process area. The following list provides examples of these stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Plan projects* business process area. The following list provides examples of these stakeholders:
 
 - Project manager
 - Audit department
 - Finance department
 - Executive sponsor
 
-## Manage project resources and schedule process flow
+## Plan projects process flow
 
-The *Manage project resources and schedule* business process flow is illustrated in the following diagram.
+The *Plan projects* business process flow is illustrated in the following diagram.
 
 Each solid gray rectangle in the diagram represents an end-to-end business process, while the solid blue rectangle represents a business process area. The arrows show the flow of the business process in an organization, with parallel subprocesses shown as branches if a subprocess can lead to more than one other subprocess.
 
@@ -44,7 +46,7 @@ The flow diagram covers the following steps.
 1. Start
 1. *Project to profit* end-to-end process
 1. *Govern projects* business process area
-1. *Manage project resources and schedule* business process area
+1. *Plan projects* business process area
 
     1. *Collect project requirements*.
     1. *Define project scope*, including deliverables.
@@ -59,9 +61,9 @@ The flow diagram covers the following steps.
 
 1. End
 
-## Manage project resources and schedule benefits
+## Plan projects benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Manage project resources and schedule* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Manage project resources and schedule*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Plan projects* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Plan projects*.
 
 ### Delivery excellence
 
@@ -77,13 +79,13 @@ Dynamics 365 Project Operations provides capabilities such as statements, contro
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *Manage project resources and schedule* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your *Plan projects* business processes, use the following resources and steps to learn more.
 
-1. [Govern projects](project-to-profit-govern-projects-overview.md)
+1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)
 
 2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
 
-3. *Manage project resources and schedule* (the article that you're currently reading)
+3. *Plan projects* (the article that you're currently reading)
 
 4. [Manage project delivery](project-to-profit-deliver-project-work.md)
 
@@ -95,12 +97,12 @@ Return to the overview of business process areas at [Project to profit business 
 
 ## Related information
 
-You can use the following resources to learn more about the *Manage project resources and schedule* process in Dynamics 365.
+You can use the following resources to learn more about the *Plan projects* process in Dynamics 365.
 
 - [Project management overview](/dynamics365/project-operations/project-management/project-management-overview)
 - [Work breakdown structures overview](/dynamics365/project-operations/prod-pma/work-breakdown-structures)
 - [TechTalk: Dynamics 365 Project Operations](https://community.dynamics.com/blogs/post/?postid=d9613dbe-cb51-4cb3-b29a-8464034d7fdb)
-- Find definitions of terminology that is used in content for *Manage project resources and schedule* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
+- Find definitions of terminology that is used in content for *Plan projects* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
   - [Scope](glossary.md#scope)
   - [Deliverables](glossary.md#deliverables)
@@ -127,4 +129,4 @@ Principal author:
 
 Other contributors:
 
-- Lalitha Chintamaneni \| FastTrack Solution Architect
+- Lalitha Chintamaneni \| FastTrack Solution Architect 

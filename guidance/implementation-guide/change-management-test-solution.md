@@ -2,7 +2,7 @@
 title: Manage test efforts during a Dynamics 365 implementation project
 description: Read about the change manager's tasks for managing the test efforts during a Dynamics 365 implementation project.
 author: taksatoms
-ms.author: tsato
+ms.author: edupont
 ms.date: 06/20/2023
 ms.topic: conceptual
 ---
