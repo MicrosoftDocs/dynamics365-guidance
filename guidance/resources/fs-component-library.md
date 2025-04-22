@@ -58,7 +58,7 @@ The following sections outline the content of the collection. Each section inclu
 
 - Use Copilot to create sample data for Field Service
 
-  Go through the steps to create account and contact data that you can use for demonstrations of Dynamics 365 Field Service environments. Learn more at [Use Copilot to create Sample Data for Field Service](/dynamics365/guidance/resources/fs-copilot-import-sample-data).
+  Go through the steps to create account and contact data that you can use for demonstrations of Dynamics 365 Field Service environments. Learn more at [Use Copilot to create sample data for Field Service](/dynamics365/guidance/resources/fs-copilot-import-sample-data).
 
 ## Related information
 
