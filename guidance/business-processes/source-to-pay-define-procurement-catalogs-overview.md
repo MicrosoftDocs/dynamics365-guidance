@@ -103,7 +103,7 @@ If you want to implement Dynamics 365 solutions to assist with your *define proc
 
 5. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
 
-6. [Process supplier invoices](source-to-pay-process-vendor-invoices-overview.md)  
+6. [Process supplier invoices](source-to-pay-manage-accounts-payable-overview.md)  
 
 7. [Issue and settle supplier payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 

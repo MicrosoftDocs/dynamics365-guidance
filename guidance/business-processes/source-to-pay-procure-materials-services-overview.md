@@ -114,7 +114,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *procu
 
 4. *Procure goods and services* (the article that you're currently reading)
 
-5. [Manage accounts payable](source-to-pay-process-vendor-invoices-overview.md)  
+5. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
 
 6. *Analyze procurement and sourcing*  
 

@@ -872,7 +872,7 @@ items:
               - name: Manage accounts payable
                 items:
                   - name: Manage accounts payable overview
-                    href: business-processes/source-to-pay-process-vendor-invoices-overview.md
+                    href: business-processes/source-to-pay-manage-accounts-payable-overview.md
                   - name: Issue and settle supplier payments
                     href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
                   - name: Process supplier rebates and incentives

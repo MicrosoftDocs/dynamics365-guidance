@@ -22,6 +22,8 @@ The *issue and settle vendor payments* business process focuses on paying vendor
 
 *Issue and settle vendor payments* is an essential step in the *Source to pay* end-to-end business process flow and structured and defined approach to issuing and settling vendor payments is critical to prevent financial risks and payment delays and ensure financial stability within your organization.
 
+Several steps must be completed to prepare Dynamics 365 solution for successful issue and settlement vendor payments processing. This includes but isn't limited to configuration of cash discount and term of payment.
+
 The *issue and settle vendor payments* business process should be defined and incorporated into the overall implementation during the plannings phase. This phase typically occurs at the beginning of a project's lifecycle. It involves establishing project goals, defining project scope, and developing a detailed project plan.
 
 ## Stakeholders
@@ -148,7 +150,7 @@ If you want to implement Dynamics 365 solutions to assist with your *issue and s
 4. *Define policies and procedures for procurement*
 5. *Plan supply*
 6. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)  
-7. [Process supplier invoices](source-to-pay-process-vendor-invoices-overview.md)  
+7. [Process supplier invoices](source-to-pay-manage-accounts-payable-overview.md)  
 8. *Issue and settle supplier payments* (the article that you're currently reading)
 9. *Manage vendor debits and chargebacks*
 10. *Create and process promissory notes*

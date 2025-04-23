@@ -106,7 +106,7 @@ If you want to implement Dynamics 365 solutions to support your *manage supplier
 
 4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)  
 
-5. [Process supplier invoices](source-to-pay-process-vendor-invoices-overview.md)  
+5. [Process supplier invoices](source-to-pay-manage-accounts-payable-overview.md)  
 
 6. [Issue and settle supplier payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 

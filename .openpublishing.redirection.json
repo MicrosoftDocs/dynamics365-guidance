@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "dynamics365/guidance/business-processes/source-to-pay-process-vendor-invoices-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-manage-accounts-payable-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "dynamics365/guidance/business-processes/project-to-profit-process-project-invoices-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
