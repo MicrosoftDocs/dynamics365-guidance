@@ -14,7 +14,7 @@ ms.date: 12/10/2024
 This article describes how you can use Dynamics 365 products to support the process for managing supplier or vendor rebates or other incentives in your supply chain.
 
 > [!NOTE]
-> In the first versions of the business process catalog, this article represented a business process area, but it is now a business process under *Manage accounts payable*. We're in process of updating the article based on the November 2024 version.
+> In the first versions of the business process catalog, this article represented a business process area, but it's now a business process under *Manage accounts payable*.
 
 Processing vendor rebates and incentives is a crucial aspect of financial management within an organization, playing a pivotal role in optimizing revenue and strengthening vendor relationships. In the realm of Dynamics 365, particularly Finance and Supply Chain Management, this process is seamlessly integrated, offering a comprehensive solution for managing rebate-related transactions. The cohesive ecosystem of Dynamics 365 ensures that businesses can efficiently configure and execute vendor rebate processes, fostering a streamlined and transparent approach.
 
@@ -113,7 +113,7 @@ If you would like to implement Dynamics 365 solutions to assist with your *proce
 
 4. *Procure materials and services*
 
-5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)  
+5. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
 
 6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
 

@@ -55,7 +55,7 @@ This business process area involves processing supplier invoices by verifying in
 
 You can also generate a prepayment invoice for advance vendor payment prior to the delivery of goods or services. The invoices can be received and processed manually, through automation, or EDI. For instance, the invoice capture solution in Dynamics 365 Finance is designed to automatically create vendor invoices from digital images via email inbox or manual upload.
 
-Learn more at [Manage accounts payable](source-to-pay-process-vendor-invoices-overview.md).  
+Learn more at [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md).  
 
 > [!NOTE]
 > In the first versions of the business process catalog, this business process area had the name *Process vendor invoices overview*. We're in process of updating the article based on the November 2024 version.

@@ -107,7 +107,7 @@ If you would like to implement Dynamics 365 solutions to assist with the *Develo
 
 4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
 
-5. [Process vendor invoices](source-to-pay-process-vendor-invoices-overview.md)
+5. [Process vendor invoices](source-to-pay-manage-accounts-payable-overview.md)
 
 6. *Manage accounts payable*
 
