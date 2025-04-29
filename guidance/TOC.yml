@@ -865,6 +865,8 @@ items:
                     href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
                   - name: Define procurement catalogs
                     href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+                  - name: Raise purchase requisitions overview
+                    href: business-processes/source-to-pay-raise-purchase-requisitions-overview.md
               - name: Manage supplier relationships overview
                 href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
               - name: Procure goods and services overview

@@ -149,12 +149,12 @@ When the organization manages their accounts payable, they gain direct control o
 
 If you want to implement Dynamics 365 solutions to assist with your *manage accounts payable* business processes, you can use the following resources and steps to learn more.
 
-1. [Develop procurement and sourcing strategy](source-to-pay-define-procurement-sourcing-strategy-overview.md)
-2. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
-3. Source and contract goods and services
-4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
-5. Manage accounts payable &larr; You are on this step
-6. Analyze procurement and sourcing
+1. [*Develop procurement and sourcing strategy*](source-to-pay-define-procurement-sourcing-strategy-overview.md)
+2. [*Manage supplier relationships*](source-to-pay-manage-vendor-relationships-overview.md)
+3. *Source and contract goods and services*
+4. [*Procure goods and services*](source-to-pay-procure-materials-services-overview.md)
+5. *Manage accounts payable* (The article you're currently reading)
+6. *Analyze procurement and sourcing*
 
 ## Related information
 
