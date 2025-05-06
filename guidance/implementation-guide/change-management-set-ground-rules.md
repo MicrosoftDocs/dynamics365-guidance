@@ -4,7 +4,7 @@ description: Find guidance for why and how to set ground rules for the Dynamics 
 author: taksatoms
 ms.author: edupont
 ms.date: 06/14/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Set the ground rules for Dynamics 365 implementation projects

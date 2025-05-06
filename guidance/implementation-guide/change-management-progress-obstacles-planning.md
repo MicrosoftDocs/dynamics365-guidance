@@ -4,7 +4,7 @@ description: Read about the change manager's tasks for managing progress and obs
 author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Manage progress, obstacles, and planning during the implement phase

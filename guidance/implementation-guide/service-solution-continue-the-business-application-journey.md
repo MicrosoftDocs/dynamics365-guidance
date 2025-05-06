@@ -1,11 +1,11 @@
-﻿---
+---
 
 title: Keep learning about Dynamics 365 and its benefits
 description: Learn how to stay updated on the latest features and capabilities of Dynamics 365, a cloud-based business application platform that evolves with your needs.
 author: taksatoms
 ms.author: edupont
 ms.date: 01/30/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - ai-seo-date: 01/30/2024
  - ai-gen-docs-bap

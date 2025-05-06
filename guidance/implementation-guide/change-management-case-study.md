@@ -4,7 +4,7 @@ description: Read a case study that takes you through a real-life example of how
 author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Change management case study

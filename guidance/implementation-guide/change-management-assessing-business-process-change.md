@@ -4,7 +4,7 @@ description: Find guidance about how to identify changes in a Dynamics 365 imple
 author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Assess business process changes in Dynamics 365 implementation projects
