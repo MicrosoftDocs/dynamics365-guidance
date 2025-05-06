@@ -2,7 +2,7 @@
 title: Overview of the estimate and quote sales business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for estimating and quoting sales.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
 ---

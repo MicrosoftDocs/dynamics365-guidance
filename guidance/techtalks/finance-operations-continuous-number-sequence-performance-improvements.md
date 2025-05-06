@@ -2,7 +2,7 @@
 title: TechTalk - Performance improvements for continuous number sequences in Dynamics 365 finance and operations apps
 description: Get a summary of a TechTalk video about performance improvements for the continuous number sequence capability in Dynamics 365 finance and operations apps.
 ms.date: 11/07/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

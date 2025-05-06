@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Author business processes
 description: Summary of TechTalk video that talks about how you author content based on the business process catalog for Dynamics 365 implementations.
 ms.date: 09/19/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

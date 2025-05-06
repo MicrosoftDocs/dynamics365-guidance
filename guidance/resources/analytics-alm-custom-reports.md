@@ -2,7 +2,7 @@
 title: ALM for analytics on data model customizations
 description: Migrate custom reports with minimal manual involvement by using application lifecycle management (ALM) for digital contact centers.
 ms.date: 03/15/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: ashrafomar
 ms.custom:

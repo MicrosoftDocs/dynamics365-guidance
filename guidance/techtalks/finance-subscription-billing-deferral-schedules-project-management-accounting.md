@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Subscription billing and deferral schedules with project management and accounting
 description: Summary of TechTalk video that talks about managing revenue and expense deferrals for subscription billing in Dynamics 365 Finance with the Project management and accounting module.
 ms.date: 10/14/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

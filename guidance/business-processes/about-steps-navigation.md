@@ -4,7 +4,7 @@ description: Learn how we how to understand where to find the different pages in
 author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont
-ms.topic: conceptual #Required; don't change.
+ms.topic: concept-article
 ms.collection: get-started #Required; don't change.
 ms.date: 02/04/2025
 ms.custom: bap-template #Required; don't change.

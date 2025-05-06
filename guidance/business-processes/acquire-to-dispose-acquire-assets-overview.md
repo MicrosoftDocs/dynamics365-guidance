@@ -2,7 +2,7 @@
 title: Overview of the Acquire assets business process
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to acquire assets.
 ms.date: 02/06/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: sdaggubati
 

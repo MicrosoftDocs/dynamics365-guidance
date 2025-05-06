@@ -2,7 +2,7 @@
 title: Customize the template for bookings
 description: Get tips for how to customize the template for bookings in solutions with Dynamics 365 Field Service.
 ms.date: 07/08/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: jwride
 ms.custom:

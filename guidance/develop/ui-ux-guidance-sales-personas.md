@@ -2,7 +2,7 @@
 title: Sales personas to include in UI/UX design
 description: Boost user adoption of Dynamics 365 Sales by customizing forms and workflows for different sales personas.
 ms.date: 03/05/2025
-ms.topic: conceptual
+ms.topic: concept-article
 contributors: kpetire
 author: edupont04
 ms.author: edupont

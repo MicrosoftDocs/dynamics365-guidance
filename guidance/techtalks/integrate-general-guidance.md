@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk General guidance for integrating Dynamics 365 apps 
 description: Summary of TechTalk video that talks about common integration patterns in solutions with Dynamics 365 apps. It also provides key considerations for the integration strategy.
 ms.date: 10/10/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

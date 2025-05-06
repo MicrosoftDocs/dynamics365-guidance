@@ -2,7 +2,7 @@
 title: Manage project opportunities business process area overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing opportunities.
 ms.date: 07/27/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: lalithac
 ---

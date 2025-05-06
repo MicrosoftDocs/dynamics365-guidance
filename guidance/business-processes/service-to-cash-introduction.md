@@ -2,7 +2,7 @@
 title: Introduction to the service to deliver end-to-end scenario
 description: Get introduced to the service to deliver end-to-end business process scenario with an overview of the business process, key benefits, and stakeholders.
 ms.date: 06/29/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
 ms.reviewer: edupont

@@ -1,8 +1,8 @@
-﻿---
+---
 title: Modernizing the admin experience for finance and operations apps
 description: Find a TechTalk video that talks about the gradual modernization of the admin experiences for Dynamics 365 finance and operations apps through the connection to the Power Platform admin center.
 ms.date: 09/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

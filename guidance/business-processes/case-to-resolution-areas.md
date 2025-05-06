@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of case to resolution business process areas
 description: Get an overview for each of the business process areas in the case to resolution end-to-end business process flow in Dynamics 365 solutions. Learn about their role in case performances.
 ms.date: 11/25/2024
-ms.topic: conceptual
+ms.topic: concept-article
 
 author: edupont04
 ms.author: marcoje

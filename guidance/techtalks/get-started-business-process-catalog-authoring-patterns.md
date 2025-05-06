@@ -1,8 +1,8 @@
-﻿---
+---
 title: Author business process patterns and use cases
 description: Summary of TechTalk video that talks about how you author business process-related patterns based on the business process catalog for Dynamics 365 implementations.
 ms.date: 09/20/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

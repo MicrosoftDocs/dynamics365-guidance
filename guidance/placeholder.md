@@ -3,7 +3,7 @@ title: Placeholder only
 description: Don't use this link because it doesn't do anything.
 author: edupont04
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.reviewer: renwe
 ms.subservice: guidance
 ms.date: 10/05/2023

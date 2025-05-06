@@ -2,7 +2,7 @@
 title: Define a sales strategy and policies
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining a sales strategy and policies to align sales activities with business growth objectives.
 ms.date: 01/17/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
 ---

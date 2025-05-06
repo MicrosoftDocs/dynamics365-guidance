@@ -3,7 +3,7 @@ title: Build an agent in Copilot Studio to create sample data
 description: Learn how to build an agent in Copilot Studio to generate location-based sample data in Dynamics 365 Field Service for demo, testing, or training purposes.
 author: edupont04
 contributors: carldesouza
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/18/2025
 ms.author: carldesouza
 ms.reviewer: edupont

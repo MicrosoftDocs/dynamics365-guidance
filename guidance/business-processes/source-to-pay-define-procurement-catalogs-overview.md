@@ -2,7 +2,7 @@
 title: Overview of the define procurement catalogs business process
 description: Read about how Dynamics 365 supports procurement catalogs as part of the Define procurement and sourcing strategy business process area.
 ms.date: 12/10/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ---

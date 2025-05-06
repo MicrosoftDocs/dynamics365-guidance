@@ -1,8 +1,8 @@
-﻿---
+---
 title: Performance test the user interface with JMeter in Dynamics 365 finance and operations apps 
 description: Find a TechTalk video that talks about how you can use JMeter to performance test the user interface in solutions with Dynamics 365 finance and operations apps.
 ms.date: 09/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

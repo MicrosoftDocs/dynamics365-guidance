@@ -2,7 +2,7 @@
 title: Overview of the plan supply and replenishment process area
 description: Read about the business process area for planning supply and replenishment in Dynamics 365.
 ms.date: 07/19/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
 ---

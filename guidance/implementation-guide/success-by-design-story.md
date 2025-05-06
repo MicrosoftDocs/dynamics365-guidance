@@ -1,8 +1,8 @@
-﻿---
+---
 title: An inside look at Success by Design
 description: Get an inside view at how Success by Design came about inside Microsoft, how it's evolving, and how Success by Design is integrated in customer projects.
 ms.date: 03/24/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont

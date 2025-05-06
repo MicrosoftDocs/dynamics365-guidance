@@ -3,7 +3,7 @@ title: Migrate data as part of Dynamics 365 implementation projects
 description: Learn about how to migrate congiguration data and migrated data to Dynamics 365, including resources about finance and operations apps.
 author: edupont04
 ms.author: edupont
-ms.topic: conceptual #Required; don't change.
+ms.topic: upgrade-and-migration-article
 ms.date: 02/02/2024
 ms.custom: bap-template #Required; don't change.
 ---

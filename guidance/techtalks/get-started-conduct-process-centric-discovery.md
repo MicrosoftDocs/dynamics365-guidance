@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Conduct process-centric discovery
 description: Summary of TechTalk video that talks about how you can use business process to make sure the Dynamics 365 implementation project meets business goals.
 ms.date: 09/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

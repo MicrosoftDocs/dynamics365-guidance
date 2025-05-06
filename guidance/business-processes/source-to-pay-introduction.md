@@ -2,7 +2,7 @@
 title: Help organizations manage the procure to pay business processes
 description: Get introduced to the procure to pay end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their plan to produce processes.
 ms.date: 04/24/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ---

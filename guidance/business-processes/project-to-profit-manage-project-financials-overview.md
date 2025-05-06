@@ -2,7 +2,7 @@
 title: Overview of the Manage project financials business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for managing project financials.
 ms.date: 04/15/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: mibeinar
 ---

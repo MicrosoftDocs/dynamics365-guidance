@@ -2,7 +2,7 @@
 title: Develop production strategies business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for defining production strategies.
 ms.date: 01/17/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
 ---

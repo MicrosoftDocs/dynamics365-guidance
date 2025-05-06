@@ -2,7 +2,7 @@
 title: Manage customer relationships business process area overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing customer relationships.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
 ---

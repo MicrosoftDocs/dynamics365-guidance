@@ -3,7 +3,7 @@ title: Custom record identification in Omnichannel
 description: Learn about the sample for customizing the record identification in Omnichannel for Dynamics 365 Customer Service.
 author: edupont04
 ms.author: viange
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/14/2024
 ms.custom:
   - ai-gen-docs-bap

@@ -1,7 +1,7 @@
-﻿---
+---
 title: TechTalk Integration patterns for Dataverse
 description: Summary of TechTalk video that talks about the various facets of integrating Dataverse and Dynamics 365 finance and operations apps.
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ms.date: 10/10/2024

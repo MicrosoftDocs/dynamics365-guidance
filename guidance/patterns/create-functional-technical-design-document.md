@@ -2,7 +2,7 @@
 title: Create a functional and technical design document
 description: Learn how to use our template to document the functional and technical design of your Dynamics 365 solution.
 ms.date: 01/11/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: edupont04
 ms.author: nikolaipopov
 ms.custom:

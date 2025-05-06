@@ -2,7 +2,7 @@
 title: TechTalk - Advanced export control for Dynamics 365 Supply Chain Management 
 description: Get a summary of a TechTalk video about the advanced export control capabilities for Dynamics 365 Supply Chain Management.
 ms.date: 11/04/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted
