@@ -1,9 +1,9 @@
-﻿---
+---
 title: Manage supplier relationships overview
 description: Learn how to use Dynamics 365 to support your organization's business processes for managing suppliers, including improving supplier performance.
 author: Pjagotra
 ms.author: pjagotra
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 12/10/2024
 ai-usage: ai-assisted
 ---
