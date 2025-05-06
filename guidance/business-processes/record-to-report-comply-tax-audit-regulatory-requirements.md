@@ -2,7 +2,7 @@
 title: Ensure and optimize tax, audit, and regulatory requirements
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to comply with tax, audit, and regulatory requirements.
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachelprofitt
 ms.author: raprofit
 ---
