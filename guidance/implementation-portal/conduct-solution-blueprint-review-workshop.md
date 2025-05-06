@@ -2,7 +2,7 @@
 title: Conduct solution blueprint review workshops
 description: Learn how to conduct solution blueprint reviews in Dynamics 365 Implementation Portal to ensure project success and mitigate potential issues early.
 ms.date: 03/05/2025
-ms.topic: conceptual
+ms.topic: how-to
 author: RajuB-FTSA
 ms.author: rabirru
 ms.reviewer: prabhav
