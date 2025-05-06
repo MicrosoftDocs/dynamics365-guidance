@@ -3,7 +3,7 @@ title: Solution Blueprint Review workshops
 description: Learn about the Solution Blueprint Review workshop, which sets the stage for the FastTrack engagement and serves as the starting point of Success by Design.
 ms.author: edupont # was jedinh
 ms.date: 12/18/2020
-ms.topic: article
+ms.topic: concept-article
 
 ms.reviewer: edupont
 author: ReneeW-CPub

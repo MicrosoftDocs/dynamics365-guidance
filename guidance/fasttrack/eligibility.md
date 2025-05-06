@@ -3,7 +3,7 @@ title: Customer eligibility and partner qualifications
 description: Customers attached to a qualified implementing partner receive FastTrack guidance based on their annual Dynamics 365 investment.
 ms.author: edupont # was jedinh
 ms.date: 07/01/2024
-ms.topic: article
+ms.topic: concept-article
 
 ms.reviewer: edupont
 author: ReneeW-CPub
