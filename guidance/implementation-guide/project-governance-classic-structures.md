@@ -1,10 +1,10 @@
-﻿---
+---
 title: Use classic project governance structures
 description: Learn how to assess and improve the effectiveness of common project governance structures, such as steering groups, in your Dynamics 365 projects.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/23/2024
   - ai-gen-docs-bap

@@ -1,10 +1,10 @@
-﻿---
+---
 title: How to approach a Dynamics 365 implementation project
 description: Learn how to choose and adapt a project approach that suits your Dynamics 365 implementation project and addresses the key processes and controls you need.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom:
   - ai-seo-date: 01/23/2024
   - ai-gen-docs-bap

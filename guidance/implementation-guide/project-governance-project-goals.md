@@ -1,10 +1,10 @@
-﻿---
+---
 title: Project goals for Dynamics 365 implementation projects
 description: Learn about the importance of project goals in Dynamics 365 implementation projects, including questions to consider when forming your goals.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/22/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Project goals for Dynamics 365 implementation projects

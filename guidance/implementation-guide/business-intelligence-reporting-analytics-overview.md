@@ -4,7 +4,7 @@ description: Learn how businesses can use data to make informed decisions, inclu
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/08/2024
   - ai-gen-docs-bap
