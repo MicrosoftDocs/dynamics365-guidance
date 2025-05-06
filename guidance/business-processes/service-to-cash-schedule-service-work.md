@@ -1,9 +1,9 @@
-﻿---
+---
 title: Schedule service work
 description: Learn about the benefits and process flow for the scheduling service requests business process within the service to cash process area.
 author: nucruz
 ms.author: nucruz
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/08/2024
 ---
 
