@@ -1,9 +1,9 @@
-﻿---
+---
 title: TechTalk Integration patterns finance and operations apps
 description: Summary of TechTalk video that talks about the diverse integration patterns available in Dynamics 365 finance and operations applications.
 author: dereklh77
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 10/10/2024
 ai-usage: ai-assisted
 ---

@@ -3,7 +3,7 @@ title: UI/UX design for Dynamics 365
 description: Discover how to enhance user experiences in Dynamics 365 model-driven apps and canvas apps with UI/UX design principles.
 author: dereklh77
 ms.author: riasif
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/03/2025
 ms.custom:
   - ai-gen-docs-bap

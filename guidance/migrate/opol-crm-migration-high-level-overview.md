@@ -3,7 +3,7 @@ title: Dynamics CRM on-premises to Dynamics 365 migration process overview
 description: Learn about the migration process from Dynamics CRM to Dynamics 365 (OP2OL), how to validate solutions and customizations, and understand the post-migration processes.
 author: dereklh77
 ms.author: ratrtile
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/06/2024
 ---
 

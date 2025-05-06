@@ -1,9 +1,9 @@
-﻿---
+---
 title: Saga pattern with Dataverse or Dynamics 365
 description: Learn about establishing a robust mechanism for transmitting data from Dataverse to other applications using the Saga pattern, with an outline on architecture.
 author: dereklh77
 ms.author: edupont
-ms.topic: article
+ms.topic: reference-architecture
 ms.date: 09/04/2024
 ---
 

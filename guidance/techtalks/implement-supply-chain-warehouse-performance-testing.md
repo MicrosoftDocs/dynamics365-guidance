@@ -1,9 +1,9 @@
-﻿---
+---
 title: Performance testing in Dynamics 365 Supply Chain Management
 description: Summary of TechTalk video that talks about JMeter and warehouse app Task Validation and how they can enhance the performance of your Dynamics 365 Supply Chain Management projects.
 author: dereklh77
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 02/21/2024
 ai-usage: ai-assisted
 ---

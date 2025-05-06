@@ -1,9 +1,9 @@
-﻿---
+---
 title: TechTalk Introduction to the Dynamics 365 guidance hub
 description: Summary of TechTalk video that talks about the Dynamics 365 guidance hub, its key features, how to navigate it, and how to use it to communicate with the community.
 author: dereklh77
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 09/16/2024
 ai-usage: ai-assisted
 ---
