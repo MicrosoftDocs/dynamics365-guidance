@@ -4,7 +4,7 @@ description: Learn how to prepare for an application lifecycle management worksh
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/19/2024
   - ai-gen-docs-bap

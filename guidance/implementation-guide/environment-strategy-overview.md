@@ -4,7 +4,7 @@ description: Learn how to plan your environment strategy to balance compliance, 
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/16/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/16/2024
   - ai-gen-docs-bap

@@ -1,7 +1,7 @@
 ---
 title: Checklist for planning your environment strategy
 description: Review a checklist for planning your environment strategy for Dynamics 365 and organize your environments and data for a successful implementation project.
-ms.topic: conceptual
+ms.topic: checklist
 ms.date: 01/18/2024
 author: abunduc-ms
 ms.author: abunduc

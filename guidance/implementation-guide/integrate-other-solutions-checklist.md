@@ -4,7 +4,7 @@ description: Get a thorough checklist to help Dynamics 365 implementation teams 
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/26/2024
-ms.topic: conceptual
+ms.topic: checklist
 ms.custom:
   - ai-seo-date: 01/26/2024
   - ai-gen-docs-bap
