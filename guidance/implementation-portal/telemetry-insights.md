@@ -3,7 +3,7 @@ title: Telemetry insights overview
 description: Learn how to use Telemetry insights to identify proactive optimization opportunities for your Dynamics 365 environments in the Dynamics 365 Implementation Portal. This article provides an overview on capabilities.
 author: meesposi
 ms.author: meesposi
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/07/2025
 ---
 # Telemetry insights overview
