@@ -1,9 +1,9 @@
-﻿---
+---
 title: Source to pay end-to-end overview
 description: Learn about the end-to-end business process, source to pay. Get a flow diagram that describes the relationship with other processes in Dynamics 365 solutions.
 author: AdiVijayashankar
 ms.author: advijaya
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 12/03/2024
 ---
 
