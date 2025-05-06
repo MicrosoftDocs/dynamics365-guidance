@@ -1,9 +1,9 @@
-﻿---
+---
 title: Process maturity overview
 description: Learn what process maturity is, how to measure it, and how to create a process management team to improve it during implementation projects with Dynamics 365.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 08/07/2024
 ai-usage: ai-assisted
 ---

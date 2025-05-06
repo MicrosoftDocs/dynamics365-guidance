@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Manage service pricing business process area
 description: Learn about the manage service pricing business process, including learning about the various stakeholders and business process flow.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 02/28/2024
 ---
 

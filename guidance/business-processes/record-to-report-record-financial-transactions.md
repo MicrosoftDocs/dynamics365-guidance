@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Record financial transactions business process area
 description: Learn about how organizations can use Dynamics 365 to help manage the processes for recording financial transactions, including definitions for stakeholder types.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/08/2024
 ---
 

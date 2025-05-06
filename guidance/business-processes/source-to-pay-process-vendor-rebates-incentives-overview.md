@@ -1,9 +1,9 @@
-﻿---
+---
 title: Process supplier rebates and incentives
 description: Learn about the process supplier rebates and incentives business process, including learning about the various stakeholders and business process flow.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 12/10/2024
 ---
 

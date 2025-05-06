@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Manage employee performance and growth business process area
 description: Learn how the manage employee performance and growth business process helps with learning, skills tracking and development, goal setting, and performance reviews.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/20/2024
 ai-usage: ai-assisted
 ---

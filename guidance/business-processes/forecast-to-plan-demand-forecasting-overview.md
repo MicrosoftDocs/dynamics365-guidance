@@ -2,7 +2,7 @@
 title: Predict future demand for products with demand forecasting
 description: Learn about how Dynamics 365 supports the demand forecasting business process, including the types of stakeholders and configuring demand forecasting.
 ms.date: 04/26/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont

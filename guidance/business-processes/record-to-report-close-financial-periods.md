@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Close financial periods business process area
 description: Learn about the processes around closing financial periods, including descriptions of stakeholders and a diagram of the process flow.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/08/2024
 ---
 

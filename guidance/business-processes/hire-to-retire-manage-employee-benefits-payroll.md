@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Manage worker compensation, benefits, and payroll business process area
 description: Learn about the manage worker compensation, benefits, and payroll business process, including learn about the process' stakeholders and benefits.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/19/2024
 ai-usage: ai-assisted
 ---

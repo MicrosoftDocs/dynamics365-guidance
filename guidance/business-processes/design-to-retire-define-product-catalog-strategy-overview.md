@@ -2,7 +2,7 @@
 title: Overview of the Define product catalog and strategy business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for categorizing, segmenting, and merchandising products and services. Learn how you can capture a strategy for the products that you want to sell.
 ms.date: 01/07/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

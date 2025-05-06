@@ -2,7 +2,7 @@
 title: Overview of the Define product costing business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to set the cost the goods that you sell.
 ms.date: 11/24/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---
