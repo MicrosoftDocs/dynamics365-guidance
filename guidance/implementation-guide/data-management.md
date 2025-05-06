@@ -4,7 +4,7 @@ description: Learn how data governance, architecture, modeling, storage, migrati
 author: vaniaf
 ms.author: veneva
 ms.date: 01/08/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
 - ai-seo-date: 01/08/2024
 - ai-gen-docs-bap
