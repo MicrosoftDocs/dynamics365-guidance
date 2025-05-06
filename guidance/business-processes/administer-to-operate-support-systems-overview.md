@@ -1,7 +1,7 @@
 ---
 title: Define support systems overview
 description: Learn about support systems, including outlines of how they help increase proactive issue detection, decrease resolution times, and enhance collaboration.
-ms.topic: article
+ms.topic: concept-article
 author: hasaid
 ms.author: hasaid
 ms.date: 08/07/2024
