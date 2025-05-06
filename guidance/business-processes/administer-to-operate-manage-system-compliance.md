@@ -3,7 +3,7 @@ title: Manage system compliance overview
 description: Learn about the importance of managing system compliance when implementing and operating Dynamics 365 products, including an overview of stakeholders and benefits.
 author: harshbirla
 ms.author: harshbir
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/25/2024
 ---
 
