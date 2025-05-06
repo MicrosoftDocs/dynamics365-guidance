@@ -3,7 +3,7 @@ title: Application Insights telemetry with Microsoft Dataverse
 description: Discover how to use Kusto queries in the Azure portal to analyze and manipulate telemetry data from Application Insights in solutions with Dataverse.
 author: viange
 ms.author: viange
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/19/2024
 ms.custom:
   - ai-gen-docs-bap
