@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Manage fund accounting business process area
 description: Learn about the concept of fund accounting and which Dynamics 365 products support this area out of the box.
 author: lifiatamara-ms
 ms.author: lifiatamara
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/10/2025
 ---
 
