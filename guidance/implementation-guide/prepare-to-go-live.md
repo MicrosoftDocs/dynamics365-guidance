@@ -4,7 +4,7 @@ description: Learn how to prepare your production environment, deploy your solut
 author: vaniusca
 ms.author: vaniaf
 ms.date: 01/30/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - ai-seo-date: 01/30/2024
  - ai-gen-docs-bap

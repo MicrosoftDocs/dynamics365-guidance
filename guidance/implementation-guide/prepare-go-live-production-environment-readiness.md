@@ -1,8 +1,8 @@
-﻿---
+---
 title: Get your production environment ready for deployment
 description: Learn how to prepare your production environment for deploying Dynamics 365 solutions, including security, configuration, integration, and tuning tasks.
 ms.date: 01/31/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: vaniusca
 ms.author: vaniaf
 ms.custom:
