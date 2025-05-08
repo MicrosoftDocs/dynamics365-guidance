@@ -3,7 +3,7 @@ title: UI/UX design components for Power Apps canvas apps
 description: Discover how to use screens, controls, and other components to create user-friendly and responsive layouts for your Power Apps canvas apps.
 author: dereklh77
 ms.author: riasif
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 06/03/2024
 ms.custom:
   - ai-gen-docs-bap

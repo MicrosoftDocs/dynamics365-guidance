@@ -3,7 +3,7 @@ title: Use Copilot to find guidance in the Implementation Portal
 description: Discover how Copilot can help you access documentation and other resources for your Dynamics 365 and Power Platform projects in the Implementation Portal.
 author: dereklh77
 ms.author: goantu
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/19/2024
 ai-usage: ai-assisted
 ---

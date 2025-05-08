@@ -1,9 +1,9 @@
-﻿---
+---
 title: TechTalk Implementation approach with agile techniques
 description: Summary of TechTalk video that talks about the differences, strengths, and limitations of using waterfall and agile solutions to your Dynamics 365 projects.
 author: dereklh77
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 09/20/2024
 ai-usage: ai-assisted
 ---

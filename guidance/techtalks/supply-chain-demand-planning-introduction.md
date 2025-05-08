@@ -1,7 +1,7 @@
 ---
 title: Demand planning for Supply Chain Management
 description: Summary of TechTalk video that talks about the importance of demand planning for Dynamics 365 Supply Chain Management and the flexibility it brings to supply chain operations.
-ms.topic: conceptual
+ms.topic: concept-article
 author: dereklh77
 ms.author: edupont
 ms.date: 02/27/2024

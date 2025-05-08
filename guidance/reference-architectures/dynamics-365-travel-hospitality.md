@@ -1,9 +1,9 @@
-﻿---
+---
 title: Dynamics 365 for travel and hospitality
 description: Learn about building a business platform for travel and hospitality companies, including outlines on architecture, dataflow, components, and scenario details.
 author: dereklh77
 ms.author: edupont
-ms.topic: article
+ms.topic: reference-architecture
 ms.date: 09/04/2024
 ---
 
