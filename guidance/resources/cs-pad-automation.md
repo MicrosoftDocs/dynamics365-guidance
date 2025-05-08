@@ -1,9 +1,9 @@
-﻿---
+---
 title: Automate agent tasks with Power Automate
 description: Create automated tasks with Power Automate to integrate Customer Service workspace with desktop applications.
 author: jowells
 ms.author: jowells
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/23/2024
 ms.custom:
   - ai-gen-docs-bap
