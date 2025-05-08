@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Source to pay business process areas
 description: Learn about the source to pay business process area and get introduced to the various functions of the business process.
 author: AdiVijayashankar
 ms.author: advijaya
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 12/03/2024
 ---
 
