@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Migrate to subscription billing from revenue recognition in Dynamics 365 Finance 
 description: Summary of TechTalk video that talks about how a business can streamline financial operations by migrating from revenue recognition to subscription billing in Dynamics 365 Finance. 
 ms.date: 10/14/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

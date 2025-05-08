@@ -2,7 +2,7 @@
 title: Overview of the Terminate employee business process
 description: Learn how the Terminate employee business process can help you maintain a productive work environment by efficiently offboarding staff members.
 ms.date: 11/19/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---

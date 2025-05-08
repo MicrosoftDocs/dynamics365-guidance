@@ -3,7 +3,7 @@
 title: Build quality with optimized and standardized business processes
 description: Learn how to design, build, and assess quality, optimized, and standardized business processes for your Dynamics 365 implementation.
 ms.date: 01/07/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont

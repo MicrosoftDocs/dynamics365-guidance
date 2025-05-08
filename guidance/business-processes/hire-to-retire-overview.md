@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the hire to retire end-to-end business process flow
 description: Learn about the hire to retire end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
 ms.date: 12/12/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: riblack
 ---

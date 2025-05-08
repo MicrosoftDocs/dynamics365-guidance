@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Tax calculation updates in 2024
 description: Summary of TechTalk video that talks about the updates to tax calculation in Dynamics 365 Finance in 2024. 
 ms.date: 10/07/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

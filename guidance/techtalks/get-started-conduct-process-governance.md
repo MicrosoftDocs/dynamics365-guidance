@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Introduction to process governance
 description: Summary of TechTalk video that talks about how you can implement process governance in a Dynamics 365 implementation project.
 ms.date: 11/12/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

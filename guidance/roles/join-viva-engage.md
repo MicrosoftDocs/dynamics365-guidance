@@ -3,7 +3,7 @@ title: About the Dynamics 365 partner community on Viva Engage
 description: Join the Viva Engage Preview Early Access group to get updates and interact with the product team and other customers.
 author: edupont04
 ms.author: edupont
-ms.topic: conceptual #Required; don't change.
+ms.topic: concept-article
 ms.collection: get-started #Required.
 ms.date: 08/07/2024
 ms.custom:

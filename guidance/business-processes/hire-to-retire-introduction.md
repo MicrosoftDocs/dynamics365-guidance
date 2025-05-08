@@ -1,8 +1,8 @@
-﻿---
+---
 title: Introduction to the hire to retire end-to-end business process
 description: Get introduced to the hire to retire end-to-end business process with an overview of the business process, key benefits, and stakeholders.
 ms.date: 04/03/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: riblack
 ---

@@ -1,7 +1,7 @@
-﻿---
+---
 title: Overview of the Manage travel and expenses overview business process area
 description: Learn about the business process area for managing travel and expenses in Dynamics 365, including outlines on types of stakeholders and benefits.
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: riblack
 ms.date: 01/23/2024

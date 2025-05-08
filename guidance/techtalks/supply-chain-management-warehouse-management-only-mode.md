@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Warehouse management only mode with Dynamics 365 Supply Chain Management 
 description: Summary of TechTalk video that talks about adding warehouse management capabilities from Dynamics 365 Supply Chain Management to any business solution.
 ms.date: 10/15/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

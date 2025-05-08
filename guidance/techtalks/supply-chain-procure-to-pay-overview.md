@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Procure to pay in Dynamics 365 Supply Chain Management 
 description: Summary of TechTalk video that talks about how Supply Chain Management supports the business processes that are part of the procure-to-pay end-to-end process.
 ms.date: 11/07/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

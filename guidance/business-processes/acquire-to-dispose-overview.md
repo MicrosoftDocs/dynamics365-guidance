@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the Acquire to dispose end-to-end business process
 description: Learn about the Acquire to dispose end-to-end business process with a high-level overview of the business process, key benefits, and stakeholders.
 ms.date: 02/06/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: archanap
 

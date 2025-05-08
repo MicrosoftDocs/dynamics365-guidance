@@ -2,7 +2,7 @@
 title: Choose a methodology for your Dynamics 365 project
 description: Learn why a methodology matters for Dynamics 365 projects and compare the pros and cons of waterfall, agile, and hybrid models.
 ms.date: 01/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: veneva
 ms.custom:

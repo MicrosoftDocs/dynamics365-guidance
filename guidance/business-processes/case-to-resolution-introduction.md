@@ -1,8 +1,8 @@
-﻿---
+---
 title: Help organizations manage case to resolution processes
 description: Get introduced to the case to resolution end-to-end business process with an overview of the business process, key benefits, and stakeholders.
 ms.date: 04/26/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: marcoje
 ---

@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Use the business process catalog to manage project scope and estimation
 description: Summary of TechTalk video that talks about ways to use the business process catalog to manage the scope for an implementation project with Dynamics 365 apps.
 ms.date: 09/16/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

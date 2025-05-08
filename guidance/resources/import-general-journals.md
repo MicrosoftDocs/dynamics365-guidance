@@ -1,8 +1,8 @@
-﻿---
+---
 title: Import general journals in Dynamics 365 projects
 description: Learn which data entities can help you migrate data from general journals in Dynamics 365 implementation projects.
 ms.date: 02/02/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: epegors
 ---

@@ -2,7 +2,7 @@
 title: Sample library for Field Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions with Field Service quickly and easily.
 ms.date: 03/14/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: erdipple
 ms.custom:

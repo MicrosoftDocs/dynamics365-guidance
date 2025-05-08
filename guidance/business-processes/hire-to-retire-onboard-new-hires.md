@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the Onboard new hires business process
 description: Discover how the Onboard new hires business process can help you optimize onboarding new employees and foster a productive work environment.
 ms.date: 11/19/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---

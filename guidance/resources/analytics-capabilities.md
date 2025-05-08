@@ -2,7 +2,7 @@
 title: Overview of capabilities for analytics
 description: Read how analytics for Dynamics 365 Customer Service provide vital insights. Make data-driven decisions based on historical and real-time analytics.
 ms.date: 08/30/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: ashrafomar
 ms.custom:

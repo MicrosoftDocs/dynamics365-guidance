@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Human Resources infrastructure merge
 description: Find a TechTalk video that talks about the infrastructure merge of the Human Resources app with the finance and operations platform.
 ms.date: 09/12/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

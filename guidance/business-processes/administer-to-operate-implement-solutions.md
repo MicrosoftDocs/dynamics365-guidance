@@ -3,7 +3,7 @@ title: Implement solutions overview
 description: Get an overview of how the business process catalog maps to the implementation guide's articles for good Dynamics 365 implementations.
 author: edupont04
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/25/2025
 ---
 

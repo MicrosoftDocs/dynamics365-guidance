@@ -1,8 +1,8 @@
-﻿---
+---
 title: Instruction guide for FastTrack Recognized Solution Architect
 description: Learn how you can nominate yourself or a colleague for the FastTrack Recognized Solution Architect designation.
 ms.date: 12/20/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---

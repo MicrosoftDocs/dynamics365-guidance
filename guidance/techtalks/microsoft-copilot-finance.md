@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Microsoft Copilot for Finance
 description: Find a TechTalk video that talks about the AI assistant for finance
 ms.date: 09/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

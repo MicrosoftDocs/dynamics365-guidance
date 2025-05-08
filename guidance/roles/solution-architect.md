@@ -3,7 +3,7 @@ title: Solution architects in Dynamics 365
 description: Learn about the role of a solution architect who helps organizations implement customer-specific solutions that include Dynamics 365.
 author: edupont04
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: get-started
 ms.date: 09/07/2023
 ---

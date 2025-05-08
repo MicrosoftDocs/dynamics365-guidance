@@ -1,8 +1,8 @@
-﻿---
+---
 title: Schedule board settings management control
 description: Read about the Schedule board settings management control that can help users duplicate tasks and share bookings in Universal Resource Scheduling for Dynamics 365 Field Service.
 ms.date: 10/29/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: delhalawani
 ms.custom:

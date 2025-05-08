@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the Manage project contract business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project contracts.
 ms.date: 04/16/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: lalithac
 ---

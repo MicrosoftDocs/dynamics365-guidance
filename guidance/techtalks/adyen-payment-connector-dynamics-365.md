@@ -2,7 +2,7 @@
 title: TechTalk - Dynamics 365 Payment Connector for Adyen
 description: Get a summary of a TechTalk video about how you can connect your Dynamics 365 solution to Adyen for smooth payment management.
 ms.date: 11/05/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

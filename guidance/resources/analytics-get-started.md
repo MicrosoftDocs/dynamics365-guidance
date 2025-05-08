@@ -2,7 +2,7 @@
 title: Get started with analytics for call centers
 description: Explore how to start using analytics with Dynamics 365 by creating a company-wide reporting plan and doing a fit-gap analysis.
 ms.date: 07/08/2024
-ms.topic: conceptual
+ms.topic: get-started
 author: edupont04
 ms.author: ashrafomar
 ms.custom:

@@ -1,8 +1,8 @@
-﻿---
+---
 title: Dynamics 365 acquire to dispose business process areas
 description: Learn about the acquire to dispose end-to-end business process. Learn how Dynamics 365 apps helps organizations manage their acquire to dispose processes.
 ms.date: 04/05/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: archanap
 

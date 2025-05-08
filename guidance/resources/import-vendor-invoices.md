@@ -1,8 +1,8 @@
-﻿---
+---
 title: Import data for vendor invoices in Dynamics 365 projects
 description: Learn which data entities can help you migrate data for vendor invoices in Dynamics 365 implementation projects.
 ms.date: 05/02/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: katiehav
 ---

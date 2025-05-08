@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the Create and process service work business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for creating and processing work related to services.
 ms.date: 02/21/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
 ---

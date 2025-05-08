@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of case to resolution end-to-end business process flow
 description: Learn about the case to resolution end-to-end business flow with a diagram that describes the relationship with other processes in Dynamics 365 solutions.
 ms.date: 03/13/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: marcoje
 ---

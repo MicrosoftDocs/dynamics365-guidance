@@ -4,7 +4,7 @@ description: Learn about Microsoft's samples implementations of AgentScript and 
 titleSuffix: Customer Service samples and tools
 author: edupont04
 ms.author: viange
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/14/2024
 ms.custom: O25-Service
 ---

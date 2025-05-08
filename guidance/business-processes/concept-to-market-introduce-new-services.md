@@ -1,7 +1,7 @@
-﻿---
+---
 title: Overview of the Introduce new services business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes to add new services to your portfolio of offerings.
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ms.date: 01/26/2024

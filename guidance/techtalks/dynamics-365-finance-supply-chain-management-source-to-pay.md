@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the source to pay business process in Dynamics 365 Finance and Supply Chain Management
 description: Find a TechTalk that described how Dynamics 365 Finance and Dynamics 365 Supply Chain Management support the source-to-pay business process.
 ms.date: 11/04/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

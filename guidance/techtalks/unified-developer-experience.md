@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Unified developer experience for Dynamics 365
 description: Summary of TechTalk video that talks about the Dynamics 365 finance and operations apps moving towards a unified developer experience with the customer engagement apps.
 ms.date: 10/04/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

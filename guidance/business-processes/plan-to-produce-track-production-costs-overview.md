@@ -2,7 +2,7 @@
 title: Overview of the Track production operations business process area
 description: Get an overview of the business process area for tracking production cost in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 11/24/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
 ---

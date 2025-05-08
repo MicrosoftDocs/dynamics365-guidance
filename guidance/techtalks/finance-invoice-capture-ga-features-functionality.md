@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Invoice capture features and functionality
 description: Summary of TechTalk video that talks about the invoice capture capabilities that are generally available in Dynamics 365 Finance.
 ms.date: 10/08/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

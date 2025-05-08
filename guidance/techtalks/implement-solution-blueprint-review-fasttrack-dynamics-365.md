@@ -2,7 +2,7 @@
 title: TechTalk - Solution blueprint review with FastTrack for Dynamics 365
 description: Get a summary of a TechTalk video about the solution blueprint review that the FastTrack team for Dynamics 365 recommends for all implementation projects.
 ms.date: 11/05/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

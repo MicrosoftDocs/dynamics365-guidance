@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Transitioning to using Synapse Link from exporting data to Azure Data Lake
 description: Summary of TechTalk video that talks about using Azure Synapse Link for Dataverse with Dynamics 365 apps. 
 ms.date: 09/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

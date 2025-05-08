@@ -1,8 +1,8 @@
-﻿---
+---
 title: UI/UX guidance for Dynamics 365 Sales
 description: Discover how to design Dynamics 365 Sales apps for maximum adoption success and avoid common UX pitfalls.
 ms.date: 03/05/2025
-ms.topic: conceptual
+ms.topic: best-practice
 contributors: kpetire
 author: edupont04
 ms.author: edupont

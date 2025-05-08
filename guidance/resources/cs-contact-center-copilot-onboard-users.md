@@ -1,8 +1,8 @@
-﻿---
+---
 title: Onboard your users to use Copilot in your digital contact center
 description: Implement Copilot in your digital contact center by creating a change management strategy, training agents, and refining knowledge content for optimal use.
 ms.date: 09/10/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: ktaylor
 ms.custom:

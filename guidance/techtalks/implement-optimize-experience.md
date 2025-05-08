@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Optimize the experience in Dynamics 365 
 description: Summary of TechTalk video that talks about how to design the optimal user experiences in solutions with Dynamics 365 apps, using Dynamics 365 Finance or Dynamics 365 Supply Chain Management as examples.
 ms.date: 11/07/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted
