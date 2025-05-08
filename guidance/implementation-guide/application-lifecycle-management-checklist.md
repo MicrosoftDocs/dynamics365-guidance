@@ -4,7 +4,7 @@ description: Use this checklist to plan and execute a successful application lif
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024
-ms.topic: conceptual
+ms.topic: checklist
 ms.custom:
   - ai-seo-date: 01/19/2024
   - ai-gen-docs-bap
