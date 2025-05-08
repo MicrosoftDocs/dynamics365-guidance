@@ -4,7 +4,7 @@ description: Discover how you can use Dynamics 365 and Power Platform to integra
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/23/2024
   - ai-gen-docs-bap

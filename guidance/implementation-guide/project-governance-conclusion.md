@@ -1,10 +1,10 @@
-﻿---
+---
 title: How to run a successful Dynamics 365 project
 description: Learn how to run an implementation project with Dynamics 365 apps, including overviews of project governance and improving governance models.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom:
   - ai-seo-date: 01/23/2024
   - ai-gen-docs-bap

@@ -4,7 +4,7 @@ description: Use this checklist to plan and execute a reporting and analytics st
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: checklist
 ms.custom:
   - ai-seo-date: 01/23/2024
   - ai-gen-docs-bap

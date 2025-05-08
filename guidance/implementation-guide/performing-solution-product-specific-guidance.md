@@ -4,7 +4,7 @@ description: Learn how to optimize the performance of your Dynamics 365 solution
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/29/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - bap-template
  - ai-seo-date: 01/29/2024

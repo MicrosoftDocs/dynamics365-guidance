@@ -4,7 +4,7 @@ description: Use this checklist to make sure that your Dynamics 365 implementati
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/29/2024
-ms.topic: conceptual
+ms.topic: checklist
 ms.custom:
  - bap-template
  - ai-seo-date: 01/29/2024

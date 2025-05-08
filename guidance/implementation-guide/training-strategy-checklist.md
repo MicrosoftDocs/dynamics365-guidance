@@ -2,7 +2,7 @@
 title: Checklist for your training strategy
 description: Get a list of things to remember as part of the training strategy for a Dynamics 365 implementation project.
 ms.date: 06/26/2023
-ms.topic: conceptual
+ms.topic: checklist
 author: TimoGossen
 ms.author: timogoss
 ---
