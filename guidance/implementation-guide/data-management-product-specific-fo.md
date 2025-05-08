@@ -1,10 +1,10 @@
-﻿---
+---
 title: Manage data in finance and operations apps
 description: Learn how to use data management tools and data maintenance cleanup schedules in Dynamics 365 Finance, Supply Chain Management, and Commerce.
 author: vaniaf
 ms.author: vaniaf
 ms.date: 01/17/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/17/2024
   - ai-gen-docs-bap
