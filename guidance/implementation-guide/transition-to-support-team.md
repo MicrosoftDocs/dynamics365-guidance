@@ -1,10 +1,10 @@
-﻿---
+---
 title: Set up a technical support team for your Dynamics 365 solutions
 description: Learn how to define the roles and responsibilities of your support team for your Dynamics 365 projects and ensure they have the resources to handle issues.
 author: taksatoms
 ms.author: edupont
 ms.date: 01/31/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - ai-seo-date: 01/31/2024
  - ai-gen-docs-bap

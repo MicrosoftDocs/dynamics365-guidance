@@ -4,7 +4,7 @@ description: Read about the change manager's tasks for the transition to support
 author: taksatoms
 ms.author: edupont
 ms.date: 06/20/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Manage changes during transition and handover

@@ -4,7 +4,7 @@ description: Phases and increments are the steps of your digital transformation 
 author: taksatoms
 ms.author: edupont
 ms.date: 01/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 06/10/2021
   - ai-gen-docs-bap

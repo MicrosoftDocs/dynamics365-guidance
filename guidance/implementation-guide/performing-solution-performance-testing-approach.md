@@ -4,7 +4,7 @@ description: Learn how to define a performance testing strategy that simulates r
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/30/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - ai-seo-date: 01/29/2024
  - ai-gen-docs-bap

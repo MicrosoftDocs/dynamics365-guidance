@@ -4,7 +4,7 @@ description: Learn how to tailor Dynamics 365 to your business needs and take ad
 author: taksatoms
 ms.author: edupont
 ms.date: 01/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/11/2024
   - ai-gen-docs-bap

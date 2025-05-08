@@ -3,7 +3,7 @@ title: Better interpretation of alphanumeric values with generative AI
 description: Enhance alphanumeric code recognition in Dynamics 365 Contact Center with AI-powered prompts for better speech interpretation and user confirmation.
 author: viange
 ms.author: viange
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: null
 ms.date: 04/01/2025
 ms.custom:

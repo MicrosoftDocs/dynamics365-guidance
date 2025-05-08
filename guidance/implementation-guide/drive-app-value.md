@@ -1,10 +1,10 @@
-﻿---
+---
 title: Drive application value through digital transformation
 description: Find guidance on how to approach a business-focused digital transformation in Dynamics 365 implementations.
 author: taksatoms
 ms.author: edupont
 ms.date: 12/12/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

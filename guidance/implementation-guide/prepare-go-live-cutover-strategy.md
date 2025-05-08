@@ -1,8 +1,8 @@
-﻿---
+---
 title: Transition to new solutions successfully with the cutover process
 description: Learn how to plan and execute a successful cutover to transition to a new Microsoft Dynamics 365 solution with minimal disruption.
 ms.date: 01/30/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: vaniusca
 ms.author: vaniaf
 ms.custom:

@@ -3,7 +3,7 @@ title: Secure customer engagement apps to adapt to business scenarios
 description: Learn how to use Dataverse to secure customer engagement apps with product-specific guidance, including an outline on security features.
 author: riblack-microsoft
 ms.author: riblack
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 01/19/2024
 ms.service: dynamics-365
 ms.custom:

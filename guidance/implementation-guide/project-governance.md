@@ -1,10 +1,10 @@
-﻿---
+---
 title: Implement Dynamics 365 projects with effective governance
 description: Learn how to design and apply a project governance model that helps you deliver Dynamics 365 projects successfully and avoid common pitfalls.
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/22/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/22/2024
   - ai-gen-docs-bap

@@ -4,7 +4,7 @@ description: Read about how the change manager can manage changes in the project
 author: taksatoms
 ms.author: edupont
 ms.date: 06/14/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Manage changes in the project plan

@@ -3,7 +3,7 @@ title: Secure your Dynamics 365 project from day one
 description: Learn why security is a crucial factor for your Dynamics 365 project and how to design a security strategy that meets your requirements and avoids risks.
 author: riblack-microsoft
 ms.author: riblack
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 01/22/2024
 ms.service: dynamics-365
 ms.custom:

@@ -4,7 +4,7 @@ description: Learn how to plan ahead for performance in your Dynamics 365 projec
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/29/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - ai-seo-date: 01/29/2024
  - ai-gen-docs-bap

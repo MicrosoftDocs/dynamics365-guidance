@@ -4,7 +4,7 @@ description: Learn how a wealth management company used Dynamics 365 extensibili
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/24/2024
   - ai-gen-docs-bap
