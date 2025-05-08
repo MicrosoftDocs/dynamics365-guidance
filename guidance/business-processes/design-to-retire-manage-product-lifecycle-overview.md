@@ -3,7 +3,7 @@ title: Overview of the Manage and define product lifecycle business process area
 description: Learn about the manage product lifecycle business process, including information about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 02/27/2024
 ---
 

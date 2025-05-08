@@ -1,9 +1,9 @@
-﻿---
+---
 title: Standardize processes during a Dynamics 365 implementation
 description: Learn about the process and benefits of standardizing business process before, during, or after your Dynamics 365 implementations.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/18/2024
 ai-usage: ai-assisted
 ---

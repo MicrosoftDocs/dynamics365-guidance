@@ -3,7 +3,7 @@ title: Overview of the Manage service lifecycle business process area
 description: Learn about the manage service lifecycle business process, including information about the types of stakeholders and the process flow.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 02/27/2024
 ---
 

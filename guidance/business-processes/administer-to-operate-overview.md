@@ -3,7 +3,7 @@ title: Administer to operate end-to-end overview
 description: Learn about the administer to operate business process flow, including how to administer the process and its relationship with other processes.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/19/2024
 ---
 

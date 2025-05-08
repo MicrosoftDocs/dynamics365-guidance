@@ -2,7 +2,7 @@
 title: Overview of the Design to retire process areas
 description: Get an overview for each of the business process areas in the Design to retire end-to-end business process flow in Dynamics 365 solutions.
 ms.date: 01/07/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

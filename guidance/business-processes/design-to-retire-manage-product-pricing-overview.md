@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview the Manage and define product pricing business process area
 description: Learn about the manage product pricing business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/05/2024
 ---
 

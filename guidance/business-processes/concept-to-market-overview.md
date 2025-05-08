@@ -2,7 +2,7 @@
 title: Concept to market end-to-end business process flow overview
 description: Learn about the concept to market end-to-end business process, including a flow diagram and describes the relationship with other processes.
 ms.date: 11/23/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

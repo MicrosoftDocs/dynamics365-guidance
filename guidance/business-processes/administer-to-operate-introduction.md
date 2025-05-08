@@ -1,9 +1,9 @@
-﻿---
+---
 title: Introduction to the administer to operate process
 description: Discover the administer to operate end-to-end business process and how it helps you sustain and enhance your Dynamics 365 solutions.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/19/2024
 ai-usage: ai-assisted
 ---

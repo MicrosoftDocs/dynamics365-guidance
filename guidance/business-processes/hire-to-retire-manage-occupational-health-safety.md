@@ -1,8 +1,8 @@
-﻿---
+---
 title: Overview of the Manage occupational health and safety business process area
 description: Streamline and enhance safety management processes with Dynamics 365 implementations, improving workplace safety and compliance.
 ms.date: 01/23/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: riblack
 ms.custom:

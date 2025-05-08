@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Manage budgets business process area
 description: Learn about how you can use the budget management features of Dynamics 365 to support your budgeting process, including definitions for stakeholders.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/08/2024
 ---
 
