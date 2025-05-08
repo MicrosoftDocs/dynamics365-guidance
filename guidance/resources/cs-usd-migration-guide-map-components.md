@@ -3,7 +3,7 @@ title: Map Unified Service Desk to Customer Service workspace
 description: Learn how to map components in Unified Service Desk to Customer Service workspace features for enhanced productivity.
 author: avi-k-mishra
 ms.author: avinam
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/21/2025
 ms.custom:
   - bap-template
