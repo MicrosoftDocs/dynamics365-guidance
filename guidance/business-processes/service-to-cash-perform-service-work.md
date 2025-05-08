@@ -1,9 +1,9 @@
-﻿---
+---
 title: Perform service work
 description: Learn about how to set up and configure for performing service work in Dynamics 365 apps, including types of stakeholders and a business process map.
 author: jasondpms
 ms.author: jaduples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/09/2024
 ---
 
