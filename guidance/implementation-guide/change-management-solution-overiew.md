@@ -4,7 +4,7 @@ description: Read about the change manager's tasks for catching and providing th
 author: taksatoms
 ms.author: edupont
 ms.date: 06/20/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Provide overviews of projects and solutions during Dynamics 365 implementation projects

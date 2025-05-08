@@ -4,7 +4,7 @@ description: View a detailed checklist for several aspects of change management 
 author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
-ms.topic: conceptual
+ms.topic: checklist
 ---
 
 # Change management checklist

@@ -4,7 +4,7 @@ description: Read about the change manager's tasks for managing expectations dur
 author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Expectation management for change managers

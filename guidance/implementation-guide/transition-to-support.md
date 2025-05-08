@@ -4,7 +4,7 @@ description: Learn how to plan, design, and run a support model for your Dynamic
 author: taksatoms
 ms.author: edupont
 ms.date: 01/31/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
  - ai-seo-date: 01/31/2024
  - ai-gen-docs-bap

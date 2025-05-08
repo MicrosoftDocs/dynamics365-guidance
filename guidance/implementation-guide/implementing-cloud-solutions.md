@@ -4,7 +4,7 @@ description: Learn how to adopt a cloud mindset, migrate from on-premises to onl
 author: taksatoms
 ms.author: edupont
 ms.date: 01/06/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date: 01/08/2024
   - ai-gen-docs-bap

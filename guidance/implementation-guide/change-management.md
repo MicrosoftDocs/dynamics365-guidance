@@ -4,7 +4,7 @@ description: Learn how change management is a fundamental part of the toolbox fo
 author: taksatoms
 ms.author: edupont
 ms.date: 06/20/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Understand and apply the change management discipline effectively and successfully
