@@ -4,7 +4,7 @@ description: Use sample queries to retrieve conversation diagnostics from Applic
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection:
 ms.date: 03/27/2025
 ms.custom:
