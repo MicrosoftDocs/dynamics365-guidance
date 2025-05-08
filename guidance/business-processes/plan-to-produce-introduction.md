@@ -1,8 +1,8 @@
-﻿---
+---
 title: Introduction to the plan to produce end-to-end business process
 description: Get introduced to the plan to produce end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their plan to produce processes.
 ms.date: 02/06/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
 ms.reviewer: edupont

@@ -3,7 +3,7 @@ title: Manage data synchronization overview
 description: Learn about how to plan and manage data synchronization across various Dynamics 365 applications, including an outline of the types of stakeholders.
 author: harshbirla
 ms.author: harshbir
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/25/2024
 ---
 

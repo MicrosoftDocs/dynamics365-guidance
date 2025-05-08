@@ -3,7 +3,7 @@ title: Administer system features business process area
 description: Explore the benefits of feature management in Dynamics 365, including automation, cost savings, and seamless integration with external tools.
 author: edupont04
 contributors: sabasirm
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/25/2025
 ms.author: edupont
 ms.custom:

@@ -2,7 +2,7 @@
 title: Case study in process-focused solutions
 description: Read this case study to learn how a large, multinational organization changed its implementation approach and achieved better results with Dynamics 365.
 ms.date: 01/16/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: veneva
 ms.reviewer: edupont

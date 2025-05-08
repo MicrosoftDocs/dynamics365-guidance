@@ -5,7 +5,7 @@ author: edupont04
 ms.author: veneva
 ms.reviewer: edupont
 ms.date: 01/08/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - ai-seo-date:01/08/2024
   - ai-gen-docs-bap

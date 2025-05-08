@@ -3,7 +3,7 @@ title: Implementation workshops for Acquire to dispose
 description: Learn about the scenario board workshop, the storyline discovery workshop, and the detailed design workshop for the Acquire to dispose business processes in an implementation project with Dynamics 365.
 author: edupont04
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: #Required; Leave the value blank.
 ms.date: 12/02/2024
 ms.custom: bap-template #Required; don't change.

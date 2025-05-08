@@ -1,9 +1,9 @@
-﻿---
+---
 title: Storage capacity enforcement module for Power Platform CoE Starter Kit
 description: Learn about the storage capacity enforcement solution used as a set of components for the Center of Excellence Starter Kit.
 author: dereklh77
 ms.author: reedw
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/21/2024
 ---
 

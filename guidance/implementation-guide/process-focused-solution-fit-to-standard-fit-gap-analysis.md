@@ -2,7 +2,7 @@
 title: Optimize your implementation with a fit-to-standard and fit-gap analysis
 description: Learn how to review your current processes and identify what to change, keep, or add to make the most of your Dynamics 365 implementation.
 ms.date: 04/30/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont

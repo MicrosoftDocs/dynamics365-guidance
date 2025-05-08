@@ -2,7 +2,7 @@
 title: Overview of the Manage freight and transportation process area
 description: Read about the business process area for managing freight and transportation in Dynamics 365 implementations.
 ms.date: 12/16/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: ngump
 ---

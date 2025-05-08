@@ -3,7 +3,7 @@ title: Tests and user feedback in UI/UX design
 description: Discover how usability testing and user feedback can help you create a better user interface and user experience for your Power Apps canvas apps and model-driven apps.
 author: dereklh77
 ms.author: riasif
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 06/03/2024
 ms.custom:
   - ai-gen-docs-bap

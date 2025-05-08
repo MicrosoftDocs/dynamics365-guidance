@@ -3,7 +3,7 @@ title: UI/UX design components for Power Apps model-driven apps
 description: Discover how to use the navigation bar, dashboards, forms, views, and other visual components to create user-friendly and responsive layouts for your model-driven apps.
 author: dereklh77
 ms.author: riasif
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 06/03/2024
 ---
 

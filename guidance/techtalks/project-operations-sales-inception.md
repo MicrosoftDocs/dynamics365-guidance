@@ -2,7 +2,7 @@
 title: TechTalk - Sales and inception with Dynamics 365 Project Operations 
 description: Get a summary of a TechTalk video about sales and project inception business processes in Dynamics 365 Project Operations.
 ms.date: 11/15/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

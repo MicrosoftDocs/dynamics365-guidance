@@ -4,7 +4,7 @@ description: Learn how to design, store, integrate, and maintain your data to su
 author: vaniaf
 ms.author: vaniaf
 ms.date: 01/17/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
 - ai-seo-date: 01/17/2024
 - ai-gen-docs-bap

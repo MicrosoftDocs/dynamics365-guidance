@@ -4,7 +4,7 @@ description: Learning resources for implementers include TechTalks, community fo
 ms.author: edupont # was jedinh
 author: renwe
 ms.date: 11/08/2024
-ms.topic: article
+ms.topic: concept-article
 
 ms.reviewer: edupont
 ---

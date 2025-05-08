@@ -3,7 +3,7 @@ title: Onboard a Dynamics 365 project with or without FastTrack
 description: Read how to onboard to Dynamics 365 with or without the assistance of the FastTrack team to help with the implementation.
 ms.author: edupont # was jedinh
 ms.date: 10/06/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: ReneeW-CPub
 ---
 

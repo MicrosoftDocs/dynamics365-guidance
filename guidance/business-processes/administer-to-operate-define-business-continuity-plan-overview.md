@@ -1,9 +1,9 @@
-﻿---
+---
 title: Define business continuity plan overview
 description: Discover the importance of business continuity planning for Dynamics 365 implementations and learn about the tools, processes, stakeholders, and benefits involved.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/19/2024
 ai-usage: ai-assisted
 ---

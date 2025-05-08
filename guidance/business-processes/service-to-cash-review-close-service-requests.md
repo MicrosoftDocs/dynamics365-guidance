@@ -1,9 +1,9 @@
-﻿---
+---
 title: Review and close service requests
 description: Learn about how to set up, configure, and design the Review and close service requests business process, including a business process flow.
 author: nucruz
 ms.author: nucruz
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/14/2024
 ---
 

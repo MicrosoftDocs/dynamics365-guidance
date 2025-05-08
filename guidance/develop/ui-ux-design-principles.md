@@ -3,7 +3,7 @@ title: Key UI/UX design principles
 description: Explore the UI/UX design principles that shape the user interface and experience of Dynamics 365 apps, and how to use them in the design of your model-driven apps and canvas apps.
 author: dereklh77
 ms.author: riasif
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 06/03/2024
 ---
 

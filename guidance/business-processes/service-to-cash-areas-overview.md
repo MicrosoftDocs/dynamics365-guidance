@@ -2,7 +2,7 @@
 title: Overview of the Service to deliver business process areas
 description: Learn about the business process areas that make up the Service to deliver end-to-end flow in Dynamics 365 solutions.
 ms.date: 11/25/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
 ms.reviewer: edupont

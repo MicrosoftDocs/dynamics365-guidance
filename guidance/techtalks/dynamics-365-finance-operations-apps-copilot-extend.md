@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Extending Copilot in Dynamics 365 finance and operations apps
 description:  Summary of TechTalk video that talks about extending the capabilities of Copilot to meet diverse business needs and provide more tailored solutions for customers and partners.
 ms.date: 11/12/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

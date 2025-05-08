@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Regulatory Configuration Service moved to Globalization Studio workspace
 description: Summary of TechTalk video that talks about the move to the Globalization Studio workspace for solutions with Dynamics 365 finance and operations apps
 ms.date: 10/15/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

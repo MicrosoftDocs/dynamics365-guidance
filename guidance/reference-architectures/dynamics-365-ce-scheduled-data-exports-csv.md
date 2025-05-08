@@ -1,9 +1,9 @@
-﻿---
+---
 title: Scheduled data exports from Dynamics 365 to CSV
 description: Review a reference architecture for exporting data from Dynamics 365 to a .CSV file, including outlines on architecture, dataflow, components, and scenario details.
 author: dereklh77
 ms.author: edupont
-ms.topic: article
+ms.topic: reference-architecture
 ms.date: 05/22/2024
 ---
 

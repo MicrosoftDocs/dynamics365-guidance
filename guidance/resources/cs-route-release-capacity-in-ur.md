@@ -1,10 +1,10 @@
-﻿---
+---
 title: Set up agent capacity for custom entities
 description: Learn how to configure capacity-based routing for custom entities in Customer Service using no-code and low-code approaches.
 titleSuffix: DCCP
 author: edupont04
 ms.author: thomasjosep
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/14/2024
 ms.custom:
   - ai-gen-docs-bap

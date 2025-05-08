@@ -2,7 +2,7 @@
 title: Manually set, define, and check customer credit limit patterns
 description: Manually set and check customer credit limits to reduce unpaid balance and protect against risk of non-payment in Dynamics 365.
 ms.date: 02/06/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont

@@ -1,8 +1,8 @@
-﻿---
+---
 title: Beyond the DRA - cloud label printing for Dynamics 365 Supply Chain Management
 description: Find a TechTalk video that talks about how you can print labels by connecting Dynamics 365 Supply Chain Management to an external service provider.
 ms.date: 09/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

@@ -2,7 +2,7 @@
 title: Introduction to concept to market end-to-end business process
 description: Get introduced to the concept to market end-to-end business process, including an overview of the business process, key benefits, and stakeholders.
 ms.date: 04/26/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

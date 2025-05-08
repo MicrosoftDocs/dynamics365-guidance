@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Architecture patterns for virtual data warehousing
 description: Summary of TechTalk video that talks about architecture patterns for using Synapse Link for Dataverse with Dynamics 365 apps. 
 ms.date: 10/01/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

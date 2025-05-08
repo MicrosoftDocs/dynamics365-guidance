@@ -1,9 +1,9 @@
-﻿---
+---
 title: Contact center using Dynamics 365 Customer Service Premium
 description: Learn about reference architectures for contact centers with Dynamics 365 Customer Service premium as the main solution for the contact center.
 author: edupont04
 ms.author: fredgraver
-ms.topic: article
+ms.topic: reference-architecture
 ms.date: 06/28/2024
 ---
 

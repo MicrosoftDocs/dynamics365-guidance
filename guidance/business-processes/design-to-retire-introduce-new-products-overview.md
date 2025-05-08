@@ -1,9 +1,9 @@
-﻿---
+---
 title: Overview of the Introduce new products business process area
 description: Learn about the introduce new products business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 01/07/2025
 ---
 

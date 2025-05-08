@@ -1,9 +1,9 @@
-﻿---
+---
 title: Contact center using Dynamics 365 Customer Service Enterprise
 description: Learn about reference architectures for contact centers with Dynamics 365 Customer Service Enterprise and a non-Microsoft contact center solution.
 author: edupont04
 ms.author: fredgraver
-ms.topic: article
+ms.topic: reference-architecture
 ms.date: 06/28/2024
 ---
 

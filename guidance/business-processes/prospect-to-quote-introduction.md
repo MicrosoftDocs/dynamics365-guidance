@@ -2,7 +2,7 @@
 title: Introduction to the prospect to quote end-to-end business process
 description: Get introduced to the prospect to quote end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their prospect to quote processes.
 ms.date: 10/24/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
 ms.reviewer: edupont

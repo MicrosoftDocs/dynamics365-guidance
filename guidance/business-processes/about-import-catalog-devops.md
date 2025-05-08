@@ -3,7 +3,7 @@ title: Import the business process catalog into Azure DevOps
 description: Read how you can use Microsoft's business process catalog to build an implementation project in Azure DevOps.
 author: rachel-profitt
 ms.author: raprofit
-ms.topic: conceptual #Required; don't change.
+ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
 ms.date: 2/13/2025
 ms.custom: bap-template #Required; don't change.

@@ -4,7 +4,7 @@ description: Use this checklist to help you get ready for your Dynamics 365 impl
 author: ReneeW-CPub
 ms.author: renwe
 ms.date: 01/11/2024
-ms.topic: conceptual
+ms.topic: checklist
 ms.custom:
   - ai-seo-date: 01/11/2024
   - ai-gen-docs-bap

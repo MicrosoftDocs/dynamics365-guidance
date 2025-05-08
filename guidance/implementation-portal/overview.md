@@ -1,8 +1,8 @@
-﻿---
+---
 title: What is the Dynamics 365 Implementation Portal?
 description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
 ms.date: 01/21/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont

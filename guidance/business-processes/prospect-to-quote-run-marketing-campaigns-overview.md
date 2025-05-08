@@ -2,7 +2,7 @@
 title: Overview of the run marketing campaigns business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for running marketing campaigns.
 ms.date: 01/16/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
 ---

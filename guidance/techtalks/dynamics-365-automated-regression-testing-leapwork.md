@@ -1,8 +1,8 @@
-﻿---
+---
 title: TechTalk Dynamics 365 automated regression testing with Leapwork
 description: Summary of TechTalk video that talks about how to use Leapwork for automated regression testing in solutions with Dynamics 365 apps and services.
 ms.date: 11/12/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

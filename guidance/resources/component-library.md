@@ -2,7 +2,7 @@
 title: Sample library for Customer Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions quickly and easily.
 ms.date: 09/04/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: viange
 ---

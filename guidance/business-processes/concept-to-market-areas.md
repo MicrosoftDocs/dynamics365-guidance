@@ -2,7 +2,7 @@
 title: Overview of the Concept to market areas
 description: Get an overview for each of the business process areas in the concept to market end-to-end business process flow in Dynamics 365 solutions. Learn how you can introduce, define, and manage services in Dynamics 365.
 ms.date: 11/25/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

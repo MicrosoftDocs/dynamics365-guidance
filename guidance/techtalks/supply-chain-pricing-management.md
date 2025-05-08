@@ -2,7 +2,7 @@
 title: TechTalk - Pricing management in Dynamics 365 Supply Chain Management 
 description: Get a summary of a TechTalk video about the Unified pricing management module in Dynamics 365 Supply Chain Management.
 ms.date: 11/14/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted

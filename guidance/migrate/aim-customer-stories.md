@@ -4,7 +4,7 @@ description: Explore customer stories of on-premises Dynamics customers who migr
 author: ReneeW-CPub
 ms.author: renwe
 ms.date: 02/02/2024
-ms.topic: article
+ms.topic: concept-article
 ms.service: dynamics-365
 ms.reviewer: renwe
 ---

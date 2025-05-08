@@ -1,9 +1,9 @@
-﻿---
+---
 title: TechTalk Introduction to the business process catalog
 description: Summary of TechTalk video that talks about the business process catalog and why and how business processes can improve your organization's efficiency, productivity, risk management, and more.
 author: dereklh77
 ms.author: edupont
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 09/20/2024
 ai-usage: ai-assisted
 ---

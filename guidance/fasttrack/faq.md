@@ -3,7 +3,7 @@ title: Dynamics 365 FastTrack Frequently Asked Questions (FAQ)
 description: Access answers to common questions about Dynamics 365 FastTrack, including questions relating to participation cost, requirements, and engagement length.
 author: ReneeW-CPub
 ms.author: renwe
-ms.topic: article
+ms.topic: faq
 ms.date: 05/19/2021
 ms.reviewer: edupont
 ---

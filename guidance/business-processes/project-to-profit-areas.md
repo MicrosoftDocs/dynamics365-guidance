@@ -2,7 +2,7 @@
 title: Overview of the Project to profit business process areas
 description: Get an overview for each of the business process areas in the Project to profit end-to-end business process flow in Dynamics 365 solutions. Learn how you can govern projects and manage scope with Dynamics 365.
 ms.date: 04/10/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: marwalke
 ---

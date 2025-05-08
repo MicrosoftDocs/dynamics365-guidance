@@ -2,7 +2,7 @@
 title: Overview of the Manage internal assets business process area
 description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage internal assets.
 ms.date: 09/08/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: hputhran
 

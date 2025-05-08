@@ -2,7 +2,7 @@
 title: Overview of Define service offerings and strategy
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for capturing a strategy for the services that you want to sell.
 ms.date: 03/19/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

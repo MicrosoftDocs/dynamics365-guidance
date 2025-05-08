@@ -2,7 +2,7 @@
 title: UI/UX components for Sales-specific experiences
 description: Get an overview of UI/UX components for Dynamics 365 Sales to enhance your sales app design.
 ms.date: 03/05/2025
-ms.topic: conceptual
+ms.topic: concept-article
 contributors: kpetire
 author: edupont04
 ms.author: edupont

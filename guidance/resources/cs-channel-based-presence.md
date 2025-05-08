@@ -3,7 +3,7 @@ title: Channel-based presence for customer service agents
 description: Learn about the sample that uses a channel-centric solution to set up a separate advanced queue for each relevant channel.
 author: edupont04
 ms.author: viange
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/15/2024
 ms.custom:
   - ai-gen-docs-bap

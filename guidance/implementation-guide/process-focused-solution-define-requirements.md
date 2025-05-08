@@ -2,7 +2,7 @@
 title: Define your requirements for your Dynamics 365 solution
 description: Learn how to use business process mapping to create clear and accurate requirements for your Dynamics 365 solution and improve your business operations.
 ms.date: 07/16/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont

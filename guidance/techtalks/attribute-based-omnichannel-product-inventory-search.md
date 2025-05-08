@@ -1,9 +1,9 @@
-﻿---
+---
 title: Introducing attribute-based omnichannel product
 description: Summary of TechTalk video that talks about attribute-based omnichannel product and inventory search with Copilot. The TechTalk also covers security aspects and customization.
 author: dereklh77
 ms.author: edupont
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/15/2024
 ai-usage: ai-assisted
 ---

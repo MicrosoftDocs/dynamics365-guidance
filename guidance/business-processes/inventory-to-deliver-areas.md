@@ -2,7 +2,7 @@
 title: Overview of the Inventory to deliver business process areas
 description: Get an overview for each of the business process areas in the Inventory to deliver end-to-end business process for managing, handling, and delivering inventory in Dynamics 365 solutions.
 ms.date: 01/16/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ---

@@ -2,7 +2,7 @@
 title: Overview of the Run production operations business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for running production operations.
 ms.date: 12/06/2023
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
 ---

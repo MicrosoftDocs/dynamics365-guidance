@@ -2,7 +2,7 @@
 title: Define a strategy for adoption and change management
 description: Learn how to plan and execute a change management strategy that helps your organization adopt and use your new business solution effectively.
 ms.date: 01/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: veneva
 ms.custom:

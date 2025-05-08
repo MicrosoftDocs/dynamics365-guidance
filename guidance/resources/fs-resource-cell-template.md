@@ -1,8 +1,8 @@
-﻿---
+---
 title: Add crew information to resource cells
 description: Get sample code to help you customize information and how it looks in the schedule board in Dynamics 365 Field Service.
 ms.date: 08/07/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: jwride
 ---
