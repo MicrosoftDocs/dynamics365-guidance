@@ -1,11 +1,10 @@
 ---
 title: Secure your Dynamics 365 project from day one
-description: Learn why security is a crucial factor for your Dynamics 365 project and how to design a security strategy that meets your requirements and avoids risks.
+description: Discover why security is vital for Dynamics 365 projects and how to create a strategy that ensures compliance, scalability, and risk mitigation.
 author: riblack-microsoft
 ms.author: riblack
 ms.topic: concept-article
-ms.date: 01/22/2024
-ms.service: dynamics-365
+ms.date: 05/12/2025
 ms.custom:
   - ai-seo-date: 01/22/2024
   - ai-gen-docs-bap
@@ -16,7 +15,7 @@ content_well_notification: AI-contribution
 
 # Secure your Dynamics 365 project from day one
 
-Don't wait until the last minute to think about security for your Dynamics 365 project. Security is a key factor that affects many aspects of your solution, such as compliance, scalability, performance, reporting, and rollout. If you neglect security requirements, you might face serious legal, financial, and business risks, as well as delays in your implementation project. In this section, we explain how security impacts Dynamics 365 and how to plan a security strategy that meets your needs.
+Don't wait until the last minute to think about security for your Dynamics 365 project. Security is a key factor that affects many aspects of your solution, such as compliance, scalability, performance, reporting, and rollout. Neglecting security requirements can lead to serious legal, financial, and business risks, as well as delays in your implementation project. This article explains how security impacts Dynamics 365 and provides actionable steps to plan a security strategy that meets your needs.
 
 Before you design a solution, you should ask yourself some questions, such as:
 
@@ -38,7 +37,7 @@ The answers to these questions will help you shape your security strategy. You s
 
 ## How security affects scalability
 
-Your security design can have a significant impact on how your solution scales, especially for multi-phased and global deployments. You should consider scalability when you design your security model, and avoid short-sighted decisions that might limit your future growth. Here are some examples:
+Your security design significantly impacts how your solution scales, especially for multi-phased and global deployments. To ensure future growth, consider scalability early when designing your security model. Avoid short-sighted decisions that could limit expansion. The following sections provide examples to guide your planning.
 
 ### Example 1: Business unit access
 
@@ -58,11 +57,10 @@ Your security design can also affect the system performance. Dynamics 365 has mu
 
 ### Example 1: Sharing
 
-Sharing lets you grant specific and unique permissions on a specific record, but sharing a large number of records can be costly. To check access for a user, the system checks the user's security roles, team memberships, and records shared with the user and their teams. Checking many rules is expensive in terms of performance, storage, and maintenance overhead.
+Sharing lets you grant specific and unique permissions on a specific record, but sharing a large number of records can be costly. For example, to check access for a user, the system checks the user's security roles and team memberships, and the shared records. Checking many rules can lead to performance, storage, and maintenance overhead.
 
 Sharing can also trigger cascading rules that can be costly if not set properly. You should use sharing for edge cases and exceptions, not for regular access.
-
-To learn more, download our [Modeling Scalable Security with Microsoft Dynamics CRM](https://www.microsoft.com/download/confirmation.aspx?id=40861) whitepaper. It's an older document and talks about products that are out of mainstream support, but it's still relevant for Dynamics 365 security.
+<!-- To learn more, download our [Modeling Scalable Security with Microsoft Dynamics CRM](https://www.microsoft.com/download/confirmation.aspx?id=40861) whitepaper. It's an older document and talks about products that are out of mainstream support, but it's still relevant for Dynamics 365 security. -->
 
 The volume of data also affects performance in the end. You should have a well-defined archival strategy. You can make the archived data available through other channels.
 
@@ -140,4 +138,5 @@ Plan how to assign security roles to new users. Will you automate a process? For
 
 ## Next steps
 
-- Use the Success by Design [security checklist](security-strategy-checklist.md) to help identify and prioritize key requirements and implementation activities in the areas of privacy and compliance, identity and access, and application security
+- Use the Success by Design [security checklist](security-strategy-checklist.md) to identify and prioritize key requirements for privacy, compliance, identity, and application security.  
+- Explore related topics here on Microsoft Learn to deepen your understanding of security strategies for Dynamics 365.  
