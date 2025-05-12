@@ -1,17 +1,16 @@
 ---
 title: Set up agent capacity for custom entities
 description: Learn how to configure capacity-based routing for custom entities in Customer Service using no-code and low-code approaches.
-titleSuffix: DCCP
 author: edupont04
 ms.author: thomasjosep
 ms.topic: concept-article
-ms.date: 03/14/2024
+ms.date: 05/12/2025
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:11/28/2023
   - O25-Service
-# CustomerIntent: As an administrtor, I want to use capacity-based routing for agents in Customer Service.
+# CustomerIntent: As an administrator, I want to use capacity-based routing for agents in Customer Service.
 ---
 
 # Set up agent capacity for custom entities
@@ -44,13 +43,13 @@ The advantage of the no-code solution is that it doesn't require you to be a dev
 
 :::image type="content" source="media/agent-capacity3.svg" alt-text="A screenshot of the Workstream, work distribution settings that are set with unit based capacity of 25." lightbox="media/agent-capacity3.svg":::
 
-## Route non-case records using Power Automate
+### Route non-case records using Power Automate
 
 Next, we automate the creation of our associated Queue Item record. In Power Automate, we insert a *Perform an unbound action* step with the **Action Name** field set to *msdyn_ApplyRoutingRuleEntityRecord*. The following illustration shows the steps of the first example Power Automate flow, which creates the Queue Item. The first example is the trigger when a record is added. The second example is the unbound action with action name of *msdyn_ApplyRoutingRuleEntityRecord* with the target being the example custom entity.  
 
 :::image type="content" source="media/agent-capacity4.svg" alt-text="Diagram that shows the steps of the first example Power Automate flow, which creates the Queue Item. " lightbox="media/agent-capacity4.svg":::
 
-## Close live work items using Power Automate
+### Close live work items using Power Automate
 
 Next, we have to account for removing the agent from the **Worked by** lookup on the **Queue Item** record. As a result, the capacity of our custom entity (25 points) is cleared from our agent. We can use Power Automate also for this configuration.
 
@@ -64,15 +63,15 @@ In short, when our record is updated and if the **Status** field is set to *Comp
 
 An advantage of the low-code solution is that it's a synchronous job. Your business processes might require a solution that is a bit closer to real-time than you get with the no-code solution. The setup for the workstream and capacity is the same as the previous example.
 
-## Route non-case records using a plug-in
+### Route non-case records using a plug-in
 
-The first step is also similar to the previous example. We have to route the non-case record, which also creates the Queue Item record that we see natively when a case is routed. The steps and sample code to perform this action are available at [Route non-case records using a plug-in](/dynamics365/customer-service/trigger-routing-non-case-records). The plugin triggers the same `msdyn_ApplyRoutingRuleEntityRecord` as our Power Automate solution does.
+The first step is also similar to the previous example. We have to route the non-case record, which also creates the **Queue Item** record that we see natively when a case is routed. The steps and sample code to perform this action are available at [Route non-case records using a plug-in](/dynamics365/customer-service/trigger-routing-non-case-records). The plugin triggers the same `msdyn_ApplyRoutingRuleEntityRecord` as our Power Automate solution does.
 
-## Close live work items or deactivate queue items
+### Close live work items or deactivate queue items
 
-There's more good news here as well. There's sample code available at [Close live work items or deactivate queue items](/dynamics365/customer-service/deactivate-queue-items) to achieve the second series of actions to close our Queue Item records accordingly.
+There's more good news here as well. There's sample code available at [Close live work items or deactivate queue items](/dynamics365/customer-service/deactivate-queue-items) to achieve the second series of actions to close our **Queue Item** records accordingly.
 
-## Defining your business process
+## Define your business process
 
 A key thing to keep in mind is the business process that drives these updates within your organization. It's critical that time is spent defining and documenting each step in the lifecycle of your non-case record. Both of our solution examples listed here assume the following basic process.
 
@@ -92,21 +91,21 @@ Step #3 in this list is where your business process specifics can add complexity
 
 1. The non-case record is created and active.
 
-1. This invokes the first step in our automation to create the Queue Item record.
+    This invokes the first step in our automation to create the **Queue Item** record.
 
 1. It's then assigned to an agent.
 
 1. The agent makes a phone call to the customer to collect two pieces of information. After the agent speaks to the customer, they update picklist A and picklist B with the information collected from the customer and save the record.
 
-1. This could invoke this record to be routed to the Queue A.
+    This step can invoke this record to be routed to Queue A.
 
 1. Another agent picks up the record from Queue A.
 
-1. This invokes another Queue Item record to be created.
+    This step invokes the creation of another **Queue Item** record.
 
 1. This agent performs some extra actions to complete the process and the record.
 
-1. This invokes the Queue Item record to be closed releasing the capacity.
+    This invokes the **Queue Item** record to be closed releasing the capacity.
 
 Your business process dictates the triggers for assignment and closure and should be accounted for in either the flow or the plug-in code to accommodate your requirements.
 
