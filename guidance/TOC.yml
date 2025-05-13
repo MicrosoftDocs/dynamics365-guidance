@@ -1160,6 +1160,8 @@ items:
                 href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
               - name: Business performance analytics in Dynamics 365 Finance
                 href: techtalks\finance-bpa-overview.md
+              - name: Business performance planning in Dynamics 365 Finance
+                href: techtalks\finance-bpp-integrated-planning-insights.md
               - name: Performance test the user interface with JMeter in Dynamics 365 Finance
                 href: techtalks\finance-operations-ui-performance-test-jmeter.md
               - name: Tax calculation updates in 2024
@@ -1184,6 +1186,8 @@ items:
                 href: techtalks\project-operations-project-management-time-entry.md
               - name: Sales and inception
                 href: techtalks\project-operations-sales-inception.md
+              - name: Budget management and time-phased forecasting with Dynamics 365
+                href: techtalks\project-operations-budget-management-time-phased-forecasting.md
           - name: Supply Chain Management
             items:
               - name: Copilot capabilities in Supply Chain Management
@@ -1192,6 +1196,8 @@ items:
                 href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
               - name: The source to pay business process
                 href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+              - name: Production floor execution interface refresher in Dynamics 365
+                href: techtalks\production-floor-execution-interface-refresher.md
               - name: Inventory On-hand mobile app
                 href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
               - name: Warehouse management only mode
