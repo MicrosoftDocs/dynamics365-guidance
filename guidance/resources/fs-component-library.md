@@ -1,7 +1,7 @@
 ---
 title: Sample library for Field Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 03/14/2025
+ms.date: 05/12/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: erdipple
@@ -49,6 +49,12 @@ The following sections outline the content of the collection. Each section inclu
 - Transport summary configurations across environments
 
   Copilot in Field Service provides predefined summaries for specific tables. With summary configuration, administrators can replace the default summaries and configure their own to tailor to their business needs. They can configure the summary for two tables: Work Order and Bookable Resource Booking. Learn more at [Transport summary configurations across environments](/dynamics365/guidance/resources/fs-transport-summary-configuration).
+
+### Field Service Mobile
+
+- Add custom service reports in Dynamics 365 Field Service
+
+  You can implement a reporting solution with a custom control and relevant customizations so that technicians can generate service reports that summarize their work. The custom control works well in Field Service Mobile, which your technicians will appreciate. Learn more at [Add custom service reports in Dynamics 365 Field Service](fs-reporting-solution-service-reports.md).
 
 ### Copilot Studio
 

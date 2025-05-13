@@ -525,6 +525,10 @@ items:
                         href: resources/fs-use-copilot-studio-create-sample-data.md
                       - name: Use Copilot to create sample data for Field Service
                         href: resources/fs-copilot-import-sample-data.md
+                  - name: Field Service Mobile
+                    items:
+                    - name: Add custom service reports in Dynamics 365 Field Service
+                      href: resources/fs-reporting-solution-service-reports.md
               - name: Develop solutions
                 items:
                   - name: Set up Azure Pipelines to deploy Field Service

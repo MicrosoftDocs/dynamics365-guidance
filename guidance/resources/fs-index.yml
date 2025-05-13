@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Field Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 01/24/2025
+  ms.date: 04/28/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom:
     - bap-template
@@ -43,6 +43,8 @@ landingContent:
           url: fs-schedule-board-settings-management-control.md
         - text: Implementing SLAs for Work Orders
           url: fs-implementing-sla-work-order.md
+        - text: Add a custom reporting control for service reports
+          url: fs-reporting-solution-service-reports.md
 
 # setup card
   - title: Setup
