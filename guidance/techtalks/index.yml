@@ -155,6 +155,8 @@ landingContent:
           url: dynamics-365-finance-supply-chain-management-source-to-pay.md
         - text: Business performance analytics
           url: finance-bpa-overview.md
+        - text: Business performance planning
+          url: finance-bpp-integrated-planning-insights.md
         - text: Advanced bank reconciliation
           url: finance-advanced-bank-reconciliation-enhancements.md 
         - text: Invoice capture features and functionality
@@ -176,6 +178,8 @@ landingContent:
           url: project-operations-project-management-time-entry.md
         - text: Sales and inception
           url: project-operations-sales-inception.md
+        - text: Budget management and time-phased forecasting
+          url: project-operations-budget-management-time-phased-forecasting.md
 
 # Card
   - title: Business processes in Supply Chain Management
@@ -196,3 +200,5 @@ landingContent:
           url: supply-chain-advanced-export-control.md
         - text: Performance improvements for continuous number sequences
           url: finance-operations-continuous-number-sequence-performance-improvements.md
+        - text: Production floor execution interface refresher
+          url: production-floor-execution-interface-refresher.md

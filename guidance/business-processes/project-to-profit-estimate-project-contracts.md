@@ -3,7 +3,7 @@ title: Estimate Project Contracts in Dynamics 365 Project Operations
 description: Learn how to estimate project contracts effectively in Dynamics 365 Project Operations, including process flows, stakeholder roles, and best practices.  
 author: edupont04  
 contributors:  
-ms.topic: conceptual  
+ms.topic: concept-article 
 ms.date: 04/22/2025
 ms.author: lalithac
 ms.reviewer: edupont  
