@@ -3,7 +3,7 @@ title: Manage the accounts payable business process area overview
 description: Learn about the Manage the accounts payable business process area, including learning about the types of stakeholders and process flow.
 author: meneksesaygili
 ms.author: msaygili
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 04/15/2025
 ---
 

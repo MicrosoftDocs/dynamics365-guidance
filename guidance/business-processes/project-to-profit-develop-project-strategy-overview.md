@@ -2,7 +2,7 @@
 title: Overview of the Develop project strategy business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for governing projects.
 ms.date: 04/22/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: edupont04
 ms.author: lifiatamara
 ---

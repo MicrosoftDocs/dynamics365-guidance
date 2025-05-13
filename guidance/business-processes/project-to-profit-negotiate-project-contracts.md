@@ -3,7 +3,7 @@ title: Negotiate Project Contracts in Dynamics 365
 description: Learn how to effectively negotiate project contracts using Dynamics 365, including steps, best practices, and stakeholder roles.  
 author: edupont04  
 contributors:  
-ms.topic: conceptual  
+ms.topic: concept-article 
 ms.date: 04/22/2025
 ms.author: edupont  
 ms.reviewer: edupont  
