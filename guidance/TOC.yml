@@ -529,6 +529,8 @@ items:
                     items:
                     - name: Add custom service reports in Dynamics 365 Field Service
                       href: resources/fs-reporting-solution-service-reports.md
+                    - name: Vendor self-service for technician management
+                      href: resources/fs-vendor-self-service-for-technician-management.md
               - name: Develop solutions
                 items:
                   - name: Set up Azure Pipelines to deploy Field Service

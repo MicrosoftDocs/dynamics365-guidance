@@ -45,6 +45,8 @@ landingContent:
           url: fs-implementing-sla-work-order.md
         - text: Add a custom reporting control for service reports
           url: fs-reporting-solution-service-reports.md
+        - text: Vendor self-service for technician management
+          url: fs-vendor-self-service-for-technician-management.md
 
 # setup card
   - title: Setup
