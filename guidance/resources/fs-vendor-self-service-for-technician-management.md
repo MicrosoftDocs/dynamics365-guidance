@@ -1,6 +1,6 @@
 ---
 title: Vendor self-service for technician management
-description: Learn how to set up and use the Vendor Self-Service for Technician Management solution.
+description: Learn how to set up and use the Vendor self-service for technician management solution.
 ms.topic: concept-article
 ms.date: 05/09/2025
 author: vibhutinair23
@@ -13,29 +13,29 @@ ms.custom:
 
 # Vendor self-service for technician management
 
-The Vendor Self-Service for Technician Management solution is a flexible foundation designed to help organizations using Dynamics 365 Field Service efficiently manage external vendors and contractors. It also allows customization to meet specific business needs. This solution automates the process of setting up vendor resources, managing their characteristics, and handling their access to the system. These resources can then sign in to the Field Service mobile app to perform fieldwork.
+The Vendor self-service for technician management solution is a flexible foundation that helps organizations using Dynamics 365 Field Service efficiently manage external vendors and contractors. It also allows customization to meet specific business needs. This solution automates the process of setting up vendor resources, managing their characteristics, and handling their access to the system. These resources can then sign in to the Field Service mobile app to perform field work.
 
 > [!NOTE]
-> This solution is a sample and starting point for implementers to create vendor self-service management capabilities tailored to their business needs. It isn't a first-party Microsoft product feature and comes as-is, expecting system implementers to extend the solution as needed.
+> This solution is a sample and starting point for implementers to create vendor self-service management capabilities tailored to their business needs. It isn't a first-party Microsoft product feature and comes as-is. System implementers can extend the solution as needed.
 
-Consider a scenario where your company may need to work with multiple vendors who provide contractors to handle Field Service work orders. Each vendor can supply hundreds or even thousands of contractor resources to meet your work order needs. Properly setting up and managing these contractors involves ensuring they can log in and use the Field Service mobile app. This process requires to perform the following activities:
+Consider a scenario where your company works with multiple vendors who provide contractors to handle Field Service work orders. Each vendor can supply hundreds or even thousands of contractor resources to meet your work order needs. Properly setting up and managing these contractors involves ensuring they can sign in and use the Field Service mobile app. This process requires you to perform the following activities:
 
-- Create an Entra ID user account
-- Apply appropriate licenses
-- Grant security permissions or groups
-- Set up a user account and a Bookable resource record in Dynamics 365
-- Assign the correct Bookable resource settings, characteristics, and skills
+- Create an Entra ID user account.
+- Apply appropriate licenses.
+- Grant security permissions or groups.
+- Set up a user account and a bookable resource record in Dynamics 365.
+- Assign the correct bookable resource settings, characteristics, and skills.
 
 Managing these activities manually for each contractor often requires one or more full-time resources. Offloading these tasks to the vendor companies themselves significantly reduces your company's workload. Vendors can self-serve their needs on their schedules, provisioning contractors, making resource changes, and deprovisioning them as needed. This approach saves time and money.
 
 ## Features
 
-The Vendor Self-Service for Technician Management solution lets third-party vendors or in-house resource management to do the following tasks:
+With the Vendor self-service for technician management solution, third-party vendors or in-house resource management can do the following tasks:
 
-- Automated Entra B2B invites, Entra ID user creation, license application, security group addition, and Bookable resource creation for new contractor setup
-- Manage contractors easily through a simple UI in the **Contact** table/forms, with real-time automated synchronization with Bookable resources for Field Service settings, skills, and work hours
-- Automated license and security group removal for decommissioning contractors
-- Automated license and security group readdition for reactivating contractors
+- Automated Entra B2B invites, Entra ID user creation, license application, security group addition, and bookable resource creation for new contractor setup.
+- Manage contractors easily through a simple UI in the **Contact** table/forms, with real-time automated synchronization with bookable resources for Field Service settings, skills, and work hours.
+- Automated license and security group removal for decommissioning contractors.
+- Automated license and security group restoration for reactivating contractors.
 
 ## Disclaimer and extensibility
 
@@ -43,12 +43,12 @@ We provide this solution and code as-is for Dynamics 365 implementors. This solu
 
 ## Prerequisites
 
-To install and use this solution, ensure you have the following prerequisites:
+To install and use this solution, you must have the following:
 
-- An instance of Dynamics 365 Field Service
-- A user account with System Administrator or System Customizer permissions for the given instance
-- An Azure Function App, or the ability to provision a new Azure Function App
-- A service principal with the following Microsoft Graph permissions: `User.Invite.All`, `User.Read`, `User.Read.All`, `User.ReadBasic.All`, `User.ReadWrite.All`
+- An instance of Dynamics 365 Field Service.
+- A user account with system administrator or system customizer permissions for the given instance.
+- An Azure Function App, or the ability to provision a new Azure Function App.
+- A service principal with the following Microsoft Graph permissions: `User.Invite.All`, `User.Read`, `User.Read.All`, `User.ReadBasic.All`, `User.ReadWrite.All`.
 
 ## Architecture overview
 
@@ -56,7 +56,11 @@ The following diagram illustrates how the various components—including Dynamic
 
 :::image type="content" source="media/fs-vendor-self-service-for-technician-management/vendor-self-serve-architecture.svg" alt-text="Screenshot of architecture.":::
 
-This solution uses a lightweight model-driven app that gives vendor administrators (the persona at the vendor responsible for managing their resources in your system) permission through [Entra B2B](/entra/external-id/b2b-fundamentals). Within this app, vendor admins use the **Contact** table as a portal to provision, manage, and deprovision their resources as needed. This solution has automations to handle the backend tasks required for these scenarios based on interactions with the Contact record.
+This solution uses a lightweight model-driven app that gives vendor administrators (the vendor representative responsible for managing their resources in your system) permission through [Entra B2B](/entra/external-id/b2b-fundamentals). Within this app, vendor admins use the **Contact** table as a portal to provision, manage, and deprovision their resources as needed. This solution has automations to handle the back-end tasks required for these scenarios based on interactions with the Contact record.
+
+
+
+
 
 > [!NOTE]
 > Contact records that vendor admins have access to are just a **window** into the Bookable resource for the given contractor. The Bookable resource has a resource type of **User** and links to a System User record.
