@@ -1011,6 +1011,8 @@ items:
             items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
+              - name: What's new or changed in the May 2025 version
+                href: business-processes/about-whats-new-2025-may.md
               - name: What's new or changed in the February 2025 version
                 href: business-processes/about-whats-new-2025-february.md
               - name: What's new or changed in the November 2024 version
