@@ -1,17 +1,17 @@
 ---
-title: Overview of the Plan and recruit your workforce business process area
-description: Read about the business process area for planning and recruiting your workforce in Dynamics 365, including types of stakeholders and benefits.
-ms.date: 01/23/2024
+title: Overview of the Develop people strategy business process area
+description: Read about the business process area for defining the organizational structure for your workforce in Dynamics 365, including types of stakeholders and benefits.
+ms.date: 05/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: riblack
 ---
 
-# Overview of the Plan and recruit your workforce business process area within the Hire to retire end-to-end scenario
+# Overview of the Develop people strategy business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to *plan and recruit your workforce* as part of the *hire to retire* business process. Planning and recruiting represent a foundational business process area that is upstream of most business processes across a business. It's important that you define department structures, and define and manage jobs and positions, so that you can assign workers to tasks. In addition, before you can record time and attendance, and pay employees, you must create and manage shifts, and define work calendars and schedules. You should plan and recruit your workforce early in the implementation, because the associated configurations are required to support day-to-day operations and business processes.
+This article describes how you can use Dynamics 365 products to *Develop people strategy* as part of the *hire to retire* end-to-end scenario. Planning the people strategy represent a foundational business process area that is upstream of most business processes across a business. It's important that you define department structures, and define and manage jobs and positions, so that you can assign workers to tasks. In addition, before you can record time and attendance, and pay employees, you must create and manage shifts, and define work calendars and schedules. You should Develop people strategy early in the implementation, because the associated configurations are required to support day-to-day operations and business processes.
 
 Input from various stakeholders is required to complete these steps. The list includes but isn't limited to the following roles:
 
@@ -19,73 +19,55 @@ Input from various stakeholders is required to complete these steps. The list in
 - **HR** and **Administrative stakeholders** are required to define organizational details.
 - **IT Operations** might be required to import data.
 
-## Plan and recruit your workforce process flow
+## Develop people strategy process flow
 
-The following diagram illustrates the *Plan and recruit your workforce* business process area.
+The following diagram illustrates the *Develop people strategy* business process area.
 
 :::image type="content" source="media/hire-to-retire-plan-recruit-business-process-area.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/hire-to-retire-plan-recruit-business-process-area.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-The following steps are illustrated in the *Plan and recruit your workforce* flow diagram.
+The following steps are illustrated in the *Develop people strategy* flow diagram.
 
 1. Start
 
 1. *Hire to retire*
 
-1. *Plan and recruit your workforce*
+1. *Develop people strategy*
 
     Parallel branches connect to the following end-to-end processes that are shown on the right side: *Forecast to plan*, *Project to profit*, and *Plan to produce*.
 
-    1. *Define department structure*
-
-        A parallel branch connects to *Update department structure*.
-
-    1. *Create jobs*
-
-        A parallel branch connects to *Manage changes to jobs*.
-
-    1. *Define corporate operating hours and schedule*
-
-    1. *Plan budget & headcount*
-
-        A parallel branch connects to *Manage headcount*.
-
-    1. *Create positions*
-
-        A parallel branch connects to *Manage changes to positions*.
-
-    1. *Create and manage teams*
-
-    1. *Create and manage shifts*
-
-    1. *Recruit and hire candidates*
-
-    1. *Onboard and manage the employee lifecycle*
+    1. *Define organizational structure*  
+    1. *Define operating hours and schedule*  
+    1. *Define human resources policies*  
+    1. *Develop code of conduct*  
+    1. *Define expense policies*  
+    1. *Plan workforce*  
+    1. *Develop communication strategy*
 
 1. End
 
 Parallel branches from Start include the following processes:
 
-1. *Record to report* (Define company structure) connects to *Plan and recruit your workforce* (Define department structure) and (Update department structure).
+1. *Record to report* (Define company structure) connects to *Develop people strategy* (Define department structure) and (Update department structure).
 
-1. *Forecast to plan* (Define strategic and operational plans) connects to *Plan and recruit your workforce* (Plan and budget headcount, Create positions, and Define department structure). *Plan and budget headcount* connects to *Forecast supply and demand* (*Forecast to plan*).
+1. *Forecast to plan* (Define strategic and operational plans) connects to *Develop people strategy* (Plan and budget headcount, Create positions, and Define department structure). *Plan and budget headcount* connects to *Forecast supply and demand* (*Forecast to plan*).
 
-1. *Acquire to dispose* (Plan and budget assets) connects to *Plan and recruit your workforce* (Plan and budget headcount).
+1. *Acquire to dispose* (Plan and budget assets) connects to *Develop people strategy* (Plan and budget headcount).
 
-1. (Not pictured) *Case to resolution* (Create cases) connects to *Plan and recruit your workforce* from almost anything that you can make a case for.
+1. (Not pictured) *Case to resolution* (Create cases) connects to *Develop people strategy* from almost anything that you can make a case for.
 
-1. *Project to profit* (Resource a project) connects to *Plan and recruit your workforce* (Plan and budget headcount) and (Create and manage teams). *Create and manage teams* connects to *Manage project budgets* (*Project to profit)*.
+1. *Project to profit* (Resource a project) connects to *Develop people strategy* (Plan and budget headcount) and (Create and manage teams). *Create and manage teams* connects to *Manage project budgets* (*Project to profit)*.
 
-1. *Concept to market* (Define service offerings and strategy) connects to *Plan and recruit your workforce* (Create positions).
+1. *Concept to market* (Define service offerings and strategy) connects to *Develop people strategy* (Create positions).
 
-1. *Service to cash* (Establish servicing policies and procedures) connects to *Plan and recruit your workforce* (Create positions).
+1. *Service to cash* (Establish servicing policies and procedures) connects to *Develop people strategy* (Create positions).
 
-1. *Order to cash* (Manage store operations) connects to *Plan and recruit your workforce* (Create and manage shifts).
+1. *Order to cash* (Manage store operations) connects to *Develop people strategy* (Create and manage shifts).
 
-1. *Plan to produce* (Plan production operations) connects to *Plan and recruit your workforce* (Create and manage shifts). *Create and manage shifts* connects to *Define production strategies* (*Plan to produce*).
+1. *Plan to produce* (Plan production operations) connects to *Develop people strategy* (Create and manage shifts). *Create and manage shifts* connects to *Define production strategies* (*Plan to produce*).
 
-1. *Source to pay* (Procure materials and services) connects to *Plan and recruit your workforce* (Recruit and hire).
+1. *Source to pay* (Procure materials and services) connects to *Develop people strategy* (Recruit and hire).
 
 The following end-to-end downstream processes that are also depicted in the diagram have connections to End:
 
@@ -95,9 +77,9 @@ The following end-to-end downstream processes that are also depicted in the diag
 
 - Plan to produce
 
-## Plan and recruit your workforce benefits
+## Develop people strategy benefits
 
-Effective workforce planning and recruiting can help organizations achieve their business goals. The right approach helps them ensure that they have the right people in the right positions at the right time. At the same time, it helps reduce costs and improve productivity. Many key benefits can monitor and measure the success of the technology that you use to support the business processes. The following sections outline the key benefits that an organization might monitor and measure for *Plan and recruit your workforce*.
+Effective workforce planning and recruiting can help organizations achieve their business goals. The right approach helps them ensure that they have the right people in the right positions at the right time. At the same time, it helps reduce costs and improve productivity. Many key benefits can monitor and measure the success of the technology that you use to support the business processes. The following sections outline the key benefits that an organization might monitor and measure for *Develop people strategy*.
 
 ### Cost savings
 
@@ -121,21 +103,23 @@ Effective recruiting can help an organization build a more diverse and inclusive
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links will be added later, when the articles are ready.)  
+If you want to implement Dynamics 365 solutions to assist with your *hire to retire* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)  
 
-1. *Plan and recruit your workforce* (the article that you're currently reading)
-
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
-
-3. [*Manage occupational health and safety*](hire-to-retire-manage-occupational-health-safety.md) 
-
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-
-5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-
-6. [*Manage travel and expenses*](hire-to-retire-manage-travel-expenses.md)  
-
-7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
+1. *Develop people strategy* (the article you're currently reading)
+    1. *Define organizational structure*  
+    1. *Define operating hours and schedule*  
+    1. *Define human resources policies*  
+    1. *Develop code of conduct*  
+    1. *Define expense policies*  
+    1. *Plan workforce*  
+    1. *Develop communication strategy*
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)  
+1. [Offboard talent](hire-to-retire-onboard-terminate-employment.md)  
+1. *Analyze HR programs*
 
 ## Related information
 

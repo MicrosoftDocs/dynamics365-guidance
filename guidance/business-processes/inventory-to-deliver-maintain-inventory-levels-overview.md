@@ -73,11 +73,20 @@ Having repeatable business processes, with the ability for supervisor oversight,
 If you want to implement Dynamics 365 solutions to assist with your *maintain inventory levels* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Manage warehouse operations](inventory-to-deliver-define-manage-warehouse-operations-overview.md)  
-2. *Maintain inventory levels* (the article that you're currently reading.)
-3. *Manage inventory quality*
-4. *Manage freight and transportation*
-5. [Record and manage inventory cost](inventory-to-deliver-record-manage-inventory-costs.md)  
-6. *Analyze warehouse operations*
+1. *Maintain inventory levels* (the article that you're currently reading.)
+
+    1. *Track supplier managed and consignment inventory*  
+    1. *Track customer managed inventory and consigned inventory*  
+    1. *Process inventory movements*  
+    1. *Stage inventory*  
+    1. *Count inventory*  
+    1. *Adjust inventory levels*
+
+1. *Process inbound goods*
+1. *Process outbound goods*
+1. *Manage inventory quality*
+1. [Manage freight and transportation](inventory-to-deliver-manage-freight-transportation.md)
+1. *Analyze warehouse operations*
 
 ## Related resources
 

@@ -123,12 +123,20 @@ The following tables show the configurations available, and the sequence recomme
 
 If you want to implement Dynamics 365 solutions to assist with your *Estimate project contracts* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Estimate project contracts*  (the article you're currently reading)  
-1. [*Negotiate project contracts* ](project-to-profit-negotiate-project-contracts.md)  
-1. *Finalize project contracts*  
-1. *Maintain project contracts*  
-1. *Process project change requests*  
-1. *Define project stakeholders*
+1. [Develop project strategy](project-to-profit-govern-projects-overview.md)
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+
+    1. *Estimate project contracts*. (The article you're currently reading.)  
+    1. [Negotiate project contracts](project-to-profit-negotiate-project-contracts.md)  
+    1. *Finalize project contracts*  
+    1. *Maintain project contracts*  
+    1. *Process project change requests*  
+    1. *Define project stakeholders*
+
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)  
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 <!-- 
 ## Related patterns
 

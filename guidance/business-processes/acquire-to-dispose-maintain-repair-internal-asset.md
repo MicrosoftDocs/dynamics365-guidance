@@ -1,20 +1,23 @@
 ---
-title: Overview of the Maintain and repair internal assets business process area
-description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to maintain and repair internal assets.
-ms.date: 02/06/2025
+title: Overview of the Perform asset maintenance business process area
+description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to Perform asset maintenances.
+ms.date: 05/21/2025
 ms.topic: overview
 author: edupont04
 ms.author: hputhran
 ms.custom: bap-template
 ---
 
-# Overview of the Maintain and repair internal assets business process area within the Acquire to dispose end-to-end scenario
+# Overview of the Perform asset maintenance business process area within the Acquire to dispose end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for maintaining and repairing internal assets.
 
-## Introduction to the maintain and repair internal asset process
+> [!NOTE]
+> In earlier versions of the business process catalog, this area had the name *Maintain and repair internal assets*. It was renamed in the February 2025 version, and we're still in process of updating the article.
+
+## Introduction to the Perform asset maintenance process
 
 In many organizations, the terms *maintenance* and *repair* are used interchangeably. However, they might refer to different areas in the asset management process. Maintenance includes activities that can be scheduled and/or performed at a specific time to help prevent assets from breaking down and increase their life. Repairs help restore the functionality of assets when they are damaged or inoperable from a process standpoint.
 
@@ -38,9 +41,9 @@ Most tangible assets, such as vehicles, machines, and production equipment, go t
 
 The owner of an asset can lease it to another party for money or another factor. Maintenance and repair of leased assets might depend on the agreement between the lessor and the lessee, based on whether the lease is a capital lease or an operating lease.
 
-## Stakeholders for the maintain and repair internal asset process
+## Stakeholders for the Perform asset maintenance process
 
-Many people in an organization must contribute to the decision-making process and design of the *maintain and repair internal asset* process in your Dynamics 365 solution. Stakeholders include the following roles.
+Many people in an organization must contribute to the decision-making process and design of the *Perform asset maintenance* process in your Dynamics 365 solution. Stakeholders include the following roles.
 
 | Stakeholder | Responsibility |
 |---|---|
@@ -53,7 +56,7 @@ Many people in an organization must contribute to the decision-making process an
 | Legal and compliance department | Ensure regulatory compliance that is related to asset management. |
 | Executive leadership | Oversee the acquisition and disposal of high-value assets, and ensure alignment with strategic goals. |
 
-## Flow for the maintain and repair internal asset process
+## Flow for the Perform asset maintenance process
 
 The following diagram shows the high-level business process flow for maintaining and repairing internal assets. For this flow, there are several exit points from the *procure spare parts/service item* process and several entry points to the *schedule maintenance* process.
 
@@ -61,11 +64,11 @@ The following diagram shows the high-level business process flow for maintaining
 
 :::image type="content" source="media/maintain-and-repair-internal-asset-flow.svg" alt-text="Flow diagram that shows steps for maintaining and repairing internal assets." lightbox="media/maintain-and-repair-internal-asset-flow.svg":::
 
-The flow diagram for the *maintain and repair internal asset* business process area covers the following steps.
+The flow diagram for the *Perform asset maintenance* business process area covers the following steps.
 
 1. Start
 1. *Acquire to dispose*
-1. *Maintain and repair internal asset*
+1. *Perform asset maintenance*
 
     1. Plan maintenance
     1. Procure spare parts/service item
@@ -107,9 +110,9 @@ The flow diagram for the *maintain and repair internal asset* business process a
 
 
 > [!NOTE]
-> The preceding flow diagram and explanation describe the *maintain and repair internal asset* business process area at a high level. The process flow might vary, depending on your operating model and business process requirements.
+> The preceding flow diagram and explanation describe the *Perform asset maintenance* business process area at a high level. The process flow might vary, depending on your operating model and business process requirements.
 
-## Benefits of the maintain and repair internal asset process
+## Benefits of the Perform asset maintenance process
 
 This section outlines some of the main benefits that an organization can use to monitor and measure the success of maintaining and repairing internal assets.
 
@@ -127,23 +130,31 @@ Many organizations follow industry standards such as the Occupational Safety and
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *maintain and repair internal asset* process, use the following resources and steps to learn more. Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to help with your *Perform asset maintenance* process, use the following resources and steps to learn more. Links are added when articles become available.
 
-1. [Plan and budget assets](acquire-to-dispose-plan-budget-assets-overview.md)  
-2. [Acquire assets  ](acquire-to-dispose-acquire-assets-overview.md)  
-3. Manage internal assets  
-4. Manage and report on asset financials  
-5. **Maintain and repair internal assets**. (The article you are currently reading.)
-6. Retire and dispose of assets  
+1. *Define asset strategy*
+1. [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)  
+1. [Manage active assets](acquire-to-dispose-manage-internal-assets.md)  
+1. *Perform asset maintenance*. (The article you are currently reading.)  
+
+    1. *Budget asset maintenance*
+    1. *Forecast maintenance*
+    1. *Schedule maintenance jobs*
+    1. *Perform preventative maintenance*
+    1. *Perform corrective maintenance*
+    1. *Perform predictive maintenance*
+
+1. [Dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
+1. [Analyze assets](aquire-to-dispose-manage-report-asset-financials.md)   
 
 ## Related information
 
-You can use the following resources to learn more about the *maintain and repair internal asset* process in Dynamics 365.
+You can use the following resources to learn more about the *Perform asset maintenance* process in Dynamics 365.
 
 - [All TechTalks](https://community.dynamics.com/blogs/?blogid=e624b369-bfb9-4c57-8f1b-b3656ac91f5a)
 - [Asset management overview](/dynamics365/supply-chain/asset-management/)
 - [Work with Asset Management for Dynamics 365 Supply Chain Management (learning path)](/training/paths/work-asset-management-dyn365-supply-chain-mgmt/)
-- Find definitions of terminology used in content for *maintain and repair internal assets* in the [Glossary of terms in Dynamics 365 business processes](glossary.md), including the following terms:
+- Find definitions of terminology used in content for *Perform asset maintenances* in the [Glossary of terms in Dynamics 365 business processes](glossary.md), including the following terms:
 
   - [Maintenance](glossary.md#maintenance)  
   - [Repair](glossary.md#repair)  

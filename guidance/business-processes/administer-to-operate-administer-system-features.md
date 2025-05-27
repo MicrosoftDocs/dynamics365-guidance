@@ -127,18 +127,38 @@ The process supports the scaling of operations, ensuring the system can adapt as
 
 If you want to implement Dynamics 365 solutions to assist with your *administer system features* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)  
 
-- [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
-- *Manage licensing and entitlements*  
-- *Administer system features (the article you're currently reading.)*
-- [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-- [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
-- *Monitor systems, environments, and capacity*  
-- *Manage background jobs*  
-- *Manage notifications alerts*  
-- *Uptake software releases*  
-- [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)  
-- [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-- [Support systems](administer-to-operate-support-systems-overview.md)  
+1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+1. *Manage licensing and entitlements*  
+1. *Administer system features* (the article you're currently reading.)  
+
+    1. *Configure and administer workflows*  
+    1. *Configure, monitor, and send emails*  
+    1. *Manage file storage*  
+    1. *Configure and monitor system generated numbers*  
+    1. *Configure and maintain cloud-based printing*  
+    1. *Configure and maintain electronically generated documents*  
+    1. *Configure and manage offline mode for apps*  
+    1. *Configure and manage mobile apps and devices*  
+    1. *Configure and management office apps and add-ins*  
+    1. *Configure and manage reporting and analytics*  
+    1. *Configure and manage search*  
+    1. *Configure and manage portals*  
+    1. *Manage organizational structure*  
+    1. *Configure and manage surveys*  
+    1. *Configure and manage IoT devices*  
+    1. *Configure and manage copilot capabilities*  
+    1. *Configure and manage Microsoft Teams integrations*  
+    1. *Configure and manage geofencing and geolocation settings*  
+1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
+1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
+1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related resources  
 

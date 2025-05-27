@@ -126,29 +126,29 @@ In summary, investing in training users and increasing adoption when you impleme
 
 ## Next steps
 
-1. [Define a business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
 
-2. *Manage licensing and entitlements*
+1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+1. *Manage licensing and entitlements*  
+1. [Administer system features](administer-to-operate-administer-system-features.md)  
+1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
+1. *Train users and increase adoption* (the article you're currently reading.)  
 
-3. *Administer system features*
-
-4. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-
-5. *Train users and increase adoption* (the article you're currently reading)
-
-6. *Monitor systems, environments, and capacity*
-
-7. *Manage background jobs*
-
-8. *Manage notifications alerts*
-
-9. *Uptake software releases*
-
-10. [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)  
-
-11. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-
-12. [Support systems](administer-to-operate-support-systems-overview.md)  
+    1. *Develop training strategy*  
+    1. *Identify training needs*  
+    1. *Develop training materials*  
+    1. *Plan training delivery*  
+    1. *Conduct training*  
+    1. *Provide ongoing support*  
+    1. *Measure adoption and success*  
+    1. *Refine the training program*  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
+1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related information
 

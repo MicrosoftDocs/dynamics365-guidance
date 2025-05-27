@@ -35,22 +35,21 @@ Learn more at [Define service costing overview](concept-to-market-define-service
 
 After you define costs, you can start to manage and define service prices, based on factors such as cost, competition, and customer demand. Effective pricing strategies can help organizations improve profitability and maintain a competitive advantage. Dynamics 365 Sales includes basic sales pricing functionality. Dynamics 365 Supply Chain Management has a pricing engine that includes trade agreements, price lists, customer loyalty programs, promotions, and discounts to help determine the best price.
 
-<!-- Learn more at TODOADDLINK[Manage product and service pricing\]. -->
+Learn more at [Overview of the Manage service pricing business process area](concept-to-market-manage-service-pricing-overview.md). 
 
 ## Manage service lifecycle
 
 This business process area involves managing the entire lifecycle of a service, from ideation to retirement. Management of the service lifecycle involves making strategic decisions about product development, pricing, and marketing, to help ensure that the service remains profitable and relevant to the market.
 
-<!-- Learn more at TODOADDLINK[Manage service lifecycle\]. -->
+Learn more at [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md).
 
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *concept to market* business processes, learn more at the following resources and steps.
 
-1. [Concept to market introduction](concept-to-market-introduction.md)
-2. [Concept to market end-to-end overview](concept-to-market-overview.md)
-3. [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md)
-4. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
+1. [Concept to market introduction](concept-to-market-introduction.md)  
+1. [Concept to market end-to-end overview](concept-to-market-overview.md)  
+1. [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related information
 

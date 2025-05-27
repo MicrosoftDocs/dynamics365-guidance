@@ -113,15 +113,11 @@ KPIs such as the rate of pricing strategy optimization and the impact on profit 
 
 If you would like to implement Dynamics 365 solutions to assist with your *manage service pricing* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define service offering and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
-
-2. [Introduce new services](concept-to-market-introduce-new-services.md)
-
-3. *Manage service pricing* (the article you're currently reading)
-
-4. [Define service costing](concept-to-market-define-service-costing-overview.md)
-
-5. *Manage service lifecycle*
+1. [Define service offerings and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
+1. [Introduce new services](concept-to-market-introduce-new-services.md)  
+1. *Manage service pricing* (the article you're currently reading)
+1. [Manage service costing](concept-to-market-define-service-costing-overview.md)  
+1. [Manage service lifecycle](concept-to-market-manage-service-lifecycle-overview.md)  
 
 ## Related information
 

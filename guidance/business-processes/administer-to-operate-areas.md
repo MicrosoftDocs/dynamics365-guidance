@@ -76,11 +76,11 @@ Staying current with software releases is essential for using new features and i
 
 The *Uptaking software releases* business process area involves seamlessly adopting new features and improvements within Dynamics 365. The platform's continuous updates and releases provide organizations with the latest advancements. Dynamics 365 provides a dedicated Power Platform environment for testing and validating these releases before deployment, ensuring a smooth uptake without disrupting ongoing operations.  
 
-## Manage data synchronization
+## Manage data
 
 Effective data synchronization is vital for maintaining consistency across the Dynamics 365 ecosystem. Manage data synchronization involves managing data synchronization processes to uphold data integrity. Dynamics 365's data integration features include features such as Dual Write and Virtual Entities. Developers can use the Power Platform's data connectors and Azure services to synchronize data seamlessly between different systems and applications. This process ensures that data across the organization remains accurate, up-to-date, and aligned with business processes.  
 
-Learn more at [Manage data synchronization overview](administer-to-operate-manage-data-synchronization-overview.md).  
+Learn more at [Manage data](administer-to-operate-manage-data-synchronization-overview.md).  
 
 ## Manage system compliance
 

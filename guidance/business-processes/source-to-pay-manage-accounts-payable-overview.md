@@ -4,7 +4,7 @@ description: Learn about the Manage the accounts payable business process area, 
 author: meneksesaygili
 ms.author: msaygili
 ms.topic: concept-article
-ms.date: 04/15/2025
+ms.date: 05/21/2025
 ---
 
 # Manage the accounts payable overview
@@ -147,14 +147,23 @@ When the organization manages their accounts payable, they gain direct control o
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *manage accounts payable* business processes, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *manage accounts payable* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)  
 
 1. [*Develop procurement and sourcing strategy*](source-to-pay-define-procurement-sourcing-strategy-overview.md)
-2. [*Manage supplier relationships*](source-to-pay-manage-vendor-relationships-overview.md)
-3. *Source and contract goods and services*
-4. [*Procure goods and services*](source-to-pay-procure-materials-services-overview.md)
-5. *Manage accounts payable* (The article you're currently reading)
-6. *Analyze procurement and sourcing*
+1. [*Manage supplier relationships*](source-to-pay-manage-vendor-relationships-overview.md)
+1. *Source and contract goods and services*
+1. [*Procure goods and services*](source-to-pay-procure-materials-services-overview.md)
+1. *Manage accounts payable* (The article you're currently reading)
+
+    1. *Process supplier invoices*  
+    1. *Dispute invoices*  
+    1. *Receive supplier credits*  
+    1. [*Issue and settle supplier payments*](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
+    1. *Manage promissory notes*  
+    1. *Cancel supplier payments*  
+    1. *Correct supplier payments*  
+    1. [*Process supplier rebates and incentives*](source-to-pay-process-vendor-rebates-incentives-overview.md)  
+1. *Analyze procurement and sourcing*
 
 ## Related information
 

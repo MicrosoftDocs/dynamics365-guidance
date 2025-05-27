@@ -148,17 +148,22 @@ When you use Dynamics 365 Customer Service, you can drive iterative improvement 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *introduce new products* business processes, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *introduce new products* business processes, you can use the following resources and steps to learn more.  Links are added when articles become available.
 
-1. [Define product catalog and strategy](design-to-retire-define-product-catalog-strategy-overview.md)
+1. [Develop product strategy](design-to-retire-define-product-catalog-strategy-overview.md)
+1. *Introduce new products* (the article you're currently reading)
 
-2. *Introduce new products* (the article you're currently reading)
+    1. *Research new products*  
+    1. *Develop new products*  
+    1. *Set product prices*  
+    1. *Design bills of materials*  
+    1. *Design formulas*  
+    1. *Market test new products*  
+    1. *Launch new products*
 
-3. [Define product costing](design-to-retire-define-product-costing-overview.md)
-
-4. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
-
-5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
+1. [Manage active products](design-to-retire-manage-product-lifecycle-overview.md)  
+1. *Retire products*
+1. *Analyze product performance*
 
 ## Related information
 

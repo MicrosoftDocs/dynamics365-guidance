@@ -1,5 +1,5 @@
 ---
-title: Overview of the Outsource production operations business process area
+title: Overview of the Subcontract production business process area
 description: Get an overview of the business process area for outsourcing production operations in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 12/06/2023
 ms.topic: concept-article
@@ -7,22 +7,25 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Overview of the Outsource production operations business process area within the Plan to produce end-to-end scenario
+# Overview of the Subcontract production business process area within the Plan to produce end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
-This article describes the business process area *outsource production operations*. It explains the context of the process area, provides a list of the benefits of using Dynamics 365 to support the process area, and lists the processes in the area.
+This article describes the business process area *Subcontract production*. It explains the context of the process area, provides a list of the benefits of using Dynamics 365 to support the process area, and lists the processes in the area.
 
-The term *outsourcing* is also known as subcontracting or tolling. The term describes when an organization hires an external vendor to handle certain steps of the production process. It can include sending raw materials or WIP products to the vendor, or the vendor procures their own materials. When the vendor production is complete, the updated product is shipped to the business, and they can either sell it as a finished product or consume it in further production operations.
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this article represented a business process area, *Outsource production operations*. In February 2025, it was renamed to *Subcontract production* and is now a business process under the *Run production operations* area, and we're in process of updating the content to reflect this change.
 
-The *outsource production operations* area is typically implemented during the main implementation of Dynamics 365, unless the organization implements only financial modules in the initial phase. Companies sometimes also make a business decision to do outsourcing after they're live with Dynamics 365. With Dynamics 365, they can add new products as outsourced, and transition existing products to be outsourced instead of produced internally.
+The term *subcontracting* is also known as *outsourcing* or *tolling*. The term describes when an organization hires an external vendor to handle certain steps of the production process. It can include sending raw materials or WIP products to the vendor, or the vendor procures their own materials. When the vendor production is complete, the updated product is shipped to the business, and they can either sell it as a finished product or consume it in further production operations.
+
+The *Subcontract production* area is typically implemented during the main implementation of Dynamics 365, unless the organization implements only financial modules in the initial phase. Companies sometimes also make a business decision to do outsourcing after they're live with Dynamics 365. With Dynamics 365, they can add new products as outsourced, and transition existing products to be outsourced instead of produced internally.
 
 > [!NOTE]
 > In addition to outsourcing production activities, companies can choose to outsource other activities such as project services or IT. These other types of outsourcing are not included in the scope of this article.
 
 ## Stakeholders 
 
-Many people across the organization should contribute to the decision-making process and design of the *Outsource production operations* area. The list includes but isn't limited to the following roles:
+Many people across the organization should contribute to the decision-making process and design of the *Subcontract production* area. The list includes but isn't limited to the following roles:
 
 - **Production stakeholders**, such as production schedulers and production supervisors, provide details on the business requirements in this process.
 
@@ -30,9 +33,9 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Procurement stakeholders**, such as buyers or vendor managers, can describe the process of contracting and communicating with outsourcing vendors.
 
-## Outsource production operations process flow 
+## Subcontract production process flow 
 
-The following diagram shows the *Outsource production operations* process flow, including the related business processes and the upstream and downstream activities. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram shows the *Subcontract production* process flow, including the related business processes and the upstream and downstream activities. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-outsource-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image." lightbox="media/plan-to-produce-outsource-production-flow.svg":::
 
@@ -68,7 +71,7 @@ The flow diagram covers the following steps:
 
 3. *Run production operations* business process area
 
-4. *Outsource production operations* business process area
+4. *Subcontract production* business process area
 
 5. *Define outsourcing policies* business process
 
@@ -88,9 +91,9 @@ The flow diagram covers the following steps:
 
 9. End
 
-## Outsource production operations benefits
+## Subcontract production benefits
 
-Many key benefits can be used to monitor and measure the success of implementing technology to support the *Outsource production operations* area. The following sections outline the key benefits that an organization might monitor and measure for the *Outsource production operations* area. 
+Many key benefits can be used to monitor and measure the success of implementing technology to support the *Subcontract production* area. The following sections outline the key benefits that an organization might monitor and measure for the *Subcontract production* area. 
 
 ### Improve product quality
 
@@ -106,32 +109,31 @@ With the **subcontracting** capabilities in Dynamics 365 Supply Chain Management
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Outsource production operations* business processes, use the following resources and steps to learn more:
+If you want to implement Dynamics 365 solutions to assist with your *Subcontract production* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan to produce](plan-to-produce-overview.md)  
+1. [Develop production strategies](plan-to-produce-define-production-strategies.md)
+1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)  
+1. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
 
-2. [Define production strategies](plan-to-produce-define-production-strategies.md)
-
-3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)  
-
-4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
-
-5. *Outsource production operations* (the article that you're currently reading)
-
-6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
-
-7. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
-
-Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md). 
+    1. *Start production*  
+    1. *Adjust production plan*  
+    1. *Consume materials*  
+    1. *Consume resources*  
+    1. *Report production output*  
+    1. *Subcontract production* (the article that you're currently reading)  
+    1. *Record production costs*
+1. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
+1. *Analyze production operations*  
 
 ## Related information
 
-You can use the following resources to learn more about the *Outsource production operations* process in Dynamics 365:
+You can use the following resources to learn more about the *Subcontract production* process in Dynamics 365:
 
 - [Manage subcontracting work in production](/dynamics365/supply-chain/production-control/manage-subcontract-work-production)  
 
 - [Configure activity-based subcontracting and production flow costing in Dynamics 365 Supply Chain Management (training)](/training/modules/configure-subcontracting-flow-dyn365-supply-chain-mgmt)  
 
+- [Plan to produce business process areas](plan-to-produce-areas.md)  
 <!-- ## Tags
 
 *Industries* Manufacturing (20-39), Wholesale Trade (50-51), Retail Trade (52-59)

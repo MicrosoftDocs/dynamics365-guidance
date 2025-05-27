@@ -4,7 +4,7 @@ description: Learn about the source to pay business process area and get introdu
 author: AdiVijayashankar
 ms.author: advijaya
 ms.topic: concept-article
-ms.date: 12/03/2024
+ms.date: 05/20/2025
 ---
 
 # Overview of the Source to pay business process areas
@@ -24,7 +24,7 @@ Learn more at [Define procurement and sourcing strategy overview](source-to-pay-
 ## Define procurement catalogs
 
 > [!IMPORTANT]
-> This business process area is deprecated. Instead, a new business process appears in the [Define procurement catalogs business process area](source-to-pay-define-procurement-catalogs-overview.md).
+> This business process area is deprecated. Instead, a new business process, [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md), appears in the [Develop a procurement and sourcing strategy](source-to-pay-define-procurement-sourcing-strategy-overview.md) area.
 <!-- The business process area that defines procurement catalogs, empowers organizations to configure internal and external catalogs for use in the source-to-pay process. These catalogs, including items and services, can be organized and added, facilitating their use during the procurement process. Furthermore, categories outlined within the catalogs can be used within purchase requisition and purchase order without necessitating item or service code.
 
 Once configured, these catalogs and their categories can be used to enforce access restrictions, ensuring that designated personnel have appropriate access to specific categories. Access control is administered through purchasing policies in Dynamics 365 Supply Chain Management.

@@ -1,20 +1,20 @@
 ---
-title: Overview of the Onboard new hires business process
-description: Discover how the Onboard new hires business process can help you optimize onboarding new employees and foster a productive work environment.
-ms.date: 11/19/2024
+title: Overview of the Onboard new employees business process
+description: Discover how the Onboard new employees business process can help you optimize onboarding new employees and foster a productive work environment.
+ms.date: 05/22/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---
-# Overview of the Onboard new hires business process within the Hire to retire end-to-end scenario
+# Overview of the Onboard new employees business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
-*Onboard new hires* is a business process for human resources that focuses on giving a positive and empowering start for new employees joining the organization. At the same time, *onboard new hires* helps the organization streamline their steps to successfully onboard an employee.
+*Onboard new employees* is a business process for human resources that focuses on giving a positive and empowering start for new employees joining the organization. At the same time, *Onboard new employees* helps the organization streamline their steps to successfully onboard an employee.
 
 In Dynamics 365 Human Resources, you manage the onboarding process primarily in the [Task management](/dynamics365/human-resources/hr-task-mgmt) workspace. Task management lets you create tasks that must be completed to hire (onboard), terminate (offboard), and transfer (transition) employees.
 
-*Onboard new hires* involves the following areas of focus:
+*Onboard new employees* involves the following areas of focus:
 
 - Assigning actionable tasks to the new employees so that they feel comfortable with the various onboarding activities. These activities might include completing the mandatory compliance trainings, updating profile information on employee self-service, getting to know the team, and getting to know the internal systems used for various purposes, such as timesheets and expenses.
 
@@ -40,7 +40,7 @@ The following list highlights some functional capabilities from task management 
 
 ## Stakeholders
 
-The following list describes the stakeholders in the *Onboard new hires* business process:
+The following list describes the stakeholders in the *Onboard new employees* business process:
 
 - **Human resources managers** play a crucial role in defining the organizational structure, planning, and managing the employee lifecycle. They define and manage hiring needs, employee benefits, compensation plans, and other human resource processes.
 
@@ -60,7 +60,7 @@ The following list describes the stakeholders in the *Onboard new hires* busines
 
 - **Managers** are the end users involved with the business process in the capacity of managing a team and working with the team's information including performance reviews, leave and absence, timesheets, approvals, and more.
 
-## Onboard new hires business process flow
+## Onboard new employees business process flow
 
 :::image type="content" source="media/hire-to-retire-onboard-new-hires-flow.svg" alt-text="Shows four boxes with lists of steps, one for each main step of hire a new employee, start the onboarding process, process the onboarding, and manage the onboarding process." lightbox="media/hire-to-retire-onboard-new-hires-flow.svg":::
 
@@ -80,9 +80,9 @@ The following list describes the stakeholders in the *Onboard new hires* busines
 
    The HR team members keep track of the onboarding process and follow up on the delayed tasks.
 
-## Implementing the onboard new hires business process
+## Implementing the Onboard new employees business process
 
-Implementing the *Onboard new hires* process involves configuring the Task management functionality in Dynamics 365 Human Resources. Task management uses a concept called checklists and lets you create tasks that must be completed for onboarding, offboarding, and transition-related processes.
+Implementing the *Onboard new employees* process involves configuring the Task management functionality in Dynamics 365 Human Resources. Task management uses a concept called checklists and lets you create tasks that must be completed for onboarding, offboarding, and transition-related processes.
 
 The following list shows the configuration and use of task management in Dynamics 365 Human Resources:
 
@@ -116,7 +116,7 @@ The following list shows the configuration and use of task management in Dynamic
 
   - Employee – assigns the task to the employee who is being hired, terminated, or transferred.
 
-The following table explains the configuration components that support the *Onboard new hires* business process.
+The following table explains the configuration components that support the *Onboard new employees* business process.
 
 | **Seq** | **Configuration component** | **Req?** | **Product** | **Menu path** |
 |--|--|--|--|--|
@@ -133,45 +133,32 @@ Find content about setting up your HR processes in Dynamics 365 Human Resources 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *onboard new hires* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Onboard new employees* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)  
-
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)  
-
-    - [Hire an employee](hire-to-retire-onboard-hire-employees.md)  
-
-    - *Onboard new hires* (the article you're currently reading)
-
-    - [Update employee records](hire-to-retire-update-employee-records.md)  
-
-    - Create and manage teams
-
-    - Communicate issue and changes with HR
-
-    - [Transfer employee](hire-to-retire-onboard-transfer-employees.md)  
-
-    - Generate employment verification letters
-
-    - Employee relocation
-
-    - [Terminate employee](hire-to-retire-onboard-terminate-employment.md)
-
-3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)  
-
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)  
-
-5. [Manage worker compensation, benefits, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)  
-
-6. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)  
-
-7. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)  
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
+    1. *Budget workforce*  
+    1. *List open positions*  
+    1. *Recruit new talent*  
+    1. [Hire for open positions](hire-to-retire-onboard-hire-employees.md)  
+    1. *Onboard new employees* (the article you're currently reading)  
+    1. *Onboard new contractors*
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)  
+1. [Offboard talent](hire-to-retire-onboard-terminate-employment.md)  
+1. *Analyze HR programs*
 
 ## Related patterns
 
-The following patterns are available to help guide your implementation of the *onboard new hires* process. (Links are added when the articles are ready.)
+The following patterns are available to help guide your implementation of the *Onboard new employees* process. (Links are added when the articles are ready.)
 
-- Assign tasks to new employees
+- *Use onboarding checklists in Dynamics 365 Human Resources to onboard employees*
+- *Manually onboard employees in Dynamics 365 Human Resources*
+- *Use Microsoft Planner to onboard new employees*
+
+<!-- - Assign tasks to new employees
 
 - Complete forms and essential paperwork
 
@@ -181,11 +168,11 @@ The following patterns are available to help guide your implementation of the *o
 
 - Process requests for accommodations
 
-- Welcome new employees
+- Welcome new employees -->
 
 ## Related information
 
-You can use the following resources to learn more about the *onboard new hires* and other processes in Dynamics 365 Human Resources:
+You can use the following resources to learn more about the *Onboard new employees* and other processes in Dynamics 365 Human Resources:
 
 - [Organize your workforce by using departments, jobs, and positions](/dynamics365/human-resources/hr-personnel-departments-jobs-positions)  
 - [Personnel management workspace](/dynamics365/human-resources/hr-personnel-personnel-management-workspace)  

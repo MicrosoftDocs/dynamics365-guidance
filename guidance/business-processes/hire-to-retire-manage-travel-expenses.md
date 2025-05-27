@@ -1,17 +1,20 @@
 ---
-title: Overview of the Manage travel and expenses overview business process area
-description: Learn about the business process area for managing travel and expenses in Dynamics 365, including outlines on types of stakeholders and benefits.
+title: Overview of the Manage employee travel overview business process
+description: Learn about the business process for managing business travels in Dynamics 365, including outlines on types of stakeholders and benefits.
 ms.topic: concept-article
 author: edupont04
 ms.author: riblack
-ms.date: 01/23/2024
+ms.date: 05/22/2025
 ---
 
-# Overview of the Manage travel and expenses business process area within the Hire to retire end-to-end scenario
+# Overview of the Manage employee travel business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes the business process area of travel and expense management (T&E). This process tracks the money that employees spend when they incur expenses for your business. Managing travel and expenses is crucial for any organization. It involves documenting and processing all business-related costs that employees incur so that you can report taxes, ensure budget compliance, track business intelligence, and manage the employee experience.
+This article describes the business process of travel and expense management (T&E). This process tracks the money that employees spend when they incur expenses for your business. Managing travel and expenses is crucial for any organization. It involves documenting and processing all business-related costs that employees incur so that you can report taxes, ensure budget compliance, track business intelligence, and manage the employee experience.
+
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this article represented a business process area, *Manage travel expenses*. In February 2025, the area was deprecated, and we're in process of updating the article to represent a business process under the [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md) business process area.
 
 As a part of this process, organizations often define expense policies and automate the reimbursement of travel expenses. They define if employees charge expenses to a corporate credit card, spend cash from a cash advance, or incur out-of-pocket expenses that the organization then reimburses. The process of travel and expense (T&E) management can be complex and involves accurately gathering and recording all travel-related expenses. When you apply the right technology, it can augment expense management by storing payment method information and importing credit card transactions. This way, it helps facilitating the use of travel requisitions to review and authorize expenses before they incur.
 
@@ -25,7 +28,7 @@ Implementing technology can help organizations overcome these challenges and str
 
 ## Stakeholders 
 
-Many people across the organization should contribute to the decision-making process and design of the *Manage travel and expenses* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Manage employee travel* area. The following list provides examples of such stakeholders:
 
 - **Management**: Roles such as finance managers, CEOs, COOs, and various line managers are integral in creating and adjusting policies for meetings, travels, and expenses that align with business needs. Their input is essential to optimize operational efficiency and manage relationships with employees, customers, vendors, and even preferred travel vendors. Frontline supervisors can be crucial in the review and approval process of travel and expenses.
 
@@ -37,9 +40,9 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Compliance officers**: Compliance officers are responsible for ensuring that the organization adheres to relevant regulations and standards. They use the system to monitor and report on compliance, track regulatory changes, and make necessary adjustments to policies and procedures to maintain legal and ethical compliance.
 
-## Manage travel and expenses process flow 
+## Manage employee travel process flow 
 
-The following diagram illustrates the *Manage travel and expenses* business process area.
+The following diagram illustrates the *Manage employee travel* business process area.
 
 :::image type="content" source="media/hire-to-retire-manage-travel-expenses-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/hire-to-retire-manage-travel-expenses-flow.svg":::
 
@@ -49,7 +52,7 @@ The following diagram illustrates the *Manage travel and expenses* business proc
 
 3. *Onboard and manage the employee lifecycle*
 
-    1. *Manage travel and expenses*
+    1. *Manage employee travel*
 
         1. *Establish expense reporting policies*  
 
@@ -75,9 +78,9 @@ The following diagram illustrates the *Manage travel and expenses* business proc
 
 5. End
 
-## Manage travel and expenses benefits
+## Manage employee travel benefits
 
-There are many key benefits that an organization can realize by effectively and efficiently managing business processes for travels and other expenses. Implementing technology to support the *Manage travel and expenses* business process area can help organizations realize these benefits. The following section outlines the key benefits that an organization might monitor and measure for managing travel and expenses. 
+There are many key benefits that an organization can realize by effectively and efficiently managing business processes for travels and other expenses. Implementing technology to support the *Manage employee travel* business process area can help organizations realize these benefits. The following section outlines the key benefits that an organization might monitor and measure for managing travel and expenses. 
 
 ### Enhance expense control and efficiency
 
@@ -101,21 +104,29 @@ T&E management can help drive organizational health and business stability by en
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Manage travel and expenses* business processes, you can use the following resources and steps to learn more. (Links are added, when articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Manage employee travel* business process, you can use the following resources and steps to learn more. (Links are added, when articles are ready.)
 
-1. [*Plan and recruit your workforce*](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)  
 
-1. [*Plan and recruit your workforce*](/dynamics365/guidance/business-processes/hire-to-retire-plan-recruit-workforce-overview)
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
-3. [*Manage occupational health and safety*](hire-to-retire-manage-occupational-health-safety.md)
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-6. *Manage travel and expenses* (the article that you're currently reading)
-7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
+    1. *Develop leave and absence policies*  
+    1. *Record employee absences*  
+    1. *Manage shifts*  
+    1. *Request time off*  
+    1. *Record employee time*  
+    1. *Request travel*  
+    1. *Manage employee travel* (the article you're currently reading)  
+
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)
+1. *Offboard talent*  
+1. *Analyze HR programs*
 
 ## Related information
 
-You can use the following resources to learn more about the *Manage travel and expenses* process in Dynamics 365.
+You can use the following resources to learn more about the *Manage employee travel* process in Dynamics 365.
 
 - [Expense management overview](/dynamics365/project-operations/prod-exp/expense-management)
 - [Get started with Expense management in Dynamics 365 Project Operations - Training](/training/modules/get-started-expense-management/)

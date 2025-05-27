@@ -7,7 +7,7 @@ ms.author: raprofit
 ms.date: 01/26/2024
 ---
 
-# Overview the Introduce new services business process area within the Concept to market end-to-end scenario
+# Overview of the Introduce new services business process area within the Concept to market end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
@@ -156,14 +156,22 @@ When you use Dynamics 365 Customer Service, you can drive iterative improvement 
 If you would like to implement Dynamics 365 solutions to assist with your introduction of new service business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define service offering and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
+1. *Introduce new services* (the article that you're currently reading)  
 
-2. *Introduce new services* (the article that you're currently reading)  
+    1. *Generate service ideas and concepts*  
+    1. *Asses feasibility and viability of new services*  
+    1. *Define service requirements*  
+    1. *Ensure regulatory compliance of new services*  
+    1. *Prototype and test services for validation*  
+    1. *Prepare for launch and distribution of new services*  
+    1. *Plan implementation of new services*  
+    1. *Secure final service design approval*  
+    1. *Release services to market*  
+    1. *Maintain service data*
 
-3. Manage service pricing
-
-4. [Define service costing](concept-to-market-define-service-costing-overview.md)
-
-5. Manage service lifecycle
+1. [Manage service pricing](concept-to-market-manage-service-pricing-overview.md)  
+1. [Manage service costing](concept-to-market-define-service-costing-overview.md)  
+1. [Manage service lifecycle](concept-to-market-manage-service-lifecycle-overview.md)  
 
 ## Related information
 

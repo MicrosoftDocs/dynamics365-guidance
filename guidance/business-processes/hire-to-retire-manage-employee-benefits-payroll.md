@@ -1,14 +1,14 @@
 ---
-title: Overview of the Manage worker compensation, benefits, and payroll business process area
-description: Learn about the manage worker compensation, benefits, and payroll business process, including learn about the process' stakeholders and benefits.
+title: Overview of the Manage compensation and benefits business process area
+description: Learn about the Manage compensation and benefits business process, including learn about the process' stakeholders and benefits.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 03/19/2024
+ms.date: 05/27/2025
 ai-usage: ai-assisted
 ---
 
-# Overview of the Manage worker compensation, benefits, and payroll business process area within the Hire to retire end-to-end scenario
+# Overview of the Manage compensation and benefits business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
@@ -16,7 +16,7 @@ This article describes the business process area for *managing worker compensati
 
 In today's competitive business landscape, attracting, retaining, and developing a top-performing workforce is essential for organizational success. Effective management of worker compensation, benefits, and payroll is a critical component of this strategy. It ensures that employees are compensated fairly and receive the benefits they deserve while also streamlining administrative processes and reducing costs. Dynamics 365 provides a comprehensive set of tools to streamline and enhance various aspects of worker compensation, benefits, and payroll management, from creating customized compensation plans including employee's performance rating and managing benefit enrollments to processing payroll accurately and efficiently.
 
-*Managing worker compensation, benefits, and payroll* processes serves two crucial purposes in any organization. Firstly, they ensure the accurate and timely payment of employee wages, benefits, and compensation, maintaining employee satisfaction and reducing financial risks. Secondly, they help organizations comply with labor laws and regulations, minimize legal liabilities, and promote a transparent and compliant workplace culture. Dynamics 365 implementations streamline and enhance these processes, providing a centralized platform for managing employee compensation, benefits, and payroll data securely and efficiently.
+*Managing compensation and benefits* processes serves two crucial purposes in any organization. Firstly, they ensure the accurate and timely payment of employee wages, benefits, and compensation, maintaining employee satisfaction and reducing financial risks. Secondly, they help organizations comply with labor laws and regulations, minimize legal liabilities, and promote a transparent and compliant workplace culture. Dynamics 365 implementations streamline and enhance these processes, providing a centralized platform for managing employee compensation, benefits, and payroll data securely and efficiently.
 
 ## Stakeholders
 
@@ -36,11 +36,11 @@ Effective management of worker compensation, benefits, and payroll requires the 
 
 Each of these stakeholders contributes with specialized expertise to the effective management of worker compensation, benefits, and payroll. Contributions between stakeholders ensure a compliant, efficient, and cost-effective system, fostering a positive and productive employee experience while protecting the organization from legal risks and enabling it to attract and retain top talent.
 
-## Manage worker compensation, benefits, and payroll process flow
+## Manage compensation and benefits process flow
 
-The following diagram illustrates the *Manage worker compensation, benefits, and payroll* business processes area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *Manage compensation and benefits* business processes area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\hire-to-retire-manage-employee-benefits-payroll-1.svg" alt-text="Diagram of the Manage worker compensation, benefits, and payroll business process area, illustrating how the business process areas connect." lightbox="media\hire-to-retire-manage-employee-benefits-payroll-1.svg":::
+:::image type="content" source="media\hire-to-retire-manage-employee-benefits-payroll-1.svg" alt-text="Diagram of the Manage compensation and benefits business process area, illustrating how the business process areas connect." lightbox="media\hire-to-retire-manage-employee-benefits-payroll-1.svg":::
 
 1. Start
 
@@ -52,7 +52,7 @@ The following diagram illustrates the *Manage worker compensation, benefits, and
 
 5. *Manage worker travel and expenses*
 
-6. *Manage worker compensation, benefits, and payroll*
+6. *Manage compensation and benefits*
 
     1. *Define compensation policies and strategy*
 
@@ -108,23 +108,25 @@ By implementing Dynamics 365, organizations can reap the benefits of streamlined
 
 If you would like to implement Dynamics 365 solutions to assist with managing worker compensation, benefits, and payroll, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. *Manage compensation and benefits* (the article you're currently reading).
 
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
-
-3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-
-5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-
-6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
-
-7. *Manage employee benefits, compensation, and payroll* (the article you're currently reading).
+    1. *Define compensation policies*
+    1. *Define benefit offerings*
+    1. *Manage benefits enrollment*
+    1. *Pay employees*
+    1. *Record life events*
+    1. *Manage compensation changes*
+1. *Offboard talent*  
+1. *Analyze HR programs*
 
 ## Related information
 
-You can use the following resources to learn more about manage worker compensation, benefits, and payroll processes within Dynamics 365 Human Resources.
+You can use the following resources to learn more about Manage compensation and benefits processes within Dynamics 365 Human Resources.
 
 - [Compensation plans - Human Resources](/dynamics365/human-resources/hr-compensation-overview)
 

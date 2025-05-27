@@ -1,7 +1,7 @@
 ---
 title: Overview of the Plan to produce business process areas
 description: Get an overview for each of the business process areas in the Plan to produce end-to-end business process flow in Dynamics 365 solutions. Learn how you can define, plan, run, control, and track production operations with Dynamics 365.
-ms.date: 11/25/2024
+ms.date: 05/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
@@ -14,7 +14,14 @@ ms.reviewer: edupont
 
 The plan to produce process is broken down into business process areas for defining production strategies, planning production operations, executing production operations, outsourcing production operations, controlling production quality, and tracking production costs. The following sections further describe the business process areas.
 
-## Define production strategies
+70.10 Develop production strategies                    Published
+70.20 Plan production operations                    Published
+70.30 Run production operations                    Published
+70.60 Control production quality                    Published
+70.70 Analyze production operations                    Published
+
+
+## Develop production strategies
 
 Definition of production strategies encompasses foundational steps that enable an organization to carry out the rest of the plan to produce process. These steps might include choosing a mode of production, identifying the production resources, defining inputs and outputs of the production process, and establishing standard production operating procedures. This information feeds the setup for products such as bills of materials (BOMs) and routes. It also feeds production configurations such as capacity, lead times, and scheduling logic.  
 
@@ -32,23 +39,15 @@ Once a production schedule has been planned and materials are available, the pro
 
 Learn more at [Run production operations overview](plan-to-produce-execute-production-operations-overview.md).  
 
-## Outsource production orders
-
-In some organizations, certain steps of the production process are completed by external vendors, which is referred to as outsourcing, subcontracting, or tolling. This business process area includes the movement of work in process or raw materials to the vendor, receiving the product from the vendor, and updating the production documentation to reflect the added service and include it in the total cost of production.  
-
-Learn more at [Outsource production operations overview](plan-to-produce-outsource-production-operations-overview.md).  
-
 ## Control production quality
 
 Quality of produced items is a key part of customer satisfaction and brand loyalty for any manufacturer. This business process area includes defining sampling plans, quality tests and acceptance criteria, as well as the execution of the quality process throughout the steps of production. Often quality control measures are implemented on input materials, throughout production operations, with a final quality check on the finished good.  
 
 Learn more at [Control production quality overview](plan-to-produce-control-production-quality-overview.md).  
 
-## Track production costs
+## Analyze production operations
 
-Tracking accurate production costs helps businesses clearly understand the true costs of production to help set better sales prices and estimate revenue. It also enables organizations to identify sources of variance within the production process to drive continuous improvement activities. This business process area includes defining the components of calculation production costs such as labor, materials, and overhead, estimating the cost of production, recording actual costs throughout the process, and analyzing cost metrics.  
-
-Learn more at [Track production costs overview](plan-to-produce-track-production-costs-overview.md).  
+(Content to come)
 
 ## Next steps
 

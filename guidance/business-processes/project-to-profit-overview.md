@@ -13,8 +13,8 @@ ms.author: lalithac
 
 This article describes the project to profit end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
-> [!NOTE]
-> The changes from the August and November 2024 versions of the business process catalog are slowly making their way to the articles here in the guidance hub. We hope to update all diagrams and articles early in 2025.
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 ## Project to profit process relationship
 

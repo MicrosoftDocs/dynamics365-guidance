@@ -13,8 +13,8 @@ ms.date: 12/03/2024
 
 This article describes the *Source to pay* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
-> [!NOTE]
-> We're in process of updating the article based on the November 2024 version of the business process catalog.
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 ## Source to pay process relationship
 

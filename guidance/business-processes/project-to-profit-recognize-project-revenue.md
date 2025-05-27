@@ -106,12 +106,19 @@ In Dynamics 365 Finance, projects can be deployed as stocked deployments. This t
 
 To implement Dynamics 365 solutions to assist with your *recognize project revenue* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Correct project transactions*  
-1. *Convert projects to fixed assets*  
-1. *Invoice project milestones*
-1. *Invoice project transactions*  
-1. *Recognize project revenue* (the article you're currently reading)  
-<!-- 
+1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)  
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+
+    1. *Correct project transactions*
+    1. *Convert projects to fixed assets*
+    1. *Invoice project milestones*
+    1. *Invoice project transactions*
+    1. *Recognize project revenue* (the article that you're currently reading)
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+
 ## Related patterns
 
 The following patterns are available to help guide your implementation of the recognize project revenue business process.

@@ -1,18 +1,21 @@
 ﻿---
-title: Create and send invoices to customers with the invoice sales orders process area
+title: Manage accounts receivable
 description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing sales orders.
-ms.date: 01/23/2024
+ms.date: 05/23/2025
 ms.topic: overview
 author: edupont04
 ms.author: npaldhikar
 ms.custom: bap-template
 ---
 
-# Create and send invoices to customers with the invoice sales orders process area
+# Manage accounts receivable business process area
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Finance Insights, Dynamics 365 Customer Insights***
 
-The invoice customers process area covers creating and sending an invoice to a customer based on a sales order or a free text invoice. Invoicing is an essential part of the order to cash process. It involves creating and sending a bill to customers for the products or services they ordered and posting it to the general ledger. The invoice process starts when a sale takes place and continues through delivery to the customer and receiving payment.
+The *Manage accounts receivable* process area covers creating and sending an invoice to a customer based on a sales order or a free text invoice. Invoicing is an essential part of the order to cash process. It involves creating and sending a bill to customers for the products or services they ordered and posting it to the general ledger. The invoice process starts when a sale takes place and continues through delivery to the customer and receiving payment.
+
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this article represented a business process area, *Invoice customers*. In February 2025, it was renamed to the *Manage accounts receivable*, and we're in process of updating the content to reflect this change.
 
 Dynamics 365 supports the following types of customer invoices:
 
@@ -84,7 +87,7 @@ The invoice customers business process area flow diagram illustrates the followi
 
 1. End
 
-## Invoice sales orders benefits
+## Benefits
 
 Organizations can recognize many benefits from the invoice customers process in Dynamics 365.
 
@@ -98,17 +101,26 @@ Organizations can recognize many benefits from the invoice customers process in 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. Define the goals and objectives of [implementing an order to cash technology solution](../implementation-guide/implementation-strategy.md).
+1. *Develop sales policies*
+1. *Manage sales orders*
+1. *Manage accounts receivable* (the article that you're currently reading)  
 
-2. Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
-
-3. [Request a demo](https://www.microsoft.com/dynamics-365/free-trial) or get a free trial of Dynamics 365 solutions for the order to cash process.
-
-4. Learn more about the [Microsoft Power Platform](https://powerplatform.microsoft.com/).
-
-5. Get an [overview of the order to cash process](order-to-cash-overview.md).
+    1. *Issue sales invoices*  
+    1. *Issue customer credits*  
+    1. *Bill subscriptions*  
+    1. *Recognize revenue*  
+    1. *Process customer payments*  
+    1. *Process customer prepayments*  
+    1. *Process customer refunds*  
+    1. *Settle customer transactions*  
+    1. *Write off bad debt*  
+    1. *Monitor trade allowances*  
+    1. *Calculate sales commissions*  
+    1. *Manage bills of exchange*
+1. [Manage credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)  
+1. *Analyze sales performance*
 
 ## Related information
 
@@ -124,6 +136,12 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 - [Process interest](/dynamics365/finance/accounts-receivable/tasks/process-interest)
 
+- [Implementing an order to cash technology solution](../implementation-guide/implementation-strategy.md)
+
+- [Business process scope](../implementation-guide/process-focused-solution.md)  
+
+- [Overview of the order to cash process](order-to-cash-overview.md).
+
 - Find definitions of terminology in the [Glossary of terms in Dynamics 365 business processes](glossary.md), including the following terms:
 
   - [Invoice](glossary.md#invoice)
@@ -132,6 +150,8 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
   - [Pro forma invoice](glossary.md#pro-forma-invoice)
   - [Credit note](glossary.md#credit-note)
   - [Invoice payment terms](glossary.md#invoice-payment-terms)
+- [Request a demo](https://www.microsoft.com/dynamics-365/free-trial)  
+- [Microsoft Power Platform](https://powerplatform.microsoft.com/).
 
 <!-- ## Tags
 

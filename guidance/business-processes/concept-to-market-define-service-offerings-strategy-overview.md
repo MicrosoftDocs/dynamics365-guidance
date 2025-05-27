@@ -58,15 +58,16 @@ There are many key benefits that can be used to monitor and measure the success 
 
 If you want to implement Dynamics 365 solutions to assist with your *define service offerings and strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Define service offerings and strategy* (the article that you're currently reading)
+1. *Define service offerings and strategy* (the article that you're currently reading) 
 
-2. [Introduce new services](concept-to-market-introduce-new-services.md)
-
-3. [Define service costing](concept-to-market-define-service-costing-overview.md)
-
-4. [Manage service pricing](concept-to-market-manage-service-pricing-overview.md)
-
-5. [Manage service lifecycle](concept-to-market-manage-service-lifecycle-overview.md)
+    1. *Define service lines*  
+    1. *Define service policies*  
+    1. *Define service types*  
+    1. *Organize services*  
+1. [Introduce new services](concept-to-market-introduce-new-services.md)
+1. [Manage service pricing](concept-to-market-manage-service-pricing-overview.md)
+1. [Define service costing](concept-to-market-define-service-costing-overview.md)
+1. [Manage service lifecycle](concept-to-market-manage-service-lifecycle-overview.md)
 
 ## Related information
 

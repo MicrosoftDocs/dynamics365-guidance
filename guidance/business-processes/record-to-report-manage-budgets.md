@@ -83,19 +83,22 @@ KPIs include the frequency of real-time budget updates and the percentage increa
 
 If you would like to implement Dynamics 365 solutions to assist with your *Manage budget* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define ledger structure and organizational accounting policies](/dynamics365/guidance/business-processes/report-to-record-define-financial-structure-organizational-accounting-policies)
+1. [Define accounting policies](record-to-report-define-accounting-policies.md)  
+1. *Manage cash*
+1. *Manage budgets* (the article that you're currently reading)  
 
-2. [Comply with tax, audit, and regulatory requirements](/dynamics365/guidance/business-processes/record-to-report-comply-tax-audit-regulatory-requirements)
+    1. *Plan budgets*  
+    1. *Define preliminary budgets*  
+    1. *Reserve budgets*  
+    1. *Allocate budgets*  
+    1. *Maintain budgets*  
+    1. *Approve budgets*  
+    1. *Transfer budgets*  
+    1. *Appropriate budgets*
 
-3. *Manage budgets* (the article you're currently reading)
-
-4. [Manage fund accounting](record-to-report-manage-fund-accounting.md)
-
-5. [Record financial transactions](record-to-report-record-financial-transactions.md)
-
-6. [Close financial periods](record-to-report-close-financial-periods.md)
-
-7. *Report and analyze financials and cash flow*
+1. [Record financial transactions](record-to-report-record-financial-transactions.md)  
+1. [Close financial periods](record-to-report-close-financial-periods.md)  
+1. *Analyze financial performance*
 
 ## Related information
 

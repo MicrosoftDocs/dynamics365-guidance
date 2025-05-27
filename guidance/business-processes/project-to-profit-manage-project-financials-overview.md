@@ -134,9 +134,9 @@ For organizations that use Dynamics 365 Project Operations and Dynamics 365 Fina
 
 If you want to implement Dynamics 365 solutions to assist with your *manage project financials* business processes, you can use the following resources and steps to learn more.
 
-<!-- 1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md) -->
+1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)  
 1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
-1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)   
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
 1. [Manage project delivery](project-to-profit-deliver-project-work.md)
 1. *Manage project financials* (the article that you're currently reading)
 
@@ -145,7 +145,6 @@ If you want to implement Dynamics 365 solutions to assist with your *manage proj
     1. *Invoice project milestones*
     1. *Invoice project transactions*
     1. [Recognize project revenue](project-to-profit-recognize-project-revenue.md)  
-
 1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related information

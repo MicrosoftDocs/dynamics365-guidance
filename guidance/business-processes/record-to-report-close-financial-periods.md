@@ -4,7 +4,7 @@ description: Learn about the processes around closing financial periods, includi
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 04/08/2024
+ms.date: 05/26/2025
 ---
 
 # Overview of the Close financial periods business process area within the Record to report end-to-end scenario
@@ -113,19 +113,20 @@ KPIs for this benefit include the reduction in the time taken to close a financi
 
 If you would like to implement Dynamics 365 solutions to assist with your *closing of financial period* business processes, you can use the following resources and steps to learn more.
 
-1. [Define ledger structure and organizational accounting policies](report-to-record-define-financial-structure-organizational-accounting-policies.md)
+1. [Define accounting policies](record-to-report-define-accounting-policies.md)  
+1. *Manage cash*
+1. [Manage budgets](record-to-report-manage-budgets.md)  
+1. [Record financial transactions](record-to-report-record-financial-transactions.md)  
+1. *Close financial periods* (the article that you're currently reading)  
 
-2. [Comply with tax, audit, and regulatory requirements](record-to-report-comply-tax-audit-regulatory-requirements.md)
-
-3. [Manage budgets](record-to-report-manage-budgets.md)
-
-4. [Manage fund accounting](record-to-report-manage-fund-accounting.md)
-
-5. [Record financial transactions](record-to-report-record-financial-transactions.md)
-
-6. *Close financial periods* (the article that you're currently reading)
-
-7. *Report and analyze financials and cash flow*
+    1. *Finalize and post transactions*  
+    1. *Reconcile ledger and subledger*  
+    1. *Revalue currency*  
+    1. *Perform ledger settlements*  
+    1. *Consolidate and eliminate financials*  
+    1. *Prepare financial statements*  
+    1. *Close periods*
+1. *Analyze financial performance*
 
 ## Related information
 

@@ -1,18 +1,18 @@
 ---
-title: Overview of the Manage employee performance and growth business process area
-description: Learn how the manage employee performance and growth business process helps with learning, skills tracking and development, goal setting, and performance reviews.
+title: Overview of the Manage performance and growth business process area
+description: Learn how the manage performance and growth business process helps with learning, skills tracking and development, goal setting, and performance reviews.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 03/20/2024
+ms.date: 05/22/2025
 ai-usage: ai-assisted
 ---
 
-# Overview of the Manage employee performance and growth business process area within the Hire to retire end-to-end scenario
+# Overview of the Manage performance and growth business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article explains how the business processes in the *manage employee performance and growth* area help with employee learning, skills tracking and development, goal setting, and performance reviews.
+This article explains how the business processes in the *manage performance and growth* area help with employee learning, skills tracking and development, goal setting, and performance reviews.
 
 Managing employee performance and growth is essential for any organization that wants to foster a motivated and skilled workforce. In today's dynamic business landscape, you can use Dynamics 365 to streamline this process.
 
@@ -38,16 +38,16 @@ Many people across the organization should contribute to the decision-making pro
 - **Skill gap analysis stakeholders** include skills assessment coordinators, data analysts, and HR business partners. They actively contribute to testing and refining analytical tools during the design and implementation phases to ensure accurate skill gap analysis.
 - **Managers and supervisors stakeholders** include team leads and department heads. They play a pivotal role in executing performance reviews, helping goal-setting, and providing ongoing feedback to employees. They actively participate in the performance management process, ensuring that individual goals align with broader organizational objectives and contribute to employee growth. Additionally, they collaborate with HR leaders to document and review employee performance, fostering a culture of continuous improvement within their teams.
 
-## Manage employee performance and growth process flow
+## Manage performance and growth process flow
 
-The following diagram illustrates the *manage employee performance and growth* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *manage performance and growth* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\hire-to-retire-manage-employee-performance-growth-1.svg" alt-text="Diagram of the map of the Manage employee performance and growth business process area, connecting various business processes." lightbox="media\hire-to-retire-manage-employee-performance-growth-1.svg":::
+:::image type="content" source="media\hire-to-retire-manage-employee-performance-growth-1.svg" alt-text="Diagram of the map of the Manage performance and growth business process area, connecting various business processes." lightbox="media\hire-to-retire-manage-employee-performance-growth-1.svg":::
 
 1. Start
 2. *Hire to retire*
 3. *Onboard and manage the employee lifecycle*
-4. *Manage employee performance and growth*
+4. *Manage performance and growth*
     1. *Define the performance and review process*
         1. *Define goals*
         2. *Review and document employee performance*
@@ -78,7 +78,7 @@ The following diagram illustrates the *manage employee performance and growth* b
 
 ## Manage employee performance benefits
 
-There are many key benefits that you can use to monitor and measure the success of using technology to support the *manage employee performance and growth* business process area.
+There are many key benefits that you can use to monitor and measure the success of using technology to support the *manage performance and growth* business process area.
 
 ### Improved employee performance visibility
 
@@ -110,13 +110,26 @@ By gaining insights into employee learning patterns, skill gaps, and performance
 
 ## Next steps
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
-3. *Manage employee performance and growth* (the article you're currently reading)
-4. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-5. *Administer employee and manager requests*
-6. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
-7. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. *Manage performance and growth* (the article you're currently reading)  
+
+    1. *Promote employees*
+    1. *Define employee career paths*  
+    1. *Perform a skill gap analysis*  
+    1. *Track skills and competencies*  
+    1. *Set employee growth goals*  
+    1. *Asses worker performance*  
+    1. *Define learning paths*  
+    1. *Train employees*  
+    1. [Transfer workers](hire-to-retire-onboard-transfer-employees.md)    
+    1. *Recognize employees*
+
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)
+1. *Offboard talent*  
+1. *Analyze HR programs*
 
 ### See also
 

@@ -3,7 +3,7 @@ title: Issue and settle supplier payments
 description: Learn about the issue and settle supplier payments business process area, including the process flow.
 author: music727
 ms.author: mibeinar
-ms.date: 12/10/2024
+ms.date: 05/21/2025
 ms.topic: overview
 ---
 
@@ -144,18 +144,21 @@ Learn more at [Settlement overview](/dynamics365/finance/cash-bank-management/se
 
 If you want to implement Dynamics 365 solutions to assist with your *issue and settle vendor payments* business processes, use the following resources and steps to learn more. (Links are added when articles are ready.)
 
-1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)  
-2. *Develop sourcing strategies*
-3. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
-4. *Define policies and procedures for procurement*
-5. *Plan supply*
-6. [Procure materials and services](source-to-pay-procure-materials-services-overview.md)  
-7. [Process supplier invoices](source-to-pay-manage-accounts-payable-overview.md)  
-8. *Issue and settle supplier payments* (the article that you're currently reading)
-9. *Manage vendor debits and chargebacks*
-10. *Create and process promissory notes*
-11. [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
-12. *Analyze vendor performance*
+1. [*Develop procurement and sourcing strategy*](source-to-pay-define-procurement-sourcing-strategy-overview.md)
+1. [*Manage supplier relationships*](source-to-pay-manage-vendor-relationships-overview.md)
+1. *Source and contract goods and services*
+1. [*Procure goods and services*](source-to-pay-procure-materials-services-overview.md)
+1. [*Manage accounts payable*](source-to-pay-manage-accounts-payable-overview.md)  
+
+    1. *Process supplier invoices*  
+    1. *Dispute invoices*  
+    1. *Receive supplier credits*  
+    1. *Issue and settle supplier payments* (The article you're currently reading)  
+    1. *Manage promissory notes*  
+    1. *Cancel supplier payments*  
+    1. *Correct supplier payments*  
+    1. [*Process supplier rebates and incentives*](source-to-pay-process-vendor-rebates-incentives-overview.md)  
+1. *Analyze procurement and sourcing*
 
 ## Related information
 

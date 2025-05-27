@@ -13,6 +13,9 @@ ms.author: raprofit
 
 This article describes the *concept to market* end-to-end business process flow and its relationship to other business processes that can be used in Dynamics 365. This end-to-end process focuses on the service offering lifecycle. Learn more about the product design lifecycle at [Design to retire end-to-end overview](design-to-retire-overview.md).
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Concept to market process relationship 
 
 The following diagram shows the relationship of other processes and products/features for the *concept to market* process.

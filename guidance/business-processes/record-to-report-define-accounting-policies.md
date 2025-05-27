@@ -1,19 +1,22 @@
 ---
-title: Overview of the define financial structure business process
-description: Learn how you can use Dynamics 365 products to support the organization's business processes to define the financial structure policies.
-ms.date: 02/07/2025
+title: Overview of the define accounting policies business process area
+description: Learn how you can use Dynamics 365 products to support the organization's business processes to define the policies for financial structure and compliance.
+ms.date: 05/26/2025
 ms.topic: concept-article
 author: rachelprofitt
 ms.author: raprofit
 ---
 
-# Overview of the define financial structure and organizational accounting policies business process
+# Overview of the define accounting policies business process area
 
 ***Applies to: Dynamics 365 Finance***
 
 This article describes how to define the ledger, chart of accounts, currency, banking, asset, and related policies in Dynamics 365 Finance. The content will help you establish policies that are aligned with and support the business now and in the future.
 
 In a Dynamics 365 implementation, definition of the financial structure and definition of organizational policies are crucial steps that significantly affect the success of the implementation and the overall efficiency of the business processes. In Dynamics 365 Finance, the chart of accounts, financial dimensions, and many General ledger parameters and configurations are used in downstream processes. Because Dynamics 365 Finance is a double-entry system that integrates directly with Dynamics 365 Commerce, Project Operations, and Supply Chain Management, all entries that are posted to a subledger are also posted to the general ledger.
+
+> [!IMPORTANT]
+> This business process area was renamed in an earlier version of the business process catalog and now includes processes that were part of a now deprecated area. We're working on getting the content updated based on the May 2025 version of the business process catalog.
 
 By defining the financial structure early and clearly in your implementation, you help ensure accurate financial reporting, compliance, data consistency, and cost allocations. The financial structure in a Dynamics 365 Finance implementation includes the chart of accounts, cost centers, profit centers, financial reporting structures, tax codes, and more.
 
@@ -112,19 +115,24 @@ Dynamics 365 automates and standardizes processes that are related to currency a
 
 If you want to implement Dynamics 365 solutions to assist with your *define financial structure and organizational accounting policies* business process area, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Define financial structure and organizational accounting policies* (the article that you're currently reading)
+1. *Define accounting policies* (the article that you're currently reading)  
 
-2. [Comply with tax audit and regulatory requirements](record-to-report-comply-tax-audit-regulatory-requirements.md)
+    1. *Develop company structure*  
+    1. *Develop financial period strategy*  
+    1. *Define posting policies*  
+    1. *Develop chart of accounts strategy*  
+    1. *Develop budgeting strategy*  
+    1. *Develop currency policies*  
+    1. *Define banking policies*  
+    1. *Define costing policies*  
+    1. *Develop asset policies*  
+    1. *Develop tax strategy*
 
-3. *Manage fund accounting*
-
-4. *Manage budgets*
-
-5. *Record financial transactions*
-
-6. *Close financial periods*
-
-7. *Report and analyze financials and cash flow*
+1. *Manage cash*
+1. [Manage budgets](record-to-report-manage-budgets.md)  
+1. [Record financial transactions](record-to-report-record-financial-transactions.md)  
+1. [Close financial periods](record-to-report-close-financial-periods.md)  
+1. *Analyze financial performance*
 
 ## Related information
 
@@ -145,27 +153,27 @@ You can use the following resources to learn more about the *define financial st
 - [Set up or change the chart of accounts - Business Central](/dynamics365/business-central/finance-setup-chart-accounts)
 - Find definitions of terminology that is used in content for tax, audit, and regulatory processes in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Account structure](glossary.md#account-structure)
-    - [Advanced rule](glossary.md#advanced-rule)
-    - [Audit trail](glossary.md#audit-trail)
-    - [Chart of accounts](glossary.md#chart-of-accounts)
-    - [Company](glossary.md#company)
-    - [Currency](glossary.md#currency)
-    - [Currency conversion](glossary.md#currency-conversion)
-    - [Currency policies](glossary.md#currency-policies)
-    - [Currency revaluation](glossary.md#currency-revaluation)
-    - [Date intervals](glossary.md#date-intervals)
-    - [Dual currency](glossary.md#dual-currency)
-    - [Exchange rate](glossary.md#exchange-rate)
-    - [Exchange rate types](glossary.md#exchange-rate-types)
-    - [Financial dimensions](glossary.md#financial-dimensions)
-    - [Financial periods](glossary.md#financial-periods)
-    - [Financial tags](glossary.md#financial-tags)
-    - [General ledger](glossary.md#general-ledger)
-    - [Ledger](glossary.md#ledger)
-    - [Legal entity](glossary.md#legal-entity)
-    - [Ledger](glossary.md#ledger)
-    - [Subledger](glossary.md#subledger)
+  - [Account structure](glossary.md#account-structure)
+  - [Advanced rule](glossary.md#advanced-rule)
+  - [Audit trail](glossary.md#audit-trail)
+  - [Chart of accounts](glossary.md#chart-of-accounts)
+  - [Company](glossary.md#company)
+  - [Currency](glossary.md#currency)
+  - [Currency conversion](glossary.md#currency-conversion)
+  - [Currency policies](glossary.md#currency-policies)
+  - [Currency revaluation](glossary.md#currency-revaluation)
+  - [Date intervals](glossary.md#date-intervals)
+  - [Dual currency](glossary.md#dual-currency)
+  - [Exchange rate](glossary.md#exchange-rate)
+  - [Exchange rate types](glossary.md#exchange-rate-types)
+  - [Financial dimensions](glossary.md#financial-dimensions)
+  - [Financial periods](glossary.md#financial-periods)
+  - [Financial tags](glossary.md#financial-tags)
+  - [General ledger](glossary.md#general-ledger)
+  - [Ledger](glossary.md#ledger)
+  - [Legal entity](glossary.md#legal-entity)
+  - [Ledger](glossary.md#ledger)
+  - [Subledger](glossary.md#subledger)
 
 <!-- ## Tags
 

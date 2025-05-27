@@ -9,9 +9,11 @@ ms.author: raprofit
 
 # Overview of the Define product costing business process area within the Design to retire end-to-end scenario
 
-***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+<!-- ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center*** -->
 
-This article describes the business process for defining the cost of products. It also explains how that process relates to other business processes in Dynamics 365.
+This article represented a deprecated business process area. Proceed to [Manage active products business process area](design-to-retire-manage-product-lifecycle-overview.md).
+
+<!-- This article describes the business process for defining the cost of products. It also explains how that process relates to other business processes in Dynamics 365.
 
 The definition of product costs is essential for any organization that wants to understand and effectively manage its finances. The goal is to know the amount of money that goes into producing or purchasing a particular item, and the cost of delivering that item to the customer. This information is crucial for setting prices, making informed decisions about resource allocation, and evaluating the financial performance of the business.
 
@@ -157,7 +159,7 @@ You can use the following resources to learn more about the product costing proc
 
 *Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center -->
 
-## Contributors
+<!-- ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
@@ -167,4 +169,4 @@ Principal author:
 
 Other contributors:
 
-- [Michael Herold](https://linkedin.com/in/maherold) \| Microsoft Principal Consultant
+- [Michael Herold](https://linkedin.com/in/maherold) \| Microsoft Principal Consultant --> -->

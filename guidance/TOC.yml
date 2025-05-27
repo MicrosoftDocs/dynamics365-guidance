@@ -687,18 +687,16 @@ items:
                 href: business-processes/acquire-to-dispose-overview.md
               - name: Business process areas
                 href: business-processes/acquire-to-dispose-areas.md
-              - name: Plan and budget assets
-                href: business-processes/acquire-to-dispose-plan-budget-assets-overview.md
               - name: Acquire assets
                 href: business-processes/acquire-to-dispose-acquire-assets-overview.md
-              - name: Manage internal assets
+              - name: Manage active assets
                 href: business-processes/acquire-to-dispose-manage-internal-assets.md
-              - name: Manage and report on asset financials
-                href: business-processes/aquire-to-dispose-manage-report-asset-financials.md
-              - name: Maintain and repair internal assets
+              - name: Perform asset maintenance
                 href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
-              - name: Retire or dispose of assets
+              - name: Dispose of assets
                 href: business-processes/acquire-to-dispose-retire-dispose-assets.md
+              - name: Analyze assets
+                href: business-processes/aquire-to-dispose-manage-report-asset-financials.md
               - name: Implementation workshops for acquire to dispose processes
                 href: business-processes/acquire-to-dispose-workshops.md
           - name: Case to resolution
@@ -721,12 +719,12 @@ items:
                 href: business-processes/concept-to-market-define-service-offerings-strategy-overview.md
               - name: Introduce new services
                 href: business-processes/concept-to-market-introduce-new-services.md
+              - name: Manage service pricing overview
+                href: business-processes/concept-to-market-manage-service-pricing-overview.md
               - name: Define service costing
                 href: business-processes/concept-to-market-define-service-costing-overview.md
               - name: Manage service lifecycle overview
                 href: business-processes/concept-to-market-manage-service-lifecycle-overview.md
-              - name: Manage service pricing overview
-                href: business-processes/concept-to-market-manage-service-pricing-overview.md
           - name: Design to retire
             items:
               - name: End-to-end scenario - design to retire (ID 40)
@@ -735,15 +733,11 @@ items:
                 href: business-processes/design-to-retire-overview.md
               - name: Business process areas
                 href: business-processes/design-to-retire-areas.md
-              - name: Define product catalog and strategy
+              - name: Develop product strategy
                 href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
-              - name: Introduce new products
+              - name: Introduce products
                 href: business-processes/design-to-retire-introduce-new-products-overview.md
-              - name: Manage product pricing overview
-                href: business-processes/design-to-retire-manage-product-pricing-overview.md
-              - name: Define product costing
-                href: business-processes/design-to-retire-define-product-costing-overview.md
-              - name: Manage product lifecycle
+              - name: Manage active products
                 href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
           - name: Forecast to plan
             items:
@@ -775,32 +769,82 @@ items:
                 href: business-processes/hire-to-retire-overview.md
               - name: Business process areas
                 href: business-processes/hire-to-retire-areas.md
-              - name: Plan and recruit your workforce
-                href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
-              - name: Onboard and manage the employee lifecycle
+              - name: Develop people strategy
                 items:
-                  - name: Onboard and manage the employee lifecycle
+                - name: Develop people strategy overview
+                  href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
+                # - name: Define organization structure
+                #   href: business-processes/hire-to-retire-define-organization-structure-overview.md
+                # - name: Define operating hours and schedule
+                # - name: Define human resources policies
+                # - name: Develop code of conduct
+                # - name: Define expense policies
+                # - name: Plan workforce
+                # - name: Develop communication strategy
+              - name: Recruit and onboard talent
+                items:
+                  - name: Recruit and onboard talent overview
                     href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
-                  - name: Hire new employees
+                  # - name: Budget workforce
+                  # - name: List open positions
+                  # - name: Recruit new talent
+                  - name: Hire for open positions
                     href: business-processes/hire-to-retire-onboard-hire-employees.md
-                  - name: Onboard new hires
+                  - name: Onboard new employees
                     href: business-processes/hire-to-retire-onboard-new-hires.md
-                  - name: Update employee records
+#                  - name: Onboard new contractors
+              - name: Manage workplace compliance
+                items:
+                  - name: Manage workplace compliance overview
+                    href: business-processes/hire-to-retire-manage-occupational-health-safety.md
+#                  - name: Document safety protocols
+#                  - name: Report an injury or illness
+#                  - name: Verify employment
+                  - name: Update worker information
                     href: business-processes/hire-to-retire-update-employee-records.md
-                  - name: Transfer employees
-                    href: business-processes/hire-to-retire-onboard-transfer-employees.md
+#                  - name: Manage cases and requests
+#                  - name:  Audit workplace for safety
+
                   - name: Terminate employee
                     href: business-processes/hire-to-retire-onboard-terminate-employment.md
-              - name: Manage employee performance and growth
-                href: business-processes/hire-to-retire-manage-employee-performance-growth.md
-              - name: Manage occupational health and safety
-                href: business-processes/hire-to-retire-manage-occupational-health-safety.md
-              - name: Manage worker compensation, benefits, and payroll
-                href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
-              - name: Manage employee time and attendance overview
-                href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
-              - name: Manage travel and expenses
-                href: business-processes/hire-to-retire-manage-travel-expenses.md
+
+
+
+
+
+
+
+              - name: Manage performance and growth 
+                items:
+                  - name: Manage performance and growth overview
+                    href: business-processes/hire-to-retire-manage-employee-performance-growth.md
+#                  - name: Promote employees
+#                  - name: Define employee career paths
+#                  - name: Perform a skill gap analysis
+#                  - name: Track skills and competencies
+#                  - name: Set employee growth goals
+#                  - name: Asses worker performance
+#                  - name: Define learning paths
+#                  - name: Train employees
+                  - name: Transfer workers
+                    href: business-processes/hire-to-retire-onboard-transfer-employees.md
+#                  - name: Recognize employees
+              - name: Manage time and attendance
+                items:
+                - name: Manage time and attendance overview
+                  href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
+#                  - name: Develop leave and absence policies
+#                  - name: Record employee absences
+#                  - name: Manage shifts
+#                  - name: Request time off
+#                  - name: Record employee time
+#                  - name: Request travel
+                - name: Manage employee travel
+                  href: business-processes/hire-to-retire-manage-travel-expenses.md
+              - name: Manage compensation and benefits
+                items:
+                  - name: Manage compensation and benefits overview
+                    href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
           - name: Inventory to deliver
             items:
               - name: End-to-end scenario - inventory to deliver (ID 60)
@@ -823,20 +867,20 @@ items:
                 href: business-processes/order-to-cash-overview.md
               - name: Business process areas
                 href: business-processes/order-to-cash-areas-overview.md
-              - name: Invoice customers
+              - name: Manage accounts payable
                 href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-              - name: Monitor customer credit and collections
+              - name: Manage credit and collections
                 items:
-                  - name: Monitor customer credit and collections overview
+                  - name: Manage credit and collections overview
                     href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-                  - name: Set customer credit limits
-                    href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md
-                  - name: Customer credit limit patterns
-                    items:
-                      - name: Manually set, define, and check customer credit limit patterns
-                        href: business-processes/pattern-manually-set-check-customer-credit-limits.md
-                      - name: Manually set, define, and check credit limit patterns for a group of customers
-                        href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
+                  # - name: Set customer credit limits
+                  #   href: business-processes/order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md
+                  # - name: Customer credit limit patterns
+                  #   items:
+                  #     - name: Manually set, define, and check customer credit limit patterns
+                  #       href: business-processes/pattern-manually-set-check-customer-credit-limits.md
+                  #     - name: Manually set, define, and check credit limit patterns for a group of customers
+                  #       href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
           - name: Plan to produce
             items:
               - name: End-to-end scenario - plan to produce (ID 70)
@@ -845,18 +889,22 @@ items:
                 href: business-processes/plan-to-produce-overview.md
               - name: Business process areas
                 href: business-processes/plan-to-produce-areas.md
-              - name: Define production strategies
-                href: business-processes/plan-to-produce-define-production-strategies.md
+              - name: Develop production strategies
+                items: 
+                - name: Develop production strategies overview
+                  href: business-processes/plan-to-produce-define-production-strategies.md
+                - name: Develop production processes
+                  href: business-processes/plan-to-produce-track-production-costs-overview.md
               - name: Plan production operations
                 href: business-processes/plan-to-produce-plan-production-operations-overview.md
               - name: Run production operations
-                href: business-processes/plan-to-produce-execute-production-operations-overview.md
-              - name: Outsource production operations
-                href: business-processes/plan-to-produce-outsource-production-operations-overview.md
+                items:
+                  - name: Run production operations overview
+                    href: business-processes/plan-to-produce-execute-production-operations-overview.md
+                  - name: Subcontract production
+                    href: business-processes/plan-to-produce-outsource-production-operations-overview.md
               - name: Control production quality
                 href: business-processes/plan-to-produce-control-production-quality-overview.md
-              - name: Track production cost
-                href: business-processes/plan-to-produce-track-production-costs-overview.md
           - name: Source to pay
             items:
               - name: End-to-end scenario - source to pay (ID 75)
@@ -871,12 +919,14 @@ items:
                     href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
                   - name: Define procurement catalogs
                     href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-                  - name: Raise purchase requisitions overview
-                    href: business-processes/source-to-pay-raise-purchase-requisitions-overview.md
               - name: Manage supplier relationships overview
                 href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-              - name: Procure goods and services overview
-                href: business-processes/source-to-pay-procure-materials-services-overview.md
+              - name: Procure goods and services
+                items:
+                - name: Procure goods and services overview
+                  href: business-processes/source-to-pay-procure-materials-services-overview.md
+                - name: Raise purchase requisitions
+                  href: business-processes/source-to-pay-raise-purchase-requisitions-overview.md  
               - name: Manage accounts payable
                 items:
                   - name: Manage accounts payable overview
@@ -945,18 +995,18 @@ items:
                 href: business-processes/record-to-report-overview.md
               - name: Business process areas
                 href: business-processes/record-to-report-areas.md
-              - name: Define financial structure and organizational accounting policies
-                href: business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md
+              - name: Define accounting policies
+                href: business-processes/record-to-report-define-accounting-policies.md
               - name: Manage budgets overview
                 href: business-processes/record-to-report-manage-budgets.md
               - name: Record financial transactions overview
                 href: business-processes/record-to-report-record-financial-transactions.md
               - name: Close financial periods overview
                 href: business-processes/record-to-report-close-financial-periods.md
-              - name: Comply with tax, audit, and regulatory requirements
-                href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
-              - name: Manage fund accounting overview
-                href: business-processes/record-to-report-manage-fund-accounting.md
+              # - name: Comply with tax, audit, and regulatory requirements
+              #   href: business-processes/record-to-report-comply-tax-audit-regulatory-requirements.md
+              # - name: Manage fund accounting overview
+              #   href: business-processes/record-to-report-manage-fund-accounting.md
           - name: Service to cash
             items:
               - name: End-to-end scenario - service to cash (ID 95)
@@ -1001,7 +1051,7 @@ items:
                 href: business-processes\administer-to-operate-manage-system-access-security.md
               - name: Train users and increase adoption
                 href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
-              - name: Manage data synchronization overview
+              - name: Manage data
                 href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
               - name: Manage system compliance overview
                 href: business-processes\administer-to-operate-manage-system-compliance.md

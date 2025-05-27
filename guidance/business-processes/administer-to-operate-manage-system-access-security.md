@@ -104,18 +104,32 @@ Dynamics 365 maintains detailed records and audit trails of compliance-related a
 
 If you want to implement Dynamics 365 solutions to assist with your *manage system access and security* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define a business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
-1. *Manage licensing and entitlements*
-1. *Administer system features*
-1. *Manage system access and security* (the article that you're currently reading)
-1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)
-1. *Monitor systems, environments, and capacity*
-1. *Manage background jobs*
-1. *Manage notifications alerts*
-1. *Uptake software releases*
-1. [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)
-1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)
-1. [Support systems](administer-to-operate-support-systems-overview.md)
+1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+1. *Manage licensing and entitlements*  
+1. [Administer system features](administer-to-operate-administer-system-features.md)   
+1. *Manage system access and security* (the article you're currently reading.)  
+
+    1. *Review access policies*  
+    1. *Review audit logs*  
+    1. *Enable and configure audit logs*  
+    1. *Onboard new users*  
+    1. *Manage data security*  
+    1. *Configure segregation of duties*  
+    1. *Manage authentication*  
+    1. *Manage and implement encryption*  
+    1. *Manage service accounts and certificates*  
+    1. *Revoke users access to systems*  
+    1. *Update access to systems*  
+    1. *Delete users*  
+1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
+1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 01/23/2025
+ms.date: 05/26/2025
 ms.author: edupont
 ---
-The updates from the August and November 2024 versions of the business process catalog are gradually being incorporated into the articles in the guidance hub. Some diagrams have not yet been updated. The goal is to update all diagrams and articles by early 2025.
+The updates from the three latest versions of the business process catalog are gradually making their way into the articles in the guidance hub. Some diagrams have not yet been updated, but most articles now have the names of the relevant entries in the May 2025 version of the business process catalog.

@@ -44,37 +44,41 @@ Before you begin, ensure to create an employee. The steps in the process flow di
 If you're an employee, follow these steps:
 
 1. Start
-2. Manually, identify need of product or service.
-3. Manually, collect information regarding the requirement or services such as product ID or description of service and price.
-4. Create or update purchase requisition.
-5. Add new line and select legal entity.
-6. Select procurement category if the item isn't known.
-7. Enter quantity required.
-8. Select receiving operating unit.
-9. Known price
-    1.  If yes, then enter unit price if the purchase requisition line is for a category. If the purchase requisition line is for an item and a trade agreement exists, then the price is defaulted for the trade agreement.
-    2.  If no, proceed to step 10.
-10. Submit requisition.
+1. Manually, identify need of product or service.
+1. Manually, collect information regarding the requirement or services such as product ID or description of service and price.
+1. Create or update purchase requisition.
+1. Add new line and select legal entity.
+1. Select procurement category if the item isn't known.
+1. Enter quantity required.
+1. Select receiving operating unit.
+1. Known price
+
+    1. If yes, then enter unit price if the purchase requisition line is for a category. If the purchase requisition line is for an item and a trade agreement exists, then the price is defaulted for the trade agreement.
+    1. If no, proceed to step 10.
+1. Submit requisition.
 
 If you're a purchasing agent, follow these steps:
 
-11. Navigate to *purchase requisition assigned to me* form.
-12. Request for quotation required.
-    1.  If yes, then initiate request for quotation (RFQ) process.
-    2.  If no, then review or enter unit price and unit of measure.
-13.  Select final vendor and attach document (if applicable).
-14.  Submit requisition.
+1. Navigate to *purchase requisition assigned to me* form.
+1. Request for quotation required.
+
+    1. If yes, then initiate request for quotation (RFQ) process.
+    1. If no, then review or enter unit price and unit of measure.
+1. Select final vendor and attach document (if applicable).
+1. Submit requisition.
 
 If you're a manager or accounting manager, follow these steps:
 
-1.  Approval required.
-    1.  If yes, then accounting manager accesses the *purchase requisition assigned to me* form.
-    2.  If no, then proceed to step 18.
-2.  Approved
-    1.  If yes, then proceed to step 17.
-    2.  If no, then go to step 5 in the **Employee** swin lane.
-3.  Purchase order process initiated.
-4.  End
+1. Approval required.
+
+    1. If yes, then accounting manager accesses the *purchase requisition assigned to me* form.
+    1. If no, then proceed to step 18.
+1. Approved
+
+    1. If yes, then proceed to step 17.
+    1. If no, then go to step 5 in the **Employee** swin lane.
+1. Purchase order process initiated.
+1. End
 
 ## Purchase policy overview
 
@@ -133,21 +137,28 @@ In the procurement policies, you can control the requisition purposes that're av
 
 If you would like to implement Dynamics 365 solutions to assist with the *Raise purchase requisitions* business process, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Raise purchase requisitions* (The article you're currently reading)
-2. *Issue purchase orders*
-3. *Manage open purchase orders*
-4. *Issue blanket purchase orders*
-5. *Return goods to suppliers*
-6. *Consolidate requisitions*
-7. *Analyze supply purchase plan*
+1. [Define procurement and sourcing strategies](source-to-pay-define-procurement-sourcing-strategy-overview.md)  
+1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)  
+1. *Source and contract goods and services*
+1. [*Procure goods and services*](source-to-pay-procure-materials-services-overview.md)   
+
+    1. *Raise purchase requisitions overview* (the article that you're currently reading)
+    2. *Issue purchase order*
+    3. *Manage open purchases*
+    4. *Issue blanket purchase orders*  
+    5. *Return goods to suppliers*  
+    6. *Consolidate requisitions*  
+    7. *Analyze supply purchase plan*
+1. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
+1. *Analyze procurement and sourcing*  
 
 ## Related patterns
 
-The following patterns are available to help guide your implementation of the *raise purchase requisitions* business process. (Links are added when the articles are ready.)
+The following patterns can help your implementation of the *raise purchase requisitions* business process. (Links are added when the articles are ready.)
 
 - Add a category line to a purchase requisition
 - Add an item to purchase requisition
-- Add products using punchout e-procurement
+- Add products using punch-out e-procurement
 - Import purchase requisitions from a third-party system
 
 ## Related information

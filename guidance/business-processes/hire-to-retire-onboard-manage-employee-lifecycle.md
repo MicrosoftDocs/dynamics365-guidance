@@ -1,22 +1,25 @@
 ---
-title: Overview of the Onboard and manage the employee lifecycle business process area
-description: Discover how the Onboard and manage the employee lifecycle business process can help you optimize onboarding new employees and foster a productive work environment.
+title: Overview of the Recruit and onboard talent business process area
+description: Discover how the Recruit and onboard talent business process can help you optimize onboarding new employees and foster a productive work environment.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 01/17/2025
+ms.date: 05/26/2025
 ai-usage: ai-assisted
 ---
 
-# Overview of the Onboard and manage the employee lifecycle within the Hire to retire end-to-end scenario
+# Overview of the Recruit and onboard talent within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
-This article explains how to use the end-to-end *onboard and manage the employee lifecycle* business process to create a positive and productive employee experience that boosts workforce engagement.
+This article explains how to use the end-to-end *Recruit and onboard talent* business process to create a positive and productive employee experience that boosts workforce engagement.
 
-In today's competitive business landscape, retaining and developing top talent is crucial for organizational success. Onboarding and managing employee lifecycles are strategic ways to ensure a smooth and effective integration of new hires into the organization. They also help you comply with labor laws and regulations, minimize legal risks, and build a reputation as an employer of choice. Dynamics 365 provides a comprehensive suite of tools to streamline and enhance various aspects of onboarding and employee lifecycle management. You can use Dynamics 365 to create customized onboarding checklists, manage employee records, administer compensation and benefits, track performance and growth, manage leave plans and attendance, and reconcile travel expenses.
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this area ahd the name *onboard and manage the employee lifecycle*. We're in process of updating the content based on the latest version of the catalog.
 
-One of the key advantages of using Dynamics 365 for onboarding and employee lifecycle management is its adaptability. You can customize your employee management approach to suit your unique needs and timelines. You can also integrate these processes into the system at any stage of its implementation or gradually add them as your organization grows. This adaptability ensures that you can swiftly adapt to evolving business requirements, industry trends, and employee expectations without disrupting your operations. As a result, Dynamics 365 proves to be an invaluable tool for long-term employee management and engagement.
+In today's competitive business landscape, retaining and developing top talent is crucial for organizational success. Recruiting and onboarding are strategic ways to ensure a smooth and effective integration of new hires into the organization. They also help you comply with labor laws and regulations, minimize legal risks, and build a reputation as an employer of choice. Dynamics 365 provides a comprehensive suite of tools to streamline and enhance various aspects of the employee lifecycle. You can use Dynamics 365 to create customized onboarding checklists, manage employee records, administer compensation and benefits, track performance and growth, manage leave plans and attendance, and reconcile travel expenses.
+
+One of the key advantages of using Dynamics 365 for recruiting and onboarding talent is its adaptability. You can customize your employee management approach to suit your unique needs and timelines. You can also integrate these processes into the system at any stage of its implementation or gradually add them as your organization grows. This adaptability ensures that you can swiftly adapt to evolving business requirements, industry trends, and employee expectations without disrupting your operations. As a result, Dynamics 365 proves to be an invaluable tool for long-term employee management and engagement.
 
 ## Stakeholders
 
@@ -40,7 +43,7 @@ Each of these stakeholders contributes specialized expertise to the successful o
 
 ## Onboard and manage employee lifecycle business process map
 
-The following diagram illustrates the *onboard and manage the employee lifecycle* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *Recruit and onboard talent* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 > [!IMPORTANT]
 > The diagram doesn't reflect the latest version of the business process catalog. While we wait for an updated diagram, the list after the image reflects the latest version.
@@ -50,7 +53,7 @@ The following diagram illustrates the *onboard and manage the employee lifecycle
 1. Start
 2. *Hire to retire*
 3. *Plan and recruit your workforce*
-4. *Onboard and manage the employee lifecycle*
+4. *Recruit and onboard talent*
     1. *Hire employees*  
     2. *Onboard new hires*  
     3. *Update employee records*  
@@ -87,22 +90,20 @@ By analyzing onboarding data, you can identify trends and patterns that inform c
 
 If you want to implement Dynamics 365 solutions to assist with your *Onboard and manage employee lifecycle* business process area, you can use the following business processes. Use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-2. *Onboard and manage the employee lifecycle* (the article you're currently reading)
-    1. [Hire employees](hire-to-retire-onboard-hire-employees.md)  
-    2. [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
-    3. [Update employee records](hire-to-retire-update-employee-records.md)  
-    4. *Create and manage teams*
-    5. *Communicate issue and changes with HR*
-    6. [Transfer employees](hire-to-retire-onboard-transfer-employees.md)  
-    7. *Generate employment verification letters*
-    8. *Employee relocation*
-    9. [Terminate employee](hire-to-retire-onboard-terminate-employment.md)  
-3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
-7. [Manage employee benefits, compensation, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. *Recruit and onboard talent* (the article you're currently reading)
+    1. *Budget workforce*  
+    1. *List open positions*  
+    1. *Recruit new talent*  
+    1. [Hire for open positions](hire-to-retire-onboard-hire-employees.md)  
+    1. [Onboard new employees](hire-to-retire-onboard-new-hires.md)  
+    1. *Onboard new contractors*
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)  
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)  
+1. [Offboard talent](hire-to-retire-onboard-terminate-employment.md)  
+1. *Analyze HR programs*
 
 ### See also
 

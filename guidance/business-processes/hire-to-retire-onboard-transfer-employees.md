@@ -1,17 +1,20 @@
 ---
-title: Overview of the Transfer employees business process
-description: Learn how the Transfer employees business process can help you optimize the transfer of employees from one legal entity to another in Dynamics 365 Human Resources.
-ms.date: 11/19/2024
+title: Overview of the Transfer workers business process
+description: Learn how the Transfer workers business process can help you optimize the transfer of employees from one legal entity to another in Dynamics 365 Human Resources.
+ms.date: 05/27/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---
 
-# Overview of the Transfer employees business process within the Hire to retire end-to-end scenario
+# Overview of the Transfer workers business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
-This article explains how to transfer employees in Dynamics 365 Human Resources. Organizations can move employees from one position to another to update their workforce structure. The scenarios involve setting up departments, jobs, and positions in Dynamics 365 Human Resources, and then assigning employees to positions that are linked to jobs.
+This article explains how to Transfer workers in Dynamics 365 Human Resources. Organizations can move employees from one position to another to update their workforce structure. The scenarios involve setting up departments, jobs, and positions in Dynamics 365 Human Resources, and then assigning employees to positions that are linked to jobs.
+
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this article represented a business process, under the *Onboard and manage the employee lifecycle*. In February 2025, it was moved to the *Manage compensation and benefits* area, and we're in process of updating the content to reflect this move.
 
 Internal transfers gives employees opportunities for growth and development. By moving to different positions in the organization, employees can broaden their skills and experiences. Additionally, employees might seek transfers so that they can explore new roles, work on different teams, or take on other responsibilities. Employee transfers can also accommodate an update in the compensation structure.
 
@@ -24,11 +27,11 @@ Organizations often move employees to different positions to adapt to the changi
 
 Employee transfers within an organization can serve various purposes, depending on the specific context and goals of each company. For example, transfers can help the organization address skill gaps, promote talent development, enhance diversity, and foster cross-functional collaboration. A well-managed transfer process can enhance employee satisfaction. It shows that the organization values employee development and career progression. In general, effective employee transfers play a crucial role in promoting organizational agility, boosting employee engagement, and contributing to long-term success.
 
-Employee transfers can also be crucial for succession planning. Through skill mapping, organizations can identify potential successors for critical roles. They can then transfer employees to relevant positions to prepare them for future responsibilities that match their ambition.
+Employee transfers can also be crucial for succession planning. Through skill mapping, organizations can identify potential successors for critical roles. They can then Transfer workers to relevant positions to prepare them for future responsibilities that match their ambition.
 
 ## Stakeholders
 
-The following list describes the stakeholders in the *Transfer employees* business process:
+The following list describes the stakeholders in the *Transfer workers* business process:
 
 - **Human Resources managers** play a crucial role in defining the organizational structure, and in planning and managing the employee lifecycle. They define and manage hiring needs, employee benefits, compensation plans, and other Human Resources processes.
 - **Recruiters** are responsible for sourcing and recruiting qualified candidates. They use Dynamics 365 Human Resources to manage recruitment projects and streamline communications between departments.
@@ -66,7 +69,7 @@ The following diagram illustrates the *Transfer employee* process area.
     1. Terminate the employment and worker position assignment in legal entity A.
     1. Hire the employee and add a worker position assignment in legal entity B.
 
-## Implement the Transfer employees business process
+## Implement the Transfer workers business process
 
 Before you initiate the *Transfer employee* process, look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
 
@@ -90,7 +93,7 @@ When you use the **Personnel management** workspace as a Human Resources admin o
 
 You can control the behavior of worker position assignment through parameters. Select **Always** to allow assignment to new positions when they are created. Select **Never** to require manual assignment after positions are created. If a worker is assigned to a position that reports to another position, a reporting relationship is established between the workers who are assigned to the two positions.
 
-The following table explains the configuration components that support the *Transfer employees* business process.
+The following table explains the configuration components that support the *Transfer workers* business process.
 
 | Sequence | Configuration component | Required? | Product | Menu path |
 |---|---|---|---|---|
@@ -102,26 +105,28 @@ The following table explains the configuration components that support the *Tran
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Transfer employees* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Transfer workers* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-1. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)  
 
-    - [Hire an employee](hire-to-retire-onboard-hire-employees.md)
-    - [Onboard an employee](hire-to-retire-onboard-new-hires.md)
-    - [Update employee records](hire-to-retire-update-employee-records.md)
-    - Create and manage teams
-    - Communicate issues and changes with HR
-    - *Transfer employee* (the article that you're currently reading)
-    - Generate employment verification letters
-    - Employee relocation
-    - [Terminate employee](hire-to-retire-onboard-terminate-employment.md)
+    1. *Promote employees*
+    1. *Define employee career paths*  
+    1. *Perform a skill gap analysis*  
+    1. *Track skills and competencies*  
+    1. *Set employee growth goals*  
+    1. *Asses worker performance*  
+    1. *Define learning paths*  
+    1. *Train employees*  
+    1. *Transfer workers* (the article you're currently reading)  
+    1. *Recognize employees*
 
-1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-1. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-1. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-1. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
-1. [Manage worker compensation, benefits, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)
+1. *Offboard talent*  
+1. *Analyze HR programs*
 
 ## Related patterns
 

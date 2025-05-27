@@ -14,6 +14,9 @@ ms.reviewer: edupont
 
 This article describes the *prospect to quote* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Prospect to quote process relationship
 
 The following diagram shows the relationship of other processes and products/features for the *prospect to quote* process.

@@ -1,7 +1,7 @@
 ---
 title: Ensure and optimize tax, audit, and regulatory requirements
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to comply with tax, audit, and regulatory requirements.
-ms.date: 01/23/2024
+ms.date: 05/26/2025
 ms.topic: concept-article
 author: rachelprofitt
 ms.author: raprofit
@@ -9,6 +9,8 @@ ms.author: raprofit
 
 # Ensure, optimize, and comply with tax, audit, and regulatory requirements
 
+This business process area has been deprecated and merged into [Overview of the define financial structure and organizational accounting policies business process](record-to-report-define-accounting-policies.md).  
+<!-- 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Field Service, Dynamics 365 Fraud Protection, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales***
 
 This article describes how you can use Dynamics 365 not only to ensure adherence to tax, audit, and regulatory mandates, but also to streamline and optimize these essential business processes.
@@ -152,11 +154,11 @@ You can use the following resources to learn more about the tax, audit, and regu
 *Stakeholders:* Accounts payable, Accounts receivable, Audit, Customer services, Finance, Human Resources, IT, Production, Project Management, Purchasing, Treasury
 
 *Products:* Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Project Operations -->
-
+<!-- 
 ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager, Microsoft
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager, Microsoft --> -->

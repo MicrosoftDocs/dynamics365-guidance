@@ -1,7 +1,7 @@
 ---
 title: Overview of the Develop project strategy business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for governing projects.
-ms.date: 04/22/2025
+ms.date: 05/26/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: lifiatamara
@@ -111,17 +111,17 @@ This functionality helps project managers get a clear understanding of the proje
 
 If you want to implement Dynamics 365 solutions to assist with your *Develop project strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Develop project strategy* (the article that you're currently reading)
+1. *Develop project strategy* (the article that you're currently reading)  
 
-2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)
-
-3. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)
-
-4. [Manage project delivery](project-to-profit-deliver-project-work.md)
-
-5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
-
-6. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+    1. *Develop program charter*  
+    1. *Develop project management strategy*  
+    1. *Develop project governance strategy*  
+    1. *Develop project approval processes*
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)  
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
 ## Related information
 

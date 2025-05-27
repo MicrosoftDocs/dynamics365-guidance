@@ -1,14 +1,16 @@
 ---
-title: Overview of the Plan and budget assets business process area
-description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes for planning and budgeting assets.
-ms.date: 09/08/2023
+title: Plan and budget assets business process area is deprecated
+description: Deprecated article for planning and budgeting assets.
+ms.date: 05/21/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: hputhran
 ---
 
-# Overview of the Plan and budget assets business process area within the Acquire to dispose end-to-end scenario
+# Plan and budget assets business process area is deprecated
 
+This business process area is deprecated.
+<!-- 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for planning and budgeting assets.
@@ -130,9 +132,12 @@ These capabilities and others can help organizations reduce the risk of lease er
 
 If you want to implement Dynamics 365 solutions to help with your *plan and budget assets* business processes, use the following resources and steps to learn more. Links are added as articles become available.
 
+
+
+
 1. *Plan and budget assets* (the article that you're currently reading)
 2. [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)
-3. [Manage internal assets](acquire-to-dispose-manage-internal-assets.md)
+
 4. [Manage and report on asset financials](aquire-to-dispose-manage-report-asset-financials.md)
 5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)
 6. [Retire and dispose of assets](acquire-to-dispose-retire-dispose-assets.md)
@@ -158,11 +163,11 @@ You can use the following resources to learn more about the *plan and budget ass
 *Stakeholders:* Accounts payable, Accounts receivable, Administrative, Audit, Customer services, Finance, Human resources, Merchandising, Operations, Production, Project management, Purchasing, Retail store operations, Service operations, Treasury
 
 *Products:* Dynamics 365 Finance, Dynamics 365 Supply Chain Management -->
-
+<!-- 
 ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal author:
 
-- Harshad Puthran | FastTrack Solution Architect
+- Harshad Puthran | FastTrack Solution Architect --> -->

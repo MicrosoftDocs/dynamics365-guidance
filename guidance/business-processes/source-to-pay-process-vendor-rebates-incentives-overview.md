@@ -4,7 +4,7 @@ description: Learn about the process supplier rebates and incentives business pr
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 12/10/2024
+ms.date: 05/21/2025
 ---
 
 # Process supplier rebates and incentives
@@ -105,19 +105,21 @@ KPIs such as rebate processing time and the percentage reduction in manual error
 
 If you would like to implement Dynamics 365 solutions to assist with your *processing supplier rebates and incentives* business process, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Define procurement and sourcing strategies*
+1. [*Develop procurement and sourcing strategy*](source-to-pay-define-procurement-sourcing-strategy-overview.md)
+1. [*Manage supplier relationships*](source-to-pay-manage-vendor-relationships-overview.md)
+1. *Source and contract goods and services*
+1. [*Procure goods and services*](source-to-pay-procure-materials-services-overview.md)
+1. [*Manage accounts payable*](source-to-pay-manage-accounts-payable-overview.md)  
 
-2. [Define procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)
-
-3. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)  
-
-4. *Procure materials and services*
-
-5. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
-
-6. [Issue and settle vendor payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
-
-7. *Process supplier rebates and incentives* (the article you're currently reading)
+    1. *Process supplier invoices*  
+    1. *Dispute invoices*  
+    1. *Receive supplier credits*  
+    1. [*Issue and settle supplier payments*](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
+    1. *Manage promissory notes*  
+    1. *Cancel supplier payments*  
+    1. *Correct supplier payments*  
+    1. *Process supplier rebates and incentives*  (The article you're currently reading)
+1. *Analyze procurement and sourcing*
 
 ## Related information
 

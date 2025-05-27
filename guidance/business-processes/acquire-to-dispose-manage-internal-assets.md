@@ -1,7 +1,7 @@
 ---
-title: Overview of the Manage internal assets business process area
-description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage internal assets.
-ms.date: 09/08/2023
+title: Overview of the Manage active assets business process area
+description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage active assets.
+ms.date: 05/21/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: hputhran
@@ -9,23 +9,36 @@ ms.author: hputhran
 ---
 
 
-# Overview of the Manage internal assets business process area within the Acquire to dispose end-to-end scenario
+# Overview of the Manage active assets business process area within the Acquire to dispose end-to-end scenario
 
 ***This applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to support your organization's business processes to manage internal assets.
+This article describes how you can use Dynamics 365 products to support your organization's business processes to maintain active assets.
 
-## Introduction to manage internal assets
+> [!NOTE]
+> In earlier versions of the business process catalog, this area had the name *manage internal assets*. It was renamed in the February 2025 version, and we're still in process of updating the article.
 
-Managing internal fixed assets is a process that generally involves identifying and tagging fixed assets, maintaining asset register and books, running depreciation cycles, maintaining and reconciling asset details and reporting asset information.
+## Introduction to manage active assets
+
+Managing active assets is a process that generally involves identifying and tagging fixed assets, maintaining asset register and books, running depreciation cycles, maintaining and reconciling asset details and reporting asset information.
 
 A fixed asset book is a record of the fixed assets owned by a business or organization. Fixed asset books typically contain information such as the description, identification number, acquisition date, acquisition cost, depreciation method, net book value, and disposal date of each fixed asset. A fixed asset book helps to track the changes in the value and condition of the fixed assets over time. It also helps to comply with accounting standards and tax regulations regarding the reporting and valuation of fixed assets.
 
 Fixed assets are subject to depreciation, which takes into account the value of the asset used over its useful life. Depreciation cycles are the periods of time over which fixed assets lose their value. Different types of fixed assets have different depreciation cycles, depending on factors such as their expected lifespan, their usage, and the tax regulations that apply to them. Depreciation cycles are important for businesses because they affect the amount of expenses and income that are reported on the financial statements. Depreciation also affects the net book value of fixed assets, which is the difference between their original cost and their accumulated depreciation. Net book value represents the current value of fixed assets on the balance sheet.
 
-Insurance is a form of risk management that protects an organization from financial losses due to unforeseen events, such as theft, damage, or natural disasters. Insurance policies typically require the insured party to provide accurate and updated information about the assets covered by the policy, such as their location, value, and condition. By managing internal fixed assets, an organization can maintain an accurate inventory of its assets and provide the necessary information to its insurance provider. Thus, under or over insurance of the asset can be avoided which can otherwise result in either insufficient coverage or unnecessary premiums.
+Insurance is a form of risk management that protects an organization from financial losses due to unforeseen events, such as theft, damage, or natural disasters. Insurance policies typically require the insured party to provide accurate and updated information about the assets covered by the policy, such as their location, value, and condition. By managing active assets, an organization can maintain an accurate inventory of its assets and provide the necessary information to its insurance provider. Thus, under or over insurance of the asset can be avoided which can otherwise result in either insufficient coverage or unnecessary premiums.
 
 Transferring fixed assets is a process of changing the ownership or location of assets that have a long-term use and value. There are different reasons why a business may want to transfer fixed assets, such as selling, donating, leasing, relocating, or disposing of the asset. Depending on the type and purpose of the transfer, there may be accounting, tax, and legal implications that need to be considered. For example, transferring fixed assets may affect the depreciation expense, the net book value, the gain or loss on disposal, and the asset turnover ratio of the business. Additionally, transferring fixed assets may require updating the asset register, preparing journal entries, issuing invoices or receipts, and filing tax returns or forms. Therefore, it is important to follow the proper procedures and documentation when transferring fixed assets to ensure accuracy and compliance.
+
+An organization can have certain assets that are large items in the balance sheet. Based on the location and area where the assets are installed or deployed, there may be extra tax component associated with the asset. These assets may have insurance associated with them as well. In some cases, assets may be leased out to a lessee. Hence, it becomes important for companies to optimally manage and report asset information.
+
+Fixed assets are reported on the balance sheet. Activities related to investments are captured in a company's cash flow statement. The acquisition or disposal of an asset is also recorded in the cash flow statement.
+
+When you use a general ledger together with fixed assets, you can view the current value of all fixed assets. The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.
+
+Companies start off by evaluating the need for assets and budget/plan it up in advance. The process then involves either acquiring an asset or leasing an asset depending on multiple parameters. In case the asset is acquired, it goes through a high-level process that could be a mix of more asset related information adjustment, depreciation, disposal. Companies can define rules to record acquisition method, depreciation and disposal, write-ups and write-downs.
+
+The management of assets and its finance is an ongoing operational process for an organization. It becomes more important when audits are executed to review financial information.
 
 ## Manage internal asset stakeholders
 
@@ -58,8 +71,8 @@ The following diagram shows the high-level business process flow for managing in
 The manage internal asset business process area flow diagram covers the following steps.
 
 1. Start
-2. *Acquire to dispose*
-3. *Manage internal asset*
+1. *Acquire to dispose*
+1. *Manage active assets*
 
     1. *Create and maintain fixed assets*
     2. *Update asset details*
@@ -73,9 +86,9 @@ The manage internal asset business process area flow diagram covers the followin
             Sub-branch to the end-to-end process *Record to report*  
 1. End
 
-## Manage internal asset benefits
+## Benefits
 
-There are many key benefits that can be used to monitor and measure the success of maintaining and repairing internal assets. The following sections outline the key benefits that an organization might monitor and measure to manage internal assets. 
+There are many key benefits that can be used to monitor and measure the success of maintaining and repairing active assets. The following sections outline the key benefits that an organization might monitor and measure to manage active assets. 
 
 ### Maintain centralized information
 
@@ -108,17 +121,21 @@ Here are some ways to achieve operational efficiency:
 
 If you would like to implement Dynamics 365 solutions to assist with the management of internal asset business processes, you can use the following resources and steps to learn more.  
 
-1. [Plan and budget assets](acquire-to-dispose-plan-budget-assets-overview.md)  
+1. *Define asset strategy*
+1. [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)  
+1. *Manage active assets*. (The article you're currently reading.)  
 
-2. [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)  
-
-3. Manage internal assets. (The article you're currently reading.)
-
-4. [Manage and report on asset financials](aquire-to-dispose-manage-report-asset-financials.md)  
-
-5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)  
-
-6. [Retire and dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
+    1. *Maintain fixed assets*
+    1. *Maintain asset leases*
+    1. *Make payments on asset leases*
+    1. *Revalue and adjust assets*
+    1. Depreciate assets
+    1. *Insure assets*
+    1. *Transfer assets*
+    1. *Improve assets*
+1. [Perform asset maintenance](acquire-to-dispose-maintain-repair-internal-asset.md)  
+1. [Dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
+1. [Analyze assets](aquire-to-dispose-manage-report-asset-financials.md)  
 
 ## Related information
 

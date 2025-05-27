@@ -15,6 +15,9 @@ ms.author: marcoje
 
 The *case to resolution* process is broken down into many business process areas. The following sections further describe the business process areas.
 
+> [!IMPORTANT]
+> This overview for the business process areas doesn't reflect the current version of the business process catalog.
+
 ## Define customer service operations
 
 This business process area involves defining the customer service operations policies and procedures that guide the handling of cases. It includes creating customer service standards such as agent teams, queues, agent scripts, and conversation/email templates. It also covers establishing case routing and distribution rules, and defining service level agreements (SLAs) to ensure timely and effective resolution of customer issues. In Dynamics 365 Customer Service deployments, you configure these definitions in the Customer Service admin center.
