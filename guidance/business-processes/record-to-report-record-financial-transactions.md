@@ -95,21 +95,25 @@ KPIs for this benefit include improvements in the accuracy of financial reportin
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *Record financial transactions* business processes, you can use the following resources and steps to learn more.
+If you would like to implement Dynamics 365 solutions to assist with your *Record financial transactions* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define ledger structure and organizational accounting policies](report-to-record-define-financial-structure-organizational-accounting-policies.md)
+1. [Define accounting policies](record-to-report-define-accounting-policies.md)  
+1. *Manage cash*
+1. [Manage budgets](record-to-report-manage-budgets.md)  
+1. *Record financial transactions* (the article that you're currently reading)  
 
-2. [Comply with tax, audit, and regulatory requirements](record-to-report-comply-tax-audit-regulatory-requirements.md)
-
-3. [Manage budgets](record-to-report-manage-budgets.md)
-
-4. [Manage fund accounting](record-to-report-manage-fund-accounting.md)
-
-5. *Record financial transactions* (you are currently on this step).
-
-6. [Close financial periods](record-to-report-close-financial-periods.md)
-
-7. Report and analyze financials and cash flow
+    1. *Record ledger entries*  
+    1. *Record intercompany transactions*  
+    1. *Record cost accounting transactions*  
+    1. *Revalue inventory*  
+    1. *Correct ledger vouchers*  
+    1. *Manage accruals*  
+    1. *Manage deferrals*  
+    1. *Process allocations*  
+    1. *Record tax commitments*  
+    1. *Pay taxes*
+1. [Close financial periods](record-to-report-close-financial-periods.md)  
+1. *Analyze financial performance*
 
 ## Related information
 

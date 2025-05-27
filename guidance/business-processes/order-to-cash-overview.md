@@ -15,6 +15,9 @@ ms.custom: bap-template
 
 This article describes the order to cash end-to-end business process flow and its relationship to other business processes in Dynamics 365.
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Order to cash process relationships
 
 The following diagram shows the relationship of the end-to-end order to cash process with other upstream and downstream processes.

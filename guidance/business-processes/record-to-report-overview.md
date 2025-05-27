@@ -13,6 +13,9 @@ ms.author: kgiardini
 
 This article describes the *record to report* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Record to report process relationship
 
 The following diagram shows the relationship of other processes and products/features for the *record to report* process. In some ways, you can think of the *record to report* process as being before and after every process of an organization. For example, you could draw a circle and put all other end to end processes inside of it. For purposes of this diagram, we have created a list of processes and ways that you can use each process in relationship to the sub processes in *record to report*.

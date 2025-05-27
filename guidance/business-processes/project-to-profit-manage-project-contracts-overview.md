@@ -1,7 +1,7 @@
 ---
 title: Overview of the Manage project contract business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project contracts.
-ms.date: 04/16/2025
+ms.date: 05/26/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: lalithac
@@ -103,16 +103,19 @@ In conclusion, Incorporating technology into project contract management optimiz
 If you want to implement Dynamics 365 solutions to assist with your *project to profit* business processes, use the following resources and steps to learn more.
 
 1. [Develop project strategy](project-to-profit-govern-projects-overview.md)
+1. *Manage project contracts* (The article you're currently reading.)  
 
-2. *Manage project contracts*. (The article you're currently reading.)
+    1. [Estimate project contracts](project-to-profit-estimate-project-contracts.md)  
+    1. [Negotiate project contracts](project-to-profit-negotiate-project-contracts.md)  
+    1. *Finalize project contracts*  
+    1. *Maintain project contracts*  
+    1. *Process project change requests*  
+    1. *Define project stakeholders*
 
-3. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
-
-4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
-
-5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
-
-6. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)  
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)  
 
 ## Related information
 

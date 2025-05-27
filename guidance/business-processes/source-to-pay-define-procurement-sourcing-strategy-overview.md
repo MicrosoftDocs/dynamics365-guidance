@@ -81,18 +81,25 @@ The system supports strategic sourcing by allowing procurement teams to evaluate
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with the *Develop a procurement and sourcing strategy* business process, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with the *Develop a procurement and sourcing strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. Develop a procurement and sourcing strategy (The article you're currently reading)
-2. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
-3. Source and contract goods and services
-4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
-5. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)
-6. Analyze procurement and sourcing
+1. *Develop a procurement and sourcing strategy* (The article you're currently reading)
+
+    1. [Develop procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
+    2. *Develop supplier segments*
+    3. *Develop procurement policies*
+    4. *Define accounts payable policies*
+    5. *Develop spend strategy*  
+    6. *Analyze sourcing market*  
+1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
+1. *Source and contract goods and services*
+1. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
+1. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)
+1. *Analyze procurement and sourcing*
 
 ## Related information
 
-You can use the following resources to learn more about the *Develop a procurement and sourcing strategy* business process in Dynamics 365:
+You can use the following resources to learn more about the *Develop a procurement and sourcing strategy* business processes in Dynamics 365:
 
 * [Procurement catalogs overview - Supply Chain Management](/dynamics365/supply-chain/procurement/procurement-catalogs)
 * [Purchasing policies overview - Supply Chain Management](/dynamics365/supply-chain/procurement/purchase-policies)

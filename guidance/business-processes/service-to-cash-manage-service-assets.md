@@ -21,7 +21,7 @@ This article describes how you can use Dynamics 365 products to support your org
 Many organizations provide services for products that their customers purchase, lease from them, or from other sources and that need to be maintained and serviced regularly. These services may include installation, maintenance, repair, troubleshooting, or upgrading of the products.
 
 > [!IMPORTANT]
-> This article primarily pertains to the servicing of assets owned by, or located at, customer locations. Learn more at [Manage internal assets overview](acquire-to-dispose-manage-internal-assets.md).
+> This article primarily pertains to the servicing of assets owned by, or located at, customer locations.  
 
 To manage service assets effectively, it's vital to keep a repository of serviceable items (assets) and to track them, recording all the needed information that will be helpful during the maintenance process, such as:
 

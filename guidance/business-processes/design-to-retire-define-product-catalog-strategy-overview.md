@@ -1,5 +1,5 @@
 ---
-title: Overview of the Define product catalog and strategy business process area
+title: Overview of the Develop product strategy business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for categorizing, segmenting, and merchandising products and services. Learn how you can capture a strategy for the products that you want to sell.
 ms.date: 01/07/2025
 ms.topic: concept-article
@@ -7,7 +7,7 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Overview of the Define product catalog and strategy business process area within the Design to retire end-to-end scenario
+# Overview of the Develop product strategy business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
@@ -19,13 +19,13 @@ All organizations group and categorize or segment their products into logical gr
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *define product catalog and strategy* business process area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Develop product strategy* business process area. The following list provides examples of such stakeholders:
 
 [!INCLUDE [daf-prod-serv-stakeholders](../includes/daf-prod-serv-stakeholders.md)]
 
-## Define product catalog and strategy process flow
+## Develop product strategy process flow
 
-The following diagram illustrates the *define product catalog and strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *Develop product strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/design-to-retire-categorize-products.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/design-to-retire-categorize-products.svg":::
 
@@ -34,7 +34,7 @@ The following diagram illustrates the *define product catalog and strategy* busi
     A parallel process that isn't shown connects to an upstream business process area for *Introduce new products*. This box connects to 4.b.i. *Assign product attributes*.
 
 1. *Design to retire* end-to-end process
-1. *Define product catalog and strategy* business process area
+1. *Develop product strategy* business process area
 1. *Define product policies*
 
     1. *Define product types*
@@ -65,29 +65,35 @@ The following diagram illustrates the *define product catalog and strategy* busi
             1. Yes leads to *Maintain product attributes*.
             1. No leads to End.
 
-## Define product catalog and strategy benefits
+## Develop product strategy benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *define product catalog and strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure for *define product catalog and strategy*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Develop product strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Develop product strategy*.
 
 [!INCLUDE [daf-prod-serv-benefits](../includes/daf-prod-serv-benefits.md)]
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *define product catalog and strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to help with your *Develop product strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Define product catalog and strategy* (the article that you're currently reading)
+1. *Develop product strategy* (the article that you're currently reading)  
 
-2. [Introduce new products](design-to-retire-introduce-new-products-overview.md)  
+    1. *Define product policies*
+    1. *Develop product portfolio*
+    1. *Develop product roadmap*
+    1. *Define product categories*
+    1. *Define product attributes*
+    1. *Develop product catalogs*
+    1. *Develop merchandise and assortment plans*
 
-3. [Manage product costing](design-to-retire-define-product-costing-overview.md)
-
-4. [Define product pricing](design-to-retire-manage-product-pricing-overview.md)  
-
-5. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)  
+1. [Introduce products](design-to-retire-introduce-new-products-overview.md)  
+1. [Manage active products](design-to-retire-manage-product-lifecycle-overview.md)  
+1. *Retire products*
+1. *Analyze product performance*
+<!-- 1. [Manage product lifecycle](design-to-retire-manage-product-lifecycle-overview.md)   -->
 
 ## Related information
 
-You can use the following resources to learn more about the *define product catalog and strategy* business process area in Dynamics 365.
+You can use the following resources to learn more about the *Develop product strategy* business process area in Dynamics 365.
 
 - [Manage product categories and products](/dynamics365/commerce/category-management-product-creation)
 - [Set up product families](/dynamics365/sales/create-product-family)
@@ -97,7 +103,7 @@ You can use the following resources to learn more about the *define product cata
 - [Create a new product hierarchy](/dynamics365/commerce/create-product-hierarchy)
 - [Categorize items (Business Central)](/dynamics365/business-central/inventory-how-categorize-items)
 - [Issue and settle vendor payments overview](source-to-pay-issue-and-settle-vendor-payments-overview.md)
-- Find definitions of terminology that is used in content for *define product catalog and strategy* in the [Glossary of terms in Dynamics 365 business processes](glossary.md). For example, this glossary includes the following terms:
+- Find definitions of terminology that is used in content for *Develop product strategy* in the [Glossary of terms in Dynamics 365 business processes](glossary.md). For example, this glossary includes the following terms:
 
     - [Category hierarchy](glossary.md#category-hierarchy)
     - [Merchandising](glossary.md#merchandising)

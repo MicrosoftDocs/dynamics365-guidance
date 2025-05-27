@@ -95,24 +95,20 @@ The following table explains the configuration components that support the *Hire
 
 If you want to implement Dynamics 365 solutions to assist with your *Hire employees* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-1. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
-
-    - *Hire an employee* (the article that you're currently reading)
-    - [Onboard an employee](hire-to-retire-onboard-new-hires.md)
-    - [Update employee records](hire-to-retire-update-employee-records.md)
-    - Create and manage teams
-    - Communicate issues and changes with HR
-    - [Transfer employee](hire-to-retire-onboard-transfer-employees.md)
-    - Generate employment verification letters
-    - Employee relocation
-    - [Terminate employee](hire-to-retire-onboard-terminate-employment.md)
-
-1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-1. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-1. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-1. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
-1. [Manage employee benefits, compensation, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
+    1. *Budget workforce*  
+    1. *List open positions*  
+    1. *Recruit new talent*  
+    1. [Hire for open positions](hire-to-retire-onboard-hire-employees.md)  
+    1. *Onboard new employees* (the article you're currently reading)  
+    1. *Onboard new contractors*
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)  
+1. [Offboard talent](hire-to-retire-onboard-terminate-employment.md)  
+1. *Analyze HR programs*
 
 ## Related patterns
 

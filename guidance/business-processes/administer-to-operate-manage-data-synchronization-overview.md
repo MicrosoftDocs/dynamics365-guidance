@@ -1,5 +1,5 @@
 ---
-title: Manage data synchronization overview
+title: Manage data overview
 description: Learn about how to plan and manage data synchronization across various Dynamics 365 applications, including an outline of the types of stakeholders.
 author: harshbirla
 ms.author: harshbir
@@ -7,7 +7,7 @@ ms.topic: concept-article
 ms.date: 06/25/2024
 ---
 
-# Manage data synchronization overview
+# Manage data overview
 
 ***Applies to: Dynamics 365***
 
@@ -98,18 +98,24 @@ Effective data synchronization supports better decision-making by ensuring that 
 
 If you want to implement Dynamics 365 solutions to assist with your *manage data synchronization* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)  
 
-1. [Define a business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
-1. *Manage licensing and entitlements*
-1. *Administer system features*
+1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+1. *Manage licensing and entitlements*  
+1. [Administer system features](administer-to-operate-administer-system-features.md)   
 1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)
-1. *Monitor systems, environments, and capacity*
-1. *Manage background jobs*
-1. *Manage notifications alerts*
-1. *Uptake software releases*
-1. *Manage data synchronization* (the page that you're currently reading)
+1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. *Manage data* (the article you're currently reading.)  
+
+    1. *Manage the initial synchronization of data*  
+    1. *Manage the recurring synchronization of data*  
+    1. *Monitor data synchronization failures*  
+    1. *Correct data synchronization failures*  
 1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-1. [Support systems](administer-to-operate-support-systems-overview.md)
+1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related information
 

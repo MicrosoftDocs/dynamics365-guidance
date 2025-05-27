@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
-ms.date: 2/13/2025
+ms.date: 05/27/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -45,11 +45,11 @@ Before you can import the project into Azure Boards, there are a few things that
 
     We recommend that you use the workbook as a starting point to define the scope. At the most basic level, delete any rows that don't apply to your project. Learn more about how to define your project scope at [Process-focused solution](/dynamics365/guidance/implementation-guide/process-focused-solution). 
 
-2. Create a project in the Azure DevOps Services tenant.
+1. Create a project in the Azure DevOps Services tenant.
 
     The template that we provide is designed to work with the *Agile* work item process type. Learn more at [Create a project in Azure DevOps](/azure/devops/organizations/projects/create-project?view=azure-devops&preserve-view=true&tabs=browser) and [Agile process work item types](/azure/devops/boards/work-items/guidance/agile-process?view=azure-devops&preserve-view=true).
 
-3. Create custom work item types.
+1. Create custom work item types.
 
     The template includes custom work item types that you must create before you can import the catalog. Here, we assume that you're using agile process work item types. You can use other types; however, that might require more custom work items types and fields. Learn more at [Define area paths and assign to a team](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).
 
@@ -81,11 +81,21 @@ Before you can import the project into Azure Boards, there are a few things that
     |**Menu item name** |Configuration Deliverable |
     |**Included in entity** |Configuration Deliverable |
     |**Application family** |Configuration Deliverable |
-    |**Product** |Configuration Deliverable |
+    |**Products** |Configuration Deliverable, Scenario |
     |**Module** or **Functionality** </br></br> Both names are equally valid. The current version of the catalog uses **Module** to describe a group of product capabilities, such as *Fixed assets*.|Configuration Deliverable |
     |**Work Shop Assumptions** |Workshop |
     |**Agenda**|Workshop |
     |**Key questions**|Workshop |
+    |**Workload type**|All |
+    |**Responsible party**|Workshop |
+    |**Role type**|Workshop |
+    |**Program areas**|Workshop |
+    |**Responsible role**|Workshop |
+    |**Contributor**|Workshop |
+    |**Estimated complexity**|Workshop |
+    |**Estimated project impact**|Workshop |
+    |**Success by Design phase**|Workshop |
+    |**Estimated frequency**|Workshop |   
 
     Some of the fields are specific to the business process catalog and explained in the following list.
 
@@ -110,20 +120,44 @@ Before you can import the project into Azure Boards, there are a few things that
         - Finance and operations apps
         - Customer engagement apps
         - Cross-app
-    
-    - **Product**
+    - **Workload type**
+       Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add this field to the custom work items type for configuration deliverables and scenarios. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following options for the list: 
+
+        - Azure
+        - Business Central
+        - Cross-functional
+        - Customer engagement apps
+        - Finance and operations apps
+        - Productivity
+      
+    - **Products**
        Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add this field to the custom work items type for configuration deliverables. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following options for the list: 
 
+        - Business Central
         - Commerce
-        - Customer Insights
+        - Customer Insights Data
+        - Customer Insights Journey
         - Customer Service
+        - Customer Voice
         - Field Service
         - Finance
+        - Fraud Protection
+        - Guides
         - Human Resources
         - Project Operations
+        - Remote Assist
         - Sales
+        - Sales Copilot
         - Supply Chain Management
+        - Microsoft 365
+        - Teams
+        - SharePoint
+        - Project
+        - Power BI/Fabric
+        - Power Platform
+        - Azure
         - Other
+        
     - **Module/Functionality**  
 
       Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add this field to the custom work items type for configuration deliverables. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following options for the list:
@@ -177,7 +211,7 @@ Before you can import the project into Azure Boards, there are a few things that
 
       Add this field as a custom **Text (multiple lines)** field, so that users can enter or view a list of questions to use to help aide the discussion during the workshop. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).
 
-5. Add custom fields as required. The templates include custom fields that are optional - you don't necessarily need them on your work items, but here we list some of them. If you don't want to use the fields, delete the columns from the templates. The catalog includes several status fields that can be optionally setup, but we recommend that you delete these columns prior to importing as they are just informational. Learn more at [Add and manage fields](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true).
+1. Add custom fields as required. The templates include custom fields that are optional - you don't necessarily need them on your work items, but here we list some of them. If you don't want to use the fields, delete the columns from the templates. The catalog includes several status fields that can be optionally setup, but we recommend that you delete these columns prior to importing as they are just informational. Learn more at [Add and manage fields](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true).
 
     - **Catalog status**  
 
@@ -211,15 +245,155 @@ Before you can import the project into Azure Boards, there are a few things that
   
       This field includes comments that describe the updates or changes about the row in the business process catalog. If you want to import this column, add this field as a custom **Rich-text, HTML** field. Alternatively, you can delete this column before importing. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-rich-text-html-field).
 
-6. Define area paths in the project settings.
+    - **Responsible party**  
+
+      Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - Customer
+      - Partner
+
+    - **Role type**  
+
+      Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - Functional
+      - Governance
+      - Technical
+
+    - **Program Areas**  
+
+      Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - Business Process Management
+      - Data Management & Governance
+      - Executive Leadership
+      - Infrastructure Management
+      - Integrations & Interfaces
+      - Organizational Change Management
+      - Project Management & Governance
+      - Reporting & Business Analytics
+      - Security Management
+      - Solution Architecture
+      - Solution Development
+      - Solution Testing
+      - Training
+      - Usability and Experience
+      - Workflow Management
+
+    - **Responsible Role**  
+
+      Add a field as a **Picklist** fields with the name *Responsible Role* so that users can select an option in a dropdown list. We recommend you add it to all work items types. Optionally, create a similar filed with the same options but with the name *Contributor*. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following options for the list:
+
+      - Application Administrator
+      - Build Manager
+      - Business Analyst
+      - Business Architect
+      - Business Change Leads
+      - Business Lead
+      - Business Process Owner
+      - Business Subject Matter Experts (SME)
+      - Business Unit Sponsors
+      - Change Management Lead
+      - Communications Lead
+      - Compliance Manager
+      - Data Architect
+      - Data Migration Analyst
+      - Data Migration Lead
+      - Database Administrator
+      - Delivery Lead
+      - Deployment Lead
+      - Developer
+      - Development Lead
+      - Enterprise Architect
+      - Executive - Business (CEO/CFO/COO)
+      - Executive - Technology (VP/Director/CTO/CIO)
+      - Executive Sponsor
+      - Infrastructure Lead
+      - Integration Analyst
+      - Integration Architect
+      - Integration Lead
+      - Network Administrator
+      - Program Manager
+      - Project Manager
+      - Project Sponsor
+      - Quality Analyst
+      - Reporting Analyst
+      - Reporting Lead
+      - Security Administrator
+      - Security Analyst
+      - Security Developer
+      - Security Lead
+      - Solution Architect
+      - Solution Manager
+      - Solution Specialist
+      - Support Analyst
+      - Support Manager
+      - Technical Architect
+      - Testing lead
+      - Trainer
+      - Training Lead
+      - UX Designer
+      - Workflow Analyst
+      - Workflow Lead
+
+    - **Estimated complexity**  
+
+     Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - L - Large
+      - M - Medium
+      - S - Small
+      - XL - Extra Large
+      - XS - Extra Small
+
+    - **Estimated impact**  
+
+     Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - Critical
+      - High
+      - Low
+      - Medium
+
+    - **Success by Design Phase**  
+
+     Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - 01 Strategize
+      - 02 Initiate
+      - 03 Implement
+      - 03 Implement-Analysis
+      - 03 Implement-Design
+      - 03 Implement-Development
+      - 03 Implement-Test
+      - 04 Prepare
+      - 04 Prepare-Train
+      - 05 Operate
+
+    - **Estimated frequency**  
+
+     Add this field as a **Picklist** field, so that users can select an option in a dropdown list. We recommend you add to all work items types at a minimum. Learn more at [Add a picklist field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-picklist). We recommend that you create the following three options for the list:
+
+      - Annually
+      - Biweekly
+      - Continuous
+      - Monthly
+      - Once per environment
+      - Once per project
+      - Once per project phase
+      - Once per tenant
+      - Quarterly
+      - Weekly
+
+1. Define area paths in the project settings.
 
     For each end-to-end process that is in scope, create one area path. Learn more at [Add or modify work item types](/azure/devops/reference/add-modify-wit?view=azure-devops-2022&preserve-view=true&tabs=browser).
 
-7. Insert any other rows in the relevant .csv files that your project requires.
+1. Insert any other rows in the relevant .csv files that your project requires.
 
     You might need more *process areas*, *processes*, *scenarios*, or *configuration deliverables*. *Process area* uses the second **Title** column, *Process* uses the third **Title** column, and *Scenario* uses the fourth **Title** column. To establish a firm relationship between the rows, don't insert the next *process area* or *Feature* row until you've listed all rows that require a relationship to the last process area or feature. You might want to add other work item types too, such as *Documentation deliverables*. However, the template that we provide doesn't currently include other work item types.
 
-8. Fill in the other columns in the workbook as required. Use the following recommendations as guidance.
+1. Fill in the other columns in the workbook as required. Use the following recommendations as guidance.
 
     - **Description**: Optionally, add a detailed description for your business processes before you import, or work on this description throughout the project. In future releases, we plan to prepopulate this column for you.  
     - **Assigned to**: Typically, select the consultant or person who is responsible for configuring the process from the partner organization. Make sure that the person is already added to your project as a user.
@@ -230,24 +404,24 @@ Before you can import the project into Azure Boards, there are a few things that
     - **Risk**: Optionally, add a rating for the risk. For example, you might give a high risk score to processes that are very complex or require lots of modification.
     - **Effort**: Optionally, add a rating for the effort. For example, you might give a high effort score to processes that require integration or modification.
 
-9. Update the **Area path** value in the file.
+1. Update the **Area path** value in the file.
 
     You must replace the value in the **Area path** column with the exact name of your project and area paths. If you create the areas paths so that they match the end-to-end process names, you just have to replace the text *BA Content Hub* with the name of your project in your area path.
 
-10. Optionally, add more columns to the file, or remove columns that you don't plan to use before you import. If any of the custom fields that you add to your Azure DevOps project are mandatory, make sure that you include them in the file. Otherwise, import of the file might fail.
-11. Split large files for import.
+1. Optionally, add more columns to the file, or remove columns that you don't plan to use before you import. If any of the custom fields that you add to your Azure DevOps project are mandatory, make sure that you include them in the file. Otherwise, import of the file might fail.
+1. Split large files for import.
 
     Determine if you must split your file into multiple files before you can upload the catalog. Azure DevOps limits the number of rows that can be uploaded in one import to 1,000. If your final file has more than 1,000 rows, split the file. When you split the file, make sure that all process areas, features, and user stories that are related to the same end-to-end process are in the same file. For example, if row 1000 is in the middle of the [order to cash](order-to-cash-overview.md) process after the deletion and insertion of any required rows, split the file at the first row for *order to cash*. In this way, you ensure that all *order to cash* processes are included, and that you can establish the relationships during the import. If you try to import the entire catalog, you must split the file into four parts for import.
 
-> [!NOTE]
-> The administer to operate end-to-end process is more than 1000 rows. We recommend that you split the file at one of the level 2 process areas. Be sure to include the parent row for the end-to-end process in both files and reference the work item ID in the second file after you import the first file. This ensures that the parent-child relationships are maintained.
+    > [!NOTE]
+    > The *administer to operate* end-to-end process is more than 1000 rows. We recommend that you split the file at one of the level 2 process areas. Be sure to include the parent row for the end-to-end process in both files and reference the work item ID in the second file after you import the first file. This ensures that the parent-child relationships are maintained.
 
-13. The file must be saved as a .csv file before you can import it to Azure DevOps.
+1. The file must be saved as a .csv file before you can import it to Azure DevOps.
 
     If you added columns and features such as formatting or formulas in the workbook, and you don't want to lose them, consider saving a version of the file as an .xlsx file. This version can help you avoid losing those features. However, the version that you import must be the .csv file.
 
-> [!NOTE]
-> If the version of the catalog that you're about to save contains special characters such as commas (,) or quotation makes ("), remove them before you save the .csv file. For example, the October 2023 version of the uncustomized catalog contains the entry *Implement "secret shopper" program*. Change this entry to *Implement secret shopper program* before you save the .csv file.
+    > [!NOTE]
+    > If the version of the catalog that you're about to save contains special characters such as commas (,) or quotation makes ("), remove them before you save the .csv file. For example, the October 2023 version of the uncustomized catalog contains the entry *Implement "secret shopper" program*. Change this entry to *Implement secret shopper program* before you save the .csv file.
 
 ## Import the file
 

@@ -16,7 +16,7 @@ This article describes the business process area of *fund accounting* and provid
 > [!NOTE]
 > This business process area is deprecated in the November 2024 version of the business process catalog. Learn more at [Improvements to Record to report processes](about-whats-new-2024-november.md#improvements-to-record-to-report-processes).
 
-Fund accounting is a crucial business process area, especially for non-profit organizations and government entities. It provides a detailed account of income and expenditure to help the organization provide transparency and accountability in financial operations. With Dynamics 365, organizations can streamline their fund accounting processes and track funds effectively, maintain regulatory compliance, and make informed financial decisions.
+<!-- Fund accounting is a crucial business process area, especially for non-profit organizations and government entities. It provides a detailed account of income and expenditure to help the organization provide transparency and accountability in financial operations. With Dynamics 365, organizations can streamline their fund accounting processes and track funds effectively, maintain regulatory compliance, and make informed financial decisions.
 
 Defining, scoping, and implementing fund accounting in an overall business solution implementation should ideally occur during the initial stages of the project. This is because fund accounting forms the backbone of financial management and influences other business processes. Early implementation allows for seamless integration with other modules and ensures that the system accurately reflects the organization's financial structure. Moreover, it provides ample time for testing and adjustments before going live, minimizing potential disruptions to operations.
 
@@ -182,7 +182,7 @@ You can use the following resources to learn more about the Manage fund accounti
 *Stakeholders:* Accounts payable, Accounts receivable, Audit, Finance, Project Management, Purchasing, Treasury
 
 *Products:* Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management -->
-
+<!-- 
 ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
@@ -193,4 +193,4 @@ Principal author:
 
 Other contributors:
 
-- [Rachel Profitt](https://www.linkedin.com/in/RachelProfitt) | Principal Program Manager
+- [Rachel Profitt](https://www.linkedin.com/in/RachelProfitt) | Principal Program Manager -->

@@ -1,5 +1,5 @@
 ---
-title: Overview of the Manage occupational health and safety business process area
+title: Overview of the Manage workplace compliance business process area
 description: Streamline and enhance safety management processes with Dynamics 365 implementations, improving workplace safety and compliance.
 ms.date: 01/23/2024
 ms.topic: concept-article
@@ -11,13 +11,16 @@ ms.custom:
   - ai-seo-date:01/10/2024
 ---
 
-# Overview of the Manage occupational health and safety business process area within the Hire to retire end-to-end scenario
+# Overview of the Manage workplace compliance business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
-In this article, we delve into the intricacies of managing occupational health and safety within an organization, with a particular emphasis on Dynamics 365 implementations.
+In this article, we delve into the intricacies of *managing workplace compliance* within an organization, with a particular emphasis on Dynamics 365 implementations.
 
-In today's dynamic business landscape, the implementation of occupational health and safety processes is essential for maintaining a safe and productive work environment. With Dynamics 365, organizations can streamline and enhance their safety management processes. The defined processes can cover areas such as the following list:
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this business process area had the name *Manage occupational health and safety*. We are in process of updating the article according to the latest version of the business process catalog.
+
+In today's dynamic business landscape, the implementation of *managing workplace compliance* processes is essential for maintaining a safe and productive work environment. With Dynamics 365, organizations can streamline and enhance their safety management processes. The defined processes can cover areas such as the following list:
 
 - Hazard identification  
 - Safety protocol documentation  
@@ -33,11 +36,11 @@ These processes collectively contribute to a safer and healthier workplace. When
 
 These processes serve a twofold purpose in any organization. First, they ensure the well-being of employees, reducing the risk of workplace accidents and health-related issues. Second, they help organizations meet legal and regulatory requirements, avoid potential liabilities, and enhance their reputation as responsible corporate citizens. Dynamics 365 implementations facilitate the systematic execution of these processes, providing an efficient and centralized platform for managing safety-related data, incidents, and compliance.
 
-One notable advantage of implementing occupational health and safety processes within Dynamics 365 and Microsoft 365 is their flexibility. None of these processes are mandatory prerequisites for the system's operation, allowing organizations to tailor their safety management to their specific needs and timelines. These processes can be easily integrated into the system at any stage of its operation or even incrementally added as the organization evolves. This adaptability ensures that companies can respond to changing safety requirements, growth, and new regulations without major disruptions to their operations. This way, Dynamics 365 becomes a valuable tool for long-term safety and compliance management.
+One notable advantage of implementing *manage workplace compliance* processes within Dynamics 365 and Microsoft 365 is their flexibility. None of these processes are mandatory prerequisites for the system's operation, allowing organizations to tailor their safety management to their specific needs and timelines. These processes can be easily integrated into the system at any stage of its operation or even incrementally added as the organization evolves. This adaptability ensures that companies can respond to changing safety requirements, growth, and new regulations without major disruptions to their operations. This way, Dynamics 365 becomes a valuable tool for long-term safety and compliance management.
 
 ## Stakeholders 
 
-Many people across the organization should contribute to the decision-making process and design of the *Manage occupational health and safety* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Manage workplace compliance* area. The following list provides examples of such stakeholders:
 
 - **Safety Officers/Managers**: Safety officers or managers are responsible for overseeing the entire safety management system. Their role involves defining and implementing safety policies, protocols, and procedures within the system. They also lead safety audits, hazard assessments, and injury/illness reporting processes. Safety officers ensure that the system aligns with regulatory requirements and company safety objectives.
 
@@ -55,11 +58,11 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Safety Data Analysts**: Safety data analysts work with the system to collect, analyze, and interpret safety-related data. They identify trends, patterns, and areas of improvement, helping the organization make data-driven decisions to enhance safety processes and prevent incidents.
 
-These stakeholders have specialized roles in the context of occupational health and safety processes and are integral to the successful implementation of a system that supports safety management within an organization. Their collective efforts ensure a safer, healthier work environment and help the organization meet its safety and compliance objectives.
+These stakeholders have specialized roles in the context of workplace compliance* processes and are integral to the successful implementation of a system that supports safety management within an organization. Their collective efforts ensure a safer, healthier work environment and help the organization meet its safety and compliance objectives.
 
-## Manage occupational health and safety process flow 
+## Manage workplace compliance process flow 
 
-The following diagram illustrates the *Manage occupational health and safety* business process area.
+The following diagram illustrates the *Manage workplace compliance* business process area.
 
 :::image type="content" source="media/hire-to-retire-manage-health-safety-flow.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/hire-to-retire-manage-health-safety-flow.svg":::
 
@@ -71,7 +74,7 @@ The following diagram illustrates the *Manage occupational health and safety* bu
 
 3. *Onboard and manage the employee lifecycle*
 
-4. *Manage occupational health and safety*
+4. *Manage workplace compliance*
 
     1. *Identify workplace hazards*
 
@@ -97,9 +100,9 @@ The following diagram illustrates the *Manage occupational health and safety* bu
 
 5. End
 
-## Manage occupational health and safety benefits
+## Manage workplace compliance benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Manage occupational health and safety* business process area. The following sections outline the key benefits that an organization might monitor and measure for Manage occupational health and safety. 
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Manage workplace compliance* business process area. The following sections outline the key benefits that an organization might monitor and measure for Manage workplace compliance. 
 
 ### Improve incident reporting and response time
 
@@ -123,25 +126,28 @@ Dynamics 365 Human Resources when used with Power Platform can serve as a centra
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your Manage occupational health and safety business processes, you can use the following resources and steps to learn more. (Links are added later, when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your Manage workplace compliance business processes, you can use the following resources and steps to learn more. (Links are added later, when the articles are ready.)
 
-1. [*Plan and recruit your workforce*](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
+1. *Manage workplace compliance* (the article you're currently reading)  
 
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
+    1. *Document safety protocols*
+    1. *Report an injury or illness*
+    1. *Verify employment*  
+    1. *Update worker information*  
+    1. *Manage cases and requests*  
+    1. *Audit workplace for safety*
 
-3. *Manage occupational health and safety* (the article that you're currently reading)
-
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-
-5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-
-6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)  
-
-7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)  
+1. *Offboard talent*  
+1. *Analyze HR programs*
 
 ## Related information
 
-You can use the following resources to learn more about the Manage occupational health and safety process in Dynamics 365.
+You can use the following resources to learn more about the Manage workplace compliance process in Dynamics 365.
 
 - [Set up injury and illness information](/dynamics365/human-resources/hr-personnel-set-up-injury-illness-information)
 - [Maintain employee injury and illness information](/dynamics365/human-resources/hr-personnel-maintain-employee-injury-illness-information)

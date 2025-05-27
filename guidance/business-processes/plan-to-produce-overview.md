@@ -14,6 +14,9 @@ ms.reviewer: edupont
 
 This article describes the *plan to produce* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Plan to produce process relationship
 
 The following diagram shows the relationship of other processes and products/features for the *plan to produce* process. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]

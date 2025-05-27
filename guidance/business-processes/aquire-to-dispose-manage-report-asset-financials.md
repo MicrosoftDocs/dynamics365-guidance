@@ -1,6 +1,6 @@
 ---
-title: Support your organization’s business processes for managing and reporting on asset financials with Dynamics 365 products
-description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to manage and report on asset financials.
+title: Support your organization's business processes for analyzing assets with Dynamics 365 products
+description: Learn how you can use Microsoft Dynamics 365 products to support your organization's business processes to analyze assets.
 ms.date: 09/08/2023
 ms.topic: concept-article
 author: edupont04
@@ -8,15 +8,18 @@ ms.author: hputhran
 
 ---
 
-# Support your organization’s business processes to manage and report on asset financials
+# Support your organization's business processes to analyze assets
 
 ***This applies to: Dynamics 365 Finance,*** ***Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to support your organization's business processes to *manage and report on asset financials*.
+This article describes how you can use Dynamics 365 products to support your organization's business processes to *Analyze assets*.
 
-## Introduction to manage and report on asset financials
+> [!NOTE]
+> In earlier versions of the business process catalog, this area had the name *manage and report on asset financials*. It was renamed in the February 2025 version, and we're still in process of updating the article.
 
-Organization may have certain assets that are large items in the balance sheet. Based on the location and area where the assets are installed or deployed, there may be extra tax component associated with the asset. These assets may have insurance associated with them as well. In some cases, assets may be leased out to a lessee. Hence, it becomes important for companies to optimally manage and report asset information.
+## Introduction to Analyze assets
+
+An organization can have certain assets that are large items in the balance sheet. Based on the location and area where the assets are installed or deployed, there may be extra tax component associated with the asset. These assets may have insurance associated with them as well. In some cases, assets may be leased out to a lessee. Hence, it becomes important for companies to optimally manage and report asset information.
 
 Fixed assets are reported on the balance sheet. Activities related to investments are captured in a company's cash flow statement. The acquisition or disposal of an asset is also recorded in the cash flow statement.
 
@@ -44,21 +47,21 @@ Stakeholders include the roles listed in the following list:
 
 - **Executive leadership** - responsible for overseeing the acquisition and disposal of high-value assets and ensuring alignment with strategic goals.
 
-## Manage and report on asset financials process flow
+## Analyze assets process flow
 
-The following diagram shows the high-level business process flow for *manage and report on asset financials*.
+The following diagram shows the high-level business process flow for *Analyze assets*.
 
 :::image type="content" source="media/aquire-to-dispose-manage-report-asset-financials.svg" alt-text="Flow diagram with steps for the business process area that is further explained in the next paragraphs." lightbox="media/aquire-to-dispose-manage-report-asset-financials.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-The *manage and report on asset financials* business process area flow diagram cover the following steps.
+The *Analyze assets* business process area flow diagram cover the following steps.
 
 1. Start
 
 2. *Acquire to dispose*
 
-3. *Manage and report on asset financials*
+3. *Analyze assets*
 
     1. *Define asset accounting books*
 
@@ -122,9 +125,9 @@ The *manage and report on asset financials* business process area flow diagram c
 
             5. End
 
-## Manage and report on asset financials benefits
+## Analyze assets benefits
 
-The following sections outline the key benefits that an organization might measure to *manage and report on asset financials*. 
+The following sections outline the key benefits that an organization might measure to *Analyze assets*. 
 
 ### Effective financial management
 
@@ -135,32 +138,34 @@ Having inaccurate fixed asset information can lead to incorrect financial report
 When organizations manage and conduct regular reviews of their assets, applying proper controls and processes, the overall asset journey can be laid out properly via financial reports by the accounting team. Such reporting helps in identifying any gaps, issues with information of assets, its financial impacts to the general ledger and a company's performance using these assets.
 
 > [!NOTE]
-> The *manage and report on asset financials* business process area flow is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.
+> The *Analyze assets* business process area flow is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *manage and report on asset financials* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *Analyze assets* business processes, use the following resources and steps to learn more. Links are added when articles become available.
 
-1. [Plan and budget assets](acquire-to-dispose-plan-budget-assets-overview.md)  
+1. *Define asset strategy*
+1. [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)  
+1. [Manage active assets](acquire-to-dispose-manage-internal-assets.md)  
+1. [Perform asset maintenance](acquire-to-dispose-maintain-repair-internal-asset.md)  
+1. [Dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
+1. *Analyze assets* (The article you are currently reading.)  
 
-2. [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)  
-
-3. [Manage internal assets](acquire-to-dispose-manage-internal-assets.md)  
-
-4. *Manage and report on asset financials*. (The article you're currently reading.)
-
-5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)  
-
-6. [Retire and dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
-
+    1. *Monitor asset inventory*  
+    1. *Analyze asset leases*
+    1. *Analyze fixed assets*
+    1. *Monitor asset performance*
+    1. *Analyze maintenance costs*
+    1. *Analyze asset utilization*
+    1. *Reconcile asset subledger*
 
 ## Related information
 
-You can use the following resources to learn more about the *manage and report on asset financials* process in Dynamics 365.
+You can use the following resources to learn more about the *Analyze assets* process in Dynamics 365.
 
 - [Fixed assets home page (Finance)](/dynamics365/finance/fixed-assets/fixed-assets)  
 - [Configure and manage fixed assets and Asset leasing in Dynamics 365 Finance (training)](/training/paths/configure-manage-fixed-assets-dyn365-finance/)  
-- Find definitions of terminology used in content for *manage and report on asset financials* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+- Find definitions of terminology used in content for *Analyze assets* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 
   - [Asset](glossary.md#asset)  
   - [Asset books](glossary.md#asset-books)  

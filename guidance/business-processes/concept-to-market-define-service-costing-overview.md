@@ -104,12 +104,14 @@ Dynamics 365 provides advanced reporting and analytics capabilities that are bui
 If you want to implement Dynamics 365 solutions to assist with your service costing business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Define service offerings and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
+1. [Introduce new services](concept-to-market-introduce-new-services.md)  
+1. [Manage service pricing](concept-to-market-manage-service-pricing-overview.md)  
+1. *Define service costing* (the article that you're currently reading)  
 
-2. *Define service costing* (the article that you're currently reading)
-
-3. Manage service pricing
-
-4. Manage service lifecycle
+    1. *Define service costing strategy*  
+    1. *Maintain service costs*  
+    1. *Analyze service costs*  
+1. [Manage service lifecycle](concept-to-market-manage-service-lifecycle-overview.md)  
 
 ## Related information
 

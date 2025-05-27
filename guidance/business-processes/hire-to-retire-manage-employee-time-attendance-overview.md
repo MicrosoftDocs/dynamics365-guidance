@@ -1,21 +1,21 @@
 ---
-title: Overview of the Manage employee time and attendance overview business process area
-description: Learn about the manage employee time and attendance business process, including learning about the various stakeholders and process flow.
+title: Overview of the Manage time and attendance overview business process area
+description: Learn about the Manage time and attendance business process, including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
 ms.date: 02/28/2024
 ---
 
-# Overview of the Manage employee time and attendance overview business process area within the Hire to retire end-to-end scenario
+# Overview of the Manage time and attendance overview business process area within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes how organizations can *manage employee time and attendance* including leave and absence, timesheets, shift, and time clocks using Dynamics 365 products.
+This article describes how organizations can *Manage time and attendance* including leave and absence, timesheets, shift, and time clocks using Dynamics 365 products.
 
-*Managing employee time and attendance* is a critical aspect of organizational efficiency, playing a pivotal role in ensuring optimal workforce productivity and compliance. In today's dynamic business environment, the use of Dynamics 365 products, such as Human Resources, Project Operations, Field Service, and Supply Chain Management, can help organizations streamline these crucial processes. These tools enable an interconnected approach to time and attendance management including leave and absence management, fostering a more cohesive and efficient work environment.
+*Managing time and attendance* is a critical aspect of organizational efficiency, playing a pivotal role in ensuring optimal workforce productivity and compliance. In today's dynamic business environment, the use of Dynamics 365 products, such as Human Resources, Project Operations, Field Service, and Supply Chain Management, can help organizations streamline these crucial processes. These tools enable an interconnected approach to time and attendance management including leave and absence management, fostering a more cohesive and efficient work environment.
 
-The process of managing employee time and attendance encompasses several key business processes that are supported by Dynamics 365. Organizations typically start by defining and managing time and attendance policies to align with their specific requirements. Dynamics 365 Human Resources supports flexible configuration for leave and absence policies and plans including sick time, paid time off, selling or borrowing leave, and the leave accrual process.
+The process of *managing time and attendance* encompasses several key business processes that are supported by Dynamics 365. Organizations typically start by defining and managing time and attendance policies to align with their specific requirements. Dynamics 365 Human Resources supports flexible configuration for leave and absence policies and plans including sick time, paid time off, selling or borrowing leave, and the leave accrual process.
 
 In addition, you can use Dynamics 365 Human Resources to record employee absences and facilitate requests for time off, all seamlessly integrated into the employee self-service experience. In addition, Dynamics 365 Commerce supports the ability to create and managing shifts.
 
@@ -27,7 +27,7 @@ Determining the high-level architecture of your solution early in the implementa
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *Manage employee time and attendance* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Manage time and attendance* area. The following list provides examples of such stakeholders:
 
 **Human resource stakeholders** include HR managers and HR specialists. Their involvement is crucial in defining and managing time and attendance policies, ensuring alignment with HR guidelines and regulations. They play a key role in shaping policies that reflect the organization's culture and compliance requirements.
 
@@ -39,7 +39,7 @@ Many people across the organization should contribute to the decision-making pro
 
 **Employees stakeholders**: All employees are stakeholders in the time and attendance process, as they actively participate in requesting time off, submitting timesheets, and ensuring the accuracy of their attendance records. Clear communication and training are vital to their effective engagement in these processes.
 
-## Manage employee time and attendance process flow
+## Manage time and attendance process flow
 
 The following diagram illustrates the *Record time and attendance and manage leave and absences* business process area. 
 
@@ -55,7 +55,7 @@ The following diagram illustrates the *Record time and attendance and manage lea
 
 3. *Onboard and manage the employee lifecycle*
 
-4. *Manage employee time and attendance*
+4. *Manage time and attendance*
 
    1. *Define and manage time and attendance policies*
 
@@ -75,9 +75,9 @@ The following diagram illustrates the *Record time and attendance and manage lea
 
 5. End
 
-## Manage employee time and attendance benefits
+## Manage time and attendance benefits
 
-Many key benefits can be used to monitor and measure the success of implementing technology to support the *manage employee time and attendance*. The following sections outline the key benefits that an organization might monitor and measure for *manage employee time and attendance*.
+Many key benefits can be used to monitor and measure the success of implementing technology to support the *Manage time and attendance*. The following sections outline the key benefits that an organization might monitor and measure for *Manage time and attendance*.
 
 ### Improved workforce efficiency
 
@@ -111,25 +111,29 @@ KPIs for this benefit include a decrease in labor costs related to manual admini
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *manage employee time and attendance* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you would like to implement Dynamics 365 solutions to assist with your *Manage time and attendance* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. *Manage time and attendance* (the article you're currently reading)  
 
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
+    1. *Develop leave and absence policies*  
+    1. *Record employee absences*  
+    1. *Manage shifts*  
+    1. *Request time off*  
+    1. *Record employee time*  
+    1. *Request travel*  
+    1. [Manage employee travel](hire-to-retire-manage-travel-expenses.md)  
 
-3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-
-5. *Manage employee time and attendance* (the article you're reading right now)
-
-6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)  
-
-7. [Manage employee benefits and compensation](hire-to-retire-manage-employee-benefits-payroll.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)
+1. *Offboard talent*  
+1. *Analyze HR programs*
 
 ## Related information
 
-You can use the following resources to learn more about the *manage employee time and attendance* process in Dynamics 365.
+You can use the following resources to learn more about the *Manage time and attendance* process in Dynamics 365.
 
 - [Leave and absence overview - Human Resources](/dynamics365/human-resources/hr-leave-and-absence-overview)
 
@@ -139,7 +143,7 @@ You can use the following resources to learn more about the *manage employee tim
 
 - [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning)
 
-Find definitions of terminology used in content for *manage employee time and attendance* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
+Find definitions of terminology used in content for *Manage time and attendance* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 
 - [Flex groups](glossary.md#flex-groups)
 - [Leave and absence plan](glossary.md#leave-and-absence-plan)

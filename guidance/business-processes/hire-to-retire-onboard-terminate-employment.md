@@ -1,17 +1,20 @@
 ---
-title: Overview of the Terminate employee business process
-description: Learn how the Terminate employee business process can help you maintain a productive work environment by efficiently offboarding staff members.
-ms.date: 11/19/2024
+title: Overview of the Terminate workers business process
+description: Learn how the Terminate workers business process can help you maintain a productive work environment by efficiently offboarding staff members.
+ms.date: 05/22/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---
 
-# Overview of the Terminate employee business process within the Hire to retire end-to-end scenario
+# Overview of the Terminate workers business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
-This article describes the background of the *Terminate employee* business process in Dynamics 365 Human Resources. The purpose of terminating an employee is to formally end their employment. When you terminate a worker's employment, you conclude all position assignments and employment affiliations for that worker.
+This article describes the background of the *Terminate workers* business process in Dynamics 365 Human Resources. The purpose of terminating an employee is to formally end their employment. When you terminate a worker's employment, you conclude all position assignments and employment affiliations for that worker.
+
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this business process was part of the *Onboard and manage the employee lifecycle* business process area. In February 2025, we moved the business process to a new business process area, *Offboard talent*.
 
 *Worker affiliations* represent the various roles, positions, and responsibilities that a worker can have in an organization.
 
@@ -40,7 +43,7 @@ Termination significantly affects payroll processing. The following list outline
 
 ## Stakeholders
 
-Definition of the *Terminate employee* business process in Dynamics 365 Human Resources involves several key stakeholders.
+Definition of the *Terminate workers* business process in Dynamics 365 Human Resources involves several key stakeholders.
 
 - **Human Resources managers** play a crucial role in defining the organizational structure, and in planning and managing the employee lifecycle. They define and manage hiring needs, employee benefits, compensation plans, and other Human Resources processes.
 - **Recruiters** are responsible for sourcing and recruiting qualified candidates. They use Dynamics 365 Human Resources to manage recruitment projects and streamline communications between departments.
@@ -51,9 +54,9 @@ Definition of the *Terminate employee* business process in Dynamics 365 Human Re
 - **Employees** are all the users who participate in the business process in a self-service capacity, by updating information that is related to themselves or approving work items that are assigned to them.
 - **Managers** are the users who participate in the business process by managing a team and working with the team's information, such performance reviews, leave and absence, timesheets, and approvals.
 
-## Terminate employee process flow
+## Terminate workers process flow
 
-The following diagram illustrates the *Terminate employee* process area.
+The following diagram illustrates the *Terminate workers* process area.
 
 :::image type="content" source="media/hire-to-retire-onboard-terminate-employment.svg" alt-text="Diagram that shows four boxes with lists of steps, one for each main step of the process for terminating employment: prerequisites, defining approvals and checklists, terminating employment, and updating the worker position assignment." lightbox="media/hire-to-retire-onboard-terminate-employment.svg":::
 
@@ -84,7 +87,7 @@ The following diagram illustrates the *Terminate employee* process area.
 
 ## Implementing the process of terminating employment
 
-Before you initiate the *Terminate employee* process, we recommend that you look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
+Before you initiate the *Terminate workers* process, we recommend that you look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
 
 The process of terminating employment includes capturing approval, completing checklists for follow-up, and ending benefits, compensation, and leave. In this way, you conclude all position assignments and employment affiliations for the worker. If termination occurs because of reorganization, the position itself can be terminated. Otherwise, the position becomes available for another employee or new hire as soon as it's vacated.
 
@@ -111,30 +114,26 @@ When an employee is terminated, their access to company systems should be prompt
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Terminate employee* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Terminate workers* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)
-1. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)
+1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
+1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
+1. [Manage workplace compliance](hire-to-retire-manage-occupational-health-safety.md)
+1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
+1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
+1. [Manage compensation and benefits](hire-to-retire-manage-employee-benefits-payroll.md)  
+1. *Offboard talent*  
 
-    - [Hire an employee](hire-to-retire-onboard-hire-employees.md)
-    - [Onboard new hires](hire-to-retire-onboard-new-hires.md)
-    - [Update employee records](hire-to-retire-update-employee-records.md)
-    - Create and manage teams
-    - Communicate issues and changes with HR
-    - [Transfer employee](hire-to-retire-onboard-transfer-employees.md)
-    - Generate employment verification letters
-    - Employee relocation
-    - *Terminate employee* (the article that you're currently reading)
-
-1. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)
-1. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)
-1. [Manage worker compensation, benefits, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)
-1. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
-1. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)
+    1. *Conduct succession planning*  
+    1. *Conduct exit interviews*  
+    1. *Plan worker retirement*  
+    1. *Terminate workers* (the article that you're currently reading)  
+    1. *Furlough workers*
+1. *Analyze HR programs*
 
 ## Related patterns
 
-The following patterns are available to help guide your implementation of the *Terminate employee* business process. (Links are added when the articles are ready.)
+The following patterns are available to help guide your implementation of the *Terminate workers* business process. (Links are added when the articles are ready.)
 
 - Eliminate a position
 - Perform a mass involuntary (lay off) of workers
@@ -143,7 +142,7 @@ The following patterns are available to help guide your implementation of the *T
 
 ## Related resources
 
-You can use the following resources to learn more about the *Terminate employee* process in Dynamics 365.
+You can use the following resources to learn more about the *Terminate workers* process in Dynamics 365.
 
 - [Personnel management workspace](/dynamics365/human-resources/hr-personnel-personnel-management-workspace)
 - [Human resources overview](/dynamics365/fin-ops-core/fin-ops/hr/hr-landing-page#recruit-hire-and-motivate-employees)

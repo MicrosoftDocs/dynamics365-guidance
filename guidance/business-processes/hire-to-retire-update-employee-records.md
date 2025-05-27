@@ -1,26 +1,26 @@
 ---
-title: Overview of the Update employee records business process 
-description: Discover how the Update employee records business process can help you optimize and foster a productive work environment.
-ms.date: 11/19/2024
+title: Overview of the Update worker information business process 
+description: Discover how the Update worker information business process can help you optimize and foster a productive work environment.
+ms.date: 05/22/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---
-# Overview of the Update employee records business process within the Hire to retire end-to-end scenario
+# Overview of the Update worker information business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
-This article describes the background of *update employee records* in Dynamics 365 Human Resources. The first step in the hiring process involves structuring your organization using elements such as departments, jobs, and positions. These foundational elements are configured in Dynamics 365 Human Resources, and individual employees are assigned to positions associated with jobs.
+This article describes the background of *Update worker information* in Dynamics 365 Human Resources. The first step in the hiring process involves structuring your organization using elements such as departments, jobs, and positions. These foundational elements are configured in Dynamics 365 Human Resources, and individual employees are assigned to positions associated with jobs.
 
 Once a candidate is selected and hired, Dynamics 365 Human Resources helps in maintaining all relevant worker information from the point of hire until the employee leaves your organization.
 
-The purpose of the *update employee records* process is to have all employee data available that is required based on relevancy and business policy. In Dynamics 365 Human Resources, you can manage the employee's journey in the organization in an efficient way. This not only saves time and resources but also contributes to better employee performance and satisfaction.
+The purpose of the *Update worker information* process is to have all employee data available that is required based on relevancy and business policy. In Dynamics 365 Human Resources, you can manage the employee's journey in the organization in an efficient way. This not only saves time and resources but also contributes to better employee performance and satisfaction.
 
 When employees are hired, Dynamics 365 Human Resources allows you to maintain extensive worker information from *hire to retire*. This includes administering organizational structures, defining and administering benefit and compensation plans, and enrolling workers in them.
 
 When employees are hired, Dynamics 365 Human Resources can bring all employee data together to offer useful people analytics and advice powered by Microsoft's top business intelligence and AI technology. This helps businesses reduce workforce expenses and support employees better.
 
-Defining the business process for Update employee records in Dynamics 365 Human Resources involves several key stakeholders.
+Defining the business process for *Update worker information* in Dynamics 365 Human Resources involves several key stakeholders.
 
 ## Stakeholders
 
@@ -44,13 +44,13 @@ Find the key stakeholders that could be relevant for *Updating employee records*
 
 - **Managers** are the end users involved with the business process in the capacity of managing a team and working with the team's information, including performance reviews, leave and absence, timesheets, approvals, and more.
 
-## Update employee records process flow
+## Update worker information process flow
 
-The following diagram illustrates the Update employee records process area.
+The following diagram illustrates the Update worker information process area.
 
 :::image type="content" source="media/hire-to-retire-update-employee-records-flow.svg" alt-text="Shows four boxes with lists of steps as outlined after the flow diagram." lightbox="media/hire-to-retire-update-employee-records-flow.svg":::
 
-1. Update employee records
+1. Update worker information
 
     1. Complete and capture address information
     2. Complete and capture contact and family information
@@ -68,9 +68,9 @@ The following diagram illustrates the Update employee records process area.
     1. Add and maintain family information
     2. Add and maintain name details
 
-## Implementing the update employee records process
+## Implementing the Update worker information process
 
-Before you start the *update employee records* process, we advise that you look into the HR parameters and settings. These parameters can be configured either for the specific legal entity you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors within HR features, aligned with business policies.
+Before you start the *Update worker information* process, we advise that you look into the HR parameters and settings. These parameters can be configured either for the specific legal entity you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors within HR features, aligned with business policies.
 
 From an HR business process perspective, employee records are updated when the employee is going through a lifecycle change. Such changes include promotion, position change, change in personal information such as address change, bank account change, marital status change, and others.
 
@@ -86,7 +86,7 @@ Several options are available for updating employee records:
 
 Other notifications or cross application/business domain-based approvals can be triggered using Power Automate, which can help extend the standard functionality based on the business needs of the customer.
 
-The following table explains the configuration components involved in supporting the *update employee records* business process.
+The following table explains the configuration components involved in supporting the *Update worker information* business process.
 
 | **Seq** | **Configuration component** | **Req?** | **Product** | **Menu path** |
 |--|--|--|--|--|
@@ -102,7 +102,7 @@ Find content about setting up your HR processes in Dynamics 365 Human Resources 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *update employee records* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Update worker information* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)  
 
@@ -112,7 +112,7 @@ If you want to implement Dynamics 365 solutions to assist with your *update empl
 
     - [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
 
-    - *Update employee records* (the article you're currently reading)
+    - *Update worker information* (the article you're currently reading)
 
     - Create and manage teams
 
@@ -138,7 +138,7 @@ If you want to implement Dynamics 365 solutions to assist with your *update empl
 
 ## Related patterns
 
-The following patterns are available to help guide your implementation of the *update employee records* business process. (Links are added when the articles are ready.)
+The following patterns are available to help guide your implementation of the *Update worker information* business process. (Links are added when the articles are ready.)
 
 - Change an employee's location
 
@@ -160,7 +160,7 @@ The following patterns are available to help guide your implementation of the *u
 
 ## Related information
 
-You can use the following resources to learn more about the *Update employee records* process in Dynamics 365:
+You can use the following resources to learn more about the *Update worker information* process in Dynamics 365:
 
 - [Personnel management workspace](/dynamics365/human-resources/hr-personnel-personnel-management-workspace)     <!--WAS (/dynamics365/fin-ops-core/fin-ops/hr/hr-landing-page#recruit-hire-and-motivate-employees)-->
 

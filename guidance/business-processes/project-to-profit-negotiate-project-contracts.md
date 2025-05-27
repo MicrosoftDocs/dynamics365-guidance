@@ -4,7 +4,7 @@ description: Learn how to effectively negotiate project contracts using Dynamics
 author: edupont04  
 contributors:  
 ms.topic: concept-article 
-ms.date: 04/22/2025
+ms.date: 05/26/2025
 ms.author: edupont  
 ms.reviewer: edupont  
 ---
@@ -100,12 +100,20 @@ Use the following table to guide you in negotiating a project contract.
 
 If you want to implement Dynamics 365 solutions to assist with your *Negotiate project contracts* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)  
 
-1. [*Estimate project contracts*](project-to-profit-estimate-project-contracts.md)  
-1. *Negotiate project contracts* (the article you're currently reading)  
-1. *Finalize project contracts*  
-1. *Maintain project contracts*  
-1. *Process project change requests*  
-1. *Define project stakeholders*  
+1. [Develop project strategy](project-to-profit-govern-projects-overview.md)
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+
+    1. [Estimate project contracts](project-to-profit-estimate-project-contracts.md)  
+    1. Negotiate project contracts. (The article you're currently reading.)  
+    1. *Finalize project contracts*  
+    1. *Maintain project contracts*  
+    1. *Process project change requests*  
+    1. *Define project stakeholders*
+
+1. [Plan projects](project-to-profit-manage-project-scope-schedule-overview.md)  
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)  
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md) 
 
 ## Related resources
 

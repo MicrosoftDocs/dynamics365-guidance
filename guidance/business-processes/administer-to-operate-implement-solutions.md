@@ -47,19 +47,38 @@ The *Implement solutions* business process area is part of the *implement* stage
 
 If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-- *Implement solutions* (The article you're currently reading.)
-- *[Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
-- *Manage licensing and entitlements*
-- *Administer system features*
-- [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-- [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)
-- *Monitor systems, environments, and capacity*
-- *Manage background jobs*
-- *Manage notifications alerts*
-- *Uptake software releases*
-- [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)  
-- [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-- [Support systems](administer-to-operate-support-systems-overview.md)  
+1. Implement solutions overview* (the article you're currently reading.)  
+
+    1. *Implement cloud solutions*  
+    1. *Drive app value*  
+    1. *Define implementation strategy*  
+    1. *Create solution blueprint*  
+    1. *Implement process governance*  
+    1. *Define environment strategy*  
+    1. *Implement project governance approach*  
+    1. *Manage organizational change*  
+    1. *Manage data*  
+    1. *Implement application lifecycle management (ALM) strategies*  
+    1. *Define security approach*  
+    1. *Define usability strategy*  
+    1. *Define business intelligence, reporting, and analytics strategy*  
+    1. *Define testing approach*  
+    1. *Define extensions approach*  
+    1. *Define integration strategy*  
+    1. *Define performance strategy*  
+    1. *Prepare to go live*
+1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+1. *Manage licensing and entitlements*  
+1. [Administer system features](administer-to-operate-administer-system-features.md)   
+1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
+1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
+1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related information
 

@@ -171,3 +171,11 @@ By the end of this workshop, the aim is to achieve 80-90% accuracy and acceptanc
 
 For each of the *acquire to dispose* business process areas that the implementation project must include, we recommend that you have a dedicated design workshop where you dig into needs, concerns, and specific requirements. Each design workshop has almost the same agenda, but there are probably different stakeholders, and there might be different compliance and regulatory concerns.
 
+## Related information
+
+- *Define asset strategy*
+- [Acquire assets](acquire-to-dispose-acquire-assets-overview.md)  
+- [Manage active assets](acquire-to-dispose-manage-internal-assets.md)  
+- [Perform asset maintenance](acquire-to-dispose-maintain-repair-internal-asset.md)  
+- [Dispose of assets](acquire-to-dispose-retire-dispose-assets.md)  
+- [Analyze assets](aquire-to-dispose-manage-report-asset-financials.md)  

@@ -140,18 +140,34 @@ These benefits highlight the synergy between Dynamics 365, Azure, and effective 
 
 If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-- *Define business continuity plan* (The article you're currently reading.)
-- *Manage licensing and entitlements*
-- *Administer system features*
-- [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-- [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)
-- *Monitor systems, environments, and capacity*
-- *Manage background jobs*
-- *Manage notifications alerts*
-- *Uptake software releases*
-- [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)  
-- [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-- [Support systems](administer-to-operate-support-systems-overview.md)  
+1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+1. *Define business continuity plan* (the article you're currently reading.)  
+
+    1. *Define business continuity objectives*  
+    1. *Conduct a business impact analysis*  
+    1. *Identify business continuity risks*  
+    1. *Develop a business continuity plan*  
+    1. *Implement a business continuity plan*  
+    1. *Test and validate the business continuity plan*  
+    1. *Maintain and update the business continuity plan*  
+    1. *Identify critical system and data*  
+    1. *Conduct a disaster risk assessment*  
+    1. *Define recovery objectives*  
+    1. *Develop a disaster recovery plan*  
+    1. *Implement the disaster recovery plan*  
+    1. *Test and validate the disaster recovery plan*  
+    1. *Mitigate and update the disaster recovery plan*
+1. *Manage licensing and entitlements*  
+1. [Administer system features](administer-to-operate-administer-system-features.md)   
+1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
+1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
+1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related information
 

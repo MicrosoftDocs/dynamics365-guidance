@@ -1,5 +1,5 @@
 ---
-title: Overview of the Track production operations business process area
+title: Overview of the Develop production processes business process area
 description: Get an overview of the business process area for tracking production cost in the plan to produce end-to-end business process in Dynamics 365 solutions.
 ms.date: 11/24/2023
 ms.topic: concept-article
@@ -7,21 +7,24 @@ author: edupont04
 ms.author: annekrupke
 ---
 
-# Overview of the Track production operations business process area within the Plan to produce end-to-end scenario
+# Overview of the Develop production processes business process area within the Plan to produce end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
-This article describes the *track production costs* business process area. It describes the process flow of this area and explains the benefits of using Dynamics 365 to support this process area.
+This article describes the *Develop production processes* business process area. It describes the process flow of this area and explains the benefits of using Dynamics 365 to support this process area.
 
-The *track production costs* business process area encompasses defining the costing strategy for produced items, estimating production costs, and recording the actual costs based on production activities. Tracking production costs requires coordination and communication among many departments, including Engineering, Operations, Quality, Sales, Planning, and Procurement.
+> [!IMPORTANT]
+> In earlier versions of the business process catalog, this article represented a business process area, *Track production costs*. In February 2025, it was renamed to *Develop production processes* and is now a business process under the *Develop production strategies* area, and we're in process of updating the content to reflect this change.
+
+The *Develop production processes* business process area encompasses defining the costing strategy for produced items, estimating production costs, and recording the actual costs based on production activities. Tracking production costs requires coordination and communication among many departments, including Engineering, Operations, Quality, Sales, Planning, and Procurement.
 
 The base components of production costs are typically categorized into the following four groups: direct material costs, resource or direct labor costs, subcontracting costs, and indirect or overhead production costs. Some organizations include all four groups of components in their Dynamics 365 Supply Chain Management implementation. Other organizations track only material costs, for example, especially when material costs represent most of the total cost.
 
-Because the *track production costs* business process area is fundamental for any manufacturing company, you should define it when you first begin to implement Dynamics 365 Supply Chain Management. Production costing strategies can be updated as required as the business evolves. However, many decisions must be made up front because of their impact on the rest of the *plan to produce* process.
+Because the *Develop production processes* business process area is fundamental for any manufacturing company, you should define it when you first begin to implement Dynamics 365 Supply Chain Management. Production costing strategies can be updated as required as the business evolves. However, many decisions must be made up front because of their impact on the rest of the *plan to produce* process.
 
 ## Stakeholders
 
-Many people in an organization should contribute to the decision-making process and design of the *track production costs* area. The list includes the following contributors:
+Many people in an organization should contribute to the decision-making process and design of the *Develop production processes* area. The list includes the following contributors:
 
 - **Production stakeholders** – Examples: Production manager and Production scheduler
 - **Engineering stakeholders** – Examples: Product owner and Engineering manager
@@ -29,13 +32,13 @@ Many people in an organization should contribute to the decision-making process 
 - **Quality stakeholders** – Examples: Quality manager and Quality technician
 - **Finance stakeholders** – Examples: Inventory accounting and CFO
 
-## Track production costs process flow
+## Develop production processes process flow
 
-The following diagram shows the high-level flow of the *track production costs* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram shows the high-level flow of the *Develop production processes* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/plan-to-produce-track-production-cost-flow.svg" alt-text="Flow diagram for the track production costs business process area, which is explained in the next paragraphs." lightbox="media/plan-to-produce-track-production-cost-flow.svg":::
+:::image type="content" source="media/plan-to-produce-track-production-cost-flow.svg" alt-text="Flow diagram for the Develop production processes business process area, which is explained in the next paragraphs." lightbox="media/plan-to-produce-track-production-cost-flow.svg":::
 
-The following steps are illustrated in the *track production costs* business process flow diagram.
+The following steps are illustrated in the *Develop production processes* business process flow diagram.
 
 1. Start
 
@@ -66,7 +69,7 @@ The following steps are illustrated in the *track production costs* business pro
     Learn more at TODOADDLINK.
 
 1. *Define product costing* business process area
-1. *Track production costs* business process area (this article)
+1. *Develop production processes* business process area (this article)
 1. *Define production costs* business process
 1. *Estimate the cost of production* business process
 1. *Record costs in production* business process
@@ -82,9 +85,9 @@ The following steps are illustrated in the *track production costs* business pro
 
 1. End
 
-## Track production costs benefits
+## Develop production processes benefits
 
-There are many key benefits to using Dynamics 365 to support the *track production costs* business process area. The following sections outline the key benefits that an organization might monitor and measure for *track production costs*.
+There are many key benefits to using Dynamics 365 to support the *Develop production processes* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Develop production processes*.
 
 ### Improved production data quality
 
@@ -100,27 +103,23 @@ Without true production cost tracking, organizations must rely on assumptions or
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your *Develop production processes* business processes, use the following resources and steps to learn more.(Links are added when the articles are ready.)
 
-1. [Define product costing overview](design-to-retire-define-product-costing-overview.md)  
+1. [Develop production strategies](plan-to-produce-define-production-strategies.md)
 
-2. [Define production strategies](plan-to-produce-define-production-strategies.md)
-
-3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
-
-4. [Run production operations overview](plan-to-produce-execute-production-operations-overview.md)
-
-5. [Outsource production operations](plan-to-produce-track-production-costs-overview.md)
-
-6. [Control production quality](plan-to-produce-control-production-quality-overview.md)
-
-7. *Track production costs* (the article that you're currently reading)
-
-Return to the overview of business process areas at [Plan to produce business process areas](plan-to-produce-areas.md).
+    1. *Develop production processes* (the article that you're currently reading)  
+    1. *Map value streams*  
+    1. *Identify production resources*  
+    1. *Develop subcontracting strategy*  
+    1. *Correct production processes*
+1. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)  
+1. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
+1. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
+1. *Analyze production operations*  
 
 ## Related information
 
-You can use the following resources to learn more about the *track production costs* process in Dynamics 365.
+You can use the following resources to learn more about the *Develop production processes* process in Dynamics 365.
 
 - [TechTalk – Manufacturing Accounting in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=3e44201b-72e9-4db2-99bb-13e03b3514ae)
 - [TechTalk – Production Variance Analysis in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=2f04e0a8-4345-493c-96e6-29f8fb34e8c9)

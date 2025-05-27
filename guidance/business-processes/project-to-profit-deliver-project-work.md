@@ -113,15 +113,23 @@ The delivery of project work through Dynamics 365 Project Operations streamlines
 If you want to implement Dynamics 365 solutions to help with your *manage project delivery* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+1. [Plan projects](project-to-profit-plan-projects-overview.md)  
+1. *Manage project delivery* (the article that you're currently reading)  
 
-2. *Manage project contracts*
-
-3. [Plan projects](project-to-profit-plan-projects-overview.md)
-4. *Manage project delivery* (the article that you're currently reading)
-
-5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
-
-6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+    1. *Govern projects*  
+    1. *Control project scope*  
+    1. *Track project expenses*  
+    1. *Track project time*  
+    1. *Track project fees*  
+    1. *Purchase project materials*  
+    1. *Use and track project materials*  
+    1. *Produce project materials*  
+    1. *Subcontract project components*  
+    1. *Manage project communications*  
+    1. *Manage project knowledge and documentation*
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 ## Related information
 

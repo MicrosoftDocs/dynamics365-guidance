@@ -13,6 +13,9 @@ ms.author: raprofit
 
 The *design to retire* process is broken down into business process areas for categorizing products, introducing new products, maintaining product data, organizing and assigning product attributes and catalogs, designing and configuring manufactured products, controlling product engineering changes, defining product costing, managing product pricing, managing product assortments and catalogs, and managing product lifecycle. The following sections further describe these business process areas.
 
+> [!IMPORTANT]
+> This overview of business process areas doesn't yet reflect the current version of the business process catalog.
+
 The *design to retire* process covers the process for introducing new *tangible products*. Learn more about bringing *services* to market at [Concept to market](concept-to-market-overview.md).
 
 ## Define product catalog and strategy

@@ -4,7 +4,7 @@ description: Learn how to use Dynamics 365 to support your organization's busine
 author: Pjagotra
 ms.author: pjagotra
 ms.topic: concept-article
-ms.date: 12/10/2024
+ms.date: 05/20/2025
 ai-usage: ai-assisted
 ---
 
@@ -96,23 +96,23 @@ The *manage supplier relationships* business process area can help you:
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to support your *manage supplier relationships* business processes, use these resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to support your *manage supplier relationships* business processes, use these resources and steps to learn more. (Links are added when the articles are ready.)  
 
-1. *Manage supplier relationships* (the article that you're reading)
+1. [Define procurement and sourcing strategies](source-to-pay-define-procurement-sourcing-strategy-overview.md)  
+1. *Manage supplier relationships* (the article that you're currently reading)  
 
-2. [Develop a sourcing strategy](source-to-pay-define-procurement-sourcing-strategy-overview.md)  
-
-3. [Define a procurement catalog](source-to-pay-define-procurement-catalogs-overview.md)
-
-4. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)  
-
-5. [Process supplier invoices](source-to-pay-manage-accounts-payable-overview.md)  
-
-6. [Issue and settle supplier payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
-
-7. [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
-
-8. *Analyze supplier performance*
+    1. *Discover suppliers*
+    1. *Onboard new suppliers*
+    1. *Manage active suppliers*
+    1. *Evaluate supplier performance*
+    1. *Track supplier certifications and compliance*
+    1. *Manage supplier risk*
+    1. *Manage supplier contracts*
+    1. *Manage supplier pricing*
+1. *Source and contract goods and services*
+1. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)  
+1. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
+1. *Analyze procurement and sourcing*  
 
 ## Related information
 

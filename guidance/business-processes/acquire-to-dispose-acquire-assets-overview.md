@@ -1,7 +1,7 @@
 ---
 title: Overview of the Acquire assets business process
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to acquire assets.
-ms.date: 02/06/2025
+ms.date: 05/21/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: sdaggubati
@@ -161,12 +161,26 @@ Acquiring or leasing assets strategically by investing in the latest technology,
 
 If you would like to implement Dynamics 365 solutions to assist with your acquire assets business processes, you can use the following resources and steps to learn more. Links are added when articles become available.
 
-1. [Plan and budget assets](acquire-to-dispose-plan-budget-assets-overview.md)  
-2. Acquire assets. (The article you're currently reading.)
-3. *Manage internal assets*
-4. *Manage and report on asset financials*
-5. [Maintain and repair internal assets](acquire-to-dispose-maintain-repair-internal-asset.md)  
-6. *Retire and dispose of assets*
+1. *Define asset strategy*
+1. *Acquire assets* (The article you're currently reading.)  
+
+    1. *Plan fixed assets*
+    1. *Plan asset leases*
+    1. *Budget fixed assets*
+    1. *Budget asset leases*
+    1. *Reallocate asset budgets*
+    1. *Source assets*
+    1. *Purchase assets*
+    1. *Produce assets*
+    1. *Lease assets*
+    1. *Install and commission assets*
+    1. *Record fixed asset acquisitions*
+    1. *Record asset lease right-of-use*
+
+1. [Manage active assets](acquire-to-dispose-manage-internal-assets.md)  
+1. [Perform asset maintenance](acquire-to-dispose-maintain-repair-internal-asset.md)  
+1. [Dispose of assets](acquire-to-dispose-retire-dispose-assets.md) 
+1. [Analyze assets](aquire-to-dispose-manage-report-asset-financials.md)  
 
 ## Related information
 

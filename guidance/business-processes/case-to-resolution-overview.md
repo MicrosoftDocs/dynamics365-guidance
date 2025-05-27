@@ -13,6 +13,9 @@ ms.author: marcoje
 
 This article describes the *case to resolution* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Case to resolution process relationship
 
 The following diagram shows the relationship of other processes and products/features for the *case to resolution* process.

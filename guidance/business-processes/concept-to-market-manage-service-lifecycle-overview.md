@@ -4,7 +4,7 @@ description: Learn about the manage service lifecycle business process, includin
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 02/27/2024
+ms.date: 05/27/2025
 ---
 
 # Overview of the Manage service lifecycle business process area within the Concept to market end-to-end scenario
@@ -113,15 +113,16 @@ This interoperability leads to streamlined processes, reduced manual effort in d
 
 If you would like to implement Dynamics 365 solutions to assist with your *manage service lifecycle* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define service offering and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
+1. [Define service offerings and strategy](concept-to-market-define-service-offerings-strategy-overview.md)
+1. [Introduce new services](concept-to-market-introduce-new-services.md)  
+1. [Manage service pricing](concept-to-market-manage-service-pricing-overview.md)  
+1. [Manage service costing](concept-to-market-define-service-costing-overview.md)  
+1. *Manage service lifecycle* (the article you're currently reading).  
 
-2. [Introduce new services](concept-to-market-introduce-new-services.md)
-
-3. *Manage service pricing*
-
-4. [Define service costing](concept-to-market-define-service-costing-overview.md)
-
-5. *Manage service lifecycle* (the article you're currently reading).
+    1. *Analyze service performance*  
+    1. *Optimize services*  
+    1. *Update service details*  
+    1. *Retire a service*
 
 ## Related information
 

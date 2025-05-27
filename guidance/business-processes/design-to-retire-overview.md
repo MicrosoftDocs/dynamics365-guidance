@@ -13,6 +13,9 @@ ms.author: raprofit
 
 This article describes the *design to retire* end-to-end business process flow and its relationship to other business processes that can be used in Dynamics 365.
 
+> [!IMPORTANT]
+> [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 ## Design to retire process relationship
 
 The following diagram shows the relationship of other processes and products/features for the *design to retire* process. The *design to retire* process covers the process for introducing new *tangible products*. Learn more about bringing *services* to market at [Concept to market end-to-end overview](concept-to-market-overview.md).

@@ -98,13 +98,18 @@ Dynamics 365 helps you save costs by enabling efficient warehouse operations. Wi
 
 If you want to implement Dynamics 365 solutions to assist with your *manage warehouse operations* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Manage warehouse operations* (the article that you're currently reading)
+1. *Manage warehouse operations* (the article that you're currently reading)  
+
+    1. *Define warehouse processes*  
+    1. *Design warehouse layout*  
+    1. *Document warehouse policies*  
+    1. *Manage work assignments*
+
 1. [Maintain inventory levels](inventory-to-deliver-maintain-inventory-levels-overview.md)  
 1. *Process inbound goods*
 1. *Process outbound goods*
 1. *Manage inventory quality*
 1. [Manage freight and transportation](inventory-to-deliver-manage-freight-transportation.md)
-1. [Record and manage inventory costs](inventory-to-deliver-record-manage-inventory-costs.md)
 1. *Analyze warehouse operations*
 
 ## Related information

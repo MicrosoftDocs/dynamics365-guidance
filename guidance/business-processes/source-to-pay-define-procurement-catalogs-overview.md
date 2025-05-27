@@ -93,27 +93,19 @@ When you can organize and group similar items in categories within the procureme
 
 If you want to implement Dynamics 365 solutions to assist with your *define procurement catalogs* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Manage vendor relationships](source-to-pay-manage-vendor-relationships-overview.md)
+1. [Develop a procurement and sourcing strategy](source-to-pay-define-procurement-sourcing-strategy-overview.md) 
 
-2. [Develop sourcing strategies](source-to-pay-define-procurement-sourcing-strategy-overview.md)
-
-3. *Define procurement catalogs* (The article you're currently reading.)
-
-4. *Define procurement policies*
-
-5. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
-
-6. [Process supplier invoices](source-to-pay-manage-accounts-payable-overview.md)  
-
-7. [Issue and settle supplier payments](source-to-pay-issue-and-settle-vendor-payments-overview.md)  
-
-8. *Manage vendor debits and chargebacks*
-
-9. *Create and process promissory notes*
-
-10. [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md)  
-
-11. *Analyze procurement and sourcing*
+    1. *Develop procurement catalogs* (The article you're currently reading) 
+    2. *Develop supplier segments*
+    3. *Develop procurement policies*
+    4. *Define accounts payable policies*
+    5. *Develop spend strategy*  
+    6. *Analyze sourcing market*  
+1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
+1. *Source and contract goods and services*
+1. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
+1. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)
+1. *Analyze procurement and sourcing*
 
 ## Related information
 

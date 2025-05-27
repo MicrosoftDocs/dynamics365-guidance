@@ -3,7 +3,7 @@ title: Procure goods and services overview
 description: Learn about the procure goods and services business process, including information about stakeholders and the business process flow.
 author: akbism
 ms.author: kumaramar
-ms.date: 12/10/2024
+ms.date: 05/21/2025
 ms.topic: concept-article
 ---
 
@@ -104,19 +104,22 @@ Whenever an approved purchase order is confirmed, it creates a confirmation jour
 
 ## Next steps
 
-If you would like to implement Dynamics 365 solutions to assist with your *procure goods and services* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *procure goods and services* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Define procurement and sourcing strategies*
+1. [Define procurement and sourcing strategies](source-to-pay-define-procurement-sourcing-strategy-overview.md)  
+1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)  
+1. *Source and contract goods and services*
+1. *Procure goods and services* (the article that you're currently reading)
 
-2. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)  
-
-3. *Manage supplier relationships*
-
-4. *Procure goods and services* (the article that you're currently reading)
-
-5. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
-
-6. *Analyze procurement and sourcing*  
+    1. [Raise purchase requisitions overview](source-to-pay-raise-purchase-requisitions-overview.md)  
+    2. *Issue purchase order*
+    3. *Manage open purchases*
+    4. *Issue blanket purchase orders*  
+    5. *Return goods to suppliers*  
+    6. *Consolidate requisitions*  
+    7. *Analyze supply purchase plan*
+1. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)  
+1. *Analyze procurement and sourcing*  
 
 ## Related information
 

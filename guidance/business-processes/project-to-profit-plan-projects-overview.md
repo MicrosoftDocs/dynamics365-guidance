@@ -82,16 +82,19 @@ Dynamics 365 Project Operations provides capabilities such as statements, contro
 If you want to implement Dynamics 365 solutions to help with your *Plan projects* business processes, use the following resources and steps to learn more.
 
 1. [Develop project strategy](project-to-profit-develop-project-strategy-overview.md)
+1. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+1. *Plan projects* (the article that you're currently reading)  
 
-2. [Manage project contracts](project-to-profit-manage-project-contracts-overview.md)  
+    1. *Define project scope*  
+    1. *Plan projects resources*  
+    1. *Plan project tasks*  
+    1. *Assign project resources*  
+    1. *Forecast project resources*  
+    1. *Manage project budget*  
 
-3. *Plan projects* (the article that you're currently reading)
-
-4. [Manage project delivery](project-to-profit-deliver-project-work.md)
-
-5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
-
-6. [Monitor and analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
+1. [Manage project delivery](project-to-profit-deliver-project-work.md)
+1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
+1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
 Return to the overview of business process areas at [Project to profit business process areas](project-to-profit-areas.md).
 

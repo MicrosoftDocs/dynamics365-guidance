@@ -1,15 +1,15 @@
 ---
-title: Overview of end-to-end business processes in Dynamics 365
+title: What are the end-to-end scenarios and business processes in Dynamics 365?
 description: Get an overview of the end-to-end scenarios that Dynamics 365 supports, and which organizations often look for.
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: overview #Required; don't change.
-ms.date: 12/02/2024
+ms.date: 05/26/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Overview of end-to-end scenarios and business processes in Dynamics 365
+# What are the end-to-end scenarios and business processes in Dynamics 365?
 
 Dynamics 365 supports many different industries and types of organizations. In this section, we provide an overview of end-to-end scenarios that organizations often look for. Dynamics 365 is a suite of applications that are designed to help organizations meet the organizational goals aligned to various business processes in specific industries.  
 
@@ -19,6 +19,8 @@ Dynamics 365 supports many different industries and types of organizations. In t
 > Get an introduction to our project with the business process documentation at [About the business process guide](about.md). For an explanation of abbreviations that we use in this section, go to [Business processes, steps, and how to find things](about-steps-navigation.md). Find an overview of business terms at [Glossary of terms in Dynamics 365 business processes](glossary.md).
 
 [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
+
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]  
 
 ## Overview
 

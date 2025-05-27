@@ -133,18 +133,26 @@ These benefits highlight the synergy between Dynamics 365, Azure, and effective 
 
 If you want to implement Dynamics 365 solutions to assist with your *administer to operate* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)
-1. *Manage licensing and entitlements*
-1. *Administer system features*
+1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+1. *Manage licensing and entitlements*  
+1. [Administer system features](administer-to-operate-administer-system-features.md)  
 1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)
-1. *Monitor systems, environments, and capacity*
-1. *Manage background jobs*
-1. *Manage notifications alerts*
-1. *Uptake software releases*
-1. [Manage data synchronization](administer-to-operate-manage-data-synchronization-overview.md)
+1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+1. *Monitor systems, environments, and capacity*  
+1. *Manage background jobs*  
+1. *Manage notifications alerts*  
+1. *Uptake software releases*  
+1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
 1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-1. *Support systems* (that page that you're currently reading)
+1. *Support systems* (the article you're currently reading.)  
+
+    1. *Establish support procedures and policies*  
+    1. *Establish support subscription*  
+    1. *Develop support transition strategy*  
+    1. *Manage support incidents*  
+    1. *Troubleshoot reported incidents*  
+    1. *Conduct root cause analysis*  
 
 ## Related information
 

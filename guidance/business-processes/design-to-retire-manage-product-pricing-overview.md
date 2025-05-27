@@ -1,17 +1,18 @@
 ---
-title: Overview the Manage and define product pricing business process area
-description: Learn about the manage product pricing business process including learning about the various stakeholders and process flow.
+title: Overview the deprecated Manage and define product pricing business process area
+description: Article for the deprecated business process area of manage product pricing.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
 ms.date: 03/05/2024
 ---
 
-# Overview of the Manage product pricing business process area within the Design to retire end-to-end scenario
+# Overview of the Manage product pricing business process area - deprecated
 
-***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
+<!-- ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management*** -->
 
-This article describes how you can use Dynamics 365 to manage pricing and discounts for tangible products that are offered to customers and bought from suppliers.
+This article represented a deprecated business process area. Proceed to [Overview of the Introduce new products business process area](design-to-retire-introduce-new-products-overview.md).  
+<!-- This article describes how you can use Dynamics 365 to manage pricing and discounts for tangible products that are offered to customers and bought from suppliers.
 
 Managing product pricing is a pivotal aspect of organizational success, influencing profitability and competitive positioning. In today's dynamic business landscape, effective product pricing requires a comprehensive approach, and when using the suite of Dynamics 365 products organizations can achieve these goals. From Dynamics 365 Commerce to Customer Service, Field Service, Project Operations, Sales, and Supply Chain Management, these interconnected tools provide a robust framework for optimizing product pricing strategies.
 
@@ -159,10 +160,10 @@ You can use the following resources to learn more about the *manage product pric
 
 *Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management -->
 
-## Contributors
+<!-- ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager --> -->
