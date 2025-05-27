@@ -780,7 +780,8 @@ items:
                 # - name: Develop code of conduct
                 # - name: Define expense policies
                 # - name: Plan workforce
-                # - name: Develop communication strategy
+                - name: Develop communication strategy
+                  href: business-processes/hire-to-retire-develop-communication-strategy.md
               - name: Recruit and onboard talent
                 items:
                   - name: Recruit and onboard talent overview
