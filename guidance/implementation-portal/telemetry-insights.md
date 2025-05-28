@@ -17,7 +17,7 @@ Learn how to set up telemetry insights at [Set up telemetry insights](telemetry-
 
 The **Telemetry recommendations** page displays various results for all environments that have been set up and approved for telemetry insights.
 > [!NOTE]
-> Once you complete the setup of telemetry, results start showing up based on the purpose of the environment. Recommendations for production environments show up about 1 hour later. Recommendations for nonproduction environments start showing up about 24 hours after you completed the setup.
+> Once you complete the setup of telemetry, results start showing up after 24 hours.
 
 The results are grouped by **result** and **tenant**. Search can easily narrow down results by impact, category, rule name, or description. The number of rules that run for an environment display the entire library. 
 
