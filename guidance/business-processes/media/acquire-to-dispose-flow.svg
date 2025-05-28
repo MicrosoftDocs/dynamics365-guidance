@@ -1,856 +1,380 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1835.8715"
-   height="1920"
-   overflow="hidden"
-   version="1.1"
-   id="svg248"
-   sodipodi:docname="acquire-to-dispose-flow.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs252" />
-  <sodipodi:namedview
-     id="namedview250"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.53489583"
-     inkscape:cx="949.71762"
-     inkscape:cy="959.06524"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="2725"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg248" />
-  <g
-     id="g246"
-     transform="translate(-9.3476143)">
-    <rect
-       x="9.3476143"
-       y="0"
-       width="1835.8715"
-       height="1920"
-       fill="#ffffff"
-       id="rect2"
-       style="stroke-width:0.977846" />
-    <path
-       d="M 51,79 C 51,59.1177 67.1177,43 86.9999,43 H 226 c 19.882,0 36,16.1177 36,36 v 0 c 0,19.8822 -16.118,36 -36,36 H 86.9999 C 67.1177,115 51,98.8822 51,79 Z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path4" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(131.885,88)"
-       id="text6">Start</text>
-    <rect
-       x="50"
-       y="422"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect8" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(116.641,493)"
-       id="text10">Case to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(102.954,522)"
-       id="text12">resolution</text>
-    <rect
-       x="356"
-       y="1298"
-       width="278"
-       height="154"
-       fill="#ffffff"
-       id="rect14" />
-    <path
-       d="m 390.75,1298 v 154 m 208.5,-154 v 154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path16" />
-    <rect
-       x="356"
-       y="1298"
-       width="278"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect18" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(451.953,1369)"
-       id="text20">Manage</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(420.24,1398)"
-       id="text22">internal assets</text>
-    <rect
-       x="682"
-       y="1651"
-       width="279"
-       height="153"
-       fill="#ffffff"
-       id="rect24" />
-    <path
-       d="m 716.875,1651 v 153 m 209.25,-153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path26" />
-    <rect
-       x="682"
-       y="1651"
-       width="279"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect28" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(767.683,1707)"
-       id="text30">Retire and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(766.91,1736)"
-       id="text32">dispose of</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(789.523,1765)"
-       id="text34">assets</text>
-    <rect
-       x="681"
-       y="315"
-       width="277"
-       height="153"
-       fill="#ffffff"
-       id="rect36" />
-    <path
-       d="M 715.625,315 V 468 M 923.375,315 V 468"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path38" />
-    <rect
-       x="681"
-       y="315"
-       width="277"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect40" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(773.721,386)"
-       id="text42">Plan and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(746.134,415)"
-       id="text44">budget assets</text>
-    <rect
-       x="48"
-       y="1259"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a6a6a6"
-       id="rect46" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(103.01,1330)"
-       id="text48">Design to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(126.23,1359)"
-       id="text50">retire</text>
-    <path
-       d="m 1594,1876.5 c 0,-20.16 16.34,-36.5 36.5,-36.5 h 138 c 20.16,0 36.5,16.34 36.5,36.5 v 0 c 0,20.16 -16.34,36.5 -36.5,36.5 h -138 c -20.16,0 -36.5,-16.34 -36.5,-36.5 z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path52" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1679.78,1885)"
-       id="text54">End</text>
-    <rect
-       x="680"
-       y="2"
-       width="279"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect56" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(721.454,88)"
-       id="text58">Acquire to dispose</text>
-    <rect
-       x="1594"
-       y="1059"
-       width="212"
-       height="154"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect60" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1649.09,1130)"
-       id="text62">Project to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1671.3,1159)"
-       id="text64">profit</text>
-    <rect
-       x="1594"
-       y="1449"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect66" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1648.69,1520)"
-       id="text68">Record to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1666.75,1549)"
-       id="text70">report</text>
-    <rect
-       x="50"
-       y="638"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect72" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(97.3929,709)"
-       id="text74">Forecast to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(132.726,738)"
-       id="text76">plan</text>
-    <rect
-       x="48"
-       y="1057"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect78" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(77.0634,1142)"
-       id="text80">Procure to pay</text>
-    <rect
-       x="680"
-       y="1057"
-       width="279"
-       height="153"
-       fill="#ffffff"
-       id="rect82" />
-    <path
-       d="m 714.875,1057 v 153 m 209.25,-153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path84" />
-    <rect
-       x="680"
-       y="1057"
-       width="279"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect86" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(744.124,1142)"
-       id="text88">Acquire assets</text>
-    <rect
-       x="682"
-       y="1298"
-       width="279"
-       height="154"
-       fill="#ffffff"
-       id="rect90" />
-    <path
-       d="m 716.875,1298 v 154 m 209.25,-154 v 154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path92" />
-    <rect
-       x="682"
-       y="1298"
-       width="279"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect94" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(755.027,1340)"
-       id="text96">Manage and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(771.253,1369)"
-       id="text98">report on</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(794.613,1398)"
-       id="text100">asset</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(772.36,1427)"
-       id="text102">financials</text>
-    <rect
-       x="50"
-       y="836"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a6a6a6"
-       id="rect104" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(104.804,907)"
-       id="text106">Project to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(127.01,936)"
-       id="text108">profit</text>
-    <rect
-       x="51"
-       y="197"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect110" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(105.678,267)"
-       id="text112">Record to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(123.738,296)"
-       id="text114">report</text>
-    <rect
-       x="1009"
-       y="1298"
-       width="277"
-       height="154"
-       fill="#ffffff"
-       id="rect116" />
-    <path
-       d="m 1043.62,1298 v 154 m 207.76,-154 v 154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path118" />
-    <rect
-       x="1009"
-       y="1298"
-       width="277"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect120" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1077.93,1355)"
-       id="text122">Maintain and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1074.03,1384)"
-       id="text124">repair internal</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1115.77,1413)"
-       id="text126">assets</text>
-    <rect
-       x="1594"
-       y="458"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect128" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1660.46,529)"
-       id="text130">Case to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1646.78,558)"
-       id="text132">resolution</text>
-    <rect
-       x="1594"
-       y="1652"
-       width="211"
-       height="154"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a6a6a6"
-       id="rect134" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1628.03,1738)"
-       id="text136">Order to cash</text>
-    <rect
-       x="1594"
-       y="66"
-       width="211"
-       height="154"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect138" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1632.85,152)"
-       id="text140">Hire to retire</text>
-    <rect
-       x="1594"
-       y="262"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect142" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1635.23,333)"
-       id="text144">Inventory to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1664.27,362)"
-       id="text146">deliver</text>
-    <rect
-       x="1594"
-       y="664"
-       width="211"
-       height="154"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a6a6a6"
-       id="rect148" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1663.03,735)"
-       id="text150">Plan to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1656.01,764)"
-       id="text152">produce</text>
-    <rect
-       x="1594"
-       y="862"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect154" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1623.08,947)"
-       id="text156">Procure to pay</text>
-    <rect
-       x="1594"
-       y="1255"
-       width="211"
-       height="153"
-       stroke="#a6a6a6"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect158" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1647.64,1326)"
-       id="text160">Service to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1676.19,1355)"
-       id="text162">cash</text>
-    <path
-       d="m 259.5,83.0001 408.912,1e-4 v 3 L 259.5,86.0001 Z m 407.412,-2.9999 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path164" />
-    <path
-       d="m 0,-1.5 h 24.964 c 0.8284,0 1.5,0.671573 1.5,1.5 v 419.561 c 0,0.828 -0.6716,1.5 -1.5,1.5 H 8.46399 v -3 H 24.964 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z m 9.96399,425.561 -9.000001,-4.5 9.000001,-4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,51.464,79.5001)"
-       id="path166" />
-    <path
-       d="m 0,-1.5 h 25.1189 c 0.8285,0 1.5,0.671573 1.5,1.5 v 635.373 c 0,0.828 -0.6715,1.5 -1.5,1.5 H 8.61895 v -3 H 25.1189 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z m 10.1189,641.373 -8.99995,-4.5 8.99995,-4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,51.619,79.5001)"
-       id="path168" />
-    <path
-       d="m 0,-1.5 h 26.9285 c 0.8284,0 1.5,0.671573 1.5,1.5 v 1054.51 c 0,0.83 -0.6716,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z m 11.9285,1060.51 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,51.4286,79.5001)"
-       id="path170" />
-    <path
-       d="m 0,-1.5 h 26.851 c 0.8285,0 1.5,0.671573 1.5,1.5 v 1256.54 c 0,0.83 -0.6715,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z m 11.851,1262.54 -8.99998,-4.5 8.99998,-4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,51.3511,79.5001)"
-       id="path172" />
-    <path
-       d="m 0,-1.5 h 24.964 c 0.8284,0 1.5,0.671573 1.5,1.5 v 833.588 c 0,0.828 -0.6716,1.5 -1.5,1.5 H 8.46399 v -3 H 24.964 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z m 9.96399,839.588 -9.000001,-4.5 9.000001,-4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,51.464,79.5001)"
-       id="path174" />
-    <path
-       d="m 0,-1.5 h 24.0001 c 0.8284,0 1.5,0.671573 1.5,1.5 v 194.307 c 0,0.828 -0.6716,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z M 9.0001,198.807 1.04987e-4,194.307 9.0001,189.807 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,51.5002,79.5001)"
-       id="path176" />
-    <path
-       d="M 1.5,-0.00379812 1.88468,151.92 -1.11531,151.927 -1.5,0.00379812 Z M 4.88087,150.412 0.403675,159.424 -4.1191,150.435 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,819.904,156.5)"
-       id="path178" />
-    <path
-       d="m 0,-1.5 h 153.786 c 0.829,0 1.5,0.671573 1.5,1.5 v 840.738 l -1.5,-1.5 h 146.285 v 3 H 153.786 c -0.828,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 298.571,837.738 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1286.5,1375.24)"
-       id="path180" />
-    <path
-       d="m 0,-1.5 h 317.511 c 0.828,0 1.5,0.671573 1.5,1.5 v 794.795 l -1.5,-1.5 h 310.01 v 3 h -310.01 c -0.829,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 626.021,791.795 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,959.5,1134.3)"
-       id="path182" />
-    <path
-       d="m 0,-1.5 h 153.902 c 0.828,0 1.5,0.671573 1.5,1.5 v 436.532 l -1.5,-1.5 h 146.402 v 3 H 153.902 c -0.829,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 298.804,433.532 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1286.5,1376.03)"
-       id="path184" />
-    <path
-       d="m 0,-1.5 h 153.863 c 0.829,0 1.5,0.671573 1.5,1.5 v 43.2825 l -1.5,-1.5 h 146.363 v 3 H 153.863 c -0.828,0 -1.5,-0.6716 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 298.726,40.2825 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1286.5,1375.78)"
-       id="path186" />
-    <path
-       d="m 961.503,1727 625.867,1.39 -0.01,3 -625.863,-1.39 z m 624.377,-1.61 8.99,4.52 -9.01,4.48 z"
-       fill="#0078d4"
-       id="path188" />
-    <path
-       d="m 0,-1.5 h 153.979 c 0.829,0 1.5,0.671573 1.5,1.5 v 239.075 l -1.5,-1.5 h 146.48 v 3 h -146.48 c -0.828,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 298.959,236.075 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1286.5,1375.58)"
-       id="path190" />
-    <path
-       d="m 1805.5,142 h 24.15 c 0.83,0 1.5,0.672 1.5,1.5 v 1733.88 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 143.5 l 1.5,1.5 h -24.15 z m 9.15,1739.88 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path192" />
-    <path
-       d="m 1805.5,338 h 24.15 c 0.83,0 1.5,0.672 1.5,1.5 v 1538.09 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 339.5 l 1.5,1.5 h -24.15 z m 9.15,1544.09 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path194" />
-    <path
-       d="m 1805.5,533 h 24.15 c 0.83,0 1.5,0.672 1.5,1.5 v 1342.42 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 534.5 l 1.5,1.5 h -24.15 z m 9.15,1348.42 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path196" />
-    <path
-       d="m 1805.5,740 h 24 c 0.83,0 1.5,0.672 1.5,1.5 v 1135.67 c 0,0.83 -0.67,1.5 -1.5,1.5 h -15.17 v -3 h 15.17 l -1.5,1.5 V 741.5 l 1.5,1.5 h -24 z m 10.33,1141.67 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path198" />
-    <path
-       d="M 0,1.5 H -24 L -22.5,0 v 938.218 l -1.5,-1.501 h 16.57748 v 3.001 H -24 c -0.8284,0 -1.5,-0.672 -1.5,-1.5 V 0 c 0,-0.828427 0.6716,-1.5 1.5,-1.5 H 0 Z m -8.92252,932.218 9.0000003,4.5 -9.0000003,4.499 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,1805.58,939.5)"
-       id="path200" />
-    <path
-       d="M 0,1.5 H -24 L -22.5,0 v 740.761 l -1.5,-1.5 h 16.73244 v 3 H -24 c -0.8284,0 -1.5,-0.671 -1.5,-1.5 V 0 c 0,-0.828427 0.6716,-1.5 1.5,-1.5 H 0 Z m -8.76756,734.761 9.000001,4.5 -9.000001,4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,1805.73,1136.5)"
-       id="path202" />
-    <path
-       d="m 1805.5,1331 h 24 c 0.83,0 1.5,0.67 1.5,1.5 v 544.97 c 0,0.83 -0.67,1.5 -1.5,1.5 h -15.17 v -3 h 15.17 l -1.5,1.5 V 1332.5 l 1.5,1.5 h -24 z m 10.33,550.97 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path204" />
-    <path
-       d="m 1805.5,1525 h 24 c 0.83,0 1.5,0.67 1.5,1.5 v 351.2 c 0,0.83 -0.67,1.5 -1.5,1.5 h -15.17 v -3 h 15.17 l -1.5,1.5 v -351.2 l 1.5,1.5 h -24 z m 10.33,357.2 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path206" />
-    <path
-       d="m 1805.5,1728 h 24.15 c 0.83,0 1.5,0.67 1.5,1.5 v 147.86 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 1729.5 l 1.5,1.5 h -24.15 z m 9.15,153.86 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path208" />
-    <path
-       d="M 1.5,-2.67592e-7 1.5001,581.009 h -3 L -1.5,2.67592e-7 Z M 4.5001,579.508 l -4.499995013,9 -4.500004987,-9 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,819.5,468.5)"
-       id="path210" />
-    <path
-       d="m 821,1210.47 1.656,80.82 -3,0.06 -1.656,-80.82 z m 4.624,79.26 -4.314,9.09 -4.684,-8.91 z"
-       fill="#0078d4"
-       id="path212" />
-    <path
-       d="m 821.428,1210.5 v 44.16 c 0,0.83 -0.672,1.5 -1.5,1.5 H 495.5 l 1.5,-1.5 v 36.66 h -3 v -36.66 c 0,-0.83 0.672,-1.5 1.5,-1.5 h 324.428 l -1.5,1.5 V 1210.5 Z M 500,1289.82 l -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path214" />
-    <path
-       d="m 0,-1.5 h 44.158 c 0.8284,0 1.5,0.671573 1.5,1.5 v 328.047 l -1.5,-1.5 h 36.658 v 3 H 44.158 c -0.8284,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 79.316,325.047 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(0,1,1,0,819.5,1210.5)"
-       id="path216" />
-    <path
-       d="m 0,-1.5 h 99.5639 c 0.8281,0 1.5001,0.671573 1.5001,1.5 v 326.237 l -1.5001,-1.5 h 92.0631 v 3 H 99.5639 c -0.8285,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 190.127,323.237 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(0,1,1,0,495.5,1452.5)"
-       id="path218" />
-    <path
-       d="m 1149.24,1452.5 v 99.56 c 0,0.83 -0.67,1.5 -1.5,1.5 H 821.5 l 1.5,-1.5 v 92.07 h -3 v -92.07 c 0,-0.82 0.672,-1.5 1.5,-1.5 h 326.24 l -1.5,1.5 V 1452.5 Z M 826,1642.63 l -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path220" />
-    <path
-       d="m 823,1452.5 v 191.63 h -3 V 1452.5 Z m 3,190.13 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path222" />
-    <path
-       d="m 0,-1.5 h 153.941 c 0.828,0 1.5,0.671573 1.5,1.5 v 633.988 l -1.5,-1.5 h 146.44 v 3 h -146.44 c -0.829,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 298.881,630.988 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1286.5,1375.49)"
-       id="path224" />
-    <path
-       d="m 0,-1.5 h 209.567 c 0.829,0 1.5,0.671573 1.5,1.5 v 106.847 l -1.5,-1.5 h 202.068 v 3 H 209.567 c -0.828,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 410.135,103.847 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,261.5,499.347)"
-       id="path226" />
-    <path
-       d="m 0,-1.5 h 209.645 c 0.828,0 1.5,0.671573 1.5,1.5 v 322.659 l -1.5,-1.5 H 411.79 v 3 H 209.645 c -0.829,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 410.29,319.659 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,261.5,715.159)"
-       id="path228" />
-    <path
-       d="M 1.12352e-6,-1.5 413.003,-1.49969 v 3 L -1.12352e-6,1.5 Z M 411.502,-4.49969 l 9,4.500004961 -9,4.499995039 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,259.5,1133.5)"
-       id="path230" />
-    <path
-       d="m 0,-1.5 h 63.581 c 0.8284,0 1.5,0.671573 1.5,1.5 v 993.681 c 0,0.828 -0.6716,1.5 -1.5,1.5 H 47.0807 v -3 H 63.581 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z m 48.5807,999.681 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       transform="matrix(0,1,1,0,126.5,1412.5)"
-       id="path232" />
-    <path
-       d="m 0,-1.5 h 209.645 c 0.828,0 1.5,0.671573 1.5,1.5 v 520.874 l -1.5,-1.5 H 411.79 v 3 H 209.645 c -0.829,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 410.29,517.874 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,261.5,913.374)"
-       id="path234" />
-    <path
-       d="m 261.5,912 h 886.19 c 0.83,0 1.5,0.672 1.5,1.5 v 378.39 h -3 V 913.5 l 1.5,1.5 H 261.5 Z m 890.69,378.39 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path236" />
-    <path
-       d="m 262.5,272 h 209.086 c 0.828,0 1.5,0.672 1.5,1.5 v 118.407 l -1.5,-1.5 h 201.585 v 3 H 471.586 c -0.829,0 -1.5,-0.672 -1.5,-1.5 V 273.5 l 1.5,1.5 H 262.5 Z m 409.171,115.407 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path238" />
-    <path
-       d="m 961.5,1374 h 24.916 c 0.829,0 1.5,0.67 1.5,1.5 v 150.49 l -1.5,-1.5 h 600.954 v 3 H 986.416 c -0.828,0 -1.5,-0.67 -1.5,-1.5 V 1375.5 l 1.5,1.5 H 961.5 Z m 624.37,147.49 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path240" />
-    <path
-       d="m 0,-1.5 h 68.1617 c 0.8284,0 1.5,0.671573 1.5,1.5 v 763.988 h -3 V 0 l 1.5,1.5 H 0 Z m 72.6617,763.988 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       transform="matrix(0,1,1,0,821.5,1804.5)"
-       id="path242" />
-    <path
-       d="m 0,1.5 h -23.9993 l 1.5,-1.5 v 1232.19 l -1.5,-1.5 H 1230.86 v 3 H -23.9993 c -0.8284,0 -1.5,-0.67 -1.5,-1.5 V 0 c 0,-0.828427 0.6716,-1.5 1.5,-1.5 H 0 Z m 1229.36,1226.19 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,354.5,1432.69)"
-       id="path244" />
-  </g>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="16 22 712 762"    xml:space="preserve" color-interpolation-filters="sRGB" class="st11" width="1836" height="1920">
+<rect x="0" y="0" width="1836" height="1920" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {font-size:1em}
+		.st5 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st7 {fill:#ffffff}
+		.st8 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {marker-end:url(#mrkr13-101);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-101" class="st10" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape1-1" transform="translate(54,-1116)">
+			
+			<desc>Start</desc>
+			<path d="M18 1188 L60.75 1188 A18 18 -180 0 0 60.75 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st1" />
+			<text x="27.63" y="1173.6" class="st2">Start</text>
+		</g>
+		<a id="108480dc-adf7-4f37-a874-1de6e8311bd8" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzQxMnY0MDY4JywxNjU1NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-4" transform="translate(54,-1026)">
+				
+				<desc>90 Record to report</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.22" y="1152.9" class="st2">90 Record to <tspan x="23.88" dy="1.2em" class="st4">report</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="3582069a-8fbd-4244-80bf-de1a0db30266" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjg1N3Y0MDY4JywxNjE0MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-8" transform="translate(54,-936)">
+				
+				<desc>20 Case to resolution</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="14" y="1152.9" class="st2">20 Case to <tspan x="14.55" dy="1.2em" class="st4">resolution</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="d05a1009-ff8d-40b9-b8ae-39ddf00bbdcf" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjk5MnY0MDY4JywxNjI1NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-12" transform="translate(54,-846)">
+				
+				<desc>50 Forecast to plan</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="4.64" y="1152.9" class="st2">50 Forecast to <tspan x="28.82" dy="1.2em" class="st4">plan</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="78f97537-6c39-40da-9062-d67c85bcdb32" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzMxOXY0MDY4JywxNjUwNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-16" transform="translate(54,-756)">
+				
+				<desc>80 Project to profit</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.08" y="1152.9" class="st2">80 Project to <tspan x="25.75" dy="1.2em" class="st4">profit</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="4bf4c99f-d935-42f1-8330-b9b2053251e7" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzI2OXY0MDY4JywxNjQ1OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-20" transform="translate(54,-666)">
+				
+				<desc>75 Source to pay</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.72" y="1152.9" class="st2">75 Source to <tspan x="30.63" dy="1.2em" class="st4">pay</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="620c4714-0b95-4168-b89a-df0a2c9b759c" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjk0NHY0MDY4JywxNjIyMCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape7-24" transform="translate(54,-576)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="9.03" y="1152.9" class="st2">40 Design to <tspan x="25.83" dy="1.2em" class="st4">retire</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="4c1818b2-c361-4851-9c47-448bb9533b51" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjgwMnY0MDY4JywxNjA4OCwgMSwgNCwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-28" transform="translate(306,-1102.5)">
+				
+				<desc>10 Acquire to dispose</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st5" />
+				<text x="16.76" y="1152.9" class="st6">10 Acquire to <tspan x="30.98" dy="1.2em" class="st4">dispose</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="bb377755-5b12-487b-af2d-9cfdab07f024" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjgxNnY0MDY4JywxNjA5OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape10-32" transform="translate(306,-889.594)">
+				
+				<desc>10.20 Acquire assets</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="15.7" y="1152.9" class="st2">10.20 Acquire <tspan x="34.59" dy="1.2em" class="st4">assets</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="8a1cb95a-92eb-4c8a-a310-3548dae342a9" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjgzMHY0MDY4JywxNjExMSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape12-39" transform="translate(306,-799.594)">
+				
+				<desc>10.40 Manage active assets</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="14.62" y="1152.9" class="st2">10.40 Manage <tspan x="18.74" dy="1.2em" class="st4">active assets</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="21b77db0-7be5-421e-8bdd-4da2f5aa8066" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjg0NHY0MDY4JywxNjExOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape13-46" transform="translate(427.5,-799.594)">
+				
+				<desc>10.50 Perform asset maintenance</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="14.41" y="1145.7" class="st2">10.50 Perform <tspan x="36.94" dy="1.2em" class="st4">asset </tspan>
+					<tspan x="17.61" dy="1.2em" class="st4">maintenance</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="d5a3acb1-278b-4fa6-a93d-2ae65dc14fbc" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjg1MnY0MDY4JywxNjEyNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape14-54" transform="translate(306,-705.094)">
+				
+				<desc>10.60 Dispose of assets</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="15.4" y="1152.9" class="st2">10.60 Dispose <tspan x="28.24" dy="1.2em" class="st4">of assets</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape15-61" transform="translate(612,-403.313)">
+			
+			<desc>End</desc>
+			<path d="M18 1188 L60.75 1188 A18 18 -180 0 0 60.75 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st1" />
+			<text x="30.14" y="1173.6" class="st2">End</text>
+		</g>
+		<a id="1d732d3f-a17b-4272-b432-7a91cdc78d19" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzQxMnY0MDY4JywxNjU1NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape16-64" transform="translate(612,-574.875)">
+				
+				<desc>90 Record to report</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.22" y="1152.9" class="st2">90 Record to <tspan x="23.88" dy="1.2em" class="st4">report</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="d2d47dff-6e24-4d80-bf79-59489377a4b9" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzQ5NnY0MDY4JywxNjYxMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape17-68" transform="translate(612,-656.438)">
+				
+				<desc>95 Service to deliver</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="7.96" y="1152.9" class="st2">95 Service to <tspan x="22.7" dy="1.2em" class="st4">deliver</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="170a2713-a4b3-41de-8b53-bfbca10bd7dc" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzMxOXY0MDY4JywxNjUwNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape18-72" transform="translate(612,-738)">
+				
+				<desc>80 Project to profit</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.08" y="1152.9" class="st2">80 Project to <tspan x="25.75" dy="1.2em" class="st4">profit</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="5c822aa8-3175-4486-9c5e-4e04701fc83b" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzIzMHY0MDY4JywxNjQyMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape20-76" transform="translate(612,-821.812)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="14.9" y="1152.9" class="st2">70 Plan to <tspan x="19.14" dy="1.2em" class="st4">produce</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="227496c2-8ac2-435d-9698-dd64906e92dd" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNjg1N3Y0MDY4JywxNjE0MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape21-80" transform="translate(612,-903.375)">
+				
+				<desc>20 Case to resolution</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="14" y="1152.9" class="st2">20 Case to <tspan x="14.55" dy="1.2em" class="st4">resolution</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="3d35edc6-7325-4a5a-a9cb-e1546eab03bb" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzA5M3Y0MDY4JywxNjMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape22-84" transform="translate(612,-984.937)">
+				
+				<desc>60 Inventory to deliver</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.44" y="1152.9" class="st2">60 Inventory <tspan x="16.17" dy="1.2em" class="st4">to deliver</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="67f18a4a-2cf2-473d-8844-a48fd9798139" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzAyMHY0MDY4JywxNjI2MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape23-88" transform="translate(612,-1066.5)">
+				
+				<desc>55 Hire to retire</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="15.21" y="1152.9" class="st2">55 Hire to <tspan x="25.83" dy="1.2em" class="st4">retire</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="7cac3db5-0f19-4fb2-ae0a-5638615cd8df" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMxNzE1NXY0MDY4JywxNjM3NiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape24-92" transform="translate(612,-493.313)">
+				
+				<desc>65 Order to cash</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="11.11" y="1152.9" class="st2">65 Order to <tspan x="28.46" dy="1.2em" class="st4">cash</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape25-96" transform="translate(45,-1134)">
+			
+			<path d="M9 1188 L-8.66 1188 L-8.66 1714.5 L-0.81 1714.5" class="st9" />
+		</g>
+		<g id="shape26-102" transform="translate(45,-1134)">
+			
+			<path d="M9 1188 L-8.66 1188 L-8.66 1624.5 L-0.81 1624.5" class="st9" />
+		</g>
+		<g id="shape27-107" transform="translate(45,-1134)">
+			
+			<path d="M9 1188 L-8.66 1188 L-8.66 1534.5 L-0.81 1534.5" class="st9" />
+		</g>
+		<g id="shape28-112" transform="translate(45,-1134)">
+			
+			<path d="M9 1188 L-8.66 1188 L-8.66 1444.5 L-0.81 1444.5" class="st9" />
+		</g>
+		<g id="shape29-117" transform="translate(45,-1134)">
+			
+			<path d="M9 1188 L-8.66 1188 L-8.66 1354.5 L-0.81 1354.5" class="st9" />
+		</g>
+		<g id="shape30-122" transform="translate(45,-1134)">
+			
+			<path d="M9 1188 L-8.66 1188 L-8.66 1264.5 L-0.81 1264.5" class="st9" />
+		</g>
+		<g id="shape31-127" transform="translate(132.75,-1125)">
+			
+			<path d="M0 1179 L163.44 1179" class="st9" />
+		</g>
+		<g id="shape32-132" transform="translate(346.5,-1102.5)">
+			
+			<path d="M9 1188 L9 1227.69" class="st9" />
+		</g>
+		<g id="shape33-137" transform="translate(364.5,-990)">
+			
+			<path d="M-9 1188 L-9 1215.6" class="st9" />
+		</g>
+		<g id="shape34-142" transform="translate(346.5,-889.594)">
+			
+			<path d="M9 1188 L9 1205.19" class="st9" />
+		</g>
+		<g id="shape36-147" transform="translate(355.5,-889.594)">
+			
+			<path d="M0 1188 L0 1196.83 L121.5 1196.83 L121.5 1205.19" class="st9" />
+		</g>
+		<g id="shape38-152" transform="translate(346.5,-799.594)">
+			
+			<path d="M9 1188 L9 1209.69" class="st9" />
+		</g>
+		<g id="shape39-157" transform="translate(477,-799.594)">
+			
+			<path d="M0 1188 L0 1200.09 L-57.75 1200.09 A3 3 -180 0 0 -63.75 1200.09 L-121.5 1200.09 L-121.5 1209.69" class="st9" />
+		</g>
+		<g id="shape40-162" transform="translate(93.375,-576)">
+			
+			<path d="M0 1188 L-0 1205.66 L259.12 1205.66 A3 3 0 0 1 265.12 1205.66 L383.62 1205.66 L383.62 974.22" class="st9" />
+		</g>
+		<g id="shape41-167" transform="translate(132.75,-697.5)">
+			
+			<path d="M0 1188 L86.62 1188 L86.62 964.41 L163.44 964.41" class="st9" />
+		</g>
+		<g id="shape42-172" transform="translate(132.75,-787.5)">
+			
+			<path d="M0 1188 L83.62 1188 A3 3 0 0 1 89.62 1188 L219.75 1188 A3 3 0 0 1 225.75 1188 L283.5 1188 L283.5 1095.25 L344.25        1095.25 L344.25 1103.1" class="st9" />
+		</g>
+		<g id="shape47-177" transform="translate(405,-831.094)">
+			
+			<path d="M0 1188 L11.25 1188 L11.25 1412.72 L69 1412.72 A3 3 0 0 1 75 1412.72 L197.19 1412.72" class="st9" />
+		</g>
+		<g id="shape48-182" transform="translate(405,-736.594)">
+			
+			<path d="M0 1188 L8.25 1188 A3 3 0 1 1 14.25 1188 L72 1188 L72 1399.78 L197.19 1399.78" class="st9" />
+		</g>
+		<g id="shape49-187" transform="translate(346.5,-705.094)">
+			
+			<path d="M9 1188 L9 1206.88" class="st9" />
+		</g>
+		<g id="shape50-192" transform="translate(526.5,-831.094)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1331.16 L75.69 1331.16" class="st9" />
+		</g>
+		<g id="shape51-197" transform="translate(526.5,-831.094)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1249.59 L75.69 1249.59" class="st9" />
+		</g>
+		<g id="shape53-202" transform="translate(526.5,-831.094)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1165.78 L75.69 1165.78" class="st9" />
+		</g>
+		<g id="shape54-207" transform="translate(526.5,-831.094)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1084.22 L75.69 1084.22" class="st9" />
+		</g>
+		<g id="shape55-212" transform="translate(405,-921.094)">
+			
+			<path d="M0 1188 L99 1188 L99 1092.66 L197.19 1092.66" class="st9" />
+		</g>
+		<g id="shape57-217" transform="translate(681.75,-1098)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1864.69 L18.81 1864.69" class="st9" />
+		</g>
+		<g id="shape58-222" transform="translate(681.75,-1016.44)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1783.12 L18.81 1783.12" class="st9" />
+		</g>
+		<g id="shape59-227" transform="translate(681.75,-934.875)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1701.56 L18.81 1701.56" class="st9" />
+		</g>
+		<g id="shape60-232" transform="translate(681.75,-853.312)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1620 L18.81 1620" class="st9" />
+		</g>
+		<g id="shape62-237" transform="translate(681.75,-769.5)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1536.19 L18.81 1536.19" class="st9" />
+		</g>
+		<g id="shape63-242" transform="translate(681.75,-687.938)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1454.62 L18.81 1454.62" class="st9" />
+		</g>
+		<g id="shape64-247" transform="translate(681.75,-606.375)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1373.06 L18.81 1373.06" class="st9" />
+		</g>
+		<g id="shape65-252" transform="translate(681.75,-524.813)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1291.5 L18.81 1291.5" class="st9" />
+		</g>
+		<a id="a11afee6-bef6-4d64-94d1-e47d164eabf2" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMzMDY1NHY0MDY4JywxNjA5MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape66-257" transform="translate(306,-990)">
+				
+				<desc>10.05 Define asset strategy</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="18.44" y="1152.9" class="st2">10.05 Define <tspan x="15.72" dy="1.2em" class="st4">asset strategy</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="72fad568-dca5-4c81-b37b-de02de4e87c8" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTJkNTIzNTk2NWMzMDY1NXY0MDY4JywxNjEzMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape68-264" transform="translate(306,-613.406)">
+				
+				<desc>10.70 Analyze assets</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="15.52" y="1152.9" class="st2">10.70 Analyze <tspan x="34.59" dy="1.2em" class="st4">assets</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape69-271" transform="translate(355.5,-613.406)">
+			
+			<path d="M0 1188 L0 1380.09 L246.69 1380.09" class="st9" />
+		</g>
+	</g>
 </svg>

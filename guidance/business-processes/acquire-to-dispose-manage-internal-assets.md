@@ -64,7 +64,7 @@ Many people in an organization must contribute to the decision-making process an
 
 The following diagram shows the high-level business process flow for managing internal assets.
 
-:::image type="content" source="media/aquire-to-dispose-manage-internal-assets.svg" alt-text="Flow diagram with steps for the business process area that is further explained in the next paragraphs." lightbox="media/aquire-to-dispose-manage-internal-assets.svg":::
+:::image type="content" source="media/aquire-to-dispose-manage-active-assets.svg" alt-text="Flow diagram with steps for the business process area that is further explained in the next paragraphs." lightbox="media/aquire-to-dispose-manage-active-assets.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
