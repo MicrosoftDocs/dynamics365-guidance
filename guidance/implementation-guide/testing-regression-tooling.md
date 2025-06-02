@@ -4,7 +4,7 @@ description: Learn about some of the tools that you can use for automating regre
 author: edupont04
 ms.author: dudona
 ms.topic: concept-article
-ms.date: 01/13/2025
+ms.date: 06/02/2025
 ms.custom:
 - ai-seo-date: 01/23/2024
 - ai-gen-docs-bap
@@ -15,7 +15,7 @@ content_well_notification: AI-contribution
 
 # Options for regression testing
 
-When Microsoft updates Dynamics 365, you need to make sure that your solution still works as expected. You don't want to introduce any bugs or errors that could affect your users or customers. Microsoft does regression testing, but the data composition, specific customer configurations, and unique extensions mean customers must perform their own regression testing in their own environment.
+After each Dynamics 365 update from Microsoft, you must make sure that your solution still works as expected. You don't want to introduce any bugs or errors that could affect your users or customers. Microsoft does regression testing, but the data composition, specific customer configurations, and unique extensions mean customers must perform their own regression testing in their own environment.
 
 But regression testing can take a lot of time and effort if you do it manually. You can save time and resources by automating your regression testing with a tool. Many tools are available for regression testing, both from Microsoft and other providers. How do you choose the best one for your needs?
 
