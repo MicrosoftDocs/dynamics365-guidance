@@ -26,7 +26,7 @@ The results are grouped by **result** and **tenant**. Search can easily narrow d
 | **Impact** | Shows a suggested priority for a user to take action based on the category of rule and the associated severity of the result.|
 | **Category** | Provides a logical grouping of rule types. |
 | **Scope**| Provides the Dynamics 365 app context. |
-| **Dismiss**| Giuves you the option to hide or filter certain results from view. |
+| **Dismiss**| Gives you the option to hide or filter certain results from view. |
 
 ## Telemetry guidance and details
 
