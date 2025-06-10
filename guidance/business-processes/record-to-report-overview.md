@@ -60,7 +60,7 @@ The upstream processes for the *record to report* process include the following.
 
     Project to profit is an upstream process that involves managing project lifecycle from project initiation to project completion. Before the *record to report* process in Dynamics 365, the organization needs to set up project management structures, define project budgets, and monitor project progress to ensure accurate cost accounting and revenue recognition. Project transactions including time, hours, expenses, and fees are designed to automatically post to the general ledger.
 
-- **Service to cash**:  
+- **Service to deliver**:  
 
     Service to cash is another upstream process that involves managing the service delivery process, from scheduling services to billing and cash collection. Before the *record to report* process in Dynamics 365, the organization needs to set up service management structures, define service pricing and billing rules, and manage service contracts to ensure accurate service billing and revenue recognition.
 
@@ -122,7 +122,7 @@ The downstream processes for the *record to report* process include the followin
 
     Project to profit is a downstream process that involves tracking project progress and profitability. After the *record to report* end-to-end process, the organization needs to analyze project costs and revenues, manage project budgets, and ensure that projects are profitable.
 
-- **Service to cash**:  
+- **Service to deliver**:  
 
     Service to cash is another downstream process that involves managing service delivery, from scheduling services to billing and cash collection. After the *record to report* end-to-end process, the organization needs to manage service contracts, track service delivery, and generate accurate service invoices to ensure timely cash collection.
 
@@ -192,7 +192,7 @@ The following steps are illustrated in the *record to report* end-to-end busines
 
 13. *Acquire to dispose*
 
-14. *Service to cash*
+14. *Service to deliver*
 
 15. *Inventory to deliver*
 

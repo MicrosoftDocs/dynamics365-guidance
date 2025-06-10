@@ -27,7 +27,7 @@ The upstream processes for the *concept to market* process include the following
 - **Forecast to plan**: Organizations often complete the service offering definition in the *concept to market* process before they begin the forecasting process.
 - **Prospect to quote**: In some operational strategies, such as engineer to order, the *prospect to quote* process occurs before the *concept to market* process, because the quote is often the trigger that initiates the process.
 - **Order to cash**: In some operational strategies, such as engineer to order, the *order to cash* process occurs before the *concept to market* process, because the quote is often the trigger that initiates the process.
-- **Service to cash**: In some service-based organizations, the *service to cash* process starts before the *concept to market* process. For example, a service technician who is repairing or inspecting a customer asset must order new parts that aren't currently part of the product catalog.
+- **Service to deliver**: In some service-based organizations, the *service to cash* process starts before the *concept to market* process. For example, a service technician who is repairing or inspecting a customer asset must order new parts that aren't currently part of the product catalog.
 - **Project to profit**: In some operational strategies, such as engineer to order, the *project to profit* process might start before the *concept to market* process. For example, before the organization begins to set up and procure the items to make the engineered product, it creates the project, sets the budgets, and completes and approves drawings. Additionally, when organizations use projects to manage capital projects, the project definition, budgets, and so on, are typically set before the organization begins to create and procure the necessary products and services.
 
 The *concept to market* end-to-end process is broken down into the following business process areas.
@@ -43,7 +43,7 @@ The downstream processes for the *concept to market* end-to-end process include 
 - **Source to pay**: Typically, services are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the services that will be outsourced are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a service definition is created. In these cases, the *Source to pay* process is upstream instead of downstream.
 - **Prospect to quote**: In operational strategies such as make to stock, the *prospect to quote* process occurs after a service offering mix is determined in the *concept to market* process.
 - **Order to cash**: In operational strategies such as make to stock, or in brick-and-mortar commerce scenarios, the *order to cash* process occurs after a service offering mix is determined in the *concept to market* process.
-- **Service to cash**: In most operational strategies, the *service to cash* process occurs after the *concept to market* process, because the services that will be offered are predetermined by the organization's sales strategy.
+- **Service to deliver**: In most operational strategies, the *service to cash* process occurs after the *concept to market* process, because the services that will be offered are predetermined by the organization's sales strategy.
 - **Plan to produce**: Except in operational strategies for make to order and engineer to order, the production process typically occurs after the *concept to market* process is completed. Nevertheless, because there are often updates throughout the production process, the process can be both upstream and downstream. The *plan to produce* process is used with services when you outsource some or all of the production process.
 - **Case to resolution**: The *case to resolution* process is downstream to the *concept to market* process when you use cases to manage vendor issues, customer complaints, and so on.
 - **Record to report**: The *record to report* process is downstream to the *concept to market* process, because items and orders must exist before costs or revenues can be recognized in the general ledger, for example.
@@ -91,7 +91,7 @@ Parallel branches from Start connect to the following end-to-end processes, all 
 1. *Forecast to plan*
 1. *Prospect to quote*
 1. *Order to cash*
-1. *Service to cash*
+1. *Service to deliver*
 1. *Project to profit*
 
 ## Next steps

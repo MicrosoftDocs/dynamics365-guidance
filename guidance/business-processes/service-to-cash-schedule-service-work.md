@@ -11,7 +11,7 @@ ms.date: 04/08/2024
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 
-This article describes the benefits and process flow of the *Schedule service requests* business process that is part of the *Create and process service work* process area in the *Service to cash* end to end business process. This process encompasses the steps to identify and book the correct resources to be scheduled to perform service work, which is the next step in the progress.
+This article describes the benefits and process flow of the *Schedule service requests* business process that is part of the *Create and process service work* process area in the *Service to deliver* end to end business process. This process encompasses the steps to identify and book the correct resources to be scheduled to perform service work, which is the next step in the progress.
 
 > [!IMPORTANT]
 > The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).

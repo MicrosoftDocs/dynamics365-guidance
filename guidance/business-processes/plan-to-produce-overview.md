@@ -123,7 +123,7 @@ The third column in the diagram displays the downstream business process includi
 
   When production is completed, organizations record production costs and analyze behaviors.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   Often, organizations perform aftermarket repairs on produced items.
 
@@ -246,7 +246,7 @@ The following end-to-end downstream processes have connections to End:
 - *Source to pay*  
 - *Forecast to plan*  
 - *Order to cash*  
-- *Service to cash*  
+- *Service to deliver*  
 - *Project to profit*  
 - *Case to resolution*  
 

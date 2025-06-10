@@ -76,7 +76,7 @@ The diagram also includes business processes on each side.
     - Project to profit
     - Prospect to quote
     - Record to report
-    - Service to cash
+    - Service to deliver
 
 These business processes are related to the steps for managing system access and security in the center of the diagram. However, they aren't directly part of the sequential flow that is described.
 

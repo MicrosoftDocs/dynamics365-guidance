@@ -61,7 +61,7 @@ The following diagram illustrates the *define service costing* business process 
 
     1. *Define service costing strategy*
 
-        A parallel branch connects to *Manage services prices*, which connects to [Service to cash](service-to-cash-overview.md) and [Order to cash](order-to-cash-overview.md).
+        A parallel branch connects to *Manage services prices*, which connects to [Service to deliver](service-to-cash-overview.md) and [Order to cash](order-to-cash-overview.md).
 
     1. *Maintain service costs*
 
@@ -71,7 +71,7 @@ The following diagram illustrates the *define service costing* business process 
 
 1. [Record to report](record-to-report-overview.md)
 
-    Each of the following downstream end-to-end processes connects to the *Record to report* box: *Service to cash*, *Order to cash*, and *Source to pay*.
+    Each of the following downstream end-to-end processes connects to the *Record to report* box: *Service to deliver*, *Order to cash*, and *Source to pay*.
 
 1. End
 

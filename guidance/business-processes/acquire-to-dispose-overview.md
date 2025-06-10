@@ -96,7 +96,7 @@ The downstream processes for the inventory to deliver process include the follow
 
   Each time you acquire an asset, perform write ups or write downs, and depreciate your assets, and so on, the financial impact of these transactions is posted to the fixed asset and asset leasing sub ledger and the general ledger. You can then use the financial data to create financial statements and analyze the asset data.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   You can use the *Service management* or *Asset management* module in Dynamics 365 Supply Chain Management or Dynamics 365 Field Service to track your work orders and maintenance and repair of your assets after they're put into service.
 
@@ -156,7 +156,7 @@ The following steps are illustrated in the *acquire to dispose* end-to-end busin
 
 5. *Maintain and repair internal assets*
 
-    Parallel branches from this subprocess are *Manage internal assets*, *Case to resolution*, *Plan to produce*, *Source to pay*, *Project to profit*, *Service to cash*.
+    Parallel branches from this subprocess are *Manage internal assets*, *Case to resolution*, *Plan to produce*, *Source to pay*, *Project to profit*, *Service to deliver*.
 
 6. *Retire and dispose of assets*
 
@@ -186,7 +186,7 @@ The following end-to-end downstream processes have connections to End:
 - Plan to produce  
 - Source to pay  
 - Project to profit  
-- Service to cash  
+- Service to deliver 
 - Record to report  
 - Order to cash  
 

@@ -52,7 +52,7 @@ The upstream process for the *Source to pay* processes are:
 
   Organizations need to procure materials for use in production before the production process begins. Procurement of materials and services are required during the subcontracting or contract manufacturing processes when an outside vendor is used in the production process.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   Organizations need to procure materials or services to support internal and external activities such as maintenance, installation, or warranty services.
 
@@ -96,7 +96,7 @@ The following list displays the downstream business processes:
 
   Materials purchased are used during the *plan to produce* business process when producing finished goods. It may also include materials and services purchased during the subcontracting or contract manufacturing processes when an outside vendor is used in the production process.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   To support the *service to cash* business process, purchased materials or services support internal and external activities such as maintenance, installation, or warranty services.
 
@@ -200,7 +200,7 @@ Parallel branches from Start include the following list:
 
 - *Plan to product* connects to *Procure materials and services*
 
-- *Service to cash* connects to *Procure materials and services*
+- *Service to deliver* connects to *Procure materials and services*
 
 ## Next steps
 

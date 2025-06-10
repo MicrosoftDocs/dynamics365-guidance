@@ -44,7 +44,7 @@ There are several processes that are often prerequisites to the *project to prof
 
   Most organizations use some sort of quoting or opportunity management process for larger projects. If you plan to use Dynamics 365 to support this process, you must configure the *prospect to quote* process to support the creation of leads, opportunities, and quotes, for example.
 
-<!-- - **Service to cash**  
+<!-- - **Service to deliver**  
 
   If your organization sells services such as maintenance, installation, or warranties, the *service to cash* process can be upstream to the *project to profit* process. -->
 
@@ -120,9 +120,9 @@ The downstream processes for the project to profit process include the following
 
   - Closing the accounting period  
 
-- **Service to cash**  
+- **Service to deliver**  
 
-  *Service to cash* can be downstream to *project to profit*. For example, you sell intangible services such as consulting or health care services to customers. This process involves steps such as the following list:  
+  *Service to deliver* can be downstream to *project to profit*. For example, you sell intangible services such as consulting or health care services to customers. This process involves steps such as the following list:  
 
   - Providing a service  
 
@@ -236,7 +236,7 @@ The following steps are illustrated in the *project to profit* end-to-end busine
     3. [Plan projects](project-to-profit-plan-projects-overview.md)
     4. [Manage project delivery](project-to-profit-deliver-project-work.md)  
 
-        Parallel branches from this subprocess are i. *Capture project expenses*, j. *Process project invoices*, and the downstream processes *Service to cash*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Source to pay*.
+        Parallel branches from this subprocess are i. *Capture project expenses*, j. *Process project invoices*, and the downstream processes *Service to deliver*, *Design to retire*, *Order to cash*, *Plan to produce*, and *Source to pay*.
 
     5. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 
@@ -244,9 +244,9 @@ The following steps are illustrated in the *project to profit* end-to-end busine
 
 3. End
 
-The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote*, and *Service to cash* connect to the subprocess *Manage project opportunities*. *Design to retire* connects to the subprocess *Manage project contracts*.
+The upstream processes *Case to resolution*, *Order to cash*, *Prospect to quote*, and *Service to deliver* connect to the subprocess *Manage project opportunities*. *Design to retire* connects to the subprocess *Manage project contracts*.
 
-The downstream processes *Service to cash* and *Case to Resolution* connect to End.
+The downstream processes *Service to deliver* and *Case to Resolution* connect to End.
 
 ## Next steps
 
