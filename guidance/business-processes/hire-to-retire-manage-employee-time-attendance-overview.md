@@ -51,7 +51,7 @@ The following diagram illustrates the *Record time and attendance and manage lea
 
 2. *Hire to retire*
 
-   The upstream processes *Order to cash*, *Plan to produce*, *Project to profit*, and *Service to cash* all connect directly to *Create and submit timesheets*.
+   The upstream processes *Order to cash*, *Plan to produce*, *Project to profit*, and *Service to deliver* all connect directly to *Create and submit timesheets*.
 
 3. *Onboard and manage the employee lifecycle*
 
@@ -67,7 +67,7 @@ The following diagram illustrates the *Record time and attendance and manage lea
 
    1. *Create and submit timesheets*  
         
-      A parallel branch connects to downstream processes including *Order to cash*, *Plan to produce*, *Project to profit*, *Service to cash*, and *Record to report*, all of which have a connection to End.
+      A parallel branch connects to downstream processes including *Order to cash*, *Plan to produce*, *Project to profit*, *Service to deliver*, and *Record to report*, all of which have a connection to End.
 
    1. *Review and approve timesheets*
 

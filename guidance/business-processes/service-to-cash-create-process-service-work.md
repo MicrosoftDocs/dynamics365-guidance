@@ -48,7 +48,7 @@ The flow diagram for the create and process service work business process area c
 
 1. Start
 
-2. *Service to cash*
+2. *Service to deliver*
 
     1. *Manage customer owned assets*
 

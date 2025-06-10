@@ -61,7 +61,7 @@ Parallel branches from Start include the following processes:
 
 1. *Concept to market* (Define service offerings and strategy) connects to *Develop people strategy* (Create positions).
 
-1. *Service to cash* (Establish servicing policies and procedures) connects to *Develop people strategy* (Create positions).
+1. *Service to deliver* (Establish servicing policies and procedures) connects to *Develop people strategy* (Create positions).
 
 1. *Order to cash* (Manage store operations) connects to *Develop people strategy* (Create and manage shifts).
 

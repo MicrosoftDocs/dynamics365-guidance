@@ -73,7 +73,7 @@ The third column in the diagram displays the downstream business process includi
 
     After a quote is accepted, the *order to cash* process starts. It includes order management, fulfillment, invoicing, and payment collection.
 
-- **Service to cash**
+- **Service to deliver**
 
     This process is applicable to service-based organizations. After sales are estimated and quoted, service delivery and invoicing occur, followed by payment collection.
 
@@ -134,7 +134,7 @@ The following steps are illustrated in the *prospect to quote* end-to-end busine
 
     1. Manage customer relationships
 
-        Parallel branches from this business process area are *Order to cash* and *Service to cash*.
+        Parallel branches from this business process area are *Order to cash* and *Service to deliver*.
 
 1. End
 

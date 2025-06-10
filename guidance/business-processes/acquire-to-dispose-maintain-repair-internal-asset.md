@@ -96,7 +96,7 @@ The flow diagram for the *Perform asset maintenance* business process area cover
 
     1. Schedule maintenance
 
-        Parallel branches from this subprocess are *Case to resolution*, *Service to cash*, and *Project to profit*.
+        Parallel branches from this subprocess are *Case to resolution*, *Service to deliver*, and *Project to profit*.
 
     1. Execute maintenance activities
 
@@ -106,7 +106,7 @@ The flow diagram for the *Perform asset maintenance* business process area cover
 
 1. End
 
-    The following end-to-end downstream processes have connections to End: [Case to resolution](case-to-resolution-introduction.md) and [Service to cash](service-to-cash-introduction.md).
+    The following end-to-end downstream processes have connections to End: [Case to resolution](case-to-resolution-introduction.md) and [Service to deliver](service-to-cash-introduction.md).
 
 
 > [!NOTE]

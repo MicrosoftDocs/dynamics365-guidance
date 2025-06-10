@@ -64,9 +64,9 @@ The first column of this diagram shows potential upstream processes for the *cas
 
   Case management can be a critical tool in coordinating resolutions and refund for example, with many other business processes.
 
-- **Service to cash**  
+- **Service to deliver**  
 
-  The *case to resolution* process is often tightly integrated with the *service to cash* process as a tool to help resolve issues with customer assets, products, warranties, and so on.
+  The *case to resolution* process is often tightly integrated with the *service to deliver* process as a tool to help resolve issues with customer assets, products, warranties, and so on.
 
 The second column in the graphic shows the business process areas that are part of the *case to resolution* process.
 
@@ -200,7 +200,7 @@ Start has parallel branches to each of the following end-to-end processes (shown
 
 7. Prospect to quote
 
-8. Service to cash
+8. Service to deliver
 
 9. Record to report
 

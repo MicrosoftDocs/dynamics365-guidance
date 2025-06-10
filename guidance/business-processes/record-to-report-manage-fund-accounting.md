@@ -98,7 +98,7 @@ The following steps are illustrated in the *Manage fund accounting* business pro
 
 6. End.
 
-There's a parallel branch from h, *Record revenues against funds* subprocess to the *Order to cash* and *Service to cash* end-to-end processes and the [Record financial transactions](record-to-report-record-financial-transactions.md) business process area because documents, such as free text invoices, are posted and revenues are recorded to the appropriate funds.
+There's a parallel branch from h, *Record revenues against funds* subprocess to the *Order to cash* and *Service to deliver* end-to-end processes and the [Record financial transactions](record-to-report-record-financial-transactions.md) business process area because documents, such as free text invoices, are posted and revenues are recorded to the appropriate funds.
 
 A second parallel branch exists from i, *Process expenditures against funds* subprocess to *Source to pay* end-to-end processes as documents, such as vendor invoices, are posted, and expenditures are recorded to the appropriate funds.
 

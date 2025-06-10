@@ -41,7 +41,7 @@ The upstream processes for the *inventory to deliver* process include the follow
 
   When you use Dynamics 365 to manage your sales process, the *inventory to deliver* process requires a sales order to deliver the inventory. There are also downstream processes that happen after the *inventory to deliver* process is complete, such as the *order to cash* process.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   When you use Dynamics 365 to manage your service process, the *inventory to deliver* process includes handling outbound goods, such as loading spare parts into a delivery truck.
 
@@ -76,7 +76,7 @@ The downstream processes for the *inventory to deliver* process include the foll
 
   When the *inventory to deliver* process is completed as a sub process in the order to cash process, the order to cash process continues. For example, the invoicing, payment, and collection of payment for the sales.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   When the *inventory to deliver* process is completed as a sub process in the service to cash process, the service to cash process continues. For example, the invoicing, payment, and collection of payment for the service.
 
@@ -154,11 +154,11 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
 2. *Project to profit* end-to-end process  
 
-    Parallel branches from *Project to profit* connect to *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to cash*.
+    Parallel branches from *Project to profit* connect to *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to deliver*.
 
 3. *Design to retire* end-to-end process
 
-    The diagram doesn't illustrate connections, but *Design to retire* is also an upstream process for the *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to cash* business processes.
+    The diagram doesn't illustrate connections, but *Design to retire* is also an upstream process for the *Source to pay*, *Plan to produce*, *Order to cash*, and *Service to deliver* business processes.
 
 4. *Source to pay* end-to-end process  
 
@@ -212,7 +212,7 @@ The following steps are illustrated in the *inventory to deliver* end-to-end bus
 
     7. End
 
-7. *Service to cash* end-to-end process  
+7. *Service to deliver* end-to-end process  
 
     1. *Process outbound goods*
 

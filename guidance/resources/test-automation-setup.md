@@ -4,7 +4,7 @@ description: Learn how to set up automated end-to-end testing with Playwright fo
 author: edupont04
 ms.author: darent
 ms.topic: how-to
-ms.date: 06/07/2023
+ms.date: 06/04/2025
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
@@ -35,7 +35,7 @@ Playwright has two components. The Playwright Library provides unified APIs for 
 
 - Azure subscription (optional): We recommend you use an active Microsoft Azure subscription. It's a requirement if you plan to run automated tests in Azure or if you integrate load testing into your CI/CD pipelines.
 
-## Installation
+## Install Playwright
 
 You can [install Playwright natively](https://playwright.dev/docs/intro) using *npm* or *yarn*. We recommend you install the Playwright extension in Visual Studio Code (VS Code).
 
@@ -53,6 +53,8 @@ Next, you need a Dynamics 365 Customer Service environment that you can run test
 
 1. [Turn off security defaults](/azure/active-directory/fundamentals/security-defaults) for automated testing.
 
+    > [!CAUTION]
+    > The security defaults are on by default. This sample is a simple one that doesn't include the more appropriate configuration that supports the security defaults.
 1. In the Microsoft 365 admin center, create the user accounts you need and assign security roles. At a minimum, create a test automation account to use for testing, such as `test.automation@yourdomain.com`.
 
 ## Set up the test automation project

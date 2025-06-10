@@ -64,7 +64,7 @@ The upstream processes for the *hire to retire* process include the following li
 
   Before an organization typically hires, there's a need to define a budget for employees and their related expenses. Benefits and compensation budgets are typically reviewed and approved on a minimum of an annual basis. These budgets are often done before any actual expenses or hiring can take place.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   In service-based organizations, the definition of the service typically exists before you start to hire employees to perform the service. This can includes the policies, procedures, and so on, that are part of the service to cash process in an organization.
 
@@ -125,7 +125,7 @@ The third column in the diagram displays the downstream business process includi
 
   In any organization, the *hire to retire* process has many downstream touchpoints. Each time an expense is incurred related to an employee, the cost must be tracked in the general ledger to create accurate financial statements. Often the employee expenses are also allocated to other business processes, for example, to production as overhead costs.
 
-- **Service to cash**  
+- **Service to deliver**  
 
   In service-based organizations, once employees are hired, the new staff starts work. In pay-for-performance based organizations, the customer satisfaction related to the work performed can affect the pay of the employee.
 
@@ -236,7 +236,7 @@ Parallel branches from Start include the following end-to-end processes:
 
 10. *Record to report*, which connects to 3. *Plan and recruit your workforce*.
 
-11. *Service to cash*, which has unshown parallel branches connect to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*, and 4.iv. *Manage travel and expenses*.
+11. *Service to deliver*, which has unshown parallel branches connect to 3. *Plan and recruit your workforce*, 4. *Onboard and manage the employee lifecycle*, and 4.iv. *Manage travel and expenses*.
 
 The following end-to-end downstream processes also connect to End:
 
@@ -260,7 +260,7 @@ The following end-to-end downstream processes also connect to End:
 
 - *Record to report*
 
-- *Service to cash*
+- *Service to deliver*
 
 ## Next steps
 

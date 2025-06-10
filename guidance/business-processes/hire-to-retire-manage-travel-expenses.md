@@ -74,7 +74,7 @@ The following diagram illustrates the *Manage employee travel* business process 
 
         8. *Report and analyze on expense reports*
 
-4. Parallel connections are shown between the downstream processes *Order to cash*, *Project to profit*, *Service to cash*, and *Record to report*.
+4. Parallel connections are shown between the downstream processes *Order to cash*, *Project to profit*, *Service to deliver*, and *Record to report*.
 
 5. End
 
