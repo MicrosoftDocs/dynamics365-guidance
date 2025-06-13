@@ -1,7 +1,7 @@
 ---
 title: Overview of the Transfer workers business process
 description: Learn how the Transfer workers business process can help you optimize the transfer of employees from one legal entity to another in Dynamics 365 Human Resources.
-ms.date: 05/27/2025
+ms.date: 06/12/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -11,10 +11,10 @@ ms.author: edupont
 
 ***Applies to: Dynamics 365 Human Resources***
 
-This article explains how to Transfer workers in Dynamics 365 Human Resources. Organizations can move employees from one position to another to update their workforce structure. The scenarios involve setting up departments, jobs, and positions in Dynamics 365 Human Resources, and then assigning employees to positions that are linked to jobs.
+This article explains how to transfer workers in Dynamics 365 Human Resources. Organizations can move employees from one position to another to update their workforce structure. The scenarios involve setting up departments, jobs, and positions in Dynamics 365 Human Resources, and then assigning employees to positions that are linked to jobs.
 
 > [!IMPORTANT]
-> In earlier versions of the business process catalog, this article represented a business process, under the *Onboard and manage the employee lifecycle*. In February 2025, it was moved to the *Manage compensation and benefits* area, and we're in process of updating the content to reflect this move.
+> In earlier versions of the business process catalog, this article represented a business process, under the *Onboard and manage the employee lifecycle*. In February 2025, it was moved to the *Manage performance and growth* area, and we're in process of updating the content to reflect this move.
 
 Internal transfers gives employees opportunities for growth and development. By moving to different positions in the organization, employees can broaden their skills and experiences. Additionally, employees might seek transfers so that they can explore new roles, work on different teams, or take on other responsibilities. Employee transfers can also accommodate an update in the compensation structure.
 
@@ -43,35 +43,21 @@ The following list describes the stakeholders in the *Transfer workers* business
 - The **Finance team** is involved in defining and supporting finance-related processes, such as managing the general ledger and processing invoices and vendor payments.
 - **Other department teams** are involved in managing different business processes for the customer, based on the industry (for example, supply chain or manufacturing processes).
 
-## Transfer employee process flow
+## Transfer worker process flow
 
-The following diagram illustrates the *Transfer employee* process area.
+The following diagram illustrates the *Transfer worker* business process with the **HR Manager** as the user role.
 
-:::image type="content" source="media/hire-to-retire-onboard-transfer-employee-flow.svg" alt-text="Diagram that shows four boxes with lists of steps, one for each main step of the process for transferring employees: prerequisites, defining approval and checklists, transferring employee from legal entity A, and then transferring them to legal entity B." lightbox="media/hire-to-retire-onboard-transfer-employee-flow.svg":::
+:::image type="content" source="media/hire-to-retire-onboard-transfer-worker-flow.svg" alt-text="Diagram that shows five boxes with lists of steps, one for each main step of the process for transferring employees: Identify the transfer need, plan the transfer, transferring the worker, updating records, and then communicating the transfer." lightbox="media/hire-to-retire-onboard-transfer-worker-flow.svg":::
 
-1. Fulfill the prerequisites for transferring an employee
-
-    1. Define the compensation structure that applies to the position.
-    1. Define relevant reason codes that might apply to the transfer.
-
-1. Define approval and checklists
-
-    1. Define and set up the approval, based on the business policy.
-    1. Define task management for transitions.
-
-1. Transfer an employee from legal entity A
-
-    1. Transfer an employee by doing maintenance directly on the employee.
-    1. Transfer an employee by doing maintenance directly on the position.
-
-1. Transfer an employee to legal entity B
-
-    1. Terminate the employment and worker position assignment in legal entity A.
-    1. Hire the employee and add a worker position assignment in legal entity B.
+1. As the HR manager, identify the need for a transfer.  
+1. Plan the transfer.  
+1. Transfer the worker.  
+1. Update the records.  
+1. Communicate the transfer.
 
 ## Implement the Transfer workers business process
 
-Before you initiate the *Transfer employee* process, look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
+Before you initiate the *Transfer workers* process, look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
 
 As you work with Human Resources, you decide how your organization is structured through elements such as departments, jobs, and positions. These foundational elements play a crucial role in the management of employee transfers.
 

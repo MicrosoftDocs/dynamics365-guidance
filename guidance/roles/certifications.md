@@ -4,7 +4,7 @@ description: Get an overview of Microsoft Credentials for different roles across
 author: edupont04
 ms.author: edupont
 ms.topic: overview
-ms.date: 11/18/2024
+ms.date: 06/12/2025
 ---
 
 # Microsoft Credentials for different roles in Dynamics 365
@@ -24,16 +24,20 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
 - Dynamics 365 Business Central
 
   - [Dynamics 365 Business Central Functional Consultant Associate](/credentials/certifications/d365-business-central-functional-consultant-associate/)
-
-- Dynamics 365 Customer Insights
+<!-- - Dynamics 365 Customer Insights
 
   - [Dynamics 365 Customer Insights - Data Specialty](/credentials/certifications/customer-data-platform-specialty/)  
-  - [Dynamics 365 Customer Insights - Journeys Functional Consultant Associate](/credentials/certifications/d365-customer-insights-journeys-functional-consultant/)  
+  - [Dynamics 365 Customer Insights - Journeys Functional Consultant Associate](/credentials/certifications/d365-customer-insights-journeys-functional-consultant/)   -->
 
-- Dynamics 365 Customer Service and Field Service
+- Dynamics 365 Customer Service
 
   - [Dynamics 365 Customer Service Functional Consultant Associate](/credentials/certifications/d365-functional-consultant-customer-service/)  
-  - [Dynamics 365 Field Service Functional Consultant Associate](/credentials/certifications/d365-functional-consultant-field-service/)
+  - [Dynamics 365 Customer Experience Analyst Associate](/credentials/certifications/d365-customer-experience-analyst-associate/?practice-assessment-type)  
+
+- Dynamics 365 Field Service
+
+  - [Dynamics 365 Field Service Functional Consultant Associate](/credentials/certifications/d365-functional-consultant-field-service/?practice-assessment-type)  
+  - [Dynamics 365 Customer Experience Analyst Associate](/credentials/certifications/d365-customer-experience-analyst-associate/?practice-assessment-type)  
 
 - Dynamics 365 Finance
 
@@ -41,7 +45,7 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
 
 - Dynamics 365 Sales
 
-  - [Dynamics 365 Sales Functional Consultant Associate](/credentials/certifications/d365-functional-consultant-sales/)
+  - [Dynamics 365 Customer Experience Analyst Associate](/credentials/certifications/d365-customer-experience-analyst-associate/?practice-assessment-type)
   - [Power Platform Solution Architect Expert](/credentials/certifications/power-platform-solution-architect-expert/)  
   
 - Dynamics 365 Supply Chain Management

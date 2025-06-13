@@ -44,8 +44,8 @@ landingContent:
       links:
       - text: What's new or changed in the business process catalog
         url: about-whats-new.md
-      - text: February 2025
-        url: about-whats-new-2025-february.md
+      - text: May 2025
+        url: about-whats-new-2025-may.md
 
 # Card
   - title: Primary processes
@@ -56,7 +56,7 @@ landingContent:
         url: prospect-to-quote-introduction.md
       - text: Order to cash
         url: order-to-cash-introduction.md
-      - text: Service to cash
+      - text: Service to deliver
         url: service-to-cash-introduction.md
       - text: Plan to produce
         url: plan-to-produce-introduction.md
