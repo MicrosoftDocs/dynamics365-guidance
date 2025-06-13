@@ -1,20 +1,20 @@
 ---
-title: Overview of the Manage fund accounting business process area
-description: Learn about the concept of fund accounting and which Dynamics 365 products support this area out of the box.
+title: Deprecated business process area
+description: This article was for a business process area that is deprecated and not yet replaced by the 90.25 Manage cash business process area.
 author: lifiatamara-ms
 ms.author: lifiatamara
 ms.topic: concept-article
-ms.date: 02/10/2025
+ms.date: 06/11/2025
+ROBOTS: NOINDEX
 ---
 
-# Overview of the Manage fund accounting business process area within the Record to report end-to-end scenario
+# Deprecated Manage fund accounting business process area
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
+<!-- ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management*** -->
 
-This article describes the business process area of *fund accounting* and provides an overview of how you can use Dynamics 365 products to manage fund accounting for efficient financial management and accountability.
+This article described the business process area of *fund accounting*, which was deprecated in the November 2024 version of the business process catalog. Learn more at [Improvements to Record to report processes](about-whats-new-2024-november.md#improvements-to-record-to-report-processes).
 
-> [!NOTE]
-> This business process area is deprecated in the November 2024 version of the business process catalog. Learn more at [Improvements to Record to report processes](about-whats-new-2024-november.md#improvements-to-record-to-report-processes).
+It's replaced by a business process, 90.25.600 *Manage funds*, that's part of 90.25 *Manage cash*, but we do't have articles for the business process nor the business process area yet.
 
 <!-- Fund accounting is a crucial business process area, especially for non-profit organizations and government entities. It provides a detailed account of income and expenditure to help the organization provide transparency and accountability in financial operations. With Dynamics 365, organizations can streamline their fund accounting processes and track funds effectively, maintain regulatory compliance, and make informed financial decisions.
 
@@ -162,10 +162,11 @@ If you want to implement Dynamics 365 solutions to assist with your *Manage fund
 1. [Close financial periods](record-to-report-close-financial-periods.md)
 1. *Report and analyze financials and cash flow*
 1. *Manage fund accounting* (the article you're currently reading)
- 
+-->
+
 ## Related information
 
-You can use the following resources to learn more about the Manage fund accounting process in Dynamics 365.
+You can use the following resources to learn more about fund accounting in Dynamics 365 Finance.
 
 - [Posting definitions - Finance](/dynamics365/finance/general-ledger/posting-definitions)
 
@@ -173,7 +174,7 @@ You can use the following resources to learn more about the Manage fund accounti
 
 - [Configure Dynamics 365 Finance for public sector - Training](/training/modules/configure-public-sector-dyn365-finance)
 
-- [Microsoft Certified: Dynamics 365 Finance Functional Consultant Associate](/certifications/exams/mb-310)
+<!-- - [Microsoft Certified: Dynamics 365 Finance Functional Consultant Associate](/certifications/exams/mb-310) -->
 
 <!-- ## Tags
 

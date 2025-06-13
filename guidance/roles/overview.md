@@ -1,33 +1,39 @@
 ---
-title: Overview of the names of user profiles and roles in Dynamics 365
+title: Names of user profiles and roles in Dynamics 365
 description: Get an overview of the names of user profiles and other roles that are often used in content for Dynamics 365.
 author: edupont04
 ms.author: edupont
-ms.topic: overview
-ms.date: 09/07/2023
+ms.topic: concept-article
+ms.date: 06/11/2025
 ---
 
-# Overview of roles in Dynamics 365
+# Names of user profiles and roles in Dynamics 365
 
 Across Dynamics 365, you're likely to find content that is intended for people with a specific type of job but might be accessed by people with other jobs. You'll also find content that is intended for people across their organization, regardless of their job or role. This article intends to describe the different roles as Microsoft perceives them.  
 
-If you can't find a definition that fits you, don't despair! It just means that we've merged different jobs into a role for simplicity. For example, an article might target a functional consultant but includes content that is relevant for an accountant or a purchasing manager. Or an article might target a developer but can be consumed and understood by a low-code app maker.  
+## Roles
+
+The table in this section lists the types of jobs that we at Microsoft consider our key audiences for content on Microsoft Learn.  
+
+> [!TIP]
+> If you can't find a definition that fits you, don't despair! It just means that we've merged different jobs into a role for simplicity. For example, an article targets a functional consultant, but it includes content that's relevant for an accountant or a purchasing manager. Or an article targets a developer, but a low-code app maker can also consume and understand it.  
 
 | Role | Description |
 |---|---|
 |Customer|This role covers two definitions: In guidance and admin content, it's the organization that buys a license for a Microsoft product. In Dynamics 365 business functionality content, it's more often that organization's client or consumer.|
 |Partner|This role covers two definitions: In guidance and admin content, it's the organization that sells licenses for Microsoft products. In developer or maker content, it's more often an independent software vendor, ISV, or app provider.|
-| Functional consultant | This role covers people that are employed by a Microsoft reselling partner and who helps implement Dynamics 365 for a customer. The role covers many different names and job titles. Learn more at [Functional consultants in Dynamics 365 implementations](functional-consultant.md).|
+|Functional consultant| This role covers people that are employed by a Microsoft reselling partner and who helps implement Dynamics 365 for a customer. The role covers many different names and job titles. Learn more at [Functional consultants in Dynamics 365 implementations](functional-consultant.md).|
 |Solution architect|This role is employed by Microsoft or any other company and use their technical expertise to integrate and optimize technologies across an organization, tailoring solutions to meet business needs. Learn more at [Solution architects in Dynamics 365](solution-architect.md).|
 |Business owner|This role covers the person or people with the final say in which Microsoft services their organization will purchase.|
-| Business analyst | This role typically applies to a person who is employed by the customer. The role covers many different names and job titles. |
-| Developer | Typically a software engineer, but other profiles can also consume and understand the content. Their employer can be either a partner or the customer. |
+|Business analyst| This role typically applies to a person who is employed by the customer. The role covers many different names and job titles. |
+|Project manager|This role is a key resource for working with other project roles and stakeholders to define and control the implementation strategy, monitor and report on performance, and coordinate activities.|
+|Developer| Typically a software engineer, but other profiles can also consume and understand the content. Their employer can be either a partner or the customer. |
 |Internal admin|This role covers people that are employed by the organization that uses Dynamics 365 as system administrators or similar jobs. They must approve partner access to their organization's environments, for example.|
 |Delegated admin|This role covers people that are employed by a Microsoft reselling partner and are assigned *[granular delegated admin privileges](/partner-center/gdap-introduction)* to their customer's tenants.|
 
 ## Stakeholders
 
-In guidance content, you will also find articles, such as business processes, that are intended for a specific group of *stakeholders*, meaning people with different titles and jobs but a professional interest in certain departments or business areas and how Dynamics 365 is configured in those areas. The following table lists the terms we use for these people.
+You'll also find articles, such as our library of [business processes](../business-processes/overview.md), that are intended for a specific group of *stakeholders*, meaning people with different titles and jobs but a professional interest in certain departments or business areas. The stakeholders also impact how Dynamics 365 is configured in those areas. The following table lists the terms we use for these people.
 
 | Term| Examples |
 |---|---|
@@ -50,9 +56,11 @@ In guidance content, you will also find articles, such as business processes, th
 | IT stakeholders | CIO, Director IT, ERP Manager, Technology managers |
 | Administrative stakeholders | System admin, Microsoft 365 admin |
 
-## Related information
+## Related content
 
-[Available certifications for different roles in Dynamics 365](certifications.md)  
-[Solution architects in Dynamics 365](solution-architect.md)  
-[Glossary of terms in Dynamics 365 business processes](../business-processes/glossary.md)  
-[Dynamics 365 guidance documentation](../index.yml)  
+Find more information in the following articles.
+
+- [Available certifications for different roles in Dynamics 365](certifications.md)  
+- [Solution architects in Dynamics 365](solution-architect.md)  
+- [Glossary of terms in Dynamics 365 business processes](../business-processes/glossary.md)  
+- [Dynamics 365 guidance documentation](../index.yml)  
