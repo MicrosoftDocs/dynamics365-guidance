@@ -87,9 +87,9 @@ We recommend that you have a custom field, **Workload type**, that defines the s
 
 - *Azure*  
 - *Business Central*  
-- *Cross-functional*  
-- *Customer engagement apps*
-- *Finance and operations apps*  
+- *Cross functional*  
+- *Customer engagement*
+- *Finance and operations*  
 - *Productivity*
 
 ## Option values for the Application family field
@@ -104,8 +104,8 @@ We recommend that you have a custom field, **Application**, that defines the sec
 
 We recommend that you have a custom field, **Module/Functionality**, that defines the section of the Dynamics 365 family that this implementation project includes. The following list outlines the minimum number of options for the list. 
 
-- Accounts payables
-- Accounts receivables
+- Accounts payable
+- Accounts receivable
 - Asset leasing
 - Asset management
 - Audit workbench
@@ -124,13 +124,16 @@ We recommend that you have a custom field, **Module/Functionality**, that define
 - Master planning
 - Organization administration
 - Payroll
+- Pricing management
 - Procurement and sourcing
 - Product information management
 - Production control
 - Project management and accounting
 - Questionnaire
 - Retail
+- Sales
 - Sales and marketing
+- Service
 - Service management
 - System settings
 - Tax
