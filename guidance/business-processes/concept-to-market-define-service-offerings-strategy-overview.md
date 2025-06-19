@@ -7,7 +7,11 @@ author: rachel-profitt
 ms.author: raprofit
 ---
 
-# Overview of the Define service offerings and strategy business process area within the Concept to market end-to-end scenario
+# Overview of the Define service offerings and strategy business process area within the Concept to market end-to-end scenario - deprecated
+
+This article represented a deprecated business process area.
+
+<!--
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
@@ -80,6 +84,8 @@ You can use the following resources to learn more about the *define service offe
 - [Classify a product using category hierarchies](/dynamics365/supply-chain/pim/tasks/classify-product-category-hierarchies)
 - [Create a new product hierarchy](/dynamics365/commerce/create-product-hierarchy)
 
+-->
+
 <!-- ## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Wholesale Trade (50-51), Retail Trade (52-59), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
@@ -87,6 +93,8 @@ You can use the following resources to learn more about the *define service offe
 *Stakeholders:* Customer services, Engineering, Finance, Marketing, Merchandising, Operations, Production, Purchasing, Retail store operations, Sales, Service operations, Warehouse
 
 *Products:* Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center -->
+
+<!--
 
 ## Contributors
 
@@ -99,3 +107,5 @@ Principal author:
 Other Contributors:
 
 - [Michael Herold](https://linkedin.com/in/maherold) \| Microsoft Dynamics Principal Consultant
+
+-->
