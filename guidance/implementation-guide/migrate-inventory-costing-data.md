@@ -6,6 +6,8 @@ ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
+ms.custom:
+  - evergreen
 ---
 
 # Migrate inventory costing data for your items when managing your inventory

@@ -5,7 +5,9 @@ author: timogossen
 ms.author: timogoss
 ms.date: 11/21/2024
 ms.topic: overview
-ms.custom: bap-template
+ms.custom:
+  - evergreen
+  - bap-template
 ---
 
 # Introduction to the Dynamics 365 implementation guide

@@ -5,7 +5,9 @@ author: edupont04
 ms.author: edupont
 ms.date: 01/21/2025
 ms.topic: overview
-ms.custom: bap-template
+ms.custom:
+  - evergreen
+  - bap-template
 ---
 
 # What is the Dynamics 365 implementation guide?

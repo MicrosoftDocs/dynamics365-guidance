@@ -5,6 +5,8 @@ author: TimoGossen
 ms.author: timogoss
 ms.date: 01/22/2024
 ms.topic: concept-article
+ms.custom:
+  - evergreen
 ---
 
 # Project goals for Dynamics 365 implementation projects

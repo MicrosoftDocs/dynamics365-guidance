@@ -8,10 +8,11 @@ author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont
 ms.custom:
-- ai-seo-date: 01/16/2024
-- ai-gen-docs-bap
-- ai-gen-title
-- ai-gen-desc
+  - evergreen
+  - ai-seo-date: 01/16/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
 content_well_notification: AI-contribution
 ai-usage: ai-assisted
 ---

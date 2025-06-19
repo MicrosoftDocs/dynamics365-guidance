@@ -6,6 +6,7 @@ ms.author: renwe
 ms.date: 01/11/2024
 ms.topic: checklist
 ms.custom:
+  - evergreen
   - ai-seo-date: 01/11/2024
   - ai-gen-docs-bap
   - ai-gen-title
