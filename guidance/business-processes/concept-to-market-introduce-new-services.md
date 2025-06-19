@@ -7,7 +7,11 @@ ms.author: raprofit
 ms.date: 01/26/2024
 ---
 
-# Overview of the Introduce new services business process area within the Concept to market end-to-end scenario
+# Overview of the Introduce new services business process area within the Concept to market end-to-end scenario - deprecated
+
+This article represented a deprecated business process area.
+
+<!--
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
@@ -114,8 +118,8 @@ The following diagram illustrates the Introduce new services business process ar
 
 5. End
 
-> [!NOTE]
-> Each of the following processes have a parallel branch that connects to End: <!--*Maintain service data*, -->*Define service costing*, *Manage service pricing*, *Manage vendor relationships*, and *Run marketing campaigns*.
+> [!NOTE] (This note is correct, but had "Maintain service data" commented out. It was causing issues with HTML commenting. So, I removed the comment and deleted the item from the list below.)
+> Each of the following processes have a parallel branch that connects to End: *Define service costing*, *Manage service pricing*, *Manage vendor relationships*, and *Run marketing campaigns*.
 
 ## Introduce new services benefits
 
@@ -186,6 +190,8 @@ You can use the following resources to learn more about the Introduce new servic
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate - Certifications](/credentials/certifications/d365-functional-consultant-supply-chain-management/)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Expert - Certifications](/credentials/certifications/d365-supply-chain-management-functional-consultant-expert/)
 
+-->
+
 <!-- ## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
@@ -193,6 +199,8 @@ You can use the following resources to learn more about the Introduce new servic
 *Stakeholders:* Accounts receivable, Administrative, Customer services, Engineering, Finance, Marketing, Merchandising, Operations, Production, Project Management, Purchasing, Retail store operations, Sales, Service operations
 
 *Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center -->
+
+<!--
 
 ## Contributors
 
@@ -205,3 +213,5 @@ Principal author:
 Other contributors:
 
 - [Michael Herold](https://www.linkedin.com/in/maherold/) | Delivery Architect, Microsoft
+
+-->

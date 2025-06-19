@@ -5,7 +5,8 @@ ms.date: 06/26/2023
 ms.topic: concept-article
 author: TimoGossen
 ms.author: timogoss
-manager: 
+ms.custom:
+  - evergreen
 ---
 
 # Define a schedule for the training plan in your Dynamics 365 implementation project

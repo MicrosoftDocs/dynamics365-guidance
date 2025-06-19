@@ -7,6 +7,7 @@ ms.topic: concept-article
 ms.date: 01/19/2024
 ms.service: dynamics-365
 ms.custom:
+  - evergreen
   - ai-seo-date: 01/29/2024
   - ai-gen-docs-bap
   - ai-gen-title

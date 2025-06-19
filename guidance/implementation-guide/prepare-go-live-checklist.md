@@ -6,11 +6,12 @@ ms.topic: checklist
 author: vaniusca
 ms.author: vaniaf
 ms.custom:
- - ai-seo-date: 01/30/2024
- - ai-gen-docs-bap
- - ai-gen-title
- - ai-gen-desc
- - bap-template
+  - evergreen
+  - ai-seo-date: 01/30/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
+  - bap-template
 content_well_notification: AI-contribution
 ---
 

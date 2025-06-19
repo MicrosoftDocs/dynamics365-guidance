@@ -7,6 +7,7 @@ ms.topic: checklist
 ms.date: 01/22/2024
 ms.service: dynamics-365
 ms.custom:
+  - evergreen
   - ai-seo-date: 01/22/2024
   - ai-gen-docs-bap
   - ai-gen-title

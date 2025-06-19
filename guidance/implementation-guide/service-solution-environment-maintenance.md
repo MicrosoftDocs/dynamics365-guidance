@@ -6,10 +6,11 @@ ms.author: edupont
 ms.date: 01/30/2024
 ms.topic: best-practice
 ms.custom:
- - ai-seo-date: 01/30/2024
- - ai-gen-docs-bap
- - ai-gen-title
- - ai-gen-desc
+  - evergreen
+  - ai-seo-date: 01/30/2024
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-gen-desc
 content_well_notification: AI-contribution
 ---
 

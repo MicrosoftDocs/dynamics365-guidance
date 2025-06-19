@@ -6,7 +6,8 @@ ms.author: veneva
 ms.topic: concept-article
 ms.collection: 
 ms.date: 01/23/2024
-ms.custom: 
+ms.custom:
+  - evergreen
   - bap-template
   - ai-seo-date: 01/23/2024
   - ai-gen-docs-bap

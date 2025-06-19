@@ -75,7 +75,7 @@ There are several product capabilities in the Dynamics 365 ecosystem that suppor
 
 The following diagram shows an example of the high-level flow of the *forecast to plan* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/forecast-to-plan-process-flow.png" alt-text="Flow diagram for the end-to-end business process, forecast to plan, which is explained in the paragraph after the image." lightbox="media/forecast-to-plan-process-flow.png":::
+:::image type="content" source="media/forecast-to-plan-process-flow.svg" alt-text="Flow diagram for the end-to-end business process, forecast to plan, which is explained in the paragraph after the image." lightbox="media/forecast-to-plan-process-flow.svg":::
 
 The example diagram above is a sample flow that is common in either make to order scenario. The following steps are illustrated in the *forecast to plan* end-to-end business process flow diagram.
 

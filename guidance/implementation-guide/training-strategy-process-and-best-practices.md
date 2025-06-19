@@ -5,6 +5,8 @@ ms.date: 06/20/2023
 ms.topic: best-practice
 author: TimoGossen
 ms.author: timogoss
+ms.custom:
+  - evergreen
 ---
 
 # Training process and best practices

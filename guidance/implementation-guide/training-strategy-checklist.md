@@ -5,6 +5,8 @@ ms.date: 06/26/2023
 ms.topic: checklist
 author: TimoGossen
 ms.author: timogoss
+ms.custom:
+  - evergreen
 ---
 
 # Checklist for your training strategy

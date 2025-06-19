@@ -7,7 +7,11 @@ ms.topic: concept-article
 ms.date: 02/28/2024
 ---
 
-# Overview of the Manage service pricing business process area within the Concept to market end-to-end scenario
+# Overview of the Manage service pricing business process area within the Concept to market end-to-end scenario - deprecated
+
+This article represented a deprecated business process area.
+
+<!--
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
@@ -161,6 +165,8 @@ Find definitions of terminology used in content for *run production operations* 
 - [Service pricing optimization](glossary.md#service-pricing-optimization)
 - [Trade agreement](glossary.md#trade-agreement)
 
+-->
+
 <!-- ## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
@@ -169,6 +175,8 @@ Find definitions of terminology used in content for *run production operations* 
 
 *Products*: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management -->
 
+<!--
+
 ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributor.*
@@ -176,3 +184,5 @@ Find definitions of terminology used in content for *run production operations* 
 Principal author:
 
 - [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager
+
+-->

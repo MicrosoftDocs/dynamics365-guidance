@@ -7,7 +7,11 @@ ms.topic: concept-article
 ms.date: 05/27/2025
 ---
 
-# Overview of the Manage service lifecycle business process area within the Concept to market end-to-end scenario
+# Overview of the Manage service lifecycle business process area within the Concept to market end-to-end scenario - deprecated
+
+This article represented a deprecated business process area.
+
+<!--
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
@@ -137,6 +141,8 @@ You can use the following resources to learn more about the *manage service life
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate](/credentials/certifications/d365-functional-consultant-supply-chain-management/)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Expert](/credentials/certifications/d365-supply-chain-management-functional-consultant-expert/)
 
+-->
+
 <!--## Tags
 
 *Industries:* Agriculture (01-09), Mining (10-14), Construction (15-17), Manufacturing (20-39), Transportation and Public Utilities (40-49), Finance, Insurance, Real Estate (60-67), Services (70-89), Public Administration (91-99)
@@ -145,6 +151,8 @@ You can use the following resources to learn more about the *manage service life
 
 *Products:* Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Sales, Dynamics 365 Supply Chain Management -->
 
+<!--
+
 ## Contributors
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
@@ -152,3 +160,5 @@ You can use the following resources to learn more about the *manage service life
 Principal author:
 
 - [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager, Microsoft
+
+-->

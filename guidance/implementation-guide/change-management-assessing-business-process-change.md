@@ -5,6 +5,8 @@ author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
 ms.topic: concept-article
+ms.custom:
+  - evergreen
 ---
 
 # Assess business process changes in Dynamics 365 implementation projects

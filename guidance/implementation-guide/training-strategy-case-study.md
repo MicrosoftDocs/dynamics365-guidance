@@ -5,6 +5,8 @@ ms.date: 06/26/2023
 ms.topic: concept-article
 author: TimoGossen
 ms.author: timogoss
+ms.custom:
+  - evergreen
 ---
 
 # Case study for Dynamics 365 implementation project training strategies
