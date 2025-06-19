@@ -58,9 +58,7 @@ Many people across the organization should contribute to the decision-making pro
 The following diagram illustrates the *Manage active products* business process area.
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\design-to-retire-manage-product-lifecycle-overview.svg" alt-text="Diagram of the Manage active products business process flow, visualizing the connection between business process areas." lightbox= "media\design-to-retire-manage-product-lifecycle-overview.svg":::
-
-
+:::image type="content" source="media/design-to-retire-manage-product-lifecycle-overview.svg" alt-text="Diagram of the Manage active products business process flow, visualizing the connection between business process areas." lightbox= "media/design-to-retire-manage-product-lifecycle-overview.svg":::
 
 1. Start
 

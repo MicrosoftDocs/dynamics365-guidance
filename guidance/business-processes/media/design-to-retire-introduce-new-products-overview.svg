@@ -1,1427 +1,363 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1841.6113"
-   height="1846.8373"
-   overflow="hidden"
-   version="1.1"
-   id="svg114"
-   sodipodi:docname="design-to-retire-introduce-new-products-overview.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs114" />
-  <sodipodi:namedview
-     id="namedview114"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.95677083"
-     inkscape:cx="960"
-     inkscape:cy="1378.0729"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="2869"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg114" />
-  <g
-     id="g114">
-    <rect
-       x="0"
-       y="0"
-       width="1841.6113"
-       height="1846.8373"
-       fill="#ffffff"
-       id="rect1"
-       style="stroke-width:0.960533" />
-    <rect
-       x="366"
-       y="19"
-       width="1095"
-       height="1778"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#d9d9d9"
-       id="rect2" />
-    <text
-       fill="#0078d4"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="700"
-       font-size="27px"
-       transform="translate(394.38,68)"
-       id="text2">Business process area</text>
-    <path
-       d="M 41,57.5002 C 41,36.2371 58.2371,19 79.5002,19 H 290.5 c 21.263,0 38.5,17.2371 38.5,38.5002 v 0 c 0,21.263 -17.237,38.5001 -38.5,38.5001 L 79.5002,96 C 58.2371,96 41,78.7629 41,57.4998 Z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path2" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(162.965,66)"
-       id="text3">Start</text>
-    <rect
-       x="1506"
-       y="548"
-       width="288"
-       height="168"
-       fill="#a0a0a0"
-       id="rect3" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1577.87,640)"
-       id="text4">Design to retire</text>
-    <rect
-       x="41"
-       y="144"
-       width="288"
-       height="168"
-       fill="#a0a0a0"
-       id="rect4" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(112.375,236)"
-       id="text5">Design to retire</text>
-    <rect
-       x="719"
-       y="343"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect5" />
-    <path
-       d="M 755,343 V 511 M 971,343 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path5" />
-    <rect
-       x="719"
-       y="343"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect6" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(820.608,409)"
-       id="text6">Generate</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(799.222,434)"
-       id="text7">offering ideas</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(800.775,460)"
-       id="text8">and concepts</text>
-    <rect
-       x="41"
-       y="338"
-       width="288"
-       height="168"
-       fill="#0078d4"
-       id="rect8" />
-    <path
-       d="M 77,338 V 506 M 293,338 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path8" />
-    <rect
-       x="41"
-       y="338"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect9" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(114.568,405)"
-       id="text9">Define product</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(129.928,430)"
-       id="text10">catalog and</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(147.175,456)"
-       id="text11">strategy</text>
-    <rect
-       x="384"
-       y="138"
-       width="288"
-       height="168"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect11" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(416.583,231)"
-       id="text12">Introduce new products</text>
-    <rect
-       x="1055"
-       y="343"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect12" />
-    <path
-       d="M 1091,343 V 511 M 1307,343 V 511"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path12" />
-    <rect
-       x="1055"
-       y="343"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect13" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1128.28,396)"
-       id="text13">Assess offering</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1133.84,421)"
-       id="text14">feasibility and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1128.2,447)"
-       id="text15">viability of new</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1157.23,473)"
-       id="text16">products</text>
-    <rect
-       x="384"
-       y="569"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect16" />
-    <path
-       d="M 420,569 V 737 M 636,569 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path16" />
-    <rect
-       x="384"
-       y="569"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect17" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(457.775,649)"
-       id="text17">Define product</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(466.082,674)"
-       id="text18">requirements</text>
-    <rect
-       x="384"
-       y="1288"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect18" />
-    <path
-       d="m 420,1288 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path18" />
-    <rect
-       x="384"
-       y="1288"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect19" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(461.359,1354)"
-       id="text19">Prototype and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(494.719,1379)"
-       id="text20">test for</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(482.579,1405)"
-       id="text21">validation</text>
-    <path
-       d="m 1509,1795 c 0,-19.88 16.12,-36 36,-36 h 216 c 19.88,0 36,16.12 36,36 v 0 c 0,19.88 -16.12,36 -36,36 h -216 c -19.88,0 -36,-16.12 -36,-36 z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path21" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1635.12,1803)"
-       id="text22">End</text>
-    <rect
-       x="1506"
-       y="1352"
-       width="288"
-       height="168"
-       fill="#a0a0a0"
-       id="rect22" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1566.56,1444)"
-       id="text23">Prospect to quote</text>
-    <rect
-       x="41"
-       y="1190"
-       width="288"
-       height="168"
-       fill="#a0a0a0"
-       id="rect23" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(110.485,1282)"
-       id="text24">Plan to produce</text>
-    <rect
-       x="41"
-       y="1390"
-       width="288"
-       height="168"
-       fill="#a0a0a0"
-       id="rect24" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(116.682,1482)"
-       id="text25">Procure to pay</text>
-    <path
-       d="m 329.5,1273 h 27.604 c 0.828,0 1.5,0.67 1.5,1.5 v 97.5 l -1.5,-1.5 h 20.103 v 3 h -20.103 c -0.829,0 -1.5,-0.67 -1.5,-1.5 v -97.5 l 1.5,1.5 H 329.5 Z m 46.207,94.5 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path25" />
-    <path
-       d="m 0,-1.5 h 27.6036 c 0.8284,0 1.5,0.671573 1.5,1.5 v 102.223 l -1.5,-1.5 H 47.707 v 3 H 27.6036 c -0.8285,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 46.207,99.2234 9,4.4996 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,329.5,1474.72)"
-       id="path26" />
-    <path
-       d="M 1.5,-3.45301e-5 1.50067,28.9853 l -3,10e-5 L -1.5,3.45301e-5 Z M 4.50063,27.4853 8.39895e-4,36.4854 -4.49937,27.4855 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,528.501,306.5)"
-       id="path27" />
-    <path
-       d="m 187,312.5 v 19.196 h -3 V 312.5 Z m 3,17.696 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path28" />
-    <path
-       d="m 0,-1.5 h 27.6039 c 0.8285,0 1.5,0.671573 1.5,1.5 v 199.702 l -1.5,-1.5 h 20.104 v 3 h -20.104 c -0.8284,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 46.2079,196.702 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,329.5,422.203)"
-       id="path29" />
-    <path
-       d="M 3.33459e-6,-1.5 39.7262,-1.49991 v 3 L -3.33459e-6,1.5 Z M 38.2263,-4.49992 47.2262,1.04987e-4 38.2262,4.50008 Z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1007.5,427.5)"
-       id="path30" />
-    <path
-       d="m 1652,1520.5 v 26.34 h -3 v -26.34 z m 3,24.84 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path31" />
-    <path
-       d="M 1.5,-3.3032e-6 1.50009,40.1751 h -3 L -1.5,3.3032e-6 Z M 4.50009,38.6751 l -4.499985013,9 -4.500014987,-9 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,185.5,96.5001)"
-       id="path32" />
-    <path
-       d="m 0,-1.5 h 24.0001 c 0.8284,0 1.5,0.671573 1.5,1.5 v 1216.76 c 0,0.83 -0.6716,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z M 9.0001,1221.26 1.04987e-4,1216.76 9.0001,1212.26 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,41.5002,57.5001)"
-       id="path33" />
-    <path
-       d="m 0,-1.5 h 24.0001 c 0.8284,0 1.5,0.671573 1.5,1.5 v 1416.49 c 0,0.83 -0.6716,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 0 l 1.5,1.5 H 0 Z M 9.0001,1420.99 1.04987e-4,1416.49 9.0001,1411.99 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,41.5002,57.5001)"
-       id="path34" />
-    <rect
-       x="384"
-       y="1509"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect34" />
-    <path
-       d="m 420,1509 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path35" />
-    <rect
-       x="384"
-       y="1509"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect35" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(497.022,1562)"
-       id="text35">Ensure</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(479.595,1587)"
-       id="text36">regulatory</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(462.162,1613)"
-       id="text37">compliance of</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(464.522,1639)"
-       id="text38">new products</text>
-    <rect
-       x="720"
-       y="1509"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect38" />
-    <path
-       d="m 756,1509 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path38" />
-    <rect
-       x="720"
-       y="1509"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect39" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(810.288,1575)"
-       id="text39">Secure final</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(793.534,1600)"
-       id="text40">product design</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(823.814,1626)"
-       id="text41">approval</text>
-    <rect
-       x="1110"
-       y="1554"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect41" />
-    <path
-       d="m 1146,1554 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path41" />
-    <rect
-       x="1110"
-       y="1554"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect42" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1218.48,1620)"
-       id="text42">Release</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1199.83,1645)"
-       id="text43">products to</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1221.23,1671)"
-       id="text44">market</text>
-    <rect
-       x="1506"
-       y="1554"
-       width="288"
-       height="168"
-       fill="#0078d4"
-       id="rect44" />
-    <path
-       d="m 1542,1554 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path44" />
-    <rect
-       x="1506"
-       y="1554"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect45" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1581.63,1633)"
-       id="text45">Run marketing</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1600.06,1658)"
-       id="text46">campaigns</text>
-    <path
-       d="m 672.5,1371 h 40.741 v 3 H 672.5 Z m 39.241,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path46" />
-    <path
-       d="m 866.241,1456.5 v 26.47 c 0,0.83 -0.671,1.5 -1.5,1.5 H 528.5 l 1.5,-1.5 v 18.98 h -3 v -18.98 c 0,-0.82 0.672,-1.5 1.5,-1.5 h 336.241 l -1.5,1.5 V 1456.5 Z M 533,1500.45 l -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path47" />
-    <path
-       d="m 1256,1501.5 v 45.25 h -3 v -45.25 z m 3,43.75 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path48" />
-    <path
-       d="m 1110.5,1417.5 144,-84 144,84 -144,84 z"
-       stroke="#0078d4"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path49" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1246.52,1412)"
-       id="text49">Is</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1204.47,1437)"
-       id="text50">approved?</text>
-    <path
-       d="m 1252.48,1333.5 v -24 l 1.5,1.5 h -194.74 l 1.5,-1.5 v 62.84 c 0,0.82 -0.67,1.5 -1.5,1.5 H 1016 v -3 h 43.24 l -1.5,1.5 v -62.84 c 0,-0.83 0.67,-1.5 1.5,-1.5 h 194.74 c 0.83,0 1.5,0.67 1.5,1.5 v 24 z m -234.98,43.34 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path50" />
-    <rect
-       x="1506"
-       y="749"
-       width="288"
-       height="168"
-       fill="#0078d4"
-       id="rect50" />
-    <path
-       d="M 1542,749 V 917 M 1758,749 V 917"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path51" />
-    <rect
-       x="1506"
-       y="749"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect51" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1580.06,829)"
-       id="text51">Define</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1647.06,829)"
-       id="text52">product</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1616.33,854)"
-       id="text53">costing</text>
-    <rect
-       x="1506"
-       y="951"
-       width="288"
-       height="168"
-       fill="#0078d4"
-       id="rect53" />
-    <path
-       d="m 1542,951 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path53" />
-    <rect
-       x="1506"
-       y="951"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect54" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1580.06,1031)"
-       id="text54">Define product</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1618.09,1056)"
-       id="text55">pricing</text>
-    <path
-       d="m 1398.5,1637 h 101.07 v 3 H 1398.5 Z m 99.57,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path55" />
-    <path
-       d="m 1794.5,832 h 26.37 c 0.83,0 1.5,0.672 1.5,1.5 v 961.2 c 0,0.82 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 833.5 l 1.5,1.5 h -26.37 z m 11.37,967.2 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path56" />
-    <path
-       d="m 1794.5,1034 h 26.37 c 0.83,0 1.5,0.67 1.5,1.5 v 759.36 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 1035.5 l 1.5,1.5 h -26.37 z m 11.37,765.36 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path57" />
-    <path
-       d="m 1794.5,1637 h 26.37 c 0.83,0 1.5,0.67 1.5,1.5 v 157.04 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 1638.5 l 1.5,1.5 h -26.37 z m 11.37,163.04 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path58" />
-    <path
-       d="M 3.25761e-6,-1.5 40.8423,-1.49991 v 3 L -3.25761e-6,1.5 Z M 39.3423,-4.49991 l 9,4.500014987 L 39.3422,4.50009 Z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,672.5,1593.5)"
-       id="path59" />
-    <path
-       d="m 0,-1.5 h 50.6883 c 0.8284,0 1.5,0.671573 1.5,1.5 v 175.785 l -1.5,-1.5 h 43.1881 v 3 H 50.6883 c -0.8284,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 92.3764,172.785 8.9996,4.5 -8.9996,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1008.5,1593.28)"
-       id="path60" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(523.771,1079)"
-       id="text60">No</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(602.204,995)"
-       id="text61">Yes</text>
-    <rect
-       x="720"
-       y="1288"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect61" />
-    <path
-       d="m 756,1288 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path61" />
-    <rect
-       x="720"
-       y="1288"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect62" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(812.213,1342)"
-       id="text62">Prepare for</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(812.88,1367)"
-       id="text63">launch and</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(798.153,1393)"
-       id="text64">distribution of</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(800.766,1419)"
-       id="text65">new products</text>
-    <rect
-       x="384"
-       y="343"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect65" />
-    <path
-       d="M 420,343 V 511 M 636,343 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path65" />
-    <rect
-       x="384"
-       y="343"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect66" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(457.775,422)"
-       id="text66">Define product</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(458.802,447)"
-       id="text67">design policies</text>
-    <rect
-       x="720"
-       y="569"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect67" />
-    <path
-       d="M 756,569 V 737 M 972,569 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path67" />
-    <rect
-       x="720"
-       y="569"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect68" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(791.433,649)"
-       id="text68">Enrich products</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(811.046,674)"
-       id="text69">with details</text>
-    <rect
-       x="1055"
-       y="569"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect69" />
-    <path
-       d="M 1091,569 V 737 M 1307,569 V 737"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path69" />
-    <rect
-       x="1055"
-       y="569"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect70" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1178.59,636)"
-       id="text70">Plan</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1124.26,661)"
-       id="text71">implementation</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1122.67,687)"
-       id="text72">of new products</text>
-    <path
-       d="m 399.5,875.5 175,-84 175,84 -175,84 z"
-       stroke="#0078d4"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path72" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(566.391,857)"
-       id="text73">Is</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(508.445,882)"
-       id="text74">manufactured</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(568.971,908)"
-       id="text75">?</text>
-    <rect
-       x="807"
-       y="1069"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect75" />
-    <path
-       d="m 843,1069 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path75" />
-    <rect
-       x="807"
-       y="1069"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect76" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(879.264,1135)"
-       id="text76">Design discrete</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(882.704,1160)"
-       id="text77">manufacturing</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(909.764,1186)"
-       id="text78">products</text>
-    <rect
-       x="807"
-       y="795"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect78" />
-    <path
-       d="M 843,795 V 963 M 1059,795 V 963"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path78" />
-    <rect
-       x="807"
-       y="795"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect79" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(880.181,862)"
-       id="text79">Design process</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(882.708,887)"
-       id="text80">manufacturing</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(909.768,913)"
-       id="text81">products</text>
-    <rect
-       x="1159"
-       y="922"
-       width="288"
-       height="168"
-       fill="#ffffff"
-       id="rect81" />
-    <path
-       d="m 1195,922 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path81" />
-    <rect
-       x="1159"
-       y="922"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect82" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1272.63,989)"
-       id="text82">Define</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1251.52,1014)"
-       id="text83">production</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1267.6,1040)"
-       id="text84">process</text>
-    <path
-       d="m 399.5,1096.5 175,-84 175,84 -175,84 z"
-       stroke="#0078d4"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path84" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(526.945,1104)"
-       id="text85">Is discrete</text>
-    <path
-       d="M 0.0121375,-1.49995 39.7386,-1.17849 39.7144,1.82142 -0.0121375,1.49995 Z M 38.263,-4.19053 47.2262,0.382152 38.1901,4.80918 Z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,672.5,427.882)"
-       id="path85" />
-    <path
-       d="m 1200.45,511.5 v 29.393 c 0,0.829 -0.67,1.5 -1.5,1.5 H 528.5 l 1.5,-1.5 v 21.893 h -3 v -21.893 c 0,-0.828 0.672,-1.5 1.5,-1.5 h 670.45 l -1.5,1.5 V 511.5 Z M 533,561.286 l -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path86" />
-    <path
-       d="m 1008.5,652 h 38.71 v 3 h -38.71 z m 37.21,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path87" />
-    <path
-       d="m 672.5,652 h 40.741 v 3 H 672.5 Z m 39.241,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path88" />
-    <path
-       d="m 1200.87,737.5 v 26.679 c 0,0.828 -0.67,1.5 -1.5,1.5 H 574.5 l 1.5,-1.5 v 19.179 h -3 v -19.179 c 0,-0.829 0.672,-1.5 1.5,-1.5 h 624.87 l -1.5,1.5 V 737.5 Z M 579,781.858 l -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path89" />
-    <path
-       d="m 576,959.5 v 45.45 h -3 V 959.5 Z m 3,43.95 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path90" />
-    <path
-       d="m 749.5,1095 h 29.128 c 0.828,0 1.5,0.67 1.5,1.5 v 57.01 l -1.5,-1.5 h 21.628 v 3 h -21.628 c -0.829,0 -1.5,-0.67 -1.5,-1.5 v -57.01 l 1.5,1.5 H 749.5 Z m 49.256,54.01 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path91" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(757.681,1192)"
-       id="text91">Yes</text>
-    <path
-       d="m 0,-1.5 h 29.128 c 0.8284,0 1.5,0.671573 1.5,1.5 v 216.765 l -1.5,-1.5 h 21.6277 v 3 H 29.128 c -0.8284,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 49.2557,213.765 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,749.5,1096.27)"
-       id="path92" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(737.779,931)"
-       id="text92">No</text>
-    <path
-       d="m 399.5,877 h -7.728 l 1.5,-1.5 v 390.19 l -1.5,-1.5 h 137.29 c 0.828,0 1.5,0.68 1.5,1.5 v 15.28 h -3 v -15.28 l 1.5,1.5 h -137.29 c -0.829,0 -1.5,-0.67 -1.5,-1.5 V 875.5 c 0,-0.828 0.671,-1.5 1.5,-1.5 h 7.728 z m 134.062,402.47 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path93" />
-    <path
-       d="m 1095.5,878 h 32.04 c 0.83,0 1.5,0.672 1.5,1.5 v 127.54 l -1.5,-1.5 h 24.55 v 3 h -24.55 c -0.82,0 -1.5,-0.67 -1.5,-1.5 V 879.5 l 1.5,1.5 h -32.04 z m 55.09,124.54 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path94" />
-    <path
-       d="m 0,-1.5 h 32.0448 c 0.8284,0 1.5,0.671573 1.5,1.5 v 146.234 l -1.5,-1.5 h 24.5448 v 3 H 32.0448 c -0.8285,0 -1.5,-0.671 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 55.0896,143.234 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,1095.5,1152.73)"
-       id="path95" />
-    <path
-       d="m 1305.08,1090.5 v 173.29 c 0,0.83 -0.67,1.5 -1.5,1.5 H 528.5 l 1.5,-1.5 v 16.45 h -3 v -16.45 c 0,-0.83 0.672,-1.5 1.5,-1.5 h 775.08 l -1.5,1.5 V 1090.5 Z M 533,1278.74 l -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path96" />
-    <path
-       d="m 1652,716.5 v 26.338 h -3 V 716.5 Z m 3,24.838 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path97" />
-    <path
-       d="m 1652,917.5 v 26.338 h -3 V 917.5 Z m 3,24.838 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path98" />
-    <path
-       d="m 1297,714 c 0,-13.255 10.75,-24 24,-24 13.25,0 24,10.745 24,24 0,13.255 -10.75,24 -24,24 -13.25,0 -24,-10.745 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path99" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1313.4,724)"
-       id="text99">1</text>
-    <path
-       d="m 961,714 c 0,-13.255 10.745,-24 24,-24 13.255,0 24,10.745 24,24 0,13.255 -10.745,24 -24,24 -13.255,0 -24,-10.745 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path100" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(978.199,724)"
-       id="text100">1</text>
-    <path
-       d="m 1047,940 c 0,-13.255 10.75,-24 24,-24 13.25,0 24,10.745 24,24 0,13.255 -10.75,24 -24,24 -13.25,0 -24,-10.745 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path101" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1063.96,950)"
-       id="text101">1</text>
-    <path
-       d="m 1047,1214 c 0,-13.25 10.75,-24 24,-24 13.25,0 24,10.75 24,24 0,13.25 -10.75,24 -24,24 -13.25,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path102" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1063.96,1224)"
-       id="text102">1</text>
-    <path
-       d="m 1399,1066 c 0,-13.25 10.75,-24 24,-24 13.25,0 24,10.75 24,24 0,13.25 -10.75,24 -24,24 -13.25,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path103" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1416.05,1076)"
-       id="text103">1</text>
-    <rect
-       x="1506"
-       y="1153"
-       width="288"
-       height="168"
-       fill="#0078d4"
-       id="rect103" />
-    <path
-       d="m 1542,1153 v 168 m 216,-168 v 168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path104" />
-    <rect
-       x="1506"
-       y="1153"
-       width="288"
-       height="168"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect104" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1572.39,1233)"
-       id="text104">Manage product</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(1613.22,1258)"
-       id="text105">lifecycle</text>
-    <path
-       d="m 1506,891 c 0,-13.255 10.75,-24 24,-24 13.25,0 24,10.745 24,24 0,13.255 -10.75,24 -24,24 -13.25,0 -24,-10.745 -24,-24 z"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path105" />
-    <text
-       fill="#0078d4"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1523.25,901)"
-       id="text106">1</text>
-    <path
-       d="m 625,1432 c 0,-13.25 10.745,-24 24,-24 13.255,0 24,10.75 24,24 0,13.25 -10.745,24 -24,24 -13.255,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path106" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(642.153,1442)"
-       id="text107">2</text>
-    <path
-       d="m 961,1432 c 0,-13.25 10.745,-24 24,-24 13.255,0 24,10.75 24,24 0,13.25 -10.745,24 -24,24 -13.255,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path107" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(978.153,1442)"
-       id="text108">2</text>
-    <path
-       d="m 625,1653 c 0,-13.25 10.745,-24 24,-24 13.255,0 24,10.75 24,24 0,13.25 -10.745,24 -24,24 -13.255,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path108" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(642.153,1663)"
-       id="text109">2</text>
-    <path
-       d="m 961,1653 c 0,-13.25 10.745,-24 24,-24 13.255,0 24,10.75 24,24 0,13.25 -10.745,24 -24,24 -13.255,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path109" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(978.153,1663)"
-       id="text110">2</text>
-    <path
-       d="m 1352,1698 c 0,-13.25 10.75,-24 24,-24 13.25,0 24,10.75 24,24 0,13.25 -10.75,24 -24,24 -13.25,0 -24,-10.75 -24,-24 z"
-       fill="#0078d4"
-       fill-rule="evenodd"
-       id="path110" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1369.09,1708)"
-       id="text111">2</text>
-    <path
-       d="m 1506,1093 c 0,-13.25 10.75,-24 24,-24 13.25,0 24,10.75 24,24 0,13.25 -10.75,24 -24,24 -13.25,0 -24,-10.75 -24,-24 z"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path111" />
-    <text
-       fill="#0078d4"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1523.25,1103)"
-       id="text112">1</text>
-    <path
-       d="m 1506,1296 c 0,-13.25 10.75,-24 24,-24 13.25,0 24,10.75 24,24 0,13.25 -10.75,24 -24,24 -13.25,0 -24,-10.75 -24,-24 z"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path112" />
-    <text
-       fill="#0078d4"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="27px"
-       transform="translate(1523.25,1306)"
-       id="text113">2</text>
-    <path
-       d="m 1652,1096.5 v 49.95 h -3 v -49.95 z m 3,48.45 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path113" />
-    <path
-       d="m 1794.5,1236 h 26.37 c 0.83,0 1.5,0.67 1.5,1.5 v 557.52 c 0,0.83 -0.67,1.5 -1.5,1.5 h -16.5 v -3 h 16.5 l -1.5,1.5 V 1237.5 l 1.5,1.5 h -26.37 z m 11.37,563.52 -9,-4.5 9,-4.5 z"
-       fill="#0078d4"
-       id="path114" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="21px"
-       transform="translate(413.151,984)"
-       id="text114">No</text>
-  </g>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="10 18 870 756"    xml:space="preserve" color-interpolation-filters="sRGB" class="st17" width="2175" height="1890">
+<rect x="0" y="0" width="2175" height="1890" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#f2f2f2;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st7 {font-size:1em}
+		.st8 {fill:#ffffff}
+		.st9 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {marker-end:url(#mrkr13-111);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st12 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st13 {fill:#000000;font-family:Calibri;font-size:0.666664em}
+		.st14 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st15 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st16 {fill:#0078d4;font-family:Calibri;font-size:0.833336em;font-weight:bold}
+		.st17 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-111" class="st11" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape65-1" transform="translate(171,-441)">
+			
+			<rect x="0" y="481.5" width="531" height="706.5" class="st1" />
+		</g>
+		<g id="shape1-3" transform="translate(54,-1134)">
+			
+			<desc>Start</desc>
+			<path d="M18 1188 L67.5 1188 A18 18 -180 0 0 67.5 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st2" />
+			<text x="31.01" y="1173.6" class="st3">Start</text>
+		</g>
+		<a id="a935412d-7647-4543-9400-ca789b8b212d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk0NHY0MDcxJywxODA4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-6" transform="translate(47.25,-1044)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="4.26" y="1160.1" class="st3">40 Design to retire</text>
+			</g>
+		</a>
+		<a id="83a6d623-ddb6-42f1-9bac-349ff3147f5f" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk1NnY0MDcxJywxODA5MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-9" transform="translate(189,-1044)">
+				
+				<desc>40.20 Introduce products</desc>
+				<rect x="0" y="1125" width="126" height="63" class="st5" />
+				<text x="24.21" y="1152.9" class="st6">40.20 Introduce <tspan x="41.39" dy="1.2em" class="st7">products</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="cd2eb178-c841-4530-8184-34b2713140dd" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk0NXY0MDcxJywxODA4MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-13" transform="translate(47.25,-954)">
+				
+				<desc>40.10 Develop product strategy</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st5" />
+				<text x="14.4" y="1152.9" class="st6">40.10 Develop <tspan x="9.03" dy="1.2em" class="st7">product strategy</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="2506d33f-810e-4eb5-9ec6-6e66b4d81175" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk2MHY0MDcxJywxODA5MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-17" transform="translate(189,-864)">
+				
+				<desc>40.20.040 Develop new products</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="17.26" y="1152.9" class="st3">40.20.040 Develop <tspan x="29.61" dy="1.2em" class="st7">new products</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape7-24" transform="translate(202.5,-774)">
+			
+			<desc>Is manufactured?</desc>
+			<path d="M0 1156.5 L49.5 1125 L99 1156.5 L49.5 1188 L0 1156.5 Z" class="st5" />
+			<text x="45.64" y="1152.9" class="st6">Is <tspan x="12.11" dy="1.2em" class="st7">manufactured?</tspan>
+			</text>
+		</g>
+		<g id="shape8-28" transform="translate(202.5,-684)">
+			
+			<desc>Is discrete?</desc>
+			<path d="M0 1156.5 L49.5 1125 L99 1156.5 L49.5 1188 L0 1156.5 Z" class="st5" />
+			<text x="22.02" y="1160.1" class="st6">Is discrete?</text>
+		</g>
+		<a id="ff7f7f1e-6ef0-42c2-a0c0-cead2f07aa43" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk2N3Y0MDcxJywxODA5NiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape9-31" transform="translate(189,-576)">
+				
+				<desc>40.20.110 Market test new products</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="19.51" y="1152.9" class="st3">40.20.110 Market <tspan x="18.9" dy="1.2em" class="st7">test new products</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="095aa898-f077-4413-ae50-a70c87534025" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk1OHY0MDcxJywxODA5MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape11-38" transform="translate(189,-954)">
+				
+				<desc>40.20.020 Research new products</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="15.1" y="1152.9" class="st3">40.20.020 Research <tspan x="29.61" dy="1.2em" class="st7">new products</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="a2e3ec24-1fe6-4c33-ae1d-8fa58ebc7227" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTg1MnY0MDcxJywxODA5MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape13-45" transform="translate(357.75,-864)">
+				
+				<desc>40.20.050 Set product prices</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="29.58" y="1152.9" class="st3">40.20.050 Set <tspan x="27.89" dy="1.2em" class="st7">product prices</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="a51aed64-f7b6-4959-a169-bf76fba4e2da" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk2NXY0MDcxJywxODA5NSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape15-52" transform="translate(387,-774)">
+				
+				<desc>40.20.090 Design formulas</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="20.95" y="1152.9" class="st3">40.20.090 Design <tspan x="41.37" dy="1.2em" class="st7">formulas</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="87e1067a-af9d-4df6-8352-3d9413e6ad11" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk2NHY0MDcxJywxODA5NCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape16-59" transform="translate(387,-684)">
+				
+				<desc>40.20.080 Design bills of materials</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="20.95" y="1152.9" class="st3">40.20.080 Design <tspan x="22.93" dy="1.2em" class="st7">bills of materials</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="60a549f6-26e2-4cf9-b880-50ac18ab71d6" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk2OHY0MDcxJywxODA5NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape18-66" transform="translate(360,-576)">
+				
+				<desc>40.20.115 Launch new products</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="19.94" y="1152.9" class="st3">40.20.115 Launch <tspan x="29.61" dy="1.2em" class="st7">new products</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape22-73" transform="translate(742.5,-477)">
+			
+			<desc>85.10 Run marketing campaigns</desc>
+			<rect x="0" y="1125" width="99" height="63" class="st5" />
+			<text x="24.9" y="1145.7" class="st6">85.10 Run <tspan x="24.66" dy="1.2em" class="st7">marketing </tspan>
+				<tspan x="23.57" dy="1.2em" class="st7">campaigns</tspan>
+			</text>
+		</g>
+		<a id="6d0f5828-f33b-41f1-b870-d442ffd3c416" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzM3NnY0MDcxJywxODQ1NSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape23-78" transform="translate(742.5,-567)">
+				
+				<desc>85 Prospect to quote</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="14.14" y="1152.9" class="st3">85 Prospect to <tspan x="35.04" dy="1.2em" class="st7">quote</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="d557a78f-2bec-46a7-bbab-c2d34a86d072" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk4M3Y0MDcxJywxODA5OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape24-82" transform="translate(742.5,-657)">
+				
+				<desc>40.50 Manage active products</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st5" />
+				<text x="14.62" y="1152.9" class="st6">40.50 Manage <tspan x="12.04" dy="1.2em" class="st7">active products</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape25-86" transform="translate(742.5,-747)">
+			
+			<desc>40.30 Manage product pricing</desc>
+			<rect x="0" y="1125" width="99" height="63" class="st5" />
+			<text x="14.62" y="1152.9" class="st6">40.30 Manage <tspan x="12.37" dy="1.2em" class="st7">product pricing</tspan>
+			</text>
+		</g>
+		<g id="shape26-90" transform="translate(742.5,-837)">
+			
+			<desc>40.40 Define product costing</desc>
+			<rect x="0" y="1125" width="99" height="63" class="st5" />
+			<text x="18.44" y="1152.9" class="st6">40.40 Define <tspan x="11.47" dy="1.2em" class="st7">product costing</tspan>
+			</text>
+		</g>
+		<a id="48611792-b337-4e6f-94f8-8eb783ea28c6" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk0NHY0MDcxJywxODA4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape27-94" transform="translate(742.5,-927)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="4.26" y="1160.1" class="st3">40 Design to retire</text>
+			</g>
+		</a>
+		<g id="shape28-97" transform="translate(749.25,-414)">
+			
+			<desc>End</desc>
+			<path d="M18 1188 L67.5 1188 A18 18 -180 0 0 67.5 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st2" />
+			<text x="33.52" y="1173.6" class="st3">End</text>
+		</g>
+		<a id="3655b40d-9e69-4796-a4e6-a9cb514c4278" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMHY0MDcxJywxODMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape29-100" transform="translate(47.25,-612)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="3.44" y="1160.1" class="st3">70 Plan to produce</text>
+			</g>
+		</a>
+		<a id="1ea9d617-54b3-4cdf-b18b-d22c4dc9aa89" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI2OXY0MDcxJywxODM2MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape30-103" transform="translate(47.25,-522)">
+				
+				<desc>75 Source to pay</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="8.74" y="1160.1" class="st3">75 Source to pay</text>
+			</g>
+		</a>
+		<g id="shape31-106" transform="translate(87.75,-1134)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape32-112" transform="translate(87.75,-1044)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape33-117" transform="translate(146.25,-985.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1098 L32.94 1098" class="st10" />
+		</g>
+		<g id="shape34-122" transform="translate(59.625,-1152)">
+			
+			<path d="M-5.62 1188 L-30.03 1188 L-30.03 1696.5 L-22.19 1696.5" class="st10" />
+		</g>
+		<g id="shape35-127" transform="translate(59.625,-1152)">
+			
+			<path d="M-5.62 1188 L-30.03 1188 L-30.03 1786.5 L-22.19 1786.5" class="st10" />
+		</g>
+		<g id="shape36-132" transform="translate(243,-1044)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape39-137" transform="translate(243,-954)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape40-142" transform="translate(315,-886.5)">
+			
+			<path d="M0 1179 L32.94 1179" class="st10" />
+		</g>
+		<g id="shape42-147" transform="translate(420.75,-864)">
+			
+			<path d="M0 1188 L0 1196.83 L-168.75 1196.83 L-168.75 1205.19" class="st10" />
+		</g>
+		<g id="shape43-152" transform="translate(243,-774)">
+			
+			<desc>Yes</desc>
+			<path d="M9 1188 L9 1205.19" class="st10" />
+			<rect x="3.49619" y="1196.7" width="11.0078" height="9.59985" class="st12" />
+			<text x="3.5" y="1203.9" class="st13">Yes</text>
+		</g>
+		<g id="shape44-159" transform="translate(301.5,-715.5)">
+			
+			<desc>No</desc>
+			<path d="M0 1188 L17.66 1188 L17.66 1098 L75.69 1098" class="st10" />
+			<rect x="12.9666" y="1113.11" width="9.38287" height="9.59985" class="st12" />
+			<text x="12.97" y="1120.31" class="st13">No</text>
+		</g>
+		<g id="shape45-166" transform="translate(301.5,-724.5)">
+			
+			<desc>Yes</desc>
+			<path d="M0 1197 L75.69 1197" class="st10" />
+			<rect x="37.2462" y="1192.2" width="11.0078" height="9.59985" class="st12" />
+			<text x="37.25" y="1199.4" class="st13">Yes</text>
+		</g>
+		<g id="shape46-173" transform="translate(513,-805.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1336.84 L-261 1336.84 L-261 1344.69" class="st10" />
+		</g>
+		<g id="shape47-178" transform="translate(513,-715.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1246.84 L-261 1246.84 L-261 1254.69" class="st10" />
+		</g>
+		<g id="shape49-183" transform="translate(202.5,-805.5)">
+			
+			<desc>No</desc>
+			<path d="M0 1188 L-22.5 1188 L-22.5 1336.5 L49.5 1336.5 L49.5 1344.69" class="st10" />
+			<rect x="-27.1914" y="1291.2" width="9.38287" height="9.59985" class="st14" />
+			<text x="-27.19" y="1298.4" class="st13">No</text>
+		</g>
+		<g id="shape50-190" transform="translate(315,-598.5)">
+			
+			<path d="M0 1179 L35.19 1179" class="st10" />
+		</g>
+		<g id="shape56-195" transform="translate(423,-576)">
+			
+			<path d="M0 1188 L0 1332 L316.44 1332" class="st10" />
+		</g>
+		<g id="shape57-200" transform="translate(783,-567)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape58-205" transform="translate(783,-927)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape59-210" transform="translate(783,-837)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape60-215" transform="translate(783,-747)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape61-220" transform="translate(847.125,-868.5)">
+			
+			<path d="M-5.62 1188 L12.03 1188 L12.03 1624.5 L-2.57 1624.5" class="st10" />
+		</g>
+		<g id="shape62-225" transform="translate(847.125,-778.5)">
+			
+			<path d="M-5.62 1188 L12.03 1188 L12.03 1534.5 L-2.57 1534.5" class="st10" />
+		</g>
+		<g id="shape63-230" transform="translate(847.125,-688.5)">
+			
+			<path d="M-5.62 1188 L12.03 1188 L12.03 1444.5 L-2.57 1444.5" class="st10" />
+		</g>
+		<g id="shape64-235" transform="translate(847.125,-508.5)">
+			
+			<path d="M-5.62 1188 L12.03 1188 L12.03 1264.5 L-2.57 1264.5" class="st10" />
+		</g>
+		<g id="shape66-240" transform="translate(171,-1107)">
+			
+			<desc>Business process area</desc>
+			<rect x="0" y="1147.5" width="297" height="40.5" class="st15" />
+			<text x="4" y="1170.75" class="st16">Business process area</text>
+		</g>
+		<g id="shape67-243" transform="translate(146.25,-643.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1224 L32.94 1224" class="st10" />
+		</g>
+		<g id="shape68-248" transform="translate(146.25,-553.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1134 L32.94 1134" class="st10" />
+		</g>
+	</g>
 </svg>
