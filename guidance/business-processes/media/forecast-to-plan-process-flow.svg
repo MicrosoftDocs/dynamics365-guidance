@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="21 36 745 729"    xml:space="preserve" color-interpolation-filters="sRGB" class="st13" width="1863" height="1823">
+<rect x="0" y="0" width="1863" height="1823" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {font-size:1em}
+		.st5 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st7 {fill:#ffffff}
+		.st8 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st9 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {marker-end:url(#mrkr13-85);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st12 {marker-end:url(#mrkr13-101);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-85" class="st11" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+		<marker id="mrkr13-101" class="st11" refX="-0" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape1-1" transform="translate(21.375,-1116)">
+			
+			<desc>Start</desc>
+			<path d="M18 1188 L60.75 1188 A18 18 -180 0 0 60.75 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st1" />
+			<text x="27.63" y="1173.6" class="st2">Start</text>
+		</g>
+		<a id="9e9b6a66-0f03-4067-a18d-709da112f9b6" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk0NHY0MDcxJywxODA4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-4" transform="translate(68.625,-1026)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="9.03" y="1152.9" class="st2">40 Design to <tspan x="25.83" dy="1.2em" class="st4">retire</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="664394a4-7df7-482c-8d3c-aca5043be825" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzM3NnY0MDcxJywxODQ1NSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-8" transform="translate(176.625,-1026)">
+				
+				<desc>85 Prospect to quote</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="4.02" y="1152.9" class="st2">85 Prospect to <tspan x="24.91" dy="1.2em" class="st4">quote</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="8fb28782-4266-46ce-9699-71a4b189a111" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE1NXY0MDcxJywxODI4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-12" transform="translate(273.375,-1026)">
+				
+				<desc>65 Order to cash</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="11.11" y="1152.9" class="st2">65 Order to <tspan x="28.46" dy="1.2em" class="st4">cash</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="2d07ed09-afa3-46ef-9489-9ca52e78ce97" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk5MnY0MDcxJywxODExOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-16" transform="translate(389.25,-1026)">
+				
+				<desc>50 Forecast to plan</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st5" />
+				<text x="4.64" y="1152.9" class="st6">50 Forecast to <tspan x="28.82" dy="1.2em" class="st4">plan</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="040009dd-7f1b-46dd-8b54-1ce8514464ee" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI2OXY0MDcxJywxODM2MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape7-20" transform="translate(641.25,-1026)">
+				
+				<desc>75 Source to pay</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.72" y="1152.9" class="st2">75 Source to <tspan x="30.63" dy="1.2em" class="st4">pay</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="19a469a3-45a4-43c0-802b-b24dbc732cf8" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMHY0MDcxJywxODE2OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-24" transform="translate(68.625,-936)">
+				
+				<desc>55 Hire to retire</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="15.21" y="1152.9" class="st2">55 Hire to <tspan x="25.83" dy="1.2em" class="st4">retire</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="0ea283ff-0a9c-44f8-a86b-90ecbadd782e" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDI2N3Y0MDcxJywxODExOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape10-28" transform="translate(378,-864)">
+				
+				<desc>50.15 Develop business strategy</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st8" />
+				<path d="M9 1188 L9 1125" class="st8" />
+				<path d="M90 1188 L90 1125" class="st8" />
+				<text x="14.4" y="1145.7" class="st2">50.15 Develop <tspan x="28.64" dy="1.2em" class="st4">business </tspan>
+					<tspan x="29.64" dy="1.2em" class="st4">strategy</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="0f87ff31-d286-41fe-bdc3-def505fa1e21" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDI4MHY0MDcxJywxODEzMCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape11-36" transform="translate(378,-783)">
+				
+				<desc>50.25 Conduct sales and operations planning</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M90 1188 L90 1125" class="st9" />
+				<text x="14.1" y="1138.5" class="st2">50.25 Conduct <tspan x="27.03" dy="1.2em" class="st4">sales and </tspan>
+					<tspan x="23.18" dy="1.2em" class="st4">operations </tspan>
+					<tspan x="28.44" dy="1.2em" class="st4">planning</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="ad08be15-adef-4225-848c-347b249dfc5a" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDI5MnY0MDcxJywxODE0MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape12-45" transform="translate(378,-693)">
+				
+				<desc>50.35 Execute sales and operations</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M90 1188 L90 1125" class="st9" />
+				<text x="15.27" y="1145.7" class="st2">50.35 Execute <tspan x="27.03" dy="1.2em" class="st4">sales and </tspan>
+					<tspan x="23.18" dy="1.2em" class="st4">operations</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape13-53" transform="translate(378,-603)">
+			
+			<desc>50.45 Conduct operational planning</desc>
+			<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+			<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st9" />
+			<path d="M9 1188 L9 1125" class="st9" />
+			<path d="M90 1188 L90 1125" class="st9" />
+			<text x="14.1" y="1145.7" class="st2">50.45 Conduct <tspan x="21.28" dy="1.2em" class="st4">operational </tspan>
+				<tspan x="28.44" dy="1.2em" class="st4">planning</tspan>
+			</text>
+		</g>
+		<g id="shape14-61" transform="translate(641.25,-540)">
+			
+			<desc>End</desc>
+			<path d="M18 1188 L60.75 1188 A18 18 -180 0 0 60.75 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st1" />
+			<text x="30.14" y="1173.6" class="st2">End</text>
+		</g>
+		<a id="4c1dbb86-fb99-425b-98ed-92ccedc81cce" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMHY0MDcxJywxODMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape15-64" transform="translate(641.25,-936)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="14.9" y="1152.9" class="st2">70 Plan to <tspan x="19.14" dy="1.2em" class="st4">produce</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="d943fa5c-9b93-48c3-8bbb-5b2cb2e8b2c9" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA5M3Y0MDcxJywxODIzMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape16-68" transform="translate(641.25,-846)">
+				
+				<desc>60 Inventory to deliver</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.44" y="1152.9" class="st2">60 Inventory <tspan x="16.17" dy="1.2em" class="st4">to deliver</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="1e9533f8-c2c9-4105-a442-fee3412f1599" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjg1N3Y0MDcxJywxODAwMSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape17-72" transform="translate(641.25,-756)">
+				
+				<desc>20 Case to resolution</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="14" y="1152.9" class="st2">20 Case to <tspan x="14.55" dy="1.2em" class="st4">resolution</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="793e3817-7c22-4bc2-8eb7-85a5b4808bde" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQxMnY0MDcxJywxODQ2MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape18-76" transform="translate(641.25,-666)">
+				
+				<desc>90 Record to report</desc>
+				<rect x="0" y="1125" width="78.75" height="63" class="st3" />
+				<text x="8.22" y="1152.9" class="st2">90 Record to <tspan x="23.88" dy="1.2em" class="st4">report</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape19-80" transform="translate(147.375,-1048.5)">
+			
+			<path d="M0 1179 L19.44 1179" class="st10" />
+		</g>
+		<g id="shape20-86" transform="translate(255.375,-1048.5)">
+			
+			<path d="M0 1179 L8.19 1179" class="st10" />
+		</g>
+		<g id="shape21-91" transform="translate(352.125,-1048.5)">
+			
+			<path d="M0 1179 L27.31 1179" class="st10" />
+		</g>
+		<g id="shape22-96" transform="translate(55.6875,-1116)">
+			
+			<path d="M5.06 1188 L5.06 1246.5 L12.94 1246.5" class="st12" />
+		</g>
+		<g id="shape23-102" transform="translate(55.6875,-1116)">
+			
+			<path d="M5.06 1188 L5.06 1336.5 L12.94 1336.5" class="st12" />
+		</g>
+		<g id="shape24-107" transform="translate(437.062,-1026)">
+			
+			<path d="M-8.44 1188 L-9.45 1277.19" class="st10" />
+		</g>
+		<g id="shape25-112" transform="translate(418.5,-864)">
+			
+			<path d="M9 1188 L9 1196.19" class="st10" />
+		</g>
+		<g id="shape26-117" transform="translate(418.5,-783)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape27-122" transform="translate(418.5,-693)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape28-127" transform="translate(147.375,-967.5)">
+			
+			<path d="M0 1188 L224.22 1188 L224.22 1098 L232.06 1098" class="st10" />
+		</g>
+		<g id="shape29-132" transform="translate(147.375,-967.5)">
+			
+			<path d="M0 1188 L32.62 1188 L32.62 1341 L220.81 1341" class="st10" />
+		</g>
+		<g id="shape30-137" transform="translate(477,-634.5)">
+			
+			<path d="M0 1188 L110.37 1188 L110.37 765 L154.44 765" class="st10" />
+		</g>
+		<g id="shape31-142" transform="translate(477,-634.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 855 L107.37 855 A3 3 0 0 1 113.37 855 L154.44 855" class="st10" />
+		</g>
+		<g id="shape32-147" transform="translate(477,-454.5)">
+			
+			<path d="M0 1188 L128.37 1188 L128.37 765 L154.44 765" class="st10" />
+		</g>
+		<g id="shape33-152" transform="translate(711,-1057.5)">
+			
+			<path d="M9 1188 L35.66 1188 L35.66 1548 L18.81 1548" class="st10" />
+		</g>
+		<g id="shape34-157" transform="translate(711,-967.5)">
+			
+			<path d="M9 1188 L35.66 1188 L35.66 1458 L18.81 1458" class="st10" />
+		</g>
+		<g id="shape35-162" transform="translate(711,-877.5)">
+			
+			<path d="M9 1188 L35.66 1188 L35.66 1278 L18.81 1278" class="st10" />
+		</g>
+		<g id="shape36-167" transform="translate(746.658,-967.5)">
+			
+			<path d="M0 1188 L0 1368 L-16.85 1368" class="st10" />
+		</g>
+		<g id="shape37-172" transform="translate(711,-967.5)">
+			
+			<path d="M9 1188 L35.66 1188 L35.66 1458 L18.81 1458" class="st10" />
+		</g>
+		<g id="shape38-177" transform="translate(711,-877.5)">
+			
+			<path d="M9 1188 L35.66 1188 L35.66 1368 L18.81 1368" class="st10" />
+		</g>
+		<g id="shape39-182" transform="translate(671.625,-666)">
+			
+			<path d="M9 1188 L9 1268.19" class="st10" />
+		</g>
+		<g id="shape40-187" transform="translate(418.5,-783)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<a id="0e83657e-7bd5-4dee-8c21-5aac309cecd4" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDM4MXY0MDcxJywxODE1OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape41-192" transform="translate(378,-423)">
+				
+				<desc>50.65 Analyze business performance</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M90 1188 L90 1125" class="st9" />
+				<text x="15.52" y="1145.7" class="st2">50.65 Analyze <tspan x="28.64" dy="1.2em" class="st4">business </tspan>
+					<tspan x="17.84" dy="1.2em" class="st4">performance</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape43-200" transform="translate(418.5,-603)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<g id="shape44-205" transform="translate(418.5,-693)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+		<a id="f7deef77-402e-45d8-bbe1-67e8dc20e05a" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDM2NHY0MDcxJywxODE0OSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape46-210" transform="translate(378,-513)">
+				
+				<desc>50.55 Conduct financial planning</desc>
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188 Z" class="st7" />
+				<path d="M0 1188 L99 1188 L99 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M90 1188 L90 1125" class="st9" />
+				<text x="12.74" y="1145.7" class="st2">50.55  Conduct <tspan x="28.95" dy="1.2em" class="st4">financial </tspan>
+					<tspan x="28.44" dy="1.2em" class="st4">planning</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape47-218" transform="translate(418.5,-513)">
+			
+			<path d="M9 1188 L9 1205.19" class="st10" />
+		</g>
+	</g>
+</svg>
