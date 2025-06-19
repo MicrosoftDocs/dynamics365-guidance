@@ -152,7 +152,7 @@ There are product specific capabilities offered that interact with the *case to 
 
 The following diagram shows the high-level flow of the *case to resolution* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/case-to-resolution-flow.png" alt-text="inventory to deliver end-to-end process flow diagram" lightbox="media/case-to-resolution-flow.png":::
+:::image type="content" source="media/case-to-resolution-flow.svg" alt-text="Flow diagram for the case to resolution end-to-end business process" lightbox="media/case-to-resolution-flow.svg":::
 
 The following steps are illustrated in the *case to resolution* end-to-end business process flow diagram.
 
