@@ -44,7 +44,7 @@ Many people in an organization contribute to the design of the invoice customers
 
 The following diagram illustrates the flow of the invoice customers business process area in an organization.
 
-:::image type="content" source="media/order-to-cash-invoice-sales-orders-flow.svg" alt-text="Diagram showing the flow of the invoice customers business process area in an organization." lightbox="media/order-to-cash-invoice-sales-orders-flow.svg":::
+:::image type="content" source="media/order-to-cash-manage-accounts-receivable-flow.svg" alt-text="Diagram showing the flow of the invoice customers business process area in an organization." lightbox="media/order-to-cash-manage-accounts-receivable-flow.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
