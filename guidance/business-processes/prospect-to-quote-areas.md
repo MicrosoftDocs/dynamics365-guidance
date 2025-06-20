@@ -14,17 +14,17 @@ ms.reviewer: edupont
 
 The *Prospect to quote* process is broken down into business process areas. The following sections further describe the business process areas.
 
-## Define sales strategy
+## Manage customer relationships
+
+Maintain communication, and address concerns throughout the sales process. Dynamics 365 Sales provides a centralized place for tracking interactions, tasks, and activities with prospects and customers. Therefore, it helps ensure a seamless and personalized customer experience.
+
+Learn more at [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md).
+
+## Define sales strategy and policies
 
 Set goals and create a plan to achieve sales objectives. With Dynamics 365 Sales, you can define and track sales targets, territories, and quotas. This way, you gain insights into your sales performance and guiding the overall sales process.
 
 Learn more at [Define a sales strategy overview](prospect-to-quote-define-sales-strategy-overview.md).
-
-## Run marketing campaigns
-
-Use marketing campaigns to attract potential customers. Dynamics 365 Sales can integrate with Dynamics 365 Marketing to help you create, manage, and track campaigns. Ultimately, campaigns drive lead generation for the prospect-to-quote process.
-
-Learn more at [Run marketing campaigns overview](prospect-to-quote-run-marketing-campaigns-overview.md).
 
 ## Identify and qualify leads
 
@@ -32,15 +32,15 @@ Find potential customers, and assess their value. Dynamics 365 Sales provides to
 
 Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
 
-## Manage project opportunities
+<!-- ## Run marketing campaigns
 
-This business process area involves identifying, sizing, and evaluating potential project opportunities. It also covers determining which projects to pursue, based on their alignment with organizational goals and objectives. In addition, it includes conducting feasibility studies, assessing project risks, and developing business cases to justify project investments.
+Use marketing campaigns to attract potential customers. Dynamics 365 Sales can integrate with Dynamics 365 Marketing to help you create, manage, and track campaigns. Ultimately, campaigns drive lead generation for the prospect-to-quote process.
 
-Learn more at [Manage project opportunities overview](prospect-to-quote-manage-project-opportunities-overview.md).
+Learn more at [Run marketing campaigns overview](prospect-to-quote-run-marketing-campaigns-overview.md). -->
 
 ## Pursue opportunities
 
-Engage with prospects, and create tailored solutions. Dynamics 365 Sales enables you to manage opportunities, track communications, and collaborate with your team on the development of customized solutions to address prospect needs.
+Consistently progressing qualified leads toward won deals is essential for sales success. Dynamics 365 Sales enables data-driven opportunity management to improve forecast accuracy, win rates, and deal velocity.
 
 Learn more at [Pursue opportunities overview](prospect-to-quote-pursue-opportunities-overview.md).
 
@@ -50,11 +50,7 @@ Create and present quotes or proposals. Dynamics 365 Sales has built-in tools fo
 
 Learn more at [Estimate and quote sales overview](prospect-to-quote-estimate-quote-sales-overview.md).
 
-## Manage customer relationships
 
-Maintain communication, and address concerns throughout the sales process. Dynamics 365 Sales provides a centralized place for tracking interactions, tasks, and activities with prospects and customers. Therefore, it helps ensure a seamless and personalized customer experience.
-
-Learn more at [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md).
 <!-- removed from catalog
 ## Analyze service operations
 

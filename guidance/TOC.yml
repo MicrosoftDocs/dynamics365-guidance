@@ -927,20 +927,16 @@ items:
                 href: business-processes/prospect-to-quote-overview.md
               - name: Business process areas
                 href: business-processes/prospect-to-quote-areas.md
-              - name: Manage project opportunities
-                href: business-processes/prospect-to-quote-manage-project-opportunities-overview.md
-              - name: Define a sales strategy
+              - name: Manage customer relationships
+                href: business-processes/prospect-to-quote-manage-customer-relationships.md
+              - name: Define sales strategy and policies
                 href: business-processes/prospect-to-quote-define-sales-strategy-overview.md
-              - name: Run marketing campaigns
-                href: business-processes/prospect-to-quote-run-marketing-campaigns-overview.md
               - name: Identify and qualify leads
                 href: business-processes/prospect-to-quote-identify-qualify-leads.md
               - name: Pursue opportunities
                 href: business-processes/prospect-to-quote-pursue-opportunities-overview.md
               - name: Estimate and quote sales
                 href: business-processes/prospect-to-quote-estimate-quote-sales-overview.md
-              - name: Manage customer relationships
-                href: business-processes/prospect-to-quote-manage-customer-relationships.md
           - name: Record to report
             items:
               - name: End-to-end scenario - record to report (ID 90)
