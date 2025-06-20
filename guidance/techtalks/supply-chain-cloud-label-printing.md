@@ -73,4 +73,3 @@ You can use the following resources to learn more about Dynamics 365.
 - [Print labels using the Seagull Scientific BarTender&reg; label service solution](/dynamics365/supply-chain/supply-chain-dev/label-printing-using-bartender)  
 - [Loftware Cloud Label Printing](https://www.loftware.com/)
 - [BarTender Label Software](https://www.seagullscientific.com/)
-- [Azure Integration Services](https://azure.microsoft.com/services/integration/)

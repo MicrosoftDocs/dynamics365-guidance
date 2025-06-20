@@ -1,132 +1,127 @@
 {
   "redirections": [
     {
-      "source_path": "dynamics365/guidance/business-processes/source-to-pay-process-vendor-invoices-overview.md",
+      "source_path": "guidance/business-processes/source-to-pay-process-vendor-invoices-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-manage-accounts-payable-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/project-to-profit-process-project-invoices-overview.md",
+      "source_path": "guidance/business-processes/project-to-profit-process-project-invoices-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/project-to-profit-manage-project-supply-chain-overview.md",
+      "source_path": "guidance/business-processes/project-to-profit-manage-project-supply-chain-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/prospect-to-quote-manage-project-opportunities-overview.md",
+      "source_path": "guidance/business-processes/prospect-to-quote-manage-project-opportunities-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/project-to-profit-process-project-invoices-overview.md",
+      "source_path": "guidance/business-processes/prospect-to-quote-run-marketing-campaigns-overview.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/concept-to-market-areas",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "guidance/business-processes/project-to-profit-resource-projects.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/project-to-profit-resource-projects.md",
+      "source_path": "guidance/business-processes/project-to-profit-capture-project-expenses-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/project-to-profit-capture-project-expenses-overview.md",
-      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics365/guidance/business-processes/project-to-profit-resource-projects.md",
-      "redirect_url": "/dynamics365/guidance/business-processes/project-to-profit-manage-project-financials-overview",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-management-introduction.md",
+      "source_path": "guidance/business-processes/product-service-lifecycle-management-introduction.md",
       "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-introduction",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-management-overview.md",
+      "source_path": "guidance/business-processes/product-service-lifecycle-management-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-management-areas.md",
+      "source_path": "guidance/business-processes/product-service-lifecycle-management-areas.md",
       "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-areas",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/product-service-define-cost-overview.md",
+      "source_path": "guidance/business-processes/product-service-define-cost-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/product-service-lifecycle-categorize-products-services-overview.md",
+      "source_path": "guidance/business-processes/product-service-lifecycle-categorize-products-services-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/design-to-retire-define-product-catalog-strategy-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/implementation-guide/prepare-go-live-dynamics-365-customer-engagement.md",
+      "source_path": "guidance/implementation-guide/prepare-go-live-dynamics-365-customer-engagement.md",
       "redirect_url": "/dynamics365/guidance/implementation-guide/prepare-to-go-live",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/implementation-guide/prepare-go-live-finance-and-operations-apps.md",
+      "source_path": "guidance/implementation-guide/prepare-go-live-finance-and-operations-apps.md",
       "redirect_url": "/dynamics365/guidance/implementation-guide/prepare-to-go-live",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/techtalks/integration-patterns-dataverse.md",
+      "source_path": "guidance/techtalks/integration-patterns-dataverse.md",
       "redirect_url": "/dynamics365/guidance/techtalks/integrate-finance-operations-dataverse",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/design-to-retire-issue-and-settle-vendor-payments-overview.md",
+      "source_path": "guidance/business-processes/design-to-retire-issue-and-settle-vendor-payments-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/procure-to-pay-issue-and-settle-vendor-payments-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-introduction.md",
+      "source_path": "guidance/business-processes/procure-to-pay-introduction.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-introduction",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-define-procurement-catalogs-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-define-procurement-catalogs-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-define-procurement-catalogs-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-define-procurement-sourcing-strategy-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-define-procurement-sourcing-strategy-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-define-procurement-sourcing-strategy-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-manage-vendor-relationships-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-manage-vendor-relationships-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-manage-vendor-relationships-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-procure-materials-services-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-procure-materials-services-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-procure-materials-services-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-process-vendor-invoices-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-process-vendor-invoices-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-process-vendor-invoices-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-issue-and-settle-vendor-payments-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-issue-and-settle-vendor-payments-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-issue-and-settle-vendor-payments-overview",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "dynamics365/guidance/business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md",
+      "source_path": "guidance/business-processes/procure-to-pay-process-vendor-rebates-incentives-overview.md",
       "redirect_url": "/dynamics365/guidance/business-processes/source-to-pay-process-vendor-rebates-incentives-overview",
       "redirect_document_id": "false"
     },
