@@ -667,6 +667,8 @@ items:
                 href: implementation-guide/process-focused-solution.md
               - name: Map departments and business processes
                 href: organizational-strategy/departments.md
+              - name: Map business processes to customer requests
+                href: business-processes/about-processes-solution-plays.md
               - name: Optimize your business processes
                 href: implementation-guide/process-focused-solution-opportunity-optimization.md
               - name: Process-centric implementation lifecycle

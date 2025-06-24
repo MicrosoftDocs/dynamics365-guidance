@@ -36,6 +36,8 @@ landingContent:
         url: process-maturity-introduction.md
       - text: Standardize business processes
         url: standardize-business-processes.md
+      - text: Map of business processes and typical requests
+        url: about-processes-solution-plays.md
       - text: Import the catalog to Azure DevOps
         url: about-import-catalog-devops.md
       - text: Import the catalog to Mavim
