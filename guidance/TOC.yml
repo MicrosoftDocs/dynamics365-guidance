@@ -475,6 +475,10 @@ items:
                     href: resources/cs-usd-migration-guide.md
                   - name: Map components from Unified Service Desk to Customer Service workspace
                     href: resources/cs-usd-migration-guide-map-components.md
+                  - name: Update external web apps automatically from Customer Service workspace
+                    href: resources/customer-service-unified-service-desk-migration-contextual-update-external-app.md
+                  - name: Frequently asked questions (FAQ)
+                    href: resources/customer-service-unified-service-desk-migration-tips.md
               - name: Develop solutions
                 items:
                   - name: Solution component validation tool

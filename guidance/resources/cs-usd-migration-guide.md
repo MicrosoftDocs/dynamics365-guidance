@@ -4,7 +4,7 @@ description: Learn how to replace Unified Service Desk functionalities with Cust
 author: avi-k-mishra
 ms.author: avinam
 ms.topic: how-to
-ms.date: 03/21/2025
+ms.date: 06/24/2025
 ms.custom:
   - bap-template
   - O25-Service
@@ -29,8 +29,8 @@ Find tips for how to map capabilities between the two experiences at [Map compon
 
 Find the deprecation notices for Unified Service Desk here:
 
-- [Microsoft Dynamics 365 Unified Service Desk with CRM Online application](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/)  
-- [A deprecation notice in the Customer Service documentation](/dynamics365/customer-service/implement/deprecations-customer-service#dynamics-365-unified-service-desk-to-be-deprecated-in-april-2026)  
+- [Dynamics 365 Unified Service Desk to be deprecated in April 2026](/dynamics365/customer-service/implement/deprecations-customer-service#dynamics-365-unified-service-desk-to-be-deprecated-in-april-2026)
+- [Microsoft Dynamics 365 Unified Service Desk with CRM Online application](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/)
 
 Use the extended deprecation period to transition to [Customer Service Workspace](/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter).
 
@@ -73,45 +73,49 @@ Learn more at [Get started with Customer Service workspace](/dynamics365/custome
 
 Learn more about licensing and system requirements at [Customer Service workspace system requirements](/dynamics365/customer-service/implement/customer-service-workspace-system-requirements)  
 
-## Transition guide
+## Migrate to Customer Service workspace
 
 The migration from Unified Service Desk to Customer Service workspace involves five key steps:
 
 1. Review the current Unified Service Desk configuration  
 
-    a. Access and analyze the existing Unified Service Desk environment.  
-    b. Document technical implementation details, including hosted controls, actions, events, and configurations.  
-    c. Identify integrations, customizations, and dependencies critical to business operations.  
+    1. 
+    1. Access and analyze the existing Unified Service Desk environment.  
+    1. Document technical implementation details, including hosted controls, actions, events, and configurations.  
+    1. Identify integrations, customizations, and dependencies critical to business operations.  
 1. Map Unified Service Desk capabilities to Customer Service workspace  
 
-    a. Identify capabilities in Customer Service workspace that replace capabilities in Unified Service Desk.  
-    b. Map hosted controls, actions, and navigation rules  in Unified Service Desk to session templates, application tab templates, and custom pages in Customer Service workspace.  
-    c. Perform a feature-by-feature comparison with Unified Service Desk to ensure parity.  
-    d. Determine if any other customization is required to replicate Unified Service Desk functionality.  
+    1. Identify capabilities in Customer Service workspace that replace capabilities in Unified Service Desk.  
+    1. Map hosted controls, actions, and navigation rules  in Unified Service Desk to session templates, application tab templates, and custom pages in Customer Service workspace.  
+    1. Perform a feature-by-feature comparison with Unified Service Desk to ensure parity.  
+    1. Determine if any other customization is required to replicate Unified Service Desk functionality.  
 1. Build and configure Customer Service workspace
 
-    a. Set up session templates and application tab templates in Customer Service workspace. Learn more at [Customer Service workspace sessions and tabs](/dynamics365/customer-service/implement/csw-overview#customer-service-workspace-sessions-and-tabs).  
-    b. Configure navigation, form layouts, and entity-based workstreams to replicate Unified Service Desk behavior.  
-    c. Develop custom pages, Power Automate flows, web resources, or other components if needed.  
+    1. Set up session templates and application tab templates in Customer Service workspace. Learn more at [Customer Service workspace sessions and tabs](/dynamics365/customer-service/implement/csw-overview#customer-service-workspace-sessions-and-tabs).  
+    1. Configure navigation, form layouts, and entity-based workstreams to replicate Unified Service Desk behavior.  
+    1. Develop custom pages, Power Automate flows, web resources, or other components if needed.  
 1. Test and validate
 
-    a. Conduct comprehensive testing in a sandbox environment before deployment.  
-    b. Verify that Customer Service workspace meets all business and user experience requirements.  
-    c. Gather feedback from key users and make necessary adjustments.  
+    1. Conduct comprehensive testing in a sandbox environment before deployment.  
+    1. Verify that Customer Service workspace meets all business and user experience requirements.  
+    1. Gather feedback from key users and make necessary adjustments.  
 1. Deploy and monitor
 
-    a. Deploy Customer Service workspace solution components to the production environment, including session templates, application templates, custom pages, web resources, and any dependencies.  
-    b. Conduct a phased rollout, allowing gradual adoption and issue resolution.  
-    c. Monitor agent feedback, system performance, and error logs to ensure a smooth transition.  
-    d. Provide training and support to end-users for improved adoption.  
+    1. Deploy Customer Service workspace solution components to the production environment, including session templates, application templates, custom pages, web resources, and any dependencies.  
+    1. Conduct a phased rollout, which allows for gradual adoption and resolution of issues.  
+    1. Monitor agent feedback, system performance, and error logs to ensure a smooth transition.  
+    1. Provide training and support to business users for improved adoption.  
 
 By following this structured migration process, organizations can efficiently transition from Unified Service Desk to Customer Service workspace while ensuring a **feature-rich, scalable, and user-friendly** environment for agents. Continuous monitoring and feedback loops help optimize Customer Service workspace for improved productivity and user satisfaction.
 
+## Next step
+
 > [!div class="nextstepaction"]
->[Map components in Unified Service Desk to Customer Service workspace capabilities](cs-usd-migration-guide-map-components.md)  
+> [Map components in Unified Service Desk to Customer Service workspace capabilities](cs-usd-migration-guide-map-components.md)  
 
 ## Related content
 
+- [Update external web apps automatically from Customer Service workspace](customer-service-unified-service-desk-migration-contextual-update-external-app.md)  
 - [Map components in Unified Service Desk to Customer Service workspace capabilities](cs-usd-migration-guide-map-components.md)  
 - [Welcome to Dynamics 365 Customer Service](/dynamics365/customer-service/implement/overview)  
 - [Get started with Customer Service workspace](/dynamics365/customer-service/implement/csw-overview?tabs=customerserviceadmincenter)  
