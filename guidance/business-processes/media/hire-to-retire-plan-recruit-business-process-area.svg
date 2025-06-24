@@ -1,1 +1,495 @@
-<svg width="1920" height="1920" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><g><rect x="0" y="0" width="1920" height="1920" fill="#FFFFFF"/><rect x="626" y="14" width="817" height="1879" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#D9D9D9"/><text fill="#0078D4" font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="700" font-size="48" transform="translate(929.577 1859)">Business process area</text><path d="M66 68.5C66 48.3416 82.3416 32 102.5 32L241.5 32C261.658 32 278 48.3416 278 68.5L278 68.5C278 88.6584 261.658 105 241.5 105L102.5 105C82.3416 105 66 88.6584 66 68.5Z" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(144.458 78)">Start</text><rect x="66" y="135" width="212" height="144" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(123.831 200)">Hire to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(135.164 239)">retire</text><rect x="773" y="206" width="252" height="154" fill="#FFFFFF"/><path d="M804.5 206 804.5 360M993.5 206 993.5 360" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="773" y="206" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(864.46 263)">Define</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(836.433 292)">department</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(852.033 321)">structure</text><rect x="1048" y="297" width="252" height="153" fill="#FFFFFF"/><path d="M1079.5 297 1079.5 450M1268.5 297 1268.5 450" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1048" y="297" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1135.5 353)">Update</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1111.88 382)">department</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1127.48 411)">structure</text><rect x="944" y="36" width="252" height="144" stroke="#00569B" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#0078D4"/><text fill="#FFFFFF" font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1009.22 81)">Plan and</text><text fill="#FFFFFF" font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(989.174 120)">recruit your</text><text fill="#FFFFFF" font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1000.48 158)">workforce</text><rect x="773" y="800" width="252" height="153" fill="#FFFFFF"/><path d="M804.5 800 804.5 953M993.5 800 993.5 953" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="773" y="800" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(847.925 855)">Plan and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(856.258 887)">budget</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(836.011 919)">headcount</text><rect x="1048" y="918" width="252" height="154" fill="#FFFFFF"/><path d="M1079.5 918 1079.5 1072M1268.5 918 1268.5 1072" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1048" y="918" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1126.32 989)">Manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1111.4 1021)">headcount</text><path d="M1668 1851.5C1668 1831.34 1684.34 1815 1704.5 1815L1843.5 1815C1863.66 1815 1880 1831.34 1880 1851.5L1880 1851.5C1880 1871.66 1863.66 1888 1843.5 1888L1704.5 1888C1684.34 1888 1668 1871.66 1668 1851.5Z" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1751.86 1861)">End</text><rect x="1495" y="1626" width="252" height="153" fill="#FFFFFF"/><path d="M1526.5 1626 1526.5 1779M1715.5 1626 1715.5 1779" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1495" y="1626" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1573.89 1653)">Onboard</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1600.91 1682)">and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1557.91 1711)">manage the</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1568.97 1740)">employee</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(1578.89 1769)">lifecycle</text><rect x="66" y="313" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(103.694 377)">Record to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(127.914 416)">report</text><rect x="66" y="1198" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(102.398 1263)">Service to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(140.491 1302)">cash</text><rect x="66" y="1375" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(111.998 1440)">Order to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(140.491 1479)">cash</text><rect x="66" y="490" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(113.204 554)">Forecast</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(122.204 593)">to plan</text><rect x="66" y="1730" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(98.7908 1794)">Procure to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(146.784 1833)">pay</text><rect x="66" y="1553" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(122.621 1617)">Plan to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(113.454 1656)">produce</text><rect x="66" y="667" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(98.9142 732)">Acquire to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(117.914 771)">dispose</text><rect x="66" y="1021" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(107.484 1059)">Product and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(135.431 1088)">service</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(129.971 1117)">lifecycle</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(101.911 1146)">management</text><rect x="66" y="844" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(103.914 909)">Project to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(133.661 948)">profit</text><rect x="1668" y="758" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1715.32 823)">Forecast</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1724.32 862)">to plan</text><rect x="1668" y="1446" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1724.74 1511)">Plan to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1715.57 1550)">produce</text><rect x="1668" y="1098" width="212" height="144" stroke="#A6A6A6" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="#A0A0A0"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1706.03 1163)">Project to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="32" transform="translate(1735.78 1202)">profit</text><path d="M0-1 24.0001-1C24.5524-1 25.0001-0.552285 25.0001 0L25.0001 139.017C25.0001 139.569 24.5524 140.017 24.0001 140.017L6.66677 140.017 6.66677 138.017 24.0001 138.017 23.0001 139.017 23.0001 0 24.0001 1 0 1ZM8.0001 143.017 0.000104987 139.017 8.0001 135.017Z" fill="#0078D4" transform="matrix(-1 1.22465e-16 1.22465e-16 1 66.0001 68)"/><rect x="773" y="1015" width="252" height="154" fill="#FFFFFF"/><path d="M804.5 1015 804.5 1169M993.5 1015 993.5 1169" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="773" y="1015" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(860.907 1086)">Create</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(845.373 1118)">positions</text><rect x="772" y="600" width="252" height="153" fill="#FFFFFF"/><path d="M803.5 600 803.5 753M992.5 600 992.5 753" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="772" y="600" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(863.884 628)">Define</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(846.891 657)">corporate</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(846.797 686)">operating</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(845.217 715)">hours and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(851.551 744)">schedule</text><rect x="861" y="1548" width="252" height="153" fill="#FFFFFF"/><path d="M892.5 1548 892.5 1701M1081.5 1548 1081.5 1701" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="861" y="1548" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(923.095 1603)">Create and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(939.395 1635)">manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(955.742 1667)">shifts</text><rect x="1160" y="1656" width="252" height="153" fill="#FFFFFF"/><path d="M1191.5 1656 1191.5 1809M1380.5 1656 1380.5 1809" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1160" y="1656" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1245.07 1711)">Recruit</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1237.71 1743)">and hire</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1222.63 1775)">candidates</text><rect x="336" y="308" width="252" height="153" fill="#FFFFFF"/><path d="M367.5 308 367.5 461M556.5 308 556.5 461" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="308" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(419.304 379)">Manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(418.884 408)">budgets</text><rect x="336" y="135" width="252" height="154" fill="#FFFFFF"/><path d="M367.5 135 367.5 289M556.5 135 556.5 289" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="135" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(427.971 192)">Define</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(413.791 221)">company</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(415.544 250)">structure</text><rect x="336" y="1371" width="252" height="153" fill="#FFFFFF"/><path d="M367.5 1371 367.5 1524M556.5 1371 556.5 1524" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="1371" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(414.384 1425)">Manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(432.918 1457)">store</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(399.384 1489)">operations</text><rect x="336" y="663" width="252" height="153" fill="#FFFFFF"/><path d="M367.5 663 367.5 816M556.5 663 556.5 816" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="663" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(416.634 719)">Plan and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(423.968 748)">budget</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(430.634 777)">assets</text><rect x="336" y="485" width="252" height="154" fill="#FFFFFF"/><path d="M367.5 485 367.5 639M556.5 485 556.5 639" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="485" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(427.968 513)">Define</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(417.061 542)">strategic</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(442.381 571)">and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(401.968 600)">operational</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(434.381 629)">plans</text><rect x="336" y="1548" width="252" height="153" fill="#FFFFFF"/><path d="M367.5 1548 367.5 1701M556.5 1548 556.5 1701" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="1548" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(439.801 1604)">Plan</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(404.041 1633)">production</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(405.881 1662)">operations</text><rect x="336" y="1725" width="252" height="154" fill="#FFFFFF"/><path d="M367.5 1725 367.5 1879M556.5 1725 556.5 1879" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="1725" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(421.951 1782)">Procure</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(414.478 1811)">materials</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(397.571 1840)">and services</text><rect x="336" y="1017" width="252" height="154" fill="#FFFFFF"/><path d="M367.5 1017 367.5 1171M556.5 1017 556.5 1171" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="1017" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(405.731 1074)">Categorize</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(415.624 1103)">products</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(397.571 1132)">and services</text><path d="M0-1 29.3565-1C29.9088-1 30.3565-0.552285 30.3565 0L30.3565 172.499 29.3565 171.499 52.0461 171.499 52.0461 173.499 29.3565 173.499C28.8042 173.499 28.3565 173.051 28.3565 172.499L28.3565 0 29.3565 1 0 1ZM50.7128 168.499 58.7128 172.499 50.7128 176.499Z" fill="#0078D4" transform="matrix(1 0 0 -1 278 384.499)"/><path d="M588 211 725.844 211C726.397 211 726.844 211.448 726.844 212L726.844 282.893 725.844 281.893 765.822 281.893 765.822 283.893 725.844 283.893C725.292 283.893 724.844 283.445 724.844 282.893L724.844 212 725.844 213 588 213ZM764.489 278.893 772.489 282.893 764.489 286.893Z" fill="#0078D4"/><path d="M588 211 725.567 211C726.119 211 726.567 211.448 726.567 212L726.567 373.056 725.567 372.056 1041.27 372.056 1041.27 374.056 725.567 374.056C725.015 374.056 724.567 373.609 724.567 373.056L724.567 212 725.567 213 588 213ZM1039.94 369.056 1047.94 373.056 1039.94 377.056Z" fill="#0078D4"/><path d="M278 738 307.356 738C307.909 738 308.356 738.448 308.356 739L308.356 739.349 307.356 738.349 330.046 738.349 330.046 740.349 307.356 740.349C306.804 740.349 306.356 739.901 306.356 739.349L306.356 739 307.356 740 278 740ZM328.713 735.349 336.713 739.349 328.713 743.349Z" fill="#0078D4"/><path d="M588 738 680.272 738C680.824 738 681.272 738.448 681.272 739L681.272 876.545 680.272 875.545 765.877 875.545 765.877 877.545 680.272 877.545C679.72 877.545 679.272 877.097 679.272 876.545L679.272 739 680.272 740 588 740ZM764.544 872.545 772.544 876.545 764.544 880.545Z" fill="#0078D4"/><path d="M278 561 307.356 561C307.909 561 308.356 561.448 308.356 562L308.356 562.181 307.356 561.181 330.046 561.181 330.046 563.181 307.356 563.181C306.804 563.181 306.356 562.733 306.356 562.181L306.356 562 307.356 563 278 563ZM328.713 558.181 336.713 562.181 328.713 566.181Z" fill="#0078D4"/><path d="M588 561 680.272 561C680.824 561 681.272 561.448 681.272 562L681.272 876.857 680.272 875.857 765.877 875.857 765.877 877.857 680.272 877.857C679.72 877.857 679.272 877.409 679.272 876.857L679.272 562 680.272 563 588 563ZM764.544 872.857 772.544 876.857 764.544 880.857Z" fill="#0078D4"/><path d="M278 384 307.356 384C307.909 384 308.356 384.448 308.356 385L308.356 385.013 307.356 384.013 330.046 384.013 330.046 386.013 307.356 386.013C306.804 386.013 306.356 385.565 306.356 385.013L306.356 385 307.356 386 278 386ZM328.713 381.013 336.713 385.013 328.713 389.013Z" fill="#0078D4"/><path d="M588 384 680.272 384C680.824 384 681.272 384.448 681.272 385L681.272 877.168 680.272 876.168 765.877 876.168 765.877 878.168 680.272 878.168C679.72 878.168 679.272 877.721 679.272 877.168L679.272 385 680.272 386 588 386ZM764.544 873.168 772.544 877.168 764.544 881.168Z" fill="#0078D4"/><path d="M0-1 29.3564-1C29.9087-1 30.3564-0.552285 30.3564 0L30.3564 0.180367 29.3564-0.819633 52.0461-0.819633 52.0461 1.18037 29.3564 1.18037C28.8041 1.18037 28.3564 0.732652 28.3564 0.180367L28.3564 0 29.3564 1 0 1ZM50.7128-3.81963 58.7128 0.180367 50.7128 4.18037Z" fill="#0078D4" transform="matrix(1 0 0 -1 278 1447.18)"/><path d="M588 1624 724.257 1624C724.809 1624 725.257 1624.45 725.257 1625L725.257 1625.07 724.257 1624.07 853.847 1624.07 853.847 1626.07 724.257 1626.07C723.705 1626.07 723.257 1625.63 723.257 1625.07L723.257 1625 724.257 1626 588 1626ZM852.514 1621.07 860.514 1625.07 852.514 1629.07Z" fill="#0078D4"/><path d="M0-1 29.3564-1C29.9087-1 30.3564-0.552285 30.3564 0L30.3564 0.0125984 29.3564-0.987402 52.0461-0.987402 52.0461 1.0126 29.3564 1.0126C28.8041 1.0126 28.3564 0.564883 28.3564 0.0125984L28.3564 0 29.3564 1 0 1ZM50.7128-3.9874 58.7128 0.0125984 50.7128 4.0126Z" fill="#0078D4" transform="matrix(1 0 0 -1 278 1625.01)"/><path d="M588 1446 666.152 1446C666.704 1446 667.152 1446.45 667.152 1447L667.152 1624.38 666.152 1623.38 853.847 1623.38 853.847 1625.38 666.152 1625.38C665.599 1625.38 665.152 1624.94 665.152 1624.38L665.152 1447 666.152 1448 588 1448ZM852.514 1620.38 860.514 1624.38 852.514 1628.38Z" fill="#0078D4"/><path d="M278 1801 307.356 1801C307.909 1801 308.356 1801.45 308.356 1802L308.356 1802.15 307.356 1801.15 330.046 1801.15 330.046 1803.15 307.356 1803.15C306.804 1803.15 306.356 1802.71 306.356 1802.15L306.356 1802 307.356 1803 278 1803ZM328.713 1798.15 336.713 1802.15 328.713 1806.15Z" fill="#0078D4"/><path d="M0-1 285.782-1C286.334-1 286.782-0.552285 286.782 0L286.782 69.2269 285.782 68.2269 564.896 68.2269 564.896 70.2269 285.782 70.2269C285.229 70.2269 284.782 69.7792 284.782 69.2269L284.782 0 285.782 1 0 1ZM563.563 65.2269 571.563 69.2269 563.563 73.2269Z" fill="#0078D4" transform="matrix(1 0 0 -1 588 1802.23)"/><path d="M278 1092 307.356 1092C307.909 1092 308.356 1092.45 308.356 1093L308.356 1093.68 307.356 1092.68 330.046 1092.68 330.046 1094.68 307.356 1094.68C306.804 1094.68 306.356 1094.24 306.356 1093.68L306.356 1093 307.356 1094 278 1094ZM328.713 1089.68 336.713 1093.68 328.713 1097.68Z" fill="#0078D4"/><path d="M0-1 92.2444-1C92.7967-1 93.2444-0.552285 93.2444 0L93.2444 1.74772 92.2444 0.747716 177.822 0.747716 177.822 2.74772 92.2444 2.74772C91.6921 2.74772 91.2444 2.3 91.2444 1.74772L91.2444 0 92.2444 1 0 1ZM176.489-2.25228 184.489 1.74772 176.489 5.74772Z" fill="#0078D4" transform="matrix(1 0 0 -1 588 1093.75)"/><rect x="336" y="1193" width="252" height="154" fill="#FFFFFF"/><path d="M367.5 1193 367.5 1347M556.5 1193 556.5 1347" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="336" y="1193" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(405.731 1250)">Categorize</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(415.624 1279)">products</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(397.571 1308)">and services</text><path d="M0-1 29.3564-1C29.9087-1 30.3564-0.552285 30.3564 0L30.3564 0.348136 29.3564-0.651864 52.0461-0.651864 52.0461 1.34814 29.3564 1.34814C28.8041 1.34814 28.3564 0.900421 28.3564 0.348136L28.3564 0 29.3564 1 0 1ZM50.7128-3.65186 58.7128 0.348136 50.7128 4.34814Z" fill="#0078D4" transform="matrix(1 0 0 -1 278 1270.35)"/><path d="M0-1 92.2444-1C92.7967-1 93.2444-0.552285 93.2444 0L93.2444 177.859 92.2444 176.859 177.822 176.859 177.822 178.859 92.2444 178.859C91.6921 178.859 91.2444 178.412 91.2444 177.859L91.2444 0 92.2444 1 0 1ZM176.489 173.859 184.489 177.859 176.489 181.859Z" fill="#0078D4" transform="matrix(1 0 0 -1 588 1269.86)"/><rect x="334" y="840" width="252" height="153" fill="#FFFFFF"/><path d="M365.5 840 365.5 993M554.5 840 554.5 993" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="334" y="840" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(403.186 911)">Resource a</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="24" transform="translate(423.353 940)">project</text><path d="M278 915 306.345 915C306.898 915 307.345 915.448 307.345 916L307.345 916.267 306.345 915.267 328.024 915.267 328.024 917.267 306.345 917.267C305.793 917.267 305.345 916.82 305.345 916.267L305.345 916 306.345 917 278 917ZM326.691 912.267 334.691 916.267 326.691 920.267Z" fill="#0078D4"/><path d="M0-1 93.2554-1C93.8077-1 94.2554-0.552285 94.2554 0L94.2554 39.7351 93.2554 38.7351 179.844 38.7351 179.844 40.7351 93.2554 40.7351C92.7031 40.7351 92.2554 40.2874 92.2554 39.7351L92.2554 0 93.2554 1 0 1ZM178.511 35.7351 186.511 39.7351 178.511 43.7351Z" fill="#0078D4" transform="matrix(1 0 0 -1 586 916.735)"/><path d="M0-1 16.6385-1C17.1908-1 17.6385-0.552285 17.6385 0L17.6385 99.7401 16.6385 98.7401 660.217 98.7401 660.217 100.74 16.6385 100.74C16.0862 100.74 15.6385 100.292 15.6385 99.7401L15.6385 0 16.6385 1 0 1ZM658.883 95.7401 666.883 99.7401 658.883 103.74Z" fill="#0078D4" transform="matrix(1 0 0 -1 278 207.74)"/><path d="M586 915 711.918 915C712.47 915 712.918 915.448 712.918 916L712.918 1430.81 711.918 1429.81 761.57 1429.81 761.57 1431.81 711.918 1431.81C711.366 1431.81 710.918 1431.36 710.918 1430.81L710.918 916 711.918 917 586 917ZM760.237 1426.81 768.237 1430.81 760.237 1434.81Z" fill="#0078D4"/><path d="M0-1 41.4827-1C42.035-1 42.4827-0.552285 42.4827 0L42.4827 30.3207 41.4827 29.3207 76.2988 29.3207 76.2988 31.3207 41.4827 31.3207C40.9304 31.3207 40.4827 30.873 40.4827 30.3207L40.4827 0 41.4827 1 0 1ZM74.9655 26.3207 82.9655 30.3207 74.9655 34.3207Z" fill="#0078D4" transform="matrix(1 0 0 -1 1412 1732.32)"/><path d="M1747 1701 1774.2 1701C1774.75 1701 1775.2 1701.45 1775.2 1702L1775.2 1807.73 1773.2 1807.73 1773.2 1702 1774.2 1703 1747 1703ZM1778.2 1806.4 1774.2 1814.4 1770.2 1806.4Z" fill="#0078D4"/><path d="M1025 876 1175.32 876C1175.59 876 1175.84 876.106 1176.03 876.294 1176.22 876.483 1176.32 876.738 1176.32 877.004L1176.18 912.005 1174.18 911.997 1174.32 876.996 1175.32 878 1025 878ZM1179.3 911.114 1174.45 918.628 1171.35 910.238Z" fill="#0078D4"/><path d="M0 1-63.5998 1-62.5998 0-62.5998 510.413-63.5998 509.413 14.3735 509.413C14.9258 509.413 15.3735 509.861 15.3735 510.413L15.3735 649.518 13.3735 649.518 13.3735 510.413 14.3735 511.413-63.5998 511.413C-64.1521 511.413-64.5998 510.965-64.5998 510.413L-64.5998 0C-64.5998-0.552285-64.1521-1-63.5998-1L0-1ZM18.3735 648.184 14.3735 656.184 10.3735 648.184Z" fill="#0078D4" transform="matrix(-1 0 0 1 1300.37 995)"/><rect x="1460" y="567" width="252" height="153" fill="#FFFFFF"/><path d="M1491.5 567 1491.5 720M1680.5 567 1680.5 720" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1460" y="567" width="252" height="153" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1540.68 620)">Forecast</text><text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1527.64 652)">supply and</text><text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1541.64 684)">demand</text><rect x="1460" y="922" width="252" height="154" fill="#FFFFFF"/><path d="M1491.5 922 1491.5 1076M1680.5 922 1680.5 1076" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1460" y="922" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1538.47 977)">Manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1545.32 1009)">project</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1538.14 1041)">budgets</text><rect x="1460" y="1266" width="252" height="154" fill="#FFFFFF"/><path d="M1491.5 1266 1491.5 1420M1680.5 1266 1680.5 1420" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1460" y="1266" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1548.06 1321)">Define</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1521.48 1353)">production</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1529.66 1385)">strategies</text><path d="M1880 1517 1904 1517C1904.55 1517 1905 1517.45 1905 1518L1905 1851.23C1905 1851.78 1904.55 1852.23 1904 1852.23L1888 1852.23 1888 1850.23 1904 1850.23 1903 1851.23 1903 1518 1904 1519 1880 1519ZM1889.33 1855.23 1881.33 1851.23 1889.33 1847.23Z" fill="#0078D4"/><path d="M1880 829 1904 829C1904.55 829 1905 829.448 1905 830L1905 1851.01C1905 1851.56 1904.55 1852.01 1904 1852.01L1888 1852.01 1888 1850.01 1904 1850.01 1903 1851.01 1903 830 1904 831 1880 831ZM1889.33 1855.01 1881.33 1851.01 1889.33 1847.01Z" fill="#0078D4"/><path d="M1880 1169 1904 1169C1904.55 1169 1905 1169.45 1905 1170L1905 1851.05C1905 1851.6 1904.55 1852.05 1904 1852.05L1888 1852.05 1888 1850.05 1904 1850.05 1903 1851.05 1903 1170 1904 1171 1880 1171ZM1889.33 1855.05 1881.33 1851.05 1889.33 1847.05Z" fill="#0078D4"/><path d="M1712 642 1773.64 642C1774.19 642 1774.64 642.448 1774.64 643L1774.64 741.672 1772.64 741.672 1772.64 643 1773.64 644 1712 644ZM1777.64 740.339 1773.64 748.339 1769.64 740.339Z" fill="#0078D4"/><path d="M1712 998 1773.64 998C1774.19 998 1774.64 998.448 1774.64 999L1774.64 1091.34 1772.64 1091.34 1772.64 999 1773.64 1000 1712 1000ZM1777.64 1090.01 1773.64 1098.01 1769.64 1090.01Z" fill="#0078D4"/><path d="M1712 1342 1773.64 1342C1774.19 1342 1774.64 1342.45 1774.64 1343L1774.64 1439.2 1772.64 1439.2 1772.64 1343 1773.64 1344 1712 1344ZM1777.64 1437.87 1773.64 1445.87 1769.64 1437.87Z" fill="#0078D4"/><rect x="1054" y="467" width="252" height="154" fill="#FFFFFF"/><path d="M1085.5 467 1085.5 621M1274.5 467 1274.5 621" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="1054" y="467" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1131.66 522)">Manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1115.1 554)">changes to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1154.99 586)">jobs</text><path d="M0-1 37.4398-1C37.9921-1 38.4398-0.552285 38.4398 0L38.4398 0.000209974 37.4398-0.99979 68.2128-0.99979 68.2128 1.00021 37.4398 1.00021C36.8875 1.00021 36.4398 0.552495 36.4398 0.000209974L36.4398 0 37.4398 1 0 1ZM66.8795-3.99979 74.8795 0.000209974 66.8795 4.00021Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 899 360)"/><path d="M0-1 92.8511-1C93.4034-1 93.8511-0.552285 93.8511 0L93.8511 0.000104987 92.8511-0.999895 179.035-0.999895 179.035 1.0001 92.8511 1.0001C92.2988 1.0001 91.8511 0.55239 91.8511 0.000104987L91.8511 0 92.8511 1 0 1ZM177.702-3.99989 185.702 0.000104987 177.702 4.0001Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 899 1169)"/><path d="M899.667 563 899.667 581.347C899.667 581.9 899.219 582.347 898.667 582.347L898 582.347 899 581.347 899 593.028 897 593.028 897 581.347C897 580.795 897.448 580.347 898 580.347L898.667 580.347 897.667 581.347 897.667 563ZM902 591.695 898 599.695 894 591.695Z" fill="#0078D4"/><path d="M0-1 23.3665-1C23.9188-1 24.3665-0.552285 24.3665 0L24.3665 0.627402 23.3665-0.372598 40.0663-0.372598 40.0663 1.6274 23.3665 1.6274C22.8142 1.6274 22.3665 1.17969 22.3665 0.627402L22.3665 0 23.3665 1 0 1ZM38.733-3.3726 46.733 0.627402 38.733 4.6274Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 898 753)"/><path d="M900.055 953 900.055 984.02C900.055 984.572 899.607 985.02 899.055 985.02L899 985.02 900 984.02 900 1008.37 898 1008.37 898 984.02C898 983.468 898.448 983.02 899 983.02L899.055 983.02 898.055 984.02 898.055 953ZM903 1007.04 899 1015.04 895 1007.04Z" fill="#0078D4"/><path d="M0-1 88.1369-1C88.6892-1 89.1369-0.552285 89.1369 0L89.1369 52.7812 87.1369 52.7812 87.1369 0 88.1369 1 0 1ZM92.1369 51.4479 88.1369 59.4479 84.1369 51.4479Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 899 1169)"/><path d="M0-1 66.8312-1C67.3835-1 67.8312-0.552285 67.8312 0L67.8312 22.1231 65.8312 22.1231 65.8312 0 66.8312 1 0 1ZM70.8312 20.7898 66.8312 28.7898 62.8312 20.7898Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 1025 477)"/><rect x="769" y="1354" width="260" height="154" fill="#FFFFFF"/><path d="M801.5 1354 801.5 1508M996.5 1354 996.5 1508" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="769" y="1354" width="260" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(835.07 1409)">Create and</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(851.37 1441)">manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(863.477 1473)">teams</text><path d="M1025 1091 1286.07 1091C1286.63 1091 1287.07 1091.45 1287.07 1092L1287.07 1649.25 1285.07 1649.25 1285.07 1092 1286.07 1093 1025 1093ZM1290.07 1647.92 1286.07 1655.92 1282.07 1647.92Z" fill="#0078D4"/><rect x="958" y="1180" width="252" height="154" fill="#FFFFFF"/><path d="M989.5 1180 989.5 1334M1178.5 1180 1178.5 1334" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="958" y="1180" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1036.32 1235)">Manage</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1019.76 1267)">changes to</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(1030.82 1299)">positions</text><path d="M1620 1625.8 1620 1518C1620 1517.45 1620.45 1517 1621 1517L1661.85 1517 1661.85 1519 1621 1519 1622 1518 1622 1625.8ZM1660.52 1514 1668.52 1518 1660.52 1522Z" fill="#0078D4"/><path d="M0-1 114.623-1C115.175-1 115.623-0.552285 115.623 0L115.623 281.626 114.623 280.626 340.908 280.626 340.908 282.626 114.623 282.626C114.071 282.626 113.623 282.178 113.623 281.626L113.623 0 114.623 1 0 1ZM339.575 277.626 347.575 281.626 339.575 285.626Z" fill="#0078D4" transform="matrix(1 0 0 -1 1113 1624.63)"/><path d="M0-1 376.461-1C377.013-1 377.461-0.552285 377.461 0L377.461 432.021 376.461 431.021 424.659 431.021 424.659 433.021 376.461 433.021C375.909 433.021 375.461 432.573 375.461 432.021L375.461 0 376.461 1 0 1ZM423.325 428.021 431.325 432.021 423.325 436.021Z" fill="#0078D4" transform="matrix(1 0 0 -1 1029 1431.02)"/><path d="M0-1 217.8-1C218.352-1 218.8-0.552285 218.8 0L218.8 233.398 217.8 232.398 428.933 232.398 428.933 234.398 217.8 234.398C217.248 234.398 216.8 233.95 216.8 233.398L216.8 0 217.8 1 0 1ZM427.6 229.398 435.6 233.398 427.6 237.398Z" fill="#0078D4" transform="matrix(1 0 0 -1 1025 876.398)"/><path d="M1196 107 1903.24 107C1903.79 107 1904.24 107.448 1904.24 108L1904.24 1518.19C1904.24 1518.75 1903.79 1519.19 1903.24 1519.19L1885.9 1519.19 1885.9 1517.19 1903.24 1517.19 1902.24 1518.19 1902.24 108 1903.24 109 1196 109ZM1887.24 1522.19 1879.24 1518.19 1887.24 1514.19Z" fill="#0078D4"/><path d="M1196 107 1903.24 107C1903.79 107 1904.24 107.448 1904.24 108L1904.24 1170.37C1904.24 1170.93 1903.79 1171.37 1903.24 1171.37L1885.9 1171.37 1885.9 1169.37 1903.24 1169.37 1902.24 1170.37 1902.24 108 1903.24 109 1196 109ZM1887.24 1174.37 1879.24 1170.37 1887.24 1166.37Z" fill="#0078D4"/><path d="M1196 107 1903.24 107C1903.79 107 1904.24 107.448 1904.24 108L1904.24 830.416C1904.24 830.969 1903.79 831.416 1903.24 831.416L1885.9 831.416 1885.9 829.416 1903.24 829.416 1902.24 830.416 1902.24 108 1903.24 109 1196 109ZM1887.24 834.416 1879.24 830.416 1887.24 826.416Z" fill="#0078D4"/><rect x="773" y="409" width="252" height="154" fill="#FFFFFF"/><path d="M804.5 409 804.5 563M993.5 409 993.5 563" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/><rect x="773" y="409" width="252" height="154" stroke="#0078D4" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(860.903 480)">Create</text><text font-family="Segoe UI,Segoe UI_MSFontService,sans-serif" font-weight="400" font-size="27" transform="translate(874.203 512)">jobs</text><path d="M1071.68 180 1071.68 193.317C1071.68 193.869 1071.23 194.317 1070.68 194.317L899 194.317 900 193.317 900 199.967 898 199.967 898 193.317C898 192.764 898.448 192.317 899 192.317L1070.68 192.317 1069.68 193.317 1069.68 180ZM903 198.633 899 206.633 895 198.633Z" fill="#0078D4"/><path d="M0-1 31.366-1C31.9183-1 32.366-0.552285 32.366 0L32.366 166.383 30.366 166.383 30.366 0 31.366 1 0 1ZM35.366 165.049 31.366 173.049 27.366 165.049Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 987 1701)"/><path d="M0-1 20.1363-1C20.6886-1 21.1363-0.552285 21.1363 0L21.1363 88.025 20.1363 87.025 33.606 87.025 33.606 89.025 20.1363 89.025C19.584 89.025 19.1363 88.5773 19.1363 88.025L19.1363 0 20.1363 1 0 1ZM32.2727 84.025 40.2726 88.025 32.2727 92.025Z" fill="#0078D4" transform="matrix(1.83697e-16 1 1 -1.83697e-16 899 1508)"/></g></svg>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="14 22 969 1004"    xml:space="preserve" color-interpolation-filters="sRGB" class="st14" width="2423" height="2510">
+<rect x="0" y="0" width="2423" height="2510" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#f2f2f2;stroke:#548bd4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st6 {font-size:1em}
+		.st7 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {fill:#ffffff}
+		.st9 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {marker-end:url(#mrkr13-160);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st12 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st13 {fill:#0078d4;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-160" class="st11" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape83-1" transform="translate(333,-236.25)">
+			
+			<rect x="0" y="326.25" width="378" height="861.75" class="st1" />
+		</g>
+		<g id="shape1-3" transform="translate(65.25,-1116)">
+			
+			<desc>Start</desc>
+			<path d="M18 1188 L67.5 1188 A18 18 -180 0 0 67.5 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st2" />
+			<text x="31.01" y="1173.6" class="st3">Start</text>
+		</g>
+		<a id="b67b62bf-53ad-4980-a7e1-39e8c3688047" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMXY0MDcxJywxODE3NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-6" transform="translate(441,-1102.5)">
+				
+				<desc>55.10 Recruit and onboard talent</desc>
+				<rect x="0" y="1125" width="126" height="63" class="st4" />
+				<text x="20.02" y="1152.9" class="st5">55.10 Recruit and <tspan x="26.48" dy="1.2em" class="st6">onboard talent</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="05dc1296-e2bc-4ddc-9ed4-aa3d2aa885b1" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMHY0MDcxJywxODE2OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-10" transform="translate(51.75,-1026)">
+				
+				<desc>55 Hire to retire</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="10.44" y="1160.1" class="st3">55 Hire to retire</text>
+			</g>
+		</a>
+		<a id="2d73193a-ba05-421d-b4a0-354c26934403" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQxMnY0MDcxJywxODQ2MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-13" transform="translate(51.75,-945)">
+				
+				<desc>90 Record to report</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="18.34" y="1152.9" class="st3">90 Record to <tspan x="34" dy="1.2em" class="st6">report</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="0c09463d-2619-4e2a-9de5-0a353f9781df" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk5MnY0MDcxJywxODExOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-17" transform="translate(51.75,-864)">
+				
+				<desc>50 Forecast to plan</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="2.85" y="1160.1" class="st3">50 Forecast to plan</text>
+			</g>
+		</a>
+		<a id="fcb47637-5c6c-4580-beef-45ba1f9d20ac" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjgwMnY0MDcxJywxNzk0OSwgMSwgNCwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-20" transform="translate(51.75,-783)">
+				
+				<desc>10 Acquire to dispose</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="16.76" y="1152.9" class="st3">10 Acquire to <tspan x="30.98" dy="1.2em" class="st6">dispose</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="16ea8253-6230-4bdb-9ebd-68df3f1625e2" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQxNHY0MDcxJywxODQ2MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape9-24" transform="translate(180,-945)">
+				
+				<desc>90.10.010 Develop company structure</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="17.26" y="1152.9" class="st3">90.10.010 Develop <tspan x="16.88" dy="1.2em" class="st6">company structure</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="36433bb2-bcff-40bd-816b-a78220bb77c5" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQzOHY0MDcxJywxODQ4MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape10-31" transform="translate(177.75,-864)">
+				
+				<desc>90.30 Manage budgets</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="28.12" y="1152.9" class="st3">90.30 Manage <tspan x="43.38" dy="1.2em" class="st6">budgets</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape12-38" transform="translate(177.75,-783)">
+			
+			<desc>10.10 Plan and budget assets</desc>
+			<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+			<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+			<path d="M9 1188 L9 1125" class="st9" />
+			<path d="M117 1188 L117 1125" class="st9" />
+			<text x="26.93" y="1152.9" class="st3">10.10 Plan and <tspan x="29.46" dy="1.2em" class="st6">budget assets</tspan>
+			</text>
+		</g>
+		<a id="5f1e479b-6529-467f-8892-014885d481f1" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzMxOXY0MDcxJywxODQxMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape13-45" transform="translate(54,-702)">
+				
+				<desc>80 Project to profit</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="3.23" y="1160.1" class="st3">80 Project to profit</text>
+			</g>
+		</a>
+		<a id="5d0ec02c-8948-4955-85d0-9e7a600ce615" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk0NHY0MDcxJywxODA4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape14-48" transform="translate(54,-621)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="4.26" y="1160.1" class="st3">40 Design to retire</text>
+			</g>
+		</a>
+		<a id="19e2d978-9ca2-402f-b240-cffd6988280d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQ5NnY0MDcxJywxODUxNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape15-51" transform="translate(54,-540)">
+				
+				<desc>95 Service to deliver</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="18.09" y="1152.9" class="st3">95 Service to <tspan x="32.82" dy="1.2em" class="st6">deliver</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="71fdeaa8-eb0b-4035-945d-80a120fefde4" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE1NXY0MDcxJywxODI4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape16-55" transform="translate(54,-459)">
+				
+				<desc>65 Order to cash</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="8.97" y="1160.1" class="st3">65 Order to cash</text>
+			</g>
+		</a>
+		<a id="c8c1969a-5e43-48b6-8d87-1aa3aa7b68b9" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzMzNnY0MDcxJywxODQyNSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape17-58" transform="translate(180,-702)">
+				
+				<desc>80.30 Plan projects</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="16.38" y="1160.1" class="st3">80.30 Plan projects</text>
+			</g>
+		</a>
+		<a id="faf12052-ef37-4bb5-a8ce-09223f1481a9" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk4M3Y0MDcxJywxODA5OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape18-64" transform="translate(180,-621)">
+				
+				<desc>40.50 Manage active products</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="12.28" y="1152.9" class="st3">40.50 Manage active <tspan x="41.39" dy="1.2em" class="st6">products</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape19-71" transform="translate(180,-540)">
+			
+			<desc>95.10 Manage service assets</desc>
+			<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+			<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+			<path d="M9 1188 L9 1125" class="st9" />
+			<path d="M117 1188 L117 1125" class="st9" />
+			<text x="28.12" y="1152.9" class="st3">95.10 Manage <tspan x="29.7" dy="1.2em" class="st6">service assets</tspan>
+			</text>
+		</g>
+		<a id="dcb2a505-0eb6-40fa-99e2-dc76cbf81041" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMHY0MDcxJywxODMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape21-78" transform="translate(54,-378)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="3.44" y="1160.1" class="st3">70 Plan to produce</text>
+			</g>
+		</a>
+		<a id="87ef870c-ded9-4a34-9f8a-b6e654180339" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI2OXY0MDcxJywxODM2MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape22-81" transform="translate(54,-297)">
+				
+				<desc>75 Source to pay</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="8.74" y="1160.1" class="st3">75 Source to pay</text>
+			</g>
+		</a>
+		<a id="35f05292-f321-4b53-9f96-2cff95c1cf90" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzOHY0MDcxJywxODMzNCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape25-84" transform="translate(180,-378)">
+				
+				<desc>70.20 Plan production operations</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="37.46" y="1145.7" class="st3">70.20 Plan <tspan x="36.05" dy="1.2em" class="st6">production </tspan>
+					<tspan x="36.68" dy="1.2em" class="st6">operations</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="19ec4f7a-6249-44b0-aafb-eea683d742bf" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI4N3Y0MDcxJywxODM4OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape26-92" transform="translate(180,-297)">
+				
+				<desc>75.40 Procure goods and services</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="12.83" y="1152.9" class="st3">75.40 Procure goods <tspan x="33.08" dy="1.2em" class="st6">and services</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="22d159d9-682e-4019-8dc6-2bc3c23df732" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyNXY0MDcxJywxODE3OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape34-99" transform="translate(441,-864)">
+				
+				<desc>55.10.040 Budget workforce</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="19.94" y="1152.9" class="st3">55.10.040 Budget <tspan x="38.12" dy="1.2em" class="st6">workforce</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="6c620a9e-8d20-485c-965c-18bc53fd2727" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyNnY0MDcxJywxODE3OSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape36-106" transform="translate(531,-738)">
+				
+				<desc>55.10.045 List open positions</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="15.26" y="1152.9" class="st3">55.10.045 List open <tspan x="40.91" dy="1.2em" class="st6">positions</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="7c938c04-72c7-4852-b77b-19dec87ea28d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyN3Y0MDcxJywxODE4MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape40-113" transform="translate(531,-639)">
+				
+				<desc>55.10.050 Recruit new talent</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="19.92" y="1152.9" class="st3">55.10.050 Recruit <tspan x="36.81" dy="1.2em" class="st6">new talent</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="27c1d5de-8db9-421b-8992-8c79789d83d3" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMHY0MDcxJywxODMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape42-120" transform="translate(846,-342)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="3.44" y="1160.1" class="st3">70 Plan to produce</text>
+			</g>
+		</a>
+		<a id="e59ddf96-c68f-4dda-a412-5d2d6dda160d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMXY0MDcxJywxODMyOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape43-123" transform="translate(756,-441)">
+				
+				<desc>70.10 Develop production strategies</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="27.9" y="1145.7" class="st3">70.10 Develop <tspan x="36.05" dy="1.2em" class="st6">production </tspan>
+					<tspan x="39.15" dy="1.2em" class="st6">strategies</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="230d7fd9-5fd6-4b96-9535-1d9bf3b53c61" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzMxOXY0MDcxJywxODQxMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape44-131" transform="translate(846,-540)">
+				
+				<desc>80 Project to profit</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="3.23" y="1160.1" class="st3">80 Project to profit</text>
+			</g>
+		</a>
+		<a id="b7a15c3b-84ac-46d5-90d5-5b2963dd6249" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzM2MnY0MDcxJywxODQ0MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape45-134" transform="translate(756,-639)">
+				
+				<desc>80.50 Manage project financials</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="28.12" y="1152.9" class="st3">80.50 Manage <tspan x="21.37" dy="1.2em" class="st6">project financials</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="18cc1b80-88d5-456a-b18c-17f62b5621a3" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk5MnY0MDcxJywxODExOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape46-141" transform="translate(846,-738)">
+				
+				<desc>50 Forecast to plan</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st7" />
+				<text x="2.85" y="1160.1" class="st3">50 Forecast to plan</text>
+			</g>
+		</a>
+		<a id="eea38bcb-91fa-433e-8972-8e035b34ceaa" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDI4MHY0MDcxJywxODEzMCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape47-144" transform="translate(756,-814.5)">
+				
+				<desc>50.25 Conduct sales and operations planning</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="14.31" y="1145.7" class="st3">50.25 Conduct sales <tspan x="26.15" dy="1.2em" class="st6">and operations </tspan>
+					<tspan x="41.94" dy="1.2em" class="st6">planning</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape48-152" transform="translate(846,-162)">
+			
+			<desc>Ènd</desc>
+			<path d="M18 1188 L67.5 1188 A18 18 -180 0 0 67.5 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st2" />
+			<text x="33.52" y="1173.6" class="st3">Ènd</text>
+		</g>
+		<g id="shape49-155" transform="translate(150.75,-1057.5)">
+			
+			<path d="M0 1188 L8.83 1188 L8.83 1161 L19.44 1161" class="st10" />
+		</g>
+		<g id="shape50-161" transform="translate(67.5,-1134)">
+			
+			<path d="M-2.25 1188 L-33.41 1188 L-33.41 1264.5 L-25.56 1264.5" class="st10" />
+		</g>
+		<g id="shape51-166" transform="translate(150.75,-967.5)">
+			
+			<path d="M0 1179 L14.25 1179 L19.44 1179" class="st10" />
+		</g>
+		<g id="shape53-171" transform="translate(150.75,-976.5)">
+			
+			<path d="M0 1188 L8.83 1188 L8.83 1269 L17.19 1269" class="st10" />
+		</g>
+		<g id="shape54-176" transform="translate(150.75,-805.5)">
+			
+			<path d="M0 1179 L17.19 1179" class="st10" />
+		</g>
+		<g id="shape55-181" transform="translate(153,-724.5)">
+			
+			<path d="M0 1179 L17.19 1179" class="st10" />
+		</g>
+		<g id="shape56-186" transform="translate(153,-643.5)">
+			
+			<path d="M0 1179 L17.19 1179" class="st10" />
+		</g>
+		<g id="shape57-191" transform="translate(153,-562.5)">
+			
+			<path d="M0 1179 L17.19 1179" class="st10" />
+		</g>
+		<g id="shape59-196" transform="translate(153,-400.5)">
+			
+			<path d="M0 1179 L17.19 1179" class="st10" />
+		</g>
+		<g id="shape60-201" transform="translate(153,-319.5)">
+			
+			<path d="M0 1179 L17.19 1179" class="st10" />
+		</g>
+		<g id="shape61-206" transform="translate(495,-1102.5)">
+			
+			<path d="M9 1188 L9 1353.69" class="st10" />
+		</g>
+		<g id="shape65-211" transform="translate(567,-895.5)">
+			
+			<path d="M0 1188 L27 1188 L27 1272.69" class="st10" />
+		</g>
+		<g id="shape66-216" transform="translate(504,-864)">
+			
+			<path d="M0 1188 L0 1205.66 L-81 1205.66 L-81 1277.19" class="st10" />
+		</g>
+		<g id="shape69-221" transform="translate(657,-670.5)">
+			
+			<path d="M0 1188 L17.66 1188 L17.66 1485 L179.19 1485" class="st10" />
+		</g>
+		<g id="shape71-226" transform="translate(522,-418.5)">
+			
+			<path d="M0 1188 L0 1318.84 L366.75 1318.84 L366.75 1398.69" class="st10" />
+		</g>
+		<g id="shape72-231" transform="translate(879.75,-472.5)">
+			
+			<path d="M2.25 1188 L15.75 1188 L15.75 1245.69" class="st10" />
+		</g>
+		<g id="shape74-236" transform="translate(879.75,-670.5)">
+			
+			<path d="M2.25 1188 L15.75 1188 L15.75 1245.69" class="st10" />
+		</g>
+		<g id="shape76-241" transform="translate(648,-769.5)">
+			
+			<path d="M9 1188 L26.66 1188 L26.66 1287 L18.81 1287" class="st10" />
+		</g>
+		<g id="shape77-246" transform="translate(504,-864)">
+			
+			<path d="M0 1188 L0 1206 L87 1206 A3 3 0 1 1 93 1206 L242.19 1206" class="st10" />
+		</g>
+		<g id="shape78-251" transform="translate(879.75,-846)">
+			
+			<path d="M2.25 1188 L15.75 1188 L15.75 1223.19" class="st10" />
+		</g>
+		<g id="shape79-256" transform="translate(567,-1134)">
+			
+			<path d="M0 1188 L395.66 1188 L395.66 1552.5 L387.81 1552.5" class="st10" />
+		</g>
+		<g id="shape80-261" transform="translate(567,-1134)">
+			
+			<path d="M0 1188 L395.66 1188 L395.66 1750.5 L387.81 1750.5" class="st10" />
+		</g>
+		<g id="shape81-266" transform="translate(567,-1134)">
+			
+			<path d="M0 1188 L395.66 1188 L395.66 1948.5 L387.81 1948.5" class="st10" />
+		</g>
+		<g id="shape82-271" transform="translate(947.25,-373.5)">
+			
+			<path d="M-2.25 1188 L15.41 1188 L15.41 1381.5 L-5.94 1381.5" class="st10" />
+		</g>
+		<g id="shape84-276" transform="translate(333,-236.25)">
+			
+			<desc>Business process area</desc>
+			<rect x="0" y="1154.25" width="225" height="33.75" class="st12" />
+			<text x="4" y="1174.73" class="st13">Business process area</text>
+		</g>
+		<a id="6eb37e64-740d-4a26-a81a-7e729c5cef0b" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMzMDg5NXY0MDcxJywxODE2OSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape85-279" transform="translate(180,-1053)">
+				
+				<desc>55.05 Develop people strategy</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="27.9" y="1152.9" class="st3">55.05 Develop <tspan x="24.97" dy="1.2em" class="st6">people strategy</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape86-286" transform="translate(306,-1084.5)">
+			
+			<path d="M0 1188 L8.83 1188 L8.83 1138.5 L125.19 1138.5" class="st10" />
+		</g>
+		<a id="107dae1a-a895-44e7-ae49-f7d46492b458" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM4MDM3NHY0MDcxJywxODE4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape87-291" transform="translate(360,-702)">
+				
+				<desc>55.10.060 Hire for open positions</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="18.69" y="1152.9" class="st3">55.10.060 Hire for <tspan x="27.1" dy="1.2em" class="st6">open positions</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="814a3fe0-5fc7-442d-8e67-70153d3fe094" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM4MDM3NXY0MDcxJywxODE4MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape88-298" transform="translate(459,-513)">
+				
+				<desc>55.10.070 Onboard new employees</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="15.77" y="1152.9" class="st3">55.10.070 Onboard <tspan x="24.71" dy="1.2em" class="st6">new employees</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="3e8214ec-155d-4d3a-94fa-6bbaf46c3aec" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM4MDM3NnY0MDcxJywxODE4MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape89-305" transform="translate(459,-418.5)">
+				
+				<desc>55.10.080 Onboard new contractors</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st8" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st9" />
+				<path d="M9 1188 L9 1125" class="st9" />
+				<path d="M117 1188 L117 1125" class="st9" />
+				<text x="15.77" y="1152.9" class="st3">55.10.080 Onboard <tspan x="23.24" dy="1.2em" class="st6">new contractors</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape90-312" transform="translate(513,-513)">
+			
+			<path d="M9 1188 L9 1209.69" class="st10" />
+		</g>
+		<g id="shape91-317" transform="translate(423,-702)">
+			
+			<path d="M0 1188 L0 1278 L99 1278 L99 1304.19" class="st10" />
+		</g>
+		<g id="shape92-322" transform="translate(594,-639)">
+			
+			<path d="M0 1188 L0 1215.37 L-72 1215.37 L-72 1241.19" class="st10" />
+		</g>
+	</g>
+</svg>

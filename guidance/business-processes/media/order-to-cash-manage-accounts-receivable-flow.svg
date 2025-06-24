@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="40 18 716 952"    xml:space="preserve" color-interpolation-filters="sRGB" class="st14" width="1790" height="2380">
+<rect x="0" y="0" width="1790" height="2380" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#f2f2f2;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st7 {font-size:1em}
+		.st8 {marker-end:url(#mrkr13-25);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st10 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#0078d4;font-family:Calibri;font-size:0.833336em;font-weight:bold}
+		.st12 {fill:#ffffff}
+		.st13 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-25" class="st9" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape71-1" transform="translate(171,-218.25)">
+			
+			<rect x="0" y="258.75" width="585" height="929.25" class="st1" />
+		</g>
+		<g id="shape1-3" transform="translate(47.25,-1134)">
+			
+			<desc>Start</desc>
+			<path d="M18 1188 L67.5 1188 A18 18 -180 0 0 67.5 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st2" />
+			<text x="31.01" y="1173.6" class="st3">Start</text>
+		</g>
+		<a id="a490e797-72ea-42a0-a27e-c076b2341b23" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE1NXY0MDcxJywxODI4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-6" transform="translate(40.5,-1044)">
+				
+				<desc>65 Order to cash</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="8.97" y="1160.1" class="st3">65 Order to cash</text>
+			</g>
+		</a>
+		<a id="9f6a47d1-302c-48c0-b543-ae2deccfd96e" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE3NHY0MDcxJywxODMwMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-9" transform="translate(432,-1044)">
+				
+				<desc>65.30 Manage accounts receivable</desc>
+				<rect x="0" y="1125" width="126" height="63" class="st5" />
+				<text x="4.99" y="1152.9" class="st6">65.30 Manage accounts <tspan x="37.92" dy="1.2em" class="st7">receivable</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="fb05dc97-523d-4f86-b8bb-de90c535f21f" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjg1N3Y0MDcxJywxODAwMSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-13" transform="translate(40.5,-882)">
+				
+				<desc>20 Case to resolution</desc>
+				<rect x="0" y="1125" width="99" height="63" class="st4" />
+				<text x="24.13" y="1152.9" class="st3">20 Case to <tspan x="24.68" dy="1.2em" class="st7">resolution</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape18-17" transform="translate(443.25,-234)">
+			
+			<desc>End</desc>
+			<path d="M18 1188 L67.5 1188 A18 18 -180 0 0 67.5 1152 L18 1152 A18 18 -180 1 0 18 1188 Z" class="st2" />
+			<text x="33.52" y="1173.6" class="st3">End</text>
+		</g>
+		<g id="shape19-20" transform="translate(81,-1134)">
+			
+			<path d="M9 1188 L9 1205.19" class="st8" />
+		</g>
+		<g id="shape20-26" transform="translate(139.5,-1084.5)">
+			
+			<path d="M0 1197 L282.69 1197" class="st8" />
+		</g>
+		<g id="shape40-31" transform="translate(171,-1107)">
+			
+			<desc>Business process area</desc>
+			<rect x="0" y="1147.5" width="387" height="40.5" class="st10" />
+			<text x="4" y="1170.75" class="st11">Business process area</text>
+		</g>
+		<a id="fffd3bfa-f436-4be1-b097-ef59fd2735c7" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE3NXY0MDcxJywxODMwMywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape41-34" transform="translate(297,-936)">
+				
+				<desc>65.30.010 Issue sales invoices</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="11.7" y="1152.9" class="st3">65.30.010 Issue sales <tspan x="43.35" dy="1.2em" class="st7">invoices</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="b48673ff-331a-4435-961a-b98c1ee32939" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE3N3Y0MDcxJywxODMwNCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape42-41" transform="translate(540,-936)">
+				
+				<desc>65.30.030 Issue customer credits</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="24.98" y="1152.9" class="st3">65.30.030 Issue <tspan x="22.06" dy="1.2em" class="st7">customer credits</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="06864673-bf7e-49c1-a53f-3aca1379b552" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE3OXY0MDcxJywxODMwNSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape43-48" transform="translate(423,-828)">
+				
+				<desc>65.30.050 Bill subscriptions</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="29.93" y="1152.9" class="st3">65.30.050 Bill <tspan x="30.79" dy="1.2em" class="st7">subscriptions</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="996b7c4a-15ad-42b4-94a0-2c496ad94d19" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b25DaGFydFNoYXBlQ2xpY2soZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ0NnY0MDcxJywnLTEnKQ==&amp;navigate=true&amp;details=Description">
+			<g id="shape44-55" transform="translate(423,-731.25)">
+				
+				<desc>65.30.055 Recognize revenue</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="12.67" y="1152.9" class="st3">65.30.055 Recognize <tspan x="42.94" dy="1.2em" class="st7">revenue</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="f6c00a98-8e03-4f36-a173-8fe2582c8e47" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ0N3Y0MDcxJywxODMwNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape45-62" transform="translate(243,-630)">
+				
+				<desc>65.30.100 Process customer payments</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="18.76" y="1152.9" class="st3">65.30.100 Process <tspan x="14.53" dy="1.2em" class="st7">customer payments</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="0d591749-94b3-4a95-96e7-cb145d8d538f" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ0OHY0MDcxJywxODMwNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape46-69" transform="translate(423,-630)">
+				
+				<desc>65.30.110 Process customer prepayments</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="18.76" y="1145.7" class="st3">65.30.110 Process <tspan x="39.92" dy="1.2em" class="st7">customer </tspan>
+					<tspan x="30.74" dy="1.2em" class="st7">prepayments</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="0b7535bf-1308-4140-b309-dc05f91bb7c6" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ0OXY0MDcxJywxODMwOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape47-77" transform="translate(603,-630)">
+				
+				<desc>65.30.120 Process customer refunds</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="18.76" y="1152.9" class="st3">65.30.120 Process <tspan x="19.85" dy="1.2em" class="st7">customer refunds</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="fb80cb2a-c634-4522-9a10-222f5269e270" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ1MHY0MDcxJywxODMwOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape48-84" transform="translate(423,-522)">
+				
+				<desc>65.30.130 Settle customer transactions</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="23.2" y="1145.7" class="st3">65.30.130 Settle <tspan x="39.92" dy="1.2em" class="st7">customer </tspan>
+					<tspan x="33.06" dy="1.2em" class="st7">transactions</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="75282810-6eb6-48c5-a436-0abc70dcb2b4" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ1MXY0MDcxJywxODMxMCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape49-92" transform="translate(333,-418.5)">
+				
+				<desc>65.30.200 Write off bad debt</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="15.34" y="1152.9" class="st3">65.30.200 Write off <tspan x="41.16" dy="1.2em" class="st7">bad debt</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="6b46bf38-0d5f-4404-80e0-ef43c96d10a0" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ1MnY0MDcxJywxODMxMSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape50-99" transform="translate(513,-418.5)">
+				
+				<desc>65.30.400 Monitor trade allowances</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="17.24" y="1152.9" class="st3">65.30.400 Monitor <tspan x="21.55" dy="1.2em" class="st7">trade allowances</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="ae24e68a-713f-42b1-87da-012e2c8e9b79" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ1M3Y0MDcxJywxODMxMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape51-106" transform="translate(513,-315)">
+				
+				<desc>65.30.500 Calculate sales commissions</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="14.94" y="1152.9" class="st3">65.30.500 Calculate <tspan x="18.32" dy="1.2em" class="st7">sales commissions</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="61436e9f-1333-4be1-ae41-18797b1e4f23" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM3OTQ1NHY0MDcxJywxODMxMywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape52-113" transform="translate(333,-315)">
+				
+				<desc>65.30.600 Manage bills of exchange</desc>
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188 Z" class="st12" />
+				<path d="M0 1188 L126 1188 L126 1125 L0 1125 L0 1188" class="st13" />
+				<path d="M9 1188 L9 1125" class="st13" />
+				<path d="M117 1188 L117 1125" class="st13" />
+				<text x="17.49" y="1152.9" class="st3">65.30.600 Manage <tspan x="22.55" dy="1.2em" class="st7">bills of exchange</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape53-120" transform="translate(495,-1044)">
+			
+			<path d="M0 1188 L0 1215.34 L-135 1215.34 L-135 1223.19" class="st8" />
+		</g>
+		<g id="shape54-125" transform="translate(495,-1044)">
+			
+			<path d="M0 1188 L0 1215 L108 1215 L108 1223.19" class="st8" />
+		</g>
+		<g id="shape55-130" transform="translate(603,-936)">
+			
+			<path d="M0 1188 L0 1215.34 L-117 1215.34 L-117 1223.19" class="st8" />
+		</g>
+		<g id="shape56-135" transform="translate(360,-936)">
+			
+			<path d="M0 1188 L0 1215.34 L126 1215.34 L126 1223.19" class="st8" />
+		</g>
+		<g id="shape57-140" transform="translate(477,-828)">
+			
+			<path d="M9 1188 L9 1211.94" class="st8" />
+		</g>
+		<g id="shape58-145" transform="translate(477,-731.25)">
+			
+			<path d="M9 1188 L9 1216.44" class="st8" />
+		</g>
+		<g id="shape59-150" transform="translate(486,-731.25)">
+			
+			<path d="M0 1188 L0 1205.66 L180 1205.66 L180 1216.44" class="st8" />
+		</g>
+		<g id="shape60-155" transform="translate(486,-731.25)">
+			
+			<path d="M0 1188 L0 1206 L-180 1206 L-180 1216.44" class="st8" />
+		</g>
+		<g id="shape61-160" transform="translate(306,-630)">
+			
+			<path d="M0 1188 L0 1205.66 L180 1205.66 L180 1223.19" class="st8" />
+		</g>
+		<g id="shape62-165" transform="translate(666,-630)">
+			
+			<path d="M0 1188 L0 1205.66 L-180 1205.66 L-180 1223.19" class="st8" />
+		</g>
+		<g id="shape63-170" transform="translate(477,-630)">
+			
+			<path d="M9 1188 L9 1223.19" class="st8" />
+		</g>
+		<g id="shape64-175" transform="translate(486,-522)">
+			
+			<path d="M0 1188 L0 1205.66 L-90 1205.66 L-90 1218.69" class="st8" />
+		</g>
+		<g id="shape65-180" transform="translate(459,-441)">
+			
+			<path d="M0 1179 L44.19 1179" class="st8" />
+		</g>
+		<g id="shape66-185" transform="translate(567,-418.5)">
+			
+			<path d="M9 1188 L9 1218.69" class="st8" />
+		</g>
+		<g id="shape67-190" transform="translate(513,-337.5)">
+			
+			<path d="M0 1179 L-44.19 1179" class="st8" />
+		</g>
+		<g id="shape68-195" transform="translate(396,-315)">
+			
+			<path d="M0 1188 L0 1251 L37.44 1251" class="st8" />
+		</g>
+	</g>
+</svg>

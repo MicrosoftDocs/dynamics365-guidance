@@ -40,7 +40,7 @@ Each of these stakeholders contributes with specialized expertise to the effecti
 
 The following diagram illustrates the *Manage compensation and benefits* business processes area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\hire-to-retire-manage-employee-benefits-payroll-1.svg" alt-text="Diagram of the Manage compensation and benefits business process area, illustrating how the business process areas connect." lightbox="media\hire-to-retire-manage-employee-benefits-payroll-1.svg":::
+:::image type="content" source="media\hire-to-retire-manage-employee-benefits-payroll.svg" alt-text="Diagram of the Manage compensation and benefits business process area, illustrating how the business process areas connect." lightbox="media\hire-to-retire-manage-employee-benefits-payroll.svg":::
 
 1. Start
 

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="34 18 699 559"    xml:space="preserve" color-interpolation-filters="sRGB" class="st14" width="1748" height="1398">
+<rect x="0" y="0" width="1748" height="1398" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#f2f2f2;stroke:#548bd4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st7 {font-size:1em}
+		.st8 {fill:#ffffff}
+		.st9 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {marker-end:url(#mrkr13-95);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st12 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st13 {fill:#0078d4;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-95" class="st11" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape41-1" transform="translate(234,-36)">
+			
+			<rect x="0" y="54" width="369" height="558" class="st1" />
+		</g>
+		<g id="shape1-3" transform="translate(78.75,-531)">
+			
+			<desc>Start</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st2" />
+			<text x="31.01" y="597.6" class="st3">Start</text>
+		</g>
+		<a id="d7900f39-c772-4baa-94b3-68f4f576da1a" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMHY0MDcxJywxODE2OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-6" transform="translate(72,-423)">
+				
+				<desc>55 Hire to retire</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="10.44" y="584.1" class="st3">55 Hire to retire</text>
+			</g>
+		</a>
+		<a id="ef839540-4aa4-4d94-bc6e-258fa6923834" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMXY0MDcxJywxODE3NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-9" transform="translate(72,-333)">
+				
+				<desc>55.10 Recruit and onboard talent</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="6.52" y="576.9" class="st6">55.10 Recruit and <tspan x="12.98" dy="1.2em" class="st7">onboard talent</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="0e9f9331-6d7a-4910-943d-59c8d17da56a" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA1NHY0MDcxJywxODE5MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-13" transform="translate(72,-243)">
+				
+				<desc>55.40 Manage performance and growth</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="14.62" y="569.7" class="st6">55.40 Manage <tspan x="7.31" dy="1.2em" class="st7">performance and </tspan>
+					<tspan x="31.97" dy="1.2em" class="st7">growth</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="1ed79f1c-41c6-40c9-bf35-d314273d3a20" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk0NHY0MDcxJywxODA4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-18" transform="translate(72,-153)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="4.26" y="584.1" class="st3">40 Design to retire</text>
+			</g>
+		</a>
+		<a id="6265bc5e-8b9f-4fd5-b75b-592177d724bf" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNjk1NnY0MDcxJywxODA5MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-21" transform="translate(72,-63)">
+				
+				<desc>40.20 Introduce products</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="10.71" y="576.9" class="st6">40.20 Introduce <tspan x="27.89" dy="1.2em" class="st7">products</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="36732f69-3bbb-4488-8741-43a63072ec31" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAzOHY0MDcxJywxODE4NCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape7-25" transform="translate(369,-517.5)">
+				
+				<desc>55.30 Manage workplace compliance</desc>
+				<rect x="0" y="549" width="126" height="63" class="st5" />
+				<text x="28.12" y="576.9" class="st6">55.30 Manage <tspan x="8.5" dy="1.2em" class="st7">workplace compliance</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="132f8d62-1aaa-4b97-bdf7-c125b6db0abe" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAzOXY0MDcxJywxODE4NSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-29" transform="translate(263.25,-423)">
+				
+				<desc>55.30.010 Identify workplace hazards</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="18.59" y="576.9" class="st3">55.30.010 Identify <tspan x="17.58" dy="1.2em" class="st7">workplace hazards</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="e952b0ae-d617-4e5e-9487-f33e11266634" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA0OHY0MDcxJywxODE4OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape9-36" transform="translate(441,-423)">
+				
+				<desc>55.30.100 Report an injury or illness</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="13.28" y="576.9" class="st3">55.30.100 Report an <tspan x="26.14" dy="1.2em" class="st7">injury or illness</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="246f09ab-f25a-4d3c-9558-86b259f119de" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA0MHY0MDcxJywxODE4NiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape10-43" transform="translate(263.25,-333)">
+				
+				<desc>55.30.020 Document safety protocols</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="11.84" y="576.9" class="st3">55.30.020 Document <tspan x="23.87" dy="1.2em" class="st7">safety protocols</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="f91ec5bc-ffd4-4372-8203-bb8c0e10f416" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM4MDkwM3Y0MDcxJywxODE4OSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape11-50" transform="translate(441,-333)">
+				
+				<desc>55.30.200 Verify employment</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="22.92" y="576.9" class="st3">55.30.200 Verify <tspan x="31.87" dy="1.2em" class="st7">employment</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="2352ec3c-0218-4807-9d01-0bd89be7d95b" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA0MXY0MDcxJywxODE4NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape12-57" transform="translate(263.25,-243)">
+				
+				<desc>55.30.030 Audit workplace for safety</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="24.16" y="576.9" class="st3">55.30.030 Audit <tspan x="13.24" dy="1.2em" class="st7">workplace for safety</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="7e00ca3f-0aaf-4c34-98e7-cadf9b13c080" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM4MDkwNHY0MDcxJywxODE5MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape13-64" transform="translate(441,-243)">
+				
+				<desc>55.30.300 Update worker information</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="19.3" y="576.9" class="st3">55.30.300 Update <tspan x="15.31" dy="1.2em" class="st7">worker information</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="9f40569b-35d7-4bc4-8444-b61bb189e5c7" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM4MDkwNXY0MDcxJywxODE5MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape15-71" transform="translate(441,-153)">
+				
+				<desc>55.30.400 Manage cases and requests</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="17.49" y="576.9" class="st3">55.30.400 Manage <tspan x="16.95" dy="1.2em" class="st7">cases and requests</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="7e9f2127-0a3d-4fb8-95a0-e11908e43685" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQxMnY0MDcxJywxODQ2MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape17-78" transform="translate(634.5,-243)">
+				
+				<desc>90 Record to report</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="18.34" y="576.9" class="st3">90 Record to <tspan x="34" dy="1.2em" class="st7">report</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="ed05e222-5669-4524-9706-3366e9d5569d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQ1OXY0MDcxJywxODQ4OSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape18-82" transform="translate(634.5,-153)">
+				
+				<desc>90.50 Record financial transactions</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="17.28" y="569.7" class="st6">90.50 Record <tspan x="28.95" dy="1.2em" class="st7">financial </tspan>
+					<tspan x="19.56" dy="1.2em" class="st7">transactions</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape19-87" transform="translate(641.25,-76.5)">
+			
+			<desc>End</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st2" />
+			<text x="33.52" y="597.6" class="st3">End</text>
+		</g>
+		<g id="shape20-90" transform="translate(84.375,-549)">
+			
+			<path d="M-5.62 612 L-30.03 612 L-30.03 706.5 L-22.19 706.5" class="st10" />
+		</g>
+		<g id="shape21-96" transform="translate(84.375,-549)">
+			
+			<path d="M-5.62 612 L-30.03 612 L-30.03 976.5 L-22.19 976.5" class="st10" />
+		</g>
+		<g id="shape22-101" transform="translate(112.5,-423)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape23-106" transform="translate(112.5,-333)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape24-111" transform="translate(112.5,-153)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape25-116" transform="translate(171,-94.5)">
+			
+			<path d="M0 612 L17.66 612 L17.66 342 L82.44 342" class="st10" />
+		</g>
+		<g id="shape26-121" transform="translate(171,-274.5)">
+			
+			<path d="M0 612 L17.66 612 L17.66 522 L82.44 522" class="st10" />
+		</g>
+		<g id="shape27-126" transform="translate(171,-364.5)">
+			
+			<path d="M0 612 L8.66 612 L8.66 427.5 L188.19 427.5" class="st10" />
+		</g>
+		<g id="shape28-131" transform="translate(432,-517.5)">
+			
+			<path d="M0 612 L0 629.66 L-105.75 629.66 L-105.75 633.69" class="st10" />
+		</g>
+		<g id="shape29-136" transform="translate(432,-517.5)">
+			
+			<path d="M0 612 L0 629.66 L72 629.66 L72 633.69" class="st10" />
+		</g>
+		<g id="shape30-141" transform="translate(317.25,-423)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape31-146" transform="translate(317.25,-333)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape33-151" transform="translate(326.25,-243)">
+			
+			<path d="M0 612 L0 760.5 L305.19 760.5" class="st10" />
+		</g>
+		<g id="shape34-156" transform="translate(495,-423)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape35-161" transform="translate(495,-333)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape36-166" transform="translate(495,-243)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape37-171" transform="translate(504,-153)">
+			
+			<path d="M0 612 L0 670.5 L127.44 670.5" class="st10" />
+		</g>
+		<g id="shape38-176" transform="translate(567,-265.5)">
+			
+			<path d="M0 603 L57.69 603" class="st10" />
+		</g>
+		<g id="shape39-181" transform="translate(675,-243)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape40-186" transform="translate(675,-153)">
+			
+			<path d="M9 612 L9 642.69" class="st10" />
+		</g>
+		<g id="shape43-191" transform="translate(234,-567)">
+			
+			<desc>Business process area</desc>
+			<rect x="0" y="585" width="198" height="27" class="st12" />
+			<text x="4" y="602.1" class="st13">Business process area</text>
+		</g>
+	</g>
+</svg>
