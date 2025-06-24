@@ -60,11 +60,11 @@ Many people across the organization should contribute to the decision-making pro
 
 These stakeholders have specialized roles in the context of workplace compliance* processes and are integral to the successful implementation of a system that supports safety management within an organization. Their collective efforts ensure a safer, healthier work environment and help the organization meet its safety and compliance objectives.
 
-## Manage workplace compliance process flow 
+## Manage workplace compliance process flow
 
 The following diagram illustrates the *Manage workplace compliance* business process area.
 
-:::image type="content" source="media/hire-to-retire-manage-health-safety-flow.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/hire-to-retire-manage-health-safety-flow.svg":::
+:::image type="content" source="media/hire-to-retire-manage-workspace-compliance-flow.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/hire-to-retire-manage-workspace-compliance-flow.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 

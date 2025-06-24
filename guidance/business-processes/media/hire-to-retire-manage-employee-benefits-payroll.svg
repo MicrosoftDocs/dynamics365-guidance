@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="43 22 724 576"    xml:space="preserve" color-interpolation-filters="sRGB" class="st14" width="1810" height="1440">
+<rect x="0" y="0" width="1810" height="1440" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#f2f2f2;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st7 {font-size:1em}
+		.st8 {fill:#ffffff}
+		.st9 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {marker-end:url(#mrkr13-96);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st12 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st13 {fill:#0078d4;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-96" class="st11" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape46-1" transform="translate(225,-63)">
+			
+			<rect x="0" y="99" width="351" height="513" class="st1" />
+		</g>
+		<g id="shape1-3" transform="translate(49.5,-553.5)">
+			
+			<desc>Start</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st2" />
+			<text x="31.01" y="597.6" class="st3">Start</text>
+		</g>
+		<a id="6b86090c-e801-4481-9836-53a212f12054" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMHY0MDcxJywxODE2OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-6" transform="translate(42.75,-463.5)">
+				
+				<desc>55 Hire to retire</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="10.44" y="584.1" class="st3">55 Hire to retire</text>
+			</g>
+		</a>
+		<a id="5fa803a4-1b85-4224-9932-c484ad8c4a89" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA2OHY0MDcxJywxODIwMywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-9" transform="translate(42.75,-283.5)">
+				
+				<desc>55.50 Manage time and attendance</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="2.1" y="576.9" class="st6">55.50 Manage time <tspan x="11.23" dy="1.2em" class="st7">and attendance</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="97a0aa5f-2ccc-416c-9caf-2d635fdf38e8" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzE1NXY0MDcxJywxODI4MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-13" transform="translate(42.75,-103.5)">
+				
+				<desc>65 Order to cash</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="8.97" y="584.1" class="st3">65 Order to cash</text>
+			</g>
+		</a>
+		<a id="d84db0db-fa9d-4a90-9737-e734068db263" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMHY0MDcxJywxODMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape7-16" transform="translate(42.75,-13.5)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="3.44" y="584.1" class="st3">70 Plan to produce</text>
+			</g>
+		</a>
+		<a id="10c28f73-9be5-48db-b061-3707c0b71e75" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA4NHY0MDcxJywxODIxMSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-19" transform="translate(342,-463.5)">
+				
+				<desc>55.70 Manage compensation and benefits</desc>
+				<rect x="0" y="549" width="126" height="63" class="st5" />
+				<text x="28.12" y="569.7" class="st6">55.70 Manage <tspan x="17.76" dy="1.2em" class="st7">compensation and </tspan>
+					<tspan x="43.16" dy="1.2em" class="st7">benefits</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="780263b7-117d-4e74-a49c-94c72a6839bb" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA4NXY0MDcxJywxODIxMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape9-24" transform="translate(240.75,-373.5)">
+				
+				<desc>55.70.010 Define compensation policies</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="21.3" y="569.7" class="st3">55.70.010 Define <tspan x="28.29" dy="1.2em" class="st7">compensation </tspan>
+					<tspan x="44.68" dy="1.2em" class="st7">policies</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="72adfd28-2251-4699-9d22-a9e92bbbb303" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA4NnY0MDcxJywxODIxMywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape10-32" transform="translate(423,-373.5)">
+				
+				<desc>55.70.020 Define benefit offerings</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="21.3" y="576.9" class="st3">55.70.020 Define <tspan x="22.55" dy="1.2em" class="st7">benefit offerings</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="bcda8fa2-9f1b-4eec-8a66-fe0ee23ebff1" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxMDMzNTZ2NDA3MScsMTgyMTUsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape11-39" transform="translate(240.75,-283.5)">
+				
+				<desc>50.70.045 Reimburse workers for expenses</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="11.19" y="569.7" class="st3">50.70.045 Reimburse <tspan x="34.86" dy="1.2em" class="st7">workers for </tspan>
+					<tspan x="40.45" dy="1.2em" class="st7">expenses</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="a721b032-19fb-4c8e-a88f-af57103b3dc7" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA4OHY0MDcxJywxODIxNCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape12-47" transform="translate(423,-283.5)">
+				
+				<desc>55.70.040 Manage benefits enrollment</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="17.49" y="576.9" class="st3">55.70.040 Manage <tspan x="14.72" dy="1.2em" class="st7">benefits enrollment</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="07e9ccd1-345f-4d8e-aa19-6d2841ba81d5" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA4OXY0MDcxJywxODIxNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape13-54" transform="translate(240.75,-193.5)">
+				
+				<desc>55.70.050 Pay employees</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="28.64" y="576.9" class="st3">55.70.050 Pay <tspan x="36.49" dy="1.2em" class="st7">employees</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="6b7fb9ff-77c5-4c60-8139-c77b747d291d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA5MHY0MDcxJywxODIxNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape14-61" transform="translate(423,-193.5)">
+				
+				<desc>55.70.060 Record life events</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="11.21" y="576.9" class="st3">55.70.060 Record life <tspan x="46.81" dy="1.2em" class="st7">events</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="326ecab1-118c-411c-b43b-ac994c026b8b" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAzOHY0MDcxJywxODE4NCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape16-68" transform="translate(630,-333)">
+				
+				<desc>55.30 Manage workplace compliance</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="14.62" y="569.7" class="st6">55.30 Manage <tspan x="24.3" dy="1.2em" class="st7">workplace </tspan>
+					<tspan x="21.55" dy="1.2em" class="st7">compliance</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="5acb1467-79f8-4695-89e6-c166372be23f" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI2OXY0MDcxJywxODM2MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape17-73" transform="translate(630,-238.5)">
+				
+				<desc>75 Source to pay</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="8.74" y="584.1" class="st3">75 Source to pay</text>
+			</g>
+		</a>
+		<a id="b400db73-7adc-4f6d-ad18-25a9edc30641" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzQxMnY0MDcxJywxODQ2MSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape18-76" transform="translate(630,-144)">
+				
+				<desc>90 Record to report</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="18.34" y="576.9" class="st3">90 Record to <tspan x="34" dy="1.2em" class="st7">report</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape19-80" transform="translate(636.75,-40.5)">
+			
+			<desc>End</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st2" />
+			<text x="33.52" y="597.6" class="st3">End</text>
+		</g>
+		<a id="4e100533-5162-4ae5-a36e-1b3d7dea7db2" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzA5MXY0MDcxJywxODIxOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape20-83" transform="translate(240.75,-103.5)">
+				
+				<desc>55.70.070 Manage compensation changes</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st8" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st9" />
+				<path d="M9 612 L9 549" class="st9" />
+				<path d="M117 612 L117 549" class="st9" />
+				<text x="17.49" y="569.7" class="st3">55.70.070 Manage <tspan x="28.29" dy="1.2em" class="st7">compensation </tspan>
+					<tspan x="43.13" dy="1.2em" class="st7">changes</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape21-91" transform="translate(83.25,-553.5)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape22-97" transform="translate(83.25,-463.5)">
+			
+			<path d="M9 612 L9 719.19" class="st10" />
+		</g>
+		<g id="shape25-102" transform="translate(141.75,-315)">
+			
+			<path d="M0 612 L17.66 612 L17.66 432 L190.44 432" class="st10" />
+		</g>
+		<g id="shape26-107" transform="translate(141.75,-135)">
+			
+			<path d="M0 612 L56.25 612 L56.25 342 L89.19 342" class="st10" />
+		</g>
+		<g id="shape27-112" transform="translate(141.75,-45)">
+			
+			<path d="M0 612 L56.25 612 L56.25 252 L89.19 252" class="st10" />
+		</g>
+		<g id="shape28-117" transform="translate(405,-463.5)">
+			
+			<path d="M0 612 L0 620.83 L-101.25 620.83 L-101.25 629.19" class="st10" />
+		</g>
+		<g id="shape29-122" transform="translate(405,-463.5)">
+			
+			<path d="M0 612 L0 620.83 L81 620.83 L81 629.19" class="st10" />
+		</g>
+		<g id="shape30-127" transform="translate(294.75,-373.5)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape31-132" transform="translate(294.75,-283.5)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape32-137" transform="translate(294.75,-193.5)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape35-142" transform="translate(477,-373.5)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape36-147" transform="translate(477,-283.5)">
+			
+			<path d="M9 612 L9 629.19" class="st10" />
+		</g>
+		<g id="shape37-152" transform="translate(486,-193.5)">
+			
+			<path d="M0 612 L0 620.83 L-182.25 620.83 L-182.25 629.19" class="st10" />
+		</g>
+		<g id="shape38-157" transform="translate(303.75,-103.5)">
+			
+			<path d="M0 612 L0 657 L323.19 657" class="st10" />
+		</g>
+		<g id="shape40-162" transform="translate(549,-315)">
+			
+			<path d="M0 612 L17.66 612 L17.66 562.5 L71.19 562.5" class="st10" />
+		</g>
+		<g id="shape41-167" transform="translate(549,-315)">
+			
+			<path d="M0 612 L17.66 612 L17.66 657 L71.19 657" class="st10" />
+		</g>
+		<g id="shape42-172" transform="translate(549,-315)">
+			
+			<path d="M0 612 L17.66 612 L17.66 751.5 L71.19 751.5" class="st10" />
+		</g>
+		<g id="shape43-177" transform="translate(734.625,-364.5)">
+			
+			<path d="M-5.62 612 L12.03 612 L12.03 918 L-2.57 918" class="st10" />
+		</g>
+		<g id="shape44-182" transform="translate(734.625,-270)">
+			
+			<path d="M-5.62 612 L12.03 612 L12.03 823.5 L-2.57 823.5" class="st10" />
+		</g>
+		<g id="shape45-187" transform="translate(734.625,-175.5)">
+			
+			<path d="M-5.62 612 L12.03 612 L12.03 729 L-2.57 729" class="st10" />
+		</g>
+		<g id="shape47-192" transform="translate(225,-540)">
+			
+			<desc>Business process area</desc>
+			<rect x="0" y="576" width="261" height="36" class="st12" />
+			<text x="4" y="597.6" class="st13">Business process area</text>
+		</g>
+		<g id="shape48-195" transform="translate(423,-306)">
+			
+			<path d="M0 603 L-46.44 603" class="st10" />
+		</g>
+	</g>
+</svg>
