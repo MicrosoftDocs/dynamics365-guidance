@@ -47,11 +47,11 @@ You can [install Playwright natively](https://playwright.dev/docs/intro) using *
 
 ## Get a test environment
 
-Next, you need a Dynamics 365 Customer Service environment that you can run tests in. If you're finalizing an implementation project, you probably have a test environment already. If you don't, you can get a [free 30-day trial](/dynamics365/customer-service/try-customer-service) of Dynamics 365 Customer Service.
+Next, you need a Dynamics 365 Customer Service environment that you can run tests in. If you're finalizing an implementation project, you probably have a test environment already. If you don't, you can get a [free 30-day trial](https://learn.microsoft.com/dynamics365/customer-service/implement/try-customer-service) of Dynamics 365 Customer Service.
 
 ## Configure the test environment
 
-1. [Turn off security defaults](/azure/active-directory/fundamentals/security-defaults) for automated testing.
+1. [Turn off security defaults](https://learn.microsoft.com/entra/fundamentals/security-defaults) for automated testing.
 
     > [!CAUTION]
     > The security defaults are on by default. This sample is a simple one that doesn't include the more appropriate configuration that supports the security defaults.
@@ -65,7 +65,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample automation proje
 
 1. Download or clone the sample automation project from the repository at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/Customer%20Service/Testing](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing).
 
-  The project is in the [/Automation/Samples/automation](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Samples/automation) subfolder.
+  The project is in the [/Automation/Playwright/Samples/automation](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Playwright/Samples/automation) subfolder.
 
 1. Extract the project folder, and then open the project in VS Code.
 
@@ -79,7 +79,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample automation proje
   CASE\_NUMBER='Existing case number' 
  ```
 
-The test sample project has [end-to-end tests](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Samples/automation/tests-e2e) for the case to resolution business process. It covers the following process areas:
+The test sample project has [end-to-end tests](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Playwright/Samples/automation/tests-e2e) for the case to resolution business process. It covers the following process areas:
 
 - [Create a case](../business-processes/case-to-resolution-areas.md#create-a-case)
 - [Work on a case](../business-processes/case-to-resolution-areas.md#work-on-a-case)
@@ -116,7 +116,7 @@ A checkmark next to a file in the Test Explorer indicates the test ran successfu
 
 - [Playwright with Visual Studio Code](https://playwright.dev/docs/getting-started-vscode)
 
-- [Sample scripts from Microsoft](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Samples/automation)
+- [Sample scripts from Microsoft](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation)
 
 - [Implementation guide: Testing strategy](../implementation-guide/testing-strategy.md)
 
