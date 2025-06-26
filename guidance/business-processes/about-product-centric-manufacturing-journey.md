@@ -1,10 +1,9 @@
 ---
-title: Product-centric manufacturing journey
-description: Describe product-centric manufacturing organizations, key challenges they face, and describe the basic journey of end-to-end business processes that support these organizations and how Dynamics 365 supports this journey.
+title: Product-Centric Manufacturing Journey
+description: This article describes product-centric manufacturing organizations, key challenges they face, and the basic journey of end-to-end business processes that support these organizations and how Dynamics 365 supports this journey.
 author: rachelprofitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.collection: #Required, don't remove the attribute, but leave the value blank.
 ms.date: 06/26/2025
 ---
 
