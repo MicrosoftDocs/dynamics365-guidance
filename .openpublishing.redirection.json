@@ -149,7 +149,13 @@
       "source_path": "guidance/business-processes/report-to-record-define-financial-structure-organizational-accounting-policies.md",
       "redirect_url": "/dynamics365/guidance/business-processes/record-to-report-define-accounting-policies",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/business-processes/about-industry-manufacturing.md",
+      "redirect_url": "/dynamics365/guidance/business-processes/about-product-centric-manufacturing-journey",
+      "redirect_document_id": false
     }
+
 
   ]
 }
