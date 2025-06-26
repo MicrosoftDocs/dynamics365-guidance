@@ -1,7 +1,7 @@
 ---
 title: Overview of the Record to report business process areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 05/26/2025
+ms.date: 06/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kgiardini
@@ -9,13 +9,15 @@ ms.author: kgiardini
 
 # Overview of the Record to report business process areas
 
-***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 The *record to report* process is broken down into many business process areas. The following sections describe the business process areas.
 
 ## Define accounting policies
 
-This business process area involves setting up the organization structure, creating and maintaining companies, and defining the chart of accounts. In Dynamics 365 Finance, legal entities are a core configuration to use any functionality. The organizational hierarchy supports flexible and date-effective configuration to match your business needs. The configuration is used throughout Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations. The chart of account is flexible and supports shared or unique charts for each ledger. This way, you gain the flexibility to meet the unique requirements of your organization across the globe.
+This business process area involves setting up the organization structure, creating and maintaining companies, and defining the chart of accounts. In Dynamics 365 Finance, legal entities are a core configuration to use any functionality. The organizational hierarchy supports flexible and date-effective configuration to match your business needs. The configuration is used throughout Finance, Supply Chain Management, Commerce, Human Resources, and Project Operations. In Dynamics 365 Business Central, the Financial Reports feature gives you insight into the financial data stored in your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries.  
+
+The chart of account is flexible and supports shared or unique charts for each ledger. This way, you gain the flexibility to meet the unique requirements of your organization across the globe.
 
 As part of the structure and configuration there's also the need to manage currencies, exchange rates, and exchange rate providers to support financial transactions and reporting. Dynamics 365 Finance includes APIs to easily import exchange rates from OANDA or another provider. With the ability to track transactions in any currency and convert them to any other currency for the ledger and a second currency for reporting in real-time. Balances throughout the system can be updated automatically using quick and easy to use tools in multiple currencies.
 
@@ -40,6 +42,8 @@ In addition to the robust budgeting capabilities of Finance, there are also budg
 - *Position forecasting* in Dynamics 365 Human Resources to budget headcount and related expenses.
 
 - *Fixed asset budgeting* in Dynamics 365 Finance to help you manage your fixed assets costs, including estimated depreciation expenses.
+
+- *Cost budgets* and *G/L budgets* in Dynamics 365 Business Central help you understand the costs of running a business.  
 
 - *Project budgeting* in Dynamics 365 Project Operations to help you plan project costs, monitor and control actuals at a project level, and more.
 

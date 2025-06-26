@@ -1,20 +1,20 @@
 ---
-title: Understand concepts in the Dynamics 365 business process guide
+title: Concepts in the Dynamics 365 business process guide
 description: Learn how we how to understand where to find the different pages in the Dynamics 365 apps when you go through the business process content.
 author: edupont04
 ms.author: raprofit
 ms.reviewer: edupont
 ms.topic: concept-article
 ms.collection: get-started #Required; don't change.
-ms.date: 02/04/2025
+ms.date: 06/25/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Understand concepts and terminology used in the Dynamics 365 business process guide
+# Concepts and terminology used in the Dynamics 365 business process guide
 
 This article describes terminology, concepts, and abbreviations that are used throughout the [Dynamics 365 business process guide](overview.md).
 
-Each business process article includes one or more tables with the steps required to configure and operate Dynamics 365. The following table is an excerpt from the table for the [Set customer credit limits](order-to-cash-monitor-customer-credit-collections-set-customer-credit-limits.md#basic-credit-limit-checking) business process.  
+Each business process article includes one or more tables with the steps required to configure and operate Dynamics 365. The following table is an excerpt from a now deprecated article for a deprecated business process But it still serves as a good example.  
 
 [!INCLUDE [daf-busprocess-example](~/../shared-content/shared/guidance-includes/daf-busprocess-example.md)]
 

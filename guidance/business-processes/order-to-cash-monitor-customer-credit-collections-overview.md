@@ -1,7 +1,7 @@
 ---
 title: Manage credit and collections
 description: Learn how to use Dynamics 365 products to monitor customer credit and collections and reduce bad debt.
-ms.date: 11/17/2023
+ms.date: 06/25/2025
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
@@ -11,14 +11,14 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Manage credit and collections business process area
+# Overview of the Manage credit and collections business process area
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Project Operations, Dynamics 365 Finance Insights, Dynamics 365 Fraud Protection, Dynamics 365 Customer Insights***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for monitoring customer credit and collections.
 
 > [!IMPORTANT]
-> In earlier versions of the business process catalog, this article represented a business process area, *Monitoring customer credit and collections*. In February 2025, it was renamed to the *Manage credit and collections*, and we're in process of updating the content to reflect this change.
+> In earlier versions of the business process catalog, this article represented a business process area, *Monitoring customer credit and collections*. In February 2025, it was renamed to *Manage credit and collections*, and we're in process of updating the content to reflect this change.
 
 ## Introduction to Manage credit and collections
 
@@ -26,8 +26,8 @@ In many organizations, not least organizations with a business-to-business sales
 
 The process for managing credit and collections often splits into two main focuses in a Dynamics 365 project:
 
-1. The configuration of master data for your customers, and the establishment of the credit limits, payment terms, and so on.  
-2. The monitoring of orders and invoices to ensure that customers remain within the credit limits and rules that you established to ensure that you can reduce the risk for fraudulent orders and accounts.  
+- The configuration of master data for your customers, and the establishment of the credit limits, payment terms, and so on.  
+- The monitoring of orders and invoices to ensure that customers remain within the credit limits and rules that you established to ensure that you can reduce the risk for fraudulent orders and accounts.  
 
 ## Using Dynamics 365 to manage credit and collections
 
@@ -55,13 +55,21 @@ The following diagram shows the high-level flow of the *Manage credit and collec
 
 :::image type="content" source="media/order-to-cash-monitor-customer-credit-collections-process-flow.svg" alt-text="Monitor customer credit and collections process flow." lightbox="media/order-to-cash-monitor-customer-credit-collections-process-flow.svg":::
 
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)] The following text doesn't fully reflect the updated diagram yet.
+
 The *Manage credit and collections* business process area flow diagram covers the following steps.
 
 1. [Order to cash](order-to-cash-overview.md)
 
-2. *Monitor customer credit and collection*
+1. *Monitor customer credit and collection*
 
-    1. *Set customer credit limits*
+    1. *Assess customer credit risk*
+    1. *Manage customer account holds*
+    1. *Monitor customer credit*
+    1. *Collect interest*
+    1. *Manage customer*
+
+    <!-- 1. *Set customer credit limits*
 
         a. *Update customer credit limits*
 
@@ -108,7 +116,7 @@ The *Manage credit and collections* business process area flow diagram covers th
 
         a. *Create and process collection letters*
 
-        b. *Create and process interest notes*
+        b. *Create and process interest notes* -->
 
 > [!NOTE]
 > The *Manage credit and collections* business process area flow diagram is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.

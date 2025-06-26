@@ -1,7 +1,7 @@
 ---
 title: Overview of the Plan to produce business process areas
 description: Get an overview for each of the business process areas in the Plan to produce end-to-end business process flow in Dynamics 365 solutions. Learn how you can define, plan, run, control, and track production operations with Dynamics 365.
-ms.date: 05/23/2025
+ms.date: 06/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
@@ -13,13 +13,6 @@ ms.reviewer: edupont
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Dynamics 365 Business Central, Power Apps, Power BI, Power Automate***
 
 The plan to produce process is broken down into business process areas for defining production strategies, planning production operations, executing production operations, outsourcing production operations, controlling production quality, and tracking production costs. The following sections further describe the business process areas.
-
-70.10 Develop production strategies                    Published
-70.20 Plan production operations                    Published
-70.30 Run production operations                    Published
-70.60 Control production quality                    Published
-70.70 Analyze production operations                    Published
-
 
 ## Develop production strategies
 

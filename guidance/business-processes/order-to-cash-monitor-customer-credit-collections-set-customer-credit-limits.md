@@ -1,7 +1,7 @@
 ---
-title: Manage customer account credit limits in Dynamics 365 Finance
-description: Set up customer credit limits in Finance, Customer Insights, Supply Chain Management, or Commerce to control borrowing and reduce risk.
-ms.date: 02/06/2023
+title: DEPRECATED Manage customer account credit limits
+description: Article for the deprecated business process Set up customer credit limits in Finance, Customer Insights, Supply Chain Management, or Commerce to control borrowing and reduce risk.
+ms.date: 06/25/2025
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
@@ -9,11 +9,13 @@ ms.reviewer: edupont
 ms.custom:
   - ai-gen-docs
   - ai-gen-desc
+ROBOTS: NOINDEX
 ---
 
-# Manage customer account credit limits in Dynamics 365 Finance and Dynamics 365 Customer Insights
+# Overview of the deprecated business process for Manage customer account credit limits
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Customer Insights, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce***
+The business process that this article documented is deprecated.
+<!-- ***Applies to: Dynamics 365 Finance, Dynamics 365 Customer Insights, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce***
 
 This article describes the setup, configuration, and design considerations for managing customer account credit limits in Dynamics 365 Finance and Dynamics 365 Customer Insights.
 
@@ -78,11 +80,11 @@ The process flow diagram includes the following steps.
 
 15. End
 
-Steps 3-9 are in one swim lane that's dedicated to an Accounts receivable clerk or Accounts receivable manager.
+Steps 3-9 are in one swim lane that's dedicated to an *Accounts receivable clerk* or *Accounts receivable manager*.
 
-Steps 10-14 are in another swim lane that's dedicated to an Accounts receivable manager or Accounting manager.
+Steps 10-14 are in another swim lane that's dedicated to an *Accounts receivable manager* or *Accounting manager*.
 
-## Implementing credit limits for customer accounts
+## Implement credit limits for customer accounts
 
 You can define rules in Dynamics 365 Finance to automatically place orders on hold when the criteria are met. When an order is on a credit hold, the order cannot be processed further until the order is released from the hold. Dynamics 365 includes multiple ways to put an order on hold. The following tables and sections describe the various configurations and operational processes that are part of setting customer credit limits in Dynamics 365 applications.  
 
@@ -227,7 +229,7 @@ Use the following resources to learn more about the processes for setting custom
 
 Principal author:
 
-- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365  
+- [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365   -->
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Accounts receivable lead, Finance lead, Sales lead, Operations lead

@@ -1,14 +1,14 @@
 ﻿---
 title: Manage accounts receivable
 description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing sales orders.
-ms.date: 05/23/2025
-ms.topic: overview
+ms.date: 06/25/2025
+ms.topic: concept-article
 author: edupont04
 ms.author: npaldhikar
 ms.custom: bap-template
 ---
 
-# Manage accounts receivable business process area
+# Overview of the Manage accounts receivable business process area
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Finance Insights, Dynamics 365 Customer Insights***
 
@@ -40,7 +40,7 @@ Many people in an organization contribute to the design of the invoice customers
 
 - **Sales stakeholders** like the VP of sales, sales directors, and general managers  
 
-## Invoice sales orders process flow
+## Manage accounts receivable process flow
 
 The following diagram illustrates the flow of the invoice customers business process area in an organization.
 
@@ -48,14 +48,29 @@ The following diagram illustrates the flow of the invoice customers business pro
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)] The following text doesn't fully reflect the updated diagram yet.
+
 The invoice customers business process area flow diagram illustrates the following steps:
 
 1. Start
 
-1. Order to cash end-to-end process
+1. *Order to cash* end-to-end process
 
-1. Invoice customers
+1. *Manage accounts receivable*
 
+    1. *Issue sales invoices*  
+    1. *Issue customer credits*  
+    1. *Bill subscriptions*  
+    1. *Recognize revenue*  
+    1. *Process customer payments*  
+    1. *Process customer prepayments*  
+    1. *Process customer refunds*  
+    1. *Settle customer transactions*  
+    1. *Write off bad debt*  
+    1. *Monitor trade allowances*  
+    1. *Calculate sales commissions*  
+    1. *Manage bills of exchange*
+<!-- 
 1. Is it a sales order invoice?
 
    - A parallel branch for Yes leads to Create invoice for sales orders.
@@ -85,7 +100,7 @@ The invoice customers business process area flow diagram illustrates the followi
 
    - Post Invoice and recognize revenue
 
-1. End
+1. End -->
 
 ## Benefits
 

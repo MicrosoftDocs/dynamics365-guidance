@@ -683,18 +683,20 @@ items:
                 href: business-processes/process-maturity-introduction.md
               - name: Standardize business processes during an implementation
                 href: business-processes/standardize-business-processes.md
+              - name: Business processes and a product-centric manufacturing journey
+                href: business-processes/about-product-centric-manufacturing-journey.md
               - name: Import the catalog to Azure DevOps
-                href: business-processes/about-import-catalog-devops.md
-              - name: End-to-end, process area, process, and scenario work item types
-                href: business-processes/about-import-catalog-devops-process-work-item-types.md
-              - name: Configuration deliverable work item type
-                href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
-              - name: Workshop work item type
-                href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+                items:
+                  - name: Import the catalog to Azure DevOps overview
+                    href: business-processes/about-import-catalog-devops.md
+                  - name: End-to-end, process area, process, and scenario work item types
+                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
+                  - name: Configuration deliverable work item type
+                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
+                  - name: Workshop work item type
+                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
               - name: Import the catalog to Mavim
                 href: business-processes/about-import-catalog-mavim.md
-              - name: Business processes for the manufacturing industry
-                href: business-processes/about-industry-manufacturing.md
           - name: Acquire to dispose
             items:
               - name: End-to-end scenario - acquire to dispose (ID 10)
