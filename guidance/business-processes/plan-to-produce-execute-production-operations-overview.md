@@ -41,8 +41,25 @@ The following diagram shows the high-level flow of the *run production operation
 
 :::image type="content" source="media/execute-production-operations-flow.svg" alt-text="Execute production operations process flow" lightbox="media/execute-production-operations-flow.svg":::
 
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 The following steps are illustrated in the *run production operations* business process flow diagram.
 
+1. *Plan to produce* end-to-end process
+2. *Plan production operations*
+3. *Run production operations*
+   1. *Start production*
+   2. *Adjust production plan*
+   3. *Consume materials*
+   4. *Consume resources*
+   5. *Report production output*
+   6. *Subcontract production*
+   7. *Record production costs*
+
+> [!NOTE]
+> The *Run production operations* business process area flow diagram is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.
+
+<!--
 1. Start
 
     1. A parallel branch from **Start** includes *Inventory to deliver*
@@ -86,6 +103,7 @@ The following steps are illustrated in the *run production operations* business 
     3. Put away finished goods or sub-assembly inventory
 
 10. End
+-->
 
 ## Benefits
 
@@ -114,8 +132,15 @@ If you want to implement Dynamics 365 solutions to assist with your *plan to pr
 3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
 
 4. *Run production operations* (the article that you're currently reading)
+   1. *Start production*
+   2. *Adjust production plan*
+   3. *Consume materials*
+   4. *Consume resources*
+   5. *Report production output*
+   6. *Subcontract production*
+   7. *Record production costs*
 
-5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
+5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)
 
 6. [Control production quality](plan-to-produce-control-production-quality-overview.md)  
 

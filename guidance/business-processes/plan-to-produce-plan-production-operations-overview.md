@@ -28,14 +28,27 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Warehouse stakeholders**, such as warehouse managers, describe the relationship between the production schedule and related warehouse work, such as picking and put-away of finished goods.  
 
-## Plan production operations process flow 
+## Plan production operations process flow
 
 The following diagram illustrates the plan production operations business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-plan-production-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraph after the image." lightbox="media/plan-to-produce-plan-production-flow.svg":::
 
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 The flow diagram covers the following steps.
 
+1. *Plan production operations* business process area
+   1. *Modify production plan*
+   2. *Create production plan*
+   3. *Schedule production jobs*
+   4. *Release production to the shop floor*
+   5. *Estimate the cost of production*
+
+> [!NOTE]
+> The *Plan production operations* business process area flow diagram is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.
+
+<!--
 1. Start
 
     1. A parallel branch from 1. Start includes the *Plan to produce* end-to-end process.
@@ -71,6 +84,7 @@ The flow diagram covers the following steps.
     1. A parallel branch from 8. *Release production to the shop floor* includes the *Run production operations* business process area.
 
 9. End
+-->
 
 ## Plan production operations benefits
 
@@ -99,7 +113,12 @@ If you want to implement Dynamics 365 solutions to assist with your plan product
 
 2. [Define production strategies](plan-to-produce-define-production-strategies.md)
 
-3. *Plan production operations* (the article that you're currently reading)      
+3. *Plan production operations* (the article that you're currently reading)
+   1. *Modify production plan*
+   2. *Create production plan*
+   3. *Schedule production jobs*
+   4. *Release production to the shop floor*
+   5. *Estimate the cost of production*
 
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)  
 

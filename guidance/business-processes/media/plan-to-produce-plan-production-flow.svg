@@ -1,572 +1,217 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1447.5271"
-   height="1528.5886"
-   overflow="hidden"
-   version="1.1"
-   id="svg530"
-   sodipodi:docname="plan-to-produce-plan-production-flow.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs534" />
-  <sodipodi:namedview
-     id="namedview532"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.43177083"
-     inkscape:cx="640.38601"
-     inkscape:cy="434.25814"
-     inkscape:window-width="1920"
-     inkscape:window-height="1010"
-     inkscape:window-x="-6"
-     inkscape:window-y="-6"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg530" />
-  <g
-     id="g528"
-     transform="translate(-319.61398,-157.49095)">
-    <rect
-       x="319.61398"
-       y="157.49095"
-       width="1447.5271"
-       height="1528.5886"
-       fill="#ffffff"
-       id="rect376"
-       style="stroke-width:0.774742" />
-    <rect
-       x="878"
-       y="358"
-       width="535"
-       height="1319"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#d9d9d9"
-       id="rect378" />
-    <text
-       fill="#0078d4"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="700"
-       font-size="37px"
-       transform="translate(906.428,1645)"
-       id="text380">Business process area</text>
-    <path
-       d="m 326,243 c 0,-19.882 16.118,-36 36,-36 h 139 c 19.882,0 36,16.118 36,36 v 0 c 0,19.882 -16.118,36 -36,36 H 362 c -19.882,0 -36,-16.118 -36,-36 z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path382" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(406.912,252)"
-       id="text384">Start</text>
-    <rect
-       x="594"
-       y="166"
-       width="253"
-       height="154"
-       stroke="#000000"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect386" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(636.369,252)"
-       id="text388">Forecast to plan</text>
-    <rect
-       x="1012"
-       y="471"
-       width="252"
-       height="153"
-       stroke="#00569b"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect390" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1053.88,542)"
-       id="text392">Plan production</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1081.47,571)"
-       id="text394">operations</text>
-    <rect
-       x="1012"
-       y="664"
-       width="252"
-       height="154"
-       fill="#ffffff"
-       id="rect396" />
-    <path
-       d="m 1043.5,664 v 154 m 189,-154 v 154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path398" />
-    <rect
-       x="1012"
-       y="664"
-       width="252"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect400" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1100.12,721)"
-       id="text402">Modify</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1079.39,750)"
-       id="text404">production</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1114.81,779)"
-       id="text406">plan</text>
-    <path
-       d="m 1032,1472.5 c 0,-20.16 16.34,-36.5 36.5,-36.5 h 138 c 20.16,0 36.5,16.34 36.5,36.5 v 0 c 0,20.16 -16.34,36.5 -36.5,36.5 h -138 c -20.16,0 -36.5,-16.34 -36.5,-36.5 z"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#ffffff"
-       fill-rule="evenodd"
-       id="path408" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1117.73,1481)"
-       id="text410">End</text>
-    <path
-       d="m 1140,320.5 v 143.968 h -3 V 320.5 Z m 3,142.468 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path412" />
-    <path
-       d="m 847.5,242 h 157.29 v 3 H 847.5 Z m 155.79,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path414" />
-    <path
-       d="m 1140,624.5 v 32.484 h -3 V 624.5 Z m 3,30.984 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path416" />
-    <rect
-       x="1012"
-       y="166"
-       width="252"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect418" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1054.22,237)"
-       id="text420">Plan supply and</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1062.46,266)"
-       id="text422">replenishment</text>
-    <rect
-       x="1012"
-       y="858"
-       width="252"
-       height="153"
-       fill="#ffffff"
-       id="rect424" />
-    <path
-       d="m 1043.5,858 v 153 m 189,-153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path426" />
-    <rect
-       x="1012"
-       y="858"
-       width="252"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect428" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1095.33,914)"
-       id="text430">Confirm</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1079.39,943)"
-       id="text432">production</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1114.81,972)"
-       id="text434">plan</text>
-    <path
-       d="m 1140,1398.5 v 31.07 h -3 v -31.07 z m 3,29.57 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path436" />
-    <path
-       d="m 0,-1.5 h 268.408 c 0.829,0 1.5,0.671573 1.5,1.5 v 155.174 h -3 V 0 l 1.5,1.5 H 0 Z m 272.908,155.174 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       transform="matrix(0,1,1,0,432.5,279.5)"
-       id="path438" />
-    <rect
-       x="1012"
-       y="1051"
-       width="252"
-       height="153"
-       fill="#ffffff"
-       id="rect440" />
-    <path
-       d="m 1043.5,1051 v 153 m 189,-153 v 153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path442" />
-    <rect
-       x="1012"
-       y="1051"
-       width="252"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect444" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1089.65,1107)"
-       id="text446">Schedule</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1079.39,1136)"
-       id="text448">production</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1081.23,1165)"
-       id="text450">operations</text>
-    <rect
-       x="1012"
-       y="1244"
-       width="252"
-       height="154"
-       fill="#ffffff"
-       id="rect452" />
-    <path
-       d="m 1043.5,1244 v 154 m 189,-154 v 154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path454" />
-    <rect
-       x="1012"
-       y="1244"
-       width="252"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       id="rect456" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1097.98,1286)"
-       id="text458">Release</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1079.39,1315)"
-       id="text460">production</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1077.16,1344)"
-       id="text462">to the shop</text>
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1112.82,1373)"
-       id="text464">floor</text>
-    <rect
-       x="594"
-       y="702"
-       width="253"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect466" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(624.776,772)"
-       id="text468">Define production</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(669.629,801)"
-       id="text470">strategies</text>
-    <path
-       d="m 1264.5,1320 h 208.32 v 3 H 1264.5 Z m 206.82,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path472" />
-    <path
-       d="m 846.5,777 h 82.634 c 0.828,0 1.5,0.672 1.5,1.5 v 349.3 l -1.5,-1.5 h 75.136 v 3 h -75.136 c -0.829,0 -1.5,-0.67 -1.5,-1.5 V 778.5 l 1.5,1.5 H 846.5 Z m 156.27,346.3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path474" />
-    <path
-       d="M 1.49999,-0.00466136 1.71669,69.7256 -1.2833,69.7349 -1.49999,0.00466136 Z M 4.71201,68.2163 0.24,77.2302 -4.28795,68.2443 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,720.74,624.5)"
-       id="path476" />
-    <path
-       d="M 1.49999,-0.00411476 1.71942,79.9856 -1.28057,79.9938 -1.49999,0.00411476 Z M 4.71529,78.4773 0.24,87.4897 -4.28467,78.502 Z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,720.74,1079.5)"
-       id="path478" />
-    <path
-       d="m 1264.5,933 h 208.32 v 3 H 1264.5 Z m 206.82,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path480" />
-    <path
-       d="m 1140,818.5 v 32.484 h -3 V 818.5 Z m 3,30.984 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path482" />
-    <path
-       d="m 1140,1012.5 v 31.39 h -3 v -31.39 z m 3,29.89 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path484" />
-    <path
-       d="m 1140,1204.5 v 32.48 h -3 v -32.48 z m 3,30.98 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       id="path486" />
-    <path
-       d="m 847.5,547 h 157.29 v 3 H 847.5 Z m 155.79,-3 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       id="path488" />
-    <path
-       d="m 0,-1.5 h 82.6335 c 0.8285,0 1.5,0.671573 1.5,1.5 v 115.05 l -1.5,-1.5 h 75.1335 v 3 H 82.6335 c -0.8284,0 -1.5,-0.672 -1.5,-1.5 V 0 l 1.5,1.5 H 0 Z m 156.267,112.05 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(1,0,0,-1,846.5,1243.55)"
-       id="path490" />
-    <path
-       d="m 537.501,242 49.497,0.032 -0.002,3 L 537.499,245 Z m 47.999,-2.969 8.997,4.506 -9.003,4.494 z"
-       fill="#0078d4"
-       id="path492" />
-    <rect
-       x="1479"
-       y="858"
-       width="253"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect494" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1551.11,914)"
-       id="text496">Outsource</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1547.45,943)"
-       id="text498">production</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1549.29,972)"
-       id="text500">operations</text>
-    <rect
-       x="594"
-       y="925"
-       width="253"
-       height="154"
-       stroke="#000000"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect502" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(653.933,1010)"
-       id="text504">Hire to retire</text>
-    <rect
-       x="594"
-       y="1166"
-       width="253"
-       height="153"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect506" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(637.943,1237)"
-       id="text508">Plan and recruit</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(641.289,1266)"
-       id="text510">your workforce</text>
-    <rect
-       x="1479"
-       y="1244"
-       width="253"
-       height="154"
-       stroke="#0078d4"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#0078d4"
-       id="rect512" />
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1523.53,1315)"
-       id="text514">Run production</text>
-    <text
-       fill="#ffffff"
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(1549.29,1344)"
-       id="text516">operations</text>
-    <rect
-       x="594"
-       y="471"
-       width="253"
-       height="153"
-       stroke="#000000"
-       stroke-width="2"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="#a0a0a0"
-       id="rect518" />
-    <text
-       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(636.869,556)"
-       id="text520">Plan to produce</text>
-    <path
-       d="m 0,-1.5 h 722.502 c 0.828,0 1.5,0.671573 1.5,1.5 v 155.174 h -3 V 0 l 1.5,1.5 H 0 Z m 727.002,155.174 -4.5,9 -4.5,-9 z"
-       fill="#0078d4"
-       transform="matrix(0,1,1,0,432.5,279.5)"
-       id="path522" />
-    <path
-       d="m 0,1.5 h -24.0019 l 1.5,-1.5 v 538.149 l -1.5,-1.5 H 480.644 v 3 H -24.0019 c -0.8284,0 -1.5,-0.672 -1.5,-1.5 V 0 c 0,-0.828427 0.6716,-1.5 1.5,-1.5 H 0 Z m 479.144,532.149 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,1731.64,934.5)"
-       id="path524" />
-    <path
-       d="m 0,1.5 h -24.002 l 1.5,-1.5 v 151.599 l -1.5,-1.5 h 504.646 v 3 H -24.002 c -0.8285,0 -1.5,-0.671 -1.5,-1.5 V 0 c 0,-0.828427 0.6715,-1.5 1.5,-1.5 H 0 Z m 479.144,145.599 9,4.5 -9,4.5 z"
-       fill="#0078d4"
-       transform="matrix(-1,0,0,1,1731.64,1321.5)"
-       id="path526" />
-  </g>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="47 36 617 559"    xml:space="preserve" color-interpolation-filters="sRGB" class="st12" width="1543" height="1398">
+<rect x="0" y="0" width="1543" height="1398" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#f2f2f2;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st6 {font-size:1em}
+		.st7 {fill:#ffffff}
+		.st8 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {marker-end:url(#mrkr13-55);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st11 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-55" class="st10" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape27-1" transform="translate(324,-18)">
+			
+			<rect x="0" y="54" width="207" height="558" class="st1" />
+		</g>
+		<g id="shape1-3" transform="translate(47.25,-504)">
+			
+			<desc>Start</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st2" />
+			<text x="31.01" y="597.6" class="st3">Start</text>
+		</g>
+		<a id="c7ade781-7821-4583-83c9-961d76ec273a" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzOHY0MDcxJywxODMzNCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-6" transform="translate(342,-490.5)">
+				
+				<desc>70.20 Plan production operations</desc>
+				<rect x="0" y="549" width="126" height="63" class="st4" />
+				<text x="9.15" y="576.9" class="st5">70.20 Plan production <tspan x="36.68" dy="1.2em" class="st6">operations</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="b303a65f-5f00-43a4-aca9-11eb2c3e92ad" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzOXY0MDcxJywxODMzNSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-10" transform="translate(342,-396)">
+				
+				<desc>70.20.010 Modify production plan</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st7" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st8" />
+				<path d="M9 612 L9 549" class="st8" />
+				<path d="M117 612 L117 549" class="st8" />
+				<text x="19.96" y="576.9" class="st3">70.20.010 Modify <tspan x="24.13" dy="1.2em" class="st6">production plan</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="10cb047d-1a2a-4621-90fe-6277f70e1d09" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI0MHY0MDcxJywxODMzNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-17" transform="translate(342,-306)">
+				
+				<desc>70.20.020 Create production plan</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st7" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st8" />
+				<path d="M9 612 L9 549" class="st8" />
+				<path d="M117 612 L117 549" class="st8" />
+				<text x="21.18" y="576.9" class="st3">70.20.020 Create <tspan x="24.13" dy="1.2em" class="st6">production plan</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="4b2d76b4-044f-40b1-9b87-056a6321174c" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI0MXY0MDcxJywxODMzNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-24" transform="translate(342,-216)">
+				
+				<desc>70.20.030 Schedule production jobs</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st7" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st8" />
+				<path d="M9 612 L9 549" class="st8" />
+				<path d="M117 612 L117 549" class="st8" />
+				<text x="15.23" y="576.9" class="st3">70.20.030 Schedule <tspan x="24.59" dy="1.2em" class="st6">production jobs</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="f8465f41-3ca1-4d64-9c0d-e6b27771fb25" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI0MnY0MDcxJywxODMzOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-31" transform="translate(342,-126)">
+				
+				<desc>70.20.040 Release production to the shop floor</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st7" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st8" />
+				<path d="M9 612 L9 549" class="st8" />
+				<path d="M117 612 L117 549" class="st8" />
+				<text x="18.52" y="569.7" class="st3">70.20.040 Release <tspan x="20.01" dy="1.2em" class="st6">production to the </tspan>
+					<tspan x="38.2" dy="1.2em" class="st6">shop floor</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape7-39" transform="translate(564.75,-49.5)">
+			
+			<desc>End</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st2" />
+			<text x="33.52" y="597.6" class="st3">End</text>
+		</g>
+		<a id="787348a7-a289-4f41-af8a-0fdd14ae7c20" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWM1NDU4MnY0MDcxJywxODMzOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-42" transform="translate(342,-36)">
+				
+				<desc>70.20.050 Estimate the cost of production</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st7" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st8" />
+				<path d="M9 612 L9 549" class="st8" />
+				<path d="M117 612 L117 549" class="st8" />
+				<text x="16" y="569.7" class="st3">70.20.050 Estimate <tspan x="37.09" dy="1.2em" class="st6">the cost of </tspan>
+					<tspan x="36.05" dy="1.2em" class="st6">production</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape10-50" transform="translate(132.75,-513)">
+			
+			<path d="M0 603 L30.69 603" class="st9" />
+		</g>
+		<g id="shape12-56" transform="translate(396,-490.5)">
+			
+			<path d="M9 612 L9 633.69" class="st9" />
+		</g>
+		<g id="shape13-61" transform="translate(396,-396)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape14-66" transform="translate(396,-306)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape15-71" transform="translate(396,-216)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape16-76" transform="translate(396,-126)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape17-81" transform="translate(468,-58.5)">
+			
+			<path d="M0 603 L86.94 603" class="st9" />
+		</g>
+		<a id="4facd5f0-32e4-4f1b-9776-975dc85a96dd" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMHY0MDcxJywxODMyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape21-86" transform="translate(173.25,-490.5)">
+				
+				<desc>70 Plan to produce</desc>
+				<rect x="0" y="549" width="99" height="63" class="st11" />
+				<text x="3.44" y="584.1" class="st3">70 Plan to produce</text>
+			</g>
+		</a>
+		<g id="shape22-89" transform="translate(272.25,-513)">
+			
+			<path d="M0 603 L59.94 603" class="st9" />
+		</g>
+		<a id="d2d647dd-4c7a-44af-97fb-f635e8fdb0d6" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzIzMXY0MDcxJywxODMyOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape23-94" transform="translate(173.25,-396)">
+				
+				<desc>70.10 Develop production strategies</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="14.4" y="569.7" class="st5">70.10 Develop <tspan x="22.55" dy="1.2em" class="st6">production </tspan>
+					<tspan x="25.65" dy="1.2em" class="st6">strategies</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="e3aabd7d-95a0-471c-879d-7d19f1edabe8" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMHY0MDcxJywxODE2OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape24-99" transform="translate(173.25,-279)">
+				
+				<desc>55 Hire to retire</desc>
+				<rect x="0" y="549" width="99" height="63" class="st11" />
+				<text x="10.44" y="584.1" class="st3">55 Hire to retire</text>
+			</g>
+		</a>
+		<a id="335e887d-d1bb-46ef-8eb3-f8ff0140e80e" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzAyMXY0MDcxJywxODE3NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape25-102" transform="translate(173.25,-162)">
+				
+				<desc>55.10 Recruit and onboard talent</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="6.52" y="576.9" class="st5">55.10 Recruit and <tspan x="12.98" dy="1.2em" class="st6">onboard talent</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="02004e2a-d175-4ca8-9809-cb493ef8bbc5" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMTZkNTIzNTk2NWMxNzI0M3Y0MDcxJywxODM0MCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape26-106" transform="translate(564.75,-126)">
+				
+				<desc>70.30 Run production operations</desc>
+				<rect x="0" y="549" width="99" height="63" class="st4" />
+				<text x="24.9" y="569.7" class="st5">70.30 Run <tspan x="22.55" dy="1.2em" class="st6">production </tspan>
+					<tspan x="23.18" dy="1.2em" class="st6">operations</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape28-111" transform="translate(468,-148.5)">
+			
+			<path d="M0 603 L86.94 603" class="st9" />
+		</g>
+		<g id="shape29-116" transform="translate(90,-504)">
+			
+			<path d="M0 612 L0 805.5 L73.44 805.5" class="st9" />
+		</g>
+		<g id="shape30-121" transform="translate(213.75,-490.5)">
+			
+			<path d="M9 612 L9 633.69" class="st9" />
+		</g>
+		<g id="shape31-126" transform="translate(213.75,-279)">
+			
+			<path d="M9 612 L9 656.19" class="st9" />
+		</g>
+		<g id="shape32-131" transform="translate(272.25,-193.5)">
+			
+			<path d="M0 612 L17.66 612 L17.66 558 L59.94 558" class="st9" />
+		</g>
+		<g id="shape33-136" transform="translate(272.25,-427.5)">
+			
+			<path d="M0 612 L17.66 612 L17.66 792 L59.94 792" class="st9" />
+		</g>
+	</g>
 </svg>
