@@ -188,8 +188,21 @@ The following diagram shows the high-level flow of the *plan to produce* busines
 
 :::image type="content" source="media/plan-to-produce-flow.svg"  lightbox="media/plan-to-produce-flow.svg" alt-text="Flow diagram for the end-to-end business process, which is explained in the paragraphs after the image.":::
 
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
 The following steps are illustrated in the order to cash end-to-end business process flow diagram.
 
+1. *Plan to produce* end-to-end process
+   1. *Develop production strategies*
+   2. *Plan production operations*
+   3. *Run production operations*
+   4. *Control production quality*
+   5. *Analyze production operations*
+
+> [!NOTE]
+> The *Plan to produce* business process area flow diagram is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.
+
+<!--
 1. Start
 
 2. *Plan to produce* end-to-end process
@@ -249,12 +262,18 @@ The following end-to-end downstream processes have connections to End:
 - *Service to deliver*  
 - *Project to profit*  
 - *Case to resolution*  
+-->
 
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more.
 
-1. *Define product costing overview* (the article that you're currently reading)
+1. *Plan to produce* end-to-end process (the article that you're currently reading)
+   1. *Develop production strategies*
+   2. *Plan production operations*
+   3. *Run production operations*
+   4. *Control production quality*
+   5. *Analyze production operations*
 
 2. [Define production strategies](plan-to-produce-define-production-strategies.md)
 

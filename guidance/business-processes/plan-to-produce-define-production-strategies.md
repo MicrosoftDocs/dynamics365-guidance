@@ -25,28 +25,38 @@ Many people across the organization should contribute to the decision-making pro
 - **Production**: Responsible for running production
 - **Warehouse**: Responsible for inventory/material flow in production
 
-## Define production strategies process flow
+## Develop production strategies process flow
 
 The following diagram illustrates the *develop production strategies* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-define-prod-strategies.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/plan-to-produce-define-prod-strategies.svg":::
 
-> [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
 1. Start
+2. *Develop production strategies* business process area
+   1. *Develop production processes*
+   2. *Map value streams*
+   3. *Identify production resources*
+   4. *Develop subcontraction strategy*
+   5. *Correct production processes*
+3. End
 
-1. *Plan to produce* end-to-end process
+<!--
+1. Start
 
-1. *Develop production strategies* business process area
+2. *Plan to produce* end-to-end process
+
+3. *Develop production strategies* business process area
 
     1. *Define steps to complete production* business process
-    1. *Map value streams* business process
-    1. *Identify production resources* business process
-    1. *Develop subcontracting strategy* business process
-    1. *Outsource production operations* business process
-    1. *Correct production processes* business process
-1. End
+    2. *Map value streams* business process
+    3. *Identify production resources* business process
+    4. *Develop subcontracting strategy* business process
+    5. *Outsource production operations* business process
+    6. *Correct production processes* business process
+4. End
+-->
 
 > [!NOTE]
 > The process of defining materials that production consumes to make a subassembly or finished product is cataloged in the [Design to retire](design-to-retire-overview.md) end-to-end process.
@@ -77,6 +87,11 @@ If you want to implement Dynamics 365 solutions to assist with your *develop pro
 
 1. [Plan to produce](plan-to-produce-overview.md)
 2. *Develop production strategies* (the article that you're currently reading)
+   1. *Develop production processes*
+   2. *Map value streams*
+   3. *Identify production resources*
+   4. *Develop subcontraction strategy*
+   5. *Correct production processes*
 3. [Plan production operations](plan-to-produce-plan-production-operations-overview.md)
 4. [Run production operations](plan-to-produce-execute-production-operations-overview.md)
 5. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)

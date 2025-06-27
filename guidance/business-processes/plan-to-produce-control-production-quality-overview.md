@@ -33,12 +33,30 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Warehouse**: Responsible for inventory movements related to quality processes.
 
-## Control production quality process flow 
+## Control production quality process flow
 
 The following diagram illustrates the *control production quality* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/plan-to-produce-control-production-quality-flow.svg" alt-text="Flow diagram for the business process area that is explained in the paragraphs after the image." lightbox="media/plan-to-produce-control-production-quality-flow.svg":::
 
+[!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
+
+1. *Plan to produce* end-to-end process
+   1. *Run production operations* business process area
+      1. *Control production quality*
+         1. *Quarantine manufactured goods*
+         2. *Inspect manufactured goods*
+         3. *Record cost of quality*
+         4. *Report quality test results*
+         5. *Rework defective inventory*
+         6. *Scrap defective production*
+         7. *Report product quality non-conformance*
+         8. *Implement corrective and preventive actions*
+
+> [!NOTE]
+> The *Control production quality* business process area flow diagram is described at a high level. There may be variations in the process flow depending on your operating model and business process requirements.
+
+<!--
 1. Start
 
     1. A parallel branch from 1. Start includes the *Plan to produce* end-to-end process.
@@ -82,6 +100,7 @@ The following diagram illustrates the *control production quality* business proc
         1. End (this connection isn't shown).
 
 10. End
+-->
 
 ## Control production quality benefits
 
@@ -115,7 +134,15 @@ If you want to implement Dynamics 365 solutions to assist with your *Control pro
 
 6. [Outsource production operations](plan-to-produce-outsource-production-operations-overview.md)  
 
-7. *Control production quality* (the article that you're currently reading)      
+7. *Control production quality* (the article that you're currently reading)
+   1. *Quarantine manufactured goods*
+   2. *Inspect manufactured goods*
+   3. *Record cost of quality*
+   4. *Report quality test results*
+   5. *Rework defective inventory*
+   6. *Scrap defective production*
+   7. *Report product quality non-conformance*
+   8. *Implement corrective and preventive actions*
 
 8. [Track production costs](plan-to-produce-track-production-costs-overview.md)  
 
