@@ -22,7 +22,7 @@ The following table provides an overview of the supported versions.
 
 |Product  |Supported versions|
 |---------|---------|
-|Dynamics CRM (on-premises) | Dynamics CRM 2016 or later.|
+|Dynamics CRM (on-premises) | Dynamics CRM V9.0 or later.|
 |SQL Server   | Any version of SQL Server that the relevant version of Dynamics CRM supports.|
 
 ## Nomination form
@@ -32,7 +32,7 @@ Microsoft partners can nominate their customers for migration using the nominati
 <!-- Learn more about eligibility at [Customer eligibility and partner qualifications](../fasttrack/eligibility.md). -->
 
 > [!NOTE]
-> - To perform the migration, your source environment must be a version of Dynamics CRM 2016 or Dynamics 365 (9.0/9.1). Also, SQL Server must be aligned with the supported/compatible versions.
+> - To perform the migration, your source environment must be a version of Dynamics CRM V9.0 or Dynamics 365 (9.0/9.1). Also, SQL Server must be aligned with the supported/compatible versions.
 >
 > - Customers must procure licenses to Dynamics 365 online before they start the migration process. Learn more in [the OP2OL whitepaper](#op2ol-whitepaper).
 >
