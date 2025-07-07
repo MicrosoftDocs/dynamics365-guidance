@@ -21,4 +21,4 @@ Partners and customers can nominate for the migration services for on-premises t
 Detailed recommended steps about the tool and program can be found at [Dynamics CRM to Dynamics 365 online migration process overview](../migrate/opol-crm-migration-high-level-overview.md).
 
 > [!NOTE]
-> Currently, the OP2OL migration services support Dynamics CRM 2016 (on-premises) and later versions.
+> Currently, the OP2OL migration services support Dynamics CRM V9.0 (on-premises) and later versions.
