@@ -85,7 +85,7 @@ Documenting business requirements is a critical process that ensures all stakeho
 |**Architect Comments**| Use this section for any other notes or discussions related to the architecture or other aspects of the project. |Make sure that the data migration script is thoroughly tested in a staging environment before deployment. The extract of data must be completed during off hours to ensure that the current system can still be used due to performance concerns. Additionally, the customers must be loaded into Dynamics 365 Supply Chain Management first, and then the initial sync for dual-write must be completed to copy the data to the Dataverse.|
 |**Disposition Type**| Use this field to indicate if the requirement is a fit or a gap.|Gap|
 |**Priority**| Assess and select appropriate options based on the criticality and potential risks.|Priority: High, Risk: Medium.|
-|**Potential ISV**| Use this field to indicate a potential ISV solution for filling a gap.|-|
+|**Potential ISV**| Use this field to indicate a potential solution from an external software development company for filling a gap.|-|
 |**Requirement Type**| Use this drop-down box to select the type of requirement as described earlier in this article.|Data migration|
 |**Requirement Complexity**| Use this drop-down box to categorize how complex the requirement will be to meet if it is a gap. |Very Complex|
 |**Requirement Stage**| Use this drop-down box to indicate how far along the requirement is in being filled. Suggested values for the drop-down box include the following: Architecture review, Business approved, Business review, Completed, Disposition review.|-|

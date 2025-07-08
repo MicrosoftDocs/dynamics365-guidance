@@ -59,7 +59,7 @@ The checklist covers the following areas:
 | Done? | Task |
 | :---: | --- |
 | &check; | Explain the scope of the project to business stakeholders in terms of the business processes that the solution supports. |
-| &check; | Consider the following items: <ul><li>The business processes that the solution supports</li><li>The applications and solutions that are used in the solution</li><li>Whether the solution contains customizations and ISV solutions</li><li>The type and volume of integrations</li><li>The number of go-lives or rollouts</li><li>The number of users at go-live and in future rollouts</li></ul> |
+| &check; | Consider the following items: <ul><li>The business processes that the solution supports</li><li>The applications and solutions that are used in the solution</li><li>Whether the solution contains customizations and external solutions</li><li>The type and volume of integrations</li><li>The number of go-lives or rollouts</li><li>The number of users at go-live and in future rollouts</li></ul> |
 | &check; | Get sign-off from business stakeholders on the solution scope. |
 
 The solution scope review helps you confirm that the solution you're going to launch meets your business needs and expectations. The expected outcome is that the solution scope matches the solution that's going live, you've shared it with stakeholders, and they agree that it covers their expectations. The risks of not reaching this outcome are delays, dissatisfaction, and project failure.
@@ -126,7 +126,7 @@ Data migration readiness helps you ensure that the data you're going to use in y
 
 | Done? | Task |
 | :---: | --- |
-| &check; | Align any external dependencies, such as ISV solutions and partner systems and services, with your timelines and scope for go-live. |
+| &check; | Align any external dependencies, such as partner solutions and partner systems and services, with your timelines and scope for go-live. |
 | &check; | Coordinate with providers to make sure expectations are aligned, their solutions match the roadmap timelines, and all requirements are met. |
 
 Checking external dependencies helps you ensure that the solutions, systems, or services you need for your project are compatible and reliable. The expected outcome is that the dependencies and their interactions work as planned and you have a strategy for dealing with potential problems. The risks of not reaching this outcome are delays or failures in your project due to dependency issues. To avoid problems with external dependencies, coordinate with the providers of the dependencies, align your expectations, timelines, and requirements with them, and have regular meetings to review their status and resolve any conflicts.

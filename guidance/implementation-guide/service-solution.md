@@ -40,7 +40,7 @@ Just as your Dynamics 365 solution is continuously updated, your organization's 
 
 ## Case study
 
-An agricultural company's implementation of Dynamics 365 included some extensions provided by an independent software vendor (ISV). The company discovered the ISV released updates late in the Dynamics 365 release cycle&mdash;or sometimes not at all&mdash;because of its internal processes. As a result, the company found itself unable to implement new Dynamics 365 features as they became available, and had to manually apply Dynamics 365 updates to maintain operations. Eventually, the company was able to work with the ISV to align its release schedule with Dynamics 365's, allowing enough time to test its solution during standard releases.
+An agricultural company's implementation of Dynamics 365 included some extensions provided by a non-Microsoft software development company. The company discovered the partner released updates late in the Dynamics 365 release cycle&mdash;or sometimes not at all&mdash;because of its internal processes. As a result, the company found itself unable to implement new Dynamics 365 features as they became available, and had to manually apply Dynamics 365 updates to maintain operations. Eventually, the company was able to work with the partner to align its release schedule with Dynamics 365's, allowing enough time to test its solution during standard releases.
 
 The lesson here is that simply implementing and updating your solution isn't enough. Be aware that third-party solutions can affect the Dynamics 365 release cadence. Keep track of how soon the updates can be applied in your environment to maximize the benefits of the latest Microsoft innovations as they become available.  
 

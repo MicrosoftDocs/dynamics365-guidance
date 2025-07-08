@@ -45,7 +45,7 @@ You can choose from three main types of support models:
 
 You can also define different levels of support based on the complexity of the issues and the roles involved. The following diagram shows an example of how you can structure your support levels:
 
-:::image type="content" source="media/transition-to-support-models.png" alt-text="Diagram showing five levels of support, from first level (super users) to fifth level (Microsoft or ISV support)." lightbox="media/transition-to-support-models.png":::
+:::image type="content" source="media/transition-to-support-models.png" alt-text="Diagram showing five levels of support, from first level (super users) to fifth level (Microsoft or partner support)." lightbox="media/transition-to-support-models.png":::
 
 ### First level
 
@@ -82,9 +82,9 @@ The partner or IT team needs to have deep expertise in Dynamics 365 and related 
 
 ### Fifth level
 
-The fifth level of support is usually provided by Microsoft or an ISV when the issue is related to standard Dynamics 365 software or service or an ISV solution. The Dynamics 365 team or CoE registers the issue with Microsoft or the ISV and works with them to get it resolved.
+The fifth level of support is usually provided by Microsoft or a partner when the issue is related to standard Dynamics 365 software or service or a solution from a non-Microsoft software development company. The Dynamics 365 team or CoE registers the issue with Microsoft or the partner and works with them to get it resolved.
 
-The Dynamics 365 team or CoE needs to have a support and maintenance contract with Microsoft or the ISV and follow their procedures and guidelines. They also need to provide clear and accurate information about the issue and its impact.
+The Dynamics 365 team or CoE needs to have a support and maintenance contract with Microsoft or the partner and follow their procedures and guidelines. They also need to provide clear and accurate information about the issue and its impact.
 
 ## Next steps
 

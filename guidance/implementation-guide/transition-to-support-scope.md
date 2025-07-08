@@ -284,7 +284,7 @@ For DR, Power Platform lets you fail over and fail back in seconds. No data is l
 
 Dynamics 365 app updates are one of the changes that your support team might need to manage. When you define the scope of responsibilities for your support team, you must understand what system updates involve and how to plan for them.
 
-Creating a calendar for Microsoft updates helps your support team prepare for the resources and effort that they need for Dynamics 365 updates, independent software vendor (ISV) updates, updates for custom code, and testing, including regression testing and release management.
+Creating a calendar for Microsoft updates helps your support team prepare for the resources and effort that they need for Dynamics 365 updates, updates to partner-provided software, updates for custom code, and testing, including regression testing and release management.
 
 As we saw in the previous section, your solution might change often because of new and backlog requirements. [Learn more about how Microsoft system updates affect your solution](service-solution.md).
 

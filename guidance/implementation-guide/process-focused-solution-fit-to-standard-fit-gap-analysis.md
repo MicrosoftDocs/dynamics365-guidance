@@ -82,13 +82,13 @@ When you evaluate a potential customization or extension, use the process maps t
 
 ## Non-Microsoft solutions
 
-Another way to fill the gaps in your solution is to buy a solution from a partner or non-Microsoft vendor, also known as an independent software vendor (ISV). This option might be more suitable when you have a significant gap and developing functionality in-house is too complex or costly. You might also lack the resources, budget, or expertise to create and maintain such a solution.
+Another way to fill the gaps in your solution is to buy a solution from a partner or non-Microsoft vendor. This option might be more suitable when you have a significant gap and developing functionality in-house is too complex or costly. You might also lack the resources, budget, or expertise to create and maintain such a solution.
 
-ISV solutions tend to focus on more specialized or industry-specific processes that add value to your business. They also have expertise and experience in the vertical industry processes they cover. You can find many ISV solutions in the marketplace that work with Dynamics 365.
+Partner solutions tend to focus on more specialized or industry-specific processes that add value to your business. They also have expertise and experience in the vertical industry processes they cover. You can find many solutions in the marketplace that work with Dynamics 365.
 
-:::image type="content" source="media/process-focused-image5.png" alt-text="Diagram of an example of an ISV solution that adds taxes to an end-to-end purchase order process." lightbox="media/process-focused-image5.png":::
+:::image type="content" source="media/process-focused-image5.png" alt-text="Diagram of an example of a partner solution that adds taxes to an end-to-end purchase order process." lightbox="media/process-focused-image5.png":::
 
-Dynamics 365 is designed to meet standard business processes, but it also has the flexibility to customize and integrate external applications. You can use a combination of standard, customized, and partner solutions to build an optimal solution for your needs. Using the business process catalog and maps can help you communicate and collaborate with your project team, implementation partner, citizen developers, professional developers, and ISV vendors.
+Dynamics 365 is designed to meet standard business processes, but it also has the flexibility to customize and integrate external applications. You can use a combination of standard, customized, and partner solutions to build an optimal solution for your needs. Using the business process catalog and maps can help you communicate and collaborate with your project team, implementation partner, citizen developers, professional developers, and software development company vendors.
 
 ## Next steps
 

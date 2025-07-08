@@ -59,7 +59,7 @@ Business process modeler (BPM) is a tool that helps you define, view, and edit t
 
 ### Development
 
-The development phase of ALM involves writing, testing, and merging source code for your customizations and independent software vendor (ISV) solutions. You can use Microsoft Visual Studio as the development environment for your finance and operations apps. The development lifecycle includes the following steps:
+The development phase of ALM involves writing, testing, and merging source code for your customizations and solutions from other software development companies. You can use Microsoft Visual Studio as the development environment for your finance and operations apps. The development lifecycle includes the following steps:
 
 - Each developer uses their own development environment.
 - Developers write source code and check in their code to Azure DevOps.
@@ -77,7 +77,7 @@ The following diagram illustrates the finance and operations app development lif
 
 ### Version control
 
-Version control is the process of storing and maintaining source code for your customizations and ISV solutions. You can use Azure Repos as the version control management tool for your code. Version control helps you track changes, resolve conflicts, and collaborate with other developers. Here are some recommendations for version control branching:
+Version control is the process of storing and maintaining source code for your customizations and solutions from other software development companies. You can use Azure Repos as the version control management tool for your code. Version control helps you track changes, resolve conflicts, and collaborate with other developers. Here are some recommendations for version control branching:
 
 - Consider using the minimum branching option.
 - Consider the following recommended branching strategy:
@@ -143,7 +143,7 @@ To perform automated testing, you need to create test cases, test scripts, test 
 
 ### Deployment
 
-Deployment is the process of applying deployable packages to your environments. Deployable packages are units of deployment that contain the customizations and ISV solutions for your apps. Deployment can be manual or automated, depending on the type of environment and the tools you use. Here are some of the key concepts and best practices for finance and operations apps deployment:
+Deployment is the process of applying deployable packages to your environments. Deployable packages are units of deployment that contain the customizations and other solutions for your apps. Deployment can be manual or automated, depending on the type of environment and the tools you use. Here are some of the key concepts and best practices for finance and operations apps deployment:
 
 - Deployable package: A unit of deployment that can be applied in an environment
 
@@ -218,7 +218,7 @@ The following table highlights some of the important differences between unmanag
 | Allows direct customization of components | The identity of the solution can't be modified |
 | Holds references to customization and components but doesn't own them | Components can't be added or removed |
 | Doesn't delete or remove components if the solution is deleted | Can be uninstalled (deleted) and deletes components that it directly owns |
-|| Can be upgraded and serviced as discrete layers, enabling ISVs or multiple departments to provide multiple applications to a shared environment |
+|| Can be upgraded and serviced as discrete layers, enabling software development companies or multiple departments to provide multiple applications to a shared environment |
 || Merges with other layers and the system layers to present application behavior to the user |
 || Exists within its own discrete layer |
 
@@ -232,7 +232,7 @@ Layering occurs on import of solutions when a specific component is affected by 
 
 - Extending a managed Dataverse component, which takes a dependency on the component
 - Extending a managed component from a Microsoft app, which takes a dependency on the component from the solution that represents the app
-- Extending a managed component from an ISV solution or custom solution or app
+- Extending a managed component from a software development company, a custom solution, or an app
 - Introducing a new custom component in a custom managed solution, which creates the component and so the root layer for that component
 - Amending properties of an existing component within a different managed solution
 

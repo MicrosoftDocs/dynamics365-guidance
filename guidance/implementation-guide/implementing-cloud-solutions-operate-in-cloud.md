@@ -34,7 +34,7 @@ Microsoft provides a CoE starter toolkit that includes prebuilt processes:
 - Consistent ALM: Apply source control strategies using GitHub.
 - Standards and theming: Create, manage, and share enterprise-branded themes and follow organizational best practices and standards.
 
-[AppSource](https://appsource.microsoft.com/) offers a variety of independent software vendor (ISV) solutions to suit your needs. Learn more at [Establishing a Microsoft Power Platform Center of Excellence](/power-platform/guidance/adoption/coe).
+[AppSource](https://appsource.microsoft.com/) offers a range of solutions to suit your needs. Learn more at [Establishing a Microsoft Power Platform Center of Excellence](/power-platform/guidance/adoption/coe).
 
 ## Usage and monitoring
 

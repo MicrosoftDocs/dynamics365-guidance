@@ -134,7 +134,7 @@ Agenda topics:
 
 - Ease of use – legacy system mapping
 - Ease of use – simplicity/efficiency
-- Aesthetics – ISV alignment
+- Aesthetics – Alignment across software development companies
 - Aesthetics – corporate branding
 - Performance – speed
 - Consistency of experience
@@ -167,7 +167,7 @@ Agenda topics:
 - Identify and review the main gap requirements
 - Discuss proposed solution for each selected gap
 - Identify and discuss any potential risks
-- Brainstorm alternative solution, ISV or workaround
+- Brainstorm alternative solution, other software provides, or a workaround
 - Review all gaps and potential dependencies
 
 Mandatory attendees are solution architects, functional leads, and technical leads. Recommended attendees include stakeholders from the customer and partner teams.

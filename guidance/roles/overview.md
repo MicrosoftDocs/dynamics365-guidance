@@ -21,7 +21,7 @@ The table in this section lists the types of jobs that we at Microsoft consider 
 | Role | Description |
 |---|---|
 |Customer|This role covers two definitions: In guidance and admin content, it's the organization that buys a license for a Microsoft product. In Dynamics 365 business functionality content, it's more often that organization's client or consumer.|
-|Partner|This role covers two definitions: In guidance and admin content, it's the organization that sells licenses for Microsoft products. In developer or maker content, it's more often an independent software vendor, ISV, or app provider.|
+|Partner|This role covers two definitions: In guidance and admin content, it's the organization that sells licenses for Microsoft products. In developer or maker content, it's more often an independent software development company, or app provider.|
 |Functional consultant| This role covers people that are employed by a Microsoft reselling partner and who helps implement Dynamics 365 for a customer. The role covers many different names and job titles. Learn more at [Functional consultants in Dynamics 365 implementations](functional-consultant.md).|
 |Solution architect|This role is employed by Microsoft or any other company and use their technical expertise to integrate and optimize technologies across an organization, tailoring solutions to meet business needs. Learn more at [Solution architects in Dynamics 365](solution-architect.md).|
 |Business owner|This role covers the person or people with the final say in which Microsoft services their organization will purchase.|
