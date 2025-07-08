@@ -42,7 +42,7 @@ The [support operations](transition-to-support-operations.md) are the tasks that
 
 - **SLAs, priorities, and escalations.** Your support team needs to provide some kind of service level agreement (SLA) for different types of support requests. If your SLAs are based on real business needs, they can help you prioritize the right things. Having a formal escalation process with clear criteria helps prevent frustration on slow cases and reduce the impact of any that escalate beyond their true business importance.
 
-- **Tools and access.** Most support teams use some kind of helpdesk software to manage support requests. Many use their existing helpdesk for Dynamics 365 applications. Partner support teams and independent software vendors (ISVs) have their own helpdesk systems. You should consider new internal and external sources of help.
+- **Tools and access.** Most support teams use some kind of helpdesk software to manage support requests. Many use their existing helpdesk for Dynamics 365 applications. Partner support teams and independent software development companies have their own helpdesk systems. You should consider new internal and external sources of help.
 
   When a problem is likely to be with standard Dynamics 365, we recommend that you report it to Microsoft using the in-app process. Tracking a support request across multiple technologies and especially across partner organizations requires some planning and possible system configuration so that the internal helpdesk can follow it from start to finish.
 

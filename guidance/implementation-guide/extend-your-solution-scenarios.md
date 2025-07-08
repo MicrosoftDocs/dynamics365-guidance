@@ -3,7 +3,7 @@ title: Customize and extend Dynamics 365 apps
 description: Learn how to use app configurations, low-code/no-code customizations, and PaaS solutions to tailor Dynamics 365 apps to your organization's needs.
 author: abunduc-ms
 ms.author: abunduc
-ms.date: 01/24/2024
+ms.date: 07/08/2025
 ms.topic: concept-article
 ms.custom:
   - evergreen
@@ -40,9 +40,9 @@ With customizations, you can tailor your app to fit your industry or business pr
 
 Low-code and no-code customizations are the best way to extend your app when changing the app settings doesn't meet your requirements.
 
-## Extend using pro dev
+## Extend with code
 
-Over the years, low-code/no-code customizations have improved a lot, reducing the need for professional developers to make app changes. But for cases or scenarios that you can't achieve with configurations or customizations, you can use the custom code execution capabilities of Dynamics 365 apps.
+Over the years, low-code/no-code customizations reduced the need for custom code. But for cases or scenarios that you can't achieve with configurations or customizations, you can use the code customization capabilities of Dynamics 365 apps.
 
 Dynamics 365 apps support extension programming models that let you use your existing skills and expertise for advanced scenarios. Depending on the app and functionality you want to extend, these models generally support .NET-based languages, software development kits (SDKs), and open-source libraries for JavaScript and HTML5.
 
@@ -56,11 +56,9 @@ In some scenarios, you might want to use PaaS components to extend your app and 
 
 This no-cliffs extension gives you the best of both worlds. The SaaS app gives you the ready-made features and the options and methods to extend them. The PaaS extensions enrich your solution architecture by providing scalable and robust mechanisms that handle heavy processing outside of your app.
 
-For example, you can use IoT Intelligence add-in for Finance and Operations apps. This add-in integrates Internet of Things (IoT) signals with data in Finance and Operations apps to produce actionable insights in Power BI dashboards and automation alerts, as shown in the following diagram:
+For example, you can use Sensor Data Intelligence for Dynamics 365 Supply Chain Management. This add-in integrates Internet of Things (IoT) signals from machines and equipment on the production floor with data in Supply Chain Management to produce actionable insights in Power BI dashboards and automation alerts. Learn more at [Sensor Data Intelligence home page](/dynamics365/supply-chain/sensor-data-intelligence/sdi-home-page).
 
-:::image type="content" source="media/extend_solution_IOT.png" alt-text="Diagram showing how IoT Intelligence add-in integrates IoT signals from Azure IoT Hub with data from Dynamics 365 Finance and Operations apps to produce insights in Power BI dashboards and reports." lightbox="media/extend_solution_IOT.png":::
-
-Another example is Connected Field Service for IoT Central, which provides a direct integration between Dynamics 365 Field Service and Microsoft Azure IoT Central to monitor and manage IoT devices, as shown in the following diagram:
+Another example is [Connected Field Service](/dynamics365/field-service/connected-field-service-architecture), which provides a direct integration between Dynamics 365 Field Service and Microsoft Azure IoT Central to monitor and manage IoT devices, as illustrated in the following diagram:
 
 :::image type="content" source="media/extend_solution_IOT_FieldService.png" alt-text="Diagram showing how Connected Field Service for IoT Central integrates Dynamics 365 Field Service with Azure IoT Central to monitor and manage IoT devices, trigger alerts and actions, and create work orders and service requests." lightbox="media/extend_solution_IOT_FieldService.png":::
 
@@ -78,8 +76,8 @@ There are many examples of how you can use PaaS to extend the capabilities of yo
 
 [Learn more extension options with Azure and Power Platform](integrate-other-solutions.md).
 
-## Next steps
+## Related content
 
-- Learn more about the specific considerations and best practices for [extending finance and operations apps](extend-your-solution-guidance-product-fo.md) and for [extending customer engagement apps](extend-your-solution-guidance-product-ce.md)
+- Learn more about the specific considerations and best practices for [extending finance and operations apps](extend-your-solution-guidance-product-fo.md), for [extending customer engagement apps](extend-your-solution-guidance-product-ce.md), and for [extending Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview?toc=/dynamics365/guidance/toc.yml)
 - Read the [case study](extend-your-solution-case-study.md) of how a company extended its Dynamics 365 app to improve its customer service
 - Use the Success by Design [checklist](extend-your-solution-checklist.md) to plan and implement your extensions effectively

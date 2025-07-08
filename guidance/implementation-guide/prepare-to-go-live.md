@@ -105,7 +105,7 @@ Monitor API limits, too. After go-live, integrations or bulk operations might ca
 
 ### Data migration
 
-Whether you use out-of-the-box, independent software vendor (ISV), or custom-built tools to migrate data, it's important to follow [data migration best practices](data-management-configuration-data-migration.md) and include them as part of your migration strategy.
+Whether you use out-of-the-box tools, a solution from a software development company, or custom-built tools to migrate data, it's important to follow [data migration best practices](data-management-configuration-data-migration.md) and include them as part of your migration strategy.
 
 Several factors can affect your data migration activities, including [service protection API limits](/powerapps/developer/data-platform/api-limits) and [API request limits and allocations](/power-platform/admin/api-request-limits-allocations). Keep these factors in mind when you're estimating the throughput and doing testing and final migration activities.
 
@@ -137,7 +137,7 @@ We release two major service updates per year. They're backward-compatible so th
 
 ### Change management
 
-Have a robust process in place to manage changes after the solution is deployed and becomes operational. The process should be able to manage service updates and new versions of an ISV solution. It should include a plan to prepare users for changes and assist them in adopting new features and capabilities.
+Have a robust process in place to manage changes after the solution is deployed and becomes operational. The process should be able to manage service updates and new versions of a partner solution. It should include a plan to prepare users for changes and assist them in adopting new features and capabilities.
 
 ### References for going live with customer engagement apps
 

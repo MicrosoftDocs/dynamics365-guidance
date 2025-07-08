@@ -16,7 +16,7 @@ ms.custom:
 
 Success by Design is a framework and practice created by Microsoft to help project teams implement Dynamics 365.
 
-Based on thousands of real-world customer projects, Success by Design is the sum of our Dynamics 365 implementation experience. It offers topic-specific reviews and prescriptive guidance (approaches and recommended practices), which provide a reliable path to project success. Success by Design is intended to be used by Dynamics 365 system integrators, independent software vendors (ISVs), and customers as a means to better architect, build, test, and deploy Dynamics 365 solutions.
+Based on thousands of real-world customer projects, Success by Design is the sum of our Dynamics 365 implementation experience. It offers topic-specific reviews and prescriptive guidance (approaches and recommended practices), which provide a reliable path to project success. Success by Design is intended to be used by Dynamics 365 system integrators, independent software development companies, and customers as a means to better architect, build, test, and deploy Dynamics 365 solutions.
 
 Microsoft recognizes that Success by Design doesn't guarantee implementation outcomes for our customers. But we're confident that it will help you achieve your project's goals while enabling the desired digital transformation for your organization.
 
@@ -156,7 +156,7 @@ A global corporate travel company is implementing Dynamics 365 Customer Service 
 In preparation for the Solution Blueprint Review, the project team parses these and other details. They must also confirm that solution performance testing was purposely left out of the project scope on the assumption that Microsoft's Dynamics 365 cloud service should be performant on its own.  
 
 > [!TIP]
-> It's true that Microsoft is responsible for delivering a reliable and performant cloud service to its customers. But it's our experience that solution design and the resulting configurations, customizations, and ISVs to achieve that design may play a role in impacting overall Dynamics 365 solution performance.
+> It's true that Microsoft is responsible for delivering a reliable and performant cloud service to its customers. But it's our experience that solution design and the resulting configurations, customizations, and partner solutions to achieve that design may play a role in impacting overall Dynamics 365 solution performance.
 
 In this example, the Dynamics 365 solution is projected to support 4,000 users at scale, including the multiple integrations and a key customization mandated by the business. So the project team's findings are clear: keeping solution performance testing out of scope is a risk that negatively impacts the project. Among other findings and recommendations not covered in this example, the project team's architect (who led the Solution Blueprint Review) recommends that the project Steering Committee approves adding solution performance testing into the test cycle.
 

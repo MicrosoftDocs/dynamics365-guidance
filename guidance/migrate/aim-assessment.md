@@ -10,7 +10,7 @@ ms.reviewer: renwe
 ---
 # AIM Assessment
 
-The AIM Assessment helps partners conduct a technical and functional review of a customer’s current on-premises solution with the goal of building a tailored migration plan. Depending on the solution, partners can conduct this analysis using third-party tools or Microsoft-provided tools (for AX and CRM). 
+The AIM Assessment helps partners conduct a technical and functional review of a customer's current on-premises solution with the goal of building a tailored migration plan. Depending on the solution, partners can conduct this analysis using third-party tools or Microsoft-provided tools (for AX and CRM). 
 
 The partner delivers an assessment report that includes a capability overview, dependencies, recommendations, and next steps. The AIM Assessment will help customers understand the benefits of moving from their legacy system to the cloud, tying this transition to current and future business objectives and Dynamics 365 cloud functionality. 
 
@@ -22,15 +22,15 @@ The AIM Assessment includes two dimensions: a functional and a technical assessm
 
 ## 1. Functional evaluation
  
-A functional assessment examines customers’ current business processes and determines how customers might most benefit from the new capabilities and enhancements available in Dynamics 365 in the cloud.
+A functional assessment examines customers' current business processes and determines how customers might most benefit from the new capabilities and enhancements available in Dynamics 365 in the cloud.
 
 **In this phase, the partner assesses and documents the following:**
 
 - High-level business process and functional review to understand the current on-premises business processes and map those to the capabilities of Dynamics 365 in the cloud.
-- High-level assessment of the new capabilities and enhancements in the Dynamics 365 cloud relevant to the customer’s business objectives. 
-- High-level assessment of customizations and ISVs implemented, evaluating used ISVs and providing alternatives for ISV solutions where relevant (for example, new features in the Dynamics 365 cloud may eliminate the need for an ISV solution).
+- High-level assessment of the new capabilities and enhancements in the Dynamics 365 cloud relevant to the customer's business objectives. 
+- High-level assessment of customizations and partner solutions implemented, evaluating the partner solutions used, and providing alternatives for partner solutions where relevant (for example, new features in the Dynamics 365 cloud may eliminate the need for a solution from another software development company).
 
-## 2. Technical evaluation 
+## 2. Technical evaluation
 
 During the technical assessment, the partner identifies the current technical architecture and evaluates different modernization options. 
 
@@ -45,7 +45,7 @@ During the technical assessment, the partner identifies the current technical ar
 
 ## 3. Additional evaluation 
 
-- Recommended Upgrade Approach: Assess and recommend the type of migration suited for the customer’s needs (for example, lift and shift, hybrid, or reimplementation).
+- Recommended Upgrade Approach: Assess and recommend the type of migration suited for the customer's needs (for example, lift and shift, hybrid, or reimplementation).
 - Next steps in the migration journey.
 
 ## 4. Supporting tools 
@@ -62,7 +62,7 @@ An LCS service to upgrade custom AX 2012 code and metadata to finance and operat
 
 [Upgrade Analysis Tool (SQL Script) for AX](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/AX2012DataUpgrade/UpgradeAnalysisReport.SQL) 
 
-Scripts to gather data on customers’ AX environment and system usage, spotlighting new features and improvements. Automated recommendations and resources based on module and functionality used.
+Scripts to gather data on customers' AX environment and system usage, spotlighting new features and improvements. Automated recommendations and resources based on module and functionality used.
 
 [Third-party assessment tools](https://appsource.microsoft.com/) 
 

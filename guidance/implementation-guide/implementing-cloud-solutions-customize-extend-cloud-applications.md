@@ -65,13 +65,13 @@ Expect to make tradeoff decisions when implementing your solution, especially wh
 
 Several factors could guide these decisions, including user adoption, but you should also assess the cost-benefit ratio of customization. In some cases, building and maintaining custom controls can be time-consuming and require specialized skills. If you can easily address some scenarios with user training, you can save hundreds of hours of development and testing effort. In addition, specialized UX requests often come from the need to replicate an existing system or a familiar pattern, even though they defy modern UX best practices and accessibility needs.
 
-## Independent software vendors
+## Software development companies
 
-Independent software vendors (ISVs) are partner organizations that develop software or software solutions that are compatible with the service and deliver more capabilities.
+Software development companies other than Microsoft are partner organizations that develop software or software solutions that are compatible with the service and deliver more capabilities.
 
-An effective way to extend your solution is to use an ISV solution from the app marketplace for your platform. This can save you time and effort in development and testing, and provide you with a proven solution used by peers in your industry.
+An effective way to extend your solution is to use an partner solution from the app marketplace for your platform. This can save you time and effort in development and testing, and provide you with a proven solution used by peers in your industry.
 
-Several industry-focused ISVs provide solutions to fill unique product gaps and address specific business needs in industries such as fashion and hospitality. Make sure to do your homework when looking for an ISV. For example, an ISV needs to make sure their solution is available for the version you're targeting for go-live. Otherwise, deployment timelines can be affected. You also need to know the support model for an ISV, their commitment to keep it up to date, and the protection clause if the solution provider goes bankrupt or is sold. You also need to know how the ISV handles deprecation notices for phased-out software and update cycles.
+Several industry-focused software development companies provide solutions to fill unique product gaps and address specific business needs in industries such as fashion and hospitality. Make sure to do your homework when looking for a software development company. For example, a company must make sure their solution is available for the version you're targeting for go-live. Otherwise, deployment timelines can be affected. You also want to know the support model for that software development company, their commitment to keep it up to date, and the protection clause if the solution provider goes bankrupt or is sold. You also need to know how the software development company handles deprecation notices for phased-out software and update cycles.
 
 ## Next steps
 

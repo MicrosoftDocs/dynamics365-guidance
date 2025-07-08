@@ -74,7 +74,7 @@ Learn more about monitor licensing and operational costs with the following reso
 
 - [Stay compliant with user licensing requirements for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/sysadmin/stay-compliant-user-license-requirement)
 
-- [View independent software vendor (ISV) license status](/dynamics365/fin-ops-core/dev-itpro/sysadmin/view-isv-license-status)
+- [View the license status for external software development companies](/dynamics365/fin-ops-core/dev-itpro/sysadmin/view-isv-license-status)
 
 ## Monitor storage allocation and usage
 

@@ -55,7 +55,7 @@ BPA offers several extensibility scenarios to meet diverse business needs:
 
 1. **Integration with Custom Data Warehouses:** BPA can be integrated into a company's fabric environment, allowing for custom datasets and reports based on BPA data.
 
-2. **Complex ISV Integrations:** Businesses can extend BPA to include custom fields and tables from ISV solutions, which can then be incorporated into BPA's analytical tables and reports.
+2. **Complex integrations:** Businesses can extend BPA to include custom fields and tables from external solutions, which can then be incorporated into BPA's analytical tables and reports.
 
 3. **Integration with Third-Party Systems:** BPA is designed to work with data from third-party ERP systems like SAP, enabling a comprehensive view that includes both Dynamics 365 data and external sources.
 

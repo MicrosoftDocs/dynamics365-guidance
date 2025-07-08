@@ -245,6 +245,8 @@ items:
                     href: implementation-guide/extend-your-solution-guidance-product-fo.md
                   - name: Extend customer engagement apps
                     href: implementation-guide/extend-your-solution-guidance-product-ce.md
+                  - name: Extend Business Central
+                    href: /dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview?toc=/dynamics365/guidance/toc.json
                   - name: Extension checklist
                     href: implementation-guide/extend-your-solution-checklist.md
                   - name: Extension case study
@@ -599,9 +601,9 @@ items:
                     href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
                   - name: Vendor invoice line charges entity
                     href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
-      - name: Independent software vendor (ISV) guidance
+      - name: Guidance for software development companies
         items:
-          - name: ISV tools and resources overview
+          - name: Software development tools and resources overview
             href: isv/index.yml
       - name: Administration guide
         items:

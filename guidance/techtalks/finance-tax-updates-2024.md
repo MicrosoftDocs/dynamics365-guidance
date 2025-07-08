@@ -64,7 +64,7 @@ This unification means that businesses no longer need to rely on a separate tier
 
 ## Looking ahead to future enhancements
 
-As Dynamics 365 continues to evolve, the roadmap for tax calculation looks promising. The introduction of the Universal Tax Rate API marks the beginning of more advanced integrations. Microsoft's collaboration with ISVs such as Vertex and Avalara ensures that businesses continue to receive timely updates and support for their tax needs.
+As Dynamics 365 continues to evolve, the roadmap for tax calculation looks promising. The introduction of the Universal Tax Rate API marks the beginning of more advanced integrations. Microsoft's collaboration with software development partners such as Vertex and Avalara ensures that businesses continue to receive timely updates and support for their tax needs.
 
 For companies operating in the European Union and other regions, future updates are expected to expand the scope of the API and provide more localized tax support. As tax regulations grow increasingly complex, these updates are crucial in helping businesses remain compliant and efficient in their operations.
 

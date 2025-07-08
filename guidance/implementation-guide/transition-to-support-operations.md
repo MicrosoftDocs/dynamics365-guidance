@@ -47,7 +47,7 @@ New requirements can arise from various sources, such as:
 - Minimum viable product (MVP) or phased rollout strategies that defer some features or functions to later stages
 - Changes in connected systems or integrations in your enterprise
 - Changes in the external market or regulatory conditions
-- Incremental functional and technical updates from Microsoft or ISVs
+- Incremental functional and technical updates from Microsoft or partners
 
 Your support team needs to have the resources and means to keep your solution up to date with these new requirements. They also need to have a way to capture and channel the feedback and requests from the users or stakeholders to the right parties.
 

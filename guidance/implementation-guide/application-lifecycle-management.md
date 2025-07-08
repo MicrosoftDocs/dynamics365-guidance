@@ -120,7 +120,7 @@ While you're implementing your solution, you go through multiple stages: Initiat
 When you're live in production, you're in the Operate stage. ALM continues with the following aspects:
 
 - Continuous updates
-- Independent software vendor (ISV) updates
+- Updates from other software development companies
 - Maintenance and support
 - New features
 - Next stage

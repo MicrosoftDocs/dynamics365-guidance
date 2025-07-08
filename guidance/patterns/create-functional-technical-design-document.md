@@ -34,7 +34,7 @@ The template helps you capture a detailed description of the functional and tech
 
 ## Problem and context
 
-In Dynamics 365 solutions, you often need to extend the solution to meet the business requirements. For example, you add components like independent software vendor (ISV) solutions, extensions, plug-ins, new tables, fields, entities, and integrations. You need to make sure that the customer and implementation partner agree on the scope and design of the solution before you start developing. The design documents also help you create training materials and support the solution after you develop it. For these reasons, we recommend that you create design documents that clearly outline all aspects of the solution and are agreed on by all parties.
+In Dynamics 365 solutions, you often need to extend the solution to meet the business requirements. For example, you add components like solutions fro external software development companies, extensions, plug-ins, new tables, fields, entities, and integrations. You need to make sure that the customer and implementation partner agree on the scope and design of the solution before you start developing. The design documents also help you create training materials and support the solution after you develop it. For these reasons, we recommend that you create design documents that clearly outline all aspects of the solution and are agreed on by all parties.
 
 ## When to use this pattern
 
@@ -102,7 +102,7 @@ Follow these steps to complete a combined design document (an FDD/TDD):
 
 1. Complete the "Extra functionality" section.
 
-    The template includes some sample subsections. You can add more subsections if the project needs them. You can also remove any subsections that aren't relevant. This section can include more nonfunctional requirements, add-ins, ISV solutions, other or advanced functionality that needs to be specified or configured separately.
+    The template includes some sample subsections. You can add more subsections if the project needs them. You can also remove any subsections that aren't relevant. This section can include more nonfunctional requirements, add-ins, partner solutions, other or advanced functionality that needs to be specified or configured separately.
 
 1. Complete the "Reporting and analytics" section.
 
