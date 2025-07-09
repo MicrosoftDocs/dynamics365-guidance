@@ -535,10 +535,26 @@ items:
                         href: resources/fs-copilot-import-sample-data.md
                   - name: Field Service Mobile
                     items:
-                      - name: Add custom service reports in Dynamics 365 Field Service
-                        href: resources/fs-reporting-solution-service-reports.md
-                      - name: Vendor self-service for technician management
-                        href: resources/fs-vendor-self-service-for-technician-management.md
+                    - name: Add a custom app module
+                      href: resources/fs-mobile-custom-app-module.md
+                    - name: Add custom service reports
+                      href: resources/fs-reporting-solution-service-reports.md
+                    - name: Create workflows and scripts
+                      href: resources/fs-mobile-automate-business-processes.md
+                    - name: Customize the booking view
+                      href: resources/fs-mobile-booking-calendar.md
+                    - name: Edit the booking and work order form
+                      href: resources/fs-mobile-change-work-order-booking-form.md
+                    - name: Edit the navigation and views
+                      href: resources/fs-mobile-navigation-views.md
+                    - name: Optimize performance
+                      href: resources/fs-improve-mobile-performance.md
+                    - name: Use deep links to the Field Service mobile app
+                      href: resources/fs-mobile-deeplink.md
+                    - name: Use Power Apps to configure the Field Service mobile app
+                      href: resources/fs-power-apps-customization.md
+                    - name: Vendor self-service for technician management
+                      href: resources/fs-vendor-self-service-for-technician-management.md
               - name: Develop solutions
                 items:
                   - name: Set up Azure Pipelines to deploy Field Service
