@@ -1,7 +1,7 @@
 ---
 title: Overview of the Manage project contract business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project contracts.
-ms.date: 05/26/2025
+ms.date: 07/09/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: lalithac
@@ -121,11 +121,13 @@ If you want to implement Dynamics 365 solutions to assist with your *project to 
 
 You can use the following resources to explore more about the *manage project contracts* business process area in Dynamics 365.
 
-- [Project Operations for resource/non-stocked based scenarios deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
 - [Sales process overview](/dynamics365/project-operations/sales/sales-overview)
 - [Project contracts](/dynamics365/project-operations/prod-pma/project-contracts)
 - [Microsoft Dynamics 365 Project Operations Overview (video)](https://community.dynamics.com/videos/post/?postid=86ea94cd-2914-ee11-8f6e-00224827eb85)
-- [Project Operations for stocked/production-based scenarios deployment overview](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview)
+- [Project Operations Integrated with ERP deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
+- [Project Operations for manufacturing deployment overview](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview)
+- [Project Operations TechTalks](https://community.dynamics.com/blogs/post/?postid=a18d2afb-428f-420d-829b-2fd5820132a6)  
+- [Project management in Dynamics 365 Business Central](/dynamics365/business-central/projects-manage-projects)  
 <!-- 
 ## Tags
 

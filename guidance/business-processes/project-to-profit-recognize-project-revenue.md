@@ -35,7 +35,7 @@ Finance stakeholders are responsible for recognizing revenue. Operations stakeho
 
 ## Recognize project revenue process flow
 
-The following diagram illustrates the business process for both project operations that are of any deployment type, including [resource/non-stocked based scenarios](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) and [stocked/production-based scenarios](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview) deployments of Project Operations.
+The following diagram illustrates the business process for both project operations that are of any deployment type, including [Project Operations Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) and [Project Operations for manufacturing](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview).
 
 :::image type="content" source="media/project-to-profit-recognize-project-revenue-flow.svg" alt-text="Flow diagram for the business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-recognize-project-revenue-flow.svg":::
 
@@ -119,7 +119,7 @@ To implement Dynamics 365 solutions to assist with your *recognize project reven
     1. *Recognize project revenue* (the article that you're currently reading)
 1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
-## Related patterns
+<!-- ## Related patterns
 
 The following patterns are available to help guide your implementation of the recognize project revenue business process.
 

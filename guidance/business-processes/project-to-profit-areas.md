@@ -80,7 +80,7 @@ This business process area covers the work for controlling scope and schedule, m
 - Developing a work breakdown structure
 - Creating a project schedule that details the timeline for completing project activities
 
-Learn more at [Plan projects overview]([Plan projects](project-to-profit-plan-projects-overview.md)).
+Learn more at [Plan projects overview](project-to-profit-plan-projects-overview.md).
 <!-- ## Resource a project
 
 This business process area focuses on ensuring that projects have the necessary resources to be completed successfully, including equipment, materials, and personnel. It involves identifying resource requirements, securing the necessary resources, and managing them throughout the project lifecycle.

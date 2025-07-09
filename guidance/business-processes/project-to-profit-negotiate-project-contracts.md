@@ -4,7 +4,7 @@ description: Learn how to effectively negotiate project contracts using Dynamics
 author: edupont04  
 contributors:  
 ms.topic: concept-article 
-ms.date: 05/26/2025
+ms.date: 07/09/2025
 ms.author: edupont  
 ms.reviewer: edupont  
 ---
@@ -31,13 +31,11 @@ Defining project billing terms involves several key stakeholders, each playing a
 
 ## Negotiate project contracts process flow
 
-The following diagrams illustrate the business process for the different deployment types of Project Operations.
-
-### Deployment scenarios 1 and 2 for Lite deployment and for resource or non-stocked based scenarios
+The following diagram illustrates the business process for Core deployments and for Project Operations Integrated with ERP
 
 :::image type="content" source="media/project-to-profit-negotiate-project-contracts-flow-lite.svg" alt-text="Flow diagram for the business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-negotiate-project-contracts-flow-lite.svg":::
 
-The *negotiate project contracts* business process flow diagram covers the following steps for the *contract manager* and *legal team* roles in [Lite deployments](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [resource/non-stocked based scenarios](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview).
+The *negotiate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Core deployments](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [Project Operations Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) deployments.
 
 1. Start.  
 1. *Adjust contract*
@@ -47,19 +45,16 @@ The *negotiate project contracts* business process flow diagram covers the follo
 
     1. If the customer approves the contract, then *Finalize contract*.
     1. If the customer doesn't approve the contract, then *revise contract*, and then *obtain customer approval* again.
-1. End.  
-<!-- 
-> [!NOTE]  
-> Steps 2-4 are in one swim lane that's dedicated to a Project Manager, Project Accountant, or Project Supervisor role. -->
+1. End
 
-### Deployment scenario 3 for Project Operations for stocked or production-based scenarios
+<!-- ### Deployment scenario 3 for Project Operations for manufacturing
 
 > [!NOTE]
 > This section doesn't currently map to the latest version of the [business process catalog](about.md).
 
 :::image type="content" source="media/project-to-profit-negotiate-project-contracts-flow-stocked.png" alt-text="Flow diagram that's explained after the image." lightbox="media/project-to-profit-negotiate-project-contracts-flow-stocked.png":::
 
-The process flow diagram for the project operations for stocked/production-based scenario includes the following steps.
+The process flow diagram for deployments with Project Operations for manufacturing includes the following steps.
 
 1. Start.  
 1. *Review/add cost and sales prices*  
@@ -68,7 +63,7 @@ The process flow diagram for the project operations for stocked/production-based
 1. *Review billing rules*  
 1. *Add advances and retainers*  
 1. End.  
-
+ -->
 <!-- > [!NOTE]  
 > Steps 2-6 are in one swim lane that's dedicated to a Project Manager, Project Accountant, or Project Supervisor role.   -->
 
@@ -115,11 +110,10 @@ If you want to implement Dynamics 365 solutions to assist with your *Negotiate p
 1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)  
 1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md) 
 
-## Related resources
+## Related content
 
 You can use the following resources to learn more about the *Negotiate project contracts* process in Dynamics 365.
 
-- [Project Operations non-stocked based scenario TechTalk](https://community.dynamics.com/blogs/post/?postid=a18d2afb-428f-420d-829b-2fd5820132a6)
 - [Manage project contracts](/dynamics365/project-operations/pro/sales/manage-contracts-sales)
 - [Manage project price lists on project contracts](/dynamics365/project-operations/sales/contracts-manage-project-price-lists)
 - [Advances and retainer-based contracts](/dynamics365/project-operations/pro/sales/set-up-advances-retainer-based-contracts-sales)
@@ -127,6 +121,10 @@ You can use the following resources to learn more about the *Negotiate project c
 - [Understand how cost prices, sales prices, transfer prices, and taxes work together](/dynamics365/project-operations/project-accounting/understand-cost-price-sales-prices-transfer-price-taxes)
 - [Project contracts - Training](/training/modules/get-started-project-sales-management/06-project-contracts?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.get-started-features-project-operations)
 - [Create and apply vendor payment retention terms](/dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms)
+- [Project Operations Integrated with ERP deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
+- [Project Operations for manufacturing deployment overview](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview)  
+- [Project Operations TechTalks](https://community.dynamics.com/blogs/post/?postid=a18d2afb-428f-420d-829b-2fd5820132a6)  
+- [Project management in Dynamics 365 Business Central](/dynamics365/business-central/projects-manage-projects)  
 
 ## Contributors
 

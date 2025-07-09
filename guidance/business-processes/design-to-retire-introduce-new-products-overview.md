@@ -165,9 +165,9 @@ If you want to implement Dynamics 365 solutions to assist with your *introduce n
 1. *Retire products*
 1. *Analyze product performance*
 
-## Related information
+## Related content
 
-You can use the following resources to learn more about the Introduce new products process in Dynamics 365.
+You can use the following resources to learn more about the *Introduce new products* process in Dynamics 365.
 
 - [Register new items - Business Central](/dynamics365/business-central/inventory-how-register-new-items)
 
@@ -175,7 +175,7 @@ You can use the following resources to learn more about the Introduce new produc
 
 - [Overview of inventory, purchasing, and returns in Dynamics 365 Field Service](/dynamics365/field-service/inventory-purchasing-returns-overview)
 
-- [Project Operations for resource/non-stocked based scenarios deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
+- [Project Operations Integrated with ERP overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
 
 - [Set up a product catalog - Sales](/dynamics365/sales/set-up-product-catalog-walkthrough)
 

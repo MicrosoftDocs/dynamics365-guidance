@@ -4,7 +4,7 @@ description: Learn how to estimate project contracts effectively in Dynamics 365
 author: edupont04  
 contributors:  
 ms.topic: concept-article 
-ms.date: 04/22/2025
+ms.date: 07/09/2025
 ms.author: lalithac
 ms.reviewer: edupont  
 ---  
@@ -33,39 +33,27 @@ The creation of a project contract involves several key stakeholders, each playi
 
 ## Estimate project contracts business process flow
 
-The following diagrams illustrate the business process for the different deployment types of Project Operations.
-
-### Deployment scenarios 1 and 2 for Lite deployment and for resource or non-stocked based scenarios
+The following diagrams illustrate the business process for Project Operations Core deployments and for Project Operations Integrated with ERP
 
 :::image type="content" source="media/project-to-profit-estimate-project-contracts-flow-lite.svg" alt-text="Flow diagram for the business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-estimate-project-contracts-flow-lite.svg":::
 
-The *estimate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Lite deployments](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [resource/non-stocked based scenarios](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview).
+The *estimate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Core deployments](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) deployments.
 
 1. Start
 1. *Create quote*  
 1. *Determine products*
 1. *Identify resources*
 1. *Present to customer*
-<!-- The process flow diagram for the  includes the following steps.
-
-1. Start.  
-2. Enter/update contract name and contract lines.  
-3. Enter/update project contract line details.  
-4. Create Projects.  
-5. Create invoice schedule.  
-6. End.   -->
+1. End
 <!-- 
-> [!NOTE]  
-> Steps 2-5 are in one swim lane that's dedicated to a Sales Manager, Accounting Manager, Project Manager or Project Assistant. -->
-
-### Deployment scenario 3 for stocked or production-based scenarios
+### Deployment scenario 3 for Project Operations for manufacturing
 
 > [!NOTE]
 > This section doesn't currently map to the latest version of the [business process catalog](about.md).
 
 :::image type="content" source="media/project-to-profit-estimate-project-contracts-flow-stocked.png" alt-text="Flow diagram for the more complex deployment, and the steps in the business process are explained in the paragraphs after the image." lightbox="media/project-to-profit-estimate-project-contracts-flow-stocked.png":::
 
-The process flow diagram for [stocked/production-based scenarios](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview) deployments of Project Operations includes the following steps.
+The process flow diagram for [Project Operations for manufacturing](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview) deployments includes the following steps.
 
 1. Start.  
 2. Decision point: *Is this an agreement with a prospect?*  
@@ -83,10 +71,10 @@ The process flow diagram for [stocked/production-based scenarios](/dynamics365/p
    1. If yes, *create billing rule and enter details*.  
    2. If no, continue to step 9.  
 9. End.  
-10. *Create projects* (subsequent business process after you end).  
-
+10. *Create projects* (subsequent business process after you end).   -->
+<!-- 
 > [!NOTE]  
-> Steps 2-8 are in one swim lane for a Sales Manager, Accounting Manager, Project Manager, or Project Assistant.  
+> Steps 2-8 are in one swim lane for a Sales Manager, Accounting Manager, Project Manager, or Project Assistant.   -->
 
 ## Implement the estimate project contracts business process
 
@@ -152,13 +140,14 @@ The following patterns are available to help guide your implementation of the se
 
 You can use the following resources to learn more about the *Estimate project contracts* business process in Dynamics 365.
 
-- [Project Operations non-stocked based scenario TechTalk](https://community.dynamics.com/blogs/post/?postid=a18d2afb-428f-420d-829b-2fd5820132a6)
-- [Project Operations for resource/non-stocked based scenarios deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
-- [Project Operations for stocked/production-based scenarios deployment overview](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview)
 - [Project contracts](/dynamics365/project-operations/prod-pma/project-contracts)
 - [Get started with project management in Dynamics 365 Project Operations](/training/modules/get-started-project-management/)
 - [Get started with project sales management in Dynamics 365 Project Operations](/training/modules/get-started-project-sales-management/06-project-contracts?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.get-started-features-project-operations)
-- [Project contracts - training](/training/modules/get-started-project-sales-management/06-project-contracts?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.get-started-features-project-operations)
+- [Project contracts - training](/training/modules/get-started-project-sales-management/06-project-contracts?ns-enrollment-type=learningpath&ns-enrollment-id=learn-dynamics.get-started-features-project-operations)  
+- [Project Operations Integrated with ERP deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
+- [Project Operations for manufacturing deployment overview](/dynamics365/project-operations/prod-pma/project-operations-prod-order-deployment-overview)
+- [Project Operations TechTalks](https://community.dynamics.com/blogs/post/?postid=a18d2afb-428f-420d-829b-2fd5820132a6)  
+- [Project management in Dynamics 365 Business Central](/dynamics365/business-central/projects-manage-projects)  
 <!-- 
 ## Tags
 

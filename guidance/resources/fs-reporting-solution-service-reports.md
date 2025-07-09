@@ -4,7 +4,7 @@ description: Customize and deploy a reporting solution in Dynamics 365 Field Ser
 #customer intent: As a Dynamics 365 admin, I want to integrate the reporting solution into the production environment so that it is available for technicians.
 author: JonBaker007
 contributors: JonBaker007
-ms.topic: concept-article
+ms.topic: best-practice
 ms.date: 05/12/2025
 ms.author: edupont
 ms.reviewer: edupont

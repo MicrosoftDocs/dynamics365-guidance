@@ -2,7 +2,7 @@
 title: Set up Azure Pipelines for Field Service
 description: This article explains how to set up Azure Pipelines for deploying Field Service and other Dataverse solutions.
 ms.date: 10/31/2024
-ms.topic: concept-article
+ms.topic: best-practice
 author: edupont04
 ms.author: delhalawani
 ms.custom:
