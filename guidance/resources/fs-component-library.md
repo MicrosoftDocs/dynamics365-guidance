@@ -52,9 +52,37 @@ The following sections outline the content of the collection. Each section inclu
 
 ### Field Service Mobile
 
+- Add a custom app module to the Field Service mobile app
+
+  You can create a custom app module to enable other use cases and process that your frontline workers can access. Use the Field Service Mobile app module as a base to reuse components. You can make the custom app available in the mobile app. Learn more at [Add a custom app module to the Field Service mobile app](fs-mobile-custom-app-module.md).
+
 - Add custom service reports in Dynamics 365 Field Service
 
   You can implement a reporting solution with a custom control and relevant customizations so that technicians can generate service reports that summarize their work. The custom control works well in Field Service Mobile, which your technicians will appreciate. Learn more at [Add custom service reports in Dynamics 365 Field Service](fs-reporting-solution-service-reports.md).
+
+- Create workflows and scripts for the Field Service mobile app
+
+  You can automate business processes to work with the Field Service mobile app. Use tools such as Power Automate flows, Dataverse workflows, JavaScript, or business rules. Learn more at [Create workflows and scripts for the mobile app](fs-mobile-automate-business-processes.md).
+
+- Customize the mobile app booking view
+
+  You can customize the booking view on the mobile app by adding custom fields, including fields from different tables such as the Work Order table. Learn more at [Customize the booking view](fs-mobile-booking-calendar.md).
+
+- Edit the booking and work order form
+
+  You can customize the **Booking and Work Order** form in the Field Service mobile app to meet your business needs. Learn more at [Edit the booking and work order form](fs-mobile-change-work-order-booking-form.md).
+
+- Edit the navigation and views
+
+  In the Field Service mobile app, you can change navigation, forms, and views to suit your business purposes. Learn more at [Edit the navigation and views on the mobile app](fs-mobile-navigation-views.md).
+
+- Use deep links to the Field Service mobile app
+
+  Because multiple apps might be needed to complete onsite work, you can allow technicians to create deep links from the Dynamics 365 Field Service mobile app to other apps and vice versa. Learn more at [Use deep links to the Field Service mobile app](fs-mobile-deeplink.md).
+
+- Use Power Apps to configure the Field Service mobile app
+
+  For other customization uses with Power Apps, go to [Use Power Apps to configure the Field Service mobile app](fs-power-apps-customization.md).
 
 ### Copilot Studio
 
