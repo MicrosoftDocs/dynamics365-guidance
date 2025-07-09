@@ -2,7 +2,7 @@
 title: Field mapping for schedule board settings in Dynamics 365 Field Service
 description: Understand field mapping for schedule board settings in Field Service to enhance ALM practices and troubleshoot issues effectively.
 ms.date: 09/03/2024
-ms.topic: reference
+ms.topic: best-practice
 author: edupont04
 ms.author: delhalawani
 ms.custom:

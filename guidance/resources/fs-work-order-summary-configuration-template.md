@@ -2,7 +2,7 @@
 title: Work order summary configuration template
 description: Learn how to configure custom summaries of work orders in Dynamics 365 Field Service by importing and editing a base configuration.
 ms.date: 01/28/2025
-ms.topic: reference
+ms.topic: best-practice
 author: SabrinaDiBartolomeo
 ms.author: sabrinadi
 ms.custom:

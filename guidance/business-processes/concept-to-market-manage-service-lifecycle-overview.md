@@ -135,7 +135,6 @@ You can use the following resources to learn more about the *manage service life
 - [Create Item Cards for Goods or Services](/dynamics365/business-central/inventory-how-register-new-items)
 - [Product information overview - Supply Chain Management](/dynamics365/supply-chain/pim/product-information?context=%2Fdynamics365%2Fcontext%2Fcommerce)
 - [Overview of inventory, purchasing, and returns in Dynamics 365 Field Service](/dynamics365/field-service/inventory-purchasing-returns-overview)
-- [Project Operations for resource/non-stocked based scenarios deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
 - [Set up a product catalog Walkthrough (Dynamics 365 Sales)](/dynamics365/sales/set-up-product-catalog-walkthrough)
 - [Product information overview - Supply Chain Management](/dynamics365/supply-chain/pim/product-information)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate](/credentials/certifications/d365-functional-consultant-supply-chain-management/)

@@ -2,7 +2,7 @@
 title: Transport summary configuration across environments
 description: Learn how to migrate Copilot summary configuration between environments with Dynamics 365 Field Service.
 ms.date: 02/03/2025
-ms.topic: reference
+ms.topic: best-practice
 author: SabrinaDiBartolomeo
 ms.author: sabrinadi
 ms.custom:

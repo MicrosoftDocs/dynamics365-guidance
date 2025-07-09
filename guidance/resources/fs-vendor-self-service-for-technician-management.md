@@ -1,7 +1,7 @@
 ---
 title: Vendor self-service for technician management
 description: Learn how to set up and use the Vendor self-service for technician management solution.
-ms.topic: concept-article
+ms.topic: best-practice
 ms.date: 05/09/2025
 author: vibhutinair23
 ms.author: vibhutinair

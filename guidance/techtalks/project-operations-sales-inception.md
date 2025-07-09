@@ -22,9 +22,9 @@ Dynamics 365 Project Operations helps businesses streamline their project sales 
 
 Dynamics 365 Project Operations supports multiple deployment options to meet your requirements. There are essentially three [types of deployments](/dynamics365/project-operations/environment/determine-deployment-type):
 
-- [Lite deployment–deal to proforma invoicing](/dynamics365/project-operations/environment/determine-deployment-type#lite)
-- [Project Operations for resource/non-stocked scenarios](/dynamics365/project-operations/environment/determine-deployment-type#integrated)
-- [Project Operations for stocked/production order scenarios](/dynamics365/project-operations/environment/determine-deployment-type#pma)
+- [Core deployment–deal to proforma invoicing](/dynamics365/project-operations/environment/determine-deployment-type#lite)  
+- [Project Operations Integrated with ERP](/dynamics365/project-operations/environment/determine-deployment-type#integrated)  
+- [Project Operations for manufacturing](/dynamics365/project-operations/environment/determine-deployment-type#pma)  
 
 The following diagram shows the architecture of solutions that involve Dynamics 365 Project Operations.
 

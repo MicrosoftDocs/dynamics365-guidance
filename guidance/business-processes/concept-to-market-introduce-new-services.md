@@ -185,7 +185,6 @@ You can use the following resources to learn more about the Introduce new servic
 - [Product information overview - Commerce](/dynamics365/supply-chain/pim/product-information?context=%2Fdynamics365%2Fcontext%2Fcommerce)
 - [Product information overview - Supply Chain Management](/dynamics365/supply-chain/pim/product-information)
 - [Overview of inventory, purchasing, and returns in Dynamics 365 Field Service](/dynamics365/field-service/inventory-purchasing-returns-overview)
-- [Project Operations for resource/non-stocked based scenarios deployment overview](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview)
 - [Set up a product catalog - Sales](/dynamics365/sales/set-up-product-catalog-walkthrough)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate - Certifications](/credentials/certifications/d365-functional-consultant-supply-chain-management/)
 - [Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Expert - Certifications](/credentials/certifications/d365-supply-chain-management-functional-consultant-expert/)

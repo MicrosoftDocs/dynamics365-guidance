@@ -2,7 +2,7 @@
 title: Sample telemetry dashboard for Field Service mobile app offline profile usage
 description: Discover how to use Kusto queries with the sample dashboard for the Dynamics 365 Field Service mobile app's offline profiles.
 ms.date: 12/11/2024
-ms.topic: concept-article
+ms.topic: best-practice
 author: edupont04
 ms.author: jaduples
 ---
