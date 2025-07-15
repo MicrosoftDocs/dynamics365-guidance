@@ -10,17 +10,17 @@ ms.custom:
 ---
 # Custom work order summary with related case details
 
-- This article describes how you can extend work order summaries to include fields from related case entities.
+This article describes how you can extend work order summaries to include fields from related case entities.
 
 Learn more about prerequisites on how to configure work order summary at [Work order summary with Copilot in Field Service](/dynamics365/field-service/work-order-recap).
 
 ## Business scenario
 
-- Organizations often begin service requests as support cases, capturing key context like issue descriptions, urgency, and communication history. When these cases are converted into work orders, technicians may lose access to this valuable information.
+Organizations often begin service requests as support cases, capturing key context like issue descriptions, urgency, and communication history. When these cases are converted into work orders, technicians may lose access to this valuable information.
 
 ## Solution
 
-- Dynamics 365 Field Service allows administrators to extend the Work Order Summary with fields from related case entities. The following section outlines how to configure the Work Order Summary to include related case details, ensuring technicians receive all relevant information briefly.
+Dynamics 365 Field Service allows administrators to extend the Work Order Summary with fields from related case entities. The following section outlines how to configure the Work Order Summary to include related case details, ensuring technicians receive all relevant information briefly.
 
 ## Configuration
 
