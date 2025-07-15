@@ -1,13 +1,13 @@
 ### YamlMime:Landing
-title: ISV tools and resources
+title: Tools and resources for software development companies
 summary: Find tools and guidance to help you build solutions with Dynamics 365 and Power Platform as an independent software vendor (ISV).
 
 metadata:
-  title: Tools and resources for independent software vendors (ISVs)
+  title: Tools and resources for software development companies
   description: Find tools and guidance to help you build apps and services with Dynamics 365 and Power Platform.
   author: edupont04
   ms.author: edupont
-  ms.date: 02/25/2025
+  ms.date: 07/15/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.subservice: guidance
   ms.service: dynamics-365

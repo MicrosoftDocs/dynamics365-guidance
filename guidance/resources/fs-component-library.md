@@ -1,7 +1,7 @@
 ---
 title: Sample library for Field Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 05/12/2025
+ms.date: 07/15/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: erdipple
@@ -44,11 +44,11 @@ The following sections outline the content of the collection. Each section inclu
 
 - Work order summary configuration template
 
-  Administrators who want to replace the default summary of work orders in Dynamics 365 Field Service and configure their own to meet their business needs must start from scratch to set up the configuration. Learn more at [Work order summary configuration](/dynamics365/guidance/resources/fs-work-order-summary-configuration-template).
+  Administrators who want to replace the default summary of work orders in Dynamics 365 Field Service and configure their own to meet their business needs must start from scratch to set up the configuration. Learn more at [Work order summary configuration](fs-work-order-summary-configuration-template.md).
 
 - Transport summary configurations across environments
 
-  Copilot in Field Service provides predefined summaries for specific tables. With summary configuration, administrators can replace the default summaries and configure their own to tailor to their business needs. They can configure the summary for two tables: Work Order and Bookable Resource Booking. Learn more at [Transport summary configurations across environments](/dynamics365/guidance/resources/fs-transport-summary-configuration).
+  Copilot in Field Service provides predefined summaries for specific tables. With summary configuration, administrators can replace the default summaries and configure their own to tailor to their business needs. They can configure the summary for two tables: Work Order and Bookable Resource Booking. Learn more at [Transport summary configurations across environments](fs-transport-summary-configuration.md).
 
 ### Field Service Mobile
 
@@ -94,7 +94,7 @@ The following sections outline the content of the collection. Each section inclu
 
   Go through the steps to create account and contact data that you can use for demonstrations of Dynamics 365 Field Service environments. Learn more at [Use Copilot to create sample data for Field Service](/dynamics365/guidance/resources/fs-copilot-import-sample-data).
 
-## Related information
+## Related content
 
 - [Use the schedule board in Field Service](/dynamics365/field-service/work-with-schedule-board)  
 - [Universal Resource Scheduling for Dynamics 365 Field Service overview](/dynamics365/field-service/universal-resource-scheduling-for-field-service)  

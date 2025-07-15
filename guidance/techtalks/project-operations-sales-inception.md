@@ -1,14 +1,14 @@
 ---
 title: TechTalk - Sales and inception with Dynamics 365 Project Operations 
 description: Get a summary of a TechTalk video about sales and project inception business processes in Dynamics 365 Project Operations.
-ms.date: 11/15/2024
+ms.date: 07/15/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted
 ---
 
-# TechTalk: Sales and inception with Dynamics 365 Project Operations
+# TechTalk Sales and inception with Dynamics 365 Project Operations
 
 In today's business landscape, efficient project management is crucial for ensuring seamless operations, especially in sales and project inception. Dynamics 365 Project Operations helps organizations manage every phase of project inception, from generating leads to winning contracts. At the same time, it supports project-based sales capabilities.
 
@@ -18,11 +18,11 @@ We based this article on [a TechTalk](https://youtu.be/wZ3z2noYXDQ) that you can
 
 ## Overview of sales and inception in Dynamics 365 Project Operations
 
-Dynamics 365 Project Operations helps businesses streamline their project sales lifecycle to ensure smoother transitions between sales and operations. It provides an integrated solution that supports the entire sales and inception process. The system is designed to manage everything from lead generation to opportunity tracking and contract creation. These capabilities make it a go-to solution for organizations that work on project-based services. 
+Dynamics 365 Project Operations helps businesses streamline their project sales lifecycle to ensure smoother transitions between sales and operations. It provides an integrated solution that supports the entire sales and inception process. The system is designed to manage everything from lead generation to opportunity tracking and contract creation. These capabilities make it a go-to solution for organizations that work on project-based services.  
 
 Dynamics 365 Project Operations supports multiple deployment options to meet your requirements. There are essentially three [types of deployments](/dynamics365/project-operations/environment/determine-deployment-type):
 
-- [Core deployment–deal to proforma invoicing](/dynamics365/project-operations/environment/determine-deployment-type#lite)  
+- [Project Operations Core](/dynamics365/project-operations/environment/determine-deployment-type#lite)  
 - [Project Operations Integrated with ERP](/dynamics365/project-operations/environment/determine-deployment-type#integrated)  
 - [Project Operations for manufacturing](/dynamics365/project-operations/environment/determine-deployment-type#pma)  
 
