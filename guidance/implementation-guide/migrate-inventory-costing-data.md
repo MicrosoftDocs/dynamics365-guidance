@@ -2,6 +2,7 @@
 title: Migrate inventory costing data for your items
 description: Read about the process for migrating inventory costing data for your items when you use Dynamics 365 Supply Chain Management to manage your inventory.
 ms.date: 08/22/2022
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit

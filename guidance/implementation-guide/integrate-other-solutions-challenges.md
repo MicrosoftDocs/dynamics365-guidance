@@ -4,6 +4,7 @@ description: Learn how to plan ahead for common integration challenges between o
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/26/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

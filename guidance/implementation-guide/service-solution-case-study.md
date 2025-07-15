@@ -5,6 +5,7 @@ description: Learn how an agricultural business improved its warehouse operation
 author: taksatoms
 ms.author: edupont
 ms.date: 01/30/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

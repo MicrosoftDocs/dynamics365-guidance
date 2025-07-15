@@ -4,6 +4,7 @@ description: Find guidance on how to adopt a cloud mindset across an organizatio
 author: taksatoms
 ms.author: edupont
 ms.date: 01/10/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

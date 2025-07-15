@@ -4,6 +4,7 @@ description: Read a case study about a travel company that moved from a system w
 author: vaniaf
 ms.author: vaniaf
 ms.date: 01/17/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

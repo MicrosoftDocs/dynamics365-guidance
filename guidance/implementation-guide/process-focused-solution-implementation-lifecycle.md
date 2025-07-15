@@ -2,6 +2,7 @@
 title: Base the implementation lifecycle on processes
 description: Learn how to use the Success by design framework to make your implementation lifecycle process-centric by focusing on business processes.
 ms.date: 01/07/2025
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
 ms.author: raprofit

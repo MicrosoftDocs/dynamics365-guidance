@@ -4,6 +4,7 @@ description: Learn how to use app configurations, low-code/no-code customization
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 07/08/2025
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

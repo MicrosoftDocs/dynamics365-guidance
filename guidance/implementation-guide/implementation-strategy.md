@@ -4,6 +4,7 @@ description: Learn how to define a clear and effective implementation strategy f
 author: edupont04
 ms.author: veneva
 ms.date: 01/05/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

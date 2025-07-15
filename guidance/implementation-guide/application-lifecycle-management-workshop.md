@@ -4,6 +4,7 @@ description: Learn how to prepare for an application lifecycle management worksh
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

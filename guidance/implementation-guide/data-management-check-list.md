@@ -4,6 +4,7 @@ description: Review a detailed checklist for managing data as part of implementi
 author: vaniaf
 ms.author: vaniaf
 ms.date: 01/18/2024
+ms.update-cycle: 1095-days
 ms.topic: checklist
 ms.custom:
   - evergreen

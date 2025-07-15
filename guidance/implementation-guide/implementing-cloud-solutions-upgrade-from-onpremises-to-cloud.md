@@ -4,6 +4,7 @@ description: Learn the key points of migrating from an on-premises solution to D
 author: taksatoms
 ms.author: edupont
 ms.date: 01/11/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

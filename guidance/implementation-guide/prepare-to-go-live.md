@@ -4,6 +4,7 @@ description: Learn how to prepare your production environment, deploy your solut
 author: vaniusca
 ms.author: vaniaf
 ms.date: 01/30/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen
