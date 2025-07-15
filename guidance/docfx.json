@@ -75,7 +75,7 @@
   },
   "fileMetadata": {
     "ms.subservice":{
-      "reference-architecture/**.*":"reference-architecture",
+      "reference-architecture/**.*":"reference-architecture"
     },
     "ms.collection":{
       "fasttrack/**.*":"FastTrack"

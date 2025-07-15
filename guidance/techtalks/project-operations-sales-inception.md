@@ -1,14 +1,14 @@
 ---
 title: TechTalk - Sales and inception with Dynamics 365 Project Operations 
 description: Get a summary of a TechTalk video about sales and project inception business processes in Dynamics 365 Project Operations.
-ms.date: 07/14/2025
+ms.date: 07/15/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted
 ---
 
-# TechTalk: Sales and inception with Dynamics 365 Project Operations
+# TechTalk Sales and inception with Dynamics 365 Project Operations
 
 In today's business landscape, efficient project management is crucial for ensuring seamless operations, especially in sales and project inception. Dynamics 365 Project Operations helps organizations manage every phase of project inception, from generating leads to winning contracts. At the same time, it supports project-based sales capabilities.
 
