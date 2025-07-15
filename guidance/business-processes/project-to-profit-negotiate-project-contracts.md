@@ -31,11 +31,11 @@ Defining project billing terms involves several key stakeholders, each playing a
 
 ## Negotiate project contracts process flow
 
-The following diagram illustrates the business process for Core deployments and for Project Operations Integrated with ERP
+The following diagram illustrates the business process for Project Operations Core and for Project Operations Integrated with ERP
 
 :::image type="content" source="media/project-to-profit-negotiate-project-contracts-flow-lite.svg" alt-text="Flow diagram for the business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-negotiate-project-contracts-flow-lite.svg":::
 
-The *negotiate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Core deployments](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [Project Operations Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) deployments.
+The *negotiate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Project Operations Core](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [Project Operations Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview). Deployments with Project Operations for manufacturing are more complex as described in the section [Deployment scenario 3](#deployment-scenario-3).  
 
 1. Start.  
 1. *Adjust contract*
@@ -75,6 +75,8 @@ Use the following table to guide you in negotiating a project contract.
 
 ### Deployment scenarios 1 and 2
 
+This section describes the configuration for the business process in deployments with Project Operations Core and for Project Operations Integrated with ERP.
+
 | Process step | Process stage | Process modifier | Application: Navigation and Entity |
 |--|--|--|--|
 | [Manage Project Price List](/dynamics365/project-operations/sales/contracts-manage-project-price-lists) | Develop; Base; Configuration | Early; Gold; At least one | **Sales**: Sales > Price Lists<br>**Import Data**: *Project Contract Project Price List* |
@@ -82,6 +84,8 @@ Use the following table to guide you in negotiating a project contract.
 | [Create Advances/Retainers](/dynamics365/project-operations/pro/sales/set-up-advances-retainer-based-contracts-sales) | Develop; Optional; Operational | Continuous | **Sales**: Sales > Project Contracts > Advances and Retainers<br>**Import Data**: *Project Contract Retainers* |
 
 ### Deployment scenario 3
+
+This section describes the configuration for the business process in deployments with Project Operations for manufacturing.
 
 | Process step | Process stage | Process modifier | Application: Navigation and Entity |
 |--|--|--|--|

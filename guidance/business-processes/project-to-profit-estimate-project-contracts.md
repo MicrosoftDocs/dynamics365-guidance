@@ -4,7 +4,7 @@ description: Learn how to estimate project contracts effectively in Dynamics 365
 author: edupont04  
 contributors:  
 ms.topic: concept-article 
-ms.date: 07/09/2025
+ms.date: 07/14/2025
 ms.author: lalithac
 ms.reviewer: edupont  
 ---  
@@ -33,11 +33,11 @@ The creation of a project contract involves several key stakeholders, each playi
 
 ## Estimate project contracts business process flow
 
-The following diagrams illustrate the business process for Project Operations Core deployments and for Project Operations Integrated with ERP
+The following diagrams illustrate the business process for Project Operations Core and for Project Operations Integrated with ERP.
 
 :::image type="content" source="media/project-to-profit-estimate-project-contracts-flow-lite.svg" alt-text="Flow diagram for the business process, which is explained in the paragraphs after the image." lightbox="media/project-to-profit-estimate-project-contracts-flow-lite.svg":::
 
-The *estimate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Core deployments](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) deployments.
+The *estimate project contracts* business process flow diagram covers the following steps for the *contract manager* role in [Project Operations Core](/dynamics365/project-operations/pro/project-operations-overview-lite) and for [Integrated with ERP](/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) deployments. Deployments with Project Operations for manufacturing are more complex as described in the section [Deployment scenario 3](#deployment-scenario-3).  
 
 1. Start
 1. *Create quote*  
@@ -84,7 +84,7 @@ The following tables show the configurations available, and the sequence recomme
 
 ### Deployment scenarios 1 and 2
 
-[!INCLUDE [bus-proc-config-table-explained](../includes/bus-proc-config-table-explained.md)]
+This section describes the configuration for the business process in deployments with Project Operations Core and for Project Operations Integrated with ERP. [!INCLUDE [bus-proc-config-table-explained](../includes/bus-proc-config-table-explained.md)]
 
 | Process step | Process stage | Process modifier | Application: Navigation and Entity |
 |--|--|--|--|
@@ -93,7 +93,7 @@ The following tables show the configurations available, and the sequence recomme
 
 ### Deployment scenario 3
 
-[!INCLUDE [bus-proc-config-table-explained](../includes/bus-proc-config-table-explained.md)]
+This section describes the configuration for the business process in deployments with Project Operations for manufacturing [!INCLUDE [bus-proc-config-table-explained](../includes/bus-proc-config-table-explained.md)]
 
 | Process step | Process stage | Process modifier | Application: Navigation and Entity |
 |--|--|--|--|

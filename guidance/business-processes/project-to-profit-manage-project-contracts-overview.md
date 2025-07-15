@@ -1,7 +1,7 @@
 ---
 title: Overview of the Manage project contract business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project contracts.
-ms.date: 07/09/2025
+ms.date: 07/14/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: lalithac
@@ -62,23 +62,24 @@ The manage project contracts process involves gathering client requirements, est
 
 1. *Manage project contracts*
 
-1. *Create project contract*
+    1. [Estimate project contracts](project-to-profit-estimate-project-contracts.md)  
 
-1. [*Estimate project contracts* ](project-to-profit-estimate-project-contracts.md)  
+    1. [Negotiate project contracts](project-to-profit-negotiate-project-contracts.md)  
 
-1. [*Negotiate project contracts*](project-to-profit-negotiate-project-contracts.md)  
+    1. *Finalize project contracts*
 
-1. *Finalize project contracts*
+    1. *Maintain project contracts*
 
-1. *Maintain project contracts*
+    1. *Process project change requests*
 
-1. *Process project change requests*
-
-1. *Define project stakeholders*
+    1. *Define project stakeholders*
 
 1. End
 
-## Manage project contract benefits
+> [!NOTE]
+> Due to technical problems, the flow diagram currently shows the business process *Finalize project contracts* twice. As the IDs show, it's a mistake, and we hope to get the diagram updated accordingly once we've fixed the technical problems with the underlying tool.
+
+## Manage project contracts benefits
 
 Implementing technology in the project contract management process offers numerous advantages. The following section outlines the top three benefits that an organization might monitor and measure for project contract management.
 
