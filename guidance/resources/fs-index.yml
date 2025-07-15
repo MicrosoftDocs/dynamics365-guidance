@@ -76,6 +76,22 @@ landingContent:
         - text: Work order summary configuration template
           url: fs-work-order-summary-configuration-template.md
 
+# Card
+  - title: Work orders
+    linkLists:
+      - linkListType: sample
+        links:
+        - text: Work order summary configuration template
+          url: fs-work-order-summary-configuration-template.md
+        - text: Transport summary configurations across environments
+          url: fs-transport-summary-configuration.md
+        - text: Customized Work order summary with custom tables
+          url: field-service-work-order-summary-custom-tables.md
+        - text: Customized Work order summary with related case details
+          url: field-service-work-order-summary-related-case-details.md
+
+
+
 # Analytics card
   - title: Analytics
     linkLists:
