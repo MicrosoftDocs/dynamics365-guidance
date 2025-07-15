@@ -36,8 +36,10 @@ Traces
 | extend customDim = parse_json(customDimensions)  
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),   
          subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),  
-         queueResult = parse_json(tostring(customDim["omnichannel.result"])).DisplayName  
-| where subscenario == "RTQ" and queueResult == "[Insert Your Fallback queue name]"   
+         queueResult = parse_json(tostring(customDim["omnichannel.result"])).DisplayName
+| extend scenario = tostring(customDim["powerplatform.analytics.scenario"])  
+| where scenario == "ConversationDiagnosticsScenario"  
+| where subscenario == "RouteToQueue" and queueResult == "[Insert Your Fallback queue name]"   
 | project timestamp, conversationId, queueResult  
 ```
 
@@ -53,7 +55,9 @@ Traces
 | extend customDim = parse_json(customDimensions)  
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),  
          subscenario = tostring(customDim["powerplatform.analytics.subscenario"])  
-| extend omnichannelAdditionalInfo = tostring((customDim["omnichannel.additional_info"]))  
+| extend omnichannelAdditionalInfo = tostring((customDim["omnichannel.additional_info"]))
+| extend scenario = tostring(customDim["powerplatform.analytics.scenario"])  
+| where scenario == "ConversationDiagnosticsScenario"  
 | where omnichannelAdditionalInfo contains "OverflowTrigger"  
 | project timestamp, conversationId, subscenario, omnichannelAdditionalInfo  
 ```
@@ -72,7 +76,9 @@ Traces
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),   
          subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),  
          agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions  
-| where subscenario == "AgentReject"  
+| extend scenario = tostring(customDim["powerplatform.analytics.scenario"])  
+| where scenario == "ConversationDiagnosticsScenario"  
+| where subscenario == "CSRRejected"  
 | summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation  
 | summarize rejectionCount = sum(agentRejectionCount),   
             agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount))   
