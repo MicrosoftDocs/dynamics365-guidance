@@ -94,20 +94,20 @@ Traces
 ```kusto
 let _endTime = datetime(2024-11-21T22:33:55Z);  
 let _startTime = datetime(2024-09-22T21:33:55Z);  
-Traces  
+traces  
 | where timestamp >= _startTime and timestamp <= _endTime  
 | extend customDim = parse_json(customDimensions)  
-| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),   
-         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),  
-         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions  
-| where subscenario == "AgentReject"  
-| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation  
-| summarize rejectionCount = sum(agentRejectionCount),   
-            agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount))   
-    by conversationId // Aggregate results by conversation  
-| where rejectionCount > 1 // Filter conversations with more than one rejection  
-| project conversationId, rejectionCount, agentRejectionDetails  
+| extend agentId = tostring(customDim["omnichannel.target_agent.id"]), // Extract agent ID from custom dimensions  
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"])  
+| extend scenario = tostring(customDim["powerplatform.analytics.scenario"])  
+| where scenario == "ConversationDiagnosticsScenario"  
+| where subscenario == "CSRRejected"  
+| summarize totalRejections = count() by agentId // Count total rejections for each agent  
+| sort by totalRejections desc // Sort by rejection count in descending order  
+| top 20 by totalRejections // Select top 20 agents  
+| project agentId, totalRejections // Project relevant columns  
 ```
+  
 ## Representative assignment took longer than two minutes
 
 **Purpose**: Diagnose conversations where representative assignment took longer than two minutes.  
@@ -123,14 +123,14 @@ let subscenarios = traces
 | extend customDim = parse_json(customDimensions)  
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),  
          subscenario = tostring(customDim["powerplatform.analytics.subscenario"])  
-| where subscenario in ("RTQ", "AgentAccept")  
+| where subscenario in ("RouteToQueue", "CSRAccepted")  
 | project timestamp, conversationId, subscenario;  
 // Find the latest RTQ before each AgentAccept  
 let latestRTQsBeforeAgentAccept = subscenarios  
-| where subscenario == "RTQ"  
+| where subscenario == "RouteToQueue"  
 | join kind=inner (  
     subscenarios  
-    | where subscenario == "AgentAccept"  
+    | where subscenario == "CSRAccepted"  
     | project agentAcceptTime = timestamp, conversationId  
 ) on conversationId  
 | where timestamp < agentAcceptTime // Ensure RTQ is before AgentAccept  
