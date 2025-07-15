@@ -34,7 +34,7 @@ To meet this business need, the organization chooses fields from the following t
   - **City** - to inform technicians of the service location, aiding in scheduling and travel preparation.
 - Work Order Prerequisites:
   - **Prerequisite Type** - An Option set field with the option values **Safety** and **Access** to highlight critical preparations.
-  - **Prerequisite Ask** - A text field to specify mandatory actions before work begins such as *Complete Safety Induction*.
+  - **Prerequisite Ask** - A text field to specify mandatory actions before work begins such as *Complete safety instructions*.
 
 ## Prerequisites
 
