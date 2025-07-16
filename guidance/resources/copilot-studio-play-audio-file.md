@@ -5,7 +5,9 @@ author: edupont04
 ms.author: viange
 ms.topic: concept-article
 ms.date: 01/08/2025
-ms.custom: O25-Service
+ms.custom:
+  - O25-Service
+  - sfi-image-nochange
 ---
 
 # Play secure audio file from Copilot Studio

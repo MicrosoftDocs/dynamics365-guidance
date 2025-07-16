@@ -5,11 +5,13 @@ author: rramju
 ms.author: ramara
 ms.topic: how-to #Required; don't change.
 ms.date: 08/08/2024
-ms.custom: 
-    - bap-template
-    - O25-Service
 ms.reviewer: edupont
 ms.collection: #Required; don't change.
+ms.custom:
+    - bap-template
+    - O25-Service
+    - sfi-image-nochange
+    - sfi-ropc-nochange
 ---
 
 # Sample adaptor for Channel Integration Framework 2.0 and Dynamics 365 Customer Service

@@ -5,7 +5,9 @@ author: edupont04
 ms.author: viange
 ms.topic: concept-article
 ms.date: 02/05/2025
-ms.custom: O25-Service
+ms.custom:
+  - O25-Service
+  - sfi-image-nochange
 ---
 
 # Using Bot Framework Composer skill to add DTMF aggregation to Copilot Studio classic for voice support
