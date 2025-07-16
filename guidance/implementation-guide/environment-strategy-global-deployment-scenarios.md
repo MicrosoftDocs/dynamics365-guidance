@@ -4,6 +4,7 @@ description: Learn how to choose between a global single-environment or a global
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/16/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

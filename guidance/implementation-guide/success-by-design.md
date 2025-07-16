@@ -2,6 +2,7 @@
 title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
 ms.date: 12/02/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
 ms.author: veneva

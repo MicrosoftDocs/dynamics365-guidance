@@ -2,6 +2,7 @@
 title: Delivery approach for training plans for implementation projects
 description: Find guidance about how to define how you run training based on your training plan for your Dynamics 365 implementation project.
 ms.date: 06/26/2023
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: TimoGossen
 ms.author: timogoss

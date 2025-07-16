@@ -4,6 +4,7 @@ description: Learn how to prepare your support operations for Dynamics 365 proje
 author: taksatoms
 ms.author: edupont
 ms.date: 01/31/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

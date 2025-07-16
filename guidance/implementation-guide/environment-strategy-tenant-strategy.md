@@ -5,6 +5,7 @@ description: Learn how to decide on a tenant strategy for your Microsoft cloud s
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 08/22/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

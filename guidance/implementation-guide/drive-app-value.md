@@ -4,6 +4,7 @@ description: Find guidance on how to approach a business-focused digital transfo
 author: taksatoms
 ms.author: edupont
 ms.date: 12/12/2023
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

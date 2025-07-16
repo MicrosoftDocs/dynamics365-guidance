@@ -5,14 +5,16 @@ author: riblack-microsoft
 ms.author: riblack
 ms.topic: concept-article
 ms.date: 01/19/2024
+ms.update-cycle: 1095-days
 ms.service: dynamics-365
+content_well_notification: AI-contribution
 ms.custom:
   - evergreen
   - ai-seo-date: 01/29/2024
   - ai-gen-docs-bap
   - ai-gen-title
   - ai-gen-desc
-content_well_notification: AI-contribution
+  - sfi-image-nochange
 ---
 
 # Secure your Power Pages

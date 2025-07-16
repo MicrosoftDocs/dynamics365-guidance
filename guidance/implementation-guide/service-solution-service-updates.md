@@ -4,6 +4,7 @@ description: Learn about the types, cadence, and benefits of service updates for
 author: taksatoms
 ms.author: edupont
 ms.date: 11/12/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

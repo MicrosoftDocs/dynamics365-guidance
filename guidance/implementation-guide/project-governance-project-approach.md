@@ -4,6 +4,7 @@ description: Learn how to choose and adapt a project approach that suits your Dy
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
+ms.update-cycle: 1095-days
 ms.topic: how-to
 ms.custom:
   - evergreen

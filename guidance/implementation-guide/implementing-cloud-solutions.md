@@ -4,6 +4,7 @@ description: Learn how to adopt a cloud mindset, migrate from on-premises to onl
 author: taksatoms
 ms.author: edupont
 ms.date: 01/06/2025
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

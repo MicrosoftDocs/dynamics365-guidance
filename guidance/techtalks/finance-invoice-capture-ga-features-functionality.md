@@ -6,6 +6,7 @@ ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ai-usage: ai-assisted
+ms.custom: sfi-image-nochange
 ---
 
 # TechTalk: Invoice capture features and functionality

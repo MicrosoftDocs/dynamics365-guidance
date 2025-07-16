@@ -4,6 +4,7 @@ description: Meet the Dynamics 365 implementation guide and start learning the c
 author: timogossen
 ms.author: timogoss
 ms.date: 11/21/2024
+ms.update-cycle: 1095-days
 ms.topic: overview
 ms.custom:
   - evergreen

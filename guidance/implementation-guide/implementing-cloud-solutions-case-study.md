@@ -4,6 +4,7 @@ description: Learn how a company with retail locations across Australia used a h
 author: taksatoms
 ms.author: edupont
 ms.date: 01/11/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

@@ -2,6 +2,7 @@
 title: Case study in go-live review and readiness
 description: Learn from a case study how to prepare your Dynamics 365 project for a smooth go-live, including outlines on the decision made and lessons learned.
 ms.date: 01/30/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: vaniusca
 ms.author: vaniaf

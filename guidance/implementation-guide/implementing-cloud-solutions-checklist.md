@@ -4,6 +4,7 @@ description: Use this checklist to help you get ready for your Dynamics 365 impl
 author: ReneeW-CPub
 ms.author: renwe
 ms.date: 01/11/2024
+ms.update-cycle: 1095-days
 ms.topic: checklist
 ms.custom:
   - evergreen

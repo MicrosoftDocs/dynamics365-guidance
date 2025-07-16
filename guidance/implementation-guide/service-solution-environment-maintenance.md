@@ -4,6 +4,7 @@ description: Learn how to plan and execute maintenance tasks for your Dynamics 3
 author: taksatoms
 ms.author: edupont
 ms.date: 01/30/2024
+ms.update-cycle: 1095-days
 ms.topic: best-practice
 ms.custom:
   - evergreen

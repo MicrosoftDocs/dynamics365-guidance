@@ -4,6 +4,7 @@ description: Learn about the different options and patterns for integrating Dyna
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/26/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

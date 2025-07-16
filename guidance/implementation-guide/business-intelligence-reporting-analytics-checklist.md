@@ -4,6 +4,7 @@ description: Use this checklist to plan and execute a reporting and analytics st
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
+ms.update-cycle: 1095-days
 ms.topic: checklist
 ms.custom:
   - evergreen

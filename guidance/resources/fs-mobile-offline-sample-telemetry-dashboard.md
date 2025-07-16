@@ -5,6 +5,7 @@ ms.date: 12/11/2024
 ms.topic: best-practice
 author: edupont04
 ms.author: jaduples
+ms.custom: sfi-image-nochange
 ---
 
 # Sample telemetry dashboard for Field Service mobile app offline profile usage

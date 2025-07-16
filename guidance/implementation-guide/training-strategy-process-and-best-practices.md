@@ -2,6 +2,7 @@
 title: Training process and best practices
 description: Find best practices for the training strategy in Dynamics 365 implementation projects, including an outline on training as an ongoing process.
 ms.date: 06/20/2023
+ms.update-cycle: 1095-days
 ms.topic: best-practice
 author: TimoGossen
 ms.author: timogoss

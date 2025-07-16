@@ -4,6 +4,7 @@ description: Learn how to align your project team with your business goals, and 
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/22/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

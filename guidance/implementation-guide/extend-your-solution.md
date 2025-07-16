@@ -4,6 +4,7 @@ description: Learn how to customize Dynamics 365 apps to fit your business needs
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 07/08/2025
+ms.update-cycle: 1095-days
 ms.topic: overview
 ms.custom:
   - evergreen

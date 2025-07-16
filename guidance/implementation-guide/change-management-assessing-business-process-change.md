@@ -4,6 +4,7 @@ description: Find guidance about how to identify changes in a Dynamics 365 imple
 author: taksatoms
 ms.author: edupont
 ms.date: 06/19/2023
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

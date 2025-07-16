@@ -4,6 +4,7 @@ description: Learn about the states and transitions of your Dynamics 365 environ
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/16/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

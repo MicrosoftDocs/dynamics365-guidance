@@ -2,6 +2,7 @@
 title: Plan your solution deployment and release
 description: Learn how to plan the deployment and release of your Dynamics 365 solution, based on your business goals and needs.
 ms.date: 04/27/2023
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
 ms.author: veneva
