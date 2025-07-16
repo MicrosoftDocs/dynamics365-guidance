@@ -4,6 +4,7 @@ description: Learn how to monitor your Dynamics 365 environments for optimal per
 author: taksatoms
 ms.author: edupont
 ms.date: 06/05/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

@@ -4,6 +4,7 @@ description: Learn how to integrate your Dynamics 365 apps with other solutions,
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

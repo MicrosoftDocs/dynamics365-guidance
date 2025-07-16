@@ -4,6 +4,7 @@ description: Learn how to use change streams in a business-focused digital trans
 author: taksatoms
 ms.author: edupont
 ms.date: 01/11/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

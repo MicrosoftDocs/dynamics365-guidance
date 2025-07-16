@@ -5,6 +5,7 @@ description: Before you start a cloud implementation project, learn how Dynamics
 author: taksatoms
 ms.author: edupont
 ms.date: 01/10/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

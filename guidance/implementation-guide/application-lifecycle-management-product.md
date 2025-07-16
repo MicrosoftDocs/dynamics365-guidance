@@ -4,6 +4,7 @@ description: Learn how to use application lifecycle management (ALM) tools and b
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/19/2024
+ms.update-cycle: 1095-days
 ms.topic: best-practice
 ms.custom:
   - evergreen

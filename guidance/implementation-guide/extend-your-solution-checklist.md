@@ -4,6 +4,7 @@ description: Use this checklist to plan and track your extensibility strategy fo
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024
+ms.update-cycle: 1095-days
 ms.topic: checklist
 ms.custom:
   - evergreen

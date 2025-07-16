@@ -4,6 +4,7 @@ description: Learn how to run an implementation project with Dynamics 365 apps, 
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
+ms.update-cycle: 1095-days
 ms.topic: how-to
 ms.custom:
   - evergreen

@@ -2,6 +2,7 @@
 title: Case study for implementation project training strategies
 description: Read a case study about an organization that added a training plan to its Dynamics 365 implementation project.
 ms.date: 06/26/2023
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: TimoGossen
 ms.author: timogoss

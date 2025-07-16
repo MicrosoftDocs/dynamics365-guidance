@@ -4,6 +4,7 @@ description: Learn how to design and apply a project governance model that helps
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/22/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

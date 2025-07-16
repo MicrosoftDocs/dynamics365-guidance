@@ -4,6 +4,7 @@ description: Learn how to assess and improve the effectiveness of common project
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/23/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

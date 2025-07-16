@@ -2,6 +2,7 @@
 title: Checklist for process-focused solutions
 description: Use this checklist to make sure you follow the best practices for defining, implementing, and optimizing your business processes for your Dynamics 365 solution.
 ms.date: 01/16/2024
+ms.update-cycle: 1095-days
 ms.topic: checklist
 author: edupont04
 ms.author: veneva

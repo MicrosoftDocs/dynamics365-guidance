@@ -4,6 +4,7 @@ description: Learn how to plan your environment strategy to balance compliance, 
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/16/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

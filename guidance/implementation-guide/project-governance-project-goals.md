@@ -4,6 +4,7 @@ description: Learn about the importance of project goals in Dynamics 365 impleme
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/22/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

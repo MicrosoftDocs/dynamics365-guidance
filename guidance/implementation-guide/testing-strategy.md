@@ -4,6 +4,7 @@ description: Learn why testing your Dynamics 365 solution is essential for a suc
 author: edupont04
 ms.author: veneva
 ms.date: 01/07/2025
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

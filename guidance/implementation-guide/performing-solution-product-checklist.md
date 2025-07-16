@@ -4,6 +4,7 @@ description: Use this checklist to make sure that your Dynamics 365 implementati
 author: TimoGossen
 ms.author: timogoss
 ms.date: 01/29/2024
+ms.update-cycle: 1095-days
 ms.topic: checklist
 ms.custom:
   - evergreen

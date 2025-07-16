@@ -4,6 +4,7 @@ description: Learn how to use the extensibility model, the development architect
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/24/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen

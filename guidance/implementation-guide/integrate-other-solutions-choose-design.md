@@ -4,6 +4,7 @@ description: Learn how to choose the best design for your Dynamics 365 apps inte
 author: abunduc-ms
 ms.author: abunduc
 ms.date: 01/25/2024
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
   - evergreen
