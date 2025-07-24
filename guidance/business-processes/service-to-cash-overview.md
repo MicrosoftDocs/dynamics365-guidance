@@ -70,7 +70,7 @@ The business process areas are:
 
 - Analyze service operations
 
-Learn more at [Service to cash business process areas overview](service-to-cash-areas-overview.md).  
+Learn more at [Service to deliver business process areas overview](service-to-cash-areas-overview.md).  
 
 The third column in the diagram displays the downstream business processes.
 
@@ -120,31 +120,22 @@ There are product specific capabilities that interact with the *service to deliv
 
 - **Dynamics 365 Supply Chain Management:** Includes asset management and service management capabilities, and better together benefits when integrated Dynamics 365 Field Service
 
-## Service to cash business process flow
+## Service to deliver business process flow
 
 The following diagram shows the high-level flow of the *service to deliver* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/service-to-cash-process-flow.png" alt-text="end-to-end process flow diagram" lightbox="media/service-to-cash-process-flow.png":::
+:::image type="content" source="media/service-to-cash-process-flow.svg" alt-text="end-to-end process flow diagram" lightbox="media/service-to-cash-process-flow.svg":::
 
-The following steps are illustrated in the service to deliver end-to-end business process flow diagram.
+The following steps are illustrated in the service to deliver end-to-end business process flow diagram:
 
-1. Establish servicing policies and procedures
-
-2. Create and manager service resources
-
-3. Create and manage service accounts
-
-4. Manage asset
-
-5. Create work orders
-
-6. Schedule work orders
-
-7. Perform service work
-
-8. Review and close work order
-
-9. Analyze Service Operations
+1. Start
+2. *Service to deliver* business process
+   1. *Develop service strategy*
+   2. *Plan service strategy*
+   3. *Process service orders*
+   4. *Run service operations*
+   5. *Analyze service performance*
+3. End
 
 ## Next steps
 
@@ -155,7 +146,7 @@ If you want to implement Dynamics 365 solutions to assist with your *service to 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
 3. Request a demo or get a free trial of Dynamics 365 solutions for the *service to deliver* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
 
-4. Get an overview of each end-to-end business process area at [Service to cash business process areas overview](service-to-cash-areas-overview.md).  
+4. Get an overview of each end-to-end business process area at [Service to deliver business process areas overview](service-to-cash-areas-overview.md).  
 
 ## Related information
 
