@@ -537,6 +537,20 @@ items:
                         href: resources/fs-use-copilot-studio-create-sample-data.md
                       - name: Use Copilot to create sample data for Field Service
                         href: resources/fs-copilot-import-sample-data.md
+                  - name: Field Service web
+                    items:
+                      - name: Customize the Field Service web app
+                        href: resources/field-service-customize-overview.md
+                      - name: Customization best practices
+                        href: resources/field-service-customize-best-practices.md
+                      - name: Create and edit Field Service columns
+                        href: resources/field-service-customize-columns-fields.md
+                      - name: Customize the work order form
+                        href: resources/field-service-customize-forms.md
+                      - name: Write scripts to implement complex business logic
+                        href: resources/field-service-customize-scripts.md
+                      - name: Change properties of the Booking Card component
+                        href: resources/field-service-customize-booking-card.md
                   - name: Field Service Mobile
                     items:
                     - name: Add a custom app module
