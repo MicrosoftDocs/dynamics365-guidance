@@ -729,18 +729,6 @@ items:
                 href: business-processes/standardize-business-processes.md
               - name: Business processes and a product-centric manufacturing journey
                 href: business-processes/about-product-centric-manufacturing-journey.md
-              - name: Import the catalog to Azure DevOps
-                items:
-                  - name: Import the catalog to Azure DevOps overview
-                    href: business-processes/about-import-catalog-devops.md
-                  - name: End-to-end, process area, process, and scenario work item types
-                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
-                  - name: Configuration deliverable work item type
-                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
-                  - name: Workshop work item type
-                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
-              - name: Import the catalog to Mavim
-                href: business-processes/about-import-catalog-mavim.md
           - name: Acquire to dispose
             items:
               - name: End-to-end scenario - acquire to dispose (ID 10)
@@ -1055,6 +1043,26 @@ items:
                 href: business-processes\administer-to-operate-manage-system-compliance.md
               - name: Define support systems overview
                 href: business-processes\administer-to-operate-support-systems-overview.md
+          - name: Use the catalog
+            items:
+              - name: Import the catalog to Azure DevOps
+                items:
+                  - name: Import the catalog to Azure DevOps overview
+                    href: business-processes/about-import-catalog-devops.md
+                  - name: End-to-end, process area, process, and scenario work item types
+                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
+                  - name: Configuration deliverable work item type
+                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
+                  - name: Workshop work item type
+                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+              - name: Import the catalog to Mavim
+                items:
+                  - name: Import the catalog to Mavim overview
+                    href: business-processes/about-import-catalog-mavim.md
+                  - name: Success by Design with the Dynamics 365 business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim-success-design-d365.md
+                  - name: Navigate the business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim-navigate-business-process-catalog.md
           - name: What's new or changed
             items:
               - name: What's new or changed in the business process catalog
