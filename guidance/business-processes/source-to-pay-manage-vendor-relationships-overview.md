@@ -46,37 +46,19 @@ The following diagram illustrates the *manage supplier relationships* business p
 
 :::image type="content" source="media\source-to-pay-manage-supplier-relationships-overview.svg" alt-text="Diagram showing the business process area of managing supplier relationships." lightbox="media\source-to-pay-manage-supplier-relationships-overview.svg":::
 
-> [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
-
 The process has these steps:
 
 1. Start
-
-2. *Source to pay* end-to-end process
-
-3. *Manage supplier relationships* business process area
-
-    - *Discover suppliers*
-    - *Onboard new suppliers*
-    - *Manage active suppliers*
-    - *Evaluate supplier performance*
-    - *Track supplier certifications and compliance*
-    - *Manage supplier risk*
-    - *Manage supplier contracts*
-    - *Manage supplier pricing*
-
-4. *Source and contract goods and services* business process area  
-
-5. *Procure goods and service* business process area
-
-6. *Manage accounts payable*
-
-7. *Analyze procurement and sourcing* business process  
-
-    Use the data from the previous steps to assess how well the supplier meets your expectations. This helps you make better decisions for future procurement and align your interests with the supplier.
-
-8. End
+2. *Manage supplier relationships* business process area
+   1. *Discover suppliers*
+   2. *Onboard new suppliers*
+   3. *Manage active suppliers*
+   4. *Evaluate supplier performance*
+   5. *Track supplier certifications and compliance*
+   6. *Manage supplier risk*
+   7. *Manage supplier contracts*
+   8. *Manage supplier pricing*
+3. End
 
 ### Benefits
 

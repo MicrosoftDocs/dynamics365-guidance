@@ -42,36 +42,15 @@ The following diagram illustrates the *process supplier rebates and incentives* 
 
 :::image type="content" source="media\source-to-pay-process-supplier-rebates-incentives.svg" alt-text="Diagram of the process supplier rebates and incentives business process flow, showing the connections between the different stages." lightbox= "media\source-to-pay-process-supplier-rebates-incentives.svg":::
 
-<!-- 
+The flow diagram covers the following steps:
+
 1. Start
-
-    1. A parallel branch from Start includes the *Concept to market* end-to-end process
-
-    1. A parallel branch from Start includes the *Design to retire* end-to-end process
-
-2. *Source to pay* end-to-end process
-
-    1. *Configure vendor rebate approval* business process
-
-3. *Define vendor rebate programs* business process
-
-4. *Configure vendor rebate eligibility* business process
-
-5. *Procure materials and services* business process
-
-6. *Generate vendor rebates* business process
-
-7. *Inventory to deliver* end-to-end process
-
-8. *Process vendor rebates* business process
-
-9. *Review rebate transactions* end-to-end process
-
-10. *Analyze rebate transactions* end-to-end process
-
-11. *Record to report* end-to-end process
-
-12. End -->
+2. Identify Rebate/Incentive
+3. Verify Rebate/Incentive Details
+4. Approve Rebate/Incentive?
+   - Yes: Record Rebate/Incentive
+   - No: Resolve Discrepancies
+5. End
 
 ## Process supplier rebates and incentives benefits
 

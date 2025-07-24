@@ -36,20 +36,14 @@ The following diagram illustrates the *Develop a procurement and sourcing strate
 :::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
 
 1. Start
-2. *Source to pay* end-to-end process
-3. *Develop a procurement and sourcing strategy* business process area
+2. *Develop a procurement and sourcing strategy* business process area
     1. *Develop procurement catalogs*
     2. *Develop supplier segments*
     3. *Develop procurement policies*
     4. *Define accounts payable policies*
     5. *Develop spend strategy*  
     6. *Analyze sourcing market*  
-4. *Manage supplier relationships* business process area
-5. *Source and contract goods and services* business process area
-6. *Procure goods and services* business process area
-7. *Manage accounts payable* business process area
-8. *Analyze procurement and sourcing* business process area
-9. End
+3. End
 
 ## Benefits
 

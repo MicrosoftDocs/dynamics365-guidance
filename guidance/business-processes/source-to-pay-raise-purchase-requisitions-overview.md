@@ -23,6 +23,7 @@ Many organizations use purchase requisitions as a formal request made by an empl
 Purchase requisitions aren't mandatory for every organization, but they can be useful when you need more control and visibility over the purchasing process. If you want to include purchase requisitions in your scope, plan to address them before purchase orders, as they affect the downstream processes of creating and approving orders. You can also add purchase requisitions later in your project, but this may require some adjustments in your existing purchasing workflows and policies.
 
 A poorly-defined business process for purchase requisitions can lead to inefficiencies, errors, and delays in the purchasing cycle, as well as increased risk of fraud and non-compliance. While a well-defined process can streamline the approval workflow, improve the accuracy and transparency of the purchasing data, and enhance the collaboration and communication between the purchasing and requesting departments.
+
 ## Stakeholders
 
 Many people across the organization should contribute to the *raise purchase requisitions* business process. The following list provides examples of such stakeholders:
@@ -39,45 +40,15 @@ The following diagram illustrates the *Raise purchase requisitions* business pro
 
 :::image type="content" source="media\source-to-pay-raise-purchase-requisitions-process-flow.svg" alt-text="Diagram of the 'create purchase requisitions' business process." lightbox="media\source-to-pay-raise-purchase-requisitions-process-flow.svg":::
 
-Before you begin, ensure to create an employee. The steps in the process flow diagram are grouped into swim lanes to indicate which role is responsible for each step.
-
-If you're an employee, follow these steps:
+The flow diagram covers the following steps:
 
 1. Start
-1. Manually, identify need of product or service.
-1. Manually, collect information regarding the requirement or services such as product ID or description of service and price.
-1. Create or update purchase requisition.
-1. Add new line and select legal entity.
-1. Select procurement category if the item isn't known.
-1. Enter quantity required.
-1. Select receiving operating unit.
-1. Known price
-
-    1. If yes, then enter unit price if the purchase requisition line is for a category. If the purchase requisition line is for an item and a trade agreement exists, then the price is defaulted for the trade agreement.
-    1. If no, proceed to step 10.
-1. Submit requisition.
-
-If you're a purchasing agent, follow these steps:
-
-1. Navigate to *purchase requisition assigned to me* form.
-1. Request for quotation required.
-
-    1. If yes, then initiate request for quotation (RFQ) process.
-    1. If no, then review or enter unit price and unit of measure.
-1. Select final vendor and attach document (if applicable).
-1. Submit requisition.
-
-If you're a manager or accounting manager, follow these steps:
-
-1. Approval required.
-
-    1. If yes, then accounting manager accesses the *purchase requisition assigned to me* form.
-    1. If no, then proceed to step 18.
-1. Approved
-
-    1. If yes, then proceed to step 17.
-    1. If no, then go to step 5 in the **Employee** swin lane.
-1. Purchase order process initiated.
+1. Identify Requisition Needs
+1. Draft Requisition
+1. Review Requistion
+1. Approve Requisition?
+   - No: Revise Requistion
+   - Yes: Submit Requisition
 1. End
 
 ## Purchase policy overview

@@ -34,79 +34,22 @@ Many people across the organization should contribute to the decision-making pro
 - **Finance department** – Responsible for financial supervision, financial reporting, and analysis.
 - **Executive leadership** – Responsible for payment oversight, approvals, and alignment with the organization's strategic goals, which helps secure the necessary resources and funding.
 
-## Issue and settle vendor payments process flow
+## Issue and settle supplier payments process flow
 
-The following diagram illustrates the *issue and settle vendor payments* business process.
+The following diagram illustrates the *issue and settle supplier payments* business process.
 
 :::image type="content" source="media/source-to-pay-issue-settle-supplier-payments.svg" alt-text="Flow diagram with steps for the process." lightbox="media/source-to-pay-issue-settle-supplier-payments.svg":::
 
-<!-- The *issue and settle vendor payments* process area flow diagram covers the following steps:
+The *issue and settle supplier payments* process area flow diagram covers the following steps:
 
-- *Start*
-
-- *Source to pay* end-to-end process
-
-  Parallel branches to this end-to-end process are the *Design to retire* end-to-end process, *Inventory to Deliver* end-to-end process, and *Concept to market* end-to-end process.
-
-  - *Define policies and procedures for procurement*
-  - *Manage vendor relationship*
-  - *Procure materials and services*
-  - *Process inbound goods*
-  - *Process vendor invoices*
-  - *Issue and settle vendor payments*
-
-    - *Does cash discount apply?* condition
-
-      - A parallel branch for **Yes** leads to the *Configure and apply cash discounts* subprocess.
-      - A parallel branch for **No** leads to the *Is pre-payment?* condition.
-
-    - *Configure and apply cash discounts*
-    - *Is pre-payment?* condition
-
-      - A parallel branch for **Yes** leads to the *Generate and post prepayments* subprocess.
-
-        Downstream to this subprocess is a *Record financial transactions* subprocess that connects to the *Record to Report* end-to-end business process.
-
-      - A parallel branch for **No** leads to the *Generate and post payments* subprocess.
-
-        Downstream to this subprocess is a *Record financial transactions* subprocess that connects to a *Record to Report* end-to-end business process.
-
-    - *Generate and post prepayments*
-    - *Generate and post payments*
-    - *Does promissory notes apply?* condition
-
-      - A parallel branch for **Yes** leads to the *Generate and process promissory notes* subprocess.
-      - A parallel branch for **No** leads to the *Settle vendor transactions* condition.
-
-    - *Generate and process promissory notes*
-    - *Settle vendor transactions*
-    - *Has payment been canceled?* condition
-
-      - A parallel branch for **Yes** leads to the *Cancel a vendor payment* subprocess.
-      - A parallel branch for **Yes** leads to *End*.
-
-    - *Cancel a vendor payment*
-
-- *Design to retire* end-to-end process
-
-  - *Introduce new products and services*
-
-    This process connects to the *Procure materials and services* subprocess.
-
-- *Inventory to deliver* end-to-end process
-
-  - *Process inbound goods*
-  - *Process vendor invoices*
-
-    Downstream to this subprocess is an *Issue and settle vendor payments* subprocess.
-
-- *Concept to market* end-to-end process
-
-  - *Introduce new services*
-
-    This subprocess connects to a *Procure materials and services* subprocess.
-
-- *End* -->
+1. Start
+2. Identify Payment Needs
+3. Prepare Payment
+4. Review Payment
+5. Approve Payment?
+   - No: Revise Payment
+   - Yes: Issue Payment
+6. End
 
 ## Issue and settle supplier payments benefits
 

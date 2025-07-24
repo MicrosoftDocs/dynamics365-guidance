@@ -50,84 +50,16 @@ The following diagram illustrates the *manage the accounts payable* business pro
 :::image type="content" source="media\manage-accounts-payable-process-flow.svg" alt-text="Diagram of the process vendor invoices process flow, showing the connections within the business process area." lightbox="media\manage-accounts-payable-process-flow.svg":::
 
 1. Start
-   1. A parallel branch from 1. Start includes the *Design to retire* end-to-end process.
-      1. Introducing business process area
-      2. *Process goods and services* business process area
-         * *Manage accounts payable* business process
-      3. *Process inbound goods* business process area
-         * *Manage accounts payable* business process
-   2. A parallel branch from 1. Start includes the *Inventory to deliver* end-to-end process.
-      1. *Process inbound goods* business process area
-         * *Manage accounts payable* business process
 2. *Manage accounts payable* end-to-end process
-   1. Decision on prepayment:
-      1. The process starts with a decision point: "is prepayment required?"
-         * If yes, proceed to step 7.
-         * If no, proceed to step 3.
-   2. A parallel branch from step 2 for *Process vendor rebates and incentives*
-3. Processing supplier invoices
-   1. Enter the invoice details into the system.
-   2. Verify the invoice against purchase orders and delivery receipts.
-   3. Post the invoice for payment.
-   4. Proceed to step 4.
-   5. A parallel branch for *Record financial transactions*
-      * Step: record financial transactions
-         1. Action: update the general ledger with the payment details.
-         2. Action: generate financial reports for review.
-4. Disputing invoices
-   1. Decision on disputing invoices:
-      * The process starts with a decision point: "Dispute required?"
-      * If yes,
-         1. Identify discrepancies in the invoice.
-         2. Communicate with the supplier to resolve the dispute.
-         3. Adjust the invoice amount if needed.
-         4. Proceed to step 5.
-      * If no, proceed to step 7.
-5. Receive supplier credits
-   1. Proceed to step 6.
-   2. A parallel branch for *Record financial transactions*
-      * Step: record financial transactions.
-         1. Action: update the general ledger with the payment details.
-         2. Action: generate financial reports for review.
-6. Cancel supplier payments
-   1. Decision on cancellation of payment
-      1. The process starts with a decision point: "Cancel required?"
-         * If yes, cancel supplier payments
-         * If no, proceed to step 11.
-   2. A parallel branch for *Record financial transactions*
-      * Step: record financial transactions.
-         1. Action: update the general ledger with the payment details.
-         2. Action: generate financial reports for review.
-7. Issue and settle supplier payments
-   1. Issue payments
-   2. Settle supplier transactions
-   3. Proceed to step 8.
-   4. A parallel branch for *Record financial transactions*
-      * Step: record financial transactions.
-         1. Action: update the general ledger with the payment details.
-         2. Action: generate financial reports for review.
-8. Managing promissory notes
-   1. Decision on promissory notes
-      1. The process starts with a decision point: "Promissory note required?"
-         * If yes,
-            1. Summarize the total amount payable to each supplier.
-            2. Proceed to step 9.
-         * If no, proceed to step 9.
-   2. A parallel branch for *Record financial transactions*
-      * Step: record financial transactions.
-         1. Action: update the general ledger with the payment details.
-         2. Action: generate financial reports for review.
-9. Correct supplier payments
-   1. Decision on correction of payments
-       1. The process starts with a decision point: " Payment correction required?"
-           * If yes, proceed to step 6.
-           * If no, proceed to step 10.
-   2. A parallel branch for *Record financial transactions*
-      * Step: record financial transactions.
-         1. Action: update the general ledger with the payment details.
-         2. Action: generate financial reports for review.
-10. Process supplier rebates and incentives
-11. End
+   1. *Process supplier invoices*
+   2. *Dispute invoices*
+   3. *Receive supplier credits*
+   4. *Issue and settle supplier payments*
+   5. *Manager promissory notes*
+      - *Cancel supplier payments*
+      - *Correct supplier payments*
+      - *Process supplier rebates and incentives*
+3. End
 
 ## Benefits
 
