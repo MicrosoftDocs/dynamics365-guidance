@@ -149,58 +149,14 @@ The following diagram shows the high-level flow of the *Source to pay* business 
 The following steps are illustrated in the *Source to pay* end-to-end business process flow diagram.
 
 1. Start
-
 2. *Source to pay* end-to-end process
-
-    1. Parallel subprocesses include the following:
-
-        1. *Define procurement catalogs*
-
-        2. *Define procurement and sourcing strategy*
-
-        3. *Manage vendor relationships*
-
-    2. Procure materials and services
-
-       Parallel branches from this subprocess are *acquire to dispose*, *plan to produce*, *order to cash*, *forecast to plan*, *service to cash*, and *project to profit*
-
-3. *Receive item/service required?*
-
-    1. If yes, then connect to *inventory to deliver*
-
-    2. If no, then connect to *process vendor invoice*
-
-4. *Process vendor invoices*
-
-    Parallel branch from this subprocess is *record to report*.
-
-5. *Issues and settle vendor payments*
-
-    Parallel branch from this subprocess is *record to report*.
-
-6. *Process vendor rebates and incentives*
-
-    Parallel branch from this subprocess is *record to report*.
-
-7. End
-
-Parallel branches from Start include the following list:
-
-- *Concept to market* connects to *Define procurement catalogs*
-
-- *Design to retire* connects to *Define procurement catalogs*
-
-- *Forecast to plan* connects to *Procure materials and services*
-
-- *Order to cash* connects to *Procure materials and services*
-
-- *Project to profit* connects to *Procure materials and services*
-
-- *Acquire to dispose* connects to *Procure materials and services*
-
-- *Plan to product* connects to *Procure materials and services*
-
-- *Service to deliver* connects to *Procure materials and services*
+   1. *Develop procurement and sourcing strategy*
+   2. *Manage supplier relationships*
+   3. *Source and contract goods and services*
+   4. *Procure goods and services*
+   5. *Manage accounts payable*
+   6. *Analyze procurement and sourcing*
+3. End
 
 ## Next steps
 

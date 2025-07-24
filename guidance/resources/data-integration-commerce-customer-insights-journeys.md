@@ -6,29 +6,29 @@ contributors: liamkerrigan, meenulaul, petkra, tchilaud
 ms.author: raphel
 ms.reviewer: edupont
 ms.topic: concept-article
-ms.date: 07/16/2025
+ms.date: 07/22/2025
 ---
 
 # Data integration from Dynamics 365 Commerce to Customer Insights - Journeys in near real-time
 
-In today's dynamic retail landscape, delivering exceptional customer experiences is more critical than ever. Customers engage with brands across multiple channels—physical stores, online platforms, and mobile apps—and expect seamless, personalized interactions at every touchpoint. To meet these expectations, retailers need systems that communicate efficiently and in near real-time.
+In today's dynamic retail landscape, delivering exceptional customer experiences is critical. Customers engage with brands across multiple channels—physical stores, online platforms, and mobile apps—and expect seamless, personalized interactions at every touchpoint. To meet these expectations, retailers need systems that communicate efficiently and in near real-time.
 
-This article describes near-real-time marketing processes that require synchronous data integration from Dynamics 365 Commerce to Dynamics 365 Customer Insights – Journeys.It focuses on the following main themes:
+This article describes near real-time marketing processes that require synchronous data integration from Dynamics 365 Commerce to Dynamics 365 Customer Insights – Journeys. It focuses on the following main themes:
 
-- **Automated Transactional Emails**, such as order confirmations, feedback requests, and review prompts.
-- **Enhanced Loyalty Scenarios**, including post-purchase invitations to join loyalty programs.
+- **Automated transactional emails**, such as order confirmations, feedback requests, and review prompts.
+- **Enhanced loyalty scenarios**, including post-purchase invitations to join loyalty programs.
 
-To illustrate these processes, the article shows you how to implement a *Commerce Event Framework* that creates events, stores them in an event store, follows a *Command Query Responsibility Segregation* (CQRS) pattern, and integrates the events with Customer Insights – Journeys through Azure Integration Services. The article uses a sample from the implementation assets GitHub repo at [CommerceEventSample](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample). This sample contains all the custom assets that form the foundation of the solution and makes it easier for you to replicate and adapt this approach in your own environment.
+To illustrate these processes, this article shows how to implement a *Commerce Event Framework* that creates events, stores them in an event store, follows a *Command Query Responsibility Segregation* (CQRS) pattern, and integrates the events with Customer Insights – Journeys through Azure Integration Services. The article uses a sample from the implementation assets GitHub repo at [CommerceEventSample](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample). This sample contains all the custom assets that form the foundation of the solution and makes it easier for you to replicate and adapt this approach in your own environment.
 
-While this approach demonstrates direct near-real-time integrations, asynchronous options might better suit certain business cases. For example, the Commerce Data Exchange (CDX) flow between Commerce Scale Unit (CSU) and other finance and operations apps supports downstream integrations with Dataverse. This integration uses dual-write capabilities or custom connectors. Each option should be carefully evaluated by business and technical teams based on factors such as data latency tolerance, system dependencies, and operational scale.
+While this approach demonstrates direct near real-time integrations, asynchronous options might better suit certain business cases. For example, the Commerce Data Exchange (CDX) flow between Commerce Scale Unit (CSU) and other finance and operations apps supports downstream integrations with Dataverse. This integration uses dual-write capabilities or custom connectors. Business and technical teams should evaluate each option based on factors such as data latency tolerance, system dependencies, and operational scale.
 
-## Why integrate Dynamics 365 Commerce with Customer Insights – Journeys?
+## Business opportunities
 
-Lets examine the business opportunities that this approach brings you.
+Why integrate Dynamics 365 Commerce with Customer Insights – Journeys? Let's examine the business opportunities that this approach brings you.
 
 ### Nurture the complete customer journey
 
-To truly nurture your customers, it's essential to connect with them at every stage of their journey. From welcoming first-time visitors to keeping loyal customers engaged, each interaction should be crafted to make them feel valued. This approach goes beyond individual touchpoints—it means to build a relationship that evolves from the moment they discover your brand to every subsequent purchase and interaction.
+To truly nurture your customers, it's essential to connect with them at every stage of their journey. You welcome first-time visitors, and you want to keep loyal customers engaged, so you want to craft each interaction to make them feel valued. This approach goes beyond individual touchpoints—it builds a relationship that evolves from the moment they discover your brand to every subsequent purchase and interaction.
 
 With the integration of Dynamics 365 Commerce, Customer Insights - Journeys, and Customer Insights - Data, you can guide your customers seamlessly through every step. Imagine offering a warm greeting and discount to a first-time visitor, following up on abandoned carts, or sending personalized recommendations based on browsing behavior. This powerful combination enables you to deliver engaging experiences across purchase, retention, and loyalty stages—turning casual shoppers into brand advocates.
 
@@ -36,7 +36,7 @@ With the integration of Dynamics 365 Commerce, Customer Insights - Journeys, and
 
 Modern retailers understand that personalized customer engagement is key to building loyalty and driving sales. By integrating Dynamics 365 Commerce with Customer Insights – Journeys, retailers can deliver timely, relevant communications that enhance the customer experience across all channels.
 
-Moreover, when the customer is already known and [profiled](/dynamics365/customer-insights/data/marketing-get-started) by Customer Insights - Data, this integration allows for enriched hyper-personalisation of communications. By applying what we know about the customer's preferences, behaviors, and historical interactions, retailers can create communications that feel uniquely tailored to each individual. This capability lights up the seamless interaction between Commerce, Customer Insights - Journeys, and Customer Insights - Data, and helps make sure that every touchpoint reflects a comprehensive understanding of the customer.
+Moreover, Customer Insights - Journeys builds rich hyper-personalization of communications based on [profiles](/dynamics365/customer-insights/journeys/real-time-marketing-ci-profile) in Customer Insights - Data. By applying what we know about the customer's preferences, behaviors, and historical interactions, retailers can create communications that feel uniquely tailored to each individual. This capability lights up the seamless interaction between Commerce, Customer Insights - Journeys, and Customer Insights - Data, and helps make sure that every touchpoint reflects a comprehensive understanding of the customer.
 
 ### Real business impacts of personalization
 
@@ -44,19 +44,19 @@ Imagine a customer purchasing a new pair of shoes through a mobile app. Within m
 
 ### Automated transactional communications
 
-Timely and consistent communication is essential for customer satisfaction. Automated transactional emails—such as order confirmations, shipping notifications, and delivery updates—keep customers informed at every stage of their purchase journey. This automation reduces manual effort and ensures messaging is consistent and accurate, whether the purchase was made online or in-store.
+Timely, consistent communication is essential for customer satisfaction. Automated transactional emails—such as order confirmations, shipping notifications, and delivery updates—keep customers informed at every stage of their purchase journey. This automation reduces manual effort and ensures messaging is consistent and accurate, whether the purchase was made online or in-store.
 
 ### Enhanced loyalty and retention
 
-Post-purchase, customers can receive personalized invitations to join loyalty programs, access exclusive offers, or participate in feedback surveys. By acknowledging their purchases and valuing their opinions, retailers strengthen customer relationships and encourage repeat business.
+Post-purchase, customers can receive personalized invitations to join loyalty programs, access exclusive offers, or participate in feedback surveys. When customers experience that the retailer acknowledges their purchases and values their opinions, retailers strengthen customer relationships and encourage repeat business.
 
-### Delivering Seamless Customer Experiences Across Channels
+### Seamless customer experiences across channels
 
 Let's explore a comprehensive customer journey that illustrates the value of this integration:
 
 1. Discovery across channels  
 
-    Sarah, a tech-savvy shopper, begins her journey on a mobile app during her morning commute, browsing new arrivals and adding items to her wishlist. Later, she continues her exploration on her laptop during lunch, comparing products and reading reviews on the retailer's website.
+    Sarah, a tech-savvy shopper, begins her journey on a mobile app during her morning commute, browsing new arrivals and adding items to her wish list. Later, she continues her exploration on her laptop during lunch, comparing products and reading reviews on the retailer's website.
 
 2. In-store personalized experience  
 
@@ -72,15 +72,15 @@ Let's explore a comprehensive customer journey that illustrates the value of thi
 
 5. Feedback and loyalty invitations  
 
-    The next day, Sarah receives an email inviting her to share feedback about her in-store experience. Appreciating that her opinion matters, she completes the survey, providing valuable insights to the retailer. Recognizing her engagement, the retailer sends a personalized text message inviting her to join their loyalty program. With a simple tap on her mobile app, Sarah enrolls and gains access to exclusive benefits.
+    The next day, Sarah receives an email inviting her to share feedback about her in-store experience. Sarah appreciates that her opinion matters, so she completes the survey, providing valuable insights to the retailer. The retailer recognizes her engagement and sends a personalized text message inviting her to join its loyalty program. With a simple tap on her mobile app, Sarah enrolls and gains access to exclusive benefits.
 
 6. Consistent engagement and rewards  
 
-    Over the following weeks, Sarah receives tailored promotions and content across all channels—email newsletters, mobile app notifications, and personalized offers when she visits the website. Her loyalty points and rewards are updated in real-time, whether she shops online or in-store.
+    Over the following weeks, Sarah receives tailored promotions and content across all channels—email newsletters, mobile app notifications, and personalized offers when she visits the website. Her loyalty points and rewards are updated in real time, whether she shops online or in store.
 
 7. Supporting customer service with a 360-degree view  
 
-    If Sarah ever contacts the retailer's call center, the service agents can see her complete journey—including her latest purchases, shipment updates, and marketing interactions—right within [Dynamics 365 Customer Service](/dynamics365/customer-service/implement/overview). This visibility allows the service team to provide informed and personalized support, ensuring Sarah's experience is smooth and consistent.
+    If Sarah ever contacts the retailer's call center, the service agents can see her complete journey—including her latest purchases, shipment updates, and marketing interactions—right within [Dynamics 365 Customer Service](/dynamics365/customer-service/implement/overview). This visibility lets the service team provide informed, personalized support, ensuring Sarah's experience is smooth and consistent.
 
 8. Building long-term loyalty  
 
@@ -92,13 +92,13 @@ This section digs deeper into each of the tools in the sample.
 
 ### A robust technical architecture
 
-To achieve these capabilities, the solution uses a robust technical architecture designed for seamless data flow and integration between systems. Below is the architecture diagram that visually represents how each component interacts within this solution:
+The solution uses a robust technical architecture to ensure seamless data flow and integration between systems. The following diagram shows how each component interacts within the solution:
 
 :::image type="content" source="media/customer-insights-commerce-architecture3.png" alt-text="Architecture diagram that's explained after the illustration." lightbox="media/customer-insights-commerce-architecture3.png":::
 
 - [Dynamics 365 Commerce](/dynamics365/commerce/welcome)  
 
-  The primary source of truth for customer transactions, encompassing both online and in-store orders. It generates events for customer interactions, ensuring that sales data is accurately captured and available for downstream processing. This component is represented in the diagram as the foundational layer where transactions originate, providing a consistent view of customer activities that drives personalized engagement.
+  The primary source of truth for customer transactions, encompassing both online and in-store orders. It generates events for customer interactions, ensuring that sales data is accurately captured and available for downstream processing. This component is the foundational layer where transactions originate, providing a consistent view of customer activities to drive personalized engagement.
 ​​​​​​​
 - Commerce Event Framework  
 
@@ -106,7 +106,7 @@ To achieve these capabilities, the solution uses a robust technical architecture
 
 - [Azure Function App](/azure/azure-functions/functions-overview?pivots=programming-language-csharp)  
 
-  The Azure Function App polls for new events from the event store, retrieves customer and order information, and acts as an intermediary for downstream services by transforming the data. As depicted in the diagram, it ensures secure, reliable communication between Dynamics 365 Commerce and Azure Service Bus, performing crucial functions such as data enrichment, validation, and orchestration. This step bridges the gap between data generation and workflow orchestration.
+  The Azure Function App polls for new events from the event store, retrieves customer and order information, and transforms the data for downstream services. As depicted in the diagram, it ensures secure, reliable communication between Dynamics 365 Commerce and Azure Service Bus, performing crucial functions such as data enrichment, validation, and orchestration. This step bridges the gap between data generation and workflow orchestration.
 
 - [Azure Cosmos DB](/azure/cosmos-db/introduction)  
 
@@ -118,7 +118,7 @@ To achieve these capabilities, the solution uses a robust technical architecture
 
 - [Azure Logic Apps](/azure/logic-apps/logic-apps-overview)  
 
-  Azure Logic Apps orchestrate workflows, transform data, and route messages to [Customer Insights – Journeys](/dynamics365/customer-insights/journeys/real-time-marketing-overview). As shown in the diagram, they handle the orchestration of events flowing through the architecture, managing errors and retries to ensure reliable execution. Their low-code interface accelerates development by simplifying complex workflow definitions.
+  Azure Logic Apps orchestrates workflows, transform data, and route messages to [Customer Insights – Journeys](/dynamics365/customer-insights/journeys/real-time-marketing-overview). As shown in the diagram, they handle the orchestration of events flowing through the architecture, managing errors and retries to ensure reliable execution. Their low-code interface accelerates development by simplifying complex workflow definitions.
 
 - [Customer Insights – Data](/dynamics365/customer-insights/data/overview)  
 
@@ -130,115 +130,106 @@ To achieve these capabilities, the solution uses a robust technical architecture
 
 ### High-level workflow
 
-To understand how these components work together, the following workflow outlines the sequential steps involved in integrating Dynamics 365 Commerce with Customer Insights – Journeys. This end-to-end process ensures that customer data is captured, enriched, and used effectively to drive personalized engagement.
+The following workflow outlines how these components integrate Dynamics 365 Commerce with Customer Insights – Journeys. This end-to-end process ensures that customer data is captured, enriched, and used effectively to drive personalized engagement.
 
-1. **Event Generation**
+1. Event generation
 
     Transactions occurring in Dynamics 365 Commerce trigger the Commerce Event Framework to generate and store relevant events.
 
-1. **Event Retrieval and Processing**
+1. Event retrieval and processing
 
     The Azure Function App polls for new events, validates them against Azure Cosmos DB to avoid duplication, and retrieves customer and order information as needed.
 
-1. **Message Queuing**
+1. Message queuing
 
     Validated events are placed in the Azure Service Bus queue for reliable delivery.
 
-1. **Workflow Orchestration**
+1. Workflow orchestration
 
-    Azure Logic Apps process the queued messages, transforming the data and initiating the appropriate customer journey.
+    Azure Logic Apps processes the queued messages, transforming the data and initiating the appropriate customer journey.
 
-1. **Customer Engagement**
+1. Customer engagement
 
-    Customer Insights – Journeys executes the customer journey, sending emails, SMS notifications, or other types of communications.
+    Customer Insights – Journeys executes the customer journey, sending emails, text messages, or other types of communications.
 
-### Key Takeaways
+### Key takeaways
 
-- Commerce Event Framework  
+- Use Commerce Event Framework for efficient, scalable event generation.
+- Use Azure Function App for secure, enriched event transformation.
+- Use Azure Cosmos DB for state management and data consistency.
+- Use Azure Service Bus for reliable message delivery.
+- Use Azure Logic Apps for low-code workflow orchestration.
 
-  Efficient, scalable event generation.
-- Azure Function App  
+### Development considerations for implementation
 
-  Secure, enriched event transformation.
-- Azure Cosmos DB  
+To successfully implement the solution, developers must extend and customize several components:
 
-  State management and data consistency.
-- Azure Service Bus  
-
-  Reliable message delivery.
-- Azure Logic Apps  
-
-  Low-code workflow orchestration.
-
-### Development Considerations for Implementation
-
-To successfully implement the solution, developers need to extend and customize several components:
-
-- Dynamics 365 Commerce Extensions  
+- Dynamics 365 Commerce extensions  
 
   Extensions are required for the Commerce Scale Unit (CSU) event framework to capture the necessary events.
-- Purpose-Built Azure Integration Components:
+- Purpose-built Azure integration components:
+
   - Azure Function App  
 
-  Responsible for polling and transforming events, including authentication and data enrichment.
+    Responsible for polling and transforming events, including authentication and data enrichment.
   - Azure Cosmos DB  
 
-  Manages event storage and maintains state for event processing.
+    Manages event storage and maintains state for event processing.
   - Azure Service Bus  
 
-  Provides reliable message queuing to ensure decoupling and fault tolerance.
+    Provides reliable message queuing to ensure decoupling and fault tolerance.
   - Azure Logic App  
 
-  Processes events and integrates them with Customer Insights – Journeys for triggering customer journeys.
+    Processes events and integrates them with Customer Insights – Journeys for triggering customer journeys.
 
 > [!NOTE]
-> FastTrack has created samples for all aspects of the solution covered in this blog. You can access them in the GitHub repository here: [Commerce Event Sample - Dynamics 365 FastTrack Implementation Assets](https://github.com/Microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample)
+> The Microsoft FastTrack team provides samples for all aspects of the solution covered in this article. You can access them in the GitHub repository at [Commerce Event Sample - Dynamics 365 FastTrack Implementation Assets](https://github.com/Microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample)
 
-### Commerce Event Framework - overcoming challenges
+### Overcome challenges with Commerce Event Framework
 
 Traditional integration methodologies are often fraught with limitations such as the "fire-and-forget" approach, latency issues, and inadequate monitoring. Events are dispatched without confirmation of receipt, leading to potential data loss, while delays in data processing can result in outdated information, complicating real-time decision-making. Moreover, limited event tracking makes troubleshooting cumbersome.
 
-The Commerce Event Framework effectively mitigates these challenges through its core features:
+The Commerce Event Framework addresses these challenges with its core features:
 
-- Persisted Event Storage  
+- Persisted event storage  
 
   Intentional design decision to persist events in a read-only event store and made available to poll, with a lightweight event payload. These design choices enhance performance, scalability, and reduce system load.
-- Near Real-Time Integration  
+- Near real-time integration  
 
   Events are processed almost instantaneously, ensuring that customer data remains current.
-- Reliability and Scalability  
+- Reliability and scalability  
 
   Azure Service Bus facilitates dependable message delivery while the architecture scales to handle high volumes of events.
-- Monitoring and Auditing  
+- Monitoring and auditing  
 
   Event tracking capabilities allow for comprehensive monitoring and streamlined troubleshooting.
-- Performance Optimization through CQRS  
+- Performance optimization through CQRS  
 
   By separating read and write operations, the architecture enhances both performance and scalability.
 
-Designed with extensibility and scalability in mind, the Commerce Event Framework empowers developers to handle complex scenarios with ease. Below, we explore the key components that drive this framework, demonstrating how they collectively form a robust integration solution.
+The Commerce Event Framework empowers developers to handle complex scenarios with ease. The next subsections explore the key components that drive this framework and how they form a robust integration solution.
 
 ### CommerceEventsController
 
-The CommerceEventsController handles the main requests related to commerce events. It provides two main endpoints: one for retrieving all commerce events (GetAllCommerceEvents) and another for searching specific events (Search). This enables efficient event retrieval with filtering capabilities to ensure only relevant data is accessed. By using QueryResultSettings, the controller provides flexibility in paginating and filtering the results, making data handling efficient, even with large datasets.
+The CommerceEventsController handles the main requests related to commerce events. It provides two main endpoints: one for retrieving all commerce events (GetAllCommerceEvents) and another for searching specific events (Search). This enables efficient event retrieval with filtering capabilities to ensure only relevant data is accessed. By using `QueryResultSettings`, the controller provides flexibility in paginating and filtering the results, making data handling efficient, even with large datasets.
 
 ### CommerceEventEntity
 
-The CommerceEventEntity is the core data model that represents an individual commerce event. This entity captures detailed information about each event, such as:
+The `CommerceEventEntity` is the core data model representing an individual commerce event. This entity captures detailed information about each event, such as:
 
-- EventTransactionId  
+- `EventTransactionId`  
 
   Unique identifier for the transaction.
-- EventDateTime  
+- `EventDateTime`  
 
   Timestamp for when the event occurred.
-- EventType  
+- `EventType`  
 
   Type of event, such as checkout or cart update.
-- EventChannelId, EventCustomerId, EventStaffId, EventTerminalId  
+- `EventChannelId`, `EventCustomerId`, `EventStaffId`, `EventTerminalId`  
 
   Metadata fields capturing contextual details like channel, customer, staff involved, and terminal used.
-- EventData  
+- `EventData`  
 
   More event-specific data in a serialized format.
 
@@ -246,42 +237,43 @@ This entity forms the backbone of the Commerce Event Framework, providing a stru
 
 ### CommerceEventDataService
 
-The CommerceEventDataService acts as the data handler for managing commerce events within the system. It supports multiple request types, such as retrieving all events (CommerceEventEntityDataRequest), creating new events (CreateCommerceEventEntityDataRequest), and searching events based on criteria (SearchEventEntityDataRequest). This service is essential in bridging the gap between the application logic and the data layer.
+The `CommerceEventDataService` acts as the data handler for managing commerce events within the system. It supports multiple request types, such as retrieving all events (`CommerceEventEntityDataRequest`), creating new events (`CreateCommerceEventEntityDataRequest`), and searching events based on criteria (`SearchEventEntityDataRequest`). This service is essential in bridging the gap between the application logic and the data layer.
 
-- GetCommerceEvents  
+- `GetCommerceEvents`  
 
-  This method queries the underlying SQL view (COMMERCEEVENTSVIEW) to retrieve the list of events, ensuring the data is paginated and filtered as per the provided settings.
-- **´´SearchCommerceEvents  
+  This method queries the underlying SQL view (`COMMERCEEVENTSVIEW`) to retrieve the list of events, ensuring the data is paginated and filtered as per the provided settings.
+- `SearchCommerceEvents`  
 
   This method allows event searches based on specific criteria like event type and date range. It uses caching mechanisms to improve search performance by storing frequently accessed data.
-- CreateCommerceEvent  
+- `CreateCommerceEvent`  
 
   This method inserts new events into the database using a stored procedure. It captures event details such as transaction ID, event type, timestamps, and other metadata. The use of parameterized queries ensures data integrity and security.
 
-The **CommerceEventDataService** is a pivotal component, providing the necessary functions to manage commerce events effectively, supporting the broader goal of reliable and scalable event processing.
+The `CommerceEventDataService` is a pivotal component, providing the necessary functions to manage commerce events effectively, supporting the broader goal of reliable and scalable event processing.
 
 ### CheckoutCartRequestHandler
 
 The CheckoutCartRequestHandler demonstrates how the Commerce Event Framework can be extended to capture specific business events—in this case, the checkout process. When a customer checks out, the handler not only processes the checkout request but also creates a new CommerceEventEntity to capture the checkout event. This event includes relevant metadata, such as the customer ID, channel, transaction ID, and other details.
-The event is then stored using the CreateCommerceEventEntityDataRequest, which persists the event data, ensuring that it can be later retrieved for auditing, analytics, or troubleshooting purposes. The use of TransactionScope ensures that the checkout and event creation are handled atomically, maintaining data consistency.
+The event is then stored using the `CreateCommerceEventEntityDataRequest`, which persists the event data, ensuring that it can be later retrieved for auditing, analytics, or troubleshooting purposes. The use of TransactionScope ensures that the checkout and event creation are handled atomically, maintaining data consistency.
 
 ### AddCartLineRequestHandler
 
-The AddCartLineRequestHandler is another example of extending the Commerce Event Framework to capture specific actions—in this case, adding items to a cart. When a customer adds a product to their cart, this handler processes the AddCartLinesRequest and then creates a CommerceEventEntity to record the action.
-The AddCartLineRequestHandler captures essential event information such as:
+The `AddCartLineRequestHandler` is another example of extending the Commerce Event Framework to capture specific actions—in this case, adding items to a cart. When a customer adds a product to their cart, this handler processes the `AddCartLinesRequest` and then creates a `CommerceEventEntity` to record the action. The `AddCartLineRequestHandler` captures essential event information such as:
 
-- EventType  
+- `EventType`  
 
-  Set to "AddCartLines" to signify an addition of items to the cart.
-- EventTransactionId  
+  Set to `AddCartLines` to signify an addition of items to the cart.
+- `EventTransactionId`  
 
   The unique cart ID associated with the event.
-- EventData  
+- `EventData`  
 
   Serialized details of the items added to the cart, including product IDs.
-- **EventCustomerId**, EventStaffId, EventTerminalId: Metadata to provide more context about the action, such as which customer, staff, or terminal was involved.
+- `EventCustomerId`, `EventStaffId`, `EventTerminalId`  
 
-The event is persisted similarly using the CreateCommerceEventEntityDataRequest, ensuring all cart modification activities are logged and can be audited or used for analytics. As with the checkout process, the use of TransactionScope ensures atomic handling, maintaining data integrity.
+  Metadata to provide more context about the action, such as which customer, staff, or terminal was involved.
+
+The event is persisted similarly using the `CreateCommerceEventEntityDataRequest`, ensuring all cart modification activities are logged and can be audited or used for analytics. As with the checkout process, the use of TransactionScope ensures atomic handling, maintaining data integrity.
 
 Partners and customers can use this framework to create new custom events tailored to their business needs, such as "CustomerCreate" or other domain-specific actions, enhancing the extensibility and adaptability of the solution
 
@@ -289,28 +281,28 @@ Partners and customers can use this framework to create new custom events tailor
 
 The Commerce Event Framework also includes several messaging files that serve as data carriers, encapsulating the requests and responses required to perform various operations. These message classes help standardize the interaction between different layers of the application.
 
-- CommerceEventEntityDataRequest  
+- `CommerceEventEntityDataRequest`  
 
-  Represents a request to retrieve commerce event entities. This serves as the foundational request type for fetching event data from the data service.
-- CreateCommerceEventEntityDataRequest  
+  Represents a request to retrieve commerce event entities. It's the foundational request type for fetching event data from the data service.
+- `CreateCommerceEventEntityDataRequest`  
 
   Handles requests to create new commerce event entities, ensuring that new events are captured in a structured manner.
-- CreateCommerceEventEntityDataResponse  
+- `CreateCommerceEventEntityDataResponse`  
 
   Represents the response containing the outcome of a request to create a commerce event entity, confirming the details of the inserted event.
-- GetCommerceEventLastSyncDataRequest  
+- `GetCommerceEventLastSyncDataRequest`  
 
   Encapsulates the request to retrieve the last synchronization datetime for commerce events, helping keep data consistency.
-- GetCommerceEventLastSyncDataResponse  
+- `GetCommerceEventLastSyncDataResponse`  
 
   Represents the response containing the last sync datetime, used to determine the latest state of data.
-- SearchEventEntityDataRequest  
+- `SearchEventEntityDataRequest`  
 
   Encapsulates the criteria needed to search for specific events, such as date ranges or event types.
-- SearchEventEntityDataResponse  
+- `SearchEventEntityDataResponse`  
 
   Represents the response containing the results of a search request, providing a collection of commerce event entities matching the criteria.
-- SetCommerceEventLastSyncDataRequest  
+- `SetCommerceEventLastSyncDataRequest`  
 
   Handles requests to set or update the last sync datetime for a specific application, ensuring synchronization tracking.
 
@@ -320,38 +312,38 @@ Additionally, events can be cleaned up with a script during package deployment, 
 
 ## Azure Integration Components in detail
 
-Below, we delve into the key Azure integration components that facilitate seamless data flow between Dynamics 365 Commerce and Customer Insights – Journeys, highlighting their roles in ensuring reliability, scalability, and enriched customer experiences.
+This section explains the key Azure integration components that enable seamless data flow between Dynamics 365 Commerce and Customer Insights – Journeys. These components ensure reliability, scalability, and enriched customer experiences.
 
 ### Azure Function App
 
-The Azure Function App is responsible for polling and processing new events from Dynamics 365 Commerce. Triggered at frequent intervals (for example, every minute), it performs several critical tasks:
+The Azure Function App polls and processes new events from Dynamics 365 Commerce. When triggered at frequent intervals (for example, every minute), the Azure Function App performs several critical tasks:
 
 - Authentication  
 
-  The Function App acquires an access token from the authority specified for Dynamics 365 Commerce using OAuth2 client credentials. This ensures secure communication with the CSU endpoint.
-- Polling Events  
+  The Function App gets an access token from the authority specified for Dynamics 365 Commerce using OAuth2 client credentials. This ensures secure communication with the CSU endpoint.
+- Polling events  
 
-  The Function App sends requests to the CSU to fetch events. It retrieves the last processed event from Cosmos DB to ensure only new events are processed, thus preventing duplication.
-- Data Enrichment  
+  The Function App sends requests to the CSU to fetch events. It retrieves the last processed event from Cosmos DB to ensure only new events are processed, preventing duplication.
+- Data enrichment  
 
-  The Function App enriches each event with customer and order details, fetched from the appropriate endpoints, which are combined with event data to provide a complete context.
-- State Management  
+  The Function App enriches each event with customer and order details fetched from the appropriate endpoints. These details are combined with event data to provide complete context.
+- State management  
 
-  Events are stored in Azure Cosmos DB, which tracks properties such as status and retryCount to ensure that each event's processing state is well managed and auditable.
-- Error Handling and Retries  
+  Events are stored in Azure Cosmos DB, which tracks properties such as status and retryCount to ensure each event's processing state is well managed and auditable.
+- Error handling and retries  
 
-  If event retrieval or processing fails, the Function App uses an exponential backoff strategy with a maximum retry count. Failed events are updated in Cosmos DB and retries are attempted until they succeed or reach the retry limit.
+  If event retrieval or processing fails, the Function App uses an exponential backoff strategy with a maximum retry count. Failed events are updated in Cosmos DB, and retries continue until they succeed or reach the retry limit.
 - Sending to Azure Service Bus  
 
-  Once enriched, events are sent to Azure Service Bus for reliable delivery to downstream consumers.
+  After enrichment, events are sent to Azure Service Bus for reliable delivery to downstream consumers.
 
 ### Azure Cosmos DB
 
-Azure Cosmos DB plays a vital role in state management for event processing. It ensures:
+Azure Cosmos DB plays a key role in state management for event processing. It ensures:
 
 - Idempotency  
 
-  Events are tracked by unique identifiers, which guarantees that each event is processed only once.
+  Events are tracked by unique identifiers, guaranteeing that each event is processed only once.
 - Partitioning for Efficiency  
 
   The database uses channel IDs as partition keys to ensure that data is efficiently stored and queried, enabling effective scaling and concurrency management.
@@ -377,19 +369,19 @@ Azure Service Bus ensures reliable message queuing for decoupling the event gene
 
 The Azure Logic App orchestrates the integration process, ensuring that the enriched event data reaches Customer Insights – Journeys. Specific roles include:
 
-- Message Retrieval  
+- Message retrieval  
 
   Logic Apps listen to Azure Service Bus for new messages. Upon receiving them, Logic Apps start the workflow to process customer data.
-- Data Transformation  
+- Data transformation  
 
   The Logic App transforms the enriched data into a format suitable for Customer Insights – Journeys, ensuring all data conforms to the expected structure.
-- Conditional Logic and Creation  
+- Conditional logic and creation  
 
   Logic Apps first check if the contact already exists in Customer Insights. If not, they create new contacts and link existing customer information.
-- Error Handling  
+- Error handling  
 
   Logic Apps have built-in mechanisms for retries, ensuring that any temporary failures in downstream services are retried before escalation.
-- Triggering Customer Journeys  
+- Triggering customer journeys  
 
   Once the customer data is verified and enriched, Logic Apps trigger specific journeys in Customer Insights, such as personalized campaigns or loyalty program invitations.
 
@@ -397,25 +389,25 @@ The Logic App uses a low-code interface, making it easier to define complex work
 
 ## Customer Insights – Journeys
 
-Customer Insights – Journeys is at the heart of transforming enriched customer data into meaningful, actionable experiences. Imagine tailoring your engagements to fit each customer's unique journey—that's exactly what Journeys does, using outputs from Logic Apps to deliver relevant, personalized interactions that truly resonate.
+Customer Insights – Journeys transforms enriched customer data into meaningful, actionable experiences. It tailors engagements to fit each customer's unique journey, using outputs from Logic Apps to deliver relevant, personalized interactions.
 
 ### Key Features of Customer Insights – Journeys
 
-Here's a look at some of the powerful ways you can enhance customer engagement:
+Here are some powerful ways to enhance customer engagement:
 
-- Transactional Emails  
+- Transactional emails  
 
   Automatically send essential transactional information—like order confirmations, shipping updates, and digital receipts. Keeping customers informed at every stage builds trust and transparency, allowing them to feel more connected and confident in their journey with your brand.
-- Feedback Requests  
+- Feedback requests  
 
   Use custom triggers to gather customer feedback at the perfect moment. Whether it's a survey request after a purchase or a simple prompt for a product review, timely engagement helps brands understand their customers better and drive improvements.
-- Loyalty Program Engagement  
+- Loyalty program engagement  
 
-  Logic Apps can automatically trigger journeys that drive engagement in loyalty programs. Send personalized loyalty invitations, keep customers updated on their loyalty points, and deliver exclusive offers. This fosters a sense of value and appreciation, encouraging long-term loyalty.
-- Post-Purchase Engagement  
+  Logic Apps automatically trigger journeys that drive engagement in loyalty programs. They send personalized loyalty invitations, update customers on their loyalty points, and deliver exclusive offers. This fosters a sense of value and appreciation, encouraging long-term loyalty.
+- Post-purchase engagement  
 
   A post-purchase experience can set the tone for future interactions. Using a custom trigger via an HTTPS POST from Logic Apps, you can initiate a journey that sends a post-purchase email including a thank-you message, order details, and product recommendations. This small yet thoughtful interaction helps maintain brand visibility and keeps customers engaged, paving the way for repeat business.
-- The Unified Customer Experience Advantage  
+- The unified customer experience advantage  
 
   Customer Insights – Journeys takes the power of unified customer profiles to the next level. By personalizing each interaction based on comprehensive data, brands can create meaningful, relevant connections that elevate the customer experience.
 - Target Unified Customer Profiles  
@@ -429,9 +421,9 @@ Here's a look at some of the powerful ways you can enhance customer engagement:
 
 Here's how you can set up a custom trigger to initiate a post-purchase journey:
 
-1. Create a Custom Trigger: In Customer Insights – Journeys, navigate to the 'Triggers' section to create a trigger for an event like post-purchase. This is invoked via an HTTPS POST from Azure Logic Apps.
-2. Integrate the Trigger: Use the provided code snippet to seamlessly integrate the trigger with external systems, enabling the journey to be initiated automatically. If you're integrating via an HTTPS POST from a Logic App or another middleware service, simply call the Dataverse base URL along with the trigger name, as detailed in the code snippet. Alternatively, when working in Logic Apps or Power Automate, you can directly invoke the trigger through the connector by utilizing an unbound action for a streamlined integration.
-3. Configure the Journey: Create a new journey that begins with the custom trigger and includes actions like sending a post-purchase email.
+1. Create a custom trigger: In Customer Insights – Journeys, go to the **Triggers** section to create a trigger for an event, such as `post-purchase`. This is invoked via an HTTPS POST from Azure Logic Apps.
+2. Integrate the trigger: Use the provided code snippet to seamlessly integrate the trigger with external systems, enabling the journey to be initiated automatically. If you're integrating via an HTTPS POST from a Logic App or another middleware service, call the Dataverse base URL along with the trigger name, as detailed in the code snippet. Alternatively, when working in Logic Apps or Power Automate, you can directly invoke the trigger through the connector by utilizing an unbound action for a streamlined integration.
+3. Configure the journey: Create a new journey that begins with the custom trigger and includes actions like sending a post-purchase email.
 4. Publish: Finally, publish the journey to make it live—ensuring all relevant content is ready to be sent.
 
 For more in-depth guidance, explore the documentation:
@@ -441,7 +433,7 @@ For more in-depth guidance, explore the documentation:
 
 If you're interested in learning more about using unified customer profiles for richer, more impactful customer journeys, check out our related resources:
 
-- [Unified Customer Profiles in Dynamics 365 Customer Insights – Journeys](/dynamics365/customer-insights/data/marketing-get-started): Learn how unified profiles can take your customer experiences to the next level. 
+- [Unified Customer Profiles in Dynamics 365 Customer Insights – Journeys](/dynamics365/customer-insights/data/marketing-get-started): Learn how unified profiles can take your customer experiences to the next level.  
 - [Data integration with Dynamics 365 Commerce and Dynamics 365 Customer Insights - Data](data-integration-commerce-customer-insights-data.md)  
 
 ## Bring everything together
@@ -456,8 +448,10 @@ Ready to revolutionize your customer engagement strategy? Start today by impleme
 
 - [Overview of data integration with Dynamics 365 Commerce and Customer Insights](data-integration-commerce-customer-insights.md)  
 - [Data integration with Dynamics 365 Commerce and Dynamics 365 Customer Insights - Data](data-integration-commerce-customer-insights-data.md)  
+- [Commerce Data Exchange and commerce channel communications](/dynamics365/commerce/dev-itpro/define-retail-channel-communications-cdx)  
+- [Guidance for dual-write setup](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/connection-setup)  
 
-## Contributors (Alphabetic order)
+## Contributors in alphabetic order
 
 [Liam Kerrigan](https://www.linkedin.com/in/liamkerrigan/) \| Senior Program Manager
 

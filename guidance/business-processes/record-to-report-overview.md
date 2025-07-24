@@ -149,64 +149,36 @@ The following diagram shows the high-level flow of the *record to report* busine
 The following steps are illustrated in the *record to report* end-to-end business process flow diagram.
 
 1. [Forecast to plan](forecast-to-plan-overview.md)  
-
 2. [Hire to retire](hire-to-retire-overview.md)  
-
 3. [Acquire to dispose](acquire-to-dispose-overview.md)  
-
 4. [Inventory to deliver](inventory-to-deliver-overview.md)  
-
 5. [Order to cash](order-to-cash-overview.md)  
-
 6. [Plan to produce](plan-to-produce-overview.md)  
-
 7. [Source to pay](source-to-pay-overview.md)  
-
 8. [Project to profit](project-to-profit-overview.md)  
-
-9. [Service to cash](service-to-cash-overview.md) 
-
+9. [Service to deliver](service-to-cash-overview.md)
 10. [Case to resolution](case-to-resolution-overview.md)  
 
 11. *Record to report*
 
-    1. Parallel branches
-
-        1. *Define the financial ledger structure and organizational accounting policies*
-
-            1. *Manage budgets*
-
-        2. *Comply with tax, audit, and regulatory requirements*
-
-            1. *Manage fund accounting*
-
-    2. *Record financial transactions*
-
-    3. *Maintain cash and bank management transactions*
-
-    4. *Close financial periods*
-
-    5. *Report and analyze financials and cash flow*
+    1. Define accounting policies
+    2. Manage cash
+    3. Manage budgets
+    4. Record financial transactions
+    5. Close financial periods
+    6. Analyze financial performance
 
 12. *Case to resolution*
-
 13. *Acquire to dispose*
-
 14. *Service to deliver*
-
 15. *Inventory to deliver*
-
 16. *Order to cash*
-
 17. *Plan to produce*
-
 18. *Source to pay*
-
 19. *Project to profit*
-
 20. *Forecast to plan*
-
 21. *Hire to retire*
+22. End
 
 ## Next steps
 

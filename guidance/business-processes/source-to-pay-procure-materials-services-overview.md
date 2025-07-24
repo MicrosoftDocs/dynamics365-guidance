@@ -51,30 +51,18 @@ The following diagram illustrates the *procure goods and services* business proc
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-> [!IMPORTANT]
-> The diagram is not yet updated. But the following text is updated. [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
-
 The flow diagram covers the following steps.
 
 1. Start
-
-2. *Source to pay* end-to-end process
-
-3. *Procure goods and services* business process area
-
+2. *Procure goods and services* business process area
     1. *Raise purchase requisitions*
-    2. *Issue purchase order*
-    3. *Manage open purchases*
-    4. *Issue blanket purchase orders*  
+    2. *Issue blanket purchase orders*
+    3. *Issue purchase order*
+    4. *Manage open purchases*
     5. *Return goods to suppliers*  
     6. *Consolidate requisitions*  
     7. *Analyze supply purchase plan*
-
-4. *Manage accounts payable* business process area
-
-5. *Analyze procurement and sourcing* business process area
-
-6. End
+3. End
 
 ## Procure goods and services benefits
 

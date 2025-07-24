@@ -537,6 +537,20 @@ items:
                         href: resources/fs-use-copilot-studio-create-sample-data.md
                       - name: Use Copilot to create sample data for Field Service
                         href: resources/fs-copilot-import-sample-data.md
+                  - name: Field Service web
+                    items:
+                      - name: Customize the Field Service web app
+                        href: resources/field-service-customize-overview.md
+                      - name: Customization best practices
+                        href: resources/field-service-customize-best-practices.md
+                      - name: Create and edit Field Service columns
+                        href: resources/field-service-customize-columns-fields.md
+                      - name: Customize the work order form
+                        href: resources/field-service-customize-forms.md
+                      - name: Write scripts to implement complex business logic
+                        href: resources/field-service-customize-scripts.md
+                      - name: Change properties of the Booking Card component
+                        href: resources/field-service-customize-booking-card.md
                   - name: Field Service Mobile
                     items:
                     - name: Add a custom app module
@@ -571,11 +585,11 @@ items:
                     href: resources/fs-implementing-sla-work-order.md
           - name: Data integration between Commerce and Customer Insights
             items:
-              - name: Overview of data integration between Dynamics 365 Commerce and Dynamics 365 Customer Insights
+              - name: Overview of data integration between Commerce and Customer Insights
                 href: resources/data-integration-commerce-customer-insights.md
-              - name: Dynamics 365 Commerce and Dynamics 365 Customer Insights - Data
+              - name: Commerce and Customer Insights - Data
                 href: resources/data-integration-commerce-customer-insights-data.md
-              - name: Dynamics 365 Commerce and Dynamics 365 Customer Insights - Journeys
+              - name: Commerce and Customer Insights - Journeys
                 href: resources/data-integration-commerce-customer-insights-journeys.md
           - name: Finance and operations apps
             items:
@@ -715,18 +729,6 @@ items:
                 href: business-processes/standardize-business-processes.md
               - name: Business processes and a product-centric manufacturing journey
                 href: business-processes/about-product-centric-manufacturing-journey.md
-              - name: Import the catalog to Azure DevOps
-                items:
-                  - name: Import the catalog to Azure DevOps overview
-                    href: business-processes/about-import-catalog-devops.md
-                  - name: End-to-end, process area, process, and scenario work item types
-                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
-                  - name: Configuration deliverable work item type
-                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
-                  - name: Workshop work item type
-                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
-              - name: Import the catalog to Mavim
-                href: business-processes/about-import-catalog-mavim.md
           - name: Acquire to dispose
             items:
               - name: End-to-end scenario - acquire to dispose (ID 10)
@@ -1041,6 +1043,26 @@ items:
                 href: business-processes\administer-to-operate-manage-system-compliance.md
               - name: Define support systems overview
                 href: business-processes\administer-to-operate-support-systems-overview.md
+          - name: Use the catalog
+            items:
+              - name: Import the catalog to Azure DevOps
+                items:
+                  - name: Import the catalog to Azure DevOps overview
+                    href: business-processes/about-import-catalog-devops.md
+                  - name: End-to-end, process area, process, and scenario work item types
+                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
+                  - name: Configuration deliverable work item type
+                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
+                  - name: Workshop work item type
+                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+              - name: Import the catalog to Mavim
+                items:
+                  - name: Import the catalog to Mavim overview
+                    href: business-processes/about-import-catalog-mavim.md
+                  - name: Success by Design with the Dynamics 365 business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim-success-design-d365.md
+                  - name: Navigate the business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim-navigate-business-process-catalog.md
           - name: What's new or changed
             items:
               - name: What's new or changed in the business process catalog

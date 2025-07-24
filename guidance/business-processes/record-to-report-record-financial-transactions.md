@@ -43,33 +43,21 @@ The following diagram illustrates the *Record financial transactions* business p
 
 :::image type="content" source="media\record-to-report-record-financial-transactions-1.svg" alt-text="Diagram of the Record financial transactions business process area and its connection to other business processes.":::
 
-1. *Define policies and procedures for financial transaction recording*
-
-2. *Manage ledger postings*
-
-3. *Determine approval process for journals*
-
-    1. *Record journal entries*
-
-    2. *Correct ledger vouchers*
-
-4. *Manage accruals*
-
-    1. *Record journal entries*
-
-    2. *Correct ledger vouchers*
-
-5. *Manage deferrals*
-
-    1. *Record journal entries*
-
-    2. *Correct ledger vouchers*
-
-6. *Process allocations*
-
-    1. *Record journal entries*
-
-    2. *Correct ledger vouchers*
+1. Start
+2. *Define accounting policies*
+3. *Manage cash*
+4. *Record financial transactions*
+   1. *Record ledger entries*
+   2. *Record intercompany transactions*
+   3. *Record cost accounting transactions*
+   4. *Revalue inventory*
+   5. *Correct ledger vouchers*
+   6. *Manage accruals*
+   7. *Manage deferrals*
+   8. *Process allocations*
+   9. *Record tax commitments*
+   10. *Pay taxes*
+5. End
 
 ## Record financial transactions benefits
 

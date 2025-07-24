@@ -42,50 +42,15 @@ The following diagram illustrates the *Financial period close* business process 
 :::image type="content" source="media\record-to-report-close-financial-periods-1.svg" alt-text="Diagram of the Financial period close business process area and its connection to other business processes." lightbox="media\record-to-report-close-financial-periods-1.svg":::
 
 1. Start
-
-    Parallel branches from start connect to *Acquire to dispose*, *Inventory to deliver*, *Order to cash*, *Plan to produce*, *Source to pay*, *Project to profit*, and *Service to deliver* end-to-end processes shown on the right, which all have a connect to 3. *Close financial periods*.
-
-2. *Record to report*
-
-3. *Close financial periods*
-
-4. *Define period close processes and procedures*
-
-5. *Record actuals*
-
-6. *Finalize and post transactions*
-
-7. *Perform currency revaluations*
-
-8. *Perform currency revaluations*
-
-9. *Reconcile subledgers to ledgers*
-
-10. *Consolidate financials and perform eliminations*
-
-11. *Close periods*
-
-12. *Prepare financial statements*
-
-    A parallel branch connects to the *Report and analyze financials and cash flows* business process area shown on the right, which has a connection to 16. End.
-
-13. Is year end?
-
-    1. *Yes* branches to *Perform year end activities*
-
-        Perform year end activities has parallel branches that connect to 14. Is audit required? and 15. Prepare tax, audit, and regulatory documents.
-
-    2. *No* branches to *Is Audit required?*
-
-14. *Is audit required?*
-
-    1. *Yes* branches to *Prepare for financial audits*
-
-    2. *No* branches to *End*.
-
-15. *Prepare tax, audit, and regulatory documents*
-
-16. End
+2. *Close financial periods*
+   1. *Finalize and post transactions*
+   2. *Reconcile ledger and subledger*
+   3. *Revalue currency*
+   4. *Perform ledger settlements*
+   5. *Consolidate and eliminate financials*
+   6. *Prepare financial statements*
+   7. *Close periods*
+3. End
 
 ## Close financial periods benefits
 

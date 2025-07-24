@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="7 35 659 523"    xml:space="preserve" color-interpolation-filters="sRGB" class="st11" width="1648" height="1308">
+<rect x="0" y="0" width="1648" height="1308" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st5 {fill:#a0a0a0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#ffffff}
+		.st7 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {font-size:1em}
+		.st9 {marker-end:url(#mrkr13-42);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-42" class="st10" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape1-1" transform="translate(101.25,-527.684)">
+			
+			<desc>Start</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st1" />
+			<text x="31.01" y="597.6" class="st2">Start</text>
+		</g>
+		<a id="3d2d6b7a-33ef-4cd4-b6de-ab3eb400f183" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzQ5NnY0MDc4JywyMzE4NywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-4" transform="translate(270,-514.184)">
+				
+				<desc>95 Service to deliver</desc>
+				<rect x="0" y="549" width="126" height="63" class="st3" />
+				<text x="13.55" y="584.1" class="st4">95 Service to deliver</text>
+			</g>
+		</a>
+		<a id="39609fde-a663-4a80-8374-0b72ae3c78cc" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNjk0NHY0MDc4JywyMjc1MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-7" transform="translate(45,-423)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="4.26" y="584.1" class="st2">40 Design to retire</text>
+			</g>
+		</a>
+		<a id="420605cf-dc18-4f51-bb7f-115abc617888" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxMjIxNDZ2NDA3OCcsMjMxODgsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape8-10" transform="translate(270,-423)">
+				
+				<desc>95.05 Develop service strategy</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st6" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st7" />
+				<path d="M9 612 L9 549" class="st7" />
+				<path d="M117 612 L117 549" class="st7" />
+				<text x="27.9" y="576.9" class="st2">95.05 Develop <tspan x="24.75" dy="1.2em" class="st8">service strategy</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="eb6bc503-0d0b-4e82-92ec-a5c6e8d9f136" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxMjIxNDd2NDA3OCcsMjMxOTUsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape9-17" transform="translate(270,-333)">
+				
+				<desc>95.15 Plan service work</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st6" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st7" />
+				<path d="M9 612 L9 549" class="st7" />
+				<path d="M117 612 L117 549" class="st7" />
+				<text x="19.07" y="576.9" class="st2">95.15 Plan service <tspan x="50.73" dy="1.2em" class="st8">work</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="ff3f928d-b8fe-4452-93a6-d900f626933f" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxMjIxNDh2NDA3OCcsMjMyMDEsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape10-24" transform="translate(270,-243)">
+				
+				<desc>95.25 Process service orders</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st6" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st7" />
+				<path d="M9 612 L9 549" class="st7" />
+				<path d="M117 612 L117 549" class="st7" />
+				<text x="11" y="576.9" class="st2">95.25 Process service <tspan x="47.17" dy="1.2em" class="st8">orders</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape17-31" transform="translate(580.5,-67.5)">
+			
+			<desc>End</desc>
+			<path d="M18 612 L67.5 612 A18 18 -180 0 0 67.5 576 L18 576 A18 18 -180 1 0 18 612 Z" class="st1" />
+			<text x="33.52" y="597.6" class="st2">End</text>
+		</g>
+		<a id="df67654d-9777-4e46-848d-ade3612f37ec" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNjk0NHY0MDc4JywyMjc1MiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape24-34" transform="translate(549,-423)">
+				
+				<desc>40 Design to retire</desc>
+				<rect x="0" y="549" width="99" height="63" class="st5" />
+				<text x="4.26" y="584.1" class="st2">40 Design to retire</text>
+			</g>
+		</a>
+		<g id="shape25-37" transform="translate(324,-514.184)">
+			
+			<path d="M9 612 L9 630.37" class="st9" />
+		</g>
+		<g id="shape26-43" transform="translate(324,-423)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape27-48" transform="translate(324,-333)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape28-53" transform="translate(396,-76.5)">
+			
+			<path d="M0 603 L174.69 603" class="st9" />
+		</g>
+		<g id="shape33-58" transform="translate(186.75,-536.684)">
+			
+			<path d="M0 603 L73.44 603" class="st9" />
+		</g>
+		<g id="shape34-63" transform="translate(101.25,-545.684)">
+			
+			<path d="M0 612 L-73.91 612 L-73.91 703.18 L-66.06 703.18" class="st9" />
+		</g>
+		<g id="shape43-68" transform="translate(144,-445.5)">
+			
+			<path d="M0 603 L116.19 603" class="st9" />
+		</g>
+		<g id="shape44-73" transform="translate(396,-463.5)">
+			
+			<path d="M0 621 L90 621 L143.19 621" class="st9" />
+		</g>
+		<a id="61fef92d-28d8-4469-84d6-0844ebf3bef9" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxMjIxNDl2NDA3OCcsMjMyMTEsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape45-78" transform="translate(270,-153)">
+				
+				<desc>95.35 Run service operations</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st6" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st7" />
+				<path d="M9 612 L9 549" class="st7" />
+				<path d="M117 612 L117 549" class="st7" />
+				<text x="20.01" y="576.9" class="st2">95.35 Run service <tspan x="36.68" dy="1.2em" class="st8">operations</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="5a8566c4-ff05-41d9-bd00-e714dc710d1e" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxMjIxNTB2NDA3OCcsMjMyMjAsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape46-85" transform="translate(270,-54)">
+				
+				<desc>95.45 Analyze service performance</desc>
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612 Z" class="st6" />
+				<path d="M0 612 L126 612 L126 549 L0 549 L0 612" class="st7" />
+				<path d="M9 612 L9 549" class="st7" />
+				<path d="M117 612 L117 549" class="st7" />
+				<text x="29.02" y="576.9" class="st2">95.45 Analyze <tspan x="12.95" dy="1.2em" class="st8">service performance</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape47-92" transform="translate(324,-243)">
+			
+			<path d="M9 612 L9 629.19" class="st9" />
+		</g>
+		<g id="shape48-97" transform="translate(324,-153)">
+			
+			<path d="M9 612 L9 638.19" class="st9" />
+		</g>
+	</g>
+</svg>

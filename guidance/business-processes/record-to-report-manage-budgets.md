@@ -41,21 +41,26 @@ The following diagram illustrates the *Manage budgets* business process area. [!
 
 :::image type="content" source="media\record-to-report-manage-budgets-1.svg" alt-text="Diagram showing the connection between the Manage budgets business process area and other business processes." lightbox="media\record-to-report-manage-budgets-1.svg":::
 
-1. *Define rules for budget consumption*
+1. Start
+2. *Record to report* business process area
+3. *Define accounting policies*
+   1. *Manage budgets*
+      1. *Define preliminary budgets*
+      2. *Plan budgets*
+      3. *Allocate budgets*
+      4. *Maintain budgets*
+      5. *Approve budgets*
+   
+   1. Is approved?
+         - Yes: *Appropriate budgets*
+         - No: Return to *Approve budgets*
+   1. Is reservation required?
+         - Yes: *Reserve budgets*
+         - No: Continue to *Transfer budgets*
+   1. Is transfer required?
+      - Yes: *Transfer budgets*
 
-2. *Plan a budget*
-
-3. *Allocate budgets*
-
-4. *Enter budget amounts*
-
-5. *Review and approve planned budgets*
-
-6. *Reserve budget for expenses* (optional)
-
-7. *Transfer budget amounts* (optional)
-
-8. *Purchase order end process* (optional)
+4. End
 
 ## Manage budget benefits
 

@@ -77,7 +77,7 @@ Many people must contribute to the decision-making process and design of the *se
 
 - **Audit stakeholders** – examples: Internal auditors and External auditors
 
-## Service to cash benefits
+## Service to deliver benefits
 
 The solution can help provide several benefits if your organization wants to find a technology solution to assist with the *service to deliver* process. Use these key benefits to determine whether the solution is a good fit for your business and drive the specific business requirements for implementing the solution. As a side effect, the benefits can serve as a baseline for your goals and objectives for the project. Therefore, you can use them to measure the success of implementing solutions to meet those business requirements.
 
@@ -146,7 +146,7 @@ If you want to implement Dynamics 365 solutions to assist with your *service to 
 
 3. Request a demo or get a free trial of Dynamics 365 solutions for the order to cash process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial)
 
-4. Get an overview of the order to cash process at [Service to cash overview](service-to-cash-overview.md)
+4. Get an overview of the order to cash process at [Service to deliver overview](service-to-cash-overview.md)
 
 <!--## Tags
 *Stakeholders:* Customer Service Agents, Customer Service Managers, Service Coordinators, Service Managers, Dispatchers, Frontline Workers, Supervisors, COO (Chief Operations Officer), VP (Vice President) of Operations, Operations Manager, Planning manager, Purchasing Supervisor, Receiving Clerk, Warehouse personnel, Warehouse manager, Production manager, Production scheduler, CFO (Chief Financial Officer), Controller, Finance director, Accounts receivable, Credit and collections, CPO (Chief People Officer), Director of Human Resources, Human Resources manager, Recruiter, Internal auditors, External auditors
