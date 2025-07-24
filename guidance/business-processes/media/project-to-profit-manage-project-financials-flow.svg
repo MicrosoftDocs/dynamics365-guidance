@@ -1,38 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="40 22 495 513"
-   xml:space="preserve"
-   color-interpolation-filters="sRGB"
-   class="st10"
-   version="1.1"
-   id="svg32"
-   sodipodi:docname="project-to-profit-manage-project-financials-flow.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-   id="namedview32"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="3.5808967"
-   inkscape:cx="247.56369"
-   inkscape:cy="345.86309"
-   inkscape:window-width="3840"
-   inkscape:window-height="2054"
-   inkscape:window-x="2869"
-   inkscape:window-y="-11"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="svg32" />
-	<style
-   type="text/css"
-   id="style1"><![CDATA[
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="40 22 495 513"    xml:space="preserve" color-interpolation-filters="sRGB" class="st10" width="1238" height="1283">
+<rect x="0" y="0" width="1238" height="1283" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
 		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
 		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
 		.st3 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
@@ -43,345 +12,125 @@
 		.st8 {marker-end:url(#mrkr13-45);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
 		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
-	]]></style><style
-   id="style2"> a { pointer-events: none; } </style><style
-   id="style3">a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
-	<defs
-   id="Markers">
-		<g
-   id="lend13">
-			<path
-   d="M 3 1 L 0 0 L 3 -1 L 3 1 "
-   style="stroke:none"
-   id="path3" />
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
 		</g>
-		<marker
-   id="mrkr13-45"
-   class="st9"
-   refX="-13.08"
-   orient="auto"
-   markerUnits="strokeWidth"
-   overflow="visible">
-			<use
-   xlink:href="#lend13"
-   transform="scale(-4.36,-4.36) "
-   id="use3" />
+		<marker id="mrkr13-45" class="st9" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
 		</marker>
 	</defs>
-	<g
-   id="g32"
-   transform="matrix(1.0000008,0,0,0.99510105,-2.420694e-4,0.11043383)">
+	<g>
 		
-		<g
-   id="shape1-1"
-   transform="translate(40.5,-720)">
+		<g id="shape1-1" transform="translate(40.5,-720)">
 			
-			<desc
-   id="desc3">Start</desc>
-			<path
-   d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
-   class="st1"
-   id="path4" />
-			<text
-   x="31.01"
-   y="777.59998"
-   class="st2"
-   id="text4">Start</text>
+			<desc>Start</desc>
+			<path d="M18 792 L67.5 792 A18 18 -180 0 0 67.5 756 L18 756 A18 18 -180 1 0 18 792 Z" class="st1" />
+			<text x="31.01" y="777.6" class="st2">Start</text>
 		</g>
-		<a
-   id="6fa70b13-140c-4a7a-af66-5529bfcfc140"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzM2MnY0MDYxJywxMjI0MywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape2-4"
-   transform="translate(225,-706.5)">
+		<a id="7e69d6e1-26d9-4938-81c0-32b12c19be7d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzM2MnY0MDc4JywyMzExNCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-4" transform="translate(225,-706.5)">
 				
-				<desc
-   id="desc4">80.50 Manage project financials</desc>
-				<rect
-   x="0"
-   y="729"
-   width="126"
-   height="63"
-   class="st3"
-   id="rect4" />
-				<text
-   x="9.3900003"
-   y="756.90002"
-   class="st4"
-   id="text5">80.50 Manage project <tspan
-   x="40.099998"
-   dy="1.2em"
-   class="st5"
-   id="tspan4">financials</tspan>				</text>
+				<desc>80.50 Manage project financials</desc>
+				<rect x="0" y="729" width="126" height="63" class="st3" />
+				<text x="9.39" y="756.9" class="st4">80.50 Manage project <tspan x="40.1" dy="1.2em" class="st5">financials</tspan>
+				</text>
 			</g>
 		</a>
-		<a
-   id="e9b60ed4-b2e8-4b23-87e0-266dc418caa5"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzM2NXY0MDYxJywxMjI0NCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape5-8"
-   transform="translate(225,-616.5)">
+		<a id="e093a8ec-0285-4a25-b9d8-e0261b48264c" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzM2NXY0MDc4JywyMzExNSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-8" transform="translate(225,-616.5)">
 				
-				<desc
-   id="desc5">80.50.030 Correct project transactions</desc>
-				<path
-   d="M 0,792 H 126 V 729 H 0 Z"
-   class="st6"
-   id="path5" />
-				<path
-   d="M 0,792 H 126 V 729 H 0 v 63"
-   class="st7"
-   id="path6" />
-				<path
-   d="M 9,792 V 729"
-   class="st7"
-   id="path7" />
-				<path
-   d="M 117,792 V 729"
-   class="st7"
-   id="path8" />
-				<text
-   x="19.25"
-   y="756.90002"
-   class="st2"
-   id="text8">80.50.030 Correct <tspan
-   x="14.33"
-   dy="1.2em"
-   class="st5"
-   id="tspan8">project transactions</tspan>				</text>
+				<desc>80.50.030 Correct project transactions</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="19.25" y="756.9" class="st2">80.50.030 Correct <tspan x="14.33" dy="1.2em" class="st5">project transactions</tspan>
+				</text>
 			</g>
 		</a>
-		<a
-   id="da68a5f0-0a6b-41a2-a964-a6b806562c32"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzM2NnY0MDYxJywxMjI0NSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape6-15"
-   transform="translate(225,-526.5)">
+		<a id="ba69c4fa-9e81-43b6-9ff2-7c5a46ed4bc5" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzM2NnY0MDc4JywyMzExNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-15" transform="translate(225,-526.5)">
 				
-				<desc
-   id="desc8">80.50.040 Convert projects to fixed assets</desc>
-				<path
-   d="M 0,792 H 126 V 729 H 0 Z"
-   class="st6"
-   id="path9" />
-				<path
-   d="M 0,792 H 126 V 729 H 0 v 63"
-   class="st7"
-   id="path10" />
-				<path
-   d="M 9,792 V 729"
-   class="st7"
-   id="path11" />
-				<path
-   d="M 117,792 V 729"
-   class="st7"
-   id="path12" />
-				<text
-   x="18.01"
-   y="749.70001"
-   class="st2"
-   id="text13">80.50.040 Convert <tspan
-   x="23.450001"
-   dy="1.2em"
-   class="st5"
-   id="tspan12">projects to fixed </tspan>					 <tspan
-   x="48.09"
-   dy="1.2em"
-   class="st5"
-   id="tspan13">assets</tspan>				</text>
+				<desc>80.50.040 Convert projects to fixed assets</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="18.01" y="749.7" class="st2">80.50.040 Convert <tspan x="23.45" dy="1.2em" class="st5">projects to fixed </tspan>
+					<tspan x="48.09" dy="1.2em" class="st5">assets</tspan>
+				</text>
 			</g>
 		</a>
-		<a
-   id="5449d62a-28f4-4404-9a61-ab3e748dea90"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzM2N3Y0MDYxJywxMjI0NiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape7-23"
-   transform="translate(225,-436.5)">
+		<a id="0a7de2c6-bee9-4559-a712-b3691d62a795" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzM2N3Y0MDc4JywyMzExNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape7-23" transform="translate(225,-436.5)">
 				
-				<desc
-   id="desc13">80.50.050 Invoice project milestones</desc>
-				<path
-   d="M 0,792 H 126 V 729 H 0 Z"
-   class="st6"
-   id="path13" />
-				<path
-   d="M 0,792 H 126 V 729 H 0 v 63"
-   class="st7"
-   id="path14" />
-				<path
-   d="M 9,792 V 729"
-   class="st7"
-   id="path15" />
-				<path
-   d="M 117,792 V 729"
-   class="st7"
-   id="path16" />
-				<text
-   x="19.889999"
-   y="756.90002"
-   class="st2"
-   id="text16">80.50.050 Invoice <tspan
-   x="17.73"
-   dy="1.2em"
-   class="st5"
-   id="tspan16">project milestones</tspan>				</text>
+				<desc>80.50.050 Invoice project milestones</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="19.89" y="756.9" class="st2">80.50.050 Invoice <tspan x="17.73" dy="1.2em" class="st5">project milestones</tspan>
+				</text>
 			</g>
 		</a>
-		<a
-   id="ed37ed7c-b688-4f88-95b5-4ba5eee1c434"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxNzM2OHY0MDYxJywxMjI0OCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape8-30"
-   transform="translate(225,-256.5)">
+		<a id="bdcbb510-4677-46e2-81cc-d19fc6fb3a91" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzM2OHY0MDc4JywyMzExOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-30" transform="translate(225,-256.5)">
 				
-				<desc
-   id="desc16">80.50.060 Recognize project revenue</desc>
-				<path
-   d="M 0,792 H 126 V 729 H 0 Z"
-   class="st6"
-   id="path17" />
-				<path
-   d="M 0,792 H 126 V 729 H 0 v 63"
-   class="st7"
-   id="path18" />
-				<path
-   d="M 9,792 V 729"
-   class="st7"
-   id="path19" />
-				<path
-   d="M 117,792 V 729"
-   class="st7"
-   id="path20" />
-				<text
-   x="12.67"
-   y="756.90002"
-   class="st2"
-   id="text20">80.50.060 Recognize <tspan
-   x="24.200001"
-   dy="1.2em"
-   class="st5"
-   id="tspan20">project revenue</tspan>				</text>
+				<desc>80.50.060 Recognize project revenue</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="12.67" y="756.9" class="st2">80.50.060 Recognize <tspan x="24.2" dy="1.2em" class="st5">project revenue</tspan>
+				</text>
 			</g>
 		</a>
-		<g
-   id="shape11-37"
-   transform="translate(450,-270)">
+		<g id="shape11-37" transform="translate(450,-270)">
 			
-			<desc
-   id="desc20">End</desc>
-			<path
-   d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
-   class="st1"
-   id="path21" />
-			<text
-   x="33.52"
-   y="777.59998"
-   class="st2"
-   id="text21">End</text>
+			<desc>End</desc>
+			<path d="M18 792 L67.5 792 A18 18 -180 0 0 67.5 756 L18 756 A18 18 -180 1 0 18 792 Z" class="st1" />
+			<text x="33.52" y="777.6" class="st2">End</text>
 		</g>
-		<g
-   id="shape12-40"
-   transform="translate(126,-729)">
+		<g id="shape12-40" transform="translate(126,-729)">
 			
-			<path
-   d="M 0,783 H 89.19"
-   class="st8"
-   id="path22" />
+			<path d="M0 783 L89.19 783" class="st8" />
 		</g>
-		<g
-   id="shape13-46"
-   transform="translate(279,-706.5)">
+		<g id="shape13-46" transform="translate(279,-706.5)">
 			
-			<path
-   d="m 9,792 v 17.19"
-   class="st8"
-   id="path23" />
+			<path d="M9 792 L9 809.19" class="st8" />
 		</g>
-		<g
-   id="shape16-51"
-   transform="translate(279,-616.5)">
+		<g id="shape16-51" transform="translate(279,-616.5)">
 			
-			<path
-   d="m 9,792 v 17.19"
-   class="st8"
-   id="path24" />
+			<path d="M9 792 L9 809.19" class="st8" />
 		</g>
-		<g
-   id="shape17-56"
-   transform="translate(279,-526.5)">
+		<g id="shape17-56" transform="translate(279,-526.5)">
 			
-			<path
-   d="m 9,792 v 17.19"
-   class="st8"
-   id="path25" />
+			<path d="M9 792 L9 809.19" class="st8" />
 		</g>
-		<g
-   id="shape18-61"
-   transform="translate(279,-436.5)">
+		<g id="shape18-61" transform="translate(279,-436.5)">
 			
-			<path
-   d="m 9,792 v 17.19"
-   class="st8"
-   id="path26" />
+			<path d="M9 792 L9 809.19" class="st8" />
 		</g>
-		<g
-   id="shape19-66"
-   transform="translate(279,-346.5)">
+		<g id="shape19-66" transform="translate(279,-346.5)">
 			
-			<path
-   d="m 9,792 v 17.19"
-   class="st8"
-   id="path27" />
+			<path d="M9 792 L9 809.19" class="st8" />
 		</g>
-		<g
-   id="shape21-71"
-   transform="translate(351,-279)">
+		<g id="shape21-71" transform="translate(351,-279)">
 			
-			<path
-   d="M 0,783 H 89.19"
-   class="st8"
-   id="path28" />
+			<path d="M0 783 L89.19 783" class="st8" />
 		</g>
-		<a
-   id="01a4148b-1a55-4260-866c-d42a0de98548"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMDRkNTIzNTk2NWMxMDUzNDh2NDA2MScsMTIyNDcsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape22-76"
-   transform="translate(225,-346.5)">
+		<a id="809e9b13-b4bb-4b50-83b1-69e13e3b72ce" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxMDUzNDh2NDA3OCcsMjMxMTgsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape22-76" transform="translate(225,-346.5)">
 				
-				<desc
-   id="desc28">80.50.055 Invoice project transactions</desc>
-				<path
-   d="M 0,792 H 126 V 729 H 0 Z"
-   class="st6"
-   id="path29" />
-				<path
-   d="M 0,792 H 126 V 729 H 0 v 63"
-   class="st7"
-   id="path30" />
-				<path
-   d="M 9,792 V 729"
-   class="st7"
-   id="path31" />
-				<path
-   d="M 117,792 V 729"
-   class="st7"
-   id="path32" />
-				<text
-   x="19.889999"
-   y="756.90002"
-   class="st2"
-   id="text32">80.50.055 Invoice <tspan
-   x="14.33"
-   dy="1.2em"
-   class="st5"
-   id="tspan32">project transactions</tspan>				</text>
+				<desc>80.50.055 Invoice project transactions</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="19.89" y="756.9" class="st2">80.50.055 Invoice <tspan x="14.33" dy="1.2em" class="st5">project transactions</tspan>
+				</text>
 			</g>
 		</a>
 	</g>

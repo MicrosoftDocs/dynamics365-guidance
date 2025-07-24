@@ -44,22 +44,16 @@ Each solid gray rectangle in the diagram represents an end-to-end business proce
 The flow diagram covers the following steps.
 
 1. Start
-1. *Project to profit* end-to-end process
-1. *Govern projects* business process area
-1. *Plan projects* business process area
+2. *Plan projects* business process area
 
-    1. *Collect project requirements*.
-    1. *Define project scope*, including deliverables.
-    1. *Plan project*.
-    1. *Validate resources and schedule*.
-    1. *Create project*.
-    1. *Create work breakdown structure*, including all required costs (resources, materials, fees, and so on) and dependencies.
-    1. *Update estimates to complete*. First, define the baseline. Then, on a periodic basis, refine the estimates to complete.
-    1. *Monitor scope delivered*, and review the progress of your deliverables.
-    1. *Control resources and schedule*, and review whether you adhere to the plan or have deviations from it.
-    1. *Revise resources and schedule*, and update the resources and schedule according to project's events.
+    1. *Define project scope*
+    2. *Plan project resources*
+    3. *Plan project tasks*
+    4. *Assign project resources*
+    5. *Forecast project resources*
+    6. *Manage project budget*
 
-1. End
+3. End
 
 ## Plan projects benefits
 

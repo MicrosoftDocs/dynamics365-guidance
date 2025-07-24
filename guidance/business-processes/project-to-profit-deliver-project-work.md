@@ -47,36 +47,21 @@ The following diagram illustrates the *manage project delivery* business process
 The flow diagram covers the following steps.
 
 1. Start
-1. *Project to profit* end-to-end process
-1. *Manage project scope and schedule* business process area as an upstream process
+2. *Manage project delivery* business process
 
-    1. *Plan project scope and schedule*
+    1. *Govern projects*
+    2. *Control project scope*
+       1. *Track project expenses*
+       2. *Track project time*
+       3. *Track project fees*
+    3. *Purchase project materials*
+    4. *Use and track project materials*
+    5. *Produce project materials*
+    6. *Subcontract project components*
+    7. *Manage project communications*
+    8. *Manage project knowledge and documentation*
 
-1. *Resource a project* business process area as an upstream process
-1. *Manage project delivery* business process
-
-    1. Execute project task
-    1. Enter time
-    1. Time entry need adjustments?
-
-        1. A parallel branch for *Yes* leads to *Correct time*.
-        1. *No* leads to *Submit time*.
-
-    1. Approve time?
-
-        1. A parallel branch for *Yes* leads to *Approve time*.
-        1. *No* leads to *Reject time*.
-
-    1. A parallel branch from *Approve time* leads to:
-
-        1. *Recall time* if a user must recall a previously approved time entry.
-        1. *Estimate task effort* if tasks require further update.
-
-1. *Manage project scope and schedule* business process area as a downstream process
-
-    1. *Revise project scope and schedule*
-
-1. End
+3. End
 
 ## Manage project delivery benefits
 

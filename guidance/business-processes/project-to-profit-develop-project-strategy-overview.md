@@ -51,24 +51,16 @@ The following diagram shows the high-level business process flow for *Develop pr
 The following steps are illustrated in the *Develop project strategy* business process flow diagram.
 
 1. Start
-1. *Prospect to quote* end-to-end process
-1. *Create project quote* business process area
-1. *Project to profit* end-to-end process  
-1. *Develop project strategy* business process area
+2. *Develop project strategy* business process area
 
-    1. *Develop project charter*
-    1. *Develop project management plan*
-    1. *Manage project communications*
-    1. *Manage project quality*
-    1. *Manage project risks*
-    1. *Manage project stakeholders*
-    1. *Direct and manage project work*
-    1. *Manage project knowledge and documents*
-    1. *Close project or phase*
+    1. *Develop program charter*
+    2. *Develop project management strategy*
+    3. *Develop project governance strategy*
+    4. *Develop project approval processes*
 
-1. End
+3. End
 
-The *manage project communications*, *manage project quality*, *manage project risk*, and *manage project stakeholders* business processes are repeated as appropriate during the project.
+<!--The *manage project communications*, *manage project quality*, *manage project risk*, and *manage project stakeholders* business processes are repeated as appropriate during the project.
 
 There is a parallel branch to g. *Direct and manage project work* from another [project](project-to-profit-overview.md), because the *Develop project strategy* business process area effectively includes the following business process areas:
 
@@ -77,7 +69,7 @@ There is a parallel branch to g. *Direct and manage project work* from another [
 1. [Manage project delivery](project-to-profit-deliver-project-work.md)
 1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
-
+-->
 ## Develop project strategy benefits
 
 There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Develop project strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure for *Develop project strategy*.

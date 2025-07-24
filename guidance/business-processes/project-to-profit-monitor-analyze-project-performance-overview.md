@@ -47,39 +47,15 @@ The following diagram illustrates the *Analyze project performance* business pro
 The *Analyze project performance* business process area flow diagram covers the following steps.
 
 1. Start
-1. *Project to profit* end-to-end process
+2. *Analyze project performance* business process
 
-    A parallel branch of this end-to-end process is end-to-end process 3. *Record to report*.
+   1. *Monitor project status*  
+   2. *Analyze project metrics*
+   3. *Monitor project risks*
+   4. *Manage project quality*
+   5. *Measure project progress*
 
-    1. *Govern projects*
-
-        Parallel branches of this subprocess are the *Manage project contracts*, *Manage project resources and schedules*, *Manage project delivery*, and *Manage project financials* subprocesses.
-
-    1. *Analyze project performance*
-
-        1. Define project metrics
-        1. Define baseline for project metrics
-        1. Measure or calculate project metrics
-        1. Compare metrics to baselines
-        1. Communicate performance to stakeholders
-        1. Corrective action?
-
-            1. A branch for **Yes** leads to the downstream *Govern projects* subprocess.
-            2. A parallel branch for **No** leads to *Project done?*
-
-        1. Project done?
-
-            1. A branch for **Yes** leads to 4. *End*.
-            1. A parallel branch for **No** leads back to *Measure/Calculate project metrics*.
-
-      If the scope, schedule, or budgets change, the following subprocesses are downstream: *Manage project resources and schedules*, *Determine project scope and schedule*, and *Manage project financials*. *Manage project budgets* leads back to *Define baseline for project metrics*.
-
-1. *Record to report* end-to-end process
-
-    1. *Record financial transactions*
-    1. *Report and analyze financials and cash flow*
-
-1. End
+3. End
 
 ## Analyze project performance benefits
 
