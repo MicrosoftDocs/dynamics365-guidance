@@ -45,43 +45,20 @@ The following diagram illustrates the business process flows for the *define fin
 :::image type="content" source="media/record-to-report-define-financial-structure-org-acc-policies.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/record-to-report-define-financial-structure-org-acc-policies.svg":::
 
 1. Start
-2. *Record to report* end-to-end process
-3. *Define financial structure and organizational accounting policies*
+2. *Define accounting policies* business process area
 
-    1. *Update required?*
+    1. *Develop company structure*
+    2. *Develop financial period strategy*
+    3. *Define posting policies*
+    4. *Develop chart of accounts strategy*
+    5. *Develop budgeting strategy*
+    6. *Develop currency policies*
+    7. *Define banking policies*
+    8. *Define costing policies*
+    9. *Develop asset policies*
+    10. *Develop tax strategy*
 
-        1. *No* connects to 4. *Define company structure*.
-        2. *Yes* has parallel branches that connect to each of the following processes:
-
-            1. *Update company structure*
-            2. *Update financial periods*
-            3. *Maintain financial segments*
-            4. *Maintain chart of accounts*, which connects to End
-
-4. *Define company structure*
-5. *Define financial periods*
-6. *Design and configure financial segments*
-7. *Design and configure the chart of accounts*
-
-    Parallel branches connect to each of the following downstream business process areas in the *Record to report* end-to-end process:
-
-    1. *Manage cash and bank transactions*
-    2. *Manage budgets*
-    3. *Record financial transactions*
-    4. *Close financial periods*
-
-8. *Define and configure currency policies*
-
-    1. *Define currency revaluation policies*
-
-9. *Define banking policies*
-
-    1. *Establish banking relationships*
-
-10. *Define asset policies*
-11. End
-
-The downstream business process areas for 7. *Design and configure the chart of account*, 8.a. *Define currency revaluation policies*, and 9.a. *Establish banking relationships* all have connections to End.
+3. End
 
 ## Define financial structure and organizational accounting policies benefits
 
