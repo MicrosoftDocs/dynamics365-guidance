@@ -494,4 +494,4 @@ To run the agent:
 
 ## Related content
 
-- [Use Copilot to create sample data for Field Service](fs-copilot-import-sample-data.md)  
+- [Use Copilot to create sample data for Field Service](field-service-copilot-import-sample-data.md)  

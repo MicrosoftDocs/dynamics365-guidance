@@ -211,6 +211,6 @@ The sample data generation and import features are provided as is. Bugs, feature
 
 - [Import data (all record types) from multiple sources](/power-platform/admin/import-data-all-record-types)
 - [Select a data map](/power-platform/admin/select-data-map)
-- [Field mapping for schedule board settings in Dynamics 365 Field Service](fs-schedule-board-settings-field-mapping.md)
-- [Schedule board settings management control in Universal Resource Scheduling for Dynamics 365 Field Service](fs-schedule-board-settings-management-control.md)
-- [Dynamics 365 Field Service implementation optimization resources](fs-index.yml)
+- [Field mapping for schedule board settings in Dynamics 365 Field Service](field-service-schedule-board-settings-field-mapping.md)
+- [Schedule board settings management control in Universal Resource Scheduling for Dynamics 365 Field Service](field-service-schedule-board-settings-management.md)
+- [Dynamics 365 Field Service implementation optimization resources](field-service-index.yml)

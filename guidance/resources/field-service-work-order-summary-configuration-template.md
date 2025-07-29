@@ -64,7 +64,7 @@ The following table shows the tables and the columns used in this configuration 
 
 ## Import the template with the Configuration Migration tool
 
-To import the template *FSSummaryConfigurationData.zip*, you can use the **Configuration Migration** tool. Learn more at [Transport summary configuration across environments](fs-transport-summary-configuration.md). 
+To import the template *FSSummaryConfigurationData.zip*, you can use the **Configuration Migration** tool. Learn more at [Transport summary configuration across environments](field-service-deploy-transport-summary-configuration.md). 
 
 ## Import the template with Power Platform build tools
 

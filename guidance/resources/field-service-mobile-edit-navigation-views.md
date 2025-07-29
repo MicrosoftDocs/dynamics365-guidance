@@ -23,9 +23,9 @@ In the app designer in Power Apps, you find the current navigation structure wit
 
 ## Edit mobile views
 
-For every table in the navigation, you can choose the views available on mobile app. For more information, see [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views). Configuring views for the new user experience works the same way as for the Unified Interface experience. However, you can't change the bookings [view in the new experience](fs-mobile-booking-calendar.md).
+For every table in the navigation, you can choose the views available on mobile app. For more information, see [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views). Configuring views for the new user experience works the same way as for the Unified Interface experience. However, you can't change the bookings [view in the new experience](field-service-mobile-customize-booking-view.md).
 
-You can also [customize views with code](/power-apps/developer/model-driven-apps/customize-entity-views) or [customize the booking calendar](fs-mobile-booking-calendar.md).
+You can also [customize views with code](/power-apps/developer/model-driven-apps/customize-entity-views) or [customize the booking calendar](field-service-mobile-customize-booking-view.md).
 
 ## Related information
 

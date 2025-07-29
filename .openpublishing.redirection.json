@@ -154,6 +154,121 @@
       "source_path": "guidance/business-processes/about-industry-manufacturing.md",
       "redirect_url": "/dynamics365/guidance/business-processes/about-product-centric-manufacturing-journey",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-booking-template.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-customize-booking-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-component-library.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-sample-library",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-copilot-import-sample-data.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-copilot-import-sample-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-implementing-sla-work-order.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-implement-service-level-agreements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-improve-mobile-performance.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-improve-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-index.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-automate-business-processes.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-automate-business-processes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-booking-calendar.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-customize-booking-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-change-work-order-booking-form.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-change-work-order-booking-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-custom-app-module.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-add-custom-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-deeplink.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-use-deep-links",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-navigation-views.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-edit-navigation-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-mobile-offline-sample-telemetry-dashboard.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-sample-telemetry",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-power-apps-customization.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-mobile-customize-powerapps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-reporting-solution-service-reports.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-service-reports-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-resource-cell-template.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-resource-cell-template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-schedule-board-settings-field-mapping.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-schedule-board-settings-field-mapping",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-schedule-board-settings-management-control.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-schedule-board-settings-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-deploy-dataverse-azure-pipelines",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-transport-summary-configuration.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-deploy-transport-summary-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-use-copilot-studio-create-sample-data.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-deploy-copilot-studio-create-sample-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-vendor-self-service-for-technician-management.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-vendor-self-service-technician-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/fs-work-order-summary-configuration-template.md",
+      "redirect_url": "/dynamics365/guidance/resources/field-service-work-order-summary-configuration-template",
+      "redirect_document_id": false
     }
 
 

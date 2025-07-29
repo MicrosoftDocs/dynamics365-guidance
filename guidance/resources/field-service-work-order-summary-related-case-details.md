@@ -67,4 +67,4 @@ This preview allows validation of field selections and ensures the summary meets
 ## Related content
 
 - [Custom work order summary with custom fields](field-service-work-order-summary-custom-tables.md)  
-- [Work order summary configuration template](fs-work-order-summary-configuration-template.md)  
+- [Work order summary configuration template](field-service-work-order-summary-configuration-template.md)  

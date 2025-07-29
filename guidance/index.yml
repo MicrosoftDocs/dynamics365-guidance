@@ -270,7 +270,7 @@ conceptualContent:
         url: /dynamics365/field-service/?toc=/dynamics 365/guidance/toc.json
       - itemType: get-started
         text: Resources
-        url: resources/fs-index.yml
+        url: resources/field-service-index.yml
 
 ## Finance
     - title: Finance, Project Operations, Human Resources

@@ -32,21 +32,21 @@ landingContent:
     - linkListType: overview
       links:
         - text: Overview
-          url: fs-component-library.md
+          url: field-service-sample-library.md
     - linkListType: sample
       links:
         - text: Add crew information to resource cells
-          url: fs-resource-cell-template.md
+          url: field-service-resource-cell-template.md
         - text: Customize the template for bookings
-          url: fs-booking-template.md
+          url: field-service-customize-booking-template.md
         - text: Schedule board settings management control
-          url: fs-schedule-board-settings-management-control.md
+          url: field-service-schedule-board-settings-management.md
         - text: Implementing SLAs for Work Orders
-          url: fs-implementing-sla-work-order.md
+          url: field-service-implement-service-level-agreements.md
         - text: Add a custom reporting control for service reports
-          url: fs-reporting-solution-service-reports.md
+          url: field-service-service-reports-solution.md
         - text: Vendor self-service for technician management
-          url: fs-vendor-self-service-for-technician-management.md
+          url: field-service-vendor-self-service-technician-management.md
 
 # setup card
   - title: Setup
@@ -54,9 +54,9 @@ landingContent:
     -  linkListType: overview
        links:
         - text: Field mapping for the schedule board settings
-          url: fs-schedule-board-settings-field-mapping.md
+          url: field-service-schedule-board-settings-field-mapping.md
         - text: Set up Azure Pipelines to deploy Field Service
-          url: fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
+          url: field-service-deploy-dataverse-azure-pipelines.md
 
 # AI Card
   - title: Copilot and generative AI
@@ -64,17 +64,17 @@ landingContent:
     - linkListType: deploy
       links:
         - text: Use Copilot to create sample data
-          url: fs-copilot-import-sample-data.md
+          url: field-service-copilot-import-sample-data.md
         - text: Create sample data with Copilot Studio agent
-          url: fs-use-copilot-studio-create-sample-data.md
+          url: field-service-deploy-copilot-studio-create-sample-data.md
     - linkListType: how-to-guide
       links:
         - text: Transport summary configurations across environments
-          url: fs-transport-summary-configuration.md
+          url: field-service-deploy-transport-summary-configuration.md
     - linkListType: reference
       links:
         - text: Work order summary configuration template
-          url: fs-work-order-summary-configuration-template.md
+          url: field-service-work-order-summary-configuration-template.md
 
 # Card
   - title: Work orders
@@ -82,9 +82,9 @@ landingContent:
       - linkListType: sample
         links:
         - text: Work order summary configuration template
-          url: fs-work-order-summary-configuration-template.md
+          url: field-service-work-order-summary-configuration-template.md
         - text: Transport summary configurations across environments
-          url: fs-transport-summary-configuration.md
+          url: field-service-deploy-transport-summary-configuration.md
         - text: Customized Work order summary with custom tables
           url: field-service-work-order-summary-custom-tables.md
         - text: Customized Work order summary with related case details
@@ -98,7 +98,7 @@ landingContent:
     -  linkListType: overview
        links:
        - text: Field Service mobile app offline usage
-         url: fs-mobile-offline-sample-telemetry-dashboard.md
+         url: field-service-mobile-sample-telemetry.md
 
 # Testing Card
   - title: Tools for testing

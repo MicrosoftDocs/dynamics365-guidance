@@ -15,7 +15,7 @@ If you use Universal Resource Scheduling for Dynamics 365 Field Service, you mig
 
 ## Introduction
 
-With Universal Resource Scheduling for Dynamics 365 Field Service, users can use the schedule board to quickly and easily allocate resources to resource requirements and create bookings to accomplish outstanding work. The schedule board has tabs that allow for different configurations for different specific scheduling needs. These tabs and their settings and configurations each get saved to the *Schedule Board Settings* table (`msdyn_scheduleboardsetting`), with [each setting mapping to a particular field](fs-schedule-board-settings-field-mapping.md).
+With Universal Resource Scheduling for Dynamics 365 Field Service, users can use the schedule board to quickly and easily allocate resources to resource requirements and create bookings to accomplish outstanding work. The schedule board has tabs that allow for different configurations for different specific scheduling needs. These tabs and their settings and configurations each get saved to the *Schedule Board Settings* table (`msdyn_scheduleboardsetting`), with [each setting mapping to a particular field](field-service-schedule-board-settings-field-mapping.md).
 
 It's a common practice to have different board tabs for different scheduling needs, sometimes with limited changes of configurations between board tabs. The default board can be used to set [a baseline](/dynamics365/field-service/schedule-board-tab-settings#basic-section) of common configurations for schedule board tabs. However, there are times when requirements dictate the need for a copy of a nondefault board that only needs one or two changes made to the copy. In the standard solution, you must then create a new board and set each configuration one by one, but that can be a time-consuming experience.
 
@@ -95,4 +95,4 @@ Find the reference documentation at [Schedule Board Setting in scheduling](/comm
 
 - [Schedule board tab settings - Field Service](/dynamics365/field-service/schedule-board-tab-settings)  
 - [Schedule Board Setting in scheduling](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/projectcommon/scheduling/scheduleboardsetting)  
-- [Field mapping for schedule board settings in Dynamics 365 Field Service](fs-schedule-board-settings-field-mapping.md)  
+- [Field mapping for schedule board settings in Dynamics 365 Field Service](field-service-schedule-board-settings-field-mapping.md)  
