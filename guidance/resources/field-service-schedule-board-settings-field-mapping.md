@@ -111,8 +111,8 @@ The following table shows where the underlying platform stores the values of the
 |Number of weeks displayed in weeks view | `msdyn_settings`| `viewModeSpecific:weekAndMonth:modeUnitsCount`|
 |Number of months displayed in months view | `msdyn_settings`| `viewModeSpecific:monthAndYear:modeUnitsCount`|
 |Disable default extensions | `msdyn_settings`| `DisableDefaultExtensions`|
-|[Resource cell template](fs-resource-cell-template.md#step-2-modify-the-resource-cell-template) | `msdyn_resourcecelltemplate`| |
-|[Retrieve resource query](fs-resource-cell-template.md#step-1-modify-the-retrieve-resource-query) | `msdyn_retrieveresourcesquery`| |
+|[Resource cell template](field-service-resource-cell-template.md#step-2-modify-the-resource-cell-template) | `msdyn_resourcecelltemplate`| |
+|[Retrieve resource query](field-service-resource-cell-template.md#step-1-modify-the-retrieve-resource-query) | `msdyn_retrieveresourcesquery`| |
 
 > [!NOTE]
 > Filter layout, Resource cell template, and Retrieve resource query settings are all mapped to lookup columns in the `msdyn_scheduleboardsetting` record pointing to the `msdyn_configuration` table. You must have the requisite `msdyn_configuration` table records present in your higher environment with the appropriate matching source GUIDs before migrating the schedule board settings record outright.

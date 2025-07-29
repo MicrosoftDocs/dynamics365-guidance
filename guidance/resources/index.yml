@@ -74,15 +74,15 @@ landingContent:
     - linkListType: overview
       links:
       - text: Overview
-        url: fs-index.yml
+        url: field-service-index.yml
       - text: Samples and tools
-        url: fs-component-library.md
+        url: field-service-sample-library.md
     - linkListType: concept
       links:
       - text: Template for resource cells
-        url: fs-resource-cell-template.md
+        url: field-service-resource-cell-template.md
       - text: Template for bookings
-        url: fs-booking-template.md
+        url: field-service-customize-booking-template.md
       - text: Set up test automation with Playwright
         url: test-automation-setup.md
       - text: Load-test the solution
@@ -90,11 +90,11 @@ landingContent:
       - text: Scale load tests
         url: test-load-tests-scaling.md
       - text: Transport summary configurations across environments
-        url: fs-transport-summary-configuration.md
+        url: field-service-deploy-transport-summary-configuration.md
     - linkListType: reference
       links:
       - text: Field mapping for the schedule board settings
-        url: fs-schedule-board-settings-field-mapping.md
+        url: field-service-schedule-board-settings-field-mapping.md
 
 # SCM Card
   - title: Supply Chain Management

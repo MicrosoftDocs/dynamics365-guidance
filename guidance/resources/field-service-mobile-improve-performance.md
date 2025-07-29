@@ -40,7 +40,7 @@ import { Button } from '@fluentui/react/lib/Button';
 
 Field Service lets you use data from different tables on a form. Fewer navigation actions means less loading time. Form components have a lower peak memory value when navigated to, in comparison to scenarios that use quick-find navigation instead.
 
-For more information, see [Edit the booking and work order form](fs-mobile-change-work-order-booking-form.md).
+For more information, see [Edit the booking and work order form](field-service-mobile-change-work-order-booking-form.md).
 
 ## Remove unused controls from the app
 

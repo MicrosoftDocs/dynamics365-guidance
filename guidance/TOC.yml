@@ -506,27 +506,27 @@ items:
           - name: Field Service
             items:
               - name: Resources for Field Service
-                href: resources/fs-index.yml
+                href: resources/field-service-index.yml
               - name: Samples and tools
                 items:
                   - name: Samples and tools overview
-                    href: resources/fs-component-library.md
+                    href: resources/field-service-sample-library.md
                   - name: Schedule board
                     items:
                       - name: Add crew information to resource cells
-                        href: resources/fs-resource-cell-template.md
+                        href: resources/field-service-resource-cell-template.md
                       - name: Customize the template for bookings
-                        href: resources/fs-booking-template.md
+                        href: resources/field-service-customize-booking-template.md
                       - name: Schedule board settings management control
-                        href: resources/fs-schedule-board-settings-management-control.md
+                        href: resources/field-service-schedule-board-settings-management.md
                       - name: Field mapping for the schedule board settings
-                        href: resources/fs-schedule-board-settings-field-mapping.md
+                        href: resources/field-service-schedule-board-settings-field-mapping.md
                   - name: Work orders
                     items:
                       - name: Work order summary configuration template
-                        href: resources/fs-work-order-summary-configuration-template.md
+                        href: resources/field-service-work-order-summary-configuration-template.md
                       - name: Transport summary configurations across environments
-                        href: resources/fs-transport-summary-configuration.md
+                        href: resources/field-service-deploy-transport-summary-configuration.md
                       - name: Customized Work order summary with custom tables
                         href: resources/field-service-work-order-summary-custom-tables.md
                       - name: Customized Work order summary with related case details
@@ -534,9 +534,9 @@ items:
                   - name: Copilot Studio
                     items:
                       - name: Build an agent in Copilot Studio to create sample data
-                        href: resources/fs-use-copilot-studio-create-sample-data.md
+                        href: resources/field-service-deploy-copilot-studio-create-sample-data.md
                       - name: Use Copilot to create sample data for Field Service
-                        href: resources/fs-copilot-import-sample-data.md
+                        href: resources/field-service-copilot-import-sample-data.md
                   - name: Field Service web
                     items:
                       - name: Customize the Field Service web app
@@ -554,35 +554,35 @@ items:
                   - name: Field Service Mobile
                     items:
                     - name: Add a custom app module
-                      href: resources/fs-mobile-custom-app-module.md
+                      href: resources/field-service-mobile-add-custom-app.md
                     - name: Add custom service reports
-                      href: resources/fs-reporting-solution-service-reports.md
+                      href: resources/field-service-service-reports-solution.md
                     - name: Create workflows and scripts
-                      href: resources/fs-mobile-automate-business-processes.md
+                      href: resources/field-service-mobile-automate-business-processes.md
                     - name: Customize the booking view
-                      href: resources/fs-mobile-booking-calendar.md
+                      href: resources/field-service-mobile-customize-booking-view.md
                     - name: Edit the booking and work order form
-                      href: resources/fs-mobile-change-work-order-booking-form.md
+                      href: resources/field-service-mobile-change-work-order-booking-form.md
                     - name: Edit the navigation and views
-                      href: resources/fs-mobile-navigation-views.md
+                      href: resources/field-service-mobile-edit-navigation-views.md
                     - name: Optimize performance
-                      href: resources/fs-improve-mobile-performance.md
+                      href: resources/field-service-mobile-improve-performance.md
                     - name: Use deep links to the Field Service mobile app
-                      href: resources/fs-mobile-deeplink.md
+                      href: resources/field-service-mobile-use-deep-links.md
                     - name: Use Power Apps to configure the Field Service mobile app
-                      href: resources/fs-power-apps-customization.md
+                      href: resources/field-service-mobile-customize-powerapps.md
                     - name: Vendor self-service for technician management
-                      href: resources/fs-vendor-self-service-for-technician-management.md
+                      href: resources/field-service-vendor-self-service-technician-management.md
               - name: Develop solutions
                 items:
                   - name: Set up Azure Pipelines to deploy Field Service
-                    href: resources/fs-set-up-azure-pipelines-deploy-field-service-other-dataverse-solutions.md
+                    href: resources/field-service-deploy-dataverse-azure-pipelines.md
               - name: Add analytics
                 items:
                   - name: Sample telemetry dashboard for mobile app offline profile usage
-                    href: resources/fs-mobile-offline-sample-telemetry-dashboard.md
+                    href: resources/field-service-mobile-sample-telemetry.md
                   - name: Implement service level agreements for work orders
-                    href: resources/fs-implementing-sla-work-order.md
+                    href: resources/field-service-implement-service-level-agreements.md
           - name: Data integration between Commerce and Customer Insights
             items:
               - name: Overview of data integration between Commerce and Customer Insights
@@ -1098,6 +1098,8 @@ items:
             href: reference-architectures/saga-pattern-dataverse.md
           - name: Dynamics 365 for travel and hospitality
             href: reference-architectures/dynamics-365-travel-hospitality.md
+          - name: Business solution with connections to online and on-premises apps
+            href: reference-architectures/finance-supply-chain-hybrid-connect.md
           - name: Contact centers
             items:
               - name: Digital contact centers with Dynamics 365
@@ -1110,6 +1112,12 @@ items:
                 href: reference-architectures/contact-center-existing-crm-dynamics-365-contact-center.md
               - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
                 href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
+          - name: Supply Chain Management
+            items:
+              - name: Export inventory on-hand data to Dataverse
+                href: reference-architectures/supply-chain-export-inventory-data-dataverse.md
+              - name: Process outbound goods with Dynamics 365 and external services
+                href: reference-architectures/supply-chain-process-outbound-goods-connect-external-services.md
       - name: Security and compliance
         items:
           - name: Security strategy
