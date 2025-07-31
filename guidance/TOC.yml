@@ -537,6 +537,8 @@ items:
                         href: resources/field-service-deploy-copilot-studio-create-sample-data.md
                       - name: Use Copilot to create sample data for Field Service
                         href: resources/field-service-copilot-import-sample-data.md
+                      - name: Streamline inventory visilibity with Field Service and Supply Chain Management
+                        href: resources/field-service-streamline-inventory-visibility.md
                   - name: Field Service web
                     items:
                       - name: Customize the Field Service web app
