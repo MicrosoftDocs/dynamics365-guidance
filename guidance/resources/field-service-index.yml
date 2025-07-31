@@ -75,6 +75,10 @@ landingContent:
       links:
         - text: Work order summary configuration template
           url: field-service-work-order-summary-configuration-template.md
+    - linkListType: sample
+      links:
+        - text: Streamlining Inventory Visibility in Field Service Operations
+          url: field-service-streamline-inventory-visibility.md
 
 # Card
   - title: Work orders
