@@ -861,6 +861,8 @@ items:
                 href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
               - name: Maintain inventory levels
                 href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
+              - name: Process outbound goods
+                href: business-processes/inventory-to-deliver-process-outbound-goods-overview.md
               - name: Manage freight and transportation
                 href: business-processes/inventory-to-deliver-manage-freight-transportation.md
           - name: Order to cash

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="40 29 470 734"    xml:space="preserve" color-interpolation-filters="sRGB" class="st10" width="1175" height="1835">
+<rect x="0" y="0" width="1175" height="1835" fill="#ffffff" />
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st5 {font-size:1em}
+		.st6 {fill:#ffffff}
+		.st7 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {marker-end:url(#mrkr13-64);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-64" class="st9" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape1-1" transform="translate(40.5,-713.25)">
+			
+			<desc>Start</desc>
+			<path d="M18 792 L67.5 792 A18 18 -180 0 0 67.5 756 L18 756 A18 18 -180 1 0 18 792 Z" class="st1" />
+			<text x="31.01" y="777.6" class="st2">Start</text>
+		</g>
+		<a id="c0875e67-87bc-4998-ab27-e5f6d4faa44f" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzExNHY0MDc4JywyMjkyMiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape2-4" transform="translate(225,-699.75)">
+				
+				<desc>60.40 Process outbound goods</desc>
+				<rect x="0" y="729" width="126" height="63" class="st3" />
+				<text x="3.94" y="756.9" class="st4">60.40 Process outbound <tspan x="48.35" dy="1.2em" class="st5">goods</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="d760ae58-02e2-4142-a028-fe0485ad60de" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzExNnY0MDc4JywyMjkyMywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape3-8" transform="translate(225,-591.75)">
+				
+				<desc>60.40.015 Allocate goods</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="17.53" y="756.9" class="st2">60.40.015 Allocate <tspan x="48.35" dy="1.2em" class="st5">goods</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="3ec3cea7-6d44-42ce-9107-506cbb5a796a" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzExN3Y0MDc4JywyMjkyNCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape4-15" transform="translate(225,-497.25)">
+				
+				<desc>60.40.020 Release goods for picking</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="18.52" y="756.9" class="st2">60.40.020 Release <tspan x="21.4" dy="1.2em" class="st5">goods for picking</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="e2e365c5-6209-44a1-8705-e740368f84c8" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzExOHY0MDc4JywyMjkyNSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape5-22" transform="translate(225,-402.75)">
+				
+				<desc>60.40.030 Pick goods</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="11.58" y="764.1" class="st2">60.40.030 Pick goods</text>
+			</g>
+		</a>
+		<a id="a5c60f82-a5d0-4089-bc09-a7cc5e9297d1" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzExOXY0MDc4JywyMjkyNiwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape6-28" transform="translate(225,-308.25)">
+				
+				<desc>60.40.040 Pack goods</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="26.09" y="756.9" class="st2">60.40.040 Pack <tspan x="48.35" dy="1.2em" class="st5">goods</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="e77650c1-c920-4119-b98e-cc6dd9a430ca" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzEyMXY0MDc4JywyMjkyNywgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape7-35" transform="translate(225,-218.25)">
+				
+				<desc>60.40.060 Load goods for shipping</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="25.61" y="756.9" class="st2">60.40.060 Load <tspan x="18.01" dy="1.2em" class="st5">goods for shipping</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="9b1ec1db-0ae1-4ba2-8926-adea1278a3fe" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzEyMnY0MDc4JywyMjkyOCwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape8-42" transform="translate(225,-123.75)">
+				
+				<desc>60.40.070 Cross dock produced goods</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="11.24" y="756.9" class="st2">60.40.070 Cross dock <tspan x="23.6" dy="1.2em" class="st5">produced goods</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="ca110ff2-795b-4221-8114-28c5281908e3" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMjVkNTIzNTk2NWMxNzEyM3Y0MDc4JywyMjkyOSwgMSwgMSwgdGhpcywgd2luZG93LmZyYW1lRWxlbWVudCk=&amp;navigate=true&amp;details=Description">
+			<g id="shape9-49" transform="translate(225,-29.25)">
+				
+				<desc>60.40.080 Return goods to vendor</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="20.68" y="756.9" class="st2">60.40.080 Return <tspan x="23.21" dy="1.2em" class="st5">goods to vendor</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape10-56" transform="translate(425.25,-42.75)">
+			
+			<desc>End</desc>
+			<path d="M18 792 L67.5 792 A18 18 -180 0 0 67.5 756 L18 756 A18 18 -180 1 0 18 792 Z" class="st1" />
+			<text x="33.52" y="777.6" class="st2">End</text>
+		</g>
+		<g id="shape12-59" transform="translate(126,-722.25)">
+			
+			<path d="M0 783 L89.19 783" class="st8" />
+		</g>
+		<g id="shape13-65" transform="translate(279,-699.75)">
+			
+			<path d="M9 792 L9 827.19" class="st8" />
+		</g>
+		<g id="shape14-70" transform="translate(279,-591.75)">
+			
+			<path d="M9 792 L9 813.69" class="st8" />
+		</g>
+		<g id="shape15-75" transform="translate(279,-497.25)">
+			
+			<path d="M9 792 L9 813.69" class="st8" />
+		</g>
+		<g id="shape16-80" transform="translate(279,-402.75)">
+			
+			<path d="M9 792 L9 813.69" class="st8" />
+		</g>
+		<g id="shape17-85" transform="translate(297,-308.25)">
+			
+			<path d="M-9 792 L-9 809.19" class="st8" />
+		</g>
+		<g id="shape18-90" transform="translate(279,-218.25)">
+			
+			<path d="M9 792 L9 813.69" class="st8" />
+		</g>
+		<g id="shape19-95" transform="translate(279,-123.75)">
+			
+			<path d="M9 792 L9 813.69" class="st8" />
+		</g>
+		<g id="shape20-100" transform="translate(351,-51.75)">
+			
+			<path d="M0 783 L64.44 783" class="st8" />
+		</g>
+	</g>
+</svg>
