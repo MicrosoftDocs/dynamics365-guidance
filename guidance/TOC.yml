@@ -1102,6 +1102,8 @@ items:
             href: reference-architectures/saga-pattern-dataverse.md
           - name: Dynamics 365 for travel and hospitality
             href: reference-architectures/dynamics-365-travel-hospitality.md
+          - name: Electric vehicle charging station placement and lifecycle management
+            href: reference-architectures/electric-vehicle-charge-station.md
           - name: Business solution with connections to online and on-premises apps
             href: reference-architectures/finance-supply-chain-hybrid-connect.md
           - name: Contact centers
