@@ -11,11 +11,11 @@ ms.date: 08/06/2025
 
 ***Applies to:*** ***Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Power Apps, Power Pages, Dataverse, Azure Data Lake, Azure Synapse***
 
-This solution combines Dataverse, Azure Data Lake, Azure Synapse, and Azure Data Factory to create scheduled exports of data from Dataverse to a .CSV file. The exported file is stored in Azure Blob Storage and uploaded to an FTP server or stored in any other location supported by Azure Data Factory. External systems then consume the .CSV file to process the data coming from Dynamics 365.
+This solution combines Dataverse, Azure Data Lake, Azure Synapse, and Azure Data Factory to create scheduled exports of data from Dataverse to a CSV file. The exported file is stored in Azure Blob Storage and uploaded to an FTP server or stored in any other location supported by Azure Data Factory. External systems then consume the CSV file to process the data coming from Dynamics 365.
 
 ## Introduction
 
-Data from Dynamics 365 apps is often used in other systems. There are various aspects to be considered when designing an integration between Dynamics 365 and the other system. These aspects include the availability of an API, the volume of data and the need to integrate in real time. This architecture can be a solution for scenarios in which you have a high data volume, don't need real-time data, and the receiving system can process .CSV files.
+Data from Dynamics 365 apps is often used in other systems. There are various aspects to be considered when designing an integration between Dynamics 365 and the other system. These aspects include the availability of an API, the volume of data and the need to integrate in real time. This architecture can be a solution for scenarios in which you have a high data volume, don't need real-time data, and the receiving system can process CSV files.
 
 This solution isn't industry-specific. You can use it for various purposes. The solution applies to Dynamics 365 customer engagement apps that use Dataverse as the data platform.
 
