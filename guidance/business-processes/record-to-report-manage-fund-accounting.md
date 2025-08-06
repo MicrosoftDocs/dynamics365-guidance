@@ -2,7 +2,7 @@
 title: Deprecated business process area
 description: This article was for a business process area that is deprecated and not yet replaced by the 90.25 Manage cash business process area.
 author: lifiatamara-ms
-ms.author: lifiatamara
+ms.author: edupont
 ms.topic: concept-article
 ms.date: 06/11/2025
 ROBOTS: NOINDEX
