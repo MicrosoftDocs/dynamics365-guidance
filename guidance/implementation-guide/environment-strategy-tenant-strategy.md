@@ -47,7 +47,7 @@ Pros of a global single-tenant setup:
 
 - It gives you a central place to manage the services, users, and licenses.
 
-- It makes it easier to deploy organization-wide IT policies, such as data loss prevention (DLP) and conditional access.
+- It makes it easier to deploy organization-wide IT policies, such as data policies and conditional access.
 
 - It simplifies the management of service account configurations and connections when you move from one environment to another in the same tenant.
 
@@ -85,7 +85,7 @@ Cons of a global multitenant setup:
 
 - Licenses can't be shared across different tenants, which means that storage, API add-ons, and other tenant-level quotas must be purchased for each tenant. You might also have to purchase separate licenses for the same user to access separate tenants.
 
-- The overhead to maintain tenant-level Microsoft Entra ID and DLP policies consistently across tenants can lead to surprises during production deployment.
+- The overhead to maintain tenant-level Microsoft Entra ID and data policies consistently across tenants can lead to surprises during production deployment.
 
 - Service-level admin actions, such as the ability to copy an environment, might not be available across tenants, which can make testing or troubleshooting difficult.
 

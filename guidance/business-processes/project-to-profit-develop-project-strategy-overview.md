@@ -4,7 +4,7 @@ description: Learn how you can use Dynamics 365 products to support the organiza
 ms.date: 05/26/2025
 ms.topic: concept-article
 author: edupont04
-ms.author: lifiatamara
+ms.author: lalithac
 ---
 
 # Overview of the Develop project strategy business process area within the Project to profit end-to-end scenario
@@ -152,4 +152,4 @@ Principal author:
 
 Other contributors:
 
-- Lalitha Chintamaneni \| Fast Track Solution Architect 
+- Lalitha Chintamaneni \| Fast Track Solution Architect  

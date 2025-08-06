@@ -1118,6 +1118,8 @@ items:
                 href: reference-architectures/contact-center-existing-crm-dynamics-365-contact-center.md
               - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
                 href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
+              - name: Best practices for deploying the voice channel
+                href: resources/contact-center-deploy-voice-channel-best-practices.md            
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse

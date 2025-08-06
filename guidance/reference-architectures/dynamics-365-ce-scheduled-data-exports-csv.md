@@ -4,7 +4,7 @@ description: Review a reference architecture for exporting data from Dynamics 36
 author: dereklh77
 ms.author: edupont
 ms.topic: reference-architecture
-ms.date: 05/22/2024
+ms.date: 08/06/2025
 ---
 
 # Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
@@ -27,13 +27,13 @@ Solution architects are key stakeholders for Dynamics 365, the external system, 
 
 :::image type="content" source="../media/scheduled-data-exports-from-dynamics-365-ce-to-csv.svg" alt-text="Diagram showing the connection between Data Lake Storage and Synapse S Q L serverless storage." lightbox="../media/scheduled-data-exports-from-dynamics-365-ce-to-csv.svg":::
 
-<!-- The original Word doc implies that there is a downloadable Visio file that has not yet been provided --- Download a Visio file with this architecture. -->
+[Download a Visio file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/scheduled-data-exports-from-dynamics-ce-to-csv-diagram.vsdx) with this architecture.
 
 ## Dataflow
 
-The following data flow demonstrates the export of data to a CSV file, which is then stored in a location where the receiving system can access it.
+The following data flow demonstrates the export of data to a .CSV file, which is then stored in a location where the receiving system can access it.
 
-1. Data is maintained and stored in Dynamics 365 CE.
+1. Data is maintained and stored in Dynamics 365.
 
 2. Azure Synapse Link for Dataverse replicates the required tables from Dynamics 365 to Azure Data Lake Storage Gen2.
 
@@ -71,7 +71,7 @@ The architecture has changed due to runtime being too long and too many resource
 
 ### Potential use cases
 
-This solution was created for a member organization in the healthcare sector. Solutions such as this can be used by any organization looking for a way to create a scheduled export of data to CSV. This solution can be used if you need to build an integration with some of the following characteristics:
+This solution was created for a member organization in the healthcare sector. Solutions such as this can be used by any organization looking for a way to create a scheduled export of data to .CSV. This solution can be used if you need to build an integration with some of the following characteristics:
 
 - Data from Dynamics 365 isn't needed in real time in the receiving system. Receiving data once a day or a few times per day is enough.
 
@@ -79,7 +79,7 @@ This solution was created for a member organization in the healthcare sector. So
 
 - The receiving system doesn't have an API to which you can send data or the API isn't accessible.
 
-- The receiving system can process CSV files in an automated manner.
+- The receiving system can process .CSV files in an automated manner.
 
 You can use this solution to:
 
@@ -206,7 +206,7 @@ If there are no related patterns at time of publishing, this section can be comm
 
 *Stakeholders:* IT
 
-*Products:* Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales
+*Products:* Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Customer Insights, Dynamics 365 Project Operations, Dynamics 365 Sales
 -->
 ## Contributors
 
