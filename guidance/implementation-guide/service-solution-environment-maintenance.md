@@ -25,7 +25,7 @@ Your business and technical teams might change over time. New employees join, ex
 
 Your organization's data is one of the most valuable assets that you're responsible for safeguarding. Power Apps and Power Automate make it easy to build apps and automation that use that data. But apps and automation can also connect to multiple data sources and services. Some of these might be external, or even social networks. Users might not realize the risk of exposing organizational data to unauthorized parties.
 
-We recommend that you create [data loss prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) to prevent users from accidentally sharing sensitive data. You can apply DLP policies at the environment level or at the tenant level. This gives you flexibility to balance protection and productivity. For tenant-level policies, you can choose which environments to include or exclude. For environment-level policies, you can set them up one by one.
+We recommend that you create [data policies](/power-platform/admin/wp-data-loss-prevention) to prevent users from accidentally sharing sensitive data. You can apply data policies at the environment level or at the tenant level. This gives you flexibility to balance protection and productivity. For tenant-level policies, you can choose which environments to include or exclude. For environment-level policies, you can set them up one by one.
 
 Learn more:
 
