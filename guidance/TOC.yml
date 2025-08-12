@@ -1124,8 +1124,8 @@ items:
                 href: resources/contact-center-deploy-voice-channel-best-practices.md            
           - name: Finance
             items:
-          - name: Business solution with connections to online and on-premises apps
-            href: reference-architectures/finance-supply-chain-hybrid-connect.md
+            - name: Business solution with connections to online and on-premises apps
+              href: reference-architectures/finance-supply-chain-hybrid-connect.md
           - name: Sales
             items:
             - name: Dynamics 365 and Azure-powered manufacturing sales framework
