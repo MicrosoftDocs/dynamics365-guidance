@@ -1104,6 +1104,8 @@ items:
             href: reference-architectures/dynamics-365-travel-hospitality.md
           - name: Electric vehicle charging station placement and lifecycle management
             href: reference-architectures/electric-vehicle-charge-station.md
+          - name: Integrate booking system with Dynamics 365 Customer Service
+            href: reference-architectures/customer-service-integrate-booking-system-appointments.md
           - name: Business solution with connections to online and on-premises apps
             href: reference-architectures/finance-supply-chain-hybrid-connect.md
           - name: Contact centers
