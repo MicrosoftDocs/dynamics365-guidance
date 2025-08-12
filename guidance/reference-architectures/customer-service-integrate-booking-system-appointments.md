@@ -72,12 +72,12 @@ This solution is for a customer service organization. Industries like finance, r
 Use this solution to:
 
 - Enhance customer support by integrating with external systems.
-- Streamline processes by automating API calls and redirections.
+- Streamline processes by automating API calls and redirection.
 - Improve user experience by providing seamless access to external systems.
 
 #### Scenario 1: Healthcare appointment management
 
-A hospital uses D365 CE to manage patient information and appointments. When a patient books an appointment online through the hospital's booking solution, D365 CE sends the patient details and appointment ID to the booking solution's API to obtain a session ID. The patient is redirected to the booking solution with the session ID for confirmation. The booking solution updates the appointment information back to Dynamics 365 using RFC/API. This ensures seamless synchronization between Dynamics 365 and the hospital's booking system, reducing manual data entry and improving accuracy.
+A hospital uses Dynamics 365 to manage patient information and appointments. When a patient books an appointment online through the hospital's booking solution, Dynamics 365 sends the patient details and appointment ID to the booking solution's API to obtain a session ID. The patient is redirected to the booking solution with the session ID for confirmation. The booking solution updates the appointment information back to Dynamics 365 using RFC/API. This ensures seamless synchronization between Dynamics 365 and the hospital's booking system, reducing manual data entry and improving accuracy.
 
 #### Scenario 2: Financial services appointment booking
 
