@@ -62,6 +62,15 @@ landingContent:
         - text: Copilot for Service and Copilot Studio with existing CCaaS and CRM
           url: contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
 
+# Card - Sales
+
+  - title: Sales
+    linkLists:
+      - linkListType: architecture
+        links:
+        - text: Dynamics 365 and Azure-powered manufacturing sales framework
+          url: dynamics-365-azure-powered-manufacturing-sales-framework.md
+
 # Card - Supply Chain Management
 
   - title: Supply Chain Management
