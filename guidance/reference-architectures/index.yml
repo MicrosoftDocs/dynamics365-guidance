@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 07/10/2025
+  ms.date: 08/12/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -42,6 +42,8 @@ landingContent:
       links:
       - text: Copilot in Customer Service architecture
         url: dynamics-365-customer-service-copilot-architecture.md
+      - text: Integrate with booking systems for appointments
+        url: customer-service-integrate-booking-system-appointments.md
 
 # Card originally for DCCP
 
@@ -59,6 +61,15 @@ landingContent:
           url: contact-center-existing-crm-dynamics-365-contact-center.md
         - text: Copilot for Service and Copilot Studio with existing CCaaS and CRM
           url: contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
+
+# Card - Sales
+
+  - title: Sales
+    linkLists:
+      - linkListType: architecture
+        links:
+        - text: Dynamics 365 and Azure-powered manufacturing sales framework
+          url: dynamics-365-azure-powered-manufacturing-sales-framework.md
 
 # Card - Supply Chain Management
 

@@ -6,7 +6,7 @@ ms.date: 07/30/2025
 author: sabrinadibartolomeo
 ms.author: sabrinadi
 ms.reviewer: 
-contributors: sourajit
+contributors: sourajitsamanta
 ---
 
 # Streamline inventory visibility in Field Service
@@ -27,7 +27,7 @@ Solution A describes how to create an Azure Function and is based on this articl
 
 ## Prerequisites
 
-Install the [Inventory Visibility Add-in - Supply Chain Management](/dynamics365/supply-chain/inventory/inventory-visibility-setup)
+- Install the [Inventory Visibility Add-in](/dynamics365/supply-chain/inventory/inventory-visibility-setup).
 
 ## Example scenario
 
@@ -74,11 +74,11 @@ The Field Service app has an interactive agent visible and customizable in Copil
 
 #### Step 2: Create the WO Product Inventory Check topic
 
-1.	Go to **Topics** and click **Add a Topic from blank* drop down as described here: [Add topics to Copilot chat in model-driven apps](/power-apps/maker/model-driven-apps/copilot-chat-mda-topics).
-2.	Rename it **WO Product Inventory Check** and define the trigger phrase **Provide WO Products Inventory Info**.
+1.	In Copilot Studio, go to **Topics**, select **Add a topic**, and then select **From blank**. Learn more at [Create and edit topics](/microsoft-copilot-studio/authoring-create-edit-topics#create-a-topic) and [Add topics to Copilot chat in model-driven apps](/power-apps/maker/model-driven-apps/copilot-chat-mda-topics).
+2.	Rename it **WO Product Inventory Check**, and then define the trigger phrase **Provide WO Products Inventory Info**.
 
     > [!TIP]
-    > Select (...) More -> </> Open code editor to see the code of the agent.
+    > Select the More icon (...) to see the code of the agent.
 
     ```yml
       kind: AdaptiveDialog
@@ -108,7 +108,9 @@ The Field Service app has an interactive agent visible and customizable in Copil
        Add the node **Add a tool - a New Agent flow**.
      	 The flow designer opens.
      	 Create a flow that:
-       - accepts a Work Order ID as Input
+       - accepts a Work Order ID as Input  
+
+           The Work Order ID is available in the topic as a custom variable, `PA__Copilot_Model_PageContext.pageContext.id.guid`.
        - queries Work Order Products
        - returns as Output the list of product IDs
 
@@ -123,13 +125,13 @@ The Field Service app has an interactive agent visible and customizable in Copil
     - Parse the response JSON and extract the `availableToReserve` value for each product ID.
 
     > [!WARNING]
-    > Always ensure the API is secured and requires a valid token for invocation from the client application.
+    > Always make sure the API is secured and requires a valid token for invocation from the client application.
   
 6. Summarize the response
 
-    Leverage the the Prompt node in Microsoft Copilot Studio to summarize the response returned by the HTTP call action as described here: [Add a prompt to a topic node](/ai-builder/use-a-custom-prompt-in-mcs#add-a-prompt-to-a-topic-node)
+    Use the the Prompt node in Microsoft Copilot Studio to summarize the response returned by the HTTP call action. Learn more at [Add a prompt to a topic node](/ai-builder/use-a-custom-prompt-in-mcs#add-a-prompt-to-a-topic-node).
 
-    An instructions example:
+    Here's an example of such instructions:
         
     ```
         You are tasked with processing an input inventory response details to extract meaningful insights and generate a summary report.
@@ -146,7 +148,7 @@ By extending Microsoft Copilot within a custom model-driven app, a tailored agen
 
 With generative orchestration, the agent can intelligently select the most appropriate tools, knowledge sources, topics, and even collaborate with other agents to respond to user queries or react to event triggers.
 
-This solution leverages the ERP MCP Server and the Tool Find Inventory.
+This solution uses the **Microsoft Dynamics 365 ERP MCP** server and the tool [**Find Inventory**](/dynamics365/fin-ops-core/dev-itpro/copilot/copilot-mcp#find-inventory).
 
 :::image type="content" source="media/field-service-streamline-inventory-visibility-2.svg" alt-text="Screenshot that shows Inventory Visibility in Field Service solution B" lightbox="media/field-service-streamline-inventory-visibility-2.svg":::
 
@@ -156,11 +158,11 @@ This solution leverages the ERP MCP Server and the Tool Find Inventory.
 
 Each model-driven app includes an interactive agent, the Copilot chat, which can be customized using Microsoft Copilot Studio. Prior to customization, the feature must be enabled for the environment. 
 
-1.	Open the model-driven app in Power Apps, and then on the left navigation bar select the Agents icon, search for **Interactive agent**, select the ellipses (…) -> and select **Configure -> Configure in Copilot Studio**. Learn more at [Customize Copilot chat in model-driven apps](/power-apps/maker/model-driven-apps/customize-copilot-chat).
+1.	Open the model-driven app in Power Apps, and then on the left navigation bar select the Agents icon, search for **Interactive agent**, select the ellipses icon (…), and then select **Configure -> Configure in Copilot Studio**. Learn more at [Customize Copilot chat in model-driven apps](/power-apps/maker/model-driven-apps/customize-copilot-chat).  
 
     A new agent named **Copilot in Power Apps – `name`**  is created, where `name`represents the name of the model-driven app.
 3.	In **Settings**, enable **Generative AI orchestration** for the agent’s responses instead of using the classic approach.
-4.	Save and publish the agent and the app.
+4.	**Save** and **Publish** the agent and the app.
 
 #### **Step 1: Create a custom Zero Prompt**
 
@@ -171,33 +173,25 @@ Each model-driven app includes an interactive agent, the Copilot chat, which can
 #### Step 2: Create the WO Product Inventory Check topic
 
 1.	Repeat 1 through 4 as outlined in Solution A.
-2.	Add a **Question** node that displays the content of the **ProductIds** variable (output from the flow).
+2.	Add a **Question** node that displays the content of the **ProductIds** variable (output from the flow).  
 
     Prompt: *Would you like to verify the inventory availability?*
     Include two choice options: **Yes** and **No**.
 3.	Add a **Condition** node to end the current topic if **No** is selected.
-4.	Save and publish the topic.
+4.	**Save** and **Publish** the topic.
 
-#### Step 3: Create the ERPMCPAgent
+#### Step 3: Add the Dynamics 365 ERP MCP server to the agent
 
-1.	Navigate to the general **Agent** list of Copilot Studio and create a new Agent
-      Do not use the agent list within the *Copilot in Power Apps* agent, as this will create a child agent.
-2.	Rename the agent **ERPMCPAgent**
-3.	Add a **Tool** by selecting **Model Context Protocol** -> **Dynamics 365 ERP MCP**, and attach it to the agent.
-4.	In **Settings**, enable **Let other agents connect to and use this one**
-5.	Save and publish
-
-#### Step 4: Connect the ERPMCPAgent to the Copilot in Power Apps agent
-
-1.	Open the **Copilot in Power Apps** agent
-2.	In the **Overview** tab, select **Add agent** -> **Connect an existing agent (Copilot Studio)**
-3.	Choose **ERPMCPAgent**, provide a description, enable **Pass conversation history to this agent**, and confirm by selecting **Add agent**
-4.	Select **Publish** to finalize the connection.
+1.	In the agent, on the **Tools** tab, select **Add a tool**.
+2.	In the **Add tool** dialog, select the **Model Context Protocol** filter, and search for **Dynamics 365 ERP MCP**.
+4.	Select **Add to agent**.
+5.	**Publish** the agent.
  
 ## Related content
 
 - [Customize Copilot Chat in model-driven app](/power-apps/maker/model-driven-apps/customize-copilot-chat)
 - [Cross-environment collaboration with Copilot in Dynamics 365](/dynamics365/guidance/resources/ai-powered-cross-environment-collaboration)
+- [Use Model Context Protocol for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/copilot-mcp)
 - [Extend your Copilot Agent in Power Apps with Copilot Studio and new SDK's](https://www.youtube.com/watch?v=iwrMubn2Al8&t=2234s)
 
 ## Contributors
