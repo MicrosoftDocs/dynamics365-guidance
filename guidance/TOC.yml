@@ -1094,22 +1094,20 @@ items:
       - name: Reference architectures
         href: reference-architectures/index.yml
         items:
-          - name: Copilot in Customer Service architecture
-            href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
-          - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
-            href: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
-          - name: Saga pattern with Dataverse or Dynamics 365
-            href: reference-architectures/saga-pattern-dataverse.md
-          - name: Dynamics 365 for travel and hospitality
-            href: reference-architectures/dynamics-365-travel-hospitality.md
-          - name: Electric vehicle charging station placement and lifecycle management
-            href: reference-architectures/electric-vehicle-charge-station.md
-          - name: Dynamics 365 and Azure-powered manufacturing sales framework
-            href: reference-architectures/dynamics-365-azure-powered-manufacturing-sales-framework.md
-          - name: Integrate booking system with Dynamics 365 Customer Service
-            href: reference-architectures/customer-service-integrate-booking-system-appointments.md
-          - name: Business solution with connections to online and on-premises apps
-            href: reference-architectures/finance-supply-chain-hybrid-connect.md
+          - name: Customer Service
+            items:
+            - name: Copilot in Customer Service architecture
+              href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+            - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
+              href: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
+            - name: Saga pattern with Dataverse or Dynamics 365
+              href: reference-architectures/saga-pattern-dataverse.md
+            - name: Dynamics 365 for travel and hospitality
+              href: reference-architectures/dynamics-365-travel-hospitality.md
+            - name: Electric vehicle charging station placement and lifecycle management
+              href: reference-architectures/electric-vehicle-charge-station.md
+            - name: Integrate booking system with Dynamics 365 Customer Service
+              href: reference-architectures/customer-service-integrate-booking-system-appointments.md
           - name: Contact centers
             items:
               - name: Digital contact centers with Dynamics 365
@@ -1124,6 +1122,14 @@ items:
                 href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
               - name: Best practices for deploying the voice channel
                 href: resources/contact-center-deploy-voice-channel-best-practices.md            
+          - name: Finance
+            items:
+          - name: Business solution with connections to online and on-premises apps
+            href: reference-architectures/finance-supply-chain-hybrid-connect.md
+          - name: Sales
+            items:
+            - name: Dynamics 365 and Azure-powered manufacturing sales framework
+              href: reference-architectures/dynamics-365-azure-powered-manufacturing-sales-framework.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
