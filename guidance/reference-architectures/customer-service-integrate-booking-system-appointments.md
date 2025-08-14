@@ -11,29 +11,29 @@ ms.date: 08/12/2025
 
 ***Applies to: Dynamics 365 Customer Service, Azure Logic Apps, Azure Functions***
 
-This solution uses Dynamics 365 Customer Service, Azure Logic Apps, and Azure Functions to integrate with a system by consuming an external API. This integration allows Dynamics 365 Customer Service to obtain a session ID from the booking system, which is then used to redirect the user to the booking system to load the appropriate details.
+This solution uses Dynamics 365 Customer Service, Azure Logic Apps, and Azure Functions to integrate with a system by using an external API. The integration lets Dynamics 365 Customer Service get a session ID from the booking system, then redirects the user to the booking system to load the right details.
 
 ## Introduction
 
-This reference architecture applies to industries where customer service and support are critical, such as finance, retail, healthcare, and telecommunications. It's useful in scenarios where you require integration with external systems to provide comprehensive customer support.
+This reference architecture applies to industries where customer service and support are critical, like finance, retail, healthcare, and telecommunications. It's useful when you need to integrate with external systems for comprehensive customer support.
 
-Use this reference architecture during the design phase of the overall implementation to ensure seamless integration with the booking system.
+Use this reference architecture during the design phase to ensure seamless integration with the booking system.
 
-Key stakeholders for this architecture include solution architects, API developers, customer service managers, and IT administrators.
+Key stakeholders for this architecture are solution architects, API developers, customer service managers, and IT admins.
 
-This integration solution streamlines the process of managing customer appointments by connecting Customer Service with a booking solution. It ensures efficient data exchange and a unified user experience by using various systems and services, including cloud deployments and hybrid deployments  with Microsoft apps and services, and solutions from other service providers.
+This integration solution streamlines managing customer appointments by connecting Customer Service with a booking solution. It lets you exchange data efficiently and gives a unified user experience by using different systems and services, including cloud and hybrid deployments with Microsoft apps and services, and solutions from other providers.
 
-In today's competitive healthcare environment, efficient appointment management is crucial for enhancing patient experience and operational efficiency. This integration solution addresses the need for seamless data transfer and unified management of customer appointments, improving accuracy and reducing manual efforts.
+In today's competitive healthcare environment, efficient appointment management is crucial for improving patient experience and operational efficiency. This integration solution lets you transfer data seamlessly and manage customer appointments in one place, improving accuracy and reducing manual work.
 
 ## Architecture
 
-The following diagram illustrates the architecture for the solution.
+This diagram shows the architecture for the solution.
 
-:::image type="content" source="./media/customer-service-integrate-booking-system-appointments.svg" alt-text="Diagram showing the integration with a booking system for appointments." lightbox="./media/customer-service-integrate-booking-system-appointments.svg":::
+:::image type="content" source="./media/customer-service-integrate-booking-system-appointments.svg" alt-text="Diagram that shows the integration with a booking system for appointments." lightbox="./media/customer-service-integrate-booking-system-appointments.svg":::
 
-[Download a Visio file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/) with this architecture. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
+[Download a Visio file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/) with this architecture. To download an architecture, select the file in the explorer, and then select the download raw file icon.
 
-The components in this architecture include:
+The components in this architecture are:
 
 - **Dynamics 365 Customer Service**: Manages customer details and appointment IDs
 - **Booking Solution**: Handles appointment scheduling

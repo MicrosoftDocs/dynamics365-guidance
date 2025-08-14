@@ -6,7 +6,7 @@ ms.author: renwe
 ms.date: 02/02/2024
 ms.topic: overview
 ms.service: dynamics-365
-ms.reviewer: renwe
+ms.reviewer: edupont
 ---
 # AIM program FAQ
 
@@ -14,7 +14,7 @@ ms.reviewer: renwe
 AIM (Accelerate, Innovate, Move) is a new campaign and offering that provides qualified on-premises business applications customers a tailored path to the cloud with access to a dedicated team of migration advisors, expert business value and technology assessments, investment offers, tools, and migration support. Check out the video [here](https://aka.ms/d365aim) and find more information on the [website](https://aka.ms/d365aim). 
 
 ## Q: Why did we launch AIM?
-AI is taking center stage as a game-changing technology that promises to modernize the way work gets done. It’s driving innovation across business applications, from streamlining operations to speeding time to actionable insight. 
+AI is taking center stage as a game-changing technology that promises to modernize the way work gets done. It's driving innovation across business applications, from streamlining operations to speeding time to actionable insight. 
 
 Organizations that keep their business applications on-premises will miss the opportunity to unlock new business capabilities and outcomes. Copilots powered by AI are a catalyst for organizations with business applications on-premises to modernize their ERP and CRM systems in the cloud.
 
@@ -29,23 +29,23 @@ With AIM we want to cover the breadth of our on-premises portfolio. Dynamics Mig
 They can visit [https://aka.ms/D365AIM](https://aka.ms/D365AIM) to learn more and request an assessment through their Microsoft contact or partner. 
 
 ## Q. What are AIM Modernization Centers? 
-AIM Modernization Centers help partners to accelerate their customers’ move to the cloud. These service providers offer tools, assessments, and expert migration guidance to Microsoft partners and their customers. Through this unique motion, partners can build up migration expertise, while they can focus on helping their customers in delivering business outcomes. The Modernization Centers are especially focused on SMB and NAV, Business Central (on-premises), GP, and SL customers and partners. 
+AIM Modernization Centers help partners to accelerate their customers' move to the cloud. These service providers offer tools, assessments, and expert migration guidance to Microsoft partners and their customers. Through this unique motion, partners can build up migration expertise, while they can focus on helping their customers in delivering business outcomes. The Modernization Centers are especially focused on SMB and NAV, Business Central (on-premises), GP, and SL customers and partners. 
 
 For Microsoft partners, more information about this motion and how partners can engage can be found on the [AIM page on the Partner Hub](https://aka.ms/aimforpartners).
 
 ## Q: What Microsoft on-premises products are covered by AIM?
-We don’t want to leave any customer behind. That’s why we’re expanding the coverage of our incentive and support programs under AIM to include the broad portfolio of Dynamics on-premises products: Dynamics AX, Business Central (on-premises), CRM, GP, NAV, and SL.
+We don't want to leave any customer behind. That's why we're expanding the coverage of our incentive and support programs under AIM to include the broad portfolio of Dynamics on-premises products: Dynamics AX, Business Central (on-premises), CRM, GP, NAV, and SL.
  
 The AIM campaign will also be available for on-premises customers of SAP, Oracle, and others.
 
 ## Q: What is an AIM assessment? 
-The AIM assessment helps customers understand the business outcomes of modernizing systems in the cloud and the steps to take in an implementation. An assessment is the first step on a customer’s cloud journey, which will help to align their business objectives to the Dynamics 365 platform value proposition and define their upgrade process, budget, and timeline. For more information, visit the [AIM Assessment page](aim-assessment.md).
+The AIM assessment helps customers understand the business outcomes of modernizing systems in the cloud and the steps to take in an implementation. An assessment is the first step on a customer's cloud journey, which will help to align their business objectives to the Dynamics 365 platform value proposition and define their upgrade process, budget, and timeline. For more information, visit the [AIM Assessment page](aim-assessment.md).
 
 ## Q: Who delivers the assessments? 
 There are currently different delivery models:
 
--	Partner-managed assessments 
--	Unified-managed assessments available for Unified support customers
+-    Partner-managed assessments 
+-    Unified-managed assessments available for Unified support customers
 
 ## Q: How can customers find a qualified migration partner? 
 In managed accounts, customers can engage with their Microsoft contact who can support them (see above). 
@@ -54,18 +54,18 @@ In unmanaged accounts, customers can leverage AppSource to find a Co-sell Priori
 
 1. Navigate to the [AppSource](https://appsource.microsoft.com/marketplace/consulting-services) for the Co-sell partners.
 
-2. Adjust the filters along the left side of the page to narrow the partner and solutions available, including by Solution Area (such as Optimize Finance & Supply Chain, with the ability to click into the ERP/Move to Cloud customer scenario), then you can search by industry or by key terms such as “AX Migration”. You can also filter on Solution Type, including either Services (SI partners) or IP (ISV partners). We recommend starting with a filter for Co-Sell Prioritized partners, who are the most validated. 
+2. Adjust the filters along the left side of the page to narrow the partner and solutions available, including by Solution Area (such as Optimize Finance & Supply Chain, with the ability to click into the ERP/Move to Cloud customer scenario), then you can search by industry or by key terms such as "AX Migration". You can also filter on Solution Type, including either Services (SI partners) or IP (ISV partners). We recommend starting with a filter for Co-Sell Prioritized partners, who are the most validated. 
 
 3. Review the partners and solutions that best fit the need.
 
 ## Q: How are we giving customers support, services, and guidance during their implementation? 
 When moving to the cloud and building capability to innovate faster to stay ahead of competition, customers want to reduce the time to value, minimize the risk in the project, and have predictable outcomes. Thousands of customers have already benefited from Success by Design, a systematic approach for successful cloud deployments. It provides prescriptive guidance for designing, building, and deploying a new Dynamics 365 solution and a transition from on-premises to the cloud. 
 
-As part of AIM, we will give partners access to more Success by Design tools and guidance that can support a successful cloud migration. For example, we recently launched the [Dynamics 365 Implementation Portal](https://cloudblogs.microsoft.com/dynamics365/it/2023/04/04/dynamics-365-implementation-portal-now-available/), a self-serve tool that provides access to tailored implementation guidance to help ensure a successful cloud deployment. And we’ll continue to enable partners on migration tools and services.
+As part of AIM, we will give partners access to more Success by Design tools and guidance that can support a successful cloud migration. For example, we recently launched the [Dynamics 365 Implementation Portal](https://cloudblogs.microsoft.com/dynamics365/it/2023/04/04/dynamics-365-implementation-portal-now-available/), a self-serve tool that provides access to tailored implementation guidance to help ensure a successful cloud deployment. And we'll continue to enable partners on migration tools and services.
 
 Eligible customers may also collaborate with Microsoft FastTrack solution architects. The FastTrack team of product experts can help customers validate the architecture of their solution, mitigate risks, and overcome deployment blockers when going through a migration project. These FastTrack solution architects will continue to work closely with the partner ecosystem.  
 
-And we’re also launching new Project Quality Advisory services, available to Microsoft Unified Support Customers, that include tailored guidance to ensure a customer cloud transformation project is successful.
+And we're also launching new Project Quality Advisory services, available to Microsoft Unified Support Customers, that include tailored guidance to ensure a customer cloud transformation project is successful.
 
 ## Q: What is Success by Design?
 Success by Design is prescriptive guidance (approaches and recommended practices) for successfully architecting, building, testing, and deploying Dynamics 365 solutions (customer engagement and finance and operations apps). Success by Design derives from the experience of Microsoft's FastTrack program, which has helped our customers and partners deliver thousands of Microsoft's most complex Dynamics 365 cloud deployments. More information can be found [here](/dynamics365/guidance/implementation-guide/success-by-design). 
@@ -89,7 +89,7 @@ The Project Quality Advisory (PQA) – Basic offering is designed to bring funda
 ## Q: How are we helping customers to optimize the return on investment (ROI) of their cloud transformation project?
 The AIM campaign includes several offers that help customers optimize their investments.
 
-We’ve recently renewed our Bridge to the Cloud licensing offer in CSP and expanded its coverage to include a broader portfolio of perpetual licensed Dynamics on-premises products. Qualified on-premises customers can benefit from discounted pricing when moving from on-premises to the cloud. This way they can optimize their investments as the business grows. For partners, this is a great offer to help customers optimize the ROI. 
+We've recently renewed our Bridge to the Cloud licensing offer in CSP and expanded its coverage to include a broader portfolio of perpetual licensed Dynamics on-premises products. Qualified on-premises customers can benefit from discounted pricing when moving from on-premises to the cloud. This way they can optimize their investments as the business grows. For partners, this is a great offer to help customers optimize the ROI. 
 
 Once moved to the cloud, we also want to provide customers with an advantageous future growth path. We launched discounted license pricing for Business Central customers who need expanded capabilities of Dynamics 365 Sales, Dynamics 365 Customer Service, or Dynamics 365 Field Service. 
 

@@ -2,7 +2,7 @@
 title: Introduction to reference architectures for digital contact centers
 description: Learn about reference architectures for digital contact centers with Microsoft services, including Dynamics 365 Contact Center, Dynamics 365 Customer Service, and Copilot Studio.
 author: edupont04
-ms.author: fredgraver
+ms.author: edupont
 ms.topic: reference-architecture
 ms.date: 06/28/2024
 ---

@@ -147,7 +147,7 @@ As Microsoft's customer, you must identify which controls apply to your business
 
 ### Transparency
 
-Microsoft is transparent about where your data is located. You know where your data is stored, who can access it, and under what conditions. You can specify the Azure datacenter region where your [customer data](https://www.microsoft.com/trust-center/Privacy/How-Microsoft-defines-customer-data) is stored. Microsoft might copy your data to other regions in the same geography for data durability, except in cases like these:
+Microsoft is transparent about where your data is located. You know where your data is stored, who can access it, and under what conditions. You can specify the Azure datacenter region where your data [is stored](https://www.microsoft.com/trust-center/Privacy/#where_your_data_is_located). Microsoft might copy your data to other regions in the same geography for data durability, except in cases like these:
 
 - [Microsoft Entra ID](/entra/identity/), which may store Microsoft Entra ID data globally
 

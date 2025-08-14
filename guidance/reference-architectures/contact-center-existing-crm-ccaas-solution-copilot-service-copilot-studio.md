@@ -2,7 +2,7 @@
 title: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio 
 description: Learn about reference architectures for contact centers with external customer service solutions and Microsoft Copilot for Service or Copilot Studio.
 author: edupont04
-ms.author: fredgraver
+ms.author: edupont
 ms.topic: reference-architecture
 ms.date: 06/27/2024
 ---

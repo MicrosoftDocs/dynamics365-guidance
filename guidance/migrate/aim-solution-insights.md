@@ -4,9 +4,9 @@ description: Review the specific product pages when evaluating whether to transi
 author: ReneeW-CPub
 ms.author: renwe
 ms.date: 11/06/2024
-ms.topic: overview
+ms.topic: concept-article
 ms.service: dynamics-365
-ms.reviewer: renwe
+ms.reviewer: edupont
 ---
 # Solution-specific insights
 
