@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="892.29144"
+   height="600.87799"
+   overflow="hidden"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="PowerPages-financeoperations-virtual-entities.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.88984375"
+     inkscape:cx="544.47761"
+     inkscape:cy="240.49166"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30" />
+  <g
+     id="g30"
+     transform="translate(-95.522385,-119.12204)">
+    <rect
+       x="95.522385"
+       y="119.12204"
+       width="892.29144"
+       height="600.87799"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.762737" />
+    <rect
+       x="391"
+       y="209"
+       width="135"
+       height="88"
+       fill="#156082"
+       id="rect2" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(431.04,260)"
+       id="text2">Portal</text>
+    <rect
+       x="661"
+       y="209"
+       width="135"
+       height="88"
+       fill="#156082"
+       id="rect3" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(681.726,260)"
+       id="text3">Dataverse</text>
+    <path
+       d="m 6.6667,-0.666661 5.3333,4e-6 v 1.333333 l -5.3333,-4e-6 z m 9.3333,7e-6 5.3334,4e-6 V 0.666683 L 16,0.666679 Z m 9.3334,7e-6 5.3333,4e-6 V 0.66669 l -5.3333,-4e-6 z m 9.3333,7e-6 5.3333,4e-6 v 1.333334 l -5.3333,-4e-6 z m 9.3333,8e-6 5.3334,4e-6 V 0.666705 L 44,0.666701 Z m 9.3334,7e-6 5.3333,4e-6 v 1.333333 l -5.3333,-4e-6 z m 9.3333,7e-6 5.3333,4e-6 V 0.66672 l -5.3333,-5e-6 z m 9.3333,7e-6 5.3334,5e-6 V 0.666727 L 72,0.666723 Z m 9.3334,8e-6 5.3333,4e-6 v 1.333333 l -5.3333,-4e-6 z m 9.3333,7e-6 5.3333,4e-6 v 1.333333 l -5.3333,-4e-6 z m 9.3333,7e-6 5.333,4e-6 v 1.333334 l -5.333,-5e-6 z m 9.333,7e-6 5.334,5e-6 v 1.333333 l -5.334,-4e-6 z m 9.334,8e-6 5.333,4e-6 v 1.333333 l -5.333,-4e-6 z m 9.333,7e-6 h 0.287 V 0.666766 H 128 Z M 8,4.00001 0,0 8,-3.99999 Z m 118.954,-7.99991 8,4.000004987 -8,3.999995013 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,526.5,253.5)"
+       id="path3" />
+    <rect
+       x="540"
+       y="311"
+       width="90"
+       height="59"
+       fill="#83cbeb"
+       id="rect4" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(552.188,346)"
+       id="text4">Contact</text>
+    <path
+       d="m 729.415,297.5 v 43.969 h -92.248 v -1.333 h 91.581 l -0.667,0.667 V 297.5 Z m -90.915,47.303 -8,-4 8,-4 z"
+       fill="#156082"
+       id="path4" />
+    <rect
+       x="693"
+       y="475"
+       width="135"
+       height="88"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect5" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(704.069,501)"
+       id="text5">F</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(714.915,501)"
+       id="text6">inance and</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(711.149,526)"
+       id="text7">operations</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(737.655,552)"
+       id="text8">apps</text>
+    <rect
+       x="716"
+       y="657"
+       width="90"
+       height="58"
+       fill="#d9d9d9"
+       id="rect8" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(727.229,692)"
+       id="text9">PO lines</text>
+    <rect
+       x="540"
+       y="490"
+       width="91"
+       height="58"
+       fill="#d9d9d9"
+       id="rect9" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(566.692,525)"
+       id="text10">User</text>
+    <path
+       d="m 586.167,370.485 0.122,5.332 -1.333,0.03 -0.122,-5.332 z m 0.213,9.331 0.123,5.332 -1.334,0.03 -0.122,-5.332 z m 0.214,9.331 0.034,1.5 -1.333,0.03 -0.034,-1.5 z m 3.336,0.09 -3.815,8.09 -4.183,-7.907 z"
+       fill="#156082"
+       id="path10" />
+    <path
+       d="m 631.5,518.833 h 55.69 v 1.334 H 631.5 Z m 54.357,-3.333 8,4 -8,4 z"
+       fill="#ffffff"
+       id="path11" />
+    <path
+       d="m 759.987,657.393 -0.143,-87.225 1.334,-0.002 0.143,87.225 z m -3.474,-85.886 3.987,-8.007 4.013,7.993 z"
+       fill="#e97132"
+       id="path12" />
+    <rect
+       x="716"
+       y="392"
+       width="90"
+       height="59"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect12" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(741.356,416)"
+       id="text12">Data</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(738.062,439)"
+       id="text13">entity</text>
+    <path
+       d="M 0.666654,-0.0041423 0.779036,18.0825 -0.554271,18.0908 -0.666654,0.0041423 Z M 4.10402,16.7285 0.153806,24.7532 -3.89582,16.7782 Z"
+       fill="#e97132"
+       transform="matrix(1,0,0,-1,760.5,476.253)"
+       id="path13" />
+    <path
+       d="M 0.666667,-7.43415e-7 0.666673,5.33333 H -0.666661 L -0.666667,7.43415e-7 Z M 0.666677,9.33333 l 6e-6,5.33337 H -0.66665 l -6e-6,-5.33337 z m 1e-5,9.33337 6e-6,5.3333 H -0.66664 l -6e-6,-5.3333 z m 1.1e-5,9.3333 6e-6,5.3333 H -0.666629 L -0.666635,28 Z m 10e-6,9.3333 6e-6,5.3334 h -1.333333 l -6e-6,-5.3334 z m 1.1e-5,9.3334 6e-6,5.3333 h -1.333334 l -6e-6,-5.3333 z m 1e-5,9.3333 6e-6,5.3333 H -0.666598 L -0.666604,56 Z m 10e-6,9.3333 6e-6,5.3334 h -1.333333 l -6e-6,-5.3334 z m 1.1e-5,9.3334 6e-6,5.3333 h -1.333333 l -6e-6,-5.3333 z m 1e-5,9.3333 4e-6,3.4816 H -0.666569 L -0.666573,84 Z m 3.33334,2.1482 -3.999995013,8 -4.000004987,-8 z"
+       fill="#e97132"
+       transform="matrix(1,0,0,-1,761.5,392.648)"
+       id="path14" />
+    <path
+       d="M 0.459607,-0.482914 69.7006,65.4162 68.7814,66.382 -0.459607,0.482914 Z M 71.0328,62.0825 l 3.0373,8.4127 -8.5526,-2.6178 z"
+       fill="#e97132"
+       transform="matrix(-1,0,0,1,880.57,321.5)"
+       id="path15" />
+    <rect
+       x="871"
+       y="272"
+       width="109"
+       height="39"
+       fill="#d13a8c"
+       id="rect15" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(881.091,299)"
+       id="text15">Security</text>
+    <path
+       d="M 0.0046546,-0.66665 67.3635,-0.196346 67.3542,1.13695 -0.0046546,0.66665 Z M 66.0535,-3.53891 74.0254,0.51685 65.9977,4.4609 Z"
+       fill="#e97132"
+       transform="matrix(1,0,0,-1,466.5,520.017)"
+       id="path16" />
+    <rect
+       x="376"
+       y="491"
+       width="90"
+       height="58"
+       fill="#d9d9d9"
+       id="rect16" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(388.48,514)"
+       id="text16">Security</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(403.226,537)"
+       id="text17">Role</text>
+    <rect
+       x="391"
+       y="311"
+       width="90"
+       height="59"
+       fill="#83cbeb"
+       id="rect17" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(402.654,335)"
+       id="text18">Security</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(417.4,358)"
+       id="text19">Role</text>
+    <path
+       d="M 1.18155e-6,-0.666667 52.5701,-0.666573 V 0.66676 L -1.18155e-6,0.666667 Z M 51.2368,-3.99991 59.2367,1.04987e-4 51.2367,4.00009 Z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,481.5,340.5)"
+       id="path19" />
+    <rect
+       x="542"
+       y="657"
+       width="90"
+       height="58"
+       fill="#d9d9d9"
+       id="rect19" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(558.005,692)"
+       id="text20">Vendor</text>
+    <path
+       d="m 632.507,685.833 75.238,0.818 -0.015,1.333 -75.237,-0.817 z m 73.941,-2.529 7.956,4.086 -8.043,3.913 z"
+       fill="#e97132"
+       id="path20" />
+    <path
+       d="m 586.078,657.448 -0.17,-15.274 1.333,-0.015 0.17,15.274 z m -3.489,-13.904 3.911,-8.044 4.089,7.955 z"
+       fill="#e97132"
+       id="path21" />
+    <path
+       d="m 290.503,252.833 93.748,0.477 -0.007,1.334 -93.747,-0.477 z m 92.431,-2.863 7.98,4.041 -8.021,3.959 z"
+       fill="#e97132"
+       id="path22" />
+    <rect
+       x="102"
+       y="233"
+       width="188"
+       height="39"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect22" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(111.766,260)"
+       id="text22">Security Portal</text>
+    <rect
+       x="542"
+       y="126"
+       width="90"
+       height="58"
+       fill="#7f7f7f"
+       id="rect23" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(560.265,149)"
+       id="text23">Virtual</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="18.6667px"
+       transform="translate(553.352,172)"
+       id="text24">PO lines</text>
+    <path
+       d="m 728.552,210.684 -4.64,-2.629 0.657,-1.16 4.64,2.629 z m -8.121,-4.601 -4.64,-2.629 0.657,-1.16 4.641,2.629 z m -8.12,-4.6 -4.641,-2.629 0.658,-1.16 4.64,2.629 z m -8.121,-4.601 -4.64,-2.629 0.657,-1.16 4.64,2.629 z m -8.121,-4.601 -4.64,-2.629 0.657,-1.16 4.641,2.629 z m -8.12,-4.6 -4.641,-2.629 0.658,-1.161 4.64,2.629 z m -8.121,-4.601 -4.64,-2.629 0.657,-1.16 4.64,2.629 z m -8.12,-4.601 -4.641,-2.629 0.657,-1.16 4.641,2.629 z m -8.121,-4.601 -4.64,-2.629 0.657,-1.16 4.64,2.629 z m -8.121,-4.6 -4.64,-2.629 0.657,-1.16 4.641,2.629 z m -8.12,-4.601 -4.641,-2.629 0.658,-1.16 4.64,2.629 z m -8.121,-4.601 -1.253,-0.71 0.657,-1.16 1.253,0.71 z m -1.736,2.848 -4.989,-7.424 8.932,0.463 z"
+       fill="#156082"
+       id="path24" />
+    <path
+       d="M 0.364487,-0.558205 4.83013,2.35769 4.10116,3.47411 -0.364487,0.558205 Z M 8.17936,4.54462 12.645,7.46052 11.916,8.57693 7.45039,5.66103 Z m 7.81484,5.10282 4.4657,2.91586 -0.729,1.1165 -4.4656,-2.9159 z m 7.8149,5.10286 4.4657,2.9159 -0.729,1.1164 -4.4657,-2.9159 z m 7.8149,5.1028 4.4656,2.9159 -0.7289,1.1164 -4.4657,-2.9159 z m 7.8149,5.1028 4.4656,2.9159 -0.729,1.1164 -4.4656,-2.9159 z m 7.8148,5.1028 4.4657,2.9159 -0.729,1.1165 -4.4656,-2.9159 z m 7.8149,5.1029 4.4657,2.9159 -0.729,1.1164 -4.4657,-2.9159 z m 7.8149,5.1028 4.4656,2.9159 -0.7289,1.1164 -4.4657,-2.9159 z m 7.8149,5.1028 4.4656,2.9159 -0.729,1.1164 -4.4656,-2.9159 z m 8.4152,1.5138 4.5115,7.7231 -8.8854,-1.0246 z"
+       fill="#156082"
+       transform="matrix(-1,0,0,1,542.125,155.5)"
+       id="path25" />
+    <rect
+       x="540"
+       y="396"
+       width="91"
+       height="59"
+       fill="#d13a8c"
+       id="rect25" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(562.182,414)"
+       id="text25">Contact</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(572.016,430)"
+       id="text26">User</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(551.849,446)"
+       id="text27">Connection</text>
+    <path
+       d="M 0.666667,-1.98787e-6 0.666752,28.5425 H -0.666582 L -0.666667,1.98787e-6 Z M 4.00008,27.2091 l -3.999975013,8 -4.000024987,-8 z"
+       fill="#e97132"
+       transform="matrix(1,0,0,-1,586.5,490.709)"
+       id="path27" />
+    <rect
+       x="541"
+       y="577"
+       width="90"
+       height="58"
+       fill="#d13a8c"
+       id="rect27" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(565.701,594)"
+       id="text28">Vendor</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(572.948,610)"
+       id="text29">User</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(552.781,626)"
+       id="text30">Connection</text>
+    <path
+       d="m 587.166,548.478 0.712,21.486 -1.333,0.045 -0.711,-21.487 z m 3.999,20.044 -3.733,8.128 -4.262,-7.864 z"
+       fill="#e97132"
+       id="path30" />
+  </g>
+</svg>

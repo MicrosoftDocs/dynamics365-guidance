@@ -5,7 +5,7 @@ description: Integrate Dynamics 365 Supply Chain Management or Commerce with ext
 author: edupont04
 ms.author: edupont
 ms.topic: reference-architecture
-ms.date: 07/29/2025
+ms.date: 08/19/2025
 ---  
 # Process outbound goods with Dynamics 365 and external service providers
 
@@ -56,7 +56,7 @@ The following diagram illustrates the architecture for the solution.
 
 :::image type="content" source="media/supply-chain-process-outbound-goods-connect-external-services-data-flow.svg" alt-text="Screenshot of the architecture diagram illustrating the flow of data between Dynamics 365 and external cubing, packing, and shipping software." lightbox="media/supply-chain-process-outbound-goods-connect-external-services-data-flow.svg":::
 
-[Download a PowerPoint file with this architecture](https://github.com/microsoft/dynamics365patternspractices/tree/main/architectures).
+[Download a PowerPoint file with this architecture](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/dynamics-365-finance-operations-process-outbound-goods-external-service-providers-reference-architecture.pptx).
 
 ## Data flow between systems
 
