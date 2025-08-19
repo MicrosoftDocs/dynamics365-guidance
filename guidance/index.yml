@@ -130,6 +130,8 @@ productDirectory:
         url: reference-architectures/dynamics-365-travel-hospitality.md
       - text: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
         url: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
+      - text: Dynamics 365 Project Operations to Field Service integration architecture
+        url: reference-architectures/project-operations-field-service-integration.md
       - text: Introduction to reference architectures for digital contact centers
         url: reference-architectures/contact-center-overview.md
 

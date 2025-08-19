@@ -1126,6 +1126,10 @@ items:
                 href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
               - name: Best practices for deploying the voice channel
                 href: resources/contact-center-deploy-voice-channel-best-practices.md
+          - name: Field Service
+            items:
+              - name: Dynamics 365 Project Operations to Field Service integration architecture
+                href: reference-architectures/project-operations-field-service-integration.md
           - name: Finance
             items:
               - name: Business solution with connections to online and on-premises apps
