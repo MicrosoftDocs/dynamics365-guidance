@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1174.3634"
+   height="703.14313"
+   overflow="hidden"
+   version="1.1"
+   id="svg71"
+   sodipodi:docname="PowerPages-financeoperations-dual-write.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview71"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.88984375"
+     inkscape:cx="573.69622"
+     inkscape:cy="432.66023"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g71" />
+  <defs
+     id="defs8">
+    <clipPath
+       id="clip0">
+      <rect
+         x="-9.3132302e-10"
+         y="0"
+         width="295275"
+         height="285750"
+         id="rect1" />
+    </clipPath>
+    <image
+       width="44"
+       height="44"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAh9SURBVFhHzZldbBtZFcfvjB3biet07Npx0iat0ywtbdUtZQVokbJI7CIkKCrdh4J2taLaSiwSD4AKghfoAqoQSCxoUSW2WiS2Eh8taKWlUO0+gNTudkuapiUfxG4ax/FXZ8Zje+z5tj1zDw/JWONbO2kat+InWfK953/OPTn3zr13HAp1oFgsDieTyU8fOHBgHGO8X9O0EYZhRr1er5vUIoQQAADP87ne3t7l3t5ecWZm5u1wOLwQi8X+TVEUkPquoCjK0PLy8kuiKL5fq9VM6AIcxyVEUXw1k8mEyPEeBgqtVKeH47gvMwzzG5/PFyVFTjDGUC6Xqwghc7XL1d/f3+/xeFyEtAXDMBrVavUnPp/vLMMwIml/UCgA6BEE4VeRSOSbpFGWZZ6m6dl4PP6u2+3O7ty5Mx8MBkWapuedOozxNtM0RxOJxHCtVtt5+PDho7Is79i6deteiqKcUqQoyhRC6IuBQIBvMTwolUrlR84pbDQaDVmWL8/Pzx/BGPtJ/UYoFArj1Wr1nK7runMMXdevAUAfqX8QKFVVS319fSGEEGo0Gnme518ZGRn5ByncDACwVdf1/cvLy0Oqqg5TFBVZWlr66fHjx+ukdl0clbVkWX6StP+/Qdtf3G43rWnanlbzw4MxHrY/ANC6kDcBBQDNPdIwjHqtVvuxy+V6MxAIFFqlrQAAxfP8aDabDe/evfsphNDTsizHLMsadLlc/bt27WruNul0mrMsS/R4PFm/33+Ppunrd+/evRkKhZJjY2PV1sjr4HwYbHRdV1iWPeOcgVUtXSqVRkRRPJnJZCZJv42iaVojnU6/W61WXyoWi/3OsTpCBrEpl8txZ8Isyw7IsnyO1HULSZIqxWLx5YsXL665nzeXhCzLimmaHwYCgc9QFEVVKpXxcDh8AyGEBEHY7nK5poLB4KDTGVZmo+z1eiuCICxkMpnJYDC4HI1GuUAgULN1pVIpwHHcDl3Xd42NjX08EAh8BGMc8Xq9921tlUrlvZ6enhNbtmzhSBtCjgoLglBAK8EP3rlz5wu2neO4aLVarTirUa/XlXv37v09lUodawm2AQAgmEgkThqGMW1ZVsMZX1GUCQDYSvog1CZhElEUz9say7IsnuffAYAgqdsMGOOnVVW908x4JZ9XSB1C6yQMAFsURTFsTTabPUtqusXq4fIfe6xisfgOqUHkLkACAIzf7/fabY/HM9mq6CqKJEnLdsMwjLazuGbCJAzDvKHr+kkAWPNJ3ihzc3NbOI57fWBg4Chpu4+1lsTqKXUfhUIhX6vVTi4sLPQDwIb+aBsA8M3MzATT6fQPDMPQyDFyudxV0gc5t7VisShEIpEBpxFjPExRVNbZR1IqlURBEP4Ui8VuJxKJv6qqao2Ojlosy6KBgQEoFAqU2+2mDMNw7du3b8jtdj+XSqU+tWfPnq/29PT0kPFs8vn8+8PDw8+Q/RuqcLlczlqWhZ193cI0TUtVVclud6rwhqaTYZivCYLwMZZlZzHGpuMa8lCs5taIx+N/tCzr0Nzc3C9IDcmGEkYIocHBwZnt27c/6XK5ehBCT8Tj8TM8zxcAAGO8dvFX7Xh6enoyk8mcQgh9lKZpz/79+1/0er1zly9f/lutVqut6to/2HawB1kSGOPPkhobAKBOnz5NA0DHz6p9zaumI057XbcSflxsaJcAgGdpmv6XU7NZAOC5bDa7V1VVJhqN5hiGuUnT9H+dmomJiRf8fv8TtsNjrzAAhHO53HXTNHVy3VuWhS3LUhcXF39nv6gKgiDY9mbClmVhjHHLO92jSDiZTL5hmmbL7awTpmmq+Xz+mCAIvN2HJEkq2w1ZlllBEJpJdTvhfD5/qd1WUqlUKjMzM7dqtVqNtJmm2bAsy7LbiGXZ7zsFlmU1crncr1GXE15aWjrrTFbTtJogCEdTqRQDAB60slT6FhYWIizLvuYc1wkCAJpl2TPOTl3Xb6IuJixJUqTRaDSXgSAIyVQqxZA6GwBwlUqlg6qqVp3jg31SAQBdLpdflCSpAo8g4Ww2+4EzTqFQGCI1aGU3+Iau62Vd18uGYZQsy7pvidAIIURRFA6FQn+o1+s7RVE8wfP8X8hgm2FoaOgp+3u1Wj0eiUTav68hFPb5fEGfzxf0er0hmqY9pKDlaA6Hw1IoFHorFov93Nm/WTDGzVuZJEn/7PR7MUVR614V2h9/q3Tr4EgkEqOqqgZUVe0dHx+/0SnhCxcu9MZisd1k/wNDrmFFUT5Pah43a1YYAFwsy04NDQ0dQiu/7Wbr9fpXtm3bdp3UduLSpUs7BgcHT0CHuyhFUdTVq1dfO3XqlE7aEEIoHo8HdF3/pWmayxRFXSHt9yGK4svOKpumWeM47k0AaD5IazE7O/uq078dExMTB0g/m3Q6/W1bx7JsZt1FzjDMWzzP/8xuu1wuTzQaPYkxnmg0GpPpdPr1ZDJ5ZH5+flur5+YBgL5IJHLSbjMMM9uq6AAAuDiO+5aqqi2/pDsxDKMuimJWkqQ7t2/f/rrt267C1Wp1Pp/PX8nn81dyudwH165da7kl2giC8D2nXyqVep7UrMni4uJAuVz+YaVSKToDkdy6deu3tk+7hDVNkwRB+FKntwoA6ON5/rv1er1u+6iqeg0AOr60rgkAMIlE4tlGo/F7lmVvKIrSUvmpqalztrZdwjaSJP15YWHhCAAMopVdae/09PQLsix/6NRpmlbiOO5gSxKbAWPcn0wmPzE5Ofm5iYmJY+fPn29OsTPhSqVSME2zWTUbwzAahUKhaJpm81Zmo2mayLLsJ1tHfIQ4E56enr6RzWafr1aruda02qMoynWe5w854627S3QZamRk5O1AILA3l8t9R5KkK6Zp2v+gRAghpGmaomnae5lM5rjf738mGo1OO+3/A/SBE3Vw3nUDAAAAAElFTkSuQmCC"
+       preserveAspectRatio="none"
+       id="img1" />
+    <clipPath
+       id="clip2">
+      <rect
+         x="0"
+         y="0"
+         width="285750"
+         height="285750"
+         id="rect2" />
+    </clipPath>
+    <clipPath
+       id="clip3">
+      <rect
+         x="0"
+         y="0"
+         width="409575"
+         height="409575"
+         id="rect3" />
+    </clipPath>
+    <image
+       width="64"
+       height="64"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADqUExURSuJzwJyxwBxxgFyxyaFzwBxxgFxxgp2yCCDzgBwxwAAAAByxyGDzgNyxyqHzyOFzgV0xx2Czs/f77/f77/b7YC/5r+//xmAzBN9y4C//4C/v4+/3yuK1UCV1Xi33wh1yAx4yCKFzyCDzg14yWas2TqR1BV+ywJyxhd+yzqQ02Oq3At4yA15yWqq3zyP0ziP03at2wt3yRZ8yyGDzjaO06fP7zuT0yaH0BR8y4q/3xR9yyeIzwh2yAh1yA55ySiH0EaX1hV8yhuAzRh/zCqI0CWGzy6L0TCLzw55yQ14yhF6ygFxxyWHzySHzxNJIq4AAABOdFJOU5vf39+b/9/nv58An7v/gHP/vxAgHBQEq6sEBBAYGCDX16On2yhYz//TXCTX7xhAQBzr03M0IDRzzxi/r////3Msx9/bh797gOefz9+foycTjvgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFNSURBVFhH7ddZU4MwFIbhFIyVuC9VSm1da637VrXu++7//ztOJNCcQJMTyoXj8F4xge+ZKVeUkJIzQO4QcelADRNHPbLLKYA8gfKIVeUE4DGrvAJgozEwFl6MT6iP6JucCnfTRL2DbWaWN8cyA1E5AxUPUQVMIDC/IF6uJr8KJspPqBoFP4ALCNQWTYIf1GtgAoHGkkHwg/pyA0wUgOoFvqd6QCv87k2ARgj3RqCvIPZmoI8Q7RFAqhDvMUCK0NujgIQg7XGAIsh7JMCFleh6Vd5jAbq2zpobLUpbm222tS3dwAJ0p83Y7t7+AWPNQ/kcDVB6dHzS6ZyencNTCyC9AigAng7oXiDqggkEMvQHgMura97NrXpH3939A+/xiZTEu31WH9H3ImZu/JVmCbyKWe8z7x8Ab+9WfSSAjBVALsCnemSXQ77Uf/R2ff8APfKeHFxU2l0AAAAASUVORK5CYII="
+       preserveAspectRatio="none"
+       id="img4" />
+    <clipPath
+       id="clip5">
+      <rect
+         x="0"
+         y="-0.5"
+         width="409575"
+         height="409575"
+         id="rect4" />
+    </clipPath>
+    <clipPath
+       id="clip6">
+      <rect
+         x="0"
+         y="0"
+         width="409575"
+         height="514350"
+         id="rect5" />
+    </clipPath>
+    <image
+       width="77"
+       height="97"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img7" />
+    <clipPath
+       id="clip8">
+      <rect
+         x="0"
+         y="0"
+         width="408298"
+         height="514350"
+         id="rect6" />
+    </clipPath>
+    <clipPath
+       id="clip9">
+      <rect
+         x="0"
+         y="-1.16415e-10"
+         width="857250"
+         height="457200"
+         id="rect7" />
+    </clipPath>
+    <image
+       width="144"
+       height="75"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img10" />
+    <clipPath
+       id="clip11">
+      <rect
+         x="0"
+         y="0"
+         width="857250"
+         height="446484"
+         id="rect8" />
+    </clipPath>
+  </defs>
+  <g
+     id="g71"
+     transform="translate(-66.303772,-16.856892)">
+    <rect
+       x="66.303772"
+       y="16.856892"
+       width="1174.3634"
+       height="703.14313"
+       fill="#ffffff"
+       id="rect9"
+       style="stroke-width:0.946569" />
+    <rect
+       x="73"
+       y="240"
+       width="168"
+       height="354"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect10" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(111.112,400)"
+       id="text10">C</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(126.445,400)"
+       id="text11">ustomer</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(98.1117,425)"
+       id="text12">engagement</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(134.278,451)"
+       id="text13">apps</text>
+    <rect
+       x="984"
+       y="194"
+       width="162"
+       height="507"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect13" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(1006.89,430)"
+       id="text14">Finance and</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(1015.72,455)"
+       id="text15">operations</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(1042.39,481)"
+       id="text16">apps</text>
+    <rect
+       x="511"
+       y="218"
+       width="182"
+       height="242"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect16" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(554.284,245)"
+       id="text17">Dual</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(597.951,245)"
+       id="text18">-</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(605.117,245)"
+       id="text19">w</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(620.451,245)"
+       id="text20">r</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(627.617,245)"
+       id="text21">ite</text>
+    <g
+       clip-path="url(#clip0)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,661,225)"
+       id="g22">
+      <g
+         clip-path="url(#clip2)"
+         transform="matrix(1.03333,0,0,1,-0.5,-0.25)"
+         id="g21">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(6494.32)"
+           id="use21" />
+      </g>
+    </g>
+    <path
+       d="m 539.167,267.833 h 131.58 v 1.334 h -131.58 z m 1.333,4.667 -8,-4 8,-4 z m 128.914,-8 8,4 -8,4 z"
+       fill="#156082"
+       id="path22" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(584.74,297)"
+       id="text22">Accounts</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(585.826,313)"
+       id="text23">Contacts</text>
+    <path
+       d="m 539.167,324.833 h 138.247 v 1.334 H 539.167 Z m 1.333,4.667 -8,-4 8,-4 z"
+       fill="#156082"
+       id="path23" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(568.772,352)"
+       id="text24">Payment term</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(570.852,368)"
+       id="text25">Delivery term</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(581.685,384)"
+       id="text26">Countries</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(591.352,400)"
+       id="text27">States</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(577.438,416)"
+       id="text28">Languages</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(595.352,432)"
+       id="text29">Sites</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(572.852,448)"
+       id="text30">Warehouses</text>
+    <rect
+       x="306"
+       y="485"
+       width="79"
+       height="59"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect30" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(327.786,520)"
+       id="text31">Quote</text>
+    <path
+       d="m 256.5,514.833 h 43.262 v 1.334 H 256.5 Z m 41.928,-3.333 8,4 -8,4 z"
+       fill="#156082"
+       id="path31" />
+    <path
+       d="m 347.167,427.5 v 5.333 h -1.334 V 427.5 Z m 0,9.333 v 5.334 h -1.334 v -5.334 z m 0,9.334 v 5.333 h -1.334 v -5.333 z m 0,9.333 v 5.333 h -1.334 V 455.5 Z m 0,9.333 v 5.334 h -1.334 v -5.334 z m 0,9.334 v 4.515 h -1.334 v -4.515 z m 3.333,3.182 -4,8 -4,-8 z"
+       fill="#156082"
+       id="path32" />
+    <path
+       d="M 0.00499001,-0.666648 117.369,0.211851 117.359,1.54515 -0.00499001,0.666648 Z M 116.061,-3.13137 l 7.97,4.059769 -8.03,3.940011 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,386.5,515.428)"
+       id="path33" />
+    <rect
+       x="732"
+       y="482"
+       width="79"
+       height="60"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect33" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(748.769,509)"
+       id="text33">Custom</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(757.349,525)"
+       id="text34">t</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(761.015,525)"
+       id="text35">able</text>
+    <path
+       d="M 1.7771e-6,-0.666667 32.7184,-0.666579 V 0.666754 L -1.7771e-6,0.666667 Z M 31.3851,-3.99992 l 8,4.000024987 -8,3.999975013 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,693.5,512.5)"
+       id="path35" />
+    <rect
+       x="276"
+       y="560"
+       width="62"
+       height="33"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect35" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(288.748,574)"
+       id="text36">Quote</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(296.415,590)"
+       id="text37">line</text>
+    <rect
+       x="348"
+       y="560"
+       width="61"
+       height="33"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect37" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(360.471,574)"
+       id="text38">Quote</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(368.137,590)"
+       id="text39">line</text>
+    <path
+       d="m 857.5,582.5 c -12.979,0 -23.5,-3.643 -23.5,-8.137 v -56.675 c 0,-4.494 -10.521,-8.137 -23.5,-8.137 12.979,0 23.5,-3.643 23.5,-8.136 V 305.637 c 0,-4.494 10.522,-8.137 23.5,-8.137"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path39" />
+    <rect
+       x="855"
+       y="309"
+       width="79"
+       height="60"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect39" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(875.641,336)"
+       id="text40">Global</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(871.975,352)"
+       id="text41">Product</text>
+    <rect
+       x="855"
+       y="374"
+       width="79"
+       height="60"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect41" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(866.808,401)"
+       id="text42">Released</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(871.975,417)"
+       id="text43">Product</text>
+    <rect
+       x="857"
+       y="440"
+       width="78"
+       height="60"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect43" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(879.31,467)"
+       id="text44">Sales</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(878.89,483)"
+       id="text45">Order</text>
+    <rect
+       x="855"
+       y="506"
+       width="79"
+       height="59"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect45" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(866.808,533)"
+       id="text46">Purchase</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(877.808,549)"
+       id="text47">Order</text>
+    <rect
+       x="73"
+       y="608"
+       width="168"
+       height="100"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect47" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(129.528,666)"
+       id="text48">Portal</text>
+    <rect
+       x="511"
+       y="609"
+       width="182"
+       height="101"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect48" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(535.477,642)"
+       id="text49">Virtual entities</text>
+    <path
+       d="m 536.167,657.833 h 5.333 v 1.334 h -5.333 z m 9.333,0 h 5.333 v 1.334 H 545.5 Z m 9.333,0 h 5.334 v 1.334 h -5.334 z m 9.334,0 h 5.333 v 1.334 h -5.333 z m 9.333,0 h 5.333 v 1.334 H 573.5 Z m 9.333,0 h 5.334 v 1.334 h -5.334 z m 9.334,0 h 5.333 v 1.334 h -5.333 z m 9.333,0 h 5.333 v 1.334 H 601.5 Z m 9.333,0 h 5.334 v 1.334 h -5.334 z m 9.334,0 h 5.333 v 1.334 h -5.333 z m 9.333,0 h 5.333 v 1.334 H 629.5 Z m 9.333,0 h 5.334 v 1.334 h -5.334 z m 9.334,0 h 5.333 v 1.334 h -5.333 z m 9.333,0 h 5.333 v 1.334 H 657.5 Z m 9.333,0 h 0.914 v 1.334 h -0.914 z M 537.5,662.5 l -8,-4 8,-4 z m 128.914,-8 8,4 -8,4 z"
+       fill="#156082"
+       id="path49" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(536.618,689)"
+       id="text50">Purchase Order lines</text>
+    <rect
+       x="489"
+       y="141"
+       width="224"
+       height="68"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect50" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(548.297,183)"
+       id="text51">SharePoint</text>
+    <rect
+       x="105"
+       y="261"
+       width="97"
+       height="59"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect51" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(123.412,288)"
+       id="text52">Document</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(117.579,304)"
+       id="text53">Canvas App</text>
+    <rect
+       x="1013"
+       y="237"
+       width="97"
+       height="60"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect53" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(1030.95,264)"
+       id="text54">Document</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(1025.11,280)"
+       id="text55">Canvas App</text>
+    <path
+       d="M 6.52065,1.5409 11.5632,3.27779 11.129,4.53844 6.08643,2.80154 Z M 15.3452,4.58046 20.3878,6.31735 19.9535,7.578 14.911,5.84111 Z m 8.8245,3.03956 5.0426,1.73689 -0.4342,1.26069 -5.0426,-1.73693 z m 8.8245,3.03958 5.0426,1.7369 -0.4342,1.2606 -5.0426,-1.7369 z m 8.8245,3.0395 5.0426,1.7369 -0.4342,1.2607 -5.0426,-1.7369 z m 8.8246,3.0396 5.0425,1.7369 -0.4342,1.2606 -5.0426,-1.7368 z m 8.8245,3.0396 5.0426,1.7369 -0.4343,1.2606 -5.0425,-1.7369 z m 8.8245,3.0395 5.0426,1.7369 -0.4342,1.2607 -5.0426,-1.7369 z m 8.8245,3.0396 5.0426,1.7369 -0.4342,1.2606 -5.0426,-1.7369 z m 8.8245,3.0396 5.0426,1.7369 -0.4342,1.2606 -5.0426,-1.7369 z m 8.8246,3.0395 5.0425,1.7369 -0.4342,1.2607 -5.0426,-1.7369 z m 8.8241,3.0396 5.043,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.825,3.0395 5.042,1.7369 -0.434,1.2607 -5.042,-1.7369 z m 8.824,3.0396 5.043,1.7369 -0.434,1.2606 -5.043,-1.7368 z m 8.825,3.0396 5.043,1.7369 -0.435,1.2606 -5.042,-1.7369 z m 8.824,3.0395 5.043,1.7369 -0.434,1.2607 -5.043,-1.7369 z m 8.825,3.0396 5.043,1.7369 -0.435,1.2606 -5.042,-1.7369 z m 8.825,3.0396 5.042,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.824,3.0395 5.043,1.7369 -0.435,1.2607 -5.042,-1.7369 z m 8.825,3.0396 5.042,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.824,3.0395 5.043,1.7369 -0.435,1.2607 -5.042,-1.7369 z m 8.825,3.0396 5.042,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.824,3.0396 5.043,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.825,3.0395 5.042,1.7369 -0.434,1.2607 -5.043,-1.7369 z m 8.824,3.0396 5.043,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.825,3.0395 5.042,1.7369 -0.434,1.2607 -5.043,-1.7369 z m 8.824,3.0396 5.043,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.825,3.0396 5.042,1.7369 -0.434,1.2606 -5.043,-1.7369 z m 8.824,3.0395 5.043,1.7369 -0.434,1.2607 -5.043,-1.7369 z m 8.825,3.0396 0.625,0.2154 -0.434,1.2606 -0.625,-0.2154 z M 6.26121,6.38727 0,0 8.86654,-1.1766 Z M 262.883,86.3179 l 6.261,6.3873 -8.867,1.1766 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,220.5,268.205)"
+       id="path55" />
+    <path
+       d="m 1006.63,266.285 -5.1,-1.567 0.4,-1.274 5.09,1.567 z m -8.919,-2.742 -5.099,-1.566 0.392,-1.275 5.098,1.567 z m -8.922,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.922,-2.741 -5.098,-1.567 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.566 z m -8.922,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.566 z m -8.921,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.567 z m -8.922,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.922,-2.741 -5.098,-1.567 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.566 z m -8.922,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.566 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.099,1.567 z m -8.922,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.566 0.391,-1.275 5.098,1.567 z m -8.922,-2.741 -5.098,-1.567 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.098,1.566 z m -8.922,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.566 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.098,1.567 z m -8.922,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.566 0.391,-1.275 5.098,1.567 z m -8.922,-2.741 -5.098,-1.567 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.098,1.566 z m -8.922,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.098,1.567 z m -8.922,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.921,-2.741 -5.098,-1.567 0.391,-1.275 5.098,1.567 z m -8.922,-2.742 -5.098,-1.567 0.392,-1.275 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.098,1.566 z m -8.922,-2.742 -5.098,-1.567 0.392,-1.274 5.098,1.567 z m -8.921,-2.742 -5.098,-1.567 0.391,-1.274 5.098,1.567 z m -8.922,-2.742 -5.098,-1.566 0.392,-1.275 5.098,1.567 z m -8.922,-2.741 -1.466,-0.451 0.391,-1.275 1.467,0.451 z m 285.587,82.885 6.47,6.174 -8.82,1.473 z M 719.972,181.674 713.5,175.5 l 8.822,-1.473 z"
+       fill="#156082"
+       id="path56" />
+    <rect
+       x="306"
+       y="364"
+       width="79"
+       height="63"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect56" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(331.369,400)"
+       id="text56">CPQ</text>
+    <rect
+       x="511"
+       y="465"
+       width="182"
+       height="94"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect57" />
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(547.249,536)"
+       id="text57">Azure Service Bus</text>
+    <g
+       clip-path="url(#clip3)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,589,475)"
+       id="g58">
+      <g
+         clip-path="url(#clip5)"
+         id="g57">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img4"
+           transform="matrix(6399.61,0,0,6399.61,0,-0.5)"
+           id="use57" />
+      </g>
+    </g>
+    <path
+       d="M 6.38061,2.044 75.6257,32.1141 75.0946,33.3371 5.84951,3.267 Z M 5.74469,6.85555 0,0 8.93125,-0.482428 Z m 69.98581,21.67005 5.7447,6.8555 -8.9313,0.4824 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,1065.5,194.881)"
+       id="path58" />
+    <rect
+       x="1061"
+       y="64"
+       width="172"
+       height="95"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect58" />
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="13.3333px"
+       transform="translate(1072.34,89)"
+       id="text58">Azure</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="13.3333px"
+       transform="translate(1113,89)"
+       id="text59">i</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="13.3333px"
+       transform="translate(1116.67,89)"
+       id="text60">ntegrations</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="10.6667px"
+       transform="translate(1072.34,102)"
+       id="text61">EDI</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="10.6667px"
+       transform="translate(1072.34,115)"
+       id="text62">Aro</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="10.6667px"
+       transform="translate(1072.34,128)"
+       id="text63">Nskift</text>
+    <g
+       clip-path="url(#clip6)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,1140,95)"
+       id="g64">
+      <g
+         clip-path="url(#clip8)"
+         transform="matrix(1.00313,0,0,1,-1,-0.0625)"
+         id="g63">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img7"
+           transform="scale(5302.58)"
+           id="use63" />
+      </g>
+    </g>
+    <rect
+       x="889"
+       y="65"
+       width="163"
+       height="94"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect64" />
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="13.3333px"
+       transform="translate(903.152,90)"
+       id="text64">ISV connectors</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="10.6667px"
+       transform="translate(903.152,103)"
+       id="text65">Medius</text>
+    <text
+       fill="#f2f2f2"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="10.6667px"
+       transform="translate(903.152,116)"
+       id="text66">Lasernet</text>
+    <path
+       d="m 1059.78,192.719 -82.254,-30.29 0.46,-1.251 82.254,30.289 z m 0.36,-4.84 6.13,6.518 -8.89,0.989 z m -82.515,-21.861 -6.125,-6.518 8.89,-0.989 z"
+       fill="#156082"
+       id="path66" />
+    <rect
+       x="550"
+       y="27"
+       width="122"
+       height="106"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       id="rect66" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(582.934,50)"
+       id="text67">Azure</text>
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(569.347,75)"
+       id="text68">Synapse</text>
+    <g
+       clip-path="url(#clip9)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,570,77)"
+       id="g69">
+      <g
+         clip-path="url(#clip11)"
+         transform="matrix(1,0,0,1.024,-0.5,0)"
+         id="g68">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img10"
+           transform="scale(5953.12)"
+           id="use68" />
+      </g>
+    </g>
+    <rect
+       x="220"
+       y="30"
+       width="136"
+       height="100"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect69" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(244.447,88)"
+       id="text69">Power BI</text>
+    <path
+       d="M 6.42623,1.89452 11.3664,3.90422 10.864,5.13927 5.92381,3.12957 Z m 8.64537,3.51698 4.9402,2.0097 -0.5025,1.23505 -4.9401,-2.0097 z m 8.6453,3.51698 4.9402,2.00972 -0.5024,1.235 -4.9402,-2.0097 z m 8.6454,3.51702 4.9402,2.0097 -0.5025,1.235 -4.9402,-2.0097 z m 8.6453,3.5169 4.9402,2.0097 -0.5024,1.2351 -4.9402,-2.0097 z m 8.6454,3.517 4.9401,2.0097 -0.5024,1.2351 -4.9402,-2.0097 z m 8.6453,3.517 4.9402,2.0097 -0.5024,1.2351 -4.9402,-2.0098 z m 8.6453,3.517 4.9402,2.0097 -0.5024,1.235 -4.9402,-2.0097 z m 8.6454,3.517 4.9402,2.0097 -0.5025,1.235 -4.9402,-2.0097 z m 8.6453,3.5169 4.9402,2.0097 -0.5024,1.2351 -4.9402,-2.0097 z m 8.6454,3.517 4.9402,2.0097 -0.5025,1.2351 -4.9402,-2.0097 z m 8.6453,3.517 4.94,2.0097 -0.502,1.2351 -4.94,-2.0097 z m 8.645,3.517 4.941,2.0097 -0.503,1.235 -4.94,-2.0097 z m 8.646,3.517 4.94,2.0097 -0.503,1.235 -4.94,-2.0097 z m 8.645,3.517 4.94,2.0097 -0.502,1.235 -4.94,-2.0097 z m 8.645,3.5169 4.941,2.0097 -0.503,1.2351 -4.94,-2.0097 z m 8.646,3.517 4.94,2.0097 -0.503,1.2351 -4.94,-2.0097 z m 8.645,3.517 4.94,2.0097 -0.502,1.235 -4.94,-2.0097 z m 8.645,3.517 4.941,2.0097 -0.503,1.235 -4.94,-2.0097 z m 8.646,3.517 4.94,2.0097 -0.503,1.235 -4.94,-2.0097 z m 8.645,3.5169 4.94,2.0097 -0.502,1.2351 -4.94,-2.0097 z m 8.645,3.517 4.941,2.0097 -0.503,1.2351 -4.94,-2.0097 z m 8.646,3.517 4.94,2.0097 -0.502,1.2351 -4.941,-2.0097 z m 8.645,3.517 4.94,2.0097 -0.502,1.235 -4.94,-2.0097 z m 8.645,3.517 4.941,2.0097 -0.503,1.235 -4.94,-2.0097 z m 8.646,3.5169 4.94,2.0098 -0.502,1.235 -4.941,-2.0097 z m 8.645,3.517 4.94,2.0097 -0.502,1.2351 -4.94,-2.0097 z m 8.645,3.517 4.941,2.0097 -0.503,1.2353 -4.94,-2.0099 z m 8.646,3.517 4.94,2.01 -0.502,1.235 -4.941,-2.01 z m 8.645,3.517 4.94,2.01 -0.502,1.235 -4.94,-2.01 z m 8.645,3.517 4.941,2.01 -0.503,1.235 -4.94,-2.01 z m 8.646,3.517 4.94,2.01 -0.502,1.235 -4.941,-2.01 z m 8.645,3.517 4.94,2.01 -0.502,1.235 -4.94,-2.01 z m 8.646,3.517 4.94,2.01 -0.503,1.235 -4.94,-2.01 z m 8.645,3.517 4.94,2.01 -0.502,1.235 -4.941,-2.01 z m 8.645,3.517 4.94,2.01 -0.502,1.235 -4.94,-2.01 z m 8.646,3.517 4.94,2.01 -0.503,1.235 -4.94,-2.01 z m 8.645,3.517 4.94,2.01 -0.502,1.235 -4.941,-2.01 z m 8.645,3.517 4.94,2.01 -0.502,1.235 -4.94,-2.01 z m 8.646,3.517 4.94,2.009 -0.503,1.236 -4.94,-2.01 z m 8.645,3.517 4.94,2.009 -0.502,1.236 -4.941,-2.01 z m 8.645,3.517 4.94,2.009 -0.502,1.235 -4.94,-2.009 z m 8.646,3.517 4.94,2.009 -0.503,1.235 -4.94,-2.009 z m 8.645,3.517 4.94,2.009 -0.502,1.235 -4.94,-2.009 z m 8.645,3.517 4.49,1.826 -0.503,1.235 -4.489,-1.826 z M 5.90301,6.7197 0,0 8.91757,-0.690589 Z M 391.332,154.878 l 5.903,6.72 -8.918,0.69 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,157.5,241.098)"
+       id="path69" />
+    <path
+       d="m 977.9,206.139 -4.936,-2.019 0.505,-1.235 4.936,2.02 z m -8.638,-3.534 -4.936,-2.019 0.504,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.534 -4.937,-2.019 0.505,-1.234 4.936,2.019 z m -8.639,-3.533 -4.936,-2.019 0.504,-1.234 4.937,2.019 z m -8.639,-3.534 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.533 -4.937,-2.019 0.505,-1.234 4.937,2.019 z m -8.639,-3.534 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.533 -4.937,-2.019 0.505,-1.234 4.936,2.019 z m -8.639,-3.534 -4.936,-2.019 0.504,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.533 -4.937,-2.02 0.505,-1.234 4.936,2.019 z m -8.639,-3.534 -4.936,-2.019 0.504,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.235 4.936,2.02 z m -8.638,-3.534 -4.937,-2.019 0.505,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.235 4.936,2.02 z m -8.638,-3.534 -4.937,-2.019 0.505,-1.234 4.936,2.019 z m -8.639,-3.533 -4.936,-2.019 0.504,-1.234 4.937,2.019 z m -8.639,-3.534 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.533 -4.937,-2.019 0.505,-1.234 4.936,2.019 z m -8.639,-3.534 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.534 -4.937,-2.019 0.505,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.234 4.936,2.019 z m -8.638,-3.533 -4.937,-2.02 0.505,-1.234 4.936,2.019 z m -8.639,-3.534 -4.936,-2.019 0.504,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.02 0.505,-1.234 4.936,2.019 z m -8.638,-3.534 -4.937,-2.019 0.505,-1.234 4.937,2.019 z m -8.639,-3.533 -4.936,-2.019 0.505,-1.235 4.936,2.02 z m -8.638,-3.534 -4.937,-2.019 0.505,-1.234 4.936,2.019 z m -8.639,-3.533 -4.936,-2.0194 0.504,-1.2341 4.937,2.0191 z m -8.639,-3.5338 -4.936,-2.0191 0.505,-1.2341 4.936,2.0192 z m -8.638,-3.5334 -4.937,-2.0191 0.505,-1.2341 4.936,2.0191 z m -8.639,-3.5335 -4.936,-2.0191 0.505,-1.2341 4.936,2.0191 z m -8.639,-3.5334 -4.936,-2.0192 0.505,-1.2341 4.936,2.0192 z m 294.246,115.3141 5.891,6.731 -8.919,0.673 z M 678.39,87.231 l -5.89,-6.7309 8.919,-0.6736 z"
+       fill="#156082"
+       id="path70" />
+    <path
+       d="m 363.167,79.8334 h 5.333 v 1.3333 h -5.333 z m 9.333,0 h 5.333 v 1.3333 H 372.5 Z m 9.333,0 h 5.334 v 1.3333 h -5.334 z m 9.334,0 h 5.333 v 1.3333 h -5.333 z m 9.333,0 h 5.333 v 1.3333 H 400.5 Z m 9.333,0 h 5.334 v 1.3333 h -5.334 z m 9.334,0 h 5.333 v 1.3334 h -5.333 z m 9.333,0 h 5.333 v 1.3334 H 428.5 Z m 9.333,0 h 5.334 v 1.3334 h -5.334 z m 9.334,0 h 5.333 v 1.3334 h -5.333 z m 9.333,0 h 5.333 v 1.3334 H 456.5 Z m 9.333,0 5.334,1e-4 v 1.3333 h -5.334 z m 9.334,1e-4 h 5.333 v 1.3333 h -5.333 z m 9.333,0 h 5.333 v 1.3333 H 484.5 Z m 9.333,0 h 5.334 v 1.3333 h -5.334 z m 9.334,0 h 5.333 v 1.3333 h -5.333 z m 9.333,0 h 5.333 v 1.3333 H 512.5 Z m 9.333,0 h 5.334 v 1.3333 h -5.334 z m 9.334,0 h 5.333 v 1.3333 h -5.333 z m 9.333,0 h 3.201 v 1.3333 H 540.5 Z m -176,4.6666 -8,-4 8,-4 z m 177.868,-7.9999 8,4 -8,4 z"
+       fill="#156082"
+       id="path71" />
+  </g>
+</svg>
