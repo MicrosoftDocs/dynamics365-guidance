@@ -128,4 +128,4 @@ Other contributors:
 
 - [Ananda Subramanian](https://www.linkedin.com/in/ananda-subramanian-a3537725/)
 
-- [Kishore Jadhav](https://www.linkedin.com/in/kishorworld/)
+- [Kishor Jadhav](https://www.linkedin.com/in/kishorworld/)
