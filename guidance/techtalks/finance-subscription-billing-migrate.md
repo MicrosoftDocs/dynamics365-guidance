@@ -1,7 +1,7 @@
 ---
 title: TechTalk Migrate to subscription billing from revenue recognition in Dynamics 365 Finance 
 description: Summary of TechTalk video that talks about how a business can streamline financial operations by migrating from revenue recognition to subscription billing in Dynamics 365 Finance. 
-ms.date: 10/14/2024
+ms.date: 08/20/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -16,8 +16,8 @@ We based this article on [a TechTalk](https://youtu.be/ISj9xncsfqE) that you can
 
 :::image type="content" source="media/finance-subscription-billing-migrate-slide.svg" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/ISj9xncsfqE":::
 
-> [!IMPORTANT]
-> The *revenue recognition* module is deprecated in Dynamics 365 Finance and replaced by the *subscription billing* functionality. The shift offers better flexibility and greater accuracy in handling recurring revenue streams, ultimately allowing businesses to align their financials with modern-day service delivery models. Learn more at [Features removed or deprecated in the Finance 10.0.30 release](/dynamics365/finance/get-started/removed-deprecated-features-finance#features-removed-or-deprecated-in-the-finance-10030-release).  
+> [!NOTE]
+> Dynamics 365 Finance replaced the *revenue recognition* module with the *subscription billing* functionality in 2023. The shift offers better flexibility and greater accuracy in handling recurring revenue streams, ultimately allowing businesses to align their financials with modern-day service delivery models. Learn more at [Features removed or deprecated in the Finance 10.0.30 release](/dynamics365/finance/get-started/removed-deprecated-features-finance#features-removed-or-deprecated-in-the-finance-10030-release).  
 
 ## Why the shift matters
 
@@ -85,6 +85,8 @@ For more detailed resources and guidance, visit [Subscription billing overview](
 
 You can use the following resources to learn more about Dynamics 365.
 
+- [Data entities overview](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)  
+- [Find information about standard data entities](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-report)  
 - [TechTalk: Subscription billing and deferral schedules with project management and accounting](finance-subscription-billing-deferral-schedules-project-management-accounting.md)  
 - [Subscription billing overview](/dynamics365/finance/accounts-receivable/subscription-billing-summary)  
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)  

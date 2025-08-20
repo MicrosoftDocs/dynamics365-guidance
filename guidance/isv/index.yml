@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Tools and resources for software development companies
-summary: Find tools and guidance to help you build solutions with Dynamics 365 and Power Platform as an independent software vendor (ISV).
+summary: Find tools and guidance to help you build solutions with Dynamics 365 and Power Platform as a software development company.
 
 metadata:
   title: Tools and resources for software development companies
@@ -71,7 +71,7 @@ landingContent:
           url: /dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview?toc=/dynamics365/guidance/toc.json
         - text: Add licensing information to your Dataverse solution
           url: /power-platform/developer/appsource/appendix-add-license-information-to-your-solution?toc=/dynamics365/guidance/toc.json
-        - text: ISV app license management for Dynamics 365 apps on Dataverse and Power Apps
+        - text: License management for Dynamics 365 apps on Dataverse and Power Apps
           url: /partner-center/marketplace-offers/isv-app-license?toc=/dynamics365/guidance/toc.json
         - text: The SMB opportunity for app publishers
           url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher?toc=/dynamics365/guidance/toc.json
