@@ -1,16 +1,16 @@
 ---
 title: AIM Assessment
-description: An assessment that helps develop a migration plan to move from on-premises to the cloud.
+description: An assessment that helps develop a migration plan to move from on-premises to the cloud based on the Accelerate, Innovate, Move campaign.
 author: ReneeW-CPub
 ms.author: renwe
 ms.date: 01/04/2024
-ms.topic: overview
+ms.topic: concept-article
 ms.service: dynamics-365
-ms.reviewer: renwe
+ms.reviewer: edupont
 ---
 # AIM Assessment
 
-The AIM Assessment helps partners conduct a technical and functional review of a customer's current on-premises solution with the goal of building a tailored migration plan. Depending on the solution, partners can conduct this analysis using third-party tools or Microsoft-provided tools (for AX and CRM). 
+The *Accelerate, Innovate, Move* (AIM) Assessment helps partners conduct a technical and functional review of a customer's current on-premises solution with the goal of building a tailored migration plan. Depending on the solution, partners can conduct this analysis using third-party tools or Microsoft-provided tools for Dynamics AX and Dynamics CRM. 
 
 The partner delivers an assessment report that includes a capability overview, dependencies, recommendations, and next steps. The AIM Assessment will help customers understand the benefits of moving from their legacy system to the cloud, tying this transition to current and future business objectives and Dynamics 365 cloud functionality. 
 
@@ -18,10 +18,10 @@ The partner delivers an assessment report that includes a capability overview, d
 
 The AIM Assessment can be offered to customers in combination with other Business Applications Partner Activities, such as an Envisioning Workshop or Solution Assessment, to help customers envision the business value of new cloud- and AI-enabled processes and use cases.
 
-The AIM Assessment includes two dimensions: a functional and a technical assessment. Partners can use third-party toolsets (for all on-premises solutions) or Microsoft-delivered tools (CRM Platform Assessment Tool, AX Code Upgrade Analysis Tool (LCS), Upgrade analysis tool (SQL Script) for AX, and so on) to support each phase of the evaluations. Information about the different tools can be found below and on the [Business Applications Partner Hub](https://www.aka.ms/aimforpartners).
+The AIM Assessment includes two dimensions: a functional and a technical assessment. Partners can use their own toolsets or Microsoft-delivered tools to support each phase of the evaluations. Information about the different tools can be found below and on the [Business Applications Partner Hub](https://www.aka.ms/aimforpartners).
 
 ## 1. Functional evaluation
- 
+
 A functional assessment examines customers' current business processes and determines how customers might most benefit from the new capabilities and enhancements available in Dynamics 365 in the cloud.
 
 **In this phase, the partner assesses and documents the following:**
@@ -52,24 +52,27 @@ During the technical assessment, the partner identifies the current technical ar
 
 The following Microsoft tools can be used during the different phases:
 
-[CRM Platform Assessment Tool](/dynamics365/get-started/aim-migration/solution-insights#CRM-platform-assessment-tool)
+- Dynamics CRM (on-premises) to Dynamics 365 online migration process
 
-Used to collect relevant technical information about the CRM on-premises deployment. The tool queries the metadata within an on-premises CRM instance and extracts relevant information used to determine the risks and effort involved with moving online.
+  Microsoft provides guidance on migrating your Dynamics CRM (on-premises) database to Dynamics 365 and Microsoft Dataverse. The guidance is provided in the form of tools and support from the migration factory team. Learn more at [Dynamics CRM (on-premises) to Dynamics 365 online migration process overview](opol-crm-migration-high-level-overview.md).
+<!--[CRM Platform Assessment Tool](aim-solution-insights.md#CRM-platform-assessment-tool)
 
-[AX Code Upgrade Analysis Tool (LCS)](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/analyze-code-upgrade) 
+Used to collect relevant technical information about the CRM on-premises deployment. The tool queries the metadata within an on-premises CRM instance and extracts relevant information used to determine the risks and effort involved with moving online.-->
 
-An LCS service to upgrade custom AX 2012 code and metadata to finance and operations apps format. Provides the Migration summary report, where you will find the code analysis summary, including customization information to review high-level estimates for the efforts required to convert over layering to extensions.
+- [AX Code Upgrade Analysis Tool (LCS)](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/analyze-code-upgrade)  
 
-[Upgrade Analysis Tool (SQL Script) for AX](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/AX2012DataUpgrade/UpgradeAnalysisReport.SQL) 
+  An LCS service to upgrade custom AX 2012 code and metadata to finance and operations apps format. Provides the Migration summary report, where you will find the code analysis summary, including customization information to review high-level estimates for the efforts required to convert over layering to extensions.
 
-Scripts to gather data on customers' AX environment and system usage, spotlighting new features and improvements. Automated recommendations and resources based on module and functionality used.
+- [Upgrade Analysis Tool (SQL Script) for AX](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/AX2012DataUpgrade/UpgradeAnalysisReport.SQL)  
 
-[Third-party assessment tools](https://appsource.microsoft.com/) 
+  Scripts to gather data on customers' AX environment and system usage, spotlighting new features and improvements. Automated recommendations and resources based on module and functionality used.
 
-Additional third-party assessment tools for other on-premises solutions can be found on Microsoft AppSource. Choose **Consulting Services**, Dynamics 365, and choose the relevant product. Then, enter **migration** in the search field. To get an overview of **assessments**, go to **Service Type** and choose **assessment**.
+- [Partner-provided assessment tools](https://appsource.microsoft.com/) 
 
-For Microsoft **Partners**: Please review the comprehensive delivery guide for more information, which can be found on the Business Applications Partner Hub: [aka.ms/aimforpartners](https://aka.ms/aimforpartners).
+  Find more assessment tools for other on-premises solutions on Microsoft AppSource. Choose **Consulting Services**, Dynamics 365, and choose the relevant product. Then, enter **migration** in the search field. To get an overview of **assessments**, go to **Service Type**, and then choose **assessment**.
 
+[!INCLUDE [migrate-aim-contact-partner](../includes/migrate-aim-contact-partner.md)]
 
+## Microsoft partners
 
-
+Please review the comprehensive delivery guide for more information, which can be found on the Business Applications Partner Hub: [aka.ms/aimforpartners](https://aka.ms/aimforpartners).

@@ -4,7 +4,7 @@ description: Learn how to modernize sales processes in manufacturing with Dynami
 author: vibhutinair23
 ms.author: vibhutinair
 ms.topic: reference-architecture
-ms.date: 08/12/2025
+ms.date: 08/13/2025
 ---
 
 # Dynamics 365 and Azure-powered manufacturing sales framework
@@ -16,7 +16,7 @@ This solution uses Microsoft technologies to modernize Contoso's sales and data 
 - Dynamics 365 Sales as the core customer relationship management (CRM) solution
 - Dataverse for custom data structures
 - Power BI with Azure Data Lake for analytics
-- Power Apps Portals for branded external access
+- Power Pages for branded external access
 - SharePoint for document collaboration
 
 Also included are Azure Integration Services with Azure Data Lake, Azure Functions, Logic Apps, Synapse, Azure SQL, and Service Bus, and Power Automate cloud flows that enable automation and scalability.
@@ -37,92 +37,88 @@ This section provides an overview of the business context and vision for the pro
 
 ### Business context
 
-Contoso, a manufacturer of build-to-order industrial HVAC units tailored to customer specifications, seeks to modernize its sales ecosystem through digital transformation. The company aims to empower its sales partners and end customers with streamlined processes, accurate forecasting, and actionable insights, addressing inefficiencies in their current Dynamics 365 environment.
+Contoso, a manufacturer of build-to-order industrial HVAC units tailored to customer specifications, wants to modernize its sales ecosystem through digital transformation. The company empowers its sales partners and customers with streamlined processes, accurate forecasting, and actionable insights, fixing inefficiencies in its current Dynamics 365 environment.
 
 ### Vision
 
-The vision is to deliver an integrated Dynamics 365 and Azure-based solution that enhances Contoso's sales capabilities, centralizes data, and provides real-time visibility into performance metrics. By using advanced automation, analytics, and a scalable integration framework, Contoso achieves operational excellence and strengthens its competitive position in the HVAC manufacturing industry.
+The vision is to deliver an integrated Dynamics 365 and Azure-based solution that improves Contoso's sales capabilities, centralizes data, and shows real-time performance metrics. Advanced automation, analytics, and a scalable integration framework help Contoso achieve operational excellence and strengthen its competitive position in the HVAC manufacturing industry.
 
 ### Purpose
 
-This reference architecture article outlines the design and implementation strategy for Contoso's Dynamics 365 Sales solution, integrated with Azure services, to modernize and streamline their sales processes. The initiative aims to align Contoso's existing Dynamics 365 environment with a future-state architectural vision, enhancing operational efficiency, data-driven decision-making, and customer engagement for their build-to-order industrial HVAC manufacturing business. This document serves as a blueprint for stakeholders, architects, and implementation teams to understand the scope, technical approach, and business value of the solution.
+This reference architecture article outlines the design and implementation strategy for Contoso's Dynamics 365 Sales solution, integrated with Azure services, to modernize and streamline its sales processes. The initiative aligns Contoso's existing Dynamics 365 environment with a future architectural vision, improving operational efficiency, data-driven decision making, and customer engagement for its build-to-order industrial HVAC manufacturing business. This article is a blueprint for stakeholders, architects, and implementation teams to learn the scope, technical approach, and business value of the solution.
 
 ### Applicability and stakeholders
 
-This reference architecture targets use cases such as sales process optimization, territory management, and data-driven forecasting, making it ideal for the manufacturing industry—particularly manufacturers of custom, build-to-order products like industrial HVAC units. Use this reference architecture early in the implementation lifecycle, during the planning and design phase, to guide solution development, and ensure alignment with business goals.
+This reference architecture targets use cases like sales process optimization, territory management, and data-driven forecasting, making it ideal for the manufacturing industry—especially manufacturers of custom, build-to-order products like industrial HVAC units. Use this reference architecture early in the implementation lifecycle, during planning and design, to guide solution development and make sure it aligns with business goals.
 
-Key stakeholders include business leaders (sales and operations managers), IT architects, Dynamics 365 administrators, Azure integration specialists, and external partners (sales representatives), all critical to shaping and executing the architecture.
+Key stakeholders include business leaders (sales and operations managers), IT architects, Dynamics 365 admins, Azure integration specialists, and external partners (sales representatives), all critical to shaping and building the architecture.
 
 ### Scope
 
-The project encompasses the reimplementation and enhancement of Contoso's Dynamics 365 Sales environment, focusing on key entities such as Opportunities, Quotes, Quote Line Items, Orders, Products, Goals, and Forecasting. It includes comprehensive Account and Contact management, onboarding/offboarding automation, Activity Management, Collaboration, and SharePoint integration. Territory Management is configured with a hierarchical structure (Regions, Counties, Cities/ZIP Codes), supported by an extended data model to track assignment activities. The solution uses Dataverse as the core data platform, with real-time operational reporting through Dynamics 365 dashboards and enterprise-level analytics through embedded Power BI reports sourced from Azure Data Lake. A robust integration framework, built on Azure technologies (Azure Data Lake, Azure Functions, Azure Logic Apps, Azure Synapse, and Cloud Flows), establishes reusable patterns for enterprise data management, real-time point-to-point (P2P) integrations, and a medallion architecture for data layer and pipelines. More features include Power Apps Portals for external access, extended security roles, and automated business processes to support forecasting and territory-based goal setting.
+The project covers the reimplementation and improvement of Contoso's Dynamics 365 Sales environment, focusing on key entities like Opportunities, Quotes, Quote Line Items, Orders, Products, Goals, and Forecasting. It includes Account and Contact management, onboarding and offboarding automation, Activity Management, Collaboration, and SharePoint integration. Territory Management uses a hierarchical structure (Regions, Counties, Cities/ZIP Codes), supported by an extended data model to track assignment activities. The solution uses Dataverse as the core data platform, with real-time operational reporting through Dynamics 365 dashboards and enterprise analytics through embedded Power BI reports from Azure Data Lake. A robust integration framework, built on Azure technologies (Azure Data Lake, Azure Functions, Azure Logic Apps, Azure Synapse, and Cloud Flows), sets up reusable patterns for enterprise data management, real-time point-to-point (P2P) integrations, and a medallion architecture for data layer and pipelines. More features include Power Pages for external access, extended security roles, and automated business processes to support forecasting and territory-based goal setting.
 
 ### Conceptual diagram
 
-The conceptual diagram provides a high-level visualization of the system architecture. It illustrates:
+The conceptual diagram shows a high-level view of the system architecture. It includes:
 
-- **Users**: Includes Sales Representatives, Regional Managers, Marketing Directors, and Sales Directors, representing key stakeholders across Contoso's sales ecosystem.
-- **Client Layer**: Features applications such as Sales Hub, Field Service, Partners MDA, Partners Portal, SAP, and a Quoting Tool, accessible through desktop and mobile devices.
+- **Users**: Sales Representatives, Regional Managers, Marketing Directors, and Sales Directors, representing key stakeholders across Contoso's sales ecosystem.
+- **Client Layer**: Apps like Sales Hub, Field Service, Partners MDA, Partners Portal, SAP, and a Quoting Tool, available on desktop and mobile devices.
 - **Identity**: Managed through Microsoft Entra Identity for secure access across the tenant.
-- **Application Layer**: Showcases Dynamics 365 applications, Office 365 tools, and Azure Communication Services.
-- **Platform Layer**: Highlights the Power Platform (Web Services, Security, Workflow, Form Engine) and Dynamics 365 tenant, supported by Copilot and Workspace tools.
-- **Data Layer**: Centers on Dataverse, integrated with Azure Data Services (SQL, Data Lake) and on-premises Mainframes/ERP systems.
-- **Integration Layer**: Details Azure Integration Services (Functions, Logic Apps, Synapse, Data Factory, Service Bus) and Cloud Flows, connecting cloud apps and SAP S/4HANA.
+- **Application Layer**: Dynamics 365 apps, Office 365 tools, and Azure Communication Services.
+- **Platform Layer**: Power Platform (Web Services, Security, Workflow, Form Engine) and Dynamics 365 tenant, supported by Copilot and Workspace tools.
+- **Data Layer**: Dataverse, integrated with Azure Data Services (SQL, Data Lake) and on-premises Mainframes/ERP systems.
+- **Integration Layer**: Azure Integration Services (Functions, Logic Apps, Synapse, Data Factory, Service Bus) and Cloud Flows, connecting cloud apps and SAP S/4HANA.
 
-The following diagram underscores the end-to-end flow from users to backend technologies, emphasizing the integration of Dynamics 365, Azure, and third-party systems in a phased deployment:
+The following diagram shows the end-to-end flow from users to backend technologies, highlighting the integration of Dynamics 365, Azure, and third-party systems in a phased deployment:
 
 :::image type="content" source="./media/dynamics-365-azure-powered-manufacturing-sales-framework-contoso.svg" alt-text="Diagram showing the end-to-end flow from users to backend technologies, emphasizing the integration of Dynamics 365, Azure, and third-party systems in a phased deployment." lightbox="./media/dynamics-365-azure-powered-manufacturing-sales-framework-contoso.svg":::
 
 ## Architecture
 
-The following diagram illustrates the end-to-end integration framework for Contoso's Dynamics 365 and Azure-powered sales solution. The diagram highlights the flow of data and processes across users, applications, and backend systems, supporting the modernization of sales, quoting, and enterprise resource planning (ERP) integration. The architecture is phased (Phase I and Phase II) to ensure a structured rollout, aligning with Contoso's build-to-order HVAC manufacturing needs.
+This diagram shows the end-to-end integration framework for Contoso's Dynamics 365 and Azure-powered sales solution. It highlights how data and processes flow across users, applications, and backend systems to modernize sales, quoting, and enterprise resource planning (ERP) integration. The architecture uses phases (Phase I and Phase II) for a structured rollout that fits Contoso's build-to-order HVAC manufacturing needs.
 
 :::image type="content" source="./media/dynamics-365-azure-powered-manufacturing-sales-framework-architecture.svg" alt-text="Diagram showing the end-to-end integration framework for Contoso's Dynamics 365 and Azure-powered sales solution." lightbox="./media/dynamics-365-azure-powered-manufacturing-sales-framework-architecture.svg":::
 
 [Download a Visio file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/) with this architecture. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 > [!NOTE]
-> This reference architecture reflects a concrete implementation project that connected to SAP. Similar solutions that connect to Dynamics 365 finance and operations apps have very different architectures.
+> This reference architecture shows a specific implementation project that connects to SAP. Solutions that connect to Dynamics 365 finance and operations apps use different architectures.
 
 ## Dataflow
 
-This section describes the data flow and integration processes within the architecture, detailing how data moves between components and systems to support Contoso's sales operations.
+This section describes the data flow and integration processes in the architecture. It details how data moves between components and systems to support Contoso's sales operations. The numbers refer to the numbered callouts in the architecture diagram.
 
 ### Quoting tool online enhancement
 
-This component enhances Contoso's quoting process by integrating real-time data flows between the Quoting Tool, Data Hub, and managerial systems:
+This component enhances Contoso's quoting process by integrating real-time data flows between the Quoting Tool, Data Hub, and managerial systems.
 
-1. 
+1. The lines marked as *1a* send forecasting data to the Data Hub from the Quoting Tool. It's a real-time transfer of quoting and forecasting data from sales representatives to the Data Hub, enabling immediate visibility into sales projections.
 
-  1a. Quoting Tool Rep, Forecasting Data to Data Hub: Real-time transfer of quoting and forecasting data from sales representatives to the Data Hub, enabling immediate visibility into sales projections.
+   The lines marked as *1b* send user data from the Data Hub to the Quoting Tool. It's real-time synchronization of manager-approved data (pricing, approvals) to the Quoting Tool, ensuring alignment with business rules.
 
-  1b. User Data – Managers Data Hub to Quoting Tool: Real-time synchronization of manager-approved data (pricing, approvals) to the Quoting Tool, ensuring alignment with business rules.
-
-3. Long-Term Job Data Storage: Quoting Tool data is archived in Azure SQL, with periodic updates to the Data Hub for historical analysis and reporting, supporting long-term sales trend analysis.
+3. The lines marked as *3* represent long-term job data storage. Data from the Quoting Tool is archived in Azure SQL. Periodically, data is sent to the Data Hub for historical analysis and reporting to support a long-term sales trend analysis.
 
 ### Data Hub – Dynamics 365 implementation
 
-The Data Hub serves as the centralized integration layer, connecting Dynamics 365, Azure services, and external systems:
+The Data Hub serves as the centralized integration layer that connects Dynamics 365, Azure services, and external systems.
 
-4. Quoting Tool Azure SQL to Data Hub:
+4. The line marked as *4* sends data from the Quoting Tool that stored in Azure SQL to the Data Hub.  Data from Azure SQL is ingested into the Data Hub to help ensure a unified repository for quoting metrics.
 
-      Data from Azure SQL is ingested into the Data Hub, ensuring a unified repository for quoting metrics.
+5. The lines marked as *5* connect the legacy mainframe data to the Data Hub. Legacy data, such as orders or inventory is integrated in different ways:
 
-5. Mainframe to Data Hub: Legacy mainframe data (orders, inventory) is integrated through:
+      a. Logic App calls API: Retrieves only updated records for efficiency.
 
-      5a. Logic App calls API: Retrieves only updated records for efficiency.
+      b. Functions App gets API token: Secures access with dynamic token generation.
 
-      5b. Functions App gets API token: Secures access with dynamic token generation.
+      c. Logic App writes to Data Lake: Stores processed data in Azure Data Lake's medallion architecture (Bronze, Silver, Gold layers) for scalability.
 
-      5c. Logic App writes to Data Lake: Stores processed data in Azure Data Lake's medallion architecture (Bronze, Silver, Gold layers) for scalability.
+6. The line marked as *6* connects the Data Hub with Dataverse: A Synapse Pipeline/notebook loads transformed data into Dataverse so that  Dynamics 365 can use enriched datasets.
 
-6. Data Hub to Dataverse: Synapse Pipeline/notebook loads transformed data into Dataverse, enabling Dynamics 365 to use enriched datasets.
+7. The line marked as *7* connects Dataverse with the Data Hub: Through Azure Synapse Link, updates from Dataverse synchronize back to the Data Hub for analytics.
 
-7. Dataverse to Data Hub: Azure Synapse Link, syncing Dataverse updates back to the Data Hub for analytics.
+8. The line marked as *8* represents Power Pages that show data from Dataverse to external stakeholders, such as sales partners, so that they get secure, branded access to quoting and order data.
 
-8. Power Pages: Powered by Dataverse, provide external stakeholders (sales partners) with secure, branded access to quoting and order data.
-
-9. Power BI: Generates real-time reports and dashboards using the Data Hub as the source, offering insights into sales performance, territory goals, and forecasting accuracy.
+9. The line marked as *9* connects Power BI to the Data Hub to generate real-time reports and dashboards and offer insights into sales performance, territory goals, and forecasting accuracy.
 
 This setup ensures a single source of truth, critical for Contoso's complex manufacturing workflows.
 
@@ -130,11 +126,13 @@ This setup ensures a single source of truth, critical for Contoso's complex manu
 
 Integration with SAP systems enhances ERP capabilities and real-time data exchange:
 
-10. SAP to Data Hub to Dataverse Batch Processing: Scheduled batch jobs transfer SAP data (sales orders, supplier details) to the Data Hub, then to Dataverse for Dynamics 365 consumption.
+10. The line marked as *10* connects SAP to the Data Hub and, by extension, Dataverse for batch processing. Scheduled batch jobs transfer SAP data, such as sales orders or supplier details, to the Data Hub, then to Dataverse for consumption in Dynamics 365.
 
-11. Dataverse to Data Hub to SAP Batch Processing: Updates from Dynamics 365 (order confirmations) flow back to SAP through the Data Hub, maintaining synchronization.
+11. The line marked as *11* connects Dataverse to the Data Hub and then to SAP for batch processing. Updates from Dynamics 365, such as order confirmations, flow back to SAP through the Data Hub, maintaining synchronization.
 
-12. ASB for Real-Time: Azure Service Bus (ASB) enables near real-time updates between SAP and Dynamics 365, supporting urgent order adjustments.
+12. The line marked as *12* represents Azure Service Bus (ASB) that enables near real-time updates between SAP and Dynamics 365, supporting urgent order adjustments.
+
+    In the current version of the diagram, the number 12 is missing, but it's the line that connects SAP with Dataverse through ASB.
 
 This integration aligns SAP's operational data with Dynamics 365's sales processes, optimizing Contoso's end-to-end supply chain.
 
@@ -157,10 +155,10 @@ The following steps outline the sequential flow.
 
 The components used in this architecture include:
 
-- **Dynamics 365 Sales**: Serves as the core CRM platform, managing Opportunities, Quotes, Orders, Products, Goals, Forecasting, Accounts, Contacts, and Territory hierarchies. It provides real-time operational dashboards, Model-Driven Apps, Business Process Flows (BPFs), and native security features.
+- **Dynamics 365 Sales**: Serves as the core CRM platform, managing opportunities, quotes, orders, products, goals, forecasting, accounts, contacts, and hierarchies of territories. It provides real-time operational dashboards, model-driven apps, business process flows (BPFs), and native security features.
 - **Microsoft Dataverse**: Acts as the foundational data layer, extended with custom tables and columns to support territory management, goals automation, and hierarchical data structures. It enables seamless data integration and real-time reporting.
 - **Power BI**: Embedded within Dynamics 365, it uses Azure Data Lake as a data source to deliver enterprise-level analytics, offering detailed insights into sales performance, territory metrics, and forecasting accuracy.
-- **Power Apps Portals**: Provides a branded, external-facing interface for sales representatives and partners, integrated with Dataverse for secure data access and enhanced with Power Virtual Agents for self-service capabilities.
+- **Power Pages**: Provides a branded, external-facing interface for sales representatives and partners, integrated with Dataverse for secure data access and enhanced with agents from Copilot Studio for self-service capabilities.
 - **Microsoft SharePoint**: Integrates with Dynamics 365 for document management and collaboration, exposing libraries within the portal for Knowledge Management features.
 - **Azure Integration Services**:
   - **Azure Data Lake**: Centralizes data storage and supports Power BI reporting with a medallion architecture (Bronze, Silver, Gold layers) for scalable data processing.
@@ -185,7 +183,7 @@ Contoso faces several challenges in its current sales ecosystem that this soluti
 
 The solution resolves these issues by automating processes, centralizing data into an Enterprise Data Hub, delivering actionable insights through Dynamics 365 and Power BI, and providing a branded portal for external stakeholders. It supports Contoso's digital transformation by enhancing operational efficiency, data accuracy, and customer satisfaction.
 
-The "Dynamics 365 and Azure-powered manufacturing sales framework" reference architecture is for scenarios where manufacturing companies, particularly those producing build-to-order industrial products like custom HVAC units, need to modernize their sales processes and integrate legacy systems such as mainframes and SAP. It applies to situations requiring real-time quoting, territory management, and forecasting, with seamless data synchronization across CRM (Dynamics 365), ERP (SAP), and external tools like Quoting Tools. This architecture is also valuable for organizations seeking to enhance customer and partner engagement through portals, use advanced analytics through Power BI, and implement a scalable, phased integration strategy to support complex sales and supply chain workflows.
+The *Dynamics 365 and Azure-powered manufacturing sales framework* reference architecture is for scenarios where manufacturing companies, particularly those producing build-to-order industrial products like custom HVAC units, need to modernize their sales processes and integrate legacy systems such as mainframes and SAP. It applies to situations requiring real-time quoting, territory management, and forecasting, with seamless data synchronization across CRM (Dynamics 365), ERP (SAP), and external tools like Quoting Tools. This architecture is also valuable for organizations seeking to enhance customer and partner engagement through portals, use advanced analytics through Power BI, and implement a scalable, phased integration strategy to support complex sales and supply chain workflows.
 
 ### Potential use cases
 
@@ -195,36 +193,36 @@ You can use this solution to:
 
 - **Enhance sales efficiency**: Streamline quoting, forecasting, and territory management with real-time data integration across Dynamics 365, SAP, and external tools.
 - **Centralize data management**: Establish a unified Data Hub to synchronize legacy systems (mainframes) and enable advanced analytics via Power BI.
-- **Improve customer engagement**: Deploy branded Power Apps Portals and Power Pages to provide seamless access for partners and customers, tailored to specific industry needs.
+- **Improve customer engagement**: Deploy branded Power Pages to provide seamless access for partners and customers, tailored to specific industry needs.
 
 ## Considerations
 
 These considerations help implement a solution that includes Dynamics 365. Learn more at [Dynamics 365 guidance documentation](/dynamics365/guidance/).
 
-Based on the Dynamics 365 and Azure-powered manufacturing sales framework solution for Contoso, several key considerations should be addressed to ensure a successful implementation.
+Based on the Dynamics 365 and Azure-powered manufacturing sales framework solution for Contoso, address several key considerations to ensure a successful implementation.
 
-- **Licensing and cost management** is critical, as the integration of Dynamics 365, Power Platform, and Azure services (Data Lake, Synapse, Logic Apps) requires careful planning to align with organizational budgets and usage patterns, as outlined in [the Dynamics 365 licensing documentation](https://www.microsoft.com/dynamics-365/products/customer-service/pricing).
-- **Security and compliance** are paramount, particularly with sensitive customer and order data flowing between Dataverse, SAP, and mainframes; Microsoft Entra Identity and Azure Key Vault should be configured to enforce role-based access control and encrypt data in transit, adhering to industry standards for manufacturing.
-- **Scalability and performance** must be evaluated, especially with real-time integrations (ASB, Azure Functions) and the medallion architecture in Azure Data Lake, requiring capacity planning to handle peak quoting and forecasting loads, as recommended in the performance optimization guides.
-- **Data integration complexity** poses a challenge, necessitating robust error handling and monitoring for pipelines (Synapse Link, Logic Apps) connecting legacy systems, with phased deployment (Phase I and II) to mitigate risks, as suggested in the integration best practices.
-- **User adoption and training** is essential, given the diverse stakeholders (sales reps, managers, partners) using Power Pages and Portals, requiring tailored training programs to maximize the solution's value, aligning with the adoption strategies in the guidance.
-- **Timeline and phased rollout** should be defined, particularly for SAP and rep firm data flows, to ensure alignment with manufacturing cycles and minimal disruption, using the phased approach detailed in the deployment documentation.
+- **Licensing and cost management** is critical because integrating Dynamics 365, Power Platform, and Azure services (Data Lake, Synapse, Logic Apps) requires careful planning to align with organizational budgets and usage patterns, as outlined in [the Dynamics 365 licensing documentation](https://www.microsoft.com/dynamics-365/products/customer-service/pricing).
+- **Security and compliance** are paramount, particularly with sensitive customer and order data flowing between Dataverse, SAP, and mainframes. Set up Microsoft Entra Identity and Azure Key Vault to enforce role-based access control and encrypt data in transit, following industry standards for manufacturing.
+- **Scalability and performance** are important, especially with real-time integrations (ASB, Azure Functions) and the medallion architecture in Azure Data Lake. Plan capacity to handle peak quoting and forecasting loads, as recommended in the performance optimization guides.
+- **Data integration complexity** is a challenge. Use robust error handling and monitoring for pipelines (Synapse Link, Logic Apps) that connect legacy systems. Deploy in phases (Phase I and II) to reduce risks, as suggested in the integration best practices.
+- **User adoption and training** is essential because diverse stakeholders (sales reps, managers, partners) use Power Pages and Portals. Provide tailored training programs to maximize the solution's value, aligning with the adoption strategies in the guidance.
+- **Timeline and phased rollout** are important, especially for SAP and rep firm data flows. Define the rollout to align with manufacturing cycles and minimize disruption, using the phased approach detailed in the deployment documentation.
 
 ### Cost optimization
 
-Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the cost optimization pillar](/azure/well-architected/cost-optimization/).
+Cost optimization means finding ways to reduce unnecessary expenses and improve operational efficiency. For more information, see [Overview of the cost optimization pillar](/azure/well-architected/cost-optimization/).
 
-For Contoso's "Dynamics 365 and Azure-powered manufacturing sales framework" with 1,000 internal Dynamics 365 users, 2000 external B2C-authenticated portal users, and an integrated data volume of 5,000 records per hour, the cost structure involves multiple components. Learn more at the [Dynamics 365 pricing](https://www.microsoft.com/dynamics-365/pricing-overview) website.
+For Contoso with 1,000 internal Dynamics 365 users, 2,000 external B2C-authenticated portal users, and an integrated data volume of 5,000 records per hour, the cost structure includes multiple components. For your use of the reference architecture, see [Dynamics 365 pricing](https://www.microsoft.com/dynamics-365/pricing-overview) for more information.
 
 ### Cost optimization strategies
 
 To reduce costs, Contoso took the following into consideration:
 
-- **License optimization**: Limit full Dynamics 365 licenses to active users (for example, 800 core users, 200 with Power Platform add-ons) and use read-only licenses for report-only users, potentially saving 10-20% on licensing.
-- **Azure cost management**: Implement auto-scaling for Synapse and Data Factory, use reserved instances for predictable workloads, and archive cold data to Azure Blob Storage to lower Data Lake costs.
-- **Portal usage efficiency**: Monitor B2C login patterns and purchase login tiers strategically (for example, 2,500 logins at $2,200/month versus 2,000 logins at $2,000), avoiding over-provisioning.
-- **Data volume optimization**: Filter data pipelines (for example, "changedonly=true" in Logic Apps) to process only updated records, reducing compute costs by 20-30%.
-- **Phased deployment**: Roll out core Dynamics 365 and Data Hub in Phase I, delaying SAP and portal expansions until initial benefits are realized, deferring costs.
+- **License optimization**: Limit full Dynamics 365 licenses to active users (for example, 800 core users, 200 with Power Platform add-ons) and use read-only licenses for report-only users. This approach can save 10 to 20 percent on licensing.
+- **Azure cost management**: Set up auto-scaling for Synapse and Data Factory, use reserved instances for predictable workloads, and archive cold data to Azure Blob Storage to lower Data Lake costs.
+- **Portal usage efficiency**: Monitor B2C login patterns and buy login tiers strategically (for example, 2,500 logins at $2,200 per month versus 2,000 logins at $2,000), avoiding over-provisioning.
+- **Data volume optimization**: Filter data pipelines (for example, `changedonly=true` in Logic Apps) to process only updated records. This approach can reduce compute costs by 20 to 30 percent.
+- **Phased deployment**: Roll out core Dynamics 365 and Data Hub in Phase I. Delay SAP and portal expansions until you see initial benefits, deferring costs.
 
 <!-- ## Procedure: Implement Azure Functions for real-time data processing in Data Hub
 
@@ -252,33 +250,33 @@ To configure and deploy an Azure Function to handle real-time data processing (f
 
 ## Procedure: Configure Azure AD B2C for Power Apps Portals authentication
 
-To set up Azure AD B2C authentication for 2000 external portal users in the reference architecture, follow these steps:
+To set up Azure AD B2C authentication for 2,000 external portal users in the reference architecture, follow these steps:
 
 1. Open the [Azure Portal](https://portal.azure.com) and ensure you're in the default directory.
-2. Navigate to **Azure AD B2C** by clicking **Create a resource**, then search for **Azure AD B2C** and select **Create**.
-3. Configure the B2C tenant:
+2. Go to **Azure AD B2C** by selecting **Create a resource**, then search for **Azure AD B2C** and select **Create**.
+3. Set up the B2C tenant:
    - **Organization name**: Enter **ContosoB2C**.
    - **Initial domain name**: Enter **contosob2c** (for example, contosob2c.onmicrosoft.com).
    - **Country**: Select **United States**.
-4. Create the tenant and then switch to the new B2C tenant from the top directory switcher.
-5. Register an application for the Power Apps Portal:
+4. Create the tenant, then switch to the new B2C tenant from the top directory switcher.
+5. Register an application for the Power Apps portal:
    - Go to **App registrations** and select **+ New registration**.
    - **Name**: Enter **ContosoPortalB2CApp**.
    - **Redirect URI**: Set to `https://your-portal-domain.microsoftcrmportals.com/signin-azure-ad-b2c` (replace with your portal URL).
    - **Supported account types**: Select **Accounts in any identity provider or organizational directory**.
-6. Note the Application (client) ID after creation.
+6. Note the application (client) ID after creation.
 7. Generate a client secret:
    - Go to **Certificates & secrets** and select **+ New client secret**.
    - **Description**: Enter **PortalSecret**.
    - **Expires**: Set to **2 years**.
    - Copy the secret value and store it securely.
-8. Configure a user flow:
+8. Set up a user flow:
    - Go to **User flows** and select **+ New user flow**.
-   - Select **Sign up and sign in** and enter **B2CSignupSignin** as the name.
+   - Select **Sign up and sign in**, then enter **B2CSignupSignin** as the name.
    - Identity provider: Choose **Email signup**.
-   - **User attributes**: Select **Email Address**, **Given Name**, **Surname**.
-   - **Claims**: Select **Email**, **Given Name**, **Surname**, **Identity Provider**.
-9. Link to Power Apps Portal:
+   - **User attributes**: Select **Email Address**, **Given Name**, and **Surname**.
+   - **Claims**: Select **Email**, **Given Name**, **Surname**, and **Identity Provider**.
+9. Link to Power Apps portal:
    - In the portal admin center, go to **Site Settings**.
    - Add the following settings:
       - **Name**: "Authentication/OpenIdConnect/ContosoB2C/ClientId"
@@ -287,11 +285,11 @@ To set up Azure AD B2C authentication for 2000 external portal users in the refe
       - **Value**: Paste the client secret from step 7.
       - **Name**: "Authentication/OpenIdConnect/ContosoB2C/Authority"
       - **Value**: `https://contosob2c.b2clogin.com/contosob2c.onmicrosoft.com/B2CSignupSignin/v2.0`
-10. Test the login by accessing the portal URL and verifying B2C authentication for external users.
+10. Test the login by going to the portal URL and checking B2C authentication for external users.
 
 ## Procedure: Link Dataverse to Microsoft Fabric for data integration
 
-To connect Dataverse to Microsoft Fabric for advanced analytics in the reference architecture, follow these steps:
+Connect Dataverse to Microsoft Fabric for advanced analytics in the reference architecture. Follow these steps:
 
 1. Open [Power Apps](https://make.powerapps.com) and sign in with admin credentials.
 2. Navigate to **Environments** and select the environment linked to Dynamics 365.
@@ -322,7 +320,7 @@ The following patterns are available to help guide your implementation of the se
 
 ### Event-driven architecture
 
-[Event-driven architecture (EDA) style](/azure/architecture/guide/architecture-styles/event-driven): This guide explains event-driven design, applicable to real-time data flows (for example, 5,000 records/hour via ASB, Functions, and Cloud Flows), emphasizing asynchronous communication and scalability.
+[Event-driven architecture (EDA) style](/azure/architecture/guide/architecture-styles/event-driven): This guide explains event-driven design, applicable to real-time data flows (for example, 5,000 records/hour via ASB, Functions, and cloud flows), emphasizing asynchronous communication and scalability.
 
 ### Data lakehouse architecture
 
@@ -346,7 +344,7 @@ The following patterns are available to help guide your implementation of the se
 
 ## Contributors
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+*This article is maintained by Microsoft. It was originally written by the following contributor.*
 
 Principal author:
 

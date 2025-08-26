@@ -27,6 +27,390 @@ items:
             href: /dynamics365/get-started/developers?toc=/dynamics365/guidance/toc.json
           - name: Join the community in Viva Engage
             href: roles/join-viva-engage.md
+      - name: End-to-end business processes
+        items:
+          - name: Business process documentation
+            href: business-processes/index.yml
+          - name: Get started
+            items:
+              - name: Overview of end-to-end scenarios
+                href: business-processes/overview.md
+              - name: About the business process catalog
+                href: business-processes/about.md
+              - name: Glossary of terms
+                href: business-processes/glossary.md
+              - name: Business processes, steps, and how to find things
+                href: business-processes/about-steps-navigation.md
+              - name: Process-focused solution overview
+                href: implementation-guide/process-focused-solution.md
+              - name: Map departments and business processes
+                href: organizational-strategy/departments.md
+              - name: Map business processes to customer requests
+                href: business-processes/about-processes-solution-plays.md
+              - name: Optimize your business processes
+                href: implementation-guide/process-focused-solution-opportunity-optimization.md
+              - name: Process-centric implementation lifecycle
+                href: implementation-guide/process-focused-solution-implementation-lifecycle.md
+              - name: Considerations
+                href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
+              - name: Fit-to-standard and Fit-gap analysis
+                href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
+              - name: Define your requirements
+                href: implementation-guide/process-focused-solution-define-requirements.md
+              - name: Process maturity overview
+                href: business-processes/process-maturity-introduction.md
+              - name: Standardize business processes during an implementation
+                href: business-processes/standardize-business-processes.md
+              - name: Business processes and a product-centric manufacturing journey
+                href: business-processes/about-product-centric-manufacturing-journey.md
+          - name: Acquire to dispose
+            items:
+              - name: End-to-end scenario - acquire to dispose (ID 10)
+                href: business-processes/acquire-to-dispose-introduction.md
+              - name: Overview
+                href: business-processes/acquire-to-dispose-overview.md
+              - name: Business process areas
+                href: business-processes/acquire-to-dispose-areas.md
+              - name: Acquire assets
+                href: business-processes/acquire-to-dispose-acquire-assets-overview.md
+              - name: Manage active assets
+                href: business-processes/acquire-to-dispose-manage-internal-assets.md
+              - name: Perform asset maintenance
+                href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
+              - name: Dispose of assets
+                href: business-processes/acquire-to-dispose-retire-dispose-assets.md
+              - name: Analyze assets
+                href: business-processes/aquire-to-dispose-manage-report-asset-financials.md
+              - name: Implementation workshops for acquire to dispose processes
+                href: business-processes/acquire-to-dispose-workshops.md
+          - name: Case to resolution
+            items:
+              - name: End-to-end scenario - case to resolution (ID 20)
+                href: business-processes/case-to-resolution-introduction.md
+              - name: Overview
+                href: business-processes/case-to-resolution-overview.md
+              - name: Business process areas
+                href: business-processes/case-to-resolution-areas.md
+          - name: Concept to market
+            items:
+              - name: End-to-end scenario - concept to market (ID 30)
+                href: business-processes/concept-to-market-introduction.md
+              - name: Overview
+                href: business-processes/concept-to-market-overview.md
+              - name: Business process areas
+                href: business-processes/concept-to-market-areas.md
+          - name: Design to retire
+            items:
+              - name: End-to-end scenario - design to retire (ID 40)
+                href: business-processes/design-to-retire-introduction.md
+              - name: Overview
+                href: business-processes/design-to-retire-overview.md
+              - name: Business process areas
+                href: business-processes/design-to-retire-areas.md
+              - name: Develop product strategy
+                href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
+              - name: Introduce products
+                href: business-processes/design-to-retire-introduce-new-products-overview.md
+              - name: Manage active products
+                href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
+          - name: Forecast to plan
+            items:
+              - name: End-to-end scenario - forecast to plan (ID 50)
+                href: business-processes/forecast-to-plan-introduction.md
+              - name: Overview
+                href: business-processes/forecast-to-plan-overview.md
+              - name: Business process areas
+                href: business-processes/forecast-to-plan-areas.md
+              - name: Establish stocking and replenishment policies
+                href: business-processes/forecast-to-plan-establish-stocking-replenishment-policies-overview.md
+              - name: Forecast supply and demand
+                items:
+                  - name: Demand forecasting overview
+                    href: business-processes/forecast-to-plan-demand-forecasting-overview.md
+                  - name: Demand forecasting patterns
+                    items:
+                      - name: Manage a multi-company forecast
+                        href: business-processes/forecast-to-plan-manage-intercompany-forecast.md
+                      - name: Using multiple sources for forecasting
+                        href: business-processes/forecast-to-plan-multiple-forecasting-sources.md
+              - name: Plan supply and replenishment
+                href: business-processes/forecast-to-plan-supply-replenishment-overview.md
+          - name: Hire to retire
+            items:
+              - name: End-to-end scenario - hire to retire (ID 55)
+                href: business-processes/hire-to-retire-introduction.md
+              - name: Overview
+                href: business-processes/hire-to-retire-overview.md
+              - name: Business process areas
+                href: business-processes/hire-to-retire-areas.md
+              - name: Develop people strategy
+                items:
+                  - name: Develop people strategy overview
+                    href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
+                  - name: Develop communication strategy
+                    href: business-processes/hire-to-retire-develop-communication-strategy.md
+              - name: Recruit and onboard talent
+                items:
+                  - name: Recruit and onboard talent overview
+                    href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
+                  - name: Hire for open positions
+                    href: business-processes/hire-to-retire-onboard-hire-employees.md
+                  - name: Onboard new employees
+                    href: business-processes/hire-to-retire-onboard-new-hires.md
+              - name: Manage workplace compliance
+                items:
+                  - name: Manage workplace compliance overview
+                    href: business-processes/hire-to-retire-manage-occupational-health-safety.md
+                  - name: Update worker information
+                    href: business-processes/hire-to-retire-update-employee-records.md
+                  - name: Terminate employee
+                    href: business-processes/hire-to-retire-onboard-terminate-employment.md
+              - name: Manage performance and growth
+                items:
+                  - name: Manage performance and growth overview
+                    href: business-processes/hire-to-retire-manage-employee-performance-growth.md
+                  - name: Transfer workers
+                    href: business-processes/hire-to-retire-onboard-transfer-employees.md
+              - name: Manage time and attendance
+                items:
+                  - name: Manage time and attendance overview
+                    href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
+                  - name: Manage employee travel
+                    href: business-processes/hire-to-retire-manage-travel-expenses.md
+              - name: Manage compensation and benefits
+                items:
+                  - name: Manage compensation and benefits overview
+                    href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+          - name: Inventory to deliver
+            items:
+              - name: End-to-end scenario - inventory to deliver (ID 60)
+                href: business-processes/inventory-to-deliver-introduction.md
+              - name: Overview
+                href: business-processes/inventory-to-deliver-overview.md
+              - name: Business process areas
+                href: business-processes/inventory-to-deliver-areas.md
+              - name: Manage warehouse operations
+                href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
+              - name: Maintain inventory levels
+                href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
+              - name: Process outbound goods
+                href: business-processes/inventory-to-deliver-process-outbound-goods-overview.md
+              - name: Manage freight and transportation
+                href: business-processes/inventory-to-deliver-manage-freight-transportation.md
+          - name: Order to cash
+            items:
+              - name: End-to-end scenario - order to cash (ID 65)
+                href: business-processes/order-to-cash-introduction.md
+              - name: Overview
+                href: business-processes/order-to-cash-overview.md
+              - name: Business process areas
+                href: business-processes/order-to-cash-areas-overview.md
+              - name: Manage accounts payable
+                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
+              - name: Manage credit and collections
+                items:
+                  - name: Manage credit and collections overview
+                    href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
+          - name: Plan to produce
+            items:
+              - name: End-to-end scenario - plan to produce (ID 70)
+                href: business-processes/plan-to-produce-introduction.md
+              - name: Overview
+                href: business-processes/plan-to-produce-overview.md
+              - name: Business process areas
+                href: business-processes/plan-to-produce-areas.md
+              - name: Develop production strategies
+                items:
+                  - name: Develop production strategies overview
+                    href: business-processes/plan-to-produce-define-production-strategies.md
+                  - name: Develop production processes
+                    href: business-processes/plan-to-produce-track-production-costs-overview.md
+              - name: Plan production operations
+                href: business-processes/plan-to-produce-plan-production-operations-overview.md
+              - name: Run production operations
+                items:
+                  - name: Run production operations overview
+                    href: business-processes/plan-to-produce-execute-production-operations-overview.md
+                  - name: Subcontract production
+                    href: business-processes/plan-to-produce-outsource-production-operations-overview.md
+              - name: Control production quality
+                href: business-processes/plan-to-produce-control-production-quality-overview.md
+          - name: Source to pay
+            items:
+              - name: End-to-end scenario - source to pay (ID 75)
+                href: business-processes/source-to-pay-introduction.md
+              - name: Overview
+                href: business-processes/source-to-pay-overview.md
+              - name: Business process areas
+                href: business-processes/source-to-pay-areas.md
+              - name: Develop a procurement and sourcing strategy
+                items:
+                  - name: Develop procurement and sourcing strategy overview
+                    href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
+                  - name: Define procurement catalogs
+                    href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
+              - name: Manage supplier relationships overview
+                href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
+              - name: Procure goods and services
+                items:
+                  - name: Procure goods and services overview
+                    href: business-processes/source-to-pay-procure-materials-services-overview.md
+                  - name: Raise purchase requisitions
+                    href: business-processes/source-to-pay-raise-purchase-requisitions-overview.md
+              - name: Manage accounts payable
+                items:
+                  - name: Manage accounts payable overview
+                    href: business-processes/source-to-pay-manage-accounts-payable-overview.md
+                  - name: Issue and settle supplier payments
+                    href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+                  - name: Process supplier rebates and incentives
+                    href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
+          - name: Project to profit
+            items:
+              - name: End-to-end scenario - project to profit (ID 80)
+                href: business-processes/project-to-profit-introduction.md
+              - name: Overview
+                href: business-processes/project-to-profit-overview.md
+              - name: Business process areas
+                href: business-processes/project-to-profit-areas.md
+              - name: Develop project strategy
+                href: business-processes/project-to-profit-develop-project-strategy-overview.md
+              - name: Manage project contracts
+                items:
+                  - name: Manage project contracts overview
+                    href: business-processes/project-to-profit-manage-project-contracts-overview.md
+                  - name: Estimate project contracts
+                    href: business-processes/project-to-profit-estimate-project-contracts.md
+                  - name: Negotiate project contracts
+                    href: business-processes/project-to-profit-negotiate-project-contracts.md
+              - name: Plan projects
+                href: business-processes/project-to-profit-plan-projects-overview.md
+              - name: Manage project delivery
+                href: business-processes/project-to-profit-deliver-project-work.md
+              - name: Manage project financials
+                items:
+                  - name: Manage project financials overview
+                    href: business-processes/project-to-profit-manage-project-financials-overview.md
+                  - name: Recognize project revenue
+                    href: business-processes/project-to-profit-recognize-project-revenue.md
+              - name: Analyze project performance
+                href: business-processes/project-to-profit-monitor-analyze-project-performance-overview.md
+          - name: Prospect to quote
+            items:
+              - name: End-to-end scenario - prospect to quote (ID 85)
+                href: business-processes/prospect-to-quote-introduction.md
+              - name: Overview
+                href: business-processes/prospect-to-quote-overview.md
+              - name: Business process areas
+                href: business-processes/prospect-to-quote-areas.md
+              - name: Manage customer relationships
+                href: business-processes/prospect-to-quote-manage-customer-relationships.md
+              - name: Define sales strategy and policies
+                href: business-processes/prospect-to-quote-define-sales-strategy-overview.md
+              - name: Identify and qualify leads
+                href: business-processes/prospect-to-quote-identify-qualify-leads.md
+              - name: Pursue opportunities
+                href: business-processes/prospect-to-quote-pursue-opportunities-overview.md
+              - name: Estimate and quote sales
+                href: business-processes/prospect-to-quote-estimate-quote-sales-overview.md
+          - name: Record to report
+            items:
+              - name: End-to-end scenario - record to report (ID 90)
+                href: business-processes/record-to-report-introduction.md
+              - name: Overview
+                href: business-processes/record-to-report-overview.md
+              - name: Business process areas
+                href: business-processes/record-to-report-areas.md
+              - name: Define accounting policies
+                href: business-processes/record-to-report-define-accounting-policies.md
+              - name: Manage budgets overview
+                href: business-processes/record-to-report-manage-budgets.md
+              - name: Record financial transactions overview
+                href: business-processes/record-to-report-record-financial-transactions.md
+              - name: Close financial periods overview
+                href: business-processes/record-to-report-close-financial-periods.md
+          - name: Service to deliver
+            items:
+              - name: End-to-end scenario - service to deliver (ID 95)
+                href: business-processes/service-to-cash-introduction.md
+              - name: Overview
+                href: business-processes/service-to-cash-overview.md
+              - name: Business process areas
+                href: business-processes/service-to-cash-areas-overview.md
+              - name: Manage service assets overview
+                href: business-processes/service-to-cash-manage-service-assets.md
+              - name: Manage service resources overview
+                href: business-processes/service-to-cash-manage-service-resources.md
+              - name: Create and process service work
+                items:
+                  - name: Create and process service work
+                    href: business-processes/service-to-cash-create-process-service-work.md
+                  - name: Schedule service work overview
+                    href: business-processes/service-to-cash-schedule-service-work.md
+                  - name: Perform service work
+                    href: business-processes/service-to-cash-perform-service-work.md
+              - name: Invoice customers
+                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
+              - name: Monitor customer credit and collections
+                href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
+              - name: Review and close service requests
+                href: business-processes/service-to-cash-review-close-service-requests.md
+          - name: Administer to operate
+            items:
+              - name: End-to-end scenario - administer to operate (ID 99)
+                href: business-processes/administer-to-operate-introduction.md
+              - name: Overview
+                href: business-processes/administer-to-operate-overview.md
+              - name: Business process areas
+                href: business-processes/administer-to-operate-areas.md
+              - name: Implement solutions
+                href: business-processes/administer-to-operate-implement-solutions.md
+              - name: Define business continuity plan
+                href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
+              - name: Administer system features
+                href: business-processes/administer-to-operate-administer-system-features.md
+              - name: Manage system access and security overview
+                href: business-processes\administer-to-operate-manage-system-access-security.md
+              - name: Train users and increase adoption
+                href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
+              - name: Manage data
+                href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+              - name: Manage system compliance overview
+                href: business-processes\administer-to-operate-manage-system-compliance.md
+              - name: Define support systems overview
+                href: business-processes\administer-to-operate-support-systems-overview.md
+          - name: Use the catalog
+            items:
+              - name: Import the catalog to Azure DevOps
+                items:
+                  - name: Import the catalog to Azure DevOps overview
+                    href: business-processes/about-import-catalog-devops.md
+                  - name: End-to-end, process area, process, and scenario work item types
+                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
+                  - name: Configuration deliverable work item type
+                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
+                  - name: Workshop work item type
+                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+              - name: Import the catalog to Mavim
+                items:
+                  - name: Import the catalog to Mavim overview
+                    href: business-processes/about-import-catalog-mavim.md
+                  - name: Success by Design with the Dynamics 365 business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim-success-design-d365.md
+                  - name: Navigate the business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim-navigate-business-process-catalog.md
+          - name: What's new or changed
+            items:
+              - name: What's new or changed in the business process catalog
+                href: business-processes/about-whats-new.md
+              - name: What's new or changed in the May 2025 version
+                href: business-processes/about-whats-new-2025-may.md
+              - name: What's new or changed in the February 2025 version
+                href: business-processes/about-whats-new-2025-february.md
+              - name: What's new or changed in the November 2024 version
+                href: business-processes/about-whats-new-2024-november.md
+              - name: What's new or changed in the August 2024 version
+                href: business-processes/about-whats-new-2024-august.md
       - name: Implementation guide
         items:
           - name: Overview
@@ -555,28 +939,28 @@ items:
                         href: resources/field-service-customize-booking-card.md
                   - name: Field Service Mobile
                     items:
-                    - name: Add a custom app module
-                      href: resources/field-service-mobile-add-custom-app.md
-                    - name: Add custom service reports
-                      href: resources/field-service-service-reports-solution.md
-                    - name: Create workflows and scripts
-                      href: resources/field-service-mobile-automate-business-processes.md
-                    - name: Customize the booking view
-                      href: resources/field-service-mobile-customize-booking-view.md
-                    - name: Edit the booking and work order form
-                      href: resources/field-service-mobile-change-work-order-booking-form.md
-                    - name: Edit the navigation and views
-                      href: resources/field-service-mobile-edit-navigation-views.md
-                    - name: Optimize performance
-                      href: resources/field-service-mobile-improve-performance.md
-                    - name: Show more data and hide the row icon
-                      href: resources/field-service-mobile-expand-grid-control.md
-                    - name: Use deep links to the Field Service mobile app
-                      href: resources/field-service-mobile-use-deep-links.md
-                    - name: Use Power Apps to configure the Field Service mobile app
-                      href: resources/field-service-mobile-customize-powerapps.md
-                    - name: Vendor self-service for technician management
-                      href: resources/field-service-vendor-self-service-technician-management.md
+                      - name: Add a custom app module
+                        href: resources/field-service-mobile-add-custom-app.md
+                      - name: Add custom service reports
+                        href: resources/field-service-service-reports-solution.md
+                      - name: Create workflows and scripts
+                        href: resources/field-service-mobile-automate-business-processes.md
+                      - name: Customize the booking view
+                        href: resources/field-service-mobile-customize-booking-view.md
+                      - name: Edit the booking and work order form
+                        href: resources/field-service-mobile-change-work-order-booking-form.md
+                      - name: Edit the navigation and views
+                        href: resources/field-service-mobile-edit-navigation-views.md
+                      - name: Optimize performance
+                        href: resources/field-service-mobile-improve-performance.md
+                      - name: Show more data and hide the row icon
+                        href: resources/field-service-mobile-expand-grid-control.md
+                      - name: Use deep links to the Field Service mobile app
+                        href: resources/field-service-mobile-use-deep-links.md
+                      - name: Use Power Apps to configure the Field Service mobile app
+                        href: resources/field-service-mobile-customize-powerapps.md
+                      - name: Vendor self-service for technician management
+                        href: resources/field-service-vendor-self-service-technician-management.md
               - name: Develop solutions
                 items:
                   - name: Set up Azure Pipelines to deploy Field Service
@@ -697,390 +1081,6 @@ items:
                 href: implementation-guide/application-lifecycle-management-case-study.md
           - name: Service the solution
             href: implementation-guide/service-solution.md
-      - name: End-to-end business processes
-        items:
-          - name: Business process documentation
-            href: business-processes/index.yml
-          - name: Get started
-            items:
-              - name: Overview of end-to-end scenarios
-                href: business-processes/overview.md
-              - name: About the business process catalog
-                href: business-processes/about.md
-              - name: Glossary of terms
-                href: business-processes/glossary.md
-              - name: Business processes, steps, and how to find things
-                href: business-processes/about-steps-navigation.md
-              - name: Process-focused solution overview
-                href: implementation-guide/process-focused-solution.md
-              - name: Map departments and business processes
-                href: organizational-strategy/departments.md
-              - name: Map business processes to customer requests
-                href: business-processes/about-processes-solution-plays.md
-              - name: Optimize your business processes
-                href: implementation-guide/process-focused-solution-opportunity-optimization.md
-              - name: Process-centric implementation lifecycle
-                href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-              - name: Considerations
-                href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-              - name: Fit-to-standard and Fit-gap analysis
-                href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
-              - name: Define your requirements
-                href: implementation-guide/process-focused-solution-define-requirements.md
-              - name: Process maturity overview
-                href: business-processes/process-maturity-introduction.md
-              - name: Standardize business processes during an implementation
-                href: business-processes/standardize-business-processes.md
-              - name: Business processes and a product-centric manufacturing journey
-                href: business-processes/about-product-centric-manufacturing-journey.md
-          - name: Acquire to dispose
-            items:
-              - name: End-to-end scenario - acquire to dispose (ID 10)
-                href: business-processes/acquire-to-dispose-introduction.md
-              - name: Overview
-                href: business-processes/acquire-to-dispose-overview.md
-              - name: Business process areas
-                href: business-processes/acquire-to-dispose-areas.md
-              - name: Acquire assets
-                href: business-processes/acquire-to-dispose-acquire-assets-overview.md
-              - name: Manage active assets
-                href: business-processes/acquire-to-dispose-manage-internal-assets.md
-              - name: Perform asset maintenance
-                href: business-processes/acquire-to-dispose-maintain-repair-internal-asset.md
-              - name: Dispose of assets
-                href: business-processes/acquire-to-dispose-retire-dispose-assets.md
-              - name: Analyze assets
-                href: business-processes/aquire-to-dispose-manage-report-asset-financials.md
-              - name: Implementation workshops for acquire to dispose processes
-                href: business-processes/acquire-to-dispose-workshops.md
-          - name: Case to resolution
-            items:
-              - name: End-to-end scenario - case to resolution (ID 20)
-                href: business-processes/case-to-resolution-introduction.md
-              - name: Overview
-                href: business-processes/case-to-resolution-overview.md
-              - name: Business process areas
-                href: business-processes/case-to-resolution-areas.md
-          - name: Concept to market
-            items:
-              - name: End-to-end scenario - concept to market (ID 30)
-                href: business-processes/concept-to-market-introduction.md
-              - name: Overview
-                href: business-processes/concept-to-market-overview.md
-              - name: Business process areas
-                href: business-processes/concept-to-market-areas.md
-          - name: Design to retire
-            items:
-              - name: End-to-end scenario - design to retire (ID 40)
-                href: business-processes/design-to-retire-introduction.md
-              - name: Overview
-                href: business-processes/design-to-retire-overview.md
-              - name: Business process areas
-                href: business-processes/design-to-retire-areas.md
-              - name: Develop product strategy
-                href: business-processes/design-to-retire-define-product-catalog-strategy-overview.md
-              - name: Introduce products
-                href: business-processes/design-to-retire-introduce-new-products-overview.md
-              - name: Manage active products
-                href: business-processes/design-to-retire-manage-product-lifecycle-overview.md
-          - name: Forecast to plan
-            items:
-              - name: End-to-end scenario - forecast to plan (ID 50)
-                href: business-processes/forecast-to-plan-introduction.md
-              - name: Overview
-                href: business-processes/forecast-to-plan-overview.md
-              - name: Business process areas
-                href: business-processes/forecast-to-plan-areas.md
-              - name: Establish stocking and replenishment policies
-                href: business-processes/forecast-to-plan-establish-stocking-replenishment-policies-overview.md
-              - name: Forecast supply and demand
-                items:
-                  - name: Demand forecasting overview
-                    href: business-processes/forecast-to-plan-demand-forecasting-overview.md
-                  - name: Demand forecasting patterns
-                    items:
-                      - name: Manage a multi-company forecast
-                        href: business-processes/forecast-to-plan-manage-intercompany-forecast.md
-                      - name: Using multiple sources for forecasting
-                        href: business-processes/forecast-to-plan-multiple-forecasting-sources.md
-              - name: Plan supply and replenishment
-                href: business-processes/forecast-to-plan-supply-replenishment-overview.md
-          - name: Hire to retire
-            items:
-              - name: End-to-end scenario - hire to retire (ID 55)
-                href: business-processes/hire-to-retire-introduction.md
-              - name: Overview
-                href: business-processes/hire-to-retire-overview.md
-              - name: Business process areas
-                href: business-processes/hire-to-retire-areas.md
-              - name: Develop people strategy
-                items:
-                  - name: Develop people strategy overview
-                    href: business-processes/hire-to-retire-plan-recruit-workforce-overview.md
-                  - name: Develop communication strategy
-                    href: business-processes/hire-to-retire-develop-communication-strategy.md
-              - name: Recruit and onboard talent
-                items:
-                  - name: Recruit and onboard talent overview
-                    href: business-processes/hire-to-retire-onboard-manage-employee-lifecycle.md
-                  - name: Hire for open positions
-                    href: business-processes/hire-to-retire-onboard-hire-employees.md
-                  - name: Onboard new employees
-                    href: business-processes/hire-to-retire-onboard-new-hires.md
-              - name: Manage workplace compliance
-                items:
-                  - name: Manage workplace compliance overview
-                    href: business-processes/hire-to-retire-manage-occupational-health-safety.md
-                  - name: Update worker information
-                    href: business-processes/hire-to-retire-update-employee-records.md
-                  - name: Terminate employee
-                    href: business-processes/hire-to-retire-onboard-terminate-employment.md
-              - name: Manage performance and growth
-                items:
-                  - name: Manage performance and growth overview
-                    href: business-processes/hire-to-retire-manage-employee-performance-growth.md
-                  - name: Transfer workers
-                    href: business-processes/hire-to-retire-onboard-transfer-employees.md
-              - name: Manage time and attendance
-                items:
-                  - name: Manage time and attendance overview
-                    href: business-processes/hire-to-retire-manage-employee-time-attendance-overview.md
-                  - name: Manage employee travel
-                    href: business-processes/hire-to-retire-manage-travel-expenses.md
-              - name: Manage compensation and benefits
-                items:
-                  - name: Manage compensation and benefits overview
-                    href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
-          - name: Inventory to deliver
-            items:
-              - name: End-to-end scenario - inventory to deliver (ID 60)
-                href: business-processes/inventory-to-deliver-introduction.md
-              - name: Overview
-                href: business-processes/inventory-to-deliver-overview.md
-              - name: Business process areas
-                href: business-processes/inventory-to-deliver-areas.md
-              - name: Manage warehouse operations
-                href: business-processes/inventory-to-deliver-define-manage-warehouse-operations-overview.md
-              - name: Maintain inventory levels
-                href: business-processes/inventory-to-deliver-maintain-inventory-levels-overview.md
-              - name: Process outbound goods
-                href: business-processes/inventory-to-deliver-process-outbound-goods-overview.md
-              - name: Manage freight and transportation
-                href: business-processes/inventory-to-deliver-manage-freight-transportation.md
-          - name: Order to cash
-            items:
-              - name: End-to-end scenario - order to cash (ID 65)
-                href: business-processes/order-to-cash-introduction.md
-              - name: Overview
-                href: business-processes/order-to-cash-overview.md
-              - name: Business process areas
-                href: business-processes/order-to-cash-areas-overview.md
-              - name: Manage accounts payable
-                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-              - name: Manage credit and collections
-                items:
-                  - name: Manage credit and collections overview
-                    href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-          - name: Plan to produce
-            items:
-              - name: End-to-end scenario - plan to produce (ID 70)
-                href: business-processes/plan-to-produce-introduction.md
-              - name: Overview
-                href: business-processes/plan-to-produce-overview.md
-              - name: Business process areas
-                href: business-processes/plan-to-produce-areas.md
-              - name: Develop production strategies
-                items:
-                  - name: Develop production strategies overview
-                    href: business-processes/plan-to-produce-define-production-strategies.md
-                  - name: Develop production processes
-                    href: business-processes/plan-to-produce-track-production-costs-overview.md
-              - name: Plan production operations
-                href: business-processes/plan-to-produce-plan-production-operations-overview.md
-              - name: Run production operations
-                items:
-                  - name: Run production operations overview
-                    href: business-processes/plan-to-produce-execute-production-operations-overview.md
-                  - name: Subcontract production
-                    href: business-processes/plan-to-produce-outsource-production-operations-overview.md
-              - name: Control production quality
-                href: business-processes/plan-to-produce-control-production-quality-overview.md
-          - name: Source to pay
-            items:
-              - name: End-to-end scenario - source to pay (ID 75)
-                href: business-processes/source-to-pay-introduction.md
-              - name: Overview
-                href: business-processes/source-to-pay-overview.md
-              - name: Business process areas
-                href: business-processes/source-to-pay-areas.md
-              - name: Develop a procurement and sourcing strategy
-                items:
-                  - name: Develop procurement and sourcing strategy overview
-                    href: business-processes/source-to-pay-define-procurement-sourcing-strategy-overview.md
-                  - name: Define procurement catalogs
-                    href: business-processes/source-to-pay-define-procurement-catalogs-overview.md
-              - name: Manage supplier relationships overview
-                href: business-processes/source-to-pay-manage-vendor-relationships-overview.md
-              - name: Procure goods and services
-                items:
-                  - name: Procure goods and services overview
-                    href: business-processes/source-to-pay-procure-materials-services-overview.md
-                  - name: Raise purchase requisitions
-                    href: business-processes/source-to-pay-raise-purchase-requisitions-overview.md
-              - name: Manage accounts payable
-                items:
-                  - name: Manage accounts payable overview
-                    href: business-processes/source-to-pay-manage-accounts-payable-overview.md
-                  - name: Issue and settle supplier payments
-                    href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
-                  - name: Process supplier rebates and incentives
-                    href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
-          - name: Project to profit
-            items:
-              - name: End-to-end scenario - project to profit (ID 80)
-                href: business-processes/project-to-profit-introduction.md
-              - name: Overview
-                href: business-processes/project-to-profit-overview.md
-              - name: Business process areas
-                href: business-processes/project-to-profit-areas.md
-              - name: Develop project strategy
-                href: business-processes/project-to-profit-develop-project-strategy-overview.md
-              - name: Manage project contracts
-                items:
-                  - name: Manage project contracts overview
-                    href: business-processes/project-to-profit-manage-project-contracts-overview.md
-                  - name: Estimate project contracts
-                    href: business-processes/project-to-profit-estimate-project-contracts.md
-                  - name: Negotiate project contracts
-                    href: business-processes/project-to-profit-negotiate-project-contracts.md
-              - name: Plan projects
-                href: business-processes/project-to-profit-plan-projects-overview.md
-              - name: Manage project delivery
-                href: business-processes/project-to-profit-deliver-project-work.md
-              - name: Manage project financials
-                items:
-                  - name: Manage project financials overview
-                    href: business-processes/project-to-profit-manage-project-financials-overview.md
-                  - name: Recognize project revenue
-                    href: business-processes/project-to-profit-recognize-project-revenue.md
-              - name: Analyze project performance
-                href: business-processes/project-to-profit-monitor-analyze-project-performance-overview.md
-          - name: Prospect to quote
-            items:
-              - name: End-to-end scenario - prospect to quote (ID 85)
-                href: business-processes/prospect-to-quote-introduction.md
-              - name: Overview
-                href: business-processes/prospect-to-quote-overview.md
-              - name: Business process areas
-                href: business-processes/prospect-to-quote-areas.md
-              - name: Manage customer relationships
-                href: business-processes/prospect-to-quote-manage-customer-relationships.md
-              - name: Define sales strategy and policies
-                href: business-processes/prospect-to-quote-define-sales-strategy-overview.md
-              - name: Identify and qualify leads
-                href: business-processes/prospect-to-quote-identify-qualify-leads.md
-              - name: Pursue opportunities
-                href: business-processes/prospect-to-quote-pursue-opportunities-overview.md
-              - name: Estimate and quote sales
-                href: business-processes/prospect-to-quote-estimate-quote-sales-overview.md
-          - name: Record to report
-            items:
-              - name: End-to-end scenario - record to report (ID 90)
-                href: business-processes/record-to-report-introduction.md
-              - name: Overview
-                href: business-processes/record-to-report-overview.md
-              - name: Business process areas
-                href: business-processes/record-to-report-areas.md
-              - name: Define accounting policies
-                href: business-processes/record-to-report-define-accounting-policies.md
-              - name: Manage budgets overview
-                href: business-processes/record-to-report-manage-budgets.md
-              - name: Record financial transactions overview
-                href: business-processes/record-to-report-record-financial-transactions.md
-              - name: Close financial periods overview
-                href: business-processes/record-to-report-close-financial-periods.md
-          - name: Service to deliver
-            items:
-              - name: End-to-end scenario - service to deliver (ID 95)
-                href: business-processes/service-to-cash-introduction.md
-              - name: Overview
-                href: business-processes/service-to-cash-overview.md
-              - name: Business process areas
-                href: business-processes/service-to-cash-areas-overview.md
-              - name: Manage service assets overview
-                href: business-processes/service-to-cash-manage-service-assets.md
-              - name: Manage service resources overview
-                href: business-processes/service-to-cash-manage-service-resources.md
-              - name: Create and process service work
-                items:
-                  - name: Create and process service work
-                    href: business-processes/service-to-cash-create-process-service-work.md
-                  - name: Schedule service work overview
-                    href: business-processes/service-to-cash-schedule-service-work.md
-                  - name: Perform service work
-                    href: business-processes/service-to-cash-perform-service-work.md
-              - name: Invoice customers
-                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-              - name: Monitor customer credit and collections
-                href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-              - name: Review and close service requests
-                href: business-processes/service-to-cash-review-close-service-requests.md
-          - name: Administer to operate
-            items:
-              - name: End-to-end scenario - administer to operate (ID 99)
-                href: business-processes/administer-to-operate-introduction.md
-              - name: Overview
-                href: business-processes/administer-to-operate-overview.md
-              - name: Business process areas
-                href: business-processes/administer-to-operate-areas.md
-              - name: Implement solutions
-                href: business-processes/administer-to-operate-implement-solutions.md
-              - name: Define business continuity plan
-                href: business-processes/administer-to-operate-define-business-continuity-plan-overview.md
-              - name: Administer system features
-                href: business-processes/administer-to-operate-administer-system-features.md
-              - name: Manage system access and security overview
-                href: business-processes\administer-to-operate-manage-system-access-security.md
-              - name: Train users and increase adoption
-                href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
-              - name: Manage data
-                href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
-              - name: Manage system compliance overview
-                href: business-processes\administer-to-operate-manage-system-compliance.md
-              - name: Define support systems overview
-                href: business-processes\administer-to-operate-support-systems-overview.md
-          - name: Use the catalog
-            items:
-              - name: Import the catalog to Azure DevOps
-                items:
-                  - name: Import the catalog to Azure DevOps overview
-                    href: business-processes/about-import-catalog-devops.md
-                  - name: End-to-end, process area, process, and scenario work item types
-                    href: business-processes/about-import-catalog-devops-process-work-item-types.md
-                  - name: Configuration deliverable work item type
-                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
-                  - name: Workshop work item type
-                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
-              - name: Import the catalog to Mavim
-                items:
-                  - name: Import the catalog to Mavim overview
-                    href: business-processes/about-import-catalog-mavim.md
-                  - name: Success by Design with the Dynamics 365 business process catalog in Mavim
-                    href: business-processes/about-catalog-mavim-success-design-d365.md
-                  - name: Navigate the business process catalog in Mavim
-                    href: business-processes/about-catalog-mavim-navigate-business-process-catalog.md
-          - name: What's new or changed
-            items:
-              - name: What's new or changed in the business process catalog
-                href: business-processes/about-whats-new.md
-              - name: What's new or changed in the May 2025 version
-                href: business-processes/about-whats-new-2025-may.md
-              - name: What's new or changed in the February 2025 version
-                href: business-processes/about-whats-new-2025-february.md
-              - name: What's new or changed in the November 2024 version
-                href: business-processes/about-whats-new-2024-november.md
-              - name: What's new or changed in the August 2024 version
-                href: business-processes/about-whats-new-2024-august.md
       - name: Patterns
         items:
           - name: Overview
@@ -1096,20 +1096,24 @@ items:
       - name: Reference architectures
         href: reference-architectures/index.yml
         items:
+          - name: Commerce
+            items:
+              - name: Composable commerce architecture
+                href: reference-architectures/composable-commerce-architecture.md
           - name: Customer Service
             items:
-            - name: Copilot in Customer Service architecture
-              href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
-            - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
-              href: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
-            - name: Saga pattern with Dataverse or Dynamics 365
-              href: reference-architectures/saga-pattern-dataverse.md
-            - name: Dynamics 365 for travel and hospitality
-              href: reference-architectures/dynamics-365-travel-hospitality.md
-            - name: Electric vehicle charging station placement and lifecycle management
-              href: reference-architectures/electric-vehicle-charge-station.md
-            - name: Integrate booking system with Dynamics 365 Customer Service
-              href: reference-architectures/customer-service-integrate-booking-system-appointments.md
+              - name: Copilot in Customer Service architecture
+                href: reference-architectures/dynamics-365-customer-service-copilot-architecture.md
+              - name: Scheduled data exports from Dynamics 365 customer engagement apps to CSV file
+                href: reference-architectures/dynamics-365-ce-scheduled-data-exports-csv.md
+              - name: Saga pattern with Dataverse or Dynamics 365
+                href: reference-architectures/saga-pattern-dataverse.md
+              - name: Dynamics 365 for travel and hospitality
+                href: reference-architectures/dynamics-365-travel-hospitality.md
+              - name: Electric vehicle charging station placement and lifecycle management
+                href: reference-architectures/electric-vehicle-charge-station.md
+              - name: Integrate booking system with Dynamics 365 Customer Service
+                href: reference-architectures/customer-service-integrate-booking-system-appointments.md
           - name: Contact centers
             items:
               - name: Digital contact centers with Dynamics 365
@@ -1123,15 +1127,21 @@ items:
               - name: Contact center using existing CRM and CCaaS solution with Copilot for Service and Copilot Studio
                 href: reference-architectures/contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
               - name: Best practices for deploying the voice channel
-                href: resources/contact-center-deploy-voice-channel-best-practices.md            
+                href: resources/contact-center-deploy-voice-channel-best-practices.md
+          - name: Field Service
+            items:
+              - name: Dynamics 365 Project Operations to Field Service integration architecture
+                href: reference-architectures/project-operations-field-service-integration.md
           - name: Finance
             items:
-            - name: Business solution with connections to online and on-premises apps
-              href: reference-architectures/finance-supply-chain-hybrid-connect.md
+              - name: Business solution with connections to online and on-premises apps
+                href: reference-architectures/finance-supply-chain-hybrid-connect.md
+              - name: Power Pages with Dynamics 365 finance and operations apps
+                href: reference-architectures/finance-operations-dataverse-power-pages.md
           - name: Sales
             items:
-            - name: Dynamics 365 and Azure-powered manufacturing sales framework
-              href: reference-architectures/dynamics-365-azure-powered-manufacturing-sales-framework.md
+              - name: Dynamics 365 and Azure-powered manufacturing sales framework
+                href: reference-architectures/dynamics-365-azure-powered-manufacturing-sales-framework.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse

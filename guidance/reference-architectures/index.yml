@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 08/12/2025
+  ms.date: 08/19/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -79,3 +79,18 @@ landingContent:
       links:
       - text: Export inventory on-hand data to Dataverse
         url: supply-chain-export-inventory-data-dataverse.md
+      - text: Process outbound goods with Dynamics 365 and external service providers
+        url: supply-chain-process-outbound-goods-connect-external-services.md
+
+# Card - finance and operations apps
+
+  - title: Finance and operations apps
+    linkLists:
+      - linkListType: architecture
+        links:
+          - text: Business solution with connections to online and on-premises apps
+            url: finance-supply-chain-hybrid-connect.md
+          - text: Power Pages with Dynamics 365 finance and operations apps
+            url: finance-operations-dataverse-power-pages.md
+          - text: Composable commerce architecture
+            url: composable-commerce-architecture.md

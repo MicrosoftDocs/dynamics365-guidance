@@ -4,7 +4,7 @@ description: Learn to integrate Dynamics 365 with on-premises CRM systems using 
 author: edupont04
 contributors: edupont04
 ms.topic: reference-architecture
-ms.date: 07/28/2025
+ms.date: 08/19/2025
 ms.author: edupont
 ms.reviewer: edupont
 ms.custom:
@@ -128,4 +128,4 @@ Other contributors:
 
 - [Ananda Subramanian](https://www.linkedin.com/in/ananda-subramanian-a3537725/)
 
-- [Kishor Mane](https://www.linkedin.com/in/kishorworld/)
+- [Kishor Jadhav](https://www.linkedin.com/in/kishorworld/)
