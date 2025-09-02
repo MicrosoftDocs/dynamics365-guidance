@@ -5,12 +5,12 @@ author: edupont04
 ms.author: edupont
 ms.topic: concept-article
 ms.collection: get-started #Required.
-ms.date: 08/07/2024
+ms.date: 09/01/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:01/17/2024
+  - ai-seo-date: 09/01/2025
 ---
 
 # About the Dynamics 365 partner communities on Viva Engage (formerly Yammer)
@@ -21,7 +21,7 @@ The partner communities on Viva Engage provide unique opportunities as a custome
 
 The Preview program for Dynamics 365 finance and operations apps is no longer managed through the Experience Dynamics 365 Insider Program. Customers don't have to onboard the Insider Program in order to be part of the Preview community on Viva Engage.
 
-Customers should join the Viva Engage **Preview Early Access** group to receive updates on the Preview program and interact with the product team and other customers about the coming release.
+Instead, we encourage our customers to join the Viva Engage **Preview Early Access** group to receive updates on the Preview program and interact with the product team and other customers about the coming release.
 
 ### Private feature groups
 
@@ -50,6 +50,6 @@ Business Central partners can join the Viva Engage community and find subgroups 
 
 Some customers in the EU are unable to join our Viva Engage network using their company email. For these customers, the recommended workaround is to create a personal email account, such as Outlook.com, gmail.com, or another personal account. They can then repeat the request to join with this account.
 
-## Viva Engage Support
+## Support
 
-For all other Viva Engage support questions, contact [Viva Engage Support](https://aka.ms/yammerhelp) (requires sign in).  
+For all other Viva Engage support questions, review the [Viva Engage](/viva/engage/overview) documentation.  
