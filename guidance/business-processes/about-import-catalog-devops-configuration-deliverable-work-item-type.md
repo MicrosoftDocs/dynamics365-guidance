@@ -106,6 +106,7 @@ We recommend that you have a custom field, **Module/Functionality**, that define
 
 - Accounts payable
 - Accounts receivable
+- App settings
 - Asset leasing
 - Asset management
 - Audit workbench
@@ -116,25 +117,35 @@ We recommend that you have a custom field, **Module/Functionality**, that define
 - Cost accounting
 - Cost management
 - Credit and collections
+- Demand planning
+- Engineering change management
 - Expense management
 - Fixed assets
 - General ledger
 - Human resources
+- Inventory
 - Inventory management
+- Landed cost
 - Master planning
 - Organization administration
 - Payroll
+- Personal settings
 - Pricing management
 - Procurement and sourcing
 - Product information management
 - Production control
-- Project management and accounting
+- Project management & accounting
+- Projects
 - Questionnaire
+- Rebate management
+- Resources
 - Retail
 - Sales
-- Sales and marketing
+- Sales & marketing
+- Scheduling
 - Service
 - Service management
+- Settings
 - System settings
 - Tax
 - Time and attendance
