@@ -4,7 +4,7 @@ description: Learn about the sample solution so that you can play secure audio f
 author: edupont04
 ms.author: viange
 ms.topic: concept-article
-ms.date: 01/08/2025
+ms.date: 09/03/2025
 ms.custom:
   - O25-Service
   - sfi-image-nochange
@@ -16,8 +16,10 @@ ms.custom:
 
 [!INCLUDE[pva-rebrand](../includes/pva-rebrand.md)]
 
-For customer voice solutions, if you want to play a custom audio clip through Interactive Voice Response (IVR), then you must use secure storage.
+For solutions with Dynamics 365 Customer Voice, if you want to play a custom audio clip through Interactive Voice Response (IVR), then you must use secure storage.
 
+> [!TIP]
+> Things are moving fast, and we now recommend that you create agents in [Microsoft Copilot Studio](/microsoft-copilot-studio/).
 
 ## [Enhanced voice bot](#tab/enhancedvoicebot)
 
@@ -52,8 +54,10 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
    
 ## [Classic bot](#tab/classicbot)
 
+For classic bots, you can add audio files using Azure Blob Storage. Security scanning code filters out certain values from Azure Blob storage URLs by default when they're passed between systems.
 
- For classic bots, you can add audio files using Azure Blob Storage. Security scanning code filters out certain values from Azure Blob storage URLs by default when they're passed between systems.
+> [!TIP]
+> You can now create voice agents in Microsoft Copilot Studio based on the *Voice* agent template. Learn more at [Voice](/microsoft-copilot-studio/voice-build-from-template).
 
  ### Prerequisites
   - Have a custom Copilot Studio classic bot, such as [Sample Copilot Studio classic Bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/PVA/PlayAudioFile/sampleartifacts/PlaySecureAudioFilefromPVA_1_0_0_1.zip).
@@ -97,13 +101,13 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
 
  ### Use audio file from secure storage
 
- 1. Open your custom Copilot Studio in Bot Framework composer.
+ 1. Open your custom agent in Bot Framework composer.
 
- 2. Open your Bot in [Copilot Studio](https://copilotstudio.microsoft.com/).
+ 2. Open your agent in [Copilot Studio](https://copilotstudio.microsoft.com/).
 
  3. Go to **Topics** > **New topic** and then select  **Open in Bot Framework Composer**.
 
-     :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-3.png" alt-text="Screenshot of the Power Virtual Agents screen with the Topics tab, New topic option, and Open in Bot Framework Composer option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-3.png":::
+     :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-3.png" alt-text="Screenshot of the Microsoft Copilot Studio screen with the Topics tab, New topic option, and Open in Bot Framework Composer option being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-3.png":::
 
  4. In the Bot Framework Composer, add a new dialog to your bot.
 
@@ -124,5 +128,3 @@ To add a custom audio clip to your enhanced voice bot, perform the following ste
     :::image type="content" source="media/PlayAudioFile/copilot-studio-play-audio-file-7.png" alt-text="Screenshot of a text input field, with the text U R L being highlighted." lightbox="media/PlayAudioFile/copilot-studio-play-audio-file-7.png":::
 
  9. Save and publish your Copilot Studio classic bot.
-
----
