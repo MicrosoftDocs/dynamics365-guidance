@@ -37,7 +37,7 @@ The action's output is the result of the knowledge base search. The value is sto
 
 ## Create a Power Automate for summarizing the article using ChatGPT
 
-In this example, we'll demonstrate how to use an HTTP action to process text received from the PVA bot and invoke ChatGPT's API for article summarization. The result of the action is then returned to the PVA bot.  
+In this example, we'll demonstrate how to use an HTTP action to process text received from the Microsoft Copilot Studio agent and invoke ChatGPT's API for article summarization. The result of the action is then returned to the Copilot Studio agent.  
 
 :::image type="content" source="media/SummarizeArticleChatGPT/ai-summarize-knowledge-base-articles-2.png" alt-text="Screenshot of the Summarize Text using Chat G P T screen, showing the connection between Copilot Studio to Input Text." lightbox="media/SummarizeArticleChatGPT/ai-summarize-knowledge-base-articles-2.png":::
 
