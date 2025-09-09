@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 08/19/2025
+  ms.date: 09/09/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -70,6 +70,8 @@ landingContent:
         links:
         - text: Dynamics 365 and Azure-powered manufacturing sales framework
           url: dynamics-365-azure-powered-manufacturing-sales-framework.md
+        - text: Phased migration to Sales
+          url: sales-phased-migration.md
 
 # Card - Supply Chain Management
 
