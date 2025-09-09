@@ -1,8 +1,8 @@
 ---
-title: What is the Dynamics 365 Implementation Portal?
+title: What Is the Dynamics 365 Implementation Portal?
 description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
 ms.date: 01/21/2025
-ms.topic: concept-article
+ms.topic: overview
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
@@ -98,7 +98,7 @@ Select the name of a user to open the user profile page, where you can provide o
 ## Related information
 
 [Dynamics 365 Implementation Portal](overview.md)  
-[What is FastTrack for Dynamics 365?](../fasttrack/overview.md)
+[What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
 [Success By Design](../implementation-guide/success-by-design.md)  
 [Success By Design training](/training/paths/use-success-design/)  
 [Dynamics 365 Implementation Guide](https://www.d365implementationguide.com/books/asvr/#p=i)  

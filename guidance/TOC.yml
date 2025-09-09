@@ -1146,6 +1146,8 @@ items:
             items:
               - name: Dynamics 365 and Azure-powered manufacturing sales framework
                 href: reference-architectures/dynamics-365-azure-powered-manufacturing-sales-framework.md
+              - name: Phased migration to Dynamics 365 Sales
+                href: reference-architectures/sales-phased-migration.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
