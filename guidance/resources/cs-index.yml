@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Customer Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 06/24/2025
+  ms.date: 09/09/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -64,6 +64,8 @@ landingContent:
           url: cs-contact-center-copilot-onboard-users.md
         - text: Better interpretation of alphanumeric values with generative AI
           url: cs-mcs-alphanumentity.md
+        - text: Overview of single-agent and multi-agent architectures for autonomous service agents
+          url: contact-center-multi-agent-architecture-design.md
 # Setup Card
   - title: Setup
     linkLists:

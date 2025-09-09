@@ -404,7 +404,7 @@ items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
               - name: What's new or changed in the August 2025 version
-                href: business-processes/about-whats-new-2025-august.md  
+                href: business-processes/about-whats-new-2025-august.md
               - name: What's new or changed in the May 2025 version
                 href: business-processes/about-whats-new-2025-may.md
               - name: What's new or changed in the February 2025 version
@@ -813,6 +813,8 @@ items:
                         href: resources/cs-agent-script-macro-sample.md
                   - name: Artificial intelligence
                     items:
+                      - name: Single-agent and multi-agent architectures in digital contact centers
+                        href: resources/contact-center-multi-agent-architecture-design.md
                       - name: Route or deflect cases with artificial intelligence
                         href: resources/cs-ai-case-deflection.md
                       - name: Summarize KB articles with GPT
