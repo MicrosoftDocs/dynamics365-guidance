@@ -2,7 +2,7 @@
 title: Checklist for application lifecycle management
 description: Use this checklist to plan and execute a successful application lifecycle management (ALM) strategy for your Dynamics 365 project.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days
 ms.topic: checklist

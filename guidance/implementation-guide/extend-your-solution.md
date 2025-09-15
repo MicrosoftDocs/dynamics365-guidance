@@ -2,7 +2,7 @@
 title: Extend Dynamics 365 apps without compromising performance
 description: Learn how to customize Dynamics 365 apps to fit your business needs and avoid common pitfalls of extending cloud solutions.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 07/08/2025
 ms.update-cycle: 1095-days
 ms.topic: overview

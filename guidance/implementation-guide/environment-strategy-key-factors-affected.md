@@ -2,7 +2,7 @@
 title: How an environment strategy affects key factors
 description: Learn how an environment strategy affects key factors of a Dynamics 365 implementation, such as security, compliance, and future-proofing.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/16/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

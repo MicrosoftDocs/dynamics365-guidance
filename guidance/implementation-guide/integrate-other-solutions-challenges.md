@@ -2,7 +2,7 @@
 title: Overcome integration challenges in Dynamics 365 projects
 description: Learn how to plan ahead for common integration challenges between on-premises and cloud apps in Dynamics 365 projects.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/26/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

@@ -2,7 +2,7 @@
 title: Case study in extensibility capabilities
 description: Learn how a wealth management company used Dynamics 365 extensibility capabilities to create a cloud-based solution that streamlined processes.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/24/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

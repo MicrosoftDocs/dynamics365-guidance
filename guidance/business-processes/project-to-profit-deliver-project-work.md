@@ -4,7 +4,7 @@ description: Learn how you can use Dynamics 365 products to support the organiza
 ms.date: 10/31/2023
 ms.topic: concept-article
 author: edupont04
-ms.author: abunduc
+ms.author: raprofit
 # CustomerIntent: As a functional consultant, I want learn about this business process area so that the implementation runs better.
 ---
 
