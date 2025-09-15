@@ -2,7 +2,7 @@
 title: Choose the right pattern for your integration strategy
 description: Learn how to pick the best integration pattern for your Dynamics 365 apps to ensure a seamless system implementation.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/26/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

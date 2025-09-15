@@ -2,7 +2,7 @@
 title: Plan your application lifecycle management strategy
 description: Learn how to prepare for an application lifecycle management workshop with the Microsoft FastTrack team and align your development approach with best practices.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

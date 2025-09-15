@@ -2,7 +2,7 @@
 title: Customize and extend Dynamics 365 apps
 description: Learn how to use app configurations, low-code/no-code customizations, and PaaS solutions to tailor Dynamics 365 apps to your organization's needs.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 07/08/2025
 ms.update-cycle: 1095-days
 ms.topic: concept-article

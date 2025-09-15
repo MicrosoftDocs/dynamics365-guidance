@@ -2,7 +2,7 @@
 title: Plan your environment strategy for Dynamics 365
 description: Learn how to plan your environment strategy to balance compliance, security, productivity, and performance for your Dynamics 365 apps.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/16/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

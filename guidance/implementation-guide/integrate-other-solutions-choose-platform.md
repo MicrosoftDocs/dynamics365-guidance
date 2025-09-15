@@ -2,7 +2,7 @@
 title: Select the ideal platform for your Dynamics 365 apps integration
 description: Learn how to select the best platform for integrating your Dynamics 365 apps to meet your business objectives.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/25/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

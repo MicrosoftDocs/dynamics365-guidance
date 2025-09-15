@@ -2,7 +2,7 @@
 title: Manage the lifecycle of your Dynamics 365 environments
 description: Learn about the states and transitions of your Dynamics 365 environments, from creation to deletion, and the reasons for and implications of each change.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/16/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

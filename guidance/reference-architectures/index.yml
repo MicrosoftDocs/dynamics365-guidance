@@ -72,7 +72,8 @@ landingContent:
           url: dynamics-365-azure-powered-manufacturing-sales-framework.md
         - text: Phased migration to Sales
           url: sales-phased-migration.md
-
+        - text: Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights
+          url: sales-customer-insights-contact-deduplication-agent.md
 # Card - Supply Chain Management
 
   - title: Supply Chain Management

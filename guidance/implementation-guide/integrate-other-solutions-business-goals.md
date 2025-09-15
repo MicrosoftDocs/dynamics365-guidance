@@ -2,7 +2,7 @@
 title: Align your Dynamics 365 integration with business goals
 description: Learn how to tailor your Dynamics 365 integration strategy to support your business objectives effectively.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/25/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article
