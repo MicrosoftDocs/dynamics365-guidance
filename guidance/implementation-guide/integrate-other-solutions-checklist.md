@@ -2,7 +2,7 @@
 title: Integration strategy and governance checklist
 description: Get a thorough checklist to help Dynamics 365 implementation teams with their integration strategy, including checklists on defining goals and choosing a platform.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/26/2024
 ms.update-cycle: 1095-days
 ms.topic: checklist

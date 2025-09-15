@@ -2,7 +2,7 @@
 title: Choose the right design for your Dynamics 365 apps integration
 description: Learn how to choose the best design for your Dynamics 365 apps integration strategy, including outlines on UI integration and integration frameworks.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/25/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

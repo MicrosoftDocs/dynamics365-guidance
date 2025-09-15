@@ -2,7 +2,7 @@
 title: Best practices for ALM in Dynamics 365 applications
 description: Learn how to use application lifecycle management (ALM) tools and best practices to develop, test, and deploy Dynamics 365 solutions.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days
 ms.topic: best-practice

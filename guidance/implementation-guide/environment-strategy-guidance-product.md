@@ -2,7 +2,7 @@
 title: Get guidance for your Dynamics 365 environment strategy
 description: Learn about the product-specific resources and considerations that apply to your environment strategy for Dynamics 365 finance and operations apps.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/16/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

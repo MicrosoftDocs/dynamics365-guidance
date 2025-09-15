@@ -2,7 +2,7 @@
 title: Bring successful solutions to customers with application lifecycle management (ALM) strategies
 description: Get guidance for application lifecycle management (ALM) strategy and how end-to-end lifecycle management can improve your solution.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article
