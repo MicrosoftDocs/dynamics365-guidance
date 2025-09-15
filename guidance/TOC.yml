@@ -1148,6 +1148,8 @@ items:
                 href: reference-architectures/dynamics-365-azure-powered-manufacturing-sales-framework.md
               - name: Phased migration to Dynamics 365 Sales
                 href: reference-architectures/sales-phased-migration.md
+              - name: Contact deduplication agent in Dynamics 365 Sales and Dynamics 365 Customer Insights
+                href: reference-architectures/sales-customer-insights-contact-deduplication-agent.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
