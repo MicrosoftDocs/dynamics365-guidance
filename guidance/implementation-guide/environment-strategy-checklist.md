@@ -5,7 +5,7 @@ ms.topic: checklist
 ms.date: 01/18/2024
 ms.update-cycle: 1095-days
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.custom:
   - evergreen
   - ai-seo-date: 01/16/2024

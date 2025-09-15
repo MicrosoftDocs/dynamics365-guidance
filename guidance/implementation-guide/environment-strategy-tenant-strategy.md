@@ -3,7 +3,7 @@
 title: Choose the best tenant strategy for your organization
 description: Learn how to decide on a tenant strategy for your Microsoft cloud services based on data isolation, application management, and other factors.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 08/22/2024
 ms.update-cycle: 1095-days
 ms.topic: concept-article

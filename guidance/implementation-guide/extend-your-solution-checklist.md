@@ -2,7 +2,7 @@
 title: Extensibility strategy and considerations checklist
 description: Use this checklist to plan and track your extensibility strategy for Dynamics 365 apps, including sections for defining strategies and considerations.
 author: abunduc-ms
-ms.author: abunduc
+ms.author: edupont
 ms.date: 01/24/2024
 ms.update-cycle: 1095-days
 ms.topic: checklist
