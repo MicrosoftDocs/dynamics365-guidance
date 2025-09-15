@@ -78,7 +78,7 @@ Several industry-focused software development companies provide solutions to fil
 
 You can consider the following general guidelines when you want to find a Dynamics 365 software development company or solution. These points are intended as suggestions and don't cover all relevant factors. We strongly encourage you to thoroughly evaluate any partner or solution to ensure alignment with your business objectives, performance expectations, and security requirements.
 
-1. Has the the software development company enrolled in Microsoft Programs where Microsoft has reviewed the partner or their solution?
+1. Has the software development company enrolled in Microsoft Programs where Microsoft has reviewed the partner or their solution?
 
     1. Did they enroll in the Microsoft AI Cloud Partner Program?
 
