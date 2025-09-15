@@ -11,7 +11,7 @@ ms.topic: concept-article
 
 # Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights with Power Apps component framework and Copilot Studio
 
-***Applies to***:***Dynamics 365 Sales, Dynamics 365 Customer Insights - Data, Power Apps, Copilot Studio***
+***Applies to***: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Data, Power Apps, Copilot Studio***
 
 This solution combines Dynamics 365 Customer Insights - Data, Power Apps component framework (PCF), and Copilot Studio to help sales teams find and fix duplicate Contacts easily in their usual workflow.
 
