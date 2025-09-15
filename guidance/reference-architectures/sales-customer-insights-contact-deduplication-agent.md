@@ -1,6 +1,6 @@
 ---
 title: Contact Deduplication Agent in Dynamics 365 Sales and Dynamics 365 Customer Insights
-description: Learn how to resolve duplicate contacts in Dynamics 365 Sales and Customer Insights with Copilot Studio for seamless workflows.
+description: Learn how to sellers can resolve duplicate contacts in Dynamics 365 Sales and Customer Insights if you configure an agent with Copilot Studio and Power Apps component framework.
 #customer intent: As a data administrator, I want to configure deduplication rules in Dynamics 365 Customer Insights so that I can ensure data consistency across systems.
 author: edupont04
 ms.author: tchilaud
@@ -9,7 +9,7 @@ ms.date: 09/15/2025
 ms.topic: concept-article
 ---
 
-# Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights with Power Apps component framework and Copilot Studio
+# Agent for contact deduplication in Dynamics 365 Sales with Dynamics 365 Customer Insights, Power Apps component framework, and Copilot Studio
 
 ***Applies to***: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Data, Power Apps, Copilot Studio***
 
