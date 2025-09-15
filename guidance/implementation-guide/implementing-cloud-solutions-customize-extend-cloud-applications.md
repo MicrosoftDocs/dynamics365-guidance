@@ -3,7 +3,7 @@ title: Customize and extend Dynamics 365 online
 description: Learn how to tailor Dynamics 365 to your business needs and take advantage of the underlying platform capabilities.
 author: taksatoms
 ms.author: edupont
-ms.date: 01/11/2024
+ms.date: 09/15/2025
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
@@ -68,11 +68,46 @@ Several factors could guide these decisions, including user adoption, but you sh
 
 ## Software development companies
 
-Software development companies other than Microsoft are partner organizations that develop software or software solutions that are compatible with the service and deliver more capabilities.
+Microsoft partners with other software development companies that develop software or software solutions that are compatible with Microsoft's offerings, and which deliver more capabilities.
 
 An effective way to extend your solution is to use an partner solution from the app marketplace for your platform. This can save you time and effort in development and testing, and provide you with a proven solution used by peers in your industry.
 
 Several industry-focused software development companies provide solutions to fill unique product gaps and address specific business needs in industries such as fashion and hospitality. Make sure to do your homework when looking for a software development company. For example, a company must make sure their solution is available for the version you're targeting for go-live. Otherwise, deployment timelines can be affected. You also want to know the support model for that software development company, their commitment to keep it up to date, and the protection clause if the solution provider goes bankrupt or is sold. You also need to know how the software development company handles deprecation notices for phased-out software and update cycles.
+
+### Guidelines to find the right solution provider
+
+You can consider the following general guidelines when you want to find a Dynamics 365 software development company or solution. These points are intended as suggestions and don't cover all relevant factors. We strongly encourage you to thoroughly evaluate any partner or solution to ensure alignment with your business objectives, performance expectations, and security requirements.
+
+1. Has the the software development company enrolled in Microsoft Programs where Microsoft has reviewed the partner or their solution?
+
+    1. Did they enroll in the Microsoft AI Cloud Partner Program?
+
+        This program is a base-level requirement for any partner that wants to use Microsoft Partner services or enroll in Partner programs. Find the review criteria to join the Microsoft AI Cloud Partner Program [here](https://partner.microsoft.com/).
+    1. Do they have [an AppSource listing](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365) live as a Dynamics 365, Dataverse, or Operations offer?  
+
+        Find the requirements here:
+
+        - [App certification checklist](/power-platform/developer/appsource/appendix-app-certification-checklist)  
+        - [Dynamics 365 Operations Apps functional validation](/partner-center/marketplace-offers/dynamics-365-operations-validation)  
+        - [Marketing validation checklist (Business Central)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-marketing)  
+    1. Do they have a Microsoft AI Cloud Partner Program Certified Solution Designation?
+
+        Find the requirements for each of the solution areas [here](/partner-center/referrals/solutions-partner-certified-software-designations-introduction).
+1. Possible questions to consider when selecting a Dynamics 365 software development company or solution
+
+    1. Is the software development company familiar with [the Success by Design framework](success-by-design.md)?
+    1. Does the software development company release schedule align with the Microsoft product releases and your release cadence?
+    1. Do they perform regression testing with every Microsoft Dynamics 365 product release?
+    1. Does the software development company deploy their own solution or utilize a Microsoft Systems Integrator and does this align with your strategy?
+    1. Does the software development company currently have customer references for your company size and/or industry?
+    1. Does the software development company support offering align with your business needs including cost, availability, service level agreements (SLA), root cause analysis, and depth of expertise?
+    1. Does the software development company solution block any out-of-the-box product functionality?
+    1. Does the company make the source code or unmanaged solution available to you in the event of their acquisition or dissolution?
+1. Other best practices
+
+    1. Obtain customer references
+    1. Review the customer ratings and feedback through sources such as G2 and AppSource
+    1. Perform an independent vetting of the business partner.
 
 ## Next steps
 
