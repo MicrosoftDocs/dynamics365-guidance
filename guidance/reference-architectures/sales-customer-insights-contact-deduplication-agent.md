@@ -9,11 +9,11 @@ ms.date: 09/15/2025
 ms.topic: concept-article
 ---
 
-# Contact deduplication agent in Dynamics 365 Sales and Dynamics 365 Customer Insights with Power Apps component framework and Copilot Studio
+# Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights with Power Apps component framework and Copilot Studio
 
 ***Applies to***:***Dynamics 365 Sales, Dynamics 365 Customer Insights - Data, Power Apps, Copilot Studio***
 
-This solution combines Dynamics 365 Customer Insights - Data, Power Apps component framework (PCF) and Copilot Studio to help sales teams find and fix duplicate Contacts easily in their usual workflow.
+This solution combines Dynamics 365 Customer Insights - Data, Power Apps component framework (PCF), and Copilot Studio to help sales teams find and fix duplicate Contacts easily in their usual workflow.
 
 ## Introduction
 
@@ -21,15 +21,15 @@ You can create contacts from many touchpoints, like when a customer service repr
 
 This process can create duplicate records for the same person, with different levels of completeness and accuracy in the contact table. Duplicate records create noise, confusion, and poor data quality, which can undermine communication and relationships with the contact.
 
-Dataverse offers native duplicate detection, but this feature is limited in what it can find. It also doesn't let you fix duplicate entries (that is, "merge") at the right time, like when a seller is looking at a specific contact record.
+Dataverse offers native duplicate detection, but it's limited in what it can find. It also doesn't let you fix duplicate entries (that is, merge) at the right time, like when a seller is looking at a specific contact record.
 
 Keeping your contact data clean is crucial, especially if you want to get the most from your marketing and sales efforts. Clean data helps you reach the right person with the right context.
 
-With the profile unification engine in Dynamics 365 Customer Insights - Data, you can easily find duplicate contacts. A Power Apps component framework (*PCF*) control can show this in Dynamics 365 Sales to help the seller act on it. With Copilot APIs in PCF controls, a custom topic in Copilot in Dynamics 365 Sales can suggest the best merge option for each field across the duplicates.
+With the profile unification engine in Dynamics 365 Customer Insights - Data, you can easily find duplicate contacts. A Power Apps component framework (*PCF*) control can show the duplicated contacts in Dynamics 365 Sales to help the seller act on it. With Copilot APIs in PCF controls, a custom topic in Copilot in Dynamics 365 Sales can suggest the best merge option for each field across the duplicates.
 
 This approach can make it much easier to keep your contact table clean by making the deduplication process almost effortless for the seller.
 
-The following short video shows what the experience looks like for a seller. It surfaces a potential duplicate right in their workflow when they view a contact form, and lets them easily accept or change the merge suggestion.
+The following short video shows what the experience looks like for a seller. In this example, a potential duplicate shows up in the seller's workflow when they view a contact form, and the agent helps them accept or change the suggested merge.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=d26c999b-8197-4df2-8460-e51a99cba75a]
 
@@ -41,9 +41,9 @@ This diagram shows the architecture for the solution.
 
 ## Dataflow
 
-1. Contacts from Dataverse (and optionally any additional data source that can help identify them better) are ingested into Dynamics 365 Customer Insights - Data.
+1. Contacts from Dataverse (and optionally any other data source that can help identify them better) are ingested into Dynamics 365 Customer Insights - Data.
 
-1. Set up *Profile Unification* in Dynamics 365 Customer Insights - Data with ad hoc deduplication and matching rules that fit your business context.
+1. Set up *Profile Unification* in Dynamics 365 Customer Insights - Data with deduplication and matching rules that fit your business context.
 
 1. The system automatically applies `CustomerId` backstamping, creating a relationship (`lookup` column) from contacts to their corresponding unified customer profile in Dynamics 365 Customer Insights - Data. Two contacts that are identified as duplicates share the same `CustomerId`, linking to the same unified customer profile.
 
@@ -74,7 +74,7 @@ The following components are used in the reference architecture.
 
   Using the [Copilot APIs](/power-apps/developer/component-framework/reference/copilot), the custom PCF control [executes an event](/power-apps/developer/component-framework/reference/copilot/executeevent) to call a custom Copilot topic, passing parameters and showing the result.
 
-- In [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio), the "Copilot in Dynamics 365 Sales" agent is extended with a custom topic that receives the current contact and duplicate as parameters and uses a prompt node to compare them, identify the best values for each field, and return a predictable structured .json, as instructed in the prompt, which is shown as the default choice for merging in the custom PCF control.
+- In [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio), the Copilot in Dynamics 365 Sales agent is extended with a custom topic that receives the current contact and duplicate contact as parameters, and then uses a prompt node to compare them, identify the best values for each field, and return a predictable structured .json, as instructed in the prompt, which is shown as the default choice for merging in the custom PCF control.
 
 ## Scenario details
 
@@ -94,7 +94,7 @@ Cost optimization means finding ways to reduce unnecessary expenses and improve 
 
 In this reference architecture, app components like Dynamics 365 Customer Insights - Data and Dynamics 365 Sales are online business applications with their own licensing model, so using this pattern doesn't affect costs.
 
-However, [Microsoft Copilot Studio consumes credits](/microsoft-copilot-studio/billing-licensing) when used, either through packs or pay-as-you-go. For example, you can check if a potential duplicate exists for the current contact with a low-code approach in the custom Copilot topic. In many cases, it's better to use a pro-code approach in the PCF control, so it only calls the custom Copilot topic when there's an existing duplicate. This reduces the number of messages and credits used.
+However, [Microsoft Copilot Studio consumes credits](/microsoft-copilot-studio/billing-licensing) when used, either through packs or pay-as-you-go. For example, you can check if a potential duplicate exists for the current contact with a low-code approach in the custom Copilot topic. In many cases, it's better to use a pro-code approach in the PCF control, so it only calls the custom Copilot topic when there's an existing duplicate. This approach reduces the number of messages and credits used.
 
 ## Related resources
 
