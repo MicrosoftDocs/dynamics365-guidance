@@ -1,24 +1,20 @@
 ---
-title: Sample queries and dashboards for conversation diagnostics (preview)
-description: Use sample queries to retrieve conversation diagnostics from Application Insights.
+title: Sample queries and dashboards for conversation diagnostics
+description: Use sample queries to retrieve conversation diagnostics for Dynamics 365 Contact Center from Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 03/27/2025
+ms.date: 09/19/2025
 ms.custom:
   - bap-template
   - O25-Service
 ---
 
-# Sample queries and dashboards in conversation diagnostics (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Sample queries and dashboards in conversation diagnostics
 
 Learn about the queries that you can use to retrieve the diagnostics data for unified routing from Application Insights.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Fallback queues
 
@@ -175,7 +171,6 @@ After your dashboard is ready, you can do one of the following:
 - Alternatively, embed the dashboard into your own portal or website using the embedding features provided by Azure.  
 
 By integrating your analytics and insights data into an Azure Data Explorer dashboard, you can continuously monitor your Dynamics 365 Customer Service and Dynamics 365 Contact Center environments.
-
 
 ### Related information
 
