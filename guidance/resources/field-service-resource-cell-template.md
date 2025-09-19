@@ -1,7 +1,7 @@
 ---
 title: Add crew information to resource cells
 description: Get sample code to help you customize information and how it looks in the schedule board in Dynamics 365 Field Service.
-ms.date: 08/07/2024
+ms.date: 09/12/2025
 ms.topic: best-practice
 author: edupont04
 ms.author: jwride
@@ -11,12 +11,12 @@ ms.author: jwride
 
 ***Applies to: Dynamics 365 Field Service***
 
-The schedule board is a key tool for dispatchers who want to book and manage frontline workers and other resources in Dynamics 365 Field Service. It can be extended and customized to address business-specific use cases. This article explains how to customize the schedule board to show additional information for each resource.
+The schedule board is a key tool for dispatchers to book and manage frontline workers and other resources in Dynamics 365 Field Service. It can be extended and customized to address business-specific use cases. This article explains how to customize the schedule board to show additional information for each resource.
 
-In this sample template, the resource card shows if the resource is a member of a specific crew by showing the crew's name. If a resource is a member of more than one crew, it shows instead the number of crews that they're a member of. The sample solution also considers the schedule board date range while evaluating crew membership for the resources.
+In this sample template, the resource card shows if the resource is a member of a specific crew by showing the crew's name. If a resource belongs to more than one crew, it shows the number of crews they belong to. The sample solution also considers the schedule board date range while evaluating crew membership for the resources.
 
 > [!NOTE]
-> You might have to refresh the schedule board to reflect changes made after the schedule board has loaded, such as when the date range is modified.
+> You might need to refresh the schedule board to reflect changes made after it loads, like when the date range is modified.
 
 ## Prerequisites
 
@@ -32,9 +32,9 @@ In this sample template, the resource card shows if the resource is a member of 
 
 For certain business scenarios, crew members can move between crews on a frequent basis. A *dispatcher* or *scheduler* wants to understand which crew a resource belongs to as they review available capacity and then schedule work.
 
-The schedule board shows where a resource is allocated to a team by blocking out their time; however, in certain scenarios, dispatchers or schedulers want to see this information against the resource card for easy access.
+The schedule board shows where a resource is allocated to a team by blocking out their time. However, in some scenarios, dispatchers or schedulers want to see this information on the resource card for easy access.
 
-You can achieve this visualization through a simple customization.
+Achieve this visualization through a simple customization.
 
 ## Sample code
 
@@ -43,7 +43,7 @@ You can achieve this visualization through a simple customization.
 
 ### Step 1: Modify the Retrieve Resource query
 
-To show information on the resource card relating to crew membership, you must first retrieve the information about the resources and crews.
+To show information on the resource card about crew membership, you must first retrieve the information about the resources and crews.
 
 To insert the code:
 
@@ -107,7 +107,7 @@ To insert the code:
   > The crews retrieved are filtered to only include the crews that the resource is a member of between the start and end date as defined on the schedule board's time window (with the code `$input/ScheduleBoard/StartDate` and `$input/ScheduleBoard/EndDate`, respectively).
 
   > [!IMPORTANT]
-  > The resource card may not automatically update when start and end dates change, so it might be necessary for users to refresh the board to see potential changes when the dates are changed.
+  > The resource card might not automatically update when start and end dates change, so it might be necessary for users to refresh the board to see potential changes when the dates are changed.
 
 - Get crew name.
 
@@ -132,7 +132,7 @@ To insert the code:
 1. In the schedule board, navigate to scheduler settings, choose the link to open **All board settings**, and then, on the **Other** tab, choose the **Resource cell template** field.
 2. Open the default template that is already specified in the **Resource cell template** field by choosing the pencil icon, and then copy the contents of the template.
 3. Create a new template using the copied code as a base.
-4. Add the following code to the new template so that it'll show the crew information. Learn more at [Modify the resource cell template](/dynamics365/field-service/extend-schedule-board-custom-resource-attribute#step-3-modify-the-resource-cell-template).  
+4. Add the following code to the new template so that it'll show the crew information. Learn more in [Modify the resource cell template](/dynamics365/field-service/extend-schedule-board-custom-resource-attribute#step-3-modify-the-resource-cell-template).  
 
     ```html
     <!-- Add crew information. -->
@@ -145,11 +145,11 @@ To insert the code:
     <!-- End of customization -->
     ```
 
-The following screenshot illustrates this type of customization.
+This screenshot shows this type of customization.
 
 :::image type="content" source="media/fs-resource-cells.png" alt-text="Screenshot of a list of resources where three are tagged as being part of one or more crews.":::
 
-In this example, we use a user group icon from [Font Awesome](https://fontawesome.com/v4/icons/) to represent a crew. Dynamics 365 Field Service currently supports v4 icons.  
+In this example, we use a user group icon from [Font Awesome](https://fontawesome.com/v4/icons/) to represent a crew. Dynamics 365 Field Service supports v4 icons.  
 
 All values used by the handlebar come from the property bag from the query that retrieves resources and then uses logic to determine what information to show on the card.
 
