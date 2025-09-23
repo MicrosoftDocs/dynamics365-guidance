@@ -1,7 +1,7 @@
 ---
 title: Prospect to quote end-to-end business process flow overview
 description: Learn about the prospect to quote end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
-ms.date: 10/24/2023
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -19,11 +19,11 @@ This article describes the *prospect to quote* end-to-end business process flow 
 
 ## Prospect to quote process relationship
 
-The following diagram shows the relationship of other processes and products/features for the *prospect to quote* process.
+<!-- The following diagram shows the relationship of other processes and products/features for the *prospect to quote* process.
 
 :::image type="content" source="media/prospect-to-quote-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/prospect-to-quote-process.svg":::
-
-The prerequisites include the following end-to-end business processes:
+ -->
+The prerequisites for the *prospect to quote* end-to-end process include the following end-to-end business processes:
 
 - **Concept to market**
 
@@ -40,34 +40,18 @@ The prerequisites include the following end-to-end business processes:
 - **Project to profit**
 
     Insights from previous projects can inform the sales strategy, lead qualification, and the pursuit of opportunities.
-
+<!-- 
 - **Hire to retire**
 
     *Hire to retire* business processes can influence *prospect to quote* if human resources and financial reporting are foundational to your sales process.
 
 - **Record to report**
 
-    *Record to report* business processes can influence *prospect to quote* if financial reporting is foundational to your sales process.
+    *Record to report* business processes can influence *prospect to quote* if financial reporting is foundational to your sales process. -->
 
-The *prospect to quote* end-to-end process is broken down into the following business process areas:
+The *prospect to quote* end-to-end process is broken down into business process areas. Learn more in the [Prospect to quote business process flow](#prospect-to-quote-business-process-flow) section and in the [Prospect to quote business process areas](prospect-to-quote-areas.md) article.
 
-- Define sales strategy
-
-- Run marketing campaigns
-
-- Identify and qualify leads
-
-- Pursue opportunities
-
-- Estimate and quote sales
-
-- Manage customer relationships
-<!-- Removed
-- Analyze service operations -->
-
-Learn more at [Prospect to quote business process areas](prospect-to-quote-areas.md).
-
-The third column in the diagram displays the downstream business process including the following processes:
+The downstream business processes of the *prospect to quote* end-to-end process including the following processes:
 
 - **Order to cash**
 
@@ -124,26 +108,15 @@ The following steps are illustrated in the *prospect to quote* end-to-end busine
 1. Start
 1. *Prospect to quote* end-to-end process
 
-    1. Define sales strategy
-    1. Run marketing campaigns
-    1. Identify and qualify leads
-    1. Pursue opportunities
-    1. Estimate and quote sales
-
-        A parallel branch from this business process area is *Inventory to deliver*.
-
-    1. Manage customer relationships
-
-        Parallel branches from this business process area are *Order to cash* and *Service to deliver*.
-
+    1. *Manage customer relationships*  
+    1. *Identify and qualify leads*  
+    1. *Define sales strategy and policies*  
+    1. *Pursue opportunities*  
+    1. *Estimate and quote sales*  
+    1. *Analyze sales*
 1. End
 
-Parallel branches from Start include the following:
-
-1. *Record to report*, *Design to retire*, and *Record to report* connect to *Define sales strategy*.
-1. *Forecast to plan* connects to *Run marketing campaigns*.
-1. *Project to profit* connects to *Identify and qualify leads*.
-1. *Record to report* and *Hire to retire* connect to *Manage customer relationships*.
+Learn more at [Prospect to quote business process areas](prospect-to-quote-areas.md).  
 
 ## Next steps
 
@@ -152,8 +125,6 @@ If you want to implement Dynamics 365 solutions to assist with your *prospect to
 1. Define the goals and objectives of implementing a prospect to quote technology solution. Learn more at [Solution architecture design: Vision and strategies](../implementation-guide/solution-architecture-design-pillars-vision-strategies.md)
 
 2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md)
-
-<!-- Get a demo of Dynamics 365 solutions for the order to cash process.TODO: add link For more information, see \[link\].-->
 
 3. [Sign up for a trial of Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial)
 
@@ -171,12 +142,12 @@ Use the following resources to learn more about the *prospect to quote* process 
 
 - Find definitions of terminology used in content for *prospect to quote* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article, including the following terms:
 
-    - [Key entities](glossary.md#key-entities)
-    - [Sales process and stages](glossary.md#sales-process-and-stages)
-    - [Lead and opportunity management](glossary.md#lead-and-opportunity-management)
-    - [Sales planning and strategy](glossary.md#sales-planning-and-strategy)
-    - [Sales tools and technologies](glossary.md#sales-tools-and-technologies)
-    - [Sales documentation and materials](glossary.md#sales-documentation-and-materials)
+  - [Key entities](glossary.md#key-entities)
+  - [Sales process and stages](glossary.md#sales-process-and-stages)
+  - [Lead and opportunity management](glossary.md#lead-and-opportunity-management)
+  - [Sales planning and strategy](glossary.md#sales-planning-and-strategy)
+  - [Sales tools and technologies](glossary.md#sales-tools-and-technologies)
+  - [Sales documentation and materials](glossary.md#sales-documentation-and-materials)
 
 ## Contributors
 

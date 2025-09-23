@@ -1,7 +1,7 @@
 ---
 title: Overview of the estimate and quote sales business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for estimating and quoting sales.
-ms.date: 11/01/2023
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -41,21 +41,15 @@ The following steps are illustrated in the business process flow diagram.
 1. *Prospect to quote* end-to-end process
 1. *Estimate and quote sales* business process area
 
-    1. *Create sales quotes*
-
-        Sales reps start the process by creating a sales quotation in Dynamics 365 Sales. This process involves the following key activities:
-
-        - Adding products, services, and discounts.
-        - Creating or selecting a price list.
-        - Entering customer and payment details (integrated with the *Service to Cash* process).
-
-    1. *Manage sales quotes*
-
-        Sales reps and managers evaluate and revise quotes as needed. This process involves the following activities:
-
-        - Closing quotes that are lost or canceled.
-        - Creating sales orders from approved quotes (hands off to the *Order to Cash* process).
-        - Revising quotes based on customer feedback.
+    1. *Define customer order requirements*  
+    1. *Define sales quotations*  
+    1. *Create service contracts in Dynamics 365 Sales*  
+    1. *Negotiate and finalize quotations*  
+    1. *Ensure client approval and sign-off*  
+    1. *Confirm purchase details*  
+    1. *Conduct post-sale follow-up*  
+    1. *Conduct upsell, cross sell or repeat sale prompt*  
+    1. *Nurture trust relationship regularly with customer*
 
 1. End
 
@@ -87,35 +81,33 @@ Overall, streamlining the quoting process helps sales teams close more deals fas
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *estimate and quote sales* business processes, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your *estimate and quote sales* business processes, you can use the following resources and steps to learn more. (Links are added, when articles become available.)
 
-1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
+1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
+1. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
 
-2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-
-3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
-
-4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
-
-5. *Estimate and quote sales* (the article that you're currently reading)
-
-6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+    1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)  
+    1. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)  
+    1. [Define sales strategy and policies](prospect-to-quote-define-sales-strategy-overview.md)  
+    1. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)  
+    1. *Estimate and quote sales* (the article that you're currently reading)  
+    1. *Analyze sales*
 
 ## Related information
 
 - [Manage quote, order, and invoice](/dynamics365/sales/sales-transactions)
 - [Create or edit quotes](/dynamics365/sales/create-edit-quote-sales)
-- [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) 
+- [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)  
 - [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
 - Find definitions of terminology that is used in content for *estimate and quote sales* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Quote](glossary.md#quote)
-    - [Margins](glossary.md#margins)
-    - [Product and price lists](glossary.md#product-and-price-lists)
-    - [Discounts](glossary.md#discounts)
-    - [Upsell](glossary.md#upsell)
-    - [Sales planning and strategy](glossary.md#sales-planning-and-strategy)
-    - [Sales process and stages](glossary.md#sales-process-and-stages)
+  - [Quote](glossary.md#quote)
+  - [Margins](glossary.md#margins)
+  - [Product and price lists](glossary.md#product-and-price-lists)
+  - [Discounts](glossary.md#discounts)
+  - [Upsell](glossary.md#upsell)
+  - [Sales planning and strategy](glossary.md#sales-planning-and-strategy)
+  - [Sales process and stages](glossary.md#sales-process-and-stages)
 
 <!-- 
 ## Tags

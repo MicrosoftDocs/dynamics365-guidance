@@ -4,7 +4,7 @@ description: Discover the importance of business continuity planning for Dynamic
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 03/19/2024
+ms.date: 09/23/2025
 ai-usage: ai-assisted
 ---
 
@@ -64,53 +64,30 @@ The following diagram shows the *Define business continuity plan* process area.
 
     A parallel branch from Start connects to the *Forecast to plan* end-to-end process, which connects to *Define strategic and operational plans*, which also connects to *Define business continuity objectives*.
 
-2. *Administer to operate*
+1. *Administer to operate*
 
     A parallel branch connects to the business process area for *Monitor systems, environments, and capacity* under *Administer to operate*, which connects to *Manage system compliance*, which connects to *Support systems*. All three business process areas have a parallel connection to *Test and validate the business continuity plan*.
 
-3. *Define business continuity plan*
+1. *Define business continuity plan*
 
-4. *Define business continuity objectives*
+    1. *Define business continuity objectives*  
+    1. *Conduct a business impact analysis*  
+    1. *Identify business continuity risks*  
+    1. *Develop a business continuity plan*  
+    1. *Implement a business continuity plan*  
+    1. *Test and validate the business continuity plan*  
+    1. *Maintain and update the business continuity plan*  
+    1. *Identify critical system and data*  
+    1. *Conduct a disaster risk assessment*  
+    1. *Define recovery objectives*  
+    1. *Develop a disaster recovery plan*  
+    1. *Implement the disaster recovery plan*  
+    1. *Test and validate the disaster recovery plan*  
+    1. *Mitigate and update the disaster recovery plan*
 
-5. *Conduct business impact analysis*
+1. End
 
-6. *Conduct a risk assessment*
-
-7. *Identify critical systems and data*
-
-    1. *Identify business continuity risks*
-
-        1. *Develop a business continuity plan*
-
-        2. *Implement a business continuity plan*
-
-        3. *Test and validate the business continuity plan*
-
-            A parallel branch connects to *Test and validate the disaster recovery plan*
-
-        4. *Maintain and update the business continuity plan*
-
-            A parallel branch connects to *Mitigate and update the disaster recovery plan*
-
-    2. *Define recovery objectives*
-
-        1. *Develop a disaster recovery plan*
-
-        2. *Implement and test the disaster recovery plan*
-
-            A parallel branch connects to *Train users and increase adoption* under the *Administer to operate* end-to-end process shown on the right side of the diagram, which connects to *Monitor systems, environment, and capacity*.
-
-    3. *Test and validate the disaster recovery plan*
-
-        Parallel branches connect to *Monitor systems, environments, and capacity*, *Manage system compliance*, and *Support systems*, which connects to End.
-
-    4. *Mitigate and update the disaster recovery plan*
-
-        Parallel branches connect to each of the following business process areas under the *Administer to operate* end-to-end process: *Train users and increase adoption*, *Monitor systems, environments, and capacity*, *Manage system compliance*, and *Support systems*.
-
-8. End
-
-## Define business continuity plan benefits
+## Benefits of Define business continuity plan
 
 Here are some key benefits that you can use to monitor and measure how well you implement technology to support the *define business continuity plan* processes.
 
@@ -158,7 +135,7 @@ If you want to implement Dynamics 365 solutions to assist with your *administer 
     1. *Test and validate the disaster recovery plan*  
     1. *Mitigate and update the disaster recovery plan*
 1. *Manage licensing and entitlements*  
-1. [Administer system features](administer-to-operate-administer-system-features.md)   
+1. [Administer system features](administer-to-operate-administer-system-features.md)  
 1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
 1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
 1. *Monitor systems, environments, and capacity*  

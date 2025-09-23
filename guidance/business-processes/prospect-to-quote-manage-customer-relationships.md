@@ -1,7 +1,7 @@
 ---
 title: Manage customer relationships business process area overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing customer relationships.
-ms.date: 11/01/2023
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -29,11 +29,11 @@ Throughout the customer lifecycle, teams track satisfaction metrics and loyalty 
 
 ## Manage customer relationships flow
 
-The following diagram illustrates the key steps in the *manage customer relationships* business process area.
+The following diagram illustrates the key steps in the *manage customer relationships* business process area. 
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/prospect-to-quote-manage-customer-relations.svg" alt-text="Flow diagram for the manage customer relationships business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-manage-customer-relations.svg":::
+:::image type="content" source="media/prospect-to-quote-manage-customer-relationships-flow.svg" alt-text="Flow diagram for the manage customer relationships business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-manage-customer-relationships-flow.svg":::
 
 The following steps are illustrated in the business process flow diagram.
 
@@ -41,27 +41,10 @@ The following steps are illustrated in the business process flow diagram.
 1. *Prospect to quote* end-to-end process
 1. *Manage customer relationships* business process area
 
-    1. *Create and classify customer accounts*
-
-        - Create and manage contacts, prospects, and customers
-        - Convert a prospect to a customer
-        - Create customer hierarchies
-        - Create relationships for accounts
-        - Assign account managers and build cross-functional teams
-
-    1. *Create relationships between customers*
+    1. *Maintain contacts and accounts*
     1. *Manage loyalty programs*
 
-        - Measure customer satisfaction and loyalty
-        - Provide sales and service support
-        - Develop account plans and strategic initiatives
-        - Assist customers through their journey
-
-    1. *Organize contacts in organization charts for a customer*
-
 1. End
-
-There are upstream branches to *Create and classify customer accounts* from [order to cash](order-to-cash-overview.md) and [service to cash](service-to-cash-overview.md). There are also upstream branches to *Manage loyalty programs* from [order to cash](order-to-cash-overview.md) and [service to cash](service-to-cash-overview.md). In addition, there are upstream branches to *Organize contacts in organization charts for a customer* from [hire to retire](hire-to-retire-overview.md) and *Master data management*.
 
 ## Benefits
 
@@ -97,19 +80,17 @@ Overall, Dynamics 365 enables organizations to maximize the potential of every c
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *prospect to quote* business processes, can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your *prospect to quote* business processes, can use the following resources and steps to learn more. (Links are added, when articles become available.)
 
-1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
+1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
+1. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
 
-2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-
-3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
-
-4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
-
-5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
-
-6. *Manage customer relationships* (the article that you're currently reading)
+    1. *Manage customer relationships* (the article that you're currently reading)  
+    1. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)  
+    1. [Define sales strategy and policies](prospect-to-quote-define-sales-strategy-overview.md)  
+    1. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)  
+    1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)  
+    1. *Analyze sales*
 
 ## Related information
 

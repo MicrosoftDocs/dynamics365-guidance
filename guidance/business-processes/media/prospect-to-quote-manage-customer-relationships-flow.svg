@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="47 58 493 401"
+   viewBox="36 58 493 279"
    xml:space="preserve"
    color-interpolation-filters="sRGB"
    class="st10"
    version="1.1"
-   id="svg22"
-   sodipodi:docname="prospect-to-quote-pursue-opportunities-flow.svg"
+   id="svg17"
+   sodipodi:docname="prospect-to-quote-manage-customer-relationships-flow.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-   id="namedview22"
+   id="namedview17"
    pagecolor="#ffffff"
    bordercolor="#000000"
    borderopacity="0.25"
@@ -21,15 +21,15 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="4.5810474"
-   inkscape:cx="246.55934"
-   inkscape:cy="200.5"
+   inkscape:zoom="6.1845842"
+   inkscape:cx="246.5"
+   inkscape:cy="139.45966"
    inkscape:window-width="3840"
    inkscape:window-height="2054"
    inkscape:window-x="2869"
    inkscape:window-y="-11"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg22" />
+   inkscape:current-layer="svg17" />
 	<style
    type="text/css"
    id="style1"><![CDATA[
@@ -40,7 +40,7 @@
 		.st5 {font-size:1em}
 		.st6 {fill:#ffffff}
 		.st7 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
-		.st8 {marker-end:url(#mrkr13-38);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {marker-end:url(#mrkr13-31);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
 		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]></style><style
@@ -56,7 +56,7 @@
    id="path3" />
 		</g>
 		<marker
-   id="mrkr13-38"
+   id="mrkr13-31"
    class="st9"
    refX="-13.08"
    orient="auto"
@@ -69,12 +69,12 @@
 		</marker>
 	</defs>
 	<g
-   id="g22"
-   transform="translate(-0.21829069,-0.65487207)">
+   id="g17"
+   transform="matrix(1.0000005,0,0,0.99710265,-0.1618333,-0.15376706)">
 		
 		<g
    id="shape1-1"
-   transform="translate(47.25,-684)">
+   transform="translate(36,-684)">
 			
 			<desc
    id="desc3">Start</desc>
@@ -89,15 +89,15 @@
    id="text4">Start</text>
 		</g>
 		<a
-   id="6fc9577e-ec4c-4d8f-be5c-73a50c011c30"
+   id="99c10bcc-b48c-4e86-a06f-c43f2c6eada4"
    class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NDZ2NDA4MScsMjUzMTUsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NDN2NDA4MScsMjUzMDMsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
 			<g
    id="shape2-4"
    transform="translate(225,-670.5)">
 				
 				<desc
-   id="desc4">85.45 Pursue opportunities</desc>
+   id="desc4">85.15 Manage customer relationships</desc>
 				<rect
    x="0"
    y="729"
@@ -106,26 +106,26 @@
    class="st3"
    id="rect4" />
 				<text
-   x="31.139999"
+   x="3.6900001"
    y="756.90002"
    class="st4"
-   id="text5">85.45 Pursue <tspan
-   x="29.860001"
+   id="text5">85.15 Manage customer <tspan
+   x="31.59"
    dy="1.2em"
    class="st5"
-   id="tspan4">opportunities</tspan>				</text>
+   id="tspan4">relationships</tspan>				</text>
 			</g>
 		</a>
 		<a
-   id="e57145dc-edf0-4da4-b20b-7ab65804b8ad"
+   id="31efa9f2-5b80-405c-a70c-de0efb62223d"
    class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTh2NDA4MScsMjUzMTYsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NDl2NDA4MScsMjUzMDQsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
 			<g
    id="shape3-8"
-   transform="translate(225,-558)">
+   transform="translate(225,-562.5)">
 				
 				<desc
-   id="desc5">85.45.100 Identify opportunity</desc>
+   id="desc5">85.15.100 Maintain contacts and accounts</desc>
 				<path
    d="M 0,792 H 126 V 729 H 0 Z"
    class="st6"
@@ -143,26 +143,30 @@
    class="st7"
    id="path8" />
 				<text
-   x="18.59"
-   y="756.90002"
+   x="15.38"
+   y="749.70001"
    class="st2"
-   id="text8">85.45.100 Identify <tspan
-   x="33.860001"
+   id="text9">85.15.100 Maintain <tspan
+   x="31.83"
    dy="1.2em"
    class="st5"
-   id="tspan8">opportunity</tspan>				</text>
+   id="tspan8">contacts and </tspan>					 <tspan
+   x="41.23"
+   dy="1.2em"
+   class="st5"
+   id="tspan9">accounts</tspan>				</text>
 			</g>
 		</a>
 		<a
-   id="fbfedbbc-d6b0-4896-8c10-750cfe2e569d"
+   id="78fced9a-e458-4979-a963-66e7f07253f8"
    class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTl2NDA4MScsMjUzMTcsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTB2NDA4MScsMjUzMDUsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
 			<g
-   id="shape4-15"
-   transform="translate(225,-445.5)">
+   id="shape4-16"
+   transform="translate(225,-454.5)">
 				
 				<desc
-   id="desc8">85.45.200 Manage opportunity process</desc>
+   id="desc9">85.15.200 Manage loyalty programs</desc>
 				<path
    d="M 0,792 H 126 V 729 H 0 Z"
    class="st6"
@@ -183,114 +187,64 @@
    x="17.49"
    y="756.90002"
    class="st2"
-   id="text12">85.45.200 Manage <tspan
-   x="13.88"
+   id="text12">85.15.200 Manage <tspan
+   x="22.07"
    dy="1.2em"
    class="st5"
-   id="tspan12">opportunity process</tspan>				</text>
-			</g>
-		</a>
-		<a
-   id="31a31d9e-9681-4201-b613-46d348dac11c"
-   class="rules_svg_anchor rules_svg_shape"
-   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NjB2NDA4MScsMjUzMTgsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
-			<g
-   id="shape5-22"
-   transform="translate(225,-333)">
-				
-				<desc
-   id="desc12">85.45.300 Nurture opportunities and finalize the sale</desc>
-				<path
-   d="M 0,792 H 126 V 729 H 0 Z"
-   class="st6"
-   id="path13" />
-				<path
-   d="M 0,792 H 126 V 729 H 0 v 63"
-   class="st7"
-   id="path14" />
-				<path
-   d="M 9,792 V 729"
-   class="st7"
-   id="path15" />
-				<path
-   d="M 117,792 V 729"
-   class="st7"
-   id="path16" />
-				<text
-   x="17.969999"
-   y="749.70001"
-   class="st2"
-   id="text17">85.45.300 Nurture <tspan
-   x="19.33"
-   dy="1.2em"
-   class="st5"
-   id="tspan16">opportunities and </tspan>					 <tspan
-   x="25.209999"
-   dy="1.2em"
-   class="st5"
-   id="tspan17">finalize the sale</tspan>				</text>
+   id="tspan12">loyalty programs</tspan>				</text>
 			</g>
 		</a>
 		<g
-   id="shape6-30"
-   transform="translate(454.5,-346.5)">
+   id="shape5-23"
+   transform="translate(443.25,-468)">
 			
 			<desc
-   id="desc17">End</desc>
+   id="desc12">End</desc>
 			<path
    d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
    class="st1"
-   id="path17" />
+   id="path13" />
 			<text
    x="33.52"
    y="777.59998"
    class="st2"
-   id="text18">End</text>
+   id="text13">End</text>
 		</g>
 		<g
-   id="shape8-33"
-   transform="translate(132.75,-693)">
+   id="shape7-26"
+   transform="translate(279,-562.5)">
 			
 			<path
-   d="M 0,783 H 82.44"
+   d="m 9,792 v 35.19"
    class="st8"
-   id="path18" />
+   id="path14" />
 		</g>
 		<g
-   id="shape9-39"
+   id="shape8-32"
    transform="translate(279,-670.5)">
 			
 			<path
-   d="m 9,792 v 39.69"
+   d="m 9,792 v 35.19"
    class="st8"
-   id="path19" />
+   id="path15" />
 		</g>
 		<g
-   id="shape10-44"
-   transform="translate(279,-558)">
-			
-			<path
-   d="m 9,792 v 39.69"
-   class="st8"
-   id="path20" />
-		</g>
-		<g
-   id="shape11-49"
-   transform="translate(279,-445.5)">
-			
-			<path
-   d="m 9,792 v 39.69"
-   class="st8"
-   id="path21" />
-		</g>
-		<g
-   id="shape12-54"
-   transform="translate(351,-355.5)">
+   id="shape9-37"
+   transform="translate(121.5,-693)">
 			
 			<path
    d="M 0,783 H 93.69"
    class="st8"
-   id="path22" />
+   id="path16" />
+		</g>
+		<g
+   id="shape10-42"
+   transform="translate(351,-477)">
+			
+			<path
+   d="M 0,783 H 82.44"
+   class="st8"
+   id="path17" />
 		</g>
 	</g>
 </svg>

@@ -1,7 +1,7 @@
 ---
 title: TechTalk Human Resources infrastructure merge
 description: Find a TechTalk video that talks about the infrastructure merge of the Human Resources app with the finance and operations platform.
-ms.date: 09/12/2024
+ms.date: 09/22/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -10,7 +10,7 @@ ai-usage: ai-assisted
 
 # TechTalk: Dynamics 365 Human Resources infrastructure merge
 
-In recent years, the integration of Dynamics 365 Human Resources into the broader ecosystem of finance and operation apps was a significant focus for many organizations. The move started in 2022 and aimed to unify the infrastructure so that businesses can streamline operations by merging their human resources systems with existing finance and operations environments. This article explores the key considerations, challenges, and potential benefits of undertaking such a merge, based on insights shared in a recent TechTalk.  
+The integration of Dynamics 365 Human Resources into the broader ecosystem of finance and operation apps started in 2022. The purpose is to unify the infrastructure so that businesses can streamline operations by merging their human resources systems with existing finance and operations environments. This article explores the key considerations, challenges, and potential benefits of undertaking such a merge, based on insights shared in a TechTalk.  
 
 We based this article on [a TechTalk](https://youtu.be/Du5UOeb4I0I?si=vD4B4E7WDod9km-D) that you can find online in the Dynamics 365 channel on YouTube.  
 
@@ -26,7 +26,7 @@ In this context, the merge refers to the process of migrating Dynamics 365 Human
 
 The process of customer migration typically involves an automated lift-and-shift of the customer database from the human resources standalone infrastructure to the finance and operations infrastructure. Post-migration, businesses can choose to merge their human resources and finance systems into one. This decision is driven by business objectives and isn't mandated by Microsoft, offering flexibility in how and when the merge is executed.
 
-Learn more in the Human Resources documentation at [Dynamics 365 Human Resources infrastructure merge](/dynamics365/human-resources/hr-infrastructure-merge).  
+Learn more in the Human Resources documentation at [Dynamics 365 Human Resources customer merge](/dynamics365/human-resources/hr-cust-migration).  
 
 ### Key benefits of merging systems
 
@@ -48,7 +48,7 @@ Several scenarios were discussed in the TechTalk to illustrate common situations
 
 In another scenario, a company with a strong security protocol might choose to keep HR and finance systems separate to prevent cross-access between data sets. Conversely, if the goal is to have a single environment for all operations, merging the systems could streamline processes and reduce long-term maintenance efforts.
 
-The following image highlights key considerations for merges for each organization. It explains that merging is an organization-specific decision, with the option to maintain two environments or combine them into one. There's no hard deadline for completing a merge, as it isn't mandatory. No other tools are required for merging, and we recommend that you treat the process like an application migration with a complete testing cycle. There are no changes to licensing for Dynamics 365 Human Resources in this context. Check out the latest information at [Licensing](/dynamics365/human-resources/hr-infrastructure-merge#licensing).
+The following image highlights key considerations for merges for each organization. It explains that merging is an organization-specific decision, with the option to maintain two environments or combine them into one. There's no hard deadline for completing a merge, as it isn't mandatory. No other tools are required for merging, and we recommend that you treat the process like an application migration with a complete testing cycle. There are no changes to licensing for Dynamics 365 Human Resources in this context. Check out the latest information at [Dynamics 365 Human Resources customer merge](/dynamics365/human-resources/hr-cust-migration).
 
 :::image type="content" source="media/human-resources-infrastructure-merge-importance.svg" alt-text="A chart with five important things to have in mind as outlined in the text before the image." lightbox="media/human-resources-infrastructure-merge-importance.svg":::
 
@@ -62,7 +62,7 @@ Ultimately, the choice to merge is a strategic decision that should be based on 
 
 You can use the following resources to learn more about Dynamics 365.
 
-- [Dynamics 365 Human Resources infrastructure merge](/dynamics365/human-resources/hr-infrastructure-merge)  
+- [Dynamics 365 Human Resources customer merge](/dynamics365/human-resources/hr-cust-migration)  
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)

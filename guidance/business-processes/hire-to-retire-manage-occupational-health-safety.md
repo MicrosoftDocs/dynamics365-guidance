@@ -1,7 +1,7 @@
 ---
 title: Overview of the Manage workplace compliance business process area
 description: Streamline and enhance safety management processes with Dynamics 365 implementations, improving workplace safety and compliance.
-ms.date: 01/23/2024
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: riblack
@@ -70,35 +70,23 @@ The following diagram illustrates the *Manage workplace compliance* business pro
 
 1. Start
 
-2. *Hire to retire*
+1. *Hire to retire*
 
-3. *Onboard and manage the employee lifecycle*
+1. *Recruit and onboard talent*
 
-4. *Manage workplace compliance*
+1. *Manage workplace compliance*
 
     1. *Identify workplace hazards*
+    1. *Document safety protocols*
+    1. *Audit workplace for safety*
+    1. *Report an injury or illness*
+    1. *Verify employment*
+    1. *Update worker information*
+    1. *Manage cases and requests*
 
-        1. *Document safety protocols, policies, and procedures*
+    A parallel branch connects to *Record to report*, which connects to *Record financial transactions* and has a connection to End.
 
-        2. *Analyze safety conditions*
-
-        3. *Conduct a safety audit*
-
-        4. *Train on safety protocols*
-
-        Each of the subprocesses here includes a parallel connection to *Analyze and communicate about safety* that isn't shown on the diagram.
-
-    2. *Report an injury or illness*
-
-        1. *Seek treatment for an injury or illness*
-
-        2. *Determine the cost of care for injury or illness*
-
-        A parallel branch connects to *Record to report*, which connects to *Record financial transactions* and has a connection to End.
-
-    3. *Analyze and communicate about safety*
-
-5. End
+1. End
 
 ## Manage workplace compliance benefits
 
@@ -132,12 +120,13 @@ If you would like to implement Dynamics 365 solutions to assist with your Manage
 1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
 1. *Manage workplace compliance* (the article you're currently reading)  
 
+    1. *Identify workplace hazards*
     1. *Document safety protocols*
-    1. *Report an injury or illness*
-    1. *Verify employment*  
-    1. *Update worker information*  
-    1. *Manage cases and requests*  
     1. *Audit workplace for safety*
+    1. *Report an injury or illness*
+    1. *Verify employment*
+    1. [Update worker information](hire-to-retire-update-employee-records.md)
+    1. [Manage cases and requests](hire-to-retire-manage-cases-requests.md)  
 
 1. [Manage performance and growth](hire-to-retire-manage-employee-performance-growth.md)
 1. [Manage time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)
@@ -147,7 +136,7 @@ If you would like to implement Dynamics 365 solutions to assist with your Manage
 
 ## Related information
 
-You can use the following resources to learn more about the Manage workplace compliance process in Dynamics 365.
+You can use the following resources to learn more about the *Manage workplace compliance* processes in Dynamics 365.
 
 - [Set up injury and illness information](/dynamics365/human-resources/hr-personnel-set-up-injury-illness-information)
 - [Maintain employee injury and illness information](/dynamics365/human-resources/hr-personnel-maintain-employee-injury-illness-information)
@@ -172,11 +161,3 @@ You can use the following resources to learn more about the Manage workplace com
 Principal author:
 
 - [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) \| Principal Program Manager
-
-<!-- Other contributors:
-
-- \[Contributor's Name\](https://www.linkedin.com/in/contributor-account/) \| Contributor's job title or similar
-
-- \[Contributor's Name\](https://www.linkedin.com/in/contributor-account/) \| Contributor's job title or similar -->
-
-
