@@ -3,7 +3,7 @@ title: Customize Field Service for your unique business needs
 description: Learn how to customize Dynamics 365 Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 06/25/2024
+ms.date: 09/19/2025
 ms.topic: overview
 author: lmasieri
 ms.author: lmasieri
@@ -21,7 +21,7 @@ The following table provides links to documentation that you can use to perform 
 | Work orders | [Create a work order](/dynamics365/field-service/create-work-order) |
 | Scheduling | [Enable an entity for scheduling](/dynamics365/field-service/schedule-new-entity) |
 | Scheduling | [Extend Universal Resource Scheduling with custom resource constraints](/dynamics365/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs) |
-| Scheduling | [Search Resource Availability with Universal Resource Scheduling API](https://www.microsoft.com/dynamics-365/blog/it-professional/2019/05/21/retrieve-resource-availability-with-universal-resource-scheduling-api/) and [How to use the Search Resource Availability API – Universal Resource Scheduling](https://www.microsoft.com/dynamics-365/blog/it-professional/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/) |
+| Scheduling | [Search Resource Availability with Universal Resource Scheduling API](/dynamics365/field-service/search-resource-availability-api) |
 | Scheduling | [Edit work hour calendars by using APIs](/dynamics365/field-service/field-service-work-hours-calendar-api) |
 | Scheduling | [Extend Universal Resource Scheduling actions to use your preferred geospatial data provider](/dynamics365/common-scheduler/developer/use-preferred-geospatial-data-provider) |
 | Schedule board | [Set up booking rules](/dynamics365/field-service/set-up-booking-rules) |

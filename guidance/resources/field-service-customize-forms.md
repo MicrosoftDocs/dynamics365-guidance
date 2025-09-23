@@ -9,14 +9,11 @@ ms.author: lmasieri
 
 # Customize the work order form
 
-While you set up Dynamics 365 Field Service for your organization, you might have to customize the forms that back-office workers such as dispatchers and service managers use to view important information and document their work. IT administrators might customize Field Service forms to ensure that form layouts match your business processes, and that users can capture information that is unique to your business or industry.
+When you set up Dynamics 365 Field Service for your organization, you might need to customize the forms that back-office workers like dispatchers and service managers use to view important information and document their work. IT administrators customize Field Service forms to ensure that form layouts match your business processes and let users capture information unique to your business or industry.
 
-Customizing forms correctly is important for maximizing performance. Form customizations can affect the time that it takes to load forms and save changes. Correct form customization can improve usability. Therefore, users can more easily view and update information.
+Customizing forms correctly is important for maximizing performance. Form customizations affect form load and save times. Proper customization improves usability, making it easier for users to view and update information.
 
-This article explains how to customize the work order form. However, the steps can be used to customize any Field Service web form.
-
-> [!NOTE]
-> To learn how to customize the work order form for the mobile app, go to [Edit the booking and work order form](fs-mobile-change-work-order-booking-form.md).
+This article explains how to customize the work order form for the web app. However, the steps can be used to customize any Field Service web form. To customize the work order form for the mobile app, go to [Edit the booking and work order form](fs-mobile-change-work-order-booking-form.md).
 
 ## Step 1. Understand the default work order form
 
@@ -29,20 +26,20 @@ Before you customize the work order form, make sure that you understand the defa
 
 ### Standard work order process
 
-The default work order form is optimized for the following standard work order process.
+The default work order form supports this standard work order process.
 
 1. A work order is created manually, from a converted case, via an Internet of Things (IoT) alert, from an agreement schedule, or via an integration. By default, newly created work orders have a system status of *Unscheduled*.
 1. Work order details are entered. These details include the account, work order type, location, products, services, service tasks, and any other information that is important.
-1. The work order is scheduled to one or more resources ("frontline workers"). The system status is automatically changed to *Scheduled*.
+1. The work order is scheduled to one or more resources (frontline workers). The system status is automatically changed to *Scheduled*.
 1. A frontline worker views the scheduled work order on their mobile app and travels to the customer location to perform the required work. The system status is changed to *In Progress*. The frontline worker updates information such as the time when they arrived on-site, the service tasks that they completed, and the services and products to bill.
 1. The frontline worker completes the work order. The system status is changed to *Completed*.
 1. The back-office manager or dispatcher reviews the completed work order and verifies that the work was completed and the necessary data was captured. If everything is finished, the system status is changed to *Posted*.
 
-Learn more in [Work order lifecycle and system statuses](/dynamics365/field-service/work-order-status-booking-status).
+Learn more about the [Work order lifecycle and system statuses](/dynamics365/field-service/work-order-status-booking-status).
 
 ### Critical fields
 
-The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, you might want to consider using a different entity/table or creating a new one.
+The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, consider using a different entity/table or create a new one.
 
 - **Work Order Number**
 - **System Status**
@@ -57,7 +54,7 @@ The following fields are critical to the Field Service work order process and ar
 
 The following subgrids are also critical to the Field Service work order process and are highly recommended:
 
-- **Bookable Resource Booking** ("Bookings")
+- **Bookable Resource Booking** (Bookings)
 - **Service Tasks**
 - **Products**
 - **Services**
@@ -75,7 +72,7 @@ If the default work order form is missing fields that you need, create new field
 To learn about best practices, go to [Create and edit Field Service columns](field-service-customize-columns-fields.md).
 
 > [!IMPORTANT]
-> Use caution when you edit default fields. Never delete default fields.
+> Use caution when you edit default fields. Don't delete default fields.
 
 ## Step 4. Start to customize the work order form
 
@@ -101,7 +98,7 @@ The existing work order form is a better choice for scenarios where your organiz
 ### Start to customize the existing work order form
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-1. Select **Tables**.
+1. Select **Tables** and **All**.
 1. Search for and select **Work Order**.
 1. Under **Data experiences**, select **Forms**.
 1. Find the main **Work Order** form.
@@ -132,9 +129,7 @@ Some scenarios might call for a custom work order form. Here are some of the top
 1. Select **Tables**.
 1. Search for and select **Work Order**.
 1. Under **Data experiences**, select **Forms**.
-1. Select **New form** > **Main form**.
-
-    :::image type="content" source="media/field-service-customize-forms/customization-form-create-custom.svg" alt-text="Screenshot showing the list of forms in Power Apps and the New form dropdown menu.":::
+1. Select **New form** > **Main form**. Learn more in [Create a form](/power-apps/maker/model-driven-apps/create-and-edit-forms).
 
 You can also start from a copy of the default form, if you made changes there.
 
@@ -142,14 +137,14 @@ You can also start from a copy of the default form, if you made changes there.
 
 ## Step 5. Hide form tabs, sections, and fields
 
-The next step is to hide unwanted tabs, sections, and fields. We recommend that you *hide* items instead of *removing* them. This approach helps reduce the likelihood of errors. In addition, you can more easily add the items back later if they are needed. Hide items before you rearrange or add fields.
+Hide unwanted tabs, sections, and fields. We recommend that you *hide* items instead of *removing* them. This approach helps reduce the likelihood of errors. You can more easily add the items back later if they are needed. Hide items before you rearrange or add fields.
 
 > [!NOTE]
-> Don't hide [critical fields](#critical-fields). If your organization doesn't plan to use these fields, you might want to consider creating a new entity table.
+> Don't hide [critical fields](#critical-fields). If your organization doesn't plan to use these fields, consider creating a new entity table.
 
 ### Hide unwanted tabs
 
-Tabs run horizontally across the top of the form. Hide tabs that you don't need. You can't hide the summary tab.
+Select the Tree view. Tabs appear horizontally at the top of the form. Hide unnecessary tabs. The summary tab can't be hidden.
 
 :::image type="content" source="media/field-service-customize-forms/customization-form-hide-tab.png" alt-text="Screenshot showing the Hide checkbox selected for a tab in Power Apps.":::
 
@@ -163,7 +158,7 @@ Hide fields that you don't need, unless they are [critical fields](#critical-fie
 
 ### Remove price-related fields if applicable
 
-There is an easy and supported way to remove all price-related fields (such as **Price List** and **Total Amount**) from the work order, work order product, and work order service forms.
+You can easily remove all price-related fields (like **Price List** and **Total Amount**) from the work order, work order product, and work order service forms.
 
 1. Sign in to the Field Service app.
 1. Select the **Settings** area.
@@ -176,7 +171,7 @@ There is an easy and supported way to remove all tax-related fields (such as **T
 
 1. In Field Service, select the **Settings** area.
 1. Under **General**, select **Field Service Settings**.
-1. On the **Work Order / Booking** tab, set the **Calculate Tax** field to *No*. Learn more in [Work Order / Booking settings](/dynamics365/field-service/configure-default-settings#work-order--booking-settings). 
+1. On the **Work Order / Booking** tab, set the **Calculate Tax** field to *No*. Learn more in [Work Order / Booking settings](/dynamics365/field-service/configure-default-settings#work-order--booking-settings).
 
 ## Step 6. Add your custom fields to the form
 
@@ -190,6 +185,7 @@ If you created custom fields (columns) earlier, add them to the form. For the be
 
 In this example, you have a new custom field that is named **Source**. It's a choice-type field that is used to select whether the work order originated from a phone call, email, IoT alert, or agreement, for example. You want to add this custom field to the work order form.
 
+1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. In Power Apps, open the work order form editor.
 1. Select **Component** on the toolbar, and then, in the **Components** pane on the left, select **1-column tab**, **2-column tab**, or **3-column tab**.
 
@@ -206,7 +202,7 @@ In this example, you have a new custom field that is named **Source**. It's a ch
 In scenarios where you need custom fields on an existing tab, create a new section on the tab, and then add your custom fields to the new section.
 
 > [!IMPORTANT]
-> Don't add new custom fields to existing sections. You must create new sections. In addition, avoid adding new sections and custom fields to the first form tab (by default, the summary tab). Custom fields on the first tab cause form load times to be slower.
+> Don't add new custom fields to existing sections. You must create new sections. Avoid adding new sections and custom fields to the first form tab (by default, the summary tab). Custom fields on the first tab cause form load times to be slower.
 
 For example, you created a new section on the **General** tab of the work order form, and you want to add custom fields it.
 
@@ -222,10 +218,10 @@ For help understanding the root cause of slow form load times, use the monitorin
 
 ### Form scripts
 
-The work order form includes form script libraries. Don't edit or remove any out-of-box form libraries.
+The work order form includes script libraries. Don't edit or remove any out-of-the-box form libraries.
 
 When the form is loaded, changed, and saved, many organizations run code scripts to perform validations and run processes. Form scripts can greatly affect aspects of form performance, such as load times. To learn more about best practices, including [running solution checker to test scripts for issues](/power-apps/maker/data-platform/use-powerapps-checker), go to [Write scripts to implement complex business logic](field-service-customize-scripts.md).
 
-## Related information
+## Additional resources
 
 - [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)

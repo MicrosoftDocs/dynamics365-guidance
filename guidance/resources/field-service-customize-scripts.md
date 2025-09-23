@@ -1,7 +1,7 @@
 ---
 title: Write scripts to implement complex business logic
 description: Learn about best practices when implementing custom scripts in Dynamics 365 Field Service.
-ms.date: 06/24/2024
+ms.date: 09/19/2025
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -9,14 +9,14 @@ ms.author: lmasieri
 
 # Write scripts to implement complex business logic
 
-Some implementations of Dynamics 365 Field Service include functionality and complex business logic that go beyond the processes that Field Service offers out of the box. Sometimes, these complexities extend even beyond the platform options, such as workflows and business rules. For complex requirements, developers can create custom code.
+Some Dynamics 365 Field Service implementations include functionality and complex business logic that exceed the out-of-the-box processes. These complexities can sometimes exceed platform options like workflows and business rules. For complex requirements, developers can create custom code.
 
 Implementing complex business logic typically involves writing [plugins](/power-apps/developer/data-platform/plug-ins) on the server side and [JavaScript web resources](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1&preserve-view=true) on the client side.
 
 This article explores these best practices:
 
-- Before you write any scripts, research existing Field Service processes and capabilities.
-- Avoid writing scripts when possible. First try to use platform options such as Power Automate and workflows instead.
+- Research existing Field Service processes and capabilities before writing scripts.
+- Avoid writing scripts when possible. Try using platform options like Power Automate and workflows first.
 - Run scripts asynchronously instead of synchronously.
 - Avoid loading scripts when a form is loaded. Instead, load them only when they are needed.
 - Run solution checker on scripts.
@@ -26,7 +26,7 @@ This article explores these best practices:
 
 ### Plugins
 
-Plugins provide a way to write your own custom functionality on top of Microsoft's event-driven Dynamics 365 platform for almost any process that you can imagine. Plugins act as event handlers and are registered to run on a specific event in Dynamics 365. Plugins are written in either C# or Visual Basic, and they can run in either synchronous mode or asynchronous mode.
+Plugins let you add custom functionality to Microsoft's event-driven Dynamics 365 platform for nearly any process. Plugins act as event handlers registered to run on specific events in Dynamics 365. Plugins are written in either C# or Visual Basic, and they can run in either synchronous mode or asynchronous mode.
 
 Custom plugins can help:
 
@@ -41,7 +41,7 @@ JavaScript provides one way to apply custom business process logic to show data 
 
 ## Step 1. Understand the risks of writing custom scripts
 
-Use caution when you add plugins and JavaScript to your Field Service implementation. Too many scripts and poorly written scripts are the leading causes of poor performance and errors. Write scripts only if the customization is critical to running your Field Service operation.
+Be cautious when adding plugins and JavaScript to your Field Service implementation. Too many or poorly written scripts often cause performance issues and errors. Write scripts only if the customization is critical to running your Field Service operation.
 
 Thoroughly read this article and related content before, while, and after you write and implement scripts.
 
@@ -51,11 +51,11 @@ Before you write a plugin or JavaScript web resource, be sure to check whether F
 
 ## Step 3. Try using platform options first
 
-Before you write a custom script, try to meet your requirement by using platform options such as Power Automate, workflows, and business rules. 
+Before you write a custom script, try to meet your requirement by using platform options such as Power Automate, workflows, and business rules.
 
 If you can't meet your requirement by using platform options, decide whether a workflow can get close enough to help your business. Platform options are more scalable, more supportable, less likely to break during upgrades, and better for performance.
 
-To learn more about how to use platform options, go to [When to use plug-ins vs. workflow?](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1&preserve-view=true#when-to-use-plug-ins-vs-workflow)
+To learn more about platform options, go to [When to use plug-ins vs. workflow?](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1&preserve-view=true#when-to-use-plug-ins-vs-workflow)
 
 ## Step 4. Review best practices before writing plugins or scripts
 
@@ -86,4 +86,4 @@ Many Field Service record types, such as work orders (shown in the following ima
 
 ## JavaScript on the schedule board (booking rules)
 
-Booking rules provide a way to use JavaScript to perform validations on the schedule board. However, as when you use JavaScript on other forms, such as work orders, proceed with caution. Don't create more than one booking rule. Instead, consider using [booking alerts](/dynamics365/field-service/booking-alert) to alert dispatchers about issues.
+Booking rules let you use JavaScript to validate actions on the schedule board. However, as when you use JavaScript on other forms, such as work orders, proceed with caution. Don't create more than one booking rule. Instead, consider using [booking alerts](/dynamics365/field-service/booking-alert) to alert dispatchers about issues.

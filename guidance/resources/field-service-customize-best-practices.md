@@ -1,7 +1,7 @@
 ---
 title: Customization best practices
 description: Learn how to get the most out of your Dynamics 365 Field Service customizations.
-ms.date: 06/25/2024
+ms.date: 09/19/2025
 ms.topic: best-practice
 author: lmasieri
 ms.author: lmasieri
@@ -13,7 +13,7 @@ Follow these best practices to avoid performance, usability, and supportability 
 
 ## Minimize custom fields on forms
 
-System customizers add custom fields to entity forms to capture information that is specific to their industry and business, to run business processes, and to collect information to report on. However, too many custom fields on a form can cause performance issues.
+System customizers add custom fields to entity forms to capture information that is specific to their industry and business, to run business processes, and to collect information to report. However, too many custom fields on a form can cause performance issues.
 
 To avoid performance issues:
 
@@ -24,7 +24,7 @@ To avoid performance issues:
 
 ## Don't change out-of-box web resources, option sets, security roles, or workflows
 
-Don't change or customize out-of-box web resources, option sets, security roles, or workflows. Otherwise, you might cause unintended system behavior.
+Don't change or customize out-of-box web resources, option sets, security roles, or workflows to avoid unintended system behavior.
 
 Organizations that customize these components might not immediately experience issues in their environment. However, changes that Microsoft releases to the customized out-of-box components aren't applied to the top layer of those components. Instead, the specific customized layer overrides all future changes, and those overrides eventually cause unpredictable errors and behavior.
 
@@ -45,30 +45,30 @@ For example, Field Service processes calculate the value of the **Estimated Arri
 
 ## Don't edit option set (choice) values
 
-Editing the option set values of out-of-box fields can cause errors, especially when processes depend on the values of those fields or during upgrades.
+Editing option set values of out-of-box fields can cause errors, especially when processes depend on those values or during upgrades.
 
 To avoid errors:
 
-- Edit only the option set *labels* of out-of-box fields. **Never** edit the option set *values* of these fields.
-- Don't remove any option set choices.
-- Don't add any option set choices.
+- Edit only the option set *labels* of out-of-box fields. **Don't** edit the option set *values* of these fields.
+- Don't remove option set choices.
+- Don't add option set choices.
 
 For example, the Field Service work order includes a **System Status** field by default. This field is an option set (of the *choice* type) and has options such as *Unscheduled*, *Scheduled*, *In progress*, *Completed*, and *Canceled*. Each option has a label and an associated numeric value. System administrators can edit the labels of option sets (such as *Unscheduled*), but they can never edit the numeric value that is associated with the label.
 
 ## Use fewer custom scripts and follow best practices
 
-System customizers write scripts, typically JavaScript web resources, to run business logic. However, custom scripts can cause performance issues, errors, and complications during upgrades.
+System customizers write scripts, typically JavaScript web resources, to run business logic. Custom scripts can cause performance issues, errors, or complications during upgrades.
 
 To avoid these issues:
 
 - Minimize the number of scripts that run on load.
-- Don't write scripts that call lots of data, and don't write multiple scripts that call the same data.
+- Don't write scripts that call lots of data or multiple scripts that call the same data.
 
 The following subsections describe best practices. In addition, follow the form script best practices in [Best practices for developing with Dynamics 365 Customer Engagement](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk).
 
 ### Minimize the number of network requests and the amount of data requested in the OnLoad event
 
-The more network requests are made during a form load, and the more data is downloaded from those requests, the more time it takes to load the form. Request only the minimum amount of data that is needed. In addition, consider caching the data when possible, to avoid requesting data unnecessarily during future form loads.
+The more network requests you make during a form load, and the more data you download from those requests, the longer it takes to load the form. Request only the minimum amount of data that is needed. In addition, consider caching the data when possible, to avoid requesting data unnecessarily during future form loads.
 
 ### Avoid using synchronous network requests
 
@@ -98,20 +98,20 @@ Use XRM APIs to avoid network requests to get user privilege information. [Learn
 
 In the `OnLoad` event, avoid using form scripts that hide form elements. Instead, for form elements that might be hidden, set the default visibility options so that the elements are hidden by default when the form is loaded. Then use scripts in the `OnLoad` event to show the form elements that you want to be visible.
 
-Learn more in the following resources:
+Learn more:
 
 - [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 - [Unsupported customizations](/power-apps/developer/data-platform/supported-customizations#unsupported-customizations)
 
 ## Run solution checker on your scripts
 
-The Power Apps solution checker is a useful tool from Microsoft that checks Power Apps solutions for issues and recommends best practices. These issues include problems with JavaScript, HTML, plugins, and custom workflow activities.
+The Power Apps solution checker checks Power Apps solutions for issues and recommends best practices, including problems with JavaScript, HTML, plugins, and custom workflow activities.
 
-Learn more in the following resources:
+Learn more:
 
-- [Improve component performance, stability and reliability with solution checker](/power-apps/maker/data-platform/use-powerapps-checker)
-- [How to Run and Use the Power Apps Solution Checker](https://carldesouza.com/how-to-run-and-use-the-power-apps-solution-checker/)
-- [Dataverse Solution Checker](https://dynamics-chronicles.com/article/dataverse-solution-checker)
+- [Improve component performance, stability, and reliability with solution checker](/power-apps/maker/data-platform/use-powerapps-checker).
+- [How to Run and Use the Power Apps Solution Checker](https://carldesouza.com/how-to-run-and-use-the-power-apps-solution-checker/).
+- [Dataverse Solution Checker](https://dynamics-chronicles.com/article/dataverse-solution-checker).
 
 ## Use asynchronous workflows instead of synchronous workflows
 
@@ -123,7 +123,7 @@ Field Service and Resource Scheduling include many processes that perform necess
 
 ## Run the Solution Health Hub to detect issues
 
-The Solution Health Hub helps you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. An environment's configuration might change over time through natural system operations. The Solution Health Hub runs rules within an instance to validate the environment's configuration. Some of the rules are specific to Field Service, and you can run them on demand when you encounter an issue. Some rules are automatically triggered when Field Service is installed or updated.
+The Solution Health Hub helps you get a better picture of your environment's state and detect issues with your Dynamics 365 environment. An environment's configuration might change over time through natural system operations. The Solution Health Hub runs rules within an instance to validate the environment's configuration. Some of the rules are specific to Field Service. You can run them on demand when you encounter an issue. Some rules are automatically triggered when Field Service is installed or updated.
 
 To monitor the health of your environment, regularly [run the Solution Health Hub ruleset](/dynamics365/field-service/troubleshoot-field-service-solution-health).
 
