@@ -32,7 +32,7 @@ The following diagram illustrates the *identify and qualify leads* business proc
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/prospect-to-quote-identify-quality-leads-flow.svg" alt-text="Flow diagram for the identify and qualify leads business process area, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-identify-quality-leads-flow.svg":::
+:::image type="content" source="media/prospect-to-quote-identify-qualify-leads-flow.svg" alt-text="Flow diagram for the identify and qualify leads business process area, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-identify-qualify-leads-flow.svg":::
 
 Guided by the upstream *run marketing campaigns* process, this area influences downstream processes such as *pursue opportunities* and *estimate and quote sales*.
 
