@@ -1,7 +1,7 @@
 ---
 title: Overview of the identify and qualify leads business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for identifying and qualifying leads.
-ms.date: 12/07/2023
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -32,30 +32,12 @@ The following diagram illustrates the *identify and qualify leads* business proc
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media/prospect-to-quote-identify-qualify-leads-flow.svg" alt-text="Flow diagram for the identify and qualify leads business process area, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-identify-qualify-leads-flow.svg":::
+:::image type="content" source="media/prospect-to-quote-identify-quality-leads-flow.svg" alt-text="Flow diagram for the identify and qualify leads business process area, which is explained in the paragraph after the image." lightbox="media/prospect-to-quote-identify-quality-leads-flow.svg":::
 
 Guided by the upstream *run marketing campaigns* process, this area influences downstream processes such as *pursue opportunities* and *estimate and quote sales*.
 
-1. **Identify Leads**: Locate potential customers.
-
-    - Marketing campaigns, events, inbound, and referrals.
-    - Automate lead creation.
-
-1. **Disqualify Leads**: Remove non-viable leads.
-
-    - Disqualify and close leads.
-    - Reopen closed leads.
-
-1. **Manage the Lead Identification Process**: Oversee how leads are identified and managed.
-
-    - Configure predictive scoring.
-    - Define the lead experience.
-    - Detect duplicate leads.
-
-1. **Qualify Leads**: Evaluate leads, and move viable leads further along the sales process.
-
-    - Prioritize leads by using predictive scores.
-    - Convert leads to opportunities.
+1. *Manage lead identification process*
+1. *Qualify and disqualify leads*
 
 ## Benefits 
 
@@ -81,21 +63,19 @@ Guided by the upstream *run marketing campaigns* process, this area influences d
 
 Overall, Dynamics 365 provides robust tools for maximizing leads and pipeline growth.
 
-## Next steps 
+## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your business processes for identifying and qualifying leads, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your business processes for identifying and qualifying leads, you can use the following resources and steps to learn more. (Links are added, when articles become available.)
 
-1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
+1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
+1. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
 
-2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-
-3. *Identify and qualify leads* (the article that you're currently reading)
-
-4. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)
-
-5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
-
-6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+    1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)  
+    1. *Identify and qualify leads* (the article that you're currently reading)  
+    1. [Define sales strategy and policies](prospect-to-quote-define-sales-strategy-overview.md)  
+    1. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)  
+    1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)  
+    1. *Analyze sales*
 
 ## Related information
 

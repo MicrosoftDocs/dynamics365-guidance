@@ -1,7 +1,7 @@
 ---
 title: What Is the Dynamics 365 Implementation Portal?
 description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
-ms.date: 01/21/2025
+ms.date: 09/23/2025
 ms.topic: overview
 author: edupont04
 ms.author: edupont
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 The Implementation Portal navigation panel includes the following links:
 
-* Engagements
+* **Engagements**
 
   * Home
   * Projects
@@ -23,12 +23,12 @@ The Implementation Portal navigation panel includes the following links:
   * Nomination (GCC)
   * Nomination
 
-* Telemetry Insights
+* **Telemetry Insights**
   * Set up telemetry
   * Telemetry recommendations
   * Data consent
 
-* Help & Support
+* **Help & Support**
 
   * Knowledge Articles
   * Help
@@ -101,5 +101,4 @@ Select the name of a user to open the user profile page, where you can provide o
 [What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
 [Success By Design](../implementation-guide/success-by-design.md)  
 [Success By Design training](/training/paths/use-success-design/)  
-[Dynamics 365 Implementation Guide](https://www.d365implementationguide.com/books/asvr/#p=i)  
 [Dynamics 365 documentation](/dynamics365/index)  

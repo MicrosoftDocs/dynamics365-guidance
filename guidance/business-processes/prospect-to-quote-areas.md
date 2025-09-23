@@ -1,7 +1,7 @@
 ---
 title: Overview of the Prospect to quote business process areas
 description: Get an overview for each of the business process areas in the prospect to quote end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 11/25/2024
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -20,17 +20,17 @@ Maintain communication, and address concerns throughout the sales process. Dynam
 
 Learn more at [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md).
 
-## Define sales strategy and policies
-
-Set goals and create a plan to achieve sales objectives. With Dynamics 365 Sales, you can define and track sales targets, territories, and quotas. This way, you gain insights into your sales performance and guiding the overall sales process.
-
-Learn more at [Define a sales strategy overview](prospect-to-quote-define-sales-strategy-overview.md).
-
 ## Identify and qualify leads
 
 Find potential customers, and assess their value. Dynamics 365 Sales provides tools for managing and qualifying leads, such as lead scoring and automated workflows. In this way, it helps ensure that your sales team focuses on the most valuable prospects.
 
 Learn more at [Identify and qualify leads overview](prospect-to-quote-identify-qualify-leads.md).
+
+## Define sales strategy and policies
+
+Set goals and create a plan to achieve sales objectives. With Dynamics 365 Sales, you can define and track sales targets, territories, and quotas. This way, you gain insights into your sales performance and guiding the overall sales process.
+
+Learn more at [Define a sales strategy overview](prospect-to-quote-define-sales-strategy-overview.md).
 
 <!-- ## Run marketing campaigns
 
@@ -50,19 +50,24 @@ Create and present quotes or proposals. Dynamics 365 Sales has built-in tools fo
 
 Learn more at [Estimate and quote sales overview](prospect-to-quote-estimate-quote-sales-overview.md).
 
+## Analyze sales
 
-<!-- removed from catalog
-## Analyze service operations
-
-Gain insights from service delivery to improve future sales efforts. While Dynamics 365 Sales primarily focuses on sales processes, it can be integrated with other Dynamics 365 applications such as Customer Service and Field Service to give you a comprehensive view of your service operations. The integrated solution can inform solution development and proposal creation in the prospect-to-quote process. -->
+Gain insights from service delivery to improve future sales efforts. While Dynamics 365 Sales primarily focuses on sales processes, it can be integrated with other Dynamics 365 applications such as Customer Service and Field Service to give you a comprehensive view of your service operations. The integrated solution can inform solution development and proposal creation in the prospect-to-quote process.  
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Prospect to quote* business processes, learn more at the following resources and steps.
+If you want to implement Dynamics 365 solutions to assist with your *Prospect to quote* business processes, learn more at the following resources and steps. (Links are added later, when the articles are ready.)
 
 1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
-2. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
-3. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
+1. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
+
+    1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)  
+    1. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)  
+    1. [Define sales strategy and policies](prospect-to-quote-define-sales-strategy-overview.md)  
+    1. [Pursue opportunities](prospect-to-quote-pursue-opportunities-overview.md)  
+    1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)  
+    1. *Analyze sales*
+1. Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related information
 

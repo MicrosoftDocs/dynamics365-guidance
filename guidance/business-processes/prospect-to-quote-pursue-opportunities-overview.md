@@ -37,15 +37,11 @@ The following diagram illustrates the *pursue opportunities* business process ar
 
 Influenced by the upstream *identify and qualify leads* process, this area affects downstream processes such as *Estimate and quote sales* and *Order to cash*.
 
-1. **Manage Opportunity Process**: Start new potential deals.
+1. *Identify opportunity*
 
-    - Add products, competitors, and stakeholders.
+1. *Manage opportunity process*
 
-1. **Nurture and Manage Opportunities**: Develop and oversee existing opportunities.
-
-    - Develop an opportunity nurturing plan.
-    - Track engagement activities, and update status.
-    - Prioritize opportunities based on the likelihood of closure.
+1. *Nurture opportunities and finalize the sale*
 
 ## Benefits
 
@@ -75,19 +71,17 @@ Overall, Dynamics 365 enables organizations to maximize the potential of every c
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your business processes for pursuing opportunities, use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to help with your business processes for pursuing opportunities, use the following resources and steps to learn more. (Links are added, when articles become available.)
 
-1. [Define sales strategies](prospect-to-quote-define-sales-strategy-overview.md)
+1. [Prospect to quote introduction](prospect-to-quote-introduction.md)
+1. [Prospect to quote end-to-end overview](prospect-to-quote-overview.md)
 
-2. [Run marketing campaigns](prospect-to-quote-run-marketing-campaigns-overview.md)
-
-3. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)
-
-4. *Pursue opportunities* (the article that you're currently reading)
-
-5. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)
-
-6. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)
+    1. [Manage customer relationships](prospect-to-quote-manage-customer-relationships.md)  
+    1. [Identify and qualify leads](prospect-to-quote-identify-qualify-leads.md)  
+    1. [Define sales strategy and policies](prospect-to-quote-define-sales-strategy-overview.md)  
+    1. *Pursue opportunities* (the article that you're currently reading)  
+    1. [Estimate and quote sales](prospect-to-quote-estimate-quote-sales-overview.md)  
+    1. *Analyze sales*
 
 ## Related information
 
@@ -98,15 +92,15 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 - [Prioritize opportunities through predictive scores](/dynamics365/sales/work-predictive-opportunity-scoring)
 - Find definitions of terminology that is used in content for *pursue opportunities* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Opportunity](glossary.md#opportunity)
-    - [Lead and opportunity management](glossary.md#lead-and-opportunity-management)
-    - [Customer journey](glossary.md#customer-journey)
-    - [Customer Relationship Management (CRM)](glossary.md#customer-relationship-management-crm)
-    - [Customer lifetime value (CLV)](glossary.md#customer-lifetime-value-clv)
-    - [Customer satisfaction (CSAT)](glossary.md#customer-satisfaction-csat)
-    - [Churn](glossary.md#churn)
-    - [Upsell](glossary.md#upsell)
-    - [Win/loss analysis](glossary.md#winloss-analysis)
+  - [Opportunity](glossary.md#opportunity)
+  - [Lead and opportunity management](glossary.md#lead-and-opportunity-management)
+  - [Customer journey](glossary.md#customer-journey)
+  - [Customer Relationship Management (CRM)](glossary.md#customer-relationship-management-crm)
+  - [Customer lifetime value (CLV)](glossary.md#customer-lifetime-value-clv)
+  - [Customer satisfaction (CSAT)](glossary.md#customer-satisfaction-csat)
+  - [Churn](glossary.md#churn)
+  - [Upsell](glossary.md#upsell)
+  - [Win/loss analysis](glossary.md#winloss-analysis)
 
 <!-- 
 ## Tags

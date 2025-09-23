@@ -163,8 +163,8 @@ items:
                     href: business-processes/hire-to-retire-manage-occupational-health-safety.md
                   - name: Update worker information
                     href: business-processes/hire-to-retire-update-employee-records.md
-                  - name: Terminate employee
-                    href: business-processes/hire-to-retire-onboard-terminate-employment.md
+                  - name: Manage cases and requests
+                    href: business-processes/hire-to-retire-manage-cases-requests.md
               - name: Manage performance and growth
                 items:
                   - name: Manage performance and growth overview
@@ -178,9 +178,15 @@ items:
                   - name: Manage employee travel
                     href: business-processes/hire-to-retire-manage-travel-expenses.md
               - name: Manage compensation and benefits
+                # items:
+                #   - name: Manage compensation and benefits overview
+                href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+              - name: Offboard talent
                 items:
-                  - name: Manage compensation and benefits overview
-                    href: business-processes/hire-to-retire-manage-employee-benefits-payroll.md
+                  # - name: Offboard talent overview
+                  #   href: business-processes/hire-to-retire-offboard-employees-overview.md
+                  - name: Terminate workers
+                    href: business-processes/hire-to-retire-onboard-terminate-employment.md
           - name: Inventory to deliver
             items:
               - name: End-to-end scenario - inventory to deliver (ID 60)

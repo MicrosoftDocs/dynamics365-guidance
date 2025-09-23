@@ -1,7 +1,7 @@
 ---
 title: Overview of the Update worker information business process 
 description: Discover how the Update worker information business process can help you optimize and foster a productive work environment.
-ms.date: 05/22/2025
+ms.date: 09/23/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -14,43 +14,46 @@ This article describes the background of *Update worker information* in Dynamics
 
 Once a candidate is selected and hired, Dynamics 365 Human Resources helps in maintaining all relevant worker information from the point of hire until the employee leaves your organization.
 
-The purpose of the *Update worker information* process is to have all employee data available that is required based on relevancy and business policy. In Dynamics 365 Human Resources, you can manage the employee's journey in the organization in an efficient way. This not only saves time and resources but also contributes to better employee performance and satisfaction.
-
-When employees are hired, Dynamics 365 Human Resources allows you to maintain extensive worker information from *hire to retire*. This includes administering organizational structures, defining and administering benefit and compensation plans, and enrolling workers in them.
-
-When employees are hired, Dynamics 365 Human Resources can bring all employee data together to offer useful people analytics and advice powered by Microsoft's top business intelligence and AI technology. This helps businesses reduce workforce expenses and support employees better.
-
-Defining the business process for *Update worker information* in Dynamics 365 Human Resources involves several key stakeholders.
+The purpose of the *Update worker information* process is to have all employee data available that is required based on relevancy and business policy. In Dynamics 365 Human Resources, you can manage the employee's journey in the organization in an efficient way. This not only saves time and resources but also contributes to better employee performance and satisfaction. When employees are hired, Dynamics 365 Human Resources helps you maintain worker information from *hire to retire*, including organizational structure, benefits and compensation plans, and worker enrollment.  
 
 ## Stakeholders
 
-Find the key stakeholders that could be relevant for *Updating employee records*:
+Defining the business process for *Update worker information* in Dynamics 365 Human Resources involves several key stakeholders.
 
-- **Human resources managers** play a crucial role in defining the organizational structure, planning, and managing the employee lifecycle. They define and manage hiring needs, employee benefits, compensation plans, and other human resource processes.
+- Human resources managers play a crucial role in defining the organizational structure, planning, and managing the employee lifecycle. They define and manage hiring needs, employee benefits, compensation plans, and other human resource processes.
 
-- **Recruiters** are responsible for sourcing and recruiting qualified candidates. They use Dynamics 365 Human Resources to manage recruitment projects and streamline communications between departments.
+- Recruiters are responsible for sourcing and recruiting qualified candidates. They use Dynamics 365 Human Resources to manage recruitment projects and streamline communications between departments.
 
-- **Hiring managers** request positions, participate in the recruitment process, and make final hiring decisions.
+- Hiring managers request positions, participate in the recruitment process, and make the final hiring decisions.
 
-- **IT team** is responsible for maintaining and supporting various IT systems and also managing the IT hardware that employees receive.
+- The IT team is responsible for maintaining and supporting various IT systems and also managing the IT hardware that employees receive.
 
-- **Learning and development team** supports the goal and performance management process by creating performance reviews, tracking feedback, and setting up courses for employee learning.
+- The learning and development team supports the goal and performance management process by creating performance reviews, tracking feedback, and setting up courses for employee learning.
 
-- **Finance team members** are involved in defining and supporting finance-related processes such as managing the general ledger and processing invoices and vendor payments.
+- Finance team members are involved in defining and supporting finance-related processes such as managing the general ledger and processing invoices and vendor payments.
 
-- **Other department team members** are involved in managing different business processes of the customer based on the industry, such as supply chain, manufacturing, and so on.
+- Other department team members are involved in managing different business processes of the customer based on the industry, such as supply chain, manufacturing, and so on.
 
-- **Employees** are all the end users involved with the business process in a self-service capacity, updating information related to themselves or approving work items assigned to them.
+- Employees are all the end users involved with the business process in a self-service capacity, updating information related to themselves or approving work items assigned to them.
 
-- **Managers** are the end users involved with the business process in the capacity of managing a team and working with the team's information, including performance reviews, leave and absence, timesheets, approvals, and more.
+- Managers are the end users involved with the business process in the capacity of managing a team and working with the team's information, including performance reviews, leave and absence, timesheets, approvals, and more.
 
 ## Update worker information process flow
 
-The following diagram illustrates the Update worker information process area.
+The following diagram illustrates the *Update worker information* business process with the **HR Manager** as the user role.
 
-:::image type="content" source="media/hire-to-retire-update-employee-records-flow.svg" alt-text="Shows four boxes with lists of steps as outlined after the flow diagram." lightbox="media/hire-to-retire-update-employee-records-flow.svg":::
+:::image type="content" source="media/hire-to-retire-update-worker-information-flow.svg" alt-text="Flow diagram with steps for the process that is explained further in the next paragraphs." lightbox="media/hire-to-retire-update-worker-information-flow.svg":::
 
-1. Update worker information
+1. *Receive update request*.
+1. *Verify update request*.
+1. *Update information*.
+1. *Document updates*.
+1. *Communicate updates*.
+1. End.
+
+<!-- :::image type="content" source="media/hire-to-retire-update-employee-records-flow.svg" alt-text="Shows four boxes with lists of steps as outlined after the flow diagram." lightbox="media/hire-to-retire-update-employee-records-flow.svg"::: -->
+
+<!-- '1. Update worker information
 
     1. Complete and capture address information
     2. Complete and capture contact and family information
@@ -66,7 +69,7 @@ The following diagram illustrates the Update worker information process area.
 
 1. Update personal data
     1. Add and maintain family information
-    2. Add and maintain name details
+    2. Add and maintain name details' -->
 
 ## Implementing the Update worker information process
 
@@ -104,39 +107,35 @@ Find content about setting up your HR processes in Dynamics 365 Human Resources 
 
 If you want to implement Dynamics 365 solutions to assist with your *Update worker information* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Plan and recruit your workforce](hire-to-retire-plan-recruit-workforce-overview.md)  
+- [Develop people strategy](/dynamics365/guidance/business-processes/hire-to-retire-plan-recruit-workforce-overview)
 
-2. [Onboard and manage the employee lifecycle](hire-to-retire-onboard-manage-employee-lifecycle.md)  
+- [Recruit and onboard talent](/dynamics365/guidance/business-processes/hire-to-retire-onboard-manage-employee-lifecycle)
 
-    - [Hire an employee](hire-to-retire-onboard-hire-employees.md)  
+- [Manage workplace compliance](/dynamics365/guidance/business-processes/hire-to-retire-manage-occupational-health-safety)
 
-    - [Onboard new hires](hire-to-retire-onboard-new-hires.md)  
+  - *Document safety protocols*
 
-    - *Update worker information* (the article you're currently reading)
+  - *Audit workplace for safety*
 
-    - Create and manage teams
+  - *Report an injury or illness*
 
-    - Communicate issue and changes with HR
+  - *Verify employment*
 
-    - [Transfer employee](hire-to-retire-onboard-transfer-employees.md)  
+  - *Update worker information* (the article you're currently reading)
 
-    - Generate employment verification letters
+  - [Manage cases and requests](hire-to-retire-manage-cases-requests.md)
 
-    - Employee relocation
+- [Manage performance and growth](/dynamics365/guidance/business-processes/hire-to-retire-manage-employee-performance-growth)
 
-    - [Terminate employee](hire-to-retire-onboard-terminate-employment.md)  
+- [Manage time and attendance](/dynamics365/guidance/business-processes/hire-to-retire-manage-employee-time-attendance-overview)
 
-3. [Manage occupational health and safety](hire-to-retire-manage-occupational-health-safety.md)  
+- [Manage compensation and benefits](/dynamics365/guidance/business-processes/hire-to-retire-manage-employee-benefits-payroll)
 
-4. [Manage employee performance and growth](hire-to-retire-manage-employee-performance-growth.md)  
+- *Offboard talent*
 
-5. [Manage employee time and attendance](hire-to-retire-manage-employee-time-attendance-overview.md)  
+- *Analyze HR programs*
 
-6. [Manage travel and expenses](hire-to-retire-manage-travel-expenses.md)  
-
-7. [Manage employee benefits, compensation, and payroll](hire-to-retire-manage-employee-benefits-payroll.md)  
-
-## Related patterns
+<!-- ## Related patterns
 
 The following patterns are available to help guide your implementation of the *Update worker information* business process. (Links are added when the articles are ready.)
 
@@ -156,7 +155,7 @@ The following patterns are available to help guide your implementation of the *U
 
 - Request new worker
 
-- Request to recruit for a new position
+- Request to recruit for a new position -->
 
 ## Related information
 
@@ -180,14 +179,14 @@ You can use the following resources to learn more about the *Update worker infor
 
 Principal author:
 
-- Kamal Radhakrishnaiah ([LinkedIn](https://www.linkedin.com/in/kamal-radhakrishnaiah-5816aa69/)) \| Solution Architect
+- [Kamal Radhakrishnaiah](https://www.linkedin.com/in/kamal-radhakrishnaiah-5816aa69/) \| Solution Architect
 
-- Geert-Jan Jansen ([LinkedIn](https://www.linkedin.com/in/geert-jan-jansen-b468b411/)) \| Senior Solutions Manager
+- [Geert-Jan Jansen](https://www.linkedin.com/in/geert-jan-jansen-b468b411/) \| Senior Solutions Manager
 
 Other contributors:
 
-- Ajit Chandran ([LinkedIn](https://www.linkedin.com/in/ajit-chandran-32757172/)) \| Senior Product Manager
+- [Ajit Chandran](https://www.linkedin.com/in/ajit-chandran-32757172/) \| Senior Product Manager
 
-- Priyanka Sinha ([LinkedIn](https://www.linkedin.com/in/priyanka-sinha-726b1314/)) \| Senior Solution Architect
+- [Priyanka Sinha](https://www.linkedin.com/in/priyanka-sinha-726b1314/) \| Senior Solution Architect
 
 - Viacheslav Drobkov \| Senior Consultant

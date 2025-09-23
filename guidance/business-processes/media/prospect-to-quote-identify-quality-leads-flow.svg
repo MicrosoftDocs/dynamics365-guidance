@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="54 94 464 270"
+   xml:space="preserve"
+   color-interpolation-filters="sRGB"
+   class="st10"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="prospect-to-quote-identify-quality-leads-flow.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview18"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="6.5711207"
+   inkscape:cx="232"
+   inkscape:cy="135.06068"
+   inkscape:window-width="3840"
+   inkscape:window-height="2054"
+   inkscape:window-x="2869"
+   inkscape:window-y="-11"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg18" />
+	<style
+   type="text/css"
+   id="style1"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#ffffff}
+		.st4 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {font-size:1em}
+		.st6 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st7 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st8 {marker-end:url(#mrkr13-31);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style
+   id="style2"> a { pointer-events: none; } </style><style
+   id="style3">a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs
+   id="Markers">
+		<g
+   id="lend13">
+			<path
+   d="M 3 1 L 0 0 L 3 -1 L 3 1 "
+   style="stroke:none"
+   id="path3" />
+		</g>
+		<marker
+   id="mrkr13-31"
+   class="st9"
+   refX="-13.08"
+   orient="auto"
+   markerUnits="strokeWidth"
+   overflow="visible">
+			<use
+   xlink:href="#lend13"
+   transform="scale(-4.36,-4.36) "
+   id="use3" />
+		</marker>
+	</defs>
+	<g
+   id="g18"
+   transform="matrix(1.0000004,0,0,0.99774576,-1.1794744e-4,-0.09124079)">
+		
+		<g
+   id="shape1-1"
+   transform="translate(54,-648)">
+			
+			<desc
+   id="desc3">Start</desc>
+			<path
+   d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
+   class="st1"
+   id="path4" />
+			<text
+   x="31.01"
+   y="777.59998"
+   class="st2"
+   id="text4">Start</text>
+		</g>
+		<a
+   id="420cc7b0-9e5f-4bd8-b30c-2470942c0709"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTF2NDA4MScsMjUzMDcsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape2-4"
+   transform="translate(216,-531)">
+				
+				<desc
+   id="desc4">85.25.100 Manage lead identification process</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st3"
+   id="path5" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st4"
+   id="path6" />
+				<path
+   d="M 9,792 V 729"
+   class="st4"
+   id="path7" />
+				<path
+   d="M 117,792 V 729"
+   class="st4"
+   id="path8" />
+				<text
+   x="17.49"
+   y="749.70001"
+   class="st2"
+   id="text9">85.25.100 Manage <tspan
+   x="18.879999"
+   dy="1.2em"
+   class="st5"
+   id="tspan8">lead identification </tspan>					 <tspan
+   x="44.380001"
+   dy="1.2em"
+   class="st5"
+   id="tspan9">process</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="530dffd4-7a82-432f-bf00-6b7b2bfcce06"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NDR2NDA4MScsMjUzMDYsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape3-12"
+   transform="translate(216,-634.5)">
+				
+				<desc
+   id="desc9">85.25 Identify and qualify leads</desc>
+				<rect
+   x="0"
+   y="729"
+   width="126"
+   height="63"
+   class="st6"
+   id="rect9" />
+				<text
+   x="18.690001"
+   y="756.90002"
+   class="st7"
+   id="text10">85.25 Identify and <tspan
+   x="32.43"
+   dy="1.2em"
+   class="st5"
+   id="tspan10">qualify leads</tspan>				</text>
+			</g>
+		</a>
+		<a
+   id="e7376029-1549-4190-bf0b-362d8fdb4ef1"
+   class="rules_svg_anchor rules_svg_shape"
+   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTJ2NDA4MScsMjUzMDgsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g
+   id="shape5-16"
+   transform="translate(216,-427.5)">
+				
+				<desc
+   id="desc10">85.25.200 Qualify and disqualify leads</desc>
+				<path
+   d="M 0,792 H 126 V 729 H 0 Z"
+   class="st3"
+   id="path10" />
+				<path
+   d="M 0,792 H 126 V 729 H 0 v 63"
+   class="st4"
+   id="path11" />
+				<path
+   d="M 9,792 V 729"
+   class="st4"
+   id="path12" />
+				<path
+   d="M 117,792 V 729"
+   class="st4"
+   id="path13" />
+				<text
+   x="19.959999"
+   y="756.90002"
+   class="st2"
+   id="text13">85.25.200 Qualify <tspan
+   x="15.02"
+   dy="1.2em"
+   class="st5"
+   id="tspan13">and disqualify leads</tspan>				</text>
+			</g>
+		</a>
+		<g
+   id="shape6-23"
+   transform="translate(432,-441)">
+			
+			<desc
+   id="desc13">End</desc>
+			<path
+   d="m 18,792 h 49.5 a 18,18 -180 0 0 0,-36 H 18 a 18,18 -180 1 0 0,36 z"
+   class="st1"
+   id="path14" />
+			<text
+   x="33.52"
+   y="777.59998"
+   class="st2"
+   id="text14">End</text>
+		</g>
+		<g
+   id="shape7-26"
+   transform="translate(139.5,-657)">
+			
+			<path
+   d="M 0,783 H 66.69"
+   class="st8"
+   id="path15" />
+		</g>
+		<g
+   id="shape8-32"
+   transform="translate(270,-634.5)">
+			
+			<path
+   d="m 9,792 v 30.69"
+   class="st8"
+   id="path16" />
+		</g>
+		<g
+   id="shape9-37"
+   transform="translate(270,-531)">
+			
+			<path
+   d="m 9,792 v 30.69"
+   class="st8"
+   id="path17" />
+		</g>
+		<g
+   id="shape10-42"
+   transform="translate(342,-450)">
+			
+			<path
+   d="M 0,783 H 80.19"
+   class="st8"
+   id="path18" />
+		</g>
+	</g>
+</svg>

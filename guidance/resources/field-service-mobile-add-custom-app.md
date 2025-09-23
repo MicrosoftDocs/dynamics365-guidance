@@ -2,7 +2,7 @@
 title: Add a custom app module to the Field Service mobile app
 description: Learn how to create a custom app module for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 09/08/2025
+ms.date: 09/23/2025
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -37,7 +37,7 @@ After creating the custom app module, make it available in the Field Service mob
 
 1. Under **General**, expand **Advanced settings**.
 
-   :::image type="content" source="media/field-service-customize-forms/field-service-mobile-primary-player.jpg" alt-text="Screenshot of the primary mobile player in Power Apps." :::
+   :::image type="content" source="media/field-service-mobile-primary-player.jpg" alt-text="Screenshot of the primary mobile player in Power Apps." :::
 
 1. Set **Primary Mobile Player** to *Field Service (Dynamics 365)*.
 
@@ -48,6 +48,6 @@ To access the custom app, sign in to the Field Service mobile app and select the
 > [!NOTE]
 > If you don't see the app module:
 >
-> - Make sure users have a [predefined security role](/power-platform/admin/database-security) in the environment where the app is located. If a predefined security role is assigned to a user through a Dataverse team, use a Microsoft Entra ID group team. Users can't see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
-> - Check the roles assigned to the app module and ensure the user accessing it has the same role.
-> - In sandbox environments, ensure "Show non-production apps" is enabled in the mobile app.
+> - Make sure users have a [predefined security role](/power-platform/admin/database-security) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use a Microsoft Entra ID group team. Users don't see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
+> - Check the roles assigned to the app module and ensure the user accessing the app module has the same role.
+> - In sandbox environments, make sure **Show non-production apps** is enabled in the mobile app.

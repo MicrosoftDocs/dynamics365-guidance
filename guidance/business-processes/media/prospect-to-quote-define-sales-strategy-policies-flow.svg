@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"    viewBox="36 49 509 513"    xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+	<style type="text/css"><![CDATA[
+		.st1 {fill:#ffffff;stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {fill:#0078d4;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st5 {font-size:1em}
+		.st6 {fill:#ffffff}
+		.st7 {stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {marker-end:url(#mrkr13-53);stroke:#0078d4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:#0078d4;fill-opacity:1;stroke:#0078d4;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style><style> a { pointer-events: none; } </style><style>a.rules_svg_anchor g:hover { opacity:0.8; cursor:pointer; }</style>
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none" />
+		</g>
+		<marker id="mrkr13-53" class="st9" refX="-13.08" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.36,-4.36) " />
+		</marker>
+	</defs>
+	<g>
+		
+		<g id="shape1-1" transform="translate(36,-693.818)">
+			
+			<desc>Start</desc>
+			<path d="M18 792 L67.5 792 A18 18 -180 0 0 67.5 756 L18 756 A18 18 -180 1 0 18 792 Z" class="st1" />
+			<text x="31.01" y="777.6" class="st2">Start</text>
+		</g>
+		<a id="0f653040-07db-4840-ac2c-480f4e123d02" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NDV2NDA4MScsMjUzMDksIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape2-4" transform="translate(207,-680.318)">
+				
+				<desc>85.35 Define sales strategy and policies</desc>
+				<rect x="0" y="729" width="126" height="63" class="st3" />
+				<text x="18.66" y="756.9" class="st4">85.35 Define sales <tspan x="12.93" dy="1.2em" class="st5">strategy and policies</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="7880ac48-a23b-407d-b9c7-c8c47bfb9c0d" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTN2NDA4MScsMjUzMTAsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape3-8" transform="translate(207,-590.318)">
+				
+				<desc>85.35.100 Define sales process</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="21.3" y="756.9" class="st2">85.35.100 Define <tspan x="31.09" dy="1.2em" class="st5">sales process</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="f8ec10fa-ea83-40e8-930a-c853ba3bde3b" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTR2NDA4MScsMjUzMTEsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape4-15" transform="translate(207,-500.318)">
+				
+				<desc>85.35.200 Define sales teams</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="21.3" y="756.9" class="st2">85.35.200 Define <tspan x="34.7" dy="1.2em" class="st5">sales teams</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="076a79b0-4442-4cff-87e3-ef4bebb48157" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTV2NDA4MScsMjUzMTIsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape5-22" transform="translate(207,-410.318)">
+				
+				<desc>85.35.300 Define sales channels</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="21.3" y="756.9" class="st2">85.35.300 Define <tspan x="28.14" dy="1.2em" class="st5">sales channels</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="f9c97ede-c82d-4159-a025-608f8916f5fa" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTZ2NDA4MScsMjUzMTMsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape6-29" transform="translate(207,-320.318)">
+				
+				<desc>85.35.400 Determine sales targets</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="11.26" y="756.9" class="st2">85.35.400 Determine <tspan x="32.57" dy="1.2em" class="st5">sales targets</tspan>
+				</text>
+			</g>
+		</a>
+		<a id="2938f78a-b5ad-4d2f-b6ea-92b4f79da283" class="rules_svg_anchor rules_svg_shape"   href="/lms/chart?onclick=b3BlbkNoYXJ0Q29udGV4dE1lbnUoZXZlbnQsJ3cxMzJkNTIzNTk2NWMxNzM0NTd2NDA4MScsMjUzMTQsIDEsIDEsIHRoaXMsIHdpbmRvdy5mcmFtZUVsZW1lbnQp&amp;navigate=true&amp;details=Description">
+			<g id="shape7-36" transform="translate(207,-230.318)">
+				
+				<desc>85.35.500 Establish sales commission and incentive structures</desc>
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792 Z" class="st6" />
+				<path d="M0 792 L126 792 L126 729 L0 729 L0 792" class="st7" />
+				<path d="M9 792 L9 729" class="st7" />
+				<path d="M117 792 L117 729" class="st7" />
+				<text x="15.76" y="742.5" class="st2">85.35.500 Establish <tspan x="20.66" dy="1.2em" class="st5">sales commission </tspan>
+					<tspan x="30.18" dy="1.2em" class="st5">and incentive </tspan>
+					<tspan x="38.28" dy="1.2em" class="st5">structures</tspan>
+				</text>
+			</g>
+		</a>
+		<g id="shape8-45" transform="translate(459,-243.818)">
+			
+			<desc>End</desc>
+			<path d="M18 792 L67.5 792 A18 18 -180 0 0 67.5 756 L18 756 A18 18 -180 1 0 18 792 Z" class="st1" />
+			<text x="33.52" y="777.6" class="st2">End</text>
+		</g>
+		<g id="shape10-48" transform="translate(261,-320.318)">
+			
+			<path d="M9 792 L9 809.19" class="st8" />
+		</g>
+		<g id="shape11-54" transform="translate(261,-410.318)">
+			
+			<path d="M9 792 L9 809.19" class="st8" />
+		</g>
+		<g id="shape12-59" transform="translate(261,-500.318)">
+			
+			<path d="M9 792 L9 809.19" class="st8" />
+		</g>
+		<g id="shape13-64" transform="translate(261,-590.318)">
+			
+			<path d="M9 792 L9 809.19" class="st8" />
+		</g>
+		<g id="shape14-69" transform="translate(261,-680.318)">
+			
+			<path d="M9 792 L9 809.19" class="st8" />
+		</g>
+		<g id="shape15-74" transform="translate(121.5,-702.818)">
+			
+			<path d="M0 783 L75.69 783" class="st8" />
+		</g>
+		<g id="shape16-79" transform="translate(333,-252.818)">
+			
+			<path d="M0 783 L116.19 783" class="st8" />
+		</g>
+	</g>
+</svg>

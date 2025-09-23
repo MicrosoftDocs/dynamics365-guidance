@@ -4,7 +4,7 @@ description: Learn why training users is vital for successful adoption of Dynami
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: overview
-ms.date: 06/25/2024
+ms.date: 09/23/2025
 ai-usage: ai-assisted
 ---
 
@@ -62,41 +62,20 @@ The following diagram illustrates the *train users and increase adoption* busine
 
 1. Start
 
-    Parallel branches from Start include:
-
-    1. *Forecast to plan* and *Hire to retire* shown on the left side of the graphic
-    1. Below *Forecast to plan* is a connection to *Define strategic and operational plan* process area, which connects to *Identify training needs*
-    1. Below *Hire to retire* is a connection to *Onboard and manage the employee lifecycle*, which connects to *Manage employee performance and growth* process area
-    1. *Onboard and manage the employee lifecycle* has a parallel connection to *Conduct training*
-    1. *Manage employee performance and growth* has parallel connections to *Conduct training* and *Provide ongoing (training) support*
-
 1. *Administer to operate*
 
 1. *Manage system access and security*
 
     A parallel branch connects to *Uptake software releases* and *Support systems* process areas. Each of these process areas connect to *Identify training needs*
 
-1. *Train users and increase adoption*
-
-1. *Identify training needs*
-
-1. *Develop training materials*
-
-1. *Plan training delivery*
-
-1. *Conduct training*
-
-    A parallel branch connects to the downstream process for *Onboard and manage the employee lifecycle* shown under the *Hire to retire* end-to-end process
-
-1. *Provide ongoing (training) support*
-
-1. *Measure training and adoption success*
-
-    A parallel branch connects to the downstream process for *Manage employee performance and growth*, which is shown below the *Hire to retire* end-to-end process and the *Onboard and manage the employee lifecycle* process area.
-
-1. *Refine training programs*
-
-    Parallel branches connect to *Monitor systems, environments, and capacity*, *Manage system compliance*, and *Support systems*, which are connected sequentially under the *Administer to operate* downstream end-to-end process. Additionally, parallel branches connect to *Onboard and manage the employee lifecycle* and *Manage employee performance and growth*, which are shown under the *Hire to retire* end-to-end process.
+    1. *Develop training strategy*  
+    1. *Identify training needs*  
+    1. *Develop training materials*  
+    1. *Plan training delivery*  
+    1. *Conduct training*  
+    1. *Provide ongoing support*  
+    1. *Measure adoption and success*  
+    1. *Refine the training program*  
 
 1. End
 
