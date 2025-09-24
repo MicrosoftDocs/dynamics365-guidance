@@ -21,7 +21,7 @@ Eligible customers benefit from FastTrack for the following Dynamics 365 busines
 - Built-in agents in Dynamics 365 apps
 - Copilot in Dynamics 365 
 
-Associated Power Platform workloads (Power Apps, Power Automate, Power Pages) will be considered if Dynamics 365 is the primary focus of the engagement. All other eligibility criteria must be met.
+Associated Power Platform workloads (Power Apps, Power Automate, Power Pages) are considered if Dynamics 365 is the primary focus of the engagement. All other eligibility criteria must be met.
 
 To be eligible, customers must:  
 
