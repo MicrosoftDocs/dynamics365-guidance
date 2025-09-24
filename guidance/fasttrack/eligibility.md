@@ -17,17 +17,11 @@ Eligible customers can take advantage of FastTrack services that are based on [S
 
 Eligible customers benefit from FastTrack for the following Dynamics 365 business applications:  
 
-- Dynamics 365 Commerce  
-- Dynamics 365 Customer Insights
-- Dynamics 365 Customer Service  
-- Dynamics 365 Field Service  
-- Dynamics 365 Finance  
-- Dynamics 365 Human Resources  
-- Dynamics 365 Project Operations  
-- Dynamics 365 Sales  
-- Dynamics 365 Supply Chain Management  
-- Microsoft Copilot for Sales  
-- Microsoft Copilot for Service  
+- Dynamics 365 apps as delivered by Microsoft
+- Built-in agents in Dynamics 365 apps
+- Copilot in Dynamics 365 
+
+Associated Power Platform workloads (Power Apps, Power Automate, Power Pages) are considered if Dynamics 365 is the primary focus of the engagement. All other eligibility criteria must be met.
 
 To be eligible, customers must:  
 
