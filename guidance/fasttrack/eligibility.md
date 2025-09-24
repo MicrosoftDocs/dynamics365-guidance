@@ -17,11 +17,11 @@ Eligible customers can take advantage of FastTrack services that are based on [S
 
 Eligible customers benefit from FastTrack for the following Dynamics 365 business applications:  
 
-- Dynamics 365 1st Party Apps  
-- Dynamics 365 1st Party Agents
-- Dynamics 365 1st Party CoPilots 
+- Dynamics 365 apps as delivered by Microsoft
+- Built-in agents in Dynamics 365 apps
+- Copilot in Dynamics 365 
 
-Other Power Platform workloads (Power Apps, Power Automate, Power Pages) associated will be considered if Dynamics 365 is the primary focus of the engagement. All other eligibility criteria must be met.
+Associated Power Platform workloads (Power Apps, Power Automate, Power Pages) will be considered if Dynamics 365 is the primary focus of the engagement. All other eligibility criteria must be met.
 
 To be eligible, customers must:  
 
