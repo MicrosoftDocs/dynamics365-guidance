@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 09/09/2025
+  ms.date: 09/26/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -62,6 +62,16 @@ landingContent:
         - text: Copilot for Service and Copilot Studio with existing CCaaS and CRM
           url: contact-center-existing-crm-ccaas-solution-copilot-service-copilot-studio.md
 
+# Card for FS
+  - title: Field service
+    linkLists:
+      - linkListType: architecture
+        links:
+          - text: Field Service and SAP integration
+            url: field-service-sap-architecture.md
+          - text: Project Operations to Field Service integration
+            url: project-operations-field-service-integration.md
+
 # Card - Sales
 
   - title: Sales
@@ -84,6 +94,8 @@ landingContent:
         url: supply-chain-export-inventory-data-dataverse.md
       - text: Process outbound goods with Dynamics 365 and external service providers
         url: supply-chain-process-outbound-goods-connect-external-services.md
+      - text: Integrate Dynamics 365 Supply Chain Management with an external warehouse management system
+        url: supply-chain-external-wms-item-balance-architecture.md
 
 # Card - finance and operations apps
 

@@ -1141,6 +1141,8 @@ items:
             items:
               - name: Dynamics 365 Project Operations to Field Service integration architecture
                 href: reference-architectures/project-operations-field-service-integration.md
+              - name: Field Service and SAP architecture
+                href: reference-architectures/field-service-sap-architecture.md
           - name: Finance
             items:
               - name: Business solution with connections to online and on-premises apps
@@ -1161,6 +1163,10 @@ items:
                 href: reference-architectures/supply-chain-export-inventory-data-dataverse.md
               - name: Process outbound goods with Dynamics 365 and external services
                 href: reference-architectures/supply-chain-process-outbound-goods-connect-external-services.md
+              - name: Inventory balance between Dynamics 365 and an external WMS
+                href: reference-architectures/supply-chain-external-wms-item-balance-architecture.md
+              - name: BOPIS architecture with Dynamics 365
+                href: reference-architectures/supply-chain-commerce-bopis-architecture.md
       - name: Security and compliance
         items:
           - name: Security strategy
