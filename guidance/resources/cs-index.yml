@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Customer Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 09/09/2025
+  ms.date: 09/30/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -98,6 +98,9 @@ landingContent:
        links:
        - text: Validate the solution
          url: solution-component-validator.md
+       - text: Application lifecycle management
+         url: ../implementation-guide/application-lifecycle-management.md
+
 
 # Analytics Card
   - title: Analytics
@@ -118,6 +121,8 @@ landingContent:
     linkLists:
     - linkListType: overview
       links:
+        - text: User acceptance tests and regression test after data migration
+          url: data-migration-user-acceptance-tests.md
         - text: Load test the solution
           url: test-scale-dynamics-365-solution.md
         - text: Set up test automation with Playwright
@@ -136,13 +141,3 @@ landingContent:
 #         url: cs-set-up-cif2-simulator.md
 #       - text: Set up click-to-run outbound calls
 #         url: cs-set-up-outbound-calls.md
-
-# ALM card
-  - title: Application lifecycle management
-    linkLists:
-    - linkListType: overview
-      links:
-      - text: Overview
-        url: ../implementation-guide/application-lifecycle-management.md
-      - text: Application lifecycle management for custom reports
-        url: /digital-contact-center-platform/guidance/analytics-alm-custom-reports
