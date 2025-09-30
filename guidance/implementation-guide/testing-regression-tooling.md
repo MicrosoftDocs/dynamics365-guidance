@@ -4,7 +4,7 @@ description: Learn about some of the tools that you can use for automating regre
 author: edupont04
 ms.author: dudona
 ms.topic: concept-article
-ms.date: 06/02/2025
+ms.date: 09/26/2025
 ms.update-cycle: 1095-days
 ms.custom:
   - evergreen
@@ -32,6 +32,9 @@ Learn more about each tool:
 - [TheTestMart](https://appsource.microsoft.com/en-US/product/dynamics-365-for-operations/360testinglimited1633924951153.the-test-mart?tab=Overview)  
 
   TheTestMart is a cloud-based code-free test automation platform that focuses on scaling up automation coverage and productivity across  core business platforms by applying command-driven techniques.  
+- [Elevaite365​ Test Automation](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/elevaite365.e365ta?tab=Overview)  
+
+  Elevaite Test Automation is an AI-powered platform purpose-built for Microsoft Dynamics 365. The solution empowers organizations to automate and optimize their testing processes, delivering enterprise-grade quality assurance with unmatched efficiency​.
 - [Leapwork Test Automation](https://azuremarketplace.microsoft.com/marketplace/apps/leapwork1651672519978.leapwork_azure?tab=Overview)  
 
   Leapwork Test Automation automates testing across Dynamics 365, Azure, or Power Platform along with the rest of the tech stack. Build, maintain, and scale automation faster with its AI-powered visual test automation platform.  
@@ -53,7 +56,7 @@ Learn more about each tool:
   Tricentis Tosca helps enterprises plan, construct, stabilize, and execute resilient automated regression tests for Microsoft Dynamics 365 apps.  
 - [Executive Automats 365](https://appsource.microsoft.com/en-US/product/SaaS/xplus_sa.xpl_executiveautomats)  
 
-  Executive Automats 365 allows you to significantly shorten the test procedure and increase its accuracy. Executive Automats offers fully repeatable, customizable, 100% codeless, and cross-platform testing that translates into tangible benefits for the company.  
+  Executive Automats 365 from XPLUS SA allows you to significantly shorten the test procedure and increase its accuracy. Executive Automats 365 offers fully repeatable, customizable, 100% codeless, and cross-platform testing that translates into tangible benefits for the company.  
 
 ## Consider the costs and benefits of each tool
 

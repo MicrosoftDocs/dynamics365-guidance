@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="967.2417"
-   height="507.57629"
+   width="1167.0712"
+   height="655.7691"
    overflow="hidden"
    version="1.1"
-   id="svg251"
+   id="svg236"
    sodipodi:docname="regression-test-tooling-options.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs236" />
   <sodipodi:namedview
-     id="namedview251"
+     id="namedview236"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -22,653 +23,608 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.3820312"
-     inkscape:cx="611.45295"
-     inkscape:cy="344.03412"
+     inkscape:cx="617.75008"
+     inkscape:cy="344.45392"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="2869"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg251" />
-  <defs
-     id="defs23">
-    <clipPath
-       id="clip0">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect1" />
-    </clipPath>
-    <image
-       width="40"
-       height="40"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEIUExURQAAAACSAACTAACTAACSAACSAACTAACTAACUAACTAACWAACUAACAAACTAACTAACSAACSAACSAACSAACTAACUAACSAACUAAAAAACTAACVAACSAACZAACSAACVAACUAACUAACXAACTAACTAAC/AACSAACTAACJAACUAACSAACTAACTAACWAACSAACTAACSAACMAACZAACUAACTAACSAACTAAD/AACTAACSAACTAACZAACTAACTAACTAACSAACVAACTAACTAACdAACOAACSAACTAACQAACSAACUAACUAACTAACSAACUAACqAACTAACSAACOAACUAACUAACTAACRAACTAACSAACSAACVAEndzGoAAABYdFJOUwAOVZXK6/80pPYnsgJ4+LgV0uLbfGCuAc9U2w+UNUxmG+qnBMPaDYjz0PczS/3MFBmzIexQAW33owXETi3UDIvIDQmb9C7+XR/t+nkGx78bkVj+Je/fPTATJIg+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABhUlEQVQ4T42VZ3PCMAyGFUhMgCRAF4XSXbp36d67dO/+/3/SUxw7kkN7fj9wsvRcUKwRAConl3c9IYTw3HzOYSGqgl9ESKnoF0wiVqlMKalyyaQgCCOTQkVhwDmnYiJKFZZqtWbGU9Wq5Hn/cELU9DODP/9XqqLyDM2IqVBypZ7vSxXJW+pxf6bKyBVMb6q+fmVhjXweJBoIYDAxfQCH1ZdqqA4Aw9IuOtAw40rNEUwsAUUDWkZcKRpFbkwdW+DyuNY4chOT6uhC3KdZTSE3PaPPHrCwVnsWwTniScH5hUVtR0vILa9oBwFX12B9Qx3iBDe3NEXBDgBs7+zG9h5y+weUE/plDuO6Hx1jgidonjLO09dzdh6TF5fi6hqNzg0D3fTC28lw5m7x967LONEiJbx/SCfu8YlhWELaFM8vCnylkGwK1mbdN8k13okT5Wca18ee+fhkvqRxjVH4+q7/NJlHjUJmuLKdnAyX9bjaLwDrlWK/pOzXnv0itV/NKMtlj/rn8/ELtdAs4HDQTBMAAAAASUVORK5CYII="
-       preserveAspectRatio="none"
-       id="img1" />
-    <clipPath
-       id="clip2">
-      <rect
-         x="-0.25"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect2" />
-    </clipPath>
-    <clipPath
-       id="clip3">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect3" />
-    </clipPath>
-    <clipPath
-       id="clip4">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="219075"
-         id="rect4" />
-    </clipPath>
-    <clipPath
-       id="clip5">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect5" />
-    </clipPath>
-    <clipPath
-       id="clip6">
-      <rect
-         x="0"
-         y="0"
-         width="219075"
-         height="219075"
-         id="rect6" />
-    </clipPath>
-    <clipPath
-       id="clip7">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="219075"
-         id="rect7" />
-    </clipPath>
-    <clipPath
-       id="clip8">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect8" />
-    </clipPath>
-    <clipPath
-       id="clip9">
-      <rect
-         x="0"
-         y="0"
-         width="219075"
-         height="219075"
-         id="rect9" />
-    </clipPath>
-    <clipPath
-       id="clip10">
-      <rect
-         x="0"
-         y="-0.25"
-         width="219075"
-         height="219075"
-         id="rect10" />
-    </clipPath>
-    <clipPath
-       id="clip11">
-      <rect
-         x="0"
-         y="-4.6566101e-10"
-         width="209550"
-         height="209550"
-         id="rect11" />
-    </clipPath>
-    <clipPath
-       id="clip12">
-      <rect
-         x="-0.25"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect12" />
-    </clipPath>
-    <clipPath
-       id="clip13">
-      <rect
-         x="0"
-         y="-4.6566101e-10"
-         width="209550"
-         height="209550"
-         id="rect13" />
-    </clipPath>
-    <clipPath
-       id="clip14">
-      <rect
-         x="-0.25"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect14" />
-    </clipPath>
-    <clipPath
-       id="clip15">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect15" />
-    </clipPath>
-    <clipPath
-       id="clip16">
-      <rect
-         x="0"
-         y="0"
-         width="219075"
-         height="219075"
-         id="rect16" />
-    </clipPath>
-    <clipPath
-       id="clip17">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect17" />
-    </clipPath>
-    <clipPath
-       id="clip18">
-      <rect
-         x="-0.25"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect18" />
-    </clipPath>
-    <clipPath
-       id="clip19">
-      <rect
-         x="0"
-         y="2.32831e-10"
-         width="209550"
-         height="209550"
-         id="rect19" />
-    </clipPath>
-    <clipPath
-       id="clip20">
-      <rect
-         x="-0.25"
-         y="-0.125"
-         width="209550"
-         height="209550"
-         id="rect20" />
-    </clipPath>
-    <clipPath
-       id="clip21">
-      <rect
-         x="0"
-         y="2.32831e-10"
-         width="219075"
-         height="209550"
-         id="rect21" />
-    </clipPath>
-    <clipPath
-       id="clip22">
-      <rect
-         x="0"
-         y="0"
-         width="209550"
-         height="209550"
-         id="rect22" />
-    </clipPath>
-    <clipPath
-       id="clip23">
-      <rect
-         x="0"
-         y="0"
-         width="219075"
-         height="219075"
-         id="rect23" />
-    </clipPath>
-  </defs>
+     inkscape:current-layer="svg236" />
   <g
-     id="g251"
-     transform="translate(-28.547064,-15.952771)">
+     id="g236"
+     transform="translate(-22.249918,-15.532962)">
     <rect
-       x="28.547064"
-       y="15.952771"
-       width="967.2417"
-       height="507.57629"
+       x="22.249918"
+       y="15.532962"
+       width="1167.0712"
+       height="655.7691"
        fill="#fff8f3"
-       id="rect24"
-       style="stroke-width:0.729872" />
+       id="rect1"
+       style="stroke-width:0.911283" />
     <path
-       d="M 30.899,16.1908 H 140.776 V 133.084 H 30.899 Z"
+       d="M 23.8632,16.9412 H 156.587 V 123.448 H 23.8632 Z"
        fill="#702573"
+       fill-rule="evenodd"
+       id="path1" />
+    <path
+       d="M 156.587,16.9412 H 316.484 V 123.448 H 156.587 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path2" />
+    <path
+       d="M 316.484,16.9412 H 537.822 V 63.0807 H 316.484 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path3" />
+    <path
+       d="M 537.822,16.9412 H 689.914 V 123.448 H 537.822 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="M 689.914,16.9412 H 797.699 V 123.448 H 689.914 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path5" />
+    <path
+       d="m 797.699,16.9412 h 117.76 V 123.448 h -117.76 z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="M 915.459,16.9412 H 1082.81 V 123.448 H 915.459 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path7" />
+    <path
+       d="m 1082.81,16.9412 h 104.96 V 123.448 h -104.96 z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path8" />
+    <path
+       d="M 316.484,63.0807 H 428.241 V 123.448 H 316.484 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path9" />
+    <path
+       d="M 428.241,63.0807 H 537.822 V 123.448 H 428.241 Z"
+       fill="#702573"
+       fill-rule="evenodd"
+       id="path10" />
+    <path
+       d="M 23.8632,123.448 H 156.587 v 58.995 H 23.8632 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path11" />
+    <path
+       d="m 156.587,123.448 h 159.897 v 58.995 H 156.587 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path12" />
+    <path
+       d="m 316.484,123.448 h 111.757 v 58.995 H 316.484 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path13" />
+    <path
+       d="m 428.241,123.448 h 109.581 v 58.995 H 428.241 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path14" />
+    <path
+       d="m 537.822,123.448 h 152.092 v 58.995 H 537.822 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path15" />
+    <path
+       d="m 689.914,123.448 h 107.785 v 58.995 H 689.914 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path16" />
+    <path
+       d="m 797.699,123.448 h 117.76 v 58.995 h -117.76 z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path17" />
+    <path
+       d="m 915.459,123.448 h 167.351 v 58.995 H 915.459 Z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path18" />
+    <path
+       d="m 1082.81,123.448 h 104.96 v 58.995 h -104.96 z"
+       fill="#ebe8eb"
+       fill-rule="evenodd"
+       id="path19" />
+    <path
+       d="M 23.8632,182.443 H 156.587 v 75.383 H 23.8632 Z"
+       fill="#d5cdd5"
+       fill-rule="evenodd"
+       id="path20" />
+    <path
+       d="m 156.587,182.443 h 159.897 v 75.383 H 156.587 Z"
+       fill="#d5cdd5"
+       fill-rule="evenodd"
+       id="path21" />
+    <path
+       d="m 316.484,182.443 h 111.757 v 75.383 H 316.484 Z"
+       fill="#d5cdd5"
+       fill-rule="evenodd"
+       id="path22" />
+    <path
+       d="m 428.241,182.443 h 109.581 v 75.383 H 428.241 Z"
+       fill="#d5cdd5"
+       fill-rule="evenodd"
+       id="path23" />
+    <path
+       d="m 537.822,182.443 h 152.092 v 75.383 H 537.822 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path24" />
     <path
-       d="M 140.776,16.1908 H 273.147 V 133.084 H 140.776 Z"
-       fill="#702573"
+       d="m 689.914,182.443 h 107.785 v 75.383 H 689.914 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path25" />
     <path
-       d="m 273.147,16.1908 h 195.304 v 30.572 H 273.147 Z"
-       fill="#702573"
+       d="m 797.699,182.443 h 117.76 v 75.383 h -117.76 z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path26" />
     <path
-       d="M 468.451,16.1908 H 594.722 V 133.084 H 468.451 Z"
-       fill="#702573"
+       d="m 915.459,182.443 h 167.351 v 75.383 H 915.459 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path27" />
     <path
-       d="m 594.722,16.1908 h 93.922 V 133.084 h -93.922 z"
-       fill="#702573"
+       d="m 1082.81,182.443 h 104.96 v 75.383 h -104.96 z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path28" />
     <path
-       d="m 688.644,16.1908 h 94.853 V 133.084 h -94.853 z"
-       fill="#702573"
+       d="M 23.8632,257.826 H 156.587 v 58.995 H 23.8632 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path29" />
     <path
-       d="M 783.497,16.1908 H 916.46 V 133.084 H 783.497 Z"
-       fill="#702573"
+       d="m 156.587,257.826 h 159.897 v 58.995 H 156.587 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path30" />
     <path
-       d="m 916.46,16.1908 h 77.99 V 133.084 h -77.99 z"
-       fill="#702573"
+       d="m 316.484,257.826 h 111.757 v 58.995 H 316.484 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path31" />
     <path
-       d="m 273.147,46.7628 h 92.52 v 86.3212 h -92.52 z"
-       fill="#702573"
+       d="m 428.241,257.826 h 109.581 v 58.995 H 428.241 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path32" />
     <path
-       d="M 365.667,46.7628 H 468.451 V 133.084 H 365.667 Z"
-       fill="#702573"
+       d="m 537.822,257.826 h 152.092 v 58.995 H 537.822 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path33" />
     <path
-       d="m 30.899,133.084 h 109.877 v 46.757 H 30.899 Z"
+       d="m 689.914,257.826 h 107.785 v 58.995 H 689.914 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path34" />
     <path
-       d="m 140.776,133.084 h 132.371 v 46.757 H 140.776 Z"
+       d="m 797.699,257.826 h 117.76 v 58.995 h -117.76 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path35" />
     <path
-       d="m 273.147,133.084 h 92.52 v 46.757 h -92.52 z"
+       d="m 915.459,257.826 h 167.351 v 58.995 H 915.459 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path36" />
     <path
-       d="m 365.667,133.084 h 102.784 v 46.757 H 365.667 Z"
+       d="m 1082.81,257.826 h 104.96 v 58.995 h -104.96 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path37" />
     <path
-       d="m 468.451,133.084 h 126.271 v 46.757 H 468.451 Z"
-       fill="#ebe8eb"
+       d="M 23.8632,316.821 H 156.587 v 58.995 H 23.8632 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path38" />
     <path
-       d="m 594.722,133.084 h 93.922 v 46.757 h -93.922 z"
-       fill="#ebe8eb"
+       d="m 156.587,316.821 h 159.897 v 58.995 H 156.587 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path39" />
     <path
-       d="m 688.644,133.084 h 94.853 v 46.757 h -94.853 z"
-       fill="#ebe8eb"
+       d="m 316.484,316.821 h 111.757 v 58.995 H 316.484 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path40" />
     <path
-       d="M 783.497,133.084 H 916.46 v 46.757 H 783.497 Z"
-       fill="#ebe8eb"
+       d="m 428.241,316.821 h 109.581 v 58.995 H 428.241 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path41" />
     <path
-       d="m 916.46,133.084 h 77.99 v 46.757 h -77.99 z"
-       fill="#ebe8eb"
+       d="m 537.822,316.821 h 152.092 v 58.995 H 537.822 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path42" />
     <path
-       d="m 30.899,179.841 h 109.877 v 46.758 H 30.899 Z"
+       d="m 689.914,316.821 h 107.785 v 58.995 H 689.914 Z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path43" />
     <path
-       d="m 140.776,179.841 h 132.371 v 46.758 H 140.776 Z"
+       d="m 797.699,316.821 h 117.76 v 58.995 h -117.76 z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path44" />
     <path
-       d="m 273.147,179.841 h 92.52 v 46.758 h -92.52 z"
+       d="m 915.459,316.821 h 167.351 v 58.995 H 915.459 Z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path45" />
     <path
-       d="m 365.667,179.841 h 102.784 v 46.758 H 365.667 Z"
+       d="m 1082.81,316.821 h 104.96 v 58.995 h -104.96 z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path46" />
     <path
-       d="m 468.451,179.841 h 126.271 v 46.758 H 468.451 Z"
-       fill="#d5cdd5"
+       d="M 23.8632,375.816 H 156.587 v 58.995 H 23.8632 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path47" />
     <path
-       d="m 594.722,179.841 h 93.922 v 46.758 h -93.922 z"
-       fill="#d5cdd5"
+       d="m 156.587,375.816 h 159.897 v 58.995 H 156.587 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path48" />
     <path
-       d="m 688.644,179.841 h 94.853 v 46.758 h -94.853 z"
-       fill="#d5cdd5"
+       d="m 316.484,375.816 h 111.757 v 58.995 H 316.484 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path49" />
     <path
-       d="M 783.497,179.841 H 916.46 v 46.758 H 783.497 Z"
-       fill="#d5cdd5"
+       d="m 428.241,375.816 h 109.581 v 58.995 H 428.241 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path50" />
     <path
-       d="m 916.46,179.841 h 77.99 v 46.758 h -77.99 z"
-       fill="#d5cdd5"
+       d="m 537.822,375.816 h 152.092 v 58.995 H 537.822 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path51" />
     <path
-       d="m 30.899,226.599 h 109.877 v 43.76 H 30.899 Z"
+       d="m 689.914,375.816 h 107.785 v 58.995 H 689.914 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path52" />
     <path
-       d="m 140.776,226.599 h 132.371 v 43.76 H 140.776 Z"
+       d="m 797.699,375.816 h 117.76 v 58.995 h -117.76 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path53" />
     <path
-       d="m 273.147,226.599 h 92.52 v 43.76 h -92.52 z"
+       d="m 915.459,375.816 h 167.351 v 58.995 H 915.459 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path54" />
     <path
-       d="m 365.667,226.599 h 102.784 v 43.76 H 365.667 Z"
+       d="m 1082.81,375.816 h 104.96 v 58.995 h -104.96 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path55" />
     <path
-       d="m 468.451,226.599 h 126.271 v 43.76 H 468.451 Z"
-       fill="#ebe8eb"
+       d="M 23.8632,434.811 H 156.587 v 58.995 H 23.8632 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path56" />
     <path
-       d="m 594.722,226.599 h 93.922 v 43.76 h -93.922 z"
-       fill="#ebe8eb"
+       d="m 156.587,434.811 h 159.897 v 58.995 H 156.587 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path57" />
     <path
-       d="m 688.644,226.599 h 94.853 v 43.76 h -94.853 z"
-       fill="#ebe8eb"
+       d="m 316.484,434.811 h 111.757 v 58.995 H 316.484 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path58" />
     <path
-       d="M 783.497,226.599 H 916.46 v 43.76 H 783.497 Z"
-       fill="#ebe8eb"
+       d="m 428.241,434.811 h 109.581 v 58.995 H 428.241 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path59" />
     <path
-       d="m 916.46,226.599 h 77.99 v 43.76 h -77.99 z"
-       fill="#ebe8eb"
+       d="m 537.822,434.811 h 152.092 v 58.995 H 537.822 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path60" />
     <path
-       d="m 30.899,270.359 h 109.877 v 46.757 H 30.899 Z"
+       d="m 689.914,434.811 h 107.785 v 58.995 H 689.914 Z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path61" />
     <path
-       d="m 140.776,270.359 h 132.371 v 46.757 H 140.776 Z"
+       d="m 797.699,434.811 h 117.76 v 58.995 h -117.76 z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path62" />
     <path
-       d="m 273.147,270.359 h 92.52 v 46.757 h -92.52 z"
+       d="m 915.459,434.811 h 167.351 v 58.995 H 915.459 Z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path63" />
     <path
-       d="m 365.667,270.359 h 102.784 v 46.757 H 365.667 Z"
+       d="m 1082.81,434.811 h 104.96 v 58.995 h -104.96 z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path64" />
     <path
-       d="m 468.451,270.359 h 126.271 v 46.757 H 468.451 Z"
-       fill="#d5cdd5"
+       d="M 23.8632,493.806 H 156.587 v 58.995 H 23.8632 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path65" />
     <path
-       d="m 594.722,270.359 h 93.922 v 46.757 h -93.922 z"
-       fill="#d5cdd5"
+       d="m 156.587,493.806 h 159.897 v 58.995 H 156.587 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path66" />
     <path
-       d="m 688.644,270.359 h 94.853 v 46.757 h -94.853 z"
-       fill="#d5cdd5"
+       d="m 316.484,493.806 h 111.757 v 58.995 H 316.484 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path67" />
     <path
-       d="M 783.497,270.359 H 916.46 v 46.757 H 783.497 Z"
-       fill="#d5cdd5"
+       d="m 428.241,493.806 h 109.581 v 58.995 H 428.241 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path68" />
     <path
-       d="m 916.46,270.359 h 77.99 v 46.757 h -77.99 z"
-       fill="#d5cdd5"
+       d="m 537.822,493.806 h 152.092 v 58.995 H 537.822 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path69" />
     <path
-       d="m 30.899,317.116 h 109.877 v 64.741 H 30.899 Z"
+       d="m 689.914,493.806 h 107.785 v 58.995 H 689.914 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path70" />
     <path
-       d="m 140.776,317.116 h 132.371 v 64.741 H 140.776 Z"
+       d="m 797.699,493.806 h 117.76 v 58.995 h -117.76 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path71" />
     <path
-       d="m 273.147,317.116 h 92.52 v 64.741 h -92.52 z"
+       d="m 915.459,493.806 h 167.351 v 58.995 H 915.459 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path72" />
     <path
-       d="m 365.667,317.116 h 102.784 v 64.741 H 365.667 Z"
+       d="m 1082.81,493.806 h 104.96 v 58.995 h -104.96 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path73" />
     <path
-       d="m 468.451,317.116 h 126.271 v 64.741 H 468.451 Z"
-       fill="#ebe8eb"
+       d="M 23.8632,552.801 H 156.587 v 42.608 H 23.8632 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path74" />
     <path
-       d="m 594.722,317.116 h 93.922 v 64.741 h -93.922 z"
-       fill="#ebe8eb"
+       d="m 156.587,552.801 h 159.897 v 42.608 H 156.587 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path75" />
     <path
-       d="m 688.644,317.116 h 94.853 v 64.741 h -94.853 z"
-       fill="#ebe8eb"
+       d="m 316.484,552.801 h 111.757 v 42.608 H 316.484 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path76" />
     <path
-       d="M 783.497,317.116 H 916.46 v 64.741 H 783.497 Z"
-       fill="#ebe8eb"
+       d="m 428.241,552.801 h 109.581 v 42.608 H 428.241 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path77" />
     <path
-       d="m 916.46,317.116 h 77.99 v 64.741 h -77.99 z"
-       fill="#ebe8eb"
+       d="m 537.822,552.801 h 152.092 v 42.608 H 537.822 Z"
+       fill="#d5cdd5"
        fill-rule="evenodd"
        id="path78" />
     <path
-       d="m 30.899,381.857 h 109.877 v 46.758 H 30.899 Z"
+       d="m 689.914,552.801 h 107.785 v 42.608 H 689.914 Z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path79" />
     <path
-       d="m 140.776,381.857 h 132.371 v 46.758 H 140.776 Z"
+       d="m 797.699,552.801 h 117.76 v 42.608 h -117.76 z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path80" />
     <path
-       d="m 273.147,381.857 h 92.52 v 46.758 h -92.52 z"
+       d="m 915.459,552.801 h 167.351 v 42.608 H 915.459 Z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path81" />
     <path
-       d="m 365.667,381.857 h 102.784 v 46.758 H 365.667 Z"
+       d="m 1082.81,552.801 h 104.96 v 42.608 h -104.96 z"
        fill="#d5cdd5"
        fill-rule="evenodd"
        id="path82" />
     <path
-       d="m 468.451,381.857 h 126.271 v 46.758 H 468.451 Z"
-       fill="#d5cdd5"
+       d="M 23.8632,595.409 H 156.587 v 75.383 H 23.8632 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path83" />
     <path
-       d="m 594.722,381.857 h 93.922 v 46.758 h -93.922 z"
-       fill="#d5cdd5"
+       d="m 156.587,595.409 h 159.897 v 75.383 H 156.587 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path84" />
     <path
-       d="m 688.644,381.857 h 94.853 v 46.758 h -94.853 z"
-       fill="#d5cdd5"
+       d="m 316.484,595.409 h 111.757 v 75.383 H 316.484 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path85" />
     <path
-       d="M 783.497,381.857 H 916.46 v 46.758 H 783.497 Z"
-       fill="#d5cdd5"
+       d="m 428.241,595.409 h 109.581 v 75.383 H 428.241 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path86" />
     <path
-       d="m 916.46,381.857 h 77.99 v 46.758 h -77.99 z"
-       fill="#d5cdd5"
+       d="m 537.822,595.409 h 152.092 v 75.383 H 537.822 Z"
+       fill="#ebe8eb"
        fill-rule="evenodd"
        id="path87" />
     <path
-       d="m 30.899,428.615 h 109.877 v 46.757 H 30.899 Z"
+       d="m 689.914,595.409 h 107.785 v 75.383 H 689.914 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path88" />
     <path
-       d="m 140.776,428.615 h 132.371 v 46.757 H 140.776 Z"
+       d="m 797.699,595.409 h 117.76 v 75.383 h -117.76 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path89" />
     <path
-       d="m 273.147,428.615 h 92.52 v 46.757 h -92.52 z"
+       d="m 915.459,595.409 h 167.351 v 75.383 H 915.459 Z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path90" />
     <path
-       d="m 365.667,428.615 h 102.784 v 46.757 H 365.667 Z"
+       d="m 1082.81,595.409 h 104.96 v 75.383 h -104.96 z"
        fill="#ebe8eb"
        fill-rule="evenodd"
        id="path91" />
     <path
-       d="m 468.451,428.615 h 126.271 v 46.757 H 468.451 Z"
-       fill="#ebe8eb"
+       d="M 156.587,16.2745 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path92" />
     <path
-       d="m 594.722,428.615 h 93.922 v 46.757 h -93.922 z"
-       fill="#ebe8eb"
+       d="M 316.484,16.2745 V 63.0807"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path93" />
     <path
-       d="m 688.644,428.615 h 94.853 v 46.757 h -94.853 z"
-       fill="#ebe8eb"
+       d="M 316.484,181.777 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path94" />
     <path
-       d="M 783.497,428.615 H 916.46 v 46.757 H 783.497 Z"
-       fill="#ebe8eb"
+       d="M 428.241,182.443 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path95" />
     <path
-       d="m 916.46,428.615 h 77.99 v 46.757 h -77.99 z"
-       fill="#ebe8eb"
+       d="M 537.822,16.2745 V 63.0807"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path96" />
     <path
-       d="m 30.899,475.372 h 109.877 v 46.757 H 30.899 Z"
-       fill="#d5cdd5"
+       d="M 537.822,181.777 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path97" />
     <path
-       d="m 140.776,475.372 h 132.371 v 46.757 H 140.776 Z"
-       fill="#d5cdd5"
+       d="M 689.914,16.2745 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path98" />
     <path
-       d="m 273.147,475.372 h 92.52 v 46.757 h -92.52 z"
-       fill="#d5cdd5"
+       d="M 797.699,16.2745 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path99" />
     <path
-       d="m 365.667,475.372 h 102.784 v 46.757 H 365.667 Z"
-       fill="#d5cdd5"
+       d="M 915.459,16.2745 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path100" />
     <path
-       d="m 468.451,475.372 h 126.271 v 46.757 H 468.451 Z"
-       fill="#d5cdd5"
+       d="M 1082.81,16.2745 V 671.458"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path101" />
     <path
-       d="m 594.722,475.372 h 93.922 v 46.757 h -93.922 z"
-       fill="#d5cdd5"
+       d="M 23.1965,123.448 H 316.484"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path102" />
     <path
-       d="m 688.644,475.372 h 94.853 v 46.757 h -94.853 z"
-       fill="#d5cdd5"
+       d="M 537.822,123.448 H 1188.44"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path103" />
     <path
-       d="M 783.497,475.372 H 916.46 v 46.757 H 783.497 Z"
-       fill="#d5cdd5"
+       d="M 23.1965,182.443 H 317.15"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path104" />
     <path
-       d="m 916.46,475.372 h 77.99 v 46.757 h -77.99 z"
-       fill="#d5cdd5"
+       d="M 537.155,182.443 H 1188.44"
+       stroke="#ffffff"
+       stroke-width="1.33333"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
        fill-rule="evenodd"
        id="path105" />
     <path
-       d="M 140.776,15.5241 V 522.796"
+       d="M 23.1965,257.826 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -677,7 +633,7 @@
        fill-rule="evenodd"
        id="path106" />
     <path
-       d="M 273.147,15.5241 V 46.7628"
+       d="M 23.1965,316.821 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -686,7 +642,7 @@
        fill-rule="evenodd"
        id="path107" />
     <path
-       d="M 273.147,46.7628 V 133.084"
+       d="M 23.1965,375.816 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -695,7 +651,7 @@
        fill-rule="evenodd"
        id="path108" />
     <path
-       d="M 273.147,133.084 V 522.796"
+       d="M 23.1965,434.811 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -704,7 +660,7 @@
        fill-rule="evenodd"
        id="path109" />
     <path
-       d="M 365.667,46.0962 V 133.084"
+       d="M 23.1965,493.806 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -713,7 +669,7 @@
        fill-rule="evenodd"
        id="path110" />
     <path
-       d="M 365.667,133.084 V 522.796"
+       d="M 23.1965,552.801 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -722,7 +678,7 @@
        fill-rule="evenodd"
        id="path111" />
     <path
-       d="M 468.451,15.5241 V 46.7628"
+       d="M 23.1965,595.409 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -731,7 +687,7 @@
        fill-rule="evenodd"
        id="path112" />
     <path
-       d="M 468.451,46.7628 V 133.084"
+       d="M 23.8632,16.2745 V 671.458"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -740,7 +696,7 @@
        fill-rule="evenodd"
        id="path113" />
     <path
-       d="M 468.451,133.084 V 522.796"
+       d="M 1187.77,16.2745 V 671.458"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -749,7 +705,7 @@
        fill-rule="evenodd"
        id="path114" />
     <path
-       d="M 594.722,15.5241 V 522.796"
+       d="M 23.1965,16.9412 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -758,7 +714,7 @@
        fill-rule="evenodd"
        id="path115" />
     <path
-       d="M 688.644,15.5241 V 522.796"
+       d="M 23.1965,670.792 H 1188.44"
        stroke="#ffffff"
        stroke-width="1.33333"
        stroke-linejoin="round"
@@ -766,942 +722,762 @@
        fill="none"
        fill-rule="evenodd"
        id="path116" />
-    <path
-       d="M 783.497,15.5241 V 522.796"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path117" />
-    <path
-       d="M 916.46,15.5241 V 522.796"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path118" />
-    <path
-       d="M 272.481,46.7628 H 469.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path119" />
-    <path
-       d="M 30.2323,133.084 H 273.814"
-       stroke="#ffffff"
-       stroke-width="4"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path120" />
-    <path
-       d="m 273.814,133.084 h 193.97"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path121" />
-    <path
-       d="M 467.784,133.084 H 995.117"
-       stroke="#ffffff"
-       stroke-width="4"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path122" />
-    <path
-       d="M 30.2323,179.841 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path123" />
-    <path
-       d="M 30.2323,226.599 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path124" />
-    <path
-       d="M 30.2323,270.359 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path125" />
-    <path
-       d="M 30.2323,317.116 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path126" />
-    <path
-       d="M 30.2323,381.857 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path127" />
-    <path
-       d="M 30.2323,428.615 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path128" />
-    <path
-       d="M 30.2323,475.372 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path129" />
-    <path
-       d="M 30.899,15.5241 V 522.796"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path130" />
-    <path
-       d="M 994.45,15.5241 V 522.796"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path131" />
-    <path
-       d="M 30.2323,16.1908 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path132" />
-    <path
-       d="M 30.2323,522.129 H 995.117"
-       stroke="#ffffff"
-       stroke-width="1.33333"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path133" />
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(926.06,35)"
-       id="text133">SaaS</text>
+       font-size="14.6667px"
+       transform="translate(1092.41,36)"
+       id="text116">SaaS</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(926.06,53)"
-       id="text134">option</text>
+       font-size="14.6667px"
+       transform="translate(1128.41,36)"
+       id="text117">o</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(793.097,35)"
-       id="text135">Azure DevOps</text>
+       font-size="14.6667px"
+       transform="translate(1137.41,36)"
+       id="text118">ption</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(793.097,53)"
-       id="text136">integration</text>
+       font-size="14.6667px"
+       transform="translate(925.059,36)"
+       id="text119">Azure DevOps</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(698.244,35)"
-       id="text137">Perf.</text>
+       font-size="14.6667px"
+       transform="translate(925.059,54)"
+       id="text120">integration</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(698.244,53)"
-       id="text138">testing</text>
+       font-size="14.6667px"
+       transform="translate(807.299,36)"
+       id="text121">Perf</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(604.322,35)"
-       id="text139">Tech skills</text>
+       font-size="14.6667px"
+       transform="translate(835.799,36)"
+       id="text122">.</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(478.051,35)"
-       id="text140">Purchase cost?</text>
+       font-size="14.6667px"
+       transform="translate(843.799,36)"
+       id="text123">testing</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(282.747,35)"
-       id="text141">Dynamics 365</text>
+       font-size="14.6667px"
+       transform="translate(699.514,36)"
+       id="text124">Tech</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(150.376,35)"
-       id="text142">Solution</text>
+       font-size="14.6667px"
+       transform="translate(736.014,36)"
+       id="text125">s</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="15px"
-       transform="translate(40.499,35)"
-       id="text143">Company</text>
+       font-size="14.6667px"
+       transform="translate(742.514,36)"
+       id="text126">kill</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(375.267,61)"
-       id="text144">Finance, Supply</text>
+       font-size="14.6667px"
+       transform="translate(763.18,36)"
+       id="text127">s</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(375.267,72)"
-       id="text145">Chain</text>
+       font-size="14.6667px"
+       transform="translate(547.422,36)"
+       id="text128">Purchase</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(375.267,83)"
-       id="text146">Management,</text>
+       font-size="14.6667px"
+       transform="translate(613.255,36)"
+       id="text129">c</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(375.267,95)"
-       id="text147">Project</text>
+       font-size="14.6667px"
+       transform="translate(620.255,36)"
+       id="text130">ost</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(375.267,106)"
-       id="text148">Operations,</text>
+       font-size="14.6667px"
+       transform="translate(641.422,36)"
+       id="text131">?</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(375.267,117)"
-       id="text149">Commerce</text>
+       font-size="14.6667px"
+       transform="translate(340.736,36)"
+       id="text132">Supported Dynamics 365</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(282.747,61)"
-       id="text150">Sales, Customer</text>
+       font-size="14.6667px"
+       transform="translate(410.823,54)"
+       id="text133">apps</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(282.747,72)"
-       id="text151">Service, Field</text>
+       font-size="14.6667px"
+       transform="translate(166.187,36)"
+       id="text134">Solution</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(282.747,83)"
-       id="text152">Service,</text>
+       font-size="14.6667px"
+       transform="translate(33.4632,36)"
+       id="text135">Company</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(282.747,95)"
-       id="text153">Customer</text>
+       font-size="9.33333px"
+       transform="translate(437.841,77)"
+       id="text136">Finance, Supply</text>
     <text
        fill="#ffffff"
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="700"
-       font-size="9px"
-       transform="translate(282.747,106)"
-       id="text154">Insights</text>
+       font-size="9.33333px"
+       transform="translate(437.841,88)"
+       id="text137">Chain</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(465.175,88)"
+       id="text138">Management</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(523.508,88)"
+       id="text139">,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(437.841,99)"
+       id="text140">Project Operations,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(437.841,111)"
+       id="text141">Commerce</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(326.084,77)"
+       id="text142">Sales, Customer</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(326.084,88)"
+       id="text143">Service, Field</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(326.084,99)"
+       id="text144">Service,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(362.084,99)"
+       id="text145">Customer</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="9.33333px"
+       transform="translate(326.084,111)"
+       id="text146">Insights</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,151)"
-       id="text155"
-       style="-inkscape-font-specification:'Segoe UI, Segoe UI_MSFontService, sans-serif, Normal';font-family:'Segoe UI', 'Segoe UI_MSFontService', sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan2">Yes</tspan></text>
+       font-size="13.3333px"
+       transform="translate(1092.41,141)"
+       id="text147">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,151)"
-       id="text156">Yes</text>
+       font-size="13.3333px"
+       transform="translate(925.059,141)"
+       id="text148">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,151)"
-       id="text157">No</text>
+       font-size="13.3333px"
+       transform="translate(807.299,141)"
+       id="text149">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,151)"
-       id="text158">No Code,</text>
+       font-size="12px"
+       transform="translate(699.514,140)"
+       id="text150">No Code, Test</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,167)"
-       id="text159">Test Plans</text>
+       font-size="12px"
+       transform="translate(699.514,154)"
+       id="text151">Plans</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,151)"
-       id="text160">Yes, per test,</text>
+       font-size="13.3333px"
+       transform="translate(547.422,141)"
+       id="text152">Yes, per test, custom</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,167)"
-       id="text161">custom</text>
+       font-size="14.6667px"
+       transform="translate(437.841,142)"
+       id="text153">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,151)"
-       id="text162">TheTestMart</text>
+       font-size="14.6667px"
+       transform="translate(326.084,142)"
+       id="text154">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,151)"
-       id="text163">360Testing</text>
+       font-size="13.3333px"
+       transform="translate(166.187,141)"
+       id="text155">TheTestMart</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,167)"
-       id="text164">Limited</text>
+       font-size="13.3333px"
+       transform="translate(33.4632,141)"
+       id="text156">360Testing Limited</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,198)"
-       id="text165">Yes</text>
+       font-size="13.3333px"
+       transform="translate(1092.41,200)"
+       id="text157">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,198)"
-       id="text166">Yes</text>
+       font-size="13.3333px"
+       transform="translate(925.059,200)"
+       id="text158">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,198)"
-       id="text167">No</text>
+       font-size="13.3333px"
+       transform="translate(807.299,200)"
+       id="text159">Yes, basic</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,198)"
-       id="text168">No Code, UI</text>
+       font-size="12px"
+       transform="translate(699.514,199)"
+       id="text160">No Code, UI</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,214)"
-       id="text169">scripts</text>
+       font-size="12px"
+       transform="translate(699.514,213)"
+       id="text161">Scripts</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,198)"
-       id="text170">Yes, subscription</text>
+       font-size="13.3333px"
+       transform="translate(547.422,200)"
+       id="text162">Yes, subscription</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,198)"
-       id="text171">Leapwork Test</text>
+       font-size="14.6667px"
+       transform="translate(437.841,201)"
+       id="text163">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,214)"
-       id="text172">Automation</text>
+       font-size="14.6667px"
+       transform="translate(326.084,201)"
+       id="text164">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,198)"
-       id="text173">Leapwork</text>
+       font-size="13.3333px"
+       transform="translate(166.187,200)"
+       id="text165">Test Automation</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,244)"
-       id="text174">No</text>
+       font-size="13.3333px"
+       transform="translate(33.4632,200)"
+       id="text166">Elevaite365</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,244)"
-       id="text175">Yes</text>
+       font-size="13.3333px"
+       transform="translate(1092.41,276)"
+       id="text167">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,244)"
-       id="text176">No</text>
+       font-size="13.3333px"
+       transform="translate(925.059,276)"
+       id="text168">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,244)"
-       id="text177">No Code</text>
+       font-size="13.3333px"
+       transform="translate(807.299,276)"
+       id="text169">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,244)"
-       id="text178">Free</text>
+       font-size="12px"
+       transform="translate(699.514,275)"
+       id="text170">No Code, UI</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,244)"
-       id="text179">RSAT</text>
+       font-size="12px"
+       transform="translate(699.514,289)"
+       id="text171">Scripts</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,244)"
-       id="text180">Microsoft</text>
+       font-size="13.3333px"
+       transform="translate(547.422,276)"
+       id="text172">Yes, subscription</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,288)"
-       id="text181">No</text>
+       font-size="14.6667px"
+       transform="translate(437.841,277)"
+       id="text173">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,288)"
-       id="text182">Yes, with added</text>
+       font-size="14.6667px"
+       transform="translate(326.084,277)"
+       id="text174">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,304)"
-       id="text183">configuration</text>
+       font-size="13.3333px"
+       transform="translate(166.187,276)"
+       id="text175">Leapwork Test</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,288)"
+       font-size="13.3333px"
+       transform="translate(166.187,292)"
+       id="text176">Automation</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(33.4632,276)"
+       id="text177">Leapwork</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(1092.41,335)"
+       id="text178">No</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(925.059,335)"
+       id="text179">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(807.299,335)"
+       id="text180">No</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(699.514,334)"
+       id="text181">No Code</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(547.422,335)"
+       id="text182">Free</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="14.6667px"
+       transform="translate(437.841,336)"
+       id="text183">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="14.6667px"
+       transform="translate(326.084,336)"
        id="text184">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,288)"
-       id="text185">Code First</text>
+       font-size="13.3333px"
+       transform="translate(166.187,335)"
+       id="text185">RSAT</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,288)"
-       id="text186">Free</text>
+       font-size="13.3333px"
+       transform="translate(33.4632,335)"
+       id="text186">Microsoft</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,288)"
-       id="text187">Easy Repro</text>
+       font-size="13.3333px"
+       transform="translate(1092.41,394)"
+       id="text187">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,288)"
-       id="text188">Microsoft</text>
+       font-size="13.3333px"
+       transform="translate(925.059,394)"
+       id="text188">Yes, with added</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,335)"
-       id="text189">No</text>
+       font-size="13.3333px"
+       transform="translate(925.059,410)"
+       id="text189">configuration</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,335)"
-       id="text190">Yes, with added</text>
+       font-size="13.3333px"
+       transform="translate(807.299,394)"
+       id="text190">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,351)"
-       id="text191">configuration</text>
+       font-size="12px"
+       transform="translate(699.514,393)"
+       id="text191">Code First</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,335)"
-       id="text192">Yes, with</text>
+       font-size="13.3333px"
+       transform="translate(547.422,394)"
+       id="text192">Free</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,351)"
-       id="text193">added</text>
+       font-size="14.6667px"
+       transform="translate(437.841,395)"
+       id="text193">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,367)"
-       id="text194">plugin</text>
+       font-size="14.6667px"
+       transform="translate(326.084,395)"
+       id="text194">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,335)"
-       id="text195">Code First</text>
+       font-size="13.3333px"
+       transform="translate(166.187,394)"
+       id="text195">Easy Repro</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,335)"
-       id="text196">Free</text>
+       font-size="13.3333px"
+       transform="translate(33.4632,394)"
+       id="text196">Microsoft</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,335)"
-       id="text197">Playwright</text>
+       font-size="13.3333px"
+       transform="translate(1092.41,453)"
+       id="text197">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,335)"
-       id="text198">Microsoft</text>
+       font-size="13.3333px"
+       transform="translate(925.059,453)"
+       id="text198">Yes, with added</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,400)"
-       id="text199">No</text>
+       font-size="13.3333px"
+       transform="translate(925.059,469)"
+       id="text199">configuration</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,400)"
+       font-size="13.3333px"
+       transform="translate(807.299,453)"
        id="text200">Yes, with added</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,416)"
-       id="text201">package</text>
+       font-size="13.3333px"
+       transform="translate(807.299,469)"
+       id="text201">plugin</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,400)"
-       id="text202">Yes</text>
+       font-size="12px"
+       transform="translate(699.514,452)"
+       id="text202">Code First</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,400)"
-       id="text203">Code First</text>
+       font-size="13.3333px"
+       transform="translate(547.422,453)"
+       id="text203">Free</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,400)"
-       id="text204">Free</text>
+       font-size="14.6667px"
+       transform="translate(437.841,454)"
+       id="text204">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,400)"
-       id="text205">Selenium</text>
+       font-size="14.6667px"
+       transform="translate(326.084,454)"
+       id="text205">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,400)"
-       id="text206">Selenium</text>
+       font-size="13.3333px"
+       transform="translate(166.187,453)"
+       id="text206">Playwright</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,446)"
-       id="text207">Option</text>
+       font-size="13.3333px"
+       transform="translate(33.4632,453)"
+       id="text207">Microsoft</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,446)"
-       id="text208">Yes</text>
+       font-size="13.3333px"
+       transform="translate(1092.41,512)"
+       id="text208">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,446)"
-       id="text209">No</text>
+       font-size="13.3333px"
+       transform="translate(925.059,512)"
+       id="text209">Yes, with added package</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,446)"
-       id="text210">No Code, UI</text>
+       font-size="13.3333px"
+       transform="translate(807.299,512)"
+       id="text210">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,462)"
-       id="text211">scripts</text>
+       font-size="12px"
+       transform="translate(699.514,511)"
+       id="text211">Code First</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,446)"
-       id="text212">Yes, subscription</text>
+       font-size="13.3333px"
+       transform="translate(547.422,512)"
+       id="text212">Free</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,446)"
-       id="text213">Tricentis Tosca</text>
+       font-size="14.6667px"
+       transform="translate(437.841,513)"
+       id="text213">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,446)"
-       id="text214">Tricentis</text>
+       font-size="14.6667px"
+       transform="translate(326.084,513)"
+       id="text214">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(926.06,493)"
-       id="text215"
-       style="-inkscape-font-specification:'Segoe UI, Segoe UI_MSFontService, sans-serif, Normal';font-family:'Segoe UI', 'Segoe UI_MSFontService', sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
-         sodipodi:role="line"
-         id="tspan1">Option</tspan></text>
+       font-size="13.3333px"
+       transform="translate(166.187,512)"
+       id="text215">Selenium</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(793.097,493)"
-       id="text216">Yes</text>
+       font-size="13.3333px"
+       transform="translate(33.4632,512)"
+       id="text216">Selenium</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(698.244,493)"
-       id="text217">Yes</text>
+       font-size="13.3333px"
+       transform="translate(1092.41,571)"
+       id="text217">Option</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,493)"
-       id="text218">No Code, UI</text>
+       font-size="13.3333px"
+       transform="translate(925.059,571)"
+       id="text218">Yes</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(604.322,509)"
-       id="text219">scripts</text>
+       font-size="13.3333px"
+       transform="translate(807.299,571)"
+       id="text219">No</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(478.051,493)"
-       id="text220">Yes, custom</text>
+       font-size="12px"
+       transform="translate(699.514,570)"
+       id="text220">No Code, UI</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,493)"
-       id="text221">Executive</text>
+       font-size="12px"
+       transform="translate(699.514,584)"
+       id="text221">Scripts</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(150.376,509)"
-       id="text222">Automats 365</text>
+       font-size="13.3333px"
+       transform="translate(547.422,571)"
+       id="text222">Yes, subscription</text>
     <text
        font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
        font-weight="400"
-       font-size="13px"
-       transform="translate(40.499,493)"
-       id="text223">XPLUS SA</text>
-    <g
-       clip-path="url(#clip0)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,142)"
-       id="g224">
-      <g
-         clip-path="url(#clip2)"
-         id="g223">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="matrix(5238.75,0,0,5238.75,-0.25,0)"
-           id="use223" />
-      </g>
-    </g>
-    <g
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,142)"
-       id="g226">
-      <g
-         clip-path="url(#clip3)"
-         transform="scale(1.04545,1)"
-         id="g225">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5238.75)"
-           id="use224" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip4)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,275)"
-       id="g228">
-      <g
-         clip-path="url(#clip5)"
-         transform="matrix(1,0,0,1.04545,-0.25,-0.25)"
-         id="g227">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5238.75)"
-           id="use226" />
-      </g>
-    </g>
-    <g
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,331)"
-       id="g230">
-      <g
-         clip-path="url(#clip6)"
-         id="g229">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5476.88)"
-           id="use228" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip7)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,331)"
-       id="g232">
-      <g
-         clip-path="url(#clip8)"
-         transform="matrix(1,0,0,1.04545,-0.25,0)"
-         id="g231">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5238.75)"
-           id="use230" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip9)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,390)"
-       id="g234">
-      <g
-         clip-path="url(#clip10)"
-         id="g233">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="matrix(5476.88,0,0,5476.88,0,-0.25)"
-           id="use232" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip11)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,389)"
-       id="g236">
-      <g
-         clip-path="url(#clip12)"
-         id="g235">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="matrix(5238.75,0,0,5238.75,-0.25,0)"
-           id="use234" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip13)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,439)"
-       id="g238">
-      <g
-         clip-path="url(#clip14)"
-         id="g237">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="matrix(5238.75,0,0,5238.75,-0.25,0)"
-           id="use236" />
-      </g>
-    </g>
-    <g
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,439)"
-       id="g240">
-      <g
-         clip-path="url(#clip15)"
-         transform="scale(1.04545,1)"
-         id="g239">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5238.75)"
-           id="use238" />
-      </g>
-    </g>
-    <g
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,489)"
-       id="g242">
-      <g
-         clip-path="url(#clip16)"
-         id="g241">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5476.88)"
-           id="use240" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip17)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,487)"
-       id="g244">
-      <g
-         clip-path="url(#clip18)"
-         id="g243">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="matrix(5238.75,0,0,5238.75,-0.25,0)"
-           id="use242" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip19)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,290,187)"
-       id="g246">
-      <g
-         clip-path="url(#clip20)"
-         id="g245">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="matrix(5238.75,0,0,5238.75,-0.25,-0.125)"
-           id="use244" />
-      </g>
-    </g>
-    <g
-       clip-path="url(#clip21)"
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,187)"
-       id="g248">
-      <g
-         clip-path="url(#clip22)"
-         transform="matrix(1.04545,0,0,1,0,-0.125)"
-         id="g247">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5238.75)"
-           id="use246" />
-      </g>
-    </g>
-    <g
-       transform="matrix(1.04987e-4,0,0,1.04987e-4,392,241)"
-       id="g250">
-      <g
-         clip-path="url(#clip23)"
-         id="g249">
-        <use
-           width="100%"
-           height="100%"
-           xlink:href="#img1"
-           transform="scale(5476.88)"
-           id="use248" />
-      </g>
-    </g>
+       font-size="14.6667px"
+       transform="translate(437.841,572)"
+       id="text223">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="14.6667px"
+       transform="translate(326.084,572)"
+       id="text224">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(166.187,571)"
+       id="text225">Tricentis Tosca</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(33.4632,571)"
+       id="text226">Tricentis</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(1092.41,613)"
+       id="text227">Option</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(925.059,613)"
+       id="text228">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(807.299,613)"
+       id="text229">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(699.514,612)"
+       id="text230">No Code, UI</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(699.514,626)"
+       id="text231">Scripts</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(547.422,613)"
+       id="text232">Yes, custom</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="14.6667px"
+       transform="translate(437.841,614)"
+       id="text233">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="14.6667px"
+       transform="translate(326.084,614)"
+       id="text234">Yes</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(166.187,613)"
+       id="text235">Executive Automats 365</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="13.3333px"
+       transform="translate(33.4632,613)"
+       id="text236">XPLUS SA</text>
   </g>
 </svg>

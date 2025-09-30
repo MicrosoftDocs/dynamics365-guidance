@@ -1,7 +1,7 @@
 ﻿---
 title: Manage accounts receivable
 description: Learn how to use Dynamics 365 products to support your organization's business processes for invoicing sales orders.
-ms.date: 06/25/2025
+ms.date: 09/30/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: npaldhikar
@@ -67,7 +67,7 @@ The invoice customers business process area flow diagram illustrates the followi
     1. *Process customer refunds*  
     1. *Settle customer transactions*  
     1. *Write off bad debt*  
-    1. *Monitor trade allowances*  
+    1. *Manage trade allowances*  
     1. *Calculate sales commissions*  
     1. *Manage bills of exchange*
 <!-- 
