@@ -3,7 +3,7 @@ title: Drive expansion of applications in digital transformations
 description: Learn how expansion can help the business-focused digital transformation, including overviews on incremental changes and feature adoption.
 author: taksatoms
 ms.author: edupont
-ms.date: 01/11/2024
+ms.date: 09/30/2025
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
@@ -80,7 +80,7 @@ When you deploy your business application, it covers core use cases and scenario
 | Security and compliance | ALM | Admin and governance | User readiness and change management | Environment strategy | Limits and capacity | Data and integrations |
 |------------------------|------|----------------------|--------------------|-----------------------------------------|---------------------|----------------------------|
 | Low-medium | Medium | Medium-high | Medium | Medium-high | Low-medium | Medium |
-| If the data flows in accordance with data loss prevention policies, impact should be low | Managing the lifecycle of satellite apps requires changes to existing ALM processes | As the satellite apps grow organically, the appropriate governance policies need to be in place to manage them | User readiness effort is low for citizen-developed community apps, but might require readiness effort if they're adopted more broadly | Depending on the ALM and citizen development strategy, the environment strategy is impacted | Potential impact to capacity; you maya lso need icneses to support the makers and consumers if they're not already covered by existing licenses | You should avoid fragmenting the data with additional apps using their own data stores, but it may be required in some cases
+| If the data flows in accordance with data loss prevention policies, impact should be low | Managing the lifecycle of satellite apps requires changes to existing ALM processes | As the satellite apps grow organically, the appropriate governance policies need to be in place to manage them | User readiness effort is low for citizen-developed community apps, but might require readiness effort if they're adopted more broadly | Depending on the ALM and citizen development strategy, the environment strategy is impacted | Potential impact to capacity; you might need more licenses to support the makers and consumers if they're not already covered by existing licenses. | You should avoid fragmenting the data with additional apps using their own data stores, but it may be required in some cases.|
 
 ## Integrations
 

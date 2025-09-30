@@ -207,7 +207,7 @@ items:
                 href: business-processes/order-to-cash-overview.md
               - name: Business process areas
                 href: business-processes/order-to-cash-areas-overview.md
-              - name: Manage accounts payable
+              - name: Manage accounts receivable
                 href: business-processes/order-to-cash-invoice-sales-orders-overview.md
               - name: Manage credit and collections
                 items:
