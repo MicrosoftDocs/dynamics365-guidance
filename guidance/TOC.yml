@@ -887,7 +887,6 @@ items:
                     href: resources/test-load-tests-scaling.md
                   - name: Scenarios for load tests
                     href: resources/test-load-test-scenarios.md
-
               - name: Add analytics
                 items:
                   - name: Get started with analytics for Omnichannel
@@ -1139,6 +1138,8 @@ items:
                 href: resources/contact-center-deploy-voice-channel-best-practices.md
           - name: Field Service
             items:
+              - name: Scalable field service management for utility projects
+                href: reference-architectures/field-service-utilities-architecture.md
               - name: Dynamics 365 Project Operations to Field Service integration architecture
                 href: reference-architectures/project-operations-field-service-integration.md
               - name: Field Service and SAP architecture
@@ -1149,6 +1150,8 @@ items:
                 href: reference-architectures/finance-supply-chain-hybrid-connect.md
               - name: Power Pages with Dynamics 365 finance and operations apps
                 href: reference-architectures/finance-operations-dataverse-power-pages.md
+              - name: Optimized year end closing process
+                href: reference-architectures/finance-optimized-year-end-closing-process.md
           - name: Sales
             items:
               - name: Dynamics 365 and Azure-powered manufacturing sales framework
@@ -1167,6 +1170,8 @@ items:
                 href: reference-architectures/supply-chain-external-wms-item-balance-architecture.md
               - name: BOPIS architecture with Dynamics 365
                 href: reference-architectures/supply-chain-commerce-bopis-architecture.md
+          - name: Healthcare write-back identifiers to FHIR server
+            href: reference-architectures/healthcare-writeback-dynamics-365-identifiers-fhir-server.md
       - name: Security and compliance
         items:
           - name: Security strategy

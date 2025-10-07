@@ -155,7 +155,7 @@ The catalog in Mavim can integrate with various Microsoft tools and services, su
 
 Principal author:
 
-- [Mavim](https://www.mavim.com/) \| Microsoft ISV Partner
+- [Mavim](https://www.mavim.com/) \| Microsoft Partner
 
 Other contributors:
 

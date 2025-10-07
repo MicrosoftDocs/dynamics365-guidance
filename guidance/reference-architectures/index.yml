@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 09/26/2025
+  ms.date: 10/01/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -67,6 +67,8 @@ landingContent:
     linkLists:
       - linkListType: architecture
         links:
+          - text: Scalable field service management for utility projects
+            url: field-service-utilities-architecture.md
           - text: Field Service and SAP integration
             url: field-service-sap-architecture.md
           - text: Project Operations to Field Service integration
@@ -96,6 +98,15 @@ landingContent:
         url: supply-chain-process-outbound-goods-connect-external-services.md
       - text: Integrate Dynamics 365 Supply Chain Management with an external warehouse management system
         url: supply-chain-external-wms-item-balance-architecture.md
+
+# Card - Finance
+
+  - title: Finance
+    linkLists:
+      - linkListType: architecture
+        links:
+          - text: Optimized year end closing process
+            url: finance-optimized-year-end-closing-process.md
 
 # Card - finance and operations apps
 

@@ -1,14 +1,16 @@
 ---
-title: Process maturity overview
+title: Process Maturity Models for Dynamics 365 Projects
+ms.reviewer: edupont
 description: Learn what process maturity is, how to measure it, and how to create a process management team to improve it during implementation projects with Dynamics 365.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 08/07/2024
+ms.date: 10/03/2025
 ai-usage: ai-assisted
 ---
 
-# Process maturity overview
+
+# Process maturity models for Dynamics 365 projects
 
 ***Applies to: Dynamics 365, Power Platform***
 
@@ -74,7 +76,7 @@ Business processes play a pivotal role in maximizing the benefits of technology 
 
 Create a process management team when you implement Dynamics 365 to help ensure the implementation is successful while also creating a culture of continuous improvement and optimized processes.
 
-## Related information
+## Related resources
 
 - [Capability maturity model integration (CMMI)](https://cmmiinstitute.com/)
 <!-- the following link appears to be outdated - [IT Infrastructure Library (ITIL)](https://www.peoplecert.org/ITIL-4) -->
