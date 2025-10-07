@@ -1,7 +1,7 @@
 ---
-title: Overview of the service to deliver end-to-end business process flow
+title: Overview of the service to deliver end-to-end business process
 description: Learn about the service to deliver end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 02/14/2025
+ms.date: 10/03/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy

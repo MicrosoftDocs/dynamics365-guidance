@@ -1,7 +1,7 @@
 ---
-title: TechTalk - Solution blueprint review with FastTrack for Dynamics 365
+title: TechTalk - Solution Blueprint Review with FastTrack
 description: Get a summary of a TechTalk video about the solution blueprint review that the FastTrack team for Dynamics 365 recommends for all implementation projects.
-ms.date: 11/05/2024
+ms.date: 10/03/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -89,13 +89,13 @@ After the review workshop is scheduled, effective time management is important, 
 
 Participants in the review workshop should include the core members of the implementation team, such as project managers and solution architects from both the customer and partner sides. Attendance by the right participants ensures effective communication and understanding of the project's complexity and structure.
 
-In the case of FastTrack engagements for customers that invest $100,000–300,000, the FastTrack team doesn't attend the review workshop. Instead, FastTrack spends approximately 45 minutes reviewing the outcomes of the workshop.
+Depending on the investment that an organization makes in the implementation project, the FastTrack team doesn't attend the review workshop in projects with a lower investment. Instead, FastTrack spends approximately 45 minutes reviewing the outcomes of the workshop.
 
 ## Post-review process and follow-up
 
 After the solution blueprint review workshop is completed, findings are categorized and structured for easy understanding. Regardless of whether the findings are categorized as risks, issues, or assertions, they are shared with the project team, together with actionable recommendations.
 
-For projects that are within the $100,000–300,000 range, the partner architect typically drives the solution blueprint review. Microsoft FastTrack architects then spend some time reviewing the outcomes and suggesting improvements. For larger projects, FastTrack architects take a more hands-on role in the production of findings and recommendations.
+For some projects with a smaller investment size, the partner architect typically drives the solution blueprint review. Microsoft FastTrack architects then spend some time reviewing the outcomes and suggesting improvements. For larger projects, FastTrack architects take a more hands-on role in the production of findings and recommendations.
 
 After findings are finalized, they are shared not only with the implementation team but also with key project stakeholders. This approach ensures that everyone who is involved in the project understands its health, risks, and next steps.
 

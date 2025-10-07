@@ -54,7 +54,7 @@ In unmanaged accounts, customers can leverage AppSource to find a Co-sell Priori
 
 1. Navigate to the [AppSource](https://appsource.microsoft.com/marketplace/consulting-services) for the Co-sell partners.
 
-2. Adjust the filters along the left side of the page to narrow the partner and solutions available, including by Solution Area (such as Optimize Finance & Supply Chain, with the ability to click into the ERP/Move to Cloud customer scenario), then you can search by industry or by key terms such as "AX Migration". You can also filter on Solution Type, including either Services (SI partners) or IP (ISV partners). We recommend starting with a filter for Co-Sell Prioritized partners, who are the most validated. 
+2. Adjust the filters along the left side of the page to narrow the partner and solutions available, including by Solution Area (such as Optimize Finance & Supply Chain, with the ability to click into the ERP/Move to Cloud customer scenario), then you can search by industry or by key terms such as "AX Migration". You can also filter on Solution Type, including either Services (SI partners) or IP (external service providers). We recommend starting with a filter for Co-Sell Prioritized partners, who are the most validated. 
 
 3. Review the partners and solutions that best fit the need.
 

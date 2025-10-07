@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Project Operations and Field Service Integration Architecture
-description: Integrate Dynamics 365 Project Operations with Field Service to streamline project planning, work order management, and field operations using Power Automate and Azure Functions.
+title: Project Operations and Field Service Integration
+description: Find a recommended architecture for integrating Dynamics 365 Project Operations with Field Service to streamline project planning, work order management, and field operations using Power Automate and Azure Functions.
 author: v-wendysmith
 ms.topic: reference-architecture
 ms.date: 08/19/2025

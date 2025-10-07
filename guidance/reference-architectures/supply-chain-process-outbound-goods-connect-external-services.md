@@ -1,11 +1,11 @@
 ---
-title: Process outbound goods with Dynamics 365 and external service providers
+title: Process outbound goods with external service providers
 description: Integrate Dynamics 365 Supply Chain Management or Commerce with external service providers for efficient outbound goods processing. Learn to streamline cubing, packing, and shipping workflows with Azure services.
 #customer intent: As a distribution company owner, I want to centralize integration between Dynamics 365 and multiple external service providers, so that I can scale operations across different business lines while maintaining data consistency.
 author: edupont04
 ms.author: edupont
 ms.topic: reference-architecture
-ms.date: 08/19/2025
+ms.date: 10/03/2025
 ---  
 # Process outbound goods with Dynamics 365 and external service providers
 

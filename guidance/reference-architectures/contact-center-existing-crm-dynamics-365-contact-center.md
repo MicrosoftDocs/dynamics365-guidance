@@ -1,5 +1,5 @@
 ---
-title: Contact center retaining existing CRM and using Dynamics 365 Contact Center
+title: Architecture for contact center with existing CRM
 description: Learn about reference architectures for contact centers with Dynamics 365 Contact Center and a non-Microsoft CRM solution.
 author: edupont04
 ms.author: edupont
