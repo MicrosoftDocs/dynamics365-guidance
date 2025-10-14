@@ -1144,6 +1144,8 @@ items:
                 href: reference-architectures/project-operations-field-service-integration.md
               - name: Field Service and SAP architecture
                 href: reference-architectures/field-service-sap-architecture.md
+              - name: Geo scheduler solution
+                href: reference-architectures/field-service-geo-scheduler.md
           - name: Finance
             items:
               - name: Business solution with connections to online and on-premises apps
@@ -1160,6 +1162,10 @@ items:
                 href: reference-architectures/sales-phased-migration.md
               - name: Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights
                 href: reference-architectures/sales-customer-insights-contact-deduplication-agent.md
+              - name: Reliable data sync with asynchronous request-reply pattern
+                href: reference-architectures/sales-reliable-data-sync-asynchronous-request-reply.md
+              - name: Unified CRM solution
+                href: reference-architectures/sales-customer-insights-customer-service-crm-system.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
