@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 10/01/2025
+  ms.date: 10/09/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -73,6 +73,8 @@ landingContent:
             url: field-service-sap-architecture.md
           - text: Project Operations to Field Service integration
             url: project-operations-field-service-integration.md
+          - text: Geoscheduler solution with Field Service
+            url: field-service-geo-scheduler.md
 
 # Card - Sales
 
@@ -86,6 +88,10 @@ landingContent:
           url: sales-phased-migration.md
         - text: Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights
           url: sales-customer-insights-contact-deduplication-agent.md
+        - text: Reliable data sync with asynchronous request-reply pattern
+          url: sales-reliable-data-sync-asynchronous-request-reply.md
+        - text: Unified CRM system with Sales, Customer Insights, and Customer Service
+          url: sales-customer-insights-customer-service-crm-system.md
 # Card - Supply Chain Management
 
   - title: Supply Chain Management

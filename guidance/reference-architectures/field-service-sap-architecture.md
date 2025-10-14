@@ -35,7 +35,7 @@ The following diagram shows the solution architecture.
 
 :::image type="content" source="media/field-service-sap-architecture.svg" alt-text="Screenshot of the reference architecture diagram for Microsoft Dynamics 365 Field Service with SAP." lightbox="media/field-service-sap-architecture.svg":::
 
-[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/field-service-sap-reference-architecture.pptx) with this architecture. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
+[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/) with this architecture. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 

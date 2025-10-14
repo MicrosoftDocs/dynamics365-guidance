@@ -4,7 +4,7 @@ description: Learn how to write back Dynamics 365 GUIDs to an external FHIR serv
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 10/07/2025
+ms.date: 10/13/2025
 ms.topic: reference-architecture
 ---
 # Configure Dynamics 365 identifier write-back for Fast Healthcare Interoperability Resources (FHIR)
@@ -33,7 +33,7 @@ This diagram shows the solution architecture.
 
 :::image type="content" source="media/healthcare-writeback-dynamics-365-identifiers-fhir-server-architecture.svg" alt-text="Diagram that shows the architecture for writing Dynamics 365 identifiers back to a FHIR server." lightbox="media/healthcare-writeback-dynamics-365-identifiers-fhir-server-architecture.svg":::
 
-[Download a PowerPoint file with this architecture.](https://github.com/microsoft/dynamics365patternspractices/tree/main/architectures)
+[Download a PowerPoint file with this architecture](https://github.com/microsoft/dynamics365patternspractices/tree/main/architectures). To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 
@@ -157,7 +157,7 @@ This architecture lets you write back Dynamics 365 identifiers to a FHIR server.
 
 Follow these steps to create identifier tables for each table that needs FHIR integration and Dynamics 365 identifier write-back.
 
-1. Sign in to [Power Apps](https://www.make.powerapps.com). If you don't have a Power Apps account, select the **Get started free** link.
+1. Sign in to [Power Apps](https://make.powerapps.com). If you don't have a Power Apps account, select the **Get started free** link.
 1. In your development environment, open the relevant solution, and create a new `{FHIRResource} Identifier` table. For example, create one with the logical name `prefix_patientidentifier`.
 1. Create the primary attribute field **System** (`prefix_system`) as a single line of text.
 1. Create the value field **Value** (`prefix_value`) as a single line of text.

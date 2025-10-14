@@ -27,7 +27,7 @@ Solution architects are key stakeholders for Dynamics 365, the external system, 
 
 :::image type="content" source="../media/scheduled-data-exports-from-dynamics-365-ce-to-csv.svg" alt-text="Diagram showing the connection between Data Lake Storage and Synapse S Q L serverless storage." lightbox="../media/scheduled-data-exports-from-dynamics-365-ce-to-csv.svg":::
 
-[Download a Visio file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/scheduled-data-exports-from-dynamics-ce-to-csv-diagram.vsdx) with this architecture.
+[Download a Visio file with this architecture](https://github.com/microsoft/dynamics365patternspractices/tree/main/architectures). To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 

@@ -33,7 +33,7 @@ The following diagram illustrates the application architecture for the solution:
 
 :::image type="content" source="../media/dynamics-365-travel-hospitality-2.svg" alt-text="Diagram showing the connection between Power Pages, Dynamics 365, Power BI, and content management and delivery." lightbox="../media/dynamics-365-travel-hospitality-2.svg":::
 
-[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/reference-architecture-dynamics-365-travel-hospitality.pptx) with these architectures. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
+[Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/) with these architectures. To download an architecture, choose the file in the explorer, and then choose the download raw file icon.
 
 ## Dataflow
 
