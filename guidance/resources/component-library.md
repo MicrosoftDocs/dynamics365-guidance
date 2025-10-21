@@ -1,7 +1,7 @@
 ---
 title: Sample library for Customer Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions quickly and easily.
-ms.date: 09/04/2024
+ms.date: 10/20/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: viange
@@ -36,12 +36,6 @@ The following sections outline the content of the collection. Each section inclu
 
 ### Omnichannel
 
-- Custom record identification
-
-    To identify a customer in the contact center, you might have to apply custom search criteria, based on the information that the customer provides. This approach will help you quickly and efficiently find the customer's profile and access their records. In OOB, you can search by name, phone number, and email address. However, you might want to search by account number or other relevant data. This article explains how to customize the search criteria.
-
-    Learn more at [Custom Record Identification](cs-omnichannel-custom-record-identification-rule.md).
-
 - Sample context parsing in JavaScript
 
     Context variables play a crucial role in optimizing customer service workflows and enhancing agent productivity. They provide essential context for effective communication and decision-making.  
@@ -61,6 +55,10 @@ The following sections outline the content of the collection. Each section inclu
     Agent scripts are essential tools for minimizing human errors during customer interactions. They provide structured guidance to agents, ensuring consistent and efficient resolution processes. These scripts come in two main forms: text-based guidance and macros. Macros simplify repetitive tasks, allowing agents to handle complex actions with a single click. By incorporating these elements, teams can optimize workflows and improve overall operational efficiency.  
 
     Learn more at [AgentScript and Macro samples](cs-agent-script-macro-sample.md).
+
+- Custom record identification
+
+    To identify a customer in the contact center, you might have to apply custom search criteria, based on the information that the customer provides. This approach will help you quickly and efficiently find the customer's profile and access their records. Learn how to add custom fields to the Contact and Account tables that you can then search for at [Enable fields for identifying customers](/dynamics365/contact-center/extend/enable-fields-identify-customers). The article in the Dynamics 365 guidance hub that explained this scenario is deprecated and replaced by the article in the Dynamics 365 Contact Center documentation.
 
 ### AI
 

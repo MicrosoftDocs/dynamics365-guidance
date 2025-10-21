@@ -1,7 +1,7 @@
 ---
 title: Overview of the Manage project delivery business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for tracking the work that is done on a project.
-ms.date: 10/31/2023
+ms.date: 10/21/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
@@ -116,7 +116,7 @@ If you want to implement Dynamics 365 solutions to help with your *manage projec
 1. [Manage project financials](project-to-profit-manage-project-financials-overview.md)
 1. [Analyze project performance](project-to-profit-monitor-analyze-project-performance-overview.md)
 
-## Related information
+## Related content
 
 You can use the following resources to learn more about the *manage project delivery* process in Dynamics 365.
 
@@ -124,16 +124,16 @@ You can use the following resources to learn more about the *manage project deli
 - [Time overview](/dynamics365/project-operations/time/time-entry-overview)
 - [Time entry UI behavior](/dynamics365/project-operations/time/ui-behavior-time)
 
-    - [Extending time entries](/dynamics365/project-operations/time/customize-weekly-time-entry-grid)
+  - [Extending time entries](/dynamics365/project-operations/time/customize-weekly-time-entry-grid)
 
 - [Project effort tracking](/dynamics365/project-operations/project-management/project-tracking-overview)
 - Find definitions of terminology that is used in content for *manage project delivery* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
-    - [Project task](glossary.md#project-delivery)
-    - [Project delivery](glossary.md#project-delivery)
-    - [Time entry](glossary.md#time-entry)
-    - [Billable hours](glossary.md#billable-hours)
-    - [Non-billable hours](glossary.md#non-billable-hours)
+  - [Project task](glossary.md#project-delivery)
+  - [Project delivery](glossary.md#project-delivery)
+  - [Time entry](glossary.md#time-entry)
+  - [Billable hours](glossary.md#billable-hours)
+  - [Non-billable hours](glossary.md#non-billable-hours)
 
 <!-- ## Tags
 

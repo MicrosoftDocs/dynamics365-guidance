@@ -1,10 +1,10 @@
 ---
-title: Patterns in various scenarios in Dynamics 365 solutions
+title: Patterns in Dynamics 365 solutions
 description: Get an overview of implementation patterns, business process patterns, and other design patterns that we have identified for solutions with Dynamics 365 apps.
 author: edupont04
 ms.author: edupont
-ms.topic: overview #Required; don't change.
-ms.date: 06/28/2023
+ms.topic: overview
+ms.date: 10/21/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -18,17 +18,35 @@ In the list below, look for a scenario that's similar to what you need and then 
 
 We'll continue to add patterns over time in collaboration with the Dynamics 365 community. Learn more about contributions to patterns at [Contribute to Dynamics 365 guidance content](/dynamics365/get-started/contribute#dynamics-365-guidance-content).  
 
-## Established patterns
+## Established patterns in business processes
+
+The following table lists the already established patterns in the [business process catalog](../business-processes/about.md).  
+
+|Area  |Pattern  |
+|---------|---------|
+|Manage project delivery|[Pattern for entering project expenses using the Dynamics 365 expense management mobile app](../business-processes/project-to-profit-pattern-enter-project-expenses-expense-management.md)|
+|Manage project financials|[Adjust project transactions](../business-processes/project-to-profit-pattern-adjust-transactions.md)|
+|Analyze project performance|[Pattern for analyze actuals versus budget](../business-processes/project-to-profit-pattern-analyze-actual-versus-budget.md)|
+|Customer credit limits   |[Manually set and check customer credit limits](../business-processes/pattern-manually-set-check-customer-credit-limits.md)         |
+|Customer credit limits   |[Set customer credit limits for a group of customers](../business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md)         |
+
+## Established patterns in implementation stages
+
+The following table lists the already established patterns in the *initiate* and *implement* stages of any implementation project.  
+
+|Area  |Pattern  |
+|---------|---------|
+|Data migration|[Migrate inventory costing data](../implementation-guide/migrate-inventory-costing-data.md)|
+|Solution design|[Create a functional and technical design document](create-functional-technical-design-document.md)|
+
+<!-- 
+## Established design patterns
 
 The following table lists the already established patterns.  
 
 |Area  |Pattern  |
 |---------|---------|
-|Customer credit limits   |[Manually set and check customer credit limits](../business-processes/pattern-manually-set-check-customer-credit-limits.md)         |
-|Customer credit limits   |[Set customer credit limits for a group of customers](../business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md)         |
-|Data migration|[Migrate inventory costing data](../implementation-guide/migrate-inventory-costing-data.md)|
-|Solution design|[Create a functional and technical design document](create-functional-technical-design-document.md)|
-
+||| -->
 ## Next steps
 
 [Dynamics 365 guidance documentation](../index.yml)  
