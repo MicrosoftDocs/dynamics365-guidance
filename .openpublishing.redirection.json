@@ -269,6 +269,11 @@
       "source_path": "guidance/resources/fs-work-order-summary-configuration-template.md",
       "redirect_url": "/dynamics365/guidance/resources/field-service-work-order-summary-configuration-template",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/resources/cs-omnichannel-custom-record-identification-rule.md",
+      "redirect_url": "/dynamics365/contact-center/extend/enable-fields-identify-customers",
+      "redirect_document_id": false
     }
 
 

@@ -805,8 +805,6 @@ items:
                         href: resources/cs-route-release-capacity-in-ur.md
                   - name: Omnichannel
                     items:
-                      - name: Custom record identification rule
-                        href: resources/cs-omnichannel-custom-record-identification-rule.md
                       - name: Sample context parsing
                         href: resources/cs-omnichannel-sample-context-parsing.md
                       - name: LiveChat widget customization samples

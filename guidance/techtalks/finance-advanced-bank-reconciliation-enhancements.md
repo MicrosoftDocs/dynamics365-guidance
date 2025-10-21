@@ -1,7 +1,7 @@
 ---
 title: TechTalk Advanced bank reconciliation enhancements for Dynamics 365 Finance
 description: Summary of TechTalk video that talks about the advanced bank reconciliation capabilities in Dynamics 365 Finance.
-ms.date: 10/08/2024
+ms.date: 10/20/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -14,7 +14,7 @@ In today's fast-paced financial world, businesses need reliable, efficient tools
 
 We based this article on [a TechTalk](https://youtu.be/gBdnfxUNcOw) that you can find online in the Dynamics 365 channel on YouTube.  
 
-:::image type="content" source="media/finance-adv-bank-rec-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/0VFeRi_S8r0":::
+:::image type="content" source="media/finance-adv-bank-rec-slide.png" alt-text="Thumbnail of the first slide in the presentation." link="https://youtu.be/gBdnfxUNcOw":::
 
 ## Overview of advanced bank reconciliation
 
