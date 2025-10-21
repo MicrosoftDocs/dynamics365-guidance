@@ -1095,6 +1095,12 @@ items:
             href: business-processes/pattern-manually-set-check-customer-credit-limits.md
           - name: Set customer credit limits
             href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
+          - name: Adjust project transactions pattern
+            href: business-processes/project-to-profit-pattern-adjust-transactions.md
+          - name: Analyze project actuals versus budget
+            href: business-processes/project-to-profit-pattern-analyze-actual-versus-budget.md
+          - name: Enter expenses with expense management
+            href: business-processes/project-to-profit-pattern-enter-project-expenses-expense-management.md
           - name: Migrate inventory costing data
             href: implementation-guide/migrate-inventory-costing-data.md
           - name: Create a functional and technical design document
