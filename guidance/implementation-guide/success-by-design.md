@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
-ms.date: 12/02/2024
+ms.date: 10/20/2025
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
@@ -88,17 +88,17 @@ For interested customers, Microsoft recommends that project leaders team up with
 
 ## Success by Design phases
 
-Success by Design maps the Dynamic 365 implementation lifecycle into four methodology-agnostic phases: Initiate, Implement, Prepare, and Operate. In this section and the following sections, we outline the Success by Design phases, their relationship to Success by Design reviews, and the desired outputs and outcomes.
+Success by Design maps the Dynamic 365 implementation lifecycle into five methodology-agnostic phases: Discover, Initiate, Implement, Prepare, and Operate. In this section and the following sections, we outline the Success by Design phases, their relationship to Success by Design reviews, and the desired outputs and outcomes.
 <!--  Commenting out until we can have an illustration with the 5 stages.
 :::image type="content" source="media/success-by-design-phases.png" alt-text="Four bubbles to represent the four phases, Initiate, Implement, Prepare, Operate." lightbox="media/success-by-design-phases.png"::: -->
 
-## Strategize
+## Discover
 
-In the **Strategize phase**, the project team is in discovery mode, gathering and validating business requirements, finalizing the high-level solution approach. All implementations should have a well-rounded implementation strategy that delivers on the promise of digital transformation. The section also covers the environment strategy, and the organizational strategy.
+In the **Discover phase**, the project team is in discovery mode, gathering and validating business requirements, finalizing the high-level solution approach. All implementations should have a well-rounded implementation strategy that delivers on the promise of digital transformation. The section also covers the environment strategy, and the organizational strategy.
 
 ### Initiate
 
-In the **Initiate phase**, the project team makes inroads to define all in-scope workstreams, and updating the project plan to reflect these updates. When the project team has produced the high-level solution design (in the *Strategize** phase) and the related project workstreams are more or less defined, Success by Design begins with the *Solution Blueprint Review*. Learn more in the section [Success by Design reviews](#success-by-design-reviews).  
+In the **Initiate phase**, the project team makes inroads to define all in-scope workstreams, and updating the project plan to reflect these updates. When the project team has produced the high-level solution design (in the **Discover** phase), and the related project workstreams are more or less defined, Success by Design begins with the *Solution Blueprint Review*. Learn more in the section [Success by Design reviews](#success-by-design-reviews).  
 
 ### Implement
 
@@ -123,7 +123,7 @@ The **Solution Blueprint Review** serves as the starting point of Success by Des
 The following image illustrates that Success by Design reviews aren't to be conducted as abstract exercises separated from the project. Rather, the scheduling and implementation of each review relies on the availability of key project artifacts and the readiness of the project team to discuss them.
 
 > [!TIP]
-> The image predates the change to Success by Design that added an earlier stage with some of the elements from the *Initiate* phase. Read the image so that the *Initiate* column covers the *Strategize* and *Initiate* phases.
+> The image predates the change to Success by Design that added an earlier stage with some of the elements from the *Initiate* phase. Read the image so that the *Initiate* column covers the *Discover* and *Initiate* phases.
 
 :::image type="content" source="media/success-by-design-outputs.png" alt-text="Diagram with outputs for each Success by Design phase." lightbox="media/success-by-design-outputs.png":::
 
