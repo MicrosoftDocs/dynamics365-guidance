@@ -4,18 +4,18 @@ description: Learn about the Manage the accounts payable business process area, 
 author: meneksesaygili
 ms.author: msaygili
 ms.topic: concept-article
-ms.date: 05/21/2025
+ms.date: 10/28/2025
 ---
 
-# Manage the accounts payable overview
+# Overview of the Manage the accounts payable business process area
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Intelligent Order Management, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 This article describes the *manage the accounts payable* business process area in the *Source to pay* end-to-end process. This process area includes the processes for:
 
-* Setting the vendor invoice matching policies of how invoicing performs and is accounted for.
-* Paying vendors according to the agreed-upon payment terms, ensuring that payments are made accurately and on time, and settling them against invoices manually or using an automated process.
-* Managing supplier or vendor rebates or other incentives in your supply chain.
+- Setting the vendor invoice matching policies of how invoicing performs and is accounted for.
+- Paying vendors according to the agreed-upon payment terms, ensuring that payments are made accurately and on time, and settling them against invoices manually or using an automated process.
+- Managing supplier or vendor rebates or other incentives in your supply chain.
 
 ## Manage the accounts payable
 
@@ -27,19 +27,19 @@ Define and incorporate the *manage the accounts payable* business process area i
 
 As policies and procedures are outlined within the procurement area, there's also input from other departments that you must take into consideration. These stakeholders include, but aren't limited to:
 
-* **Procurement and sourcing stakeholders**: Responsible for the creation of purchase requisitions, purchase orders, and purchase order changes.
-* **Audit and compliance stakeholders**: These stakeholders ensure the proper approvals and configurations are set to meet internal and external audit requirements.
-* **Finance team stakeholders**: Includes Accounts Payable Specialists, Financial Analysts, Controllers, and Chief Financial Officer (CFO). These stakeholders play a crucial role in:
-  * designing and configuring the vendor invoices, payments and rebates approval process, defining rebate programs, and analyzing rebate performance,
-  * processing purchase ledger and incoming payments in compliance with financial policies and procedures,
-  * verifying, classifying, and recording accounts payable data, and
-  * preparing bills, invoices, and bank deposits.
+- **Procurement and sourcing stakeholders**: Responsible for the creation of purchase requisitions, purchase orders, and purchase order changes.
+- **Audit and compliance stakeholders**: These stakeholders ensure the proper approvals and configurations are set to meet internal and external audit requirements.
+- **Finance team stakeholders**: Includes Accounts Payable Specialists, Financial Analysts, Controllers, and Chief Financial Officer (CFO). These stakeholders play a crucial role in:
+  - designing and configuring the vendor invoices, payments and rebates approval process, defining rebate programs, and analyzing rebate performance,
+  - processing purchase ledger and incoming payments in compliance with financial policies and procedures,
+  - verifying, classifying, and recording accounts payable data, and
+  - preparing bills, invoices, and bank deposits.
   
   The accounts payable clerk may also be responsible for reconciling the accounts payable ledger to ensure that all bills and payments are accounted for and properly posted. They may also verify and investigate discrepancies, if any, by reconciling vendor accounts and monthly vendor statements. Their expertise ensures the financial accuracy and viability of the incentive programs.
 
-* **Sales and procurement stakeholders**: Includes Sales Representatives, Procurement Managers, and Category Managers. These stakeholders are essential in configuring rebate eligibility and generating vendor rebates. Their input is vital for aligning incentive programs with sales targets and procurement strategies.
-* **Supply chain management stakeholders**: Includes Supply Chain Managers, Inventory Planners, and Logistics Coordinators. These stakeholders contribute to the configuration of vendor rebate approval processes, ensuring alignment with supply chain operations and optimizing the logistics of rebate-related transactions.
-* **Executive leadership stakeholders**: Includes Chief Executive Officer (CEO), Chief Operating Officer (COO), and the Chief Financial Officer (CFO). Executive leaders are engaged in high-level decision-making and approval processes, providing strategic direction and oversight to ensure that vendor payments, rebate and incentive programs align with organizational goals and objectives.
+- **Sales and procurement stakeholders**: Includes Sales Representatives, Procurement Managers, and Category Managers. These stakeholders are essential in configuring rebate eligibility and generating vendor rebates. Their input is vital for aligning incentive programs with sales targets and procurement strategies.
+- **Supply chain management stakeholders**: Includes Supply Chain Managers, Inventory Planners, and Logistics Coordinators. These stakeholders contribute to the configuration of vendor rebate approval processes, ensuring alignment with supply chain operations and optimizing the logistics of rebate-related transactions.
+- **Executive leadership stakeholders**: Includes Chief Executive Officer (CEO), Chief Operating Officer (COO), and the Chief Financial Officer (CFO). Executive leaders are engaged in high-level decision-making and approval processes, providing strategic direction and oversight to ensure that vendor payments, rebate and incentive programs align with organizational goals and objectives.
 
 ## Process flow
 
@@ -50,32 +50,56 @@ The following diagram illustrates the *manage the accounts payable* business pro
 :::image type="content" source="media\manage-accounts-payable-process-flow.svg" alt-text="Diagram of the process vendor invoices process flow, showing the connections within the business process area." lightbox="media\manage-accounts-payable-process-flow.svg":::
 
 1. Start
-2. *Manage accounts payable* end-to-end process
+1. *Manage accounts payable* business process area
    1. *Process supplier invoices*
-   2. *Dispute invoices*
-   3. *Receive supplier credits*
-   4. *Issue and settle supplier payments*
-   5. *Manager promissory notes*
-      - *Cancel supplier payments*
-      - *Correct supplier payments*
-      - *Process supplier rebates and incentives*
-3. End
+   1. *Dispute invoices*
+   1. *Receive supplier credits*
+   1. *Issue and settle supplier payments*
+   1. *Manage promissory notes*  
+
+      The last business processes in this area are parallel, not sequential.
+   1. *Cancel supplier payments*
+   1. *Correct supplier payments*
+   1. *Process supplier rebates and incentives*
+1. End
 
 ## Benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the manage accounts payable. The following sections outline the key benefits that an organization might monitor and measure for *manage accounts payable*.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support accounts payable. The following sections outline the key benefits that an organization might monitor and measure for *manage accounts payable*. We list key benefits for some of the business processes in this area.
 
-### Efficiency
+### Process supplier invoices
 
-The system enhances efficiency by validating vendor invoicing. It can match product receipts to invoice lines that have a three-way matching policy and prevalidate through simulated posting. This helps reduce the errors and inefficiencies that can occur when information is manually entered and processed.
+This business process helps with the following key benefits:
 
-### Visibility
+- Efficiency
 
-The system provides an enhanced experience for viewing workflow and reaching the historical information for vendor invoices. This visibility can help Accounts payable clerks and managers process vendor invoices more efficiently.
+  The system enhances efficiency by validating vendor invoicing. It can match product receipts to invoice lines that have a three-way matching policy and prevalidate through simulated posting. This helps reduce the errors and inefficiencies that can occur when information is manually entered and processed.
 
-### Control
+- Control
 
-When the organization manages their accounts payable, they gain direct control over each step of the process. Such control can be beneficial for businesses that require a high level of oversight or have specific procedures to follow.
+  When the organization manages their accounts payable, they gain direct control over each step of the process. Such control can be beneficial for businesses that require a high level of oversight or have specific procedures to follow.
+
+### Issue and settle supplier payments
+
+This business process helps with the following key benefits:
+
+- Automated supplier payment proposal
+- Various payment formats
+- Centralized payments
+- Efficient settlement process
+
+Learn more at [Issue and settle supplier payments benefits](source-to-pay-issue-and-settle-vendor-payments-overview.md#issue-and-settle-supplier-payments-benefits).  
+
+### Process supplier rebates and incentives
+
+This business process helps with the following key benefits:
+
+- Streamlined rebate approval process  
+- Enhanced financial visibility and control
+- Improved collaboration across departments
+- Accelerated rebate processing
+
+Learn more at [Process supplier rebates and incentives benefits](source-to-pay-process-vendor-rebates-incentives-overview.md#process-supplier-rebates-and-incentives-benefits).  
 
 ## Next steps
 
