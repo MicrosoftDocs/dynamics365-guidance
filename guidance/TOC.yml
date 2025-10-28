@@ -1091,20 +1091,28 @@ items:
         items:
           - name: Overview
             href: patterns/overview.md
+          - name: Create a functional and technical design document
+            href: patterns/create-functional-technical-design-document.md
           - name: Manually set customer credit limits
             href: business-processes/pattern-manually-set-check-customer-credit-limits.md
           - name: Set customer credit limits
             href: business-processes/pattern-set-customer-credit-limits-for-group-of-customers.md
-          - name: Adjust project transactions pattern
-            href: business-processes/project-to-profit-pattern-adjust-transactions.md
-          - name: Analyze project actuals versus budget
-            href: business-processes/project-to-profit-pattern-analyze-actual-versus-budget.md
-          - name: Enter expenses with expense management
-            href: business-processes/project-to-profit-pattern-enter-project-expenses-expense-management.md
           - name: Migrate inventory costing data
             href: implementation-guide/migrate-inventory-costing-data.md
-          - name: Create a functional and technical design document
-            href: patterns/create-functional-technical-design-document.md
+          - name: Project to profit patterns
+            items:
+              - name: Analyze project actuals versus budget
+                href: business-processes/project-to-profit-pattern-analyze-actual-versus-budget.md
+              - name: Adjust project transactions pattern
+                href: business-processes/project-to-profit-pattern-adjust-transactions.md
+              - name: Enter expenses with expense management
+                href: business-processes/project-to-profit-pattern-enter-project-expenses-expense-management.md
+              - name: Enter expenses by importing credit card transactions
+                href: business-processes/project-to-profit-pattern-enter-project-expenses-credit-card-transaction-import.md
+              - name: Enter expenses in the general journal
+                href: business-processes/project-to-profit-pattern-enter-project-expenses-general-journal.md
+              - name: Enter project expenses in the expense journal
+                href: business-processes/project-to-profit-pattern-enter-project-expenses-expense-journal.md
       - name: Reference architectures
         href: reference-architectures/index.yml
         items:

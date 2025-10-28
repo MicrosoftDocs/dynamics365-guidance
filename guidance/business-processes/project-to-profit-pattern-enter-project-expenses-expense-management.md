@@ -1,21 +1,21 @@
 ---
 title: Pattern for enter project expenses with expense management
-description: Learn how to register project-related expenses using expense management capabilities in Dynamics 365. Optimize financial oversight, detect cost overruns, and improve project outcomes.
+description: Learn how to register project-related expenses using expense management capabilities in Dynamics 365 Project Operations. Optimize financial oversight, detect cost overruns, and improve project outcomes.
 #customer intent: As a project manager, I want to compare actual project expenses to the budget so that I can identify and address cost overruns early.
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 10/21/2025
-ms.topic: design-pattern
+ms.date: 10/28/2025
+ms.topic: concept-article
 ms.custom: 
   - ai-gen-docs-bap
 ai-usage: ai-assisted
 ---
-# Pattern for entering project expenses using the Dynamics 365 expense management mobile app with Dynamics 365 Project Operations and Finance
+# Pattern for entering project expenses using the Dynamics 365 expense management module in Dynamics 365 Project Operations and Finance
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations***
 
-This article explains how to enter project expenses using the Dynamics 365 expense management mobile app, so you optimize financial oversight, detect cost overruns early, and improve project outcomes.
+This article explains how to enter project expenses using the Dynamics 365 expense management module, so you optimize financial oversight, detect cost overruns early, and improve project outcomes. It's a pattern under the *Track project expenses* business process in the [Manage project delivery](project-to-profit-deliver-project-work.md) area of the [Project to profit](project-to-profit-overview.md) end-to-end scenario.
 
 ## Context and problem
 
@@ -45,13 +45,13 @@ This pattern might not be suitable:
 
 This solution provides a foundational framework for tracking and managing expenses across both Dynamics 365 Finance and Project Operations. By using the built-in expense management tools, businesses can ensure accurate recording of expenses, enforce compliance with company policies, and integrate expenses seamlessly with financial and project-related workflows. For organizations that use Project Operations, this integration allows expenses to be linked directly to specific projects. This way, you get precise tracking of billable and non-billable costs, improved budget management, and increased likelihood that project profitability is maintained.
 
-### Procedure: Enter expenses
+### Procedure: Enter expenses in the built-in expense management tools
 
 Use the following steps to enter expenses:
 
-1. Enable the Expense Management module
+1. Enable the **Expense Management** module
 
-    Activate the Expense Management module in Dynamics 365 Finance and Project Operations.
+    Activate the **Expense Management** module in Dynamics 365 Finance and Dynamics 365 Project Operations. Learn more at [Lifecycle Services resources](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).  
 
 1. Configure expense categories and policies
 
@@ -86,14 +86,14 @@ If you want to implement Dynamics 365 solutions to assist with your *enter proje
     1. *Control project scope*  
     1. *Track project expenses*  
 
-        1. *Enter project expenses using credit card transaction import in Dynamics 365 Project Operations*  
+        1. [Enter project expenses using credit card transaction import in Dynamics 365 Project Operations](project-to-profit-pattern-enter-project-expenses-credit-card-transaction-import.md)  
         1. *Enter project expenses using purchase transactions in Dynamics 365 Business Central*  
-        1. *Enter project expenses using an expense journal in Dynamics 365 Project Operations for manufacturing*  
+        1. [Enter project expenses using an expense journal in Dynamics 365 Project Operations for manufacturing](project-to-profit-pattern-enter-project-expenses-expense-journal.md)  
         1. *Enter project expenses using an entry journal in Dynamics 365 Project Operations Integrated with ERP*  
         1. *Enter project expenses using the Expense management module in Dynamics 365 Project Operations* (the article that you're currently reading)  
         1. *Use the expense mobile app in Dynamics 365 Project Operations*  
         1. *Use the expense entry agent to automatically create expenses in Dynamics 365 Project Operations*  
-        1. *Enter project expenses using general journal in Dynamics 365 Finance*  
+        1. [Enter project expenses using general journal in Dynamics 365 Finance](project-to-profit-pattern-enter-project-expenses-general-journal.md)   
         1. *Enter project expenses using general journal in Dynamics 365 Business Central*  
         1. *Enter project expenses in Dynamics 365 Project Operations Core*  
     1. *Track project time*  
@@ -138,11 +138,9 @@ This article is maintained by Microsoft. It was originally written by the follow
 Principal author:
 
 - [Isidora Kupresak](https://www.linkedin.com/in/isidorakupresak) | Junior Functional Consultant for Dynamics 365 Finance and Supply Chain Management
-
 - [Sa.global (https://www.saglobal.com/)](https://www.saglobal.com/en-us) | Business Applications and Modern Work, Microsoft Inner Circle Partner  
 
 Other contributors:
 
 - [Mila Mojsilovic](https://www.linkedin.com/in/mila-mojsilović-747793225) | Junior Functional Consultant for Dynamics 365 Finance and Supply Chain Management
-
 - [Irena Zivkovic](https://www.linkedin.com/in/irena-živković-46593422a) | Junior Functional Consultant for Dynamics 365 Finance and Supply Chain Management
