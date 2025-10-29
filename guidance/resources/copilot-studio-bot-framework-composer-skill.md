@@ -49,7 +49,7 @@ Find another sample at [Copilot Studio classic bot solution](https://github.com/
 
 To work on the bot framework skill sample code, you need a set of things to be successful:
 
-- An [Azure Account](https://azure.microsoft.com/free/)
+- An [Azure Account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 - The [Bot Framework Composer](https://aka.ms/bf-composer-download-win) (optional, but assumed for this document)
 - A Copilot Studio classic bot integrated with Omnichannel for Dynamics 365 Customer Service Omnichannel for voice channels
 
