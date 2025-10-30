@@ -72,7 +72,7 @@ For classic bots, you can add audio files using Azure Blob Storage. Security sca
 
  ### Create storage account and secure audio files
 
- 1. Sign in to the [Azure portal](https://azure.microsoft.com/free/).
+ 1. Sign in to the [Azure portal](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
  2. Create an Azure Storage account. When you're provisioning the account, perform the following steps:
    
