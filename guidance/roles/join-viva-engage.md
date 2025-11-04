@@ -5,7 +5,7 @@ author: edupont04
 ms.author: edupont
 ms.topic: concept-article
 ms.collection: get-started #Required.
-ms.date: 09/01/2025
+ms.date: 11/04/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -29,7 +29,7 @@ When you're a part of the **Preview Early Access** group, the product team can o
 
 ### How to join the Preview Early Access community
 
-- Visit the [Preview Early Access Viva Engage Community page](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=12792233) and request to join.
+- Visit the [Preview Early Access Viva Engage Community page](https://engage.cloud.microsoft/main/org/microsoft.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMzc5NDE5MzIwMzIifQ) and request to join.
 - A Viva Engage administrator reviews the join request and if no concerns, approve. Our service level agreement (SLA) is 24 hours when submitted on a business day, or by end of business day on the following Monday if submitted on a weekend or company holiday.
 - When your join request is accepted, you'll receive a second email with important instructions to complete the join process; Choose the provided link to fill in a form for the creation of your profile.
 - To complete your sign-up, follow the steps in the guide as outlined in the following main steps:
