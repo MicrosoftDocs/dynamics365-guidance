@@ -18,8 +18,11 @@ This article introduces the *prospect to quote* end-to-end business process. It 
 
 The *prospect to quote* business process flow is a sales process that starts with identifying potential customers (prospects). It ends with providing prospects with a quote for the product or service they're interested in purchasing.  
 
-The stage of defining a sales strategy guides the overall sales process, including the *prospect to quote* process. It involves setting goals, defining target markets, and creating a plan to achieve sales objectives. Marketing campaigns play a role in lead generation and help attract potential customers as part of the lead generation process. While customer relationship management is an ongoing activity throughout the sales cycle, it plays a role in the *prospect to quote* process, particularly in the follow-up, negotiation, and quote revision stages.
+The stage of defining a sales strategy guides the overall sales process, including the *prospect to quote* process. It involves setting goals, defining target markets, and creating a plan to achieve sales objectives.
 
+Marketing campaigns play a role in lead generation and help attract potential customers as part of the lead generation process.
+
+Customer relationship management is an ongoing activity throughout the sales cycle. It plays a role in the *prospect to quote* process, particularly in the follow-up, negotiation, and quote revision stages.
 Get an overview of the main stages of the *prospect to quote* end-to-end scenario at [Overview of the Prospect to quote business process areas](prospect-to-quote-areas.md).  
 
 Every organization has some variation of the *prospect to quote* end-to-end scenario. Here, we define the basic outline for any organization that is looking to implement a technology solution to support the *prospect to quote* business process.
