@@ -1,7 +1,7 @@
 ---
 title: Prospect to quote end-to-end business process flow overview
 description: Learn about the prospect to quote end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
-ms.date: 09/23/2025
+ms.date: 11/04/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -10,7 +10,7 @@ ms.reviewer: edupont
 
 # Overview of the prospect to quote business process flow and its relationship to other processes
 
-***Applies to: Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales***
+***Applies to: Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Sales***
 
 This article describes the *prospect to quote* end-to-end business process flow and its relationship to other business processes that can be used within Dynamics 365.
 
