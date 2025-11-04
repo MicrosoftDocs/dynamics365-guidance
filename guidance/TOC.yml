@@ -1190,6 +1190,8 @@ items:
                 href: reference-architectures/supply-chain-commerce-bopis-architecture.md
           - name: Healthcare write-back identifiers to FHIR server
             href: reference-architectures/healthcare-writeback-dynamics-365-identifiers-fhir-server.md
+          - name: Dataverse as master data system
+            href: reference-architectures/dataverse-master-data-system.md
       - name: Security and compliance
         items:
           - name: Security strategy

@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 10/09/2025
+  ms.date: 11/04/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -92,6 +92,8 @@ landingContent:
           url: sales-reliable-data-sync-asynchronous-request-reply.md
         - text: Unified CRM system with Sales, Customer Insights, and Customer Service
           url: sales-customer-insights-customer-service-crm-system.md
+        - text: Dataverse as a master data system with Dynamics 365
+          url: dataverse-master-data-system.md
 # Card - Supply Chain Management
 
   - title: Supply Chain Management
