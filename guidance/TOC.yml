@@ -897,11 +897,11 @@ items:
             items:
               - name: Resources for Field Service
                 href: resources/field-service-index.yml
-              - name: Samples and tools
+              - name: Guidance and tools
                 items:
-                  - name: Samples and tools overview
+                  - name: Guidance and tools overview
                     href: resources/field-service-sample-library.md
-                  - name: Schedule board
+                  - name: Scheduling
                     items:
                       - name: Add crew information to resource cells
                         href: resources/field-service-resource-cell-template.md
@@ -911,6 +911,8 @@ items:
                         href: resources/field-service-schedule-board-settings-management.md
                       - name: Field mapping for the schedule board settings
                         href: resources/field-service-schedule-board-settings-field-mapping.md
+                      - name: Vendor self-service for technician management
+                        href: resources/field-service-vendor-self-service-technician-management.md
                   - name: Work orders
                     items:
                       - name: Work order summary configuration template
@@ -927,7 +929,7 @@ items:
                         href: resources/field-service-deploy-copilot-studio-create-sample-data.md
                       - name: Use Copilot to create sample data for Field Service
                         href: resources/field-service-copilot-import-sample-data.md
-                      - name: Streamline inventory visilibity with Field Service and Supply Chain Management
+                      - name: Streamline inventory visibility with Field Service and Supply Chain Management
                         href: resources/field-service-streamline-inventory-visibility.md
                   - name: Field Service web
                     items:
@@ -939,8 +941,6 @@ items:
                         href: resources/field-service-customize-columns-fields.md
                       - name: Customize the work order form
                         href: resources/field-service-customize-forms.md
-                      - name: Write scripts to implement complex business logic
-                        href: resources/field-service-customize-scripts.md
                       - name: Change properties of the Booking Card component
                         href: resources/field-service-customize-booking-card.md
                   - name: Field Service Mobile
@@ -965,10 +965,10 @@ items:
                         href: resources/field-service-mobile-use-deep-links.md
                       - name: Use Power Apps to configure the Field Service mobile app
                         href: resources/field-service-mobile-customize-powerapps.md
-                      - name: Vendor self-service for technician management
-                        href: resources/field-service-vendor-self-service-technician-management.md
               - name: Develop solutions
                 items:
+                  - name: Write scripts to implement complex business logic
+                    href: resources/field-service-customize-scripts.md
                   - name: Set up Azure Pipelines to deploy Field Service
                     href: resources/field-service-deploy-dataverse-azure-pipelines.md
               - name: Add analytics

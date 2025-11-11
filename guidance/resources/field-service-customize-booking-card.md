@@ -1,7 +1,7 @@
 ---
 title: Change properties of the Booking Card component
 description: Configure visibility settings for properties of the Booking Card component to show or hide fields for your users.
-ms.date: 09/18/2025
+ms.date: 11/11/2025
 ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
@@ -25,4 +25,9 @@ Organizations can tailor the visibility settings of certain properties on the dy
 1. Configure the properties to show or hide them based on your preferences.
 1. Save the form or select **Publish** to make the changes visible to users.
 
-Clear your browser cache to see the published changes.
+To see the published changes, clear your browser cache.
+
+## Related content
+
+- [Customize the template for bookings](field-service-customize-booking-template.md)  
+- [Customization best practices](field-service-customize-best-practices.md)  
