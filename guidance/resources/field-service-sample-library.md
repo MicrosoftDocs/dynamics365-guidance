@@ -1,7 +1,7 @@
 ---
-title: Sample library for Field Service
-description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 07/15/2025
+title: Library of tools and guidance for Field Service
+description: Read about the collection of tips, tricks, answers to popular questions, and other guidance that can help our customers and partners create and deploy solutions with Field Service quickly and easily.
+ms.date: 11/11/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: erdipple
@@ -9,11 +9,11 @@ ms.custom:
     - O25-FieldService
 ---
 
-# Sample library for Dynamics 365 Field Service
+# Library of tools and guidance for Dynamics 365 Field Service
 
 ***Applies to: Dynamics 365 Field Service***
 
-This collection of sample code, components (solutions), and documents can help your Field Service projects with tasks such as customization, configuration, and operation of the platform. The library offers reusable and easy-to-follow resources for Field Service developers and users.  
+This collection of sample solutions, components, and documentation can help Field Service implementors customize, configure, and operate the solution. The library offers reusable and easy-to-follow resources for Field Service developers and users.  
 
 > [!IMPORTANT]
 > Sample codes, components (solutions), and documents created by the community aren't supported by Microsoft. If you have questions or issues with community tools, contact the tool's publisher.
@@ -22,7 +22,7 @@ This collection of sample code, components (solutions), and documents can help y
 
 The following sections outline the content of the collection. Each section includes links to the corresponding articles and samples.
 
-### Schedule board
+### Scheduling
 
 - Add crew information to the resource cell template.
 
@@ -40,11 +40,19 @@ The following sections outline the content of the collection. Each section inclu
 
   Each field in the board settings maps to a particular column in the schedule board settings record for the relevant section. This information can be useful if you have to troubleshoot something about the schedule boards. Learn more at [Field mapping for schedule board settings in Dynamics 365 Field Service](field-service-schedule-board-settings-field-mapping.md).  
 
+- Vendor self-service for technician management
+
+  Organizations that deal with field service want to efficiently manage external vendors and contractors. Find an article that illustrates now to configure that in a solution with Dynamics 365 Field Service, including customization to meet specific business needs at [Vendor self-service for technician management](field-service-vendor-self-service-technician-management.md).  
+
 ### Work orders
 
 - Work order summary configuration template
 
   Administrators who want to replace the default summary of work orders in Dynamics 365 Field Service and configure their own to meet their business needs must start from scratch to set up the configuration. Learn more at [Work order summary configuration](field-service-work-order-summary-configuration-template.md).
+
+- Customized work order summary
+
+  Organizations often begin service requests as support cases, capturing key context like issue descriptions, urgency, and communication history. When these cases are converted into work orders, technicians may lose access to this valuable information. You can extend work order summaries to include fields from both standard and custom tables so that technicians are fully prepared before site visits. You can also include fields from related case entities. Learn more at [Customized work order summary with fields from custom tables](field-service-work-order-summary-custom-tables.md) and [Custom work order summary with related case details](field-service-work-order-summary-related-case-details.md), respectively.
 
 - Transport summary configurations across environments
 
@@ -82,7 +90,17 @@ The following sections outline the content of the collection. Each section inclu
 
 - Use Power Apps to configure the Field Service mobile app
 
-  For other customization uses with Power Apps, go to [Use Power Apps to configure the Field Service mobile app](field-service-mobile-customize-powerapps.md).
+  For other customization uses with Power Apps, go to [Use Power Apps to configure the Field Service mobile app](field-service-mobile-customize-powerapps.md).  
+
+### Field Service web
+
+- Customize the desktop experience
+
+  System customizers add custom fields to entity forms to capture information that is specific to their industry and business, to run business processes, and to collect information to report. However, too many custom fields on a form can cause performance issues. Learn more at [Customization best practices](field-service-customize-best-practices.md).  
+
+- Customize the work order form
+
+  Customizing forms correctly is important for maximizing performance. Form customizations affect form load and save times. Proper customization improves usability, making it easier for users to view and update information.  Learn more at [Customize the work order form](field-service-customize-forms.md).  
 
 ### Copilot Studio
 
@@ -93,6 +111,10 @@ The following sections outline the content of the collection. Each section inclu
 - Use Copilot to create sample data for Field Service
 
   Go through the steps to create account and contact data that you can use for demonstrations of Dynamics 365 Field Service environments. Learn more at [Use Copilot to create sample data for Field Service](/dynamics365/guidance/resources/field-service-copilot-import-sample-data).
+
+- Streamline inventory visibility
+
+  You can extend the Field Service Copilot chat to integrate with the Inventory Visibility app in Supply Chain Management. By integrating external data sources and customizing the Copilot agent using Copilot Studio, Field Service Managers gain real-time access to inventory data, enabling more efficient and informed decision-making. Learn more at [Streamline inventory visibility in Field Service](field-service-streamline-inventory-visibility.md).
 
 ## Related content
 

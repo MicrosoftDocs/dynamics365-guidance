@@ -5,7 +5,7 @@ description: Discover a reference architecture for combining Dynamics 365 Field 
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 09/26/2025
+ms.date: 11/04/2025
 ms.topic: reference-architecture
 ---
 # Dynamics 365 Field Service with SAP reference architecture
@@ -13,8 +13,6 @@ ms.topic: reference-architecture
 ***Applies to***: ***Dynamics 365 Field Service, Dataverse, Azure Logic Apps, and Azure Functions***
 
 This solution combines Dynamics 365 Field Service, augmented with Customer Service, with SAP through Azure Integration Services. It builds an integrated field service application that lets back office users manage and dispatch orders, lets technicians carry out work on site and document results with the mobile app, and handles invoicing and value flow in SAP.
-
-
 
 ## Introduction
 
@@ -27,7 +25,7 @@ The following use cases are supported (non-exhaustive list):
 
 Use this reference architecture as a starting point for projects with similar use cases, mostly pure onsite field service. You can also extend it to remote services, including predictive maintenance and customer service.
 
-Key stakeholders for architecture discussions include enterprise architects, Dynamics and SAP solution architects, product managers and owners, and functional and technical leads.
+Key stakeholders for architecture discussions include enterprise architects, Dynamics 365 and SAP solution architects, product managers and owners, and functional and technical leads.
 
 ## Architecture
 
@@ -48,11 +46,11 @@ The main dataflow is as follows:
 1. When a work order is created, the system automatically syncs it to SAP via message integration and records it there as a service order.
 1. A dispatcher handles the related resource requirement and creates a bookable resource booking. The technician records materials (work order products) and time (time entries) during processing.
 1. Confirm the process to close a work order based on business requirements; for example, you can require a customer signature. After you close the work order, send time and materials to SAP.
-1. SAP handles invoicing and provides final status—sometimes including the invoice PDF—to Dynamics.
+1. SAP handles invoicing and provides final status—sometimes including the invoice PDF—to Dynamics 365.
 
 The specific dataflow for the SAP integration is as follows. Note that this is a simplified view that leaves out, for example, secret handling with Azure Key Vault and specific error handling:
 
-1. When the work order creation event triggers, Dynamics sends the payload to a Service Bus queue.
+1. When the work order creation event triggers, Dynamics 365 sends the payload to a Service Bus queue.
 1. A Logic App or function app picks up the message and transforms it for the receiving SAP system.
 1. The message is routed via API Management.
 1. API Management calls the respective SAP endpoint (note that there could also be a standard connector being used which can sit before or after API Management).
@@ -143,7 +141,7 @@ This section doesn't describe every Azure component. It provides an example to g
 
 1. Send the message to Azure API Management.
 
-    1. **Add an HTTP Action**: Use the HTTP action to send the JSON message to Azure API Management. Configure the action with the appropriate method (e.g., POST), URL, headers, and body.
+    1. **Add an HTTP Action**: Use the HTTP action to send the JSON message to Azure API Management. Configure the action with the appropriate method (such as POST), URL, headers, and body.
 
 1. Route the message to SAP S/4 via Azure API Management.
 

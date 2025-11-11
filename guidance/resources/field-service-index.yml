@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Field Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 04/28/2025
+  ms.date: 11/11/2025
   ms.topic: landing-page # DON'T CHANGE
   ms.custom:
     - bap-template
@@ -27,13 +27,13 @@ landingContent:
         url: /dynamics365/field-service/version-history
 
 # Card
-  - title: Samples and tools
+  - title: Scheduling
     linkLists:
     - linkListType: overview
       links:
         - text: Overview
           url: field-service-sample-library.md
-    - linkListType: sample
+    - linkListType: how-to-guide
       links:
         - text: Add crew information to resource cells
           url: field-service-resource-cell-template.md
@@ -41,10 +41,8 @@ landingContent:
           url: field-service-customize-booking-template.md
         - text: Schedule board settings management control
           url: field-service-schedule-board-settings-management.md
-        - text: Implementing SLAs for Work Orders
-          url: field-service-implement-service-level-agreements.md
-        - text: Add a custom reporting control for service reports
-          url: field-service-service-reports-solution.md
+        - text: Field mapping for the schedule board settings
+          url: field-service-schedule-board-settings-field-mapping.md
         - text: Vendor self-service for technician management
           url: field-service-vendor-self-service-technician-management.md
 
@@ -53,10 +51,10 @@ landingContent:
     linkLists:
     -  linkListType: overview
        links:
-        - text: Field mapping for the schedule board settings
-          url: field-service-schedule-board-settings-field-mapping.md
         - text: Set up Azure Pipelines to deploy Field Service
           url: field-service-deploy-dataverse-azure-pipelines.md
+        - text: Add a custom reporting control for service reports
+          url: field-service-service-reports-solution.md
 
 # AI Card
   - title: Copilot and generative AI
@@ -67,10 +65,6 @@ landingContent:
           url: field-service-copilot-import-sample-data.md
         - text: Create sample data with Copilot Studio agent
           url: field-service-deploy-copilot-studio-create-sample-data.md
-    - linkListType: how-to-guide
-      links:
-        - text: Transport summary configurations across environments
-          url: field-service-deploy-transport-summary-configuration.md
     - linkListType: reference
       links:
         - text: Work order summary configuration template
@@ -83,7 +77,7 @@ landingContent:
 # Card
   - title: Work orders
     linkLists:
-      - linkListType: sample
+      - linkListType: how-to-guide
         links:
         - text: Work order summary configuration template
           url: field-service-work-order-summary-configuration-template.md
@@ -94,18 +88,18 @@ landingContent:
         - text: Customized Work order summary with related case details
           url: field-service-work-order-summary-related-case-details.md
 
-
-
 # Analytics card
-  - title: Analytics
+  - title: Add analytics
     linkLists:
     -  linkListType: overview
        links:
        - text: Field Service mobile app offline usage
          url: field-service-mobile-sample-telemetry.md
+       - text: Implement SLA for work orders
+         url: field-service-implement-service-level-agreements.md 
 
 # Testing Card
-  - title: Tools for testing
+  - title: Guidance for testing
     linkLists:
     - linkListType: overview
       links:
@@ -118,12 +112,43 @@ landingContent:
         - text: Scenarios for load tests
           url: test-load-test-scenarios.md
 # Dev Card
-  - title: Tools for development
+  - title: Guidance for development
     linkLists:
     -  linkListType: overview
        links:
        - text: Validate the solution
          url: solution-component-validator.md
+       - text: Use Power Apps to configure the Field Service mobile app
+         url: field-service-mobile-customize-powerapps.md
+
+# Mobile card
+  - title: Field Service mobile app
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Field Service mobile app offline usage
+          url: field-service-mobile-sample-telemetry.md
+    - linkListType: how-to-guide
+      links:
+        - text: Add a custom app module
+          url: field-service-mobile-add-custom-app.md
+        - text: Add custom service reports
+          url: field-service-service-reports-solution.md
+        - text: Create workflows and scripts
+          url: field-service-mobile-automate-business-processes.md
+        - text: Customize the booking view
+          url: field-service-mobile-customize-booking-view.md
+        - text: Edit the booking and work order form
+          url: field-service-mobile-change-work-order-booking-form.md
+        - text: Edit the navigation and views
+          url: field-service-mobile-edit-navigation-views.md
+        - text: Optimize performance
+          url: field-service-mobile-improve-performance.md
+        - text: Show more data and hide the row icon
+          url: field-service-mobile-expand-grid-control.md
+        - text: Use deep links to the Field Service mobile app
+          url: field-service-mobile-use-deep-links.md
+
 # # Card
 #   - title: Application lifecycle management
 #     linkLists:
