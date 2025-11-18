@@ -1,7 +1,7 @@
 ---
 title: TechTalk Migrate to subscription billing from revenue recognition in Dynamics 365 Finance 
 description: Summary of TechTalk video that talks about how a business can streamline financial operations by migrating from revenue recognition to subscription billing in Dynamics 365 Finance. 
-ms.date: 08/20/2025
+ms.date: 11/17/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -71,13 +71,13 @@ In another example, a business has a subscription plan where the amounts are rec
 
 ## Roadmap for the future
 
-Businesses still have time to complete their migration. However, we strongly encourage everyone to move fully to *subscription billing*. The *subscription billing* module continues to get more capabilities, so keep an eye on [the release plans](/dynamics365/release-plans/) to stay on top of what's coming.
+The *revenue recognition* module was deprecated in version 10.0.30. Learn more at [Features removed or deprecated in the Finance 10.0.30 release](/dynamics365/finance/get-started/removed-deprecated-features-finance#features-removed-or-deprecated-in-the-finance-10030-release). The *subscription billing* module continues to get more capabilities, so keep an eye on [the release plans](/dynamics365/release-plans/) to stay on top of what's coming.
 
 ## Conclusion
 
-The shift from *revenue recognition* to *subscription billing* in Dynamics 365 isn't just a technical upgrade but a strategic decision that streamlines financial operations in an evolving marketplace. The new module offers better management of recurring revenue, flexibility in deferral schedules, and alignment with modern business models. If your businesses still uses the deprecated *revenue recognition* module, now is the time to plan and move to *subscription billing* before it becomes a mandatory switch.
+The shift from *revenue recognition* to *subscription billing* in Dynamics 365 Finance isn't just a technical upgrade but a strategic decision that streamlines financial operations in an evolving marketplace. The new module offers better management of recurring revenue, flexibility in deferral schedules, and alignment with modern business models. If your business still uses the deprecated *revenue recognition* module, now is the time to plan and move to *subscription billing* before it becomes a mandatory switch.
 
-Transition to *subscription billing*, and your businesses can remain competitive, agile, and aligned with financial best practices that support the recurring revenue model.
+Transition to *subscription billing*, and your business can remain competitive, agile, and aligned with financial best practices that support the recurring revenue model.
 
 For more detailed resources and guidance, visit [Subscription billing overview](/dynamics365/finance/accounts-receivable/subscription-billing-summary). Find more resources in the Microsoft Tech Community.  
 
@@ -85,10 +85,11 @@ For more detailed resources and guidance, visit [Subscription billing overview](
 
 You can use the following resources to learn more about Dynamics 365.
 
+- [Subscription billing overview](/dynamics365/finance/accounts-receivable/subscription-billing-summary)  
+- [Feature management overview](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)  
 - [Data entities overview](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)  
 - [Find information about standard data entities](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-report)  
 - [TechTalk: Subscription billing and deferral schedules with project management and accounting](finance-subscription-billing-deferral-schedules-project-management-accounting.md)  
-- [Subscription billing overview](/dynamics365/finance/accounts-receivable/subscription-billing-summary)  
 - [What are the Dynamics 365 TechTalk videos?](../roles/techtalk-videos.md)  
 - [TechTalk on the Dynamics Community website](https://community.dynamics.com/videos/)  
 - [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UC5QxCcXhFFixs1nfmOpJlvQ)  

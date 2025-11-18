@@ -4,7 +4,7 @@ description: Find out how Power Pages can read data directly from Dynamics 365 f
 author: Teeeeeeeeeeed
 ms.author: edupont
 ms.topic: article 
-ms.date: 08/20/2025
+ms.date: 11/17/2025
 --- 
 
 # Architecture for Power Pages with Dynamics 365 finance and operations apps
@@ -17,7 +17,7 @@ The main use case is when you need external users to work with some of the data 
 
 There are two main ways that you can support this scenario:
 
-1. Sync data between Dataverse and the Dynamics 365 database by using [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) or other integration engines.
+1. Sync data between Dataverse and the database with finance and operations data by using [dual-write](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) or other integration engines.
 
 1. Work directly with the Dynamics 365 database by using [Virtual entities for finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/power-platform/virtual-entities-overview).
 
@@ -36,7 +36,6 @@ All communication, regardless of the integration platform, runs through [data en
 In these scenarios, the integration between Dataverse and the Dynamics 365 database uses admin accounts. You can manage security for external users with [web roles](/power-pages/security/power-pages-security), just like in a stand-alone Dataverse Power Pages solution.
 
 :::image type="content" source="media/finance-operations-power-pages-dual-write.svg" alt-text="Diagram that shows data flowing between Dynamics 365 and Power Pages through dual-write." lightbox="media/finance-operations-power-pages-dual-write.svg":::
-<!-- [Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/dynamics-365-finance-operations-dataverse-power-pages.pptx) with this architecture.   -->
 
 ## Virtual entities for finance and operations apps
 
@@ -53,8 +52,6 @@ For example, you created a Power Page portal where vendors can sign in and see a
 In these scenarios, you must use authenticated access and set up a table to connect the umbrella table that defines what the users can see, in this example a vendor, and the user. Connected to that table, you then build [Extensible data security policies (XDS)](/dynamics365/fin-ops-core/dev-itpro/sysadmin/extensible-data-security-policies) that only allow a user to read data linked to the umbrella table. In the earlier example, that would restrict a vendor from seeing only its own purchase orders and purchase order lines.  
 
 :::image type="content" source="media/finance-operations-power-pages-virtual-entities.svg" alt-text="Diagram that shows data flowing between Dynamics 365 and Power Pages through virtual entities for finance and operations apps." lightbox="media/finance-operations-power-pages-virtual-entities.svg":::
-
-<!-- [Download a PowerPoint file](https://github.com/microsoft/dynamics365patternspractices/blob/main/architectures/dynamics-365-finance-operations-dataverse-power-pages.pptx) with this architecture. -->
 
 ## Related content
 
