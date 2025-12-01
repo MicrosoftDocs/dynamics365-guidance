@@ -2,7 +2,7 @@
 title: Business performance planning with Dynamics 365 Finance
 description: Summary of TechTalk video that provides a comprehensive overview of the business performance planning capabilities in Dynamics 365 Finance
 ms.date: 04/25/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: vibhutinair23
 ms.author: vibhutinair
 ai-usage: ai-assisted
