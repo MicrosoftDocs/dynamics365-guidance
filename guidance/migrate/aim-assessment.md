@@ -10,9 +10,9 @@ ms.reviewer: edupont
 ---
 # AIM Assessment
 
-The *Accelerate, Innovate, Move* (AIM) Assessment helps partners conduct a technical and functional review of a customer's current on-premises solution with the goal of building a tailored migration plan. Depending on the solution, partners can conduct this analysis using third-party tools or Microsoft-provided tools for Dynamics AX and Dynamics CRM.  
+The *Accelerate, Innovate, Move* (AIM) Assessment helps partners conduct a technical and functional review of a customer's current on-premises solution with the goal of building a tailored migration plan. Depending on the solution, partners can conduct this analysis using third-party tools or Microsoft-provided tools for Dynamics AX and Dynamics CRM.
 
-The partner delivers an assessment report that includes a capability overview, dependencies, recommendations, and next steps. The AIM Assessment will help customers understand the benefits of moving from their legacy system to the cloud, tying this transition to current and future business objectives and Dynamics 365 cloud functionality.  
+The partner delivers an assessment report that includes a capability overview, dependencies, recommendations, and next steps. The AIM Assessment will help customers understand the benefits of moving from their legacy system to the cloud, tying this transition to current and future business objectives and Dynamics 365 cloud functionality.
 
 > [!IMPORTANT]
 > To request an AIM Assessment, please reach out to your Microsoft representative or partner today!
