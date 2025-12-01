@@ -1,8 +1,8 @@
 ---
 title: Customer stories on Dynamics 365 migration 
 description: Explore customer stories of on-premises Dynamics customers who migrated to Dynamics 365 in the cloud.
-author: ReneeW-CPub
-ms.author: renwe
+author: edupont04
+ms.author: edupont
 ms.date: 08/14/2025
 ms.topic: concept-article
 ms.service: dynamics-365

@@ -6,7 +6,7 @@ ms.date: 12/18/2020
 ms.topic: concept-article
 
 ms.reviewer: edupont
-author: ReneeW-CPub
+author: edupont04
 ---
 
 # Solution Blueprint Review workshops
