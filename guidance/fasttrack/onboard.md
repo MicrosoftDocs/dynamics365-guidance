@@ -4,7 +4,7 @@ description: Read how to onboard to Dynamics 365 with or without the assistance 
 ms.author: edupont # was jedinh
 ms.date: 10/06/2023
 ms.topic: concept-article
-author: ReneeW-CPub
+author: edupont04
 ---
 
 # Onboard a Dynamics 365 project with or without FastTrack nomination

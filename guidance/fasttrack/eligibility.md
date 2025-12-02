@@ -6,7 +6,7 @@ ms.date: 07/01/2024
 ms.topic: concept-article
 
 ms.reviewer: edupont
-author: ReneeW-CPub
+author: edupont04
 ---
 
 # Customer eligibility and partner qualifications

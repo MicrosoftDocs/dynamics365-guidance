@@ -1,8 +1,8 @@
 ---
 title: AIM program FAQ
 description: Frequently asked questions about the AIM program.
-author: ReneeW-CPub
-ms.author: renwe
+author: edupont04
+ms.author: edupont
 ms.date: 02/02/2024
 ms.topic: overview
 ms.service: dynamics-365
