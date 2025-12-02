@@ -1,8 +1,8 @@
 ---
 title: Solution-specific insights
 description: Review the specific product pages when evaluating whether to transition from on-premises to the cloud.
-author: ReneeW-CPub
-ms.author: renwe
+author: edupont04
+ms.author: edupont
 ms.date: 11/06/2024
 ms.topic: concept-article
 ms.service: dynamics-365

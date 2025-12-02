@@ -2,7 +2,7 @@
 title: Budget management and time-phased forecasting with Dynamics 365 Project Operations
 description: Summary of TechTalk video that provides a comprehensive overview of the budget management and time-phased forecasting with Dynamics 365 Project Operations
 ms.date: 05/01/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: vibhutinair23
 ms.author: vibhutinair
 ai-usage: ai-assisted

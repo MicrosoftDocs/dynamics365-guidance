@@ -6,7 +6,7 @@ ms.date: 01/30/2023
 ms.topic: concept-article
 
 ms.reviewer: edupont
-author: ReneeW-CPub
+author: edupont04
 ---
 
 # Go-live readiness workshops for Dynamics 365 projects

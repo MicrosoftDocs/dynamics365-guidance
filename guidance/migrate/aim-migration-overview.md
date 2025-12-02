@@ -1,8 +1,8 @@
 ---
 title: Overview of the AIM migration program for on-premises solutions
 description: An overview of the AIM migration program, which helps on-premises customers to simplify and accelerate their move to the cloud.
-author: ReneeW-CPub
-ms.author: renwe
+author: edupont04
+ms.author: edupont
 ms.date: 01/04/2024
 ms.topic: overview
 ms.service: dynamics-365
