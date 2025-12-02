@@ -2,7 +2,7 @@
 title: Production floor execution interface refresher in Dynamics 365 Supply Chain Management
 description: Summary of TechTalk video that provides a comprehensive overview of the production floor execution interface in Dynamics 365 Supply Chain Management
 ms.date: 05/01/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: vibhutinair23
 ms.author: vibhutinair
 ai-usage: ai-assisted
