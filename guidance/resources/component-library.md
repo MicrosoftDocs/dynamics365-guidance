@@ -1,7 +1,7 @@
 ---
 title: Sample library for Customer Service
 description: Read about the library of sample components in GitHub that can help customers and partners create and deploy solutions quickly and easily.
-ms.date: 10/20/2025
+ms.date: 12/02/2025
 ms.topic: concept-article
 author: edupont04
 ms.author: viange
@@ -150,6 +150,19 @@ The following sections outline the content of the collection. Each section inclu
     This sample shows how to run a Power Automate desktop flow from Customer Service workspace to automate tasks on a customer service representative's workstation.
 
     Learn more at [Automate agent tasks with Power Automate Desktop](cs-pad-automation.md). 
+
+## Digital contact centers
+
+Dynamics 365 Contact Center and Dynamics 365 Customer Service work together to optimize the engagement channels in customer relationship management solutions.  
+
+- Implement Copilot in digital contact centers
+
+  Learn more in [Set up your tools and infrastructure for using Copilot in your contact center](cs-contact-center-copilot-setup.md).  
+- Blueprint for functional testing of solutions with Dynamics 365 Contact Center with both voice and chat
+
+   This blueprint provides a practical guide for businesses and professionals to conduct functional testing of solutions with Dynamics 365 Contact Center, covering both voice and chat channels. It outlines best practices, strategies, and key milestones to ensure a successful testing and deployment process.
+
+  Learn more at [Blueprint for functional testing of solutions with Dynamics 365 Contact Center with both voice and chat](contact-center-functional-testing-blueprint.md).
 
 ## Related information
 

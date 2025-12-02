@@ -885,6 +885,8 @@ items:
                     href: resources/test-load-tests-scaling.md
                   - name: Scenarios for load tests
                     href: resources/test-load-test-scenarios.md
+                  - name: Functional testing blueprint for contact centers
+                    href: resources/contact-center-functional-testing-blueprint.md
               - name: Add analytics
                 items:
                   - name: Get started with analytics for Omnichannel
