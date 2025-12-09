@@ -58,7 +58,9 @@ Learn more about each tool:
 
   Executive Automats 365 from XPLUS SA allows you to significantly shorten the test procedure and increase its accuracy. Executive Automats 365 offers fully repeatable, customizable, 100% codeless, and cross-platform testing that translates into tangible benefits for the company.  
 
-## Consider the costs and benefits of each tool
+- [Alithya Rapid QA](https://marketplace.microsoft.com/en-us/product/saas/fullscope.rapid_qa?tab=Overview) 
+
+  Rapid QA is a product-agnostic automated testing solution that accelerates Dynamics 365 upgrades and validation, offering prebuilt end-to-end scenarios, which can be customized and enhanced, covering full breadth of the D365 deployment, including integrations and 3rd party solutions. Includes RSAT Test converter for easy migration of existing RSAT test assets. It includes AI-enabled accelerators and multi-language support to enhance quality and efficiency across environments. 
 
 Before you decide on a tool, you should evaluate how well it meets your business needs. You should consider the following factors:
 
