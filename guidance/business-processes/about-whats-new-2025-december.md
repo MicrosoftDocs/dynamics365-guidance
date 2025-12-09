@@ -37,6 +37,8 @@ In this version of the business process catalog, we introduce two new levels:
 
 Together, Level 5 and Level 6 make the business process catalog more actionable and auditable. Level 5 standardizes system‑process steps tied to application screens. Level 6 captures discrete test cases that verify those steps—so teams get clear traceability, consistent naming, and repeatable validation across discovery, configuration, and deployment.
 
+Learn more at [Overview of the business process catalog levels](about-catalog-levels.md).
+
 ## Improvements to Forecast to plan
 
 We made several key updates to strengthen clarity and usability across *Forecast to plan*. These changes focus on improving process alignment and refining definitions for greater clarity. The following list summarizes the improvements to the *Forecast to plan* end-to-end process:
@@ -155,7 +157,7 @@ In our latest release, we continue to populate the Workload type field with valu
 
 Rows that incorrectly used the modules *Accounts payables* and *Accounts receivables* now use *Accounts payable* and *Accounts receivable*, respectively.
 
-In the last release of the business process catalog, we added many new modules to the catalog. The article for importing the catalog into Azure DevOps now includes the complete list of modules that you must add to import the catalog. The following list shows the modules that you must add:
+In the latest release of the business process catalog, we added many new modules to the catalog. The article for [importing the catalog into Azure DevOps](about-import-catalog-devops.md) now includes the complete list of modules that you must add to import the catalog. The following list shows the modules that you must add:
 
 - App Settings
 
@@ -188,3 +190,4 @@ In the last release of the business process catalog, we added many new modules t
 ## Related information
 
 - [What's new or changed in the business process catalog](about-whats-new.md)  
+- [About the business process catalog for Dynamics 365 apps and services](about.md)  

@@ -37,6 +37,8 @@ items:
                 href: business-processes/overview.md
               - name: About the business process catalog
                 href: business-processes/about.md
+              - name: About catalog levels
+                href: business-processes/about-catalog-levels.md
               - name: Glossary of terms
                 href: business-processes/glossary.md
               - name: Business processes, steps, and how to find things
@@ -406,7 +408,7 @@ items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
               - name: What's new or changed in the December 2025 version
-                href: business-processes/about-whats-new-2025-august.md
+                href: business-processes/about-whats-new-2025-december.md
               - name: What's new or changed in the August 2025 version
                 href: business-processes/about-whats-new-2025-august.md
               - name: What's new or changed in the May 2025 version
