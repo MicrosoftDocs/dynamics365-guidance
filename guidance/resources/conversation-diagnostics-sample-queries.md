@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 09/19/2025
+ms.date: 12/08/2025
 ms.custom:
   - bap-template
   - O25-Service
@@ -57,7 +57,7 @@ Traces
 | where omnichannelAdditionalInfo contains "OverflowTrigger"  
 | project timestamp, conversationId, subscenario, omnichannelAdditionalInfo  
 ```
-## Representatives who reject new assignments 
+## Representatives who reject new assignments
  
 **Purpose**: Diagnose customer service representatives (service representatives or representatives) who reject new assignments (by conversationId).  
 
@@ -136,6 +136,42 @@ latestRTQsBeforeAgentAccept
 | extend assignmentTime = agentAcceptTime - latestRTQTime  
 | where assignmentTime > 2min   
 | project conversationId, assignmentTime  
+```
+
+## Conversations that ended unsuccessfully
+
+**Purpose**: Determine the conversations that ended unsuccessfully.
+
+**Query**
+```kusto
+Traces
+| extend customDim = parse_json(customDimensions)
+| extend eventType    = tostring(customDim["type"])
+| extend workitem     = tostring(customDim["powerplatform.analytics.resource.id"])
+| extend routingStage = tostring(customDim["powerplatform.analytics.subscenario"])
+| extend channelType  = coalesce(tostring(customDim["omnichannel.channel.type"]), tostring(customDim["ChannelType"]))
+| extend callId       = tostring(customDim["omnichannel.call.id"])
+| extend callStatus   = toint(customDim["CallStatusCode"])
+| where eventType == "CallEndDiagnosticEvent"
+| where callStatus != 0 and isnotnull(callStatus)
+| project timestamp, eventType, workitem, callId, routingStage, channelType, callStatus, customDimensions
+```
+
+## End-to-end conversation tracing
+
+**Purpose**: Track the events that occur across the course of a conversation.
+
+**Query**
+
+```kusto
+Traces 
+| extend customDim = parse_json(customDimensions) 
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]) 
+| extend routingStage = tostring(customDim["powerplatform.analytics.subscenario"]) 
+| extend channelType = coalesce(tostring(customDim["omnichannel.channel.type"]), tostring(customDim["ChannelType"])) 
+| extend callId = tostring(customDim["omnichannel.call.id"]) 
+| where conversationId == [Insert Your Work Item ID] 
+| project timestamp, conversationId, callId, routingStage, channelType, customDimensions 
 ```
 
 ## Use Azure Data Explorer dashboards with Application Insights queries
