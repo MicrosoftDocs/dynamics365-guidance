@@ -21,25 +21,19 @@ An end-to-end process represents the complete flow of activities from the initia
 **Examples**
 
 - Order to cash
-
 - Source to pay
-
 - Hire to retire
 
 **What an end-to-end process is:**
 
 - **Comprehensive**: Covers the entire lifecycle of a business operation.
-
 - **Cross-Functional**: Involves multiple departments or functions.
-
 - **Outcome-Oriented**: Focuses on delivering a specific business outcome.
 
 **What an end-to-end process is not:**
 
 - A single department's workflow.
-
 - A narrowly defined task or activity.
-
 - A process without a clear start and end point.
 
 ## Level two: Business process areas
@@ -50,16 +44,15 @@ Business process areas are often loosely associated with certain personas or rol
 
 When naming L2 business process areas, consistency should always be the top priority to ensure clarity and ease of use throughout the process catalog. While aligning with industry standards is beneficial, it is secondary to maintaining a clear and understandable naming convention for business users. Above all, the name of each L2 should make it immediately apparent to the business user what activities or responsibilities the process area encompasses.
 
-**Note:** If an external service provider or partner wants to propose a new L2 business process area, this request requires special approval and further discussion with the business process excellence team. Such additions should not be made unilaterally to ensure consistency and maintain the integrity of the overall process catalog.
+> [!NOTE]
+> If an external service provider or partner wants to propose a new L2 business process area, this request requires special approval and further discussion with the business process excellence team. Such additions should not be made unilaterally to ensure consistency and maintain the integrity of the overall process catalog.
 
 **Naming Convention**: The name must use a verb-noun pair, and it is acceptable to use two verb-noun pairs if necessary.
 
 **Examples**
 
 - Create and manage sales (within Order to cash)
-
 - Process vendor invoices (within Source to pay)
-
 - Plan and recruit your workforce (within Hire to retire)
 
 **L2 verb list:**
@@ -67,63 +60,34 @@ When naming L2 business process areas, consistency should always be the top prio
 Use the following list as a guide to select from a verb to use when naming an L2 business process area. While additional verbs can be used, the following list is the preferred and prioritized verbs.
 
 - Conduct
-
 - Develop
-
 - Define
-
 - Analyze
-
 - Manage
-
 - Process
-
 - Issue
-
 - Procure
-
 - Govern
-
 - Plan
-
 - Introduce
-
 - Create
-
 - Record
-
 - Invoice
-
 - Monitor
-
 - Onboard
-
 - Maintain
-
 - Acquire
-
 - Retire
-
 - Run
-
 - Identify
-
 - Qualify
-
 - Pursue
-
 - Estimate
-
 - Close
-
 - Comply
-
 - Establish
-
 - Schedule
-
 - Perform
-
 - Review
 
 ## Level three: Business processes
@@ -137,23 +101,18 @@ We welcome software development companies and partners to add level three busine
 **Examples**
 
 - Sell products to customers (within Create and manage sales)
-
 - Record invoice details (within Process vendor invoices)
-
 - Plan and budget headcount (within Plan and recruit your workforce)
 
 **What a business process is**:
 
 - A distinct function within a business process area.
-
 - Descriptive of the overall function without being a specific step.
-
 - Not system-dependent and should apply broadly across different businesses.
 
 **What a business process is not**:
 
 - A specific activity, task, or step in a business process.
-
 - A system-specific process (e.g., "Update Dynamics 365 Records").
 
 ## Level four: Scenario
@@ -170,75 +129,57 @@ It is important to note that for a partner-provided solution to be incorporated 
 
 Verb noun pair \[using product (deployment mode)\] \[for an industry\] \[with an externally-provided solution\]
 
-NOTE: The deployment mode is only required for Project Operations. A pattern should always indicate which product(s) are used. A scenario can optionally include an industry and/or a partner-provided solution. Partner-provided solutions can only be used when the solution is available in AppSource or the Azure Marketplace.
+> [!NOTE]
+> The deployment mode is only required for Project Operations. A pattern should always indicate which product(s) are used. A scenario can optionally include an industry and/or a partner-provided solution. Partner-provided solutions can only be used when the solution is available in AppSource or the Azure Marketplace.
 
 **Examples**
 
 - Examples of patterns for Sell products to customers
 
   - Create a sales order to sell products using Dynamics 365 Sales
-
   - Create a sales order to sell products using Dynamics 365 Supply Chain Management
-
   - Create a sales order to sell products using Dynamics 365 Business Central
-
   - Create a sales order to sell products using Dynamics 365 Commerce Call Center
-
   - Create a cash and carry sale using Dynamics 365 Commerce
-
   - Create an online order as a business using Dynamics 365 Commerce Business to Business (B2B) portal
-
   - Create an online order as a consumer using Dynamics 365 Commerce
 
 - Examples of patterns for Create a project contract
 
   - Create a project contract using Dynamics 365 Project Operations (lite deployment)
-
   - Create a project contract using Dynamics 365 Project Operations (stocked product and not stocked)
-
   - Create a project contract using Dynamics 365 Project Operations (lite deployment) for financial services with SA Go
-
   - Create a project contract using Dynamics 365 Project Operations (lite deployment) for professional services
-
   - Create a project contract using Dynamics 365 Business Central
 
 - Examples of patterns for Plan and budget headcount
 
   - Plan and budget headcount using Dynamics 365 Human Resources position forecasting
-
   - Plan and budget headcount using Dynamics 365 Human Resources with basic jobs and open positions
-
   - Plan and budget headcount using Dynamics 365 Finance Budgeting module
-
   - Plan and budget headcount using Dynamics 365 Finance Business Performance Planning add-in
 
 ## Level five: System process
 
 A system process is a portion of a business process that uses a specific **form, page, or UI element** in Dynamics 365. Each scenario should have at least one scenario. There is no limit to the number of system processes that can be part of a given scenario. Each system process should be documented clearly to facilitate repeatability and ease of understanding. Ensure that all relevant forms and UI elements are referenced, and provide step-by-step instructions for users interacting with the process. This enhances consistency across training materials, user guides, and testing documentation.
 
-**Naming Convention**:  
+**Naming Convention:**  
 Use a verb-noun phrase that reflects the **user action** on the form. Examples
 
 - *Enter fixed asset details*
-
 - *Review vendor transactions*
 
 **Guidance**:
 
 - Should be **traceable to a UI element**
-
 - Supports **training, documentation, and testing**
 
 **Examples**
 
 - Submit purchase requisition
-
 - Approve purchase order
-
 - Receive goods against purchase order
-
 - Match invoice to purchase order
-
 - Process supplier payment
 
 These system processes reflect typical actions in the Source to Pay cycle and can be traced directly to forms or UI elements within Dynamics 365, supporting clear documentation, training, and testing.
@@ -252,9 +193,7 @@ A test case is a detailed set of conditions and steps used to determine whether 
 When writing a test case, it's important to include specific information to ensure clarity and effectiveness. A well-documented test case should include the following elements:
 
 - inputs or prerequisites, which outline any initial conditions or data required before executing the test
-
 - detailed steps, which provide a step-by-step guide on how to perform the test
-
 - outputs or expected results, which describe the anticipated outcome of the test
 
 Test cases should always be related to a business process to ensure they are relevant and meaningful. Additionally, it is recommended to have at least one test case for each user story to verify that the functionality meets the user's needs and requirements. This approach helps ensure comprehensive coverage and validation of the software application.
@@ -264,17 +203,11 @@ Test cases should always be related to a business process to ensure they are rel
 There are several types of test cases, each serving a specific purpose:
 
 - **Functional Test Cases**: These are used to verify that the software functions according to the specified requirements. They focus on the user interface, APIs, databases, security, and other functional aspects of the application.
-
 - **Performance Test Cases**: These test cases are designed to assess the performance of the software under various conditions, such as load, stress, and scalability. They help ensure that the application can handle expected user traffic and perform efficiently.
-
 - **Usability Test Cases**: These are used to evaluate the user experience and ease of use of the software. They focus on the design, navigation, and overall user interaction with the application.
-
 - **Security Test Cases**: These test cases aim to identify vulnerabilities and ensure that the software is secure from threats and attacks. They include tests for authentication, authorization, data encryption, and other security measures.
-
 - **Integration Test Cases**: These are used to verify that different modules or components of the software work together as expected. They help identify issues that may arise when integrating various parts of the application.
-
 - **Regression Test Cases**: These test cases are used to ensure that recent code changes have not adversely affected existing functionality. They are typically run after any modification to the software to verify that the changes have not introduced new defects.
-
 - **User Acceptance Test Cases**: These are designed to validate that the software meets the needs and expectations of the end users. They are typically performed by the users themselves to ensure that the application is ready for production.
 
 Each type of test case plays a crucial role in ensuring the overall quality and reliability of the software application. By using a combination of these test cases, you can thoroughly test the software and identify any issues before they reach the end users.
@@ -283,108 +216,63 @@ Each type of test case plays a crucial role in ensuring the overall quality and 
 
 The following list are examples of different types of test cases related to the business process of creating a sales order. This list is not a comprehensive list, nor are the steps precise for executing each test. The list is meant to be a high-level representation of the types of tests that might exists for a similar business process.
 
-1.  **Functional Test Case**:
-
+1. **Functional Test Case**:
     - **Title**: Verify Sales Order Creation
-
     - **Description**: Ensure that a sales order can be created successfully.
-
     - **Steps**:
-
-      1.  Navigate to the Sales Order module.
-
-      2.  Click on "Create New Sales Order".
-
-      3.  Enter customer details, product information, and quantity.
-
-      4.  Save the sales order.
-
+      1. Navigate to the Sales Order module.
+      2. Click on "Create New Sales Order".
+      3. Enter customer details, product information, and quantity.
+      4. Save the sales order.
     - **Expected Result**: The sales order is created and saved successfully.
 
-2.  **Performance Test Case**:
-
+1. **Performance Test Case**:
     - **Title**: Assess Sales Order Creation Under Load
-
     - **Description**: Evaluate the system's performance when creating multiple sales orders simultaneously.
-
     - **Steps**:
-
-      1.  Simulate the creation of 1000 sales orders concurrently.
-
-      2.  Monitor the system's response time and resource usage.
-
+      1. Simulate the creation of 1000 sales orders concurrently.
+      2. Monitor the system's response time and resource usage.
     - **Expected Result**: The system handles the load efficiently without significant delays or crashes.
 
-3.  **Usability Test Case**:
-
+1. **Usability Test Case**:
     - **Title**: Evaluate User Experience in Sales Order Creation
-
     - **Description**: Assess the ease of use and navigation during the sales order creation process.
-
     - **Steps**:
-
-      1.  Ask a user to create a sales order without prior training.
-
-      2.  Observe the user's interaction with the interface.
-
-      3.  Collect feedback on the design, navigation, and overall experience.
-
+      1. Ask a user to create a sales order without prior training.
+      2. Observe the user's interaction with the interface.
+      3. Collect feedback on the design, navigation, and overall experience.
     - **Expected Result**: The user can create a sales order easily and provides positive feedback on the interface.
 
-4.  **Security Test Case**:
-
+1. **Security Test Case**:
     - **Title**: Verify Access Control for Sales Order Creation
-
     - **Description**: Ensure that only authorized users can create sales orders.
-
     - **Steps**:
-
-      1.  Attempt to create a sales order with an unauthorized user account.
-
-      2.  Attempt to create a sales order with an authorized user account.
-
+      1. Attempt to create a sales order with an unauthorized user account.
+      2. Attempt to create a sales order with an authorized user account.
     - **Expected Result**: The unauthorized user is denied access, while the authorized user can create a sales order.
 
-5.  **Integration Test Case**:
-
+1. **Integration Test Case**:
     - **Title**: Validate Integration Between Sales Order and Inventory Modules
-
     - **Description**: Ensure that the sales order creation updates the inventory correctly.
-
     - **Steps**:
-
-      1.  Create a sales order for a specific product.
-
-      2.  Check the inventory levels before and after the sales order creation.
-
+      1. Create a sales order for a specific product.
+      2. Check the inventory levels before and after the sales order creation.
     - **Expected Result**: The inventory levels are updated accurately based on the sales order.
 
-6.  **Regression Test Case**:
-
+1. **Regression Test Case**:
     - **Title**: Verify Sales Order Creation After System Update
-
     - **Description**: Ensure that the sales order creation functionality works correctly after a system update.
-
     - **Steps**:
-
-      1.  Perform a system update.
-
-      2.  Create a sales order following the standard process.
-
+      1. Perform a system update.
+      2. Create a sales order following the standard process.
     - **Expected Result**: The sales order is created successfully without any issues introduced by the update.
 
-7.  **User Acceptance Test Case**:
-
+1. **User Acceptance Test Case**:
     - **Title**: Confirm Sales Order Creation Meets User Requirements
-
     - **Description**: Validate that the sales order creation process meets the end user's needs and expectations.
-
     - **Steps**:
-
-      1.  Provide the end user with the sales order creation feature.
-
-      2.  Ask the user to create a sales order and provide feedback.
-
+      1. Provide the end user with the sales order creation feature.
+      2. Ask the user to create a sales order and provide feedback.
     - **Expected Result**: The user successfully creates a sales order and confirms that the process meets their requirements.
 
 # About workshops
@@ -399,255 +287,178 @@ The Microsoft Business Process Catalog aims to provide one default template stor
 
 The default storyboards included in the Microsoft Business Process catalog were constructed with the following key principles in mind. You can use the same framework to extend or modify the existing default storyboards, or to create new storyboards for new processes.
 
-1.  **Identify key scenarios**: Start by identifying the <u>key</u> end-to-end business scenarios that need to be addressed by the new technology solution. These scenarios should be based on user stories and business requirements. You should identify the end-to—end scenarios in scope and from that collection of scenarios, identify the small set of end-to-end scenarios that would represent say 80% of the business or represent the core business process. This process will also help you to identify the common steps/elements across the scenarios and prioritize within this small set.
+1. **Identify key scenarios**: Start by identifying the <u>key</u> end-to-end business scenarios that need to be addressed by the new technology solution. These scenarios should be based on user stories and business requirements. You should identify the end-to—end scenarios in scope and from that collection of scenarios, identify the small set of end-to-end scenarios that would represent say 80% of the business or represent the core business process. This process will also help you to identify the common steps/elements across the scenarios and prioritize within this small set.
 
-2.  **Create** **frames**: For each selected scenario, create frames that represent the different steps or stages in the user journey. The default storyboards provided with the Microsoft Business Process Catalog provide a simple flow diagram as a starting point. Each frame should include a visual representation of the expected functionality (feature+function+user interaction) and a brief description of the actions being performed.
+1. **Create** **frames**: For each selected scenario, create frames that represent the different steps or stages in the user journey. The default storyboards provided with the Microsoft Business Process Catalog provide a simple flow diagram as a starting point. Each frame should include a visual representation of the expected functionality (feature+function+user interaction) and a brief description of the actions being performed.
 
-3.  **Add details**: Include details such as user interactions, system responses, and any other relevant information. This helps to provide a comprehensive view of the user experience that can easily generate a user story (or equivalent).
+1. **Add details**: Include details such as user interactions, system responses, and any other relevant information. This helps to provide a comprehensive view of the user experience that can easily generate a user story (or equivalent).
 
 ### Drafting the storyboard
 
 The default storyboard template workshops that are provided with the Microsoft Business Process Catalog are intended to be a starting point for the discussion. It is expected that you will need to update and customize the storyboard for each organization. Use the following steps to prepare for the storyboarding workshop.
 
-1.  **Initial draft:** Select and leverage the best storyboard for the organization. Make any known updates to the storyboard for the industry or customer specific that are known before the start of the workshop. Present the draft of the storyboard based on the identified key scenarios and frames. This draft should be a rough representation of the business process represented by process inputs and outcomes, user journey and interactions. It is critical that it is based on following the standard processes from the BPC and Dynamics 365 to meet the underlying business requirements and NOT modelled based on the implementation in the **current** legacy system.
+1. **Initial draft:** Select and leverage the best storyboard for the organization. Make any known updates to the storyboard for the industry or customer specific that are known before the start of the workshop. Present the draft of the storyboard based on the identified key scenarios and frames. This draft should be a rough representation of the business process represented by process inputs and outcomes, user journey and interactions. It is critical that it is based on following the standard processes from the BPC and Dynamics 365 to meet the underlying business requirements and NOT modelled based on the implementation in the **current** legacy system.
 
-2.  **Review and feedback**: Share the initial draft with stakeholders and gather feedback. This feedback is crucial for identifying any gaps or issues in the proposed solution.
+1. **Review and feedback**: Share the initial draft with stakeholders and gather feedback. This feedback is crucial for identifying any gaps or issues in the proposed solution.
 
-3.  **Refinement**: Refine the storyboard based on the feedback received. This may involve adding more details, adjusting the user interactions, or making other changes to improve the overall user experience.
+1. **Refinement**: Refine the storyboard based on the feedback received. This may involve adding more details, adjusting the user interactions, or making other changes to improve the overall user experience.
 
 ### Inputs and outputs of the storyboarding process
 
 Use the following guiding principles to help define the inputs and outputs that should be captured during the storyboarding process. The default storyboards include a draft of the inputs, which may need to be modified or updated during the storyboarding workshop or in preparation for the workshop.
 
 - Inputs:
-
   - Key scenarios and user journeys
-
   - Visual representations of the process flow
-
   - Stakeholder feedback
 
 - Outputs:
-
   - A detailed storyboard that visually represents the user journey and interactions
-
   - A clear understanding of the proposed solution and its impact on users
-
   - Key user stories and business requirements
 
 By following this process, you can ensure that the new technology solution is well-designed and meets the needs of its users. The storyboard serves as a valuable tool for communication and collaboration, helping to align all stakeholders on the vision for the project. It also helps prioritize working on the key, critical end-to-end business scenarios before looking at more peripheral or complex or very infrequent scenarios.
 
 ### Sample storyboard
 
-Following is a sample storyboard template for the acquire to dispose process.
+The following image illustrates a sample storyboard template for the *acquire to dispose* process.
 
-![](./media/image1.emf)
+:::image type="content" source="media/acquire-to-dispose-scenario-board.svg" alt-text="The image is a flowchart titled Acquire to Dispose Storyboard that outlines a business process from acquisition to disposal. The top row depicts a basic flowchart of the business process areas for the acquire to dispose process. Below each process step there are one or more blue boxes that depict scenarios and key attributes of the business process area for discussion in the workshop. The bottom of the graphic includes horizontal or supporting processes that support the entire acquire to dispose process." lightbox="media/acquire-to-dispose-scenario-board.svg":::
 
-The image is a flowchart titled Acquire to Dispose Storyboard that outlines a business process from acquisition to disposal. The top row depicts a basic flowchart of the business process areas for the acquire to dispose process. Below each process step there are one or more blue boxes that depict scenarios and key attributes of the business process area for discussion in the workshop. The bottom of the graphic includes horizontal or supporting processes that support the entire acquire to dispose process.
+1. 10.05 Define asset strategy and policies
 
-1)  10.05 Define asset strategy and policies
+    1. Scenarios
 
-    1)  Scenarios
+        1. Build
+        1. Buy
+        1. Lease
+        1. Develop
 
-        1)  Build
+    1. Compliance
 
-        2)  Buy
+        1. ASC 842
+        1. IFRS 16
 
-        3)  Lease
+    1. Policies
 
-        4)  Develop
+        1. Capitalization threshold
+        1. Depreciation methods
+        1. Maintenance guidelines
+        1. Disposal
+        1. Lease classification
+        1. Renewal and termination
+        1. Internal controls
 
-    2)  Compliance
+1. 10.10 Plan and budget assets
 
-        1)  ASC 842
+    1. Scenarios
 
-        2)  IFRS 16
+        1. Planned/Budgeted
+        1. Unplanned/Not budgeted
 
-    3)  Policies
+    1. Budget approach
 
-        1)  Capitalization threshold
+        1. Top-down
+        1. Bottom-up
+        1. Zero-based
 
-        2)  Depreciation methods
+    1. Budget detail
 
-        3)  Maintenance guidelines
+        1. Lump sum
+        1. Summarize by type
+        1. Detailed by asset
 
-        4)  Disposal
+1. 10.20 Acquire assets
 
-        5)  Lease classification
+    1. Sourcing scenarios
 
-        6)  Renewal and termination
+        1. Request for quotation (RFQ)
+        1. Purchase requisition
+        1. Purchase order
+        1. P-Card
+        1. Projects
+        1. Construction in Progress (CIP)
 
-        7)  Internal controls
+    1. Asset type scenarios
 
-2)  10.10 Plan and budget assets
+        1. Tangible, high-value
+        1. Tangible, low-value
+        1. Intellectual Property
+        1. Trademarks
+        1. Land
 
-    1)  Scenarios
+1. 10.30 Manage internal assets
 
-        1)  Planned/Budgeted
+    1. Scenarios
 
-        2)  Unplanned/Not budgeted
+        1. Maintain asset details
+        1. Insure
+        1. Transfer
 
-    2)  Budget approach
+1. 10.40 Manage and report on asset financials
 
-        1)  Top-down
+    1. Fixed asset scenarios
 
-        2)  Bottom-up
+        1. Depreciate assets
+        1. Revalue assets
+        1. Write-up/down assets
+        1. Correct asset values
 
-        3)  Zero-based
+    1. Asset lease scenarios
 
-    3)  Budget detail
+        1. Accrue lease payments
+        1. Make lease payments
+        1. Amortize lease liability
+        1. Record lease expenses
 
-        1)  Lump sum
+    1. Capital asset project scenarios
 
-        2)  Summarize by type
+        1. CIP
+        1. Internal/Time
+        1. Eliminate/Capitalize projects
 
-        3)  Detailed by asset
+1. 10.50 Maintain and repair assets
 
-3)  10.20 Acquire assets
+    1. Why
 
-    1)  Sourcing scenarios
+        1. Scheduled maintenance
+        1. Unplanned maintenance
 
-        1)  Request for quotation (RFQ)
+    1. Who
 
-        2)  Purchase requisition
+        1. Handled internally with local resources
+        1. Handled internally with remote resources
+        1. Handled internally with travelling resources
+        1. Managed through third-party vendor
 
-        3)  Purchase order
+    1. Where
 
-        4)  P-Card
+        1. Integrated
+            1. In Dynamics 365
 
-        5)  Projects
+1. 10.60 Retire and dispose of assets
 
-        6)  Construction in Progress (CIP)
+    1. Scenarios
 
-    2)  Asset type scenarios
+        1. Sell
+        1. Replace
+        1. Dispose
 
-        1)  Tangible, high-value
+1. 10.70 Analyze assets
 
-        2)  Tangible, low-value
+    1. Inventory value
+    1. Depreciation
+    1. Condition
+    1. Lease liabilities
+    1. Maintenance cost
 
-        3)  Intellectual Property
+1. Case Management
 
-        4)  Trademarks
+1. Data and Integration
 
-        5)  Land
+The following image illustrates the *acquire to dispose* storyboard with highlighted areas.
 
-4)  10.30 Manage internal assets
-
-    1)  Scenarios
-
-        1)  Maintain asset details
-
-        2)  Insure
-
-        3)  Transfer
-
-5)  10.40 Manage and report on asset financials
-
-    1)  Fixed asset scenarios
-
-        1)  Depreciate assets
-
-        2)  Revalue assets
-
-        3)  Write-up/down assets
-
-        4)  Correct asset values
-
-    2)  Asset lease scenarios
-
-        1)  Accrue lease payments
-
-        2)  Make lease payments
-
-        3)  Amortize lease liability
-
-        4)  Record lease expenses
-
-    3)  Capital asset project scenarios
-
-        1)  CIP
-
-        2)  Internal/Time
-
-        3)  Eliminate/Capitalize projects
-
-6)  10.50 Maintain and repair assets
-
-    1)  Why
-
-        1)  Scheduled maintenance
-
-        2)  Unplanned maintenance
-
-    2)  Who
-
-        1)  Handled internally with local resources
-
-        2)  Handled internally with remote resources
-
-        3)  Handled internally with travelling resources
-
-        4)  Managed through third-party vendor
-
-    3)  Where
-
-        1)  Integrated
-
-            1)  In Dynamics 365
-
-7)  10.60 Retire and dispose of assets
-
-    1)  Scenarios
-
-        1)  Sell
-
-        2)  Replace
-
-        3)  Dispose
-
-8)  10.70 Analyze assets
-
-    1)  Inventory value
-
-    2)  Depreciation
-
-    3)  Condition
-
-    4)  Lease liabilities
-
-    5)  Maintenance cost
-
-9)  Case Management
-
-10) Data and Integration
-
-### Sample workshop scenario
-
-Use the following high-level steps to leverage this graphic in an acquire to dispose storyboarding workshop for Dynamics 365.
-
-1)  **Prepare**: To prepare for the workshop, review the graphic and structure, if there are known business requirements or scope, consider highlighting in scope processes or deleting or striking out any out of scope scenarios. If there are industry specific requirements add the scenario into the appropriate boxes or create new boxes if required. Ensure that all the correct stakeholders are invited to the meeting.
-
-2)  **Introduction**: Present the storyboard as an overview of asset lifecycle management within an organization **using Dynamics 365**.
-
-3)  **Step-by-Step Walkthrough**: Guide participants through each step sequentially, explaining how Dynamics 365 can facilitate these processes. You can consider leveraging a high-level short process that shows the main process. Make any changes required to the top row process as required. Try to stick to this process as much as possible and minimize renaming where possible. If new boxes are added, consider using a different color or symbol to visually indicate where there are **changes**.
-
-4)  **Discussion**: Encourage participants to discuss how their current practices align with the storyboard and identify opportunities for improvement. For each process step, try to identify one key "path" or option that represents the majority of the organization's process, the most critical process, or processes/scenarios that most closely align to the overall project goal. Highlight the "main path" a different color as the stakeholder agree on the most critical steps. It is often helpful to have this "main" path defined with a smaller set of stakeholders prior to the workshop as a proposal which can be modified/refined in the workshop.
-
-5)  **Deep Dive**: Use the specific blocks under to delve deeper into areas where Dynamics 365 offers functionality that can streamline operations, such as automated asset tracking or predictive maintenance scheduling. Discuss any uniqueness that the organization might have related to each process or scenario. Document any key findings or discussion from the session.
-
-6)  **Horizontal and Supporting Processes**:
-
-    1)  **Case Management**: Highlight how case management can be leveraged throughout the acquire to dispose process to handle requests, approvals, and manage issues and risks reported in the process. Document and discuss any needs for each process step to manage requests, approvals, and issues.
-
-    2)  **Data and Integration**: Highlight how data captured at each stage within Dynamics 365 can inform decision-making in subsequent phases. Make sure to discuss where the data is currently stored and highlight how it will be captured and migrated into Dynamics 365. Be sure to discuss volumes, how historical data will be handled, especially for assets that are partially depreciated.
-
-7)  **Conclusion**: Make sure the graphic is updated and key points are documented. All stakeholders should agree on the primary scenario(s) that will be modeled in the next phase. Any key risks, actions, issues, and decisions should be documented against the process in Azure DevOps or the RAID log where you are managing the project.
-
-The outcome of the selection of the elements that will define the key end-to-end processes or scenarios should be documented, first visually at the storyboard level and then documented in more detail as user stories (or equivalent). An example below, where the red-outlined boxes represent the core scenario (i.e. this organization primarily creates assets by "buying" them which then defines the red-outlined elements in scope for that "buy asset" scenario:
-
-:::image type="content" source="media/about-business-process-catalog-levels/image2.png" alt-text="":::
-
-## 
+:::image type="content" source="media/about-business-process-catalog-levels-storyboard.png" alt-text="Screenshot of a slide that shows the 9 steps for running a storyboard workshop for the Acquire to dispose end-to-end scenario.":::
 
 ## Customer end-to-end design workshop
 
@@ -696,11 +507,8 @@ It is recommended that during the sales cycle, enough detail is gathered to dete
 Each workshop should have a predefined set of objectives to help drive the outcome of the workshop. Below is a list of general workshop objectives for all design workshops. To clarify and refine the functional requirements of the new technology solution.
 
 - To ensure that all stakeholders have a shared understanding of the proposed solution.
-
 - To identify any gaps or issues in the proposed solution and address them.
-
 - To configure a working solution that can be demonstrated after the workshop.
-
 - To prepare for the next step, typically referred to as a conference room pilot or demonstration.
 
 In addition to these objectives, the Microsoft Business Process Catalog default design workshops aim to provide a list of more specific objectives for the workshop. You may need to enhance or extend these objectives for a specific organization, industry, or ISV solution that is included in your project scope.
@@ -710,13 +518,9 @@ In addition to these objectives, the Microsoft Business Process Catalog default 
 Each workshop includes an agenda and a list of default key questions to ask during the workshop. The list of questions is not an exhaustive list of all questions, but rather a starting point to help drive the discussion and to make key decisions that are required to configure the Dynamics 365 solution. The key questions are designed to be specific to the end-to-end process, but the following list of questions are general questions that can be used to help form the basis of a design workshop for a custom business process or solution.
 
 - What are the key business processes that need to be supported by the new technology solution?
-
 - What are the specific functional requirements for each business process?
-
 - Are there any existing systems or processes that need to be integrated with the new solution?
-
 - What are the potential risks or challenges associated with the implementation?
-
 - What are the success criteria for the new technology solution?
 
 #### Inputs
@@ -724,9 +528,7 @@ Each workshop includes an agenda and a list of default key questions to ask duri
 When you start a design workshop, be sure to have the following key inputs available. The Workshop assumptions that are defined on each workshop help further define any additional inputs or required information for the workshop.
 
 - Information from the storyboarding process, including key scenarios and user journeys.
-
 - Visual representations of the process flow.
-
 - Stakeholder feedback and business requirements.
 
 #### Outputs
@@ -734,11 +536,8 @@ When you start a design workshop, be sure to have the following key inputs avail
 When the workshop is completed, you should have the following documented:
 
 - A detailed and refined set of functional requirements.
-
 - A configured working solution that can be demonstrated.
-
 - A clear understanding of the proposed solution and its impact on users.
-
 - Identified gaps or issues that need to be addressed before the next phase.
 
 # Deliverables in the business process catalog
@@ -764,27 +563,16 @@ Requirements are not included by default in the Business Process Catalog because
 ### Examples
 
 - System must support multi-currency invoicing for global operations.
-
 - Enable automated tax calculation for multiple jurisdictions.
-
 - System must allow sales reps to create quotes directly from opportunities.
-
 - Enable case routing based on customer priority and SLA.
-
 - Technicians must be able to capture customer signatures on mobile devices.
-
 - System must process 1,000 sales orders per minute during peak load without errors.
-
 - Case routing must occur within 2 seconds of case creation for high-priority customers.
-
 - Mobile app must sync work orders within 30 seconds after connectivity is restored.
-
 - System must maintain 99.9% uptime during business hours.
-
 - All customer data must be encrypted at rest and in transit using AES-256.
-
 - Application must support accessibility standards (WCAG 2.1) for visually impaired users.
-
 - Response time for dashboards must not exceed 3 seconds for datasets under 10,000 records.
 
 ### Success by Design guidelines
@@ -853,23 +641,23 @@ Requirements are not included by default in the Business Process Catalog because
 
 Use the following steps to create a requirement in the Azure DevOps project using the default template for the Microsoft Business Process Catalog.
 
-1.  Go to your Azure DevOps project and open the Deliverables backlog. You can optionally, select the backlog for a specific Team like Accounts payable or Sales, for example.
+1. Go to your Azure DevOps project and open the Deliverables backlog. You can optionally, select the backlog for a specific Team like Accounts payable or Sales, for example.
 
-2.  Select **New Work Item** and choose **Requirement**.
+2. Select **New Work Item** and choose **Requirement**.
 
-3.  Enter a clear and detailed **Description** of the requirement.
+3. Enter a clear and detailed **Description** of the requirement.
 
-4.  Specify the **Scope** and **Priority**.
+4. Specify the **Scope** and **Priority**.
 
-5.  Add **Acceptance Criteria** to define what success looks like.
+5. Add **Acceptance Criteria** to define what success looks like.
 
-6.  Fill in additional fields such as **Fit Gap Status**, **Gap Solution Approach**, and **Complexity** as needed.
+6. Fill in additional fields such as **Fit Gap Status**, **Gap Solution Approach**, and **Complexity** as needed.
 
-7.  Assign the work item to the appropriate **Business Process Owner** or **Workstream Lead**.
+7. Assign the work item to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-8.  Link the requirement to related deliverables (e.g., business process, process area, configuration, workflow, report, integration).
+8. Link the requirement to related deliverables (e.g., business process, process area, configuration, workflow, report, integration).
 
-9.  Save the work item.
+9. Save the work item.
 
 ## Workflow
 
@@ -933,23 +721,23 @@ The following fields are recommended for the Workflow work item type and include
 
 Use the following steps to create a workflow in the Azure DevOps project using the default template for the Microsoft Business Process Catalog.
 
-1.  Go to your Azure DevOps project and open the Deliverables backlog. You can optionally, select the backlog for a specific Team like Accounts payable or Sales, for example.
+1. Go to your Azure DevOps project and open the Deliverables backlog. You can optionally, select the backlog for a specific Team like Accounts payable or Sales, for example.
 
-2.  Select **New Work Item** and choose **Workflow**.
+2. Select **New Work Item** and choose **Workflow**.
 
 <!-- -->
 
-3.  Enter a clear **Description** of the workflow.
+3. Enter a clear **Description** of the workflow.
 
-4.  Specify **Workflow Type**, **Approval Levels**, and **Approval Types**.
+4. Specify **Workflow Type**, **Approval Levels**, and **Approval Types**.
 
-5.  Add relevant **Configuration Keys** and **Menu Path**.
+5. Add relevant **Configuration Keys** and **Menu Path**.
 
-6.  Assign the workflow to the appropriate **Business Process Owner** or **Workstream Lead**.
+6. Assign the workflow to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-7.  Link the work item to related deliverables (e.g., business process, process area, configuration, workflow, report, integration).
+7. Link the work item to related deliverables (e.g., business process, process area, configuration, workflow, report, integration).
 
-8.  Save the work item.
+8. Save the work item.
 
 ## Report
 
@@ -1011,19 +799,19 @@ The following fields are recommended for the Report work item type and included 
 
 Use the following steps to create a Report type work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog.
 
-1.  Go to your Azure DevOps project and open the Deliverables backlog. You can optionally, select the backlog for a specific Team like Accounts payable or Sales, for example.
+1. Go to your Azure DevOps project and open the Deliverables backlog. You can optionally, select the backlog for a specific Team like Accounts payable or Sales, for example.
 
-2.  Select **New Work Item** and choose **Report**.
+2. Select **New Work Item** and choose **Report**.
 
-3.  Enter a clear **Description** of the report.
+3. Enter a clear **Description** of the report.
 
-4.  Specify **Report Type**, **Audience**, **Technology**, and **Execution Frequency**.
+4. Specify **Report Type**, **Audience**, **Technology**, and **Execution Frequency**.
 
-5.  Assign the report to the appropriate **Business Process Owner** or **Workstream Lead**.
+5. Assign the report to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-6.  Link the requirement to related deliverables (e.g., business process, process area, configuration, workflow, report, integration).
+6. Link the requirement to related deliverables (e.g., business process, process area, configuration, workflow, report, integration).
 
-7.  Save the work item.
+7. Save the work item.
 
 ## Integration
 
@@ -1099,23 +887,23 @@ The following fields are recommended for the **Integration** work item type and 
 
 Use the following steps to create an integration work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Integration**.
+2. Select **New Work Item** and choose **Integration**.
 
-3.  Enter a clear **Description** of the integration.
+3. Enter a clear **Description** of the integration.
 
-4.  Specify **Source System**, **Source Data Entity**, **Target System**, and **Target Data Entity**.
+4. Specify **Source System**, **Source Data Entity**, **Target System**, and **Target Data Entity**.
 
-5.  Add details for **Interface Technology**, **Interface Mode**, **Interface Model**, and **Middleware**.
+5. Add details for **Interface Technology**, **Interface Mode**, **Interface Model**, and **Middleware**.
 
-6.  Include performance-related fields such as **Peak Hour Volume**, **Average Daily Volume**, and **Average Hourly Transactions**.
+6. Include performance-related fields such as **Peak Hour Volume**, **Average Daily Volume**, and **Average Hourly Transactions**.
 
-7.  Assign the integration to the appropriate **Business Process Owner** or **Workstream Lead**.
+7. Assign the integration to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-8.  Link the work item to related deliverables (e.g., business process, configuration, migration, testing).
+8. Link the work item to related deliverables (e.g., business process, configuration, migration, testing).
 
-9.  Save the work item.
+9. Save the work item.
 
 ## Configuration
 
@@ -1191,23 +979,23 @@ The following fields are recommended for the **Configuration** work item type an
 
 Use the following steps to create a configuration work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Configuration**.
+2. Select **New Work Item** and choose **Configuration**.
 
-3.  Enter a clear **Description** of the configuration activity.
+3. Enter a clear **Description** of the configuration activity.
 
-4.  Specify **Configuration Type**, **Menu Path**, and **Menu Item Name**.
+4. Specify **Configuration Type**, **Menu Path**, and **Menu Item Name**.
 
-5.  Add details for **Cutover Method**, **Data Package**, and **Execution Sequence**.
+5. Add details for **Cutover Method**, **Data Package**, and **Execution Sequence**.
 
-6.  Include any **Configuration Keys**, **Feature Management Keys**, and **Country Region Codes**.
+6. Include any **Configuration Keys**, **Feature Management Keys**, and **Country Region Codes**.
 
-7.  Assign the configuration to the appropriate **Business Process Owner** or **Workstream Lead**.
+7. Assign the configuration to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-8.  Link the work item to related deliverables (e.g., business process, workflow, report, integration).
+8. Link the work item to related deliverables (e.g., business process, workflow, report, integration).
 
-9.  Save the work item.
+9. Save the work item.
 
 ## Enhancement
 
@@ -1241,7 +1029,7 @@ Enhancements should be documented as individual work items to ensure traceabilit
 
 - Validate compliance and security implications, especially for enhancements involving sensitive data or automated decision-making.
 
-- Apply Responsible AI principles (Fairness, Reliability & Safety, Privacy & Security, Inclusiveness, Transparency, Accountability) when building AI-driven or agentic enhancements.
+- Apply Responsible AI principles (Fairness, Reliability & Safety, Privacy & Security, Transparency, Accountability) when building AI-driven or agentic enhancements.
 
 - Ensure human oversight and interruptibility for autonomous or semi-autonomous agentic features; include mechanisms to pause or shut down execution if needed.
 
@@ -1283,21 +1071,21 @@ The following fields are recommended for the **Enhancement** work item type and 
 
 Use the following steps to create an enhancement work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Enhancement**.
+2. Select **New Work Item** and choose **Enhancement**.
 
-3.  Enter a clear **Description** of the enhancement.
+3. Enter a clear **Description** of the enhancement.
 
-4.  Add details for **Development Technology**, **Functional Design**, and **Technical Design**.
+4. Add details for **Development Technology**, **Functional Design**, and **Technical Design**.
 
-5.  Include any **Configuration Keys** or **Feature Management Keys**.
+5. Include any **Configuration Keys** or **Feature Management Keys**.
 
-6.  Assign the enhancement to the appropriate **Business Process Owner** or **Workstream Lead**.
+6. Assign the enhancement to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-7.  Link the work item to related deliverables (e.g., requirements, workflows, configurations, testing).
+7. Link the work item to related deliverables (e.g., requirements, workflows, configurations, testing).
 
-8.  Save the work item.
+8. Save the work item.
 
 ## Documentation
 
@@ -1305,7 +1093,7 @@ Documentation deliverables provide essential guidance and reference materials th
 
 The Business Process Catalog **includes a small number of documentation deliverables out-of-the-box**, such as the **Solution Blueprint** and strategy documents for key Success by Design topics (e.g., Environment Strategy, ALM Strategy, Integration Strategy). These serve as foundational artifacts for governance and quality assurance. Additional documentation deliverables should be created as needed to capture project-specific details and ensure traceability.
 
-Documentation work items should be used to catalog all critical reference materials that support the implementation and governance of Dynamics 365 projects. For standard Success by Design documents included in the catalog, use the provided work items to track completion and updates. For custom documentation, create a dedicated work item to capture the purpose, scope, and links to the actual content. This ensures visibility, supports audits, and provides a central artifact for linking related deliverables such as workshops, configurations, and testing activities.
+Documentation work items should be used to catalog all critical reference materials that support the implementation and governance of Dynamics 365 projects. For standard Success by Design documents included in the catalog, use the provided work items to track completion and updates. For custom documentation, create a dedicated work item to capture the purpose, scope, and links to related content. This ensures visibility, supports audits, and provides a central artifact for linking related deliverables such as workshops, configurations, and testing activities.
 
 ### Examples
 
@@ -1379,257 +1167,25 @@ The following fields are recommended for the **Migration** work item type and in
 
 - **Process Sequence ID:** Unique sequence ID for process alignment.
 
-### Procedure: Create Documentation in Azure DevOps
+### Procedure: Create a Migration in Azure DevOps
 
 Use the following steps to create a migration work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Migration**.
+2. Select **New Work Item** and choose **Migration**.
 
-3.  Enter a clear **Description** of the migration activity.
+3. Enter a clear **Description** of the migration.
 
-4.  Specify **Source System**, **Source Data Entity**, **Target System**, and **Target Data Entity**.
+4. Specify **Source System**, **Source Data Entity**, **Target System**, and **Target Data Entity**.
 
-5.  Add details for **Migration Strategy**, **Migration Method**, **Data Migration Volume**, and **Validation Method**.
+5. Add details for **Migration Strategy**, **Migration Method**, **Data Migration Volume**, and **Validation Method**.
 
-6.  Include technical details such as **Interface Model**, **Middleware**, and **Initial Data Sync Mechanism**.
+6. Assign the migration to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-7.  Assign the migration to the appropriate **Business Process Owner** or **Workstream Lead**.
+7. Link the work item to related deliverables (e.g., business process, configuration, integration).
 
-8.  Link the work item to related deliverables (e.g., business process, configuration, integration, testing).
-
-9.  Save the work item.
-
-## Job
-
-Jobs represent scheduled or automated processes that execute background tasks across Dynamics 365 applications. These jobs ensure operational efficiency by automating repetitive tasks, reducing manual intervention, and maintaining system performance.
-
-In **Finance & Operations (F&O)**, jobs typically include **Batch Jobs** implemented via **SysOperation** or **RunBaseBatch** frameworks for asynchronous processing. In **Customer Engagement (CE)**, jobs often involve **scheduled Power Automate flows**, **asynchronous plugins**, and **workflow executions** that run in the background. For **Business Central (BC)**, jobs are managed through **Job Queue Entries** and **background Codeunit execution**, enabling recurring tasks and integrations.
-
-Jobs can be configured for **recurrence and scheduling**, such as **flow recurrence**, **workflow scheduler**, or **job queue recurrence**. Monitoring and troubleshooting are critical, supported by **logs**, **flow run history**, **plugin trace logs**, and **job queue status reports**.
-
-The Business Process Catalog currently includes all standard out-of-the-box (OOB) jobs for Finance and Operations apps in the December release. There are plans to include standard jobs for other applications in future releases.
-
-Job work items should be used to catalog both standard and custom jobs that are essential for process execution. For OOB jobs, use the provided work items to confirm scope and link related deliverables such as testing and security. For custom jobs, create a dedicated work item to capture the purpose, recurrence, execution type, and monitoring details and make to relate the custom item to the business process and enhancement that supports the job. This ensures visibility, supports audits, and provides a central artifact for linking to related configurations, integrations, and cutover activities.
-
-### Examples
-
-- Nightly batch job for posting inventory journals.
-
-- Scheduled job for updating currency exchange rates.
-
-- Nightly job to sync product catalog updates from ERP to Sales.
-
-- Batch job to close inactive cases older than 90 days.
-
-- Scheduled job to refresh resource availability calendars.
-
-### Success by Design guidelines
-
-- Confirm all standard OOB jobs are in scope and linked to relevant processes.
-
-- Document custom jobs with clear purpose, recurrence, and dependencies.
-
-- Validate job configurations during design workshops and include them in cutover planning.
-
-- Ensure jobs are tested in non-production environments before deployment.
-
-- Link job work items to related deliverables such as integrations, configurations, and testing for traceability.
-
-- Plan the overall job schedule across environments to avoid conflicts and ensure sequencing aligns with business processes and cutover timelines.
-
-- Consider performance and timing requirements:
-
-- Define acceptable execution windows for high-volume jobs.
-
-- Schedule resource-intensive jobs during off-peak hours to minimize system impact.
-
-- Use recurrence settings and throttling options to balance load.
-
-- Monitor and optimize job performance:
-
-- Track execution times and success/failure rates.
-
-- Implement retry and error-handling strategies for resilience.
-
-- Introduce Agentic AI where appropriate:
-
-- Use AI agents to monitor job health, predict failures, and recommend optimizations.
-
-- Enable adaptive scheduling where AI dynamically adjusts job timing based on system load or business priorities.
-
-- Apply Responsible AI principles (Fairness, Reliability & Safety, Privacy & Security, Transparency, Accountability) when automating decisions about job execution.
-
-- Ensure human oversight and interuptability for autonomous scheduling or orchestration features.
-
-- Log AI-driven decisions for transparency and compliance.
-
-- Review job dependencies and ensure they do not block critical processes or integrations.
-
-### Recommended fields
-
-The following fields are recommended for the **Job** work item type and included by default in the Azure DevOps template for the Microsoft Business Process Catalog:
-
-- **Description:** Details of the job to be scheduled.
-
-- **Job Type:** Type of job (e.g., batch, event-driven).
-
-- **Job Purpose:** Purpose of the job (e.g., cleanup, data processing).
-
-- **Job Execution Type:** How the job runs (e.g., batch, real-time).
-
-- **Execution Frequency:** How often the job runs (e.g., daily, weekly).
-
-- **Configuration Keys:** Relevant configuration keys for the job.
-
-- **Data Package:** Name of the data package for job execution.
-
-- **Execution Sequence:** Order of operations for job execution.
-
-- **Business Process Owner:** Person accountable for the job.
-
-- **Workstream Lead:** Person leading the job setup.
-
-- **Success by Design Phase:** Phase relevant to the job.
-
-- **Catalog Status:** Status for catalog governance.
-
-- **Process Sequence ID:** Unique sequence ID for process alignment.
-
-### Procedure: Create a Job in Azure DevOps
-
-Use the following steps to create a job in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
-
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
-
-2.  Select **New Work Item** and choose **Job**.
-
-3.  Enter a clear **Description** of the job.
-
-4.  Specify **Job Type**, **Job Purpose**, **Execution Type**, and **Execution Frequency**.
-
-5.  Add relevant **Configuration Keys**, **Data Package**, and **Execution Sequence**.
-
-6.  Assign the job to the appropriate **Business Process Owner** or **Workstream Lead**.
-
-7.  Link the work item to related deliverables (e.g., business process, configuration, workflow, integration).
-
-8.  Save the work item.
-
-## Migration
-
-Migration work items represent the transfer of data from legacy systems or external sources into Dynamics 365 applications. This includes master data, transactional data, and historical records required for continuity and compliance.
-
-The Business Process Catalog **includes migration work items for standard master data entities such as customers, vendors, and suppliers**. For all additional migrations, new work items should be created to document the scope, source system, and technical approach. Each migration work item should focus on **one source system per work item**. For example, if migrating customers from two different systems, create separate work items following a naming standard such as "**Migrate Customers from \[Source System\]**."
-
-Migration work items should be used to catalog all data migration activities, whether standard or custom. For OOB master data migrations, confirm scope and link related deliverables such as testing and validation. For custom migrations, create dedicated work items to capture source and target details, migration strategy, and validation methods. This ensures traceability and supports governance during cutover. Naming conventions should clearly indicate the data entity and source system to simplify tracking and reporting.
-
-When handling **master data with multiple related tables or entities**, we recommend creating **one parent work item to represent the logical entity** (e.g., Customer/Partner) and then either:
-
-- Add **child work items** for each related entity (e.g., Customer Addresses, Customer Contacts, Customer Bank Accounts), or
-
-- Document the details of each related entity within the parent work item.
-
-This approach ensures clarity, supports governance, and simplifies linking to testing and validation activities.
-
-### Examples
-
-- Migrate vendor master data from SAP to D365.
-
-- Import historical sales transactions into CRM.
-
-- Migrate historical opportunities from Salesforce to Dynamics 365 Sales.
-
-- Import legacy case data from Zendesk.
-
-- Load historical work orders from legacy field service system.
-
-### Success by Design guidelines
-
-- Confirm all standard OOB migration work items for master data are in scope and linked to relevant processes.
-
-- Create new migration work items for additional data entities and custom scenarios.
-
-- Use one source system per migration work item for clarity and governance.
-
-- Validate migration strategy and method during design workshops and include them in cutover planning.
-
-- Document dependencies and ensure sequencing aligns with overall cutover timeline.
-
-- Perform data quality checks and define rollback procedures for risk mitigation.
-
-- Link migration work items to related deliverables such as integrations, configurations, and testing for traceability.
-
-- Plan performance and timing considerations:
-
-- Schedule large-volume migrations during off-peak hours.
-
-- Define acceptable execution windows and monitor throughput.
-
-- Agentic AI considerations:
-
-- Use AI agents to **predict migration risks**, optimize sequencing, and recommend retry strategies.
-
-- Apply **Responsible AI principles** (Fairness, Reliability, Privacy, Transparency, Accountability) when automating migration decisions.
-
-- Enable **adaptive migration scheduling** where AI adjusts timing based on system load or data quality checks.
-
-- Log AI-driven decisions for compliance and auditability.
-
-### Recommended fields
-
-The following fields are recommended for the **Migration** work item type and included by default in the Azure DevOps template for the Microsoft Business Process Catalog:
-
-- **Description:** Details of the migration activity.
-
-- **Source System:** System where data originates.
-
-- **Source Data Entity:** Data entity from the source system.
-
-- **Target System:** System where data will be migrated.
-
-- **Target Data Entity:** Data entity in the target system.
-
-- **Migration Strategy:** Strategy for migration (e.g., phased, big bang).
-
-- **Migration Method:** Method used (e.g., API-based, Data Management Framework).
-
-- **Data Migration Volume:** Estimated volume of data to migrate.
-
-- **Data Scrubbing Technology:** Technology used for data cleansing.
-
-- **Validation Method:** Method for validating migrated data.
-
-- **Business Process Owner:** Person accountable for migration.
-
-- **Workstream Lead:** Person leading the migration.
-
-- **Success by Design Phase:** Phase relevant to migration.
-
-- **Catalog Status:** Status for catalog governance.
-
-- **Process Sequence ID:** Unique sequence ID for process alignment.
-
-### Procedure: Create a Migration in Azure DevOps
-
-Use the following steps to create a migration in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
-
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
-
-2.  Select **New Work Item** and choose **Migration**.
-
-3.  Enter a clear **Description** of the migration.
-
-4.  Specify **Source System**, **Source Data Entity**, **Target System**, and **Target Data Entity**.
-
-5.  Add details for **Migration Strategy**, **Migration Method**, **Data Migration Volume**, and **Validation Method**.
-
-6.  Assign the migration to the appropriate **Business Process Owner** or **Workstream Lead**.
-
-7.  Link the work item to related deliverables (e.g., business process, configuration, integration).
-
-8.  Save the work item.
+8. Save the work item.
 
 ## Personalization
 
@@ -1691,21 +1247,21 @@ The following fields are recommended for the **Personalization** work item type 
 
 ### Procedure: Create a Personalization in Azure DevOps
 
-Use the following steps to create a personalization in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
+Use the following steps to create a personalization work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Personalization**.
+2. Select **New Work Item** and choose **Personalization**.
 
-3.  Enter a clear **Description** of the personalization.
+3. Enter a clear **Description** of the personalization.
 
-4.  Add relevant **Menu Path**, **Configuration Keys**, and **Feature Management Keys**.
+4. Add relevant **Menu Path**, **Configuration Keys**, and **Feature Management Keys**.
 
-5.  Assign the personalization to the appropriate **Business Process Owner** or **Workstream Lead**.
+5. Assign the personalization to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-6.  Link the work item to related deliverables (e.g., business process, configuration, workflow).
+6. Link the work item to related deliverables (e.g., business process, configuration, workflow).
 
-7.  Save the work item.
+7. Save the work item.
 
 ## Security
 
@@ -1747,19 +1303,17 @@ Microsoft recommends implementing **agent-specific identities** (e.g., Azure AD 
 
 - Agentic AI considerations:
 
-<!-- -->
+  - Apply Responsible AI principles (Fairness, Reliability & Safety, Privacy & Security, Transparency, Accountability) when designing agentic workflows or AI-driven security monitoring.
 
-- Apply Responsible AI principles (Fairness, Reliability & Safety, Privacy & Security, Transparency, Accountability) when designing agentic workflows or AI-driven security monitoring.
+  - Implement agent-specific identities (e.g., Azure AD service principals) and enforce strict access policies for AI agents.
 
-- Implement agent-specific identities (e.g., Azure AD service principals) and enforce strict access policies for AI agents.
+  - Enable real-time monitoring and anomaly detection for agent actions using Microsoft Defender for AI and Purview Data Security Posture Management.
 
-- Enable real-time monitoring and anomaly detection for agent actions using Microsoft Defender for AI and Purview Data Security Posture Management.
+  - Ensure human oversight and interruptibility for autonomous or semi-autonomous agents performing security-sensitive tasks.
 
-- Ensure human oversight and interruptibility for autonomous or semi-autonomous agents performing security-sensitive tasks.
+  - Log all AI-driven decisions and actions for transparency, compliance, and auditability.
 
-- Log all AI-driven decisions and actions for transparency, compliance, and auditability.
-
-- Define clear boundaries for agent capabilities and perform risk assessments for emergent behaviors or multi-agent collaboration.
+  - Define clear boundaries for agent capabilities and perform risk assessments for emergent behaviors or multi-agent collaboration.
 
 ### Recommended fields
 
@@ -1787,19 +1341,19 @@ The following fields are recommended for the **Security** work item type and inc
 
 Use the following steps to create a security work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Security**.
+2. Select **New Work Item** and choose **Security**.
 
-3.  Enter a clear **Description** of the security configuration or role.
+3. Enter a clear **Description** of the security configuration or role.
 
-4.  Specify **Compliance Requirement** and add relevant **Configuration Keys** or **Feature Management Keys**.
+4. Specify **Compliance Requirement** and add relevant **Configuration Keys** or **Feature Management Keys**.
 
-5.  Assign the security work item to the appropriate **Business Process Owner** or **Workstream Lead**.
+5. Assign the security work item to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-6.  Link the work item to related deliverables (e.g., business process, configuration, workflow).
+6. Link the work item to related deliverables (e.g., business process, configuration, workflow).
 
-7.  Save the work item.
+7. Save the work item.
 
 ## Workshop
 
@@ -1843,21 +1397,21 @@ Workshops should encourage stakeholders to think holistically about how automati
 
 - Apply agentic principles:
 
-- Prioritize process-focused workshops that explore how AI agents and automation can reshape business processes, rather than focusing solely on individual agent features.
+  - Prioritize process-focused workshops that explore how AI agents and automation can reshape business processes, rather than focusing solely on individual agent features.
 
-- Use workshops to identify opportunities for responsible AI adoption, process innovation, and frontier firm transformation.
+  - Use workshops to identify opportunities for responsible AI adoption, process innovation, and frontier firm transformation.
 
-- Ensure workshops address Responsible AI principles—Fairness, Reliability & Safety, Privacy & Security, Transparency, and Accountability—when designing agentic workflows or automation.
+  - Ensure workshops address Responsible AI principles—Fairness, Reliability & Safety, Privacy & Security, Transparency, and Accountability—when designing agentic workflows or automation.
 
-- Promote human oversight, transparency, and traceability for agent-driven decisions and actions.
-
-- Challenge existing practices and encourage stakeholders to design processes that leverage AI and automation for strategic business outcomes.
+  - Promote human oversight, transparency, and traceability for agent-driven decisions and actions.
 
 ### Recommended fields
 
 The following fields are recommended for the **Workshop** work item type and included by default in the Azure DevOps template for the Microsoft Business Process Catalog:
 
 - **Description:** Details of the workshop purpose and scope.
+
+
 
 - **Agenda:** Expected content to be covered in the workshop.
 
@@ -1883,21 +1437,21 @@ The following fields are recommended for the **Workshop** work item type and inc
 
 Use the following steps to create a workshop work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Workshop**.
+2. Select **New Work Item** and choose **Workshop**.
 
-3.  Enter a clear **Description** of the workshop.
+3. Enter a clear **Description** of the workshop.
 
-4.  Add **Agenda**, **Workshop Assumptions**, and **Key Questions**.
+4. Add **Agenda**, **Workshop Assumptions**, and **Key Questions**.
 
-5.  Specify **Microsoft Workshop Type** and **Partner Workshop Type**.
+5. Specify **Microsoft Workshop Type** and **Partner Workshop Type**.
 
-6.  Assign the workshop to the appropriate **Business Process Owner** or **Workstream Lead**.
+6. Assign the workshop to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-7.  Link the work item to related deliverables (e.g., business process, configuration, workflow).
+7. Link the work item to related deliverables (e.g., business process, configuration, workflow).
 
-8.  Save the work item.
+8. Save the work item.
 
 ## Deliverable
 
@@ -1957,19 +1511,19 @@ The following fields are recommended for the **Deliverable** work item type and 
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Deliverable**.
+2. Select **New Work Item** and choose **Deliverable**.
 
-3.  Enter a clear **Description** of the deliverable.
+3. Enter a clear **Description** of the deliverable.
 
-4.  Add any **Microsoft References** or **Partner References**.
+4. Add any **Microsoft References** or **Partner References**.
 
-5.  Assign the deliverable to the appropriate **Business Process Owner** or **Workstream Lead**.
+5. Assign the deliverable to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-6.  Link the work item to related deliverables (e.g., business process, configuration, workflow).
+6. Link the work item to related deliverables (e.g., business process, configuration, workflow).
 
-7.  Save the work item.
+7. Save the work item.
 
 ## Testing
 
@@ -2005,17 +1559,17 @@ Testing work items should be used to catalog all planned validation activities, 
 
 - For agentic AI and automation, design tests to evaluate:
 
-- AI agent reliability, safety, and compliance with Responsible AI principles.
+  - AI agent reliability, safety, and compliance with Responsible AI principles.
 
-- Transparency and traceability of agent decisions and actions.
+  - Transparency and traceability of agent decisions and actions.
 
-- Human oversight for autonomous or semi-autonomous features.
+  - Human oversight for autonomous or semi-autonomous features.
 
-- Performance and scalability of agentic workflows under real-world conditions.
+  - Performance and scalability of agentic workflows under real-world conditions.
 
-- Security and privacy risks associated with AI-driven automation.
+  - Security and privacy risks associated with AI-driven automation.
 
-- Use testing work items to plan and document evaluations of AI models, prompts, and agentic features, ensuring ethical and responsible deployment.
+  - Use testing work items to plan and document evaluations of AI models, prompts, and agentic features, ensuring ethical and responsible deployment.
 
 ### Recommended fields
 
@@ -2043,21 +1597,21 @@ The following fields are recommended for the **Testing** work item type and incl
 
 Use the following steps to create a testing work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Go to your Azure DevOps project and open the **Deliverables backlog**.
+1. Go to your Azure DevOps project and open the **Deliverables backlog**.
 
-2.  Select **New Work Item** and choose **Testing**.
+2. Select **New Work Item** and choose **Testing**.
 
-3.  Enter a clear **Description** of the testing activity.
+3. Enter a clear **Description** of the testing activity.
 
-4.  Add **Work Instructions** and **Acceptance Criteria**.
+4. Add **Work Instructions** and **Acceptance Criteria**.
 
-5.  Specify **Automation Status** if applicable.
+5. Specify **Automation Status** if applicable.
 
-6.  Assign the testing work item to the appropriate **Business Process Owner** or **Workstream Lead**.
+6. Assign the testing work item to the appropriate **Business Process Owner** or **Workstream Lead**.
 
-7.  Link the work item to related deliverables (e.g., business process, configuration, workflow).
+7. Link the work item to related deliverables (e.g., business process, configuration, workflow).
 
-8.  Save the work item.
+8. Save the work item.
 
 # Business process catalog work items
 
@@ -2113,34 +1667,20 @@ The top-level node of the Business Process Catalog represents a **complete busin
 
 The catalog includes 15 industry-standard End-to-End processes that cover the full spectrum of business operations.
 
-1.  Acquire to dispose
-
-2.  Administer to operate
-
-3.  Case to resolution
-
-4.  Concept to market
-
-5.  Design to retire
-
-6.  Forecast to plan
-
-7.  Hire to retire
-
-8.  Inventory to deliver
-
-9.  Order to cash
-
+1. Acquire to dispose
+2. Administer to operate
+3. Case to resolution
+4. Concept to market
+5. Design to retire
+6. Forecast to plan
+7. Hire to retire
+8. Inventory to deliver
+9. Order to cash
 10. Plan to produce
-
 11. Project to profit
-
 12. Prospect to quote
-
 13. Record to report
-
 14. Service to deliver
-
 15. Source to pay
 
 **Recommendation:** Customers and partners should **not add new End-to-End processes**. Instead, align to these existing processes to maintain consistency and leverage standard guidance. You can rename existing processes.
@@ -2155,7 +1695,7 @@ By default, all end-to-end process work items have the **Scope** field set to **
 
 - **30-Out of Scope** – The process exists but will not be implemented.
 
-- **40-Not Applicable** – The business does not perform this process at all.  
+- **40-Not Applicable** – The business does not perform this process at all. 
   For example, a retailer might mark the entire *Plan to Produce* process as **40-Not Applicable** because they do not manufacture products.
 
 Administer to Operate is a critical End-to-End process that should be in scope for every Dynamics 365 project. This process represents the IT and operational backbone of an organization, encompassing activities such as environment management, security administration, monitoring, and compliance. It is where the entire Success by Design framework is embedded, particularly under the Implement Solutions area. These activities ensure that the solution is deployed, governed, and maintained according to best practices. Treating Administer to Operate as a formal process guarantees that technical and operational readiness is not overlooked, reducing risk and enabling sustainable operations post go-live.
@@ -2417,7 +1957,7 @@ The Tree work item type serves as the structural backbone for organizing large g
 
 ## Folder
 
-The Business Process Catalog includes predefined folders in certain trees to improve organization and navigation. For example, in the **Deliverables tree**, folders are provided for each **Area Path**, which represents functional areas. These folders help group related deliverables logically under their respective domains.  
+The Business Process Catalog includes predefined folders in certain trees to improve organization and navigation. For example, in the **Deliverables tree**, folders are provided for each **Area Path**, which represents functional areas. These folders help group related deliverables logically under their respective domains. 
 **Sample from Finance Area:**
 
 Finance
@@ -2486,13 +2026,13 @@ The following fields are recommended for the **Folder** work item type and inclu
 
 - Use the following steps to create a new Folder in your Azure DevOps project using the Microsoft Business Process Catalog template:
 
-1.  **Navigate to Boards**  
+1. **Navigate to Boards**  
     Go to **Boards → Work Items** or the relevant backlog view where you want the folder to appear.
 
-2.  **Select New Work Item**  
+2. **Select New Work Item**  
     Click **New Work Item** and choose **Folder** from the list of available work item types.
 
-3.  **Enter Folder Details**
+3. **Enter Folder Details**
 
     - **Title:** Provide a clear, descriptive name for the folder (e.g., "Finance – Accounting").
 
@@ -2510,13 +2050,13 @@ The following fields are recommended for the **Folder** work item type and inclu
 
     - **Catalog Status:** Mark as Active, Deprecated, or Future.
 
-4.  **Save the Folder**  
+4. **Save the Folder**  
     Click **Save & Close** to create the folder. It will now appear in the backlog or tree view.
 
-5.  **Add Related Work Items**  
+5. **Add Related Work Items**  
     Link relevant deliverables, documentation, or other work items under the folder for structured navigation.
 
-6.  **Verify Hierarchy**  
+6. **Verify Hierarchy**  
     Ensure the folder appears correctly in the catalog hierarchy and supports roll-up reporting.
 
 ## Functional Area
@@ -2557,11 +2097,11 @@ Functional Areas are **not included out-of-the-box** in the catalog. They are re
 
 Use the following steps to create a new Functional Area in your Azure DevOps project using the Microsoft Business Process Catalog template:
 
-1.  Go to **Boards → Work Items** or the relevant backlog view where you want the Functional Area to appear.
+1. Go to **Boards → Work Items** or the relevant backlog view where you want the Functional Area to appear.
 
-2.  Click **New Work Item** and choose **Functional Area** from the list of available work item types.
+2. Click **New Work Item** and choose **Functional Area** from the list of available work item types.
 
-3.  **Enter Functional Area Details**
+3. **Enter Functional Area Details**
 
     - **Title:** Provide a clear, descriptive name for the functional area (e.g., "Accounts Payable").
 
@@ -2575,11 +2115,11 @@ Use the following steps to create a new Functional Area in your Azure DevOps pro
 
     - **Catalog Status:** Mark as Active, Deprecated, or Future.
 
-4.  Click **Save & Close** to create the work item. It will now appear in the backlog or tree view.
+4. Click **Save & Close** to create the work item. It will now appear in the backlog or tree view.
 
-5.  Link relevant deliverables, configuration tasks, or documentation under the Functional Area for structured navigation.
+5. Link relevant deliverables, configuration tasks, or documentation under the Functional Area for structured navigation.
 
-6.  Ensure the Functional Area appears correctly under its parent Process Area and supports roll-up reporting.
+6. Ensure the Functional Area appears correctly under its parent Process Area and supports roll-up reporting.
 
 ## Phase
 
@@ -2625,11 +2165,11 @@ The following fields are recommended for the Phase work item type and included b
 
 Use the following steps to create a new Phase in your Azure DevOps project:
 
-1.  Go to **Boards → Work Items** or the relevant backlog view where you want the phase to appear.
+1. Go to **Boards → Work Items** or the relevant backlog view where you want the phase to appear.
 
-2.  Click **New Work Item** and choose **Phase** from the list of available work item types.
+2. Click **New Work Item** and choose **Phase** from the list of available work item types.
 
-3.  **Enter Phase Details**
+3. **Enter Phase Details**
 
     - **Title:** Provide the phase name (e.g., "Prepare").
 
@@ -2647,11 +2187,11 @@ Use the following steps to create a new Phase in your Azure DevOps project:
 
     - **Catalog Status:** Mark as Active, Deprecated, or Future.
 
-4.  Click **Save & Close** to create the work item. It will now appear in the backlog or Delivery Plan tree.
+4. Click **Save & Close** to create the work item. It will now appear in the backlog or Delivery Plan tree.
 
-5.  Associate deliverables, tasks, and reviews under the phase for structured navigation and reporting.
+5. Associate deliverables, tasks, and reviews under the phase for structured navigation and reporting.
 
-6.  Ensure the phase appears correctly in the Delivery Plan tree and supports roll-up reporting.
+6. Ensure the phase appears correctly in the Delivery Plan tree and supports roll-up reporting.
 
 ## Task
 
@@ -2699,23 +2239,23 @@ The following fields are recommended for the **Task** work item type and include
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types** and choose **New Work Item Type**.
+3. Click **Work Item Types** and choose **New Work Item Type**.
 
-4.  Enter the name "Task" and set an icon and color for easy identification.
+4. Enter the name "Task" and set an icon and color for easy identification.
 
-5.  Configure fields: add required fields such as Title, Parent Link, Owner, Due Date, Dependencies, DoD, Status, and Tags.
+5. Configure fields: add required fields such as Title, Parent Link, Owner, Due Date, Dependencies, DoD, Status, and Tags.
 
-6.  Define workflow states (New, Active, Closed) with transitions.
+6. Define workflow states (New, Active, Closed) with transitions.
 
-7.  Associate the Task work item type with relevant backlog levels for visualization.
+7. Associate the Task work item type with relevant backlog levels for visualization.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Task linked to its parent item for traceability.
+9. Verify in Boards by creating a sample Task linked to its parent item for traceability.
 
 ## Action Item
 
@@ -2777,11 +2317,11 @@ Use the following steps to create an Action Item work item in the Azure DevOps p
 
 - Save and publish the process.
 
-- Verify in Boards by creating a sample Action Item linked to impacted catalog items.
+- Verify in Boards by creating a sample Action Item linked to impacted catalog items for traceability.
 
 ## Bug
 
-A Bug represents a defect detected during testing or operation, capturing observed versus expected behavior, scope, and severity. It tracks the work required to correct the defect and verify the fix. Bugs are included by default in the Azure DevOps template for the Business Process Catalog. Future inclusion of additional AI-driven triage capabilities is planned to improve prioritization and automation. Use Bug items for issues that impact functionality or compliance, ensuring traceability to related Test Cases and Scenarios. Avoid using Bug items for minor cosmetic issues unless they affect user experience or business outcomes.
+A Bug represents a defect detected during testing or operation, capturing observed versus expected behavior, scope, and severity. It tracks the work required to correct the defect and verify the fix. Bugs are included by default in the Business Process Catalog template and should be used for significant blockers or defects that cannot be resolved through normal workflow. Avoid logging minor questions or clarifications as Bugs; reserve this type for items that require structured resolution and governance. Future enhancements may include AI-driven triage capabilities and automated regression testing.
 
 ### Example
 
@@ -2797,7 +2337,7 @@ Incorrect VAT rounding when posting sales orders for reduced-rate items.
 
 - Maintain clear state transitions (New → Active → Resolved → Closed) for governance.
 
-- **Agentic AI Considerations**: Design Bug metadata to support AI-driven triage and prioritization. Include structured fields for severity, priority, and repro steps so AI agents can infer risk, suggest fixes, and automate reporting.
+- **Agentic AI Considerations**: Design Bug metadata to support AI-driven triage and prioritization. Include structured fields for severity, priority, and repro steps so AI agents can predict delays and recommend corrective actions.
 
 ### Recommended fields
 
@@ -2857,7 +2397,7 @@ Delay in integration delivery may push UAT start and affect go-live readiness.
 
 - Review risks at phase gates and escalate high-severity risks promptly.
 
-- **Agentic AI Considerations:** Design risk metadata to support AI-driven prioritization and predictive insights. Include structured fields for probability, impact, and mitigation status so AI agents can infer trends and recommend actions.
+- **Agentic AI Considerations:** Design risk metadata to support AI-driven prioritization and predictive insights. Include structured fields for probability, impact, and mitigation status so AI can predict delays and recommend actions.
 
 ### Recommended fields
 
@@ -2897,7 +2437,7 @@ Use the following steps to create a deliverable work item in the Azure DevOps pr
 
 - Associate Risk work item type with relevant backlog levels for visibility.
 
-- Save and publish process.
+- Save and publish the process.
 
 - Verify in Boards by creating a sample Risk linked to deliverables for traceability.
 
@@ -2981,7 +2521,7 @@ API documentation for tax service is incomplete, blocking integration testing.
 
 - Link the Issue to related Risks, Change Requests, or impacted catalog items for traceability.
 
-- **Agentic AI Considerations:** Structure metadata to support AI-driven prioritization and escalation. Include fields for severity, dependencies, and deadlines so AI can predict delays and recommend corrective actions.
+- **Agentic AI Considerations:** Structure metadata to support AI-driven triage and prioritization. Include fields for severity, dependencies, and deadlines so AI can predict delays and recommend escalation paths.
 
 ### Recommended fields
 
@@ -2999,29 +2539,29 @@ The following fields are recommended for the **Issue** work item type and includ
 
 - **Status** – Current state (New, Active, Resolved, Closed).
 
-- **Tags** – Labels for capability, phase, or priority classification.
+- **Tags** – Labels for capability, release phase, or priority classification.
 
 ### Procedure: Create a Functional Area in Azure DevOps
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+- Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+- Select the inherited process to customize.
 
-3.  Click **Work Item Types** and choose **New Work Item Type**.
+- Click **Work Item Types** and choose **New Work Item Type**.
 
-4.  Enter the name **Issue** and set an icon and color for easy identification.
+- Enter the name **Issue** and set an icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Impact/Scope, Resolution Steps, Owner, Due Date, Status, Tags).
+- Configure fields: Add required fields (Title, Impact/Scope, Resolution Steps, Owner, Due Date, Status, Tags).
 
-6.  Define workflow states (New, Active, Resolved, Closed) with transitions aligned to governance.
+- Define workflow states (New, Active, Resolved, Closed) with transitions aligned to governance.
 
-7.  Associate the Issue work item type with relevant backlog levels for visibility.
+- Associate the Issue work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+- Save and publish the process.
 
-9.  Verify in Boards by creating a sample Issue linked to impacted deliverables for traceability.
+- Verify in Boards by creating a sample Issue linked to impacted deliverables for traceability.
 
 ## Decision
 
@@ -3063,23 +2603,23 @@ The following fields are recommended for the **Decision** work item type and inc
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types** and choose **New Work Item Type**.
+3. Click **Work Item Types** and choose **New Work Item Type**.
 
-4.  Enter name: **Decision**, set icon and color for easy identification.
+4. Enter name: **Decision**, set icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Decision Date, Approver(s), Options/Rationale, Impacted Items, Status, Tags).
+5. Configure fields: Add required fields (Title, Decision Date, Approver(s), Options/Rationale, Impacted Items, Status, Tags).
 
-6.  Define workflow states (New, Approved, Implemented) with transitions aligned to governance.
+6. Define workflow states (New, Approved, Implemented) with transitions aligned to governance.
 
-7.  Associate Decision work item type with relevant backlog levels for visibility.
+7. Associate Decision work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Decision linked to impacted catalog items for traceability.
+9. Verify in Boards by creating a sample Decision linked to impacted catalog items for traceability.
 
 ## Change Request
 
@@ -3125,23 +2665,23 @@ The following fields are recommended for the **Change Request** work item type a
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types** and choose **New Work Item Type**.
+3. Click **Work Item Types** and choose **New Work Item Type**.
 
-4.  Enter name: **Change Request**, set icon and color for easy identification.
+4. Enter name: **Change Request**, set icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Requestor, Description, Impact Analysis, Approval, Implementation Plan, Status, Tags).
+5. Configure fields: Add required fields (Title, Requestor, Description, Impact Analysis, Approval, Implementation Plan, Status, Tags).
 
-6.  Define workflow states (New → Approved → Implemented) with transitions aligned to governance.
+6. Define workflow states (New → Approved → Implemented) with transitions aligned to governance.
 
-7.  Associate Change Request work item type with relevant backlog levels for visibility.
+7. Associate Change Request work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Change Request linked to impacted deliverables for traceability.
+9. Verify in Boards by creating a sample Change Request linked to impacted deliverables for traceability.
 
 ## Status Report
 
@@ -3165,43 +2705,43 @@ Weekly Order to Cash implementation status: completed configuration items, open 
 
 The following fields are recommended for the **Status Report** work item type and included by default in the Azure DevOps template for the Microsoft Business Process Catalog:
 
-- **Title:** Status Report name (e.g., Week 47 Status Report)
+- **Title** – Clear name for the Status Report (e.g., "Week 47 Status Report").
 
-- **Reporting Period:** Start and end dates
+- **Reporting Period** – Start and end dates
 
-- **Summary:** Narrative of progress and outlook
+- **Summary** – Narrative of progress and outlook
 
-- **KPIs:** Quantitative indicators (% completion, defect counts)
+- **KPIs** – Quantitative indicators (% completion, defect counts)
 
-- **Risks / Issues / Decisions:** Highlights by category
+- **Risks / Issues / Decisions** – Highlights by category
 
-- **Next Steps:** Planned actions for upcoming period
+- **Next Steps** – Planned actions for upcoming period
 
-- **Status:** Current state (Draft, Published, Archived)
+- **Status** – Current state (Draft, Published, Archived)
 
-- **Tags:** Labels for capability, phase, priority classification
+- **Tags** – Labels for capability, phase, or priority classification
 
 ### Procedure: Create a Functional Area in Azure DevOps
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types**, then choose **New Work Item Type**.
+3. Click **Work Item Types**, then choose **New Work Item Type**.
 
-4.  Enter name: **Status Report**, set icon and color for easy identification.
+4. Enter name: **Status Report**, set icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Reporting Period, Summary, KPIs, Risks, Issues, Decisions, Next Steps, Status, Tags).
+5. Configure fields: Add required fields (Title, Reporting Period, Summary, KPIs, Risks, Issues, Decisions, Next Steps, Status, Tags).
 
-6.  Define workflow states: Draft → Published → Archived with transitions aligned to governance.
+6. Define workflow states: Draft → Published → Archived with transitions aligned to governance.
 
-7.  Associate Status Report work item type with relevant backlog levels for visibility.
+7. Associate Status Report work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Status Report linked to phase deliverables for traceability.
+9. Verify in Boards by creating a sample Status Report linked to phase deliverables for traceability.
 
 ## Test Plan
 
@@ -3209,7 +2749,7 @@ A Test Plan represents the structured approach for validating processes and scen
 
 ### Example
 
-Regression Test Plan for Sales scenarios covering pricing, taxation, availability, and returns across EU/US locales.
+Regression Test Plan for Sales scenarios covering pricing, taxation, and availability.
 
 ### Success by Design guidelines
 
@@ -3247,23 +2787,23 @@ The following fields are recommended for the **Test Plan** work item type and in
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types** and choose **New Work Item Type**.
+3. Click **Work Item Types** and choose **New Work Item Type**.
 
-4.  Enter name: **Test Plan**, set icon and color for easy identification.
+4. Enter name: **Test Plan**, set icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Objectives/Scope, Environments/Data, Acceptance Criteria, Linked Test Suites, Schedule, Status, Tags).
+5. Configure fields: Add required fields (Title, Objectives/Scope, Environments/Data, Acceptance Criteria, Linked Test Suites, Schedule, Status, Tags).
 
-6.  Define workflow states: Draft → Active → Completed, with transitions aligned to governance.
+6. Define workflow states: Draft → Active → Completed, with transitions aligned to governance.
 
-7.  Associate Test Plan work item type with relevant backlog levels for visibility.
+7. Associate Test Plan work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Test Plan linked to Test Suites and Test Cases for traceability.
+9. Verify in Boards by creating a sample Test Plan linked to Test Suites and Test Cases for traceability.
 
 ## Test Suite
 
@@ -3307,23 +2847,23 @@ The following fields are recommended for the **Test Suite** work item type and i
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types**, then choose **New Work Item Type**.
+3. Click **Work Item Types**, then choose **New Work Item Type**.
 
-4.  Enter name: **Test Suite**, set icon and color for easy identification.
+4. Enter name: **Test Suite**, set icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Parent Test Plan, Membership, Sequence, Run History, Status, Tags).
+5. Configure fields: Add required fields (Title, Parent Test Plan, Membership, Sequence, Run History, Status, Tags).
 
-6.  Define workflow states: Draft → Active → Completed with transitions aligned to governance.
+6. Define workflow states: Draft → Active → Completed with transitions aligned to governance.
 
-7.  Associate Test Suite work item type with relevant backlog levels for visibility.
+7. Associate Test Suite work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Test Suite linked to its parent Test Plan and Test Cases for traceability.
+9. Verify in Boards by creating a sample Test Suite linked to its parent Test Plan and Test Cases for traceability.
 
 ## Ticket
 
@@ -3363,29 +2903,29 @@ The following fields are recommended for the **Ticket** work item type and inclu
 
 - **Status** – Current state (New, Active, Resolved, Closed).
 
-- **Tags** – Labels for capability, phase, or priority classification.
+- **Tags** – Labels for capability, release phase, or priority classification.
 
 ### Procedure: Create a Functional Area in Azure DevOps
 
 Use the following steps to create a deliverable work item in the Azure DevOps project using the default template for the Microsoft Business Process Catalog:
 
-1.  Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
+1. Navigate to **Organization Settings \> Boards \> Process** in Azure DevOps.
 
-2.  Select the inherited process to customize.
+2. Select the inherited process to customize.
 
-3.  Click **Work Item Types**, then choose **New Work Item Type**.
+3. Click **Work Item Types**, then choose **New Work Item Type**.
 
-4.  Enter name: **Ticket**, set icon and color for easy identification.
+4. Enter name: **Ticket**, set icon and color for easy identification.
 
-5.  Configure fields: Add required fields (Title, Requester, Category/Priority, SLA, Impacted Items, Resolution, Status, Tags).
+5. Configure fields: Add required fields (Title, Requester, Category/Priority, SLA, Impacted Items, Resolution, Status, Tags).
 
-6.  Define workflow states: **New → Active → Resolved → Closed**, aligned to governance.
+6. Define workflow states: **New → Active → Resolved → Closed**, aligned to governance.
 
-7.  Associate Ticket work item type with relevant backlog levels for visibility.
+7. Associate Ticket work item type with relevant backlog levels for visibility.
 
-8.  Save and publish the process.
+8. Save and publish the process.
 
-9.  Verify in Boards by creating a sample Ticket linked to impacted catalog items for traceability.
+9. Verify in Boards by creating a sample Ticket linked to impacted catalog items for traceability.
 
 ## User Story
 
