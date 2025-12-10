@@ -245,71 +245,17 @@ Each type of test case plays a crucial role in ensuring the overall quality and 
 
 ### Examples of test cases
 
-The following list provides examples of different types of test cases related to the business process of creating a sales order. This list isn't comprehensive, and the steps aren't precise for executing each test. The list offers a high-level representation of the types of tests that might exist for a similar business process.
-
+The following table provides examples of different types of test cases related to the business process of creating a sales order. This list isn't comprehensive, and the steps aren't precise for executing each test. The list offers a high-level representation of the types of tests that might exist for a similar business process.
 
 |Type |Title  |Description  |Steps  |Expected result  |
 |-----|---------|---------|---------|---------|
-|Functional test case|Verify Sales Order Creation  |Ensure that a sales order can be created successfully. |1. Go to the Sales Order module.</br> 1. Select **Create New Sales Order**.</br> 1. Enter customer details, product information, and quantity.</br>  1. Save the sales order.        | The sales order is created and saved successfully.|
-
-1. **Functional Test Case**:
-    - **Title**: Verify Sales Order Creation
-    - **Description**: Ensure that a sales order can be created successfully.
-    - **Steps**:
-      1. Go to the Sales Order module.
-      1. Select **Create New Sales Order**.
-      1. Enter customer details, product information, and quantity.
-      1. Save the sales order.
-    - **Expected Result**: The sales order is created and saved successfully.
-
-1. **Performance Test Case**:
-    - **Title**: Assess Sales Order Creation Under Load
-    - **Description**: Evaluate the system's performance when creating multiple sales orders simultaneously.
-    - **Steps**:
-      1. Simulate the creation of 1,000 sales orders concurrently.
-      1. Monitor the system's response time and resource usage.
-    - **Expected Result**: The system handles the load efficiently without significant delays or crashes.
-
-1. **Usability Test Case**:
-    - **Title**: Evaluate User Experience in Sales Order Creation
-    - **Description**: Assess the ease of use and navigation during the sales order creation process.
-    - **Steps**:
-      1. Ask a user to create a sales order without prior training.
-      1. Observe the user's interaction with the interface.
-      1. Collect feedback on the design, navigation, and overall experience.
-    - **Expected Result**: The user can create a sales order easily and provides positive feedback on the interface.
-
-1. **Security Test Case**:
-    - **Title**: Verify Access Control for Sales Order Creation
-    - **Description**: Ensure that only authorized users can create sales orders.
-    - **Steps**:
-      1. Attempt to create a sales order with an unauthorized user account.
-      1. Attempt to create a sales order with an authorized user account.
-    - **Expected Result**: The unauthorized user is denied access, while the authorized user can create a sales order.
-
-1. **Integration Test Case**:
-    - **Title**: Validate Integration Between Sales Order and Inventory Modules
-    - **Description**: Ensure that the sales order creation updates the inventory correctly.
-    - **Steps**:
-      1. Create a sales order for a specific product.
-      1. Check the inventory levels before and after the sales order creation.
-    - **Expected Result**: The inventory levels are updated accurately based on the sales order.
-
-1. **Regression Test Case**:
-    - **Title**: Verify Sales Order Creation After System Update
-    - **Description**: Ensure that the sales order creation functionality works correctly after a system update.
-    - **Steps**:
-      1. Perform a system update.
-      1. Create a sales order following the standard process.
-    - **Expected Result**: The sales order is created successfully without any issues introduced by the update.
-
-1. **User Acceptance Test Case**:
-    - **Title**: Confirm Sales Order Creation Meets User Requirements
-    - **Description**: Validate that the sales order creation process meets the end user's needs and expectations.
-    - **Steps**:
-      1. Provide the end user with the sales order creation feature.
-      2. Ask the user to create a sales order and provide feedback.
-    - **Expected Result**: The user successfully creates a sales order and confirms that the process meets their requirements.
+|Functional test case|Verify Sales Order Creation  |Ensure that a sales order can be created successfully. |1. Go to the Sales Order module.</br></br>  2. Select **Create New Sales Order**.</br></br>  3. Enter customer details, product information, and quantity.</br></br> 4. Save the sales order.  | The sales order is created and saved successfully.|
+|Performance test case|Assess Sales Order Creation Under Load|Evaluate the system's performance when creating multiple sales orders simultaneously.| 1. Simulate the creation of 1,000 sales orders concurrently.</br></br> 2. Monitor the system's response time and resource usage.|The system handles the load efficiently without significant delays or crashes.|
+|Usability test case|Evaluate User Experience in Sales Order Creation|Assess the ease of use and navigation during the sales order creation process.| 1. Ask a user to create a sales order without prior training.</br></br>2. Observe the user's interaction with the interface.</br></br>3. Collect feedback on the design, navigation, and overall experience.|The user can create a sales order easily and provides positive feedback on the interface.|
+|Security test case|Verify Access Control for Sales Order Creation|Ensure that only authorized users can create sales orders.| 1. Attempt to create a sales order with an unauthorized user account.</br></br> 2. Attempt to create a sales order with an authorized user account.|The unauthorized user is denied access, while the authorized user can create a sales order.|
+|Integration test case|Validate Integration Between Sales Order and Inventory Modules|Ensure that the sales order creation updates the inventory correctly.| 1. Create a sales order for a specific product.</br></br> 2. Check the inventory levels before and after the sales order creation.|The inventory levels are updated accurately based on the sales order.|
+|Regression test case|Verify Sales Order Creation After System Update|Ensure that the sales order creation functionality works correctly after a system update.| 1. Perform a system update.</br></br> 2. Create a sales order following the standard process.|The sales order is created successfully without any issues introduced by the update.|
+|User acceptance test case|Confirm Sales Order Creation Meets User Requirements|Validate that the sales order creation process meets the end user's needs and expectations.| 1. Provide the end user with the sales order creation feature.</br></br> 2. Ask the user to create a sales order and provide feedback.|The user successfully creates a sales order and confirms that the process meets their requirements.|
 
 ## Related content
 
