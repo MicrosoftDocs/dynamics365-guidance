@@ -338,7 +338,6 @@ Create test cases during the solution design and testing phases, after you final
 
 
 
-OLD
 
 ## Prerequisites
 
