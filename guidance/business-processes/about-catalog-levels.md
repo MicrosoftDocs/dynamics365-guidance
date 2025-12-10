@@ -4,7 +4,7 @@ description: Dive into the structured hierarchy of the business process catalog,
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 12/09/2025
+ms.date: 12/10/2025
 ms.topic: concept-article
 ---
 
@@ -118,9 +118,9 @@ Use a verb-noun pair for the name. Make it descriptive enough to clearly convey 
 
 The following list provides a few examples of this level of the business process catalog.
 
-- Sell products to customers (within Create and manage sales)
-- Record invoice details (within Process vendor invoices)
-- Plan and budget headcount (within Plan and recruit your workforce)
+- Sell products to customers (within *Create and manage sales*)
+- Record invoice details (within *Process vendor invoices*)
+- Plan and budget headcount (within *Plan and recruit your workforce*)
 
 ### What a business process is
 
@@ -151,7 +151,7 @@ The name should use a verb-noun pair, with optional extensions to indicate speci
 
 The format is the following structure:
 
-`Verb + noun pair + using *product (deployment mode)* for *an industry* with an externally-provided solution`
+> Verb + noun pair + using *product (deployment mode)* for *an industry* with an externally-provided solution
 
 > [!NOTE]
 > The deployment mode is only required for Dynamics 365 Project Operations. A pattern should always indicate which products are used. A scenario can optionally include an industry and/or a partner-provided solution. Partner-provided solutions can only be used when the solution is available in AppSource or Azure Marketplace.
@@ -229,21 +229,28 @@ Always relate test cases to a business process to ensure they're relevant and me
 
 ### Types of test cases
 
-Several types of test cases serve specific purposes:
+Several types of test cases serve specific purposes as outlined in the following table:
 
-- **Functional Test Cases**: Use these test cases to verify that the software functions according to the specified requirements. They focus on the user interface, APIs, databases, security, and other functional aspects of the application.
-- **Performance Test Cases**: Design these test cases to assess the performance of the software under various conditions, such as load, stress, and scalability. They help ensure that the application can handle expected user traffic and perform efficiently.
-- **Usability Test Cases**: Use these test cases to evaluate the user experience and ease of use of the software. They focus on the design, navigation, and overall user interaction with the application.
-- **Security Test Cases**: Use these test cases to identify vulnerabilities and ensure that the software is secure from threats and attacks. They include tests for authentication, authorization, data encryption, and other security measures.
-- **Integration Test Cases**: Use these test cases to verify that different modules or components of the software work together as expected. They help identify issues that might arise when integrating various parts of the application.
-- **Regression Test Cases**: Use these test cases to ensure that recent code changes don't adversely affect existing functionality. Run them after any modification to the software to verify that the changes didn't introduce new defects.
-- **User Acceptance Test Cases**: Use these test cases to validate that the software meets the needs and expectations of the end users. Typically, the users themselves perform these tests to ensure that the application is ready for production.
+|Type  |Description  |
+|---------|---------|
+|Functional test cases | Use these test cases to verify that the software functions according to the specified requirements. They focus on the user interface, APIs, databases, security, and other functional aspects of the application.|
+|Performance test cases|Design these test cases to assess the performance of the software under various conditions, such as load, stress, and scalability. They help ensure that the application can handle expected user traffic and perform efficiently.|
+|Usability test cases| Use these test cases to evaluate the user experience and ease of use of the software. They focus on the design, navigation, and overall user interaction with the application.|
+|Security test |Use these test cases to identify vulnerabilities and ensure that the software is secure from threats and attacks. They include tests for authentication, authorization, data encryption, and other security measures.|
+|Integration test cases|Use these test cases to verify that different modules or components of the software work together as expected. They help identify issues that might arise when integrating various parts of the application.|
+|Regression test cases| Use these test cases to ensure that recent code changes don't adversely affect existing functionality. Run them after any modification to the software to verify that the changes didn't introduce new defects.|
+|User acceptance test cases|Use these test cases to validate that the software meets the needs and expectations of the end users. Typically, the users themselves perform these tests to ensure that the application is ready for production.|
 
 Each type of test case plays a crucial role in ensuring the overall quality and reliability of the software application. By using a combination of these test cases, you can thoroughly test the software and identify any issues before they reach the end users.
 
 ### Examples of test cases
 
 The following list provides examples of different types of test cases related to the business process of creating a sales order. This list isn't comprehensive, and the steps aren't precise for executing each test. The list offers a high-level representation of the types of tests that might exist for a similar business process.
+
+
+|Type |Title  |Description  |Steps  |Expected result  |
+|-----|---------|---------|---------|---------|
+|Functional test case|Verify Sales Order Creation  |Ensure that a sales order can be created successfully. |1. Go to the Sales Order module.</br> 1. Select **Create New Sales Order**.</br> 1. Enter customer details, product information, and quantity.</br>  1. Save the sales order.        | The sales order is created and saved successfully.|
 
 1. **Functional Test Case**:
     - **Title**: Verify Sales Order Creation
