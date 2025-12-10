@@ -335,58 +335,8 @@ Create test cases during the solution design and testing phases, after you final
 
 - **Plan for Scalability:** Use test suites and plans in Azure DevOps to organize large volumes of test cases efficiently.
 
-
-
-
-
-## Prerequisites
-
-Before you create the work item type described in this article, make sure you have the following prerequisites.
-
-- [!INCLUDE [daf-bus-proces-download](~/../shared-content/shared/guidance-includes/daf-bus-proces-download.md)]
-- Create a project in Azure DevOps. Learn more at [Create a project in Azure DevOps](/azure/devops/organizations/projects/create-project?view=azure-devops&preserve-view=true&tabs=browser) and [Agile process work item types](/azure/devops/boards/work-items/guidance/agile-process?view=azure-devops&preserve-view=true).  
-- Create the required custom work item types, including the **End to end** type that we describe in this article.
-
-## Required fields for the work item types
-
-The **End-to-end**, **Process area**, **Process**, and **Scenario** work item types group all work items related to Level 1, 2, 3, and 4 in the catalog. Our template creates one work item for each of the entries.  
-
-The following table outlines the required fields on these work item types.
-
-|Field |Description|
-|---------|----------|
-|**Description** |Default field.|
-|**Process Sequence ID** |Custom field. Add this field as a custom **Text (single line)** field, so that users can see the Microsoft assigned ID for the process. Don't modify or change the process sequence ID provided by Microsoft. When you need to add a custom process that isn't included in the standard catalog, suffix the ID with custom letters for your organization to ensure there's no conflict in uptaking future releases of the catalog. Learn more at [Add a custom field](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true#add-a-custom-field).|
-|**Priority** |Default field.|
-|**Risk** |Default field.|
-|**Business value** |Default field.|
-|**Time Criticality** |Default field.|
-|**Effort** |Default field.|
-|**Update comments** | Custom field.|
-
-> [!NOTE]
-> The business process catalog that Microsoft publishes has other fields for these work item types that you can optionally use. Learn more at [Review the optional fields in the business process catalog](about-import-catalog-devops.md#review-the-optional-fields-in-the-business-process-catalog).
-
-### Required field for the Process area work item type
-
-The **Process area** work item type groups all work items related to *business process areas* that are Level 2 in the catalog.  
-
-The following table outlines the required field that this work item type adds to the other required fields outlined in the [Required fields for the work item types](#required-fields-for-the-work-item-types) section.
-
-|Field |Description|
-|---------|----------|
-|**Associated Key Performance Indicators** |Custom field. It contains a list of key performance indicators that's formatted as HTML.|
-
 ## Related content
 
 Find the related articles here:
 
 - [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md)  
-<!-- - [Custom work item type for configuration deliverables in the Dynamics 365 business process catalog](about-import-catalog-devops-configuration-deliverable-work-item-type.md)   -->
-
-<!-- ## Next step
-
-Learn about the next level of work item.
-
-> [!div class="nextstepaction"]
-> [Custom work item type for configuration deliverables in the Dynamics 365 business process catalog](about-import-catalog-devops-configuration-deliverable-work-item-type.md) -->
