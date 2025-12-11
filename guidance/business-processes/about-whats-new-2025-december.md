@@ -131,61 +131,10 @@ This release adds a dedicated **Jobs** work item type to the Deliverables tree, 
 > [!NOTE]
 > These entries represent jobs in finance and operations apps, such as [batch jobs](/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) or [scheduled tasks](/dynamics365/supply-chain/production-control/job-scheduling). They don't represent jobs in Dynamics 365 Business Central that are now [projects](/dynamics365/business-central/projects-manage-projects).
 
-## Improvements for retail and manufacturing industries
-
-Minor improvements are made across many end-to-end processes based on community feedback from the team at Avanade. These improvements enhance the completeness and coverage of processes and scenarios for the retail and manufacturing industries. Thank you to the team at Avanade for your time, expertise, and contributions.
 
 ## Updated Business Central scenarios
 
 We removed erroneous descriptions for 35 Business Central scenarios in *Project to Profit*. We also updated five Business Central-related scenarios that had mismatched values in the **Process Sequence ID** field. Thank you, Marcin, for submitting these issues and collaborating to ensure the catalog is accurate.
-
-## Improved descriptions
-
-We continue to improve and enrich the business process catalog data in each release. This release includes improved descriptions for the following Level 2 business process areas and Level 3 scenarios:
-
-- *Order to cash*
-
-- *Source to pay*
-
-The improved descriptions help drive discovery sessions with customers and help all users have a clearer understanding of the scope of a particular business process. We will continue to enhance descriptions in future releases. Special thanks to Red Cat Consulting and Team Bennett Consulting for contributing to help make these descriptions available to all users.
-
-## Added workload types
-
-In our latest release, we continue to populate the Workload type field with values across all level 4 scenarios. These rows are marked as **Updated** in the **Status** column in December 2025 release, and the **Update comments** field has the value *Added workload type*.
-
-## Module updates
-
-Rows that incorrectly used the modules *Accounts payables* and *Accounts receivables* now use *Accounts payable* and *Accounts receivable*, respectively.
-
-In the latest release of the business process catalog, we added many new modules to the catalog. The article for [importing the catalog into Azure DevOps](about-import-catalog-devops.md) now includes the complete list of modules that you must add to import the catalog. The following list shows the modules that you must add:
-
-- App Settings
-
-- Demand Planning
-
-- Engineering Change Management
-
-- Inventory
-
-- Landed Cost
-
-- Personal Settings
-
-- Project Management & Accounting
-
-- Projects
-
-- Rebate Management
-
-- Resources
-
-- Sales & Marketing
-
-- Sales Insights Settings
-
-- Scheduling
-
-- Settings
 
 ## Related information
 
