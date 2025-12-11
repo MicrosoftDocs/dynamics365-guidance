@@ -4,7 +4,7 @@ description: Learn about the business process catalog for Dynamics 365, what it 
 author: edupont04
 ms.author: edupont
 ms.topic: concept-article
-ms.date: 11/22/2024
+ms.date: 12/09/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -27,9 +27,11 @@ The business process catalog is an Excel workbook that we at Microsoft use to or
 
 [!INCLUDE [daf-bus-proces-catalog](~/../shared-content/shared/guidance-includes/daf-bus-proces-catalog.md)]
 
+Learn more at [Overview of the business process catalog levels](about-catalog-levels.md).  
+
 We plan to cover each level of the catalog. The result will be guidance about how to configure Dynamics 365 to meet most use cases and scenarios. Our goal is to help our customers and partners define the scope of their implementation projects. Start from our standard business processes, and accelerate your success and implementation. We hope you can then focus on the processes that make your business unique. Work with your implementation partner to identify which business processes and patterns are relevant at the beginning of your project. Also, review the [Processes](../implementation-guide/solution-architecture-design-pillars-processes.md) solution architecture design pillar.  
 
-New and updated content publishes to [Microsoft Learn](/dynamics365/guidance/business-processes/) every two weeks.  
+New and updated content publishes to [Microsoft Learn](/dynamics365/guidance/business-processes/) every week.  
 
 ## How to read the business process descriptions
 
@@ -53,14 +55,14 @@ Find the source files at [https://aka.ms/businessprocessflow](https://aka.ms/bus
 
 But when you download the business process catalog, you'll find each entry assigned a unique ID. The IDs start with a number for each end-to-end scenario. Each level below the end-to-end scenario has an ID that starts with the ID of each parent entry.  
 
-For example, let's look at the *administer to operate* end-to-end scenario. The following table provides a quick introduction to how IDs are generated based on four entries in the business process catalog from May 2024.
+For example, let's look at the *administer to operate* end-to-end scenario. The following table provides a quick introduction to how IDs are generated based on four entries in the business process catalog from December 2025.
 
 |Level  |ID  |Description  |
 |---------|---------|---------|
 |End-to-end scenario | 99 | ID for the end-to-end scenario, *administer to operate*. |
 |Business process areas overview |99.10 |ID for the business process area *Define business continuity plan* that is part of the *administer to operate* end-to-end scenario. |
 |Business process |99.10.010  |ID for the business process *Define business continuity objectives* that is part of the *Define business continuity plan* business process area. |
-|Pattern |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
+|Scenario |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
 
 The IDs of the end-to-end scenarios are similar to the Standard Industrial Classification (SIC) codes that the U.S. government assigns to business establishments to identify the primary business of the establishment. The first two digits of a SIC code defines the major industry group that a business belongs to. Learn more at [What is a SIC Code?](https://siccode.com/page/what-is-a-sic-code).
 

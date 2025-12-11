@@ -5,13 +5,20 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
-ms.date: 06/12/2025
+ms.date: 12/10/2025
 ms.custom: bap-template
 ---
 
 # Use the business process catalog as a template in Azure DevOps Services
 
 This article describes how you can use Microsoft's business process catalog as a template that you import into a project in Azure DevOps Services to manage your Dynamics 365 implementation project.
+
+## Prerequisites
+
+The following list illustrates what we assume you have in place before you create the work item type that we describe in this article.
+
+- [!INCLUDE [daf-bus-proces-download](~/../shared-content/shared/guidance-includes/daf-bus-proces-download.md)]
+- Create a project in Azure DevOps. Learn more at [Create a project in Azure DevOps](/azure/devops/organizations/projects/create-project?view=azure-devops&preserve-view=true&tabs=browser) and [Agile process work item types](/azure/devops/boards/work-items/guidance/agile-process?view=azure-devops&preserve-view=true).  
 
 ## Generate work items from the business process catalog
 
@@ -39,7 +46,7 @@ There are many reasons why a tool such as Azure DevOps is critical to the overal
 
   Standardized processes can help streamline the onboarding and training of new employees or team members who join an organization. They provide a clear reference point for understanding how the organization operates.
 
-In conclusion, the business process catalog offers customers and partners a valuable resource for efficiently and effectively implementing technology solutions in a way that's aligned with industry standards. It simplifies the process of designing, customizing, and deploying solutions, and ultimately leads to improved productivity, reduced risk, and better business outcomes.
+The business process catalog offers customers and partners a valuable resource for efficiently and effectively implementing technology solutions in a way that's aligned with industry standards. It simplifies the process of designing, customizing, and deploying solutions, and ultimately leads to improved productivity, reduced risk, and better business outcomes. Microsoft provides a template with custom work item types that you can import into your Azure DevOps project. The Azure DevOps template is designed to follow the Success by Design framework with a process-focused approach.
 
 > [!NOTE]
 > This article assumes that you use [Azure Boards](/azure/devops/boards/?view=azure-devops&preserve-view=true), and that you've downloaded the business process catalog.
@@ -68,7 +75,7 @@ Before you can import the project into Azure Boards, there are a few things that
 
 1. Create custom work item types.
 
-    The template includes custom work item types that you must create before you can import the catalog. Here, we assume that you're using *agile process work item types*. You can use other types; however, that might require more custom work items types and fields. Learn more at [Customize your work tracking experience](/azure/devops/reference/customize-work?view=azure-devops&preserve-view=true&tabs=browser) and [Define area paths and assign to a team](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).
+    The template includes custom work item types. The template generates the work item types for you, but here's the guidance for how to create them manually. Here, we assume that you're using *agile process work item types*. You can use other types; however, that might require more custom work items types and fields. Learn more at [Customize your work tracking experience](/azure/devops/reference/customize-work?view=azure-devops&preserve-view=true&tabs=browser) and [Define area paths and assign to a team](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).
 
     1. Create the following new work item types:
 
@@ -344,4 +351,4 @@ The following list includes a few tasks and tips to consider.
 Learn about the next level of work item.
 
 > [!div class="nextstepaction"]
-> [Custom work item type for end-to-end scenarios, process areas, business processes, and scenarios in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)
+> [Custom work item types for the six levels in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)
