@@ -389,12 +389,12 @@ items:
                 items:
                   - name: Import the catalog to Azure DevOps overview
                     href: business-processes/about-import-catalog-devops.md
-                  - name: Custom work item types for the six levels
+                  - name: End-to-end, process area, process, and scenario work item types
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
-#                  - name: Configuration deliverable work item type
-#                    href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
-#                  - name: Workshop work item type
-#                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+                  # - name: Configuration deliverable work item type
+                  #   href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
+                  # - name: Workshop work item type
+                  #   href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Import the catalog to Mavim overview
