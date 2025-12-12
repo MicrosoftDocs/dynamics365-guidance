@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
-ms.date: 12/10/2025
+ms.date: 12/12/2025
 ms.custom: bap-template
 ---
 
@@ -18,9 +18,10 @@ This article describes how you can use Microsoft's business process catalog as a
 The following list illustrates what we assume you have in place before you create the work item type that we describe in this article.
 
 - [!INCLUDE [daf-bus-proces-download](~/../shared-content/shared/guidance-includes/daf-bus-proces-download.md)]
+- Download the [Azure DevOps template as an Excel workbook](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/Azure-DevOps-templates).
 - Create a project in Azure DevOps. Learn more at [Create a project in Azure DevOps](/azure/devops/organizations/projects/create-project?view=azure-devops&preserve-view=true&tabs=browser) and [Agile process work item types](/azure/devops/boards/work-items/guidance/agile-process?view=azure-devops&preserve-view=true).  
 
-## Generate work items from the business process catalog
+## Benefits of generating work items from the business process catalog
 
 There are many reasons why a tool such as Azure DevOps is critical to the overall success of a Dynamics 365 implementation. By using a service such as [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops&preserve-view=true) with the business process catalog, you can accelerate the deployment and follow the recommendations in the [Process-focused solution](../implementation-guide/process-focused-solution.md) articles in the Dynamics 365 implementation guide content. The following list describes just some of the benefits of using the business process catalog to build work items to manage your Dynamics 365 implementation.
 
@@ -63,6 +64,11 @@ In the following sections, we refer to rows in a workbook because we assume that
 
 ## Prepare the import
 
+> [!TIP]
+> Optionally, sign up to be part of the private preview for Python scripts to automate the setup of Azure DevOps.
+>
+> [Fill in the form to sign up](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=8f36d9c5be0c457192eff25992e4fb8b&id=v4j5cvGGr0GRqy180BHbR1tm1Gf0PYtJtd9Z3pdu6vVUNUxRREdHSEszWDJZWU9TT01MOVBZQ0hEQSQlQCN0PWcu)
+
 Before you can import the project into Azure Boards, there are a few things that you must do and consider. Use the following list as a guide and checklist to ensure that you're ready to import the catalog.
 
 1. Define your project scope.
@@ -75,35 +81,13 @@ Before you can import the project into Azure Boards, there are a few things that
 
 1. Create custom work item types.
 
-    The template includes custom work item types. The template generates the work item types for you, but here's the guidance for how to create them manually. Here, we assume that you're using *agile process work item types*. You can use other types; however, that might require more custom work items types and fields. Learn more at [Customize your work tracking experience](/azure/devops/reference/customize-work?view=azure-devops&preserve-view=true&tabs=browser) and [Define area paths and assign to a team](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).
+    [The template](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/Azure-DevOps-templates) includes custom work item types, as well as area paths, iteration paths, and teams. The template generates the work item types for you, but you can also create them manually. Here, we assume that you're using *agile process work item types*. You can use other types; however, that might require more custom work items types and fields. Learn more at [Customize your work tracking experience](/azure/devops/reference/customize-work?view=azure-devops&preserve-view=true&tabs=browser) and [Define area paths and assign to a team](/azure/devops/organizations/settings/set-area-paths?view=azure-devops&preserve-view=true&tabs=browser).
 
-    1. Create the following new work item types:
+    1. You need work item types for all six levels in the business process catalog.
 
-        |Work item type |Description  |
-        |---------|---------|
-        |**End-to-end** | Groups all work items related to *end-to-end processes* (Level 1 in the catalog). Our template creates one work item for each of the end-to-end business processes. Learn more at [Custom work item type for end-to-end scenarios, process areas, business processes, and scenarios in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md).|
-        |**Process area**| Groups all work items related to *business process areas* (Level 2 in the catalog) within the different end-to-end processes. Our template creates one work item for each of the business process areas. This work item type uses the same required fields as **End-to-end** but adds one more field.|
-        |**Process**|Groups all work items related to *business processes* (Level 3 in the catalog) within each business process area. Our template creates one work item for each of the business processes. This work item type uses the same required fields as **End-to-end**.|
-        |**Scenario**|Groups all work items related to *patterns* (Level 4 in the catalog) within a business process. Our template creates one work item for each of the patterns. This work item type uses the same required fields as **End-to-end**.|
-        |**Configuration deliverable**  |Stores each *configuration* in the template. Configuration deliverables represent setup or configuration that is required in Dynamics 365 to support one or more processes. We recommend that you document the details of each configuration throughout your project. The default configurations provided in the template guide you to the configurations that are required for each business process. More information is included on each configuration to help you understand what the configuration is used for. Learn more at [Custom work item type for configuration deliverables in the Dynamics 365 business process catalog](about-import-catalog-devops-configuration-deliverable-work-item-type.md).|
-        |**Document deliverable** | A placeholder for a *document* such as a design document, statement of work, or other documentation for the project. Our template includes document deliverables with most workshops and some related processes in the *Administer to operate* end-to-end process.|
-        |**Workshop**|Stores detailed information about how to run a *workshop*. Learn more at [Custom work item type for workshops in the Dynamics 365 business process catalog](about-import-catalog-devops-workshop-work-item-type.md).|
+        Learn more at [Overview of the business process catalog levels](about-catalog-levels.md) and [Custom work item types for the six levels in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md).
 
-    1. Add the required fields to the custom work item types.
-
-        The following table outlines the required fields on the new work item types. Some fields are custom fields with values provided in the template. If you prefer to use other field names, you must also change the name of the relevant column in the catalog before you import the entries.  
-
-        |Field |Applies to work item type|
-        |---------|----------|
-        |**Description** |All |
-        |**Process Sequence ID** |All |
-        |**Priority** |All |
-        |**Risk** |All |
-        |**Business value** |All |
-        |**Time Criticality** |All |
-        |**Effort** |All |
-        |**Update comments** | All |
-        |**Associated Key Performance Indicators** |Process area |
+    1. Review the provided template for required fields, and add them either from the template or manually.
 
 1. Define area paths in the project settings.
 
@@ -346,9 +330,6 @@ The following list includes a few tasks and tips to consider.
 - [Use managed queries to list work items](/azure/devops/boards/queries/about-managed-queries?view=azure-devops&preserve-view=true)
 - [Analytics & Reporting](/azure/devops/report/?view=azure-devops&preserve-view=true)
 
-## Next step
+## Related content 
 
-Learn about the next level of work item.
-
-> [!div class="nextstepaction"]
-> [Custom work item types for the six levels in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)
+- [Custom work item types for the six levels in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)
