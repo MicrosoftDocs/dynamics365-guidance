@@ -4,7 +4,7 @@ description: Learn how to write back Dynamics 365 GUIDs to an external FHIR serv
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 10/13/2025
+ms.date: 11/27/2025
 ms.topic: reference-architecture
 ---
 # Configure Dynamics 365 identifier write-back for Fast Healthcare Interoperability Resources (FHIR)
@@ -130,7 +130,7 @@ The cost for each extra call varies based on business requirements for Azure Log
 
 ## Deploying Microsoft for Healthcare powered by Dynamics 365
 
-Before you set up write-back to a FHIR server, finish the deployment steps at [Deploy Microsoft Cloud for Healthcare solutions powered by Dynamics 365](/dynamics365/industry/healthcare/deploy). Install these healthcare solutions in your environment:
+Before you set up write-back to a FHIR server, finish the deployment steps at [Deploy Microsoft for Healthcare solutions powered by Dynamics 365](/industry/healthcare/business-applications/configure-cloud-for-healthcare). Install these healthcare solutions in your environment:
 
 1. Care management
 1. Data integration toolkit
@@ -143,10 +143,10 @@ This architecture lets you write back Dynamics 365 identifiers to a FHIR server.
 
 | **No.** | **Step name** |
 |----|----|
-| 1 | [Configure Dataverse healthcare APIs](/dynamics365/industry/healthcare/dataverse-healthcare-apis-configure) |
-| 2 | [Configure entity maps](/dynamics365/industry/healthcare/data-integration-toolkit-entity-maps) |
+| 1 | [Configure Dataverse healthcare APIs](/industry/healthcare/business-applications/dataverse-healthcare-apis-configure) |
+| 2 | [Configure entity maps](/industry/healthcare/business-applications/data-integration-toolkit-entity-maps) |
 | 3 | Configure identifier table |
-| 4 | [Configure identifier expansion map](/dynamics365/industry/healthcare/data-integration-toolkit-expansion-maps) |
+| 4 | [Configure identifier expansion map](/industry/healthcare/business-applications/data-integration-toolkit-expansion-maps) |
 | 5 | Configure entity map identifier attribute |
 | 6 | Configure FHIR identifier plugin |
 
@@ -166,7 +166,7 @@ Follow these steps to create identifier tables for each table that needs FHIR in
 
 ### Configure the identifier expansion map
 
-Follow the steps in [Configure identifier expansion map](/dynamics365/industry/healthcare/data-integration-toolkit-expansion-maps) to create identifier expansion maps for each table that needs FHIR integration and Dynamics 365 identifier write-back.
+Follow the steps in [Configure identifier expansion map](/industry/healthcare/business-applications/data-integration-toolkit-expansion-maps) to create identifier expansion maps for each table that needs FHIR integration and Dynamics 365 identifier write-back.
 
 For each map, fill in the fields as shown in the following table.
 
@@ -204,9 +204,9 @@ Save your changes.
 
 Follow these steps to create *entity map identifier attributes* for each table that needs FHIR integration and Dynamics 365 identifier write-back.
 
-1. Open the Data Integration Toolkit. For more information, see [Overview of data integration toolkit](/dynamics365/industry/healthcare/data-integration-toolkit-overview).
+1. Open the Data Integration Toolkit. For more information, see [Overview of data integration toolkit](/industry/healthcare/business-applications/data-integration-toolkit-overview).
 1. Navigate to **Entity Maps**.
-1. Open the appropriate Entity Map (for example,` contact \<-\> Patient`)
+1. Open the appropriate Entity Map (for example, `contact \<-\> Patient`)
 1. Fill in the fields as outlined in the following table.
 
     |Field or section|Value or action|
@@ -260,18 +260,17 @@ Follow these steps to configure the FHIR identifier plugin for each table that n
 ## Next step
 
 1. [What is Microsoft for Healthcare?](/industry/healthcare/overview)
-1. [Data integration toolkit overview](/dynamics365/industry/healthcare/data-integration-toolkit-overview)
+1. [Data integration toolkit overview](/industry/healthcare/business-applications/data-integration-toolkit-overview)
 
 ## Related resources
 
 Review the following related architecture guides, solutions, and other guidance content:
 
 - [Overview of Microsoft for Healthcare reference architectures](/industry/healthcare/architecture/overview)
-- [Writeback for Dataverse healthcare APIs](/dynamics365/industry/healthcare/dataverse-healthcare-apis-writeback)
-- [Dataverse healthcare APIs: Use Healthcare data pipeline template](/dynamics365/industry/healthcare/dataverse-healthcare-apis-logic-app-deploy)
-- [FHIR data maps overview](/dynamics365/industry/healthcare/data-integration-toolkit-manage-fhir-data)
-- [Configure attribute maps](/dynamics365/industry/healthcare/data-integration-toolkit-attribute-maps)
-- [Configure expansion maps](/dynamics365/industry/healthcare/data-integration-toolkit-expansion-maps)
+- [Writeback for Dataverse healthcare APIs](/industry/healthcare/business-applications/dataverse-healthcare-apis-writeback)
+- [FHIR data maps overview](/industry/healthcare/business-applications/data-integration-toolkit-manage-fhir-data)
+- [Configure attribute maps](/industry/healthcare/business-applications/data-integration-toolkit-attribute-maps)
+- [Configure expansion maps](/industry/healthcare/business-applications/data-integration-toolkit-expansion-maps)
 <!-- 
 ## Tags
 

@@ -1,23 +1,24 @@
 ---
-title: About the business process catalog for Dynamics 365 apps
-description: Learn about the business process catalog for Dynamics 365, what it is, how to navigate in it, and what you can learn from the catalog.
+title: About the Business Process Catalog
+description: Learn about the business process catalog for Dynamics 365 apps, what it is, how to navigate in it, and what you can learn from the catalog.
 author: edupont04
 ms.author: edupont
 ms.topic: concept-article
-ms.date: 12/09/2025
+ms.date: 12/16/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
-# About the business process catalog for Dynamics 365 apps and services
+# Introduction to the business process catalog for Dynamics 365 apps and services
 
-Microsoft has established a business process catalog of standard business processes across Dynamics 365 apps and services. Read on to learn how to navigate and learn from the catalog.  
+Microsoft has established a business process catalog of standard business processes across Dynamics 365 apps and services. [!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)]
 
-> [!TIP]
-> [!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] [!INCLUDE [daf-business-process-def2](~/../shared-content/shared/guidance-includes/daf-business-process-def2.md)]
+[!INCLUDE [daf-business-process-def2](~/../shared-content/shared/guidance-includes/daf-business-process-def2.md)]
+
+Read on to learn how to navigate and learn from the catalog.  
 
 ## What is the catalog?
 
-The business process catalog is an Excel workbook that we at Microsoft use to organize and prioritize our work on the business process documentation. The format is Excel because it makes it easy to sort and filter the entries. We also believe our partners can use the Excel workbook to organize their onboarding journeys, their implementation projects, and their own business processes. Learn more about the content in the [What's in the catalog?](#whats-in-the-catalog) section.  
+The business process catalog is an Excel workbook that we generate from an internal tool that we at Microsoft use to define and organize the business process documentation. We share the catalog as an Excel workbook because it makes it easy to sort and filter the entries. We also believe our partners can use the Excel workbook to organize their onboarding journeys, their implementation projects, and their own business processes. Learn more about the content in the [What's in the catalog?](#whats-in-the-catalog) section. And learn about how to use the catalog at [Implement a solution based on your business processes](../implementation-guide/process-focused-solution.md).  
 
 [!INCLUDE [daf-catalog-ids](../includes/daf-catalog-ids.md)] Learn more in the [Catalog IDs](#catalog-ids) section.
 
@@ -31,29 +32,29 @@ Learn more at [Overview of the business process catalog levels](about-catalog-le
 
 We plan to cover each level of the catalog. The result will be guidance about how to configure Dynamics 365 to meet most use cases and scenarios. Our goal is to help our customers and partners define the scope of their implementation projects. Start from our standard business processes, and accelerate your success and implementation. We hope you can then focus on the processes that make your business unique. Work with your implementation partner to identify which business processes and patterns are relevant at the beginning of your project. Also, review the [Processes](../implementation-guide/solution-architecture-design-pillars-processes.md) solution architecture design pillar.  
 
-New and updated content publishes to [Microsoft Learn](/dynamics365/guidance/business-processes/) every week.  
+New and updated content publishes to [Microsoft Learn](/dynamics365/guidance/business-processes/) every week, usually on Tuesdays.  
 
 ## How to read the business process descriptions
 
 The business process articles contain abbreviations that you won't see anywhere else. The abbreviations represent the different Dynamics 365 apps, services, and related portals. We hope they make it easier to quickly scan the various tables. Get an introduction to this type of shorthand at [Business processes, steps, and how to find things](about-steps-navigation.md).  
 
 > [!TIP]
-> Find definitions of business terms at [Glossary of terms](glossary.md).  
+> Find definitions of many business terms at [Glossary of terms](glossary.md).  
 
 ## Business process flow diagrams
 
-Each article, be it for an end-to-end scenario or a pattern, includes a diagram that shows how that business process fits into the work of a typical organization. We share the diagrams as Visio files or PowerPoint presentations in a GitHub repo so that each organization can choose to download a flow diagram and customize it to fit their particular workflow.  
+Each article, be it for an end-to-end scenario or a pattern, includes a diagram that shows how that business process fits into the work of a typical organization. We share the diagrams as Visio files with source data in Excel workbooks in a GitHub repo. This way, each organization can choose to download a flow diagram and customize it to fit their particular workflow.  
 
 Find the source files at [https://aka.ms/businessprocessflow](https://aka.ms/businessprocessflow).
 
 > [!NOTE]
-> When you navigate to the specified link, you can't view the .vsdx or .pptx files in GitHub. Instead, you can download the files by opening the file's page on GitHub, then selecting the **View raw** or **Download raw file** option.
+> When you navigate to the specified link, you can't view the .vsdx or .xlsx files in GitHub. Instead, you can download the files by opening the file's page on GitHub, then selecting the **View raw** or **Download raw file** option.
 
 ## Catalog IDs
 
 [!INCLUDE [daf-catalog-ids](../includes/daf-catalog-ids.md)]
 
-But when you download the business process catalog, you'll find each entry assigned a unique ID. The IDs start with a number for each end-to-end scenario. Each level below the end-to-end scenario has an ID that starts with the ID of each parent entry.  
+When you download the business process catalog, you'll find each entry assigned a unique ID. The IDs start with a number for each end-to-end scenario. Each level below the end-to-end scenario has an ID that starts with the ID of each parent entry.  
 
 For example, let's look at the *administer to operate* end-to-end scenario. The following table provides a quick introduction to how IDs are generated based on four entries in the business process catalog from December 2025.
 
@@ -68,7 +69,11 @@ The IDs of the end-to-end scenarios are similar to the Standard Industrial Class
 
 For industries across the world, the International Standard Industrial Classification of All Economic Activities (ISIC) is the international reference classification of productive activities. It provides a set of activity categories that can be utilized for the collection and reporting of statistics according to such activities. Learn more at [Department of Economic and Social Affairs at United Nations](https://unstats.un.org/unsd/classifications/Econ/isic).
 
-But an end-to-end scenario can apply to businesses across two or more industries. So the IDs are not the same as SIC or ISIC codes. It's the system of hierarchies of unique IDs that we have loosely based on the ISIC and SIC categories. The only exception is the *Administer to operate* end-to-end scenario that got its ID 99 from the SIC code for *Administration of Nonclassifiable Establishments*.  
+But an end-to-end scenario can apply to businesses across two or more industries. So the IDs are not the same as SIC or ISIC codes. It's the system of hierarchies of unique IDs that we loosely base on the ISIC and SIC categories. The only exception is the *Administer to operate* end-to-end scenario that got its ID 99 from the SIC code for *Administration of Nonclassifiable Establishments*.  
+
+## Use the catalog
+
+You can use Microsoft's business process catalog as a template that you import into a project in Azure DevOps Services to manage your Dynamics 365 implementation project. You can also import the catalog into Mavim, for example. Learn more at [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md) and [Import the business process catalog in Mavim using a Power Automate flow](about-import-catalog-mavim.md), respectively.
 
 ## Get notified about changes through an RSS feed
 
@@ -85,11 +90,11 @@ Optionally, add your LinkedIn profile so that you can be listed as the original 
 
 Learn more at [External contributions to Microsoft's documentation](/dynamics365/get-started/contribute).  
 
-## Related information
+## Related content
 
 - [Understand concepts and terminology used in the Dynamics 365 business process guide](about-steps-navigation.md)  
 - [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md)  
 - [Import the business process catalog in Mavim using a Power Automate flow](about-import-catalog-mavim.md)  
-- [Process maturity overview](process-maturity-introduction.md)  
+- [Learn about process maturity](process-maturity-introduction.md)  
 - [Standardize business processes during a Dynamics 365 implementation](standardize-business-processes.md)  
 - [Overview of end-to-end scenarios and business processes in Dynamics 365](overview.md)  

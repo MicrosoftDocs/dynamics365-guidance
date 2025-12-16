@@ -43,23 +43,23 @@ items:
                 href: business-processes/glossary.md
               - name: Business processes, steps, and how to find things
                 href: business-processes/about-steps-navigation.md
-              - name: Process-focused solution overview
+              - name: Implement based on business processes
                 href: implementation-guide/process-focused-solution.md
               - name: Map departments and business processes
                 href: organizational-strategy/departments.md
               - name: Map business processes to customer requests
                 href: business-processes/about-processes-solution-plays.md
-              - name: Optimize your business processes
+              - name: Optimize business processes
                 href: implementation-guide/process-focused-solution-opportunity-optimization.md
-              - name: Process-centric implementation lifecycle
+              - name: Base the implementation lifecycle on business processes
                 href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-              - name: Considerations
+              - name: Build quality with optimized and standardized business processes
                 href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-              - name: Fit-to-standard and Fit-gap analysis
+              - name: Do fit-to-standard and fit-gap analysis
                 href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
               - name: Define your requirements
                 href: implementation-guide/process-focused-solution-define-requirements.md
-              - name: Process maturity overview
+              - name: Learn about process maturity
                 href: business-processes/process-maturity-introduction.md
               - name: Standardize business processes during an implementation
                 href: business-processes/standardize-business-processes.md
@@ -389,12 +389,10 @@ items:
                 items:
                   - name: Import the catalog to Azure DevOps overview
                     href: business-processes/about-import-catalog-devops.md
-                  - name: End-to-end, process area, process, and scenario work item types
+                  - name: Work item types in Azure DevOps
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
-                  # - name: Configuration deliverable work item type
-                  #   href: business-processes/about-import-catalog-devops-configuration-deliverable-work-item-type.md
-                  # - name: Workshop work item type
-                  #   href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+                  - name: Manage updates to the catalog in Azure DevOps
+                    href: business-processes/about-import-catalog-devops-updates.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Import the catalog to Mavim overview

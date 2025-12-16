@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
-ms.date: 12/12/2025
+ms.date: 12/16/2025
 ms.custom: bap-template
 ---
 
@@ -330,6 +330,11 @@ The following list includes a few tasks and tips to consider.
 - [Use managed queries to list work items](/azure/devops/boards/queries/about-managed-queries?view=azure-devops&preserve-view=true)
 - [Analytics & Reporting](/azure/devops/report/?view=azure-devops&preserve-view=true)
 
+## Manage updates
+
+Microsoft publishes updates to the business process catalog about four times each year. Each update can impact a concrete implementation project, so you must learn how to manage these updates. Learn more at [Manage business process catalog updates in Azure DevOps](about-import-catalog-devops-updates.md).  
+
 ## Related content 
 
 - [Custom work item types for the six levels in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)
+- [Manage business process catalog updates in Azure DevOps](about-import-catalog-devops-updates.md)  

@@ -4,7 +4,7 @@ description: Learn about some of the tools that you can use for automating regre
 author: edupont04
 ms.author: dudona
 ms.topic: concept-article
-ms.date: 09/26/2025
+ms.date: 12/12/2025
 ms.update-cycle: 1095-days
 ms.custom:
   - evergreen
@@ -32,6 +32,9 @@ Learn more about each tool:
 - [TheTestMart](https://appsource.microsoft.com/en-US/product/dynamics-365-for-operations/360testinglimited1633924951153.the-test-mart?tab=Overview)  
 
   TheTestMart is a cloud-based code-free test automation platform that focuses on scaling up automation coverage and productivity across  core business platforms by applying command-driven techniques.  
+- [Alithya Rapid QA](https://marketplace.microsoft.com/en-us/product/saas/fullscope.rapid_qa?tab=Overview)
+
+  Rapid QA is a product-agnostic automated testing solution for Dynamics 365, offering customizable prebuilt scenarios and AI-enabled accelerators to streamline upgrades and validation.
 - [Elevaite365​ Test Automation](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/elevaite365.e365ta?tab=Overview)  
 
   Elevaite Test Automation is an AI-powered platform purpose-built for Microsoft Dynamics 365. The solution empowers organizations to automate and optimize their testing processes, delivering enterprise-grade quality assurance with unmatched efficiency​.
