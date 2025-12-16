@@ -4,7 +4,7 @@ description: A glossary of terms that are good to know if you work with Dynamics
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: glossary
-ms.date: 12/11/2024
+ms.date: 11/28/2025
 ---
 
 # Glossary of Dynamics 365 business processes terms
@@ -339,6 +339,8 @@ Opposition or reluctance to the changes introduced by Dynamics 365. Understandin
 
 A chart of accounts defines a structured list of all the main accounts used in a ledger. Each main account has a unique code and a description, and they are organized hierarchically to reflect the company's financial structure. In Dynamics 365 Finance and in Dynamics 365 Business Central, a chart of accounts can be assigned to one or more ledgers. To use a shared chart of accounts, you can create one chart of accounts and link it to multiple ledgers.
 
+Learn more at [Plan your chart of accounts - Finance](/dynamics365/finance/general-ledger/plan-chart-of-accounts) and [Understand the Chart of Accounts - Business Central](/dynamics365/business-central/finance-chart-of-accounts), respectively.
+
 ### Churn
 
 Churn occurs when a customer ends a relationship or stops engaging with a company. Customer relationship management (CRM) helps prevent churn.
@@ -371,7 +373,7 @@ Depending on its size, the complexity of your collections process, and the frequ
 
 Dynamics 365 Finance offers a couple of ways to allocate collections tasks:
 
-- A **collection pool** is a type of **customer pool**(/dynamics365/finance/accounts-receivable/set-up-collections#optional-set-up-customer-pools) that groups customers for collections. You can create as many collection pools as you need. A collection pool can be assigned to a specific [collection agent](/dynamics365/finance/accounts-receivable/set-up-collections#optional-set-up-collections-agents). A collection agent can also be linked directly to specific customers. A collection agent is an individual, either internal or external, who performs collection activities in your organization.
+- A **collection pool** is a type of [**customer pool**](/dynamics365/finance/accounts-receivable/set-up-collections#optional-set-up-customer-pools) that groups customers for collections. You can create as many collection pools as you need. A collection pool can be assigned to a specific [collection agent](/dynamics365/finance/accounts-receivable/set-up-collections#optional-set-up-collections-agents). A collection agent can also be linked directly to specific customers. A collection agent is an individual, either internal or external, who performs collection activities in your organization.
 - A [**collection team**](/dynamics365/finance/accounts-receivable/set-up-collections#optional-create-a-collections-team) is a group of collection agents.
 
 ### Collections cases
@@ -436,14 +438,19 @@ Costs can be direct or indirect, fixed or variable.
 > [!NOTE]
 > Cost can be referred to as *cost price*. If you see the term *price* by itself, it typically refers to a sales price or purchase price. In Dynamics 365 Supply Chain Management, the term *item price* is used interchangeably with *cost*.
 
+Dynamics 365 Supply Chain Management includes [a cost management module](/dynamics365/supply-chain/cost-management/cost-management-home-page). Dynamics 365 Business Central includes [an inventory costing module](/dynamics365/business-central/finance-manage-inventory-costs).
+
 ### Cost accounting
 
 Cost accounting is a branch of accounting that deals with the process of identifying, measuring, analyzing, and reporting costs associated with a business operation. It's a methodical approach to accounting that provides detailed information about the costs of producing goods and services.
 
-Dynamics 365 Finance, Supply Chain Management, and Business Central all include a cost accounting module. In them, you create a secondary set of accounting books that are used to determine and report the cost of goods or services by allocating costs of specific products or services based on the resources consumed in their production or procurement. The goal is to provide accurate information that managers can use to make informed decisions about pricing, resource allocation, and process improvements.
+Dynamics 365 Finance and Dynamics 365 Business Central both include a cost accounting module. In both apps, you create a secondary set of accounting books that are used to determine and report the cost of goods or services by allocating costs of specific products or services based on the resources consumed in their production or procurement. The goal is to provide accurate information that managers can use to make informed decisions about pricing, resource allocation, and process improvements.
+
+Learn more in the following articles.
 
 - [Cost accounting in Finance](/dynamics365/finance/cost-accounting/cost-accounting-home-page)
-- [Cost accounting in Supply Chain Management](/dynamics365/finance/cost-accounting/cost-accounting-home-page)
+
+  The same module is also available in Supply Chain Management.
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)
 
 ### Cost budget
@@ -452,29 +459,27 @@ A cost budget represents a point-in-time snapshot of the estimated cost for the 
 
 ### Costing methodology
 
-A costing methodology is a systematic approach to determining the cost of goods or services. Different methodologies can be used depending on the industry, product, or service that's being produced. Dynamics 365 Supply Chain Management supports four costing methodologies, with variations: FIFO, LIFO, weighted average, and standard.
+A costing methodology is a systematic approach to determining the cost of goods or services. Different methodologies can be used depending on the industry, product, or service that's being produced. Dynamics 365 Supply Chain Management supports four costing methodologies, with variations: FIFO, LIFO, weighted average, and standard. Dynamics 365 Business Central supports five costing methods: FIFO, LIFO, average, specific, and standard.
 
-- [**FIFO** (First In, First Out)](/dynamics365/supply-chain/cost-management/fifo-physical-value-marking): The first units produced or purchased are the first ones to be sold. Therefore, the cost of goods sold is based on the oldest inventory in stock.
+- **FIFO** (First In, First Out): The first units produced or purchased are the first ones to be sold. Therefore, the cost of goods sold is based on the oldest inventory in stock. Supported in both [Supply Chain Management](/dynamics365/supply-chain/cost-management/fifo-physical-value-marking) and [Business Central](/dynamics365/business-central/design-details-costing-methods).
 
-- [**LIFO** (Last In, First Out)](/dynamics365/supply-chain/cost-management/lifo-physical-value-marking): The last units produced or purchased are the first ones to be sold. Therefore, the cost of goods sold is based on the newest inventory in stock.
+- **LIFO** (Last In, First Out): The last units produced or purchased are the first ones to be sold. Therefore, the cost of goods sold is based on the newest inventory in stock. Supported in both [Supply Chain Management](/dynamics365/supply-chain/cost-management/lifo-date-physical-value-marking) and [Business Central](/dynamics365/business-central/design-details-costing-methods).
 
-- [**LIFO Date**](/dynamics365/supply-chain/cost-management/lifo-date-physical-value-marking): A variation of the LIFO method. Inventory is valued based on the cost of the goods that are purchased closest to the sale date.
+- **LIFO Date**: A variation of the LIFO method. Inventory is valued based on the cost of the goods that are purchased closest to the date of sales. Supported in [Supply Chain Management](/dynamics365/supply-chain/cost-management/lifo-date-physical-value-marking).
 
-- **Weighted Average**: This method calculates the average cost of all units produced or purchased during a specific period. It's defined slightly differently in [Supply Chain Management](/dynamics365/supply-chain/cost-management/weighted-average-physical-value-marking) and [Business Central](/dynamics365/business-central/design-details-average-cost).
+- **Weighted Average**: This method calculates the average cost of all units produced or purchased during a specific period. Supported in both [Supply Chain Management](/dynamics365/supply-chain/cost-management/weighted-average-physical-value-marking) and [Business Central](/dynamics365/business-central/design-details-average-cost) but defined slightly differently in the two apps.
 
-- [**Weighted Average Date**](/dynamics365/supply-chain/cost-management/weighted-average-date): A variation of the weighted average method. The average cost is calculated based on inventory at a specified date.
+- **Weighted Average Date**: A variation of the weighted average method. The average cost is calculated based on inventory at a specified date. Supported in [Supply Chain Management](/dynamics365/supply-chain/cost-management/weighted-average-date).
 
-- [**Moving Average**](/dynamics365/supply-chain/cost-management/moving-average): This method calculates the average cost of units produced or purchased during a specific period, adjusting the cost as new units are produced or purchased.
+- **Moving Average**: This method calculates the average cost of units produced or purchased during a specific period, adjusting the cost as new units are produced or purchased. Supported in [Supply Chain Management](/dynamics365/supply-chain/cost-management/moving-average).
 
-- [**Running Average**](/dynamics365/supply-chain/cost-management/running-average-cost-price): This method resembles the moving average method, but it calculates the average cost based on all costs incurred since the start of production or procurement. In Dynamics 365 Supply Chain Management, you can't select this costing method. Instead, it's applied in real time when you run the inventory closing process with the FIFO, LIFO, or Weighted Average costing methods.
+- **Running Average**: This method resembles the moving average method, but it calculates the average cost based on all costs incurred since the start of production or procurement. In Dynamics 365 Supply Chain Management, you can't select this costing method. Instead, it's applied in real time when you run the inventory closing process with the FIFO, LIFO, or Weighted Average costing methods. Supported in [Supply Chain Management](/dynamics365/supply-chain/cost-management/running-average-cost-price).
 
-- **Standard Cost**: This method sets predetermined costs for each component of a product or service, based on estimates of labor, materials, and overhead costs. The actual costs are then compared to the standard costs to identify any variations and adjust as necessary.
-
-Dynamics 365 Business Central also supports [costing methods](/dynamics365/business-central/design-details-costing-methods).
+- **Standard Cost**: This method sets predetermined costs for each component of a product or service, based on estimates of labor, materials, and overhead costs. The actual costs are then compared to the standard costs to identify any variations and adjust as necessary. Supported in [Supply Chain Management](/dynamics365/supply-chain/cost-management/prerequisites-standard-costs) and [Business Central](/dynamics365/business-central/design-details-costing-methods).
 
 The following diagram illustrates the effect of the FIFO, LIFO, weighted average, and standard costing methods.
 
-:::image type="content" source="media/CostingMethodsDiagram.svg" alt-text="Diagram with boxes that illustrate how inventory is evaluated based on procurement and sales across the four costing methods." lightbox="media/CostingMethodsDiagram.svg":::
+:::image type="content" source="media/CostingMethodsDiagram.svg" alt-text="Diagram with boxes that illustrate how inventory is evaluated based on procurement and sales across the four main costing methods." lightbox="media/CostingMethodsDiagram.svg":::
 
 ### Costing sheet
 
@@ -482,7 +487,7 @@ A [costing sheet](/dynamics365/supply-chain/cost-management/costing-sheets) is a
 
 ### Costing version
 
-In Dynamics 365, a [costing version](/dynamics365/supply-chain/cost-management/costing-versions) is a specific set of cost calculations that are used for tracking and analyzing the costs associated with a specific item or a group of items. A costing version represents a snapshot of the costs of materials, labor, overhead, and other expenses that are associated with producing or purchasing an item at a particular point in time.
+In Dynamics 365 Supply Chain Management, a [costing version](/dynamics365/supply-chain/cost-management/costing-versions) is a specific set of cost calculations that are used for tracking and analyzing the costs associated with a specific item or a group of items. A costing version represents a snapshot of the costs of materials, labor, overhead, and other expenses that are associated with producing or purchasing an item at a particular point in time.
 
 ### Credit hold
 
@@ -500,15 +505,15 @@ A credit note is a document that reduces the amount that a customer owes to a se
 
 A currency represents the type of money used for financial transactions. It can be a specific country's/region's currency (e.g., US Dollar, Euro) and is used to denote the value of financial items. Dynamics 365 Finance ships with a predefined list of all ISO currencies. Each transaction is then recorded with three different values for the currencies.
 
-- Transactions currency 
+- Transactions currency  
 
     The transaction currency is the currency that a specific financial transaction is recorded in. It's the currency denomination of a particular transaction.
 
-- Accounting currency 
+- Accounting currency  
 
     The accounting currency is the primary currency in which financial statements are presented. Every transaction is translated from the transaction currency to the accounting currency for recording in the general ledger. The accounting currency is assigned in the ledger, and you can view the accounting currency amounts for all transactions in the general ledger.
 
-- Reporting currency 
+- Reporting currency  
 
     The reporting currency is an additional currency in which financial statements can be presented. Every transaction is translated from the transaction currency to the reporting currency for recording in the general ledger. Organizations with international operations often use the reporting currency to provide financial information in a local currency. The reporting currency is assigned in the ledger, and you can view the reporting currency amounts on all transactions in the general ledger.
 
