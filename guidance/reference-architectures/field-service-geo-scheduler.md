@@ -154,4 +154,4 @@ Operational costs in this implementation include license costs for Field Service
 
 Principal author:
 
-- [Sahana Jain](https://www.linkedin.com/in/author-account/) | Dynamics 365 Architect
+- [Sahana Jain](https://www.linkedin.com/in/sahana-s-aa53a947/) | Dynamics 365 Architect
