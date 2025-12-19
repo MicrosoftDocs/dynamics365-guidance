@@ -5,7 +5,7 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
-ms.date: 12/16/2025
+ms.date: 12/17/2025
 ms.custom: bap-template
 ---
 
@@ -336,5 +336,6 @@ Microsoft publishes updates to the business process catalog about four times eac
 
 ## Related content 
 
-- [Custom work item types for the six levels in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)
+- [Custom work item types for the six levels in the business process catalog](about-import-catalog-devops-process-work-item-types.md)  
+- [Other work item types in the business process catalog](about-devops-work-items-other.md)  
 - [Manage business process catalog updates in Azure DevOps](about-import-catalog-devops-updates.md)  

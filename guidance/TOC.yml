@@ -43,28 +43,6 @@ items:
                 href: business-processes/glossary.md
               - name: Business processes, steps, and how to find things
                 href: business-processes/about-steps-navigation.md
-              - name: Implement based on business processes
-                href: implementation-guide/process-focused-solution.md
-              - name: Map departments and business processes
-                href: organizational-strategy/departments.md
-              - name: Map business processes to customer requests
-                href: business-processes/about-processes-solution-plays.md
-              - name: Optimize business processes
-                href: implementation-guide/process-focused-solution-opportunity-optimization.md
-              - name: Base the implementation lifecycle on business processes
-                href: implementation-guide/process-focused-solution-implementation-lifecycle.md
-              - name: Build quality with optimized and standardized business processes
-                href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
-              - name: Do fit-to-standard and fit-gap analysis
-                href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
-              - name: Define your requirements
-                href: implementation-guide/process-focused-solution-define-requirements.md
-              - name: Learn about process maturity
-                href: business-processes/process-maturity-introduction.md
-              - name: Standardize business processes during an implementation
-                href: business-processes/standardize-business-processes.md
-              - name: Business processes and a product-centric manufacturing journey
-                href: business-processes/about-product-centric-manufacturing-journey.md
           - name: Acquire to dispose
             items:
               - name: End-to-end scenario - acquire to dispose (ID 10)
@@ -393,6 +371,8 @@ items:
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
                   - name: Manage updates to the catalog in Azure DevOps
                     href: business-processes/about-import-catalog-devops-updates.md
+                  - name: Other work items types in the template
+                    href: business-processes/about-devops-work-items-other.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Import the catalog to Mavim overview
@@ -401,6 +381,30 @@ items:
                     href: business-processes/about-catalog-mavim-success-design-d365.md
                   - name: Navigate the business process catalog in Mavim
                     href: business-processes/about-catalog-mavim-navigate-business-process-catalog.md
+              - name: Implement a process-focused solution
+                items:
+                  - name: Implement based on business processes
+                    href: implementation-guide/process-focused-solution.md
+                  - name: Optimize business processes
+                    href: implementation-guide/process-focused-solution-opportunity-optimization.md
+                  - name: Base the implementation lifecycle on business processes
+                    href: implementation-guide/process-focused-solution-implementation-lifecycle.md
+                  - name: Build quality with optimized and standardized business processes
+                    href: implementation-guide/process-focused-solution-considerations-building-business-processes.md
+                  - name: Do fit-to-standard and fit-gap analysis
+                    href: implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis.md
+                  - name: Define your requirements
+                    href: implementation-guide/process-focused-solution-define-requirements.md
+              - name: Learn about process maturity
+                href: business-processes/process-maturity-introduction.md
+              - name: Standardize business processes during an implementation
+                href: business-processes/standardize-business-processes.md
+              - name: Map departments and business processes
+                href: organizational-strategy/departments.md
+              - name: Map business processes to customer requests
+                href: business-processes/about-processes-solution-plays.md
+              - name: Business processes and a product-centric manufacturing journey
+                href: business-processes/about-product-centric-manufacturing-journey.md
           - name: What's new or changed
             items:
               - name: What's new or changed in the business process catalog
