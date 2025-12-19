@@ -14,7 +14,7 @@ The business process catalog (BPC) from Microsoft provides a structured hierarch
 
 ## Key concepts
 
-The following table outlines key concepts and field values that you must understand before you begin taking updates to the business process catalog.
+The following table outlines key field values that you must understand before you begin taking updates to the business process catalog.
 
 |Column  |Values  |Description  |
 |---------|---------|---------|
@@ -24,22 +24,27 @@ The following table outlines key concepts and field values that you must underst
 | |**50 - Custom**| Use this row to indicate that the work item is particular to this implementation project. Use this value as the default for new work items that don't come from Microsoft.|
 | |**60 - Deprecated**| Rows marked for removal in future releases.|
 | |**70 - Deleted**| Rows removed after two deprecation cycles.|
-|**Identifiers**|**Microsoft ID**| Unique, system-generated identifier for each row provided by Microsoft.|
-| |**Process Sequence ID**| Unique human assigned number that is designed to help sort processes in the Business Process Catalog tree. Process Sequence IDs aren't assigned to the Deliverables or Delivery Plan rows. Maintain these values for continuity but they're prone to manual errors because they're human assigned.|
-| |**Partner ID**| Partners who extend the business process catalog and add custom rows use the Partner ID column to keep track of their unique identifier for the row.|
-| |**ID**| This is the native ID column populated by Azure DevOps. The system automatically assigns this number. It's never duplicated and can't be edited.|
+
+The catalog has columns that contain different types of identifiers as outlined in the following table.
+
+|Column  |Description  |
+|--------|---------|
+|**Microsoft ID**| Unique, system-generated identifier for each row provided by Microsoft.|
+|**Process Sequence ID**| Unique human assigned number that is designed to help sort processes in the Business Process Catalog tree. Process Sequence IDs aren't assigned to the Deliverables or Delivery Plan rows. Maintain these values for continuity but they're prone to manual errors because they're human assigned.|
+|**Partner ID**| Partners who extend the business process catalog and add custom rows use the Partner ID column to keep track of their unique identifier for the row.|
+|**ID**| This is the native ID column populated by Azure DevOps. The system automatically assigns this number. It's never duplicated and can't be edited.|
 
 ## Handle customer IDs
 
-When an organization imports new rows into their Azure DevOps environment, Azure DevOps assigns each work item a unique ID. The CSV import process requires using this ID to update existing rows in a subsequent import. The Microsoft ID column in the catalog file remains constant, and it should always match between Microsoft and customer environments.
+When an organization imports new rows into their Azure DevOps environment, Azure DevOps assigns each work item a unique ID. The process of importing from a .CSV file requires this ID to update existing rows in a subsequent import. The **Microsoft ID** column in the catalog file remains constant, and it should always match between Microsoft and customer environments.
 
 ### Recommendations for customer IDs
 
 Take the following actions:
 
-- Maintain both ID and Microsoft ID columns in your Azure DevOps work items.
+- Maintain both the **ID** and **Microsoft ID** columns in your Azure DevOps work items.
 
-- Use Microsoft ID for cross-release matching and reconciliation.
+- Use **Microsoft ID** for cross-release matching and reconciliation.
 
 - When preparing a .CSV file for updates, query Azure DevOps to retrieve Customer IDs and map them to Microsoft IDs before performing bulk updates.
 

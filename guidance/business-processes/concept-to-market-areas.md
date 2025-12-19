@@ -1,7 +1,7 @@
 ---
 title: Overview of the Concept to market areas
 description: Get an overview for each of the business process areas in the concept to market end-to-end business process flow in Dynamics 365 solutions. Learn how you can introduce, define, and manage services in Dynamics 365.
-ms.date: 11/25/2024
+ms.date: 12/15/2025
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
@@ -11,15 +11,43 @@ ms.author: raprofit
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
 
-The product and service lifecycle management process is broken down into business process areas for categorizing products and services, introducing new products and services, maintaining product data, organizing and assigning product attributes and catalogs, designing and configuring manufactured products, controlling product engineering changes, defining product and service costing, managing product and service pricing, managing product assortments and catalogs, and managing the product lifecycle. The following sections further describe these business process areas.
+The end-to-end process for *concept to market* covers several business process areas as outlined in this article. The following sections further describe these business process areas.
 
+> [!NOTE]
+> This end-to-end process changed in the May 2025 version of the business process catalog. New content replaces the now deprecated business process areas gradually.
+
+## Develop marketing strategy
+
+This business process area helps organizations formulate a comprehensive plan to promote products or services by analyzing market trends, identifying target audiences, and creating effective marketing campaigns to achieve business objectives.
+
+## Research and develop offerings
+
+This business process area helps organizations conduct thorough research to understand customer needs and market demands, then design and develop innovative products or services that meet those requirements and provide value to customers.
+
+## Manage service offerings
+
+This business process area helps organizations oversee the delivery and quality of service offerings by coordinating resources, monitoring performance, and ensuring customer satisfaction through continuous improvement and effective management practices.
+
+## Prepare marketing campaigns
+
+This business process area helps organizations identify campaign audiences, create marketing material and loyalty programs, and plan events.  
+
+## Manage marketing campaigns
+
+This business process area helps organizations run campaigns and events.
+
+## Analyze marketing operations
+
+This business process area helps organizations assess and analyze marketing campaigns and programs.
+
+<!-- OLD
 ## Define service offerings and strategy
 
 This business process area involves categorizing services based on various attributes, such as the service type and brand. The exact categories in your organization vary, depending on the type of services that you offer, their complexity, and the industry. Categorization helps organize services and makes it easier for customers to find what they are looking for. Internally, categorization helps you report and analyze trends for your services. Dynamics 365 Supply Chain Management and Commerce support the creation of category hierarchies to further enhance the discoverability of your services.
 
-Learn more at [Define service offerings and strategy overview](concept-to-market-define-service-offerings-strategy-overview.md).
+Learn more at [Define service offerings and strategy overview](concept-to-market-define-service-offerings-strategy-overview.md). -->
 
-## Introduce new services
+<!-- ## Introduce new services
 
 Every organization has a process for developing and introducing new services to the market. The process includes idea generation, concept development, product design, testing, and launch. Office 365 includes a variety of tools to help you remain organized, and Dynamics 365 Supply Chain Management includes tools, such as a configurable workflow, to help with the business process flow of introducing new services. For more basic services, you can also design a business process flow in Dynamics 365 Sales. When you're ready to test new services and advertise new service offerings, Dynamics 365 Marketing includes a variety of tools to help with the process. A well-managed introduction of new services can help organizations remain competitive and meet customer needs.
 
@@ -41,7 +69,7 @@ Learn more at [Overview of the Manage service pricing business process area](con
 
 This business process area involves managing the entire lifecycle of a service, from ideation to retirement. Management of the service lifecycle involves making strategic decisions about product development, pricing, and marketing, to help ensure that the service remains profitable and relevant to the market.
 
-Learn more at [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md).
+Learn more at [Manage service lifecycle overview](concept-to-market-manage-service-lifecycle-overview.md). -->
 
 ## Next steps
 

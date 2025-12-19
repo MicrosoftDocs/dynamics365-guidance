@@ -1,7 +1,7 @@
 ---
 title: Concept to market end-to-end business process flow overview
 description: Learn about the concept to market end-to-end business process, including a flow diagram and describes the relationship with other processes.
-ms.date: 11/23/2023
+ms.date: 12/15/2025
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
@@ -9,54 +9,82 @@ ms.author: raprofit
 
 # Concept to market end-to-end business process flow and its relationship to other business processes
 
-***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Service Insights, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Microsoft Supply Chain Center***
+***Applies to: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
 This article describes the *concept to market* end-to-end business process flow and its relationship to other business processes that can be used in Dynamics 365. This end-to-end process focuses on the service offering lifecycle. Learn more about the product design lifecycle at [Design to retire end-to-end overview](design-to-retire-overview.md).
 
 > [!IMPORTANT]
 > [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
-## Concept to market process relationship 
+## Concept to market process relationships
 
-The following diagram shows the relationship of other processes and products/features for the *concept to market* process.
+<!-- The following diagram shows the relationship of other processes and products/features for the *concept to market* process.
 
 :::image type="content" source="media/concept-to-market-process.svg" alt-text="Business process relationships with upstream and downstream processes that are explained in the next paragraphs." lightbox="media/concept-to-market-process.svg":::
+ -->
+The prerequisites for the *concept to market* end-to-end process include the following end-to-end business processes.
 
-The upstream processes for the *concept to market* process include the following.
+- **Forecast to plan**  
 
-- **Forecast to plan**: Organizations often complete the service offering definition in the *concept to market* process before they begin the forecasting process.
-- **Prospect to quote**: In some operational strategies, such as engineer to order, the *prospect to quote* process occurs before the *concept to market* process, because the quote is often the trigger that initiates the process.
-- **Order to cash**: In some operational strategies, such as engineer to order, the *order to cash* process occurs before the *concept to market* process, because the quote is often the trigger that initiates the process.
-- **Service to deliver**: In some service-based organizations, the *service to cash* process starts before the *concept to market* process. For example, a service technician who is repairing or inspecting a customer asset must order new parts that aren't currently part of the product catalog.
-- **Project to profit**: In some operational strategies, such as engineer to order, the *project to profit* process might start before the *concept to market* process. For example, before the organization begins to set up and procure the items to make the engineered product, it creates the project, sets the budgets, and completes and approves drawings. Additionally, when organizations use projects to manage capital projects, the project definition, budgets, and so on, are typically set before the organization begins to create and procure the necessary products and services.
+  Organizations often complete the service offering definition in the *concept to market* process before they begin the forecasting process.
+- **Prospect to quote**  
 
-The *concept to market* end-to-end process is broken down into the following business process areas.
+  In some operational strategies, such as engineer to order, the *prospect to quote* process occurs before the *concept to market* process, because the quote is often the trigger that initiates the process.
+- **Order to cash**  
 
-- Define service offerings and strategy
-- Introduce new services
-- Manage services pricing
-- Define service costing
-- Manage service lifecycle
+  In some operational strategies, such as engineer to order, the *order to cash* process occurs before the *concept to market* process, because the quote is often the trigger that initiates the process.
+- **Service to deliver**  
 
-The downstream processes for the *concept to market* end-to-end process include the following.
+  In some service-based organizations, the *service to cash* process starts before the *concept to market* process. For example, a service technician who is repairing or inspecting a customer asset must order new parts that aren't currently part of the product catalog.
+- **Project to profit**  
 
-- **Source to pay**: Typically, services are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the services that will be outsourced are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a service definition is created. In these cases, the *Source to pay* process is upstream instead of downstream.
-- **Prospect to quote**: In operational strategies such as make to stock, the *prospect to quote* process occurs after a service offering mix is determined in the *concept to market* process.
-- **Order to cash**: In operational strategies such as make to stock, or in brick-and-mortar commerce scenarios, the *order to cash* process occurs after a service offering mix is determined in the *concept to market* process.
-- **Service to deliver**: In most operational strategies, the *service to cash* process occurs after the *concept to market* process, because the services that will be offered are predetermined by the organization's sales strategy.
-- **Plan to produce**: Except in operational strategies for make to order and engineer to order, the production process typically occurs after the *concept to market* process is completed. Nevertheless, because there are often updates throughout the production process, the process can be both upstream and downstream. The *plan to produce* process is used with services when you outsource some or all of the production process.
-- **Case to resolution**: The *case to resolution* process is downstream to the *concept to market* process when you use cases to manage vendor issues, customer complaints, and so on.
-- **Record to report**: The *record to report* process is downstream to the *concept to market* process, because items and orders must exist before costs or revenues can be recognized in the general ledger, for example.
+  In some operational strategies, such as engineer to order, the *project to profit* process might start before the *concept to market* process. For example, before the organization begins to set up and procure the items to make the engineered product, it creates the project, sets the budgets, and completes and approves drawings. Additionally, when organizations use projects to manage capital projects, the project definition, budgets, and so on, are typically set before the organization begins to create and procure the necessary products and services.
+
+The *concept to market* end-to-end process covers several business process areas. Learn more in the [Concept to market business process flow](#concept-to-market-business-process-flow) section and in the [Overview of the Concept to market business process areas](concept-to-market-areas.md) article.
+
+The downstream processes for the *concept to market* end-to-end process include the following processes.
+
+- **Source to pay**  
+
+  Typically, services are purchased after an agreement is made with a vendor and the product is defined in the system. In organizations that manufacture products, the services that will be outsourced are often defined by the engineering process that is part of the *design to retire* process. In some cases, the request for quotation process occurs before a service definition is created. In these cases, the *Source to pay* process is upstream instead of downstream.
+- **Prospect to quote**  
+
+  In operational strategies such as make to stock, the *prospect to quote* process occurs after a service offering mix is determined in the *concept to market* process.
+- **Order to cash**  
+
+  In operational strategies such as make to stock, or in brick-and-mortar commerce scenarios, the *order to cash* process occurs after a service offering mix is determined in the *concept to market* process.
+- **Service to deliver**  
+
+  In most operational strategies, the *service to cash* process occurs after the *concept to market* process, because the services that will be offered are predetermined by the organization's sales strategy.
+- **Plan to produce**  
+
+  Except in operational strategies for make to order and engineer to order, the production process typically occurs after the *concept to market* process is completed. Nevertheless, because there are often updates throughout the production process, the process can be both upstream and downstream. The *plan to produce* process is used with services when you outsource some or all of the production process.
+- **Case to resolution**  
+
+  The *case to resolution* process is downstream to the *concept to market* process when you use cases to manage vendor issues, customer complaints, and so on.
+- **Record to report**  
+
+  The *record to report* process is downstream to the *concept to market* process, because items and orders must exist before costs or revenues can be recognized in the general ledger, for example.
 
 ## Featured capabilities
 
 Product-specific capabilities are offered that interact with the product and service lifecycle management process. The capabilities include, but aren't limited to, the following list.
 
-- **Product catalogs**: Dynamics 365 Commerce includes catalog features to help manage products in retail channels. Additionally, Dynamics 365 Supply Chain Management includes both internal and external catalogs to help with the procurement process. External catalogs are sometimes referred to as punchout catalogs. They help maintain product information from a third party.
-- **Product attributes**: Product attributes are used to enrich product or service information in Dynamics 365 Commerce and Supply Chain Management.
-- **Product categories**: Product categories are used to help create channel navigation in Dynamics 365 Commerce (for example, for site navigation). You can also use product categories in Dynamics 365 Supply Chain Management to help manage and analyze your spend and revenue across the application.
-- **Product translations**: If you sell or buy products or services in different countries or regions, you can translate your service descriptions. You can also define vendor-specific or customer-specific item numbers. In this way, you help make communication with your customers and vendors easier.
-- **Product templates**: You can use product templates to quickly and easily create new products that have similar information.
+- **Product catalogs**  
+
+  Dynamics 365 Commerce includes catalog features to help manage products in retail channels. Additionally, Dynamics 365 Supply Chain Management includes both internal and external catalogs to help with the procurement process. External catalogs are sometimes referred to as punchout catalogs. They help maintain product information from a third party.
+- **Product attributes**  
+
+  Product attributes are used to enrich product or service information in Dynamics 365 Commerce and Supply Chain Management.
+- **Product categories**  
+
+  Product categories are used to help create channel navigation in Dynamics 365 Commerce (for example, for site navigation). You can also use product categories in Dynamics 365 Supply Chain Management to help manage and analyze your spend and revenue across the application.
+- **Product translations**  
+
+  If you sell or buy products or services in different countries or regions, you can translate your service descriptions. You can also define vendor-specific or customer-specific item numbers. In this way, you help make communication with your customers and vendors easier.
+- **Product templates**  
+
+  You can use product templates to quickly and easily create new products that have similar information.
 
 ## Concept to market business process flow
 
