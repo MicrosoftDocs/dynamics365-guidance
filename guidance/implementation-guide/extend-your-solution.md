@@ -192,7 +192,7 @@ This article describes concepts that are product-agnostic and apply to most onli
 
 Implementations with customer engagement apps bring more capabilities of the Power Platform. [Learn how to extend customer engagement apps](extend-your-solution-guidance-product-ce.md).
 
-You can extend Dynamics 365 Business Central with AppSource apps. [Learn how to extend Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview).
+You can extend Dynamics 365 Business Central with Marketplace apps. [Learn how to extend Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview).
 
 ## Conclusion
 

@@ -83,7 +83,7 @@ You can consider the following general guidelines when you want to find a Dynami
     1. Did they enroll in the Microsoft AI Cloud Partner Program?
 
         This program is a base-level requirement for any partner that wants to use Microsoft Partner services or enroll in Partner programs. Find the review criteria to join the Microsoft AI Cloud Partner Program [here](https://partner.microsoft.com/).
-    1. Do they have [an AppSource listing](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365) live as a Dynamics 365, Dataverse, or Operations offer?  
+    1. Do they have [an Marketplace listing](https://marketplace.microsoft.com/marketplace/apps?product=dynamics-365) live as a Dynamics 365, Dataverse, or Operations offer?  
 
         Find the requirements here:
 
@@ -106,7 +106,7 @@ You can consider the following general guidelines when you want to find a Dynami
 1. Other best practices
 
     1. Obtain customer references
-    1. Review the customer ratings and feedback through sources such as G2 and AppSource
+    1. Review the customer ratings and feedback through sources such as G2 and Marketplace
     1. Perform an independent vetting of the business partner.
 
 ## Next steps

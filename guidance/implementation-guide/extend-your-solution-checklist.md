@@ -24,7 +24,7 @@ content_well_notification: AI-contribution
 | &check; | Make sure that you only extend the solution when it empowers users or adds value to the business. |
 | &check; | Don't try to copy the same results as the legacy solution or the system you're replacing. |
 | &check; | Understand the platform capabilities and use them to simplify and optimize the process. Use the out-of-the-box features as much as possible. |
-| &check; | Check if there are any software development companies that can meet your needs before you decide to extend the solution. The AppSource marketplace has non-Microsoft solutions that might replace the need for a custom solution. |
+| &check; | Check if there are any software development companies that can meet your needs before you decide to extend the solution. The Marketplace has non-Microsoft solutions that might replace the need for a custom solution. |
 
 ## Considerations
 

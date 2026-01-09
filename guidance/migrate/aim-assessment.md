@@ -68,9 +68,9 @@ Used to collect relevant technical information about the CRM on-premises deploym
 
   Scripts to gather data on customers' AX environment and system usage, spotlighting new features and improvements. Automated recommendations and resources based on module and functionality used.
 
-- [Partner-provided assessment tools](https://appsource.microsoft.com/) 
+- [Partner-provided assessment tools](https://marketplace.microsoft.com/) 
 
-  Find more assessment tools for other on-premises solutions on Microsoft AppSource. Choose **Consulting Services**, Dynamics 365, and choose the relevant product. Then, enter **migration** in the search field. To get an overview of **assessments**, go to **Service Type**, and then choose **assessment**.
+  Find more assessment tools for other on-premises solutions on Microsoft Marketplace. Choose **Consulting Services**, Dynamics 365, and choose the relevant product. Then, enter **migration** in the search field. To get an overview of **assessments**, go to **Service Type**, and then choose **assessment**.
 
 [!INCLUDE [migrate-aim-contact-partner](../includes/migrate-aim-contact-partner.md)]
 

@@ -154,7 +154,7 @@ The format is the following structure:
 > Verb + noun pair + using *product (deployment mode)* for *an industry* with an externally-provided solution
 
 > [!NOTE]
-> The deployment mode is only required for Dynamics 365 Project Operations. A pattern should always indicate which products are used. A scenario can optionally include an industry and/or a partner-provided solution. Partner-provided solutions can only be used when the solution is available in AppSource or Azure Marketplace.
+> The deployment mode is only required for Dynamics 365 Project Operations. A pattern should always indicate which products are used. A scenario can optionally include an industry and/or a partner-provided solution. Partner-provided solutions can only be used when the solution is available in the Microsoft Marketplace.
 
 ### Examples of scenarios
 

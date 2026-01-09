@@ -86,7 +86,7 @@ The structure of a business process pattern article includes several key section
 
 Once your pattern is fully authored, the next step is to submit it for review and publishing. This involves using the business process catalog's submission process, where your pattern is reviewed, possibly revised, and eventually published for the broader community to use. It's important to ensure that all required fields are filled out accurately and that any examples or other resources are correctly linked.
 
-Moreover, for those contributing patterns that involve solutions from software development companies, it's important to include a link to the AppSource app along with the necessary disclaimers. Differentiating your solution within the context of the pattern is crucial, as multiple contributors  might submit similar patterns with different solutions.
+Moreover, for those contributing patterns that involve solutions from software development companies, it's important to include a link to the Marketplace app along with the necessary disclaimers. Differentiating your solution within the context of the pattern is crucial, as multiple contributors  might submit similar patterns with different solutions.
 
 ### Why it matters
 

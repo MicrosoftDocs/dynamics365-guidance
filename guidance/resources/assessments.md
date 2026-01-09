@@ -53,9 +53,9 @@ The following assessments can help sales and technical presales teams determine 
 - [Dynamics 365 finance and operations presales excellence](/assessments/bcb90547-d75e-47cd-b133-4c5340e68fc2/)  
 
   This assessment helps partner sales and technical presales teams determine effective sales methods. It provides guidance, including training, templates, presales collateral, and other resources.  
-- [Dynamics 365 finance and operations AppSource publication excellence](/assessments/b8f27ff4-1ce1-4a80-a808-5d377fc15020/)  
+- [Dynamics 365 finance and operations Marketplace publication excellence](/assessments/b8f27ff4-1ce1-4a80-a808-5d377fc15020/)  
 
-  This assessment covers checklists, guidance, and tips for app builders to publish and update their solutions on AppSource and maximizing the benefits of the marketplace ecosystem. The assessment also provides guidance on how to set up the app for co-sell readiness, prioritization, and keeping them aligned with Microsoft updates.  
+  This assessment covers checklists, guidance, and tips for app builders to publish and update their solutions on Marketplace and maximizing the benefits of the marketplace ecosystem. The assessment also provides guidance on how to set up the app for co-sell readiness, prioritization, and keeping them aligned with Microsoft updates.  
 
 ## Next steps
 

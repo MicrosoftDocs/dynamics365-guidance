@@ -29,7 +29,7 @@ The following table shows some of the tools that you can use for regression test
 
 Learn more about each tool:
 
-- [TheTestMart](https://appsource.microsoft.com/en-US/product/dynamics-365-for-operations/360testinglimited1633924951153.the-test-mart?tab=Overview)  
+- [TheTestMart](https://marketplace.microsoft.com/en-US/product/dynamics-365-for-operations/360testinglimited1633924951153.the-test-mart?tab=Overview)  
 
   TheTestMart is a cloud-based code-free test automation platform that focuses on scaling up automation coverage and productivity across  core business platforms by applying command-driven techniques.  
 - [Alithya Rapid QA](https://marketplace.microsoft.com/en-us/product/saas/fullscope.rapid_qa?tab=Overview)
@@ -57,7 +57,7 @@ Learn more about each tool:
 - [Tricentis Tosca](https://azuremarketplace.microsoft.com/marketplace/apps/tricentis.testing_sap_automation_oracle_devops?tab=Overview)  
 
   Tricentis Tosca helps enterprises plan, construct, stabilize, and execute resilient automated regression tests for Microsoft Dynamics 365 apps.  
-- [Executive Automats 365](https://appsource.microsoft.com/en-US/product/SaaS/xplus_sa.xpl_executiveautomats)  
+- [Executive Automats 365](https://marketplace.microsoft.com/en-US/product/SaaS/xplus_sa.xpl_executiveautomats)  
 
   Executive Automats 365 from XPLUS SA allows you to significantly shorten the test procedure and increase its accuracy. Executive Automats 365 offers fully repeatable, customizable, 100% codeless, and cross-platform testing that translates into tangible benefits for the company.  
 
