@@ -126,7 +126,7 @@ Before deciding to extend a component, developers and administrators must famili
 - [Extensibility home page](/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-home-page)
 - [Application stack and server architecture](/dynamics365/fin-ops-core/dev-itpro/dev-tools/application-stack-server-architecture)
 - [Microsoft Power Platform integration with Finance and Operations](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview)
-- [The Microsoft commercial marketplace](https://appsource.microsoft.com/)
+- [The Microsoft commercial marketplace](https://marketplace.microsoft.com/)
 - [Commerce for IT pros and developers](/dynamics365/commerce/dev-itpro/dev-retail-home-page)
 - [Write extensible code](/dynamics365/fin-ops-core/dev-itpro/extensibility/writing-extensible-code)
 - [Breaking changes](/dynamics365/fin-ops-core/dev-itpro/extensibility/breaking-changes)

@@ -36,7 +36,7 @@ The Inventory On-hand mobile app brings a suite of new functionalities designed 
 
 :::image type="content" source="media\inventory-on-hand-mobile-management-3.svg" alt-text="Screenshot of the Install the mobile app in Databerse for your company presentation slide." lightbox="media\inventory-on-hand-mobile-management-3.svg":::
 
-Integrating the Inventory On-hand mobile app into your Dynamics 365 environment is a seamless process, thanks to its built-in compatibility with the Dataverse. Users can effortlessly install the app from AppSource, ensuring a smooth synchronization with their existing data in Dynamics 365. This integration not only enhances the user experience but also maintains the integrity and security of inventory data across the platform.
+Integrating the Inventory On-hand mobile app into your Dynamics 365 environment is a seamless process, thanks to its built-in compatibility with the Dataverse. Users can effortlessly install the app from Marketplace, ensuring a smooth synchronization with their existing data in Dynamics 365. This integration not only enhances the user experience but also maintains the integrity and security of inventory data across the platform.
 
 ## Empowering users with flexibility and control
 

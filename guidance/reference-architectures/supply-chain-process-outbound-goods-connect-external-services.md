@@ -126,7 +126,7 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 
 The cost is equivalent to a standard Dynamics 365 implementation project including Azure Integration Services plus the cost of the external API calls to the external applications. These platforms normally offer costs per usage, and it depends on the quantity of data transactions you have with them.
 
-You can find EDI platform software companies on Azure AppSource. This reference architecture is EDI partner agnostic.
+You can find EDI platform software companies on the Microsoft Marketplace. This reference architecture is EDI partner agnostic.
 <!-- 
 ## Tags
 

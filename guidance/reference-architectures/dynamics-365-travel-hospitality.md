@@ -104,11 +104,11 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 
 The cost is equivalent to a standard Dynamics 365 project including Sales/Customer Service and Marketing plus the cost of the external API calls to the Travel and Hospitality platform and the Data Quality Management platform. These platforms normally offer costs per usage and it depends on the quantity of data transaction you'll have with them.
 
-Many of these platforms have existing AppSource solutions:
+Many of these platforms have existing Marketplace solutions:
 
-[Microsoft AppSource Hospitality Applications](https://appsource.microsoft.com/marketplace/apps?search=hospitality&page=1)
+[Microsoft Marketplace Hospitality Applications](https://marketplace.microsoft.com/marketplace/apps?search=hospitality&page=1)
 
-[Microsoft AppSource DQM Applications](https://appsource.microsoft.com/marketplace/apps?search=dqm&page=1)
+[Microsoft Marketplace DQM Applications](https://marketplace.microsoft.com/marketplace/apps?search=dqm&page=1)
 
 <!--
 

@@ -59,7 +59,7 @@ Additionally, the viewer includes real-time error notifications and warnings, pr
 
 ## Deployment and configuration
 
-Deploying the invoice capture solution in Dynamics 365 is straightforward, but there are some prerequisites. First, businesses must ensure that their version of Finance meets specific requirements and that their environment is integrated with the Power Platform. The invoice capture solution is available for installation through AppSource, and once installed, users can begin configuring it to meet their business needs.
+Deploying the invoice capture solution in Dynamics 365 is straightforward, but there are some prerequisites. First, businesses must ensure that their version of Finance meets specific requirements and that their environment is integrated with the Power Platform. The invoice capture solution is available for installation through Marketplace, and once installed, users can begin configuring it to meet their business needs.
 
 The following image illustrates requirements for deployment and configuration, specifically for preparing environments in Dynamics 365 Finance and the integration with Power Platform.
 
