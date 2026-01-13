@@ -369,10 +369,16 @@ items:
                     href: business-processes/about-import-catalog-devops.md
                   - name: Work item types in Azure DevOps
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
-                  - name: Manage updates to the catalog in Azure DevOps
-                    href: business-processes/about-import-catalog-devops-updates.md
+                  - name: Deliverables work item types in Azure DevOps
+                    href: business-processes/about-devops-work-items-deliverables.md
                   - name: Other work items types in the template
                     href: business-processes/about-devops-work-items-other.md
+                  - name: Workshop work item type in Azure DevOps
+                    href: business-processes/about-import-catalog-devops-workshop-work-item-type.md
+                  - name: Manage updates to the catalog in Azure DevOps
+                    href: business-processes/about-import-catalog-devops-updates.md
+                  - name: Reference for fields on work items
+                    href: business-processes/about-devops-work-items-deliverables-fields.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Import the catalog to Mavim overview
@@ -397,6 +403,8 @@ items:
                     href: implementation-guide/process-focused-solution-define-requirements.md
               - name: Learn about process maturity
                 href: business-processes/process-maturity-introduction.md
+              - name: Use the catalog to drive workshops
+                href: business-processes/about-workshops.md
               - name: Standardize business processes during an implementation
                 href: business-processes/standardize-business-processes.md
               - name: Map departments and business processes

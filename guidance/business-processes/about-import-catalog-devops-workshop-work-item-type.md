@@ -4,7 +4,7 @@ description: Track the work needed for workshops in your Dynamics 365 implementa
 author: edupont04
 ms.author: edupont
 ms.topic: concept-article
-ms.date: 06/11/2025
+ms.date: 01/07/2026
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
@@ -61,4 +61,5 @@ Find the related articles here:
 
 - [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md)  
 - [Custom work item type for processes in the Dynamics 365 business process catalog](about-import-catalog-devops-process-work-item-types.md)  
-- [Custom work item type for configuration deliverables in the Dynamics 365 business process catalog](about-import-catalog-devops-configuration-deliverable-work-item-type.md)
+- [Custom work item type for configuration deliverables in the Dynamics 365 business process catalog](about-import-catalog-devops-configuration-deliverable-work-item-type.md)  
+- [Workshop preparation for Dynamics 365 implementation projects](about-workshops.md)  

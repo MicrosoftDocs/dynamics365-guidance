@@ -4,7 +4,7 @@ description: What's new or changed in the December 2025 version of the business 
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 12/09/2025
+ms.date: 01/07/2026
 ms.topic: concept-article
 ---
 
@@ -131,12 +131,14 @@ This release adds a dedicated **Jobs** work item type to the Deliverables tree, 
 > [!NOTE]
 > These entries represent jobs in finance and operations apps, such as [batch jobs](/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) or [scheduled tasks](/dynamics365/supply-chain/production-control/job-scheduling). They don't represent jobs in Dynamics 365 Business Central that are now [projects](/dynamics365/business-central/projects-manage-projects).
 
-
 ## Updated Business Central scenarios
 
 We removed erroneous descriptions for 35 Business Central scenarios in *Project to Profit*. We also updated five Business Central-related scenarios that had mismatched values in the **Process Sequence ID** field. Thank you, Marcin, for submitting these issues and collaborating to ensure the catalog is accurate.
 
 ## Related information
 
+- [Overview of the business process catalog levels](about-catalog-levels.md)  
+- [Other work item types in the business process catalog](about-devops-work-items-other.md)  
+- [Workshop preparation for Dynamics 365 implementation projects](about-workshops.md)  
 - [What's new or changed in the business process catalog](about-whats-new.md)  
 - [About the business process catalog for Dynamics 365 apps and services](about.md)  
