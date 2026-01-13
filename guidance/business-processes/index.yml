@@ -8,7 +8,7 @@ metadata:
   description: Get an overview of common work scenarios that organizations often look for in business solutions. Here, we list the end-to-end scenarios that Dynamics 365 supports out-of-the-box,.
   author: edupont04
   ms.author: edupont
-  ms.date: 05/02/2023
+  ms.date: 01/08/2026
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -38,6 +38,8 @@ landingContent:
         url: standardize-business-processes.md
       - text: Map of business processes and typical requests
         url: about-processes-solution-plays.md
+      - text: Use the catalog to drive workshops
+        url: about-workshops.md
       - text: Import the catalog to Azure DevOps
         url: about-import-catalog-devops.md
       - text: Import the catalog to Mavim
@@ -46,8 +48,6 @@ landingContent:
       links:
       - text: What's new or changed in the business process catalog
         url: about-whats-new.md
-      - text: August 2025
-        url: about-whats-new-2025-august.md
 
 # Card
   - title: Primary processes

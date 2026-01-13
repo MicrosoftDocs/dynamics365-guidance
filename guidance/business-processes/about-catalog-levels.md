@@ -4,7 +4,7 @@ description: Dive into the structured hierarchy of the business process catalog,
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 12/10/2025
+ms.date: 01/12/2026
 ms.topic: concept-article
 ---
 
@@ -32,13 +32,13 @@ The following list provides a few examples of this level of the business process
 
 The following table outlines key properties of an end-to-end process.
 
-|Property|Description  |
-|---------|---------|
-|Comprehensive  |An end-to-end process covers the entire lifecycle of a business operation.|
-|Cross-functional |An end-to-end process involves multiple departments or functions.|
-|Outcome-oriented |An end-to-end process focuses on delivering a specific business outcome.|
+| Property | Description |
+| --------- | --------- |
+| Comprehensive | An end-to-end process covers the entire lifecycle of a business operation. |
+| Cross-functional | An end-to-end process involves multiple departments or functions. |
+| Outcome-oriented | An end-to-end process focuses on delivering a specific business outcome. |
 
-## What an end-to-end process isn't
+### What an end-to-end process isn't
 
 The following list outlines what an end-to-end process isn't.
 

@@ -4,7 +4,7 @@ description: Track your implementation of business process scenarios in your Dyn
 author: edupont04
 ms.author: edupont
 ms.topic: concept-article 
-ms.date: 12/10/2025
+ms.date: 01/12/2026
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-description
@@ -27,23 +27,23 @@ Learn more at [Overview of the business process catalog levels](about-catalog-le
 
 The tree is organized into six levels with increasing granularity:
 
-- **Level 1 – end-to-end processes:** Broad business capabilities such as [Order to Cash](order-to-cash-overview.md) or [Source to Pay](source-to-pay-overview.md).
+- **Level 1 – end-to-end processes**: Broad business capabilities such as [Order to Cash](order-to-cash-overview.md) or [Source to Pay](source-to-pay-overview.md).
 
-- **Level 2 – process areas:** Logical groupings within an end-to-end process, such as*Manage Sales Orders*.
+- **Level 2 – process areas**: Logical groupings within an end-to-end process, such as [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md).
 
-- **Level 3 – business processes:** Specific functions that describe what the business does, system-agnostic and reusable across industries.
+- **Level 3 – business processes**: Specific functions that describe what the business does, system-agnostic and reusable across industries, such as [Process supplier rebates and incentives](source-to-pay-process-vendor-rebates-incentives-overview.md).
 
-- **Level 4 – scenarios or patterns:** Variations of processes for different industries or solution approaches.
+- **Level 4 – scenarios or patterns**: Variations of processes for different industries or solution approaches, such as *Manage supplier prepayments in Dynamics 365 Finance* or *Create a prepayment on a purchase order in Dynamics 365 Business Central*.
 
-- **Level 5 – system processes:** Detailed steps tied to specific forms or pages in Dynamics 365.
+- **Level 5 – system processes**: Detailed steps tied to specific forms or pages in Dynamics 365, such as *Create vendor prepayment using payment journal* for the steps in Dynamics 365 Finance or *Create prepayment invoices* for the steps in Dynamics 365 Business Central.
 
-- **Level 6 – test cases:** Actions for validating functionality during testing phases.
+- **Level 6 – test cases**: Actions for validating functionality during testing phases.
 
 This layered structure ensures that projects can start at a high level and drill down to detailed, actionable items as needed. Learn more at [Overview of the business process catalog levels](about-catalog-levels.md).  
 
 ## Using the tree in Azure DevOps
 
-In Azure DevOps, you implement the catalog tree through custom work item types that mirror these levels. Each level corresponds to a work item type, such as **end-to-end**, **Process Area**, **Business Process**, and **Scenario**, and links hierarchically to maintain traceability. This structure enables teams to manage scope, track progress, and align deliverables with business objectives. By importing the catalog into Azure DevOps, your organization gains a standardized framework for planning, fit/gap analysis, and execution. It also supports integration with testing tools like RSAT, ensuring that processes documented in the tree flow seamlessly into test cases and quality assurance activities.
+In Azure DevOps, you implement the catalog tree through custom work item types that mirror these levels. Each level corresponds to a work item type, such as **End to end**, **Process Area**, **Business Process**, and **Scenario**, and links hierarchically to maintain traceability. This structure enables teams to manage scope, track progress, and align deliverables with business objectives. By importing the catalog into Azure DevOps, your organization gains a standardized framework for planning, fit/gap analysis, and execution. It also supports integration with testing tools like RSAT, ensuring that processes documented in the tree flow seamlessly into test cases and quality assurance activities.
 
 One of the primary functions of this tree is to define project scope. By mapping all business processes and their variations into a structured hierarchy, the catalog provides a clear view of what is in scope for the implementation. This view helps stakeholders agree on boundaries early in the project, reduces ambiguity, and ensures that any gaps or enhancements are identified and managed systematically. Scope definition at this level also supports governance and change control, as you can trace any additions or modifications back to specific processes and their related work items.
 

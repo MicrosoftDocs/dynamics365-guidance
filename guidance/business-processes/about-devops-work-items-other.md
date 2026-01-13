@@ -4,7 +4,7 @@ description: Discover how the Azure DevOps template supports structured project 
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 12/19/2025
+ms.date: 01/07/2026
 ms.topic: concept-article
 ---
 
@@ -423,16 +423,16 @@ Here's an example of a status report: *Steering committee status report*
 
 The following fields are recommended for the **Status Report** work item type and included by default in the Azure DevOps template for the business process catalog:
 
-|Name  |Description  |
-|---------|---------|
-|Title| Display name of the status report, such as *Week 47 Status Report*.|
-|Reporting Period|Start and end dates.|
-|Summary| Narrative of progress and outlook.|
-|KPIs| Quantitative indicators (% completion, defect counts).|
-|Risks / Issues / Decisions|Highlights by category.|
-|Next Steps| Planned actions for upcoming period.|
-|Status| Current state (Draft, Published, Archived).|
-|Tags| Labels for capability, phase, priority classification.|
+| Name | Description |
+| -- | -- |
+| Title | Display name of the status report, such as *Week 47 Status Report*. |
+| Reporting Period | Start and end dates. |
+| Summary | Narrative of progress and outlook. |
+| KPIs | Quantitative indicators (% completion, defect counts). |
+| Risks / Issues / Decisions | Highlights by category. |
+| Next Steps | Planned actions for upcoming period. |
+| Status | Current state (Draft, Published, Archived). |
+| Tags | Labels for capability, phase, priority classification. |
 
 When users create new work items based on this work item type, recommend that they also take the following steps:
 

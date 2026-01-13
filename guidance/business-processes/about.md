@@ -4,7 +4,7 @@ description: Learn about the business process catalog for Dynamics 365 apps, wha
 author: edupont04
 ms.author: edupont
 ms.topic: concept-article
-ms.date: 12/16/2025
+ms.date: 01/08/2026
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -58,12 +58,12 @@ When you download the business process catalog, you'll find each entry assigned 
 
 For example, let's look at the *administer to operate* end-to-end scenario. The following table provides a quick introduction to how IDs are generated based on four entries in the business process catalog from December 2025.
 
-|Level  |ID  |Description  |
-|---------|---------|---------|
-|End-to-end scenario | 99 | ID for the end-to-end scenario, *administer to operate*. |
-|Business process areas overview |99.10 |ID for the business process area *Define business continuity plan* that is part of the *administer to operate* end-to-end scenario. |
-|Business process |99.10.010  |ID for the business process *Define business continuity objectives* that is part of the *Define business continuity plan* business process area. |
-|Scenario |99.10.010.100|ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
+| Level | ID | Description |
+| -- | -- | -- |
+| End-to-end scenario | 99 | ID for the end-to-end scenario, *administer to operate*. |
+| Business process areas overview | 99.10 | ID for the business process area *Define business continuity plan* that is part of the *administer to operate* end-to-end scenario. |
+| Business process | 99.10.010 | ID for the business process *Define business continuity objectives* that is part of the *Define business continuity plan* business process area. |
+| Scenario | 99.10.010.100 | ID for the pattern *Understand Dynamics 365 RTO and RPO* that is part of the *Define business continuity objectives* business process. |
 
 The IDs of the end-to-end scenarios are similar to the Standard Industrial Classification (SIC) codes that the U.S. government assigns to business establishments to identify the primary business of the establishment. The first two digits of a SIC code defines the major industry group that a business belongs to. Learn more at [What is a SIC Code?](https://siccode.com/page/what-is-a-sic-code).
 
@@ -74,6 +74,8 @@ But an end-to-end scenario can apply to businesses across two or more industries
 ## Use the catalog
 
 You can use Microsoft's business process catalog as a template that you import into a project in Azure DevOps Services to manage your Dynamics 365 implementation project. You can also import the catalog into Mavim, for example. Learn more at [Use the business process catalog as a template in Azure DevOps Services](about-import-catalog-devops.md) and [Import the business process catalog in Mavim using a Power Automate flow](about-import-catalog-mavim.md), respectively.
+
+You can also use the catalog to drive workshops to discover requirements for the particular implementation project. Learn more at [Workshops for Dynamics 365 implementation projects](about-workshops.md).  
 
 ## Get notified about changes through an RSS feed
 
@@ -97,4 +99,5 @@ Learn more at [External contributions to Microsoft's documentation](/dynamics365
 - [Import the business process catalog in Mavim using a Power Automate flow](about-import-catalog-mavim.md)  
 - [Learn about process maturity](process-maturity-introduction.md)  
 - [Standardize business processes during a Dynamics 365 implementation](standardize-business-processes.md)  
+- [Workshops for Dynamics 365 implementation projects](about-workshops.md)  
 - [Overview of end-to-end scenarios and business processes in Dynamics 365](overview.md)  
