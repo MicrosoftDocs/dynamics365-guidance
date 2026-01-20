@@ -7,7 +7,7 @@ metadata:
   description: Find tools and guidance to help you build apps and services with Dynamics 365 and Power Platform.
   author: edupont04
   ms.author: edupont
-  ms.date: 07/15/2025
+  ms.date: 01/16/2026
   ms.topic: landing-page # DON'T CHANGE
   ms.subservice: guidance
   ms.service: dynamics-365
@@ -47,12 +47,14 @@ landingContent:
         url: ../implementation-guide/implementing-cloud-solutions-case-study.md
 
 # Card AI
-  - title: Copilot and AI
+  - title: AI apps and agents
     linkLists:
     - linkListType: get-started
       links:
       - text: Copilot for software companies
         url: /collections/penzt16genw8jx
+      - text: Microsoft Copilot Studio Handbook
+        url: https://aka.ms/mcs-isvhandbook
 
 # Card extend your solution
   - title: Extend Dynamics 365
