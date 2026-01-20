@@ -1194,6 +1194,8 @@ items:
                 href: reference-architectures/sales-reliable-data-sync-asynchronous-request-reply.md
               - name: Unified CRM solution
                 href: reference-architectures/sales-customer-insights-customer-service-crm-system.md
+              - name: Architecture for Sales Qualification Agent
+                href: reference-architectures/sales-qualification-agent.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
