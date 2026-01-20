@@ -2,7 +2,7 @@
 title: Develop a procurement and sourcing strategy overview
 description: Learn about the Develop a procurement and sourcing strategy business process area, including learning about various stakeholder types.
 author: Pjagotra
-ms.author: pjagotra
+ms.author: raprofit
 ms.topic: concept-article
 ms.date: 05/13/2025
 ---

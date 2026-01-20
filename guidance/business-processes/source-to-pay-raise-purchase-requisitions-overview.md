@@ -2,7 +2,7 @@
 title: Raise purchase requisitions overview
 description: Learn about the Raise purchase requisitions business process area, including learning about various stakeholder types.
 author: Pjagotra
-ms.author: pjagotra
+ms.author: raprofit
 ms.topic: concept-article
 ms.date: 04/21/2025
 ---
