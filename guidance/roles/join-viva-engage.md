@@ -19,7 +19,7 @@ The partner communities on Viva Engage provide unique opportunities as a custome
 
 ## How to join the Preview Early Access community
 
-- Visit the [Preview Early Access Viva Engage Community page](https://engage.cloud.microsoft/main/org/microsoft.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMzc5NDE5MzIwMzIifQ) and request to join.
+- Visit the [Preview Early Access Viva Engage Community page](https://aka.ms/finopsvivasignup) and request to join.
 - A Viva Engage administrator reviews the join request and if no concerns, approve. 
 - When your join request is accepted, you'll receive a second email with important instructions to complete the join process; Choose the provided link to fill in a form for the creation of your profile.
 - You're now a member of the *Preview Early Access Viva Engage* community and can begin collaborating right away.
