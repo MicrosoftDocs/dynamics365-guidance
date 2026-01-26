@@ -2,7 +2,7 @@
 title: Show more data and hide the row icon in the mobile app
 description: Learn how to configure a grid to add more fields and remove icons in the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 08/22/2025
+ms.date: 01/26/2026
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -11,7 +11,7 @@ ms.custom:
 
 # Show more data and hide the row icon in the mobile app
 
-Configure the Power Apps Grid control to hide the row icon and increase the number of columns in the mobile app grid. You can also configure the control on subgrids.
+Configure the Power Apps Grid control to hide the row icon, increase the number of columns, and show column labels in the mobile app grid. You can also configure the control on subgrids.
 
 Support more fields so users can access comprehensive information at a glance, cutting down on time-consuming navigation. Streamline visuals by removing unnecessary icons to help workers stay focused on what matters most.
 
@@ -24,6 +24,8 @@ Support more fields so users can access comprehensive information at a glance, c
 1. Scroll to **Number of columns for list view** and adjust the value to the desired number of columns. The default number of columns for a list is three. The maximum number of columns is 10.
 
    :::image type="content" source="media/field-service-mobile-power-apps-grid-control.png" alt-text="Screenshot of the Power Apps grid control properties.":::
+
+1. Scroll to **Show Column Names for List View** and set it to *Yes*.
 
 1. To enhance the mobile experience on iOS devices, consider setting the **Enable multi-select** property to *No*. This configuration ensures that tapping a record initiates navigation rather than selection, reducing confusion and streamlining user interactions.
 
