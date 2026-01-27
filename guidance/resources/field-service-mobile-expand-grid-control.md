@@ -2,7 +2,7 @@
 title: Show more data and hide the row icon in the mobile app
 description: Learn how to configure a grid to add more fields and remove icons in the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 01/26/2026
+ms.date: 01/27/2026
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -19,21 +19,22 @@ Support more fields so users can access comprehensive information at a glance, c
 
 1. In the grid **Properties**, make the control available for mobile devices.
 
-1. Scroll down to **Show avatar** and set it to *No*. The colored circle showing the first letters of the row value is hidden from the list view.
+1. Scroll down and edit the following settings:
 
-1. Scroll to **Number of columns for list view** and adjust the value to the desired number of columns. The default number of columns for a list is three. The maximum number of columns is 10.
+   - **Show avatar**: Set to *No* to hide the colored circle showing the first letters of the row value from the list view.
+
+   - **Show column names for list view**: Set to *Yes* to show column labels before values.
+
+   - **Enable banded rows for list view**: Set to *Yes* to show shading on alternating rows.
+
+   - **Number of columns for list view**: Adjust the value to the desired number of columns. The default number of columns for a list is three. The maximum number of columns is 10.
 
    :::image type="content" source="media/field-service-mobile-power-apps-grid-control.png" alt-text="Screenshot of the Power Apps grid control properties.":::
 
-1. Scroll to **Show Column Names for List View** and set it to *Yes*.
-
-1. To enhance the mobile experience on iOS devices, consider setting the **Enable multi-select** property to *No*. This configuration ensures that tapping a record initiates navigation rather than selection, reducing confusion and streamlining user interactions.
+1. To enhance the mobile experience on iOS devices, consider setting the **Enable multi-select** property to *No*. This configuration ensures that tapping a record navigates to the record rather than selecting the record, reducing confusion and streamlining user interactions. If set to *Yes*, two taps are required to navigate to a record.
 
 1. Save and publish.
 
    :::image type="content" source="media/field-service-mobile-accounts.png" alt-text="Screenshot of the Editing booking calendar control properties in Power Apps.":::
 
 You can also configure the Power Apps Grid control to subgrids within a form. Add the control as a component on the subgrid in the form and then configure it.
-
-:::image type="content" source="media/field-service-mobile-add-power-apps-grid-control.png" alt-text="Screenshot in Power Apps that shows adding the grid control.":::
-
