@@ -35,6 +35,6 @@ Support more fields so users can access comprehensive information at a glance, c
 
 1. Save and publish.
 
-   :::image type="content" source="media/field-service-mobile-accounts.png" alt-text="Screenshot of the Editing booking calendar control properties in Power Apps.":::
+   :::image type="content" source="media/field-service-mobile-contacts.png" alt-text="Screenshot comparison of the Contacts page in the Field Service Mobile app.":::
 
 You can also configure the Power Apps Grid control to subgrids within a form. Add the control as a component on the subgrid in the form and then configure it.
