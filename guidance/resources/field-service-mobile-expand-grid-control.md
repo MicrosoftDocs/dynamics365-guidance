@@ -35,6 +35,6 @@ Support more fields so users can access comprehensive information at a glance, c
 
 1. Save and publish.
 
-   :::image type="content" source="media/field-service-mobile-contacts.png" alt-text="Screenshot of the Contacts page in the Field Service Mobile app showing column names and banded rows.":::
+   <img src="media/field-service-mobile-contacts-old.png" width="200"> <img src="media/field-service-mobile-contacts-new.png" width="200">
 
 You can also configure the Power Apps Grid control to subgrids within a form. Add the control as a component on the subgrid in the form and then configure it.
