@@ -67,6 +67,6 @@ Agent answering after-hours calls, responding to chat and emails using AI to ass
 
 ## Related content
 
-- [Service agent templates overview](../service-agent-templates.md)
+- [Service agent templates overview](./service-agent-templates.md)
 - [Dynamics 365 Customer Service overview](/dynamics365/customer-service/overview)
 - [Microsoft Copilot Studio documentation](/microsoft-copilot-studio/)
