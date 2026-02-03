@@ -1206,6 +1206,8 @@ items:
                 href: reference-architectures/supply-chain-external-wms-item-balance-architecture.md
               - name: BOPIS architecture with Dynamics 365
                 href: reference-architectures/supply-chain-commerce-bopis-architecture.md
+              - name: Message-based integration of Supply Chain Management with a telematics solution
+                href: reference-architectures/supply-chain-message-based-integration-telematics-solution.md
           - name: Healthcare write-back identifiers to FHIR server
             href: reference-architectures/healthcare-writeback-dynamics-365-identifiers-fhir-server.md
           - name: Dataverse as master data system

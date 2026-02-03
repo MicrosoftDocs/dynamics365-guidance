@@ -4,12 +4,12 @@ description: Learn how to navigate the business process catalog in Mavim to enha
 author: vibhutinair23
 ms.author: vibhutinair
 ms.topic: how-to
-ms.date: 07/17/2025
+ms.date: 02/03/2026
 ---
 
 # Navigate the business process catalog in Mavim
 
-This article describes how to easily navigate up and down through the different levels of processes in the business process catalog in Mavim, an external software company. Find the Mavim solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/mavimbv1671629332610.mavim_bpm?tab=Overview).
+This article describes how to easily navigate up and down through the different levels of processes in the business process catalog in Mavim, an external software company. Find the Mavim solution in the [Azure Marketplace](https://marketplace.microsoft.com/en-us/product/mavimbv1671629332610.mavim_bpc_freetrial?tab=Overview).
 
 ## Use the business process catalog in Mavim during the Strategize phase
 
@@ -41,10 +41,10 @@ Before you begin, you must have the following prerequisites:
 
 - You must have access to the Mavim BPM tool.
 - Import the business process catalog for Dynamics 365 into your Mavim environment.
-  - To gain access to the free-trial environment already built, go to [Free Trial of the business process catalog in Mavim](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/mavimbv1671629332610.mavim_bpc_freetrial?tab=Overview).
+  - To gain access to the free-trial environment already built, go to [Free Trial of the business process catalog in Mavim](https://marketplace.microsoft.com/en-us/product/mavimbv1671629332610.mavim_bpc_freetrial?tab=Overview).
   - To learn how to connect the two, learn more at [Import the Catalog in Mavim using a Power Automate Flow](/dynamics365/guidance/business-processes/about-import-catalog-mavim).
 
-:::image type="content" source="media/about-catalog-mavim-business-process-catalog.svg" alt-text="Diagram of the Dynamics 365 Business Process Catalog, showing the various business processes." lightbox="media/about-catalog-mavim-business-process-catalog.svg":::
+:::image type="content" source="media/about-catalog-mavim-business-process-catalog.svg" alt-text="Diagram of the business process catalog in Mavim with the end-to-end scenarios on the left side and Source-to-pay on the right side." lightbox="media/about-catalog-mavim-business-process-catalog.svg":::
 
 To navigate the business process catalog in Mavim, follow these steps:
 
