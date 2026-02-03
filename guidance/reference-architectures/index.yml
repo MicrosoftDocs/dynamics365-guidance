@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 11/04/2025
+  ms.date: 02/03/2026
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -106,6 +106,8 @@ landingContent:
         url: supply-chain-process-outbound-goods-connect-external-services.md
       - text: Integrate Dynamics 365 Supply Chain Management with an external warehouse management system
         url: supply-chain-external-wms-item-balance-architecture.md
+      - text: Integrate Dynamics 365 Supply Chain Management with a telematics solution
+        url: supply-chain-message-based-integration-telematics-solution.md
 
 # Card - Finance
 
