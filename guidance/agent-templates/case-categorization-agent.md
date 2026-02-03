@@ -1,8 +1,8 @@
 ---
 title: "Case Categorization & Enrichments Agent"
 description: "Automatically extract information from customer interactions and populate case fields with AI-predicted values"
-author: "Microsoft"
-ms.date: 2/2/2026
+author: aloking
+ms.date: 02/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-customer-service
 ---
@@ -66,6 +66,6 @@ Leverages generative AI to automatically extract, predict, and populate case fie
 
 ## Related content
 
-- [Service agent templates overview](../service-agent-templates.md)
+- [Service agent templates overview](service-agent-templates.md)
 - [Dynamics 365 Customer Service overview](/dynamics365/customer-service/overview)
 - [Microsoft Copilot Studio documentation](/microsoft-copilot-studio/)

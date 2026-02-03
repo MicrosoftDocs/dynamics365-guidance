@@ -2,7 +2,7 @@
 title: "Dynamics 365 Agent Templates Overview"
 description: "Organizations can accelerate adoption of AI Agents by deploying pre-built, templated agents designed around high-value, repeatable use cases"
 author: "aloking"
-ms.date: 2/2/2026
+ms.date: 02/03/2026
 ms.topic: concept-article
 ms.service: dynamics-365
 ---

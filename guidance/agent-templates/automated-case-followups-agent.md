@@ -1,8 +1,8 @@
 ---
 title: "Automated Case Follow-ups Agent"
 description: "Reduce manual communication overhead with automatic follow-up tracking and email generation"
-author: "Microsoft"
-ms.date: 2/2/2026
+author: aloking
+ms.date: 02/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-customer-service
 ---
@@ -57,6 +57,6 @@ Agent autonomously monitors cases matching configured conditions and sends perio
 
 ## Related content
 
-- [Service agent templates overview](../service-agent-templates.md)
+- [Service agent templates overview](service-agent-templates.md)
 - [Dynamics 365 Customer Service overview](/dynamics365/customer-service/overview)
 - [Microsoft Copilot Studio documentation](/microsoft-copilot-studio/)

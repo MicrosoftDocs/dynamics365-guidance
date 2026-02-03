@@ -1,8 +1,8 @@
 ---
 title: "Automate Routine Queries Agent"
 description: "Reduce contact center costs with intelligent self-service AI agents that handle routine inquiries"
-author: "Microsoft"
-ms.date: 2/2/2026
+author: aloking
+ms.date: 02/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-customer-service
 ---
@@ -69,6 +69,6 @@ Microsoft Copilot Studio creates conversational AI agents handling common inquir
 
 ## Related content
 
-- [Service agent templates overview](../service-agent-templates.md)
+- [Service agent templates overview](service-agent-templates.md)
 - [Dynamics 365 Customer Service overview](/dynamics365/customer-service/overview)
 - [Microsoft Copilot Studio documentation](/microsoft-copilot-studio/)

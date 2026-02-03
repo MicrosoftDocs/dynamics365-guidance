@@ -1,8 +1,8 @@
 ---
 title: "After Hours Service Agent"
 description: "Provide 24/7 customer support while protecting on-call engineers from unnecessary interruptions"
-author: "Microsoft"
-ms.date: 2/2/2026
+author: aloking
+ms.date: 02/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-customer-service
 ---

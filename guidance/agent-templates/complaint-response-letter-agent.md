@@ -1,8 +1,8 @@
 ---
 title: "Generate Customer Response Letter Agent"
 description: "Automate complaint First Response Letter generation and reduce drafting time by 70%"
-author: "Microsoft"
-ms.date: 2/2/2026
+author: aloking
+ms.date: 02/03/2026
 ms.topic: how-to
 ms.service: dynamics-365-customer-service
 ---
@@ -63,6 +63,6 @@ Generative AI agent automatically drafts First Response Letters by extracting an
 
 ## Related content
 
-- [Service agent templates overview](../service-agent-templates.md)
+- [Service agent templates overview](service-agent-templates.md)
 - [Dynamics 365 Customer Service overview](/dynamics365/customer-service/overview)
 - [Microsoft Copilot Studio documentation](/microsoft-copilot-studio/)
