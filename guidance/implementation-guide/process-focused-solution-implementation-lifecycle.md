@@ -1,7 +1,7 @@
 ---
 title: Base the implementation lifecycle on processes
 description: Learn how to use the Success by design framework to make your implementation lifecycle process-centric by focusing on business processes.
-ms.date: 01/07/2025
+ms.date: 02/03/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 # Base the implementation lifecycle on your business processes
 
-A process-focused solution helps you define, design, build, test, and support your Dynamics 365 implementation with your end-to-end business processes as the framework. Processes are the way you deliver value to your customers and achieve your business goals. By using a process-focused approach, you can create a solution that reflects and improves your business operations, regardless of the underlying methodology.
+A process-focused solution helps you define, design, build, test, and support your Dynamics 365 implementation with end-to-end business processes as the framework. Processes are the way you deliver value to your customers and achieve your business goals. By using a process-focused approach, you can create a solution that reflects and improves your business operations, regardless of the underlying methodology.
 
 The [Success by design](success-by-design.md) framework outlines the phases of the implementation lifecycle and shows how to use your business processes throughout the phases to ensure a successful outcome.
 
@@ -40,9 +40,9 @@ Use process mapping to create visual representations of your processes. Start by
 Collect and organize your processes in a process catalog. The process catalog is a structured and hierarchical list of your processes. Number, label, and reference your processes in the catalog. Group your processes by business value streams, departments, roles, or functions. This helps you define the process taxonomy or structure.
 
 > [!TIP]
-> The business process catalog includes a structure and hundreds of business processes by default. When you use the Azure DevOps template for the catalog, Demo Deliverable work items are included by default which are tools that can be leveraged to learn about new features and see demonstrations of standard functionality.
+> The business process catalog includes a structure and hundreds of business processes by default. When you use the Azure DevOps template for the catalog, Demo Deliverable work items are included by default which are tools that can be leveraged to learn about new features and see demonstrations of standard functionality. Learn more at [Use the business process catalog as a template in Azure DevOps Services](../business-processes/about-import-catalog-devops.md).
 
-The process catalog helps you:
+The business process catalog helps you:
 
 - Express your project goals and vision in the natural language of your business.
 - Provide a skeleton and structure for your project scope and plan.
@@ -143,3 +143,5 @@ After you go live, use your processes to **support and maintain** your solution.
 - [Test your Dynamics 365 solution before deployment](testing-strategy.md)
 - [Prepare for go-live](prepare-to-go-live.md)
 - [Standardize business processes during an implementation](../business-processes/standardize-business-processes.md)  
+- [Map of business processes and requests from customers](../business-processes/about-processes-solution-plays.md)  
+- [Map of business processes and a product-centric manufacturing journey](../business-processes/about-product-centric-manufacturing-journey.md)  

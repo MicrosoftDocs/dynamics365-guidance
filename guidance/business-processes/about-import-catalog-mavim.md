@@ -1,25 +1,25 @@
 ---
 title: Import the business process catalog in Mavim using a Power Automate flow
-description: Learn how you can use Microsoft's business process catalog in Mavim, an independent software vendor found on the Azure Marketplace.
+description: Learn how you can use Microsoft's business process catalog in Mavim, a business process management service that you can find in the Microsoft Marketplace.
 author: dereklh77
 ms.author: edupont
 ms.topic: how-to
-ms.date: 10/15/2024
+ms.date: 01/30/2026
 ---
 
 # Import the business process catalog in Mavim using a Power Automate flow
 
-This article describes how to use Microsoft's business process catalog in the platform Mavim, an independent software vendor. Find the Mavim solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/mavimbv1671629332610.mavim_bpm?tab=Overview).
+This article describes how to use Microsoft's business process catalog in Mavim, a business process management platform that you can find in the [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_bpm?tab=Overview).
 
 The business process catalog defines workflows, protocols, and procedures as a base line for process-driven Dynamics 365 implementations. However, capturing and managing such a vast array of business processes manually often leads to issues. Such issues might include inefficiencies, inconsistencies, and difficulties in maintaining alignment with organizational goals and standards. Traditional methods often lack integration, version control, and collaboration capabilities. Keeping documentation up to date and accessible to relevant stakeholders is challenging as a result.
 
-In this context, use Mavim to capture the business process catalog.
+In this context, use Mavim to visualize and customize the business process catalog.
 
 Mavim offers a comprehensive solution tailored to address the complexities of managing business processes. Its advanced features align perfectly with the needs of capturing the business process catalog:
 
 1. **Centralized process repository**: Mavim provides a centralized repository for storing, organizing, and accessing the business process catalog, ensuring consistency and accessibility across the organization.
 
-2. **Integration with Microsoft ecosystem**: Mavim seamlessly integrates with Microsoft applications like Dynamics 365, Copilot, SharePoint, Office 365, DevOps, and Visio. Mavim applies the capture and visualization of business processes within familiar environments.
+2. **Integration with Microsoft ecosystem**: Mavim seamlessly integrates with Microsoft applications such as Dynamics 365, Copilot, SharePoint, Microsoft 365, Azure DevOps Services, and Visio. Mavim applies the capture and visualization of business processes within familiar environments.
 
 3. **Collaboration and version control**: Mavim enables collaborative process modeling and documentation, allowing multiple stakeholders to contribute, review, and update processes in real-time. Version control features ensure that the catalog remains accurate and up to date.
 

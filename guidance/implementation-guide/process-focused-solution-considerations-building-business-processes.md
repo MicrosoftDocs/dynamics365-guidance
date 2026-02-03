@@ -1,8 +1,7 @@
 ---
-
 title: Build quality with optimized and standardized business processes
 description: Learn how to design, build, and assess quality, optimized, and standardized business processes for your Dynamics 365 implementation.
-ms.date: 01/07/2025
+ms.date: 01/27/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
@@ -28,25 +27,27 @@ To create a process-focused solution for your Dynamics 365 implementation, follo
 
   [!INCLUDE [daf-catalog-get](../includes/daf-catalog-get.md)]  
 
-- Update the business process catalog.  
+- Apply the business process catalog to the concrete implementation project.  
 
-  The business process catalog serves as a baseline for deriving more detailed business processes. Learn more at [About the business process catalog for Dynamics 365 apps and services](../business-processes/about.md).
+  Use the business process catalog as a baseline so you can derive more specific business processes. Learn more at [About the business process catalog](../business-processes/about.md).
 
-- Consider importing the catalog into a tool, such as Azure DevOps, to help you manage the catalog and project.
+- Import the catalog into a tool, such as Azure DevOps, to help you manage the catalog and project.  
+
+  Learn more at [Use the business process catalog as a template in Azure DevOps Services](../business-processes/about-import-catalog-devops.md).  
 
 ## Define your business requirements and goals clearly
 
-- Your requirements should map to your processes, and your processes should map to your business goals.  
+- Map your requirements to your processes, and map your processes to your business goals.  
 
-  When you use the business process catalog, we recommend that you map all requirements to the lowest level possible. In other words, map your processes to a business process at level 3, work item type **Feature**, or a pattern at level 4, work item type **User story**.
+  When you use the business process catalog, map all requirements to the lowest level possible. In other words, map your processes to a business process at level 3 or a pattern at level 4. Find inspiration at [Standardize business processes](../business-processes/standardize-business-processes.md) and at [Deliverables in the business process catalog as Azure DevOps work items](../business-processes/about-devops-work-items-deliverables.md).
 
 - Map the current processes (as-is) with the desired processes (to-be), if applicable.  
 
-  Understand how your process works today and how you want it to work in the future to meet your business goals. If you're starting from scratch, focus on designing the desired process only.
+  Understand how the organization carries out business processes today and how they want to work in the future in support of the business goals. If you start from scratch, focus on designing the desired process only.
 
 - Choose the appropriate level and type of business process.  
 
-  Depending on the purpose, the hierarchy level, and the message of your process, you can use different forms of flows to illustrate it, such as the following list:
+  Depending on the purpose, the hierarchy level, and the message of your process, use different forms of flows to illustrate it. The following list shows some options:
 
   - Basic process flow
   - Cross-functional flow
@@ -58,29 +59,31 @@ To create a process-focused solution for your Dynamics 365 implementation, follo
 
 - Build the end-to-end processes.  
 
-  The end-to-end process shows the overall purpose of the business by connecting the core processes across different areas. Identify the business areas of your organization, and then create the end-to-end business process for each. For example:
+  The end-to-end process shows the overall purpose of the business by connecting the core processes across different areas. Identify the business areas of your organization, and then create the end-to-end business process for each. The following table shows some examples of this type of mapping.
 
-  - HR: *Hire to retire*
-  - Sales: *Order to cash*
-  - Procurement: *Source to pay*
-  - Customer: *Prospect to quote*
-  - Marketing: *Concept to market*
+  | Business area | End-to-end process |
+  | --------- | --------- |
+  | HR | [Hire to retire](../business-processes/hire-to-retire-overview.md) |
+  | Sales | [Order to cash](../business-processes/order-to-cash-overview.md) |
+  | Procurement | [Source to pay](../business-processes/source-to-pay-overview.md) |
+  | Customer | [Prospect to quote](../business-processes/prospect-to-quote-overview.md) |
+  | Marketing | [Concept to market](../business-processes/concept-to-market-overview.md) |
 
 ## Define roles and responsibilities  
 
 - Assign the right access and security to the users who carry out the tasks and activities.  
 
-  This also helps you estimate the number of users and licenses you need for your project budget.
+  This step also helps you estimate the number of users and licenses you need for your project budget.
 
 - Determine what fits the standard and what the system gaps are.  
 
-  Sometimes, the current processes might not be fully covered by the new system, which can be an opportunity to find better or more optimal ways to execute them. You might need to develop more features to meet your business needs.
+  Sometimes, the current processes aren't fully covered by the new system. This gap can be an opportunity to find better or more optimal ways to execute these processes. You might need to develop more features to meet your business needs.
 
 ## Reassess your business processes  
 
-- Plan to monitor and reassess your business processes during multiple iterations to verify that the information is still accurate, and make relevant adjustments. For example, reassess processes during each Conference Room Pilot (CRP).
+Plan to monitor and reassess your business processes during multiple iterations to verify that the information is still accurate, and make relevant adjustments. For example, reassess processes during each Conference Room Pilot (CRP).
 
-[Learn more about end-to-end business processes in Dynamics 365](../business-processes/overview.md).
+[Learn more about end-to-end business processes in Dynamics 365](../business-processes/overview.md) and [use the catalog to drive workshops](../business-processes/about-workshops.md).
 
 ## Next steps
 
