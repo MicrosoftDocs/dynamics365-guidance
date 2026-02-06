@@ -96,7 +96,7 @@ Primary Contributors:
 
 - [Lavanya Arthimalla](https://www.linkedin.com/in/lavanyaarthimalla)  \| Delivery Architect
 
-- [Mike Dearing](https://www.linkedin.com/in/mikedearing) \| Lead Technical Architect, FastTrack Recommended Solution Architect (FTRSA), customer engagement apps
+- [Mike Dearing](https://www.linkedin.com/in/mikedearing) \| Lead Technical Architect, FastTrack Recognized Solution Architect (FTRSA), customer engagement apps
 
 - [Anil Dasari](https://www.linkedin.com/in/anil-dasari-profile) \| Integration Architect
 
