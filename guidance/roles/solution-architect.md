@@ -10,7 +10,7 @@ ms.date: 09/07/2023
 
 # Solution architects in Dynamics 365 implementations
 
-A solution architect is responsible for the successful design, implementation, deployment, and adoption of an overall solution. A solution architect makes sure that the solution meets the organization’s needs now and in the future.  
+A solution architect is responsible for the successful design, implementation, deployment, and adoption of an overall solution. A solution architect makes sure that the solution meets the organization's needs now and in the future.  
 
 Solutions architects use their technical expertise to integrate and optimize technologies across an organization, tailoring solutions to meet developer and business needs. Specifically for Dynamics 365, solution architects tend to specialize in scenarios within the following areas:
 
@@ -60,3 +60,4 @@ FastTrack includes TechTalks that focus on empowering customers and partners by 
 - [Available certifications for different roles in Dynamics 365](certifications.md)  
 - [Dynamics 365 implementation guidance](../implementation-guide/overview.md)  
 - [Implementation tools and samples](../resources/index.yml)  
+- [Microsoft Learn career path: Solution Architect](/training/career-paths/solution-architect)  

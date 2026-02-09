@@ -70,7 +70,7 @@ Microsoft provides the following online learning paths to help you get started a
 
 Put your skills to work to obtain certification that can help you advance your career and earn the recognition you deserve.  
 
-A Microsoft Certification validates to the world that you have these skills—whether you’re just starting out and growing your career, looking to use your skills to advance, or wanting to change to a new, in-demand consulting role.
+A Microsoft Certification validates to the world that you have these skills—whether you're just starting out and growing your career, looking to use your skills to advance, or wanting to change to a new, in-demand consulting role.
 
 Take exams and earn a Microsoft Certified badge. Find the relevant certifications in the [Available certifications for different roles in Dynamics 365](certifications.md#functional-consultants) article. Each certification article provides links to relevant training content to help you grow new skills.  
 
@@ -119,4 +119,4 @@ And many more... If you think something is missing from the list, do let us know
 - [Business applications skilling collection](/users/clairenielsen-5564/collections/ee0kf50j226dpk)  
 - [Available certifications for different roles in Dynamics 365](certifications.md)  
 - [Overview of business processes in Dynamics 365](../business-processes/index.yml)  
-- [Microsoft Learn Career Connected](/training/career-paths/career-connected)  
+- [Microsoft Learn career path: Functional Consultant](/training/career-paths/functional-consultant)  

@@ -91,4 +91,6 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
 - [Dynamics 365 documentation](/dynamics365/index)  
 - [Browse all Credentials for Dynamics 365 and Power Platform](/credentials/browse/?products=dynamics-365%2Cpower-platform)  
 - [Browse all Credentials](/credentials/browse/)  
-- [Microsoft Learn Career Connected](/training/career-paths/career-connected)  
+- [Microsoft Learn career path: Functional Consultant](/training/career-paths/functional-consultant)  
+- [Microsoft Learn career path: Solution Architect](/training/career-paths/solution-architect)  
+- [Microsoft Learn career path: Developer](/training/career-paths/developer)  
