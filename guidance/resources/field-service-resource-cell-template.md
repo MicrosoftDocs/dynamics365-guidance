@@ -4,7 +4,7 @@ description: Get sample code to help you customize information and how it looks 
 ms.date: 09/12/2025
 ms.topic: best-practice
 author: edupont04
-ms.author: jwride
+ms.author: edupont
 ---
 
 # Add crew information to resource cells

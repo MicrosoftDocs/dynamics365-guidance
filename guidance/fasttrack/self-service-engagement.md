@@ -1,11 +1,9 @@
 ---
 title: Proactive guidance for self-service engagements
 description: Microsoft FastTrack provides guidance to project implementation teams via emails that contain recommended actions for each phase of a project.
-ms.author: rmanocha
+ms.author: edupont
 ms.date: 11/03/2021
 ms.topic: concept-article
-
-ms.reviewer: edupont
 author: edupont04
 ---
 
@@ -19,7 +17,7 @@ One of the core goals of Microsoft FastTrack for Dynamics 365 finance and operat
 
 ## Who will send these emails?
 
-You’ll see emails from the account **d365ftfo@microsoft.com**. (Please make sure the address is on a safe senders list to receive our communications.)
+You'll see emails from the account **d365ftfo@microsoft.com**. (Please make sure the address is on a safe senders list to receive our communications.)
 
 ## How can you provide feedback?
 
@@ -65,7 +63,7 @@ This phase comprises the period that starts right after project onboarding is fi
 - **Test**: After design, the test phase is where the solution is tested and where we provide recommendations around testing and training as well as policies to follow regarding updates. Test email will be sent 14 days before the design & develop milestone end date in Lifecycle Services. It covers these topics:
   - Testing and solution acceptance
   - Training (end user training) including [Regression suite automation tool (RSAT)](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)
-  -	Performance testing
+  -    Performance testing
     - System monitoring
     - Subscription estimator
     - App checker
@@ -85,7 +83,7 @@ This phase comprises the period that starts right after project onboarding is fi
   - Production servicing and support
   - Report production outage
 
-- **Go-live date confirmation**: Go-live date confirmation email is specific to projects where the Lifecycle Services go-live milestone date is in the past and go-live did not happen yet. We understand that plans might change, which is why it’s important to keep Lifecycle Services up to date so that the FastTrack team can provide the right guidance at the right time.
+- **Go-live date confirmation**: Go-live date confirmation email is specific to projects where the Lifecycle Services go-live milestone date is in the past and go-live did not happen yet. We understand that plans might change, which is why it's important to keep Lifecycle Services up to date so that the FastTrack team can provide the right guidance at the right time.
 
 ### Prepare
 

@@ -1053,6 +1053,32 @@ items:
                     href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-charges-vendorinvoiceheadercharge?toc=/dynamics365/guidance/toc.json
                   - name: Vendor invoice line charges entity
                     href: /dynamics365/fin-ops-core/dev-itpro/data-entities/entity-vendor-invoice-line-charges-vendorinvoicelinecharge?toc=/dynamics365/guidance/toc.json
+          - name: Agent templates
+            items:
+              - name: Introduction to agent templates
+                href: agent-templates/overview.md
+              - name: Customer Service
+                items: 
+                - name: Service agent templates
+                  href: agent-templates/service-agent-templates.md
+                - name: Case categorization and enrichment
+                  href: agent-templates/case-categorization-agent.md
+                - name: Automate routine queries
+                  href: agent-templates/automate-routine-queries-agent.md
+                - name: After hours service
+                  href: agent-templates/after-hours-service-agent.md
+                - name: Q&A generative and verbatim responses
+                  href: agent-templates/qa-generative-verbatim-agent.md
+                - name: Generate customer response letters
+                  href: agent-templates/complaint-response-letter-agent.md
+                - name: Automated case follow-up
+                  href: agent-templates/automated-case-follow-up-agent.md
+                - name: Service quality evaluation
+                  href: agent-templates/service-quality-evaluation-agent.md
+                - name: Financial health and eligibility prescreening
+                  href: agent-templates/eligibility-pre-screen-agent.md
+                - name: Service level adjustments
+                  href: agent-templates/service-level-adjustment-agent.md
       - name: Guidance for software development companies
         items:
           - name: Software development tools and resources overview
