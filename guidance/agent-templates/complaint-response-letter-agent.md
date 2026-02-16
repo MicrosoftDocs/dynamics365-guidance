@@ -1,15 +1,20 @@
 ---
-title: "Generate Customer Response Letter Agent"
-description: "Automate complaint First Response Letter generation and reduce drafting time by 70%"
+title: Generate Customer Response Letter Agent
+description: Learn about the template you can use to set up an AI agent to automate complaint First Response Letter generation and reduce drafting time by 70%.
 author: aloking
-ms.date: 02/03/2026
-ms.topic: how-to
-ms.service: dynamics-365-customer-service
+ms.author: alsing
+ms.date: 02/09/2026
+ms.topic: concept-article
 ---
 
-# Generate Customer Response Letter Agent
+# Agent for generating customer response letter
 
-Automates complaint First Response Letter (FRL) generation, reducing drafting time by 70%. For organizations processing 60,000+ complaints annually, saves approximately 1,700 working days (42,000 hours), allowing complaint handlers to focus on resolution rather than administrative tasks.
+***Applies to***: ***Dynamics 365 Customer Service***
+
+This agent automates the creation of customer response letters, greatly reducing the effort required to draft them. Financial services organizations generate First Response Letters (FRLs) for complaints. Automation of this process can dramatically cut the drafting time and save up to one hour per complaint. For organizations managing high complaint volumes, this capability frees significant capacity that can be redirected to resolving issues rather than administrative work.
+
+> [!NOTE]
+> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
 
 ## Overview
 
@@ -54,12 +59,12 @@ Generative AI agent automatically drafts First Response Letters by extracting an
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
-
+<!--
 ## Next steps
 
 - [Configure service agents](/dynamics365/customer-service/configure-agents)
 - [Test your agent deployment](/dynamics365/customer-service/test-agents)
-- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)
+- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)-->
 
 ## Related content
 

@@ -1,15 +1,20 @@
 ---
-title: "Service Level Adjustment Agent"
-description: "Enable empathetic service with real-time vulnerability detection and dynamic service adjustments"
-author: "Microsoft"
-ms.date: 2/2/2026
-ms.topic: how-to
-ms.service: dynamics-365-customer-service
+title: Service Level Adjustment Agent
+description: Learn about the template you can use to set up an AI agent to enable empathetic service with real-time vulnerability detection and dynamic service adjustments.
+author: aloking
+ms.author: alsing
+ms.date: 02/09/2026
+ms.topic: concept-article
 ---
 
-# Service Level Adjustment Agent
+# Agent for service level adjustment
+
+***Applies to***: ***Dynamics 365 Customer Service***
 
 Enables empathetic, personalized service by detecting real-time vulnerability signals and dynamically adjusting service levels, case priorities, and representative assignments. Ensures vulnerable customers receive appropriate care and attention while maintaining compliance with regulatory requirements for fair treatment and accessibility.
+
+> [!NOTE]
+> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
 
 ## Overview
 
@@ -58,15 +63,15 @@ AI agent monitors customer interactions analyzing language, sentiment, and discl
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
-
+<!--
 ## Next steps
 
 - [Configure service agents](/dynamics365/customer-service/configure-agents)
 - [Test your agent deployment](/dynamics365/customer-service/test-agents)
-- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)
+- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)-->
 
 ## Related content
 
-- [Service agent templates overview](../service-agent-templates.md)
+- [Service agent templates overview](service-agent-templates.md)
 - [Dynamics 365 Customer Service overview](/dynamics365/customer-service/overview)
 - [Microsoft Copilot Studio documentation](/microsoft-copilot-studio/)

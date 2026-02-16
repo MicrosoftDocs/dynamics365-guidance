@@ -4,7 +4,7 @@ description: Get tips for how to customize the template for bookings in solution
 ms.date: 09/18/2025
 ms.topic: concept-article
 author: edupont04
-ms.author: jwride
+ms.author: edupont
 ms.custom:
     - O25-FieldService
 ---

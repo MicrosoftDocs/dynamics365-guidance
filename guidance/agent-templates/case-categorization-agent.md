@@ -1,15 +1,20 @@
 ---
-title: "Case Categorization & Enrichments Agent"
-description: "Automatically extract information from customer interactions and populate case fields with AI-predicted values"
+title: Case Categorization and Enrichment Agent
+description: Learn about the template you can use to set up an AI agent to automatically extract information from customer interactions and populate case fields with AI-predicted values.
 author: aloking
-ms.date: 02/03/2026
-ms.topic: how-to
-ms.service: dynamics-365-customer-service
+ms.author: alsing
+ms.date: 02/09/2026
+ms.topic: concept-article
 ---
 
-# Case Categorization & Enrichments Agent
+# Agent for case categorization and enrichment
+
+***Applies to***: ***Dynamics 365 Customer Service***
 
 Eliminates manual data entry and reduces case handling time by automatically extracting information from customer interactions and intelligently populating case fields with AI-predicted values. This can automatically categorize the cases so they are routed to the correct team, eliminating the need for a manual triage or passing back and forth between teams.
+
+> [!NOTE]
+> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
 
 ## Overview
 
@@ -57,12 +62,12 @@ Leverages generative AI to automatically extract, predict, and populate case fie
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
-
+<!--
 ## Next steps
 
 - [Configure service agents](/dynamics365/customer-service/configure-agents)
 - [Test your agent deployment](/dynamics365/customer-service/test-agents)
-- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)
+- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)-->
 
 ## Related content
 

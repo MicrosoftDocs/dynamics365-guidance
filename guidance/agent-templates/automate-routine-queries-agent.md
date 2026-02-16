@@ -1,19 +1,24 @@
 ---
-title: "Automate Routine Queries Agent"
-description: "Reduce contact center costs with intelligent self-service AI agents that handle routine inquiries"
+title: Automate Routine Queries Agent
+description: Learn about the template you can use to set up an AI agent to reduce contact center costs with intelligent self-service AI agents that handle routine inquiries.
 author: aloking
-ms.date: 02/03/2026
-ms.topic: how-to
-ms.service: dynamics-365-customer-service
+ms.author: alsing
+ms.date: 02/09/2026
+ms.topic: concept-article
 ---
 
-# Automate Routine Queries Agent
+# Agent for automated routine queries
 
-Reduces contact center costs by deflecting routine inquiries to intelligent self-service AI agents. Delivers 30-70% deflection rates with $0.50 per AI session versus $5-$10 for human representatives, while providing instant 24/7 customer responses.
+***Applies to***: ***Dynamics 365 Customer Service***
+
+This agent reduces contact center costs by deflecting routine inquiries to intelligent self-service AI agents. These AI agents can work across channels while providing instant 24/7 customer responses and can intelligently assess if there is a need to really involve a human agent. Customer could choose to start small by automating even just one intent or case category.
+
+> [!NOTE]
+> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
 
 ## Overview
 
-Microsoft Copilot Studio creates conversational AI agents handling common inquiries across chat, voice, SMS, social media, and Teams. Generative AI orchestration dynamically chains topics, actions, and knowledge sources based on customer intent. Provides real-time knowledge search with citations and executes actions like retrieving account data or updating preferences.
+AI agents handle common inquiries across chat, voice, and email. An agent dynamically chains topics, actions, and knowledge sources based on customer intent. It provides real-time knowledge search with citations and executes actions like retrieving account data or updating preferences or triggering an API.
 
 ## Key benefits
 
@@ -60,12 +65,12 @@ Microsoft Copilot Studio creates conversational AI agents handling common inquir
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
-
+<!--
 ## Next steps
 
 - [Configure service agents](/dynamics365/customer-service/configure-agents)
 - [Test your agent deployment](/dynamics365/customer-service/test-agents)
-- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)
+- [Monitor agent performance](/dynamics365/customer-service/agent-analytics)-->
 
 ## Related content
 
