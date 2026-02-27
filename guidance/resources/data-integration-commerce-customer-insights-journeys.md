@@ -18,7 +18,7 @@ This article describes near real-time marketing processes that require synchrono
 - **Automated transactional emails**, such as order confirmations, feedback requests, and review prompts.
 - **Enhanced loyalty scenarios**, including post-purchase invitations to join loyalty programs.
 
-To illustrate these processes, this article shows how to implement a *Commerce Event Framework* that creates events, stores them in an event store, follows a *Command Query Responsibility Segregation* (CQRS) pattern, and integrates the events with Customer Insights – Journeys through Azure Integration Services. The article uses a sample from the implementation assets GitHub repo at [CommerceEventSample](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample). This sample contains all the custom assets that form the foundation of the solution and makes it easier for you to replicate and adapt this approach in your own environment.
+To illustrate these processes, this article shows how to implement a *Commerce Event Framework* that creates events, stores them in an event store, follows a *Command Query Responsibility Segregation* (CQRS) pattern, and integrates the events with Customer Insights – Journeys through Azure Integration Services. The article uses a sample from the implementation assets GitHub repo at [CommerceEventSample](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/ERP/Commerce/CommerceEventSample). This sample contains all the custom assets that form the foundation of the solution and makes it easier for you to replicate and adapt this approach in your own environment.
 
 While this approach demonstrates direct near real-time integrations, asynchronous options might better suit certain business cases. For example, the Commerce Data Exchange (CDX) flow between Commerce Scale Unit (CSU) and other finance and operations apps supports downstream integrations with Dataverse. This integration uses dual-write capabilities or custom connectors. Business and technical teams should evaluate each option based on factors such as data latency tolerance, system dependencies, and operational scale.
 
@@ -183,7 +183,7 @@ To successfully implement the solution, developers must extend and customize sev
     Processes events and integrates them with Customer Insights – Journeys for triggering customer journeys.
 
 > [!NOTE]
-> The Microsoft FastTrack team provides samples for all aspects of the solution covered in this article. You can access them in the GitHub repository at [Commerce Event Sample - Dynamics 365 FastTrack Implementation Assets](https://github.com/Microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample)
+> The Microsoft FastTrack team provides samples for all aspects of the solution covered in this article. You can access them in the GitHub repository at [Commerce Event Sample - Dynamics 365 FastTrack Implementation Assets](https://github.com/Microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/ERP/Commerce/CommerceEventSample)
 
 ### Overcome challenges with Commerce Event Framework
 
@@ -442,7 +442,7 @@ The integration of Dynamics 365 Commerce with Customer Insights – Journeys thr
 
 ## Call to action
 
-Ready to revolutionize your customer engagement strategy? Start today by implementing basic integration with Dynamics 365 Customer Insights using our GitHub samples: [Commerce Event Sample - Dynamics 365 FastTrack Implementation Assets](https://github.com/Microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/CommerceEventSample)
+Ready to revolutionize your customer engagement strategy? Start today by implementing basic integration with Dynamics 365 Customer Insights using our GitHub samples: [Commerce Event Sample - Dynamics 365 FastTrack Implementation Assets](https://github.com/Microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/ERP/Commerce/CommerceEventSample)
 
 ## Related content
 

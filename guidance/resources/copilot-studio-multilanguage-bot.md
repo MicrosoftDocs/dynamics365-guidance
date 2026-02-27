@@ -18,6 +18,6 @@ The intent of this article is to provide a sample code of a multilingual bot in 
 
 ## Sample code
 
-Find the solution that includes the Copilot Studio classic Bot at [MultilingualPVABot_1_0_0_0.zip](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/PVA/PVAMultilingual/sampleartifacts/MultilingualPVABot_1_0_0_0.zip).  
+Find the solution that includes the Copilot Studio classic Bot at [MultilingualPVABot_1_0_0_0.zip](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ComponentLibrary/PVA/PVAMultilingual/sampleartifacts/MultilingualPVABot_1_0_0_0.zip).  
 
 The sample bot was implemented based on the article [Set up a multilingual agent to use in voice channel](/dynamics365/customer-service/set-up-multilingual-pva-bot) in the Customer Service product documentation.

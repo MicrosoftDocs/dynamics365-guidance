@@ -15,12 +15,12 @@ ms.custom:
 
 Microsoft provides sample data in the Dynamics 365 apps that is standard across industries. As part of the onboarding process for new users or decision makers, the standard sample data can seem irrelevant to their job type, geographical location, or other factors. But with Copilot Studio, you can take advantage of generative AI and integrations with Dynamics 365 to generate sample data in locations where your organization does business.  
 
-Start with a sample solution that we provide in the [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/Copilot%20Sample%20Data%20Agent/Solutions) GitHub repo. This sample data solution is intended for anyone around the world who wants to demo, test, or just play with Dynamics 365 Field Service. The agent does the work of creating data in Dynamics 365, which means the user doesn't need to know about Dynamics 365 tables and schema.
+Start with a sample solution that we provide in the [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/Customer Service/Field Service/Component Library/Copilot Sample Data Agent/Solutions](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/Copilot%20Sample%20Data%20Agent/Solutions) GitHub repo. This sample data solution is intended for anyone around the world who wants to demo, test, or just play with Dynamics 365 Field Service. The agent does the work of creating data in Dynamics 365, which means the user doesn't need to know about Dynamics 365 tables and schema.
 
 We show you how to build an agent using Copilot Studio that helps you create location-based **Account** sample data in Dynamics 365.
 
 > [!TIP]
-> Download the complete *Copilot Studio Sample Data Agent* solution from our FastTrack GitHub repro at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/Field Service/Component Library/Copilot Sample Data Agent/Solutions](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/Copilot%20Sample%20Data%20Agent/Solutions).
+> Download the complete *Copilot Studio Sample Data Agent* solution from our FastTrack GitHub repro at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/Customer Service/Field Service/Component Library/Copilot Sample Data Agent/Solutions](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/Copilot%20Sample%20Data%20Agent/Solutions).
 
 > [!NOTE]
 > Experience with Copilot Studio can be helpful but isn't required to follow the steps in this article. There are also licensing requirements for using Copilot Studio that this article doesn't discuss.

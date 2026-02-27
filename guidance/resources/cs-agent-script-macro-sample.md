@@ -17,7 +17,7 @@ Agent scripts play a pivotal role in reducing the risk of human errors throughou
 
 The different types of agent scripts include text-based guidance and macros. Macros automate repetitive tasks by reducing complex actions to a single action. By integrating these elements, teams can streamline workflows and enhance overall operational efficiency.
     
-Download a ready-to-use Power Platform solution on GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/raw/master/Customer%20Service/ComponentLibrary/Omnichannel/CommonAgentScriptsAndMacros/) that includes sample actions. The associated PDF file in the same folder contains a step-by-step guide on how to create a macro. This guide is part of the [Customer Service Workspace in a Day](https://www.microsoft.com/download/details.aspx?id=105315) hands-on lab with detailed instructions.  
+Download a ready-to-use Power Platform solution on GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/raw/master/Customer%20Service/Customer%20Service/ComponentLibrary/Omnichannel/CommonAgentScriptsAndMacros/) that includes sample actions. The associated PDF file in the same folder contains a step-by-step guide on how to create a macro. This guide is part of the [Customer Service Workspace in a Day](https://www.microsoft.com/download/details.aspx?id=105315) hands-on lab with detailed instructions.  
 
 ## Related information
 

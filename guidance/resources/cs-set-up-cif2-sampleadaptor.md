@@ -86,7 +86,7 @@ The user's active connection is stored in Azure Storage by using the interface t
 8. Add table storage in Azure. Learn more in [Quickstart: Create a table in the Azure portal](/azure/storage/tables/table-storage-quickstart-portal).  
 
     You must update the storage connection information and table name in the Azure Functions configuration.
-9. Get the **Deploy Azure Functions** sample code from GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Code/SignalRCIFAdaptor).
+9. Get the **Deploy Azure Functions** sample code from GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Code/SignalRCIFAdaptor).
 10. Enable authentication in Azure Functions. Add the identity provider that you specified as part of app registration in the earlier step.
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-9.png" alt-text="Screenshot that shows the Azure Functions authentication settings." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-9.png":::
@@ -116,7 +116,7 @@ The user's active connection is stored in Azure Storage by using the interface t
 
     :::image type="content" source="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-10.png" alt-text="Screenshot that shows the Azure Functions system keys for SignalR." lightbox="media/CIF-SampleAdaptor/cifv2-sampleadaptor-file-10.png":::
 
-13. Download the package from the [Solutions](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Solutions) folder in the [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Asset](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Asset) GitHub repo.
+13. Download the package from the [Solutions](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Sample%20Adaptor/Solutions) folder in the [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Asset](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Asset) GitHub repo.
 14. When you import the solution, update the environment variables as outlined in the following table.
 
     | Name | Value |

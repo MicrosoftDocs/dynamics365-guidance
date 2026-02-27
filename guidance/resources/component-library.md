@@ -13,7 +13,7 @@ ms.author: viange
 
 This collection of sample code, components (solutions), and documents has been created to help your Customer Service projects with tasks such as customization, configuration, and operation of the platform. The library offers reusable and easy-to-follow resources for Customer Service developers and users.  
 
-Some of the components are hosted in the GitHub repo [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary). You can contribute to this project by reporting issues, suggesting features, or submitting pull requests.
+Some of the components are hosted in the GitHub repo [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ComponentLibrary). You can contribute to this project by reporting issues, suggesting features, or submitting pull requests.
 
 > [!IMPORTANT]
 > Sample codes, components (solutions), and documents created by the community aren't supported by Microsoft. If you have questions or issues with community tools, contact the tool's publisher.
