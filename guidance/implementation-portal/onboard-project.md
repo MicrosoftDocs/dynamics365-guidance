@@ -11,13 +11,13 @@ ms.date: 03/04/2026
 
 This article explains how to use the onboarding wizard to create or join a project in the Dynamics 365 Implementation Portal. The updated onboarding wizard has a guided flow that helps you quickly create an implementation project , add users, and build a project profile so you can receive tailored guidance, telemetry insights, and reviews throughout the delivery lifecycle.
 
-You can also join an existing project in your tenant if you've been invited or if the project was created through another Microsoft tool.
+You can also join an existing project in your tenant if you're invited or if the project was created through another Microsoft tool.
 
 ## Project overview
 
 The Dynamics 365 Implementation Portal is the central hub for managing Dynamics 365 implementation projects. The portal supports the following tasks:
 
-Create new implementation projects using a streamlined onboarding experience
+- Create new implementation projects by using a streamlined onboarding experience.
 
 - View and join existing projects within your tenant.
 
@@ -25,15 +25,15 @@ Create new implementation projects using a streamlined onboarding experience
 
 - Access implementation guidance, reviews, telemetry recommendations, and support.
 
-## To create a new project
+## Create a new project
 
 The onboarding experience guides you through three main stages:
 
-1. **Project details** – Define the core attributes of your project
+1. **Project details** – Define the core attributes of your project. Find a description of the required fields at [Project details](#project-details).  
 
-2. **Add users** – Assign project admins and users
+2. **Add users** – Assign project admins and users. Find a description of the required fields at [Add users](#add-users).  
 
-3. **Project profiling** – Describe products, features, and business processes in scope
+3. **Project profiling** – Describe products, features, and business processes in scope. Find a description of the required fields at [Project profiling](#project-profiling).  
 
 ### Project details
 
@@ -46,32 +46,10 @@ The first step in creating a project is to provide the core details of your impl
 | **Tenant ID** | Specify whether the project is for your organization's tenant or another tenant, and enter the tenant ID. |
 | **Estimated go‑live date** | Provide your best estimate of the production go‑live date. |
 | **Implementation team country** | Select the country or region where most of the implementation team is located. |
-| **Project phase** | Select the current phase of the project in the delivery lifecycle.<br><br>- **Discover** if you're defining business objectives, assess solution fit, and identify high‑level requirements and risks. <br><br>- **Initiate** if you're establishing governance, project plans, team structure, and environments. <br><br>- **Implement** if you're building and configuring the solution, including customizations, integrations, data migration, and testing.  <br><br>- **Prepare**  if you're completing user acceptance testing, performance validation, and operational readiness for go‑live. <br><br>- **Operate** for monitoring, supporting, and optimizing the solution after go‑live. |
+| **Project phase** | Select the current phase of the project in the delivery lifecycle.<br><br>- **Discover** if you're defining business objectives, assessing solution fit, and identifying high‑level requirements and risks. <br><br>- **Initiate** if you're establishing governance, project plans, team structure, and environments. <br><br>- **Implement** if you're building and configuring the solution, including customizations, integrations, data migration, and testing.  <br><br>- **Prepare**  if you're completing user acceptance testing, performance validation, and operational readiness for go‑live. <br><br>- **Operate** for monitoring, supporting, and optimizing the solution after go‑live. |
 | **Project purpose** | Specify the purpose of the project to help tailor guidance and insights. |
 
-<!-- ### Project type
-
-:
-
-| **Project type** | **Description** |
-| ---- | ---- |
-| **New Production Environment Implementation** | Implementing new products or solutions in a new production environment. |
-| **New Workload for an Existing Production Environment** | Adding or enhancing workloads in an environment that is already live. |
-| **Cloud Migration** | Migrating an existing solution to the cloud. | -->
-<!-- 
-### Project phase
-
-The **Project phase** represents where your project is in the delivery lifecycle. Selecting the correct phase helps ensure that the guidance, insights, and reviews you receive align with your current activities.
-
-| **Project phase** | **Description** |
-| ---- | ---- |
-| **Discover** | Define business objectives, assess solution fit, and identify high‑level requirements and risks. |
-| **Initiate** | Establish governance, project plans, team structure, and environments. |
-| **Implement** | Build and configure the solution, including customizations, integrations, data migration, and testing. |
-| **Prepare** | Complete user acceptance testing, performance validation, and operational readiness for go‑live. |
-| **Operate** | Monitor, support, and optimize the solution after go‑live. | -->
-
-If your project includes finance and operations apps, provide the **Lifecycle Services (LCS) Project ID** during project creation. This allows customers and partners to join an existing related project rather than creating a duplicate.
+If your project includes finance and operations apps, provide the **Lifecycle Services (LCS) Project ID** during project creation. This ID value enables organizations and partners to join an existing related project rather than creating a duplicate project.
 
 ### Add users
 
@@ -81,7 +59,7 @@ On the **Add users** step, add everyone who needs access to the project. The fol
 | ---- | ---- |
 | **Project Admin** | Full access to manage users, permissions, and join requests. |
 | **Project User** | Standard access to project guidance, reviews, and insights. |
-| **Partner Resource** | Enter partner email address and include the Partner Organization MPN ID to ensure correct linking |
+| **Partner Resource** | Enter partner email address and include the Partner Organization MPN ID to ensure correct linking. |
 
 > [!NOTE]
 > Every project must have at least two Project Admins from the organization to ensure continuity, visibility, and telemetry enablement.
@@ -90,7 +68,7 @@ Invitation emails are sent automatically when you proceed to the next step.
 
 ### Project profiling
 
-Project profiling is the final stage of creating a project and is critical for receiving relevant guidance and insights. Profiling includes the following tasks:
+Project profiling is the final stage of creating a project. It's critical for receiving relevant guidance and insights. Profiling includes the following tasks:
 
 - Select **products and features** in scope.
 
@@ -100,15 +78,11 @@ Project profiling is the final stage of creating a project and is critical for r
 
 You must select at least one product to continue. A well‑maintained project profile directly impacts the quality of guidance, telemetry insights, and reviews you receive.
 
-Learn more at [What is a good profile in the Dynamics 365 Implementation Portal?](project-profiling.md).
+To learn more, see [What is a good profile in the Dynamics 365 Implementation Portal?](project-profiling.md)
 
 ## Join an existing project
 
-From the **Join Project** page, you can view all active projects in your tenant and request access, or quickly join any projects you've been invited to. If you've received a project invitation email, either because the project was created in the **Power Platform Admin Center** or directly in the Implementation Portal, you land on this page to join the project. Simply select the project and based on its status, either:
-
-- Complete the required onboarding steps, or
-
-- Go directly to the project workspace
+From the **Join Project** page, you can view all active projects in your tenant. You can request access to a project or join any projects you were invited to. If you receive an email with an invitation to join a project, either because you created the project in the **Power Platform Admin Center** or directly in the Implementation Portal, you land on this page to join the project. Select the project and, based on its status, either complete the required onboarding steps or go directly to the project workspace.
 
 If you don't see a project you expect to join, contact a project admin to request access.
 
