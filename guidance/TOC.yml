@@ -1057,6 +1057,18 @@ items:
             items:
               - name: Introduction to agent templates
                 href: agent-templates/overview.md
+              - name: Commerce
+                items:
+                - name: Commerce agent templates
+                  href: agent-templates/commerce-agent-templates.md
+                - name: Adaptive skills policy
+                  href: agent-templates/adaptive-skills-policy-agent.md
+                - name: Inventory fulfillment
+                  href: agent-templates/inventory-fulfillment-agent.md
+                - name: Payment reconciliation
+                  href: agent-templates/payment-reconciliation-agent.md
+                - name: Store monitoring
+                  href: agent-templates/store-monitoring-agent.md
               - name: Customer Service
                 items: 
                 - name: Service agent templates

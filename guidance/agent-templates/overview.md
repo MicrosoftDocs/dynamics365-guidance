@@ -44,6 +44,7 @@ You'll soon find the templates in the [Dynamics-365-FastTrack-Implementation-Ass
 ## Related content
 
 - [Service agent templates](service-agent-templates.md)  
+- [Commerce agent templates](commerce-agent-templates.md)  
 - [Resources for Customer Service](../resources/cs-index.yml)  
 - [Resources for Field Service](../resources/field-service-index.yml)  
 - [Implementation tools and samples](../resources/overview.md)  
