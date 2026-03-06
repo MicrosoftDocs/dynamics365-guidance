@@ -45,7 +45,7 @@ The solution uses a cloud architecture built on Dynamics 365, Azure Integration 
 
 ## Stakeholders
 
-Key stakeholders in this process are:
+The following list shows the key stakeholders in this process:
 
 - Operations team oversees field service operations, ensuring efficient scheduling and dispatching.
 - Field technicians carry out service tasks and report work progress by using the Field Service Mobile App.
