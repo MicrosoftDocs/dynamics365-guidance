@@ -30,13 +30,13 @@ We use thread groups to configure tests with realistic and complex business tran
 
 ## Prerequisites
 
-- [Get the samples and tools](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/At%20Scale/Samples).
+- [Get the samples and tools](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/At%20Scale/Samples).
 
 ## Scenarios
 
 In a production situation, different people interact with the system at the same time. For example, a client uses a chat channel to interact with an agent. During the chat, the agent uses a model-driven app to add notes to the client's case. If the agent can't answer the client's questions, they might apply routing logic to get the case to the appropriate agent, who can then make a follow-up call. You must consider this factor in your testing strategy.
 
-The [load test samples](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/At%20Scale/Samples) simulate Customer Service scenarios against an out-of-box configuration.
+The [load test samples](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/At%20Scale/Samples) simulate Customer Service scenarios against an out-of-box configuration.
 
 > [!NOTE]
 > The samples that are provided might require additional configuration to run in a concrete Dynamics 365 implementation solution. In actual implementation projects, we recommend that you define additional testing scenarios to cover the scope of that solution.
@@ -93,7 +93,7 @@ Apache JMeter doesn't natively pace based on the number of tests per user. Inste
 - A **Constant Timer** element runs in the context of a sampler. The timer delays the sampler by a fixed value in milliseconds. When a constant timer is used, the duration is the sum of the configured delay and the execution time of the sampler. `WhoAmI()` is a great request to run with a constant timer.
 - A **Flow Control Action** element can run the context of a transaction controller. The pause that is configured in the flow control action isn't dependent on any sampler and is therefore static.
 
-Use the [Pacing Worksheet.xlsx](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Testing/At%20Scale/Documentation/Pacing%20Worksheet.xlsx) file to help determine the appropriate pacing between test iterations and the number of tests per thread (virtual user) to run over the course of the test. Both elements can pause a thread by a fixed value in milliseconds.
+Use the [Pacing Worksheet.xlsx](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Customer%20Service/Testing/At%20Scale/Documentation/Pacing%20Worksheet.xlsx) file to help determine the appropriate pacing between test iterations and the number of tests per thread (virtual user) to run over the course of the test. Both elements can pause a thread by a fixed value in milliseconds.
 
 To achieve the appropriate pacing in your test, you can also use other methods that use think time or third-party plugins for Apache JMeter.
 

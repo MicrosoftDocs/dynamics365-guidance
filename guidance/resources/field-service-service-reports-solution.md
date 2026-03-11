@@ -37,7 +37,7 @@ Service reports are available in the mobile app and web app. For a guided walkth
 
 ### Import and try the sample reporting solution as-is in a sandbox environment
 
-1. Download [ReportingSolution_managed.zip](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/Component%20Library/FSMobile/Service%20Report/solutions/ReportingSolution_managed.zip).
+1. Download [ReportingSolution_managed.zip](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/Component%20Library/FSMobile/Service%20Report/solutions/ReportingSolution_managed.zip).
 1. [Import the reporting solution](/power-apps/maker/data-platform/import-update-export-solutions) into your environment. The import installs a reporting form, a command for the command bar, and includes a sample report. We recommend importing the solution as a managed solution.
 1. Find the **Field Service Mobile** app module in your list of Dynamics 365 apps and select the ellipsis (&hellip;) > **Open in App Designer**.
 1. In the navigation, select the **Bookings form**.
@@ -51,7 +51,7 @@ If you like the sample solution, you can further customize the report to meet yo
 
 ### Customize the reporting solution before installation in a sandbox environment
 
-1. Download the source code for the sample service report (PCF) from [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/FSMobile/Service%20Report)
+1. Download the source code for the sample service report (PCF) from [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/FSMobile/Service%20Report)
 1. Use your favorite IDE to edit the PCF control. Modify this control to change the layout, add branding, updated data, or other updates necessary to meet your reporting requirements.  
 
     Read the [Extend the control](#extend-the-control) section for more details.

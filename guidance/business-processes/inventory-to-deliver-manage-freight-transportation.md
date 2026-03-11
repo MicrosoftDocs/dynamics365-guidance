@@ -128,7 +128,7 @@ You can use the following resources to learn more about the *Manage freight and 
 - [TechTalk on Parcel Carrier Integration in Dynamics 365 Supply Chain Management](https://community.dynamics.com/blogs/post/?postid=4eea123c-c220-4b93-8273-514fdb1e6997)
 
   - Supporting product documentation: [Small parcel shipping](/dynamics365/supply-chain/warehousing/small-parcel-shipping)
-  - Supporting GitHub assets: [Dynamics-365-FastTrack-Implementation-Assets/SCM/SPS](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM/SPS)
+  - Supporting GitHub assets: [Dynamics-365-FastTrack-Implementation-Assets/SCM/SPS](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/ERP/SCM/SPS)
 
 - [Transportation Management Configuration Deep-Dive on Freight Reconciliation](https://community.dynamics.com/blogs/post/?postid=f513292c-1c2a-4f5f-8423-eb3cf5b8db39)
 - Product documentation: [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)

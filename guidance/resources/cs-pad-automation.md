@@ -45,7 +45,7 @@ Go through the first five, of eight, units of the Power Automate online workshop
 
 This process requires a few steps. First, you must import the solution, get the URL of the desktop flow, and then update the web resource.
 
-1. Download the managed solution from the [GitHub folder](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/Automation/).  
+1. Download the managed solution from the [GitHub folder](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Customer%20Service/ComponentLibrary/Automation/).  
 2. Browse to [https://make.powerapps.com/](https://make.powerapps.com/).  
 3. In the navigation panel on the left, choose **Solutions**.  
 4. Choose **Import solution**.  

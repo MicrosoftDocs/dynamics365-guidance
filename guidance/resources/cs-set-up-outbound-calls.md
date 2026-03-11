@@ -26,11 +26,11 @@ With the custom control, users can conveniently format phone numbers and initiat
 ## Prerequisites
 
 - [System requirements](/dynamics365/customer-service/channel-integration-framework/v2/system-requirements-channel-integration-framework-v2)
-- [Get the samples and tools](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/ClickToDial/)
+- [Get the samples and tools](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Channel%20Integration%20Framework%20v2.0/ClickToDial/)
 
 ## Configuration steps
 
-1. Download the package at [ClickToDial](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/ClickToDial/Solutions).
+1. Download the package at [ClickToDial](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Channel%20Integration%20Framework%20v2.0/ClickToDial/Solutions).
 
     Select either the managed package or the unmanaged package. Extract the files, and then open *OutBoundDialerControl* in Power Apps. Learn more in [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).
 

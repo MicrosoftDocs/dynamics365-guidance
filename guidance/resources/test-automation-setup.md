@@ -1,4 +1,4 @@
-﻿---
+---
 title: Set up test automation with Playwright
 description: Learn how to set up automated end-to-end testing with Playwright for Microsoft Dynamics 365 Customer Service projects.
 author: edupont04
@@ -63,9 +63,9 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample automation proje
 
 ### Set up test automation
 
-1. Download or clone the sample automation project from the repository at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/Customer%20Service/Testing](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing).
+1. Download or clone the sample automation project from the repository at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/Customer Service/Customer Service/Testing](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing).
 
-  The project is in the [/Automation/Playwright/Samples/automation](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Playwright/Samples/automation) subfolder.
+  The project is in the [/Automation/Playwright/Samples/automation](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/Automation/Playwright/Samples/automation) subfolder.
 
 1. Extract the project folder, and then open the project in VS Code.
 
@@ -79,7 +79,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample automation proje
   CASE\_NUMBER='Existing case number' 
  ```
 
-The test sample project has [end-to-end tests](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Playwright/Samples/automation/tests-e2e) for the case to resolution business process. It covers the following process areas:
+The test sample project has [end-to-end tests](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/Automation/Playwright/Samples/automation/tests-e2e) for the case to resolution business process. It covers the following process areas:
 
 - [Create a case](../business-processes/case-to-resolution-areas.md#create-a-case)
 - [Work on a case](../business-processes/case-to-resolution-areas.md#work-on-a-case)
@@ -116,7 +116,7 @@ A checkmark next to a file in the Test Explorer indicates the test ran successfu
 
 - [Playwright with Visual Studio Code](https://playwright.dev/docs/getting-started-vscode)
 
-- [Sample scripts from Microsoft](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation)
+- [Sample scripts from Microsoft](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/Automation)
 
 - [Implementation guide: Testing strategy](../implementation-guide/testing-strategy.md)
 

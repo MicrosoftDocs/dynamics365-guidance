@@ -249,7 +249,7 @@ Use the following resources to learn more about the *inventory to deliver* proce
 - [Transportation management overview](/dynamics365/supply-chain/transportation/transportation-management-overview)
 - [Manage inventory in Business Central](/dynamics365/business-central/inventory-manage-inventory)  
 - [Cost accounting in Business Central](/dynamics365/business-central/finance-manage-cost-accounting)  
-- [Dynamics-365-FastTrack-Implementation-Assets/SCM in GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/SCM)
+- [Dynamics-365-FastTrack-Implementation-Assets/SCM in GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/ERP/SCM)
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Accounts payable lead, Accounts receivable lead, Finance lead, Sales lead, Purchasing lead, Production lead, Supply chain lead, Warehouse lead, Transportation lead…

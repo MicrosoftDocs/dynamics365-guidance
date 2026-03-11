@@ -146,7 +146,7 @@ This approach makes sense if you don't have other use cases, such as BI and anal
 
 Microsoft provides a sample Fabric notebook to prepare customer and transaction data for Dynamics 365 Customer Insights - Data. The code is shared under the sample code notice in GitHub. The sample notebook combines the data from multiple Dynamics 365 Commerce tables (customer data such as `DirPartyTable`, `LogisticsPostalAddress`, `LogisticsLocation`, `DirPersonName`, and so on, and transactions in `SaleTables`, `SalesLine`, and so on). The notebook sample transforms and filters the data, and then  converts the data to a denormalized structure that Dynamics 365 Customer Insights can then consume.
 
-Find the Jupyter notebook in the GitHub repo at [CustomerInsightsDataPrep.ipynb](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Commerce/BetterTogether/).
+Find the Jupyter notebook in the GitHub repo at [CustomerInsightsDataPrep.ipynb](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/ERP/Commerce/BetterTogether/).
 
 ## Step 3 - Read prepared data from Lake with Dynamics 365 Customer Insights - Data
 

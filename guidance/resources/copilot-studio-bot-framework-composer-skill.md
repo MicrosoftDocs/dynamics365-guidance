@@ -36,9 +36,9 @@ The intent of this article is to provide a sample code of the custom skill that 
 
 ## Sample code
 
-Find the sample code at [Bot Framework Skill](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/aggregateDTMFSkill.zip). The ZIP file contains a sample Bot Framework Skill project.  
+Find the sample code at [Bot Framework Skill](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/aggregateDTMFSkill.zip). The ZIP file contains a sample Bot Framework Skill project.  
 
-Find another sample at [Copilot Studio classic bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/AggregateDTMF_1_0_0_0.zip). This ZIP file contains the PowerApps solution that contains the bot.  
+Find another sample at [Copilot Studio classic bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/AggregateDTMF_1_0_0_0.zip). This ZIP file contains the PowerApps solution that contains the bot.  
 
 > [!IMPORTANT]
 > Sample codes, components (solutions), and documents created by the community are not supported by Microsoft.
@@ -53,7 +53,7 @@ To work on the bot framework skill sample code, you need a set of things to be s
 - The [Bot Framework Composer](https://aka.ms/bf-composer-download-win) (optional, but assumed for this document)
 - A Copilot Studio classic bot integrated with Omnichannel for Dynamics 365 Customer Service Omnichannel for voice channels
 
-For a copilot that is integrated with a voice channel in Omnichannel for Customer Service, you can import the sample solution [Copilot Studio classic bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/AggregateDTMF_1_0_0_0.zip) in your Customer Service environment.
+For a copilot that is integrated with a voice channel in Omnichannel for Customer Service, you can import the sample solution [Copilot Studio classic bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Customer%20Service/ComponentLibrary/PVA/DTMFAggreationSkill/sampleartifacts/AggregateDTMF_1_0_0_0.zip) in your Customer Service environment.
 
 As soon as the solution is imported, you can open the Copilot Studio classic bot.  
 

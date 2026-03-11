@@ -25,7 +25,7 @@ In our [blog post](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/07/em
 
 In this article, we take things a step further and explore how you can integrate the knowledge base from Dynamics 365 with ChatGPT for even more efficient and effective summarization. By combining the power of Dynamics 365's knowledge base with ChatGPT's natural language processing capabilities, you can provide customers with even more accurate and personalized responses to their queries.  
 
-Watch the video from GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AI/SummarizingD365KBAwithChatGPT/videos/Sumarrizaing%20Recording.mp4).
+Watch the video from GitHub at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ComponentLibrary/AI/SummarizingD365KBAwithChatGPT/videos/Sumarrizaing%20Recording.mp4).
 
 ## Add the action to your topic in your self-service bots
 
@@ -65,4 +65,4 @@ For more information about showing the results in an adaptive card, go to **Rend
 
 ## Artifacts
 
-Download the solution zip file from [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AI/SummarizingD365KBAwithChatGPT/sampleartifacts/SummarizeKBArticleusingGPT_1_0_0_1.zip).
+Download the solution zip file from [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ComponentLibrary/AI/SummarizingD365KBAwithChatGPT/sampleartifacts/SummarizeKBArticleusingGPT_1_0_0_1.zip).

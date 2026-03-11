@@ -12,7 +12,7 @@ ms.custom: sfi-image-nochange
 
 ***Applies to: Dynamics 365 Field Service***
 
-This article describes a sample that Microsoft makes available for download in the [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/Analytics/) GitHub repo. The sample, *Field Service Mobile Offline Analytics Telemetry Dashboard*, demonstrates the information that you can get for [offline profiles in the Dynamics 365 mobile app](/dynamics365/field-service/mobile/set-up-offline-profile). You can import the dashboard into your own Azure Application Insights resources. The dashboard focuses on the usage on mobile offline synchronization. Use the sample dashboard to understand usage, diagnose performance issues, and synchronization issues.  
+This article describes a sample that Microsoft makes available for download in the [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/Analytics/) GitHub repo. The sample, *Field Service Mobile Offline Analytics Telemetry Dashboard*, demonstrates the information that you can get for [offline profiles in the Dynamics 365 mobile app](/dynamics365/field-service/mobile/set-up-offline-profile). You can import the dashboard into your own Azure Application Insights resources. The dashboard focuses on the usage on mobile offline synchronization. Use the sample dashboard to understand usage, diagnose performance issues, and synchronization issues.  
 
 > [!IMPORTANT]
 > This article requires the Offline telemetry as well as Dataverse telemetry to be exported to your Azure Application Insights resources. Azure Application Insights is a consumption-based service, and we recommend that you manage the cost carefully.
@@ -23,7 +23,7 @@ Learn more about the telemetry events that the sample relies on at [Telemetry ev
 
 To use the sample dashboard, you must be signed into Azure Data Explorer with an account that also gives you access to a Dynamics 365 Field Service environment. Learn more at [Visualize data with Azure Data Explorer dashboards](/azure/data-explorer/azure-data-explorer-dashboards).
 
-1. In Azure Data Explorer, create a new dashboard by importing the file *dashboard-Field Service Mobile Offline.json* that you can download from [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/Analytics/dashboard-Field%20Service%20Mobile%20Offline.json).
+1. In Azure Data Explorer, create a new dashboard by importing the file *dashboard-Field Service Mobile Offline.json* that you can download from [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/Analytics/dashboard-Field%20Service%20Mobile%20Offline.json).
 
 2. Give the new dashboard a relevant name, and then choose the **Data sources** action.
 

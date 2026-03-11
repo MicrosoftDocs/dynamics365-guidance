@@ -64,7 +64,7 @@ Used to collect relevant technical information about the CRM on-premises deploym
 
   An LCS service to upgrade custom AX 2012 code and metadata to finance and operations apps format. Provides the Migration summary report, where you will find the code analysis summary, including customization information to review high-level estimates for the efforts required to convert over layering to extensions.
 
-- [Upgrade Analysis Tool (SQL Script) for AX](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/AX2012DataUpgrade/UpgradeAnalysisReport.SQL)  
+- [Upgrade Analysis Tool (SQL Script) for AX](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Administration/AX2012DataUpgrade/UpgradeAnalysisReport.SQL)  
 
   Scripts to gather data on customers' AX environment and system usage, spotlighting new features and improvements. Automated recommendations and resources based on module and functionality used.
 

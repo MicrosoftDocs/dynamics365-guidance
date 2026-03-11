@@ -1,4 +1,4 @@
-﻿---
+---
 title: Set up and run load tests on Dynamics 365 solutions
 description: Learn how to set up and run load tests on Dynamics 365 solutions with Azure Load Testing, using Java, Apache JMeter, and samples provided by Microsoft.
 author: edupont04
@@ -19,7 +19,7 @@ ms.custom:
 
 Load testing your Dynamics 365 solution can offer significant benefits for reliability, performance, and cost optimization, particularly during your preparation for go-live. Load tests are one of the tests that should be part of the [testing strategy](..//implementation-guide/testing-strategy.md) for your Dynamics 365 implementation projects.
 
-Although many tools and services support load testing, the guidance in this article is based on [Azure Load Testing](/azure/load-testing/overview-what-is-azure-load-testing). The following instructions show you how to set up and run the [load test samples](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/At%20Scale/Samples) that Microsoft provides in GitHub.
+Although many tools and services support load testing, the guidance in this article is based on [Azure Load Testing](/azure/load-testing/overview-what-is-azure-load-testing). The following instructions show you how to set up and run the [load test samples](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/At%20Scale/Samples) that Microsoft provides in GitHub.
 
 ## Prerequisites
 
@@ -121,7 +121,7 @@ Use distributed testing in any of the following situations:
 - [Parameterize load tests](/azure/load-testing/how-to-parameterize-load-tests)
 - [Distributed testing](https://jmeter.apache.org/usermanual/jmeter_distributed_testing_step_by_step.html)
 - [Download Java](https://www.oracle.com/java/technologies/downloads/)
-- [Sample scripts from Microsoft](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/At%20Scale/Samples)
+- [Sample scripts from Microsoft](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/At%20Scale/Samples)
 - [Implementation guide: Testing strategy](../implementation-guide/testing-strategy.md)
 
 <!--## Tags
