@@ -60,7 +60,7 @@ For classic bots, you can add audio files using Azure Blob Storage. Security sca
 > You can now create voice agents in Microsoft Copilot Studio based on the *Voice* agent template. Learn more at [Voice](/microsoft-copilot-studio/voice-build-from-template).
 
  ### Prerequisites
-  - Have a custom Copilot Studio classic bot, such as [Sample Copilot Studio classic Bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/PVA/PlayAudioFile/sampleartifacts/PlaySecureAudioFilefromPVA_1_0_0_1.zip).
+  - Have a custom Copilot Studio classic bot, such as [Sample Copilot Studio classic Bot solution](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ComponentLibrary/PVA/PlayAudioFile/sampleartifacts/PlaySecureAudioFilefromPVA_1_0_0_1.zip).
   - Create an Azure Storage account.
   - Have a custom audio clip.
   - [Install Bot Framework Composer](/composer/install-composer?tabs=windows).

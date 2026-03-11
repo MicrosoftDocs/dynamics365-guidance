@@ -38,12 +38,12 @@ Your GitHub repository holds your pipeline YAML definitions and exported/unpacke
 1. In your GitHub file editor, write `Pipelines/D365_DevOps_Export_from_Source.yaml`.  
 
     This creates a subdirectory and the name of your pipeline YAML to export from a source environment.  
-1. In the body of the new YAML file, paste the YAML from the same file [in the FastTrack GitHub repository](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/ALM/Azure%20DevOps%20Sample%20Pipelines/D365_DevOps_Export_from_Source.yaml).  
+1. In the body of the new YAML file, paste the YAML from the same file [in the FastTrack GitHub repository](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/ALM/Azure%20DevOps%20Sample%20Pipelines/D365_DevOps_Export_from_Source.yaml).  
 1. Select **Commit changes** in the upper right, and then select **Commit changes** in the dialog window that appears.  
 
     The GitHub UI takes you to the *Pipelines* folder after this.  
 1. Select **Add file** in the upper right, and then select **Create new file**. In the **Name your file** box, type `D365_DevOps_Push_to_Target.yaml`.  
-1. In the body of the new file, paste the YAML from the same file [in the FastTrack GitHub repository](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/ALM/Azure%20DevOps%20Sample%20Pipelines/D365_DevOps_Push_to_Target.yaml).  
+1. In the body of the new file, paste the YAML from the same file [in the FastTrack GitHub repository](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/ALM/Azure%20DevOps%20Sample%20Pipelines/D365_DevOps_Push_to_Target.yaml).  
 1. Commit your changes again like before.  
 
 Your GitHub repository is now ready for setting up the pipeline.

@@ -22,7 +22,7 @@ The Solution component validation tool provides proactive alerts about deviation
 
 ## Prerequisites
 
-- [Get the samples and tools.](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ALM/)
+- [Get the samples and tools.](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ALM/)
 
 The tool is a managed solution that includes the following components.
 
@@ -42,7 +42,7 @@ The tool is a managed solution that includes the following components.
 
 ## Installation steps
 
-1. Download the package from [ALM](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ALM/).
+1. Download the package from [ALM](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ALM/).
 1. Open the target environment, go to **Settings**, and then select **Solutions**.
 1. Select **Import**, select the zip file, and then import the solution.
 

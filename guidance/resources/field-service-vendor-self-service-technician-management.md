@@ -102,7 +102,7 @@ To set up Azure Functions, follow these steps:
    > [!NOTE]
    > Use the Consumption plan for the Function App to simplify deployment. Other Function plans might require more effort or additional steps.
 
-1. Download a .zip file with the Azure Functions project, FieldService.Optimize25.VendorIntegration.zip, from [the Dynamics-365-FastTrack-Implementation-Assets GitHub repo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/Component%20Library/Vendor%20Self-Service/Azure%20Functions/FieldService.Optimize25.VendorIntegration.zip).
+1. Download a .zip file with the Azure Functions project, FieldService.Optimize25.VendorIntegration.zip, from [the Dynamics-365-FastTrack-Implementation-Assets GitHub repo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/Component%20Library/Vendor%20Self-Service/Azure%20Functions/FieldService.Optimize25.VendorIntegration.zip).
 
 1. [Deploy](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) the Azure Functions project to your Function App.
 
@@ -128,9 +128,9 @@ To set up Azure Functions, follow these steps:
 
 To install and set up the Dynamics 365 solution, follow these steps:
 
-1. Download a .zip file with the unmanaged solution, VendorIntegration.zip, from [the Dynamics-365-FastTrack-Implementation-Assets GitHub repo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/Component%20Library/Vendor%20Self-Service/).
+1. Download a .zip file with the unmanaged solution, VendorIntegration.zip, from [the Dynamics-365-FastTrack-Implementation-Assets GitHub repo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/Component%20Library/Vendor%20Self-Service/).
 
-1. Import the unmanaged solution to your environment. Review the [solution dependencies](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/Vendor%20Self-Service#dynamics-365-solution) that we show in the readme.md file in the repository.
+1. Import the unmanaged solution to your environment. Review the [solution dependencies](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/Vendor%20Self-Service#dynamics-365-solution) that we show in the readme.md file in the repository.
 
 1. Set the following environment variables during the import:
 
@@ -243,4 +243,4 @@ To deprovision and reprovision existing vendor resources, follow these steps:
 - [Form-within-a-form out-of-box (OOB) control](/power-apps/maker/model-driven-apps/form-component-control)  
 - [Entra External ID B2B](/entra/external-id/b2b-fundamentals)
 - [Microsoft Entra](/entra/)  
-- [Vendor Self-Service samples in the Dynamics-365-FastTrack-Implementation-Assets GitHub repo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Field%20Service/Component%20Library/Vendor%20Self-Service/)  
+- [Vendor Self-Service samples in the Dynamics-365-FastTrack-Implementation-Assets GitHub repo](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Customer%20Service/Field%20Service/Component%20Library/Vendor%20Self-Service/)  

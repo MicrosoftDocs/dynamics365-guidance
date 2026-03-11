@@ -92,7 +92,7 @@ The following prerequisites must be deployed and configured before you can deplo
 
 ## Solution download
 
-Download the storage capacity enforcement solution [on GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/coe-starter-kit-extensions).
+Download the storage capacity enforcement solution [on GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Administration/coe-starter-kit-extensions).
 
 ## Related information
 

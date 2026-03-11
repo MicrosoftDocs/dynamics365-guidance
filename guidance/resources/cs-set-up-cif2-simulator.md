@@ -23,11 +23,11 @@ This article outlines the required steps to configure and simulate a digital con
 ## Prerequisites
 
 - [System requirements](/dynamics365/customer-service/channel-integration-framework/v2/system-requirements-channel-integration-framework-v2)  
-- [Get the samples and tools](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Simulator/)
+- [Get the samples and tools](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Simulator/)
 
 ## Configuration steps
 
-1. Download the package at [Channel Integration Framework Simulator](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Simulator/Solutions)  
+1. Download the package at [Channel Integration Framework Simulator](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Channel%20Integration%20Framework%20v2.0/CIF%202.0%20Simulator/Solutions)  
 
     Extract the files, and then open the *Solution Channel Integration Framework simulator solution* in Power Apps. Learn more about how to import solutions at [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).  
 

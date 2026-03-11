@@ -37,7 +37,7 @@ The **Schedule board settings management** control is an unmanaged solution that
 
 ### Option 1
 
-1. Download the unmanaged solution from the GitHub repository at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement).  
+1. Download the unmanaged solution from the GitHub repository at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement).  
 
     The unmanaged solution contains the following components:
 
@@ -87,7 +87,7 @@ A read-only view of the currently selected schedule board is shown on the page. 
 
 ## Virtual PCF control
 
-The GitHub repo also includes an alternative version of the **Schedule board settings management** PCF control that uses the [newer virtual PCF control framework](/power-apps/developer/component-framework/react-controls-platform-libraries). This framework allows for the control to use React and Fluent UI libraries that are already loaded by the platform at runtime, thereby not having to load those libraries itself. This results in a faster loading experience and a roughly 30% smaller control size of the bundle.js file. This version of the control is intended for a more developer-oriented audience and can be found at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement_Virtual](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement_Virtual).  
+The GitHub repo also includes an alternative version of the **Schedule board settings management** PCF control that uses the [newer virtual PCF control framework](/power-apps/developer/component-framework/react-controls-platform-libraries). This framework allows for the control to use React and Fluent UI libraries that are already loaded by the platform at runtime, thereby not having to load those libraries itself. This results in a faster loading experience and a roughly 30% smaller control size of the bundle.js file. This version of the control is intended for a more developer-oriented audience and can be found at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement_Virtual](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Component%20Library/URS/ScheduleBoardSettingsManagement_Virtual).  
 
 Find the reference documentation at [Schedule Board Setting in scheduling](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/projectcommon/scheduling/scheduleboardsetting).  
 
