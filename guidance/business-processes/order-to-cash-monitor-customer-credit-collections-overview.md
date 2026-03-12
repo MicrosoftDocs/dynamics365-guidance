@@ -13,7 +13,7 @@ ms.custom:
 
 # Overview of the Manage credit and collections business process area
 
-***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Project Operations, Dynamics 365 Finance Insights, Dynamics 365 Fraud Protection, Dynamics 365 Customer Insights***
+***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Project Operations, Dynamics 365 Finance Insights, Dynamics 365 Customer Insights***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for monitoring customer credit and collections.
 
@@ -32,8 +32,6 @@ The process for managing credit and collections often splits into two main focus
 ## Using Dynamics 365 to manage credit and collections
 
 Dynamics 365 Finance includes functionality to help you manage your customer master data including establishing credit limits, credit scores, and so on. The Finance app can also help you monitor orders for fraudulent activity, reconcile the credit limits to the customers' balances, and place orders or customers on hold based on your business rules.
-
-Large retailers, not least retailers that primarily do business online with consumers, typically have credit or fraud departments that monitor sales for fraudulent activity. Dynamics 365 Fraud Protection includes functionality to help customers manage fraud in three key pillars including account protection, loss prevention, and purchase protection. Fraud Protection uses artificial intelligence (AI) to help protect your business from fraud.
 
 ## Stakeholders
 
@@ -149,15 +147,11 @@ Use the following resources to learn more about the *Manage credit and collectio
 
 - [Finance insights home page](/dynamics365/finance/finance-insights/finance-insights-home-page)
 
-- [Overview of Dynamics 365 Fraud Protection](/dynamics365/fraud-protection/)
-
 - [Configure credit and collections in Dynamics 365 Finance (online training)](/training/modules/configure-credit-collections-dyn365-finance/)
 
 - [Process credit and collections in Dynamics 365 Finance (online training)](/training/modules/process-credit-collections-dyn365-finance/)
 
 - [Set up and work with Finance insights in Dynamics 365 Finance (online training)](/training/paths/setup-work-finance-insights/)
-
-- [Deploy and work with Account Protection and Purchase Protection for Dynamics 365 Fraud Protection (online training)](/training/paths/deploy-work-account-purchase-protection/)
 
 ## Contributors
 
@@ -172,4 +166,4 @@ Principal author:
 
 *Stakeholders:* Finance stakeholders, Accounts receivable stakeholders, Sales stakeholders, Operations stakeholders
 
-*Products:* Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management
+*Products:* Dynamics 365 Commerce, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management

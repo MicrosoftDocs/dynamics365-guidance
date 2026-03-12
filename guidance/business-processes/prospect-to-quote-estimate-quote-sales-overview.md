@@ -9,7 +9,7 @@ ms.author: kowildfe
 
 # Help sales teams maintain profitability with the estimate and quote sales process area
 
-***Applies to: Dynamics 365 Sales, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Fraud Protection***
+***Applies to: Dynamics 365 Sales, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
 This article describes the key steps and considerations for using Dynamics 365 to accurately estimate and quote sales. Effective quoting helps sales teams win more deals and maintain profitability.
 
