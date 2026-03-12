@@ -429,7 +429,7 @@ Review the following related architecture guides, solutions, and other guidance 
 
 *Stakeholders:* Accounts receivable, Customer services, Retail store operations, Sales, Warehouse
 
-*Products:* Dynamics 365 Commerce, Dynamics 365 Customer Insights – Data, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Supply Chain Management, Azure Logic Apps -->
+*Products:* Dynamics 365 Commerce, Dynamics 365 Customer Insights – Data, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Azure Logic Apps -->
 
 ## Contributors
 

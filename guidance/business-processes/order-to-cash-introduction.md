@@ -93,4 +93,4 @@ Principal author:
 <!--## Tags
 *Stakeholders*: Accounts receivable, Administrative, Customer services, Engineering, Finance, IT, Marketing, Merchandising, Operations, Production, Purchasing, Retail store operations, Sales, Service operations, Transportation, Treasury, Warehouse  
 
-*Products*: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Intelligent Order Management, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management
+*Products*: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Intelligent Order Management, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management

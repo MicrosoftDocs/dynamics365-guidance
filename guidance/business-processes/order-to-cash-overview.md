@@ -78,8 +78,6 @@ The order to cash process interacts with the following product-specific capabili
 
 - **Dynamics 365 Finance Insights**: Finance insights provides configurable and extensible solutions to help you intelligently predict your company's cash flow, predict when you may receive payment for outstanding receivables, and generate a budget proposal, which can help speed up your budgeting process.
 
-- **Dynamics 365 Fraud Protection**: Fraud Protection is a cloud-based anti-fraud solution for medium- to large-sized organizations worldwide, designed to help lower fraud-related costs, increase profits, and improve customer experience.
-
 - **Intelligent Order Management**: With Supply Chain Center and intelligent order management, organizations can manage the orchestration of orders through to fulfillment across different platforms and apps.
 
 ## Order to cash business process flow
@@ -151,5 +149,5 @@ Principal author:
 <!--## Tags
 *Stakeholders*: Accounts receivable, Administrative, Customer services, Engineering, Finance, IT, Marketing, Merchandising, Operations, Production, Purchasing, Retail store operations, Sales, Service operations, Transportation, Treasury, Warehouse
 
-*Products*: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Intelligent Order Management, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management
+*Products*: Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Intelligent Order Management, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management
 -->

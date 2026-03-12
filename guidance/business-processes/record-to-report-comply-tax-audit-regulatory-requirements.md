@@ -11,7 +11,7 @@ ms.author: raprofit
 
 This business process area has been deprecated and merged into [Overview of the define financial structure and organizational accounting policies business process](record-to-report-define-accounting-policies.md).  
 <!-- 
-***Applies to: Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Field Service, Dynamics 365 Fraud Protection, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales***
+***Applies to: Dynamics 365 Business Central, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Field Service, Dynamics 365 Human Resources, Dynamics 365 Project Operations, Dynamics 365 Sales***
 
 This article describes how you can use Dynamics 365 not only to ensure adherence to tax, audit, and regulatory mandates, but also to streamline and optimize these essential business processes.
 
@@ -19,7 +19,7 @@ In the quickly evolving landscape of modern organizations, it's increasingly com
 
 Tax compliance, audit compliance, and regulatory compliance are foundational pillars of a well-governed and sustainable business environment. Adherence to these standards is not only a legal necessity but also a strategic imperative. Failure to comply with tax laws, auditing standards, or regulatory requirements can lead to costly penalties, reputational damage, and operational disruptions. As businesses expand across borders and regulations continually evolve, the ability to proactively manage and adapt to these compliance demands is critical for long-term success.
 
-Dynamics 365 Finance offers a robust platform that includes features such as the Globalization Studio, Electronic invoicing, the audit workbench, audit logs, and a comprehensive tax engine to help calculate tax. These features help empower organizations to stay ahead in the compliance landscape. When you use Dynamics 365 Sales, Customer Service, or Field Service, or apps that are built on Dataverse in Power Apps, you can enable audit logging on a table-by-table basis. The [Dataverse auditing](/power-platform/admin/manage-dataverse-auditing) feature is designed to meet the external and internal auditing, compliance, security, and governance policies that are common to many enterprises. [Database logging](/dynamics365/fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log) is a similar feature that is available in Dynamics 365 Finance, Commerce, Supply Chain Management, Human Resources, and Project Operations. Dynamics 365 Fraud Protection includes adaptive AI that can help protect organizations against payment fraud, bots, account takeover, and returns and discount fraud.
+Dynamics 365 Finance offers a robust platform that includes features such as the Globalization Studio, Electronic invoicing, the audit workbench, audit logs, and a comprehensive tax engine to help calculate tax. These features help empower organizations to stay ahead in the compliance landscape. When you use Dynamics 365 Sales, Customer Service, or Field Service, or apps that are built on Dataverse in Power Apps, you can enable audit logging on a table-by-table basis. The [Dataverse auditing](/power-platform/admin/manage-dataverse-auditing) feature is designed to meet the external and internal auditing, compliance, security, and governance policies that are common to many enterprises. [Database logging](/dynamics365/fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log) is a similar feature that is available in Dynamics 365 Finance, Commerce, Supply Chain Management, Human Resources, and Project Operations. 
 
 In any enterprise resource planning (ERP) implementation, the timely and precise definition, scoping, and implementation of tax, audit, and regulatory compliance processes are paramount. These considerations should be an integral part of the ERP project from the beginning. We recommend that an analysis of these requirements occurs early in the implementation process. Although many features for compliance, localization, and so on, can be added later, project costs and the project timeline can increase significantly if this analysis isn't done early.
 
@@ -122,8 +122,6 @@ You can use the following resources to learn more about the tax, audit, and regu
 - [Product localization and translation availability guide](https://aka.ms/dynamics_365_international_availability_deck)
 - [Dynamics 365 Finance, Supply Chain Management, and Commerce operated by 21Vianet in China](/dynamics365/fin-ops-core/dev-itpro/deployment/china-local-deployment)
 - [Manage Dataverse auditing - Power Platform](/power-platform/admin/manage-dataverse-auditing)
-- [Overview of Dynamics 365 Fraud Protection](/dynamics365/fraud-protection/)
-- [Regional availability of Dynamics 365 Fraud Protection services](/dynamics365/fraud-protection/global-availability)
 - [Compliance Overview - Business Central](/dynamics365/business-central/compliance/compliance-overview?)
 - [Local functionality in Business Central](/dynamics365/business-central/about-localization)
 - [General Data Protection Regulation - Microsoft GDPR](/compliance/regulatory/gdpr)
@@ -153,7 +151,7 @@ You can use the following resources to learn more about the tax, audit, and regu
 
 *Stakeholders:* Accounts payable, Accounts receivable, Audit, Customer services, Finance, Human Resources, IT, Production, Project Management, Purchasing, Treasury
 
-*Products:* Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Project Operations -->
+*Products:* Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Project Operations -->
 <!-- 
 ## Contributors
 

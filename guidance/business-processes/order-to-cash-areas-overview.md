@@ -178,4 +178,4 @@ Principal author:
 - [Rachel Profitt](https://www.linkedin.com/in/rachelprofitt/) | Principal Program Manager, FastTrack for Dynamics 365  
 
 <!--## Tags
-*Products:* Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Fraud Protection, Dynamics 365 Intelligent Order Management, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management-->
+*Products:* Dynamics 365 Commerce, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Finance, Dynamics 365 Intelligent Order Management, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management-->
