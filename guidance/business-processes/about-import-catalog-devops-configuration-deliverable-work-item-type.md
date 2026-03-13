@@ -64,7 +64,6 @@ We recommend that you have a custom field, **Products**, that defines the Dynami
 - Customer Voice
 - Field Service
 - Finance
-- Fraud Protection
 - Guides
 - Human Resources
 - Project Operations

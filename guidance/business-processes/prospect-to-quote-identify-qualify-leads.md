@@ -9,7 +9,7 @@ ms.author: kowildfe
 
 # Create well-run lead management with the identify and qualify leads business process area
 
-Applies to: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Insights - Data, Dynamics 365 Fraud Protection***
+Applies to: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Insights - Data***
 
 This article provides an overview of using Dynamics 365 to identify and qualify leads, and therefore drive sales pipeline growth and revenue. Well-run lead management encompasses generating, nurturing, scoring, and qualifying leads to feed the sales pipeline.
 
