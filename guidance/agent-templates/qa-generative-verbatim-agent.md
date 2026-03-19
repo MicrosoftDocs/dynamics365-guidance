@@ -59,7 +59,7 @@ The agent is a Copilot Studio agent that uses generative AI for intelligent ques
 - Pharmaceuticals
 - Regulated Industries
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

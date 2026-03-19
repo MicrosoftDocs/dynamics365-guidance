@@ -3,7 +3,7 @@ title: Automate Routine Queries Agent
 description: Learn about the template you can use to set up an AI agent to reduce contact center costs with intelligent self-service AI agents that handle routine inquiries.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 03/13/2026
 ms.topic: concept-article
 ---
 
@@ -60,7 +60,7 @@ AI agents handle common inquiries across chat, voice, and email. An agent dynami
 - Education
 - Technology
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

@@ -58,7 +58,7 @@ Agent answering after-hours calls, responding to chat and emails using AI to ass
 - Property Management
 - Security Services
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

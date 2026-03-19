@@ -54,7 +54,7 @@ Generative AI agent automatically drafts First Response Letters by extracting an
 - Government
 - Regulated Industries
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

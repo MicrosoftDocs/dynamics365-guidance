@@ -54,7 +54,7 @@ AI agent assesses customer engagements using supervisor-defined evaluation frame
 - Telecommunications
 - All regulated industries requiring quality oversight
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

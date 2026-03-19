@@ -4,7 +4,7 @@ description: Get introduced to the case to resolution end-to-end business proces
 ms.date: 04/26/2024
 ms.topic: concept-article
 author: edupont04
-ms.author: marcoje
+ms.author: raprofit
 ---
 
 # Help organizations manage and optimize their case to resolution processes with Dynamics 365

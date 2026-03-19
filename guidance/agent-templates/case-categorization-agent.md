@@ -57,7 +57,7 @@ Leverages generative AI to automatically extract, predict, and populate case fie
 - Education
 - Utilities
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

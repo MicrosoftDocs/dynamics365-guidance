@@ -48,7 +48,7 @@ Agent autonomously monitors cases matching configured conditions and sends perio
 
 - All sectors requiring systematic case follow-up and closure management
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
