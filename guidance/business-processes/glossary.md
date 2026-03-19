@@ -40,6 +40,14 @@ Overall, the Accounting Standards Codification plays a crucial role in maintaini
 
 It encompasses all the expenses associated with acquiring the asset and making it ready for use in business operations. The asset acquisition cost includes both direct and indirect costs related to the purchase, delivery, and commissioning of the asset.
 
+### Activation
+
+In Dynamics 365 Finance, activation can refer to two distinct processes related to the financial dimension framework.
+
+*Account structure activation* takes the current draft version of an account structure and makes it the active version. When an account structure is activated, it raises events across the application to resynchronize any unposted transactions that reference ledger accounts affected by the structural changes (for example, reordering or removing dimension segments). Structure activation can only be performed in batch and should be run during periods of low transaction volume to avoid contention.
+
+*Dimension activation* occurs when financial dimensions are added, renamed, or removed. Because this changes database schema, it requires [maintenance mode](/dynamics365/fin-ops-core/dev-itpro/sysadmin/maintenance-mode). While in maintenance mode, the system runs in a restricted mode so it can safely apply structural changes.
+
 ### Administer system features
 
 System features are the backbone of Dynamics 365 functionality. Administering these features involves fine-tuning configurations, ensuring optimal alignment with evolving business processes in addition to staying up to date with Microsoft release notes and configuring new features from feature management workspace will help ensuring Dynamics 365 is optimized for your business needs. with Power Apps and customizations of Dynamics 365, administrators can tailor the system to the organization's specific requirements. This way, Dynamics 365 remains a tailored and dynamic solution that adapts seamlessly to evolving business processes.
@@ -50,7 +58,7 @@ The process of integrating a technology solution Dynamics 365 into the daily ope
 
 ### Advanced rule
 
-An advanced rule in Dynamics 365 Finance is a configuration that allows you to define account structure exceptions for financial dimensions that are specific to one or a few main accounts. It allows for more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. Advanced rules allow you to add additional financial dimensions that aren't included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions.
+In Dynamics 365 Finance, you can configure advanced rules that define account structure exceptions for financial dimensions that are specific to one or a few main accounts. Advanced rules support more sophisticated workflows and decision-making based on specific conditions for the combinations of main account and financial dimensions. With advanced rules, you can add additional financial dimensions that aren't included in the account structure to be dynamically presented to the user and control what values or attributes are collected on certain transactions. Learn more at [Create and assign advanced rule structures](/dynamics365/finance/general-ledger/tasks/create-assign-advanced-rule-structures).
 
 ### Aging periods
 
@@ -534,6 +542,13 @@ Currency revaluation is the process of adjusting the value of assets and liabili
 - Cash and bank management – for revaluating bank balances
 - General ledger – for revaluating general ledger account balances
 
+### Custom dimensions
+
+The term *custom dimensions* has two related meanings in Dynamics 365 Finance.
+
+1. A user‑defined financial dimension that reflects the organization's specific business needs, rather than a default configuration, such as an internal cost center, project classification, fleet or equipment identifier, or other company‑specific ways of categorizing transactions.
+2. A financial dimension with values that users maintain in a list where they manually create and maintain the available values, such as a predefined list of expense purposes, departments, or business units that users enter directly.
+
 ### Customer credit group
 
 A [customer credit group](/dynamics365/finance/accounts-receivable/cm-customer-credit-groups) is a group of customers that have a shared credit limit. The individual credit limit on a customer invoice account is also considered. You can select members of a customer credit group from different legal entities. When you decide how to structure your customer accounts, consider how credit limits are managed. For example, a customer account can have only one credit limit. If a customer account has many delivery addresses that each require a different credit limit, consider whether they should be separate customer accounts. Then you can use a customer credit group to create an overall credit limit across the customer's accounts.
@@ -563,6 +578,14 @@ For some records, you can specify changes that take effect after a specific date
 ### Date intervals
 
 Date intervals define specific time spans used in financial reporting and analysis. Examples include fiscal years, quarters, months, and custom date ranges that help organize and analyze financial data. In Dynamics 365 applications you can use date intervals to run a report with a dynamic date range.
+
+### Default accounts
+
+In Dynamics 365 Finance, a default account is a single-segment ledger account whose only segment is main account. Its [account structure](#account-structure) is system-generated and hidden from view.
+
+### Default dimensions
+
+Default dimensions are dimension values set on master data records such as customers and vendors that automatically carry over to new documents and transactions. They reduce manual data entry by pre-filling dimension information based on the records involved, acting as a starting point that can be overridden on individual transactions as needed.
 
 ### Deferrals
 
@@ -602,9 +625,21 @@ Depreciation is a key accounting concept that allocates the cost of an asset ove
 
 Fixed asset depreciation methods and conventions are handled slightly differently in Dynamics 365 Finance and Dynamics 365 Business Central. Learn more at [Fixed asset depreciation conventions (Finance)](/dynamics365/finance/fixed-assets/fixed-asset-depreciation-conventions) and [Depreciation methods for fixed assets (Business Central)](/dynamics365/business-central/fa-depreciation-methods).
 
+### Derived dimensions
+
+Derived dimensions are a financial dimension configuration in Dynamics 365 Finance that automatically fills in related dimension values when a user enters a specific dimension value. For example, when a user enters a **Department** value, Dynamics 365 Finance automatically populates **CostCenter** and **BusinessUnit**. Unlike [account structure](#account-structure) constraints that only validates the data, derived dimensions actively apply default values to reduce manual data entry. Derived dimensions only work with dimensions that are not company-specific.
+
 ### Digital Contact Center Platform (DCCP)
 
 Microsoft Digital Contact Center Platform (DCCP) is a comprehensive but flexible solution for contact centers. DCCP uses AI and deep analytics to anticipate customer requests, predict intent, and provide rapid resolution. It also empowers agents to serve your customers by bringing the right information, people, and insights directly into the flow of work.
+
+### Dimension attribute
+
+A dimension attribute is the descriptor or name of a tracked financial dimension in Dynamics 365 Finance, such as *Department*, *CostCenter*, or *Project*. It defines *what* is being tracked, not the individual values.
+
+### Dimension attribute value
+
+A dimension attribute value is one of the individual values that you associate with a dimension attribute and then reference in Dynamics 365 Finance. A value is only stored as a dimension after it's used, such as when a user selects it in a journal or overrides one of its properties as an override of a legal entity. For example, if the dimension attribute is *Customer*, the values might be individual customer accounts such as *CUST‑001* or *CUST‑045*, and if the dimension attribute is *CostCenter*, the values might be entries like *Sales*, *Marketing*, or *IT‑Support*.
 
 ### Disaster Recovery Plan (DRP)
 
@@ -733,6 +768,10 @@ In accounting, a fixed asset is any long-term asset whose cost expiration is rec
 A fixed asset, also known as a capital asset, is a tangible piece of property, plant, or equipment (PP&E) that you own or manage with the expectation that it will continue to help generate income. An asset is fixed when it's an item that your business won't consume, sell, or convert to cash within the next calendar year. Fixed assets are different than current assets, which are in cash or slated to be converted to cash within the next 12 months. Fixed assets also differ from your inventory, because inventory is typically consumed within a short time.
 
 Learn about fixed assets in Dynamics 365 Business Central at [Manage fixed assets](/dynamics365/business-central/fa-manage). Learn about fixed assets in Dynamics 365 Finance at [Fixed assets home](/dynamics365/finance/fixed-assets/fixed-assets).
+
+### Fixed dimensions
+
+**Fixed dimensions** is a setting on main account overrides that controls whether the dimension values specified there are treated as defaults (non-fixed) or as enforced values (fixed). When a dimension is set to fixed, any value that a user enters for that dimension is overwritten by the fixed value during posting, regardless of what the user entered.
 
 ### Fixed-price projects
 
@@ -1057,6 +1096,10 @@ Leave types in Dynamics 365 Human Resources define the types of absences that em
 
 A ledger is a financial record-keeping system that contains the chart of accounts, account structures, calendars, and currencies used to classify and summarize financial transactions. In Dynamics 365 Finance, you create a ledger for each legal entity.
 
+### Ledger dimensions
+
+A ledger dimension is a multi-segment ledger account that combines a main account with one or more [financial dimensions](#financial-dimensions) in Dynamics 365 Finance and is used for posting to the general ledger. The segment order and valid value combinations are controlled by the user-configured [account structures](#account-structure) and [advanced rules](#advanced-rule).
+
 ### Ledger postings
 
 Ledger postings involve the process of updating the general ledger with transactional data. In Dynamics 365 Finance, this ensures that all financial activities are accurately reflected in the central accounting system, providing a consolidated view of an organization's financial health.
@@ -1207,6 +1250,10 @@ Multicurrency refers to the ability of the system to handle transactions and fin
 ### Non-billable hours
 
 Of the hours that are worked on tasks, those hours that aren't directly chargeable to clients are known as non-billable hours. Non-billable hours are essential for project management, internal meetings, training, and other activities that aren't client-facing. Learn more at [Deliver project work](project-to-profit-deliver-project-work.md) and [Billable hours](#billable-hours).
+
+### Non-ledger journal account
+
+A non-ledger journal account is a journal line account type in Dynamics 365 Finance that users can use to specify an account type other than Ledger, such as Bank, Customer, Vendor, Project, or Item. Non-ledger journal accounts are also called multi-typed or dynamic accounts. You select the account type from a drop-down list on the journal line. At posting time, the system uses posting profiles to determine the actual ledger account and dimensions for non-ledger account types.
 
 ## O
 
