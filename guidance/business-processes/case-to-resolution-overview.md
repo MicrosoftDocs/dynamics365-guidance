@@ -4,7 +4,7 @@ description: Learn about the case to resolution end-to-end business flow with a 
 ms.date: 03/13/2024
 ms.topic: concept-article
 author: edupont04
-ms.author: marcoje
+ms.author: raprofit
 ---
 
 # Overview of case to resolution end-to-end business process flow

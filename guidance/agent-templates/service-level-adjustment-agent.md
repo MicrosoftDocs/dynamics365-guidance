@@ -58,7 +58,7 @@ AI agent monitors customer interactions analyzing language, sentiment, and discl
 - Government Services
 - Social Services
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio

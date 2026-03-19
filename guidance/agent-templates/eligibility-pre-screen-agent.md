@@ -57,7 +57,7 @@ This agent template is for a conversational AI agent that guides users through a
 - Lending
 - Real Estate
 
-## Licensing requirements
+## Required products and services
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
