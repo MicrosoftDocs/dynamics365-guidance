@@ -1,15 +1,15 @@
 ---
-title: Automate Azure DevOps Project, Process, Work Item Types, Fields, and Picklists from Excel with Python
+title: Automate Azure DevOps Project, Processes from Excel with Python
 description: This article demonstrates how to automate the creation of Azure DevOps projects, processes, work item types, fields, and picklists using a Python script and an Excel template. The template is designed to follow the Success by Design framework and recommended practices with the Microsoft Business Process Catalog. The script leverages the Azure DevOps REST API and reads configuration data from an Excel file, making it easy to provision environments at scale.
-author: rprofitt
-ms.author: rprofitt
+author: rachel-profitt
+ms.author: raprofit
 ms.date: 03/24/2026
 ms.topic: how-to
 ms.service: dynamics-365
 ms.subservice: guidance
 ---
 
-# Automate Azure DevOps Project, Process, Work Item Types, Fields, and Picklists from Excel with Python
+# Automate Azure DevOps project, process, work item types, fields, and picklists from Excel with Python
 
 This article demonstrates how to automate the creation of Azure DevOps projects, processes, work item types, fields, and picklists using a Python script and an Excel template. The template is designed to follow the Success by Design framework and recommended practices with the Microsoft Business Process Catalog. The script leverages the Azure DevOps REST API and reads configuration data from an Excel file, making it easy to provision environments at scale.
 
@@ -20,47 +20,52 @@ Before running this script, ensure you have the following:
 1. Python 3.x installed on your machine. Install Python
 2. Required Python packages:
 
-```powershell
-# Windows PowerShell / PowerShell 7
-python --version
-python -m pip install --upgrade pip
-# Required packages for the ADO setup scripts
-python -m pip install pandas requests openpyxl
-```
+    ```powershell
+    # Windows PowerShell / PowerShell 7
+    python --version
+    python -m pip install --upgrade pip
+    # Required packages for the ADO setup scripts
+    python -m pip install pandas requests openpyxl
+    ```
 
-# (Optional) Verify that openpyxl is available
+    Optionally, verify that *openpyxl* is available
 
-```powershell
-python -c "import openpyxl, sys; print('openpyxl', openpyxl.__version__)"
-```
+    ```powershell
+    python -c "import openpyxl, sys; print('openpyxl', openpyxl.__version__)"
+    ```
 
-3. Azure DevOps Organization. You must have an Azure DevOps organization. For more information see Create an Azure DevOps organization.
+3. Azure DevOps Organization. You must have an Azure DevOps organization. Learn more at [Create an Azure DevOps organization](/azure/devops/organizations/accounts/create-organization) in the documentation for Azure DevOps Services.
 4. Ensure you have the correct access.
-   a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. For more information, see [Get started as a project collection administrator or organization owner](https://learn.microsoft.com/en-us/azure/devops/user-guide/manage-organization-collection?view=azure-devops).
-   b. Create a personal access token (PAT). When creating your PAT, select the following scopes:
+
+    a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. Learn more at [Get started as a project collection administrator or organization owner](/azure/devops/user-guide/manage-organization-collection?view=azure-devops).
+    b. Create a personal access token (PAT). When creating your PAT, select the following scopes:
       - Organization: Read & manage
       - Project and Team: Read & manage
       - Work Items: Read & write
       - Process and Work Item Types: Read & manage
-For more information, see [Use Personal Access Tokens](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
+
+    Learn more at [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
 
 5. Excel Template: Download the sample Excel template from for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
-   a. Work item types
-   b. Fields
-   c. Picklists
-> [!TIP]
-> Partners and customers can modify this file to match their requirements before running the script.
+    a. Work item types
+    b. Fields
+    c. Picklists
+    > [!TIP]
+    > Partners and customers can modify this file to match their requirements before running the script.
 
 6. Update partner defined picklists.
-The Excel template file provided includes several picklists that are intended to be defined by the partner based on your project methodology and implementation project needs. Use the following information to guide you:
 
-- **Partner phase.** For example, you could align these to Success by Design phases and create a phase for Strategize, Initiate, Implement, Prepare, and Operate. Or you could create more detailed phases like Analyze, Design, Build, Test, and so on.
-- **Partner workshop type**. For example, Discovery, Solution Design, Business Transformation, and so on.
-- **Workstream**. Workstreams are used to categorize work items that are created for filtering and assignment. For example, Finance, Procurement, Sales, Field Service, and so on.
-- **Authorized for deployment.** Use this list to maintain a list of the environments for the project to indicate when code or configuration for example are ready to be deployed to the next environment. We recommend the list of values matches the name of the environment in the customers tenant. For example, DEV, TEST, and PROD.
-- **Current highest deployment.** Use this list to maintain a list of the environments for the project to indicate the highest-level environment where the code or configuration has been deployed. We recommend the list of values matches the name of the environment in the customers tenant. For example, DEV, TEST, and PROD.
+    The Excel template file provided includes several picklists that are intended to be defined by the partner based on your project methodology and implementation project needs. Use the following information to guide you:
+
+    - **Partner phase.** For example, you could align these to Success by Design phases and create a phase for Strategize, Initiate, Implement, Prepare, and Operate. Or you could create more detailed phases like Analyze, Design, Build, Test, and so on.
+    - **Partner workshop type**. For example, Discovery, Solution Design, Business Transformation, and so on.
+    - **Workstream**. Workstreams are used to categorize work items that are created for filtering and assignment. For example, Finance, Procurement, Sales, Field Service, and so on.
+    - **Authorized for deployment.** Use this list to maintain a list of the environments for the project to indicate when code or configuration for example are ready to be deployed to the next environment. We recommend the list of values matches the name of the environment in the customers tenant. For example, DEV, TEST, and PROD.
+    - **Current highest deployment.** Use this list to maintain a list of the environments for the project to indicate the highest-level environment where the code or configuration has been deployed. We recommend the list of values matches the name of the environment in the customers tenant. For example, DEV, TEST, and PROD.
+
 7. Network Access:
-   a. Ensure your machine can reach dev.azure.com and that your organization allows REST API access.
+    a. Ensure your machine can reach dev.azure.com and that your organization allows REST API access.
+
 ## Procedure: Run the script 
 
 **1. Prepare Your Environment**
