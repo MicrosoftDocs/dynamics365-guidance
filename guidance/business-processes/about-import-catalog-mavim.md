@@ -9,6 +9,9 @@ ms.date: 01/30/2026
 
 # Import the business process catalog in Mavim using a Power Automate flow
 
+  > [!IMPORTANT]
+   > This article documents the process for importing the Business Process Catalog with versions prior to the March 2026 release. If you wnat to use the March 2026 or newer versions, please refer to [Import the Business Process Catalog using the Mavim Database](about-import-catalog-mavim-database.md).
+
 This article describes how to use Microsoft's business process catalog in Mavim, a business process management platform that you can find in the [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_bpm?tab=Overview).
 
 The business process catalog defines workflows, protocols, and procedures as a base line for process-driven Dynamics 365 implementations. However, capturing and managing such a vast array of business processes manually often leads to issues. Such issues might include inefficiencies, inconsistencies, and difficulties in maintaining alignment with organizational goals and standards. Traditional methods often lack integration, version control, and collaboration capabilities. Keeping documentation up to date and accessible to relevant stakeholders is challenging as a result.
