@@ -1,8 +1,8 @@
 ---
 title: Automate Azure DevOps page layout creation with Python
 description: This article demonstrates how to automate the creation of Azure DevOps projects, processes, work item types, fields, and picklists using a Python script and an Excel template. The template is designed to follow the Success by Design framework and recommended practices with the Microsoft Business Process Catalog. The script leverages the Azure DevOps REST API and reads configuration data from an Excel file, making it easy to provision environments at scale.
-author: rprofitt
-ms.author: rprofitt
+author: rachel-profitt
+ms.author: raprofit
 ms.date: 03/24/2026
 ms.topic: how-to
 ms.service: dynamics-365
@@ -20,64 +20,68 @@ Before running this script, ensure you have the following:
 1. Python 3.x installed on your machine. Install Python
 2. Install the required Python packages:
 
-```powershell
-pip install pandas requests
-```
+    ```powershell
+    pip install pandas requests
+    ```
 
 3. Azure DevOps Organization. You must have an Azure DevOps organization. For more information see Create an Azure DevOps organization.
 4. Ensure you have the correct access.
-   a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. For more information, see [Get started as a project collection administrator or organization owner](https://learn.microsoft.com/en-us/azure/devops/user-guide/manage-organization-collection?view=azure-devops).
-   b. Create a personal access token (PAT). When creating your PAT, select the following scopes:
+
+    a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. For more information, see [Get started as a project collection administrator or organization owner](/azure/devops/user-guide/manage-organization-collection?view=azure-devops).
+    b. Create a personal access token (PAT). When creating your PAT, select the following scopes:
       - Organization: Read & manage
       - Project and Team: Read & manage
       - Work Items: Read & write
       - Process and Work Item Types: Read & manage
-For more information, see [Use Personal Access Tokens](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
+    Learn more at [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
 
-5. Download the Excel template. You can download the sample Excel template from for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
-   a. Work item types
-   b. Fields
-> [!TIP]
-> Partners and customers can modify this file to match their requirements before running the script.
+6. Download the Excel template. You can download the sample Excel template from for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
+    a. Work item types
+    b. Fields
+    > [!TIP]
+    > Partners and customers can modify this file to match their requirements before running the script.
 
 1. Ensure your machine can reach dev.azure.com and that your organization allows REST API access.
-2. Ensure you have already run the 1_ADO_Creation_Script.py script to create the Process, Projects, Work item types, Fields, and picklists. For more information, see Automate Azure DevOps Project, Process, Work Item Types, Fields, and Picklists from Excel with Python.
+2. Ensure you have already run the 1_ADO_Creation_Script.py script to create the Process, Projects, Work item types, Fields, and picklists. Learn more at [Automate Azure DevOps Project, Process, Work Item Types, Fields, and Picklists from Excel with Python](about-configure-azure-devops-project-processes.md).
+
 ## Procedure: Run the script 
 
-**1. Prepare Your Environment**
+### 1. Prepare Your Environment
 
-- Install required Python packages.
+1. Install the required Python packages.
 
-```powershell
-pip install pandas requests
-```
+    ```powershell
+    pip install pandas requests
+    ```
 
-- Download the script and save it as 2_ADO_Page_Layout_Script_Threaded.py.
-**2. Configure the Script**
+1. Download the script and save it as 2_ADO_Page_Layout_Script_Threaded.py.
 
-- In the script, locate the **USER CONFIGURATION** section at the top.
-- Replace the following variables with your own values:
-   - ADO_ORG_URL: Your Azure DevOps organization URL
-   - ADO_PROJECT: The name of the project to create/use
-   - PROCESS_NAME: The name of the process to create/use
-   - PAT: Your Azure DevOps Personal Access Token
-   - EXCEL_FILE: Path to your Excel template
-   - LOG_FILE: Path for the log file
-**3. Run the Script**
+### 2. Configure the script
 
-a. Open a terminal and run the script:
+1. In the script, locate the **USER CONFIGURATION** section at the top.
+1. Replace the following variables with your own values:
+    - ADO_ORG_URL: Your Azure DevOps organization URL
+    - ADO_PROJECT: The name of the project to create/use
+    - PROCESS_NAME: The name of the process to create/use
+    - PAT: Your Azure DevOps Personal Access Token
+    - EXCEL_FILE: Path to your Excel template
+    - LOG_FILE: Path for the log file
 
-```powershell
-python 2_ADO_Page_Layout_Script_Threaded.py
-```
+### 3. Run the script
 
-b. The script will loop through each work item type:
-   a. Create Pages if they do not exist from the Excel sheet
-   b. Create or update Groups from the Excel sheet
-   c. Create or update Controls from the Excel sheet
+1. Open a terminal and run the script:
+
+    ```powershell
+    python 2_ADO_Page_Layout_Script_Threaded.py
+    ```
+
+1. The script will loop through each work item type:
+    a. Create Pages if they do not exist from the Excel sheet
+    b. Create or update Groups from the Excel sheet
+    c. Create or update Controls from the Excel sheet
 1. All API calls and actions are logged to the specified log file.
-> [!NOTE]
-> This script takes more than an hour to run due to the very high number of API calls. The script is designed to be resilient with retry logic embedded.
+    > [!NOTE]
+    > This script takes more than an hour to run due to the very high number of API calls. The script is designed to be resilient with retry logic embedded.
 
 2. Review results
 - Check the log file for details and troubleshooting.
@@ -100,7 +104,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample python script th
 
 The sample python script does not do certain configuration that we recommend when you are using the Microsoft Business Process Catalog to manage your projects. 
 
-1. **Add HTML controls to the pages.** Due to a limitation in the Azure DevOps API, HTML controls cannot be added to the layout. These controls must be added manually to the work item types. For more details about how to add controls to pages, see [Add and Manage Fields for an Inherited Process](https://learn.microsoft.com/en-us/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops). Use the following table to guide you to add the custom HTML controls to the work item types.
+1. **Add HTML controls to the pages.** Due to a limitation in the Azure DevOps API, HTML controls cannot be added to the layout. These controls must be added manually to the work item types. For more details about how to add controls to pages, see [Add and Manage Fields for an Inherited Process](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops). Use the following table to guide you to add the custom HTML controls to the work item types.
 
 | Work Item Type | Page Name | HTML Fields to Add (in sequence) |
 | --- | --- | --- |
