@@ -20,7 +20,8 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Catalog announced | Learn more |
 |---------|-------------|---|
-|December 2025|[What's new or changed in the business process catalog in December 2025](about-whats-new-2025-december.md)|
+| March 2026 |[What's new or changed in the business process catalog in March 2026](about-whats-new-2026-march.md)|
+| December 2025|[What's new or changed in the business process catalog in December 2025](about-whats-new-2025-december.md)|
 | August 2025 | [What's new or changed in the business process catalog August 2025](about-whats-new-2025-august.md)|
 | May 2025 |[What's new or changed in the business process catalog May 2025](about-whats-new-2025-may.md)|
 | February 2025 |[What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md)|
