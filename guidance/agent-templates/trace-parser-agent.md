@@ -61,7 +61,7 @@ The dual MCP architecture keeps customer trace data on-premises but uses cloud A
 
 ## Licensing requirements
 
-- Dynamics 365 Finance or Supply Chain Management license
+- Dynamics 365 Finance, Supply Chain Management, or Commerce license
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
 - Data API Builder (free, open-source)
