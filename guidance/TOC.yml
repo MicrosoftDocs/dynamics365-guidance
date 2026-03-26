@@ -1095,6 +1095,14 @@ items:
                 items:
                   - name: Document reader agent
                     href: agent-templates/project-operations-document-reader-agent.md
+              - name: Implementation
+                items:
+                  - name: Implementation agent templates
+                    href: agent-templates/implementation-agents-overview.md
+                  - name: Release planner
+                    href: agent-templates/release-planner-agent.md
+                  - name: Trace parser
+                    href: agent-templates/trace-parser-agent.md
       - name: Guidance for software development companies
         items:
           - name: Software development tools and resources overview
@@ -1290,24 +1298,26 @@ items:
                 href: migrate/aim-customer-stories.md
       - name: Development guides
         items:
-          - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
-            href: develop/introduction-customer-engagement-ui-ux-design-guide.md
-          - name: Key UI/UX design principles
-            href: develop/ui-ux-design-principles.md
-          - name: UI/UX component details for model-driven apps
-            href: develop/ui-ux-component-details-model-driven-apps.md
-          - name: UI/UX component details for canvas apps
-            href: develop/ui-ux-component-details-canvas-apps.md
-          - name: UI/UX component details for tests and user feedback
-            href: develop/ui-ux-component-details-testing-feedback.md
-          - name: Dynamics 365 Sales
+          - name: UI/UX design for Dynamics 365 customer engagement apps
             items:
-              - name: UI/UX design principles for Dynamics 365 Sales
-                href: develop/ui-ux-guidance-sales-implementations.md
-              - name: Sales personas
-                href: develop/ui-ux-guidance-sales-personas.md
-              - name: UI/UX components for Sales
-                href: develop/ui-ux-guidance-sales-components.md
+              - name: Introduction to UI/UX design for Dynamics 365 customer engagement apps
+                href: develop/introduction-customer-engagement-ui-ux-design-guide.md
+              - name: Key UI/UX design principles
+                href: develop/ui-ux-design-principles.md
+              - name: UI/UX component details for model-driven apps
+                href: develop/ui-ux-component-details-model-driven-apps.md
+              - name: UI/UX component details for canvas apps
+                href: develop/ui-ux-component-details-canvas-apps.md
+              - name: UI/UX component details for tests and user feedback
+                href: develop/ui-ux-component-details-testing-feedback.md
+              - name: Dynamics 365 Sales
+                items:
+                  - name: UI/UX design principles for Dynamics 365 Sales
+                    href: develop/ui-ux-guidance-sales-implementations.md
+                  - name: Sales personas
+                    href: develop/ui-ux-guidance-sales-personas.md
+                  - name: UI/UX components for Sales
+                    href: develop/ui-ux-guidance-sales-components.md
       - name: FastTrack for Dynamics 365
         items:
           - name: About FastTrack
