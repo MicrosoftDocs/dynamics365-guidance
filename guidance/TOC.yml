@@ -1095,6 +1095,14 @@ items:
                 items:
                   - name: Document reader agent
                     href: agent-templates/project-operations-document-reader-agent.md
+              - name: Implementation
+                items:
+                  - name: Implementation agent templates
+                    href: agent-templates/implementation-agents-overview.md
+                  - name: Release planner
+                    href: agent-templates/release-planner-agent.md
+                  - name: Trace parser
+                    href: agent-templates/trace-parser-agent.md
       - name: Guidance for software development companies
         items:
           - name: Software development tools and resources overview

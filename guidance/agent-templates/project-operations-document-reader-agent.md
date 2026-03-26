@@ -4,23 +4,23 @@ description: Discover how to streamline project setup with AI-driven data extrac
 #customer intent: As a Dynamics 365 administrator, I want to learn how AI can automate how projects are created and updated in Project Operations.
 author: edupont04
 ms.author: ajjaiswa
-ms.date: 03/19/2026
+ms.date: 03/25/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ---
 
 # Agent for document reading in Dynamics 365 Project Operations
 
-***Applies to***: ***Dynamics 365 Project Operations and Copilot Studio***
+***Applies to***: ***Dynamics 365 Project Operations, Copilot Studio***
 
-This agent analyzes engagement information and extracts key project and commercial details from engagement letters or statements of work (SOW) that you can use to create or update a *Project* or *Project Contract* in Dynamics 365 Project Operations.
+This agent analyzes engagement information and extracts key project and commercial details from engagement letters or statements of work (SOW). Use these details to create or update a *Project* or *Project Contract* in Dynamics 365 Project Operations.
 
 > [!NOTE]
-> The agent template isn't yet available for download. If you're interested in the document reader agent template, fill in [this form](https://forms.office.com/r/kdvS5NNuZ1).
+> The agent template isn't yet available for download. If you're interested in the template for a document reader agent, fill in [this form](https://forms.office.com/r/kdvS5NNuZ1).
 
 ## Overview
 
-The agent identifies structured data such as project name, customer, dates, budget, scope, deliverables, milestones, and resource roles. The extracted information is organized into a structured format that you can review and use when you create or update a project or project contract.
+The agent identifies structured data such as project name, customer, dates, budget, scope, deliverables, milestones, and resource roles. It organizes the extracted information into a structured format that you can review and use when you create or update a project or project contract.
 
 ## Key benefits
 
