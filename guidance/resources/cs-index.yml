@@ -108,7 +108,7 @@ landingContent:
     - linkListType: overview
       links:
       - text: Configure analytics and insights dashboards
-        url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh?branch=main
+        url: /dynamics365/customer-service/configure-customer-service-analytics-insights-csh
       - text: Get started with analytics for Omnichannel
         url: /digital-contact-center-platform/guidance/analytics-get-started
       - text: Overview of capabilities for analytics

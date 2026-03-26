@@ -4,7 +4,7 @@ description: Discover how to enhance user experiences in Dynamics 365 model-driv
 author: dereklh77
 ms.author: riasif
 ms.topic: concept-article
-ms.date: 03/03/2025
+ms.date: 03/20/2026
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 # UI/UX Design for Dynamics 365
 
-In the fast-paced world of digital design, creating seamless, user-centric experiences is crucial for the success of business applications. This section outlines principles that apply to both model-driven and canvas apps that are built in Power Apps. In this article, we highlight the importance of good user experiences (UX) and user interface (UI) designs in user satisfaction with business applications.
+In the fast-paced world of digital design, creating seamless, user-centric experiences is crucial for the success of business applications. This section outlines principles that apply to both model-driven and canvas apps that you build in Power Apps. In this article, we highlight the importance of good user experiences (UX) and user interface (UI) designs in user satisfaction with business applications.
 
 Here are the primary benefits of good UI/UX design:
 
@@ -82,5 +82,5 @@ The article [UI/UX guidance for implementations with Dynamics 365 Sales](ui-ux-g
 - [UI/UX component details for model-driven apps](ui-ux-component-details-model-driven-apps.md)
 - [UI/UX component details for canvas apps](ui-ux-component-details-canvas-apps.md)
 - [UI/UX component details for tests and user feedback](ui-ux-component-details-testing-feedback.md)
-- [Power Apps guidance documentation](/power-apps/guidance/?branch=main)
-- [Model-driven apps developer guide](/power-apps/developer/model-driven-apps/overview?branch=main)
+- [Power Apps guidance documentation](/power-apps/guidance/)
+- [Model-driven apps developer guide](/power-apps/developer/model-driven-apps/overview)
