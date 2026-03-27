@@ -44,24 +44,24 @@ Before you import the catalog to the Mavim platform, there are a few things that
         - Dynamics 365 Process modifiers
         - Dynamics 365 User Story
 
-4. Import the Database
-   
-    1. Open Mavim Manager.
-    2. Select the Database where you want to import the latest version.
-    3. Click the **Action Toolbar** in the virtual machine.
-    4. Click **File Transfer > Upload**.
-    5. Select the .MTDX file you downloaded from the Microsoft Download Center.
-    6. Wait for the database file to uplaod into the virtual machine. 
-    7. When the import is complete, click the Modelling tab in the Action Pane.
-    8. Click Import > Version.
-    9. Select the .MTDX file you just uploaded. The uploaded file is stored in the TempDisk drive by default. You can find this by clicking on **This PC**.
-    10. Select the file and then click **Open**.
-    
-    > [!NOTE]
-   > The Mavim version with the business process catalog is now loaded into your purple cabinet called “Imported Versions”. Be aware that it can take several minutes to complete this action.
+## Import the Database
+Use the following steps to import the MTDX file into your Mavim environment.
 
-5. Copy the Imported Database to the Yellow Cabinet (active version)
+1. Open Mavim Manager.
+2. Select the Database where you want to import the latest version.
+3. Click the **Action Toolbar** in the virtual machine.
+4. Click **File Transfer > Upload**.
+5. Select the .MTDX file you downloaded from the Microsoft Download Center.
+6. Wait for the database file to uplaod into the virtual machine.
+7. When the import is complete, click the Modelling tab in the Action Pane.
+8. Click Import > Version.
+9. Select the .MTDX file you just uploaded. The uploaded file is stored in the TempDisk drive by default. You can find this by clicking on **This PC**.\
+10. Select the file and then click **Open**.
 
+> [!NOTE]
+> The Mavim version with the business process catalog is now loaded into your purple cabinet called “Imported Versions”. Be aware that it can take several minutes to complete this action.
+
+## After you import
 To be able to start working with this process model, you need to copy it to your yellow cabinet. If you want the full experience, it’s important to copy the entire structure (including the External References part) to your yellow cabinet. The easiest way is to right-click on the purple “Business Process Catalog Export …” topic you imported and click **Copy**. Then expand your yellow cabinet node and paste it anywhere you like (ideally somewhere near the root, for example directly under the “Relationship Categories” topic.
 
 Again, this copy and paste action might take several minutes to complete. Once finished you have the latest version of the BPC available in your Mavim environment. You can either directly create a new version definition that includes this structure and create a version and publish that version to your Mavim portal to explore it. You can also make some adjustments like adding additional fields or processes.
