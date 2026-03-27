@@ -1,8 +1,9 @@
 ---
-title: Introduction to the business process catalog in Mavim 
-description: Learn how the business process catalog, when integrated into Mavim, becomes an operational blueprint that aligns strategy, processes, technology, and people, setting the stage for predictable, scalable, and first‑time/ongoing right transformation.
+title: Introduction to the business process catalog in Mavim
+description: Business process catalog integration in Mavim empowers you to streamline Dynamics 365 projects, improve collaboration, and drive continuous improvement.
 author: rachel-profitt
 ms.author: raprofit
+ms.reviewer: edupont
 ms.date: 03/27/2026
 ms.topic: concept-article
 ms.service: dynamics-365

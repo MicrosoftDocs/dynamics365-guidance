@@ -367,6 +367,8 @@ items:
                 items:
                   - name: Import the catalog to Azure DevOps overview
                     href: business-processes/about-import-catalog-devops.md
+                  - name: Azure DevOps backlog configuration
+                    href: business-processes/about-configure-azure-devops-backlog.md
                   - name: Work item types in Azure DevOps
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
                   - name: Deliverables work item types in Azure DevOps
@@ -379,6 +381,8 @@ items:
                     href: business-processes/about-import-catalog-devops-updates.md
                   - name: Reference for fields on work items
                     href: business-processes/about-devops-work-items-deliverables-fields.md
+                  - name: Configure Azure DevOps page layout
+                    href: business-processes/about-configure-azure-devops-page-layout.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Introduction to the business process catalog in Mavim
