@@ -11,13 +11,13 @@ ms.topic: how-to
 
 # Troubleshooting the Azure DevOps Python Scripts (Preview)
 
-This section lists the most common issues encountered during the private preview and how to resolve them. If you encounter an error not listed here, please capture the full error message and share it through the preview feedback form.
+This section lists the most common issues encountered during the private preview and how to resolve them. If you encounter an error not listed here, capture the full error message and share it through the preview feedback form.
 
 ## Issue: ModuleNotFoundError: No module named 'openpyxl' or ImportError: Missing optional dependency 'openpyxl'
 
 **What this means**
 
-The script reads data from Excel (.xlsx) files. Python requires an additional package called **openpyxl** to read Excel files. This package is **not included by default** when installing Python.
+The script reads data from Excel (.xlsx) files. Python requires another package, **openpyxl**, to read Excel files. This package isn't included by default when installing Python.
 
 **How to fix it**
 
@@ -35,7 +35,7 @@ If a version number appears (for example, 3.1.5), the issue is resolved.
 
 You do **not** need to type a version number yourself. The command automatically displays it.
 
-## Issue: 'pip' is not recognized or Packages install but the script still fails
+## Issue: 'pip' isn't recognized or Packages install but the script still fails
 
 **What this means**
 
@@ -43,7 +43,7 @@ Your system may have multiple Python installations, or the package was installed
 
 **How to fix it**
 
-Always install packages using the following format (this is very important):
+It's important that you always install packages using the following format:
 
 ```powershell
 python -m pip install pandas requests openpyxl
@@ -62,7 +62,7 @@ Do **not** use pip install ... by itself.
 **Common symptoms**
 
 - Errors that say:
-   - *"The term is not recognized…"*
+   - *"The term isn't recognized…"*
    - *"Invalid requirement"*
    - *"Could not find a version that satisfies the requirement"*
 **What this means**
@@ -125,7 +125,7 @@ Instead, follow the **manual configuration steps** described earlier in this doc
 
 - Adding required fields
 - Updating layouts
-- Configuring any Test Casespecific metadata
+- Configuring any Test Case-specific metadata
 These steps must be performed manually because they cannot be completed using the Azure DevOps APIs.
 
 **When to be concerned**
@@ -133,18 +133,18 @@ These steps must be performed manually because they cannot be completed using th
 You only need to investigate further if:
 
 - The script fails **before** creating the project or process, or
-- Other work item types (such as Features, User Stories, Bugs, or Tasks) are missing or incorrectly configured
+- Other work item types are missing or incorrectly configured, such as Features, User Stories, Bugs, or Tasks.
 If everything else appears correct, you can safely proceed with the manual steps and ignore this message.
 
 ## Issue: HTML fields cannot be added to the form layout 
 
 You may see multiple messages such as:
 
-SKIPPED: HTML field 'Description' cannot be added to the form layout via API.
+SKIPPED: HTML field 'Description' can't be added to the form layout via API.
 
 **What this means**
 
-This message appears when the script tries to place certain **form controls** (especially **HTML fields** and a few other custom control types) onto an Azure DevOps work item **layout**. At present, the Azure DevOps **layout API** does **not support** adding some control types programmatically. Because of this limitation, the script **skips** those items instead of failing.
+This message appears when the script tries to place certain **form controls** (especially **HTML fields** and a few other custom control types) onto an Azure DevOps work item **layout**. Now, the Azure DevOps **layout API** doesn't support adding some control types programmatically. Because of this limitation, the script skips those items instead of failing.
 
 **This is expected behavior in the preview** and does **not** indicate that your environment or data is broken.
 
@@ -153,7 +153,7 @@ This message appears when the script tries to place certain **form controls** (e
 There is **nothing to fix in PowerShell or Python** for this message. Follow the **manual configuration steps** in the instructions to:
 
 1. Open the **Process** → **Work Item Types** → **Layouts** in Azure DevOps.
-1. **Add** the required **HTML** field(s) (e.g., **Description**) to the appropriate **layout** section (e.g., Details, Tabs).
+1. **Add** the required **HTML** fields, such as **Description**, to the appropriate **layout** section, such as Details or Tabs.
 1. **Save** the layout.
 These manual steps are **intentional** and documented because the API cannot complete them automatically.
 
@@ -163,4 +163,5 @@ Investigate further only if:
 
 - The script shows **errors** (not "SKIPPED") for supported controls, or
 - Entire work item **layouts** are missing sections that **should** be created by the script.
-Otherwise, you can safely proceed once you've applied the manual layout steps.
+
+Otherwise, you can safely proceed once you apply the manual layout steps.
