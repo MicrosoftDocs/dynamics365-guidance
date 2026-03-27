@@ -1,7 +1,7 @@
 ---
 title: Instruction guide for FastTrack Recognized Solution Architect
 description: Learn how you can nominate yourself or a colleague for the FastTrack Recognized Solution Architect designation.
-ms.date: 12/20/2024
+ms.date: 03/27/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
@@ -9,16 +9,15 @@ ms.author: edupont
 
 # Instruction guide for FastTrack Recognized Solution Architect
 
-Welcome to the FastTrack Recognized Solution Architect (FTRSA) nomination process. The Dynamics 365 product engineering team recognizes practicing solution architects as FastTrack Recognized Solution Architects for consistently exhibiting deep architecture expertise and creating high-quality solutions for customers during Dynamics 365 FastTrack governed engagements.
-A FastTrack Recognized Solution Architect typically works for a system integrator partner with a Dynamics 365 practice.
+Welcome to the FastTrack Recognized Solution Architect (FTRSA) nomination process. The Dynamics 365 product engineering team recognizes practicing solution architects as FastTrack Recognized Solution Architects for consistently exhibiting deep architecture expertise and creating high-quality solutions for customers during Dynamics 365 FastTrack governed engagements. A FastTrack Recognized Solution Architect typically works for a system integrator partner with a Dynamics 365 practice.
 
 [Read about the architects who have achieved this distinction.](https://www.microsoft.com/en-us/dynamics-365/fast-track/recognized-solution-architects)
 
-This guide explains how to submit your documentation for FTRSA nomination, and it provides links to useful resources and templates. Refer to the table of contents at the top of the article for the relevant sections. Keep this document handy while you complete the nomination form.
+This guide explains how to submit your documentation for FTRSA nomination, and it provides links to useful resources and templates. Refer to the table of contents at the top of the article for the relevant sections. Keep this article handy while you complete the nomination form.
 
 ## Process overview
 
-Complete the [nomination form](https://aka.ms/FTRSANomination) within the nomination period that spans **October 15, 2024-February 3, 2025**.
+You could complete the [nomination form](https://aka.ms/FTRSANomination) within the latest nomination period that spans **October 27, 2025 - March 3, 2026**.
 
 Once your eligibility is confirmed, solution architects from the relevant engineering teams evaluate candidates based on the quantity and quality of their submissions.
 
@@ -66,7 +65,7 @@ We suggest you create a template in Word that you then use to email the customer
 Hello <Customer>,  
 My organization is nominating me for the Microsoft FastTrack Recognized Solution Architect designation, which is supported by the Microsoft Dynamics 365 product engineering teams. It's a designation to practicing enterprise solution architects who consistently exhibit deep architecture expertise and create high-quality solutions for their customers. 
 
-Learn more at Dynamics 365 architects at https://aka.ms/dynamics365architects and Power Platform architects at https://aka.ms/powerplatformarchitects.  
+Learn more at Dynamics 365 architects at [https://aka.ms/dynamics365architects](https://aka.ms/dynamics365architects) and Power Platform architects at [https://aka.ms/powerplatformarchitects](https://aka.ms/powerplatformarchitects).  
 
 Each candidate is assessed on their:  
 
