@@ -1,12 +1,12 @@
 ---
 title: Troubleshooting the Azure DevOps Python Scripts (Preview)
-description: This section lists the most common issues encountered during the private preview and how to resolve them. If you encounter an error not listed here, please capture the full error message and share it through the preview feedback form.
+description: Azure DevOps Python script errors? Learn how to fix missing modules, resolve file issues, and complete manual setup for a successful preview. Get solutions here.
 author: rachel-profitt
 ms.author: raprofit
+ms.reviewer: edupont
 ms.date: 03/27/2026
 ms.topic: how-to
-ms.service: dynamics-365
-ms.subservice: guidance
+
 ---
 
 # Troubleshooting the Azure DevOps Python Scripts (Preview)
@@ -22,7 +22,7 @@ The script reads data from Excel (.xlsx) files. Python requires an additional pa
 **How to fix it**
 
 1. Open **Command Prompt** or **PowerShell** (Windows) or **Terminal** (Mac).
-2. Copy and paste the command below exactly as shown, then press Enter:
+1. Copy and paste the command below exactly as shown, then press Enter:
 python
 
 1. (Optional) Verify that it installed successfully:
@@ -153,8 +153,8 @@ This message appears when the script tries to place certain **form controls** (e
 There is **nothing to fix in PowerShell or Python** for this message. Follow the **manual configuration steps** in the instructions to:
 
 1. Open the **Process** → **Work Item Types** → **Layouts** in Azure DevOps.
-2. **Add** the required **HTML** field(s) (e.g., **Description**) to the appropriate **layout** section (e.g., Details, Tabs).
-3. **Save** the layout.
+1. **Add** the required **HTML** field(s) (e.g., **Description**) to the appropriate **layout** section (e.g., Details, Tabs).
+1. **Save** the layout.
 These manual steps are **intentional** and documented because the API cannot complete them automatically.
 
 **When to be concerned**

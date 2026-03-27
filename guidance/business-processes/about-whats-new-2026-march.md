@@ -1,9 +1,8 @@
 ---
 title: What's New in the Business Process Catalog in March 2026
 description: What's new or changed in the March 2026 version of the business process catalog that Microsoft publishes as a downloadable file.
-author: edupont04
-ms.author: edupont
-ms.reviewer: edupont
+author: rachel-profitt
+ms.author: raprofit
 ms.date: 01/07/2026
 ms.topic: concept-article
 ---
@@ -12,10 +11,10 @@ ms.topic: concept-article
 
 The business process catalog is a standard list of business processes across Dynamics 365 apps and services. Microsoft uses it to organize and prioritize work on the business process documentation.
 
-For the first time, the Business Process Catalog is now:
+For the first time, the Business Process Catalog is now in the two formats:
 
-- Available through the Excel‑based Azure DevOps (ADO) template, enabling structured import into implementation backlogs
-- Available as a database package that can be directly imported into Mavim
+- As an Excel‑based Azure DevOps (ADO) template, enabling structured import into implementation backlogs.
+- As a database package that you can import directly into Mavim.
 
 Microsoft now manages the Business Process Catalog directly within Mavim as the system of record, enabling improved governance, consistency, and alignment between process architecture and delivery execution.
 
@@ -32,6 +31,7 @@ The March 2026 version of the business process catalog includes rows with a Cata
 The March 2026 version of the business process catalog includes rows with a catalog status of **Deleted**. Any row that is marked as *Deleted* is no longer included in the catalog in future releases. If you're actively using a row tagged as *Deleted*, update your catalog to use the row that is designated in the **Alternative process sequence ID** field.
 
 ## Dynamics 365 Contact Center configurations
+
 The catalog now includes configuration‑level processes specific to Dynamics 365 Contact Center and Customer Service deployments. With these new configurations, partners and customers can now:
 
 - Align customer service operating models to platform configuration earlier in the implementation lifecycle
@@ -40,14 +40,15 @@ The catalog now includes configuration‑level processes specific to Dynamics 36
 
 This supports improved collaboration between business architects and technical solution teams by creating a shared reference between operational service flows and implementation backlog items.
 
-**Action required**
-Organizations currently using a prior version of the catalog should:
+> [!IMPORTANT]
+> Organizations currently using a prior version of the catalog should:
+>
+> - Review newly introduced Dynamics 365 Contact Center configuration processes
+> - Map existing customer service backlog items to these processes where applicable
+> - Import the updated catalog into ADO or Mavim to enable traceability between service design and platform setup
 
-- Review newly introduced Dynamics 365 Contact Center configuration processes
-- Map existing customer service backlog items to these processes where applicable
-- Import the updated catalog into ADO or Mavim to enable traceability between service design and platform setup
+## Power Platform environment settings configurations
 
-## Power Platform Environment Settings Configurations
 New processes have been introduced to support Power Platform environment‑level configuration decisions. With these new configurations, partners and customers can now:
 
 - Capture governance and environment strategy decisions as part of the business process architecture
@@ -56,14 +57,15 @@ New processes have been introduced to support Power Platform environment‑level
 
 This helps prevent environment configuration from becoming an undocumented or late‑stage implementation dependency.
 
-**Action required**
-Customers and partners maintaining local catalog copies should:
+> [!IMPORTANT]
+> Customers and partners maintaining local catalog copies should:
+>
+> - Evaluate current environment setup work items or deployment checklists
+> - Map these activities to the new configuration processes
+> - Re‑import the March 2026 catalog to ensure environment configuration work is captured within implementation scope
 
-- Evaluate current environment setup work items or deployment checklists
-- Map these activities to the new configuration processes
-- Re‑import the March 2026 catalog to ensure environment configuration work is captured within implementation scope
+## Software development company updates
 
-## Software Development Company Updates
 This release introduces two new metadata columns to support improved alignment between business process architecture and solution‑level implementation activities:
 
 - Software Development Company
@@ -81,6 +83,7 @@ These attributes are used to identify solution‑specific implementation ownersh
   - Deliverables
 
 As part of this release:
+
 - Existing rows within the Business Process Catalog have been updated with values for these new attributes
 - Two new Software Development Companies have been added to the standard catalog
 
@@ -94,19 +97,20 @@ Microsoft invites Marketplace solution providers to contribute implementation‑
 
 This allows partner and Software Development Company solutions to become more discoverable and implementation‑ready for customers and other delivery organizations.
 
-**Action required**
 Customers and partners using the Excel‑based Azure DevOps template must create the following fields in Azure DevOps prior to importing the March 2026 catalog:
 
 - Software Development Company
 - Software Solutions
 
-## Terminology and Functional Area Alignment Updates
+## Terminology and functional area alignments
+
 This release includes updates to both process terminology and functional area classification to better align the Business Process Catalog with current Dynamics 365 application architecture and implementation activities. The following changes have been made:
 
 - The Personalization work item type has been renamed to User interface
 - The Sales functional area has been renamed to Customer experience
 
 These updates improve:
+
 - Alignment between catalog terminology and Dynamics 365 Customer Engagement application family naming conventions
 - Representation of implementation activities that extend beyond individual user preferences to include:
   - Form and view configuration
@@ -118,9 +122,11 @@ Renaming the Sales functional area to Customer Engagement also reflects expanded
 
 This supports a more complete representation of customer lifecycle processes and reduces ambiguity when mapping implementation backlog items to platform capabilities across Dynamics 365 customer engagement apps workloads.
 
-**Action required**
-Partners and customers using a prior version of the catalog should review the following implementation considerations before importing the March 2026 release.
+> [!IMPORTANT]
+> Partners and customers using a prior version of the catalog should review the following implementation considerations before importing the March 2026 release.
+
 ### Personalization → User Interface (Work Item Type)
+
 Azure DevOps does not support renaming existing work item types. If an active implementation project wishes to adopt the updated User Interface terminology within Azure DevOps, the following steps are required:
 
 - Create a new Work Item Type called User Interface within the existing ADO project
@@ -129,15 +135,18 @@ Azure DevOps does not support renaming existing work item types. If an active im
 Alternatively, organizations that wish to retain the previous Personalization work item type may:
 
 Update the March 2026 Business Process Catalog spreadsheet prior to import by:
+
 - Finding all values labeled User Interface
 - Replacing these values with Personalization
 
 This approach allows the updated catalog content to be imported into an existing Azure DevOps project without requiring work item type creation or data migration.
 
 ### Functional Area: Sales → Customer Engagement
+
 Updating the Sales functional area to Customer Engagement does not require creation of a new work item type. Organizations may simply update the existing Functional Area value from Sales to Customer Engagement within their Azure DevOps project. Customers and partners should also validate any reporting logic, filters, or queries that reference the Sales functional area following import of the March 2026 catalog.
 
 ## Public Preview: Azure DevOps Template Python Scripts
+
 Automation scripts supporting the Excel‑based Azure DevOps (ADO) template are now available in Public Preview. The updated ADO template and supporting Python automation scripts enable:
 
 - Automated creation of implementation backlog items based on Business Process Catalog processes
@@ -147,9 +156,10 @@ Automation scripts supporting the Excel‑based Azure DevOps (ADO) template are 
 
 Microsoft recommends that new implementation projects begin using the March 2026 Azure DevOps template to take advantage of these automation and alignment capabilities.
 
-**Action required**
-- For new implementation projects Microsoft recommends starting with the March 2026 ADO template as the foundation for implementation backlog creation and delivery planning
-- For existing or in‑progress implementation projects customers and partners should carefully evaluate whether transitioning to the new ADO template is appropriate for the current stage of delivery
+> [!IMPORTANT]
+>
+> - For new implementation projects, we recommend that you start with the March 2026 Azure DevOps template as the foundation for implementation backlog creation and delivery planning.
+> - For existing or in‑progress implementation projects customers and partners should carefully evaluate whether transitioning to the new ADO template is appropriate for the current stage of delivery.
 
 There is no automated migration path from an existing or customized Azure DevOps process template into the March 2026 ADO template. Adopting the updated template within an active project would require:
 
@@ -158,7 +168,7 @@ There is no automated migration path from an existing or customized Azure DevOps
 
 Partners and customers should assess the effort required to migrate implementation backlog data before deciding to transition an in‑flight project to the updated template.
 
-## Related information
+## Related content
 
-- [Use the Azure DevOps template Python Scripts to setup your project](ADO-template-python-scripts.md)
+- [Automate Azure DevOps project, process, work item types, fields, and picklists from Excel with Python](about-configure-azure-devops-project-processes.md)  
 - [About the business process catalog for Dynamics 365 apps and services](about.md)  
