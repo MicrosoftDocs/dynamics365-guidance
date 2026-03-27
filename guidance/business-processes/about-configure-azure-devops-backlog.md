@@ -1,8 +1,8 @@
 ---
 title: Azure DevOps Backlog configuration for the Microsoft Business Process Catalog
 description: The backlog configuration for the Microsoft Business Process Catalog Azure DevOps template is designed to work with the pre-defined Team structure and Functional Areas. The recommended Team structure is defined to work for large organizations and based on feedback from many parters and customers. However, each organization is unique. We recommend that you review the Team structure and Area path mapping with each customer prior to configuring your teams and uploading them into Azure DevOps. For optimal configuration and adoption of your Azure DevOps project, align the teams to the way your organization and project team are organized. You can optionally rename, merge, or split teams according to the way you are organized. Use the following tips to help you update the Teams.
-author: rprofitt
-ms.author: rprofitt
+author: rachel-profitt
+ms.author: raprofit
 ms.date: 03/24/2026
 ms.topic: how-to
 ms.service: dynamics-365
@@ -17,7 +17,7 @@ The backlog configuration for the Microsoft Business Process Catalog Azure DevOp
    - If you rename area paths in the ADO Excel template file, make sure you update the values in Business Process Catalog, Deliverables, Delivery Plan, and Objectives files before you upload the work items into Azure DevOps.
    - If you rename area paths, be mindful of this when taking updates of the official version of the Microsoft Business Process Catalog.
 - Rename Teams.
-   - If your organization calls a team or group of people in your organization something different, rename the Team in the Teams tab of the ADO Project Template Excel file. For example, instead of “Accounting”, your organization refers to the group or team “Global Finance”.
+   - If your organization calls a team or group of people in your organization something different, rename the Team in the Teams tab of the ADO Project Template Excel file. For example, instead of "Accounting", your organization refers to the group or team "Global Finance".
    - Update the mapped Team names in the Area paths tab of the ADO Project Template Excel file.
 - Merge Teams. 
    - In smaller organizations there may be too many teams. You can use the parent level teams easily and ignore the lower level teams easily by selecting the Include sub area option on the Areas tab of the Team configuration page. 
@@ -39,7 +39,7 @@ We recommend Partners create a delivery plan that aligns with your methodology a
 
 In Azure DevOps, Teams provide a way to organize work views, backlogs, boards, and iterations without changing the underlying project structure or security model. By default, Teams inherit access from the project they belong to—meaning security is managed at the project level, not individually per Team. Teams primarily influence *how* work is seen and managed (such as which area paths, iterations, and backlogs are visible), rather than *who* is allowed to access it. This separation allows organizations to create multiple Teams aligned to functional areas, workstreams, or roles, while maintaining consistent security, simplifying governance, and ensuring that visibility and collaboration scale cleanly as the project grows.
 
-While Teams do not change a user’s underlying security permissions, they *do* provide an effective way to control visibility of work by shaping what each user sees in their daytoday experience. By associating Teams to specific area paths and iterations, organizations can limit which work items appear on a Team’s backlogs, boards, and delivery views, even when users technically have access to the broader project. This allows teams to focus on the work relevant to their role or functional area without exposing all work items to all users, reducing noise and complexity while preserving a single, governed project structure. In this way, Teams act as a practical visibility and scoping mechanism layered on top of projectlevel security, enabling clarity without fragmentation.
+While Teams do not change a user's underlying security permissions, they *do* provide an effective way to control visibility of work by shaping what each user sees in their daytoday experience. By associating Teams to specific area paths and iterations, organizations can limit which work items appear on a Team's backlogs, boards, and delivery views, even when users technically have access to the broader project. This allows teams to focus on the work relevant to their role or functional area without exposing all work items to all users, reducing noise and complexity while preserving a single, governed project structure. In this way, Teams act as a practical visibility and scoping mechanism layered on top of projectlevel security, enabling clarity without fragmentation.
 
 The Microsoft Business Process Catalog Azure DevOps template maps Teams to area paths by default, but does not map iteration paths by default. The following sections explain how to configure the backlog and views for optimal usage of the Microsoft Business Process Catalog Azure DevOps template.
 
@@ -137,7 +137,7 @@ To configure the Teams backlog with the recommended settings, follow these steps
    4. In the top navigation bar, select the Team you want to configure. For example, select Accounting.
    5. Click the **Iterations** tab.
    6. Click **Change** next to **Default iteration**.
-   7. Select the iteration you want to be used by default. (You can optionally leave “@CurrentIteration” in this field. Otherwise, we recommend selecting the Parent node of your Iterations and then click **Set**.
+   7. Select the iteration you want to be used by default. (You can optionally leave "@CurrentIteration" in this field. Otherwise, we recommend selecting the Parent node of your Iterations and then click **Set**.
    8. Click **Change** next to **Backlog iteration**.
    9. Select the **Parent node** of your **Iterations** and then click **Set**.
    10. Click **Select iteration(s).**

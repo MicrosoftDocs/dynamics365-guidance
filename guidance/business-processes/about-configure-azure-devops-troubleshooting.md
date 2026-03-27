@@ -1,9 +1,9 @@
 ---
 title: Troubleshooting the Azure DevOps Python Scripts (Preview)
 description: This section lists the most common issues encountered during the private preview and how to resolve them. If you encounter an error not listed here, please capture the full error message and share it through the preview feedback form.
-author: rprofitt
-ms.author: rprofitt
-ms.date: 03/24/2026
+author: rachel-profitt
+ms.author: raprofit
+ms.date: 03/27/2026
 ms.topic: how-to
 ms.service: dynamics-365
 ms.subservice: guidance
@@ -62,9 +62,9 @@ Do **not** use pip install ... by itself.
 **Common symptoms**
 
 - Errors that say:
-   - *“The term is not recognized…”*
-   - *“Invalid requirement”*
-   - *“Could not find a version that satisfies the requirement”*
+   - *"The term is not recognized…"*
+   - *"Invalid requirement"*
+   - *"Could not find a version that satisfies the requirement"*
 **What this means**
 
 Extra characters (such as backticks ` or smart quotes) were accidentally pasted into the command window.
@@ -95,7 +95,7 @@ After the script completes successfully:
 
 - Complete the **manual configuration steps** described in each article in the document
 - Then import the Excel files manually into Azure DevOps
-## Issue: Excel file errors or “file not found” messages
+## Issue: Excel file errors or "file not found" messages
 
 **Things to check**
 
@@ -161,6 +161,6 @@ These manual steps are **intentional** and documented because the API cannot com
 
 Investigate further only if:
 
-- The script shows **errors** (not “SKIPPED”) for supported controls, or
+- The script shows **errors** (not "SKIPPED") for supported controls, or
 - Entire work item **layouts** are missing sections that **should** be created by the script.
-Otherwise, you can safely proceed once you’ve applied the manual layout steps.
+Otherwise, you can safely proceed once you've applied the manual layout steps.

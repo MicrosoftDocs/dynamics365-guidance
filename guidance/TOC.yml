@@ -381,7 +381,9 @@ items:
                     href: business-processes/about-devops-work-items-deliverables-fields.md
               - name: Import the catalog to Mavim
                 items:
-                  - name: Import the catalog to Mavim overview
+                  - name: Introduction to the business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim.md
+                  - name: Import the catalog to Mavim
                     href: business-processes/about-import-catalog-mavim.md
                   - name: Success by Design with the Dynamics 365 business process catalog in Mavim
                     href: business-processes/about-catalog-mavim-success-design-d365.md
