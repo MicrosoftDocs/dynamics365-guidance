@@ -36,7 +36,7 @@ Before you import the catalog to the Mavim platform, there are a few things that
         - Module
         - Primary Topic
         - Meaning
-    4. In the **Assigned Fieldsets** pane, select each of the following fieldsets, and then click **Remove**. You can select and remove multiple assigned fieldsets at the same time by holding Shift on your keyboard. This process may take several minutes for each topic type.
+    5. In the **Assigned Fieldsets** pane, select each of the following fieldsets, and then click **Remove**. You can select and remove multiple assigned fieldsets at the same time by holding Shift on your keyboard. This process may take several minutes for each topic type.
         - Dynamics 365 Process attributes
         - Dynamics 365 Fit Gap
         - Azure DevOps
@@ -52,7 +52,7 @@ Use the following steps to import the MTDX file into your Mavim environment.
 3. Click the **Action Toolbar** in the virtual machine.
 4. Click **File Transfer > Upload**.
 5. Select the .MTDX file you downloaded from the Microsoft Download Center.
-6. Wait for the database file to uplaod into the virtual machine.
+6. Wait for the database file to upload into the virtual machine.
 7. When the import is complete, click the Modelling tab in the Action Pane.
 8. Click Import > Version.
 9. Select the .MTDX file you just uploaded. The uploaded file is stored in the TempDisk drive by default. You can find this by clicking on **This PC**.\

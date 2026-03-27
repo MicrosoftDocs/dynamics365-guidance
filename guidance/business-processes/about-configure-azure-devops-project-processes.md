@@ -17,7 +17,7 @@ This article demonstrates how to automate the creation of Azure DevOps projects,
 
 Before running this script, ensure you have the following:
 
-1. Python 3.x installed on your machine. Install Python
+1. Python 3.x installed on your machine. You can [download and install Python](https://www.python.org/downloads/).
 2. Required Python packages:
 
     ```powershell
@@ -46,7 +46,7 @@ Before running this script, ensure you have the following:
 
     Learn more at [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
 
-5. Excel Template: Download the sample Excel template from for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
+5. Excel Template: Download the sample Excel template for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
     a. Work item types
     b. Fields
     c. Picklists
@@ -73,7 +73,7 @@ Before running this script, ensure you have the following:
 1.  Install required Python packages.
 
 ```powershell
-pip install pandas requests
+python -m pip install pandas requests openpyxl
 ```
 
 1. Download the script and save it as `1_ADO_Creation_Script.py`.
@@ -120,7 +120,7 @@ pip install pandas requests
 
 ## Sample code
 
-The FastTrack for Dynamics 365 team provides a sample python script that reads the Excel file to create new pages, groups, and fields in the layouts for each work item type in the Azure DevOps. The We recommend you use these samples and templates to help you get started with using the Microsoft Business Process Catalog for Dynamics 365 implementation projects. Visit [dynamics365patternspractices/templates/Azure-DevOps-templates](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/Azure-DevOps-templates) to download the Python scripts and Excel template.
+The FastTrack for Dynamics 365 team provides a sample python script that reads the Excel file to create new pages, groups, and fields in the layouts for each work item type in the Azure DevOps. We recommend you use these samples and templates to help you get started with using the Microsoft Business Process Catalog for Dynamics 365 implementation projects. Visit [dynamics365patternspractices/templates/Azure-DevOps-templates](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/Azure-DevOps-templates) to download the Python scripts and Excel template.
 
 > [!NOTE]
 > To report issues or suggest changes to the sample python script, go to [https://aka.ms/businessprocesscatalogrequests](https://aka.ms/businessprocesscatalogrequests).

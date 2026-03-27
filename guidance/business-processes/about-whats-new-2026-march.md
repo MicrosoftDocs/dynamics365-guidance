@@ -8,7 +8,7 @@ ms.date: 01/07/2026
 ms.topic: concept-article
 ---
 
-# What's new or changed in the business process catalog in December 2025
+# What's new or changed in the business process catalog in March 2026
 
 The business process catalog is a standard list of business processes across Dynamics 365 apps and services. Microsoft uses it to organize and prioritize work on the business process documentation.
 
@@ -130,7 +130,7 @@ Alternatively, organizations that wish to retain the previous Personalization wo
 
 Update the March 2026 Business Process Catalog spreadsheet prior to import by:
 - Finding all values labeled User Interface
-- Replacing these values with Personalizatio n
+- Replacing these values with Personalization
 
 This approach allows the updated catalog content to be imported into an existing Azure DevOps project without requiring work item type creation or data migration.
 
