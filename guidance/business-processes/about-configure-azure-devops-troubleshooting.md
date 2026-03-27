@@ -28,7 +28,7 @@ python
 1. (Optional) Verify that it installed successfully:
 
 ```powershell
-python -c "import openpyxl; print(openpyxl.**version**)"
+python -c "import openpyxl; print(openpyxl.__version__)"
 ```
 
 If a version number appears (for example, 3.1.5), the issue is resolved.
@@ -144,13 +144,13 @@ SKIPPED: HTML field 'Description' cannot be added to the form layout via API.
 
 **What this means**
 
-This message appears when the script tries to place certain **form controls** (especially **HTML fields** and a few other custom control types) onto an Azure DevOps work item **layout**.At present, the Azure DevOps **layout API** does **not support** adding some control types programmatically. Because of this limitation, the script **skips** those items instead of failing.
+This message appears when the script tries to place certain **form controls** (especially **HTML fields** and a few other custom control types) onto an Azure DevOps work item **layout**. At present, the Azure DevOps **layout API** does **not support** adding some control types programmatically. Because of this limitation, the script **skips** those items instead of failing.
 
 **This is expected behavior in the preview** and does **not** indicate that your environment or data is broken.
 
 **What to do**
 
-There is **nothing to fix in PowerShell or Python** for this message.Follow the **manual configuration steps** in the instructions to:
+There is **nothing to fix in PowerShell or Python** for this message. Follow the **manual configuration steps** in the instructions to:
 
 1. Open the **Process** → **Work Item Types** → **Layouts** in Azure DevOps.
 2. **Add** the required **HTML** field(s) (e.g., **Description**) to the appropriate **layout** section (e.g., Details, Tabs).

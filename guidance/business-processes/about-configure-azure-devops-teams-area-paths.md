@@ -78,8 +78,8 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample Python script th
 
 The sample Python script does not perform certain configurations that may be recommended for managing your projects:
 
-- **Add users to teams:** You must manually add users to the teams created by the script. We recommend that you use the Sprint team to add all users to all Teams. For mor granular control, you can select specific users from the project team to add to each Team. For more information, see [Add Users or Groups to Team or Project](https://learn.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops\&tabs=preview-page).
-- **Configure team settings:** Additional team settings (such as sprint assignments, dashboards, or permissions) must to be configured manually in Azure DevOps.
+- **Add users to teams:** You must manually add users to the teams created by the script. We recommend that you use the Sprint team to add all users to all Teams. For more granular control, you can select specific users from the project team to add to each Team. For more information, see [Add Users or Groups to Team or Project](https://learn.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops\&tabs=preview-page).
+- **Configure team settings:** Additional team settings (such as sprint assignments, dashboards, or permissions) must be configured manually in Azure DevOps.
 ## Next steps
 
 After you have created the teams and area paths, you can proceed to configure your backlog and boards in Azure DevOps and import the Microsoft Business Process Catalog content into your Azure DevOps project. Following are the high-level steps and next actions to take.

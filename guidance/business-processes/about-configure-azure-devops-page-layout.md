@@ -90,7 +90,7 @@ Before running this script, ensure you have the following:
 
 - **Authentication:** Uses a PAT for Azure DevOps REST API calls.
 - Creates a new page if the page does not exist
-- Creates a new group of the group does not exist
+- Creates a new group if the group does not exist
 - Creates a new control if the control does not exist
 - **Logging:** All API calls and actions are logged for auditing and troubleshooting.
 ## Sample Code
@@ -196,10 +196,10 @@ These fields are included on the following work items and the custom control mus
 - Migration
 - Personalization
 - Security
-3. **System work item types**. The Azure DevOps API has a limitation that prevents system work item types form layouts from being updated through the API. This means that no custom fields are added to the system work item types for Test Case, Requirement, Task, Issue, Test Plan, and Test Suite. We recommend that you follow the recommendations in the Excel template to add the custom fields to these work item types.
-4. **OPTIONAL: Add fields that are in multiple pages or groups. **The Industry and Process sequence ID fields are recommended to appear on the Details and References pages. The script only adds the field to the Details page. If desired, you can add the same field to the References tab following the guidelines in the Excel template manually. 
+3. **System work item types**. The Azure DevOps API has a limitation that prevents system work item types from layouts from being updated through the API. This means that no custom fields are added to the system work item types for Test Case, Requirement, Task, Issue, Test Plan, and Test Suite. We recommend that you follow the recommendations in the Excel template to add the custom fields to these work item types.
+4. **OPTIONAL: Add fields that are in multiple pages or groups.** The Industry and Process sequence ID fields are recommended to appear on the Details and References pages. The script only adds the field to the Details page. If desired, you can add the same field to the References tab following the guidelines in the Excel template manually. 
 5. **OPTIONAL: Change field labels for clarity**. The Excel templates recommends to use a different field label for the following fields to help make the work items easier to use. You can optionally update the label of these fields in your Azure DevOps.
-- Rename the** Iteration Path **field to** Status report details **on the** Status report **work item type.
+- Rename the **Iteration Path** field to **Status report details** on the **Status report** work item type.
 - Rename the **Story points** field to **Estimate** on the following work item types
    - Configuration
    - Documentation
@@ -216,5 +216,5 @@ These fields are included on the following work items and the custom control mus
    - Workflow
 ## Next steps
 
-After you have created the page layouts, the next step is to setup the Teams and Areas. See [LINK HERE] for sample scripts and to learn more.
+After you have created the page layouts, the next step is to setup the Teams and Areas. See [Automate Azure DevOps teams and area paths with Python](about-configure-azure-devops-teams-areas.md) for sample scripts and to learn more.
 
