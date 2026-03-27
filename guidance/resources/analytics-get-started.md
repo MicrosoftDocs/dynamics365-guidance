@@ -1,7 +1,7 @@
 ---
 title: Get started with analytics for call centers
 description: Explore how to start using analytics with Dynamics 365 by creating a company-wide reporting plan and doing a fit-gap analysis.
-ms.date: 07/08/2024
+ms.date: 03/20/2026
 ms.topic: get-started
 author: edupont04
 ms.author: ashrafomar
@@ -25,7 +25,7 @@ The first step is to define a reporting strategy. You must identify the business
 
 After you've identified the objectives and goals, the next step is to determine the key performance indicators (KPIs) that will be used to measure the call center's success. These KPIs might include metrics such as average handle time, first-call resolution, customer satisfaction, and agent productivity. Learn more about how [conversation metrics](/dynamics365/customer-service/develop/calculate-conversation-metrics?tabs=historicalpage) and [session metrics](/dynamics365/customer-service/develop/calculate-session-metrics?tabs=historicalpage) are calculated.
 
-Next, it's essential to determine how you track those metrics and regularly report on them. Dynamics 365 Customer Service includes capabilities for both [historical analytics](/dynamics365/customer-service/configure-cs-historical-analytics-csh) and [real-time analytics](/dynamics365/customer-service/enable-realtime-analytics-dashboard-administrator?branch=main). These built-in capabilities should be a good starting point for most organizations. Explore the reports, and identify gaps early to determine the tools and skill set that you need to expand the built-in reports.
+Next, it's essential to determine how you track those metrics and regularly report on them. Dynamics 365 Customer Service includes capabilities for both [historical analytics](/dynamics365/customer-service/configure-cs-historical-analytics-csh) and [real-time analytics](/dynamics365/customer-service/enable-realtime-analytics-dashboard-administrator). These built-in capabilities should be a good starting point for most organizations. Explore the reports, and identify gaps early to determine the tools and skill set that you need to expand the built-in reports.
 
 Finally, ensure that the reporting strategy is aligned with overall business objectives. Make sure that the generated reports are actionable and provide insights that the organization can use to improve the call center's performance. 
 

@@ -21,7 +21,7 @@ landingContent:
     - linkListType: get-started
       links:
       - text: What's new or changed
-        url: /dynamics365/finance/get-started/whats-new-home-page?branch=main
+        url: /dynamics365/finance/get-started/whats-new-home-page
 
 # Card
   # - title: Samples and tools
