@@ -164,7 +164,7 @@ In essence:
 - Mavim defines and optimizes the business blueprint.
 - DevOps executes and delivers it.
 
-Learn more about how Mavim and Azure DevOps work together to ensure a successful Dynamics implementation at [Mavim and Azure DevOps integration](about-azure-devops-mavim-integration.md).
+<!-- Learn more about how Mavim and Azure DevOps work together to ensure a successful Dynamics 365 implementation at [Mavim and Azure DevOps integration](about-azure-devops-mavim-integration.md). -->
 
 ## How the business process catalog in Mavim supports Success by Design
 

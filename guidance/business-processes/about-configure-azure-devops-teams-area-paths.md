@@ -83,7 +83,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample Python script th
 
 The sample Python script does not perform certain configurations that may be recommended for managing your projects:
 
-- **Add users to teams:** You must manually add users to the teams created by the script. We recommend that you use the Sprint team to add all users to all Teams. For more granular control, you can select specific users from the project team to add to each Team. Learn more at [Add Users or Groups to Team or Project](/azure/devops/organizations/security/add-users-team-project?view=azure-devops\&tabs=preview-page).
+- **Add users to teams:** You must manually add users to the teams created by the script. We recommend that you use the Sprint team to add all users to all Teams. For more granular control, you can select specific users from the project team to add to each Team. Learn more at [Add Users or Groups to Team or Project](/azure/devops/organizations/security/add-users-team-project?view=azure-devops&preserve-view=true&tabs=preview-page).
 - **Configure team settings:** Additional team settings (such as sprint assignments, dashboards, or permissions) must be configured manually in Azure DevOps.
 
 ## Next steps

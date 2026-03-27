@@ -24,16 +24,16 @@ Before running this script, make sure you have the following prerequisites:
     pip install pandas requests
     ```
 
-1. Azure DevOps organization. You must have an Azure DevOps organization. Learn more at [Create an Azure DevOps organization](/azure/devops/organizations/accounts/create-organization?view=azure-devops).
+1. Azure DevOps organization. You must have an Azure DevOps organization. Learn more at [Create an Azure DevOps organization](/azure/devops/organizations/accounts/create-organization?view=azure-devops&preserve-view=true).
 1. Correct access permissions.
 
-    a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. Learn more at [Get started as a project collection administrator or organization owner](/azure/devops/user-guide/manage-organization-collection?view=azure-devops).
+    a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. Learn more at [Get started as a project collection administrator or organization owner](/azure/devops/user-guide/manage-organization-collection?view=azure-devops&preserve-view=true).
     b. Personal access token (PAT). When creating your PAT, select the following scopes:
       - Organization: Read & manage
       - Project and Team: Read & manage
       - Work Items: Read & write
       - Process and Work Item Types: Read & manage
-    Learn more at [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
+    Learn more at [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&preserve-view=true&tabs=Windows).
 
 1. Download the Excel template. You can download the sample Excel template for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
     a. Work item types
@@ -107,7 +107,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample Python script th
 
 The sample Python script doesn't make certain configurations that you need when using the Microsoft Business Process Catalog to manage your projects. 
 
-1. **Add HTML controls to the pages.** Due to a limitation in the Azure DevOps API, you can't add HTML controls to the layout. You must add these controls manually to the work item types. For more information, see [Add and Manage Fields for an Inherited Process](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops). Use the following table to guide you in adding the custom HTML controls to the work item types.
+1. **Add HTML controls to the pages.** Due to a limitation in the Azure DevOps API, you can't add HTML controls to the layout. You must add these controls manually to the work item types. For more information, see [Add and Manage Fields for an Inherited Process](/azure/devops/organizations/settings/work/customize-process-field?view=azure-devops&preserve-view=true). Use the following table to guide you in adding the custom HTML controls to the work item types.
 
     | Work Item Type | Page Name | HTML Fields to Add (in sequence) |
 | --- | --- | --- |
@@ -227,7 +227,7 @@ The sample Python script doesn't make certain configurations that you need when 
 
 ## Next steps
 
-After you create the page layouts, set up the Teams and Areas. For sample scripts and more information, see [Automate Azure DevOps teams and area paths with Python](about-configure-azure-devops-teams-areas.md).
+After you create the page layouts, set up the teams and area paths. Learn more at [Automate Azure DevOps teams and area paths with Python](about-configure-azure-devops-teams-area-paths.md).
 
 ## Related content
 

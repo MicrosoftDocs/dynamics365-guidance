@@ -1,8 +1,9 @@
 ---
-title: Import the business process catalog in Mavim using the Mavim database
-description: Learn how you can use Microsoft's business process catalog in Mavim, a business process management service that you can find in the Microsoft Marketplace.
+title: Import the business process catalog using the Mavim database
+description: Import Microsoft's business process catalog into Mavim using the MTDX file. Get clear steps and best practices for seamless integration. Try it now.
 author: dereklh77
 ms.author: edupont
+ms.reviewer: edupont
 ms.topic: how-to
 ms.date: 01/30/2026
 ---
@@ -59,10 +60,10 @@ Use the following steps to import the MTDX file into your Mavim environment.
 10. Select the file and then click **Open**.
 
 > [!NOTE]
-> The Mavim version with the business process catalog is now loaded into your purple cabinet called “Imported Versions”. Be aware that it can take several minutes to complete this action.
+> The Mavim version with the business process catalog is now loaded into your purple cabinet called "Imported Versions". Be aware that it can take several minutes to complete this action.
 
 ## After you import
-To be able to start working with this process model, you need to copy it to your yellow cabinet. If you want the full experience, it’s important to copy the entire structure (including the External References part) to your yellow cabinet. The easiest way is to right-click on the purple “Business Process Catalog Export …” topic you imported and click **Copy**. Then expand your yellow cabinet node and paste it anywhere you like (ideally somewhere near the root, for example directly under the “Relationship Categories” topic.
+To be able to start working with this process model, you need to copy it to your yellow cabinet. If you want the full experience, it's important to copy the entire structure (including the External References part) to your yellow cabinet. The easiest way is to right-click on the purple "Business Process Catalog Export …" topic you imported and click **Copy**. Then expand your yellow cabinet node and paste it anywhere you like (ideally somewhere near the root, for example directly under the "Relationship Categories" topic.
 
 Again, this copy and paste action might take several minutes to complete. Once finished you have the latest version of the BPC available in your Mavim environment. You can either directly create a new version definition that includes this structure and create a version and publish that version to your Mavim portal to explore it. You can also make some adjustments like adding additional fields or processes.
 
