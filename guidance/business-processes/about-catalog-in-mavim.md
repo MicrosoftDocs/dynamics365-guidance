@@ -20,9 +20,32 @@ This article explains:
 - What the difference is between Mavim and Azure DevOps for transformation 
 - How this combination supports Success by Design
 - How to get started with multiple onboarding pathways for the business process catalog in Mavim
+
+
+
+
+
 ## What is the Microsoft business process catalog?
 
-The business process catalog is Microsoft’s standardized library of how organizations should optimally operate on Dynamics 365. It serves as a best‑practice, research‑driven framework built from:
+The business process catalog defines workflows, protocols, and procedures as a base line for process-driven Dynamics 365 implementations. However, capturing and managing such a vast array of business processes manually often leads to issues. Such issues might include inefficiencies, inconsistencies, and difficulties in maintaining alignment with organizational goals and standards. Traditional methods often lack integration, version control, and collaboration capabilities. Keeping documentation up to date and accessible to relevant stakeholders is challenging as a result.
+
+In this context, use Mavim to visualize and customize the business process catalog.
+
+Mavim offers a comprehensive solution tailored to address the complexities of managing business processes. Its advanced features align perfectly with the needs of capturing the business process catalog:
+
+1. **Centralized process repository**: Mavim provides a centralized repository for storing, organizing, and accessing the business process catalog, ensuring consistency and accessibility across the organization.
+
+2. **Integration with Microsoft ecosystem**: Mavim seamlessly integrates with Microsoft applications such as Dynamics 365, Copilot, SharePoint, Microsoft 365, Azure DevOps Services, and Visio. Mavim applies the capture and visualization of business processes within familiar environments.
+
+3. **Collaboration and version control**: Mavim enables collaborative process modeling and documentation, allowing multiple stakeholders to contribute, review, and update processes in real-time. Version control features ensure that the catalog remains accurate and up to date.
+
+4. **Analysis and optimization**: Mavim's analytical capabilities allow for the identification of bottlenecks, redundancies, and opportunities for optimization within the captured business processes, which drives continuous improvement and operational excellence.
+
+5. **Governance and compliance**: Mavim supports governance frameworks and compliance requirements, enabling Microsoft to adhere to regulatory standards and internal policies while managing its business processes effectively.
+
+Using the Mavim business process model platform to capture the business process catalog offers a holistic solution that enhances visibility, collaboration, and efficiency. It also ensures alignment with organizational objectives and regulatory standards. By adopting Mavim, organizations streamline their operations, drive innovation, and maintain their competitive position.
+
+In summary, the business process catalog is Microsoft’s standardized library of how organizations should optimally operate on Dynamics 365. It serves as a best‑practice, research‑driven framework built from:
 
 - Learnings from Microsoft FastTrack
 - Global partner experience
@@ -149,6 +172,20 @@ In essence:
 To learn more about how Mavim and Azure DevOps work together to ensure a successful Dynamics implementation see, [Mavim and Azure DevOps integration](about-azure-devops-mavim-integration.md).
 
 ## How the business process catalog in Mavim supports Success by Design
+
+The business process catalog provides insight in the structure and context of the business processes that Dynamics 365 supports. A process driven implementation of Dynamics 365 assures that Dynamics 365 is better configured towards how your organization operates. It also helps in the adoption of the Dynamics 365 implementation since the end users recognize their processes.
+
+As described in the [Success-by-Design framework](../implementation-guide/success-by-design.md), the Initiate (or design) phase of a Dynamics implementation requires a process-focused approach. In this phase, you determine what processes are in scope or out scope for the Dynamics 365 implementation.
+
+Following the processes in the business process catalog often requires some form of process (re)design or standardization compared to how the organization currently works. You acheive a shared understanding of how processes are used in Dynamics 365 by being able to visualize, describe, and interconnect the processes in the business process catalog.
+
+Mavim is a business process management tool that allows you to manage large operating models or business process models such as the business process catalog. Mavim is based on a central process repository that combines process diagrams (using Visio), process descriptions (using Word), process metadata, and process relationships.
+
+:::image type="content" source="media/about-import-catalog-mavim-patterns-practices.svg" alt-text="Diagram of the Dynamics 365 patterns and practices, showing the various business processes." lightbox="media/about-import-catalog-mavim-patterns-practices.svg":::
+
+The Mavim platform facilitates the 'Initiate' phase by allowing you to (re)design the processes to match your way of working and describe upfront detailed fit-gap descriptions of specific configurations or customizations.
+
+After Go-Live, the collaboration features of Mavim, with all your processes visualized and described, is a valuable tool for training and onboarding of new employees but also for your continuous improvement activities.
 
 Microsoft’s Success by Design framework includes structured guidance across phases:
 
