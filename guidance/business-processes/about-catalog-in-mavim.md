@@ -167,6 +167,7 @@ To align with Success by Design and FastTrack recommended practices, you can cho
 ### 1. Start from the business process catalog inside Mavim
 
 - Download the Microsoft Business Process Catalog Mavim database and import into your Mavim environment. Download the catalog [https://aka.ms/businessprocesscatalog.](https://aka.ms/businessprocesscatalog) 
+- Import that catalog into your Mavim environment. To learn more, see [Import the Microsoft business process catalog into Mavim](about-import-catalog-mavim-database.md)
 - Review end‑to‑end processes
 - Assign process owners
 - Synchronize your Mavim environment to your Azure DevOps environment
