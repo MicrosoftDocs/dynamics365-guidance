@@ -168,6 +168,26 @@ There is no automated migration path from an existing or customized Azure DevOps
 
 Partners and customers should assess the effort required to migrate implementation backlog data before deciding to transition an in‑flight project to the updated template.
 
+## Mavim database updates
+The March 2026 release of the business process catalog is now available in the Mavim database format. You can download the MTDX file from the Microsoft Download Center the same way that you download the Excel-based Azure DevOps version. To dowonload the catalog, visit [https://aka.ms/businessprocesscatalog](https://aka.ms/businessprocesscatalog). To learn more, see [Import the Microsoft business process catalog into Mavim using the database](about-import-catalog-mavim-database.md).
+
+When you use the Mavim to manage your business process catalog, there are additional features and changes to the catalog data that are not provided in the Excel version.
+
+- New icons provided for all Microsoft Products and Application families
+- All workshops are updated to include the detailed workshop content in the Word editor. 
+- Cleaned up the duplicated unused topics in the Dynamics 365 Related Categories node. This includes the following:
+  - Workshops (you can find the workshops in the Success by Design Delivery Plan node)
+  - Tasks (you can find the tasks in the Success by Design Delivery Plan node)
+- New icon for Area paths node
+- Added Area path full path field to all area paths. This new field maps the area path values to the area path values in Azure DevOps. The top node area path named "Project name" should be renamed to match your project and the Area path full path value is set to "Your Project Name Here" which should also be updated to your projects root area path node if you plan to integrate your Azure DevOps environment with Mavim.
+- Relationships are created between Application families and Products nodes.
+- A new folder of End to end journeys under the Navigation node is now available. This node includes new charts that match the current pitch deck curvy line flow diagrams that are used across all the end to end processes. You can optionally use these new navigation pages in the Mavim collaboration portal as an alternative navigation for drilling down through the various catalog levels. The following image shows the new alternative navigation page. You can optionally set this as the home page or link to your existing home page in Mavim.
+
+:::image type="content" source="media/mavim-end-to-end-journey-navigation.png" alt-text="A large curved line showing each of the 15 end to end processes with icons for each and a series of boxes below the line for navigating the deliverables, workshops, and Success by Design elements.":::
+
+## Downloadable workshop templates are deprecated
+We will no longer maintain the Word documnet format in the GitHub repository for any workshops. The current version of the Word documents will remain available in the GitHub repository for one year at which time they will be deleted. We recommend that you leverage Azure DevOps or Mavim to manage and help you execute the workshops where the data for the workshops will be maintained.
+
 ## Related content
 
 - [Automate Azure DevOps project, process, work item types, fields, and picklists from Excel with Python](about-configure-azure-devops-project-processes.md)  
