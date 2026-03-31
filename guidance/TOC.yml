@@ -367,6 +367,8 @@ items:
                 items:
                   - name: Import the catalog to Azure DevOps overview
                     href: business-processes/about-import-catalog-devops.md
+                  - name: Azure DevOps backlog configuration
+                    href: business-processes/about-configure-azure-devops-backlog.md
                   - name: Work item types in Azure DevOps
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
                   - name: Deliverables work item types in Azure DevOps
@@ -379,10 +381,22 @@ items:
                     href: business-processes/about-import-catalog-devops-updates.md
                   - name: Reference for fields on work items
                     href: business-processes/about-devops-work-items-deliverables-fields.md
+                  - name: Configure Azure DevOps page layout
+                    href: business-processes/about-configure-azure-devops-page-layout.md
+                  - name: Automate Azure DevOps project and processes
+                    href: business-processes/about-configure-azure-devops-project-processes.md
+                  - name: About configure azure devops project processes
+                    href: business-processes/about-configure-azure-devops-project-processes.md
+                  - name: Troubleshoot the Azure DevOps scripts
+                    href: business-processes/about-configure-azure-devops-troubleshooting.md
               - name: Import the catalog to Mavim
                 items:
-                  - name: Import the catalog to Mavim overview
+                  - name: Introduction to the business process catalog in Mavim
+                    href: business-processes/about-catalog-mavim.md
+                  - name: Import the catalog to Mavim
                     href: business-processes/about-import-catalog-mavim.md
+                  - name: Import the catalog using the Mavim database file
+                    href: business-processes/about-import-catalog-mavim-database.md
                   - name: Success by Design with the Dynamics 365 business process catalog in Mavim
                     href: business-processes/about-catalog-mavim-success-design-d365.md
                   - name: Navigate the business process catalog in Mavim
@@ -417,6 +431,8 @@ items:
             items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
+              - name: What's new or changed in the March 2026 version
+                href: business-processes/about-whats-new-2026-march.md
               - name: What's new or changed in the December 2025 version
                 href: business-processes/about-whats-new-2025-december.md
               - name: What's new or changed in the August 2025 version
