@@ -154,7 +154,7 @@ Automation scripts supporting the Excel‑based Azure DevOps (ADO) template are 
 - Improved traceability between discovery outputs and implementation planning artifacts
 - Reduced manual effort during discovery‑to‑implementation transition
 
-Microsoft recommends that new implementation projects begin using the March 2026 Azure DevOps template to take advantage of these automation and alignment capabilities.
+Microsoft recommends that new implementation projects begin using the March 2026 Azure DevOps template to take advantage of these automation and alignment capabilities. To access the new preview tempaltes, visit [https://aka.ms/BPCADOTemplate](https://aka.ms/BPCADOTemplate). To learn more about how to install and use the template, see [Configure Azure DevOps process and project](about-configure-azure-devops-project-processes.md).
 
 > [!IMPORTANT]
 >
