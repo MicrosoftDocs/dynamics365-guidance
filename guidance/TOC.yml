@@ -244,7 +244,7 @@ items:
                   - name: Manage accounts payable overview
                     href: business-processes/source-to-pay-manage-accounts-payable-overview.md
                   - name: Issue and settle supplier payments
-                    href: business-processes\source-to-pay-issue-and-settle-vendor-payments-overview.md
+                    href: business-processes/source-to-pay-issue-and-settle-vendor-payments-overview.md
                   - name: Process supplier rebates and incentives
                     href: business-processes/source-to-pay-process-vendor-rebates-incentives-overview.md
           - name: Project to profit
@@ -352,23 +352,33 @@ items:
               - name: Administer system features
                 href: business-processes/administer-to-operate-administer-system-features.md
               - name: Manage system access and security overview
-                href: business-processes\administer-to-operate-manage-system-access-security.md
+                href: business-processes/administer-to-operate-manage-system-access-security.md
               - name: Train users and increase adoption
                 href: business-processes/administer-to-operate-train-users-increase-adoption-overview.md
               - name: Manage data
-                href: business-processes\administer-to-operate-manage-data-synchronization-overview.md
+                href: business-processes/administer-to-operate-manage-data-synchronization-overview.md
               - name: Manage system compliance overview
-                href: business-processes\administer-to-operate-manage-system-compliance.md
+                href: business-processes/administer-to-operate-manage-system-compliance.md
               - name: Define support systems overview
-                href: business-processes\administer-to-operate-support-systems-overview.md
+                href: business-processes/administer-to-operate-support-systems-overview.md
           - name: Use the catalog
             items:
+              - name: Configure Azure DevOps (Preview)
+                items:                  
+                  - name: Automate Azure DevOps project and processes
+                    href: business-processes/about-configure-azure-devops-project-processes.md
+                  - name: Configure Azure DevOps page layout
+                    href: business-processes/about-configure-azure-devops-page-layout.md
+                  - name: Configure Azure DevOps teams and area paths
+                    href: business-processes/about-configure-azure-devops-teams-area-paths.md
+                  - name: Azure DevOps backlog configuration
+                    href: business-processes/about-configure-azure-devops-backlog.md
+                  - name: Troubleshoot the Azure DevOps scripts
+                    href: business-processes/about-configure-azure-devops-troubleshooting.md
               - name: Import the catalog to Azure DevOps
                 items:
                   - name: Import the catalog to Azure DevOps overview
                     href: business-processes/about-import-catalog-devops.md
-                  - name: Azure DevOps backlog configuration
-                    href: business-processes/about-configure-azure-devops-backlog.md
                   - name: Work item types in Azure DevOps
                     href: business-processes/about-import-catalog-devops-process-work-item-types.md
                   - name: Deliverables work item types in Azure DevOps
@@ -381,14 +391,6 @@ items:
                     href: business-processes/about-import-catalog-devops-updates.md
                   - name: Reference for fields on work items
                     href: business-processes/about-devops-work-items-deliverables-fields.md
-                  - name: Configure Azure DevOps page layout
-                    href: business-processes/about-configure-azure-devops-page-layout.md
-                  - name: Automate Azure DevOps project and processes
-                    href: business-processes/about-configure-azure-devops-project-processes.md
-                  - name: About configure azure devops project processes
-                    href: business-processes/about-configure-azure-devops-project-processes.md
-                  - name: Troubleshoot the Azure DevOps scripts
-                    href: business-processes/about-configure-azure-devops-troubleshooting.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Introduction to the business process catalog in Mavim
@@ -792,7 +794,7 @@ items:
           - name: Administration
             items:
               - name: Storage capacity enforcement module for Power Platform CoE Starter Kit
-                href: resources\center-of-excellence-storage-capacity-enforcement.md
+                href: resources/center-of-excellence-storage-capacity-enforcement.md
           - name: Implementation Portal
             items:
               - name: Dynamics 365 Implementation Portal
@@ -1367,123 +1369,123 @@ items:
           - name: Introduction
             href: roles/techtalk-videos.md
           - name: Introduction to the Dynamics 365 guidance hub
-            href: techtalks\get-started-guidance-hub.md
+            href: techtalks/get-started-guidance-hub.md
           - name: Business processes
             items:
               - name: Introduction to the business process catalog
-                href: techtalks\get-started-business-process-catalog.md
+                href: techtalks/get-started-business-process-catalog.md
               - name: Manage project scope and estimates with the business process catalog
-                href: techtalks\get-started-business-process-catalog-manage-project-scope-estimation.md
+                href: techtalks/get-started-business-process-catalog-manage-project-scope-estimation.md
               - name: Author business processes
-                href: techtalks\get-started-business-process-catalog-authoring.md
+                href: techtalks/get-started-business-process-catalog-authoring.md
               - name: Author patterns for business processes
-                href: techtalks\get-started-business-process-catalog-authoring-patterns.md
+                href: techtalks/get-started-business-process-catalog-authoring-patterns.md
           - name: Finance
             items:
               - name: Copilot capabilities in Finance
-                href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+                href: techtalks/dynamics-365-finance-supply-chain-management-copilot-capabilities.md
               - name: Microsoft Copilot for Finance
-                href: techtalks\microsoft-copilot-finance.md
+                href: techtalks/microsoft-copilot-finance.md
               - name: Extending Copilot in finance and operations apps
                 href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
               - name: The source to pay business process
-                href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+                href: techtalks/dynamics-365-finance-supply-chain-management-source-to-pay.md
               - name: Business performance analytics in Dynamics 365 Finance
-                href: techtalks\finance-bpa-overview.md
+                href: techtalks/finance-bpa-overview.md
               - name: Business performance planning in Dynamics 365 Finance
-                href: techtalks\finance-bpp-integrated-planning-insights.md
+                href: techtalks/finance-bpp-integrated-planning-insights.md
               - name: Performance test the user interface with JMeter in Dynamics 365 Finance
-                href: techtalks\finance-operations-ui-performance-test-jmeter.md
+                href: techtalks/finance-operations-ui-performance-test-jmeter.md
               - name: Tax calculation updates in 2024
-                href: techtalks\finance-tax-updates-2024.md
+                href: techtalks/finance-tax-updates-2024.md
               - name: Advanced bank reconciliation
-                href: techtalks\finance-advanced-bank-reconciliation-enhancements.md
+                href: techtalks/finance-advanced-bank-reconciliation-enhancements.md
               - name: Invoice capture features and functionality
-                href: techtalks\finance-invoice-capture-ga-features-functionality.md
+                href: techtalks/finance-invoice-capture-ga-features-functionality.md
               - name: Subscription billing and deferral schedules
-                href: techtalks\finance-subscription-billing-deferral-schedules-project-management-accounting.md
+                href: techtalks/finance-subscription-billing-deferral-schedules-project-management-accounting.md
               - name: Migrate to subscription billing
-                href: techtalks\finance-subscription-billing-migrate.md
+                href: techtalks/finance-subscription-billing-migrate.md
               - name: Regulatory Configuration Service moved to Globalization Studio workspace
-                href: techtalks\finance-globalization-studio-regulatory-configuration-service.md
+                href: techtalks/finance-globalization-studio-regulatory-configuration-service.md
           - name: Human Resources
             items:
               - name: Human Resources infrastructure merge
-                href: techtalks\human-resources-infrastructure-merge.md
+                href: techtalks/human-resources-infrastructure-merge.md
           - name: Project Operations
             items:
               - name: Project management and time entry
-                href: techtalks\project-operations-project-management-time-entry.md
+                href: techtalks/project-operations-project-management-time-entry.md
               - name: Sales and inception
-                href: techtalks\project-operations-sales-inception.md
+                href: techtalks/project-operations-sales-inception.md
               - name: Budget management and time-phased forecasting with Dynamics 365
-                href: techtalks\project-operations-budget-management-time-phased-forecasting.md
+                href: techtalks/project-operations-budget-management-time-phased-forecasting.md
           - name: Supply Chain Management
             items:
               - name: Copilot capabilities in Supply Chain Management
-                href: techtalks\dynamics-365-finance-supply-chain-management-copilot-capabilities.md
+                href: techtalks/dynamics-365-finance-supply-chain-management-copilot-capabilities.md
               - name: Extending Copilot in finance and operations apps
                 href: techtalks/dynamics-365-finance-operations-apps-copilot-extend.md
               - name: The source to pay business process
-                href: techtalks\dynamics-365-finance-supply-chain-management-source-to-pay.md
+                href: techtalks/dynamics-365-finance-supply-chain-management-source-to-pay.md
               - name: Production floor execution interface refresher in Dynamics 365
-                href: techtalks\production-floor-execution-interface-refresher.md
+                href: techtalks/production-floor-execution-interface-refresher.md
               - name: Inventory On-hand mobile app
-                href: techtalks\set-up-supply-chain-inventory-onhand-mobile-app.md
+                href: techtalks/set-up-supply-chain-inventory-onhand-mobile-app.md
               - name: Warehouse management only mode
                 href: techtalks/supply-chain-management-warehouse-management-only-mode.md
               - name: Cloud label printing
-                href: techtalks\supply-chain-cloud-label-printing.md
+                href: techtalks/supply-chain-cloud-label-printing.md
               - name: Demand planning for Dynamics 365 Supply Chain Management
-                href: techtalks\supply-chain-demand-planning-introduction.md
+                href: techtalks/supply-chain-demand-planning-introduction.md
               - name: Introducing attribute-based omnichannel product and inventory search
-                href: techtalks\attribute-based-omnichannel-product-inventory-search.md
+                href: techtalks/attribute-based-omnichannel-product-inventory-search.md
               - name: Pricing management
-                href: techtalks\supply-chain-pricing-management.md
+                href: techtalks/supply-chain-pricing-management.md
               - name: Advanced export control
-                href: techtalks\supply-chain-advanced-export-control.md
+                href: techtalks/supply-chain-advanced-export-control.md
               - name: Performance testing using JMeter and warehouse app task validation framework
-                href: techtalks\implement-supply-chain-warehouse-performance-testing.md
+                href: techtalks/implement-supply-chain-warehouse-performance-testing.md
               - name: Performance test the user interface with JMeter
-                href: techtalks\finance-operations-ui-performance-test-jmeter.md
+                href: techtalks/finance-operations-ui-performance-test-jmeter.md
               - name: What's new in Supply Chain Management in 2023 release wave 2
-                href: techtalks\whats-new-supply-chain-management-2023-wave-2.md
+                href: techtalks/whats-new-supply-chain-management-2023-wave-2.md
           - name: Digital selling
             items:
               - name: Set up business-to-business digital selling with Dynamics 365
-                href: techtalks\set-up-dynamics-365-digital-selling.md
+                href: techtalks/set-up-dynamics-365-digital-selling.md
               - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 1
-                href: techtalks\extend-supply-chain-commerce-b2b.md
+                href: techtalks/extend-supply-chain-commerce-b2b.md
               - name: AI-powered B2B digital selling experience with Supply Chain Management and Commerce - part 2
-                href: techtalks\extend-supply-chain-commerce-b2b-part2.md
+                href: techtalks/extend-supply-chain-commerce-b2b-part2.md
           - name: Implementation
             items:
               - name: Solution blueprint reviews
-                href: techtalks\implement-solution-blueprint-review-fasttrack-dynamics-365.md
+                href: techtalks/implement-solution-blueprint-review-fasttrack-dynamics-365.md
               - name: Conduct process-centric discovery
-                href: techtalks\get-started-conduct-process-centric-discovery.md
+                href: techtalks/get-started-conduct-process-centric-discovery.md
               - name: Process governance
-                href: techtalks\get-started-conduct-process-governance.md
+                href: techtalks/get-started-conduct-process-governance.md
               - name: Implementation approach with agile techniques
-                href: techtalks\implement-use-agile-techniques.md
+                href: techtalks/implement-use-agile-techniques.md
               - name: Optimize the experience in Dynamics 365 apps
-                href: techtalks\implement-optimize-experience.md
+                href: techtalks/implement-optimize-experience.md
               - name: Modernizing the admin experience for finance and operations apps
-                href: techtalks\finance-operations-unified-admin-experience.md
+                href: techtalks/finance-operations-unified-admin-experience.md
               - name: Service, support, and maintain Dynamics 365 apps
-                href: techtalks\service-support-maintain-dynamics-365-apps.md
+                href: techtalks/service-support-maintain-dynamics-365-apps.md
               - name: Automated regression testing with Leapwork
-                href: techtalks\dynamics-365-automated-regression-testing-leapwork.md
+                href: techtalks/dynamics-365-automated-regression-testing-leapwork.md
               - name: Performance improvements for continuous number sequences
-                href: techtalks\finance-operations-continuous-number-sequence-performance-improvements.md
+                href: techtalks/finance-operations-continuous-number-sequence-performance-improvements.md
           - name: Integration
             items:
               - name: General guidance for integrating Dynamics 365 apps
-                href: techtalks\integrate-general-guidance.md
+                href: techtalks/integrate-general-guidance.md
               - name: Integration patterns for Dynamics 365 finance and operations applications
-                href: techtalks\integrate-finance-operations-overview.md
+                href: techtalks/integrate-finance-operations-overview.md
               - name: Integration patterns for Dataverse
-                href: techtalks\integrate-finance-operations-dataverse.md
+                href: techtalks/integrate-finance-operations-dataverse.md
               - name: Transition to using Synapse Link for Dataverse
                 href: techtalks/dataverse-synapse-link-dynamics-365-transition.md
               - name: Architecture patterns for virtual data warehousing
@@ -1493,11 +1495,11 @@ items:
               - name: Dynamics 365 data in lake house architecture
                 href: techtalks/dataverse-synapse-link-dynamics-365-lake-house.md
               - name: Dynamics 365 Payment Connector for Adyen
-                href: techtalks\adyen-payment-connector-dynamics-365.md
+                href: techtalks/adyen-payment-connector-dynamics-365.md
           - name: Development
             items:
               - name: Unified developer experience for Dynamics 365 finance and operations apps
-                href: techtalks\unified-developer-experience.md
+                href: techtalks/unified-developer-experience.md
       - name: Product documentation
         items:
           - name: Dynamics 365 documentation hub
