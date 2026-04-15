@@ -134,4 +134,4 @@ The sample Python script doesn't include certain configuration that you should a
 
 ## Next steps
 
-After you create the process, project, work item types, and organizational level fields, add the fields to each work item type and create the page layouts for each work item type. For sample scripts and to learn more, see [Automate Azure DevOps page layout creation with Python](/azure/devops/organizations/settings/work/automate-page-layout-creation-python?view=azure-devops&preserve-view=true).
+After you create the process, project, work item types, and organizational level fields, add the fields to each work item type and create the page layouts for each work item type. For sample scripts and to learn more, see [Automate Azure DevOps page layout creation with Python](about-configure-azure-devops-page-layout.md)
