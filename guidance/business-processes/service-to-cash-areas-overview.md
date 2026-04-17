@@ -1,7 +1,7 @@
 ---
 title: Overview of the Service to deliver business process areas
 description: Learn about the business process areas that make up the Service to deliver end-to-end flow in Dynamics 365 solutions.
-ms.date: 11/25/2024
+ms.date: 03/26/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 The *service to deliver* process is broken down into several business process areas. In this article, you'll learn about the business process areas that make up the service to deliver flow in Dynamics 365 solutions.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 ## Manage service assets
 

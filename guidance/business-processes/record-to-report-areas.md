@@ -1,7 +1,7 @@
 ---
 title: Overview of the Record to report business process areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 06/23/2025
+ms.date: 03/26/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kgiardini
@@ -49,6 +49,8 @@ In addition to the robust budgeting capabilities of Finance, there are also budg
 
 - Dynamics 365 Supply Chain Management includes robust forecasting functionality for demand and supply that can both be converted to general ledger budgets.
 
+Learn more at [Manage budgets](record-to-report-manage-budgets.md).
+
 <!-- ## Maintain and manage cash and bank transactions
 
 This business process area involves managing cash and bank transactions, including bank account reconciliations, cash management, and bank statement processing. The Cash and bank management module in Dynamics 365 Finance supports various payment types and includes bank reconciliation functionality to help automate the month-end activities. -->
@@ -57,9 +59,13 @@ This business process area involves managing cash and bank transactions, includi
 
 This business process area involves recording financial transactions, including general ledger transactions, allocations, deferrals, and accruals, just to name a few. With the configurable workflow engine available out of the box, you can design your business process flow and approvals to match your business requirements.
 
+Learn more at [Record financial transactions](record-to-report-record-financial-transactions.md).
+
 ## Close financial periods
 
 This business process area involves posting and finalizing transactions in each of the sub ledgers. It also includes recording accruals and deferrals, performing currency revaluations and reconciliations of the subledgers to the general ledger. After reconciliation occurs, you can consolidate and eliminate transactions when you've more than one legal entity with requirements for consolidated financial reporting. There's also support for periodic processes such as year-end close and the preparation for a financial audit.
+
+Learn more at [Close financial periods](record-to-report-close-financial-periods.md).
 
 ## Analyze financial performance
 

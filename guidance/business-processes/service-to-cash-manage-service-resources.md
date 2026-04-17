@@ -4,7 +4,7 @@ description: Learn what the Manage service resources business process area is, w
 author: Dean-Hardy
 ms.author: DeanHardy
 ms.topic: concept-article
-ms.date: 02/07/2025
+ms.date: 03/26/2026
 ai.usage: ai-assisted
 ---
 
@@ -15,7 +15,7 @@ ai.usage: ai-assisted
 The *Manage service resources* area is part of the *Service to deliver* end-to-end business process. This article tells you what this area is about, why you should use Dynamics 365 to support it, and what subprocesses it includes.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 In the *Service to deliver* end-to-end business process, resources are things that you can schedule for service delivery. The most common resources are people. But resources can also be other things like equipment, facilities, or anything else that has limited capacity and needs to be scheduled for service delivery.
 

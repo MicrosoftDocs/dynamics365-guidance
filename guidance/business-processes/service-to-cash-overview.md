@@ -1,7 +1,7 @@
 ---
 title: Overview of the service to deliver end-to-end business process
 description: Learn about the service to deliver end-to-end business process with a flow diagram and describes the relationship with other processes in Dynamics 365 solutions.
-ms.date: 10/03/2025
+ms.date: 03/26/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
@@ -18,7 +18,7 @@ ai-usage: ai-assisted
 This article describes the *service to deliver* end-to-end business process flow and its relationship to other business processes that can be used within Microsoft business applications.
 
 > [!IMPORTANT]
-> This end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 ## Service to deliver process relationship
 

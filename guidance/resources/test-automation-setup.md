@@ -81,10 +81,8 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample automation proje
 
 The test sample project has [end-to-end tests](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/Automation/Playwright/Samples/automation/tests-e2e) for the case to resolution business process. It covers the following process areas:
 
-- [Create a case](../business-processes/case-to-resolution-areas.md#create-a-case)
-- [Work on a case](../business-processes/case-to-resolution-areas.md#work-on-a-case)
-- [Manage cases](../business-processes/case-to-resolution-areas.md#manage-cases)
-- [Resolve cases](../business-processes/case-to-resolution-areas.md#resolve-cases)
+- [Intake cases](../business-processes/case-to-resolution-areas.md#intake-cases)
+- [Manage and work on cases](../business-processes/case-to-resolution-areas.md#manage-and-work-on-cases)
 
 These cases are based on the out-of-the-box forms. We recommend you run the tests in a trial environment first. Once you're comfortable with running the tests, you can switch the configuration to the implementation project's environments.
 

@@ -1,7 +1,7 @@
 ---
 title: Overview of the Create and process service work business process area
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for creating and processing work related to services.
-ms.date: 02/21/2024
+ms.date: 03/26/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
@@ -16,7 +16,7 @@ This article describes how you can use Dynamics 365 products to support your org
 It describes the *Create and process service work* process area within the *Service to deliver* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 Processes within this area can vary widely by organization based on industries, business models, and unique requirements, but often they follow a similar high-level lifecycle that includes receiving service requests, scheduling service resources, conducting the service activities, and closing the service request before handing it off to other downstream process areas such as invoicing and payment collection.
 
