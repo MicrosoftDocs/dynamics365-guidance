@@ -1,7 +1,7 @@
 ---
 title: Manage credit and collections
 description: Learn how to use Dynamics 365 products to monitor customer credit and collections and reduce bad debt.
-ms.date: 06/25/2025
+ms.date: 03/26/2026
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
@@ -65,7 +65,7 @@ The *Manage credit and collections* business process area flow diagram covers th
     1. *Manage customer account holds*
     1. *Monitor customer credit*
     1. *Collect interest*
-    1. *Manage customer*
+    1. *Manage customer collections*
 
     <!-- 1. *Set customer credit limits*
 
@@ -132,7 +132,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Manage cred
     1. *Manage customer account holds*
     1. *Monitor customer credit*
     1. *Collect interest*
-    1. *Manage customer*
+    1. *Manage customer collections*
 1. *Analyze sales performance*
 
 ## Related information

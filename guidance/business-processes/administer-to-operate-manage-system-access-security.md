@@ -4,7 +4,7 @@ description: Learn about the importance of managing system access and security, 
 author: harshbirla
 ms.author: harshbir
 ms.topic: concept-article
-ms.date: 06/25/2024
+ms.date: 03/30/2026
 ---
 
 # Manage system access and security overview
@@ -40,21 +40,24 @@ The following diagram illustrates the *manage system access and security* busine
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 1. Start
-1. *Administer to operate*
-1. *Manage system access and security*, which has 10 substeps:
+2. *Administer to operate*
+3. *Manage system access and security*:
 
-    1. *Review access policies*: Review the security and access policies that were defined during implementation, to ensure that the existing policies are adequate. Make any necessary changes.
-    1. *Onboard new users*: Create new user accounts, and assign the appropriate permissions to them on an ongoing basis.
-    1. *Update user access*: Update existing user access as needed, to ensure that daily activities can be completed.
-    1. *Revoke user access*: Remove access from users when they no longer need it.
-    1. *Delete users*: Remove user accounts that are no longer needed.
-    1. *Review audit logs*: Review audit logs to ensure that security policies are being adhered to.
-    1. *Manage service accounts and certificates*: Review permissions on service accounts to ensure that only necessary permissions are assigned, and that credentials are still secure. Rotate certificates to prevent issues with expiry.
-    1. *Manage data security*: Review the data landscape to ensure that only necessary staff can access sensitive data.
-    1. *Manage authentication*: Review authentication methods, and ensure that they are up to date with current system requirements.
-    1. *Manage encryption*
+    1. *Review access policies*
+    1. *Review audit logs*
+    1. *Enable and configure audit logs*
+    1. *Onboard new users*
+    1. *Manage data security*
+    1. *Configure segregation of duties*
+    1. *Manage authentication*
+    1. *Manage and implement encryption*
+    1. *Manage service accounts and certificates*
+    1. *Revoke user access to systems*
+    1. *Update user access to systems*
+    1. *Delete users*
+    1. *Manage signatures and signing limits*
 
-1. End
+4. End
 
 The diagram also includes business processes on each side.
 
@@ -108,20 +111,22 @@ If you want to implement Dynamics 365 solutions to assist with your *manage syst
 1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
 1. *Manage licensing and entitlements*  
 1. [Administer system features](administer-to-operate-administer-system-features.md)   
-1. *Manage system access and security* (the article you're currently reading.)  
+1. *Manage system access and security* (the article you're currently reading)  
 
-    1. *Review access policies*  
-    1. *Review audit logs*  
-    1. *Enable and configure audit logs*  
-    1. *Onboard new users*  
-    1. *Manage data security*  
-    1. *Configure segregation of duties*  
-    1. *Manage authentication*  
-    1. *Manage and implement encryption*  
-    1. *Manage service accounts and certificates*  
-    1. *Revoke users access to systems*  
-    1. *Update access to systems*  
-    1. *Delete users*  
+    1. *Review access policies*
+    1. *Review audit logs*
+    1. *Enable and configure audit logs*
+    1. *Onboard new users*
+    1. *Manage data security*
+    1. *Configure segregation of duties*
+    1. *Manage authentication*
+    1. *Manage and implement encryption*
+    1. *Manage service accounts and certificates*
+    1. *Revoke user access to systems*
+    1. *Update user access to systems*
+    1. *Delete users*
+    1. *Manage signatures and signing limits*
+
 1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
 1. *Monitor systems, environments, and capacity*  
 1. *Manage background jobs*  

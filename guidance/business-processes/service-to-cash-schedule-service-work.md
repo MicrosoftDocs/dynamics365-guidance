@@ -4,7 +4,7 @@ description: Learn about the benefits and process flow for the scheduling servic
 author: nucruz
 ms.author: nucruz
 ms.topic: concept-article
-ms.date: 04/08/2024
+ms.date: 03/26/2026
 ---
 
 # The business process Schedule service work
@@ -14,7 +14,7 @@ ms.date: 04/08/2024
 This article describes the benefits and process flow of the *Schedule service requests* business process that is part of the *Create and process service work* process area in the *Service to deliver* end to end business process. This process encompasses the steps to identify and book the correct resources to be scheduled to perform service work, which is the next step in the progress.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 *Scheduling work orders* is the process of planning and organizing tasks or jobs in a systematic manner to ensure efficient and timely completion. It involves scheduling work orders within an agreed time window, considering factors such as available resources, priorities, dependencies, and skills required.
 

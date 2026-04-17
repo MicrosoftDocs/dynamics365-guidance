@@ -4,7 +4,7 @@ description: Learn about how to set up and configure for performing service work
 author: jasondpms
 ms.author: jaduples
 ms.topic: concept-article
-ms.date: 04/09/2024
+ms.date: 03/26/2026
 ---
 
 # The business process Perform service work within the Service to deliver end-to-end scenario
@@ -14,7 +14,7 @@ ms.date: 04/09/2024
 This article describes the setup, configuration, and design considerations for performing service work in Dynamics 365. Frontline workers that work for an organization that provides a service to customers or clients. Performing service work is typically the process where frontline workers perform the tasks specified in the work order assigned, using various tools and equipment.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario has a new name in the February 2025 version of the business process catalog. The articles in Microsoft Learn are not yet fully updated based on this version. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 The work of a frontline worker involves, for example,  installing, maintaining, and repairing various types of systems in different locations. The frontline worker also communicates with stakeholders and updates them on the progress and status of the service work.
 
