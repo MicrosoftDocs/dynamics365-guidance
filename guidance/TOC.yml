@@ -1264,6 +1264,8 @@ items:
                 href: reference-architectures/sales-customer-insights-customer-service-crm-system.md
               - name: Architecture for Sales Qualification Agent
                 href: reference-architectures/sales-qualification-agent.md
+              - name: Opportunity health overview in Dynamics 365 Sales
+                href: reference-architectures/sales-opportunity-health.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
