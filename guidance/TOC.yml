@@ -364,7 +364,7 @@ items:
           - name: Use the catalog
             items:
               - name: Configure Azure DevOps (Preview)
-                items:                  
+                items:
                   - name: Automate Azure DevOps project and processes
                     href: business-processes/about-configure-azure-devops-project-processes.md
                   - name: Configure Azure DevOps page layout
@@ -1264,6 +1264,8 @@ items:
                 href: reference-architectures/sales-customer-insights-customer-service-crm-system.md
               - name: Architecture for Sales Qualification Agent
                 href: reference-architectures/sales-qualification-agent.md
+              - name: Opportunity health overview in Dynamics 365 Sales
+                href: reference-architectures/sales-opportunity-health.md
           - name: Supply Chain Management
             items:
               - name: Export inventory on-hand data to Dataverse
@@ -1278,6 +1280,8 @@ items:
                 href: reference-architectures/supply-chain-message-based-integration-telematics-solution.md
           - name: Healthcare write-back identifiers to FHIR server
             href: reference-architectures/healthcare-writeback-dynamics-365-identifiers-fhir-server.md
+          - name: Extend model-driven apps with a custom Copilot Studio agent
+            href: reference-architectures/custom-copilot-agent-dynamics-365-power-apps.md
           - name: Dataverse as master data system
             href: reference-architectures/dataverse-master-data-system.md
       - name: Security and compliance

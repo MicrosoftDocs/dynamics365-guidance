@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1064.2178"
+   height="251.07246"
+   overflow="hidden"
+   version="1.1"
+   id="svg45"
+   sodipodi:docname="custom-copilot-agent-dynamics-365-power-apps-architecture.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3820312"
+     inkscape:cx="558.97671"
+     inkscape:cy="165.61496"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg45" />
+  <defs
+     id="defs1">
+    <image
+       width="20"
+       height="19"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAMAAACnUt2HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJqUExURQAAAGCvn2jCqnHJrXnSq4DVqIbZon7Ik0/H3WLX3m3m4Xbu4nzv24Hw1IXwzIvxxZDyvo7osQdHalDV9GLl8Wzr7XHt6YDw1IXwzQl2pg2SygyXyxKb0U7Y+V7h82bo8Gvr7Qp6rQyQyA2Vyw6bzRCh0kvV+lne9WLk8nvv2wl3rAuNxw2Tyg6YzA+dz0jT+1Tb9lzh9GHk8mbn8Fm1qgl3rwuLxkXR/FDX+FTW7k/G10ivvDqUpDB/kSVtgRlddQVVggmAvQqIxSexsS+xwiezxyCwyBivyi2YuQ9UZgtRZA1dcw5rhQROhAReogZnqgdvswh7vQmAwQqFxCq6zzLR5inM5R/F4hi/3hBzjRKDohKJqRONrhOQsgNWnQRotQVtuAZyugd4vQh9vwmDwii/1i3O5STI4xrC4BW83BOmxhKRshKPsBOOsAJUnANltARqtgZwuQd1vAh7viW91ijL5BW52hS01hKu0hGpzhCjyhGYvQJSmgNiswyNxyO/2yTH4hS32BOx1BGs0BCmzA+gyA2SuQFQmQJgsgZ1vAh7vwiAvwuFwhCPvx+82h/E4Q+XuwyBpglskANEbgFSnwJesAVwuhqwzQ97jgpkeAdSagRGYwEtVgAsXwA1bgA+gABLmgBWrAFbrwxWaQpZdghfhQdlkwVroQA/jQBDlABImQBMngBQpABUqQFZrQxgfAtniQlpkwdsnQVvpwA9jABBkQBGlgBKnABOoQBRpwxoiwppkwdrnQVvpwA8iQA/jgNjswBzpgA5hwA9jABWrAFbrwJhsAA2gwA8iQA/jwBElABImABNnQBSpAHgsOIAAADOdFJOUwAQNlp8nrNhiN7z/////////CT8///////AYEAc//////////+j//////////////////////////v08v////////8NXHyev/7+/////////////+H/////////////////////+///////////////////+////////////9f/////////////75+AXBD//////////zD75+bo7vr////////9/////+////////+l/////+///////yxQcMP///sU5//723RMs5t8XDwc8sGtEQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAATxJREFUKFNjYIACRiZmFlY2dhiXgYGBg5OLm4eXj19AUAghKCwiKsbNIy7BLyApJS0DFZSVk1eAiCoqKauoQgTV1DVAopriElraOrp6EEF9A0MjY5CoiamZkrIKRNDcwtLK2sbWzt7B0UlbR5fB2cXVzd3D08vbx9fPPyAwKNhMSZkhJDQsPCIyKjomNi4+ITEpOcVJW4chNS09IzMrOyc3Ni+/oLCoGKSUoaQ0PKKsvKKyqrqmFqq0jqG+ISOzsam5pbWtvSO/oLCzq7unl6GvH6RwwsRJk6dMrY1PmAZ2zfQZM2fNnjN33vwFCxd15BdAnLh4ydJly1esXLV6zdp1U2vjIYLrN2zctHnL1m3bd+wEKYUIMuzavWfvvv1QpQegggwMDAcPHQYrPXL0GEKQ4fiJk6dOnzkL4wIAMxVtBECmdA8AAAAASUVORK5CYII="
+       preserveAspectRatio="none"
+       id="img0" />
+    <clipPath
+       id="clip1">
+      <rect
+         x="1086"
+         y="270"
+         width="20"
+         height="19"
+         id="rect1" />
+    </clipPath>
+  </defs>
+  <g
+     id="g45"
+     transform="translate(-81.023285,-194.37192)">
+    <rect
+       x="81.023285"
+       y="194.37192"
+       width="1064.2178"
+       height="251.07246"
+       fill="#ffffff"
+       id="rect2"
+       style="stroke-width:0.538448" />
+    <rect
+       x="479.5"
+       y="196.5"
+       width="661"
+       height="246"
+       stroke="#25497b"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect3" />
+    <rect
+       x="479"
+       y="196"
+       width="661"
+       height="46"
+       fill="#25497b"
+       id="rect4" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="18.6667px"
+       transform="translate(578.84,226)"
+       id="text4">Dynamics 365 / Power Apps / Microsoft Copilot Studio</text>
+    <rect
+       x="500.5"
+       y="302.5"
+       width="236"
+       height="119"
+       stroke="#406cb9"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect5" />
+    <rect
+       x="500.5"
+       y="255.5"
+       width="236"
+       height="47"
+       stroke="#4cb1ff"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#46b1e1"
+       id="rect6" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(557.931,284)"
+       id="text6">Model</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(600.764,284)"
+       id="text7">-</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(606.598,284)"
+       id="text8">d</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(615.431,284)"
+       id="text9">riven</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(652.598,284)"
+       id="text10">a</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(660.264,284)"
+       id="text11">pp</text>
+    <rect
+       x="877.5"
+       y="302.5"
+       width="243"
+       height="119"
+       stroke="#406cb9"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect11" />
+    <rect
+       x="877.5"
+       y="255.5"
+       width="243"
+       height="47"
+       stroke="#4cb1ff"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#46b1e1"
+       id="rect12" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(902.242,284)"
+       id="text12">Microsoft Copilot Studio</text>
+    <path
+       d="m 1081.5,279 c 0,-8.56 6.94,-15.5 15.5,-15.5 8.56,0 15.5,6.94 15.5,15.5 0,8.56 -6.94,15.5 -15.5,15.5 -8.56,0 -15.5,-6.94 -15.5,-15.5 z"
+       stroke="#595959"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       id="path12" />
+    <g
+       id="g15">
+      <g
+         id="g14">
+        <g
+           id="g13">
+          <g
+             clip-path="url(#clip1)"
+             id="g12">
+            <use
+               width="100%"
+               height="100%"
+               xlink:href="#img0"
+               transform="translate(1086,270)"
+               id="use12" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       x="895"
+       y="319"
+       width="207"
+       height="87"
+       fill="#f2f2f2"
+       id="rect15" />
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="12px"
+       transform="translate(958.84,367)"
+       id="text15">Custom</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="12px"
+       transform="translate(1005.34,367)"
+       id="text16">a</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="12px"
+       transform="translate(1011.84,367)"
+       id="text17">gent</text>
+    <rect
+       x="515"
+       y="319"
+       width="206"
+       height="87"
+       fill="#f2f2f2"
+       id="rect17" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="12px"
+       transform="translate(588.774,344)"
+       id="text19">Form in Dynamics 365</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(554.187,373)"
+       id="text20">Power Apps</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(620.52,373)"
+       id="text21">c</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(626.02,373)"
+       id="text22">omponent</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(553.774,388)"
+       id="text23">f</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(557.607,388)"
+       id="text24">ramework</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(613.774,388)"
+       id="text25">(PCF)</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(644.44,388)"
+       id="text26">c</text>
+    <text
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(649.94,388)"
+       id="text27">ontrol</text>
+    <path
+       d="m 742.668,361.007 127.465,0.125 -0.002,2 -127.465,-0.125 z m 1.325,7.667 L 736,362 l 8.007,-6.659 z m 124.812,-13.21 7.994,6.674 -8.007,6.659 z"
+       fill="#7f7f7f"
+       id="path27" />
+    <rect
+       x="772"
+       y="302"
+       width="76"
+       height="119"
+       fill="#4472c4"
+       id="rect27" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(784.412,345)"
+       id="text28">Microsoft</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(799.832,359)"
+       id="text29">365</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(791.079,373)"
+       id="text30">Agents</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(798.745,388)"
+       id="text31">SDK</text>
+    <rect
+       x="84.500099"
+       y="302.5"
+       width="236"
+       height="120"
+       stroke="#406cb9"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect31" />
+    <path
+       d="M 6.67124,-0.969179 172.78,-0.201507 172.77,1.79847 6.662,1.0308 Z M 7.9691,6.70357 0,0 8.03072,-6.62962 Z m 163.5029,-12.57785 7.969,6.703571 -8.03,6.629629 z"
+       fill="#7f7f7f"
+       transform="matrix(1,0,0,-1,320,362.829)"
+       id="path31" />
+    <rect
+       x="356"
+       y="302"
+       width="98"
+       height="120"
+       fill="#4472c4"
+       id="rect32" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(379.516,345)"
+       id="text32">Microsoft</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(365.849,359)"
+       id="text33">Authentication</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(386.769,373)"
+       id="text34">Library</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="12px"
+       transform="translate(385.769,388)"
+       id="text35">(MSAL)</text>
+    <rect
+       x="99"
+       y="318"
+       width="206"
+       height="87"
+       fill="#f2f2f2"
+       id="rect35" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="12px"
+       transform="translate(134.361,358)"
+       id="text36">Public Client Application</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="12px"
+       transform="translate(168.861,373)"
+       id="text37">Registration</text>
+    <rect
+       x="84.500099"
+       y="256.5"
+       width="236"
+       height="46"
+       stroke="#4cb1ff"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#46b1e1"
+       id="rect37" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(141.444,285)"
+       id="text38">Microsoft Entra</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="14.6667px"
+       transform="translate(248.111,285)"
+       id="text39">ID</text>
+    <g
+       id="g41">
+      <g
+         id="g40">
+        <g
+           id="g39">
+          <path
+             d="m 12.9962,2.70833 c -5.68078,0 -10.28597,4.6052 -10.28597,10.28597 0,5.6808 4.60519,10.286 10.28597,10.286 5.6808,0 10.286,-4.6052 10.286,-10.286 0,-3e-4 0,-7e-4 0,-0.0011 C 23.2841,7.31499 18.6826,2.71028 13.0043,2.70833 c -0.0027,0 -0.0054,0 -0.0081,0 z M 14.1245,17.3604 H 12.5599 V 9.88785 c -0.1322,0.09027 -0.2716,0.17725 -0.4184,0.26085 -0.1468,0.0838 -0.2983,0.1589 -0.454,0.2248 -0.1682,0.066 -0.3451,0.1275 -0.5305,0.1844 -0.1855,0.0569 -0.3893,0.1123 -0.6116,0.1663 V 9.47429 C 10.6953,9.43223 10.8316,9.39025 10.9544,9.34835 11.0772,9.30646 11.1987,9.26448 11.3189,9.22242 11.4384,9.17448 11.5586,9.12519 11.6786,9.074 11.7986,9.02281 11.9183,8.97379 12.0383,8.92558 12.152,8.86565 12.2673,8.80569 12.3841,8.74575 12.5009,8.68582 12.6165,8.6226 12.7308,8.55617 12.8572,8.49044 12.9815,8.41823 13.1037,8.3395 13.226,8.26077 13.3505,8.18856 13.4772,8.12283 h 0.6473 z"
+             fill="#7030a0"
+             transform="matrix(1.03846,0,0,1,391,276)"
+             id="path39" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g44">
+      <g
+         id="g43">
+        <g
+           id="g42">
+          <path
+             d="m 809.496,277.812 c -5.899,0 -10.682,4.783 -10.682,10.682 0,5.899 4.783,10.682 10.682,10.682 5.899,0 10.682,-4.783 10.682,-10.682 0,0 0,0 0,-0.001 0.002,-5.897 -4.777,-10.678 -10.674,-10.681 -0.003,0 -0.005,0 -0.008,0 z m 3.054,15.472 h -6.107 v -0.897 c -0.006,-0.375 0.064,-0.748 0.205,-1.096 0.138,-0.329 0.329,-0.633 0.565,-0.9 0.251,-0.284 0.531,-0.541 0.836,-0.766 0.317,-0.236 0.66,-0.467 1.027,-0.691 0.307,-0.184 0.599,-0.393 0.872,-0.626 0.205,-0.175 0.387,-0.375 0.542,-0.596 0.128,-0.182 0.221,-0.386 0.276,-0.602 0.052,-0.22 0.077,-0.446 0.075,-0.672 0,-0.197 -0.031,-0.393 -0.094,-0.579 -0.058,-0.18 -0.152,-0.347 -0.275,-0.49 -0.129,-0.146 -0.288,-0.262 -0.467,-0.338 -0.208,-0.088 -0.432,-0.13 -0.658,-0.126 -0.441,-0.002 -0.876,0.101 -1.27,0.299 -0.415,0.21 -0.795,0.481 -1.13,0.803 v -1.457 c 0.323,-0.301 0.711,-0.525 1.134,-0.654 0.456,-0.135 0.93,-0.201 1.406,-0.196 0.38,-0.003 0.758,0.054 1.121,0.168 0.333,0.104 0.644,0.271 0.915,0.491 0.264,0.217 0.474,0.492 0.617,0.803 0.154,0.344 0.231,0.719 0.225,1.096 0.003,0.34 -0.037,0.679 -0.118,1.009 -0.079,0.309 -0.209,0.604 -0.385,0.871 -0.195,0.295 -0.429,0.562 -0.695,0.794 -0.327,0.286 -0.677,0.545 -1.046,0.775 -0.336,0.212 -0.635,0.408 -0.896,0.589 -0.237,0.16 -0.46,0.34 -0.668,0.536 -0.169,0.159 -0.31,0.345 -0.415,0.551 -0.095,0.197 -0.144,0.413 -0.141,0.631 h 4.548 z"
+             fill="#7030a0"
+             id="path41" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

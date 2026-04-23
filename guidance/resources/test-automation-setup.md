@@ -4,7 +4,7 @@ description: Learn how to set up automated end-to-end testing with Playwright fo
 author: edupont04
 ms.author: darent
 ms.topic: how-to
-ms.date: 06/26/2025
+ms.date: 04/17/2026
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
@@ -37,9 +37,9 @@ Playwright has two components. The Playwright Library provides unified APIs for 
 
 ## Install Playwright
 
-You can [install Playwright natively](https://playwright.dev/docs/intro) using *npm* or *yarn*. We recommend you install the Playwright extension in Visual Studio Code (VS Code).
+You can [install Playwright natively](https://playwright.dev/docs/intro) using *npm* or *yarn*. We recommend you install the Playwright extension in Visual Studio Code.
 
-1. Install the [Playwright VS Code extension from the marketplace](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) or from the **Extensions** tab in VS Code.
+1. Install the [Playwright extension from the marketplace](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) or from the **Extensions** tab in Visual Studio Code.
 
 1. Open the command panel, and then enter the following command: `Install Playwright`
 
@@ -55,7 +55,7 @@ Next, you need a Dynamics 365 Customer Service environment that you can run test
 
     > [!CAUTION]
     > The security defaults are on by default. This sample is a simple one that doesn't include the more appropriate configuration that supports the security defaults.
-1. In the Microsoft 365 admin center, create the user accounts you need and assign security roles. At a minimum, create a test automation account to use for testing, such as `test.automation@yourdomain.com`.
+1. In the Microsoft 365 admin center, create the user accounts you need and assign security roles. At a minimum, create a test automation account to use for testing, such as `test.automation@contoso.com`.
 
 ## Set up the test automation project
 
@@ -67,7 +67,7 @@ The Microsoft FastTrack for Dynamics 365 team provides a sample automation proje
 
   The project is in the [/Automation/Playwright/Samples/automation](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/Testing/Automation/Playwright/Samples/automation) subfolder.
 
-1. Extract the project folder, and then open the project in VS Code.
+1. Extract the project folder, and then open the project in Visual Studio Code.
 
 1. Open the `.env` file and edit the content to include your environment details, as in the following example with sample values:
 
@@ -90,25 +90,25 @@ These cases are based on the out-of-the-box forms. We recommend you run the test
 
 For end-to-end tests, `testDir` must be `./tests-e2e`. For unit tests, `testDir` must be `./tests`.
 
-By default, the sample project points to the end-to-end tests folder `./tests-e2e`. The following instructions are for executing the end-to-end tests from the UI using VS Code. To run unit tests, change the setting `testDir` in the `playwright.config.ts` file to `./tests`.
+By default, the sample project points to the end-to-end tests folder `./tests-e2e`. The following instructions are for executing the end-to-end tests from the UI using Visual Studio Code. To run unit tests, change the setting `testDir` in the `playwright.config.ts` file to `./tests`.
 
-### Run end-to-end tests from VS Code
+### Run end-to-end tests from Visual Studio Code
 
-1. In the VS Code activity bar, select the **Testing** icon. Open the test project in Test Explorer.
+1. In the Visual Studio Code activity bar, select the **Testing** icon. Open the test project in Test Explorer.
 
     The following screenshot shows the Test Explorer panel, which lists end-to-end test cases in a folder structure:
   
-    :::image type="content" source="../media/test-automation-test-explorer.png" alt-text="Screenshot of the Test Explorer panel in VS Code." lightbox="../media/test-automation-test-explorer.png":::
+    :::image type="content" source="../media/test-automation-test-explorer.png" alt-text="Screenshot of the Test Explorer panel in Visual Studio Code." lightbox="../media/test-automation-test-explorer.png":::
 
 1. Select a test file, and then select the **Run Test** icon.
 
     In the previous example, to run the `Case CRUD` end-to-end test scenario, select `casecrud.spec.ts`.
 
-By default, the VS Code test runner runs your tests in Chromium-based browsers. To test in other browsers, select the **Play** icon, and then select a browser type.
+By default, the Visual Studio Code test runner runs your tests in Chromium-based browsers. To test in other browsers, select the **Play** icon, and then select a browser type.
 
 A checkmark next to a file in the Test Explorer indicates the test ran successfully.
 
-## Related information
+## Related content
 
 - [Playwright overview](https://playwright.dev/docs/intro)
 

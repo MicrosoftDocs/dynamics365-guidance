@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="723.74652"
+   height="448.9256"
+   overflow="hidden"
+   version="1.1"
+   id="svg74"
+   sodipodi:docname="sales-opportunity-health.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs74" />
+  <sodipodi:namedview
+     id="namedview74"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.26875"
+     inkscape:cx="358.34711"
+     inkscape:cy="204.73829"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg74" />
+  <g
+     id="g74"
+     transform="translate(-278.56751,-155.15152)">
+    <rect
+       x="282.0925"
+       y="160.48834"
+       width="723.78247"
+       height="446.31195"
+       fill="#ffffff"
+       id="rect1"
+       style="stroke-width:0.59204"
+       transform="matrix(0.99998058,-0.00623268,-0.00920255,0.99995766,0,0)" />
+    <rect
+       x="280.5"
+       y="158.5"
+       width="720"
+       height="42"
+       stroke="#156082"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect2" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="15px"
+       transform="translate(290.8,180)"
+       id="text2">Process name: Opportunity Health Overview</text>
+    <rect
+       x="280.5"
+       y="200.5"
+       width="62"
+       height="258"
+       stroke="#156082"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect3" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14px"
+       transform="rotate(-90,376.9,73.1)"
+       id="text3">Sales manager,</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14px"
+       transform="rotate(-90)"
+       id="text7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="-329.2507"
+       y="304.68155"><tspan
+         sodipodi:role="line"
+         id="tspan75"
+         x="-329.2507"
+         y="304.68155">salesperson</tspan></text>
+    <path
+       d="m 362,223.5 c 0,-6.351 5.149,-11.5 11.5,-11.5 6.351,0 11.5,5.149 11.5,11.5 0,6.351 -5.149,11.5 -11.5,11.5 -6.351,0 -11.5,-5.149 -11.5,-11.5 z"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path9" />
+    <path
+       d="m 373.5,235.5 15.968,32.516"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <rect
+       x="389.5"
+       y="254.5"
+       width="107"
+       height="38"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect10" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(409.371,270)"
+       id="text10">View</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="432.57104"
+       y="270"><tspan
+         sodipodi:role="line"
+         id="tspan79"
+         x="432.57104"
+         y="270">Opportunity</tspan></text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(433.704,281)"
+       id="text13">f</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(436.371,281)"
+       id="text14">orm</text>
+    <path
+       d="m 417.5,224 c 0,-7.456 6.044,-13.5 13.5,-13.5 h 52 c 7.456,0 13.5,6.044 13.5,13.5 v 0 c 0,7.456 -6.044,13.5 -13.5,13.5 h -52 c -7.456,0 -13.5,-6.044 -13.5,-13.5 z"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path14" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(447.328,226)"
+       id="text15">Start</text>
+    <rect
+       x="533.5"
+       y="210.5"
+       width="107"
+       height="57"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect15" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text16"
+       x="542.29315"
+       y="230">If</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="9px"
+       transform="translate(551.331,230)"
+       id="text17">Est Close Date</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text21"
+       x="617.97083"
+       y="230"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan80"
+         x="617.97083"
+         y="230">is in</tspan></text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text24"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="545.40228"
+       y="241.44077"><tspan
+         sodipodi:role="line"
+         id="tspan81"
+         x="545.40228"
+         y="241.44077">the past, set font to</tspan></text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(580.244,252)"
+       id="text25">red</text>
+    <rect
+       x="533.5"
+       y="267.5"
+       width="107"
+       height="14"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect25" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(557.581,277)"
+       id="text26">PCF CONTROL</text>
+    <path
+       d="m 385.5,222.833 h 24.979 v 1.334 H 385.5 Z m 23.645,-3.333 8,4 -8,4 z"
+       fill="#156082"
+       id="path26" />
+    <path
+       d="m 496.753,222.883 30.701,12.571 -0.505,1.234 -30.702,-12.571 z m 30.73,8.981 5.888,6.733 -8.919,0.67 z"
+       fill="#156082"
+       id="path27" />
+    <rect
+       x="342.5"
+       y="200.5"
+       width="658"
+       height="258"
+       stroke="#156082"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect27" />
+    <rect
+       x="280.5"
+       y="459.5"
+       width="62"
+       height="143"
+       stroke="#156082"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect28" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14px"
+       transform="rotate(-90,448.4,144.6)"
+       id="text28">Sales manager,</text>
+
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14px"
+       transform="rotate(-90,453.4,132.6)"
+       id="text32">salesperson</text>
+    <rect
+       x="342.5"
+       y="459.5"
+       width="658"
+       height="142"
+       stroke="#156082"
+       stroke-width="3"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect34" />
+    <path
+       d="m 361,483.5 c 0,-6.351 5.373,-11.5 12,-11.5 6.627,0 12,5.149 12,11.5 0,6.351 -5.373,11.5 -12,11.5 -6.627,0 -12,-5.149 -12,-11.5 z"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path34" />
+    <path
+       d="m 373.5,495.5 15.968,32.516"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path35" />
+    <rect
+       x="389.5"
+       y="514.5"
+       width="107"
+       height="27"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect35" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(404.997,530)"
+       id="text35">Update opportunity</text>
+    <path
+       d="m 417.5,484 c 0,-7.456 6.044,-13.5 13.5,-13.5 h 52 c 7.456,0 13.5,6.044 13.5,13.5 v 0 c 0,7.456 -6.044,13.5 -13.5,13.5 h -52 c -7.456,0 -13.5,-6.044 -13.5,-13.5 z"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path36" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(447.038,486)"
+       id="text36">Start</text>
+    <rect
+       x="533.5"
+       y="470.5"
+       width="113"
+       height="66"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect36" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(547.852,479)"
+       id="text37">When stage changes,</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(558.766,490)"
+       id="text38">set</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="9px"
+       transform="translate(572.432,490)"
+       id="text39">Probability</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(617.099,490)"
+       id="text40">:</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(562.852,501)"
+       id="text41">Qualify</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(592.352,501)"
+       id="text42">–</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(598.352,501)"
+       id="text43">25%</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(564.019,512)"
+       id="text44">Define</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(591.186,512)"
+       id="text45">–</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(597.186,512)"
+       id="text46">50%</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(560.599,523)"
+       id="text47">Propose</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(594.599,523)"
+       id="text48">–</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(600.599,523)"
+       id="text49">75%</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(565.432,533)"
+       id="text50">Close</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(589.766,533)"
+       id="text51">–</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(595.766,533)"
+       id="text52">90%</text>
+    <rect
+       x="533.5"
+       y="537.5"
+       width="113"
+       height="20"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect52" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(557.269,549)"
+       id="text53">BUSINESS RULE</text>
+    <rect
+       x="724.5"
+       y="475.5"
+       width="140"
+       height="57"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect53" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text54"
+       x="729.96478"
+       y="500">Weighted Total Est Revenue:</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text55"
+       x="730.20551"
+       y="511.44077">Probability</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(778.387,511)"
+       id="text56"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan83"
+         x="0"
+         y="0">*Total Est Revenue</tspan></text>
+    <rect
+       x="724.5"
+       y="532.5"
+       width="140"
+       height="16"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect56" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(754.971,543)"
+       id="text57">CALCULATED FIELD</text>
+    <path
+       d="m 385.5,483.833 h 24.979 v 1.334 H 385.5 Z m 23.645,-3.333 8,4 -8,4 z"
+       fill="#156082"
+       id="path57" />
+    <path
+       d="m 496.813,483.911 30.984,16.468 -0.626,1.178 -30.984,-16.468 z m 31.371,12.899 5.187,7.287 -8.941,-0.223 z"
+       fill="#156082"
+       id="path58" />
+    <path
+       d="M 8.96025e-7,-0.666667 71.4464,-0.666571 V 0.666763 L -8.96025e-7,0.666667 Z M 70.1131,-3.99991 l 8,4.000014987 -8,3.999985013 z"
+       fill="#156082"
+       transform="matrix(1,0,0,-1,646.5,503.5)"
+       id="path59" />
+    <path
+       d="m 362,350 c 0,-6.075 5.149,-11 11.5,-11 6.351,0 11.5,4.925 11.5,11 0,6.075 -5.149,11 -11.5,11 -6.351,0 -11.5,-4.925 -11.5,-11 z"
+       stroke="#156082"
+       stroke-width="2"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path60" />
+    <path
+       d="m 373.5,361.5 15.968,32.516"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path61" />
+    <rect
+       x="389.52863"
+       y="380.52863"
+       width="116.63969"
+       height="26.942713"
+       stroke="#156082"
+       stroke-width="1.39062"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect61" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(401.204,397)"
+       id="text61"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         sodipodi:role="line"
+         id="tspan74"
+         x="0"
+         y="0">View Opportunity grid</tspan></text>
+    <path
+       d="m 417.5,350.5 c 0,-7.732 6.268,-14 14,-14 h 51 c 7.732,0 14,6.268 14,14 v 0 c 0,7.732 -6.268,14 -14,14 h -51 c -7.732,0 -14,-6.268 -14,-14 z"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path65" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(447.328,353)"
+       id="text66">Start</text>
+    <rect
+       x="533.5"
+       y="336.5"
+       width="107"
+       height="58"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect66" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="9px"
+       transform="translate(555.831,362)"
+       id="text68">Est Close Date</text>
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       id="text72"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="534.25775"
+       y="373.44077"><tspan
+         sodipodi:role="line"
+         id="tspan82"
+         x="534.25775"
+         y="373.44077">the past, set font to red</tspan></text>
+    <rect
+       x="533.5"
+       y="394.5"
+       width="107"
+       height="13"
+       stroke="#156082"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect72" />
+    <text
+       font-family="Aptos, Aptos_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="9px"
+       transform="translate(562.747,403)"
+       id="text73">JAVASCRIPT</text>
+    <path
+       d="m 385.5,349.833 h 24.979 v 1.334 H 385.5 Z m 23.645,-3.333 8,4 -8,4 z"
+       fill="#156082"
+       id="path73" />
+    <path
+       d="m 496.753,349.883 30.701,12.571 -0.505,1.234 -30.702,-12.571 z m 30.73,8.981 5.888,6.733 -8.919,0.67 z"
+       fill="#156082"
+       id="path74" />
+  </g>
+  <text
+     font-family="Aptos, Aptos_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="9px"
+     id="text21-9"
+     x="343.85629"
+     y="207.46895"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Aptos, Aptos_MSFontService, sans-serif;-inkscape-font-specification:'Aptos, Aptos_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     inkscape:transform-center-x="-9.2561983"
+     inkscape:transform-center-y="2.6446281"><tspan
+       sodipodi:role="line"
+       id="tspan80-5"
+       x="343.85629"
+       y="207.46895">is in</tspan></text>
+  <text
+     font-family="Aptos, Aptos_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="9px"
+     id="text16-5"
+     x="267.48056"
+     y="206.00029">If</text>
+</svg>
