@@ -5,7 +5,7 @@ description: Learn how to sellers can resolve duplicate contacts in Dynamics 365
 author: edupont04
 ms.author: tchilaud
 ms.reviewer: edupont
-ms.date: 09/15/2025
+ms.date: 04/20/2026
 ms.topic: concept-article
 ---
 
@@ -14,6 +14,9 @@ ms.topic: concept-article
 ***Applies to***: ***Dynamics 365 Sales, Dynamics 365 Customer Insights - Data, Power Apps, Copilot Studio***
 
 This solution combines Dynamics 365 Customer Insights - Data, Power Apps component framework (PCF), and Copilot Studio to help sales teams find and fix duplicate Contacts easily in their usual workflow.
+
+> [!IMPORTANT]
+> The functional use case in this article remains relevant. However, recent evolutions in product strategy and agentic extensibility make the technical integration pattern less relevant in many scenarios. We recommend that you adopt the more recent reference architecture at [Extend Dynamics 365 model-driven apps with a custom Copilot Studio agent through a PCF control](custom-copilot-agent-dynamics-365-power-apps.md).
 
 ## Introduction
 

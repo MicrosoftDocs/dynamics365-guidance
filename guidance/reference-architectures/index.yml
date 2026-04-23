@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 02/03/2026
+  ms.date: 04/20/2026
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -86,6 +86,8 @@ landingContent:
           url: dynamics-365-azure-powered-manufacturing-sales-framework.md
         - text: Phased migration to Sales
           url: sales-phased-migration.md
+        - text: Extend with a custom Copilot Studio agent
+          url: custom-copilot-agent-dynamics-365-power-apps.md
         - text: Agent for contact deduplication in Dynamics 365 Sales and Dynamics 365 Customer Insights
           url: sales-customer-insights-contact-deduplication-agent.md
         - text: Reliable data sync with asynchronous request-reply pattern
