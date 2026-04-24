@@ -1,7 +1,7 @@
 ---
 title: Overview of the Order to cash end-to-end business process
 description: Learn about the business process areas in the Order to cash end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 06/25/2025
+ms.date: 04/24/2026
 ms.topic: concept-article
 author: rachel-profitt
 ms.author: raprofit
@@ -161,8 +161,8 @@ Use the following key capabilities in Dynamics 365 to support the business proce
 
 If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more.
 
-- [Manage and optimize orders in the order to cash end-to-end business process](order-to-cash-introduction.md)  
-- [Order to cash business process flow overview and relationships to other business processes](order-to-cash-overview.md)  
+- [Order to cash - introduction to the end-to-end business process](order-to-cash-introduction.md)  
+- [Order to cash end-to-end overview](order-to-cash-overview.md)  
 - Learn about the business process catalog at [About the business process catalog for Dynamics 365 apps and services](about.md)  
 
 ## Related content
