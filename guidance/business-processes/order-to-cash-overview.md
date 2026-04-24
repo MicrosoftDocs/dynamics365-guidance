@@ -1,7 +1,7 @@
 ---
 title: Order to cash end-to-end business process flow overview
 description: Learn about the end-to-end business process, from order to cash. View a high-level flow diagram and see how it fits into Dynamics 365 solutions.
-ms.date: 07/11/2023
+ms.date: 04/24/2026
 ms.topic: overview
 author: rachel-profitt
 ms.author: raprofit
@@ -13,44 +13,66 @@ ms.custom: bap-template
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, Dynamics 365 Finance***
 
-This article describes the order to cash end-to-end business process flow and its relationship to other business processes in Dynamics 365.
+This article describes the *order to cash* end-to-end business process flow and its relationship to other business processes in Dynamics 365.
 
 > [!IMPORTANT]
 > [!INCLUDE [bus-proc-cat-pending](../includes/bus-proc-cat-pending.md)]
 
-## Order to cash process relationships
+## Order to cash business process flow
 
-The following diagram shows the relationship of the end-to-end order to cash process with other upstream and downstream processes.
+The following diagram shows the high-level flow of the *order to cash* business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
 
-:::image type="content" source="media/order-to-cash-process-relationship.svg" alt-text="List of upstream and downstream processes in relation to the order to cash process." lightbox="media/order-to-cash-process-relationship.svg":::
+:::image type="content" source="media/order-to-cash-process-flow.svg" alt-text="Diagram of the order to cash process flow in an organization." lightbox="media/order-to-cash-process-flow.svg":::
 
-The order to cash process has the following potential upstream processes:
+The *order to cash* end-to-end business process flow diagram illustrates the following steps:
+
+1. Start
+1. Upstream end-to-end processes
+
+    1. *Case to resolution*  
+    1. *Forecast to plan*  
+    1. *Plan to produce*  
+    1. *Design to retire*  
+    1. *Prospect to quote*  
+1. *Order to cash* end-to-end process
+
+    1. *Develop sales policies*
+    1. *Manage sales orders*
+    1. *Manage accounts receivable*
+    1. *Manage credit and collections*  
+    1. *Analyze sales performance*
+1. Downstream end-to-end processes
+
+    1. *Case to resolution*  
+    1. *Forecast to plan*  
+    1. *Plan to produce*  
+    1. *Source to pay*  
+    1. *Design to retire*  
+    1. *Inventory to deliver*  
+    1. *Record to report*  
+1. End
+
+## Upstream processes
+
+The *order to cash* process has the following potential upstream processes:
 
 - **Case to resolution**: When you use Dynamics 365 Customer Service to handle customer inquiries, the case may lead to a sale.
 
-- **Forecast to plan**: In some operational strategies, such as make to stock or buy to stock, the forecast to plan processes occur before order to cash.
+- **Forecast to plan**: In some operational strategies, such as make to stock or buy to stock, the forecast to plan processes occur before *order to cash*.
 
 - **Plan to produce**: In some operational strategies, such as make to stock, the production order is completed before orders take place.
 
 - **Design to retire**: In some operational strategies, such as make to stock or purchase to stock, the products to be sold are defined before orders are placed. This is especially true for retail organizations with a brick-and-mortar presence.
 
-- **Prospect to quote**: In some operational strategies, such as make to order and engineer to order, the prospect to quote processes occur before order to cash, since they trigger the process.
+- **Prospect to quote**: In some operational strategies, such as make to order and engineer to order, the prospect to quote processes occur before *order to cash*, since they trigger the process.
 
-The order to cash end-to-end process comprises the following [business process areas](order-to-cash-areas-overview.md):
+## Downstream processes
 
-- Manage store operations
-- Create and manage sales orders
-- Issue customer invoices
-- Record customer payments
-- Monitor customer credit and collections
-
-The order to cash process has the following downstream processes:
+The *order to cash* process has the following downstream processes:
 
 - **Case to resolution**: The case to resolution process is often used to handle inquiries and issues with sales orders, including the returns and exchange process. In some industries, the case to resolution process is used to handle product recalls.
 
 - **Forecast to plan**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning purchases and production.
-
-- **Inventory to deliver**: After orders are placed, they must be fulfilled. The inventory to deliver process includes all the steps for picking and packing, including shipment and transportation planning and scheduling steps for delivering orders. It also includes inventory movements and transfers to meet supply chain requirements for orders to retail stores.
 
 - **Plan to produce**: In some operational strategies, such as make to order and engineer to order, the forecasting processes typically occur after orders are placed, since they trigger planning production.
 
@@ -58,11 +80,13 @@ The order to cash process has the following downstream processes:
 
 - **Design to retire**: In engineer-to-order operational strategies, products and services are typically defined after an order is placed.
 
+- **Inventory to deliver**: After orders are placed, they must be fulfilled. The inventory to deliver process includes all the steps for picking and packing, including shipment and transportation planning and scheduling steps for delivering orders. It also includes inventory movements and transfers to meet supply chain requirements for orders to retail stores.
+
 - **Record to report**: Processing sales orders has a financial impact on inventory, revenue, and cost of goods sold. These effects are recorded in the general ledger and reported as part of the record to report process.
 
 ## Featured capabilities
 
-The order to cash process interacts with the following product-specific capabilities, among others:
+The *order to cash* process interacts with the following product-specific capabilities, among others:
 
 - **Point of sale**: Dynamics 365 Commerce includes a cloud-based point of sale with a modern interface, which supports all brick-and-mortar operations.
 
@@ -80,48 +104,6 @@ The order to cash process interacts with the following product-specific capabili
 
 - **Intelligent Order Management**: With Supply Chain Center and intelligent order management, organizations can manage the orchestration of orders through to fulfillment across different platforms and apps.
 
-## Order to cash business process flow
-
-The following diagram shows the high-level flow of the order to cash business process. [!INCLUDE [daf-business-process-e2e-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-e2e-flow-def.md)]
-
-:::image type="content" source="media/order-to-cash-process-flow.svg" alt-text="Diagram of the order to cash process flow in an organization." lightbox="media/order-to-cash-process-flow.svg":::
-
-The order to cash end-to-end business process flow diagram illustrates the following steps:
-
-1. Start
-2. Order to cash
-
-    - Manage store operations
-    - Create and manage sales orders
-
-        Parallel branches are shown connecting to the following end-to-end processes, shown on the right side of the diagram: Case to resolution, Forecast to plan, Plan to produce, and Source to pay and Inventory to deliver which has a connection to Process outbound goods shown below the Inventory to deliver process. 
-
-    - Issue customer invoices
-
-        A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
-
-    - Record customer payments
-
-        A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
-
-    - Monitor customer credit and collections
-
-        A parallel branch connects to the Record to report end-to-end business process, shown on the right side of the diagram.
-
-3. End
-
-The **Start** box has the following parallel branches, shown on the left side of the diagram:
-
-- **Case to resolution**, which connects to *Manage pricing and contracts* and *Create and manage sales orders*.
-
-- **Forecast to plan**, which connects to *Create and manage sales orders*.
-
-- **Plan to produce**, which connects to *Create and manage sales orders*.
-
-- **Design to retire**, which connects to *Create and manage sales orders*.
-
-- **Prospect to quote**, which connects to *Create and manage sales orders*.
-
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *order to cash* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
@@ -130,7 +112,7 @@ If you want to implement Dynamics 365 solutions to assist with your *order to ca
 
 2. Define the [business process scope](../implementation-guide/process-focused-solution.md) of your project.
 
-3. [Request a demo](https://www.microsoft.com/dynamics-365/free-trial) or get a free trial of Microsoft Business Applications solutions for the order to cash process.
+3. Request a demo or get a free trial of Dynamics 365 solutions for the *order to cash* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
 
 4. [Get an overview of the order to cash business process areas](order-to-cash-areas-overview.md).
 
