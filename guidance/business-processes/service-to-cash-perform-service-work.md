@@ -1,26 +1,26 @@
 ---
-title: Perform service work
-description: Learn about how to set up and configure for performing service work in Dynamics 365 apps, including types of stakeholders and a business process map.
+title: Overview of Deliver Services
+description: Learn about how to set up and configure for delivering services in Dynamics 365 apps, including types of stakeholders and a business process map.
 author: jasondpms
 ms.author: jaduples
 ms.topic: concept-article
-ms.date: 03/26/2026
+ms.date: 05/08/2026
 ---
 
-# The business process Perform service work within the Service to deliver end-to-end scenario
+# Overview of the Deliver services business process area within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
 This article describes the setup, configuration, and design considerations for performing service work in Dynamics 365. Frontline workers that work for an organization that provides a service to customers or clients. Performing service work is typically the process where frontline workers perform the tasks specified in the work order assigned, using various tools and equipment.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario was renamed *service to deliver* in the February 2025 version of the business process catalog. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 The work of a frontline worker involves, for example,  installing, maintaining, and repairing various types of systems in different locations. The frontline worker also communicates with stakeholders and updates them on the progress and status of the service work.
 
 This work is a crucial part of ensuring customer satisfaction and loyalty. By following this process, the frontline worker can deliver reliable services that meet or exceed customer expectations and generate revenue and profit for the business. Following this process helps to increase the efficiency of a frontline worker. Task-based guidance provides a clear and concise way of doing things. It can help to reduce errors and to speed up the work.
 
-## Perform service work stakeholders
+## Deliver services stakeholders
 
 Stakeholders involved in performing service work include, but isn't limited to, the following list:
 
@@ -34,11 +34,11 @@ Stakeholders involved in performing service work include, but isn't limited to, 
 
 - Customer who requests the service and provides feedback on the quality of the work.
 
-## Perform service work process flow
+## Deliver services process flow
 
 The following diagram illustrates the business process. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\service-to-cash-perform-service-work-1.svg" alt-text="Diagram of the Perform service work business process area and its relationship with other business processes." lightbox="media\service-to-cash-perform-service-work-1.svg":::
+:::image type="content" source="media\service-to-cash-perform-service-work-1.svg" alt-text="Diagram of the Deliver services business process area and its relationship with other business processes." lightbox="media\service-to-cash-perform-service-work-1.svg":::
 
 The process flow diagram includes the following steps.
 
@@ -78,16 +78,16 @@ The process flow diagram includes the following steps.
 
 Various terminology and concepts are used throughout this article to describe the business process. For definitions and explanations of key terms and concepts, see [Glossary of terms in Dynamics 365 business processes](../business-processes/glossary.md).
 
-### Implementing perform service work
+### Implementing Deliver services
 
-The following tables and sections describe the various configurations and operational processes that are part of implementing the process of *Perform service work* in Dynamics 365 applications.
+The following tables and sections describe the various configurations and operational processes that are part of implementing the process of *Deliver services* in Dynamics 365 applications.
 
 > [!TIP]
 > A variety of terminology and concepts are used throughout this article to describe the business process. For definitions and explanations of key terms and concepts, see [Glossary of terms in Dynamics 365 business processes](../business-processes/glossary.md).
 
 The following sections show the configurations available, and the sequence recommended for setting up the configurations from top to bottom. Learn more about the terms used in the table at [Business processes, steps, and how to find things](../business-processes/about-steps-navigation.md).
 
-## Perform service work on mobile
+## Deliver services on mobile
 
 Frontline workers are people who are primarily scheduled for onsite jobs. Follow these steps if you want frontline workers to use the Dynamics 365 Field Service mobile app. With this app, they can view and update work orders, customer assets, accounts, and more on the go.
 
@@ -142,9 +142,9 @@ Frontline workers often create service reports summarizing work done during a cu
 | [Import the reporting solution](/dynamics365/field-service/mobile-powerapp-reporting#import-the-reporting-solution) | Develop; Fundamental; Configuration | Early | |
 | [Create your custom report](/dynamics365/field-service/mobile-powerapp-reporting#create-your-custom-report) | Develop; Fundamental; Configuration | Early | |
 
-## The perform service work phases
+## The Deliver services phases
 
-The Perform service work business process typically consists of four main steps: overview, prework activities, execution, completion.
+The Deliver services business process typically consists of four main steps: overview, prework activities, execution, completion.
 
 ### Work order overview
 
@@ -200,7 +200,7 @@ This ensures that the field service manager is kept informed of the frontline wo
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Perform service work* processes, you can use the following resources and steps to learn more.
+If you want to implement Dynamics 365 solutions to assist with your *Deliver services* processes, you can use the following resources and steps to learn more.
 
 1. *Define service policies*
 
@@ -208,13 +208,13 @@ If you want to implement Dynamics 365 solutions to assist with your *Perform ser
 
 3. [Schedule service work](service-to-cash-schedule-service-work.md)
 
-4. *Perform service work* (The article you're currently reading)
+4. *Deliver services* (The article you're currently reading)
 
 5. *Review and close service requests*
 
 ## Related information
 
-You can use the following resources to learn more about the *Perform service work* process in Dynamics 365.
+You can use the following resources to learn more about the *Deliver services* process in Dynamics 365.
 
 - [Use the Field Service (Dynamics 365) mobile app to complete work orders](/dynamics365/field-service/mobile-power-app-overview)
 

@@ -1,17 +1,17 @@
 ---
-title: Develop a procurement and sourcing strategy overview
-description: Learn about the Develop a procurement and sourcing strategy business process area, including learning about various stakeholder types.
+title: Overview of the Develop procurement and sourcing strategy business process area
+description: Learn about the Develop procurement and sourcing strategy business process area, including learning about various stakeholder types.
 author: Pjagotra
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 05/13/2025
+ms.date: 05/12/2026
 ---
 
-# Develop a procurement and sourcing strategy overview
+# Overview of the Develop procurement and sourcing strategy business process area within the Source to pay end-to-end scenario
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management***
 
-This article describes the *Develop a procurement and sourcing strategy* business process area within the *Source to pay* end-to-end process. Sourcing and procurement strategies are outlined for both materials and services that are needed within your organization. The benefits of using Dynamics 365 to support this process area is also explained here.
+This article describes the *Develop procurement and sourcing strategy* business process area within the *Source to pay* end-to-end process. Sourcing and procurement strategies are outlined for both materials and services that are needed within your organization. The benefits of using Dynamics 365 to support this process area is also explained here.
 
 Developing a comprehensive procurement and sourcing strategy is crucial when implementing Dynamics 365, as it ensures that the organization can effectively manage its procurement processes and achieve cost efficiencies. This strategy involves several key subprocesses, including developing procurement catalogs, which streamline the purchasing process by providing a centralized repository of approved products and services. Moreover, developing supplier segments allows the organization to categorize suppliers based on various criteria, enabling more targeted and effective supplier management. Establishing procurement policies ensures that all procurement activities are conducted in a consistent and compliant manner, while defining accounts payable policies helps manage the financial aspects of procurement, ensuring timely and accurate payments. Developing a spend strategy is essential for optimizing expenditure and achieving cost savings, and analyzing the sourcing market provides valuable insights into market trends and supplier capabilities, enabling informed decision-making. Together, these subprocesses form a robust procurement and sourcing strategy that enhances the overall efficiency and effectiveness of the organization's procurement operations.
 
@@ -31,12 +31,12 @@ There's collaboration with multiple departments in an organization when defining
 
 ## Process flow
 
-The following diagram illustrates the *Develop a procurement and sourcing strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the *Develop procurement and sourcing strategy* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
 
 1. Start
-2. *Develop a procurement and sourcing strategy* business process area
+2. *Develop procurement and sourcing strategy* business process area
     1. *Develop procurement catalogs*
     2. *Develop supplier segments*
     3. *Develop procurement policies*
@@ -47,7 +47,7 @@ The following diagram illustrates the *Develop a procurement and sourcing strate
 
 ## Benefits
 
-There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Develop a procurement and sourcing strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure when developing procurement and sourcing strategies.
+There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *Develop procurement and sourcing strategy* business process area. The following sections outline the key benefits that an organization might monitor and measure when developing procurement and sourcing strategies.
 
 ### Cost savings
 
@@ -75,9 +75,9 @@ The system supports strategic sourcing by allowing procurement teams to evaluate
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with the *Develop a procurement and sourcing strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with the *Develop procurement and sourcing strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Develop a procurement and sourcing strategy* (The article you're currently reading)
+1. *Develop procurement and sourcing strategy* (The article you're currently reading)
 
     1. [Develop procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
     2. *Develop supplier segments*
@@ -93,7 +93,7 @@ If you want to implement Dynamics 365 solutions to assist with the *Develop a pr
 
 ## Related information
 
-You can use the following resources to learn more about the *Develop a procurement and sourcing strategy* business processes in Dynamics 365:
+You can use the following resources to learn more about the *Develop procurement and sourcing strategy* business processes in Dynamics 365:
 
 * [Procurement catalogs overview - Supply Chain Management](/dynamics365/supply-chain/procurement/procurement-catalogs)
 * [Purchasing policies overview - Supply Chain Management](/dynamics365/supply-chain/procurement/purchase-policies)

@@ -1,10 +1,10 @@
 ---
-title: Recognize Project Revenue in Dynamics 365  
+title: Recognize project revenue in Dynamics 365  
 description: Learn how to set up, configure, and manage revenue recognition in Dynamics 365 Project Operations and Dynamics 365 Finance.  
 author: edupont04  
 contributors:  
 ms.topic: concept-article  
-ms.date: 04/22/2025
+ms.date: 05/08/2026
 ms.author: edupont  
 ms.reviewer: edupont  
 ---

@@ -1,7 +1,7 @@
 ---
 title: Overview of the Service to deliver business process areas
 description: Learn about the business process areas that make up the Service to deliver end-to-end flow in Dynamics 365 solutions.
-ms.date: 03/26/2026
+ms.date: 05/12/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
@@ -17,15 +17,15 @@ ai-usage: ai-assisted
 The *service to deliver* process is broken down into several business process areas. In this article, you'll learn about the business process areas that make up the service to deliver flow in Dynamics 365 solutions.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario was renamed *service to deliver* in the February 2025 version of the business process catalog. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
-## Manage service assets
+## Develop service strategy
 
 Many organizations provide services for products that their customers buy, lease, or get from other sources. These products need regular maintenance and service, such as installation, repair, troubleshooting, or upgrading.  
 
 To manage service assets effectively, you need to keep a record of all the serviceable items (assets) and track them. You also need to record all the information that can help you during the maintenance process.  
 
-Learn more at [Manage service assets overview](service-to-cash-manage-service-assets.md).
+Learn more at [Develop service strategy overview](service-to-cash-manage-service-assets.md).
 
 <!-- 
 ## Establish servicing policies and procedures
@@ -40,7 +40,7 @@ You can also determine the channels through which customers can submit service r
 
 - Monitor and measure your service performance. -->
 
-### Manage service resources
+### Plan service work
 
 Service resources refer to the people, equipment, and facilities that you need to deliver a service. You can use Dynamics 365 to manage your service resources and provide high-quality customer experiences.
 
@@ -70,7 +70,7 @@ To schedule work orders, you typically start by reviewing the work order backlog
 
 You can also use Dynamics 365 to set up preventative maintenance schedules. This involves creating recurring work orders for tasks such as equipment inspections or regular maintenance tasks.  -->
 
-## Create and process service work
+## Manage service work
 
 A work order is a document that tracks the progress of a job or task from start to finish. It includes information such as the job description, the parts and resources required, and the estimated completion time.
 
@@ -84,7 +84,7 @@ The execution of work orders within Dynamics 365 involves the actual completion 
 
 Once you schedule a work order and assign it to a technician or a team, the execution process begins. The technician can access the work order details, including any instructions, checklists, or documentation needed to complete the task. They can also access any necessary tools, equipment, or materials required for the job.
 
-Learn more at [Create and process service work overview](service-to-cash-create-process-service-work.md).  
+Learn more at [Manage service work overview](service-to-cash-create-process-service-work.md).  
 <!-- ## Review and close work orders
 
 Once the work order is completed, the technician can close out the job. This involves updating the work order status to reflect the completion of the task, adding any notes or comments about the job, and closing out any associated purchase orders or invoices.
@@ -92,7 +92,7 @@ Once the work order is completed, the technician can close out the job. This inv
 ## Analyze service operations
 
 Dynamics 365 also provides reporting and analytics tools that can be used to analyze work order execution data, such as task completion times, resource use, and cost analysis. This data can be used to optimize future work orders and improve the efficiency of the maintenance or repair process. -->
-
+<!-- 
 ## Invoice customers
 
 The invoice customers process area covers creating and sending an invoice to a customer based on a sales order or a free text invoice. Invoicing is an essential part of the order to cash process. It involves creating and sending a bill to customers for the products or services they ordered and posting it to the general ledger. The invoicing process starts when a sale takes place and continues through delivery to the customer and receiving payment.  
@@ -107,7 +107,7 @@ Organizations that sell products or services must collect payment for them. Even
 
 In many organizations, not least organizations with a business-to-business sales model, setting credit limits is an important process that helps organizations remain competitive. Credit limits can also help an organization minimize bad debt and the need to write off unpaid balances. When you manage the collection process carefully, it helps you get customers pay on time, increases the cash flow, and helps make the cash flow of the organization more predictable.  
 
-Learn more at [Monitor customer credit and collections overview](order-to-cash-monitor-customer-credit-collections-overview.md).  
+Learn more at [Monitor customer credit and collections overview](order-to-cash-monitor-customer-credit-collections-overview.md).   -->
 
 ## Next steps
 

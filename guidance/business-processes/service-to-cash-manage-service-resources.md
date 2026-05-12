@@ -1,43 +1,43 @@
 ---
-title: Overview of the Manage service resources business process area
-description: Learn what the Manage service resources business process area is, who the stakeholders are, and what the benefits are of using Dynamics 365 to support it.
+title: Overview of Plan Service Work
+description: Learn what the Plan service work business process area is, who the stakeholders are, and what the benefits are of using Dynamics 365 to support it.
 author: Dean-Hardy
 ms.author: DeanHardy
 ms.topic: concept-article
-ms.date: 03/26/2026
+ms.date: 05/12/2026
 ai.usage: ai-assisted
 ---
 
-# Overview of the Manage service resources business process area within the Service to deliver end-to-end scenario
+# Overview of the Plan service work business process area within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Remote Assist***
 
-The *Manage service resources* area is part of the *Service to deliver* end-to-end business process. This article tells you what this area is about, why you should use Dynamics 365 to support it, and what subprocesses it includes.
+The *Plan service work* area is part of the *Service to deliver* end-to-end business process. This article tells you what this area is about, why you should use Dynamics 365 to support it, and what subprocesses it includes.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario was renamed *service to deliver* starting in the February 2025 version of the business process catalog. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 In the *Service to deliver* end-to-end business process, resources are things that you can schedule for service delivery. The most common resources are people. But resources can also be other things like equipment, facilities, or anything else that has limited capacity and needs to be scheduled for service delivery.
 
-The *Manage service resources* business process area covers the tasks you need to do to set up and maintain your resources. You need resources for service delivery, so you must set them up in the app before you deploy it. Plan to identify and define your resources when you discover and plan your implementation. This way, you can document your requirements for managing service resources.
+The *Plan service work* business process area covers the tasks you need to do to set up and maintain your resources. You need resources for service delivery, so you must set them up in the app before you deploy it. Plan to identify and define your resources when you discover and plan your implementation. This way, you can document your requirements for managing service resources.
 
 You usually need to update your service resources often, so remember that you must maintain them in the app as part of your regular administration and management tasks. Plan to assign these tasks as part of your initial implementation.
 
 ## Stakeholders
 
-Many people in your organization should help with the decision-making and design of the *Manage service resources* area. Here are some examples of such people:
+Many people in your organization should help with the decision-making and design of the *Plan service work* area. Here are some examples of such people:
 
 - **Operations stakeholders** such as the COO
 - **Field service stakeholders** such as service managers, service supervisors, and dispatchers
 - **Billing and account management stakeholders** such as the Director of Finance
 
-## Manage service resources process flow
+## Plan service work process flow
 
-The following diagram shows the *Manage service resources* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram shows the *Plan service work* business process area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\service-to-cash-manage-service-resources-1.svg" alt-text="Diagram of the Manage service resources business process area, showing the connection between various business process areas." lightbox="media\service-to-cash-manage-service-resources-1.svg":::
+:::image type="content" source="media\service-to-cash-manage-service-resources-1.svg" alt-text="Diagram of the Plan service work business process area, showing the connection between various business process areas." lightbox="media\service-to-cash-manage-service-resources-1.svg":::
 
-The flow diagram for the manage service resources business process area has these steps:
+The flow diagram for the Plan service work business process area has these steps:
 
 1. Start
 1. *Hire to retire*
@@ -45,15 +45,15 @@ The flow diagram for the manage service resources business process area has thes
         - Hire employees (in a parallel branch from the Onboard and manage employee lifecycle)
         - Hire contractors (in a parallel branch from Start)
 1. *Service to deliver*
-1. *Manage service resources*
+1. *Plan service work*
     - Set up and maintain service resources
     - Manage resource capacity
     - Track resource costs
 1. End
 
-## Manage service resources benefits
+## Plan service work benefits
 
-Use the following key benefits to check and measure how well you implement technology to support the *Manage service resources* business process.
+Use the following key benefits to check and measure how well you implement technology to support the *Plan service work* business process.
 
 ### Optimized resource use
 
@@ -73,10 +73,10 @@ By having a central view of your service resources, you can work better with dif
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Manage service resources* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Plan service work* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Manage service assets](service-to-cash-manage-service-assets.md)
-2. Manage service resources (the article that you're currently reading)
+2. Plan service work (the article that you're currently reading)
 3. [Create and process service work](service-to-cash-create-process-service-work.md)
 4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
 5. *Record customer payments*

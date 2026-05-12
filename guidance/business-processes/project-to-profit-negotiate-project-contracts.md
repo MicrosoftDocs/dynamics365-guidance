@@ -4,7 +4,7 @@ description: Learn how to effectively negotiate project contracts using Dynamics
 author: edupont04  
 contributors:  
 ms.topic: concept-article 
-ms.date: 07/09/2025
+ms.date: 05/11/2026
 ms.author: edupont  
 ms.reviewer: edupont  
 ---

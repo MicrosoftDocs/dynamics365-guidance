@@ -1,17 +1,17 @@
 ---
-title: Overview of the Introduce new products business process area
-description: Learn about the introduce new products business process including learning about the various stakeholders and process flow.
+title: Overview of the Introduce products business process area
+description: Learn about the Introduce products business process including learning about the various stakeholders and process flow.
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 01/07/2025
+ms.date: 05/12/2026
 ---
 
-# Overview of the Introduce new products business process area within the Design to retire end-to-end scenario
+# Overview of the Introduce products business process area within the Design to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Commerce, Dynamics 365 Customer Service, Dynamics 365 Customer Voice, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Guides, Dynamics 365 Marketing, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes how organizations can use Dynamics 365 to *introduce new products*.
+This article describes how organizations can use Dynamics 365 to *Introduce products*.
 
 The ability for an organization to create new products in their offerings plays a pivotal role in the growth and innovation of the organization. The business process area involves strategic development, launch and integration of fresh offerings into the market, ensuring that the organization remains competitive and responsive to the evolving customers' needs.
 
@@ -31,7 +31,7 @@ If you are planning to use a third-party solution for product master data, you c
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *Introduce new products* business process area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Introduce products* business process area. The following list provides examples of such stakeholders:
 
 - **Product managers**: Lead the product development process, defining product features, specifications, and market positioning. They ensure that the new offerings align with customer needs and market trends.
 
@@ -59,11 +59,11 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Project manager**: Oversee the entire project, coordinate between different teams, manage timelines, budgets, and resources, and ensure successful project execution.
 
-## Introduce new products process flow
+## Introduce products process flow
 
-The following diagram illustrates the *Introduce new products* business process area.
+The following diagram illustrates the *Introduce products* business process area.
 
-:::image type="content" source="media\design-to-retire-introduce-new-products-overview.svg" alt-text="Diagram of the introduce new products process flow, connecting various business process areas." lightbox="media\design-to-retire-introduce-new-products-overview.svg":::
+:::image type="content" source="media\design-to-retire-introduce-new-products-overview.svg" alt-text="Diagram of the Introduce products process flow, connecting various business process areas." lightbox="media\design-to-retire-introduce-new-products-overview.svg":::
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
@@ -75,7 +75,7 @@ The following diagram illustrates the *Introduce new products* business process 
 
 3. *Define product catalog and strategy*
 
-4. *Introduce new products*
+4. *Introduce products*
 
     1. *Define product design policies*
     2. *Generate product ideas and concepts*
@@ -110,7 +110,7 @@ Each of the subprocesses with the annotation **1** connect to the *Define produc
 
 Each of the subprocesses with the annotation **2** connect to the *Manage product lifecycle* business process area shown on the right under *Design to retire*: *Prototype and test for validation*, *Prepare for launch and distribution of new products*, *Ensure regulatory compliance of new products*, *Secure final product design approval*, and *Release products to markets*.
 
-## Introduce new products benefits
+## Introduce products benefits
 
 There are many key benefits that can be used to monitor and measure the success of implementing technology to support the business processes for *introducing new products*. The following sections outline the key benefits that an organization might monitor and measure for *introducing new products*.
 
@@ -148,10 +148,10 @@ When you use Dynamics 365 Customer Service, you can drive iterative improvement 
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *introduce new products* business processes, you can use the following resources and steps to learn more.  Links are added when articles become available.
+If you want to implement Dynamics 365 solutions to assist with your *Introduce products* business processes, you can use the following resources and steps to learn more.  Links are added when articles become available.
 
 1. [Develop product strategy](design-to-retire-define-product-catalog-strategy-overview.md)
-1. *Introduce new products* (the article you're currently reading)
+1. *Introduce products* (the article you're currently reading)
 
     1. *Research new products*  
     1. *Develop new products*  
@@ -167,7 +167,7 @@ If you want to implement Dynamics 365 solutions to assist with your *introduce n
 
 ## Related content
 
-You can use the following resources to learn more about the *Introduce new products* process in Dynamics 365.
+You can use the following resources to learn more about the *Introduce products* process in Dynamics 365.
 
 - [Register new items - Business Central](/dynamics365/business-central/inventory-how-register-new-items)
 

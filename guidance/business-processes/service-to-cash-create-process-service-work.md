@@ -1,22 +1,22 @@
 ---
-title: Overview of the Create and process service work business process area
-description: Learn how you can use Dynamics 365 products to support your organization's business processes for creating and processing work related to services.
-ms.date: 03/26/2026
+title: Overview of Manage Service Work
+description: Learn how you can use Dynamics 365 products to support your organization's business processes for managing service work.
+ms.date: 05/08/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
 ---
 
-# Overview of the Create and process service work business process area within the Service to cash end-to-end scenario
+# Overview of the Manage service work business process area within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 
-This article describes how you can use Dynamics 365 products to support your organization's business processes for creating and processing service work.
+This article describes how you can use Dynamics 365 products to support your organization's business processes for managing service work.
 
-It describes the *Create and process service work* process area within the *Service to deliver* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
+It describes the *Manage service work* process area within the *Service to deliver* end-to-end process. This area encompasses the primary business processes related to preparing for and performing the service work within your service operations.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario was renamed *service to deliver* in the February 2025 version of the business process catalog. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
 Processes within this area can vary widely by organization based on industries, business models, and unique requirements, but often they follow a similar high-level lifecycle that includes receiving service requests, scheduling service resources, conducting the service activities, and closing the service request before handing it off to other downstream process areas such as invoicing and payment collection.
 
@@ -24,7 +24,7 @@ Given the variety, and often the complexity, of this process area, it's critical
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and design of the *Create and process service work* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and design of the *Manage service work* area. The following list provides examples of such stakeholders:
 
 - **Operations** – Examples: COO 
 
@@ -34,7 +34,7 @@ Many people across the organization should contribute to the decision-making pro
 
 - **Finance** – Examples: CFO, controller
 
-## Create and process service work process flow 
+## Manage service work process flow 
 
 The following diagram illustrates the high-level process flow for *Creating and processing service work*.
 
@@ -42,9 +42,9 @@ The following diagram illustrates the high-level process flow for *Creating and 
 
 :::image type="content" source="media/service-to-cash-create-process-service-work-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/service-to-cash-create-process-service-work-flow.svg":::
 
-### Create and process service work
+### Manage service work
 
-The flow diagram for the create and process service work business process area covers the following steps.
+The flow diagram for the Manage service work business process area covers the following steps.
 
 1. Start
 
@@ -52,9 +52,9 @@ The flow diagram for the create and process service work business process area c
 
     1. *Manage customer owned assets*
 
-       A parallel branch from this subprocess is *Hire to retire* with the subprocess *Manage service resources* that leads to *Create and process service work*.
+       A parallel branch from this subprocess is *Hire to retire* with the subprocess *Manage service resources* that leads to *Manage service work*.
 
-3. *Create and process service work*
+3. *Manage service work*
 
     1. *Create service requests*
 
@@ -74,9 +74,9 @@ The flow diagram for the create and process service work business process area c
 
 8. End
 
-### Create and process service work benefits
+### Manage service work benefits
 
-Many key benefits can be used to monitor and measure the success of implementing technology to support the creation and processing of work orders. The following sections outline the key benefits that an organization might monitor and measure related to the *Create and process service work* process area.
+Many key benefits can be used to monitor and measure the success of implementing technology to support the creation and processing of work orders. The following sections outline the key benefits that an organization might monitor and measure related to the *Manage service work* process area.
 
 ####  Improved customer satisfaction
 
@@ -100,13 +100,13 @@ Accelerate cash flow and revenue recognition by invoicing customers accurately a
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Create and process service work* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Manage service work* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Manage service assets](service-to-cash-manage-service-assets.md)  
 
 2. *Manage service resources*
 
-3. *Create and process service work* (The article that you're currently reading)
+3. *Manage service work* (The article that you're currently reading)
 
 4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
 
@@ -116,7 +116,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Create and 
 
 ## Related information
 
-You can use the following resources to learn more about the *Create and process service work* process in Dynamics 365.
+You can use the following resources to learn more about the *Manage service work* process in Dynamics 365.
 
 - [Dynamics 365 Field Service Product information](https://www.microsoft.com/dynamics-365/products/field-service)
 - [Dynamics 365 Field Service Documentation](/dynamics365/field-service/finance-operations-integration)
@@ -124,7 +124,7 @@ You can use the following resources to learn more about the *Create and process 
 - [Dynamics 365 Field Service Community Forum](https://community.dynamics.com/365/fieldservice/f/dynamics-365-for-field-service-forum)
 - [Dynamics 365 Field Service Blog Posts](https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-field-service/?sort-by=newest-oldest&date=any&s=)
 - [Dynamics 365 Field Service Functional Consultant Certification](/credentials/certifications/exams/mb-240/)
-- Find definitions of terminology that is used in content for *Create and process service work* process area in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
+- Find definitions of terminology that is used in content for *Manage service work* process area in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
     - [Work order](glossary.md#work-order)
     - [Service customer](glossary.md#service-customer)

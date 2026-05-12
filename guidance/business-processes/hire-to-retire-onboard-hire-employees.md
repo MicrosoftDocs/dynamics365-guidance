@@ -1,13 +1,13 @@
 ---
-title: Overview of the Hire employees business process
-description: Learn how the Hire employees business process can help you effectively bring new employees into your company and set them up as employees in Dynamics 365 Human Resources.
-ms.date: 11/19/2024
+title: Overview of the Hire for open positions business process
+description: Learn how the Hire for open positions business process can help you effectively bring new employees into your company and set them up as employees in Dynamics 365 Human Resources.
+ms.date: 05/08/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
 ---
 
-# Overview of the Hire employees business process within the Hire to retire end-to-end scenario
+# Overview of the Hire for open positions business process within the Hire to retire end-to-end scenario
 
 ***Applies to: Dynamics 365 Human Resources***
 
@@ -19,13 +19,13 @@ The purpose of hiring employees in Dynamics 365 Human Resources is to make the h
 
 Dynamics 365 Human Resources facilitates *mass hire projects*, which are useful when you must hire multiple workers at the same time (for example, to meet seasonal business needs). You can use *recruitment projects* to manage the content that is used in advertisements for open positions, and also to manage the applications for those positions. You can use *applications* in Dynamics 365 Human Resources to track responses to job postings for a specific recruitment project, track specific applicants, and hire or promote an applicant as a worker to fill an open position in the organization.
 
-When you hire employees, you can define and maintain extensive worker information in Dynamics 365 Human Resources. As part of this process, you administer organizational structures, define and administer benefit and compensation plans, and enroll workers in those plans. You can use the *worker type* to define whether a new worker is an *employee* or a *contractor*.
+When you hire for open positions, you can define and maintain extensive worker information in Dynamics 365 Human Resources. As part of this process, you administer organizational structures, define and administer benefit and compensation plans, and enroll workers in those plans. You can use the *worker type* to define whether a new worker is an *employee* or a *contractor*.
 
 The hiring process is a foundational process that influences many other processes in the organization, including Human Resources processes and processes in other areas. Therefore, it should be defined at the beginning of the Dynamics 365 Human Resources implementation.
 
 ## Stakeholders
 
-Definition of the *Hire employees* business process in Dynamics 365 Human Resources involves several key stakeholders.
+Definition of the *Hire for open positions* business process in Dynamics 365 Human Resources involves several key stakeholders.
 
 - **Human Resources managers** play a crucial role in defining the organizational structure, and in planning and managing the employee lifecycle. They define and manage hiring needs, employee benefits, compensation plans, and other Human Resources processes.
 - **Recruiters** are responsible for sourcing and recruiting qualified candidates. They use Dynamics 365 Human Resources to manage recruitment projects and streamline communications between departments.
@@ -37,9 +37,9 @@ Definition of the *Hire employees* business process in Dynamics 365 Human Resour
 - **Employees** are all the users who participate in the business process in a self-service capacity, by updating information that is related to themselves or approving work items that are assigned to them.
 - **Managers** are the users who participate in the business process by managing a team and working with the team's information, such performance reviews, leave and absence, timesheets, and approvals.
 
-## Hire employees process flow
+## Hire for open positions process flow
 
-The following diagram illustrates the *Hire employees* process area.
+The following diagram illustrates the *Hire for open positions* process area.
 
 :::image type="content" source="media/hire-to-retire-onboard-hire-employees-process.svg" alt-text="Diagram that shows four boxes with lists of steps, one for each main step of the process for hiring employees: hiring an employee, adding employment details, creating worker actions, and finalizing the process." lightbox="media/hire-to-retire-onboard-hire-employees-process.svg":::
 
@@ -69,9 +69,9 @@ The following diagram illustrates the *Hire employees* process area.
 
 1. End
 
-## Implement the Hire employees business process
+## Implement the Hire for open positions business process
 
-Before you initiate the *Hire employees* process, we recommend that you look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
+Before you initiate the *Hire for open positions* process, we recommend that you look into the Human Resources parameters and settings. The parameters can be configured either for the specific legal entity that you're associated with or as shared parameters across the organization. Their purpose is to govern specific behaviors in Human Resources features, in alignment with business policies.
 
 When *personnel actions* are enabled, it's essential that you define at least one *personnel action type* specifically for the hiring process. You can then use this personnel action type to capture specific behaviors that are related to hiring. Additionally, depending on business policies, it might be crucial that you define a workflow for the approval process that is associated with the personnel actions. In this way, you have a structured and efficient hiring process for new employees.
 
@@ -79,7 +79,7 @@ When you hire new employees, you can use the *checklist* functionality. Specific
 
 By configuring fixed compensation, you help streamline the hiring process and ensure accurate pay for new hires and alignment with organizational policies.
 
-The following table explains the configuration components that support the *Hire employees* business process.
+The following table explains the configuration components that support the *Hire for open positions* business process.
 
 | Sequence | Configuration component | Required? | Product | Menu path |
 |---|---|---|---|---|
@@ -93,7 +93,7 @@ The following table explains the configuration components that support the *Hire
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Hire employees* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Hire for open positions* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. [Develop people strategy](hire-to-retire-plan-recruit-workforce-overview.md)
 1. [Recruit and onboard talent](hire-to-retire-onboard-manage-employee-lifecycle.md)  
@@ -112,7 +112,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Hire employ
 
 ## Related patterns
 
-The following patterns are available to help guide your implementation of the *hire employees* business process. (Links are added when the articles are ready.)
+The following patterns are available to help guide your implementation of the *Hire for open positions* business process. (Links are added when the articles are ready.)
 
 - Convert applicants to employees
 - Convert candidates to employees
@@ -123,7 +123,7 @@ The following patterns are available to help guide your implementation of the *h
 
 ## Related resources
 
-You can use the following resources to learn more about the *Hire employees* process in Dynamics 365.
+You can use the following resources to learn more about the *Hire for open positions* process in Dynamics 365.
 
 - [Personnel management workspace](/dynamics365/human-resources/hr-personnel-personnel-management-workspace)
 - [Dynamics 365 Human Resources documentation](/dynamics365/human-resources/)

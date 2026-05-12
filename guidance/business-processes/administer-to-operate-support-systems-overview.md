@@ -1,13 +1,13 @@
 ---
-title: Define support systems overview
-description: Learn about support systems, including outlines of how they help increase proactive issue detection, decrease resolution times, and enhance collaboration.
+title: Overview of the Support systems business process area
+description: Learn about the business process area for support systems, including outlines of how they help increase proactive issue detection, decrease resolution times, and enhance collaboration.
 ms.topic: concept-article
 author: hasaid
 ms.author: hasaid
-ms.date: 08/07/2024
+ms.date: 05/12/2026
 ---
 
-# Define support systems overview
+# Overview of the Support systems business process area
 
 ***Applies to: Dynamics 365***
 

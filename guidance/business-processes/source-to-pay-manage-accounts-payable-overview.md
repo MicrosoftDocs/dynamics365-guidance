@@ -1,27 +1,27 @@
-﻿---
-title: Manage the accounts payable business process area overview
-description: Learn about the Manage the accounts payable business process area, including learning about the types of stakeholders and process flow.
+---
+title: Overview of the Manage accounts payable business process area
+description: Learn about the Manage accounts payable business process area, including learning about the types of stakeholders and process flow.
 author: meneksesaygili
 ms.author: msaygili
 ms.topic: concept-article
-ms.date: 10/28/2025
+ms.date: 05/12/2026
 ---
 
-# Overview of the Manage the accounts payable business process area
+# Overview of the Manage accounts payable business process area within the Source to pay end-to-end scenario
 
 ***Applies to: Dynamics 365 Commerce, Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Intelligent Order Management, Dynamics 365 Project Operations, Dynamics 365 Sales, Dynamics 365 Supply Chain Management***
 
-This article describes the *manage the accounts payable* business process area in the *Source to pay* end-to-end process. This process area includes the processes for:
+This article describes the *Manage accounts payable* business process area in the *Source to pay* end-to-end process. This process area includes the processes for:
 
 - Setting the vendor invoice matching policies of how invoicing performs and is accounted for.
 - Paying vendors according to the agreed-upon payment terms, ensuring that payments are made accurately and on time, and settling them against invoices manually or using an automated process.
 - Managing supplier or vendor rebates or other incentives in your supply chain.
 
-## Manage the accounts payable
+## Manage accounts payable
 
 A **vendor invoice** is generated upon receiving products or services as per a purchase order. It consists of a header and item or service lines, marking the last step in the purchase process. Some invoices might not correspond to purchase orders, like ongoing service bills. There are various methods to enter vendor invoices, including vendor invoice journal, vendor invoice journal for non-purchase order invoices, and vendor invoice register for expense accrual. Additionally, you can create vendor invoices based on confirmed purchase orders using the **Open vendor invoices** and **Pending vendor invoices** pages.
 
-Define and incorporate the *manage the accounts payable* business process area into the overall implementation. The setup and configuration of your products and base pricing along with the general procurement process should be in place before the *manage the accounts payable* process.
+Define and incorporate the *Manage accounts payable* business process area into the overall implementation. The setup and configuration of your products and base pricing along with the general procurement process should be in place before the *Manage accounts payable* process.
 
 ## Stakeholders
 
@@ -43,7 +43,7 @@ As policies and procedures are outlined within the procurement area, there's als
 
 ## Process flow
 
-The following diagram illustrates the *manage the accounts payable* business process area. This flowchart provides a clear visual representation of the complex processes involved in managing accounts payable, which is crucial for maintaining accurate financial records and ensuring timely payments within an organization.
+The following diagram illustrates the *Manage accounts payable* business process area. This flowchart provides a clear visual representation of the complex processes involved in managing accounts payable, which is crucial for maintaining accurate financial records and ensuring timely payments within an organization.
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 

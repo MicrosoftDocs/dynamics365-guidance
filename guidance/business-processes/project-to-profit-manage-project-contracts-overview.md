@@ -1,17 +1,17 @@
 ---
-title: Overview of the Manage project contract business process area
+title: Overview of the Manage project contracts business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to manage project contracts.
-ms.date: 07/14/2025
+ms.date: 05/12/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: lalithac
 ---
 
-# Overview of the Manage project contract business process area within the Project to profit end-to-end scenario
+# Overview of the Manage project contracts business process area within the Project to profit end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Project Operations, Dynamics 365 Supply Chain Management, Dynamics 365 Sales***
 
-The *manage project contract* business process area aims to provide clarity into the project contract management process, particularly considering current trends and challenges in project sales management.
+The *Manage project contracts* business process area aims to provide clarity into the project contract management process, particularly considering current trends and challenges in project sales management.
 
 Project contracts serve as a legally binding agreement between a project provider and a client in the project sales process. It outlines the scope, deliverables, timelines, costs, and terms of the project. This document ensures both parties' expectations are aligned, mitigates potential conflicts, and provides a framework for successful project execution. It acts as a safeguard, promoting transparency and accountability throughout the project's lifecycle.
 

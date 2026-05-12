@@ -1,17 +1,17 @@
 ---
-title: Schedule service work
-description: Learn about the benefits and process flow for the scheduling service requests business process within the service to cash process area.
+title: Overview of Schedule Frontline Workers
+description: Learn about the benefits and process flow for the Schedule frontline workers business process within the Manage service work process area.
 author: nucruz
 ms.author: nucruz
 ms.topic: concept-article
-ms.date: 03/26/2026
+ms.date: 05/08/2026
 ---
 
-# The business process Schedule service work
+# Overview of the Schedule frontline workers business process within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management***
 
-This article describes the benefits and process flow of the *Schedule service requests* business process that is part of the *Create and process service work* process area in the *Service to deliver* end to end business process. This process encompasses the steps to identify and book the correct resources to be scheduled to perform service work, which is the next step in the progress.
+This article describes the benefits and process flow of the *Schedule frontline workers* business process that is part of the *Manage service work* process area in the *Service to deliver* end to end business process. This process encompasses the steps to identify and book the correct resources to be scheduled to perform service work, which is the next step in the progress.
 
 > [!IMPORTANT]
 > The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
@@ -58,9 +58,9 @@ Automated scheduling also plays a significant role available through advanced al
 
 [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
-:::image type="content" source="media\service-to-cash-schedule-service-work-1.svg" alt-text="Diagram of the Schedule Service Work process, showing the connection between frontline workers and dispatchers." lightbox="media\service-to-cash-schedule-service-work-1.svg":::
+:::image type="content" source="media\service-to-cash-schedule-service-work-1.svg" alt-text="Diagram of the Schedule frontline workers process, showing the connection between frontline workers and dispatchers." lightbox="media\service-to-cash-schedule-service-work-1.svg":::
 
-The following steps are illustrated in the *schedule service work* process flow diagram includes the following steps:
+The *Schedule frontline workers* process flow diagram includes the following steps:
 
 1. *Create work order*
 
@@ -127,7 +127,7 @@ The following sections link to articles for Dynamics 365 Field Service. Dynamics
 
 ## Next steps
 
-After you have completed the setup and configuration for the *schedule service work* process in Dynamics 365, consider the following steps and actions to take. (Links are added when the articles are ready.)
+After you have completed the setup and configuration for the *Schedule frontline workers* process in Dynamics 365, consider the following steps and actions to take. (Links are added when the articles are ready.)
 
 1. [Perform Service Work](service-to-cash-perform-service-work.md)
 
