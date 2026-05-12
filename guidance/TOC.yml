@@ -1087,6 +1087,14 @@ items:
                     href: agent-templates/payment-reconciliation-agent.md
                   - name: Store monitoring
                     href: agent-templates/store-monitoring-agent.md
+              - name: Customer Insights
+                items:
+                  - name: Customer Insights agent templates
+                    href: agent-templates/customer-insights-agent-templates.md
+                  - name: Event management
+                    href: agent-templates/event-management-agent.md
+                  - name: Event registration
+                    href: agent-templates/event-registration-agent.md        
               - name: Customer Service
                 items:
                   - name: Service agent templates
