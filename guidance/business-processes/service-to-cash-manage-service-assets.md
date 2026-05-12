@@ -105,17 +105,13 @@ The maintenance process aims to ensure customer satisfaction, retention and loya
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more. (Links are added, when articles are ready.)
+If you want to implement Dynamics 365 solutions to help with your *Develop service strategy* business processes, use the following resources and steps to learn more. (Links are added, when articles are ready.)
 
 1. *Develop service strategy* (The article you're currently reading.)
-
-2. *Manage service resources*
-
-3. [Create and process service work](service-to-cash-create-process-service-work.md)
-
-<!--- **Manage service resources and create and process service work links pending tasks migrating document files to Markdown files.
-
---->
+1. [Plan service work](service-to-cash-manage-service-resources.md)
+1. [Manage service work](service-to-cash-create-process-service-work.md)
+1. *Deliver services*
+1. *Analyze service performance*
 
 ## Related information
 
