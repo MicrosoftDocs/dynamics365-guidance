@@ -3,7 +3,7 @@ title: Dynamics 365 Agent Templates
 description: Organizations can accelerate adoption of AI Agents by deploying pre-built, templated agents designed around high-value, repeatable use cases.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 05/11/2026
 ms.topic: concept-article
 ---
 # Introduction to the Dynamics 365 agent templates
@@ -45,6 +45,7 @@ You'll soon find the templates in the [Dynamics-365-FastTrack-Implementation-Ass
 
 - [Service agent templates](service-agent-templates.md)  
 - [Commerce agent templates](commerce-agent-templates.md)  
+- [Customer Insights agent templates](customer-insights-agent-templates.md)  
 - [Resources for Customer Service](../resources/cs-index.yml)  
 - [Resources for Field Service](../resources/field-service-index.yml)  
 - [Implementation tools and samples](../resources/overview.md)  

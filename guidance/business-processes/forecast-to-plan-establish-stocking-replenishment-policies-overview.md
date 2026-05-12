@@ -1,17 +1,22 @@
 ---
-title: Overview of the process flow of replenishment policies
-description: Learn about the business process area for stocking and replenishment policies in Dynamics 365, including overviews on stakeholders and benefits.
-ms.date: 04/26/2024
+title: Overview of Establish Stocking and Replenishment Policies
+description: Learn about the establish stocking and replenishment policies business process area in Dynamics 365, including overviews on stakeholders and benefits.
+ms.date: 05/12/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: annekrupke
 ---
 
-# Overview of the benefits and process flow of the establish stocking and replenishment policies
+# Overview of the establish stocking and replenishment policies business process area within the Forecast to plan end-to-end scenario
 
 ***Applies to: Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
-This article describes the benefits and process flow of the *establish stocking and replenishment policies* business process area. This area encompasses the business processes for setting the rules that ultimately drive the execution of supply planning for the different items that an organization stocks. Planners decide which operational strategies to use for different items. As part of this process, they decide which items to make or purchase to stock, and which items to make or purchase to order. For items that they generally keep in stock, they must establish the target inventory levels for each location, based on demand history, forecasts, and space and capacity constraints. Organizations also establish the patterns for the planning process, such as the following examples:
+This article describes the benefits and process flow of the *establish stocking and replenishment policies* business process area. This area encompasses the business processes for setting the rules that ultimately drive the execution of supply planning for the different items that an organization stocks. Planners decide which operational strategies to use for different items. As part of this process, they decide which items to make or purchase to stock, and which items to make or purchase to order. For items that they generally keep in stock, they must establish the target inventory levels for each location, based on demand history, forecasts, and space and capacity constraints.   
+
+> [!IMPORTANT]
+> This article is currently outdated and doesn't reflect the latest version of the business process catalog. We hope to update it later in 2026.
+
+Organizations also establish the patterns for the planning process, such as the following examples:
 
 - How often they run planning
 - How far into the future they create plans for
@@ -32,7 +37,7 @@ Many people in an organization must contribute to the decision-making process an
 - **Procurement stakeholders** – Examples: Buyer and Procurement planner
 - **Finance stakeholders** – Examples: Controller and Inventory accountant
 
-## Establish stocking and replenishment policies process flow 
+## establish stocking and replenishment policies process flow 
 
 The following diagram shows the business processes in the *establish stocking and replenishment policies* area. The flow of the diagram represents the approach that most organizations use to periodically review and refresh their stocking and replenishment policies for their entire catalog of products. However, organizations must also establish stocking and replenishment policies for new items. Alternatively, they must update their policies for specific items on an ad-hoc basis. Although the process diagram doesn't show this alternate scenario, the business processes are generally the same in both scenarios.
 
@@ -63,7 +68,7 @@ The following steps are illustrated in the *establish stocking and replenishment
 
 1. *Forecast to plan* end-to-end process
 1. *Define strategic and operation plans* process area
-1. *Establish stocking and replenishment policies*
+1. *establish stocking and replenishment policies*
 1. *Define planning policies*
 1. *Define inventory planning policies*
 
@@ -72,7 +77,7 @@ The following steps are illustrated in the *establish stocking and replenishment
 1. *Define production planning policies*
 1. End
 
-## Establish stocking and replenishment policies benefits
+## establish stocking and replenishment policies benefits
 
 There are many key benefits that can be used to monitor and measure the success of implementing technology to support the *establish stocking and replenishment policies* area. The following sections outline the key benefits that an organization might monitor and measure for *establish stocking and replenishment policies*. 
 
@@ -94,7 +99,7 @@ If you want to implement solutions with Dynamics 365 to help with your *forecas
 
 1. [Define strategic and operational plans](forecast-to-plan-areas.md#define-strategic-and-operational-plans)
 
-2. *Establish stocking and replenishment policies* (the article that you're currently reading)
+2. *establish stocking and replenishment policies* (the article that you're currently reading)
 
 3. [Forecast supply and demand](forecast-to-plan-demand-forecasting-overview.md)
 

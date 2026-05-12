@@ -1,17 +1,17 @@
 ---
-title: Review and close service requests
-description: Learn about how to set up, configure, and design the Review and close service requests business process, including a business process flow.
+title: Overview of Finalize Work Orders
+description: Learn about how to set up, configure, and design the Finalize work orders business process, including a business process flow.
 author: nucruz
 ms.author: nucruz
 ms.topic: concept-article
-ms.date: 03/26/2026
+ms.date: 05/08/2026
 ---
 
-# The business process Review and close service requests within the Service to deliver end-to-end scenario
+# Overview of the Finalize work orders business process within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Guides, Dynamics 365 Project Operations, Dynamics 365 Remote Assist, Dynamics 365 Supply Chain Management***
 
-In this article, we explain how to set up, configure, and design the *Review and close service requests* business process in Dynamics 365 Field Service. Service supervisors manage this process. It starts when a frontline worker completes the service work, and the bookings are closed. This usually marks the end of the lifecycle for a given service request in the *Create and process service requests* process area. After this process, service requests move to the *Invoice customers* business process area.
+In this article, we explain how to set up, configure, and design the *Finalize work orders* business process in Dynamics 365 Field Service. Service supervisors manage this process. It starts when a frontline worker completes the service work, and the bookings are closed. This usually marks the end of the lifecycle for a given service request in the *Create and process service requests* process area. After this process, service requests move to the *Invoice customers* business process area.
 
 > [!IMPORTANT]
 > The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
@@ -42,7 +42,7 @@ For many organizations and industries, the benefits of this process include the 
 
 The following diagram illustrates the business process.
 
-:::image type="content" source="media/service-to-cash-review-close-service-requests-business-process-diagram.svg" alt-text="Diagram showing the Review and close service requests business process for frontline workers and field service supervisors." lightbox="media/service-to-cash-review-close-service-requests-business-process-diagram.svg":::
+:::image type="content" source="media/service-to-cash-review-close-service-requests-business-process-diagram.svg" alt-text="Diagram showing the Finalize work orders business process for frontline workers and field service supervisors." lightbox="media/service-to-cash-review-close-service-requests-business-process-diagram.svg":::
 
 The process flow diagram includes the following steps.
 
@@ -72,7 +72,7 @@ The process flow diagram includes the following steps.
 
 ## Implementing the business process
 
-The following section shows the configurations available, and the sequence recommended for setting up the configurations related to the *Review and close service requests* business process. Learn more about the terms used in the table at [Business processes, steps, and how to find things](/dynamics365/guidance/business-processes/about-steps-navigation).
+The following section shows the configurations available, and the sequence recommended for setting up the configurations related to the *Finalize work orders* business process. Learn more about the terms used in the table at [Business processes, steps, and how to find things](/dynamics365/guidance/business-processes/about-steps-navigation).
 
 | Process step | Process stage | Application: Navigation and Entity |
 |--------------|---------------|------------------------------------|
@@ -85,7 +85,7 @@ The following section shows the configurations available, and the sequence recom
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *Review and close service requests* processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
+If you want to implement Dynamics 365 solutions to assist with your *Finalize work orders* processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
 1. *Define service policies*
 
@@ -95,7 +95,7 @@ If you want to implement Dynamics 365 solutions to assist with your *Review and 
 
 4. [Perform service work](service-to-cash-perform-service-work.md)
 
-5. *Review and close service requests* (The article you're currently reading)
+5. *Finalize work orders* (The article you're currently reading)
 
 ## Related information
 

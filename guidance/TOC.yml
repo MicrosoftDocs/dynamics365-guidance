@@ -5,7 +5,7 @@ items:
         href: index.yml
       - name: Get started
         items:
-          - name: Overview
+          - name: What is guidance?
             href: overview.md
           - name: Copilot experiences in Dynamics 365
             href: /dynamics365/copilot/index?toc=/dynamics365/guidance/toc.json
@@ -319,24 +319,24 @@ items:
                 href: business-processes/service-to-cash-overview.md
               - name: Business process areas
                 href: business-processes/service-to-cash-areas-overview.md
-              - name: Manage service assets overview
+              - name: Develop service strategy
                 href: business-processes/service-to-cash-manage-service-assets.md
-              - name: Manage service resources overview
+              - name: Plan service work overview
                 href: business-processes/service-to-cash-manage-service-resources.md
-              - name: Create and process service work
+              - name: Manage service work
                 items:
-                  - name: Create and process service work
+                  - name: Manage service work
                     href: business-processes/service-to-cash-create-process-service-work.md
-                  - name: Schedule service work overview
+                  - name: Schedule frontline workers
                     href: business-processes/service-to-cash-schedule-service-work.md
                   - name: Perform service work
                     href: business-processes/service-to-cash-perform-service-work.md
-              - name: Invoice customers
-                href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-              - name: Monitor customer credit and collections
-                href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
-              - name: Review and close service requests
-                href: business-processes/service-to-cash-review-close-service-requests.md
+                  - name: Finalize work orders
+                    href: business-processes/service-to-cash-review-close-service-requests.md
+              # - name: Invoice customers
+              #   href: business-processes/order-to-cash-invoice-sales-orders-overview.md
+              # - name: Monitor customer credit and collections
+              #   href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
           - name: Administer to operate
             items:
               - name: End-to-end scenario - administer to operate (ID 99)
@@ -1087,6 +1087,14 @@ items:
                     href: agent-templates/payment-reconciliation-agent.md
                   - name: Store monitoring
                     href: agent-templates/store-monitoring-agent.md
+              - name: Customer Insights
+                items:
+                  - name: Customer Insights agent templates
+                    href: agent-templates/customer-insights-agent-templates.md
+                  - name: Event management
+                    href: agent-templates/event-management-agent.md
+                  - name: Event registration
+                    href: agent-templates/event-registration-agent.md        
               - name: Customer Service
                 items:
                   - name: Service agent templates

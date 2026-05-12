@@ -1,29 +1,29 @@
-﻿---
-title: Overview of the Manage service assets business process area
+---
+title: Overview of Develop Service Strategy
 description: Learn about how to support your organization's business processes for managing service assets in your Dynamics 365 products.
 author: SabrinaDiBartolomeo
 ms.author: sabrinadi
-ms.date: 03/26/2026
+ms.date: 05/12/2026
 ms.topic: overview
 ---
 
-# Overview of the Manage service assets business process area within the Service to deliver end-to-end scenario
+# Overview of the Develop service strategy business process within the Service to deliver end-to-end scenario
 
 ***Applies to: Dynamics 365 Field Service, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 
 This article describes how you can use Dynamics 365 products to support your organization's business processes for managing service assets.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario is renamed *service to deliver* starting with the February 2025 version of the business process catalog and in subsequent versions. The articles in Microsoft Learn aren't yet fully updated to reflect this change. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The *service to cash* end-to-end scenario was renamed *service to deliver* in the February 2025 version of the business process catalog. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
 
-## Introduction to manage service assets
+## Introduction to Develop service strategy
 
 Many organizations provide services for products that their customers purchase, lease from them, or from other sources and that need to be maintained and serviced regularly. These services may include installation, maintenance, repair, troubleshooting, or upgrading of the products.
 
 > [!IMPORTANT]
 > This article primarily pertains to the servicing of assets owned by, or located at, customer locations.  
 
-To manage service assets effectively, it's vital to keep a repository of serviceable items (assets) and to track them, recording all the needed information that will be helpful during the maintenance process, such as:
+To develop service strategy effectively, it's vital to keep a repository of serviceable items (assets) and to track them, recording all the needed information that will be helpful during the maintenance process, such as:
 
 -   Identification number
 
@@ -47,7 +47,7 @@ Whenever a product undergoes a change, such as being relocated or disposed of, t
 
 A company can also leverage the IoT (internet of things) capabilities of customer assets to proactively manage them, identifying and correcting potential defects or hazards before they cause any harm or damage to the asset. This can be achieved by providing real-time data, insights, and control over assets.
 
-## Stakeholders for the manage service assets process
+## Stakeholders for the Develop service strategy process
 
 Many people in an organization must contribute to the decision-making process and design of the manage service asset process in your Dynamics 365 project. The following list provides examples of such stakeholders:
 
@@ -57,7 +57,7 @@ Many people in an organization must contribute to the decision-making process an
 
 -   **Inventory manager** - responsible for managing the inventory of spare parts, tools, and equipment that are needed for repairing and maintaining the customer assets
 
-## Manage service assets process flow 
+## Develop service strategy process flow 
 
 The following diagram shows the high-level business process flow for managing service assets.
 
@@ -67,7 +67,7 @@ The following diagram shows the high-level business process flow for managing se
 
 Each solid gray rectangle on the diagram represents an end-to-end business process. The solid blue rectangle represents the business process area. The diagram shows the subprocesses for the business process area. The arrows on the diagram show the flow of the business process in an organization. If a subprocess can lead to more than one other subprocess, the parallel subprocesses are shown as branches.
 
-The manage service assets business process area flow diagram covers the following steps.
+The Develop service strategy business process area flow diagram covers the following steps.
 
 1. *Start*
 
@@ -87,9 +87,9 @@ The manage service assets business process area flow diagram covers the followin
 
 5. *If no: Acquire to dispose*
 
-## Manage service assets benefits
+## Develop service strategy benefits
 
-There are many key benefits that can be used to monitor and measure the success of maintaining and repairing service assets. The following sections outline the key benefits that an organization might monitor and measure to manage service assets.
+There are many key benefits that can be used to monitor and measure the success of maintaining and repairing service assets. The following sections outline the key benefits that an organization might monitor and measure to Develop service strategy.
 
 ## Productivity
 
@@ -105,17 +105,13 @@ The maintenance process aims to ensure customer satisfaction, retention and loya
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to help with your *track production costs* business processes, use the following resources and steps to learn more. (Links are added, when articles are ready.)
+If you want to implement Dynamics 365 solutions to help with your *Develop service strategy* business processes, use the following resources and steps to learn more. (Links are added, when articles are ready.)
 
-1. *Manage service assets* (The article you're currently reading.)
-
-2. *Manage service resources*
-
-3. [Create and process service work](service-to-cash-create-process-service-work.md)
-
-<!--- **Manage service resources and create and process service work links pending tasks migrating document files to Markdown files.
-
---->
+1. *Develop service strategy* (The article you're currently reading.)
+1. [Plan service work](service-to-cash-manage-service-resources.md)
+1. [Manage service work](service-to-cash-create-process-service-work.md)
+1. *Deliver services*
+1. *Analyze service performance*
 
 ## Related information
 

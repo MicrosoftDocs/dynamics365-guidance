@@ -1,13 +1,13 @@
 ---
-title: Define a sales strategy and policies
-description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining a sales strategy and policies to align sales activities with business growth objectives.
-ms.date: 09/23/2025
+title: Overview of the Define sales strategy and policies business process area
+description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining sales strategy and policies to align sales activities with business growth objectives.
+ms.date: 05/12/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
 ---
 
-# Define a sales strategy and policies business process area
+# Overview of the Define sales strategy and policies business process area within the Prospect to quote end-to-end scenario
 
 ***Applies to: Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service***
 
@@ -25,7 +25,7 @@ The list of typical key stakeholders for this process includes but isn't limited
 
 ## Define a sales strategy process flow
 
-The following diagram illustrates the *define a sales strategy and policies* business process area.
+The following diagram illustrates the *Define sales strategy and policies* business process area.
 
 :::image type="content" source="media/prospect-to-quote-define-sales-strategy-policies-flow.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/prospect-to-quote-define-sales-strategy-policies-flow.svg":::
 
@@ -35,7 +35,7 @@ The business process area flow diagram covers the following steps:
 
 1. Start
 1. *Prospect to quote*
-1. *Define a sales strategy and policies*
+1. *Define sales strategy and policies*
 
     1. *Define sales process*  
     1. *Define sales teams*
@@ -47,7 +47,7 @@ The business process area flow diagram covers the following steps:
 
 ## Benefits of the Define sales strategy and policies business process area
 
-There are many benefits of implementing technology to support the *define a sales strategy and policies* process area. This section outlines key benefits that an organization might monitor and measure to track the impact of their *define a sales strategy and policies* process.
+There are many benefits of implementing technology to support the *Define sales strategy and policies* process area. This section outlines key benefits that an organization might monitor and measure to track the impact of their *Define sales strategy and policies* process.
 
 - Strategic alignment between sales execution and business goals
 - Increased sales productivity through specialization
@@ -72,9 +72,9 @@ If you want to implement Dynamics 365 solutions to help with your *define sales 
 
 ## Related information
 
-You can use the following resources to learn more about the *define a sales strategy and policies* process in Dynamics 365.
+You can use the following resources to learn more about the *Define sales strategy and policies* process in Dynamics 365.
 
-- Find definitions of terminology that is used in content for *define a sales strategy and policies* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
+- Find definitions of terminology that is used in content for *Define sales strategy and policies* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
   - [Sales channels](glossary.md#sales-channels)
   - [Sales compensation](glossary.md#sales-compensation)

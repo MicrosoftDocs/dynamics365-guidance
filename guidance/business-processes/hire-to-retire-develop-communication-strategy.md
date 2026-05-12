@@ -1,7 +1,7 @@
 ---
 title: Overview of the Develop communication strategy business process
 description: Learn how the Develop communication strategy business process can help you manage employee issues and changes in Dynamics 365 Human Resources.
-ms.date: 05/22/2025
+ms.date: 05/08/2026
 ms.topic: concept-article
 author: vibhutinair23
 ms.author: vibhutinair
