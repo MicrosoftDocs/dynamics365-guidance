@@ -3,7 +3,7 @@ title: Commerce Agent Templates Overview
 description: Comprehensive guide to the prebuilt AI agent templates for Dynamics 365 Commerce.
 author: scott-tucker
 ms.author: scotttuc
-ms.date: 03/03/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -13,8 +13,7 @@ ms.topic: concept-article
 
 Commerce agents transform retail operations by automating reconciliation tasks, inventory fulfillment, store health monitoring, and skills compliance at scale. Purpose‑built AI agents proactively detect problems, execute the right actions, and enforce policies across Dynamics 365 Commerce systems. They reduce exceptions, accelerate resolution, and keep stores running smoothly. The result is resilient, intelligent Commerce operations powered by automation, not manual effort.
 
-> [!NOTE]
-> The agent templates aren't yet available for download. If you're interested in the commerce agent templates, [fill in this form](https://aka.ms/commerce-agent-templates).
+[!INCLUDE [Signup](../includes/commerce-agent-template-signup.md)]
 
 ## Available agent templates
 

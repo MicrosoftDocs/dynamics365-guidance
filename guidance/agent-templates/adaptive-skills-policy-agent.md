@@ -3,7 +3,7 @@ title: Adaptive Skills Policy Agent
 description: Learn about the template you can use to automate all aspects of Dynamics 365 Commerce through agents that adhere to your company policies and processes.
 author: scott-tucker
 ms.author: scotttuc
-ms.date: 03/03/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -14,8 +14,7 @@ ms.topic: concept-article
 This template creates an agent with a user-defined and configurable set of processes and policies. After validating a user's prompt against your policies, the agent uses your process definitions to plan and run tasks in Dynamics 365 by using the Model Context Protocol (MCP) server for finance and operations apps.
 All of the agent's actions occur in the user's context and use the Dynamics 365 role-based security, approvals, and auditing.
 
-> [!NOTE]
-> The agent templates aren't yet available for download. If you're interested in the commerce agent templates, [fill in this form](https://aka.ms/commerce-agent-templates).
+[!INCLUDE [Signup](../includes/commerce-agent-template-signup.md)]
 
 ## Overview
 

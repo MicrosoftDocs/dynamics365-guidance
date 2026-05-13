@@ -3,7 +3,7 @@ title: Inventory Fulfillment Agent
 description: Learn about the template you can use to support frontline retail and service users with inventory information at the moment of customer interaction.
 author: scott-tucker
 ms.author: scotttuc
-ms.date: 03/03/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -13,8 +13,7 @@ ms.topic: concept-article
 
 An agent that interprets fulfillment requests, checks multi-site availability, available to promise (ATP), and Inventory Visibility Service (IVS), recommends the best fulfillment option by policy, and uses Dynamics 365 capabilities to create sales orders and transfer orders with optional soft reservations. The agent is available across points of sale (POS), Teams, and call-center applications.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the commerce agent templates, [fill in this form](https://aka.ms/commerce-agent-templates).
+[!INCLUDE [Signup](../includes/commerce-agent-template-signup.md)]
 
 ## Overview
 
