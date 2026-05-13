@@ -3,7 +3,7 @@ title: Store Monitoring Agent
 description: Learn about the template you can use to automate monitoring all of your Dynamics 365 Commerce Point-of-Sale devices.
 author: scott-tucker
 ms.author: scotttuc
-ms.date: 03/03/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -13,8 +13,7 @@ ms.topic: concept-article
 
 The Store Monitoring Agent is a lightweight, chat‑based monitoring agent built with Copilot Studio that reasons over POS telemetry collected via Azure Arc and Azure Monitor. It analyzes logs, metrics, and health signals from Windows‑based POS devices and surfaces insights through natural language conversations in Microsoft Teams or Microsoft 365 Copilot. The agent is intentionally read‑only, focusing on monitoring, assessment, and triage to minimize operational risk while enabling proactive store operations.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the commerce agent templates, [fill in this form](https://aka.ms/commerce-agent-templates).
+[!INCLUDE [Signup](../includes/commerce-agent-template-signup.md)]
 
 ## Overview
 

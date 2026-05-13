@@ -3,7 +3,7 @@ title: Payment Reconciliation Agent
 description: Learn about the template you can use to improve close confidence by reconciling retail transactions to payment provider statements, highlighting mismatches and exceptions for faster resolution.
 author: scott-tucker
 ms.author: scotttuc
-ms.date: 03/03/2026
+ms.date: 05/13/2026
 ms.topic: concept-article
 ---
 
@@ -13,8 +13,7 @@ ms.topic: concept-article
 
 This agent ingests settlement files, normalizes them into a data store, applies reconciliation policies, and produces a prioritized list of exceptions and reconciliation outputs for review and downstream reporting.
 
-> [!NOTE]
-> The agent templates aren't yet available for download. If you're interested in the commerce agent templates, [fill in this form](https://aka.ms/commerce-agent-templates).
+[!INCLUDE [Signup](../includes/commerce-agent-template-signup.md)]
 
 ## Overview
 
