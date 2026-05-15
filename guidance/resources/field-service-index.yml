@@ -148,6 +148,8 @@ landingContent:
           url: field-service-mobile-expand-grid-control.md
         - text: Use deep links to the Field Service mobile app
           url: field-service-mobile-use-deep-links.md
+        - text: Add a mobile lookup control
+          url: field-service-mobile-add-lookup.md
 
 # # Card
 #   - title: Application lifecycle management
