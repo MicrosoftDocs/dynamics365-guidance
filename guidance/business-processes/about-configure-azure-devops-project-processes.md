@@ -4,20 +4,20 @@ description: Automate Azure DevOps project setup with Python and Excel. Streamli
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 03/24/2026
+ms.date: 05/19/2026
 ms.topic: how-to
 ---
 
 # Automate Azure DevOps project, process, work item types, fields, and picklists from Excel with Python
 
-This article shows how to automate the creation of Azure DevOps projects, processes, work item types, fields, and picklists by using a Python script and an Excel template. The template follows the Success by Design framework and recommended practices from the Microsoft Business Process Catalog. The script uses the Azure DevOps REST API and reads configuration data from an Excel file, so you can easily provision environments at scale.
+This article shows how to automate the creation of Azure DevOps projects, processes, work item types, fields, and picklists by using a Python script and an Excel template. The template follows the Success by Design framework and recommended practices from the business process catalog. The script uses the Azure DevOps REST API and reads configuration data from an Excel file, so you can easily provision environments at scale.
 
 ## Prerequisites
 
 Before running this script, make sure you have the following items:
 
 1. Python 3.x installed on your machine. You can [download and install Python](https://www.python.org/downloads/).
-1. Required Python packages:
+1. The required Python packages:
 
     ```powershell
     # Windows PowerShell / PowerShell 7
@@ -33,7 +33,9 @@ Before running this script, make sure you have the following items:
     python -c "import openpyxl, sys; print('openpyxl', openpyxl.__version__)"
     ```
 
-1. Azure DevOps organization. You must have an Azure DevOps organization. To learn more, see [Create an Azure DevOps organization](/azure/devops/organizations/accounts/create-organization) in the documentation for Azure DevOps Services.
+1. Azure DevOps organization.
+
+    You must have an Azure DevOps organization. Learn more at [Create an Azure DevOps organization](/azure/devops/organizations/accounts/create-organization) in the documentation for Azure DevOps Services.
 1. Correct access.
 
     a. You must be a Project Collection Administrator in Azure DevOps to run this script, as it creates projects, processes, work item types, fields, and picklists. To learn more, see [Get started as a project collection administrator or organization owner](/azure/devops/user-guide/manage-organization-collection?view=azure-devops&preserve-view=true).
@@ -43,14 +45,16 @@ Before running this script, make sure you have the following items:
       - Work Items: Read & write
       - Process and Work Item Types: Read & manage
 
-    To learn more, see [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&preserve-view=true&tabs=Windows).
+    Learn more at [Use Personal Access Tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&preserve-view=true&tabs=Windows).
 
-1. Excel template: Download the sample Excel template for the Microsoft Business Process Catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
-    a. Work item types
-    b. Fields
-    c. Picklists
+1. Excel template: Download the sample Excel template for the business process catalog from [https://aka.ms/BPEADOTemplate](https://aka.ms/BPEADOTemplate). The template includes the required sheets that are used in the code sample:
+
+    1. Work item types
+    1. Fields
+    1. Picklists
+
     > [!TIP]
-    > Partners and customers can modify this file to match their requirements before running the script.
+    > Modify this file to match the requirements of the concrete implementation project before you run the script.
 
 1. Update partner defined picklists.
 
@@ -62,8 +66,7 @@ Before running this script, make sure you have the following items:
     - **Authorized for deployment.** Use this list to maintain a list of the environments for the project to indicate when code or configuration, for example, is ready to be deployed to the next environment. The list of values should match the name of the environment in the customer's tenant. For example, DEV, TEST, and PROD.
     - **Current highest deployment.** Use this list to maintain a list of the environments for the project to indicate the highest-level environment where the code or configuration is deployed. The list of values should match the name of the environment in the customer's tenant. For example, DEV, TEST, and PROD.
 
-1. Network access:
-    a. Ensure your machine can reach dev.azure.com and that your organization allows REST API access.
+1. Network access: Make sure your machine can reach dev.azure.com and that your organization allows REST API access.
 
 ## Procedure: Run the script 
 
@@ -81,6 +84,7 @@ python -m pip install pandas requests openpyxl
 
 1. In the script, locate the **USER CONFIGURATION** section at the top.
 1. Replace the following variables with your own values:
+
     - ADO_ORG_URL: Your Azure DevOps organization URL
     - ADO_PROJECT: The name of the project to create or use
     - PROCESS_NAME: The name of the process to create or use
@@ -119,19 +123,19 @@ python -m pip install pandas requests openpyxl
 
 ## Sample code
 
-The FastTrack for Dynamics 365 team provides a sample Python script that reads the Excel file to create new pages, groups, and fields in the layouts for each work item type in Azure DevOps. Use these samples and templates to help you get started with using the Microsoft Business Process Catalog for Dynamics 365 implementation projects. To download the Python scripts and Excel template, visit [dynamics365patternspractices/templates/Azure-DevOps-templates](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/Azure-DevOps-templates).
+The FastTrack for Dynamics 365 team provides a sample Python script that reads the Excel file to create new pages, groups, and fields in the layouts for each work item type in Azure DevOps. Use these samples and templates to help you get started with using the business process catalog for Dynamics 365 implementation projects. Download the Python scripts and Excel template from GitHub at [dynamics365patternspractices/templates/Azure-DevOps-templates](https://github.com/microsoft/dynamics365patternspractices/tree/main/templates/Azure-DevOps-templates).
 
 > [!NOTE]
 > To report issues or suggest changes to the sample Python script, go to [https://aka.ms/businessprocesscatalogrequests](https://aka.ms/businessprocesscatalogrequests).
 
 ## Manual configuration not included in the script
 
-The sample Python script doesn't include certain configuration that you should apply when using the Microsoft Business Process Catalog to manage your projects. 
+The sample Python script doesn't include certain configuration that you should apply when using the business process catalog to manage your projects. 
 
-- **Disable work item types that you don't use.** Disable the Epic, Feature, and User Story work item types that are included by default in the Agile process that the script inherits. To learn more, see [Customize work item type for inherited process](/azure/devops/organizations/settings/work/customize-process-work-item-type?view=azure-devops&preserve-view=true).
-- **Create work item states.** Extend the template or manually create work item states that match your project methodology. The sample template includes only the default work item states, which are often not robust enough to manage a complex ERP or CRM implementation. To learn more, see [Customize the workflow of an inherited process](/azure/devops/organizations/settings/work/customize-process-workflow?view=azure-devops&preserve-view=true).
-- **Give users access to your project.** Give each of the project team members access to the Azure DevOps project. To learn more about security in Azure DevOps, see [Add Users or Groups to Team or Project](/azure/devops/organizations/security/add-users-team-project?view=azure-devops&tabs=preview-page&preserve-view=true).
+- **Disable work item types that you don't use.** Disable the Epic, Feature, and User Story work item types that are included by default in the Agile process that the script inherits. Learn more at [Customize work item type for inherited process](/azure/devops/organizations/settings/work/customize-process-work-item-type?view=azure-devops&preserve-view=true).
+- **Create work item states.** Extend the template or manually create work item states that match your project methodology. The sample template includes only the default work item states, which are often not robust enough to manage a complex ERP or CRM implementation. Learn more at [Customize the workflow of an inherited process](/azure/devops/organizations/settings/work/customize-process-workflow?view=azure-devops&preserve-view=true).
+- **Give users access to your project.** Give each of the project team members access to the Azure DevOps project. To learn more about security in Azure DevOps, go to [Add Users or Groups to Team or Project](/azure/devops/organizations/security/add-users-team-project?view=azure-devops&tabs=preview-page&preserve-view=true).
 
 ## Next steps
 
-After you create the process, project, work item types, and organizational level fields, add the fields to each work item type and create the page layouts for each work item type. For sample scripts and to learn more, see [Automate Azure DevOps page layout creation with Python](about-configure-azure-devops-page-layout.md)
+After you create the process, project, work item types, and organizational level fields, add the fields to each work item type and create the page layouts for each work item type. Find sample scripts and learn more in this article: [Automate Azure DevOps page layout creation with Python](about-configure-azure-devops-page-layout.md).
