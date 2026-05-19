@@ -792,3 +792,4 @@ By integrating your analytics and insights data into an Azure Data Explorer dash
 
 [Configure conversation diagnostics](/dynamics365/customer-service/administer/configure-conversation-diagnostics)  
 [Subscenarios in conversation diagnostics](/dynamics365/customer-service/administer/conversation-diagnostics-subscenarios)  
+[Diagnose contact center health](/dynamics365/contact-center/use/diagnose-dashboard)  

@@ -1,11 +1,11 @@
 ---
 title: Deployment approaches for voice channel in Dynamics 365 Contact Center
-description: Learn about deployment approaches for voice in Dynamics 365 Contact Center including Microsoft calling plans, and inbound and outbound scenarios.
+description: Learn about deployment approaches for the voice channel in Dynamics 365 Contact Center including Microsoft calling plans, and inbound and outbound scenarios.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
-ms.date: 08/06/2025
+ms.date: 05/19/2026
 ms.custom: bap-template
 ---
 
