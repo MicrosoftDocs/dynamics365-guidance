@@ -6,13 +6,13 @@ ms.author: nenellim
 ms.topic: reference-architecture
 ms.reviewer: edupont
 ms.custom: bap-template
-ms.date: 01/31/2025
+ms.date: 05/19/2026
 ms.collection:
 ---
 
 # Copilot in Dynamics 365 Customer Service architecture
 
-The following architecture diagram provides a visual representation of how Microsoft Copilot for Customer Service works. This solution is a generalized architecture pattern, which can be used for many different scenarios and industries.  
+The following architecture diagram provides a visual representation of how Copilot in Customer Service works. This solution is a generalized architecture pattern, which can be used for many different scenarios and industries.  
 
 ## Architecture
 
@@ -22,14 +22,14 @@ The following architecture diagram provides a visual representation of how Micro
 
 ### Dataflow
 
-All requests are encrypted through HTTPS, which is illustrated with the :::image type="icon" source="../media/https-icon.svg" border="false"::: icon in the diagram. 
+All requests are encrypted through HTTPS, which is illustrated with the :::image type="icon" source="../media/https-icon.svg" border="false"::: icon in the diagram.
 
 1. A user in Dynamics 365 Customer Service submits a prompt that is sent to Copilot  
 2. Copilot accesses Dataverse and Semantic Index for preprocessing  
 3. Copilot sends meta prompt, user prompt, and contextual data to Large Language Model (LLM)  
 4. Copilot receives LLM response  
 5. Copilot accesses Dataverse and Semantic Index for post-processing
-6. Copilot sends the response 
+6. Copilot sends the response
 
 ### Components
 
