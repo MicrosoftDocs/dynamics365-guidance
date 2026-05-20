@@ -128,6 +128,12 @@ landingContent:
       links:
         - text: Field Service mobile app offline usage
           url: field-service-mobile-sample-telemetry.md
+        - text: Customize the booking view
+          url: field-service-mobile-customize-booking-view.md
+        - text: Optimize performance
+          url: field-service-mobile-improve-performance.md
+        - text: Use deep links to the Field Service mobile app
+          url: field-service-mobile-use-deep-links.md
     - linkListType: how-to-guide
       links:
         - text: Add a custom app module
@@ -136,20 +142,16 @@ landingContent:
           url: field-service-service-reports-solution.md
         - text: Create workflows and scripts
           url: field-service-mobile-automate-business-processes.md
-        - text: Customize the booking view
-          url: field-service-mobile-customize-booking-view.md
         - text: Edit the booking and work order form
           url: field-service-mobile-change-work-order-booking-form.md
         - text: Edit the navigation and views
           url: field-service-mobile-edit-navigation-views.md
-        - text: Optimize performance
-          url: field-service-mobile-improve-performance.md
         - text: Show more data and hide the row icon
           url: field-service-mobile-expand-grid-control.md
-        - text: Use deep links to the Field Service mobile app
-          url: field-service-mobile-use-deep-links.md
         - text: Add a mobile lookup control
           url: field-service-mobile-add-lookup.md
+        - text: Add booking statuses with custom icons
+          url: field-service-mobile-booking-status.md
 
 # # Card
 #   - title: Application lifecycle management
