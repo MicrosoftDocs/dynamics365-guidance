@@ -4,14 +4,16 @@ description: Learn how to use the onboarding wizard to create projects, join pro
 author: edupont04
 ms.author: jiebai
 ms.topic: how-to
-ms.date: 03/04/2026
+ms.date: 06/02/2026
 ---
 
 # Create or join a project in the Implementation Portal
 
-This article explains how to use the onboarding wizard to create or join a project in the Dynamics 365 Implementation Portal. The updated onboarding wizard has a guided flow that helps you quickly create an implementation project , add users, and build a project profile so you can receive tailored guidance, telemetry insights, and reviews throughout the delivery lifecycle.
+This article explains how to use the onboarding wizard to create or join a project in the Dynamics 365 Implementation Portal. The updated onboarding wizard has a guided flow that helps you quickly create an implementation project, add users, and build a project profile so you can receive tailored guidance, telemetry insights, and reviews throughout the delivery lifecycle.
 
-You can also join an existing project in your tenant if you're invited or if the project was created through another Microsoft tool.
+You can also automate project creation based on settings in the Power Platform admin center. For more information, see [Create new projects automatically based on environment groups](#create-new-projects-automatically-based-on-environment-groups).
+
+You can also [join an existing project](#join-an-existing-project) in your tenant if you're invited or if the project was created through another Microsoft tool.
 
 ## Project overview
 
@@ -31,9 +33,9 @@ The onboarding experience guides you through three main stages:
 
 1. **Project details** – Define the core attributes of your project. Find a description of the required fields at [Project details](#project-details).  
 
-2. **Add users** – Assign project admins and users. Find a description of the required fields at [Add users](#add-users).  
+1. **Add users** – Assign project admins and users. Find a description of the required fields at [Add users](#add-users).  
 
-3. **Project profiling** – Describe products, features, and business processes in scope. Find a description of the required fields at [Project profiling](#project-profiling).  
+1. **Project profiling** – Describe products, features, and business processes in scope. Find a description of the required fields at [Project profiling](#project-profiling).  
 
 ### Project details
 
@@ -80,9 +82,54 @@ You must select at least one product to continue. A well‑maintained project pr
 
 To learn more, see [What is a good profile in the Dynamics 365 Implementation Portal?](project-profiling.md)
 
+## Create new projects automatically based on environment groups
+
+You can automatically generate implementation projects based on rules at the environment group level in the Power Platform admin center. This approach standardizes onboarding and connects your environments to the Implementation Portal for guidance, insights, and reviews.  
+
+Environment group rules provide centralized governance across environments. When you publish a rule, it enforces consistent configuration across all environments in the group, ensuring standardized configuration and reducing manual setup effort. Learn more at [Create and manage environments](/power-platform/admin/create-environment) in the Power Platform admin center documentation.
+
+### Prerequisites
+
+- A Dynamics 365 environment created in the Power Platform admin center. Learn more at [Create and manage environments](/power-platform/admin/create-environment).  
+- Permission to manage environments and environment groups.  
+
+### Step 1: Create an environment group
+
+1. Sign in to the Power Platform admin center, and then, in the navigation pane, select **Manage** > **Environment groups**, and then select **New group**.  
+
+1. Enter a name and description, and then select **Create**. Learn more at [Environment groups](/power-platform/admin/environment-groups).  
+
+Once you create the environment group, it's empty, and no rules are defined yet.  
+
+### Step 2: Add environments to the group
+
+Environments that you add to the group inherit any rules that you configure and publish at the group level. Learn more at [Environment groups](/power-platform/admin/environment-groups). 
+
+1. In the environment group you created, add one or more Dynamics 365 environments to the group.  
+
+### Step 3: Configure the Dynamics 365 Implementation Project rule
+
+1. In the environment group, open the **Rules** tab.  
+
+1. Locate the **Dynamics 365 Implementation Project** rule.  
+
+1. Open the rule configuration panel.  
+
+1. Provide the required onboarding details, such as initial project user email addresses.  
+
+### Step 4: Enable and publish the rule
+
+To take effect across all environments in the group, the rule requires publishing. Learn more at [Environment groups](/power-platform/admin/environment-groups).  
+
+1. Enable the **Dynamics 365 Implementation Project** rule.  
+
+1. Select **Publish rules** to apply the configuration.  
+
+When you enable and publish the rule, the Implementation Portal automatically creates a new project in the Dynamics 365 Implementation Portal. Project users receive onboarding emails.
+
 ## Join an existing project
 
-From the **Join Project** page, you can view all active projects in your tenant. You can request access to a project or join any projects you were invited to. If you receive an email with an invitation to join a project, either because you created the project in the **Power Platform Admin Center** or directly in the Implementation Portal, you land on this page to join the project. Select the project and, based on its status, either complete the required onboarding steps or go directly to the project workspace.
+From the **Join Project** page, you can view all active projects in your tenant. You can request access to a project or join any projects you were invited to. If you receive an email with an invitation to join a project, either because you created the project in the Power Platform admin center or directly in the Implementation Portal, you land on this page to join the project. Select the project and, based on its status, either complete the required onboarding steps or go directly to the project workspace.
 
 If you don't see a project you expect to join, contact a project admin to request access.
 

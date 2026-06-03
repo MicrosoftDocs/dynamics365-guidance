@@ -7,7 +7,7 @@ metadata:
   description: Find tools, scripts, and guidance to help you implement solutions with Dynamics 365 Field Service.
   author: edupont04
   ms.author: edupont
-  ms.date: 11/11/2025
+  ms.date: 05/18/2026
   ms.topic: landing-page # DON'T CHANGE
   ms.custom:
     - bap-template
@@ -148,6 +148,8 @@ landingContent:
           url: field-service-mobile-edit-navigation-views.md
         - text: Show more data and hide the row icon
           url: field-service-mobile-expand-grid-control.md
+        - text: Add a control for taking notes (preview)
+          url: field-service-mobile-take-notes.md
         - text: Add a mobile lookup control
           url: field-service-mobile-add-lookup.md
         - text: Add booking statuses with custom icons
