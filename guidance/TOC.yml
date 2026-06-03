@@ -1004,7 +1004,9 @@ items:
                       - name: Add booking statuses with custom icons
                         href: resources/field-service-mobile-booking-status.md 
                       - name: Add a mobile lookup control
-                        href: resources/field-service-mobile-add-lookup.md  
+                        href: resources/field-service-mobile-add-lookup.md
+                      - name: Disable clickthrough on lookup values in forms
+                        href: resources/field-service-mobile-disable-click.md    
               - name: Develop solutions
                 items:
                   - name: Write scripts to implement complex business logic

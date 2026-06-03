@@ -16,14 +16,18 @@ Optimize the Field Service mobile lookup experience by configuring a Drawer Look
 To use mobile lookup in Power Apps:
 
 1. [Configure a Power Apps lookup component on form](/power-apps/maker/model-driven-apps/form-designer-add-configure-lookup).
-1. Go to the **components** property under the created lookup.
+
+1. Go to the **Components** property under the created lookup.
+
 1. Select **+ Component**.
 
    :::image type="content" source="media/field-service-mobile-lookup-components-new.png" alt-text="Screenshot of Components property for a lookup field.":::
 
 1. Search for the **Drawer Lookup Control**.
-    1. Select device experiences to enable the control for mobile and tablet.
-    1. Select **Done**.
+
+1. Select device experiences to enable the control for mobile and tablet.
+
+1. Select **Done**.
 
    :::image type="content" source="media/field-service-mobile-drawer-lookup.png" alt-text="Screenshot of Drawer Lookup Component for a lookup field.":::
 
