@@ -1,7 +1,7 @@
 ---
 title: Use Power Apps to configure the Field Service mobile app
 description: Review a set of helpful links that point to Power Apps documentation for customization scenarios of the mobile app.
-ms.date: 12/13/2024
+ms.date: 06/01/2026
 ms.topic: reference
 author: JonBaker007
 ms.author: jobaker
@@ -24,5 +24,5 @@ Because the Dynamics 365 Field Service mobile app is built on Power Platform, ad
 | Business Logic / JavaScript	 | [Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting) | 
 | Client Scripting | 	[Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting) | 
 | Mobile Offline supported capabilities and limitations|  [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities)|
-| Custom controls |  [Additional custom controls for model-driven apps](/powerapps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets)|
+| Custom code components using PCF control |  [Power Apps component framework](/power-apps/developer/component-framework/overview)|
 | Mobile user feedback for your organization | [Learn about Microsoft feedback for your organization](/microsoft-365/admin/misc/feedback-user-control) |

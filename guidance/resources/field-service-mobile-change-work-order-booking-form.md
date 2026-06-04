@@ -2,7 +2,7 @@
 title: Edit the booking and work order form
 description: Learn how to edit the booking and work order form for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 01/06/2025
+ms.date: 06/01/2026
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -17,16 +17,20 @@ In Field Service, booking and work order forms are closely related. When a techn
 
 ## Edit a form
 
-In your web browser, go to the **Field Service Mobile** model-driven app and select **Options**, then **Open in App Designer**. Go to the **Bookable Resource Booking** table and find the **Booking and Work Order** form. For detailed steps, see [Create, edit, or configure forms using the form designer](/powerapps/maker/model-driven-apps/create-and-edit-forms).
+1. From the app list, select the **Field Service Mobile** model-driven app and select **Options**, then **Open in App Designer**.
 
-Change the following forms from the *Work Order* and *Bookable Resource Booking* tables to update the combined work order and booking form in the mobile app.
+    :::image type="content" source="media/field-service-mobile-select-app.png" alt-text="Screenshot of the Dynamics 365 App Selector showing Options and Open in App Designer from the Field Service Mobile card.":::
 
-- Work Order - Customer
-- Work Order - Service
-- Work Order - Notes
-- Booking and Work Order
+1. Go to the **Bookable Resource Booking** table and find the **Booking and Work Order** form. For detailed steps, see [Create, edit, or configure forms using the form designer](/powerapps/maker/model-driven-apps/create-and-edit-forms).
 
-Change each form as needed and publish the changes to see them in the Field Service mobile app.
+1. Change the following forms from the *Work Order* and *Bookable Resource Booking* tables to update the combined work order and booking form in the mobile app.
+
+  - Work Order - Customer
+  - Work Order - Service
+  - Work Order - Notes
+  - Booking and Work Order
+
+1. Change each form as needed and publish the changes to see them in the Field Service mobile app.
 
 > [!TIP]
 > The *Booking* form and *Work Order* form are combined using a framework control called the [Form Component Control](/powerapps/maker/model-driven-apps/form-component-control) that allows you to combine data from different tables on a form. You can use the control to combine data from other tables to improve usability by reducing the need for users to navigate between forms.
