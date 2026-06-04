@@ -55,6 +55,8 @@ landingContent:
           url: field-service-deploy-dataverse-azure-pipelines.md
         - text: Add a custom reporting control for service reports
           url: field-service-service-reports-solution.md
+        - text: Customization best practices
+          url: field-service-customize-best-practices.md
 
 # AI Card
   - title: Copilot and generative AI
@@ -81,12 +83,14 @@ landingContent:
         links:
         - text: Work order summary configuration template
           url: field-service-work-order-summary-configuration-template.md
-        - text: Transport summary configurations across environments
-          url: field-service-deploy-transport-summary-configuration.md
+        - text: Customize the work order form
+          url: field-service-customize-forms.md
         - text: Customized Work order summary with custom tables
           url: field-service-work-order-summary-custom-tables.md
         - text: Customized Work order summary with related case details
           url: field-service-work-order-summary-related-case-details.md
+        - text: Transport summary configurations across environments
+          url: field-service-deploy-transport-summary-configuration.md
 
 # Analytics card
   - title: Add analytics
@@ -136,24 +140,26 @@ landingContent:
           url: field-service-mobile-use-deep-links.md
     - linkListType: how-to-guide
       links:
+        - text: Add booking statuses with custom icons
+          url: field-service-mobile-booking-status.md
+        - text: Add a control for taking notes (preview)
+          url: field-service-mobile-take-notes.md
+        - text: Add a mobile lookup control
+          url: field-service-mobile-add-lookup.md
         - text: Add a custom app module
           url: field-service-mobile-add-custom-app.md
         - text: Add custom service reports
           url: field-service-service-reports-solution.md
         - text: Create workflows and scripts
           url: field-service-mobile-automate-business-processes.md
+        - text: Disable clickthrough on lookup values in forms
+          url: field-service-mobile-disable-click.md
         - text: Edit the booking and work order form
           url: field-service-mobile-change-work-order-booking-form.md
         - text: Edit the navigation and views
           url: field-service-mobile-edit-navigation-views.md
         - text: Show more data and hide the row icon
           url: field-service-mobile-expand-grid-control.md
-        - text: Add a control for taking notes (preview)
-          url: field-service-mobile-take-notes.md
-        - text: Add a mobile lookup control
-          url: field-service-mobile-add-lookup.md
-        - text: Add booking statuses with custom icons
-          url: field-service-mobile-booking-status.md
 
 # # Card
 #   - title: Application lifecycle management
