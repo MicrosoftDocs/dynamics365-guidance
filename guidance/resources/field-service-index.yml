@@ -158,7 +158,7 @@ landingContent:
           url: field-service-mobile-change-work-order-booking-form.md
         - text: Edit the navigation and views
           url: field-service-mobile-edit-navigation-views.md
-        - text: Show more data and hide the row icon
+        - text: Show more data in lists and subgrids
           url: field-service-mobile-expand-grid-control.md
 
 # # Card

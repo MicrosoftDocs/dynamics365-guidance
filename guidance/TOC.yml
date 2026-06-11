@@ -1007,7 +1007,7 @@ items:
                         href: resources/field-service-mobile-add-lookup.md
                       - name: Disable clickthrough on lookup values in forms
                         href: resources/field-service-mobile-disable-click.md
-                      - name: Show more data and hide the row icon
+                      - name: Show more data in lists and subgrids
                         href: resources/field-service-mobile-expand-grid-control.md
               - name: Develop solutions
                 items:

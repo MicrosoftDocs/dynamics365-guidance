@@ -1,7 +1,7 @@
 ---
 title: Library of tools and guidance for Field Service
 description: Read about the collection of tips, tricks, answers to popular questions, and other guidance that can help our customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 11/11/2025
+ms.date: 06/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: erdipple
@@ -91,6 +91,28 @@ The following sections outline the content of the collection. Each section inclu
 - Use Power Apps to configure the Field Service mobile app
 
   For other customization uses with Power Apps, go to [Use Power Apps to configure the Field Service mobile app](field-service-mobile-customize-powerapps.md).  
+
+### Controls in the mobile app
+
+- Add booking statuses with custom icons
+
+  You can add custom icons to booking statuses in the Field Service mobile app to provide a visual representation of each status. Learn more at [Add booking statuses with custom icons](field-service-mobile-booking-status.md).
+
+- Add a control for taking notes (preview)
+
+  You can add a control to the Field Service mobile app that allows technicians to take notes and upload images and videos. Learn more at [Add a control for taking notes (preview)](field-service-mobile-take-notes.md).
+
+- Add a mobile lookup control
+
+  You can add a mobile lookup control to the Field Service mobile app to enable users to search and select records from other tables. Learn more at [Add a mobile lookup control](field-service-mobile-add-lookup.md).
+
+- Disable clickthrough on lookup values in forms
+
+  You can disable clickthrough (hyperlinks) on lookup values in forms in the Field Service mobile app. Learn more at [Disable clickthrough on lookup values in forms](field-service-mobile-disable-click.md).
+
+- Show more data in lists and subgrids
+
+  You can configure grids in the Field Service mobile app to show more data in lists and subgrids. Learn more at [Show more data in lists and subgrids](field-service-mobile-expand-grid-control.md).
 
 ### Field Service web
 
