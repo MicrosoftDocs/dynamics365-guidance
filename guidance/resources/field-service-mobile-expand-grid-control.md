@@ -1,15 +1,15 @@
 ---
-title: Show more data and hide the row icon in the mobile app
-description: Learn how to configure a grid to add more fields and remove icons in the Dynamics 365 Field Service mobile app.
+title: Show more data in lists and subgrids in the mobile app
+description: Learn how to configure a grid to show more data in lists and subgrids while removing icons in the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 01/27/2026
+ms.date: 06/04/2026
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
   - O25-FieldService
 ---
 
-# Show more data and hide the row icon in the mobile app
+# Show more data in lists and subgrids in the mobile app
 
 Configure the Power Apps Grid control to hide the row icon, increase the number of columns, and show column labels in the mobile app grid. You can also configure the control on subgrids.
 
