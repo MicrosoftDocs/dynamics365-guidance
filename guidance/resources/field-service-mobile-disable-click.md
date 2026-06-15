@@ -4,7 +4,7 @@ description: Disable clickthrough on lookup values to keep users on the current 
 ms.topic: how-to
 ms.date: 06/01/2026
 author: v-wendysmith
-ms.author: jobaker
+ms.author: heerpatel
 ms.reviewer: v-wesmith
 ms.custom:
   - O25-FieldService
@@ -27,6 +27,9 @@ By default, lookup values in forms appear as hyperlinks, allowing users to open 
 1. Select **Disable lookup clickthrough** for the **Lookup clickthrough** value.
 
    :::image type="content" source="media/field-service-disable-click.png" alt-text="Screenshot in Power Apps showing Disable lookup clickthrough.":::
+
+   > [!NOTE]
+   > To disable lookup clickthrough on a Drawer Lookup Control, follow the guidance in https://learn.microsoft.com/en-us/dynamics365/guidance/resources/field-service-mobile-disable-click.
 
 1. Select **Done**.
 
