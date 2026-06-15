@@ -25,6 +25,11 @@ To use mobile lookup in Power Apps:
 
 1. Search for the **Drawer Lookup Control**.
 
+1. To prevent users from inadvertently navigating away from the current form, disable the clickthrough behavior on lookup fields by selecting **Disable lookup clickthrough** for the **Lookup clickthrough** value to remove these hyperlinks.
+   
+   > [!NOTE]
+   > To disable lookup clickthrough without adding a Drawer Lookup Control, follow the guidance in https://learn.microsoft.com/en-us/dynamics365/guidance/resources/field-service-mobile-disable-click.
+
 1. Select device experiences to enable the control for mobile and tablet.
 
 1. Select **Done**.
