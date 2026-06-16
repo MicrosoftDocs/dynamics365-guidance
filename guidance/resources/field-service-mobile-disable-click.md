@@ -29,7 +29,7 @@ By default, lookup values in forms appear as hyperlinks, allowing users to open 
    :::image type="content" source="media/field-service-disable-click.png" alt-text="Screenshot in Power Apps showing Disable lookup clickthrough.":::
 
    > [!NOTE]
-   > To disable lookup clickthrough on a Drawer Lookup Control, follow the guidance in [Add a mobile lookup control(mobile-add-lookup.md).
+   > To disable lookup clickthrough on a Drawer Lookup Control, follow the guidance in [Add a mobile lookup control](field-service-mobile-add-lookup.md).
 
 1. Select **Done**.
 
