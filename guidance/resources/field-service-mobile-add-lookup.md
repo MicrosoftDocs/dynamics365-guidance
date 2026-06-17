@@ -2,7 +2,7 @@
 title: Add a mobile lookup control to the Field Service mobile app
 description: Learn how to add a mobile lookup control for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 05/8/2026
+ms.date: 06/16/2026
 author: heerpatelmsft
 ms.author: heerpatel
 ms.custom:
@@ -21,9 +21,14 @@ To use mobile lookup in Power Apps:
 
 1. Select **+ Component**.
 
-   :::image type="content" source="media/field-service-mobile-lookup-components-new.png" alt-text="Screenshot of Components property for a lookup field.":::
+   :::image type="content" source="media/field-service-mobile-lookup-components.png" alt-text="Screenshot of Components property for a lookup field.":::
 
 1. Search for the **Drawer Lookup Control**.
+
+1. To prevent users from inadvertently navigating away from the current form, disable the clickthrough behavior on lookup fields by selecting **Disable lookup clickthrough** for the **Lookup clickthrough** value to remove these hyperlinks.
+   
+   > [!NOTE]
+   > To disable lookup clickthrough without adding a Drawer Lookup Control, follow the guidance in [Disable clickthrough on lookup values in forms](field-service-mobile-disable-click.md).
 
 1. Select device experiences to enable the control for mobile and tablet.
 
