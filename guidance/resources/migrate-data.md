@@ -1,14 +1,14 @@
 ---
-title: Migrate data as part of Dynamics 365 implementation projects
-description: Learn about how to migrate congiguration data and migrated data to Dynamics 365, including resources about finance and operations apps.
+title: Data migration for Dynamics 365 implementation projects
+description: Learn how to migrate configuration data and migrated data to Dynamics 365, with links to finance and operations app guidance and data entity resources.
 author: edupont04
 ms.author: edupont
-ms.topic: upgrade-and-migration-article
-ms.date: 02/02/2024
+ms.topic: concept-article
+ms.date: 06/17/2026
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Migrate data as part of Dynamics 365 implementation projects
+# Data migration for Dynamics 365 implementation projects
 
 ***Applies to: Dynamics 365***
 
@@ -21,7 +21,7 @@ You can migrate the data that you want in your Dynamics 365 implementation proje
 
   Migrated data is either *master data* such as customers, products, and vendors, or *open transactions* such as open sales orders, open purchase orders, stock on hand, and open balances.
 
-Learn more about managing different types of data in Dynamics 365 at [Configuration data and data migration in Dynamics 365 implementation projects](../implementation-guide/data-management-configuration-data-migration.md).  
+Learn more at [Data management in Dynamics 365 implementation projects](../implementation-guide/data-management.md).  
 
 ## Finance and operations apps
 
@@ -35,6 +35,9 @@ To help you migrate relevant master data and open transactions, you can use data
 - [Import vendor invoices in Dynamics 365 projects](import-vendor-invoices.md)  
 - [Import general journals in Dynamics 365 projects](import-general-journals.md)
 
-## Related content
+## Related information
 
-[Data management in Dynamics 365 implementation projects](../implementation-guide/data-management.md)  
+- [Data management in Dynamics 365 implementation projects](../implementation-guide/data-management.md)
+- [Configuration data and data migration in Dynamics 365 implementation projects](../implementation-guide/data-management-configuration-data-migration.md)
+- [Guidelines for finance and operations apps and data management](../implementation-guide/data-management-product-specific-fo.md)
+- [Import customers in Dynamics 365 projects](import-customers.md)

@@ -2,7 +2,7 @@
 title: Use deep links to the Field Service mobile app
 description: Learn how to configure deep links to the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 06/11/2025
+ms.date: 06/11/2026
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -11,13 +11,13 @@ ms.custom:
 
 # Use deep links to the Field Service mobile app
 
-Deep links let users move from one application to another on computers and mobile devices. Simple examples include a mobile app deep-linking to Facebook to sign in, an email address deep-linking to a mail app to compose a message, or a website deep-linking to an app store to download a related mobile app. Because multiple apps might be needed to complete onsite work, an organization can allow technicians to create deep links from the Dynamics 365 Field Service mobile app to other apps and vice versa.
+A deep link is like a shortcut that lets users move directly to a specific location in an app. Use deep links to navigate from another app into the Field Service mobile app.
 
 ## Open an entity record or entity list view in the mobile app
 
 You can open an `entityrecord` or an `entitylist` view in the Dynamics 365 Field Service mobile app by using deep link URLs from other apps. When you follow the link from an external app, the target element opens in the Field Service mobile experience.
 
-If you're already signed in to your instance in the app, the target record is displayed when you follow the link from an external app. Otherwise, you're prompted to sign in to your instance in the mobile app; after you're signed in, the target element is displayed. You must have the Field Service mobile app to use this feature.
+If you're already signed in to your instance in the app, the target record is displayed when you follow the link from an external app. Otherwise, you're prompted to sign in to your instance in the mobile app. After you're signed in, the target element is displayed. You must have the Field Service mobile app to use this feature.
 
 ## Query string parameters for the URL
 

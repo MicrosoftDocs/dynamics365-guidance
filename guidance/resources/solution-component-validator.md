@@ -1,24 +1,24 @@
 ---
 title: Manage solution structures for application lifecycles
-description: Learn how to add a tool to help catch development issues with solution components in Dynamics 365 implementation projects.
+description: Learn how to use the solution component validation tool to help catch development issues with solution components in Dynamics 365 implementation projects.
 author: edupont04
 ms.author: ribsingh
 ms.topic: how-to
-ms.date: 02/14/2024
+ms.date: 06/17/2026
 ms.custom: 
     - bap-template
     - O25-Service
 ms.reviewer: edupont
-ms.collection: #Required; don't change, leave the value blank. 
+ms.collection:
 ---
 
 # Manage solution structures for application lifecycles with the solution component validation tool
 
 ***Applies to: Dynamics 365 with Dataverse***
 
-Solution management is the core design tenet of any Dynamics 365 implementation with Dataverse. Medium-to-complete engagements often require multi-solution models where the solutions are horizontally segmented. Implementations of this type involve dividing solutions based on the type of components that they contain (for example, plugins, flows, and PCF controls), to achieve developer isolation. For these projects, it's important that developers adhere to the segmentation. Otherwise, solution layering issues and dependency conflicts can occur that take months to finish fixing and might require support tickets/resolve layering issues.
+Solution management is a core design principle for Dynamics 365 implementations with Dataverse. Many medium-to-large engagements use a multisolution model with horizontal segmentation. This model separates solutions by component type, such as plug-ins, flows, and Power Apps component framework (PCF) controls, to support developer isolation. If teams don't follow this segmentation, solution layering problems and dependency conflicts can occur and take significant time to resolve.
 
-The Solution component validation tool provides proactive alerts about deviations from the intended horizontal segmentation in solutions. It can help developers, leads, and Azure DevOps teams maintain the agreed-on solution structures for healthy application lifecycle management (ALM). Learn more about solutions and ALM in [Solutions overview](/power-apps/maker/data-platform/solutions-overview).
+The solution component validation tool provides proactive alerts when solution changes deviate from the intended horizontal segmentation. It helps developers, leads, and Azure DevOps teams maintain agreed-on solution structures for healthier application lifecycle management (ALM). Learn more in [Solutions overview](/power-apps/maker/data-platform/solutions-overview).
 
 ## Prerequisites
 
@@ -27,28 +27,24 @@ The Solution component validation tool provides proactive alerts about deviation
 The tool is a managed solution that includes the following components.
 
 | Name | Type | Use |
-|---|---|---|
+| --- | --- | --- |
 | Component Auto Mailer | Entity | Holds configuration data |
 | Record Guide | Web Resource | A guide for creating configuration records |
 | Solution Auto Mailer Admin | Security Role | Full rights on components |
 | Solution Auto Mailer User | Security Role | User-level rights at the component level |
 | Solution Component Auto Mailer V2 | Power Automate | Holds the complete logic |
 
-### Benefits from the tool
+This sample tool provides proactive alerts to developers and leads during the development stage. It also reduces the manual effort to fix layering problems in upstream environments. And, not least, it helps avoid extra delays because of support requests to resolve layering problems.
 
-- Provides proactive alerts to developers and leads during the development stage
-- Saves manual efforts of fixing layering issues on upstream environments
-- Helps avoid additional delays because of support requests to resolve layering issues
+## Install the tool
 
-## Installation steps
-
-1. Download the package from [ALM](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ALM/).
+1. Download the package from the ALM folder in the [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Customer%20Service/ALM/) repo.
 1. Open the target environment, go to **Settings**, and then select **Solutions**.
 1. Select **Import**, select the zip file, and then import the solution.
 
 Learn more in [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions).
 
-## Configuration steps
+## Configure the tool
 
 1. For each solution that you want to monitor, add a new *component auto mailer* record.
 1. Fill in the fields based on the following table.
@@ -62,9 +58,9 @@ Learn more in [Import solutions](/power-apps/maker/data-platform/import-update-e
 
 ## The report
 
-The recipients receive an email that shows a list of component types that have been added incorrectly to the environment. The email contains the solution ID and the types and IDs of the relevant objects.
+The recipients receive an email that shows a list of component types that are added incorrectly to the environment. The email contains the solution ID and the types and IDs of the relevant objects.
 
-## Related content
+## Related information
 
 - [Solution layers with Microsoft Power Platform](/power-platform/alm/solution-layers-alm)
 - [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm/)
