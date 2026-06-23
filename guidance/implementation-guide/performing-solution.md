@@ -12,6 +12,8 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:08/25/2023
   - bap-template
+content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Explore how Dynamics 365 products and tools can improve performance
