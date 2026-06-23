@@ -12,6 +12,8 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - bap-template
+content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Prioritize performance in your Dynamics 365 implementations

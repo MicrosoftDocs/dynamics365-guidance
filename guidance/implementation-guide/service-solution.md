@@ -11,6 +11,8 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:12/11/2023
+content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Monitor and service the health of your Dynamics 365 solution implementation
