@@ -4,7 +4,7 @@ description: Learn how to navigate the business process catalog in Mavim to enha
 author: vibhutinair23
 ms.author: vibhutinair
 ms.topic: how-to
-ms.date: 02/03/2026
+ms.date: 05/27/2026
 ---
 
 # Navigate the business process catalog in Mavim
@@ -41,8 +41,9 @@ Before you begin, you must have the following prerequisites:
 
 - You must have access to the Mavim BPM tool.
 - Import the business process catalog for Dynamics 365 into your Mavim environment.
+
   - To gain access to the free-trial environment already built, go to [Free Trial of the business process catalog in Mavim](https://marketplace.microsoft.com/en-us/product/mavimbv1671629332610.mavim_bpc_freetrial?tab=Overview).
-  - To learn how to connect the two, learn more at [Import the Catalog in Mavim using a Power Automate Flow](/dynamics365/guidance/business-processes/about-import-catalog-mavim).
+  - Learn how to connect the two at [Import the business process catalog in Mavim using the Mavim database file](about-import-catalog-mavim-database.md).
 
 :::image type="content" source="media/about-catalog-mavim-business-process-catalog.svg" alt-text="Diagram of the business process catalog in Mavim with the end-to-end scenarios on the left side and Source-to-pay on the right side." lightbox="media/about-catalog-mavim-business-process-catalog.svg":::
 
@@ -141,6 +142,7 @@ The catalog in Mavim can integrate with various Microsoft tools and services, su
 ## Related content
 
 - [An introduction to the Success by Design framework](/dynamics365/guidance/implementation-guide/success-by-design)
+- [Import the business process catalog in Mavim using the Mavim database file](about-import-catalog-mavim-database.md)  
 - [Import the Catalog in Mavim using a Power Automate Flow](/dynamics365/guidance/business-processes/about-import-catalog-mavim)
 - [An Introduction to the Success by Design Framework](/dynamics365/guidance/business-processes/about-catalog-mavim-success-design-d365)
 - [On Demand Webinar: Strategize Phase of Success by Design Business Talk with Mavim](https://www.mavim.com/webinar-strategize-phase-bpc)
