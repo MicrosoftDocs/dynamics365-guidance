@@ -4,7 +4,7 @@ description: Business process catalog integration in Mavim empowers you to strea
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 03/27/2026
+ms.date: 05/27/2026
 ms.topic: concept-article
 ms.service: dynamics-365
 ms.subservice: guidance
@@ -125,9 +125,9 @@ AI readiness ensures organizations can effectively leverage AI‑driven insights
 
 Mavim and Azure DevOps work together during a Dynamics 365 implementation, but they solve different problems and serve different audiences.
 
-### Mavim — The business process and transformation layer
+### Mavim as the business process and transformation layer
 
-Mavim is where the business definition of the transformation lives. It manages:
+Mavim is where the business definition of the transformation lives. Here, you can manage things like the following list:
 
 - Process modeling and visualization
 - Best-practice adoption using the Business Process Catalog
@@ -140,9 +140,9 @@ Mavim is where the business definition of the transformation lives. It manages:
 
 Mavim answers: "How should the business operate, and how does Dynamics support that?"
 
-### Azure DevOps — The delivery execution and engineering layer
+### Azure DevOps Services as the delivery and engineering layer
 
-Azure DevOps is where you execute and track technical implementation work. It manages:
+Azure DevOps Services is where you run and track technical implementation work. Here, you can manage things like the following list:
 
 - Product backlogs
 - User stories, tasks, and acceptance criteria
@@ -155,14 +155,11 @@ Azure DevOps answers: "What needs to be built, tested, and delivered to make the
 
 ### How the two work together
 
-- Mavim provides the business process context and maps it to Dynamics capabilities.
-- DevOps provides the execution engine that turns those mapped processes into working solution components.
-- Mavim synchronizes process IDs and requirements into DevOps, ensuring end-to-end traceability from process → requirement → configuration → test → deployment.
+Mavim provides the business process context and maps it to capabilities in Dynamics 365. Azure DevOps then turns those mapped processes into working solution components. 
 
-In essence:
+Next, Mavim synchronizes process IDs and requirements into Azure DevOps, ensuring end-to-end traceability from process > requirement > configuration > test > deployment.
 
-- Mavim defines and optimizes the business blueprint.
-- DevOps executes and delivers it.
+Essentially, Mavim defines and optimizes the business blueprint, and Azure DevOps supports you in implementing and delivering that blueprint.
 
 <!-- Learn more about how Mavim and Azure DevOps work together to ensure a successful Dynamics 365 implementation at [Mavim and Azure DevOps integration](about-azure-devops-mavim-integration.md). -->
 
@@ -208,47 +205,49 @@ To align with Success by Design and FastTrack recommended practices, choose the 
 
 ### Start from the business process catalog inside Mavim
 
-- Download the Microsoft Business Process Catalog Mavim database from [https://aka.ms/businessprocesscatalog](https://aka.ms/businessprocesscatalog) and import it into your Mavim environment. 
-- Import the catalog into your Mavim environment. Learn more at [Import the Microsoft business process catalog into Mavim](about-import-catalog-mavim-database.md).
+If the implementation project is about starting a new ERP or CRM journey, follow these high-level steps:
+
+- Download the Microsoft Business Process Catalog Mavim database from [https://aka.ms/businessprocesscatalog](https://aka.ms/businessprocesscatalog). 
+- Import the catalog into your Mavim environment. Learn more at [Import the business process catalog in Mavim using the Mavim database file](about-import-catalog-mavim-database.md).
 - Review end-to-end processes.
 - Assign process owners.
 - Synchronize your Mavim environment to your Azure DevOps environment.
-Best for organizations starting a new ERP or CRM journey.
+
 
 ### Map and benchmark your own processes
+
+If the implementation project is about modernizing an existing Dynamics 365 implementation, follow these high-level steps:
 
 - Import existing process documentation to Mavim.
 - Map your custom processes to the standard processes in the catalog and benchmark against BPC best practices.
 - Identify gaps and improvement opportunities.
-Best for organizations modernizing existing Dynamics implementations.
 
 ### Start with process mining
+
+If the implementation project is about operational inefficiencies that are already live on Dynamics 365, follow these high-level steps:
 
 - Connect Mavim process mining to Dynamics 365.
 - Discover real process flows.
 - Use AI-detected patterns to prioritize improvements.
-Best for organizations with operational inefficiencies that are already live on Dynamics 365.
 
 ## Conclusion
 
 The Microsoft business process catalog integrated into Mavim provides a strong foundation for building strategy, designing your solution, and maintaining continuous improvement throughout your Dynamics 365 lifecycle.
 
-By combining:
-
-- Microsoft best-practice processes
-- Mavim's BPM, mining, AI, and blueprinting capabilities
-- Success by Design framework
-
-Organizations can reduce ambiguity, accelerate delivery, and ensure measurable value in every phase of transformation. 
+By combining Microsoft best-practice processes, Mavim's BPM, mining, AI, and blueprinting capabilities, and the Success by Design framework, organizations can reduce ambiguity, accelerate delivery, and ensure measurable value in every phase of transformation. 
 
 [Sign up for the Business Process Tech Talk Series](https://community.dynamics.com/blogs/post/?postid=892a9292-fc22-f111-8341-6045bda9c5d6)
 
-## Recommended resources
+## Related content
 
+- [Import the business process catalog in Mavim using the Mavim database file](about-import-catalog-mavim-database.md)  
+- [Navigate the business process catalog in Mavim](about-catalog-mavim-navigate-business-process-catalog.md)  
+- [Sync Dynamics 365 processes from Mavim to Azure DevOps](about-catalog-mavim-azure-devops-sync.md)  
 - [Business Process Catalog in Mavim - Free trial](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_bpc_freetrial?tab=overview)
-- [The Microsoft Business Process Catalog Integrated in Mavim](https://www.mavim.com/business-process-catalog-in-mavim)
-- [Microsoft Business Process Catalog in Mavim Business Talks Series](https://www.mavim.com/dynamics-business-talks-microsoft)
-- [Mavim for Finance and Operations](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_fo?tab=overview)
+
+  - [The Microsoft Business Process Catalog Integrated in Mavim](https://www.mavim.com/business-process-catalog-in-mavim)
+  - [Microsoft Business Process Catalog in Mavim Business Talks Series](https://www.mavim.com/dynamics-business-talks-microsoft)
+  - [Mavim for Finance and Operations](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_fo?tab=overview)
 - [Business Process Tech Talks](https://community.dynamics.com/blogs/post/?postid=892a9292-fc22-f111-8341-6045bda9c5d6)
 
 ## Contributors

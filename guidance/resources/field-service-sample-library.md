@@ -1,7 +1,7 @@
 ---
 title: Library of tools and guidance for Field Service
 description: Read about the collection of tips, tricks, answers to popular questions, and other guidance that can help our customers and partners create and deploy solutions with Field Service quickly and easily.
-ms.date: 06/11/2026
+ms.date: 06/17/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: erdipple
@@ -102,9 +102,9 @@ The following sections outline the content of the collection. Each section inclu
 
   You can add a control to the Field Service mobile app that allows technicians to take notes and upload images and videos. Learn more at [Add a control for taking notes (preview)](field-service-mobile-take-notes.md).
 
-- Add a mobile lookup control
+- Add a mobile lookup control (preview)
 
-  You can add a mobile lookup control to the Field Service mobile app to enable users to search and select records from other tables. Learn more at [Add a mobile lookup control](field-service-mobile-add-lookup.md).
+  You can add a mobile lookup control to the Field Service mobile app to enable users to search and select records from other tables. Learn more at [Add a mobile lookup control (preview)](field-service-mobile-add-lookup.md).
 
 - Disable clickthrough on lookup values in forms
 

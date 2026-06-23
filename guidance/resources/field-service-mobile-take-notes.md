@@ -1,8 +1,8 @@
 ---
-title: Add a Control for Note-Taking to the Field Service Mobile App (preview)
+title: Add a control for note-taking to the Field Service mobile app (preview)
 description: Learn how to add a note-taking control for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 06/08/2026
+ms.date: 06/17/2026
 author: heerpatelmsft
 ms.author: heerpatel
 ms.custom:
@@ -11,7 +11,14 @@ ms.custom:
 
 # Add a control for note-taking to the Field Service mobile app (preview)
 
+[This article is prerelease documentation and is subject to change.]
+
 You can optimize the Field Service mobile note-taking experience by configuring a control for taking notes. Enable quick and seamless note-taking supported through an overlay screen for text input and image and video upload, including the ability to create a note and **add multiple images and videos**, enhancing usability.
+
+> [!IMPORTANT]
+>
+> - This is a preview feature.
+> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 ## Configure note-taking
 
