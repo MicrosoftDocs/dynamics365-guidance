@@ -3,8 +3,8 @@ title: Success by Design with the Dynamics 365 business process catalog in Mavim
 description: Learn how to use Microsoft's business process catalog in Mavim for a successful Dynamics 365 implementation.
 author: vibhutinair23
 ms.author: vibhutinair
-ms.topic: how-to
-ms.date: 07/17/2025
+ms.topic: concept-article
+ms.date: 05/27/2026
 ---
 
 # Success by Design with the Dynamics 365 business process catalog in Mavim
@@ -66,6 +66,7 @@ The catalog in Mavim can integrate with various Microsoft tools and services, su
 ## Related content
 
 - [An introduction to the Success by Design framework](/dynamics365/guidance/implementation-guide/success-by-design)
+- [Import the business process catalog in Mavim using the Mavim database file](about-import-catalog-mavim-database.md)  
 - [Import the Catalog in Mavim using a Power Automate Flow](/dynamics365/guidance/business-processes/about-import-catalog-mavim)
 - [On Demand Webinar: Strategize Phase of Success by Design Business Talk with Mavim](https://www.mavim.com/webinar-strategize-phase-bpc)
 - [The Microsoft business process catalog integrated in Mavim](https://www.mavim.com/business-process-catalog-in-mavim)

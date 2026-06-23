@@ -333,10 +333,6 @@ items:
                     href: business-processes/service-to-cash-perform-service-work.md
                   - name: Finalize work orders
                     href: business-processes/service-to-cash-review-close-service-requests.md
-              # - name: Invoice customers
-              #   href: business-processes/order-to-cash-invoice-sales-orders-overview.md
-              # - name: Monitor customer credit and collections
-              #   href: business-processes/order-to-cash-monitor-customer-credit-collections-overview.md
           - name: Administer to operate
             items:
               - name: End-to-end scenario - administer to operate (ID 99)
@@ -395,14 +391,16 @@ items:
                 items:
                   - name: Introduction to the business process catalog in Mavim
                     href: business-processes/about-catalog-mavim.md
-                  - name: Import the catalog to Mavim
-                    href: business-processes/about-import-catalog-mavim.md
                   - name: Import the catalog using the Mavim database file
                     href: business-processes/about-import-catalog-mavim-database.md
+                  - name: Import the catalog to Mavim using a Power Automate flow
+                    href: business-processes/about-import-catalog-mavim.md
                   - name: Success by Design with the Dynamics 365 business process catalog in Mavim
                     href: business-processes/about-catalog-mavim-success-design-d365.md
                   - name: Navigate the business process catalog in Mavim
                     href: business-processes/about-catalog-mavim-navigate-business-process-catalog.md
+                  - name: Sync processes from Mavim to Azure DevOps
+                    href: business-processes/about-catalog-mavim-azure-devops-sync.md
               - name: Implement a process-focused solution
                 items:
                   - name: Implement based on business processes
@@ -1003,7 +1001,7 @@ items:
                         href: resources/field-service-mobile-booking-status.md
                       - name: Add a control for taking notes (preview)
                         href: resources/field-service-mobile-take-notes.md
-                      - name: Add a mobile lookup control
+                      - name: Add a mobile lookup control (preview)
                         href: resources/field-service-mobile-add-lookup.md
                       - name: Disable clickthrough on lookup values in forms
                         href: resources/field-service-mobile-disable-click.md
@@ -1104,7 +1102,7 @@ items:
                   - name: Event management
                     href: agent-templates/event-management-agent.md
                   - name: Event registration
-                    href: agent-templates/event-registration-agent.md        
+                    href: agent-templates/event-registration-agent.md
               - name: Customer Service
                 items:
                   - name: Service agent templates
