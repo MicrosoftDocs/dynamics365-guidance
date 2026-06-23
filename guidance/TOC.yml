@@ -1003,7 +1003,7 @@ items:
                         href: resources/field-service-mobile-booking-status.md
                       - name: Add a control for taking notes (preview)
                         href: resources/field-service-mobile-take-notes.md
-                      - name: Add a mobile lookup control
+                      - name: Add a mobile lookup control (preview)
                         href: resources/field-service-mobile-add-lookup.md
                       - name: Disable clickthrough on lookup values in forms
                         href: resources/field-service-mobile-disable-click.md
