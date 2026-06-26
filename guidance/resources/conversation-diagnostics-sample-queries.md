@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 05/05/2026
+ms.date: 06/25/2026
 ms.custom:
   - bap-template
   - O25-Service
@@ -65,6 +65,32 @@ traces
 
 //You can add filters on the basis of Scenario, Event, Action, Conversation to name a few
 //Add => | where <`column_name`> == "<`value`>" for filter additions
+```
+
+**Scenario**: Assign to a previous or preferred expert by using conversation orchestration  
+**Purpose**: To view logs for conversation assignment to a previous or preferred expert done by using conversation orchestration  
+**Query**
+
+```kusto
+traces 
+| extend cd = parse_json(customDimensions) 
+| extend 
+      Rule            = tostring(parse_json(tostring(cd["omnichannel.additional_info"])).Rule), 
+      Scenario        = tostring(parse_json(tostring(cd["omnichannel.additional_info"])).Scenario), 
+      Prompt          = tostring(parse_json(tostring(cd["omnichannel.additional_info"])).Prompt), 
+      Type            = tostring(cd["type"]), 
+      SubScenario     = tostring(cd["powerplatform.analytics.subscenario"]), 
+      AnalyticsScenario = tostring(cd["powerplatform.analytics.scenario"]), 
+      Description     = tostring(cd["omnichannel.description"]), 
+      Action          = tostring(cd["omnichannel.action"]), 
+      Event           = tostring(cd["omnichannel.event"]), 
+      OrgId           = tostring(cd["powerplatform.analytics.resource.organization.id"]), 
+      ConversationId  = tostring(cd["powerplatform.analytics.resource.id"]), 
+      Timestamp       = todatetime(cd["omnichannel.timestamp"]) 
+| where Type == "AgCDDiagnosticsEvent" 
+| where Event == "AssignToPreviousOrPreferredExpert" 
+| project Timestamp, Type, AnalyticsScenario, SubScenario, Event, Action, Rule, Scenario, Prompt, Description, 
+  OrgId, ConversationId
 ```
 
 ## Overflow handling
