@@ -1300,6 +1300,12 @@ items:
             href: reference-architectures/custom-copilot-agent-dynamics-365-power-apps.md
           - name: Dataverse as master data system
             href: reference-architectures/dataverse-master-data-system.md
+      - name: Real-world case studies
+        items:
+          - name: Case studies overview
+            href: case-studies/overview.md
+          - name: Kiwa modernizes global service operations
+            href: case-studies/modernize-global-service-operations.md
       - name: Security and compliance
         items:
           - name: Security strategy
