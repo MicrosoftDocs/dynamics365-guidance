@@ -11,7 +11,7 @@ metadata:
   author: edupont04
   ms.author: edupont
   ms.subservice: guidance
-  ms.date: 01/21/2025
+  ms.date: 06/29/2026
   hide_bc: true
 
 # highlightedContent section (optional)
@@ -117,6 +117,8 @@ productDirectory:
           url: migrate/opol-crm-migration-high-level-overview.md
         - text: AIM migration program
           url: migrate/aim-migration-overview.md
+        - text: Real-world case studies
+          url: case-studies/overview.md
 
 # Card
     - title: Reference architectures
