@@ -1,5 +1,5 @@
 ---
-title: Kiwa modernizes global service operations with Dynamics 365 and the Business Process Catalog in Mavim
+title: Kiwa transforms global service operations with Dynamics 365 and the Business Process Catalog in Mavim
 description: Learn how Kiwa uses Dynamics 365, the Business Process Catalog, and Mavim to harmonize global service operations and prepare for AI.
 #customer intent: As a business leader, I want to learn how Kiwa modernized global service operations so that I can apply similar ideas in my organization.
 author: manditoves
@@ -8,7 +8,7 @@ ms.topic: concept-article
 ms.date: 07/06/2026
 ---
 
-# Kiwa modernizes global service operations with Dynamics 365 and the Business Process Catalog in Mavim
+# Kiwa transforms global service operations with Dynamics 365 and the Business Process Catalog in Mavim
 
 **Founded:** 1948  
 **Industry:** Testing, inspection, and certification  
