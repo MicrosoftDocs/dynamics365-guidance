@@ -274,6 +274,11 @@
       "source_path": "guidance/resources/cs-omnichannel-custom-record-identification-rule.md",
       "redirect_url": "/dynamics365/contact-center/extend/enable-fields-identify-customers",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "guidance/case-studies/modernize-global-service-operations.md",
+      "redirect_url": "/dynamics365/guidance/case-studies/transforms-global-service-operations",
+      "redirect_document_id": false
     }
 
 

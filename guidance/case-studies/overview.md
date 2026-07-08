@@ -28,7 +28,7 @@ Each case study provides an in-depth look at how organizations build application
 
 | Case study | Description |
 | --- | --- |
-| [Kiwa modernizes global service operations](modernize-global-service-operations.md) | Learn how Kiwa uses Dynamics 365, the Business Process Catalog, and Mavim to harmonize global service operations and prepare for AI. |
+| [Kiwa transforms global service operations](transforms-global-service-operations.md) | Learn how Kiwa uses Dynamics 365, the Business Process Catalog, and Mavim to harmonize global service operations and prepare for AI. |
 
 ## Related information
 
