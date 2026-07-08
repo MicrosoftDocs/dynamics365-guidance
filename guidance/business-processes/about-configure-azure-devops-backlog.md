@@ -4,11 +4,14 @@ description: "Azure DevOps backlog setup for the Business Process Catalog: strea
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 03/27/2026
+ms.date: 07/07/2026
 ms.topic: concept-article
 ---
 
-# Azure DevOps backlog configuration for the Microsoft Business Process Catalog
+# Azure DevOps backlog configuration for the business process catalog from Microsoft
+
+> [!NOTE]
+> A newer July setup package is available. The July package adds a guided six-phase setup wizard that can configure backlogs from the workbook, import the catalog, support resumable reruns, and generate an HTML summary report. For more information, see [Set up Azure DevOps with the Business Process Catalog July](about-configure-azure-devops-july.md).
 
 The backlog configuration for the Microsoft Business Process Catalog Azure DevOps template works with the predefined team structure and functional areas. The recommended team structure works for large organizations and is based on feedback from many partners and customers. However, each organization is unique. Review the team structure and area path mapping with each customer before configuring your teams and uploading them into Azure DevOps. For optimal configuration and adoption of your Azure DevOps project, align the teams to the way your organization and project team are organized. You can optionally rename, merge, or split teams according to the way you're organized. Use the following tips to help you update the teams.
 

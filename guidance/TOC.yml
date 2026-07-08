@@ -359,8 +359,12 @@ items:
                 href: business-processes/administer-to-operate-support-systems-overview.md
           - name: Use the catalog
             items:
-              - name: Configure Azure DevOps (Preview)
+              - name: Configure Azure DevOps
                 items:
+                  - name: Set up Azure DevOps with the July
+                    href: business-processes/about-configure-azure-devops-july.md
+                  - name: FAQ for the July
+                    href: business-processes/about-configure-azure-devops-july-faq.md
                   - name: Automate Azure DevOps project and processes
                     href: business-processes/about-configure-azure-devops-project-processes.md
                   - name: Configure Azure DevOps page layout
@@ -431,6 +435,10 @@ items:
             items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
+              - name: What's new in the July
+                href: business-processes/about-configure-azure-devops-july-whats-new.md
+              - name: What's new or changed in the July 2026 version
+                href: business-processes/about-whats-new-2026-july.md
               - name: What's new or changed in the March 2026 version
                 href: business-processes/about-whats-new-2026-march.md
               - name: What's new or changed in the December 2025 version
