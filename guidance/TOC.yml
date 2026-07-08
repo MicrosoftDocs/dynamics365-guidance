@@ -1304,8 +1304,8 @@ items:
         items:
           - name: Case studies overview
             href: case-studies/overview.md
-          - name: Kiwa modernizes global service operations
-            href: case-studies/modernize-global-service-operations.md
+          - name: Kiwa transforms global service operations
+            href: case-studies/transforms-global-service-operations.md
       - name: Security and compliance
         items:
           - name: Security strategy
