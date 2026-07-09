@@ -4,11 +4,14 @@ description: Automate Azure DevOps project setup with Python and Excel. Streamli
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 05/19/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 ---
 
 # Automate Azure DevOps project, process, work item types, fields, and picklists from Excel with Python
+
+> [!NOTE]
+> A newer July setup package is available. The July adds a guided six-phase setup wizard, catalog import, resumable reruns, and an HTML summary report. Learn more in [Set up Azure DevOps with the Business Process Catalog July](about-configure-azure-devops-july.md).
 
 This article shows how to automate the creation of Azure DevOps projects, processes, work item types, fields, and picklists by using a Python script and an Excel template. The template follows the Success by Design framework and recommended practices from the business process catalog. The script uses the Azure DevOps REST API and reads configuration data from an Excel file, so you can easily provision environments at scale.
 

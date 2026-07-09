@@ -1,17 +1,20 @@
 ---
-title: Troubleshooting the Azure DevOps Python Scripts (Preview)
-description: Azure DevOps Python script errors? Learn how to fix missing modules, resolve file issues, and complete manual setup for a successful preview. Get solutions here.
+title: Troubleshooting the Azure DevOps Python Scripts
+description: Azure DevOps Python script errors? Learn how to fix missing modules, resolve file issues, and complete manual setup for a successful release. Get solutions here.
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 03/27/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 
 ---
 
-# Troubleshooting the Azure DevOps Python Scripts (Preview)
+# Troubleshooting the Azure DevOps Python Scripts
 
-This section lists the most common issues encountered during the private preview and how to resolve them. If you encounter an error not listed here, capture the full error message and share it through the preview feedback form.
+> [!NOTE]
+> A newer July setup package is available. The July release includes an updated FAQ for setup, permissions, DevLabs multivalue controls, catalog import, reruns, throttling, and report reconciliation. Learn more in [Business Process Catalog Azure DevOps setup FAQ - July](about-configure-azure-devops-july-faq.md).
+
+This section lists the most common issues encountered during setup and how to resolve them. If you encounter an error that's not listed here, capture the full error message and share it through the feedback form.
 
 ## Issue: ModuleNotFoundError: No module named 'openpyxl' or ImportError: Missing optional dependency 'openpyxl'
 
@@ -80,7 +83,7 @@ Extra characters (such as backticks ` or smart quotes) were accidentally pasted 
 
 **What this means**
 
-This is **expected behavior** for the current preview.
+This behavior is **expected**.
 
 The scripts:
 
@@ -115,7 +118,7 @@ Due to current Azure DevOps API limitations, organizational processes cannot pro
 
 Because of this limitation, the script may report that it cannot find the Test Case work item type, even though Test Cases exist in Azure DevOps.
 
-This error is expected during the preview and does not indicate that the script failed.
+This error is expected and doesn't indicate that the script failed.
 
 **What to do**
 
@@ -146,7 +149,7 @@ SKIPPED: HTML field 'Description' can't be added to the form layout via API.
 
 This message appears when the script tries to place certain **form controls** (especially **HTML fields** and a few other custom control types) onto an Azure DevOps work item **layout**. Now, the Azure DevOps **layout API** doesn't support adding some control types programmatically. Because of this limitation, the script skips those items instead of failing.
 
-**This is expected behavior in the preview** and does **not** indicate that your environment or data is broken.
+**This is expected behavior** and doesn't indicate that your environment or data is broken.
 
 **What to do**
 

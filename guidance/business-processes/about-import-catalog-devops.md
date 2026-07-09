@@ -5,11 +5,14 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: how-to
 ms.collection: #Required; Leave the value blank.
-ms.date: 12/17/2025
+ms.date: 06/26/2026
 ms.custom: bap-template
 ---
 
 # Use the business process catalog as a template in Azure DevOps Services
+
+> [!NOTE]
+> A newer July setup package is available. The July includes a resumable catalog importer that creates parent work items before child work items, records imported IDs, supports reruns, and generates an HTML summary report. Learn more in [Set up Azure DevOps with the Business Process Catalog July](about-configure-azure-devops-july.md).
 
 This article describes how you can use Microsoft's business process catalog as a template that you import into a project in Azure DevOps Services to manage your Dynamics 365 implementation project.
 
@@ -64,10 +67,6 @@ In the following sections, we refer to rows in a workbook because we assume that
 
 ## Prepare the import
 
-> [!TIP]
-> Optionally, sign up to be part of the private preview for Python scripts to automate the setup of Azure DevOps.
->
-> [Fill in the form to sign up](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=8f36d9c5be0c457192eff25992e4fb8b&id=v4j5cvGGr0GRqy180BHbR1tm1Gf0PYtJtd9Z3pdu6vVUNUxRREdHSEszWDJZWU9TT01MOVBZQ0hEQSQlQCN0PWcu)
 
 Before you can import the project into Azure Boards, there are a few things that you must do and consider. Use the following list as a guide and checklist to ensure that you're ready to import the catalog.
 
