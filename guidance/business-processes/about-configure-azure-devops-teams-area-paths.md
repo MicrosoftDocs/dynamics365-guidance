@@ -4,11 +4,14 @@ description: Automate Azure DevOps Teams and Area Paths setup with Python script
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 03/24/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 ---
 
 # Automate the creation of Azure DevOps teams and area paths with Python scripts
+
+> [!NOTE]
+> A newer July setup package is available. The July package adds a guided six-phase setup wizard, catalog import, resumable reruns, and an HTML summary report. Learn more in [Set up Azure DevOps with the Business Process Catalog July](about-configure-azure-devops-july.md).
 
 This article describes how to automate the creation of Azure DevOps teams and area paths, and assign teams to areas, using a Python script and an Excel template. The template is designed to follow the Success by Design framework and recommended practices with the Microsoft Business Process Catalog. The script leverages the Azure DevOps REST API and reads configuration data from the Excel file, enabling scalable setup of team structures and area hierarchies for your projects.
 
