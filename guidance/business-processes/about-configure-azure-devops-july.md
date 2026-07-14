@@ -4,7 +4,7 @@ description: Learn how to use the July setup package to create an Azure DevOps p
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 06/26/2026
+ms.date: 07/14/2026
 ms.topic: how-to
 ---
 
@@ -164,7 +164,7 @@ The importer also writes:
 
 Phase 5 is resumable. When you rerun, the importer skips keys already in `ado-id-map.csv` and continues from remaining work items.
 
-## Related articles
+## Related information
 
 - [What's new in the Business Process Catalog Azure DevOps setup July](about-configure-azure-devops-july-whats-new.md)
 - [Business Process Catalog Azure DevOps setup FAQ - July](about-configure-azure-devops-july-faq.md)
