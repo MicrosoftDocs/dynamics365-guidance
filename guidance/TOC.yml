@@ -391,6 +391,8 @@ items:
                     href: business-processes/about-import-catalog-devops-updates.md
                   - name: Reference for fields on work items
                     href: business-processes/about-devops-work-items-deliverables-fields.md
+                  - name: New setup package in July 2026
+                    href: business-processes/about-configure-azure-devops-july-whats-new.md
               - name: Import the catalog to Mavim
                 items:
                   - name: Introduction to the business process catalog in Mavim
@@ -435,8 +437,6 @@ items:
             items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
-              - name: What's new in the July
-                href: business-processes/about-configure-azure-devops-july-whats-new.md
               - name: What's new or changed in the July 2026 version
                 href: business-processes/about-whats-new-2026-july.md
               - name: What's new or changed in the March 2026 version
