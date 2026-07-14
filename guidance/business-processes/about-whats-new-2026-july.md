@@ -7,9 +7,9 @@ ms.reviewer: edupont
 ms.service: dynamics-365
 ms.subservice: guidance
 ms.topic: concept-article
-ms.date: 07/06/2026
+ms.date: 07/14/2026
 ---
-# What's new in the Business Process Catalog in July 2026
+# What's new in the business process catalog in July 2026
 
 The business process catalog is a standard list of business processes across Dynamics 365 apps and services. Microsoft uses it to organize and prioritize work on the business process documentation.
 
@@ -18,23 +18,23 @@ You can access the catalog in two formats:
 - As an Excel-based Azure DevOps template that you can import into your implementation backlog.
 - As a database package that you can import directly into Mavim.
 
-The July 2026 release expands the Business Process Catalog to **6,834 rows**, up from **5,874 rows** in March 2026. This release adds **960 rows**, updates **2,569 rows**, and moves **25 previously deprecated rows** into the second deprecation phase, which means they're scheduled for deletion in the next release. No rows are deleted in this release. The largest changes are a significant expansion of *Order to cash* system process and test case coverage, and new Finance localization and reference-data processes across *Record to report*, *Administer to operate*, and *Source to pay*. This release also refreshes the Azure DevOps template. Special thanks to the team at **Globalix 365** for contributing more than 400 new rows of standard out-of-the-box localizations and their Marketplace solution to the catalog in this release.
+The July 2026 release expands the business process catalog to 6,834 rows, up from 5,874 rows in March 2026. This release adds 960 rows, updates 2,569 rows, and moves 25 previously deprecated rows into the second deprecation phase, which means they're scheduled for deletion in the next release. No rows are deleted in this release. The largest changes are a significant expansion of *Order to cash* system process and test case coverage, and new Finance localization and reference-data processes across *Record to report*, *Administer to operate*, and *Source to pay*. This release also refreshes the Azure DevOps template. Special thanks to the team at Globalix 365 for contributing more than 400 new rows of standard out-of-the-box localizations and their Marketplace solution to the catalog in this release.
 
 The catalog file also gains a new **Business process flow author** column, which records the author of a business process flow (for example, *Microsoft*) in its own column, separate from the existing **Business process flow status** column.
 
-The Deliverables file receives metadata updates to **1,527 rows**, led by article-status refreshes. The Delivery Plan and Objectives files are unchanged.
+The **Deliverables** file receives metadata updates to 1,527 rows, led by article-status refreshes. The **Delivery Plan** and **Objectives** files are unchanged.
 
-Download the latest version of the catalog from https://aka.ms/businessprocesscatalog.
+Download the latest version of the catalog from [https://aka.ms/businessprocesscatalog](https://aka.ms/businessprocesscatalog).
 
 ## At a glance
 
-| Change type                 | Rows            |
-| --------------------------- | --------------- |
-| New                         | 960             |
-| Updated                     | 2,569           |
-| Unchanged                   | 3,280           |
-| Deprecated                  | 25              |
-| Removed                     | 0               |
+| Change type | Rows |
+| -- | -- |
+| New | 960 |
+| Updated | 2,569 |
+| Unchanged | 3,280 |
+| Deprecated | 25 |
+| Removed | 0 |
 | **Total (July 2026)** | **6,834** |
 
 Most of the growth is at the lower levels of the hierarchy, where the catalog adds executable detail:
@@ -52,22 +52,23 @@ Most of the growth is at the lower levels of the hierarchy, where the catalog ad
 
 New content is concentrated in four end-to-end processes.
 
-| End-to-end process    | New rows | Highlights                                                                                                                                              |
-| --------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Order to cash         | 600      | 283 new system processes and 316 new test cases that deepen sales-order and receivables coverage.                                                       |
-| Record to report      | 249      | New Finance localization (LATAM taxes and fiscal information), fiscal document policies, and Invoicing 365 Software Development Company Solution added. |
-| Administer to operate | 66       | New address and location reference-data processes and reporting service references.                                                                     |
-| Source to pay         | 37       | New vendor classification and vendor set processes.                                                                                                     |
-| Inventory to deliver  | 5        | Two new system processes with supporting test cases.                                                                                                    |
-| Prospect to quote     | 3        | One new system process with test cases.                                                                                                                 |
+| End-to-end process | New rows | Highlights |
+| -- | -- | -- |
+| Order to cash | 600 | 283 new system processes and 316 new test cases that deepen sales-order and receivables coverage. |
+| Record to report | 249 | New Finance localization (LATAM taxes and fiscal information), fiscal document policies, and Invoicing 365 Software Development Company Solution added. |
+| Administer to operate | 66 | New address and location reference-data processes and reporting service references. |
+| Source to pay | 37 | New vendor classification and vendor set processes. |
+| Inventory to deliver | 5 | Two new system processes with supporting test cases. |
+| Prospect to quote | 3 | One new system process with test cases. |
 
 ### Order to cash
 
-*Order to cash* receives the largest expansion this release, with **600 new rows** — **283 system processes** and **316 test cases** — that add step-level, testable detail beneath existing scenarios. A new scenario, *Manage customer sets in Dynamics 365 Finance* (`65.05.030.300`), is also introduced. In addition, **390 existing *Order to cash* rows** are updated with refreshed metadata.
+*Order to cash* receives the largest expansion this release, with 600 new rows - 283 system processes and 316 test cases - that add step-level, testable detail beneath existing scenarios. A new scenario, *Manage customer sets in Dynamics 365 Finance* (`65.05.030.300`), is also introduced. 390 existing *Order to cash* rows are updated with refreshed metadata.
+
 
 ### Record to report
 
-*Record to report* adds **249 new rows**, including a new Level 3 process, *Define fiscal document policies* (`90.10.300.000`). The new content centers on Finance localization and reference data, for example:
+*Record to report* adds 249 new rows, including a new Level 3 process, *Define fiscal document policies* (`90.10.300.000`). The new content centers on Finance localization and reference data, for example:
 
 - LATAM posting, dimension allocation, and bank parameters.
 - LATAM withholding taxes, tax groups, and withholding base calculation.
@@ -76,15 +77,16 @@ New content is concentrated in four end-to-end processes.
 
 ### Administer to operate
 
-*Administer to operate* adds **66 new rows**, including a new Level 3 process, *Define address and location policies* (`99.20.300.000`). The new processes cover core geographic reference data — *Manage country/regions*, *Manage states*, *Manage counties*, *Manage cities*, and *Manage districts* in Dynamics 365 Finance — along with management of SQL Server Reporting Services (SSRS) report and service references.
+*Administer to operate* adds 66 new rows, including a new Level 3 process, *Define address and location policies* (`99.20.300.000`). The new processes cover core geographic reference data - *Manage country/regions*, *Manage states*, *Manage counties*, *Manage cities*, and *Manage districts* in Dynamics 365 Finance - along with management of SQL Server Reporting Services (SSRS) report and service references.
 
 ### Source to pay
 
-*Source to pay* adds **37 new rows**, including a new Level 3 process, *Define vendor classifications* (`75.10.050.000`), and the *Manage vendor sets in Dynamics 365 Finance* scenario (`75.10.050.100`). *Source to pay* also has the largest volume of updated content this release, with **1,409 rows** refreshed - most of which is a cleanup that removed the *Scope* field from the work item types that shouldn't include it.
+*Source to pay* adds 37 new rows, including a new Level 3 process, *Define vendor classifications* (`75.10.050.000`), and the *Manage vendor sets in Dynamics 365 Finance* scenario (`75.10.050.100`). *Source to pay* also has the largest volume of updated content this release, with 1,409 rows refreshed - most of which were part of a cleanup that removed the *Scope* field from the work item types that shouldn't include it.
+
 
 ## Updated content
 
-**2,569 rows** are updated between March and July 2026. Updates are dominated by metadata alignment and field-scope cleanup rather than structural change. The most frequently updated fields are:
+2,569 rows are updated between March and July 2026. Updates are dominated by metadata alignment and field-scope cleanup rather than structural change. The most frequently updated fields are:
 
 | Field                        | Rows updated |
 | ---------------------------- | ------------ |
@@ -105,7 +107,7 @@ Updates by level: Test case (1,006), Process (674), System process (421), Scenar
 
 ## Deprecated rows
 
-The July 2026 catalog includes **25 rows** that were deprecated in a previous release and are now in their second deprecation phase, which means they're deleted in the next release. Deprecated rows are no longer active, but they remain visible in the catalog for two releases so that you have time to react before the content is removed. When a deprecated row is available in a new location, the **Alternate Process Sequence ID** column identifies the replacement row.
+The July 2026 catalog includes 25 rows that were deprecated in a previous release and are now in their second deprecation phase, which means they're deleted in the next release. Deprecated rows are no longer active, but they remain visible in the catalog for two releases so that you have time to react before the content is removed. When a deprecated row is available in a new location, the **Alternate Process Sequence ID** column identifies the replacement row.
 
 Most of the deprecations are in the *Source to pay* budget control setup block (`75.10.060.*`), which covers configuring budget control parameters, funds-available formulas, budget control rules and groups, thresholds and permissions, commitment accounting, and budget control activation, together with their test cases. Two more scenarios are deprecated:
 
@@ -116,7 +118,7 @@ Review these rows and update any dependent implementation content before the con
 
 ## Azure DevOps template updates
 
-The July 2026 release also refreshes the Azure DevOps (ADO) work-item template that partners and customers import to run Business Process Catalog projects in their own ADO organization. If you already imported the Preview template, review these changes before re-importing or updating your project.
+The July 2026 release also refreshes the Azure DevOps (ADO) work-item template that partners and customers import to run business process catalog projects in their own ADO organization. If you already imported the Preview template, review these changes before re-importing or updating your project.
 
 ### New field and picklist
 
@@ -146,11 +148,11 @@ This release also updates the Python automation scripts that accompany the Excel
 - Stronger validation and retry behavior, including transient-error retries and configurable parallel workers.
 - Project-scoped output folders and a deterministic HTML summary report with import counts, quick links, and failure reconciliation.
 
-For the full details, including the setup wizard phases, catalog importer behavior, personal access token (PAT) scope recommendations, and known limitations, see [What&#39;s new in Business Process Catalog Azure DevOps setup — July](https://github.com/microsoft/dynamics365patternspractices/blob/preview/june-bpc-ado-setup/templates/Azure-DevOps-templates/July/docs/whats-new-july.md).
+Learn more about the setup wizard phases, catalog importer behavior, personal access token (PAT) scope recommendations, and known limitations at [What's new in the July release for setting up Azure DevOps based on the business process catalog](about-configure-azure-devops-july-whats-new.md).
 
 ## Mavim-powered process visualization in the Dynamics 365 Implementation Portal
 
-The **Dynamics 365 Implementation Portal** now brings business process context directly into the project profiling experience through integration with **Mavim** and the business process catalog.
+The Dynamics 365 Implementation Portal now brings business process context directly into the project profiling experience through integration with Mavim and the business process catalog.
 
 As part of project profiling, solution architects can access visual business process flows directly from the business process profile control. Select a business process and use the information icon to open the corresponding process visualization, powered by Mavim, without leaving the portal.
 
@@ -178,8 +180,8 @@ This integration is an early step toward a more connected implementation experie
 
 By bringing governed process knowledge directly into project profiling, this release lays the foundation for richer implementation guidance and future agent-assisted implementation experiences built on a shared process model.
 
-## Related content
+## Related information
 
-- [Dynamics 365 guidance business process catalog](/dynamics365/guidance/business-processes/overview)
-- [Understand the business process catalog for Dynamics 365 apps](/dynamics365/guidance/business-processes/about)
-- [What's new in Business Process Catalog Azure DevOps setup — July](https://github.com/microsoft/dynamics365patternspractices/blob/preview/june-bpc-ado-setup/templates/Azure-DevOps-templates/July/docs/whats-new-july.md)
+- [Dynamics 365 guidance business process catalog](overview.md)
+- [Understand the business process catalog for Dynamics 365 apps](about.md)
+- [What's new in the July release for setting up Azure DevOps based on the business process catalog](about-configure-azure-devops-july-whats-new.md)  
