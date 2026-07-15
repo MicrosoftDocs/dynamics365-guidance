@@ -5,6 +5,9 @@ ms.topic: concept-article
 author: edupont04
 ms.author: raprofit
 ms.date: 10/10/2024
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 # CustomerIntent: As a partner, I want to learn if I should watch the recording.
 ---

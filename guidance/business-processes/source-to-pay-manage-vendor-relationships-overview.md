@@ -5,6 +5,9 @@ author: Pjagotra
 ms.author: raprofit
 ms.topic: concept-article
 ms.date: 05/20/2025
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 

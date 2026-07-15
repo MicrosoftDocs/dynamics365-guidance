@@ -12,7 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
   - ai-gen-desc
-content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Manage configuration and migration data for Dynamics 365 projects

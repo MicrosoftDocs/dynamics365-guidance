@@ -9,6 +9,7 @@ ms.date: 10/21/2025
 ms.topic: design-pattern
 ms.custom: 
   - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 # Pattern for analyzing actuals versus budget

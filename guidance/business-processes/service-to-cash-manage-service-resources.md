@@ -5,7 +5,7 @@ author: Dean-Hardy
 ms.author: DeanHardy
 ms.topic: concept-article
 ms.date: 05/12/2026
-ai.usage: ai-assisted
+ai-usage: ai-assisted
 ---
 
 # Overview of the Plan service work business process area within the Service to deliver end-to-end scenario

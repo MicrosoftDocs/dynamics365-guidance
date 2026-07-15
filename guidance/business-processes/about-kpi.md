@@ -10,6 +10,7 @@ ms.date: 05/14/2024
 ms.custom: 
   - bap-template #Required; don't change.
   - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ROBOTS: NOINDEX, NOFOLLOW
 #customer intent: As a <role>, I want <what> so that <why>.

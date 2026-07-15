@@ -5,6 +5,9 @@ author: dereklh77
 ms.author: goantu
 ms.topic: concept-article
 ms.date: 03/19/2024
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 

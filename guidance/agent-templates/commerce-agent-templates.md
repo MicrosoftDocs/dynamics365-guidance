@@ -2,7 +2,7 @@
 title: Commerce Agent Templates Overview
 description: Comprehensive guide to the prebuilt AI agent templates for Dynamics 365 Commerce.
 author: scott-tucker
-ms.author: scotttuc
+ms.author: edupont
 ms.date: 05/13/2026
 ms.topic: concept-article
 ---

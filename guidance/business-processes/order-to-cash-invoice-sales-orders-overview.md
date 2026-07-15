@@ -4,7 +4,7 @@ description: Learn how to use Dynamics 365 products to support your organization
 ms.date: 03/26/2026
 ms.topic: concept-article
 author: edupont04
-ms.author: npaldhikar
+ms.author: raprofit
 ms.custom: bap-template
 ---
 

@@ -5,8 +5,11 @@ ms.date: 10/08/2024
 ms.topic: concept-article
 author: edupont04
 ms.author: edupont
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
+  - sfi-image-nochange
 ai-usage: ai-assisted
-ms.custom: sfi-image-nochange
 ---
 
 # TechTalk: Invoice capture features and functionality

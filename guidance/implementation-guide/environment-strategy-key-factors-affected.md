@@ -12,7 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
   - ai-gen-desc
-content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # How an environment strategy affects key factors

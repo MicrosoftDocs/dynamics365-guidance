@@ -5,10 +5,11 @@ description: Discover the pattern for processing transaction adjustments. Use it
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 10/16/2025
+ms.date: 07/15/2026
 ms.topic: design-pattern
 ms.custom: 
   - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 # Pattern for adjust project transactions
