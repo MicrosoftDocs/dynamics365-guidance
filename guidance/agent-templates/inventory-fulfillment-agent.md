@@ -2,7 +2,7 @@
 title: Inventory Fulfillment Agent
 description: Learn about the template you can use to support frontline retail and service users with inventory information at the moment of customer interaction.
 author: scott-tucker
-ms.author: scotttuc
+ms.author: edupont
 ms.date: 05/13/2026
 ms.topic: concept-article
 ---

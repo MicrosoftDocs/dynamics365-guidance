@@ -13,7 +13,7 @@ ms.custom:
   - ai-gen-title
   - ai-gen-desc
   - bap-template
-content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Case study in go-live readiness

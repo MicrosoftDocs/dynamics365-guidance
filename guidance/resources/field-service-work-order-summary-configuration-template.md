@@ -13,7 +13,7 @@ ms.custom:
 
 Administrators who want to replace the default summary of work orders in Dynamics 365 Field Service and configure their own to meet their business needs must start from scratch to set up the configuration. This article provides an example of a base configuration for the [Work Order summary](/dynamics365/field-service/work-order-recap#summary-configuration-preview) that administrators can import and edit as needed.
 
-Find the source files in the GitHub repo at [https://aka.ms/wosummaryconfigurationtemplate](https://aka.ms/wosummaryconfigurationtemplate).
+Find the source files in the GitHub repo at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Copilot/Summary%20Configuration/WO%20Summary%20Template](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Copilot/Summary%20Configuration/WO%20Summary%20Template).
 
 > [!WARNING]
 > We assume that all the tables and columns selected in the Field Service summary configuration template are available in the target environment with the same schema names. If there are any changes or differences, then the work order summary configuration will be corrupted.
@@ -78,7 +78,7 @@ Learn more at [Microsoft Power Platform Build Tools tasks](/power-platform/alm/d
 
 ### Import with Microsoft Power Platform CLI
 
-Here is an example of how to import the template using Microsoft Power Platform CLI after you have downloaded the file *FSSummaryConfigurationData.zip* at [https://aka.ms/wosummaryconfigurationtemplate](https://aka.ms/wosummaryconfigurationtemplate):
+Here is an example of how to import the template using Microsoft Power Platform CLI after you have downloaded the file *FSSummaryConfigurationData.zip* at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Copilot/Summary%20Configuration/WO%20Summary%20Template](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Copilot/Summary%20Configuration/WO%20Summary%20Template):
 
 ```
 pac auth create --environment <target environment for importing the configuration (ID, url, unique name, or partial name) ex. contosotest>
@@ -89,7 +89,7 @@ Learn more at [Microsoft Power Platform CLI Command Groups](/power-platform/deve
 
 ### Import with a YAML pipeline
 
-Here is an example of how to import the template using YAML pipeline after you have downloaded the file *FSSummaryConfigurationData.zip* at [https://aka.ms/wosummaryconfigurationtemplate](https://aka.ms/wosummaryconfigurationtemplate):
+Here is an example of how to import the template using YAML pipeline after you have downloaded the file *FSSummaryConfigurationData.zip* at [https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Copilot/Summary%20Configuration/WO%20Summary%20Template](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Field%20Service/Copilot/Summary%20Configuration/WO%20Summary%20Template):
 
 ```yml
 steps:

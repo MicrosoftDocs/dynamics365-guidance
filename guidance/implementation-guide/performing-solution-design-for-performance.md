@@ -13,7 +13,7 @@ ms.custom:
   - ai-gen-desc
   - ai-gen-title
   - bap-template
-content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Improve performance with smart design choices

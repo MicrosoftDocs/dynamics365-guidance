@@ -2,7 +2,7 @@
 title: Payment Reconciliation Agent
 description: Learn about the template you can use to improve close confidence by reconciling retail transactions to payment provider statements, highlighting mismatches and exceptions for faster resolution.
 author: scott-tucker
-ms.author: scotttuc
+ms.author: edupont
 ms.date: 05/13/2026
 ms.topic: concept-article
 ---

@@ -7,7 +7,7 @@ ms.topic: concept-article
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days
 ms.service: dynamics-365
-content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ms.custom:
   - evergreen
   - ai-seo-date: 01/29/2024

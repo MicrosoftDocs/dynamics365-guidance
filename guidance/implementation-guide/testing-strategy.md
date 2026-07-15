@@ -12,7 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
   - ai-gen-desc
-content_well_notification: AI-contribution
+ai-usage: ai-assisted
 ---
 
 # Test your Dynamics 365 solution before deployment
@@ -141,7 +141,7 @@ Here are some resources that can help you with your testing process:
   - [Performance benchmark](https://community.dynamics.com/blogs/post/?postid=fcc3526c-5f83-4645-8fa2-e01de47df387)
   - [Performance troubleshooting tools](https://community.dynamics.com/blogs/post/?postid=037d2f4a-1745-4cfb-93e9-530741294f39)  
 - Customer engagement apps
-  - [FastTrack automated testing in a day workshop offering](https://www.microsoftevents.com/profile/web/index.cfm?PKwebID=0x1661342abcd)
+  <!-- - [FastTrack automated testing in a day workshop offering](https://www.microsoftevents.com/profile/web/index.cfm?PKwebID=0x1661342abcd) broken link -->
   - [Automated and manual testing with Azure Test plan in Azure DevOps](https://www.youtube.com/watch?v=LF0hmSysWCg)
   - [Build end-to-end UI tests for your canvas app using Test Studio](/powerapps/maker/canvas-apps/test-studio)  
 - Dynamics 365 Business Central apps

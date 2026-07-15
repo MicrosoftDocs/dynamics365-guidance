@@ -6,6 +6,9 @@ author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
 ms.date: 10/03/2025
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 

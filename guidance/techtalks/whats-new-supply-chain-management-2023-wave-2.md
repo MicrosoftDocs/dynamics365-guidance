@@ -5,6 +5,9 @@ author: dereklh77
 ms.author: edupont
 ms.topic: whats-new
 ms.date: 02/27/2024
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 
