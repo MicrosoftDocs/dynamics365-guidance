@@ -12,7 +12,6 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date: 06/22/2026
-content_well_notification: AI-contribution
 ai-usage: ai-assisted
 ---
 

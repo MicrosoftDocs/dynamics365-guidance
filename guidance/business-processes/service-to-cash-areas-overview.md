@@ -6,7 +6,9 @@ ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
 ms.reviewer: edupont
-ms.custom: ai-gen-docs-bap
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 

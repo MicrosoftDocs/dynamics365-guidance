@@ -5,6 +5,9 @@ author: edupont04
 ms.author: goantu
 ms.topic: how-to
 ms.date: 06/12/2025
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-seo-date: 07/15/2026
 ai-usage: ai-assisted
 ---
 
