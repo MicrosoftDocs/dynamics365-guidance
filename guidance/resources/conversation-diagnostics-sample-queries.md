@@ -1,12 +1,12 @@
 ---
 title: Sample queries and dashboards for conversation diagnostics
-description: Use sample queries to retrieve conversation diagnostics for Dynamics 365 Contact Center from Application Insights.
+description: Use these sample queries to analyze conversation diagnostics in Dynamics 365 Contact Center with Application Insights, and start troubleshooting faster today.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: concept-article
 ms.collection:
-ms.date: 06/25/2026
+ms.date: 07/15/2026
 ms.custom:
   - bap-template
   - O25-Service
@@ -14,13 +14,11 @@ ms.custom:
 
 # Sample queries and dashboards for conversation diagnostics
 
-Learn about the queries that you can use to retrieve the diagnostics data for unified routing from Application Insights.
+Use these custom queries to investigate conversation diagnostics in Dynamics 365 Contact Center by using Application Insights. It covers key routing and assignment scenarios, such as fallback queues, conversation orchestration, bullseye routing, overflow handling, rejected assignments, delayed assignment, transfers, consults, and unsuccessful conversations. You can trace issues end to end and find root causes faster. It also shows how to use Azure Data Explorer dashboards to visualize telemetry, monitor trends, and support ongoing troubleshooting at scale.
 
 ## Fallback queues
 
-**Purpose**: Diagnose number of work items routed to fallback queues.  
-
-**Query**
+Use the following query to diagnose the number of work items routed to fallback queues.
 
 ```kusto
 
@@ -41,8 +39,7 @@ Traces
 
 ## Conversation orchestration
 
-**Purpose**: To view conversation orchestration logs  
-**Query**
+Use the following query to view conversation-level diagnostics for [dynamic prioritization](/dynamics365/customer-service/administer/assignment-methods#how-dynamic-prioritization-works-preview) and [overflow scenarios](/dynamics365/customer-service/administer/manage-overflow) that you can configure by using [conversation orchestration](/dynamics365/contact-center/administer/configure-conversation-orchestration).
 
 ```kusto
 traces
@@ -93,11 +90,161 @@ traces
   OrgId, ConversationId
 ```
 
+## Bullseye routing
+
+Run the following custom query to view the conversation-level diagnostics for [bullseye routing](/dynamics365/contact-center/administer/configure-bullseye-routing) that you can configure through conversation orchestration.
+
+```kusto
+// Paste into the conversation's Application Insights -> Logs.
+// Set `lwi` to the conversation (Live Work Item) id and adjust `lookback`.
+//
+// Row model (one row per STEP, not per raw event):
+//   - Ring expansion  : the pool widened to a level and no agent was available yet
+//   - Assignment      : an agent was OFFERED the work; the row's Outcome merges the
+//                       result -> accepted / rejected / no response (timed out)
+//   - Fallback        : all ring levels exhausted (keep retrying / any queue member)
+//   - Transfer / Consult / Supervisor / Voicemail / Callback / Overflow: lifecycle steps
+//
+// Columns:
+//   T+ (s)           seconds since the conversation entered the queue (Level 0 anchor)
+//   Stage            category of the step
+//   Outcome          what happened (for Assignment: "Offered to <agent> -> <result>")
+//   Expanded level   how far the ring had expanded at this step (MaxRingExpanded)
+//   Assigned level   the ring level the assigned agent's user group belongs to
+//                    (so "Expanded Level 1 / Assigned Level 0" means the pool had
+//                     widened to 1 but the matched agent came from level 0)
+//   EligibleUserGroups  CUMULATIVE user groups eligible at this level, as  name (id)
+//   Queue            current/target queue, as  name (id)
+//   Assignment method   strategy used on the assignment row (e.g. LeastActive)
+//   Agent            the agent involved, as  name (id)
+//
+// Name resolution (purely from App Insights telemetry):
+//   - agent/user id -> name : AgentNameConfig (omnichannel.data id->name bag)
+//   - user-group id -> name : harvested from agents' UserGroups in assignment status
+//   - queue id -> name      : QueueConfigurationDetails
+//   Ids with no name available in telemetry (e.g. unstaffed groups, queues not seen
+//   in config in the window) are shown as the raw GUID.
+//
+// Notes:
+//   - EligibleUserGroups is cumulative (telemetry logs only each level's own groups).
+//   - Voicemail/Callback key the conversation under a different field, so the
+//     multi-key match below is required.
+// ============================================================================
+
+let lwi = "<CONVERSATION_ID>";   // <-- conversation / live work item id
+let lookback = 7d;               // <-- widen if the conversation is older
+let namelb = 30d;                // window for id->name lookups
+// ---- id -> name lookups
+traces
+let ugMap = toscalar(
+    traces | where timestamp > ago(namelb) | extend cd=parse_json(customDimensions)
+    | where tostring(cd["powerplatform.analytics.subscenario"])=="CSRAssignment"
+    | extend ugs=parse_json(tostring(cd["omnichannel.assignment.status"]))["AgentDetails"]["UserGroups"]
+    | mv-expand ug=ugs | extend ugId=tostring(ug.Id), ugName=tostring(ug.Name)
+    | where isnotempty(ugId) and isnotempty(ugName) | summarize make_bag(pack(ugId,ugName)));
+let agentMap = toscalar(
+    traces | where timestamp > ago(namelb) | extend cd=parse_json(customDimensions)
+    | where tostring(cd["powerplatform.analytics.subscenario"])=="AgentNameConfig"
+    | extend data=parse_json(tostring(cd["omnichannel.data"])) | mv-expand k=bag_keys(data)
+    | extend aid=tostring(k), anm=tostring(data[tostring(k)]) | summarize make_bag(pack(aid,anm)));
+let queueMap = toscalar(
+    traces | where timestamp > ago(namelb) | extend cd=parse_json(customDimensions)
+    | where tostring(cd["powerplatform.analytics.subscenario"])=="QueueConfigurationDetails"
+    | extend qqid=tostring(cd["omnichannel.queue.id"]), qn=tostring(cd["omnichannel.queue.name"])
+    | where isnotempty(qqid) and isnotempty(qn) | summarize make_bag(pack(qqid,qn)));
+// ---- all events for this conversation (multi-key match + normalized fields)
+let evts = traces | where timestamp > ago(lookback) | extend cd=parse_json(customDimensions)
+  | where tostring(cd["powerplatform.analytics.resource.id"])==lwi
+       or tostring(cd["powerplatform.analytics.omnichannel.conversation.id"])==lwi
+       or tostring(cd["omnichannel.conversation.id"])==lwi
+       or tostring(cd["omnichannel.live_work_item.id"])==lwi
+  | extend sub=tostring(cd["powerplatform.analytics.subscenario"])
+  | extend wid=parse_json(tostring(cd["omnichannel.work_item.details"])), st=parse_json(tostring(cd["omnichannel.assignment.status"])), ai=parse_json(tostring(cd["omnichannel.additional_info"])), act=tostring(cd["omnichannel.action"])
+  | extend ts=todatetime(coalesce(tostring(cd["omnichannel.timestamp"]), tostring(cd["powerplatform.analytics.omnichannel.timestamp"]))),
+           descr=coalesce(tostring(cd["omnichannel.description"]), tostring(cd["powerplatform.analytics.omnichannel.description"]))
+  | extend isAssigned=tostring(st.IsAgentAssigned)=="true", rLvl=toint(wid.RingLevel), aLvl=toint(wid.AssignedRingLevel), maxR=toint(wid.MaxRingExpanded),
+           reason=tostring(wid.AssignReason), pbFb=tostring(ai.FallbackType), agentId=tostring(st.AgentDetails.AgentId), tgt=tostring(cd["omnichannel.target_agent.id"]),
+           assignMethod=tostring(cd["omnichannel.assignment.method"]), qid=tostring(wid.QueueId), tqid=tostring(cd["omnichannel.target_queue.id"]),
+           vmStatus=tostring(cd["VoicemailStatus"]), cbStatus=tostring(cd["CallbackStatus"]), ovr=ai["OverflowInfo"];
+let t0 = toscalar(evts | summarize min(ts));
+// ---- per-level own UG ids -> cumulative ids per level (bag keyed by level)
+let lvlOwn = evts | where sub=="CSRAssignment"
+  | extend lvl = toint(case(isnotnull(rLvl), rLvl, reason=="InitChat" and isnull(rLvl), 0, isnotnull(aLvl), aLvl, int(null)))
+  | where isnotnull(lvl) | mv-expand g=wid.UserGroupIds to typeof(string) | where isnotempty(g) | distinct lvl, g;
+let cumBag = toscalar((lvlOwn | distinct lvl | extend kk=1 | join kind=inner (lvlOwn | extend kk=1) on kk
+  | where lvl1 <= lvl | summarize cumIds=make_set(g) by lvl) | summarize make_bag(pack(tostring(lvl), cumIds)));
+// ---- terminal agent actions (to merge into the offer row)
+let terminals = evts | where sub in ("CSRAccepted","CSRRejected","CSRNotificationTimeout") | project oTs=ts, oAgent=tgt, oType=sub;
+// ---- Ring-expansion rows (pool widened, no agent yet)
+let expRows = evts | where sub=="CSRAssignment" and not(isAssigned) and (reason=="InitChat" or isnotnull(rLvl))
+  | extend lvl = toint(iff(reason=="InitChat" and isnull(rLvl), 0, rLvl))
+  | summarize ts=min(ts), qid=take_any(qid) by lvl
+  | extend Stage="Ring expansion", Outcome=iff(lvl==0,"No agent available in initial pool","No agent available - pool expanded"),
+           ExpandedLevel=toint(lvl), AssignedLevel=toint(int(null)), agentId="", method="", ugLvl=toint(lvl);
+// ---- Assignment rows (agent offered + merged outcome)
+let offers0 = evts | where sub=="CSRAssignment" and isAssigned
+  | summarize maxR=max(maxR), aLvl=max(aLvl), method=take_any(assignMethod), qid=take_any(qid) by ts, agentId;
+let offerRows = offers0
+  | join kind=leftouter (terminals) on $left.agentId == $right.oAgent
+  | extend cand = iff(isnotnull(oTs) and oTs>=ts, oTs, datetime(9999-12-31))
+  | summarize arg_min(cand, oType, maxR, aLvl, method, qid) by ts, agentId
+  | extend oType = iff(cand==datetime(9999-12-31), "", oType)
+  | extend Stage="Assignment", Outcome="", ExpandedLevel=toint(maxR), AssignedLevel=toint(aLvl), ugLvl=toint(maxR);
+// ---- Fallback rows
+let fbRows = evts | where sub=="PlaybookExecuted" and act=="FallbackTriggered"
+  | summarize ts=min(ts), maxR=max(maxR) by pbFb
+  | extend Stage="Fallback", Outcome=strcat("All levels exhausted - ", pbFb),
+           ExpandedLevel=toint(maxR), AssignedLevel=toint(int(null)), agentId="", method="", qid="", ugLvl=toint(int(null));
+// ---- Transfer / consult / supervisor / voicemail / callback / overflow rows
+let otherRows = evts
+  | where sub in ("TransferToQueue","TransferAssignment","TransferToExternalInitiated","SupervisorInitiatedTransfer",
+                  "QueueConsult","ConsultToCSRInitiated","ConsultToExternalInitiated","CancelQueueConsult",
+                  "SupervisorAssignedToCSR","SupervisorAssignedToQueue","CopilotAgentEscalationToCSR","Voicemail","CallbackRequested")
+       or (sub=="RouteToQueue" and isnotempty(tostring(ovr)))
+  | extend Stage=case(sub=="TransferToQueue","Transfer to queue", sub=="TransferAssignment","Transfer - new assignment",
+                      sub=="TransferToExternalInitiated","Transfer to external", sub=="SupervisorInitiatedTransfer","Supervisor transfer",
+                      sub=="QueueConsult","Consult to queue", sub=="ConsultToCSRInitiated","Consult to agent",
+                      sub=="ConsultToExternalInitiated","Consult to external", sub=="CancelQueueConsult","Consult cancelled",
+                      sub=="SupervisorAssignedToCSR","Supervisor assigned to agent", sub=="SupervisorAssignedToQueue","Supervisor assigned to queue",
+                      sub=="CopilotAgentEscalationToCSR","Bot escalated to agent", sub=="Voicemail","Voicemail", sub=="CallbackRequested","Callback", "Overflow")
+  | extend Outcome=case(sub=="Voicemail", strcat("Voicemail ", vmStatus), sub=="CallbackRequested", strcat("Callback ", cbStatus),
+                        sub=="RouteToQueue", strcat("Overflow: ", tostring(ovr["OverflowTrigger"]), " -> ", tostring(ovr["OverflowAction"])), descr)
+  | extend agentId=tgt, method="", qid=coalesce(qid, tqid), ExpandedLevel=toint(int(null)), AssignedLevel=toint(int(null)), ugLvl=toint(int(null)), oType=""
+  | project ts, Stage, Outcome, ExpandedLevel, AssignedLevel, agentId, method, qid, ugLvl, oType;
+union
+  (expRows  | project ts, Stage, Outcome, ExpandedLevel, AssignedLevel, agentId, method, qid, ugLvl),
+  (offerRows| project ts, Stage, Outcome, ExpandedLevel, AssignedLevel, agentId, method, qid, ugLvl, oType),
+  (fbRows   | project ts, Stage, Outcome, ExpandedLevel, AssignedLevel, agentId, method, qid, ugLvl),
+  (otherRows)
+| extend agentNm=tostring(agentMap[agentId])
+| extend Agent=iff(isempty(agentId), "", iff(isempty(agentNm), agentId, strcat(agentNm, " (", agentId, ")")))
+| extend ExpNote=iff(Stage=="Assignment" and ExpandedLevel>0, strcat("Expanded to Level ", tostring(ExpandedLevel), "; "), "")
+| extend Outcome=case(
+    Stage=="Assignment" and oType=="CSRAccepted",            strcat(ExpNote, "Offered to ", Agent, " -> accepted"),
+    Stage=="Assignment" and oType=="CSRRejected",            strcat(ExpNote, "Offered to ", Agent, " -> rejected"),
+    Stage=="Assignment" and oType=="CSRNotificationTimeout", strcat(ExpNote, "Offered to ", Agent, " -> no response (timed out)"),
+    Stage=="Assignment",                                     strcat(ExpNote, "Offered to ", Agent, " -> assigned (active)"),
+    Outcome)
+| extend cg = todynamic(cumBag[tostring(ugLvl)])
+| extend cgDisp = iff(isnotnull(ugLvl) and array_length(cg)>0, cg, dynamic([""]))
+| mv-apply x=cgDisp on (
+    extend i=tostring(x) | extend nm=tostring(ugMap[i])
+    | extend disp=iff(isempty(i),"",iff(isempty(nm), i, strcat(nm, " (", i, ")")))
+    | summarize EligibleUserGroups=strcat_array(make_list(disp), ", "))
+| extend qn=tostring(queueMap[qid])
+| extend Queue=iff(isempty(qid),"",iff(isempty(qn),qid,strcat(qn," (",qid,")")))
+| extend ExpLvl=iff(isnotnull(ExpandedLevel), strcat("Level ", tostring(ExpandedLevel)), "")
+| extend AsgLvl=iff(isnotnull(AssignedLevel), strcat("Level ", tostring(AssignedLevel)), "")
+| distinct ts, Stage, Outcome, ExpLvl, AsgLvl, EligibleUserGroups, Queue, method, Agent
+| order by ts asc
+| project ["T+ (s)"]=datetime_diff('second', ts, t0), Stage, Outcome,
+          ["Expanded level"]=ExpLvl, ["Assigned level"]=AsgLvl,
+          EligibleUserGroups, Queue, ["Assignment method"]=method, Agent
+```
+
 ## Overflow handling
 
-**Purpose**: Diagnose number of work items where overflow is trigger.  
-
-**Query**
+Use the following query to diagnose the number of work items handled where overflow is the trigger.  
 
 ```kusto
 
@@ -114,9 +261,7 @@ Traces
 
 ## Representatives who reject new assignments
 
-**Purpose**: Diagnose customer service representatives (service representatives or representatives) who reject new assignments (by conversationId).  
-
-**Query**
+Use the following query to view the customer service representatives (service representatives or representatives) who rejected new assignments (by conversationId).
 
 ```kusto
 let _endTime = datetime(2024-11-21T22:32:51Z);  
@@ -138,9 +283,7 @@ Traces
 | project conversationId, rejectionCount, agentRejectionDetails  
 ```
 
-**Purpose**: Diagnose representatives who reject new assignments (by representatives).  
-
-**Query**
+View the information about representatives who reject new assignments (by representatives).  
 
 ```kusto
 let _endTime = datetime(2024-11-21T22:33:55Z);  
@@ -161,9 +304,7 @@ traces
   
 ## Representative assignment took longer than two minutes
 
-**Purpose**: Diagnose conversations where representative assignment took longer than two minutes.  
-
-**Query**
+Use the following query to view and diagnose conversations where representative assignment took longer than two minutes.
 
 ```kusto
 let _endTime = datetime(2024-11-21T22:35:56Z);  
@@ -195,7 +336,7 @@ latestRTQsBeforeAgentAccept
 
 ## Why a conversation wasn’t assigned to any representative until now
 
-**Purpose**: Determine why the conversation isn't assigned.
+Use the following steps to determine why the conversation isn't assigned.
 
 1. Get the conversation lifecycle using the following query.
 
@@ -342,6 +483,7 @@ latestRTQsBeforeAgentAccept
 
 ## Why is the work item assigned to service representative X instead of service representative Y
 
+
 1. Get the conversation’s lifecycle using the following query.
 
     **Query**:
@@ -357,9 +499,9 @@ latestRTQsBeforeAgentAccept
     | order by timestamp asc
     ```
 
-1. Identify the last assignment attempt that is denoted by "CSRAssignment" sub-scenario.
+1. Find the last assignment attempt that's marked by the "CSRAssignment" sub-scenario.
 
-1. Get the IDs of the representative whom we want to check. Let’s say we want to check why this conversation was assigned to Service representative with id 8874e390-9ecc-ef11-a72f-000d3a3652d6 instead of Service representative with id 92a1375c-e9dc-ef11-a72f-000d3a3ad269 or Service representative with id 7ac24088-a804-f011-bae2-000d3a3172e5.
+1. Get the IDs of the representatives to check. For example, to check why the conversation was assigned to the service representative with the ID `8874e390-9ecc-ef11-a72f-000d3a3652d6` instead of the service representative with the ID `92a1375c-e9dc-ef11-a72f-000d3a3ad269` or the service representative with the ID `7ac24088-a804-f011-bae2-000d3a3172e5`.
 
 1. Identify the assignment rules used to assign the conversation, the conversation queue and the conversation requirements.
 
@@ -370,7 +512,7 @@ latestRTQsBeforeAgentAccept
     ```Kusto
     
     let assignmentAttemptTime = now();  // Fill in timestamp of assignment attempt  
-    let agentids = dynamic(["92a1375c-e9dc-ef11-a72f-000d3a3ad269", "8874e390-9ecc-ef11-a72f-000d3a3652d6", "fc19139b-facd-ef11-a72e-0022480aa3fe"]); //Fill in system user ids of Customer Service Representatives
+    let agentids = dynamic(["92a1375c-e9dc-ef11-a72f-000d3a3ad269", "8874e390-9ecc-ef11-a72f-000d3a3652d6", "fc19139b-facd-ef11-a72e-0022480aa3fe"]); //Fill in system user IDs of service representatives
     let latestagentConfig=traces  
     | extend customDim = parse_json(customDimensions)  
     | extend agentid = tostring(customDim["powerplatform.analytics.resource.id"])  
@@ -474,9 +616,7 @@ latestRTQsBeforeAgentAccept
 
 ## Individual queries for quick diagnosis
 
-**Purpose**: Presence of service representatives at a point in time.
-
-**Query**
+Use the following query to determine the presence status of service representatives at a point in time.
 
 ```Kusto
 
@@ -511,9 +651,7 @@ statusCapacityHistoryRecords
 | project statusCapacityHistoryRecordedTime, agentid, agentName, BasePresenceStatus, PresenceId
 ```
 
-**Purpose**: Unit capacity of service representatives at a point in time.
-
-**Query**
+Use the following query to determine the unit capacity of service representatives at a point in time.
 
 ```kusto
 
@@ -547,9 +685,7 @@ statusCapacityHistoryRecords
 | project statusCapacityHistoryRecordedTime, agentid, agentName, UnitAvailableCapacity
 ```
 
-**Purpose**: List all service representatives in a queue at a point in time.
-
-**Query**
+Use the following query to list all service representatives in a queue at a point in time.
 
 ```kusto
 
@@ -598,9 +734,7 @@ latestagentConfigInQueue
 
 ```
 
-**Purpose**: Capacity profiles of service representatives at a point in time.
-
-**Query**
+Use the following query to list the capacity profiles of service representatives at a point in time.
 
 ```kusto
 
@@ -651,9 +785,7 @@ statusCapacityHistoryRecords
 | project statusCapacityHistoryRecordedTime, agentName, agentid, capacityProfileId, TotalCapacity, AvailableCapacity
 ```
 
-**Purpose**: Skills of service representatives at a point in time.
-
-**Query**
+Use the following query to list the skills of service representatives at a point in time.
 
 ```Kusto
 
@@ -694,9 +826,7 @@ agentConfigs
 
 ## Track manual assignments, consult, and transfers for a work item
 
-**Purpose**: Manual assignments of work item with the automated attempts.
-
-**Query**
+Use the following query to list the manual assignments of a work item with the automated attempts.
 
 ```kusto
 traces
@@ -712,9 +842,7 @@ traces
 
 ## Transfer attempts and transfers with other assignment attempts
 
-**Purpose**: Transfer of work item and assignment attemps.
-
-**Query**
+Use the following query to view how many work items were attempted for transfer and assignment.
 
 ```kusto
 traces
@@ -728,9 +856,7 @@ traces
 
 ## Consults with other assignment attempts
 
-**Purpose**: View consult attempts with other representatives.
-
-**Query**
+Use the following query to view consult attempts of representatives with other representatives.
 
 ```kusto
 
@@ -745,9 +871,7 @@ traces
 
 ## Conversations that ended unsuccessfully
 
-**Purpose**: Determine the conversations that ended unsuccessfully.
-
-**Query**
+Use the following query to determine the conversations that ended unsuccessfully.
 
 ```kusto
 Traces
@@ -765,9 +889,7 @@ Traces
 
 ## End-to-end conversation tracing
 
-**Purpose**: Track the events that occur across the course of a conversation.
-
-**Query**
+Use the following query to track the events that occur across the course of a conversation.
 
 ```kusto
 Traces 
