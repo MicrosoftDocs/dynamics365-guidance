@@ -2,7 +2,7 @@
 title: Customer eligibility and partner qualifications
 description: Customers attached to a qualified implementing partner receive FastTrack guidance based on their annual Dynamics 365 investment.
 ms.author: edupont # was jedinh
-ms.date: 07/01/2024
+ms.date: 07/29/2026
 ms.topic: concept-article
 
 ms.reviewer: edupont
@@ -17,7 +17,19 @@ Eligible customers can take advantage of FastTrack services that are based on [S
 
 Eligible customers benefit from FastTrack for the following Dynamics 365 business applications:  
 
-- Dynamics 365 apps as delivered by Microsoft
+- Dynamics 365 apps and services as delivered by Microsoft:
+  - Dynamics 365 Commerce
+  - Dynamics 365 Customer Insights - Data
+  - Dynamics 365 Customer Insights - Journeys
+  - Dynamics 365 Customer Service
+  - Dynamics 365 Field Service
+  - Dynamics 365 Finance
+  - Dynamics 365 Human Resources
+  - Dynamics 365 Project Operations
+  - Dynamics 365 Sales
+  - Dynamics 365 Supply Chain Management
+  - Microsoft Copilot for Sales
+  - Microsoft Copilot for Service
 - Built-in agents in Dynamics 365 apps
 - Copilot in Dynamics 365 
 
