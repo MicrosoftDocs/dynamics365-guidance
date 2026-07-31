@@ -1011,7 +1011,7 @@ items:
                     items:
                       - name: Add booking statuses with custom icons
                         href: resources/field-service-mobile-booking-status.md
-                      - name: Add a control for taking notes (preview)
+                      - name: Add a control for taking notes
                         href: resources/field-service-mobile-take-notes.md
                       - name: Add a mobile lookup control (preview)
                         href: resources/field-service-mobile-add-lookup.md
