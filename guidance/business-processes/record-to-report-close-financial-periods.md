@@ -4,7 +4,7 @@ description: Learn about the processes around closing financial periods, includi
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 05/26/2025
+ms.date: 07/31/2026
 ---
 
 # Overview of the Close financial periods business process area within the Record to report end-to-end scenario
@@ -41,16 +41,16 @@ The following diagram illustrates the *Financial period close* business process 
 
 :::image type="content" source="media\record-to-report-close-financial-periods-1.svg" alt-text="Diagram of the Financial period close business process area and its connection to other business processes." lightbox="media\record-to-report-close-financial-periods-1.svg":::
 
-1. Start
-2. *Close financial periods*
-   1. *Finalize and post transactions*
-   2. *Reconcile ledger and subledger*
-   3. *Revalue currency*
-   4. *Perform ledger settlements*
-   5. *Consolidate and eliminate financials*
-   6. *Prepare financial statements*
-   7. *Close periods*
-3. End
+- Start
+- *Close financial periods*
+  - *Finalize and post transactions*
+  - *Reconcile ledger and subledger*
+  - *Revalue currency*
+  - *Perform ledger settlements*
+  - *Consolidate and eliminate financials*
+  - *Prepare financial statements*
+  - *Close periods*
+- End
 
 ## Close financial periods benefits
 
@@ -78,20 +78,19 @@ KPIs for this benefit include the reduction in the time taken to close a financi
 
 If you would like to implement Dynamics 365 solutions to assist with your *closing of financial period* business processes, you can use the following resources and steps to learn more.
 
-1. [Define accounting policies](record-to-report-define-accounting-policies.md)  
-1. *Manage cash*
-1. [Manage budgets](record-to-report-manage-budgets.md)  
-1. [Record financial transactions](record-to-report-record-financial-transactions.md)  
-1. *Close financial periods* (the article that you're currently reading)  
-
-    1. *Finalize and post transactions*  
-    1. *Reconcile ledger and subledger*  
-    1. *Revalue currency*  
-    1. *Perform ledger settlements*  
-    1. *Consolidate and eliminate financials*  
-    1. *Prepare financial statements*  
-    1. *Close periods*
-1. *Analyze financial performance*
+- [Define accounting policies](record-to-report-define-accounting-policies.md)  
+- *Manage cash*
+- [Manage budgets](record-to-report-manage-budgets.md)  
+- [Record financial transactions](record-to-report-record-financial-transactions.md)  
+- *Close financial periods* (the article that you're currently reading)  
+  - *Finalize and post transactions*  
+  - *Reconcile ledger and subledger*  
+  - *Revalue currency*  
+  - *Perform ledger settlements*  
+  - *Consolidate and eliminate financials*  
+  - *Prepare financial statements*  
+  - *Close periods*
+- *Analyze financial performance*
 
 ## Related information
 

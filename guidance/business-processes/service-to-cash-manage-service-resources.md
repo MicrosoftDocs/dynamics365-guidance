@@ -4,7 +4,7 @@ description: Learn what the Plan service work business process area is, who the 
 author: Dean-Hardy
 ms.author: DeanHardy
 ms.topic: concept-article
-ms.date: 05/12/2026
+ms.date: 07/31/2026
 ai-usage: ai-assisted
 ---
 
@@ -75,12 +75,17 @@ By having a central view of your service resources, you can work better with dif
 
 If you want to implement Dynamics 365 solutions to assist with your *Plan service work* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Manage service assets](service-to-cash-manage-service-assets.md)
-2. Plan service work (the article that you're currently reading)
-3. [Create and process service work](service-to-cash-create-process-service-work.md)
-4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
-5. *Record customer payments*
-6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
+1. [Service to deliver](service-to-cash-overview.md)  
+1. *Develop service strategy*
+1. *Plan service work* (The article you're currently reading.)  
+   1. *Model service capacity*
+   1. *Plan service demand*
+   1. *Forecast service parts demand*
+   1. *Plan service contractor work*
+   1. [Manage service assets](service-to-cash-manage-service-assets.md)
+1. [Manage service work](service-to-cash-create-process-service-work.md)
+1. [Deliver services](service-to-cash-perform-service-work.md)
+1. *Analyze service performance*
 
 ## Related information
 

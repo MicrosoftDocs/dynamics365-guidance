@@ -191,7 +191,7 @@ Lockbox has these core capabilities:
 
 ### Customer-managed keys
 
-By default, Microsoft manages encryption keys for all Dynamics 365 environments. You can choose to manage your encryption keys yourself, but you should be aware of the potential risks. [Learn more about customer-managed encryption keys](/power-platform/admin/manage-encryption-key).
+By default, Microsoft manages encryption keys for all Dynamics 365 environments. You can choose to manage your encryption keys yourself, but be aware of the potential risks. [Learn more about customer-managed encryption keys](/power-platform/admin/customer-managed-key).
 
 ## Next steps
 

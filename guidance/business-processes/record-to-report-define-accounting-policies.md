@@ -1,13 +1,13 @@
 ---
-title: Overview of the define accounting policies business process area
+title: Overview of the Define accounting policies business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to define the policies for financial structure and compliance.
-ms.date: 05/26/2025
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: rachelprofitt
 ms.author: raprofit
 ---
 
-# Overview of the define accounting policies business process area
+# Overview of the Define accounting policies business process area
 
 ***Applies to: Dynamics 365 Finance***
 
@@ -22,11 +22,11 @@ By defining the financial structure early and clearly in your implementation, yo
 
 Organizational accounting policies include things such as the legal entity or company structure, elimination and consolidation rules, and intercompany accounting configuration, including centralized payments. They also define how you handle currency conversion and revaluation of your financial data throughout the system. In addition, if you use the *Fixed assets* or *Asset leasing* module, it covers the asset-related company policies. If you use the *Cash and bank management* module, it covers the banking policies and configurations. It's important to design your processes so that they are streamlined and efficient, to help reduce manual intervention and minimize errors. When you define your organizational accounting policies, you should consider standardizing them across companies and departments. By implementing consistent business processes across the organization, you help ensure uniformity and reduce confusion among employees. This standardization is especially important when different geographies, departments, or companies are involved. Although Dynamics 365 Finance supports flexible configuration across legal entities, the more processes you can standardize, the smoother your implementation is.
 
-Many other areas rely on or are affected by the decisions that are made in the*define financial structure and organizational accounting policies* area. Therefore, the business processes in this area should be defined as early as possible in the overall implementation project.
+Many other areas rely on or are affected by the decisions that you make in the *Define accounting policies* area. Therefore, define the business processes in this area as early as possible in the overall implementation project.
 
 ## Stakeholders
 
-Many people across the organization should contribute to the decision-making process and the design of the *define financial structure and organizational accounting policies* area. The following list provides examples of such stakeholders:
+Many people across the organization should contribute to the decision-making process and the design of the *Define accounting policies* area. The following list provides examples of such stakeholders:
 
 - **Executive Leadership**: Roles such as Chief Executive Officer (CEO), Chief Financial Officer (CFO), Chief Operating Officer (COO), and Chief Information Officer (CIO) should provide strategic direction, allocate resources, and make decisions that affect the overall implementation. Their involvement ensures alignment with organizational goals and vision.
 - **Finance Department**: The CFO and finance managers are directly involved in designing the financial structure, chart of accounts, tax codes, and financial reporting requirements. A single stakeholder should be identified as the owner of the chart of accounts and organizational policies that are defined in the system. This approach ensures compliance with accounting standards and regulations.
@@ -38,31 +38,30 @@ Many people across the organization should contribute to the decision-making pro
 > [!NOTE]
 > Whenever you plan to make changes to your organizational structure, chart of accounts, or the way that your organization reports your financials, we strongly recommend that you consult your auditors or other professionals to ensure compliance with any regulatory requirements.
 
-## Define financial structure and organizational accounting policies process flows
+## Define accounting policies process flows
 
-The following diagram illustrates the business process flows for the *define financial structure and organizational accounting policies* area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
+The following diagram illustrates the business process flows for the *Define accounting policies* area. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
 
 :::image type="content" source="media/record-to-report-define-financial-structure-org-acc-policies.svg" alt-text="Flow diagram for the business process area, which is explained in the paragraphs after the image." lightbox="media/record-to-report-define-financial-structure-org-acc-policies.svg":::
 
-1. Start
-2. *Define accounting policies* business process area
+- Start
+- *Define accounting policies* business process area
+  - *Develop company structure*
+  - *Develop financial period strategy*
+  - *Define posting policies*
+  - *Develop chart of accounts strategy*
+  - *Develop budgeting strategy*
+  - *Develop currency policies*
+  - *Define banking policies*
+  - *Define costing policies*
+  - *Develop asset policies*
+  - *Develop tax strategy*
+  - *Define fiscal document policies* (not currently shown in the diagram)
+- End
 
-    1. *Develop company structure*
-    2. *Develop financial period strategy*
-    3. *Define posting policies*
-    4. *Develop chart of accounts strategy*
-    5. *Develop budgeting strategy*
-    6. *Develop currency policies*
-    7. *Define banking policies*
-    8. *Define costing policies*
-    9. *Develop asset policies*
-    10. *Develop tax strategy*
+## Define accounting policies benefits
 
-3. End
-
-## Define financial structure and organizational accounting policies benefits
-
-There are many benefits that can be realized by implementing technology to support the *define financial structure and organizational accounting policies* area. The following sections outline the benefits that an organization might monitor and measure for the *define financial structure and organizational accounting policies* area.
+Implementing technology to support the *Define accounting policies* area provides many benefits. The following sections outline the benefits that an organization might monitor and measure for the *Define accounting policies* area.
 
 ### Centralized data management of financial configuration
 
@@ -70,7 +69,7 @@ In Dynamics 365 Finance, you can define and manage your company's organizational
 
 ### Automated period management
 
-Dynamics 365 Finance streamlines the process of defining and managing financial periods (months, quarters, and years). It helps automate the opening and closing of periods, and therefore reduces the chance of errors and ensures that transactions are recorded in the correct periods. Because Dynamics 365 integrates seamlessly with Dynamics 365 Supply Chain Management, Commerce, and Project Operations, all your transactions are automatically recorded by using a single set of controls for the periods.
+Dynamics 365 Finance streamlines the process of defining and managing financial periods, such as months, quarters, and years. It helps automate the opening and closing of periods, which reduces the chance of errors and ensures that transactions are recorded in the correct periods. Because Dynamics 365 Finance integrates seamlessly with Dynamics 365 Supply Chain Management, Commerce, and Project Operations, you can automatically record all your transactions by using a single set of controls for the periods.
 
 ### Flexible chart of accounts
 
@@ -90,30 +89,31 @@ Dynamics 365 automates and standardizes processes that are related to currency a
 
 ## Next steps
 
-If you want to implement Dynamics 365 solutions to assist with your *define financial structure and organizational accounting policies* business process area, use the following resources and steps to learn more. (Links are added when the articles are ready.)
+To implement Dynamics 365 solutions that help with the *Define accounting policies* business process area, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Define accounting policies* (the article that you're currently reading)  
+- *Define accounting policies* (the article that you're currently reading)
 
-    1. *Develop company structure*  
-    1. *Develop financial period strategy*  
-    1. *Define posting policies*  
-    1. *Develop chart of accounts strategy*  
-    1. *Develop budgeting strategy*  
-    1. *Develop currency policies*  
-    1. *Define banking policies*  
-    1. *Define costing policies*  
-    1. *Develop asset policies*  
-    1. *Develop tax strategy*
+  - *Develop company structure*
+  - *Develop financial period strategy*
+  - *Define posting policies*
+  - *Develop chart of accounts strategy*
+  - *Develop budgeting strategy*
+  - *Develop currency policies*
+  - *Define banking policies*
+  - *Define costing policies*
+  - *Develop asset policies*
+  - *Develop tax strategy*
+  - *Define fiscal document policies*
 
-1. *Manage cash*
-1. [Manage budgets](record-to-report-manage-budgets.md)  
-1. [Record financial transactions](record-to-report-record-financial-transactions.md)  
-1. [Close financial periods](record-to-report-close-financial-periods.md)  
-1. *Analyze financial performance*
+- *Manage cash*
+- [Manage budgets](record-to-report-manage-budgets.md)  
+- [Record financial transactions](record-to-report-record-financial-transactions.md)  
+- [Close financial periods](record-to-report-close-financial-periods.md)  
+- *Analyze financial performance*
 
 ## Related information
 
-You can use the following resources to learn more about the *define financial structure and organizational accounting policies* area in Dynamics 365.
+To learn more about the *Define accounting policies* area in Dynamics 365, use the following resources:
 
 - [TechTalk Series: Planning and Configuring your Chart of Accounts (dynamics.com)](https://community.dynamics.com/blogs/post/?postid=e8a7e07a-8f8d-48a2-849e-ed4fede81761)
 - [Fiscal calendars, fiscal years, and periods - Finance](/dynamics365/finance/budgeting/fiscal-calendars-fiscal-years-periods)

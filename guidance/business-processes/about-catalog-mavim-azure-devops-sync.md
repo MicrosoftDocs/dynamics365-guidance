@@ -4,13 +4,13 @@ description: Use Mavim to capture requirements and gaps during the Dynamics 365 
 #customer intent: As a Dynamics 365 implementation consultant, I want to synchronize the enriched business process catalog from Mavim into Azure DevOps, so that I can manage the implement phase of the project using captured requirements and gaps.
 author: edupont04
 ms.author: raprofit
-ms.date: 05/27/2026
+ms.date: 07/31/2026
 ms.topic: concept-article
 ---
 
 # Sync Dynamics 365 processes from Mavim to Azure DevOps
 
-This article describes how you can use Microsoft's business process catalog in the business process management platform Mavim during the *Initiate* (or design) phase of a Dynamics 365 implementation project. You can synchronize the enriched set of processes into Azure DevOps Services to manage the *Implement* phase of the project. Mavim is a business process management platform that you can find in the [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_bpm?tab=Overview).
+This article describes how you can use Microsoft's business process catalog in the business process management platform Mavim during the *Initiate* (or design) phase of a Dynamics 365 implementation project. You can synchronize the enriched set of processes into Azure DevOps Services to manage the *Implement* phase of the project. Mavim is a business process management platform that you can find in the [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/mavimbv1671629332610.mavim_bpc_freetrial).
 
 ## A process-focused approach to discovering gaps and requirements
 

@@ -75,7 +75,7 @@ At a minimum, Dynamics 365 environment databases use SQL TDE (Transparent Data E
 
 By default, Microsoft stores and manages the database encryption keys for your Dynamics 365 deployments. Finance and operations apps use server-side encryption with service-managed keys. Microsoft handles all aspects of key management, such as key issuance, rotation, and backup.
 
-For customer engagement apps, you can choose to manage the database encryption key yourself for all the instances in your tenant. [Learn more about customer-managed encryption key](/power-platform/admin/manage-encryption-key).
+For customer engagement apps, you can choose to manage the database encryption key yourself for all the instances in your tenant. [Learn more about customer-managed encryption key](/power-platform/admin/customer-managed-key).
 
 ### In-transit data protection
 

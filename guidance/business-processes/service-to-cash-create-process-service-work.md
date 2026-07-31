@@ -1,7 +1,7 @@
 ---
 title: Overview of Manage Service Work
 description: Learn how you can use Dynamics 365 products to support your organization's business processes for managing service work.
-ms.date: 05/08/2026
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: DeanHardy
@@ -102,17 +102,17 @@ Accelerate cash flow and revenue recognition by invoicing customers accurately a
 
 If you want to implement Dynamics 365 solutions to assist with your *Manage service work* business processes, use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Manage service assets](service-to-cash-manage-service-assets.md)  
-
-2. *Manage service resources*
-
-3. *Manage service work* (The article that you're currently reading)
-
-4. [Invoice customers overview](order-to-cash-invoice-sales-orders-overview.md)
-
-5. *Record customer payments*
-
-6. [Monitor customer credit and collections](order-to-cash-monitor-customer-credit-collections-overview.md)
+1. [Service to deliver](service-to-cash-overview.md)  
+1. *Develop service strategy*
+1. [Plan service work](service-to-cash-manage-service-resources.md)  
+   1. *Model service capacity*
+   1. *Plan service demand*
+   1. *Forecast service parts demand*
+   1. *Plan service contractor work*
+   1. [Manage service assets](service-to-cash-manage-service-assets.md)
+1. *Manage service work* (The article you're currently reading.)
+1. [Deliver services](service-to-cash-perform-service-work.md)
+1. *Analyze service performance*
 
 ## Related information
 

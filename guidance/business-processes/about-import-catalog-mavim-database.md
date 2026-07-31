@@ -5,7 +5,7 @@ author: dereklh77
 ms.author: edupont
 ms.reviewer: edupont
 ms.topic: how-to
-ms.date: 05/27/2026
+ms.date: 07/31/2026
 ---
 
 # Import the business process catalog in Mavim using the Mavim database file
@@ -13,7 +13,7 @@ ms.date: 05/27/2026
 > [!IMPORTANT]
 > This article documents the process for importing the business process catalog starting with the March 2026 version and later versions. For guidance on using older versions, see [Import the Business Process Catalog using a Power Automate flow](about-import-catalog-mavim.md).
 
-This article describes how to import Microsoft's business process catalog into Mavim using the MTDX database file available on the Microsoft Download Center. Mavim is a business process management platform that you can find in the [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/saas/mavimbv1671629332610.mavim_bpm?tab=Overview).
+This article describes how to import Microsoft's business process catalog into Mavim using the MTDX database file available on the Microsoft Download Center. Mavim is a business process management platform that you can find in the [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/mavimbv1671629332610.mavim_bpc_freetrial).
 
 ## Prerequisites
 

@@ -4,7 +4,7 @@ description: Discover best practices for managing updates to the business proces
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 12/16/2025
+ms.date: 07/29/2026
 ms.topic: concept-article
 ---
 
@@ -98,11 +98,11 @@ Take the following actions:
 
 - Consider if you should automate scope assignment during import by using Power Automate or Azure DevOps rules on each work item type.
 
-### Deprecated rows
+### Obsoleted rows
 
-When you deprecate a row in the business process catalog, keep it in the catalog for two subsequent releases to help provide continuity and reference. During this period, link the deprecated row to its replacement through the Alternate Process Sequence ID field so that users can easily identify and transition to the new process or deliverable. This approach ensures that teams have adequate time to adjust to changes and maintain traceability between deprecated and replacement items within their project workflows.
+When you mark a row in the business process catalog for deletion, keep it in the catalog for two subsequent releases to help provide continuity and reference. During this period, link the obsolete row to its replacement through the **Alternate Process Sequence ID** field so that users can easily identify and transition to the new process or deliverable. This approach ensures that teams have adequate time to adjust to changes and maintain traceability between obsolete and replacement items within their project workflows.
 
-### Recommendations for deprecated rows
+### Recommendations for obsolete rows
 
 Take the following actions:
 
@@ -110,24 +110,24 @@ Take the following actions:
 
 - If you modified the original row in the catalog, consider if you should use one of the following techniques:
 
-- Copy the data you customized to the new row. If you choose this option, consider creating a relationship between the original work items and closing the deprecated work item to prevent further updates to the work item.
+  - Copy the data you customized to the new row. If you choose this option, consider creating a relationship between the original work items and closing the removed work item to prevent further updates to the work item.
 
-- Update the deprecated row to have the new ID and other updated details of the new row. Using this technique is the preferred option as Azure DevOps work item history is preserved. However, this technique requires you to evaluate which columns you want to keep or merge from the original work item.
+  - Update the obsolete row to have the new ID and other updated details of the new row. Using this technique is the preferred option as Azure DevOps work item history is preserved. However, this technique requires you to evaluate which columns you want to keep or merge from the original work item.
 
 - Consider using Power Automate or the Azure DevOps APIs to automatically merge the two work items together.
 
   > [!IMPORTANT]
-  > If you choose to keep a row in your catalog that's deprecated in Microsoft's catalog, remember that eventually Microsoft deletes the row and you can no longer receive updates.
+  > If you choose to keep a row in your catalog that's marked for removal in Microsoft's catalog, remember that eventually Microsoft deletes the row and you can no longer receive updates.
 
 ### Deleted rows
 
-When a row is marked with a **Catalog status** of Deleted from the business process catalog, this status indicates the row is removed and no updates are provided after its deletion in the next release. Handle deleted rows in a manner similar to deprecated rows by ensuring you reconcile any missing entries in future releases by using the unique Microsoft ID. This approach helps maintain consistency and traceability, allowing users to identify if a row is removed and to update their records or processes accordingly.
+When a row is marked with a **Catalog status** of Deleted from the business process catalog, this status indicates the row is removed and no updates are provided after its deletion in the next release. Handle deleted rows in a manner similar to obsolete rows by ensuring you reconcile any missing entries in future releases by using the unique Microsoft ID. This approach helps maintain consistency and traceability, allowing users to identify if a row is removed and to update their records or processes accordingly.
 
 ### Recommendations for deleted rows
 
 Take the following actions:
 
-- Treat similar to deprecated rows.
+- Treat similar to obsolete rows.
 
 - If the row is missing in future releases, reconcile by using the Microsoft ID.
 

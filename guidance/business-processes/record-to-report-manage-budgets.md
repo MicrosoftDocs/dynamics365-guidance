@@ -4,7 +4,7 @@ description: Learn about how you can use the budget management features of Dynam
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 04/08/2024
+ms.date: 07/31/2026
 ---
 
 # Overview of the Manage budgets business process area within the Record to report end-to-end scenario
@@ -41,26 +41,26 @@ The following diagram illustrates the *Manage budgets* business process area. [!
 
 :::image type="content" source="media\record-to-report-manage-budgets-1.svg" alt-text="Diagram showing the connection between the Manage budgets business process area and other business processes." lightbox="media\record-to-report-manage-budgets-1.svg":::
 
-1. Start
-2. *Record to report* business process area
-3. *Define accounting policies*
-   1. *Manage budgets*
-      1. *Define preliminary budgets*
-      2. *Plan budgets*
-      3. *Allocate budgets*
-      4. *Maintain budgets*
-      5. *Approve budgets*
-   
-   1. Is approved?
-         - Yes: *Appropriate budgets*
-         - No: Return to *Approve budgets*
-   1. Is reservation required?
-         - Yes: *Reserve budgets*
-         - No: Continue to *Transfer budgets*
-   1. Is transfer required?
-      - Yes: *Transfer budgets*
+> [!NOTE]
+> The diagram doesn't reflect the latest version of the business process catalog, but the following list does.
 
-4. End
+- Start
+- *Record to report* end-to-end scenario
+- *Manage budgets* business process area
+  - *Define preliminary budgets*
+  - *Plan budgets*
+  - *Allocate budgets*
+  - *Maintain budgets*
+  - *Approve budgets*
+  - Is the budget approved?
+    - Yes: *Appropriate budgets*
+    - No: Return to *Approve budgets*
+  - Is reservation required?
+    - Yes: *Reserve budgets*
+    - No: Continue to *Transfer budgets*
+  - Is transfer required?
+    - Yes: Continue to *Transfer budgets*
+- End
 
 ## Manage budget benefits
 

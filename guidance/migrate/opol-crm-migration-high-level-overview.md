@@ -1,29 +1,29 @@
 ---
-title: Dynamics CRM on-premises to Dynamics 365 migration process overview
-description: Learn about the migration process from Dynamics CRM to Dynamics 365 (OP2OL), how to validate solutions and customizations, and understand the post-migration processes.
-author: dereklh77
+title: Dynamics CRM or Dynamics 365 (on-premises) to Dynamics 365 online migration process overview
+description: Learn about the migration process from Dynamics CRM or Dynamics 365 (on-premises) to Dynamics 365 online (OP2OL), how to validate solutions and customizations, and understand the post-migration processes.
+author: edupont04
 ms.author: ratrtile
 ms.topic: concept-article
-ms.date: 11/06/2024
+ms.date: 07/29/2026
 ---
 
-# Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
+# Dynamics CRM or Dynamics 365 (on-premises) to Dynamics 365 online migration process overview
 
-Microsoft provides guidance on migrating your Dynamics CRM (on-premises) database to [Dynamics 365 and Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro#dynamics-365-and-dataverse). The guidance is provided in the form of tools and support from the migration factory team.  
+Microsoft provides guidance on migrating your Dynamics CRM or Dynamics 365 (on-premises) database to [Dynamics 365 and Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro#dynamics-365-and-dataverse). The guidance comes in the form of tools and support from the migration factory team.  
 
 ## Eligibility
 
-The tool and migration support are available to all organizations and Microsoft partners that use supported versions of Dynamics CRM (on-premises).  
-
+All organizations and Microsoft partners that use supported versions of the legacy Dynamics CRM product or the related Dynamics 365 (on-premises) product can access the tool and migration support.  
+<!-- 
 > [!NOTE]
-> Make sure that you check the product documentation for the supported versions.
+> Make sure that you check the product documentation for the supported versions. -->
 
 The following table provides an overview of the supported versions.
 
 |Product  |Supported versions|
 |---------|---------|
-|Dynamics CRM (on-premises) | Dynamics CRM V9.0 or later.|
-|SQL Server   | Any version of SQL Server that the relevant version of Dynamics CRM supports.|
+|Dynamics CRM (on-premises) or Dynamics 365 (on-premises) | Version 9.0 or later.|
+|SQL Server   | Any version of SQL Server that the relevant version of Dynamics CRM (on-premises) or Dynamics 365 (on-premises) supports.|
 
 ## Nomination form
 
