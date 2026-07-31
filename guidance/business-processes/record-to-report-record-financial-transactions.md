@@ -4,7 +4,7 @@ description: Learn about how organizations can use Dynamics 365 to help manage t
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 04/08/2024
+ms.date: 07/31/2026
 ---
 
 # Overview of the Record financial transactions business process area within the Record to report end-to-end scenario
@@ -43,21 +43,21 @@ The following diagram illustrates the *Record financial transactions* business p
 
 :::image type="content" source="media\record-to-report-record-financial-transactions-1.svg" alt-text="Diagram of the Record financial transactions business process area and its connection to other business processes.":::
 
-1. Start
-2. *Define accounting policies*
-3. *Manage cash*
-4. *Record financial transactions*
-   1. *Record ledger entries*
-   2. *Record intercompany transactions*
-   3. *Record cost accounting transactions*
-   4. *Revalue inventory*
-   5. *Correct ledger vouchers*
-   6. *Manage accruals*
-   7. *Manage deferrals*
-   8. *Process allocations*
-   9. *Record tax commitments*
-   10. *Pay taxes*
-5. End
+- Start
+- *Define accounting policies*
+- *Manage cash*
+- *Record financial transactions*
+  - *Record ledger entries*
+  - *Record intercompany transactions*
+  - *Record cost accounting transactions*
+  - *Revalue inventory*
+  - *Correct ledger vouchers*
+  - *Manage accruals*
+  - *Manage deferrals*
+  - *Process allocations*
+  - *Record tax commitments*
+  - *Pay taxes*
+- End
 
 ## Record financial transactions benefits
 
@@ -85,23 +85,22 @@ KPIs for this benefit include improvements in the accuracy of financial reportin
 
 If you would like to implement Dynamics 365 solutions to assist with your *Record financial transactions* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. [Define accounting policies](record-to-report-define-accounting-policies.md)  
-1. *Manage cash*
-1. [Manage budgets](record-to-report-manage-budgets.md)  
-1. *Record financial transactions* (the article that you're currently reading)  
-
-    1. *Record ledger entries*  
-    1. *Record intercompany transactions*  
-    1. *Record cost accounting transactions*  
-    1. *Revalue inventory*  
-    1. *Correct ledger vouchers*  
-    1. *Manage accruals*  
-    1. *Manage deferrals*  
-    1. *Process allocations*  
-    1. *Record tax commitments*  
-    1. *Pay taxes*
-1. [Close financial periods](record-to-report-close-financial-periods.md)  
-1. *Analyze financial performance*
+- [Define accounting policies](record-to-report-define-accounting-policies.md)
+- *Manage cash*
+- [Manage budgets](record-to-report-manage-budgets.md)
+- *Record financial transactions* (the article that you're currently reading)
+  - *Record ledger entries*
+  - *Record intercompany transactions*
+  - *Record cost accounting transactions*
+  - *Revalue inventory*
+  - *Correct ledger vouchers*
+  - *Manage accruals*
+  - *Manage deferrals*
+  - *Process allocations*
+  - *Record tax commitments*
+  - *Pay taxes*
+- [Close financial periods](record-to-report-close-financial-periods.md)
+- *Analyze financial performance*
 
 ## Related information
 

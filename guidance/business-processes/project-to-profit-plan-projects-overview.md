@@ -1,7 +1,7 @@
 ---
-title: Overview of the Plan projects process area
+title: Overview of the Plan projects business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing resources and schedule for projects.
-ms.date: 04/15/2025
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: mbinaisse

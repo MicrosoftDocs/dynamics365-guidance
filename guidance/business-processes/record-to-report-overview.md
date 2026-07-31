@@ -1,7 +1,7 @@
 ---
 title: Overview of the record to report end-to-end business process
 description: Learn about the record to report end-to-end business process with a flow diagram and learn about the relationship with other processes in Dynamics 365 solutions.
-ms.date: 11/10/2023
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kgiardini
@@ -62,25 +62,16 @@ The upstream processes for the *record to report* process include the following.
 
 - **Service to deliver**:  
 
-    Service to cash is another upstream process that involves managing the service delivery process, from scheduling services to billing and cash collection. Before the *record to report* process in Dynamics 365, the organization needs to set up service management structures, define service pricing and billing rules, and manage service contracts to ensure accurate service billing and revenue recognition.
+    Service to deliver is another upstream process that involves managing the service delivery process, from scheduling services to billing and cash collection. Before the *record to report* process in Dynamics 365, the organization needs to set up service management structures, define service pricing and billing rules, and manage service contracts to ensure accurate service billing and revenue recognition.
 
 The *record to report* end-to-end process is broken down into the following business process areas:
 
-- Define financial structure and organizational accounting policies
-
-- Manage budgets
-
-- Maintain and manage cash and bank transactions
-
-- Record financial transactions
-
-- Close financial periods
-<!-- removed???
-- Report and analyze financial and cash flow -->
-
-- Comply with tax, audit, and regulatory requirements
-
-- Manage fund accounting
+- *Define accounting policies*
+- *Manage cash*
+- *Manage budgets*
+- *Record financial transactions*
+- *Close financial periods*
+- *Analyze financial performance*
 
 Learn more at [Record to report business process areas](record-to-report-areas.md).
 
@@ -148,49 +139,27 @@ The following diagram shows the high-level flow of the *record to report* busine
 
 The following steps are illustrated in the *record to report* end-to-end business process flow diagram.
 
-1. [Forecast to plan](forecast-to-plan-overview.md)  
-2. [Hire to retire](hire-to-retire-overview.md)  
-3. [Acquire to dispose](acquire-to-dispose-overview.md)  
-4. [Inventory to deliver](inventory-to-deliver-overview.md)  
-5. [Order to cash](order-to-cash-overview.md)  
-6. [Plan to produce](plan-to-produce-overview.md)  
-7. [Source to pay](source-to-pay-overview.md)  
-8. [Project to profit](project-to-profit-overview.md)  
-9. [Service to deliver](service-to-cash-overview.md)
-10. [Case to resolution](case-to-resolution-overview.md)  
+- *Record to report*
 
-11. *Record to report*
-
-    1. Define accounting policies
-    2. Manage cash
-    3. Manage budgets
-    4. Record financial transactions
-    5. Close financial periods
-    6. Analyze financial performance
-
-12. *Case to resolution*
-13. *Acquire to dispose*
-14. *Service to deliver*
-15. *Inventory to deliver*
-16. *Order to cash*
-17. *Plan to produce*
-18. *Source to pay*
-19. *Project to profit*
-20. *Forecast to plan*
-21. *Hire to retire*
-22. End
+  - *Define accounting policies*
+  - *Manage cash*
+  - *Manage budgets*
+  - *Record financial transactions*
+  - *Close financial periods*
+  - *Analyze financial performance*
+- End
 
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *record to report* business processes, use the following resources and steps to learn more.
 
-1. Define the goals and objectives of implementing an *record to report* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
+1. Define the goals and objectives of implementing a *record to report* technology solution. Learn more at [Implementation strategy](../implementation-guide/implementation-strategy.md).  
 
-2. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
+1. Define the business process scope of your project. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
 
-3. Get a demo of Dynamics 365 solutions for the *record to report* process. Learn more at [Request a demo](https://dynamics.microsoft.com/)
+1. Get a demo of Dynamics 365 solutions for the *record to report* process. Learn more at [Request a demo](https://dynamics.microsoft.com/).
 
-4. Sign up for a trial of Dynamics 365. Learn more at [Start a Free Trial for Microsoft Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial)
+1. Sign up for a trial of Dynamics 365. Learn more at [Start a Free Trial for Microsoft Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial).
 
 ## Related information
 

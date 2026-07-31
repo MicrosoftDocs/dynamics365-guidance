@@ -4,7 +4,7 @@ description: Learn about how to set up and configure for delivering services in 
 author: jasondpms
 ms.author: jaduples
 ms.topic: concept-article
-ms.date: 05/08/2026
+ms.date: 07/31/2026
 ---
 
 # Overview of the Deliver services business process area within the Service to deliver end-to-end scenario
@@ -14,7 +14,7 @@ ms.date: 05/08/2026
 This article describes the setup, configuration, and design considerations for performing service work in Dynamics 365. Frontline workers that work for an organization that provides a service to customers or clients. Performing service work is typically the process where frontline workers perform the tasks specified in the work order assigned, using various tools and equipment.
 
 > [!IMPORTANT]
-> The *service to cash* end-to-end scenario was renamed *service to deliver* in the February 2025 version of the business process catalog. Learn more at [What's new or changed in the business process catalog February 2025](about-whats-new-2025-february.md).
+> The business process catalog renamed the *service to cash* end-to-end scenario to *service to deliver* in the February 2025 version. The flow diagram in this article doesn't reflect the July 2026 version of the catalog yet, and we removed the section temporarily. 
 
 The work of a frontline worker involves, for example,  installing, maintaining, and repairing various types of systems in different locations. The frontline worker also communicates with stakeholders and updates them on the progress and status of the service work.
 
@@ -33,7 +33,7 @@ Stakeholders involved in performing service work include, but isn't limited to, 
 - Parts and inventory manager who ensures the availability of necessary parts in cases where repairs or maintenance require replacements. They manage stock levels, and coordinate with frontline workers to ensure they have the required resources to complete the work orders.
 
 - Customer who requests the service and provides feedback on the quality of the work.
-
+<!--
 ## Deliver services process flow
 
 The following diagram illustrates the business process. [!INCLUDE [daf-business-process-flow-def](~/../shared-content/shared/guidance-includes/daf-business-process-flow-def.md)]
@@ -73,7 +73,7 @@ The process flow diagram includes the following steps.
 11. *Complete Booking* / *Time Tracking*.
 
 12. End.
-
+-->
 ## Terminology and concepts
 
 Various terminology and concepts are used throughout this article to describe the business process. For definitions and explanations of key terms and concepts, see [Glossary of terms in Dynamics 365 business processes](../business-processes/glossary.md).
@@ -170,7 +170,7 @@ More customer details can be found in the work order such as the customers' name
 
 All this preparation work pays off when the frontline worker can make one visit to address the issue, ensuring that it's resolved. While this can save time and money, more importantly it shows the customer that the frontline worker fully understood the issue and resolved it in a timely manner. This increases customer satisfaction and wins customer loyalty.
 
-### Execution
+### Do the work
 
 In this step, the frontline worker first locates the customer site and plans the route efficiently to arrive at the customer site on time. The frontline worker might communicate, using geo location enabled on the mobile device, to the customer and the service manager that they are on their way, and might also edit the status of the booking to show when they're traveling.
 
@@ -202,15 +202,22 @@ This ensures that the field service manager is kept informed of the frontline wo
 
 If you want to implement Dynamics 365 solutions to assist with your *Deliver services* processes, you can use the following resources and steps to learn more.
 
-1. *Define service policies*
-
-2. *Create service requests*
-
-3. [Schedule service work](service-to-cash-schedule-service-work.md)
-
-4. *Deliver services* (The article you're currently reading)
-
-5. *Review and close service requests*
+1. [Service to deliver](service-to-cash-overview.md)  
+1. *Develop service strategy*
+1. [Plan service work](service-to-cash-manage-service-resources.md)  
+1. [Manage service work](service-to-cash-create-process-service-work.md)
+1. *Deliver services* (The article you're currently reading)
+   1. *Gather work order details*
+   1. *Track frontline worker location*
+   1. *Perform service tasks*
+   1. *Collaborate on service work*
+   1. *Manage service truck inventory*
+   1. *Update asset register*
+   1. *Collect customer feedback*
+   1. *Record service timesheet*
+   1. *Update work order details*
+   1. [Finalize work orders](service-to-cash-review-close-service-requests.md)
+1. *Analyze service performance*
 
 ## Related information
 

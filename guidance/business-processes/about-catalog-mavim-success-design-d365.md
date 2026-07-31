@@ -4,12 +4,12 @@ description: Learn how to use Microsoft's business process catalog in Mavim for 
 author: vibhutinair23
 ms.author: vibhutinair
 ms.topic: concept-article
-ms.date: 05/27/2026
+ms.date: 07/31/2026
 ---
 
 # Success by Design with the Dynamics 365 business process catalog in Mavim
 
-This article introduces how to use Microsoft's business process catalog following the Success by Design framework in the platform by Mavim, an external software company. Find the Mavim solution in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/mavimbv1671629332610.mavim_bpm?tab=Overview).
+This article introduces how to use Microsoft's business process catalog following the Success by Design framework in the platform by Mavim, an external software company. Find the Mavim solution in the [Microsoft Marketplace](https://marketplace.microsoft.com/product/mavimbv1671629332610.mavim_bpc_freetrial).
 
 This article focuses on the Strategize phase in Success by Design of a Dynamics 365 implementation. Learn more from [an Introduction to the Success by Design Framework](/dynamics365/guidance/implementation-guide/success-by-design).
 

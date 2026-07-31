@@ -1,14 +1,14 @@
 ---
-title: Overview of the Acquire assets business process
+title: Overview of the Acquire assets business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes to acquire assets.
-ms.date: 05/21/2025
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: sdaggubati
 
 ---
 
-# Overview of the Acquire assets business process within the Acquire to dispose end-to-end scenario
+# Overview of the Acquire assets business process area within the Acquire to dispose end-to-end scenario
 
 ***Applies to: Dynamics 365 Business Central, Dynamics 365 Finance, Dynamics 365 Supply Chain Management***
 

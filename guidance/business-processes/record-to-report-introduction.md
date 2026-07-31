@@ -1,7 +1,7 @@
 ---
 title: Introduction to the record to report end-to-end business process
 description: Get introduced to the record to report end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their record to report processes.
-ms.date: 04/05/2023
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kgiardini
@@ -118,27 +118,18 @@ Overall, implementing Dynamics 365 to support the R2R process can provide signif
 
 If you would like to implement Dynamics 365 solutions to assist with your *record to report* business processes, use the following resources and steps to learn more.
 
-1. Define the goals and objectives of implementing a *record to report* technology solution* <!-- TODO ADD LINK Learn more at \[link\].-->
+1. Define the goals and objectives for implementing a *record to report* technology solution. Learn more at [Process-focused solution](../implementation-guide/process-focused-solution.md).  
+1. Request a demo or get a free trial of Dynamics 365 solutions for the *record to report* process. Learn more at [Request a demo](https://www.microsoft.com/dynamics-365/free-trial).  
+1. Get an overview of the *record to report* process. Learn more at [Record to report end-to-end overview](record-to-report-overview.md)  
 
-2. *Define the business process scope of your project* <!-- TODO ADD LINK Learn more at \[link\].-->
+## Related information
 
-3. *Get a demo of Dynamics 365 solutions for the order to cash process* <!-- TODO ADD LINK Learn more at \[link\].-->
+Use the following resources to learn more about the *record to report* end-to-end process in Dynamics 365.
 
-4. [Sign up for a trial of Dynamics 365](https://www.microsoft.com/dynamics-365/free-trial)  
-
-<!--- Other steps here-->
-
-<!--## Related information
-
-You can use the following resources to learn more about the *record to report* process in Dynamics 365.
-
-- TechTalk link here
-
-- Docs article link here
-
-- GitHub sample link here
-
-- Other links-->
+- [Get started with financial reporting - Finance](/dynamics365/finance/general-ledger/financial-reporting-getting-started)  
+- [Analytics, business intelligence, and reporting overview - Business Central](/dynamics365/business-central/reports-bi-reporting)  
+- [Dynamics 365 community blogs](https://community.dynamics.com/blogs/)  
+- [Microsoft Certified: Dynamics 365 Fundamentals (ERP)](/certifications/d365-fundamentals-finance-and-operations-apps-erp/)  
 
 <!--## Tags
 *Stakeholders:* Functional consultant, Business analyst, Accounts payable lead, Accounts receivable lead, Finance lead, Sales lead, Purchasing lead, Production lead, Supply chain lead  

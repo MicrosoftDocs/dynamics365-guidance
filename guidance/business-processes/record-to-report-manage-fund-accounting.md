@@ -4,7 +4,7 @@ description: This article was for a business process area that is deprecated and
 author: lifiatamara-ms
 ms.author: edupont
 ms.topic: concept-article
-ms.date: 06/11/2025
+ms.date: 07/31/2026
 ROBOTS: NOINDEX
 ---
 
@@ -14,7 +14,7 @@ ROBOTS: NOINDEX
 
 This article described the business process area of *fund accounting*, which was deprecated in the November 2024 version of the business process catalog. Learn more at [Improvements to Record to report processes](about-whats-new-2024-november.md#improvements-to-record-to-report-processes).
 
-It's replaced by a business process, 90.25.600 *Manage funds*, that's part of 90.25 *Manage cash*, but we do't have articles for the business process nor the business process area yet.
+It's replaced by a business process, 90.25.600 *Manage funds*, that's part of 90.25 *Manage cash*, but we don't have articles for the business process nor the business process area yet.
 
 <!-- Fund accounting is a crucial business process area, especially for non-profit organizations and government entities. It provides a detailed account of income and expenditure to help the organization provide transparency and accountability in financial operations. With Dynamics 365, organizations can streamline their fund accounting processes and track funds effectively, maintain regulatory compliance, and make informed financial decisions.
 
