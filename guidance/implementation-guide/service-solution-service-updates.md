@@ -72,7 +72,7 @@ System administrators and others who signed up for service notifications are ale
 
 These notifications provide the information you need to start your planning: dates of release availability, release notes, and the process to opt in for early access.
 
-### Release notes and feature deprecation
+### Release notes and removal of capabilities
 
 Great planning starts with education and learning when and what is being rolled out. The notifications explain the upcoming changes and include a link to online documentation for more details. This information can help you assess the impact to your organization so that you can decide when and how to take action.
 
@@ -96,15 +96,15 @@ Each release wave includes features and functionalities that you can turn on for
 
 If you choose to opt in, you get features that are typically mandatory changes automatically turned on for users. Each feature in the release notes indicates which category it falls under.
 
-Update notifications might also include announcements about deprecated features. Deprecation notices provide a timeline for when a feature is removed. These announcements are important because they give you time to assess the impact and work with your business sponsor and technical team to address any concerns.
+Update notifications might also include announcements about features that are marked for removal. Notices about capabilities that are marked for removal provide a timeline for when a feature is removed. These announcements are important because they give you time to assess the impact and work with your business sponsor and technical team to address any concerns.
 
-Deprecation of features is an essential part of a solution's growth. As business and technology needs evolve, the solution needs to change to keep up with new requirements for security, compliance, and modernization. As a result, some features are deprecated and replaced by a better solution.
+Business apps evolve over time, and capabilities replace older capabilities. As business and technology evolve, the solution changes to keep up with new requirements for security, compliance, and modernization. As a result, some features are marked for removal and replaced by a better solution.
 
-Deprecated features continue to work and are fully supported until they're officially removed, after which they no longer work. The deprecation notes provide information on what features are being removed, when it happens, why it's happening, and what actions you can take to mitigate the impact. As for new features, you must plan and prepare well before the removal of features to avoid negative effects from the deprecation.
+Obsoleted features continue to work and are fully supported until they're officially removed, after which they no longer work. The notifications of removal provide information on what features are being removed, when it happens, why it's happening, and what actions you can take to mitigate the impact. As for new features, you must plan and prepare well before the removal of features to avoid negative effects from the removal.
 
-For finance and operations apps, see the [One Version service updates overview](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview?toc=/dynamics365/finance/toc.json) for details on release planning, [release notes](/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-changed), [deprecations](/dynamics365/fin-ops-core/dev-itpro/get-started/removed-deprecated-features-platform-updates), and [release cadence](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy).
+For finance and operations apps, see the [One Version service updates overview](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview?toc=/dynamics365/finance/toc.json) for details on release planning, [release notes](/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-changed), [marking for removal](/dynamics365/fin-ops-core/dev-itpro/get-started/removed-deprecated-features-platform-updates), and [release cadence](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy).
 
-For customer engagement apps and Power Platform, see the [release notes](/dynamics365/release-plans/), [deprecation announcements](/power-platform/important-changes-coming), and [release cadence](/dynamics365/get-started/release-schedule).
+For customer engagement apps and Power Platform, see the [release notes](/dynamics365/release-plans/), [important announcements](/power-platform/important-changes-coming), and [release cadence](/dynamics365/get-started/release-schedule).
 
 ### How to get early access
 
@@ -112,7 +112,7 @@ After you get the release notification and review the release notes to assess th
 
 The sandbox instance should be based on a backup of your test instances before the update deployment. The environment should run your latest solution with enough data for meaningful testing. If you have automated tests, use them to verify that your solution works as expected. If you find any problems, mark them and work them into your project plan.
 
-If your solution uses supported methods for customization, the release likely has little to no effect on it. However, you might encounter some scenarios related to deprecation that need to be fixed.
+If your solution uses supported methods for customization, the release likely has little to no effect on it. However, you might encounter some scenarios related to feature removal that need to be fixed.
 
 Another important area to cover for early access is to work with the business sponsors to help them understand the impact on users. Some updates might change the user experience, such as the user interface or navigation. Even small changes can make a big difference. For example, users in a large call center scenario might need every second they can save on a call with a customer. In such a case, business managers want to make sure that the user group gets proper communication and training if needed.
 
