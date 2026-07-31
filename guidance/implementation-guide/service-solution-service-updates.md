@@ -3,7 +3,7 @@ title: Stay current with Dynamics 365 service updates
 description: Learn about the types, cadence, and benefits of service updates for Dynamics 365, and how to plan, test, and deploy them in your environment.
 author: taksatoms
 ms.author: edupont
-ms.date: 11/12/2024
+ms.date: 07/31/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
@@ -82,7 +82,7 @@ Let's break down the three types of releases:
 
 - **Public preview**: These features are available ahead of general availability so that you can try them out and give early feedback. They aren't intended for production use. Not every feature is available through a public preview.
 
-- **Early access**: You can apply these production-ready, fully supported capabilities to your environment before the GA date. [Learn how to opt in for early access](#how-to-opt-in-for-early-access).
+- **Early access**: You can apply these production-ready, fully supported capabilities to a sandbox environment before the official date for general availability. [Learn how to get early access](#how-to-get-early-access).
 
 - **General availability**: The date that these features are deployed to your environment.
 
@@ -106,11 +106,11 @@ For finance and operations apps, see the [One Version service updates overview](
 
 For customer engagement apps and Power Platform, see the [release notes](/dynamics365/release-plans/), [deprecation announcements](/power-platform/important-changes-coming), and [release cadence](/dynamics365/get-started/release-schedule).
 
-### How to opt in for early access
+### How to get early access
 
-After you get the release notification and review the release notes to assess the impact, the next step is to work with the project team to test the release with your solution.
+After you get the release notification and review the release notes to assess the impact, work with the project team to test the release with your solution. By using the monthly release channels, you can create a sandbox environment and set the **Release channel** option to **Monthly channel**. This way, you get early access to new capabilities in a safe environment. Learn more about the monthly updates in [the Power Platform admin documentation](/power-platform/admin/opt-in-early-access-updates).
 
-Microsoft recommends creating a sandbox instance from a backup of your test instances before the update deployment. The environment should run your latest solution with enough data for meaningful testing. If you have automated tests, you can use them to verify that your solution works as expected. If you find any issues, you can mark them and work them into your project plan.
+The sandbox instance should be based on a backup of your test instances before the update deployment. The environment should run your latest solution with enough data for meaningful testing. If you have automated tests, use them to verify that your solution works as expected. If you find any problems, mark them and work them into your project plan.
 
 If your solution uses supported methods for customization, the release likely has little to no effect on it. However, you might encounter some scenarios related to deprecation that need to be fixed.
 
@@ -138,9 +138,10 @@ As Dynamics 365 updates are created each month, they move through a series of ri
 
 :::image type="content" source="media/deploymentpracticefno.png" alt-text="Diagram of deployment rings for Dynamics 365 finance and operations apps updates, from Microsoft Internal to General Availability." lightbox="media/deploymentpracticefno.png":::
 
-The GA update benefits from extensive Microsoft testing and validation through each of the previous rings.
+By using One Version, you select a maintenance window based on the rhythm of your business. For more information, see [One Version service updates](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview?context=/dynamics365/context/finance).
+<!-- The GA update benefits from extensive Microsoft testing and validation through each of the previous rings.
 
-[Learn more about the Dynamics 365 cloud application lifecycle for finance and operations apps](https://info.microsoft.com/rs/157-GQE-382/images/D365-for-Finance-and-Operations-Cloud-Application-Lifecycle.pdf).
+[Learn more about the Dynamics 365 cloud application lifecycle for finance and operations apps](https://info.microsoft.com/rs/157-GQE-382/images/D365-for-Finance-and-Operations-Cloud-Application-Lifecycle.pdf). -->
 
 ### Update cadence for finance and operations apps
 
@@ -189,7 +190,7 @@ After thorough internal integration tests and validations, customer engagement a
 
 Some organizations need instances to be in different regions, which might put them into different stations than their primary geographies. Therefore, as the deployment cycle of a new release starts, instances in different stations can be on different versions of the solution. As your project team develops new features that are used in your ALM deployment process, set up a version check for Dynamics 365 and make sure that there's a match so that your project doesn't face incompatibility issues. When the version of the source environments matches the destination, you can safely deploy your solutions.
 
-Check the [latest release of station mapping and their corresponding regions](/dynamics365/released-versions/dynamics-365ce). Release updates to Station 1 through Station 6 follow the dark hours defined for each geography.
+Check the [latest release of station mapping and their corresponding regions](/dynamics365/released-versions/Microsoft-Dataverse). Release updates to Station 1 through Station 6 follow the dark hours defined for each geography.
 
 ### Types of service updates
 
