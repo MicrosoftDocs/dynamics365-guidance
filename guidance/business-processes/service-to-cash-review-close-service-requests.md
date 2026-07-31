@@ -4,7 +4,7 @@ description: Learn about how to set up, configure, and design the Finalize work 
 author: nucruz
 ms.author: nucruz
 ms.topic: concept-article
-ms.date: 05/08/2026
+ms.date: 07/31/2026
 ---
 
 # Overview of the Finalize work orders business process within the Service to deliver end-to-end scenario
@@ -86,16 +86,22 @@ The following section shows the configurations available, and the sequence recom
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to assist with your *Finalize work orders* processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
-
-1. *Define service policies*
-
-2. *Create service requests*
-
-3. [Schedule service work](service-to-cash-schedule-service-work.md)
-
-4. [Perform service work](service-to-cash-perform-service-work.md)
-
-5. *Finalize work orders* (The article you're currently reading)
+1. [Service to deliver](service-to-cash-overview.md)  
+1. *Develop service strategy*
+1. [Plan service work](service-to-cash-manage-service-resources.md)  
+1. [Manage service work](service-to-cash-create-process-service-work.md)
+1. [Deliver services](service-to-cash-perform-service-work.md)  
+   1. *Gather work order details*
+   1. *Track frontline worker location*
+   1. *Perform service tasks*
+   1. *Collaborate on service work*
+   1. *Manage service truck inventory*
+   1. *Update asset register*
+   1. *Collect customer feedback*
+   1. *Record service timesheet*
+   1. *Update work order details*
+   1. *Finalize work orders* (The article you're currently reading)
+1. *Analyze service performance*
 
 ## Related information
 

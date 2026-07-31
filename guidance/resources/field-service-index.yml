@@ -142,7 +142,7 @@ landingContent:
       links:
         - text: Add booking statuses with custom icons
           url: field-service-mobile-booking-status.md
-        - text: Add a control for taking notes (preview)
+        - text: Add a control for taking notes
           url: field-service-mobile-take-notes.md
         - text: Add a mobile lookup control
           url: field-service-mobile-add-lookup.md

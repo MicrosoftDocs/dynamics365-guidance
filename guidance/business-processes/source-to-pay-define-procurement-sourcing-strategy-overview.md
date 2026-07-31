@@ -4,7 +4,7 @@ description: Learn about the Develop procurement and sourcing strategy business 
 author: Pjagotra
 ms.author: raprofit
 ms.topic: concept-article
-ms.date: 05/12/2026
+ms.date: 07/31/2026
 ---
 
 # Overview of the Develop procurement and sourcing strategy business process area within the Source to pay end-to-end scenario
@@ -35,15 +35,16 @@ The following diagram illustrates the *Develop procurement and sourcing strategy
 
 :::image type="content" source="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg" alt-text="Diagram of the business process area, showing the connection between the Source to pay business processes." lightbox="media\source-to-pay-define-procurement-sourcing-strategy-overview-1.svg":::
 
-1. Start
-2. *Develop procurement and sourcing strategy* business process area
-    1. *Develop procurement catalogs*
-    2. *Develop supplier segments*
-    3. *Develop procurement policies*
-    4. *Define accounts payable policies*
-    5. *Develop spend strategy*  
-    6. *Analyze sourcing market*  
-3. End
+- Start
+- *Develop procurement and sourcing strategy* business process area
+  - *Develop procurement catalogs*
+  - *Develop supplier segments*
+  - *Develop procurement policies*
+  - *Define accounts payable policies*
+  - *Define vendor classifications* (this process isn't currently shown in the diagram)
+  - *Develop spend strategy*  
+  - *Analyze sourcing market*  
+- End
 
 ## Benefits
 
@@ -77,19 +78,20 @@ The system supports strategic sourcing by allowing procurement teams to evaluate
 
 If you want to implement Dynamics 365 solutions to assist with the *Develop procurement and sourcing strategy* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)
 
-1. *Develop procurement and sourcing strategy* (The article you're currently reading)
+- *Develop procurement and sourcing strategy* (The article you're currently reading)
 
-    1. [Develop procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
-    2. *Develop supplier segments*
-    3. *Develop procurement policies*
-    4. *Define accounts payable policies*
-    5. *Develop spend strategy*  
-    6. *Analyze sourcing market*  
-1. [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
-1. *Source and contract goods and services*
-1. [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
-1. [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)
-1. *Analyze procurement and sourcing*
+  - [Develop procurement catalogs](source-to-pay-define-procurement-catalogs-overview.md)  
+  - *Develop supplier segments*
+  - *Develop procurement policies*
+  - *Define accounts payable policies*
+  - *Define vendor classifications*
+  - *Develop spend strategy*  
+  - *Analyze sourcing market*  
+- [Manage supplier relationships](source-to-pay-manage-vendor-relationships-overview.md)
+- *Source and contract goods and services*
+- [Procure goods and services](source-to-pay-procure-materials-services-overview.md)
+- [Manage accounts payable](source-to-pay-manage-accounts-payable-overview.md)
+- *Analyze procurement and sourcing*
 
 ## Related information
 

@@ -319,17 +319,21 @@ items:
                 href: business-processes/service-to-cash-overview.md
               - name: Business process areas
                 href: business-processes/service-to-cash-areas-overview.md
-              - name: Develop service strategy
-                href: business-processes/service-to-cash-manage-service-assets.md
-              - name: Plan service work overview
-                href: business-processes/service-to-cash-manage-service-resources.md
+              - name: Plan service work
+                items:
+                  - name: Plan service work overview
+                    href: business-processes/service-to-cash-manage-service-resources.md
+                  - name: Manage service assets
+                    href: business-processes/service-to-cash-manage-service-assets.md
               - name: Manage service work
                 items:
-                  - name: Manage service work
+                  - name: Manage service work overview
                     href: business-processes/service-to-cash-create-process-service-work.md
                   - name: Schedule frontline workers
                     href: business-processes/service-to-cash-schedule-service-work.md
-                  - name: Perform service work
+              - name: Deliver services
+                items:
+                  - name: Deliver services overview
                     href: business-processes/service-to-cash-perform-service-work.md
                   - name: Finalize work orders
                     href: business-processes/service-to-cash-review-close-service-requests.md
@@ -1007,7 +1011,7 @@ items:
                     items:
                       - name: Add booking statuses with custom icons
                         href: resources/field-service-mobile-booking-status.md
-                      - name: Add a control for taking notes (preview)
+                      - name: Add a control for taking notes
                         href: resources/field-service-mobile-take-notes.md
                       - name: Add a mobile lookup control (preview)
                         href: resources/field-service-mobile-add-lookup.md
@@ -1334,7 +1338,7 @@ items:
         items:
           - name: Migrate from Dynamics
             href: migrate/overview.md
-          - name: Dynamics CRM (on-premises) to Dynamics 365 online migration process overview
+          - name: Dynamics CRM or Dynamics 365 (on-premises) to Dynamics 365 online migration process overview
             href: migrate/opol-crm-migration-high-level-overview.md
           - name: AIM program
             items:

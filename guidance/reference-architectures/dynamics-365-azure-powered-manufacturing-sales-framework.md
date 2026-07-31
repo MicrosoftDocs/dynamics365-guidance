@@ -4,16 +4,16 @@ description: Learn how to modernize sales processes in manufacturing with Dynami
 author: vibhutinair23
 ms.author: vibhutinair
 ms.topic: reference-architecture
-ms.date: 08/13/2025
+ms.date: 07/29/2026
 ---
 
 # Dynamics 365 and Azure-powered manufacturing sales framework
 
-***Applies to: Dynamics 365 Sales, Power Automate, Power Apps, Power Pages, Dataverse, Azure Logic Apps, Azure Functions, Azure Data Lake, Azure Synapse, Azure Key Vault, Azure SQL Database, Azure Active Directory***
+***Applies to: Dynamics 365 Sales, Power Automate, Power Apps, Power Pages, Dataverse, Power BI, Microsoft Entra ID, Azure Functions, Azure Logic Apps, Azure Data Lake, Azure Synapse, Azure SQL, Azure Service Bus***
 
 This solution uses Microsoft technologies to modernize Contoso's sales and data management solutions to build a solution that addresses Contoso's challenges. The new solution includes the following apps and services:
 
-- Dynamics 365 Sales as the core customer relationship management (CRM) solution
+- Dynamics 365 Sales as the core customer engagement solution
 - Dataverse for custom data structures
 - Power BI with Azure Data Lake for analytics
 - Power Pages for branded external access
@@ -64,7 +64,7 @@ The conceptual diagram shows a high-level view of the system architecture. It in
 - **Users**: Sales Representatives, Regional Managers, Marketing Directors, and Sales Directors, representing key stakeholders across Contoso's sales ecosystem.
 - **Client Layer**: Apps like Sales Hub, Field Service, Partners MDA, Partners Portal, SAP, and a Quoting Tool, available on desktop and mobile devices.
 - **Identity**: Managed through Microsoft Entra Identity for secure access across the tenant.
-- **Application Layer**: Dynamics 365 apps, Office 365 tools, and Azure Communication Services.
+- **Application Layer**: Dynamics 365 apps, Microsoft 365 tools, and Azure Communication Services.
 - **Platform Layer**: Power Platform (Web Services, Security, Workflow, Form Engine) and Dynamics 365 tenant, supported by Copilot and Workspace tools.
 - **Data Layer**: Dataverse, integrated with Azure Data Services (SQL, Data Lake) and on-premises Mainframes/ERP systems.
 - **Integration Layer**: Azure Integration Services (Functions, Logic Apps, Synapse, Data Factory, Service Bus) and Cloud Flows, connecting cloud apps and SAP S/4HANA.
@@ -224,99 +224,9 @@ To reduce costs, Contoso took the following into consideration:
 - **Data volume optimization**: Filter data pipelines (for example, `changedonly=true` in Logic Apps) to process only updated records. This approach can reduce compute costs by 20 to 30 percent.
 - **Phased deployment**: Roll out core Dynamics 365 and Data Hub in Phase I. Delay SAP and portal expansions until you see initial benefits, deferring costs.
 
-<!-- ## Procedure: Implement Azure Functions for real-time data processing in Data Hub
-
-To configure and deploy an Azure Function to handle real-time data processing (for example, syncing Quoting Tool data to the Data Hub) as part of the reference architecture, follow these steps:
-
-1. Open the [Azure Portal](https://portal.azure.com) and sign in with your Azure account.
-2. Navigate to the **Function App** service by clicking **Create a resource**, then search for **Function App** and select **Create**.
-3. Configure the basics:
-   - **Subscription**: Select your Azure subscription.
-   - **Resource Group**: Create a new group (for example, Contoso-DataHub-RG).
-   - **Function App name**: Enter a unique name (for example, ContosoDataHubFunction).
-   - **Runtime stack**: Select **.NET** or preferred language.
-   - **Region**: Select the same region as your Azure Data Lake (for example, West US).
-4. Set up hosting:
-   - **Operating System**: Select **Windows** or **Linux**.
-   - **Plan type**: Select **Consumption Plan** for cost efficiency.
-   - **Storage account**: Create a new storage account (for example, contosodatastorage).
-5. Review and create the Function App, then wait for deployment.
-6. Once deployed, go to the Function App, click **Functions**, then click **+ Create** and select **HTTP trigger**.
-7. Configure the HTTP trigger:
-   - **Name**: Enter **ProcessQuotingData**.
-   - **Authorization level**: Set to **Function** (requires a key).
-8. To save and test the function, click **Get function URL** and use a tool like Postman to send a sample request.
-9. Integrate with Logic Apps (step 5b from architecture) by adding an HTTP action to call this URL with the API token.
-
-## Procedure: Configure Azure AD B2C for Power Apps Portals authentication
-
-To set up Azure AD B2C authentication for 2,000 external portal users in the reference architecture, follow these steps:
-
-1. Open the [Azure Portal](https://portal.azure.com) and ensure you're in the default directory.
-2. Go to **Azure AD B2C** by selecting **Create a resource**, then search for **Azure AD B2C** and select **Create**.
-3. Set up the B2C tenant:
-   - **Organization name**: Enter **ContosoB2C**.
-   - **Initial domain name**: Enter **contosob2c** (for example, contosob2c.onmicrosoft.com).
-   - **Country**: Select **United States**.
-4. Create the tenant, then switch to the new B2C tenant from the top directory switcher.
-5. Register an application for the Power Apps portal:
-   - Go to **App registrations** and select **+ New registration**.
-   - **Name**: Enter **ContosoPortalB2CApp**.
-   - **Redirect URI**: Set to `https://your-portal-domain.microsoftcrmportals.com/signin-azure-ad-b2c` (replace with your portal URL).
-   - **Supported account types**: Select **Accounts in any identity provider or organizational directory**.
-6. Note the application (client) ID after creation.
-7. Generate a client secret:
-   - Go to **Certificates & secrets** and select **+ New client secret**.
-   - **Description**: Enter **PortalSecret**.
-   - **Expires**: Set to **2 years**.
-   - Copy the secret value and store it securely.
-8. Set up a user flow:
-   - Go to **User flows** and select **+ New user flow**.
-   - Select **Sign up and sign in**, then enter **B2CSignupSignin** as the name.
-   - Identity provider: Choose **Email signup**.
-   - **User attributes**: Select **Email Address**, **Given Name**, and **Surname**.
-   - **Claims**: Select **Email**, **Given Name**, **Surname**, and **Identity Provider**.
-9. Link to Power Apps portal:
-   - In the portal admin center, go to **Site Settings**.
-   - Add the following settings:
-      - **Name**: "Authentication/OpenIdConnect/ContosoB2C/ClientId"
-      - **Value**: Paste the Application ID from step 6.
-      - **Name**: "Authentication/OpenIdConnect/ContosoB2C/ClientSecret"
-      - **Value**: Paste the client secret from step 7.
-      - **Name**: "Authentication/OpenIdConnect/ContosoB2C/Authority"
-      - **Value**: `https://contosob2c.b2clogin.com/contosob2c.onmicrosoft.com/B2CSignupSignin/v2.0`
-10. Test the login by going to the portal URL and checking B2C authentication for external users.
-
-## Procedure: Link Dataverse to Microsoft Fabric for data integration
-
-Connect Dataverse to Microsoft Fabric for advanced analytics in the reference architecture. Follow these steps:
-
-1. Open [Power Apps](https://make.powerapps.com) and sign in with admin credentials.
-2. Navigate to **Environments** and select the environment linked to Dynamics 365.
-3. Go to **Azure Synapse Link** from the left navigation pane.
-4. Select **Microsoft OneLake** and click **Link to Microsoft Fabric**.
-5. Choose a Power BI premium workspace:
-   - Select a workspace in the same region (for example, West US) with a capacity SKU (for example, "F2" for trial).
-   - If none exists, create one through the Fabric admin portal or sign up for a free Fabric trial.
-6. Enable Parquet/Delta lake:
-   - Check **Enable Parquet/Delta lake option** to allow Fabric access.
-7. Add tables to Fabric:
-   - Select **Manage tables** and then select **+ Add table**.
-   - Choose key Dataverse tables (for example, Opportunities, Quotes, Accounts).
-   - Wait for the initial sync to complete and verify the OneLake shortcut creation.
-8. Refresh and monitor:
-   - To update newly enabled tables, click **Refresh Fabric tables**.
-   - Review downstream Power BI reports to ensure that there is no impact from changes.
-9. Build analytics:
-   - Open Fabric through **View in Microsoft Fabric** and create a lakehouse or report using synced Dataverse data for 5,000 records/hour processing. -->
-
-<!--
-## Next steps
--->
-
 ## Related patterns
 
-The following patterns are available to help guide your implementation of the set customer credit limits business process.
+The following patterns can help guide your implementation.
 
 ### Event-driven architecture
 
@@ -324,7 +234,7 @@ The following patterns are available to help guide your implementation of the se
 
 ### Data lakehouse architecture
 
-[Medallion lakehouse architecture](/azure/databricks/lakehouse/medallion): This resource explores how to implement the medallion architecture using a data lake as a middle integration layer to connect multiple systems, such as CRM (Dynamics 365), ERP (SAP), and external tools (Quoting Tool). It emphasizes the use of Delta Lake for data ingestion (Bronze), transformation (Silver), and analytics-ready aggregation (Gold), with integration services facilitating seamless data flow across systems. The article highlights practical examples of using Azure Databricks and integration tools to manage data pipelines, making it highly relevant to this architecture's Data Hub and real-time processing needs (for example, 5,000 records/hour).
+[Medallion lakehouse architecture](/azure/databricks/lakehouse/medallion): This resource explores how to implement the medallion architecture using a data lake as a middle integration layer to connect multiple systems, such as CRM (Dynamics 365), ERP (Dynamics 365 or SAP), and external tools (Quoting Tool). It emphasizes the use of Delta Lake for data ingestion (Bronze), transformation (Silver), and analytics-ready aggregation (Gold), with integration services facilitating seamless data flow across systems. The article highlights practical examples of using Azure Databricks and integration tools to manage data pipelines, making it highly relevant to this architecture's Data Hub and real-time processing needs (for example, 5,000 records per hour).
 
 ## Related resources
 

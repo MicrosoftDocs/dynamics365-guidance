@@ -4,7 +4,7 @@ description: Explore the benefits of feature management in Dynamics 365, includi
 author: edupont04
 contributors: sabasirm
 ms.topic: concept-article
-ms.date: 03/30/2026
+ms.date: 07/31/2026
 ms.author: edupont
 ms.custom:
   - ai-gen-docs-bap
@@ -50,32 +50,33 @@ Explore the *administer system features* process flow in the following diagram t
 
 The following steps are shown in the *administer business process* flow diagram:
 
-1. Start  
-1. *Administer to operate*
-1. *Administer system features*
+- Start  
+- *Administer to operate*
+- *Administer system features*
 
-    1. *Configure and administer workflows*
-    2. *Configure, monitor, and send emails*
-    3. *Manage file storage*
-    4. *Configure and monitor system-generated numbers*
-    5. *Configure and maintain cloud-based printing*  
-    6. *Configure and maintain electronically generated documents*
-    7. *Configure and manage offline mode for apps*  
-    8. *Configure and manage mobile apps and devices*
-    9. *Configure and manage store devices*
-    10. *Configure and manage Office apps and add-ins*  
-    11. *Configure and manage reporting and analytics*  
-    12. *Configure and manage search*  
-    13. *Configure and manage portals*  
-    14. *Manage organizational structure*
-    15. *Configure and manage surveys*  
-    16. *Configure and manage IoT devices*  
-    17. *Configure and manage Copilot capabilities*  
-    18. *Configure and manage Microsoft Teams integrations*  
-    19. *Configure and manage geofencing and geolocation settings*
-    20. *Configure and manage agents*
+  - *Configure and administer workflows*
+  - *Configure, monitor, and send emails*
+  - *Manage file storage*
+  - *Configure and monitor system-generated numbers*
+  - *Configure and maintain cloud-based printing*  
+  - *Configure and maintain electronically generated documents*
+  - *Configure and manage offline mode for apps*  
+  - *Configure and manage mobile apps and devices*
+  - *Configure and manage store devices*
+  - *Configure and manage Office apps and add-ins*  
+  - *Configure and manage reporting and analytics*  
+  - *Configure and manage search*  
+  - *Configure and manage portals*  
+  - *Manage organizational structure*
+  - *Configure and manage surveys*  
+  - *Configure and manage IoT devices*  
+  - *Configure and manage Copilot capabilities*  
+  - *Configure and manage Microsoft Teams integrations*  
+  - *Configure and manage geofencing and geolocation settings*
+  - *Configure and manage agents*
+  - *Define address and location policies* (this process isn't currently shown in the diagram)
 
-1. End  
+- End  
 
 The process flow starts with setting up workflows as the core automation, followed by setting up email and document generation. Next, manage system resources by organizing file storage and system-generated numbers. For user access and mobility, set up cloud printing, offline mode, and mobile apps. Then, configure user interfaces, including Office apps and portals, and establish data analytics and search capabilities. Align the organization by managing its structure and setting up surveys. Finally, implement advanced features like IoT devices, Copilot, Teams integrations, and geofencing.
 
@@ -115,41 +116,42 @@ The process supports the scaling of operations, ensuring the system can adapt as
 
 If you want to implement Dynamics 365 solutions to assist with your *administer system features* business processes, you can use the following resources and steps to learn more. (Links are added when the articles are ready.)  
 
-1. [Implement solutions overview](administer-to-operate-implement-solutions.md)  
-1. [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
-1. *Manage licensing and entitlements*  
-1. *Administer system features* (the article you're currently reading)  
+- [Implement solutions overview](administer-to-operate-implement-solutions.md)  
+- [Define business continuity plan](administer-to-operate-define-business-continuity-plan-overview.md)  
+- *Manage licensing and entitlements*  
+- *Administer system features* (the article you're currently reading)  
 
-    1. *Configure and administer workflows*
-    2. *Configure, monitor, and send emails*
-    3. *Manage file storage*
-    4. *Configure and monitor system-generated numbers*
-    5. *Configure and maintain cloud-based printing*  
-    6. *Configure and maintain electronically generated documents*
-    7. *Configure and manage offline mode for apps*  
-    8. *Configure and manage mobile apps and devices*
-    9. *Configure and manage store devices*
-    10. *Configure and manage Office apps and add-ins*  
-    11. *Configure and manage reporting and analytics*  
-    12. *Configure and manage search*  
-    13. *Configure and manage portals*  
-    14. *Manage organizational structure*
-    15. *Configure and manage surveys*  
-    16. *Configure and manage IoT devices*  
-    17. *Configure and manage Copilot capabilities*  
-    18. *Configure and manage Microsoft Teams integrations*  
-    19. *Configure and manage geofencing and geolocation settings*
-    20. *Configure and manage agents*
+  - *Configure and administer workflows*
+  - *Configure, monitor, and send emails*
+  - *Manage file storage*
+  - *Configure and monitor system-generated numbers*
+  - *Configure and maintain cloud-based printing*  
+  - *Configure and maintain electronically generated documents*
+  - *Configure and manage offline mode for apps*  
+  - *Configure and manage mobile apps and devices*
+  - *Configure and manage store devices*
+  - *Configure and manage Office apps and add-ins*  
+  - *Configure and manage reporting and analytics*  
+  - *Configure and manage search*  
+  - *Configure and manage portals*  
+  - *Manage organizational structure*
+  - *Configure and manage surveys*  
+  - *Configure and manage IoT devices*  
+  - *Configure and manage Copilot capabilities*  
+  - *Configure and manage Microsoft Teams integrations*  
+  - *Configure and manage geofencing and geolocation settings*
+  - *Configure and manage agents*
+  - *Define address and location policies*
 
-1. [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
-1. [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
-1. *Monitor systems, environments, and capacity*  
-1. *Manage background jobs*  
-1. *Manage notifications alerts*  
-1. *Uptake software releases*  
-1. [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
-1. [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
-1. [Support systems](administer-to-operate-support-systems-overview.md)  
+- [Manage system access and security](administer-to-operate-manage-system-access-security.md)  
+- [Train users and increase adoption](administer-to-operate-train-users-increase-adoption-overview.md)  
+- *Monitor systems, environments, and capacity*  
+- *Manage background jobs*  
+- *Manage notifications alerts*  
+- *Uptake software releases*  
+- [Manage data](administer-to-operate-manage-data-synchronization-overview.md)  
+- [Manage system compliance](administer-to-operate-manage-system-compliance.md)  
+- [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related resources  
 

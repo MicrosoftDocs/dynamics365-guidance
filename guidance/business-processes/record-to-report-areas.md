@@ -1,7 +1,7 @@
 ---
 title: Overview of the Record to report business process areas
 description: Get an overview for each of the business process areas in the record to report end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 03/26/2026
+ms.date: 07/31/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kgiardini
@@ -51,10 +51,6 @@ In addition to the robust budgeting capabilities of Finance, there are also budg
 
 Learn more at [Manage budgets](record-to-report-manage-budgets.md).
 
-<!-- ## Maintain and manage cash and bank transactions
-
-This business process area involves managing cash and bank transactions, including bank account reconciliations, cash management, and bank statement processing. The Cash and bank management module in Dynamics 365 Finance supports various payment types and includes bank reconciliation functionality to help automate the month-end activities. -->
-
 ## Record financial transactions
 
 This business process area involves recording financial transactions, including general ledger transactions, allocations, deferrals, and accruals, just to name a few. With the configurable workflow engine available out of the box, you can design your business process flow and approvals to match your business requirements.
@@ -72,22 +68,6 @@ Learn more at [Close financial periods](record-to-report-close-financial-periods
 This business process area involves monitoring and analyzing cash flow to optimize cash management and support financial planning and forecasting. Dynamics 365 Finance includes AI-driven automation to create cash flow forecasts that you can compare to snapshots and actuals. This automation makes the job of analyzing your cash flow easier.
 
 In addition to cash flow reporting, there's a need to review financial transactions and prepare financial statements, including balance sheets, and income statements. The results are then analyzed by looking at the financial results, including variance analysis, trend analysis, and financial reporting. When you use budgeting features, this process also includes the comparison of budgets to actuals.
-
-## Comply with tax, audit, and regulatory requirements
-
-This business process area is deprecated in the current version of the business process catalog and now included in the *Define accounting policies* business process area.
-<!-- 
-This business process area involves complying with audit and regulatory requirements, including financial reporting, tax compliance, and internal controls. It often includes managing the security of your financial records and validation of the segregation of duties. Using the *Audit workbench*, you can manage audit cases and request through the resolution process. You can also use archival features to help manage the data retention policies of your organization.
-
-It also covers the need to design and implement statutory, tax, and localization requirements, including tax reporting, VAT, and legal reporting requirements. Dynamics 365 Finance includes a wide-ranging tax engine to calculate and manage various different taxes including, but not limited to sales tax, use tax, withholding tax, value added taxes, and more. Dynamics 365 Finance includes more than 40 localizations. Find a complete list of countries/regions and languages supported at [Globalization resources](/dynamics365/fin-ops-core/dev-itpro/lcs-solutions/country-region).  
-
-Learn more at [Comply with tax, audit, and regulatory requirements overview](record-to-report-comply-tax-audit-regulatory-requirements.md).   -->
-
-## Manage fund accounting
-
-This business process area is deprecated in the current version of the business process catalog and now included in the *Manage cash* business process area.
-
-<!-- In most public sector organizations, there's a requirement to track, manage, and report financials by funds. Dynamics 365 Finance includes comprehensive functionality to support the public sector in this process. This business process area involves managing fund accounting, including fund structures, fund accounting rules, and fund reporting. It also includes more capabilities and processes to support appropriations, [ledger settlements](/dynamics365/finance/general-ledger/ledger-settlements), and an extra process for closing financial periods specific to fund accountingEva: I have no idea what this last clause is supposed to mean, but I rewrote it to make some level of sense. -->
 
 ## Next steps
 
