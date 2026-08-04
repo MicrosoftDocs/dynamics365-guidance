@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
-ms.date: 06/23/2026
+ms.date: 08/04/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
@@ -105,9 +105,9 @@ Traditionally, Success by Design relied on point-in-time Solution Blueprint Revi
 | Guidance | Human-centric, manual | Dynamic recommendations from autonomous agents |
 | Risk detection | Reactive, end-of-phase | Real-time, proactive throughout the lifecycle |
 
-### Success by Design: Agentic Design Principles
+### Success by Design and agentic design principles
 
-Success by Design now includes Agentic design principles to support the unique demands of AI-first and agent-powered implementations. Key principles include:
+Success by Design now includes *agentic design principles* to support the unique demands of AI-first and agent-powered implementations. Key principles include the following:
 
 - **Integrate agents**: Treat agents as first-class components of the solution architecture, not add-ons.
 - **Embrace agent-first experiences**: Design business processes with agent-assisted and autonomous execution patterns in mind.
@@ -131,18 +131,19 @@ Understanding where your organization sits on this maturity curve helps your pro
 
 ### Built-in agents in Dynamics 365 apps
 
-Dynamics 365 includes a growing set of agents built-in by Microsoft across all workloads, enabling implementation teams to deliver agent-powered solutions without building from scratch:
+Dynamics 365 includes a growing set of agents built-in by Microsoft so that implementation teams can deliver agent-powered solutions without building from scratch. Microsoft provides an overview of the capabilities [in the Dynamics 365 hub](/dynamics365/copilot/ai-get-started). The following table provides links to the relevant sections for each of the listed apps:
 
-| Workload | Example agents and Copilot capabilities |
+| Dynamics 365 app | Learn more |
 | ---------- | ---------------------------------------- |
-| **Sales** | Sales Qualification Agent, Opportunity Research Agent, Sales Chat, Sales Agent, AI Powered Data Enrichment Agent, Sales Research Agent, Recommended Actions Agent |
-| **Customer Service** | Customer Intent Agent, Case Management Agent, Customer Knowledge Management Agent |
-| **Field Service** | Scheduling Operations Agent, Inspection Builder, Work Order Summary |
-| **Customer Insights** | Proactive Engagement, Segmentation NL Query, Journey Copilot |
-| **Commerce** | Store Operations Agent, Copilot POS Insights, Site Builder Copilot |
-| **Finance** | Account Reconciliation Agent, Copilot for Finance |
-| **Supply Chain** | Supplier Communications Agent, Sales Order Agent |
-| **Business Central** | Sales Order Agent, Payables Agent |
+| **Business Central** | [Copilot and AI agent capabilities in Dynamics 365 Business Central](/dynamics365/copilot/ai-get-started#dynamics-365-business-central) |
+| **Commerce** | [Copilot and AI agent capabilities in Dynamics 365 Commerce](/dynamics365/fin-ops-core/fin-ops/copilot/copilot-for-finance-operations#dynamics-365-commerce) and [Capabilities in Dynamics 365 apps inherited from finance and operations apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-finance-and-operations-apps) |
+| **Customer Insights** | [Copilot and AI agent capabilities in Dynamics 365 Customer Insights](/dynamics365/copilot/ai-get-started#dynamics-365-customer-insights) and [Capabilities in Dynamics 365 apps inherited from Power Apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-power-apps) |
+| **Customer Service** | [Copilot and AI agent capabilities in Dynamics 365 Customer Service and Dynamics 365 Contact Center](/dynamics365/copilot/ai-get-started#dynamics-365-customer-service-and-dynamics-365-contact-center) and [Capabilities in Dynamics 365 apps inherited from Power Apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-power-apps) |
+| **Field Service** | [Copilot and AI agent capabilities in Dynamics 365 Field Service](/dynamics365/copilot/ai-get-started#dynamics-365-field-service) and [Capabilities in Dynamics 365 apps inherited from Power Apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-power-apps) |
+| **Finance** | [Copilot and AI agent capabilities in Dynamics 365 Finance](/dynamics365/copilot/ai-get-started#dynamics-365-finance) and [Capabilities in Dynamics 365 apps inherited from finance and operations apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-finance-and-operations-apps) |
+| **Project Operations** | [Copilot and AI agent capabilities in Dynamics 365 Project Operations](/dynamics365/copilot/ai-get-started#dynamics-365-project-operations) and [Capabilities in Dynamics 365 apps inherited from finance and operations apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-finance-and-operations-apps) |
+| **Sales** | [Copilot and AI agent capabilities in Dynamics 365 Sales](/dynamics365/copilot/ai-get-started#dynamics-365-sales) and [Capabilities in Dynamics 365 apps inherited from Power Apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-power-apps) |
+| **Supply Chain** | [Copilot and AI agent capabilities in Dynamics 365 Supply Chain Management](/dynamics365/copilot/ai-get-started#dynamics-365-supply-chain-management) and [Capabilities in Dynamics 365 apps inherited from finance and operations apps](/dynamics365/copilot/ai-get-started#capabilities-in-dynamics-365-apps-inherited-from-finance-and-operations-apps) |
 
 Organizations can also extend first-party agents or build custom agents using Microsoft Copilot Studio to address business-specific processes that drive high value and measurable outcomes.
 
