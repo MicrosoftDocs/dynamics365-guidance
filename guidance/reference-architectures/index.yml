@@ -8,7 +8,7 @@ metadata:
   description: Overview of recommended architectures for Dynamics 365 implementations.
   author: edupont04
   ms.author: edupont
-  ms.date: 04/20/2026
+  ms.date: 08/17/2026
   ms.topic: landing-page # DON'T CHANGE
   ms.custom: bap-template #Required; don't change.
 
@@ -119,6 +119,8 @@ landingContent:
         links:
           - text: Optimized year end closing process
             url: finance-optimized-year-end-closing-process.md
+          - text: Contract-to-collection for utility companies
+            url: finance-utilities-contract-collection.md
 
 # Card - finance and operations apps
 
@@ -132,3 +134,9 @@ landingContent:
             url: finance-operations-dataverse-power-pages.md
           - text: Composable commerce architecture
             url: composable-commerce-architecture.md
+          - text: Hybrid integration of Dynamics 365 and on-premises ERP
+            url: finance-operations-hybrid-integration.md
+          - text: Resilient integration of Dynamics 365 and external systems
+            url: finance-operations-resilient-inbound-integration-external-system.md
+          - text: Automate purchase requisition and supplier invoice approvals with external project management application
+            url: finance-operations-purchase-requisition-external-project-management.md
