@@ -1013,7 +1013,7 @@ items:
                         href: resources/field-service-mobile-booking-status.md
                       - name: Add a control for taking notes
                         href: resources/field-service-mobile-take-notes.md
-                      - name: Add a mobile lookup control (preview)
+                      - name: Add a mobile lookup control
                         href: resources/field-service-mobile-add-lookup.md
                       - name: Disable clickthrough on lookup values in forms
                         href: resources/field-service-mobile-disable-click.md
@@ -1278,6 +1278,12 @@ items:
                 href: reference-architectures/finance-operations-dataverse-power-pages.md
               - name: Optimized year end closing process
                 href: reference-architectures/finance-optimized-year-end-closing-process.md
+              - name: Contract-to-collection for utility companies
+                href: reference-architectures/finance-utilities-contract-collection.md
+              - name: Hybrid integration for finance and operations
+                href: reference-architectures/finance-operations-hybrid-integration.md
+              - name: Automate purchase requisition and supplier invoice approvals
+                href: reference-architectures/finance-operations-purchase-requisition-external-project-management.md
           - name: Sales
             items:
               - name: Dynamics 365 and Azure-powered manufacturing sales framework
@@ -1306,6 +1312,8 @@ items:
                 href: reference-architectures/supply-chain-commerce-bopis-architecture.md
               - name: Message-based integration of Supply Chain Management with a telematics solution
                 href: reference-architectures/supply-chain-message-based-integration-telematics-solution.md
+              - name: Resilient inbound integration with external systems
+                href: reference-architectures/finance-operations-resilient-inbound-integration-external-system.md
           - name: Healthcare write-back identifiers to FHIR server
             href: reference-architectures/healthcare-writeback-dynamics-365-identifiers-fhir-server.md
           - name: Extend model-driven apps with a custom Copilot Studio agent
