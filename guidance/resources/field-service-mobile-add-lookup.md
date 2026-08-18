@@ -1,24 +1,17 @@
 ---
-title: Add a mobile lookup control to the Field Service mobile app (preview)
+title: Add a mobile lookup control to the Field Service mobile app
 description: Learn how to add a mobile lookup control for the Dynamics 365 Field Service mobile app.
 ms.topic: how-to
-ms.date: 06/17/2026
+ms.date: 08/17/2026
 author: heerpatelmsft
 ms.author: heerpatel
 ms.custom:
   - O25-FieldService
 ---
 
-# Add a mobile lookup control to the Field Service mobile app (preview)
-
-[This article is prerelease documentation and is subject to change.]
+# Add a mobile lookup control to the Field Service mobile app
 
 Optimize the Field Service mobile lookup experience by configuring a Drawer Lookup control to a lookup component. Improve mobile navigation speed with reduced clicks, select quickly from lists with a modern bottom sheet, and increase overall user efficiency and satisfaction.
-
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 To use mobile lookup in Power Apps:
 
