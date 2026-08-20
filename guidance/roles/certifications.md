@@ -6,7 +6,7 @@ author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
 ms.topic: overview
-ms.date: 05/04/2026
+ms.date: 08/20/2026
 ---
 
 # Microsoft Credentials for different roles in Dynamics 365
@@ -30,6 +30,10 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
 
   - [Dynamics 365 Customer Insights - Data Specialty](/credentials/certifications/customer-data-platform-specialty/)  
   - [Dynamics 365 Customer Insights - Journeys Functional Consultant Associate](/credentials/certifications/d365-customer-insights-journeys-functional-consultant/)   -->
+
+- Dynamics 365 Contact Center
+
+  - [Dynamics 365 Contact Center AI Engineer Associate](/credentials/certifications/d365-contact-center-ai-engineer-associate/)  
 
 - Dynamics 365 Customer Service
 
@@ -66,6 +70,7 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
 
 <!-- - [Dynamics 365 Fundamentals (CRM)](/credentials/certifications/d365-fundamentals-customer-engagement-apps-crm/)  
 - [Dynamics 365 Fundamentals (ERP)](/credentials/certifications/d365-fundamentals-finance-and-operations-apps-erp/)   -->
+- [Dynamics 365 Sales AI Consultant Associate](/credentials/certifications/d365-sales-ai-consultant-associate/)
 - [Power Platform App Maker Associate](/credentials/certifications/power-platform-app-maker/)  
 
 ## Business analysts
@@ -81,7 +86,7 @@ Learn new skills and boost your productivity with Microsoft Credentials. This ar
   <!-- - [Power Apps + Dynamics 365 Developer Associate](/credentials/certifications/power-apps-and-d365-developer-associate/)   -->
 - [Power Automate RPA Developer Associate](/credentials/certifications/power-automate-rpa-developer-associate)  
 
-## Related content
+## Related information
 
 - [Overview of roles in Dynamics 365](overview.md)  
 - [Microsoft Applied Skills: Create agents in Microsoft Copilot Studio](/credentials/applied-skills/create-agents-in-microsoft-copilot-studio/)  

@@ -1,21 +1,24 @@
 ---
-title: Dynamics 365 guidance documentation overview
-description: Get an introduction to the types of guidance content, best practices, and recommendations Microsoft publishes for Dynamics 365.
+title: What Is Dynamics 365 Guidance?
+description: Explore Dynamics 365 guidance, including implementation content, best practices, and Microsoft recommendations. Find resources to plan your solution.
 author: edupont04
 ms.author: edupont
 ms.topic: overview
-ms.date: 05/11/2026
+ms.date: 08/20/2026
 ---
 
 # What is Dynamics 365 guidance?
 
-Welcome to the various types of implementation guidance that Microsoft provides for Dynamics 365. Get an overview of already published content at [Dynamics 365 guidance documentation](index.yml), and submit new content here.
+Dynamics 365 guidance helps solution architects, administrators, and consultants plan successful implementations by using Microsoft design patterns, business processes, best practices, reference architectures, and tools. Use this overview to find relevant guidance and learn how to contribute.
 
-## Overview
+## Dynamics 365 guidance overview
 
-In this section, you get an overview of what Microsoft means by the term *guidance*. At Microsoft, the term *guidance* refers to design patterns, reference architectures, deployment diagrams, and other recommended approaches to implement Microsoft services in an organization. Solution architects, administrators, functional consultants, and many more use the content to start conversations or implementations. For Dynamics 365, the guidance includes end-to-end business process descriptions, and best practices for how to configure and set up Dynamics 365 for an organization.
+In this section, you get an overview of what Microsoft means by the term *guidance*. At Microsoft, the term *guidance* refers to design patterns, reference architectures, deployment diagrams, and other recommended approaches to implement Microsoft services in an organization. Solution architects, administrators, functional consultants, and many more use the content to start conversations or implementations. For Dynamics 365, the guidance also includes end-to-end business process descriptions, and best practices for how to configure and set up Dynamics 365 for an organization.
 
 Microsoft believes that every business is in the business of creating great customer experiences. To achieve that goal, business applications must do more than just run your back office, marketing, supply chain, or even field operations as discrete entities. Businesses don't just implement technology solutions, they implement business applications to solve real-life business problems. These investments often come with an expectation of a return on investment, a reduction in total cost of ownership, or another perceived and measurable business objective. The [end-to-end business processes](#end-to-end-business-processes) content helps guide your implementation to success faster and easier.
+
+> [!TIP]
+> Can't find what you're looking for? Jump to the relevant overview by choosing a link in the *In this article* pane in the right panel of this article. Or search for the relevant term in the *Find by title* field in the navigation panel on the left side.  
 
 Find related content at [Power Platform guidance documentation](/power-platform/guidance/) and the [Azure Architecture Center](/azure/architecture/). Also, the [Microsoft Cloud Adoption Framework for Azure](/azure/cloud-adoption-framework/) contains proven guidance and best practices that help you confidently adopt the cloud and achieve business outcomes.
 
@@ -23,28 +26,9 @@ Find related content at [Power Platform guidance documentation](/power-platform/
 
 Dynamics 365 is a suite of applications that help organizations meet their goals by aligning with a variety of business processes focused on specific industries. [!INCLUDE [daf-business-process-def](~/../shared-content/shared/guidance-includes/daf-business-process-def.md)] In these articles, flowcharts illustrate the sequence of steps. Learn more at [About the business process guide](business-processes/about.md).  
 
-The business process content is structured into six levels:
+[!INCLUDE [daf-bus-proces-catalog](~/../shared-content/shared/guidance-includes/daf-bus-proces-catalog.md)]
 
-- *End-to-end processes*
-
-  This level represents the complete flow of activities from the initial trigger to the final outcome.
-- *Areas*
-
-  This level represents a significant grouping of related activities that contribute to the overall objective.
-- *Business processes*
-
-  This level represents specific sets of activities or tasks that accomplish a particular business function within a business process area.
-- *Scenarios*
-
-  This level is for unique ways of carrying out a specific business process, often tailored to different scenarios, industries, or requirements.
-- *System processes*
-
-  This level is for portions of a business process that use a specific form, page, or UI element in Dynamics 365.  
-- *Test cases*
-
-  This level is for a detailed set of conditions and steps you use to determine whether a software application or system functions correctly.
-
-Learn more at [Overview of the business process catalog levels](business-processes/about-catalog-levels.md). [Learn how to contribute to this library](/dynamics365/get-started/contribute#business-process-contributions).
+Learn more at [Overview of the business process catalog levels](business-processes/about-catalog-levels.md). Learn how to contribute to this library at [Contributor guide for Dynamics 365 guidance content](/dynamics365/get-started/contribute#business-process-contributions).
 
 ## Implementation guide
 
@@ -87,13 +71,13 @@ This section provides an overview of content that's relevant for software develo
 
 This section provides best practices for ongoing administrative tasks, such as data management, reporting and business intelligence, servicing the solution, and other aspects of administrative tasks. Learn more at [What is the administration guide?](implementation-guide/admin-guide-overview.md)
 
-## Patterns
+## Dynamics 365 configuration patterns
 
 This section is still growing. It includes configuration patterns as part of the business process catalog. Patterns are configurations that admins and consultants use repeatedly to bring Dynamics 365 solutions to life. [Learn how to contribute to this library](/dynamics365/get-started/contribute#dynamics-365-guidance-content).
 
 ## Reference architectures
 
-We're gradually building a library of reference architectures to help implementers get deployments and integrations right. We welcome architectures that solution architects get approved as part of the [FastTrack Recognized Solution Architect](fasttrack/instruction-guide-fasttrack-recognized-solution-architect.md) nomination. [Learn how to contribute to this library](/dynamics365/get-started/contribute#dynamics-365-guidance-content).
+We're building a library of reference architectures to help implementers get deployments and integrations right. We welcome architectures that solution architects get approved as part of the [FastTrack Recognized Solution Architect](fasttrack/instruction-guide-fasttrack-recognized-solution-architect.md) nomination. Learn how to contribute to this library at [Contributor guide for Dynamics 365 guidance content](/dynamics365/get-started/contribute#dynamics-365-guidance-content).
 
 ## Security and compliance
 
@@ -105,7 +89,7 @@ In this section, you find information about the migration tools from Microsoft t
 
 ## Development guides
 
-This section provides an overview of design principles that you want to apply if you customize or extend the customer engagement apps. Learn more at [UI/UX Design for Dynamics 365](develop/introduction-customer-engagement-ui-ux-design-guide.md).    
+This section provides an overview of design principles that you want to apply if you customize or extend the customer engagement apps. Learn more at [UI/UX Design for Dynamics 365](develop/introduction-customer-engagement-ui-ux-design-guide.md).  
 
 ## FastTrack
 
