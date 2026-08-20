@@ -1,9 +1,9 @@
 ---
-title: What is the Dynamics 365 implementation guide?
-description: Get an overview of the guidance Microsoft provides for organizations that are implementing a Dynamics 365 solution.
+title: What Is the Dynamics 365 Implementation Guide?
+description: Explore the Dynamics 365 implementation guide to plan solution projects with Success by Design stages, expert guidance, case studies, and training.
 author: edupont04
 ms.author: edupont
-ms.date: 01/21/2025
+ms.date: 08/19/2026
 ms.update-cycle: 1095-days
 ms.topic: overview
 ms.custom:
@@ -13,11 +13,11 @@ ms.custom:
 
 # What is the Dynamics 365 implementation guide?
 
-This section contains guidance for how to implement solutions that include Dynamics 365 apps and services. The *Success by Design* framework can help you prepare for and run even complex implementation projects. This article provides an overview of the available implementation guidance.  
+The Dynamics 365 implementation guide helps you plan and run solutions that include Dynamics 365 apps and services. The *Success by Design* framework can help you prepare for and run even complex implementation projects. This article provides an overview of the available implementation guidance.  
 
 ## The Dynamics 365 implementation guide is online
 
-The Dynamics 365 implementation guide is now fully available here on Microsoft Learn and integrated with other content for the Dynamics 365 apps and services. Check the [guidance hub](/dynamics365/guidance/) for new content, and use the navigation panel to find what you're looking for.
+The Dynamics 365 implementation guide integrates with other content for the Dynamics 365 apps and services on Microsoft Learn. Get an overview on the [guidance hub](../index.yml), and use the navigation panel on the left to find what you're looking for.
 
 The Dynamics 365 implementation guide follows the structure of [Success by Design](success-by-design.md) with five stages:
 
@@ -32,7 +32,7 @@ The implementation guide represents the collective knowledge and experience of t
 > [!TIP]
 > Some Dynamics 365 apps offer free trial experiences so that you can try things out. [The Dynamics 365 documentation hub](/dynamics365/) lists all Dynamics 365 apps with a link to where you can find a free trial or a guided tour.
 
-## Audience
+## Audience for the Dynamics 365 implementation guide
 
 Dynamics 365 is a set of intelligent business applications that helps you run your entire business and deliver greater results through predictive, AI-driven insights. Choose one, some, or all. Dynamics 365 applications are made to work together—and with other systems—for a comprehensive solution that connects your entire business.  
 
@@ -40,25 +40,9 @@ Dynamics 365 is a set of intelligent business applications that helps you run yo
 
 [!INCLUDE [impl-guide-all](../includes/impl-guide-all.md)]
 
-## Training
+## Dynamics 365 implementation training
 
 Microsoft provides [free online training on Microsoft Learn](/training/dynamics365) for the various roles in an implementation project. You can filter by product and by role to find learning paths and modules that are relevant for you.
-
-<!--## The book-->
-
-<!--Welcome to the latest edition of the Dynamics 365 implementation guide. We heard you and truly appreciate the feedback on earlier editions. Keeping with our commitment of twice-yearly updates, we have updated the guide for improved readability and usability. -->
-
-<!--In addition to the recent conversion to flip-book format, the chapter summaries are designed to provide an at-a-glance look at the details of each chapter, including: 
-
-- An overview of the chapter.
-
-- Chapter objectives.
-
-- A recap of what's new in the chapter.
-
-- A case study summary (where applicable).
-
-Send an email to [d365implementguide@microsoft.com](mailto:d365implementguide@microsoft.com) and let us know what you think.-->
 
 ## Related information
 
@@ -71,3 +55,4 @@ The following links can help you get started with the implementation guide:
 - Review the [environment strategy](environment-strategy-overview.md).
 - Review the [testing strategy](testing-strategy.md).
 - Learn how you can [extend your solution](extend-your-solution.md).
+- Find implementation tools and samples at [Introduction to Dynamics 365 implementation tools and samples](../resources/overview.md).  
