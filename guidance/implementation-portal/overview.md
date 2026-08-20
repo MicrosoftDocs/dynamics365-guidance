@@ -1,7 +1,7 @@
 ---
 title: What Is the Dynamics 365 Implementation Portal?
-description: Learn about the implementation portal and how it can help you implement solutions that include Dynamics 365.
-ms.date: 09/23/2025
+description: Explore the Dynamics 365 Implementation Portal to manage projects, users, reviews, guidance, and telemetry for successful implementations. Get started.
+ms.date: 08/20/2026
 ms.topic: overview
 author: edupont04
 ms.author: edupont
@@ -11,71 +11,50 @@ ms.custom: bap-template
 
 # What is the Dynamics 365 Implementation Portal?
 
-[Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal) helps you implement solutions with Dynamics 365 successfully based on the [Success By Design](../implementation-guide/success-by-design.md) framework. The implementation portal provides tools to help you manage project data, project users, create reviews, and update project profiles. You also have access to implementation guidance that is tailored specifically to your project.  
+Dynamics 365 Implementation Portal helps you implement solutions with Dynamics 365 successfully based on the *Success by Design* framework. The implementation portal provides tools to help you manage project data, project users, create reviews, and update project profiles. You also have access to implementation guidance that is tailored specifically to your project. Learn more at [Success by Design](../implementation-guide/success-by-design.md).
 
-The Implementation Portal navigation panel includes the following links:
+Access the Implementation Portal at [Dynamics 365 Implementation Portal](https://aka.ms/D365ImplementationPortal).  
 
-* **Engagements**
-
-  * Home
-  * Projects
-  * Create/Join project
-  * Nomination (GCC)
-  * Nomination
-
-* **Telemetry Insights**
-  * Set up telemetry
-  * Telemetry recommendations
-  * Data consent
-
-* **Help & Support**
-
-  * Knowledge Articles
-  * Help
-  * Contact Us
-  * Privacy & Cookies
-
-The following sections describe key components of the Implementation Portal.
+The following sections describe the main areas of the Implementation Portal.
 
 ## Projects
 
-The **Projects** area in the Implementation Portal shows all projects that you have access to, either as a project user or as a project admin.
+The **Projects** area displays the projects that you can access as a project user or project admin. From this area, you can:
 
-* Use the **My Active Projects** menu to switch between viewing your active and inactive projects.
-
-* Select **Card View** to switch from a card view to a grid view of your active or inactive projects.
-
-* Select a project name to open a page with more information about the project.
+- Create a project or join an existing project.
+- Use **My Active Projects** to switch between active and inactive projects.
+- Switch between card and grid views.
+- Select a project name to view its details.
 
 Learn more at [Manage projects](manage-projects.md).
 
-## Create or join a project
+Use the onboarding wizard to:
 
-The onboarding wizard makes it easy to create an implementation project in real time, so that you can receive implementation guidance and create reviews. You can also join an existing project if you're already part of it. The wizard guides you through the process of creating a project, adding users, and setting up the project details.  
+- Create an implementation project or join an existing project.
+- Add project users.
+- Enter project details.
+- Access tailored implementation guidance and project reviews.
 
 Learn more at [Onboarding Wizard](onboard-project.md).
 
-## Nomination
-
-Here Microsoft partners can nominate projects for participation in the FastTrack program. Learn more at [Customer eligibility and partner qualifications](../fasttrack/eligibility.md).
-
-## Telemetry Insights
+## Telemetry
 
 Telemetry detects optimization opportunities and provides actionable guidance based on usage patterns within customer environments. Results surface with severity indicators as they require attention. Learn more at [Set up Telemetry Insights](telemetry-insights.md).  
 
-## Knowledge Articles
+## Help and Support
 
-Knowledge articles are scenario-based recommendations based on thousands of Dynamics 365 implementation projects that the FastTrack team has engaged with. Use the filters to select categories and articles to get recommendations for. Articles can have more than one scenario and corresponding recommendations.  
+Choose the support option that matches your needs:
 
-## Help
+- For FAQs and Microsoft Learn articles, select **Help & Support** in the portal.
+- For questions about a Go-live Readiness review, select **Contact us** in the portal.
+- For a technical issue with the portal, [email Implementation Portal support](mailto:ftd365ip-support@microsoft.com?subject=Message%20from%20FastTrack%20implementation%20portal).
+- To suggest an improvement, [share feedback about the Implementation Portal](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_Ewbgf8ymFCg_C2Y4qT3fdUNzhPQjFXV1M3Q0xXTU05SjVZTDMxR1o1Ni4u&origin=Invitation&channel=0).
 
-Find help articles for the Implementation Portal and search frequently asked questions.
+The Implementation Portal includes popular FAQs that can help you find your way in the Implementation Portal. It also includes links to articles on Microsoft Learn.
 
 ## Contact us
 
-Learn how to contact the team responsible for the Implementation Portal.
-
-If you're experiencing a technical issue with the Implementation Portal, send an email to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com?subject=Message%20from%20FastTrack%20implementation%20portal).
+This menu item gives you options if you have questions about the Go-live Readiness review. If you're experiencing a technical issue with the Implementation Portal, send an email to [ftd365ip-support@microsoft.com](mailto:ftd365ip-support@microsoft.com?subject=Message%20from%20FastTrack%20implementation%20portal).
 
 Share your [feedback](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_Ewbgf8ymFCg_C2Y4qT3fdUNzhPQjFXV1M3Q0xXTU05SjVZTDMxR1o1Ni4u&origin=Invitation&channel=0) and help us improve.
 
@@ -85,20 +64,24 @@ Select the name of a user to open the user profile page, where you can provide o
 
 ## Next steps
 
-* [Sign up for Dynamics 365 Implementation Portal](sign-up.md)
-* [Onboarding Wizard](onboard-project.md)
-* [Data sharing consent](data-sharing-consent.md)
-* [Manage projects](manage-projects.md)
-* [Manage project profiles](manage-projects.md#project-profile)
-* [Manage project users](manage-projects.md#admin)  
-* [Implementation guidance](manage-projects.md#implementation-guidance)
-* [Conduct project reviews](conduct-project-reviews.md)  
-* [Telemetry insights overview (preview)](telemetry-insights.md)  
+- Get started
+
+  - [Sign up for Dynamics 365 Implementation Portal](sign-up.md)
+  - [Onboarding Wizard](onboard-project.md)
+  - [Manage projects](manage-projects.md)
+
+- Continue your implementation
+
+  - [Manage project profiles](manage-projects.md#project-profile)
+  - [Manage project users](manage-projects.md#admin)  
+  - [Review tailored implementation guidance](manage-projects.md#implementation-guidance)
+  - [Conduct project reviews](conduct-project-reviews.md)  
+  - [Set up telemetry](telemetry-insights.md)  
+  - [Provide data-sharing consent](data-sharing-consent.md)
 
 ## Related information
 
-[Dynamics 365 Implementation Portal](overview.md)  
-[What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
-[Success By Design](../implementation-guide/success-by-design.md)  
-[Success By Design training](/training/paths/use-success-design/)  
-[Dynamics 365 documentation](/dynamics365/index)  
+- [What is FastTrack for Dynamics 365?](../fasttrack/overview.md)  
+- [Learn about Success By Design](../implementation-guide/success-by-design.md)  
+- [Take Success By Design training](/training/paths/use-success-design/)  
+- [Explore Dynamics 365 documentation](/dynamics365/index)
