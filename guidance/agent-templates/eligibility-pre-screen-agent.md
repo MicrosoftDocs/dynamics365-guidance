@@ -3,7 +3,7 @@ title: Financial Health and Eligibility Prescreening Agent
 description: Learn about the template you can use to set up an AI agent to eliminate repetitive back-and-forth with autonomous information and document collection.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
 
@@ -13,9 +13,9 @@ ms.topic: concept-article
 
 Eliminates repetitive back-and-forth communication by autonomously collecting required information, documents, and data from customers before processing requests. Ensures due diligence completion, reduces processing delays, improves data quality, and allows representatives to focus on qualified, ready-to-process requests with complete information.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
-
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
+<!-- 
 ## Overview
 
 This agent template is for a conversational AI agent that guides users through a structured information collection process. The agent asks contextual questions, validates responses, requests required documents, and checks for preliminary eligibility or compliance. The agent uses conditional logic to adapt questions based on customer responses, tracks completion status, sends automated reminders for missing items, and only escalates to representatives when all requirements are satisfied.
@@ -61,7 +61,7 @@ This agent template is for a conversational AI agent that guides users through a
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
-- Copilot Studio Credits Capacity
+- Copilot Studio Credits Capacity -->
 <!--
 ## Next steps
 

@@ -13,10 +13,10 @@ ms.topic: concept-article
 
 This template creates an agent that automates event management tasks by using a model-first, operations-driven approach. The agent reads its available operations from a Dataverse table and uses natural language instructions to plan and execute tasks - such as creating events and distributing invitations - directly within Dynamics 365 Customer Insights - Journeys. All actions occur in the user's context and respect the organization's policies for role-based security and governance.
 
-> [!NOTE]
-> The agent templates aren't yet available for download. If you're interested in the Customer Insights agent templates, [fill in this form](https://aka.ms/ci-agent-templates).
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
 
-## Overview
+<!-- ## Overview
 
 The agent for event management automates routine event operations by combining a configurable operations catalog stored in Dataverse with the Dataverse MCP server and Microsoft Copilot Studio. Users interact with the agent through Microsoft 365 Copilot or Microsoft Teams, describing what they want to do. The agent identifies the appropriate operation, gathers the necessary inputs, and executes the required steps - from creating event records through to sending personalized invitations to contact segments via Customer Insights - Journeys triggers.
 
@@ -53,7 +53,7 @@ The agent for event management automates routine event operations by combining a
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
 - Power Platform services (Power Automate for the invitation trigger flow)
-- Microsoft 365 Copilot (for Teams and Microsoft 365 Copilot channel deployment)
+- Microsoft 365 Copilot (for Teams and Microsoft 365 Copilot channel deployment) -->
 
 ## Related content
 

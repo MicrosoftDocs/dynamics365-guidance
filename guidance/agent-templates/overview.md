@@ -1,51 +1,41 @@
 ---
-title: Dynamics 365 Agent Templates
-description: Organizations can accelerate adoption of AI Agents by deploying pre-built, templated agents designed around high-value, repeatable use cases.
+title: Dynamics 365 Agent Templates for Rapid Deployment
+description: Explore Dynamics 365 agent templates to deploy prebuilt AI agents for high-value, repeatable use cases and accelerate adoption.
 author: aloking
 ms.author: alsing
-ms.date: 05/11/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
-# Introduction to the Dynamics 365 agent templates
+# Dynamics 365 agent templates for rapid deployments
 
-Organizations can accelerate the adoption of AI agents by deploying prebuilt, templated agents designed around high-value, repeatable use cases. These scenarios are grounded in historical customer demand and industry-specific regulatory requirements, which gives the scenarios strong relevance and broad applicability. These ready-made agents offer rapid enablement and adoption within days, delivering immediate, demonstrable value with clear and measurable return on investment (ROI) for the organization.
+Dynamics 365 agent templates are prebuilt AI agents for repeatable business scenarios in financial services, retail, healthcare, and the public sector. This article explains their benefits and connects you to templates for specific Dynamics 365 apps. To get started, [explore and download the agent templates on GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets).
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
+## Benefits of Dynamics 365 agent templates
 
-## Benefits
+Dynamics 365 agent templates provide the following benefits:
 
-Dynamics 365 agent templates offer several key advantages as outlined in the following list.
+- **Faster start:** Use prebuilt solutions without choosing a complex architecture or requiring extensive technical expertise.
+- **Industry-focused scenarios:** Address frequently requested use cases and regulatory requirements in financial services, retail, healthcare, and the public sector.
+- **Rapid deployment:** Configure and deploy functional agents within days.
+- **Measurable value:** Apply each template to a known, high-impact business process with identifiable return on investment (ROI).
+- **Consistent scaling:** Use standardized behaviors and governance patterns across teams, business units, and use cases.
 
-- Get started quickly
-
-  These agents help you get started and experience the power of AI for your business without requiring technical expertise or navigating complex architecture and technology choices. These templates provide clear solutions to business challenges, simplifying your processes and delivering value from the very beginning.
-
-- Industry relevant scenarios
-
-  These agents are grounded in real-world demand reflecting frequently requested use cases and regulatory requirements across sectors such as financial services, retail, healthcare, and the public sector.
-
-- Rapid deployment
-
-  Because these agents are prebuilt, organizations can adopt them quickly, enabling fast rollout with minimal configuration. This approach makes it possible to deploy functional agents within days.
-
-- Clear and measurable value
-
-  Each template addresses a known, high-impact business process. The return on investment (ROI) becomes immediately visible, helping customers quickly justify further adoption and expansion.
-
-- Consistency and scalability
-
-  Standardized templates provide predictable behaviors, governance alignment, and a repeatable pattern for scaling across use cases, teams, or business units.
+These agents help you get started and experience the power of AI for your business without requiring technical expertise or navigating complex architecture and technology choices. These templates provide clear solutions to business challenges, simplifying your processes and delivering value from the very beginning.
 
 ## Download the agent templates
 
-You'll soon find the templates in the [Dynamics-365-FastTrack-Implementation-Assets](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets) GitHub repo. The team adds more templates and guidance over time. [Follow the repo](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository) or [save it with a star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars) to get notified when something changes.
+[Browse and download the Dynamics 365 agent templates on GitHub](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets).
 
-## Related content
+Gradually, Microsoft submits new agent templates to the implementation assets repo. Learn how to [watch a GitHub repository](https://docs.github.com/en/get-started/quickstart/be-social#watching-a-repository) or [star a GitHub repository](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars).
 
-- [Service agent templates](service-agent-templates.md)  
-- [Commerce agent templates](commerce-agent-templates.md)  
-- [Customer Insights agent templates](customer-insights-agent-templates.md)  
-- [Resources for Customer Service](../resources/cs-index.yml)  
-- [Resources for Field Service](../resources/field-service-index.yml)  
-- [Implementation tools and samples](../resources/overview.md)  
+## Choose agent templates by product
+
+- [Explore Service agent templates](service-agent-templates.md)
+- [Explore Commerce agent templates](commerce-agent-templates.md)
+- [Explore Customer Insights agent templates](customer-insights-agent-templates.md)
+
+## Continue implementation
+
+- [Find Customer Service resources](../resources/cs-index.yml)
+- [Find Field Service resources](../resources/field-service-index.yml)
+- [Explore implementation tools and samples](../resources/overview.md)

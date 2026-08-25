@@ -3,7 +3,7 @@ title: Q&A Generative and Verbatim Responses Agent
 description: Learn about the template you can use to set up an AI agent to enable safe adoption of generative AI with exact, unmodified content delivery that eliminates the risk of incorrect information.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
 
@@ -13,9 +13,9 @@ ms.topic: concept-article
 
 This agent enables a safe adoption of generative AI in regulatory and sensitive scenarios. It uses AI to understand customer questions and match knowledge articles. It returns exact, unmodified content from the knowledge source with low risk of incorrect information.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
-
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
+<!-- 
 ## Overview
 
 The agent is a Copilot Studio agent that uses generative AI for intelligent question understanding and semantic matching to knowledge base but returns unmodified verbatim content from source articles. AI interprets user intent and finds relevant knowledge articles using advanced NLU, then delivers exact approved text without summarization, paraphrasing, or generation—ensuring regulatory compliance and eliminating concerns about incorrect information.
@@ -63,7 +63,7 @@ The agent is a Copilot Studio agent that uses generative AI for intelligent ques
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
-- Copilot Studio Credits Capacity
+- Copilot Studio Credits Capacity -->
 <!--
 ## Next steps
 
