@@ -3,7 +3,7 @@ title: After Hours Service Agent
 description: Learn about the template you can use to set up an AI agent to provide 24/7 customer support while protecting on-call engineers from unnecessary interruptions.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
 
@@ -13,9 +13,9 @@ ms.topic: concept-article
 
 Provides 24/7 customer support while protecting on-call engineers from unnecessary interruptions. Reduces on-call fatigue and costs by intelligently triaging after-hours requests, pre-screening to escalate only true emergencies while handling routine inquiries through self-service or scheduling for next business day.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
-
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
+<!-- 
 ## Overview
 
 Agent answering after-hours calls, responding to chat and emails using AI to assess issue severity through conversational triage. Asks diagnostic questions, searches knowledge base for solutions, and applies business rules to determine true emergencies. Non-critical issues receive self-service guidance or scheduled callbacks. Emergencies trigger on-call engineer notification with full context via text service, email, or Teams.
@@ -63,8 +63,9 @@ Agent answering after-hours calls, responding to chat and emails using AI to ass
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
 - Copilot Studio Credits Capacity
-<!--
-## Next steps
+ -->
+
+<!-- ## Next steps
 
 - [Configure service agents](/dynamics365/customer-service/configure-agents)
 - [Test your agent deployment](/dynamics365/customer-service/test-agents)

@@ -3,7 +3,7 @@ title: Service Level Adjustment Agent
 description: Learn about the template you can use to set up an AI agent to enable empathetic service with real-time vulnerability detection and dynamic service adjustments.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
 
@@ -13,9 +13,9 @@ ms.topic: concept-article
 
 Enables empathetic, personalized service by detecting real-time vulnerability signals and dynamically adjusting service levels, case priorities, and representative assignments. Ensures vulnerable customers receive appropriate care and attention while maintaining compliance with regulatory requirements for fair treatment and accessibility.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
-
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
+<!-- 
 ## Overview
 
 AI agent monitors customer interactions analyzing language, sentiment, and disclosed information to identify vulnerability signals (financial hardship, health issues, bereavement, accessibility needs). Upon detection, agent automatically adjusts case priority, modifies SLA timelines, notifies representatives with contextual guidance, and updates customer records with vulnerability flags. Ensures consistent, appropriate treatment across all future interactions while maintaining privacy and dignity.
@@ -62,7 +62,7 @@ AI agent monitors customer interactions analyzing language, sentiment, and discl
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
-- Copilot Studio Credits Capacity
+- Copilot Studio Credits Capacity -->
 <!--
 ## Next steps
 

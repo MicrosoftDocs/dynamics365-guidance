@@ -3,7 +3,7 @@ title: Service Agent Templates Overview
 description: Comprehensive guide to the pre-built AI agent templates for Dynamics 365 Customer Service.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 08/25/2026
 ms.topic: concept-article
 ---
 
@@ -13,10 +13,9 @@ ms.topic: concept-article
 
 Service agents help organizations resolve routine issues instantly (deflection), while empowering service teams with automation and AI assistance. Intent-driven experiences connect customers to the right answers or the right representative, faster. Behind the scenes, autonomous agents can discover top contact reasons, recommend knowledge, automate case updates and follow-ups, and continuously improve the knowledge base so service stays accurate, targeted, and personalized at scale.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
+## Agent templates
 
-## Available agent templates
+Microsoft gradually adds new agent templates to the implementation assets repo. The following list outlines the expected agent templates for Dynamics 365 Customer Service. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
 
 These service agents leverage first‑party Dynamics 365 Customer Service and Contact Center Agent capabilities, alongside Microsoft Copilot Studio and Copilot in Dynamics 365.
 

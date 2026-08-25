@@ -3,7 +3,7 @@ title: Customer Insights Templates Overview
 description: Comprehensive guide to the prebuilt AI agent templates for Dynamics 365 Customer Insights.
 author: ecaraza
 ms.author: emancar
-ms.date: 05/11/2026
+ms.date: 08/25/2026
 ms.topic: concept-article
 ---
 
@@ -16,7 +16,9 @@ Customer Insights - Journeys agents help marketing and event teams streamline cu
 > [!NOTE]
 > The agent templates aren't yet available for download. If you're interested in the customer insights agent templates, [fill in this form](https://aka.ms/ci-agent-templates).
 
-## Available agent templates
+## Customer Insights agent templates
+
+The following list outlines the expected agent templates for Dynamics 365 Customer Insights.
 
 These agents use capabilities in Dynamics 365 Customer Insights with Microsoft Copilot Studio and Copilot in Dynamics 365.
 
@@ -24,7 +26,6 @@ These agents use capabilities in Dynamics 365 Customer Insights with Microsoft C
 | --------- | ------------ | ------------- |
 | [Event Management Agent](event-management-agent.md) | Self-Service, Automation | Model-first, operations-driven execution with a customer-maintained catalog of approved actions |
 | [Event Registration Agent](event-registration-agent.md) | Automation | Formless, email-based registration eliminates repetitive data entry for customers who have already received a personalized invitation |
-|
 
 ## Related content
 
