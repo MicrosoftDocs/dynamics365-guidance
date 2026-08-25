@@ -3,7 +3,7 @@ title: Adaptive Skills Policy Agent
 description: Learn about the template you can use to automate all aspects of Dynamics 365 Commerce through agents that adhere to your company policies and processes.
 author: scott-tucker
 ms.author: edupont
-ms.date: 05/13/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
 

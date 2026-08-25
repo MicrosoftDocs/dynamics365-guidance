@@ -3,7 +3,7 @@ title: Commerce Agent Templates Overview
 description: Comprehensive guide to the prebuilt AI agent templates for Dynamics 365 Commerce.
 author: scott-tucker
 ms.author: edupont
-ms.date: 05/13/2026
+ms.date: 08/25/2026
 ms.topic: concept-article
 ---
 
@@ -15,7 +15,9 @@ Commerce agents transform retail operations by automating reconciliation tasks, 
 
 [!INCLUDE [Signup](../includes/commerce-agent-template-signup.md)]
 
-## Available agent templates
+## Commerce agent templates
+
+Microsoft gradually submits new agent templates to the implementation assets repo. The following list outlines the expected agent templates for Dynamics 365 Commerce. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
 
 These commerce agents use Dynamics 365 Commerce capabilities, alongside Microsoft Copilot Studio and Copilot in Dynamics 365.
 

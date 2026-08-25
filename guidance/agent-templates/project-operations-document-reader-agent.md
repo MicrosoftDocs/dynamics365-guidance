@@ -4,7 +4,7 @@ description: Discover how to streamline project setup with AI-driven data extrac
 #customer intent: As a Dynamics 365 administrator, I want to learn how AI can automate how projects are created and updated in Project Operations.
 author: edupont04
 ms.author: ajjaiswa
-ms.date: 03/25/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ms.collection: bap-ai-copilot
 ---
@@ -15,9 +15,9 @@ ms.collection: bap-ai-copilot
 
 This agent analyzes engagement information and extracts key project and commercial details from engagement letters or statements of work (SOW). Use these details to create or update a *Project* or *Project Contract* in Dynamics 365 Project Operations.
 
-> [!NOTE]
-> The agent template isn't yet available for download. If you're interested in the template for a document reader agent, fill in [this form](https://forms.office.com/r/kdvS5NNuZ1).
-
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
+<!-- 
 ## Overview
 
 The agent identifies structured data such as project name, customer, dates, budget, scope, deliverables, milestones, and resource roles. It organizes the extracted information into a structured format that you can review and use when you create or update a project or project contract.
@@ -101,7 +101,7 @@ The following list outlines the pipeline for extracting and processing data.
 - Dynamics 365 Project Operations  
 - Microsoft Copilot Studio  
 - Copilot Studio Credits Capacity  
-
+ -->
 ## Related content
 
 - [Introduction to the Dynamics 365 agent templates](overview.md)  

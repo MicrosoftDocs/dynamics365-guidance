@@ -3,7 +3,7 @@ title: Implementation Agent Templates Overview
 description: This article is an introduction to the prebuilt AI agent templates that support Dynamics 365 implementation, release planning, and performance diagnostics for implementation teams and solution architects.
 author: ahmetziyayildirim
 ms.author: ahyildir
-ms.date: 03/25/2026
+ms.date: 08/25/2026
 ms.topic: concept-article
 ---
 
@@ -15,10 +15,9 @@ Implementation agents accelerate Dynamics 365 project delivery by automating rel
 
 Unlike product-specific agents, implementation agents are cross-functional and can be used across multiple Dynamics 365 modules and deployment scenarios.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.cloud.microsoft/r/ZCSSSMhg40).
+## Implementation agent templates
 
-## Available agent templates
+Microsoft gradually adds new agent templates to the implementation assets repo. The following list outlines the expected agent templates for implementation projects with Dynamics 365 apps. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
 
 | Agent | Category | Key benefit |
 | --- | --- | --- |

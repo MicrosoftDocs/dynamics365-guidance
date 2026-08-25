@@ -3,7 +3,7 @@ title: Service Quality Evaluation Agent
 description: Learn about the template you can use to set up an AI agent to automate quality assurance with AI-driven assessment of customer interactions.
 author: aloking
 ms.author: alsing
-ms.date: 02/09/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ---
 
@@ -13,9 +13,9 @@ ms.topic: concept-article
 
 Automates quality assurance processes by autonomously assessing customer interactions (cases and conversations) against business standards, delivering actionable insights to help supervisors improve service quality, identify training opportunities, and ensure regulatory compliance without manual review overhead.
 
-> [!NOTE]
-> The agent templates aren't yet ready for download. If you're interested in the agent templates, [fill in this form](https://forms.office.com/r/3gqLtKnXN2).
-
+> [!IMPORTANT]
+> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
+<!-- 
 ## Overview
 
 AI agent assesses customer engagements using supervisor-defined evaluation framework comprising criteria (structured forms with questions and scoring), evaluation plans (scheduled or triggered assessments), and evaluations (actual scoring with insights). Supervisors create custom or use out-of-the-box evaluation criteria, configure plans to run on-demand or based on conditions, and receive detailed assessments with coaching recommendations.
@@ -58,7 +58,7 @@ AI agent assesses customer engagements using supervisor-defined evaluation frame
 
 - Dynamics 365 Customer Service or Contact Center license
 - Microsoft Copilot Studio
-- Copilot Studio Credits Capacity
+- Copilot Studio Credits Capacity -->
 <!--
 ## Next steps
 
