@@ -4,7 +4,7 @@ description: Learn about some of the tools that you can use for automating regre
 author: edupont04
 ms.author: dudona
 ms.topic: concept-article
-ms.date: 12/12/2025
+ms.date: 09/01/2026
 ms.update-cycle: 1095-days
 ms.custom:
   - evergreen
@@ -35,6 +35,9 @@ Learn more about each tool:
 - [Alithya Rapid QA](https://marketplace.microsoft.com/en-us/product/saas/fullscope.rapid_qa?tab=Overview)
 
   Rapid QA is a product-agnostic automated testing solution for Dynamics 365, offering customizable prebuilt scenarios and AI-enabled accelerators to streamline upgrades and validation.
+- [Avo Assure](https://marketplace.microsoft.com/en-us/product/aminholdingsprivatelimited1776841772911.avo-assure?tab=Overview)  
+
+  Avo Assure is an enterprise platform for business process assurance. It validates end-to-end processes in Dynamics 365 finance and operations apps and the systems those apps connect to.  
 - [Elevaite365​ Test Automation](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/elevaite365.e365ta?tab=Overview)  
 
   Elevaite Test Automation is an AI-powered platform purpose-built for Microsoft Dynamics 365. The solution empowers organizations to automate and optimize their testing processes, delivering enterprise-grade quality assurance with unmatched efficiency​.
@@ -44,7 +47,7 @@ Learn more about each tool:
 
 - [Microsoft Regression suite automation tool (RSAT)](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)  
 
-  Microsoft RSAT significantly reduces the time and cost of user acceptance testing (UAT) of finance and operations apps. RSAT is fully integrated with Microsoft Azure DevOps for test execution, reporting, and investigation.  
+  Microsoft RSAT significantly reduces the time and cost of user acceptance testing (UAT) of finance and operations apps. RSAT is fully integrated with Microsoft Azure DevOps for test execution, reporting, and investigation. RSAT is marked for deprecation and won't be supported after May 15, 2027. For more information, see [Removed or deprecated platform features](/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-platform-updates).  
 - [Microsoft Easy Repro](https://github.com/microsoft/EasyRepro)  
 
   Microsoft EasyRepro is a library with tools to facilitate automated UI testing for projects with Dynamics 365 Online version 9.0 or 9.2. These APIs provide an easy to use set of commands that make setting up UI testing quick and easy.  
