@@ -3,7 +3,7 @@ title: Trace Parser Agent
 description: Learn about the agent template that can help you reduce performance troubleshooting in solutions with finance and operations apps from hours to minutes with AI-powered trace analysis.
 author: ahmetziyayildirim
 ms.author: ahyildir
-ms.date: 08/24/2026
+ms.date: 08/26/2026
 ms.topic: concept-article
 ---
 
@@ -13,9 +13,9 @@ ms.topic: concept-article
 
 By using conversational AI, you can reduce performance troubleshooting in solutions with finance and operations apps from 6–8 hours of manual trace analysis to approximately 5–10 minutes. Engineers and consultants can diagnose N+1 query patterns, slow SQL statements, blocking problems, and X++ exceptions by asking questions in plain English. You don't need to be an expert when you use the Trace parser tool.
 
-> [!IMPORTANT]
-> This agent template isn't available yet. Learn more at [Download the agent templates](overview.md#download-the-agent-templates).
-<!-- 
+> [!TIP]
+> Get the agent template from the [Trace Parser](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Agents/Implementation%20Agents/Trace%20Parser) folder in the Dynamics 365 FastTrack Implementation Assets repo on GitHub.
+
 ## Overview
 
 The agent connects to the local Trace parser database via a Data API Builder SQL MCP Server and combines trace data access with real-time remediation guidance from the documentation on the Microsoft Learn site. Users interact through natural language to investigate performance problems: the agent queries trace data by using deterministic SQL views and stored procedures, detects known anti-patterns, and pairs findings with official Microsoft documentation and X++ code samples for immediate, actionable remediation.
@@ -83,7 +83,7 @@ The agent uses a dual Model Context Protocol (MCP) architecture:
 
 - **TraceParser MCP (Data API Builder)**: Local SQL MCP Server exposing trace database views and stored procedures for deterministic, secure trace data access
 - **Microsoft Learn MCP**: Public MCP Server that provides real-time access to the full Microsoft documentation library for Dynamics 365 performance optimization guidance and X++ code samples
- -->
+
 ## Related content
 
 - [Implementation agent templates overview](implementation-agents-overview.md)
