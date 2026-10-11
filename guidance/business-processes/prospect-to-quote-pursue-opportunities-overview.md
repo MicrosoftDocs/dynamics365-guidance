@@ -93,7 +93,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 ## Related information
 
-- [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
+- [Product overview Dynamics 365 Sales](https://www.microsoft.com/dynamics-365/products/sales)
 - [Create or edit opportunities](/dynamics365/sales/create-edit-opportunity-sales)
 - [Manage leads](/dynamics365/sales/lead-management-overview)
 - [Manage opportunities using pipeline view](/dynamics365/sales/use-opportunity-pipeline-view)

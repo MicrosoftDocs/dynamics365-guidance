@@ -100,8 +100,8 @@ If you want to implement Dynamics 365 solutions to help with your *prospect to q
 
 ## Related information
 
-- [Dynamics 365 Customer Service product overview](https://dynamics.microsoft.com/customer-service)
-- [Dynamics 365 Sales product overview](https://dynamics.microsoft.com/sales)
+- [Dynamics 365 Customer Service product overview](https://www.microsoft.com/dynamics-365/products/customer-service)
+- [Dynamics 365 Sales product overview](https://www.microsoft.com/dynamics-365/products/sales)
 - [Manage your accounts and contacts (Sales)](/dynamics365/sales/accounts-contacts)
 - [Customer Service](/dynamics365/customer-service)
 - [Create and manage customer accounts (Field Service)](/dynamics365/field-service/accounts)

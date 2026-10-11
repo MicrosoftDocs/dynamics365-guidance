@@ -89,7 +89,7 @@ Use the following resources to learn more about the *prospect to quote* process 
 
 - [Dynamics 365 Sales Community](https://community.dynamics.com/forums/thread/?partialUrl=sales/)
 
-- [Dynamics 365 Sales Overview](https://dynamics.microsoft.com/sales/overview/)
+- [Dynamics 365 Sales Overview](https://www.microsoft.com/dynamics-365/products/sales)
 
 - [Dynamics 365 Sales - Training](/training/dynamics365/sales/)
 
@@ -104,4 +104,4 @@ Principal author:
 <!--## Tags
 *Stakeholders:* Sales and marketing teams, product managers, customer service representatives, and senior management
 
-*Products:* Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales
+*Products:* Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Sales

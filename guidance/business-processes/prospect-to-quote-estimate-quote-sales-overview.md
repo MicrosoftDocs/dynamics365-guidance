@@ -100,7 +100,7 @@ If you want to implement Dynamics 365 solutions to help with your *estimate and 
 - [Manage quote, order, and invoice](/dynamics365/sales/sales-transactions)
 - [Create or edit quotes](/dynamics365/sales/create-edit-quote-sales)
 - [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)  
-- [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
+- [Product overview Dynamics 365 Sales](https://www.microsoft.com/dynamics-365/products/sales)
 - Find definitions of terminology that is used in content for *estimate and quote sales* in the [Glossary of terms in Dynamics 365 business processes](glossary.md) article. For example, this glossary includes the following terms:
 
   - [Quote](glossary.md#quote)
