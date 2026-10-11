@@ -1,7 +1,7 @@
 ---
 title: Overview of the Estimate and quote sales business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for estimating and quoting sales.
-ms.date: 05/12/2026
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -43,7 +43,9 @@ The following steps are illustrated in the business process flow diagram.
 
     1. *Define customer order requirements*  
     1. *Define sales quotations*  
-    1. *Create service contracts in Dynamics 365 Sales*  
+
+        This business process includes the *Create service contracts in Dynamics 365 Sales* scenario.
+
     1. *Negotiate and finalize quotations*  
     1. *Ensure client approval and sign-off*  
     1. *Confirm purchase details*  

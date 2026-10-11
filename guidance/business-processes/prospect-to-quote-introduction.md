@@ -1,7 +1,7 @@
 ---
 title: Introduction to the prospect to quote end-to-end business process
 description: Get introduced to the prospect to quote end-to-end business process. Learn how Dynamics 365 apps can help organizations optimize their prospect to quote processes.
-ms.date: 11/04/2025
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -50,6 +50,22 @@ The process also maximizes revenue growth potential by optimizing the sales proc
 ### Consistent and high-quality customer experience throughout the sales process
 
 Finally, the process provides a consistent and high-quality customer experience throughout the sales process, which helps to build trust and loyalty with customers and ultimately drive repeat business.
+
+## Agents that support prospect to quote
+
+Dynamics 365 Sales and Microsoft 365 Copilot include agents that take on parts of the *prospect to quote* process. Before you plan custom work, check whether one of these agents already covers the need.
+
+| Agent | What it does | Business process area |
+|---|---|---|
+| [Sales Qualification Agent](/dynamics365/sales/sales-qualification-agent) | Researches leads, assesses their fit against a target customer profile, and can handle outreach and follow-up. | Identify and qualify leads |
+| [Sales Development agent](/microsoft-agent-365/use) | Automates prospect outreach and follow-up in Microsoft Teams, with Dynamics 365 lead management and activity tracking. | Identify and qualify leads |
+| [Sales Opportunity Agent](/dynamics365/sales/sales-opportunity-agent) | Researches open opportunities and surfaces deal risks, priorities, stakeholders, competitors, and deal health. | Pursue opportunities |
+| [Recommended actions](/dynamics365/sales/recommended-actions-overview) | Presents a prioritized list of next actions for each seller's opportunities. | Pursue opportunities |
+| [AI-powered data enrichment for opportunities](/dynamics365/sales/data-enrichment-agent-overview) | Suggests or makes configured updates to opportunity records from recent email and Teams meeting context. | Pursue opportunities |
+| [Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/sales-chat-overview) | Searches and summarizes connected CRM data together with email and Teams context, and prepares account and opportunity summaries. | Manage customer relationships |
+| [Sales Research Agent](/dynamics365/sales/sales-research-agent) | Answers pipeline and sales performance questions in natural language over Dynamics 365 Sales data. | Analyze sales |
+
+Some agents are in preview. Check each linked article for current availability, regional support, and licensing requirements before you plan to use an agent.
 
 ## Next steps
 

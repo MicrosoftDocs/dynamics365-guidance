@@ -1,7 +1,7 @@
 ---
 title: Manage customer relationships business process area overview
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for managing customer relationships.
-ms.date: 09/23/2025
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -77,6 +77,12 @@ Overall, Dynamics 365 enables organizations to maximize the potential of every c
 **Customer lifetime value** – The total revenue that is generated from a customer over time.
 **Cross-sell/up-sell** – Selling additional or higher-value products to existing customers.
 **Customer journey** – All touchpoints and interactions that a customer has with a company.
+
+## Agents that support this business process area
+
+- [Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/sales-chat-overview) lets sellers search and summarize connected CRM data together with email and Teams context, and prepare account and opportunity summaries before they engage a customer.
+
+Some agents are in preview. Check each linked article for current availability, regional support, and licensing requirements before you plan to use an agent.
 
 ## Next steps
 
