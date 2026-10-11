@@ -1,7 +1,7 @@
 ---
 title: Overview of the Define sales strategy and policies business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for defining sales strategy and policies to align sales activities with business growth objectives.
-ms.date: 05/12/2026
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -82,9 +82,9 @@ You can use the following resources to learn more about the *Define sales strate
   - [Sales targets](glossary.md#sales-targets)
   - [Sales territories](glossary.md#sales-territories)
 
-- [Product overview of Dynamics 365 Sales](https://dynamics.microsoft.com/sales/overview/)
-- [Product overview of Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/)
-- [Product overview of Dynamics 365 Customer Insights - Journeys](https://dynamics.microsoft.com/marketing/)
+- [Product overview of Dynamics 365 Sales](https://www.microsoft.com/dynamics-365/products/sales)
+- [Product overview of Dynamics 365 Customer Service](https://www.microsoft.com/dynamics-365/products/customer-service)
+- [Product overview of Dynamics 365 Customer Insights - Journeys](https://www.microsoft.com/dynamics-365/products/customer-insights)
 - [Understand the sales process with Dynamics 365 Sales](/dynamics365/sales/nurture-sales-from-lead-order-sales)
 - [Digital selling capabilities in Sales Enterprise](/dynamics365/sales/digital-selling)
 - [Learn the basics of Dynamics 365 Sales](/dynamics365/sales/user-guide-learn-basics)
@@ -92,7 +92,7 @@ You can use the following resources to learn more about the *Define sales strate
 
 <!-- ## Tags
 
-*Products: Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service Industries: All Roles: Sales, Marketing, Finance, Operations* -->
+*Products: Dynamics 365 Sales, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Customer Service Industries: All Roles: Sales, Marketing, Finance, Operations* -->
 
 ## Contributors
 

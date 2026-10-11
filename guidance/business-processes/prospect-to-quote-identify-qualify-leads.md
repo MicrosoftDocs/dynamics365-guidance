@@ -1,7 +1,7 @@
 ---
 title: Overview of the identify and qualify leads business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for identifying and qualifying leads.
-ms.date: 09/23/2025
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -63,6 +63,13 @@ Guided by the upstream *run marketing campaigns* process, this area influences d
 
 Overall, Dynamics 365 provides robust tools for maximizing leads and pipeline growth.
 
+## Agents that support this business process area
+
+- [Sales Qualification Agent](/dynamics365/sales/sales-qualification-agent) researches leads and assesses their fit against your target customer profile. In research and engage mode, it can also send outreach and follow-up messages and hand promising leads to sellers. Learn more at [Configure the Sales Qualification Agent](/dynamics365/sales/configure-sales-qualification-agent).
+- [Sales Development agent](/microsoft-agent-365/use) automates personalized prospect outreach and follow-up in Microsoft Teams, and uses Dynamics 365 for lead management and activity tracking.
+
+Some agents are in preview. Check each linked article for current availability, regional support, and licensing requirements before you plan to use an agent.
+
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to help with your business processes for identifying and qualifying leads, you can use the following resources and steps to learn more. (Links are added, when articles become available.)
@@ -80,8 +87,8 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 ## Related information
 
 - [Superdrive your lead generation (video)](https://youtu.be/zzK0GTPD4u4)
-- [Product overview Dynamics 365 Customer Insights - Journeys](https://dynamics.microsoft.com/marketing)
-- [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
+- [Product overview Dynamics 365 Customer Insights - Journeys](https://www.microsoft.com/dynamics-365/products/customer-insights)
+- [Product overview Dynamics 365 Sales](https://www.microsoft.com/dynamics-365/products/sales)
 - [Manage leads](/dynamics365/sales/lead-management-overview)
 - [Qualify and convert leads to opportunity](/dynamics365/sales/qualify-lead-convert-opportunity-sales)
 - [Prioritize leads through scores](/dynamics365/sales/work-predictive-lead-scoring)
