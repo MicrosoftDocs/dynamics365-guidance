@@ -4,7 +4,7 @@ description: Learn how to set up your contact center environment to use Copilot 
 ms.date: 08/29/2024
 ms.topic: concept-article
 author: edupont04
-ms.author: ktaylor
+ms.author: edupont
 ---
 
 # Set up your tools and infrastructure for using Copilot in your contact center

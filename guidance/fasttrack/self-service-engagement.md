@@ -2,7 +2,7 @@
 title: Proactive guidance for self-service engagements
 description: Microsoft FastTrack provides guidance to project implementation teams via emails that contain recommended actions for each phase of a project.
 ms.author: edupont
-ms.date: 11/03/2021
+ms.date: 10/15/2026
 ms.topic: concept-article
 author: edupont04
 ---
@@ -11,13 +11,13 @@ author: edupont04
 
 One of the core goals of Microsoft FastTrack for Dynamics 365 finance and operations apps teams is to enable project teams to run implementations successfully and have a smooth launch. With this goal in mind, we provide proactive implementation guidance to the implementation team via emails. These emails contain core recommended guidance on the activities that take place typically in the current phase of your project. Proactive guidance emails are sent to self-service project team members. 
 
-## Who will receive these emails? 
+## Who receives these emails?
 
 [Dynamics 365 Lifecycle Services](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs) project users in active implementations. (Please make sure your Lifecycle Services project users are up to date.)
 
-## Who will send these emails?
+## Who sends these emails?
 
-You'll see emails from the account **d365ftfo@microsoft.com**. (Please make sure the address is on a safe senders list to receive our communications.)
+You receive emails from the account `d365ftfo@microsoft.com`. Add the address to a safe senders list to receive communications.
 
 ## How can you provide feedback?
 
@@ -34,7 +34,7 @@ Our proactive guidance covers the phases described here.
 This phase comprises the period that starts with Lifecycle Services project creation until Lifecycle Services project onboarding is finalized. 
 
 - **FastTrack project onboarding follow-ups**: Onboarding follow-ups relate to two emails that are only triggered in case:
- 
+
   - Lifecycle Services onboarding isn't completed in the first seven days after Lifecycle Services project creation. 
   - Lifecycle Services onboarding is still not completed 14 days after Lifecycle Services project creation (final reminder).
   
@@ -51,29 +51,29 @@ This phase comprises the period that starts right after project onboarding is fi
   - Support
   - Custom guidance based on project scope as defined in Lifecycle Services project onboarding
 
-- **Design & develop**: In this phase, the team gets deeper into the design and development areas of the implementation. Design & develop email is sent 14 days before the analysis milestone end date, so you have time to prepare for the next phase of your implementation. It covers these topics: 
+- **Design & develop**: In this phase, the team dives deeper into the design and development areas of the implementation. We send the design & develop email 14 days before the analysis milestone end date, so you have time to prepare for the next phase of your implementation. It covers these topics:
   - Application lifecycle management (ALM)
   - Data management
   - Continuous updates
   - Integrations
-  - Security 
+  - Security
   - BI and analytics
-  - Release plans and Ideas portal
+  - Roadmap
 
 - **Test**: After design, the test phase is where the solution is tested and where we provide recommendations around testing and training as well as policies to follow regarding updates. Test email will be sent 14 days before the design & develop milestone end date in Lifecycle Services. It covers these topics:
+
   - Testing and solution acceptance
   - Training (end user training) including [Regression suite automation tool (RSAT)](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)
-  -    Performance testing
+
+  - Performance testing
     - System monitoring
     - Subscription estimator
     - App checker
   - One version
-  - Support 
+  - Support
 
-- **Plan the go-live**: The implementation team has come this far in the implementation and is now planning to go live. This is the final email before we provide the production environment based on the go-live readiness assessment. Plan the go-live recommendations email will be sent:
-  - 60 days before the go-live milestone date in your Lifecycle Services project. 
-  - As a reminder, 30 days before if the go-live checklist document is not sent to FastTrack.
-   
+- **Plan the go-live**: The implementation team has come this far in the implementation and is now planning to go live. This email is the final email before we provide the production environment based on the go-live readiness assessment. Plan to send the go-live recommendations email 60 days before the go-live milestone date in your Lifecycle Services project. As a reminder, send the go-live checklist document 30 days before if you don't send it to FastTrack.
+
   Topics covered:
   
   - Prepare for the go-live
@@ -88,7 +88,6 @@ This phase comprises the period that starts right after project onboarding is fi
 ### Prepare
 
 - **Go-live review process**: All communications done as part of the pre–go-live review process are made in this phase. They include the checklist document and necessary risks mitigation. More information can be found at [Prepare for go-live](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live).
-
 
 ### Operate
 

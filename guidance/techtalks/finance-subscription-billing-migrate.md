@@ -74,7 +74,7 @@ In another example, a business has a subscription plan where the amounts are rec
 
 ## Roadmap for the future
 
-The *revenue recognition* module was deprecated in version 10.0.30. Learn more at [Features removed or deprecated in the Finance 10.0.30 release](/dynamics365/finance/get-started/removed-deprecated-features-finance#features-removed-or-deprecated-in-the-finance-10030-release). The *subscription billing* module continues to get more capabilities, so keep an eye on [the release plans](/dynamics365/release-plans/) to stay on top of what's coming.
+The *revenue recognition* module was deprecated in version 10.0.30. Learn more at [Features removed or deprecated in the Finance 10.0.30 release](/dynamics365/finance/get-started/removed-deprecated-features-finance#features-removed-or-deprecated-in-the-finance-10030-release). The *subscription billing* module continues to get more capabilities. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).
 
 ## Conclusion
 

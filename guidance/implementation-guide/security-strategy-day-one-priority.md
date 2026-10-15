@@ -2,7 +2,7 @@
 title: Secure your Dynamics 365 project from day one
 description: Discover why security is vital for Dynamics 365 projects and how to create a strategy that ensures compliance, scalability, and risk mitigation.
 author: riblack-microsoft
-ms.author: riblack
+ms.author: edupont
 ms.topic: concept-article
 ms.date: 05/12/2025
 ms.update-cycle: 1095-days
@@ -34,7 +34,7 @@ The answers to these questions will help you shape your security strategy. You s
 > [!IMPORTANT]
 > Data privacy or residency requirements are a foundational consideration for solution design and can affect where you can deploy your solution.
 >
-> - Check the availability of the Dynamics 365 apps and Power Platform components that you want to use in the desired cloud: [Product Availability by Geography](https://dynamics.microsoft.com/availability-reports/)
+> - Check the availability of the Dynamics 365 apps and Power Platform components that you want to use in the desired cloud. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).
 > - Check the availability of the Azure solution that's part of your architecture in the desired cloud and region: [Azure Products by Region](https://azure.microsoft.com/explore/global-infrastructure/products-by-region/)
 
 ## How security affects scalability

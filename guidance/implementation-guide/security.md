@@ -2,7 +2,7 @@
 title: Secure your Dynamics 365 data and apps
 description: Learn how Microsoft helps you protect your Dynamics 365 data and apps with security, privacy, compliance, and transparency principles and practices.
 author: riblack-microsoft
-ms.author: riblack
+ms.author: edupont
 ms.topic: overview
 ms.date: 01/08/2024
 ms.update-cycle: 1095-days

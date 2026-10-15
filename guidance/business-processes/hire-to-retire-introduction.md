@@ -4,7 +4,7 @@ description: Get introduced to the hire to retire end-to-end business process wi
 ms.date: 04/03/2023
 ms.topic: concept-article
 author: edupont04
-ms.author: riblack
+ms.author: edupont
 ---
 
 # Introduction to and how to optimize the hire to retire end-to-end business process

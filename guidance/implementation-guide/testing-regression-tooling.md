@@ -44,7 +44,10 @@ Learn more about each tool:
 
 - [Microsoft Regression suite automation tool (RSAT)](/dynamics365/fin-ops-core/dev-itpro/perf-test/rsat/rsat-overview)  
 
-  Microsoft RSAT significantly reduces the time and cost of user acceptance testing (UAT) of finance and operations apps. RSAT is fully integrated with Microsoft Azure DevOps for test execution, reporting, and investigation.  
+  Microsoft RSAT significantly reduces the time and cost of user acceptance testing (UAT) of finance and operations apps. RSAT is fully integrated with Microsoft Azure DevOps for test execution, reporting, and investigation.
+
+  > [!IMPORTANT]
+  > The Regression Suite Automation Tool (RSAT) is marked for deprecation and won't be supported after May 15, 2027.
 - [Microsoft Easy Repro](https://github.com/microsoft/EasyRepro)  
 
   Microsoft EasyRepro is a library with tools to facilitate automated UI testing for projects with Dynamics 365 Online version 9.0 or 9.2. These APIs provide an easy to use set of commands that make setting up UI testing quick and easy.  

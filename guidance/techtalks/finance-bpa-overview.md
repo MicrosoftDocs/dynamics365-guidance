@@ -76,7 +76,7 @@ The solution also supports drill-down capabilities so that users can explore dat
 
 ## Yet to come
 
-Microsoft continues to develop BPA, with plans to enhance its capabilities further. Follow what's going on in [the release planner app](https://releaseplans.microsoft.com/?app=Finance).
+Microsoft continues to develop BPA, with plans to enhance its capabilities further. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).
 
 ## Conclusion
 

@@ -4,7 +4,7 @@ description: Get an overview for each of the business process areas in the hire 
 ms.date: 05/22/2025
 ms.topic: concept-article
 author: edupont04
-ms.author: riblack
+ms.author: edupont
 ---
 
 # Overview of Hire to retire business process areas

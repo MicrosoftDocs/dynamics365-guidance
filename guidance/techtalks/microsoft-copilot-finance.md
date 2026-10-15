@@ -57,7 +57,7 @@ Microsoft Copilot for Finance has already shown significant impact within intern
 
 Looking forward, Microsoft plans to expand the capabilities of Copilot for Finance with additional features and integrations. Future updates will include enhanced support for various ERP systems, deeper integration with [Microsoft 365](https://www.microsoft.com/microsoft-365) tools, and expanded AI-driven insights to cover more financial processes.  
 
-Keep track of what's going on in [the release planner app for Copilot for Finance](https://releaseplans.microsoft.com/?app=Microsoft+Copilot+for+Finance).  
+Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).  
 
 ## Architecture overview
 
