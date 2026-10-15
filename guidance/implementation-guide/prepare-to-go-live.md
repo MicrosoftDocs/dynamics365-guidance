@@ -134,7 +134,7 @@ You should have a plan for transitioning knowledge from the implementation team 
 
 ### Continuous updates for customer engagement apps
 
-We release two major service updates per year. They're backward-compatible so that apps and customizations continue to work after you update. The [release schedule](/dynamics365/get-started/release-schedule), release plans, and early access are documented and available well in advance. Use early access to validate upcoming features and capabilities before you turn them on in your production environments.
+[!INCLUDE [roadmap](~/../shared-content/shared/get-started-includes/roadmap.md)] The service updates are backward-compatible so that apps and customizations continue to work after you update. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule). Use early access to validate upcoming features and capabilities before you turn them on in your production environments.
 
 ### Change management
 
@@ -142,25 +142,25 @@ Have a robust process in place to manage changes after the solution is deployed 
 
 ### References for going live with customer engagement apps
 
-[GitHub - Microsoft/EasyRepro: Automated UI testing API for Dynamics 365](https://github.com/microsoft/EasyRepro)
+- [GitHub - Microsoft/EasyRepro: Automated UI testing API for Dynamics 365](https://github.com/microsoft/EasyRepro)
 
-[Use solution checker to validate your model-driven apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker)
+- [Use solution checker to validate your model-driven apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker)
 
-[Microsoft Dataverse analytics](/power-platform/admin/analytics-common-data-service)
+- [Microsoft Dataverse analytics](/power-platform/admin/analytics-common-data-service)
 
-[Microsoft Dynamics 365](/learn/dynamics365/)
+- [Microsoft Dynamics 365](/learn/dynamics365/)
 
-[Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
+- [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
 
-[Dynamics 365 Adoption guide](/dynamics365/get-started/adoption/adoption-guide)
+- [Dynamics 365 Adoption guide](/dynamics365/get-started/adoption/adoption-guide)
 
-[Accelerate Dynamics 365 Adoption checklist](/dynamics365/adoption/adoption-checklist)
+- [Accelerate Dynamics 365 Adoption checklist](/dynamics365/adoption/adoption-checklist)
 
-[Build a champion program](/dynamics365/adoption/champions-guide)
+- [Build a champion program](/dynamics365/adoption/champions-guide)
 
-[Dynamics 365 release schedule and early access](/dynamics365/get-started/release-schedule)
+- [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule)
 
-[Evaluate go-live readiness for customer engagement apps (training)](/learn/modules/go-live-readiness/)
+- [Evaluate go-live readiness for customer engagement apps (training)](/learn/modules/go-live-readiness/)
 
 ## Go live with finance and operations apps
 
@@ -200,27 +200,27 @@ If your solution is an upgrade from Dynamics AX 2012, it's important to include 
 
 ### References for going live with finance and operations apps
 
-[GitHub - Microsoft/EasyRepro: Automated UI testing API for Dynamics 365](https://github.com/microsoft/EasyRepro)
+- [GitHub - Microsoft/EasyRepro: Automated UI testing API for Dynamics 365](https://github.com/microsoft/EasyRepro)
 
-[Microsoft Dynamics 365](/learn/dynamics365/)
+- [Microsoft Dynamics 365](/learn/dynamics365/)
 
-[Dynamics 365 Adoption guide](/dynamics365/get-started/adoption/adoption-guide)
+- [Dynamics 365 Adoption guide](/dynamics365/get-started/adoption/adoption-guide)
 
-[Accelerate Dynamics 365 Adoption checklist](/dynamics365/adoption/adoption-checklist)
+- [Accelerate Dynamics 365 Adoption checklist](/dynamics365/adoption/adoption-checklist)
 
-[Build a champion program](/dynamics365/adoption/champions-guide)
+- [Build a champion program](/dynamics365/adoption/champions-guide)
 
-[Dynamics 365 release schedule and early access](/dynamics365/get-started/release-schedule)
+- [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule)
 
-[Prepare for go live](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live)
+- [Prepare for go live](/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live)
 
-[Report production outage](/business-applications-release-notes/april18/dynamics365-finance-operations/report-production-outage)
+- [Report production outage](/business-applications-release-notes/april18/dynamics365-finance-operations/report-production-outage)
 
-[Targeted release schedule (dates subject to change)](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/commerce/toc.json#targeted-release-schedule-dates-subject-to-change)
+- [Targeted release schedule (dates subject to change)](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/commerce/toc.json#targeted-release-schedule-dates-subject-to-change)
 
-[One Version service updates FAQ](/dynamics365/fin-ops-core/fin-ops/get-started/one-version?toc=/dynamics365/commerce/toc.json)
+- [One Version service updates FAQ](/dynamics365/fin-ops-core/fin-ops/get-started/one-version?toc=/dynamics365/commerce/toc.json)
 
-[Monitoring and diagnostics tools in Lifecycle Services (Lifecycle Services)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics)  
+- [Monitoring and diagnostics tools in Lifecycle Services (Lifecycle Services)](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/monitoring-diagnostics)  
 
 ## Next steps
 

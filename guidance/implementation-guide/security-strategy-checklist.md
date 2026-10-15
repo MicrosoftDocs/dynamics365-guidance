@@ -2,7 +2,7 @@
 title: Success by design security checklist in application security
 description: Use the Success by Design security checklist to plan and prioritize your key activities for privacy and compliance, identity and access, and application security.
 author: riblack-microsoft
-ms.author: riblack
+ms.author: edupont
 ms.topic: checklist
 ms.date: 01/22/2024
 ms.update-cycle: 1095-days

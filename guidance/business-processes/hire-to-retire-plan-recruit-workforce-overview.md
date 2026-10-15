@@ -4,7 +4,7 @@ description: Read about the business process area for defining the organizationa
 ms.date: 05/23/2025
 ms.topic: concept-article
 author: edupont04
-ms.author: riblack
+ms.author: edupont
 ---
 
 # Overview of the Develop people strategy business process area within the Hire to retire end-to-end scenario

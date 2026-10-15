@@ -47,7 +47,7 @@ Consider these factors before you choose a release strategy:
 
 Based on these factors, you should define a release strategy that helps you deploy your solution in the best way.
 
-Following are some common release strategy models:
+The following section outlines some common release strategy models.
 
 ### Big bang
 

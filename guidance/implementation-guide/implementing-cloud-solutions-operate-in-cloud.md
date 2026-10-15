@@ -63,7 +63,7 @@ For example, you can configure Dynamics 365 and [Azure Application Insights](/az
 
 Your cloud solution evolves and delivers on the promise of digital transformation. It delivers new capabilities that help you stay competitive in your industry. Cloud vendors do their own research and listen to customer feedback to improve the product by adding new features. Being actively engaged in this process by giving feedback, staying on top of the latest roadmap, and planning for upcoming changes is an effective way to operate in the cloud. The key stakeholders from the business also need to stay engaged and plugged in to new feature development, investments, and product direction. We recommend developing your own roadmap for business apps and aligning it to the product direction to get the most out of your investments.
 
-Dynamics 365 has two [release waves](/dynamics365/release-plans/) per year that make incremental enhancements and new capabilities available to customers. Adopting these mandatory changes and new features&mdash;many of which are included in existing license plans&mdash;is a fundamental aspect of operating in the cloud.
+Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule). Adopting these mandatory changes and new features - many of which are included in existing license plans - is a fundamental aspect of operating in the cloud.
 
 ## Stay engaged
 

@@ -2,7 +2,7 @@
 title: Protect your data with Dynamics 365 security controls
 description: Learn how Dynamics 365 uses security controls to help you protect your data in the cloud and meet your compliance requirements.
 author: riblack-microsoft
-ms.author: riblack
+ms.author: edupont
 ms.topic: concept-article
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days

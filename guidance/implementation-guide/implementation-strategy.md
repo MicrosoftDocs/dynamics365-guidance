@@ -121,7 +121,7 @@ Planning a budget for Dynamics 365 cloud applications typically includes costs l
 - Storage
 - Implementation lifecycle activities, such as design, testing, deployment of the solution, migration from incumbent systems, training, change management, and continuous improvements.
 
-Dynamics 365 follows a periodic release pattern with weekly fixes, monthly, and six-month release waves. We highly recommend allocating budget towards building strong DevOps, CI/CD (Continuous Integration/Continuous Delivery) pipelines with sufficient test automation of functional scenarios and business processes in place that help improve the test regressions.
+Dynamics 365 follows a periodic release pattern with weekly, monthly, and six-month update cycles. Allocate budget to building strong DevOps and CI/CD (Continuous Integration/Continuous Delivery) pipelines with sufficient test automation of functional scenarios and business processes that help improve test regressions.
 
 Project lifecycles require constant assessments with careful considerations and actions for the variance between budgets and actual costs.
 

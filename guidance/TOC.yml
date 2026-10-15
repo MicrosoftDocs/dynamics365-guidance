@@ -1019,6 +1019,8 @@ items:
                         href: resources/field-service-mobile-disable-click.md
                       - name: Show more data in lists and subgrids
                         href: resources/field-service-mobile-expand-grid-control.md
+                      - name: Use work order subgrids
+                        href: resources/field-service-mobile-subgrid.md
               - name: Develop solutions
                 items:
                   - name: Write scripts to implement complex business logic

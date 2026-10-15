@@ -4,7 +4,7 @@ description: Learn how to successfully deploy Copilot in Dynamics 365 Customer S
 ms.date: 09/10/2024
 ms.topic: concept-article
 author: edupont04
-ms.author: ktaylor
+ms.author: edupont
 ---
 
 # Copilot onboarding guide for digital contact centers

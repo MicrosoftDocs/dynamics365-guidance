@@ -2,7 +2,7 @@
 title: Secure your Power Pages with authentication and authorization
 description: Learn how to use authentication and authorization to protect your data and web pages in Power Pages, which let you access Dataverse data through external websites.
 author: riblack-microsoft
-ms.author: riblack
+ms.author: edupont
 ms.topic: concept-article
 ms.date: 01/19/2024
 ms.update-cycle: 1095-days

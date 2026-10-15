@@ -39,7 +39,7 @@ One Version offers these benefits:
 
 - Early visibility of upcoming changes
 
-  - Access to release notes well before the release for readiness so that you know what the new changes are and the dates to start planning early
+  - [!INCLUDE [roadmap](~/../shared-content/shared/get-started-includes/roadmap.md)]
 
   - Visibility into new features and updates for business sponsors that can help their team be trained in new features
 
@@ -72,11 +72,11 @@ System administrators and others who signed up for service notifications are ale
 
 These notifications provide the information you need to start your planning: dates of release availability, release notes, and the process to opt in for early access.
 
-### Release notes and removal of capabilities
+### Roadmap and deprecation of capabilities
 
 Great planning starts with education and learning when and what is being rolled out. The notifications explain the upcoming changes and include a link to online documentation for more details. This information can help you assess the impact to your organization so that you can decide when and how to take action.
 
-Administrators are notified of upcoming releases through the message center and by email. Notes for major releases are available months before availability and provide several key pieces of information. First, they list the features in the release, including a description of each one and the general availability (GA) date. They also show if the feature is available for public preview and early access.
+Administrators are notified of upcoming releases through the message center and by email. [!INCLUDE [roadmap](~/../shared-content/shared/get-started-includes/roadmap.md)] The roadmap lists the new capabilities, including a description of each one and the general availability (GA) date. It also shows if the feature is available for public preview and early access.
 
 Let's break down the three types of releases:
 
@@ -94,7 +94,7 @@ Each release wave includes features and functionalities that you can turn on for
 
 - **Users by administrators, makers, or analysts**: These features must be turned on or configured centrally before users get access to them.
 
-If you choose to opt in, you get features that are typically mandatory changes automatically turned on for users. Each feature in the release notes indicates which category it falls under.
+If you choose to opt in, you get features that are typically mandatory changes automatically turned on for users. Each feature in the roadmap indicates which category it falls under.
 
 Update notifications might also include announcements about features that are marked for removal. Notices about capabilities that are marked for removal provide a timeline for when a feature is removed. These announcements are important because they give you time to assess the impact and work with your business sponsor and technical team to address any concerns.
 
@@ -102,9 +102,7 @@ Business apps evolve over time, and capabilities replace older capabilities. As 
 
 Obsoleted features continue to work and are fully supported until they're officially removed, after which they no longer work. The notifications of removal provide information on what features are being removed, when it happens, why it's happening, and what actions you can take to mitigate the impact. As for new features, you must plan and prepare well before the removal of features to avoid negative effects from the removal.
 
-For finance and operations apps, see the [One Version service updates overview](/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview?toc=/dynamics365/finance/toc.json) for details on release planning, [release notes](/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-changed), [marking for removal](/dynamics365/fin-ops-core/dev-itpro/get-started/removed-deprecated-features-platform-updates), and [release cadence](/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy).
-
-For customer engagement apps and Power Platform, see the [release notes](/dynamics365/release-plans/), [important announcements](/power-platform/important-changes-coming), and [release cadence](/dynamics365/get-started/release-schedule).
+Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).
 
 ### How to get early access
 

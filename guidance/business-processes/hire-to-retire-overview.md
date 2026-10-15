@@ -4,7 +4,7 @@ description: Learn about the hire to retire end-to-end business process with a f
 ms.date: 12/12/2023
 ms.topic: concept-article
 author: edupont04
-ms.author: riblack
+ms.author: edupont
 ---
 
 # Overview of the hire to retire business process flow and its relationship to other processes
