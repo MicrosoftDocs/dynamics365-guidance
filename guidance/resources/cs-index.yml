@@ -21,8 +21,8 @@ landingContent:
     linkLists:
     - linkListType: get-started
       links:
-      - text: Release plans
-        url: /dynamics365/customer-service/whats-new-customer-service
+      - text: Roadmap
+        url: https://www.microsoft.com/microsoft-365/roadmap?filters=%5B%22Dynamics+365+Customer+Service%22%5D#Roadmap
 
 # Card
   - title: Samples and tools

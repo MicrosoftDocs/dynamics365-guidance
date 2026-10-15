@@ -4,7 +4,7 @@ description: Learn why training users is vital for successful adoption of Dynami
 author: rachel-profitt
 ms.author: raprofit
 ms.topic: overview
-ms.date: 09/23/2025
+ms.date: 10/15/2026
 ms.custom:
   - ai-gen-docs-bap
   - ai-seo-date: 07/15/2026
@@ -35,9 +35,9 @@ You can use various tools to train your users and increase adoption of Dynamics 
 
 - **Guidance from the Dynamics 365 Implementation Guide and Success by Design**: The Dynamics 365 Implementation Guide gives you valuable tips on how to plan and deliver effective training programs and manage change successfully. The Success by Design framework, part of the guide, shows you how to align your technology solutions with your business goals. Find the Dynamics 365 Implementation guide at [Dynamics 365 implementation guidance](../implementation-guide/overview.md).
 
-- **Continuous training and evolution**: Training, change management, and adoption aren't one-time events. They're ongoing processes that support your organizational growth. As Dynamics 365 evolves, so should your users' skills and practices. Review your training plans and change management strategies regularly to keep up with the latest technology updates. See the roadmap at [Release plans for Dynamics 365, Power Platform, and Cloud for Industry](/dynamics365/release-plans/) or use the Release Planner to get ready for [upcoming software releases](https://releaseplans.microsoft.com).
+- **Continuous training and evolution**: Training, change management, and adoption aren't one-time events. They're ongoing processes that support your organizational growth. As Dynamics 365 evolves, so should your users' skills and practices. Review your training plans and change management strategies regularly to keep up with the latest technology updates. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).
 
-Training and adoption aren't just steps in a project plan. They're the key to realizing the true potential of Dynamics 365. You can achieve successful technology adoption by using tools like Microsoft Learn, Viva Learn, and product documentation. You can also adopt new features quickly and confidently with the guidance of the Dynamics 365 Implementation Guide and the Success by Design framework.
+Training and adoption aren't just steps in a project plan. They're the key to realizing the true potential of Dynamics 365. You can achieve successful technology adoption by using tools such as Microsoft Learn. You can also adopt new features quickly and confidently with the guidance of the Dynamics 365 Implementation Guide and the Success by Design framework.
 
 ## Stakeholders
 
@@ -133,14 +133,6 @@ In summary, investing in training users and increasing adoption when you impleme
 1. [Support systems](administer-to-operate-support-systems-overview.md)  
 
 ## Related information
-
-- [Adoption resources (contains video)](/dynamics365/adoption/adoption-resources)
-
-- [Dynamics 365 adoption guide](/dynamics365/adoption/adoption-guide)
-
-- [Dynamics 365 adoption workbook overview](/dynamics365/adoption/adoption-workbook-overview)
-
-- [Adoption checklist](/dynamics365/adoption/adoption-checklist)
 
 - [Training strategy](../implementation-guide/training-strategy.md)
 

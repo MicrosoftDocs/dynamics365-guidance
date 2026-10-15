@@ -4,7 +4,7 @@ description: Implement Copilot in your digital contact center by creating a chan
 ms.date: 09/10/2024
 ms.topic: concept-article
 author: edupont04
-ms.author: ktaylor
+ms.author: edupont
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

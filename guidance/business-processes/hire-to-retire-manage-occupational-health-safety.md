@@ -4,7 +4,7 @@ description: Streamline and enhance safety management processes with Dynamics 36
 ms.date: 09/23/2025
 ms.topic: concept-article
 author: rachel-profitt
-ms.author: riblack
+ms.author: edupont
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc

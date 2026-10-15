@@ -3,7 +3,7 @@ title: Overview of the Manage employee travel overview business process
 description: Learn about the business process for managing business travels in Dynamics 365, including outlines on types of stakeholders and benefits.
 ms.topic: concept-article
 author: edupont04
-ms.author: riblack
+ms.author: edupont
 ms.date: 05/22/2025
 ---
 

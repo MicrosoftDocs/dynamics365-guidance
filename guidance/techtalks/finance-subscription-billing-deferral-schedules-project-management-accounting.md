@@ -65,7 +65,7 @@ Businesses can also benefit from automated invoicing, where sales orders linked 
 
 The roadmap for subscription billing in Dynamics 365 Finance includes several key enhancements that aim to further streamline revenue recognition and project accounting. For example, *Multiple Element Revenue Allocation* (MERA), which allows for more flexible allocation of revenue across different project components. Learn more at [Set up multiple element revenue allocation](/dynamics365/finance/accounts-receivable/sb-rev-alloc-setup). Additionally, deferrals for stock service items and adjustments from inventory closing and recalculations are also being developed.
 
-The *subscription billing* module continues to get more capabilities, so keep an eye on [the release plans](/dynamics365/release-plans/) to stay on top of what's coming.
+The *subscription billing* module continues to get more capabilities. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule).
 
 ## Conclusion
 

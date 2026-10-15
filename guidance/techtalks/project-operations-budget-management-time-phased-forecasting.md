@@ -69,7 +69,7 @@ You can use the following resources to learn more about Dynamics 365:
 
 - [Dynamics 365 Community](https://community.dynamics.com/)
 
-- [Dynamics 365 Release planner](https://releaseplans.microsoft.com/?app=Sales#release-notes)
+- [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule/)
 
 - [Dynamics 365 Application Ideas](https://experience.dynamics.com/ideas/)
 

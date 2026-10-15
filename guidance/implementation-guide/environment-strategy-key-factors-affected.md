@@ -3,7 +3,7 @@ title: How an environment strategy affects key factors
 description: Learn how an environment strategy affects key factors of a Dynamics 365 implementation, such as security, compliance, and future-proofing.
 author: abunduc-ms
 ms.author: edupont
-ms.date: 01/16/2024
+ms.date: 10/15/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom:
@@ -83,9 +83,9 @@ There are no native sync capabilities between environments, so you need to manag
 
 Maintainability is the ease and speed of maintaining your solution, including service updates, bug fixes, and rolling out change requests and new features. You want to keep your solution up to date and secure, as well as meet the changing needs of your users and business.
 
-Your environment strategy can affect your maintainability in several ways. For example, if you have multiple apps sharing common components in the same environment, you need to consider the impact of upgrading or deploying a new release on all the apps. You also need to invest in automation testing to quickly identify and resolve any issues or dependencies.
+Your environment strategy can affect your maintainability in several ways. For example, if you have multiple apps sharing common components in the same environment, you need to consider the impact of upgrading or deploying updates for all the apps. You also need to invest in automation testing to quickly identify and resolve any issues or dependencies.
 
-The number of environments you have can also affect your maintainability. For example, testing a release wave or analyzing the impact of deprecations is easier when you have fewer environments to manage.
+The number of environments you have can also affect your maintainability. For example, testing an update or analyzing the impact of deprecations is easier when you have fewer environments to manage.
 
 ## Application lifecycle management
 

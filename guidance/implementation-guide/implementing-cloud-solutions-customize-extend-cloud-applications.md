@@ -57,7 +57,7 @@ In addition to the business process-oriented approach to implementation, we also
 
 The Common Data Model (CDM) is an open standard schema for business data created in collaboration with SAP and Adobe. It's used across Dynamics 365 applications. Aligning to the CDM can help you future-proof your solution and make sure you can take advantage of enhancements and other business applications across the industry that honor the schema and can easily interpret your data.
 
-Another way to future-proof is to understand your organization's roadmap, investment direction, and latest industry trends. This way, you can better align to the future direction of the platform. You should make it a practice to stay on top of upcoming Dynamics 365 capabilities in the [release notes](/dynamics365/release-plans/index). Plan to roll out these capabilities to keep innovating your business processes.
+Another way to future-proof is to understand your organization's roadmap, investment direction, and latest industry trends. By using this knowledge, you can better align to the future direction of the platform. Find links to guidance for the different apps and services at [Dynamics 365 and Power Platform release schedules](/dynamics365/get-started/release-schedule). Plan to roll out these capabilities to keep innovating your business processes.
 
 ## Understand the tradeoff
 

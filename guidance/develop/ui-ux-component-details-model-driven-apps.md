@@ -4,7 +4,7 @@ description: Discover how to use the navigation bar, dashboards, forms, views, a
 author: dereklh77
 ms.author: riasif
 ms.topic: concept-article
-ms.date: 06/03/2024
+ms.date: 10/15/2026
 ---
 
 # UI/UX design components for Power Apps model-driven apps
@@ -177,7 +177,7 @@ Here are some scripting best practices for model-driven apps forms:
 
 - **Optimize for mobile devices.** For mobile apps, make sure that only required fields are shown.
 
-- **Test the latest release wave before rolling out to production.** Be sure to test each new release wave in your test environment before making updates in your production environment.
+- **Test the latest updates before rolling out to production.** Always test each new update in your test environment before applying the updates in your production environment.
 
 ## Views and grids
 

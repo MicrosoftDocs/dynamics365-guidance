@@ -23,7 +23,7 @@ landingContent:
     linkLists:
     - linkListType: get-started
       links:
-      - text: Release plans
+      - text: Release schedule
         url: /dynamics365/field-service/version-history
 
 # Card
