@@ -138,6 +138,8 @@ landingContent:
           url: field-service-mobile-improve-performance.md
         - text: Use deep links to the Field Service mobile app
           url: field-service-mobile-use-deep-links.md
+        - text: Use work order subgrids
+          url: field-service-mobile-subgrid.md
     - linkListType: how-to-guide
       links:
         - text: Add booking statuses with custom icons
