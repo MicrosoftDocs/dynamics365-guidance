@@ -4,7 +4,7 @@ description: Learn how to use the July setup package to create an Azure DevOps p
 author: rachel-profitt
 ms.author: raprofit
 ms.reviewer: edupont
-ms.date: 07/14/2026
+ms.date: 10/27/2026
 ms.topic: how-to
 ---
 
@@ -54,7 +54,30 @@ Select the following scopes for personal access tokens (PAT):
 - **Extensions:** Read
 - **Marketplace:** Read
 
+### If you don't see one or more scope categories
+
+PAT scope labels and availability can vary by Azure DevOps versions, organization policies, and your permissions. If you don't see **Organization** or **Process and Work Item Types**:
+
+1. **Confirm you're creating the PAT in the correct organization.** Check the organization selector in Azure DevOps and make sure the PAT is for `https://dev.azure.com/<organization>`, the organization used by the wizard.
+2. **Confirm your permissions.** The PAT must be created by an organization owner or, on Azure DevOps Server, a Project Collection Administrator. If you don't have the required role, ask an organization owner to create the PAT or grant you the required role.
+3. **Check organization policies that restrict PATs.** Organization owners can review restrictions in **Organization settings** under security or policies. Policies might hide or restrict scopes or block PAT creation.
+4. **Choose the closest available equivalent scopes if labels differ.** The labels vary across on-premises and cloud versions of Azure DevOps. For example, if you don't have the **Organization** or **Project and Team** labels, look for scopes that allow managing organization and project settings. Similarly, if you don't have the field **Process and Work Item Types**, look for process and work item type management, and make sure the selected scopes also allow reading and writing work items and reading extensions and Marketplace.
+5. **If you still can't select the required capabilities, use an organization-owner PAT for Phases 1–4.** For Phase 5, use a PAT with at least **Work Items: Read & write**.
+
+> [!NOTE]
+> If a policy restricts the required scopes, ask your administrator to allow those scopes for the setup account or temporarily change the policy during initial configuration and import.
+
 If your organization restricts extension installation, the account might also need organization-owner or administrator rights beyond the PAT scopes. Phase 2 attempts to install or confirm the DevLabs multivalue control extension. If the extension isn't installed and the PAT or account can't install extensions, Phase 2 logs a warning and skips multivalue controls. Install the extension manually from Azure DevOps Marketplace or rerun Phase 2 with an account and PAT that can manage extensions.
+
+### Validate your PAT
+
+These symptoms can indicate that your PAT is missing scopes:
+
+- **Phase 1 fails** with permission errors 401 or 403 while creating or updating a process, work item types, or fields. The PAT might lack process or work item type management capability, or your account might not be an organization owner or collection administrator.
+- **Phase 2 logs extension installation or verification warnings.** Your PAT or account might not be able to manage extensions. Install the DevLabs control manually or rerun Phase 2 with an organization-owner PAT.
+- **Phase 5 import fails** while creating or updating work items. The PAT might lack **Work Items: Read & write**.
+
+If you see these errors, create a new PAT with the closest available higher scopes and rerun the affected phase or phases.
 
 Don't paste the PAT into scripts or commit it to source control. Let the wizard prompt for it, or set it only for the current PowerShell session:
 

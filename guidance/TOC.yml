@@ -441,6 +441,8 @@ items:
             items:
               - name: What's new or changed in the business process catalog
                 href: business-processes/about-whats-new.md
+              - name: What's new in the October 2026 version
+                href: business-processes/about-whats-new-2026-october.md
               - name: What's new or changed in the July 2026 version
                 href: business-processes/about-whats-new-2026-july.md
               - name: What's new or changed in the March 2026 version
