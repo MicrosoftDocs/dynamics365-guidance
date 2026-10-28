@@ -4,7 +4,7 @@ description: Dive into the structured hierarchy of the business process catalog,
 author: edupont04
 ms.author: edupont
 ms.reviewer: edupont
-ms.date: 01/12/2026
+ms.date: 10/28/2026
 ms.topic: concept-article
 ---
 
@@ -20,13 +20,13 @@ An end-to-end process represents the complete flow of activities from the initia
 
 The naming pattern for end-to-end processes is *This to That*, where *This* is the starting point or trigger of the process, and *That* is the end point or outcome.
 
-### Examples
+### Examples of end-to-end processes
 
 The following list provides a few examples of this level of the business process catalog.
 
-- Order to cash
-- Source to pay
-- Hire to retire
+- [Order to cash](order-to-cash-overview.md)
+- [Source to pay](source-to-pay-overview.md)
+- [Hire to retire](hire-to-retire-overview.md)
 
 ### What an end-to-end process is
 
@@ -50,7 +50,7 @@ The following list outlines what an end-to-end process isn't.
 
 A business process area is a key component or phase within an end-to-end process. It represents a significant grouping of related activities that contribute to the overall objective. It provides a logical way to group business processes, and it makes the business process catalog easier to navigate.
 
-Business process areas are often loosely associated with certain personas or roles within the organization. While this connection isn't a strict rule, it serves as a helpful guiding principle when mapping activities to specific responsibilities across teams. This approach enables clearer accountability and makes the process catalog more intuitive to navigate.
+Business process areas often have a loose association with certain personas or roles within the organization. While this connection isn't a strict rule, it serves as a helpful guiding principle when mapping activities to specific responsibilities across teams. This approach enables clearer accountability and makes the process catalog more intuitive to navigate.
 
 When naming business process areas, always prioritize consistency to ensure clarity and ease of use throughout the process catalog. While aligning with industry standards is beneficial, it's secondary to maintaining a clear and understandable naming convention for business users. Above all, the name of each business process area should make it immediately apparent to the business user what activities or responsibilities the process area encompasses.
 
@@ -106,9 +106,9 @@ Use the following list as a guide to select a verb when naming a Level 2 busines
 
 ## Level three: Business processes
 
-A business process is a specific set of activities or tasks that accomplish a particular business function within a business process area. Make sure the description is clear about the function being performed but doesn't describe a specific activity, task, or step within the process. Also, avoid system-specific processes. The process should apply to most businesses regardless of the system they use.
+A business process is a specific set of activities or tasks that accomplish a particular business function within a business process area. Ensure that the description clearly explains the function being performed but doesn't describe a specific activity, task, or step within the process. Also, avoid system-specific processes. The process should apply to most businesses regardless of the system they use.
 
-Software development companies and partners can add level three business processes if they follow the guidelines documented here. Evaluate carefully if the new row should be added as a scenario, system process, or test case first. This approach keeps the organizational structure consistent and avoids duplication or misclassification of activities. Careful assessment helps maintain clarity and alignment with the intended business architecture. You can suggest a new business process at [https://aka.ms/businessprocesscatalogrequests](https://aka.ms/businessprocesscatalogrequests).
+Software development companies and partners can add level three business processes if they follow the guidelines documented in this article. Evaluate carefully if the new row should be added as a scenario, system process, or test case. This approach keeps the organizational structure consistent and avoids duplication or misclassification of activities. Careful assessment helps maintain clarity and alignment with the intended business architecture. You can suggest a new business process at [https://aka.ms/businessprocesscatalogrequests](https://aka.ms/businessprocesscatalogrequests).
 
 ### Naming convention for business processes
 
@@ -198,8 +198,8 @@ Use a verb-noun phrase that reflects the *user action* on the form. Examples:
 
 ### Guidance
 
-- A system process should be traceable to a UI element
-- A system process supports training, documentation, and testing  
+- A system process should be traceable to a UI element.
+- A system process supports training, documentation, and testing.  
 
 ### Examples of system processes
 
@@ -231,15 +231,15 @@ Always relate test cases to a business process to ensure they're relevant and me
 
 Several types of test cases serve specific purposes as outlined in the following table:
 
-|Type  |Description  |
-|---------|---------|
-|Functional test cases | Use these test cases to verify that the software functions according to the specified requirements. They focus on the user interface, APIs, databases, security, and other functional aspects of the application.|
-|Performance test cases|Design these test cases to assess the performance of the software under various conditions, such as load, stress, and scalability. They help ensure that the application can handle expected user traffic and perform efficiently.|
-|Usability test cases| Use these test cases to evaluate the user experience and ease of use of the software. They focus on the design, navigation, and overall user interaction with the application.|
-|Security test |Use these test cases to identify vulnerabilities and ensure that the software is secure from threats and attacks. They include tests for authentication, authorization, data encryption, and other security measures.|
-|Integration test cases|Use these test cases to verify that different modules or components of the software work together as expected. They help identify issues that might arise when integrating various parts of the application.|
-|Regression test cases| Use these test cases to ensure that recent code changes don't adversely affect existing functionality. Run them after any modification to the software to verify that the changes didn't introduce new defects.|
-|User acceptance test cases|Use these test cases to validate that the software meets the needs and expectations of the end users. Typically, the users themselves perform these tests to ensure that the application is ready for production.|
+| Type | Description |
+| -- | -- |
+| Functional test cases | Use these test cases to verify that the software functions according to the specified requirements. They focus on the user interface, APIs, databases, security, and other functional aspects of the application. |
+| Performance test cases | Design these test cases to assess the performance of the software under various conditions, such as load, stress, and scalability. They help ensure that the application can handle expected user traffic and perform efficiently. |
+| Usability test cases | Use these test cases to evaluate the user experience and ease of use of the software. They focus on the design, navigation, and overall user interaction with the application. |
+| Security test cases | Use these test cases to identify vulnerabilities and ensure that the software is secure from threats and attacks. They include tests for authentication, authorization, data encryption, and other security measures. |
+| Integration test cases | Use these test cases to verify that different modules or components of the software work together as expected. They help identify issues that might arise when integrating various parts of the application. |
+| Regression test cases | Use these test cases to ensure that recent code changes don't adversely affect existing functionality. Run them after any modification to the software to verify that the changes didn't introduce new defects. |
+| User acceptance test cases | Use these test cases to validate that the software meets the needs and expectations of the end users. Typically, the users themselves perform these tests to ensure that the application is ready for production. |
 
 Each type of test case plays a crucial role in ensuring the overall quality and reliability of the software application. By using a combination of these test cases, you can thoroughly test the software and identify any issues before they reach the end users.
 
@@ -247,15 +247,15 @@ Each type of test case plays a crucial role in ensuring the overall quality and 
 
 The following table provides examples of different types of test cases related to the business process of creating a sales order. This list isn't comprehensive, and the steps aren't precise for executing each test. The list offers a high-level representation of the types of tests that might exist for a similar business process.
 
-|Type |Title  |Description  |Steps  |Expected result  |
-|-----|---------|---------|---------|---------|
-|Functional test case|Verify Sales Order Creation  |Ensure that a sales order can be created successfully. |1. Go to the Sales Order module.</br></br>  2. Select **Create New Sales Order**.</br></br>  3. Enter customer details, product information, and quantity.</br></br> 4. Save the sales order.  | The sales order is created and saved successfully.|
-|Performance test case|Assess Sales Order Creation Under Load|Evaluate the system's performance when creating multiple sales orders simultaneously.| 1. Simulate the creation of 1,000 sales orders concurrently.</br></br> 2. Monitor the system's response time and resource usage.|The system handles the load efficiently without significant delays or crashes.|
-|Usability test case|Evaluate User Experience in Sales Order Creation|Assess the ease of use and navigation during the sales order creation process.| 1. Ask a user to create a sales order without prior training.</br></br>2. Observe the user's interaction with the interface.</br></br>3. Collect feedback on the design, navigation, and overall experience.|The user can create a sales order easily and provides positive feedback on the interface.|
-|Security test case|Verify Access Control for Sales Order Creation|Ensure that only authorized users can create sales orders.| 1. Attempt to create a sales order with an unauthorized user account.</br></br> 2. Attempt to create a sales order with an authorized user account.|The unauthorized user is denied access, while the authorized user can create a sales order.|
-|Integration test case|Validate Integration Between Sales Order and Inventory Modules|Ensure that the sales order creation updates the inventory correctly.| 1. Create a sales order for a specific product.</br></br> 2. Check the inventory levels before and after the sales order creation.|The inventory levels are updated accurately based on the sales order.|
-|Regression test case|Verify Sales Order Creation After System Update|Ensure that the sales order creation functionality works correctly after a system update.| 1. Perform a system update.</br></br> 2. Create a sales order following the standard process.|The sales order is created successfully without any issues introduced by the update.|
-|User acceptance test case|Confirm Sales Order Creation Meets User Requirements|Validate that the sales order creation process meets the end user's needs and expectations.| 1. Provide the end user with the sales order creation feature.</br></br> 2. Ask the user to create a sales order and provide feedback.|The user successfully creates a sales order and confirms that the process meets their requirements.|
+| Type | Title | Description | Steps | Expected result |
+| -- | -- | -- | -- | -- |
+| Functional test case | Verify Sales Order Creation | Ensure that a sales order can be created successfully. | 1. Go to the Sales Order module.</br></br>  2. Select **Create New Sales Order**.</br></br>  3. Enter customer details, product information, and quantity.</br></br> 4. Save the sales order. | The sales order is created and saved successfully. |
+| Performance test case | Assess Sales Order Creation Under Load | Evaluate the system's performance when creating multiple sales orders simultaneously. | 1. Simulate the creation of 1,000 sales orders concurrently.</br></br> 2. Monitor the system's response time and resource usage. | The system handles the load efficiently without significant delays or crashes. |
+| Usability test case | Evaluate User Experience in Sales Order Creation | Assess the ease of use and navigation during the sales order creation process. | 1. Ask a user to create a sales order without prior training.</br></br>2. Observe the user's interaction with the interface.</br></br>3. Collect feedback on the design, navigation, and overall experience. | The user can create a sales order easily and provides positive feedback on the interface. |
+| Security test case | Verify Access Control for Sales Order Creation | Ensure that only authorized users can create sales orders. | 1. Attempt to create a sales order with an unauthorized user account.</br></br> 2. Attempt to create a sales order with an authorized user account. | The unauthorized user is denied access, while the authorized user can create a sales order. |
+| Integration test case | Validate Integration Between Sales Order and Inventory Modules | Ensure that the sales order creation updates the inventory correctly. | 1. Create a sales order for a specific product.</br></br> 2. Check the inventory levels before and after the sales order creation. | The inventory levels are updated accurately based on the sales order. |
+| Regression test case | Verify Sales Order Creation After System Update | Ensure that the sales order creation functionality works correctly after a system update. | 1. Perform a system update.</br></br> 2. Create a sales order following the standard process. | The sales order is created successfully without any issues introduced by the update. |
+| User acceptance test case | Confirm Sales Order Creation Meets User Requirements | Validate that the sales order creation process meets the end user's needs and expectations. | 1. Provide the end user with the sales order creation feature.</br></br> 2. Ask the user to create a sales order and provide feedback. | The user successfully creates a sales order and confirms that the process meets their requirements. |
 
 ## Related content
 

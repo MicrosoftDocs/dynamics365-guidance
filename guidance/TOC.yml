@@ -311,6 +311,8 @@ items:
                 href: business-processes/record-to-report-record-financial-transactions.md
               - name: Close financial periods overview
                 href: business-processes/record-to-report-close-financial-periods.md
+          - name: Rent to return
+            href: business-processes/rent-to-return-areas.md
           - name: Service to deliver
             items:
               - name: End-to-end scenario - service to deliver (ID 95)
