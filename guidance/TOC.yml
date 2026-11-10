@@ -1348,14 +1348,16 @@ items:
             href: implementation-guide/security-strategy-day-one-priority.md
           - name: Checklist
             href: implementation-guide/security-strategy-checklist.md
-      - name: Migration from on-premises to online
+      - name: Migration
         items:
-          - name: Migrate from Dynamics
-            href: migrate/overview.md
-          - name: Dynamics CRM or Dynamics 365 (on-premises) to Dynamics 365 online migration process overview
-            href: migrate/opol-crm-migration-high-level-overview.md
-          - name: AIM program
+          - name: Migration from on-premises to online
             items:
+            - name: Migrate from on-premises to online overview
+              href: migrate/overview.md
+            - name: Dynamics CRM or Dynamics 365 (on-premises) to Dynamics 365 online migration process overview
+              href: migrate/opol-crm-migration-high-level-overview.md
+            - name: AIM program
+              items:
               - name: Overview of the AIM migration program for on-premises solutions
                 href: migrate/aim-migration-overview.md
               - name: Solution-specific insights
@@ -1366,6 +1368,10 @@ items:
                 href: migrate/aim-faq.md
               - name: Customer stories
                 href: migrate/aim-customer-stories.md
+          - name: Migration of work orders
+            items:
+              - name: Migrate legacy work orders into Field Service and Project Operations integration
+                href: migrate/migrate-legacy-work-orders.md
       - name: Development guides
         items:
           - name: UI/UX design for Dynamics 365 customer engagement apps
