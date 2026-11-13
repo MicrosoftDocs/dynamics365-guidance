@@ -1,7 +1,7 @@
 ---
 title: Overview of the Pursue opportunities business process area
 description: Learn how you can use Dynamics 365 products to support the organization's business processes for pursuing opportunities.
-ms.date: 05/12/2026
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -69,6 +69,14 @@ There are many benefits that accrue from implementing technology to support the 
 
 Overall, Dynamics 365 enables organizations to maximize the potential of every customer relationship.
 
+## Agents that support this business process area
+
+- [Sales Opportunity Agent](/dynamics365/sales/sales-opportunity-agent) continuously researches open opportunities, surfaces deal risks and material changes, and helps sellers prioritize the deals that need action.
+- [Recommended actions](/dynamics365/sales/recommended-actions-overview) presents a prioritized list of next actions for each seller, combining recommendations from the Sales Opportunity Agent and other configured agents.
+- [AI-powered data enrichment for opportunities](/dynamics365/sales/data-enrichment-agent-overview) analyzes recent email and Teams meeting context to suggest or make configured updates to opportunity records.
+
+Some agents are in preview. Check each linked article for current availability, regional support, and licensing requirements before you plan to use an agent.
+
 ## Next steps
 
 If you want to implement Dynamics 365 solutions to help with your business processes for pursuing opportunities, use the following resources and steps to learn more. (Links are added, when articles become available.)
@@ -85,7 +93,7 @@ If you want to implement Dynamics 365 solutions to help with your business proce
 
 ## Related information
 
-- [Product overview Dynamics 365 Sales](https://dynamics.microsoft.com/sales)
+- [Product overview Dynamics 365 Sales](https://www.microsoft.com/dynamics-365/products/sales)
 - [Create or edit opportunities](/dynamics365/sales/create-edit-opportunity-sales)
 - [Manage leads](/dynamics365/sales/lead-management-overview)
 - [Manage opportunities using pipeline view](/dynamics365/sales/use-opportunity-pipeline-view)

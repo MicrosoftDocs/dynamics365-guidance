@@ -1,7 +1,7 @@
 ---
 title: Overview of the Prospect to quote business process areas
 description: Get an overview for each of the business process areas in the prospect to quote end-to-end business process flow in Dynamics 365 solutions.
-ms.date: 11/04/2025
+ms.date: 10/11/2026
 ms.topic: concept-article
 author: edupont04
 ms.author: kowildfe
@@ -34,7 +34,7 @@ Learn more at [Define a sales strategy overview](prospect-to-quote-define-sales-
 
 <!-- ## Run marketing campaigns
 
-Use marketing campaigns to attract potential customers. Dynamics 365 Sales can integrate with Dynamics 365 Marketing to help you create, manage, and track campaigns. Ultimately, campaigns drive lead generation for the prospect-to-quote process.
+Use marketing campaigns to attract potential customers. Dynamics 365 Sales can integrate with Dynamics 365 Customer Insights - Journeys to help you create, manage, and track campaigns. Ultimately, campaigns drive lead generation for the prospect-to-quote process.
 
 Learn more at [Run marketing campaigns overview](prospect-to-quote-run-marketing-campaigns-overview.md). -->
 
@@ -92,4 +92,4 @@ Principal author:
 
 *Stakeholders:* Sales and marketing teams, product managers, customer service representatives, and senior management
 
-*Products:* Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Sales
+*Products:* Dynamics 365, Dynamics 365 Customer Insights, Dynamics 365 Customer Service, Dynamics 365 Customer Insights - Journeys, Dynamics 365 Sales
