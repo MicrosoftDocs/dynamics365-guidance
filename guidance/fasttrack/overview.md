@@ -47,6 +47,13 @@ For questions regarding FastTrack, reach out to your partner or Microsoft accoun
 
 Dynamics 365 Implementation Portal helps you manage implementation projects. Learn more at [Dynamics 365 Implementation Portal](../implementation-portal/overview.md).  
 
+## Dynamics 365 Activate
+
+Dynamics 365 Activate is an AI-assisted implementation and migration experience that helps customers and partners accelerate their journey to Dynamics 365. By using proven implementation practices through the [Success by Design](../implementation-guide/success-by-design.md) framework and [business process catalog](../business-processes/about-catalog-mavim.md), Dynamics 365 Activate helps organizations analyze and understand their existing business application environments, make informed transformation decisions, and streamline migration and implementation activities.
+Learn more at [Dynamics 365 Activate overview](/dynamics365/dynamics-365-activate/dynamics-365-activate-overview), and in the following blog posts:
+- [Dynamics 365 Activate announcement (blog post)](https://www.microsoft.com/dynamics-365/blog/business-leader/2026/11/17/microsoft-ignite-2026-introducing-dynamics-365-in-copilot/)
+- [Accelerate your move to agentic business applications with Dynamics 365 Activate (blog post)](https://www.microsoft.com/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/)
+
 ## Next steps
 
 - [Customer eligibility and partner qualifications](eligibility.md)  
