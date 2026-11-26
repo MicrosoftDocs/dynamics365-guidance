@@ -80,7 +80,7 @@ Overall, Dynamics 365 enables organizations to maximize the potential of every c
 
 ## Agents that support this business process area
 
-- [Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/sales-chat-overview) lets sellers search and summarize connected CRM data together with email and Teams context, and prepare account and opportunity summaries before they engage a customer.
+- [Sales agent in Microsoft 365 Copilot](/microsoft-sales-copilot/sales-chat-overview) - Sellers can search and summarize connected CRM data together with email and Teams context, and prepare account and opportunity summaries before they engage a customer.  
 
 Some agents are in preview. Check each linked article for current availability, regional support, and licensing requirements before you plan to use an agent.
 
