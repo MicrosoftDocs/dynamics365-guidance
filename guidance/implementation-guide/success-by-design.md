@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Success by Design framework
 description: Learn about the Success by Design framework with best practices from Microsoft to help project teams implement solutions with Dynamics 365.
-ms.date: 08/04/2026
+ms.date: 11/26/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 author: edupont04
@@ -11,17 +11,13 @@ ms.custom:
   - evergreen
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date: 06/22/2026
+  - ai-seo-date: 11/26/2026
 ai-usage: ai-assisted
 ---
 
 # Introduction to Success by Design
 
-> *One of the primary goals of the implementation guide is to democratize the practice of Success by Design by making it available to the entire community of Dynamics 365 implementers.*
-
-Microsoft created Success by Design, a framework and practice, to help project teams implement Dynamics 365.
-
-Based on thousands of real-world customer projects, Success by Design is the sum of Microsoft's Dynamics 365 implementation experience. It offers topic-specific reviews and prescriptive guidance, including approaches and recommended practices, which provide a reliable path to project success. Dynamics 365 system integrators, independent software development companies, and customers can use Success by Design to better architect, build, test, and deploy Dynamics 365 solutions.
+Microsoft created Success by Design, a framework and practice, to help project teams implement Dynamics 365. Right from the start, democratization of the practice of Success by Design was one of the primary goals of the implementation guide by making it available to the entire community of Dynamics 365 implementers. Based on thousands of real-world customer projects, Success by Design is the sum of Microsoft's Dynamics 365 implementation experience. It offers topic-specific reviews and prescriptive guidance, including approaches and recommended practices, which provide a reliable path to project success. Dynamics 365 system integrators, independent software development companies, and customers can use Success by Design to better architect, build, test, and deploy Dynamics 365 solutions.
 
 Microsoft recognizes that Success by Design doesn't guarantee implementation outcomes for customers. But it can help you achieve your project's goals while enabling the desired digital transformation for your organization.
 
@@ -69,7 +65,7 @@ To this end, the sections in this article define the following items:
 - How project teams can use it to accelerate customer success throughout the implementation of Dynamics 365  
 
 > [!NOTE]
-> [FastTrack for Dynamics 365](https://dynamics.microsoft.com/fasttrack/) is a customer success program run by Microsoft's Dynamics 365 product engineering team that helps customers implement Dynamics 365 apps and realize business value faster. The practice of Success by Design is fundamental to FastTrack's approach, but the Success by Design framework is recommended for use on all Dynamics 365 implementation projects.
+> [FastTrack for Dynamics 365](https://www.microsoft.com/dynamics-365/fast-track-implementation) is a customer success program run by Microsoft's Dynamics 365 product engineering team that helps customers implement Dynamics 365 apps and realize business value faster. The practice of Success by Design is fundamental to FastTrack's approach, but the Success by Design framework is recommended for use on all Dynamics 365 implementation projects.
 
 ## Success by Design objectives
 
@@ -99,7 +95,7 @@ The rise of AI agents and autonomous systems is reshaping how implementation tea
 Traditionally, Success by Design relied on point-in-time Solution Blueprint Reviews: structured workshops conducted at discrete project milestones. In the AI era, this model is evolving toward a **Living Solution Blueprint**&mdash;a continuously refined view of the project that AI-driven telemetry, meeting transcripts, document artifacts, and autonomous agent analysis update.
 
 | Principle | From | To |
-|-----------|------|---|
+| ----------- | ------ | --- |
 | Solution blueprint | Point-in-time review | Living, continuously refined blueprint |
 | Workshops | Static, scheduled | Continuous, AI and data-driven updates |
 | Guidance | Human-centric, manual | Dynamic recommendations from autonomous agents |
@@ -153,58 +149,33 @@ Success by Design maps the Dynamics 365 implementation lifecycle into five metho
 
 ### Discover
 
-In the **Discover phase**, the project team gathers and validates business requirements and finalizes the high-level solution approach. All implementations should have a well-rounded implementation strategy that delivers on the promise of digital transformation. This section also covers the environment strategy and the organizational strategy.
+[!INCLUDE [impl-guide-sdb-discover](../includes/impl-guide-sdb-discover.md)]
 
-The Solution Blueprint Review (SBR) begins in the **Discover** phase. As the project team shapes the high-level solution approach and defines key workstreams, the SBR process should be initiated&mdash;not deferred to the **Initiate** phase. Starting the SBR in **Discover** allows the team to surface architectural risks and alignment gaps early, before design decisions become costly to reverse.
-
-When planning an AI-first solution, include the following activities in the **Discover** phase:
-
-- **AI use case prioritization**: Identify which business processes have the highest potential value from agent automation or Copilot assistance.
-- **AI maturity baseline and adoption constraints**: Assess the organization's current AI maturity level, identify perceived and real barriers to AI adoption, and define mitigation actions in Discover with explicit follow-through in subsequent phases to drive sustained AI maturity.
-- **Data readiness assessment**: Evaluate data quality and governance gaps that could affect agent accuracy and reliability.
-- **AI governance requirements**: Identify regulatory, compliance, and responsible AI considerations that apply to the solution.
+Learn more at [The Discover phase in Success by Design](success-by-design-discover.md).
 
 ### Initiate
 
-In the **Initiate phase**, the project team defines all in-scope workstreams and updates the project plan to reflect these updates. When the project team produces the high-level solution design (in the **Discover** phase) and more or less defines the related project workstreams, Success by Design begins with the *Solution Blueprint*. For more information, see [Success by Design reviews](#success-by-design-reviews).
+[!INCLUDE [impl-guide-sdb-initiate](../includes/impl-guide-sdb-initiate.md)]
 
-For AI-enabled implementations, address the following considerations in the **Initiate** phase:
-
-- **Agent scope definition**: Clearly define which agents are in scope, the processes they own, their boundaries, and escalation paths to human reviewers.
-- **Responsible AI review**: Ensure the solution design addresses fairness, transparency, privacy, and accountability for all AI components.
-- **Human-in-the-loop design**: Define where human oversight and approval are required in agent workflows.
+Learn more at [The Initiate phase in Success by Design](success-by-design-initiate.md).
 
 ### Implement
 
-In the **Implement phase**, the project team focuses on building the solution according to the agreed-upon solution design and scope. This phase introduces *Implementation Reviews* that come from the findings and recommendations of the Solution Blueprint. Implementation Reviews help you more deeply address questions related to the specific aspects of the solution design (data model, security, and integration) and implementation practices (ALM, testing strategy). Implementation Reviews are meant to fully address the risks identified during or after the Solution Blueprint Review but before the solution build is too far along.
+[!INCLUDE [impl-guide-sdb-implement](../includes/impl-guide-sdb-implement.md)]
 
-When building AI-first solutions, include the following in the **Implement** phase:
-
-- **Agent prototyping and evaluation (evals)**: Build and evaluate agent behavior against defined scenarios before integrating into core workflows. Evals should cover accuracy, coverage, safety, and latency.
-- **Non-deterministic behavior management**: Account for the non-deterministic nature of AI outputs in your testing strategy. Define acceptable thresholds and fallback paths.
-- **Security and access control**: Review data access scope granted to agents, ensure role-based access controls are applied, and audit agent permissions against the principle of least privilege.
+Learn more at [The Implement phase in Success by Design](success-by-design-implement.md).
 
 ### Prepare
 
-By the **Prepare phase**, the project team has built and tested the solution and is preparing for the final round of user acceptance testing (UAT) and training. Additionally, the project team has granted all necessary customer approvals, completed information security reviews, defined the cutover plan (including go/no-go criteria), scheduled mock go-lives, readied the support model, and completed the deployment runbook with tasks, owners, durations, and dependencies defined. At this point, the project team uses the Success by Design Go live Readiness Review to identify any remaining gaps or issues.
+[!INCLUDE [impl-guide-sdb-prepare](../includes/impl-guide-sdb-prepare.md)]
 
-For AI-enabled solutions, Go-Live readiness should additionally confirm:
-
-- **Pre-production validation**: Agents are validated against production-representative data and scenarios, not just development or test datasets.
-- **Responsible AI sign-off**: Responsible AI review and residual risk acceptance are documented and approved by accountable business stakeholders.
-- **Monitoring and observability readiness**: Telemetry, logging, and alerting for agent outputs are in place before go-live.
-- **Incident response plan**: The support team understands how to detect, triage, and respond to agent behavioral anomalies post-deployment. For example, use telemetry queries to distinguish a single task failure from a broader pipeline stoppage.
+Learn more at [The Prepare phase in Success by Design](success-by-design-prepare.md).
 
 ### Operate
 
-In the **Operate phase**, the customer solution is live. The goal of this phase is stabilization and a shift in focus towards functionality and enhancements that are planned for the next phase of the project.
+[!INCLUDE [impl-guide-sdb-operate](../includes/impl-guide-sdb-operate.md)]
 
-For AI-enabled solutions, the Operate phase must also include continuous evaluation:
-
-- **Ongoing agent monitoring**: Continuously monitor agent behavior, output quality, and usage patterns. Track fairness drift, unexpected outputs, or changes in model behavior after platform updates.
-- **Telemetry-based health checks**: Use platform telemetry to correlate agent performance with business outcomes. Use structured telemetry queries across scale units and time windows to distinguish isolated task failures from systemic pipeline issues.
-- **Continuous evaluation**: Establish a regular cadence for re-running evaluations against live agent behavior. Flag and investigate degradation in accuracy or safety scores.
-- **Expansion roadmap**: As agents demonstrate value and reliability, identify opportunities to extend agent scope, add new use cases, or upgrade to higher automation maturity levels.
+Learn more at [The Operate phase in Success by Design](success-by-design-operate.md).
 
 ## Success by Design reviews
 

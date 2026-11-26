@@ -3,7 +3,7 @@ title: What Is the Dynamics 365 Implementation Guide?
 description: Explore the Dynamics 365 implementation guide to plan solution projects with Success by Design stages, expert guidance, case studies, and training.
 author: edupont04
 ms.author: edupont
-ms.date: 08/19/2026
+ms.date: 11/25/2026
 ms.update-cycle: 1095-days
 ms.topic: overview
 ms.custom:
@@ -21,7 +21,7 @@ The Dynamics 365 implementation guide integrates with other content for the Dyna
 
 The Dynamics 365 implementation guide follows the structure of [Success by Design](success-by-design.md) with five stages:
 
-- *Strategize*
+- *Discover*
 - *Initiate*
 - *Implement*
 - *Prepare*
