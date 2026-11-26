@@ -17,7 +17,7 @@ ai-usage: ai-assisted
 
 # Design for performance with FastTrack
 
-You want your Dynamics 365 solutions to run fast and smooth. That's good for you, your customers, and your project success. But how do you make sure your solution design supports your performance goals? That's where [Microsoft FastTrack](https://dynamics.microsoft.com/fasttrack/) can help.
+You want your Dynamics 365 solutions to run fast and smooth. That's good for you, your customers, and your project success. But how do you make sure your solution design supports your performance goals? [Microsoft FastTrack](https://www.microsoft.com/dynamics-365/fast-track-implementation) can help.
 
 FastTrack offers a workshop that focuses on designing your solution for performance. It helps you understand how configuration and customization affect the solution's overall performance and user experience. It also shows you how to prioritize performance activities, set performance goals, and test performance throughout the project.
 

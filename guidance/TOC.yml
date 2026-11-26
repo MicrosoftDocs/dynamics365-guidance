@@ -471,6 +471,8 @@ items:
             href: implementation-guide/success-by-design.md
           - name: Discover
             items:
+              - name: Discover phase
+                href: implementation-guide/success-by-design-discover.md
               - name: Implement cloud solutions
                 items:
                   - name: Implement cloud solutions with Dynamics 365
@@ -523,6 +525,8 @@ items:
                     href: implementation-guide/implementation-strategy-define-strategy-adoption-change-management.md
           - name: Initiate
             items:
+              - name: Initiate phase
+                href: implementation-guide/success-by-design-initiate.md
               - name: Solution architecture design pillars
                 items:
                   - name: Introduction to solution architecture
@@ -637,6 +641,8 @@ items:
                 href: organizational-strategy/define-organizational-strategy.md
           - name: Implement
             items:
+              - name: Implement phase
+                href: implementation-guide/success-by-design-implement.md
               - name: Application lifecycle management
                 items:
                   - name: Application lifecycle management overview
@@ -723,6 +729,8 @@ items:
                     href: implementation-guide/testing-strategy-case-study.md
           - name: Prepare
             items:
+              - name: Prepare phase
+                href: implementation-guide/success-by-design-prepare.md
               - name: Prepare to go live
                 items:
                   - name: Prepare for go-live
@@ -753,6 +761,8 @@ items:
                     href: implementation-guide/training-strategy-case-study.md
           - name: Operate
             items:
+              - name: Operate phase
+                href: implementation-guide/success-by-design-operate.md
               - name: Service the solution
                 items:
                   - name: Service the solution - Overview
