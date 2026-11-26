@@ -74,7 +74,7 @@ The following components are used in the reference architecture.
 1. [Security roles](/power-platform/admin/security-roles-privileges) must be part of your setup of business units and teams. Security roles ensure that schedulers and facilitators or assessors map to specific programs, and that they can view and update only the information they're authorized to access.
 1. [Dataverse](https://www.microsoft.com/power-platform/dataverse) stores master data and transactional data.
 1. [Power Platform Admin Center](/power-platform/admin/admin-documentation) is a unified portal for admins to manage environments and settings for Power Apps, Power Automate, Power Pages, and Microsoft Copilot Studio.
-1. [Copilot Studio agents](https://www.microsoft.com/en-in/microsoft-365-copilot/microsoft-copilot-studio) Microsoft Copilot Studio is a graphical, low-code studio for building and managing AI-powered agents and workflows. Build agents and workflows, connect them to your organization's data and systems, and publish them to the channels where your users already work.
+1. [Copilot Studio agents](https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio). Microsoft Copilot Studio is a graphical, low-code studio for building and managing AI-powered agents and workflows. Build agents and workflows, connect them to your organization's data and systems, and publish them to the channels where your users already work.
 1. [Azure Document Intelligence ](https://azure.microsoft.com/en-in/products/ai-foundry/tools/document-intelligence) Azure Document Intelligence (now part of Azure Content Understanding) is a Foundry Tool that applies advanced AI models to extract text, key-value pairs, tables, and structures from documents automatically and accurately. Azure Document Intelligence provides high-accuracy and reliable extraction of structured and templated documents.
 
 ## Scenario details
@@ -146,7 +146,6 @@ Operational costs in this implementation include license costs for Field Service
 - [Dynamics 365 Pricing](https://www.microsoft.com/en/dynamics-365/pricing-overview)
 - [Power Pages Pricing](https://www.microsoft.com/en/power-platform/products/power-pages/pricing)
 - [Power Automate Pricing](https://www.microsoft.com/en/power-platform/products/power-automate/pricing)
-- [Microsoft Copilot Studio Licensing Guide](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/ai/MicrosoftCopilotStudioLicensingGuide.pdf)
 - [Pricing - Azure Document Intelligence in Foundry Tools | Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/document-intelligence/)
 
 ## Related content
